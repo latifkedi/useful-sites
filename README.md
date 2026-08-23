@@ -36,7 +36,7 @@ to its Wayback Machine copy.
 
 Method and structure: [ABOUT.md](ABOUT.md).
 Build scripts and how to add an entry: [data/README.md](data/README.md).
-Repository setup and publishing: [PUBLISHING.md](PUBLISHING.md).
+Contributing: [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 

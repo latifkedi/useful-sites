@@ -83,6 +83,17 @@ as plain HTML with no JavaScript.
 build does not depend on a path on one particular machine. `build.py` exposes
 `refresh_added()` for when that file is at hand.
 
+## Repository settings the automation depends on
+
+**Actions write permission.** Settings → Actions → General → Workflow
+permissions → `Read and write permissions`. Without it the weekly scan cannot
+write `verified.json` and `health.json` back, so the dates on the site freeze,
+and the approval workflow cannot push a branch.
+
+**Labels.** `new-link` and `broken-entry` come from the issue templates,
+`link-check` marks the weekly maintenance issue, and `approved` is the one a
+maintainer adds by hand to turn a submission into a pull request.
+
 ## Weekly check
 
 `.github/workflows/link-check.yml` runs every Monday. It opens a single issue
