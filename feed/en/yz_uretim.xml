@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title>AI · Generative Media — Useful Sites</title>
+<subtitle>An annotated directory of links on software, AI, security and science. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/yz_uretim.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/yz_uretim.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/en/yz_uretim.xml</id>
+<updated>2026-08-21T20:53:20Z</updated>
+<entry>
+  <title>Video2X</title>
+  <link href="https://github.com/k4yt3x/video2x"/>
+  <id>https://github.com/k4yt3x/video2x</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A framework that upscales video frame by frame with neural models, driving waifu2x, Real-ESRGAN and Anime4K behind the scenes. Against single-image upscalers it takes on the video pipeline and temporal consistency.</summary>
+</entry>
+<entry>
+  <title>Adobe Firefly</title>
+  <link href="https://firefly.adobe.com/"/>
+  <id>https://firefly.adobe.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Trained on Adobe Stock and public-domain work, so commercial legal risk is low. It gets picked for client work because of that licence clarity, not image quality.</summary>
+</entry>
+<entry>
+  <title>Auphonic</title>
+  <link href="https://auphonic.com/"/>
+  <id>https://auphonic.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Levels, denoises and normalises loudness to broadcast targets (LUFS). A post-production tool, not a live one — the last step before a podcast ships.</summary>
+</entry>
+<entry>
+  <title>Bing Image Creator</title>
+  <link href="https://www.bing.com/images/create"/>
+  <id>https://www.bing.com/images/create</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>DALL·E-based with no barrier beyond a Microsoft account. Not top-tier quality, but among the lowest-friction options.</summary>
+</entry>
+<entry>
+  <title>BlenderGPT</title>
+  <link href="https://github.com/gd3kr/BlenderGPT"/>
+  <id>https://github.com/gd3kr/BlenderGPT</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Translates a natural-language instruction into Blender Python API calls. It does not generate models — it operates Blender’s own tools for you, so the result stays reproducible.</summary>
+</entry>
+<entry>
+  <title>Canva</title>
+  <link href="https://www.canva.com/"/>
+  <id>https://www.canva.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A template library and brand kit produce consistent output without design skill. That is also the ceiling — the tool resists once you step outside the templates.</summary>
+</entry>
+<entry>
+  <title>CapCut</title>
+  <link href="https://www.capcut.com/"/>
+  <id>https://www.capcut.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Auto-captioning, speaker tracking and vertical-format templates. Far faster than Premiere for short-form, and correspondingly shallow on colour and audio.</summary>
+</entry>
+<entry>
+  <title>Clipdrop</title>
+  <link href="https://clipdrop.co/"/>
+  <id>https://clipdrop.co/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Bundles object removal, relighting, upscaling and background replacement in one place, so one account covers what would otherwise be several services.</summary>
+</entry>
+<entry>
+  <title>ComfyUI</title>
+  <link href="https://www.comfy.org/"/>
+  <id>https://www.comfy.org/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>You build the pipeline as a node graph — model loading, sampling, VAE decode as separate nodes. Harder to set up, but a workflow exports as JSON and reproduces exactly.</summary>
+</entry>
+<entry>
+  <title>Craiyon</title>
+  <link href="https://www.craiyon.com/"/>
+  <id>https://www.craiyon.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Works without signup. Output quality sits well behind current models; it claims nothing beyond fast, frictionless experimentation.</summary>
+</entry>
+<entry>
+  <title>Dream Textures</title>
+  <link href="https://github.com/carson-katri/dream-textures"/>
+  <id>https://github.com/carson-katri/dream-textures</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Generates textures and HDRIs inside Blender, with seamless tiling and projection painting straight onto a mesh — removing the generate-elsewhere-then-import step.</summary>
+</entry>
+<entry>
+  <title>Fooocus</title>
+  <link href="https://github.com/lllyasviel/Fooocus"/>
+  <id>https://github.com/lllyasviel/Fooocus</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The opposite pole from ComfyUI — it hides sampler, steps and CFG behind good defaults, aiming to deliver a Midjourney-like experience locally.</summary>
+</entry>
+<entry>
+  <title>Gamma</title>
+  <link href="https://gamma.app/"/>
+  <id>https://gamma.app/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Produces scrollable pages rather than slides, with the layout adapting as content grows so you stop fighting to fit a box. Exports to PowerPoint and PDF.</summary>
+</entry>
+<entry>
+  <title>Homestyler</title>
+  <link href="https://www.homestyler.com/"/>
+  <id>https://www.homestyler.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>You design from catalogues of real furniture brands, so every item in the scene has a purchasable counterpart.</summary>
+</entry>
+<entry>
+  <title>Ideogram</title>
+  <link href="https://ideogram.ai/"/>
+  <id>https://ideogram.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>One of the few models that renders legible text inside an image, getting letters right on posters, logos and packaging where other diffusion models mangle them.</summary>
+</entry>
+<entry>
+  <title>InstantMesh</title>
+  <link href="https://github.com/TencentARC/InstantMesh"/>
+  <id>https://github.com/TencentARC/InstantMesh</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Generates intermediate views from one image via multi-view diffusion, then reconstructs a mesh. Returning usable surfaces rather than a point cloud shortens the rest of the pipeline.</summary>
+</entry>
+<entry>
+  <title>InvokeAI</title>
+  <link href="https://github.com/invoke-ai/InvokeAI"/>
+  <id>https://github.com/invoke-ai/InvokeAI</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Regional generation and editing on an infinite canvas, built with professional workflows and team use in mind. A commercial edition exists alongside.</summary>
+</entry>
+<entry>
+  <title>Krisp</title>
+  <link href="https://krisp.ai/"/>
+  <id>https://krisp.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Installs as a virtual microphone device and kills noise at the source, so it works across Zoom, Teams and any recorder alike — past the limit of per-app solutions.</summary>
+</entry>
+<entry>
+  <title>Krita AI Diffusion</title>
+  <link href="https://github.com/Acly/krita-ai-diffusion"/>
+  <id>https://github.com/Acly/krita-ai-diffusion</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Wires Krita’s layers and masks straight into diffusion — select a region and generate into it. You stay inside your existing painting flow instead of switching tools.</summary>
+</entry>
+<entry>
+  <title>Leonardo AI</title>
+  <link href="https://leonardo.ai/"/>
+  <id>https://leonardo.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>You can train a style model on your own images and reuse it, which becomes decisive when game assets need a consistent look.</summary>
+</entry>
+<entry>
+  <title>Luma AI</title>
+  <link href="https://lumalabs.ai/"/>
+  <id>https://lumalabs.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Alongside video generation it turns an object you filmed on a phone into 3D via NeRF/Gaussian splatting. That second leg is what separates it from pure video models.</summary>
+</entry>
+<entry>
+  <title>Microsoft Designer</title>
+  <link href="https://designer.microsoft.com/"/>
+  <id>https://designer.microsoft.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Returns the generated image as a layered, editable layout, so unlike the flat raster you get from pure generators you can keep working on it.</summary>
+</entry>
+<entry>
+  <title>Napkin AI</title>
+  <link href="https://www.napkin.ai/"/>
+  <id>https://www.napkin.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Turns plain prose into flow charts, timelines and comparison graphics as editable vectors. It does not build decks; it visualises one idea.</summary>
+</entry>
+<entry>
+  <title>Otter.ai</title>
+  <link href="https://otter.ai/"/>
+  <id>https://otter.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Joins a meeting, transcribes live and separates speakers. Unlike upload-after-the-fact tools it lets you stop taking notes while the meeting is still running.</summary>
+</entry>
+<entry>
+  <title>PicLumen</title>
+  <link href="https://piclumen.com/"/>
+  <id>https://piclumen.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Focused on character and product imagery, with a free tier generous enough for daily use.</summary>
+</entry>
+<entry>
+  <title>Pika</title>
+  <link href="https://pika.art/"/>
+  <id>https://pika.art/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Generates short video from text and images, with camera motion and effects exposed as parameters — you steer the motion instead of hoping the prompt lands.</summary>
+</entry>
+<entry>
+  <title>Pitch</title>
+  <link href="https://pitch.com/"/>
+  <id>https://pitch.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Live co-editing, comments and brand templates make a deck behave like a team document. Its analytics show which slide a recipient stopped on.</summary>
+</entry>
+<entry>
+  <title>Planner 5D</title>
+  <link href="https://planner5d.com/"/>
+  <id>https://planner5d.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Draw a floor plan and get an instant 3D render. No CAD precision — it is for a fast presentation image, not a dimensioned technical drawing.</summary>
+</entry>
+<entry>
+  <title>Playground AI</title>
+  <link href="https://playground.com/"/>
+  <id>https://playground.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Combines generation and editing on one canvas, with region-selective regeneration (inpainting) built into the flow — which suits piecemeal correction.</summary>
+</entry>
+<entry>
+  <title>Point-E</title>
+  <link href="https://github.com/openai/point-e"/>
+  <id>https://github.com/openai/point-e</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The generation before Shap-E, producing point clouds that need a separate meshing step. Fast but coarse, with little practical use left today.</summary>
+</entry>
+<entry>
+  <title>Predis.ai</title>
+  <link href="https://predis.ai/"/>
+  <id>https://predis.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Generates visuals and short video alongside copy, with competitor-oriented templates. That is where it separates from text-only tools.</summary>
+</entry>
+<entry>
+  <title>remove.bg</title>
+  <link href="https://www.remove.bg/"/>
+  <id>https://www.remove.bg/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Single-purpose background removal with an API and batch mode, so it drops into a pipeline. Better than general tools on hair and transparent edges.</summary>
+</entry>
+<entry>
+  <title>Shap-E</title>
+  <link href="https://github.com/openai/shap-e"/>
+  <id>https://github.com/openai/shap-e</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>An OpenAI model producing implicit 3D representations from text. A research release: the output is not production quality, and its value is historical and academic.</summary>
+</entry>
+<entry>
+  <title>Simplified</title>
+  <link href="https://simplified.com/"/>
+  <id>https://simplified.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Bundles design, copy, video editing and scheduling in one app. Behind the specialists at each task, but a sensible trade if reducing tool count is the goal.</summary>
+</entry>
+<entry>
+  <title>SlidesAI</title>
+  <link href="https://www.slidesai.io/"/>
+  <id>https://www.slidesai.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Runs as a Google Slides add-on, generating slides from text without leaving your existing file — no migration to another platform and no export step back.</summary>
+</entry>
+<entry>
+  <title>Spline</title>
+  <link href="https://spline.design/"/>
+  <id>https://spline.design/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Design a 3D scene in the browser and embed it straight into a page. Not general-purpose like Blender — the output is optimised for the web from the start.</summary>
+</entry>
+<entry>
+  <title>Stable Diffusion WebUI</title>
+  <link href="https://github.com/AUTOMATIC1111/stable-diffusion-webui"/>
+  <id>https://github.com/AUTOMATIC1111/stable-diffusion-webui</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The most widespread interface for local generation, with a huge extension ecosystem (ControlNet, LoRA loaders). The repo is no longer actively developed, but the installed base is still the largest.</summary>
+</entry>
+<entry>
+  <title>Stable Fast 3D</title>
+  <link href="https://huggingface.co/stabilityai/stable-fast-3d"/>
+  <id>https://huggingface.co/stabilityai/stable-fast-3d</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Produces a UV-unwrapped, textured mesh from one image in about half a second. Quality is not top-tier, but at batch scale the speed difference decides.</summary>
+</entry>
+<entry>
+  <title>Tripo AI</title>
+  <link href="https://www.tripo3d.ai/"/>
+  <id>https://www.tripo3d.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A direct rival to Meshy with shorter generation times and generally cleaner topology, which means less manual cleanup afterwards.</summary>
+</entry>
+<entry>
+  <title>Whisper</title>
+  <link href="https://github.com/openai/whisper"/>
+  <id>https://github.com/openai/whisper</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The open standard for speech recognition, covering 90+ languages at usable accuracy in Turkish too. It runs locally, so the recording never leaves the machine.</summary>
+</entry>
+</feed>

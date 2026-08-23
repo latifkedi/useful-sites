@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
+<title>Backend, API &amp; Sistem Tasarımı — Kullanışlı Siteler</title>
+<subtitle>Yazılım, yapay zeka, güvenlik ve bilim üzerine açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/backend.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/backend.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/backend.xml</id>
+<updated>2026-08-21T20:53:20Z</updated>
+<entry>
+  <title>Convex</title>
+  <link href="https://www.convex.dev/"/>
+  <id>https://www.convex.dev/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Veritabanı, sunucu işlevleri ve gerçek zamanlı abonelikleri tek üründe toplayan backend platformu. Firebase’den farkı sorguların TypeScript fonksiyonu olarak yazılması ve işlem (transaction) garantisi vermesi — döküman veritabanı esnekliğiyle ilişkisel tutarlılık.</summary>
+</entry>
+<entry>
+  <title>Free Public APIs</title>
+  <link href="https://www.freepublicapis.com/"/>
+  <id>https://www.freepublicapis.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Üç yüzden fazla ücretsiz genel API’nin dizini; her biri için canlılık durumu ve son kontrol tarihi tutuluyor. Eski awesome-list derlemelerinden farkı bu: listedeki API’lerin hâlâ yanıt verip vermediğini düzenli olarak tarıyor.</summary>
+</entry>
+<entry>
+  <title>Porkbun</title>
+  <link href="https://porkbun.com/"/>
+  <id>https://porkbun.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>ICANN akreditasyonlu alan adı kayıt şirketi; WHOIS gizliliği, SSL ve e-posta yönlendirme ücretsiz geliyor. GoDaddy tarzı kayıtçılardan farkı yenileme fiyatının ilk yıl fiyatına yakın kalması — cazip giriş fiyatı sonra üç katına çıkmıyor.</summary>
+</entry>
+<entry>
+  <title>High Scalability</title>
+  <link href="https://highscalability.com/"/>
+  <id>https://highscalability.com/</id>
+  <updated>2026-08-19T23:34:09Z</updated>
+  <summary>On beş yılı aşkın mimari yazısı arşivi. Eski yazılar teknoloji olarak eskimiş olsa da ölçekleme baskısının nasıl karşılandığını görmek için hâlâ okunuyor.</summary>
+</entry>
+<entry>
+  <title>System Design One</title>
+  <link href="https://systemdesign.one/"/>
+  <id>https://systemdesign.one/</id>
+  <updated>2026-08-19T23:34:06Z</updated>
+  <summary>Gerçek şirketlerin mimarisini vaka çalışması olarak çözümlüyor; sayısal büyüklükler ve yapılan takasları veriyor. Soyut anlatımlardan bu somutluk ayırıyor.</summary>
+</entry>
+<entry>
+  <title>Webhook.site</title>
+  <link href="https://webhook.site/"/>
+  <id>https://webhook.site/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Anında bir URL veriyor ve o adrese gelen istekleri başlıklarıyla birlikte gösteriyor. Yerel sunucu açıp tünellemekten farkı sıfır kurulum — bir webhook’un gerçekten ne gönderdiğini görmek için en kısa yol.</summary>
+</entry>
+<entry>
+  <title>Stripe</title>
+  <link href="https://stripe.com/en-nl?utm_campaign=EMEA_NL_en_Google_Search_Brand_Stripe_EXA-20981195258&amp;utm_medium=cpc&amp;utm_source=google&amp;utm_content=689219303694&amp;utm_term=stripe&amp;utm_matchtype=e&amp;utm_adposition=&amp;utm_device=c"/>
+  <id>https://stripe.com/en-nl?utm_campaign=EMEA_NL_en_Google_Search_Brand_Stripe_EXA-20981195258&amp;utm_medium=cpc&amp;utm_source=google&amp;utm_content=689219303694&amp;utm_term=stripe&amp;utm_matchtype=e&amp;utm_adposition=&amp;utm_device=c</id>
+  <updated>2026-07-29T07:58:07Z</updated>
+  <summary>Ödeme altyapısı. Dokümantasyonu sektörde ölçüt kabul ediliyor — test kartları, webhook yeniden deneme mantığı ve idempotency anahtarları örneklerle anlatılmış.</summary>
+</entry>
+<entry>
+  <title>GraphQL</title>
+  <link href="https://graphql.org/"/>
+  <id>https://graphql.org/</id>
+  <updated>2026-07-26T09:58:27Z</updated>
+  <summary>İstemci hangi alanları istediğini kendi belirtiyor; fazla veri çekme ve az veri çekme sorunu şema düzeyinde çözülüyor. Bedeli önbellekleme ve hız sınırlamanın REST’ten zor olması.</summary>
+</entry>
+<entry>
+  <title>Refactoring Guru</title>
+  <link href="https://refactoring.guru/"/>
+  <id>https://refactoring.guru/</id>
+  <updated>2026-05-11T15:32:43Z</updated>
+  <summary>Her tasarım desenini şema, gerçekçi örnek ve kod olarak veriyor — üstelik altı ayrı dilde. Gang of Four kitabının okunması güç metnine karşı erişilebilir bir karşılık.</summary>
+</entry>
+<entry>
+  <title>Express</title>
+  <link href="https://expressjs.com/"/>
+  <id>https://expressjs.com/</id>
+  <updated>2026-04-20T13:01:16Z</updated>
+  <summary>Node.js’in minimal çatısı; ara katman (middleware) modelini standartlaştırdığı için ekosistemin ortak dili hâline geldi. Yıllardır neredeyse hiç değişmemesi hem güç hem zayıflık.</summary>
+</entry>
+<entry>
+  <title>WordPress Developer</title>
+  <link href="https://developer.wordpress.org/"/>
+  <id>https://developer.wordpress.org/</id>
+  <updated>2026-04-20T13:01:05Z</updated>
+  <summary>Eklenti ve tema geliştirme referansı. Kanca (hook) sistemi WordPress’in tamamını açıklayan tek kavram; onu anlamadan hiçbir şey yerine oturmuyor.</summary>
+</entry>
+<entry>
+  <title>Laracasts</title>
+  <link href="https://laracasts.com/"/>
+  <id>https://laracasts.com/</id>
+  <updated>2026-04-20T13:01:04Z</updated>
+  <summary>Laravel ekosisteminin ana video kaynağı; resmî dokümanın anlatmadığı mimari kararları işliyor. Ekosistem eğitimini tek bir sitenin taşıması alışılmadık bir durum.</summary>
+</entry>
+<entry>
+  <title>Laravel</title>
+  <link href="https://laravel.com/docs/13.x"/>
+  <id>https://laravel.com/docs/13.x</id>
+  <updated>2026-04-20T13:01:04Z</updated>
+  <summary>Kuyruk, zamanlayıcı, olay yayını ve test araçları çekirdekte. PHP’nin “eski dil” imajının aksine burada kurulan geliştirici deneyimi çoğu modern çatının üstünde.</summary>
+</entry>
+<entry>
+  <title>PHP: The Right Way</title>
+  <link href="https://phptherightway.com/"/>
+  <id>https://phptherightway.com/</id>
+  <updated>2026-04-20T13:01:04Z</updated>
+  <summary>Güncel PHP pratiklerini derliyor: Composer, PSR standartları, hazırlanmış sorgular. İnternette dolaşan `mysql_*` fonksiyonlu eski örneklere karşı düzeltici bir metin.</summary>
+</entry>
+<entry>
+  <title>Flask</title>
+  <link href="https://flask.palletsprojects.com/en/stable/"/>
+  <id>https://flask.palletsprojects.com/en/stable/</id>
+  <updated>2026-04-20T13:01:03Z</updated>
+  <summary>Çekirdek kasten küçük: yönlendirme ve şablon var, ORM ve kimlik doğrulama yok. Ne kullanacağına sen karar veriyorsun, bu da her projede yeniden karar vermek anlamına geliyor.</summary>
+</entry>
+<entry>
+  <title>PHP El Kitabı (Türkçe)</title>
+  <link href="https://www.php.net/manual/tr/"/>
+  <id>https://www.php.net/manual/tr/</id>
+  <updated>2026-04-20T13:01:03Z</updated>
+  <summary>Fonksiyon referansı için birincil kaynak. Sayfa altındaki kullanıcı yorumları bazen dokümanın kendisinden faydalı, bazen on yıllık kötü tavsiye — tarihe bakmak gerekiyor.</summary>
+</entry>
+<entry>
+  <title>Django</title>
+  <link href="https://docs.djangoproject.com/en/6.0/"/>
+  <id>https://docs.djangoproject.com/en/6.0/</id>
+  <updated>2026-04-20T13:01:02Z</updated>
+  <summary>ORM, göç sistemi, yönetim paneli ve kimlik doğrulama kutudan çıkıyor. İlk haftayı kazandırıyor; Django’nun kalıbı dışına çıkmak istediğinde direnç gösteriyor.</summary>
+</entry>
+<entry>
+  <title>FastAPI</title>
+  <link href="https://fastapi.tiangolo.com/"/>
+  <id>https://fastapi.tiangolo.com/</id>
+  <updated>2026-04-20T13:01:02Z</updated>
+  <summary>Tip ipuçlarından hem doğrulama hem OpenAPI şeması üretiyor; `/docs` adresinde çalışan bir test arayüzü kendiliğinden geliyor. Asenkron desteği ASGI üzerinden yerleşik.</summary>
+</entry>
+<entry>
+  <title>Public APIs</title>
+  <link href="https://github.com/public-apis/public-apis"/>
+  <id>https://github.com/public-apis/public-apis</id>
+  <updated>2026-04-20T11:59:44Z</updated>
+  <summary>Kategorili ücretsiz API listesi; kimlik doğrulama türü, HTTPS ve CORS desteği tabloda işaretli. Prototipe veri lazım olduğunda ilk durak.</summary>
+</entry>
+<entry>
+  <title>Node.js Learn</title>
+  <link href="https://nodejs.org/learn"/>
+  <id>https://nodejs.org/learn</id>
+  <updated>2026-04-06T17:09:23Z</updated>
+  <summary>Çatı öğretmeden önce çalışma zamanının kendisini anlatıyor: olay döngüsü, akışlar, işçi iş parçacıkları. Express öğrenip Node bilmemek yaygın bir boşluk.</summary>
+</entry>
+<entry>
+  <title>Kıdemli Mühendis Gibi API Tasarımı</title>
+  <link href="https://www.youtube.com/watch?v=7iHl71nt49o"/>
+  <id>https://www.youtube.com/watch?v=7iHl71nt49o</id>
+  <updated>2026-04-06T11:39:45Z</updated>
+  <summary>REST ile GraphQL’i, kimlik doğrulama ve güvenlik kararlarını tek videoda karşılaştırıyor. Hangisinin ne zaman doğru olduğu sorusuna cevap veriyor.</summary>
+</entry>
+<entry>
+  <title>FastAPI ile 15 Dakikada REST API</title>
+  <link href="https://www.youtube.com/watch?v=iWS9ogMPOI0"/>
+  <id>https://www.youtube.com/watch?v=iWS9ogMPOI0</id>
+  <updated>2026-04-06T11:39:31Z</updated>
+  <summary>Yönlendirme, Pydantic modeli ve otomatik doküman üretimini uçtan uca gösteren kısa video. Dokümana dalmadan önce çatının şeklini görmek için.</summary>
+</entry>
+<entry>
+  <title>API Tasarımı ve Mimarisi</title>
+  <link href="https://www.youtube.com/watch?v=XvFmUE-36Kc"/>
+  <id>https://www.youtube.com/watch?v=XvFmUE-36Kc</id>
+  <updated>2026-04-06T11:39:09Z</updated>
+  <summary>Bir saatlik backend giriş anlatımı; kaynak adlandırma, sürümleme ve hata biçimi kararlarını gerekçeleriyle işliyor.</summary>
+</entry>
+<entry>
+  <title>Public API Lists</title>
+  <link href="https://github.com/public-api-lists/public-api-lists"/>
+  <id>https://github.com/public-api-lists/public-api-lists</id>
+  <updated>2026-04-05T20:39:05Z</updated>
+  <summary>Public APIs’in sürdürülen çatalı. Asıl depo bir dönem bakımsız kaldığında ortaya çıktı; bazı girdileri daha güncel.</summary>
+</entry>
+<entry>
+  <title>System Design Primer</title>
+  <link href="https://github.com/donnemartin/system-design-primer"/>
+  <id>https://github.com/donnemartin/system-design-primer</id>
+  <updated>2026-04-05T20:36:39Z</updated>
+  <summary>Ölçekleme kavramlarını (önbellek, parçalama, kuyruk, CAP) örnek mimarilerle birlikte veriyor. Alanın en çok yıldızlanan kaynağı; mülakat dışında da mimari sözlüğü olarak işe yarıyor.</summary>
+</entry>
+<entry>
+  <title>Otel Rezervasyon Sistemi Tasarımı</title>
+  <link href="https://www.youtube.com/watch?v=bA0r0CBuj2Y"/>
+  <id>https://www.youtube.com/watch?v=bA0r0CBuj2Y</id>
+  <updated>2026-04-05T20:36:22Z</updated>
+  <summary>Uçtan uca vaka çalışması; eşzamanlı rezervasyon çakışması ve envanter kilitleme gibi gerçek problemleri mülakat formatında çözüyor.</summary>
+</entry>
+<entry>
+  <title>Sistem Tasarımı Anlatımı</title>
+  <link href="https://www.youtube.com/watch?v=adOkTjIIDnk"/>
+  <id>https://www.youtube.com/watch?v=adOkTjIIDnk</id>
+  <updated>2026-04-05T20:35:56Z</updated>
+  <summary>API, veritabanı, önbellek, CDN ve yük dengeleyiciyi tek anlatımda birleştiren giriş. Parçaların birbirine nasıl bağlandığını görmek için.</summary>
+</entry>
+</feed>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title>AI · Applied Tools — Useful Sites</title>
+<subtitle>An annotated directory of links on software, AI, security and science. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/yz_arac.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/yz_arac.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/en/yz_arac.xml</id>
+<updated>2026-08-21T20:53:20Z</updated>
+<entry>
+  <title>Axiom.ai</title>
+  <link href="https://axiom.ai/"/>
+  <id>https://axiom.ai/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Browser automation as a browser extension, with form filling, clicking and scraping steps assembled by drag and drop. Against Puppeteer or Playwright it runs inside your own session, so pages you are already logged into need no separate authentication.</summary>
+</entry>
+<entry>
+  <title>Browse AI</title>
+  <link href="https://browse.ai/"/>
+  <id>https://browse.ai/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Extracts data from websites and monitors them for changes without code — you train it by clicking in the browser. Against frameworks like Scrapy there are no selectors to write, and it attempts to self-heal when a page layout shifts.</summary>
+</entry>
+<entry>
+  <title>LibreTranslate</title>
+  <link href="https://libretranslate.com/"/>
+  <id>https://libretranslate.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A self-hostable machine translation API running Argos Translate models. Against the Google Translate API the text never leaves your server and there is no per-request charge — lower quality, higher privacy.</summary>
+</entry>
+<entry>
+  <title>ResuMax</title>
+  <link href="https://github.com/resumax"/>
+  <id>https://github.com/resumax</id>
+  <updated>2026-08-19T23:18:51Z</updated>
+  <summary>Tailors a résumé to a specific posting and watches the formatting that ATS parsers need. That matching step is what general writing assistants miss.</summary>
+</entry>
+<entry>
+  <title>Ada Health</title>
+  <link href="https://ada.com/"/>
+  <id>https://ada.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Narrows symptoms through a structured question flow and ranks possible causes; CE-marked as a medical device. The disciplined form of searching symptoms online.</summary>
+</entry>
+<entry>
+  <title>Aider</title>
+  <link href="https://aider.chat/"/>
+  <id>https://aider.chat/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Runs in the terminal and writes each change as its own git commit. Reverting a step you dislike with `git revert` is a safety net editor-based assistants do not offer.</summary>
+</entry>
+<entry>
+  <title>AlphaFold Server</title>
+  <link href="https://alphafoldserver.com/"/>
+  <id>https://alphafoldserver.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Predicts structures of protein, DNA and ligand complexes with AlphaFold 3, needing no install or GPU. Daily job counts are capped and commercial use is restricted.</summary>
+</entry>
+<entry>
+  <title>AskYourPDF</title>
+  <link href="https://askyourpdf.com/"/>
+  <id>https://askyourpdf.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Collects many documents into one library you can query together, with page-cited answers. That is where it parts from single-file tools.</summary>
+</entry>
+<entry>
+  <title>AutoGluon</title>
+  <link href="https://auto.gluon.ai/"/>
+  <id>https://auto.gluon.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Three lines gives a strong baseline on tabular data, training several models and combining them by stacking. Frequently used as a Kaggle baseline.</summary>
+</entry>
+<entry>
+  <title>BioGPT</title>
+  <link href="https://github.com/microsoft/BioGPT"/>
+  <id>https://github.com/microsoft/BioGPT</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A language model trained on PubMed abstracts, more accurate than general models at tasks like drug–disease relation extraction. Built for information extraction rather than generation.</summary>
+</entry>
+<entry>
+  <title>Blackbox AI</title>
+  <link href="https://www.blackbox.ai/"/>
+  <id>https://www.blackbox.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Merges snippet search with chat, searching repositories and docs and using the hits as context.</summary>
+</entry>
+<entry>
+  <title>Bolt.new</title>
+  <link href="https://bolt.new/"/>
+  <id>https://bolt.new/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Runs Node.js in the browser via WebContainers, so the generated full-stack app previews instantly without a server round trip, and errors are fixed in place.</summary>
+</entry>
+<entry>
+  <title>Buffer AI Assistant</title>
+  <link href="https://buffer.com/ai-assistant"/>
+  <id>https://buffer.com/ai-assistant</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Lives inside the scheduling tool, repackaging one post for each platform’s tone and length — removing the round trip to a separate copy tool.</summary>
+</entry>
+<entry>
+  <title>ChatPDF</title>
+  <link href="https://www.chatpdf.com/"/>
+  <id>https://www.chatpdf.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Upload and ask without signing up — the lowest-friction path to interrogating a single document. No library management or multi-document support.</summary>
+</entry>
+<entry>
+  <title>ChemCrow</title>
+  <link href="https://github.com/ur-whitelab/chemcrow-public"/>
+  <id>https://github.com/ur-whitelab/chemcrow-public</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>An LLM agent that operates chemistry tools — RDKit, reaction databases, synthesis planners. Consulting real computation instead of the model’s recall sharply lowers error in chemistry.</summary>
+</entry>
+<entry>
+  <title>Cline</title>
+  <link href="https://cline.bot/"/>
+  <id>https://cline.bot/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Creates files and runs commands inside VS Code, asking approval for each action. That slowing step is also what returns the oversight autonomous agents take away.</summary>
+</entry>
+<entry>
+  <title>CodeGeeX</title>
+  <link href="https://codegeex.cn/"/>
+  <id>https://codegeex.cn/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>An open code model and plugin with a Chinese interface and regional infrastructure — a working alternative where access to Western services is limited.</summary>
+</entry>
+<entry>
+  <title>ColabFold</title>
+  <link href="https://github.com/sokrypton/ColabFold"/>
+  <id>https://github.com/sokrypton/ColabFold</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Speeds up sequence alignment with MMseqs2 to make AlphaFold runnable in Colab — for batch-processing your own sequences without hitting the server’s quota.</summary>
+</entry>
+<entry>
+  <title>Consensus</title>
+  <link href="https://consensus.app/"/>
+  <id>https://consensus.app/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Summarises which way the literature leans on a question and shows the ratio of supporting to contradicting studies. Finding one paper and seeing the field’s tendency are different jobs.</summary>
+</entry>
+<entry>
+  <title>Continue</title>
+  <link href="https://www.continue.dev/"/>
+  <id>https://www.continue.dev/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A VS Code and JetBrains plugin where you pick which model does completion and which does chat, separately. You can point it at a local model and never send code out.</summary>
+</entry>
+<entry>
+  <title>Cursor</title>
+  <link href="https://cursor.com/"/>
+  <id>https://cursor.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A VS Code fork that indexes your codebase and makes multi-file editing the primary flow. Unlike a plugin it proposes changes as diffs and waits for approval.</summary>
+</entry>
+<entry>
+  <title>DeepChem</title>
+  <link href="https://deepchem.io/"/>
+  <id>https://deepchem.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Machine learning for drug discovery, including molecular featurisation and dataset loaders — it takes on the tedious part of getting chemical data model-ready.</summary>
+</entry>
+<entry>
+  <title>DeepL Write</title>
+  <link href="https://www.deepl.com/write"/>
+  <id>https://www.deepl.com/write</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Rewrites the sentence and offers tone variants instead of flagging errors. Grammarly corrects, this rewrites — two different jobs.</summary>
+</entry>
+<entry>
+  <title>Elicit</title>
+  <link href="https://elicit.com/"/>
+  <id>https://elicit.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Screens hundreds of papers and extracts fields like sample size, method and finding into a table — precisely the screening step that eats the most time in a systematic review.</summary>
+</entry>
+<entry>
+  <title>Explainpaper</title>
+  <link href="https://www.explainpaper.com/"/>
+  <id>https://www.explainpaper.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Simplifies whichever passage you highlight in a PDF. It does not summarise the document; opening up the one place you got stuck is what makes it narrow but accurate.</summary>
+</entry>
+<entry>
+  <title>FinGPT</title>
+  <link href="https://github.com/AI4Finance-Foundation/FinGPT"/>
+  <id>https://github.com/AI4Finance-Foundation/FinGPT</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Open models and data pipelines for financial text, including fine-tunes for sentiment and news classification. An open research alternative to a Bloomberg terminal.</summary>
+</entry>
+<entry>
+  <title>Fireflies.ai</title>
+  <link href="https://fireflies.ai/"/>
+  <id>https://fireflies.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Extracts decisions, action items and questions rather than a raw transcript, and can write into a CRM. Otter concentrates on transcription; this on extraction.</summary>
+</entry>
+<entry>
+  <title>GitHub Copilot</title>
+  <link href="https://github.com/features/copilot"/>
+  <id>https://github.com/features/copilot</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>In-editor completion and chat, with enterprise policy control over whether code is sent to the model at all. That governance side is where rivals are thin.</summary>
+</entry>
+<entry>
+  <title>Google Colab</title>
+  <link href="https://colab.research.google.com/"/>
+  <id>https://colab.research.google.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Jupyter in the browser with a free T4 GPU. Sessions are time-limited and files vanish when the machine recycles, so long training runs need Drive mounted.</summary>
+</entry>
+<entry>
+  <title>Grammarly</title>
+  <link href="https://www.grammarly.com/"/>
+  <id>https://www.grammarly.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>English grammar and style checking through an extension that follows you everywhere you type. No Turkish support — it only makes sense when you write in English.</summary>
+</entry>
+<entry>
+  <title>H2O.ai</title>
+  <link href="https://h2o.ai/"/>
+  <id>https://h2o.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A distributed AutoML platform whose explainability and productionisation tooling is ahead of library-only solutions, and which can spill out of memory on large datasets.</summary>
+</entry>
+<entry>
+  <title>HubSpot Campaign Assistant</title>
+  <link href="https://www.hubspot.com/campaign-assistant"/>
+  <id>https://www.hubspot.com/campaign-assistant</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Generates email, landing page and ad copy against a campaign goal, free and without requiring a HubSpot account.</summary>
+</entry>
+<entry>
+  <title>Humata</title>
+  <link href="https://www.humata.ai/"/>
+  <id>https://www.humata.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Aimed at comparative reading of long technical documents, with a source-page link under each answer so you can verify the claim in the document itself.</summary>
+</entry>
+<entry>
+  <title>Julius AI</title>
+  <link href="https://julius.ai/"/>
+  <id>https://julius.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Upload a CSV or Excel and analyse by chatting; it runs Python behind the scenes, produces charts and shows the code it used — which is what makes the result verifiable.</summary>
+</entry>
+<entry>
+  <title>Kaggle Notebooks</title>
+  <link href="https://www.kaggle.com/code"/>
+  <id>https://www.kaggle.com/code</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Notebooks sitting on the same platform as the datasets, with a weekly GPU quota more predictable than Colab’s. The real value is being able to read other people’s solutions.</summary>
+</entry>
+<entry>
+  <title>KNIME</title>
+  <link href="https://www.knime.com/"/>
+  <id>https://www.knime.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Node-based visual analytics where the whole pipeline is saved and re-runnable. Common in enterprise data teams that need reproducibility without writing code.</summary>
+</entry>
+<entry>
+  <title>LanguageTool</title>
+  <link href="https://languagetool.org/"/>
+  <id>https://languagetool.org/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Rule-based checking for 30+ languages including Turkish, and it can be self-hosted — the only real option when the text must not go to a company.</summary>
+</entry>
+<entry>
+  <title>Legalese Decoder</title>
+  <link href="https://legalesedecoder.com/"/>
+  <id>https://legalesedecoder.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Translates contract language into plain prose while preserving clause structure, so you do not lose which sentence came from which clause.</summary>
+</entry>
+<entry>
+  <title>LightPDF</title>
+  <link href="https://lightpdf.com/"/>
+  <id>https://lightpdf.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Classic PDF chores — convert, compress, sign, OCR — with chat layered on. Broader than the single-purpose rivals and average at each individual job.</summary>
+</entry>
+<entry>
+  <title>Lovable</title>
+  <link href="https://lovable.dev/"/>
+  <id>https://lovable.dev/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Builds an app from chat and takes on the Supabase wiring and deployment too. Where v0 hands you a component, this aims at a running, database-backed product.</summary>
+</entry>
+</feed>

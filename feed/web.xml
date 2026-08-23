@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
+<title>Web &amp; Frontend — Kullanışlı Siteler</title>
+<subtitle>Yazılım, yapay zeka, güvenlik ve bilim üzerine açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/web.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/web.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/web.xml</id>
+<updated>2026-08-21T20:53:20Z</updated>
+<entry>
+  <title>30 Seconds of Code</title>
+  <link href="https://www.30secondsofcode.org/"/>
+  <id>https://www.30secondsofcode.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Otuz saniyede okunup anlaşılacak uzunlukta kod parçacıkları; JavaScript, Python, React ve CSS için. Stack Overflow’dan farkı her parçacığın açıklamalı, test edilmiş ve konu başlığına göre düzenlenmiş olması — arama değil, gezinme.</summary>
+</entry>
+<entry>
+  <title>Can I Use</title>
+  <link href="https://caniuse.com/"/>
+  <id>https://caniuse.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Bir web özelliğinin hangi tarayıcının hangi sürümünde çalıştığını gösteren tablo; kullanım oranlarıyla birlikte. MDN’den farkı, &quot;destekleniyor mu&quot; sorusuna sürüm ve pazar payı düzeyinde cevap vermesi — polyfill gerekip gerekmediğine buradan karar veriyorsun.</summary>
+</entry>
+<entry>
+  <title>Checklist Design</title>
+  <link href="https://www.checklist.design/"/>
+  <id>https://www.checklist.design/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Buton, form, tablo gibi arayüz parçaları için tek tek kontrol listeleri: hangi durumlar çizilmeli, hangi erişilebilirlik ayrıntısı atlanır. Tasarım sistemi belgelerinden farkı bileşen kütüphanesi dayatmaması — kendi bileşenini denetlemek için liste veriyor.</summary>
+</entry>
+<entry>
+  <title>CodeToGo</title>
+  <link href="https://codetogo.io/"/>
+  <id>https://codetogo.io/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>&quot;Diziyi nasıl ters çeviririm&quot; gibi günlük JavaScript sorularına güncel tek satırlık cevaplar. Stack Overflow’dan farkı cevabın 2012’den kalma olmaması — modern söz dizimiyle güncel tutuluyor.</summary>
+</entry>
+<entry>
+  <title>CSS-Tricks Snippets</title>
+  <link href="https://css-tricks.com/snippets/"/>
+  <id>https://css-tricks.com/snippets/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>CSS, HTML, JavaScript ve .htaccess için yıllar içinde biriktirilmiş parçacık arşivi. Rastgele blog yazılarından farkı her parçacığın kendi sayfası ve tartışması olması — yorumlarda genelde daha iyi bir sürüm bulunuyor.</summary>
+</entry>
+<entry>
+  <title>Easing Wizard</title>
+  <link href="https://easingwizard.com/"/>
+  <id>https://easingwizard.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>CSS yumuşatma (easing) eğrilerini görsel olarak kuran araç; cubic-bezier’in yanında linear() ile yay ve sıçrama eğrilerini de üretiyor. cubic-bezier.com’dan farkı bu modern linear() desteği — CSS’te yay animasyonu artık kütüphane gerektirmiyor.</summary>
+</entry>
+<entry>
+  <title>Howler.js</title>
+  <link href="https://howlerjs.com/"/>
+  <id>https://howlerjs.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Tarayıcılar arası ses oynatma kütüphanesi; Web Audio API’yi kullanıyor, olmadığı yerde HTML5 Audio’ya düşüyor. Ham Web Audio ile uğraşmaktan farkı ses sprite’ları, havuzlama ve mobil otomatik oynatma kilidini kendisi çözmesi.</summary>
+</entry>
+<entry>
+  <title>Ladybird</title>
+  <link href="https://ladybird.org/"/>
+  <id>https://ladybird.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Sıfırdan yazılan bağımsız tarayıcı motoru; Chromium, WebKit ya da Gecko’dan türetilmemiş. Diğer &quot;alternatif&quot; tarayıcılardan farkı tam olarak bu — ötekiler Chromium kabuğu, bu kendi motorunu yazıyor. Henüz günlük kullanıma hazır değil.</summary>
+</entry>
+<entry>
+  <title>Land-book</title>
+  <link href="https://land-book.com/"/>
+  <id>https://land-book.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>İyi tasarlanmış web sitelerinin küratörlü galerisi; sektöre, üsluba ve renge göre süzülebiliyor. Awwwards gibi ödül sitelerinden farkı gösterişli deneysel işler yerine gerçekten yayında olan ürün sitelerini toplaması.</summary>
+</entry>
+<entry>
+  <title>Lucide</title>
+  <link href="https://lucide.dev/"/>
+  <id>https://lucide.dev/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>1600’den fazla SVG ikon içeren kütüphane; React, Vue, Svelte için hazır paketleri var. Feather’ın topluluk çatallaması olarak devam ediyor — farkı, Feather bakımsız kalırken bunun aktif olarak büyümesi ve tek tek ikon içe aktarmaya (tree-shaking) uygun olması.</summary>
+</entry>
+<entry>
+  <title>Splide</title>
+  <link href="https://splidejs.com/"/>
+  <id>https://splidejs.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Bağımlılığı olmayan, erişilebilirlik odaklı kaydırıcı/karusel kütüphanesi. Swiper’a göre çok daha küçük (sıkıştırılmış ~12 KB) ve klavye gezinme ile ARIA rollerini varsayılan olarak doğru kuruyor — karusel erişilebilirliğinin klasik zayıf noktası.</summary>
+</entry>
+<entry>
+  <title>TeleportHQ</title>
+  <link href="https://teleporthq.io/"/>
+  <id>https://teleporthq.io/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Görsel arayüz tasarımından temiz React, Vue ya da HTML kodu üreten düşük kodlu platform. Webflow’dan farkı çıktının dışa aktarılabilir ve okunabilir bileşen kodu olması — tasarımı devralıp elle geliştirmeye devam edebiliyorsun.</summary>
+</entry>
+<entry>
+  <title>Uiverse</title>
+  <link href="https://uiverse.io/"/>
+  <id>https://uiverse.io/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Topluluğun katkı verdiği açık kaynak arayüz bileşeni galerisi: buton, kart, yükleyici, anahtar. CodePen’den farkı her parçanın MIT lisanslı, kopyala-yapıştır hazır ve saf CSS/Tailwind olarak sunulması — çatı bağımlılığı yok.</summary>
+</entry>
+<entry>
+  <title>Wakamai Fondue</title>
+  <link href="https://wakamaifondue.com/"/>
+  <id>https://wakamaifondue.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Bir font dosyasını sürükleyince içindeki her şeyi döküyor: karakter kümesi, OpenType özellikleri, değişken eksenler ve bunları açan hazır CSS. Font önizleyicilerinden farkı çıktının doğrudan kullanılabilir CSS olması.</summary>
+</entry>
+<entry>
+  <title>WebAIM</title>
+  <link href="https://webaim.org/"/>
+  <id>https://webaim.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Utah State Üniversitesi bünyesindeki erişilebilirlik merkezi; kontrast denetleyicisi, WAVE aracı ve yıllık &quot;Million&quot; taraması buradan çıkıyor. WCAG belgesinin kendisinden farkı, kuralı değil kuralın pratikte nasıl uygulandığını anlatması.</summary>
+</entry>
+<entry>
+  <title>CSS-Tricks</title>
+  <link href="https://css-tricks.com/"/>
+  <id>https://css-tricks.com/</id>
+  <updated>2026-08-19T23:34:04Z</updated>
+  <summary>Yirmi yıllık CSS tekniği arşivi; Flexbox ve Grid rehberleri fiilî başvuru kaynağı hâline geldi. Belirli bir düzen problemi ararken spesifikasyondan hızlı sonuç veriyor.</summary>
+</entry>
+<entry>
+  <title>Flexbox Froggy</title>
+  <link href="https://flexboxfroggy.com/"/>
+  <id>https://flexboxfroggy.com/</id>
+  <updated>2026-08-19T23:34:03Z</updated>
+  <summary>Kurbağaları hizalayarak Flexbox öğreten oyun; Grid Garden’ın kardeşi. justify-content ile align-items karışıklığını yirmi dakikada bitiriyor.</summary>
+</entry>
+<entry>
+  <title>Grid Garden</title>
+  <link href="https://cssgridgarden.com/"/>
+  <id>https://cssgridgarden.com/</id>
+  <updated>2026-08-19T23:34:00Z</updated>
+  <summary>Havuç sulayarak CSS Grid öğreten 28 bölümlük oyun. grid-column ve grid-area gibi özellikler yazarak öğrenildiğinde akılda kalıyor.</summary>
+</entry>
+<entry>
+  <title>W3C Markup Validation</title>
+  <link href="https://validator.w3.org/"/>
+  <id>https://validator.w3.org/</id>
+  <updated>2026-08-19T23:33:58Z</updated>
+  <summary>HTML’i spesifikasyona göre denetliyor; tarayıcının sessizce toparladığı kapatılmamış etiket ve geçersiz iç içe geçmeleri ortaya çıkarıyor. Erişilebilirlik sorunlarının bir kısmı buradan çıkar.</summary>
+</entry>
+<entry>
+  <title>HTML Reference</title>
+  <link href="https://htmlreference.io/"/>
+  <id>https://htmlreference.io/</id>
+  <updated>2026-08-19T23:33:57Z</updated>
+  <summary>Her HTML etiketi ve özniteliği görsel örnekle listelenmiş, tek sayfada göz gezdirilebiliyor. MDN’in derinliği yok ama “bu etiket ne yapıyordu” sorusuna daha hızlı cevap veriyor.</summary>
+</entry>
+<entry>
+  <title>Web Dev for Beginners</title>
+  <link href="https://github.com/microsoft/web-dev-for-beginners"/>
+  <id>https://github.com/microsoft/web-dev-for-beginners</id>
+  <updated>2026-08-19T23:19:56Z</updated>
+  <summary>24 derslik müfredat; her ders öncesi ve sonrası sınav, sonunda proje var. Kendi kendine çalışırken ilerlemeyi ölçebilmek için bu yapı işe yarıyor.</summary>
+</entry>
+<entry>
+  <title>Foundation for Sites</title>
+  <link href="https://get.foundation/sites.html"/>
+  <id>https://get.foundation/sites.html</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Bootstrap’ın uzun süreli rakibi olan duyarlı arayüz çatısı; XY ızgarası, erişilebilirlik odaklı bileşenler ve e-posta şablonları için ayrı bir sürümü var. Bootstrap’tan farkı daha az görsel kanaat dayatması — bileşenler biçimlendirilmemiş gelir, tasarımı sen kurarsın. Uyarı: son sürüm Eylül 2024, depoya son itme Ocak 2025; proje arşivlenmedi ama iki yıldır durgun ve tanıtım sitesi hâlâ 2017 tarihli bir web semineri duyuruyor.</summary>
+</entry>
+<entry>
+  <title>Snap.svg</title>
+  <link href="http://snapsvg.io"/>
+  <id>http://snapsvg.io</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>SVG’yi betikle üretmek ve canlandırmak için JavaScript kütüphanesi; Raphaël’in modern tarayıcılara yazılmış hâli. D3’ten farkı veri görselleştirme değil doğrudan SVG kurgulaması — grafik değil grafik nesnesi üretiyorsun.</summary>
+</entry>
+<entry>
+  <title>Maps Tracker</title>
+  <link href="https://mapstracker.com/"/>
+  <id>https://mapstracker.com/</id>
+  <updated>2026-07-28T08:37:57Z</updated>
+  <summary>Google Haritalar sıralamasını konum ızgarası üzerinde ölçüyor; aynı sorgunun mahalleden mahalleye nasıl değiştiğini gösteriyor. Genel SEO araçlarının kör noktası tam olarak burası.</summary>
+</entry>
+<entry>
+  <title>SEO Kriterleri</title>
+  <link href="https://www.cagrigungor.com/seo-kriterleri/"/>
+  <id>https://www.cagrigungor.com/seo-kriterleri/</id>
+  <updated>2026-07-26T10:23:33Z</updated>
+  <summary>Teknik SEO kontrol listesi; başlık yapısı, şema işaretlemesi ve sayfa hızı maddeleri uygulanabilir. Türkçe kaynaklar arasında pazarlama söyleminden en uzak duranlardan.</summary>
+</entry>
+<entry>
+  <title>before.click</title>
+  <link href="https://before.click/"/>
+  <id>https://before.click/</id>
+  <updated>2026-07-13T06:36:26Z</updated>
+  <summary>App Store ekran görüntüsü tasarımları arşivi. Uygulama mağaza sayfası dönüşümü doğrudan bu görsellere bağlı olduğu için dar ama isabetli bir kaynak.</summary>
+</entry>
+<entry>
+  <title>Site of Sites</title>
+  <link href="https://www.siteofsites.co/"/>
+  <id>https://www.siteofsites.co/</id>
+  <updated>2026-07-08T08:29:01Z</updated>
+  <summary>Bütünsel tasarım dili örnekleri için galeri; tipografi ve hareket kullanımı güçlü siteler derleniyor.</summary>
+</entry>
+<entry>
+  <title>Unsection</title>
+  <link href="https://www.unsection.com/"/>
+  <id>https://www.unsection.com/</id>
+  <updated>2026-07-08T08:24:21Z</updated>
+  <summary>Bölüm bazlı tasarım örnekleri: hero, fiyatlandırma, SSS, footer ayrı ayrı. Tüm siteyi taramak yerine tek bir bölümü çözmek için filtreleyebiliyorsun.</summary>
+</entry>
+<entry>
+  <title>GrapesJS</title>
+  <link href="https://grapesjs.com/"/>
+  <id>https://grapesjs.com/</id>
+  <updated>2026-05-14T12:55:46Z</updated>
+  <summary>Kendi ürününe gömdüğün görsel sayfa düzenleyici; bileşen ve stil yöneticisini sen tanımlıyorsun. Barındırılan site kurucularının aksine editörün sahibi sensin.</summary>
+</entry>
+<entry>
+  <title>Bootstrap</title>
+  <link href="https://getbootstrap.com/docs/5.3/getting-started/introduction/"/>
+  <id>https://getbootstrap.com/docs/5.3/getting-started/introduction/</id>
+  <updated>2026-04-20T13:01:01Z</updated>
+  <summary>Hazır bileşenler ve ızgara sistemi; tasarım kararı vermeden çalışan bir arayüz çıkarıyorsun. Bedeli, Bootstrap kullandığının uzaktan belli olması.</summary>
+</entry>
+<entry>
+  <title>Shopify Liquid</title>
+  <link href="https://shopify.dev/docs/api/liquid"/>
+  <id>https://shopify.dev/docs/api/liquid</id>
+  <updated>2026-04-20T13:01:01Z</updated>
+  <summary>Shopify tema şablon dilinin nesne, filtre ve etiket referansı. Mağaza teması geliştiriyorsan hangi verinin hangi şablonda erişilebilir olduğu buradan görülüyor.</summary>
+</entry>
+<entry>
+  <title>htmx</title>
+  <link href="https://htmx.org/docs/"/>
+  <id>https://htmx.org/docs/</id>
+  <updated>2026-04-20T13:01:00Z</updated>
+  <summary>HTML özniteliğiyle istek atıp dönen HTML parçasını sayfaya yerleştiriyorsun; JSON ve istemci durumu yok. 14 kB, bağımlılığı yok — SPA karmaşıklığına gerek olmayan yerde makul bir çıkış.</summary>
+</entry>
+<entry>
+  <title>Tailwind CSS</title>
+  <link href="https://tailwindcss.com/docs/installation/using-vite"/>
+  <id>https://tailwindcss.com/docs/installation/using-vite</id>
+  <updated>2026-04-20T13:01:00Z</updated>
+  <summary>Yardımcı sınıflarla stil yazıyorsun; derleme adımı kullanılmayan sınıfları atıyor, CSS dosyası büyümüyor. Bootstrap hazır bileşen verir, bu yapı taşı verir.</summary>
+</entry>
+<entry>
+  <title>Angular</title>
+  <link href="https://angular.dev/"/>
+  <id>https://angular.dev/</id>
+  <updated>2026-04-20T13:00:56Z</updated>
+  <summary>Yönlendirme, form, HTTP ve bağımlılık enjeksiyonu çatının içinde geliyor. React’te bunları tek tek seçersin; burada karar verilmiş, karşılığında esneklik dar.</summary>
+</entry>
+<entry>
+  <title>React</title>
+  <link href="https://react.dev/learn"/>
+  <id>https://react.dev/learn</id>
+  <updated>2026-04-20T13:00:52Z</updated>
+  <summary>Yeniden yazılmış resmî doküman; kancalar (hooks) merkezde, sınıf bileşenleri artık yok. “You Might Not Need an Effect” bölümü en sık yapılan hatayı doğrudan hedefliyor.</summary>
+</entry>
+<entry>
+  <title>The Modern JavaScript Tutorial</title>
+  <link href="https://javascript.info/"/>
+  <id>https://javascript.info/</id>
+  <updated>2026-04-20T13:00:43Z</updated>
+  <summary>Dili temelden ileriye sıralı işliyor; prototip zinciri, olay döngüsü ve Promise gibi zor konuları atlamıyor. MDN referanstır, bu öğreticidir — ikisi birbirini tamamlar.</summary>
+</entry>
+<entry>
+  <title>Game UI Database</title>
+  <link href="https://www.gameuidatabase.com/"/>
+  <id>https://www.gameuidatabase.com/</id>
+  <updated>2026-04-20T11:54:09Z</updated>
+  <summary>Oyun arayüzlerini ekran türüne göre sınıflandırıyor: envanter, harita, ayarlar, yükleme ekranı. Bu kadar sistematik bir arayüz arşivi başka alanlarda yok.</summary>
+</entry>
+<entry>
+  <title>MDN Web Docs</title>
+  <link href="https://developer.mozilla.org/en-US/"/>
+  <id>https://developer.mozilla.org/en-US/</id>
+  <updated>2026-04-20T11:48:10Z</updated>
+  <summary>Web platformunun fiilî referansı. Her sayfada tarayıcı uyumluluk tablosu var — bir özelliği kullanmadan önce Safari’de çalışıp çalışmadığını burada görürsün.</summary>
+</entry>
+<entry>
+  <title>Google Fonts</title>
+  <link href="https://fonts.google.com/?preview.script=Latn"/>
+  <id>https://fonts.google.com/?preview.script=Latn</id>
+  <updated>2026-04-19T15:48:55Z</updated>
+  <summary>Açık lisanslı yazı tipi kataloğu; dosyaları indirip kendi sunucundan servis edebiliyorsun. GDPR gerekçesiyle CDN’den çekmek Almanya’da dava konusu oldu, indirmek daha güvenli.</summary>
+</entry>
+</feed>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title>Tools &amp; Utilities — Useful Sites</title>
+<subtitle>An annotated directory of links on software, AI, security and science. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/araclar.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/araclar.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/en/araclar.xml</id>
+<updated>2026-08-21T20:53:20Z</updated>
+<entry>
+  <title>Autoruns</title>
+  <link href="https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns"/>
+  <id>https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>The Sysinternals tool that lists everything Windows runs at startup: services, scheduled tasks, shell extensions, drivers. Against Task Manager’s startup tab it also covers the thirty-odd registry locations malware actually hides in.</summary>
+</entry>
+<entry>
+  <title>Beautifier.io</title>
+  <link href="https://beautifier.io/"/>
+  <id>https://beautifier.io/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Formats JavaScript, HTML and CSS and unpacks minified code. Against Prettier it needs no install and can open obfuscated output back up — which is what you want when inspecting someone else’s minified bundle.</summary>
+</entry>
+<entry>
+  <title>CodeBeautify</title>
+  <link href="https://codebeautify.org/"/>
+  <id>https://codebeautify.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A collection of formatting, validation and conversion tools covering JSON, XML, YAML, SQL and Base64. Against IT Tools it is broader but heavier on ads — it is hard to find a conversion it lacks.</summary>
+</entry>
+<entry>
+  <title>Debuggex</title>
+  <link href="https://www.debuggex.com/"/>
+  <id>https://www.debuggex.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A visual regex tester that draws the expression as a state diagram, covering JavaScript, Python and PCRE. Where regex101 lists tokens, this draws a flow chart, which reads better for nested groups.</summary>
+</entry>
+<entry>
+  <title>Diffchecker</title>
+  <link href="https://www.diffchecker.com/"/>
+  <id>https://www.diffchecker.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A diff tool for text, images, PDFs and folders. Against the `diff` command it handles formatted and visual comparison — the command line will not tell you what changed between two PDF contracts.</summary>
+</entry>
+<entry>
+  <title>Eclipse Theia</title>
+  <link href="https://theia-ide.org/"/>
+  <id>https://theia-ide.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>An IDE framework that runs on the desktop and in the browser and takes VS Code extensions. The difference from VS Code is that it is a framework rather than a product — built for you to construct your own IDE on top of.</summary>
+</entry>
+<entry>
+  <title>Everything</title>
+  <link href="https://www.voidtools.com/"/>
+  <id>https://www.voidtools.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Instant filename search on Windows, built by reading the NTFS master file table directly. That is the trick against Windows Search: it does not index content, so the first scan takes seconds and results appear as you type.</summary>
+</entry>
+<entry>
+  <title>ExtendsClass</title>
+  <link href="https://extendsclass.com/"/>
+  <id>https://extendsclass.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A collection of developer tools: a REST client, a SQLite browser, XML and JSON validators, regex testing. Against collections like IT Tools it runs the heavier things — a database browser and an API client — in the browser too.</summary>
+</entry>
+<entry>
+  <title>IT Tools</title>
+  <link href="https://it-tools.tech/"/>
+  <id>https://it-tools.tech/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Eighty-odd developer utilities on one page: hashes, JWT decoding, cron expressions, UUIDs, colour conversion. Unlike the one-tool-per-site alternatives, everything runs in the browser and the whole thing self-hosts with Docker, so nothing leaves your machine.</summary>
+</entry>
+<entry>
+  <title>JSONLint</title>
+  <link href="https://jsonlint.com/"/>
+  <id>https://jsonlint.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A JSON validator and formatter that tells you which line failed and why. Against an editor plugin it needs nothing installed, which is what you want when checking a malformed API response in a hurry.</summary>
+</entry>
+<entry>
+  <title>Microsoft PowerToys</title>
+  <link href="https://learn.microsoft.com/en-us/windows/powertoys/"/>
+  <id>https://learn.microsoft.com/en-us/windows/powertoys/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>The official set of tools that adds what Windows lacks: window layouts (FancyZones), bulk rename, colour picker, text extraction. Unlike third-party equivalents it is built and kept open source by Microsoft, so updates do not break it.</summary>
+</entry>
+<entry>
+  <title>No Code List</title>
+  <link href="https://nocodelist.co/"/>
+  <id>https://nocodelist.co/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A categorised directory of over three hundred tools for getting things done without code. Unlike product-hunt style sites it aims at covering a category rather than surfacing the newest thing.</summary>
+</entry>
+<entry>
+  <title>Notepad++</title>
+  <link href="https://notepad-plus-plus.org/"/>
+  <id>https://notepad-plus-plus.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A lightweight source editor for Windows with syntax highlighting, multi-file search and replace, and macro recording. The reason to reach for it over VS Code is speed: it opens a huge log file in seconds without waiting on a language server.</summary>
+</entry>
+<entry>
+  <title>Regulex</title>
+  <link href="https://jex.im/regulex/"/>
+  <id>https://jex.im/regulex/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Draws JavaScript regular expressions as railroad diagrams. Against Debuggex it runs entirely client-side and exports the diagram as SVG, which makes it useful for documentation.</summary>
+</entry>
+<entry>
+  <title>Rufus</title>
+  <link href="https://rufus.ie/en/"/>
+  <id>https://rufus.ie/en/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A Windows tool for writing bootable USB drives that works out the UEFI/BIOS and partitioning details itself. What sets it apart from other writers is the option to strip the TPM and account requirements out of a Windows 11 install.</summary>
+</entry>
+<entry>
+  <title>Snapdrop</title>
+  <link href="https://snapdrop.net/"/>
+  <id>https://snapdrop.net/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Browser-to-browser file transfer between devices on the same network, connected directly over WebRTC. Unlike AirDrop it does not care about the operating system — Android to Mac works — and needs no install or account.</summary>
+</entry>
+<entry>
+  <title>VSCodium</title>
+  <link href="https://vscodium.com/"/>
+  <id>https://vscodium.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A community build of VS Code with Microsoft’s telemetry and branding stripped out. Same editor, same extension API; the difference is that the default marketplace is Open VSX rather than Microsoft’s, so some proprietary extensions are simply absent.</summary>
+</entry>
+<entry>
+  <title>Warp</title>
+  <link href="https://www.warp.dev/"/>
+  <id>https://www.warp.dev/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A terminal written in Rust that keeps each command and its output as a separate block instead of one scrolling stream, so you can copy a single command’s output in one click. That block model and the built-in AI command suggestions are what set it apart.</summary>
+</entry>
+<entry>
+  <title>Compiler Explorer</title>
+  <link href="https://godbolt.org/"/>
+  <id>https://godbolt.org/</id>
+  <updated>2026-08-19T23:35:33Z</updated>
+  <summary>Puts the generated assembly beside your source, with optimisation level and compiler version switchable so you see the difference immediately. It moves performance arguments from opinion to measurement.</summary>
+</entry>
+<entry>
+  <title>regex101</title>
+  <link href="https://regex101.com/"/>
+  <id>https://regex101.com/</id>
+  <updated>2026-08-19T23:34:13Z</updated>
+  <summary>Explains an expression token by token and its debugger shows exactly where a match breaks down, with switching between the PCRE, JavaScript and Python flavours.</summary>
+</entry>
+<entry>
+  <title>CodePen</title>
+  <link href="https://codepen.io"/>
+  <id>https://codepen.io</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A browser playground for HTML, CSS and JavaScript. The real value is discovery — you learn by taking apart other people’s CSS tricks.</summary>
+</entry>
+<entry>
+  <title>CodeSandbox</title>
+  <link href="https://codesandbox.io"/>
+  <id>https://codesandbox.io</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Runs projects with full npm dependencies in the browser. Unlike CodePen it opens a real React or Node project as-is.</summary>
+</entry>
+<entry>
+  <title>CodeShare</title>
+  <link href="https://codeshare.io"/>
+  <id>https://codeshare.io</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Real-time collaborative code editing in the browser with no install or account — a fast option for remote pairing or an interview.</summary>
+</entry>
+<entry>
+  <title>CORS Tester</title>
+  <link href="https://cors-error.dev/cors-tester/"/>
+  <id>https://cors-error.dev/cors-tester/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Tests an API’s CORS headers from the outside, telling you which header causes the vague CORS error in the browser console.</summary>
+</entry>
+<entry>
+  <title>Crontab Guru</title>
+  <link href="https://crontab.guru/"/>
+  <id>https://crontab.guru/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Translates a cron expression into plain language as you type and shows the next run times, ending the guesswork over asterisks and slashes.</summary>
+</entry>
+<entry>
+  <title>DevURLs</title>
+  <link href="https://devurls.com/"/>
+  <id>https://devurls.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A news board gathering Hacker News, Reddit, Lobsters and dozens more on one page — one glance instead of visiting each.</summary>
+</entry>
+<entry>
+  <title>explainshell</title>
+  <link href="https://explainshell.com/"/>
+  <id>https://explainshell.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Paste a shell command and it maps every fragment to its entry in the man page. Against reading `man` it works backwards — you learn what the `-xzvf` in front of you means without scanning the manual.</summary>
+</entry>
+<entry>
+  <title>GitHub Gist</title>
+  <link href="https://gist.github.com"/>
+  <id>https://gist.github.com</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Shares single-file snippets with version history; comments and forking make it more durable than a pastebin.</summary>
+</entry>
+<entry>
+  <title>gitignore.io</title>
+  <link href="https://www.gitignore.io/"/>
+  <id>https://www.gitignore.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Generates a `.gitignore` from your operating system, editor and language choices — the end of retyping the same lines on every project.</summary>
+</entry>
+<entry>
+  <title>Graph Online</title>
+  <link href="https://graphonline.ru/en/"/>
+  <id>https://graphonline.ru/en/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Draw a graph in the browser and run shortest path, connectivity and flow algorithms on it — testing graph algorithms without writing code.</summary>
+</entry>
+<entry>
+  <title>Ideone</title>
+  <link href="https://ideone.com"/>
+  <id>https://ideone.com</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Compiles and runs 60+ languages in the browser and accepts an input stream — for trying a language’s syntax without installing anything.</summary>
+</entry>
+<entry>
+  <title>JS Bin</title>
+  <link href="https://jsbin.com/"/>
+  <id>https://jsbin.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A JSFiddle-like scratchpad with a live output panel; showing console output on the same screen is handy when debugging.</summary>
+</entry>
+<entry>
+  <title>JSFiddle</title>
+  <link href="https://jsfiddle.net"/>
+  <id>https://jsfiddle.net</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The oldest and lightest way to test a small JavaScript snippet — the standard tool for attaching a reproducible example to a bug report.</summary>
+</entry>
+<entry>
+  <title>JSON Crack</title>
+  <link href="https://jsoncrack.com/"/>
+  <id>https://jsoncrack.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Draws JSON as a node graph rather than a tree, so nested structures are visible at a glance. Against a JSON formatter that graph view is the point — faster than counting indentation to work out the shape of a deep response.</summary>
+</entry>
+<entry>
+  <title>Judge0 IDE</title>
+  <link href="https://ide.judge0.com"/>
+  <id>https://ide.judge0.com</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>An open-source online compiler whose engine you can self-host — the project people building code assessment systems use as infrastructure.</summary>
+</entry>
+<entry>
+  <title>keybr.com</title>
+  <link href="https://www.keybr.com/"/>
+  <id>https://www.keybr.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Touch-typing practice that measures which letters you struggle with and generates text accordingly. Against fixed-text typing tests that adaptation is the point — your weak letters keep coming back.</summary>
+</entry>
+<entry>
+  <title>Kody Tools</title>
+  <link href="https://www.kodytools.com/dev-tools"/>
+  <id>https://www.kodytools.com/dev-tools</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A collection of developer converters, formatters and generators. Against compilations like IT Tools it keeps visual and textual tools together — colour, image and code utilities in one place.</summary>
+</entry>
+<entry>
+  <title>OneLang</title>
+  <link href="https://onelang.io/"/>
+  <id>https://onelang.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>An experimental tool that converts code written in one language into others — C#, Java, Python, JavaScript. Against a syntax comparison table it produces working translations, which shows how one language’s idiom lands in another.</summary>
+</entry>
+<entry>
+  <title>osquery</title>
+  <link href="https://osquery.io"/>
+  <id>https://osquery.io</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Turns the operating system into something you query with SQL — running processes, open ports and installed packages become tables. Common in endpoint monitoring.</summary>
+</entry>
+<entry>
+  <title>Pastebin</title>
+  <link href="https://pastebin.com"/>
+  <id>https://pastebin.com</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The simplest way to share text or a log, with syntax highlighting and expiry. Worth remembering not to paste anything sensitive.</summary>
+</entry>
+</feed>

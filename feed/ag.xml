@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
+<title>Ağ &amp; Sistem Yönetimi — Kullanışlı Siteler</title>
+<subtitle>Yazılım, yapay zeka, güvenlik ve bilim üzerine açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/ag.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/ag.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/ag.xml</id>
+<updated>2026-08-21T20:53:20Z</updated>
+<entry>
+  <title>Asahi Linux</title>
+  <link href="https://asahilinux.org/"/>
+  <id>https://asahilinux.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Apple Silicon Mac’lere ana hat Linux getiren proje; GPU sürücüsünü ve güç yönetimini tersine mühendislikle yazıyor. Sanal makineden farkı donanımda doğrudan çalışması — M serisi yongadan tam performans alınıyor.</summary>
+</entry>
+<entry>
+  <title>CanYouSeeMe</title>
+  <link href="https://canyouseeme.org/"/>
+  <id>https://canyouseeme.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Belirli bir portun dışarıdan açık olup olmadığını kontrol eden basit araç. Yerel port taramasından farkı dışarıdan bakması — yönlendirici port yönlendirmesinin gerçekten çalışıp çalışmadığı ancak böyle anlaşılıyor.</summary>
+</entry>
+<entry>
+  <title>ICANN Lookup</title>
+  <link href="https://lookup.icann.org/en"/>
+  <id>https://lookup.icann.org/en</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Alan adı kayıt bilgilerini ICANN’in kendi arayüzünden sorgulama. Üçüncü parti WHOIS sitelerinden farkı reklam ve satış teklifi olmaması — sorguladığın alan adı için ertesi gün e-posta almıyorsun.</summary>
+</entry>
+<entry>
+  <title>ntop</title>
+  <link href="https://www.ntop.org/"/>
+  <id>https://www.ntop.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Ağ trafiğini gerçek zamanlı izleyen araç ailesi; hangi cihazın hangi protokolle ne kadar veri geçirdiğini gösteriyor. Wireshark’tan farkı paket paket inceleme değil sürekli akış izleme — sorunu yakalamak için değil, olağandışıyı fark etmek için.</summary>
+</entry>
+<entry>
+  <title>OpenSpeedTest</title>
+  <link href="https://openspeedtest.com/"/>
+  <id>https://openspeedtest.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Tarayıcıda çalışan hız testi; Flash ya da uygulama gerektirmiyor, kendi sunucuna da kurulabiliyor. Speedtest.net’ten farkı bu öz-barındırma — yerel ağının gerçek hızını dış bağlantıya bağlı kalmadan ölçebiliyorsun.</summary>
+</entry>
+<entry>
+  <title>Tailscale</title>
+  <link href="https://tailscale.com/"/>
+  <id>https://tailscale.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>WireGuard üzerine kurulu örgü VPN; cihazlarını NAT ve güvenlik duvarı arkasında olsalar bile doğrudan birbirine bağlıyor. Klasik VPN sunucusundan farkı merkezî bir çıkış düğümü olmaması — trafik cihazdan cihaza gidiyor, koordinasyon sunucusu yalnızca anahtar dağıtıyor.</summary>
+</entry>
+<entry>
+  <title>Advanced Bash-Scripting Guide</title>
+  <link href="https://tldp.org/LDP/abs/html/"/>
+  <id>https://tldp.org/LDP/abs/html/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Bash betiklemenin en kapsamlı ücretsiz referansı; her konu çalıştırılabilir örnekle. Üslubu eski ama kapsamı hâlâ eşsiz.</summary>
+</entry>
+<entry>
+  <title>Bash Guide for Beginners</title>
+  <link href="https://www.tldp.org/LDP/Bash-Beginners-Guide/html/"/>
+  <id>https://www.tldp.org/LDP/Bash-Beginners-Guide/html/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Kabuk betiklerine giriş; Advanced rehberin ağırlığına girmeden temelleri kuruyor.</summary>
+</entry>
+<entry>
+  <title>Bash Referans Kılavuzu</title>
+  <link href="https://www.gnu.org/software/bash/manual/bashref.html"/>
+  <id>https://www.gnu.org/software/bash/manual/bashref.html</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Bash’in resmî kılavuzu; genişletme kuralları ve parametre değiştirme gibi tartışmalı konularda son söz burada.</summary>
+</entry>
+<entry>
+  <title>BashGuide (Wooledge)</title>
+  <link href="https://mywiki.wooledge.org/BashGuide"/>
+  <id>https://mywiki.wooledge.org/BashGuide</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>İnternetteki kötü Bash örneklerine karşı düzeltici bir rehber; tırnaklama ve sözcük bölme gibi en sık yapılan hataları merkeze alıyor.</summary>
+</entry>
+<entry>
+  <title>Command-line Fu</title>
+  <link href="https://www.commandlinefu.com/commands/browse"/>
+  <id>https://www.commandlinefu.com/commands/browse</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Kullanıcıların paylaştığı UNIX komut tek satırlıkları arşivi, oyla sıralı. Bir işin kısa yolu var mı diye bakmak için.</summary>
+</entry>
+<entry>
+  <title>LinuxCommand.org</title>
+  <link href="https://linuxcommand.org"/>
+  <id>https://linuxcommand.org</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Komut satırını sıfırdan öğretip kabuk betiği yazmaya götüren site; &quot;The Linux Command Line&quot; kitabının kaynağı. Komut listelerinden farkı bir yol izlemesi — dağınık kopya kâğıdı değil, sıralı bir ders.</summary>
+</entry>
+<entry>
+  <title>mempool.space</title>
+  <link href="https://mempool.space"/>
+  <id>https://mempool.space</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Bitcoin ağının bekleyen işlem havuzunu ve blok zincirini görselleştiren gezgin; kendi düğümünle çalıştırılabiliyor. Diğer blok gezginlerinden farkı ücret tahmini ve mempool görselleştirmesi — ağın o anki tıkanıklığını gösteriyor.</summary>
+</entry>
+<entry>
+  <title>Pure Bash Bible</title>
+  <link href="https://github.com/dylanaraps/pure-bash-bible"/>
+  <id>https://github.com/dylanaraps/pure-bash-bible</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Dış program çağırmadan Bash’in kendi araçlarıyla iş yapma koleksiyonu. sed ve awk çağrılarını kaldırdığı için betikleri belirgin hızlandırıyor.</summary>
+</entry>
+<entry>
+  <title>Ryan’s Linux Tutorial</title>
+  <link href="https://ryanstutorials.net/linuxtutorial/"/>
+  <id>https://ryanstutorials.net/linuxtutorial/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Linux ve Bash’e giriş; her bölümün sonunda alıştırma var. LinuxCommand.org’dan farkı daha kısa ve sınav odaklı olması — temel komutları hızla geçmek isteyenler için.</summary>
+</entry>
+<entry>
+  <title>Hiren's BootCD PE</title>
+  <link href="https://www.hirensbootcd.org/"/>
+  <id>https://www.hirensbootcd.org/</id>
+  <updated>2026-07-29T05:57:07Z</updated>
+  <summary>Açılmayan sistemler için önyüklenebilir Windows PE ortamı; disk klonlama, parola sıfırlama ve veri kurtarma araçları tek imajda. Sistem yöneticisinin cebinde taşıdığı USB.</summary>
+</entry>
+<entry>
+  <title>ÇözümPark</title>
+  <link href="https://www.cozumpark.com/"/>
+  <id>https://www.cozumpark.com/</id>
+  <updated>2026-07-27T11:13:16Z</updated>
+  <summary>Türkçe sistem yöneticiliği topluluğu ve makale arşivi; Active Directory, Exchange ve sanallaştırma tarafında derinlik var. Yerel senaryolar için nadir bir kaynak.</summary>
+</entry>
+<entry>
+  <title>ServiceDesk Simulator</title>
+  <link href="https://servicedesk-simulator.com/"/>
+  <id>https://servicedesk-simulator.com/</id>
+  <updated>2026-07-07T11:44:32Z</updated>
+  <summary>Gerçek yardım masası biletleriyle çalışmayı simüle ediyor: önceliklendirme, tırmandırma, SLA takibi. IT destek eğitimlerinin teorik kaldığı yeri dolduruyor.</summary>
+</entry>
+<entry>
+  <title>Cisco SG500-52P Kurulumu</title>
+  <link href="https://www.firewall.cx/cisco/cisco-switches/cisco-switches-sg500-52p.html"/>
+  <id>https://www.firewall.cx/cisco/cisco-switches/cisco-switches-sg500-52p.html</id>
+  <updated>2026-07-02T07:38:48Z</updated>
+  <summary>Belirli bir anahtar modelinin ilk kurulumu, ekran görüntüleriyle adım adım. Resmî kılavuzun atladığı pratik ayrıntılar burada.</summary>
+</entry>
+<entry>
+  <title>Cisco SG500 Serisi</title>
+  <link href="https://www.firewall.cx/downloads/cisco-product-datasheets-a-guides/cisco-sg500-series-switches.html"/>
+  <id>https://www.firewall.cx/downloads/cisco-product-datasheets-a-guides/cisco-sg500-series-switches.html</id>
+  <updated>2026-07-02T07:37:07Z</updated>
+  <summary>SG500 serisinin teknik veri sayfaları; port sayısı, PoE bütçesi ve yığınlama desteği karşılaştırmalı. İkinci el alırken model farklarını bilmek gerekiyor.</summary>
+</entry>
+<entry>
+  <title>Active@ Disk Image</title>
+  <link href="https://www.disk-image.com/index.html"/>
+  <id>https://www.disk-image.com/index.html</id>
+  <updated>2026-07-01T11:42:32Z</updated>
+  <summary>Sektör bazında disk imajı alıp geri yüklüyor; dosya yedeklemesinden farkı, işletim sistemi ve önyükleme kaydı dahil her şeyi bire bir kopyalaması.</summary>
+</entry>
+<entry>
+  <title>Packet Tracer &amp; Laboratuvarlar</title>
+  <link href="https://www.netacad.com/resources/lab-downloads?courseLang=en-US"/>
+  <id>https://www.netacad.com/resources/lab-downloads?courseLang=en-US</id>
+  <updated>2026-06-26T11:20:31Z</updated>
+  <summary>Cisco Packet Tracer indirmesi ve laboratuvar dosyaları. Anahtar ve yönlendirici almadan VLAN, OSPF ve ACL yapılandırması denenebiliyor.</summary>
+</entry>
+<entry>
+  <title>NetAcad Ağ Kursları (Türkçe)</title>
+  <link href="https://www.netacad.com/catalogs/learn/networking?language=tr-tr"/>
+  <id>https://www.netacad.com/catalogs/learn/networking?language=tr-tr</id>
+  <updated>2026-06-26T11:19:10Z</updated>
+  <summary>Cisco ağ kurslarının Türkçe kataloğu; giriş seviyesi dersler ücretsiz ve rozet veriyor. Türkçe teknik ağ eğitimi bulmak yerelde kolay değil.</summary>
+</entry>
+<entry>
+  <title>Windows 11 Tam Rehber</title>
+  <link href="https://www.youtube.com/watch?v=5kt4t2gzt9g"/>
+  <id>https://www.youtube.com/watch?v=5kt4t2gzt9g</id>
+  <updated>2026-05-11T15:32:08Z</updated>
+  <summary>Windows 11 ayarlarını baştan sona gezen rehber; grup ilkesi ve kayıt defteri ayarlarına da giriyor. Kullanıcı desteği tarafında hızlı başvuru.</summary>
+</entry>
+<entry>
+  <title>DNS Yapılandırma (CompTIA A+)</title>
+  <link href="https://www.youtube.com/watch?v=lAHqO9sDVy4"/>
+  <id>https://www.youtube.com/watch?v=lAHqO9sDVy4</id>
+  <updated>2026-05-11T15:31:48Z</updated>
+  <summary>A+ kapsamındaki DNS kayıt türleri ve yapılandırması. Kısa ve sınav odaklı.</summary>
+</entry>
+<entry>
+  <title>DHCP (CompTIA A+)</title>
+  <link href="https://www.youtube.com/watch?v=HwUqCZFx6wk"/>
+  <id>https://www.youtube.com/watch?v=HwUqCZFx6wk</id>
+  <updated>2026-05-11T15:31:29Z</updated>
+  <summary>A+ müfredatındaki DHCP konusunun kısa anlatımı; kapsam sınav hedefine birebir oturuyor. Fazlasını anlatmaması sınav çalışmasında avantaj.</summary>
+</entry>
+<entry>
+  <title>Linux Journey</title>
+  <link href="https://labex.io/linuxjourney"/>
+  <id>https://labex.io/linuxjourney</id>
+  <updated>2026-04-20T13:01:18Z</updated>
+  <summary>Linux’u küçük modüllere bölerek öğretiyor: dosya sistemi, izinler, süreçler, paket yönetimi. Kapsamlı kitapların yıldırdığı yerde sindirilebilir parçalar sunuyor.</summary>
+</entry>
+<entry>
+  <title>Wireshark</title>
+  <link href="https://www.wireshark.org/#download"/>
+  <id>https://www.wireshark.org/#download</id>
+  <updated>2026-04-20T12:57:34Z</updated>
+  <summary>Paket yakalama ve protokol çözümlemenin standardı; TLS anahtarı verirsen şifreli trafiği de açıyor. Ağ sorunlarında “sanırım” yerine kanıt üretmenin tek yolu.</summary>
+</entry>
+<entry>
+  <title>Bilgisayar Ağları Temelleri</title>
+  <link href="https://www.youtube.com/watch?v=fQbBPa0ADvs"/>
+  <id>https://www.youtube.com/watch?v=fQbBPa0ADvs</id>
+  <updated>2026-04-06T11:38:30Z</updated>
+  <summary>OSI katmanlarından yönlendirmeye kadar ağ kavramlarını tam kurs formatında işliyor. Sertifika çalışmasına başlamadan önce zemin kurmak için.</summary>
+</entry>
+<entry>
+  <title>20 Dakikada Tüm Ağ Kavramları</title>
+  <link href="https://www.youtube.com/watch?v=xj_GjnD4uyI"/>
+  <id>https://www.youtube.com/watch?v=xj_GjnD4uyI</id>
+  <updated>2026-04-06T11:26:37Z</updated>
+  <summary>Ağ terimlerini hızla tarayan özet. Öğrenmek için değil; bildiğini sandığın yerlerdeki boşlukları yirmi dakikada bulmak için.</summary>
+</entry>
+<entry>
+  <title>Cisco Networking Academy</title>
+  <link href="https://www.netacad.com/"/>
+  <id>https://www.netacad.com/</id>
+  <updated>2026-02-16T13:37:41Z</updated>
+  <summary>Cisco’nun resmî ağ müfredatı; CCNA’ya hazırlayan derslerin bir kısmı ücretsiz. Packet Tracer laboratuvarlarıyla teoriyi topoloji kurarak sınıyorsun.</summary>
+</entry>
+<entry>
+  <title>NIST Kriptografi</title>
+  <link href="https://www.nist.gov/cryptography"/>
+  <id>https://www.nist.gov/cryptography</id>
+  <updated>2025-12-29T06:59:40Z</updated>
+  <summary>Kriptografi standartlarının kaynağı; hangi algoritmanın hâlâ onaylı olduğunu buradan öğrenirsin. Kuantum sonrası algoritma seçimleri de burada yayımlandı.</summary>
+</entry>
+<entry>
+  <title>LFSR ve Rastgele Sayı Üreteçleri</title>
+  <link href="https://www.youtube.com/watch?v=0pXicD2hqFU"/>
+  <id>https://www.youtube.com/watch?v=0pXicD2hqFU</id>
+  <updated>2025-12-25T06:33:29Z</updated>
+  <summary>Doğrusal geri beslemeli kaydırma yazmaçlarının nasıl çalıştığını devre düzeyinde anlatıyor. Sözde rastgeleliğin donanımda nasıl üretildiğine iyi bir giriş.</summary>
+</entry>
+<entry>
+  <title>Linux Öğrenmenin En İyi Yolu</title>
+  <link href="https://www.youtube.com/watch?v=zIdv2NDRExI"/>
+  <id>https://www.youtube.com/watch?v=zIdv2NDRExI</id>
+  <updated>2025-08-02T12:44:23Z</updated>
+  <summary>Komut öğretmiyor, nasıl çalışılacağını tarif ediyor: hangi dağıtım, hangi sırayla, hangi projelerle. Yön bulmak için başlangıçta işe yarıyor.</summary>
+</entry>
+</feed>

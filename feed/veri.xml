@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
+<title>Veri Bilimi &amp; Makine Öğrenmesi — Kullanışlı Siteler</title>
+<subtitle>Yazılım, yapay zeka, güvenlik ve bilim üzerine açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/veri.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/veri.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/veri.xml</id>
+<updated>2026-08-21T20:53:20Z</updated>
+<entry>
+  <title>Academic Torrents</title>
+  <link href="https://academictorrents.com/"/>
+  <id>https://academictorrents.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Büyük araştırma veri kümelerini BitTorrent üzerinden dağıtan topluluk arşivi. Kurumsal indirme bağlantılarından farkı dayanıklılığı — üniversite sunucusu kapansa bile veri tohumlayıcılarda yaşamaya devam ediyor.</summary>
+</entry>
+<entry>
+  <title>An Introduction to Statistical Learning</title>
+  <link href="https://www.statlearning.com/"/>
+  <id>https://www.statlearning.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>İstatistiksel öğrenmenin standart giriş kitabı; PDF’i ücretsiz, R ve Python laboratuvarları ayrı ayrı var. &quot;Elements of Statistical Learning&quot;den farkı matematiği azaltıp sezgiyi öne alması — ikisi aynı yazarlardan, bu olanı önce okunanı.</summary>
+</entry>
+<entry>
+  <title>Dataset List</title>
+  <link href="https://www.datasetlist.com/"/>
+  <id>https://www.datasetlist.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Makine öğrenmesi veri kümelerini alana göre listeleyen dizin; boyut, lisans ve makale bağlantısı ile. Kaggle’dan farkı yarışma değil akademik ve endüstriyel kümeler olması — gerçek dünya verisi arayanlar için.</summary>
+</entry>
+<entry>
+  <title>ImageNet</title>
+  <link href="https://www.image-net.org/"/>
+  <id>https://www.image-net.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>WordNet hiyerarşisine göre etiketlenmiş, on dört milyon görsellik veri kümesi. Diğer görüntü kümelerinden farkı tarihsel ağırlığı — 2012’deki derin öğrenme sıçraması bu küme üzerindeki yarışmadan çıktı, hâlâ ölçüt olarak kullanılıyor.</summary>
+</entry>
+<entry>
+  <title>Kaggle</title>
+  <link href="https://www.kaggle.com/"/>
+  <id>https://www.kaggle.com/</id>
+  <updated>2026-08-19T23:33:55Z</updated>
+  <summary>Yarışma, veri kümesi ve not defteri aynı platformda. Asıl değeri, kazanan çözümlerin yarışma bitince açıkça paylaşılması — uygulamalı ML’in en iyi açık arşivi.</summary>
+</entry>
+<entry>
+  <title>AIMA</title>
+  <link href="https://aima.cs.berkeley.edu"/>
+  <id>https://aima.cs.berkeley.edu</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Yapay Zeka: Modern Yaklaşım kitabının kaynak sayfası; ders kodu ve algoritma uygulamaları birden çok dilde yayımlanmış.</summary>
+</entry>
+<entry>
+  <title>DeepLearning.AI</title>
+  <link href="https://www.deeplearning.ai"/>
+  <id>https://www.deeplearning.ai</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Andrew Ng’in kurduğu eğitim platformu; derin öğrenme ve üretken YZ üzerine yapılandırılmış uzmanlık programları.</summary>
+</entry>
+<entry>
+  <title>fast.ai</title>
+  <link href="https://course.fast.ai"/>
+  <id>https://course.fast.ai</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Derin öğrenmeyi tepeden aşağı öğreten kurs: önce çalışan model, sonra teori. Matematikle başlayan akademik derslerin tam tersi bir sıra izliyor.</summary>
+</entry>
+<entry>
+  <title>Keras</title>
+  <link href="https://keras.io/"/>
+  <id>https://keras.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Sinir ağını katman katman istiflemeyi birkaç satıra indiren yüksek seviye API. Artık TensorFlow, PyTorch ve JAX’in üçünde birden çalışıyor, yani çatı seçimini ertelemene izin veriyor.</summary>
+</entry>
+<entry>
+  <title>Machine Learning Mastery</title>
+  <link href="https://machinelearningmastery.com/"/>
+  <id>https://machinelearningmastery.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Uygulama odaklı ML öğreticileri; her yazı çalışan bir kod örneğiyle bitiyor. Teoriden çok “bunu nasıl yaparım” sorusuna cevap veriyor.</summary>
+</entry>
+<entry>
+  <title>Matplotlib</title>
+  <link href="https://matplotlib.org/"/>
+  <id>https://matplotlib.org/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Python görselleştirmenin temeli; seaborn ve pandas’ın çizim işlevleri bunun üstüne kurulu. Ayrıntılı denetim verir, karşılığında basit bir grafik için bile epey kod ister.</summary>
+</entry>
+<entry>
+  <title>ML Crash Course</title>
+  <link href="https://developers.google.com/machine-learning/crash-course"/>
+  <id>https://developers.google.com/machine-learning/crash-course</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Google’ın makine öğrenmesine hızlı girişi; kısa video, okuma ve çalıştırılabilir alıştırma üçlüsüyle ilerliyor.</summary>
+</entry>
+<entry>
+  <title>mlcourse.ai</title>
+  <link href="https://mlcourse.ai/"/>
+  <id>https://mlcourse.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Açık makine öğrenmesi kursu; teori ile Kaggle yarışması ödevlerini birleştirmesi onu salt anlatımdan ayırıyor.</summary>
+</entry>
+<entry>
+  <title>MLU-Explain</title>
+  <link href="https://mlu-explain.github.io/"/>
+  <id>https://mlu-explain.github.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Amazon’un makine öğrenmesi kavramlarını etkileşimli görsellerle anlatan seti; parametreyi kaydırıp modelin nasıl değiştiğini görüyorsun.</summary>
+</entry>
+<entry>
+  <title>pandas</title>
+  <link href="https://pandas.pydata.org/"/>
+  <id>https://pandas.pydata.org/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Tablo verisiyle çalışmanın standart kütüphanesi. Excel’den farkı, her dönüşümün tekrarlanabilir kod olması; bellek içi çalıştığı için veri RAM’e sığmak zorunda.</summary>
+</entry>
+<entry>
+  <title>Plotly</title>
+  <link href="https://plotly.com/"/>
+  <id>https://plotly.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Etkileşimli grafik kütüphanesi; yakınlaştırma, ipucu ve seçim kutudan çıkıyor. Matplotlib statik görsel üretir, bu tarayıcıda gezilebilir grafik verir.</summary>
+</entry>
+<entry>
+  <title>Polars</title>
+  <link href="https://pola.rs/"/>
+  <id>https://pola.rs/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Rust ile yazılmış DataFrame kütüphanesi. pandas’tan farkı çok çekirdeği kullanması ve tembel değerlendirmeyle sorguyu çalıştırmadan önce optimize etmesi — büyük dosyalarda kat kat hızlı.</summary>
+</entry>
+<entry>
+  <title>Power BI</title>
+  <link href="https://app.powerbi.com/"/>
+  <id>https://app.powerbi.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Microsoft’un iş zekâsı aracı; Excel ve Azure veri kaynaklarına yerleşik bağlanıyor. Kurum zaten Microsoft 365’teyse Tableau’ya karşı asıl avantajı lisansın ödenmiş olması.</summary>
+</entry>
+<entry>
+  <title>PySpark</title>
+  <link href="https://spark.apache.org/docs/latest/api/python/index.html"/>
+  <id>https://spark.apache.org/docs/latest/api/python/index.html</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Apache Spark’ın Python arayüzü; veri tek makineye sığmadığında devreye giriyor. pandas benzeri API sunar ama işi kümedeki onlarca düğüme dağıtır.</summary>
+</entry>
+<entry>
+  <title>scikit-learn</title>
+  <link href="https://scikit-learn.org/stable/"/>
+  <id>https://scikit-learn.org/stable/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Klasik makine öğrenmesinin standart Python kütüphanesi: sınıflandırma, regresyon, kümeleme ve ön işleme aynı `fit`/`predict` arayüzü altında. Derin öğrenmeden önce gelen her şeyin ortak zemini.</summary>
+</entry>
+<entry>
+  <title>seaborn</title>
+  <link href="https://seaborn.pydata.org/"/>
+  <id>https://seaborn.pydata.org/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Matplotlib üstüne kurulu istatistiksel grafik kütüphanesi. Dağılım, ilişki ve kategori grafiklerini tek satıra indiriyor; varsayılan estetiği de düzgün.</summary>
+</entry>
+<entry>
+  <title>SerpentAI</title>
+  <link href="https://github.com/SerpentAI/SerpentAI"/>
+  <id>https://github.com/SerpentAI/SerpentAI</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Herhangi bir video oyununu pekiştirmeli öğrenme ortamına çeviren çatı. Simülasyon yerine gerçek oyunla çalışması ayrıksı.</summary>
+</entry>
+<entry>
+  <title>Streamlit</title>
+  <link href="https://streamlit.io/"/>
+  <id>https://streamlit.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Python betiğini birkaç satırla web uygulamasına çeviriyor; HTML, CSS ya da JavaScript yok. Veri bilimcinin modelini paydaşa göstermesinin en kısa yolu.</summary>
+</entry>
+<entry>
+  <title>Tableau</title>
+  <link href="https://www.tableau.com/"/>
+  <id>https://www.tableau.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Sürükle-bırak iş zekâsı platformu; kod yazmadan pano kuruluyor. Kurumsal raporlamada yaygın, tekrarlanabilirlik ve sürüm kontrolü tarafında zayıf.</summary>
+</entry>
+<entry>
+  <title>TensorFlow</title>
+  <link href="https://www.tensorflow.org"/>
+  <id>https://www.tensorflow.org</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Google’ın derin öğrenme çatısı. Araştırmada PyTorch’a yenildi ama mobil ve gömülü dağıtımda (TF Lite) ve üretim sunumunda (TF Serving) hâlâ güçlü.</summary>
+</entry>
+<entry>
+  <title>Train LLM from Scratch</title>
+  <link href="https://github.com/FareedKhan-dev/train-llm-from-scratch"/>
+  <id>https://github.com/FareedKhan-dev/train-llm-from-scratch</id>
+  <updated>2026-08-04T22:56:12Z</updated>
+  <summary>Veri indirmeden dağıtık eğitime kadar tüm hattı çalışan kodla gösteriyor. Teorik anlatımların atladığı kısım genelde bu altyapı tarafı.</summary>
+</entry>
+<entry>
+  <title>Databricks</title>
+  <link href="https://www.databricks.com/"/>
+  <id>https://www.databricks.com/</id>
+  <updated>2026-07-26T15:42:56Z</updated>
+  <summary>Spark üzerine kurulu veri ve ML platformu; Delta Lake ile veri gölüne işlem (ACID) garantisi getiriyor. “Lakehouse” iddiasının teknik karşılığı bu.</summary>
+</entry>
+<entry>
+  <title>ARC Prize 2026</title>
+  <link href="https://www.kaggle.com/competitions/arc-prize-2026-paper-track"/>
+  <id>https://www.kaggle.com/competitions/arc-prize-2026-paper-track</id>
+  <updated>2026-07-21T07:10:21Z</updated>
+  <summary>Soyut akıl yürütme üzerine yarışma; görevleri insanın kolay, modellerin zor bulduğu biçimde tasarlanmış. Ölçekleme yerine yeni yaklaşım gerektiriyor.</summary>
+</entry>
+<entry>
+  <title>LLMs from Scratch</title>
+  <link href="https://github.com/rasbt/LLMs-from-scratch"/>
+  <id>https://github.com/rasbt/LLMs-from-scratch</id>
+  <updated>2026-05-20T03:10:13Z</updated>
+  <summary>Bir GPT’yi PyTorch ile sıfırdan yazdıran kitap deposu: tokenizer, dikkat mekanizması, eğitim döngüsü ve ince ayar. Kütüphane çağırmak yerine mekanizmayı kurduruyor.</summary>
+</entry>
+<entry>
+  <title>Google Dataset Search</title>
+  <link href="https://datasetsearch.research.google.com/"/>
+  <id>https://datasetsearch.research.google.com/</id>
+  <updated>2026-04-06T20:23:31Z</updated>
+  <summary>Web’e dağılmış açık veri kümelerini schema.org işaretlemesi üzerinden arıyor. Tek bir depoya bağlı olmadığı için kurum arşivlerini de kapsıyor.</summary>
+</entry>
+<entry>
+  <title>Zero to Mastery ML</title>
+  <link href="https://github.com/mrdbourke/zero-to-mastery-ml"/>
+  <id>https://github.com/mrdbourke/zero-to-mastery-ml</id>
+  <updated>2026-04-06T11:32:51Z</updated>
+  <summary>Uçtan uca ML not defterleri; veri temizlemeden model değerlendirmeye kadar çalışan bir hat okutuyor. Kavram anlatımı yerine gerçek kod üzerinden ilerliyor.</summary>
+</entry>
+<entry>
+  <title>Data Science for Beginners</title>
+  <link href="https://github.com/microsoft/Data-Science-For-Beginners/tree/main"/>
+  <id>https://github.com/microsoft/Data-Science-For-Beginners/tree/main</id>
+  <updated>2026-04-05T20:34:44Z</updated>
+  <summary>20 derslik müfredat; her ders ders öncesi/sonrası sınav ve bir projeyle geliyor. Veri etiği ve görselleştirme bölümleri çoğu teknik kursta atlanan konular.</summary>
+</entry>
+<entry>
+  <title>ML Mühendisliğinde İş Arama</title>
+  <link href="https://www.reddit.com/r/MachineLearningJobs/comments/1r5upkb/how_i_land_15_machine_learning_engineer_offers/"/>
+  <id>https://www.reddit.com/r/MachineLearningJobs/comments/1r5upkb/how_i_land_15_machine_learning_engineer_offers/</id>
+  <updated>2026-02-16T17:46:21Z</updated>
+  <summary>Bir ML mühendisinin iş arama sürecini sayılarla anlattığı başlık: kaç başvuru, hangi aşamalar, ne işe yaradı. Genel kariyer tavsiyelerine karşı birinci elden veri.</summary>
+</entry>
+<entry>
+  <title>Kaggle Yarışmaları</title>
+  <link href="https://www.kaggle.com/competitions"/>
+  <id>https://www.kaggle.com/competitions</id>
+  <updated>2025-12-12T16:37:57Z</updated>
+  <summary>Aktif ve geçmiş yarışmalar. Gerçek ölçütle değerlendirilmek, kendi projendeki “iyi görünüyor” yanılsamasını kırıyor.</summary>
+</entry>
+</feed>

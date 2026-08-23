@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title>AI · Agents &amp; Infrastructure — Useful Sites</title>
+<subtitle>An annotated directory of links on software, AI, security and science. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/yz_altyapi.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/yz_altyapi.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/en/yz_altyapi.xml</id>
+<updated>2026-08-21T20:53:20Z</updated>
+<entry>
+  <title>PromptLayer</title>
+  <link href="https://promptlayer.com/"/>
+  <id>https://promptlayer.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A platform for versioning, logging and evaluating LLM prompts, so you can trace which prompt produced which output. Unlike general APM tooling it treats the prompt as a first-class object, separating prompt changes from code deploys.</summary>
+</entry>
+<entry>
+  <title>whisper.cpp</title>
+  <link href="https://github.com/ggml-org/whisper.cpp"/>
+  <id>https://github.com/ggml-org/whisper.cpp</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A dependency-free C/C++ port of OpenAI’s Whisper speech recognition model that runs at a reasonable pace even on CPU. Against the Python original there is no install burden and it compiles to a single binary — small enough for embedded targets.</summary>
+</entry>
+<entry>
+  <title>last30days</title>
+  <link href="https://github.com/mvanhorn/last30days-skill"/>
+  <id>https://github.com/mvanhorn/last30days-skill</id>
+  <updated>2026-08-19T22:59:37Z</updated>
+  <summary>A skill sweeping the last thirty days of Reddit, X and YouTube on a topic — aimed at the gap between a model’s training cutoff and today.</summary>
+</entry>
+<entry>
+  <title>Agno</title>
+  <link href="https://www.agno.com/"/>
+  <id>https://www.agno.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Memory, tools and knowledge base are built into the core with no extra abstraction layer. Agent instantiation lands in the microsecond range, which keeps it light in many-agent scenarios.</summary>
+</entry>
+<entry>
+  <title>Arize Phoenix</title>
+  <link href="https://phoenix.arize.com/"/>
+  <id>https://phoenix.arize.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Runs inside a notebook and renders traces locally. It can visualise the embedding space so you find the source of a retrieval failure by looking at clustering.</summary>
+</entry>
+<entry>
+  <title>AWS Bedrock Agents</title>
+  <link href="https://aws.amazon.com/bedrock/agents/"/>
+  <id>https://aws.amazon.com/bedrock/agents/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Agent definition, tool schema and knowledge base are configured in the console; AWS runs the runtime. The price of not operating your own framework is fitting the flow into AWS’s shape.</summary>
+</entry>
+<entry>
+  <title>AWS Bedrock Guardrails</title>
+  <link href="https://aws.amazon.com/bedrock/guardrails/"/>
+  <id>https://aws.amazon.com/bedrock/guardrails/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Content filters, denied-topic lists and PII redaction — and it can be applied as a standalone API to models outside Bedrock too.</summary>
+</entry>
+<entry>
+  <title>AWS Strands Agents</title>
+  <link href="https://strandsagents.com/"/>
+  <id>https://strandsagents.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>You do not wire the flow — you hand the model a tool list and it plans. Less code to write, at the cost of harder debugging when you need to trace where a decision came from.</summary>
+</entry>
+<entry>
+  <title>Azure AI Content Safety</title>
+  <link href="https://azure.microsoft.com/products/ai-services/ai-content-safety"/>
+  <id>https://azure.microsoft.com/products/ai-services/ai-content-safety</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A classifier scoring text and images across four harm categories with severity levels. You set the thresholds yourself — an alternative to training your own moderation model.</summary>
+</entry>
+<entry>
+  <title>Azure AI Foundry</title>
+  <link href="https://learn.microsoft.com/azure/ai-foundry/"/>
+  <id>https://learn.microsoft.com/azure/ai-foundry/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Model catalogue, agent service, evaluation and content filtering in one portal — a stack assembled for enterprise deployments that need compliance and region control.</summary>
+</entry>
+<entry>
+  <title>Azure OpenAI Service</title>
+  <link href="https://learn.microsoft.com/azure/ai-services/openai/"/>
+  <id>https://learn.microsoft.com/azure/ai-services/openai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>OpenAI models with Azure’s region selection and private networking. Model versions lag OpenAI’s own releases — that lag is the price of the compliance gain.</summary>
+</entry>
+<entry>
+  <title>CAMEL-AI</title>
+  <link href="https://www.camel-ai.org/"/>
+  <id>https://www.camel-ai.org/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A research framework for societies of role-playing agents steering each other. Suited to scaled experiments and synthetic data generation, not to production plumbing.</summary>
+</entry>
+<entry>
+  <title>Composio</title>
+  <link href="https://composio.dev/"/>
+  <id>https://composio.dev/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Ships ready tool definitions and delegated OAuth for a thousand-odd apps. Instead of writing auth per SaaS, you hand the authorisation off to it.</summary>
+</entry>
+<entry>
+  <title>CrewAI</title>
+  <link href="https://www.crewai.com/"/>
+  <id>https://www.crewai.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>You give each agent a role, goal and backstory; tasks are dispatched sequentially or hierarchically. Conceptually simple, but it gives less fine control over flow than LangGraph.</summary>
+</entry>
+<entry>
+  <title>DSPy</title>
+  <link href="https://dspy.ai/"/>
+  <id>https://dspy.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>You do not write prompt text — you declare input/output signatures and supply examples, and an optimiser generates the prompts and few-shot demonstrations. Prompt tuning handed to a compiler.</summary>
+</entry>
+<entry>
+  <title>FastMCP</title>
+  <link href="https://gofastmcp.com/"/>
+  <id>https://gofastmcp.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Decorate a function and it becomes an MCP tool, with the schema derived from type hints. It erases nearly all the boilerplate you would hand-write against the raw SDK.</summary>
+</entry>
+<entry>
+  <title>GitHub MCP Server</title>
+  <link href="https://github.com/github/github-mcp-server"/>
+  <id>https://github.com/github/github-mcp-server</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The official server exposing repo, issue, PR and Actions operations as tools. Permission scopes are fine-grained, so you can hand an assistant read-only access.</summary>
+</entry>
+<entry>
+  <title>Guardrails AI</title>
+  <link href="https://www.guardrailsai.com/"/>
+  <id>https://www.guardrailsai.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Runs output through a chain of schemas and validators, retrying or repairing on failure. NeMo holds the dialogue; this holds the shape and content of the generated text.</summary>
+</entry>
+<entry>
+  <title>Helicone</title>
+  <link href="https://www.helicone.ai/"/>
+  <id>https://www.helicone.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Change the base URL and requests are logged as they pass through. Requiring no code change makes it easy to bolt onto a project after the fact.</summary>
+</entry>
+<entry>
+  <title>Lakera Guard</title>
+  <link href="https://www.lakera.ai/"/>
+  <id>https://www.lakera.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>An API focused on prompt injection and jailbreak detection, fed by real attack data harvested from its gamified Gandalf experiment.</summary>
+</entry>
+<entry>
+  <title>LangChain</title>
+  <link href="https://www.langchain.com/"/>
+  <id>https://www.langchain.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Wraps model, vector store and tool providers behind common interfaces. The integration count is its strongest card; the thickness of the abstraction layer is the most frequent complaint.</summary>
+</entry>
+<entry>
+  <title>LangChain Agents (öğretici)</title>
+  <link href="https://python.langchain.com/docs/tutorials/agents/"/>
+  <id>https://python.langchain.com/docs/tutorials/agents/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The official walkthrough of defining tools, binding a model and wiring the loop — the shortest way to see how the tool-calling protocol actually works.</summary>
+</entry>
+<entry>
+  <title>Langfuse</title>
+  <link href="https://langfuse.com/"/>
+  <id>https://langfuse.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Framework-agnostic tracing and evaluation, OpenTelemetry-compatible. Because you can self-host it, prompt and response data never leaves your infrastructure.</summary>
+</entry>
+<entry>
+  <title>LangSmith</title>
+  <link href="https://smith.langchain.com/"/>
+  <id>https://smith.langchain.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Shows input, output, latency and token count for every chain step separately. Not tied to LangChain, though that is where the integration is tightest.</summary>
+</entry>
+<entry>
+  <title>LlamaIndex Workflows</title>
+  <link href="https://docs.llamaindex.ai/en/stable/module_guides/workflow/"/>
+  <id>https://docs.llamaindex.ai/en/stable/module_guides/workflow/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>An async runtime where steps emit and listen for events. Instead of building a graph you mark functions with `@step`, and parallel branches fall out naturally.</summary>
+</entry>
+<entry>
+  <title>MCP Registry</title>
+  <link href="https://registry.modelcontextprotocol.io/"/>
+  <id>https://registry.modelcontextprotocol.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The official server registry. Being machine-readable lets clients automate installation — it exists to replace scattered GitHub lists.</summary>
+</entry>
+<entry>
+  <title>MCP Sunucu Koleksiyonu</title>
+  <link href="https://github.com/modelcontextprotocol/servers"/>
+  <id>https://github.com/modelcontextprotocol/servers</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Reference implementations for filesystem, PostgreSQL, Slack, Git and fetch. Reading these is the fastest way to see the protocol in use before writing your own.</summary>
+</entry>
+<entry>
+  <title>Microsoft Agent Framework</title>
+  <link href="https://learn.microsoft.com/en-us/agent-framework/"/>
+  <id>https://learn.microsoft.com/en-us/agent-framework/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The new line merging AutoGen’s experimental side with Semantic Kernel’s enterprise side. It arrives pre-wired to Azure identity and monitoring.</summary>
+</entry>
+<entry>
+  <title>Microsoft AutoGen</title>
+  <link href="https://microsoft.github.io/autogen/"/>
+  <id>https://microsoft.github.io/autogen/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Agents solve tasks by talking in a group chat, with a manager agent deciding who speaks next. Research-rooted, so the API can shift sharply between versions.</summary>
+</entry>
+<entry>
+  <title>Microsoft Presidio</title>
+  <link href="https://microsoft.github.io/presidio/"/>
+  <id>https://microsoft.github.io/presidio/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Detects and redacts personal data — national IDs, IBANs, emails — in text and images. Recognisers are customisable; it belongs in the anonymisation step before data reaches a model.</summary>
+</entry>
+<entry>
+  <title>Model Context Protocol</title>
+  <link href="https://modelcontextprotocol.io/"/>
+  <id>https://modelcontextprotocol.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>An open protocol over JSON-RPC for exposing tools and data sources to models. Write the server once and any MCP-speaking client can use it.</summary>
+</entry>
+<entry>
+  <title>NeMo Guardrails</title>
+  <link href="https://github.com/NVIDIA/NeMo-Guardrails"/>
+  <id>https://github.com/NVIDIA/NeMo-Guardrails</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>You declare permitted conversation flows in a DSL called Colang. The control sits in the dialogue’s trajectory rather than the output text, cutting topic drift at the entrance.</summary>
+</entry>
+<entry>
+  <title>OpenAI Agents SDK</title>
+  <link href="https://openai.github.io/openai-agents-python/"/>
+  <id>https://openai.github.io/openai-agents-python/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Settles for four concepts: agents, tools, handoffs and guardrails. Tracing ships built in, and the learning curve is the shallowest of the frameworks here.</summary>
+</entry>
+<entry>
+  <title>Prompt Engineering Guide</title>
+  <link href="https://www.promptingguide.ai/"/>
+  <id>https://www.promptingguide.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A guide collecting prompt engineering techniques with academic citations: chain of thought, few-shot, RAG. Against blog posts each technique carries a paper reference, which separates claim from finding.</summary>
+</entry>
+<entry>
+  <title>Prompt Security</title>
+  <link href="https://www.prompt.security/"/>
+  <id>https://www.prompt.security/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Surfaces which AI tools employees send what data to, and blocks by policy. Aimed at organisations that need to measure shadow AI use.</summary>
+</entry>
+<entry>
+  <title>Promptfoo</title>
+  <link href="https://www.promptfoo.dev/"/>
+  <id>https://www.promptfoo.dev/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Runs prompts and models side by side against a test set declared in YAML. It catches output regressions in a CI step when a model version changes.</summary>
+</entry>
+<entry>
+  <title>Protect AI</title>
+  <link href="https://protectai.com/"/>
+  <id>https://protectai.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Scans model files for malicious payloads. Because pickle deserialisation can execute arbitrary code, a downloaded checkpoint is a real attack surface.</summary>
+</entry>
+<entry>
+  <title>Pydantic AI</title>
+  <link href="https://ai.pydantic.dev/"/>
+  <id>https://ai.pydantic.dev/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Validates model output against a Pydantic schema and sends it back for correction when it fails. What you get out is a type-guaranteed object, not free text.</summary>
+</entry>
+<entry>
+  <title>Semantic Kernel</title>
+  <link href="https://learn.microsoft.com/semantic-kernel/"/>
+  <id>https://learn.microsoft.com/semantic-kernel/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>An agent SDK exposing one API across C#, Python and Java. If you live in an enterprise .NET stack it creates far less friction than the Python-centric alternatives.</summary>
+</entry>
+<entry>
+  <title>W&amp;B Weave</title>
+  <link href="https://wandb.ai/site/weave/"/>
+  <id>https://wandb.ai/site/weave/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The LLM side of Weights &amp; Biases. If you already track training there, inference traces land under the same project.</summary>
+</entry>
+</feed>

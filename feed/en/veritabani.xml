@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title>Databases — Useful Sites</title>
+<subtitle>An annotated directory of links on software, AI, security and science. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/veritabani.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/veritabani.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/en/veritabani.xml</id>
+<updated>2026-08-21T20:53:20Z</updated>
+<entry>
+  <title>Turso</title>
+  <link href="https://turso.tech/"/>
+  <id>https://turso.tech/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A database platform built on libSQL, a SQLite fork, that replicates the database to edge nodes near the user. Unlike centralised services such as PlanetScale, read latency becomes local file access rather than a network round trip.</summary>
+</entry>
+<entry>
+  <title>Oracle SQL Developer</title>
+  <link href="https://www.oracle.com/database/sqldeveloper/"/>
+  <id>https://www.oracle.com/database/sqldeveloper/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A free desktop client for Oracle databases combining querying, schema browsing and PL/SQL debugging — the de facto tool if you work with Oracle.</summary>
+</entry>
+<entry>
+  <title>SQLite</title>
+  <link href="https://sqlite.org/"/>
+  <id>https://sqlite.org/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A serverless embedded database living in a single file — the most widely deployed database engine in the world, with a copy inside nearly every app on your phone. Its test coverage is legendary.</summary>
+</entry>
+<entry>
+  <title>SQLZoo</title>
+  <link href="https://sqlzoo.net/wiki/SQL_Tutorial"/>
+  <id>https://sqlzoo.net/wiki/SQL_Tutorial</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>An exercise set that teaches SQL by making you write queries in the browser, each section over its own dataset. That is the difference from tutorials needing an install: your first `SELECT` requires no database.</summary>
+</entry>
+<entry>
+  <title>SQL Nasıl Öğrenilir</title>
+  <link href="https://www.reddit.com/r/SQL/comments/11qe99b/best_way_to_learn_sql/"/>
+  <id>https://www.reddit.com/r/SQL/comments/11qe99b/best_way_to_learn_sql/</id>
+  <updated>2026-04-28T06:45:27Z</updated>
+  <summary>A thread where experienced users argue over how to learn SQL. Because nobody there is selling a course, the filtering is already done.</summary>
+</entry>
+<entry>
+  <title>Couchbase Learn</title>
+  <link href="https://learn.couchbase.com/learn"/>
+  <id>https://learn.couchbase.com/learn</id>
+  <updated>2026-04-20T13:01:24Z</updated>
+  <summary>Queries a document store with a SQL-like language (N1QL), which is a gentler break for teams arriving from the relational world than MongoDB’s query syntax.</summary>
+</entry>
+<entry>
+  <title>Firebase</title>
+  <link href="https://firebase.google.com/docs"/>
+  <id>https://firebase.google.com/docs</id>
+  <updated>2026-04-20T13:01:23Z</updated>
+  <summary>Realtime database, auth, storage and hosting in one package. It accelerates a prototype sharply, while query flexibility and vendor lock-in become the later problem.</summary>
+</entry>
+<entry>
+  <title>MongoDB University</title>
+  <link href="https://learn.mongodb.com/"/>
+  <id>https://learn.mongodb.com/</id>
+  <updated>2026-04-20T13:01:23Z</updated>
+  <summary>MongoDB’s official free courses. The data modelling unit is the important one — designing a document store with relational habits is the most common source of performance trouble.</summary>
+</entry>
+<entry>
+  <title>MySQL Tutorial</title>
+  <link href="https://www.mysqltutorial.org/"/>
+  <id>https://www.mysqltutorial.org/</id>
+  <updated>2026-04-20T13:01:22Z</updated>
+  <summary>Works MySQL end to end over a sample database, treating join types, subqueries and stored procedures separately. Far more readable as an introduction than the official manual.</summary>
+</entry>
+<entry>
+  <title>PostgreSQL Tutorial</title>
+  <link href="https://neon.com/postgresql/tutorial"/>
+  <id>https://neon.com/postgresql/tutorial</id>
+  <updated>2026-04-20T13:01:21Z</updated>
+  <summary>A PostgreSQL tutorial showing each topic with a runnable query, going deep on window functions and CTEs where most SQL courses stop.</summary>
+</entry>
+<entry>
+  <title>İlişkisel Veritabanı Tasarımı</title>
+  <link href="https://www.youtube.com/watch?v=26ls5lNiijk"/>
+  <id>https://www.youtube.com/watch?v=26ls5lNiijk</id>
+  <updated>2026-04-06T11:29:37Z</updated>
+  <summary>A full course on normal forms and schema design. It teaches getting the tables right rather than writing queries — which is where every later problem originates.</summary>
+</entry>
+<entry>
+  <title>Veritabanları Derinlemesine</title>
+  <link href="https://www.youtube.com/watch?v=pPqazMTzNOM"/>
+  <id>https://www.youtube.com/watch?v=pPqazMTzNOM</id>
+  <updated>2026-04-06T11:29:19Z</updated>
+  <summary>A course on internals — index structures, transaction isolation levels, locking. Not a product tutorial; it holds regardless of which database you use.</summary>
+</entry>
+<entry>
+  <title>SQL Sıfırdan İleri Seviye</title>
+  <link href="https://www.youtube.com/watch?v=OT1RErkfLNQ"/>
+  <id>https://www.youtube.com/watch?v=OT1RErkfLNQ</id>
+  <updated>2026-04-06T11:29:04Z</updated>
+  <summary>SQL from basics to advanced in four hours for anyone who wants the whole picture in one sitting. It reaches window functions rather than stopping at basic SELECT.</summary>
+</entry>
+</feed>

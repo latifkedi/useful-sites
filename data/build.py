@@ -131,6 +131,14 @@ _vp = os.path.join(D, 'verified.json')
 if os.path.exists(_vp):
     VERIFIED = json.load(io.open(_vp, encoding='utf-8'))
 
+# Repository health: ci_github.py refreshes health.json weekly. A link can
+# answer perfectly while the project behind it has been archived or untouched
+# for years -- the audit knew that and only told an issue. Now the record does.
+HEALTH = {}
+_hp = os.path.join(D, 'health.json')
+if os.path.exists(_hp):
+    HEALTH = json.load(io.open(_hp, encoding='utf-8'))
+
 out, missing, seen = [], [], set()
 for m in meta:
     k = key(m['url'])
@@ -156,6 +164,12 @@ for m in meta:
         rec['added'] = ts
     if m['url'] in PICKS:
         rec['pick'] = 1
+    h = HEALTH.get(k) or HEALTH.get(re.split(r'[?#]', k)[0].rstrip('/'))
+    if h and h.get('s') in ('arşiv', 'bayat', 'yok'):
+        rec['hs'] = h['s']
+        if h.get('p'):
+            rec['hp'] = h['p']
+
     v = VERIFIED.get(k) or VERIFIED.get(re.split(r'[?#]', k)[0].rstrip('/'))
     if v:
         rec['ver'] = v['d']
@@ -199,6 +213,10 @@ for r in out:
         core[-1]['verw'] = 1
     if r.get('dead'):
         core[-1]['dead'] = 1
+    if r.get('hs'):
+        core[-1]['hs'] = r['hs']
+        if r.get('hp'):
+            core[-1]['hp'] = r['hp']
     if r.get('pick'):
         core[-1]['pick'] = 1
     en.append(r['en'])
@@ -277,6 +295,7 @@ _sc = collections.Counter(r['src'] for r in out)
 print('sources        :', dict(_sc))
 print('verified       :', sum(1 for r in core if r.get('ver')))
 print('with related   :', sum(1 for r in core if r.get('rel')))
+print('repo flagged   :', sum(1 for r in core if r.get('hs')))
 print('static pages   :', len(_pages), '+ sitemap, robots, feed')
 if missing:
     io.open(os.path.join(D, 'missing.txt'), 'w', encoding='utf-8').write(

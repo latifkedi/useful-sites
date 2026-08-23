@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
+<title>Öz-Barındırma &amp; Kişisel Bulut — Kullanışlı Siteler</title>
+<subtitle>Yazılım, yapay zeka, güvenlik ve bilim üzerine açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/barindirma.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/barindirma.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/barindirma.xml</id>
+<updated>2026-08-21T20:53:20Z</updated>
+<entry>
+  <title>AdGuard Home</title>
+  <link href="https://adguard.com/en/adguard-home/overview.html"/>
+  <id>https://adguard.com/en/adguard-home/overview.html</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Pi-hole ile aynı işi yapan ağ geneli engelleyici; farkı DNS-over-HTTPS ve DNS-over-TLS sunucusunu kendi içinde barındırması ve istemci başına ayrı kural yazmaya izin vermesi. Tek ikili dosya, ek bağımlılık yok.</summary>
+</entry>
+<entry>
+  <title>Audiobookshelf</title>
+  <link href="https://www.audiobookshelf.org/"/>
+  <id>https://www.audiobookshelf.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Sesli kitap ve podcast koleksiyonunu kendi sunucunda yönetip yayınlayan uygulama; ilerleme cihazlar arasında eşitleniyor. Plex ya da Jellyfin’den farkı sesli kitaba özgü olması — bölüm işaretleri, hız ayarı ve seri takibi doğru çalışıyor.</summary>
+</entry>
+<entry>
+  <title>Dawarich</title>
+  <link href="https://github.com/Freika/dawarich"/>
+  <id>https://github.com/Freika/dawarich</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Konum geçmişini kendi sunucunda tutan ve haritada gösteren uygulama; Google Location History dışa aktarımını içe alabiliyor. Google’ın kendi hizmetinden farkı verinin sende kalması ve kapatıldığında kaybolmaması.</summary>
+</entry>
+<entry>
+  <title>Element</title>
+  <link href="https://element.io/"/>
+  <id>https://element.io/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Matrix protokolü üzerine kurulu mesajlaşma istemcisi; uçtan uca şifreleme ve sunucular arası federasyon var. Slack ya da Discord’dan farkı bu federasyon: farklı sunucudaki iki kişi tek bir şirkete bağlı olmadan aynı odada konuşabiliyor.</summary>
+</entry>
+<entry>
+  <title>Immich</title>
+  <link href="https://immich.app/"/>
+  <id>https://immich.app/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Google Photos’un kendi sunucunda çalışan karşılığı: telefondan otomatik yükleme, yüz tanıma, harita ve zaman çizelgesi. Diğer öz-barındırılan galerilerden farkı mobil uygulamanın gerçekten arka planda yedekleme yapması — çoğu bunu beceremiyor.</summary>
+</entry>
+<entry>
+  <title>LibreOffice</title>
+  <link href="https://www.libreoffice.org/"/>
+  <id>https://www.libreoffice.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Yazı, hesap tablosu, sunum ve veritabanı içeren ofis paketi; varsayılan biçimi açık standart ODF. Microsoft Office ile farkı lisans ve veri sahipliği; karşılığında karmaşık .docx düzenlerinde ufak kaymalar görebiliyorsun.</summary>
+</entry>
+<entry>
+  <title>Logseq</title>
+  <link href="https://logseq.com/"/>
+  <id>https://logseq.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Madde temelli, çift yönlü bağlantı kuran not uygulaması; notları düz Markdown dosyası olarak diskte tutuyor. Notion’dan farkı verinin senin klasöründe olması, Obsidian’dan farkı ana birimin sayfa değil madde olması — günlük tutmaya daha uygun.</summary>
+</entry>
+<entry>
+  <title>Nextcloud</title>
+  <link href="https://nextcloud.com/"/>
+  <id>https://nextcloud.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Kendi sunucunda çalışan dosya senkronizasyonu ve iş birliği paketi: takvim, kişiler, belge düzenleme, sohbet. Syncthing’den farkı web arayüzü ve paylaşım bağlantıları sunması — eşitleme değil, Google Workspace’in yerini almaya çalışıyor.</summary>
+</entry>
+<entry>
+  <title>Organic Maps</title>
+  <link href="https://organicmaps.app/"/>
+  <id>https://organicmaps.app/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>OpenStreetMap verisiyle çalışan çevrimdışı harita ve navigasyon uygulaması; izleyici ve reklam yok. Maps.me’den farkı onun ticarileşmesinin ardından çatallanmış olması — eski reklamsız hâlin devamı.</summary>
+</entry>
+<entry>
+  <title>Pi-hole</title>
+  <link href="https://pi-hole.net/"/>
+  <id>https://pi-hole.net/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Ağ geneli reklam engelleyici: DNS sunucusu olarak çalışıp reklam ve izleyici alan adlarını boşa düşürüyor. Tarayıcı eklentisinden farkı akıllı televizyon, telefon uygulaması ve IoT cihazlarını da kapsaması — eklenti kurulamayan her şeyi.</summary>
+</entry>
+<entry>
+  <title>Rocket.Chat</title>
+  <link href="https://www.rocket.chat/"/>
+  <id>https://www.rocket.chat/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Kendi sunucuna kurulabilen takım mesajlaşma platformu; kanal, tez (thread), sesli görüşme ve köprüler (bridge) var. Slack’ten farkı verinin senin altyapında kalması ve mesaj geçmişinin ücretli plan arkasına kilitlenmemesi.</summary>
+</entry>
+<entry>
+  <title>Syncthing</title>
+  <link href="https://syncthing.net/"/>
+  <id>https://syncthing.net/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Cihazlar arası sürekli dosya eşitleme; merkezî sunucu yok, cihazlar doğrudan konuşuyor. Dropbox’tan farkı buluta hiç kopya çıkmaması — depolama kotası da yok, diskin kadar yer var.</summary>
+</entry>
+<entry>
+  <title>Thunderbird</title>
+  <link href="https://www.thunderbird.net/en-US/"/>
+  <id>https://www.thunderbird.net/en-US/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Mozilla çatısı altındaki masaüstü e-posta istemcisi; IMAP, takvim, kişiler ve OpenPGP imzalama bir arada. Web arayüzlerinden farkı postanın yerelde durması ve sağlayıcıyı değiştirdiğinde arşivinin seninle kalması.</summary>
+</entry>
+<entry>
+  <title>Feedly</title>
+  <link href="https://feedly.com/"/>
+  <id>https://feedly.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>RSS okuyucu. Algoritmik akışların aksine ne okuyacağına kaynak düzeyinde sen karar veriyorsun; okumadığın şey de kaybolmuyor.</summary>
+</entry>
+<entry>
+  <title>KeepNote</title>
+  <link href="https://keepnote.org/"/>
+  <id>https://keepnote.org/</id>
+  <updated>2025-07-29T17:23:02Z</updated>
+  <summary>Basit ve taşınabilir not defteri; notları düz dosya olarak diskte tutuyor. Bulut not uygulamalarının kapanma riskine karşı sade bir sigorta.</summary>
+</entry>
+</feed>

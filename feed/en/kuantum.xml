@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title>Quantum Computing — Useful Sites</title>
+<subtitle>An annotated directory of links on software, AI, security and science. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/kuantum.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/kuantum.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/en/kuantum.xml</id>
+<updated>2026-08-21T20:53:20Z</updated>
+<entry>
+  <title>QPlayLearn</title>
+  <link href="https://qplaylearn.com"/>
+  <id>https://qplaylearn.com</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>An education project explaining quantum concepts at three separate depths: game, animation and technical account. Unlike single-level resources that layering lets the same concept reach a child and an undergraduate.</summary>
+</entry>
+<entry>
+  <title>Quantum Flytrap</title>
+  <link href="https://quantumflytrap.com/"/>
+  <id>https://quantumflytrap.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A virtual lab where you assemble and run optical quantum experiments by dragging photons, polarisers and beam splitters. Unlike circuit simulators it works at the level of the physical apparatus rather than the qubit abstraction.</summary>
+</entry>
+<entry>
+  <title>Virtual Quantum Optics Laboratory</title>
+  <link href="https://www.vqol.org/"/>
+  <id>https://www.vqol.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A browser-based laboratory for designing and simulating quantum optics experiments. Against Quantum Flytrap it aims at research-grade accuracy rather than gamification, enough to stand in for a teaching lab.</summary>
+</entry>
+<entry>
+  <title>TensorFlow Quantum</title>
+  <link href="https://www.tensorflow.org/quantum"/>
+  <id>https://www.tensorflow.org/quantum</id>
+  <updated>2026-08-05T16:12:48Z</updated>
+  <summary>Wraps parameterised quantum circuits as Keras-style layers to combine with classical networks — where hybrid classical-quantum models get explored experimentally.</summary>
+</entry>
+<entry>
+  <title>IBM Quantum</title>
+  <link href="https://quantum.cloud.ibm.com/docs/en/guides"/>
+  <id>https://quantum.cloud.ibm.com/docs/en/guides</id>
+  <updated>2026-06-26T11:04:42Z</updated>
+  <summary>Queued access to real quantum processors, with circuits written and submitted through Qiskit. The noise and error rates a simulator hides only show up here.</summary>
+</entry>
+<entry>
+  <title>Neden Q#?</title>
+  <link href="https://quantum.microsoft.com/en-us/insights/blogs/qsharp/why-do-we-need-q"/>
+  <id>https://quantum.microsoft.com/en-us/insights/blogs/qsharp/why-do-we-need-q</id>
+  <updated>2026-06-26T11:02:26Z</updated>
+  <summary>Explains why quantum needs its own language — no-cloning and measurement collapsing state do not fit classical language idioms.</summary>
+</entry>
+<entry>
+  <title>LIQUi|&gt;</title>
+  <link href="https://stationq.github.io/Liquid/getting-started/"/>
+  <id>https://stationq.github.io/Liquid/getting-started/</id>
+  <updated>2026-06-26T11:00:58Z</updated>
+  <summary>Microsoft’s early quantum simulation platform, since superseded by Q#. Little practical value now beyond seeing how the field’s toolchain evolved.</summary>
+</entry>
+<entry>
+  <title>Q# Geliştirme Kiti Kurulumu</title>
+  <link href="https://learn.microsoft.com/en-us/azure/quantum/install-overview-qdk"/>
+  <id>https://learn.microsoft.com/en-us/azure/quantum/install-overview-qdk</id>
+  <updated>2026-06-26T06:52:46Z</updated>
+  <summary>Installing Q# and the QDK, with the VS Code extension as the shortest path to running circuits on a local simulator — no hardware access needed to start.</summary>
+</entry>
+<entry>
+  <title>Microsoft QDK</title>
+  <link href="https://github.com/microsoft/qdk"/>
+  <id>https://github.com/microsoft/qdk</id>
+  <updated>2026-06-26T06:51:53Z</updated>
+  <summary>Source for the Q# compiler and simulator — for anyone who wants to see how a quantum circuit is compiled and simulated.</summary>
+</entry>
+<entry>
+  <title>Microsoft Kuantum Yol Haritası</title>
+  <link href="https://quantum.microsoft.com/en-us/vision/quantum-roadmap"/>
+  <id>https://quantum.microsoft.com/en-us/vision/quantum-roadmap</id>
+  <updated>2026-06-26T06:49:29Z</updated>
+  <summary>The stages from noisy intermediate-scale (NISQ) to error-corrected logical qubits — useful for weighing which of the field’s promises are now and which are a decade out.</summary>
+</entry>
+<entry>
+  <title>Kuantum Öğrenme Kaynakları</title>
+  <link href="https://azure.microsoft.com/tr-tr/resources/training-and-certifications/quantum-computing"/>
+  <id>https://azure.microsoft.com/tr-tr/resources/training-and-certifications/quantum-computing</id>
+  <updated>2026-06-26T06:45:55Z</updated>
+  <summary>A Turkish compilation of quantum computing learning resources — an ordered way into the field.</summary>
+</entry>
+</feed>

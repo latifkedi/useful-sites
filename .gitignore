@@ -2,6 +2,7 @@
 # ikisi duruyor, yoksa depoyu klonlayan (ve CI) yeniden derleyemez.
 data/*.json
 !data/verified.json
+!data/health.json
 !data/added.json
 !data/meta.json
 !data/ext_meta.json

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title>AI · Models &amp; Assistants — Useful Sites</title>
+<subtitle>An annotated directory of links on software, AI, security and science. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/yz_model.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/en/yz_model.xml</id>
+<updated>2026-08-19T23:06:49Z</updated>
+<entry>
+  <title>Can I Vibecode It?</title>
+  <link href="https://canivibecodeit.com/"/>
+  <id>https://canivibecodeit.com/</id>
+  <updated>2026-08-19T23:06:49Z</updated>
+  <summary>A table testing whether AI can rebuild a thousand-odd apps, with the verdict published. It hands you the exact prompt used, so the result is reproducible.</summary>
+</entry>
+<entry>
+  <title>Anthropic Claude</title>
+  <link href="https://www.anthropic.com/claude"/>
+  <id>https://www.anthropic.com/claude</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Model versions, context limits and token pricing, with the cost-reducing features — prompt caching, the batch API — laid out side by side.</summary>
+</entry>
+<entry>
+  <title>Cohere</title>
+  <link href="https://cohere.com/"/>
+  <id>https://cohere.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Rather than compete on chat, it sits on the retrieval side: its Rerank model reorders candidates returned by vector search and visibly lifts RAG precision.</summary>
+</entry>
+<entry>
+  <title>Google AI Studio</title>
+  <link href="https://aistudio.google.com/"/>
+  <id>https://aistudio.google.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A browser surface for testing prompts, setting system instructions and fiddling with temperature. It exports whatever call you just tried as ready code.</summary>
+</entry>
+<entry>
+  <title>Google Gemini</title>
+  <link href="https://gemini.google.com/"/>
+  <id>https://gemini.google.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Connects straight into Gmail, Drive and YouTube to use your own content as source. That integration is decisive if you live in Google’s ecosystem and irrelevant if you do not.</summary>
+</entry>
+<entry>
+  <title>LM Studio</title>
+  <link href="https://lmstudio.ai/"/>
+  <id>https://lmstudio.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A desktop app for finding GGUF models, downloading them and picking a quantisation level. It tells you upfront which quant fits your RAM; with Ollama you work that out yourself.</summary>
+</entry>
+<entry>
+  <title>Meta Llama</title>
+  <link href="https://www.llama.com/"/>
+  <id>https://www.llama.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Weights are downloadable and run on your own hardware. The licence is not fully OSI-compliant: there is a monthly-active-user threshold for large commercial use — read it before shipping.</summary>
+</entry>
+<entry>
+  <title>Microsoft Copilot</title>
+  <link href="https://copilot.microsoft.com/"/>
+  <id>https://copilot.microsoft.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Runs embedded in Word, Excel and the Windows shell, so you operate on a document without copying it to a website. The underlying models are OpenAI’s; the difference is the delivery point.</summary>
+</entry>
+<entry>
+  <title>Mistral AI</title>
+  <link href="https://mistral.ai/"/>
+  <id>https://mistral.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Europe-based provider that ships its small models (7B and below) under Apache-2.0. They fit on a single consumer GPU, which matters when hardware is the constraint.</summary>
+</entry>
+<entry>
+  <title>Ollama</title>
+  <link href="https://ollama.com/"/>
+  <id>https://ollama.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Built on llama.cpp; one command pulls and runs a model. It exposes an OpenAI-compatible local endpoint, so existing client code runs unchanged.</summary>
+</entry>
+<entry>
+  <title>Open WebUI</title>
+  <link href="https://openwebui.com/"/>
+  <id>https://openwebui.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A web front-end for Ollama or any OpenAI-compatible endpoint, adding multi-user accounts, role management and document upload for RAG. Usually deployed with Docker.</summary>
+</entry>
+<entry>
+  <title>OpenAI Platform</title>
+  <link href="https://platform.openai.com/"/>
+  <id>https://platform.openai.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>API keys, rate limits and billing. Organisation-level quota settings and usage graphs live here too.</summary>
+</entry>
+<entry>
+  <title>Phind</title>
+  <link href="https://www.phind.com/"/>
+  <id>https://www.phind.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Answers developer questions with a code block and source links rather than a page of results. A substitute for trawling Stack Overflow; it falls behind general assistants outside that domain.</summary>
+</entry>
+<entry>
+  <title>vLLM</title>
+  <link href="https://docs.vllm.ai/"/>
+  <id>https://docs.vllm.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>PagedAttention pages the KV cache to use GPU memory efficiently, and continuous batching pushes concurrent-request throughput far past what Ollama manages.</summary>
+</entry>
+<entry>
+  <title>Kimi K2.7 Code</title>
+  <link href="https://huggingface.co/moonshotai/Kimi-K2.7-Code"/>
+  <id>https://huggingface.co/moonshotai/Kimi-K2.7-Code</id>
+  <updated>2026-07-19T16:24:12Z</updated>
+  <summary>Moonshot AI’s code-focused open-weight model — a genuine option if you want a local coding assistant without wiring yourself to a closed API.</summary>
+</entry>
+<entry>
+  <title>LocateAnything-3B</title>
+  <link href="https://huggingface.co/nvidia/LocateAnything-3B"/>
+  <id>https://huggingface.co/nvidia/LocateAnything-3B</id>
+  <updated>2026-07-16T06:26:20Z</updated>
+  <summary>A visual grounding model that boxes an object in an image from a text description. Unlike classification it is not tied to a predefined label set.</summary>
+</entry>
+<entry>
+  <title>Hugging Bay</title>
+  <link href="https://huggingbay.xyz/"/>
+  <id>https://huggingbay.xyz/</id>
+  <updated>2026-07-07T05:53:13Z</updated>
+  <summary>An alternative browser placing open models side by side with licence and provenance. It publishes SHA-256 hashes for downloads, so integrity is verifiable.</summary>
+</entry>
+<entry>
+  <title>Unlimited-OCR</title>
+  <link href="https://huggingface.co/baidu/Unlimited-OCR"/>
+  <id>https://huggingface.co/baidu/Unlimited-OCR</id>
+  <updated>2026-07-03T07:30:46Z</updated>
+  <summary>Baidu’s OCR model, extracting text from long multi-column documents with no page ceiling. Markedly better than a classic Tesseract pipeline at preserving tables and layout.</summary>
+</entry>
+<entry>
+  <title>OpenAI API Dokümantasyonu</title>
+  <link href="https://developers.openai.com/api/docs"/>
+  <id>https://developers.openai.com/api/docs</id>
+  <updated>2026-04-20T13:01:25Z</updated>
+  <summary>Parameter reference for the Chat Completions, Responses and Realtime endpoints. The primary source for function-calling schemas and streaming behaviour.</summary>
+</entry>
+<entry>
+  <title>Google AI for Developers</title>
+  <link href="https://ai.google.dev/"/>
+  <id>https://ai.google.dev/</id>
+  <updated>2026-04-20T13:01:24Z</updated>
+  <summary>Developer gateway for the Gemini API and the open-weight Gemma family. The free tier is wide enough to carry a real prototype and asks for no card.</summary>
+</entry>
+<entry>
+  <title>Hugging Face</title>
+  <link href="https://huggingface.co/"/>
+  <id>https://huggingface.co/</id>
+  <updated>2026-04-06T11:40:03Z</updated>
+  <summary>The central repository for models, datasets and Spaces demos. Each model card carries licence, training data and eval results — read that before you download.</summary>
+</entry>
+<entry>
+  <title>OpenClaw</title>
+  <link href="https://openclaw.ai/"/>
+  <id>https://openclaw.ai/</id>
+  <updated>2026-04-05T20:24:58Z</updated>
+  <summary>A personal assistant that runs on your own machine. It has no UI of its own; it hooks into chat apps you already use, and data never leaves the device.</summary>
+</entry>
+<entry>
+  <title>Kimi Claw</title>
+  <link href="https://kimi-claw.com/"/>
+  <id>https://kimi-claw.com/</id>
+  <updated>2026-04-05T20:24:40Z</updated>
+  <summary>A hosted layer on OpenClaw adding persistent memory, scheduled tasks and jobs that fire without being asked. For people who do not want to operate their own server.</summary>
+</entry>
+<entry>
+  <title>Claude</title>
+  <link href="https://claude.ai/new"/>
+  <id>https://claude.ai/new</id>
+  <updated>2026-02-25T13:13:59Z</updated>
+  <summary>A 200K-token context window carries long documents and whole codebases. Projects keeps files as persistent context across chats; Artifacts runs output in a side panel.</summary>
+</entry>
+<entry>
+  <title>DeepSeek</title>
+  <link href="https://www.deepseek.com/"/>
+  <id>https://www.deepseek.com/</id>
+  <updated>2025-09-25T09:14:54Z</updated>
+  <summary>V3 and R1 weights are downloadable. A mixture-of-experts architecture keeps total parameters high while activating only a slice per token, which is how it delivers reasoning performance at far lower inference cost.</summary>
+</entry>
+<entry>
+  <title>ChatGPT</title>
+  <link href="https://chatgpt.com/"/>
+  <id>https://chatgpt.com/</id>
+  <updated>2025-09-25T09:14:28Z</updated>
+  <summary>Sandboxed Python execution, image generation, file upload and custom GPTs in one window. The breadth costs it depth — no single capability is best-in-class.</summary>
+</entry>
+<entry>
+  <title>NotebookLM</title>
+  <link href="https://notebooklm.google.com/"/>
+  <id>https://notebooklm.google.com/</id>
+  <updated>2025-09-22T18:22:44Z</updated>
+  <summary>Builds a context limited to the PDFs, docs and links you upload, and refuses to answer outside them. The constraint cuts hallucination; the price is that you cannot ask it general questions.</summary>
+</entry>
+<entry>
+  <title>Perplexity</title>
+  <link href="https://www.perplexity.ai/"/>
+  <id>https://www.perplexity.ai/</id>
+  <updated>2025-03-01T00:01:39Z</updated>
+  <summary>Turns your query into a web search, feeds the retrieved pages to a model, then footnotes each sentence. It is a RAG pipeline: answers rest on live search results, not the model’s memory.</summary>
+</entry>
+</feed>

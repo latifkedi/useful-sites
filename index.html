@@ -236,6 +236,9 @@ h2 .n{font-variant-numeric:tabular-nums}
 .badge{font:11.5px/1 var(--mono);color:var(--faint);white-space:nowrap}
 .badge.ext{color:var(--accent);opacity:.8}
 .badge.dead{color:#fff;background:var(--accent);border-color:var(--accent);opacity:1}
+.badge.repo{border:1px solid currentColor;border-radius:2px;padding:1px 5px;opacity:1}
+.badge.repo.warn{color:var(--dim)}
+.badge.repo.stop{color:var(--accent)}
 .arch{
   font:11.5px/1 var(--mono);color:var(--faint);text-decoration:none;
   border-bottom:1px dotted var(--rule);padding-bottom:1px;
@@ -307,9 +310,9 @@ mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:2px}
 .hpick:hover{border-left-color:var(--accent)}
 .hpick a{font:600 16px/1.3 var(--serif);text-decoration:none;color:var(--accent)}
 .hpick p{margin:5px 0 0;font-size:13.5px;line-height:1.55;color:var(--dim)}
-.hmore{display:block;margin:26px 0 0;font:12.5px/1 var(--mono);color:var(--dim);
-  text-decoration:none}
-.hmore:hover{color:var(--accent)}
+.hlinks{display:flex;gap:24px;flex-wrap:wrap;margin:26px 0 0}
+.hlinks a{font:12.5px/1 var(--mono);color:var(--dim);text-decoration:none}
+.hlinks a:hover{color:var(--accent)}
 
 .empty{padding:64px 0;color:var(--dim);font-size:16px}
 .empty code{font:14px var(--mono);color:var(--accent)}
@@ -550,7 +553,7 @@ dialog#sub::backdrop{background:rgba(0,0,0,.45)}
 
 <button class="btn" id="top" type="button" title="Yukarı">↑</button>
 
-<script src="links.js?v=9d4c2de5"></script>
+<script src="links.js?v=e3708211"></script>
 <script>
 (function(){
 "use strict";
@@ -596,7 +599,15 @@ var T = {
     hStart:"Buradan Başla", hCats:"Başlıklar", hAll:"Tümünü tek listede gör →",
     tagMore:function(n){ return "+ " + n + " Etiket Daha" }, tagLess:"− Etiketleri Kısalt",
     backCat:"← Bu başlıktaki diğer kayıtlar", permaTip:"Bu kayda bağlantı", perma:"bağlantı",
+    recent:"Son Eklenenler", recentLead:function(n){ return "Dizine en son giren "+n+" kayıt, aya göre." },
     dead:"Ölü", deadTip:"Son taramada yanıt vermedi — arşivden bak",
+    repo:{'arşiv':"Depo Arşivlenmiş", 'bayat':"Depo Durgun", 'yok':"Depo Silinmiş"},
+    repoTip:{
+      'arşiv':"Kaynak deposu salt okunur; bakım durmuş. Sayfa açılıyor olabilir.",
+      'bayat':function(d){ return "Depoya iki yıldan uzun süredir itme yok" +
+                                  (d ? " (son: " + d + ")" : "") },
+      'yok':"Kaynak deposu silinmiş"
+    },
     arch:"arşiv", archTip:"Sayfanın Wayback Machine'deki kopyası",
     add:"Bağlantı Gönder",
     sTitle:"Bağlantı Gönder",
@@ -654,7 +665,15 @@ var T = {
     hStart:"Start Here", hCats:"Headings", hAll:"See everything in one list →",
     tagMore:function(n){ return "+ " + n + " More Tags" }, tagLess:"− Fewer Tags",
     backCat:"← Other entries under this heading", permaTip:"Link to this entry", perma:"link",
+    recent:"Recently Added", recentLead:function(n){ return "The "+n+" newest entries, by month." },
     dead:"Dead", deadTip:"No response in the last scan — try the archive",
+    repo:{'arşiv':"Repo Archived", 'bayat':"Repo Dormant", 'yok':"Repo Deleted"},
+    repoTip:{
+      'arşiv':"The source repository is read-only; maintenance has stopped. The page may still load.",
+      'bayat':function(d){ return "No pushes to the repository in over two years" +
+                                  (d ? " (last: " + d + ")" : "") },
+      'yok':"The source repository has been deleted"
+    },
     arch:"archive", archTip:"The page as kept by the Wayback Machine",
     add:"Submit a Link",
     sTitle:"Submit a Link",
@@ -683,7 +702,7 @@ var T = {
 
 var data  = window.LINKS || [];
 var theme = localStorage.getItem("theme");
-var lang, q, activeTags, activeCat, sortBy, pages, onlyPicks, activeSrc, single;
+var lang, q, activeTags, activeCat, sortBy, pages, onlyPicks, activeSrc, single, recent;
 
 var $ = function(s){return document.querySelector(s)};
 var esc = function(s){return String(s).replace(/[&<>"]/g,function(c){
@@ -756,6 +775,7 @@ function readURL(){
   onlyPicks  = p.get("pick") === "1";
   activeSrc  = p.get("src") || null;
   single     = p.get("e") || null;
+  recent     = p.get("new") === "1";
   if(activeSrc && !SRCMAP[activeSrc]) activeSrc = null;
   lang       = p.get("lang") || localStorage.getItem("lang") || "tr";
   if(!T[lang]) lang = "tr";
@@ -775,6 +795,7 @@ function writeURL(push){
   if(onlyPicks) p.set("pick", "1");
   if(activeSrc) p.set("src", activeSrc);
   if(single) p.set("e", single);
+  if(recent) p.set("new", "1");
   if(sortBy !== "cat") p.set("sort", sortBy);
   if(lang !== "tr") p.set("lang", lang);
   var pg = pages[activeCat && sortBy === "cat" ? activeCat : "_"];
@@ -874,9 +895,20 @@ function itemHTML(d, showYear){
   var SEP = '<span class="sep">·</span>';
   /* Kunye satiri: bakilan sey ad ve aciklama, bunlar dogrulama bilgisi.
      Ayni satirda durunca hangisinin once okunacagi belirsiz kaliyordu. */
+  /* Depo sagligi. Bir kayit mukemmel yanit verirken arkasindaki proje iki
+     yildir durmus olabilir; denetim bunu biliyordu ama yalnizca issue'ya
+     yaziyordu. Dizinin tezi tam olarak bu ayrimdi, artik kayitta duruyor. */
+  var rt = "";
+  if(d.hs){
+    var tip = T[lang].repoTip[d.hs];
+    rt = '<span class="badge repo '+(d.hs==="bayat"?"warn":"stop")+'" title="'+
+         esc(typeof tip === "function" ? tip(d.hp) : tip)+'">'+
+         esc(T[lang].repo[d.hs])+'</span>';
+  }
   var meta = ['<span class="host">'+esc(d._h)+'</span>',
               '<span class="badge'+(d.src!=="kedi"?' ext':'')+'" title="'+esc(srcNote(d))+'">'+
                 esc(srcLabel(d))+'</span>'];
+  if(rt) meta.push(rt);
   if(showYear) meta.push('<span class="age">'+whenOf(d)+'</span>');
   meta.push('<a class="arch" href="'+esc(ARCHIVE+d.url)+'" target="_blank" '+
             'rel="noopener noreferrer" title="'+esc(T[lang].archTip)+'">'+esc(T[lang].arch)+'</a>');
@@ -949,6 +981,35 @@ function tagbarHTML(L){
     : "");
 }
 
+/* Son eklenenler. Ayri bir gorunum olmasinin sebebi arastirma: bir dizine
+   geri donmenin en yaygin sebebi "yeni ne var" sorusu, ve siralama secenegi
+   bunu karsilamiyor -- kullanicinin once siralamayi degistirmesi gerekiyor. */
+/* Akisla ayni sayi. Doksan kayitlik bir alim tek gune dustugunde ay
+   gruplamasi tek bloga dusuyor; kirk hem o durumda okunabilir kaliyor
+   hem de ciziim maliyetini giris sayfasiyla ayni mertebede tutuyor. */
+var RECENT_N = 40;
+
+function recentHTML(L){
+  var rows = data.slice().sort(function(a, b){
+    return b.added - a.added || a.name.localeCompare(b.name, "tr");
+  }).slice(0, RECENT_N);
+
+  var gruplar = [], sonAy = null;
+  rows.forEach(function(d){
+    var ay = whenOf(d);
+    if(ay !== sonAy){ gruplar.push({ay:ay, kayit:[]}); sonAy = ay; }
+    gruplar[gruplar.length - 1].kayit.push(d);
+  });
+
+  return '<div class="home"><p class="lead">'+esc(L.recentLead(rows.length))+'</p>'+
+    gruplar.map(function(g){
+      return '<section><h2><span>'+esc(g.ay)+'</span>'+
+             '<span class="n">'+g.kayit.length+'</span></h2><div class="grid">'+
+             g.kayit.map(function(d){ return itemHTML(d, false) }).join("")+
+             '</div></section>';
+    }).join("")+'</div>';
+}
+
 function homeHTML(L){
   var byCat = {};
   data.forEach(function(d){ (byCat[d.cat] = byCat[d.cat] || []).push(d) });
@@ -1001,7 +1062,10 @@ function homeHTML(L){
       : "")+
     '<p class="hsec">'+esc(L.hCats)+'</p>'+
     '<div class="cards">'+cards+'</div>'+
-    '<a class="hmore" href="?sort=az" data-all="1">'+esc(L.hAll)+'</a>'+
+    '<p class="hlinks">'+
+      '<a href="?new=1" data-recent="1">'+esc(L.recent)+' →</a>'+
+      '<a href="?sort=az" data-all="1">'+esc(L.hAll)+'</a>'+
+    '</p>'+
   '</div>';
 }
 
@@ -1034,7 +1098,7 @@ function render(){
   $("#skip").textContent    = L.skip;
   $("#back").textContent    = L.back;
   $("#foot").innerHTML      = L.foot + "<br>" + L.kb;
-  $("#back").classList.toggle("show", !!activeCat);
+  $("#back").classList.toggle("show", !!(activeCat || single || recent));
 
   $("#sort").innerHTML = Object.keys(L.sorts).map(function(k){
     return '<option value="'+k+'"'+(k===sortBy?' selected':'')+'>'+esc(L.sorts[k])+'</option>';
@@ -1095,6 +1159,11 @@ function render(){
     single = null;
   }
 
+  if(recent){
+    $("#list").innerHTML = recentHTML(L);
+    return;
+  }
+
   /* Giris gorunumu: hicbir suzgec yokken kayit degil kategori gosteriyoruz. */
   if(!activeCat && !q && !activeTags.length && !onlyPicks && !activeSrc && !single && sortBy === "cat"){
     $("#list").innerHTML = homeHTML(L);
@@ -1120,12 +1189,12 @@ function render(){
 }
 
 function update(push){ writeURL(push); render(); }
-function clearAll(){ q=""; activeTags=[]; activeCat=null; onlyPicks=false; activeSrc=null; single=null; pages={}; update(true) }
+function clearAll(){ q=""; activeTags=[]; activeCat=null; onlyPicks=false; activeSrc=null; single=null; recent=false; pages={}; update(true) }
 
 /* ------------------------------------------------------------ olaylar */
 var typeTimer;
 $("#q").addEventListener("input", function(e){
-  q = e.target.value.trim(); single = null; pages = {}; render();
+  q = e.target.value.trim(); single = null; recent = false; pages = {}; render();
   clearTimeout(typeTimer);
   typeTimer = setTimeout(function(){ writeURL(false) }, 400);   /* do not pollute the history stack */
 });
@@ -1144,15 +1213,22 @@ document.addEventListener("click", function(e){
     if(sec) sec.scrollIntoView({block:"start", behavior:"smooth"});
     return;
   }
+  var rc = e.target.closest("[data-recent]");
+  if(rc){
+    e.preventDefault();
+    recent = true; single = null; activeCat = null; q = ""; activeTags = [];
+    onlyPicks = false; activeSrc = null; pages = {}; update(true); scrollTop();
+    return;
+  }
   var all = e.target.closest("[data-all]");
-  if(all){ e.preventDefault(); sortBy = "az"; single = null; pages = {}; update(true); return }
+  if(all){ e.preventDefault(); sortBy = "az"; single = null; recent = false; pages = {}; update(true); return }
   if(e.target.closest("#tagmore")){ tagsOpen = !tagsOpen; render(); return }
-  if(e.target.closest("#pickbtn")){ onlyPicks = !onlyPicks; single = null; pages = {}; update(true); return }
+  if(e.target.closest("#pickbtn")){ onlyPicks = !onlyPicks; single = null; recent = false; pages = {}; update(true); return }
   var sb = e.target.closest("[data-src]");
   if(sb){
     var sk = sb.dataset.src;
     activeSrc = (activeSrc === sk) ? null : sk;
-    single = null; pages = {}; update(true); return;
+    single = null; recent = false; pages = {}; update(true); return;
   }
   var pm = e.target.closest("[data-perma]");
   if(pm){
@@ -1175,7 +1251,7 @@ document.addEventListener("click", function(e){
   if(tg){
     var t = tg.dataset.tag, i = activeTags.indexOf(t);
     if(i >= 0) activeTags.splice(i,1); else activeTags.push(t);
-    single = null; pages = {}; update(true); return;
+    single = null; recent = false; pages = {}; update(true); return;
   }
   if(e.target.closest("#clr")){ e.preventDefault(); clearAll(); return; }
   var nv = e.target.closest("[data-cat]");
@@ -1183,7 +1259,7 @@ document.addEventListener("click", function(e){
     e.preventDefault();
     var c = nv.dataset.cat;
     activeCat = (activeCat === c) ? null : c;
-    single = null;                 /* tek kayit gorunumunden cikiyoruz */
+    single = null; recent = false; /* tek kayit ve son eklenenlerden cikiyoruz */
     pages = {}; update(true); scrollTop();
     return;
   }
@@ -1192,7 +1268,8 @@ document.addEventListener("click", function(e){
 addEventListener("popstate", function(){ readURL(); render() });
 
 $("#back").addEventListener("click", function(){
-  activeCat = null; pages = {}; update(true); scrollTop();
+  activeCat = null; single = null; recent = false;
+  pages = {}; update(true); scrollTop();
 });
 
 function randomLink(){

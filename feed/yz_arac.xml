@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
+<title>YZ · Uygulama Araçları — Kullanışlı Siteler</title>
+<subtitle>Yazılım, yapay zeka, güvenlik ve bilim üzerine açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/yz_arac.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/yz_arac.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/yz_arac.xml</id>
+<updated>2026-08-21T20:53:20Z</updated>
+<entry>
+  <title>Axiom.ai</title>
+  <link href="https://axiom.ai/"/>
+  <id>https://axiom.ai/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Tarayıcı otomasyonunu tarayıcı eklentisi olarak kuran araç; form doldurma, tıklama ve veri çekme adımlarını sürükle bırak ile diziyorsun. Puppeteer ya da Playwright’tan farkı kendi oturumunda çalışması — giriş yapılmış sayfalarda ek kimlik doğrulama gerekmiyor.</summary>
+</entry>
+<entry>
+  <title>Browse AI</title>
+  <link href="https://browse.ai/"/>
+  <id>https://browse.ai/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Web sitelerinden veri çıkarmayı ve değişiklikleri izlemeyi kod yazmadan kuran araç; tarayıcıda tıklayarak eğitiyorsun. Scrapy gibi çerçevelerden farkı seçici yazmaya gerek kalmaması ve sayfa düzeni değişince kendini onarmaya çalışması.</summary>
+</entry>
+<entry>
+  <title>LibreTranslate</title>
+  <link href="https://libretranslate.com/"/>
+  <id>https://libretranslate.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Kendi sunucuna kurulabilen makine çevirisi API’si; Argos Translate modellerini kullanıyor. Google Translate API’sinden farkı çevrilen metnin hiç dışarı çıkmaması ve istek başına ücret olmaması — kalite daha düşük, gizlilik daha yüksek.</summary>
+</entry>
+<entry>
+  <title>ResuMax</title>
+  <link href="https://github.com/resumax"/>
+  <id>https://github.com/resumax</id>
+  <updated>2026-08-19T23:18:51Z</updated>
+  <summary>Özgeçmişi hedef ilana göre uyarlayan araç; ATS taramasından geçecek biçimlendirmeye dikkat ediyor. Genel yazım asistanlarının atladığı nokta bu eşleştirme.</summary>
+</entry>
+<entry>
+  <title>Ada Health</title>
+  <link href="https://ada.com/"/>
+  <id>https://ada.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Belirtileri yapılandırılmış soru akışıyla daraltıp olası nedenleri sıralıyor; tıbbi cihaz olarak CE işaretli. Web’de belirti aramanın disiplinli hâli.</summary>
+</entry>
+<entry>
+  <title>Aider</title>
+  <link href="https://aider.chat/"/>
+  <id>https://aider.chat/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Terminalde çalışıyor ve her değişikliği ayrı bir git commit’i olarak yazıyor. Beğenmediğin adımı `git revert` ile geri almak, editör tabanlı asistanlarda olmayan bir güvenlik ağı.</summary>
+</entry>
+<entry>
+  <title>AlphaFold Server</title>
+  <link href="https://alphafoldserver.com/"/>
+  <id>https://alphafoldserver.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>AlphaFold 3 ile protein, DNA ve ligand komplekslerinin yapısını tahmin ediyor; kurulum ve GPU gerekmiyor. Günlük iş sayısı sınırlı ve ticari kullanım kısıtlı.</summary>
+</entry>
+<entry>
+  <title>AskYourPDF</title>
+  <link href="https://askyourpdf.com/"/>
+  <id>https://askyourpdf.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Birden çok belgeyi tek kütüphanede toplayıp hepsine birden soru sorabiliyorsun; cevaplar sayfa numarasıyla geliyor. Tek dosyalık araçlardan ayrıldığı yer bu.</summary>
+</entry>
+<entry>
+  <title>AutoGluon</title>
+  <link href="https://auto.gluon.ai/"/>
+  <id>https://auto.gluon.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Üç satırla tablo verisinde güçlü bir taban çizgisi kuruyor; birden çok modeli eğitip yığınlayarak (stacking) birleştiriyor. Kaggle taban çizgisi olarak sık kullanılıyor.</summary>
+</entry>
+<entry>
+  <title>BioGPT</title>
+  <link href="https://github.com/microsoft/BioGPT"/>
+  <id>https://github.com/microsoft/BioGPT</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>PubMed özetleriyle eğitilmiş dil modeli; ilaç-hastalık ilişkisi çıkarımı gibi görevlerde genel modellerden isabetli. Metin üretmekten çok bilgi çıkarımı için.</summary>
+</entry>
+<entry>
+  <title>Blackbox AI</title>
+  <link href="https://www.blackbox.ai/"/>
+  <id>https://www.blackbox.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Kod parçası aramayı sohbetle birleştiriyor; depo ve dokümanlarda arayıp bulduğunu bağlam olarak kullanıyor.</summary>
+</entry>
+<entry>
+  <title>Bolt.new</title>
+  <link href="https://bolt.new/"/>
+  <id>https://bolt.new/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Node.js’i WebContainer ile tarayıcıda çalıştırıyor; üretilen tam yığın uygulama sunucuya gitmeden anında önizleniyor. Hata çıkarsa aynı yerde düzeltiliyor.</summary>
+</entry>
+<entry>
+  <title>Buffer AI Assistant</title>
+  <link href="https://buffer.com/ai-assistant"/>
+  <id>https://buffer.com/ai-assistant</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Zamanlama aracının içinde çalışıyor; bir gönderiyi farklı platformların ton ve uzunluğuna göre yeniden paketliyor. Ayrı bir metin aracıyla gidip gelme adımı kalkıyor.</summary>
+</entry>
+<entry>
+  <title>ChatPDF</title>
+  <link href="https://www.chatpdf.com/"/>
+  <id>https://www.chatpdf.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Kayıt olmadan dosya yükleyip soru sorabiliyorsun. Tek belgeye hızlı bakış için en düşük sürtünmeli yol; kütüphane yönetimi ya da çoklu belge desteği yok.</summary>
+</entry>
+<entry>
+  <title>ChemCrow</title>
+  <link href="https://github.com/ur-whitelab/chemcrow-public"/>
+  <id>https://github.com/ur-whitelab/chemcrow-public</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Kimya araçlarını (RDKit, reaksiyon veritabanları, sentez planlayıcıları) kullanabilen LLM agent’ı. Modelin kendi belleğine değil gerçek hesaplamalara başvurması, kimyada hata payını ciddi düşürüyor.</summary>
+</entry>
+<entry>
+  <title>Cline</title>
+  <link href="https://cline.bot/"/>
+  <id>https://cline.bot/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>VS Code içinde dosya oluşturup komut çalıştırabiliyor ama her eylem için ayrı onay istiyor. Yavaşlatan bu adım, aynı zamanda otonom agent’larda kaybettiğin denetimi geri veriyor.</summary>
+</entry>
+<entry>
+  <title>CodeGeeX</title>
+  <link href="https://codegeex.cn/"/>
+  <id>https://codegeex.cn/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Açık kod modeli ve eklentisi; Çince arayüz ve bölgesel altyapı sunuyor. Batı servislerine erişimin sınırlı olduğu yerlerde çalışan bir alternatif.</summary>
+</entry>
+<entry>
+  <title>ColabFold</title>
+  <link href="https://github.com/sokrypton/ColabFold"/>
+  <id>https://github.com/sokrypton/ColabFold</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>MMseqs2 ile dizi hizalamayı hızlandırıp AlphaFold’u Colab’da çalıştırılabilir hâle getiriyor. Sunucunun kotasına takılmadan kendi dizilerini toplu işlemek isteyenler için.</summary>
+</entry>
+<entry>
+  <title>Consensus</title>
+  <link href="https://consensus.app/"/>
+  <id>https://consensus.app/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Bir soruya literatürün ne yönde eğildiğini özetliyor ve destekleyen/çelişen çalışma oranını gösteriyor. Tek makale bulmakla alanın genel eğilimini görmek farklı işler.</summary>
+</entry>
+<entry>
+  <title>Continue</title>
+  <link href="https://www.continue.dev/"/>
+  <id>https://www.continue.dev/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>VS Code ve JetBrains eklentisi; hangi modelin tamamlama, hangisinin sohbet yapacağını ayrı ayrı seçiyorsun. Yerel model bağlayıp kodu dışarı hiç göndermemek mümkün.</summary>
+</entry>
+<entry>
+  <title>Cursor</title>
+  <link href="https://cursor.com/"/>
+  <id>https://cursor.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>VS Code çatalı; kod tabanını indeksleyip çok dosyalı düzenlemeyi ana akış hâline getiriyor. Eklentiden farkı, değişikliği diff olarak önerip onayını beklemesi.</summary>
+</entry>
+<entry>
+  <title>DeepChem</title>
+  <link href="https://deepchem.io/"/>
+  <id>https://deepchem.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>İlaç keşfi için makine öğrenmesi; moleküler özellik hesaplama ve veri kümesi yükleyicileri dahil. Kimyasal veriyi modele hazır hâle getiren sıkıcı kısmı da üstleniyor.</summary>
+</entry>
+<entry>
+  <title>DeepL Write</title>
+  <link href="https://www.deepl.com/write"/>
+  <id>https://www.deepl.com/write</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Hatayı işaretlemek yerine cümleyi yeniden kuruyor ve ton seçenekleri sunuyor. Grammarly düzeltiyor, bu yeniden yazıyor — ikisi farklı iş.</summary>
+</entry>
+<entry>
+  <title>Elicit</title>
+  <link href="https://elicit.com/"/>
+  <id>https://elicit.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Yüzlerce makaleyi tarayıp örneklem büyüklüğü, yöntem ve bulgu gibi alanları tabloya çıkarıyor. Sistematik derleme yaparken en çok vakit yiyen adım tam olarak bu ayıklama.</summary>
+</entry>
+<entry>
+  <title>Explainpaper</title>
+  <link href="https://www.explainpaper.com/"/>
+  <id>https://www.explainpaper.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>PDF’te işaretlediğin pasajı sadeleştiriyor. Tüm belgeyi özetlemiyor — takıldığın tek yeri açması onu dar ama isabetli kılıyor.</summary>
+</entry>
+<entry>
+  <title>FinGPT</title>
+  <link href="https://github.com/AI4Finance-Foundation/FinGPT"/>
+  <id>https://github.com/AI4Finance-Foundation/FinGPT</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Finansal metin için açık modeller ve veri hattı; duygu analizi ve haber sınıflandırma üzerine ince ayarlı sürümler içeriyor. Bloomberg terminaline araştırma amaçlı açık alternatif.</summary>
+</entry>
+<entry>
+  <title>Fireflies.ai</title>
+  <link href="https://fireflies.ai/"/>
+  <id>https://fireflies.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Ham döküm yerine karar, aksiyon maddesi ve soru listesi çıkarıyor; CRM’e yazabiliyor. Otter dökümde, bu çıkarımda yoğunlaşmış.</summary>
+</entry>
+<entry>
+  <title>GitHub Copilot</title>
+  <link href="https://github.com/features/copilot"/>
+  <id>https://github.com/features/copilot</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Editör içi tamamlama ve sohbet; kurumsal planda kodun modele gönderilip gönderilmeyeceği politika olarak yönetilebiliyor. Bu yönetişim tarafı rakiplerinde zayıf.</summary>
+</entry>
+<entry>
+  <title>Google Colab</title>
+  <link href="https://colab.research.google.com/"/>
+  <id>https://colab.research.google.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Tarayıcıda Jupyter; ücretsiz katmanda T4 GPU veriyor. Oturum süresi sınırlı ve makine kapanınca dosyalar gidiyor — uzun eğitimler için Drive’a bağlamak gerekiyor.</summary>
+</entry>
+<entry>
+  <title>Grammarly</title>
+  <link href="https://www.grammarly.com/"/>
+  <id>https://www.grammarly.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Yazdığın her yere giren eklentisiyle İngilizce dil bilgisi ve üslup denetimi. Türkçe desteklemiyor; yalnızca İngilizce yazarken anlamlı.</summary>
+</entry>
+<entry>
+  <title>H2O.ai</title>
+  <link href="https://h2o.ai/"/>
+  <id>https://h2o.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Dağıtık AutoML platformu; model açıklanabilirliği ve üretime çıkarma araçları kütüphane çözümlerinden ileride. Büyük veri kümelerinde bellek dışına taşabiliyor.</summary>
+</entry>
+<entry>
+  <title>HubSpot Campaign Assistant</title>
+  <link href="https://www.hubspot.com/campaign-assistant"/>
+  <id>https://www.hubspot.com/campaign-assistant</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>E-posta, açılış sayfası ve reklam metnini kampanya hedefine göre üretiyor; ücretsiz ve HubSpot hesabı şart değil.</summary>
+</entry>
+<entry>
+  <title>Humata</title>
+  <link href="https://www.humata.ai/"/>
+  <id>https://www.humata.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Uzun teknik belgeleri karşılaştırmalı okumaya yönelik; her cevabın altında kaynak sayfa bağlantısı var, yani iddiayı belgede doğrulayabiliyorsun.</summary>
+</entry>
+<entry>
+  <title>Julius AI</title>
+  <link href="https://julius.ai/"/>
+  <id>https://julius.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>CSV veya Excel yükleyip sohbetle analiz ediyorsun; arka planda Python çalıştırıp grafik üretiyor ve kullandığı kodu gösteriyor. Sonucu doğrulayabilmen bu şeffaflığa bağlı.</summary>
+</entry>
+<entry>
+  <title>Kaggle Notebooks</title>
+  <link href="https://www.kaggle.com/code"/>
+  <id>https://www.kaggle.com/code</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Veri kümeleriyle aynı platformda duran not defterleri; haftalık GPU kotası Colab’dan öngörülebilir. Asıl değeri, başkalarının çözümlerini okuyabilmen.</summary>
+</entry>
+<entry>
+  <title>KNIME</title>
+  <link href="https://www.knime.com/"/>
+  <id>https://www.knime.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Düğüm tabanlı görsel analiz; hattın tamamı kaydedilip tekrar çalıştırılabiliyor. Kod yazmadan tekrarlanabilirlik isteyen kurumsal veri ekiplerinde yaygın.</summary>
+</entry>
+<entry>
+  <title>LanguageTool</title>
+  <link href="https://languagetool.org/"/>
+  <id>https://languagetool.org/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>30’dan fazla dili, Türkçe dahil, kural tabanlı olarak denetliyor ve kendi sunucunda çalıştırılabiliyor. Metnin bir şirkete gitmemesi gerektiği durumlarda tek gerçek seçenek.</summary>
+</entry>
+<entry>
+  <title>Legalese Decoder</title>
+  <link href="https://legalesedecoder.com/"/>
+  <id>https://legalesedecoder.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Sözleşme dilini sade Türkçeye/İngilizceye çevirirken madde yapısını koruyor, yani hangi cümlenin hangi maddeden geldiği kayboluyor değil.</summary>
+</entry>
+<entry>
+  <title>LightPDF</title>
+  <link href="https://lightpdf.com/"/>
+  <id>https://lightpdf.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Dönüştürme, sıkıştırma, imzalama ve OCR gibi klasik PDF işlerinin üzerine sohbet eklenmiş. Tek işlevli rakiplerine göre geniş, her bir işlevde ise ortalama.</summary>
+</entry>
+<entry>
+  <title>Lovable</title>
+  <link href="https://lovable.dev/"/>
+  <id>https://lovable.dev/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Sohbetle uygulama kurup Supabase bağlantısı ve dağıtımı da üstleniyor. v0 bileşen verirken bu çalışan ve veritabanı bağlı bir ürün hedefliyor.</summary>
+</entry>
+</feed>

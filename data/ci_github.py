@@ -111,7 +111,8 @@ def check(t):
     j = r.json()
     pushed = (j.get('pushed_at') or '')[:10]
     rec = {'name': name, 'cat': cat, 'url': url, 'pushed': pushed,
-           'stars': j.get('stargazers_count')}
+           'stars': j.get('stargazers_count'),
+           'repo': '%s/%s' % (owner, repo)}
     if j.get('archived'):
         rec['state'] = 'arşiv'
         return rec
@@ -125,12 +126,51 @@ def check(t):
     return rec
 
 
+def write_health(results):
+    """Per-record repository health, for the site to show.
+
+    The audit already knew all of this and told nobody: it went into an issue
+    that the reader of the directory never sees. Which is the exact failure the
+    directory is supposed to be about -- an entry can look fine while the
+    project behind it stopped moving two years ago.
+
+    Existing entries are kept when a run cannot reach them (rate limit, network
+    error), so a bad run degrades to stale data rather than to no data.
+    """
+    path = os.path.join(ROOT, 'data', 'health.json')
+    out = {}
+    if os.path.exists(path):
+        out = json.load(io.open(path, encoding='utf-8'))
+
+    today = datetime.date.today().isoformat()
+    yeni = 0
+    for r in results:
+        if r['state'] in ('kota', 'hata'):
+            continue                     # eski kaydi koru
+        k = re.sub(r'^https?://(www\.)?', '', r['url'].strip().lower()).rstrip('/')
+        rec = {'s': r['state'], 'd': today}
+        if r.get('pushed'):
+            rec['p'] = r['pushed']
+        if r.get('stars') is not None:
+            rec['y'] = r['stars']
+        if r.get('repo'):
+            rec['r'] = r['repo']
+        out[k] = rec
+        yeni += 1
+
+    json.dump(out, io.open(path, 'w', encoding='utf-8'),
+              ensure_ascii=False, indent=1, sort_keys=True)
+    print('health.json: %d kayit (%d tazelendi)' % (len(out), yeni))
+
+
 def main():
     rs = repos()
     if not TOKEN:
         print('UYARI: token yok, 60 istek sonrasi kotaya takilacak', file=sys.stderr)
     with cf.ThreadPoolExecutor(max_workers=8 if TOKEN else 3) as ex:
         results = list(ex.map(check, rs))
+
+    write_health(results)
 
     by = {}
     for r in results:

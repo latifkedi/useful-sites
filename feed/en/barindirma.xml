@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title>Self-Hosting &amp; Personal Cloud — Useful Sites</title>
+<subtitle>An annotated directory of links on software, AI, security and science. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/barindirma.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/en/barindirma.xml</id>
+<updated>2026-08-21T20:53:20Z</updated>
+<entry>
+  <title>AdGuard Home</title>
+  <link href="https://adguard.com/en/adguard-home/overview.html"/>
+  <id>https://adguard.com/en/adguard-home/overview.html</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A network-wide blocker doing the same job as Pi-hole; what differs is that it ships its own DNS-over-HTTPS and DNS-over-TLS server and lets you write per-client rules. One binary, no extra dependencies.</summary>
+</entry>
+<entry>
+  <title>Audiobookshelf</title>
+  <link href="https://www.audiobookshelf.org/"/>
+  <id>https://www.audiobookshelf.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A self-hosted server for managing and streaming your audiobook and podcast collection, with progress synced across devices. Unlike Plex or Jellyfin it is built for audiobooks specifically, so chapter marks, playback speed and series tracking behave properly.</summary>
+</entry>
+<entry>
+  <title>Dawarich</title>
+  <link href="https://github.com/Freika/dawarich"/>
+  <id>https://github.com/Freika/dawarich</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Self-hosted location history with a map view, able to import a Google Location History export. The difference from Google’s own service is that the data stays with you — and does not vanish when the product is discontinued.</summary>
+</entry>
+<entry>
+  <title>Element</title>
+  <link href="https://element.io/"/>
+  <id>https://element.io/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A messaging client on the Matrix protocol, with end-to-end encryption and federation between servers. That federation is the break from Slack or Discord: two people on different servers share a room without a single company in the middle.</summary>
+</entry>
+<entry>
+  <title>Immich</title>
+  <link href="https://immich.app/"/>
+  <id>https://immich.app/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A self-hosted answer to Google Photos: background upload from the phone, face recognition, map and timeline. What separates it from other self-hosted galleries is that the mobile app actually backs up in the background, which most of them never manage.</summary>
+</entry>
+<entry>
+  <title>LibreOffice</title>
+  <link href="https://www.libreoffice.org/"/>
+  <id>https://www.libreoffice.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>An office suite of writer, spreadsheet, presentation and database, defaulting to the open ODF standard. The difference from Microsoft Office is licensing and data ownership; the price is occasional layout drift on complex .docx files.</summary>
+</entry>
+<entry>
+  <title>Logseq</title>
+  <link href="https://logseq.com/"/>
+  <id>https://logseq.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>An outliner with bi-directional links that keeps every note as a plain Markdown file on disk. Against Notion the data is in your folder; against Obsidian the primary unit is the block rather than the page, which suits daily journalling better.</summary>
+</entry>
+<entry>
+  <title>Nextcloud</title>
+  <link href="https://nextcloud.com/"/>
+  <id>https://nextcloud.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A self-hosted file sync and collaboration suite: calendar, contacts, document editing, chat. Where Syncthing only syncs, this adds a web interface and share links — it is aiming at Google Workspace rather than at Dropbox.</summary>
+</entry>
+<entry>
+  <title>Organic Maps</title>
+  <link href="https://organicmaps.app/"/>
+  <id>https://organicmaps.app/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>An offline map and navigation app on OpenStreetMap data, with no trackers and no ads. It is the fork Maps.me spawned when that went commercial — the continuation of the version people actually liked.</summary>
+</entry>
+<entry>
+  <title>Pi-hole</title>
+  <link href="https://pi-hole.net/"/>
+  <id>https://pi-hole.net/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A network-wide ad blocker that runs as your DNS server and sinkholes ad and tracker domains. Unlike a browser extension it also covers smart TVs, phone apps and IoT devices — everything you cannot install an extension on.</summary>
+</entry>
+<entry>
+  <title>Rocket.Chat</title>
+  <link href="https://www.rocket.chat/"/>
+  <id>https://www.rocket.chat/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A self-hostable team messaging platform with channels, threads, voice and bridges. Against Slack, the data stays on your infrastructure and message history is not locked behind a paid tier.</summary>
+</entry>
+<entry>
+  <title>Syncthing</title>
+  <link href="https://syncthing.net/"/>
+  <id>https://syncthing.net/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Continuous file synchronisation between devices with no central server: the devices talk directly. Unlike Dropbox no copy ever reaches a cloud, and there is no storage quota — you have as much room as you have disk.</summary>
+</entry>
+<entry>
+  <title>Thunderbird</title>
+  <link href="https://www.thunderbird.net/en-US/"/>
+  <id>https://www.thunderbird.net/en-US/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A desktop mail client under the Mozilla umbrella, with IMAP, calendar, contacts and OpenPGP signing in one place. Against webmail, the archive lives on your disk and stays yours when you change provider.</summary>
+</entry>
+<entry>
+  <title>Feedly</title>
+  <link href="https://feedly.com/"/>
+  <id>https://feedly.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>An RSS reader where you decide what you read at the source level, unlike algorithmic feeds — and nothing you have not read disappears.</summary>
+</entry>
+<entry>
+  <title>KeepNote</title>
+  <link href="https://keepnote.org/"/>
+  <id>https://keepnote.org/</id>
+  <updated>2025-07-29T17:23:02Z</updated>
+  <summary>A simple, portable notebook keeping notes as plain files on disk — a modest hedge against cloud note apps shutting down.</summary>
+</entry>
+</feed>

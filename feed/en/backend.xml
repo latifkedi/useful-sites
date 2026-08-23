@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title>Backend, API &amp; System Design — Useful Sites</title>
+<subtitle>An annotated directory of links on software, AI, security and science. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/backend.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/backend.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/en/backend.xml</id>
+<updated>2026-08-21T20:53:20Z</updated>
+<entry>
+  <title>Convex</title>
+  <link href="https://www.convex.dev/"/>
+  <id>https://www.convex.dev/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A backend platform folding the database, server functions and real-time subscriptions into one product. Where Firebase has you write rules, here queries are TypeScript functions with real transactional guarantees — document flexibility without giving up consistency.</summary>
+</entry>
+<entry>
+  <title>Free Public APIs</title>
+  <link href="https://www.freepublicapis.com/"/>
+  <id>https://www.freepublicapis.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A directory of over three hundred free public APIs, each carrying a liveness status and a last-checked date. That is what separates it from the old awesome-list compilations: it actually keeps scanning whether the APIs still answer.</summary>
+</entry>
+<entry>
+  <title>Porkbun</title>
+  <link href="https://porkbun.com/"/>
+  <id>https://porkbun.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>An ICANN-accredited domain registrar where WHOIS privacy, SSL and email forwarding are included rather than upsold. What separates it from the GoDaddy school is that renewal prices stay close to the first-year price instead of tripling.</summary>
+</entry>
+<entry>
+  <title>High Scalability</title>
+  <link href="https://highscalability.com/"/>
+  <id>https://highscalability.com/</id>
+  <updated>2026-08-19T23:34:09Z</updated>
+  <summary>An archive of architecture write-ups spanning fifteen-plus years. The old posts are dated in technology but still read for how scaling pressure was actually met.</summary>
+</entry>
+<entry>
+  <title>System Design One</title>
+  <link href="https://systemdesign.one/"/>
+  <id>https://systemdesign.one/</id>
+  <updated>2026-08-19T23:34:06Z</updated>
+  <summary>Breaks down real company architectures as case studies with actual numbers and the trade-offs taken. That concreteness is what separates it from abstract write-ups.</summary>
+</entry>
+<entry>
+  <title>Webhook.site</title>
+  <link href="https://webhook.site/"/>
+  <id>https://webhook.site/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Hands you a URL instantly and shows every request that arrives, headers included. Against running a local server behind a tunnel it needs no setup — the shortest way to see what a webhook actually sends.</summary>
+</entry>
+<entry>
+  <title>Stripe</title>
+  <link href="https://stripe.com/en-nl?utm_campaign=EMEA_NL_en_Google_Search_Brand_Stripe_EXA-20981195258&amp;utm_medium=cpc&amp;utm_source=google&amp;utm_content=689219303694&amp;utm_term=stripe&amp;utm_matchtype=e&amp;utm_adposition=&amp;utm_device=c"/>
+  <id>https://stripe.com/en-nl?utm_campaign=EMEA_NL_en_Google_Search_Brand_Stripe_EXA-20981195258&amp;utm_medium=cpc&amp;utm_source=google&amp;utm_content=689219303694&amp;utm_term=stripe&amp;utm_matchtype=e&amp;utm_adposition=&amp;utm_device=c</id>
+  <updated>2026-07-29T07:58:07Z</updated>
+  <summary>Payment infrastructure whose documentation is treated as an industry benchmark — test cards, webhook retry logic and idempotency keys all worked through with examples.</summary>
+</entry>
+<entry>
+  <title>GraphQL</title>
+  <link href="https://graphql.org/"/>
+  <id>https://graphql.org/</id>
+  <updated>2026-07-26T09:58:27Z</updated>
+  <summary>The client declares which fields it wants, so over- and under-fetching are solved at the schema level. The cost is that caching and rate limiting get harder than in REST.</summary>
+</entry>
+<entry>
+  <title>Refactoring Guru</title>
+  <link href="https://refactoring.guru/"/>
+  <id>https://refactoring.guru/</id>
+  <updated>2026-05-11T15:32:43Z</updated>
+  <summary>Presents each design pattern as a diagram, a realistic scenario and code — in six languages. An accessible counterpart to the Gang of Four book’s difficult prose.</summary>
+</entry>
+<entry>
+  <title>Express</title>
+  <link href="https://expressjs.com/"/>
+  <id>https://expressjs.com/</id>
+  <updated>2026-04-20T13:01:16Z</updated>
+  <summary>Node’s minimal framework, whose middleware model became the ecosystem’s shared vocabulary. That it has barely changed in years is both its strength and its weakness.</summary>
+</entry>
+<entry>
+  <title>WordPress Developer</title>
+  <link href="https://developer.wordpress.org/"/>
+  <id>https://developer.wordpress.org/</id>
+  <updated>2026-04-20T13:01:05Z</updated>
+  <summary>The plugin and theme development reference. The hook system is the one concept that explains all of WordPress, and nothing falls into place until you have it.</summary>
+</entry>
+<entry>
+  <title>Laracasts</title>
+  <link href="https://laracasts.com/"/>
+  <id>https://laracasts.com/</id>
+  <updated>2026-04-20T13:01:04Z</updated>
+  <summary>The main video resource for the Laravel ecosystem, covering the architectural decisions the docs leave out. One site carrying an ecosystem’s training is unusual.</summary>
+</entry>
+<entry>
+  <title>Laravel</title>
+  <link href="https://laravel.com/docs/13.x"/>
+  <id>https://laravel.com/docs/13.x</id>
+  <updated>2026-04-20T13:01:04Z</updated>
+  <summary>Queues, scheduler, broadcasting and testing tools live in the core. Against PHP’s dated reputation, the developer experience here is ahead of most modern frameworks.</summary>
+</entry>
+<entry>
+  <title>PHP: The Right Way</title>
+  <link href="https://phptherightway.com/"/>
+  <id>https://phptherightway.com/</id>
+  <updated>2026-04-20T13:01:04Z</updated>
+  <summary>Collects current PHP practice — Composer, PSR standards, prepared statements. A corrective to the old `mysql_*` examples still circulating online.</summary>
+</entry>
+<entry>
+  <title>Flask</title>
+  <link href="https://flask.palletsprojects.com/en/stable/"/>
+  <id>https://flask.palletsprojects.com/en/stable/</id>
+  <updated>2026-04-20T13:01:03Z</updated>
+  <summary>A deliberately small core — routing and templating, no ORM or auth. You choose the pieces, which also means choosing them again on every project.</summary>
+</entry>
+<entry>
+  <title>PHP El Kitabı (Türkçe)</title>
+  <link href="https://www.php.net/manual/tr/"/>
+  <id>https://www.php.net/manual/tr/</id>
+  <updated>2026-04-20T13:01:03Z</updated>
+  <summary>The primary function reference. The user notes below each page are sometimes more useful than the doc and sometimes decade-old bad advice — check the dates.</summary>
+</entry>
+<entry>
+  <title>Django</title>
+  <link href="https://docs.djangoproject.com/en/6.0/"/>
+  <id>https://docs.djangoproject.com/en/6.0/</id>
+  <updated>2026-04-20T13:01:02Z</updated>
+  <summary>ORM, migrations, admin panel and authentication out of the box. It buys you the first week, and pushes back when you want to step outside its shape.</summary>
+</entry>
+<entry>
+  <title>FastAPI</title>
+  <link href="https://fastapi.tiangolo.com/"/>
+  <id>https://fastapi.tiangolo.com/</id>
+  <updated>2026-04-20T13:01:02Z</updated>
+  <summary>Derives both validation and an OpenAPI schema from type hints, and a working test UI appears at `/docs` by itself. Async support is native through ASGI.</summary>
+</entry>
+<entry>
+  <title>Public APIs</title>
+  <link href="https://github.com/public-apis/public-apis"/>
+  <id>https://github.com/public-apis/public-apis</id>
+  <updated>2026-04-20T11:59:44Z</updated>
+  <summary>A categorised list of free APIs with auth type, HTTPS and CORS support marked in the table. First stop when a prototype needs data.</summary>
+</entry>
+<entry>
+  <title>Node.js Learn</title>
+  <link href="https://nodejs.org/learn"/>
+  <id>https://nodejs.org/learn</id>
+  <updated>2026-04-06T17:09:23Z</updated>
+  <summary>Explains the runtime itself before any framework — event loop, streams, worker threads. Learning Express without knowing Node is a common gap.</summary>
+</entry>
+<entry>
+  <title>Kıdemli Mühendis Gibi API Tasarımı</title>
+  <link href="https://www.youtube.com/watch?v=7iHl71nt49o"/>
+  <id>https://www.youtube.com/watch?v=7iHl71nt49o</id>
+  <updated>2026-04-06T11:39:45Z</updated>
+  <summary>Compares REST against GraphQL alongside authentication and security decisions in one video, answering when each is the right call.</summary>
+</entry>
+<entry>
+  <title>FastAPI ile 15 Dakikada REST API</title>
+  <link href="https://www.youtube.com/watch?v=iWS9ogMPOI0"/>
+  <id>https://www.youtube.com/watch?v=iWS9ogMPOI0</id>
+  <updated>2026-04-06T11:39:31Z</updated>
+  <summary>A short video showing routing, Pydantic models and automatic doc generation end to end — for seeing the framework’s shape before opening the docs.</summary>
+</entry>
+<entry>
+  <title>API Tasarımı ve Mimarisi</title>
+  <link href="https://www.youtube.com/watch?v=XvFmUE-36Kc"/>
+  <id>https://www.youtube.com/watch?v=XvFmUE-36Kc</id>
+  <updated>2026-04-06T11:39:09Z</updated>
+  <summary>An hour-long backend introduction working through resource naming, versioning and error-format decisions with their reasoning.</summary>
+</entry>
+<entry>
+  <title>Public API Lists</title>
+  <link href="https://github.com/public-api-lists/public-api-lists"/>
+  <id>https://github.com/public-api-lists/public-api-lists</id>
+  <updated>2026-04-05T20:39:05Z</updated>
+  <summary>A maintained fork of Public APIs, born while the original went untended. Some of its entries are fresher.</summary>
+</entry>
+<entry>
+  <title>System Design Primer</title>
+  <link href="https://github.com/donnemartin/system-design-primer"/>
+  <id>https://github.com/donnemartin/system-design-primer</id>
+  <updated>2026-04-05T20:36:39Z</updated>
+  <summary>Pairs scaling concepts — caching, sharding, queues, CAP — with worked architectures. The field’s most-starred resource, and useful as an architecture vocabulary beyond interviews.</summary>
+</entry>
+<entry>
+  <title>Otel Rezervasyon Sistemi Tasarımı</title>
+  <link href="https://www.youtube.com/watch?v=bA0r0CBuj2Y"/>
+  <id>https://www.youtube.com/watch?v=bA0r0CBuj2Y</id>
+  <updated>2026-04-05T20:36:22Z</updated>
+  <summary>An end-to-end case study solving real problems — concurrent booking conflicts, inventory locking — in interview format.</summary>
+</entry>
+<entry>
+  <title>Sistem Tasarımı Anlatımı</title>
+  <link href="https://www.youtube.com/watch?v=adOkTjIIDnk"/>
+  <id>https://www.youtube.com/watch?v=adOkTjIIDnk</id>
+  <updated>2026-04-05T20:35:56Z</updated>
+  <summary>An introduction gathering APIs, databases, caching, CDNs and load balancers into one narrative — for seeing how the pieces connect.</summary>
+</entry>
+</feed>

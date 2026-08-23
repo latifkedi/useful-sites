@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title>Security &amp; Privacy — Useful Sites</title>
+<subtitle>An annotated directory of links on software, AI, security and science. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/guvenlik.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/en/guvenlik.xml</id>
+<updated>2026-08-21T20:53:20Z</updated>
+<entry>
+  <title>AccountKiller</title>
+  <link href="https://www.accountkiller.com/en/home"/>
+  <id>https://www.accountkiller.com/en/home</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A directory of account removal instructions that also covers how to neutralise an account where no deletion path exists. That is the difference from JustDeleteMe: a plan B for the accounts you cannot delete.</summary>
+</entry>
+<entry>
+  <title>AdBlock Tester</title>
+  <link href="https://adblock-tester.com/"/>
+  <id>https://adblock-tester.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Scores how much your ad blocker actually stops, broken out by ads, trackers, social buttons and cookie notices. Unlike a simple &quot;is it working&quot; check it shows the gaps by category, which tells you which filter list you are missing.</summary>
+</entry>
+<entry>
+  <title>Awesome Fuzzing</title>
+  <link href="https://github.com/secfigo/Awesome-Fuzzing"/>
+  <id>https://github.com/secfigo/Awesome-Fuzzing</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A compilation of fuzzing resources: tools, books, talks, papers and practice environments. Against the OWASP page the difference is breadth — this is where you go after you understand the method.</summary>
+</entry>
+<entry>
+  <title>Cover Your Tracks</title>
+  <link href="https://coveryourtracks.eff.org/"/>
+  <id>https://coveryourtracks.eff.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>The EFF’s browser fingerprinting test, measuring how unique your browser looks and how well it resists trackers. Unlike the &quot;what is my IP&quot; sites it computes fingerprint entropy, which is how tracking actually works now.</summary>
+</entry>
+<entry>
+  <title>Cryptologie</title>
+  <link href="https://www.cryptologie.net/"/>
+  <id>https://www.cryptologie.net/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Cryptographer David Wong’s blog and notes on applied cryptography. Against academic papers it explains protocols from an implementer’s seat — not the theorem, but where real systems get it wrong.</summary>
+</entry>
+<entry>
+  <title>CTF 101</title>
+  <link href="https://ctf101.org/"/>
+  <id>https://ctf101.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A ground-up guide to the categories in Capture the Flag competitions: reverse engineering, cryptography, forensics, web. Unlike a competition platform it hands you the fundamentals rather than challenges — the thing to read before your first CTF.</summary>
+</entry>
+<entry>
+  <title>CTFtime</title>
+  <link href="https://ctftime.org/"/>
+  <id>https://ctftime.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>The calendar of CTF competitions, team rankings, and write-ups from past events. Against individual competition sites it is the central register — when an event runs and how last year’s challenges were solved, in one place.</summary>
+</entry>
+<entry>
+  <title>DeGoogle</title>
+  <link href="https://degoogle.jmoore.dev/"/>
+  <id>https://degoogle.jmoore.dev/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A list of alternatives for each Google product, organised category by category. Unlike general alternative-finder sites it is focused on leaving one provider, working through what replaces what in order.</summary>
+</entry>
+<entry>
+  <title>Google CTF</title>
+  <link href="https://github.com/google/google-ctf"/>
+  <id>https://github.com/google/google-ctf</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Every challenge from Google’s CTF competitions, with source code and solutions. Unlike other archives the challenge infrastructure is published too, so you can stand the whole thing up locally and work through it.</summary>
+</entry>
+<entry>
+  <title>Have I Been Pwned</title>
+  <link href="https://haveibeenpwned.com/"/>
+  <id>https://haveibeenpwned.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Checks whether an email address or password appears in known breaches. What separates it is Troy Hunt’s transparent methodology and the k-anonymity scheme for password lookups — your password never reaches the server.</summary>
+</entry>
+<entry>
+  <title>How Secure Is My Password</title>
+  <link href="https://www.security.org/how-secure-is-my-password/"/>
+  <id>https://www.security.org/how-secure-is-my-password/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Estimates how long a password would take to brute-force, computed in the browser so the password is never sent. Against a strength meter it gives a concrete number, which is how you feel what adding two characters does.</summary>
+</entry>
+<entry>
+  <title>IPLeak</title>
+  <link href="https://ipleak.net/"/>
+  <id>https://ipleak.net/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Shows what your connection leaks: IP, DNS servers, WebRTC local addresses, DNS leakage. That is the test that matters with a VPN on — WebRTC can still hand over your real IP, and this is where you see it.</summary>
+</entry>
+<entry>
+  <title>JustDeleteMe</title>
+  <link href="https://backgroundchecks.org/justdeleteme/"/>
+  <id>https://backgroundchecks.org/justdeleteme/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A directory of direct links to account deletion pages, each graded by difficulty. Against searching yourself, that grading is the point: you see in advance which services made deletion deliberately hard.</summary>
+</entry>
+<entry>
+  <title>LibRedirect</title>
+  <link href="https://libredirect.codeberg.page/"/>
+  <id>https://libredirect.codeberg.page/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A browser extension that redirects YouTube, Twitter, Reddit and Instagram links to privacy-respecting frontends such as Invidious, Nitter and Redlib. Against hunting for a frontend yourself, it skips the dead instances and picks a working one.</summary>
+</entry>
+<entry>
+  <title>mat2</title>
+  <link href="https://github.com/jvoisin/mat2"/>
+  <id>https://github.com/jvoisin/mat2</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A tool that strips metadata from files: GPS coordinates in a photo, the author field in a PDF, the revision history in an office document. Unlike exiftool the default is removal, so you are not left reasoning about which field survived.</summary>
+</entry>
+<entry>
+  <title>Mullvad VPN</title>
+  <link href="https://mullvad.net/en"/>
+  <id>https://mullvad.net/en</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A Swedish VPN that asks for no email at signup — it hands you a random account number and takes cash. What separates it is that anonymity plus published independent audits, and a flat price with no long-subscription discount games.</summary>
+</entry>
+<entry>
+  <title>OWASP Fuzzing</title>
+  <link href="https://owasp.org/www-community/Fuzzing"/>
+  <id>https://owasp.org/www-community/Fuzzing</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>An introduction to fuzzing from OWASP’s own community pages: how it works, which tools exist, which classes of bug it finds. Against a tool’s own documentation it describes the method neutrally.</summary>
+</entry>
+<entry>
+  <title>Privacy Guides</title>
+  <link href="https://www.privacyguides.org/en/"/>
+  <id>https://www.privacyguides.org/en/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A non-profit, volunteer-run evaluation of privacy tools against stated criteria. Unlike the &quot;best VPN&quot; listicles it takes no affiliate money and publishes the conditions each recommendation must meet, so the recommendation is arguable.</summary>
+</entry>
+<entry>
+  <title>PrivateBin</title>
+  <link href="https://privatebin.info/"/>
+  <id>https://privatebin.info/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A pastebin the server cannot read: the text is encrypted in the browser and the key lives in the URL fragment, which is never sent. That zero-knowledge design and burn-after-reading are the break from pastebin.com.</summary>
+</entry>
+<entry>
+  <title>SANS Cheat Sheets</title>
+  <link href="https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets/"/>
+  <id>https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>The SANS Institute’s security cheat sheets: forensics, incident response, memory analysis, the Windows registry. Unlike general cheat sheets these are built for use during an incident — which command yields which evidence.</summary>
+</entry>
+<entry>
+  <title>Secure Messaging Apps Comparison</title>
+  <link href="https://www.securemessagingapps.com/"/>
+  <id>https://www.securemessagingapps.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A table comparing messaging apps on encryption, metadata, openness and audit status. Unlike a blog comparison the criteria are fixed and applied to every app alike — a row-by-row check rather than a marketing claim.</summary>
+</entry>
+<entry>
+  <title>SimpleLogin</title>
+  <link href="https://simplelogin.io/"/>
+  <id>https://simplelogin.io/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>An email aliasing service: a separate address per site, forwarded to your real inbox. Unlike Apple’s hide-my-email it is open source and self-hostable, and killing an alias both stops the spam and tells you who sold your address.</summary>
+</entry>
+<entry>
+  <title>SimpleX Chat</title>
+  <link href="https://simplex.chat/"/>
+  <id>https://simplex.chat/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Messaging with no notion of a user identity: no phone number, no username, not even a persistent ID. That is the break from Signal — Signal knows your number, whereas SimpleX servers never hold an identifier to correlate, so no social graph can be derived.</summary>
+</entry>
+<entry>
+  <title>Tails</title>
+  <link href="https://tails.net/"/>
+  <id>https://tails.net/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A live Linux distribution that runs from USB and routes everything through Tor. Unlike just using Tor Browser, the whole system is amnesic: shut it down and nothing remains on disk unless you deliberately made a persistent volume.</summary>
+</entry>
+<entry>
+  <title>TinEye</title>
+  <link href="https://tineye.com/"/>
+  <id>https://tineye.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A reverse image search that finds where an image appears online and which copy is oldest. Against Google Images it looks for the same image rather than similar ones, which makes it better for finding a source or checking a fake profile.</summary>
+</entry>
+<entry>
+  <title>Trail of Bits CTF Field Guide</title>
+  <link href="https://trailofbits.github.io/ctf/"/>
+  <id>https://trailofbits.github.io/ctf/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>The CTF guide from the security firm Trail of Bits, laying out which skill each category needs and how to build it. Deeper than CTF101, and it bridges toward professional security work rather than stopping at the competition.</summary>
+</entry>
+<entry>
+  <title>Tuta</title>
+  <link href="https://tuta.com/"/>
+  <id>https://tuta.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>End-to-end encrypted email and calendar that encrypts the whole mailbox, subject lines and address book included. Against ProtonMail it insists on its own client rather than IMAP, and in exchange leaves less metadata exposed.</summary>
+</entry>
+<entry>
+  <title>Hak5</title>
+  <link href="https://www.youtube.com/user/Hak5Darren"/>
+  <id>https://www.youtube.com/user/Hak5Darren</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A security channel demonstrating penetration testing tools and techniques hands-on. Against theoretical treatments it goes to the hardware side — network implants and physical attack tools.</summary>
+</entry>
+<entry>
+  <title>Privacy.com</title>
+  <link href="https://privacy.com/"/>
+  <id>https://privacy.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Issues single-use virtual cards with spend limits. Killing the card is a faster exit than arguing with a merchant you cannot unsubscribe from. US only.</summary>
+</entry>
+<entry>
+  <title>Cicada 3301 Çözüm Rehberi</title>
+  <link href="https://www.boxentriq.com/guides/cicada-3301-first-puzzle-walkthrough"/>
+  <id>https://www.boxentriq.com/guides/cicada-3301-first-puzzle-walkthrough</id>
+  <updated>2026-07-29T06:34:40Z</updated>
+  <summary>A step-by-step solution of the internet’s best-known puzzle, chaining steganography, book ciphers and Tor hidden services — a good example of how techniques link together.</summary>
+</entry>
+<entry>
+  <title>Çözülmemiş Tarihî Şifreler</title>
+  <link href="https://en.wikipedia.org/wiki/Category:Undeciphered_historical_codes_and_ciphers"/>
+  <id>https://en.wikipedia.org/wiki/Category:Undeciphered_historical_codes_and_ciphers</id>
+  <updated>2026-07-29T06:33:44Z</updated>
+  <summary>The category of ciphers still unbroken, the Voynich manuscript and Beale ciphers among them. Each stands as an open problem.</summary>
+</entry>
+<entry>
+  <title>Çözülmemiş Şifreli Metinler</title>
+  <link href="https://en.wikipedia.org/wiki/List_of_ciphertexts"/>
+  <id>https://en.wikipedia.org/wiki/List_of_ciphertexts</id>
+  <updated>2026-07-29T06:16:44Z</updated>
+  <summary>A list of solved and unsolved historical ciphertexts — real material for cryptanalysis practice instead of synthetic exercises.</summary>
+</entry>
+<entry>
+  <title>Privnote</title>
+  <link href="https://privnote.com/"/>
+  <id>https://privnote.com/</id>
+  <updated>2026-07-28T08:48:10Z</updated>
+  <summary>A note that destroys itself after reading, with no account required — practical for handing over a one-time password without leaving it in a chat log.</summary>
+</entry>
+<entry>
+  <title>Siber Güvenlik Başkanlığı</title>
+  <link href="https://siberguvenlik.gov.tr/"/>
+  <id>https://siberguvenlik.gov.tr/</id>
+  <updated>2026-07-20T11:09:35Z</updated>
+  <summary>Turkey’s cyber security authority, publishing national advisories, regulation and critical-infrastructure guidance.</summary>
+</entry>
+<entry>
+  <title>5SIM</title>
+  <link href="https://5sim.net/"/>
+  <id>https://5sim.net/</id>
+  <updated>2026-07-05T21:11:44Z</updated>
+  <summary>Rents temporary numbers for SMS verification so you can sign up without your own. Use carefully on accounts you intend to keep — recovery becomes a problem.</summary>
+</entry>
+<entry>
+  <title>Silent Link</title>
+  <link href="https://silent.link/#generic_price_table"/>
+  <id>https://silent.link/#generic_price_table</id>
+  <updated>2026-07-05T21:11:19Z</updated>
+  <summary>An eSIM data plan requiring no identity — paid in crypto, no name or document. A way to get data abroad without tying a number to your identity.</summary>
+</entry>
+<entry>
+  <title>Bitwarden</title>
+  <link href="https://bitwarden.com/"/>
+  <id>https://bitwarden.com/</id>
+  <updated>2026-07-03T12:26:39Z</updated>
+  <summary>A password manager with open source and independent audits behind it. The free tier holds unlimited passwords, and Vaultwarden lets you self-host the whole thing.</summary>
+</entry>
+<entry>
+  <title>Robin</title>
+  <link href="https://github.com/apurvsinghgautam/robin"/>
+  <id>https://github.com/apurvsinghgautam/robin</id>
+  <updated>2026-04-20T11:44:32Z</updated>
+  <summary>An AI-assisted tool that expands queries and summarises results in dark web research, automating the sweep in an area where manual searching is slow.</summary>
+</entry>
+<entry>
+  <title>CyberNotes</title>
+  <link href="https://www.cybernotes.tech/"/>
+  <id>https://www.cybernotes.tech/</id>
+  <updated>2026-04-20T11:42:55Z</updated>
+  <summary>A tidy note archive of security topics, for recalling a command or method mid-lab.</summary>
+</entry>
+<entry>
+  <title>Uygulamalı Güvenlik</title>
+  <link href="https://www.youtube.com/watch?v=p3vaaD9pn9I"/>
+  <id>https://www.youtube.com/watch?v=p3vaaD9pn9I</id>
+  <updated>2026-04-06T11:28:37Z</updated>
+  <summary>A hands-on walkthrough showing a technique in operation — best watched after the theory.</summary>
+</entry>
+</feed>

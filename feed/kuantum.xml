@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
+<title>Kuantum Bilişim — Kullanışlı Siteler</title>
+<subtitle>Yazılım, yapay zeka, güvenlik ve bilim üzerine açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/kuantum.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/kuantum.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/kuantum.xml</id>
+<updated>2026-08-21T20:53:20Z</updated>
+<entry>
+  <title>QPlayLearn</title>
+  <link href="https://qplaylearn.com"/>
+  <id>https://qplaylearn.com</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Kuantum kavramlarını üç ayrı derinlikte anlatan eğitim projesi: oyun, animasyon ve teknik açıklama. Tek seviyeli kaynaklardan farkı bu katmanlı yapı — aynı kavramı çocuğa da lisans öğrencisine de anlatabiliyor.</summary>
+</entry>
+<entry>
+  <title>Quantum Flytrap</title>
+  <link href="https://quantumflytrap.com/"/>
+  <id>https://quantumflytrap.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Optik kuantum deneylerini sürükle bırak ile kurup çalıştıran sanal laboratuvar; foton, polarizör ve ışın bölücülerle. Devre simülatörlerinden farkı kübit soyutlamasıyla değil fiziksel deney düzeneğiyle çalışması.</summary>
+</entry>
+<entry>
+  <title>Virtual Quantum Optics Laboratory</title>
+  <link href="https://www.vqol.org/"/>
+  <id>https://www.vqol.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Kuantum optik deneylerini tasarlayıp simüle eden tarayıcı tabanlı laboratuvar. Quantum Flytrap’tan farkı oyunlaştırma yerine araştırma düzeyinde doğruluk hedeflemesi — ders laboratuvarı yerine geçebiliyor.</summary>
+</entry>
+<entry>
+  <title>TensorFlow Quantum</title>
+  <link href="https://www.tensorflow.org/quantum"/>
+  <id>https://www.tensorflow.org/quantum</id>
+  <updated>2026-08-05T16:12:48Z</updated>
+  <summary>Parametreli kuantum devrelerini Keras katmanı gibi kullanıp klasik ağlarla birleştiriyor. Hibrit klasik-kuantum modellerin deneysel olarak araştırıldığı yer.</summary>
+</entry>
+<entry>
+  <title>IBM Quantum</title>
+  <link href="https://quantum.cloud.ibm.com/docs/en/guides"/>
+  <id>https://quantum.cloud.ibm.com/docs/en/guides</id>
+  <updated>2026-06-26T11:04:42Z</updated>
+  <summary>Gerçek kuantum işlemcilerine kuyrukla erişim veriyor; Qiskit ile devre yazıp gönderiyorsun. Simülatörde görünmeyen gürültü ve hata oranlarını ancak burada karşılaşıyorsun.</summary>
+</entry>
+<entry>
+  <title>Neden Q#?</title>
+  <link href="https://quantum.microsoft.com/en-us/insights/blogs/qsharp/why-do-we-need-q"/>
+  <id>https://quantum.microsoft.com/en-us/insights/blogs/qsharp/why-do-we-need-q</id>
+  <updated>2026-06-26T11:02:26Z</updated>
+  <summary>Kuantum için neden ayrı bir dile ihtiyaç duyulduğunu anlatıyor: klonlanamama, ölçümün durumu bozması gibi kısıtlar klasik dil kalıplarına oturmuyor.</summary>
+</entry>
+<entry>
+  <title>LIQUi|&gt;</title>
+  <link href="https://stationq.github.io/Liquid/getting-started/"/>
+  <id>https://stationq.github.io/Liquid/getting-started/</id>
+  <updated>2026-06-26T11:00:58Z</updated>
+  <summary>Microsoft’un erken dönem kuantum simülasyon platformu. Bugün yerini Q# aldı; alanın araç zincirinin nasıl geliştiğini görmek dışında pratik değeri kalmadı.</summary>
+</entry>
+<entry>
+  <title>Q# Geliştirme Kiti Kurulumu</title>
+  <link href="https://learn.microsoft.com/en-us/azure/quantum/install-overview-qdk"/>
+  <id>https://learn.microsoft.com/en-us/azure/quantum/install-overview-qdk</id>
+  <updated>2026-06-26T06:52:46Z</updated>
+  <summary>Q# ve QDK kurulumu; VS Code uzantısıyla yerel simülatörde devre çalıştırmanın en kısa yolu. Donanıma erişim gerekmeden başlanabiliyor.</summary>
+</entry>
+<entry>
+  <title>Microsoft QDK</title>
+  <link href="https://github.com/microsoft/qdk"/>
+  <id>https://github.com/microsoft/qdk</id>
+  <updated>2026-06-26T06:51:53Z</updated>
+  <summary>Q# derleyicisi ve simülatörünün kaynak kodu. Kuantum devresinin nasıl derlenip simüle edildiğini görmek isteyenler için.</summary>
+</entry>
+<entry>
+  <title>Microsoft Kuantum Yol Haritası</title>
+  <link href="https://quantum.microsoft.com/en-us/vision/quantum-roadmap"/>
+  <id>https://quantum.microsoft.com/en-us/vision/quantum-roadmap</id>
+  <updated>2026-06-26T06:49:29Z</updated>
+  <summary>Gürültülü ara ölçek (NISQ) aşamasından hata düzeltmeli mantıksal kübitlere uzanan aşamalar. Alanın hangi vaatlerinin bugün, hangilerinin on yıl sonrası olduğunu tartmak için.</summary>
+</entry>
+<entry>
+  <title>Kuantum Öğrenme Kaynakları</title>
+  <link href="https://azure.microsoft.com/tr-tr/resources/training-and-certifications/quantum-computing"/>
+  <id>https://azure.microsoft.com/tr-tr/resources/training-and-certifications/quantum-computing</id>
+  <updated>2026-06-26T06:45:55Z</updated>
+  <summary>Kuantum hesaplama eğitim kaynaklarının Türkçe derlemesi; alana sıralı bir giriş noktası.</summary>
+</entry>
+</feed>

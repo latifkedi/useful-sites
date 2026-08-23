@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title>Hardware, CAD &amp; Embedded — Useful Sites</title>
+<subtitle>An annotated directory of links on software, AI, security and science. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/donanim.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/donanim.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/en/donanim.xml</id>
+<updated>2026-08-21T20:53:20Z</updated>
+<entry>
+  <title>Digi-Key</title>
+  <link href="https://www.digikey.com/"/>
+  <id>https://www.digikey.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>An electronics component distributor with a strong catalogue, datasheets and parametric search. Against other distributors it wins on stock depth and single-unit sales — buying one part for a prototype is unremarkable here.</summary>
+</entry>
+<entry>
+  <title>EveryCircuit</title>
+  <link href="https://everycircuit.com/"/>
+  <id>https://everycircuit.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Circuit simulation with real-time animation, working on mobile as well. Against Falstad it offers a touch interface and lets you drag component values and watch the result change immediately.</summary>
+</entry>
+<entry>
+  <title>Falstad Circuit Simulator</title>
+  <link href="https://www.falstad.com/circuit/"/>
+  <id>https://www.falstad.com/circuit/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A simulator that animates current flowing through a circuit you draw, with voltage and current shown in colour. Against SPICE it aims at intuition rather than numerical accuracy — it is for seeing how a circuit works.</summary>
+</entry>
+<entry>
+  <title>FPGA4Fun</title>
+  <link href="https://www.fpga4fun.com/"/>
+  <id>https://www.fpga4fun.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Projects that introduce FPGAs through hardware description languages, each producing a working circuit. Unlike a university course it starts from the project — something that works before any theory.</summary>
+</entry>
+<entry>
+  <title>FreeCAD</title>
+  <link href="https://www.freecad.org/"/>
+  <id>https://www.freecad.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A parametric 3D CAD modeller where you go back up the design tree and change a dimension. That parametric approach is the split from Blender: Blender sculpts polygons, this designs a manufacturable part.</summary>
+</entry>
+<entry>
+  <title>KiCad</title>
+  <link href="https://www.kicad.org/"/>
+  <id>https://www.kicad.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>An open-source suite covering the whole electronics design flow from schematic to PCB layout. Against Eagle and Altium there is no layer count or board size limit — no free-tier ceiling at all.</summary>
+</entry>
+<entry>
+  <title>Octopart</title>
+  <link href="https://octopart.com/"/>
+  <id>https://octopart.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A search engine for electronic components that compares stock and price across distributors on one page. That is what saves you checking Digi-Key and Mouser separately — you see availability while still designing.</summary>
+</entry>
+<entry>
+  <title>Open Circuits</title>
+  <link href="https://www.opencircuitsbook.com/"/>
+  <id>https://www.opencircuitsbook.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A book of high-resolution cross-sections of electronic components, showing the insides of resistors, capacitors and connectors. Against datasheets it shows how a component is made — the abstract symbol becomes a physical object.</summary>
+</entry>
+<entry>
+  <title>PC-Builds</title>
+  <link href="https://pc-builds.com/"/>
+  <id>https://pc-builds.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>PC building tools with a bottleneck calculator that estimates CPU-to-GPU balance per game and resolution. Where PCPartPicker answers compatibility, this answers whether the balance makes sense.</summary>
+</entry>
+<entry>
+  <title>PCPartPicker</title>
+  <link href="https://pcpartpicker.com/list/"/>
+  <id>https://pcpartpicker.com/list/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Checks part compatibility and compares prices while you plan a PC build. Against a manual list it catches the mismatch in advance — an underpowered PSU or a cooler that will not clear the case.</summary>
+</entry>
+<entry>
+  <title>RTINGS</title>
+  <link href="https://www.rtings.com/"/>
+  <id>https://www.rtings.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Reviews TVs, headphones, monitors and mice through laboratory measurements, with methodology and raw data published. Unlike opinion reviews the results are measurable, and you can reweight the score for your own use.</summary>
+</entry>
+<entry>
+  <title>TechSpecs</title>
+  <link href="https://techspecs.io/"/>
+  <id>https://techspecs.io/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A search engine for the specifications of consumer electronics, with comparison. Against manufacturer pages the data is normalised, so the same property written under two different names by two brands lines up.</summary>
+</entry>
+<entry>
+  <title>Thingiverse</title>
+  <link href="https://www.thingiverse.com/"/>
+  <id>https://www.thingiverse.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>The community archive of 3D printing models, mostly Creative Commons licensed and shared with print settings. Against Printables and MakerWorld it is the oldest and largest — still the first place to look for a niche part.</summary>
+</entry>
+<entry>
+  <title>Wokwi</title>
+  <link href="https://wokwi.com/"/>
+  <id>https://wokwi.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Simulates Arduino, ESP32 and STM32 in the browser, with virtual sensors and displays attached. Against real hardware you start without waiting for a board — the logic gets verified before anything is soldered.</summary>
+</entry>
+<entry>
+  <title>Onshape</title>
+  <link href="https://www.onshape.com/en/"/>
+  <id>https://www.onshape.com/en/</id>
+  <updated>2026-08-19T16:15:25Z</updated>
+  <summary>Parametric CAD entirely in the browser, working on a database rather than files, so branching and merging behave like Git — something SolidWorks does not offer.</summary>
+</entry>
+<entry>
+  <title>McMaster-Carr</title>
+  <link href="https://www.mcmaster.com/"/>
+  <id>https://www.mcmaster.com/</id>
+  <updated>2026-08-19T16:15:13Z</updated>
+  <summary>An industrial parts catalogue where nearly every item has a downloadable CAD model, which turns it into a reference whenever a design needs a real bolt’s dimensions.</summary>
+</entry>
+<entry>
+  <title>Eclipse Ditto</title>
+  <link href="https://eclipse.dev/ditto/"/>
+  <id>https://eclipse.dev/ditto/</id>
+  <updated>2026-08-17T19:47:15Z</updated>
+  <summary>Keeps device state server-side as a digital twin, so the last known state stays queryable and commands queue up even while the device sleeps.</summary>
+</entry>
+<entry>
+  <title>SmartVision</title>
+  <link href="https://tr.smartvision.dev/"/>
+  <id>https://tr.smartvision.dev/</id>
+  <updated>2026-08-16T07:54:38Z</updated>
+  <summary>Video surveillance software with a Turkish interface covering camera management and recording — a practical option locally for language and support reasons.</summary>
+</entry>
+<entry>
+  <title>Anyka Kamera Firmware</title>
+  <link href="https://github.com/MuhammedKalkan/Anyka-Camera-Firmware"/>
+  <id>https://github.com/MuhammedKalkan/Anyka-Camera-Firmware</id>
+  <updated>2026-08-12T20:51:31Z</updated>
+  <summary>Custom firmware for Anyka-based cameras, covering a family OpenIPC does not. Most cheap Chinese cameras use this chipset.</summary>
+</entry>
+<entry>
+  <title>AK3918 Kamera Notları</title>
+  <link href="https://github.com/OpenIPC/firmware/issues/1970"/>
+  <id>https://github.com/OpenIPC/firmware/issues/1970</id>
+  <updated>2026-08-12T20:51:23Z</updated>
+  <summary>A thread accumulating hardware notes and firmware dumps for one camera SoC. For models like this, a single issue thread is usually the only source there is.</summary>
+</entry>
+<entry>
+  <title>OpenIPC</title>
+  <link href="https://openipc.org/"/>
+  <id>https://openipc.org/</id>
+  <updated>2026-08-12T20:51:19Z</updated>
+  <summary>Open firmware for IP cameras that removes the vendor cloud and exposes the RTSP stream directly on your own network — the way to run a camera without putting it on the internet.</summary>
+</entry>
+<entry>
+  <title>OpenIPC Firmware</title>
+  <link href="https://github.com/OpenIPC/firmware"/>
+  <id>https://github.com/OpenIPC/firmware</id>
+  <updated>2026-08-12T20:51:11Z</updated>
+  <summary>The supported chipset list and build instructions — check whether your camera’s SoC is on it before you buy.</summary>
+</entry>
+<entry>
+  <title>OpenIPC Coupler</title>
+  <link href="https://github.com/openipc/coupler/"/>
+  <id>https://github.com/openipc/coupler/</id>
+  <updated>2026-08-12T20:51:08Z</updated>
+  <summary>Moves between camera firmwares and back to stock — often the only recovery tool you have while experimenting.</summary>
+</entry>
+<entry>
+  <title>OpenIPC Kurulum</title>
+  <link href="https://github.com/OpenIPC/wiki/blob/master/en/installation.md"/>
+  <id>https://github.com/OpenIPC/wiki/blob/master/en/installation.md</id>
+  <updated>2026-08-12T20:51:02Z</updated>
+  <summary>The flashing steps and, more importantly, the way back. Attempting this without a serial console raises the bricking risk considerably.</summary>
+</entry>
+<entry>
+  <title>Advantech Edge AI SDK</title>
+  <link href="https://campaign.advantech.online/en/edgeaisdk/index.html"/>
+  <id>https://campaign.advantech.online/en/edgeaisdk/index.html</id>
+  <updated>2026-08-05T22:16:36Z</updated>
+  <summary>A development kit for running models on industrial edge hardware — where certified equipment is required, a Raspberry Pi-class board does not qualify.</summary>
+</entry>
+<entry>
+  <title>Allwinner V821</title>
+  <link href="https://kokomotech.com/allwinner-v821/"/>
+  <id>https://kokomotech.com/allwinner-v821/</id>
+  <updated>2026-08-05T22:16:28Z</updated>
+  <summary>A technical summary of the V821 SoC including its image pipeline and NPU capability — a comparison point when choosing silicon for a camera or edge AI project.</summary>
+</entry>
+<entry>
+  <title>AvaotaF1 İncelemesi</title>
+  <link href="https://www.electronics-lab.com/avaotaf1-development-board-offers-allwinner-v821-soc-64mb-ram-mipi-camera-spi-display-and-wi-fi-in-coin-size-form/"/>
+  <id>https://www.electronics-lab.com/avaotaf1-development-board-offers-allwinner-v821-soc-64mb-ram-mipi-camera-spi-display-and-wi-fi-in-coin-size-form/</id>
+  <updated>2026-08-05T16:03:23Z</updated>
+  <summary>An article summarising the board’s specifications and likely uses — a quick look before diving into the repo.</summary>
+</entry>
+<entry>
+  <title>AvaotaF1</title>
+  <link href="https://github.com/AvaotaSBC/AvaotaF1"/>
+  <id>https://github.com/AvaotaSBC/AvaotaF1</id>
+  <updated>2026-08-05T16:03:09Z</updated>
+  <summary>A coin-sized RISC-V Linux board with 64 MB RAM, MIPI camera, SPI display and Wi-Fi. Running full Linux rather than a microcontroller at that scale is what makes it unusual.</summary>
+</entry>
+<entry>
+  <title>LiteEMF</title>
+  <link href="https://github.com/LiteEMF?tab=repositories"/>
+  <id>https://github.com/LiteEMF?tab=repositories</id>
+  <updated>2026-08-05T16:01:43Z</updated>
+  <summary>Embedded libraries and firmware repositories weighted towards USB HID and wireless input devices — a reference for controller and keyboard protocols.</summary>
+</entry>
+<entry>
+  <title>Kontrol Sistemleri Uygulamada</title>
+  <link href="https://www.youtube.com/playlist?list=PLn8PRpmsu08pFBqgd_6Bi7msgkWFKL33b"/>
+  <id>https://www.youtube.com/playlist?list=PLn8PRpmsu08pFBqgd_6Bi7msgkWFKL33b</id>
+  <updated>2026-07-29T07:51:41Z</updated>
+  <summary>The engineering-intuition side of the same theory: how you actually tune a PID, what noise and saturation do to it. The half that belongs alongside the lecture course.</summary>
+</entry>
+<entry>
+  <title>Kontrol Sistemleri Dersleri</title>
+  <link href="https://www.youtube.com/playlist?list=PLUMWjy5jgHK3j74Z5Tq6Tso1fSfVWZC8L"/>
+  <id>https://www.youtube.com/playlist?list=PLUMWjy5jgHK3j74Z5Tq6Tso1fSfVWZC8L</id>
+  <updated>2026-07-29T07:51:08Z</updated>
+  <summary>A full lecture series on control theory — transfer functions, stability criteria, state space — building the mathematics in academic order.</summary>
+</entry>
+<entry>
+  <title>CadXStudio</title>
+  <link href="https://cadxstudio.in/"/>
+  <id>https://cadxstudio.in/</id>
+  <updated>2026-04-06T11:34:54Z</updated>
+  <summary>A browser tool generating CAD models from text, reaching into CAM as well. Aimed at simple parts without drafting skill, not at precision engineering.</summary>
+</entry>
+<entry>
+  <title>ORCAS</title>
+  <link href="https://github.com/yuchung886886/ORCAS"/>
+  <id>https://github.com/yuchung886886/ORCAS</id>
+  <updated>2026-02-09T10:47:31Z</updated>
+  <summary>A remote-controlled airsoft turret where embedded control, video streaming and mechanical design meet in one project — showing the integration problems finished products hide.</summary>
+</entry>
+<entry>
+  <title>Taret Süspansiyon Günlüğü</title>
+  <link href="https://www.youtube.com/watch?v=d6PXSTV486c"/>
+  <id>https://www.youtube.com/watch?v=d6PXSTV486c</id>
+  <updated>2026-02-09T10:42:25Z</updated>
+  <summary>A build diary for a homemade turret with the failed attempts left in — what a real design process looks like, unlike a polished tutorial.</summary>
+</entry>
+<entry>
+  <title>GrabCAD · Mini Tank</title>
+  <link href="https://grabcad.com/library/robotic-mini-tank-1"/>
+  <id>https://grabcad.com/library/robotic-mini-tank-1</id>
+  <updated>2026-02-07T17:14:40Z</updated>
+  <summary>A shared tracked robot platform model — a way to start from a working design instead of drawing chassis geometry from scratch.</summary>
+</entry>
+</feed>

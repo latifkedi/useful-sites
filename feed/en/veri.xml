@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title>Data Science &amp; ML — Useful Sites</title>
+<subtitle>An annotated directory of links on software, AI, security and science. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/veri.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/veri.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/en/veri.xml</id>
+<updated>2026-08-21T20:53:20Z</updated>
+<entry>
+  <title>Academic Torrents</title>
+  <link href="https://academictorrents.com/"/>
+  <id>https://academictorrents.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A community archive distributing large research datasets over BitTorrent. Against institutional download links the difference is durability: when the university server goes away, the data survives in the swarm.</summary>
+</entry>
+<entry>
+  <title>An Introduction to Statistical Learning</title>
+  <link href="https://www.statlearning.com/"/>
+  <id>https://www.statlearning.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>The standard introduction to statistical learning, free as a PDF with separate R and Python labs. Against &quot;Elements of Statistical Learning&quot; by the same authors it trades mathematics for intuition — this is the one you read first.</summary>
+</entry>
+<entry>
+  <title>Dataset List</title>
+  <link href="https://www.datasetlist.com/"/>
+  <id>https://www.datasetlist.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A directory of machine learning datasets by domain, with size, licence and paper links. Against Kaggle these are academic and industrial sets rather than competition data — for when you need something real.</summary>
+</entry>
+<entry>
+  <title>ImageNet</title>
+  <link href="https://www.image-net.org/"/>
+  <id>https://www.image-net.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A dataset of fourteen million images labelled against the WordNet hierarchy. What sets it apart from other image sets is historical weight: the 2012 deep learning breakthrough came out of the competition on it, and it is still a benchmark.</summary>
+</entry>
+<entry>
+  <title>Kaggle</title>
+  <link href="https://www.kaggle.com/"/>
+  <id>https://www.kaggle.com/</id>
+  <updated>2026-08-19T23:33:55Z</updated>
+  <summary>Competitions, datasets and notebooks on one platform. The real value is that winning solutions are published once a contest closes, making it the best open archive of applied ML.</summary>
+</entry>
+<entry>
+  <title>AIMA</title>
+  <link href="https://aima.cs.berkeley.edu"/>
+  <id>https://aima.cs.berkeley.edu</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The companion site for Artificial Intelligence: A Modern Approach, publishing course code and algorithm implementations in several languages.</summary>
+</entry>
+<entry>
+  <title>DeepLearning.AI</title>
+  <link href="https://www.deeplearning.ai"/>
+  <id>https://www.deeplearning.ai</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Andrew Ng’s education platform, offering structured specialisations in deep learning and generative AI.</summary>
+</entry>
+<entry>
+  <title>fast.ai</title>
+  <link href="https://course.fast.ai"/>
+  <id>https://course.fast.ai</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Teaches deep learning top-down — a working model first, theory after. The exact inverse of the academic courses that open with mathematics.</summary>
+</entry>
+<entry>
+  <title>Keras</title>
+  <link href="https://keras.io/"/>
+  <id>https://keras.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A high-level API reducing network construction to stacking layers in a few lines. It now runs on TensorFlow, PyTorch and JAX alike, which lets you defer the framework choice.</summary>
+</entry>
+<entry>
+  <title>Machine Learning Mastery</title>
+  <link href="https://machinelearningmastery.com/"/>
+  <id>https://machinelearningmastery.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Application-focused ML tutorials, each ending in working code — answering “how do I do this” rather than the theory.</summary>
+</entry>
+<entry>
+  <title>Matplotlib</title>
+  <link href="https://matplotlib.org/"/>
+  <id>https://matplotlib.org/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The foundation of Python plotting — seaborn and pandas’ plotting are built on it. It gives fine control at the cost of considerable code even for a simple chart.</summary>
+</entry>
+<entry>
+  <title>ML Crash Course</title>
+  <link href="https://developers.google.com/machine-learning/crash-course"/>
+  <id>https://developers.google.com/machine-learning/crash-course</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Google’s fast introduction to machine learning, moving through short video, reading and runnable exercises.</summary>
+</entry>
+<entry>
+  <title>mlcourse.ai</title>
+  <link href="https://mlcourse.ai/"/>
+  <id>https://mlcourse.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>An open machine learning course whose pairing of theory with Kaggle competition assignments separates it from lecture-only material.</summary>
+</entry>
+<entry>
+  <title>MLU-Explain</title>
+  <link href="https://mlu-explain.github.io/"/>
+  <id>https://mlu-explain.github.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Amazon’s set explaining machine learning concepts through interactive visuals — you drag a parameter and watch the model change.</summary>
+</entry>
+<entry>
+  <title>pandas</title>
+  <link href="https://pandas.pydata.org/"/>
+  <id>https://pandas.pydata.org/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The standard library for tabular data. Unlike Excel every transformation is reproducible code; it works in memory, so the data has to fit in RAM.</summary>
+</entry>
+<entry>
+  <title>Plotly</title>
+  <link href="https://plotly.com/"/>
+  <id>https://plotly.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>An interactive charting library with zoom, tooltips and selection built in. Matplotlib produces a static image; this produces a chart you can explore in the browser.</summary>
+</entry>
+<entry>
+  <title>Polars</title>
+  <link href="https://pola.rs/"/>
+  <id>https://pola.rs/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A DataFrame library written in Rust. Unlike pandas it uses every core and optimises the query before running it through lazy evaluation, which makes it multiples faster on large files.</summary>
+</entry>
+<entry>
+  <title>Power BI</title>
+  <link href="https://app.powerbi.com/"/>
+  <id>https://app.powerbi.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Microsoft’s business intelligence tool with native connections to Excel and Azure sources. If the organisation is already on Microsoft 365, its real edge over Tableau is a licence that is already paid for.</summary>
+</entry>
+<entry>
+  <title>PySpark</title>
+  <link href="https://spark.apache.org/docs/latest/api/python/index.html"/>
+  <id>https://spark.apache.org/docs/latest/api/python/index.html</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Apache Spark’s Python interface, for when the data no longer fits on one machine. It offers a pandas-like API while distributing the work across a cluster.</summary>
+</entry>
+<entry>
+  <title>scikit-learn</title>
+  <link href="https://scikit-learn.org/stable/"/>
+  <id>https://scikit-learn.org/stable/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The standard Python library for classical machine learning — classification, regression, clustering and preprocessing behind one `fit`/`predict` interface. The common ground for everything before deep learning.</summary>
+</entry>
+<entry>
+  <title>seaborn</title>
+  <link href="https://seaborn.pydata.org/"/>
+  <id>https://seaborn.pydata.org/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A statistical plotting library on top of Matplotlib, reducing distribution, relationship and category plots to one line — with sane defaults out of the box.</summary>
+</entry>
+<entry>
+  <title>SerpentAI</title>
+  <link href="https://github.com/SerpentAI/SerpentAI"/>
+  <id>https://github.com/SerpentAI/SerpentAI</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A framework turning any video game into a reinforcement learning environment — working against real games rather than simulations is what makes it unusual.</summary>
+</entry>
+<entry>
+  <title>Streamlit</title>
+  <link href="https://streamlit.io/"/>
+  <id>https://streamlit.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Turns a Python script into a web app in a few lines with no HTML, CSS or JavaScript — the shortest path for a data scientist to show a model to a stakeholder.</summary>
+</entry>
+<entry>
+  <title>Tableau</title>
+  <link href="https://www.tableau.com/"/>
+  <id>https://www.tableau.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A drag-and-drop business intelligence platform for building dashboards without code. Common in enterprise reporting and weak on reproducibility and version control.</summary>
+</entry>
+<entry>
+  <title>TensorFlow</title>
+  <link href="https://www.tensorflow.org"/>
+  <id>https://www.tensorflow.org</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Google’s deep learning framework. It lost research ground to PyTorch, yet remains strong for mobile and embedded deployment (TF Lite) and production serving (TF Serving).</summary>
+</entry>
+<entry>
+  <title>Train LLM from Scratch</title>
+  <link href="https://github.com/FareedKhan-dev/train-llm-from-scratch"/>
+  <id>https://github.com/FareedKhan-dev/train-llm-from-scratch</id>
+  <updated>2026-08-04T22:56:12Z</updated>
+  <summary>Shows the whole pipeline in working code, from data download to distributed training — the infrastructure side theoretical write-ups usually skip.</summary>
+</entry>
+<entry>
+  <title>Databricks</title>
+  <link href="https://www.databricks.com/"/>
+  <id>https://www.databricks.com/</id>
+  <updated>2026-07-26T15:42:56Z</updated>
+  <summary>A data and ML platform built on Spark, bringing ACID guarantees to the data lake through Delta Lake — which is the technical substance behind the “lakehouse” claim.</summary>
+</entry>
+<entry>
+  <title>ARC Prize 2026</title>
+  <link href="https://www.kaggle.com/competitions/arc-prize-2026-paper-track"/>
+  <id>https://www.kaggle.com/competitions/arc-prize-2026-paper-track</id>
+  <updated>2026-07-21T07:10:21Z</updated>
+  <summary>A competition on abstract reasoning whose tasks are designed to be easy for humans and hard for models. It rewards a new approach rather than more scale.</summary>
+</entry>
+<entry>
+  <title>LLMs from Scratch</title>
+  <link href="https://github.com/rasbt/LLMs-from-scratch"/>
+  <id>https://github.com/rasbt/LLMs-from-scratch</id>
+  <updated>2026-05-20T03:10:13Z</updated>
+  <summary>A book repo that has you write a GPT from scratch in PyTorch — tokeniser, attention, training loop, fine-tuning. You build the mechanism instead of calling a library.</summary>
+</entry>
+<entry>
+  <title>Google Dataset Search</title>
+  <link href="https://datasetsearch.research.google.com/"/>
+  <id>https://datasetsearch.research.google.com/</id>
+  <updated>2026-04-06T20:23:31Z</updated>
+  <summary>Searches open datasets scattered across the web via schema.org markup. Being tied to no single repository, it reaches institutional archives too.</summary>
+</entry>
+<entry>
+  <title>Zero to Mastery ML</title>
+  <link href="https://github.com/mrdbourke/zero-to-mastery-ml"/>
+  <id>https://github.com/mrdbourke/zero-to-mastery-ml</id>
+  <updated>2026-04-06T11:32:51Z</updated>
+  <summary>End-to-end ML notebooks walking a working pipeline from data cleaning to model evaluation, progressing through real code rather than concept prose.</summary>
+</entry>
+<entry>
+  <title>Data Science for Beginners</title>
+  <link href="https://github.com/microsoft/Data-Science-For-Beginners/tree/main"/>
+  <id>https://github.com/microsoft/Data-Science-For-Beginners/tree/main</id>
+  <updated>2026-04-05T20:34:44Z</updated>
+  <summary>A 20-lesson curriculum where each unit ships with pre/post quizzes and a project. Its data ethics and visualisation sections cover ground most technical courses skip.</summary>
+</entry>
+<entry>
+  <title>ML Mühendisliğinde İş Arama</title>
+  <link href="https://www.reddit.com/r/MachineLearningJobs/comments/1r5upkb/how_i_land_15_machine_learning_engineer_offers/"/>
+  <id>https://www.reddit.com/r/MachineLearningJobs/comments/1r5upkb/how_i_land_15_machine_learning_engineer_offers/</id>
+  <updated>2026-02-16T17:46:21Z</updated>
+  <summary>An ML engineer’s account of a job hunt with the numbers — applications sent, stages reached, what worked. First-hand data against generic career advice.</summary>
+</entry>
+<entry>
+  <title>Kaggle Yarışmaları</title>
+  <link href="https://www.kaggle.com/competitions"/>
+  <id>https://www.kaggle.com/competitions</id>
+  <updated>2025-12-12T16:37:57Z</updated>
+  <summary>Active and past competitions. Being scored against a real metric breaks the “looks fine to me” illusion of working on your own project.</summary>
+</entry>
+</feed>

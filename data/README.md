@@ -42,7 +42,9 @@ overwrites it.
 | `intros.py` | Category introduction texts |
 | `from_issue.py` | Turns an approved GitHub issue into a record |
 | `ci_check.py` | Link scan and report, for GitHub Actions |
-| `ci_github.py` | Archive and staleness audit for linked GitHub repositories |
+| `ci_github.py` | Archive and staleness audit for linked GitHub repositories; writes `health.json` |
+| `ci_fresh.py` | Asks whether a link is still the thing we described — takeovers, parked domains, dated claims |
+| `test_build.py` | Smoke test over the build output; run it before committing |
 | `make_og.py` | Regenerates `og.png`; the record count and address are baked into the pixels |
 | `extract.py` | Pulls technology links out of a browser bookmark file |
 | `check.py` | One-off liveness check |
@@ -59,7 +61,9 @@ was built:
 ../feed.xml        Atom feed of the newest entries
 ../sitemap.xml     index + category pages
 ../robots.txt      sitemap pointer
-../k/*.html        one static page per category
+../k/*.html        one static page per category, plus k/index.html
+../k/en/*.html     the same in English
+../feed/*.xml      one Atom feed per category (and feed/en/ for English)
 ```
 
 The static pages exist because the app draws itself entirely from `links.js`,
@@ -73,6 +77,7 @@ as plain HTML with no JavaScript.
 | `meta.json`, `ext_meta.json` | Fetched title/description metadata. Committed, so a clone can rebuild |
 | `added.json` | When each link was first bookmarked, frozen from the browser export |
 | `verified.json` | Last-verified date and status per record; the weekly scan refreshes it |
+| `health.json` | Repository state per record (archived / dormant / deleted) and last push date |
 
 `added.json` is frozen rather than read live from the bookmark file, so the
 build does not depend on a path on one particular machine. `build.py` exposes

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title>Reference &amp; Collections — Useful Sites</title>
+<subtitle>An annotated directory of links on software, AI, security and science. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/referans.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/referans.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/en/referans.xml</id>
+<updated>2026-08-21T20:53:20Z</updated>
+<entry>
+  <title>Accessibility Developer Guide</title>
+  <link href="https://www.accessibility-developer-guide.com/"/>
+  <id>https://www.accessibility-developer-guide.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A guide to accessible interfaces at the code level, showing the wrong approach before the right one in every example. Where WCAG states abstract criteria, this demonstrates what a screen reader actually announces.</summary>
+</entry>
+<entry>
+  <title>Algorithmica HPC</title>
+  <link href="https://en.algorithmica.org/hpc/"/>
+  <id>https://en.algorithmica.org/hpc/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>An online book on writing fast code for modern hardware: cache hierarchy, SIMD, branch prediction. Where algorithm books stop at big-O, this measures wall-clock time on a real machine and explains why two solutions of equal complexity differ by tenfold.</summary>
+</entry>
+<entry>
+  <title>Algorithms &amp; Big-O Reference</title>
+  <link href="https://cooervo.github.io/Algorithms-DataStructures-BigONotation/"/>
+  <id>https://cooervo.github.io/Algorithms-DataStructures-BigONotation/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A single-table reference for the time and space complexity of data structures and sorting algorithms. Against the Big-O Cheat Sheet it also carries a short description and sample code per structure, so you know what you are reading before you read the table.</summary>
+</entry>
+<entry>
+  <title>Apple Human Interface Guidelines</title>
+  <link href="https://developer.apple.com/design/human-interface-guidelines/"/>
+  <id>https://developer.apple.com/design/human-interface-guidelines/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Apple’s interface rules across all its platforms: touch target sizes, navigation patterns, motion and typography. Unlike Material Design, this is not advice — it is the yardstick App Store review actually applies.</summary>
+</entry>
+<entry>
+  <title>Awesome Cheatsheets</title>
+  <link href="https://lecoupa.github.io/awesome-cheatsheets/"/>
+  <id>https://lecoupa.github.io/awesome-cheatsheets/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Cheat sheets for languages, frameworks and command-line tools, each condensed into a single file. Unlike visual sheets these are plain text — searchable, copyable and versioned in a repository.</summary>
+</entry>
+<entry>
+  <title>Cheat-Sheets.org</title>
+  <link href="https://www.cheat-sheets.org/"/>
+  <id>https://www.cheat-sheets.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A directory collecting cheat sheets scattered across the web, filed by subject. Unlike Cheatography it produces nothing itself — it points at the good sheets elsewhere, a catalogue rather than a source.</summary>
+</entry>
+<entry>
+  <title>Cheatography</title>
+  <link href="https://cheatography.com/"/>
+  <id>https://cheatography.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>An archive of user-made cheat sheets, each printable as a PDF. Against single-subject cheat sheets the difference is coverage — everything from a programming language to an application’s shortcuts in the same format.</summary>
+</entry>
+<entry>
+  <title>Choose a License — Appendix</title>
+  <link href="https://choosealicense.com/appendix/"/>
+  <id>https://choosealicense.com/appendix/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>An appendix comparing open-source licences in one table of permissions, conditions and limitations. Against reading licence texts you see it in a row — whether there is a patent clause, whether share-alike applies.</summary>
+</entry>
+<entry>
+  <title>CodeTriage</title>
+  <link href="https://www.codetriage.com"/>
+  <id>https://www.codetriage.com</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Sends you one open issue a day from projects you follow, for people who want to contribute. Against scanning &quot;good first issue&quot; labels the difference is regularity and small doses — which is what turns contribution into a habit.</summary>
+</entry>
+<entry>
+  <title>DBLP</title>
+  <link href="https://dblp.org/"/>
+  <id>https://dblp.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>The open bibliography database of computer science publications, with tidy author pages and conference volumes. Against Google Scholar it is clean and hand-maintained — author ambiguity and phantom records are rare.</summary>
+</entry>
+<entry>
+  <title>Dictionary of Algorithms and Data Structures</title>
+  <link href="https://xlinux.nist.gov/dads/"/>
+  <id>https://xlinux.nist.gov/dads/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>NIST’s dictionary of algorithms and data structures, with a short definition, a formal statement where one exists, and links to implementations. Against Wikipedia it is terse and authoritative on terminology — the place to check what a thing is properly called.</summary>
+</entry>
+<entry>
+  <title>Git Explorer</title>
+  <link href="https://gitexplorer.com/"/>
+  <id>https://gitexplorer.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Pick what you are trying to do from menus and it composes the right Git command. Against a cheat sheet it works backwards: you do not need to recall the command, only your intent.</summary>
+</entry>
+<entry>
+  <title>Git — The Simple Guide</title>
+  <link href="https://rogerdudler.github.io/git-guide/"/>
+  <id>https://rogerdudler.github.io/git-guide/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A one-page introduction to Git’s basic flow, going as far as branching, merging and remotes. Unlike the Pro Git book it makes no attempt at completeness — it is the minimum for day one.</summary>
+</entry>
+<entry>
+  <title>GitSheet</title>
+  <link href="https://gitsheet.wtf"/>
+  <id>https://gitsheet.wtf</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A single-page cheat sheet of common Git commands, grouped by task. Unlike a long guide it is built for scanning rather than searching — you glance at it while trying to recall a command.</summary>
+</entry>
+<entry>
+  <title>IEEE-754 Converter</title>
+  <link href="https://www.h-schmidt.net/FloatConverter/IEEE754.html"/>
+  <id>https://www.h-schmidt.net/FloatConverter/IEEE754.html</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A two-way converter between decimal and IEEE-754 floating point, with individual bits toggleable. Against a calculator it shows where the rounding error comes from — this is where the 0.1 + 0.2 question is actually answered.</summary>
+</entry>
+<entry>
+  <title>Laws of UX</title>
+  <link href="https://lawsofux.com/"/>
+  <id>https://lawsofux.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A short, visual collection of the psychological laws that govern interface design — Fitts, Hick, Jakob and the rest. Unlike the academic sources, each law fits on one screen with an example, which makes it a shared vocabulary for design arguments.</summary>
+</entry>
+<entry>
+  <title>Learn Vim</title>
+  <link href="https://learnvim.irian.to/"/>
+  <id>https://learnvim.irian.to/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>An online book that teaches Vim as a grammar — verb plus motion plus text object — rather than as key sequences to memorise. That is the break from cheat sheets: you learn to derive new combinations instead of recalling old ones.</summary>
+</entry>
+<entry>
+  <title>LibHunt</title>
+  <link href="https://www.libhunt.com/"/>
+  <id>https://www.libhunt.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A directory that compares libraries and shows their alternatives, with activity and popularity trends side by side. Against awesome lists the data is live — when a project slows down, the graph says so.</summary>
+</entry>
+<entry>
+  <title>Libraries.io</title>
+  <link href="https://libraries.io/"/>
+  <id>https://libraries.io/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A directory searching more than thirty package managers at once, showing a library’s dependencies and its dependents. Against searching npm or PyPI directly it spans ecosystems and surfaces abandonment signals.</summary>
+</entry>
+<entry>
+  <title>Map of GitHub</title>
+  <link href="https://anvaka.github.io/map-of-github/"/>
+  <id>https://anvaka.github.io/map-of-github/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A visualisation clustering GitHub repositories by star similarity into a browsable map. Against topic search it shows adjacency: what else the people who starred one project starred, laid out as terrain.</summary>
+</entry>
+<entry>
+  <title>Oh Shit, Git!?!</title>
+  <link href="https://ohshitgit.com/"/>
+  <id>https://ohshitgit.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A short guide to undoing whatever you just broke in Git, each entry opening on a real moment of panic. Against the official docs it starts from the situation rather than the command — you search &quot;committed to the wrong branch&quot;, not `reflog`.</summary>
+</entry>
+<entry>
+  <title>Open Source Guides</title>
+  <link href="https://opensource.guide/"/>
+  <id>https://opensource.guide/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>GitHub’s guides to open source: starting a project, taking contributions, running a community, handling burnout. Unlike licence or tooling guides it deals with the social side — the sustainability of the project rather than the code.</summary>
+</entry>
+<entry>
+  <title>OSS Gallery</title>
+  <link href="https://oss.gallery/"/>
+  <id>https://oss.gallery/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A crowdsourced showcase of open-source projects, each with a live demo and repository link. Against awesome lists it is visual — you see what a thing does before reading about it.</summary>
+</entry>
+<entry>
+  <title>Public License Selector</title>
+  <link href="https://ufal.github.io/public-license-selector/"/>
+  <id>https://ufal.github.io/public-license-selector/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Recommends a licence from your answers to a series of questions, with separate flows for software, data and content. Against choosealicense.com it also covers datasets and content, which is what you need when choosing among the CC licences.</summary>
+</entry>
+<entry>
+  <title>Python Cheatsheet</title>
+  <link href="https://www.pythoncheatsheet.org/"/>
+  <id>https://www.pythoncheatsheet.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A Python reference based on &quot;Automate the Boring Stuff&quot;, covering syntax through the standard library. Against the official documentation it leans on examples — you open it to recall syntax, not to learn it.</summary>
+</entry>
+<entry>
+  <title>Related Repos</title>
+  <link href="https://relatedrepos.com/"/>
+  <id>https://relatedrepos.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Finds projects similar to a given GitHub repository. Against GitHub’s own suggestions it works from star overlap, so it also surfaces projects whose topic tags were filled in badly.</summary>
+</entry>
+<entry>
+  <title>Shields.io</title>
+  <link href="https://shields.io/"/>
+  <id>https://shields.io/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Generates README badges: build status, version, downloads, licence. Against hand-made SVGs they bind to live data — the badge fetches the npm version or CI status itself.</summary>
+</entry>
+<entry>
+  <title>Speedsheet</title>
+  <link href="https://speedsheet.io/"/>
+  <id>https://speedsheet.io/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>An interactive Python reference that narrows as you search, opening the relevant section as you type. That is the break from a static cheat sheet: you type what you need rather than scanning a page.</summary>
+</entry>
+<entry>
+  <title>The Architecture of Open Source Applications</title>
+  <link href="https://aosabook.org/en/index.html"/>
+  <id>https://aosabook.org/en/index.html</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A book series in which the developers of open-source projects describe their own architecture. Against reading the source you learn which decisions were taken and why, and what went wrong — the rationale is never in the code.</summary>
+</entry>
+<entry>
+  <title>Vim Awesome</title>
+  <link href="https://vimawesome.com/"/>
+  <id>https://vimawesome.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A directory of Vim and Neovim plugins, filterable by popularity, category and install method. Against searching GitHub it surfaces maintenance status and hands you the install line.</summary>
+</entry>
+<entry>
+  <title>Vim Cheat Sheet</title>
+  <link href="https://vim.rtorr.com"/>
+  <id>https://vim.rtorr.com</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A one-page list of Vim commands grouped by category, translated into a dozen languages. Unlike `vimtutor` it does not teach, it reminds — the tab you keep open during your second month of Vim.</summary>
+</entry>
+<entry>
+  <title>x86 Instruction Set Reference</title>
+  <link href="https://c9x.me/x86/"/>
+  <id>https://c9x.me/x86/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A searchable reference for the x86 instruction set with encoding, flags and pseudocode per instruction. Against Intel’s PDF manuals it is simply fast — you no longer open a 5,000-page document to check one opcode.</summary>
+</entry>
+<entry>
+  <title>Programcının Ziyaret Etmesi Gereken Siteler</title>
+  <link href="https://github.com/sdmg15/Best-websites-a-programmer-should-visit"/>
+  <id>https://github.com/sdmg15/Best-websites-a-programmer-should-visit</id>
+  <updated>2026-08-19T23:41:12Z</updated>
+  <summary>A developer link collection grouped by purpose — practice, news, tools, books. Despite 76k stars it was archived on 1 November 2025 and is now read-only, so dead links no longer get pruned. Valuable as a snapshot, not as a current source.</summary>
+</entry>
+<entry>
+  <title>Learn X in Y Minutes</title>
+  <link href="https://learnxinyminutes.com/"/>
+  <id>https://learnxinyminutes.com/</id>
+  <updated>2026-08-19T23:39:30Z</updated>
+  <summary>Introduces a language through a single annotated file. The fastest crossover if you already know another language — you read only the syntax differences, not the concepts.</summary>
+</entry>
+<entry>
+  <title>Literate Programming</title>
+  <link href="http://literateprogramming.com/"/>
+  <id>http://literateprogramming.com/</id>
+  <updated>2026-08-19T23:38:44Z</updated>
+  <summary>The archive of Knuth’s idea of writing code interwoven with prose — the root of Jupyter notebooks and today’s arguments about explainable code.</summary>
+</entry>
+<entry>
+  <title>Free for Developers</title>
+  <link href="https://free-for.dev/#/"/>
+  <id>https://free-for.dev/#/</id>
+  <updated>2026-08-19T23:38:16Z</updated>
+  <summary>A list of developer services with free tiers — hosting, CI, monitoring, email. A map for keeping a side project near zero cost.</summary>
+</entry>
+<entry>
+  <title>DevDocs</title>
+  <link href="https://devdocs.io/"/>
+  <id>https://devdocs.io/</id>
+  <updated>2026-08-19T16:12:43Z</updated>
+  <summary>Gathers official documentation for hundreds of technologies in one interface, downloadable for offline use with instant search. The end of tab-hopping between doc sites.</summary>
+</entry>
+<entry>
+  <title>A Hacker's Guide to Git</title>
+  <link href="https://wildlyinaccurate.com/a-hackers-guide-to-git/"/>
+  <id>https://wildlyinaccurate.com/a-hackers-guide-to-git/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A guide to Git’s object database, refs and merge algorithm. Against &quot;Git from the Inside Out&quot; it is shorter and more command-oriented — the two complement each other.</summary>
+</entry>
+<entry>
+  <title>Airbnb JavaScript Üslup Kılavuzu</title>
+  <link href="https://github.com/airbnb/javascript"/>
+  <id>https://github.com/airbnb/javascript</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The de facto JavaScript style standard, installable directly as an ESLint config, with every rule shown as good and bad example code.</summary>
+</entry>
+<entry>
+  <title>Awesome for Beginners</title>
+  <link href="https://github.com/mungell/awesome-for-beginners"/>
+  <id>https://github.com/mungell/awesome-for-beginners</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A list of repositories with beginner-friendly issues, organised by programming language. Against Up For Grabs the split by language is the difference — finding a project in a language you know is straightforward.</summary>
+</entry>
+</feed>

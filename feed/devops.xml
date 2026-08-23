@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
+<title>DevOps &amp; Altyapı — Kullanışlı Siteler</title>
+<subtitle>Yazılım, yapay zeka, güvenlik ve bilim üzerine açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/devops.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/devops.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/devops.xml</id>
+<updated>2026-08-21T20:53:20Z</updated>
+<entry>
+  <title>Cronmaster</title>
+  <link href="https://github.com/fccview/cronmaster"/>
+  <id>https://github.com/fccview/cronmaster</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Cron görevlerini web arayüzünden yöneten öz-barındırılan uygulama; ifadeleri okunur hâlde gösteriyor ve çalıştırma günlüğü tutuyor. crontab -e’den farkı bir sonraki çalışma zamanını ve son çıktıyı göstermesi — sessizce başarısız olan görevler görünür oluyor.</summary>
+</entry>
+<entry>
+  <title>Crontab Generator</title>
+  <link href="https://crontab-generator.org/"/>
+  <id>https://crontab-generator.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Cron ifadesini form üzerinden üreten ve ne zaman çalışacağını yazıyla söyleyen araç. crontab.guru’dan farkı ters yönde çalışması — ifadeyi çözmek yerine istediğin zamanlamadan ifade üretiyor.</summary>
+</entry>
+<entry>
+  <title>FromLatest</title>
+  <link href="https://www.fromlatest.io/"/>
+  <id>https://www.fromlatest.io/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Dockerfile’ı çözümleyip katman katman ne olduğunu açıklayan ve iyileştirme öneren araç. hadolint’ten farkı görsel olması ve her kuralın neden var olduğunu anlatması — Dockerfile yazmayı öğrenmek için de kullanılabiliyor.</summary>
+</entry>
+<entry>
+  <title>K8s YAML Generator</title>
+  <link href="https://k8syaml.com/"/>
+  <id>https://k8syaml.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Kubernetes manifestolarını form doldurarak üreten araç; her alanın ne işe yaradığını yanında açıklıyor. Belgelerden kopyalamaktan farkı geçerli bir manifesto ile çıkman ve alanların anlamını okuyarak öğrenmen.</summary>
+</entry>
+<entry>
+  <title>ShellCheck</title>
+  <link href="https://www.shellcheck.net/"/>
+  <id>https://www.shellcheck.net/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Kabuk betiklerindeki hataları bulan statik çözümleyici; tırnaklanmamış değişken, yanlış test söz dizimi, taşınabilirlik sorunları. `bash -n`’den farkı sözdizimi değil anlam denetimi yapması — çalışan ama yanlış davranan betiği yakalıyor.</summary>
+</entry>
+<entry>
+  <title>YAMLlint</title>
+  <link href="https://www.yamllint.com/"/>
+  <id>https://www.yamllint.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>YAML doğrulayıcı; girinti ve tırnak hatalarını gösterip belgeyi ayrıştırılmış hâliyle basıyor. JSON doğrulayıcılardan farkı YAML’ın asıl tuzağını yakalaması — girintinin sessizce yanlış yapıyı üretmesi.</summary>
+</entry>
+<entry>
+  <title>Njalla</title>
+  <link href="https://njal.la/"/>
+  <id>https://njal.la/</id>
+  <updated>2026-08-19T16:10:10Z</updated>
+  <summary>Alan adını senin adına kendi üstüne kaydediyor, yani WHOIS kaydında sen görünmüyorsun. Vekil gizlilik hizmetinden farkı, mülkiyetin hukuken onlarda olması — bu bir güven meselesi.</summary>
+</entry>
+<entry>
+  <title>AlexHost</title>
+  <link href="https://alexhost.com/"/>
+  <id>https://alexhost.com/</id>
+  <updated>2026-08-19T16:10:01Z</updated>
+  <summary>Moldova merkezli barındırma. Farklı bir yargı bölgesi ve gevşek içerik politikası sunması sebebiyle tercih ediliyor; bu aynı zamanda komşuların kim olduğu sorusunu doğuruyor.</summary>
+</entry>
+<entry>
+  <title>AvenaCloud</title>
+  <link href="https://avenacloud.com/"/>
+  <id>https://avenacloud.com/</id>
+  <updated>2026-08-19T16:09:22Z</updated>
+  <summary>VPS ve fiziksel sunucu sağlayıcı; küçük ölçekli projeler için bütçe odaklı bir seçenek.</summary>
+</entry>
+<entry>
+  <title>Amazon Web Services</title>
+  <link href="https://aws.amazon.com/"/>
+  <id>https://aws.amazon.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Servis yelpazesi en geniş bulut. Genişlik avantaj ama maliyet takibi ayrı bir uzmanlık alanı; veri çıkış (egress) ücretleri özellikle sürpriz yapıyor.</summary>
+</entry>
+<entry>
+  <title>Apache Airflow</title>
+  <link href="https://airflow.apache.org/"/>
+  <id>https://airflow.apache.org/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>DAG’ları Python’da tanımlayıp zamanlıyorsun. Toplu veri hattında fiilî standart; olay güdümlü ve düşük gecikmeli işlerde hantal kalıyor.</summary>
+</entry>
+<entry>
+  <title>Coder</title>
+  <link href="https://coder.com"/>
+  <id>https://coder.com</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Geliştirme ortamını kendi altyapında kapsayıcı olarak çalıştıran platform; VS Code ya da JetBrains istemcisiyle bağlanıyorsun. GitHub Codespaces’ten farkı bulut sağlayıcısına bağlı olmaması — kaynak da kod da sende kalıyor.</summary>
+</entry>
+<entry>
+  <title>Kestra</title>
+  <link href="https://kestra.io/"/>
+  <id>https://kestra.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Akışlar YAML’de bildirimsel olarak tanımlanıyor; dil bağımsız olduğu için Python olmayan ekiplerde de çalışıyor. Sürüm kontrolüyle iyi geçiniyor.</summary>
+</entry>
+<entry>
+  <title>Make</title>
+  <link href="https://www.make.com/"/>
+  <id>https://www.make.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Senaryolar dallanma, döngü ve hata işleme taşıyabiliyor; Zapier’in doğrusal adım modeline göre karmaşık akışlarda daha rahat. Öğrenme eğrisi de buna paralel olarak dik.</summary>
+</entry>
+<entry>
+  <title>n8n</title>
+  <link href="https://n8n.io/"/>
+  <id>https://n8n.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Görsel düğüm editörü; kendi sunucunda çalıştırdığında çalıştırma sayısı sınırsız. Düğüm içine JavaScript yazabiliyorsun, yani no-code duvarına toslamıyorsun.</summary>
+</entry>
+<entry>
+  <title>Pipedream</title>
+  <link href="https://pipedream.com/"/>
+  <id>https://pipedream.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Her adım Node.js ya da Python kodu olabiliyor ve npm/PyPI paketi çekebiliyor. Görsel otomasyonla gerçek kod arasındaki boşluğu kapatan seçenek.</summary>
+</entry>
+<entry>
+  <title>Power Automate</title>
+  <link href="https://www.microsoft.com/power-platform/products/power-automate"/>
+  <id>https://www.microsoft.com/power-platform/products/power-automate</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>SharePoint, Teams ve Dataverse bağlayıcıları yerleşik. Kurum zaten Microsoft 365’teyse lisans çoğu zaman ödenmiş oluyor — asıl tercih sebebi bu.</summary>
+</entry>
+<entry>
+  <title>Prefect</title>
+  <link href="https://www.prefect.io/"/>
+  <id>https://www.prefect.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Akış sıradan bir Python fonksiyonu; dekoratör ekleyip orkestrasyona dahil ediyorsun. Airflow’un ayrı DSL’ini öğrenmeden yerel kodu üretime taşımak daha kısa.</summary>
+</entry>
+<entry>
+  <title>Temporal</title>
+  <link href="https://temporal.io/"/>
+  <id>https://temporal.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>İş akışı durumunu olay geçmişi olarak kaydediyor; süreç çökerse aynı noktadan devam ediyor. Günlerce süren ve yeniden başlatılamayan işlemler için tasarlanmış.</summary>
+</entry>
+<entry>
+  <title>Zapier</title>
+  <link href="https://zapier.com/"/>
+  <id>https://zapier.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>En geniş entegrasyon kataloğu — bağlanmak istediğin niş SaaS büyük ihtimalle burada var. Fiyatlandırma görev başına, yani hacim arttıkça hızla pahalılaşıyor.</summary>
+</entry>
+<entry>
+  <title>Güzel Hosting</title>
+  <link href="https://www.guzel.net.tr/"/>
+  <id>https://www.guzel.net.tr/</id>
+  <updated>2026-07-26T14:04:14Z</updated>
+  <summary>Türkiye merkezli barındırma ve alan adı; .tr uzantısı, yerel ödeme ve Türkçe destek sunuyor. Sunucunun Türkiye’de olması gereken projeler için pratik.</summary>
+</entry>
+<entry>
+  <title>LiteSpeed</title>
+  <link href="https://www.litespeedtech.com/"/>
+  <id>https://www.litespeedtech.com/</id>
+  <updated>2026-07-26T10:12:36Z</updated>
+  <summary>Apache yapılandırmasını olduğu gibi okuyabilen ticari sunucu; olay güdümlü çekirdeği ile daha az kaynak tüketiyor. WordPress barındırmada önbellek eklentisiyle birlikte yaygın.</summary>
+</entry>
+<entry>
+  <title>Sentry</title>
+  <link href="https://sentry.io/welcome/"/>
+  <id>https://sentry.io/welcome/</id>
+  <updated>2026-07-03T12:16:14Z</updated>
+  <summary>Hataları yığın izi, kaynak haritası ve kullanıcı bağlamıyla topluyor ve benzerlerini grupluyor. Günlük dosyası okumaya karşı, aynı hatanın kaç kullanıcıyı etkilediğini gösteriyor.</summary>
+</entry>
+<entry>
+  <title>Hetzner</title>
+  <link href="https://www.hetzner.com/"/>
+  <id>https://www.hetzner.com/</id>
+  <updated>2026-07-02T15:53:11Z</updated>
+  <summary>Almanya ve Finlandiya’da fiziksel sunucu ve VPS; aynı çekirdek/RAM için büyük bulutların birkaç katı ucuz. Yönetilen servis yok, işletim tamamen sana kalıyor.</summary>
+</entry>
+<entry>
+  <title>Vercel</title>
+  <link href="https://vercel.com/"/>
+  <id>https://vercel.com/</id>
+  <updated>2026-06-25T06:45:27Z</updated>
+  <summary>Ön yüz odaklı dağıtım; her PR için önizleme ortamı açması sektörde standart hâline geldi. Next.js’in arkasındaki şirket, dolayısıyla o çatıda en iyi entegrasyon burada.</summary>
+</entry>
+<entry>
+  <title>Celery</title>
+  <link href="https://docs.celeryq.dev/en/stable/"/>
+  <id>https://docs.celeryq.dev/en/stable/</id>
+  <updated>2026-04-20T13:01:28Z</updated>
+  <summary>Python’da arka plan görevlerinin standardı; Redis ya da RabbitMQ’yu aracı olarak kullanıyor. Zamanlanmış görevler (beat) ve yeniden deneme mantığı da içinde.</summary>
+</entry>
+<entry>
+  <title>Apache Kafka</title>
+  <link href="https://kafka.apache.org/42/getting-started/introduction/"/>
+  <id>https://kafka.apache.org/42/getting-started/introduction/</id>
+  <updated>2026-04-20T13:01:27Z</updated>
+  <summary>Mesajları tüketildikten sonra da saklıyor; tüketiciler kendi konumlarını (offset) taşıyıp geçmişi yeniden okuyabiliyor. Klasik kuyruklardan asıl ayrımı bu kalıcılık.</summary>
+</entry>
+<entry>
+  <title>RabbitMQ Öğreticileri</title>
+  <link href="https://www.rabbitmq.com/tutorials"/>
+  <id>https://www.rabbitmq.com/tutorials</id>
+  <updated>2026-04-20T13:01:27Z</updated>
+  <summary>Altı adımda mesaj kuyruğu desenlerini öğreten resmî seri: iş kuyruğu, yayın-abone, yönlendirme, RPC. Kafka olay akışına, bu görev dağıtımına odaklı.</summary>
+</entry>
+<entry>
+  <title>n8n Dokümantasyonu</title>
+  <link href="https://docs.n8n.io/"/>
+  <id>https://docs.n8n.io/</id>
+  <updated>2026-04-20T13:01:26Z</updated>
+  <summary>Düğüm referansı, kendi sunucuna kurulum ve kimlik bilgisi yönetimi. Kuyruk kipiyle ölçekleme bölümü üretimde çalıştıracaklar için önemli.</summary>
+</entry>
+<entry>
+  <title>Redis Dokümantasyonu</title>
+  <link href="https://redis.io/docs/latest/"/>
+  <id>https://redis.io/docs/latest/</id>
+  <updated>2026-04-20T13:01:26Z</updated>
+  <summary>Liste, küme, sıralı küme ve akış gibi veri yapılarının referansı. Redis’i basit bir anahtar-değer deposu sanmak, elindeki aracın çoğunu kullanmamak demek.</summary>
+</entry>
+<entry>
+  <title>LiteSpeed Dokümantasyonu</title>
+  <link href="https://docs.litespeedtech.com/"/>
+  <id>https://docs.litespeedtech.com/</id>
+  <updated>2026-04-20T13:01:21Z</updated>
+  <summary>Yapılandırma referansı; LSCache kurallarının nasıl yazılacağı burada. Önbellekleme ayarları performansın büyük kısmını belirliyor.</summary>
+</entry>
+<entry>
+  <title>Apache HTTP Server</title>
+  <link href="https://httpd.apache.org/docs/"/>
+  <id>https://httpd.apache.org/docs/</id>
+  <updated>2026-04-20T13:01:20Z</updated>
+  <summary>Modül mimarisi ve .htaccess ile dizin bazlı yapılandırma esnekliği. Paylaşımlı barındırmada hâlâ hâkim; nginx’e göre yüksek eşzamanlılıkta daha çok bellek yiyor.</summary>
+</entry>
+<entry>
+  <title>nginx</title>
+  <link href="https://nginx.org/en/docs/"/>
+  <id>https://nginx.org/en/docs/</id>
+  <updated>2026-04-20T13:01:19Z</updated>
+  <summary>Olay güdümlü mimarisi sayesinde on binlerce eşzamanlı bağlantıyı düşük bellekle taşıyor. Ters vekil ve yük dengeleyici olarak kullanımı, web sunucusu olmasından daha yaygın.</summary>
+</entry>
+<entry>
+  <title>Pro Git (Türkçe)</title>
+  <link href="https://git-scm.com/book/tr/v2"/>
+  <id>https://git-scm.com/book/tr/v2</id>
+  <updated>2026-04-20T13:01:17Z</updated>
+  <summary>Git’in resmî kitabının Türkçe çevirisi. İç mekanizma bölümü (nesne modeli, referanslar) komut ezberlemekten kurtarıyor — Git’i asıl anlaşılır kılan kısım orası.</summary>
+</entry>
+<entry>
+  <title>Dokploy</title>
+  <link href="https://github.com/dokploy/dokploy"/>
+  <id>https://github.com/dokploy/dokploy</id>
+  <updated>2026-04-20T11:51:53Z</updated>
+  <summary>Kendi VPS’inde Vercel benzeri dağıtım deneyimi kuruyor: git iterek yayına alma, veritabanı sağlama ve otomatik TLS. Heroku’nun ücretsiz katmanı kapandıktan sonra doğan boşluğu dolduruyor.</summary>
+</entry>
+<entry>
+  <title>Grafana</title>
+  <link href="https://grafana.com/"/>
+  <id>https://grafana.com/</id>
+  <updated>2026-04-20T11:51:43Z</updated>
+  <summary>Prometheus, Loki, PostgreSQL ve onlarca kaynağı aynı panoda birleştiriyor. Veri kaynağından bağımsız olması, izleme yığınının ortak yüzü hâline gelmesini sağladı.</summary>
+</entry>
+<entry>
+  <title>Neko</title>
+  <link href="https://github.com/m1k1o/neko"/>
+  <id>https://github.com/m1k1o/neko</id>
+  <updated>2026-04-20T11:45:56Z</updated>
+  <summary>Kapsayıcı içinde tarayıcı çalıştırıp WebRTC ile paylaşıyor; birden çok kişi aynı oturumu kontrol edebiliyor. Birlikte izleme ve izole gezinme için kullanılıyor.</summary>
+</entry>
+<entry>
+  <title>Gource</title>
+  <link href="https://gource.io/"/>
+  <id>https://gource.io/</id>
+  <updated>2026-04-19T18:55:30Z</updated>
+  <summary>Depo geçmişini büyüyen bir ağaç animasyonu olarak çiziyor; kimin nereye dokunduğu görünür oluyor. Teknik analiz aracı değil, proje tarihini anlatmak için.</summary>
+</entry>
+</feed>

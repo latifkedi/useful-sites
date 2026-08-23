@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title>Mobile &amp; Desktop — Useful Sites</title>
+<subtitle>An annotated directory of links on software, AI, security and science. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/mobil.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/en/mobil.xml</id>
+<updated>2026-08-21T20:53:20Z</updated>
+<entry>
+  <title>Android Weekly</title>
+  <link href="https://androidweekly.net/"/>
+  <id>https://androidweekly.net/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A weekly newsletter of Android and Kotlin development news: articles, libraries, jobs. Against following blogs it is curated — one email a week instead of chasing scattered feeds.</summary>
+</entry>
+<entry>
+  <title>Don't Kill My App</title>
+  <link href="https://dontkillmyapp.com/"/>
+  <id>https://dontkillmyapp.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Documents how each Android manufacturer kills background apps, brand by brand, with the workaround for each device. Unlike general Android documentation it is per-vendor — which is where the answer to &quot;why did my alarm not ring&quot; lives.</summary>
+</entry>
+<entry>
+  <title>Exodus Privacy</title>
+  <link href="https://reports.exodus-privacy.eu.org/en/"/>
+  <id>https://reports.exodus-privacy.eu.org/en/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Reports the trackers and permissions inside Android apps. Unlike Play Store privacy labels it reads the APK rather than the declaration — what the developer shipped, not what they said.</summary>
+</entry>
+<entry>
+  <title>Fossdroid</title>
+  <link href="https://fossdroid.com/"/>
+  <id>https://fossdroid.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A browsable showcase of the free-software Android apps in the F-Droid repository. Against the F-Droid client it offers discovery by popularity on the web — you can see which apps are actually used.</summary>
+</entry>
+<entry>
+  <title>Godot</title>
+  <link href="https://godotengine.org/"/>
+  <id>https://godotengine.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>An MIT-licensed game engine with separately mature 2D and 3D pipelines. Where it parts ways with Unity and Unreal is the licence: no revenue share, no seat fee, no per-install charge — the whole engine is yours.</summary>
+</entry>
+<entry>
+  <title>IzzyOnDroid</title>
+  <link href="https://apt.izzysoft.de/fdroid/index.php"/>
+  <id>https://apt.izzysoft.de/fdroid/index.php</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>An additional F-Droid repository carrying apps that are open source but not in the official repo, each run through a privacy audit. Against the official repository it updates faster and publishes a tracker report.</summary>
+</entry>
+<entry>
+  <title>microStudio</title>
+  <link href="https://microstudio.dev/"/>
+  <id>https://microstudio.dev/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A complete game development environment in the browser: code editor, sprite drawing, map editor and sound generation together. Unlike Godot or Unity it installs nothing, so it works on a Chromebook — which makes it good for teaching.</summary>
+</entry>
+<entry>
+  <title>Open 3D Engine</title>
+  <link href="https://o3de.org/"/>
+  <id>https://o3de.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Amazon’s Lumberyard, handed to the Linux Foundation as an Apache 2.0 modular 3D engine. Heavier than Godot, but with a rendering pipeline closer to AAA scale — the open-source option for teams that want corporate backing.</summary>
+</entry>
+<entry>
+  <title>Unity</title>
+  <link href="https://unity.com/"/>
+  <id>https://unity.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A game engine scripted in C# that exports to more than fifteen platforms, from mobile to console. Lighter than Unreal and dominant on mobile — most indie games come out of it. Its licensing terms caused a public fight in 2023, so read the agreement.</summary>
+</entry>
+<entry>
+  <title>Unreal Engine</title>
+  <link href="https://www.unrealengine.com/en-US/"/>
+  <id>https://www.unrealengine.com/en-US/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>The engine behind AAA productions, offering real-time high-density geometry and global illumination through Nanite and Lumen. Against Unity it wins on visual ceiling and Blueprint visual scripting, and pays for it with heavier projects and a steeper climb.</summary>
+</entry>
+<entry>
+  <title>ThinMatrix</title>
+  <link href="https://www.youtube.com/user/ThinMatrix/videos"/>
+  <id>https://www.youtube.com/user/ThinMatrix/videos</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>An indie developer’s devlog alongside an OpenGL tutorial series. Unlike engine tutorials he writes the engine from scratch, which shows what sits underneath the abstraction.</summary>
+</entry>
+<entry>
+  <title>Rive (Flutter)</title>
+  <link href="https://rive.app/docs/runtimes/flutter/flutter"/>
+  <id>https://rive.app/docs/runtimes/flutter/flutter</id>
+  <updated>2026-08-01T23:24:59Z</updated>
+  <summary>Embeds vector animation into an app. Unlike Lottie the animation carries a state machine and reacts to user interaction, and the file size is markedly smaller.</summary>
+</entry>
+<entry>
+  <title>Electron</title>
+  <link href="https://www.electronjs.org/"/>
+  <id>https://www.electronjs.org/</id>
+  <updated>2026-04-29T17:07:52Z</updated>
+  <summary>Bundles Chromium and Node.js to ship desktop apps built with web technology. VS Code and Slack were built this way — and its memory footprint is criticised for the same reason.</summary>
+</entry>
+<entry>
+  <title>Electron Dokümantasyonu</title>
+  <link href="https://www.electronjs.org/docs/latest"/>
+  <id>https://www.electronjs.org/docs/latest</id>
+  <updated>2026-04-20T13:01:29Z</updated>
+  <summary>Reference for the main/renderer process split and the IPC between them. The contextIsolation and nodeIntegration settings are security-critical — leave the defaults alone.</summary>
+</entry>
+<entry>
+  <title>Expo</title>
+  <link href="https://docs.expo.dev/"/>
+  <id>https://docs.expo.dev/</id>
+  <updated>2026-04-20T13:01:29Z</updated>
+  <summary>Makes React Native developable without installing Xcode or Android Studio, with EAS building in the cloud. Adding native modules is no longer the obstacle it once was.</summary>
+</entry>
+<entry>
+  <title>Flutter</title>
+  <link href="https://docs.flutter.dev/learn"/>
+  <id>https://docs.flutter.dev/learn</id>
+  <updated>2026-04-20T13:01:28Z</updated>
+  <summary>Draws every pixel itself through Skia/Impeller rather than using platform widgets, so iOS and Android look identical. A strength if that is what you want, a problem if it is not.</summary>
+</entry>
+</feed>

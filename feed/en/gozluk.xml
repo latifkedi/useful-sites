@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title>Smart Glasses &amp; Wearables — Useful Sites</title>
+<subtitle>An annotated directory of links on software, AI, security and science. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/gozluk.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/gozluk.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/en/gozluk.xml</id>
+<updated>2026-08-13T10:31:33Z</updated>
+<entry>
+  <title>Meta Ray-Ban Display</title>
+  <link href="https://www.meta.com/tr/ai-glasses/meta-ray-ban-display-shiny-sand-transitions-and-neural-band-sand/"/>
+  <id>https://www.meta.com/tr/ai-glasses/meta-ray-ban-display-shiny-sand-transitions-and-neural-band-sand/</id>
+  <updated>2026-08-13T10:31:33Z</updated>
+  <summary>Meta’s display glasses controlled by an EMG wristband. A closed ecosystem, but a reference point for where the input method is heading.</summary>
+</entry>
+<entry>
+  <title>Brilliant Labs</title>
+  <link href="https://brilliant.xyz/"/>
+  <id>https://brilliant.xyz/</id>
+  <updated>2026-08-13T05:50:46Z</updated>
+  <summary>A glasses maker that publishes both hardware schematics and software — close to the only company in the sector selling a product while opening the design.</summary>
+</entry>
+<entry>
+  <title>Açık Kaynak Gözlük Yaptık</title>
+  <link href="https://www.youtube.com/watch?v=4ZY760EIUc4"/>
+  <id>https://www.youtube.com/watch?v=4ZY760EIUc4</id>
+  <updated>2026-08-11T20:19:11Z</updated>
+  <summary>A video on building open-source glasses that is honest about which parts are genuinely hard. Worth watching before committing to the project.</summary>
+</entry>
+<entry>
+  <title>Akıllı Gözlük Yapımı</title>
+  <link href="https://www.instructables.com/Smart-Glasses-V2/"/>
+  <id>https://www.instructables.com/Smart-Glasses-V2/</id>
+  <updated>2026-08-11T20:19:08Z</updated>
+  <summary>A step-by-step build starting from components rather than a kit. The optical combiner and power management sections are the hard parts.</summary>
+</entry>
+<entry>
+  <title>GitHub · ray-ban-meta</title>
+  <link href="https://github.com/topics/ray-ban-meta"/>
+  <id>https://github.com/topics/ray-ban-meta</id>
+  <updated>2026-08-11T20:19:06Z</updated>
+  <summary>Community projects around Ray-Ban Meta glasses. With no official SDK, the work here is mostly protocol analysis and unofficial bridges.</summary>
+</entry>
+<entry>
+  <title>Açık Kaynak Gözlük Yapımı</title>
+  <link href="https://github.com/Mentra-Community/OpenSourceSmartGlasses/wiki/How-to-build-the-Open-Source-Smart-Glasses/4f426a4923cd6265b6179954e8abb2e6308b893a"/>
+  <id>https://github.com/Mentra-Community/OpenSourceSmartGlasses/wiki/How-to-build-the-Open-Source-Smart-Glasses/4f426a4923cd6265b6179954e8abb2e6308b893a</id>
+  <updated>2026-08-11T20:18:43Z</updated>
+  <summary>A step-by-step build guide with a bill of materials and assembly order — exactly the level of detail that makes a project reproducible.</summary>
+</entry>
+<entry>
+  <title>Mentra Bluetooth SDK</title>
+  <link href="https://github.com/Mentra-Community/Mentra-Bluetooth-SDK-Starter-Kit"/>
+  <id>https://github.com/Mentra-Community/Mentra-Bluetooth-SDK-Starter-Kit</id>
+  <updated>2026-08-11T20:18:12Z</updated>
+  <summary>A starter kit for connecting to glasses over BLE from Android. GATT services and characteristics arrive defined, so you do not reverse-engineer the protocol yourself.</summary>
+</entry>
+<entry>
+  <title>MentraOS</title>
+  <link href="https://github.com/Mentra-Community/MentraOS"/>
+  <id>https://github.com/Mentra-Community/MentraOS</id>
+  <updated>2026-08-11T20:18:08Z</updated>
+  <summary>An open operating system for smart glasses unifying different vendors’ hardware under one app layer — aimed at the problem of writing a separate app per device.</summary>
+</entry>
+<entry>
+  <title>Omi</title>
+  <link href="https://github.com/BasedHardware/omi"/>
+  <id>https://github.com/BasedHardware/omi</id>
+  <updated>2026-08-11T20:18:06Z</updated>
+  <summary>A wearable that listens to conversations and summarises them, capturing context rather than vision. The ethics of always-on listening are a separate argument.</summary>
+</entry>
+<entry>
+  <title>OpenGlass</title>
+  <link href="https://github.com/BasedHardware/OpenGlass"/>
+  <id>https://github.com/BasedHardware/OpenGlass</id>
+  <updated>2026-08-11T20:18:04Z</updated>
+  <summary>Converts an existing pair of glasses by attaching a camera and board, on a parts list of roughly $25. Conversion rather than manufacture.</summary>
+</entry>
+<entry>
+  <title>Open Source Smart Glasses</title>
+  <link href="https://github.com/Mentra-Community/OpenSourceSmartGlasses"/>
+  <id>https://github.com/Mentra-Community/OpenSourceSmartGlasses</id>
+  <updated>2026-08-11T20:18:02Z</updated>
+  <summary>An all-day wearable open-source glasses design with schematics, PCB and software published — so unlike closed products you can see what it collects and where it sends it.</summary>
+</entry>
+<entry>
+  <title>GitHub · smart-glasses</title>
+  <link href="https://github.com/topics/smart-glasses"/>
+  <id>https://github.com/topics/smart-glasses</id>
+  <updated>2026-08-11T20:18:00Z</updated>
+  <summary>A live list of tagged open-source projects that stays current by itself, unlike curated lists — the way to catch new arrivals.</summary>
+</entry>
+<entry>
+  <title>HeyCyan Wi-Fi Aktarım Mimarisi</title>
+  <link href="https://github.com/ebowwa/HeyCyanSmartGlassesSDK/blob/main/WIFI_TRANSFER_ARCHITECTURE.md"/>
+  <id>https://github.com/ebowwa/HeyCyanSmartGlassesSDK/blob/main/WIFI_TRANSFER_ARCHITECTURE.md</id>
+  <updated>2026-08-11T20:17:58Z</updated>
+  <summary>A technical note on how media transfer from glasses to phone is structured — control over BLE, bulk data over Wi-Fi. A pattern directly applicable to similar devices.</summary>
+</entry>
+<entry>
+  <title>HeyCyan Web Köprüsü</title>
+  <link href="https://github.com/AdeelHamid/HeyCyan-Web-Bridge-App"/>
+  <id>https://github.com/AdeelHamid/HeyCyan-Web-Bridge-App</id>
+  <updated>2026-08-11T20:17:56Z</updated>
+  <summary>Connects the glasses to a browser over Web Bluetooth, so you can talk to the device without writing a native app — a fast route for prototyping.</summary>
+</entry>
+<entry>
+  <title>Alternatif HeyCyan Uygulaması</title>
+  <link href="https://github.com/FerSaiyan/Alternative-HeyCyan-App-and-SDK"/>
+  <id>https://github.com/FerSaiyan/Alternative-HeyCyan-App-and-SDK</id>
+  <updated>2026-08-11T20:17:19Z</updated>
+  <summary>An open-source alternative to the vendor app, aimed at unlocking restricted features and removing the cloud dependency.</summary>
+</entry>
+<entry>
+  <title>HeyCyan SDK</title>
+  <link href="https://github.com/ebowwa/HeyCyanSmartGlassesSDK"/>
+  <id>https://github.com/ebowwa/HeyCyanSmartGlassesSDK</id>
+  <updated>2026-08-11T20:17:12Z</updated>
+  <summary>A cross-platform SDK for HeyCyan glasses giving application-level control over photo, video and audio capture.</summary>
+</entry>
+<entry>
+  <title>Brilliant Labs Halo</title>
+  <link href="https://brilliant.xyz/products/halo"/>
+  <id>https://brilliant.xyz/products/halo</id>
+  <updated>2026-08-05T22:20:59Z</updated>
+  <summary>AI glasses where a developer can load their own applications — unlike closed ecosystems, the right to run code on the device is yours.</summary>
+</entry>
+<entry>
+  <title>Akıllı Gözlük İşletim Sistemleri</title>
+  <link href="https://dymesty.com/blogs/articles/smart-glasses-operating-system-guide"/>
+  <id>https://dymesty.com/blogs/articles/smart-glasses-operating-system-guide</id>
+  <updated>2026-08-05T22:20:55Z</updated>
+  <summary>A comparison of Horizon OS, Android XR and the rest. Which ecosystem to invest in is a decision that precedes hardware selection.</summary>
+</entry>
+<entry>
+  <title>Giyilebilir Yonga Setleri</title>
+  <link href="https://blog.imaginationtech.com/chipsets-for-smart-glasses-and-other-high-end-wearables/"/>
+  <id>https://blog.imaginationtech.com/chipsets-for-smart-glasses-and-other-high-end-wearables/</id>
+  <updated>2026-08-05T22:20:52Z</updated>
+  <summary>An article on the graphics-versus-power trade-off in high-end wearables. In display glasses, the GPU choice sets battery life directly.</summary>
+</entry>
+<entry>
+  <title>PSOC4 CAPSENSE Uygulama Notu</title>
+  <link href="https://www.infineon.com/assets/row/public/documents/30/42/infineon-an242193-smart-glasses-hmi-with-psoc4-capsense-applicationnotes-en.pdf"/>
+  <id>https://www.infineon.com/assets/row/public/documents/30/42/infineon-an242193-smart-glasses-hmi-with-psoc4-capsense-applicationnotes-en.pdf</id>
+  <updated>2026-08-05T22:20:46Z</updated>
+  <summary>An application note on adding touch control to a glasses temple, with circuit diagram and calibration parameters. Documentation this concrete is rarely public.</summary>
+</entry>
+<entry>
+  <title>RealMCU Akıllı Gözlük</title>
+  <link href="https://www.realmcu.com/en/Applications/Smart-Glasses"/>
+  <id>https://www.realmcu.com/en/Applications/Smart-Glasses</id>
+  <updated>2026-08-05T22:20:42Z</updated>
+  <summary>A vendor offering low-power glasses silicon aimed at simpler, cheaper devices than Qualcomm. For glasses that only show notifications, a Snapdragon is overkill.</summary>
+</entry>
+<entry>
+  <title>Qualcomm AI Glasses</title>
+  <link href="https://www.qualcomm.com/xr-vr-ar/applications/ai-glasses"/>
+  <id>https://www.qualcomm.com/xr-vr-ar/applications/ai-glasses</id>
+  <updated>2026-08-05T22:20:39Z</updated>
+  <summary>The official page for the Snapdragon AR platform found in most shipping glasses, holding the reference designs and power figures.</summary>
+</entry>
+<entry>
+  <title>Akıllı Gözlük Yonga Rehberi</title>
+  <link href="https://dymesty.com/blogs/articles/smart-glasses-processor-chip-guide"/>
+  <id>https://dymesty.com/blogs/articles/smart-glasses-processor-chip-guide</id>
+  <updated>2026-08-05T22:20:29Z</updated>
+  <summary>A comparison of processors and NPUs used in glasses, weighing power budget and thermal limits — in a frame the real constraint is heat, not compute.</summary>
+</entry>
+<entry>
+  <title>Even G2 Protokolü</title>
+  <link href="https://github.com/i-soxi/even-g2-protocol"/>
+  <id>https://github.com/i-soxi/even-g2-protocol</id>
+  <updated>2026-08-05T22:20:27Z</updated>
+  <summary>Reverse-engineering of the device’s BLE protocol — the only route to uses the official SDK does not permit.</summary>
+</entry>
+<entry>
+  <title>Awesome Even Realities G2</title>
+  <link href="https://github.com/pangoleen/awesome-even-realities-g2"/>
+  <id>https://github.com/pangoleen/awesome-even-realities-g2</id>
+  <updated>2026-08-05T22:20:20Z</updated>
+  <summary>A community resource collection for the G2, accumulating the tools and solved problems the official documentation does not cover.</summary>
+</entry>
+<entry>
+  <title>Even Realities (GitHub)</title>
+  <link href="https://github.com/even-realities"/>
+  <id>https://github.com/even-realities</id>
+  <updated>2026-08-05T22:20:16Z</updated>
+  <summary>The vendor’s official repositories and the primary source for the SDK and sample apps. A hardware maker publishing code is still the exception in this sector.</summary>
+</entry>
+<entry>
+  <title>Even Hub</title>
+  <link href="https://hub.evenrealities.com/?_gl=1*rku60w*_gcl_au*MTY2MjM2NDk0LjE3ODUwODM2MjY"/>
+  <id>https://hub.evenrealities.com/?_gl=1*rku60w*_gcl_au*MTY2MjM2NDk0LjE3ODUwODM2MjY</id>
+  <updated>2026-08-05T22:20:04Z</updated>
+  <summary>The vendor’s developer hub, holding app development resources and API documentation.</summary>
+</entry>
+<entry>
+  <title>Even Realities · Çerçeve Seçimi</title>
+  <link href="https://www.evenrealities.com/smart-glasses/selection"/>
+  <id>https://www.evenrealities.com/smart-glasses/selection</id>
+  <updated>2026-08-05T22:17:02Z</updated>
+  <summary>Frame and prescription lens options — the part that decides whether the glasses actually get worn daily, more than the technology does.</summary>
+</entry>
+<entry>
+  <title>Even Realities G2</title>
+  <link href="https://www.evenrealities.com/smart-glasses"/>
+  <id>https://www.evenrealities.com/smart-glasses</id>
+  <updated>2026-08-05T22:16:41Z</updated>
+  <summary>Everyday glasses with a display and deliberately no camera. The omission is a decision rather than a shortfall — it addresses the social acceptance problem head on.</summary>
+</entry>
+</feed>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
+<title>YZ · Agent &amp; Altyapı — Kullanışlı Siteler</title>
+<subtitle>Yazılım, yapay zeka, güvenlik ve bilim üzerine açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/yz_altyapi.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/yz_altyapi.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/yz_altyapi.xml</id>
+<updated>2026-08-21T20:53:20Z</updated>
+<entry>
+  <title>PromptLayer</title>
+  <link href="https://promptlayer.com/"/>
+  <id>https://promptlayer.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>LLM istemlerini sürümleyen, kaydeden ve değerlendiren platform; hangi istemin hangi çıktıyı ürettiği izlenebiliyor. Genel APM araçlarından farkı istemi birinci sınıf nesne sayması — istem değişikliğini kod dağıtımından ayırıp ürün ekibine açıyor.</summary>
+</entry>
+<entry>
+  <title>whisper.cpp</title>
+  <link href="https://github.com/ggml-org/whisper.cpp"/>
+  <id>https://github.com/ggml-org/whisper.cpp</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>OpenAI Whisper konuşma tanıma modelinin bağımlılıksız C/C++ uyarlaması; CPU’da bile makul hızda çalışıyor. Python sürümünden farkı kurulum yükünün olmaması ve tek ikili dosyaya derlenebilmesi — gömülü cihaza bile giriyor.</summary>
+</entry>
+<entry>
+  <title>last30days</title>
+  <link href="https://github.com/mvanhorn/last30days-skill"/>
+  <id>https://github.com/mvanhorn/last30days-skill</id>
+  <updated>2026-08-19T22:59:37Z</updated>
+  <summary>Bir konuda son otuz günün Reddit, X ve YouTube içeriğini tarayan yetenek. Modelin eğitim kesim tarihiyle bugün arasındaki boşluğu kapatmak için.</summary>
+</entry>
+<entry>
+  <title>Agno</title>
+  <link href="https://www.agno.com/"/>
+  <id>https://www.agno.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Bellek, araç ve bilgi tabanı desteği çekirdeğe gömülü; ek soyutlama katmanı yok. Agent örnekleme süresi mikrosaniye mertebesinde olduğu için çok agent’lı senaryolarda hafif kalıyor.</summary>
+</entry>
+<entry>
+  <title>Arize Phoenix</title>
+  <link href="https://phoenix.arize.com/"/>
+  <id>https://phoenix.arize.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Not defterinin içinde çalışıp izleri yerelde gösteriyor. Gömme uzayını görselleştirip alma hatasının nereden geldiğini kümelenmeye bakarak buldurabiliyor.</summary>
+</entry>
+<entry>
+  <title>AWS Bedrock Agents</title>
+  <link href="https://aws.amazon.com/bedrock/agents/"/>
+  <id>https://aws.amazon.com/bedrock/agents/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Agent tanımı, araç şeması ve bilgi tabanı AWS konsolundan yapılandırılıyor; çalışma zamanını AWS işletiyor. Kendi çatını işletmemenin bedeli, akışın AWS’in belirlediği kalıba sığması.</summary>
+</entry>
+<entry>
+  <title>AWS Bedrock Guardrails</title>
+  <link href="https://aws.amazon.com/bedrock/guardrails/"/>
+  <id>https://aws.amazon.com/bedrock/guardrails/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>İçerik filtresi, yasaklı konu listesi ve kişisel veri maskeleme; Bedrock dışındaki modellere de bağımsız API olarak uygulanabiliyor.</summary>
+</entry>
+<entry>
+  <title>AWS Strands Agents</title>
+  <link href="https://strandsagents.com/"/>
+  <id>https://strandsagents.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Akışı elle kurmuyorsun: modele araç listesini veriyorsun, planlamayı o yapıyor. Az kod isteyen bir yaklaşım, karşılığında hata ayıklarken kararın nereden geldiğini izlemek zorlaşıyor.</summary>
+</entry>
+<entry>
+  <title>Azure AI Content Safety</title>
+  <link href="https://azure.microsoft.com/products/ai-services/ai-content-safety"/>
+  <id>https://azure.microsoft.com/products/ai-services/ai-content-safety</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Metin ve görseli dört zarar kategorisinde önem derecesiyle puanlayan sınıflandırıcı. Eşikleri kendin ayarlıyorsun; kendi moderasyon modelini eğitmeye alternatif.</summary>
+</entry>
+<entry>
+  <title>Azure AI Foundry</title>
+  <link href="https://learn.microsoft.com/azure/ai-foundry/"/>
+  <id>https://learn.microsoft.com/azure/ai-foundry/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Model kataloğu, agent servisi, değerlendirme ve içerik filtresi tek portalda. Uyumluluk ve bölge denetimi gerektiren kurumsal dağıtımlar için toplanmış bir yığın.</summary>
+</entry>
+<entry>
+  <title>Azure OpenAI Service</title>
+  <link href="https://learn.microsoft.com/azure/ai-services/openai/"/>
+  <id>https://learn.microsoft.com/azure/ai-services/openai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>OpenAI modelleri, Azure’un bölge seçimi ve özel ağ desteğiyle. Model sürümleri OpenAI’dan geriden geliyor; uyumluluk kazancının bedeli bu gecikme.</summary>
+</entry>
+<entry>
+  <title>CAMEL-AI</title>
+  <link href="https://www.camel-ai.org/"/>
+  <id>https://www.camel-ai.org/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Rol oynayan agent’ların birbirini yönlendirdiği toplum simülasyonu üzerine araştırma çatısı. Ölçekli deney ve sentetik veri üretimi için elverişli, ürün altyapısı olarak değil.</summary>
+</entry>
+<entry>
+  <title>Composio</title>
+  <link href="https://composio.dev/"/>
+  <id>https://composio.dev/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Bin küsur uygulama için hazır araç tanımı ve devredilmiş OAuth akışı sağlıyor. Her SaaS için kimlik doğrulama yazmak yerine yetkilendirmeyi ona devrediyorsun.</summary>
+</entry>
+<entry>
+  <title>CrewAI</title>
+  <link href="https://www.crewai.com/"/>
+  <id>https://www.crewai.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Her agent’a rol, hedef ve arka plan veriyorsun; görevler sıralı ya da hiyerarşik olarak dağıtılıyor. Kavramsal olarak sade ama akış üzerinde LangGraph kadar ince denetim vermiyor.</summary>
+</entry>
+<entry>
+  <title>DSPy</title>
+  <link href="https://dspy.ai/"/>
+  <id>https://dspy.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>İstem metni yazmıyorsun; giriş-çıkış imzası tanımlıyor, örnek veri veriyorsun, optimizer istemleri ve few-shot örneklerini kendisi üretiyor. Prompt ayarını derleyiciye devreden bir yaklaşım.</summary>
+</entry>
+<entry>
+  <title>FastMCP</title>
+  <link href="https://gofastmcp.com/"/>
+  <id>https://gofastmcp.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Dekoratörle fonksiyon işaretleyip MCP aracına çeviriyorsun; şema tip ipuçlarından üretiliyor. Ham SDK’da elle yazdığın kalıp kodun neredeyse tamamını siliyor.</summary>
+</entry>
+<entry>
+  <title>GitHub MCP Server</title>
+  <link href="https://github.com/github/github-mcp-server"/>
+  <id>https://github.com/github/github-mcp-server</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Depo, konu, PR ve Actions işlemlerini araç olarak açan resmî sunucu. İnce taneli izin kapsamı seçilebiliyor, yani asistana yalnızca okuma yetkisi verebilirsin.</summary>
+</entry>
+<entry>
+  <title>Guardrails AI</title>
+  <link href="https://www.guardrailsai.com/"/>
+  <id>https://www.guardrailsai.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Çıktıyı şema ve doğrulayıcı zincirine sokuyor; başarısız olursa yeniden deniyor ya da düzeltiyor. NeMo diyaloğu tutuyor, bu ise üretilen metnin biçim ve içeriğini.</summary>
+</entry>
+<entry>
+  <title>Helicone</title>
+  <link href="https://www.helicone.ai/"/>
+  <id>https://www.helicone.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Taban URL’yi değiştirmen yeterli; istekler üzerinden geçerken kaydediliyor. Kod değişikliği istememesi, mevcut bir projeye sonradan takmayı kolaylaştırıyor.</summary>
+</entry>
+<entry>
+  <title>Lakera Guard</title>
+  <link href="https://www.lakera.ai/"/>
+  <id>https://www.lakera.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>İstem enjeksiyonu ve jailbreak tespitine odaklı API. Saldırı örüntülerini Gandalf adlı oyunlaştırılmış deneyden toplanan gerçek veriyle besliyor.</summary>
+</entry>
+<entry>
+  <title>LangChain</title>
+  <link href="https://www.langchain.com/"/>
+  <id>https://www.langchain.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Model, vektör deposu ve araç sağlayıcıları ortak arayüz altında toplayan çatı. Entegrasyon sayısı en büyük kozu; soyutlama katmanının kalınlığı da en sık gelen şikâyet.</summary>
+</entry>
+<entry>
+  <title>LangChain Agents (öğretici)</title>
+  <link href="https://python.langchain.com/docs/tutorials/agents/"/>
+  <id>https://python.langchain.com/docs/tutorials/agents/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Araç tanımlama, model bağlama ve döngüyü kurma adımlarını sırayla gösteren resmî başlangıç. Araç çağırma protokolünün nasıl işlediğini görmek için en kısa yol.</summary>
+</entry>
+<entry>
+  <title>Langfuse</title>
+  <link href="https://langfuse.com/"/>
+  <id>https://langfuse.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Çatı bağımsız izleme ve değerlendirme; OpenTelemetry uyumlu. Kendi sunucunda çalıştırabildiğin için istem ve yanıt verisi dışarı çıkmıyor.</summary>
+</entry>
+<entry>
+  <title>LangSmith</title>
+  <link href="https://smith.langchain.com/"/>
+  <id>https://smith.langchain.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Her zincir adımının girdi, çıktı, gecikme ve jeton sayısını ayrı ayrı gösteriyor. LangChain’e bağlı değil ama en sıkı entegrasyonu orada.</summary>
+</entry>
+<entry>
+  <title>LlamaIndex Workflows</title>
+  <link href="https://docs.llamaindex.ai/en/stable/module_guides/workflow/"/>
+  <id>https://docs.llamaindex.ai/en/stable/module_guides/workflow/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Adımların olay yayıp olay dinlediği asenkron bir çalışma zamanı. Graf kurmak yerine `@step` ile fonksiyon işaretliyorsun; paralel dallar doğal şekilde çıkıyor.</summary>
+</entry>
+<entry>
+  <title>MCP Registry</title>
+  <link href="https://registry.modelcontextprotocol.io/"/>
+  <id>https://registry.modelcontextprotocol.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Resmî sunucu kayıt defteri; makine tarafından okunabilir olduğu için istemciler kurulumu otomatikleştirebiliyor. Dağınık GitHub listelerinin yerini almak üzere kuruldu.</summary>
+</entry>
+<entry>
+  <title>MCP Sunucu Koleksiyonu</title>
+  <link href="https://github.com/modelcontextprotocol/servers"/>
+  <id>https://github.com/modelcontextprotocol/servers</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Dosya sistemi, PostgreSQL, Slack, Git ve fetch için referans uygulamalar. Kendi sunucunu yazmadan önce protokolün nasıl kullanıldığını buradan okumak en hızlısı.</summary>
+</entry>
+<entry>
+  <title>Microsoft Agent Framework</title>
+  <link href="https://learn.microsoft.com/en-us/agent-framework/"/>
+  <id>https://learn.microsoft.com/en-us/agent-framework/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>AutoGen’in deney tarafıyla Semantic Kernel’in kurumsal tarafını tek çatıda birleştiren yeni hat. Azure kimlik doğrulama ve izleme altyapısına baştan bağlı geliyor.</summary>
+</entry>
+<entry>
+  <title>Microsoft AutoGen</title>
+  <link href="https://microsoft.github.io/autogen/"/>
+  <id>https://microsoft.github.io/autogen/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Agent’lar bir grup sohbetinde konuşarak iş çözüyor; konuşma sırasını bir yönetici agent belirliyor. Araştırma kökenli, bu yüzden API’si sürümler arasında sertçe değişebiliyor.</summary>
+</entry>
+<entry>
+  <title>Microsoft Presidio</title>
+  <link href="https://microsoft.github.io/presidio/"/>
+  <id>https://microsoft.github.io/presidio/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Metin ve görselde kişisel veriyi (TC kimlik, IBAN, e-posta gibi) tanıyıp maskeliyor. Tanıyıcılar özelleştirilebilir; modele veri göndermeden önceki anonimleştirme adımı için.</summary>
+</entry>
+<entry>
+  <title>Model Context Protocol</title>
+  <link href="https://modelcontextprotocol.io/"/>
+  <id>https://modelcontextprotocol.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>JSON-RPC üzerine kurulu, modellere araç ve veri kaynağı açmak için açık protokol. Sunucuyu bir kez yazıyorsun, MCP konuşan her istemci onu kullanabiliyor.</summary>
+</entry>
+<entry>
+  <title>NeMo Guardrails</title>
+  <link href="https://github.com/NVIDIA/NeMo-Guardrails"/>
+  <id>https://github.com/NVIDIA/NeMo-Guardrails</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Colang adlı bir DSL ile izin verilen konuşma akışlarını tanımlıyorsun. Denetim çıktının içeriğinde değil diyaloğun gidişatında; konu sapmasını girişte kesiyor.</summary>
+</entry>
+<entry>
+  <title>OpenAI Agents SDK</title>
+  <link href="https://openai.github.io/openai-agents-python/"/>
+  <id>https://openai.github.io/openai-agents-python/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Dört kavramla yetiniyor: agent, araç, devretme (handoff) ve koruma bandı. İzleme (tracing) kutudan çıkıyor; öğrenme eğrisi çatıların en düşüğü.</summary>
+</entry>
+<entry>
+  <title>Prompt Engineering Guide</title>
+  <link href="https://www.promptingguide.ai/"/>
+  <id>https://www.promptingguide.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>İstem mühendisliği tekniklerini akademik kaynaklara dayandırarak toplayan rehber: düşünce zinciri, az örnekli öğrenme, RAG. Blog yazılarından farkı her tekniğin makale atfıyla gelmesi — iddia ile bulgu ayrışıyor.</summary>
+</entry>
+<entry>
+  <title>Prompt Security</title>
+  <link href="https://www.prompt.security/"/>
+  <id>https://www.prompt.security/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Çalışanların hangi YZ aracına ne veri gönderdiğini görünür kılıyor ve politikaya göre engelliyor. Gölge YZ kullanımını ölçmek isteyen kurumlar için.</summary>
+</entry>
+<entry>
+  <title>Promptfoo</title>
+  <link href="https://www.promptfoo.dev/"/>
+  <id>https://www.promptfoo.dev/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>İstem ve modelleri YAML’de tanımlanmış test kümesine karşı yan yana koşuyor. Model sürümü değiştiğinde çıktının bozulup bozulmadığını CI adımında yakalıyor.</summary>
+</entry>
+<entry>
+  <title>Protect AI</title>
+  <link href="https://protectai.com/"/>
+  <id>https://protectai.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Model dosyalarını zararlı yük için tarıyor — pickle serileştirmesi keyfî kod çalıştırabildiği için indirilen bir checkpoint gerçek bir saldırı yüzeyi.</summary>
+</entry>
+<entry>
+  <title>Pydantic AI</title>
+  <link href="https://ai.pydantic.dev/"/>
+  <id>https://ai.pydantic.dev/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Model çıktısını Pydantic şemasına göre doğruluyor, uymazsa modele geri gönderip düzelttiriyor. Sonuçta serbest metin değil, tipi garanti edilmiş bir nesne alıyorsun.</summary>
+</entry>
+<entry>
+  <title>Semantic Kernel</title>
+  <link href="https://learn.microsoft.com/semantic-kernel/"/>
+  <id>https://learn.microsoft.com/semantic-kernel/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>C#, Python ve Java için tek API sunan agent SDK’sı. Kurumsal .NET yığınında yaşıyorsan Python ağırlıklı alternatiflerden çok daha az sürtünme çıkarıyor.</summary>
+</entry>
+<entry>
+  <title>W&amp;B Weave</title>
+  <link href="https://wandb.ai/site/weave/"/>
+  <id>https://wandb.ai/site/weave/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Weights &amp; Biases’ın LLM tarafı. Zaten W&amp;B ile eğitim izliyorsan, çıkarım izleri de aynı proje altında toplanıyor.</summary>
+</entry>
+</feed>

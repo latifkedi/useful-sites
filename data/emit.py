@@ -96,7 +96,7 @@ PAGE = """<!doctype html>
 <meta property="og:url" content="{canon}">
 <meta property="og:image" content="{site}/og.png">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="alternate" type="application/atom+xml" title="{site_name}" href="{site}/feed.xml">
+<link rel="alternate" type="application/atom+xml" title="{feed_title}" href="{feed_url}">
 <link rel="alternate" hreflang="tr" href="{alt_tr}">
 <link rel="alternate" hreflang="en" href="{alt_en}">
 <link rel="alternate" hreflang="x-default" href="{alt_tr}">
@@ -175,6 +175,8 @@ base-uri 'none'; form-action 'none'">
 .hub a{{font:600 18px/1.3 var(--serif);text-decoration:none}}
 .hub a:hover{{color:var(--accent)}}
 .hub .c{{font:12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--faint);margin-left:8px}}
+.hub .f{{font:11.5px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--faint);text-decoration:none;margin-left:10px;border-bottom:1px dotted var(--rule)}}
+.hub .f:hover{{color:var(--accent);border-bottom-color:var(--accent)}}
 .hub p{{margin:5px 0 0;color:var(--dim);font-size:15px;line-height:1.6;max-width:70ch}}</style>
 </head>
 <body>
@@ -221,6 +223,7 @@ LANGS = {
         'code': 'tr', 'li': 0, 'ci': 1, 'dir': '', 'fonts': '../fonts',
         'name': 'Kullanışlı Siteler', 'links': 'bağlantı', 'cats': 'başlık',
         'app_link': '← Aranabilir sürüme dön',
+        'feed_word': 'akış', 'feed_tip': 'Bu başlığın Atom akışı',
         'hub_desc': ('Yazılım, yapay zeka, güvenlik ve bilim üzerine açıklamalı '
                      'bağlantı dizini. Her kayıtta ne işe yaradığı ve '
                      'benzerlerinden nerede ayrıldığı yazılı.'),
@@ -234,6 +237,7 @@ LANGS = {
         'code': 'en', 'li': 1, 'ci': 2, 'dir': 'en/', 'fonts': '../../fonts',
         'name': 'Useful Sites', 'links': 'links', 'cats': 'headings',
         'app_link': '← Back to the searchable version',
+        'feed_word': 'feed', 'feed_tip': 'Atom feed for this heading',
         'hub_desc': ('An annotated directory of links on software, AI, security '
                      'and science. Every entry states what the resource does and '
                      'where it parts ways with its neighbours.'),
@@ -286,6 +290,8 @@ def write_all(core, cats, intros, taglbl, out_dir, en_desc):
                         home=SITE + '/', intro=esc(intro),
                         style=STYLE.replace('__F__', L['fonts']),
                         count=len(rows), word_links=esc(L['links']), key=esc(k),
+                        feed_title=esc('%s — %s' % (label[k], L['name'])),
+                        feed_url='%s/feed/%s%s.xml' % (SITE, L['dir'], k),
                         alt_tr='%s/k/%s.html' % (SITE, k),
                         alt_en='%s/k/en/%s.html' % (SITE, k),
                         items='\n'.join(items), others=others,
@@ -295,6 +301,7 @@ def write_all(core, cats, intros, taglbl, out_dir, en_desc):
                 written.append(k)
 
     _hubs(core, cats, intros, out_dir)
+    _cat_feeds(core, cats, en_desc, out_dir)
     _sitemap(written, out_dir)
     _robots(out_dir)
     _feed(core, dict((c[0], c[1]) for c in cats), out_dir)
@@ -321,10 +328,14 @@ def _hubs(core, cats, intros, out_dir):
             if not say.get(k):
                 continue
             intro = (intros.get(k) or ('', ''))[L['li']]
+            # Her basligin kendi akisi var; abonelik konuya inebilsin diye
+            # dizinde de gorunuyor, yoksa yalnizca sayfa kaynaginda kalirdi.
             satir.append(
                 '<li><a href="%s.html">%s</a><span class="c">%d</span>'
+                '<a class="f" href="../feed/%s%s.xml" title="%s">%s</a>'
                 '<p>%s</p></li>'
-                % (esc(k), esc(label[k]), say[k], esc(intro)))
+                % (esc(k), esc(label[k]), say[k], esc(L['dir']), esc(k),
+                   esc(L['feed_tip']), esc(L['feed_word']), esc(intro)))
         canon = '%s/k/%sindex.html' % (SITE, L['dir'])
         io.open(os.path.join(out_dir, 'k', L['dir'].strip('/'), 'index.html')
                 if L['dir'] else os.path.join(out_dir, 'k', 'index.html'),
@@ -390,6 +401,62 @@ def _robots(out_dir):
     io.open(os.path.join(out_dir, 'robots.txt'), 'w',
             encoding='utf-8', newline='\n').write(
         'User-agent: *\nAllow: /\n\nSitemap: %s/sitemap.xml\n' % SITE)
+
+
+def _atom(baslik, altbaslik, self_url, alt_url, rows, en_desc, L):
+    """Tek bir Atom akisi. rows: [(indeks, kayit)], zaten sirali gelir."""
+    now = _iso(rows[0][1].get('added', 0) if rows else 0)
+    parts = ['<?xml version="1.0" encoding="UTF-8"?>',
+             '<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="%s">' % L['code'],
+             '<title>%s</title>' % esc(baslik),
+             '<subtitle>%s</subtitle>' % esc(altbaslik),
+             '<link href="%s" rel="self"/>' % esc(self_url),
+             '<link href="%s"/>' % esc(alt_url),
+             '<id>%s</id>' % esc(self_url),
+             '<updated>%s</updated>' % now]
+    for i, d in rows:
+        metin = en_desc[i] if L['li'] == 1 and en_desc and i < len(en_desc) else d['tr']
+        parts.append(
+            '<entry>\n'
+            '  <title>%s</title>\n'
+            '  <link href="%s"/>\n'
+            '  <id>%s</id>\n'
+            '  <updated>%s</updated>\n'
+            '  <summary>%s</summary>\n'
+            '</entry>' % (esc(d['name']), esc(d['url']), esc(d['url']),
+                          _iso(d.get('added', 0)), esc(metin)))
+    parts.append('</feed>')
+    return '\n'.join(parts) + '\n'
+
+
+def _cat_feeds(core, cats, en_desc, out_dir):
+    """Kategori basina akis.
+
+    Tek bir kuresel akis, yalnizca guvenlik baglantilarini takip etmek isteyen
+    birine her seyi gonderiyordu. Yirmi dort kucuk akis, aboneligi konuya
+    indirgiyor -- dizine geri donmenin en dusuk surtunmeli yolu bu.
+    """
+    by_cat = {}
+    for i, d in enumerate(core):
+        by_cat.setdefault(d['cat'], []).append((i, d))
+
+    n = 0
+    for lang, L in sorted(LANGS.items()):
+        fdir = os.path.join(out_dir, 'feed', L['dir'].strip('/')) if L['dir'] \
+            else os.path.join(out_dir, 'feed')
+        if not os.path.isdir(fdir):
+            os.makedirs(fdir)
+        label = dict((c[0], c[L['ci']]) for c in cats)
+        for k, rows in by_cat.items():
+            rows = sorted(rows, key=lambda t: -t[1].get('added', 0))[:FEED_N]
+            io.open(os.path.join(fdir, k + '.xml'), 'w',
+                    encoding='utf-8', newline='\n').write(_atom(
+                        '%s — %s' % (label[k], L['name']), L['hub_desc'],
+                        '%s/feed/%s%s.xml' % (SITE, L['dir'], k),
+                        '%s/k/%s%s.html' % (SITE, L['dir'], k),
+                        rows, en_desc, L))
+            n += 1
+    return n
 
 
 def _feed(core, label, out_dir):

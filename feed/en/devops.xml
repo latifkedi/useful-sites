@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title>DevOps &amp; Infrastructure — Useful Sites</title>
+<subtitle>An annotated directory of links on software, AI, security and science. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/devops.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/devops.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/en/devops.xml</id>
+<updated>2026-08-21T20:53:20Z</updated>
+<entry>
+  <title>Cronmaster</title>
+  <link href="https://github.com/fccview/cronmaster"/>
+  <id>https://github.com/fccview/cronmaster</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A self-hosted web interface for cron jobs that renders expressions in readable form and keeps a run log. Against `crontab -e` it shows the next run time and the last output, which makes silently failing jobs visible.</summary>
+</entry>
+<entry>
+  <title>Crontab Generator</title>
+  <link href="https://crontab-generator.org/"/>
+  <id>https://crontab-generator.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Builds a cron expression from a form and states in words when it will fire. Against crontab.guru it runs the other way: instead of decoding an expression, it produces one from the schedule you describe.</summary>
+</entry>
+<entry>
+  <title>FromLatest</title>
+  <link href="https://www.fromlatest.io/"/>
+  <id>https://www.fromlatest.io/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Analyses a Dockerfile, explains what happens layer by layer and suggests improvements. Against hadolint it is visual and states why each rule exists, which makes it usable for learning to write Dockerfiles rather than only linting them.</summary>
+</entry>
+<entry>
+  <title>K8s YAML Generator</title>
+  <link href="https://k8syaml.com/"/>
+  <id>https://k8syaml.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Generates Kubernetes manifests from a form, explaining each field beside it. Against copying from the docs you leave with a valid manifest and pick up what the fields mean on the way.</summary>
+</entry>
+<entry>
+  <title>ShellCheck</title>
+  <link href="https://www.shellcheck.net/"/>
+  <id>https://www.shellcheck.net/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A static analyser for shell scripts that finds unquoted variables, wrong test syntax and portability traps. Against `bash -n` it checks meaning rather than syntax, so it catches the script that runs and misbehaves.</summary>
+</entry>
+<entry>
+  <title>YAMLlint</title>
+  <link href="https://www.yamllint.com/"/>
+  <id>https://www.yamllint.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A YAML validator that surfaces indentation and quoting errors and prints the parsed document back. Against a JSON validator it catches YAML’s actual trap: indentation that silently produces the wrong structure.</summary>
+</entry>
+<entry>
+  <title>Njalla</title>
+  <link href="https://njal.la/"/>
+  <id>https://njal.la/</id>
+  <updated>2026-08-19T16:10:10Z</updated>
+  <summary>Registers the domain in its own name on your behalf, so you do not appear in WHOIS. Unlike a privacy proxy the legal ownership sits with them, which makes it a question of trust.</summary>
+</entry>
+<entry>
+  <title>AlexHost</title>
+  <link href="https://alexhost.com/"/>
+  <id>https://alexhost.com/</id>
+  <updated>2026-08-19T16:10:01Z</updated>
+  <summary>Moldova-based hosting chosen for a different jurisdiction and looser content policy — which also raises the question of who your neighbours are.</summary>
+</entry>
+<entry>
+  <title>AvenaCloud</title>
+  <link href="https://avenacloud.com/"/>
+  <id>https://avenacloud.com/</id>
+  <updated>2026-08-19T16:09:22Z</updated>
+  <summary>A VPS and dedicated server provider positioned on budget for small-scale projects.</summary>
+</entry>
+<entry>
+  <title>Amazon Web Services</title>
+  <link href="https://aws.amazon.com/"/>
+  <id>https://aws.amazon.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The cloud with the widest service range. The breadth is an advantage, while cost tracking is its own discipline — egress charges in particular catch people out.</summary>
+</entry>
+<entry>
+  <title>Apache Airflow</title>
+  <link href="https://airflow.apache.org/"/>
+  <id>https://airflow.apache.org/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>You define DAGs in Python and schedule them. The de facto standard for batch data pipelines, and clumsy for event-driven, low-latency work.</summary>
+</entry>
+<entry>
+  <title>Coder</title>
+  <link href="https://coder.com"/>
+  <id>https://coder.com</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Runs development environments as containers on your own infrastructure, reached from a VS Code or JetBrains client. Against GitHub Codespaces it is not tied to a cloud provider — both the compute and the code stay with you.</summary>
+</entry>
+<entry>
+  <title>Kestra</title>
+  <link href="https://kestra.io/"/>
+  <id>https://kestra.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Flows are declared in YAML, and being language-agnostic it works for teams that are not on Python. It sits well in version control.</summary>
+</entry>
+<entry>
+  <title>Make</title>
+  <link href="https://www.make.com/"/>
+  <id>https://www.make.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Scenarios carry branching, loops and error handling, which makes complex flows easier than Zapier’s linear steps. The learning curve is correspondingly steeper.</summary>
+</entry>
+<entry>
+  <title>n8n</title>
+  <link href="https://n8n.io/"/>
+  <id>https://n8n.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A visual node editor with unmetered executions when self-hosted. You can drop JavaScript into a node, so you do not hit the usual no-code wall.</summary>
+</entry>
+<entry>
+  <title>Pipedream</title>
+  <link href="https://pipedream.com/"/>
+  <id>https://pipedream.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Any step can be Node.js or Python and can pull an npm or PyPI package. The option that closes the gap between visual automation and real code.</summary>
+</entry>
+<entry>
+  <title>Power Automate</title>
+  <link href="https://www.microsoft.com/power-platform/products/power-automate"/>
+  <id>https://www.microsoft.com/power-platform/products/power-automate</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>SharePoint, Teams and Dataverse connectors are native. If the organisation is already on Microsoft 365 the licence is usually paid for — which is the real reason it gets chosen.</summary>
+</entry>
+<entry>
+  <title>Prefect</title>
+  <link href="https://www.prefect.io/"/>
+  <id>https://www.prefect.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A flow is an ordinary Python function you decorate into orchestration. Moving local code to production is shorter than learning Airflow’s separate DSL.</summary>
+</entry>
+<entry>
+  <title>Temporal</title>
+  <link href="https://temporal.io/"/>
+  <id>https://temporal.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Records workflow state as an event history, so a crashed process resumes at the same point. Built for multi-day operations that cannot simply be restarted.</summary>
+</entry>
+<entry>
+  <title>Zapier</title>
+  <link href="https://zapier.com/"/>
+  <id>https://zapier.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The widest integration catalogue — the niche SaaS you want is probably already there. Pricing is per task, so it gets expensive quickly as volume grows.</summary>
+</entry>
+<entry>
+  <title>Güzel Hosting</title>
+  <link href="https://www.guzel.net.tr/"/>
+  <id>https://www.guzel.net.tr/</id>
+  <updated>2026-07-26T14:04:14Z</updated>
+  <summary>Turkey-based hosting and domains with .tr registration, local payment and Turkish support — practical when the server has to sit in Turkey.</summary>
+</entry>
+<entry>
+  <title>LiteSpeed</title>
+  <link href="https://www.litespeedtech.com/"/>
+  <id>https://www.litespeedtech.com/</id>
+  <updated>2026-07-26T10:12:36Z</updated>
+  <summary>A commercial server that reads Apache configuration as-is while using an event-driven core and fewer resources. Common in WordPress hosting alongside its cache plugin.</summary>
+</entry>
+<entry>
+  <title>Sentry</title>
+  <link href="https://sentry.io/welcome/"/>
+  <id>https://sentry.io/welcome/</id>
+  <updated>2026-07-03T12:16:14Z</updated>
+  <summary>Collects errors with stack traces, source maps and user context, grouping duplicates. Against reading log files, it tells you how many users a given error actually hit.</summary>
+</entry>
+<entry>
+  <title>Hetzner</title>
+  <link href="https://www.hetzner.com/"/>
+  <id>https://www.hetzner.com/</id>
+  <updated>2026-07-02T15:53:11Z</updated>
+  <summary>Dedicated servers and VPS in Germany and Finland at a fraction of the big clouds’ price for the same cores and RAM. No managed services — operations are entirely yours.</summary>
+</entry>
+<entry>
+  <title>Vercel</title>
+  <link href="https://vercel.com/"/>
+  <id>https://vercel.com/</id>
+  <updated>2026-06-25T06:45:27Z</updated>
+  <summary>Frontend-focused deployment whose per-PR preview environments became an industry standard. It is the company behind Next.js, so integration with that framework is tightest here.</summary>
+</entry>
+<entry>
+  <title>Celery</title>
+  <link href="https://docs.celeryq.dev/en/stable/"/>
+  <id>https://docs.celeryq.dev/en/stable/</id>
+  <updated>2026-04-20T13:01:28Z</updated>
+  <summary>The standard for background tasks in Python, using Redis or RabbitMQ as a broker, with scheduled tasks (beat) and retry logic included.</summary>
+</entry>
+<entry>
+  <title>Apache Kafka</title>
+  <link href="https://kafka.apache.org/42/getting-started/introduction/"/>
+  <id>https://kafka.apache.org/42/getting-started/introduction/</id>
+  <updated>2026-04-20T13:01:27Z</updated>
+  <summary>Retains messages after consumption, with consumers carrying their own offsets so they can replay history. That durability is the real split from classic queues.</summary>
+</entry>
+<entry>
+  <title>RabbitMQ Öğreticileri</title>
+  <link href="https://www.rabbitmq.com/tutorials"/>
+  <id>https://www.rabbitmq.com/tutorials</id>
+  <updated>2026-04-20T13:01:27Z</updated>
+  <summary>The official six-step series on queue patterns — work queues, pub/sub, routing, RPC. Kafka is for event streaming; this is for task distribution.</summary>
+</entry>
+<entry>
+  <title>n8n Dokümantasyonu</title>
+  <link href="https://docs.n8n.io/"/>
+  <id>https://docs.n8n.io/</id>
+  <updated>2026-04-20T13:01:26Z</updated>
+  <summary>Node reference, self-hosting and credential management. The queue-mode scaling section matters for anyone running it in production.</summary>
+</entry>
+<entry>
+  <title>Redis Dokümantasyonu</title>
+  <link href="https://redis.io/docs/latest/"/>
+  <id>https://redis.io/docs/latest/</id>
+  <updated>2026-04-20T13:01:26Z</updated>
+  <summary>The reference for its data structures — lists, sets, sorted sets, streams. Treating Redis as a plain key-value store means leaving most of the tool unused.</summary>
+</entry>
+<entry>
+  <title>LiteSpeed Dokümantasyonu</title>
+  <link href="https://docs.litespeedtech.com/"/>
+  <id>https://docs.litespeedtech.com/</id>
+  <updated>2026-04-20T13:01:21Z</updated>
+  <summary>The configuration reference, including how LSCache rules are written — cache settings account for most of the performance you get.</summary>
+</entry>
+<entry>
+  <title>Apache HTTP Server</title>
+  <link href="https://httpd.apache.org/docs/"/>
+  <id>https://httpd.apache.org/docs/</id>
+  <updated>2026-04-20T13:01:20Z</updated>
+  <summary>A module architecture plus per-directory configuration through .htaccess. Still dominant in shared hosting, and hungrier for memory than nginx under high concurrency.</summary>
+</entry>
+<entry>
+  <title>nginx</title>
+  <link href="https://nginx.org/en/docs/"/>
+  <id>https://nginx.org/en/docs/</id>
+  <updated>2026-04-20T13:01:19Z</updated>
+  <summary>Its event-driven architecture carries tens of thousands of concurrent connections on little memory. It is used as a reverse proxy and load balancer more often than as a web server.</summary>
+</entry>
+<entry>
+  <title>Pro Git (Türkçe)</title>
+  <link href="https://git-scm.com/book/tr/v2"/>
+  <id>https://git-scm.com/book/tr/v2</id>
+  <updated>2026-04-20T13:01:17Z</updated>
+  <summary>The Turkish translation of Git’s official book. The internals chapter — object model, refs — is what frees you from memorising commands and actually makes Git make sense.</summary>
+</entry>
+<entry>
+  <title>Dokploy</title>
+  <link href="https://github.com/dokploy/dokploy"/>
+  <id>https://github.com/dokploy/dokploy</id>
+  <updated>2026-04-20T11:51:53Z</updated>
+  <summary>Brings a Vercel-like deploy experience to your own VPS — git-push deploys, database provisioning, automatic TLS. It fills the hole left when Heroku’s free tier closed.</summary>
+</entry>
+<entry>
+  <title>Grafana</title>
+  <link href="https://grafana.com/"/>
+  <id>https://grafana.com/</id>
+  <updated>2026-04-20T11:51:43Z</updated>
+  <summary>Unifies Prometheus, Loki, PostgreSQL and dozens of sources on one dashboard. Being data-source agnostic is how it became the shared face of monitoring stacks.</summary>
+</entry>
+<entry>
+  <title>Neko</title>
+  <link href="https://github.com/m1k1o/neko"/>
+  <id>https://github.com/m1k1o/neko</id>
+  <updated>2026-04-20T11:45:56Z</updated>
+  <summary>Runs a browser in a container and shares it over WebRTC, with several people able to control one session. Used for watch-together and for isolated browsing.</summary>
+</entry>
+<entry>
+  <title>Gource</title>
+  <link href="https://gource.io/"/>
+  <id>https://gource.io/</id>
+  <updated>2026-04-19T18:55:30Z</updated>
+  <summary>Renders repository history as a growing animated tree where you see who touched what. Not an analysis tool — a way to narrate a project’s history.</summary>
+</entry>
+</feed>

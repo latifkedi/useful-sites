@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title>Programming Languages — Useful Sites</title>
+<subtitle>An annotated directory of links on software, AI, security and science. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/diller.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/diller.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/en/diller.xml</id>
+<updated>2026-08-21T20:53:20Z</updated>
+<entry>
+  <title>CIS 194 Haskell</title>
+  <link href="https://www.seas.upenn.edu/~cis1940/spring13/lectures.html"/>
+  <id>https://www.seas.upenn.edu/~cis1940/spring13/lectures.html</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>The University of Pennsylvania’s Haskell course, with lecture notes and assignments public. The difference from a book is the homework — and since Haskell is learned by writing rather than reading, that difference matters.</summary>
+</entry>
+<entry>
+  <title>Learn You a Haskell</title>
+  <link href="https://learnyouahaskell.github.io/chapters.html"/>
+  <id>https://learnyouahaskell.github.io/chapters.html</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>The community-maintained online edition of the best-known Haskell introduction. Against the academic Haskell texts the difference is tone: it gets to monads through drawings and incremental examples rather than category theory.</summary>
+</entry>
+<entry>
+  <title>LearnByExample</title>
+  <link href="https://www.learnbyexample.org/"/>
+  <id>https://www.learnbyexample.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Teaches Python, SQL and R through runnable examples, opening each concept with one small piece of code. Against documentation the order is reversed — working example first, explanation after — which also makes it a fast syntax refresher.</summary>
+</entry>
+<entry>
+  <title>RubyGems Guides</title>
+  <link href="https://guides.rubygems.org/"/>
+  <id>https://guides.rubygems.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>The official guide to how RubyGems works and how to publish your own gem. Against the API reference it also explains the decisions — version numbering, dependency resolution, publishing policy.</summary>
+</entry>
+<entry>
+  <title>cppreference</title>
+  <link href="https://cppreference.com/"/>
+  <id>https://cppreference.com/</id>
+  <updated>2026-08-19T23:34:19Z</updated>
+  <summary>The de facto reference for the C and C++ standard library, marking which standard (C++11/17/20/23) each feature landed in — a distinction tutorial sites usually skip.</summary>
+</entry>
+<entry>
+  <title>JS Exercises</title>
+  <link href="https://jsexercises.com/"/>
+  <id>https://jsexercises.com/</id>
+  <updated>2026-08-19T23:33:52Z</updated>
+  <summary>Runnable JavaScript exercises in the browser, for consolidating after reading.</summary>
+</entry>
+<entry>
+  <title>Eloquent JavaScript</title>
+  <link href="https://eloquentjavascript.net/"/>
+  <id>https://eloquentjavascript.net/</id>
+  <updated>2026-08-19T23:33:25Z</updated>
+  <summary>A free online classic that builds programming thinking rather than teaching syntax, with exercises runnable inside the book itself.</summary>
+</entry>
+<entry>
+  <title>A Byte of Python</title>
+  <link href="https://python.swaroopch.com"/>
+  <id>https://python.swaroopch.com</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>An introductory Python book — short, direct and translated into dozens of languages, written for people entirely new to programming.</summary>
+</entry>
+<entry>
+  <title>Awesome Compilers</title>
+  <link href="https://aalhour.com/awesome-compilers/"/>
+  <id>https://aalhour.com/awesome-compilers/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A collection of compiler, interpreter and runtime resources, with books, courses and open-source compilers listed separately.</summary>
+</entry>
+<entry>
+  <title>C++ Üslup ve Teknik SSS</title>
+  <link href="https://www.stroustrup.com/bs_faq2.html"/>
+  <id>https://www.stroustrup.com/bs_faq2.html</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Stroustrup’s FAQ on C++ style and common mistakes — direct answers to “why should I do it this way”.</summary>
+</entry>
+<entry>
+  <title>C++11 SSS (Stroustrup)</title>
+  <link href="https://www.stroustrup.com/C++11FAQ.html"/>
+  <id>https://www.stroustrup.com/C++11FAQ.html</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The language’s creator explaining why each C++11 feature was added. Unlike a feature list, it gives the design rationale.</summary>
+</entry>
+<entry>
+  <title>CppCon</title>
+  <link href="https://www.youtube.com/user/CppCon/videos?shelf_id=0&amp;view=0&amp;sort=dd"/>
+  <id>https://www.youtube.com/user/CppCon/videos?shelf_id=0&amp;view=0&amp;sort=dd</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Every talk from the annual C++ conference. Against tutorials it carries presentations from the people who write the standard — where you hear why a feature was designed as it was.</summary>
+</entry>
+<entry>
+  <title>Crafting Interpreters</title>
+  <link href="https://craftinginterpreters.com/"/>
+  <id>https://craftinginterpreters.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A free book that has you write a language twice — a tree-walking interpreter in Java, then a bytecode VM in C. One of the clearest treatments in the field.</summary>
+</entry>
+<entry>
+  <title>Hitchhiker’s Guide to Python</title>
+  <link href="https://docs.python-guide.org/writing/style/"/>
+  <id>https://docs.python-guide.org/writing/style/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A community guide to Python style, project layout and tooling — the “how it is written” part the language reference leaves out.</summary>
+</entry>
+<entry>
+  <title>kudvenkat</title>
+  <link href="https://www.youtube.com/user/kudvenkat/"/>
+  <id>https://www.youtube.com/user/kudvenkat/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Long, orderly lecture series on .NET, C# and SQL Server. Against short tutorials each series advances like a syllabus — for learning the enterprise .NET stack from nothing.</summary>
+</entry>
+<entry>
+  <title>Learn Python</title>
+  <link href="https://www.learnpython.org"/>
+  <id>https://www.learnpython.org</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>An interactive introduction teaching Python through in-browser exercises, with nothing to install. Against a book, each section ends in an exercise that runs — you see immediately whether it stuck.</summary>
+</entry>
+<entry>
+  <title>Learn Shell</title>
+  <link href="https://learnshell.org"/>
+  <id>https://learnshell.org</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>An introduction to shell scripting through exercises that run in the browser. Against the shell manuals the difference is that experimenting is free — you can try `rm` without hesitating over what it might hit.</summary>
+</entry>
+<entry>
+  <title>Let’s Build A Simple Interpreter</title>
+  <link href="https://ruslanspivak.com/lsbasi-part1/"/>
+  <id>https://ruslanspivak.com/lsbasi-part1/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A long series building an interpreter step by step in Python, constructing every piece by hand from lexing to the abstract syntax tree.</summary>
+</entry>
+<entry>
+  <title>Meeting C++</title>
+  <link href="https://www.youtube.com/user/MeetingCPP/videos"/>
+  <id>https://www.youtube.com/user/MeetingCPP/videos</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The talk archive of Europe’s largest C++ conference. Against CppCon it is smaller and more applied — experience from real projects rather than standards debate.</summary>
+</entry>
+<entry>
+  <title>PEP 8</title>
+  <link href="https://www.python.org/dev/peps/pep-0008/"/>
+  <id>https://www.python.org/dev/peps/pep-0008/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Python’s official style guide, the rules used for the standard library itself — the text tools like black and ruff are built on.</summary>
+</entry>
+<entry>
+  <title>phpize.online</title>
+  <link href="https://phpize.online/"/>
+  <id>https://phpize.online/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A playground that runs PHP across versions with MySQL, PostgreSQL or SQLite attached. Unlike other PHP playgrounds it gives you a database, so trying query behaviour needs no server of your own.</summary>
+</entry>
+<entry>
+  <title>Qt Documentation</title>
+  <link href="https://doc.qt.io/"/>
+  <id>https://doc.qt.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The official documentation for the Qt framework: class reference, examples and platform guides for C++ and QML. Against other UI framework docs the difference is scope — desktop, mobile and embedded described under one API.</summary>
+</entry>
+<entry>
+  <title>Rust by Example</title>
+  <link href="https://doc.rust-lang.org/rust-by-example/"/>
+  <id>https://doc.rust-lang.org/rust-by-example/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The official companion teaching Rust through runnable examples, each editable and compilable in the browser. Against the book it is built for trying rather than reading — the two are designed to be used together.</summary>
+</entry>
+<entry>
+  <title>Rust Cookbook</title>
+  <link href="https://rust-lang-nursery.github.io/rust-cookbook/"/>
+  <id>https://rust-lang-nursery.github.io/rust-cookbook/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A cookbook of everyday tasks in Rust — read a file line by line, make an HTTP request. Against the book and the examples it is task-oriented: you open it to finish something, not to learn the language.</summary>
+</entry>
+<entry>
+  <title>SICP</title>
+  <link href="https://sarabander.github.io/sicp/html/index.xhtml"/>
+  <id>https://sarabander.github.io/sicp/html/index.xhtml</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Structure and Interpretation of Computer Programs, MIT’s classic text in a readable HTML edition. It does not teach a language; it teaches how to build abstractions.</summary>
+</entry>
+<entry>
+  <title>Stroustrup on C++</title>
+  <link href="https://www.stroustrup.com/C++.html"/>
+  <id>https://www.stroustrup.com/C++.html</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The C++ creator’s own pages: FAQs, style advice and essays on why the language was designed as it was. Unlike tutorials it supplies rationale — the reason behind a decision is only available from the person who made it.</summary>
+</entry>
+<entry>
+  <title>The Bash Guide</title>
+  <link href="https://guide.bash.academy"/>
+  <id>https://guide.bash.academy</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A guide teaching Bash end to end with the right habits, tackling quoting and word splitting early. That is the break from copy-paste tutorials: most script bugs come from exactly those traps.</summary>
+</entry>
+<entry>
+  <title>The Java Tutorials</title>
+  <link href="https://docs.oracle.com/javase/tutorial/"/>
+  <id>https://docs.oracle.com/javase/tutorial/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Oracle’s official Java tutorial, from language basics through collections and concurrency. Against third-party courses it explains the standard library’s intent first-hand; the price is a dry register and sections that stopped at older releases.</summary>
+</entry>
+<entry>
+  <title>The Rust Book</title>
+  <link href="https://doc.rust-lang.org/book/title-page.html"/>
+  <id>https://doc.rust-lang.org/book/title-page.html</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Rust’s official book, building up ownership and borrowing from nothing. Unlike other language books it makes the compiler’s error messages part of the teaching — in Rust, learning to argue with the compiler is half the language.</summary>
+</entry>
+<entry>
+  <title>The Super Tiny Compiler</title>
+  <link href="https://github.com/thejameskyle/the-super-tiny-compiler"/>
+  <id>https://github.com/thejameskyle/the-super-tiny-compiler</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A tiny compiler of a few hundred heavily commented lines, making every compiler stage readable in a single sitting.</summary>
+</entry>
+<entry>
+  <title>Writing a C Compiler</title>
+  <link href="https://norasandler.com/2017/11/29/Write-a-Compiler.html"/>
+  <id>https://norasandler.com/2017/11/29/Write-a-Compiler.html</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A series writing a C compiler piece by piece, each part leaving you a working program that compiles a small subset of the language.</summary>
+</entry>
+<entry>
+  <title>Canlı C++ Kodlama</title>
+  <link href="https://www.youtube.com/watch?v=uhAnt4Iw1VQ&amp;t=802s"/>
+  <id>https://www.youtube.com/watch?v=uhAnt4Iw1VQ&amp;t=802s</id>
+  <updated>2026-07-30T14:45:22Z</updated>
+  <summary>An uncut recording of learning C++, compiler errors and dead ends included — the real process that polished lectures hide.</summary>
+</entry>
+<entry>
+  <title>Fortran</title>
+  <link href="https://fortran-lang.org/"/>
+  <id>https://fortran-lang.org/</id>
+  <updated>2026-07-18T21:50:32Z</updated>
+  <summary>The modern Fortran community site, home to the fpm package manager and current compilers. The language is still in production in numerical computing and climate modelling — not a historical curiosity.</summary>
+</entry>
+<entry>
+  <title>Go by Example</title>
+  <link href="https://gobyexample.com/"/>
+  <id>https://gobyexample.com/</id>
+  <updated>2026-04-20T13:01:13Z</updated>
+  <summary>Explains each concept through one annotated program. After the tour, this is where “how do I do that in Go again” gets answered.</summary>
+</entry>
+<entry>
+  <title>A Tour of Go</title>
+  <link href="https://go.dev/tour/welcome/1"/>
+  <id>https://go.dev/tour/welcome/1</id>
+  <updated>2026-04-20T13:01:10Z</updated>
+  <summary>Go’s official tour, with every example runnable and editable in the browser. The closing section on goroutines and channels is the language’s real differentiator.</summary>
+</entry>
+<entry>
+  <title>Sanal Ortam (venv) Nedir?</title>
+  <link href="https://omerfi.medium.com/python-virtual-environment-venv-nedir-981788752e5a"/>
+  <id>https://omerfi.medium.com/python-virtual-environment-venv-nedir-981788752e5a</id>
+  <updated>2026-04-19T16:01:50Z</updated>
+  <summary>A short Turkish introduction to Python virtual environments, sufficient on first contact. The modern toolchain is shifting toward uv, which is worth knowing alongside.</summary>
+</entry>
+<entry>
+  <title>LLVM Başlangıç</title>
+  <link href="https://llvm.org/docs/GettingStartedTutorials.html"/>
+  <id>https://llvm.org/docs/GettingStartedTutorials.html</id>
+  <updated>2026-04-14T05:51:39Z</updated>
+  <summary>An introduction to the LLVM infrastructure plus the Kaleidoscope tutorial, the classic starting point for writing your own language and one of the best ways to make the IR concept concrete.</summary>
+</entry>
+<entry>
+  <title>uv</title>
+  <link href="https://docs.astral.sh/uv/"/>
+  <id>https://docs.astral.sh/uv/</id>
+  <updated>2026-04-13T13:28:42Z</updated>
+  <summary>A package and project manager written in Rust, tens of times faster than pip. It collapses venv, pip, pip-tools and pyenv into a single binary.</summary>
+</entry>
+<entry>
+  <title>Indently</title>
+  <link href="https://www.youtube.com/indently"/>
+  <id>https://www.youtube.com/indently</id>
+  <updated>2026-04-06T11:22:58Z</updated>
+  <summary>Short episodes each deepening one Python concept, covering things a long-course format skips.</summary>
+</entry>
+<entry>
+  <title>Rust Öğrenin (Türkçe)</title>
+  <link href="https://rust-lang.org/tr/learn/"/>
+  <id>https://rust-lang.org/tr/learn/</id>
+  <updated>2026-03-29T18:36:46Z</updated>
+  <summary>The Turkish version of Rust’s official learning page. Meeting ownership and borrowing in your own language softens the language’s steepest climb a little.</summary>
+</entry>
+</feed>

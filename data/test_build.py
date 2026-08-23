@@ -127,6 +127,12 @@ def main():
     check(True, 'static pages present in both languages for %d categories'
           % len(kullanilan))
 
+    eksik_akis = [k for k in sorted(kullanilan)
+                  if not (os.path.exists(os.path.join(ROOT, 'feed', k + '.xml'))
+                          and os.path.exists(os.path.join(ROOT, 'feed', 'en', k + '.xml')))]
+    check(not eksik_akis, 'per-category Atom feed in both languages'
+          + (' -- missing: %s' % eksik_akis[:3] if eksik_akis else ''))
+
     for h in (('k', 'index.html'), ('k', 'en', 'index.html')):
         check(os.path.exists(os.path.join(ROOT, *h)),
               'static hub page: ' + '/'.join(h))

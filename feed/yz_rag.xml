@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
+<title>YZ · RAG, Gömme &amp; Vektör — Kullanışlı Siteler</title>
+<subtitle>Yazılım, yapay zeka, güvenlik ve bilim üzerine açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/yz_rag.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/yz_rag.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/yz_rag.xml</id>
+<updated>2026-08-19T23:17:28Z</updated>
+<entry>
+  <title>Raven</title>
+  <link href="https://github.com/evermind-ai/raven"/>
+  <id>https://github.com/evermind-ai/raven</id>
+  <updated>2026-08-19T23:17:28Z</updated>
+  <summary>Bellek öncelikli agent koşum takımı; oturumlar arası öğrenmeyi ve kendi yapılandırmasını iyileştirmeyi merkeze alıyor.</summary>
+</entry>
+<entry>
+  <title>Atlas Vector Search</title>
+  <link href="https://www.mongodb.com/products/platform/atlas-vector-search"/>
+  <id>https://www.mongodb.com/products/platform/atlas-vector-search</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Vektör indeksi belgelerin yanında duruyor, ayrı bir depoya kopyalama ve senkron tutma derdi kalkıyor. Yalnızca Atlas’ta, kendi kurduğun MongoDB’de yok.</summary>
+</entry>
+<entry>
+  <title>BGE Modelleri</title>
+  <link href="https://huggingface.co/BAAI"/>
+  <id>https://huggingface.co/BAAI</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Açık gömme modellerinin en yaygın ailesi. MTEB sıralamasında ücretli API’lere yakın duruyor ve çoğu sürüm MIT lisanslı, yani ticari kullanımda engel yok.</summary>
+</entry>
+<entry>
+  <title>Chroma</title>
+  <link href="https://www.trychroma.com/"/>
+  <id>https://www.trychroma.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Uygulamanın içine gömülü çalışıyor, sunucu süreci yok — `pip install` sonrası kullanmaya başlıyorsun. Prototip için en hızlısı, üretim ölçeğinde başkasına devretmen gerekiyor.</summary>
+</entry>
+<entry>
+  <title>Cohere Embed</title>
+  <link href="https://cohere.com/embed"/>
+  <id>https://cohere.com/embed</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>100’den fazla dili tek vektör uzayında temsil ediyor; Türkçe sorguyla İngilizce belge bulmak mümkün. Sorgu ve belge için ayrı giriş tipi almasi eşleşme kalitesini artırıyor.</summary>
+</entry>
+<entry>
+  <title>Elasticsearch</title>
+  <link href="https://www.elastic.co/elasticsearch"/>
+  <id>https://www.elastic.co/elasticsearch</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>BM25 anahtar kelime aramasıyla vektör aramasını tek sorguda birleştirip (hibrit arama) sonuçları RRF ile harmanlayabiliyor. Saf vektör veritabanlarının eksiği tam olarak bu ilk yarı.</summary>
+</entry>
+<entry>
+  <title>GraphRAG</title>
+  <link href="https://microsoft.github.io/graphrag/"/>
+  <id>https://microsoft.github.io/graphrag/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Belgelerden varlık ve ilişki çıkarıp bilgi grafiği kuruyor, sonra topluluk özetleri üretiyor. “Bu külliyatın ana temaları neler” gibi bütüne dair sorular parça-getir yöntemiyle cevaplanamıyor; bu onun için var.</summary>
+</entry>
+<entry>
+  <title>Haystack</title>
+  <link href="https://haystack.deepset.ai/"/>
+  <id>https://haystack.deepset.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Bileşenleri açıkça birbirine bağlıyorsun; hattın hangi adımda ne yaptığı okunabilir kalıyor. Hata ayıklarken bu şeffaflık LangChain’in örtük akışına karşı gözle görülür bir kazanç.</summary>
+</entry>
+<entry>
+  <title>LangGraph Memory</title>
+  <link href="https://langchain-ai.github.io/langgraph/concepts/memory/"/>
+  <id>https://langchain-ai.github.io/langgraph/concepts/memory/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Kısa vadeli (thread içi durum) ve uzun vadeli (thread’ler arası store) belleğin ayrımını ve hangisinin ne zaman kullanılacağını anlatan kavram sayfası.</summary>
+</entry>
+<entry>
+  <title>Letta</title>
+  <link href="https://www.letta.com/"/>
+  <id>https://www.letta.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>MemGPT araştırmasının ürünleşmiş hâli. Bağlam penceresini işletim sistemi gibi yönetiyor: sıcak bilgiyi pencerede tutup gerisini harici depoya sayfalıyor.</summary>
+</entry>
+<entry>
+  <title>LlamaIndex</title>
+  <link href="https://www.llamaindex.ai/"/>
+  <id>https://www.llamaindex.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Belge yükleme, parçalama, indeksleme ve sorgu aşamalarının her birini ayrı ayrı değiştirilebilir kılıyor. Genel amaçlı bir çatı değil; alma (retrieval) hattını ince ayarlamak isteyen için tasarlanmış.</summary>
+</entry>
+<entry>
+  <title>Mem0</title>
+  <link href="https://mem0.ai/"/>
+  <id>https://mem0.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Konuşmadan çıkarılan olguları saklıyor, çelişenleri güncelliyor, alakasızları eliyor. Ham geçmişi biriktirmek yerine neyin hatırlanmaya değer olduğuna karar veren bir katman.</summary>
+</entry>
+<entry>
+  <title>Mem0 (kaynak)</title>
+  <link href="https://github.com/mem0ai/mem0"/>
+  <id>https://github.com/mem0ai/mem0</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Mem0’ın kendi altyapında çalıştırılabilen sürümü. Embedchain projesi de bu depoda birleşti, yani eski Embedchain bağlantıları buraya çıkıyor.</summary>
+</entry>
+<entry>
+  <title>Milvus</title>
+  <link href="https://milvus.io/"/>
+  <id>https://milvus.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Depolama ve hesaplamayı ayıran dağıtık mimari; milyar ölçekli koleksiyonlar için tasarlanmış. Kubernetes gerektiriyor, küçük projelerde kurulum maliyeti kazancından büyük.</summary>
+</entry>
+<entry>
+  <title>Neo4j</title>
+  <link href="https://neo4j.com/"/>
+  <id>https://neo4j.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>İlişkiler tabloda yabancı anahtar değil, birinci sınıf veri. Cypher sorgu diliyle çok adımlı ilişki gezinmeleri, SQL’de yazılacak iç içe JOIN’lere göre hem kısa hem hızlı.</summary>
+</entry>
+<entry>
+  <title>OpenAI Embeddings</title>
+  <link href="https://platform.openai.com/docs/guides/embeddings"/>
+  <id>https://platform.openai.com/docs/guides/embeddings</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>text-embedding-3 ailesinin boyut, fiyat ve kullanım referansı. Matryoshka desteği sayesinde vektör boyutunu isteğe göre kısaltıp depolama maliyetini düşürebiliyorsun.</summary>
+</entry>
+<entry>
+  <title>pgvector</title>
+  <link href="https://github.com/pgvector/pgvector"/>
+  <id>https://github.com/pgvector/pgvector</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>PostgreSQL’e vektör tipi ve HNSW/IVFFlat indeksleri ekleyen uzantı. Vektörü ilişkisel veriyle aynı işlemde (transaction) tutabilmek ayrı bir sistem işletmeye bedel.</summary>
+</entry>
+<entry>
+  <title>Pinecone</title>
+  <link href="https://www.pinecone.io/"/>
+  <id>https://www.pinecone.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Tam yönetilen vektör veritabanı; sunucusuz katmanında kapasite planlaması yapmıyorsun. İşletme yükü en düşük seçenek, buna karşılık verinin nerede durduğu üzerinde denetimin yok.</summary>
+</entry>
+<entry>
+  <title>PostgreSQL</title>
+  <link href="https://www.postgresql.org/"/>
+  <id>https://www.postgresql.org/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>JSONB, tam metin arama ve pgvector ile birlikte tek bir veritabanının üç ayrı sistemin işini görebildiği noktaya gelmiş durumda. Erken aşamada mimariyi ciddi ölçüde sadeleştiriyor.</summary>
+</entry>
+<entry>
+  <title>Qdrant</title>
+  <link href="https://qdrant.tech/"/>
+  <id>https://qdrant.tech/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Rust ile yazılmış; yüklü meta veri filtrelemesini vektör aramasıyla birlikte yürütüyor. Bellek ayak izi düşük olduğu için küçük bir VPS’te ciddi koleksiyon taşıyabiliyor.</summary>
+</entry>
+<entry>
+  <title>Ragas</title>
+  <link href="https://docs.ragas.io/"/>
+  <id>https://docs.ragas.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>RAG hatları için ölçüt kütüphanesi; referans cevap olmadan da çalışabilen metrikleri var. Sentetik test kümesi üretip değerlendirmeyi CI’ya bağlayabiliyorsun.</summary>
+</entry>
+<entry>
+  <title>RAGFlow</title>
+  <link href="https://ragflow.io/"/>
+  <id>https://ragflow.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Derin belge ayrıştırma üstüne kurulu: karmaşık PDF düzenlerini, tabloları ve şekilleri tanıyıp anlamlı parçalara ayırıyor. Kütüphane değil, Docker ile kurduğun tam bir servis.</summary>
+</entry>
+<entry>
+  <title>Redis</title>
+  <link href="https://redis.io/"/>
+  <id>https://redis.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Bellek içi veri yapısı deposu. YZ tarafında oturum durumu, hız sınırlama sayaçları ve yanıt önbelleği için kullanılıyor; vektör araması da modülle geliyor.</summary>
+</entry>
+<entry>
+  <title>Sentence Transformers</title>
+  <link href="https://sbert.net/"/>
+  <id>https://sbert.net/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Gömme üretiminin standart Python kütüphanesi. Model yerelde çalışır, veri makineden çıkmaz, API faturası olmaz; karşılığında GPU ve bellek yönetimi sana kalır.</summary>
+</entry>
+<entry>
+  <title>TruLens</title>
+  <link href="https://www.trulens.org/"/>
+  <id>https://www.trulens.org/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>RAG üçlemesini ölçüyor: bağlam alaka düzeyi, cevabın bağlama sadakati, cevabın soruya uygunluğu. Bu üçü ayrı ölçüldüğü için hatanın alma tarafında mı üretim tarafında mı olduğu ayrışıyor.</summary>
+</entry>
+<entry>
+  <title>Unstructured</title>
+  <link href="https://unstructured.io/"/>
+  <id>https://unstructured.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>PDF, DOCX, HTML, e-posta ve sunumları ortak bir belge öğesi modeline indiriyor. RAG hatlarında en çok vakit yiyen ve en sık bozulan ilk adım burasıdır.</summary>
+</entry>
+<entry>
+  <title>Vertex AI Embeddings</title>
+  <link href="https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings"/>
+  <id>https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>GCP içindeki gömme servisi. Veriyi BigQuery’de tutuyorsan gömmeyi de aynı sınırlar içinde üretmek ağ maliyeti ve veri yerleşimi açısından anlamlı oluyor.</summary>
+</entry>
+<entry>
+  <title>Voyage AI</title>
+  <link href="https://www.voyageai.com/"/>
+  <id>https://www.voyageai.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Hukuk, kod ve finans için ayrı ayrı eğitilmiş gömme modelleri. Dar alanlarda genel amaçlı modelleri geçtiğini iddia ediyor; karşılaştırmayı kendi verinle yapmak gerekiyor.</summary>
+</entry>
+<entry>
+  <title>Weaviate</title>
+  <link href="https://weaviate.io/"/>
+  <id>https://weaviate.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Gömme üretimini modül olarak içinde barındırabiliyor, yani ayrı bir gömme adımı kurmadan ham metin yazabiliyorsun. Sorgu arayüzü GraphQL.</summary>
+</entry>
+<entry>
+  <title>Zep</title>
+  <link href="https://www.getzep.com/"/>
+  <id>https://www.getzep.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Zamansal bilgi grafiği tutuyor: bir olgunun ne zaman doğru olduğunu ve ne zaman geçersizleştiğini kaydediyor. Düz vektör belleği bu ayrımı yapamıyor.</summary>
+</entry>
+<entry>
+  <title>Graphify</title>
+  <link href="https://github.com/Graphify-Labs/graphify"/>
+  <id>https://github.com/Graphify-Labs/graphify</id>
+  <updated>2026-07-29T05:59:14Z</updated>
+  <summary>Kod tabanını AST çözümlemesiyle gezip dokümanları, SQL şemalarını ve PDF’leri de katarak sorgulanabilir bir grafiğe çeviriyor. Kod asistanına bağlam beslemek için tasarlanmış.</summary>
+</entry>
+</feed>

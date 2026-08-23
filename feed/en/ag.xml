@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title>Networking &amp; Sysadmin — Useful Sites</title>
+<subtitle>An annotated directory of links on software, AI, security and science. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/ag.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/ag.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/en/ag.xml</id>
+<updated>2026-08-21T20:53:20Z</updated>
+<entry>
+  <title>Asahi Linux</title>
+  <link href="https://asahilinux.org/"/>
+  <id>https://asahilinux.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A project bringing mainline Linux to Apple Silicon Macs, reverse-engineering the GPU driver and power management. Unlike a virtual machine it runs on the metal, so you get the M-series chip’s full performance.</summary>
+</entry>
+<entry>
+  <title>CanYouSeeMe</title>
+  <link href="https://canyouseeme.org/"/>
+  <id>https://canyouseeme.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A minimal check for whether a given port is reachable from outside. Unlike scanning locally it looks in from the internet, which is the only way to tell whether router port forwarding actually works.</summary>
+</entry>
+<entry>
+  <title>ICANN Lookup</title>
+  <link href="https://lookup.icann.org/en"/>
+  <id>https://lookup.icann.org/en</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Domain registration lookup through ICANN’s own interface. Against third-party WHOIS sites there are no ads and no sales pitch — you do not get an email the next day about the domain you looked up.</summary>
+</entry>
+<entry>
+  <title>ntop</title>
+  <link href="https://www.ntop.org/"/>
+  <id>https://www.ntop.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A family of tools for real-time network traffic monitoring, showing which device moves how much over which protocol. Where Wireshark inspects packet by packet, this watches the flow continuously — for noticing the anomaly rather than dissecting it.</summary>
+</entry>
+<entry>
+  <title>OpenSpeedTest</title>
+  <link href="https://openspeedtest.com/"/>
+  <id>https://openspeedtest.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A browser-based speed test needing no Flash and no app, and self-hostable on your own server. That self-hosting is the difference from Speedtest.net: you can measure your LAN’s real throughput without an internet hop.</summary>
+</entry>
+<entry>
+  <title>Tailscale</title>
+  <link href="https://tailscale.com/"/>
+  <id>https://tailscale.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A mesh VPN on top of WireGuard that connects your devices directly even behind NAT and firewalls. Unlike a classic VPN server there is no central exit hop: traffic goes device to device and the coordination server only hands out keys.</summary>
+</entry>
+<entry>
+  <title>Advanced Bash-Scripting Guide</title>
+  <link href="https://tldp.org/LDP/abs/html/"/>
+  <id>https://tldp.org/LDP/abs/html/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The most comprehensive free reference on Bash scripting, every topic with a runnable example. Dated in style, still unmatched in coverage.</summary>
+</entry>
+<entry>
+  <title>Bash Guide for Beginners</title>
+  <link href="https://www.tldp.org/LDP/Bash-Beginners-Guide/html/"/>
+  <id>https://www.tldp.org/LDP/Bash-Beginners-Guide/html/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>An introduction to shell scripting that lays the groundwork without the weight of the advanced guide.</summary>
+</entry>
+<entry>
+  <title>Bash Referans Kılavuzu</title>
+  <link href="https://www.gnu.org/software/bash/manual/bashref.html"/>
+  <id>https://www.gnu.org/software/bash/manual/bashref.html</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Bash’s official manual — the final word on contested topics like expansion rules and parameter substitution.</summary>
+</entry>
+<entry>
+  <title>BashGuide (Wooledge)</title>
+  <link href="https://mywiki.wooledge.org/BashGuide"/>
+  <id>https://mywiki.wooledge.org/BashGuide</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A corrective to the bad Bash examples circulating online, centred on the most common mistakes like quoting and word splitting.</summary>
+</entry>
+<entry>
+  <title>Command-line Fu</title>
+  <link href="https://www.commandlinefu.com/commands/browse"/>
+  <id>https://www.commandlinefu.com/commands/browse</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>An archive of user-submitted UNIX one-liners ranked by vote — where you check whether a shortcut exists for a task.</summary>
+</entry>
+<entry>
+  <title>LinuxCommand.org</title>
+  <link href="https://linuxcommand.org"/>
+  <id>https://linuxcommand.org</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Teaches the command line from nothing and carries you into shell scripting; the home of &quot;The Linux Command Line&quot;. Against a list of commands it follows a path — a sequenced course rather than a scattered cheat sheet.</summary>
+</entry>
+<entry>
+  <title>mempool.space</title>
+  <link href="https://mempool.space"/>
+  <id>https://mempool.space</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>An explorer visualising Bitcoin’s pending transaction pool and the chain, runnable against your own node. Against other block explorers it adds fee estimation and a mempool view — it shows how congested the network is right now.</summary>
+</entry>
+<entry>
+  <title>Pure Bash Bible</title>
+  <link href="https://github.com/dylanaraps/pure-bash-bible"/>
+  <id>https://github.com/dylanaraps/pure-bash-bible</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A collection of ways to do things with Bash’s own facilities instead of calling external programs, which speeds scripts up markedly by removing sed and awk calls.</summary>
+</entry>
+<entry>
+  <title>Ryan’s Linux Tutorial</title>
+  <link href="https://ryanstutorials.net/linuxtutorial/"/>
+  <id>https://ryanstutorials.net/linuxtutorial/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>An introduction to Linux and Bash with exercises closing every section. Against LinuxCommand.org it is shorter and more drill-oriented — for getting through the basic commands quickly.</summary>
+</entry>
+<entry>
+  <title>Hiren's BootCD PE</title>
+  <link href="https://www.hirensbootcd.org/"/>
+  <id>https://www.hirensbootcd.org/</id>
+  <updated>2026-07-29T05:57:07Z</updated>
+  <summary>A bootable Windows PE environment for systems that will not start, bundling disk cloning, password reset and data recovery in one image. The USB stick a sysadmin carries.</summary>
+</entry>
+<entry>
+  <title>ÇözümPark</title>
+  <link href="https://www.cozumpark.com/"/>
+  <id>https://www.cozumpark.com/</id>
+  <updated>2026-07-27T11:13:16Z</updated>
+  <summary>A Turkish sysadmin community and article archive with real depth on Active Directory, Exchange and virtualisation — a rare resource for locally specific scenarios.</summary>
+</entry>
+<entry>
+  <title>ServiceDesk Simulator</title>
+  <link href="https://servicedesk-simulator.com/"/>
+  <id>https://servicedesk-simulator.com/</id>
+  <updated>2026-07-07T11:44:32Z</updated>
+  <summary>Simulates working a real helpdesk queue — prioritisation, escalation, SLA tracking. It fills the practical gap that IT support courses leave theoretical.</summary>
+</entry>
+<entry>
+  <title>Cisco SG500-52P Kurulumu</title>
+  <link href="https://www.firewall.cx/cisco/cisco-switches/cisco-switches-sg500-52p.html"/>
+  <id>https://www.firewall.cx/cisco/cisco-switches/cisco-switches-sg500-52p.html</id>
+  <updated>2026-07-02T07:38:48Z</updated>
+  <summary>First-time setup of one specific switch model, screenshot by screenshot — with the practical details the official manual skips.</summary>
+</entry>
+<entry>
+  <title>Cisco SG500 Serisi</title>
+  <link href="https://www.firewall.cx/downloads/cisco-product-datasheets-a-guides/cisco-sg500-series-switches.html"/>
+  <id>https://www.firewall.cx/downloads/cisco-product-datasheets-a-guides/cisco-sg500-series-switches.html</id>
+  <updated>2026-07-02T07:37:07Z</updated>
+  <summary>Datasheets for the SG500 series comparing port counts, PoE budgets and stacking support — the model differences you need when buying second-hand.</summary>
+</entry>
+<entry>
+  <title>Active@ Disk Image</title>
+  <link href="https://www.disk-image.com/index.html"/>
+  <id>https://www.disk-image.com/index.html</id>
+  <updated>2026-07-01T11:42:32Z</updated>
+  <summary>Takes and restores sector-level disk images. Unlike file backup it copies everything bit for bit, operating system and boot record included.</summary>
+</entry>
+<entry>
+  <title>Packet Tracer &amp; Laboratuvarlar</title>
+  <link href="https://www.netacad.com/resources/lab-downloads?courseLang=en-US"/>
+  <id>https://www.netacad.com/resources/lab-downloads?courseLang=en-US</id>
+  <updated>2026-06-26T11:20:31Z</updated>
+  <summary>The Packet Tracer download plus lab files, letting you practise VLAN, OSPF and ACL configuration without buying switches and routers.</summary>
+</entry>
+<entry>
+  <title>NetAcad Ağ Kursları (Türkçe)</title>
+  <link href="https://www.netacad.com/catalogs/learn/networking?language=tr-tr"/>
+  <id>https://www.netacad.com/catalogs/learn/networking?language=tr-tr</id>
+  <updated>2026-06-26T11:19:10Z</updated>
+  <summary>The Turkish catalogue of Cisco networking courses, with free entry-level classes that award badges. Turkish-language networking training is not easy to find locally.</summary>
+</entry>
+<entry>
+  <title>Windows 11 Tam Rehber</title>
+  <link href="https://www.youtube.com/watch?v=5kt4t2gzt9g"/>
+  <id>https://www.youtube.com/watch?v=5kt4t2gzt9g</id>
+  <updated>2026-05-11T15:32:08Z</updated>
+  <summary>A guide walking the whole of Windows 11’s settings, reaching into group policy and registry tweaks. A quick reference on the user-support side.</summary>
+</entry>
+<entry>
+  <title>DNS Yapılandırma (CompTIA A+)</title>
+  <link href="https://www.youtube.com/watch?v=lAHqO9sDVy4"/>
+  <id>https://www.youtube.com/watch?v=lAHqO9sDVy4</id>
+  <updated>2026-05-11T15:31:48Z</updated>
+  <summary>DNS record types and configuration within the A+ scope — short and exam-focused.</summary>
+</entry>
+<entry>
+  <title>DHCP (CompTIA A+)</title>
+  <link href="https://www.youtube.com/watch?v=HwUqCZFx6wk"/>
+  <id>https://www.youtube.com/watch?v=HwUqCZFx6wk</id>
+  <updated>2026-05-11T15:31:29Z</updated>
+  <summary>A short treatment of DHCP as the A+ syllabus defines it, mapped exactly to the exam objective. Not covering more is an advantage when revising.</summary>
+</entry>
+<entry>
+  <title>Linux Journey</title>
+  <link href="https://labex.io/linuxjourney"/>
+  <id>https://labex.io/linuxjourney</id>
+  <updated>2026-04-20T13:01:18Z</updated>
+  <summary>Teaches Linux in small modules — filesystem, permissions, processes, package management — offering digestible pieces where comprehensive books overwhelm.</summary>
+</entry>
+<entry>
+  <title>Wireshark</title>
+  <link href="https://www.wireshark.org/#download"/>
+  <id>https://www.wireshark.org/#download</id>
+  <updated>2026-04-20T12:57:34Z</updated>
+  <summary>The standard for packet capture and protocol dissection, and it will decrypt TLS if you hand it the keys. The only way to replace “I think” with evidence in a network problem.</summary>
+</entry>
+<entry>
+  <title>Bilgisayar Ağları Temelleri</title>
+  <link href="https://www.youtube.com/watch?v=fQbBPa0ADvs"/>
+  <id>https://www.youtube.com/watch?v=fQbBPa0ADvs</id>
+  <updated>2026-04-06T11:38:30Z</updated>
+  <summary>Works networking concepts from the OSI layers through routing in full-course format — for laying the ground before certification study.</summary>
+</entry>
+<entry>
+  <title>20 Dakikada Tüm Ağ Kavramları</title>
+  <link href="https://www.youtube.com/watch?v=xj_GjnD4uyI"/>
+  <id>https://www.youtube.com/watch?v=xj_GjnD4uyI</id>
+  <updated>2026-04-06T11:26:37Z</updated>
+  <summary>A rapid sweep of networking terminology. Not for learning, but for finding in twenty minutes the gaps in what you assumed you knew.</summary>
+</entry>
+<entry>
+  <title>Cisco Networking Academy</title>
+  <link href="https://www.netacad.com/"/>
+  <id>https://www.netacad.com/</id>
+  <updated>2026-02-16T13:37:41Z</updated>
+  <summary>Cisco’s official networking curriculum, with part of the CCNA track free. Packet Tracer labs let you test the theory by building topologies.</summary>
+</entry>
+<entry>
+  <title>NIST Kriptografi</title>
+  <link href="https://www.nist.gov/cryptography"/>
+  <id>https://www.nist.gov/cryptography</id>
+  <updated>2025-12-29T06:59:40Z</updated>
+  <summary>The source of cryptographic standards, where you check which algorithms remain approved. The post-quantum algorithm selections were published here too.</summary>
+</entry>
+<entry>
+  <title>LFSR ve Rastgele Sayı Üreteçleri</title>
+  <link href="https://www.youtube.com/watch?v=0pXicD2hqFU"/>
+  <id>https://www.youtube.com/watch?v=0pXicD2hqFU</id>
+  <updated>2025-12-25T06:33:29Z</updated>
+  <summary>Explains linear feedback shift registers at circuit level — a good introduction to how pseudo-randomness is actually produced in hardware.</summary>
+</entry>
+<entry>
+  <title>Linux Öğrenmenin En İyi Yolu</title>
+  <link href="https://www.youtube.com/watch?v=zIdv2NDRExI"/>
+  <id>https://www.youtube.com/watch?v=zIdv2NDRExI</id>
+  <updated>2025-08-02T12:44:23Z</updated>
+  <summary>Does not teach commands but describes how to study — which distribution, in what order, through which projects. Useful for orientation at the start.</summary>
+</entry>
+</feed>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
+<title>YZ · Modeller &amp; Asistanlar — Kullanışlı Siteler</title>
+<subtitle>Yazılım, yapay zeka, güvenlik ve bilim üzerine açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/yz_model.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/yz_model.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/yz_model.xml</id>
+<updated>2026-08-19T23:06:49Z</updated>
+<entry>
+  <title>Can I Vibecode It?</title>
+  <link href="https://canivibecodeit.com/"/>
+  <id>https://canivibecodeit.com/</id>
+  <updated>2026-08-19T23:06:49Z</updated>
+  <summary>Bin küsur uygulamayı “yapay zeka bunu yeniden üretebilir mi” diye test edip sonucu yayımlayan tablo. Kullanılan istemi de veriyor, yani sonucu kendin doğrulayabiliyorsun.</summary>
+</entry>
+<entry>
+  <title>Anthropic Claude</title>
+  <link href="https://www.anthropic.com/claude"/>
+  <id>https://www.anthropic.com/claude</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Model sürümleri, bağlam limitleri ve jeton fiyatları. Prompt caching ve batch API gibi maliyet düşüren özelliklerin karşılaştırması burada duruyor.</summary>
+</entry>
+<entry>
+  <title>Cohere</title>
+  <link href="https://cohere.com/"/>
+  <id>https://cohere.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Sohbet yarışına girmek yerine arama tarafına yerleşmiş: Rerank modeli, vektör aramanın döndürdüğü adayları yeniden sıralayarak RAG isabetini gözle görülür artırıyor.</summary>
+</entry>
+<entry>
+  <title>Google AI Studio</title>
+  <link href="https://aistudio.google.com/"/>
+  <id>https://aistudio.google.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>İstem denemek, sistem talimatı ayarlamak ve sıcaklık gibi parametreleri kurcalamak için tarayıcı arayüzü. Denediğin çağrıyı doğrudan kod olarak dışa aktarıyor.</summary>
+</entry>
+<entry>
+  <title>Google Gemini</title>
+  <link href="https://gemini.google.com/"/>
+  <id>https://gemini.google.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Gmail, Drive ve YouTube’a doğrudan bağlanıp hesabındaki içeriği kaynak alabiliyor. Bu entegrasyon onu Google ekosisteminde tutuyorsan avantajlı, tutmuyorsan sıradan kılıyor.</summary>
+</entry>
+<entry>
+  <title>LM Studio</title>
+  <link href="https://lmstudio.ai/"/>
+  <id>https://lmstudio.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>GGUF modelleri aramak, indirmek ve nicemleme seviyesi seçmek için masaüstü arayüz. Hangi nicemlemenin RAM’ine sığacağını önden gösteriyor — Ollama’da bunu kendin hesaplarsın.</summary>
+</entry>
+<entry>
+  <title>Meta Llama</title>
+  <link href="https://www.llama.com/"/>
+  <id>https://www.llama.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Ağırlıklar indirilebilir ve kendi donanımında çalışır. Lisans tam OSI uyumlu değil — büyük ölçekli ticari kullanımda aylık aktif kullanıcı eşiği var, okumadan geçme.</summary>
+</entry>
+<entry>
+  <title>Microsoft Copilot</title>
+  <link href="https://copilot.microsoft.com/"/>
+  <id>https://copilot.microsoft.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Word, Excel ve Windows kabuğuna gömülü çalışıyor — belgeyi bir siteye kopyalamadan üzerinde işlem yapıyor. Model erişimi OpenAI’ınkiyle aynı, fark dağıtım noktasında.</summary>
+</entry>
+<entry>
+  <title>Mistral AI</title>
+  <link href="https://mistral.ai/"/>
+  <id>https://mistral.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Avrupa merkezli sağlayıcı. Küçük modelleri (7B ve altı) Apache-2.0 ile yayımlıyor; tek tüketici GPU’suna sığmaları sınırlı donanımda ayrı bir avantaj.</summary>
+</entry>
+<entry>
+  <title>Ollama</title>
+  <link href="https://ollama.com/"/>
+  <id>https://ollama.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>llama.cpp üzerine kurulu, tek komutla model indirip çalıştıran araç. OpenAI uyumlu bir yerel API açıyor, yani mevcut istemci kodun değişmeden çalışıyor.</summary>
+</entry>
+<entry>
+  <title>Open WebUI</title>
+  <link href="https://openwebui.com/"/>
+  <id>https://openwebui.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Ollama veya herhangi bir OpenAI uyumlu uç noktanın önüne geçen web arayüzü. Çok kullanıcı, rol yönetimi ve RAG için belge yükleme getiriyor; genelde Docker ile kuruluyor.</summary>
+</entry>
+<entry>
+  <title>OpenAI Platform</title>
+  <link href="https://platform.openai.com/"/>
+  <id>https://platform.openai.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>API anahtarı, kullanım limitleri ve fatura yönetimi. Kuruluş bazlı kota ayarları ve model kullanım grafikleri de burada.</summary>
+</entry>
+<entry>
+  <title>Phind</title>
+  <link href="https://www.phind.com/"/>
+  <id>https://www.phind.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Geliştirici sorularına doğrudan kod bloğu ve kaynak bağlantısıyla cevap veriyor. Stack Overflow gezmeye alternatif; alan dışı sorularda genel asistanların gerisinde kalıyor.</summary>
+</entry>
+<entry>
+  <title>vLLM</title>
+  <link href="https://docs.vllm.ai/"/>
+  <id>https://docs.vllm.ai/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>PagedAttention ile KV önbelleğini sayfalayarak GPU belleğini verimli kullanıyor; sürekli yığınlama (continuous batching) sayesinde eşzamanlı istek verimi Ollama’nın kat kat üstünde.</summary>
+</entry>
+<entry>
+  <title>Kimi K2.7 Code</title>
+  <link href="https://huggingface.co/moonshotai/Kimi-K2.7-Code"/>
+  <id>https://huggingface.co/moonshotai/Kimi-K2.7-Code</id>
+  <updated>2026-07-19T16:24:12Z</updated>
+  <summary>Moonshot AI’ın kod odaklı açık ağırlıklı modeli. Yerel kod asistanı kurmak isteyip kapalı API’ye bağlanmak istemeyenler için gerçek bir seçenek.</summary>
+</entry>
+<entry>
+  <title>LocateAnything-3B</title>
+  <link href="https://huggingface.co/nvidia/LocateAnything-3B"/>
+  <id>https://huggingface.co/nvidia/LocateAnything-3B</id>
+  <updated>2026-07-16T06:26:20Z</updated>
+  <summary>Metinle tarif edilen nesneyi görüntüde sınırlayıcı kutuyla işaretleyen görsel konumlandırma modeli. Sınıflandırmadan farkı, önceden tanımlı etiket listesine bağlı olmaması.</summary>
+</entry>
+<entry>
+  <title>Hugging Bay</title>
+  <link href="https://huggingbay.xyz/"/>
+  <id>https://huggingbay.xyz/</id>
+  <updated>2026-07-07T05:53:13Z</updated>
+  <summary>Açık modelleri lisans ve kaynak kaydıyla yan yana koyan alternatif tarayıcı. İndirilen dosyalar için SHA-256 özeti yayımlıyor, yani bütünlüğü doğrulayabiliyorsun.</summary>
+</entry>
+<entry>
+  <title>Unlimited-OCR</title>
+  <link href="https://huggingface.co/baidu/Unlimited-OCR"/>
+  <id>https://huggingface.co/baidu/Unlimited-OCR</id>
+  <updated>2026-07-03T07:30:46Z</updated>
+  <summary>Baidu’nun OCR modeli; sayfa sınırı olmadan uzun ve çok sütunlu belgelerden metin çıkarıyor. Tablo ve düzen korumada klasik Tesseract hattından belirgin şekilde iyi.</summary>
+</entry>
+<entry>
+  <title>OpenAI API Dokümantasyonu</title>
+  <link href="https://developers.openai.com/api/docs"/>
+  <id>https://developers.openai.com/api/docs</id>
+  <updated>2026-04-20T13:01:25Z</updated>
+  <summary>Chat Completions, Responses ve Realtime uç noktalarının parametre referansı. Fonksiyon çağırma şeması ve akış (streaming) davranışı için birincil kaynak.</summary>
+</entry>
+<entry>
+  <title>Google AI for Developers</title>
+  <link href="https://ai.google.dev/"/>
+  <id>https://ai.google.dev/</id>
+  <updated>2026-04-20T13:01:24Z</updated>
+  <summary>Gemini API ve açık ağırlıklı Gemma ailesinin geliştirici kapısı. Ücretsiz kotası gerçek bir prototip taşıyacak kadar geniş, kredi kartı istemiyor.</summary>
+</entry>
+<entry>
+  <title>Hugging Face</title>
+  <link href="https://huggingface.co/"/>
+  <id>https://huggingface.co/</id>
+  <updated>2026-04-06T11:40:03Z</updated>
+  <summary>Model, veri kümesi ve Spaces demolarının merkezî deposu. Her model kartında lisans, eğitim verisi ve değerlendirme sonuçları duruyor — indirmeden önce bakılacak yer orası.</summary>
+</entry>
+<entry>
+  <title>OpenClaw</title>
+  <link href="https://openclaw.ai/"/>
+  <id>https://openclaw.ai/</id>
+  <updated>2026-04-05T20:24:58Z</updated>
+  <summary>Kendi makinende çalışan kişisel asistan. Arayüzü yok — WhatsApp, Telegram gibi zaten kullandığın sohbet uygulamalarına bağlanıyor, veriler cihazından çıkmıyor.</summary>
+</entry>
+<entry>
+  <title>Kimi Claw</title>
+  <link href="https://kimi-claw.com/"/>
+  <id>https://kimi-claw.com/</id>
+  <updated>2026-04-05T20:24:40Z</updated>
+  <summary>OpenClaw üzerine kurulu barındırılmış sürüm: kalıcı bellek, zamanlanmış görevler ve sen istemeden tetiklenen işler ekliyor. Kendi sunucunu işletmek istemeyenler için.</summary>
+</entry>
+<entry>
+  <title>Claude</title>
+  <link href="https://claude.ai/new"/>
+  <id>https://claude.ai/new</id>
+  <updated>2026-02-25T13:13:59Z</updated>
+  <summary>200K jetonluk bağlam penceresi uzun belge ve kod tabanı okumayı taşıyor. Projects, dosyaları sohbetler arası kalıcı bağlam olarak tutuyor; Artifacts çıktıyı ayrı bir panelde çalıştırıyor.</summary>
+</entry>
+<entry>
+  <title>DeepSeek</title>
+  <link href="https://www.deepseek.com/"/>
+  <id>https://www.deepseek.com/</id>
+  <updated>2025-09-25T09:14:54Z</updated>
+  <summary>V3 ve R1 ağırlıkları indirilebilir durumda. Karışım-uzman (MoE) mimarisi sayesinde toplam parametre büyük ama her jetonda yalnızca bir kısmı etkin — akıl yürütme başarımını çok daha düşük çıkarım maliyetiyle veriyor.</summary>
+</entry>
+<entry>
+  <title>ChatGPT</title>
+  <link href="https://chatgpt.com/"/>
+  <id>https://chatgpt.com/</id>
+  <updated>2025-09-25T09:14:28Z</updated>
+  <summary>Kod çalıştırma (sandbox Python), görsel üretim, dosya yükleme ve özel GPT’ler tek pencerede. Geniş olması pahasına her bir yeteneği kendi alanının en iyisi değil.</summary>
+</entry>
+<entry>
+  <title>NotebookLM</title>
+  <link href="https://notebooklm.google.com/"/>
+  <id>https://notebooklm.google.com/</id>
+  <updated>2025-09-22T18:22:44Z</updated>
+  <summary>Yüklediğin PDF, doküman ve bağlantılarla sınırlı bir bağlam kuruyor; kaynak dışına çıkmayı reddediyor. Bu kısıt uydurma oranını düşürüyor, karşılığında genel bilgi soramıyorsun.</summary>
+</entry>
+<entry>
+  <title>Perplexity</title>
+  <link href="https://www.perplexity.ai/"/>
+  <id>https://www.perplexity.ai/</id>
+  <updated>2025-03-01T00:01:39Z</updated>
+  <summary>Sorguyu web aramasına çevirip dönen sayfaları modele okutuyor, sonra her cümleye kaynak numarası iliştiriyor. Yani bir RAG hattı; modelin belleğine değil o anki arama sonuçlarına dayanıyor.</summary>
+</entry>
+</feed>

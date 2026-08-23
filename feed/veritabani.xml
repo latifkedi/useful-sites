@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
+<title>Veritabanı — Kullanışlı Siteler</title>
+<subtitle>Yazılım, yapay zeka, güvenlik ve bilim üzerine açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/veritabani.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/veritabani.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/veritabani.xml</id>
+<updated>2026-08-21T20:53:20Z</updated>
+<entry>
+  <title>Turso</title>
+  <link href="https://turso.tech/"/>
+  <id>https://turso.tech/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>SQLite çatallaması libSQL üzerine kurulu veritabanı platformu; veritabanını kullanıcının yakınındaki uç düğümlere kopyalıyor. Planetscale gibi merkezî hizmetlerden farkı, okuma gecikmesini ağ mesafesi yerine yerel dosya erişimine indirmesi.</summary>
+</entry>
+<entry>
+  <title>Oracle SQL Developer</title>
+  <link href="https://www.oracle.com/database/sqldeveloper/"/>
+  <id>https://www.oracle.com/database/sqldeveloper/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Oracle veritabanları için ücretsiz masaüstü istemci; sorgu, şema gezme ve PL/SQL hata ayıklama bir arada. Oracle ile çalışıyorsan fiilî standart araç.</summary>
+</entry>
+<entry>
+  <title>SQLite</title>
+  <link href="https://sqlite.org/"/>
+  <id>https://sqlite.org/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Sunucusu olmayan, tek dosyada duran gömülü veritabanı. Dünyada en çok dağıtılmış veritabanı motoru; telefonundaki her uygulamanın içinde bir kopyası var. Test kapsamı efsanevi.</summary>
+</entry>
+<entry>
+  <title>SQLZoo</title>
+  <link href="https://sqlzoo.net/wiki/SQL_Tutorial"/>
+  <id>https://sqlzoo.net/wiki/SQL_Tutorial</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>SQL’i doğrudan tarayıcıda sorgu yazdırarak öğreten alıştırma seti; her bölüm bir veri kümesi üzerinde. Kurulum gerektiren öğreticilerden farkı bu — ilk `SELECT`’ini yazmak için veritabanı kurmak gerekmiyor.</summary>
+</entry>
+<entry>
+  <title>SQL Nasıl Öğrenilir</title>
+  <link href="https://www.reddit.com/r/SQL/comments/11qe99b/best_way_to_learn_sql/"/>
+  <id>https://www.reddit.com/r/SQL/comments/11qe99b/best_way_to_learn_sql/</id>
+  <updated>2026-04-28T06:45:27Z</updated>
+  <summary>Deneyimli kullanıcıların SQL öğrenme yollarını tartıştığı başlık. Kurs satmayan insanların önerileri olduğu için ayıklama işini önden yapmış oluyor.</summary>
+</entry>
+<entry>
+  <title>Couchbase Learn</title>
+  <link href="https://learn.couchbase.com/learn"/>
+  <id>https://learn.couchbase.com/learn</id>
+  <updated>2026-04-20T13:01:24Z</updated>
+  <summary>Belge veritabanını SQL benzeri bir sorgu diliyle (N1QL) kullanıyor. İlişkisel dünyadan gelen ekipler için MongoDB’nin sorgu sözdiziminden daha az kırılma noktası.</summary>
+</entry>
+<entry>
+  <title>Firebase</title>
+  <link href="https://firebase.google.com/docs"/>
+  <id>https://firebase.google.com/docs</id>
+  <updated>2026-04-20T13:01:23Z</updated>
+  <summary>Gerçek zamanlı veritabanı, kimlik doğrulama, depolama ve barındırma tek pakette. Prototipi çok hızlandırıyor; sorgu esnekliği ve satıcı bağımlılığı ise sonradan sorun oluyor.</summary>
+</entry>
+<entry>
+  <title>MongoDB University</title>
+  <link href="https://learn.mongodb.com/"/>
+  <id>https://learn.mongodb.com/</id>
+  <updated>2026-04-20T13:01:23Z</updated>
+  <summary>MongoDB’nin resmî ücretsiz kursları. Veri modelleme dersi kritik: ilişkisel alışkanlıkla belge veritabanı tasarlamak, ortaya çıkan en yaygın performans sorunu.</summary>
+</entry>
+<entry>
+  <title>MySQL Tutorial</title>
+  <link href="https://www.mysqltutorial.org/"/>
+  <id>https://www.mysqltutorial.org/</id>
+  <updated>2026-04-20T13:01:22Z</updated>
+  <summary>Örnek veritabanı üzerinden MySQL’i baştan sona işliyor; JOIN türleri, alt sorgular ve saklı yordamlar ayrı ayrı ele alınmış. Resmî kılavuzdan çok daha okunur bir giriş.</summary>
+</entry>
+<entry>
+  <title>PostgreSQL Tutorial</title>
+  <link href="https://neon.com/postgresql/tutorial"/>
+  <id>https://neon.com/postgresql/tutorial</id>
+  <updated>2026-04-20T13:01:21Z</updated>
+  <summary>Her konuyu çalıştırılabilir sorguyla gösteren PostgreSQL öğreticisi. Pencere fonksiyonları ve CTE bölümleri, çoğu SQL kursunun atladığı yerde derinleşiyor.</summary>
+</entry>
+<entry>
+  <title>İlişkisel Veritabanı Tasarımı</title>
+  <link href="https://www.youtube.com/watch?v=26ls5lNiijk"/>
+  <id>https://www.youtube.com/watch?v=26ls5lNiijk</id>
+  <updated>2026-04-06T11:29:37Z</updated>
+  <summary>Normalizasyon formlarını ve şema tasarımını işleyen tam kurs. Sorgu yazmayı değil tabloyu doğru kurmayı öğretiyor — sonraki tüm sorunların kaynağı burası.</summary>
+</entry>
+<entry>
+  <title>Veritabanları Derinlemesine</title>
+  <link href="https://www.youtube.com/watch?v=pPqazMTzNOM"/>
+  <id>https://www.youtube.com/watch?v=pPqazMTzNOM</id>
+  <updated>2026-04-06T11:29:19Z</updated>
+  <summary>İndeks yapıları, işlem yalıtım seviyeleri ve kilitlenme gibi iç mekanizmaları anlatan kurs. Ürün öğreticisi değil; hangi veritabanını kullanırsan kullan geçerli.</summary>
+</entry>
+<entry>
+  <title>SQL Sıfırdan İleri Seviye</title>
+  <link href="https://www.youtube.com/watch?v=OT1RErkfLNQ"/>
+  <id>https://www.youtube.com/watch?v=OT1RErkfLNQ</id>
+  <updated>2026-04-06T11:29:04Z</updated>
+  <summary>Dört saatte temelden ileri seviyeye SQL; tek oturumda bütünü görmek isteyenler için. Pencere fonksiyonlarına kadar gidiyor, temel SELECT’te kalmıyor.</summary>
+</entry>
+</feed>
