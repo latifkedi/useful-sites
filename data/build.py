@@ -188,6 +188,7 @@ SRC_ADDED = {
     'cdcruz': 1787345600,      # 21 Aug 2026 intake
     'awesome-uw': 1787345600,
     'invesp': 1787345600,
+    'seccert': 1787777600,   # 26 Aug 2026 intake
 }
 for r in out:
     if 'added' not in r:

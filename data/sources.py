@@ -45,6 +45,13 @@ SOURCES = {
         'note_en': 'Surfaced by the awesome-useful-websites collection',
         'url': 'https://github.com/atakanaltok/awesome-useful-websites',
     },
+    'seccert': {
+        'label_tr': 'Sertifika Yol Haritası',
+        'label_en': 'Cert Roadmap',
+        'note_tr': 'Paul Jerimy’nin güvenlik sertifikası yol haritasından geldi',
+        'note_en': 'Surfaced by Paul Jerimy’s security certification roadmap',
+        'url': 'https://pauljerimy.com/security-certification-roadmap/',
+    },
     'invesp': {
         'label_tr': 'Invesp',
         'label_en': 'Invesp',

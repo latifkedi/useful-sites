@@ -119,6 +119,11 @@ PICKS = {
     # --- referans
     'https://ohshitgit.com/',                                                        # Oh Shit, Git!?!
     'https://teachyourselfcs.com/',                                                  # Teach Yourself CS
+    # --- sertifika yol haritasi alimi
+    'https://pauljerimy.com/security-certification-roadmap/',                        # Security Certification Roadmap
+    'https://www.offsec.com/',                                                       # OffSec
+    'https://www.comptia.org/',                                                      # CompTIA
+    'https://www.giac.org/',                                                         # GIAC
 }
 
 

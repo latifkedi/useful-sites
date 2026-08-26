@@ -53,6 +53,7 @@ PARTS = [
     'part_hw', 'part_misc', 'part_extra',
     'part_new', 'part_ext1', 'part_ext2',
     'part_cdcruz', 'part_awesome', 'part_invesp', 'part_ext3',
+    'part_seccert',
 ]
 
 import importlib  # noqa: E402
