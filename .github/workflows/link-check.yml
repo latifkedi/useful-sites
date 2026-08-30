@@ -40,6 +40,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         continue-on-error: true
 
+      - name: Audit description freshness
+        run: python data/ci_fresh.py
+        continue-on-error: true
+
       # verified.json feeds the "last verified" date shown on every entry, and
       # now also the dead marker. Without the commit below those dates freeze.
       - name: Commit the verification dates
@@ -60,7 +64,7 @@ jobs:
           script: |
             const fs = require('fs');
             const parts = [];
-            for (const f of ['rapor.md', 'rapor-github.md']) {
+            for (const f of ['rapor.md', 'rapor-github.md', 'rapor-tazelik.md']) {
               if (fs.existsSync(f)) parts.push(fs.readFileSync(f, 'utf8'));
             }
 
