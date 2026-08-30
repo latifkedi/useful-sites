@@ -29,6 +29,12 @@ jobs:
       - name: Smoke test the output
         run: python data/test_build.py
 
+      - name: Unit test the build helpers
+        run: python data/test_helpers.py
+
+      - name: Unit test the search/scoring logic
+        run: node test_search.js
+
       # The generated files are committed, so a rebuild must be a no-op. If it
       # is not, someone edited links.js or a category page by hand and the next
       # build would quietly discard the change.

@@ -45,6 +45,8 @@ overwrites it.
 | `ci_github.py` | Archive and staleness audit for linked GitHub repositories; writes `health.json` |
 | `ci_fresh.py` | Asks whether a link is still the thing we described — takeovers, parked domains, dated claims |
 | `test_build.py` | Smoke test over the build output; run it before committing |
+| `test_helpers.py` | Unit tests for build.py's and tags.py's pure helper functions |
+| `../test_search.js` | Unit tests for the client-side search/scoring logic (`node test_search.js`, no dependency) |
 | `make_og.py` | Regenerates `og.png`; the record count and address are baked into the pixels |
 | `extract.py` | Pulls technology links out of a browser bookmark file |
 | `check.py` | One-off liveness check |
