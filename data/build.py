@@ -27,7 +27,11 @@ from intros import INTROS             # noqa: E402
 from recat import BY_NAME            # noqa: E402
 import emit                           # noqa: E402
 
-BOOKMARKS = r'C:\Users\Cebrail\Documents\code\duzen\bookmarks_duzenli.html'
+# Overridable for a clone where the bookmark export sits somewhere else;
+# the default matches this repo's own layout (site/ nested under duzen/,
+# the raw export kept in duzen/raw/).
+BOOKMARKS = os.environ.get(
+    'BOOKMARKS_HTML', os.path.join(D, '..', '..', 'raw', 'bookmarks_duzenli.html'))
 def _load(name):
     p = os.path.join(D, name)
     return json.load(io.open(p, encoding='utf-8')) if os.path.exists(p) else []
