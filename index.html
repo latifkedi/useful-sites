@@ -66,7 +66,7 @@
   --bg:#fcfbf9;      --panel:#f5f2ec;
   --fg:#191817;      --dim:#57544e;      --faint:#77746d;
   --rule:#e4e0d8;    --rule2:#efebe3;
-  --accent:#a8451f;  --accent-soft:#f6ece6;
+  --accent:#a8451f;  --accent-soft:#f6ece6;  --accent-on:#fff;
   --serif:"Source Serif 4","Serif Fallback",Georgia,"Times New Roman",serif;
   --mark:#fbe6a0;
   --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
@@ -78,7 +78,7 @@
     --bg:#1a1c20;    --panel:#22252a;
     --fg:#e2e0da;    --dim:#a3a09a;      --faint:#86837c;
     --rule:#2c3037;  --rule2:#24272c;
-    --accent:#e78b62; --accent-soft:#2a211c;
+    --accent:#e78b62; --accent-soft:#2a211c;  --accent-on:#1a1c20;
     --mark:#5c4a15;
   }
 }
@@ -86,7 +86,7 @@
   --bg:#1a1c20;    --panel:#22252a;
   --fg:#e2e0da;    --dim:#a3a09a;      --faint:#86837c;
   --rule:#2c3037;  --rule2:#24272c;
-  --accent:#e78b62; --accent-soft:#2a211c;
+  --accent:#e78b62; --accent-soft:#2a211c;  --accent-on:#1a1c20;
   --mark:#5c4a15;
 }
 
@@ -160,6 +160,16 @@ h1{font:600 31px/1.2 var(--serif);margin:0;letter-spacing:-.014em}
 
 /* ---------------------------------------------------------------- layout */
 .cols{display:grid;grid-template-columns:212px 1fr;gap:48px;margin-top:30px;align-items:start}
+/* links.js must load and run before #t-sub/#tagbar/#srcbar/#nav/#list/#foot
+   have anything in them; the empty-to-full jump measured as 0.96 CLS
+   (wrap: 337px -> 940px) on first paint. Reserving height while they are
+   still empty removes the shift without moving anything once render()
+   fills them in. */
+#nav:empty, #list:empty{min-height:60vh}
+#t-sub:empty{min-height:56px}
+#tagbar:empty{min-height:130px}
+#srcbar:empty{min-height:34px}
+#foot:empty{min-height:160px}
 nav ol{list-style:none;margin:0;padding:0}
 nav li{border-bottom:1px solid var(--rule2)}
 nav li:last-child{border-bottom:0}
@@ -235,7 +245,10 @@ h2 .n{font-variant-numeric:tabular-nums}
 /* source and verification badges */
 .badge{font:11.5px/1 var(--mono);color:var(--faint);white-space:nowrap}
 .badge.ext{color:var(--accent);opacity:.8}
-.badge.dead{color:#fff;background:var(--accent);border-color:var(--accent);opacity:1}
+/* Dark-mode accent is light (#e78b62); white text on it measured 2.54:1,
+   below WCAG AA. --accent-on flips per theme so the badge warning the
+   reader about a dead link stays readable. */
+.badge.dead{color:var(--accent-on);background:var(--accent);border-color:var(--accent);opacity:1}
 .badge.repo{border:1px solid currentColor;border-radius:2px;padding:1px 5px;opacity:1}
 .badge.repo.warn{color:var(--dim)}
 .badge.repo.stop{color:var(--accent)}
@@ -710,7 +723,12 @@ var esc = function(s){return String(s).replace(/[&<>"]/g,function(c){
 
 function host(u){ try{ return new URL(u).hostname.replace(/^www\./,"") }catch(e){ return "" } }
 function fold(s){
-  return s.toLowerCase()
+  /* toLowerCase() turns "İ" (Turkish dotted capital I) into "i" plus a
+     combining dot (U+0307), not plain "i" -- so it has to be flattened
+     before toLowerCase runs, or that invisible mark survives and breaks
+     every substring match against it (e.g. "istanbul" no longer finds
+     a record titled "İstanbul"). */
+  return s.replace(/İ/g,"i").toLowerCase()
     .replace(/[ıİ]/g,"i").replace(/[şŞ]/g,"s").replace(/[ğĞ]/g,"g")
     .replace(/[üÜ]/g,"u").replace(/[öÖ]/g,"o").replace(/[çÇ]/g,"c");
 }
