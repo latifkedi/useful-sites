@@ -193,6 +193,7 @@ SRC_ADDED = {
     'awesome-uw': 1787345600,
     'invesp': 1787345600,
     'seccert': 1787777600,   # 26 Aug 2026 intake
+    'lowkwiki': 1789073600,  # 10 Sep 2026 intake
 }
 for r in out:
     if 'added' not in r:

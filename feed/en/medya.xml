@@ -5,7 +5,28 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/en/medya.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/en/medya.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/medya.xml</id>
-<updated>2026-08-21T20:53:20Z</updated>
+<updated>2026-09-10T20:53:20Z</updated>
+<entry>
+  <title>anything_about_game</title>
+  <link href="https://github.com/killop/anything_about_game"/>
+  <id>https://github.com/killop/anything_about_game</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A vast resource list covering every side of game development — graphics, engines, audio, academic papers. Unlike Awesome-Game-Analysis’s analysis focus it looks at the build side: it gathers every branch you need to make a game from scratch, not to dissect one.</summary>
+</entry>
+<entry>
+  <title>Awesome Game Analysis</title>
+  <link href="https://github.com/OTFCG/Awesome-Game-Analysis"/>
+  <id>https://github.com/OTFCG/Awesome-Game-Analysis</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A community-driven collection of resources on analysing video-game technology — engine internals, graphics techniques, file formats. Unlike game-making courses it looks the other way: not how to build, but working out what is inside shipped games.</summary>
+</entry>
+<entry>
+  <title>RetroReversing</title>
+  <link href="https://www.retroreversing.com/"/>
+  <id>https://www.retroreversing.com/</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A site of resources, tutorials and tools for reverse-engineering retro games — source leaks, hardware, decompilation. Unlike general reverse-engineering sites it centres on retro game hardware: it goes into console internals and period toolchains.</summary>
+</entry>
 <entry>
   <title>3Dassets.one</title>
   <link href="https://3dassets.one/"/>
@@ -264,26 +285,5 @@
   <id>https://mermaid.live/edit</id>
   <updated>2025-11-10T17:33:33Z</updated>
   <summary>Generates diagrams from text, so the source lives in version control with a readable diff. GitHub and GitLab render Mermaid natively.</summary>
-</entry>
-<entry>
-  <title>Moqups</title>
-  <link href="https://moqups.com/"/>
-  <id>https://moqups.com/</id>
-  <updated>2025-09-04T10:25:27Z</updated>
-  <summary>Browser wireframing and prototyping. It lacks Figma’s design depth but is lighter and sufficient for a quick flow or screen sketch.</summary>
-</entry>
-<entry>
-  <title>iLovePDF</title>
-  <link href="https://www.ilovepdf.com/"/>
-  <id>https://www.ilovepdf.com/</id>
-  <updated>2025-07-22T17:33:56Z</updated>
-  <summary>Merge, split, compress and convert with no installation. Be careful with sensitive documents — the file is uploaded to a server, and a local tool may be the better call.</summary>
-</entry>
-<entry>
-  <title>YouTube Video Kesici</title>
-  <link href="https://appsgolem.com/en/cut-youtube-video/"/>
-  <id>https://appsgolem.com/en/cut-youtube-video/</id>
-  <updated>2025-06-06T20:12:33Z</updated>
-  <summary>Cuts and downloads a specific range from a video — faster and kinder to disk than downloading the whole thing and trimming.</summary>
 </entry>
 </feed>

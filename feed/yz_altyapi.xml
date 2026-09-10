@@ -5,7 +5,21 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/yz_altyapi.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/yz_altyapi.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/yz_altyapi.xml</id>
-<updated>2026-08-21T20:53:20Z</updated>
+<updated>2026-09-10T20:53:20Z</updated>
+<entry>
+  <title>Bernstein</title>
+  <link href="https://github.com/sipyourdrink-ltd/bernstein"/>
+  <id>https://github.com/sipyourdrink-ltd/bernstein</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>AI ajanları için açık kaynak yönetişim katmanı; ajanların ne yapabileceğine dair kural ve sınırları uyguluyor. Ajan çatılarından farkı denetime bakması: ajanı kurmaz, kurulmuş bir ajanın eylemlerini politikayla sınırlar ve kayda geçirir.</summary>
+</entry>
+<entry>
+  <title>Tongyi DeepResearch</title>
+  <link href="https://github.com/Alibaba-NLP/DeepResearch"/>
+  <id>https://github.com/Alibaba-NLP/DeepResearch</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>Alibaba’nın açık kaynak “derin araştırma” ajan modeli; çok adımlı web araştırmasını kendi yürütüyor. Sohbet LLM’lerinden farkı ajan olması: tek yanıt vermek yerine araç çağırıp kaynak gezerek uzun bir araştırma görevini baştan sona tamamlıyor.</summary>
+</entry>
 <entry>
   <title>PromptLayer</title>
   <link href="https://promptlayer.com/"/>
@@ -271,19 +285,5 @@
   <id>https://ai.pydantic.dev/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>Model çıktısını Pydantic şemasına göre doğruluyor, uymazsa modele geri gönderip düzelttiriyor. Sonuçta serbest metin değil, tipi garanti edilmiş bir nesne alıyorsun.</summary>
-</entry>
-<entry>
-  <title>Semantic Kernel</title>
-  <link href="https://learn.microsoft.com/semantic-kernel/"/>
-  <id>https://learn.microsoft.com/semantic-kernel/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>C#, Python ve Java için tek API sunan agent SDK’sı. Kurumsal .NET yığınında yaşıyorsan Python ağırlıklı alternatiflerden çok daha az sürtünme çıkarıyor.</summary>
-</entry>
-<entry>
-  <title>W&amp;B Weave</title>
-  <link href="https://wandb.ai/site/weave/"/>
-  <id>https://wandb.ai/site/weave/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Weights &amp; Biases’ın LLM tarafı. Zaten W&amp;B ile eğitim izliyorsan, çıkarım izleri de aynı proje altında toplanıyor.</summary>
 </entry>
 </feed>

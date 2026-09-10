@@ -5,7 +5,35 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/en/web.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/en/web.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/web.xml</id>
-<updated>2026-08-21T20:53:20Z</updated>
+<updated>2026-09-10T20:53:20Z</updated>
+<entry>
+  <title>Docusaurus</title>
+  <link href="https://docusaurus.io/"/>
+  <id>https://docusaurus.io/</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>Meta’s React-based documentation-site generator, with versioning and translation built in. Unlike general static generators it is docs-first: it ships ready-made pieces like version archives and i18n aimed specifically at software documentation.</summary>
+</entry>
+<entry>
+  <title>Hugo</title>
+  <link href="https://gohugo.io/"/>
+  <id>https://gohugo.io/</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A static-site generator written in Go that turns Markdown into websites. Unlike Node-based generators its distinction is raw speed: it builds thousands of pages in seconds, from a single binary, with no JS dependency tree.</summary>
+</entry>
+<entry>
+  <title>Obsidian Digital Garden</title>
+  <link href="https://github.com/oleeskild/obsidian-digital-garden"/>
+  <id>https://github.com/oleeskild/obsidian-digital-garden</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>An Obsidian plugin that publishes notes straight into a live digital garden. Unlike generators such as Quartz it needs no build step: you publish from inside a note with one button, with no separate build pipeline to set up.</summary>
+</entry>
+<entry>
+  <title>Quartz</title>
+  <link href="https://quartz.jzhao.xyz/"/>
+  <id>https://quartz.jzhao.xyz/</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A generator that turns Markdown notes — Obsidian vaults especially — into a linked site. Unlike general static generators it preserves bidirectional links and backlinks: it publishes your digital garden with its network structure intact.</summary>
+</entry>
 <entry>
   <title>30 Seconds of Code</title>
   <link href="https://www.30secondsofcode.org/"/>
@@ -257,26 +285,5 @@
   <id>https://javascript.info/</id>
   <updated>2026-04-20T13:00:43Z</updated>
   <summary>Works the language front to back without skipping the hard parts: prototype chain, event loop, promises. MDN is the reference and this is the tutorial; they complement each other.</summary>
-</entry>
-<entry>
-  <title>Game UI Database</title>
-  <link href="https://www.gameuidatabase.com/"/>
-  <id>https://www.gameuidatabase.com/</id>
-  <updated>2026-04-20T11:54:09Z</updated>
-  <summary>Classifies game interfaces by screen type — inventory, map, settings, loading. No other field has an interface archive this systematic.</summary>
-</entry>
-<entry>
-  <title>MDN Web Docs</title>
-  <link href="https://developer.mozilla.org/en-US/"/>
-  <id>https://developer.mozilla.org/en-US/</id>
-  <updated>2026-04-20T11:48:10Z</updated>
-  <summary>The de facto reference for the web platform. Every page carries a browser compatibility table, which is where you check whether a feature works in Safari before shipping it.</summary>
-</entry>
-<entry>
-  <title>Google Fonts</title>
-  <link href="https://fonts.google.com/?preview.script=Latn"/>
-  <id>https://fonts.google.com/?preview.script=Latn</id>
-  <updated>2026-04-19T15:48:55Z</updated>
-  <summary>A catalogue of openly licensed typefaces you can download and self-host. Loading them from the CDN has been litigated in Germany on GDPR grounds, so self-hosting is the safer route.</summary>
 </entry>
 </feed>

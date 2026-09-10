@@ -2,7 +2,7 @@
 
 https://latifkedi.github.io/useful-sites/
 
-An annotated directory of 1,030 links covering software, artificial intelligence,
+An annotated directory of 1,080 links covering software, artificial intelligence,
 security, hardware and science, organised into 24 categories and published in
 Turkish and English.
 

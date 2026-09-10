@@ -5,7 +5,154 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/en/guvenlik.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/guvenlik.xml</id>
-<updated>2026-08-26T20:53:20Z</updated>
+<updated>2026-09-10T20:53:20Z</updated>
+<entry>
+  <title>Atypical OSINT Guide</title>
+  <link href="https://github.com/OffcierCia/non-typical-OSINT-guide"/>
+  <id>https://github.com/OffcierCia/non-typical-OSINT-guide</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A guide gathering OSINT techniques the usual tool lists skip — blockchain tracing, metadata, unconventional sources. Against standard OSINT lists it goes to the corners: it covers little-known methods rather than the tools everyone already names.</summary>
+</entry>
+<entry>
+  <title>Awesome Annual Security Reports</title>
+  <link href="https://github.com/jacobdjwilson/awesome-annual-security-reports"/>
+  <id>https://github.com/jacobdjwilson/awesome-annual-security-reports</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A list gathering the annual cybersecurity reports of research consultancies and government agencies in one place. Unlike reading a single report it is vendor-neutral: it sets them side by side so you can strip the marketing and compare the trends.</summary>
+</entry>
+<entry>
+  <title>Awesome Black Hat Tools</title>
+  <link href="https://github.com/UCYBERS/Awesome-Blackhat-Tools"/>
+  <id>https://github.com/UCYBERS/Awesome-Blackhat-Tools</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A list of tools officially presented at Black Hat events, and only those. Against general tool lists it has a bar to entry: each was demonstrated live on stage, so these are field-tested, vetted tools rather than random repositories.</summary>
+</entry>
+<entry>
+  <title>Awesome Game Security</title>
+  <link href="https://github.com/gmh5225/awesome-game-security"/>
+  <id>https://github.com/gmh5225/awesome-game-security</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A resource list specific to game security — anti-cheat, reverse engineering, protection bypasses. Unlike general reverse-engineering lists it centres on games, gathering domain-specific topics like anti-cheat systems and game protections together.</summary>
+</entry>
+<entry>
+  <title>Awesome Hacking</title>
+  <link href="https://github.com/Hack-with-Github/Awesome-Hacking"/>
+  <id>https://github.com/Hack-with-Github/Awesome-Hacking</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A list that collects awesome lists for hackers, pentesters and researchers. Unlike the individual topic lists it is the index above them: one door into dozens of sub-lists from OSINT to malware analysis.</summary>
+</entry>
+<entry>
+  <title>Awesome OSINT</title>
+  <link href="https://github.com/jivoi/awesome-osint"/>
+  <id>https://github.com/jivoi/awesome-osint</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A category-by-category list of open-source intelligence tools and resources (people, domains, social media, geolocation). Unlike a single-purpose OSINT tool it is the map: the field’s most-cited starting index for which tool fits which job.</summary>
+</entry>
+<entry>
+  <title>Awesome Web Security</title>
+  <link href="https://github.com/qazbnm456/awesome-web-security"/>
+  <id>https://github.com/qazbnm456/awesome-web-security</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A resource list focused on web security, split by attack class (XSS, SSRF, deserialisation). Against general hacking lists it is narrow and deep: it targets the web layer alone, gathering articles, tools and labs together for each vulnerability type.</summary>
+</entry>
+<entry>
+  <title>Citizen Lab Test Lists</title>
+  <link href="https://github.com/citizenlab/test-lists"/>
+  <id>https://github.com/citizenlab/test-lists</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>Country-by-country URL lists used to measure censorship — the sites to test for blocking. Unlike general domain lists their purpose is censorship detection: the source that measurement projects like OONI draw on to map which sites are blocked where.</summary>
+</entry>
+<entry>
+  <title>DandelionSprout Filters</title>
+  <link href="https://github.com/DandelionSprout/adfilt"/>
+  <id>https://github.com/DandelionSprout/adfilt</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>Hand-maintained ad/tracker filter lists for uBlock Origin and similar blockers, including a Nordic list. Unlike the default EasyList its coverage is regional and niche: it targets the local sites and special cases the main lists skip.</summary>
+</entry>
+<entry>
+  <title>HackTricks</title>
+  <link href="https://hacktricks.wiki/"/>
+  <id>https://hacktricks.wiki/</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A knowledge base giving pentest, red-team, web, cloud and privilege-escalation techniques as step-by-step commands. Unlike conceptual security books it is directly runnable: every page is concrete enough to say “throw this command at that port, look for this in the output” — a field reference, not theory.</summary>
+</entry>
+<entry>
+  <title>Infosec Reference</title>
+  <link href="https://github.com/rmusser01/Infosec_Reference"/>
+  <id>https://github.com/rmusser01/Infosec_Reference</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A vast security reference under one roof — red team, blue team, DFIR, AppSec and more. Unlike single-topic awesome lists it is holistic: instead of hunting a separate list per specialism, one annotated, organised reference in a single place.</summary>
+</entry>
+<entry>
+  <title>MISP Warning Lists</title>
+  <link href="https://github.com/MISP/misp-warninglists"/>
+  <id>https://github.com/MISP/misp-warninglists</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>Ready-made lists for weeding false positives out of threat indicators — public DNS resolvers, known cloud ranges, public services. Unlike raw indicator feeds it is the noise filter: it marks the legitimate infrastructure that should not raise an alarm.</summary>
+</entry>
+<entry>
+  <title>Not The Hidden Wiki</title>
+  <link href="https://github.com/notthehiddenwiki/NTHW"/>
+  <id>https://github.com/notthehiddenwiki/NTHW</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>An open wiki gathering 5,000+ cybersecurity links sorted by specialism. Against the dark-web directories its name plays on, it is entirely clearnet and legitimate: a plain starting point for tools, publications and training recordings, not a hidden service.</summary>
+</entry>
+<entry>
+  <title>Offensive-Resources</title>
+  <link href="https://github.com/Zeyad-Azima/Offensive-Resources"/>
+  <id>https://github.com/Zeyad-Azima/Offensive-Resources</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A resource set covering every branch of offensive security — infrastructure, wireless, IoT, exploit development, cloud — together with labs. Unlike single-topic lists it is broad and lab-focused: it points to environments where you can practise, not just read.</summary>
+</entry>
+<entry>
+  <title>OSCP Cheat Sheet</title>
+  <link href="https://github.com/0xsyr0/OSCP"/>
+  <id>https://github.com/0xsyr0/OSCP</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A continually updated cheat sheet of the commands and techniques the OSCP exam most often needs. Unlike general pentest notes it is pruned to the exam: focused on topics in OSCP+ scope like AD CS abuse, laid out for quick reference during the test.</summary>
+</entry>
+<entry>
+  <title>OSINT for Countries</title>
+  <link href="https://github.com/wddadk/OSINT-for-countries"/>
+  <id>https://github.com/wddadk/OSINT-for-countries</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A list that sorts OSINT resources by 193 countries and territories. Unlike global OSINT lists it is geographic: if you need a specific country’s public records, registries and local tools, you go straight to that heading.</summary>
+</entry>
+<entry>
+  <title>PoC-in-GitHub</title>
+  <link href="https://github.com/nomi-sec/PoC-in-GitHub"/>
+  <id>https://github.com/nomi-sec/PoC-in-GitHub</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A list that automatically harvests CVE proof-of-concept repositories from GitHub and updates daily. Against Trickest CVE it scans GitHub alone: for each vulnerability it states “this repo was published on this date” — the fastest route to a PoC (its README warns of malware).</summary>
+</entry>
+<entry>
+  <title>Snoop</title>
+  <link href="https://github.com/snooppr/snoop"/>
+  <id>https://github.com/snooppr/snoop</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A username hunter that searches one handle across hundreds of sites. Unlike tools such as Sherlock it weights the CIS/Russian-language web: it covers the regional platforms that western-focused tools miss.</summary>
+</entry>
+<entry>
+  <title>ThreatIntel-Reports</title>
+  <link href="https://github.com/mthcht/ThreatIntel-Reports"/>
+  <id>https://github.com/mthcht/ThreatIntel-Reports</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A repository that makes the content extracted from thousands of threat-intelligence reports searchable. Unlike the reports themselves it searches inside them: you enter a tool or APT-group name and it lists every report that mentions it at once.</summary>
+</entry>
+<entry>
+  <title>Trickest CVE</title>
+  <link href="https://github.com/trickest/cve"/>
+  <id>https://github.com/trickest/cve</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A repository that automatically gathers and keeps current every known CVE, with links to proof-of-concept code where it exists. Unlike official databases like the NVD it is exploit-focused: if you want to know where a vulnerability’s working code lives, it points straight to it.</summary>
+</entry>
+<entry>
+  <title>TweetFeed</title>
+  <link href="https://tweetfeed.live/"/>
+  <id>https://tweetfeed.live/</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A live IOC feed that collects malicious URLs, domains, IPs and hashes shared by the infosec community on Twitter/X, served as CSV/JSON/RSS/API. Unlike commercial threat feeds its source is open social posts and it is free: it turns researcher observations into real-time, machine-readable data.</summary>
+</entry>
 <entry>
   <title>CREST</title>
   <link href="https://www.crest-approved.org/"/>
@@ -138,152 +285,5 @@
   <id>https://pauljerimy.com/security-certification-roadmap/</id>
   <updated>2026-08-26T20:53:20Z</updated>
   <summary>An interactive chart placing security certifications across ten specialisms and four difficulty tiers. Unlike each body’s own pages it is vendor-neutral: competing certifications at the same level sit side by side, so you can see which is genuinely advanced without reading anyone’s marketing.</summary>
-</entry>
-<entry>
-  <title>TCM Security</title>
-  <link href="https://www.tcm-sec.com/"/>
-  <id>https://www.tcm-sec.com/</id>
-  <updated>2026-08-26T20:53:20Z</updated>
-  <summary>The body behind PNPT, whose exam is a five-day real engagement followed by a report and a live debrief. The debrief and a price around a tenth of OSCP’s are the differences — the shortest route to a practical certificate without a budget.</summary>
-</entry>
-<entry>
-  <title>The SecOps Group</title>
-  <link href="https://secops.group/"/>
-  <id>https://secops.group/</id>
-  <updated>2026-08-26T20:53:20Z</updated>
-  <summary>A body offering practical exams focused on application and API security. Against the broad-catalogue organisations its narrowness is the point: short, inexpensive exams that measure web and mobile penetration testing directly.</summary>
-</entry>
-<entry>
-  <title>AccountKiller</title>
-  <link href="https://www.accountkiller.com/en/home"/>
-  <id>https://www.accountkiller.com/en/home</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A directory of account removal instructions that also covers how to neutralise an account where no deletion path exists. That is the difference from JustDeleteMe: a plan B for the accounts you cannot delete.</summary>
-</entry>
-<entry>
-  <title>AdBlock Tester</title>
-  <link href="https://adblock-tester.com/"/>
-  <id>https://adblock-tester.com/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Scores how much your ad blocker actually stops, broken out by ads, trackers, social buttons and cookie notices. Unlike a simple &quot;is it working&quot; check it shows the gaps by category, which tells you which filter list you are missing.</summary>
-</entry>
-<entry>
-  <title>Awesome Fuzzing</title>
-  <link href="https://github.com/secfigo/Awesome-Fuzzing"/>
-  <id>https://github.com/secfigo/Awesome-Fuzzing</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A compilation of fuzzing resources: tools, books, talks, papers and practice environments. Against the OWASP page the difference is breadth — this is where you go after you understand the method.</summary>
-</entry>
-<entry>
-  <title>Cover Your Tracks</title>
-  <link href="https://coveryourtracks.eff.org/"/>
-  <id>https://coveryourtracks.eff.org/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>The EFF’s browser fingerprinting test, measuring how unique your browser looks and how well it resists trackers. Unlike the &quot;what is my IP&quot; sites it computes fingerprint entropy, which is how tracking actually works now.</summary>
-</entry>
-<entry>
-  <title>Cryptologie</title>
-  <link href="https://www.cryptologie.net/"/>
-  <id>https://www.cryptologie.net/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Cryptographer David Wong’s blog and notes on applied cryptography. Against academic papers it explains protocols from an implementer’s seat — not the theorem, but where real systems get it wrong.</summary>
-</entry>
-<entry>
-  <title>CTF 101</title>
-  <link href="https://ctf101.org/"/>
-  <id>https://ctf101.org/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A ground-up guide to the categories in Capture the Flag competitions: reverse engineering, cryptography, forensics, web. Unlike a competition platform it hands you the fundamentals rather than challenges — the thing to read before your first CTF.</summary>
-</entry>
-<entry>
-  <title>CTFtime</title>
-  <link href="https://ctftime.org/"/>
-  <id>https://ctftime.org/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>The calendar of CTF competitions, team rankings, and write-ups from past events. Against individual competition sites it is the central register — when an event runs and how last year’s challenges were solved, in one place.</summary>
-</entry>
-<entry>
-  <title>DeGoogle</title>
-  <link href="https://degoogle.jmoore.dev/"/>
-  <id>https://degoogle.jmoore.dev/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A list of alternatives for each Google product, organised category by category. Unlike general alternative-finder sites it is focused on leaving one provider, working through what replaces what in order.</summary>
-</entry>
-<entry>
-  <title>Google CTF</title>
-  <link href="https://github.com/google/google-ctf"/>
-  <id>https://github.com/google/google-ctf</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Every challenge from Google’s CTF competitions, with source code and solutions. Unlike other archives the challenge infrastructure is published too, so you can stand the whole thing up locally and work through it.</summary>
-</entry>
-<entry>
-  <title>Have I Been Pwned</title>
-  <link href="https://haveibeenpwned.com/"/>
-  <id>https://haveibeenpwned.com/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Checks whether an email address or password appears in known breaches. What separates it is Troy Hunt’s transparent methodology and the k-anonymity scheme for password lookups — your password never reaches the server.</summary>
-</entry>
-<entry>
-  <title>How Secure Is My Password</title>
-  <link href="https://www.security.org/how-secure-is-my-password/"/>
-  <id>https://www.security.org/how-secure-is-my-password/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Estimates how long a password would take to brute-force, computed in the browser so the password is never sent. Against a strength meter it gives a concrete number, which is how you feel what adding two characters does.</summary>
-</entry>
-<entry>
-  <title>IPLeak</title>
-  <link href="https://ipleak.net/"/>
-  <id>https://ipleak.net/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Shows what your connection leaks: IP, DNS servers, WebRTC local addresses, DNS leakage. That is the test that matters with a VPN on — WebRTC can still hand over your real IP, and this is where you see it.</summary>
-</entry>
-<entry>
-  <title>JustDeleteMe</title>
-  <link href="https://backgroundchecks.org/justdeleteme/"/>
-  <id>https://backgroundchecks.org/justdeleteme/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A directory of direct links to account deletion pages, each graded by difficulty. Against searching yourself, that grading is the point: you see in advance which services made deletion deliberately hard.</summary>
-</entry>
-<entry>
-  <title>LibRedirect</title>
-  <link href="https://libredirect.codeberg.page/"/>
-  <id>https://libredirect.codeberg.page/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A browser extension that redirects YouTube, Twitter, Reddit and Instagram links to privacy-respecting frontends such as Invidious, Nitter and Redlib. Against hunting for a frontend yourself, it skips the dead instances and picks a working one.</summary>
-</entry>
-<entry>
-  <title>mat2</title>
-  <link href="https://github.com/jvoisin/mat2"/>
-  <id>https://github.com/jvoisin/mat2</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A tool that strips metadata from files: GPS coordinates in a photo, the author field in a PDF, the revision history in an office document. Unlike exiftool the default is removal, so you are not left reasoning about which field survived.</summary>
-</entry>
-<entry>
-  <title>Mullvad VPN</title>
-  <link href="https://mullvad.net/en"/>
-  <id>https://mullvad.net/en</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A Swedish VPN that asks for no email at signup — it hands you a random account number and takes cash. What separates it is that anonymity plus published independent audits, and a flat price with no long-subscription discount games.</summary>
-</entry>
-<entry>
-  <title>OWASP Fuzzing</title>
-  <link href="https://owasp.org/www-community/Fuzzing"/>
-  <id>https://owasp.org/www-community/Fuzzing</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>An introduction to fuzzing from OWASP’s own community pages: how it works, which tools exist, which classes of bug it finds. Against a tool’s own documentation it describes the method neutrally.</summary>
-</entry>
-<entry>
-  <title>Privacy Guides</title>
-  <link href="https://www.privacyguides.org/en/"/>
-  <id>https://www.privacyguides.org/en/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A non-profit, volunteer-run evaluation of privacy tools against stated criteria. Unlike the &quot;best VPN&quot; listicles it takes no affiliate money and publishes the conditions each recommendation must meet, so the recommendation is arguable.</summary>
-</entry>
-<entry>
-  <title>PrivateBin</title>
-  <link href="https://privatebin.info/"/>
-  <id>https://privatebin.info/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A pastebin the server cannot read: the text is encrypted in the browser and the key lives in the URL fragment, which is never sent. That zero-knowledge design and burn-after-reading are the break from pastebin.com.</summary>
 </entry>
 </feed>

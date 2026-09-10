@@ -5,7 +5,35 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/web.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/web.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/web.xml</id>
-<updated>2026-08-21T20:53:20Z</updated>
+<updated>2026-09-10T20:53:20Z</updated>
+<entry>
+  <title>Docusaurus</title>
+  <link href="https://docusaurus.io/"/>
+  <id>https://docusaurus.io/</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>Meta’nın React tabanlı dokümantasyon sitesi üreticisi; sürümleme ve çeviri yerleşik geliyor. Genel statik üreticilerden farkı belge odaklı olması: özellikle yazılım dokümantasyonu için sürüm arşivi ve i18n gibi hazır parçalarla geliyor.</summary>
+</entry>
+<entry>
+  <title>Hugo</title>
+  <link href="https://gohugo.io/"/>
+  <id>https://gohugo.io/</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>Markdown içeriği statik sitelere dönüştüren, Go ile yazılmış üretici. Node tabanlı üreticilerden farkı ham hızı: binlerce sayfayı saniyeler içinde derliyor, tek ikili dosya, JS bağımlılık ağacı yok.</summary>
+</entry>
+<entry>
+  <title>Obsidian Digital Garden</title>
+  <link href="https://github.com/oleeskild/obsidian-digital-garden"/>
+  <id>https://github.com/oleeskild/obsidian-digital-garden</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>Obsidian notlarını doğrudan yayımlanmış bir dijital bahçeye çeviren eklenti. Quartz gibi üreticilerden farkı derleme adımı istememesi: not içinden tek düğmeyle yayınlıyorsun, ayrı bir build hattı kurmana gerek kalmıyor.</summary>
+</entry>
+<entry>
+  <title>Quartz</title>
+  <link href="https://quartz.jzhao.xyz/"/>
+  <id>https://quartz.jzhao.xyz/</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>Markdown notlarını — özellikle Obsidian kasalarını — bağlantılı bir siteye dönüştüren üretici. Genel statik üreticilerden farkı çift yönlü bağlantı ve geri-bağlantıları koruması: dijital bahçeni ağ yapısıyla birlikte yayımlıyor.</summary>
+</entry>
 <entry>
   <title>30 Seconds of Code</title>
   <link href="https://www.30secondsofcode.org/"/>
@@ -257,26 +285,5 @@
   <id>https://javascript.info/</id>
   <updated>2026-04-20T13:00:43Z</updated>
   <summary>Dili temelden ileriye sıralı işliyor; prototip zinciri, olay döngüsü ve Promise gibi zor konuları atlamıyor. MDN referanstır, bu öğreticidir — ikisi birbirini tamamlar.</summary>
-</entry>
-<entry>
-  <title>Game UI Database</title>
-  <link href="https://www.gameuidatabase.com/"/>
-  <id>https://www.gameuidatabase.com/</id>
-  <updated>2026-04-20T11:54:09Z</updated>
-  <summary>Oyun arayüzlerini ekran türüne göre sınıflandırıyor: envanter, harita, ayarlar, yükleme ekranı. Bu kadar sistematik bir arayüz arşivi başka alanlarda yok.</summary>
-</entry>
-<entry>
-  <title>MDN Web Docs</title>
-  <link href="https://developer.mozilla.org/en-US/"/>
-  <id>https://developer.mozilla.org/en-US/</id>
-  <updated>2026-04-20T11:48:10Z</updated>
-  <summary>Web platformunun fiilî referansı. Her sayfada tarayıcı uyumluluk tablosu var — bir özelliği kullanmadan önce Safari’de çalışıp çalışmadığını burada görürsün.</summary>
-</entry>
-<entry>
-  <title>Google Fonts</title>
-  <link href="https://fonts.google.com/?preview.script=Latn"/>
-  <id>https://fonts.google.com/?preview.script=Latn</id>
-  <updated>2026-04-19T15:48:55Z</updated>
-  <summary>Açık lisanslı yazı tipi kataloğu; dosyaları indirip kendi sunucundan servis edebiliyorsun. GDPR gerekçesiyle CDN’den çekmek Almanya’da dava konusu oldu, indirmek daha güvenli.</summary>
 </entry>
 </feed>

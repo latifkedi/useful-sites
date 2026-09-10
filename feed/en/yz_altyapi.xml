@@ -5,7 +5,21 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/en/yz_altyapi.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/en/yz_altyapi.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/yz_altyapi.xml</id>
-<updated>2026-08-21T20:53:20Z</updated>
+<updated>2026-09-10T20:53:20Z</updated>
+<entry>
+  <title>Bernstein</title>
+  <link href="https://github.com/sipyourdrink-ltd/bernstein"/>
+  <id>https://github.com/sipyourdrink-ltd/bernstein</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>An open-source governance layer for AI agents that enforces rules and limits on what agents may do. Unlike agent frameworks it is about control: it does not build the agent, it constrains a built agent’s actions with policy and logs them.</summary>
+</entry>
+<entry>
+  <title>Tongyi DeepResearch</title>
+  <link href="https://github.com/Alibaba-NLP/DeepResearch"/>
+  <id>https://github.com/Alibaba-NLP/DeepResearch</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>Alibaba’s open-source “deep research” agent model that runs multi-step web research on its own. Unlike chat LLMs it is an agent: rather than a single reply it calls tools and browses sources to carry a long research task from start to finish.</summary>
+</entry>
 <entry>
   <title>PromptLayer</title>
   <link href="https://promptlayer.com/"/>
@@ -271,19 +285,5 @@
   <id>https://ai.pydantic.dev/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>Validates model output against a Pydantic schema and sends it back for correction when it fails. What you get out is a type-guaranteed object, not free text.</summary>
-</entry>
-<entry>
-  <title>Semantic Kernel</title>
-  <link href="https://learn.microsoft.com/semantic-kernel/"/>
-  <id>https://learn.microsoft.com/semantic-kernel/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An agent SDK exposing one API across C#, Python and Java. If you live in an enterprise .NET stack it creates far less friction than the Python-centric alternatives.</summary>
-</entry>
-<entry>
-  <title>W&amp;B Weave</title>
-  <link href="https://wandb.ai/site/weave/"/>
-  <id>https://wandb.ai/site/weave/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The LLM side of Weights &amp; Biases. If you already track training there, inference traces land under the same project.</summary>
 </entry>
 </feed>

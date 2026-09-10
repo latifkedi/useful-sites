@@ -52,6 +52,13 @@ SOURCES = {
         'note_en': 'Surfaced by Paul Jerimy’s security certification roadmap',
         'url': 'https://pauljerimy.com/security-certification-roadmap/',
     },
+    'lowkwiki': {
+        'label_tr': 'Lowkenuinely Wikis',
+        'label_en': 'Lowkenuinely Wikis',
+        'note_tr': 'awesome-lowkenuinely-wikis derlemesinden geldi',
+        'note_en': 'Surfaced by the awesome-lowkenuinely-wikis collection',
+        'url': 'https://github.com/Te1eG0esbrr/awesome-lowkenuinely-wikis',
+    },
     'invesp': {
         'label_tr': 'Invesp',
         'label_en': 'Invesp',
