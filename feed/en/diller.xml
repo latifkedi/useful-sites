@@ -7,11 +7,39 @@
 <id>https://latifkedi.github.io/useful-sites/feed/en/diller.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Awesome C++</title>
+  <link href="https://github.com/uhub/awesome-cpp"/>
+  <id>https://github.com/uhub/awesome-cpp</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list organising C++ libraries and frameworks by topic. Unlike general search it is a maintained, categorised starting map.</summary>
+</entry>
+<entry>
+  <title>Awesome Elixir</title>
+  <link href="https://github.com/h4cc/awesome-elixir"/>
+  <id>https://github.com/h4cc/awesome-elixir</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A library list for the Elixir language and Erlang ecosystem. Unlike a Hex package search it is curated and grouped by topic.</summary>
+</entry>
+<entry>
+  <title>Awesome Ruby</title>
+  <link href="https://github.com/markets/awesome-ruby"/>
+  <id>https://github.com/markets/awesome-ruby</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list gathering Ruby libraries and tools category by category. Unlike a RubyGems search it is curated, current and grouped.</summary>
+</entry>
+<entry>
   <title>Awesome Rust</title>
   <link href="https://github.com/rust-unofficial/awesome-rust"/>
   <id>https://github.com/rust-unofficial/awesome-rust</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A list organising Rust libraries and applications by topic. Unlike a crates.io search it is a curated, categorised and maintained starting map.</summary>
+</entry>
+<entry>
+  <title>Awesome Scala</title>
+  <link href="https://github.com/lauris/awesome-scala"/>
+  <id>https://github.com/lauris/awesome-scala</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A topic-by-topic list of Scala libraries and tools. Unlike scattered search it shows functional and big-data libraries together.</summary>
 </entry>
 <entry>
   <title>JMH</title>
@@ -257,33 +285,5 @@
   <id>https://docs.python-guide.org/writing/style/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>A community guide to Python style, project layout and tooling — the “how it is written” part the language reference leaves out.</summary>
-</entry>
-<entry>
-  <title>Jackson</title>
-  <link href="https://github.com/FasterXML/jackson"/>
-  <id>https://github.com/FasterXML/jackson</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The de facto library for turning JSON into objects and back in Java. Unlike hand-written parsing it offers streaming, tree and data-binding modes under one roof.</summary>
-</entry>
-<entry>
-  <title>JUnit 5</title>
-  <link href="https://junit.org/junit5/"/>
-  <id>https://junit.org/junit5/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Java’s standard unit-testing framework; the base of writing and running tests. Unlike trying things in main it brings assertions, lifecycle hooks and parameterised tests.</summary>
-</entry>
-<entry>
-  <title>kudvenkat</title>
-  <link href="https://www.youtube.com/user/kudvenkat/"/>
-  <id>https://www.youtube.com/user/kudvenkat/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Long, orderly lecture series on .NET, C# and SQL Server. Against short tutorials each series advances like a syllabus — for learning the enterprise .NET stack from nothing.</summary>
-</entry>
-<entry>
-  <title>Learn Python</title>
-  <link href="https://www.learnpython.org"/>
-  <id>https://www.learnpython.org</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An interactive introduction teaching Python through in-browser exercises, with nothing to install. Against a book, each section ends in an exercise that runs — you see immediately whether it stuck.</summary>
 </entry>
 </feed>

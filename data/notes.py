@@ -100,7 +100,7 @@ PARTS = [
     'part_new', 'part_ext1', 'part_ext2',
     'part_cdcruz', 'part_awesome', 'part_invesp', 'part_ext3',
     'part_seccert', 'part_lowkwiki',
-    'part_econ', 'part_math', 'part_test', 'part_oyun_elektro', 'part_dataeng', 'part_rust', 'part_java', 'part_korsan',
+    'part_econ', 'part_math', 'part_test', 'part_oyun_elektro', 'part_dataeng', 'part_rust', 'part_java', 'part_korsan', 'part_awesome_lists',
 ]
 
 import importlib  # noqa: E402

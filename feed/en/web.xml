@@ -5,7 +5,28 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/en/web.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/en/web.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/web.xml</id>
-<updated>2026-09-10T20:53:20Z</updated>
+<updated>2026-09-18T00:00:00Z</updated>
+<entry>
+  <title>Awesome Angular</title>
+  <link href="https://github.com/PatrickJS/awesome-angular"/>
+  <id>https://github.com/PatrickJS/awesome-angular</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of components, tools and tutorials for the Angular application framework. Unlike the official docs it gathers community libraries and real examples.</summary>
+</entry>
+<entry>
+  <title>Awesome Svelte</title>
+  <link href="https://github.com/TheComputerM/awesome-svelte"/>
+  <id>https://github.com/TheComputerM/awesome-svelte</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of components and tools for Svelte and SvelteKit. Unlike React-heavy lists it shows the ecosystem specific to this compile-time framework.</summary>
+</entry>
+<entry>
+  <title>Awesome WebExtensions</title>
+  <link href="https://github.com/fregante/Awesome-WebExtensions"/>
+  <id>https://github.com/fregante/Awesome-WebExtensions</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A resource list for building cross-browser add-ons (WebExtensions). Unlike single-browser docs it focuses on the common API that works across Chrome, Firefox and Safari.</summary>
+</entry>
 <entry>
   <title>Docusaurus</title>
   <link href="https://docusaurus.io/"/>
@@ -264,26 +285,5 @@
   <id>https://tailwindcss.com/docs/installation/using-vite</id>
   <updated>2026-04-20T13:01:00Z</updated>
   <summary>You style with utility classes and the build step drops unused ones, so the CSS file stops growing. Bootstrap hands you components; this hands you building blocks.</summary>
-</entry>
-<entry>
-  <title>Angular</title>
-  <link href="https://angular.dev/"/>
-  <id>https://angular.dev/</id>
-  <updated>2026-04-20T13:00:56Z</updated>
-  <summary>Routing, forms, HTTP and dependency injection ship inside the framework. In React you pick each one; here the decisions are made for you, and flexibility narrows accordingly.</summary>
-</entry>
-<entry>
-  <title>React</title>
-  <link href="https://react.dev/learn"/>
-  <id>https://react.dev/learn</id>
-  <updated>2026-04-20T13:00:52Z</updated>
-  <summary>The rewritten official docs, centred on hooks with class components gone. The “You Might Not Need an Effect” page targets the single most common mistake head on.</summary>
-</entry>
-<entry>
-  <title>The Modern JavaScript Tutorial</title>
-  <link href="https://javascript.info/"/>
-  <id>https://javascript.info/</id>
-  <updated>2026-04-20T13:00:43Z</updated>
-  <summary>Works the language front to back without skipping the hard parts: prototype chain, event loop, promises. MDN is the reference and this is the tutorial; they complement each other.</summary>
 </entry>
 </feed>

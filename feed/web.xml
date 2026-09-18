@@ -5,7 +5,28 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/web.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/web.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/web.xml</id>
-<updated>2026-09-10T20:53:20Z</updated>
+<updated>2026-09-18T00:00:00Z</updated>
+<entry>
+  <title>Awesome Angular</title>
+  <link href="https://github.com/PatrickJS/awesome-angular"/>
+  <id>https://github.com/PatrickJS/awesome-angular</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Angular uygulama çatısı için bileşen, araç ve öğretici listesi. Resmî dokümandan farkı topluluk kütüphanelerini ve gerçek örnekleri toplaması.</summary>
+</entry>
+<entry>
+  <title>Awesome Svelte</title>
+  <link href="https://github.com/TheComputerM/awesome-svelte"/>
+  <id>https://github.com/TheComputerM/awesome-svelte</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Svelte ve SvelteKit için bileşen ve araç listesi. React ağırlıklı listelerden farkı bu derleme-zamanı çatısına özgü ekosistemi göstermesi.</summary>
+</entry>
+<entry>
+  <title>Awesome WebExtensions</title>
+  <link href="https://github.com/fregante/Awesome-WebExtensions"/>
+  <id>https://github.com/fregante/Awesome-WebExtensions</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Tarayıcılar arası eklenti (WebExtension) geliştirmek için kaynak listesi. Tek tarayıcı dokümanından farkı Chrome, Firefox ve Safari’de çalışan ortak API’ye odaklanması.</summary>
+</entry>
 <entry>
   <title>Docusaurus</title>
   <link href="https://docusaurus.io/"/>
@@ -264,26 +285,5 @@
   <id>https://tailwindcss.com/docs/installation/using-vite</id>
   <updated>2026-04-20T13:01:00Z</updated>
   <summary>Yardımcı sınıflarla stil yazıyorsun; derleme adımı kullanılmayan sınıfları atıyor, CSS dosyası büyümüyor. Bootstrap hazır bileşen verir, bu yapı taşı verir.</summary>
-</entry>
-<entry>
-  <title>Angular</title>
-  <link href="https://angular.dev/"/>
-  <id>https://angular.dev/</id>
-  <updated>2026-04-20T13:00:56Z</updated>
-  <summary>Yönlendirme, form, HTTP ve bağımlılık enjeksiyonu çatının içinde geliyor. React’te bunları tek tek seçersin; burada karar verilmiş, karşılığında esneklik dar.</summary>
-</entry>
-<entry>
-  <title>React</title>
-  <link href="https://react.dev/learn"/>
-  <id>https://react.dev/learn</id>
-  <updated>2026-04-20T13:00:52Z</updated>
-  <summary>Yeniden yazılmış resmî doküman; kancalar (hooks) merkezde, sınıf bileşenleri artık yok. “You Might Not Need an Effect” bölümü en sık yapılan hatayı doğrudan hedefliyor.</summary>
-</entry>
-<entry>
-  <title>The Modern JavaScript Tutorial</title>
-  <link href="https://javascript.info/"/>
-  <id>https://javascript.info/</id>
-  <updated>2026-04-20T13:00:43Z</updated>
-  <summary>Dili temelden ileriye sıralı işliyor; prototip zinciri, olay döngüsü ve Promise gibi zor konuları atlamıyor. MDN referanstır, bu öğreticidir — ikisi birbirini tamamlar.</summary>
 </entry>
 </feed>

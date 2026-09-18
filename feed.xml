@@ -7,12 +7,44 @@
 <id>https://latifkedi.github.io/useful-sites/</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Awesome C++</title>
+  <link href="https://github.com/uhub/awesome-cpp"/>
+  <id>https://github.com/uhub/awesome-cpp</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>C++ kütüphane ve çerçevelerini konuya göre düzenleyen liste. Genel aramadan farkı bakımı yapılan, kategorilenmiş bir başlangıç haritası olması.</summary>
+</entry>
+<entry>
+  <title>Awesome Elixir</title>
+  <link href="https://github.com/h4cc/awesome-elixir"/>
+  <id>https://github.com/h4cc/awesome-elixir</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Elixir dili ve Erlang ekosistemi için kütüphane listesi. Hex paket aramasından farkı seçilmiş ve konuya göre gruplanmış olması.</summary>
+</entry>
+<entry>
+  <title>Awesome Ruby</title>
+  <link href="https://github.com/markets/awesome-ruby"/>
+  <id>https://github.com/markets/awesome-ruby</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Ruby kütüphane ve araçlarını kategori kategori toplayan liste. RubyGems aramasından farkı seçilmiş, güncel ve gruplanmış olması.</summary>
+</entry>
+<entry>
   <title>Awesome Rust</title>
   <link href="https://github.com/rust-unofficial/awesome-rust"/>
   <id>https://github.com/rust-unofficial/awesome-rust</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <category term="Programlama Dilleri"/>
   <summary>Rust kütüphane ve uygulamalarını konuya göre düzenleyen liste. crates.io aramasından farkı seçilmiş, kategorilenmiş ve bakımı yapılan bir başlangıç haritası olması.</summary>
+</entry>
+<entry>
+  <title>Awesome Scala</title>
+  <link href="https://github.com/lauris/awesome-scala"/>
+  <id>https://github.com/lauris/awesome-scala</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Scala kütüphane ve araçlarının konuya göre listesi. Dağınık aramadan farkı fonksiyonel ve büyük veri kütüphanelerini bir arada göstermesi.</summary>
 </entry>
 <entry>
   <title>JMH</title>
@@ -101,6 +133,86 @@
   <updated>2026-09-18T00:00:00Z</updated>
   <category term="Programlama Dilleri"/>
   <summary>Java’ya kalıcı koleksiyonlar ve fonksiyonel kontrol yapıları getiren kütüphane. Standart koleksiyonlardan farkı değişmezliği ve Try/Either gibi tipleri öne alması.</summary>
+</entry>
+<entry>
+  <title>Awesome Angular</title>
+  <link href="https://github.com/PatrickJS/awesome-angular"/>
+  <id>https://github.com/PatrickJS/awesome-angular</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Web &amp; Frontend"/>
+  <summary>Angular uygulama çatısı için bileşen, araç ve öğretici listesi. Resmî dokümandan farkı topluluk kütüphanelerini ve gerçek örnekleri toplaması.</summary>
+</entry>
+<entry>
+  <title>Awesome Svelte</title>
+  <link href="https://github.com/TheComputerM/awesome-svelte"/>
+  <id>https://github.com/TheComputerM/awesome-svelte</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Web &amp; Frontend"/>
+  <summary>Svelte ve SvelteKit için bileşen ve araç listesi. React ağırlıklı listelerden farkı bu derleme-zamanı çatısına özgü ekosistemi göstermesi.</summary>
+</entry>
+<entry>
+  <title>Awesome WebExtensions</title>
+  <link href="https://github.com/fregante/Awesome-WebExtensions"/>
+  <id>https://github.com/fregante/Awesome-WebExtensions</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Web &amp; Frontend"/>
+  <summary>Tarayıcılar arası eklenti (WebExtension) geliştirmek için kaynak listesi. Tek tarayıcı dokümanından farkı Chrome, Firefox ve Safari’de çalışan ortak API’ye odaklanması.</summary>
+</entry>
+<entry>
+  <title>Awesome Deno</title>
+  <link href="https://github.com/denolib/awesome-deno"/>
+  <id>https://github.com/denolib/awesome-deno</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Backend, API &amp; Sistem Tasarımı"/>
+  <summary>Node’a güvenlik ve TypeScript odaklı bir alternatif olan Deno için kaynak listesi. Node listelerinden farkı bu güvenli çalışma zamanına özgü modülleri toplaması.</summary>
+</entry>
+<entry>
+  <title>Awesome Node.js</title>
+  <link href="https://github.com/sindresorhus/awesome-nodejs"/>
+  <id>https://github.com/sindresorhus/awesome-nodejs</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Backend, API &amp; Sistem Tasarımı"/>
+  <summary>Node.js paket ve kaynaklarını konuya göre düzenleyen liste. npm aramasından farkı seçilmiş, kalitesi denetlenmiş bir başlangıç noktası olması.</summary>
+</entry>
+<entry>
+  <title>Awesome PHP</title>
+  <link href="https://github.com/ziadoz/awesome-php"/>
+  <id>https://github.com/ziadoz/awesome-php</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Backend, API &amp; Sistem Tasarımı"/>
+  <summary>PHP kütüphane, çerçeve ve araçlarını konuya göre toplayan liste. Packagist aramasından farkı seçilmiş ve modern PHP pratiğine göre düzenlenmiş olması.</summary>
+</entry>
+<entry>
+  <title>Awesome Android</title>
+  <link href="https://github.com/JStumpp/awesome-android"/>
+  <id>https://github.com/JStumpp/awesome-android</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Mobil &amp; Masaüstü"/>
+  <summary>Android geliştirme için kütüphane, araç ve öğrenme kaynağı listesi. Genel aramadan farkı mimariden UI’ye kadar kategorilere ayrılmış olması.</summary>
+</entry>
+<entry>
+  <title>Awesome Flutter</title>
+  <link href="https://github.com/Solido/awesome-flutter"/>
+  <id>https://github.com/Solido/awesome-flutter</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Mobil &amp; Masaüstü"/>
+  <summary>Flutter ile çapraz platform uygulama geliştirmek için paket, örnek ve öğretici listesi. Resmî katalogtan farkı topluluk paketlerini ve gerçek uygulama örneklerini bir araya getirmesi.</summary>
+</entry>
+<entry>
+  <title>Awesome React Native</title>
+  <link href="https://github.com/jondot/awesome-react-native"/>
+  <id>https://github.com/jondot/awesome-react-native</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Mobil &amp; Masaüstü"/>
+  <summary>React Native ile mobil geliştirme için bileşen ve araç listesi. Web React listelerinden farkı yerel mobil bileşenlere ve köprülere odaklanması.</summary>
+</entry>
+<entry>
+  <title>Awesome Swift</title>
+  <link href="https://github.com/matteocrippa/awesome-swift"/>
+  <id>https://github.com/matteocrippa/awesome-swift</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Mobil &amp; Masaüstü"/>
+  <summary>Apple’ın Swift dili için kütüphane ve araç listesi. Genel iOS listelerinden farkı doğrudan dile ve paketlerine odaklanması.</summary>
 </entry>
 <entry>
   <title>Applitools Demo</title>
@@ -213,117 +325,5 @@
   <updated>2026-09-18T00:00:00Z</updated>
   <category term="Test &amp; Kalite"/>
   <summary>API isteklerini oluşturup koleksiyon hâlinde saklayan ve test eden masaüstü/bulut aracı. curl’den farkı isteği kaydetme, ortam değişkeni ve otomatik test dizisi çalıştırma.</summary>
-</entry>
-<entry>
-  <title>Practice Software Testing</title>
-  <link href="https://practicesoftwaretesting.com/"/>
-  <id>https://practicesoftwaretesting.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
-  <summary>Hem UI hem REST API’si olan, gerçekçi bir alet dükkânı demosu; uçtan uca test için tasarlanmış. Eski demolardan farkı modern yığın (React + API + Swagger) üzerinde olması.</summary>
-</entry>
-<entry>
-  <title>randomuser.me</title>
-  <link href="https://randomuser.me/"/>
-  <id>https://randomuser.me/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
-  <summary>İstenen sayıda sahte kullanıcı (ad, adres, foto) üreten API. Sabit fikstürlerden farkı her çağrıda çeşitli ve gerçekçi veri vermesi — form ve liste testleri için.</summary>
-</entry>
-<entry>
-  <title>Reqres</title>
-  <link href="https://reqres.in/"/>
-  <id>https://reqres.in/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
-  <summary>AJAX isteklerine gerçek yanıt veren barındırılmış REST API’si; sayfalama ve gecikme simülasyonu var. JSONPlaceholder’dan farkı yanıt gecikmesi ve hata durumlarını da taklit edebilmesi.</summary>
-</entry>
-<entry>
-  <title>Restful-Booker</title>
-  <link href="https://restful-booker.herokuapp.com/"/>
-  <id>https://restful-booker.herokuapp.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
-  <summary>Oda rezervasyonunu taklit eden, kimlik doğrulamalı ve iyi belgelenmiş bir test API’si. Sahte API’lerden farkı yazma işlemleri ve auth içermesi — tam bir CRUD akışı denenebiliyor.</summary>
-</entry>
-<entry>
-  <title>Rick and Morty API</title>
-  <link href="https://rickandmortyapi.com/"/>
-  <id>https://rickandmortyapi.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
-  <summary>Karakter, bölüm ve mekân verisi veren, hem REST hem GraphQL sunan ücretsiz API. Tek protokollü API’lerden farkı aynı veriyi iki arayüzle sunup ikisini de denetmesi.</summary>
-</entry>
-<entry>
-  <title>Sauce Demo</title>
-  <link href="https://www.saucedemo.com/"/>
-  <id>https://www.saucedemo.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
-  <summary>Otomasyon öğrenmek için hazır giriş bilgileriyle gelen örnek alışveriş sitesi; bazı kullanıcılar kasıtlı olarak bozuk davranır. Rastgele demolardan farkı senaryonun kararlı ve tekrarlanabilir olması.</summary>
-</entry>
-<entry>
-  <title>SelectorsHub · XPath Practice</title>
-  <link href="https://selectorshub.com/xpath-practice-page/"/>
-  <id>https://selectorshub.com/xpath-practice-page/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
-  <summary>Karmaşık XPath ve CSS seçicileri yazmayı denemek için özel olarak zorlaştırılmış sayfa. Genel demolardan farkı iç içe iframe ve shadow DOM gibi seçici cehennemlerini barındırması.</summary>
-</entry>
-<entry>
-  <title>SSL Labs Server Test</title>
-  <link href="https://www.ssllabs.com/ssltest/"/>
-  <id>https://www.ssllabs.com/ssltest/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
-  <summary>Bir sitenin TLS yapılandırmasını tarayıp A–F notu veren test. Tarayıcı kilidinden farkı sertifika zinciri, protokol ve şifre takımı düzeyinde ayrıntı vermesi.</summary>
-</entry>
-<entry>
-  <title>Swagger Petstore</title>
-  <link href="https://petstore.swagger.io/"/>
-  <id>https://petstore.swagger.io/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
-  <summary>Swagger UI önyüzüyle gelen kanonik örnek API — OpenAPI öğrenmenin standart yeri. Diğer sahte API’lerden farkı arayüzün doğrudan spesifikasyondan üretilmiş olması.</summary>
-</entry>
-<entry>
-  <title>The Internet (Herokuapp)</title>
-  <link href="https://the-internet.herokuapp.com/"/>
-  <id>https://the-internet.herokuapp.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
-  <summary>Otomasyonu zorlayan ortak senaryoları (iframe, dosya yükleme, kayan menü) tek tek toplayan klasik alıştırma sitesi. Demo mağazalardan farkı her sayfanın tek bir zorluğu öğretmesi.</summary>
-</entry>
-<entry>
-  <title>UI Test Automation Playground</title>
-  <link href="https://www.uitestingplayground.com/"/>
-  <id>https://www.uitestingplayground.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
-  <summary>Modern web’de otomasyonu tökezleten tuzakları (gecikmeli yükleme, gizli öğe, dinamik id) sergileyen site. Genel demolardan farkı doğrudan “neden testim kırılıyor” sorusuna odaklanması.</summary>
-</entry>
-<entry>
-  <title>WebPageTest</title>
-  <link href="https://www.webpagetest.org/"/>
-  <id>https://www.webpagetest.org/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
-  <summary>Bir sayfanın yükleme performansını gerçek cihaz ve konumlardan ölçen test. Lighthouse’tan farkı şelale, film şeridi ve çoklu lokasyon karşılaştırması vermesi.</summary>
-</entry>
-<entry>
-  <title>Awesome Game Boy Dev</title>
-  <link href="https://github.com/gbdev/awesome-gbdev"/>
-  <id>https://github.com/gbdev/awesome-gbdev</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Oyun Geliştirme"/>
-  <summary>Game Boy için oyun geliştirme — assembler, araç ve donanım belgeleri. Modern motor listelerinden farkı kısıtlı retro donanıma programlamaya odaklanması.</summary>
-</entry>
-<entry>
-  <title>Awesome Game Development</title>
-  <link href="https://github.com/Calinou/awesome-gamedev"/>
-  <id>https://github.com/Calinou/awesome-gamedev</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Oyun Geliştirme"/>
-  <summary>Motorlardan varlık araçlarına oyun geliştirmenin tüm dallarını kapsayan kaynak listesi. Tek motora bağlı listelerden farkı motor-bağımsız, geniş bir başlangıç haritası olması.</summary>
 </entry>
 </feed>

@@ -7,11 +7,39 @@
 <id>https://latifkedi.github.io/useful-sites/feed/diller.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Awesome C++</title>
+  <link href="https://github.com/uhub/awesome-cpp"/>
+  <id>https://github.com/uhub/awesome-cpp</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>C++ kütüphane ve çerçevelerini konuya göre düzenleyen liste. Genel aramadan farkı bakımı yapılan, kategorilenmiş bir başlangıç haritası olması.</summary>
+</entry>
+<entry>
+  <title>Awesome Elixir</title>
+  <link href="https://github.com/h4cc/awesome-elixir"/>
+  <id>https://github.com/h4cc/awesome-elixir</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Elixir dili ve Erlang ekosistemi için kütüphane listesi. Hex paket aramasından farkı seçilmiş ve konuya göre gruplanmış olması.</summary>
+</entry>
+<entry>
+  <title>Awesome Ruby</title>
+  <link href="https://github.com/markets/awesome-ruby"/>
+  <id>https://github.com/markets/awesome-ruby</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Ruby kütüphane ve araçlarını kategori kategori toplayan liste. RubyGems aramasından farkı seçilmiş, güncel ve gruplanmış olması.</summary>
+</entry>
+<entry>
   <title>Awesome Rust</title>
   <link href="https://github.com/rust-unofficial/awesome-rust"/>
   <id>https://github.com/rust-unofficial/awesome-rust</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Rust kütüphane ve uygulamalarını konuya göre düzenleyen liste. crates.io aramasından farkı seçilmiş, kategorilenmiş ve bakımı yapılan bir başlangıç haritası olması.</summary>
+</entry>
+<entry>
+  <title>Awesome Scala</title>
+  <link href="https://github.com/lauris/awesome-scala"/>
+  <id>https://github.com/lauris/awesome-scala</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Scala kütüphane ve araçlarının konuya göre listesi. Dağınık aramadan farkı fonksiyonel ve büyük veri kütüphanelerini bir arada göstermesi.</summary>
 </entry>
 <entry>
   <title>JMH</title>
@@ -257,33 +285,5 @@
   <id>https://docs.python-guide.org/writing/style/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>Python’da üslup, proje düzeni ve araç seçimi üzerine topluluk rehberi. Dil referansının anlatmadığı “nasıl yazılır” kısmı.</summary>
-</entry>
-<entry>
-  <title>Jackson</title>
-  <link href="https://github.com/FasterXML/jackson"/>
-  <id>https://github.com/FasterXML/jackson</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Java’da JSON’u nesneye ve nesneyi JSON’a çeviren fiili standart kütüphane. El yazımı ayrıştırmadan farkı akış, ağaç ve veri-bağlama modlarını tek çatıda vermesi.</summary>
-</entry>
-<entry>
-  <title>JUnit 5</title>
-  <link href="https://junit.org/junit5/"/>
-  <id>https://junit.org/junit5/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Java’nın standart birim test çatısı; test yazımı ve çalıştırmanın temeli. Elle main’de denemekten farkı iddialar, yaşam döngüsü kancaları ve parametreli testler getirmesi.</summary>
-</entry>
-<entry>
-  <title>kudvenkat</title>
-  <link href="https://www.youtube.com/user/kudvenkat/"/>
-  <id>https://www.youtube.com/user/kudvenkat/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>.NET, C# ve SQL Server konularında uzun ve düzenli ders serileri. Kısa öğreticilerden farkı her serinin bir müfredat gibi ilerlemesi — kurumsal .NET yığınını sıfırdan öğrenmek için.</summary>
-</entry>
-<entry>
-  <title>Learn Python</title>
-  <link href="https://www.learnpython.org"/>
-  <id>https://www.learnpython.org</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Python’ı tarayıcıdaki alıştırmalarla öğreten etkileşimli giriş; kurulum gerektirmiyor. Kitaplardan farkı her bölümün sonunda çalıştırılan bir alıştırma olması — okuduğunun oturduğunu hemen görüyorsun.</summary>
 </entry>
 </feed>
