@@ -28,15 +28,6 @@ def load(add):
       'recommended. Unlike other roadmaps it refuses to offer options: it settles the "which '
       'resource" argument for you and explains why it chose that one.',
       'ogrenme')
-    a('https://everythingcomputerscience.com/', 'Everything Computer Science',
-      ['referans', 'ücretsiz', 'müfredat'],
-      'Bilgisayar bilimi konularını derleyen kaynak portalı: algoritma, işletim sistemi, derleyici, '
-      'yapay zeka. Üniversite müfredatlarından farkı her konuya ait ders, kitap ve alıştırmayı bir '
-      'arada listelemesi — çalışma sırası kurmak için.',
-      'A portal collecting computer science material across algorithms, operating systems, '
-      'compilers and AI. Against a university syllabus it lists courses, books and exercises per '
-      'topic together, which is what you need to build a study order.',
-      'ogrenme')
     a('https://www.learnbyexample.org/', 'LearnByExample', ['öğretici', 'python', 'ücretsiz'],
       'Python, SQL ve R’ı çalıştırılabilir örneklerle öğreten site; her kavram tek bir küçük '
       'kod parçasıyla açılıyor. Belgelerden farkı sıra: önce çalışan örnek, sonra açıklama — '

@@ -353,15 +353,6 @@ def load(add):
       'IT Tools it keeps visual and textual tools together — colour, image and code utilities in '
       'one place.',
       'araclar')
-    a('https://hotkeycheatsheet.com/', 'Hotkey Cheatsheet',
-      ['kopya-kâğıdı', 'ücretsiz', 'referans'],
-      'Yaygın uygulamaların klavye kısayollarını tek yerde toplayan referans. Uygulamanın kendi '
-      'belgelerinden farkı karşılaştırma imkânı — aynı işin farklı programlardaki kısayolunu yan '
-      'yana görüyorsun.',
-      'A reference collecting the keyboard shortcuts of common applications in one place. Against '
-      'each application’s own documentation it allows comparison — the same action’s shortcut in '
-      'several programs, side by side.',
-      'referans')
     a('https://www.keybr.com/', 'keybr.com', ['interaktif', 'ücretsiz'],
       'On parmak yazmayı öğreten alıştırma; hangi harfte zorlandığını ölçüp metni ona göre '
       'üretiyor. Sabit metinli yazma testlerinden farkı bu uyarlama — zayıf harfleri daha sık '
