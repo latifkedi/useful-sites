@@ -292,6 +292,10 @@ mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:2px}
 .lead b{font-weight:600;color:var(--accent)}
 .hsec{font:13px/1 var(--mono);text-transform:uppercase;letter-spacing:.1em;
   color:var(--faint);margin:0 0 16px}
+.field{margin:0 0 30px}
+.field:last-of-type{margin-bottom:0}
+.fh{font:600 20px/1.2 var(--serif);margin:0 0 12px;display:flex;align-items:baseline;gap:12px}
+.fh::after{content:"";flex:1 1 auto;height:1px;background:var(--rule);align-self:center}
 .cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;
   background:var(--rule);border:1px solid var(--rule);border-radius:4px;overflow:hidden}
 .card{
@@ -566,7 +570,7 @@ dialog#sub::backdrop{background:rgba(0,0,0,.45)}
 
 <button class="btn" id="top" type="button" title="Yukarı">↑</button>
 
-<script src="links.js?v=8f0da209"></script>
+<script src="links.js?v=0fb2ce3b"></script>
 <script>
 (function(){
 "use strict";
@@ -764,6 +768,11 @@ var CATS = (function(){
   });
   return out;
 })();
+
+/* Top-level fields (from build). Each groups a run of categories; the homepage
+   and category rail render under these headings. Fields with no populated
+   category are dropped at render time. */
+var GROUPS = window.GROUPS || [];
 
 var TAGCOUNT = {};
 data.forEach(function(d){ (d.tags||[]).forEach(function(t){ TAGCOUNT[t]=(TAGCOUNT[t]||0)+1 }) });
@@ -1044,10 +1053,14 @@ function homeHTML(L){
   var enBuyuk = 1;
   CATS.forEach(function(c){ enBuyuk = Math.max(enBuyuk, (byCat[c.key] || []).length) });
 
-  var cards = CATS.map(function(c){
-    var rows = byCat[c.key] || [];
-    if(!rows.length) return "";
-    var intro = (INTROS[c.key] || ["",""])[lang === "tr" ? 0 : 1];
+  var byKey = {};
+  CATS.forEach(function(c){ byKey[c.key] = c });
+
+  function cardFor(key){
+    var c = byKey[key];
+    var rows = byCat[key] || [];
+    if(!c || !rows.length) return "";
+    var intro = (INTROS[key] || ["",""])[lang === "tr" ? 0 : 1];
     /* Alfabetik ilk uc kayit kotu ornek oluyor ("1000 Projects, 20 Proje...").
        Once o kategorinin baslangic noktalari, yetmezse arasindan secilenler. */
     var sec = rows.filter(function(d){ return d.pick }).slice(0, 3);
@@ -1060,13 +1073,29 @@ function homeHTML(L){
     var ornek = sec.map(function(d){ return d.name }).join(" · ");
     var tier = rows.length >= 60 ? " lg" : (rows.length >= 34 ? " md" : "");
     var pay = Math.round(rows.length / enBuyuk * 100);
-    return '<a class="card'+tier+'" href="?cat='+esc(c.key)+'" data-cat="'+esc(c.key)+'">'+
+    return '<a class="card'+tier+'" href="?cat='+esc(key)+'" data-cat="'+esc(key)+'">'+
              '<span class="ch">'+esc(c[lang])+'<span class="n">'+rows.length+'</span></span>'+
              '<span class="bar"><i style="width:'+pay+'%"></i></span>'+
              '<p class="cd">'+esc(firstSentence(intro))+'</p>'+
              '<span class="cs">'+esc(ornek)+'</span>'+
            '</a>';
-  }).join("");
+  }
+
+  /* Group category cards under their field heading. Any category not named in
+     a field (should not happen) falls through into a trailing "Diğer" block so
+     nothing is ever silently dropped. */
+  var placed = {}, fields = [];
+  GROUPS.forEach(function(g){
+    var cards = g.cats.map(function(k){ placed[k] = 1; return cardFor(k); }).join("");
+    if(/<a /.test(cards)) fields.push(
+      '<section class="field"><h3 class="fh">'+esc(g[lang])+'</h3>'+
+      '<div class="cards">'+cards+'</div></section>');
+  });
+  var leftover = CATS.filter(function(c){ return !placed[c.key] })
+                     .map(function(c){ return cardFor(c.key) }).join("");
+  if(/<a /.test(leftover)) fields.push(
+    '<section class="field"><h3 class="fh">'+(lang==="tr"?"Diğer":"Other")+'</h3>'+
+    '<div class="cards">'+leftover+'</div></section>');
 
   return '<div class="home">'+
     '<p class="lead">'+L.lead(data.length, CATS.length)+'</p>'+
@@ -1079,7 +1108,7 @@ function homeHTML(L){
         }).join("")+'</div>'
       : "")+
     '<p class="hsec">'+esc(L.hCats)+'</p>'+
-    '<div class="cards">'+cards+'</div>'+
+    fields.join("")+
     '<p class="hlinks">'+
       '<a href="?new=1" data-recent="1">'+esc(L.recent)+' →</a>'+
       '<a href="?sort=az" data-all="1">'+esc(L.hAll)+'</a>'+
@@ -1347,7 +1376,7 @@ function setLang(next){
   if(lang === "en" && !window.LINKS_EN && !enLoading){
     enLoading = true;
     var s = document.createElement("script");
-    s.src = "links.en.js?v=e01a12c3";
+    s.src = "links.en.js?v=43892950";
     s.onload = s.onerror = function(){ enLoading = false; indexEN(); render() };
     document.head.appendChild(s);
   }

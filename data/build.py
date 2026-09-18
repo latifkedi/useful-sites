@@ -19,7 +19,7 @@ import collections
 
 D = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, D)
-from notes import NOTES, CATS          # noqa: E402
+from notes import NOTES, CATS, GROUPS  # noqa: E402
 from tags import normalise, LABELS    # noqa: E402
 from picks import PICKS               # noqa: E402
 from sources import SOURCES, DEFAULT  # noqa: E402
@@ -259,10 +259,13 @@ for i, r in enumerate(core):
         r['rel'] = rel
 
 J = dict(ensure_ascii=False, separators=(',', ':'))
+groups = [{'key': k, 'tr': tr, 'en': en_, 'cats': cats}
+          for (k, tr, en_, cats) in GROUPS]
 io.open(os.path.join(D, '..', 'links.js'), 'w', encoding='utf-8').write(
     '/* Otomatik uretildi - data/build.py */\n'
     'window.SOURCES=' + json.dumps(SOURCES, **J) + ';\n'
     'window.TAGLABELS=' + json.dumps(LABELS, **J) + ';\n'
+    'window.GROUPS=' + json.dumps(groups, **J) + ';\n'
     'window.INTROS=' + json.dumps(INTROS, **J) + ';\n'
     'window.LINKS=' + json.dumps(core, **J) + ';\n')
 io.open(os.path.join(D, '..', 'links.en.js'), 'w', encoding='utf-8').write(
