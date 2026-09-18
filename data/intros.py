@@ -7,6 +7,15 @@ area, which distinction matters. The point is to turn a list into a guide
 """
 
 INTROS = {
+    'korsan': (
+        'Bu alan tek tek içerik sitelerini değil, iki şeyi toplar: nereye bakılacağını gösteren '
+        'meta-merkezler (FMHY, topluluk wiki’leri) ve büyük ölçüde yasal, açık kaynak medya araç '
+        'zinciri — Plex/Jellyfin sunar, *arr otomasyonu düzenler, qBittorrent ve SABnzbd indirir. '
+        'Araçlar meşrudur; onları nasıl kullandığın sana bağlı.',
+        'This field gathers not individual content sites but two things: meta-hubs that show where to '
+        'look (FMHY, community wikis) and the largely legal, open-source media toolchain — Plex/Jellyfin '
+        'serve, the *arr suite organises, qBittorrent and SABnzbd download. The tools are legitimate; '
+        'how you use them is up to you.'),
     'veri_muh': (
         'Veri mühendisliği veriyi taşımak, dönüştürmek ve güvenilir kılmakla ilgilenir — analizden önceki '
         'katman. Spark ve Flink işler, Kafka taşır, dbt dönüştürür, Airflow ve Dagster orkestra eder; '
