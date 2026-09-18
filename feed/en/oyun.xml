@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title>Game Development — Useful Sites</title>
+<subtitle>An annotated directory of links on software, AI, security and science. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/oyun.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/oyun.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/en/oyun.xml</id>
+<updated>2026-09-18T00:00:00Z</updated>
+<entry>
+  <title>Awesome Game Boy Dev</title>
+  <link href="https://github.com/gbdev/awesome-gbdev"/>
+  <id>https://github.com/gbdev/awesome-gbdev</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Game development for the Game Boy — assemblers, tools and hardware docs. Unlike modern engine lists it focuses on programming constrained retro hardware.</summary>
+</entry>
+<entry>
+  <title>Awesome Game Development</title>
+  <link href="https://github.com/Calinou/awesome-gamedev"/>
+  <id>https://github.com/Calinou/awesome-gamedev</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A resource list covering every branch of game development from engines to asset tools. Unlike engine-specific lists it is engine-agnostic — a broad starting map.</summary>
+</entry>
+<entry>
+  <title>Awesome Game Engine Dev</title>
+  <link href="https://github.com/stevinz/awesome-game-engine-dev"/>
+  <id>https://github.com/stevinz/awesome-game-engine-dev</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Resources for writing the game engine itself, not a game — rendering, physics, ECS. Unlike engine-usage lists it aims at building an engine from scratch.</summary>
+</entry>
+<entry>
+  <title>Awesome Game Remakes</title>
+  <link href="https://github.com/radek-sprta/awesome-game-remakes"/>
+  <id>https://github.com/radek-sprta/awesome-game-remakes</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of actively maintained, open-source remakes of classic games. Unlike emulators the game’s engine has been rewritten from scratch — the code is readable.</summary>
+</entry>
+<entry>
+  <title>Awesome Games of Coding</title>
+  <link href="https://github.com/michelpereira/awesome-games-of-coding"/>
+  <id>https://github.com/michelpereira/awesome-games-of-coding</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of games that teach a programming language by making games. Unlike dry exercises it ties learning to a game’s progression.</summary>
+</entry>
+<entry>
+  <title>Awesome Godot</title>
+  <link href="https://github.com/godotengine/awesome-godot"/>
+  <id>https://github.com/godotengine/awesome-godot</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of plugins, tutorials and example projects for the open-source Godot engine. Unlike the official docs it gathers the tools and templates the community produced.</summary>
+</entry>
+<entry>
+  <title>Awesome Learn Gamedev</title>
+  <link href="https://github.com/notpresident35/awesome-learn-gamedev"/>
+  <id>https://github.com/notpresident35/awesome-learn-gamedev</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Course, book and community resources for learning to make games. Unlike tool lists it offers an ordered path and also covers side crafts like art, audio and design.</summary>
+</entry>
+<entry>
+  <title>Awesome Open Source Games</title>
+  <link href="https://github.com/michelpereira/awesome-open-source-games"/>
+  <id>https://github.com/michelpereira/awesome-open-source-games</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of playable games whose source is open. Unlike game stores these are projects whose code you can read to learn how they were made and build on.</summary>
+</entry>
+<entry>
+  <title>MagicTools</title>
+  <link href="https://github.com/ellisonleao/magictools"/>
+  <id>https://github.com/ellisonleao/magictools</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of tools and resources for game and graphics development — sprites, tiles, audio, level editors. Unlike engine lists it focuses on the helper tools in the production pipeline.</summary>
+</entry>
+<entry>
+  <title>CodinGame</title>
+  <link href="https://www.codingame.com/"/>
+  <id>https://www.codingame.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A platform that has you solve programming puzzles with a game theme, showing your code’s result in a game scene. Unlike dry problem sets it animates your solution visually.</summary>
+</entry>
+<entry>
+  <title>Game Programming Patterns</title>
+  <link href="https://gameprogrammingpatterns.com/"/>
+  <id>https://gameprogrammingpatterns.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Robert Nystrom’s free book on the design patterns that recur in game code. Unlike general design-pattern books its examples are specific to the game loop and performance.</summary>
+</entry>
+<entry>
+  <title>Unity</title>
+  <link href="https://unity.com/"/>
+  <id>https://unity.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The most widely used cross-platform game engine; 2D/3D, mobile and console. Unlike Godot it has a huge asset store and industry ubiquity — most job listings ask for it.</summary>
+</entry>
+</feed>

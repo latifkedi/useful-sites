@@ -7,6 +7,20 @@ area, which distinction matters. The point is to turn a list into a guide
 """
 
 INTROS = {
+    'oyun': (
+        'Oyun geliştirmede iki yol ayrımı var: hazır bir motor kullanmak (Unity, Godot) ya da motorun '
+        'kendisini yazmak. Çoğu kişi birincisini ister; awesome-godot ve MagicTools araçları, '
+        'Game Programming Patterns ise oyuna özgü kod tasarımını verir.',
+        'Game development forks two ways: using a ready engine (Unity, Godot) or writing the engine '
+        'itself. Most people want the first; awesome-godot and MagicTools give the tools, while Game '
+        'Programming Patterns gives the game-specific code design.'),
+    'elektronik': (
+        'Elektronikte sezgi lehimden önce gelir: Falstad devreyi tarayıcıda canlandırıp akımı '
+        'gösterirken All About Circuits teoriyi sıralı verir, Adafruit ve SparkFun ise parçayı çalışan '
+        'bir projeye bağlar.',
+        'In electronics, intuition comes before the soldering iron: Falstad animates a circuit in the '
+        'browser and shows the current, All About Circuits gives the theory in order, and Adafruit and '
+        'SparkFun connect a part to a working project.'),
     'test': (
         'İki ayrı ihtiyaç var: üzerinde otomasyon denenecek kararlı bir hedef ve isteklere gerçekçi '
         'cevap veren bir API. Sauce Demo ile The Internet birincisi, JSONPlaceholder ile Restful-Booker '

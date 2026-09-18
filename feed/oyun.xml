@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
+<title>Oyun Geliştirme — Kullanışlı Siteler</title>
+<subtitle>Yazılım, yapay zeka, güvenlik ve bilim üzerine açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/oyun.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/oyun.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/oyun.xml</id>
+<updated>2026-09-18T00:00:00Z</updated>
+<entry>
+  <title>Awesome Game Boy Dev</title>
+  <link href="https://github.com/gbdev/awesome-gbdev"/>
+  <id>https://github.com/gbdev/awesome-gbdev</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Game Boy için oyun geliştirme — assembler, araç ve donanım belgeleri. Modern motor listelerinden farkı kısıtlı retro donanıma programlamaya odaklanması.</summary>
+</entry>
+<entry>
+  <title>Awesome Game Development</title>
+  <link href="https://github.com/Calinou/awesome-gamedev"/>
+  <id>https://github.com/Calinou/awesome-gamedev</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Motorlardan varlık araçlarına oyun geliştirmenin tüm dallarını kapsayan kaynak listesi. Tek motora bağlı listelerden farkı motor-bağımsız, geniş bir başlangıç haritası olması.</summary>
+</entry>
+<entry>
+  <title>Awesome Game Engine Dev</title>
+  <link href="https://github.com/stevinz/awesome-game-engine-dev"/>
+  <id>https://github.com/stevinz/awesome-game-engine-dev</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Oyun değil, oyun motorunun kendisini yazmak için kaynaklar — render, fizik, ECS. Motor kullanma listelerinden farkı motoru sıfırdan kurmayı hedeflemesi.</summary>
+</entry>
+<entry>
+  <title>Awesome Game Remakes</title>
+  <link href="https://github.com/radek-sprta/awesome-game-remakes"/>
+  <id>https://github.com/radek-sprta/awesome-game-remakes</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Klasik oyunların aktif bakımlı, açık kaynak yeniden yapımlarının listesi. Emülatörlerden farkı oyunun motorunun sıfırdan yeniden yazılmış olması — kodu okunabilir.</summary>
+</entry>
+<entry>
+  <title>Awesome Games of Coding</title>
+  <link href="https://github.com/michelpereira/awesome-games-of-coding"/>
+  <id>https://github.com/michelpereira/awesome-games-of-coding</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Bir programlama dilini oyun yaparak öğreten oyunların listesi. Kuru alıştırmalardan farkı öğrenmeyi bir oyunun ilerleyişine bağlaması.</summary>
+</entry>
+<entry>
+  <title>Awesome Godot</title>
+  <link href="https://github.com/godotengine/awesome-godot"/>
+  <id>https://github.com/godotengine/awesome-godot</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Açık kaynak Godot motoru için eklenti, öğretici ve örnek projelerin listesi. Resmî dokümandan farkı topluluğun ürettiği araç ve şablonları toplaması.</summary>
+</entry>
+<entry>
+  <title>Awesome Learn Gamedev</title>
+  <link href="https://github.com/notpresident35/awesome-learn-gamedev"/>
+  <id>https://github.com/notpresident35/awesome-learn-gamedev</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Oyun yapımını öğrenmeye yönelik ders, kitap ve topluluk kaynakları. Araç listelerinden farkı sıralı bir öğrenme yolu ve sanat/ses/tasarım gibi yan alanları da kapsaması.</summary>
+</entry>
+<entry>
+  <title>Awesome Open Source Games</title>
+  <link href="https://github.com/michelpereira/awesome-open-source-games"/>
+  <id>https://github.com/michelpereira/awesome-open-source-games</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Kaynak kodu açık, oynanabilir oyunların listesi. Oyun mağazalarından farkı kodunu okuyup nasıl yapıldığını öğrenebileceğin, üstüne inşa edebileceğin projeler olması.</summary>
+</entry>
+<entry>
+  <title>MagicTools</title>
+  <link href="https://github.com/ellisonleao/magictools"/>
+  <id>https://github.com/ellisonleao/magictools</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Oyun ve grafik geliştirme için araç ve kaynakların listesi — sprite, tile, ses, seviye editörü. Motor listelerinden farkı üretim boru hattındaki yardımcı araçlara odaklanması.</summary>
+</entry>
+<entry>
+  <title>CodinGame</title>
+  <link href="https://www.codingame.com/"/>
+  <id>https://www.codingame.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Programlama bulmacalarını oyun temasıyla, kodun sonucunu bir oyun sahnesinde göstererek çözdüren platform. Kuru problem setlerinden farkı çözümünü görsel olarak canlandırması.</summary>
+</entry>
+<entry>
+  <title>Game Programming Patterns</title>
+  <link href="https://gameprogrammingpatterns.com/"/>
+  <id>https://gameprogrammingpatterns.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Robert Nystrom’un oyun kodunda tekrar eden tasarım kalıplarını anlatan ücretsiz kitabı. Genel tasarım deseni kitaplarından farkı örneklerinin oyun döngüsü ve performansına özgü olması.</summary>
+</entry>
+<entry>
+  <title>Unity</title>
+  <link href="https://unity.com/"/>
+  <id>https://unity.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>En yaygın kullanılan çapraz platform oyun motoru; 2B/3B, mobil ve konsol. Godot’dan farkı devasa varlık mağazası ve endüstri yaygınlığı — iş ilanlarının çoğu bunu ister.</summary>
+</entry>
+</feed>

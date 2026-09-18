@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title>Electrical &amp; Electronics — Useful Sites</title>
+<subtitle>An annotated directory of links on software, AI, security and science. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/elektronik.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/elektronik.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/en/elektronik.xml</id>
+<updated>2026-09-18T00:00:00Z</updated>
+<entry>
+  <title>Awesome CircuitPython</title>
+  <link href="https://github.com/adafruit/awesome-circuitpython"/>
+  <id>https://github.com/adafruit/awesome-circuitpython</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of libraries and projects for Python on microcontrollers (CircuitPython). Unlike general embedded lists it focuses on programming hardware in Python rather than C.</summary>
+</entry>
+<entry>
+  <title>Awesome Electronics</title>
+  <link href="https://github.com/kitspace/awesome-electronics"/>
+  <id>https://github.com/kitspace/awesome-electronics</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of tools, manufacturers and communities for electronics engineers and hobbyists. Unlike general hardware lists it focuses on PCB design, component sourcing and simulation.</summary>
+</entry>
+<entry>
+  <title>Adafruit Learn</title>
+  <link href="https://learn.adafruit.com/"/>
+  <id>https://learn.adafruit.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Step-by-step, illustrated guides for microcontroller, sensor and electronics projects. Unlike product pages it carries the part you bought all the way to a working project.</summary>
+</entry>
+<entry>
+  <title>All About Circuits</title>
+  <link href="https://www.allaboutcircuits.com/"/>
+  <id>https://www.allaboutcircuits.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Free lessons, calculators and a forum teaching electrical and electronics from the ground up. Unlike scattered videos it progresses in textbook order from DC to digital design.</summary>
+</entry>
+<entry>
+  <title>Falstad Circuit Simulator</title>
+  <link href="https://www.falstad.com/circuit/"/>
+  <id>https://www.falstad.com/circuit/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A simulator that lets you draw a circuit in the browser and shows current and voltage as a live animation. Unlike static schematics you see how the electrons flow in real time — for intuition.</summary>
+</entry>
+<entry>
+  <title>SparkFun Learn</title>
+  <link href="https://learn.sparkfun.com/"/>
+  <id>https://learn.sparkfun.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A tutorial library for electronics basics and embedded projects. Similar to Adafruit; it leans more into foundational concepts like soldering, power and communication protocols.</summary>
+</entry>
+</feed>
