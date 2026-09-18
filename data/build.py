@@ -274,14 +274,17 @@ for i, r in enumerate(core):
 J = dict(ensure_ascii=False, separators=(',', ':'))
 groups = [{'key': k, 'tr': tr, 'en': en_, 'cats': cats}
           for (k, tr, en_, cats) in GROUPS]
-io.open(os.path.join(D, '..', 'links.js'), 'w', encoding='utf-8').write(
+# newline='\n' matters: without it a Windows build writes CRLF, and the CI
+# "committed output matches a fresh build" check (which rebuilds on Linux, LF)
+# then fails on links.js alone. emit.py already pins '\n' on every page.
+io.open(os.path.join(D, '..', 'links.js'), 'w', encoding='utf-8', newline='\n').write(
     '/* Otomatik uretildi - data/build.py */\n'
     'window.SOURCES=' + json.dumps(SOURCES, **J) + ';\n'
     'window.TAGLABELS=' + json.dumps(LABELS, **J) + ';\n'
     'window.GROUPS=' + json.dumps(groups, **J) + ';\n'
     'window.INTROS=' + json.dumps(INTROS, **J) + ';\n'
     'window.LINKS=' + json.dumps(core, **J) + ';\n')
-io.open(os.path.join(D, '..', 'links.en.js'), 'w', encoding='utf-8').write(
+io.open(os.path.join(D, '..', 'links.en.js'), 'w', encoding='utf-8', newline='\n').write(
     '/* Otomatik uretildi - data/build.py */\nwindow.LINKS_EN=' + json.dumps(en, **J) + ';\n')
 
 # The text version, for crawlers and for visitors without JavaScript:
