@@ -194,6 +194,19 @@ SRC_ADDED = {
     'invesp': 1787345600,
     'seccert': 1787777600,   # 26 Aug 2026 intake
     'lowkwiki': 1789073600,  # 10 Sep 2026 intake
+    'rustlearn': 1789689600,
+    'javalinks': 1789689600,
+    'mathlinks': 1789689600,
+    'econ': 1789689600,
+    'dataeng': 1789689600,
+    'dsbest': 1789689600,
+    'testsites': 1789689600,
+    'piracy': 1789689600,
+    'awesomelist': 1789689600,
+    'awesomeproj': 1789689600,
+    'quarbby': 1789689600,
+    'gmartins': 1789689600,
+    'velvia': 1789689600,
 }
 for r in out:
     if 'added' not in r:

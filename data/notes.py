@@ -100,6 +100,7 @@ PARTS = [
     'part_new', 'part_ext1', 'part_ext2',
     'part_cdcruz', 'part_awesome', 'part_invesp', 'part_ext3',
     'part_seccert', 'part_lowkwiki',
+    'part_econ',
 ]
 
 import importlib  # noqa: E402

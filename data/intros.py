@@ -7,6 +7,13 @@ area, which distinction matters. The point is to turn a list into a guide
 """
 
 INTROS = {
+    'ekonomi': (
+        'İktisatta asıl mesele veri ile yorum arasındaki mesafe: World Bank, IMF ve FRED ham seriyi '
+        'verir, RePEc ve NBER onları neyin nasıl açıkladığını tartışan çalışmayı. Kripto ve borsa '
+        'başlıkları ayrı bir dünya — teknoloji listeleri, yatırım tavsiyesi değil.',
+        'In economics the real distance is between data and interpretation: World Bank, IMF and FRED '
+        'give the raw series, while RePEc and NBER give the work arguing what explains them. The crypto '
+        'and trading entries are a separate world — technology lists, not investment advice.'),
     'ogrenme': (
         'Yol haritaları neyi hangi sırayla öğreneceğini, müfredatlar bütün bir programı verir. '
         'Ücretsiz olan çoğu kaynak burada üniversite dersi kalitesinde; asıl darboğaz erişim değil, '
