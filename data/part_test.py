@@ -43,7 +43,7 @@ def load(add):
       'kasıtlı olarak bozuk davranır. Rastgele demolardan farkı senaryonun kararlı ve tekrarlanabilir olması.',
       'A sample shopping site with ready logins for learning automation; some users deliberately '
       'misbehave. Unlike random demos its scenarios are stable and repeatable.'),
-    a('http://the-internet.herokuapp.com/', 'The Internet (Herokuapp)', ['ücretsiz', 'otomasyon', 'referans'],
+    a('https://the-internet.herokuapp.com/', 'The Internet (Herokuapp)', ['ücretsiz', 'otomasyon', 'referans'],
       'Otomasyonu zorlayan ortak senaryoları (iframe, dosya yükleme, kayan menü) tek tek toplayan klasik '
       'alıştırma sitesi. Demo mağazalardan farkı her sayfanın tek bir zorluğu öğretmesi.',
       'A classic practice site collecting the common scenarios that challenge automation (iframes, file '
@@ -53,7 +53,7 @@ def load(add):
       'sayfalık sitelerden farkı bir framework’ü baştan sona denemene yetecek çeşitlilik.',
       'A broad automation practice set with forms, widgets, interactions and a bookstore app. Unlike '
       'single-page sites it has enough variety to exercise a whole framework end to end.'),
-    a('http://www.uitestingplayground.com/', 'UI Test Automation Playground', ['ücretsiz', 'otomasyon', 'öğretici'],
+    a('https://www.uitestingplayground.com/', 'UI Test Automation Playground', ['ücretsiz', 'otomasyon', 'öğretici'],
       'Modern web’de otomasyonu tökezleten tuzakları (gecikmeli yükleme, gizli öğe, dinamik id) sergileyen '
       'site. Genel demolardan farkı doğrudan “neden testim kırılıyor” sorusuna odaklanması.',
       'A site exposing the traps that trip up automation on the modern web (delayed load, hidden elements, '

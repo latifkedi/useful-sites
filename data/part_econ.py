@@ -23,7 +23,7 @@ def load(add):
       'The largest database of economics publications — over two million papers, working papers and '
       'software items. Unlike Google Scholar it is field-specific: it indexes economics alone and '
       'derives author and institution rankings.'),
-    a('http://repec.org/', 'RePEc', ['akademik', 'referans', 'ücretsiz'],
+    a('https://repec.org/', 'RePEc', ['akademik', 'referans', 'ücretsiz'],
       'İktisat araştırmacıları için hizmet ağı: kaynakça, çalışma kâğıdı akışı, blog toplayıcı. '
       'IDEAS onun arayüzü; repec.org ise ardındaki gönüllü altyapının kendisi.',
       'A network of services for economics researchers: bibliography, working-paper feeds, blog '
