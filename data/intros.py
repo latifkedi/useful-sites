@@ -7,6 +7,13 @@ area, which distinction matters. The point is to turn a list into a guide
 """
 
 INTROS = {
+    'matematik': (
+        'Matematikte darboğaz genelde erişim değil, sezgi: aynı konuyu formülle veren ile resimle '
+        'gösteren kaynak çok farklı işler. 3Blue1Brown ve Seeing Theory görseli, Paul’s Notes ve OpenIntro '
+        'sıralı dersi, math-as-code ise notasyonu koda çevirmeyi üstlenir.',
+        'In mathematics the bottleneck is usually intuition, not access: a source that gives the formula '
+        'and one that shows the picture do very different jobs. 3Blue1Brown and Seeing Theory bring the '
+        'visual, Paul’s Notes and OpenIntro the ordered course, and math-as-code turns notation into code.'),
     'ekonomi': (
         'İktisatta asıl mesele veri ile yorum arasındaki mesafe: World Bank, IMF ve FRED ham seriyi '
         'verir, RePEc ve NBER onları neyin nasıl açıkladığını tartışan çalışmayı. Kripto ve borsa '
