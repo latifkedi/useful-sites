@@ -14,6 +14,20 @@
   <summary>Rust kütüphane ve uygulamalarını konuya göre düzenleyen liste. crates.io aramasından farkı seçilmiş, kategorilenmiş ve bakımı yapılan bir başlangıç haritası olması.</summary>
 </entry>
 <entry>
+  <title>JMH</title>
+  <link href="https://github.com/openjdk/jmh"/>
+  <id>https://github.com/openjdk/jmh</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>JVM’de mikro-ölçüm için OpenJDK aracı; ölçümü bozan JIT etkilerini hesaba katar. Elle zamanlamadan farkı ısınma, ölü kod eleme gibi tuzakları doğru kurgulaması.</summary>
+</entry>
+<entry>
+  <title>OpenJDK</title>
+  <link href="https://openjdk.org/"/>
+  <id>https://openjdk.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Java platformunun açık kaynak referans uygulaması — dilin ve JVM’in geliştiği yer. Satıcı dağıtımlarından farkı standardın kendisinin burada tanımlanması.</summary>
+</entry>
+<entry>
   <title>Rust by Example</title>
   <link href="https://doc.rust-lang.org/rust-by-example/"/>
   <id>https://doc.rust-lang.org/rust-by-example/</id>
@@ -68,6 +82,13 @@
   <id>https://doc.rust-lang.org/nomicon/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Güvensiz (unsafe) Rust’ın kurallarını anlatan ileri düzey kitap. Ana kitaptan farkı ödünç denetçisinin dışına çıkıldığında nelere dikkat edileceğini kapsaması.</summary>
+</entry>
+<entry>
+  <title>Vavr</title>
+  <link href="https://github.com/vavr-io/vavr"/>
+  <id>https://github.com/vavr-io/vavr</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Java’ya kalıcı koleksiyonlar ve fonksiyonel kontrol yapıları getiren kütüphane. Standart koleksiyonlardan farkı değişmezliği ve Try/Either gibi tipleri öne alması.</summary>
 </entry>
 <entry>
   <title>CIS 194 Haskell</title>
@@ -126,11 +147,32 @@
   <summary>Python’a giriş kitabı; kısa, doğrudan ve onlarca dile çevrilmiş. Programlamaya tamamen yeni başlayanlar için yazılmış.</summary>
 </entry>
 <entry>
+  <title>Apache Maven</title>
+  <link href="https://maven.apache.org/"/>
+  <id>https://maven.apache.org/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Java için bağımlılık yönetimi ve derlemeyi standart bir proje düzeniyle yapan araç. Elle jar toplamaktan farkı bağımlılıkları merkezî depodan çözüp yaşam döngüsünü tanımlaması.</summary>
+</entry>
+<entry>
   <title>Awesome Compilers</title>
   <link href="https://aalhour.com/awesome-compilers/"/>
   <id>https://aalhour.com/awesome-compilers/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>Derleyici, yorumlayıcı ve çalışma zamanı kaynaklarının derlemesi; kitaplar, dersler ve açık kaynak derleyiciler ayrı ayrı listelenmiş.</summary>
+</entry>
+<entry>
+  <title>Awesome Java</title>
+  <link href="https://github.com/akullpp/awesome-java"/>
+  <id>https://github.com/akullpp/awesome-java</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Java kütüphane ve çerçevelerini konuya göre düzenleyen liste. Maven Central aramasından farkı seçilmiş, kategorilenmiş ve bakımı yapılan bir başlangıç haritası olması.</summary>
+</entry>
+<entry>
+  <title>Baeldung</title>
+  <link href="https://www.baeldung.com"/>
+  <id>https://www.baeldung.com</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Java ve Spring için çözümlü, güncel öğreticilerin en geniş arşivi. Resmî dokümandan farkı “şunu nasıl yaparım” sorusuna çalışan kod örnekleriyle cevap vermesi.</summary>
 </entry>
 <entry>
   <title>C++ Üslup ve Teknik SSS</title>
@@ -175,6 +217,13 @@
   <summary>Rust’ın resmî paket kayıt defteri — kütüphaneleri yayımlayıp bağımlılık olarak çekmenin merkezi. Genel kod aramalarından farkı sürüm ve indirme verisiyle güvenilir kaynağı göstermesi.</summary>
 </entry>
 <entry>
+  <title>Dev.java · Learn</title>
+  <link href="https://dev.java/learn/"/>
+  <id>https://dev.java/learn/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Oracle’ın güncel, resmî Java öğrenme portalı. Eski Java Tutorials’tan farkı modern sürümlere göre yenilenmiş, konu konu düzenlenmiş olması.</summary>
+</entry>
+<entry>
   <title>docs.rs</title>
   <link href="https://docs.rs/"/>
   <id>https://docs.rs/</id>
@@ -182,11 +231,46 @@
   <summary>crates.io’daki her paketin belgelerini otomatik derleyip yayımlayan servis. Her projenin kendi sitesinden farkı tüm ekosistemin dokümanını tek biçim ve tek adreste toplaması.</summary>
 </entry>
 <entry>
+  <title>Gradle</title>
+  <link href="https://gradle.org/"/>
+  <id>https://gradle.org/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Java ve Android için betiklenebilir, artımlı derleme aracı. Maven’in XML’inden farkı derleme mantığını gerçek kodla (Kotlin/Groovy) yazıp yalnız değişeni yeniden derlemesi.</summary>
+</entry>
+<entry>
+  <title>Guava</title>
+  <link href="https://github.com/google/guava"/>
+  <id>https://github.com/google/guava</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Google’ın Java için çekirdek yardımcı kütüphanesi — koleksiyonlar, önbellek, fonksiyonel ekler. Standart kütüphaneyi elle doldurmaktan farkı bu boşlukları test edilmiş biçimde kapatması.</summary>
+</entry>
+<entry>
+  <title>Hibernate</title>
+  <link href="https://hibernate.org/"/>
+  <id>https://hibernate.org/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Java nesnelerini ilişkisel veritabanı satırlarına eşleyen ORM. Ham JDBC’den farkı SQL’i büyük ölçüde soyutlayıp nesne grafiğini kalıcılaştırması.</summary>
+</entry>
+<entry>
   <title>Hitchhiker’s Guide to Python</title>
   <link href="https://docs.python-guide.org/writing/style/"/>
   <id>https://docs.python-guide.org/writing/style/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>Python’da üslup, proje düzeni ve araç seçimi üzerine topluluk rehberi. Dil referansının anlatmadığı “nasıl yazılır” kısmı.</summary>
+</entry>
+<entry>
+  <title>Jackson</title>
+  <link href="https://github.com/FasterXML/jackson"/>
+  <id>https://github.com/FasterXML/jackson</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Java’da JSON’u nesneye ve nesneyi JSON’a çeviren fiili standart kütüphane. El yazımı ayrıştırmadan farkı akış, ağaç ve veri-bağlama modlarını tek çatıda vermesi.</summary>
+</entry>
+<entry>
+  <title>JUnit 5</title>
+  <link href="https://junit.org/junit5/"/>
+  <id>https://junit.org/junit5/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Java’nın standart birim test çatısı; test yazımı ve çalıştırmanın temeli. Elle main’de denemekten farkı iddialar, yaşam döngüsü kancaları ve parametreli testler getirmesi.</summary>
 </entry>
 <entry>
   <title>kudvenkat</title>
@@ -201,89 +285,5 @@
   <id>https://www.learnpython.org</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>Python’ı tarayıcıdaki alıştırmalarla öğreten etkileşimli giriş; kurulum gerektirmiyor. Kitaplardan farkı her bölümün sonunda çalıştırılan bir alıştırma olması — okuduğunun oturduğunu hemen görüyorsun.</summary>
-</entry>
-<entry>
-  <title>Learn Shell</title>
-  <link href="https://learnshell.org"/>
-  <id>https://learnshell.org</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Kabuk betiklerini tarayıcıda çalıştırılabilir alıştırmalarla öğreten giriş. Kabuk kılavuzlarından farkı denemenin bedava olması — kendi makinende `rm` denemeye çekinirken burada takılıp kalmıyorsun.</summary>
-</entry>
-<entry>
-  <title>Let’s Build A Simple Interpreter</title>
-  <link href="https://ruslanspivak.com/lsbasi-part1/"/>
-  <id>https://ruslanspivak.com/lsbasi-part1/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Python ile adım adım yorumlayıcı yazdıran uzun seri; sözcüksel çözümlemeden soyut sözdizimi ağacına kadar her parçayı elle kurduruyor.</summary>
-</entry>
-<entry>
-  <title>Meeting C++</title>
-  <link href="https://www.youtube.com/user/MeetingCPP/videos"/>
-  <id>https://www.youtube.com/user/MeetingCPP/videos</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Avrupa’nın en büyük C++ konferansının konuşma arşivi. CppCon’dan farkı daha küçük ve uygulama ağırlıklı olması — standart tartışmasından çok gerçek projelerden deneyimler.</summary>
-</entry>
-<entry>
-  <title>PEP 8</title>
-  <link href="https://www.python.org/dev/peps/pep-0008/"/>
-  <id>https://www.python.org/dev/peps/pep-0008/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Python’un resmî üslup kılavuzu; standart kütüphanenin yazımında kullanılan kurallar. black ve ruff gibi araçların dayandığı metin.</summary>
-</entry>
-<entry>
-  <title>phpize.online</title>
-  <link href="https://phpize.online/"/>
-  <id>https://phpize.online/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>PHP kodunu farklı sürümlerde çalıştırıp yanına MySQL, PostgreSQL veya SQLite bağlayan oyun alanı. Diğer PHP oyun alanlarından farkı veritabanı bağlantısı sunması — sorgu davranışını denemek için sunucu kurmaya gerek kalmıyor.</summary>
-</entry>
-<entry>
-  <title>Qt Documentation</title>
-  <link href="https://doc.qt.io/"/>
-  <id>https://doc.qt.io/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Qt çatısının resmî belgeleri; C++ ve QML için sınıf referansı, örnekler ve platform kılavuzları. Diğer arayüz çatılarının belgelerinden farkı kapsamı — masaüstü, mobil ve gömülü aynı API altında anlatılıyor.</summary>
-</entry>
-<entry>
-  <title>Rust Cookbook</title>
-  <link href="https://rust-lang-nursery.github.io/rust-cookbook/"/>
-  <id>https://rust-lang-nursery.github.io/rust-cookbook/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>&quot;Dosyayı satır satır oku&quot;, &quot;HTTP isteği at&quot; gibi gündelik işlerin Rust karşılıklarını veren tarif kitabı. Kitap ve örneklerden farkı görev odaklı olması — dili öğrenmek için değil, bir işi bitirmek için açılıyor.</summary>
-</entry>
-<entry>
-  <title>Rust Standard Library</title>
-  <link href="https://doc.rust-lang.org/std/"/>
-  <id>https://doc.rust-lang.org/std/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Rust standart kütüphanesinin resmî referansı — tip, trait ve makrolar. Öğreticilerden farkı öğretmeye değil, tam ve kesin başvuruya yönelmesi.</summary>
-</entry>
-<entry>
-  <title>SICP</title>
-  <link href="https://sarabander.github.io/sicp/html/index.xhtml"/>
-  <id>https://sarabander.github.io/sicp/html/index.xhtml</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Bilgisayar Programlarının Yapısı ve Yorumlanması — MIT’nin klasik ders kitabının okunabilir HTML sürümü. Dil öğretmiyor, soyutlama kurmayı öğretiyor.</summary>
-</entry>
-<entry>
-  <title>Stroustrup on C++</title>
-  <link href="https://www.stroustrup.com/C++.html"/>
-  <id>https://www.stroustrup.com/C++.html</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>C++’ın yaratıcısının kendi sayfası: sıkça sorulan sorular, üslup önerileri ve dilin neden öyle tasarlandığını anlatan yazılar. Öğreticilerden farkı gerekçe sunması — bir kararın nedenini ancak kararı verenden okuyabiliyorsun.</summary>
-</entry>
-<entry>
-  <title>The Bash Guide</title>
-  <link href="https://guide.bash.academy"/>
-  <id>https://guide.bash.academy</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Bash’i baştan sona, doğru alışkanlıklarla öğreten rehber; tırnaklama ve kelime bölme gibi tuzakları erkenden ele alıyor. Kopyala-yapıştır öğreticilerinden farkı bu — çoğu betik hatası tam olarak o tuzaklardan çıkıyor.</summary>
-</entry>
-<entry>
-  <title>The Java Tutorials</title>
-  <link href="https://docs.oracle.com/javase/tutorial/"/>
-  <id>https://docs.oracle.com/javase/tutorial/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Oracle’ın resmî Java öğreticisi; dil temellerinden koleksiyonlara ve eşzamanlılığa. Üçüncü parti kurslardan farkı standart kütüphanenin niyetini birinci ağızdan anlatması — karşılığında üslubu kuru ve bazı bölümleri eski sürümlerde kalmış.</summary>
 </entry>
 </feed>

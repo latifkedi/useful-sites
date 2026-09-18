@@ -14,6 +14,20 @@
   <summary>A list organising Rust libraries and applications by topic. Unlike a crates.io search it is a curated, categorised and maintained starting map.</summary>
 </entry>
 <entry>
+  <title>JMH</title>
+  <link href="https://github.com/openjdk/jmh"/>
+  <id>https://github.com/openjdk/jmh</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>An OpenJDK tool for microbenchmarking on the JVM that accounts for JIT effects that distort measurement. Unlike timing by hand it correctly handles traps like warmup and dead-code elimination.</summary>
+</entry>
+<entry>
+  <title>OpenJDK</title>
+  <link href="https://openjdk.org/"/>
+  <id>https://openjdk.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>The open-source reference implementation of the Java platform — where the language and JVM are developed. Unlike vendor distributions the standard itself is defined here.</summary>
+</entry>
+<entry>
   <title>Rust by Example</title>
   <link href="https://doc.rust-lang.org/rust-by-example/"/>
   <id>https://doc.rust-lang.org/rust-by-example/</id>
@@ -68,6 +82,13 @@
   <id>https://doc.rust-lang.org/nomicon/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>An advanced book on the rules of unsafe Rust. Unlike the main book it covers what to watch for when you step outside the borrow checker.</summary>
+</entry>
+<entry>
+  <title>Vavr</title>
+  <link href="https://github.com/vavr-io/vavr"/>
+  <id>https://github.com/vavr-io/vavr</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A library bringing persistent collections and functional control structures to Java. Unlike the standard collections it foregrounds immutability and types like Try/Either.</summary>
 </entry>
 <entry>
   <title>CIS 194 Haskell</title>
@@ -126,11 +147,32 @@
   <summary>An introductory Python book — short, direct and translated into dozens of languages, written for people entirely new to programming.</summary>
 </entry>
 <entry>
+  <title>Apache Maven</title>
+  <link href="https://maven.apache.org/"/>
+  <id>https://maven.apache.org/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A tool doing dependency management and builds for Java with a standard project layout. Unlike collecting jars by hand it resolves dependencies from a central repository and defines a lifecycle.</summary>
+</entry>
+<entry>
   <title>Awesome Compilers</title>
   <link href="https://aalhour.com/awesome-compilers/"/>
   <id>https://aalhour.com/awesome-compilers/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>A collection of compiler, interpreter and runtime resources, with books, courses and open-source compilers listed separately.</summary>
+</entry>
+<entry>
+  <title>Awesome Java</title>
+  <link href="https://github.com/akullpp/awesome-java"/>
+  <id>https://github.com/akullpp/awesome-java</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A list organising Java libraries and frameworks by topic. Unlike a Maven Central search it is a curated, categorised and maintained starting map.</summary>
+</entry>
+<entry>
+  <title>Baeldung</title>
+  <link href="https://www.baeldung.com"/>
+  <id>https://www.baeldung.com</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The largest archive of worked, up-to-date tutorials for Java and Spring. Unlike the official docs it answers “how do I do this” with working code examples.</summary>
 </entry>
 <entry>
   <title>C++ Üslup ve Teknik SSS</title>
@@ -175,6 +217,13 @@
   <summary>Rust’s official package registry — the hub for publishing libraries and pulling them as dependencies. Unlike general code search it shows the trustworthy source with version and download data.</summary>
 </entry>
 <entry>
+  <title>Dev.java · Learn</title>
+  <link href="https://dev.java/learn/"/>
+  <id>https://dev.java/learn/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Oracle’s current, official Java learning portal. Unlike the old Java Tutorials it is refreshed for modern versions and organised topic by topic.</summary>
+</entry>
+<entry>
   <title>docs.rs</title>
   <link href="https://docs.rs/"/>
   <id>https://docs.rs/</id>
@@ -182,11 +231,46 @@
   <summary>A service that automatically builds and publishes the docs for every package on crates.io. Unlike each project’s own site it gathers the whole ecosystem’s docs in one format at one address.</summary>
 </entry>
 <entry>
+  <title>Gradle</title>
+  <link href="https://gradle.org/"/>
+  <id>https://gradle.org/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A scriptable, incremental build tool for Java and Android. Unlike Maven’s XML it writes build logic in real code (Kotlin/Groovy) and rebuilds only what changed.</summary>
+</entry>
+<entry>
+  <title>Guava</title>
+  <link href="https://github.com/google/guava"/>
+  <id>https://github.com/google/guava</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Google’s core utility library for Java — collections, caching, functional extras. Unlike filling the standard library’s gaps by hand it closes them in a tested way.</summary>
+</entry>
+<entry>
+  <title>Hibernate</title>
+  <link href="https://hibernate.org/"/>
+  <id>https://hibernate.org/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>An ORM mapping Java objects to relational database rows. Unlike raw JDBC it largely abstracts the SQL and persists the object graph.</summary>
+</entry>
+<entry>
   <title>Hitchhiker’s Guide to Python</title>
   <link href="https://docs.python-guide.org/writing/style/"/>
   <id>https://docs.python-guide.org/writing/style/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>A community guide to Python style, project layout and tooling — the “how it is written” part the language reference leaves out.</summary>
+</entry>
+<entry>
+  <title>Jackson</title>
+  <link href="https://github.com/FasterXML/jackson"/>
+  <id>https://github.com/FasterXML/jackson</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The de facto library for turning JSON into objects and back in Java. Unlike hand-written parsing it offers streaming, tree and data-binding modes under one roof.</summary>
+</entry>
+<entry>
+  <title>JUnit 5</title>
+  <link href="https://junit.org/junit5/"/>
+  <id>https://junit.org/junit5/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Java’s standard unit-testing framework; the base of writing and running tests. Unlike trying things in main it brings assertions, lifecycle hooks and parameterised tests.</summary>
 </entry>
 <entry>
   <title>kudvenkat</title>
@@ -201,89 +285,5 @@
   <id>https://www.learnpython.org</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>An interactive introduction teaching Python through in-browser exercises, with nothing to install. Against a book, each section ends in an exercise that runs — you see immediately whether it stuck.</summary>
-</entry>
-<entry>
-  <title>Learn Shell</title>
-  <link href="https://learnshell.org"/>
-  <id>https://learnshell.org</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An introduction to shell scripting through exercises that run in the browser. Against the shell manuals the difference is that experimenting is free — you can try `rm` without hesitating over what it might hit.</summary>
-</entry>
-<entry>
-  <title>Let’s Build A Simple Interpreter</title>
-  <link href="https://ruslanspivak.com/lsbasi-part1/"/>
-  <id>https://ruslanspivak.com/lsbasi-part1/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A long series building an interpreter step by step in Python, constructing every piece by hand from lexing to the abstract syntax tree.</summary>
-</entry>
-<entry>
-  <title>Meeting C++</title>
-  <link href="https://www.youtube.com/user/MeetingCPP/videos"/>
-  <id>https://www.youtube.com/user/MeetingCPP/videos</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The talk archive of Europe’s largest C++ conference. Against CppCon it is smaller and more applied — experience from real projects rather than standards debate.</summary>
-</entry>
-<entry>
-  <title>PEP 8</title>
-  <link href="https://www.python.org/dev/peps/pep-0008/"/>
-  <id>https://www.python.org/dev/peps/pep-0008/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Python’s official style guide, the rules used for the standard library itself — the text tools like black and ruff are built on.</summary>
-</entry>
-<entry>
-  <title>phpize.online</title>
-  <link href="https://phpize.online/"/>
-  <id>https://phpize.online/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A playground that runs PHP across versions with MySQL, PostgreSQL or SQLite attached. Unlike other PHP playgrounds it gives you a database, so trying query behaviour needs no server of your own.</summary>
-</entry>
-<entry>
-  <title>Qt Documentation</title>
-  <link href="https://doc.qt.io/"/>
-  <id>https://doc.qt.io/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The official documentation for the Qt framework: class reference, examples and platform guides for C++ and QML. Against other UI framework docs the difference is scope — desktop, mobile and embedded described under one API.</summary>
-</entry>
-<entry>
-  <title>Rust Cookbook</title>
-  <link href="https://rust-lang-nursery.github.io/rust-cookbook/"/>
-  <id>https://rust-lang-nursery.github.io/rust-cookbook/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A cookbook of everyday tasks in Rust — read a file line by line, make an HTTP request. Against the book and the examples it is task-oriented: you open it to finish something, not to learn the language.</summary>
-</entry>
-<entry>
-  <title>Rust Standard Library</title>
-  <link href="https://doc.rust-lang.org/std/"/>
-  <id>https://doc.rust-lang.org/std/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The official reference for the Rust standard library — types, traits and macros. Unlike tutorials it aims not to teach but to be the complete, exact reference.</summary>
-</entry>
-<entry>
-  <title>SICP</title>
-  <link href="https://sarabander.github.io/sicp/html/index.xhtml"/>
-  <id>https://sarabander.github.io/sicp/html/index.xhtml</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Structure and Interpretation of Computer Programs, MIT’s classic text in a readable HTML edition. It does not teach a language; it teaches how to build abstractions.</summary>
-</entry>
-<entry>
-  <title>Stroustrup on C++</title>
-  <link href="https://www.stroustrup.com/C++.html"/>
-  <id>https://www.stroustrup.com/C++.html</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The C++ creator’s own pages: FAQs, style advice and essays on why the language was designed as it was. Unlike tutorials it supplies rationale — the reason behind a decision is only available from the person who made it.</summary>
-</entry>
-<entry>
-  <title>The Bash Guide</title>
-  <link href="https://guide.bash.academy"/>
-  <id>https://guide.bash.academy</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A guide teaching Bash end to end with the right habits, tackling quoting and word splitting early. That is the break from copy-paste tutorials: most script bugs come from exactly those traps.</summary>
-</entry>
-<entry>
-  <title>The Java Tutorials</title>
-  <link href="https://docs.oracle.com/javase/tutorial/"/>
-  <id>https://docs.oracle.com/javase/tutorial/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Oracle’s official Java tutorial, from language basics through collections and concurrency. Against third-party courses it explains the standard library’s intent first-hand; the price is a dry register and sections that stopped at older releases.</summary>
 </entry>
 </feed>

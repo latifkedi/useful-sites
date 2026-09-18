@@ -15,6 +15,22 @@
   <summary>Rust kütüphane ve uygulamalarını konuya göre düzenleyen liste. crates.io aramasından farkı seçilmiş, kategorilenmiş ve bakımı yapılan bir başlangıç haritası olması.</summary>
 </entry>
 <entry>
+  <title>JMH</title>
+  <link href="https://github.com/openjdk/jmh"/>
+  <id>https://github.com/openjdk/jmh</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>JVM’de mikro-ölçüm için OpenJDK aracı; ölçümü bozan JIT etkilerini hesaba katar. Elle zamanlamadan farkı ısınma, ölü kod eleme gibi tuzakları doğru kurgulaması.</summary>
+</entry>
+<entry>
+  <title>OpenJDK</title>
+  <link href="https://openjdk.org/"/>
+  <id>https://openjdk.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Java platformunun açık kaynak referans uygulaması — dilin ve JVM’in geliştiği yer. Satıcı dağıtımlarından farkı standardın kendisinin burada tanımlanması.</summary>
+</entry>
+<entry>
   <title>Rust by Example</title>
   <link href="https://doc.rust-lang.org/rust-by-example/"/>
   <id>https://doc.rust-lang.org/rust-by-example/</id>
@@ -77,6 +93,14 @@
   <updated>2026-09-18T00:00:00Z</updated>
   <category term="Programlama Dilleri"/>
   <summary>Güvensiz (unsafe) Rust’ın kurallarını anlatan ileri düzey kitap. Ana kitaptan farkı ödünç denetçisinin dışına çıkıldığında nelere dikkat edileceğini kapsaması.</summary>
+</entry>
+<entry>
+  <title>Vavr</title>
+  <link href="https://github.com/vavr-io/vavr"/>
+  <id>https://github.com/vavr-io/vavr</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Java’ya kalıcı koleksiyonlar ve fonksiyonel kontrol yapıları getiren kütüphane. Standart koleksiyonlardan farkı değişmezliği ve Try/Either gibi tipleri öne alması.</summary>
 </entry>
 <entry>
   <title>Applitools Demo</title>
@@ -301,29 +325,5 @@
   <updated>2026-09-18T00:00:00Z</updated>
   <category term="Oyun Geliştirme"/>
   <summary>Motorlardan varlık araçlarına oyun geliştirmenin tüm dallarını kapsayan kaynak listesi. Tek motora bağlı listelerden farkı motor-bağımsız, geniş bir başlangıç haritası olması.</summary>
-</entry>
-<entry>
-  <title>Awesome Game Engine Dev</title>
-  <link href="https://github.com/stevinz/awesome-game-engine-dev"/>
-  <id>https://github.com/stevinz/awesome-game-engine-dev</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Oyun Geliştirme"/>
-  <summary>Oyun değil, oyun motorunun kendisini yazmak için kaynaklar — render, fizik, ECS. Motor kullanma listelerinden farkı motoru sıfırdan kurmayı hedeflemesi.</summary>
-</entry>
-<entry>
-  <title>Awesome Game Remakes</title>
-  <link href="https://github.com/radek-sprta/awesome-game-remakes"/>
-  <id>https://github.com/radek-sprta/awesome-game-remakes</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Oyun Geliştirme"/>
-  <summary>Klasik oyunların aktif bakımlı, açık kaynak yeniden yapımlarının listesi. Emülatörlerden farkı oyunun motorunun sıfırdan yeniden yazılmış olması — kodu okunabilir.</summary>
-</entry>
-<entry>
-  <title>Awesome Games of Coding</title>
-  <link href="https://github.com/michelpereira/awesome-games-of-coding"/>
-  <id>https://github.com/michelpereira/awesome-games-of-coding</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Oyun Geliştirme"/>
-  <summary>Bir programlama dilini oyun yaparak öğreten oyunların listesi. Kuru alıştırmalardan farkı öğrenmeyi bir oyunun ilerleyişine bağlaması.</summary>
 </entry>
 </feed>
