@@ -7,6 +7,15 @@ area, which distinction matters. The point is to turn a list into a guide
 """
 
 INTROS = {
+    'test': (
+        'İki ayrı ihtiyaç var: üzerinde otomasyon denenecek kararlı bir hedef ve isteklere gerçekçi '
+        'cevap veren bir API. Sauce Demo ile The Internet birincisi, JSONPlaceholder ile Restful-Booker '
+        'ikincisi için. Kasıtlı bozuk davranışlar bilerek konmuştur — testin kırılmasını değil, tuzağı '
+        'öğrenmeni sağlar.',
+        'Two separate needs: a stable target to practise automation against, and an API that answers '
+        'requests realistically. Sauce Demo and The Internet serve the first, JSONPlaceholder and '
+        'Restful-Booker the second. The deliberate misbehaviours are intentional — they teach you the '
+        'trap, not that your test is broken.'),
     'matematik': (
         'Matematikte darboğaz genelde erişim değil, sezgi: aynı konuyu formülle veren ile resimle '
         'gösteren kaynak çok farklı işler. 3Blue1Brown ve Seeing Theory görseli, Paul’s Notes ve OpenIntro '

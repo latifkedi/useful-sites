@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-<title>Kullanışlı Siteler</title>
-<subtitle>Yazılım, yapay zeka, güvenlik ve bilim üzerine açıklamalı bağlantı dizini</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/"/>
-<id>https://latifkedi.github.io/useful-sites/</id>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
+<title>Test &amp; Kalite — Kullanışlı Siteler</title>
+<subtitle>Yazılım, yapay zeka, güvenlik ve bilim üzerine açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/test.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/test.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/test.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
   <title>Applitools Demo</title>
   <link href="https://demo.applitools.com/"/>
   <id>https://demo.applitools.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
   <summary>Görsel test için tasarlanmış, ikinci bir sürümüyle karşılaştırılabilen demo. İşlevsel testten farkı ekranın nasıl göründüğündeki değişimi yakalamaya odaklanması.</summary>
 </entry>
 <entry>
@@ -19,7 +18,6 @@
   <link href="https://github.com/grafana/awesome-k6"/>
   <id>https://github.com/grafana/awesome-k6</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
   <summary>Geliştirici odaklı yük ve performans testi aracı k6 için kaynak listesi. Genel performans listelerinden farkı tek araca ve onun betik ekosistemine odaklanması.</summary>
 </entry>
 <entry>
@@ -27,7 +25,6 @@
   <link href="https://github.com/mxschmitt/awesome-playwright"/>
   <id>https://github.com/mxschmitt/awesome-playwright</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
   <summary>Playwright ekosistemi için araç, eklenti ve örneklerin listesi. Resmî dokümandan farkı topluluk araçlarını ve gerçek proje örneklerini bir araya getirmesi.</summary>
 </entry>
 <entry>
@@ -35,7 +32,6 @@
   <link href="https://github.com/fityanos/awesome-quality-assurance"/>
   <id>https://github.com/fityanos/awesome-quality-assurance</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
   <summary>Yazılım testinde kariyere nasıl başlanacağını ve nasıl ilerleneceğini toplayan yol haritası. Araç listelerinden farkı sıralı bir öğrenme patikası çizmesi.</summary>
 </entry>
 <entry>
@@ -43,7 +39,6 @@
   <link href="https://github.com/christian-bromann/awesome-selenium"/>
   <id>https://github.com/christian-bromann/awesome-selenium</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
   <summary>Selenium tarayıcı otomasyon çatısı ve çevresindeki araçların derlemesi. Dağınık aramadan farkı dil bağlayıcıları, ızgara ve eklentileri tek yerde toplaması.</summary>
 </entry>
 <entry>
@@ -51,7 +46,6 @@
   <link href="https://github.com/TheJambo/awesome-testing"/>
   <id>https://github.com/TheJambo/awesome-testing</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
   <summary>Yazılım testinin her dalını — birim, uçtan uca, performans, sözleşme — kaynaklarıyla toplayan liste. Bu dizideki pratik sitelerin geri kalanını da buradan bulabilirsin.</summary>
 </entry>
 <entry>
@@ -59,7 +53,6 @@
   <link href="https://coffee-cart.app/"/>
   <id>https://coffee-cart.app/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
   <summary>Kahve siparişi üzerinden temel etkileşimleri denemek için sade bir uygulama. Büyük demolardan farkı beş dakikada kavranacak kadar küçük ama sepet/mantık testine yetecek kadar dolu.</summary>
 </entry>
 <entry>
@@ -67,7 +60,6 @@
   <link href="https://demoqa.com/"/>
   <id>https://demoqa.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
   <summary>Form, pencere öğesi, etkileşim ve kitap uygulamasıyla geniş bir otomasyon alıştırma seti. Tek sayfalık sitelerden farkı bir framework’ü baştan sona denemene yetecek çeşitlilik.</summary>
 </entry>
 <entry>
@@ -75,7 +67,6 @@
   <link href="https://gorest.co.in/"/>
   <id>https://gorest.co.in/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
   <summary>OAuth2 kimlik doğrulamalı, yazma destekli, REST ve GraphQL sunan test API’si. Salt-okunur sahte API’lerden farkı kayıt oluşturma/güncelleme akışını gerçekten denetmesi.</summary>
 </entry>
 <entry>
@@ -83,7 +74,6 @@
   <link href="https://insomnia.rest/"/>
   <id>https://insomnia.rest/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
   <summary>REST, GraphQL ve gRPC istekleri için sade bir API istemcisi. Postman’den farkı daha hafif ve açık kaynak olması, git ile sürümlenebilmesi.</summary>
 </entry>
 <entry>
@@ -91,7 +81,6 @@
   <link href="https://jsonplaceholder.typicode.com/"/>
   <id>https://jsonplaceholder.typicode.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
   <summary>İstek atınca gerçekçi sahte JSON döndüren, kurulum istemeyen test API’si. Kendi mock sunucunu kurmaktan farkı hemen hazır olması — prototip ve öğretici için standart.</summary>
 </entry>
 <entry>
@@ -99,7 +88,6 @@
   <link href="https://parabank.parasoft.com/parabank/index.htm"/>
   <id>https://parabank.parasoft.com/parabank/index.htm</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
   <summary>SOAP/REST servisleriyle birlikte gelen örnek bankacılık test sitesi. Basit demolardan farkı web servisi, WSDL ve iş akışı test etmeye elverişli olması.</summary>
 </entry>
 <entry>
@@ -107,7 +95,6 @@
   <link href="https://pokeapi.co/"/>
   <id>https://pokeapi.co/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
   <summary>Pokémon verisi sunan, geniş ve iç içe bir REST API’si — test ve öğretici için popüler. Basit sahte API’lerden farkı derin, ilişkili veri modeliyle gerçekçi sorguları denetmesi.</summary>
 </entry>
 <entry>
@@ -115,7 +102,6 @@
   <link href="https://www.postman.com/"/>
   <id>https://www.postman.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
   <summary>API isteklerini oluşturup koleksiyon hâlinde saklayan ve test eden masaüstü/bulut aracı. curl’den farkı isteği kaydetme, ortam değişkeni ve otomatik test dizisi çalıştırma.</summary>
 </entry>
 <entry>
@@ -123,7 +109,6 @@
   <link href="https://practicesoftwaretesting.com/"/>
   <id>https://practicesoftwaretesting.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
   <summary>Hem UI hem REST API’si olan, gerçekçi bir alet dükkânı demosu; uçtan uca test için tasarlanmış. Eski demolardan farkı modern yığın (React + API + Swagger) üzerinde olması.</summary>
 </entry>
 <entry>
@@ -131,7 +116,6 @@
   <link href="https://randomuser.me/"/>
   <id>https://randomuser.me/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
   <summary>İstenen sayıda sahte kullanıcı (ad, adres, foto) üreten API. Sabit fikstürlerden farkı her çağrıda çeşitli ve gerçekçi veri vermesi — form ve liste testleri için.</summary>
 </entry>
 <entry>
@@ -139,7 +123,6 @@
   <link href="https://reqres.in/"/>
   <id>https://reqres.in/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
   <summary>AJAX isteklerine gerçek yanıt veren barındırılmış REST API’si; sayfalama ve gecikme simülasyonu var. JSONPlaceholder’dan farkı yanıt gecikmesi ve hata durumlarını da taklit edebilmesi.</summary>
 </entry>
 <entry>
@@ -147,7 +130,6 @@
   <link href="https://restful-booker.herokuapp.com/"/>
   <id>https://restful-booker.herokuapp.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
   <summary>Oda rezervasyonunu taklit eden, kimlik doğrulamalı ve iyi belgelenmiş bir test API’si. Sahte API’lerden farkı yazma işlemleri ve auth içermesi — tam bir CRUD akışı denenebiliyor.</summary>
 </entry>
 <entry>
@@ -155,7 +137,6 @@
   <link href="https://rickandmortyapi.com/"/>
   <id>https://rickandmortyapi.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
   <summary>Karakter, bölüm ve mekân verisi veren, hem REST hem GraphQL sunan ücretsiz API. Tek protokollü API’lerden farkı aynı veriyi iki arayüzle sunup ikisini de denetmesi.</summary>
 </entry>
 <entry>
@@ -163,7 +144,6 @@
   <link href="https://www.saucedemo.com/"/>
   <id>https://www.saucedemo.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
   <summary>Otomasyon öğrenmek için hazır giriş bilgileriyle gelen örnek alışveriş sitesi; bazı kullanıcılar kasıtlı olarak bozuk davranır. Rastgele demolardan farkı senaryonun kararlı ve tekrarlanabilir olması.</summary>
 </entry>
 <entry>
@@ -171,7 +151,6 @@
   <link href="https://selectorshub.com/xpath-practice-page/"/>
   <id>https://selectorshub.com/xpath-practice-page/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
   <summary>Karmaşık XPath ve CSS seçicileri yazmayı denemek için özel olarak zorlaştırılmış sayfa. Genel demolardan farkı iç içe iframe ve shadow DOM gibi seçici cehennemlerini barındırması.</summary>
 </entry>
 <entry>
@@ -179,7 +158,6 @@
   <link href="https://www.ssllabs.com/ssltest/"/>
   <id>https://www.ssllabs.com/ssltest/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
   <summary>Bir sitenin TLS yapılandırmasını tarayıp A–F notu veren test. Tarayıcı kilidinden farkı sertifika zinciri, protokol ve şifre takımı düzeyinde ayrıntı vermesi.</summary>
 </entry>
 <entry>
@@ -187,7 +165,6 @@
   <link href="https://petstore.swagger.io/"/>
   <id>https://petstore.swagger.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
   <summary>Swagger UI önyüzüyle gelen kanonik örnek API — OpenAPI öğrenmenin standart yeri. Diğer sahte API’lerden farkı arayüzün doğrudan spesifikasyondan üretilmiş olması.</summary>
 </entry>
 <entry>
@@ -195,7 +172,6 @@
   <link href="http://the-internet.herokuapp.com/"/>
   <id>http://the-internet.herokuapp.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
   <summary>Otomasyonu zorlayan ortak senaryoları (iframe, dosya yükleme, kayan menü) tek tek toplayan klasik alıştırma sitesi. Demo mağazalardan farkı her sayfanın tek bir zorluğu öğretmesi.</summary>
 </entry>
 <entry>
@@ -203,7 +179,6 @@
   <link href="http://www.uitestingplayground.com/"/>
   <id>http://www.uitestingplayground.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
   <summary>Modern web’de otomasyonu tökezleten tuzakları (gecikmeli yükleme, gizli öğe, dinamik id) sergileyen site. Genel demolardan farkı doğrudan “neden testim kırılıyor” sorusuna odaklanması.</summary>
 </entry>
 <entry>
@@ -211,119 +186,6 @@
   <link href="https://www.webpagetest.org/"/>
   <id>https://www.webpagetest.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Test &amp; Kalite"/>
   <summary>Bir sayfanın yükleme performansını gerçek cihaz ve konumlardan ölçen test. Lighthouse’tan farkı şelale, film şeridi ve çoklu lokasyon karşılaştırması vermesi.</summary>
-</entry>
-<entry>
-  <title>abstractmath.org</title>
-  <link href="https://abstractmath.org/"/>
-  <id>https://abstractmath.org/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Matematik"/>
-  <summary>Soyut matematiğe geçişte takılınan yerleri — tanım okuma, ispat dili, notasyon — açan kaynak. Konu kitaplarından farkı matematiğin “nasıl düşünüldüğünü” hedef alması.</summary>
-</entry>
-<entry>
-  <title>Awesome Math</title>
-  <link href="https://github.com/rossant/awesome-math"/>
-  <id>https://github.com/rossant/awesome-math</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Matematik"/>
-  <summary>Matematik kaynaklarını dala göre (cebir, analiz, topoloji) düzenleyen liste. Tek bir dersten farkı nereden başlanacağının haritasını çıkarması.</summary>
-</entry>
-<entry>
-  <title>BetterExplained</title>
-  <link href="https://betterexplained.com/"/>
-  <id>https://betterexplained.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Matematik"/>
-  <summary>Matematiği ezber yerine sezgiyle anlatan yazı dizisi — üstel fonksiyon, Euler formülü, kalkülüs. Resmî anlatımdan farkı “neden böyle” sorusuna analoji ve resimle cevap vermesi.</summary>
-</entry>
-<entry>
-  <title>Fundamentals of Linear Algebra (UBC)</title>
-  <link href="https://www.math.ubc.ca/~carrell/NB.pdf"/>
-  <id>https://www.math.ubc.ca/~carrell/NB.pdf</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Matematik"/>
-  <summary>Lineer cebiri temelden kuran ücretsiz UBC ders metni. Kısa notlardan farkı ispatlarıyla tam bir kaynak olması — dersin arkasını görmek isteyene.</summary>
-</entry>
-<entry>
-  <title>Interactive Mathematics</title>
-  <link href="https://www.intmath.com/"/>
-  <id>https://www.intmath.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Matematik"/>
-  <summary>Konu konu etkileşimli grafik ve çözümlü örneklerle matematik anlatan site. Statik notlardan farkı grafiği yerinde oynatıp sonucu görebilmen.</summary>
-</entry>
-<entry>
-  <title>Math ∩ Programming</title>
-  <link href="https://jeremykun.com/"/>
-  <id>https://jeremykun.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Matematik"/>
-  <summary>Jeremy Kun’un matematiği çalışan kodla buluşturan blogu — kriptografi, graf, makine öğrenmesi matematiği. Salt teoriden farkı her kavramı uygulamayla kapatması.</summary>
-</entry>
-<entry>
-  <title>math-as-code</title>
-  <link href="https://github.com/Jam3/math-as-code"/>
-  <id>https://github.com/Jam3/math-as-code</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Matematik"/>
-  <summary>Matematik notasyonunun karşılığını okunur kodla veren kopya kâğıdı: sigma toplamı, nokta çarpımı. Sembol sözlüklerinden farkı formülün programcı için ne demek olduğunu göstermesi.</summary>
-</entry>
-<entry>
-  <title>Mathematics Stack Exchange</title>
-  <link href="https://math.stackexchange.com/"/>
-  <id>https://math.stackexchange.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Matematik"/>
-  <summary>Matematik soru-cevap sitesi; takıldığın adımı uzmanlara sorabildiğin yer. Foruma göre farkı oylamayla en açık çözümün öne çıkması.</summary>
-</entry>
-<entry>
-  <title>MIT · Mathematics for Computer Science</title>
-  <link href="https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/"/>
-  <id>https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Matematik"/>
-  <summary>Bilgisayar bilimi için gereken ayrık matematiği — mantık, sayma, graf, olasılık — tek derste toplayan MIT dersi. Genel matematik derslerinden farkı doğrudan CS’e yönelmesi.</summary>
-</entry>
-<entry>
-  <title>OpenIntro Statistics</title>
-  <link href="https://www.openintro.org/book/os/"/>
-  <id>https://www.openintro.org/book/os/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Matematik"/>
-  <summary>Giriş istatistiği için ücretsiz, açık ders kitabı; veri, çıkarım ve regresyonu örnekle anlatıyor. Ticari kitaplardan farkı bedava olması ve alıştırma/slayt setiyle gelmesi.</summary>
-</entry>
-<entry>
-  <title>Paul’s Online Math Notes</title>
-  <link href="https://tutorial.math.lamar.edu/"/>
-  <id>https://tutorial.math.lamar.edu/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Matematik"/>
-  <summary>Cebir, kalkülüs ve diferansiyel denklemler için çözümlü, temiz ders notları (Lamar Üniversitesi). Ders kitabından farkı sınav öncesi hızlı tazeleme için birebir olması.</summary>
-</entry>
-<entry>
-  <title>Probability Cheatsheet</title>
-  <link href="https://www.wzchen.com/probability-cheatsheet"/>
-  <id>https://www.wzchen.com/probability-cheatsheet</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Matematik"/>
-  <summary>Olasılık dersinin dağılım, beklenti ve teoremlerini tek sayfaya sıkıştıran kopya kâğıdı. Ders kitabından farkı sınav anında tek bakışta taranabilir olması.</summary>
-</entry>
-<entry>
-  <title>Seeing Theory</title>
-  <link href="https://seeing-theory.brown.edu/"/>
-  <id>https://seeing-theory.brown.edu/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Matematik"/>
-  <summary>Olasılık ve istatistiği tümüyle etkileşimli görsellerle anlatan Brown Üniversitesi projesi. Ders kitabından farkı kavramı kaydırıp deneyerek görmen — dağılımı elle oynatıyorsun.</summary>
-</entry>
-<entry>
-  <title>Stanford CS229 · Linear Algebra Review</title>
-  <link href="https://cs229.stanford.edu/section/cs229-linalg.pdf"/>
-  <id>https://cs229.stanford.edu/section/cs229-linalg.pdf</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Matematik"/>
-  <summary>Makine öğrenmesi için gereken lineer cebiri özetleyen Stanford referansı. Tam bir dersten farkı yalnız ML’de kullanılan parçaya odaklanan hızlı bir hatırlatma olması.</summary>
 </entry>
 </feed>
