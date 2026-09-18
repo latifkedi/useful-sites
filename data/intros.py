@@ -7,6 +7,13 @@ area, which distinction matters. The point is to turn a list into a guide
 """
 
 INTROS = {
+    'veri_muh': (
+        'Veri mühendisliği veriyi taşımak, dönüştürmek ve güvenilir kılmakla ilgilenir — analizden önceki '
+        'katman. Spark ve Flink işler, Kafka taşır, dbt dönüştürür, Airflow ve Dagster orkestra eder; '
+        'ambar tarafında DuckDB ve Iceberg yeni dengeyi kurar.',
+        'Data engineering is about moving, transforming and making data reliable — the layer before '
+        'analysis. Spark and Flink process, Kafka carries, dbt transforms, Airflow and Dagster '
+        'orchestrate; on the warehouse side DuckDB and Iceberg set the new balance.'),
     'oyun': (
         'Oyun geliştirmede iki yol ayrımı var: hazır bir motor kullanmak (Unity, Godot) ya da motorun '
         'kendisini yazmak. Çoğu kişi birincisini ister; awesome-godot ve MagicTools araçları, '

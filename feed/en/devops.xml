@@ -88,7 +88,7 @@
   <link href="https://airflow.apache.org/"/>
   <id>https://airflow.apache.org/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>You define DAGs in Python and schedule them. The de facto standard for batch data pipelines, and clumsy for event-driven, low-latency work.</summary>
+  <summary>An orchestrator scheduling data pipelines as Python-defined directed graphs (DAGs). Unlike cron it offers dependencies, retries and visibility into historical runs.</summary>
 </entry>
 <entry>
   <title>Coder</title>

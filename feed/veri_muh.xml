@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
+<title>Veri Mühendisliği — Kullanışlı Siteler</title>
+<subtitle>Yazılım, yapay zeka, güvenlik ve bilim üzerine açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/veri_muh.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/veri_muh.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/veri_muh.xml</id>
+<updated>2026-09-18T00:00:00Z</updated>
+<entry>
+  <title>Apache Flink</title>
+  <link href="https://flink.apache.org/"/>
+  <id>https://flink.apache.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Gerçek zamanlı akış işleme motoru; olayları geldikçe, düşük gecikmeyle işler. Spark’ın toplu kökeninden farkı akışı birinci sınıf model olarak alması.</summary>
+</entry>
+<entry>
+  <title>Apache Iceberg</title>
+  <link href="https://iceberg.apache.org/"/>
+  <id>https://iceberg.apache.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Büyük analitik tablolar için açık tablo biçimi; şema evrimi, zaman yolculuğu ve atomik yazma verir. Ham Parquet dizininden farkı tabloyu tutarlı, sürümlenebilir bir birim gibi yönetmesi.</summary>
+</entry>
+<entry>
+  <title>Apache Kafka</title>
+  <link href="https://kafka.apache.org/"/>
+  <id>https://kafka.apache.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Olay akışlarını dayanıklı bir günlük olarak taşıyan dağıtık mesaj platformu. Klasik kuyruklardan farkı mesajı okunduktan sonra silmeyip tekrar oynatılabilir tutması.</summary>
+</entry>
+<entry>
+  <title>Apache Spark</title>
+  <link href="https://spark.apache.org/"/>
+  <id>https://spark.apache.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Büyük veriyi bellek üstünde dağıtık işleyen motor — toplu ve akış işleme. Tek makine kütüphanelerinden farkı terabaytları küme üzerinde bölüştürüp paralel işlemesi.</summary>
+</entry>
+<entry>
+  <title>Awesome Data Engineering</title>
+  <link href="https://github.com/igorbarinov/awesome-data-engineering"/>
+  <id>https://github.com/igorbarinov/awesome-data-engineering</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Veri mühendisliğinin tüm katmanlarını — alım, depolama, işleme, orkestrasyon — araçlarıyla toplayan liste. Tek araca bağlı listelerden farkı yığının bütününü haritalaması.</summary>
+</entry>
+<entry>
+  <title>Awesome Spark</title>
+  <link href="https://github.com/awesome-spark/awesome-spark"/>
+  <id>https://github.com/awesome-spark/awesome-spark</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Apache Spark ekosistemi için paket, öğretici ve örnek listesi. Resmî dokümandan farkı topluluk kütüphanelerini ve gerçek dünya örneklerini toplaması.</summary>
+</entry>
+<entry>
+  <title>Dagster</title>
+  <link href="https://dagster.io/"/>
+  <id>https://dagster.io/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Veri varlıklarını merkeze alan orkestratör; her tabloyu bir “varlık” olarak izliyor. Airflow’dan farkı görevden çok üretilen veriye odaklanıp veri kalitesini yerleşik tutması.</summary>
+</entry>
+<entry>
+  <title>dbt</title>
+  <link href="https://www.getdbt.com/"/>
+  <id>https://www.getdbt.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Veri ambarındaki dönüşümleri SQL + sürüm kontrolü + test ile yöneten araç. El yazımı SQL betiklerinden farkı bağımlılık grafiği, belge ve testi bir yazılım projesi gibi getirmesi.</summary>
+</entry>
+<entry>
+  <title>DuckDB</title>
+  <link href="https://duckdb.org/"/>
+  <id>https://duckdb.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Süreç içinde çalışan analitik veritabanı — kurulum yok, dosyayı doğrudan sorguluyor. Sunucu gerektiren ambarlardan farkı tek makinede, Parquet/CSV üstünde “SQLite hızında OLAP” olması.</summary>
+</entry>
+<entry>
+  <title>Hamilton</title>
+  <link href="https://github.com/dagworks-inc/hamilton"/>
+  <id>https://github.com/dagworks-inc/hamilton</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Veri dönüşümlerini fonksiyonlardan bir grafik olarak kuran hafif Python kütüphanesi. Ağır orkestratörlerden farkı tek dosyada, altyapı gerektirmeden bağımlılık grafiği vermesi.</summary>
+</entry>
+<entry>
+  <title>Spark Internals</title>
+  <link href="https://github.com/JerryLead/SparkInternals"/>
+  <id>https://github.com/JerryLead/SparkInternals</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Apache Spark’ın içeride nasıl çalıştığını — zamanlama, karıştırma, bellek — anlatan derin belge. Kullanım kılavuzundan farkı motorun altını açması, performans ayarı için.</summary>
+</entry>
+<entry>
+  <title>Data Engineering Zoomcamp</title>
+  <link href="https://github.com/DataTalksClub/data-engineering-zoomcamp"/>
+  <id>https://github.com/DataTalksClub/data-engineering-zoomcamp</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Veri mühendisliğini uçtan uca (Docker, dbt, Spark, Kafka, bulut) öğreten ücretsiz, projeli kurs. Dağınık öğreticilerden farkı gerçek bir boru hattını baştan sona kurdurması.</summary>
+</entry>
+<entry>
+  <title>Microsoft · Data Engineer Path</title>
+  <link href="https://learn.microsoft.com/en-us/training/career-paths/data-engineer"/>
+  <id>https://learn.microsoft.com/en-us/training/career-paths/data-engineer</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Bulut veri mühendisliğini modül modül öğreten Microsoft öğrenme patikası. Ürün dokümanından farkı sınavla ölçülen, sıralı bir beceri yolu olarak kurgulanması.</summary>
+</entry>
+<entry>
+  <title>Databricks</title>
+  <link href="https://www.databricks.com/"/>
+  <id>https://www.databricks.com/</id>
+  <updated>2026-07-26T15:42:56Z</updated>
+  <summary>Spark üstüne kurulu, veri gölü ile ambarı birleştiren (“lakehouse”) bulut platformu. Ayrı ambar ve göl kurmaktan farkı ikisini tek yönetişim ve defter arayüzünde toplaması.</summary>
+</entry>
+</feed>
