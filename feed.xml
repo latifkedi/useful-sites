@@ -7,6 +7,78 @@
 <id>https://latifkedi.github.io/useful-sites/</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Awesome Rust</title>
+  <link href="https://github.com/rust-unofficial/awesome-rust"/>
+  <id>https://github.com/rust-unofficial/awesome-rust</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Rust kütüphane ve uygulamalarını konuya göre düzenleyen liste. crates.io aramasından farkı seçilmiş, kategorilenmiş ve bakımı yapılan bir başlangıç haritası olması.</summary>
+</entry>
+<entry>
+  <title>Rust by Example</title>
+  <link href="https://doc.rust-lang.org/rust-by-example/"/>
+  <id>https://doc.rust-lang.org/rust-by-example/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Her kavramı çalıştırılabilir, düzenlenebilir kod örneğiyle veren resmî kaynak. Kitaptan farkı anlatıyı kısıp örneği öne alması — deneyerek öğrenenler için.</summary>
+</entry>
+<entry>
+  <title>Rust Playground</title>
+  <link href="https://play.rust-lang.org/"/>
+  <id>https://play.rust-lang.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Rust kodunu kurulum olmadan tarayıcıda derleyip çalıştıran resmî alan. Yerel kurulumdan farkı derleyici çıktısını ve ASM/MIR’i paylaşılabilir bağlantıyla vermesi.</summary>
+</entry>
+<entry>
+  <title>Rustlings</title>
+  <link href="https://github.com/rust-lang/rustlings"/>
+  <id>https://github.com/rust-lang/rustlings</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Küçük, kırık kod parçalarını düzelterek Rust öğreten alıştırma seti. Okuma temelli kaynaklardan farkı derleyici hatalarını okuyup düzeltmeyi elle deneyimletmesi.</summary>
+</entry>
+<entry>
+  <title>The Async Book</title>
+  <link href="https://rust-lang.github.io/async-book/"/>
+  <id>https://rust-lang.github.io/async-book/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Rust’ta async/await ve Future modelini anlatan resmî kitap. Genel eşzamanlılık anlatımından farkı Rust’ın kendine özgü, ayrıştırılmış çalışma zamanı yaklaşımını açması.</summary>
+</entry>
+<entry>
+  <title>The Cargo Book</title>
+  <link href="https://doc.rust-lang.org/cargo/"/>
+  <id>https://doc.rust-lang.org/cargo/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Rust’ın paket yöneticisi ve derleme aracı Cargo’nun resmî kılavuzu. Dağınık bloglardan farkı bağımlılık, çalışma alanı ve yayımlamayı tek yetkili yerde toplaması.</summary>
+</entry>
+<entry>
+  <title>The Rust Programming Language</title>
+  <link href="https://doc.rust-lang.org/book/"/>
+  <id>https://doc.rust-lang.org/book/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Rust’ı sıfırdan öğreten resmî kitap (“the book”). Üçüncü parti öğreticilerden farkı sahiplik ve ödünç alma modelini adım adım, dilin kendi ekibinin ağzından kurması.</summary>
+</entry>
+<entry>
+  <title>The Rust Reference</title>
+  <link href="https://doc.rust-lang.org/reference/"/>
+  <id>https://doc.rust-lang.org/reference/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Dilin dilbilgisini ve anlamını tanımlayan resmî başvuru. Kitaptan farkı öğretici değil, “Rust tam olarak nasıl davranır” sorusunun yetkili cevabı olması.</summary>
+</entry>
+<entry>
+  <title>The Rustonomicon</title>
+  <link href="https://doc.rust-lang.org/nomicon/"/>
+  <id>https://doc.rust-lang.org/nomicon/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Güvensiz (unsafe) Rust’ın kurallarını anlatan ileri düzey kitap. Ana kitaptan farkı ödünç denetçisinin dışına çıkıldığında nelere dikkat edileceğini kapsaması.</summary>
+</entry>
+<entry>
   <title>Applitools Demo</title>
   <link href="https://demo.applitools.com/"/>
   <id>https://demo.applitools.com/</id>
@@ -253,77 +325,5 @@
   <updated>2026-09-18T00:00:00Z</updated>
   <category term="Oyun Geliştirme"/>
   <summary>Bir programlama dilini oyun yaparak öğreten oyunların listesi. Kuru alıştırmalardan farkı öğrenmeyi bir oyunun ilerleyişine bağlaması.</summary>
-</entry>
-<entry>
-  <title>Awesome Godot</title>
-  <link href="https://github.com/godotengine/awesome-godot"/>
-  <id>https://github.com/godotengine/awesome-godot</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Oyun Geliştirme"/>
-  <summary>Açık kaynak Godot motoru için eklenti, öğretici ve örnek projelerin listesi. Resmî dokümandan farkı topluluğun ürettiği araç ve şablonları toplaması.</summary>
-</entry>
-<entry>
-  <title>Awesome Learn Gamedev</title>
-  <link href="https://github.com/notpresident35/awesome-learn-gamedev"/>
-  <id>https://github.com/notpresident35/awesome-learn-gamedev</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Oyun Geliştirme"/>
-  <summary>Oyun yapımını öğrenmeye yönelik ders, kitap ve topluluk kaynakları. Araç listelerinden farkı sıralı bir öğrenme yolu ve sanat/ses/tasarım gibi yan alanları da kapsaması.</summary>
-</entry>
-<entry>
-  <title>Awesome Open Source Games</title>
-  <link href="https://github.com/michelpereira/awesome-open-source-games"/>
-  <id>https://github.com/michelpereira/awesome-open-source-games</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Oyun Geliştirme"/>
-  <summary>Kaynak kodu açık, oynanabilir oyunların listesi. Oyun mağazalarından farkı kodunu okuyup nasıl yapıldığını öğrenebileceğin, üstüne inşa edebileceğin projeler olması.</summary>
-</entry>
-<entry>
-  <title>MagicTools</title>
-  <link href="https://github.com/ellisonleao/magictools"/>
-  <id>https://github.com/ellisonleao/magictools</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Oyun Geliştirme"/>
-  <summary>Oyun ve grafik geliştirme için araç ve kaynakların listesi — sprite, tile, ses, seviye editörü. Motor listelerinden farkı üretim boru hattındaki yardımcı araçlara odaklanması.</summary>
-</entry>
-<entry>
-  <title>Awesome CircuitPython</title>
-  <link href="https://github.com/adafruit/awesome-circuitpython"/>
-  <id>https://github.com/adafruit/awesome-circuitpython</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Elektrik &amp; Elektronik"/>
-  <summary>Mikrodenetleyicilerde Python (CircuitPython) için kütüphane ve proje listesi. Genel gömülü listelerinden farkı C yerine Python’la donanım programlamaya odaklanması.</summary>
-</entry>
-<entry>
-  <title>Awesome Electronics</title>
-  <link href="https://github.com/kitspace/awesome-electronics"/>
-  <id>https://github.com/kitspace/awesome-electronics</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Elektrik &amp; Elektronik"/>
-  <summary>Elektronik mühendisleri ve hobiciler için araç, üretici ve topluluk listesi. Genel donanım listelerinden farkı PCB tasarımı, komponent tedariki ve simülasyona odaklanması.</summary>
-</entry>
-<entry>
-  <title>Apache Flink</title>
-  <link href="https://flink.apache.org/"/>
-  <id>https://flink.apache.org/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Veri Mühendisliği"/>
-  <summary>Gerçek zamanlı akış işleme motoru; olayları geldikçe, düşük gecikmeyle işler. Spark’ın toplu kökeninden farkı akışı birinci sınıf model olarak alması.</summary>
-</entry>
-<entry>
-  <title>Apache Iceberg</title>
-  <link href="https://iceberg.apache.org/"/>
-  <id>https://iceberg.apache.org/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Veri Mühendisliği"/>
-  <summary>Büyük analitik tablolar için açık tablo biçimi; şema evrimi, zaman yolculuğu ve atomik yazma verir. Ham Parquet dizininden farkı tabloyu tutarlı, sürümlenebilir bir birim gibi yönetmesi.</summary>
-</entry>
-<entry>
-  <title>Apache Kafka</title>
-  <link href="https://kafka.apache.org/"/>
-  <id>https://kafka.apache.org/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Veri Mühendisliği"/>
-  <summary>Olay akışlarını dayanıklı bir günlük olarak taşıyan dağıtık mesaj platformu. Klasik kuyruklardan farkı mesajı okunduktan sonra silmeyip tekrar oynatılabilir tutması.</summary>
 </entry>
 </feed>

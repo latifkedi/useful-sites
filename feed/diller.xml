@@ -5,7 +5,70 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/diller.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/diller.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/diller.xml</id>
-<updated>2026-08-21T20:53:20Z</updated>
+<updated>2026-09-18T00:00:00Z</updated>
+<entry>
+  <title>Awesome Rust</title>
+  <link href="https://github.com/rust-unofficial/awesome-rust"/>
+  <id>https://github.com/rust-unofficial/awesome-rust</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Rust kütüphane ve uygulamalarını konuya göre düzenleyen liste. crates.io aramasından farkı seçilmiş, kategorilenmiş ve bakımı yapılan bir başlangıç haritası olması.</summary>
+</entry>
+<entry>
+  <title>Rust by Example</title>
+  <link href="https://doc.rust-lang.org/rust-by-example/"/>
+  <id>https://doc.rust-lang.org/rust-by-example/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Her kavramı çalıştırılabilir, düzenlenebilir kod örneğiyle veren resmî kaynak. Kitaptan farkı anlatıyı kısıp örneği öne alması — deneyerek öğrenenler için.</summary>
+</entry>
+<entry>
+  <title>Rust Playground</title>
+  <link href="https://play.rust-lang.org/"/>
+  <id>https://play.rust-lang.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Rust kodunu kurulum olmadan tarayıcıda derleyip çalıştıran resmî alan. Yerel kurulumdan farkı derleyici çıktısını ve ASM/MIR’i paylaşılabilir bağlantıyla vermesi.</summary>
+</entry>
+<entry>
+  <title>Rustlings</title>
+  <link href="https://github.com/rust-lang/rustlings"/>
+  <id>https://github.com/rust-lang/rustlings</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Küçük, kırık kod parçalarını düzelterek Rust öğreten alıştırma seti. Okuma temelli kaynaklardan farkı derleyici hatalarını okuyup düzeltmeyi elle deneyimletmesi.</summary>
+</entry>
+<entry>
+  <title>The Async Book</title>
+  <link href="https://rust-lang.github.io/async-book/"/>
+  <id>https://rust-lang.github.io/async-book/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Rust’ta async/await ve Future modelini anlatan resmî kitap. Genel eşzamanlılık anlatımından farkı Rust’ın kendine özgü, ayrıştırılmış çalışma zamanı yaklaşımını açması.</summary>
+</entry>
+<entry>
+  <title>The Cargo Book</title>
+  <link href="https://doc.rust-lang.org/cargo/"/>
+  <id>https://doc.rust-lang.org/cargo/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Rust’ın paket yöneticisi ve derleme aracı Cargo’nun resmî kılavuzu. Dağınık bloglardan farkı bağımlılık, çalışma alanı ve yayımlamayı tek yetkili yerde toplaması.</summary>
+</entry>
+<entry>
+  <title>The Rust Programming Language</title>
+  <link href="https://doc.rust-lang.org/book/"/>
+  <id>https://doc.rust-lang.org/book/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Rust’ı sıfırdan öğreten resmî kitap (“the book”). Üçüncü parti öğreticilerden farkı sahiplik ve ödünç alma modelini adım adım, dilin kendi ekibinin ağzından kurması.</summary>
+</entry>
+<entry>
+  <title>The Rust Reference</title>
+  <link href="https://doc.rust-lang.org/reference/"/>
+  <id>https://doc.rust-lang.org/reference/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Dilin dilbilgisini ve anlamını tanımlayan resmî başvuru. Kitaptan farkı öğretici değil, “Rust tam olarak nasıl davranır” sorusunun yetkili cevabı olması.</summary>
+</entry>
+<entry>
+  <title>The Rustonomicon</title>
+  <link href="https://doc.rust-lang.org/nomicon/"/>
+  <id>https://doc.rust-lang.org/nomicon/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Güvensiz (unsafe) Rust’ın kurallarını anlatan ileri düzey kitap. Ana kitaptan farkı ödünç denetçisinin dışına çıkıldığında nelere dikkat edileceğini kapsaması.</summary>
+</entry>
 <entry>
   <title>CIS 194 Haskell</title>
   <link href="https://www.seas.upenn.edu/~cis1940/spring13/lectures.html"/>
@@ -84,6 +147,13 @@
   <summary>Dilin yaratıcısının C++11 ile gelen her özelliği neden eklediğini anlattığı SSS. Özellik listesinden farkı, tasarım gerekçesini vermesi.</summary>
 </entry>
 <entry>
+  <title>Comprehensive Rust</title>
+  <link href="https://google.github.io/comprehensive-rust/"/>
+  <id>https://google.github.io/comprehensive-rust/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Google’ın dört günlük, slayt + alıştırma biçiminde açık Rust kursu. Kitaptan farkı sınıf ortamı için tempolu, gömülü ve eşzamanlılık modülleriyle gelmesi.</summary>
+</entry>
+<entry>
   <title>CppCon</title>
   <link href="https://www.youtube.com/user/CppCon/videos?shelf_id=0&amp;view=0&amp;sort=dd"/>
   <id>https://www.youtube.com/user/CppCon/videos?shelf_id=0&amp;view=0&amp;sort=dd</id>
@@ -96,6 +166,20 @@
   <id>https://craftinginterpreters.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>Bir dili iki kez sıfırdan yazdıran ücretsiz kitap: önce Java ile ağaç yürüyen yorumlayıcı, sonra C ile bayt kodu sanal makinesi. Alanın en iyi anlatımlarından.</summary>
+</entry>
+<entry>
+  <title>crates.io</title>
+  <link href="https://crates.io/"/>
+  <id>https://crates.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Rust’ın resmî paket kayıt defteri — kütüphaneleri yayımlayıp bağımlılık olarak çekmenin merkezi. Genel kod aramalarından farkı sürüm ve indirme verisiyle güvenilir kaynağı göstermesi.</summary>
+</entry>
+<entry>
+  <title>docs.rs</title>
+  <link href="https://docs.rs/"/>
+  <id>https://docs.rs/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>crates.io’daki her paketin belgelerini otomatik derleyip yayımlayan servis. Her projenin kendi sitesinden farkı tüm ekosistemin dokümanını tek biçim ve tek adreste toplaması.</summary>
 </entry>
 <entry>
   <title>Hitchhiker’s Guide to Python</title>
@@ -161,18 +245,18 @@
   <summary>Qt çatısının resmî belgeleri; C++ ve QML için sınıf referansı, örnekler ve platform kılavuzları. Diğer arayüz çatılarının belgelerinden farkı kapsamı — masaüstü, mobil ve gömülü aynı API altında anlatılıyor.</summary>
 </entry>
 <entry>
-  <title>Rust by Example</title>
-  <link href="https://doc.rust-lang.org/rust-by-example/"/>
-  <id>https://doc.rust-lang.org/rust-by-example/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Rust’ı çalıştırılabilir örneklerle anlatan resmî kaynak; her örnek tarayıcıda düzenlenip derlenebiliyor. Kitaptan farkı okumak yerine denemek üzere kurulmuş olması — ikisi birlikte kullanılmak için tasarlanmış.</summary>
-</entry>
-<entry>
   <title>Rust Cookbook</title>
   <link href="https://rust-lang-nursery.github.io/rust-cookbook/"/>
   <id>https://rust-lang-nursery.github.io/rust-cookbook/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>&quot;Dosyayı satır satır oku&quot;, &quot;HTTP isteği at&quot; gibi gündelik işlerin Rust karşılıklarını veren tarif kitabı. Kitap ve örneklerden farkı görev odaklı olması — dili öğrenmek için değil, bir işi bitirmek için açılıyor.</summary>
+</entry>
+<entry>
+  <title>Rust Standard Library</title>
+  <link href="https://doc.rust-lang.org/std/"/>
+  <id>https://doc.rust-lang.org/std/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Rust standart kütüphanesinin resmî referansı — tip, trait ve makrolar. Öğreticilerden farkı öğretmeye değil, tam ve kesin başvuruya yönelmesi.</summary>
 </entry>
 <entry>
   <title>SICP</title>
@@ -201,89 +285,5 @@
   <id>https://docs.oracle.com/javase/tutorial/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>Oracle’ın resmî Java öğreticisi; dil temellerinden koleksiyonlara ve eşzamanlılığa. Üçüncü parti kurslardan farkı standart kütüphanenin niyetini birinci ağızdan anlatması — karşılığında üslubu kuru ve bazı bölümleri eski sürümlerde kalmış.</summary>
-</entry>
-<entry>
-  <title>The Rust Book</title>
-  <link href="https://doc.rust-lang.org/book/title-page.html"/>
-  <id>https://doc.rust-lang.org/book/title-page.html</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Rust’ın resmî kitabı; sahiplik ve ödünç alma gibi dile özgü kavramları sıfırdan kuruyor. Diğer dil kitaplarından farkı derleyicinin hata mesajlarını öğretinin parçası yapması — Rust’ta derleyiciyle tartışmayı öğrenmek dilin yarısı.</summary>
-</entry>
-<entry>
-  <title>The Super Tiny Compiler</title>
-  <link href="https://github.com/thejameskyle/the-super-tiny-compiler"/>
-  <id>https://github.com/thejameskyle/the-super-tiny-compiler</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Yorum satırlarıyla açıklanmış, birkaç yüz satırlık minik bir derleyici. Derleyici aşamalarının tamamını tek oturumda okunabilir kılıyor.</summary>
-</entry>
-<entry>
-  <title>Writing a C Compiler</title>
-  <link href="https://norasandler.com/2017/11/29/Write-a-Compiler.html"/>
-  <id>https://norasandler.com/2017/11/29/Write-a-Compiler.html</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>C derleyicisini parça parça yazdıran yazı dizisi; her bölüm dilin küçük bir alt kümesini derleyebilen çalışan bir program bırakıyor.</summary>
-</entry>
-<entry>
-  <title>Canlı C++ Kodlama</title>
-  <link href="https://www.youtube.com/watch?v=uhAnt4Iw1VQ&amp;t=802s"/>
-  <id>https://www.youtube.com/watch?v=uhAnt4Iw1VQ&amp;t=802s</id>
-  <updated>2026-07-30T14:45:22Z</updated>
-  <summary>C++ öğrenme sürecinin canlı kaydı; derleyici hataları ve çıkmaz sokaklar kesilmemiş. Cilalı derslerin gizlediği gerçek süreci gösteriyor.</summary>
-</entry>
-<entry>
-  <title>Fortran</title>
-  <link href="https://fortran-lang.org/"/>
-  <id>https://fortran-lang.org/</id>
-  <updated>2026-07-18T21:50:32Z</updated>
-  <summary>Modern Fortran topluluğunun sitesi; fpm paket yöneticisi ve güncel derleyiciler burada. Dil sayısal hesaplama ve iklim modellemede hâlâ üretimde, tarihî merak değil.</summary>
-</entry>
-<entry>
-  <title>Go by Example</title>
-  <link href="https://gobyexample.com/"/>
-  <id>https://gobyexample.com/</id>
-  <updated>2026-04-20T13:01:13Z</updated>
-  <summary>Her kavramı yorumlu tek bir programla anlatıyor. Turu bitirdikten sonra “bunu Go’da nasıl yapıyordum” sorusunun cevabı burada.</summary>
-</entry>
-<entry>
-  <title>A Tour of Go</title>
-  <link href="https://go.dev/tour/welcome/1"/>
-  <id>https://go.dev/tour/welcome/1</id>
-  <updated>2026-04-20T13:01:10Z</updated>
-  <summary>Go’nun resmî turu; her örnek tarayıcıda çalıştırılıp değiştirilebiliyor. Goroutine ve kanalları anlatan son bölüm dilin asıl ayırt edici kısmı.</summary>
-</entry>
-<entry>
-  <title>Sanal Ortam (venv) Nedir?</title>
-  <link href="https://omerfi.medium.com/python-virtual-environment-venv-nedir-981788752e5a"/>
-  <id>https://omerfi.medium.com/python-virtual-environment-venv-nedir-981788752e5a</id>
-  <updated>2026-04-19T16:01:50Z</updated>
-  <summary>Python sanal ortamlarını Türkçe anlatan kısa giriş; kavramı ilk kez duyanlar için yeterli. Modern araç zinciri artık uv tarafına kayıyor, onu da bilmekte fayda var.</summary>
-</entry>
-<entry>
-  <title>LLVM Başlangıç</title>
-  <link href="https://llvm.org/docs/GettingStartedTutorials.html"/>
-  <id>https://llvm.org/docs/GettingStartedTutorials.html</id>
-  <updated>2026-04-14T05:51:39Z</updated>
-  <summary>LLVM altyapısına giriş ve Kaleidoscope öğreticisi — kendi dilini yazmanın klasik başlangıcı. Ara temsil (IR) kavramını somutlaştıran en iyi kaynaklardan.</summary>
-</entry>
-<entry>
-  <title>uv</title>
-  <link href="https://docs.astral.sh/uv/"/>
-  <id>https://docs.astral.sh/uv/</id>
-  <updated>2026-04-13T13:28:42Z</updated>
-  <summary>Rust ile yazılmış paket ve proje yöneticisi; pip’ten onlarca kat hızlı. venv, pip, pip-tools ve pyenv’in işini tek ikili dosyada topluyor.</summary>
-</entry>
-<entry>
-  <title>Indently</title>
-  <link href="https://www.youtube.com/indently"/>
-  <id>https://www.youtube.com/indently</id>
-  <updated>2026-04-06T11:22:58Z</updated>
-  <summary>Tek bir Python kavramını derinleştiren kısa bölümler; uzun kurs formatına almayan konuları işliyor.</summary>
-</entry>
-<entry>
-  <title>Rust Öğrenin (Türkçe)</title>
-  <link href="https://rust-lang.org/tr/learn/"/>
-  <id>https://rust-lang.org/tr/learn/</id>
-  <updated>2026-03-29T18:36:46Z</updated>
-  <summary>Rust’ın resmî öğrenme sayfasının Türkçe hâli. Sahiplik (ownership) ve ödünç alma kavramlarına kendi dilinde girmek, dilin en dik yokuşunu biraz yumuşatıyor.</summary>
 </entry>
 </feed>
