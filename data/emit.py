@@ -302,7 +302,7 @@ def write_all(core, cats, intros, taglbl, out_dir, en_desc):
 
     _hubs(core, cats, intros, out_dir)
     _cat_feeds(core, cats, en_desc, out_dir)
-    _sitemap(written, out_dir)
+    _sitemap(written, core, out_dir)
     _robots(out_dir)
     _feed(core, dict((c[0], c[1]) for c in cats), out_dir)
     return written
@@ -366,14 +366,19 @@ def _hub_jsonld(L, canon, order, label, say):
                json.dumps(canon), L['code'], i, ','.join(ogeler)))
 
 
-def _sitemap(keys, out_dir):
+def _sitemap(keys, core, out_dir):
     """Site haritasi, dil ciftlerini de bildiriyor.
 
     hreflang zaten sayfalarin kendisinde var ve tek basina yeterli; burada
     tekrar edilmesinin sebebi Google'in ikisini capraz dogrulamasi -- eksik
     ya da asimetrik bir eslesme boylece daha erken goruluyor.
+
+    <lastmod> saatten degil, en yeni kaydin eklenme tarihinden gelir. Saati
+    kullanmak her build'i farkli bir gunde farkli bir sitemap.xml uretmeye
+    itiyordu; CI'in "committed cikti taze build ile ayni" kontrolu de bu
+    yuzden patliyordu.
     """
-    today = datetime.date.today().isoformat()
+    today = _day(max((d.get('added', 0) for d in core), default=0))
     ciftler = [('%s/k/%s.html' % (SITE, k), '%s/k/en/%s.html' % (SITE, k))
                for k in keys]
     ciftler.insert(0, ('%s/k/index.html' % SITE, '%s/k/en/index.html' % SITE))
