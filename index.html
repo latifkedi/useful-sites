@@ -619,6 +619,7 @@ var T = {
       "ve benzerlerinden nerede ayrıldığı." },
     hStart:"Buradan Başla", hCats:"Başlıklar", hAll:"Tümünü tek listede gör →",
     tagMore:function(n){ return "+ " + n + " Etiket Daha" }, tagLess:"− Etiketleri Kısalt",
+    srcMore:function(n){ return "+ " + n + " Kaynak Daha" }, srcLess:"− Kaynakları Kısalt",
     backCat:"← Bu başlıktaki diğer kayıtlar", permaTip:"Bu kayda bağlantı", perma:"bağlantı",
     recent:"Son Eklenenler", recentLead:function(n){ return "Dizine en son giren "+n+" kayıt, aya göre." },
     dead:"Ölü", deadTip:"Son taramada yanıt vermedi — arşivden bak",
@@ -686,6 +687,7 @@ var T = {
       "parts ways with its neighbours." },
     hStart:"Start Here", hCats:"Headings", hAll:"See everything in one list →",
     tagMore:function(n){ return "+ " + n + " More Tags" }, tagLess:"− Fewer Tags",
+    srcMore:function(n){ return "+ " + n + " More Sources" }, srcLess:"− Fewer Sources",
     backCat:"← Other entries under this heading", permaTip:"Link to this entry", perma:"link",
     recent:"Recently Added", recentLead:function(n){ return "The "+n+" newest entries, by month." },
     dead:"Dead", deadTip:"No response in the last scan — try the archive",
@@ -994,6 +996,32 @@ function firstSentence(t){
    disinda kalsa bile her zaman gosteriliyor, yoksa aktif suzgec kayboluyor. */
 var TAG_HEAD = 15;
 var tagsOpen = false;
+var SRC_HEAD = 7;
+var srcOpen = false;
+
+/* The source ("added by") bar grew from 6 to 16 chips as the directory took in
+   external lists. At that size it pushed content down, so it collapses to the
+   biggest few with a "+N more", mirroring the tag bar. */
+function srcbarHTML(L){
+  var keys = Object.keys(SRCMAP).filter(function(k){ return SRCCOUNT[k] });
+  keys.sort(function(a, b){ return SRCCOUNT[b] - SRCCOUNT[a] });
+  var goster = keys.slice(0, SRC_HEAD);
+  if(activeSrc && goster.indexOf(activeSrc) < 0 && keys.indexOf(activeSrc) >= 0)
+    goster.push(activeSrc);
+  var liste = srcOpen ? keys : goster;
+  var gizli = keys.length - liste.length;
+  return '<span class="lbl">'+esc(L.by)+'</span>' +
+    liste.map(function(k){
+      var sm = SRCMAP[k];
+      return '<button class="tag" type="button" data-src="'+esc(k)+'" aria-pressed="'+
+             (activeSrc===k)+'" title="'+esc(sm[lang==="tr"?"note_tr":"note_en"])+'"><b>'+
+             esc(sm[lang==="tr"?"label_tr":"label_en"])+'</b> '+SRCCOUNT[k]+'</button>';
+    }).join("") +
+    (gizli > 0 || srcOpen
+      ? '<button class="tag more" type="button" id="srcmore" aria-expanded="'+srcOpen+'">'+
+        (srcOpen ? esc(L.srcLess) : esc(L.srcMore(gizli)))+'</button>'
+      : "");
+}
 
 function tagbarHTML(L){
   var goster = ALLTAGS.slice(0, TAG_HEAD);
@@ -1195,14 +1223,7 @@ function render(){
                  .map(function(c){ return navItem(c.key) }).join("");
   $("#nav").innerHTML = navHTML;
 
-  $("#srcbar").innerHTML = '<span class="lbl">'+esc(L.by)+'</span>' +
-    Object.keys(SRCMAP).map(function(k){
-      if(!SRCCOUNT[k]) return "";
-      var sm = SRCMAP[k];
-      return '<button class="tag" type="button" data-src="'+esc(k)+'" aria-pressed="'+
-             (activeSrc===k)+'" title="'+esc(sm[lang==="tr"?"note_tr":"note_en"])+'"><b>'+
-             esc(sm[lang==="tr"?"label_tr":"label_en"])+'</b> '+SRCCOUNT[k]+'</button>';
-    }).join("");
+  $("#srcbar").innerHTML = srcbarHTML(L);
 
   $("#tagbar").innerHTML =
     '<button class="tag pickbtn" type="button" id="pickbtn" aria-pressed="'+onlyPicks+'">'+
@@ -1287,6 +1308,7 @@ document.addEventListener("click", function(e){
   var all = e.target.closest("[data-all]");
   if(all){ e.preventDefault(); sortBy = "az"; single = null; recent = false; pages = {}; update(true); return }
   if(e.target.closest("#tagmore")){ tagsOpen = !tagsOpen; render(); return }
+  if(e.target.closest("#srcmore")){ srcOpen = !srcOpen; render(); return }
   if(e.target.closest("#pickbtn")){ onlyPicks = !onlyPicks; single = null; recent = false; pages = {}; update(true); return }
   var sb = e.target.closest("[data-src]");
   if(sb){
