@@ -7,6 +7,13 @@
 <id>https://latifkedi.github.io/useful-sites/feed/en/devops.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Awesome Backstage</title>
+  <link href="https://github.com/shano/awesome-backstage"/>
+  <id>https://github.com/shano/awesome-backstage</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A resource list for Backstage, building internal developer portals.</summary>
+</entry>
+<entry>
   <title>Awesome Kubernetes</title>
   <link href="https://github.com/ramitsurana/awesome-kubernetes"/>
   <id>https://github.com/ramitsurana/awesome-kubernetes</id>
@@ -19,6 +26,13 @@
   <id>https://github.com/nix-community/awesome-nix</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A list of tools, libraries and guides for the Nix package manager and NixOS. Unlike general Linux lists it focuses on reproducible, declarative configuration.</summary>
+</entry>
+<entry>
+  <title>Chaos Mesh</title>
+  <link href="https://github.com/chaos-mesh/chaos-mesh"/>
+  <id>https://github.com/chaos-mesh/chaos-mesh</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A cloud-native, Kubernetes-integrated chaos-engineering (fault-injection) platform.</summary>
 </entry>
 <entry>
   <title>Cloudflare</title>
@@ -271,19 +285,5 @@
   <id>https://git-scm.com/book/tr/v2</id>
   <updated>2026-04-20T13:01:17Z</updated>
   <summary>The Turkish translation of Git’s official book. The internals chapter — object model, refs — is what frees you from memorising commands and actually makes Git make sense.</summary>
-</entry>
-<entry>
-  <title>Dokploy</title>
-  <link href="https://github.com/dokploy/dokploy"/>
-  <id>https://github.com/dokploy/dokploy</id>
-  <updated>2026-04-20T11:51:53Z</updated>
-  <summary>Brings a Vercel-like deploy experience to your own VPS — git-push deploys, database provisioning, automatic TLS. It fills the hole left when Heroku’s free tier closed.</summary>
-</entry>
-<entry>
-  <title>Grafana</title>
-  <link href="https://grafana.com/"/>
-  <id>https://grafana.com/</id>
-  <updated>2026-04-20T11:51:43Z</updated>
-  <summary>Unifies Prometheus, Loki, PostgreSQL and dozens of sources on one dashboard. Being data-source agnostic is how it became the shared face of monitoring stacks.</summary>
 </entry>
 </feed>

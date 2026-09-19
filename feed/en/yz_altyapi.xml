@@ -5,7 +5,14 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/en/yz_altyapi.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/en/yz_altyapi.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/yz_altyapi.xml</id>
-<updated>2026-09-10T20:53:20Z</updated>
+<updated>2026-09-18T00:00:00Z</updated>
+<entry>
+  <title>Awesome Firebase Genkit</title>
+  <link href="https://github.com/xavidop/awesome-firebase-genkit"/>
+  <id>https://github.com/xavidop/awesome-firebase-genkit</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A resource list for Genkit, the open-source framework for building AI-powered features.</summary>
+</entry>
 <entry>
   <title>Bernstein</title>
   <link href="https://github.com/sipyourdrink-ltd/bernstein"/>
@@ -278,12 +285,5 @@
   <id>https://www.promptfoo.dev/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>Runs prompts and models side by side against a test set declared in YAML. It catches output regressions in a CI step when a model version changes.</summary>
-</entry>
-<entry>
-  <title>Pydantic AI</title>
-  <link href="https://ai.pydantic.dev/"/>
-  <id>https://ai.pydantic.dev/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Validates model output against a Pydantic schema and sends it back for correction when it fails. What you get out is a type-guaranteed object, not free text.</summary>
 </entry>
 </feed>

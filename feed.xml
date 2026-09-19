@@ -7,6 +7,14 @@
 <id>https://latifkedi.github.io/useful-sites/</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Awesome asyncio</title>
+  <link href="https://github.com/timofurrer/awesome-asyncio"/>
+  <id>https://github.com/timofurrer/awesome-asyncio</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Python 3’te asenkron G/Ç (asyncio) için kütüphane ve kaynak listesi.</summary>
+</entry>
+<entry>
   <title>Awesome C++</title>
   <link href="https://github.com/uhub/awesome-cpp"/>
   <id>https://github.com/uhub/awesome-cpp</id>
@@ -15,12 +23,60 @@
   <summary>C++ kütüphane ve çerçevelerini konuya göre düzenleyen liste. Genel aramadan farkı bakımı yapılan, kategorilenmiş bir başlangıç haritası olması.</summary>
 </entry>
 <entry>
+  <title>Awesome CMake</title>
+  <link href="https://github.com/onqtam/awesome-cmake"/>
+  <id>https://github.com/onqtam/awesome-cmake</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>C/C++ derleme aracı CMake için betik, modül ve kaynak listesi.</summary>
+</entry>
+<entry>
+  <title>Awesome Common Lisp</title>
+  <link href="https://github.com/CodyReichert/awesome-cl"/>
+  <id>https://github.com/CodyReichert/awesome-cl</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Common Lisp kütüphane ve araçlarını toplayan liste.</summary>
+</entry>
+<entry>
+  <title>Awesome Composer</title>
+  <link href="https://github.com/jakoch/awesome-composer"/>
+  <id>https://github.com/jakoch/awesome-composer</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>PHP paket yöneticisi Composer için kaynak listesi.</summary>
+</entry>
+<entry>
+  <title>Awesome Coq</title>
+  <link href="https://github.com/coq-community/awesome-coq"/>
+  <id>https://github.com/coq-community/awesome-coq</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Biçimsel ispat dili ve ortamı Coq için kaynak listesi.</summary>
+</entry>
+<entry>
   <title>Awesome Elixir</title>
   <link href="https://github.com/h4cc/awesome-elixir"/>
   <id>https://github.com/h4cc/awesome-elixir</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <category term="Programlama Dilleri"/>
   <summary>Elixir dili ve Erlang ekosistemi için kütüphane listesi. Hex paket aramasından farkı seçilmiş ve konuya göre gruplanmış olması.</summary>
+</entry>
+<entry>
+  <title>Awesome Python Scientific Audio</title>
+  <link href="https://github.com/faroit/awesome-python-scientific-audio"/>
+  <id>https://github.com/faroit/awesome-python-scientific-audio</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Ses/müzik üzerine bilimsel araştırma için Python kütüphaneleri listesi.</summary>
+</entry>
+<entry>
+  <title>Awesome Python Typing</title>
+  <link href="https://github.com/typeddjango/awesome-python-typing"/>
+  <id>https://github.com/typeddjango/awesome-python-typing</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Python’da isteğe bağlı statik tipleme için araç ve kaynak listesi.</summary>
 </entry>
 <entry>
   <title>Awesome Ruby</title>
@@ -45,6 +101,22 @@
   <updated>2026-09-18T00:00:00Z</updated>
   <category term="Programlama Dilleri"/>
   <summary>Scala kütüphane ve araçlarının konuya göre listesi. Dağınık aramadan farkı fonksiyonel ve büyük veri kütüphanelerini bir arada göstermesi.</summary>
+</entry>
+<entry>
+  <title>Awesome V</title>
+  <link href="https://github.com/vlang/awesome-v"/>
+  <id>https://github.com/vlang/awesome-v</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Sade, hızlı ve güvenli derlenen V dili için kaynak listesi.</summary>
+</entry>
+<entry>
+  <title>better-files</title>
+  <link href="https://github.com/pathikrit/better-files"/>
+  <id>https://github.com/pathikrit/better-files</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Scala’da dosya işlemlerini kolaylaştıran ince NIO sarmalayıcı kütüphane.</summary>
 </entry>
 <entry>
   <title>C#</title>
@@ -109,6 +181,14 @@
   <updated>2026-09-18T00:00:00Z</updated>
   <category term="Programlama Dilleri"/>
   <summary>Bilimsel hesaplama için yüksek başarımlı, açık kaynak dil.</summary>
+</entry>
+<entry>
+  <title>Julia.jl</title>
+  <link href="https://github.com/svaksha/Julia.jl"/>
+  <id>https://github.com/svaksha/Julia.jl</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Julia dili paket ve kaynaklarını konuya göre düzenleyen kapsamlı liste.</summary>
 </entry>
 <entry>
   <title>Kotlin</title>
@@ -245,85 +325,5 @@
   <updated>2026-09-18T00:00:00Z</updated>
   <category term="Programlama Dilleri"/>
   <summary>Güvensiz (unsafe) Rust’ın kurallarını anlatan ileri düzey kitap. Ana kitaptan farkı ödünç denetçisinin dışına çıkıldığında nelere dikkat edileceğini kapsaması.</summary>
-</entry>
-<entry>
-  <title>Vavr</title>
-  <link href="https://github.com/vavr-io/vavr"/>
-  <id>https://github.com/vavr-io/vavr</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Programlama Dilleri"/>
-  <summary>Java’ya kalıcı koleksiyonlar ve fonksiyonel kontrol yapıları getiren kütüphane. Standart koleksiyonlardan farkı değişmezliği ve Try/Either gibi tipleri öne alması.</summary>
-</entry>
-<entry>
-  <title>Atmos</title>
-  <link href="https://atmos.style/"/>
-  <id>https://atmos.style/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Web &amp; Frontend"/>
-  <summary>Erişilebilirlik kontrolüyle renk paleti oluşturmak için gereken her şey.</summary>
-</entry>
-<entry>
-  <title>Autoprefixer</title>
-  <link href="https://autoprefixer.github.io/"/>
-  <id>https://autoprefixer.github.io/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Web &amp; Frontend"/>
-  <summary>CSS’e tarayıcı ön eklerini (‑webkit‑, ‑moz‑) otomatik ekleyen araç. Elle eklemekten farkı hangi ekin gerektiğini güncel tarayıcı verisinden bilmesi.</summary>
-</entry>
-<entry>
-  <title>Awesome Angular</title>
-  <link href="https://github.com/PatrickJS/awesome-angular"/>
-  <id>https://github.com/PatrickJS/awesome-angular</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Web &amp; Frontend"/>
-  <summary>Angular uygulama çatısı için bileşen, araç ve öğretici listesi. Resmî dokümandan farkı topluluk kütüphanelerini ve gerçek örnekleri toplaması.</summary>
-</entry>
-<entry>
-  <title>Awesome CSS</title>
-  <link href="https://github.com/awesome-css-group/awesome-css"/>
-  <id>https://github.com/awesome-css-group/awesome-css</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Web &amp; Frontend"/>
-  <summary>CSS dili, araçları ve kaynaklarını konuya göre toplayan liste.</summary>
-</entry>
-<entry>
-  <title>Awesome CSS Learning</title>
-  <link href="https://github.com/micromata/awesome-css-learning"/>
-  <id>https://github.com/micromata/awesome-css-learning</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Web &amp; Frontend"/>
-  <summary>CSS dilini ve modüllerini öğrenmeye odaklı kaynak listesi.</summary>
-</entry>
-<entry>
-  <title>Awesome Frontend GIS</title>
-  <link href="https://github.com/joewdavies/awesome-frontend-gis"/>
-  <id>https://github.com/joewdavies/awesome-frontend-gis</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Web &amp; Frontend"/>
-  <summary>Tarayıcıda coğrafi bilgi sistemleri (harita) için kütüphane listesi.</summary>
-</entry>
-<entry>
-  <title>Awesome HTML5</title>
-  <link href="https://github.com/diegocard/awesome-html5"/>
-  <id>https://github.com/diegocard/awesome-html5</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Web &amp; Frontend"/>
-  <summary>HTML5 API’leri, araçları ve kaynaklarının listesi.</summary>
-</entry>
-<entry>
-  <title>Awesome Mobile Web Development</title>
-  <link href="https://github.com/myshov/awesome-mobile-web-development"/>
-  <id>https://github.com/myshov/awesome-mobile-web-development</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Web &amp; Frontend"/>
-  <summary>İyi bir mobil web deneyimi kurmak için kaynak listesi.</summary>
-</entry>
-<entry>
-  <title>Awesome PostCSS</title>
-  <link href="https://github.com/jdrgomes/awesome-postcss"/>
-  <id>https://github.com/jdrgomes/awesome-postcss</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Web &amp; Frontend"/>
-  <summary>CSS’i eklentilerle dönüştüren PostCSS aracı için kaynak listesi.</summary>
 </entry>
 </feed>

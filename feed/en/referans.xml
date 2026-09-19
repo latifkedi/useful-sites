@@ -7,6 +7,27 @@
 <id>https://latifkedi.github.io/useful-sites/feed/en/referans.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>30 Seconds of Code</title>
+  <link href="https://github.com/30-seconds/30-seconds-of-code"/>
+  <id>https://github.com/30-seconds/30-seconds-of-code</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A collection of short, explained code snippets you can grasp in 30 seconds.</summary>
+</entry>
+<entry>
+  <title>Awesome ArcGIS Developer</title>
+  <link href="https://github.com/Esri/awesome-arcgis-developer"/>
+  <id>https://github.com/Esri/awesome-arcgis-developer</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Developer resources for ArcGIS, the mapping and location-analysis platform.</summary>
+</entry>
+<entry>
+  <title>Begin LaTeX in Minutes</title>
+  <link href="https://github.com/LewisVo/Begin-Latex-in-minutes"/>
+  <id>https://github.com/LewisVo/Begin-Latex-in-minutes</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A brief intro to LaTeX for beginners, in minutes.</summary>
+</entry>
+<entry>
   <title>Free Computer Books</title>
   <link href="https://freecomputerbooks.com/"/>
   <id>https://freecomputerbooks.com/</id>
@@ -26,6 +47,13 @@
   <id>https://www.markdownguide.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A comprehensive guide to Markdown, used for formatting READMEs and docs.</summary>
+</entry>
+<entry>
+  <title>Project Guidelines</title>
+  <link href="https://github.com/wearehive/project-guidelines"/>
+  <id>https://github.com/wearehive/project-guidelines</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A set of best practices for running a software project.</summary>
 </entry>
 <entry>
   <title>Stack Overflow Survey</title>
@@ -257,33 +285,5 @@
   <id>https://libraries.io/</id>
   <updated>2026-08-21T20:53:20Z</updated>
   <summary>A directory searching more than thirty package managers at once, showing a library’s dependencies and its dependents. Against searching npm or PyPI directly it spans ecosystems and surfaces abandonment signals.</summary>
-</entry>
-<entry>
-  <title>Map of GitHub</title>
-  <link href="https://anvaka.github.io/map-of-github/"/>
-  <id>https://anvaka.github.io/map-of-github/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A visualisation clustering GitHub repositories by star similarity into a browsable map. Against topic search it shows adjacency: what else the people who starred one project starred, laid out as terrain.</summary>
-</entry>
-<entry>
-  <title>Oh Shit, Git!?!</title>
-  <link href="https://ohshitgit.com/"/>
-  <id>https://ohshitgit.com/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A short guide to undoing whatever you just broke in Git, each entry opening on a real moment of panic. Against the official docs it starts from the situation rather than the command — you search &quot;committed to the wrong branch&quot;, not `reflog`.</summary>
-</entry>
-<entry>
-  <title>Open Source Guides</title>
-  <link href="https://opensource.guide/"/>
-  <id>https://opensource.guide/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>GitHub’s guides to open source: starting a project, taking contributions, running a community, handling burnout. Unlike licence or tooling guides it deals with the social side — the sustainability of the project rather than the code.</summary>
-</entry>
-<entry>
-  <title>OSS Gallery</title>
-  <link href="https://oss.gallery/"/>
-  <id>https://oss.gallery/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A crowdsourced showcase of open-source projects, each with a live demo and repository link. Against awesome lists it is visual — you see what a thing does before reading about it.</summary>
 </entry>
 </feed>

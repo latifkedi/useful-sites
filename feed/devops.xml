@@ -7,6 +7,13 @@
 <id>https://latifkedi.github.io/useful-sites/feed/devops.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Awesome Backstage</title>
+  <link href="https://github.com/shano/awesome-backstage"/>
+  <id>https://github.com/shano/awesome-backstage</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>İç geliştirici portalları kuran Backstage platformu için kaynak listesi.</summary>
+</entry>
+<entry>
   <title>Awesome Kubernetes</title>
   <link href="https://github.com/ramitsurana/awesome-kubernetes"/>
   <id>https://github.com/ramitsurana/awesome-kubernetes</id>
@@ -19,6 +26,13 @@
   <id>https://github.com/nix-community/awesome-nix</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Nix paket yöneticisi ve NixOS için araç, kütüphane ve rehber listesi. Genel Linux listelerinden farkı yeniden üretilebilir, bildirimsel yapılandırmaya odaklanması.</summary>
+</entry>
+<entry>
+  <title>Chaos Mesh</title>
+  <link href="https://github.com/chaos-mesh/chaos-mesh"/>
+  <id>https://github.com/chaos-mesh/chaos-mesh</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Kubernetes ile bütünleşik, bulut-doğal kaos mühendisliği (arıza enjeksiyonu) platformu.</summary>
 </entry>
 <entry>
   <title>Cloudflare</title>
@@ -271,19 +285,5 @@
   <id>https://git-scm.com/book/tr/v2</id>
   <updated>2026-04-20T13:01:17Z</updated>
   <summary>Git’in resmî kitabının Türkçe çevirisi. İç mekanizma bölümü (nesne modeli, referanslar) komut ezberlemekten kurtarıyor — Git’i asıl anlaşılır kılan kısım orası.</summary>
-</entry>
-<entry>
-  <title>Dokploy</title>
-  <link href="https://github.com/dokploy/dokploy"/>
-  <id>https://github.com/dokploy/dokploy</id>
-  <updated>2026-04-20T11:51:53Z</updated>
-  <summary>Kendi VPS’inde Vercel benzeri dağıtım deneyimi kuruyor: git iterek yayına alma, veritabanı sağlama ve otomatik TLS. Heroku’nun ücretsiz katmanı kapandıktan sonra doğan boşluğu dolduruyor.</summary>
-</entry>
-<entry>
-  <title>Grafana</title>
-  <link href="https://grafana.com/"/>
-  <id>https://grafana.com/</id>
-  <updated>2026-04-20T11:51:43Z</updated>
-  <summary>Prometheus, Loki, PostgreSQL ve onlarca kaynağı aynı panoda birleştiriyor. Veri kaynağından bağımsız olması, izleme yığınının ortak yüzü hâline gelmesini sağladı.</summary>
 </entry>
 </feed>

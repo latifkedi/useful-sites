@@ -7,11 +7,53 @@
 <id>https://latifkedi.github.io/useful-sites/feed/ag.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Awesome Arch</title>
+  <link href="https://github.com/PandaFoss/Awesome-Arch"/>
+  <id>https://github.com/PandaFoss/Awesome-Arch</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Arch Linux tabanlı dağıtım ve projelerin listesi.</summary>
+</entry>
+<entry>
+  <title>Awesome eBPF</title>
+  <link href="https://github.com/zoidbergwill/awesome-ebpf"/>
+  <id>https://github.com/zoidbergwill/awesome-ebpf</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Çekirdek içinde güvenli program çalıştıran eBPF için kaynak listesi.</summary>
+</entry>
+<entry>
+  <title>Awesome GNOME</title>
+  <link href="https://github.com/Kazhnuz/awesome-gnome"/>
+  <id>https://github.com/Kazhnuz/awesome-gnome</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>GNOME masaüstü ortamı için uygulama ve eklenti listesi.</summary>
+</entry>
+<entry>
+  <title>Awesome IPFS</title>
+  <link href="https://github.com/ipfs/awesome-ipfs"/>
+  <id>https://github.com/ipfs/awesome-ipfs</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Merkeziyetsiz dosya protokolü IPFS için araç ve proje listesi.</summary>
+</entry>
+<entry>
+  <title>Awesome KDE</title>
+  <link href="https://github.com/francoism90/awesome-kde"/>
+  <id>https://github.com/francoism90/awesome-kde</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>KDE masaüstü ortamı için uygulama ve kaynak listesi.</summary>
+</entry>
+<entry>
   <title>Awesome Scapy</title>
   <link href="https://github.com/secdev/awesome-scapy"/>
   <id>https://github.com/secdev/awesome-scapy</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Python paket işleme kütüphanesi Scapy için araç ve örnek listesi. Genel ağ listelerinden farkı paketi elle kurup gönderme (packet crafting) etrafında toplanması.</summary>
+</entry>
+<entry>
+  <title>Awesome Windows</title>
+  <link href="https://github.com/0pandadev/awesome-windows"/>
+  <id>https://github.com/0pandadev/awesome-windows</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Windows masaüstü için en iyi uygulama ve araçları toplayan liste.</summary>
 </entry>
 <entry>
   <title>Linux Journey</title>
@@ -243,47 +285,5 @@
   <id>https://www.netacad.com/catalogs/learn/networking?language=tr-tr</id>
   <updated>2026-06-26T11:19:10Z</updated>
   <summary>Cisco ağ kurslarının Türkçe kataloğu; giriş seviyesi dersler ücretsiz ve rozet veriyor. Türkçe teknik ağ eğitimi bulmak yerelde kolay değil.</summary>
-</entry>
-<entry>
-  <title>Windows 11 Tam Rehber</title>
-  <link href="https://www.youtube.com/watch?v=5kt4t2gzt9g"/>
-  <id>https://www.youtube.com/watch?v=5kt4t2gzt9g</id>
-  <updated>2026-05-11T15:32:08Z</updated>
-  <summary>Windows 11 ayarlarını baştan sona gezen rehber; grup ilkesi ve kayıt defteri ayarlarına da giriyor. Kullanıcı desteği tarafında hızlı başvuru.</summary>
-</entry>
-<entry>
-  <title>DNS Yapılandırma (CompTIA A+)</title>
-  <link href="https://www.youtube.com/watch?v=lAHqO9sDVy4"/>
-  <id>https://www.youtube.com/watch?v=lAHqO9sDVy4</id>
-  <updated>2026-05-11T15:31:48Z</updated>
-  <summary>A+ kapsamındaki DNS kayıt türleri ve yapılandırması. Kısa ve sınav odaklı.</summary>
-</entry>
-<entry>
-  <title>DHCP (CompTIA A+)</title>
-  <link href="https://www.youtube.com/watch?v=HwUqCZFx6wk"/>
-  <id>https://www.youtube.com/watch?v=HwUqCZFx6wk</id>
-  <updated>2026-05-11T15:31:29Z</updated>
-  <summary>A+ müfredatındaki DHCP konusunun kısa anlatımı; kapsam sınav hedefine birebir oturuyor. Fazlasını anlatmaması sınav çalışmasında avantaj.</summary>
-</entry>
-<entry>
-  <title>Linux Journey</title>
-  <link href="https://labex.io/linuxjourney"/>
-  <id>https://labex.io/linuxjourney</id>
-  <updated>2026-04-20T13:01:18Z</updated>
-  <summary>Linux’u küçük modüllere bölerek öğretiyor: dosya sistemi, izinler, süreçler, paket yönetimi. Kapsamlı kitapların yıldırdığı yerde sindirilebilir parçalar sunuyor.</summary>
-</entry>
-<entry>
-  <title>Wireshark</title>
-  <link href="https://www.wireshark.org/#download"/>
-  <id>https://www.wireshark.org/#download</id>
-  <updated>2026-04-20T12:57:34Z</updated>
-  <summary>Paket yakalama ve protokol çözümlemenin standardı; TLS anahtarı verirsen şifreli trafiği de açıyor. Ağ sorunlarında “sanırım” yerine kanıt üretmenin tek yolu.</summary>
-</entry>
-<entry>
-  <title>Bilgisayar Ağları Temelleri</title>
-  <link href="https://www.youtube.com/watch?v=fQbBPa0ADvs"/>
-  <id>https://www.youtube.com/watch?v=fQbBPa0ADvs</id>
-  <updated>2026-04-06T11:38:30Z</updated>
-  <summary>OSI katmanlarından yönlendirmeye kadar ağ kavramlarını tam kurs formatında işliyor. Sertifika çalışmasına başlamadan önce zemin kurmak için.</summary>
 </entry>
 </feed>

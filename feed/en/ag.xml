@@ -7,11 +7,53 @@
 <id>https://latifkedi.github.io/useful-sites/feed/en/ag.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Awesome Arch</title>
+  <link href="https://github.com/PandaFoss/Awesome-Arch"/>
+  <id>https://github.com/PandaFoss/Awesome-Arch</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of Arch Linux–based distributions and projects.</summary>
+</entry>
+<entry>
+  <title>Awesome eBPF</title>
+  <link href="https://github.com/zoidbergwill/awesome-ebpf"/>
+  <id>https://github.com/zoidbergwill/awesome-ebpf</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A resource list for eBPF, which runs safe programs inside the kernel.</summary>
+</entry>
+<entry>
+  <title>Awesome GNOME</title>
+  <link href="https://github.com/Kazhnuz/awesome-gnome"/>
+  <id>https://github.com/Kazhnuz/awesome-gnome</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of apps and extensions for the GNOME desktop environment.</summary>
+</entry>
+<entry>
+  <title>Awesome IPFS</title>
+  <link href="https://github.com/ipfs/awesome-ipfs"/>
+  <id>https://github.com/ipfs/awesome-ipfs</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of tools and projects for IPFS, the decentralised file protocol.</summary>
+</entry>
+<entry>
+  <title>Awesome KDE</title>
+  <link href="https://github.com/francoism90/awesome-kde"/>
+  <id>https://github.com/francoism90/awesome-kde</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of apps and resources for the KDE desktop environment.</summary>
+</entry>
+<entry>
   <title>Awesome Scapy</title>
   <link href="https://github.com/secdev/awesome-scapy"/>
   <id>https://github.com/secdev/awesome-scapy</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A list of tools and examples for Scapy, the Python packet-manipulation library. Unlike general network lists it centres on crafting and sending packets by hand.</summary>
+</entry>
+<entry>
+  <title>Awesome Windows</title>
+  <link href="https://github.com/0pandadev/awesome-windows"/>
+  <id>https://github.com/0pandadev/awesome-windows</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of the best apps and tools for the Windows desktop.</summary>
 </entry>
 <entry>
   <title>Linux Journey</title>
@@ -243,47 +285,5 @@
   <id>https://www.netacad.com/catalogs/learn/networking?language=tr-tr</id>
   <updated>2026-06-26T11:19:10Z</updated>
   <summary>The Turkish catalogue of Cisco networking courses, with free entry-level classes that award badges. Turkish-language networking training is not easy to find locally.</summary>
-</entry>
-<entry>
-  <title>Windows 11 Tam Rehber</title>
-  <link href="https://www.youtube.com/watch?v=5kt4t2gzt9g"/>
-  <id>https://www.youtube.com/watch?v=5kt4t2gzt9g</id>
-  <updated>2026-05-11T15:32:08Z</updated>
-  <summary>A guide walking the whole of Windows 11’s settings, reaching into group policy and registry tweaks. A quick reference on the user-support side.</summary>
-</entry>
-<entry>
-  <title>DNS Yapılandırma (CompTIA A+)</title>
-  <link href="https://www.youtube.com/watch?v=lAHqO9sDVy4"/>
-  <id>https://www.youtube.com/watch?v=lAHqO9sDVy4</id>
-  <updated>2026-05-11T15:31:48Z</updated>
-  <summary>DNS record types and configuration within the A+ scope — short and exam-focused.</summary>
-</entry>
-<entry>
-  <title>DHCP (CompTIA A+)</title>
-  <link href="https://www.youtube.com/watch?v=HwUqCZFx6wk"/>
-  <id>https://www.youtube.com/watch?v=HwUqCZFx6wk</id>
-  <updated>2026-05-11T15:31:29Z</updated>
-  <summary>A short treatment of DHCP as the A+ syllabus defines it, mapped exactly to the exam objective. Not covering more is an advantage when revising.</summary>
-</entry>
-<entry>
-  <title>Linux Journey</title>
-  <link href="https://labex.io/linuxjourney"/>
-  <id>https://labex.io/linuxjourney</id>
-  <updated>2026-04-20T13:01:18Z</updated>
-  <summary>Teaches Linux in small modules — filesystem, permissions, processes, package management — offering digestible pieces where comprehensive books overwhelm.</summary>
-</entry>
-<entry>
-  <title>Wireshark</title>
-  <link href="https://www.wireshark.org/#download"/>
-  <id>https://www.wireshark.org/#download</id>
-  <updated>2026-04-20T12:57:34Z</updated>
-  <summary>The standard for packet capture and protocol dissection, and it will decrypt TLS if you hand it the keys. The only way to replace “I think” with evidence in a network problem.</summary>
-</entry>
-<entry>
-  <title>Bilgisayar Ağları Temelleri</title>
-  <link href="https://www.youtube.com/watch?v=fQbBPa0ADvs"/>
-  <id>https://www.youtube.com/watch?v=fQbBPa0ADvs</id>
-  <updated>2026-04-06T11:38:30Z</updated>
-  <summary>Works networking concepts from the OSI layers through routing in full-course format — for laying the ground before certification study.</summary>
 </entry>
 </feed>

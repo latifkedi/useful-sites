@@ -7,6 +7,13 @@
 <id>https://latifkedi.github.io/useful-sites/feed/en/diller.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Awesome asyncio</title>
+  <link href="https://github.com/timofurrer/awesome-asyncio"/>
+  <id>https://github.com/timofurrer/awesome-asyncio</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of libraries and resources for asynchronous I/O in Python 3 (asyncio).</summary>
+</entry>
+<entry>
   <title>Awesome C++</title>
   <link href="https://github.com/uhub/awesome-cpp"/>
   <id>https://github.com/uhub/awesome-cpp</id>
@@ -14,11 +21,53 @@
   <summary>A list organising C++ libraries and frameworks by topic. Unlike general search it is a maintained, categorised starting map.</summary>
 </entry>
 <entry>
+  <title>Awesome CMake</title>
+  <link href="https://github.com/onqtam/awesome-cmake"/>
+  <id>https://github.com/onqtam/awesome-cmake</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of scripts, modules and resources for CMake, the C/C++ build tool.</summary>
+</entry>
+<entry>
+  <title>Awesome Common Lisp</title>
+  <link href="https://github.com/CodyReichert/awesome-cl"/>
+  <id>https://github.com/CodyReichert/awesome-cl</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list gathering Common Lisp libraries and tools.</summary>
+</entry>
+<entry>
+  <title>Awesome Composer</title>
+  <link href="https://github.com/jakoch/awesome-composer"/>
+  <id>https://github.com/jakoch/awesome-composer</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A resource list for Composer, the PHP package manager.</summary>
+</entry>
+<entry>
+  <title>Awesome Coq</title>
+  <link href="https://github.com/coq-community/awesome-coq"/>
+  <id>https://github.com/coq-community/awesome-coq</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A resource list for Coq, the formal-proof language and environment.</summary>
+</entry>
+<entry>
   <title>Awesome Elixir</title>
   <link href="https://github.com/h4cc/awesome-elixir"/>
   <id>https://github.com/h4cc/awesome-elixir</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A library list for the Elixir language and Erlang ecosystem. Unlike a Hex package search it is curated and grouped by topic.</summary>
+</entry>
+<entry>
+  <title>Awesome Python Scientific Audio</title>
+  <link href="https://github.com/faroit/awesome-python-scientific-audio"/>
+  <id>https://github.com/faroit/awesome-python-scientific-audio</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of Python libraries for scientific research in audio/music.</summary>
+</entry>
+<entry>
+  <title>Awesome Python Typing</title>
+  <link href="https://github.com/typeddjango/awesome-python-typing"/>
+  <id>https://github.com/typeddjango/awesome-python-typing</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of tools and resources for optional static typing in Python.</summary>
 </entry>
 <entry>
   <title>Awesome Ruby</title>
@@ -40,6 +89,20 @@
   <id>https://github.com/lauris/awesome-scala</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A topic-by-topic list of Scala libraries and tools. Unlike scattered search it shows functional and big-data libraries together.</summary>
+</entry>
+<entry>
+  <title>Awesome V</title>
+  <link href="https://github.com/vlang/awesome-v"/>
+  <id>https://github.com/vlang/awesome-v</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A resource list for V, the simple, fast, safe compiled language.</summary>
+</entry>
+<entry>
+  <title>better-files</title>
+  <link href="https://github.com/pathikrit/better-files"/>
+  <id>https://github.com/pathikrit/better-files</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A thin NIO wrapper library that makes file operations in Scala easy.</summary>
 </entry>
 <entry>
   <title>C#</title>
@@ -96,6 +159,13 @@
   <id>https://julialang.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A high-performance, open-source language for scientific computing.</summary>
+</entry>
+<entry>
+  <title>Julia.jl</title>
+  <link href="https://github.com/svaksha/Julia.jl"/>
+  <id>https://github.com/svaksha/Julia.jl</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A comprehensive list organising Julia packages and resources by topic.</summary>
 </entry>
 <entry>
   <title>Kotlin</title>
@@ -215,75 +285,5 @@
   <id>https://doc.rust-lang.org/nomicon/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>An advanced book on the rules of unsafe Rust. Unlike the main book it covers what to watch for when you step outside the borrow checker.</summary>
-</entry>
-<entry>
-  <title>Vavr</title>
-  <link href="https://github.com/vavr-io/vavr"/>
-  <id>https://github.com/vavr-io/vavr</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A library bringing persistent collections and functional control structures to Java. Unlike the standard collections it foregrounds immutability and types like Try/Either.</summary>
-</entry>
-<entry>
-  <title>CIS 194 Haskell</title>
-  <link href="https://www.seas.upenn.edu/~cis1940/spring13/lectures.html"/>
-  <id>https://www.seas.upenn.edu/~cis1940/spring13/lectures.html</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>The University of Pennsylvania’s Haskell course, with lecture notes and assignments public. The difference from a book is the homework — and since Haskell is learned by writing rather than reading, that difference matters.</summary>
-</entry>
-<entry>
-  <title>Learn You a Haskell</title>
-  <link href="https://learnyouahaskell.github.io/chapters.html"/>
-  <id>https://learnyouahaskell.github.io/chapters.html</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>The community-maintained online edition of the best-known Haskell introduction. Against the academic Haskell texts the difference is tone: it gets to monads through drawings and incremental examples rather than category theory.</summary>
-</entry>
-<entry>
-  <title>LearnByExample</title>
-  <link href="https://www.learnbyexample.org/"/>
-  <id>https://www.learnbyexample.org/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Teaches Python, SQL and R through runnable examples, opening each concept with one small piece of code. Against documentation the order is reversed — working example first, explanation after — which also makes it a fast syntax refresher.</summary>
-</entry>
-<entry>
-  <title>RubyGems Guides</title>
-  <link href="https://guides.rubygems.org/"/>
-  <id>https://guides.rubygems.org/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>The official guide to how RubyGems works and how to publish your own gem. Against the API reference it also explains the decisions — version numbering, dependency resolution, publishing policy.</summary>
-</entry>
-<entry>
-  <title>cppreference</title>
-  <link href="https://cppreference.com/"/>
-  <id>https://cppreference.com/</id>
-  <updated>2026-08-19T23:34:19Z</updated>
-  <summary>The de facto reference for the C and C++ standard library, marking which standard (C++11/17/20/23) each feature landed in — a distinction tutorial sites usually skip.</summary>
-</entry>
-<entry>
-  <title>JS Exercises</title>
-  <link href="https://jsexercises.com/"/>
-  <id>https://jsexercises.com/</id>
-  <updated>2026-08-19T23:33:52Z</updated>
-  <summary>Runnable JavaScript exercises in the browser, for consolidating after reading.</summary>
-</entry>
-<entry>
-  <title>Eloquent JavaScript</title>
-  <link href="https://eloquentjavascript.net/"/>
-  <id>https://eloquentjavascript.net/</id>
-  <updated>2026-08-19T23:33:25Z</updated>
-  <summary>A free online classic that builds programming thinking rather than teaching syntax, with exercises runnable inside the book itself.</summary>
-</entry>
-<entry>
-  <title>A Byte of Python</title>
-  <link href="https://python.swaroopch.com"/>
-  <id>https://python.swaroopch.com</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An introductory Python book — short, direct and translated into dozens of languages, written for people entirely new to programming.</summary>
-</entry>
-<entry>
-  <title>Apache Maven</title>
-  <link href="https://maven.apache.org/"/>
-  <id>https://maven.apache.org/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A tool doing dependency management and builds for Java with a standard project layout. Unlike collecting jars by hand it resolves dependencies from a central repository and defines a lifecycle.</summary>
 </entry>
 </feed>

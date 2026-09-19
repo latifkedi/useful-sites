@@ -7,6 +7,13 @@
 <id>https://latifkedi.github.io/useful-sites/feed/diller.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Awesome asyncio</title>
+  <link href="https://github.com/timofurrer/awesome-asyncio"/>
+  <id>https://github.com/timofurrer/awesome-asyncio</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Python 3’te asenkron G/Ç (asyncio) için kütüphane ve kaynak listesi.</summary>
+</entry>
+<entry>
   <title>Awesome C++</title>
   <link href="https://github.com/uhub/awesome-cpp"/>
   <id>https://github.com/uhub/awesome-cpp</id>
@@ -14,11 +21,53 @@
   <summary>C++ kütüphane ve çerçevelerini konuya göre düzenleyen liste. Genel aramadan farkı bakımı yapılan, kategorilenmiş bir başlangıç haritası olması.</summary>
 </entry>
 <entry>
+  <title>Awesome CMake</title>
+  <link href="https://github.com/onqtam/awesome-cmake"/>
+  <id>https://github.com/onqtam/awesome-cmake</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>C/C++ derleme aracı CMake için betik, modül ve kaynak listesi.</summary>
+</entry>
+<entry>
+  <title>Awesome Common Lisp</title>
+  <link href="https://github.com/CodyReichert/awesome-cl"/>
+  <id>https://github.com/CodyReichert/awesome-cl</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Common Lisp kütüphane ve araçlarını toplayan liste.</summary>
+</entry>
+<entry>
+  <title>Awesome Composer</title>
+  <link href="https://github.com/jakoch/awesome-composer"/>
+  <id>https://github.com/jakoch/awesome-composer</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>PHP paket yöneticisi Composer için kaynak listesi.</summary>
+</entry>
+<entry>
+  <title>Awesome Coq</title>
+  <link href="https://github.com/coq-community/awesome-coq"/>
+  <id>https://github.com/coq-community/awesome-coq</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Biçimsel ispat dili ve ortamı Coq için kaynak listesi.</summary>
+</entry>
+<entry>
   <title>Awesome Elixir</title>
   <link href="https://github.com/h4cc/awesome-elixir"/>
   <id>https://github.com/h4cc/awesome-elixir</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Elixir dili ve Erlang ekosistemi için kütüphane listesi. Hex paket aramasından farkı seçilmiş ve konuya göre gruplanmış olması.</summary>
+</entry>
+<entry>
+  <title>Awesome Python Scientific Audio</title>
+  <link href="https://github.com/faroit/awesome-python-scientific-audio"/>
+  <id>https://github.com/faroit/awesome-python-scientific-audio</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Ses/müzik üzerine bilimsel araştırma için Python kütüphaneleri listesi.</summary>
+</entry>
+<entry>
+  <title>Awesome Python Typing</title>
+  <link href="https://github.com/typeddjango/awesome-python-typing"/>
+  <id>https://github.com/typeddjango/awesome-python-typing</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Python’da isteğe bağlı statik tipleme için araç ve kaynak listesi.</summary>
 </entry>
 <entry>
   <title>Awesome Ruby</title>
@@ -40,6 +89,20 @@
   <id>https://github.com/lauris/awesome-scala</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Scala kütüphane ve araçlarının konuya göre listesi. Dağınık aramadan farkı fonksiyonel ve büyük veri kütüphanelerini bir arada göstermesi.</summary>
+</entry>
+<entry>
+  <title>Awesome V</title>
+  <link href="https://github.com/vlang/awesome-v"/>
+  <id>https://github.com/vlang/awesome-v</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Sade, hızlı ve güvenli derlenen V dili için kaynak listesi.</summary>
+</entry>
+<entry>
+  <title>better-files</title>
+  <link href="https://github.com/pathikrit/better-files"/>
+  <id>https://github.com/pathikrit/better-files</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Scala’da dosya işlemlerini kolaylaştıran ince NIO sarmalayıcı kütüphane.</summary>
 </entry>
 <entry>
   <title>C#</title>
@@ -96,6 +159,13 @@
   <id>https://julialang.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Bilimsel hesaplama için yüksek başarımlı, açık kaynak dil.</summary>
+</entry>
+<entry>
+  <title>Julia.jl</title>
+  <link href="https://github.com/svaksha/Julia.jl"/>
+  <id>https://github.com/svaksha/Julia.jl</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Julia dili paket ve kaynaklarını konuya göre düzenleyen kapsamlı liste.</summary>
 </entry>
 <entry>
   <title>Kotlin</title>
@@ -215,75 +285,5 @@
   <id>https://doc.rust-lang.org/nomicon/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Güvensiz (unsafe) Rust’ın kurallarını anlatan ileri düzey kitap. Ana kitaptan farkı ödünç denetçisinin dışına çıkıldığında nelere dikkat edileceğini kapsaması.</summary>
-</entry>
-<entry>
-  <title>Vavr</title>
-  <link href="https://github.com/vavr-io/vavr"/>
-  <id>https://github.com/vavr-io/vavr</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Java’ya kalıcı koleksiyonlar ve fonksiyonel kontrol yapıları getiren kütüphane. Standart koleksiyonlardan farkı değişmezliği ve Try/Either gibi tipleri öne alması.</summary>
-</entry>
-<entry>
-  <title>CIS 194 Haskell</title>
-  <link href="https://www.seas.upenn.edu/~cis1940/spring13/lectures.html"/>
-  <id>https://www.seas.upenn.edu/~cis1940/spring13/lectures.html</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Pennsylvania Üniversitesi’nin Haskell dersi; ders notları ve ödevler açık. Kitaplardan farkı ödevlerin olması — Haskell’i okuyarak değil ancak yazarak öğrenebildiğin için bu ayrım önemli.</summary>
-</entry>
-<entry>
-  <title>Learn You a Haskell</title>
-  <link href="https://learnyouahaskell.github.io/chapters.html"/>
-  <id>https://learnyouahaskell.github.io/chapters.html</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Haskell’in en bilinen giriş kitabının topluluk tarafından güncellenmiş çevrimiçi hâli. Akademik Haskell kaynaklarından farkı üslubu: monad’ı kategori teorisiyle değil, çizimlerle ve kademeli örneklerle anlatıyor.</summary>
-</entry>
-<entry>
-  <title>LearnByExample</title>
-  <link href="https://www.learnbyexample.org/"/>
-  <id>https://www.learnbyexample.org/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Python, SQL ve R’ı çalıştırılabilir örneklerle öğreten site; her kavram tek bir küçük kod parçasıyla açılıyor. Belgelerden farkı sıra: önce çalışan örnek, sonra açıklama — sözdizimini hatırlamak için hızlı bir referans olarak da işe yarıyor.</summary>
-</entry>
-<entry>
-  <title>RubyGems Guides</title>
-  <link href="https://guides.rubygems.org/"/>
-  <id>https://guides.rubygems.org/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>RubyGems’in nasıl çalıştığını ve kendi gem’ini nasıl yayımlayacağını anlatan resmî rehber. API belgelerinden farkı sürüm numaralandırma, bağımlılık çözümleme ve yayımlama politikası gibi kararları da açıklaması.</summary>
-</entry>
-<entry>
-  <title>cppreference</title>
-  <link href="https://cppreference.com/"/>
-  <id>https://cppreference.com/</id>
-  <updated>2026-08-19T23:34:19Z</updated>
-  <summary>C ve C++ standart kütüphanesinin fiilî referansı; her özellikte hangi standartta (C++11/17/20/23) geldiği işaretli. Öğretici siteler bu sürüm ayrımını genelde atlıyor.</summary>
-</entry>
-<entry>
-  <title>JS Exercises</title>
-  <link href="https://jsexercises.com/"/>
-  <id>https://jsexercises.com/</id>
-  <updated>2026-08-19T23:33:52Z</updated>
-  <summary>Tarayıcıda çalıştırılabilir JavaScript alıştırmaları; okuma sonrası pekiştirme için.</summary>
-</entry>
-<entry>
-  <title>Eloquent JavaScript</title>
-  <link href="https://eloquentjavascript.net/"/>
-  <id>https://eloquentjavascript.net/</id>
-  <updated>2026-08-19T23:33:25Z</updated>
-  <summary>Ücretsiz ve çevrimiçi klasik. Sözdizimi öğretmekten çok programlama düşüncesi kuruyor; alıştırmaları kitabın içinde çalıştırılabiliyor.</summary>
-</entry>
-<entry>
-  <title>A Byte of Python</title>
-  <link href="https://python.swaroopch.com"/>
-  <id>https://python.swaroopch.com</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Python’a giriş kitabı; kısa, doğrudan ve onlarca dile çevrilmiş. Programlamaya tamamen yeni başlayanlar için yazılmış.</summary>
-</entry>
-<entry>
-  <title>Apache Maven</title>
-  <link href="https://maven.apache.org/"/>
-  <id>https://maven.apache.org/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Java için bağımlılık yönetimi ve derlemeyi standart bir proje düzeniyle yapan araç. Elle jar toplamaktan farkı bağımlılıkları merkezî depodan çözüp yaşam döngüsünü tanımlaması.</summary>
 </entry>
 </feed>
