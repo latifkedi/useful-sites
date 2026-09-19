@@ -14,11 +14,39 @@
   <summary>A directory gathering the docs and console of hundreds of public APIs in one place. Unlike individual API sites you can try them all in a common interface.</summary>
 </entry>
 <entry>
+  <title>Awesome CakePHP</title>
+  <link href="https://github.com/friendsofcake/awesome-cakephp"/>
+  <id>https://github.com/friendsofcake/awesome-cakephp</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of plugins and resources for the CakePHP framework.</summary>
+</entry>
+<entry>
+  <title>Awesome Dash</title>
+  <link href="https://github.com/ucg8j/awesome-dash"/>
+  <id>https://github.com/ucg8j/awesome-dash</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A resource list for Dash, building data dashboards with Python.</summary>
+</entry>
+<entry>
   <title>Awesome Deno</title>
   <link href="https://github.com/denolib/awesome-deno"/>
   <id>https://github.com/denolib/awesome-deno</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A resource list for Deno, a security- and TypeScript-focused alternative to Node. Unlike Node lists it gathers modules specific to this secure runtime.</summary>
+</entry>
+<entry>
+  <title>Awesome Directus</title>
+  <link href="https://github.com/directus-community/awesome-directus"/>
+  <id>https://github.com/directus-community/awesome-directus</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A resource list for Directus, the headless CMS offering a real-time API and dashboard.</summary>
+</entry>
+<entry>
+  <title>Awesome Drupal</title>
+  <link href="https://github.com/nirgn975/awesome-drupal"/>
+  <id>https://github.com/nirgn975/awesome-drupal</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of modules and resources for Drupal, the PHP-based CMS.</summary>
 </entry>
 <entry>
   <title>Awesome Event-Driven Architecture</title>
@@ -35,6 +63,13 @@
   <summary>A list of plugins, examples and tutorials for FastAPI, Python’s fast web framework. Unlike the official docs it gathers community libraries and production examples.</summary>
 </entry>
 <entry>
+  <title>Awesome Fiber</title>
+  <link href="https://github.com/gofiber/awesome-fiber"/>
+  <id>https://github.com/gofiber/awesome-fiber</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A resource list for Fiber, a fast web framework for Go.</summary>
+</entry>
+<entry>
   <title>Awesome Firebase</title>
   <link href="https://github.com/jthegedus/awesome-firebase"/>
   <id>https://github.com/jthegedus/awesome-firebase</id>
@@ -49,11 +84,25 @@
   <summary>A resource list for linking different IT systems together (integration).</summary>
 </entry>
 <entry>
+  <title>Awesome Laravel</title>
+  <link href="https://github.com/chiraggude/awesome-laravel"/>
+  <id>https://github.com/chiraggude/awesome-laravel</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of packages and resources for Laravel, PHP’s most popular framework.</summary>
+</entry>
+<entry>
   <title>Awesome Low Code</title>
   <link href="https://github.com/zenitysec/awesome-low-code"/>
   <id>https://github.com/zenitysec/awesome-low-code</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A list of platforms letting business professionals build apps with little code.</summary>
+</entry>
+<entry>
+  <title>Awesome Magento 2</title>
+  <link href="https://github.com/DavidLambauer/awesome-magento2"/>
+  <id>https://github.com/DavidLambauer/awesome-magento2</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A resource list for Magento 2, the open-source e-commerce platform built with PHP.</summary>
 </entry>
 <entry>
   <title>Awesome Node-RED</title>
@@ -77,11 +126,39 @@
   <summary>A list gathering PHP libraries, frameworks and tools by topic. Unlike a Packagist search it is curated and organised around modern PHP practice.</summary>
 </entry>
 <entry>
+  <title>Awesome Plone</title>
+  <link href="https://github.com/collective/awesome-plone"/>
+  <id>https://github.com/collective/awesome-plone</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of add-ons and resources for Plone, the open-source Python CMS.</summary>
+</entry>
+<entry>
+  <title>Awesome Serverless</title>
+  <link href="https://github.com/pmuens/awesome-serverless"/>
+  <id>https://github.com/pmuens/awesome-serverless</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A resource list for serverless computing and architecture.</summary>
+</entry>
+<entry>
   <title>Awesome Software Architecture</title>
   <link href="https://github.com/simskij/awesome-software-architecture"/>
   <id>https://github.com/simskij/awesome-software-architecture</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A list of resources for designing and documenting software architecture. Unlike a single book it gathers patterns, case studies and tools together, topic by topic.</summary>
+</entry>
+<entry>
+  <title>Awesome Symfony</title>
+  <link href="https://github.com/sitepoint-editors/awesome-symfony"/>
+  <id>https://github.com/sitepoint-editors/awesome-symfony</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of bundles and resources for the Symfony PHP framework.</summary>
+</entry>
+<entry>
+  <title>Awesome Vapor</title>
+  <link href="https://github.com/vapor-community/awesome-vapor"/>
+  <id>https://github.com/vapor-community/awesome-vapor</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A resource list for Vapor, server-side development in Swift.</summary>
 </entry>
 <entry>
   <title>Convex</title>
@@ -208,75 +285,5 @@
   <id>https://docs.djangoproject.com/en/6.0/</id>
   <updated>2026-04-20T13:01:02Z</updated>
   <summary>ORM, migrations, admin panel and authentication out of the box. It buys you the first week, and pushes back when you want to step outside its shape.</summary>
-</entry>
-<entry>
-  <title>FastAPI</title>
-  <link href="https://fastapi.tiangolo.com/"/>
-  <id>https://fastapi.tiangolo.com/</id>
-  <updated>2026-04-20T13:01:02Z</updated>
-  <summary>Derives both validation and an OpenAPI schema from type hints, and a working test UI appears at `/docs` by itself. Async support is native through ASGI.</summary>
-</entry>
-<entry>
-  <title>Public APIs</title>
-  <link href="https://github.com/public-apis/public-apis"/>
-  <id>https://github.com/public-apis/public-apis</id>
-  <updated>2026-04-20T11:59:44Z</updated>
-  <summary>A categorised list of free APIs with auth type, HTTPS and CORS support marked in the table. First stop when a prototype needs data.</summary>
-</entry>
-<entry>
-  <title>Node.js Learn</title>
-  <link href="https://nodejs.org/learn"/>
-  <id>https://nodejs.org/learn</id>
-  <updated>2026-04-06T17:09:23Z</updated>
-  <summary>Explains the runtime itself before any framework — event loop, streams, worker threads. Learning Express without knowing Node is a common gap.</summary>
-</entry>
-<entry>
-  <title>Kıdemli Mühendis Gibi API Tasarımı</title>
-  <link href="https://www.youtube.com/watch?v=7iHl71nt49o"/>
-  <id>https://www.youtube.com/watch?v=7iHl71nt49o</id>
-  <updated>2026-04-06T11:39:45Z</updated>
-  <summary>Compares REST against GraphQL alongside authentication and security decisions in one video, answering when each is the right call.</summary>
-</entry>
-<entry>
-  <title>FastAPI ile 15 Dakikada REST API</title>
-  <link href="https://www.youtube.com/watch?v=iWS9ogMPOI0"/>
-  <id>https://www.youtube.com/watch?v=iWS9ogMPOI0</id>
-  <updated>2026-04-06T11:39:31Z</updated>
-  <summary>A short video showing routing, Pydantic models and automatic doc generation end to end — for seeing the framework’s shape before opening the docs.</summary>
-</entry>
-<entry>
-  <title>API Tasarımı ve Mimarisi</title>
-  <link href="https://www.youtube.com/watch?v=XvFmUE-36Kc"/>
-  <id>https://www.youtube.com/watch?v=XvFmUE-36Kc</id>
-  <updated>2026-04-06T11:39:09Z</updated>
-  <summary>An hour-long backend introduction working through resource naming, versioning and error-format decisions with their reasoning.</summary>
-</entry>
-<entry>
-  <title>Public API Lists</title>
-  <link href="https://github.com/public-api-lists/public-api-lists"/>
-  <id>https://github.com/public-api-lists/public-api-lists</id>
-  <updated>2026-04-05T20:39:05Z</updated>
-  <summary>A maintained fork of Public APIs, born while the original went untended. Some of its entries are fresher.</summary>
-</entry>
-<entry>
-  <title>System Design Primer</title>
-  <link href="https://github.com/donnemartin/system-design-primer"/>
-  <id>https://github.com/donnemartin/system-design-primer</id>
-  <updated>2026-04-05T20:36:39Z</updated>
-  <summary>Pairs scaling concepts — caching, sharding, queues, CAP — with worked architectures. The field’s most-starred resource, and useful as an architecture vocabulary beyond interviews.</summary>
-</entry>
-<entry>
-  <title>Otel Rezervasyon Sistemi Tasarımı</title>
-  <link href="https://www.youtube.com/watch?v=bA0r0CBuj2Y"/>
-  <id>https://www.youtube.com/watch?v=bA0r0CBuj2Y</id>
-  <updated>2026-04-05T20:36:22Z</updated>
-  <summary>An end-to-end case study solving real problems — concurrent booking conflicts, inventory locking — in interview format.</summary>
-</entry>
-<entry>
-  <title>Sistem Tasarımı Anlatımı</title>
-  <link href="https://www.youtube.com/watch?v=adOkTjIIDnk"/>
-  <id>https://www.youtube.com/watch?v=adOkTjIIDnk</id>
-  <updated>2026-04-05T20:35:56Z</updated>
-  <summary>An introduction gathering APIs, databases, caching, CDNs and load balancers into one narrative — for seeing how the pieces connect.</summary>
 </entry>
 </feed>

@@ -7,11 +7,25 @@
 <id>https://latifkedi.github.io/useful-sites/feed/devops.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Awesome Actions</title>
+  <link href="https://github.com/sdras/awesome-actions"/>
+  <id>https://github.com/sdras/awesome-actions</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>İş akışını otomatikleştiren GitHub Actions için hazır eylem listesi.</summary>
+</entry>
+<entry>
   <title>Awesome Backstage</title>
   <link href="https://github.com/shano/awesome-backstage"/>
   <id>https://github.com/shano/awesome-backstage</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>İç geliştirici portalları kuran Backstage platformu için kaynak listesi.</summary>
+</entry>
+<entry>
+  <title>Awesome CDK</title>
+  <link href="https://github.com/kolomied/awesome-cdk"/>
+  <id>https://github.com/kolomied/awesome-cdk</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Altyapıyı gerçek kodla tanımlayan AWS CDK için kaynak listesi.</summary>
 </entry>
 <entry>
   <title>Awesome Kubernetes</title>
@@ -26,6 +40,34 @@
   <id>https://github.com/nix-community/awesome-nix</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Nix paket yöneticisi ve NixOS için araç, kütüphane ve rehber listesi. Genel Linux listelerinden farkı yeniden üretilebilir, bildirimsel yapılandırmaya odaklanması.</summary>
+</entry>
+<entry>
+  <title>Awesome OpenTofu</title>
+  <link href="https://github.com/virtualroot/awesome-opentofu"/>
+  <id>https://github.com/virtualroot/awesome-opentofu</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Terraform’un açık kaynak çatalı OpenTofu için kaynak listesi.</summary>
+</entry>
+<entry>
+  <title>Awesome Prometheus</title>
+  <link href="https://github.com/roaldnefs/awesome-prometheus"/>
+  <id>https://github.com/roaldnefs/awesome-prometheus</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Açık kaynak izleme sistemi Prometheus için exporter ve kaynak listesi.</summary>
+</entry>
+<entry>
+  <title>Awesome Splunk</title>
+  <link href="https://github.com/sduff/awesome-splunk"/>
+  <id>https://github.com/sduff/awesome-splunk</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Log arama ve izleme platformu Splunk için kaynak listesi.</summary>
+</entry>
+<entry>
+  <title>Awesome Terraform</title>
+  <link href="https://github.com/shuaibiyy/awesome-terraform"/>
+  <id>https://github.com/shuaibiyy/awesome-terraform</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Altyapıyı kod olarak yöneten Terraform için modül ve kaynak listesi.</summary>
 </entry>
 <entry>
   <title>Chaos Mesh</title>
@@ -243,47 +285,5 @@
   <id>https://www.rabbitmq.com/tutorials</id>
   <updated>2026-04-20T13:01:27Z</updated>
   <summary>Altı adımda mesaj kuyruğu desenlerini öğreten resmî seri: iş kuyruğu, yayın-abone, yönlendirme, RPC. Kafka olay akışına, bu görev dağıtımına odaklı.</summary>
-</entry>
-<entry>
-  <title>n8n Dokümantasyonu</title>
-  <link href="https://docs.n8n.io/"/>
-  <id>https://docs.n8n.io/</id>
-  <updated>2026-04-20T13:01:26Z</updated>
-  <summary>Düğüm referansı, kendi sunucuna kurulum ve kimlik bilgisi yönetimi. Kuyruk kipiyle ölçekleme bölümü üretimde çalıştıracaklar için önemli.</summary>
-</entry>
-<entry>
-  <title>Redis Dokümantasyonu</title>
-  <link href="https://redis.io/docs/latest/"/>
-  <id>https://redis.io/docs/latest/</id>
-  <updated>2026-04-20T13:01:26Z</updated>
-  <summary>Liste, küme, sıralı küme ve akış gibi veri yapılarının referansı. Redis’i basit bir anahtar-değer deposu sanmak, elindeki aracın çoğunu kullanmamak demek.</summary>
-</entry>
-<entry>
-  <title>LiteSpeed Dokümantasyonu</title>
-  <link href="https://docs.litespeedtech.com/"/>
-  <id>https://docs.litespeedtech.com/</id>
-  <updated>2026-04-20T13:01:21Z</updated>
-  <summary>Yapılandırma referansı; LSCache kurallarının nasıl yazılacağı burada. Önbellekleme ayarları performansın büyük kısmını belirliyor.</summary>
-</entry>
-<entry>
-  <title>Apache HTTP Server</title>
-  <link href="https://httpd.apache.org/docs/"/>
-  <id>https://httpd.apache.org/docs/</id>
-  <updated>2026-04-20T13:01:20Z</updated>
-  <summary>Modül mimarisi ve .htaccess ile dizin bazlı yapılandırma esnekliği. Paylaşımlı barındırmada hâlâ hâkim; nginx’e göre yüksek eşzamanlılıkta daha çok bellek yiyor.</summary>
-</entry>
-<entry>
-  <title>nginx</title>
-  <link href="https://nginx.org/en/docs/"/>
-  <id>https://nginx.org/en/docs/</id>
-  <updated>2026-04-20T13:01:19Z</updated>
-  <summary>Olay güdümlü mimarisi sayesinde on binlerce eşzamanlı bağlantıyı düşük bellekle taşıyor. Ters vekil ve yük dengeleyici olarak kullanımı, web sunucusu olmasından daha yaygın.</summary>
-</entry>
-<entry>
-  <title>Pro Git (Türkçe)</title>
-  <link href="https://git-scm.com/book/tr/v2"/>
-  <id>https://git-scm.com/book/tr/v2</id>
-  <updated>2026-04-20T13:01:17Z</updated>
-  <summary>Git’in resmî kitabının Türkçe çevirisi. İç mekanizma bölümü (nesne modeli, referanslar) komut ezberlemekten kurtarıyor — Git’i asıl anlaşılır kılan kısım orası.</summary>
 </entry>
 </feed>

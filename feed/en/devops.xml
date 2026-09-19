@@ -7,11 +7,25 @@
 <id>https://latifkedi.github.io/useful-sites/feed/en/devops.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Awesome Actions</title>
+  <link href="https://github.com/sdras/awesome-actions"/>
+  <id>https://github.com/sdras/awesome-actions</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of ready actions for GitHub Actions, automating your workflow.</summary>
+</entry>
+<entry>
   <title>Awesome Backstage</title>
   <link href="https://github.com/shano/awesome-backstage"/>
   <id>https://github.com/shano/awesome-backstage</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A resource list for Backstage, building internal developer portals.</summary>
+</entry>
+<entry>
+  <title>Awesome CDK</title>
+  <link href="https://github.com/kolomied/awesome-cdk"/>
+  <id>https://github.com/kolomied/awesome-cdk</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A resource list for the AWS CDK, defining infrastructure with real code.</summary>
 </entry>
 <entry>
   <title>Awesome Kubernetes</title>
@@ -26,6 +40,34 @@
   <id>https://github.com/nix-community/awesome-nix</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A list of tools, libraries and guides for the Nix package manager and NixOS. Unlike general Linux lists it focuses on reproducible, declarative configuration.</summary>
+</entry>
+<entry>
+  <title>Awesome OpenTofu</title>
+  <link href="https://github.com/virtualroot/awesome-opentofu"/>
+  <id>https://github.com/virtualroot/awesome-opentofu</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A resource list for OpenTofu, the open-source fork of Terraform.</summary>
+</entry>
+<entry>
+  <title>Awesome Prometheus</title>
+  <link href="https://github.com/roaldnefs/awesome-prometheus"/>
+  <id>https://github.com/roaldnefs/awesome-prometheus</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of exporters and resources for Prometheus, the open-source monitoring system.</summary>
+</entry>
+<entry>
+  <title>Awesome Splunk</title>
+  <link href="https://github.com/sduff/awesome-splunk"/>
+  <id>https://github.com/sduff/awesome-splunk</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A resource list for Splunk, the log-search and monitoring platform.</summary>
+</entry>
+<entry>
+  <title>Awesome Terraform</title>
+  <link href="https://github.com/shuaibiyy/awesome-terraform"/>
+  <id>https://github.com/shuaibiyy/awesome-terraform</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of modules and resources for Terraform, managing infrastructure as code.</summary>
 </entry>
 <entry>
   <title>Chaos Mesh</title>
@@ -243,47 +285,5 @@
   <id>https://www.rabbitmq.com/tutorials</id>
   <updated>2026-04-20T13:01:27Z</updated>
   <summary>The official six-step series on queue patterns — work queues, pub/sub, routing, RPC. Kafka is for event streaming; this is for task distribution.</summary>
-</entry>
-<entry>
-  <title>n8n Dokümantasyonu</title>
-  <link href="https://docs.n8n.io/"/>
-  <id>https://docs.n8n.io/</id>
-  <updated>2026-04-20T13:01:26Z</updated>
-  <summary>Node reference, self-hosting and credential management. The queue-mode scaling section matters for anyone running it in production.</summary>
-</entry>
-<entry>
-  <title>Redis Dokümantasyonu</title>
-  <link href="https://redis.io/docs/latest/"/>
-  <id>https://redis.io/docs/latest/</id>
-  <updated>2026-04-20T13:01:26Z</updated>
-  <summary>The reference for its data structures — lists, sets, sorted sets, streams. Treating Redis as a plain key-value store means leaving most of the tool unused.</summary>
-</entry>
-<entry>
-  <title>LiteSpeed Dokümantasyonu</title>
-  <link href="https://docs.litespeedtech.com/"/>
-  <id>https://docs.litespeedtech.com/</id>
-  <updated>2026-04-20T13:01:21Z</updated>
-  <summary>The configuration reference, including how LSCache rules are written — cache settings account for most of the performance you get.</summary>
-</entry>
-<entry>
-  <title>Apache HTTP Server</title>
-  <link href="https://httpd.apache.org/docs/"/>
-  <id>https://httpd.apache.org/docs/</id>
-  <updated>2026-04-20T13:01:20Z</updated>
-  <summary>A module architecture plus per-directory configuration through .htaccess. Still dominant in shared hosting, and hungrier for memory than nginx under high concurrency.</summary>
-</entry>
-<entry>
-  <title>nginx</title>
-  <link href="https://nginx.org/en/docs/"/>
-  <id>https://nginx.org/en/docs/</id>
-  <updated>2026-04-20T13:01:19Z</updated>
-  <summary>Its event-driven architecture carries tens of thousands of concurrent connections on little memory. It is used as a reverse proxy and load balancer more often than as a web server.</summary>
-</entry>
-<entry>
-  <title>Pro Git (Türkçe)</title>
-  <link href="https://git-scm.com/book/tr/v2"/>
-  <id>https://git-scm.com/book/tr/v2</id>
-  <updated>2026-04-20T13:01:17Z</updated>
-  <summary>The Turkish translation of Git’s official book. The internals chapter — object model, refs — is what frees you from memorising commands and actually makes Git make sense.</summary>
 </entry>
 </feed>
