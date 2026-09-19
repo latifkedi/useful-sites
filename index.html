@@ -183,6 +183,9 @@ nav a.on{color:var(--accent);font-weight:600}
 nav a.on::before{content:"▸ ";color:var(--accent)}
 nav a.empty{opacity:.62}
 nav .n{font:11.5px/1.4 var(--mono);color:var(--faint);font-variant-numeric:tabular-nums}
+nav .navfield{font:10.5px/1 var(--mono);text-transform:uppercase;letter-spacing:.09em;
+  color:var(--faint);padding:15px 0 5px;border-bottom:0}
+nav .navfield:first-child{padding-top:2px}
 .navback{display:none;width:100%;margin:0 0 14px;text-align:left}
 .navback.show{display:block}
 
@@ -1173,12 +1176,24 @@ function render(){
   var counts = {};
   var poolNoCat = data.filter(function(d){ return matches(d, true) });
   poolNoCat.forEach(function(d){ counts[d.cat] = (counts[d.cat]||0) + 1 });
-  $("#nav").innerHTML = CATS.map(function(c){
-    var n = counts[c.key] || 0;
-    return '<li><a href="?cat='+c.key+'" data-cat="'+c.key+'" class="'+
-           (activeCat===c.key ? "on" : (n ? "" : "empty"))+
+  var navByKey = {};
+  CATS.forEach(function(c){ navByKey[c.key] = c });
+  function navItem(key){
+    var c = navByKey[key]; if(!c) return "";
+    var n = counts[key] || 0;
+    return '<li><a href="?cat='+key+'" data-cat="'+key+'" class="'+
+           (activeCat===key ? "on" : (n ? "" : "empty"))+
            '">'+esc(c[lang])+'<span class="n">'+n+'</span></a></li>';
+  }
+  /* Grouped under field headings, mirroring the homepage. A category not in
+     any field falls through so nothing is dropped. */
+  var navPlaced = {}, navHTML = GROUPS.map(function(g){
+    var items = g.cats.map(function(k){ navPlaced[k]=1; return navItem(k); }).join("");
+    return /<a /.test(items) ? '<li class="navfield">'+esc(g[lang])+'</li>'+items : "";
   }).join("");
+  navHTML += CATS.filter(function(c){ return !navPlaced[c.key] })
+                 .map(function(c){ return navItem(c.key) }).join("");
+  $("#nav").innerHTML = navHTML;
 
   $("#srcbar").innerHTML = '<span class="lbl">'+esc(L.by)+'</span>' +
     Object.keys(SRCMAP).map(function(k){
