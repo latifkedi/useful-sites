@@ -56,6 +56,27 @@
   <summary>A downloadable, deliberately vulnerable app containing 100+ web vulnerabilities. Unlike online targets it lets you practise on your own machine, isolated and without limits.</summary>
 </entry>
 <entry>
+  <title>Damn Vulnerable iOS App</title>
+  <link href="https://damnvulnerableiosapp.com/"/>
+  <id>https://damnvulnerableiosapp.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A deliberately vulnerable iOS app for learning mobile security.</summary>
+</entry>
+<entry>
+  <title>Firing Range</title>
+  <link href="https://public-firing-range.appspot.com/"/>
+  <id>https://public-firing-range.appspot.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A Google-built test target hosting many application-security issues.</summary>
+</entry>
+<entry>
+  <title>Gin &amp; Juice Shop</title>
+  <link href="https://ginandjuice.shop/"/>
+  <id>https://ginandjuice.shop/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A modern, vulnerability-filled web app practice target built by PortSwigger.</summary>
+</entry>
+<entry>
   <title>Google Gruyere</title>
   <link href="https://google-gruyere.appspot.com/"/>
   <id>https://google-gruyere.appspot.com/</id>
@@ -63,11 +84,25 @@
   <summary>Google’s “full of holes” codelab teaching web application flaws. Unlike pure theory it has you find each flaw and both exploit and patch it.</summary>
 </entry>
 <entry>
+  <title>LabEx Cybersecurity Labs</title>
+  <link href="https://labex.io/learn/cybersecurity"/>
+  <id>https://labex.io/learn/cybersecurity</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Hands-on, in-browser labs covering penetration testing and web security.</summary>
+</entry>
+<entry>
   <title>OWASP Juice Shop</title>
   <link href="https://owasp.org/www-project-juice-shop/"/>
   <id>https://owasp.org/www-project-juice-shop/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A modern web app deliberately full of vulnerabilities — a target for learning security. Unlike dry material it lets you exploit dozens of flaws by hand in a real application.</summary>
+</entry>
+<entry>
+  <title>OWASP Vulnerable Web Apps Directory</title>
+  <link href="https://owasp.org/www-project-vulnerable-web-applications-directory/"/>
+  <id>https://owasp.org/www-project-vulnerable-web-applications-directory/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>OWASP’s directory of other deliberately vulnerable web apps for training.</summary>
 </entry>
 <entry>
   <title>Atypical OSINT Guide</title>
@@ -250,40 +285,5 @@
   <id>https://www.giac.org/</id>
   <updated>2026-08-26T20:53:20Z</updated>
   <summary>The examination arm of SANS training, with over fifty certificates — the broadest catalogue in the field. What separates it is open-book exams that go deep technically; the price is that these are the most expensive certifications around, rarely taken without an employer paying.</summary>
-</entry>
-<entry>
-  <title>Hack The Box Academy</title>
-  <link href="https://academy.hackthebox.com/"/>
-  <id>https://academy.hackthebox.com/</id>
-  <updated>2026-08-26T20:53:20Z</updated>
-  <summary>Module-based learning with practical certifications such as CPTS and CBBH. Against OSCP the learning path lives on the same platform as the exam and costs markedly less; in exchange, employer recognition is not yet at OSCP’s level.</summary>
-</entry>
-<entry>
-  <title>Identity Management Institute</title>
-  <link href="https://identitymanagementinstitute.org/"/>
-  <id>https://identitymanagementinstitute.org/</id>
-  <updated>2026-08-26T20:53:20Z</updated>
-  <summary>A certification body devoted to identity and access management. Against broad security organisations it covers one area only — IAM, which produces a great many job postings and very few certificates.</summary>
-</entry>
-<entry>
-  <title>INE Security</title>
-  <link href="https://security.ine.com/"/>
-  <id>https://security.ine.com/</id>
-  <updated>2026-08-26T20:53:20Z</updated>
-  <summary>The continuation of eLearnSecurity, awarding practical certificates such as eJPT and eCPPT. Against OSCP, eJPT is genuinely entry-level — a gentler first encounter with a hands-on exam format.</summary>
-</entry>
-<entry>
-  <title>ISACA</title>
-  <link href="https://www.isaca.org/"/>
-  <id>https://www.isaca.org/</id>
-  <updated>2026-08-26T20:53:20Z</updated>
-  <summary>The body behind CISA, CISM and CRISC, covering audit, governance and risk. The split from ISC2 is focus: ISC2 looks at security architecture, ISACA at internal audit and compliance. In finance and regulated industries CISA is frequently a hard requirement in job postings.</summary>
-</entry>
-<entry>
-  <title>ISC2</title>
-  <link href="https://www.isc2.org/"/>
-  <id>https://www.isc2.org/</id>
-  <updated>2026-08-26T20:53:20Z</updated>
-  <summary>The body behind CISSP. Unlike technical certifications it leans on governance and risk, and passing is not enough: five years of documented experience and an endorsement are required. That is why it carries weight with employers and why it is a poor first certificate.</summary>
 </entry>
 </feed>

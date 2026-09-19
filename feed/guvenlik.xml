@@ -56,6 +56,27 @@
   <summary>100’den fazla web zafiyeti içeren, indirilebilir kasıtlı-açık uygulama. Çevrimiçi hedeflerden farkı kendi makinende, izole ve sınırsız denemeye izin vermesi.</summary>
 </entry>
 <entry>
+  <title>Damn Vulnerable iOS App</title>
+  <link href="https://damnvulnerableiosapp.com/"/>
+  <id>https://damnvulnerableiosapp.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Mobil güvenlik öğrenmek için kasıtlı olarak zafiyetli iOS uygulaması.</summary>
+</entry>
+<entry>
+  <title>Firing Range</title>
+  <link href="https://public-firing-range.appspot.com/"/>
+  <id>https://public-firing-range.appspot.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Çok sayıda uygulama güvenliği açığını barındıran, Google kaynaklı test hedefi.</summary>
+</entry>
+<entry>
+  <title>Gin &amp; Juice Shop</title>
+  <link href="https://ginandjuice.shop/"/>
+  <id>https://ginandjuice.shop/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>PortSwigger’ın hazırladığı, zafiyetlerle dolu modern web uygulaması pratik hedefi.</summary>
+</entry>
+<entry>
   <title>Google Gruyere</title>
   <link href="https://google-gruyere.appspot.com/"/>
   <id>https://google-gruyere.appspot.com/</id>
@@ -63,11 +84,25 @@
   <summary>Google’ın web uygulama açıklarını öğreten “delikli peynir” kod laboratuvarı. Salt teoriden farkı her açığı bulup hem sömürüp hem yamayı deneyimletmesi.</summary>
 </entry>
 <entry>
+  <title>LabEx Cybersecurity Labs</title>
+  <link href="https://labex.io/learn/cybersecurity"/>
+  <id>https://labex.io/learn/cybersecurity</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Sızma testi ve web güvenliğini kapsayan, tarayıcıda çalışan uygulamalı laboratuvarlar.</summary>
+</entry>
+<entry>
   <title>OWASP Juice Shop</title>
   <link href="https://owasp.org/www-project-juice-shop/"/>
   <id>https://owasp.org/www-project-juice-shop/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Kasıtlı olarak zafiyetlerle dolu, modern bir web uygulaması — güvenlik öğrenmek için hedef. Kuru anlatımdan farkı gerçek bir uygulamada onlarca açığı elle sömürmeni sağlaması.</summary>
+</entry>
+<entry>
+  <title>OWASP Vulnerable Web Apps Directory</title>
+  <link href="https://owasp.org/www-project-vulnerable-web-applications-directory/"/>
+  <id>https://owasp.org/www-project-vulnerable-web-applications-directory/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Eğitim için kullanılabilecek kasıtlı-zafiyetli web uygulamalarının OWASP dizini.</summary>
 </entry>
 <entry>
   <title>Atypical OSINT Guide</title>
@@ -250,40 +285,5 @@
   <id>https://www.giac.org/</id>
   <updated>2026-08-26T20:53:20Z</updated>
   <summary>SANS eğitimlerinin sınav kolu; elli küsur sertifikayla alanın en geniş kataloğu. Diğerlerinden farkı sınavların açık kitap olması ve derinlemesine teknik olması — karşılığında sektörün en pahalı sertifikaları, çoğu işveren desteği olmadan alınmıyor.</summary>
-</entry>
-<entry>
-  <title>Hack The Box Academy</title>
-  <link href="https://academy.hackthebox.com/"/>
-  <id>https://academy.hackthebox.com/</id>
-  <updated>2026-08-26T20:53:20Z</updated>
-  <summary>Modül tabanlı öğrenme ve CPTS/CBBH gibi pratik sertifikalar. OSCP’den farkı öğrenme yolunun sınavla aynı platformda olması ve fiyatın belirgin düşük olması; karşılığında işveren tanınırlığı henüz OSCP düzeyinde değil.</summary>
-</entry>
-<entry>
-  <title>Identity Management Institute</title>
-  <link href="https://identitymanagementinstitute.org/"/>
-  <id>https://identitymanagementinstitute.org/</id>
-  <updated>2026-08-26T20:53:20Z</updated>
-  <summary>Kimlik ve erişim yönetimine (IAM) adanmış sertifika kurumu. Geniş kapsamlı güvenlik kurumlarından farkı tek bir alana odaklanması — IAM, güvenliğin en çok iş ilanı çıkan ama en az sertifikası olan dallarından.</summary>
-</entry>
-<entry>
-  <title>INE Security</title>
-  <link href="https://security.ine.com/"/>
-  <id>https://security.ine.com/</id>
-  <updated>2026-08-26T20:53:20Z</updated>
-  <summary>eLearnSecurity’nin devamı; eJPT ve eCPPT gibi pratik sertifikalar veriyor. OSCP’den farkı eJPT’nin gerçekten giriş seviyesi olması — pratik sınav deneyimini ilk kez yaşamak için daha yumuşak bir basamak.</summary>
-</entry>
-<entry>
-  <title>ISACA</title>
-  <link href="https://www.isaca.org/"/>
-  <id>https://www.isaca.org/</id>
-  <updated>2026-08-26T20:53:20Z</updated>
-  <summary>CISA, CISM ve CRISC’in sahibi; denetim, yönetişim ve risk tarafının kurumu. ISC2 ile farkı odak: ISC2 güvenlik mimarisine, ISACA iç denetim ve uyum süreçlerine bakıyor. Finans ve düzenlenmiş sektörlerde CISA çoğu zaman iş ilanında şart olarak geçiyor.</summary>
-</entry>
-<entry>
-  <title>ISC2</title>
-  <link href="https://www.isc2.org/"/>
-  <id>https://www.isc2.org/</id>
-  <updated>2026-08-26T20:53:20Z</updated>
-  <summary>CISSP’in sahibi kurum. Teknik sertifikalardan farkı yönetişim ve risk ağırlıklı olması ve sınavı geçmenin yetmemesi — beş yıl belgelenmiş deneyim ve bir üyenin kefaleti gerekiyor. Bu yüzden işverenler nezdinde ağırlığı yüksek, ilk sertifika olarak ise uygun değil.</summary>
 </entry>
 </feed>
