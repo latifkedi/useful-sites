@@ -297,7 +297,8 @@ mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:2px}
   color:var(--faint);margin:0 0 16px}
 .field{margin:0 0 30px}
 .field:last-of-type{margin-bottom:0}
-.fh{font:600 20px/1.2 var(--serif);margin:0 0 12px;display:flex;align-items:baseline;gap:12px}
+.fh{font:600 20px/1.2 var(--serif);margin:0 0 12px;display:flex;align-items:baseline;gap:10px}
+.fh .fn{font:12px/1 var(--mono);color:var(--faint);font-weight:400;font-variant-numeric:tabular-nums}
 .fh::after{content:"";flex:1 1 auto;height:1px;background:var(--rule);align-self:center}
 .cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;
   background:var(--rule);border:1px solid var(--rule);border-radius:4px;overflow:hidden}
@@ -1120,8 +1121,11 @@ function homeHTML(L){
   var placed = {}, fields = [];
   GROUPS.forEach(function(g){
     var cards = g.cats.map(function(k){ placed[k] = 1; return cardFor(k); }).join("");
-    if(/<a /.test(cards)) fields.push(
-      '<section class="field"><h3 class="fh">'+esc(g[lang])+'</h3>'+
+    if(!/<a /.test(cards)) return;
+    var fn = g.cats.reduce(function(s, k){ return s + (byCat[k] ? byCat[k].length : 0) }, 0);
+    fields.push(
+      '<section class="field"><h3 class="fh">'+esc(g[lang])+
+      '<span class="fn">'+fn+'</span></h3>'+
       '<div class="cards">'+cards+'</div></section>');
   });
   var leftover = CATS.filter(function(c){ return !placed[c.key] })
