@@ -7,6 +7,27 @@
 <id>https://latifkedi.github.io/useful-sites/feed/en/araclar.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>.NET Fiddle</title>
+  <link href="https://dotnetfiddle.net/"/>
+  <id>https://dotnetfiddle.net/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Write, run and share C# and .NET code in the browser — no install.</summary>
+</entry>
+<entry>
+  <title>Browser Diet</title>
+  <link href="https://browserdiet.com/en/"/>
+  <id>https://browserdiet.com/en/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A guide of concrete, measurable tips for improving web performance.</summary>
+</entry>
+<entry>
+  <title>Browserling</title>
+  <link href="https://www.browserling.com"/>
+  <id>https://www.browserling.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Live-test your site across different browsers and operating systems.</summary>
+</entry>
+<entry>
   <title>Can I email…</title>
   <link href="https://www.caniemail.com/"/>
   <id>https://www.caniemail.com/</id>
@@ -21,11 +42,32 @@
   <summary>A portable, pleasant console package for Windows that ships with bash and unix commands. Unlike the built-in cmd it offers tabs, themes and unix tools together.</summary>
 </entry>
 <entry>
+  <title>Cmder</title>
+  <link href="https://cmder.net/"/>
+  <id>https://cmder.net/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A portable, pleasant Windows console that can run bash and unix commands.</summary>
+</entry>
+<entry>
+  <title>Comcast</title>
+  <link href="https://github.com/tylertreat/Comcast"/>
+  <id>https://github.com/tylertreat/Comcast</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Injects network latency and packet loss to test how software copes under bad conditions.</summary>
+</entry>
+<entry>
   <title>ConnectionStrings.com</title>
   <link href="https://www.connectionstrings.com/"/>
   <id>https://www.connectionstrings.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A reference giving the correct connection-string format for every database and driver. Unlike hunting the docs it gathers the syntax of dozens of drivers in one place.</summary>
+</entry>
+<entry>
+  <title>Coursier</title>
+  <link href="https://github.com/alexarchambault/coursier"/>
+  <id>https://github.com/alexarchambault/coursier</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A fast JVM dependency resolver and application launcher written in pure Scala.</summary>
 </entry>
 <entry>
   <title>docsify</title>
@@ -35,11 +77,88 @@
   <summary>A tool turning Markdown files into a documentation site in the browser, with no build. Unlike static generators it has no build step — it serves the pages on the fly.</summary>
 </entry>
 <entry>
+  <title>Editor.md</title>
+  <link href="https://pandao.github.io/editor.md/en.html"/>
+  <id>https://pandao.github.io/editor.md/en.html</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>An open-source, in-browser Markdown editor with live preview and export.</summary>
+</entry>
+<entry>
+  <title>ES6 Console</title>
+  <link href="https://es6console.com/"/>
+  <id>https://es6console.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A console that compiles modern JavaScript (ES6+) in the browser and shows the result instantly.</summary>
+</entry>
+<entry>
+  <title>Firefox Developer Edition</title>
+  <link href="https://www.mozilla.org/firefox/developer/"/>
+  <id>https://www.mozilla.org/firefox/developer/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A build of Firefox for web developers, with advanced debugging tools built in.</summary>
+</entry>
+<entry>
+  <title>Full Page Screen Capture</title>
+  <link href="https://chrome.google.com/webstore/detail/full-page-screen-capture"/>
+  <id>https://chrome.google.com/webstore/detail/full-page-screen-capture</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A Chrome extension that captures an entire page — scrolling included — as one image.</summary>
+</entry>
+<entry>
   <title>generatedata</title>
   <link href="https://www.generatedata.com/"/>
   <id>https://www.generatedata.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A tool generating realistic fake test data to a given schema (CSV, JSON, SQL). Unlike making data up by hand it produces fields like names and addresses consistently and in bulk.</summary>
+</entry>
+<entry>
+  <title>Google Safe Browsing</title>
+  <link href="https://transparencyreport.google.com/safe-browsing/search"/>
+  <id>https://transparencyreport.google.com/safe-browsing/search</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Checks whether a site is flagged as unsafe in Google’s Safe Browsing records.</summary>
+</entry>
+<entry>
+  <title>Hyper</title>
+  <link href="https://hyper.is/"/>
+  <id>https://hyper.is/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>An open-source terminal built with web technologies and extensible via plugins.</summary>
+</entry>
+<entry>
+  <title>Invertexto</title>
+  <link href="https://www.invertexto.com/"/>
+  <id>https://www.invertexto.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A site bundling small text utilities — reversing, counting, converting and more.</summary>
+</entry>
+<entry>
+  <title>JCTools</title>
+  <link href="https://github.com/JCTools/JCTools"/>
+  <id>https://github.com/JCTools/JCTools</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Very high-performance concurrent queues for the JVM, used by projects like Netty.</summary>
+</entry>
+<entry>
+  <title>JitPack</title>
+  <link href="https://jitpack.io"/>
+  <id>https://jitpack.io</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Makes GitHub repos that don’t publish jars usable directly as dependencies.</summary>
+</entry>
+<entry>
+  <title>Joomla</title>
+  <link href="https://www.joomla.org/"/>
+  <id>https://www.joomla.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>An open-source content management system (CMS), an alternative to WordPress.</summary>
+</entry>
+<entry>
+  <title>JSCompress</title>
+  <link href="https://jscompress.com/"/>
+  <id>https://jscompress.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A tool that minifies JavaScript in the browser to shrink its size.</summary>
 </entry>
 <entry>
   <title>JSON Editor Online</title>
@@ -49,241 +168,122 @@
   <summary>A browser tool to inspect and edit JSON in tree and text views. Unlike a plain editor it folds and validates the structure, making large JSON easy to navigate.</summary>
 </entry>
 <entry>
-  <title>Image Max URL</title>
-  <link href="https://qsniyg.github.io/maxurl/"/>
-  <id>https://qsniyg.github.io/maxurl/</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>A browser extension that finds the largest/original version of an image or video from its shrunken form. Unlike right-click “open image” it reverses the resizing: it resolves the full-resolution source from a thumbnail URL.</summary>
+  <title>JSON Sort</title>
+  <link href="https://jsonsort.net"/>
+  <id>https://jsonsort.net</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A simple tool that alphabetically sorts and formats JSON keys.</summary>
 </entry>
 <entry>
-  <title>Autoruns</title>
-  <link href="https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns"/>
-  <id>https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>The Sysinternals tool that lists everything Windows runs at startup: services, scheduled tasks, shell extensions, drivers. Against Task Manager’s startup tab it also covers the thirty-odd registry locations malware actually hides in.</summary>
+  <title>KeyCDN Tools</title>
+  <link href="https://tools.keycdn.com/"/>
+  <id>https://tools.keycdn.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Bundles network tools like ping, traceroute, HTTP header and performance tests.</summary>
 </entry>
 <entry>
-  <title>Beautifier.io</title>
-  <link href="https://beautifier.io/"/>
-  <id>https://beautifier.io/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Formats JavaScript, HTML and CSS and unpacks minified code. Against Prettier it needs no install and can open obfuscated output back up — which is what you want when inspecting someone else’s minified bundle.</summary>
+  <title>Liveweave</title>
+  <link href="https://liveweave.com/"/>
+  <id>https://liveweave.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>An in-browser playground to try HTML, CSS and JS with live preview.</summary>
 </entry>
 <entry>
-  <title>CodeBeautify</title>
-  <link href="https://codebeautify.org/"/>
-  <id>https://codebeautify.org/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A collection of formatting, validation and conversion tools covering JSON, XML, YAML, SQL and Base64. Against IT Tools it is broader but heavier on ads — it is hard to find a conversion it lacks.</summary>
+  <title>Lorem Ipsum</title>
+  <link href="https://www.lipsum.com/"/>
+  <id>https://www.lipsum.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>The classic generator of placeholder text (lorem ipsum) for design mockups.</summary>
 </entry>
 <entry>
-  <title>Debuggex</title>
-  <link href="https://www.debuggex.com/"/>
-  <id>https://www.debuggex.com/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A visual regex tester that draws the expression as a state diagram, covering JavaScript, Python and PCRE. Where regex101 lists tokens, this draws a flow chart, which reads better for nested groups.</summary>
+  <title>Memcached</title>
+  <link href="https://memcached.org/"/>
+  <id>https://memcached.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A distributed memory cache that speeds up sites by holding hot data in RAM.</summary>
 </entry>
 <entry>
-  <title>Diffchecker</title>
-  <link href="https://www.diffchecker.com/"/>
-  <id>https://www.diffchecker.com/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A diff tool for text, images, PDFs and folders. Against the `diff` command it handles formatted and visual comparison — the command line will not tell you what changed between two PDF contracts.</summary>
+  <title>Mockaroo</title>
+  <link href="https://www.mockaroo.com/"/>
+  <id>https://www.mockaroo.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Generates realistic fake test data (CSV, JSON, SQL) to your chosen schema.</summary>
 </entry>
 <entry>
-  <title>Eclipse Theia</title>
-  <link href="https://theia-ide.org/"/>
-  <id>https://theia-ide.org/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>An IDE framework that runs on the desktop and in the browser and takes VS Code extensions. The difference from VS Code is that it is a framework rather than a product — built for you to construct your own IDE on top of.</summary>
+  <title>OnlineGDB</title>
+  <link href="https://www.onlinegdb.com/online_c_compiler"/>
+  <id>https://www.onlinegdb.com/online_c_compiler</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>An online IDE that compiles and debugs C and many languages in the browser (gdb included).</summary>
 </entry>
 <entry>
-  <title>Everything</title>
-  <link href="https://www.voidtools.com/"/>
-  <id>https://www.voidtools.com/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Instant filename search on Windows, built by reading the NTFS master file table directly. That is the trick against Windows Search: it does not index content, so the first scan takes seconds and results appear as you type.</summary>
+  <title>Pants</title>
+  <link href="https://www.pantsbuild.org/"/>
+  <id>https://www.pantsbuild.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A build system that scales to large, multi-language monorepos (originated at Twitter).</summary>
 </entry>
 <entry>
-  <title>ExtendsClass</title>
-  <link href="https://extendsclass.com/"/>
-  <id>https://extendsclass.com/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A collection of developer tools: a REST client, a SQLite browser, XML and JSON validators, regex testing. Against collections like IT Tools it runs the heavier things — a database browser and an API client — in the browser too.</summary>
+  <title>Password Generator</title>
+  <link href="https://danieldeev.github.io/password-generator/"/>
+  <id>https://danieldeev.github.io/password-generator/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A simple, security-focused password generator with adjustable length and character sets.</summary>
 </entry>
 <entry>
-  <title>IT Tools</title>
-  <link href="https://it-tools.tech/"/>
-  <id>https://it-tools.tech/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Eighty-odd developer utilities on one page: hashes, JWT decoding, cron expressions, UUIDs, colour conversion. Unlike the one-tool-per-site alternatives, everything runs in the browser and the whole thing self-hosts with Docker, so nothing leaves your machine.</summary>
+  <title>RESP.app</title>
+  <link href="https://resp.app/"/>
+  <id>https://resp.app/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A GUI for Redis — view, edit and delete data in your instance.</summary>
 </entry>
 <entry>
-  <title>JSONLint</title>
-  <link href="https://jsonlint.com/"/>
-  <id>https://jsonlint.com/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A JSON validator and formatter that tells you which line failed and why. Against an editor plugin it needs nothing installed, which is what you want when checking a malformed API response in a hurry.</summary>
+  <title>Scalastyle</title>
+  <link href="http://www.scalastyle.org/"/>
+  <id>http://www.scalastyle.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A linter that checks Scala source against formatting and style rules.</summary>
 </entry>
 <entry>
-  <title>Microsoft PowerToys</title>
-  <link href="https://learn.microsoft.com/en-us/windows/powertoys/"/>
-  <id>https://learn.microsoft.com/en-us/windows/powertoys/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>The official set of tools that adds what Windows lacks: window layouts (FancyZones), bulk rename, colour picker, text extraction. Unlike third-party equivalents it is built and kept open source by Microsoft, so updates do not break it.</summary>
+  <title>Scoverage</title>
+  <link href="https://github.com/scoverage"/>
+  <id>https://github.com/scoverage</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A statement-based code-coverage tool for Scala, more precise than line-based coverage.</summary>
 </entry>
 <entry>
-  <title>No Code List</title>
-  <link href="https://nocodelist.co/"/>
-  <id>https://nocodelist.co/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A categorised directory of over three hundred tools for getting things done without code. Unlike product-hunt style sites it aims at covering a category rather than surfacing the newest thing.</summary>
+  <title>Swagger</title>
+  <link href="https://swagger.io/"/>
+  <id>https://swagger.io/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>An OpenAPI toolset to design, document and try RESTful APIs.</summary>
 </entry>
 <entry>
-  <title>Notepad++</title>
-  <link href="https://notepad-plus-plus.org/"/>
-  <id>https://notepad-plus-plus.org/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A lightweight source editor for Windows with syntax highlighting, multi-file search and replace, and macro recording. The reason to reach for it over VS Code is speed: it opens a huge log file in seconds without waiting on a language server.</summary>
+  <title>Tools of the Trade</title>
+  <link href="https://github.com/cjbarber/ToolsOfTheTrade"/>
+  <id>https://github.com/cjbarber/ToolsOfTheTrade</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of tools used by companies on Hacker News.</summary>
 </entry>
 <entry>
-  <title>Regulex</title>
-  <link href="https://jex.im/regulex/"/>
-  <id>https://jex.im/regulex/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Draws JavaScript regular expressions as railroad diagrams. Against Debuggex it runs entirely client-side and exports the diagram as SVG, which makes it useful for documentation.</summary>
+  <title>Wappalyzer</title>
+  <link href="https://www.wappalyzer.com/"/>
+  <id>https://www.wappalyzer.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Reveals which technologies (framework, server, analytics) a website runs on.</summary>
 </entry>
 <entry>
-  <title>Rufus</title>
-  <link href="https://rufus.ie/en/"/>
-  <id>https://rufus.ie/en/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A Windows tool for writing bootable USB drives that works out the UEFI/BIOS and partitioning details itself. What sets it apart from other writers is the option to strip the TPM and account requirements out of a Windows 11 install.</summary>
+  <title>web.dev</title>
+  <link href="https://web.dev/"/>
+  <id>https://web.dev/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Google’s guides and measurement tools for web quality — performance, accessibility, PWA.</summary>
 </entry>
 <entry>
-  <title>Snapdrop</title>
-  <link href="https://snapdrop.net/"/>
-  <id>https://snapdrop.net/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Browser-to-browser file transfer between devices on the same network, connected directly over WebRTC. Unlike AirDrop it does not care about the operating system — Android to Mac works — and needs no install or account.</summary>
-</entry>
-<entry>
-  <title>VSCodium</title>
-  <link href="https://vscodium.com/"/>
-  <id>https://vscodium.com/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A community build of VS Code with Microsoft’s telemetry and branding stripped out. Same editor, same extension API; the difference is that the default marketplace is Open VSX rather than Microsoft’s, so some proprietary extensions are simply absent.</summary>
-</entry>
-<entry>
-  <title>Warp</title>
-  <link href="https://www.warp.dev/"/>
-  <id>https://www.warp.dev/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A terminal written in Rust that keeps each command and its output as a separate block instead of one scrolling stream, so you can copy a single command’s output in one click. That block model and the built-in AI command suggestions are what set it apart.</summary>
-</entry>
-<entry>
-  <title>Compiler Explorer</title>
-  <link href="https://godbolt.org/"/>
-  <id>https://godbolt.org/</id>
-  <updated>2026-08-19T23:35:33Z</updated>
-  <summary>Puts the generated assembly beside your source, with optimisation level and compiler version switchable so you see the difference immediately. It moves performance arguments from opinion to measurement.</summary>
-</entry>
-<entry>
-  <title>regex101</title>
-  <link href="https://regex101.com/"/>
-  <id>https://regex101.com/</id>
-  <updated>2026-08-19T23:34:13Z</updated>
-  <summary>Explains an expression token by token and its debugger shows exactly where a match breaks down, with switching between the PCRE, JavaScript and Python flavours.</summary>
-</entry>
-<entry>
-  <title>CodePen</title>
-  <link href="https://codepen.io"/>
-  <id>https://codepen.io</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A browser playground for HTML, CSS and JavaScript. The real value is discovery — you learn by taking apart other people’s CSS tricks.</summary>
-</entry>
-<entry>
-  <title>CodeSandbox</title>
-  <link href="https://codesandbox.io"/>
-  <id>https://codesandbox.io</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Runs projects with full npm dependencies in the browser. Unlike CodePen it opens a real React or Node project as-is.</summary>
-</entry>
-<entry>
-  <title>CodeShare</title>
-  <link href="https://codeshare.io"/>
-  <id>https://codeshare.io</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Real-time collaborative code editing in the browser with no install or account — a fast option for remote pairing or an interview.</summary>
-</entry>
-<entry>
-  <title>CORS Tester</title>
-  <link href="https://cors-error.dev/cors-tester/"/>
-  <id>https://cors-error.dev/cors-tester/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Tests an API’s CORS headers from the outside, telling you which header causes the vague CORS error in the browser console.</summary>
-</entry>
-<entry>
-  <title>Crontab Guru</title>
-  <link href="https://crontab.guru/"/>
-  <id>https://crontab.guru/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Translates a cron expression into plain language as you type and shows the next run times, ending the guesswork over asterisks and slashes.</summary>
-</entry>
-<entry>
-  <title>DevURLs</title>
-  <link href="https://devurls.com/"/>
-  <id>https://devurls.com/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A news board gathering Hacker News, Reddit, Lobsters and dozens more on one page — one glance instead of visiting each.</summary>
-</entry>
-<entry>
-  <title>explainshell</title>
-  <link href="https://explainshell.com/"/>
-  <id>https://explainshell.com/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Paste a shell command and it maps every fragment to its entry in the man page. Against reading `man` it works backwards — you learn what the `-xzvf` in front of you means without scanning the manual.</summary>
-</entry>
-<entry>
-  <title>GitHub Gist</title>
-  <link href="https://gist.github.com"/>
-  <id>https://gist.github.com</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Shares single-file snippets with version history; comments and forking make it more durable than a pastebin.</summary>
-</entry>
-<entry>
-  <title>gitignore.io</title>
-  <link href="https://www.gitignore.io/"/>
-  <id>https://www.gitignore.io/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Generates a `.gitignore` from your operating system, editor and language choices — the end of retyping the same lines on every project.</summary>
-</entry>
-<entry>
-  <title>Graph Online</title>
-  <link href="https://graphonline.ru/en/"/>
-  <id>https://graphonline.ru/en/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Draw a graph in the browser and run shortest path, connectivity and flow algorithms on it — testing graph algorithms without writing code.</summary>
-</entry>
-<entry>
-  <title>Ideone</title>
-  <link href="https://ideone.com"/>
-  <id>https://ideone.com</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Compiles and runs 60+ languages in the browser and accepts an input stream — for trying a language’s syntax without installing anything.</summary>
-</entry>
-<entry>
-  <title>JS Bin</title>
-  <link href="https://jsbin.com/"/>
-  <id>https://jsbin.com/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A JSFiddle-like scratchpad with a live output panel; showing console output on the same screen is handy when debugging.</summary>
-</entry>
-<entry>
-  <title>JSFiddle</title>
-  <link href="https://jsfiddle.net"/>
-  <id>https://jsfiddle.net</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The oldest and lightest way to test a small JavaScript snippet — the standard tool for attaching a reproducible example to a bug report.</summary>
+  <title>Website Grader</title>
+  <link href="https://website.grader.com/"/>
+  <id>https://website.grader.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A free tool that grades a site on performance, SEO, mobile and security.</summary>
 </entry>
 </feed>
