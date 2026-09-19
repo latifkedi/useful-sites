@@ -21,6 +21,8 @@ import os
 import json
 import datetime
 
+from sources import SOURCES
+
 SITE = 'https://latifkedi.github.io/useful-sites'
 FEED_N = 40
 
@@ -305,7 +307,95 @@ def write_all(core, cats, intros, taglbl, out_dir, en_desc):
     _sitemap(written, core, out_dir)
     _robots(out_dir)
     _feed(core, dict((c[0], c[1]) for c in cats), out_dir)
+    _credits(core, out_dir)
     return written
+
+
+# key, tr label, en label, tr note, en note, url  -- driven by data/sources.py
+CREDITS_TX = {
+    'tr': {
+        'title': 'Katkıda Bulunanlar',
+        'intro': ('Dizindeki bağlantılar iki kaynaktan gelir: derleyenin kendi arşivi ve aşağıdaki '
+                  'herkese açık koleksiyonlar. Her koleksiyondan yalnız kapsam içi, canlı ve kayda değer '
+                  'olanlar alındı; açıklamalar kopyalanmadı, projelerin kendi belgelerine bakılarak '
+                  'yeniden yazıldı. Emeği geçen herkese teşekkürler.'),
+        'own': 'Derleyenin kendi arşivi — tek tek gözden geçirildi.',
+        'links': 'bağlantı',
+        'chow': 'Sen de katkıda bulun',
+        'ctext': ('Ölü ya da hatalı bir kayıt görürsen, ya da yeni bir bağlantı önermek istersen, '
+                  'GitHub üzerinden bir <a href="{repo}/issues/new/choose">issue aç</a>. Öneriler '
+                  'yayımlanmadan önce elle gözden geçirilir.'),
+        'back': '← Kullanışlı Siteler',
+    },
+    'en': {
+        'title': 'Contributors & Credits',
+        'intro': ("The directory's links come from two places: the curator's own archive and the "
+                  'public collections below. From each collection only the in-scope, live and '
+                  'worthwhile entries were taken; the descriptions were not copied but rewritten from '
+                  "each project's own documentation. Thanks to everyone whose work fed this."),
+        'own': "The curator's own archive — reviewed one by one.",
+        'links': 'links',
+        'chow': 'Contribute',
+        'ctext': ('Spotted a dead or wrong entry, or want to suggest a new link? Open an '
+                  '<a href="{repo}/issues/new/choose">issue on GitHub</a>. Suggestions are reviewed '
+                  'by hand before they are published.'),
+        'back': '← Useful Sites',
+    },
+}
+
+
+def _credits(core, out_dir):
+    """A standing credits page naming every source that fed the directory.
+
+    Built from data/sources.py so it can never drift from the source chips in
+    the app: same labels, same notes, plus the count and a link out.
+    """
+    count = {}
+    for d in core:
+        count[d.get('src')] = count.get(d.get('src'), 0) + 1
+    order = sorted(SOURCES, key=lambda k: (k != 'kedi', -count.get(k, 0)))
+    repo = 'https://github.com/latifkedi/useful-sites'
+
+    for lang, L in sorted(LANGS.items()):
+        T = CREDITS_TX[lang]
+        li = 0 if lang == 'tr' else 1
+        rows = []
+        for k in order:
+            s = SOURCES[k]
+            n = count.get(k, 0)
+            if not n:
+                continue
+            name = s['label_tr'] if lang == 'tr' else s['label_en']
+            note = (s['note_tr'] if lang == 'tr' else s['note_en']) if k != 'kedi' else T['own']
+            url = s.get('url')
+            head = ('<a href="%s" rel="noopener noreferrer">%s</a>' % (esc(url), esc(name))) \
+                if url else esc(name)
+            rows.append(
+                '<article><h2>%s<span class="host">%d %s</span></h2>'
+                '<p class="d">%s</p></article>'
+                % (head, n, esc(T['links']), esc(note)))
+        canon = '%s/k/%s%s' % (SITE, L['dir'], 'tesekkur.html' if lang == 'tr' else 'credits.html')
+        alt_tr = '%s/k/tesekkur.html' % SITE
+        alt_en = '%s/k/en/credits.html' % SITE
+        html = PAGE.format(
+            lang=L['code'], site_name=esc(L['name']), title=esc(T['title']),
+            desc=esc(T['intro'][:180]), canon=canon, site=SITE, home=SITE + '/',
+            intro=T['intro'], style=STYLE.replace('__F__', L['fonts']),
+            count=len([1 for k in order if count.get(k)]),
+            word_links=esc('kaynak' if lang == 'tr' else 'sources'),
+            feed_title=esc(L['name']), feed_url='%s/feed.xml' % SITE,
+            alt_tr=alt_tr, alt_en=alt_en,
+            jsonld=json.dumps({'@context': 'https://schema.org', '@type': 'AboutPage',
+                               'name': T['title'], 'url': canon}, ensure_ascii=False),
+            items='\n'.join(rows)
+            + '\n<article><h2>%s</h2><p class="d">%s</p></article>'
+              % (esc(T['chow']), T['ctext'].format(repo=repo)),
+            others='<a href="%s">%s</a>' % (esc(SITE + '/'), esc(T['back'])),
+            foot=('<a href="%s">%s</a>' % (esc(SITE + ('/' if lang == 'tr' else '/?lang=en')),
+                                           esc(T['back']))))
+        fn = 'tesekkur.html' if lang == 'tr' else 'credits.html'
+        kdir = os.path.join(out_dir, 'k') if lang == 'tr' else os.path.join(out_dir, 'k', 'en')
+        io.open(os.path.join(kdir, fn), 'w', encoding='utf-8', newline='\n').write(html)
 
 
 def _hubs(core, cats, intros, out_dir):
@@ -382,6 +472,7 @@ def _sitemap(keys, core, out_dir):
     ciftler = [('%s/k/%s.html' % (SITE, k), '%s/k/en/%s.html' % (SITE, k))
                for k in keys]
     ciftler.insert(0, ('%s/k/index.html' % SITE, '%s/k/en/index.html' % SITE))
+    ciftler.append(('%s/k/tesekkur.html' % SITE, '%s/k/en/credits.html' % SITE))
 
     satir = ['  <url><loc>%s</loc><lastmod>%s</lastmod><priority>1.0</priority>'
              '</url>' % (esc(SITE + '/'), today)]
