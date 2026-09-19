@@ -47,6 +47,54 @@
   <summary>Scala kütüphane ve araçlarının konuya göre listesi. Dağınık aramadan farkı fonksiyonel ve büyük veri kütüphanelerini bir arada göstermesi.</summary>
 </entry>
 <entry>
+  <title>C#</title>
+  <link href="https://dotnet.microsoft.com/languages/csharp"/>
+  <id>https://dotnet.microsoft.com/languages/csharp</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Microsoft’un .NET platformu için geliştirdiği çok amaçlı dil.</summary>
+</entry>
+<entry>
+  <title>Clojure</title>
+  <link href="https://clojure.org/"/>
+  <id>https://clojure.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>JVM üzerinde çalışan modern bir Lisp lehçesi; değişmezliğe odaklı.</summary>
+</entry>
+<entry>
+  <title>Dart</title>
+  <link href="https://dart.dev/"/>
+  <id>https://dart.dev/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Google’ın geliştirdiği, Flutter’ın altındaki istemci-odaklı dil.</summary>
+</entry>
+<entry>
+  <title>Elixir</title>
+  <link href="https://elixir-lang.org/"/>
+  <id>https://elixir-lang.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Erlang sanal makinesinde çalışan, ölçeklenebilirliğe güçlü işlevsel dil.</summary>
+</entry>
+<entry>
+  <title>Go</title>
+  <link href="https://golang.org/"/>
+  <id>https://golang.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Google’ın sade, hızlı derlenen, eşzamanlılığa güçlü dili — resmî sitesi.</summary>
+</entry>
+<entry>
+  <title>Haskell</title>
+  <link href="https://www.haskell.org/"/>
+  <id>https://www.haskell.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Saf işlevsel ve statik tipli, tembel değerlendirmeli programlama dili.</summary>
+</entry>
+<entry>
   <title>JMH</title>
   <link href="https://github.com/openjdk/jmh"/>
   <id>https://github.com/openjdk/jmh</id>
@@ -55,12 +103,68 @@
   <summary>JVM’de mikro-ölçüm için OpenJDK aracı; ölçümü bozan JIT etkilerini hesaba katar. Elle zamanlamadan farkı ısınma, ölü kod eleme gibi tuzakları doğru kurgulaması.</summary>
 </entry>
 <entry>
+  <title>Julia</title>
+  <link href="https://julialang.org/"/>
+  <id>https://julialang.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Bilimsel hesaplama için yüksek başarımlı, açık kaynak dil.</summary>
+</entry>
+<entry>
+  <title>Kotlin</title>
+  <link href="https://kotlinlang.org/"/>
+  <id>https://kotlinlang.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>JVM üzerinde çalışan, Android’in tercih dili olan çok platformlu dil.</summary>
+</entry>
+<entry>
+  <title>Lua</title>
+  <link href="https://www.lua.org/"/>
+  <id>https://www.lua.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Gömülmeye elverişli, hafif betik dili; oyun ve gömülü sistemlerde yaygın.</summary>
+</entry>
+<entry>
   <title>OpenJDK</title>
   <link href="https://openjdk.org/"/>
   <id>https://openjdk.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <category term="Programlama Dilleri"/>
   <summary>Java platformunun açık kaynak referans uygulaması — dilin ve JVM’in geliştiği yer. Satıcı dağıtımlarından farkı standardın kendisinin burada tanımlanması.</summary>
+</entry>
+<entry>
+  <title>Perl</title>
+  <link href="https://www.perl.org/"/>
+  <id>https://www.perl.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Metin işleme ve sistem betiklerinde güçlü, dinamik ve olgun dil.</summary>
+</entry>
+<entry>
+  <title>PHP</title>
+  <link href="https://www.php.net/"/>
+  <id>https://www.php.net/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Web’in sunucu tarafında en yaygın dillerinden; resmî belgeleri.</summary>
+</entry>
+<entry>
+  <title>R</title>
+  <link href="https://www.r-project.org/"/>
+  <id>https://www.r-project.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>İstatistik ve veri analizi için tasarlanmış dil ve ortam.</summary>
+</entry>
+<entry>
+  <title>Ruby</title>
+  <link href="https://www.ruby-lang.org/en/"/>
+  <id>https://www.ruby-lang.org/en/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Okunabilirliği ve geliştirici mutluluğunu öne alan çok paradigmalı dil.</summary>
 </entry>
 <entry>
   <title>Rust by Example</title>
@@ -85,6 +189,22 @@
   <updated>2026-09-18T00:00:00Z</updated>
   <category term="Programlama Dilleri"/>
   <summary>Küçük, kırık kod parçalarını düzelterek Rust öğreten alıştırma seti. Okuma temelli kaynaklardan farkı derleyici hatalarını okuyup düzeltmeyi elle deneyimletmesi.</summary>
+</entry>
+<entry>
+  <title>Scala</title>
+  <link href="https://www.scala-lang.org/"/>
+  <id>https://www.scala-lang.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Nesne yönelimli ve işlevseli birleştiren, JVM üzerinde çalışan dil.</summary>
+</entry>
+<entry>
+  <title>Swift</title>
+  <link href="https://www.swift.org/"/>
+  <id>https://www.swift.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Apple’ın öncelikle iOS için geliştirdiği, güvenli ve hızlı derlenen dili.</summary>
 </entry>
 <entry>
   <title>The Async Book</title>
@@ -205,125 +325,5 @@
   <updated>2026-09-18T00:00:00Z</updated>
   <category term="Web &amp; Frontend"/>
   <summary>CSS’i eklentilerle dönüştüren PostCSS aracı için kaynak listesi.</summary>
-</entry>
-<entry>
-  <title>Awesome Preact</title>
-  <link href="https://github.com/preactjs/awesome-preact"/>
-  <id>https://github.com/preactjs/awesome-preact</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Web &amp; Frontend"/>
-  <summary>React’in hafif alternatifi Preact için kaynak listesi.</summary>
-</entry>
-<entry>
-  <title>Awesome React</title>
-  <link href="https://github.com/enaqx/awesome-react"/>
-  <id>https://github.com/enaqx/awesome-react</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Web &amp; Frontend"/>
-  <summary>React ekosistemi için kütüphane, araç ve öğrenme kaynağı listesi.</summary>
-</entry>
-<entry>
-  <title>Awesome React Hooks</title>
-  <link href="https://github.com/glauberfc/awesome-react-hooks"/>
-  <id>https://github.com/glauberfc/awesome-react-hooks</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Web &amp; Frontend"/>
-  <summary>React Hooks için kütüphane ve örneklerin listesi.</summary>
-</entry>
-<entry>
-  <title>Awesome Svelte</title>
-  <link href="https://github.com/TheComputerM/awesome-svelte"/>
-  <id>https://github.com/TheComputerM/awesome-svelte</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Web &amp; Frontend"/>
-  <summary>Svelte ve SvelteKit için bileşen ve araç listesi. React ağırlıklı listelerden farkı bu derleme-zamanı çatısına özgü ekosistemi göstermesi.</summary>
-</entry>
-<entry>
-  <title>Awesome Tailwind CSS</title>
-  <link href="https://github.com/aniftyco/awesome-tailwindcss"/>
-  <id>https://github.com/aniftyco/awesome-tailwindcss</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Web &amp; Frontend"/>
-  <summary>Tailwind CSS için eklenti, bileşen ve araç listesi.</summary>
-</entry>
-<entry>
-  <title>Awesome WebExtensions</title>
-  <link href="https://github.com/fregante/Awesome-WebExtensions"/>
-  <id>https://github.com/fregante/Awesome-WebExtensions</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Web &amp; Frontend"/>
-  <summary>Tarayıcılar arası eklenti (WebExtension) geliştirmek için kaynak listesi. Tek tarayıcı dokümanından farkı Chrome, Firefox ve Safari’de çalışan ortak API’ye odaklanması.</summary>
-</entry>
-<entry>
-  <title>Awwwards</title>
-  <link href="https://www.awwwards.com/"/>
-  <id>https://www.awwwards.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Web &amp; Frontend"/>
-  <summary>Öne çıkan web tasarımlarını ödüllendiren ve sergileyen galeri. Rastgele ilhamdan farkı jüri değerlendirmesiyle kaliteyi süzmesi.</summary>
-</entry>
-<entry>
-  <title>Bootstrap</title>
-  <link href="https://www.getbootstrap.com/"/>
-  <id>https://www.getbootstrap.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Web &amp; Frontend"/>
-  <summary>En yaygın CSS çerçevesi; hazır ızgara ve bileşenlerle hızlı, tutarlı arayüz.</summary>
-</entry>
-<entry>
-  <title>BuildBootstrap</title>
-  <link href="https://buildbootstrap.com/"/>
-  <id>https://buildbootstrap.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Web &amp; Frontend"/>
-  <summary>Bootstrap düzenini görsel olarak kurup kodunu üreten araç.</summary>
-</entry>
-<entry>
-  <title>Bulma</title>
-  <link href="https://bulma.io/"/>
-  <id>https://bulma.io/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Web &amp; Frontend"/>
-  <summary>Flexbox tabanlı, yalnız CSS’ten oluşan (JavaScript yok) modern framework. Bootstrap’tan farkı JS bileşeni getirmemesi — sınıfları alıp kendi etkileşimini yazıyorsun.</summary>
-</entry>
-<entry>
-  <title>Buttons Generator</title>
-  <link href="https://markodenic.com/tools/buttons-generator/"/>
-  <id>https://markodenic.com/tools/buttons-generator/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Web &amp; Frontend"/>
-  <summary>Projelerde kullanılabilecek hazır CSS buton stilleri ve kodları.</summary>
-</entry>
-<entry>
-  <title>Chart.js</title>
-  <link href="https://www.chartjs.org/"/>
-  <id>https://www.chartjs.org/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Web &amp; Frontend"/>
-  <summary>Canvas üstünde sade, duyarlı grafikler çizen JavaScript kütüphanesi. Ağır görselleştirme kütüphanelerinden farkı birkaç satırda çalışan, hafif olması.</summary>
-</entry>
-<entry>
-  <title>Colors and Fonts</title>
-  <link href="https://www.colorsandfonts.com/"/>
-  <id>https://www.colorsandfonts.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Web &amp; Frontend"/>
-  <summary>Renk paletleri ve tipografiyi bir arada sunan tasarım kaynağı.</summary>
-</entry>
-<entry>
-  <title>Colors.lol</title>
-  <link href="https://colors.lol"/>
-  <id>https://colors.lol</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Web &amp; Frontend"/>
-  <summary>İlham verici renk paletleri deposu.</summary>
-</entry>
-<entry>
-  <title>Cruip</title>
-  <link href="https://cruip.com/"/>
-  <id>https://cruip.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Web &amp; Frontend"/>
-  <summary>Modern açılış sayfası ve arayüz şablonları (Tailwind ağırlıklı).</summary>
 </entry>
 </feed>

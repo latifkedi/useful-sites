@@ -5,7 +5,35 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/en/referans.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/en/referans.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/referans.xml</id>
-<updated>2026-09-10T20:53:20Z</updated>
+<updated>2026-09-18T00:00:00Z</updated>
+<entry>
+  <title>Free Computer Books</title>
+  <link href="https://freecomputerbooks.com/"/>
+  <id>https://freecomputerbooks.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A directory of free technology books and ebooks, organised by topic.</summary>
+</entry>
+<entry>
+  <title>GitHub Octoverse</title>
+  <link href="https://octoverse.github.com/"/>
+  <id>https://octoverse.github.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>GitHub’s annual report, showing software trends with data.</summary>
+</entry>
+<entry>
+  <title>Markdown Guide</title>
+  <link href="https://www.markdownguide.org/"/>
+  <id>https://www.markdownguide.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A comprehensive guide to Markdown, used for formatting READMEs and docs.</summary>
+</entry>
+<entry>
+  <title>Stack Overflow Survey</title>
+  <link href="https://survey.stackoverflow.co/"/>
+  <id>https://survey.stackoverflow.co/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>The annual large survey of developers’ tool, language and salary trends.</summary>
+</entry>
 <entry>
   <title>ALL about RSS</title>
   <link href="https://github.com/AboutRSS/ALL-about-RSS"/>
@@ -257,33 +285,5 @@
   <id>https://oss.gallery/</id>
   <updated>2026-08-21T20:53:20Z</updated>
   <summary>A crowdsourced showcase of open-source projects, each with a live demo and repository link. Against awesome lists it is visual — you see what a thing does before reading about it.</summary>
-</entry>
-<entry>
-  <title>Public License Selector</title>
-  <link href="https://ufal.github.io/public-license-selector/"/>
-  <id>https://ufal.github.io/public-license-selector/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Recommends a licence from your answers to a series of questions, with separate flows for software, data and content. Against choosealicense.com it also covers datasets and content, which is what you need when choosing among the CC licences.</summary>
-</entry>
-<entry>
-  <title>Python Cheatsheet</title>
-  <link href="https://www.pythoncheatsheet.org/"/>
-  <id>https://www.pythoncheatsheet.org/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A Python reference based on &quot;Automate the Boring Stuff&quot;, covering syntax through the standard library. Against the official documentation it leans on examples — you open it to recall syntax, not to learn it.</summary>
-</entry>
-<entry>
-  <title>Related Repos</title>
-  <link href="https://relatedrepos.com/"/>
-  <id>https://relatedrepos.com/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Finds projects similar to a given GitHub repository. Against GitHub’s own suggestions it works from star overlap, so it also surfaces projects whose topic tags were filled in badly.</summary>
-</entry>
-<entry>
-  <title>Shields.io</title>
-  <link href="https://shields.io/"/>
-  <id>https://shields.io/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Generates README badges: build status, version, downloads, licence. Against hand-made SVGs they bind to live data — the badge fetches the npm version or CI status itself.</summary>
 </entry>
 </feed>

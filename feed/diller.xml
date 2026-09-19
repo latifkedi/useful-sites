@@ -42,6 +42,48 @@
   <summary>Scala kütüphane ve araçlarının konuya göre listesi. Dağınık aramadan farkı fonksiyonel ve büyük veri kütüphanelerini bir arada göstermesi.</summary>
 </entry>
 <entry>
+  <title>C#</title>
+  <link href="https://dotnet.microsoft.com/languages/csharp"/>
+  <id>https://dotnet.microsoft.com/languages/csharp</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Microsoft’un .NET platformu için geliştirdiği çok amaçlı dil.</summary>
+</entry>
+<entry>
+  <title>Clojure</title>
+  <link href="https://clojure.org/"/>
+  <id>https://clojure.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>JVM üzerinde çalışan modern bir Lisp lehçesi; değişmezliğe odaklı.</summary>
+</entry>
+<entry>
+  <title>Dart</title>
+  <link href="https://dart.dev/"/>
+  <id>https://dart.dev/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Google’ın geliştirdiği, Flutter’ın altındaki istemci-odaklı dil.</summary>
+</entry>
+<entry>
+  <title>Elixir</title>
+  <link href="https://elixir-lang.org/"/>
+  <id>https://elixir-lang.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Erlang sanal makinesinde çalışan, ölçeklenebilirliğe güçlü işlevsel dil.</summary>
+</entry>
+<entry>
+  <title>Go</title>
+  <link href="https://golang.org/"/>
+  <id>https://golang.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Google’ın sade, hızlı derlenen, eşzamanlılığa güçlü dili — resmî sitesi.</summary>
+</entry>
+<entry>
+  <title>Haskell</title>
+  <link href="https://www.haskell.org/"/>
+  <id>https://www.haskell.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Saf işlevsel ve statik tipli, tembel değerlendirmeli programlama dili.</summary>
+</entry>
+<entry>
   <title>JMH</title>
   <link href="https://github.com/openjdk/jmh"/>
   <id>https://github.com/openjdk/jmh</id>
@@ -49,11 +91,60 @@
   <summary>JVM’de mikro-ölçüm için OpenJDK aracı; ölçümü bozan JIT etkilerini hesaba katar. Elle zamanlamadan farkı ısınma, ölü kod eleme gibi tuzakları doğru kurgulaması.</summary>
 </entry>
 <entry>
+  <title>Julia</title>
+  <link href="https://julialang.org/"/>
+  <id>https://julialang.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Bilimsel hesaplama için yüksek başarımlı, açık kaynak dil.</summary>
+</entry>
+<entry>
+  <title>Kotlin</title>
+  <link href="https://kotlinlang.org/"/>
+  <id>https://kotlinlang.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>JVM üzerinde çalışan, Android’in tercih dili olan çok platformlu dil.</summary>
+</entry>
+<entry>
+  <title>Lua</title>
+  <link href="https://www.lua.org/"/>
+  <id>https://www.lua.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Gömülmeye elverişli, hafif betik dili; oyun ve gömülü sistemlerde yaygın.</summary>
+</entry>
+<entry>
   <title>OpenJDK</title>
   <link href="https://openjdk.org/"/>
   <id>https://openjdk.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Java platformunun açık kaynak referans uygulaması — dilin ve JVM’in geliştiği yer. Satıcı dağıtımlarından farkı standardın kendisinin burada tanımlanması.</summary>
+</entry>
+<entry>
+  <title>Perl</title>
+  <link href="https://www.perl.org/"/>
+  <id>https://www.perl.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Metin işleme ve sistem betiklerinde güçlü, dinamik ve olgun dil.</summary>
+</entry>
+<entry>
+  <title>PHP</title>
+  <link href="https://www.php.net/"/>
+  <id>https://www.php.net/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Web’in sunucu tarafında en yaygın dillerinden; resmî belgeleri.</summary>
+</entry>
+<entry>
+  <title>R</title>
+  <link href="https://www.r-project.org/"/>
+  <id>https://www.r-project.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>İstatistik ve veri analizi için tasarlanmış dil ve ortam.</summary>
+</entry>
+<entry>
+  <title>Ruby</title>
+  <link href="https://www.ruby-lang.org/en/"/>
+  <id>https://www.ruby-lang.org/en/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Okunabilirliği ve geliştirici mutluluğunu öne alan çok paradigmalı dil.</summary>
 </entry>
 <entry>
   <title>Rust by Example</title>
@@ -75,6 +166,20 @@
   <id>https://github.com/rust-lang/rustlings</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Küçük, kırık kod parçalarını düzelterek Rust öğreten alıştırma seti. Okuma temelli kaynaklardan farkı derleyici hatalarını okuyup düzeltmeyi elle deneyimletmesi.</summary>
+</entry>
+<entry>
+  <title>Scala</title>
+  <link href="https://www.scala-lang.org/"/>
+  <id>https://www.scala-lang.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Nesne yönelimli ve işlevseli birleştiren, JVM üzerinde çalışan dil.</summary>
+</entry>
+<entry>
+  <title>Swift</title>
+  <link href="https://www.swift.org/"/>
+  <id>https://www.swift.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Apple’ın öncelikle iOS için geliştirdiği, güvenli ve hızlı derlenen dili.</summary>
 </entry>
 <entry>
   <title>The Async Book</title>
@@ -180,110 +285,5 @@
   <id>https://maven.apache.org/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>Java için bağımlılık yönetimi ve derlemeyi standart bir proje düzeniyle yapan araç. Elle jar toplamaktan farkı bağımlılıkları merkezî depodan çözüp yaşam döngüsünü tanımlaması.</summary>
-</entry>
-<entry>
-  <title>Awesome Compilers</title>
-  <link href="https://aalhour.com/awesome-compilers/"/>
-  <id>https://aalhour.com/awesome-compilers/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Derleyici, yorumlayıcı ve çalışma zamanı kaynaklarının derlemesi; kitaplar, dersler ve açık kaynak derleyiciler ayrı ayrı listelenmiş.</summary>
-</entry>
-<entry>
-  <title>Awesome Java</title>
-  <link href="https://github.com/akullpp/awesome-java"/>
-  <id>https://github.com/akullpp/awesome-java</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Java kütüphane ve çerçevelerini konuya göre düzenleyen liste. Maven Central aramasından farkı seçilmiş, kategorilenmiş ve bakımı yapılan bir başlangıç haritası olması.</summary>
-</entry>
-<entry>
-  <title>Baeldung</title>
-  <link href="https://www.baeldung.com"/>
-  <id>https://www.baeldung.com</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Java ve Spring için çözümlü, güncel öğreticilerin en geniş arşivi. Resmî dokümandan farkı “şunu nasıl yaparım” sorusuna çalışan kod örnekleriyle cevap vermesi.</summary>
-</entry>
-<entry>
-  <title>C++ Üslup ve Teknik SSS</title>
-  <link href="https://www.stroustrup.com/bs_faq2.html"/>
-  <id>https://www.stroustrup.com/bs_faq2.html</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Stroustrup’un C++ üslubu ve sık yapılan hatalar üzerine SSS’i; “bunu neden böyle yapmalıyım” sorularının doğrudan cevabı.</summary>
-</entry>
-<entry>
-  <title>C++11 SSS (Stroustrup)</title>
-  <link href="https://www.stroustrup.com/C++11FAQ.html"/>
-  <id>https://www.stroustrup.com/C++11FAQ.html</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Dilin yaratıcısının C++11 ile gelen her özelliği neden eklediğini anlattığı SSS. Özellik listesinden farkı, tasarım gerekçesini vermesi.</summary>
-</entry>
-<entry>
-  <title>Comprehensive Rust</title>
-  <link href="https://google.github.io/comprehensive-rust/"/>
-  <id>https://google.github.io/comprehensive-rust/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Google’ın dört günlük, slayt + alıştırma biçiminde açık Rust kursu. Kitaptan farkı sınıf ortamı için tempolu, gömülü ve eşzamanlılık modülleriyle gelmesi.</summary>
-</entry>
-<entry>
-  <title>CppCon</title>
-  <link href="https://www.youtube.com/user/CppCon/videos?shelf_id=0&amp;view=0&amp;sort=dd"/>
-  <id>https://www.youtube.com/user/CppCon/videos?shelf_id=0&amp;view=0&amp;sort=dd</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Yıllık C++ konferansının tüm konuşmaları. Öğreticilerden farkı dilin standardını yazan kişilerin sunumlarını içermesi — bir özelliğin neden öyle tasarlandığını burada duyuyorsun.</summary>
-</entry>
-<entry>
-  <title>Crafting Interpreters</title>
-  <link href="https://craftinginterpreters.com/"/>
-  <id>https://craftinginterpreters.com/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Bir dili iki kez sıfırdan yazdıran ücretsiz kitap: önce Java ile ağaç yürüyen yorumlayıcı, sonra C ile bayt kodu sanal makinesi. Alanın en iyi anlatımlarından.</summary>
-</entry>
-<entry>
-  <title>crates.io</title>
-  <link href="https://crates.io/"/>
-  <id>https://crates.io/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Rust’ın resmî paket kayıt defteri — kütüphaneleri yayımlayıp bağımlılık olarak çekmenin merkezi. Genel kod aramalarından farkı sürüm ve indirme verisiyle güvenilir kaynağı göstermesi.</summary>
-</entry>
-<entry>
-  <title>Dev.java · Learn</title>
-  <link href="https://dev.java/learn/"/>
-  <id>https://dev.java/learn/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Oracle’ın güncel, resmî Java öğrenme portalı. Eski Java Tutorials’tan farkı modern sürümlere göre yenilenmiş, konu konu düzenlenmiş olması.</summary>
-</entry>
-<entry>
-  <title>docs.rs</title>
-  <link href="https://docs.rs/"/>
-  <id>https://docs.rs/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>crates.io’daki her paketin belgelerini otomatik derleyip yayımlayan servis. Her projenin kendi sitesinden farkı tüm ekosistemin dokümanını tek biçim ve tek adreste toplaması.</summary>
-</entry>
-<entry>
-  <title>Gradle</title>
-  <link href="https://gradle.org/"/>
-  <id>https://gradle.org/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Java ve Android için betiklenebilir, artımlı derleme aracı. Maven’in XML’inden farkı derleme mantığını gerçek kodla (Kotlin/Groovy) yazıp yalnız değişeni yeniden derlemesi.</summary>
-</entry>
-<entry>
-  <title>Guava</title>
-  <link href="https://github.com/google/guava"/>
-  <id>https://github.com/google/guava</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Google’ın Java için çekirdek yardımcı kütüphanesi — koleksiyonlar, önbellek, fonksiyonel ekler. Standart kütüphaneyi elle doldurmaktan farkı bu boşlukları test edilmiş biçimde kapatması.</summary>
-</entry>
-<entry>
-  <title>Hibernate</title>
-  <link href="https://hibernate.org/"/>
-  <id>https://hibernate.org/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Java nesnelerini ilişkisel veritabanı satırlarına eşleyen ORM. Ham JDBC’den farkı SQL’i büyük ölçüde soyutlayıp nesne grafiğini kalıcılaştırması.</summary>
-</entry>
-<entry>
-  <title>Hitchhiker’s Guide to Python</title>
-  <link href="https://docs.python-guide.org/writing/style/"/>
-  <id>https://docs.python-guide.org/writing/style/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Python’da üslup, proje düzeni ve araç seçimi üzerine topluluk rehberi. Dil referansının anlatmadığı “nasıl yazılır” kısmı.</summary>
 </entry>
 </feed>

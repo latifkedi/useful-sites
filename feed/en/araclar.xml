@@ -14,6 +14,27 @@
   <summary>Write, run and share C# and .NET code in the browser — no install.</summary>
 </entry>
 <entry>
+  <title>Apache NetBeans</title>
+  <link href="https://netbeans.apache.org/"/>
+  <id>https://netbeans.apache.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A multi-language open-source IDE, strong for Java.</summary>
+</entry>
+<entry>
+  <title>Asana</title>
+  <link href="https://asana.com/"/>
+  <id>https://asana.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A project-management platform tracking team work, tasks and workflows.</summary>
+</entry>
+<entry>
+  <title>Beekeeper Studio</title>
+  <link href="https://www.beekeeperstudio.io/"/>
+  <id>https://www.beekeeperstudio.io/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>An open-source SQL editor and manager supporting many databases.</summary>
+</entry>
+<entry>
   <title>Browser Diet</title>
   <link href="https://browserdiet.com/en/"/>
   <id>https://browserdiet.com/en/</id>
@@ -112,6 +133,20 @@
   <summary>A tool generating realistic fake test data to a given schema (CSV, JSON, SQL). Unlike making data up by hand it produces fields like names and addresses consistently and in bulk.</summary>
 </entry>
 <entry>
+  <title>Gitpod</title>
+  <link href="https://www.gitpod.io/"/>
+  <id>https://www.gitpod.io/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A service that opens a GitHub repo into a ready cloud dev environment in one click.</summary>
+</entry>
+<entry>
+  <title>Google Keep</title>
+  <link href="https://keep.google.com/"/>
+  <id>https://keep.google.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A quick sticky-note tool synced in the cloud.</summary>
+</entry>
+<entry>
   <title>Google Safe Browsing</title>
   <link href="https://transparencyreport.google.com/safe-browsing/search"/>
   <id>https://transparencyreport.google.com/safe-browsing/search</id>
@@ -138,6 +173,13 @@
   <id>https://github.com/JCTools/JCTools</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Very high-performance concurrent queues for the JVM, used by projects like Netty.</summary>
+</entry>
+<entry>
+  <title>Jira</title>
+  <link href="https://www.atlassian.com/software/jira"/>
+  <id>https://www.atlassian.com/software/jira</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Agile project management with strong issue and release tracking for software teams.</summary>
 </entry>
 <entry>
   <title>JitPack</title>
@@ -196,11 +238,32 @@
   <summary>The classic generator of placeholder text (lorem ipsum) for design mockups.</summary>
 </entry>
 <entry>
+  <title>Lucidchart</title>
+  <link href="https://www.lucidchart.com/"/>
+  <id>https://www.lucidchart.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>An online tool for diagrams and flowcharts with team collaboration.</summary>
+</entry>
+<entry>
   <title>Memcached</title>
   <link href="https://memcached.org/"/>
   <id>https://memcached.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A distributed memory cache that speeds up sites by holding hot data in RAM.</summary>
+</entry>
+<entry>
+  <title>Micro</title>
+  <link href="https://micro-editor.github.io/"/>
+  <id>https://micro-editor.github.io/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A modern, intuitive terminal-based text editor with familiar shortcuts.</summary>
+</entry>
+<entry>
+  <title>Miro</title>
+  <link href="https://miro.com/"/>
+  <id>https://miro.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A real-time, infinite whiteboard for diagrams and brainstorming.</summary>
 </entry>
 <entry>
   <title>Mockaroo</title>
@@ -210,80 +273,17 @@
   <summary>Generates realistic fake test data (CSV, JSON, SQL) to your chosen schema.</summary>
 </entry>
 <entry>
-  <title>OnlineGDB</title>
-  <link href="https://www.onlinegdb.com/online_c_compiler"/>
-  <id>https://www.onlinegdb.com/online_c_compiler</id>
+  <title>myCompiler</title>
+  <link href="https://www.mycompiler.io/"/>
+  <id>https://www.mycompiler.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An online IDE that compiles and debugs C and many languages in the browser (gdb included).</summary>
+  <summary>An online IDE supporting many languages, with no install.</summary>
 </entry>
 <entry>
-  <title>Pants</title>
-  <link href="https://www.pantsbuild.org/"/>
-  <id>https://www.pantsbuild.org/</id>
+  <title>Neovim</title>
+  <link href="https://neovim.io/"/>
+  <id>https://neovim.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A build system that scales to large, multi-language monorepos (originated at Twitter).</summary>
-</entry>
-<entry>
-  <title>Password Generator</title>
-  <link href="https://danieldeev.github.io/password-generator/"/>
-  <id>https://danieldeev.github.io/password-generator/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A simple, security-focused password generator with adjustable length and character sets.</summary>
-</entry>
-<entry>
-  <title>RESP.app</title>
-  <link href="https://resp.app/"/>
-  <id>https://resp.app/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A GUI for Redis — view, edit and delete data in your instance.</summary>
-</entry>
-<entry>
-  <title>Scalastyle</title>
-  <link href="http://www.scalastyle.org/"/>
-  <id>http://www.scalastyle.org/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A linter that checks Scala source against formatting and style rules.</summary>
-</entry>
-<entry>
-  <title>Scoverage</title>
-  <link href="https://github.com/scoverage"/>
-  <id>https://github.com/scoverage</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A statement-based code-coverage tool for Scala, more precise than line-based coverage.</summary>
-</entry>
-<entry>
-  <title>Swagger</title>
-  <link href="https://swagger.io/"/>
-  <id>https://swagger.io/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An OpenAPI toolset to design, document and try RESTful APIs.</summary>
-</entry>
-<entry>
-  <title>Tools of the Trade</title>
-  <link href="https://github.com/cjbarber/ToolsOfTheTrade"/>
-  <id>https://github.com/cjbarber/ToolsOfTheTrade</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of tools used by companies on Hacker News.</summary>
-</entry>
-<entry>
-  <title>Wappalyzer</title>
-  <link href="https://www.wappalyzer.com/"/>
-  <id>https://www.wappalyzer.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Reveals which technologies (framework, server, analytics) a website runs on.</summary>
-</entry>
-<entry>
-  <title>web.dev</title>
-  <link href="https://web.dev/"/>
-  <id>https://web.dev/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Google’s guides and measurement tools for web quality — performance, accessibility, PWA.</summary>
-</entry>
-<entry>
-  <title>Website Grader</title>
-  <link href="https://website.grader.com/"/>
-  <id>https://website.grader.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A free tool that grades a site on performance, SEO, mobile and security.</summary>
+  <summary>A refactored Vim, modernised with plugin and Lua support.</summary>
 </entry>
 </feed>

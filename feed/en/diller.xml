@@ -42,6 +42,48 @@
   <summary>A topic-by-topic list of Scala libraries and tools. Unlike scattered search it shows functional and big-data libraries together.</summary>
 </entry>
 <entry>
+  <title>C#</title>
+  <link href="https://dotnet.microsoft.com/languages/csharp"/>
+  <id>https://dotnet.microsoft.com/languages/csharp</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Microsoft’s general-purpose language for the .NET platform.</summary>
+</entry>
+<entry>
+  <title>Clojure</title>
+  <link href="https://clojure.org/"/>
+  <id>https://clojure.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A modern Lisp dialect on the JVM, focused on immutability.</summary>
+</entry>
+<entry>
+  <title>Dart</title>
+  <link href="https://dart.dev/"/>
+  <id>https://dart.dev/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Google’s client-oriented language, the one beneath Flutter.</summary>
+</entry>
+<entry>
+  <title>Elixir</title>
+  <link href="https://elixir-lang.org/"/>
+  <id>https://elixir-lang.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A functional language on the Erlang VM, strong in scalability.</summary>
+</entry>
+<entry>
+  <title>Go</title>
+  <link href="https://golang.org/"/>
+  <id>https://golang.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Google’s simple, fast-compiling language strong in concurrency — its official site.</summary>
+</entry>
+<entry>
+  <title>Haskell</title>
+  <link href="https://www.haskell.org/"/>
+  <id>https://www.haskell.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A purely functional, statically typed programming language with lazy evaluation.</summary>
+</entry>
+<entry>
   <title>JMH</title>
   <link href="https://github.com/openjdk/jmh"/>
   <id>https://github.com/openjdk/jmh</id>
@@ -49,11 +91,60 @@
   <summary>An OpenJDK tool for microbenchmarking on the JVM that accounts for JIT effects that distort measurement. Unlike timing by hand it correctly handles traps like warmup and dead-code elimination.</summary>
 </entry>
 <entry>
+  <title>Julia</title>
+  <link href="https://julialang.org/"/>
+  <id>https://julialang.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A high-performance, open-source language for scientific computing.</summary>
+</entry>
+<entry>
+  <title>Kotlin</title>
+  <link href="https://kotlinlang.org/"/>
+  <id>https://kotlinlang.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A cross-platform language on the JVM, the preferred language for Android.</summary>
+</entry>
+<entry>
+  <title>Lua</title>
+  <link href="https://www.lua.org/"/>
+  <id>https://www.lua.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A lightweight, embeddable scripting language, common in games and embedded systems.</summary>
+</entry>
+<entry>
   <title>OpenJDK</title>
   <link href="https://openjdk.org/"/>
   <id>https://openjdk.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>The open-source reference implementation of the Java platform — where the language and JVM are developed. Unlike vendor distributions the standard itself is defined here.</summary>
+</entry>
+<entry>
+  <title>Perl</title>
+  <link href="https://www.perl.org/"/>
+  <id>https://www.perl.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A dynamic, mature language strong in text processing and system scripting.</summary>
+</entry>
+<entry>
+  <title>PHP</title>
+  <link href="https://www.php.net/"/>
+  <id>https://www.php.net/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>One of the most common server-side languages of the web — its official docs.</summary>
+</entry>
+<entry>
+  <title>R</title>
+  <link href="https://www.r-project.org/"/>
+  <id>https://www.r-project.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A language and environment designed for statistics and data analysis.</summary>
+</entry>
+<entry>
+  <title>Ruby</title>
+  <link href="https://www.ruby-lang.org/en/"/>
+  <id>https://www.ruby-lang.org/en/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A multi-paradigm language foregrounding readability and developer happiness.</summary>
 </entry>
 <entry>
   <title>Rust by Example</title>
@@ -75,6 +166,20 @@
   <id>https://github.com/rust-lang/rustlings</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>An exercise set teaching Rust by fixing small, broken snippets. Unlike reading-based resources it has you read and fix compiler errors by hand.</summary>
+</entry>
+<entry>
+  <title>Scala</title>
+  <link href="https://www.scala-lang.org/"/>
+  <id>https://www.scala-lang.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A language on the JVM uniting object-oriented and functional programming.</summary>
+</entry>
+<entry>
+  <title>Swift</title>
+  <link href="https://www.swift.org/"/>
+  <id>https://www.swift.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Apple’s safe, fast-compiled language, developed primarily for iOS.</summary>
 </entry>
 <entry>
   <title>The Async Book</title>
@@ -180,110 +285,5 @@
   <id>https://maven.apache.org/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>A tool doing dependency management and builds for Java with a standard project layout. Unlike collecting jars by hand it resolves dependencies from a central repository and defines a lifecycle.</summary>
-</entry>
-<entry>
-  <title>Awesome Compilers</title>
-  <link href="https://aalhour.com/awesome-compilers/"/>
-  <id>https://aalhour.com/awesome-compilers/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A collection of compiler, interpreter and runtime resources, with books, courses and open-source compilers listed separately.</summary>
-</entry>
-<entry>
-  <title>Awesome Java</title>
-  <link href="https://github.com/akullpp/awesome-java"/>
-  <id>https://github.com/akullpp/awesome-java</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A list organising Java libraries and frameworks by topic. Unlike a Maven Central search it is a curated, categorised and maintained starting map.</summary>
-</entry>
-<entry>
-  <title>Baeldung</title>
-  <link href="https://www.baeldung.com"/>
-  <id>https://www.baeldung.com</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The largest archive of worked, up-to-date tutorials for Java and Spring. Unlike the official docs it answers “how do I do this” with working code examples.</summary>
-</entry>
-<entry>
-  <title>C++ Üslup ve Teknik SSS</title>
-  <link href="https://www.stroustrup.com/bs_faq2.html"/>
-  <id>https://www.stroustrup.com/bs_faq2.html</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Stroustrup’s FAQ on C++ style and common mistakes — direct answers to “why should I do it this way”.</summary>
-</entry>
-<entry>
-  <title>C++11 SSS (Stroustrup)</title>
-  <link href="https://www.stroustrup.com/C++11FAQ.html"/>
-  <id>https://www.stroustrup.com/C++11FAQ.html</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The language’s creator explaining why each C++11 feature was added. Unlike a feature list, it gives the design rationale.</summary>
-</entry>
-<entry>
-  <title>Comprehensive Rust</title>
-  <link href="https://google.github.io/comprehensive-rust/"/>
-  <id>https://google.github.io/comprehensive-rust/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Google’s open four-day Rust course as slides + exercises. Unlike the book it is paced for a classroom and comes with embedded and concurrency modules.</summary>
-</entry>
-<entry>
-  <title>CppCon</title>
-  <link href="https://www.youtube.com/user/CppCon/videos?shelf_id=0&amp;view=0&amp;sort=dd"/>
-  <id>https://www.youtube.com/user/CppCon/videos?shelf_id=0&amp;view=0&amp;sort=dd</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Every talk from the annual C++ conference. Against tutorials it carries presentations from the people who write the standard — where you hear why a feature was designed as it was.</summary>
-</entry>
-<entry>
-  <title>Crafting Interpreters</title>
-  <link href="https://craftinginterpreters.com/"/>
-  <id>https://craftinginterpreters.com/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A free book that has you write a language twice — a tree-walking interpreter in Java, then a bytecode VM in C. One of the clearest treatments in the field.</summary>
-</entry>
-<entry>
-  <title>crates.io</title>
-  <link href="https://crates.io/"/>
-  <id>https://crates.io/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Rust’s official package registry — the hub for publishing libraries and pulling them as dependencies. Unlike general code search it shows the trustworthy source with version and download data.</summary>
-</entry>
-<entry>
-  <title>Dev.java · Learn</title>
-  <link href="https://dev.java/learn/"/>
-  <id>https://dev.java/learn/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Oracle’s current, official Java learning portal. Unlike the old Java Tutorials it is refreshed for modern versions and organised topic by topic.</summary>
-</entry>
-<entry>
-  <title>docs.rs</title>
-  <link href="https://docs.rs/"/>
-  <id>https://docs.rs/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A service that automatically builds and publishes the docs for every package on crates.io. Unlike each project’s own site it gathers the whole ecosystem’s docs in one format at one address.</summary>
-</entry>
-<entry>
-  <title>Gradle</title>
-  <link href="https://gradle.org/"/>
-  <id>https://gradle.org/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A scriptable, incremental build tool for Java and Android. Unlike Maven’s XML it writes build logic in real code (Kotlin/Groovy) and rebuilds only what changed.</summary>
-</entry>
-<entry>
-  <title>Guava</title>
-  <link href="https://github.com/google/guava"/>
-  <id>https://github.com/google/guava</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Google’s core utility library for Java — collections, caching, functional extras. Unlike filling the standard library’s gaps by hand it closes them in a tested way.</summary>
-</entry>
-<entry>
-  <title>Hibernate</title>
-  <link href="https://hibernate.org/"/>
-  <id>https://hibernate.org/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An ORM mapping Java objects to relational database rows. Unlike raw JDBC it largely abstracts the SQL and persists the object graph.</summary>
-</entry>
-<entry>
-  <title>Hitchhiker’s Guide to Python</title>
-  <link href="https://docs.python-guide.org/writing/style/"/>
-  <id>https://docs.python-guide.org/writing/style/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A community guide to Python style, project layout and tooling — the “how it is written” part the language reference leaves out.</summary>
 </entry>
 </feed>
