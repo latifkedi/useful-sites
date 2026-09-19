@@ -7,11 +7,39 @@
 <id>https://latifkedi.github.io/useful-sites/feed/veri.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Awesome Deep Learning</title>
+  <link href="https://github.com/ChristosChristofidis/awesome-deep-learning"/>
+  <id>https://github.com/ChristosChristofidis/awesome-deep-learning</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Derin öğrenme için ders, makale, çerçeve ve veri kümesi listesi. Genel ML listelerinden farkı sinir ağlarına ve modern mimarilere odaklanması.</summary>
+</entry>
+<entry>
+  <title>Awesome Public Datasets</title>
+  <link href="https://github.com/awesomedata/awesome-public-datasets"/>
+  <id>https://github.com/awesomedata/awesome-public-datasets</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Herkese açık, konu konu düzenlenmiş veri kümelerinin listesi. Rastgele veri aramaktan farkı temiz, kullanılabilir ve alanına göre gruplanmış kaynaklara götürmesi.</summary>
+</entry>
+<entry>
+  <title>Awesome Python Data Science</title>
+  <link href="https://github.com/krzjoa/awesome-python-data-science"/>
+  <id>https://github.com/krzjoa/awesome-python-data-science</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Python veri bilimi kütüphanelerini iş akışına göre (veri, model, görselleştirme) düzenleyen liste. PyPI aramasından farkı her aşama için seçilmiş araçları göstermesi.</summary>
+</entry>
+<entry>
   <title>Awesome R</title>
   <link href="https://github.com/qinwf/awesome-R"/>
   <id>https://github.com/qinwf/awesome-R</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>İstatistik dili R için paket ve kaynak listesi. CRAN’dan farkı görev bazında (görselleştirme, makine öğrenmesi) seçilmiş paketleri öne çıkarması.</summary>
+</entry>
+<entry>
+  <title>Awesome SE for ML</title>
+  <link href="https://github.com/SE-ML/awesome-seml"/>
+  <id>https://github.com/SE-ML/awesome-seml</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Deneyden üretime makine öğrenmesi mühendisliği kaynakları. Model listelerinden farkı test, dağıtım ve izleme gibi “ML’i ürün yapma” tarafına bakması.</summary>
 </entry>
 <entry>
   <title>Academic Torrents</title>
@@ -117,6 +145,13 @@
   <id>https://pandas.pydata.org/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>Tablo verisiyle çalışmanın standart kütüphanesi. Excel’den farkı, her dönüşümün tekrarlanabilir kod olması; bellek içi çalıştığı için veri RAM’e sığmak zorunda.</summary>
+</entry>
+<entry>
+  <title>Papers with Code</title>
+  <link href="https://paperswithcode.com/"/>
+  <id>https://paperswithcode.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Makine öğrenmesi makalelerini uygulama koduyla ve karşılaştırma tablolarıyla eşleştiren site. Salt makaleden farkı sonucun kodunu ve en iyi yöntem sıralamasını yanına koyması.</summary>
 </entry>
 <entry>
   <title>Plotly</title>
