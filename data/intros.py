@@ -7,6 +7,14 @@ area, which distinction matters. The point is to turn a list into a guide
 """
 
 INTROS = {
+    'mimari': (
+        'Yapı mimarisi alanı: bir yanda projeyi gördüğün yayınlar (ArchDaily, Dezeen, Divisare), bir '
+        'yanda onu çizdiğin araçlar. Araçlarda ayrım nettir — SketchUp hızlı kütle içindir, Rhino '
+        'serbest formu kaldırır, Revit ve Archicad ise BIM ile çizimi ve veriyi tek modelde birleştirir.',
+        'The building-architecture field: on one side the publications where you see the project '
+        '(ArchDaily, Dezeen, Divisare), on the other the tools you draw it with. Among the tools the '
+        'split is clear — SketchUp is for fast massing, Rhino handles free form, and Revit and Archicad '
+        'unite drawings and data in one BIM model.'),
     'korsan': (
         'Bu alan tek tek içerik sitelerini değil, iki şeyi toplar: nereye bakılacağını gösteren '
         'meta-merkezler (FMHY, topluluk wiki’leri) ve büyük ölçüde yasal, açık kaynak medya araç '

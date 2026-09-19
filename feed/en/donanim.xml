@@ -7,11 +7,39 @@
 <id>https://latifkedi.github.io/useful-sites/feed/en/donanim.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Awesome IoT</title>
+  <link href="https://github.com/HQarroum/awesome-iot"/>
+  <id>https://github.com/HQarroum/awesome-iot</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of hardware, protocols and platforms for the Internet of Things. Unlike general embedded lists it weights the connectivity and cloud side — MQTT, LoRa, device management.</summary>
+</entry>
+<entry>
+  <title>Awesome Open Hardware</title>
+  <link href="https://github.com/delftopenhardware/awesome-open-hardware"/>
+  <id>https://github.com/delftopenhardware/awesome-open-hardware</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of hardware projects with openly licensed designs. Unlike product catalogs it points to projects whose schematics and PCBs you can read and build on.</summary>
+</entry>
+<entry>
   <title>Awesome Raspberry Pi</title>
   <link href="https://github.com/thibmaek/awesome-raspberry-pi"/>
   <id>https://github.com/thibmaek/awesome-raspberry-pi</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A list of Raspberry Pi projects, operating systems and hardware add-ons. Unlike forum threads it is a tidy, categorised starting point.</summary>
+</entry>
+<entry>
+  <title>Awesome Robotic Tooling</title>
+  <link href="https://github.com/protontypes/awesome-robotic-tooling"/>
+  <id>https://github.com/protontypes/awesome-robotic-tooling</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of free and open tools for professional robotics development. Unlike general robotics lists it focuses on a production-grade toolchain — testing, logging, visualisation.</summary>
+</entry>
+<entry>
+  <title>Awesome Robotics</title>
+  <link href="https://github.com/Kiloreux/awesome-robotics"/>
+  <id>https://github.com/Kiloreux/awesome-robotics</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of libraries, simulators and learning resources for robotics. Unlike single-platform lists it maps the whole field from ROS to control theory.</summary>
 </entry>
 <entry>
   <title>5Vpld</title>
@@ -257,19 +285,5 @@
   <id>https://github.com/yuchung886886/ORCAS</id>
   <updated>2026-02-09T10:47:31Z</updated>
   <summary>A remote-controlled airsoft turret where embedded control, video streaming and mechanical design meet in one project — showing the integration problems finished products hide.</summary>
-</entry>
-<entry>
-  <title>Taret Süspansiyon Günlüğü</title>
-  <link href="https://www.youtube.com/watch?v=d6PXSTV486c"/>
-  <id>https://www.youtube.com/watch?v=d6PXSTV486c</id>
-  <updated>2026-02-09T10:42:25Z</updated>
-  <summary>A build diary for a homemade turret with the failed attempts left in — what a real design process looks like, unlike a polished tutorial.</summary>
-</entry>
-<entry>
-  <title>GrabCAD · Mini Tank</title>
-  <link href="https://grabcad.com/library/robotic-mini-tank-1"/>
-  <id>https://grabcad.com/library/robotic-mini-tank-1</id>
-  <updated>2026-02-07T17:14:40Z</updated>
-  <summary>A shared tracked robot platform model — a way to start from a working design instead of drawing chassis geometry from scratch.</summary>
 </entry>
 </feed>

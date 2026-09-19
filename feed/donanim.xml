@@ -7,11 +7,39 @@
 <id>https://latifkedi.github.io/useful-sites/feed/donanim.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Awesome IoT</title>
+  <link href="https://github.com/HQarroum/awesome-iot"/>
+  <id>https://github.com/HQarroum/awesome-iot</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Nesnelerin İnterneti için donanım, protokol ve platform listesi. Genel gömülü listelerden farkı bağlantı ve bulut tarafına — MQTT, LoRa, cihaz yönetimine — ağırlık vermesi.</summary>
+</entry>
+<entry>
+  <title>Awesome Open Hardware</title>
+  <link href="https://github.com/delftopenhardware/awesome-open-hardware"/>
+  <id>https://github.com/delftopenhardware/awesome-open-hardware</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Tasarımı açık lisanslı donanım projelerinin listesi. Ürün kataloglarından farkı şemasını ve PCB’sini okuyup üstüne inşa edebileceğin projelere götürmesi.</summary>
+</entry>
+<entry>
   <title>Awesome Raspberry Pi</title>
   <link href="https://github.com/thibmaek/awesome-raspberry-pi"/>
   <id>https://github.com/thibmaek/awesome-raspberry-pi</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Raspberry Pi projeleri, işletim sistemleri ve donanım eklentileri listesi. Forum başlıklarından farkı derli toplu, kategorilenmiş bir başlangıç noktası olması.</summary>
+</entry>
+<entry>
+  <title>Awesome Robotic Tooling</title>
+  <link href="https://github.com/protontypes/awesome-robotic-tooling"/>
+  <id>https://github.com/protontypes/awesome-robotic-tooling</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Profesyonel robotik geliştirme için ücretsiz ve açık araçların listesi. Genel robotik listelerinden farkı üretim kalitesinde araç zincirine — test, kayıt, görselleştirmeye — odaklanması.</summary>
+</entry>
+<entry>
+  <title>Awesome Robotics</title>
+  <link href="https://github.com/Kiloreux/awesome-robotics"/>
+  <id>https://github.com/Kiloreux/awesome-robotics</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Robotik için kütüphane, simülatör ve öğrenme kaynağı listesi. Tek platforma bağlı listelerden farkı ROS’tan kontrol teorisine kadar alanın bütününü haritalaması.</summary>
 </entry>
 <entry>
   <title>5Vpld</title>
@@ -257,19 +285,5 @@
   <id>https://github.com/yuchung886886/ORCAS</id>
   <updated>2026-02-09T10:47:31Z</updated>
   <summary>Uzaktan kumandalı airsoft taret sistemi; gömülü denetim, video akışı ve mekanik tasarım aynı projede birleşiyor. Bitmiş ürünlerin gizlediği entegrasyon sorunlarını görüyorsun.</summary>
-</entry>
-<entry>
-  <title>Taret Süspansiyon Günlüğü</title>
-  <link href="https://www.youtube.com/watch?v=d6PXSTV486c"/>
-  <id>https://www.youtube.com/watch?v=d6PXSTV486c</id>
-  <updated>2026-02-09T10:42:25Z</updated>
-  <summary>Ev yapımı taret projesinin geliştirme günlüğü; başarısız denemeler kesilmemiş. Cilalı öğreticilerin aksine gerçek tasarım süreci böyle görünüyor.</summary>
-</entry>
-<entry>
-  <title>GrabCAD · Mini Tank</title>
-  <link href="https://grabcad.com/library/robotic-mini-tank-1"/>
-  <id>https://grabcad.com/library/robotic-mini-tank-1</id>
-  <updated>2026-02-07T17:14:40Z</updated>
-  <summary>Paylaşılmış paletli robot platformu modeli. Şasi geometrisini sıfırdan çizmek yerine çalışan bir tasarımdan başlamak için.</summary>
 </entry>
 </feed>
