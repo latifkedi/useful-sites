@@ -5,7 +5,21 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/ag.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/ag.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/ag.xml</id>
-<updated>2026-09-10T20:53:20Z</updated>
+<updated>2026-09-18T00:00:00Z</updated>
+<entry>
+  <title>Awesome Scapy</title>
+  <link href="https://github.com/secdev/awesome-scapy"/>
+  <id>https://github.com/secdev/awesome-scapy</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Python paket işleme kütüphanesi Scapy için araç ve örnek listesi. Genel ağ listelerinden farkı paketi elle kurup gönderme (packet crafting) etrafında toplanması.</summary>
+</entry>
+<entry>
+  <title>Linux Journey</title>
+  <link href="https://linuxjourney.com"/>
+  <id>https://linuxjourney.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Linux’u sıfırdan, sıralı ve alıştırmalı biçimde öğreten ücretsiz site. Man sayfalarından farkı kavramları yeni başlayana göre, mantık sırasıyla anlatması.</summary>
+</entry>
 <entry>
   <title>Lokinet</title>
   <link href="https://lokinet.org/"/>
@@ -131,6 +145,13 @@
   <id>https://mywiki.wooledge.org/BashGuide</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>İnternetteki kötü Bash örneklerine karşı düzeltici bir rehber; tırnaklama ve sözcük bölme gibi en sık yapılan hataları merkeze alıyor.</summary>
+</entry>
+<entry>
+  <title>Brendan Gregg</title>
+  <link href="https://www.brendangregg.com/"/>
+  <id>https://www.brendangregg.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Linux performans ve gözlemlenebilirliğinde başvurulan uzmanın blogu ve araçları. Genel kılavuzlardan farkı çekirdek düzeyinde ölçüm ve alev grafiği (flame graph) yöntemlerini vermesi.</summary>
 </entry>
 <entry>
   <title>Command-line Fu</title>
@@ -264,26 +285,5 @@
   <id>https://www.youtube.com/watch?v=fQbBPa0ADvs</id>
   <updated>2026-04-06T11:38:30Z</updated>
   <summary>OSI katmanlarından yönlendirmeye kadar ağ kavramlarını tam kurs formatında işliyor. Sertifika çalışmasına başlamadan önce zemin kurmak için.</summary>
-</entry>
-<entry>
-  <title>20 Dakikada Tüm Ağ Kavramları</title>
-  <link href="https://www.youtube.com/watch?v=xj_GjnD4uyI"/>
-  <id>https://www.youtube.com/watch?v=xj_GjnD4uyI</id>
-  <updated>2026-04-06T11:26:37Z</updated>
-  <summary>Ağ terimlerini hızla tarayan özet. Öğrenmek için değil; bildiğini sandığın yerlerdeki boşlukları yirmi dakikada bulmak için.</summary>
-</entry>
-<entry>
-  <title>Cisco Networking Academy</title>
-  <link href="https://www.netacad.com/"/>
-  <id>https://www.netacad.com/</id>
-  <updated>2026-02-16T13:37:41Z</updated>
-  <summary>Cisco’nun resmî ağ müfredatı; CCNA’ya hazırlayan derslerin bir kısmı ücretsiz. Packet Tracer laboratuvarlarıyla teoriyi topoloji kurarak sınıyorsun.</summary>
-</entry>
-<entry>
-  <title>NIST Kriptografi</title>
-  <link href="https://www.nist.gov/cryptography"/>
-  <id>https://www.nist.gov/cryptography</id>
-  <updated>2025-12-29T06:59:40Z</updated>
-  <summary>Kriptografi standartlarının kaynağı; hangi algoritmanın hâlâ onaylı olduğunu buradan öğrenirsin. Kuantum sonrası algoritma seçimleri de burada yayımlandı.</summary>
 </entry>
 </feed>

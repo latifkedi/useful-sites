@@ -5,7 +5,28 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/en/veritabani.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/en/veritabani.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/veritabani.xml</id>
-<updated>2026-08-21T20:53:20Z</updated>
+<updated>2026-09-18T00:00:00Z</updated>
+<entry>
+  <title>Awesome DB Tools</title>
+  <link href="https://github.com/mgramin/awesome-db-tools"/>
+  <id>https://github.com/mgramin/awesome-db-tools</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of tools that make working with databases easier (clients, migration, schema). Unlike single-database lists it looks at engine-agnostic helper tools.</summary>
+</entry>
+<entry>
+  <title>Awesome MongoDB</title>
+  <link href="https://github.com/ramnes/awesome-mongodb"/>
+  <id>https://github.com/ramnes/awesome-mongodb</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of libraries and tools for MongoDB, the document-based NoSQL database. Unlike general NoSQL lists it focuses on one product’s driver and ODM ecosystem.</summary>
+</entry>
+<entry>
+  <title>Awesome Postgres</title>
+  <link href="https://github.com/dhamaniasad/awesome-postgres"/>
+  <id>https://github.com/dhamaniasad/awesome-postgres</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of extensions, tools and resources for PostgreSQL. Unlike the official docs it shows the ecosystem’s extensions and management tools together.</summary>
+</entry>
 <entry>
   <title>Turso</title>
   <link href="https://turso.tech/"/>
@@ -21,6 +42,13 @@
   <summary>A free desktop client for Oracle databases combining querying, schema browsing and PL/SQL debugging — the de facto tool if you work with Oracle.</summary>
 </entry>
 <entry>
+  <title>PocketBase</title>
+  <link href="https://pocketbase.io/"/>
+  <id>https://pocketbase.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A backend shipping as one Go file, providing SQLite, auth and a real-time API. Unlike heavy stacks it reduces the server to a single executable.</summary>
+</entry>
+<entry>
   <title>SQLite</title>
   <link href="https://sqlite.org/"/>
   <id>https://sqlite.org/</id>
@@ -33,6 +61,13 @@
   <id>https://sqlzoo.net/wiki/SQL_Tutorial</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>An exercise set that teaches SQL by making you write queries in the browser, each section over its own dataset. That is the difference from tutorials needing an install: your first `SELECT` requires no database.</summary>
+</entry>
+<entry>
+  <title>Supabase</title>
+  <link href="https://supabase.com/"/>
+  <id>https://supabase.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>An open-source Firebase alternative adding auth, APIs and storage on top of Postgres. Unlike Firebase it stands on relational Postgres and can be self-hosted.</summary>
 </entry>
 <entry>
   <title>SQL Nasıl Öğrenilir</title>

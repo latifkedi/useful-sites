@@ -7,11 +7,25 @@
 <id>https://latifkedi.github.io/useful-sites/feed/devops.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Awesome Kubernetes</title>
+  <link href="https://github.com/ramitsurana/awesome-kubernetes"/>
+  <id>https://github.com/ramitsurana/awesome-kubernetes</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Kubernetes ekosistemi için araç, öğretici ve üretim deneyimi listesi. Resmî dokümandan farkı topluluk araçlarını ve gerçek dünya kalıplarını bir arada toplaması.</summary>
+</entry>
+<entry>
   <title>Awesome Nix</title>
   <link href="https://github.com/nix-community/awesome-nix"/>
   <id>https://github.com/nix-community/awesome-nix</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Nix paket yöneticisi ve NixOS için araç, kütüphane ve rehber listesi. Genel Linux listelerinden farkı yeniden üretilebilir, bildirimsel yapılandırmaya odaklanması.</summary>
+</entry>
+<entry>
+  <title>Cloudflare</title>
+  <link href="https://www.cloudflare.com/"/>
+  <id>https://www.cloudflare.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>CDN, DNS, DDoS koruması ve kenar hesaplamayı tek platformda sunan altyapı. Ayrı hizmetlerden farkı bunları tek panelde birleştirip cömert bir ücretsiz katman vermesi.</summary>
 </entry>
 <entry>
   <title>CNCF Sertifikasyon</title>
@@ -271,19 +285,5 @@
   <id>https://grafana.com/</id>
   <updated>2026-04-20T11:51:43Z</updated>
   <summary>Prometheus, Loki, PostgreSQL ve onlarca kaynağı aynı panoda birleştiriyor. Veri kaynağından bağımsız olması, izleme yığınının ortak yüzü hâline gelmesini sağladı.</summary>
-</entry>
-<entry>
-  <title>Neko</title>
-  <link href="https://github.com/m1k1o/neko"/>
-  <id>https://github.com/m1k1o/neko</id>
-  <updated>2026-04-20T11:45:56Z</updated>
-  <summary>Kapsayıcı içinde tarayıcı çalıştırıp WebRTC ile paylaşıyor; birden çok kişi aynı oturumu kontrol edebiliyor. Birlikte izleme ve izole gezinme için kullanılıyor.</summary>
-</entry>
-<entry>
-  <title>Gource</title>
-  <link href="https://gource.io/"/>
-  <id>https://gource.io/</id>
-  <updated>2026-04-19T18:55:30Z</updated>
-  <summary>Depo geçmişini büyüyen bir ağaç animasyonu olarak çiziyor; kimin nereye dokunduğu görünür oluyor. Teknik analiz aracı değil, proje tarihini anlatmak için.</summary>
 </entry>
 </feed>

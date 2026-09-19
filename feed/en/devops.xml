@@ -7,11 +7,25 @@
 <id>https://latifkedi.github.io/useful-sites/feed/en/devops.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Awesome Kubernetes</title>
+  <link href="https://github.com/ramitsurana/awesome-kubernetes"/>
+  <id>https://github.com/ramitsurana/awesome-kubernetes</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of tools, tutorials and production experience for the Kubernetes ecosystem. Unlike the official docs it gathers community tools and real-world patterns together.</summary>
+</entry>
+<entry>
   <title>Awesome Nix</title>
   <link href="https://github.com/nix-community/awesome-nix"/>
   <id>https://github.com/nix-community/awesome-nix</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A list of tools, libraries and guides for the Nix package manager and NixOS. Unlike general Linux lists it focuses on reproducible, declarative configuration.</summary>
+</entry>
+<entry>
+  <title>Cloudflare</title>
+  <link href="https://www.cloudflare.com/"/>
+  <id>https://www.cloudflare.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Infrastructure offering CDN, DNS, DDoS protection and edge computing in one platform. Unlike separate services it unites them in one dashboard with a generous free tier.</summary>
 </entry>
 <entry>
   <title>CNCF Sertifikasyon</title>
@@ -271,19 +285,5 @@
   <id>https://grafana.com/</id>
   <updated>2026-04-20T11:51:43Z</updated>
   <summary>Unifies Prometheus, Loki, PostgreSQL and dozens of sources on one dashboard. Being data-source agnostic is how it became the shared face of monitoring stacks.</summary>
-</entry>
-<entry>
-  <title>Neko</title>
-  <link href="https://github.com/m1k1o/neko"/>
-  <id>https://github.com/m1k1o/neko</id>
-  <updated>2026-04-20T11:45:56Z</updated>
-  <summary>Runs a browser in a container and shares it over WebRTC, with several people able to control one session. Used for watch-together and for isolated browsing.</summary>
-</entry>
-<entry>
-  <title>Gource</title>
-  <link href="https://gource.io/"/>
-  <id>https://gource.io/</id>
-  <updated>2026-04-19T18:55:30Z</updated>
-  <summary>Renders repository history as a growing animated tree where you see who touched what. Not an analysis tool — a way to narrate a project’s history.</summary>
 </entry>
 </feed>

@@ -5,7 +5,21 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/en/ag.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/ag.xml</id>
-<updated>2026-09-10T20:53:20Z</updated>
+<updated>2026-09-18T00:00:00Z</updated>
+<entry>
+  <title>Awesome Scapy</title>
+  <link href="https://github.com/secdev/awesome-scapy"/>
+  <id>https://github.com/secdev/awesome-scapy</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of tools and examples for Scapy, the Python packet-manipulation library. Unlike general network lists it centres on crafting and sending packets by hand.</summary>
+</entry>
+<entry>
+  <title>Linux Journey</title>
+  <link href="https://linuxjourney.com"/>
+  <id>https://linuxjourney.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A free site teaching Linux from scratch, in order and with exercises. Unlike man pages it explains concepts for a beginner, in a logical sequence.</summary>
+</entry>
 <entry>
   <title>Lokinet</title>
   <link href="https://lokinet.org/"/>
@@ -131,6 +145,13 @@
   <id>https://mywiki.wooledge.org/BashGuide</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>A corrective to the bad Bash examples circulating online, centred on the most common mistakes like quoting and word splitting.</summary>
+</entry>
+<entry>
+  <title>Brendan Gregg</title>
+  <link href="https://www.brendangregg.com/"/>
+  <id>https://www.brendangregg.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The blog and tools of the go-to expert on Linux performance and observability. Unlike general guides it gives kernel-level measurement and flame-graph methods.</summary>
 </entry>
 <entry>
   <title>Command-line Fu</title>
@@ -264,26 +285,5 @@
   <id>https://www.youtube.com/watch?v=fQbBPa0ADvs</id>
   <updated>2026-04-06T11:38:30Z</updated>
   <summary>Works networking concepts from the OSI layers through routing in full-course format — for laying the ground before certification study.</summary>
-</entry>
-<entry>
-  <title>20 Dakikada Tüm Ağ Kavramları</title>
-  <link href="https://www.youtube.com/watch?v=xj_GjnD4uyI"/>
-  <id>https://www.youtube.com/watch?v=xj_GjnD4uyI</id>
-  <updated>2026-04-06T11:26:37Z</updated>
-  <summary>A rapid sweep of networking terminology. Not for learning, but for finding in twenty minutes the gaps in what you assumed you knew.</summary>
-</entry>
-<entry>
-  <title>Cisco Networking Academy</title>
-  <link href="https://www.netacad.com/"/>
-  <id>https://www.netacad.com/</id>
-  <updated>2026-02-16T13:37:41Z</updated>
-  <summary>Cisco’s official networking curriculum, with part of the CCNA track free. Packet Tracer labs let you test the theory by building topologies.</summary>
-</entry>
-<entry>
-  <title>NIST Kriptografi</title>
-  <link href="https://www.nist.gov/cryptography"/>
-  <id>https://www.nist.gov/cryptography</id>
-  <updated>2025-12-29T06:59:40Z</updated>
-  <summary>The source of cryptographic standards, where you check which algorithms remain approved. The post-quantum algorithm selections were published here too.</summary>
 </entry>
 </feed>
