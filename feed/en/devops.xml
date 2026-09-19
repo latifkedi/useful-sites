@@ -14,6 +14,13 @@
   <summary>A list of ready actions for GitHub Actions, automating your workflow.</summary>
 </entry>
 <entry>
+  <title>Awesome Ansible</title>
+  <link href="https://github.com/ansible-community/awesome-ansible"/>
+  <id>https://github.com/ansible-community/awesome-ansible</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of roles and resources for Ansible, the Python-based IT configuration tool.</summary>
+</entry>
+<entry>
   <title>Awesome Backstage</title>
   <link href="https://github.com/shano/awesome-backstage"/>
   <id>https://github.com/shano/awesome-backstage</id>
@@ -278,12 +285,5 @@
   <id>https://kafka.apache.org/42/getting-started/introduction/</id>
   <updated>2026-04-20T13:01:27Z</updated>
   <summary>Retains messages after consumption, with consumers carrying their own offsets so they can replay history. That durability is the real split from classic queues.</summary>
-</entry>
-<entry>
-  <title>RabbitMQ Öğreticileri</title>
-  <link href="https://www.rabbitmq.com/tutorials"/>
-  <id>https://www.rabbitmq.com/tutorials</id>
-  <updated>2026-04-20T13:01:27Z</updated>
-  <summary>The official six-step series on queue patterns — work queues, pub/sub, routing, RPC. Kafka is for event streaming; this is for task distribution.</summary>
 </entry>
 </feed>

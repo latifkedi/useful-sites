@@ -7,11 +7,32 @@
 <id>https://latifkedi.github.io/useful-sites/feed/en/yz_altyapi.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Awesome Claude Code</title>
+  <link href="https://github.com/hesreallyhim/awesome-claude-code"/>
+  <id>https://github.com/hesreallyhim/awesome-claude-code</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A resource list for Claude Code, Anthropic’s terminal-based coding assistant.</summary>
+</entry>
+<entry>
+  <title>Awesome Copilot Agents</title>
+  <link href="https://github.com/Code-and-Sorts/awesome-copilot-agents"/>
+  <id>https://github.com/Code-and-Sorts/awesome-copilot-agents</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A resource list of agents for Copilot, GitHub’s AI pair-programming assistant.</summary>
+</entry>
+<entry>
   <title>Awesome Firebase Genkit</title>
   <link href="https://github.com/xavidop/awesome-firebase-genkit"/>
   <id>https://github.com/xavidop/awesome-firebase-genkit</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A resource list for Genkit, the open-source framework for building AI-powered features.</summary>
+</entry>
+<entry>
+  <title>Awesome Gemini CLI</title>
+  <link href="https://github.com/Piebald-AI/awesome-gemini-cli"/>
+  <id>https://github.com/Piebald-AI/awesome-gemini-cli</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A resource list for Gemini CLI, Google’s terminal-based coding assistant.</summary>
 </entry>
 <entry>
   <title>Bernstein</title>
@@ -264,26 +285,5 @@
   <id>https://protectai.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>Scans model files for malicious payloads. Because pickle deserialisation can execute arbitrary code, a downloaded checkpoint is a real attack surface. Protect AI joined Palo Alto Networks in 2025; the product now lives under the Prisma AIRS umbrella.</summary>
-</entry>
-<entry>
-  <title>Prompt Engineering Guide</title>
-  <link href="https://www.promptingguide.ai/"/>
-  <id>https://www.promptingguide.ai/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A guide collecting prompt engineering techniques with academic citations: chain of thought, few-shot, RAG. Against blog posts each technique carries a paper reference, which separates claim from finding.</summary>
-</entry>
-<entry>
-  <title>Prompt Security</title>
-  <link href="https://www.prompt.security/"/>
-  <id>https://www.prompt.security/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Surfaces which AI tools employees send what data to, and blocks by policy. Aimed at organisations that need to measure shadow AI use.</summary>
-</entry>
-<entry>
-  <title>Promptfoo</title>
-  <link href="https://www.promptfoo.dev/"/>
-  <id>https://www.promptfoo.dev/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Runs prompts and models side by side against a test set declared in YAML. It catches output regressions in a CI step when a model version changes.</summary>
 </entry>
 </feed>

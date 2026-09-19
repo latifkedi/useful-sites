@@ -7,6 +7,13 @@
 <id>https://latifkedi.github.io/useful-sites/feed/en/guvenlik.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Awesome CAPTCHA</title>
+  <link href="https://github.com/ZYSzys/awesome-captcha"/>
+  <id>https://github.com/ZYSzys/awesome-captcha</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of CAPTCHA types and libraries used to tell humans from bots.</summary>
+</entry>
+<entry>
   <title>Awesome Crypto Papers</title>
   <link href="https://github.com/pFarb/awesome-crypto-papers"/>
   <id>https://github.com/pFarb/awesome-crypto-papers</id>
@@ -278,12 +285,5 @@
   <id>https://github.com/nomi-sec/PoC-in-GitHub</id>
   <updated>2026-09-10T20:53:20Z</updated>
   <summary>A list that automatically harvests CVE proof-of-concept repositories from GitHub and updates daily. Against Trickest CVE it scans GitHub alone: for each vulnerability it states “this repo was published on this date” — the fastest route to a PoC (its README warns of malware).</summary>
-</entry>
-<entry>
-  <title>Snoop</title>
-  <link href="https://github.com/snooppr/snoop"/>
-  <id>https://github.com/snooppr/snoop</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>A username hunter that searches one handle across hundreds of sites. Unlike tools such as Sherlock it weights the CIS/Russian-language web: it covers the regional platforms that western-focused tools miss.</summary>
 </entry>
 </feed>
