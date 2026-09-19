@@ -7,6 +7,13 @@
 <id>https://latifkedi.github.io/useful-sites/feed/en/guvenlik.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Awesome Crypto Papers</title>
+  <link href="https://github.com/pFarb/awesome-crypto-papers"/>
+  <id>https://github.com/pFarb/awesome-crypto-papers</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of theory-basics papers on cryptography for non-cryptographers.</summary>
+</entry>
+<entry>
   <title>Awesome CTF</title>
   <link href="https://github.com/apsdehal/awesome-ctf"/>
   <id>https://github.com/apsdehal/awesome-ctf</id>
@@ -84,11 +91,32 @@
   <summary>Google’s “full of holes” codelab teaching web application flaws. Unlike pure theory it has you find each flaw and both exploit and patch it.</summary>
 </entry>
 <entry>
+  <title>KeePass</title>
+  <link href="https://keepass.info/"/>
+  <id>https://keepass.info/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>An open-source password manager that keeps passwords in a locally encrypted vault.</summary>
+</entry>
+<entry>
   <title>LabEx Cybersecurity Labs</title>
   <link href="https://labex.io/learn/cybersecurity"/>
   <id>https://labex.io/learn/cybersecurity</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Hands-on, in-browser labs covering penetration testing and web security.</summary>
+</entry>
+<entry>
+  <title>Malwarebytes</title>
+  <link href="https://www.malwarebytes.com/"/>
+  <id>https://www.malwarebytes.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Anti-malware protection that detects and removes malicious software.</summary>
+</entry>
+<entry>
+  <title>OpenVPN</title>
+  <link href="https://openvpn.net/"/>
+  <id>https://openvpn.net/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A protocol and software providing flexible, open-source VPN solutions.</summary>
 </entry>
 <entry>
   <title>OWASP Juice Shop</title>
@@ -103,6 +131,27 @@
   <id>https://owasp.org/www-project-vulnerable-web-applications-directory/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>OWASP’s directory of other deliberately vulnerable web apps for training.</summary>
+</entry>
+<entry>
+  <title>Tor</title>
+  <link href="https://www.torproject.org/"/>
+  <id>https://www.torproject.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A free network and browser that anonymises traffic across volunteer nodes.</summary>
+</entry>
+<entry>
+  <title>uBlock Origin</title>
+  <link href="https://github.com/gorhill/uBlock"/>
+  <id>https://github.com/gorhill/uBlock</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>An efficient, lightweight ad/tracker blocker for Chromium and Firefox.</summary>
+</entry>
+<entry>
+  <title>Windows 10/11 Privacy Guide</title>
+  <link href="https://github.com/adolfintel/Windows10-Privacy"/>
+  <id>https://github.com/adolfintel/Windows10-Privacy</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A detailed privacy guide on step-by-step reducing data collection in Windows.</summary>
 </entry>
 <entry>
   <title>Atypical OSINT Guide</title>
@@ -236,54 +285,5 @@
   <id>https://github.com/mthcht/ThreatIntel-Reports</id>
   <updated>2026-09-10T20:53:20Z</updated>
   <summary>A repository that makes the content extracted from thousands of threat-intelligence reports searchable. Unlike the reports themselves it searches inside them: you enter a tool or APT-group name and it lists every report that mentions it at once.</summary>
-</entry>
-<entry>
-  <title>Trickest CVE</title>
-  <link href="https://github.com/trickest/cve"/>
-  <id>https://github.com/trickest/cve</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>A repository that automatically gathers and keeps current every known CVE, with links to proof-of-concept code where it exists. Unlike official databases like the NVD it is exploit-focused: if you want to know where a vulnerability’s working code lives, it points straight to it.</summary>
-</entry>
-<entry>
-  <title>TweetFeed</title>
-  <link href="https://tweetfeed.live/"/>
-  <id>https://tweetfeed.live/</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>A live IOC feed that collects malicious URLs, domains, IPs and hashes shared by the infosec community on Twitter/X, served as CSV/JSON/RSS/API. Unlike commercial threat feeds its source is open social posts and it is free: it turns researcher observations into real-time, machine-readable data.</summary>
-</entry>
-<entry>
-  <title>CREST</title>
-  <link href="https://www.crest-approved.org/"/>
-  <id>https://www.crest-approved.org/</id>
-  <updated>2026-08-26T20:53:20Z</updated>
-  <summary>A UK-based accreditation body certifying both individuals and penetration testing firms. That organisational accreditation is what sets it apart: UK public sector tenders frequently require a CREST-approved supplier.</summary>
-</entry>
-<entry>
-  <title>Dark Vortex</title>
-  <link href="https://0xdarkvortex.dev/"/>
-  <id>https://0xdarkvortex.dev/</id>
-  <updated>2026-08-26T20:53:20Z</updated>
-  <summary>Advanced courses on malware development and offensive tooling. Unlike penetration testing training it goes down to evasion and implant development — aimed at red team tool developers rather than at anyone collecting certificates.</summary>
-</entry>
-<entry>
-  <title>DRI International</title>
-  <link href="https://drii.org/"/>
-  <id>https://drii.org/</id>
-  <updated>2026-08-26T20:53:20Z</updated>
-  <summary>The certification body for business continuity and disaster recovery. Unlike security certifications it is concerned with disruption rather than attack — fire, flood and supply chain failure belong to the same plan.</summary>
-</entry>
-<entry>
-  <title>EC-Council</title>
-  <link href="https://www.eccouncil.org/"/>
-  <id>https://www.eccouncil.org/</id>
-  <updated>2026-08-26T20:53:20Z</updated>
-  <summary>The body behind CEH. Name recognition is high but reputation is contested: the exam is multiple-choice and widely criticised for not measuring practical skill. It works for getting past HR filters; as evidence of technical competence, OSCP is preferred.</summary>
-</entry>
-<entry>
-  <title>GIAC</title>
-  <link href="https://www.giac.org/"/>
-  <id>https://www.giac.org/</id>
-  <updated>2026-08-26T20:53:20Z</updated>
-  <summary>The examination arm of SANS training, with over fifty certificates — the broadest catalogue in the field. What separates it is open-book exams that go deep technically; the price is that these are the most expensive certifications around, rarely taken without an employer paying.</summary>
 </entry>
 </feed>

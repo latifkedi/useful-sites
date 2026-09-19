@@ -7,11 +7,46 @@
 <id>https://latifkedi.github.io/useful-sites/feed/veri.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Awesome Core ML Models</title>
+  <link href="https://github.com/likedan/Awesome-CoreML-Models"/>
+  <id>https://github.com/likedan/Awesome-CoreML-Models</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Apple’ın Core ML çerçevesi için hazır makine öğrenmesi modelleri listesi.</summary>
+</entry>
+<entry>
   <title>Awesome Deep Learning</title>
   <link href="https://github.com/ChristosChristofidis/awesome-deep-learning"/>
   <id>https://github.com/ChristosChristofidis/awesome-deep-learning</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Derin öğrenme için ders, makale, çerçeve ve veri kümesi listesi. Genel ML listelerinden farkı sinir ağlarına ve modern mimarilere odaklanması.</summary>
+</entry>
+<entry>
+  <title>Awesome Deep Learning Papers</title>
+  <link href="https://github.com/terryum/awesome-deep-learning-papers"/>
+  <id>https://github.com/terryum/awesome-deep-learning-papers</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>En çok atıf alan derin öğrenme makalelerini derleyen liste.</summary>
+</entry>
+<entry>
+  <title>Awesome H2O</title>
+  <link href="https://github.com/h2oai/awesome-h2o"/>
+  <id>https://github.com/h2oai/awesome-h2o</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Açık kaynak dağıtık makine öğrenmesi platformu H2O için kaynak listesi.</summary>
+</entry>
+<entry>
+  <title>Awesome JAX</title>
+  <link href="https://github.com/n2cholas/awesome-jax"/>
+  <id>https://github.com/n2cholas/awesome-jax</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Otomatik türev ve XLA derlemesi sunan JAX için kaynak listesi.</summary>
+</entry>
+<entry>
+  <title>Awesome NLG</title>
+  <link href="https://github.com/accelerated-text/awesome-nlg"/>
+  <id>https://github.com/accelerated-text/awesome-nlg</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Veriden veya diyalogdan metin üretimi (doğal dil üretimi) için kaynak listesi.</summary>
 </entry>
 <entry>
   <title>Awesome Public Datasets</title>
@@ -28,6 +63,13 @@
   <summary>Python veri bilimi kütüphanelerini iş akışına göre (veri, model, görselleştirme) düzenleyen liste. PyPI aramasından farkı her aşama için seçilmiş araçları göstermesi.</summary>
 </entry>
 <entry>
+  <title>Awesome Question Answering</title>
+  <link href="https://github.com/seriousran/awesome-qa"/>
+  <id>https://github.com/seriousran/awesome-qa</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Doğal dilde soru sorma ve yanıtlama (QA) için kaynak listesi.</summary>
+</entry>
+<entry>
   <title>Awesome R</title>
   <link href="https://github.com/qinwf/awesome-R"/>
   <id>https://github.com/qinwf/awesome-R</id>
@@ -40,6 +82,13 @@
   <id>https://github.com/SE-ML/awesome-seml</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Deneyden üretime makine öğrenmesi mühendisliği kaynakları. Model listelerinden farkı test, dağıtım ve izleme gibi “ML’i ürün yapma” tarafına bakması.</summary>
+</entry>
+<entry>
+  <title>Awesome TensorFlow</title>
+  <link href="https://github.com/jtoy/awesome-tensorflow"/>
+  <id>https://github.com/jtoy/awesome-tensorflow</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Makine zekâsı kütüphanesi TensorFlow için kaynak ve model listesi.</summary>
 </entry>
 <entry>
   <title>Academic Torrents</title>
@@ -236,47 +285,5 @@
   <id>https://www.kaggle.com/competitions/arc-prize-2026-paper-track</id>
   <updated>2026-07-21T07:10:21Z</updated>
   <summary>Soyut akıl yürütme üzerine yarışma; görevleri insanın kolay, modellerin zor bulduğu biçimde tasarlanmış. Ölçekleme yerine yeni yaklaşım gerektiriyor.</summary>
-</entry>
-<entry>
-  <title>LLMs from Scratch</title>
-  <link href="https://github.com/rasbt/LLMs-from-scratch"/>
-  <id>https://github.com/rasbt/LLMs-from-scratch</id>
-  <updated>2026-05-20T03:10:13Z</updated>
-  <summary>Bir GPT’yi PyTorch ile sıfırdan yazdıran kitap deposu: tokenizer, dikkat mekanizması, eğitim döngüsü ve ince ayar. Kütüphane çağırmak yerine mekanizmayı kurduruyor.</summary>
-</entry>
-<entry>
-  <title>Google Dataset Search</title>
-  <link href="https://datasetsearch.research.google.com/"/>
-  <id>https://datasetsearch.research.google.com/</id>
-  <updated>2026-04-06T20:23:31Z</updated>
-  <summary>Web’e dağılmış açık veri kümelerini schema.org işaretlemesi üzerinden arıyor. Tek bir depoya bağlı olmadığı için kurum arşivlerini de kapsıyor.</summary>
-</entry>
-<entry>
-  <title>Zero to Mastery ML</title>
-  <link href="https://github.com/mrdbourke/zero-to-mastery-ml"/>
-  <id>https://github.com/mrdbourke/zero-to-mastery-ml</id>
-  <updated>2026-04-06T11:32:51Z</updated>
-  <summary>Uçtan uca ML not defterleri; veri temizlemeden model değerlendirmeye kadar çalışan bir hat okutuyor. Kavram anlatımı yerine gerçek kod üzerinden ilerliyor.</summary>
-</entry>
-<entry>
-  <title>Data Science for Beginners</title>
-  <link href="https://github.com/microsoft/Data-Science-For-Beginners/tree/main"/>
-  <id>https://github.com/microsoft/Data-Science-For-Beginners/tree/main</id>
-  <updated>2026-04-05T20:34:44Z</updated>
-  <summary>20 derslik müfredat; her ders ders öncesi/sonrası sınav ve bir projeyle geliyor. Veri etiği ve görselleştirme bölümleri çoğu teknik kursta atlanan konular.</summary>
-</entry>
-<entry>
-  <title>ML Mühendisliğinde İş Arama</title>
-  <link href="https://www.reddit.com/r/MachineLearningJobs/comments/1r5upkb/how_i_land_15_machine_learning_engineer_offers/"/>
-  <id>https://www.reddit.com/r/MachineLearningJobs/comments/1r5upkb/how_i_land_15_machine_learning_engineer_offers/</id>
-  <updated>2026-02-16T17:46:21Z</updated>
-  <summary>Bir ML mühendisinin iş arama sürecini sayılarla anlattığı başlık: kaç başvuru, hangi aşamalar, ne işe yaradı. Genel kariyer tavsiyelerine karşı birinci elden veri.</summary>
-</entry>
-<entry>
-  <title>Kaggle Yarışmaları</title>
-  <link href="https://www.kaggle.com/competitions"/>
-  <id>https://www.kaggle.com/competitions</id>
-  <updated>2025-12-12T16:37:57Z</updated>
-  <summary>Aktif ve geçmiş yarışmalar. Gerçek ölçütle değerlendirilmek, kendi projendeki “iyi görünüyor” yanılsamasını kırıyor.</summary>
 </entry>
 </feed>
