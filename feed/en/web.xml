@@ -7,6 +7,13 @@
 <id>https://latifkedi.github.io/useful-sites/feed/en/web.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Atmos</title>
+  <link href="https://atmos.style/"/>
+  <id>https://atmos.style/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Everything needed to create colour palettes, with accessibility checks.</summary>
+</entry>
+<entry>
   <title>Autoprefixer</title>
   <link href="https://autoprefixer.github.io/"/>
   <id>https://autoprefixer.github.io/</id>
@@ -21,11 +28,81 @@
   <summary>A list of components, tools and tutorials for the Angular application framework. Unlike the official docs it gathers community libraries and real examples.</summary>
 </entry>
 <entry>
+  <title>Awesome CSS</title>
+  <link href="https://github.com/awesome-css-group/awesome-css"/>
+  <id>https://github.com/awesome-css-group/awesome-css</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list gathering the CSS language, tools and resources by topic.</summary>
+</entry>
+<entry>
+  <title>Awesome CSS Learning</title>
+  <link href="https://github.com/micromata/awesome-css-learning"/>
+  <id>https://github.com/micromata/awesome-css-learning</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A resource list focused on learning the CSS language and its modules.</summary>
+</entry>
+<entry>
+  <title>Awesome Frontend GIS</title>
+  <link href="https://github.com/joewdavies/awesome-frontend-gis"/>
+  <id>https://github.com/joewdavies/awesome-frontend-gis</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of libraries for geographic information systems (maps) in the browser.</summary>
+</entry>
+<entry>
+  <title>Awesome HTML5</title>
+  <link href="https://github.com/diegocard/awesome-html5"/>
+  <id>https://github.com/diegocard/awesome-html5</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of HTML5 APIs, tools and resources.</summary>
+</entry>
+<entry>
+  <title>Awesome Mobile Web Development</title>
+  <link href="https://github.com/myshov/awesome-mobile-web-development"/>
+  <id>https://github.com/myshov/awesome-mobile-web-development</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A resource list for building a great mobile web experience.</summary>
+</entry>
+<entry>
+  <title>Awesome PostCSS</title>
+  <link href="https://github.com/jdrgomes/awesome-postcss"/>
+  <id>https://github.com/jdrgomes/awesome-postcss</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A resource list for PostCSS, the tool that transforms CSS with plugins.</summary>
+</entry>
+<entry>
+  <title>Awesome Preact</title>
+  <link href="https://github.com/preactjs/awesome-preact"/>
+  <id>https://github.com/preactjs/awesome-preact</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A resource list for Preact, the lightweight React alternative.</summary>
+</entry>
+<entry>
+  <title>Awesome React</title>
+  <link href="https://github.com/enaqx/awesome-react"/>
+  <id>https://github.com/enaqx/awesome-react</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of libraries, tools and learning resources for the React ecosystem.</summary>
+</entry>
+<entry>
+  <title>Awesome React Hooks</title>
+  <link href="https://github.com/glauberfc/awesome-react-hooks"/>
+  <id>https://github.com/glauberfc/awesome-react-hooks</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of libraries and examples for React Hooks.</summary>
+</entry>
+<entry>
   <title>Awesome Svelte</title>
   <link href="https://github.com/TheComputerM/awesome-svelte"/>
   <id>https://github.com/TheComputerM/awesome-svelte</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A list of components and tools for Svelte and SvelteKit. Unlike React-heavy lists it shows the ecosystem specific to this compile-time framework.</summary>
+</entry>
+<entry>
+  <title>Awesome Tailwind CSS</title>
+  <link href="https://github.com/aniftyco/awesome-tailwindcss"/>
+  <id>https://github.com/aniftyco/awesome-tailwindcss</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of plugins, components and tools for Tailwind CSS.</summary>
 </entry>
 <entry>
   <title>Awesome WebExtensions</title>
@@ -42,11 +119,32 @@
   <summary>A gallery that awards and showcases outstanding web design. Unlike random inspiration it filters quality through jury evaluation.</summary>
 </entry>
 <entry>
+  <title>Bootstrap</title>
+  <link href="https://www.getbootstrap.com/"/>
+  <id>https://www.getbootstrap.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>The most widely used CSS framework — fast, consistent UI from ready grid and components.</summary>
+</entry>
+<entry>
+  <title>BuildBootstrap</title>
+  <link href="https://buildbootstrap.com/"/>
+  <id>https://buildbootstrap.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Builds a Bootstrap layout visually and generates its code.</summary>
+</entry>
+<entry>
   <title>Bulma</title>
   <link href="https://bulma.io/"/>
   <id>https://bulma.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A modern framework built purely from CSS (no JavaScript), based on Flexbox. Unlike Bootstrap it ships no JS components — you take the classes and write your own interactions.</summary>
+</entry>
+<entry>
+  <title>Buttons Generator</title>
+  <link href="https://markodenic.com/tools/buttons-generator/"/>
+  <id>https://markodenic.com/tools/buttons-generator/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Ready CSS button styles with their code for use in projects.</summary>
 </entry>
 <entry>
   <title>Chart.js</title>
@@ -56,11 +154,39 @@
   <summary>A JavaScript library drawing simple, responsive charts on canvas. Unlike heavy visualisation libraries it is lightweight and works in a few lines.</summary>
 </entry>
 <entry>
+  <title>Colors and Fonts</title>
+  <link href="https://www.colorsandfonts.com/"/>
+  <id>https://www.colorsandfonts.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A design resource pairing colour palettes with typography.</summary>
+</entry>
+<entry>
+  <title>Colors.lol</title>
+  <link href="https://colors.lol"/>
+  <id>https://colors.lol</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A repository of inspiring colour palettes.</summary>
+</entry>
+<entry>
+  <title>Cruip</title>
+  <link href="https://cruip.com/"/>
+  <id>https://cruip.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Modern landing-page and UI templates (Tailwind-heavy).</summary>
+</entry>
+<entry>
   <title>CSS Battle</title>
   <link href="https://cssbattle.dev/"/>
   <id>https://cssbattle.dev/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A game where you reproduce a target image with as little CSS code as possible. Unlike tutorials it sharpens skill through competition and scoring.</summary>
+</entry>
+<entry>
+  <title>CSS Formatter</title>
+  <link href="https://www.cleancss.com/css-beautify/"/>
+  <id>https://www.cleancss.com/css-beautify/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Un-minifies and formats CSS back into a readable shape.</summary>
 </entry>
 <entry>
   <title>CSS Layout</title>
@@ -70,6 +196,20 @@
   <summary>Ready CSS recipes for common layouts and components (cards, centring, sticky header). Unlike searching it gives each pattern as a copyable, self-contained example.</summary>
 </entry>
 <entry>
+  <title>CSS Media Query Generator</title>
+  <link href="https://simplecss.eu"/>
+  <id>https://simplecss.eu</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Generates CSS media queries for specific device sizes.</summary>
+</entry>
+<entry>
+  <title>CSS Minifier</title>
+  <link href="https://cssminifier.com/"/>
+  <id>https://cssminifier.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Minifies CSS by stripping whitespace to shrink it.</summary>
+</entry>
+<entry>
   <title>CSS Reference</title>
   <link href="https://cssreference.io/"/>
   <id>https://cssreference.io/</id>
@@ -77,11 +217,53 @@
   <summary>A reference showing every CSS property with a visual example. Unlike the spec it explains “what does this property do” with a live demo rather than text.</summary>
 </entry>
 <entry>
+  <title>DevSamples</title>
+  <link href="https://www.devsamples.com/"/>
+  <id>https://www.devsamples.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Easy-to-use HTML, CSS and JavaScript code examples.</summary>
+</entry>
+<entry>
+  <title>Fancy Border-Radius</title>
+  <link href="https://9elements.github.io/fancy-border-radius/"/>
+  <id>https://9elements.github.io/fancy-border-radius/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A visual tool that generates CSS border-radius for organic shapes.</summary>
+</entry>
+<entry>
+  <title>Flat UI Color Picker</title>
+  <link href="https://www.flatuicolorpicker.com/"/>
+  <id>https://www.flatuicolorpicker.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>An interactive palette of harmonious flat colours for frontends.</summary>
+</entry>
+<entry>
+  <title>Font Flipper</title>
+  <link href="https://fontflipper.com/"/>
+  <id>https://fontflipper.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Tries and compares hundreds of Google fonts on your own design.</summary>
+</entry>
+<entry>
   <title>FontPair</title>
   <link href="https://www.fontpair.co/"/>
   <id>https://www.fontpair.co/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A tool showing Google font pairs that go well together. Unlike trying one by one it presents harmonious heading-body matches with examples.</summary>
+</entry>
+<entry>
+  <title>Framer</title>
+  <link href="https://www.framer.com/"/>
+  <id>https://www.framer.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A design tool for building and publishing interactive interfaces and sites.</summary>
+</entry>
+<entry>
+  <title>FreeFrontEnd</title>
+  <link href="https://freefrontend.com/"/>
+  <id>https://freefrontend.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A large directory of HTML, CSS and JavaScript code samples and tutorials.</summary>
 </entry>
 <entry>
   <title>Frontend Focus</title>
@@ -98,192 +280,10 @@
   <summary>A practice platform that gives realistic design files and asks you to turn them into code. Unlike random projects it comes with professional designs and community feedback.</summary>
 </entry>
 <entry>
-  <title>Layoutit Grid</title>
-  <link href="https://grid.layoutit.com/"/>
-  <id>https://grid.layoutit.com/</id>
+  <title>Image Color Picker</title>
+  <link href="https://imagecolorpicker.com"/>
+  <id>https://imagecolorpicker.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A tool to draw a CSS Grid layout by drag-and-drop and generate its code. Unlike writing grid by hand you build the row/column structure visually and export it.</summary>
-</entry>
-<entry>
-  <title>Neumorphism.io</title>
-  <link href="https://neumorphism.io/"/>
-  <id>https://neumorphism.io/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A tool generating CSS for soft-shadowed “neumorphism” boxes. Unlike writing shadows by hand it lets you tune the dual shadow visually and gives the code.</summary>
-</entry>
-<entry>
-  <title>Pure.css</title>
-  <link href="https://purecss.io/"/>
-  <id>https://purecss.io/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A tiny, modular CSS framework of just a few KB (Yahoo). Unlike large frameworks you take only the module you need and keep the page light.</summary>
-</entry>
-<entry>
-  <title>React Hook Form</title>
-  <link href="https://react-hook-form.com/"/>
-  <id>https://react-hook-form.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A library managing React forms with minimal re-renders and built-in validation. Unlike controlled components it keeps performance high and simplifies the code.</summary>
-</entry>
-<entry>
-  <title>SweetAlert2</title>
-  <link href="https://sweetalert2.github.io/"/>
-  <id>https://sweetalert2.github.io/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A library replacing the browser’s ugly alert box with pretty, customisable modals. Unlike the built-in alert it supports styling, input fields and promises.</summary>
-</entry>
-<entry>
-  <title>uiGradients</title>
-  <link href="https://uigradients.com/"/>
-  <id>https://uigradients.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A tool that shows ready CSS gradients and gives their code. Unlike mixing colours by hand you pick a pleasing transition and copy it straight.</summary>
-</entry>
-<entry>
-  <title>Docusaurus</title>
-  <link href="https://docusaurus.io/"/>
-  <id>https://docusaurus.io/</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>Meta’s React-based documentation-site generator, with versioning and translation built in. Unlike general static generators it is docs-first: it ships ready-made pieces like version archives and i18n aimed specifically at software documentation.</summary>
-</entry>
-<entry>
-  <title>Hugo</title>
-  <link href="https://gohugo.io/"/>
-  <id>https://gohugo.io/</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>A static-site generator written in Go that turns Markdown into websites. Unlike Node-based generators its distinction is raw speed: it builds thousands of pages in seconds, from a single binary, with no JS dependency tree.</summary>
-</entry>
-<entry>
-  <title>Obsidian Digital Garden</title>
-  <link href="https://github.com/oleeskild/obsidian-digital-garden"/>
-  <id>https://github.com/oleeskild/obsidian-digital-garden</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>An Obsidian plugin that publishes notes straight into a live digital garden. Unlike generators such as Quartz it needs no build step: you publish from inside a note with one button, with no separate build pipeline to set up.</summary>
-</entry>
-<entry>
-  <title>Quartz</title>
-  <link href="https://quartz.jzhao.xyz/"/>
-  <id>https://quartz.jzhao.xyz/</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>A generator that turns Markdown notes — Obsidian vaults especially — into a linked site. Unlike general static generators it preserves bidirectional links and backlinks: it publishes your digital garden with its network structure intact.</summary>
-</entry>
-<entry>
-  <title>30 Seconds of Code</title>
-  <link href="https://www.30secondsofcode.org/"/>
-  <id>https://www.30secondsofcode.org/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Code snippets short enough to read and understand in thirty seconds, for JavaScript, Python, React and CSS. Against Stack Overflow, each one is explained, tested and filed by topic — you browse it rather than search it.</summary>
-</entry>
-<entry>
-  <title>Can I Use</title>
-  <link href="https://caniuse.com/"/>
-  <id>https://caniuse.com/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A table of which browser version supports which web feature, weighted by usage share. Where MDN explains the feature, this answers &quot;can I ship it&quot; at version and market-share level — it is where you decide whether a polyfill is needed.</summary>
-</entry>
-<entry>
-  <title>Checklist Design</title>
-  <link href="https://www.checklist.design/"/>
-  <id>https://www.checklist.design/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Per-component checklists for buttons, forms, tables and the rest: which states to draw, which accessibility detail everyone forgets. Unlike a design-system doc it imposes no component library — it hands you a list to audit your own against.</summary>
-</entry>
-<entry>
-  <title>CodeToGo</title>
-  <link href="https://codetogo.io/"/>
-  <id>https://codetogo.io/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Up-to-date one-line answers to everyday JavaScript questions like &quot;how do I reverse an array&quot;. The difference from Stack Overflow is that the answer is not from 2012 — these are kept current with modern syntax.</summary>
-</entry>
-<entry>
-  <title>CSS-Tricks Snippets</title>
-  <link href="https://css-tricks.com/snippets/"/>
-  <id>https://css-tricks.com/snippets/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>An archive of snippets for CSS, HTML, JavaScript and .htaccess built up over years. Against scattered blog posts each snippet has its own page and discussion — and the comments usually hold a better version.</summary>
-</entry>
-<entry>
-  <title>Easing Wizard</title>
-  <link href="https://easingwizard.com/"/>
-  <id>https://easingwizard.com/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A visual builder for CSS easing curves that covers not just cubic-bezier but linear() spring and bounce curves. That linear() support is what dates it past cubic-bezier.com: spring animation in CSS no longer needs a library.</summary>
-</entry>
-<entry>
-  <title>Howler.js</title>
-  <link href="https://howlerjs.com/"/>
-  <id>https://howlerjs.com/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A cross-browser audio library that uses the Web Audio API and falls back to HTML5 Audio. Against hand-rolling Web Audio, it handles audio sprites, pooling and the mobile autoplay lock for you — the three things that always bite.</summary>
-</entry>
-<entry>
-  <title>Ladybird</title>
-  <link href="https://ladybird.org/"/>
-  <id>https://ladybird.org/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>An independent browser engine written from scratch, derived from neither Chromium, WebKit nor Gecko. That is precisely what separates it from the other &quot;alternative&quot; browsers, which are Chromium shells. Not yet ready for daily use.</summary>
-</entry>
-<entry>
-  <title>Land-book</title>
-  <link href="https://land-book.com/"/>
-  <id>https://land-book.com/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A curated gallery of well-designed websites, filterable by industry, style and colour. Unlike award sites such as Awwwards it collects real shipping product sites rather than showpiece experiments.</summary>
-</entry>
-<entry>
-  <title>Lucide</title>
-  <link href="https://lucide.dev/"/>
-  <id>https://lucide.dev/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>An icon library of over 1,600 SVG icons with ready packages for React, Vue and Svelte. It is the community fork of Feather, and the difference is that it kept growing while Feather went quiet — and that it tree-shakes down to the icons you import.</summary>
-</entry>
-<entry>
-  <title>Splide</title>
-  <link href="https://splidejs.com/"/>
-  <id>https://splidejs.com/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A dependency-free, accessibility-first slider and carousel library. It is markedly smaller than Swiper (~12KB gzipped) and gets keyboard navigation and ARIA roles right by default — the usual weak spot of carousels.</summary>
-</entry>
-<entry>
-  <title>TeleportHQ</title>
-  <link href="https://teleporthq.io/"/>
-  <id>https://teleporthq.io/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A low-code platform that turns a visual interface design into clean React, Vue or HTML. Against Webflow the output is exportable, readable component code — you can take the design over and keep building by hand.</summary>
-</entry>
-<entry>
-  <title>Uiverse</title>
-  <link href="https://uiverse.io/"/>
-  <id>https://uiverse.io/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A community-contributed gallery of open-source UI elements: buttons, cards, loaders, toggles. Unlike CodePen, everything is MIT-licensed, copy-paste ready and offered as plain CSS or Tailwind, with no framework attached.</summary>
-</entry>
-<entry>
-  <title>Wakamai Fondue</title>
-  <link href="https://wakamaifondue.com/"/>
-  <id>https://wakamaifondue.com/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Drop in a font file and it reports everything inside: character set, OpenType features, variable axes — plus the CSS that switches each of them on. Unlike a font previewer, the output is code you can paste.</summary>
-</entry>
-<entry>
-  <title>WebAIM</title>
-  <link href="https://webaim.org/"/>
-  <id>https://webaim.org/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>The accessibility centre at Utah State University — the contrast checker, the WAVE tool and the annual &quot;Million&quot; survey all come from here. Where the WCAG spec states the rule, WebAIM shows what applying it actually looks like.</summary>
-</entry>
-<entry>
-  <title>CSS-Tricks</title>
-  <link href="https://css-tricks.com/"/>
-  <id>https://css-tricks.com/</id>
-  <updated>2026-08-19T23:34:04Z</updated>
-  <summary>Two decades of CSS technique, whose Flexbox and Grid guides became the de facto references. Faster than the spec when you are hunting a specific layout problem.</summary>
-</entry>
-<entry>
-  <title>Flexbox Froggy</title>
-  <link href="https://flexboxfroggy.com/"/>
-  <id>https://flexboxfroggy.com/</id>
-  <updated>2026-08-19T23:34:03Z</updated>
-  <summary>The Flexbox sibling of Grid Garden, teaching alignment by positioning frogs. It settles the justify-content versus align-items confusion in twenty minutes.</summary>
+  <summary>Extracts colour codes and a palette from an image.</summary>
 </entry>
 </feed>
