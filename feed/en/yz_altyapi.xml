@@ -252,6 +252,13 @@
   <summary>Settles for four concepts: agents, tools, handoffs and guardrails. Tracing ships built in, and the learning curve is the shallowest of the frameworks here.</summary>
 </entry>
 <entry>
+  <title>Prisma AIRS (Protect AI)</title>
+  <link href="https://protectai.com/"/>
+  <id>https://protectai.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Scans model files for malicious payloads. Because pickle deserialisation can execute arbitrary code, a downloaded checkpoint is a real attack surface. Protect AI joined Palo Alto Networks in 2025; the product now lives under the Prisma AIRS umbrella.</summary>
+</entry>
+<entry>
   <title>Prompt Engineering Guide</title>
   <link href="https://www.promptingguide.ai/"/>
   <id>https://www.promptingguide.ai/</id>
@@ -271,13 +278,6 @@
   <id>https://www.promptfoo.dev/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>Runs prompts and models side by side against a test set declared in YAML. It catches output regressions in a CI step when a model version changes.</summary>
-</entry>
-<entry>
-  <title>Protect AI</title>
-  <link href="https://protectai.com/"/>
-  <id>https://protectai.com/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Scans model files for malicious payloads. Because pickle deserialisation can execute arbitrary code, a downloaded checkpoint is a real attack surface.</summary>
 </entry>
 <entry>
   <title>Pydantic AI</title>

@@ -234,11 +234,13 @@ def load(add):
         'Gölge YZ kullanımını ölçmek isteyen kurumlar için.',
         'Surfaces which AI tools employees send what data to, and blocks by policy. '
         'Aimed at organisations that need to measure shadow AI use.', C)
-    add('https://protectai.com/', 'Protect AI', ['saas', 'ücretli', 'tedarik-zinciri', 'mlops'],
+    add('https://protectai.com/', 'Prisma AIRS (Protect AI)', ['saas', 'ücretli', 'tedarik-zinciri', 'mlops'],
         'Model dosyalarını zararlı yük için tarıyor — pickle serileştirmesi keyfî kod çalıştırabildiği için '
-        'indirilen bir checkpoint gerçek bir saldırı yüzeyi.',
+        'indirilen bir checkpoint gerçek bir saldırı yüzeyi. Protect AI 2025’te Palo Alto Networks’e katıldı; '
+        'ürün artık Prisma AIRS çatısı altında.',
         'Scans model files for malicious payloads. Because pickle deserialisation can execute arbitrary code, '
-        'a downloaded checkpoint is a real attack surface.', C)
+        'a downloaded checkpoint is a real attack surface. Protect AI joined Palo Alto Networks in 2025; the '
+        'product now lives under the Prisma AIRS umbrella.', C)
     add('https://azure.microsoft.com/products/ai-services/ai-content-safety', 'Azure AI Content Safety', ['saas', 'ücretli', 'guardrail', 'azure'],
         'Metin ve görseli dört zarar kategorisinde önem derecesiyle puanlayan sınıflandırıcı. '
         'Eşikleri kendin ayarlıyorsun; kendi moderasyon modelini eğitmeye alternatif.',
