@@ -77,11 +77,25 @@
   <summary>An archived collection of problems joining mathematics and programming.</summary>
 </entry>
 <entry>
+  <title>RealWorld</title>
+  <link href="https://realworld.how"/>
+  <id>https://realworld.how</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A spec whose same realistic app (Conduit) is built across different front-end and back-end stacks.</summary>
+</entry>
+<entry>
   <title>Rosetta Code</title>
   <link href="https://rosettacode.org/"/>
   <id>https://rosettacode.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A wiki showing the same small problem solved in hundreds of languages. Unlike single-language examples it shows side by side how a task differs across languages.</summary>
+</entry>
+<entry>
+  <title>TodoMVC</title>
+  <link href="https://todomvc.com"/>
+  <id>https://todomvc.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Shows the same to-do app built in dozens of JavaScript frameworks so you can compare them side by side.</summary>
 </entry>
 <entry>
   <title>TopCoder Arena</title>
@@ -271,19 +285,5 @@
   <id>https://learnersbucket.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>A practice archive focused on JavaScript interview questions: writing polyfills, the event loop, closures. Unlike general algorithm sites it is language-specific — &quot;implement bind yourself&quot; is not a question you find elsewhere.</summary>
-</entry>
-<entry>
-  <title>mission-peace/interview</title>
-  <link href="https://github.com/mission-peace/interview"/>
-  <id>https://github.com/mission-peace/interview</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A large collection of coding-interview problems and solutions, with video explanations.</summary>
-</entry>
-<entry>
-  <title>NeetCode</title>
-  <link href="https://neetcode.io"/>
-  <id>https://neetcode.io</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A roadmap that groups LeetCode problems by topic and pairs each with a solution video. Against a raw problem list the difference is ordering: which 150 problems, in which sequence, teach the patterns — the thing random grinding never gives you.</summary>
 </entry>
 </feed>
