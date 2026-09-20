@@ -2,9 +2,30 @@
 
 https://latifkedi.github.io/useful-sites/
 
-An annotated directory of 1,080 links covering software, artificial intelligence,
-security, hardware and science, organised into 24 categories and published in
-Turkish and English.
+An annotated directory of 1,700+ links covering software, artificial intelligence,
+security, hardware and science, organised into ten areas (32 categories) and
+published in Turkish and English.
+
+## The ten areas
+
+The directory opens on ten top-level areas. Each gathers a set of categories;
+you pick an area, then browse its categories.
+
+| Area | What it holds |
+|------|---------------|
+| **Yazılım · Software** | Languages, web, backend, mobile, databases, practice, testing, games. |
+| **Yapay Zeka · Artificial Intelligence** | Models, infrastructure, RAG, tooling, generation. |
+| **Altyapı & Sistem · Infrastructure & Systems** | DevOps, networking, hosting, hardware, electronics, wearables. |
+| **Güvenlik · Security** | Offensive and defensive security, learning grounds, references. |
+| **Veri · Data** | Data sources and datasets, data engineering. |
+| **Bilim & Matematik · Science & Mathematics** | Science, mathematics, quantum. |
+| **Ekonomi & Finans · Economics & Finance** | Economics, finance, markets, crypto. |
+| **Tasarım & Medya · Design & Media** | Design and media tools, architecture. |
+| **Öğrenme & Referans · Learning & Reference** | Learning paths, references, everyday tools. |
+| **Korsan & Arşiv · Piracy & Archive** | Open access, preservation and archives. |
+
+The design leans on a quiet, monochrome line language — circles and simple
+geometry drawn from Sufi and Taoist motifs — kept plain on purpose.
 
 ## What an entry contains
 

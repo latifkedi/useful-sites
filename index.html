@@ -40,7 +40,7 @@
 "target":{"@type":"EntryPoint","urlTemplate":"https://latifkedi.github.io/useful-sites/?q={search_term_string}"},
 "query-input":"required name=search_term_string"}}
 </script>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='13' font-size='13'>▤</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M11 3.2 A6 6 0 1 0 12 8' fill='none' stroke='%231b1a18' stroke-width='1.4' stroke-linecap='round'/></svg>">
 <style>
 /* Basliklar ve kayit adlari icin Source Serif 4 (SIL OFL). Yalnizca
    kullanilan karakterlere indirgendi ve tek agirliga sabitlendi: iki dosya
@@ -62,32 +62,35 @@
 }
 
 /* ---------------------------------------------------------------- tokens */
+/* Monokrom mürekkep-kâğıt. Renk yok, yalnızca ısıtılmış griler: tasarım
+   siyah-beyaz ve mütevazı kalsın diye. Vurgu (accent) gövde metninden
+   ayrılacak kadar koyu/açık tutuldu ki fareyle üzerine gelince fark okunsun. */
 :root{
-  --bg:#fcfbf9;      --panel:#f5f2ec;
-  --fg:#191817;      --dim:#57544e;      --faint:#77746d;
-  --rule:#e4e0d8;    --rule2:#efebe3;
-  --accent:#a8451f;  --accent-soft:#f6ece6;  --accent-on:#fff;
+  --bg:#faf9f5;      --panel:#f1efe9;
+  --fg:#33312b;      --dim:#63605a;      --faint:#918e86;
+  --rule:#e3dfd6;    --rule2:#efece4;
+  --accent:#141310;  --accent-soft:#e8e4da;  --accent-on:#faf9f5;
   --serif:"Source Serif 4","Serif Fallback",Georgia,"Times New Roman",serif;
-  --mark:#fbe6a0;
+  --mark:#e6e2d6;
   --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
   --sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
   --step:cubic-bezier(.2,.6,.3,1);
 }
 @media (prefers-color-scheme:dark){
   :root:not([data-theme="light"]){
-    --bg:#1a1c20;    --panel:#22252a;
-    --fg:#e2e0da;    --dim:#a3a09a;      --faint:#86837c;
-    --rule:#2c3037;  --rule2:#24272c;
-    --accent:#e78b62; --accent-soft:#2a211c;  --accent-on:#1a1c20;
-    --mark:#5c4a15;
+    --bg:#141311;    --panel:#1e1d1a;
+    --fg:#e6e3da;    --dim:#a5a199;      --faint:#78756d;
+    --rule:#2b2a26;  --rule2:#211f1c;
+    --accent:#f4f1e8; --accent-soft:#2a2823;  --accent-on:#141311;
+    --mark:#3a3833;
   }
 }
 :root[data-theme="dark"]{
-  --bg:#1a1c20;    --panel:#22252a;
-  --fg:#e2e0da;    --dim:#a3a09a;      --faint:#86837c;
-  --rule:#2c3037;  --rule2:#24272c;
-  --accent:#e78b62; --accent-soft:#2a211c;  --accent-on:#1a1c20;
-  --mark:#5c4a15;
+  --bg:#141311;    --panel:#1e1d1a;
+  --fg:#e6e3da;    --dim:#a5a199;      --faint:#78756d;
+  --rule:#2b2a26;  --rule2:#211f1c;
+  --accent:#f4f1e8; --accent-soft:#2a2823;  --accent-on:#141311;
+  --mark:#3a3833;
 }
 
 *{box-sizing:border-box}
@@ -186,7 +189,10 @@ nav .n{font:11.5px/1.4 var(--mono);color:var(--faint);font-variant-numeric:tabul
 nav .navfield{font:10.5px/1 var(--mono);text-transform:uppercase;letter-spacing:.09em;
   color:var(--faint);padding:15px 0 5px;border-bottom:0}
 nav .navfield:first-child{padding-top:2px}
-.navback{display:none;width:100%;margin:0 0 14px;text-align:left}
+.navback{width:100%;margin:0 0 14px;text-align:left}
+/* :not(.show) ile daha yuksek ozgulluk: mobildeki .btn{display:inline-flex}
+   kurali aksi halde gizlemeyi eziyor ve buton giriste de gorunuyordu. */
+.navback:not(.show){display:none}
 .navback.show{display:block}
 
 /* ---------------------------------------------------------------- liste */
@@ -219,7 +225,7 @@ h2 .n{font-variant-numeric:tabular-nums}
   font:600 18px/1.3 var(--serif);text-decoration:none;letter-spacing:-.004em;
   transition:color .12s var(--step);
 }
-.item a.name:hover{color:var(--accent)}
+.item a.name:hover{color:var(--accent);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
 .host{font:12.5px/1 var(--mono);color:var(--faint);overflow:hidden;text-overflow:ellipsis}
 .desc{margin:6px 0 0;color:var(--dim);font-size:15.5px;line-height:1.7}
 .itags{margin:0;font:12.5px/1.5 var(--sans);color:var(--faint);min-width:0}
@@ -335,6 +341,47 @@ mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:2px}
 .hlinks a{font:12.5px/1 var(--mono);color:var(--dim);text-decoration:none}
 .hlinks a:hover{color:var(--accent)}
 
+/* ---------------------------------------------------------------- amblemler
+   Alan amblemleri: ince, tek renk, yalnızca çizgi. Tasavvuf ve Taoizm
+   çağrışımı -- daireler, hilal, enso, sade geometri. Doldurma yok, currentColor
+   ile renge uyar, aydınlık/karanlık ayrımı gerektirmez. */
+.gl{display:block;width:100%;height:100%;fill:none;stroke:currentColor;
+  stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}
+.gl .fillc{fill:currentColor;stroke:none}
+.ensomark{width:34px;height:34px;flex:none;color:var(--faint);margin-top:3px;
+  transition:color .2s var(--step)}
+.masthead:hover .ensomark{color:var(--accent)}
+
+/* --------------------------------------------------------- alan kartları (giriş) */
+.fcards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;
+  background:var(--rule);border:1px solid var(--rule);border-radius:6px;
+  overflow:hidden;margin:0 0 30px}
+.fcard{background:var(--bg);padding:26px 24px 22px;text-decoration:none;color:inherit;
+  display:flex;flex-direction:column;gap:13px;min-height:186px;
+  transition:background .15s var(--step)}
+.fcard:hover{background:var(--panel)}
+.fg{width:48px;height:48px;color:var(--dim);transition:color .15s var(--step)}
+.fcard:hover .fg{color:var(--accent)}
+.ft{font:600 21px/1.22 var(--serif);letter-spacing:-.006em;display:flex;
+  align-items:baseline;gap:10px;transition:color .12s var(--step)}
+.fcard:hover .ft{color:var(--accent)}
+.ft .n{margin-left:auto;flex:none;font:11.5px/1 var(--mono);color:var(--faint);
+  font-variant-numeric:tabular-nums}
+.fd{margin:0;font-size:14px;line-height:1.58;color:var(--dim)}
+.fs{font:11.5px/1.55 var(--mono);color:var(--faint);margin:auto 0 0;
+  overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+
+/* --------------------------------------------------------- alan sayfası (hero) */
+.fhero{display:flex;gap:24px;align-items:center;margin:2px 0 34px;
+  padding-bottom:28px;border-bottom:1px solid var(--rule)}
+.fhg{width:66px;height:66px;flex:none;color:var(--fg)}
+h2.fht{font:600 28px/1.12 var(--serif);margin:0;padding:0;border:0;
+  text-transform:none;letter-spacing:-.012em;color:var(--fg);
+  display:flex;align-items:baseline;gap:13px}
+h2.fht .n{font:12px/1 var(--mono);color:var(--faint);font-weight:400;
+  font-variant-numeric:tabular-nums}
+.fhd{margin:9px 0 0;color:var(--dim);font-size:16px;line-height:1.62;max-width:66ch}
+
 .empty{padding:64px 0;color:var(--dim);font-size:16px}
 .empty code{font:14px var(--mono);color:var(--accent)}
 
@@ -420,6 +467,7 @@ dialog#sub::backdrop{background:rgba(0,0,0,.45)}
 @media (max-width:1080px){
   .grid{grid-template-columns:1fr}
   .cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .fcards{grid-template-columns:repeat(2,minmax(0,1fr))}
   .hpicks{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 
@@ -464,6 +512,16 @@ dialog#sub::backdrop{background:rgba(0,0,0,.45)}
   .card .cs,.card .cd,.card .bar{display:none}
   .card .ch{font-size:16.5px;flex:1}
   .card.lg .ch,.card.md .ch{font-size:16.5px}
+  /* Alan kartlari mobilde tek sutun, amblem yanda kalir: kaydirma kisalir. */
+  .fcards{grid-template-columns:1fr}
+  .fcard{min-height:0;flex-direction:row;align-items:center;gap:15px;padding:16px 16px}
+  .fcard .fd,.fcard .fs{display:none}
+  .fg{width:34px;height:34px}
+  .ft{flex:1;font-size:18px}
+  .fhero{gap:16px;margin-bottom:24px;padding-bottom:20px}
+  .fhg{width:48px;height:48px}
+  h2.fht{font-size:22px}
+  .fhd{font-size:15px}
   .hpicks{grid-template-columns:1fr;gap:0}
   .lead{font-size:18px}
   .foot{gap:6px 12px}
@@ -493,6 +551,7 @@ dialog#sub::backdrop{background:rgba(0,0,0,.45)}
 
 <header>
   <div class="masthead">
+    <span class="ensomark" aria-hidden="true"><svg class="gl" viewBox="0 0 44 44"><path d="M30.5 11.5 A16 16 0 1 0 33 24"/></svg></span>
     <div>
       <h1 id="t-title">Kullanışlı Siteler</h1>
       <p class="sub" id="t-sub"></p>
@@ -595,6 +654,20 @@ var T = {
     empty:"Eşleşen Bağlantı Yok",
     clear:"Filtreleri Temizle",
     back:"← Tüm Kategoriler",
+    backFields:"← Tüm Alanlar",
+    fields:{
+      yazilim:"Diller, web, backend, mobil, veritabanı, pratik, test ve oyun.",
+      yapayzeka:"Modeller, altyapı, RAG, araçlar ve üretken yapay zeka.",
+      sistem:"DevOps, ağ, barındırma, donanım, elektronik ve giyilebilir.",
+      guvenlikalan:"Saldırı ve savunma güvenliği, pratik sahalar, referanslar.",
+      verialan:"Veri kaynakları, veri setleri ve veri mühendisliği.",
+      bilimmat:"Bilim, matematik ve kuantum.",
+      ekonomialan:"Ekonomi, finans, piyasalar ve kripto.",
+      tasarim:"Tasarım ve medya araçları, mimari.",
+      ogrenmealan:"Yol haritaları, referanslar ve günlük araçlar.",
+      korsanalan:"Açık erişim, koruma ve arşivler."
+    },
+    areas:"Alanlar",
     rand:"Rastgele", lang:"EN",
     picks:"Başlangıç Noktaları",
     by:"Ekleyen",
@@ -663,6 +736,20 @@ var T = {
     empty:"No Matching Links",
     clear:"Clear Filters",
     back:"← All Categories",
+    backFields:"← All Areas",
+    fields:{
+      yazilim:"Languages, web, backend, mobile, databases, practice, testing and games.",
+      yapayzeka:"Models, infrastructure, RAG, tooling and generative AI.",
+      sistem:"DevOps, networking, hosting, hardware, electronics and wearables.",
+      guvenlikalan:"Offensive and defensive security, practice grounds, references.",
+      verialan:"Data sources, datasets and data engineering.",
+      bilimmat:"Science, mathematics and quantum.",
+      ekonomialan:"Economics, finance, markets and crypto.",
+      tasarim:"Design and media tools, architecture.",
+      ogrenmealan:"Learning paths, references and everyday tools.",
+      korsanalan:"Open access, preservation and archives."
+    },
+    areas:"Areas",
     rand:"Random", lang:"TR",
     picks:"Start Here",
     by:"Added By",
@@ -727,7 +814,7 @@ var T = {
 
 var data  = window.LINKS || [];
 var theme = localStorage.getItem("theme");
-var lang, q, activeTags, activeCat, sortBy, pages, onlyPicks, activeSrc, single, recent;
+var lang, q, activeTags, activeCat, sortBy, pages, onlyPicks, activeSrc, single, recent, activeField;
 
 var $ = function(s){return document.querySelector(s)};
 var esc = function(s){return String(s).replace(/[&<>"]/g,function(c){
@@ -782,6 +869,60 @@ var CATS = (function(){
    category are dropped at render time. */
 var GROUPS = window.GROUPS || [];
 
+/* Ust kategori (alan) <-> kategori eslemeleri. Giris artik alanlari
+   gosteriyor; bir alana girilince alt kategorileri, oradan kayitlar geliyor. */
+var FIELDBYKEY = {}, CATFIELD = {};
+GROUPS.forEach(function(g){
+  FIELDBYKEY[g.key] = g;
+  (g.cats || []).forEach(function(k){ CATFIELD[k] = g.key; });
+});
+var CATBYKEY = {};
+CATS.forEach(function(c){ CATBYKEY[c.key] = c; });
+function catName(k){ return CATBYKEY[k] ? CATBYKEY[k][lang] : k; }
+
+/* Kartlarda hacim cubugu ve orneklem icin bir kez turetilir; veri sabit. */
+var BYCAT = {};
+data.forEach(function(d){ (BYCAT[d.cat] = BYCAT[d.cat] || []).push(d); });
+var ENBUYUK = 1;
+CATS.forEach(function(c){ ENBUYUK = Math.max(ENBUYUK, (BYCAT[c.key] || []).length); });
+
+/* Alan amblemleri: yalnizca cizgi, tek renk (currentColor), doldurmasiz.
+   Tasavvuf ve Taoizm cagrisimi -- daire, hilal, enso, sade geometri. */
+var GLYPH = {
+  yazilim:'<rect x="10.5" y="10.5" width="23" height="23"/>'+
+          '<rect x="10.5" y="10.5" width="23" height="23" transform="rotate(45 22 22)"/>',
+  yapayzeka:'<circle cx="22" cy="22" r="14"/><circle cx="22" cy="22" r="6"/>'+
+          '<circle class="fillc" cx="22" cy="22" r="1.9"/>'+
+          '<path d="M22 3v4M22 37v4M3 22h4M37 22h4"/>',
+  sistem:'<path d="M22 7 L35 14.5 L35 29.5 L22 37 L9 29.5 L9 14.5 Z"/>'+
+          '<path d="M22 15 L28 18.5 L28 25.5 L22 29 L16 25.5 L16 18.5 Z"/>'+
+          '<circle class="fillc" cx="22" cy="22" r="1.6"/>',
+  guvenlikalan:'<path d="M22 6 L34 11 V22 C34 30 28 35 22 38 C16 35 10 30 10 22 V11 Z"/>'+
+          '<circle cx="22" cy="20" r="3.4"/><path d="M22 23.4 L20.4 30.5 L23.6 30.5 Z"/>',
+  verialan:'<path d="M10 13 C10 10 16 8 22 8 C28 8 34 10 34 13 V31 C34 34 28 36 22 36 C16 36 10 34 10 31 Z"/>'+
+          '<path d="M10 13 C10 16 16 18 22 18 C28 18 34 16 34 13"/>'+
+          '<path d="M10 22 C10 25 16 27 22 27 C28 27 34 25 34 22"/>',
+  bilimmat:'<circle cx="22" cy="22" r="15"/><path d="M22 8 L35 30 L9 30 Z"/>'+
+          '<circle class="fillc" cx="22" cy="22" r="1.6"/>',
+  ekonomialan:'<circle class="fillc" cx="22" cy="10.5" r="1.9"/>'+
+          '<path d="M22 10.5 V33 M16 33 H28"/><path d="M10 14 H34"/>'+
+          '<path d="M10 14 V16.5 M34 14 V16.5"/>'+
+          '<path d="M5.5 16.5 A6.5 6 0 0 0 14.5 16.5"/>'+
+          '<path d="M29.5 16.5 A6.5 6 0 0 0 38.5 16.5"/>',
+  tasarim:'<path d="M31 12 A15 15 0 1 0 34 25"/>'+
+          '<circle class="fillc" cx="34.3" cy="27" r="1.9"/>',
+  ogrenmealan:'<path d="M9 34 C20 30 14 18 24 15 C32 12.6 30 8.5 35 9.5"/>'+
+          '<circle class="fillc" cx="9" cy="34" r="2.1"/>'+
+          '<circle class="fillc" cx="35" cy="9.5" r="2.1"/>',
+  korsanalan:'<path d="M29 9 A15 15 0 1 0 29 35 A11.5 11.5 0 1 1 29 9 Z"/>'+
+          '<path d="M35.5 14 l1 2.5 2.7.2 -2.1 1.8 .7 2.6 -2.3-1.5 -2.3 1.5 .7-2.6 -2.1-1.8 2.7-.2 z"/>'
+};
+function glyph(k){
+  return '<svg class="gl" viewBox="0 0 44 44" aria-hidden="true">'+
+         (GLYPH[k] || '<circle cx="22" cy="22" r="14"/><circle class="fillc" cx="22" cy="22" r="2"/>')+
+         '</svg>';
+}
+
 var TAGCOUNT = {};
 data.forEach(function(d){ (d.tags||[]).forEach(function(t){ TAGCOUNT[t]=(TAGCOUNT[t]||0)+1 }) });
 var TAGLBL = window.TAGLABELS || {};
@@ -811,11 +952,14 @@ function readURL(){
   activeSrc  = p.get("src") || null;
   single     = p.get("e") || null;
   recent     = p.get("new") === "1";
+  activeField = p.get("f") || null;
+  if(activeField && !FIELDBYKEY[activeField]) activeField = null;
   if(activeSrc && !SRCMAP[activeSrc]) activeSrc = null;
   lang       = p.get("lang") || localStorage.getItem("lang") || "tr";
   if(!T[lang]) lang = "tr";
   if(!T.tr.sorts[sortBy]) sortBy = "cat";
   if(activeCat && !CATS.some(function(c){return c.key === activeCat})) activeCat = null;
+  if(activeCat) activeField = CATFIELD[activeCat] || activeField;
   activeTags = activeTags.filter(function(t){ return TAGCOUNT[t] });
   pages = {};
   var pg = parseInt(p.get("p"), 10);
@@ -826,6 +970,7 @@ function writeURL(push){
   var p = new URLSearchParams();
   if(q) p.set("q", q);
   if(activeCat) p.set("cat", activeCat);
+  else if(activeField) p.set("f", activeField);
   if(activeTags.length) p.set("tag", activeTags.join(","));
   if(onlyPicks) p.set("pick", "1");
   if(activeSrc) p.set("src", activeSrc);
@@ -1071,68 +1216,56 @@ function recentHTML(L){
     }).join("")+'</div>';
 }
 
-function homeHTML(L){
-  var byCat = {};
-  data.forEach(function(d){ (byCat[d.cat] = byCat[d.cat] || []).push(d) });
+/* Bir kategori karti: ad, hacim cubugu, girisin ilk cumlesi ve orneklem.
+   Hem alan sayfasindaki alt kategori izgarasi hem de eski giris bunu kullanir. */
+function cardFor(key){
+  var c = CATBYKEY[key];
+  var rows = BYCAT[key] || [];
+  if(!c || !rows.length) return "";
+  var intro = (INTROS[key] || ["",""])[lang === "tr" ? 0 : 1];
+  /* Alfabetik ilk uc kayit kotu ornek oluyor ("1000 Projects, 20 Proje...").
+     Once o kategorinin baslangic noktalari, yetmezse arasindan secilenler. */
+  var sec = rows.filter(function(d){ return d.pick }).slice(0, 3);
+  if(sec.length < 3){
+    var step = Math.max(1, Math.floor(rows.length / 4));
+    for(var i = 0; i < rows.length && sec.length < 3; i += step){
+      if(sec.indexOf(rows[i]) < 0) sec.push(rows[i]);
+    }
+  }
+  var ornek = sec.map(function(d){ return d.name }).join(" · ");
+  var tier = rows.length >= 60 ? " lg" : (rows.length >= 34 ? " md" : "");
+  var pay = Math.round(rows.length / ENBUYUK * 100);
+  return '<a class="card'+tier+'" href="?cat='+esc(key)+'" data-cat="'+esc(key)+'">'+
+           '<span class="ch">'+esc(c[lang])+'<span class="n">'+rows.length+'</span></span>'+
+           '<span class="bar"><i style="width:'+pay+'%"></i></span>'+
+           '<p class="cd">'+esc(firstSentence(intro))+'</p>'+
+           '<span class="cs">'+esc(ornek)+'</span>'+
+         '</a>';
+}
 
+/* Giris: on kayit degil, on alan. Kullanici once bir alan (ust kategori)
+   secer; alana girince alt kategoriler, oradan kayitlar gelir. Her alan bir
+   cizgi amblemle temsil edilir. */
+function homeHTML(L){
   var picks = data.filter(function(d){ return d.pick });
-  /* Gunun secimi degil, kategoriye gore dagitilmis sabit bir orneklem:
-     her acilista ayni sey gorunsun, sayfa tahmin edilebilir kalsin. */
   var seen = {}, strip = [];
   picks.forEach(function(d){
     if(seen[d.cat] || strip.length >= 6) return;
     seen[d.cat] = 1; strip.push(d);
   });
 
-  var enBuyuk = 1;
-  CATS.forEach(function(c){ enBuyuk = Math.max(enBuyuk, (byCat[c.key] || []).length) });
-
-  var byKey = {};
-  CATS.forEach(function(c){ byKey[c.key] = c });
-
-  function cardFor(key){
-    var c = byKey[key];
-    var rows = byCat[key] || [];
-    if(!c || !rows.length) return "";
-    var intro = (INTROS[key] || ["",""])[lang === "tr" ? 0 : 1];
-    /* Alfabetik ilk uc kayit kotu ornek oluyor ("1000 Projects, 20 Proje...").
-       Once o kategorinin baslangic noktalari, yetmezse arasindan secilenler. */
-    var sec = rows.filter(function(d){ return d.pick }).slice(0, 3);
-    if(sec.length < 3){
-      var step = Math.max(1, Math.floor(rows.length / 4));
-      for(var i = 0; i < rows.length && sec.length < 3; i += step){
-        if(sec.indexOf(rows[i]) < 0) sec.push(rows[i]);
-      }
-    }
-    var ornek = sec.map(function(d){ return d.name }).join(" · ");
-    var tier = rows.length >= 60 ? " lg" : (rows.length >= 34 ? " md" : "");
-    var pay = Math.round(rows.length / enBuyuk * 100);
-    return '<a class="card'+tier+'" href="?cat='+esc(key)+'" data-cat="'+esc(key)+'">'+
-             '<span class="ch">'+esc(c[lang])+'<span class="n">'+rows.length+'</span></span>'+
-             '<span class="bar"><i style="width:'+pay+'%"></i></span>'+
-             '<p class="cd">'+esc(firstSentence(intro))+'</p>'+
-             '<span class="cs">'+esc(ornek)+'</span>'+
+  var cards = GROUPS.map(function(g){
+    var n = g.cats.reduce(function(s, k){ return s + (BYCAT[k] ? BYCAT[k].length : 0) }, 0);
+    if(!n) return "";
+    var subs = g.cats.filter(function(k){ return BYCAT[k] && BYCAT[k].length })
+                     .map(function(k){ return catName(k) }).join(" · ");
+    return '<a class="fcard" href="?f='+esc(g.key)+'" data-field="'+esc(g.key)+'">'+
+             '<span class="fg">'+glyph(g.key)+'</span>'+
+             '<span class="ft">'+esc(g[lang])+'<span class="n">'+n+'</span></span>'+
+             '<p class="fd">'+esc((L.fields||{})[g.key] || "")+'</p>'+
+             '<span class="fs">'+esc(subs)+'</span>'+
            '</a>';
-  }
-
-  /* Group category cards under their field heading. Any category not named in
-     a field (should not happen) falls through into a trailing "Diğer" block so
-     nothing is ever silently dropped. */
-  var placed = {}, fields = [];
-  GROUPS.forEach(function(g){
-    var cards = g.cats.map(function(k){ placed[k] = 1; return cardFor(k); }).join("");
-    if(!/<a /.test(cards)) return;
-    var fn = g.cats.reduce(function(s, k){ return s + (byCat[k] ? byCat[k].length : 0) }, 0);
-    fields.push(
-      '<section class="field"><h3 class="fh">'+esc(g[lang])+
-      '<span class="fn">'+fn+'</span></h3>'+
-      '<div class="cards">'+cards+'</div></section>');
-  });
-  var leftover = CATS.filter(function(c){ return !placed[c.key] })
-                     .map(function(c){ return cardFor(c.key) }).join("");
-  if(/<a /.test(leftover)) fields.push(
-    '<section class="field"><h3 class="fh">'+(lang==="tr"?"Diğer":"Other")+'</h3>'+
-    '<div class="cards">'+leftover+'</div></section>');
+  }).join("");
 
   return '<div class="home">'+
     '<p class="lead">'+L.lead(data.length, CATS.length)+'</p>'+
@@ -1144,12 +1277,27 @@ function homeHTML(L){
                  '<p>'+esc(firstSentence(descOf(d)))+'</p></div>';
         }).join("")+'</div>'
       : "")+
-    '<p class="hsec">'+esc(L.hCats)+'</p>'+
-    fields.join("")+
+    '<p class="hsec">'+esc(L.areas)+'</p>'+
+    '<div class="fcards">'+cards+'</div>'+
     '<p class="hlinks">'+
       '<a href="?new=1" data-recent="1">'+esc(L.recent)+' →</a>'+
       '<a href="?sort=az" data-all="1">'+esc(L.hAll)+'</a>'+
     '</p>'+
+  '</div>';
+}
+
+/* Alan sayfasi: bir amblem-baslik serlevhasi, ardindan o alanin alt kategori
+   kartlari. Karta tiklayinca kategori kayitlarina inilir. */
+function fieldHTML(fk, L){
+  var g = FIELDBYKEY[fk];
+  if(!g) return homeHTML(L);
+  var cards = g.cats.map(function(k){ return cardFor(k) }).join("");
+  var n = g.cats.reduce(function(s, k){ return s + (BYCAT[k] ? BYCAT[k].length : 0) }, 0);
+  return '<div class="home fieldpage">'+
+    '<div class="fhero"><span class="fhg">'+glyph(fk)+'</span>'+
+      '<div><h2 class="fht">'+esc(g[lang])+'<span class="n">'+n+'</span></h2>'+
+      '<p class="fhd">'+esc((L.fields||{})[fk] || "")+'</p></div></div>'+
+    '<div class="cards">'+cards+'</div>'+
   '</div>';
 }
 
@@ -1180,9 +1328,12 @@ function render(){
   if($("#q").value !== q) $("#q").value = q;
   $("#rand").textContent    = L.rand;
   $("#skip").textContent    = L.skip;
-  $("#back").textContent    = L.back;
+  /* Geri: bir kategorideysen alanina, bir alandaysan tum alanlara. */
+  $("#back").textContent    = (activeCat && FIELDBYKEY[activeField])
+                                ? "← " + FIELDBYKEY[activeField][lang]
+                                : (activeField ? L.backFields : L.back);
   $("#foot").innerHTML      = L.foot + "<br>" + L.kb;
-  $("#back").classList.toggle("show", !!(activeCat || single || recent));
+  $("#back").classList.toggle("show", !!(activeCat || activeField || single || recent));
 
   $("#sort").innerHTML = Object.keys(L.sorts).map(function(k){
     return '<option value="'+k+'"'+(k===sortBy?' selected':'')+'>'+esc(L.sorts[k])+'</option>';
@@ -1217,14 +1368,22 @@ function render(){
            (activeCat===key ? "on" : (n ? "" : "empty"))+
            '">'+esc(c[lang])+'<span class="n">'+n+'</span></a></li>';
   }
-  /* Grouped under field headings, mirroring the homepage. A category not in
-     any field falls through so nothing is dropped. */
-  var navPlaced = {}, navHTML = GROUPS.map(function(g){
-    var items = g.cats.map(function(k){ navPlaced[k]=1; return navItem(k); }).join("");
-    return /<a /.test(items) ? '<li class="navfield">'+esc(g[lang])+'</li>'+items : "";
-  }).join("");
-  navHTML += CATS.filter(function(c){ return !navPlaced[c.key] })
-                 .map(function(c){ return navItem(c.key) }).join("");
+  /* Ray baglama duyarli: bir alanin icindeysen (alan sayfasi veya bir
+     kategorisi) o alanin alt kategorilerini; degilsen alanlarin listesini
+     gosterir. Boylece "once alan, sonra alt kategori" gezinmesi rayda da izlenir. */
+  var navHTML;
+  if(activeField && FIELDBYKEY[activeField]){
+    var g = FIELDBYKEY[activeField];
+    navHTML = '<li class="navfield">'+esc(g[lang])+'</li>'+
+              g.cats.map(function(k){ return navItem(k) }).join("");
+  } else {
+    navHTML = GROUPS.map(function(gg){
+      var n = gg.cats.reduce(function(s, k){ return s + (counts[k] || 0) }, 0);
+      return '<li><a href="?f='+esc(gg.key)+'" data-field="'+esc(gg.key)+'" class="'+
+             (n ? "" : "empty")+'">'+esc(gg[lang])+
+             '<span class="n">'+n+'</span></a></li>';
+    }).join("");
+  }
   $("#nav").innerHTML = navHTML;
 
   $("#srcbar").innerHTML = srcbarHTML(L);
@@ -1253,11 +1412,11 @@ function render(){
     return;
   }
 
-  /* Giris gorunumu: hicbir suzgec yokken kayit degil kategori gosteriyoruz. */
-  if(!activeCat && !q && !activeTags.length && !onlyPicks && !activeSrc && !single && sortBy === "cat"){
-    $("#list").innerHTML = homeHTML(L);
-    return;
-  }
+  /* Gezinme gorunumleri: hicbir suzgec yokken kayit degil once alanlar,
+     bir alana girildiyse o alanin alt kategorileri gosterilir. */
+  var browsing = !q && !activeTags.length && !onlyPicks && !activeSrc && !single && sortBy === "cat";
+  if(browsing && !activeCat && !activeField){ $("#list").innerHTML = homeHTML(L); return; }
+  if(browsing && !activeCat && activeField){ $("#list").innerHTML = fieldHTML(activeField, L); return; }
 
   if(!shown.length){
     $("#list").innerHTML = '<p class="empty">'+L.empty+' <a href="#" id="clr"><code>'+L.clear+'</code></a></p>';
@@ -1278,7 +1437,7 @@ function render(){
 }
 
 function update(push){ writeURL(push); render(); }
-function clearAll(){ q=""; activeTags=[]; activeCat=null; onlyPicks=false; activeSrc=null; single=null; recent=false; pages={}; update(true) }
+function clearAll(){ q=""; activeTags=[]; activeCat=null; activeField=null; onlyPicks=false; activeSrc=null; single=null; recent=false; pages={}; update(true) }
 
 /* ------------------------------------------------------------ olaylar */
 var typeTimer;
@@ -1305,12 +1464,12 @@ document.addEventListener("click", function(e){
   var rc = e.target.closest("[data-recent]");
   if(rc){
     e.preventDefault();
-    recent = true; single = null; activeCat = null; q = ""; activeTags = [];
+    recent = true; single = null; activeCat = null; activeField = null; q = ""; activeTags = [];
     onlyPicks = false; activeSrc = null; pages = {}; update(true); scrollTop();
     return;
   }
   var all = e.target.closest("[data-all]");
-  if(all){ e.preventDefault(); sortBy = "az"; single = null; recent = false; pages = {}; update(true); return }
+  if(all){ e.preventDefault(); sortBy = "az"; single = null; recent = false; activeCat = null; activeField = null; pages = {}; update(true); return }
   if(e.target.closest("#tagmore")){ tagsOpen = !tagsOpen; render(); return }
   if(e.target.closest("#srcmore")){ srcOpen = !srcOpen; render(); return }
   if(e.target.closest("#pickbtn")){ onlyPicks = !onlyPicks; single = null; recent = false; pages = {}; update(true); return }
@@ -1332,7 +1491,7 @@ document.addEventListener("click", function(e){
     e.preventDefault();
     var target = NAMEIDX[rl.dataset.rel];
     if(target){
-      q = target.name; activeTags = []; activeCat = null; onlyPicks = false; activeSrc = null;
+      q = target.name; activeTags = []; activeCat = null; activeField = null; onlyPicks = false; activeSrc = null;
       pages = {}; update(true); scrollTop();
     }
     return;
@@ -1344,11 +1503,21 @@ document.addEventListener("click", function(e){
     single = null; recent = false; pages = {}; update(true); return;
   }
   if(e.target.closest("#clr")){ e.preventDefault(); clearAll(); return; }
+  /* Bir alan (ust kategori) secildi: alan sayfasina in. */
+  var fv = e.target.closest("[data-field]");
+  if(fv){
+    e.preventDefault();
+    activeField = fv.dataset.field; activeCat = null;
+    q = ""; activeTags = []; onlyPicks = false; activeSrc = null;
+    single = null; recent = false; pages = {}; update(true); scrollTop();
+    return;
+  }
   var nv = e.target.closest("[data-cat]");
   if(nv){
     e.preventDefault();
     var c = nv.dataset.cat;
-    activeCat = (activeCat === c) ? null : c;
+    if(activeCat === c){ activeCat = null; }          /* geri: alan sayfasina don */
+    else { activeCat = c; activeField = CATFIELD[c] || activeField; }
     single = null; recent = false; /* tek kayit ve son eklenenlerden cikiyoruz */
     pages = {}; update(true); scrollTop();
     return;
@@ -1358,7 +1527,11 @@ document.addEventListener("click", function(e){
 addEventListener("popstate", function(){ readURL(); render() });
 
 $("#back").addEventListener("click", function(){
-  activeCat = null; single = null; recent = false;
+  /* Adimli geri: tek kayit/son eklenen -> ciktigi yer; kategori -> alan
+     sayfasi; alan -> tum alanlar (giris). */
+  if(single || recent){ single = null; recent = false; }
+  else if(activeCat){ activeCat = null; }   /* activeField korunur: alan sayfasi */
+  else if(activeField){ activeField = null; }
   pages = {}; update(true); scrollTop();
 });
 
