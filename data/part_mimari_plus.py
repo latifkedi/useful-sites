@@ -103,12 +103,12 @@ def load(add):
       'örnek olay ve araçları bir arada, konu konu toplaması.',
       'A list of resources for designing and documenting software architecture. Unlike a single book it '
       'gathers patterns, case studies and tools together, topic by topic.', 'backend', AL),
-    a('https://github.com/lutzh/awesome-event-driven', 'Awesome Event-Driven Architecture',
+    a('https://github.com/heynickc/awesome-ddd', 'Awesome DDD',
       ['awesome-liste', 'github', 'sistem-tasarımı', 'backend'],
-      'Olay güdümlü mimari için kaynak, araç ve makale listesi. Genel mimari listelerinden farkı '
-      'yalnız asenkron, olay temelli tasarıma odaklanması.',
-      'A list of resources, tools and articles for event-driven architecture. Unlike general '
-      'architecture lists it focuses only on asynchronous, event-based design.', 'backend', AL),
+      'Alan güdümlü tasarım (DDD), CQRS ve olay kaynaklı (event sourcing) mimari için kaynak, kitap '
+      've örnek listesi. Genel mimari listelerinden farkı bu üç birbirine bağlı yaklaşıma odaklanması.',
+      'A list of resources, books and samples for domain-driven design (DDD), CQRS and event sourcing. '
+      'Unlike general architecture lists it focuses on these three connected approaches.', 'backend', AL),
 
     # ==================================================== DONANIM
     a('https://github.com/Kiloreux/awesome-robotics', 'Awesome Robotics', ['awesome-liste', 'github', 'donanım', 'gömülü'],

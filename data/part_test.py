@@ -147,8 +147,8 @@ def load(add):
       'listelerinden farkı tek araca ve onun betik ekosistemine odaklanması.',
       'A resource list for k6, the developer-centric load and performance testing tool. Unlike general '
       'performance lists it focuses on one tool and its scripting ecosystem.', 'test', A),
-    a('https://github.com/fityanos/awesome-quality-assurance', 'Awesome QA Roadmap', ['awesome-liste', 'github', 'ogrenme'],
-      'Yazılım testinde kariyere nasıl başlanacağını ve nasıl ilerleneceğini toplayan yol haritası. Araç '
-      'listelerinden farkı sıralı bir öğrenme patikası çizmesi.',
-      'A roadmap gathering how to start and grow a career in software testing. Unlike tool lists it draws '
-      'an ordered learning path.', 'test', A),
+    a('https://github.com/atinfo/awesome-test-automation', 'Awesome Test Automation', ['awesome-liste', 'github', 'otomasyon'],
+      'Test otomasyonu çatıları, araçları ve kaynaklarını dile ve platforma göre derleyen liste. '
+      'Dağınık araç aramalarından farkı hepsini tek, düzenli yerde toplaması.',
+      'A list gathering test-automation frameworks, tools and resources by language and platform. '
+      'Unlike scattered searches it collects them all in one organised place.', 'test', A),
