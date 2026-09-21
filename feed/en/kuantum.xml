@@ -42,6 +42,20 @@
   <summary>A browser-based laboratory for designing and simulating quantum optics experiments. Against Quantum Flytrap it aims at research-grade accuracy rather than gamification, enough to stand in for a teaching lab.</summary>
 </entry>
 <entry>
+  <title>Classiq</title>
+  <link href="https://www.classiq.io"/>
+  <id>https://www.classiq.io</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A high-level platform that synthesises quantum circuits from functional models.</summary>
+</entry>
+<entry>
+  <title>PennyLane</title>
+  <link href="https://pennylane.ai"/>
+  <id>https://pennylane.ai</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A differentiable-programming framework for quantum machine learning (by Xanadu).</summary>
+</entry>
+<entry>
   <title>Qiskit</title>
   <link href="https://www.ibm.com/quantum/qiskit"/>
   <id>https://www.ibm.com/quantum/qiskit</id>
@@ -49,11 +63,53 @@
   <summary>IBM’s open-source quantum programming framework, giving access to real quantum hardware. Unlike pure simulators it runs the circuit you write on a real quantum processor over the cloud.</summary>
 </entry>
 <entry>
+  <title>Quantiki</title>
+  <link href="https://quantiki.org"/>
+  <id>https://quantiki.org</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A long-running community wiki and resource directory on quantum computing and information.</summary>
+</entry>
+<entry>
+  <title>Quantum Algorithm Zoo</title>
+  <link href="https://quantumalgorithmzoo.org"/>
+  <id>https://quantumalgorithmzoo.org</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A comprehensive, annotated and cited catalogue of known quantum algorithms.</summary>
+</entry>
+<entry>
+  <title>Quantum Computing Report</title>
+  <link href="https://quantumcomputingreport.com"/>
+  <id>https://quantumcomputingreport.com</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A news source tracking the quantum industry, hardware roadmaps and companies.</summary>
+</entry>
+<entry>
   <title>Quantum Country</title>
   <link href="https://quantum.country/"/>
   <id>https://quantum.country/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>A site teaching quantum computing as a “book” with spaced-repetition built in. Unlike classic texts it interleaves questions so you do not forget what you read.</summary>
+</entry>
+<entry>
+  <title>QuTiP</title>
+  <link href="https://qutip.org"/>
+  <id>https://qutip.org</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The standard open-source Python library for simulating the dynamics of open quantum systems.</summary>
+</entry>
+<entry>
+  <title>Shtetl-Optimized (Scott Aaronson)</title>
+  <link href="https://scottaaronson.blog"/>
+  <id>https://scottaaronson.blog</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The candid, authoritative blog of a leading figure in quantum complexity theory.</summary>
+</entry>
+<entry>
+  <title>The Quantum Insider</title>
+  <link href="https://thequantuminsider.com"/>
+  <id>https://thequantuminsider.com</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A news publication covering the quantum industry broadly and daily.</summary>
 </entry>
 <entry>
   <title>TensorFlow Quantum</title>

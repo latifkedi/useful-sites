@@ -7,6 +7,13 @@
 <id>https://latifkedi.github.io/useful-sites/feed/veri_muh.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Airbyte</title>
+  <link href="https://airbyte.com"/>
+  <id>https://airbyte.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Geniş bağlayıcı kataloğuyla açık kaynak veri entegrasyonu (ELT); kendi sunucunda barındırılabilir.</summary>
+</entry>
+<entry>
   <title>Apache Flink</title>
   <link href="https://flink.apache.org/"/>
   <id>https://flink.apache.org/</id>
@@ -63,11 +70,32 @@
   <summary>Apache Spark ekosistemi için paket, öğretici ve örnek listesi. Resmî dokümandan farkı topluluk kütüphanelerini ve gerçek dünya örneklerini toplaması.</summary>
 </entry>
 <entry>
+  <title>ClickHouse</title>
+  <link href="https://clickhouse.com"/>
+  <id>https://clickhouse.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Analitik için sütun temelli OLAP veritabanı; büyük ölçekte çok hızlı toplama yapar.</summary>
+</entry>
+<entry>
   <title>Dagster</title>
   <link href="https://dagster.io/"/>
   <id>https://dagster.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Veri varlıklarını merkeze alan orkestratör; her tabloyu bir “varlık” olarak izliyor. Airflow’dan farkı görevden çok üretilen veriye odaklanıp veri kalitesini yerleşik tutması.</summary>
+</entry>
+<entry>
+  <title>Data Engineering Podcast</title>
+  <link href="https://www.dataengineeringpodcast.com"/>
+  <id>https://www.dataengineeringpodcast.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Veri mühendisliği araç ve mimarilerini derinlemesine konuşan uzun söyleşiler.</summary>
+</entry>
+<entry>
+  <title>DataTalks.Club</title>
+  <link href="https://datatalks.club"/>
+  <id>https://datatalks.club</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Uygulamalı veri mühendisliği ve ML kampları (zoomcamp) sunan ücretsiz topluluk.</summary>
 </entry>
 <entry>
   <title>dbt</title>
@@ -77,11 +105,25 @@
   <summary>Veri ambarındaki dönüşümleri SQL + sürüm kontrolü + test ile yöneten araç. El yazımı SQL betiklerinden farkı bağımlılık grafiği, belge ve testi bir yazılım projesi gibi getirmesi.</summary>
 </entry>
 <entry>
+  <title>Delta Lake</title>
+  <link href="https://delta.io"/>
+  <id>https://delta.io</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Veri göllerine ACID işlemleri ve zaman-yolculuğu getiren açık depolama katmanı.</summary>
+</entry>
+<entry>
   <title>DuckDB</title>
   <link href="https://duckdb.org/"/>
   <id>https://duckdb.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Süreç içinde çalışan analitik veritabanı — kurulum yok, dosyayı doğrudan sorguluyor. Sunucu gerektiren ambarlardan farkı tek makinede, Parquet/CSV üstünde “SQLite hızında OLAP” olması.</summary>
+</entry>
+<entry>
+  <title>Great Expectations</title>
+  <link href="https://greatexpectations.io"/>
+  <id>https://greatexpectations.io</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Veriyi bildirimsel kurallarla doğrulayan ve belgeleyen veri kalitesi çatısı.</summary>
 </entry>
 <entry>
   <title>Hamilton</title>
@@ -91,11 +133,25 @@
   <summary>Veri dönüşümlerini fonksiyonlardan bir grafik olarak kuran hafif Python kütüphanesi. Ağır orkestratörlerden farkı tek dosyada, altyapı gerektirmeden bağımlılık grafiği vermesi.</summary>
 </entry>
 <entry>
+  <title>Meltano</title>
+  <link href="https://meltano.com"/>
+  <id>https://meltano.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Singer temelli, komut satırı ve yapılandırma odaklı açık kaynak DataOps ELT platformu.</summary>
+</entry>
+<entry>
   <title>Spark Internals</title>
   <link href="https://github.com/JerryLead/SparkInternals"/>
   <id>https://github.com/JerryLead/SparkInternals</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Apache Spark’ın içeride nasıl çalıştığını — zamanlama, karıştırma, bellek — anlatan derin belge. Kullanım kılavuzundan farkı motorun altını açması, performans ayarı için.</summary>
+</entry>
+<entry>
+  <title>Trino</title>
+  <link href="https://trino.io"/>
+  <id>https://trino.io</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Veriyi bulunduğu yerde sorgulayan dağıtık SQL sorgu motoru; birçok kaynağı birleştirir.</summary>
 </entry>
 <entry>
   <title>Data Engineering Zoomcamp</title>

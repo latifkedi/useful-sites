@@ -98,6 +98,76 @@
   <summary>A list of resources and models for TensorFlow, the machine-intelligence library.</summary>
 </entry>
 <entry>
+  <title>AWS Open Data Registry</title>
+  <link href="https://registry.opendata.aws"/>
+  <id>https://registry.opendata.aws</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A registry of large public datasets hosted on AWS.</summary>
+</entry>
+<entry>
+  <title>data.europa.eu</title>
+  <link href="https://data.europa.eu"/>
+  <id>https://data.europa.eu</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>The European Union's official open-data portal.</summary>
+</entry>
+<entry>
+  <title>Data.gov</title>
+  <link href="https://data.gov"/>
+  <id>https://data.gov</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>The US government's open-data portal — canonical federal datasets.</summary>
+</entry>
+<entry>
+  <title>DataHub</title>
+  <link href="https://datahub.io"/>
+  <id>https://datahub.io</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Curated open datasets in ready CSV/JSON form, plus tooling.</summary>
+</entry>
+<entry>
+  <title>Figshare</title>
+  <link href="https://figshare.com"/>
+  <id>https://figshare.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A platform for sharing research outputs and datasets in a citable form.</summary>
+</entry>
+<entry>
+  <title>Gapminder</title>
+  <link href="https://www.gapminder.org"/>
+  <id>https://www.gapminder.org</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Tools and resources presenting global development data through fact-based visualisations.</summary>
+</entry>
+<entry>
+  <title>Humanitarian Data Exchange</title>
+  <link href="https://data.humdata.org"/>
+  <id>https://data.humdata.org</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Crisis and humanitarian datasets curated by OCHA.</summary>
+</entry>
+<entry>
+  <title>Opendatasoft</title>
+  <link href="https://www.opendatasoft.com"/>
+  <id>https://www.opendatasoft.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A data-portal platform offering searchable datasets across many portals.</summary>
+</entry>
+<entry>
+  <title>re3data</title>
+  <link href="https://www.re3data.org"/>
+  <id>https://www.re3data.org</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A registry of research-data repositories that helps you find the right one.</summary>
+</entry>
+<entry>
+  <title>Zenodo</title>
+  <link href="https://zenodo.org"/>
+  <id>https://zenodo.org</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A CERN-backed open research repository that mints DOIs for datasets and software.</summary>
+</entry>
+<entry>
   <title>Academic Torrents</title>
   <link href="https://academictorrents.com/"/>
   <id>https://academictorrents.com/</id>
@@ -215,75 +285,5 @@
   <id>https://plotly.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>An interactive charting library with zoom, tooltips and selection built in. Matplotlib produces a static image; this produces a chart you can explore in the browser.</summary>
-</entry>
-<entry>
-  <title>Polars</title>
-  <link href="https://pola.rs/"/>
-  <id>https://pola.rs/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A DataFrame library written in Rust. Unlike pandas it uses every core and optimises the query before running it through lazy evaluation, which makes it multiples faster on large files.</summary>
-</entry>
-<entry>
-  <title>Power BI</title>
-  <link href="https://app.powerbi.com/"/>
-  <id>https://app.powerbi.com/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Microsoft’s business intelligence tool with native connections to Excel and Azure sources. If the organisation is already on Microsoft 365, its real edge over Tableau is a licence that is already paid for.</summary>
-</entry>
-<entry>
-  <title>PySpark</title>
-  <link href="https://spark.apache.org/docs/latest/api/python/index.html"/>
-  <id>https://spark.apache.org/docs/latest/api/python/index.html</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Apache Spark’s Python interface, for when the data no longer fits on one machine. It offers a pandas-like API while distributing the work across a cluster.</summary>
-</entry>
-<entry>
-  <title>scikit-learn</title>
-  <link href="https://scikit-learn.org/stable/"/>
-  <id>https://scikit-learn.org/stable/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The standard Python library for classical machine learning — classification, regression, clustering and preprocessing behind one `fit`/`predict` interface. The common ground for everything before deep learning.</summary>
-</entry>
-<entry>
-  <title>seaborn</title>
-  <link href="https://seaborn.pydata.org/"/>
-  <id>https://seaborn.pydata.org/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A statistical plotting library on top of Matplotlib, reducing distribution, relationship and category plots to one line — with sane defaults out of the box.</summary>
-</entry>
-<entry>
-  <title>SerpentAI</title>
-  <link href="https://github.com/SerpentAI/SerpentAI"/>
-  <id>https://github.com/SerpentAI/SerpentAI</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A framework turning any video game into a reinforcement learning environment — working against real games rather than simulations is what makes it unusual.</summary>
-</entry>
-<entry>
-  <title>Streamlit</title>
-  <link href="https://streamlit.io/"/>
-  <id>https://streamlit.io/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Turns a Python script into a web app in a few lines with no HTML, CSS or JavaScript — the shortest path for a data scientist to show a model to a stakeholder.</summary>
-</entry>
-<entry>
-  <title>Tableau</title>
-  <link href="https://www.tableau.com/"/>
-  <id>https://www.tableau.com/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A drag-and-drop business intelligence platform for building dashboards without code. Common in enterprise reporting and weak on reproducibility and version control.</summary>
-</entry>
-<entry>
-  <title>TensorFlow</title>
-  <link href="https://www.tensorflow.org"/>
-  <id>https://www.tensorflow.org</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Google’s deep learning framework. It lost research ground to PyTorch, yet remains strong for mobile and embedded deployment (TF Lite) and production serving (TF Serving).</summary>
-</entry>
-<entry>
-  <title>Train LLM from Scratch</title>
-  <link href="https://github.com/FareedKhan-dev/train-llm-from-scratch"/>
-  <id>https://github.com/FareedKhan-dev/train-llm-from-scratch</id>
-  <updated>2026-08-04T22:56:12Z</updated>
-  <summary>Shows the whole pipeline in working code, from data download to distributed training — the infrastructure side theoretical write-ups usually skip.</summary>
 </entry>
 </feed>

@@ -7,6 +7,13 @@
 <id>https://latifkedi.github.io/useful-sites/feed/en/veri_muh.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Airbyte</title>
+  <link href="https://airbyte.com"/>
+  <id>https://airbyte.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Open-source data integration (ELT) with a huge connector catalogue; self-hostable.</summary>
+</entry>
+<entry>
   <title>Apache Flink</title>
   <link href="https://flink.apache.org/"/>
   <id>https://flink.apache.org/</id>
@@ -63,11 +70,32 @@
   <summary>A list of packages, tutorials and examples for the Apache Spark ecosystem. Unlike the official docs it gathers community libraries and real-world examples.</summary>
 </entry>
 <entry>
+  <title>ClickHouse</title>
+  <link href="https://clickhouse.com"/>
+  <id>https://clickhouse.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A columnar OLAP database for analytics, extremely fast at aggregations at scale.</summary>
+</entry>
+<entry>
   <title>Dagster</title>
   <link href="https://dagster.io/"/>
   <id>https://dagster.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>An orchestrator centred on data assets, tracking each table as an “asset”. Unlike Airflow it focuses on the data produced rather than the task, with data quality built in.</summary>
+</entry>
+<entry>
+  <title>Data Engineering Podcast</title>
+  <link href="https://www.dataengineeringpodcast.com"/>
+  <id>https://www.dataengineeringpodcast.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Long-form interviews digging deep into data-engineering tools and architectures.</summary>
+</entry>
+<entry>
+  <title>DataTalks.Club</title>
+  <link href="https://datatalks.club"/>
+  <id>https://datatalks.club</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A free community offering hands-on data-engineering and ML zoomcamps.</summary>
 </entry>
 <entry>
   <title>dbt</title>
@@ -77,11 +105,25 @@
   <summary>A tool managing data-warehouse transformations with SQL + version control + tests. Unlike hand-written SQL scripts it brings a dependency graph, docs and tests like a software project.</summary>
 </entry>
 <entry>
+  <title>Delta Lake</title>
+  <link href="https://delta.io"/>
+  <id>https://delta.io</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>An open storage layer bringing ACID transactions and time travel to data lakes.</summary>
+</entry>
+<entry>
   <title>DuckDB</title>
   <link href="https://duckdb.org/"/>
   <id>https://duckdb.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>An in-process analytical database — no server, it queries files directly. Unlike server-based warehouses it is “OLAP at SQLite speed” on one machine, over Parquet/CSV.</summary>
+</entry>
+<entry>
+  <title>Great Expectations</title>
+  <link href="https://greatexpectations.io"/>
+  <id>https://greatexpectations.io</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A data-quality framework that validates and documents data with declarative expectations.</summary>
 </entry>
 <entry>
   <title>Hamilton</title>
@@ -91,11 +133,25 @@
   <summary>A lightweight Python library that builds data transformations as a graph from functions. Unlike heavy orchestrators it gives a dependency graph in a single file with no infrastructure.</summary>
 </entry>
 <entry>
+  <title>Meltano</title>
+  <link href="https://meltano.com"/>
+  <id>https://meltano.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>An open-source DataOps ELT platform, Singer-based and CLI/config-driven.</summary>
+</entry>
+<entry>
   <title>Spark Internals</title>
   <link href="https://github.com/JerryLead/SparkInternals"/>
   <id>https://github.com/JerryLead/SparkInternals</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A deep document on how Apache Spark works inside — scheduling, shuffle, memory. Unlike a usage guide it opens up the engine, for performance tuning.</summary>
+</entry>
+<entry>
+  <title>Trino</title>
+  <link href="https://trino.io"/>
+  <id>https://trino.io</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A distributed SQL query engine that queries data where it lives, across many sources.</summary>
 </entry>
 <entry>
   <title>Data Engineering Zoomcamp</title>
