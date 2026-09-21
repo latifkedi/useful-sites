@@ -7,6 +7,20 @@
 <id>https://latifkedi.github.io/useful-sites/feed/en/korsan.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Anna's Archive</title>
+  <link href="https://annas-archive.org"/>
+  <id>https://annas-archive.org</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A search engine that unifies shadow libraries (Library Genesis, Sci-Hub, Z-Library) in one interface.</summary>
+</entry>
+<entry>
+  <title>archive.today</title>
+  <link href="https://archive.today"/>
+  <id>https://archive.today</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>An archiver that freezes a page exactly as it is and produces a permanent snapshot.</summary>
+</entry>
+<entry>
   <title>Awesome Piracy</title>
   <link href="https://github.com/Igglybuff/awesome-piracy"/>
   <id>https://github.com/Igglybuff/awesome-piracy</id>
@@ -21,6 +35,27 @@
   <summary>A companion that automatically finds and downloads subtitles for your Sonarr/Radarr library. Unlike hunting subtitles by hand it rules the language and quality and keeps filling gaps.</summary>
 </entry>
 <entry>
+  <title>CORE</title>
+  <link href="https://core.ac.uk"/>
+  <id>https://core.ac.uk</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>The largest aggregator gathering the world's open-access research papers in one place.</summary>
+</entry>
+<entry>
+  <title>DOAB — Directory of Open Access Books</title>
+  <link href="https://www.doabooks.org"/>
+  <id>https://www.doabooks.org</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A directory of peer-reviewed open-access academic books.</summary>
+</entry>
+<entry>
+  <title>DOAJ — Directory of Open Access Journals</title>
+  <link href="https://doaj.org"/>
+  <id>https://doaj.org</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A vetted directory of peer-reviewed open-access journals — legal and free.</summary>
+</entry>
+<entry>
   <title>FMHY</title>
   <link href="https://fmhy.net/"/>
   <id>https://fmhy.net/</id>
@@ -33,6 +68,13 @@
   <id>https://www.reddit.com/r/trackers/wiki/gettingintoprivatetrackers/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A community guide to how private torrent trackers work and how to get in. Unlike rumour it explains the ratio, invite and rules systems step by step.</summary>
+</entry>
+<entry>
+  <title>Internet Archive</title>
+  <link href="https://archive.org"/>
+  <id>https://archive.org</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A vast digital archive preserving the web, books, audio and video — home of the Wayback Machine.</summary>
 </entry>
 <entry>
   <title>IPFS</title>
@@ -56,6 +98,27 @@
   <summary>Open-source media-centre software gathering local and network media in one interface. Unlike the server model it runs directly on the device and extends through add-ons.</summary>
 </entry>
 <entry>
+  <title>Library Genesis</title>
+  <link href="https://libgen.is"/>
+  <id>https://libgen.is</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A widely used shadow library hosting books and academic articles.</summary>
+</entry>
+<entry>
+  <title>LibreTexts</title>
+  <link href="https://libretexts.org"/>
+  <id>https://libretexts.org</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A free platform compiling university-level open textbooks subject by subject.</summary>
+</entry>
+<entry>
+  <title>Open Library</title>
+  <link href="https://openlibrary.org"/>
+  <id>https://openlibrary.org</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Internet Archive's open catalogue aiming for a page per book, lending many of them.</summary>
+</entry>
+<entry>
   <title>Overseerr</title>
   <link href="https://overseerr.dev/"/>
   <id>https://overseerr.dev/</id>
@@ -63,11 +126,25 @@
   <summary>A request interface that takes the household’s film/series requests and passes them to the *arr tools. Unlike direct server access it lets a non-technical user request with a button.</summary>
 </entry>
 <entry>
+  <title>Perma.cc</title>
+  <link href="https://perma.cc"/>
+  <id>https://perma.cc</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Creates permanent archived copies of cited links to stop link rot; library-backed.</summary>
+</entry>
+<entry>
   <title>Plex</title>
   <link href="https://www.plex.tv/"/>
   <id>https://www.plex.tv/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A server that organises your own media library and streams it to any device. Unlike folder sharing it auto-fetches posters, summaries and subtitles and builds a Netflix-like interface.</summary>
+</entry>
+<entry>
+  <title>Project Gutenberg</title>
+  <link href="https://www.gutenberg.org"/>
+  <id>https://www.gutenberg.org</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>The oldest digital library, offering 70,000+ public-domain classics for free.</summary>
 </entry>
 <entry>
   <title>Prowlarr</title>
@@ -112,11 +189,25 @@
   <summary>An open-source client that automates Usenet downloads — including verification, repair and extraction. Unlike manual downloading it takes an NZB and completes the whole chain itself.</summary>
 </entry>
 <entry>
+  <title>Sci-Hub</title>
+  <link href="https://sci-hub.se"/>
+  <id>https://sci-hub.se</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A controversial repository providing access to paywalled academic papers.</summary>
+</entry>
+<entry>
   <title>Sonarr</title>
   <link href="https://sonarr.tv/"/>
   <id>https://sonarr.tv/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A tool that watches TV series and automatically fetches and organises new episodes via a downloader. Unlike manual tracking it puts quality, naming and archiving under rules.</summary>
+</entry>
+<entry>
+  <title>Standard Ebooks</title>
+  <link href="https://standardebooks.org"/>
+  <id>https://standardebooks.org</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A volunteer project that carefully typesets and formats public-domain books, free.</summary>
 </entry>
 <entry>
   <title>Tautulli</title>
@@ -131,5 +222,12 @@
   <id>https://transmissionbt.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A lightweight, open-source BitTorrent client that can run headless on a server. Unlike desktop clients it uses few resources and suits remote management.</summary>
+</entry>
+<entry>
+  <title>Unpaywall</title>
+  <link href="https://unpaywall.org"/>
+  <id>https://unpaywall.org</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A tool and browser extension that finds legal open-access copies of paywalled papers.</summary>
 </entry>
 </feed>
