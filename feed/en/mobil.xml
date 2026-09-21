@@ -7,6 +7,20 @@
 <id>https://latifkedi.github.io/useful-sites/feed/en/mobil.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Android Developers</title>
+  <link href="https://developer.android.com"/>
+  <id>https://developer.android.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>The official Android developer documentation, tools and guides.</summary>
+</entry>
+<entry>
+  <title>Apple Developer</title>
+  <link href="https://developer.apple.com"/>
+  <id>https://developer.apple.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>The official developer documentation and resources for iOS and Apple platforms.</summary>
+</entry>
+<entry>
   <title>Awesome Android</title>
   <link href="https://github.com/JStumpp/awesome-android"/>
   <id>https://github.com/JStumpp/awesome-android</id>
@@ -89,6 +103,97 @@
   <id>https://github.com/yenchenlin/awesome-watchos</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A resource list for Apple Watch (watchOS) app development.</summary>
+</entry>
+<entry>
+  <title>Capacitor</title>
+  <link href="https://capacitorjs.com"/>
+  <id>https://capacitorjs.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A native runtime that wraps a web app in a native shell with access to device APIs.</summary>
+</entry>
+<entry>
+  <title>CocoaPods</title>
+  <link href="https://cocoapods.org"/>
+  <id>https://cocoapods.org</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A widely used dependency manager for iOS and Apple projects.</summary>
+</entry>
+<entry>
+  <title>fastlane</title>
+  <link href="https://fastlane.tools"/>
+  <id>https://fastlane.tools</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>An open-source tool that automates mobile builds, screenshots and store releases.</summary>
+</entry>
+<entry>
+  <title>Hacking with Swift</title>
+  <link href="https://www.hackingwithswift.com"/>
+  <id>https://www.hackingwithswift.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Learn Swift and SwiftUI through projects, known for its free &quot;100 Days&quot; courses.</summary>
+</entry>
+<entry>
+  <title>Ionic</title>
+  <link href="https://ionicframework.com"/>
+  <id>https://ionicframework.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>An open-source framework for building cross-platform mobile UIs with web technologies.</summary>
+</entry>
+<entry>
+  <title>Kodeco</title>
+  <link href="https://www.kodeco.com"/>
+  <id>https://www.kodeco.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>In-depth mobile-development tutorials for iOS, Android and Flutter (formerly raywenderlich).</summary>
+</entry>
+<entry>
+  <title>Material Design</title>
+  <link href="https://m3.material.io"/>
+  <id>https://m3.material.io</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Google's open design system and UI guidelines — the basis of the Android interface.</summary>
+</entry>
+<entry>
+  <title>NativeScript</title>
+  <link href="https://nativescript.org"/>
+  <id>https://nativescript.org</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Builds truly native mobile apps from JavaScript, TypeScript, Vue or Angular.</summary>
+</entry>
+<entry>
+  <title>objc.io</title>
+  <link href="https://www.objc.io"/>
+  <id>https://www.objc.io</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Books and video series on advanced Swift and iOS.</summary>
+</entry>
+<entry>
+  <title>ProAndroidDev</title>
+  <link href="https://proandroiddev.com"/>
+  <id>https://proandroiddev.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A community publication of advanced Android-engineering articles.</summary>
+</entry>
+<entry>
+  <title>pub.dev</title>
+  <link href="https://pub.dev"/>
+  <id>https://pub.dev</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>The official package registry for Dart and Flutter.</summary>
+</entry>
+<entry>
+  <title>React Native</title>
+  <link href="https://reactnative.dev"/>
+  <id>https://reactnative.dev</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>The official docs of the cross-platform framework for building native mobile apps with React.</summary>
+</entry>
+<entry>
+  <title>Swift by Sundell</title>
+  <link href="https://www.swiftbysundell.com"/>
+  <id>https://www.swiftbysundell.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Deep articles and a podcast on Swift, by John Sundell.</summary>
 </entry>
 <entry>
   <title>XDA Forums</title>
@@ -180,40 +285,5 @@
   <id>https://www.youtube.com/user/ThinMatrix/videos</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>An indie developer’s devlog alongside an OpenGL tutorial series. Unlike engine tutorials he writes the engine from scratch, which shows what sits underneath the abstraction.</summary>
-</entry>
-<entry>
-  <title>Rive (Flutter)</title>
-  <link href="https://rive.app/docs/runtimes/flutter/flutter"/>
-  <id>https://rive.app/docs/runtimes/flutter/flutter</id>
-  <updated>2026-08-01T23:24:59Z</updated>
-  <summary>Embeds vector animation into an app. Unlike Lottie the animation carries a state machine and reacts to user interaction, and the file size is markedly smaller.</summary>
-</entry>
-<entry>
-  <title>Electron</title>
-  <link href="https://www.electronjs.org/"/>
-  <id>https://www.electronjs.org/</id>
-  <updated>2026-04-29T17:07:52Z</updated>
-  <summary>Bundles Chromium and Node.js to ship desktop apps built with web technology. VS Code and Slack were built this way — and its memory footprint is criticised for the same reason.</summary>
-</entry>
-<entry>
-  <title>Electron Dokümantasyonu</title>
-  <link href="https://www.electronjs.org/docs/latest"/>
-  <id>https://www.electronjs.org/docs/latest</id>
-  <updated>2026-04-20T13:01:29Z</updated>
-  <summary>Reference for the main/renderer process split and the IPC between them. The contextIsolation and nodeIntegration settings are security-critical — leave the defaults alone.</summary>
-</entry>
-<entry>
-  <title>Expo</title>
-  <link href="https://docs.expo.dev/"/>
-  <id>https://docs.expo.dev/</id>
-  <updated>2026-04-20T13:01:29Z</updated>
-  <summary>Makes React Native developable without installing Xcode or Android Studio, with EAS building in the cloud. Adding native modules is no longer the obstacle it once was.</summary>
-</entry>
-<entry>
-  <title>Flutter</title>
-  <link href="https://docs.flutter.dev/learn"/>
-  <id>https://docs.flutter.dev/learn</id>
-  <updated>2026-04-20T13:01:28Z</updated>
-  <summary>Draws every pixel itself through Skia/Impeller rather than using platform widgets, so iOS and Android look identical. A strength if that is what you want, a problem if it is not.</summary>
 </entry>
 </feed>

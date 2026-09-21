@@ -7,6 +7,20 @@
 <id>https://latifkedi.github.io/useful-sites/feed/en/devops.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Ansible</title>
+  <link href="https://www.ansible.com"/>
+  <id>https://www.ansible.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Agentless configuration management and automation that provisions servers with YAML playbooks.</summary>
+</entry>
+<entry>
+  <title>Argo</title>
+  <link href="https://argoproj.github.io"/>
+  <id>https://argoproj.github.io</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A suite of Kubernetes-native workflow and GitOps continuous-delivery tools (Argo CD, Workflows).</summary>
+</entry>
+<entry>
   <title>Awesome Actions</title>
   <link href="https://github.com/sdras/awesome-actions"/>
   <id>https://github.com/sdras/awesome-actions</id>
@@ -89,6 +103,69 @@
   <id>https://www.cloudflare.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Infrastructure offering CDN, DNS, DDoS protection and edge computing in one platform. Unlike separate services it unites them in one dashboard with a generous free tier.</summary>
+</entry>
+<entry>
+  <title>Earthly</title>
+  <link href="https://earthly.dev"/>
+  <id>https://earthly.dev</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A build-automation tool giving repeatable builds that behave the same locally and in CI.</summary>
+</entry>
+<entry>
+  <title>Harbor</title>
+  <link href="https://goharbor.io"/>
+  <id>https://goharbor.io</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A private container-image registry with security scanning and access control.</summary>
+</entry>
+<entry>
+  <title>Helm</title>
+  <link href="https://helm.sh"/>
+  <id>https://helm.sh</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A package manager that packages and deploys Kubernetes applications as charts.</summary>
+</entry>
+<entry>
+  <title>K9s</title>
+  <link href="https://k9scli.io"/>
+  <id>https://k9scli.io</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A fast, interactive terminal UI for managing Kubernetes clusters.</summary>
+</entry>
+<entry>
+  <title>Kubernetes</title>
+  <link href="https://kubernetes.io"/>
+  <id>https://kubernetes.io</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>The official site of the open-source system that deploys, manages and heals containers at scale.</summary>
+</entry>
+<entry>
+  <title>OpenTofu</title>
+  <link href="https://opentofu.org"/>
+  <id>https://opentofu.org</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A community-driven open-source fork of Terraform that runs the same configurations.</summary>
+</entry>
+<entry>
+  <title>Portainer</title>
+  <link href="https://www.portainer.io"/>
+  <id>https://www.portainer.io</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A self-hosted tool that manages Docker and Kubernetes environments through a visual UI.</summary>
+</entry>
+<entry>
+  <title>Prometheus</title>
+  <link href="https://prometheus.io"/>
+  <id>https://prometheus.io</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>An open-source monitoring system for metrics collection and alerting, with a time-series database.</summary>
+</entry>
+<entry>
+  <title>Terraform</title>
+  <link href="https://www.terraform.io"/>
+  <id>https://www.terraform.io</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>HashiCorp's tool to define and provision infrastructure as code, managing cloud resources declaratively.</summary>
 </entry>
 <entry>
   <title>CNCF Sertifikasyon</title>
@@ -208,82 +285,5 @@
   <id>https://pipedream.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>Any step can be Node.js or Python and can pull an npm or PyPI package. The option that closes the gap between visual automation and real code.</summary>
-</entry>
-<entry>
-  <title>Power Automate</title>
-  <link href="https://www.microsoft.com/power-platform/products/power-automate"/>
-  <id>https://www.microsoft.com/power-platform/products/power-automate</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>SharePoint, Teams and Dataverse connectors are native. If the organisation is already on Microsoft 365 the licence is usually paid for — which is the real reason it gets chosen.</summary>
-</entry>
-<entry>
-  <title>Prefect</title>
-  <link href="https://www.prefect.io/"/>
-  <id>https://www.prefect.io/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A flow is an ordinary Python function you decorate into orchestration. Moving local code to production is shorter than learning Airflow’s separate DSL.</summary>
-</entry>
-<entry>
-  <title>Temporal</title>
-  <link href="https://temporal.io/"/>
-  <id>https://temporal.io/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Records workflow state as an event history, so a crashed process resumes at the same point. Built for multi-day operations that cannot simply be restarted.</summary>
-</entry>
-<entry>
-  <title>Zapier</title>
-  <link href="https://zapier.com/"/>
-  <id>https://zapier.com/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The widest integration catalogue — the niche SaaS you want is probably already there. Pricing is per task, so it gets expensive quickly as volume grows.</summary>
-</entry>
-<entry>
-  <title>Güzel Hosting</title>
-  <link href="https://www.guzel.net.tr/"/>
-  <id>https://www.guzel.net.tr/</id>
-  <updated>2026-07-26T14:04:14Z</updated>
-  <summary>Turkey-based hosting and domains with .tr registration, local payment and Turkish support — practical when the server has to sit in Turkey.</summary>
-</entry>
-<entry>
-  <title>LiteSpeed</title>
-  <link href="https://www.litespeedtech.com/"/>
-  <id>https://www.litespeedtech.com/</id>
-  <updated>2026-07-26T10:12:36Z</updated>
-  <summary>A commercial server that reads Apache configuration as-is while using an event-driven core and fewer resources. Common in WordPress hosting alongside its cache plugin.</summary>
-</entry>
-<entry>
-  <title>Sentry</title>
-  <link href="https://sentry.io/welcome/"/>
-  <id>https://sentry.io/welcome/</id>
-  <updated>2026-07-03T12:16:14Z</updated>
-  <summary>Collects errors with stack traces, source maps and user context, grouping duplicates. Against reading log files, it tells you how many users a given error actually hit.</summary>
-</entry>
-<entry>
-  <title>Hetzner</title>
-  <link href="https://www.hetzner.com/"/>
-  <id>https://www.hetzner.com/</id>
-  <updated>2026-07-02T15:53:11Z</updated>
-  <summary>Dedicated servers and VPS in Germany and Finland at a fraction of the big clouds’ price for the same cores and RAM. No managed services — operations are entirely yours.</summary>
-</entry>
-<entry>
-  <title>Vercel</title>
-  <link href="https://vercel.com/"/>
-  <id>https://vercel.com/</id>
-  <updated>2026-06-25T06:45:27Z</updated>
-  <summary>Frontend-focused deployment whose per-PR preview environments became an industry standard. It is the company behind Next.js, so integration with that framework is tightest here.</summary>
-</entry>
-<entry>
-  <title>Celery</title>
-  <link href="https://docs.celeryq.dev/en/stable/"/>
-  <id>https://docs.celeryq.dev/en/stable/</id>
-  <updated>2026-04-20T13:01:28Z</updated>
-  <summary>The standard for background tasks in Python, using Redis or RabbitMQ as a broker, with scheduled tasks (beat) and retry logic included.</summary>
-</entry>
-<entry>
-  <title>Apache Kafka</title>
-  <link href="https://kafka.apache.org/42/getting-started/introduction/"/>
-  <id>https://kafka.apache.org/42/getting-started/introduction/</id>
-  <updated>2026-04-20T13:01:27Z</updated>
-  <summary>Retains messages after consumption, with consumers carrying their own offsets so they can replay history. That durability is the real split from classic queues.</summary>
 </entry>
 </feed>

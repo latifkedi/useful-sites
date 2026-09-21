@@ -7,6 +7,20 @@
 <id>https://latifkedi.github.io/useful-sites/feed/mobil.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Android Developers</title>
+  <link href="https://developer.android.com"/>
+  <id>https://developer.android.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Android'in resmî geliştirici belgeleri, araçları ve kılavuzları.</summary>
+</entry>
+<entry>
+  <title>Apple Developer</title>
+  <link href="https://developer.apple.com"/>
+  <id>https://developer.apple.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>iOS ve Apple platformları için resmî geliştirici belgeleri ve kaynakları.</summary>
+</entry>
+<entry>
   <title>Awesome Android</title>
   <link href="https://github.com/JStumpp/awesome-android"/>
   <id>https://github.com/JStumpp/awesome-android</id>
@@ -89,6 +103,97 @@
   <id>https://github.com/yenchenlin/awesome-watchos</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Apple Watch (watchOS) uygulama geliştirme için kaynak listesi.</summary>
+</entry>
+<entry>
+  <title>Capacitor</title>
+  <link href="https://capacitorjs.com"/>
+  <id>https://capacitorjs.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Bir web uygulamasını yerel bir kabuğa saran, cihaz API'lerine erişim veren çalışma zamanı.</summary>
+</entry>
+<entry>
+  <title>CocoaPods</title>
+  <link href="https://cocoapods.org"/>
+  <id>https://cocoapods.org</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>iOS ve Apple projeleri için yaygın kullanılan bağımlılık yöneticisi.</summary>
+</entry>
+<entry>
+  <title>fastlane</title>
+  <link href="https://fastlane.tools"/>
+  <id>https://fastlane.tools</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Mobil derleme, ekran görüntüsü ve mağaza yayınını otomatikleştiren açık kaynak araç.</summary>
+</entry>
+<entry>
+  <title>Hacking with Swift</title>
+  <link href="https://www.hackingwithswift.com"/>
+  <id>https://www.hackingwithswift.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Swift ve SwiftUI'yi projelerle öğreten kaynak; ücretsiz &quot;100 Days&quot; kursuyla tanınır.</summary>
+</entry>
+<entry>
+  <title>Ionic</title>
+  <link href="https://ionicframework.com"/>
+  <id>https://ionicframework.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Web teknolojileriyle çapraz platform mobil arayüz geliştiren açık kaynak çatı.</summary>
+</entry>
+<entry>
+  <title>Kodeco</title>
+  <link href="https://www.kodeco.com"/>
+  <id>https://www.kodeco.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>iOS, Android ve Flutter için derinlemesine mobil geliştirme öğreticileri (eski adı raywenderlich).</summary>
+</entry>
+<entry>
+  <title>Material Design</title>
+  <link href="https://m3.material.io"/>
+  <id>https://m3.material.io</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Google'ın açık tasarım sistemi ve arayüz kılavuzları; Android arayüzünün temeli.</summary>
+</entry>
+<entry>
+  <title>NativeScript</title>
+  <link href="https://nativescript.org"/>
+  <id>https://nativescript.org</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>JavaScript, TypeScript, Vue veya Angular'dan gerçek yerel mobil uygulama üretir.</summary>
+</entry>
+<entry>
+  <title>objc.io</title>
+  <link href="https://www.objc.io"/>
+  <id>https://www.objc.io</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>İleri Swift ve iOS üzerine kitaplar ve video serileri.</summary>
+</entry>
+<entry>
+  <title>ProAndroidDev</title>
+  <link href="https://proandroiddev.com"/>
+  <id>https://proandroiddev.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>İleri düzey Android mühendisliği yazılarının yayımlandığı topluluk yayını.</summary>
+</entry>
+<entry>
+  <title>pub.dev</title>
+  <link href="https://pub.dev"/>
+  <id>https://pub.dev</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Dart ve Flutter paketlerinin resmî kayıt deposu.</summary>
+</entry>
+<entry>
+  <title>React Native</title>
+  <link href="https://reactnative.dev"/>
+  <id>https://reactnative.dev</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>React ile yerel mobil uygulama geliştiren çapraz platform çatının resmî belgeleri.</summary>
+</entry>
+<entry>
+  <title>Swift by Sundell</title>
+  <link href="https://www.swiftbysundell.com"/>
+  <id>https://www.swiftbysundell.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Swift üzerine derinlemesine yazılar ve podcast; John Sundell'in kaynağı.</summary>
 </entry>
 <entry>
   <title>XDA Forums</title>
@@ -180,40 +285,5 @@
   <id>https://www.youtube.com/user/ThinMatrix/videos</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>Bağımsız oyun geliştiricisinin kendi oyununu yaparken tuttuğu günlük ve OpenGL ders serisi. Motor öğreticilerinden farkı motoru sıfırdan yazması — soyutlamanın altında ne olduğunu gösteriyor.</summary>
-</entry>
-<entry>
-  <title>Rive (Flutter)</title>
-  <link href="https://rive.app/docs/runtimes/flutter/flutter"/>
-  <id>https://rive.app/docs/runtimes/flutter/flutter</id>
-  <updated>2026-08-01T23:24:59Z</updated>
-  <summary>Vektör animasyonu uygulamaya gömüyor; Lottie’den farkı, animasyonun durum makinesi taşıyıp kullanıcı etkileşimine tepki verebilmesi. Dosya boyutu da belirgin küçük.</summary>
-</entry>
-<entry>
-  <title>Electron</title>
-  <link href="https://www.electronjs.org/"/>
-  <id>https://www.electronjs.org/</id>
-  <updated>2026-04-29T17:07:52Z</updated>
-  <summary>Chromium ve Node.js’i paketleyip web teknolojisiyle masaüstü uygulaması çıkarıyor. VS Code ve Slack bununla yazıldı; bellek tüketimi de bu yüzden sürekli eleştiriliyor.</summary>
-</entry>
-<entry>
-  <title>Electron Dokümantasyonu</title>
-  <link href="https://www.electronjs.org/docs/latest"/>
-  <id>https://www.electronjs.org/docs/latest</id>
-  <updated>2026-04-20T13:01:29Z</updated>
-  <summary>Ana süreç ile işleyici süreç ayrımı ve bunlar arası iletişim (IPC) referansı. contextIsolation ve nodeIntegration ayarları güvenlik açısından kritik; varsayılanları değiştirme.</summary>
-</entry>
-<entry>
-  <title>Expo</title>
-  <link href="https://docs.expo.dev/"/>
-  <id>https://docs.expo.dev/</id>
-  <updated>2026-04-20T13:01:29Z</updated>
-  <summary>React Native’i Xcode ve Android Studio kurmadan geliştirilebilir kılıyor; EAS ile derleme bulutta yapılıyor. Yerel modül eklemek eskisi kadar sorun değil artık.</summary>
-</entry>
-<entry>
-  <title>Flutter</title>
-  <link href="https://docs.flutter.dev/learn"/>
-  <id>https://docs.flutter.dev/learn</id>
-  <updated>2026-04-20T13:01:28Z</updated>
-  <summary>Skia/Impeller ile her pikseli kendisi çiziyor; platform bileşeni kullanmıyor. Bu yüzden iOS ve Android’de birebir aynı görünüyor — istediğin buysa güç, değilse sorun.</summary>
 </entry>
 </feed>

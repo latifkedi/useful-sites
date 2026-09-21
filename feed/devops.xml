@@ -7,6 +7,20 @@
 <id>https://latifkedi.github.io/useful-sites/feed/devops.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Ansible</title>
+  <link href="https://www.ansible.com"/>
+  <id>https://www.ansible.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Ajansız yapılandırma yönetimi ve otomasyon; sunucuları YAML playbook'larla kurar.</summary>
+</entry>
+<entry>
+  <title>Argo</title>
+  <link href="https://argoproj.github.io"/>
+  <id>https://argoproj.github.io</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Kubernetes'e özgü iş akışları ve GitOps sürekli dağıtım araçları takımı (Argo CD, Workflows).</summary>
+</entry>
+<entry>
   <title>Awesome Actions</title>
   <link href="https://github.com/sdras/awesome-actions"/>
   <id>https://github.com/sdras/awesome-actions</id>
@@ -89,6 +103,69 @@
   <id>https://www.cloudflare.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>CDN, DNS, DDoS koruması ve kenar hesaplamayı tek platformda sunan altyapı. Ayrı hizmetlerden farkı bunları tek panelde birleştirip cömert bir ücretsiz katman vermesi.</summary>
+</entry>
+<entry>
+  <title>Earthly</title>
+  <link href="https://earthly.dev"/>
+  <id>https://earthly.dev</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Yerelde ve CI'de aynı sonucu veren, tekrarlanabilir yapı (build) aracı.</summary>
+</entry>
+<entry>
+  <title>Harbor</title>
+  <link href="https://goharbor.io"/>
+  <id>https://goharbor.io</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Güvenlik taraması ve erişim denetimiyle özel konteyner imaj deposu (registry).</summary>
+</entry>
+<entry>
+  <title>Helm</title>
+  <link href="https://helm.sh"/>
+  <id>https://helm.sh</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Kubernetes uygulamalarını paketleyip dağıtan paket yöneticisi (&quot;chart&quot;lar).</summary>
+</entry>
+<entry>
+  <title>K9s</title>
+  <link href="https://k9scli.io"/>
+  <id>https://k9scli.io</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Kubernetes kümelerini uçbirimden yöneten, hızlı ve etkileşimli TUI.</summary>
+</entry>
+<entry>
+  <title>Kubernetes</title>
+  <link href="https://kubernetes.io"/>
+  <id>https://kubernetes.io</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Konteynerleri ölçekte dağıtan, yöneten ve iyileştiren açık kaynak orkestrasyon sisteminin resmî sitesi.</summary>
+</entry>
+<entry>
+  <title>OpenTofu</title>
+  <link href="https://opentofu.org"/>
+  <id>https://opentofu.org</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Terraform'un topluluk güdümlü açık kaynak çatalı; aynı yapılandırmayı çalıştırır.</summary>
+</entry>
+<entry>
+  <title>Portainer</title>
+  <link href="https://www.portainer.io"/>
+  <id>https://www.portainer.io</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Docker ve Kubernetes ortamlarını görsel arayüzle yöneten self-hosted araç.</summary>
+</entry>
+<entry>
+  <title>Prometheus</title>
+  <link href="https://prometheus.io"/>
+  <id>https://prometheus.io</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Metrik toplama ve uyarı için açık kaynak izleme sistemi; zaman serisi veritabanı içerir.</summary>
+</entry>
+<entry>
+  <title>Terraform</title>
+  <link href="https://www.terraform.io"/>
+  <id>https://www.terraform.io</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Altyapıyı kod olarak tanımlayıp sağlayan HashiCorp aracı; bulut kaynaklarını bildirimsel yönetir.</summary>
 </entry>
 <entry>
   <title>CNCF Sertifikasyon</title>
@@ -208,82 +285,5 @@
   <id>https://pipedream.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>Her adım Node.js ya da Python kodu olabiliyor ve npm/PyPI paketi çekebiliyor. Görsel otomasyonla gerçek kod arasındaki boşluğu kapatan seçenek.</summary>
-</entry>
-<entry>
-  <title>Power Automate</title>
-  <link href="https://www.microsoft.com/power-platform/products/power-automate"/>
-  <id>https://www.microsoft.com/power-platform/products/power-automate</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>SharePoint, Teams ve Dataverse bağlayıcıları yerleşik. Kurum zaten Microsoft 365’teyse lisans çoğu zaman ödenmiş oluyor — asıl tercih sebebi bu.</summary>
-</entry>
-<entry>
-  <title>Prefect</title>
-  <link href="https://www.prefect.io/"/>
-  <id>https://www.prefect.io/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Akış sıradan bir Python fonksiyonu; dekoratör ekleyip orkestrasyona dahil ediyorsun. Airflow’un ayrı DSL’ini öğrenmeden yerel kodu üretime taşımak daha kısa.</summary>
-</entry>
-<entry>
-  <title>Temporal</title>
-  <link href="https://temporal.io/"/>
-  <id>https://temporal.io/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>İş akışı durumunu olay geçmişi olarak kaydediyor; süreç çökerse aynı noktadan devam ediyor. Günlerce süren ve yeniden başlatılamayan işlemler için tasarlanmış.</summary>
-</entry>
-<entry>
-  <title>Zapier</title>
-  <link href="https://zapier.com/"/>
-  <id>https://zapier.com/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>En geniş entegrasyon kataloğu — bağlanmak istediğin niş SaaS büyük ihtimalle burada var. Fiyatlandırma görev başına, yani hacim arttıkça hızla pahalılaşıyor.</summary>
-</entry>
-<entry>
-  <title>Güzel Hosting</title>
-  <link href="https://www.guzel.net.tr/"/>
-  <id>https://www.guzel.net.tr/</id>
-  <updated>2026-07-26T14:04:14Z</updated>
-  <summary>Türkiye merkezli barındırma ve alan adı; .tr uzantısı, yerel ödeme ve Türkçe destek sunuyor. Sunucunun Türkiye’de olması gereken projeler için pratik.</summary>
-</entry>
-<entry>
-  <title>LiteSpeed</title>
-  <link href="https://www.litespeedtech.com/"/>
-  <id>https://www.litespeedtech.com/</id>
-  <updated>2026-07-26T10:12:36Z</updated>
-  <summary>Apache yapılandırmasını olduğu gibi okuyabilen ticari sunucu; olay güdümlü çekirdeği ile daha az kaynak tüketiyor. WordPress barındırmada önbellek eklentisiyle birlikte yaygın.</summary>
-</entry>
-<entry>
-  <title>Sentry</title>
-  <link href="https://sentry.io/welcome/"/>
-  <id>https://sentry.io/welcome/</id>
-  <updated>2026-07-03T12:16:14Z</updated>
-  <summary>Hataları yığın izi, kaynak haritası ve kullanıcı bağlamıyla topluyor ve benzerlerini grupluyor. Günlük dosyası okumaya karşı, aynı hatanın kaç kullanıcıyı etkilediğini gösteriyor.</summary>
-</entry>
-<entry>
-  <title>Hetzner</title>
-  <link href="https://www.hetzner.com/"/>
-  <id>https://www.hetzner.com/</id>
-  <updated>2026-07-02T15:53:11Z</updated>
-  <summary>Almanya ve Finlandiya’da fiziksel sunucu ve VPS; aynı çekirdek/RAM için büyük bulutların birkaç katı ucuz. Yönetilen servis yok, işletim tamamen sana kalıyor.</summary>
-</entry>
-<entry>
-  <title>Vercel</title>
-  <link href="https://vercel.com/"/>
-  <id>https://vercel.com/</id>
-  <updated>2026-06-25T06:45:27Z</updated>
-  <summary>Ön yüz odaklı dağıtım; her PR için önizleme ortamı açması sektörde standart hâline geldi. Next.js’in arkasındaki şirket, dolayısıyla o çatıda en iyi entegrasyon burada.</summary>
-</entry>
-<entry>
-  <title>Celery</title>
-  <link href="https://docs.celeryq.dev/en/stable/"/>
-  <id>https://docs.celeryq.dev/en/stable/</id>
-  <updated>2026-04-20T13:01:28Z</updated>
-  <summary>Python’da arka plan görevlerinin standardı; Redis ya da RabbitMQ’yu aracı olarak kullanıyor. Zamanlanmış görevler (beat) ve yeniden deneme mantığı da içinde.</summary>
-</entry>
-<entry>
-  <title>Apache Kafka</title>
-  <link href="https://kafka.apache.org/42/getting-started/introduction/"/>
-  <id>https://kafka.apache.org/42/getting-started/introduction/</id>
-  <updated>2026-04-20T13:01:27Z</updated>
-  <summary>Mesajları tüketildikten sonra da saklıyor; tüketiciler kendi konumlarını (offset) taşıyıp geçmişi yeniden okuyabiliyor. Klasik kuyruklardan asıl ayrımı bu kalıcılık.</summary>
 </entry>
 </feed>

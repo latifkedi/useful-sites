@@ -63,6 +63,13 @@
   <summary>You wire components together explicitly, so what happens at each stage stays readable. When debugging, that transparency is a visible win over LangChain’s implicit flow.</summary>
 </entry>
 <entry>
+  <title>Jina AI</title>
+  <link href="https://jina.ai"/>
+  <id>https://jina.ai</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Multimodal embedding and neural-search infrastructure that makes documents and images searchable by vector.</summary>
+</entry>
+<entry>
   <title>LangGraph Memory</title>
   <link href="https://langchain-ai.github.io/langgraph/concepts/memory/"/>
   <id>https://langchain-ai.github.io/langgraph/concepts/memory/</id>
@@ -82,6 +89,13 @@
   <id>https://www.llamaindex.ai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>Makes each stage — loading, chunking, indexing, querying — independently swappable. Not a general-purpose framework: it is built for someone tuning a retrieval pipeline.</summary>
+</entry>
+<entry>
+  <title>Marqo</title>
+  <link href="https://www.marqo.ai"/>
+  <id>https://www.marqo.ai</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>An end-to-end vector search engine that handles everything from embedding generation to vector search.</summary>
 </entry>
 <entry>
   <title>Mem0</title>
