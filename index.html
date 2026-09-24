@@ -67,7 +67,7 @@
    ayrılacak kadar koyu/açık tutuldu ki fareyle üzerine gelince fark okunsun. */
 :root{
   --bg:#faf9f5;      --panel:#f1efe9;
-  --fg:#33312b;      --dim:#63605a;      --faint:#918e86;
+  --fg:#33312b;      --dim:#63605a;      --faint:#6e6b63;
   --rule:#e3dfd6;    --rule2:#efece4;
   --accent:#141310;  --accent-soft:#e8e4da;  --accent-on:#faf9f5;
   --serif:"Source Serif 4","Serif Fallback",Georgia,"Times New Roman",serif;
@@ -79,7 +79,7 @@
 @media (prefers-color-scheme:dark){
   :root:not([data-theme="light"]){
     --bg:#141311;    --panel:#1e1d1a;
-    --fg:#e6e3da;    --dim:#a5a199;      --faint:#78756d;
+    --fg:#e6e3da;    --dim:#a5a199;      --faint:#89867e;
     --rule:#2b2a26;  --rule2:#211f1c;
     --accent:#f4f1e8; --accent-soft:#2a2823;  --accent-on:#141311;
     --mark:#3a3833;
@@ -87,7 +87,7 @@
 }
 :root[data-theme="dark"]{
   --bg:#141311;    --panel:#1e1d1a;
-  --fg:#e6e3da;    --dim:#a5a199;      --faint:#78756d;
+  --fg:#e6e3da;    --dim:#a5a199;      --faint:#89867e;
   --rule:#2b2a26;  --rule2:#211f1c;
   --accent:#f4f1e8; --accent-soft:#2a2823;  --accent-on:#141311;
   --mark:#3a3833;
@@ -565,14 +565,14 @@ dialog#sub::backdrop{background:rgba(0,0,0,.45)}
         <select id="dl" aria-label="Dışa Aktar"></select></label>
       <label class="sel"><span id="l-lang"></span>
         <select id="lang" aria-label="Dil"></select></label>
-      <button class="btn" id="theme" type="button" title="Tema">◐</button>
+      <button class="btn" id="theme" type="button" title="Tema" aria-label="Tema">◐</button>
     </div>
   </div>
 </header>
 
 <div class="tools">
   <div class="searchrow">
-    <input id="q" type="search" autocomplete="off" spellcheck="false">
+    <input id="q" type="search" autocomplete="off" spellcheck="false" aria-label="Dizinde ara">
     <select id="sort" aria-label="Sıralama"></select>
     <span class="count" id="count"></span>
   </div>
@@ -633,7 +633,7 @@ dialog#sub::backdrop{background:rgba(0,0,0,.45)}
   <div class="sub-f" id="s-foot"></div>
 </dialog>
 
-<button class="btn" id="top" type="button" title="Yukarı">↑</button>
+<button class="btn" id="top" type="button" title="Yukarı" aria-label="Yukarı">↑</button>
 
 <script src="links.js?v=968f3f27"></script>
 <script>
@@ -670,6 +670,7 @@ var T = {
       korsanalan:"Açık erişim, koruma ve arşivler."
     },
     areas:"Alanlar",
+    qLabel:"Dizinde ara", themeLabel:"Temayı değiştir", topLabel:"Yukarı çık",
     rand:"Rastgele", lang:"EN",
     picks:"Başlangıç Noktaları",
     by:"Ekleyen",
@@ -752,6 +753,7 @@ var T = {
       korsanalan:"Open access, preservation and archives."
     },
     areas:"Areas",
+    qLabel:"Search the directory", themeLabel:"Toggle theme", topLabel:"Back to top",
     rand:"Random", lang:"TR",
     picks:"Start Here",
     by:"Added By",
@@ -815,7 +817,14 @@ var T = {
 };
 
 var data  = window.LINKS || [];
-var theme = localStorage.getItem("theme");
+/* localStorage cerezleri engelleyen tarayicida (ya da gizli pencerede) erisimde
+   hata firlatabiliyor; korumasiz bir cagri butun betigi durdurup sayfayi bos
+   birakiyordu. Tercihler yalnizca bir kolaylik: okunamazsa varsayilanla devam. */
+var store = {
+  get: function(k){ try{ return localStorage.getItem(k) }catch(e){ return null } },
+  set: function(k, v){ try{ localStorage.setItem(k, v) }catch(e){} }
+};
+var theme = store.get("theme");
 var lang, q, activeTags, activeCat, sortBy, pages, onlyPicks, activeSrc, single, recent, activeField;
 
 var $ = function(s){return document.querySelector(s)};
@@ -920,7 +929,7 @@ function readURL(){
   activeField = p.get("f") || null;
   if(activeField && !FIELDBYKEY[activeField]) activeField = null;
   if(activeSrc && !SRCMAP[activeSrc]) activeSrc = null;
-  lang       = p.get("lang") || localStorage.getItem("lang") || "tr";
+  lang       = p.get("lang") || store.get("lang") || "tr";
   if(!T[lang]) lang = "tr";
   if(!T.tr.sorts[sortBy]) sortBy = "cat";
   if(activeCat && !CATS.some(function(c){return c.key === activeCat})) activeCat = null;
@@ -1290,6 +1299,9 @@ function render(){
   $("#q").placeholder       = L.ph;
   if($("#q").value !== q) $("#q").value = q;
   $("#rand").textContent    = L.rand;
+  $("#q").setAttribute("aria-label", L.qLabel);
+  $("#theme").setAttribute("aria-label", L.themeLabel); $("#theme").title = L.themeLabel;
+  $("#top").setAttribute("aria-label", L.topLabel); $("#top").title = L.topLabel;
   $("#skip").textContent    = L.skip;
   /* Geri: bir kategorideysen alanina, bir alandaysan tum alanlara. */
   $("#back").textContent    = (activeCat && FIELDBYKEY[activeField])
@@ -1329,7 +1341,7 @@ function render(){
     var n = counts[key] || 0;
     return '<li><a href="?cat='+key+'" data-cat="'+key+'" class="'+
            (activeCat===key ? "on" : (n ? "" : "empty"))+
-           '">'+esc(c[lang])+'<span class="n">'+n+'</span></a></li>';
+           '"'+(activeCat===key ? ' aria-current="page"' : '')+'>'+esc(c[lang])+'<span class="n">'+n+'</span></a></li>';
   }
   /* Ray baglama duyarli: bir alanin icindeysen (alan sayfasi veya bir
      kategorisi) o alanin alt kategorilerini; degilsen alanlarin listesini
@@ -1551,7 +1563,7 @@ $("#dl").addEventListener("change", function(e){
 var enLoading = false;
 function setLang(next){
   lang = next;
-  localStorage.setItem("lang", lang);
+  store.set("lang", lang);
   if(lang === "en" && !window.LINKS_EN && !enLoading){
     enLoading = true;
     var s = document.createElement("script");
@@ -1570,7 +1582,7 @@ function applyTheme(){
 $("#theme").addEventListener("click", function(){
   var dark = matchMedia("(prefers-color-scheme:dark)").matches;
   theme = ((theme || (dark ? "dark" : "light")) === "dark") ? "light" : "dark";
-  localStorage.setItem("theme", theme); applyTheme();
+  store.set("theme", theme); applyTheme();
 });
 applyTheme();
 
