@@ -1,9 +1,9 @@
-// Unit tests for the search/scoring logic in index.html.
+// Unit tests for the search/scoring logic in app.js.
 //
 //     node test_search.js
 //
-// No dependency, no build step: the site ships as one hand-written
-// index.html on purpose, so this pulls the real fold()/host()/score()
+// No dependency, no build step: the client is one hand-written
+// app.js with no build step, so this pulls the real fold()/host()/score()
 // source text out of it at run time instead of hand-copying a second
 // version that could drift out of sync. If the inline script's shape
 // changes enough that the markers below no longer match, this throws
@@ -12,14 +12,14 @@
 const fs = require("fs");
 const path = require("path");
 
-const html = fs.readFileSync(path.join(__dirname, "index.html"), "utf8");
+const html = fs.readFileSync(path.join(__dirname, "app.js"), "utf8");
 
 const START = '"use strict";';
 const END = "/* ------------------------------------------------------------ olaylar */";
 const from = html.indexOf(START);
 const to = html.indexOf(END);
 if (from < 0 || to < 0 || to <= from) {
-  throw new Error("could not locate the app script slice in index.html -- markers moved");
+  throw new Error("could not locate the app script slice in app.js -- markers moved");
 }
 const body = html.slice(from + START.length, to);
 
