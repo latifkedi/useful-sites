@@ -62,18 +62,6 @@
     "added": 1776690080
   },
   {
-    "url": "https://kafka.apache.org/42/getting-started/introduction/",
-    "name": "Apache Kafka",
-    "tags": [
-      "açık-kaynak",
-      "otomasyon"
-    ],
-    "tr": "Mesajları tüketildikten sonra da saklıyor; tüketiciler kendi konumlarını (offset) taşıyıp geçmişi yeniden okuyabiliyor. Klasik kuyruklardan asıl ayrımı bu kalıcılık.",
-    "en": "Retains messages after consumption, with consumers carrying their own offsets so they can replay history. That durability is the real split from classic queues.",
-    "src": "kedi",
-    "added": 1776690087
-  },
-  {
     "url": "https://argoproj.github.io",
     "name": "Argo",
     "tags": [

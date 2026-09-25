@@ -35,13 +35,6 @@
   <summary>Front-end (HTML/CSS/JS) challenges with an embedded editor.</summary>
 </entry>
 <entry>
-  <title>Codility</title>
-  <link href="https://app.codility.com/programmers/"/>
-  <id>https://app.codility.com/programmers/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A platform for practising hiring-style algorithm problems, with an embedded IDE.</summary>
-</entry>
-<entry>
   <title>Daily Coding Problem</title>
   <link href="https://www.dailycodingproblem.com/"/>
   <id>https://www.dailycodingproblem.com/</id>
@@ -54,13 +47,6 @@
   <id>https://devchallenges.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A challenge site that has you build web projects with realistic designs and requirements. Unlike random projects the community reviews the solutions.</summary>
-</entry>
-<entry>
-  <title>Edabit</title>
-  <link href="https://edabit.com/"/>
-  <id>https://edabit.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A site for practising a language with small, bite-sized coding puzzles. Unlike large problem sets it grades difficulty and gives fast feedback.</summary>
 </entry>
 <entry>
   <title>GeeksforGeeks</title>
@@ -204,17 +190,17 @@
 </entry>
 <entry>
   <title>Codility</title>
-  <link href="https://codility.com"/>
-  <id>https://codility.com</id>
+  <link href="https://app.codility.com/programmers/"/>
+  <id>https://app.codility.com/programmers/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>The assessment platform companies use for technical screening, with a practice section open to candidates. Its difference from other problem sites is that it mirrors the format of real screening tests — you see the exam environment before the exam.</summary>
 </entry>
 <entry>
   <title>CodinGame</title>
-  <link href="https://www.codingame.com/start"/>
-  <id>https://www.codingame.com/start</id>
+  <link href="https://www.codingame.com/"/>
+  <id>https://www.codingame.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Presents algorithm problems as games, with visual feedback where your code drives a character. A soft entry into the serious contest platforms.</summary>
+  <summary>A platform that has you solve programming puzzles with a game theme, showing your code’s result in a game scene. Unlike dry problem sets it animates your solution visually.</summary>
 </entry>
 <entry>
   <title>Competitive Programmer’s Handbook</title>
@@ -285,5 +271,19 @@
   <id>https://learnersbucket.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>A practice archive focused on JavaScript interview questions: writing polyfills, the event loop, closures. Unlike general algorithm sites it is language-specific — &quot;implement bind yourself&quot; is not a question you find elsewhere.</summary>
+</entry>
+<entry>
+  <title>mission-peace/interview</title>
+  <link href="https://github.com/mission-peace/interview"/>
+  <id>https://github.com/mission-peace/interview</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A large collection of coding-interview problems and solutions, with video explanations.</summary>
+</entry>
+<entry>
+  <title>NeetCode</title>
+  <link href="https://neetcode.io"/>
+  <id>https://neetcode.io</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A roadmap that groups LeetCode problems by topic and pairs each with a solution video. Against a raw problem list the difference is ordering: which 150 problems, in which sequence, teach the patterns — the thing random grinding never gives you.</summary>
 </entry>
 </feed>

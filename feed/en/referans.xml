@@ -7,13 +7,6 @@
 <id>https://latifkedi.github.io/useful-sites/feed/en/referans.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
-  <title>30 Seconds of Code</title>
-  <link href="https://github.com/30-seconds/30-seconds-of-code"/>
-  <id>https://github.com/30-seconds/30-seconds-of-code</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A collection of short, explained code snippets you can grasp in 30 seconds.</summary>
-</entry>
-<entry>
   <title>Awesome ArcGIS Developer</title>
   <link href="https://github.com/Esri/awesome-arcgis-developer"/>
   <id>https://github.com/Esri/awesome-arcgis-developer</id>
@@ -285,5 +278,12 @@
   <id>https://github.com/KasperZutterman/Second-Brain</id>
   <updated>2026-09-10T20:53:20Z</updated>
   <summary>A curated list of public Zettelkastens, “second brains” and digital gardens. Unlike general note-taking lists it collects examples: rather than theory, you can browse the knowledge vaults people have actually published.</summary>
+</entry>
+<entry>
+  <title>starred</title>
+  <link href="https://github.com/maguowei/starred"/>
+  <id>https://github.com/maguowei/starred</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A tool that automatically generates an awesome-list from your GitHub stars, grouped by language. Unlike keeping a list by hand it updates itself: as you star, a workflow refreshes the list (the lowkenuinely-wikis source in this directory was built with it).</summary>
 </entry>
 </feed>

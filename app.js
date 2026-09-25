@@ -197,6 +197,10 @@ var esc = function(s){return String(s).replace(/[&<>"]/g,function(c){
   return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})};
 
 function host(u){ try{ return new URL(u).hostname.replace(/^www\./,"") }catch(e){ return "" } }
+function ukey(u){
+  return String(u).trim().toLowerCase()
+    .replace(/^https?:\/\//, "").replace(/^www\./, "").replace(/\/+$/, "");
+}
 function fold(s){
   /* toLowerCase() turns "İ" (Turkish dotted capital I) into "i" plus a
      combining dot (U+0307), not plain "i" -- so it has to be flattened
@@ -211,6 +215,7 @@ function fold(s){
 data.forEach(function(d,i){
   d._i = i;
   d._h = host(d.url);
+  d._k = ukey(d.url);
   var lbl = (d.tags||[]).map(function(t){
     var l = (window.TAGLABELS||{})[t];
     return l ? l[0]+" "+l[1] : t;
@@ -273,8 +278,12 @@ var SRCMAP = window.SOURCES || {};
 var SRCCOUNT = {};
 data.forEach(function(d){ SRCCOUNT[d.src] = (SRCCOUNT[d.src]||0) + 1 });
 var INTROS = window.INTROS || {};
-var NAMEIDX = {};
-data.forEach(function(d){ NAMEIDX[d.name] = d });
+/* Kalici baglanti URL anahtarina bagli (sema, www ve sondaki / atilmis adres).
+   Ilk surum kayit adini kullaniyordu; ayni adli iki kayit oldugunda baglanti
+   yanlis kayda gidiyordu. Eski ?e=<ad> baglantilari icin ad dizini de duruyor. */
+var NAMEIDX = {}, KEYIDX = {};
+data.forEach(function(d){ NAMEIDX[d.name] = d; KEYIDX[d._k] = d });
+function byPerma(v){ return KEYIDX[v] || NAMEIDX[v] || null }
 var PICKCOUNT = data.filter(function(d){ return d.pick }).length;
 var ALLTAGS = Object.keys(TAGCOUNT).sort(function(a,b){
   return TAGCOUNT[b]-TAGCOUNT[a] || a.localeCompare(b,"tr");
@@ -431,8 +440,8 @@ function itemHTML(d, showYear){
   if(showYear) meta.push('<span class="age">'+whenOf(d)+'</span>');
   meta.push('<a class="arch" href="'+esc(ARCHIVE+d.url)+'" target="_blank" '+
             'rel="noopener noreferrer" title="'+esc(T[lang].archTip)+'">'+esc(T[lang].arch)+'</a>');
-  meta.push('<a class="arch perma" href="?e='+encodeURIComponent(d.name)+'" '+
-            'data-perma="'+esc(d.name)+'" title="'+esc(T[lang].permaTip)+'">'+
+  meta.push('<a class="arch perma" href="?e='+encodeURIComponent(d._k)+'" '+
+            'data-perma="'+esc(d._k)+'" title="'+esc(T[lang].permaTip)+'">'+
             esc(T[lang].perma)+'</a>');
 
   return '<article class="item'+(d.pick?' pick':'')+'"><div class="item-h">'+
@@ -736,7 +745,7 @@ function render(){
   /* Tek kayit gorunumu. Bir dizinde tek bir kaydi paylasabilmek gerekiyordu;
      adres kayit adina bagli, yeniden derleme onu kaydirmiyor. */
   if(single){
-    var tek = NAMEIDX[single];
+    var tek = byPerma(single);
     if(tek){
       $("#list").innerHTML = '<section class="one"><h2><span>'+esc(tek.cat_tr && lang==="tr"?tek.cat_tr:tek.cat_en)+
         '</span></h2><div class="grid one-g">'+itemHTML(tek, true)+'</div>'+
@@ -1006,10 +1015,7 @@ document.addEventListener("keydown", function(e){
 
 var dlg = $("#sub"), subTab = "one", bulkNew = [], bulkStat = null;
 
-function nkey(u){
-  return String(u).trim().toLowerCase()
-    .replace(/^https?:\/\//, "").replace(/^www\./, "").replace(/\/+$/, "");
-}
+var nkey = ukey;   /* ayni kimlik: sema, www ve sondaki / atilmis adres */
 function bare(k){ return k.replace(/[?#].*$/, "").replace(/\/+$/, "") }
 
 /* Index of what is already here. Both the full and the query-stripped

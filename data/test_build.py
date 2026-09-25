@@ -15,6 +15,7 @@ exists, the two language files falling out of step.
 MIN_RECORDS is a floor, not the current count. Raise it on purpose when the
 directory grows; never lower it to make a red build green.
 """
+import collections
 import io
 import json
 import os
@@ -26,15 +27,18 @@ ROOT = os.path.dirname(D)
 sys.path.insert(0, D)
 
 import readlinks                        # noqa: E402
-from notes import CATS, load_records    # noqa: E402
+from notes import CATS, GROUPS, load_records  # noqa: E402
 from intros import INTROS               # noqa: E402
 from picks import PICKS                 # noqa: E402
 from sources import SOURCES             # noqa: E402
 from tags import CANON, LABELS          # noqa: E402
 from emit import SITE as EMIT_SITE      # noqa: E402
 
-MIN_RECORDS = 940
-MIN_CATEGORIES = 24
+MIN_RECORDS = 1850
+MIN_CATEGORIES = 32
+
+MIN_DESC = 30
+TRACKING = re.compile(r'[?&](utm_[a-z]+|fbclid|gclid|ab_channel|si|ref|ref_src|mc_[ce]id|igshid)=', re.I)
 
 fails = []
 
@@ -103,6 +107,28 @@ def main():
     check(not kaynaksiz, 'every record has a declared source'
           + (' -- unknown: %s' % kaynaksiz if kaynaksiz else ''))
 
+    # Ayni adli iki kayit hem okuru ikiletiyor hem de ad uzerinden kurulan
+    # iliskileri ("Ilgili") yanlis kayda baglayabiliyordu; 16 cift vardi.
+    adlar = collections.Counter(d['name'].lower().strip() for d in rows)
+    ikiz = sorted(k for k, v in adlar.items() if v > 1)
+    check(not ikiz, 'no two records share a name'
+          + (' -- %s' % ikiz[:3] if ikiz else ''))
+
+    # Reklam tiklamasindan kopyalanan bir adres (utm_campaign=...) kayda
+    # girmisti. Izleme parametresi kaydin kimligini de bozar: ayni sayfa
+    # parametreli ve parametresiz iki ayri kayit gibi gorunur.
+    izli = [d['name'] for d in rows if TRACKING.search(d['url'])]
+    check(not izli, 'no tracking parameters in URLs'
+          + (' -- %s' % izli[:3] if izli else ''))
+
+    kisa = [d['name'] for d in rows if len(d['tr']) < MIN_DESC]
+    check(not kisa, 'every Turkish description is at least %d characters' % MIN_DESC
+          + (' -- %s' % kisa[:3] if kisa else ''))
+    en_all = json.loads(en[en.index('['):en.rindex(';')])
+    ayni = [rows[i]['name'] for i, t in enumerate(en_all) if t.strip() == rows[i]['tr'].strip()]
+    check(not ayni, 'no English description is a copy of the Turkish one'
+          + (' -- %s' % ayni[:3] if ayni else ''))
+
     print('categories')
     keys = [c[0] for c in CATS]
     kullanilan = {d['cat'] for d in rows}
@@ -117,11 +143,26 @@ def main():
     check(not girissiz, 'every category in use has an introduction'
           + (' -- %s' % girissiz if girissiz else ''))
 
+    print('fields')
+    alan = [k for g in GROUPS for k in g[3]]
+    check(sorted(alan) == sorted(keys),
+          'every category sits in exactly one top-level field'
+          + (' -- off: %s' % sorted(set(alan) ^ set(keys)) if set(alan) != set(keys) else '')
+          + (' -- twice: %s' % sorted({k for k in alan if alan.count(k) > 1})
+             if len(alan) != len(set(alan)) else ''))
+
     print('picks')
     urls = {d['url'] for d in rows}
     kayip = sorted(PICKS - urls)
     check(not kayip, 'every start-here URL resolves to a record'
           + (' -- %s' % kayip[:3] if kayip else ''))
+    # Baslangic noktasi olmayan bir kategoride "◆ Buradan basla" suzgeci bos
+    # donuyor ve alan sayfasindaki kartin orneklemi rastgele secilmis kaliyor.
+    # Sekiz yeni kategori bu durumdaydi.
+    secili = collections.Counter(d['cat'] for d in rows if d['url'] in PICKS)
+    az = sorted(k for k in kullanilan if secili.get(k, 0) < 2)
+    check(not az, 'every category has at least two start-here picks'
+          + (' -- %s' % az if az else ''))
 
     print('static output')
     for name in ('sitemap.xml', 'robots.txt', 'feed.xml', 'og.png'):

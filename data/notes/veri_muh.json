@@ -39,12 +39,12 @@
     "name": "Apache Kafka",
     "tags": [
       "açık-kaynak",
-      "otomasyon",
-      "backend"
+      "otomasyon"
     ],
-    "tr": "Olay akışlarını dayanıklı bir günlük olarak taşıyan dağıtık mesaj platformu. Klasik kuyruklardan farkı mesajı okunduktan sonra silmeyip tekrar oynatılabilir tutması.",
-    "en": "A distributed messaging platform carrying event streams as a durable log. Unlike classic queues it keeps messages replayable rather than deleting them once read.",
-    "src": "dataeng"
+    "tr": "Mesajları tüketildikten sonra da saklıyor; tüketiciler kendi konumlarını (offset) taşıyıp geçmişi yeniden okuyabiliyor. Klasik kuyruklardan asıl ayrımı bu kalıcılık.",
+    "en": "Retains messages after consumption, with consumers carrying their own offsets so they can replay history. That durability is the real split from classic queues.",
+    "src": "kedi",
+    "added": 1776690087
   },
   {
     "url": "https://spark.apache.org/",

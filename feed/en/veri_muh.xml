@@ -28,13 +28,6 @@
   <summary>An open table format for large analytical tables, giving schema evolution, time travel and atomic writes. Unlike a raw Parquet directory it manages the table as a consistent, versioned unit.</summary>
 </entry>
 <entry>
-  <title>Apache Kafka</title>
-  <link href="https://kafka.apache.org/"/>
-  <id>https://kafka.apache.org/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A distributed messaging platform carrying event streams as a durable log. Unlike classic queues it keeps messages replayable rather than deleting them once read.</summary>
-</entry>
-<entry>
   <title>Apache Spark</title>
   <link href="https://spark.apache.org/"/>
   <id>https://spark.apache.org/</id>
@@ -173,5 +166,12 @@
   <id>https://www.databricks.com/</id>
   <updated>2026-07-26T15:42:56Z</updated>
   <summary>A cloud platform built on Spark that merges the data lake and warehouse (“lakehouse”). Unlike running a separate warehouse and lake it unites them under one governance and notebook interface.</summary>
+</entry>
+<entry>
+  <title>Apache Kafka</title>
+  <link href="https://kafka.apache.org/"/>
+  <id>https://kafka.apache.org/</id>
+  <updated>2026-04-20T13:01:27Z</updated>
+  <summary>Retains messages after consumption, with consumers carrying their own offsets so they can replay history. That durability is the real split from classic queues.</summary>
 </entry>
 </feed>

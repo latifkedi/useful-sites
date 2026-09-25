@@ -28,13 +28,6 @@
   <summary>Büyük analitik tablolar için açık tablo biçimi; şema evrimi, zaman yolculuğu ve atomik yazma verir. Ham Parquet dizininden farkı tabloyu tutarlı, sürümlenebilir bir birim gibi yönetmesi.</summary>
 </entry>
 <entry>
-  <title>Apache Kafka</title>
-  <link href="https://kafka.apache.org/"/>
-  <id>https://kafka.apache.org/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Olay akışlarını dayanıklı bir günlük olarak taşıyan dağıtık mesaj platformu. Klasik kuyruklardan farkı mesajı okunduktan sonra silmeyip tekrar oynatılabilir tutması.</summary>
-</entry>
-<entry>
   <title>Apache Spark</title>
   <link href="https://spark.apache.org/"/>
   <id>https://spark.apache.org/</id>
@@ -173,5 +166,12 @@
   <id>https://www.databricks.com/</id>
   <updated>2026-07-26T15:42:56Z</updated>
   <summary>Spark üstüne kurulu, veri gölü ile ambarı birleştiren (“lakehouse”) bulut platformu. Ayrı ambar ve göl kurmaktan farkı ikisini tek yönetişim ve defter arayüzünde toplaması.</summary>
+</entry>
+<entry>
+  <title>Apache Kafka</title>
+  <link href="https://kafka.apache.org/"/>
+  <id>https://kafka.apache.org/</id>
+  <updated>2026-04-20T13:01:27Z</updated>
+  <summary>Mesajları tüketildikten sonra da saklıyor; tüketiciler kendi konumlarını (offset) taşıyıp geçmişi yeniden okuyabiliyor. Klasik kuyruklardan asıl ayrımı bu kalıcılık.</summary>
 </entry>
 </feed>

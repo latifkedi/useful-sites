@@ -124,6 +124,40 @@ PICKS = {
     'https://www.offsec.com/',                                                       # OffSec
     'https://www.comptia.org/',                                                      # CompTIA
     'https://www.giac.org/',                                                         # GIAC
+    # --- test, oyun, elektronik, veri_muh, matematik, ekonomi, mimari, korsan
+    # --- test
+    'https://testautomationu.applitools.com',                                        # Test Automation University
+    'https://playwright.dev',                                                        # Playwright
+    'https://www.automationexercise.com/',                                           # Automation Exercise
+    # --- oyun
+    'https://gameprogrammingpatterns.com/',                                          # Game Programming Patterns
+    'https://www.redblobgames.com',                                                  # Red Blob Games
+    'https://kenney.nl',                                                             # Kenney
+    # --- elektronik
+    'https://www.electronics-tutorials.ws',                                          # Basic Electronics Tutorials
+    'https://www.falstad.com/circuit/',                                              # Falstad Circuit Simulator
+    'https://learn.sparkfun.com/',                                                   # SparkFun Learn
+    # --- veri_muh
+    'https://github.com/DataTalksClub/data-engineering-zoomcamp',                    # Data Engineering Zoomcamp
+    'https://duckdb.org/',                                                           # DuckDB
+    'https://www.getdbt.com/',                                                       # dbt
+    # --- matematik
+    'https://www.3blue1brown.com/',                                                  # 3Blue1Brown
+    'https://www.khanacademy.org/math',                                              # Khan Academy · Matematik
+    'https://betterexplained.com/',                                                  # BetterExplained
+    # --- ekonomi
+    'https://openstax.org/details/books/principles-economics-3e',                    # OpenStax · Principles of Economics
+    'https://fred.stlouisfed.org/',                                                  # FRED
+    'https://www.investopedia.com',                                                  # Investopedia
+    # --- mimari
+    'https://www.archdaily.com/',                                                    # ArchDaily
+    'https://ocw.mit.edu/courses/architecture/',                                     # MIT OCW · Mimarlık
+    'https://www.sketchup.com/',                                                     # SketchUp
+    # --- korsan
+    'https://fmhy.net/',                                                             # FMHY
+    'https://www.reddit.com/r/Piracy/wiki/megathread/',                              # r/Piracy Megathread
+    'https://archive.org',                                                           # Internet Archive
+    'https://www.gutenberg.org',                                                     # Project Gutenberg
 }
 
 
