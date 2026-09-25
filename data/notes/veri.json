@@ -19,8 +19,8 @@
       "kitap",
       "akademik"
     ],
-    "tr": "Yapay Zeka: Modern Yaklaşım kitabının kaynak sayfası; ders kodu ve algoritma uygulamaları birden çok dilde yayımlanmış.",
-    "en": "The companion site for Artificial Intelligence: A Modern Approach, publishing course code and algorithm implementations in several languages.",
+    "tr": "Yapay Zekâ: Modern Bir Yaklaşım kitabının kaynak sayfası. Kitabın basılı hâlinden farkı ders kodu ve algoritma uygulamalarının (Python, Java ve diğerleri) burada açık yayımlanması.",
+    "en": "The companion site for Artificial Intelligence: A Modern Approach. Unlike the printed book, this is where course code and algorithm implementations (Python, Java and more) are openly published.",
     "src": "bwapsv"
   },
   {
@@ -270,8 +270,8 @@
       "referans",
       "ücretsiz"
     ],
-    "tr": "AWS üzerinde barındırılan büyük kamu veri kümelerinin kayıt defteri.",
-    "en": "A registry of large public datasets hosted on AWS.",
+    "tr": "AWS üzerinde barındırılan büyük kamu veri kümelerinin kayıt defteri. Data.gov gibi portallardan farkı verinin doğrudan S3’te durması: indirmeden AWS içinde işleyebiliyorsun.",
+    "en": "A registry of large public datasets hosted on AWS. Unlike portals such as Data.gov the data sits directly in S3, so you can process it inside AWS without downloading.",
     "src": "dsbest"
   },
   {
@@ -307,8 +307,8 @@
       "referans",
       "ücretsiz"
     ],
-    "tr": "ABD federal açık veri portalı; kanonik devlet veri kümeleri.",
-    "en": "The US government's open-data portal — canonical federal datasets.",
+    "tr": "ABD federal açık veri portalı; kanonik devlet veri kümeleri. Üçüncü taraf derlemelerden farkı resmî kaynak olması; kayıtların çoğu veriyi yayımlayan kurumun sitesine yönlendiriyor.",
+    "en": "The US government’s open-data portal — canonical federal datasets. Unlike third-party compilations it is the official source; most records point on to the publishing agency’s site.",
     "src": "dsbest"
   },
   {
@@ -319,8 +319,8 @@
       "açık-kaynak",
       "ücretsiz"
     ],
-    "tr": "Kullanıma hazır CSV/JSON biçiminde derlenmiş açık veri kümeleri ve araçları.",
-    "en": "Curated open datasets in ready CSV/JSON form, plus tooling.",
+    "tr": "Kullanıma hazır CSV/JSON biçiminde derlenmiş açık veri kümeleri ve araçları. Ham portal verisinden farkı temizlenmiş ve standart veri paketi (Frictionless Data) biçiminde sunulması.",
+    "en": "Curated open datasets in ready CSV/JSON form, plus tooling. Unlike raw portal data, they are cleaned and published as standard Frictionless Data packages.",
     "src": "dsbest"
   },
   {
@@ -343,8 +343,8 @@
       "müfredat",
       "veri-bilimi"
     ],
-    "tr": "Andrew Ng’in kurduğu eğitim platformu; derin öğrenme ve üretken YZ üzerine yapılandırılmış uzmanlık programları.",
-    "en": "Andrew Ng’s education platform, offering structured specialisations in deep learning and generative AI.",
+    "tr": "Andrew Ng’in kurduğu eğitim platformu; derin öğrenme ve üretken YZ üzerine uzmanlık programları. Uzun uzmanlık programlarının yanında farkı, şirketlerle birlikte hazırlanan bir saatlik ücretsiz kısa kurslar sunması.",
+    "en": "Andrew Ng’s education platform, with specialisations in deep learning and generative AI. Beyond the long specialisations, what sets it apart is its free one-hour short courses built with industry partners.",
     "src": "bwapsv"
   },
   {
@@ -355,8 +355,8 @@
       "müfredat",
       "veri-bilimi"
     ],
-    "tr": "Derin öğrenmeyi tepeden aşağı öğreten kurs: önce çalışan model, sonra teori. Matematikle başlayan akademik derslerin tam tersi bir sıra izliyor.",
-    "en": "Teaches deep learning top-down — a working model first, theory after. The exact inverse of the academic courses that open with mathematics.",
+    "tr": "Derin öğrenmeyi tepeden aşağı öğreten kurs: önce çalışan model, sonra teori. Matematikle başlayan akademik derslerin aksine sırayı tersine çeviriyor.",
+    "en": "Teaches deep learning top-down — a working model first, theory after. Unlike academic courses that open with mathematics, it inverts the order.",
     "src": "bwapsv"
   },
   {
@@ -367,8 +367,8 @@
       "veri-bilimi",
       "freemium"
     ],
-    "tr": "Araştırma çıktılarını ve veri kümelerini atıf verilebilir biçimde paylaştıran platform.",
-    "en": "A platform for sharing research outputs and datasets in a citable form.",
+    "tr": "Araştırma çıktılarını ve veri kümelerini DOI ile atıf verilebilir biçimde paylaştıran platform. Zenodo’ya kıyasla ticari bir şirketin (Digital Science) ürünü; üniversitelere kurumsal depo olarak da satılıyor.",
+    "en": "A platform for sharing research outputs and datasets in citable form with DOIs. Compared with Zenodo it is a commercial product (Digital Science), also sold to universities as an institutional repository.",
     "src": "dsbest"
   },
   {
@@ -379,8 +379,8 @@
       "interaktif",
       "ücretsiz"
     ],
-    "tr": "Küresel kalkınma verisini olgu temelli görselleştirmelerle sunan araç ve kaynak.",
-    "en": "Tools and resources presenting global development data through fact-based visualisations.",
+    "tr": "Hans Rosling’in kurduğu vakfın küresel kalkınma verisini olgu temelli görselleştirmelerle sunan araçları. Ham veri portallarından farkı veriyi yaygın yanılgıları düzeltecek biçimde, zaman içinde hareket eden grafiklerle anlatması.",
+    "en": "Tools from the foundation Hans Rosling co-founded, presenting global development data through fact-based visualisations. Unlike raw data portals, it tells the data through charts moving over time, aimed at correcting common misconceptions.",
     "src": "dsbest"
   },
   {
@@ -391,8 +391,8 @@
       "veri-bilimi",
       "rag"
     ],
-    "tr": "Web’e dağılmış açık veri kümelerini schema.org işaretlemesi üzerinden arıyor. Tek bir depoya bağlı olmadığı için kurum arşivlerini de kapsıyor.",
-    "en": "Searches open datasets scattered across the web via schema.org markup. Being tied to no single repository, it reaches institutional archives too.",
+    "tr": "Web’e dağılmış açık veri kümelerini schema.org işaretlemesi üzerinden arıyor. Tek bir veri deposunun aramasından farkı hiçbir depoya bağlı olmaması: kurum arşivlerini de kapsıyor.",
+    "en": "Searches open datasets scattered across the web via schema.org markup. Unlike a single repository’s search it is tied to none, so it reaches institutional archives too.",
     "src": "kedi",
     "added": 1775507011
   },
@@ -404,8 +404,8 @@
       "referans",
       "ücretsiz"
     ],
-    "tr": "OCHA tarafından derlenen kriz ve insani yardım veri kümeleri.",
-    "en": "Crisis and humanitarian datasets curated by OCHA.",
+    "tr": "OCHA’nın derlediği kriz ve insani yardım veri kümeleri. Genel açık veri portallarından farkı yalnız kriz bölgelerine odaklanması ve verinin sahadaki kuruluşlardan gelmesi.",
+    "en": "Crisis and humanitarian datasets curated by OCHA. Unlike general open-data portals, it focuses on crisis areas, with data coming from organisations in the field.",
     "src": "dsbest"
   },
   {
@@ -440,8 +440,8 @@
       "ücretsiz",
       "veri-bilimi"
     ],
-    "tr": "Aktif ve geçmiş yarışmalar. Gerçek ölçütle değerlendirilmek, kendi projendeki “iyi görünüyor” yanılsamasını kırıyor.",
-    "en": "Active and past competitions. Being scored against a real metric breaks the “looks fine to me” illusion of working on your own project.",
+    "tr": "Aktif ve geçmiş yarışmalar. Kendi projende çalışmaktan farkı gerçek bir ölçütle, gizli test kümesine karşı puanlanman — “iyi görünüyor” yanılsamasını kırıyor.",
+    "en": "Active and past competitions. Unlike working on your own project, you are scored against a real metric on a hidden test set — which breaks the “looks fine to me” illusion.",
     "src": "kedi",
     "added": 1765557477
   },
@@ -453,8 +453,8 @@
       "python",
       "veri-bilimi"
     ],
-    "tr": "Sinir ağını katman katman istiflemeyi birkaç satıra indiren yüksek seviye API. Artık TensorFlow, PyTorch ve JAX’in üçünde birden çalışıyor, yani çatı seçimini ertelemene izin veriyor.",
-    "en": "A high-level API reducing network construction to stacking layers in a few lines. It now runs on TensorFlow, PyTorch and JAX alike, which lets you defer the framework choice.",
+    "tr": "Sinir ağını katman katman istiflemeyi birkaç satıra indiren yüksek seviye API. Ham PyTorch ya da TensorFlow’a kıyasla çok daha az kod; artık üçünde (TensorFlow, PyTorch, JAX) birden çalıştığı için çatı seçimini ertelemene izin veriyor.",
+    "en": "A high-level API reducing network construction to stacking layers in a few lines. Compared with raw PyTorch or TensorFlow it is far less code, and since it now runs on TensorFlow, PyTorch and JAX alike, it lets you defer the framework choice.",
     "src": "kedi"
   },
   {
@@ -490,8 +490,8 @@
       "python",
       "veri-bilimi"
     ],
-    "tr": "Python görselleştirmenin temeli; seaborn ve pandas’ın çizim işlevleri bunun üstüne kurulu. Ayrıntılı denetim verir, karşılığında basit bir grafik için bile epey kod ister.",
-    "en": "The foundation of Python plotting — seaborn and pandas’ plotting are built on it. It gives fine control at the cost of considerable code even for a simple chart.",
+    "tr": "Python görselleştirmenin temeli; seaborn ve pandas’ın çizim işlevleri bunun üstüne kurulu. Plotly gibi etkileşimli kütüphanelerden farkı statik ama ayrıntılı denetim vermesi; karşılığında basit bir grafik için bile epey kod istiyor.",
+    "en": "The foundation of Python plotting — seaborn and pandas’ plotting are built on it. Unlike interactive libraries such as Plotly it is static but gives fine control, at the cost of considerable code even for a simple chart.",
     "src": "kedi"
   },
   {
@@ -502,8 +502,8 @@
       "müfredat",
       "veri-bilimi"
     ],
-    "tr": "Google’ın makine öğrenmesine hızlı girişi; kısa video, okuma ve çalıştırılabilir alıştırma üçlüsüyle ilerliyor.",
-    "en": "Google’s fast introduction to machine learning, moving through short video, reading and runnable exercises.",
+    "tr": "Google’ın makine öğrenmesine hızlı girişi; kısa video, okuma ve çalıştırılabilir alıştırma üçlüsüyle ilerliyor. Uzun uzmanlık programlarına kıyasla birkaç günde bitiyor ve ücretsiz.",
+    "en": "Google’s fast introduction to machine learning, moving through short video, reading and runnable exercises. Compared with long specialisations it is done in a few days, and free.",
     "src": "bwapsv"
   },
   {
@@ -527,8 +527,8 @@
       "müfredat",
       "veri-bilimi"
     ],
-    "tr": "Açık makine öğrenmesi kursu; teori ile Kaggle yarışması ödevlerini birleştirmesi onu salt anlatımdan ayırıyor.",
-    "en": "An open machine learning course whose pairing of theory with Kaggle competition assignments separates it from lecture-only material.",
+    "tr": "Açık makine öğrenmesi kursu. Salt anlatım içeriğinden farkı teoriyi Kaggle yarışması ödevleriyle birleştirmesi.",
+    "en": "An open machine learning course. Unlike lecture-only material, it pairs theory with Kaggle competition assignments.",
     "src": "bwapsv"
   },
   {
@@ -539,8 +539,8 @@
       "interaktif",
       "veri-bilimi"
     ],
-    "tr": "Amazon’un makine öğrenmesi kavramlarını etkileşimli görsellerle anlatan seti; parametreyi kaydırıp modelin nasıl değiştiğini görüyorsun.",
-    "en": "Amazon’s set explaining machine learning concepts through interactive visuals — you drag a parameter and watch the model change.",
+    "tr": "Amazon’un makine öğrenmesi kavramlarını etkileşimli görsellerle anlatan seti. Ders kitabı anlatımından farkı parametreyi kaydırıp modelin nasıl değiştiğini kendi gözünle görmen.",
+    "en": "Amazon’s set explaining machine learning concepts through interactive visuals. Unlike a textbook, you drag a parameter and watch the model change for yourself.",
     "src": "bwapsv"
   },
   {
@@ -551,8 +551,8 @@
       "referans",
       "freemium"
     ],
-    "tr": "Portallar arası aranabilir veri kümeleri sunan veri portalı platformu.",
-    "en": "A data-portal platform offering searchable datasets across many portals.",
+    "tr": "Kurumların ve belediyelerin veri portalı kurduğu platform; portallar arası aranabilir veri kümeleri sunuyor. Tek tek portalları gezmek yerine bu platformu kullanan portalların verisinde birlikte arama yapabiliyorsun.",
+    "en": "A platform institutions and cities use to run data portals, with datasets searchable across portals. Rather than visiting portals one by one, you can search the data of every portal built on it together.",
     "src": "dsbest"
   },
   {
@@ -587,8 +587,8 @@
       "python",
       "veri-bilimi"
     ],
-    "tr": "Etkileşimli grafik kütüphanesi; yakınlaştırma, ipucu ve seçim kutudan çıkıyor. Matplotlib statik görsel üretir, bu tarayıcıda gezilebilir grafik verir.",
-    "en": "An interactive charting library with zoom, tooltips and selection built in. Matplotlib produces a static image; this produces a chart you can explore in the browser.",
+    "tr": "Etkileşimli grafik kütüphanesi; yakınlaştırma, ipucu ve seçim kutudan çıkıyor. Matplotlib’den farkı statik görsel yerine tarayıcıda gezilebilir grafik üretmesi.",
+    "en": "An interactive charting library with zoom, tooltips and selection built in. Unlike Matplotlib it produces a chart you can explore in the browser rather than a static image.",
     "src": "kedi"
   },
   {
@@ -611,8 +611,8 @@
       "ücretli",
       "veri-bilimi"
     ],
-    "tr": "Microsoft’un iş zekâsı aracı; Excel ve Azure veri kaynaklarına yerleşik bağlanıyor. Kurum zaten Microsoft 365’teyse Tableau’ya karşı asıl avantajı lisansın ödenmiş olması.",
-    "en": "Microsoft’s business intelligence tool with native connections to Excel and Azure sources. If the organisation is already on Microsoft 365, its real edge over Tableau is a licence that is already paid for.",
+    "tr": "Microsoft’un iş zekâsı aracı; Excel ve Azure veri kaynaklarına yerleşik bağlanıyor. Tableau’ya kıyasla asıl avantajı, kurum zaten Microsoft 365’teyse lisansın çoğu zaman ödenmiş olması.",
+    "en": "Microsoft’s business intelligence tool with native connections to Excel and Azure sources. Compared with Tableau, its real edge is that the licence is usually already paid for if the organisation is on Microsoft 365.",
     "src": "kedi"
   },
   {
@@ -635,8 +635,8 @@
       "referans",
       "ücretsiz"
     ],
-    "tr": "Araştırma veri depolarının kayıt defteri; doğru depoyu bulmayı sağlar.",
-    "en": "A registry of research-data repositories that helps you find the right one.",
+    "tr": "Araştırma veri depolarının kayıt defteri. Genel arama motorlarından farkı depoları disiplin, erişim koşulu, lisans ve sertifika gibi ölçütlerle sınıflandırması: verini nereye koyacağını seçmek için.",
+    "en": "A registry of research-data repositories. Unlike general search engines, it classifies repositories by discipline, access terms, licence and certification — for choosing where to deposit your data.",
     "src": "dsbest"
   },
   {
@@ -647,8 +647,8 @@
       "python",
       "veri-bilimi"
     ],
-    "tr": "Klasik makine öğrenmesinin standart Python kütüphanesi: sınıflandırma, regresyon, kümeleme ve ön işleme aynı `fit`/`predict` arayüzü altında. Derin öğrenmeden önce gelen her şeyin ortak zemini.",
-    "en": "The standard Python library for classical machine learning — classification, regression, clustering and preprocessing behind one `fit`/`predict` interface. The common ground for everything before deep learning.",
+    "tr": "Klasik makine öğrenmesinin standart Python kütüphanesi: sınıflandırma, regresyon, kümeleme ve ön işleme aynı `fit`/`predict` arayüzü altında. PyTorch gibi derin öğrenme çatılarından farkı tablo verisi ve klasik yöntemler için hazır, tutarlı bir araç kutusu olması.",
+    "en": "The standard Python library for classical machine learning — classification, regression, clustering and preprocessing behind one `fit`/`predict` interface. Unlike deep-learning frameworks such as PyTorch, it is a ready, consistent toolbox for tabular data and classical methods.",
     "src": "kedi"
   },
   {
@@ -659,8 +659,8 @@
       "python",
       "veri-bilimi"
     ],
-    "tr": "Matplotlib üstüne kurulu istatistiksel grafik kütüphanesi. Dağılım, ilişki ve kategori grafiklerini tek satıra indiriyor; varsayılan estetiği de düzgün.",
-    "en": "A statistical plotting library on top of Matplotlib, reducing distribution, relationship and category plots to one line — with sane defaults out of the box.",
+    "tr": "Matplotlib üstüne kurulu istatistiksel grafik kütüphanesi. Ham Matplotlib’den farkı dağılım, ilişki ve kategori grafiklerini tek satıra indirmesi; varsayılan estetiği de düzgün.",
+    "en": "A statistical plotting library on top of Matplotlib. Unlike raw Matplotlib, it reduces distribution, relationship and category plots to one line, with sane defaults.",
     "src": "kedi"
   },
   {
@@ -683,8 +683,8 @@
       "veri-bilimi",
       "tarayıcı-içi"
     ],
-    "tr": "Python betiğini birkaç satırla web uygulamasına çeviriyor; HTML, CSS ya da JavaScript yok. Veri bilimcinin modelini paydaşa göstermesinin en kısa yolu.",
-    "en": "Turns a Python script into a web app in a few lines with no HTML, CSS or JavaScript — the shortest path for a data scientist to show a model to a stakeholder.",
+    "tr": "Python betiğini birkaç satırla web uygulamasına çeviriyor; HTML, CSS ya da JavaScript yok. Dash’e kıyasla daha az kod ama etkileşim üzerinde daha az denetim: veri bilimcinin modelini paydaşa göstermesinin en kısa yolu.",
+    "en": "Turns a Python script into a web app in a few lines with no HTML, CSS or JavaScript. Compared with Dash it is less code but less control over interaction — the shortest path for a data scientist to show a model to a stakeholder.",
     "src": "kedi"
   },
   {
@@ -694,8 +694,8 @@
       "ücretli",
       "veri-bilimi"
     ],
-    "tr": "Sürükle-bırak iş zekâsı platformu; kod yazmadan pano kuruluyor. Kurumsal raporlamada yaygın, tekrarlanabilirlik ve sürüm kontrolü tarafında zayıf.",
-    "en": "A drag-and-drop business intelligence platform for building dashboards without code. Common in enterprise reporting and weak on reproducibility and version control.",
+    "tr": "Sürükle-bırak iş zekâsı platformu; kod yazmadan pano kuruluyor. Power BI’a kıyasla görselleştirme esnekliği güçlü; ama iki araç gibi tekrarlanabilirlik ve sürüm kontrolü tarafında zayıf.",
+    "en": "A drag-and-drop business intelligence platform for building dashboards without code. Compared with Power BI its visualisation flexibility is strong, though like both it is weak on reproducibility and version control.",
     "src": "kedi"
   },
   {
@@ -706,8 +706,8 @@
       "python",
       "veri-bilimi"
     ],
-    "tr": "Google’ın derin öğrenme çatısı. Araştırmada PyTorch’a yenildi ama mobil ve gömülü dağıtımda (TF Lite) ve üretim sunumunda (TF Serving) hâlâ güçlü.",
-    "en": "Google’s deep learning framework. It lost research ground to PyTorch, yet remains strong for mobile and embedded deployment (TF Lite) and production serving (TF Serving).",
+    "tr": "Google’ın derin öğrenme çatısı. PyTorch’a kıyasla araştırmada geriledi ama mobil ve gömülü dağıtımda (TF Lite) ve üretim sunumunda (TF Serving) hâlâ güçlü.",
+    "en": "Google’s deep learning framework. Compared with PyTorch it lost research ground, yet remains strong for mobile and embedded deployment (TF Lite) and production serving (TF Serving).",
     "src": "kedi"
   },
   {
@@ -718,8 +718,8 @@
       "python",
       "müfredat"
     ],
-    "tr": "Veri indirmeden dağıtık eğitime kadar tüm hattı çalışan kodla gösteriyor. Teorik anlatımların atladığı kısım genelde bu altyapı tarafı.",
-    "en": "Shows the whole pipeline in working code, from data download to distributed training — the infrastructure side theoretical write-ups usually skip.",
+    "tr": "Veri indirmeden dağıtık eğitime kadar bir dil modelinin tüm eğitim hattını çalışan kodla gösteriyor. Teorik anlatımlardan farkı onların genelde atladığı altyapı tarafını da işlemesi.",
+    "en": "Shows a language model’s whole training pipeline in working code, from data download to distributed training. Unlike theoretical write-ups, it also covers the infrastructure side they usually skip.",
     "src": "kedi",
     "added": 1785884172
   },
@@ -731,8 +731,8 @@
       "veri-bilimi",
       "ücretsiz"
     ],
-    "tr": "CERN destekli açık araştırma deposu; veri kümesi ve yazılıma DOI verir.",
-    "en": "A CERN-backed open research repository that mints DOIs for datasets and software.",
+    "tr": "CERN destekli açık araştırma deposu; veri kümesi ve yazılıma DOI veriyor. Figshare’den farkı kâr amacı gütmemesi ve GitHub sürümlerini otomatik arşivleyip DOI’leyebilmesi.",
+    "en": "A CERN-backed open research repository that mints DOIs for datasets and software. Unlike Figshare it is non-profit, and it can automatically archive and DOI your GitHub releases.",
     "src": "dsbest"
   },
   {

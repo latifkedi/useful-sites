@@ -130,7 +130,7 @@
   <link href="https://registry.opendata.aws"/>
   <id>https://registry.opendata.aws</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>AWS üzerinde barındırılan büyük kamu veri kümelerinin kayıt defteri.</summary>
+  <summary>AWS üzerinde barındırılan büyük kamu veri kümelerinin kayıt defteri. Data.gov gibi portallardan farkı verinin doğrudan S3’te durması: indirmeden AWS içinde işleyebiliyorsun.</summary>
 </entry>
 <entry>
   <title>data.europa.eu</title>
@@ -144,56 +144,56 @@
   <link href="https://data.gov"/>
   <id>https://data.gov</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>ABD federal açık veri portalı; kanonik devlet veri kümeleri.</summary>
+  <summary>ABD federal açık veri portalı; kanonik devlet veri kümeleri. Üçüncü taraf derlemelerden farkı resmî kaynak olması; kayıtların çoğu veriyi yayımlayan kurumun sitesine yönlendiriyor.</summary>
 </entry>
 <entry>
   <title>DataHub</title>
   <link href="https://datahub.io"/>
   <id>https://datahub.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Kullanıma hazır CSV/JSON biçiminde derlenmiş açık veri kümeleri ve araçları.</summary>
+  <summary>Kullanıma hazır CSV/JSON biçiminde derlenmiş açık veri kümeleri ve araçları. Ham portal verisinden farkı temizlenmiş ve standart veri paketi (Frictionless Data) biçiminde sunulması.</summary>
 </entry>
 <entry>
   <title>Figshare</title>
   <link href="https://figshare.com"/>
   <id>https://figshare.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Araştırma çıktılarını ve veri kümelerini atıf verilebilir biçimde paylaştıran platform.</summary>
+  <summary>Araştırma çıktılarını ve veri kümelerini DOI ile atıf verilebilir biçimde paylaştıran platform. Zenodo’ya kıyasla ticari bir şirketin (Digital Science) ürünü; üniversitelere kurumsal depo olarak da satılıyor.</summary>
 </entry>
 <entry>
   <title>Gapminder</title>
   <link href="https://www.gapminder.org"/>
   <id>https://www.gapminder.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Küresel kalkınma verisini olgu temelli görselleştirmelerle sunan araç ve kaynak.</summary>
+  <summary>Hans Rosling’in kurduğu vakfın küresel kalkınma verisini olgu temelli görselleştirmelerle sunan araçları. Ham veri portallarından farkı veriyi yaygın yanılgıları düzeltecek biçimde, zaman içinde hareket eden grafiklerle anlatması.</summary>
 </entry>
 <entry>
   <title>Humanitarian Data Exchange</title>
   <link href="https://data.humdata.org"/>
   <id>https://data.humdata.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>OCHA tarafından derlenen kriz ve insani yardım veri kümeleri.</summary>
+  <summary>OCHA’nın derlediği kriz ve insani yardım veri kümeleri. Genel açık veri portallarından farkı yalnız kriz bölgelerine odaklanması ve verinin sahadaki kuruluşlardan gelmesi.</summary>
 </entry>
 <entry>
   <title>Opendatasoft</title>
   <link href="https://www.opendatasoft.com"/>
   <id>https://www.opendatasoft.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Portallar arası aranabilir veri kümeleri sunan veri portalı platformu.</summary>
+  <summary>Kurumların ve belediyelerin veri portalı kurduğu platform; portallar arası aranabilir veri kümeleri sunuyor. Tek tek portalları gezmek yerine bu platformu kullanan portalların verisinde birlikte arama yapabiliyorsun.</summary>
 </entry>
 <entry>
   <title>re3data</title>
   <link href="https://www.re3data.org"/>
   <id>https://www.re3data.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Araştırma veri depolarının kayıt defteri; doğru depoyu bulmayı sağlar.</summary>
+  <summary>Araştırma veri depolarının kayıt defteri. Genel arama motorlarından farkı depoları disiplin, erişim koşulu, lisans ve sertifika gibi ölçütlerle sınıflandırması: verini nereye koyacağını seçmek için.</summary>
 </entry>
 <entry>
   <title>Zenodo</title>
   <link href="https://zenodo.org"/>
   <id>https://zenodo.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>CERN destekli açık araştırma deposu; veri kümesi ve yazılıma DOI verir.</summary>
+  <summary>CERN destekli açık araştırma deposu; veri kümesi ve yazılıma DOI veriyor. Figshare’den farkı kâr amacı gütmemesi ve GitHub sürümlerini otomatik arşivleyip DOI’leyebilmesi.</summary>
 </entry>
 <entry>
   <title>Academic Torrents</title>
@@ -235,28 +235,28 @@
   <link href="https://aima.cs.berkeley.edu"/>
   <id>https://aima.cs.berkeley.edu</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Yapay Zeka: Modern Yaklaşım kitabının kaynak sayfası; ders kodu ve algoritma uygulamaları birden çok dilde yayımlanmış.</summary>
+  <summary>Yapay Zekâ: Modern Bir Yaklaşım kitabının kaynak sayfası. Kitabın basılı hâlinden farkı ders kodu ve algoritma uygulamalarının (Python, Java ve diğerleri) burada açık yayımlanması.</summary>
 </entry>
 <entry>
   <title>DeepLearning.AI</title>
   <link href="https://www.deeplearning.ai"/>
   <id>https://www.deeplearning.ai</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Andrew Ng’in kurduğu eğitim platformu; derin öğrenme ve üretken YZ üzerine yapılandırılmış uzmanlık programları.</summary>
+  <summary>Andrew Ng’in kurduğu eğitim platformu; derin öğrenme ve üretken YZ üzerine uzmanlık programları. Uzun uzmanlık programlarının yanında farkı, şirketlerle birlikte hazırlanan bir saatlik ücretsiz kısa kurslar sunması.</summary>
 </entry>
 <entry>
   <title>fast.ai</title>
   <link href="https://course.fast.ai"/>
   <id>https://course.fast.ai</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Derin öğrenmeyi tepeden aşağı öğreten kurs: önce çalışan model, sonra teori. Matematikle başlayan akademik derslerin tam tersi bir sıra izliyor.</summary>
+  <summary>Derin öğrenmeyi tepeden aşağı öğreten kurs: önce çalışan model, sonra teori. Matematikle başlayan akademik derslerin aksine sırayı tersine çeviriyor.</summary>
 </entry>
 <entry>
   <title>Keras</title>
   <link href="https://keras.io/"/>
   <id>https://keras.io/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Sinir ağını katman katman istiflemeyi birkaç satıra indiren yüksek seviye API. Artık TensorFlow, PyTorch ve JAX’in üçünde birden çalışıyor, yani çatı seçimini ertelemene izin veriyor.</summary>
+  <summary>Sinir ağını katman katman istiflemeyi birkaç satıra indiren yüksek seviye API. Ham PyTorch ya da TensorFlow’a kıyasla çok daha az kod; artık üçünde (TensorFlow, PyTorch, JAX) birden çalıştığı için çatı seçimini ertelemene izin veriyor.</summary>
 </entry>
 <entry>
   <title>Machine Learning Mastery</title>
@@ -270,20 +270,20 @@
   <link href="https://matplotlib.org/"/>
   <id>https://matplotlib.org/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Python görselleştirmenin temeli; seaborn ve pandas’ın çizim işlevleri bunun üstüne kurulu. Ayrıntılı denetim verir, karşılığında basit bir grafik için bile epey kod ister.</summary>
+  <summary>Python görselleştirmenin temeli; seaborn ve pandas’ın çizim işlevleri bunun üstüne kurulu. Plotly gibi etkileşimli kütüphanelerden farkı statik ama ayrıntılı denetim vermesi; karşılığında basit bir grafik için bile epey kod istiyor.</summary>
 </entry>
 <entry>
   <title>ML Crash Course</title>
   <link href="https://developers.google.com/machine-learning/crash-course"/>
   <id>https://developers.google.com/machine-learning/crash-course</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Google’ın makine öğrenmesine hızlı girişi; kısa video, okuma ve çalıştırılabilir alıştırma üçlüsüyle ilerliyor.</summary>
+  <summary>Google’ın makine öğrenmesine hızlı girişi; kısa video, okuma ve çalıştırılabilir alıştırma üçlüsüyle ilerliyor. Uzun uzmanlık programlarına kıyasla birkaç günde bitiyor ve ücretsiz.</summary>
 </entry>
 <entry>
   <title>mlcourse.ai</title>
   <link href="https://mlcourse.ai/"/>
   <id>https://mlcourse.ai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Açık makine öğrenmesi kursu; teori ile Kaggle yarışması ödevlerini birleştirmesi onu salt anlatımdan ayırıyor.</summary>
+  <summary>Açık makine öğrenmesi kursu. Salt anlatım içeriğinden farkı teoriyi Kaggle yarışması ödevleriyle birleştirmesi.</summary>
 </entry>
 </feed>

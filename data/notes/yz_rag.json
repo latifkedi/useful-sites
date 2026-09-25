@@ -7,8 +7,8 @@
       "vektör-db",
       "veritabanı"
     ],
-    "tr": "Vektör indeksi belgelerin yanında duruyor, ayrı bir depoya kopyalama ve senkron tutma derdi kalkıyor. Yalnızca Atlas’ta, kendi kurduğun MongoDB’de yok.",
-    "en": "The vector index sits beside your documents, removing the copy-and-sync burden of a separate store. Atlas only — it is not in a self-managed MongoDB.",
+    "tr": "Vektör indeksi belgelerin yanında duruyor. Ayrı bir vektör veritabanından farkı veriyi başka depoya kopyalama ve senkron tutma derdini kaldırması; tam destek Atlas’ta, kendi kurduğun MongoDB’de bu özellik daha yeni.",
+    "en": "The vector index sits beside your documents. Unlike a separate vector database, it removes the copy-and-sync burden; full support is on Atlas, and the feature is newer in self-managed MongoDB.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -19,8 +19,8 @@
       "açık-ağırlık",
       "embedding"
     ],
-    "tr": "Açık gömme modellerinin en yaygın ailesi. MTEB sıralamasında ücretli API’lere yakın duruyor ve çoğu sürüm MIT lisanslı, yani ticari kullanımda engel yok.",
-    "en": "The most widely used family of open embedding models. It sits close to paid APIs on the MTEB leaderboard and most releases are MIT, so commercial use is unblocked.",
+    "tr": "Açık gömme modellerinin en yaygın ailesi. Ücretli gömme API’lerine kıyasla MTEB sıralamasında yakın duruyor ve çoğu sürüm MIT lisanslı: ticari kullanımda engel yok, veri makineden çıkmıyor.",
+    "en": "The most widely used family of open embedding models. Compared with paid embedding APIs it sits close on the MTEB leaderboard, and most releases are MIT — commercial use is unblocked and data stays on your machine.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -33,8 +33,8 @@
       "vektör-db",
       "gömülü"
     ],
-    "tr": "Uygulamanın içine gömülü çalışıyor, sunucu süreci yok — `pip install` sonrası kullanmaya başlıyorsun. Prototip için en hızlısı, üretim ölçeğinde başkasına devretmen gerekiyor.",
-    "en": "Runs embedded in your application with no server process — usable straight after `pip install`. Fastest for a prototype; at production scale you will hand off to something else.",
+    "tr": "Uygulamanın içine gömülü çalışan vektör veritabanı; sunucu süreci yok, `pip install` sonrası kullanmaya başlıyorsun. Qdrant ya da Milvus gibi sunucu tabanlılardan farkı prototip için en hızlısı olması; üretim ölçeğinde başkasına devretmen gerekebilir.",
+    "en": "A vector database that runs embedded in your application with no server process — usable straight after `pip install`. Unlike server-based ones such as Qdrant or Milvus it is the fastest for a prototype; at production scale you may hand off to something else.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -46,8 +46,8 @@
       "ücretli",
       "embedding"
     ],
-    "tr": "100’den fazla dili tek vektör uzayında temsil ediyor; Türkçe sorguyla İngilizce belge bulmak mümkün. Sorgu ve belge için ayrı giriş tipi almasi eşleşme kalitesini artırıyor.",
-    "en": "Represents 100+ languages in one vector space, so a Turkish query can retrieve an English document. Taking separate input types for query and document lifts match quality.",
+    "tr": "100’den fazla dili tek vektör uzayında temsil ediyor; Türkçe sorguyla İngilizce belge bulmak mümkün. OpenAI gömmelerinden farkı sorgu ve belge için ayrı giriş tipi alması — eşleşme kalitesini artıran bu ayrım.",
+    "en": "Represents 100+ languages in one vector space, so a Turkish query can retrieve an English document. Unlike OpenAI embeddings it takes separate input types for query and document — the distinction that lifts match quality.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -59,8 +59,8 @@
       "rag",
       "kuantum"
     ],
-    "tr": "BM25 anahtar kelime aramasıyla vektör aramasını tek sorguda birleştirip (hibrit arama) sonuçları RRF ile harmanlayabiliyor. Saf vektör veritabanlarının eksiği tam olarak bu ilk yarı.",
-    "en": "Combines BM25 keyword search with vector search in a single query and fuses the results with RRF. That keyword half is exactly what pure vector databases lack.",
+    "tr": "BM25 anahtar kelime aramasıyla vektör aramasını tek sorguda birleştirip (hibrit arama) sonuçları RRF ile harmanlayabiliyor. Saf vektör veritabanlarından farkı tam da bu anahtar kelime yarısı.",
+    "en": "Combines BM25 keyword search with vector search in a single query and fuses the results with RRF. Unlike pure vector databases, it has exactly that keyword half.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -73,8 +73,8 @@
       "sistem-tasarımı",
       "rag"
     ],
-    "tr": "Kod tabanını AST çözümlemesiyle gezip dokümanları, SQL şemalarını ve PDF’leri de katarak sorgulanabilir bir grafiğe çeviriyor. Kod asistanına bağlam beslemek için tasarlanmış.",
-    "en": "Walks a codebase via AST analysis and folds in docs, SQL schemas and PDFs to build a queryable graph. Designed to feed context to a coding agent.",
+    "tr": "Kod tabanını AST çözümlemesiyle gezip dokümanları, SQL şemalarını ve PDF’leri de katarak sorgulanabilir bir grafiğe çeviriyor. Düz metin aramasından farkı ilişkileri — kim kimi çağırıyor, hangi tablo nerede kullanılıyor — kod asistanına bağlam olarak vermesi.",
+    "en": "Walks a codebase via AST analysis and folds in docs, SQL schemas and PDFs to build a queryable graph. Unlike plain text search, it hands a coding agent the relationships — who calls whom, which table is used where — as context.",
     "src": "kedi",
     "added": 1785304754
   },
@@ -86,8 +86,8 @@
       "python",
       "rag"
     ],
-    "tr": "Belgelerden varlık ve ilişki çıkarıp bilgi grafiği kuruyor, sonra topluluk özetleri üretiyor. “Bu külliyatın ana temaları neler” gibi bütüne dair sorular parça-getir yöntemiyle cevaplanamıyor; bu onun için var.",
-    "en": "Extracts entities and relations into a knowledge graph, then builds community summaries. Corpus-wide questions like “what are the main themes here” cannot be answered by chunk retrieval; this exists for those.",
+    "tr": "Belgelerden varlık ve ilişki çıkarıp bilgi grafiği kuruyor, sonra topluluk özetleri üretiyor. Parça getiren klasik RAG’dan farkı “bu külliyatın ana temaları neler” gibi bütüne dair soruları cevaplayabilmesi.",
+    "en": "Extracts entities and relations into a knowledge graph, then builds community summaries. Unlike classic chunk-retrieval RAG, it can answer corpus-wide questions such as “what are the main themes here”.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -100,8 +100,8 @@
       "rag",
       "devops"
     ],
-    "tr": "Bileşenleri açıkça birbirine bağlıyorsun; hattın hangi adımda ne yaptığı okunabilir kalıyor. Hata ayıklarken bu şeffaflık LangChain’in örtük akışına karşı gözle görülür bir kazanç.",
-    "en": "You wire components together explicitly, so what happens at each stage stays readable. When debugging, that transparency is a visible win over LangChain’s implicit flow.",
+    "tr": "Bileşenleri açıkça birbirine bağlıyorsun; hattın hangi adımda ne yaptığı okunabilir kalıyor. LangChain’in örtük akışından farkı bu şeffaflık — hata ayıklarken gözle görülür bir kazanç.",
+    "en": "You wire components together explicitly, so what happens at each stage stays readable. Unlike LangChain’s implicit flow it is transparent — a visible win when debugging.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -113,8 +113,8 @@
       "embedding",
       "açık-kaynak"
     ],
-    "tr": "Çok kipli gömme ve sinirsel arama altyapısı; belge ve görselleri vektörle aranır kılar.",
-    "en": "Multimodal embedding and neural-search infrastructure that makes documents and images searchable by vector.",
+    "tr": "Çok kipli gömme ve arama altyapısı; belge ve görselleri vektörle aranır kılıyor. Tek kipli gömme API’lerinden farkı metin ile görseli aynı uzayda temsil etmesi; web sayfasını modele hazır metne çeviren okuyucu ve yeniden sıralayıcı modelleri de var.",
+    "en": "Multimodal embedding and search infrastructure that makes documents and images searchable by vector. Unlike single-modality embedding APIs it places text and images in one space, and it also offers a reader that turns web pages into model-ready text, plus rerankers.",
     "src": "kedi"
   },
   {
@@ -124,8 +124,8 @@
       "dokümantasyon",
       "agent"
     ],
-    "tr": "Kısa vadeli (thread içi durum) ve uzun vadeli (thread’ler arası store) belleğin ayrımını ve hangisinin ne zaman kullanılacağını anlatan kavram sayfası.",
-    "en": "The concept page separating short-term memory (in-thread state) from long-term (a cross-thread store), and when each applies.",
+    "tr": "Kısa vadeli (thread içi durum) ve uzun vadeli (thread’ler arası store) belleğin ayrımını ve hangisinin ne zaman kullanılacağını anlatan kavram sayfası. Genel agent belleği yazılarından farkı ayrımı somut LangGraph API’sine bağlaması.",
+    "en": "The concept page separating short-term memory (in-thread state) from long-term (a cross-thread store), and when each applies. Unlike general writing on agent memory, it ties the distinction to the concrete LangGraph API.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -137,8 +137,8 @@
       "python",
       "agent"
     ],
-    "tr": "MemGPT araştırmasının ürünleşmiş hâli. Bağlam penceresini işletim sistemi gibi yönetiyor: sıcak bilgiyi pencerede tutup gerisini harici depoya sayfalıyor.",
-    "en": "The productised form of the MemGPT research. It manages the context window like an operating system, keeping hot state in the window and paging the rest to external storage.",
+    "tr": "MemGPT araştırmasının ürünleşmiş hâli. Düz vektör belleğinden farkı bağlam penceresini işletim sistemi gibi yönetmesi: sıcak bilgiyi pencerede tutup gerisini harici depoya sayfalıyor.",
+    "en": "The productised form of the MemGPT research. Unlike flat vector memory, it manages the context window like an operating system, keeping hot state in the window and paging the rest to external storage.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -163,8 +163,8 @@
       "vektör-db",
       "açık-kaynak"
     ],
-    "tr": "Gömme üretiminden vektör aramaya kadar uçtan uca çalışan tek parça vektör arama motoru.",
-    "en": "An end-to-end vector search engine that handles everything from embedding generation to vector search.",
+    "tr": "Gömme üretiminden vektör aramaya kadar uçtan uca çalışan vektör arama motoru. Ayrı bir gömme servisi ve vektör veritabanı kurmak yerine ham metin ya da görseli verip doğrudan arıyorsun.",
+    "en": "An end-to-end vector search engine that handles everything from embedding generation to search. Instead of standing up a separate embedding service and vector database, you hand it raw text or images and search directly.",
     "src": "kedi"
   },
   {
@@ -189,8 +189,8 @@
       "python",
       "agent"
     ],
-    "tr": "Mem0’ın kendi altyapında çalıştırılabilen sürümü. Embedchain projesi de bu depoda birleşti, yani eski Embedchain bağlantıları buraya çıkıyor.",
-    "en": "The self-hostable version of Mem0. The Embedchain project was merged into this repository, so older Embedchain links land here.",
+    "tr": "Mem0 bellek katmanının kendi altyapında çalıştırılabilen sürümü. Barındırılan Mem0 platformu yerine veriyi kendinde tutuyorsun; Embedchain projesi de bu depoda birleşti, eski Embedchain bağlantıları buraya çıkıyor.",
+    "en": "The self-hostable version of the Mem0 memory layer. Instead of the hosted Mem0 platform you keep the data yourself; the Embedchain project was merged in here too, so older Embedchain links land here.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -203,8 +203,8 @@
       "docker",
       "sistem-tasarımı"
     ],
-    "tr": "Depolama ve hesaplamayı ayıran dağıtık mimari; milyar ölçekli koleksiyonlar için tasarlanmış. Kubernetes gerektiriyor, küçük projelerde kurulum maliyeti kazancından büyük.",
-    "en": "A distributed architecture separating storage from compute, built for billion-scale collections. It wants Kubernetes; on a small project the setup cost exceeds the gain.",
+    "tr": "Depolama ve hesaplamayı ayıran dağıtık vektör veritabanı; milyar ölçekli koleksiyonlar için tasarlanmış. Qdrant’a kıyasla daha büyük ölçeği hedefliyor; dağıtık kurulum Kubernetes istiyor, küçük projeler için Milvus Lite ve tek düğümlü sürüm var.",
+    "en": "A distributed vector database separating storage from compute, built for billion-scale collections. Compared with Qdrant it targets larger scale; the distributed setup wants Kubernetes, while Milvus Lite and a single-node build cover small projects.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -228,8 +228,8 @@
       "embedding",
       "api"
     ],
-    "tr": "text-embedding-3 ailesinin boyut, fiyat ve kullanım referansı. Matryoshka desteği sayesinde vektör boyutunu isteğe göre kısaltıp depolama maliyetini düşürebiliyorsun.",
-    "en": "Reference for the text-embedding-3 family — dimensions, pricing, usage. Matryoshka support lets you truncate vector dimensions on demand and cut storage cost.",
+    "tr": "text-embedding-3 ailesinin boyut, fiyat ve kullanım referansı. Açık gömme modellerine kıyasla işletme yükü yok; Matryoshka desteği sayesinde vektör boyutunu isteğe göre kısaltıp depolama maliyetini düşürebiliyorsun.",
+    "en": "Reference for the text-embedding-3 family — dimensions, pricing, usage. Compared with open embedding models there is nothing to operate, and Matryoshka support lets you truncate vector dimensions on demand to cut storage cost.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -254,8 +254,8 @@
       "ücretli",
       "vektör-db"
     ],
-    "tr": "Tam yönetilen vektör veritabanı; sunucusuz katmanında kapasite planlaması yapmıyorsun. İşletme yükü en düşük seçenek, buna karşılık verinin nerede durduğu üzerinde denetimin yok.",
-    "en": "A fully managed vector database whose serverless tier removes capacity planning. The lowest operational burden here, at the cost of control over where the data sits.",
+    "tr": "Tam yönetilen vektör veritabanı; sunucusuz katmanında kapasite planlaması yapmıyorsun. Qdrant ya da pgvector gibi kendin işlettiğin seçeneklere kıyasla işletme yükü en düşük; karşılığında verinin nerede durduğu üzerinde denetimin yok.",
+    "en": "A fully managed vector database whose serverless tier removes capacity planning. Compared with self-run options such as Qdrant or pgvector it has the lowest operational burden, at the cost of control over where the data sits.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -266,8 +266,8 @@
       "açık-kaynak",
       "veritabanı"
     ],
-    "tr": "JSONB, tam metin arama ve pgvector ile birlikte tek bir veritabanının üç ayrı sistemin işini görebildiği noktaya gelmiş durumda. Erken aşamada mimariyi ciddi ölçüde sadeleştiriyor.",
-    "en": "With JSONB, full-text search and pgvector it now does the work of three separate systems. Early on, that simplifies architecture considerably.",
+    "tr": "JSONB, tam metin arama ve pgvector ile birlikte tek bir veritabanının üç ayrı sistemin işini görebildiği noktaya gelmiş durumda. Belge deposu, arama motoru ve vektör veritabanını ayrı ayrı kurmak yerine erken aşamada mimariyi ciddi ölçüde sadeleştiriyor.",
+    "en": "With JSONB, full-text search and pgvector it now does the work of three separate systems. Instead of running a document store, a search engine and a vector database separately, it simplifies early-stage architecture considerably.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -279,8 +279,8 @@
       "rust",
       "vektör-db"
     ],
-    "tr": "Rust ile yazılmış; yüklü meta veri filtrelemesini vektör aramasıyla birlikte yürütüyor. Bellek ayak izi düşük olduğu için küçük bir VPS’te ciddi koleksiyon taşıyabiliyor.",
-    "en": "Written in Rust, executing heavy metadata filtering alongside the vector search itself. Its low memory footprint lets a small VPS carry a serious collection.",
+    "tr": "Rust ile yazılmış vektör veritabanı; yüklü meta veri filtrelemesini vektör aramasıyla birlikte yürütüyor. Pinecone’dan farkı açık kaynak olup kendi sunucunda çalışabilmesi; bellek ayak izi düşük, küçük bir VPS ciddi bir koleksiyon taşıyabiliyor.",
+    "en": "A vector database written in Rust that executes heavy metadata filtering alongside the vector search. Unlike Pinecone it is open source and self-hostable; its low memory footprint lets a small VPS carry a serious collection.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -293,8 +293,8 @@
       "gözlemlenebilirlik",
       "rag"
     ],
-    "tr": "RAG hatları için ölçüt kütüphanesi; referans cevap olmadan da çalışabilen metrikleri var. Sentetik test kümesi üretip değerlendirmeyi CI’ya bağlayabiliyorsun.",
-    "en": "A metrics library for RAG pipelines, including metrics that work without reference answers. It can generate a synthetic test set so evaluation runs in CI.",
+    "tr": "RAG hatları için ölçüt kütüphanesi; referans cevap olmadan da çalışabilen metrikleri var. Elle örnek okuyarak değerlendirmenin yerine sentetik test kümesi üretip değerlendirmeyi CI’ya bağlayabiliyorsun.",
+    "en": "A metrics library for RAG pipelines, including metrics that work without reference answers. Instead of evaluating by reading samples by hand, it can generate a synthetic test set so evaluation runs in CI.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -320,8 +320,8 @@
       "github",
       "agent"
     ],
-    "tr": "Bellek öncelikli agent koşum takımı; oturumlar arası öğrenmeyi ve kendi yapılandırmasını iyileştirmeyi merkeze alıyor.",
-    "en": "A memory-first agent harness centred on cross-session learning and refining its own configuration.",
+    "tr": "Bellek öncelikli agent koşum takımı. Her oturumu sıfırdan başlatan agent’lardan farkı oturumlar arası öğrenmeyi ve kendi yapılandırmasını iyileştirmeyi merkeze alması.",
+    "en": "A memory-first agent harness. Unlike agents that start every session from scratch, it centres on learning across sessions and refining its own configuration.",
     "src": "kedi",
     "added": 1787181448
   },
@@ -332,8 +332,8 @@
       "açık-kaynak",
       "veritabanı"
     ],
-    "tr": "Bellek içi veri yapısı deposu. YZ tarafında oturum durumu, hız sınırlama sayaçları ve yanıt önbelleği için kullanılıyor; vektör araması da modülle geliyor.",
-    "en": "An in-memory data structure store, used on the AI side for session state, rate-limit counters and response caching. Vector search arrives as a module.",
+    "tr": "Bellek içi veri yapısı deposu; YZ tarafında oturum durumu, hız sınırlama sayaçları ve yanıt önbelleği için kullanılıyor. Ayrı bir vektör veritabanına kıyasla avantajı, vektör aramasının zaten kullandığın önbelleğe eklenmesi.",
+    "en": "An in-memory data structure store, used on the AI side for session state, rate-limit counters and response caching. Compared with a separate vector database, its advantage is that vector search is added to the cache you already run.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -346,8 +346,8 @@
       "embedding",
       "self-hosted"
     ],
-    "tr": "Gömme üretiminin standart Python kütüphanesi. Model yerelde çalışır, veri makineden çıkmaz, API faturası olmaz; karşılığında GPU ve bellek yönetimi sana kalır.",
-    "en": "The standard Python library for producing embeddings. Models run locally, data stays put and there is no API bill; in exchange GPU and memory management are yours.",
+    "tr": "Gömme üretiminin standart Python kütüphanesi. Gömme API’lerinden farkı modelin yerelde çalışması: veri makineden çıkmıyor, API faturası yok; karşılığında GPU ve bellek yönetimi sana kalıyor.",
+    "en": "The standard Python library for producing embeddings. Unlike embedding APIs the model runs locally — data stays put and there is no API bill; in exchange, GPU and memory management are yours.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -360,8 +360,8 @@
       "gözlemlenebilirlik",
       "rag"
     ],
-    "tr": "RAG üçlemesini ölçüyor: bağlam alaka düzeyi, cevabın bağlama sadakati, cevabın soruya uygunluğu. Bu üçü ayrı ölçüldüğü için hatanın alma tarafında mı üretim tarafında mı olduğu ayrışıyor.",
-    "en": "Measures the RAG triad — context relevance, groundedness, answer relevance. Measuring them separately is what tells you whether the failure sits in retrieval or generation.",
+    "tr": "RAG üçlemesini ölçüyor: bağlam alaka düzeyi, cevabın bağlama sadakati, cevabın soruya uygunluğu. Tek bir genel puan veren değerlendirmelerden farkı bu üçünü ayrı ölçmesi: hatanın alma tarafında mı üretim tarafında mı olduğu ayrışıyor.",
+    "en": "Measures the RAG triad — context relevance, groundedness, answer relevance. Unlike evaluations that give one overall score it measures the three separately, which tells you whether the failure sits in retrieval or generation.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -374,8 +374,8 @@
       "rag",
       "veri-bilimi"
     ],
-    "tr": "PDF, DOCX, HTML, e-posta ve sunumları ortak bir belge öğesi modeline indiriyor. RAG hatlarında en çok vakit yiyen ve en sık bozulan ilk adım burasıdır.",
-    "en": "Reduces PDF, DOCX, HTML, email and slides to a shared document-element model. This first step is where RAG pipelines lose the most time and break most often.",
+    "tr": "PDF, DOCX, HTML, e-posta ve sunumları ortak bir belge öğesi modeline indiriyor. Tek biçime özel ayrıştırıcılardan farkı hepsini aynı yapıya çevirmesi — RAG hatlarında en çok vakit yiyen ve en sık bozulan ilk adım burası.",
+    "en": "Reduces PDF, DOCX, HTML, email and slides to a shared document-element model. Unlike format-specific parsers it brings everything into one structure — and this first step is where RAG pipelines lose the most time and break most often.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -387,8 +387,8 @@
       "embedding",
       "sunucu"
     ],
-    "tr": "GCP içindeki gömme servisi. Veriyi BigQuery’de tutuyorsan gömmeyi de aynı sınırlar içinde üretmek ağ maliyeti ve veri yerleşimi açısından anlamlı oluyor.",
-    "en": "The embedding service inside GCP. If your data sits in BigQuery, generating vectors within the same boundary makes sense for both egress cost and data residency.",
+    "tr": "GCP içindeki gömme servisi. Başka bir sağlayıcının gömme API’sine kıyasla, veriyi BigQuery’de tutuyorsan vektörü aynı sınırlar içinde üretmek ağ maliyeti ve veri yerleşimi açısından anlamlı.",
+    "en": "The embedding service inside GCP. Compared with another provider’s embedding API, if your data sits in BigQuery, generating vectors within the same boundary makes sense for egress cost and data residency.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -400,8 +400,8 @@
       "ücretli",
       "embedding"
     ],
-    "tr": "Hukuk, kod ve finans için ayrı ayrı eğitilmiş gömme modelleri. Dar alanlarda genel amaçlı modelleri geçtiğini iddia ediyor; karşılaştırmayı kendi verinle yapmak gerekiyor.",
-    "en": "Embedding models trained separately for law, code and finance. It claims to beat general-purpose models inside those domains — a claim worth testing on your own data.",
+    "tr": "Hukuk, kod ve finans için ayrı ayrı eğitilmiş gömme modelleri; 2025’te MongoDB bünyesine katıldı. Genel amaçlı modellerden farkı bu alan özel eğitim; dar alanlarda onları geçtiğini iddia ediyor, karşılaştırmayı kendi verinle yapmak gerekiyor.",
+    "en": "Embedding models trained separately for law, code and finance; it joined MongoDB in 2025. Unlike general-purpose models it is domain-trained and claims to beat them in those domains — a claim to test on your own data.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -413,8 +413,8 @@
       "vektör-db",
       "api"
     ],
-    "tr": "Gömme üretimini modül olarak içinde barındırabiliyor, yani ayrı bir gömme adımı kurmadan ham metin yazabiliyorsun. Sorgu arayüzü GraphQL.",
-    "en": "Can host embedding generation as a module, so you write raw text without standing up a separate embedding step. Its query interface is GraphQL.",
+    "tr": "Açık kaynak vektör veritabanı. Yalnız vektör saklayan veritabanlarından farkı gömme üretimini modül olarak içinde barındırabilmesi: ayrı bir gömme adımı kurmadan ham metin yazabiliyorsun; sorgu arayüzü GraphQL.",
+    "en": "An open-source vector database. Unlike databases that only store vectors, it can host embedding generation as a module, so you write raw text without a separate embedding step; its query interface is GraphQL.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -426,8 +426,8 @@
       "agent",
       "rag"
     ],
-    "tr": "Zamansal bilgi grafiği tutuyor: bir olgunun ne zaman doğru olduğunu ve ne zaman geçersizleştiğini kaydediyor. Düz vektör belleği bu ayrımı yapamıyor.",
-    "en": "Maintains a temporal knowledge graph, recording when a fact held and when it was invalidated. Flat vector memory cannot make that distinction.",
+    "tr": "Agent’lar için zamansal bilgi grafiği tutuyor: bir olgunun ne zaman doğru olduğunu ve ne zaman geçersizleştiğini kaydediyor. Düz vektör belleğinden farkı tam bu ayrımı yapabilmesi.",
+    "en": "Maintains a temporal knowledge graph for agents, recording when a fact held and when it was invalidated. Unlike flat vector memory, it can make exactly that distinction.",
     "src": "kedi",
     "added": 1787000000
   }

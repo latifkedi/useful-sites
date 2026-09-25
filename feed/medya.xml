@@ -11,7 +11,7 @@
   <link href="https://animista.net"/>
   <id>https://animista.net</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Hazır CSS animasyonlarını oynatıp ayarlayarak kodunu kopyalatan kütüphane.</summary>
+  <summary>Hazır CSS animasyonlarını oynatıp ayarlayarak kodunu kopyalatan kütüphane. animate.css gibi bütün bir kütüphaneyi eklemekten farkı yalnız ihtiyaç duyduğun animasyonun kodunu alman.</summary>
 </entry>
 <entry>
   <title>Awesome Ant Design</title>
@@ -102,14 +102,14 @@
   <link href="https://www.checklist.design"/>
   <id>https://www.checklist.design</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Bileşen ve sayfa bazında uygulanabilir UI/UX kontrol listeleri.</summary>
+  <summary>Bileşen ve sayfa bazında uygulanabilir UI/UX kontrol listeleri. Genel UX yazılarından farkı her bileşen için somut, işaretlenebilir maddeler vermesi.</summary>
 </entry>
 <entry>
   <title>Color Hunt</title>
   <link href="https://colorhunt.co"/>
   <id>https://colorhunt.co</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Topluluk oyuyla derlenmiş, kullanıma hazır renk paletleri kataloğu.</summary>
+  <summary>Topluluk oyuyla derlenmiş, kullanıma hazır renk paletleri kataloğu. Coolors gibi üreteçlerden farkı rastgele üretim yerine başkalarının beğendiği hazır paletlerden seçmen.</summary>
 </entry>
 <entry>
   <title>Colorful</title>
@@ -123,28 +123,28 @@
   <link href="https://colormind.io"/>
   <id>https://colormind.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Fotoğraf ve sanattan öğrenerek uyumlu renk paletleri öneren yapay zekâ üreticisi.</summary>
+  <summary>Fotoğraf ve sanattan öğrenerek uyumlu renk paletleri öneren yapay zekâ üreticisi. Coolors’tan farkı rastgele kombinasyon yerine öğrenilmiş bir modelden palet üretmesi.</summary>
 </entry>
 <entry>
   <title>cubic-bezier.com</title>
   <link href="https://cubic-bezier.com"/>
   <id>https://cubic-bezier.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>CSS yumuşatma eğrilerini elle kurup hazır ayarlarla canlı karşılaştıran araç.</summary>
+  <summary>Lea Verou’nun CSS yumuşatma eğrilerini elle kurup hazır ayarlarla canlı karşılaştıran aracı. easings.net’ten farkı hazır eğri seçmek yerine tutamaçları sürükleyerek kendi eğrini kurman.</summary>
 </entry>
 <entry>
   <title>Dribbble</title>
   <link href="https://dribbble.com"/>
   <id>https://dribbble.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Tasarımcıların iş örneklerini paylaştığı, sektörün nabzını tutan ilham topluluğu.</summary>
+  <summary>Tasarımcıların iş örneklerini paylaştığı ilham topluluğu. Behance’ten farkı kısa “shot”lar paylaşılması; gerçek ürünlerden çok konsept çalışma ağırlıklı.</summary>
 </entry>
 <entry>
   <title>Easings.net</title>
   <link href="https://easings.net"/>
   <id>https://easings.net</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Yaygın yumuşatma (easing) eğrilerini görselleştirir; her biri için cubic-bezier'i kopyalatır.</summary>
+  <summary>Yaygın yumuşatma (easing) eğrilerini görselleştiriyor; her biri için cubic-bezier değerini kopyalatıyor. cubic-bezier.com’dan farkı eğri kurmak yerine adı konmuş hazır eğriler arasından seçmen.</summary>
 </entry>
 <entry>
   <title>Feather Icons</title>
@@ -172,7 +172,7 @@
   <link href="https://fontsource.org"/>
   <id>https://fontsource.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Açık kaynak yazı tiplerini npm ile kendi sunucunda barındırmanı sağlar; dış CDN gerekmez.</summary>
+  <summary>Açık kaynak yazı tiplerini npm paketi olarak kendi sunucunda barındırmanı sağlıyor. Google Fonts CDN’inden farkı dış bir sunucuya istek atılmaması: gizlilik ve çevrimdışı çalışma için.</summary>
 </entry>
 <entry>
   <title>FreeImages</title>
@@ -207,14 +207,14 @@
   <link href="https://haikei.app"/>
   <id>https://haikei.app</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Blob, dalga ve katmanlı SVG arka plan şekilleri üreten tarayıcı aracı.</summary>
+  <summary>Blob, dalga ve katmanlı SVG arka plan şekilleri üreten tarayıcı aracı. Elle SVG çizmekten farkı rastgele ama denetlenebilir şekilleri tek tıkla üretip dışa aktarman.</summary>
 </entry>
 <entry>
   <title>Hero Patterns</title>
   <link href="https://heropatterns.com"/>
   <id>https://heropatterns.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Rengi ve saydamlığı ayarlanıp CSS'i kopyalanan tekrarlı SVG arka plan desenleri.</summary>
+  <summary>Rengi ve saydamlığı ayarlanıp CSS’i kopyalanan tekrarlı SVG arka plan desenleri. Görsel dosya arka planlarından farkı çok küçük olması ve renginin CSS’le değiştirilebilmesi.</summary>
 </entry>
 <entry>
   <title>Humaaans</title>
@@ -263,7 +263,7 @@
   <link href="https://iconscout.com/"/>
   <id>https://iconscout.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>İkon, illüstrasyon ve 3B varlıkları bir arada sunan geniş koleksiyon.</summary>
+  <summary>İkon, illüstrasyon ve 3B varlıkları bir arada sunan geniş koleksiyon. Tek tür varlık sunan sitelerden farkı hepsini aynı arama ve lisansla vermesi; içeriğin önemli kısmı ücretli.</summary>
 </entry>
 <entry>
   <title>IRA Design</title>

@@ -130,7 +130,7 @@
   <link href="https://registry.opendata.aws"/>
   <id>https://registry.opendata.aws</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A registry of large public datasets hosted on AWS.</summary>
+  <summary>A registry of large public datasets hosted on AWS. Unlike portals such as Data.gov the data sits directly in S3, so you can process it inside AWS without downloading.</summary>
 </entry>
 <entry>
   <title>data.europa.eu</title>
@@ -144,56 +144,56 @@
   <link href="https://data.gov"/>
   <id>https://data.gov</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The US government's open-data portal — canonical federal datasets.</summary>
+  <summary>The US government’s open-data portal — canonical federal datasets. Unlike third-party compilations it is the official source; most records point on to the publishing agency’s site.</summary>
 </entry>
 <entry>
   <title>DataHub</title>
   <link href="https://datahub.io"/>
   <id>https://datahub.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Curated open datasets in ready CSV/JSON form, plus tooling.</summary>
+  <summary>Curated open datasets in ready CSV/JSON form, plus tooling. Unlike raw portal data, they are cleaned and published as standard Frictionless Data packages.</summary>
 </entry>
 <entry>
   <title>Figshare</title>
   <link href="https://figshare.com"/>
   <id>https://figshare.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A platform for sharing research outputs and datasets in a citable form.</summary>
+  <summary>A platform for sharing research outputs and datasets in citable form with DOIs. Compared with Zenodo it is a commercial product (Digital Science), also sold to universities as an institutional repository.</summary>
 </entry>
 <entry>
   <title>Gapminder</title>
   <link href="https://www.gapminder.org"/>
   <id>https://www.gapminder.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Tools and resources presenting global development data through fact-based visualisations.</summary>
+  <summary>Tools from the foundation Hans Rosling co-founded, presenting global development data through fact-based visualisations. Unlike raw data portals, it tells the data through charts moving over time, aimed at correcting common misconceptions.</summary>
 </entry>
 <entry>
   <title>Humanitarian Data Exchange</title>
   <link href="https://data.humdata.org"/>
   <id>https://data.humdata.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Crisis and humanitarian datasets curated by OCHA.</summary>
+  <summary>Crisis and humanitarian datasets curated by OCHA. Unlike general open-data portals, it focuses on crisis areas, with data coming from organisations in the field.</summary>
 </entry>
 <entry>
   <title>Opendatasoft</title>
   <link href="https://www.opendatasoft.com"/>
   <id>https://www.opendatasoft.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A data-portal platform offering searchable datasets across many portals.</summary>
+  <summary>A platform institutions and cities use to run data portals, with datasets searchable across portals. Rather than visiting portals one by one, you can search the data of every portal built on it together.</summary>
 </entry>
 <entry>
   <title>re3data</title>
   <link href="https://www.re3data.org"/>
   <id>https://www.re3data.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A registry of research-data repositories that helps you find the right one.</summary>
+  <summary>A registry of research-data repositories. Unlike general search engines, it classifies repositories by discipline, access terms, licence and certification — for choosing where to deposit your data.</summary>
 </entry>
 <entry>
   <title>Zenodo</title>
   <link href="https://zenodo.org"/>
   <id>https://zenodo.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A CERN-backed open research repository that mints DOIs for datasets and software.</summary>
+  <summary>A CERN-backed open research repository that mints DOIs for datasets and software. Unlike Figshare it is non-profit, and it can automatically archive and DOI your GitHub releases.</summary>
 </entry>
 <entry>
   <title>Academic Torrents</title>
@@ -235,28 +235,28 @@
   <link href="https://aima.cs.berkeley.edu"/>
   <id>https://aima.cs.berkeley.edu</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The companion site for Artificial Intelligence: A Modern Approach, publishing course code and algorithm implementations in several languages.</summary>
+  <summary>The companion site for Artificial Intelligence: A Modern Approach. Unlike the printed book, this is where course code and algorithm implementations (Python, Java and more) are openly published.</summary>
 </entry>
 <entry>
   <title>DeepLearning.AI</title>
   <link href="https://www.deeplearning.ai"/>
   <id>https://www.deeplearning.ai</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Andrew Ng’s education platform, offering structured specialisations in deep learning and generative AI.</summary>
+  <summary>Andrew Ng’s education platform, with specialisations in deep learning and generative AI. Beyond the long specialisations, what sets it apart is its free one-hour short courses built with industry partners.</summary>
 </entry>
 <entry>
   <title>fast.ai</title>
   <link href="https://course.fast.ai"/>
   <id>https://course.fast.ai</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Teaches deep learning top-down — a working model first, theory after. The exact inverse of the academic courses that open with mathematics.</summary>
+  <summary>Teaches deep learning top-down — a working model first, theory after. Unlike academic courses that open with mathematics, it inverts the order.</summary>
 </entry>
 <entry>
   <title>Keras</title>
   <link href="https://keras.io/"/>
   <id>https://keras.io/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A high-level API reducing network construction to stacking layers in a few lines. It now runs on TensorFlow, PyTorch and JAX alike, which lets you defer the framework choice.</summary>
+  <summary>A high-level API reducing network construction to stacking layers in a few lines. Compared with raw PyTorch or TensorFlow it is far less code, and since it now runs on TensorFlow, PyTorch and JAX alike, it lets you defer the framework choice.</summary>
 </entry>
 <entry>
   <title>Machine Learning Mastery</title>
@@ -270,20 +270,20 @@
   <link href="https://matplotlib.org/"/>
   <id>https://matplotlib.org/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The foundation of Python plotting — seaborn and pandas’ plotting are built on it. It gives fine control at the cost of considerable code even for a simple chart.</summary>
+  <summary>The foundation of Python plotting — seaborn and pandas’ plotting are built on it. Unlike interactive libraries such as Plotly it is static but gives fine control, at the cost of considerable code even for a simple chart.</summary>
 </entry>
 <entry>
   <title>ML Crash Course</title>
   <link href="https://developers.google.com/machine-learning/crash-course"/>
   <id>https://developers.google.com/machine-learning/crash-course</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Google’s fast introduction to machine learning, moving through short video, reading and runnable exercises.</summary>
+  <summary>Google’s fast introduction to machine learning, moving through short video, reading and runnable exercises. Compared with long specialisations it is done in a few days, and free.</summary>
 </entry>
 <entry>
   <title>mlcourse.ai</title>
   <link href="https://mlcourse.ai/"/>
   <id>https://mlcourse.ai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An open machine learning course whose pairing of theory with Kaggle competition assignments separates it from lecture-only material.</summary>
+  <summary>An open machine learning course. Unlike lecture-only material, it pairs theory with Kaggle competition assignments.</summary>
 </entry>
 </feed>
