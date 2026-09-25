@@ -20,6 +20,7 @@ D = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, D)
 
 import build                            # noqa: E402  (running this re-runs the build)
+import linkstate                        # noqa: E402
 import notes                            # noqa: E402
 import tags                             # noqa: E402
 
@@ -94,6 +95,31 @@ def main():
             check(True, 'broken JSON raises instead of silently dropping records')
     finally:
         shutil.rmtree(tmp)
+
+    print('linkstate.classify')
+    check(linkstate.classify(None) == 'ok', 'no failure is ok')
+    check(linkstate.classify({'status': 404}) == 'dead', '404 is dead')
+    check(linkstate.classify({'status': 0, 'dns': True}) == 'dead',
+          'a host name that does not resolve is dead')
+    check(all(linkstate.classify({'status': c}) == 'suspect' for c in (400, 403, 418, 429, 503, 522)),
+          'other codes are suspect, not dead -- the 400/418 false Dead badges')
+    check(linkstate.classify({'status': 0, 'error': 'ReadTimeout', 'dns': False}) == 'suspect',
+          'a timeout is suspect, not dead')
+
+    print('linkstate.next_state')
+    day = '2026-09-28'
+    once = linkstate.next_state({'d': '2026-09-21', 's': 'ok'}, 'dead', None, day)
+    check(once['s'] == 'engel' and once['f'] == 1,
+          'one dead scan is not enough for a Dead badge')
+    twice = linkstate.next_state(once, 'dead', None, '2026-10-05')
+    check(twice['s'] == 'olu' and twice['f'] == 2 and twice['d'] == day,
+          'the second consecutive dead scan marks it dead and keeps the last good date')
+    check(linkstate.next_state(twice, 'ok', None, day) == {'d': day, 's': 'ok'},
+          'a good scan clears the count')
+    check(linkstate.next_state(once, 'suspect', None, day).get('f') == 1,
+          'a suspect scan neither confirms nor clears the count')
+    check(linkstate.next_state(twice, 'dead', {'s': 'ok'}, day) == {'d': day, 's': 'ok'},
+          'a manual decision wins over the scan')
 
     print('tags.normalise')
     check(tags.normalise(['saas', 'açık-kaynak']) == ['ücretli', 'açık-kaynak'],

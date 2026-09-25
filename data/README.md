@@ -58,6 +58,7 @@ overwrites it.
 | `intros.py` | Category introduction texts |
 | `from_issue.py` | Turns an approved GitHub issue into a record |
 | `ci_check.py` | Link scan and report, for GitHub Actions |
+| `linkstate.py` | The scan rules (what counts as dead, how a record moves between scans), kept network-free so they are unit-tested |
 | `ci_github.py` | Archive and staleness audit for linked GitHub repositories; writes `health.json` |
 | `ci_fresh.py` | Asks whether a link is still the thing we described — takeovers, parked domains, dated claims |
 | `test_build.py` | Smoke test over the build output; run it before committing |
@@ -92,6 +93,7 @@ as plain HTML with no JavaScript.
 | `notes/*.json` | The records themselves |
 | `verified.json` | Last-verified date and status per record; the weekly scan refreshes it |
 | `health.json` | Repository state per record (archived / dormant / deleted) and last push date |
+| `manual.json` | Decisions made by hand after checking a link in a browser; the weekly scan cannot override them |
 
 The build used to merge the notes with metadata extracted from the owner's
 personal bookmark export (`meta.json`, `ext_meta.json`, `added.json`). The
@@ -111,25 +113,40 @@ maintainer adds by hand to turn a submission into a pull request.
 
 ## Weekly check
 
-`.github/workflows/link-check.yml` runs every Monday. It opens a single issue
-and updates that same issue in later weeks rather than filing a new one.
+`.github/workflows/link-check.yml` runs every Monday. It scans, rebuilds the
+site with the new verification data, commits both, and opens a single issue
+that later weeks update rather than filing a new one.
 
-The report separates four cases:
+One set of rules (`linkstate.py`) decides both the report and what the site
+shows:
 
-| Heading | Meaning |
-|---|---|
-| Dead | 404/410 or no response — replace or remove |
-| Suspect | 403/429/503 — likely bot blocking, may open fine in a browser |
-| Archived | The GitHub repository is read-only; the page returns 200 but maintenance has stopped |
-| Stale | No pushes in two years or more |
+| Heading | Meaning | On the site |
+|---|---|---|
+| Dead | 404/410 or the domain no longer resolves, on two consecutive scans | Dead badge + archive link |
+| Failed once | The same, on this scan only — sites go down for an afternoon | nothing yet |
+| Suspect | Any other error, a timeout or a refused connection — usually bot blocking | a note in the source tooltip |
+| Held by manual.json | Still failing, but a person checked it and recorded a decision | as decided |
+| Archived / Stale | The GitHub repository is read-only, or has had no pushes in two years | repository badge |
 
-The last two come from a separate audit (`ci_github.py`). A source can die
-without ever returning 404: the `Best-websites-a-programmer-should-visit`
+A HEAD request is tried first but only a GET is believed, and the scanner sends
+a browser's `Accept` header: a HEAD-shy server (Kaggle, Wolfram Alpha) or one
+that picks API vs page by `Accept` (crates.io) otherwise looks dead while
+serving every visitor.
+
+The last two rows come from a separate audit (`ci_github.py`). A source can
+die without ever returning 404: the `Best-websites-a-programmer-should-visit`
 repository, 76k stars, was archived on 1 November 2025, and a link scan cannot
 see that.
 
-Run either by hand with `python ci_check.py` or `python ci_github.py`.
+When a link is flagged but opens fine in a browser, record that in
+`manual.json` rather than editing `verified.json` — the next scan rewrites
+`verified.json`, but it respects `manual.json`:
 
-Dead entries are also marked on the site itself, and every entry carries a
-Wayback Machine link — a report that only lives in an issue never reaches the
-person reading the directory.
+```json
+{"example.com": {"s": "engel", "d": "2026-09-21", "note": "why"}}
+```
+
+`s` is `ok` or `engel` (reachable, but the scanner is blocked). The key is the
+URL without scheme, `www` or trailing slash.
+
+Run either scan by hand with `python ci_check.py` or `python ci_github.py`.

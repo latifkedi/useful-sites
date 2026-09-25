@@ -44,17 +44,24 @@ jobs:
         run: python data/ci_fresh.py
         continue-on-error: true
 
-      # verified.json feeds the "last verified" date shown on every entry, and
-      # now also the dead marker. Without the commit below those dates freeze.
-      - name: Commit the verification dates
+      # verified.json and health.json feed the "last verified" date, the Dead
+      # marker and the repository-health badges -- but the page only ever reads
+      # them through links.js. The first version committed verified.json alone
+      # and never rebuilt, so no scan result reached the site; health.json was
+      # not committed at all. Rebuild, then commit the data and the output.
+      - name: Rebuild with the new verification data
+        run: python data/build.py
+
+      - name: Commit the verification data and the rebuilt site
         run: |
-          if git diff --quiet data/verified.json; then
+          paths="data/verified.json data/health.json links.js links.en.js index.html sitemap.xml robots.txt feed.xml k/ feed/"
+          if git diff --quiet -- $paths; then
             echo "no change"
           else
             git config user.name  "link-check[bot]"
             git config user.email "link-check@users.noreply.github.com"
-            git add data/verified.json
-            git commit -m "chore: refresh verification dates"
+            git add -- $paths
+            git commit -m "chore: refresh verification data and rebuild"
             git push
           fi
 
