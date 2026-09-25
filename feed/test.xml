@@ -11,28 +11,28 @@
   <link href="https://academybugs.com/find-bugs/"/>
   <id>https://academybugs.com/find-bugs/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>İçine 25 gerçek hata yerleştirilmiş, hata bulma pratiği yaptıran site.</summary>
+  <summary>İçine 25 gerçek hata yerleştirilmiş, hata bulma pratiği yaptıran site. Otomasyon pratik sitelerinden farkı elle keşif testine yönelik olması: hataları bulup raporluyorsun.</summary>
 </entry>
 <entry>
   <title>Airport Gap</title>
   <link href="https://airportgap.dev-tester.com/"/>
   <id>https://airportgap.dev-tester.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>API otomasyon testini geliştirmek için hazırlanmış RESTful API.</summary>
+  <summary>API otomasyon testini geliştirmek için hazırlanmış RESTful API. Basit sahte API’lerden farkı token ile kimlik doğrulama ve istek sınırı gibi gerçekçi davranışlar sunması.</summary>
 </entry>
 <entry>
   <title>API Challenges</title>
   <link href="https://apichallenges.eviltester.com/"/>
   <id>https://apichallenges.eviltester.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>API testi pratiği için meydan okuma, öğretici ve referanslar dizisi.</summary>
+  <summary>API testi pratiği için meydan okuma, öğretici ve referanslar dizisi; Alan Richardson (EvilTester) hazırladı. Sıradan sahte API’lerden farkı görev listesiyle gelmesi: her meydan okumayı tamamladıkça ilerlemen işaretleniyor.</summary>
 </entry>
 <entry>
   <title>Applitools</title>
   <link href="https://applitools.com"/>
   <id>https://applitools.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Görsel yapay zekayla ekran karşılaştırması yapan görsel regresyon test platformu.</summary>
+  <summary>Görsel yapay zekâyla ekran karşılaştırması yapan görsel regresyon test platformu. Piksel piksel karşılaştıran araçlardan farkı kenar yumuşatma gibi önemsiz farkları yok sayıp gerçek değişiklikleri işaretlemesi.</summary>
 </entry>
 <entry>
   <title>Applitools Demo</title>
@@ -137,14 +137,14 @@
   <link href="https://beeceptor.com"/>
   <id>https://beeceptor.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Saniyeler içinde sahte REST uç noktası kurup HTTP isteklerini yakalayan ve taklit eden araç.</summary>
+  <summary>Saniyeler içinde sahte REST uç noktası kurup HTTP isteklerini yakalayan ve taklit eden araç. Kendi sahte sunucunu yazmaktan farkı kod ve kurulum gerektirmemesi.</summary>
 </entry>
 <entry>
   <title>BlazeDemo</title>
   <link href="https://blazedemo.com/"/>
   <id>https://blazedemo.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>BlazeMeter’ın performans testi için sunduğu basit seyahat acentesi demosu.</summary>
+  <summary>BlazeMeter’ın performans testi için sunduğu basit seyahat acentesi demosu. Tuzaklı pratik sitelerinden farkı bilerek sade olması: amaç yük testi senaryosu kurmak.</summary>
 </entry>
 <entry>
   <title>Browserling</title>
@@ -158,7 +158,7 @@
   <link href="https://www.candymapper.net/"/>
   <id>https://www.candymapper.net/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Test otomasyonu becerilerini denemek için hazırlanmış, tuzaklı web uygulaması.</summary>
+  <summary>Test otomasyonu becerilerini denemek için hazırlanmış web uygulaması. Temiz demo sitelerinden farkı bilerek yerleştirilmiş tuzaklar — açılır pencereler, beklenmedik öğeler — içermesi.</summary>
 </entry>
 <entry>
   <title>Coffee Cart</title>
@@ -172,7 +172,7 @@
   <link href="https://commitquality.com/"/>
   <id>https://commitquality.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Yüksek kaliteli Playwright otomasyon örnekleriyle gelen pratik sitesi.</summary>
+  <summary>Playwright otomasyonu için pratik sitesi. Yalnız hedef site sunan pratik alanlarından farkı yüksek kaliteli Playwright örnek kodlarıyla birlikte gelmesi.</summary>
 </entry>
 <entry>
   <title>Countries GraphQL API</title>
@@ -186,14 +186,14 @@
   <link href="https://cypress.io"/>
   <id>https://cypress.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Tarayıcı içinde çalışan, gerçek zamanlı yeniden yükleme ve zaman-yolculuğu ile uçtan uca test çatısı.</summary>
+  <summary>Tarayıcı içinde çalışan, canlı yeniden yükleme ve zaman yolculuğu hata ayıklamasıyla uçtan uca test çatısı. Selenium’dan farkı testin uygulamayla aynı tarayıcı döngüsünde çalışması; Playwright’a göre çoklu sekme ve çoklu tarayıcı desteği daha kısıtlı.</summary>
 </entry>
 <entry>
   <title>DemoBlaze</title>
   <link href="https://demoblaze.com/"/>
   <id>https://demoblaze.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Otomasyona karşı çalışmak için tasarlanmış, gezinti anlatımlı örnek mağaza.</summary>
+  <summary>Otomasyona karşı çalışmak için tasarlanmış örnek mağaza. Diğer demo mağazalardan farkı BlazeMeter’ın hazırladığı adım adım gezinti anlatımıyla gelmesi.</summary>
 </entry>
 <entry>
   <title>DemoQA</title>
@@ -207,7 +207,7 @@
   <link href="https://dummyjson.com"/>
   <id>https://dummyjson.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Onlarca kaynak sunan sahte JSON REST API'si; hızlı prototip ve test verisi için.</summary>
+  <summary>Onlarca kaynak sunan sahte JSON REST API’si; hızlı prototip ve test verisi için. JSONPlaceholder’dan farkı daha zengin veri (ürün, sepet, tarif) ile birlikte kimlik doğrulama, sayfalama ve arama desteği.</summary>
 </entry>
 <entry>
   <title>Evil Tester Test Pages</title>
@@ -221,14 +221,14 @@
   <link href="https://practice.expandtesting.com/"/>
   <id>https://practice.expandtesting.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>UI ve API testi için birlikte kullanılabilen otomasyon pratik uygulaması.</summary>
+  <summary>Otomasyon pratik uygulaması. Yalnız UI ya da yalnız API sunan sitelerden farkı ikisini aynı uygulamada vermesi: arayüzde yaptığını API’de doğrulayabiliyorsun.</summary>
 </entry>
 <entry>
   <title>Fake Store API</title>
   <link href="https://fakestoreapi.com"/>
   <id>https://fakestoreapi.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Ürün, sepet ve kullanıcı içeren sahte e-ticaret REST API'si; ön yüz prototipleri için.</summary>
+  <summary>Ürün, sepet ve kullanıcı içeren sahte e-ticaret REST API’si; ön yüz prototipleri için. JSONPlaceholder gibi genel sahte API’lerden farkı e-ticarete özgü veri yapısı.</summary>
 </entry>
 <entry>
   <title>GoREST</title>
@@ -242,21 +242,21 @@
   <link href="https://bonigarcia.dev/selenium-webdriver-java/"/>
   <id>https://bonigarcia.dev/selenium-webdriver-java/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Selenium ile etkileşime girilecek çok çeşitli web öğesini bir arada sunan alıştırma sayfası.</summary>
+  <summary>Boni García’nın Hands-On Selenium WebDriver with Java kitabına eşlik eden alıştırma sayfası; çok çeşitli web öğesini bir arada sunuyor. Dağınık pratik sayfalarından farkı kitaptaki örneklerle birebir eşleşmesi.</summary>
 </entry>
 <entry>
   <title>httpbin</title>
   <link href="https://httpbin.org"/>
   <id>https://httpbin.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>İstek başlıklarını, gövdeyi ve yanıtı aynen geri döndüren HTTP istek/yanıt test servisi; istemci davranışını denemek için.</summary>
+  <summary>İstek başlıklarını, gövdeyi ve yanıtı aynen geri döndüren HTTP test servisi. Sahte REST API’lerinden farkı veriyi değil HTTP’nin kendisini — başlık, çerez, yönlendirme, sıkıştırma — test etmene yaraması.</summary>
 </entry>
 <entry>
   <title>httpstat.us</title>
   <link href="https://httpstat.us"/>
   <id>https://httpstat.us</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>İstediğin HTTP durum kodunu (ve gecikmeyi) döndüren küçük servis; hata yollarını test etmek için.</summary>
+  <summary>İstediğin HTTP durum kodunu (ve gecikmeyi) döndüren küçük servis; hata yollarını test etmek için. httpbin’den farkı tek bir işe odaklanması: URL’ye kodu yazıyorsun, o yanıtı alıyorsun.</summary>
 </entry>
 <entry>
   <title>Insomnia</title>
@@ -277,13 +277,13 @@
   <link href="https://katalon.com"/>
   <id>https://katalon.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Web, API ve mobil için düşük kodlu test otomasyonu aracı; kod yazmadan senaryo kurdurur.</summary>
+  <summary>Web, API ve mobil için düşük kodlu test otomasyonu aracı. Playwright gibi kod tabanlı çatılardan farkı kayıt-oynatma ve görsel editörle kod yazmadan senaryo kurdurması; gelişmiş özellikler ücretli.</summary>
 </entry>
 <entry>
   <title>LetCode</title>
   <link href="https://letcode.in/test"/>
   <id>https://letcode.in/test</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Uçtan uca otomasyon pratiği için bol öğe örneği içeren site.</summary>
+  <summary>Uçtan uca otomasyon pratiği için bol öğe örneği içeren site. Tek tip pratik sayfalarından farkı öğe çeşitliliği ve eşlik eden video dersleri.</summary>
 </entry>
 </feed>

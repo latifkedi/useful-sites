@@ -19,8 +19,8 @@
       "dokümantasyon",
       "javascript"
     ],
-    "tr": "Yönlendirme, form, HTTP ve bağımlılık enjeksiyonu çatının içinde geliyor. React’te bunları tek tek seçersin; burada karar verilmiş, karşılığında esneklik dar.",
-    "en": "Routing, forms, HTTP and dependency injection ship inside the framework. In React you pick each one; here the decisions are made for you, and flexibility narrows accordingly.",
+    "tr": "Yönlendirme, form, HTTP ve bağımlılık enjeksiyonu çatının içinde geliyor. React’ten farkı bu kararların senin yerine verilmiş olması: orada her parçayı tek tek seçersin, burada hazır gelir; karşılığında esneklik dar.",
+    "en": "Routing, forms, HTTP and dependency injection ship inside the framework. Unlike React, where you pick each piece yourself, the decisions are made for you; flexibility narrows accordingly.",
     "src": "kedi",
     "added": 1776690056
   },
@@ -31,8 +31,8 @@
       "frontend",
       "freemium"
     ],
-    "tr": "Erişilebilirlik kontrolüyle renk paleti oluşturmak için gereken her şey.",
-    "en": "Everything needed to create colour palettes, with accessibility checks.",
+    "tr": "Renk paleti ve ton basamakları üreten araç. Coolors gibi palet üreteçlerinden farkı erişilebilirlik (kontrast) denetimini paletin içine yerleştirmesi: arayüzde kullanılacak renkleri daha baştan okunur seçiyorsun.",
+    "en": "A tool for building colour palettes and tonal scales. Unlike palette generators such as Coolors, it builds accessibility (contrast) checks into the palette, so interface colours are legible from the start.",
     "src": "awesomeproj"
   },
   {
@@ -311,8 +311,8 @@
       "görsel-üretim",
       "masaüstü"
     ],
-    "tr": "App Store ekran görüntüsü tasarımları arşivi. Uygulama mağaza sayfası dönüşümü doğrudan bu görsellere bağlı olduğu için dar ama isabetli bir kaynak.",
-    "en": "An archive of App Store screenshot designs. Store-page conversion hangs directly on these images, which makes it a narrow but well-aimed resource.",
+    "tr": "App Store ekran görüntüsü tasarımları arşivi. Genel arayüz galerilerinden farkı yalnız mağaza görsellerine odaklanması — mağaza sayfası dönüşümü doğrudan bu görsellere bağlı olduğu için dar ama isabetli bir kaynak.",
+    "en": "An archive of App Store screenshot designs. Unlike general UI galleries it covers only store imagery — and store-page conversion hangs directly on these images, which makes it narrow but well aimed.",
     "src": "kedi",
     "added": 1783924586
   },
@@ -323,8 +323,8 @@
       "ücretsiz",
       "frontend"
     ],
-    "tr": "Hazır bileşenler ve ızgara sistemi; tasarım kararı vermeden çalışan bir arayüz çıkarıyorsun. Bedeli, Bootstrap kullandığının uzaktan belli olması.",
-    "en": "Ready components and a grid system that get you a working interface without design decisions. The cost is that a Bootstrap site is recognisable from a distance.",
+    "tr": "Hazır bileşenler ve ızgara sistemi; tasarım kararı vermeden çalışan bir arayüz çıkarıyorsun. Tailwind’den farkı yapı taşı değil bitmiş bileşen vermesi; bedeli, Bootstrap kullandığının uzaktan belli olması.",
+    "en": "Ready components and a grid system that get you a working interface without design decisions. Unlike Tailwind it hands you finished components rather than building blocks; the cost is that a Bootstrap site is recognisable from a distance.",
     "src": "kedi",
     "added": 1776690061
   },
@@ -336,8 +336,8 @@
       "referans",
       "ücretsiz"
     ],
-    "tr": "Web performansını iyileştirmek için somut, ölçülebilir öneriler toplayan kılavuz.",
-    "en": "A guide of concrete, measurable tips for improving web performance.",
+    "tr": "Web performansını iyileştirmek için somut öneriler toplayan kılavuz. Lighthouse gibi otomatik denetimlerden farkı önerilerin uzmanlarca elle yazılmış, gerekçeli olması; içeriğin bir kısmı HTTP/1 dönemine ait.",
+    "en": "A guide of concrete tips for improving web performance. Unlike automated audits such as Lighthouse, the advice is hand-written by experts with its reasoning; part of it dates from the HTTP/1 era.",
     "src": "awesomeproj"
   },
   {
@@ -370,8 +370,8 @@
       "frontend",
       "ücretsiz"
     ],
-    "tr": "Projelerde kullanılabilecek hazır CSS buton stilleri ve kodları.",
-    "en": "Ready CSS button styles with their code for use in projects.",
+    "tr": "Projelerde kullanılabilecek hazır CSS buton stilleri ve kodları. Bileşen kütüphanelerinden farkı bağımlılık getirmemesi: tıklayıp düz CSS’i kopyalıyorsun.",
+    "en": "Ready CSS button styles with their code for use in projects. Unlike component libraries it adds no dependency — click and copy plain CSS.",
     "src": "awesomeproj"
   },
   {
@@ -431,8 +431,8 @@
       "referans",
       "ücretsiz"
     ],
-    "tr": "Renk paletleri ve tipografiyi bir arada sunan tasarım kaynağı.",
-    "en": "A design resource pairing colour palettes with typography.",
+    "tr": "Renk paletleri ve tipografiyi bir arada sunan tasarım kaynağı. Yalnız palet ya da yalnız font sunan sitelerden farkı ikisini birlikte, uyumlu eşleşmeler olarak göstermesi.",
+    "en": "A design resource pairing colour palettes with typography. Unlike sites offering only palettes or only fonts, it shows the two together as matched pairings.",
     "src": "awesomeproj"
   },
   {
@@ -454,8 +454,8 @@
       "frontend",
       "freemium"
     ],
-    "tr": "Modern açılış sayfası ve arayüz şablonları (Tailwind ağırlıklı).",
-    "en": "Modern landing-page and UI templates (Tailwind-heavy).",
+    "tr": "Modern açılış sayfası ve arayüz şablonları (Tailwind ağırlıklı). Sıfırdan kurmaktan farkı hazır, tutarlı bir sayfa vermesi; bir kısmı ücretsiz, kapsamlı şablonlar ücretli.",
+    "en": "Modern landing-page and UI templates (Tailwind-heavy). Unlike building from scratch you get a ready, coherent page; some are free, the fuller templates are paid.",
     "src": "awesomeproj"
   },
   {
@@ -478,8 +478,8 @@
       "tarayıcı-içi",
       "ücretsiz"
     ],
-    "tr": "Küçültülmüş (minified) CSS’i okunur biçime getiren ve düzenleyen araç.",
-    "en": "Un-minifies and formats CSS back into a readable shape.",
+    "tr": "Küçültülmüş (minified) CSS’i okunur biçime getiren ve düzenleyen araç. Küçültücülerin tersine sıkıştırılmış dosyayı açıyor: başkasının stil dosyasını incelemen gerektiğinde işe yarıyor.",
+    "en": "Un-minifies and formats CSS back into a readable shape. Unlike a minifier it expands a compressed file — useful when you need to read someone else’s stylesheet.",
     "src": "awesomeproj"
   },
   {
@@ -502,8 +502,8 @@
       "frontend",
       "ücretsiz"
     ],
-    "tr": "Belirli cihaz boyutları için CSS medya sorgusu üreten basit araç.",
-    "en": "Generates CSS media queries for specific device sizes.",
+    "tr": "Belirli cihaz boyutları için CSS medya sorgusu üreten basit araç. Elle yazmaktan farkı yaygın cihaz kırılım noktalarını hazır listeden seçebilmen.",
+    "en": "Generates CSS media queries for specific device sizes. Unlike writing them by hand, you pick common device breakpoints from a ready list.",
     "src": "awesomeproj"
   },
   {
@@ -624,8 +624,8 @@
       "ücretsiz",
       "masaüstü"
     ],
-    "tr": "Web geliştiricilere yönelik, gelişmiş hata ayıklama araçlarıyla gelen Firefox sürümü.",
-    "en": "A build of Firefox for web developers, with advanced debugging tools built in.",
+    "tr": "Web geliştiricilere yönelik, gelişmiş hata ayıklama araçlarıyla gelen Firefox sürümü. Chrome DevTools’tan farkı CSS Grid ve Flexbox denetleyicisinin ve yazı tipi panelinin güçlü olması.",
+    "en": "A build of Firefox for web developers, with advanced debugging tools built in. Unlike Chrome DevTools, its CSS Grid and Flexbox inspectors and its fonts panel are notably strong.",
     "src": "awesomeproj"
   },
   {
@@ -636,8 +636,8 @@
       "referans",
       "ücretsiz"
     ],
-    "tr": "Ön yüz için uyumlu düz (flat) renkler sunan etkileşimli palet.",
-    "en": "An interactive palette of harmonious flat colours for frontends.",
+    "tr": "Ön yüz için uyumlu düz (flat) renkler sunan etkileşimli palet. Serbest renk seçicilerden farkı önceden seçilmiş, birbirine uyan renklerle çalışması.",
+    "en": "An interactive palette of harmonious flat colours for frontends. Unlike free-form colour pickers, it works from a pre-chosen set of colours that go together.",
     "src": "awesomeproj"
   },
   {
@@ -648,8 +648,8 @@
       "interaktif",
       "frontend"
     ],
-    "tr": "Kurbağaları hizalayarak Flexbox öğreten oyun; Grid Garden’ın kardeşi. justify-content ile align-items karışıklığını yirmi dakikada bitiriyor.",
-    "en": "The Flexbox sibling of Grid Garden, teaching alignment by positioning frogs. It settles the justify-content versus align-items confusion in twenty minutes.",
+    "tr": "Kurbağaları hizalayarak Flexbox öğreten oyun; Grid Garden’ın kardeşi. Belgeleri okumaktan farkı her özelliği anında görsel sonuçla denemen: justify-content ile align-items karışıklığını yirmi dakikada bitiriyor.",
+    "en": "The Flexbox sibling of Grid Garden, teaching alignment by positioning frogs. Unlike reading the docs you see every property’s effect at once — it settles the justify-content versus align-items confusion in twenty minutes.",
     "src": "kedi",
     "added": 1787182443
   },
@@ -660,8 +660,8 @@
       "frontend",
       "ücretsiz"
     ],
-    "tr": "Yüzlerce Google fontunu kendi tasarımın üzerinde deneyip karşılaştıran araç.",
-    "en": "Tries and compares hundreds of Google fonts on your own design.",
+    "tr": "Google fontlarını tek tek, hızla çevirerek kendi metninle karşılaştıran araç. Google Fonts kataloğunda gezmekten farkı karar vermeye odaklanması: beğenmediğini eliyor, beğendiğini ayırıyorsun.",
+    "en": "Flips through Google fonts one by one against your own text. Unlike browsing the Google Fonts catalogue it is built for deciding: discard what you dislike, keep what you like.",
     "src": "awesomeproj"
   },
   {
@@ -695,8 +695,8 @@
       "frontend",
       "freemium"
     ],
-    "tr": "Etkileşimli arayüz ve site tasarlayıp yayına alan tasarım aracı.",
-    "en": "A design tool for building and publishing interactive interfaces and sites.",
+    "tr": "Etkileşimli arayüz ve site tasarlayıp yayına alan tasarım aracı. Figma’dan farkı tasarımın bir maket değil, doğrudan yayına alınan çalışır bir site olması.",
+    "en": "A design tool for building and publishing interactive interfaces and sites. Unlike Figma, the design is not a mock-up but a working site you publish directly.",
     "src": "awesomeproj"
   },
   {
@@ -707,8 +707,8 @@
       "referans",
       "ücretsiz"
     ],
-    "tr": "HTML, CSS ve JavaScript kod örnekleri ve öğreticilerini toplayan geniş dizin.",
-    "en": "A large directory of HTML, CSS and JavaScript code samples and tutorials.",
+    "tr": "HTML, CSS ve JavaScript kod örnekleri ve öğreticilerini toplayan geniş dizin. CodePen’de aramaktan farkı örnekleri türüne göre — buton, menü, kart, animasyon — sınıflandırması.",
+    "en": "A large directory of HTML, CSS and JavaScript code samples and tutorials. Unlike searching CodePen, it classifies examples by type — buttons, menus, cards, animation.",
     "src": "awesomeproj"
   },
   {
@@ -742,8 +742,8 @@
       "görsel-üretim",
       "interaktif"
     ],
-    "tr": "Oyun arayüzlerini ekran türüne göre sınıflandırıyor: envanter, harita, ayarlar, yükleme ekranı. Bu kadar sistematik bir arayüz arşivi başka alanlarda yok.",
-    "en": "Classifies game interfaces by screen type — inventory, map, settings, loading. No other field has an interface archive this systematic.",
+    "tr": "Oyun arayüzlerini ekran türüne göre sınıflandırıyor: envanter, harita, ayarlar, yükleme ekranı. Dribbble gibi genel galerilerden farkı bu sistematiklik — başka alanda bu kadar düzenli bir arayüz arşivi yok.",
+    "en": "Classifies game interfaces by screen type — inventory, map, settings, loading. Unlike general galleries such as Dribbble it is systematic; no other field has an interface archive this organised.",
     "src": "kedi",
     "added": 1776686049
   },
@@ -754,8 +754,8 @@
       "freemium",
       "dokümantasyon"
     ],
-    "tr": "Dokümantasyon yazma ve yayımlama platformu; Git ile senkron çalışıp teknik kitapları web sitesine çeviriyor.",
-    "en": "A platform for writing and publishing documentation, syncing with Git to turn technical books into websites.",
+    "tr": "Dokümantasyon yazma ve yayımlama platformu; Git ile senkron çalışıp teknik kitapları web sitesine çeviriyor. Docusaurus gibi statik site üreteçlerinden farkı barındırılan, teknik olmayan yazarların da kullanabildiği bir editör sunması.",
+    "en": "A platform for writing and publishing documentation, syncing with Git to turn technical books into websites. Unlike static-site generators such as Docusaurus, it offers a hosted editor that non-technical writers can use too.",
     "src": "bwapsv"
   },
   {
@@ -765,8 +765,8 @@
       "ücretsiz",
       "görsel-üretim"
     ],
-    "tr": "Açık lisanslı yazı tipi kataloğu; dosyaları indirip kendi sunucundan servis edebiliyorsun. GDPR gerekçesiyle CDN’den çekmek Almanya’da dava konusu oldu, indirmek daha güvenli.",
-    "en": "A catalogue of openly licensed typefaces you can download and self-host. Loading them from the CDN has been litigated in Germany on GDPR grounds, so self-hosting is the safer route.",
+    "tr": "Açık lisanslı yazı tipi kataloğu; dosyaları indirip kendi sunucundan servis edebiliyorsun. Ticari font dağıtıcılarından farkı tümünün ücretsiz ve açık lisanslı olması; CDN’den çekmek Almanya’da GDPR gerekçesiyle dava konusu oldu, indirmek daha güvenli.",
+    "en": "A catalogue of openly licensed typefaces you can download and self-host. Unlike commercial foundries everything is free and openly licensed; loading from the CDN has been litigated in Germany on GDPR grounds, so self-hosting is safer.",
     "src": "kedi",
     "added": 1776613735
   },
@@ -828,8 +828,8 @@
       "javascript",
       "frontend"
     ],
-    "tr": "HTML özniteliğiyle istek atıp dönen HTML parçasını sayfaya yerleştiriyorsun; JSON ve istemci durumu yok. 14 kB, bağımlılığı yok — SPA karmaşıklığına gerek olmayan yerde makul bir çıkış.",
-    "en": "Attributes fire requests and swap the returned HTML fragment into the page — no JSON, no client state. 14 kB with no dependencies, and a sane exit where SPA complexity is not warranted.",
+    "tr": "HTML özniteliğiyle istek atıp dönen HTML parçasını sayfaya yerleştiriyorsun; JSON ve istemci durumu yok. React gibi SPA çatılarından farkı bu sadelik: 14 kB, bağımlılığı yok — SPA karmaşıklığına gerek olmayan yerde makul bir çıkış.",
+    "en": "Attributes fire requests and swap the returned HTML fragment into the page — no JSON, no client state. Unlike SPA frameworks such as React it is tiny: 14 kB with no dependencies, a sane exit where SPA complexity is not warranted.",
     "src": "kedi",
     "added": 1776690060
   },
@@ -924,8 +924,8 @@
       "ücretsiz",
       "javascript"
     ],
-    "tr": "Addy Osmani’nin JavaScript tasarım kalıplarını anlatan ücretsiz çevrimiçi kitabı.",
-    "en": "Addy Osmani’s free online book on JavaScript design patterns.",
+    "tr": "Addy Osmani’nin JavaScript tasarım kalıplarını anlatan ücretsiz çevrimiçi kitabı. Genel tasarım kalıbı kitaplarından farkı modül, gözlemci ve prototip gibi JavaScript’e özgü kalıplara odaklanması; bu sürüm eski baskı, güncel kalıplar patterns.dev’de.",
+    "en": "Addy Osmani’s free online book on JavaScript design patterns. Unlike general design-pattern books it focuses on JavaScript-specific ones such as module, observer and prototype; this is the older edition, with current patterns at patterns.dev.",
     "src": "bwapsv"
   },
   {
@@ -948,8 +948,8 @@
       "frontend",
       "self-hosted"
     ],
-    "tr": "Google Haritalar sıralamasını konum ızgarası üzerinde ölçüyor; aynı sorgunun mahalleden mahalleye nasıl değiştiğini gösteriyor. Genel SEO araçlarının kör noktası tam olarak burası.",
-    "en": "Measures Google Maps ranking across a grid of locations, showing how the same query shifts block by block — precisely the blind spot of general SEO tools.",
+    "tr": "Google Haritalar sıralamasını konum ızgarası üzerinde ölçüyor; aynı sorgunun mahalleden mahalleye nasıl değiştiğini gösteriyor. Genel SEO araçlarından farkı tam da onların kör noktasını — yerel sıralamayı — ölçmesi.",
+    "en": "Measures Google Maps ranking across a grid of locations, showing how the same query shifts block by block. Unlike general SEO tools, it measures exactly their blind spot: local ranking.",
     "src": "kedi",
     "added": 1785227877
   },
@@ -961,8 +961,8 @@
       "javascript",
       "açık-kaynak"
     ],
-    "tr": "React için Google Material tasarımını uygulayan bileşen kütüphanesi.",
-    "en": "A React component library implementing Google’s Material Design.",
+    "tr": "React için Google Material tasarımını uygulayan bileşen kütüphanesi. Ant Design’dan farkı Material Design yönergelerine sıkı bağlılığı; tema sistemiyle bu görünümden uzaklaşmak mümkün ama emek istiyor.",
+    "en": "A React component library implementing Google’s Material Design. Unlike Ant Design it follows the Material guidelines closely; the theming system can move you away from that look, but it takes work.",
     "src": "awesomeproj"
   },
   {
@@ -1009,8 +1009,8 @@
       "açık-kaynak",
       "ücretsiz"
     ],
-    "tr": "Tarayıcılar arası varsayılan stil farklarını eşitleyen küçük CSS temeli.",
-    "en": "A small CSS base that evens out default styling differences across browsers.",
+    "tr": "Tarayıcılar arası varsayılan stil farklarını eşitleyen küçük CSS temeli. CSS reset’lerden farkı varsayılanları silmek yerine işe yarayanları koruyup yalnız tutarsızlıkları düzeltmesi.",
+    "en": "A small CSS base that evens out default styling differences across browsers. Unlike CSS resets it keeps the useful defaults instead of wiping everything, and fixes only the inconsistencies.",
     "src": "awesomeproj"
   },
   {
@@ -1035,8 +1035,8 @@
       "ücretsiz",
       "referans"
     ],
-    "tr": "Modern web uygulamaları için tasarım ve render desenlerini örneklerle anlatan ücretsiz kaynak.",
-    "en": "A free resource explaining design and rendering patterns for modern web apps with examples.",
+    "tr": "Modern web uygulamaları için tasarım ve render desenlerini örneklerle anlatan ücretsiz kaynak. Klasik tasarım kalıbı kitaplarından farkı render desenlerini — SSR, statik üretim, hydration, adalar — da kapsaması.",
+    "en": "A free resource explaining design and rendering patterns for modern web apps with examples. Unlike classic design-pattern books, it also covers rendering patterns — SSR, static generation, hydration, islands.",
     "src": "dsbest"
   },
   {
@@ -1072,8 +1072,8 @@
       "dokümantasyon",
       "javascript"
     ],
-    "tr": "Yeniden yazılmış resmî doküman; kancalar (hooks) merkezde, sınıf bileşenleri artık yok. “You Might Not Need an Effect” bölümü en sık yapılan hatayı doğrudan hedefliyor.",
-    "en": "The rewritten official docs, centred on hooks with class components gone. The “You Might Not Need an Effect” page targets the single most common mistake head on.",
+    "tr": "Yeniden yazılmış resmî doküman; kancalar (hooks) merkezde. Eski reactjs.org belgelerinden farkı sınıf bileşenlerini bırakması; “You Might Not Need an Effect” bölümü en sık yapılan hatayı doğrudan hedefliyor.",
+    "en": "The rewritten official docs, centred on hooks. Unlike the old reactjs.org docs it drops class components; the “You Might Not Need an Effect” page targets the single most common mistake head on.",
     "src": "kedi",
     "added": 1776690052
   },
@@ -1097,8 +1097,8 @@
       "türkçe",
       "frontend"
     ],
-    "tr": "Teknik SEO kontrol listesi; başlık yapısı, şema işaretlemesi ve sayfa hızı maddeleri uygulanabilir. Türkçe kaynaklar arasında pazarlama söyleminden en uzak duranlardan.",
-    "en": "A technical SEO checklist covering heading structure, schema markup and page speed in actionable terms — one of the Turkish resources furthest from marketing talk.",
+    "tr": "Teknik SEO kontrol listesi; başlık yapısı, şema işaretlemesi ve sayfa hızı maddeleri uygulanabilir. Pazarlama odaklı Türkçe SEO yazılarından farkı somut, denetlenebilir maddelerle yazılmış olması.",
+    "en": "A technical SEO checklist covering heading structure, schema markup and page speed in actionable terms. Unlike marketing-led Turkish SEO articles, it is written as concrete, checkable items.",
     "src": "kedi",
     "added": 1785061413
   },
@@ -1110,8 +1110,8 @@
       "frontend",
       "görsel-üretim"
     ],
-    "tr": "Shopify tema şablon dilinin nesne, filtre ve etiket referansı. Mağaza teması geliştiriyorsan hangi verinin hangi şablonda erişilebilir olduğu buradan görülüyor.",
-    "en": "The object, filter and tag reference for Shopify’s theme language — where you find which data is reachable from which template when building a store theme.",
+    "tr": "Shopify tema şablon dilinin nesne, filtre ve etiket referansı. Genel Liquid belgelerinden farkı Shopify’a özgü nesneleri kapsaması: hangi verinin hangi şablonda erişilebilir olduğu buradan görülüyor.",
+    "en": "The object, filter and tag reference for Shopify’s theme language. Unlike generic Liquid docs it covers Shopify-specific objects — where you find which data is reachable from which template.",
     "src": "kedi",
     "added": 1776690061
   },
@@ -1122,8 +1122,8 @@
       "ücretsiz",
       "görsel-üretim"
     ],
-    "tr": "Bütünsel tasarım dili örnekleri için galeri; tipografi ve hareket kullanımı güçlü siteler derleniyor.",
-    "en": "A gallery for whole-site design language, collecting sites with strong typography and motion.",
+    "tr": "Bütünsel tasarım dili örnekleri için galeri; tipografi ve hareket kullanımı güçlü siteler derleniyor. Bileşen galerilerinden farkı tek tek parçaları değil sitenin bütün dilini göstermesi.",
+    "en": "A gallery of whole-site design language, collecting sites with strong typography and motion. Unlike component galleries, it shows a site’s entire language rather than single parts.",
     "src": "kedi",
     "added": 1783499341
   },
@@ -1135,8 +1135,8 @@
       "öğretici",
       "referans"
     ],
-    "tr": "Web tasarım ve geliştirme üzerine derinlemesine makaleler, kitaplar ve pratik rehberler yayımlar.",
-    "en": "Publishes in-depth articles, books and practical guides on web design and development.",
+    "tr": "Web tasarım ve geliştirme üzerine derinlemesine makaleler, kitaplar ve pratik rehberler. Kısa blog yazılarından farkı uzun, editör denetiminden geçmiş makaleler yayımlaması.",
+    "en": "In-depth articles, books and practical guides on web design and development. Unlike short blog posts, it publishes long, editor-reviewed articles.",
     "src": "dsbest"
   },
   {
@@ -1183,8 +1183,8 @@
       "frontend",
       "dokümantasyon"
     ],
-    "tr": "Yardımcı sınıflarla stil yazıyorsun; derleme adımı kullanılmayan sınıfları atıyor, CSS dosyası büyümüyor. Bootstrap hazır bileşen verir, bu yapı taşı verir.",
-    "en": "You style with utility classes and the build step drops unused ones, so the CSS file stops growing. Bootstrap hands you components; this hands you building blocks.",
+    "tr": "Yardımcı sınıflarla stil yazıyorsun; derleme adımı kullanılmayan sınıfları atıyor, CSS dosyası büyümüyor. Bootstrap’tan farkı hazır bileşen değil yapı taşı vermesi: görünüm tamamen senin.",
+    "en": "You style with utility classes and the build step drops unused ones, so the CSS file stops growing. Unlike Bootstrap it hands you building blocks rather than components — the look is entirely yours.",
     "src": "kedi",
     "added": 1776690060
   },
@@ -1267,8 +1267,8 @@
       "ücretsiz",
       "referans"
     ],
-    "tr": "HTML’i spesifikasyona göre denetliyor; tarayıcının sessizce toparladığı kapatılmamış etiket ve geçersiz iç içe geçmeleri ortaya çıkarıyor. Erişilebilirlik sorunlarının bir kısmı buradan çıkar.",
-    "en": "Checks HTML against the spec, surfacing unclosed tags and invalid nesting that browsers quietly repair. A share of accessibility problems begins right there.",
+    "tr": "HTML’i spesifikasyona göre denetliyor; tarayıcının sessizce toparladığı kapatılmamış etiket ve geçersiz iç içe geçmeleri ortaya çıkarıyor. HTMLHint gibi linter’lardan farkı üslup değil spesifikasyona uygunluk denetlemesi; erişilebilirlik sorunlarının bir kısmı buradan çıkar.",
+    "en": "Checks HTML against the spec, surfacing unclosed tags and invalid nesting that browsers quietly repair. Unlike linters such as HTMLHint it checks conformance, not style; a share of accessibility problems begins right there.",
     "src": "kedi",
     "added": 1787182438
   },
@@ -1292,8 +1292,8 @@
       "müfredat",
       "ücretsiz"
     ],
-    "tr": "24 derslik müfredat; her ders öncesi ve sonrası sınav, sonunda proje var. Kendi kendine çalışırken ilerlemeyi ölçebilmek için bu yapı işe yarıyor.",
-    "en": "A 24-lesson curriculum with a quiz before and after each lesson and a project at the end. That structure is what lets you measure progress when studying alone.",
+    "tr": "Microsoft’un 24 derslik müfredatı; her ders öncesi ve sonrası sınav, sonunda proje var. Dağınık öğreticilerden farkı bu yapı: kendi kendine çalışırken ilerlemeni ölçebiliyorsun.",
+    "en": "Microsoft’s 24-lesson curriculum with a quiz before and after each lesson and a project at the end. Unlike scattered tutorials it has that structure, which lets you measure progress when studying alone.",
     "src": "kedi",
     "added": 1787181596
   },
@@ -1306,8 +1306,8 @@
       "ücretsiz",
       "öğretici"
     ],
-    "tr": "Web geliştirmeyi temelden ileriye sade anlatan YouTube kanalı.",
-    "en": "A YouTube channel explaining web development from basics to advanced, simply.",
+    "tr": "Web geliştirmeyi temelden ileriye sade anlatan YouTube kanalı. Uzun kurslardan farkı çoğu videonun tek bir kavramı kısa sürede bitirmesi.",
+    "en": "A YouTube channel explaining web development from basics to advanced, simply. Unlike long courses, most videos wrap up a single concept quickly.",
     "src": "bwapsv"
   },
   {
@@ -1319,8 +1319,8 @@
       "ücretsiz",
       "öğretici"
     ],
-    "tr": "Google’ın web kalitesi (performans, erişilebilirlik, PWA) rehberleri ve ölçüm araçları.",
-    "en": "Google’s guides and measurement tools for web quality — performance, accessibility, PWA.",
+    "tr": "Google’ın web kalitesi (performans, erişilebilirlik, PWA) rehberleri ve ölçüm araçları. MDN’den farkı referans değil rehber olması: Core Web Vitals gibi ölçütleri ve nasıl iyileştirileceklerini anlatıyor.",
+    "en": "Google’s guides and measurement tools for web quality — performance, accessibility, PWA. Unlike MDN it is a guide rather than a reference, explaining metrics such as Core Web Vitals and how to improve them.",
     "src": "awesomeproj"
   },
   {
@@ -1343,8 +1343,8 @@
       "açık-kaynak",
       "ücretsiz"
     ],
-    "tr": "Web’in üçte birini çalıştıran açık kaynak blog ve içerik yönetim sistemi.",
-    "en": "The open-source blog and content management system that runs a third of the web.",
+    "tr": "Web’in büyük bölümünü çalıştıran açık kaynak blog ve içerik yönetim sistemi; burası kendin kuracağın yazılım, WordPress.com barındırma hizmeti değil. Statik site üreteçlerinden farkı yönetim paneli ve dev eklenti ekosistemi; karşılığında bakım ve güvenlik güncellemesi yükü.",
+    "en": "The open-source blog and CMS that runs a large share of the web; this is the software you install yourself, not the WordPress.com hosting service. Unlike static-site generators it has an admin panel and a huge plugin ecosystem; the price is ongoing maintenance and security updates.",
     "src": "awesomeproj"
   }
 ]

@@ -11,28 +11,28 @@
   <link href="https://academybugs.com/find-bugs/"/>
   <id>https://academybugs.com/find-bugs/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A practice site with 25 real bugs planted inside for you to find.</summary>
+  <summary>A practice site with 25 real bugs planted inside for you to find. Unlike automation practice sites it targets manual exploratory testing: you find the bugs and report them.</summary>
 </entry>
 <entry>
   <title>Airport Gap</title>
   <link href="https://airportgap.dev-tester.com/"/>
   <id>https://airportgap.dev-tester.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A RESTful API built to improve your API automation testing.</summary>
+  <summary>A RESTful API built to improve your API automation testing. Unlike simple mock APIs, it has realistic behaviour such as token authentication and rate limiting.</summary>
 </entry>
 <entry>
   <title>API Challenges</title>
   <link href="https://apichallenges.eviltester.com/"/>
   <id>https://apichallenges.eviltester.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A series of challenges, tutorials and references for practising API testing.</summary>
+  <summary>A series of challenges, tutorials and references for practising API testing, by Alan Richardson (EvilTester). Unlike ordinary mock APIs it comes with a task list, marking your progress as you complete each challenge.</summary>
 </entry>
 <entry>
   <title>Applitools</title>
   <link href="https://applitools.com"/>
   <id>https://applitools.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A visual regression testing platform that compares screens with visual AI.</summary>
+  <summary>A visual regression testing platform that compares screens with visual AI. Unlike pixel-by-pixel tools, it ignores trivial differences such as anti-aliasing and flags real changes.</summary>
 </entry>
 <entry>
   <title>Applitools Demo</title>
@@ -137,14 +137,14 @@
   <link href="https://beeceptor.com"/>
   <id>https://beeceptor.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Spins up a mock REST endpoint in seconds and intercepts or fakes HTTP requests.</summary>
+  <summary>Spins up a mock REST endpoint in seconds and intercepts or fakes HTTP requests. Unlike writing your own mock server, it needs no code or setup.</summary>
 </entry>
 <entry>
   <title>BlazeDemo</title>
   <link href="https://blazedemo.com/"/>
   <id>https://blazedemo.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>BlazeMeter’s simple travel-agency demo for performance testing.</summary>
+  <summary>BlazeMeter’s simple travel-agency demo for performance testing. Unlike trap-laden practice sites it is deliberately plain — the point is building a load-test scenario.</summary>
 </entry>
 <entry>
   <title>Browserling</title>
@@ -158,7 +158,7 @@
   <link href="https://www.candymapper.net/"/>
   <id>https://www.candymapper.net/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A web app with traps, built to practise test-automation skills.</summary>
+  <summary>A web app built to practise test-automation skills. Unlike clean demo sites, it contains deliberately planted traps — pop-ups, unexpected elements.</summary>
 </entry>
 <entry>
   <title>Coffee Cart</title>
@@ -172,7 +172,7 @@
   <link href="https://commitquality.com/"/>
   <id>https://commitquality.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A practice site with high-quality Playwright automation examples.</summary>
+  <summary>A practice site for Playwright automation. Unlike practice grounds that offer only a target site, it comes with high-quality Playwright example code.</summary>
 </entry>
 <entry>
   <title>Countries GraphQL API</title>
@@ -186,14 +186,14 @@
   <link href="https://cypress.io"/>
   <id>https://cypress.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An end-to-end testing framework that runs in the browser with live reload and time-travel debugging.</summary>
+  <summary>An end-to-end testing framework that runs in the browser with live reload and time-travel debugging. Unlike Selenium the test runs in the same browser loop as the app; compared with Playwright, multi-tab and cross-browser support is more limited.</summary>
 </entry>
 <entry>
   <title>DemoBlaze</title>
   <link href="https://demoblaze.com/"/>
   <id>https://demoblaze.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A sample shop designed to automate against, with a walk-through.</summary>
+  <summary>A sample shop designed to automate against. Unlike other demo shops, it comes with a step-by-step walk-through prepared by BlazeMeter.</summary>
 </entry>
 <entry>
   <title>DemoQA</title>
@@ -207,7 +207,7 @@
   <link href="https://dummyjson.com"/>
   <id>https://dummyjson.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A fake JSON REST API offering dozens of resources for quick prototyping and test data.</summary>
+  <summary>A fake JSON REST API offering dozens of resources for quick prototyping and test data. Unlike JSONPlaceholder it has richer data (products, carts, recipes) plus authentication, pagination and search.</summary>
 </entry>
 <entry>
   <title>Evil Tester Test Pages</title>
@@ -221,14 +221,14 @@
   <link href="https://practice.expandtesting.com/"/>
   <id>https://practice.expandtesting.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An automation practice app usable for both UI and API testing.</summary>
+  <summary>An automation practice app. Unlike sites offering only UI or only API, it provides both in one app, so you can verify through the API what you did in the UI.</summary>
 </entry>
 <entry>
   <title>Fake Store API</title>
   <link href="https://fakestoreapi.com"/>
   <id>https://fakestoreapi.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A fake e-commerce REST API with products, carts and users for front-end prototypes.</summary>
+  <summary>A fake e-commerce REST API with products, carts and users for front-end prototypes. Unlike general mock APIs such as JSONPlaceholder, its data model is e-commerce-specific.</summary>
 </entry>
 <entry>
   <title>GoREST</title>
@@ -242,21 +242,21 @@
   <link href="https://bonigarcia.dev/selenium-webdriver-java/"/>
   <id>https://bonigarcia.dev/selenium-webdriver-java/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A practice page bundling a wide variety of web elements to interact with via Selenium.</summary>
+  <summary>The practice page accompanying Boni García’s Hands-On Selenium WebDriver with Java, bundling a wide variety of web elements. Unlike scattered practice pages, it matches the book’s examples one to one.</summary>
 </entry>
 <entry>
   <title>httpbin</title>
   <link href="https://httpbin.org"/>
   <id>https://httpbin.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An HTTP request-and-response testing service that echoes headers, body and response — handy for exercising a client.</summary>
+  <summary>An HTTP testing service that echoes headers, body and response. Unlike mock REST APIs, it tests HTTP itself — headers, cookies, redirects, compression — rather than data.</summary>
 </entry>
 <entry>
   <title>httpstat.us</title>
   <link href="https://httpstat.us"/>
   <id>https://httpstat.us</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A tiny service that returns any HTTP status code (and delay) you ask for, to test error paths.</summary>
+  <summary>A tiny service that returns any HTTP status code (and delay) you ask for, to test error paths. Unlike httpbin it does one job: put the code in the URL and get that response.</summary>
 </entry>
 <entry>
   <title>Insomnia</title>
@@ -277,13 +277,13 @@
   <link href="https://katalon.com"/>
   <id>https://katalon.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A low-code test automation tool for web, API and mobile that builds scenarios without coding.</summary>
+  <summary>A low-code test automation tool for web, API and mobile. Unlike code-first frameworks such as Playwright, it builds scenarios with record-and-playback and a visual editor, no coding needed; advanced features are paid.</summary>
 </entry>
 <entry>
   <title>LetCode</title>
   <link href="https://letcode.in/test"/>
   <id>https://letcode.in/test</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A site with many element examples for end-to-end automation practice.</summary>
+  <summary>A site with many element examples for end-to-end automation practice. Unlike single-purpose practice pages, it offers a wide variety of elements plus companion video lessons.</summary>
 </entry>
 </feed>
