@@ -11,14 +11,14 @@
   <link href="https://www.ansible.com"/>
   <id>https://www.ansible.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Agentless configuration management and automation that provisions servers with YAML playbooks.</summary>
+  <summary>Configuration management and automation that provisions servers with YAML playbooks. Unlike Puppet and Chef, it needs no agent on the target and works over SSH.</summary>
 </entry>
 <entry>
   <title>Argo</title>
   <link href="https://argoproj.github.io"/>
   <id>https://argoproj.github.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A suite of Kubernetes-native workflow and GitOps continuous-delivery tools (Argo CD, Workflows).</summary>
+  <summary>A suite of Kubernetes-native workflow and GitOps continuous-delivery tools (Argo CD, Workflows). Unlike CI servers such as Jenkins, it runs inside the cluster and treats Git as the single source of truth, continuously syncing cluster state to the repo.</summary>
 </entry>
 <entry>
   <title>Awesome Actions</title>
@@ -95,7 +95,7 @@
   <link href="https://github.com/chaos-mesh/chaos-mesh"/>
   <id>https://github.com/chaos-mesh/chaos-mesh</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A cloud-native, Kubernetes-integrated chaos-engineering (fault-injection) platform.</summary>
+  <summary>A cloud-native, Kubernetes-integrated chaos-engineering (fault-injection) platform. Unlike Chaos Monkey, which only kills instances, you declare faults such as network latency, disk errors and clock skew as Kubernetes resources.</summary>
 </entry>
 <entry>
   <title>Cloudflare</title>
@@ -109,77 +109,77 @@
   <link href="https://earthly.dev"/>
   <id>https://earthly.dev</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A build-automation tool giving repeatable builds that behave the same locally and in CI.</summary>
+  <summary>A build tool with a syntax blending Dockerfile and Makefile, giving the same result locally and in CI. Unlike a plain Makefile every step is isolated in a container; the project is no longer actively maintained, so factor that into new setups.</summary>
 </entry>
 <entry>
   <title>Harbor</title>
   <link href="https://goharbor.io"/>
   <id>https://goharbor.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A private container-image registry with security scanning and access control.</summary>
+  <summary>A private container-image registry with security scanning and access control, a CNCF graduated project. Unlike Docker Hub, it runs on your own infrastructure and scans images for vulnerabilities before release.</summary>
 </entry>
 <entry>
   <title>Helm</title>
   <link href="https://helm.sh"/>
   <id>https://helm.sh</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A package manager that packages and deploys Kubernetes applications as charts.</summary>
+  <summary>A package manager that packages and deploys Kubernetes applications as charts. Unlike plain YAML manifests, it adds templating, values files for environment differences and release rollback.</summary>
 </entry>
 <entry>
   <title>JitPack</title>
   <link href="https://jitpack.io"/>
   <id>https://jitpack.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Makes GitHub repos that don’t publish jars usable directly as dependencies.</summary>
+  <summary>Makes GitHub repos that don’t publish jars usable directly as dependencies. Unlike publishing to Maven Central, no registration step is needed — it builds a tag and serves it as a package.</summary>
 </entry>
 <entry>
   <title>K9s</title>
   <link href="https://k9scli.io"/>
   <id>https://k9scli.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A fast, interactive terminal UI for managing Kubernetes clusters.</summary>
+  <summary>A fast, interactive terminal UI for managing Kubernetes clusters. Instead of typing kubectl commands one by one, you move through resources by keyboard and jump straight into logs and shells.</summary>
 </entry>
 <entry>
   <title>Kubernetes</title>
   <link href="https://kubernetes.io"/>
   <id>https://kubernetes.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The official site of the open-source system that deploys, manages and heals containers at scale.</summary>
+  <summary>The official site of the open-source system that deploys, manages and heals containers at scale. Unlike Docker Compose it scales across machines and self-heals; in exchange the learning and operating costs are high.</summary>
 </entry>
 <entry>
   <title>OpenTofu</title>
   <link href="https://opentofu.org"/>
   <id>https://opentofu.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A community-driven open-source fork of Terraform that runs the same configurations.</summary>
+  <summary>A community-driven open-source fork of Terraform that runs the same configurations. Unlike Terraform it stays under an open (MPL) licence at the Linux Foundation and adds its own features such as state encryption.</summary>
 </entry>
 <entry>
   <title>Pants</title>
   <link href="https://www.pantsbuild.org/"/>
   <id>https://www.pantsbuild.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A build system that scales to large, multi-language monorepos (originated at Twitter).</summary>
+  <summary>A build system that scales to large, multi-language monorepos (originated at Twitter). Compared with Bazel it is friendlier to the Python ecosystem and lighter to configure, since it infers dependencies from source.</summary>
 </entry>
 <entry>
   <title>Portainer</title>
   <link href="https://www.portainer.io"/>
   <id>https://www.portainer.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A self-hosted tool that manages Docker and Kubernetes environments through a visual UI.</summary>
+  <summary>A self-hosted tool that manages Docker and Kubernetes environments through a visual UI. Instead of the command line you manage containers, stacks and logs from a panel — for watching several environments in one place.</summary>
 </entry>
 <entry>
   <title>Prometheus</title>
   <link href="https://prometheus.io"/>
   <id>https://prometheus.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An open-source monitoring system for metrics collection and alerting, with a time-series database.</summary>
+  <summary>An open-source monitoring system for metrics collection and alerting, with a time-series database. Unlike push-based systems it pulls metrics from targets and queries them with PromQL.</summary>
 </entry>
 <entry>
   <title>Terraform</title>
   <link href="https://www.terraform.io"/>
   <id>https://www.terraform.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>HashiCorp's tool to define and provision infrastructure as code, managing cloud resources declaratively.</summary>
+  <summary>HashiCorp’s tool to define and provision infrastructure as code, managing cloud resources declaratively. Unlike CloudFormation it is not tied to one cloud; it has been BSL-licensed since 2023, with OpenTofu as the openly licensed fork.</summary>
 </entry>
 <entry>
   <title>CNCF Sertifikasyon</title>
@@ -249,14 +249,14 @@
   <link href="https://avenacloud.com/"/>
   <id>https://avenacloud.com/</id>
   <updated>2026-08-19T16:09:22Z</updated>
-  <summary>A VPS and dedicated server provider positioned on budget for small-scale projects.</summary>
+  <summary>A VPS and dedicated server provider. Compared with the big clouds it is budget-focused with a narrow range of managed services — for small-scale projects.</summary>
 </entry>
 <entry>
   <title>Amazon Web Services</title>
   <link href="https://aws.amazon.com/"/>
   <id>https://aws.amazon.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The cloud with the widest service range. The breadth is an advantage, while cost tracking is its own discipline — egress charges in particular catch people out.</summary>
+  <summary>The cloud with the widest service range. Compared with Azure and Google Cloud the breadth is an advantage, but cost tracking is its own discipline — egress charges in particular catch people out.</summary>
 </entry>
 <entry>
   <title>Apache Airflow</title>
@@ -277,7 +277,7 @@
   <link href="https://kestra.io/"/>
   <id>https://kestra.io/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Flows are declared in YAML, and being language-agnostic it works for teams that are not on Python. It sits well in version control.</summary>
+  <summary>A workflow orchestrator whose flows are declared in YAML. Unlike Airflow it uses YAML instead of Python, so it works for teams not on Python and sits well in version control.</summary>
 </entry>
 <entry>
   <title>Make</title>

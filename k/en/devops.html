@@ -74,12 +74,12 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://aws.amazon.com/" rel="noopener noreferrer nofollow">Amazon Web Services</a></h2><span class="host">aws.amazon.com</span>
-<p class="d">The cloud with the widest service range. The breadth is an advantage, while cost tracking is its own discipline — egress charges in particular catch people out.</p>
+<p class="d">The cloud with the widest service range. Compared with Azure and Google Cloud the breadth is an advantage, but cost tracking is its own discipline — egress charges in particular catch people out.</p>
 <p class="t">Paid, Server</p>
 </article>
 <article>
 <h2><a href="https://www.ansible.com" rel="noopener noreferrer nofollow">Ansible</a></h2><span class="host">ansible.com</span>
-<p class="d">Agentless configuration management and automation that provisions servers with YAML playbooks.</p>
+<p class="d">Configuration management and automation that provisions servers with YAML playbooks. Unlike Puppet and Chef, it needs no agent on the target and works over SSH.</p>
 <p class="t">DevOps, Automation, Open Source</p>
 </article>
 <article>
@@ -94,12 +94,12 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://argoproj.github.io" rel="noopener noreferrer nofollow">Argo</a></h2><span class="host">argoproj.github.io</span>
-<p class="d">A suite of Kubernetes-native workflow and GitOps continuous-delivery tools (Argo CD, Workflows).</p>
+<p class="d">A suite of Kubernetes-native workflow and GitOps continuous-delivery tools (Argo CD, Workflows). Unlike CI servers such as Jenkins, it runs inside the cluster and treats Git as the single source of truth, continuously syncing cluster state to the repo.</p>
 <p class="t">DevOps, Automation, Open Source</p>
 </article>
 <article>
 <h2><a href="https://avenacloud.com/" rel="noopener noreferrer nofollow">AvenaCloud</a></h2><span class="host">avenacloud.com</span>
-<p class="d">A VPS and dedicated server provider positioned on budget for small-scale projects.</p>
+<p class="d">A VPS and dedicated server provider. Compared with the big clouds it is budget-focused with a narrow range of managed services — for small-scale projects.</p>
 <p class="t">Paid, Server</p>
 </article>
 <article>
@@ -154,12 +154,12 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://docs.celeryq.dev/en/stable/" rel="noopener noreferrer nofollow">Celery</a></h2><span class="host">docs.celeryq.dev</span>
-<p class="d">The standard for background tasks in Python, using Redis or RabbitMQ as a broker, with scheduled tasks (beat) and retry logic included.</p>
+<p class="d">The standard for background tasks in Python, using Redis or RabbitMQ as a broker. Compared with simpler queues such as RQ it is comprehensive — scheduled tasks (beat), retries, workflow primitives — at the cost of heavier configuration.</p>
 <p class="t">Open Source, Python, Automation</p>
 </article>
 <article>
 <h2><a href="https://github.com/chaos-mesh/chaos-mesh" rel="noopener noreferrer nofollow">Chaos Mesh</a></h2><span class="host">github.com</span>
-<p class="d">A cloud-native, Kubernetes-integrated chaos-engineering (fault-injection) platform.</p>
+<p class="d">A cloud-native, Kubernetes-integrated chaos-engineering (fault-injection) platform. Unlike Chaos Monkey, which only kills instances, you declare faults such as network latency, disk errors and clock skew as Kubernetes resources.</p>
 <p class="t">DevOps, Docker, Open Source, GitHub</p>
 </article>
 <article>
@@ -189,7 +189,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://github.com/HQarroum/docker-android" rel="noopener noreferrer nofollow">Docker Android</a></h2><span class="host">github.com</span>
-<p class="d">Runs an Android emulator in a container with VNC access to the screen — for running automated tests in CI without standing up a device farm.</p>
+<p class="d">Runs an Android emulator in a container with VNC access to the screen. Compared with cloud device farms it is free and runs in your own CI — an emulator for automated tests without standing up devices.</p>
 <p class="t">Open Source, GitHub, Docker, Interactive</p>
 </article>
 <article>
@@ -199,7 +199,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://earthly.dev" rel="noopener noreferrer nofollow">Earthly</a></h2><span class="host">earthly.dev</span>
-<p class="d">A build-automation tool giving repeatable builds that behave the same locally and in CI.</p>
+<p class="d">A build tool with a syntax blending Dockerfile and Makefile, giving the same result locally and in CI. Unlike a plain Makefile every step is isolated in a container; the project is no longer actively maintained, so factor that into new setups.</p>
 <p class="t">DevOps, Automation, Open Source</p>
 </article>
 <article>
@@ -219,27 +219,27 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://www.guzel.net.tr/" rel="noopener noreferrer nofollow">Güzel Hosting</a></h2><span class="host">guzel.net.tr</span>
-<p class="d">Turkey-based hosting and domains with .tr registration, local payment and Turkish support — practical when the server has to sit in Turkey.</p>
+<p class="d">Turkey-based hosting and domains with .tr registration, local payment and Turkish support. Unlike foreign providers the server sits in Turkey — practical when data must stay in the country.</p>
 <p class="t">Paid, Turkish, Server</p>
 </article>
 <article>
 <h2><a href="https://goharbor.io" rel="noopener noreferrer nofollow">Harbor</a></h2><span class="host">goharbor.io</span>
-<p class="d">A private container-image registry with security scanning and access control.</p>
+<p class="d">A private container-image registry with security scanning and access control, a CNCF graduated project. Unlike Docker Hub, it runs on your own infrastructure and scans images for vulnerabilities before release.</p>
 <p class="t">DevOps, Self-Hosted, Open Source</p>
 </article>
 <article>
 <h2><a href="https://helm.sh" rel="noopener noreferrer nofollow">Helm</a></h2><span class="host">helm.sh</span>
-<p class="d">A package manager that packages and deploys Kubernetes applications as charts.</p>
+<p class="d">A package manager that packages and deploys Kubernetes applications as charts. Unlike plain YAML manifests, it adds templating, values files for environment differences and release rollback.</p>
 <p class="t">DevOps, Open Source</p>
 </article>
 <article>
 <h2><a href="https://www.hetzner.com/" rel="noopener noreferrer nofollow">Hetzner</a></h2><span class="host">hetzner.com</span>
-<p class="d">Dedicated servers and VPS in Germany and Finland at a fraction of the big clouds’ price for the same cores and RAM. No managed services — operations are entirely yours.</p>
+<p class="d">Dedicated servers and VPS in Germany and Finland. Compared with the big clouds the same cores and RAM cost a fraction; there are no managed services, so operations are entirely yours.</p>
 <p class="t">Paid, Server</p>
 </article>
 <article>
 <h2><a href="https://jitpack.io" rel="noopener noreferrer nofollow">JitPack</a></h2><span class="host">jitpack.io</span>
-<p class="d">Makes GitHub repos that don’t publish jars usable directly as dependencies.</p>
+<p class="d">Makes GitHub repos that don’t publish jars usable directly as dependencies. Unlike publishing to Maven Central, no registration step is needed — it builds a tag and serves it as a package.</p>
 <p class="t">Git, Free</p>
 </article>
 <article>
@@ -249,17 +249,17 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://k9scli.io" rel="noopener noreferrer nofollow">K9s</a></h2><span class="host">k9scli.io</span>
-<p class="d">A fast, interactive terminal UI for managing Kubernetes clusters.</p>
+<p class="d">A fast, interactive terminal UI for managing Kubernetes clusters. Instead of typing kubectl commands one by one, you move through resources by keyboard and jump straight into logs and shells.</p>
 <p class="t">DevOps, CLI, Open Source</p>
 </article>
 <article>
 <h2><a href="https://kestra.io/" rel="noopener noreferrer nofollow">Kestra</a></h2><span class="host">kestra.io</span>
-<p class="d">Flows are declared in YAML, and being language-agnostic it works for teams that are not on Python. It sits well in version control.</p>
+<p class="d">A workflow orchestrator whose flows are declared in YAML. Unlike Airflow it uses YAML instead of Python, so it works for teams not on Python and sits well in version control.</p>
 <p class="t">Open Source, Automation, DevOps</p>
 </article>
 <article>
 <h2><a href="https://kubernetes.io" rel="noopener noreferrer nofollow">Kubernetes</a></h2><span class="host">kubernetes.io</span>
-<p class="d">The official site of the open-source system that deploys, manages and heals containers at scale.</p>
+<p class="d">The official site of the open-source system that deploys, manages and heals containers at scale. Unlike Docker Compose it scales across machines and self-heals; in exchange the learning and operating costs are high.</p>
 <p class="t">DevOps, Open Source, Docs</p>
 </article>
 <article>
@@ -269,7 +269,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://docs.litespeedtech.com/" rel="noopener noreferrer nofollow">LiteSpeed Dokümantasyonu</a></h2><span class="host">docs.litespeedtech.com</span>
-<p class="d">The configuration reference, including how LSCache rules are written — cache settings account for most of the performance you get.</p>
+<p class="d">The LiteSpeed web server’s configuration reference, including how LSCache rules are written. Unlike Apache it is event-driven yet still reads .htaccess; cache settings account for most of the performance you get.</p>
 <p class="t">Docs, Server, Database</p>
 </article>
 <article>
@@ -279,17 +279,17 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://n8n.io/" rel="noopener noreferrer nofollow">n8n</a></h2><span class="host">n8n.io</span>
-<p class="d">A visual node editor with unmetered executions when self-hosted. You can drop JavaScript into a node, so you do not hit the usual no-code wall.</p>
+<p class="d">Workflow automation with a visual node editor. Unlike Zapier, executions are unmetered when self-hosted and you can drop JavaScript into a node, so you do not hit the no-code wall.</p>
 <p class="t">Open Source, Self-Hosted, Automation, Docker</p>
 </article>
 <article>
 <h2><a href="https://docs.n8n.io/" rel="noopener noreferrer nofollow">n8n Dokümantasyonu</a></h2><span class="host">docs.n8n.io</span>
-<p class="d">Node reference, self-hosting and credential management. The queue-mode scaling section matters for anyone running it in production.</p>
+<p class="d">Node reference, self-hosting and credential management. Unlike community tutorials it covers production topics too — the queue-mode scaling section matters for anyone running it in production.</p>
 <p class="t">Docs, Automation</p>
 </article>
 <article>
 <h2><a href="https://github.com/m1k1o/neko" rel="noopener noreferrer nofollow">Neko</a></h2><span class="host">github.com</span>
-<p class="d">Runs a browser in a container and shares it over WebRTC, with several people able to control one session. Used for watch-together and for isolated browsing.</p>
+<p class="d">Runs a browser in a container and shares it over WebRTC, with several people able to control one session. Unlike remote-desktop tools it shares only the browser — for watching together and isolated browsing.</p>
 <p class="t">Open Source, GitHub, Docker, Networking</p>
 </article>
 <article>
@@ -304,27 +304,27 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://opentofu.org" rel="noopener noreferrer nofollow">OpenTofu</a></h2><span class="host">opentofu.org</span>
-<p class="d">A community-driven open-source fork of Terraform that runs the same configurations.</p>
+<p class="d">A community-driven open-source fork of Terraform that runs the same configurations. Unlike Terraform it stays under an open (MPL) licence at the Linux Foundation and adds its own features such as state encryption.</p>
 <p class="t">DevOps, Open Source, Automation</p>
 </article>
 <article>
 <h2><a href="https://www.pantsbuild.org/" rel="noopener noreferrer nofollow">Pants</a></h2><span class="host">pantsbuild.org</span>
-<p class="d">A build system that scales to large, multi-language monorepos (originated at Twitter).</p>
+<p class="d">A build system that scales to large, multi-language monorepos (originated at Twitter). Compared with Bazel it is friendlier to the Python ecosystem and lighter to configure, since it infers dependencies from source.</p>
 <p class="t">Open Source, Automation</p>
 </article>
 <article>
 <h2><a href="https://pipedream.com/" rel="noopener noreferrer nofollow">Pipedream</a></h2><span class="host">pipedream.com</span>
-<p class="d">Any step can be Node.js or Python and can pull an npm or PyPI package. The option that closes the gap between visual automation and real code.</p>
+<p class="d">An automation platform where any step can be Node.js or Python code pulling npm or PyPI packages. Unlike visual automation such as Zapier, it closes the gap to real code.</p>
 <p class="t">Paid, Freemium, Automation, System Design</p>
 </article>
 <article>
 <h2><a href="https://www.portainer.io" rel="noopener noreferrer nofollow">Portainer</a></h2><span class="host">portainer.io</span>
-<p class="d">A self-hosted tool that manages Docker and Kubernetes environments through a visual UI.</p>
+<p class="d">A self-hosted tool that manages Docker and Kubernetes environments through a visual UI. Instead of the command line you manage containers, stacks and logs from a panel — for watching several environments in one place.</p>
 <p class="t">DevOps, Self-Hosted, Open Source</p>
 </article>
 <article>
 <h2><a href="https://www.microsoft.com/power-platform/products/power-automate" rel="noopener noreferrer nofollow">Power Automate</a></h2><span class="host">microsoft.com</span>
-<p class="d">SharePoint, Teams and Dataverse connectors are native. If the organisation is already on Microsoft 365 the licence is usually paid for — which is the real reason it gets chosen.</p>
+<p class="d">An automation tool with native SharePoint, Teams and Dataverse connectors. Compared with Zapier, the real reason it gets chosen is licensing — if the organisation is already on Microsoft 365 it is usually paid for.</p>
 <p class="t">Paid, Automation</p>
 </article>
 <article>
@@ -339,17 +339,17 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://prometheus.io" rel="noopener noreferrer nofollow">Prometheus</a></h2><span class="host">prometheus.io</span>
-<p class="d">An open-source monitoring system for metrics collection and alerting, with a time-series database.</p>
+<p class="d">An open-source monitoring system for metrics collection and alerting, with a time-series database. Unlike push-based systems it pulls metrics from targets and queries them with PromQL.</p>
 <p class="t">DevOps, Observability, Open Source</p>
 </article>
 <article>
 <h2><a href="https://www.rabbitmq.com/tutorials" rel="noopener noreferrer nofollow">RabbitMQ Öğreticileri</a></h2><span class="host">rabbitmq.com</span>
-<p class="d">The official six-step series on queue patterns — work queues, pub/sub, routing, RPC. Kafka is for event streaming; this is for task distribution.</p>
+<p class="d">The official six-step series on queue patterns — work queues, pub/sub, routing, RPC. Unlike Kafka, which is for event streaming, this is about task distribution.</p>
 <p class="t">Open Source, Automation</p>
 </article>
 <article>
 <h2><a href="https://redis.io/docs/latest/" rel="noopener noreferrer nofollow">Redis Dokümantasyonu</a></h2><span class="host">redis.io</span>
-<p class="d">The reference for its data structures — lists, sets, sorted sets, streams. Treating Redis as a plain key-value store means leaving most of the tool unused.</p>
+<p class="d">The reference for its data structures — lists, sets, sorted sets, streams. Unlike Memcached it has those structures and persistence; treating Redis as a plain key-value store means leaving most of the tool unused.</p>
 <p class="t">Docs, Database</p>
 </article>
 <article>
@@ -369,17 +369,17 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://temporal.io/" rel="noopener noreferrer nofollow">Temporal</a></h2><span class="host">temporal.io</span>
-<p class="d">Records workflow state as an event history, so a crashed process resumes at the same point. Built for multi-day operations that cannot simply be restarted.</p>
+<p class="d">Records workflow state as an event history, so a crashed process resumes at the same point. Unlike task queues such as Celery the state is durable — built for multi-day operations that cannot simply be restarted.</p>
 <p class="t">Open Source, Automation</p>
 </article>
 <article>
 <h2><a href="https://www.terraform.io" rel="noopener noreferrer nofollow">Terraform</a></h2><span class="host">terraform.io</span>
-<p class="d">HashiCorp's tool to define and provision infrastructure as code, managing cloud resources declaratively.</p>
+<p class="d">HashiCorp’s tool to define and provision infrastructure as code, managing cloud resources declaratively. Unlike CloudFormation it is not tied to one cloud; it has been BSL-licensed since 2023, with OpenTofu as the openly licensed fork.</p>
 <p class="t">DevOps, Automation</p>
 </article>
 <article>
 <h2><a href="https://vercel.com/" rel="noopener noreferrer nofollow">Vercel</a></h2><span class="host">vercel.com</span>
-<p class="d">Frontend-focused deployment whose per-PR preview environments became an industry standard. It is the company behind Next.js, so integration with that framework is tightest here.</p>
+<p class="d">Frontend-focused deployment whose per-PR preview environments became an industry standard. Compared with Netlify, it is the company behind Next.js, so integration with that framework is tightest here.</p>
 <p class="t">Paid, Freemium, Server, Embedded</p>
 </article>
 <article>
@@ -389,7 +389,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://zapier.com/" rel="noopener noreferrer nofollow">Zapier</a></h2><span class="host">zapier.com</span>
-<p class="d">The widest integration catalogue — the niche SaaS you want is probably already there. Pricing is per task, so it gets expensive quickly as volume grows.</p>
+<p class="d">The automation tool with the widest integration catalogue — the niche SaaS you want is probably there. Compared with n8n the breadth is an advantage; pricing is per task, so it gets expensive quickly as volume grows.</p>
 <p class="t">Paid, Freemium, Automation</p>
 </article>
 </main>

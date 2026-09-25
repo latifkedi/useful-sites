@@ -18,8 +18,8 @@
       "github",
       "müfredat"
     ],
-    "tr": "Çok geniş proje fikri derlemesi; niceliği yüksek, ayıklaması sana kalıyor.",
-    "en": "A very broad compilation of project ideas — high on quantity, with the filtering left to you.",
+    "tr": "Çok geniş proje fikri derlemesi. Seçilmiş, seviyelendirilmiş proje listelerinden farkı niceliği: çok fikir var, ayıklaması sana kalıyor.",
+    "en": "A very broad compilation of project ideas. Unlike curated, levelled project lists it wins on quantity — lots of ideas, with the filtering left to you.",
     "src": "bwapsv"
   },
   {
@@ -30,8 +30,8 @@
       "türkçe",
       "müfredat"
     ],
-    "tr": "Öğretmensiz, akran değerlendirmeli ve ücretsiz yazılım okulu; diploma ya da ön bilgi şartı yok. Giriş, “piscine” denen dört haftalık yoğun eleme sürecinden geçiyor.",
-    "en": "A tuition-free software school with no teachers and peer evaluation, requiring no diploma or prior knowledge. Entry runs through a four-week intensive selection called the piscine.",
+    "tr": "Öğretmensiz, akran değerlendirmeli ve ücretsiz yazılım okulu; diploma ya da ön bilgi şartı yok. Klasik bootcamp’lerden farkı ücret ve öğretmen olmaması; giriş “piscine” denen dört haftalık yoğun eleme sürecinden geçiyor.",
+    "en": "A tuition-free software school with no teachers and peer evaluation, requiring no diploma or prior knowledge. Unlike classic bootcamps there is no fee and no teacher; entry runs through a four-week intensive selection called the piscine.",
     "src": "kedi",
     "added": 1785511527
   },
@@ -196,8 +196,8 @@
       "sertifika",
       "sunucu"
     ],
-    "tr": "Rol bazlı sertifika programı (Solutions Architect, DevOps Engineer vb.). Bulut tarafında işveren tanınırlığı en yüksek belge ailesi; üç yılda bir yenileniyor.",
-    "en": "A role-based certification programme — Solutions Architect, DevOps Engineer and so on. The most employer-recognised credential family in cloud, renewable every three years.",
+    "tr": "Rol bazlı sertifika programı (Solutions Architect, DevOps Engineer vb.); üç yılda bir yenileniyor. Azure ve Google Cloud sertifikalarına kıyasla bulut tarafında işveren tanınırlığı en yüksek belge ailesi.",
+    "en": "A role-based certification programme — Solutions Architect, DevOps Engineer and so on — renewable every three years. Compared with Azure and Google Cloud certifications, it is the most employer-recognised credential family in cloud.",
     "src": "kedi",
     "added": 1783424486
   },
@@ -208,8 +208,8 @@
       "freemium",
       "sunucu"
     ],
-    "tr": "AWS’in resmî eğitim merkezi: 600+ ücretsiz kurs, sınav hazırlığı ve ücretli katmanda gerçek hesapta çalışan laboratuvarlar.",
-    "en": "AWS’s official learning centre — 600+ free courses, exam prep, and hands-on labs against real accounts in the paid tier.",
+    "tr": "AWS’in resmî eğitim merkezi: 600+ ücretsiz kurs ve sınav hazırlığı. Üçüncü taraf kurslardan farkı ücretli katmanda gerçek AWS hesabında çalışan laboratuvarlar sunması.",
+    "en": "AWS’s official learning centre — 600+ free courses and exam prep. Unlike third-party courses, the paid tier offers hands-on labs against real AWS accounts.",
     "src": "kedi",
     "added": 1776690079
   },
@@ -317,8 +317,8 @@
       "ücretsiz",
       "sertifika"
     ],
-    "tr": "Claude Certified Architect sınavı için ücretsiz deneme; 28 soruluk kısa ve 60 soruluk tam uzunlukta iki kip, gerçek sınavın süre ve geçme eşiğiyle.",
-    "en": "A free mock for the Claude Certified Architect exam in two modes — a 28-question short form and a full 60-question run — matching the real timing and pass threshold.",
+    "tr": "Claude Certified Architect sınavı için ücretsiz deneme; 28 soruluk kısa ve 60 soruluk tam uzunlukta iki kip, gerçek sınavın süre ve geçme eşiğiyle. Konu anlatımlarından farkı sınav koşullarını taklit etmesi.",
+    "en": "A free mock for the Claude Certified Architect exam in two modes — a 28-question short form and a full 60-question run — matching the real timing and pass threshold. Unlike topic explainers, it simulates exam conditions.",
     "src": "kedi",
     "added": 1782370370
   },
@@ -378,8 +378,8 @@
       "freemium",
       "müfredat"
     ],
-    "tr": "Üniversite ve şirket ortaklıklı kurs platformu. Çoğu ders ücretsiz izlenebiliyor; ödev değerlendirmesi ve sertifika ücretli katmanda.",
-    "en": "Course platform partnered with universities and companies. Most lectures are free to audit; graded work and certificates sit behind the paid tier.",
+    "tr": "Üniversite ve şirket ortaklıklı kurs platformu; çoğu ders ücretsiz izlenebiliyor, ödev değerlendirmesi ve sertifika ücretli. edX’e kıyasla Google ve IBM gibi şirketlerin meslek sertifikalarının ağırlığı daha fazla.",
+    "en": "Course platform partnered with universities and companies; most lectures are free to audit, with graded work and certificates paid. Compared with edX, company professional certificates such as Google’s and IBM’s carry more weight here.",
     "src": "bwapsv",
     "added": 1771248432
   },
@@ -390,8 +390,8 @@
       "video",
       "ücretsiz"
     ],
-    "tr": "Bilgisayar biliminden tarihe birçok konuda hızlı, animasyonlu kısa dersler.",
-    "en": "Fast, animated short courses on many subjects from computer science to history.",
+    "tr": "Bilgisayar biliminden tarihe birçok konuda hızlı, animasyonlu kısa dersler. Uzun üniversite derslerinden farkı bir konunun ana hatlarını on dakikada vermesi: derine inmeden önce haritayı çiziyor.",
+    "en": "Fast, animated short courses on many subjects from computer science to history. Unlike long university lectures it gives a subject’s outline in ten minutes — drawing the map before you dig in.",
     "src": "bwapsv"
   },
   {
@@ -452,8 +452,8 @@
       "veri-bilimi",
       "interaktif"
     ],
-    "tr": "Kısa video sonrası tarayıcı içinde kod yazdırıp anında değerlendiriyor. Öğretme biçimi etkili ama alıştırmalar dar kalıplı; gerçek projeye geçişte boşluk bırakıyor.",
-    "en": "Short video then in-browser coding with instant grading. The format works, though the exercises are narrow and leave a gap when you move to a real project.",
+    "tr": "Kısa video sonrası tarayıcı içinde kod yazdırıp anında değerlendiriyor. Salt video kurslardan farkı bu hemen uygulama biçimi; ama alıştırmalar dar kalıplı, gerçek projeye geçişte boşluk bırakıyor.",
+    "en": "Short video then in-browser coding with instant grading. Unlike video-only courses you practise straight away, though the exercises are narrow and leave a gap when you move to a real project.",
     "src": "kedi",
     "added": 1785080559
   },
@@ -478,8 +478,8 @@
       "öğretici",
       "veri-bilimi"
     ],
-    "tr": "Makine öğrenmesi fikirlerini etkileşimli görsellerle açıklayan araştırma dergisi (yayına ara verildi, arşiv değerli).",
-    "en": "A research journal explaining machine-learning ideas through interactive visuals (on hiatus, but the archive is valuable).",
+    "tr": "Makine öğrenmesi fikirlerini etkileşimli görsellerle açıklayan araştırma dergisi. Klasik makale dergilerinden farkı bu etkileşimli anlatım; yayına ara verildi ama arşiv hâlâ değerli.",
+    "en": "A research journal explaining machine-learning ideas through interactive visuals. Unlike classic paper journals it explains interactively; publication is on hiatus, but the archive remains valuable.",
     "src": "dsbest"
   },
   {
@@ -490,8 +490,8 @@
       "ücretsiz",
       "müfredat"
     ],
-    "tr": "Dil öğrenmeyi oyunlaştırılmış, kısa günlük derslerle sunan platform.",
-    "en": "A platform teaching languages through gamified, short daily lessons.",
+    "tr": "Dil öğrenmeyi oyunlaştırılmış, kısa günlük derslerle sunan platform. Kurs tabanlı dil öğreniminden farkı günlük seri (streak) ile alışkanlık kurdurması; karşılığında konuşma pratiği sınırlı.",
+    "en": "A platform teaching languages through gamified, short daily lessons. Unlike course-based learning it builds a habit through daily streaks; in exchange, speaking practice is limited.",
     "src": "awesomeproj"
   },
   {
@@ -501,8 +501,8 @@
       "freemium",
       "müfredat"
     ],
-    "tr": "Üniversite kaynaklı kurs platformu. İçeriği izlemek çoğu derste ücretsiz; ödev değerlendirmesi ve sertifika ücretli katmanda kalıyor.",
-    "en": "A university-sourced course platform. Auditing is free for most courses; graded assignments and the certificate sit behind the paid tier.",
+    "tr": "MIT ve Harvard’ın kurduğu, üniversite kaynaklı kurs platformu; içeriği izlemek çoğu derste ücretsiz, ödev değerlendirmesi ve sertifika ücretli. Coursera’ya kıyasla üniversite derslerinin ağırlığı daha fazla.",
+    "en": "A university-sourced course platform founded by MIT and Harvard; auditing is free for most courses, with graded work and certificates paid. Compared with Coursera, university courses carry more of the weight.",
     "src": "kedi",
     "added": 1771248438
   },
@@ -564,8 +564,8 @@
       "ücretsiz",
       "javascript"
     ],
-    "tr": "Helsinki Üniversitesi'nin React, Node ve GraphQL öğreten ücretsiz, uçtan uca tam yığın kursu.",
-    "en": "University of Helsinki's free, end-to-end full-stack course teaching React, Node and GraphQL.",
+    "tr": "Helsinki Üniversitesi’nin React, Node ve GraphQL öğreten ücretsiz, uçtan uca tam yığın kursu. Udemy tarzı kurslardan farkı ödevlerin değerlendirilmesi ve üniversite kredisi (ECTS) verebilmesi.",
+    "en": "The University of Helsinki’s free, end-to-end full-stack course teaching React, Node and GraphQL. Unlike Udemy-style courses, assignments are assessed and it can award university credit (ECTS).",
     "src": "dsbest"
   },
   {
@@ -587,8 +587,8 @@
       "sertifika",
       "git"
     ],
-    "tr": "Sürüm kontrolü, işbirliği akışı ve GitHub yönetişimini kapsayan giriş seviyesi sınav. Kapsamı dar, o yüzden hazırlığı kısa.",
-    "en": "An entry-level exam covering version control, collaboration flow and GitHub governance. The scope is narrow, so preparation is short.",
+    "tr": "Sürüm kontrolü, işbirliği akışı ve GitHub yönetişimini kapsayan giriş seviyesi sınav. Actions ya da Advanced Security gibi diğer GitHub sertifikalarına kıyasla kapsamı dar, o yüzden hazırlığı kısa.",
+    "en": "An entry-level exam covering version control, collaboration flow and GitHub governance. Compared with other GitHub certifications such as Actions or Advanced Security the scope is narrow, so preparation is short.",
     "src": "kedi",
     "added": 1782370435
   },
@@ -599,8 +599,8 @@
       "ücretsiz",
       "sertifika"
     ],
-    "tr": "Öğrencilere ücretsiz araç ve bulut kredisi veren paket: alan adı, JetBrains lisansı, DigitalOcean kredisi ve fazlası. Doğrulama okul e-postasıyla yapılıyor.",
-    "en": "A bundle of free tools and cloud credit for students — a domain, JetBrains licences, DigitalOcean credit and more, verified with a school email.",
+    "tr": "Öğrencilere ücretsiz araç ve bulut kredisi veren paket: alan adı, JetBrains lisansı, DigitalOcean kredisi ve fazlası; doğrulama okul e-postasıyla. Tek tek öğrenci indirimlerini aramak yerine hepsini tek başvuruyla açıyor.",
+    "en": "A bundle of free tools and cloud credit for students — a domain, JetBrains licences, DigitalOcean credit and more, verified with a school email. Rather than hunting student discounts one by one, it unlocks them in one application.",
     "src": "kedi",
     "added": 1770118325
   },
@@ -611,8 +611,8 @@
       "ücretsiz",
       "türkçe"
     ],
-    "tr": "Yapay zekayı günlük işe katmayı anlatan giriş programı; kod yok, model matematiği yok. Teknik olmayan meslekler için tasarlanmış nadir kaynaklardan.",
-    "en": "An introduction to folding AI into everyday work — no code, no model mathematics. One of the rare resources actually designed for non-technical roles.",
+    "tr": "Yapay zekâyı günlük işe katmayı anlatan giriş programı; kod yok, model matematiği yok. Teknik YZ kurslarından farkı teknik olmayan meslekler için tasarlanmış olması.",
+    "en": "An introduction to folding AI into everyday work — no code, no model mathematics. Unlike technical AI courses, it is actually designed for non-technical roles.",
     "src": "kedi",
     "added": 1782370393
   },
@@ -624,8 +624,8 @@
       "türkçe",
       "sertifika"
     ],
-    "tr": "Google’ın Türkçe dijital beceri kursları; dijital pazarlama sertifikası Avrupa’da tanınıyor. Türkçe içerik ve ücretsiz sertifika birleşimi yerelde ender.",
-    "en": "Google’s Turkish-language digital skills courses; the digital marketing certificate is recognised in Europe. Turkish content plus a free certificate is a rare pairing locally.",
+    "tr": "Google’ın Türkçe dijital beceri kursları; dijital pazarlama sertifikası Avrupa’da tanınıyor. İngilizce kurslardan farkı Türkçe içerik ile ücretsiz sertifikayı birleştirmesi — yerelde ender.",
+    "en": "Google’s Turkish-language digital skills courses; the digital marketing certificate is recognised in Europe. Unlike English courses it pairs Turkish content with a free certificate — rare locally.",
     "src": "kedi",
     "added": 1771248690
   },
@@ -637,8 +637,8 @@
       "müfredat",
       "sunucu"
     ],
-    "tr": "Google’ın eğitim ve sertifika platformu; Cloud Skills Boost laboratuvarlarını da içine almış durumda. Ücretsiz yolların yanında kredi gerektiren uygulamalı laboratuvarlar var.",
-    "en": "Google’s training and certification platform, now folding in the Cloud Skills Boost labs. Free tracks sit alongside hands-on labs that cost credits.",
+    "tr": "Google’ın eğitim ve sertifika platformu; Cloud Skills Boost laboratuvarlarını da içine almış durumda. Dağınık Google eğitim sitelerinin yerine hepsini tek katalogda topluyor; ücretsiz yolların yanında kredi gerektiren laboratuvarlar var.",
+    "en": "Google’s training and certification platform, now folding in the Cloud Skills Boost labs. Instead of scattered Google training sites it gathers everything in one catalogue; free tracks sit beside labs that cost credits.",
     "src": "kedi",
     "added": 1771248435
   },
@@ -673,8 +673,8 @@
       "freemium",
       "müfredat"
     ],
-    "tr": "Harvard’ın çevrimiçi ders kataloğu; ücretsiz izlenebilen derslerle ücretli sertifika programları aynı listede duruyor, hangisi olduğunu filtreden seçiyorsun.",
-    "en": "Harvard’s online catalogue, listing free-to-audit courses and paid certificate programmes together — you separate them with the filter.",
+    "tr": "Harvard’ın çevrimiçi ders kataloğu. edX gibi aracı platformlar yerine üniversitenin kendi listesi: ücretsiz izlenebilen derslerle ücretli sertifika programları aynı yerde, hangisi olduğunu filtreden seçiyorsun.",
+    "en": "Harvard’s own online course catalogue. Rather than an intermediary platform such as edX, it is the university’s own list — free-to-audit courses and paid certificate programmes together, separated with the filter.",
     "src": "kedi",
     "added": 1771249285
   },
@@ -686,8 +686,8 @@
       "müfredat",
       "sertifika"
     ],
-    "tr": "IBM’in ücretsiz beceri programı; yapay zeka, güvenlik ve veri yollarında dijital rozet veriyor. Öğrenci ve kariyer değiştirenlere yönelik kurgulanmış.",
-    "en": "IBM’s free skills programme awarding digital badges on AI, security and data tracks, shaped for students and career changers.",
+    "tr": "IBM’in ücretsiz beceri programı; yapay zekâ, güvenlik ve veri yollarında dijital rozet veriyor. Coursera’daki ücretli IBM sertifikalarından farkı tamamen ücretsiz olması; öğrenci ve kariyer değiştirenlere yönelik.",
+    "en": "IBM’s free skills programme awarding digital badges on AI, security and data tracks. Unlike the paid IBM certificates on Coursera it is entirely free, shaped for students and career changers.",
     "src": "kedi",
     "added": 1771488458
   },
@@ -710,8 +710,8 @@
       "freemium",
       "müfredat"
     ],
-    "tr": "Sanat ve yaratıcı kodlama odaklı kurs platformu; ses sentezi, görsel programlama ve makine öğrenmesinin sanatta kullanımı gibi konular.",
-    "en": "A course platform for art and creative coding — sound synthesis, visual programming and machine learning applied to art.",
+    "tr": "Sanat ve yaratıcı kodlama odaklı kurs platformu; ses sentezi, görsel programlama ve makine öğrenmesinin sanatta kullanımı. Genel kurs platformlarından farkı programlamayı sanat pratiği içinden öğretmesi.",
+    "en": "A course platform for art and creative coding — sound synthesis, visual programming and machine learning applied to art. Unlike general course platforms, it teaches programming from inside artistic practice.",
     "src": "bwapsv"
   },
   {
@@ -771,8 +771,8 @@
       "dokümantasyon",
       "sunucu"
     ],
-    "tr": "Modüler ücretsiz eğitim; sandbox’ta gerçek Azure kaynağı açtırıp uygulatıyor. Modüller sertifika sınavı hedeflerine birebir eşlenmiş durumda.",
-    "en": "Free modular training that spins up real Azure resources in a sandbox for you to work in. Modules map one to one onto certification exam objectives.",
+    "tr": "Modüler ücretsiz eğitim; modüller sertifika sınavı hedeflerine birebir eşlenmiş. Video kurslardan farkı sandbox’ta gerçek Azure kaynağı açtırıp uygulatması.",
+    "en": "Free modular training whose modules map one to one onto certification exam objectives. Unlike video courses, it spins up real Azure resources in a sandbox for you to work in.",
     "src": "kedi",
     "added": 1771248787
   },
@@ -783,8 +783,8 @@
       "ücretsiz",
       "müfredat"
     ],
-    "tr": "MIT’nin elektrik mühendisliği ve bilgisayar bilimi bölümünün açık ders arşivi; algoritma, işletim sistemi ve derleyici derslerinin kaynağı.",
-    "en": "MIT’s open archive for electrical engineering and computer science — the source of its algorithms, operating systems and compilers courses.",
+    "tr": "MIT’nin elektrik mühendisliği ve bilgisayar bilimi bölümünün açık ders arşivi; algoritma, işletim sistemi ve derleyici derslerinin kaynağı. Genel OCW kataloğundan farkı yalnız bu bölüme odaklanarak doğrudan bilgisayar bilimi derslerine götürmesi.",
+    "en": "MIT’s open archive for electrical engineering and computer science — the source of its algorithms, operating systems and compilers courses. Unlike the full OCW catalogue, it takes you straight to the computer science courses.",
     "src": "bwapsv"
   },
   {
@@ -795,8 +795,8 @@
       "müfredat",
       "öğretici"
     ],
-    "tr": "MIT derslerinin ders notu, ödev, sınav ve çözümleriyle birlikte açık arşivi. Video kursların vermediği şey burada: gerçek problem setleri ve cevap anahtarları.",
-    "en": "MIT’s open archive of lecture notes, assignments, exams and solutions. What video courses do not give you is here: real problem sets with answer keys.",
+    "tr": "MIT derslerinin ders notu, ödev, sınav ve çözümleriyle birlikte açık arşivi. Video kurslardan farkı gerçek problem setleri ve cevap anahtarları sunması.",
+    "en": "MIT’s open archive of lecture notes, assignments, exams and solutions. Unlike video courses, it gives you real problem sets with answer keys.",
     "src": "kedi",
     "added": 1758746055
   },
@@ -807,8 +807,8 @@
       "ücretsiz",
       "müfredat"
     ],
-    "tr": "Helsinki Üniversitesi’nin açık kursları; Java ve Python programlama dersleri otomatik değerlendirmeli alıştırmalarla geliyor.",
-    "en": "The University of Helsinki’s open courses, with Java and Python programming taught through auto-graded exercises.",
+    "tr": "Helsinki Üniversitesi’nin açık kursları; Java ve Python programlama dersleri otomatik değerlendirmeli alıştırmalarla geliyor. Coursera gibi platformlardan farkı ödev değerlendirmesi dahil tamamen ücretsiz olması.",
+    "en": "The University of Helsinki’s open courses, with Java and Python programming taught through auto-graded exercises. Unlike platforms such as Coursera, it is completely free, grading included.",
     "src": "bwapsv"
   },
   {
@@ -844,8 +844,8 @@
       "kitap",
       "video"
     ],
-    "tr": "Teknik kitap ve video aboneliği; erken erişim sürümleriyle henüz basılmamış kitapları okuyabiliyorsun. Tek tek satın almaya göre pahalı ama kapsam çok geniş.",
-    "en": "A subscription to technical books and video, including early-access editions of unpublished titles. Expensive against buying individually, but the catalogue is very wide.",
+    "tr": "Teknik kitap ve video aboneliği; erken erişim sürümleriyle henüz basılmamış kitapları okuyabiliyorsun. Tek tek satın almaya kıyasla pahalı ama kapsam çok geniş.",
+    "en": "A subscription to technical books and video, including early-access editions of unpublished titles. Compared with buying individually it is expensive, but the catalogue is very wide.",
     "src": "kedi",
     "added": 1771249236
   },
@@ -940,8 +940,8 @@
       "müfredat",
       "python"
     ],
-    "tr": "Seviyeye göre gruplanmış Python proje listesi; her başlıkta kısa açıklama ve çalışan kod var. Ne yapacağını bilmediğin boş sayfa problemini çözüyor.",
-    "en": "A level-grouped list of Python projects, each with a short brief and working code — a fix for the blank-page problem of not knowing what to build.",
+    "tr": "Seviyeye göre gruplanmış Python proje listesi. Soyut fikir listelerinden farkı her başlıkta kısa açıklama ve çalışan kod olması: ne yapacağını bilmediğin boş sayfa problemini çözüyor.",
+    "en": "A level-grouped list of Python projects. Unlike bare idea lists, each comes with a short brief and working code — a fix for the blank-page problem of not knowing what to build.",
     "src": "kedi",
     "added": 1719500703
   },
@@ -964,8 +964,8 @@
       "müfredat",
       "referans"
     ],
-    "tr": "Kriptografi temellerinden akıllı sözleşme ve Solidity’ye uzanan sıralı harita. Alanın gürültüsünde neyin gerçekten temel olduğunu ayırıyor.",
-    "en": "An ordered map running from cryptographic fundamentals to smart contracts and Solidity, separating what is actually foundational from the field’s noise.",
+    "tr": "Kriptografi temellerinden akıllı sözleşme ve Solidity’ye uzanan sıralı harita. Düz kaynak listelerinden farkı sıralama: alanın gürültüsünde neyin gerçekten temel olduğunu ayırıyor.",
+    "en": "An ordered map running from cryptographic fundamentals to smart contracts and Solidity. Unlike flat resource lists it gives order, separating what is actually foundational from the field’s noise.",
     "src": "kedi",
     "added": 1772928139
   },
@@ -1049,8 +1049,8 @@
       "müfredat",
       "referans"
     ],
-    "tr": "Stanford mühendislik derslerinin ücretsiz arşivi. Kayıtlar eski ama Andrew Ng’in makine öğrenmesi dersi gibi klasiklerin kaynağı burası.",
-    "en": "A free archive of Stanford engineering lectures. The recordings are dated, but this is the source of classics like Andrew Ng’s machine learning course.",
+    "tr": "Stanford mühendislik derslerinin ücretsiz arşivi. Coursera’daki yeni sürümlerinden farkı özgün sınıf kayıtları olması: kayıtlar eski ama Andrew Ng’in makine öğrenmesi dersi gibi klasiklerin kaynağı burası.",
+    "en": "A free archive of Stanford engineering lectures. Unlike their newer Coursera versions these are the original classroom recordings — dated, but the source of classics like Andrew Ng’s machine learning course.",
     "src": "kedi",
     "added": 1778513024
   },
@@ -1085,8 +1085,8 @@
       "türkçe",
       "akademik"
     ],
-    "tr": "Matematik ve temel konularda hızlı test üretip sonuçları toplayan araç; reklamsız ve hesapsız çalışıyor. Öğretmenler için hazırlık yükünü belirgin azaltıyor.",
-    "en": "Generates quick quizzes in maths and basic subjects and collects results, ad-free and account-free. It cuts teachers’ preparation load noticeably.",
+    "tr": "Matematik ve temel konularda hızlı test üretip sonuçları toplayan araç. Kahoot gibi araçlardan farkı reklamsız ve hesapsız çalışması; öğretmenlerin hazırlık yükünü belirgin azaltıyor.",
+    "en": "Generates quick quizzes in maths and basic subjects and collects results. Unlike tools such as Kahoot it is ad-free and account-free, cutting teachers’ preparation load noticeably.",
     "src": "kedi",
     "added": 1751464854
   },
@@ -1146,8 +1146,8 @@
       "interaktif",
       "3b"
     ],
-    "tr": "Unity’nin resmî eğitimleri; motorun sürümüyle birlikte güncelleniyor. Üçüncü taraf kurslarda en sık karşılaşılan sorun olan sürüm uyumsuzluğu burada yok.",
-    "en": "Unity’s official training, updated in step with the engine. The version drift that plagues third-party courses does not occur here.",
+    "tr": "Unity’nin resmî eğitimleri; motorun sürümüyle birlikte güncelleniyor. Üçüncü taraf kurslardan farkı onların en sık sorunu olan sürüm uyumsuzluğunun burada olmaması.",
+    "en": "Unity’s official training, updated in step with the engine. Unlike third-party courses, it avoids their most common problem: version drift.",
     "src": "kedi",
     "added": 1775420722
   },
@@ -1159,8 +1159,8 @@
       "türkçe",
       "akademik"
     ],
-    "tr": "Türkçe bilgisayar mühendisliği ders notları ve terim açıklamaları arşivi. Veri yapıları ve algoritma konularında yerel kaynak kıtlığını kısmen kapatıyor.",
-    "en": "An archive of Turkish computer engineering lecture notes and term explanations, partly filling the local shortage on data structures and algorithms.",
+    "tr": "Türkçe bilgisayar mühendisliği ders notları ve terim açıklamaları arşivi. İngilizce kaynaklardan farkı Türkçe olması: veri yapıları ve algoritma konularında yerel kaynak kıtlığını kısmen kapatıyor.",
+    "en": "An archive of Turkish computer engineering lecture notes and term explanations. Unlike English resources it is in Turkish, partly filling the local shortage on data structures and algorithms.",
     "src": "kedi",
     "added": 1756374919
   }

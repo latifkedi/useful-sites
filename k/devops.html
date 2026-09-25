@@ -74,12 +74,12 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://aws.amazon.com/" rel="noopener noreferrer nofollow">Amazon Web Services</a></h2><span class="host">aws.amazon.com</span>
-<p class="d">Servis yelpazesi en geniş bulut. Genişlik avantaj ama maliyet takibi ayrı bir uzmanlık alanı; veri çıkış (egress) ücretleri özellikle sürpriz yapıyor.</p>
+<p class="d">Servis yelpazesi en geniş bulut. Azure ve Google Cloud’a kıyasla bu genişlik avantaj; ama maliyet takibi ayrı bir uzmanlık alanı, veri çıkış (egress) ücretleri özellikle sürpriz yapıyor.</p>
 <p class="t">Ücretli, Sunucu</p>
 </article>
 <article>
 <h2><a href="https://www.ansible.com" rel="noopener noreferrer nofollow">Ansible</a></h2><span class="host">ansible.com</span>
-<p class="d">Ajansız yapılandırma yönetimi ve otomasyon; sunucuları YAML playbook'larla kurar.</p>
+<p class="d">Yapılandırma yönetimi ve otomasyon; sunucuları YAML playbook’larla kuruyor. Puppet ve Chef’ten farkı hedef makineye ajan kurmadan, SSH üzerinden çalışması.</p>
 <p class="t">DevOps, Otomasyon, Açık Kaynak</p>
 </article>
 <article>
@@ -94,12 +94,12 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://argoproj.github.io" rel="noopener noreferrer nofollow">Argo</a></h2><span class="host">argoproj.github.io</span>
-<p class="d">Kubernetes'e özgü iş akışları ve GitOps sürekli dağıtım araçları takımı (Argo CD, Workflows).</p>
+<p class="d">Kubernetes’e özgü iş akışları ve GitOps sürekli dağıtım araçları takımı (Argo CD, Workflows). Jenkins gibi CI sunucularından farkı kümenin içinde çalışması ve Git’i tek doğru kaynak sayması: küme durumu depoyla sürekli eşitleniyor.</p>
 <p class="t">DevOps, Otomasyon, Açık Kaynak</p>
 </article>
 <article>
 <h2><a href="https://avenacloud.com/" rel="noopener noreferrer nofollow">AvenaCloud</a></h2><span class="host">avenacloud.com</span>
-<p class="d">VPS ve fiziksel sunucu sağlayıcı; küçük ölçekli projeler için bütçe odaklı bir seçenek.</p>
+<p class="d">VPS ve fiziksel sunucu sağlayıcı. Büyük bulutlara kıyasla bütçe odaklı; yönetilen servis yelpazesi dar, küçük ölçekli projeler için.</p>
 <p class="t">Ücretli, Sunucu</p>
 </article>
 <article>
@@ -154,12 +154,12 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://docs.celeryq.dev/en/stable/" rel="noopener noreferrer nofollow">Celery</a></h2><span class="host">docs.celeryq.dev</span>
-<p class="d">Python’da arka plan görevlerinin standardı; Redis ya da RabbitMQ’yu aracı olarak kullanıyor. Zamanlanmış görevler (beat) ve yeniden deneme mantığı da içinde.</p>
+<p class="d">Python’da arka plan görevlerinin standardı; Redis ya da RabbitMQ’yu aracı olarak kullanıyor. RQ gibi daha basit kuyruklara kıyasla zamanlanmış görevler (beat), yeniden deneme ve iş akışı ilkelleriyle kapsamlı; karşılığında yapılandırması ağır.</p>
 <p class="t">Açık Kaynak, Python, Otomasyon</p>
 </article>
 <article>
 <h2><a href="https://github.com/chaos-mesh/chaos-mesh" rel="noopener noreferrer nofollow">Chaos Mesh</a></h2><span class="host">github.com</span>
-<p class="d">Kubernetes ile bütünleşik, bulut-doğal kaos mühendisliği (arıza enjeksiyonu) platformu.</p>
+<p class="d">Kubernetes ile bütünleşik, bulut-doğal kaos mühendisliği (arıza enjeksiyonu) platformu. Yalnız örnek sonlandıran Chaos Monkey’den farkı ağ gecikmesi, disk hatası ve saat kayması gibi arızaları Kubernetes kaynağı olarak tanımlayabilmen.</p>
 <p class="t">DevOps, Docker, Açık Kaynak, GitHub</p>
 </article>
 <article>
@@ -189,7 +189,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://github.com/HQarroum/docker-android" rel="noopener noreferrer nofollow">Docker Android</a></h2><span class="host">github.com</span>
-<p class="d">Kapsayıcı içinde Android emülatörü çalıştırıyor; VNC ile ekranına bakabiliyorsun. CI hattında cihaz çiftliği kurmadan otomatik test çalıştırmak için.</p>
+<p class="d">Kapsayıcı içinde Android emülatörü çalıştırıyor; VNC ile ekranına bakabiliyorsun. Bulut cihaz çiftliklerine kıyasla ücretsiz ve kendi CI hattında çalışıyor: otomatik testler için cihaz kurmadan emülatör.</p>
 <p class="t">Açık Kaynak, GitHub, Docker, İnteraktif</p>
 </article>
 <article>
@@ -199,7 +199,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://earthly.dev" rel="noopener noreferrer nofollow">Earthly</a></h2><span class="host">earthly.dev</span>
-<p class="d">Yerelde ve CI'de aynı sonucu veren, tekrarlanabilir yapı (build) aracı.</p>
+<p class="d">Dockerfile ile Makefile’ı birleştiren sözdizimiyle, yerelde ve CI’de aynı sonucu veren derleme aracı. Düz Makefile’dan farkı her adımın kapsayıcıda yalıtılması; proje artık aktif geliştirilmiyor, yeni kurulumlarda bunu hesaba kat.</p>
 <p class="t">DevOps, Otomasyon, Açık Kaynak</p>
 </article>
 <article>
@@ -219,27 +219,27 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://www.guzel.net.tr/" rel="noopener noreferrer nofollow">Güzel Hosting</a></h2><span class="host">guzel.net.tr</span>
-<p class="d">Türkiye merkezli barındırma ve alan adı; .tr uzantısı, yerel ödeme ve Türkçe destek sunuyor. Sunucunun Türkiye’de olması gereken projeler için pratik.</p>
+<p class="d">Türkiye merkezli barındırma ve alan adı; .tr uzantısı, yerel ödeme ve Türkçe destek sunuyor. Yurt dışı sağlayıcılardan farkı sunucunun Türkiye’de olması — verinin yurt içinde tutulması gereken projeler için pratik.</p>
 <p class="t">Ücretli, Türkçe, Sunucu</p>
 </article>
 <article>
 <h2><a href="https://goharbor.io" rel="noopener noreferrer nofollow">Harbor</a></h2><span class="host">goharbor.io</span>
-<p class="d">Güvenlik taraması ve erişim denetimiyle özel konteyner imaj deposu (registry).</p>
+<p class="d">Güvenlik taraması ve erişim denetimiyle özel konteyner imaj deposu (registry); CNCF mezun projesi. Docker Hub’dan farkı kendi sunucunda çalışması ve imajları yayından önce zafiyete karşı taraması.</p>
 <p class="t">DevOps, Kendi Sunucunda, Açık Kaynak</p>
 </article>
 <article>
 <h2><a href="https://helm.sh" rel="noopener noreferrer nofollow">Helm</a></h2><span class="host">helm.sh</span>
-<p class="d">Kubernetes uygulamalarını paketleyip dağıtan paket yöneticisi (&quot;chart&quot;lar).</p>
+<p class="d">Kubernetes uygulamalarını paketleyip dağıtan paket yöneticisi (“chart”lar). Düz YAML manifestlerinden farkı şablonlama, değer dosyalarıyla ortam farklarını yönetme ve sürüm geri alma.</p>
 <p class="t">DevOps, Açık Kaynak</p>
 </article>
 <article>
 <h2><a href="https://www.hetzner.com/" rel="noopener noreferrer nofollow">Hetzner</a></h2><span class="host">hetzner.com</span>
-<p class="d">Almanya ve Finlandiya’da fiziksel sunucu ve VPS; aynı çekirdek/RAM için büyük bulutların birkaç katı ucuz. Yönetilen servis yok, işletim tamamen sana kalıyor.</p>
+<p class="d">Almanya ve Finlandiya’da fiziksel sunucu ve VPS. Büyük bulutlara kıyasla aynı çekirdek ve RAM birkaç kat ucuz; yönetilen servis yok, işletim tamamen sana kalıyor.</p>
 <p class="t">Ücretli, Sunucu</p>
 </article>
 <article>
 <h2><a href="https://jitpack.io" rel="noopener noreferrer nofollow">JitPack</a></h2><span class="host">jitpack.io</span>
-<p class="d">Jar yayımlamayan GitHub depolarını doğrudan bağımlılık olarak kullanılabilir yapan servis.</p>
+<p class="d">Jar yayımlamayan GitHub depolarını doğrudan bağımlılık olarak kullanılabilir yapan servis. Maven Central’a yayımlamaktan farkı hiçbir kayıt adımı gerektirmemesi: etiketi derleyip paket olarak sunuyor.</p>
 <p class="t">Git, Ücretsiz</p>
 </article>
 <article>
@@ -249,17 +249,17 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://k9scli.io" rel="noopener noreferrer nofollow">K9s</a></h2><span class="host">k9scli.io</span>
-<p class="d">Kubernetes kümelerini uçbirimden yöneten, hızlı ve etkileşimli TUI.</p>
+<p class="d">Kubernetes kümelerini uçbirimden yöneten, hızlı ve etkileşimli TUI. Tek tek kubectl komutu yazmak yerine kaynaklar arasında klavyeyle gezip günlüklere ve kabuğa anında geçiyorsun.</p>
 <p class="t">DevOps, CLI, Açık Kaynak</p>
 </article>
 <article>
 <h2><a href="https://kestra.io/" rel="noopener noreferrer nofollow">Kestra</a></h2><span class="host">kestra.io</span>
-<p class="d">Akışlar YAML’de bildirimsel olarak tanımlanıyor; dil bağımsız olduğu için Python olmayan ekiplerde de çalışıyor. Sürüm kontrolüyle iyi geçiniyor.</p>
+<p class="d">İş akışı düzenleyici; akışlar YAML’de bildirimsel olarak tanımlanıyor. Airflow’dan farkı Python yerine YAML kullanması: dil bağımsız olduğu için Python olmayan ekiplerde de çalışıyor ve sürüm kontrolüyle iyi geçiniyor.</p>
 <p class="t">Açık Kaynak, Otomasyon, DevOps</p>
 </article>
 <article>
 <h2><a href="https://kubernetes.io" rel="noopener noreferrer nofollow">Kubernetes</a></h2><span class="host">kubernetes.io</span>
-<p class="d">Konteynerleri ölçekte dağıtan, yöneten ve iyileştiren açık kaynak orkestrasyon sisteminin resmî sitesi.</p>
+<p class="d">Konteynerleri ölçekte dağıtan, yöneten ve iyileştiren açık kaynak orkestrasyon sisteminin resmî sitesi. Docker Compose’dan farkı birden çok makinede ölçekleme ve kendi kendini onarma; karşılığında öğrenme ve işletme maliyeti yüksek.</p>
 <p class="t">DevOps, Açık Kaynak, Dokümantasyon</p>
 </article>
 <article>
@@ -269,7 +269,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://docs.litespeedtech.com/" rel="noopener noreferrer nofollow">LiteSpeed Dokümantasyonu</a></h2><span class="host">docs.litespeedtech.com</span>
-<p class="d">Yapılandırma referansı; LSCache kurallarının nasıl yazılacağı burada. Önbellekleme ayarları performansın büyük kısmını belirliyor.</p>
+<p class="d">LiteSpeed web sunucusunun yapılandırma referansı; LSCache kurallarının nasıl yazılacağı burada. Apache’den farkı olay tabanlı olup .htaccess’i yine de okuması; performansın büyük kısmını önbellekleme ayarları belirliyor.</p>
 <p class="t">Dokümantasyon, Sunucu, Veritabanı</p>
 </article>
 <article>
@@ -279,17 +279,17 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://n8n.io/" rel="noopener noreferrer nofollow">n8n</a></h2><span class="host">n8n.io</span>
-<p class="d">Görsel düğüm editörü; kendi sunucunda çalıştırdığında çalıştırma sayısı sınırsız. Düğüm içine JavaScript yazabiliyorsun, yani no-code duvarına toslamıyorsun.</p>
+<p class="d">Görsel düğüm editörlü iş akışı otomasyonu. Zapier’den farkı kendi sunucunda çalıştırdığında çalıştırma sayısının sınırsız olması ve düğüm içine JavaScript yazabilmen: no-code duvarına toslamıyorsun.</p>
 <p class="t">Açık Kaynak, Kendi Sunucunda, Otomasyon, Docker</p>
 </article>
 <article>
 <h2><a href="https://docs.n8n.io/" rel="noopener noreferrer nofollow">n8n Dokümantasyonu</a></h2><span class="host">docs.n8n.io</span>
-<p class="d">Düğüm referansı, kendi sunucuna kurulum ve kimlik bilgisi yönetimi. Kuyruk kipiyle ölçekleme bölümü üretimde çalıştıracaklar için önemli.</p>
+<p class="d">Düğüm referansı, kendi sunucuna kurulum ve kimlik bilgisi yönetimi. Topluluk öğreticilerinden farkı üretim konularını da kapsaması: kuyruk kipiyle ölçekleme bölümü, üretimde çalıştıracaklar için önemli.</p>
 <p class="t">Dokümantasyon, Otomasyon</p>
 </article>
 <article>
 <h2><a href="https://github.com/m1k1o/neko" rel="noopener noreferrer nofollow">Neko</a></h2><span class="host">github.com</span>
-<p class="d">Kapsayıcı içinde tarayıcı çalıştırıp WebRTC ile paylaşıyor; birden çok kişi aynı oturumu kontrol edebiliyor. Birlikte izleme ve izole gezinme için kullanılıyor.</p>
+<p class="d">Kapsayıcı içinde tarayıcı çalıştırıp WebRTC ile paylaşıyor; birden çok kişi aynı oturumu kontrol edebiliyor. Uzak masaüstü araçlarından farkı yalnız tarayıcıyı paylaşması: birlikte izleme ve izole gezinme için.</p>
 <p class="t">Açık Kaynak, GitHub, Docker, Ağ</p>
 </article>
 <article>
@@ -304,27 +304,27 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://opentofu.org" rel="noopener noreferrer nofollow">OpenTofu</a></h2><span class="host">opentofu.org</span>
-<p class="d">Terraform'un topluluk güdümlü açık kaynak çatalı; aynı yapılandırmayı çalıştırır.</p>
+<p class="d">Terraform’un topluluk güdümlü açık kaynak çatalı; aynı yapılandırmayı çalıştırıyor. Terraform’dan farkı Linux Vakfı altında açık (MPL) lisansta kalması ve durum dosyası şifreleme gibi kendi özellikleri eklemesi.</p>
 <p class="t">DevOps, Açık Kaynak, Otomasyon</p>
 </article>
 <article>
 <h2><a href="https://www.pantsbuild.org/" rel="noopener noreferrer nofollow">Pants</a></h2><span class="host">pantsbuild.org</span>
-<p class="d">Çok dilli, büyük tek-depo (monorepo) projeleri için ölçeklenen derleme sistemi (Twitter kökenli).</p>
+<p class="d">Çok dilli, büyük tek-depo (monorepo) projeleri için ölçeklenen derleme sistemi (Twitter kökenli). Bazel’e kıyasla Python ekosistemine daha dost ve bağımlılıkları kaynaktan kendisi çıkardığı için yapılandırması daha hafif.</p>
 <p class="t">Açık Kaynak, Otomasyon</p>
 </article>
 <article>
 <h2><a href="https://pipedream.com/" rel="noopener noreferrer nofollow">Pipedream</a></h2><span class="host">pipedream.com</span>
-<p class="d">Her adım Node.js ya da Python kodu olabiliyor ve npm/PyPI paketi çekebiliyor. Görsel otomasyonla gerçek kod arasındaki boşluğu kapatan seçenek.</p>
+<p class="d">Her adımı Node.js ya da Python kodu olabilen, npm/PyPI paketi çekebilen otomasyon platformu. Zapier gibi görsel otomasyonlardan farkı gerçek kodla aradaki boşluğu kapatması.</p>
 <p class="t">Ücretli, Freemium, Otomasyon, Sistem Tasarımı</p>
 </article>
 <article>
 <h2><a href="https://www.portainer.io" rel="noopener noreferrer nofollow">Portainer</a></h2><span class="host">portainer.io</span>
-<p class="d">Docker ve Kubernetes ortamlarını görsel arayüzle yöneten self-hosted araç.</p>
+<p class="d">Docker ve Kubernetes ortamlarını görsel arayüzle yöneten self-hosted araç. Komut satırı yerine kapsayıcıları, yığınları ve günlükleri panelden yönetiyorsun; birden çok ortamı tek yerden izlemek için.</p>
 <p class="t">DevOps, Kendi Sunucunda, Açık Kaynak</p>
 </article>
 <article>
 <h2><a href="https://www.microsoft.com/power-platform/products/power-automate" rel="noopener noreferrer nofollow">Power Automate</a></h2><span class="host">microsoft.com</span>
-<p class="d">SharePoint, Teams ve Dataverse bağlayıcıları yerleşik. Kurum zaten Microsoft 365’teyse lisans çoğu zaman ödenmiş oluyor — asıl tercih sebebi bu.</p>
+<p class="d">SharePoint, Teams ve Dataverse bağlayıcıları yerleşik otomasyon aracı. Zapier’e kıyasla asıl tercih sebebi lisans: kurum zaten Microsoft 365’teyse çoğu zaman ödenmiş oluyor.</p>
 <p class="t">Ücretli, Otomasyon</p>
 </article>
 <article>
@@ -339,17 +339,17 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://prometheus.io" rel="noopener noreferrer nofollow">Prometheus</a></h2><span class="host">prometheus.io</span>
-<p class="d">Metrik toplama ve uyarı için açık kaynak izleme sistemi; zaman serisi veritabanı içerir.</p>
+<p class="d">Metrik toplama ve uyarı için açık kaynak izleme sistemi; zaman serisi veritabanı içeriyor. Push tabanlı sistemlerin aksine metrikleri hedeflerden çekiyor (pull) ve PromQL ile sorgulatıyor.</p>
 <p class="t">DevOps, Gözlemlenebilirlik, Açık Kaynak</p>
 </article>
 <article>
 <h2><a href="https://www.rabbitmq.com/tutorials" rel="noopener noreferrer nofollow">RabbitMQ Öğreticileri</a></h2><span class="host">rabbitmq.com</span>
-<p class="d">Altı adımda mesaj kuyruğu desenlerini öğreten resmî seri: iş kuyruğu, yayın-abone, yönlendirme, RPC. Kafka olay akışına, bu görev dağıtımına odaklı.</p>
+<p class="d">Altı adımda mesaj kuyruğu desenlerini öğreten resmî seri: iş kuyruğu, yayın-abone, yönlendirme, RPC. Kafka’dan farkı olay akışına değil görev dağıtımına odaklanması.</p>
 <p class="t">Açık Kaynak, Otomasyon</p>
 </article>
 <article>
 <h2><a href="https://redis.io/docs/latest/" rel="noopener noreferrer nofollow">Redis Dokümantasyonu</a></h2><span class="host">redis.io</span>
-<p class="d">Liste, küme, sıralı küme ve akış gibi veri yapılarının referansı. Redis’i basit bir anahtar-değer deposu sanmak, elindeki aracın çoğunu kullanmamak demek.</p>
+<p class="d">Liste, küme, sıralı küme ve akış gibi veri yapılarının referansı. Memcached’den farkı bu veri yapıları ve kalıcılık: Redis’i basit bir anahtar-değer deposu sanmak, aracın çoğunu kullanmamak demek.</p>
 <p class="t">Dokümantasyon, Veritabanı</p>
 </article>
 <article>
@@ -369,17 +369,17 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://temporal.io/" rel="noopener noreferrer nofollow">Temporal</a></h2><span class="host">temporal.io</span>
-<p class="d">İş akışı durumunu olay geçmişi olarak kaydediyor; süreç çökerse aynı noktadan devam ediyor. Günlerce süren ve yeniden başlatılamayan işlemler için tasarlanmış.</p>
+<p class="d">İş akışı durumunu olay geçmişi olarak kaydediyor; süreç çökerse aynı noktadan devam ediyor. Celery gibi görev kuyruklarından farkı durumun kalıcı olması: günlerce süren ve baştan başlatılamayan işlemler için tasarlanmış.</p>
 <p class="t">Açık Kaynak, Otomasyon</p>
 </article>
 <article>
 <h2><a href="https://www.terraform.io" rel="noopener noreferrer nofollow">Terraform</a></h2><span class="host">terraform.io</span>
-<p class="d">Altyapıyı kod olarak tanımlayıp sağlayan HashiCorp aracı; bulut kaynaklarını bildirimsel yönetir.</p>
+<p class="d">Altyapıyı kod olarak tanımlayıp sağlayan HashiCorp aracı; bulut kaynaklarını bildirimsel yönetiyor. CloudFormation’dan farkı tek bir buluta bağlı olmaması; 2023’ten beri BSL lisanslı, açık lisanslı çatalı OpenTofu.</p>
 <p class="t">DevOps, Otomasyon</p>
 </article>
 <article>
 <h2><a href="https://vercel.com/" rel="noopener noreferrer nofollow">Vercel</a></h2><span class="host">vercel.com</span>
-<p class="d">Ön yüz odaklı dağıtım; her PR için önizleme ortamı açması sektörde standart hâline geldi. Next.js’in arkasındaki şirket, dolayısıyla o çatıda en iyi entegrasyon burada.</p>
+<p class="d">Ön yüz odaklı dağıtım; her PR için önizleme ortamı açması sektörde standart hâline geldi. Netlify’a kıyasla farkı Next.js’in arkasındaki şirket olması: o çatıyla en sıkı entegrasyon burada.</p>
 <p class="t">Ücretli, Freemium, Sunucu, Gömülü</p>
 </article>
 <article>
@@ -389,7 +389,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://zapier.com/" rel="noopener noreferrer nofollow">Zapier</a></h2><span class="host">zapier.com</span>
-<p class="d">En geniş entegrasyon kataloğu — bağlanmak istediğin niş SaaS büyük ihtimalle burada var. Fiyatlandırma görev başına, yani hacim arttıkça hızla pahalılaşıyor.</p>
+<p class="d">En geniş entegrasyon kataloğuna sahip otomasyon aracı — bağlanmak istediğin niş SaaS büyük ihtimalle burada. n8n’e kıyasla bu genişlik avantaj; fiyatlandırma görev başına olduğu için hacim arttıkça hızla pahalılaşıyor.</p>
 <p class="t">Ücretli, Freemium, Otomasyon</p>
 </article>
 </main>

@@ -11,14 +11,14 @@
   <link href="https://www.ansible.com"/>
   <id>https://www.ansible.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Ajansız yapılandırma yönetimi ve otomasyon; sunucuları YAML playbook'larla kurar.</summary>
+  <summary>Yapılandırma yönetimi ve otomasyon; sunucuları YAML playbook’larla kuruyor. Puppet ve Chef’ten farkı hedef makineye ajan kurmadan, SSH üzerinden çalışması.</summary>
 </entry>
 <entry>
   <title>Argo</title>
   <link href="https://argoproj.github.io"/>
   <id>https://argoproj.github.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Kubernetes'e özgü iş akışları ve GitOps sürekli dağıtım araçları takımı (Argo CD, Workflows).</summary>
+  <summary>Kubernetes’e özgü iş akışları ve GitOps sürekli dağıtım araçları takımı (Argo CD, Workflows). Jenkins gibi CI sunucularından farkı kümenin içinde çalışması ve Git’i tek doğru kaynak sayması: küme durumu depoyla sürekli eşitleniyor.</summary>
 </entry>
 <entry>
   <title>Awesome Actions</title>
@@ -95,7 +95,7 @@
   <link href="https://github.com/chaos-mesh/chaos-mesh"/>
   <id>https://github.com/chaos-mesh/chaos-mesh</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Kubernetes ile bütünleşik, bulut-doğal kaos mühendisliği (arıza enjeksiyonu) platformu.</summary>
+  <summary>Kubernetes ile bütünleşik, bulut-doğal kaos mühendisliği (arıza enjeksiyonu) platformu. Yalnız örnek sonlandıran Chaos Monkey’den farkı ağ gecikmesi, disk hatası ve saat kayması gibi arızaları Kubernetes kaynağı olarak tanımlayabilmen.</summary>
 </entry>
 <entry>
   <title>Cloudflare</title>
@@ -109,77 +109,77 @@
   <link href="https://earthly.dev"/>
   <id>https://earthly.dev</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Yerelde ve CI'de aynı sonucu veren, tekrarlanabilir yapı (build) aracı.</summary>
+  <summary>Dockerfile ile Makefile’ı birleştiren sözdizimiyle, yerelde ve CI’de aynı sonucu veren derleme aracı. Düz Makefile’dan farkı her adımın kapsayıcıda yalıtılması; proje artık aktif geliştirilmiyor, yeni kurulumlarda bunu hesaba kat.</summary>
 </entry>
 <entry>
   <title>Harbor</title>
   <link href="https://goharbor.io"/>
   <id>https://goharbor.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Güvenlik taraması ve erişim denetimiyle özel konteyner imaj deposu (registry).</summary>
+  <summary>Güvenlik taraması ve erişim denetimiyle özel konteyner imaj deposu (registry); CNCF mezun projesi. Docker Hub’dan farkı kendi sunucunda çalışması ve imajları yayından önce zafiyete karşı taraması.</summary>
 </entry>
 <entry>
   <title>Helm</title>
   <link href="https://helm.sh"/>
   <id>https://helm.sh</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Kubernetes uygulamalarını paketleyip dağıtan paket yöneticisi (&quot;chart&quot;lar).</summary>
+  <summary>Kubernetes uygulamalarını paketleyip dağıtan paket yöneticisi (“chart”lar). Düz YAML manifestlerinden farkı şablonlama, değer dosyalarıyla ortam farklarını yönetme ve sürüm geri alma.</summary>
 </entry>
 <entry>
   <title>JitPack</title>
   <link href="https://jitpack.io"/>
   <id>https://jitpack.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Jar yayımlamayan GitHub depolarını doğrudan bağımlılık olarak kullanılabilir yapan servis.</summary>
+  <summary>Jar yayımlamayan GitHub depolarını doğrudan bağımlılık olarak kullanılabilir yapan servis. Maven Central’a yayımlamaktan farkı hiçbir kayıt adımı gerektirmemesi: etiketi derleyip paket olarak sunuyor.</summary>
 </entry>
 <entry>
   <title>K9s</title>
   <link href="https://k9scli.io"/>
   <id>https://k9scli.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Kubernetes kümelerini uçbirimden yöneten, hızlı ve etkileşimli TUI.</summary>
+  <summary>Kubernetes kümelerini uçbirimden yöneten, hızlı ve etkileşimli TUI. Tek tek kubectl komutu yazmak yerine kaynaklar arasında klavyeyle gezip günlüklere ve kabuğa anında geçiyorsun.</summary>
 </entry>
 <entry>
   <title>Kubernetes</title>
   <link href="https://kubernetes.io"/>
   <id>https://kubernetes.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Konteynerleri ölçekte dağıtan, yöneten ve iyileştiren açık kaynak orkestrasyon sisteminin resmî sitesi.</summary>
+  <summary>Konteynerleri ölçekte dağıtan, yöneten ve iyileştiren açık kaynak orkestrasyon sisteminin resmî sitesi. Docker Compose’dan farkı birden çok makinede ölçekleme ve kendi kendini onarma; karşılığında öğrenme ve işletme maliyeti yüksek.</summary>
 </entry>
 <entry>
   <title>OpenTofu</title>
   <link href="https://opentofu.org"/>
   <id>https://opentofu.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Terraform'un topluluk güdümlü açık kaynak çatalı; aynı yapılandırmayı çalıştırır.</summary>
+  <summary>Terraform’un topluluk güdümlü açık kaynak çatalı; aynı yapılandırmayı çalıştırıyor. Terraform’dan farkı Linux Vakfı altında açık (MPL) lisansta kalması ve durum dosyası şifreleme gibi kendi özellikleri eklemesi.</summary>
 </entry>
 <entry>
   <title>Pants</title>
   <link href="https://www.pantsbuild.org/"/>
   <id>https://www.pantsbuild.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Çok dilli, büyük tek-depo (monorepo) projeleri için ölçeklenen derleme sistemi (Twitter kökenli).</summary>
+  <summary>Çok dilli, büyük tek-depo (monorepo) projeleri için ölçeklenen derleme sistemi (Twitter kökenli). Bazel’e kıyasla Python ekosistemine daha dost ve bağımlılıkları kaynaktan kendisi çıkardığı için yapılandırması daha hafif.</summary>
 </entry>
 <entry>
   <title>Portainer</title>
   <link href="https://www.portainer.io"/>
   <id>https://www.portainer.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Docker ve Kubernetes ortamlarını görsel arayüzle yöneten self-hosted araç.</summary>
+  <summary>Docker ve Kubernetes ortamlarını görsel arayüzle yöneten self-hosted araç. Komut satırı yerine kapsayıcıları, yığınları ve günlükleri panelden yönetiyorsun; birden çok ortamı tek yerden izlemek için.</summary>
 </entry>
 <entry>
   <title>Prometheus</title>
   <link href="https://prometheus.io"/>
   <id>https://prometheus.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Metrik toplama ve uyarı için açık kaynak izleme sistemi; zaman serisi veritabanı içerir.</summary>
+  <summary>Metrik toplama ve uyarı için açık kaynak izleme sistemi; zaman serisi veritabanı içeriyor. Push tabanlı sistemlerin aksine metrikleri hedeflerden çekiyor (pull) ve PromQL ile sorgulatıyor.</summary>
 </entry>
 <entry>
   <title>Terraform</title>
   <link href="https://www.terraform.io"/>
   <id>https://www.terraform.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Altyapıyı kod olarak tanımlayıp sağlayan HashiCorp aracı; bulut kaynaklarını bildirimsel yönetir.</summary>
+  <summary>Altyapıyı kod olarak tanımlayıp sağlayan HashiCorp aracı; bulut kaynaklarını bildirimsel yönetiyor. CloudFormation’dan farkı tek bir buluta bağlı olmaması; 2023’ten beri BSL lisanslı, açık lisanslı çatalı OpenTofu.</summary>
 </entry>
 <entry>
   <title>CNCF Sertifikasyon</title>
@@ -249,14 +249,14 @@
   <link href="https://avenacloud.com/"/>
   <id>https://avenacloud.com/</id>
   <updated>2026-08-19T16:09:22Z</updated>
-  <summary>VPS ve fiziksel sunucu sağlayıcı; küçük ölçekli projeler için bütçe odaklı bir seçenek.</summary>
+  <summary>VPS ve fiziksel sunucu sağlayıcı. Büyük bulutlara kıyasla bütçe odaklı; yönetilen servis yelpazesi dar, küçük ölçekli projeler için.</summary>
 </entry>
 <entry>
   <title>Amazon Web Services</title>
   <link href="https://aws.amazon.com/"/>
   <id>https://aws.amazon.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Servis yelpazesi en geniş bulut. Genişlik avantaj ama maliyet takibi ayrı bir uzmanlık alanı; veri çıkış (egress) ücretleri özellikle sürpriz yapıyor.</summary>
+  <summary>Servis yelpazesi en geniş bulut. Azure ve Google Cloud’a kıyasla bu genişlik avantaj; ama maliyet takibi ayrı bir uzmanlık alanı, veri çıkış (egress) ücretleri özellikle sürpriz yapıyor.</summary>
 </entry>
 <entry>
   <title>Apache Airflow</title>
@@ -277,7 +277,7 @@
   <link href="https://kestra.io/"/>
   <id>https://kestra.io/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Akışlar YAML’de bildirimsel olarak tanımlanıyor; dil bağımsız olduğu için Python olmayan ekiplerde de çalışıyor. Sürüm kontrolüyle iyi geçiniyor.</summary>
+  <summary>İş akışı düzenleyici; akışlar YAML’de bildirimsel olarak tanımlanıyor. Airflow’dan farkı Python yerine YAML kullanması: dil bağımsız olduğu için Python olmayan ekiplerde de çalışıyor ve sürüm kontrolüyle iyi geçiniyor.</summary>
 </entry>
 <entry>
   <title>Make</title>
