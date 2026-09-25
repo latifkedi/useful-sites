@@ -42,9 +42,9 @@ jobs:
       # too; they were missing from this list, so they could drift unnoticed.
       - name: Committed output matches a fresh build
         run: |
-          if ! git diff --quiet -- links.js links.en.js index.html sitemap.xml robots.txt feed.xml k/ feed/ .github/ISSUE_TEMPLATE/new-link.yml; then
+          if ! git diff --quiet -- links.js links.en.js index.html sitemap.xml robots.txt feed.xml k/ feed/ README.md .github/ISSUE_TEMPLATE/new-link.yml; then
             echo "::error::A rebuild changed the committed output. Run 'python data/build.py' and commit the result."
-            git --no-pager diff --stat -- links.js links.en.js index.html sitemap.xml robots.txt feed.xml k/ feed/ .github/ISSUE_TEMPLATE/new-link.yml
+            git --no-pager diff --stat -- links.js links.en.js index.html sitemap.xml robots.txt feed.xml k/ feed/ README.md .github/ISSUE_TEMPLATE/new-link.yml
             exit 1
           fi
           echo "clean"

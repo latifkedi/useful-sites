@@ -6,7 +6,13 @@
 "use strict";
 
 var PER_PAGE = 20;
-var CHECKED  = "20.08.2026";
+/* Son kontrol tarihi elle yaziliydi ("20.08.2026") ve haftalik tarama calistikca
+   eskiyordu. Artik kayitlardaki en yeni dogrulama tarihinden turuyor. */
+var CHECKED  = (function(){
+  var m = "";
+  (window.LINKS || []).forEach(function(d){ if(d.ver && d.ver > m) m = d.ver });
+  return m ? m.slice(8, 10) + "." + m.slice(5, 7) + "." + m.slice(0, 4) : "";
+})();
 var REPO     = "https://github.com/latifkedi/useful-sites";
 /* Link directories share a fate: they rot. An archive link on every entry
    means a record does not lose all of its value when the site goes. */
@@ -15,7 +21,7 @@ var ARCHIVE  = "https://web.archive.org/web/2024/";
 var T = {
   tr:{
     title:"Kullanışlı Siteler",
-    sub:"Yazılım, yapay zeka, güvenlik ve donanım üzerine elle derlenmiş bir dizin. Her kayıtta bağlantının ne yaptığı ve komşularından nerede ayrıldığı yazılı.",
+    sub:"Yazılımdan ekonomiye, mimariden açık erişime on alanda elle derlenmiş bir dizin. Her kayıtta bağlantının ne yaptığı ve komşularından nerede ayrıldığı yazılı.",
     ph:"Ara — İsim, Açıklama, Etiket, Alan Adı",
     count:function(n,t){return n+" / "+t+" Bağlantı"},
     empty:"Eşleşen Bağlantı Yok",
@@ -56,8 +62,8 @@ var T = {
          '<a href="k/tesekkur.html">Katkıda bulunanlar</a> · '+
          'dizinin <a href="k/index.html">metin hâli</a> de var.',
     skip:"İçeriğe Atla",
-    lead:function(n,c){ return "Yazılım, yapay zeka, güvenlik ve bilim üzerine <b>"+n+
-      "</b> bağlantı, "+c+" başlık altında. Her kayıtta iki şey yazılı: ne işe yaradığı "+
+    lead:function(n,c,f){ return "Yazılımdan ekonomiye, mimariden açık erişime <b>"+n+
+      "</b> bağlantı; "+f+" alan, "+c+" başlık. Her kayıtta iki şey yazılı: ne işe yaradığı "+
       "ve benzerlerinden nerede ayrıldığı." },
     hStart:"Buradan Başla", hCats:"Başlıklar", hAll:"Tümünü tek listede gör →",
     tagMore:function(n){ return "+ " + n + " Etiket Daha" }, tagLess:"− Etiketleri Kısalt",
@@ -98,7 +104,7 @@ var T = {
   },
   en:{
     title:"Useful Sites",
-    sub:"A hand-curated directory covering software, AI, security and hardware. Every entry states what the thing does and where it parts ways with its neighbours.",
+    sub:"A hand-curated directory across ten areas, from software to economics and architecture to open access. Every entry states what the thing does and where it parts ways with its neighbours.",
     ph:"Search — name, description, tag, domain",
     count:function(n,t){return n+" / "+t+" Links"},
     empty:"No Matching Links",
@@ -139,9 +145,9 @@ var T = {
          '<a href="k/en/credits.html">Contributors</a> · '+
          'there is a <a href="k/en/index.html">plain-text edition</a> too.',
     skip:"Skip To Content",
-    lead:function(n,c){ return "<b>"+n+"</b> links on software, AI, security and science, "+
-      "under "+c+" headings. Every entry states two things: what it does and where it "+
-      "parts ways with its neighbours." },
+    lead:function(n,c,f){ return "<b>"+n+"</b> links across "+f+" areas and "+c+" headings, "+
+      "from software to economics and architecture to open access. Every entry states two "+
+      "things: what it does and where it parts ways with its neighbours." },
     hStart:"Start Here", hCats:"Headings", hAll:"See everything in one list →",
     tagMore:function(n){ return "+ " + n + " More Tags" }, tagLess:"− Fewer Tags",
     srcMore:function(n){ return "+ " + n + " More Sources" }, srcLess:"− Fewer Sources",
@@ -615,7 +621,7 @@ function homeHTML(L){
   }).join("");
 
   return '<div class="home">'+
-    '<p class="lead">'+L.lead(data.length, CATS.length)+'</p>'+
+    '<p class="lead">'+L.lead(data.length, CATS.length, GROUPS.length)+'</p>'+
     (strip.length
       ? '<p class="hsec">'+esc(L.hStart)+'</p><div class="hpicks">'+
         strip.map(function(d){

@@ -26,14 +26,16 @@ ROOT = os.path.dirname(D)
 sys.path.insert(0, D)
 import readlinks                          # noqa: E402
 from emit import SITE                     # noqa: E402
+from notes import GROUPS                  # noqa: E402
 
 W, H = 1200, 630
-BG = (252, 251, 249)
-FG = (25, 24, 23)
-DIM = (87, 84, 78)
-FAINT = (119, 116, 109)      # --faint, WCAG AA against the background
-ACCENT = (168, 69, 31)
-RULE = (228, 224, 216)
+# The site's monochrome ink-on-paper tokens (index.html :root).
+BG = (250, 249, 245)
+FG = (20, 19, 16)
+DIM = (99, 96, 90)
+FAINT = (110, 107, 99)       # --faint, WCAG AA against the background
+RULE = (227, 223, 214)
+MOTIF = (233, 229, 220)      # the background circles, barely there
 PAD = 84
 
 SANS = ['segoeui.ttf', 'DejaVuSans.ttf', 'Arial.ttf', 'arial.ttf',
@@ -53,8 +55,16 @@ def system_font(names, size):
     return ImageFont.load_default()
 
 
+def count(n):
+    f = n // 100 * 100
+    return '{:,}'.format(f).replace(',', '.') + ('+' if n > f else '')
+
+
 def main():
-    n = len(readlinks.read(ROOT))
+    rows = readlinks.read(ROOT)
+    n = len(rows)
+    cats = len({r['cat'] for r in rows})
+    fields = len(GROUPS)
     host = SITE.split('//', 1)[-1]
 
     title = ImageFont.truetype(os.path.join(ROOT, 'fonts', 'serif-600.woff2'), 76)
@@ -64,15 +74,19 @@ def main():
     img = Image.new('RGB', (W, H), BG)
     d = ImageDraw.Draw(img)
 
-    d.rectangle([0, 0, W, 7], fill=ACCENT)
+    # The same quiet concentric-circle motif the site draws behind its content.
+    cx, cy = W - 96, 96
+    for r in (70, 140, 215, 300, 395):
+        d.ellipse([cx - r, cy - r, cx + r, cy + r], outline=MOTIF, width=2)
+
     d.text((PAD, 150), 'Kullanışlı Siteler', font=title, fill=FG)
     d.text((PAD, 264), 'Her kayıtta bağlantının ne yaptığı ve', font=body, fill=DIM)
     d.text((PAD, 308), 'benzerlerinden nerede ayrıldığı yazılı.', font=body, fill=DIM)
     d.line([PAD, 404, W - PAD, 404], fill=RULE, width=1)
-    d.text((PAD, 432), '%d BAĞLANTI' % n, font=mono, fill=ACCENT)
-    d.text((PAD + 210, 432),
-           'YAZILIM · YAPAY ZEKA · GÜVENLİK · DONANIM · BİLİM',
-           font=mono, fill=FAINT)
+    lead = '%s BAĞLANTI' % count(n)
+    d.text((PAD, 432), lead, font=mono, fill=FG)
+    d.text((PAD + d.textlength(lead + '   ', font=mono), 432),
+           '%d ALAN · %d BAŞLIK' % (fields, cats), font=mono, fill=FAINT)
     d.text((PAD, 502), host, font=mono, fill=DIM)
 
     out = os.path.join(ROOT, 'og.png')

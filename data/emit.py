@@ -226,9 +226,9 @@ LANGS = {
         'name': 'Kullanışlı Siteler', 'links': 'bağlantı', 'cats': 'başlık',
         'app_link': '← Aranabilir sürüme dön',
         'feed_word': 'akış', 'feed_tip': 'Bu başlığın Atom akışı',
-        'hub_desc': ('Yazılım, yapay zeka, güvenlik ve bilim üzerine açıklamalı '
-                     'bağlantı dizini. Her kayıtta ne işe yaradığı ve '
-                     'benzerlerinden nerede ayrıldığı yazılı.'),
+        'hub_desc': ('Yazılımdan yapay zekaya, güvenlikten ekonomiye ve mimariye '
+                     'on alanda elle derlenmiş, açıklamalı bağlantı dizini. Her '
+                     'kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.'),
         'hub_foot': ('Bu sayfa dizinin metin hâli. Arama, etiket süzgeci ve '
                      'sıralama için aranabilir sürümü kullan.'),
         'foot': ('Bu sayfa dizinin {t} bölümünün metin hâli. Arama, etiket süzgeci '
@@ -240,9 +240,10 @@ LANGS = {
         'name': 'Useful Sites', 'links': 'links', 'cats': 'headings',
         'app_link': '← Back to the searchable version',
         'feed_word': 'feed', 'feed_tip': 'Atom feed for this heading',
-        'hub_desc': ('An annotated directory of links on software, AI, security '
-                     'and science. Every entry states what the resource does and '
-                     'where it parts ways with its neighbours.'),
+        'hub_desc': ('A hand-curated, annotated link directory across ten areas, '
+                     'from software and AI to security, economics and architecture. '
+                     'Every entry states what the resource does and where it parts '
+                     'ways with its neighbours.'),
         'hub_foot': ('The plain-text edition of the directory. For search, tag '
                      'filtering and sorting, use the searchable version.'),
         'foot': ('The plain-text edition of the {t} section. For search, tag '
@@ -566,8 +567,8 @@ def _feed(core, label, out_dir):
     parts = ['<?xml version="1.0" encoding="UTF-8"?>',
              '<feed xmlns="http://www.w3.org/2005/Atom">',
              '<title>Kullanışlı Siteler</title>',
-             '<subtitle>Yazılım, yapay zeka, güvenlik ve bilim üzerine '
-             'açıklamalı bağlantı dizini</subtitle>',
+             '<subtitle>On alanda elle derlenmiş, açıklamalı bağlantı '
+             'dizini</subtitle>',
              '<link href="%s/feed.xml" rel="self"/>' % SITE,
              '<link href="%s/"/>' % SITE,
              '<id>%s/</id>' % SITE,

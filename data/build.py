@@ -205,10 +205,44 @@ def _stamp():
         h = hashlib.sha1(io.open(os.path.join(D, '..', name), 'rb').read()).hexdigest()[:8]
         pat = re.compile(r'(["\'])' + re.escape(name) + r'(?:\?v=[0-9a-f]+)?\1')
         src = pat.sub(lambda m, n=name, d=h: m.group(1) + n + '?v=' + d + m.group(1), src)
+    src = _og_copy(src)
     io.open(ix, 'w', encoding='utf-8', newline='').write(src)
 
 
+def _count(n):
+    """1903 -> '1.900+': a round floor, so the line changes a few times a year
+    rather than on every intake, and never claims more than is there."""
+    f = n // 100 * 100
+    return '{:,}'.format(f).replace(',', '.') + ('+' if n > f else '')
+
+
+def _og_copy(src):
+    # The social preview line carried '1000+ bağlantı, 24 başlık' long after
+    # both numbers had moved. It is written from the data now.
+    line = ('%s bağlantı, %d alan, %d başlık. Her kayıtta ne işe yaradığı ve '
+            'benzerlerinden nerede ayrıldığı yazılı.'
+            % (_count(len(core)), len(GROUPS), len({r['cat'] for r in core})))
+    return re.sub(r'(<meta property="og:description" content=")[^"]*(">)',
+                  lambda m: m.group(1) + line + m.group(2), src, count=1)
+
+
+def _readme():
+    # The README's count said 1,080 for weeks after it had passed 1,700. The
+    # two numbers sit between markers now and are written from the data.
+    p = os.path.join(D, '..', 'README.md')
+    if not os.path.exists(p):
+        return
+    src = io.open(p, encoding='utf-8').read()
+    out = re.sub(r'(<!-- n -->)[^<]*(<!-- /n -->)',
+                 lambda m: m.group(1) + _count(len(core)).replace('.', ',') + m.group(2), src)
+    out = re.sub(r'(<!-- c -->)[^<]*(<!-- /c -->)',
+                 lambda m: m.group(1) + str(len({r['cat'] for r in core})) + m.group(2), out)
+    if out != src:
+        io.open(p, 'w', encoding='utf-8', newline='\n').write(out)
+
+
 _stamp()
+_readme()
 
 tc = collections.Counter(t for r in out for t in r['tags'])
 print('records        :', len(out))
