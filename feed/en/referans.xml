@@ -11,21 +11,21 @@
   <link href="https://www.markdownguide.org/"/>
   <id>https://www.markdownguide.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A comprehensive guide to Markdown, used for formatting READMEs and docs.</summary>
+  <summary>A comprehensive guide to Markdown, used for formatting READMEs and docs. Unlike one dialect’s documentation, it shows basic and extended syntax together with which apps support what.</summary>
 </entry>
 <entry>
   <title>Project Guidelines</title>
   <link href="https://github.com/wearehive/project-guidelines"/>
   <id>https://github.com/wearehive/project-guidelines</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A set of best practices for running a software project.</summary>
+  <summary>A set of best practices for running a software project. Unlike general advice pieces it gives concrete rules — git workflow, documentation, environments, dependencies, testing and API design.</summary>
 </entry>
 <entry>
   <title>tldr pages</title>
   <link href="https://tldr.sh"/>
   <id>https://tldr.sh</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Community-simplified, example-first man pages for command-line tools.</summary>
+  <summary>Community-simplified man pages for command-line tools. Unlike classic man pages, they open with the most common examples rather than a list of options.</summary>
 </entry>
 <entry>
   <title>Eylenburg Tech Website</title>
@@ -179,21 +179,21 @@
   <link href="https://github.com/airbnb/javascript"/>
   <id>https://github.com/airbnb/javascript</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The de facto JavaScript style standard, installable directly as an ESLint config, with every rule shown as good and bad example code.</summary>
+  <summary>The de facto JavaScript style standard, installable directly as an ESLint config, with every rule shown as good and bad example code. Unlike Standard it explains rules with their reasoning and lets you customise them.</summary>
 </entry>
 <entry>
   <title>cheat.sh</title>
   <link href="https://github.com/chubin/cheat.sh"/>
   <id>https://github.com/chubin/cheat.sh</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Pulls a cheat sheet from the terminal with `curl cheat.sh/command` — an answer without opening a browser or leaving your editor.</summary>
+  <summary>Pulls a cheat sheet from the terminal with `curl cheat.sh/command`. Unlike tldr it needs no install and answers programming-language questions too — without opening a browser or leaving your editor.</summary>
 </entry>
 <entry>
   <title>Devhints</title>
   <link href="https://devhints.io"/>
   <id>https://devhints.io</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An archive of one-page cheat sheets for hundreds of tools and languages, each genuinely pruned to fit a single screen.</summary>
+  <summary>An archive of one-page cheat sheets for hundreds of tools and languages. Unlike official docs, each is genuinely pruned to fit a single screen.</summary>
 </entry>
 <entry>
   <title>Google C# Üslup Kılavuzu</title>
@@ -207,35 +207,35 @@
   <link href="https://google.github.io/styleguide/cppguide.html"/>
   <id>https://google.github.io/styleguide/cppguide.html</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Google’s C++ rules. Some are contested — the ban on exceptions, for one — but every rule carries its reasoning, which makes it a good base for writing your own.</summary>
+  <summary>Google’s C++ rules; some are contested, the ban on exceptions for one. Unlike other style guides every rule carries its reasoning, which makes it a good base for writing your own.</summary>
 </entry>
 <entry>
   <title>Google Java Üslup Kılavuzu</title>
   <link href="https://google.github.io/styleguide/javaguide.html"/>
   <id>https://google.github.io/styleguide/javaguide.html</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Formatting and naming rules for Java — the google-java-format tool implements this document directly.</summary>
+  <summary>Formatting and naming rules for Java. Unlike Oracle’s old Java code conventions it is current and tool-enforced — google-java-format implements this document directly.</summary>
 </entry>
 <entry>
   <title>Google Python Üslup Kılavuzu</title>
   <link href="https://google.github.io/styleguide/pyguide.html"/>
   <id>https://google.github.io/styleguide/pyguide.html</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Google’s additions on top of PEP 8 — docstring format, import ordering, type-hint usage — aimed at consistency in large codebases.</summary>
+  <summary>A Python style guide. Unlike PEP 8 alone it adds Google’s rules on top — docstring format, import ordering, type-hint usage — aimed at consistency in large codebases.</summary>
 </entry>
 <entry>
   <title>Hata Nasıl Bildirilir</title>
   <link href="https://www.chiark.greenend.org.uk/~sgtatham/bugs.html"/>
   <id>https://www.chiark.greenend.org.uk/~sgtatham/bugs.html</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The classic text on writing an effective bug report, from PuTTY’s author — a short piece worth reading once by anyone contributing to open source.</summary>
+  <summary>The classic text on writing an effective bug report, from PuTTY’s author. Unlike project issue templates it explains why each detail is needed — a short piece worth reading once by anyone contributing to open source.</summary>
 </entry>
 <entry>
   <title>JavaScript Standard Style</title>
   <link href="https://standardjs.com"/>
   <id>https://standardjs.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A JavaScript formatter with no configuration file — it makes every decision for you to end the argument. The opposite pole from Airbnb’s flexibility.</summary>
+  <summary>A JavaScript formatter and linter with no configuration file — it makes every decision for you to end the argument. Unlike the Airbnb guide, it is closed to customisation.</summary>
 </entry>
 <entry>
   <title>Mastering Markdown</title>
@@ -249,41 +249,41 @@
   <link href="https://overapi.com"/>
   <id>https://overapi.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A directory gathering language and framework cheat sheets on one page — visually dense, but you find things fast.</summary>
+  <summary>A directory gathering language and framework cheat sheets on one page. Compared with Devhints it is visually denser, but you find a command fast, and each item links to the official docs.</summary>
 </entry>
 <entry>
   <title>Ruby Üslup Kılavuzu</title>
-  <link href="https://github.com/bbatsov/ruby-style-guide"/>
-  <id>https://github.com/bbatsov/ruby-style-guide</id>
+  <link href="https://github.com/rubocop/ruby-style-guide"/>
+  <id>https://github.com/rubocop/ruby-style-guide</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A community-written Ruby style guide that forms the basis of RuboCop’s default rule set.</summary>
+  <summary>A community-written Ruby style guide that forms the basis of RuboCop’s default rule set. Unlike a single company’s internal guide, it reflects community consensus.</summary>
 </entry>
 <entry>
-  <title>Rust Biçimlendirme Kuralları</title>
-  <link href="https://github.com/rust-dev-tools/fmt-rfcs"/>
-  <id>https://github.com/rust-dev-tools/fmt-rfcs</id>
+  <title>Rust Üslup Kılavuzu</title>
+  <link href="https://doc.rust-lang.org/stable/style-guide/"/>
+  <id>https://doc.rust-lang.org/stable/style-guide/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The repository where rustfmt’s formatting decisions are debated with their reasoning — where you learn why the tool behaves as it does.</summary>
+  <summary>Rust’s official style guide, defining rustfmt’s default behaviour. Unlike the rustfmt docs it states the decisions themselves and their reasoning — where you learn why the tool behaves as it does.</summary>
 </entry>
 <entry>
   <title>SourceMaking</title>
   <link href="https://sourcemaking.com/"/>
   <id>https://sourcemaking.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A reference covering design patterns, code smells and refactoring techniques with examples — useful as a second opinion alongside Refactoring Guru.</summary>
+  <summary>A reference covering design patterns, code smells and refactoring techniques with examples. Unlike Refactoring Guru it also covers antipatterns and UML — useful as a second opinion.</summary>
 </entry>
 <entry>
   <title>Uber Go Üslup Kılavuzu</title>
   <link href="https://github.com/uber-go/guide"/>
   <id>https://github.com/uber-go/guide</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Collects the traps and preferred patterns of writing production Go, picking up where the official Effective Go leaves off.</summary>
+  <summary>Collects the traps and preferred patterns of writing production Go. Unlike the official Effective Go, it picks up where that leaves off with rules drawn from real production experience.</summary>
 </entry>
 <entry>
   <title>BTK Terimler Sözlüğü</title>
   <link href="https://www.btkakademi.gov.tr/portal/public/terimlersozlugu"/>
   <id>https://www.btkakademi.gov.tr/portal/public/terimlersozlugu</id>
   <updated>2026-07-16T05:51:24Z</updated>
-  <summary>Official Turkish equivalents for computing terms — the reference for keeping terminology consistent in documents, talks and translation.</summary>
+  <summary>Official Turkish equivalents for computing terms. Unlike general dictionaries it is computing-specific and official — the reference for consistent terminology in documents, talks and translation.</summary>
 </entry>
 </feed>

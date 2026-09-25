@@ -72,8 +72,8 @@
       "freemium",
       "görsel-üretim"
     ],
-    "tr": "Şablon kütüphanesi ve marka kiti sayesinde tasarım bilgisi olmadan tutarlı çıktı alınıyor. Sınırı da bu: şablonların dışına çıkıldığında araç direniyor.",
-    "en": "A template library and brand kit produce consistent output without design skill. That is also the ceiling — the tool resists once you step outside the templates.",
+    "tr": "Şablon kütüphanesi ve marka kiti sayesinde tasarım bilgisi olmadan tutarlı çıktı alınıyor. Figma’dan farkı şablon öncelikli olması; sınırı da bu: şablonların dışına çıkıldığında araç direniyor.",
+    "en": "A template library and brand kit produce consistent output without design skill. Unlike Figma it is template-first; that is also the ceiling — the tool resists once you step outside the templates.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -124,8 +124,8 @@
       "ücretsiz",
       "görsel-üretim"
     ],
-    "tr": "Kayıt istemeden çalışıyor. Çıktı kalitesi güncel modellerin belirgin gerisinde; hızlı ve engelsiz denemeden başka bir iddiası yok.",
-    "en": "Works without signup. Output quality sits well behind current models; it claims nothing beyond fast, frictionless experimentation.",
+    "tr": "Kayıt istemeden çalışan görsel üreteci. Güncel modellere kıyasla çıktı kalitesi belirgin geride; hızlı ve engelsiz denemeden başka bir iddiası yok.",
+    "en": "An image generator that works without signup. Compared with current models its output quality is well behind; it claims nothing beyond fast, frictionless experimentation.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -138,8 +138,8 @@
       "3b",
       "görsel-üretim"
     ],
-    "tr": "Blender içinde doku ve HDRI üretiyor; kesintisiz (seamless) döşeme ve projeksiyonla doğrudan mesh üzerine boyama yapabiliyor. Dışarıda üretip içeri aktarma adımı kalkıyor.",
-    "en": "Generates textures and HDRIs inside Blender, with seamless tiling and projection painting straight onto a mesh — removing the generate-elsewhere-then-import step.",
+    "tr": "Blender içinde doku ve HDRI üretiyor; kesintisiz döşeme ve projeksiyonla doğrudan mesh üzerine boyama yapabiliyor. Dışarıda üretip içeri aktarmak yerine her şey Blender’ın içinde kalıyor.",
+    "en": "Generates textures and HDRIs inside Blender, with seamless tiling and projection painting straight onto a mesh. Instead of generating elsewhere and importing, everything stays inside Blender.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -179,8 +179,8 @@
       "cad",
       "referans"
     ],
-    "tr": "Gerçek mobilya markalarının kataloğu üzerinden tasarım yapıyorsun, yani çıkan sahnedeki her parçanın satın alınabilir bir karşılığı var.",
-    "en": "You design from catalogues of real furniture brands, so every item in the scene has a purchasable counterpart.",
+    "tr": "İç mekân tasarım aracı. Serbest 3B modelleme araçlarından farkı gerçek mobilya markalarının kataloğu üzerinden çalışması: sahnedeki her parçanın satın alınabilir bir karşılığı var.",
+    "en": "An interior design tool. Unlike free-form 3D modelling tools it works from catalogues of real furniture brands, so every item in the scene has a purchasable counterpart.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -192,8 +192,8 @@
       "freemium",
       "görsel-üretim"
     ],
-    "tr": "Görsel içinde okunaklı metin üretebilen ender modellerden. Afiş, logo ve ambalaj denemelerinde diğer difüzyon modellerinin bozduğu harfleri düzgün çıkarıyor.",
-    "en": "One of the few models that renders legible text inside an image, getting letters right on posters, logos and packaging where other diffusion models mangle them.",
+    "tr": "Görsel içinde okunaklı metin üretebilen ender modellerden. Diğer difüzyon modellerinden farkı afiş, logo ve ambalaj denemelerinde onların bozduğu harfleri düzgün çıkarması.",
+    "en": "One of the few models that renders legible text inside an image. Unlike other diffusion models, it gets letters right on posters, logos and packaging where they mangle them.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -218,8 +218,8 @@
       "self-hosted",
       "görsel-üretim"
     ],
-    "tr": "Sonsuz tuval üzerinde bölgesel üretim ve düzenleme; profesyonel iş akışı ve ekip kullanımı düşünülerek yapılmış. Ticari bir sürümü de var.",
-    "en": "Regional generation and editing on an infinite canvas, built with professional workflows and team use in mind. A commercial edition exists alongside.",
+    "tr": "Sonsuz tuval üzerinde bölgesel üretim ve düzenleme; profesyonel iş akışı ve ekip kullanımı düşünülerek yapılmış. ComfyUI’nin düğüm grafiğinden farkı tuval odaklı olması: ressam gibi çalışıyorsun; ticari sürümü de var.",
+    "en": "Regional generation and editing on an infinite canvas, built for professional workflows and team use. Unlike ComfyUI’s node graph it is canvas-first, so you work like a painter; a commercial edition exists too.",
     "src": "kedi"
   },
   {
@@ -230,8 +230,8 @@
       "freemium",
       "ses"
     ],
-    "tr": "Sanal mikrofon aygıtı olarak kurulup gürültüyü kaynakta kesiyor — Zoom, Teams, kayıt yazılımı fark etmeksizin hepsinde çalışıyor. Uygulama bazlı çözümlerin sınırı burada aşılıyor.",
-    "en": "Installs as a virtual microphone device and kills noise at the source, so it works across Zoom, Teams and any recorder alike — past the limit of per-app solutions.",
+    "tr": "Sanal mikrofon aygıtı olarak kurulup gürültüyü kaynakta kesiyor. Uygulama bazlı gürültü engellemenin aksine Zoom, Teams ya da kayıt yazılımı fark etmeksizin hepsinde aynı anda çalışıyor.",
+    "en": "Installs as a virtual microphone device and kills noise at the source. Unlike per-app noise suppression, it works across Zoom, Teams and any recorder at once.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -258,8 +258,8 @@
       "görsel-üretim",
       "interaktif"
     ],
-    "tr": "Kendi görsellerinle stil modeli eğitip tekrar kullanabiliyorsun; oyun varlığı üretiminde tutarlı görünüm gerektiğinde bu belirleyici oluyor.",
-    "en": "You can train a style model on your own images and reuse it, which becomes decisive when game assets need a consistent look.",
+    "tr": "Görsel üretim platformu. Midjourney’den farkı kendi görsellerinle stil modeli eğitip tekrar kullanabilmen — oyun varlıkları tutarlı görünüm gerektirdiğinde belirleyici.",
+    "en": "An image-generation platform. Unlike Midjourney you can train a style model on your own images and reuse it — decisive when game assets need a consistent look.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -272,8 +272,8 @@
       "video",
       "3b"
     ],
-    "tr": "Video üretiminin yanında telefonla çektiğin nesneyi NeRF/Gaussian splatting ile 3B’ye çeviriyor. Bu ikinci ayak onu saf video modellerinden ayırıyor.",
-    "en": "Alongside video generation it turns an object you filmed on a phone into 3D via NeRF/Gaussian splatting. That second leg is what separates it from pure video models.",
+    "tr": "Video üretiminin yanında telefonla çektiğin nesneyi NeRF/Gaussian splatting ile 3B’ye çeviriyor. Saf video modellerinden farkı bu ikinci ayak.",
+    "en": "Alongside video generation it turns an object you filmed on a phone into 3D via NeRF/Gaussian splatting. Unlike pure video models, it has that second leg.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -285,8 +285,8 @@
       "freemium",
       "3b"
     ],
-    "tr": "Metin ya da görselden 3B model üretip PBR dokusunu da kendisi giydiriyor. Oyun varlığı hattında en çok vakit yiyen adımın doku olması bunu değerli kılıyor.",
-    "en": "Generates a 3D model from text or an image and applies PBR textures itself. Texturing being the slowest step in an asset pipeline is what makes that matter.",
+    "tr": "Metin ya da görselden 3B model üretip PBR dokusunu da kendisi giydiriyor. Yalnız geometri üreten araçlardan farkı dokuyu da yapması — oyun varlığı hattında en çok vakit yiyen adım bu.",
+    "en": "Generates a 3D model from text or an image and applies PBR textures itself. Unlike tools that produce geometry alone it textures too — the slowest step in an asset pipeline.",
     "src": "kedi",
     "added": 1784182321
   },
@@ -311,8 +311,8 @@
       "freemium",
       "görsel-üretim"
     ],
-    "tr": "Düz metinden akış şeması, zaman çizelgesi ve karşılaştırma görseli üretiyor; çıktı düzenlenebilir vektör. Sunum üretmiyor, tek bir fikri görselleştiriyor.",
-    "en": "Turns plain prose into flow charts, timelines and comparison graphics as editable vectors. It does not build decks; it visualises one idea.",
+    "tr": "Düz metinden akış şeması, zaman çizelgesi ve karşılaştırma görseli üretiyor; çıktı düzenlenebilir vektör. Sunum üreticilerinden farkı bütün bir deste değil tek bir fikri görselleştirmesi.",
+    "en": "Turns plain prose into flow charts, timelines and comparison graphics as editable vectors. Unlike deck generators, it visualises one idea rather than building a whole deck.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -336,8 +336,8 @@
       "ücretsiz",
       "görsel-üretim"
     ],
-    "tr": "Karakter ve ürün görsellerine yoğunlaşmış; ücretsiz katmanı günlük kullanıma yetecek kadar cömert.",
-    "en": "Focused on character and product imagery, with a free tier generous enough for daily use.",
+    "tr": "Karakter ve ürün görsellerine yoğunlaşmış görsel üreteci. Genel üreteçlerden farkı bu odak ve günlük kullanıma yetecek kadar cömert ücretsiz katmanı.",
+    "en": "An image generator focused on character and product imagery. Unlike general generators it has that focus, plus a free tier generous enough for daily use.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -364,8 +364,8 @@
       "llm",
       "referans"
     ],
-    "tr": "Eşzamanlı düzenleme, yorum ve marka şablonları; sunum bir ekip belgesi gibi çalışıyor. Analitik özelliği, gönderdiğin sunumun hangi slaytta bırakıldığını gösteriyor.",
-    "en": "Live co-editing, comments and brand templates make a deck behave like a team document. Its analytics show which slide a recipient stopped on.",
+    "tr": "Eşzamanlı düzenleme, yorum ve marka şablonlarıyla sunum aracı; deste bir ekip belgesi gibi çalışıyor. PowerPoint’ten farkı analitik: gönderdiğin sunumun hangi slaytta bırakıldığını gösteriyor.",
+    "en": "A presentation tool with live co-editing, comments and brand templates, so a deck behaves like a team document. Unlike PowerPoint it has analytics, showing which slide a recipient stopped on.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -391,8 +391,8 @@
       "freemium",
       "görsel-üretim"
     ],
-    "tr": "Üretim ve düzenlemeyi aynı tuvalde birleştiriyor; bölge seçip yalnızca orayı yeniden üretmek (inpainting) akışın parçası. Parça parça düzeltmeye elverişli.",
-    "en": "Combines generation and editing on one canvas, with region-selective regeneration (inpainting) built into the flow — which suits piecemeal correction.",
+    "tr": "Üretim ve düzenlemeyi aynı tuvalde birleştiriyor; bölge seçip yalnızca orayı yeniden üretmek (inpainting) akışın parçası. Yalnız üreten araçlardan farkı parça parça düzeltmeye elverişli olması.",
+    "en": "Combines generation and editing on one canvas, with region-selective regeneration (inpainting) built into the flow. Unlike generate-only tools, it suits piecemeal correction.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -405,8 +405,8 @@
       "3b",
       "akademik"
     ],
-    "tr": "Shap-E’den önceki nesil; nokta bulutu üretiyor, mesh’e dönüştürmek ayrı bir adım. Hızlı ama sonuç kaba, bugün pratik bir kullanımı kalmadı.",
-    "en": "The generation before Shap-E, producing point clouds that need a separate meshing step. Fast but coarse, with little practical use left today.",
+    "tr": "OpenAI’ın nokta bulutu üreten 3B modeli; mesh’e dönüştürmek ayrı bir adım. Sonraki nesil Shap-E’ye kıyasla hızlı ama kaba; bugün pratik bir kullanımı kalmadı, tarihsel değeri var.",
+    "en": "OpenAI’s 3D model that produces point clouds needing a separate meshing step. Compared with its successor Shap-E it is fast but coarse; little practical use is left today beyond historical interest.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -473,8 +473,8 @@
       "freemium",
       "referans"
     ],
-    "tr": "Tasarım, metin, video düzenleme ve zamanlamayı tek uygulamada topluyor. Her alanda uzman araçların gerisinde, ama araç sayısını azaltmak istiyorsan mantıklı bir denge.",
-    "en": "Bundles design, copy, video editing and scheduling in one app. Behind the specialists at each task, but a sensible trade if reducing tool count is the goal.",
+    "tr": "Tasarım, metin, video düzenleme ve zamanlamayı tek uygulamada topluyor. Uzman araçlara kıyasla her alanda geride, ama araç sayısını azaltmak istiyorsan mantıklı bir denge.",
+    "en": "Bundles design, copy, video editing and scheduling in one app. Compared with the specialists it trails at each task, but it is a sensible trade if reducing tool count is the goal.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -486,8 +486,8 @@
       "freemium",
       "llm"
     ],
-    "tr": "Google Slides eklentisi olarak çalışıyor; mevcut dosyandan çıkmadan metinden slayt üretiyor. Ayrı platforma taşınma ve sonra dışa aktarma adımı yok.",
-    "en": "Runs as a Google Slides add-on, generating slides from text without leaving your existing file — no migration to another platform and no export step back.",
+    "tr": "Google Slides eklentisi olarak çalışıp metinden slayt üretiyor. Ayrı bir sunum platformuna taşınmak yerine mevcut dosyandan çıkmıyorsun; dışa aktarma adımı da yok.",
+    "en": "A Google Slides add-on that generates slides from text. Instead of moving to a separate presentation platform you stay in your existing file, with no export step.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -553,8 +553,8 @@
       "freemium",
       "3b"
     ],
-    "tr": "Meshy’nin doğrudan rakibi; üretim süresi daha kısa ve çıkan topoloji genelde daha temiz, yani sonradan elle düzeltme yükü az.",
-    "en": "A direct rival to Meshy with shorter generation times and generally cleaner topology, which means less manual cleanup afterwards.",
+    "tr": "Metinden ve görselden 3B model üreten araç; Meshy’nin doğrudan rakibi. Meshy’ye kıyasla üretim süresi daha kısa ve çıkan topoloji genelde daha temiz, yani sonradan elle düzeltme yükü az.",
+    "en": "A text- and image-to-3D tool, a direct rival to Meshy. Compared with Meshy, generation is faster and topology generally cleaner, which means less manual cleanup afterwards.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -592,8 +592,8 @@
       "ses",
       "self-hosted"
     ],
-    "tr": "Konuşma tanımanın açık standardı; 90+ dili destekliyor, Türkçede de kullanılabilir doğrulukta. Yerelde çalıştığı için kayıt makineden hiç çıkmıyor.",
-    "en": "The open standard for speech recognition, covering 90+ languages at usable accuracy in Turkish too. It runs locally, so the recording never leaves the machine.",
+    "tr": "Konuşma tanımanın açık standardı; 90+ dili destekliyor, Türkçede de kullanılabilir doğrulukta. Bulut konuşma tanıma servislerinden farkı yerelde çalışması: kayıt makineden hiç çıkmıyor.",
+    "en": "The open standard for speech recognition, covering 90+ languages at usable accuracy in Turkish too. Unlike cloud speech services it runs locally, so the recording never leaves the machine.",
     "src": "kedi",
     "added": 1787000000
   }

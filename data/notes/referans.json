@@ -19,8 +19,8 @@
       "javascript",
       "referans"
     ],
-    "tr": "JavaScript’in fiilî üslup standardı; ESLint yapılandırması olarak doğrudan kurulabiliyor. Her kural örnek doğru ve yanlış kodla gösterilmiş.",
-    "en": "The de facto JavaScript style standard, installable directly as an ESLint config, with every rule shown as good and bad example code.",
+    "tr": "JavaScript’in fiilî üslup standardı; ESLint yapılandırması olarak doğrudan kurulabiliyor ve her kural doğru ve yanlış örnek kodla gösterilmiş. Standard’dan farkı kuralları gerekçeleriyle anlatıp özelleştirmeye izin vermesi.",
+    "en": "The de facto JavaScript style standard, installable directly as an ESLint config, with every rule shown as good and bad example code. Unlike Standard it explains rules with their reasoning and lets you customise them.",
     "src": "bwapsv"
   },
   {
@@ -67,8 +67,8 @@
       "türkçe",
       "referans"
     ],
-    "tr": "Bilişim terimlerinin resmî Türkçe karşılıkları. Belge, sunum ya da çeviri yaparken terim tutarlılığı için başvurulacak yer.",
-    "en": "Official Turkish equivalents for computing terms — the reference for keeping terminology consistent in documents, talks and translation.",
+    "tr": "Bilişim terimlerinin resmî Türkçe karşılıkları. Genel sözlüklerden farkı bilişime özgü ve resmî olması: belge, sunum ya da çeviride terim tutarlılığı için başvurulacak yer.",
+    "en": "Official Turkish equivalents for computing terms. Unlike general dictionaries it is computing-specific and official — the reference for consistent terminology in documents, talks and translation.",
     "src": "kedi",
     "added": 1784181084
   },
@@ -92,8 +92,8 @@
       "cli",
       "kopya-kâğıdı"
     ],
-    "tr": "Terminalden `curl cheat.sh/komut` yazarak kopya kâğıdı çeken servis. Tarayıcı açmadan, editörden çıkmadan cevap veriyor.",
-    "en": "Pulls a cheat sheet from the terminal with `curl cheat.sh/command` — an answer without opening a browser or leaving your editor.",
+    "tr": "Terminalden `curl cheat.sh/komut` yazarak kopya kâğıdı çeken servis. tldr’den farkı kurulum gerektirmemesi ve programlama dili sorularını da yanıtlaması: tarayıcı açmadan, editörden çıkmadan.",
+    "en": "Pulls a cheat sheet from the terminal with `curl cheat.sh/command`. Unlike tldr it needs no install and answers programming-language questions too — without opening a browser or leaving your editor.",
     "src": "bwapsv"
   },
   {
@@ -140,8 +140,8 @@
       "ücretsiz",
       "kopya-kâğıdı"
     ],
-    "tr": "Yüzlerce araç ve dil için tek sayfalık kopya kâğıdı arşivi; her biri gerçekten bir ekrana sığacak şekilde budanmış.",
-    "en": "An archive of one-page cheat sheets for hundreds of tools and languages, each genuinely pruned to fit a single screen.",
+    "tr": "Yüzlerce araç ve dil için tek sayfalık kopya kâğıdı arşivi. Resmî belgelerden farkı her birinin gerçekten tek ekrana sığacak şekilde budanmış olması.",
+    "en": "An archive of one-page cheat sheets for hundreds of tools and languages. Unlike official docs, each is genuinely pruned to fit a single screen.",
     "src": "bwapsv"
   },
   {
@@ -223,8 +223,8 @@
       "c-ailesi",
       "referans"
     ],
-    "tr": "Google’ın C++ kuralları; bazı maddeleri tartışmalı (istisna yasağı gibi) ama her kuralın gerekçesi yazılı olduğu için kendi kurallarını kurarken iyi bir başlangıç.",
-    "en": "Google’s C++ rules. Some are contested — the ban on exceptions, for one — but every rule carries its reasoning, which makes it a good base for writing your own.",
+    "tr": "Google’ın C++ kuralları; bazı maddeleri tartışmalı (istisna yasağı gibi). Diğer üslup kılavuzlarından farkı her kuralın gerekçesinin yazılı olması — kendi kurallarını kurarken iyi bir başlangıç.",
+    "en": "Google’s C++ rules; some are contested, the ban on exceptions for one. Unlike other style guides every rule carries its reasoning, which makes it a good base for writing your own.",
     "src": "bwapsv"
   },
   {
@@ -234,8 +234,8 @@
       "ücretsiz",
       "referans"
     ],
-    "tr": "Java için biçimlendirme ve adlandırma kuralları; google-java-format aracı doğrudan bu belgeyi uyguluyor.",
-    "en": "Formatting and naming rules for Java — the google-java-format tool implements this document directly.",
+    "tr": "Java için biçimlendirme ve adlandırma kuralları. Oracle’ın eski Java kod kurallarından farkı güncel olması ve araçla uygulanabilmesi: google-java-format doğrudan bu belgeyi uyguluyor.",
+    "en": "Formatting and naming rules for Java. Unlike Oracle’s old Java code conventions it is current and tool-enforced — google-java-format implements this document directly.",
     "src": "bwapsv"
   },
   {
@@ -246,8 +246,8 @@
       "python",
       "referans"
     ],
-    "tr": "PEP 8’in üstüne Google’ın kendi eklemeleri: docstring biçimi, içe aktarma düzeni, tip ipucu kullanımı. Büyük kod tabanlarında tutarlılık için.",
-    "en": "Google’s additions on top of PEP 8 — docstring format, import ordering, type-hint usage — aimed at consistency in large codebases.",
+    "tr": "Python üslup kılavuzu. PEP 8’den farkı üstüne eklenen Google kuralları: docstring biçimi, içe aktarma düzeni, tip ipucu kullanımı — büyük kod tabanlarında tutarlılık için.",
+    "en": "A Python style guide. Unlike PEP 8 alone it adds Google’s rules on top — docstring format, import ordering, type-hint usage — aimed at consistency in large codebases.",
     "src": "bwapsv"
   },
   {
@@ -257,8 +257,8 @@
       "ücretsiz",
       "referans"
     ],
-    "tr": "Etkili hata raporu yazmanın klasik metni; PuTTY’nin yazarından. Açık kaynak projelere katkı verecek herkesin bir kez okuması gereken kısa bir yazı.",
-    "en": "The classic text on writing an effective bug report, from PuTTY’s author — a short piece worth reading once by anyone contributing to open source.",
+    "tr": "PuTTY’nin yazarından etkili hata raporu yazmanın klasik metni. Proje hata şablonlarından farkı neyin neden gerektiğini anlatması; açık kaynağa katkı verecek herkesin bir kez okuması gereken kısa bir yazı.",
+    "en": "The classic text on writing an effective bug report, from PuTTY’s author. Unlike project issue templates it explains why each detail is needed — a short piece worth reading once by anyone contributing to open source.",
     "src": "bwapsv"
   },
   {
@@ -269,8 +269,8 @@
       "javascript",
       "referans"
     ],
-    "tr": "Yapılandırma dosyası olmayan JavaScript biçimlendirici; tartışmayı bitirmek için tüm kararları kendisi veriyor. Airbnb’nin esnekliğinin karşı kutbu.",
-    "en": "A JavaScript formatter with no configuration file — it makes every decision for you to end the argument. The opposite pole from Airbnb’s flexibility.",
+    "tr": "Yapılandırma dosyası olmayan JavaScript biçimlendirici ve linter; tartışmayı bitirmek için tüm kararları kendisi veriyor. Airbnb kılavuzunun aksine özelleştirmeye kapalı.",
+    "en": "A JavaScript formatter and linter with no configuration file — it makes every decision for you to end the argument. Unlike the Airbnb guide, it is closed to customisation.",
     "src": "bwapsv"
   },
   {
@@ -305,8 +305,8 @@
       "dokümantasyon",
       "ücretsiz"
     ],
-    "tr": "README ve belge biçimlemede kullanılan Markdown dilinin kapsamlı rehberi.",
-    "en": "A comprehensive guide to Markdown, used for formatting READMEs and docs.",
+    "tr": "README ve belge biçimlemede kullanılan Markdown dilinin kapsamlı rehberi. Tek bir lehçenin belgesinden farkı temel ve genişletilmiş sözdizimini, hangi uygulamanın neyi desteklediğiyle birlikte göstermesi.",
+    "en": "A comprehensive guide to Markdown, used for formatting READMEs and docs. Unlike one dialect’s documentation, it shows basic and extended syntax together with which apps support what.",
     "src": "awesomeproj"
   },
   {
@@ -341,8 +341,8 @@
       "ücretsiz",
       "kopya-kâğıdı"
     ],
-    "tr": "Dil ve çatı kopya kâğıtlarını tek sayfada toplayan dizin; görsel olarak yoğun ama aradığını hızlı buluyorsun.",
-    "en": "A directory gathering language and framework cheat sheets on one page — visually dense, but you find things fast.",
+    "tr": "Dil ve çatı kopya kâğıtlarını tek sayfada toplayan dizin. Devhints’e kıyasla görsel olarak daha yoğun ama aradığın komutu hızlı buluyorsun; her madde resmî belgeye bağlanıyor.",
+    "en": "A directory gathering language and framework cheat sheets on one page. Compared with Devhints it is visually denser, but you find a command fast, and each item links to the official docs.",
     "src": "bwapsv"
   },
   {
@@ -352,8 +352,8 @@
       "ücretsiz",
       "referans"
     ],
-    "tr": "Programlama konularının Vikipedi giriş kapısı; kavram haritası çıkarmak için satıcı etkisinden uzak bir başlangıç.",
-    "en": "Wikipedia’s entry point for programming topics — a vendor-neutral start for mapping the concept space.",
+    "tr": "Programlama konularının Vikipedi giriş kapısı. Satıcı belgelerinin aksine tarafsız: kavram haritası çıkarmak için ürün etkisinden uzak bir başlangıç.",
+    "en": "Wikipedia’s entry point for programming topics. Unlike vendor documentation it is neutral — a start for mapping the concept space free of product influence.",
     "src": "kedi",
     "added": 1753837676
   },
@@ -366,8 +366,8 @@
       "backend",
       "javascript"
     ],
-    "tr": "Bir yazılım projesini yürütmek için toplanmış en iyi uygulamalar seti.",
-    "en": "A set of best practices for running a software project.",
+    "tr": "Bir yazılım projesini yürütmek için toplanmış en iyi uygulamalar seti. Genel tavsiye yazılarından farkı somut kurallar vermesi: git akışı, dokümantasyon, ortamlar, bağımlılıklar, test ve API tasarımı.",
+    "en": "A set of best practices for running a software project. Unlike general advice pieces it gives concrete rules — git workflow, documentation, environments, dependencies, testing and API design.",
     "src": "velvia"
   },
   {
@@ -401,32 +401,32 @@
       "ücretsiz",
       "kopya-kâğıdı"
     ],
-    "tr": "Dil ve araçlar için tek sayfalık başvuru kâğıtları; sık kullanılanı öne alıyor. Tam dokümantasyon aramanın hantal kaldığı durumlar için.",
-    "en": "One-page cheat sheets for languages and tools, surfacing the common cases — for when reaching into full documentation is too slow.",
+    "tr": "Dil ve araçlar için tek sayfalık başvuru kâğıtları; sık kullanılanı öne alıyor. Tam dokümantasyonda aramak yerine en yaygın durumu tek bakışta görüyorsun.",
+    "en": "One-page cheat sheets for languages and tools, surfacing the common cases. Instead of searching full documentation, you see the usual case at a glance.",
     "src": "kedi",
     "added": 1775420597
   },
   {
-    "url": "https://github.com/bbatsov/ruby-style-guide",
+    "url": "https://github.com/rubocop/ruby-style-guide",
     "name": "Ruby Üslup Kılavuzu",
     "tags": [
       "github",
       "referans"
     ],
-    "tr": "Topluluk tarafından yazılmış Ruby üslup kılavuzu; RuboCop aracının varsayılan kural setinin temeli.",
-    "en": "A community-written Ruby style guide that forms the basis of RuboCop’s default rule set.",
+    "tr": "Topluluk tarafından yazılmış Ruby üslup kılavuzu; RuboCop aracının varsayılan kural setinin temeli. Tek bir şirketin iç kılavuzundan farkı topluluk uzlaşısını yansıtması.",
+    "en": "A community-written Ruby style guide that forms the basis of RuboCop’s default rule set. Unlike a single company’s internal guide, it reflects community consensus.",
     "src": "bwapsv"
   },
   {
-    "url": "https://github.com/rust-dev-tools/fmt-rfcs",
-    "name": "Rust Biçimlendirme Kuralları",
+    "url": "https://doc.rust-lang.org/stable/style-guide/",
+    "name": "Rust Üslup Kılavuzu",
     "tags": [
-      "github",
       "rust",
-      "referans"
+      "referans",
+      "dokümantasyon"
     ],
-    "tr": "rustfmt’in uyguladığı biçimlendirme kararlarının gerekçeleriyle tartışıldığı depo; aracın neden öyle davrandığını buradan öğreniyorsun.",
-    "en": "The repository where rustfmt’s formatting decisions are debated with their reasoning — where you learn why the tool behaves as it does.",
+    "tr": "Rust’ın resmî biçimlendirme kılavuzu; rustfmt’in varsayılan davranışını tanımlıyor. rustfmt belgelerinden farkı kararların kendisini ve gerekçesini yazması: aracın neden öyle davrandığını buradan öğreniyorsun.",
+    "en": "Rust’s official style guide, defining rustfmt’s default behaviour. Unlike the rustfmt docs it states the decisions themselves and their reasoning — where you learn why the tool behaves as it does.",
     "src": "bwapsv"
   },
   {
@@ -437,8 +437,8 @@
       "sistem-tasarımı",
       "referans"
     ],
-    "tr": "Tasarım desenleri, kod kokuları ve yeniden düzenleme tekniklerini örneklerle anlatan referans. Refactoring Guru’nun yanında ikinci bakış olarak işe yarıyor.",
-    "en": "A reference covering design patterns, code smells and refactoring techniques with examples — useful as a second opinion alongside Refactoring Guru.",
+    "tr": "Tasarım desenleri, kod kokuları ve yeniden düzenleme tekniklerini örneklerle anlatan referans. Refactoring Guru’dan farkı anti-desenleri ve UML’i de kapsaması; ikinci bir bakış olarak işe yarıyor.",
+    "en": "A reference covering design patterns, code smells and refactoring techniques with examples. Unlike Refactoring Guru it also covers antipatterns and UML — useful as a second opinion.",
     "src": "bwapsv"
   },
   {
@@ -462,8 +462,8 @@
       "açık-kaynak",
       "ücretsiz"
     ],
-    "tr": "Komut satırı araçları için topluluk tarafından sadeleştirilmiş, örnek ağırlıklı man sayfaları.",
-    "en": "Community-simplified, example-first man pages for command-line tools.",
+    "tr": "Komut satırı araçları için topluluk tarafından sadeleştirilmiş man sayfaları. Klasik man sayfalarından farkı seçenek listesi yerine en sık kullanılan örneklerle başlaması.",
+    "en": "Community-simplified man pages for command-line tools. Unlike classic man pages, they open with the most common examples rather than a list of options.",
     "src": "dsbest"
   },
   {
@@ -474,8 +474,8 @@
       "go",
       "referans"
     ],
-    "tr": "Go’da üretim kodu yazarken karşılaşılan tuzakları ve tercih edilen kalıpları derliyor; resmî Effective Go’nun bıraktığı yerden devam ediyor.",
-    "en": "Collects the traps and preferred patterns of writing production Go, picking up where the official Effective Go leaves off.",
+    "tr": "Go’da üretim kodu yazarken karşılaşılan tuzakları ve tercih edilen kalıpları derliyor. Resmî Effective Go’dan farkı onun bıraktığı yerden devam edip gerçek üretim deneyiminden gelen kuralları eklemesi.",
+    "en": "Collects the traps and preferred patterns of writing production Go. Unlike the official Effective Go, it picks up where that leaves off with rules drawn from real production experience.",
     "src": "bwapsv"
   },
   {

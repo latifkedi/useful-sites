@@ -18,14 +18,14 @@
   <link href="https://canivibecodeit.com/"/>
   <id>https://canivibecodeit.com/</id>
   <updated>2026-08-19T23:06:49Z</updated>
-  <summary>Bin küsur uygulamayı “yapay zeka bunu yeniden üretebilir mi” diye test edip sonucu yayımlayan tablo. Kullanılan istemi de veriyor, yani sonucu kendin doğrulayabiliyorsun.</summary>
+  <summary>Bin küsur uygulamayı “yapay zekâ bunu yeniden üretebilir mi” diye test edip sonucu yayımlayan tablo. Soyut benchmark’lardan farkı gerçek uygulamaları hedef alması ve kullanılan istemi de vermesi: sonucu kendin doğrulayabiliyorsun.</summary>
 </entry>
 <entry>
   <title>Anthropic Claude</title>
   <link href="https://www.anthropic.com/claude"/>
   <id>https://www.anthropic.com/claude</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Model sürümleri, bağlam limitleri ve jeton fiyatları. Prompt caching ve batch API gibi maliyet düşüren özelliklerin karşılaştırması burada duruyor.</summary>
+  <summary>Claude modellerinin sürümleri, bağlam limitleri ve jeton fiyatları. Sohbet uygulamasının aksine geliştirici gözüyle bakıyor: prompt caching ve batch API gibi maliyet düşüren özellikler yan yana karşılaştırılmış.</summary>
 </entry>
 <entry>
   <title>Artificial Analysis</title>
@@ -46,42 +46,42 @@
   <link href="https://aistudio.google.com/"/>
   <id>https://aistudio.google.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>İstem denemek, sistem talimatı ayarlamak ve sıcaklık gibi parametreleri kurcalamak için tarayıcı arayüzü. Denediğin çağrıyı doğrudan kod olarak dışa aktarıyor.</summary>
+  <summary>İstem denemek, sistem talimatı ayarlamak ve sıcaklık gibi parametreleri kurcalamak için tarayıcı arayüzü. Doğrudan API kodu yazmak yerine önce burada deniyorsun; beğendiğin çağrıyı hazır kod olarak dışa aktarıyor.</summary>
 </entry>
 <entry>
   <title>Google Gemini</title>
   <link href="https://gemini.google.com/"/>
   <id>https://gemini.google.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Gmail, Drive ve YouTube’a doğrudan bağlanıp hesabındaki içeriği kaynak alabiliyor. Bu entegrasyon onu Google ekosisteminde tutuyorsan avantajlı, tutmuyorsan sıradan kılıyor.</summary>
+  <summary>Google’ın sohbet asistanı; Gmail, Drive ve YouTube’a doğrudan bağlanıp hesabındaki içeriği kaynak alabiliyor. ChatGPT’den farkı bu entegrasyon: Google ekosistemindeysen belirleyici, değilsen önemsiz.</summary>
 </entry>
 <entry>
   <title>Groq</title>
   <link href="https://groq.com"/>
   <id>https://groq.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Kendi LPU donanımıyla çok yüksek token/saniye veren ultra hızlı LLM çıkarımı.</summary>
+  <summary>Kendi LPU donanımıyla çok yüksek token/saniye veren LLM çıkarım servisi. GPU tabanlı sağlayıcılardan farkı bu özel çip: açık modelleri alışılmadık hızda sunuyor, model seçimi ise sınırlı.</summary>
 </entry>
 <entry>
   <title>Jan</title>
   <link href="https://jan.ai"/>
   <id>https://jan.ai</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Modelleri yerelde, çevrimdışı ve gizli biçimde çalıştıran açık kaynak yapay zekâ.</summary>
+  <summary>Modelleri yerelde, çevrimdışı çalıştıran masaüstü uygulaması. LM Studio’dan farkı tamamen açık kaynak olması; sohbet verisi cihazdan çıkmıyor.</summary>
 </entry>
 <entry>
   <title>LM Studio</title>
   <link href="https://lmstudio.ai/"/>
   <id>https://lmstudio.ai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>GGUF modelleri aramak, indirmek ve nicemleme seviyesi seçmek için masaüstü arayüz. Hangi nicemlemenin RAM’ine sığacağını önden gösteriyor — Ollama’da bunu kendin hesaplarsın.</summary>
+  <summary>GGUF modelleri aramak, indirmek ve nicemleme seviyesi seçmek için masaüstü arayüz. Ollama’dan farkı hangi nicemlemenin RAM’ine sığacağını önden göstermesi — orada bunu kendin hesaplarsın.</summary>
 </entry>
 <entry>
   <title>LMArena (Chatbot Arena)</title>
   <link href="https://lmarena.ai"/>
   <id>https://lmarena.ai</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Kör karşılaştırmalarda insan oylarıyla LLM'leri Elo tablosunda sıralayan arena.</summary>
+  <summary>Kör karşılaştırmalarda insan oylarıyla LLM’leri Elo tablosunda sıralayan arena. Otomatik benchmark’lardan farkı gerçek kullanıcı tercihine dayanması; karşılığında üslup ve cevap uzunluğu sıralamayı saptırabiliyor.</summary>
 </entry>
 <entry>
   <title>Meta Llama</title>
@@ -95,14 +95,14 @@
   <link href="https://copilot.microsoft.com/"/>
   <id>https://copilot.microsoft.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Word, Excel ve Windows kabuğuna gömülü çalışıyor — belgeyi bir siteye kopyalamadan üzerinde işlem yapıyor. Model erişimi OpenAI’ınkiyle aynı, fark dağıtım noktasında.</summary>
+  <summary>Word, Excel ve Windows kabuğuna gömülü çalışıyor — belgeyi bir siteye kopyalamadan üzerinde işlem yapıyor. ChatGPT’den farkı model değil dağıtım noktası: arkadaki modeller OpenAI’ın.</summary>
 </entry>
 <entry>
   <title>Mistral AI</title>
   <link href="https://mistral.ai/"/>
   <id>https://mistral.ai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Avrupa merkezli sağlayıcı. Küçük modelleri (7B ve altı) Apache-2.0 ile yayımlıyor; tek tüketici GPU’suna sığmaları sınırlı donanımda ayrı bir avantaj.</summary>
+  <summary>Avrupa merkezli model sağlayıcı. ABD’li sağlayıcılara kıyasla AB veri kuralları altında çalışıyor; küçük modellerini Apache-2.0 ile yayımlıyor ve bunlar tek tüketici GPU’suna sığıyor.</summary>
 </entry>
 <entry>
   <title>Ollama</title>
@@ -116,49 +116,49 @@
   <link href="https://openwebui.com/"/>
   <id>https://openwebui.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Ollama veya herhangi bir OpenAI uyumlu uç noktanın önüne geçen web arayüzü. Çok kullanıcı, rol yönetimi ve RAG için belge yükleme getiriyor; genelde Docker ile kuruluyor.</summary>
+  <summary>Ollama veya herhangi bir OpenAI uyumlu uç noktanın önüne geçen web arayüzü; genelde Docker ile kuruluyor. Komut satırında sohbet etmek yerine çok kullanıcı, rol yönetimi ve RAG için belge yükleme getiriyor.</summary>
 </entry>
 <entry>
   <title>OpenAI Platform</title>
   <link href="https://platform.openai.com/"/>
   <id>https://platform.openai.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>API anahtarı, kullanım limitleri ve fatura yönetimi. Kuruluş bazlı kota ayarları ve model kullanım grafikleri de burada.</summary>
+  <summary>API anahtarı, kullanım limitleri ve fatura yönetimi; kuruluş bazlı kota ayarları ve kullanım grafikleri burada. ChatGPT aboneliğinden farkı API kullanımının ayrı, jeton başına faturalanması.</summary>
 </entry>
 <entry>
   <title>OpenRouter</title>
   <link href="https://openrouter.ai"/>
   <id>https://openrouter.ai</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Tek uç noktadan birçok LLM'e erişim; sağlayıcılar arası fiyat/kullanım yönlendirmesi yapar.</summary>
+  <summary>Tek uç noktadan birçok LLM’e erişim; sağlayıcılar arası fiyat ve erişilebilirliğe göre yönlendiriyor. Her sağlayıcıya ayrı hesap açmak yerine tek anahtar ve tek fatura.</summary>
 </entry>
 <entry>
   <title>Replicate</title>
   <link href="https://replicate.com"/>
   <id>https://replicate.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Açık makine öğrenmesi modellerini tek bir API üzerinden çalıştırmanı sağlar.</summary>
+  <summary>Açık makine öğrenmesi modellerini tek bir API üzerinden çalıştırmanı sağlıyor. Kendi GPU’nu kiralamaktan farkı saniye bazlı ücretlendirme: modeli kurmadan, yalnız çalıştığı süre için ödüyorsun.</summary>
 </entry>
 <entry>
   <title>Together AI</title>
   <link href="https://www.together.ai"/>
   <id>https://www.together.ai</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Açık ağırlıklı büyük dil modellerini hızlı, barındırılan çıkarımla sunar.</summary>
+  <summary>Açık ağırlıklı büyük dil modellerini hızlı, barındırılan çıkarımla sunuyor. OpenRouter gibi yönlendiricilerden farkı modelleri kendi altyapısında çalıştırması ve ince ayar (fine-tuning) da sunması.</summary>
 </entry>
 <entry>
   <title>vLLM</title>
   <link href="https://docs.vllm.ai/"/>
   <id>https://docs.vllm.ai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>PagedAttention ile KV önbelleğini sayfalayarak GPU belleğini verimli kullanıyor; sürekli yığınlama (continuous batching) sayesinde eşzamanlı istek verimi Ollama’nın kat kat üstünde.</summary>
+  <summary>PagedAttention ile KV önbelleğini sayfalayarak GPU belleğini verimli kullanan çıkarım motoru. Ollama’ya kıyasla sürekli yığınlama (continuous batching) sayesinde eşzamanlı istek verimi kat kat yüksek: tek kullanıcı değil sunucu için.</summary>
 </entry>
 <entry>
   <title>Kimi K2.7 Code</title>
   <link href="https://huggingface.co/moonshotai/Kimi-K2.7-Code"/>
   <id>https://huggingface.co/moonshotai/Kimi-K2.7-Code</id>
   <updated>2026-07-19T16:24:12Z</updated>
-  <summary>Moonshot AI’ın kod odaklı açık ağırlıklı modeli. Yerel kod asistanı kurmak isteyip kapalı API’ye bağlanmak istemeyenler için gerçek bir seçenek.</summary>
+  <summary>Moonshot AI’ın kod odaklı açık ağırlıklı modeli. Kapalı kod modellerine kıyasla ağırlıklarının açık olması, yerel kod asistanı kurmak isteyip kapalı API’ye bağlanmak istemeyenler için gerçek bir seçenek.</summary>
 </entry>
 <entry>
   <title>LocateAnything-3B</title>
@@ -186,14 +186,14 @@
   <link href="https://developers.openai.com/api/docs"/>
   <id>https://developers.openai.com/api/docs</id>
   <updated>2026-04-20T13:01:25Z</updated>
-  <summary>Chat Completions, Responses ve Realtime uç noktalarının parametre referansı. Fonksiyon çağırma şeması ve akış (streaming) davranışı için birincil kaynak.</summary>
+  <summary>Chat Completions, Responses ve Realtime uç noktalarının parametre referansı. Topluluk rehberlerinden farkı birincil kaynak olması: fonksiyon çağırma şeması ve akış (streaming) davranışı için son söz burada.</summary>
 </entry>
 <entry>
   <title>Google AI for Developers</title>
   <link href="https://ai.google.dev/"/>
   <id>https://ai.google.dev/</id>
   <updated>2026-04-20T13:01:24Z</updated>
-  <summary>Gemini API ve açık ağırlıklı Gemma ailesinin geliştirici kapısı. Ücretsiz kotası gerçek bir prototip taşıyacak kadar geniş, kredi kartı istemiyor.</summary>
+  <summary>Gemini API ve açık ağırlıklı Gemma ailesinin geliştirici kapısı. OpenAI API’sine kıyasla ücretsiz kotası gerçek bir prototip taşıyacak kadar geniş ve kredi kartı istemiyor.</summary>
 </entry>
 <entry>
   <title>Hugging Face</title>
@@ -207,28 +207,28 @@
   <link href="https://openclaw.ai/"/>
   <id>https://openclaw.ai/</id>
   <updated>2026-04-05T20:24:58Z</updated>
-  <summary>Kendi makinende çalışan kişisel asistan. Arayüzü yok — WhatsApp, Telegram gibi zaten kullandığın sohbet uygulamalarına bağlanıyor, veriler cihazından çıkmıyor.</summary>
+  <summary>Kendi makinende çalışan kişisel asistan; kendi arayüzü yok, WhatsApp ve Telegram gibi zaten kullandığın sohbet uygulamalarına bağlanıyor. Barındırılan asistanların aksine veriler cihazından çıkmıyor.</summary>
 </entry>
 <entry>
   <title>Kimi Claw</title>
   <link href="https://kimi-claw.com/"/>
   <id>https://kimi-claw.com/</id>
   <updated>2026-04-05T20:24:40Z</updated>
-  <summary>OpenClaw üzerine kurulu barındırılmış sürüm: kalıcı bellek, zamanlanmış görevler ve sen istemeden tetiklenen işler ekliyor. Kendi sunucunu işletmek istemeyenler için.</summary>
+  <summary>OpenClaw üzerine kurulu barındırılmış sürüm: kalıcı bellek, zamanlanmış görevler ve sen istemeden tetiklenen işler ekliyor. OpenClaw’u kendi makinende işletmek yerine hazır hizmet olarak kullanmak isteyenler için.</summary>
 </entry>
 <entry>
   <title>Claude</title>
   <link href="https://claude.ai/new"/>
   <id>https://claude.ai/new</id>
   <updated>2026-02-25T13:13:59Z</updated>
-  <summary>200K jetonluk bağlam penceresi uzun belge ve kod tabanı okumayı taşıyor. Projects, dosyaları sohbetler arası kalıcı bağlam olarak tutuyor; Artifacts çıktıyı ayrı bir panelde çalıştırıyor.</summary>
+  <summary>Anthropic’in sohbet uygulaması; uzun bağlam penceresi uzun belge ve kod tabanı okumayı taşıyor. Rakiplerine kıyasla uzun metinde tutarlılığıyla öne çıkıyor; Projects dosyaları sohbetler arası kalıcı bağlam olarak tutuyor, Artifacts çıktıyı ayrı panelde çalıştırıyor.</summary>
 </entry>
 <entry>
   <title>DeepSeek</title>
   <link href="https://www.deepseek.com/"/>
   <id>https://www.deepseek.com/</id>
   <updated>2025-09-25T09:14:54Z</updated>
-  <summary>V3 ve R1 ağırlıkları indirilebilir durumda. Karışım-uzman (MoE) mimarisi sayesinde toplam parametre büyük ama her jetonda yalnızca bir kısmı etkin — akıl yürütme başarımını çok daha düşük çıkarım maliyetiyle veriyor.</summary>
+  <summary>V3 ve R1 ağırlıkları indirilebilir durumda. Kapalı modellere kıyasla farkı bu açıklık ve karışım-uzman (MoE) mimarisi: toplam parametre büyük ama her jetonda yalnızca bir kısmı etkin, akıl yürütme başarımını çok daha düşük çıkarım maliyetiyle veriyor.</summary>
 </entry>
 <entry>
   <title>ChatGPT</title>
@@ -242,7 +242,7 @@
   <link href="https://notebooklm.google.com/"/>
   <id>https://notebooklm.google.com/</id>
   <updated>2025-09-22T18:22:44Z</updated>
-  <summary>Yüklediğin PDF, doküman ve bağlantılarla sınırlı bir bağlam kuruyor; kaynak dışına çıkmayı reddediyor. Bu kısıt uydurma oranını düşürüyor, karşılığında genel bilgi soramıyorsun.</summary>
+  <summary>Yüklediğin PDF, doküman ve bağlantılarla sınırlı bir bağlam kuruyor; kaynak dışına çıkmayı reddediyor. Genel sohbet botlarından farkı bu kısıt: uydurma oranını düşürüyor, karşılığında genel bilgi soramıyorsun.</summary>
 </entry>
 <entry>
   <title>Perplexity</title>

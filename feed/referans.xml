@@ -11,21 +11,21 @@
   <link href="https://www.markdownguide.org/"/>
   <id>https://www.markdownguide.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>README ve belge biçimlemede kullanılan Markdown dilinin kapsamlı rehberi.</summary>
+  <summary>README ve belge biçimlemede kullanılan Markdown dilinin kapsamlı rehberi. Tek bir lehçenin belgesinden farkı temel ve genişletilmiş sözdizimini, hangi uygulamanın neyi desteklediğiyle birlikte göstermesi.</summary>
 </entry>
 <entry>
   <title>Project Guidelines</title>
   <link href="https://github.com/wearehive/project-guidelines"/>
   <id>https://github.com/wearehive/project-guidelines</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Bir yazılım projesini yürütmek için toplanmış en iyi uygulamalar seti.</summary>
+  <summary>Bir yazılım projesini yürütmek için toplanmış en iyi uygulamalar seti. Genel tavsiye yazılarından farkı somut kurallar vermesi: git akışı, dokümantasyon, ortamlar, bağımlılıklar, test ve API tasarımı.</summary>
 </entry>
 <entry>
   <title>tldr pages</title>
   <link href="https://tldr.sh"/>
   <id>https://tldr.sh</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Komut satırı araçları için topluluk tarafından sadeleştirilmiş, örnek ağırlıklı man sayfaları.</summary>
+  <summary>Komut satırı araçları için topluluk tarafından sadeleştirilmiş man sayfaları. Klasik man sayfalarından farkı seçenek listesi yerine en sık kullanılan örneklerle başlaması.</summary>
 </entry>
 <entry>
   <title>Eylenburg Tech Website</title>
@@ -179,21 +179,21 @@
   <link href="https://github.com/airbnb/javascript"/>
   <id>https://github.com/airbnb/javascript</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>JavaScript’in fiilî üslup standardı; ESLint yapılandırması olarak doğrudan kurulabiliyor. Her kural örnek doğru ve yanlış kodla gösterilmiş.</summary>
+  <summary>JavaScript’in fiilî üslup standardı; ESLint yapılandırması olarak doğrudan kurulabiliyor ve her kural doğru ve yanlış örnek kodla gösterilmiş. Standard’dan farkı kuralları gerekçeleriyle anlatıp özelleştirmeye izin vermesi.</summary>
 </entry>
 <entry>
   <title>cheat.sh</title>
   <link href="https://github.com/chubin/cheat.sh"/>
   <id>https://github.com/chubin/cheat.sh</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Terminalden `curl cheat.sh/komut` yazarak kopya kâğıdı çeken servis. Tarayıcı açmadan, editörden çıkmadan cevap veriyor.</summary>
+  <summary>Terminalden `curl cheat.sh/komut` yazarak kopya kâğıdı çeken servis. tldr’den farkı kurulum gerektirmemesi ve programlama dili sorularını da yanıtlaması: tarayıcı açmadan, editörden çıkmadan.</summary>
 </entry>
 <entry>
   <title>Devhints</title>
   <link href="https://devhints.io"/>
   <id>https://devhints.io</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Yüzlerce araç ve dil için tek sayfalık kopya kâğıdı arşivi; her biri gerçekten bir ekrana sığacak şekilde budanmış.</summary>
+  <summary>Yüzlerce araç ve dil için tek sayfalık kopya kâğıdı arşivi. Resmî belgelerden farkı her birinin gerçekten tek ekrana sığacak şekilde budanmış olması.</summary>
 </entry>
 <entry>
   <title>Google C# Üslup Kılavuzu</title>
@@ -207,35 +207,35 @@
   <link href="https://google.github.io/styleguide/cppguide.html"/>
   <id>https://google.github.io/styleguide/cppguide.html</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Google’ın C++ kuralları; bazı maddeleri tartışmalı (istisna yasağı gibi) ama her kuralın gerekçesi yazılı olduğu için kendi kurallarını kurarken iyi bir başlangıç.</summary>
+  <summary>Google’ın C++ kuralları; bazı maddeleri tartışmalı (istisna yasağı gibi). Diğer üslup kılavuzlarından farkı her kuralın gerekçesinin yazılı olması — kendi kurallarını kurarken iyi bir başlangıç.</summary>
 </entry>
 <entry>
   <title>Google Java Üslup Kılavuzu</title>
   <link href="https://google.github.io/styleguide/javaguide.html"/>
   <id>https://google.github.io/styleguide/javaguide.html</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Java için biçimlendirme ve adlandırma kuralları; google-java-format aracı doğrudan bu belgeyi uyguluyor.</summary>
+  <summary>Java için biçimlendirme ve adlandırma kuralları. Oracle’ın eski Java kod kurallarından farkı güncel olması ve araçla uygulanabilmesi: google-java-format doğrudan bu belgeyi uyguluyor.</summary>
 </entry>
 <entry>
   <title>Google Python Üslup Kılavuzu</title>
   <link href="https://google.github.io/styleguide/pyguide.html"/>
   <id>https://google.github.io/styleguide/pyguide.html</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>PEP 8’in üstüne Google’ın kendi eklemeleri: docstring biçimi, içe aktarma düzeni, tip ipucu kullanımı. Büyük kod tabanlarında tutarlılık için.</summary>
+  <summary>Python üslup kılavuzu. PEP 8’den farkı üstüne eklenen Google kuralları: docstring biçimi, içe aktarma düzeni, tip ipucu kullanımı — büyük kod tabanlarında tutarlılık için.</summary>
 </entry>
 <entry>
   <title>Hata Nasıl Bildirilir</title>
   <link href="https://www.chiark.greenend.org.uk/~sgtatham/bugs.html"/>
   <id>https://www.chiark.greenend.org.uk/~sgtatham/bugs.html</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Etkili hata raporu yazmanın klasik metni; PuTTY’nin yazarından. Açık kaynak projelere katkı verecek herkesin bir kez okuması gereken kısa bir yazı.</summary>
+  <summary>PuTTY’nin yazarından etkili hata raporu yazmanın klasik metni. Proje hata şablonlarından farkı neyin neden gerektiğini anlatması; açık kaynağa katkı verecek herkesin bir kez okuması gereken kısa bir yazı.</summary>
 </entry>
 <entry>
   <title>JavaScript Standard Style</title>
   <link href="https://standardjs.com"/>
   <id>https://standardjs.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Yapılandırma dosyası olmayan JavaScript biçimlendirici; tartışmayı bitirmek için tüm kararları kendisi veriyor. Airbnb’nin esnekliğinin karşı kutbu.</summary>
+  <summary>Yapılandırma dosyası olmayan JavaScript biçimlendirici ve linter; tartışmayı bitirmek için tüm kararları kendisi veriyor. Airbnb kılavuzunun aksine özelleştirmeye kapalı.</summary>
 </entry>
 <entry>
   <title>Mastering Markdown</title>
@@ -249,41 +249,41 @@
   <link href="https://overapi.com"/>
   <id>https://overapi.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Dil ve çatı kopya kâğıtlarını tek sayfada toplayan dizin; görsel olarak yoğun ama aradığını hızlı buluyorsun.</summary>
+  <summary>Dil ve çatı kopya kâğıtlarını tek sayfada toplayan dizin. Devhints’e kıyasla görsel olarak daha yoğun ama aradığın komutu hızlı buluyorsun; her madde resmî belgeye bağlanıyor.</summary>
 </entry>
 <entry>
   <title>Ruby Üslup Kılavuzu</title>
-  <link href="https://github.com/bbatsov/ruby-style-guide"/>
-  <id>https://github.com/bbatsov/ruby-style-guide</id>
+  <link href="https://github.com/rubocop/ruby-style-guide"/>
+  <id>https://github.com/rubocop/ruby-style-guide</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Topluluk tarafından yazılmış Ruby üslup kılavuzu; RuboCop aracının varsayılan kural setinin temeli.</summary>
+  <summary>Topluluk tarafından yazılmış Ruby üslup kılavuzu; RuboCop aracının varsayılan kural setinin temeli. Tek bir şirketin iç kılavuzundan farkı topluluk uzlaşısını yansıtması.</summary>
 </entry>
 <entry>
-  <title>Rust Biçimlendirme Kuralları</title>
-  <link href="https://github.com/rust-dev-tools/fmt-rfcs"/>
-  <id>https://github.com/rust-dev-tools/fmt-rfcs</id>
+  <title>Rust Üslup Kılavuzu</title>
+  <link href="https://doc.rust-lang.org/stable/style-guide/"/>
+  <id>https://doc.rust-lang.org/stable/style-guide/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>rustfmt’in uyguladığı biçimlendirme kararlarının gerekçeleriyle tartışıldığı depo; aracın neden öyle davrandığını buradan öğreniyorsun.</summary>
+  <summary>Rust’ın resmî biçimlendirme kılavuzu; rustfmt’in varsayılan davranışını tanımlıyor. rustfmt belgelerinden farkı kararların kendisini ve gerekçesini yazması: aracın neden öyle davrandığını buradan öğreniyorsun.</summary>
 </entry>
 <entry>
   <title>SourceMaking</title>
   <link href="https://sourcemaking.com/"/>
   <id>https://sourcemaking.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Tasarım desenleri, kod kokuları ve yeniden düzenleme tekniklerini örneklerle anlatan referans. Refactoring Guru’nun yanında ikinci bakış olarak işe yarıyor.</summary>
+  <summary>Tasarım desenleri, kod kokuları ve yeniden düzenleme tekniklerini örneklerle anlatan referans. Refactoring Guru’dan farkı anti-desenleri ve UML’i de kapsaması; ikinci bir bakış olarak işe yarıyor.</summary>
 </entry>
 <entry>
   <title>Uber Go Üslup Kılavuzu</title>
   <link href="https://github.com/uber-go/guide"/>
   <id>https://github.com/uber-go/guide</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Go’da üretim kodu yazarken karşılaşılan tuzakları ve tercih edilen kalıpları derliyor; resmî Effective Go’nun bıraktığı yerden devam ediyor.</summary>
+  <summary>Go’da üretim kodu yazarken karşılaşılan tuzakları ve tercih edilen kalıpları derliyor. Resmî Effective Go’dan farkı onun bıraktığı yerden devam edip gerçek üretim deneyiminden gelen kuralları eklemesi.</summary>
 </entry>
 <entry>
   <title>BTK Terimler Sözlüğü</title>
   <link href="https://www.btkakademi.gov.tr/portal/public/terimlersozlugu"/>
   <id>https://www.btkakademi.gov.tr/portal/public/terimlersozlugu</id>
   <updated>2026-07-16T05:51:24Z</updated>
-  <summary>Bilişim terimlerinin resmî Türkçe karşılıkları. Belge, sunum ya da çeviri yaparken terim tutarlılığı için başvurulacak yer.</summary>
+  <summary>Bilişim terimlerinin resmî Türkçe karşılıkları. Genel sözlüklerden farkı bilişime özgü ve resmî olması: belge, sunum ya da çeviride terim tutarlılığı için başvurulacak yer.</summary>
 </entry>
 </feed>
