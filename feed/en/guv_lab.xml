@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title>CTF &amp; Hands-on Labs — Useful Sites</title>
+<subtitle>A hand-curated, annotated link directory across ten areas, from software and AI to security, economics and architecture. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/guv_lab.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/guv_lab.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/en/guv_lab.xml</id>
+<updated>2026-09-18T00:00:00Z</updated>
+<entry>
+  <title>Awesome CTF</title>
+  <link href="https://github.com/apsdehal/awesome-ctf"/>
+  <id>https://github.com/apsdehal/awesome-ctf</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of tools, wargames and tutorials for Capture The Flag. Unlike a single contest it gives the whole toolchain needed to prepare, category by category.</summary>
+</entry>
+<entry>
+  <title>bWAPP</title>
+  <link href="https://www.itsecgames.com/"/>
+  <id>https://www.itsecgames.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A downloadable, deliberately vulnerable app containing 100+ web vulnerabilities. Unlike online targets it lets you practise on your own machine, isolated and without limits.</summary>
+</entry>
+<entry>
+  <title>Damn Vulnerable iOS App</title>
+  <link href="https://damnvulnerableiosapp.com/"/>
+  <id>https://damnvulnerableiosapp.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A deliberately vulnerable iOS app for learning mobile security.</summary>
+</entry>
+<entry>
+  <title>Firing Range</title>
+  <link href="https://public-firing-range.appspot.com/"/>
+  <id>https://public-firing-range.appspot.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A Google-built test target hosting many application-security issues.</summary>
+</entry>
+<entry>
+  <title>Gin &amp; Juice Shop</title>
+  <link href="https://ginandjuice.shop/"/>
+  <id>https://ginandjuice.shop/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A modern, vulnerability-filled web app practice target built by PortSwigger.</summary>
+</entry>
+<entry>
+  <title>Google Gruyere</title>
+  <link href="https://google-gruyere.appspot.com/"/>
+  <id>https://google-gruyere.appspot.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Google’s “full of holes” codelab teaching web application flaws. Unlike pure theory it has you find each flaw and both exploit and patch it.</summary>
+</entry>
+<entry>
+  <title>LabEx Cybersecurity Labs</title>
+  <link href="https://labex.io/learn/cybersecurity"/>
+  <id>https://labex.io/learn/cybersecurity</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Hands-on, in-browser labs covering penetration testing and web security.</summary>
+</entry>
+<entry>
+  <title>OWASP Juice Shop</title>
+  <link href="https://owasp.org/www-project-juice-shop/"/>
+  <id>https://owasp.org/www-project-juice-shop/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A modern web app deliberately full of vulnerabilities — a target for learning security. Unlike dry material it lets you exploit dozens of flaws by hand in a real application.</summary>
+</entry>
+<entry>
+  <title>OWASP Vulnerable Web Apps Directory</title>
+  <link href="https://owasp.org/www-project-vulnerable-web-applications-directory/"/>
+  <id>https://owasp.org/www-project-vulnerable-web-applications-directory/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>OWASP’s directory of other deliberately vulnerable web apps for training.</summary>
+</entry>
+<entry>
+  <title>Hack The Box Academy</title>
+  <link href="https://academy.hackthebox.com/"/>
+  <id>https://academy.hackthebox.com/</id>
+  <updated>2026-08-26T20:53:20Z</updated>
+  <summary>Module-based learning with practical certifications such as CPTS and CBBH. Against OSCP the learning path lives on the same platform as the exam and costs markedly less; in exchange, employer recognition is not yet at OSCP’s level.</summary>
+</entry>
+<entry>
+  <title>CTF 101</title>
+  <link href="https://ctf101.org/"/>
+  <id>https://ctf101.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A ground-up guide to the categories in Capture the Flag competitions: reverse engineering, cryptography, forensics, web. Unlike a competition platform it hands you the fundamentals rather than challenges — the thing to read before your first CTF.</summary>
+</entry>
+<entry>
+  <title>Google CTF</title>
+  <link href="https://github.com/google/google-ctf"/>
+  <id>https://github.com/google/google-ctf</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Every challenge from Google’s CTF competitions, with source code and solutions. Unlike other archives the challenge infrastructure is published too, so you can stand the whole thing up locally and work through it.</summary>
+</entry>
+<entry>
+  <title>Trail of Bits CTF Field Guide</title>
+  <link href="https://trailofbits.github.io/ctf/"/>
+  <id>https://trailofbits.github.io/ctf/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>The CTF guide from the security firm Trail of Bits, laying out which skill each category needs and how to build it. Deeper than CTF101, and it bridges toward professional security work rather than stopping at the competition.</summary>
+</entry>
+<entry>
+  <title>CTFtime</title>
+  <link href="https://ctftime.org/"/>
+  <id>https://ctftime.org/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A site scheduling Capture The Flag competitions worldwide and keeping team rankings. Unlike scattered announcements it gathers which contest is when in one place.</summary>
+</entry>
+<entry>
+  <title>Web Security Academy</title>
+  <link href="https://portswigger.net/web-security"/>
+  <id>https://portswigger.net/web-security</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>PortSwigger’s free, hands-on web-security course — a live lab for each vulnerability. Unlike theory courses it has you perform the attack on a real target.</summary>
+</entry>
+<entry>
+  <title>Cicada 3301 Çözüm Rehberi</title>
+  <link href="https://www.boxentriq.com/guides/cicada-3301-first-puzzle-walkthrough"/>
+  <id>https://www.boxentriq.com/guides/cicada-3301-first-puzzle-walkthrough</id>
+  <updated>2026-07-29T06:34:40Z</updated>
+  <summary>A step-by-step solution of the internet’s best-known puzzle, chaining steganography, book ciphers and Tor hidden services — a good example of how techniques link together.</summary>
+</entry>
+<entry>
+  <title>Çözülmemiş Tarihî Şifreler</title>
+  <link href="https://en.wikipedia.org/wiki/Category:Undeciphered_historical_codes_and_ciphers"/>
+  <id>https://en.wikipedia.org/wiki/Category:Undeciphered_historical_codes_and_ciphers</id>
+  <updated>2026-07-29T06:33:44Z</updated>
+  <summary>The category of ciphers still unbroken, the Voynich manuscript and Beale ciphers among them. Each stands as an open problem.</summary>
+</entry>
+<entry>
+  <title>Çözülmemiş Şifreli Metinler</title>
+  <link href="https://en.wikipedia.org/wiki/List_of_ciphertexts"/>
+  <id>https://en.wikipedia.org/wiki/List_of_ciphertexts</id>
+  <updated>2026-07-29T06:16:44Z</updated>
+  <summary>A list of solved and unsolved historical ciphertexts — real material for cryptanalysis practice instead of synthetic exercises.</summary>
+</entry>
+<entry>
+  <title>Uygulamalı Güvenlik</title>
+  <link href="https://www.youtube.com/watch?v=p3vaaD9pn9I"/>
+  <id>https://www.youtube.com/watch?v=p3vaaD9pn9I</id>
+  <updated>2026-04-06T11:28:37Z</updated>
+  <summary>A hands-on walkthrough showing a technique in operation — best watched after the theory.</summary>
+</entry>
+<entry>
+  <title>90 Days of Cyber Security</title>
+  <link href="https://github.com/farhanashrafdev/90DaysOfCyberSecurity"/>
+  <id>https://github.com/farhanashrafdev/90DaysOfCyberSecurity</id>
+  <updated>2026-04-05T20:38:10Z</updated>
+  <summary>A study plan split across ninety days — networking, Linux, Python, then offence and defence. A dated schedule against the usual scattered resource list.</summary>
+</entry>
+<entry>
+  <title>OverTheWire Wargames</title>
+  <link href="https://overthewire.org/wargames/"/>
+  <id>https://overthewire.org/wargames/</id>
+  <updated>2025-12-25T06:07:24Z</updated>
+  <summary>Classic wargames you play by SSH, advancing level by level. The Bandit series is the harshest and most durable way to learn the Linux command line.</summary>
+</entry>
+<entry>
+  <title>Zodiac 340 Şifresinin Çözümü</title>
+  <link href="https://blog.wolfram.com/2021/03/24/the-solution-of-the-zodiac-killers-340-character-cipher/"/>
+  <id>https://blog.wolfram.com/2021/03/24/the-solution-of-the-zodiac-killers-340-character-cipher/</id>
+  <updated>2025-10-25T20:15:41Z</updated>
+  <summary>A technical account of how a homophonic substitution cipher unsolved for fifty-one years was broken — a real worked example of hypothesis and elimination.</summary>
+</entry>
+<entry>
+  <title>Siber Güvenlik Anlatımı</title>
+  <link href="https://www.youtube.com/watch?v=iCbOV8p6tD4"/>
+  <id>https://www.youtube.com/watch?v=iCbOV8p6tD4</id>
+  <updated>2025-08-02T12:44:12Z</updated>
+  <summary>A video introduction to security concepts, useful for seeing how the field branches.</summary>
+</entry>
+<entry>
+  <title>TryHackMe</title>
+  <link href="https://tryhackme.com/"/>
+  <id>https://tryhackme.com/</id>
+  <updated>2025-07-30T01:25:19Z</updated>
+  <summary>Guided labs that explain which tool you are using and why in each room. It holds your hand more than Hack The Box, which makes it the better first exposure to penetration testing.</summary>
+</entry>
+<entry>
+  <title>Hack The Box</title>
+  <link href="https://www.hackthebox.com/"/>
+  <id>https://www.hackthebox.com/</id>
+  <updated>2025-07-30T01:25:07Z</updated>
+  <summary>Realistic machines with no hints — reconnaissance and research are entirely on you. That difficulty is why it turns up so often in OSCP preparation.</summary>
+</entry>
+</feed>

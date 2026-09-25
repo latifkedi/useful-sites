@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title>Offence, Defence &amp; OSINT — Useful Sites</title>
+<subtitle>A hand-curated, annotated link directory across ten areas, from software and AI to security, economics and architecture. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/guv_teknik.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/en/guv_teknik.xml</id>
+<updated>2026-09-18T00:00:00Z</updated>
+<entry>
+  <title>Awesome CAPTCHA</title>
+  <link href="https://github.com/ZYSzys/awesome-captcha"/>
+  <id>https://github.com/ZYSzys/awesome-captcha</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of CAPTCHA types and libraries used to tell humans from bots.</summary>
+</entry>
+<entry>
+  <title>Awesome Crypto Papers</title>
+  <link href="https://github.com/pFarb/awesome-crypto-papers"/>
+  <id>https://github.com/pFarb/awesome-crypto-papers</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of theory-basics papers on cryptography for non-cryptographers.</summary>
+</entry>
+<entry>
+  <title>Awesome Cybersecurity Blue Team</title>
+  <link href="https://github.com/fabacab/awesome-cybersecurity-blueteam"/>
+  <id>https://github.com/fabacab/awesome-cybersecurity-blueteam</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of detection, monitoring and response tools for the defensive (blue team) side. Unlike offensive lists it focuses on protecting systems and catching incidents.</summary>
+</entry>
+<entry>
+  <title>Awesome Detection Engineering</title>
+  <link href="https://github.com/infosecB/awesome-detection-engineering"/>
+  <id>https://github.com/infosecB/awesome-detection-engineering</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Resources for designing and operating the detection rules that catch attacks. Unlike ready tools it leans into the engineering of “how to write good detections”.</summary>
+</entry>
+<entry>
+  <title>Awesome DevSecOps</title>
+  <link href="https://github.com/TaptuIT/awesome-devsecops"/>
+  <id>https://github.com/TaptuIT/awesome-devsecops</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of tools and practices embedding security into the CI/CD pipeline. Unlike separate security tests it places the checks inside the development flow.</summary>
+</entry>
+<entry>
+  <title>Awesome Honeypots</title>
+  <link href="https://github.com/paralax/awesome-honeypots"/>
+  <id>https://github.com/paralax/awesome-honeypots</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of decoy systems (honeypots) set up to lure attackers. Unlike general defence lists it focuses only on deception and early-warning tools.</summary>
+</entry>
+<entry>
+  <title>Awesome IAM</title>
+  <link href="https://github.com/kdeldycke/awesome-iam"/>
+  <id>https://github.com/kdeldycke/awesome-iam</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A resource list for user accounts, authentication and authorisation.</summary>
+</entry>
+<entry>
+  <title>Awesome Prompt Injection</title>
+  <link href="https://github.com/FonduAI/awesome-prompt-injection"/>
+  <id>https://github.com/FonduAI/awesome-prompt-injection</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of tools and papers on the “prompt injection” vulnerability specific to language models. Unlike classic security lists it looks only at the new attack surface of AI systems.</summary>
+</entry>
+<entry>
+  <title>Atypical OSINT Guide</title>
+  <link href="https://github.com/OffcierCia/non-typical-OSINT-guide"/>
+  <id>https://github.com/OffcierCia/non-typical-OSINT-guide</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A guide gathering OSINT techniques the usual tool lists skip — blockchain tracing, metadata, unconventional sources. Against standard OSINT lists it goes to the corners: it covers little-known methods rather than the tools everyone already names.</summary>
+</entry>
+<entry>
+  <title>Awesome Annual Security Reports</title>
+  <link href="https://github.com/jacobdjwilson/awesome-annual-security-reports"/>
+  <id>https://github.com/jacobdjwilson/awesome-annual-security-reports</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A list gathering the annual cybersecurity reports of research consultancies and government agencies in one place. Unlike reading a single report it is vendor-neutral: it sets them side by side so you can strip the marketing and compare the trends.</summary>
+</entry>
+<entry>
+  <title>Awesome Black Hat Tools</title>
+  <link href="https://github.com/UCYBERS/Awesome-Blackhat-Tools"/>
+  <id>https://github.com/UCYBERS/Awesome-Blackhat-Tools</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A list of tools officially presented at Black Hat events, and only those. Against general tool lists it has a bar to entry: each was demonstrated live on stage, so these are field-tested, vetted tools rather than random repositories.</summary>
+</entry>
+<entry>
+  <title>Awesome Game Security</title>
+  <link href="https://github.com/gmh5225/awesome-game-security"/>
+  <id>https://github.com/gmh5225/awesome-game-security</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A resource list specific to game security — anti-cheat, reverse engineering, protection bypasses. Unlike general reverse-engineering lists it centres on games, gathering domain-specific topics like anti-cheat systems and game protections together.</summary>
+</entry>
+<entry>
+  <title>Awesome Hacking</title>
+  <link href="https://github.com/Hack-with-Github/Awesome-Hacking"/>
+  <id>https://github.com/Hack-with-Github/Awesome-Hacking</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A list that collects awesome lists for hackers, pentesters and researchers. Unlike the individual topic lists it is the index above them: one door into dozens of sub-lists from OSINT to malware analysis.</summary>
+</entry>
+<entry>
+  <title>Awesome OSINT</title>
+  <link href="https://github.com/jivoi/awesome-osint"/>
+  <id>https://github.com/jivoi/awesome-osint</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A category-by-category list of open-source intelligence tools and resources (people, domains, social media, geolocation). Unlike a single-purpose OSINT tool it is the map: the field’s most-cited starting index for which tool fits which job.</summary>
+</entry>
+<entry>
+  <title>Awesome Web Security</title>
+  <link href="https://github.com/qazbnm456/awesome-web-security"/>
+  <id>https://github.com/qazbnm456/awesome-web-security</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A resource list focused on web security, split by attack class (XSS, SSRF, deserialisation). Against general hacking lists it is narrow and deep: it targets the web layer alone, gathering articles, tools and labs together for each vulnerability type.</summary>
+</entry>
+<entry>
+  <title>HackTricks</title>
+  <link href="https://hacktricks.wiki/"/>
+  <id>https://hacktricks.wiki/</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A knowledge base giving pentest, red-team, web, cloud and privilege-escalation techniques as step-by-step commands. Unlike conceptual security books it is directly runnable: every page is concrete enough to say “throw this command at that port, look for this in the output” — a field reference, not theory.</summary>
+</entry>
+<entry>
+  <title>Infosec Reference</title>
+  <link href="https://github.com/rmusser01/Infosec_Reference"/>
+  <id>https://github.com/rmusser01/Infosec_Reference</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A vast security reference under one roof — red team, blue team, DFIR, AppSec and more. Unlike single-topic awesome lists it is holistic: instead of hunting a separate list per specialism, one annotated, organised reference in a single place.</summary>
+</entry>
+<entry>
+  <title>MISP Warning Lists</title>
+  <link href="https://github.com/MISP/misp-warninglists"/>
+  <id>https://github.com/MISP/misp-warninglists</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>Ready-made lists for weeding false positives out of threat indicators — public DNS resolvers, known cloud ranges, public services. Unlike raw indicator feeds it is the noise filter: it marks the legitimate infrastructure that should not raise an alarm.</summary>
+</entry>
+<entry>
+  <title>Not The Hidden Wiki</title>
+  <link href="https://github.com/notthehiddenwiki/NTHW"/>
+  <id>https://github.com/notthehiddenwiki/NTHW</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>An open wiki gathering 5,000+ cybersecurity links sorted by specialism. Against the dark-web directories its name plays on, it is entirely clearnet and legitimate: a plain starting point for tools, publications and training recordings, not a hidden service.</summary>
+</entry>
+<entry>
+  <title>Offensive-Resources</title>
+  <link href="https://github.com/Zeyad-Azima/Offensive-Resources"/>
+  <id>https://github.com/Zeyad-Azima/Offensive-Resources</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A resource set covering every branch of offensive security — infrastructure, wireless, IoT, exploit development, cloud — together with labs. Unlike single-topic lists it is broad and lab-focused: it points to environments where you can practise, not just read.</summary>
+</entry>
+<entry>
+  <title>OSINT for Countries</title>
+  <link href="https://github.com/wddadk/OSINT-for-countries"/>
+  <id>https://github.com/wddadk/OSINT-for-countries</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A list that sorts OSINT resources by 193 countries and territories. Unlike global OSINT lists it is geographic: if you need a specific country’s public records, registries and local tools, you go straight to that heading.</summary>
+</entry>
+<entry>
+  <title>PoC-in-GitHub</title>
+  <link href="https://github.com/nomi-sec/PoC-in-GitHub"/>
+  <id>https://github.com/nomi-sec/PoC-in-GitHub</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A list that automatically harvests CVE proof-of-concept repositories from GitHub and updates daily. Against Trickest CVE it scans GitHub alone: for each vulnerability it states “this repo was published on this date” — the fastest route to a PoC (its README warns of malware).</summary>
+</entry>
+<entry>
+  <title>Snoop</title>
+  <link href="https://github.com/snooppr/snoop"/>
+  <id>https://github.com/snooppr/snoop</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A username hunter that searches one handle across hundreds of sites. Unlike tools such as Sherlock it weights the CIS/Russian-language web: it covers the regional platforms that western-focused tools miss.</summary>
+</entry>
+<entry>
+  <title>ThreatIntel-Reports</title>
+  <link href="https://github.com/mthcht/ThreatIntel-Reports"/>
+  <id>https://github.com/mthcht/ThreatIntel-Reports</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A repository that makes the content extracted from thousands of threat-intelligence reports searchable. Unlike the reports themselves it searches inside them: you enter a tool or APT-group name and it lists every report that mentions it at once.</summary>
+</entry>
+<entry>
+  <title>Trickest CVE</title>
+  <link href="https://github.com/trickest/cve"/>
+  <id>https://github.com/trickest/cve</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A repository that automatically gathers and keeps current every known CVE, with links to proof-of-concept code where it exists. Unlike official databases like the NVD it is exploit-focused: if you want to know where a vulnerability’s working code lives, it points straight to it.</summary>
+</entry>
+<entry>
+  <title>TweetFeed</title>
+  <link href="https://tweetfeed.live/"/>
+  <id>https://tweetfeed.live/</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A live IOC feed that collects malicious URLs, domains, IPs and hashes shared by the infosec community on Twitter/X, served as CSV/JSON/RSS/API. Unlike commercial threat feeds its source is open social posts and it is free: it turns researcher observations into real-time, machine-readable data.</summary>
+</entry>
+<entry>
+  <title>Dark Vortex</title>
+  <link href="https://0xdarkvortex.dev/"/>
+  <id>https://0xdarkvortex.dev/</id>
+  <updated>2026-08-26T20:53:20Z</updated>
+  <summary>Advanced courses on malware development and offensive tooling. Unlike penetration testing training it goes down to evasion and implant development — aimed at red team tool developers rather than at anyone collecting certificates.</summary>
+</entry>
+<entry>
+  <title>ISECOM</title>
+  <link href="https://www.isecom.org/"/>
+  <id>https://www.isecom.org/</id>
+  <updated>2026-08-26T20:53:20Z</updated>
+  <summary>The non-profit publishing the OSSTMM security testing methodology. Unlike the certification bodies its actual product is the method: a free, vendor-neutral standard describing how testing should be done.</summary>
+</entry>
+<entry>
+  <title>Limes Security</title>
+  <link href="https://limessecurity.com/"/>
+  <id>https://limessecurity.com/</id>
+  <updated>2026-08-26T20:53:20Z</updated>
+  <summary>An Austrian firm focused on industrial control systems and critical infrastructure, with OT security training. Against general security training it addresses the operational technology side — PLCs and SCADA.</summary>
+</entry>
+<entry>
+  <title>Awesome Fuzzing</title>
+  <link href="https://github.com/secfigo/Awesome-Fuzzing"/>
+  <id>https://github.com/secfigo/Awesome-Fuzzing</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A compilation of fuzzing resources: tools, books, talks, papers and practice environments. Against the OWASP page the difference is breadth — this is where you go after you understand the method.</summary>
+</entry>
+<entry>
+  <title>Cryptologie</title>
+  <link href="https://www.cryptologie.net/"/>
+  <id>https://www.cryptologie.net/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Cryptographer David Wong’s blog and notes on applied cryptography. Against academic papers it explains protocols from an implementer’s seat — not the theorem, but where real systems get it wrong.</summary>
+</entry>
+<entry>
+  <title>OWASP Fuzzing</title>
+  <link href="https://owasp.org/www-community/Fuzzing"/>
+  <id>https://owasp.org/www-community/Fuzzing</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>An introduction to fuzzing from OWASP’s own community pages: how it works, which tools exist, which classes of bug it finds. Against a tool’s own documentation it describes the method neutrally.</summary>
+</entry>
+<entry>
+  <title>SANS Cheat Sheets</title>
+  <link href="https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets/"/>
+  <id>https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>The SANS Institute’s security cheat sheets: forensics, incident response, memory analysis, the Windows registry. Unlike general cheat sheets these are built for use during an incident — which command yields which evidence.</summary>
+</entry>
+<entry>
+  <title>TinEye</title>
+  <link href="https://tineye.com/"/>
+  <id>https://tineye.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A reverse image search that finds where an image appears online and which copy is oldest. Against Google Images it looks for the same image rather than similar ones, which makes it better for finding a source or checking a fake profile.</summary>
+</entry>
+<entry>
+  <title>Bugcrowd</title>
+  <link href="https://www.bugcrowd.com/"/>
+  <id>https://www.bugcrowd.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A crowdsourced vulnerability (bug bounty) platform connecting companies with security researchers. Unlike individual programs it gathers many targets in one dashboard.</summary>
+</entry>
+<entry>
+  <title>Hak5</title>
+  <link href="https://www.youtube.com/user/Hak5Darren"/>
+  <id>https://www.youtube.com/user/Hak5Darren</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A security channel demonstrating penetration testing tools and techniques hands-on. Against theoretical treatments it goes to the hardware side — network implants and physical attack tools.</summary>
+</entry>
+<entry>
+  <title>Siber Güvenlik Başkanlığı</title>
+  <link href="https://siberguvenlik.gov.tr/"/>
+  <id>https://siberguvenlik.gov.tr/</id>
+  <updated>2026-07-20T11:09:35Z</updated>
+  <summary>Turkey’s cyber security authority, publishing national advisories, regulation and critical-infrastructure guidance.</summary>
+</entry>
+<entry>
+  <title>Robin</title>
+  <link href="https://github.com/apurvsinghgautam/robin"/>
+  <id>https://github.com/apurvsinghgautam/robin</id>
+  <updated>2026-04-20T11:44:32Z</updated>
+  <summary>An AI-assisted tool that expands queries and summarises results in dark web research, automating the sweep in an area where manual searching is slow.</summary>
+</entry>
+<entry>
+  <title>CyberNotes</title>
+  <link href="https://www.cybernotes.tech/"/>
+  <id>https://www.cybernotes.tech/</id>
+  <updated>2026-04-20T11:42:55Z</updated>
+  <summary>A tidy note archive of security topics, for recalling a command or method mid-lab.</summary>
+</entry>
+<entry>
+  <title>GhidraMCP</title>
+  <link href="https://github.com/lauriewired/ghidramcp"/>
+  <id>https://github.com/lauriewired/ghidramcp</id>
+  <updated>2026-04-06T11:25:19Z</updated>
+  <summary>Exposes Ghidra to an assistant over MCP, letting you delegate the tedious parts — reading disassembly, naming functions. A genuinely new workflow in binary analysis.</summary>
+</entry>
+</feed>

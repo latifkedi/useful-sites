@@ -1,122 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-<title>Economics &amp; Finance — Useful Sites</title>
+<title>Economics — Useful Sites</title>
 <subtitle>A hand-curated, annotated link directory across ten areas, from software and AI to security, economics and architecture. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
 <link href="https://latifkedi.github.io/useful-sites/feed/en/ekonomi.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/en/ekonomi.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/ekonomi.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
-  <title>Awesome AI in Finance</title>
-  <link href="https://github.com/georgezouq/awesome-ai-in-finance"/>
-  <id>https://github.com/georgezouq/awesome-ai-in-finance</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of tools, data and papers solving finance problems with machine learning. Unlike general finance lists it focuses on the AI intersection.</summary>
-</entry>
-<entry>
-  <title>Awesome Algorand</title>
-  <link href="https://github.com/aorumbayev/awesome-algorand"/>
-  <id>https://github.com/aorumbayev/awesome-algorand</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of developer resources for Algorand, a proof-of-stake blockchain.</summary>
-</entry>
-<entry>
-  <title>Awesome Billing</title>
-  <link href="https://github.com/kdeldycke/awesome-billing"/>
-  <id>https://github.com/kdeldycke/awesome-billing</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of engineering resources for payments, invoicing, pricing and accounting.</summary>
-</entry>
-<entry>
-  <title>Awesome Bitcoin</title>
-  <link href="https://github.com/igorbarinov/awesome-bitcoin"/>
-  <id>https://github.com/igorbarinov/awesome-bitcoin</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of services and tools for Bitcoin software development.</summary>
-</entry>
-<entry>
-  <title>Awesome Bitcoin Payment Processors</title>
-  <link href="https://github.com/alexk111/awesome-bitcoin-payment-processors"/>
-  <id>https://github.com/alexk111/awesome-bitcoin-payment-processors</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of processors and tools to start accepting Bitcoin payments.</summary>
-</entry>
-<entry>
-  <title>Awesome Coins</title>
-  <link href="https://github.com/Zheaoli/awesome-coins"/>
-  <id>https://github.com/Zheaoli/awesome-coins</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of cryptocurrency tools and algorithms — wallets, node software, libraries. Unlike price sites it collects the underlying technology, not the product.</summary>
-</entry>
-<entry>
-  <title>Awesome Cosmos</title>
-  <link href="https://github.com/cosmos/awesome-cosmos"/>
-  <id>https://github.com/cosmos/awesome-cosmos</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Cosmos, a modular framework for building app-specific blockchains.</summary>
-</entry>
-<entry>
-  <title>Awesome Credit Modeling</title>
-  <link href="https://github.com/mourarthur/awesome-credit-modeling"/>
-  <id>https://github.com/mourarthur/awesome-credit-modeling</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of methods for classifying credit applicants and modelling risk.</summary>
-</entry>
-<entry>
-  <title>Awesome Ethereum</title>
-  <link href="https://github.com/ttumiel/Awesome-Ethereum"/>
-  <id>https://github.com/ttumiel/Awesome-Ethereum</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of developer resources for Ethereum, the smart-contract platform.</summary>
-</entry>
-<entry>
-  <title>Awesome Ledger</title>
-  <link href="https://github.com/sfischer13/awesome-ledger"/>
-  <id>https://github.com/sfischer13/awesome-ledger</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for double-entry accounting on the command line (Ledger).</summary>
-</entry>
-<entry>
-  <title>Awesome Stock Trading</title>
-  <link href="https://github.com/shi-rudo/awesome-stock-trading"/>
-  <id>https://github.com/shi-rudo/awesome-stock-trading</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A collection of libraries, strategies and data sources for stock trading. Not investment advice; a list of the tooling in one place.</summary>
-</entry>
-<entry>
   <title>BIS — Bank for International Settlements</title>
   <link href="https://www.bis.org"/>
   <id>https://www.bis.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>The central bank of central banks; publishes global financial statistics and research papers.</summary>
-</entry>
-<entry>
-  <title>CoinGecko</title>
-  <link href="https://www.coingecko.com"/>
-  <id>https://www.coingecko.com</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Market data for thousands of crypto assets with broad coverage including DEXes and a free API.</summary>
-</entry>
-<entry>
-  <title>CoinMarketCap</title>
-  <link href="https://coinmarketcap.com"/>
-  <id>https://coinmarketcap.com</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Widely used crypto prices and rankings, providing the canonical market-cap listing.</summary>
-</entry>
-<entry>
-  <title>DefiLlama</title>
-  <link href="https://defillama.com"/>
-  <id>https://defillama.com</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>DeFi total-value-locked analytics across chains with an open, unbiased methodology and no token of its own.</summary>
-</entry>
-<entry>
-  <title>Dune</title>
-  <link href="https://dune.com"/>
-  <id>https://dune.com</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An analytics platform where the community builds dashboards with SQL queries over blockchain data.</summary>
 </entry>
 <entry>
   <title>EconJobMarket</title>
@@ -140,32 +35,11 @@
   <summary>An economics Q&amp;A site where you can ask experts about concepts and models. Unlike a forum, voting and editing surface the best answer.</summary>
 </entry>
 <entry>
-  <title>Etherscan</title>
-  <link href="https://etherscan.io"/>
-  <id>https://etherscan.io</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Ethereum's canonical block explorer, with transaction tracing, contract verification and an API.</summary>
-</entry>
-<entry>
-  <title>Finviz</title>
-  <link href="https://finviz.com"/>
-  <id>https://finviz.com</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A visual stock screener that scans the US market on one screen with a heatmap and dense filters.</summary>
-</entry>
-<entry>
   <title>FRED</title>
   <link href="https://fred.stlouisfed.org/"/>
   <id>https://fred.stlouisfed.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>The St. Louis Fed’s economic database — 800,000+ US and world series, with charting and an API. Unlike raw statistical releases, the browse-plot-download flow lives in one place.</summary>
-</entry>
-<entry>
-  <title>Glassnode</title>
-  <link href="https://glassnode.com"/>
-  <id>https://glassnode.com</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Crypto market intelligence through on-chain metrics and derived indicators.</summary>
 </entry>
 <entry>
   <title>IDEAS / RePEc</title>
@@ -189,20 +63,6 @@
   <summary>The IMF’s macro data — the standard reference for balance of payments, exchange rates and debt. It leans more to monetary and fiscal statistics than the World Bank.</summary>
 </entry>
 <entry>
-  <title>Investing.com</title>
-  <link href="https://www.investing.com"/>
-  <id>https://www.investing.com</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Multi-asset real-time quotes together with an economic calendar in broad coverage.</summary>
-</entry>
-<entry>
-  <title>Investopedia</title>
-  <link href="https://www.investopedia.com"/>
-  <id>https://www.investopedia.com</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A beginner-oriented encyclopedia that explains finance and investing terms dictionary-style with worked examples.</summary>
-</entry>
-<entry>
   <title>JOE · Job Openings for Economists</title>
   <link href="https://www.aeaweb.org/joe/"/>
   <id>https://www.aeaweb.org/joe/</id>
@@ -217,20 +77,6 @@
   <summary>A free video-and-exercise set teaching the basics of micro, macro and finance from scratch. Unlike university courses it targets the introductory level and intuition.</summary>
 </entry>
 <entry>
-  <title>Koyfin</title>
-  <link href="https://www.koyfin.com"/>
-  <id>https://www.koyfin.com</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Bloomberg-like analytics dashboards for equities and macro, offered with a generous free tier.</summary>
-</entry>
-<entry>
-  <title>Macrotrends</title>
-  <link href="https://www.macrotrends.net"/>
-  <id>https://www.macrotrends.net</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Free long-term charts of stocks and economic data going back decades.</summary>
-</entry>
-<entry>
   <title>Marginal Revolution</title>
   <link href="https://marginalrevolution.com/"/>
   <id>https://marginalrevolution.com/</id>
@@ -238,32 +84,11 @@
   <summary>Tyler Cowen and Alex Tabarrok’s daily economics blog — among the most-read in the field. Against news it offers a short, frequent stream of commentary through an economist’s lens.</summary>
 </entry>
 <entry>
-  <title>Messari</title>
-  <link href="https://messari.io"/>
-  <id>https://messari.io</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Research-grade profiles, governance data and reports for crypto assets.</summary>
-</entry>
-<entry>
   <title>MIT OCW · İktisat</title>
   <link href="https://ocw.mit.edu/courses/economics/"/>
   <id>https://ocw.mit.edu/courses/economics/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Over 100 courses across every major field of economics in MIT’s open courseware. Unlike YouTube playlists these are full course structures with prerequisites and reading lists.</summary>
-</entry>
-<entry>
-  <title>Musings on Markets (Aswath Damodaran)</title>
-  <link href="https://aswathdamodaran.blogspot.com"/>
-  <id>https://aswathdamodaran.blogspot.com</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Valuation professor Damodaran's writing and free datasets, an authoritative source on valuation frameworks.</summary>
-</entry>
-<entry>
-  <title>Nasdaq Data Link (Quandl)</title>
-  <link href="https://data.nasdaq.com/"/>
-  <id>https://data.nasdaq.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A service aggregating financial and economic data from many sources under one API (formerly Quandl). Instead of pulling scattered sources one by one, you get them through a common interface.</summary>
 </entry>
 <entry>
   <title>NBER Working Papers</title>
@@ -285,5 +110,68 @@
   <id>https://openstax.org/details/books/principles-economics-3e</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A free, openly licensed textbook for introductory university economics. Unlike commercial texts it is free and regularly updated, with PDF, web and print editions.</summary>
+</entry>
+<entry>
+  <title>Our World in Data</title>
+  <link href="https://ourworldindata.org"/>
+  <id>https://ourworldindata.org</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>University-backed research publication presenting long-run data on the economy, population, health and environment as interactive charts.</summary>
+</entry>
+<entry>
+  <title>QuantEcon</title>
+  <link href="https://quantecon.org/"/>
+  <id>https://quantecon.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Open-source lectures and libraries for computational economics (Python and Julia). Unlike pure theory it teaches building and solving models in code — the de facto standard for quantitative economics.</summary>
+</entry>
+<entry>
+  <title>RePEc</title>
+  <link href="https://repec.org/"/>
+  <id>https://repec.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A network of services for economics researchers: bibliography, working-paper feeds, blog aggregator. IDEAS is its front end; repec.org is the volunteer infrastructure behind it.</summary>
+</entry>
+<entry>
+  <title>RFE · Resources for Economists</title>
+  <link href="https://www.aeaweb.org/rfe/"/>
+  <id>https://www.aeaweb.org/rfe/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A guide of thousands of links for economists, maintained by the American Economic Association. A directory curated by the field itself rather than random search.</summary>
+</entry>
+<entry>
+  <title>SSRN Economics</title>
+  <link href="https://www.ssrn.com/index.cfm/en/econ/"/>
+  <id>https://www.ssrn.com/index.cfm/en/econ/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A preprint archive of economics working papers. Unlike NBER it is not tied to one institution: anyone can upload, so it is broader but less filtered.</summary>
+</entry>
+<entry>
+  <title>Statista</title>
+  <link href="https://www.statista.com"/>
+  <id>https://www.statista.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A statistics portal aggregating market and survey data across industries with sourcing.</summary>
+</entry>
+<entry>
+  <title>Trading Economics</title>
+  <link href="https://tradingeconomics.com"/>
+  <id>https://tradingeconomics.com</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Gathers macro indicators — GDP, inflation, rates — for 196 countries in one dashboard with historical series and forecasts.</summary>
+</entry>
+<entry>
+  <title>VoxEU / CEPR</title>
+  <link href="https://cepr.org/voxeu"/>
+  <id>https://cepr.org/voxeu</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A stream of columns where researchers explain their own work to a policy audience (CEPR). Unlike a working paper it drops the jargon and makes the finding accessible.</summary>
+</entry>
+<entry>
+  <title>World Bank Data</title>
+  <link href="https://data.worldbank.org/"/>
+  <id>https://data.worldbank.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>International macroeconomic time series, country by country. Unlike individual statistics offices it is comparable: hundreds of indicators under common definitions in one place.</summary>
 </entry>
 </feed>

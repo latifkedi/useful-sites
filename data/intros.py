@@ -16,14 +16,14 @@ INTROS = {
         'split is clear — SketchUp is for fast massing, Rhino handles free form, and Revit and Archicad '
         'unite drawings and data in one BIM model.'),
     'korsan': (
-        'Bu alan tek tek içerik sitelerini değil, iki şeyi toplar: nereye bakılacağını gösteren '
-        'meta-merkezler (FMHY, topluluk wiki’leri) ve büyük ölçüde yasal, açık kaynak medya araç '
-        'zinciri — Plex/Jellyfin sunar, *arr otomasyonu düzenler, qBittorrent ve SABnzbd indirir. '
-        'Araçlar meşrudur; onları nasıl kullandığın sana bağlı.',
-        'This field gathers not individual content sites but two things: meta-hubs that show where to '
-        'look (FMHY, community wikis) and the largely legal, open-source media toolchain — Plex/Jellyfin '
-        'serve, the *arr suite organises, qBittorrent and SABnzbd download. The tools are legitimate; '
-        'how you use them is up to you.'),
+        "Bu alan tek tek içerik sitelerini değil, iki şeyi toplar: nereye bakılacağını gösteren "
+        "meta-merkezler (FMHY, topluluk wiki’leri) ve otomasyon araç zinciri — *arr düzenler, "
+        "qBittorrent ve SABnzbd indirir. Buradaki kaynakların hukuki durumu ülkeden ülkeye değişir; "
+        "indirdiğin içeriğin telif durumunu bilmek senin sorumluluğunda.",
+        "This field gathers not individual content sites but two things: meta-hubs that show where to "
+        "look (FMHY, community wikis) and the automation toolchain — the *arr suite organises, "
+        "qBittorrent and SABnzbd download. The legal standing of these varies by country; knowing the "
+        "copyright status of what you fetch is your responsibility."),
     'veri_muh': (
         'Veri mühendisliği veriyi taşımak, dönüştürmek ve güvenilir kılmakla ilgilenir — analizden önceki '
         'katman. Spark ve Flink işler, Kafka taşır, dbt dönüştürür, Airflow ve Dagster orkestra eder; '
@@ -62,12 +62,12 @@ INTROS = {
         'and one that shows the picture do very different jobs. 3Blue1Brown and Seeing Theory bring the '
         'visual, Paul’s Notes and OpenIntro the ordered course, and math-as-code turns notation into code.'),
     'ekonomi': (
-        'İktisatta asıl mesele veri ile yorum arasındaki mesafe: World Bank, IMF ve FRED ham seriyi '
-        'verir, RePEc ve NBER onları neyin nasıl açıkladığını tartışan çalışmayı. Kripto ve borsa '
-        'başlıkları ayrı bir dünya — teknoloji listeleri, yatırım tavsiyesi değil.',
-        'In economics the real distance is between data and interpretation: World Bank, IMF and FRED '
-        'give the raw series, while RePEc and NBER give the work arguing what explains them. The crypto '
-        'and trading entries are a separate world — technology lists, not investment advice.'),
+        "İktisatta asıl mesele veri ile yorum arasındaki mesafe: World Bank, IMF ve FRED ham seriyi "
+        "verir, RePEc ve NBER onları neyin nasıl açıkladığını tartışan çalışmayı. Bir grafiğe bakarken "
+        "önce birimi ve dönemi kontrol et — nominal mi reel mi, kişi başı mı toplam mı.",
+        "In economics the real distance is between data and interpretation: World Bank, IMF and FRED "
+        "give the raw series, while RePEc and NBER give the work arguing what explains them. Before "
+        "reading a chart, check the unit and the period — nominal or real, per capita or total."),
     'ogrenme': (
         'Yol haritaları neyi hangi sırayla öğreneceğini, müfredatlar bütün bir programı verir. '
         'Ücretsiz olan çoğu kaynak burada üniversite dersi kalitesinde; asıl darboğaz erişim değil, '
@@ -131,12 +131,13 @@ INTROS = {
         'in Packet Tracer or Wireshark. The sysadmin material here is organised around certification '
         'syllabi, which turns it into an ordered plan.'),
     'guvenlik': (
-        'Laboratuvarlar iki gruba ayrılıyor: elinden tutanlar (TryHackMe) ve tutmayanlar (Hack The Box). '
-        'İkincisine hazır olmadan geçmek genelde vakit kaybı. Gizlilik araçlarını seçerken önce '
-        '“kimden korunuyorum” sorusunu cevapla — tehdit modeli olmadan araç listesi işe yaramaz.',
-        'The labs split into those that hold your hand (TryHackMe) and those that do not (Hack The Box); '
-        'moving to the second before you are ready usually wastes time. For privacy tools, answer “who am '
-        'I protecting against” first — without a threat model a tool list is useless.'),
+        "Gizlilik araçlarını seçerken önce “kimden korunuyorum” sorusunu cevapla — tehdit modeli "
+        "olmadan araç listesi işe yaramaz. Bir reklam ağından saklanmakla bir devletten saklanmak "
+        "farklı araçlar ister; çoğu kişi için parola yöneticisi ve iki adımlı doğrulama VPN’den önce "
+        "gelir.",
+        "For privacy tools, answer “who am I protecting against” first — without a threat model a tool "
+        "list is useless. Hiding from an ad network and hiding from a state call for different tools; "
+        "for most people a password manager and two-factor authentication come before a VPN."),
     'veri': (
         'Yığın oldukça durulmuş durumda: veri için pandas ya da Polars, klasik modeller için scikit-learn, '
         'derin öğrenme için PyTorch. Buradaki asıl beceri model seçmek değil, veriyi temizlemek — '
@@ -208,13 +209,14 @@ INTROS = {
         'conflated. Turkish academic material is scattered, so harvesters like DergiPark and Harman save '
         'real time against searching institution by institution.'),
     'barindirma': (
-        'Öz-barındırma bir bedel takasıdır: aylık ücret yerine bakım yükü alıyorsun. Yedeğini kim alacak, '
-        'güncellemeyi kim geçecek sorusunun cevabı sensen mantıklı; değilse bulut hizmeti daha ucuza gelir. '
-        'Buradaki kayıtların çoğu Docker ile tek komutta kalkıyor, asıl iş kurulumda değil sürdürmekte.',
-        'Self-hosting is a trade: you swap a monthly fee for a maintenance burden. It makes sense when the '
-        'answer to "who takes the backups and applies the updates" is you; otherwise a hosted service is '
-        'cheaper. Most of these come up in one Docker command — the work is not the install, it is the '
-        'keeping.'),
+        "Öz-barındırma bir bedel takasıdır: aylık ücret yerine bakım yükü alıyorsun. Yedeğini kim "
+        "alacak, güncellemeyi kim geçecek sorusunun cevabı sensen mantıklı; değilse bulut hizmeti daha "
+        "ucuza gelir. Medya sunucuları (Plex, Jellyfin) da burada. Kayıtların çoğu Docker ile tek "
+        "komutta kalkıyor; asıl iş kurulumda değil sürdürmekte.",
+        "Self-hosting is a trade: you swap a monthly fee for upkeep. It makes sense when the answer to "
+        "\"who backs it up, who applies the updates\" is you; otherwise a hosted service works out "
+        "cheaper. Media servers (Plex, Jellyfin) live here too. Most entries come up with one Docker "
+        "command; the real work is keeping them running, not installing them."),
     'yz_rag': (
         'Getirim (retrieval) tarafında asıl kararlar modelde değil hattın kendisinde: belgeyi nasıl '
         'parçalıyorsun, hangi gömme modelini kullanıyorsun, sonuçları yeniden sıralıyor musun. Vektör '
@@ -242,4 +244,41 @@ INTROS = {
         'your file; the local ones handle batches — the first for one image, the second for a hundred. Open '
         'source is genuinely level with commercial software in this area, with colour-managed professional '
         'workflows the one exception.'),
+    'guv_teknik': (
+        "Uygulayıcı kaynakları: sızma testi tekniği, savunma ve tespit mühendisliği, açık kaynak "
+        "istihbarat, CVE ve kavram kanıtı arşivleri. Burada izin her şeydir — yalnızca sahibi olduğun "
+        "ya da yazılı izin aldığın sistemlerde dene; hata ödül programlarının kapsamı bu yüzden "
+        "yazılıdır.",
+        "Practitioner resources: penetration-testing technique, defence and detection engineering, "
+        "open-source intelligence, CVE and proof-of-concept archives. Authorisation is everything here "
+        "— test only systems you own or have written permission for, which is why bug-bounty programmes "
+        "publish their scope."),
+    'guv_lab': (
+        "Laboratuvarlar iki gruba ayrılıyor: elinden tutanlar (TryHackMe) ve tutmayanlar (Hack The "
+        "Box). İkincisine hazır olmadan geçmek genelde vakit kaybı. Kasıtlı-zafiyetli uygulamaları "
+        "(Juice Shop, bWAPP) kendi makinende, internete açmadan çalıştır.",
+        "The labs split into those that hold your hand (TryHackMe) and those that do not (Hack The "
+        "Box); moving to the second before you are ready usually wastes time. Run the deliberately "
+        "vulnerable apps (Juice Shop, bWAPP) on your own machine, never exposed to the internet."),
+    'guv_kariyer': (
+        "Sertifikalar ikiye ayrılıyor: pratik sınavlılar (OSCP, PNPT, CPTS) ne yapabildiğini, çoktan "
+        "seçmeliler (CISSP, CEH) neyi bildiğini ölçer. İş ilanlarının istediğiyle alandakilerin saygı "
+        "duyduğu her zaman aynı değil; yol haritası bu farkı görmek için iyi bir başlangıç.",
+        "Certifications come in two kinds: practical exams (OSCP, PNPT, CPTS) measure what you can do, "
+        "multiple-choice ones (CISSP, CEH) what you know. What job ads ask for and what practitioners "
+        "respect are not always the same; the roadmap is a good place to see the difference."),
+    'finans': (
+        "Piyasa verisi, değerleme ve kripto araçları. Bunlar teknoloji ve veri kaynakları; yatırım "
+        "tavsiyesi değil. Ücretsiz katmanlar çoğunlukla gecikmeli veri verir — gerçek zamanlı görünen "
+        "her fiyatın kaynağına ve saatine bak.",
+        "Market data, valuation and crypto tools. These are technology and data sources, not investment "
+        "advice. Free tiers usually serve delayed data — check the source and timestamp of any price "
+        "that looks real-time."),
+    'acik_erisim': (
+        "Yasal açık erişim ve koruma: telifi düşmüş kitaplar, açık lisanslı ders kitapları, hakemli "
+        "açık dergiler ve web’in kendisini saklayan arşivler. Bir makale ödeme duvarında takıldığında "
+        "önce Unpaywall’a bak; çoğu çalışmanın yazarın yüklediği yasal bir kopyası vardır.",
+        "Legal open access and preservation: public-domain books, openly licensed textbooks, "
+        "peer-reviewed open journals and the archives that keep the web itself. When a paper sits "
+        "behind a paywall, try Unpaywall first — most work has a legal copy its author uploaded."),
 }

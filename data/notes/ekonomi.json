@@ -1,130 +1,5 @@
 [
   {
-    "url": "https://github.com/georgezouq/awesome-ai-in-finance",
-    "name": "Awesome AI in Finance",
-    "tags": [
-      "awesome-liste",
-      "github",
-      "veri-bilimi"
-    ],
-    "tr": "Finans problemlerini makine öğrenmesiyle çözen araç, veri ve makalelerin listesi. Genel finans listelerinden farkı yapay zekâ kesişimine odaklanması.",
-    "en": "A list of tools, data and papers solving finance problems with machine learning. Unlike general finance lists it focuses on the AI intersection.",
-    "src": "econ"
-  },
-  {
-    "url": "https://github.com/aorumbayev/awesome-algorand",
-    "name": "Awesome Algorand",
-    "tags": [
-      "awesome-liste",
-      "github"
-    ],
-    "tr": "Proof-of-stake blokzincir Algorand için geliştirici kaynakları listesi.",
-    "en": "A list of developer resources for Algorand, a proof-of-stake blockchain.",
-    "src": "awesomelist"
-  },
-  {
-    "url": "https://github.com/kdeldycke/awesome-billing",
-    "name": "Awesome Billing",
-    "tags": [
-      "awesome-liste",
-      "github",
-      "backend"
-    ],
-    "tr": "Ödeme, faturalama, fiyatlandırma ve muhasebe için mühendislik kaynakları listesi.",
-    "en": "A list of engineering resources for payments, invoicing, pricing and accounting.",
-    "src": "awesomelist"
-  },
-  {
-    "url": "https://github.com/igorbarinov/awesome-bitcoin",
-    "name": "Awesome Bitcoin",
-    "tags": [
-      "awesome-liste",
-      "github"
-    ],
-    "tr": "Bitcoin yazılımı geliştirmek için servis ve araç listesi.",
-    "en": "A list of services and tools for Bitcoin software development.",
-    "src": "awesomelist"
-  },
-  {
-    "url": "https://github.com/alexk111/awesome-bitcoin-payment-processors",
-    "name": "Awesome Bitcoin Payment Processors",
-    "tags": [
-      "awesome-liste",
-      "github"
-    ],
-    "tr": "Bitcoin ödemesi kabul etmeye başlamak için işlemci ve araç listesi.",
-    "en": "A list of processors and tools to start accepting Bitcoin payments.",
-    "src": "awesomelist"
-  },
-  {
-    "url": "https://github.com/Zheaoli/awesome-coins",
-    "name": "Awesome Coins",
-    "tags": [
-      "awesome-liste",
-      "github"
-    ],
-    "tr": "Kripto para araçları ve algoritmalarının listesi — cüzdanlar, düğüm yazılımları, kütüphaneler. Fiyat sitelerinden farkı ürünü değil altındaki teknolojiyi toplaması.",
-    "en": "A list of cryptocurrency tools and algorithms — wallets, node software, libraries. Unlike price sites it collects the underlying technology, not the product.",
-    "src": "econ"
-  },
-  {
-    "url": "https://github.com/cosmos/awesome-cosmos",
-    "name": "Awesome Cosmos",
-    "tags": [
-      "awesome-liste",
-      "github"
-    ],
-    "tr": "Uygulamaya özel blokzincir kuran Cosmos çatısı için kaynak listesi.",
-    "en": "A resource list for Cosmos, a modular framework for building app-specific blockchains.",
-    "src": "awesomelist"
-  },
-  {
-    "url": "https://github.com/mourarthur/awesome-credit-modeling",
-    "name": "Awesome Credit Modeling",
-    "tags": [
-      "awesome-liste",
-      "github",
-      "veri-bilimi"
-    ],
-    "tr": "Kredi başvurularını sınıflandırma ve risk modelleme yöntemleri listesi.",
-    "en": "A list of methods for classifying credit applicants and modelling risk.",
-    "src": "awesomelist"
-  },
-  {
-    "url": "https://github.com/ttumiel/Awesome-Ethereum",
-    "name": "Awesome Ethereum",
-    "tags": [
-      "awesome-liste",
-      "github"
-    ],
-    "tr": "Akıllı sözleşme platformu Ethereum için geliştirici kaynakları listesi.",
-    "en": "A list of developer resources for Ethereum, the smart-contract platform.",
-    "src": "awesomelist"
-  },
-  {
-    "url": "https://github.com/sfischer13/awesome-ledger",
-    "name": "Awesome Ledger",
-    "tags": [
-      "awesome-liste",
-      "github",
-      "cli"
-    ],
-    "tr": "Komut satırında çift taraflı muhasebe (Ledger) için kaynak listesi.",
-    "en": "A resource list for double-entry accounting on the command line (Ledger).",
-    "src": "awesomelist"
-  },
-  {
-    "url": "https://github.com/shi-rudo/awesome-stock-trading",
-    "name": "Awesome Stock Trading",
-    "tags": [
-      "awesome-liste",
-      "github"
-    ],
-    "tr": "Hisse senedi alım-satımı için kütüphane, strateji ve veri kaynaklarının derlemesi. Yatırım tavsiyesi değil; araçların bir arada listesi.",
-    "en": "A collection of libraries, strategies and data sources for stock trading. Not investment advice; a list of the tooling in one place.",
-    "src": "econ"
-  },
-  {
     "url": "https://www.bis.org",
     "name": "BIS — Bank for International Settlements",
     "tags": [
@@ -134,55 +9,6 @@
     ],
     "tr": "Merkez bankalarının merkez bankası; küresel finansal istatistikleri ve araştırma metinlerini yayımlar.",
     "en": "The central bank of central banks; publishes global financial statistics and research papers.",
-    "src": "econ"
-  },
-  {
-    "url": "https://www.coingecko.com",
-    "name": "CoinGecko",
-    "tags": [
-      "veri-bilimi",
-      "api",
-      "freemium"
-    ],
-    "tr": "Binlerce kripto varlığın piyasa verisini, merkeziyetsiz borsalar dahil geniş kapsam ve ücretsiz API ile sunar.",
-    "en": "Market data for thousands of crypto assets with broad coverage including DEXes and a free API.",
-    "src": "econ"
-  },
-  {
-    "url": "https://coinmarketcap.com",
-    "name": "CoinMarketCap",
-    "tags": [
-      "veri-bilimi",
-      "ücretsiz",
-      "api"
-    ],
-    "tr": "Kripto fiyat ve sıralamalarında yaygın kullanılan, piyasa değerine göre kanonik listeleme sağlar.",
-    "en": "Widely used crypto prices and rankings, providing the canonical market-cap listing.",
-    "src": "econ"
-  },
-  {
-    "url": "https://defillama.com",
-    "name": "DefiLlama",
-    "tags": [
-      "veri-bilimi",
-      "açık-kaynak",
-      "ücretsiz"
-    ],
-    "tr": "Zincirler genelinde DeFi kilitli değer (TVL) analitiği; açık ve tarafsız metodoloji, kendi tokeni yok.",
-    "en": "DeFi total-value-locked analytics across chains with an open, unbiased methodology and no token of its own.",
-    "src": "econ"
-  },
-  {
-    "url": "https://dune.com",
-    "name": "Dune",
-    "tags": [
-      "veri-bilimi",
-      "interaktif",
-      "freemium",
-      "api"
-    ],
-    "tr": "Blokzincir verisi üzerinde SQL sorgularıyla topluluk panoları kuran analitik platform.",
-    "en": "An analytics platform where the community builds dashboards with SQL queries over blockchain data.",
     "src": "econ"
   },
   {
@@ -222,30 +48,6 @@
     "src": "econ"
   },
   {
-    "url": "https://etherscan.io",
-    "name": "Etherscan",
-    "tags": [
-      "veri-bilimi",
-      "api",
-      "ücretsiz"
-    ],
-    "tr": "Ethereum'un kanonik blok gezgini; işlem izleme, sözleşme doğrulama ve API sağlar.",
-    "en": "Ethereum's canonical block explorer, with transaction tracing, contract verification and an API.",
-    "src": "econ"
-  },
-  {
-    "url": "https://finviz.com",
-    "name": "Finviz",
-    "tags": [
-      "interaktif",
-      "ücretsiz",
-      "freemium"
-    ],
-    "tr": "ABD borsasını tek ekranda ısı haritası ve yoğun filtrelerle tarayan görsel hisse tarayıcısı.",
-    "en": "A visual stock screener that scans the US market on one screen with a heatmap and dense filters.",
-    "src": "econ"
-  },
-  {
     "url": "https://fred.stlouisfed.org/",
     "name": "FRED",
     "tags": [
@@ -255,17 +57,6 @@
     ],
     "tr": "St. Louis Fed’in ekonomik veri tabanı — 800 binden fazla ABD ve dünya serisi, grafik ve API. Ham istatistik yayınlarından farkı gez-çiz-indir akışının tek yerde olması.",
     "en": "The St. Louis Fed’s economic database — 800,000+ US and world series, with charting and an API. Unlike raw statistical releases, the browse-plot-download flow lives in one place.",
-    "src": "econ"
-  },
-  {
-    "url": "https://glassnode.com",
-    "name": "Glassnode",
-    "tags": [
-      "veri-bilimi",
-      "freemium"
-    ],
-    "tr": "Zincir-üstü (on-chain) metrikler ve türev göstergelerle kripto piyasa istihbaratı.",
-    "en": "Crypto market intelligence through on-chain metrics and derived indicators.",
     "src": "econ"
   },
   {
@@ -304,30 +95,6 @@
     "src": "econ"
   },
   {
-    "url": "https://www.investing.com",
-    "name": "Investing.com",
-    "tags": [
-      "ücretsiz",
-      "freemium",
-      "veri-bilimi"
-    ],
-    "tr": "Çok varlıklı gerçek zamanlı kotasyon ve ekonomik takvimi geniş kapsamla bir arada verir.",
-    "en": "Multi-asset real-time quotes together with an economic calendar in broad coverage.",
-    "src": "econ"
-  },
-  {
-    "url": "https://www.investopedia.com",
-    "name": "Investopedia",
-    "tags": [
-      "referans",
-      "öğretici",
-      "ücretsiz"
-    ],
-    "tr": "Finans ve yatırım terimlerini sözlük düzeninde, çalışılmış örneklerle açıklayan başlangıç odaklı ansiklopedi.",
-    "en": "A beginner-oriented encyclopedia that explains finance and investing terms dictionary-style with worked examples.",
-    "src": "econ"
-  },
-  {
     "url": "https://www.aeaweb.org/joe/",
     "name": "JOE · Job Openings for Economists",
     "tags": [
@@ -351,30 +118,6 @@
     "src": "econ"
   },
   {
-    "url": "https://www.koyfin.com",
-    "name": "Koyfin",
-    "tags": [
-      "veri-bilimi",
-      "freemium",
-      "interaktif"
-    ],
-    "tr": "Hisse ve makro analiz için Bloomberg benzeri panoları cömert bir ücretsiz katmanla sunan platform.",
-    "en": "Bloomberg-like analytics dashboards for equities and macro, offered with a generous free tier.",
-    "src": "econ"
-  },
-  {
-    "url": "https://www.macrotrends.net",
-    "name": "Macrotrends",
-    "tags": [
-      "veri-bilimi",
-      "ücretsiz",
-      "interaktif"
-    ],
-    "tr": "Hisse ve ekonomik verilerin onlarca yıllık uzun vadeli grafiklerini ücretsiz sunar.",
-    "en": "Free long-term charts of stocks and economic data going back decades.",
-    "src": "econ"
-  },
-  {
     "url": "https://marginalrevolution.com/",
     "name": "Marginal Revolution",
     "tags": [
@@ -383,18 +126,6 @@
     ],
     "tr": "Tyler Cowen ve Alex Tabarrok’un günlük iktisat blogu — alandaki en çok okunanlardan. Habere göre farkı iktisatçı gözüyle, kısa ve sık yorum akışı olması.",
     "en": "Tyler Cowen and Alex Tabarrok’s daily economics blog — among the most-read in the field. Against news it offers a short, frequent stream of commentary through an economist’s lens.",
-    "src": "econ"
-  },
-  {
-    "url": "https://messari.io",
-    "name": "Messari",
-    "tags": [
-      "veri-bilimi",
-      "referans",
-      "freemium"
-    ],
-    "tr": "Kripto varlıklar için araştırma düzeyinde profiller, yönetişim verisi ve raporlar.",
-    "en": "Research-grade profiles, governance data and reports for crypto assets.",
     "src": "econ"
   },
   {
@@ -407,30 +138,6 @@
     ],
     "tr": "MIT’nin açık ders malzemesinde iktisadın tüm ana dallarını kapsayan 100’den fazla ders. YouTube derlemelerinden farkı önkoşul ve okuma listesiyle gelen tam ders yapısı.",
     "en": "Over 100 courses across every major field of economics in MIT’s open courseware. Unlike YouTube playlists these are full course structures with prerequisites and reading lists.",
-    "src": "econ"
-  },
-  {
-    "url": "https://aswathdamodaran.blogspot.com",
-    "name": "Musings on Markets (Aswath Damodaran)",
-    "tags": [
-      "akademik",
-      "referans",
-      "ücretsiz"
-    ],
-    "tr": "Değerleme profesörü Damodaran'ın yazıları ve ücretsiz veri setleriyle otoriter değerleme çerçeveleri.",
-    "en": "Valuation professor Damodaran's writing and free datasets, an authoritative source on valuation frameworks.",
-    "src": "econ"
-  },
-  {
-    "url": "https://data.nasdaq.com/",
-    "name": "Nasdaq Data Link (Quandl)",
-    "tags": [
-      "veri-bilimi",
-      "api",
-      "freemium"
-    ],
-    "tr": "Çok sayıda kaynaktan finansal ve ekonomik veriyi tek API altında toplayan servis (eski adı Quandl). Dağınık kaynakları tek tek çekmek yerine ortak bir arayüzden alıyorsun.",
-    "en": "A service aggregating financial and economic data from many sources under one API (formerly Quandl). Instead of pulling scattered sources one by one, you get them through a common interface.",
     "src": "econ"
   },
   {
@@ -482,18 +189,6 @@
     ],
     "tr": "Ekonomi, nüfus, sağlık ve çevre üzerine uzun vadeli verileri etkileşimli grafiklerle sunan, üniversite kökenli araştırma yayını.",
     "en": "University-backed research publication presenting long-run data on the economy, population, health and environment as interactive charts.",
-    "src": "econ"
-  },
-  {
-    "url": "https://www.portfoliovisualizer.com",
-    "name": "Portfolio Visualizer",
-    "tags": [
-      "interaktif",
-      "freemium",
-      "veri-bilimi"
-    ],
-    "tr": "Portföy geriye dönük testi, Monte Carlo ve faktör analizini tarayıcıda yapan araç.",
-    "en": "Runs portfolio backtesting, Monte Carlo simulation and factor analysis in the browser.",
     "src": "econ"
   },
   {
@@ -556,17 +251,6 @@
     "src": "econ"
   },
   {
-    "url": "https://stockanalysis.com",
-    "name": "StockAnalysis",
-    "tags": [
-      "veri-bilimi",
-      "ücretsiz"
-    ],
-    "tr": "Hisse verisi ve finansallarını hızlı, sade ve cömert bir ücretsiz katmanla veren site.",
-    "en": "Fast, clean stock data and financials with a generous free tier.",
-    "src": "econ"
-  },
-  {
     "url": "https://tradingeconomics.com",
     "name": "Trading Economics",
     "tags": [
@@ -601,18 +285,6 @@
     ],
     "tr": "Uluslararası makroekonomik zaman serileri, ülke ülke. Tek tek istatistik ofislerinden farkı karşılaştırılabilir olması: yüzlerce göstergeyi ortak tanımlarla tek yerde topluyor.",
     "en": "International macroeconomic time series, country by country. Unlike individual statistics offices it is comparable: hundreds of indicators under common definitions in one place.",
-    "src": "econ"
-  },
-  {
-    "url": "https://finance.yahoo.com",
-    "name": "Yahoo Finance",
-    "tags": [
-      "veri-bilimi",
-      "ücretsiz",
-      "freemium"
-    ],
-    "tr": "Kotasyon, bilanço ve portföy takibini geniş ve ücretsiz kapsamla, tarihsel veri indirmeyle birlikte sunar.",
-    "en": "Quotes, financials and portfolio tracking with broad free coverage and historical data downloads.",
     "src": "econ"
   }
 ]

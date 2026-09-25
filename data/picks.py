@@ -158,6 +158,16 @@ PICKS = {
     'https://www.reddit.com/r/Piracy/wiki/megathread/',                              # r/Piracy Megathread
     'https://archive.org',                                                           # Internet Archive
     'https://www.gutenberg.org',                                                     # Project Gutenberg
+    # --- guvenlik alt kategorileri ve finans (taksonomi bolunmesi)
+    # --- guv_teknik
+    'https://hacktricks.wiki/',                                                      # HackTricks
+    'https://osintframework.com/',                                                   # OSINT Framework
+    'https://github.com/fabacab/awesome-cybersecurity-blueteam',                     # Awesome Cybersecurity Blue Team
+    # --- finans
+    'https://finance.yahoo.com',                                                     # Yahoo Finance
+    'https://www.coingecko.com',                                                     # CoinGecko
+    # --- guvenlik
+    'https://www.privacyguides.org/en/',                                             # Privacy Guides
 }
 
 

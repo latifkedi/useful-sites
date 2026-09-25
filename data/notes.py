@@ -59,7 +59,10 @@ CATS = [
     ('elektronik', 'Elektrik & Elektronik',         'Electrical & Electronics'),
     ('gozluk',     'Akıllı Gözlük & Giyilebilir',   'Smart Glasses & Wearables'),
     # -- Güvenlik
-    ('guvenlik',   'Güvenlik & Gizlilik',           'Security & Privacy'),
+    ('guvenlik',   'Gizlilik & Kişisel Güvenlik',   'Privacy & Personal Security'),
+    ('guv_teknik', 'Saldırı, Savunma & OSINT',      'Offence, Defence & OSINT'),
+    ('guv_lab',    'CTF & Uygulamalı Lab',          'CTF & Hands-on Labs'),
+    ('guv_kariyer', 'Sertifika & Kariyer',          'Certification & Career'),
     # -- Veri
     ('veri',       'Veri Bilimi & Makine Öğrenmesi', 'Data Science & ML'),
     ('veri_muh',   'Veri Mühendisliği',             'Data Engineering'),
@@ -68,7 +71,8 @@ CATS = [
     ('matematik',  'Matematik',                     'Mathematics'),
     ('kuantum',    'Kuantum Bilişim',               'Quantum Computing'),
     # -- Ekonomi & Finans
-    ('ekonomi',    'Ekonomi & Finans',              'Economics & Finance'),
+    ('ekonomi',    'Ekonomi',                       'Economics'),
+    ('finans',     'Finans, Piyasa & Kripto',       'Finance, Markets & Crypto'),
     # -- Tasarım & Medya
     ('medya',      'Medya, Tasarım & Dosya',        'Media, Design & Files'),
     ('mimari',     'Mimari & Yapı',                 'Architecture & Building'),
@@ -76,8 +80,9 @@ CATS = [
     ('ogrenme',    'Öğrenme & Yol Haritaları',      'Learning & Roadmaps'),
     ('referans',   'Referans & Koleksiyonlar',      'Reference & Collections'),
     ('araclar',    'Araçlar & Yardımcılar',         'Tools & Utilities'),
-    # -- Korsan & Arşiv
-    ('korsan',     'Korsan & FMHY',                 'Piracy & FMHY'),
+    # -- Açık Erişim & Korsan
+    ('acik_erisim', 'Açık Erişim & Arşiv',          'Open Access & Archives'),
+    ('korsan',     'Korsan',                        'Piracy'),
 ]
 
 # Top-level fields (üst-alan): each groups a run of categories. The homepage
@@ -91,19 +96,19 @@ GROUPS = [
     ('sistem',      'Altyapı & Sistem',   'Infrastructure & Systems',
      ['devops', 'ag', 'barindirma', 'donanim', 'elektronik', 'gozluk']),
     ('guvenlikalan', 'Güvenlik',          'Security',
-     ['guvenlik']),
+     ['guvenlik', 'guv_teknik', 'guv_lab', 'guv_kariyer']),
     ('verialan',    'Veri',               'Data',
      ['veri', 'veri_muh']),
     ('bilimmat',    'Bilim & Matematik',  'Science & Mathematics',
      ['bilim', 'matematik', 'kuantum']),
     ('ekonomialan', 'Ekonomi & Finans',   'Economics & Finance',
-     ['ekonomi']),
+     ['ekonomi', 'finans']),
     ('tasarim',     'Tasarım & Medya',    'Design & Media',
      ['medya', 'mimari']),
     ('ogrenmealan', 'Öğrenme & Referans', 'Learning & Reference',
      ['ogrenme', 'referans', 'araclar']),
-    ('korsanalan',  'Korsan & Arşiv',     'Piracy & Archive',
-     ['korsan']),
+    ('korsanalan',  'Açık Erişim & Korsan', 'Open Access & Piracy',
+     ['acik_erisim', 'korsan']),
 ]
 
 NOTES_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'notes')

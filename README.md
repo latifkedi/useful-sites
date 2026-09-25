@@ -4,7 +4,7 @@ https://latifkedi.github.io/useful-sites/
 
 An annotated directory of <!-- n -->1,900+<!-- /n --> links across ten areas, from
 software and AI to security, economics and architecture, organised into
-<!-- c -->32<!-- /c --> categories and published in Turkish and English.
+<!-- c -->37<!-- /c --> categories and published in Turkish and English.
 
 ## The ten areas
 
@@ -15,14 +15,14 @@ you pick an area, then browse its categories.
 |------|---------------|
 | **Yazılım · Software** | Languages, web, backend, mobile, databases, practice, testing, games. |
 | **Yapay Zeka · Artificial Intelligence** | Models, infrastructure, RAG, tooling, generation. |
-| **Altyapı & Sistem · Infrastructure & Systems** | DevOps, networking, hosting, hardware, electronics, wearables. |
-| **Güvenlik · Security** | Offensive and defensive security, learning grounds, references. |
+| **Altyapı & Sistem · Infrastructure & Systems** | DevOps, networking, self-hosting and media servers, hardware, electronics, wearables. |
+| **Güvenlik · Security** | Privacy; offence, defence and OSINT; CTFs and hands-on labs; certification and career. |
 | **Veri · Data** | Data sources and datasets, data engineering. |
 | **Bilim & Matematik · Science & Mathematics** | Science, mathematics, quantum. |
-| **Ekonomi & Finans · Economics & Finance** | Economics, finance, markets, crypto. |
+| **Ekonomi & Finans · Economics & Finance** | Economic data and research; markets, valuation and crypto. |
 | **Tasarım & Medya · Design & Media** | Design and media tools, architecture. |
 | **Öğrenme & Referans · Learning & Reference** | Learning paths, references, everyday tools. |
-| **Korsan & Arşiv · Piracy & Archive** | Open access, preservation and archives. |
+| **Açık Erişim & Korsan · Open Access & Piracy** | Legal open access and archives, kept apart from piracy meta-hubs and tooling. |
 
 The design leans on a quiet, monochrome line language — circles and simple
 geometry drawn from Sufi and Taoist motifs — kept plain on purpose.

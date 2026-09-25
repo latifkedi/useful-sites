@@ -32,13 +32,13 @@ var T = {
       yazilim:"Diller, web, backend, mobil, veritabanı, pratik, test ve oyun.",
       yapayzeka:"Modeller, altyapı, RAG, araçlar ve üretken yapay zeka.",
       sistem:"DevOps, ağ, barındırma, donanım, elektronik ve giyilebilir.",
-      guvenlikalan:"Saldırı ve savunma güvenliği, pratik sahalar, referanslar.",
+      guvenlikalan:"Gizlilik; saldırı, savunma ve OSINT; CTF ve laboratuvarlar; sertifika ve kariyer.",
       verialan:"Veri kaynakları, veri setleri ve veri mühendisliği.",
       bilimmat:"Bilim, matematik ve kuantum.",
-      ekonomialan:"Ekonomi, finans, piyasalar ve kripto.",
+      ekonomialan:"İktisat verisi ve araştırması; piyasa, değerleme ve kripto araçları.",
       tasarim:"Tasarım ve medya araçları, mimari.",
       ogrenmealan:"Yol haritaları, referanslar ve günlük araçlar.",
-      korsanalan:"Açık erişim, koruma ve arşivler."
+      korsanalan:"Yasal açık erişim ve arşivler; korsan meta-merkezleri ve araç zinciri."
     },
     areas:"Alanlar",
     qLabel:"Dizinde ara", themeLabel:"Temayı değiştir", topLabel:"Yukarı çık",
@@ -115,13 +115,13 @@ var T = {
       yazilim:"Languages, web, backend, mobile, databases, practice, testing and games.",
       yapayzeka:"Models, infrastructure, RAG, tooling and generative AI.",
       sistem:"DevOps, networking, hosting, hardware, electronics and wearables.",
-      guvenlikalan:"Offensive and defensive security, practice grounds, references.",
+      guvenlikalan:"Privacy; offence, defence and OSINT; CTFs and labs; certification and career.",
       verialan:"Data sources, datasets and data engineering.",
       bilimmat:"Science, mathematics and quantum.",
-      ekonomialan:"Economics, finance, markets and crypto.",
+      ekonomialan:"Economic data and research; market, valuation and crypto tools.",
       tasarim:"Design and media tools, architecture.",
       ogrenmealan:"Learning paths, references and everyday tools.",
-      korsanalan:"Open access, preservation and archives."
+      korsanalan:"Legal open access and archives; piracy meta-hubs and the toolchain."
     },
     areas:"Areas",
     qLabel:"Search the directory", themeLabel:"Toggle theme", topLabel:"Back to top",

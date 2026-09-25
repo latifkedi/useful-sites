@@ -275,6 +275,31 @@
     "src": "awesomeproj"
   },
   {
+    "url": "https://ipfs.tech/",
+    "name": "IPFS",
+    "tags": [
+      "açık-kaynak",
+      "ağ",
+      "gizlilik"
+    ],
+    "tr": "İçeriği adrese değil özüne (hash) göre adresleyen merkeziyetsiz dosya sistemi. Klasik barındırmadan farkı aynı dosyanın birçok düğümden, sansüre dirençli biçimde gelmesi.",
+    "en": "A decentralised file system that addresses content by its hash, not its location. Unlike classic hosting the same file can come from many nodes, resistant to censorship.",
+    "src": "piracy"
+  },
+  {
+    "url": "https://jellyfin.org/",
+    "name": "Jellyfin",
+    "tags": [
+      "self-hosted",
+      "referans",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Plex’in tümüyle açık kaynak, ücretsiz karşılığı; hiçbir özellik ödeme duvarında değil. Plex’ten farkı merkezî bir hesaba bağlı olmaması — her şey senin sunucunda.",
+    "en": "A fully open-source, free counterpart to Plex; no feature behind a paywall. Unlike Plex it is not tied to a central account — everything stays on your server.",
+    "src": "piracy"
+  },
+  {
     "url": "https://keepnote.org/",
     "name": "KeepNote",
     "tags": [
@@ -286,6 +311,19 @@
     "en": "A simple, portable notebook keeping notes as plain files on disk — a modest hedge against cloud note apps shutting down.",
     "src": "kedi",
     "added": 1753809782
+  },
+  {
+    "url": "https://kodi.tv/",
+    "name": "Kodi",
+    "tags": [
+      "self-hosted",
+      "referans",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Yerel ve ağ medyasını tek arayüzde toplayan açık kaynak medya merkezi yazılımı. Sunucu modelinden farkı doğrudan cihazda çalışıp eklentilerle genişlemesi.",
+    "en": "Open-source media-centre software gathering local and network media in one interface. Unlike the server model it runs directly on the device and extends through add-ons.",
+    "src": "piracy"
   },
   {
     "url": "https://www.koyeb.com",
@@ -394,6 +432,18 @@
     "src": "kedi"
   },
   {
+    "url": "https://www.plex.tv/",
+    "name": "Plex",
+    "tags": [
+      "self-hosted",
+      "referans",
+      "freemium"
+    ],
+    "tr": "Kendi medya kütüphaneni düzenleyip her cihaza yayınlayan sunucu. Klasör paylaşımından farkı afiş, özet ve altyazıyı otomatik toplayıp Netflix benzeri bir arayüz kurması.",
+    "en": "A server that organises your own media library and streams it to any device. Unlike folder sharing it auto-fetches posters, summaries and subtitles and builds a Netflix-like interface.",
+    "src": "piracy"
+  },
+  {
     "url": "https://railway.app",
     "name": "Railway",
     "tags": [
@@ -463,6 +513,18 @@
     "tr": "Cihazlar arası sürekli dosya eşitleme; merkezî sunucu yok, cihazlar doğrudan konuşuyor. Dropbox’tan farkı buluta hiç kopya çıkmaması — depolama kotası da yok, diskin kadar yer var.",
     "en": "Continuous file synchronisation between devices with no central server: the devices talk directly. Unlike Dropbox no copy ever reaches a cloud, and there is no storage quota — you have as much room as you have disk.",
     "src": "cdcruz"
+  },
+  {
+    "url": "https://tautulli.com/",
+    "name": "Tautulli",
+    "tags": [
+      "self-hosted",
+      "açık-kaynak",
+      "gözlemlenebilirlik"
+    ],
+    "tr": "Plex sunucundaki izlenmeleri ve kullanıcıları izleyip raporlayan araç. Plex’in kendi istatistiğinden farkı ayrıntılı geçmiş, bildirim ve grafik sunması.",
+    "en": "A tool that monitors and reports plays and users on your Plex server. Unlike Plex’s own stats it offers detailed history, notifications and charts.",
+    "src": "piracy"
   },
   {
     "url": "https://www.thunderbird.net/en-US/",
