@@ -18,7 +18,7 @@
   <link href="https://github.com/timofurrer/awesome-asyncio"/>
   <id>https://github.com/timofurrer/awesome-asyncio</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of libraries and resources for asynchronous I/O in Python 3 (asyncio).</summary>
+  <summary>A list of libraries and resources for asynchronous I/O in Python 3 (asyncio). Unlike general Python lists, it gathers only event-loop-friendly libraries — web frameworks, database drivers, test tools.</summary>
 </entry>
 <entry>
   <title>Awesome C++</title>
@@ -32,7 +32,7 @@
   <link href="https://github.com/onqtam/awesome-cmake"/>
   <id>https://github.com/onqtam/awesome-cmake</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of scripts, modules and resources for CMake, the C/C++ build tool.</summary>
+  <summary>A list of scripts, modules and resources for CMake, the C/C++ build tool. Unlike the official docs, it picks guides to target-based “modern CMake” practice and ready-made modules.</summary>
 </entry>
 <entry>
   <title>Awesome Common Lisp</title>
@@ -67,14 +67,14 @@
   <link href="https://github.com/faroit/awesome-python-scientific-audio"/>
   <id>https://github.com/faroit/awesome-python-scientific-audio</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of Python libraries for scientific research in audio/music.</summary>
+  <summary>A list of Python libraries for scientific research in audio/music. Unlike general audio tools it is research-oriented: feature extraction, music information retrieval, source separation.</summary>
 </entry>
 <entry>
   <title>Awesome Python Typing</title>
   <link href="https://github.com/typeddjango/awesome-python-typing"/>
   <id>https://github.com/typeddjango/awesome-python-typing</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of tools and resources for optional static typing in Python.</summary>
+  <summary>A list of tools and resources for optional static typing in Python. Unlike the mypy docs, it brings together type checkers (mypy, Pyright, Pyre), stub packages and runtime validators.</summary>
 </entry>
 <entry>
   <title>Awesome Ruby</title>
@@ -186,7 +186,7 @@
   <link href="https://github.com/svaksha/Julia.jl"/>
   <id>https://github.com/svaksha/Julia.jl</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A comprehensive list organising Julia packages and resources by topic.</summary>
+  <summary>A comprehensive list organising Julia packages and resources by topic. Unlike a package search, it hand-classifies packages by scientific field; some sections may be dated.</summary>
 </entry>
 <entry>
   <title>Kotlin</title>

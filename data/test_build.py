@@ -38,7 +38,7 @@ MIN_RECORDS = 1850
 MIN_CATEGORIES = 43
 
 MIN_DESC = 30
-DIFF_FLOOR = 0.53
+DIFF_FLOOR = 0.60
 # Comparative language in either description counts as saying how it differs.
 DIFF_TR = re.compile(r'(farkı|farklı|yerine|aksine|oysa|karşın|kıyasla|göre daha|değil|benzer|ayrıl|'
                      r'tersine|alternatif|daha (hafif|hızlı|basit|sade|derin|kapsamlı|az|çok|yeni|eski))', re.I)

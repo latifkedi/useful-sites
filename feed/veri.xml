@@ -11,21 +11,21 @@
   <link href="https://github.com/Esri/awesome-arcgis-developer"/>
   <id>https://github.com/Esri/awesome-arcgis-developer</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Haritalama ve konum analizi platformu ArcGIS için geliştirici kaynakları.</summary>
+  <summary>Haritalama ve konum analizi platformu ArcGIS için geliştirici kaynakları. Açık kaynak GIS listelerinden farkı ticari Esri ekosistemine odaklanması; listeyi Esri’nin kendisi sürdürüyor.</summary>
 </entry>
 <entry>
   <title>Awesome Core ML Models</title>
   <link href="https://github.com/likedan/Awesome-CoreML-Models"/>
   <id>https://github.com/likedan/Awesome-CoreML-Models</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Apple’ın Core ML çerçevesi için hazır makine öğrenmesi modelleri listesi.</summary>
+  <summary>Apple’ın Core ML çerçevesi için hazır makine öğrenmesi modelleri listesi. Genel model depolarından farkı hepsinin iOS/macOS’ta cihaz üzerinde çalışacak Core ML biçiminde olması; listenin bir kısmı eski.</summary>
 </entry>
 <entry>
   <title>Awesome CSV</title>
   <link href="https://github.com/secretGeek/awesomeCSV"/>
   <id>https://github.com/secretGeek/awesomeCSV</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Tablo verisi saklayan CSV biçimi için araç ve kaynak listesi.</summary>
+  <summary>Tablo verisi saklayan CSV biçimi için araç ve kaynak listesi. Sıkı şemalı biçimlerden (Parquet, JSON Schema) farkı CSV’nin gevşekliği; liste bu tuhaflıklarla başa çıkan komut satırı araçlarını ve kütüphaneleri topluyor.</summary>
 </entry>
 <entry>
   <title>Awesome Deep Learning</title>
@@ -46,42 +46,42 @@
   <link href="https://github.com/h2oai/awesome-h2o"/>
   <id>https://github.com/h2oai/awesome-h2o</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Açık kaynak dağıtık makine öğrenmesi platformu H2O için kaynak listesi.</summary>
+  <summary>Açık kaynak dağıtık makine öğrenmesi platformu H2O için kaynak listesi. scikit-learn’den farkı bir kümede dağıtık çalışması ve AutoML’in yerleşik gelmesi.</summary>
 </entry>
 <entry>
   <title>Awesome JAX</title>
   <link href="https://github.com/n2cholas/awesome-jax"/>
   <id>https://github.com/n2cholas/awesome-jax</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Otomatik türev ve XLA derlemesi sunan JAX için kaynak listesi.</summary>
+  <summary>Otomatik türev ve XLA derlemesi sunan JAX için kaynak listesi. PyTorch’tan farkı fonksiyonel yaklaşımı: grad, jit ve vmap gibi dönüşümleri saf fonksiyonlara uyguluyorsun.</summary>
 </entry>
 <entry>
   <title>Awesome JSON</title>
   <link href="https://github.com/burningtree/awesome-json"/>
   <id>https://github.com/burningtree/awesome-json</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Metin tabanlı veri değişim biçimi JSON için araç ve kaynak listesi.</summary>
+  <summary>Metin tabanlı veri değişim biçimi JSON için araç ve kaynak listesi. Tek bir ayrıştırıcıdan farkı şema doğrulayıcılarını, jq gibi sorgu araçlarını ve dillere göre kütüphaneleri birlikte toplaması.</summary>
 </entry>
 <entry>
   <title>Awesome Jupyter</title>
   <link href="https://github.com/markusschanta/awesome-jupyter"/>
   <id>https://github.com/markusschanta/awesome-jupyter</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Kod, metin ve grafiği bir arada tutan Jupyter defterleri için kaynak listesi.</summary>
+  <summary>Kod, metin ve grafiği bir arada tutan Jupyter defterleri için kaynak listesi. Jupyter belgelerinden farkı çevredeki ekosistemi — uzantılar, çekirdekler, defteri uygulamaya ya da sunuma çeviren araçlar — toplaması.</summary>
 </entry>
 <entry>
   <title>Awesome NLG</title>
   <link href="https://github.com/accelerated-text/awesome-nlg"/>
   <id>https://github.com/accelerated-text/awesome-nlg</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Veriden veya diyalogdan metin üretimi (doğal dil üretimi) için kaynak listesi.</summary>
+  <summary>Veriden veya diyalogdan metin üretimi (doğal dil üretimi) için kaynak listesi. Genel NLP listelerinden farkı metni anlamaya değil üretmeye odaklanması; kayıtların önemli kısmı büyük dil modelleri öncesi yöntemlere ait.</summary>
 </entry>
 <entry>
   <title>Awesome OpenStreetMap</title>
   <link href="https://github.com/osmlab/awesome-openstreetmap"/>
   <id>https://github.com/osmlab/awesome-openstreetmap</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Açık harita verisi projesi OpenStreetMap için araç ve kaynak listesi.</summary>
+  <summary>Açık harita verisi projesi OpenStreetMap için araç ve kaynak listesi. Google Maps API’sinden farkı verinin açık lisanslı (ODbL) ve tamamen indirilebilir olması; liste düzenleyicileri, işleyicileri ve görüntüleyicileri topluyor.</summary>
 </entry>
 <entry>
   <title>Awesome Public Datasets</title>
@@ -102,7 +102,7 @@
   <link href="https://github.com/seriousran/awesome-qa"/>
   <id>https://github.com/seriousran/awesome-qa</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Doğal dilde soru sorma ve yanıtlama (QA) için kaynak listesi.</summary>
+  <summary>Doğal dilde soru sorma ve yanıtlama (QA) için kaynak listesi. Genel NLP listelerinden farkı yalnız soru yanıtlamaya — veri kümeleri, modeller, makaleler — odaklanması.</summary>
 </entry>
 <entry>
   <title>Awesome R</title>
@@ -123,7 +123,7 @@
   <link href="https://github.com/jtoy/awesome-tensorflow"/>
   <id>https://github.com/jtoy/awesome-tensorflow</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Makine zekâsı kütüphanesi TensorFlow için kaynak ve model listesi.</summary>
+  <summary>Makine zekâsı kütüphanesi TensorFlow için kaynak ve model listesi. Resmî belgelerden farkı topluluk öğreticilerini, modellerini ve projelerini toplaması; kayıtların bir kısmı TensorFlow 1 dönemine ait.</summary>
 </entry>
 <entry>
   <title>AWS Open Data Registry</title>

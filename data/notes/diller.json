@@ -56,8 +56,8 @@
       "github",
       "python"
     ],
-    "tr": "Python 3’te asenkron G/Ç (asyncio) için kütüphane ve kaynak listesi.",
-    "en": "A list of libraries and resources for asynchronous I/O in Python 3 (asyncio).",
+    "tr": "Python 3’te asenkron G/Ç (asyncio) için kütüphane ve kaynak listesi. Genel Python listelerinden farkı yalnız olay döngüsüyle uyumlu kütüphaneleri — web çatıları, veritabanı sürücüleri, test araçları — toplaması.",
+    "en": "A list of libraries and resources for asynchronous I/O in Python 3 (asyncio). Unlike general Python lists, it gathers only event-loop-friendly libraries — web frameworks, database drivers, test tools.",
     "src": "awesomelist"
   },
   {
@@ -93,8 +93,8 @@
       "github",
       "c-ailesi"
     ],
-    "tr": "C/C++ derleme aracı CMake için betik, modül ve kaynak listesi.",
-    "en": "A list of scripts, modules and resources for CMake, the C/C++ build tool.",
+    "tr": "C/C++ derleme aracı CMake için betik, modül ve kaynak listesi. Resmî belgelerden farkı hedef tabanlı “modern CMake” pratiklerini anlatan rehberleri ve hazır modülleri seçmesi.",
+    "en": "A list of scripts, modules and resources for CMake, the C/C++ build tool. Unlike the official docs, it picks guides to target-based “modern CMake” practice and ready-made modules.",
     "src": "awesomelist"
   },
   {
@@ -115,8 +115,8 @@
       "awesome-liste",
       "referans"
     ],
-    "tr": "Derleyici, yorumlayıcı ve çalışma zamanı kaynaklarının derlemesi; kitaplar, dersler ve açık kaynak derleyiciler ayrı ayrı listelenmiş.",
-    "en": "A collection of compiler, interpreter and runtime resources, with books, courses and open-source compilers listed separately.",
+    "tr": "Derleyici, yorumlayıcı ve çalışma zamanı kaynaklarının derlemesi; kitaplar, dersler ve açık kaynak derleyiciler ayrı ayrı listelenmiş. Tek bir ders kitabından farkı kuramı, gerçek derleyici kodlarını ve çalışma zamanı tasarımını yan yana koyması.",
+    "en": "A collection of compiler, interpreter and runtime resources, with books, courses and open-source compilers listed separately. Unlike a single textbook, it sets theory, real compiler source and runtime design side by side.",
     "src": "bwapsv"
   },
   {
@@ -175,8 +175,8 @@
       "python",
       "ses"
     ],
-    "tr": "Ses/müzik üzerine bilimsel araştırma için Python kütüphaneleri listesi.",
-    "en": "A list of Python libraries for scientific research in audio/music.",
+    "tr": "Ses/müzik üzerine bilimsel araştırma için Python kütüphaneleri listesi. Genel ses işleme araçlarından farkı araştırma odaklı olması: öznitelik çıkarma, müzik bilgi erişimi, kaynak ayrıştırma.",
+    "en": "A list of Python libraries for scientific research in audio/music. Unlike general audio tools it is research-oriented: feature extraction, music information retrieval, source separation.",
     "src": "awesomelist"
   },
   {
@@ -187,8 +187,8 @@
       "github",
       "python"
     ],
-    "tr": "Python’da isteğe bağlı statik tipleme için araç ve kaynak listesi.",
-    "en": "A list of tools and resources for optional static typing in Python.",
+    "tr": "Python’da isteğe bağlı statik tipleme için araç ve kaynak listesi. mypy belgelerinden farkı tip denetleyicilerini (mypy, Pyright, Pyre), stub paketlerini ve çalışma zamanı doğrulayıcılarını birlikte toplaması.",
+    "en": "A list of tools and resources for optional static typing in Python. Unlike the mypy docs, it brings together type checkers (mypy, Pyright, Pyre), stub packages and runtime validators.",
     "src": "awesomelist"
   },
   {
@@ -698,8 +698,8 @@
       "github",
       "veri-bilimi"
     ],
-    "tr": "Julia dili paket ve kaynaklarını konuya göre düzenleyen kapsamlı liste.",
-    "en": "A comprehensive list organising Julia packages and resources by topic.",
+    "tr": "Julia dili paket ve kaynaklarını konuya göre düzenleyen kapsamlı liste. Paket aramasından farkı paketleri bilim alanına göre elle sınıflandırması; bazı bölümleri eskimiş olabilir.",
+    "en": "A comprehensive list organising Julia packages and resources by topic. Unlike a package search, it hand-classifies packages by scientific field; some sections may be dated.",
     "src": "awesomelist"
   },
   {

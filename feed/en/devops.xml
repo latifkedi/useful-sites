@@ -25,28 +25,28 @@
   <link href="https://github.com/sdras/awesome-actions"/>
   <id>https://github.com/sdras/awesome-actions</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of ready actions for GitHub Actions, automating your workflow.</summary>
+  <summary>A list of ready actions for GitHub Actions, automating your workflow. Unlike the Marketplace it is curated, grouping proven actions by use.</summary>
 </entry>
 <entry>
   <title>Awesome Ansible</title>
   <link href="https://github.com/ansible-community/awesome-ansible"/>
   <id>https://github.com/ansible-community/awesome-ansible</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of roles and resources for Ansible, the Python-based IT configuration tool.</summary>
+  <summary>A list of roles and resources for Ansible, the Python-based IT configuration tool. Unlike Puppet and Chef, it works over SSH with no agent installed on the target machine.</summary>
 </entry>
 <entry>
   <title>Awesome Backstage</title>
   <link href="https://github.com/shano/awesome-backstage"/>
   <id>https://github.com/shano/awesome-backstage</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Backstage, building internal developer portals.</summary>
+  <summary>A resource list for Backstage, building internal developer portals. Unlike general DevOps lists, it gathers plugins, deployment examples and write-ups for this Spotify-born portal.</summary>
 </entry>
 <entry>
   <title>Awesome CDK</title>
   <link href="https://github.com/kolomied/awesome-cdk"/>
   <id>https://github.com/kolomied/awesome-cdk</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for the AWS CDK, defining infrastructure with real code.</summary>
+  <summary>A resource list for the AWS CDK, defining infrastructure with real code. Unlike Terraform, you write infrastructure in general-purpose languages such as TypeScript or Python instead of HCL, and it compiles to CloudFormation.</summary>
 </entry>
 <entry>
   <title>Awesome Kubernetes</title>
@@ -67,14 +67,14 @@
   <link href="https://github.com/virtualroot/awesome-opentofu"/>
   <id>https://github.com/virtualroot/awesome-opentofu</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for OpenTofu, the open-source fork of Terraform.</summary>
+  <summary>A resource list for OpenTofu, the open-source fork of Terraform. Unlike Terraform, it stays under an open-source (MPL) licence at the Linux Foundation; it was born when HashiCorp moved to the BSL in 2023.</summary>
 </entry>
 <entry>
   <title>Awesome Prometheus</title>
   <link href="https://github.com/roaldnefs/awesome-prometheus"/>
   <id>https://github.com/roaldnefs/awesome-prometheus</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of exporters and resources for Prometheus, the open-source monitoring system.</summary>
+  <summary>A list of exporters and resources for Prometheus, the open-source monitoring system. Unlike push-based monitoring it pulls metrics from targets; the list gathers exporters, dashboards and tools.</summary>
 </entry>
 <entry>
   <title>Awesome Splunk</title>
@@ -88,7 +88,7 @@
   <link href="https://github.com/shuaibiyy/awesome-terraform"/>
   <id>https://github.com/shuaibiyy/awesome-terraform</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of modules and resources for Terraform, managing infrastructure as code.</summary>
+  <summary>A list of modules and resources for Terraform, managing infrastructure as code. Unlike OpenTofu lists, it centres on HashiCorp’s original tool and its older, broader module ecosystem.</summary>
 </entry>
 <entry>
   <title>Chaos Mesh</title>

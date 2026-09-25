@@ -11,7 +11,7 @@
   <link href="https://github.com/Symbitic/awesome-babylonjs"/>
   <id>https://github.com/Symbitic/awesome-babylonjs</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Babylon.js, a 3D game engine for web and native.</summary>
+  <summary>A resource list for Babylon.js, a 3D game engine for web and native. Unlike Three.js it behaves like an engine rather than a rendering library: physics integration, the Inspector and the Playground come built in.</summary>
 </entry>
 <entry>
   <title>Awesome Flame</title>
@@ -81,7 +81,7 @@
   <link href="https://github.com/love2d-community/awesome-love2d"/>
   <id>https://github.com/love2d-community/awesome-love2d</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of resources and libraries for LÖVE, the Lua-based game engine.</summary>
+  <summary>A list of resources and libraries for LÖVE, the Lua-based game engine. Unlike engines with an editor such as Godot, it has none — everything is Lua code; the list gathers the libraries that fill that gap.</summary>
 </entry>
 <entry>
   <title>Awesome Minecraft</title>
@@ -102,21 +102,21 @@
   <link href="https://github.com/eug/awesome-opengl"/>
   <id>https://github.com/eug/awesome-opengl</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of libraries and tutorials for OpenGL, the 2D/3D rendering API.</summary>
+  <summary>A list of libraries and tutorials for OpenGL, the 2D/3D rendering API. Unlike Vulkan it is higher-level and easier to learn — still the most common way into graphics programming.</summary>
 </entry>
 <entry>
   <title>Awesome PICO-8</title>
   <link href="https://github.com/pico-8/awesome-PICO-8"/>
   <id>https://github.com/pico-8/awesome-PICO-8</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of games and tools for PICO-8, the retro-constrained fantasy console.</summary>
+  <summary>A list of games and tools for PICO-8, the retro-constrained fantasy console. Unlike general game engines, it has you build within deliberate limits — a 128×128 screen, 16 colours.</summary>
 </entry>
 <entry>
   <title>Awesome Vulkan</title>
   <link href="https://github.com/vinjn/awesome-vulkan"/>
   <id>https://github.com/vinjn/awesome-vulkan</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Vulkan, the low-overhead 3D graphics and compute API.</summary>
+  <summary>A resource list for Vulkan, the low-overhead 3D graphics and compute API. Unlike OpenGL it hands you the work the driver used to do — memory management, synchronisation: faster, but far more verbose.</summary>
 </entry>
 <entry>
   <title>Catlike Coding</title>

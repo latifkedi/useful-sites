@@ -60,28 +60,28 @@
   <link href="https://github.com/SrinivasanTarget/awesome-appium"/>
   <id>https://github.com/SrinivasanTarget/awesome-appium</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Appium, the mobile-app test-automation tool.</summary>
+  <summary>A resource list for Appium, the mobile-app test-automation tool. Unlike platform-specific tools such as Espresso or XCUITest, it drives Android and iOS from one API over the WebDriver protocol.</summary>
 </entry>
 <entry>
   <title>Awesome AVA</title>
   <link href="https://github.com/avajs/awesome-ava"/>
   <id>https://github.com/avajs/awesome-ava</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of plugins and resources for AVA, the JavaScript test runner.</summary>
+  <summary>A list of plugins and resources for AVA, the JavaScript test runner. Unlike Jest, it runs test files concurrently in separate processes by default.</summary>
 </entry>
 <entry>
   <title>Awesome CodeRabbit</title>
   <link href="https://github.com/coderabbitai/awesome-coderabbit"/>
   <id>https://github.com/coderabbitai/awesome-coderabbit</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for CodeRabbit, the AI-powered code-review platform.</summary>
+  <summary>A resource list for CodeRabbit, the AI-powered code-review platform. Unlike general AI code-review lists, it gathers only CodeRabbit configurations and sample rules; the company maintains it itself.</summary>
 </entry>
 <entry>
   <title>Awesome Gatling</title>
   <link href="https://github.com/aliesbelik/awesome-gatling"/>
   <id>https://github.com/aliesbelik/awesome-gatling</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Gatling, the Scala-based load- and performance-testing framework.</summary>
+  <summary>A resource list for Gatling, the Scala-based load- and performance-testing framework. Unlike JMeter, you write scenarios in code (Scala, Java, Kotlin) rather than clicking them together in a GUI.</summary>
 </entry>
 <entry>
   <title>Awesome JMeter</title>
@@ -109,7 +109,7 @@
   <link href="https://github.com/mojoaxel/awesome-regression-testing"/>
   <id>https://github.com/mojoaxel/awesome-regression-testing</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of visual-regression tools that verify changes did not break functionality or style.</summary>
+  <summary>A list of visual-regression tools that verify changes did not break functionality or style. Unlike unit tests, they compare screenshots and catch style breakages that code assertions cannot see.</summary>
 </entry>
 <entry>
   <title>Awesome Selenium</title>
@@ -130,7 +130,7 @@
   <link href="https://github.com/TheJambo/awesome-testing"/>
   <id>https://github.com/TheJambo/awesome-testing</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list gathering every branch of software testing — unit, end-to-end, performance, contract — with resources. You can also find the rest of this field’s practice sites here.</summary>
+  <summary>A list gathering every branch of software testing — unit, end-to-end, performance, contract — with resources. Unlike a single tool list, it pairs books and testing theory with the tools; you can also find the rest of this field’s practice sites here.</summary>
 </entry>
 <entry>
   <title>Beeceptor</title>

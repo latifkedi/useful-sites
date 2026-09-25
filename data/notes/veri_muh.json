@@ -78,8 +78,8 @@
       "github",
       "veri-bilimi"
     ],
-    "tr": "Dağıtık depolama ve işleme çatısı Hadoop için kaynak listesi.",
-    "en": "A resource list for Hadoop, the distributed storage and processing framework.",
+    "tr": "Dağıtık depolama ve işleme çatısı Hadoop için kaynak listesi. Spark gibi bellek içi motorların listelerinden farkı disk tabanlı HDFS ve MapReduce ekosistemine odaklanması.",
+    "en": "A resource list for Hadoop, the distributed storage and processing framework. Unlike lists for in-memory engines such as Spark, it focuses on the disk-based HDFS and MapReduce ecosystem.",
     "src": "awesomelist"
   },
   {
@@ -90,8 +90,8 @@
       "github",
       "veri-bilimi"
     ],
-    "tr": "Yüksek başarımlı hesaplama (HPC) için araç, kütüphane ve kaynak listesi.",
-    "en": "A list of tools, libraries and resources for high-performance computing (HPC).",
+    "tr": "Yüksek başarımlı hesaplama (HPC) için araç, kütüphane ve kaynak listesi. Genel DevOps listelerinden farkı küme yönetimine, Slurm gibi iş zamanlayıcılara ve MPI ile paralel programlamaya odaklanması.",
+    "en": "A list of tools, libraries and resources for high-performance computing (HPC). Unlike general DevOps lists, it focuses on cluster management, job schedulers such as Slurm and parallel programming with MPI.",
     "src": "awesomelist"
   },
   {

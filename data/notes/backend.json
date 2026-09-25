@@ -47,8 +47,8 @@
       "python",
       "veri-bilimi"
     ],
-    "tr": "Python ile veri panosu kuran Dash çatısı için kaynak listesi.",
-    "en": "A resource list for Dash, building data dashboards with Python.",
+    "tr": "Python ile veri panosu kuran Dash çatısı için kaynak listesi. Streamlit’ten farkı Plotly tabanlı olması ve geri çağırma (callback) modeliyle etkileşim üzerinde daha çok denetim vermesi.",
+    "en": "A resource list for Dash, building data dashboards with Python. Unlike Streamlit it is Plotly-based, and its callback model gives more control over interactivity.",
     "src": "awesomelist"
   },
   {
@@ -85,8 +85,8 @@
       "backend",
       "api"
     ],
-    "tr": "Gerçek zamanlı API ve pano sunan başsız CMS Directus için kaynak listesi.",
-    "en": "A resource list for Directus, the headless CMS offering a real-time API and dashboard.",
+    "tr": "Gerçek zamanlı API ve pano sunan başsız CMS Directus için kaynak listesi. Strapi gibi başsız CMS’lerden farkı mevcut bir SQL veritabanının üzerine oturup şemasını kendi biçimine zorlamaması.",
+    "en": "A resource list for Directus, the headless CMS offering a real-time API and dashboard. Unlike headless CMSes such as Strapi, it sits on top of an existing SQL database without forcing its schema into its own shape.",
     "src": "awesomelist"
   },
   {
@@ -98,8 +98,8 @@
       "php",
       "backend"
     ],
-    "tr": "PHP tabanlı içerik yönetim sistemi Drupal için modül ve kaynak listesi.",
-    "en": "A list of modules and resources for Drupal, the PHP-based CMS.",
+    "tr": "PHP tabanlı içerik yönetim sistemi Drupal için modül ve kaynak listesi. Genel CMS listelerinden farkı yalnız Drupal modüllerini, dağıtımlarını ve geliştirici araçlarını toplaması.",
+    "en": "A list of modules and resources for Drupal, the PHP-based CMS. Unlike general CMS lists, it gathers only Drupal modules, distributions and developer tools.",
     "src": "awesomelist"
   },
   {
@@ -136,8 +136,8 @@
       "github",
       "backend"
     ],
-    "tr": "Google’ın uygulama geliştirme platformu Firebase için kaynak listesi.",
-    "en": "A resource list for Firebase, Google’s app-development platform.",
+    "tr": "Google’ın uygulama geliştirme platformu Firebase için kaynak listesi. Resmî belgelerden farkı topluluk kütüphanelerini, örnek projeleri ve deneyim yazılarını toplaması.",
+    "en": "A resource list for Firebase, Google’s app-development platform. Unlike the official docs, it gathers community libraries, sample projects and write-ups from experience.",
     "src": "awesomelist"
   },
   {
@@ -161,8 +161,8 @@
       "php",
       "backend"
     ],
-    "tr": "PHP’nin en yaygın çatısı Laravel için paket ve kaynak listesi.",
-    "en": "A list of packages and resources for Laravel, PHP’s most popular framework.",
+    "tr": "PHP’nin en yaygın çatısı Laravel için paket ve kaynak listesi. Packagist’te aramaktan farkı yaygın kullanılan paketleri ve öğrenme kaynaklarını konuya göre seçmesi.",
+    "en": "A list of packages and resources for Laravel, PHP’s most popular framework. Unlike searching Packagist, it picks widely used packages and learning resources by topic.",
     "src": "awesomelist"
   },
   {
@@ -173,8 +173,8 @@
       "github",
       "backend"
     ],
-    "tr": "İş profesyonellerinin az kodla uygulama kurmasını sağlayan platformların listesi.",
-    "en": "A list of platforms letting business professionals build apps with little code.",
+    "tr": "İş profesyonellerinin az kodla uygulama kurmasını sağlayan platformların listesi. Tek bir platformun belgelerinden farkı platformları yan yana listelemesi; listeyi bir güvenlik şirketi (Zenity) sürdürüyor.",
+    "en": "A list of platforms letting business professionals build apps with little code. Unlike a single platform’s docs it lists them side by side; it is maintained by a security company (Zenity).",
     "src": "awesomelist"
   },
   {
@@ -186,8 +186,8 @@
       "php",
       "backend"
     ],
-    "tr": "PHP ile yazılmış açık kaynak e-ticaret platformu Magento 2 için kaynak listesi.",
-    "en": "A resource list for Magento 2, the open-source e-commerce platform built with PHP.",
+    "tr": "PHP ile yazılmış açık kaynak e-ticaret platformu Magento 2 için kaynak listesi. Genel e-ticaret listelerinden farkı yalnız Magento 2 modüllerini, geliştirici araçlarını ve öğrenme kaynaklarını toplaması.",
+    "en": "A resource list for Magento 2, the open-source e-commerce platform built with PHP. Unlike general e-commerce lists, it gathers only Magento 2 modules, developer tools and learning resources.",
     "src": "awesomelist"
   },
   {
@@ -199,8 +199,8 @@
       "backend",
       "otomasyon"
     ],
-    "tr": "Donanım ve servisleri görsel bağlayan Node-RED için kaynak listesi.",
-    "en": "A resource list for Node-RED, wiring hardware and services together visually.",
+    "tr": "Donanım ve servisleri görsel bağlayan Node-RED için kaynak listesi. Entegrasyonu kodla yazmaktan farkı akışı tarayıcıda düğüm bağlayarak kurman; liste topluluk düğümlerini ve örnek akışları topluyor.",
+    "en": "A resource list for Node-RED, wiring hardware and services together visually. Unlike writing integrations in code, you build the flow by wiring nodes in the browser; the list gathers community nodes and sample flows.",
     "src": "awesomelist"
   },
   {
@@ -236,8 +236,8 @@
       "python",
       "backend"
     ],
-    "tr": "Açık kaynak Python CMS Plone için eklenti ve kaynak listesi.",
-    "en": "A list of add-ons and resources for Plone, the open-source Python CMS.",
+    "tr": "Açık kaynak Python CMS Plone için eklenti ve kaynak listesi. WordPress ya da Drupal listelerinden farkı Python tabanlı, kurumsal kullanıma yönelik bir CMS’in ekosistemine odaklanması.",
+    "en": "A list of add-ons and resources for Plone, the open-source Python CMS. Unlike WordPress or Drupal lists, it focuses on the ecosystem of a Python-based CMS aimed at institutional use.",
     "src": "awesomelist"
   },
   {
@@ -249,8 +249,8 @@
       "backend",
       "veritabanı"
     ],
-    "tr": "Veritabanını tip güvenli bir istemciye çeviren Prisma ORM için kaynak listesi.",
-    "en": "A resource list for Prisma, the ORM turning a database into a type-safe client.",
+    "tr": "Veritabanını tip güvenli bir istemciye çeviren Prisma ORM için kaynak listesi. TypeORM gibi ORM’lerden farkı şemayı ayrı bir dosyada (schema.prisma) tanımlayıp istemciyi o dosyadan üretmesi.",
+    "en": "A resource list for Prisma, the ORM turning a database into a type-safe client. Unlike ORMs such as TypeORM, you define the schema in a separate file (schema.prisma) and the client is generated from it.",
     "src": "awesomelist"
   },
   {
@@ -262,8 +262,8 @@
       "backend",
       "devops"
     ],
-    "tr": "Sunucusuz (serverless) hesaplama ve mimari için kaynak listesi.",
-    "en": "A resource list for serverless computing and architecture.",
+    "tr": "Sunucusuz (serverless) hesaplama ve mimari için kaynak listesi. Tek sağlayıcı belgelerinden farkı AWS Lambda, Azure Functions gibi servisleri ve açık kaynak çatıları yan yana toplaması.",
+    "en": "A resource list for serverless computing and architecture. Unlike a single provider’s docs, it sets services such as AWS Lambda and Azure Functions beside open-source frameworks.",
     "src": "awesomelist"
   },
   {
@@ -300,8 +300,8 @@
       "github",
       "backend"
     ],
-    "tr": "Swift ile sunucu tarafı geliştirme çatısı Vapor için kaynak listesi.",
-    "en": "A resource list for Vapor, server-side development in Swift.",
+    "tr": "Swift ile sunucu tarafı geliştirme çatısı Vapor için kaynak listesi. Node veya Go çatılarından farkı iOS uygulamasının dilini sunucuda da kullanabilmen; liste paketleri ve rehberleri topluyor.",
+    "en": "A resource list for Vapor, server-side development in Swift. Unlike Node or Go frameworks, you use your iOS app’s language on the server too; the list gathers packages and guides.",
     "src": "awesomelist"
   },
   {
@@ -542,8 +542,8 @@
       "awesome-liste",
       "api"
     ],
-    "tr": "Public APIs’in sürdürülen çatalı. Asıl depo bir dönem bakımsız kaldığında ortaya çıktı; bazı girdileri daha güncel.",
-    "en": "A maintained fork of Public APIs, born while the original went untended. Some of its entries are fresher.",
+    "tr": "Public APIs’in sürdürülen çatalı; asıl depo bir dönem bakımsız kaldığında ortaya çıktı. Asıl listeden farkı bazı girdilerinin daha güncel olması — birinde bulamadığını diğerinde ara.",
+    "en": "A maintained fork of Public APIs, born while the original went untended. Unlike the original, some of its entries are fresher — search one when the other comes up empty.",
     "src": "kedi",
     "added": 1775421545
   },
@@ -555,8 +555,8 @@
       "awesome-liste",
       "api"
     ],
-    "tr": "Kategorili ücretsiz API listesi; kimlik doğrulama türü, HTTPS ve CORS desteği tabloda işaretli. Prototipe veri lazım olduğunda ilk durak.",
-    "en": "A categorised list of free APIs with auth type, HTTPS and CORS support marked in the table. First stop when a prototype needs data.",
+    "tr": "Kategorili ücretsiz API listesi; kimlik doğrulama türü, HTTPS ve CORS desteği tabloda işaretli. RapidAPI gibi pazaryerlerinden farkı ücretsiz API’leri sade bir tabloyla sunması: prototipe veri lazım olduğunda ilk durak.",
+    "en": "A categorised list of free APIs with auth type, HTTPS and CORS support marked in the table. Unlike marketplaces such as RapidAPI, it presents free APIs in a plain table — first stop when a prototype needs data.",
     "src": "kedi",
     "added": 1776686384
   },

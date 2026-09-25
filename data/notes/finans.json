@@ -18,8 +18,8 @@
       "awesome-liste",
       "github"
     ],
-    "tr": "Proof-of-stake blokzincir Algorand için geliştirici kaynakları listesi.",
-    "en": "A list of developer resources for Algorand, a proof-of-stake blockchain.",
+    "tr": "Proof-of-stake blokzincir Algorand için geliştirici kaynakları listesi. Ethereum listelerinden farkı saf proof-of-stake bir zincire ve onun akıllı sözleşme araçlarına odaklanması.",
+    "en": "A list of developer resources for Algorand, a proof-of-stake blockchain. Unlike Ethereum lists, it focuses on a pure proof-of-stake chain and its smart-contract tooling.",
     "src": "awesomelist"
   },
   {
@@ -30,8 +30,8 @@
       "github",
       "backend"
     ],
-    "tr": "Ödeme, faturalama, fiyatlandırma ve muhasebe için mühendislik kaynakları listesi.",
-    "en": "A list of engineering resources for payments, invoicing, pricing and accounting.",
+    "tr": "Ödeme, faturalama, fiyatlandırma ve muhasebe için mühendislik kaynakları listesi. Tek bir ödeme sağlayıcısının belgelerinden farkı sağlayıcıdan bağımsız olması ve alanın tuzaklarını — yuvarlama, vergi, para birimi — ele alması.",
+    "en": "A list of engineering resources for payments, invoicing, pricing and accounting. Unlike a single payment provider’s docs it is vendor-neutral and covers the field’s traps — rounding, tax, currencies.",
     "src": "awesomelist"
   },
   {
@@ -52,8 +52,8 @@
       "awesome-liste",
       "github"
     ],
-    "tr": "Bitcoin ödemesi kabul etmeye başlamak için işlemci ve araç listesi.",
-    "en": "A list of processors and tools to start accepting Bitcoin payments.",
+    "tr": "Bitcoin ödemesi kabul etmeye başlamak için işlemci ve araç listesi. Genel ödeme listelerinden farkı yalnız Bitcoin’e odaklanması ve kendin barındırdığın çözümlerle aracılı işlemcileri yan yana koyması.",
+    "en": "A list of processors and tools to start accepting Bitcoin payments. Unlike general payment lists, it focuses on Bitcoin only and sets self-hosted solutions beside custodial processors.",
     "src": "awesomelist"
   },
   {
@@ -74,8 +74,8 @@
       "awesome-liste",
       "github"
     ],
-    "tr": "Uygulamaya özel blokzincir kuran Cosmos çatısı için kaynak listesi.",
-    "en": "A resource list for Cosmos, a modular framework for building app-specific blockchains.",
+    "tr": "Uygulamaya özel blokzincir kuran Cosmos çatısı için kaynak listesi. Ethereum üzerinde akıllı sözleşme yazmaktan farkı Cosmos SDK ile uygulamana özel, kendi zincirini kurman.",
+    "en": "A resource list for Cosmos, a modular framework for building app-specific blockchains. Unlike writing smart contracts on Ethereum, you build your own application-specific chain with the Cosmos SDK.",
     "src": "awesomelist"
   },
   {
@@ -86,8 +86,8 @@
       "github",
       "veri-bilimi"
     ],
-    "tr": "Kredi başvurularını sınıflandırma ve risk modelleme yöntemleri listesi.",
-    "en": "A list of methods for classifying credit applicants and modelling risk.",
+    "tr": "Kredi başvurularını sınıflandırma ve risk modelleme yöntemleri listesi. Genel makine öğrenmesi listelerinden farkı kredi riskine özgü makaleleri, veri kümelerini ve yöntemleri toplaması.",
+    "en": "A list of methods for classifying credit applicants and modelling risk. Unlike general machine-learning lists, it gathers papers, datasets and methods specific to credit risk.",
     "src": "awesomelist"
   },
   {
@@ -97,8 +97,8 @@
       "awesome-liste",
       "github"
     ],
-    "tr": "Akıllı sözleşme platformu Ethereum için geliştirici kaynakları listesi.",
-    "en": "A list of developer resources for Ethereum, the smart-contract platform.",
+    "tr": "Akıllı sözleşme platformu Ethereum için geliştirici kaynakları listesi. Genel kripto listelerinden farkı akıllı sözleşme geliştirmeye — Solidity, geliştirme çatıları, test ağları — odaklanması.",
+    "en": "A list of developer resources for Ethereum, the smart-contract platform. Unlike general crypto lists, it focuses on smart-contract development — Solidity, development frameworks, testnets.",
     "src": "awesomelist"
   },
   {
@@ -109,8 +109,8 @@
       "github",
       "cli"
     ],
-    "tr": "Komut satırında çift taraflı muhasebe (Ledger) için kaynak listesi.",
-    "en": "A resource list for double-entry accounting on the command line (Ledger).",
+    "tr": "Komut satırında çift taraflı muhasebe (Ledger) için kaynak listesi. Muhasebe uygulamalarından farkı defterin düz metin dosyası olması: git ile sürüm tutabiliyorsun; liste Ledger, hledger ve Beancount çevresini topluyor.",
+    "en": "A resource list for double-entry accounting on the command line (Ledger). Unlike accounting apps, the ledger is a plain-text file you can version with git; the list covers Ledger, hledger and Beancount.",
     "src": "awesomelist"
   },
   {

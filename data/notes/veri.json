@@ -56,8 +56,8 @@
       "github",
       "referans"
     ],
-    "tr": "Haritalama ve konum analizi platformu ArcGIS için geliştirici kaynakları.",
-    "en": "Developer resources for ArcGIS, the mapping and location-analysis platform.",
+    "tr": "Haritalama ve konum analizi platformu ArcGIS için geliştirici kaynakları. Açık kaynak GIS listelerinden farkı ticari Esri ekosistemine odaklanması; listeyi Esri’nin kendisi sürdürüyor.",
+    "en": "Developer resources for ArcGIS, the mapping and location-analysis platform. Unlike open-source GIS lists, it centres on the commercial Esri ecosystem, and Esri maintains it.",
     "src": "awesomelist"
   },
   {
@@ -69,8 +69,8 @@
       "veri-bilimi",
       "masaüstü"
     ],
-    "tr": "Apple’ın Core ML çerçevesi için hazır makine öğrenmesi modelleri listesi.",
-    "en": "A list of ready machine-learning models for Apple’s Core ML framework.",
+    "tr": "Apple’ın Core ML çerçevesi için hazır makine öğrenmesi modelleri listesi. Genel model depolarından farkı hepsinin iOS/macOS’ta cihaz üzerinde çalışacak Core ML biçiminde olması; listenin bir kısmı eski.",
+    "en": "A list of ready machine-learning models for Apple’s Core ML framework. Unlike general model hubs, every model is already in Core ML format for on-device use on iOS/macOS; part of the list is dated.",
     "src": "awesomelist"
   },
   {
@@ -82,8 +82,8 @@
       "referans",
       "veri-bilimi"
     ],
-    "tr": "Tablo verisi saklayan CSV biçimi için araç ve kaynak listesi.",
-    "en": "A list of tools and resources for CSV, the tabular-data file format.",
+    "tr": "Tablo verisi saklayan CSV biçimi için araç ve kaynak listesi. Sıkı şemalı biçimlerden (Parquet, JSON Schema) farkı CSV’nin gevşekliği; liste bu tuhaflıklarla başa çıkan komut satırı araçlarını ve kütüphaneleri topluyor.",
+    "en": "A list of tools and resources for CSV, the tabular-data file format. Unlike strictly schema’d formats (Parquet, JSON Schema) CSV is loose, and the list gathers the command-line tools and libraries that cope with its quirks.",
     "src": "awesomelist"
   },
   {
@@ -119,8 +119,8 @@
       "github",
       "veri-bilimi"
     ],
-    "tr": "Açık kaynak dağıtık makine öğrenmesi platformu H2O için kaynak listesi.",
-    "en": "A list for H2O, the open-source distributed machine-learning platform.",
+    "tr": "Açık kaynak dağıtık makine öğrenmesi platformu H2O için kaynak listesi. scikit-learn’den farkı bir kümede dağıtık çalışması ve AutoML’in yerleşik gelmesi.",
+    "en": "A list for H2O, the open-source distributed machine-learning platform. Unlike scikit-learn, it runs distributed across a cluster and has AutoML built in.",
     "src": "awesomelist"
   },
   {
@@ -132,8 +132,8 @@
       "veri-bilimi",
       "python"
     ],
-    "tr": "Otomatik türev ve XLA derlemesi sunan JAX için kaynak listesi.",
-    "en": "A list for JAX, which offers automatic differentiation and XLA compilation.",
+    "tr": "Otomatik türev ve XLA derlemesi sunan JAX için kaynak listesi. PyTorch’tan farkı fonksiyonel yaklaşımı: grad, jit ve vmap gibi dönüşümleri saf fonksiyonlara uyguluyorsun.",
+    "en": "A list for JAX, which offers automatic differentiation and XLA compilation. Unlike PyTorch it is functional: you apply transformations such as grad, jit and vmap to pure functions.",
     "src": "awesomelist"
   },
   {
@@ -144,8 +144,8 @@
       "github",
       "referans"
     ],
-    "tr": "Metin tabanlı veri değişim biçimi JSON için araç ve kaynak listesi.",
-    "en": "A list of tools and resources for JSON, the text-based data-interchange format.",
+    "tr": "Metin tabanlı veri değişim biçimi JSON için araç ve kaynak listesi. Tek bir ayrıştırıcıdan farkı şema doğrulayıcılarını, jq gibi sorgu araçlarını ve dillere göre kütüphaneleri birlikte toplaması.",
+    "en": "A list of tools and resources for JSON, the text-based data-interchange format. Unlike a single parser, it brings together schema validators, query tools such as jq and libraries per language.",
     "src": "awesomelist"
   },
   {
@@ -157,8 +157,8 @@
       "veri-bilimi",
       "python"
     ],
-    "tr": "Kod, metin ve grafiği bir arada tutan Jupyter defterleri için kaynak listesi.",
-    "en": "A resource list for Jupyter notebooks, which hold code, text and charts together.",
+    "tr": "Kod, metin ve grafiği bir arada tutan Jupyter defterleri için kaynak listesi. Jupyter belgelerinden farkı çevredeki ekosistemi — uzantılar, çekirdekler, defteri uygulamaya ya da sunuma çeviren araçlar — toplaması.",
+    "en": "A resource list for Jupyter notebooks, which hold code, text and charts together. Unlike the Jupyter docs, it gathers the ecosystem around it — extensions, kernels, tools that turn a notebook into an app or slides.",
     "src": "awesomelist"
   },
   {
@@ -170,8 +170,8 @@
       "veri-bilimi",
       "llm"
     ],
-    "tr": "Veriden veya diyalogdan metin üretimi (doğal dil üretimi) için kaynak listesi.",
-    "en": "A list for generating text from data or dialogue (natural-language generation).",
+    "tr": "Veriden veya diyalogdan metin üretimi (doğal dil üretimi) için kaynak listesi. Genel NLP listelerinden farkı metni anlamaya değil üretmeye odaklanması; kayıtların önemli kısmı büyük dil modelleri öncesi yöntemlere ait.",
+    "en": "A list for generating text from data or dialogue (natural-language generation). Unlike general NLP lists it is about producing text rather than understanding it; much of it predates large language models.",
     "src": "awesomelist"
   },
   {
@@ -183,8 +183,8 @@
       "referans",
       "açık-kaynak"
     ],
-    "tr": "Açık harita verisi projesi OpenStreetMap için araç ve kaynak listesi.",
-    "en": "A list of tools and resources for OpenStreetMap, the open map-data project.",
+    "tr": "Açık harita verisi projesi OpenStreetMap için araç ve kaynak listesi. Google Maps API’sinden farkı verinin açık lisanslı (ODbL) ve tamamen indirilebilir olması; liste düzenleyicileri, işleyicileri ve görüntüleyicileri topluyor.",
+    "en": "A list of tools and resources for OpenStreetMap, the open map-data project. Unlike the Google Maps API the data is openly licensed (ODbL) and fully downloadable; the list gathers editors, processors and renderers.",
     "src": "awesomelist"
   },
   {
@@ -222,8 +222,8 @@
       "veri-bilimi",
       "llm"
     ],
-    "tr": "Doğal dilde soru sorma ve yanıtlama (QA) için kaynak listesi.",
-    "en": "A list for asking and answering questions in natural language (QA).",
+    "tr": "Doğal dilde soru sorma ve yanıtlama (QA) için kaynak listesi. Genel NLP listelerinden farkı yalnız soru yanıtlamaya — veri kümeleri, modeller, makaleler — odaklanması.",
+    "en": "A list for asking and answering questions in natural language (QA). Unlike general NLP lists, it focuses only on question answering — datasets, models, papers.",
     "src": "awesomelist"
   },
   {
@@ -258,8 +258,8 @@
       "github",
       "veri-bilimi"
     ],
-    "tr": "Makine zekâsı kütüphanesi TensorFlow için kaynak ve model listesi.",
-    "en": "A list of resources and models for TensorFlow, the machine-intelligence library.",
+    "tr": "Makine zekâsı kütüphanesi TensorFlow için kaynak ve model listesi. Resmî belgelerden farkı topluluk öğreticilerini, modellerini ve projelerini toplaması; kayıtların bir kısmı TensorFlow 1 dönemine ait.",
+    "en": "A list of resources and models for TensorFlow, the machine-intelligence library. Unlike the official docs, it gathers community tutorials, models and projects; part of it dates from the TensorFlow 1 era.",
     "src": "awesomelist"
   },
   {
@@ -514,8 +514,8 @@
       "mülakat",
       "awesome-liste"
     ],
-    "tr": "Bir ML mühendisinin iş arama sürecini sayılarla anlattığı başlık: kaç başvuru, hangi aşamalar, ne işe yaradı. Genel kariyer tavsiyelerine karşı birinci elden veri.",
-    "en": "An ML engineer’s account of a job hunt with the numbers — applications sent, stages reached, what worked. First-hand data against generic career advice.",
+    "tr": "Bir ML mühendisinin iş arama sürecini sayılarla anlattığı başlık: kaç başvuru, hangi aşamalar, ne işe yaradı. Genel kariyer tavsiyelerinden farkı birinci elden veri sunması.",
+    "en": "An ML engineer’s account of a job hunt with the numbers — applications sent, stages reached, what worked. Unlike generic career advice, it offers first-hand data.",
     "src": "kedi",
     "added": 1771263981
   },

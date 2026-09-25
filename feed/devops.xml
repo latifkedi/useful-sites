@@ -25,28 +25,28 @@
   <link href="https://github.com/sdras/awesome-actions"/>
   <id>https://github.com/sdras/awesome-actions</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>İş akışını otomatikleştiren GitHub Actions için hazır eylem listesi.</summary>
+  <summary>İş akışını otomatikleştiren GitHub Actions için hazır eylem listesi. Marketplace’ten farkı küratörlü olması: denenmiş eylemleri kullanım alanına göre grupluyor.</summary>
 </entry>
 <entry>
   <title>Awesome Ansible</title>
   <link href="https://github.com/ansible-community/awesome-ansible"/>
   <id>https://github.com/ansible-community/awesome-ansible</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Python tabanlı BT yapılandırma aracı Ansible için rol ve kaynak listesi.</summary>
+  <summary>Python tabanlı BT yapılandırma aracı Ansible için rol ve kaynak listesi. Puppet ve Chef’ten farkı hedef makineye ajan kurmadan SSH üzerinden çalışması.</summary>
 </entry>
 <entry>
   <title>Awesome Backstage</title>
   <link href="https://github.com/shano/awesome-backstage"/>
   <id>https://github.com/shano/awesome-backstage</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>İç geliştirici portalları kuran Backstage platformu için kaynak listesi.</summary>
+  <summary>İç geliştirici portalları kuran Backstage platformu için kaynak listesi. Genel DevOps listelerinden farkı Spotify kökenli bu portalın eklentilerini, kurulum örneklerini ve yazılarını toplaması.</summary>
 </entry>
 <entry>
   <title>Awesome CDK</title>
   <link href="https://github.com/kolomied/awesome-cdk"/>
   <id>https://github.com/kolomied/awesome-cdk</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Altyapıyı gerçek kodla tanımlayan AWS CDK için kaynak listesi.</summary>
+  <summary>Altyapıyı gerçek kodla tanımlayan AWS CDK için kaynak listesi. Terraform’dan farkı altyapıyı HCL yerine TypeScript ya da Python gibi genel amaçlı dillerle yazman ve sonucun CloudFormation’a derlenmesi.</summary>
 </entry>
 <entry>
   <title>Awesome Kubernetes</title>
@@ -67,14 +67,14 @@
   <link href="https://github.com/virtualroot/awesome-opentofu"/>
   <id>https://github.com/virtualroot/awesome-opentofu</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Terraform’un açık kaynak çatalı OpenTofu için kaynak listesi.</summary>
+  <summary>Terraform’un açık kaynak çatalı OpenTofu için kaynak listesi. Terraform’dan farkı Linux Vakfı altında açık kaynak (MPL) lisansta kalması; HashiCorp 2023’te BSL lisansına geçince doğdu.</summary>
 </entry>
 <entry>
   <title>Awesome Prometheus</title>
   <link href="https://github.com/roaldnefs/awesome-prometheus"/>
   <id>https://github.com/roaldnefs/awesome-prometheus</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Açık kaynak izleme sistemi Prometheus için exporter ve kaynak listesi.</summary>
+  <summary>Açık kaynak izleme sistemi Prometheus için exporter ve kaynak listesi. Push tabanlı izleme sistemlerinden farkı metrikleri hedeflerden çekerek (pull) toplaması; liste exporter’ları, panoları ve araçları topluyor.</summary>
 </entry>
 <entry>
   <title>Awesome Splunk</title>
@@ -88,7 +88,7 @@
   <link href="https://github.com/shuaibiyy/awesome-terraform"/>
   <id>https://github.com/shuaibiyy/awesome-terraform</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Altyapıyı kod olarak yöneten Terraform için modül ve kaynak listesi.</summary>
+  <summary>Altyapıyı kod olarak yöneten Terraform için modül ve kaynak listesi. OpenTofu listelerinden farkı HashiCorp’un özgün aracına ve onun daha eski, geniş modül ekosistemine odaklanması.</summary>
 </entry>
 <entry>
   <title>Chaos Mesh</title>

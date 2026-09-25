@@ -25,7 +25,7 @@
   <link href="https://github.com/ucg8j/awesome-dash"/>
   <id>https://github.com/ucg8j/awesome-dash</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Dash, building data dashboards with Python.</summary>
+  <summary>A resource list for Dash, building data dashboards with Python. Unlike Streamlit it is Plotly-based, and its callback model gives more control over interactivity.</summary>
 </entry>
 <entry>
   <title>Awesome DDD</title>
@@ -46,14 +46,14 @@
   <link href="https://github.com/directus-community/awesome-directus"/>
   <id>https://github.com/directus-community/awesome-directus</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Directus, the headless CMS offering a real-time API and dashboard.</summary>
+  <summary>A resource list for Directus, the headless CMS offering a real-time API and dashboard. Unlike headless CMSes such as Strapi, it sits on top of an existing SQL database without forcing its schema into its own shape.</summary>
 </entry>
 <entry>
   <title>Awesome Drupal</title>
   <link href="https://github.com/nirgn975/awesome-drupal"/>
   <id>https://github.com/nirgn975/awesome-drupal</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of modules and resources for Drupal, the PHP-based CMS.</summary>
+  <summary>A list of modules and resources for Drupal, the PHP-based CMS. Unlike general CMS lists, it gathers only Drupal modules, distributions and developer tools.</summary>
 </entry>
 <entry>
   <title>Awesome FastAPI</title>
@@ -74,7 +74,7 @@
   <link href="https://github.com/jthegedus/awesome-firebase"/>
   <id>https://github.com/jthegedus/awesome-firebase</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Firebase, Google’s app-development platform.</summary>
+  <summary>A resource list for Firebase, Google’s app-development platform. Unlike the official docs, it gathers community libraries, sample projects and write-ups from experience.</summary>
 </entry>
 <entry>
   <title>Awesome Integration</title>
@@ -88,28 +88,28 @@
   <link href="https://github.com/chiraggude/awesome-laravel"/>
   <id>https://github.com/chiraggude/awesome-laravel</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of packages and resources for Laravel, PHP’s most popular framework.</summary>
+  <summary>A list of packages and resources for Laravel, PHP’s most popular framework. Unlike searching Packagist, it picks widely used packages and learning resources by topic.</summary>
 </entry>
 <entry>
   <title>Awesome Low Code</title>
   <link href="https://github.com/zenitysec/awesome-low-code"/>
   <id>https://github.com/zenitysec/awesome-low-code</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of platforms letting business professionals build apps with little code.</summary>
+  <summary>A list of platforms letting business professionals build apps with little code. Unlike a single platform’s docs it lists them side by side; it is maintained by a security company (Zenity).</summary>
 </entry>
 <entry>
   <title>Awesome Magento 2</title>
   <link href="https://github.com/DavidLambauer/awesome-magento2"/>
   <id>https://github.com/DavidLambauer/awesome-magento2</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Magento 2, the open-source e-commerce platform built with PHP.</summary>
+  <summary>A resource list for Magento 2, the open-source e-commerce platform built with PHP. Unlike general e-commerce lists, it gathers only Magento 2 modules, developer tools and learning resources.</summary>
 </entry>
 <entry>
   <title>Awesome Node-RED</title>
   <link href="https://github.com/naimo84/awesome-nodered"/>
   <id>https://github.com/naimo84/awesome-nodered</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Node-RED, wiring hardware and services together visually.</summary>
+  <summary>A resource list for Node-RED, wiring hardware and services together visually. Unlike writing integrations in code, you build the flow by wiring nodes in the browser; the list gathers community nodes and sample flows.</summary>
 </entry>
 <entry>
   <title>Awesome Node.js</title>
@@ -130,21 +130,21 @@
   <link href="https://github.com/collective/awesome-plone"/>
   <id>https://github.com/collective/awesome-plone</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of add-ons and resources for Plone, the open-source Python CMS.</summary>
+  <summary>A list of add-ons and resources for Plone, the open-source Python CMS. Unlike WordPress or Drupal lists, it focuses on the ecosystem of a Python-based CMS aimed at institutional use.</summary>
 </entry>
 <entry>
   <title>Awesome Prisma</title>
   <link href="https://github.com/catalinmiron/awesome-prisma"/>
   <id>https://github.com/catalinmiron/awesome-prisma</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Prisma, the ORM turning a database into a type-safe client.</summary>
+  <summary>A resource list for Prisma, the ORM turning a database into a type-safe client. Unlike ORMs such as TypeORM, you define the schema in a separate file (schema.prisma) and the client is generated from it.</summary>
 </entry>
 <entry>
   <title>Awesome Serverless</title>
   <link href="https://github.com/pmuens/awesome-serverless"/>
   <id>https://github.com/pmuens/awesome-serverless</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for serverless computing and architecture.</summary>
+  <summary>A resource list for serverless computing and architecture. Unlike a single provider’s docs, it sets services such as AWS Lambda and Azure Functions beside open-source frameworks.</summary>
 </entry>
 <entry>
   <title>Awesome Software Architecture</title>
@@ -165,7 +165,7 @@
   <link href="https://github.com/vapor-community/awesome-vapor"/>
   <id>https://github.com/vapor-community/awesome-vapor</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Vapor, server-side development in Swift.</summary>
+  <summary>A resource list for Vapor, server-side development in Swift. Unlike Node or Go frameworks, you use your iOS app’s language on the server too; the list gathers packages and guides.</summary>
 </entry>
 <entry>
   <title>Memcached</title>

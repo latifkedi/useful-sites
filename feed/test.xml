@@ -60,28 +60,28 @@
   <link href="https://github.com/SrinivasanTarget/awesome-appium"/>
   <id>https://github.com/SrinivasanTarget/awesome-appium</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Mobil uygulama test otomasyonu aracı Appium için kaynak listesi.</summary>
+  <summary>Mobil uygulama test otomasyonu aracı Appium için kaynak listesi. Espresso ya da XCUITest gibi platforma özgü araçlardan farkı Android ve iOS’u WebDriver protokolüyle tek API’den sürmesi.</summary>
 </entry>
 <entry>
   <title>Awesome AVA</title>
   <link href="https://github.com/avajs/awesome-ava"/>
   <id>https://github.com/avajs/awesome-ava</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>JavaScript test koşucusu AVA için eklenti ve kaynak listesi.</summary>
+  <summary>JavaScript test koşucusu AVA için eklenti ve kaynak listesi. Jest’ten farkı test dosyalarını varsayılan olarak ayrı süreçlerde, eşzamanlı koşturması.</summary>
 </entry>
 <entry>
   <title>Awesome CodeRabbit</title>
   <link href="https://github.com/coderabbitai/awesome-coderabbit"/>
   <id>https://github.com/coderabbitai/awesome-coderabbit</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Yapay zekâ destekli kod inceleme platformu CodeRabbit için kaynak listesi.</summary>
+  <summary>Yapay zekâ destekli kod inceleme platformu CodeRabbit için kaynak listesi. Genel yapay zekâ kod inceleme listelerinden farkı yalnız CodeRabbit yapılandırmalarını ve örnek kurallarını toplaması; listeyi şirketin kendisi sürdürüyor.</summary>
 </entry>
 <entry>
   <title>Awesome Gatling</title>
   <link href="https://github.com/aliesbelik/awesome-gatling"/>
   <id>https://github.com/aliesbelik/awesome-gatling</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Scala tabanlı yük ve performans test çatısı Gatling için kaynak listesi.</summary>
+  <summary>Scala tabanlı yük ve performans test çatısı Gatling için kaynak listesi. JMeter’dan farkı senaryoları arayüzde tıklayarak değil kodla (Scala, Java, Kotlin) yazman.</summary>
 </entry>
 <entry>
   <title>Awesome JMeter</title>
@@ -109,7 +109,7 @@
   <link href="https://github.com/mojoaxel/awesome-regression-testing"/>
   <id>https://github.com/mojoaxel/awesome-regression-testing</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Değişikliklerin işlevi/stili bozmadığını doğrulayan görsel regresyon araçları listesi.</summary>
+  <summary>Değişikliklerin işlevi/stili bozmadığını doğrulayan görsel regresyon araçları listesi. Birim testlerinden farkı ekran görüntülerini karşılaştırarak kodun göremediği stil kırılmalarını yakalaması.</summary>
 </entry>
 <entry>
   <title>Awesome Selenium</title>
@@ -130,7 +130,7 @@
   <link href="https://github.com/TheJambo/awesome-testing"/>
   <id>https://github.com/TheJambo/awesome-testing</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Yazılım testinin her dalını — birim, uçtan uca, performans, sözleşme — kaynaklarıyla toplayan liste. Bu dizideki pratik sitelerin geri kalanını da buradan bulabilirsin.</summary>
+  <summary>Yazılım testinin her dalını — birim, uçtan uca, performans, sözleşme — kaynaklarıyla toplayan liste. Tek bir araç listesinden farkı kitapları ve test kuramını da araçlarla birlikte vermesi; bu dizideki pratik sitelerin geri kalanını da buradan bulabilirsin.</summary>
 </entry>
 <entry>
   <title>Beeceptor</title>

@@ -66,8 +66,8 @@
       "github",
       "frontend"
     ],
-    "tr": "CSS dili, araçları ve kaynaklarını konuya göre toplayan liste.",
-    "en": "A list gathering the CSS language, tools and resources by topic.",
+    "tr": "CSS dili, araçları ve kaynaklarını konuya göre toplayan liste. Öğrenme odaklı CSS listelerinden farkı çatıları, araçları ve BEM gibi metodolojileri de kapsaması.",
+    "en": "A list gathering the CSS language, tools and resources by topic. Unlike learning-focused CSS lists, it also covers frameworks, tooling and methodologies such as BEM.",
     "src": "awesomelist"
   },
   {
@@ -91,8 +91,8 @@
       "github",
       "javascript"
     ],
-    "tr": "JavaScript linter’ı ESLint için eklenti ve yapılandırma listesi.",
-    "en": "A list of plugins and configs for ESLint, the JavaScript linter.",
+    "tr": "JavaScript linter’ı ESLint için eklenti ve yapılandırma listesi. ESLint belgelerinden farkı topluluğun paylaştığı yapılandırmaları ve React, Vue gibi çatılara özgü eklentileri toplaması.",
+    "en": "A list of plugins and configs for ESLint, the JavaScript linter. Unlike the ESLint docs, it gathers community-shared configs and plugins specific to frameworks such as React and Vue.",
     "src": "awesomelist"
   },
   {
@@ -103,8 +103,8 @@
       "github",
       "frontend"
     ],
-    "tr": "Tarayıcıda coğrafi bilgi sistemleri (harita) için kütüphane listesi.",
-    "en": "A list of libraries for geographic information systems (maps) in the browser.",
+    "tr": "Tarayıcıda coğrafi bilgi sistemleri (harita) için kütüphane listesi. Genel harita API listelerinden farkı sunucu değil tarayıcıda çalışan kütüphanelere — harita görüntüleme, veri dönüştürme, mekânsal analiz — odaklanması.",
+    "en": "A list of libraries for geographic information systems (maps) in the browser. Unlike general mapping-API lists, it focuses on libraries that run in the browser rather than on a server — rendering, data conversion, spatial analysis.",
     "src": "awesomelist"
   },
   {
@@ -140,8 +140,8 @@
       "github",
       "javascript"
     ],
-    "tr": "Node paket yöneticisi npm için ipucu, araç ve kaynak listesi.",
-    "en": "A list of tips, tools and resources for npm, the Node package manager.",
+    "tr": "Node paket yöneticisi npm için ipucu, araç ve kaynak listesi. npm belgelerinden farkı çevresindeki araçları — paket arama siteleri, yayınlama yardımcıları, komut satırı eklentileri — toplaması.",
+    "en": "A list of tips, tools and resources for npm, the Node package manager. Unlike the npm docs, it gathers the tools around it — package search sites, publishing helpers, CLI add-ons.",
     "src": "awesomelist"
   },
   {
@@ -153,8 +153,8 @@
       "javascript",
       "otomasyon"
     ],
-    "tr": "Görev koşucusu olarak npm script kullanımı için kaynak listesi.",
-    "en": "A resource list for using npm scripts as a task runner.",
+    "tr": "Görev koşucusu olarak npm script kullanımı için kaynak listesi. Gulp ya da Grunt gibi görev koşucularından farkı ek bağımlılık olmadan package.json betikleriyle yetinmeyi öğretmesi.",
+    "en": "A resource list for using npm scripts as a task runner. Unlike task runners such as Gulp or Grunt, it teaches making do with package.json scripts and no extra dependency.",
     "src": "awesomelist"
   },
   {
@@ -165,8 +165,8 @@
       "github",
       "javascript"
     ],
-    "tr": "Yerel davranışı ezmeden ekleyen ponyfill kütüphaneleri listesi.",
-    "en": "A list of ponyfill libraries that add native behaviour without overriding it.",
+    "tr": "Yerel davranışı ezmeden ekleyen ponyfill kütüphaneleri listesi. Polyfill’lerden farkı global nesneleri değiştirmemesi: özelliği ayrı bir modül olarak içe aktarıyorsun.",
+    "en": "A list of ponyfill libraries that add native behaviour without overriding it. Unlike polyfills they never patch globals: you import the feature as a separate module.",
     "src": "awesomelist"
   },
   {
@@ -177,8 +177,8 @@
       "github",
       "frontend"
     ],
-    "tr": "CSS’i eklentilerle dönüştüren PostCSS aracı için kaynak listesi.",
-    "en": "A resource list for PostCSS, the tool that transforms CSS with plugins.",
+    "tr": "CSS’i eklentilerle dönüştüren PostCSS aracı için kaynak listesi. Sass gibi ön işlemcilerden farkı her dönüşümün ayrı bir eklenti olması; liste bu eklentileri işlevine göre topluyor.",
+    "en": "A resource list for PostCSS, the tool that transforms CSS with plugins. Unlike preprocessors such as Sass, every transformation is a separate plugin; the list groups them by purpose.",
     "src": "awesomelist"
   },
   {
@@ -201,8 +201,8 @@
       "github",
       "javascript"
     ],
-    "tr": "React ekosistemi için kütüphane, araç ve öğrenme kaynağı listesi.",
-    "en": "A list of libraries, tools and learning resources for the React ecosystem.",
+    "tr": "React ekosistemi için kütüphane, araç ve öğrenme kaynağı listesi. Resmî belgelerden farkı çevredeki ekosistemi — durum yönetimi, yönlendirme, bileşen kütüphaneleri, test — tek listede toplaması.",
+    "en": "A list of libraries, tools and learning resources for the React ecosystem. Unlike the official docs, it gathers the surrounding ecosystem — state management, routing, component libraries, testing — in one list.",
     "src": "awesomelist"
   },
   {
@@ -225,8 +225,8 @@
       "github",
       "javascript"
     ],
-    "tr": "Yapılandırma gerektirmeyen JS stil kılavuzu ve linter Standard için kaynak listesi.",
-    "en": "A resource list for Standard, the zero-config JS style guide and linter.",
+    "tr": "Yapılandırma gerektirmeyen JS stil kılavuzu ve linter Standard için kaynak listesi. ESLint’i elle yapılandırmaktan farkı kuralların tartışmaya kapalı, sabit gelmesi; liste editör eklentilerini ve uyumlu araçları topluyor.",
+    "en": "A resource list for Standard, the zero-config JS style guide and linter. Unlike configuring ESLint by hand, the rules are fixed and not up for debate; the list gathers editor plugins and compatible tools.",
     "src": "awesomelist"
   },
   {
@@ -274,8 +274,8 @@
       "frontend",
       "3b"
     ],
-    "tr": "Tarayıcıda sanal/artırılmış gerçeklik sağlayan WebXR için kaynak listesi.",
-    "en": "A resource list for WebXR, enabling virtual/augmented reality in the browser.",
+    "tr": "Tarayıcıda sanal/artırılmış gerçeklik sağlayan WebXR için kaynak listesi. Yerel XR SDK’larından farkı kurulum istemeden tarayıcıda açılan deneyimler; liste çatıları, örnekleri ve araçları topluyor.",
+    "en": "A resource list for WebXR, enabling virtual/augmented reality in the browser. Unlike native XR SDKs, these experiences open in a browser with nothing to install; the list gathers frameworks, samples and tools.",
     "src": "awesomelist"
   },
   {
@@ -287,8 +287,8 @@
       "php",
       "cli"
     ],
-    "tr": "WordPress’i komut satırından yöneten WP-CLI için kaynak listesi.",
-    "en": "A resource list for WP-CLI, managing WordPress from the command line.",
+    "tr": "WordPress’i komut satırından yöneten WP-CLI için kaynak listesi. Yönetim panelinden farkı toplu ve betiklenebilir işlemler: yüz sitede eklenti güncellemek tek komut.",
+    "en": "A resource list for WP-CLI, managing WordPress from the command line. Unlike the admin dashboard it offers bulk, scriptable operations: updating plugins on a hundred sites is one command.",
     "src": "awesomelist"
   },
   {

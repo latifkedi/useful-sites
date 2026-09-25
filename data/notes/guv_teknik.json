@@ -33,8 +33,8 @@
       "awesome-liste",
       "osint"
     ],
-    "tr": "Varlık keşfi araç ve yöntemleri listesi: alt alan adı numaralandırma, sertifika şeffaflığı, ASN sorgulama. Sızma testinin ilk ve en belirleyici aşaması.",
-    "en": "A list of asset discovery tools and methods — subdomain enumeration, certificate transparency, ASN lookups. The first and most decisive phase of a penetration test.",
+    "tr": "Varlık keşfi araç ve yöntemleri listesi: alt alan adı numaralandırma, sertifika şeffaflığı, ASN sorgulama. Genel sızma testi listelerinden farkı yalnız testin ilk ve en belirleyici aşaması olan keşfe odaklanması.",
+    "en": "A list of asset discovery tools and methods — subdomain enumeration, certificate transparency, ASN lookups. Unlike general penetration-testing lists, it focuses only on discovery, the first and most decisive phase of a test.",
     "src": "kedi",
     "added": 1775421515
   },
@@ -58,8 +58,8 @@
       "github",
       "güvenlik"
     ],
-    "tr": "İnsan-bot ayrımı için kullanılan CAPTCHA türleri ve kütüphaneleri listesi.",
-    "en": "A list of CAPTCHA types and libraries used to tell humans from bots.",
+    "tr": "İnsan-bot ayrımı için kullanılan CAPTCHA türleri ve kütüphaneleri listesi. Tek bir CAPTCHA servisinden farkı türleri ve açık kaynak kütüphaneleri yan yana toplaması.",
+    "en": "A list of CAPTCHA types and libraries used to tell humans from bots. Unlike a single CAPTCHA service, it sets the types and open-source libraries side by side.",
     "src": "awesomelist"
   },
   {
@@ -71,8 +71,8 @@
       "güvenlik",
       "akademik"
     ],
-    "tr": "Kriptografiyi uzman olmayanlar için açan kuramsal temel makaleler listesi.",
-    "en": "A list of theory-basics papers on cryptography for non-cryptographers.",
+    "tr": "Kriptografiyi uzman olmayanlar için açan kuramsal temel makaleler listesi. Ders kitaplarından farkı doğrudan özgün makalelere yönlendirmesi ve bunları uzman olmayan okur için sıralaması.",
+    "en": "A list of theory-basics papers on cryptography for non-cryptographers. Unlike textbooks, it points straight to the original papers and orders them for the non-specialist reader.",
     "src": "awesomelist"
   },
   {
@@ -169,8 +169,8 @@
       "github",
       "güvenlik"
     ],
-    "tr": "Kullanıcı hesapları, kimlik doğrulama ve yetkilendirme için kaynak listesi.",
-    "en": "A resource list for user accounts, authentication and authorisation.",
+    "tr": "Kullanıcı hesapları, kimlik doğrulama ve yetkilendirme için kaynak listesi. Tek bir kimlik sağlayıcısının belgelerinden farkı sağlayıcıdan bağımsız olması: parola saklama, oturum, MFA, OAuth ve yetki modellerini kavram düzeyinde ele alıyor.",
+    "en": "A resource list for user accounts, authentication and authorisation. Unlike a single identity provider’s docs it is vendor-neutral, treating password storage, sessions, MFA, OAuth and permission models at the level of concepts.",
     "src": "awesomelist"
   },
   {
@@ -181,8 +181,8 @@
       "awesome-liste",
       "veri-bilimi"
     ],
-    "tr": "Güvenlikte makine öğrenmesi kaynakları; veri kümeleri ve akademik makaleleri bir arada veriyor. Bu alanda en zor bulunan şey etiketli veri, listede o kısım güçlü.",
-    "en": "Machine learning resources for security, gathering datasets and academic papers together. Labelled data is the hardest thing to find in this field, and that part of the list is strong.",
+    "tr": "Güvenlikte makine öğrenmesi kaynakları; veri kümeleri ve akademik makaleleri bir arada veriyor. Aynı alandaki ikinci derlemeden farkı etiketli veri tarafının güçlü olması — bu alanda en zor bulunan şey de o.",
+    "en": "Machine learning resources for security, gathering datasets and academic papers together. Unlike the second compilation in the same field, its labelled-data section is strong — and labelled data is the hardest thing to find here.",
     "src": "kedi",
     "added": 1775421503
   },
@@ -407,8 +407,8 @@
       "awesome-liste",
       "veri-bilimi"
     ],
-    "tr": "Aynı alanda ikinci bir derleme; araç, kurs ve konuşma tarafı daha ağır basıyor.",
-    "en": "A second compilation in the same field, weighted more towards tools, courses and conference talks.",
+    "tr": "Güvenlikte makine öğrenmesi üzerine ikinci bir derleme. awesome-ml-for-cybersecurity’den farkı araç, kurs ve konferans konuşması tarafının daha ağır basması.",
+    "en": "A second compilation on machine learning for security. Unlike awesome-ml-for-cybersecurity, it is weighted more towards tools, courses and conference talks.",
     "src": "kedi",
     "added": 1775474335
   },

@@ -65,8 +65,8 @@
       "github",
       "güvenlik"
     ],
-    "tr": "Çekirdek içinde güvenli program çalıştıran eBPF için kaynak listesi.",
-    "en": "A resource list for eBPF, which runs safe programs inside the kernel.",
+    "tr": "Çekirdek içinde güvenli program çalıştıran eBPF için kaynak listesi. Çekirdek modülü yazmaktan farkı programın önce doğrulayıcıdan (verifier) geçmesi: çekirdeği çökertme riski olmadan çalışıyor.",
+    "en": "A resource list for eBPF, which runs safe programs inside the kernel. Unlike writing a kernel module, the program must first pass the verifier, so it runs without the risk of crashing the kernel.",
     "src": "awesomelist"
   },
   {
@@ -88,8 +88,8 @@
       "awesome-liste",
       "github"
     ],
-    "tr": "Merkeziyetsiz dosya protokolü IPFS için araç ve proje listesi.",
-    "en": "A list of tools and projects for IPFS, the decentralised file protocol.",
+    "tr": "Merkeziyetsiz dosya protokolü IPFS için araç ve proje listesi. HTTP’den farkı dosyayı bulunduğu sunucuya göre değil içeriğinin özetine (CID) göre adreslemesi.",
+    "en": "A list of tools and projects for IPFS, the decentralised file protocol. Unlike HTTP, it addresses a file by the hash of its content (CID) rather than by the server that holds it.",
     "src": "awesomelist"
   },
   {
@@ -124,8 +124,8 @@
       "github",
       "masaüstü"
     ],
-    "tr": "Windows masaüstü için en iyi uygulama ve araçları toplayan liste.",
-    "en": "A list of the best apps and tools for the Windows desktop.",
+    "tr": "Windows masaüstü için en iyi uygulama ve araçları toplayan liste. Microsoft Store’dan farkı küratörlü olması ve ücretsiz, açık kaynak seçenekleri öne çıkarması.",
+    "en": "A list of the best apps and tools for the Windows desktop. Unlike the Microsoft Store it is curated and puts free and open-source options first.",
     "src": "awesomelist"
   },
   {
@@ -584,8 +584,8 @@
       "awesome-liste",
       "ağ"
     ],
-    "tr": "Türkçe sistem yöneticiliği topluluğu ve makale arşivi; Active Directory, Exchange ve sanallaştırma tarafında derinlik var. Yerel senaryolar için nadir bir kaynak.",
-    "en": "A Turkish sysadmin community and article archive with real depth on Active Directory, Exchange and virtualisation — a rare resource for locally specific scenarios.",
+    "tr": "Türkçe sistem yöneticiliği topluluğu ve makale arşivi; Active Directory, Exchange ve sanallaştırma tarafında derinlik var. Microsoft Learn gibi resmî İngilizce belgelerden farkı yerel senaryoları Türkçe ve sahadan anlatması.",
+    "en": "A Turkish sysadmin community and article archive with real depth on Active Directory, Exchange and virtualisation. Unlike official English docs such as Microsoft Learn, it covers local scenarios in Turkish, from the field.",
     "src": "kedi",
     "added": 1785150796
   }

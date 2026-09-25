@@ -89,8 +89,8 @@
       "otomasyon",
       "masaüstü"
     ],
-    "tr": "Mobil uygulama test otomasyonu aracı Appium için kaynak listesi.",
-    "en": "A resource list for Appium, the mobile-app test-automation tool.",
+    "tr": "Mobil uygulama test otomasyonu aracı Appium için kaynak listesi. Espresso ya da XCUITest gibi platforma özgü araçlardan farkı Android ve iOS’u WebDriver protokolüyle tek API’den sürmesi.",
+    "en": "A resource list for Appium, the mobile-app test-automation tool. Unlike platform-specific tools such as Espresso or XCUITest, it drives Android and iOS from one API over the WebDriver protocol.",
     "src": "awesomelist"
   },
   {
@@ -102,8 +102,8 @@
       "javascript",
       "otomasyon"
     ],
-    "tr": "JavaScript test koşucusu AVA için eklenti ve kaynak listesi.",
-    "en": "A list of plugins and resources for AVA, the JavaScript test runner.",
+    "tr": "JavaScript test koşucusu AVA için eklenti ve kaynak listesi. Jest’ten farkı test dosyalarını varsayılan olarak ayrı süreçlerde, eşzamanlı koşturması.",
+    "en": "A list of plugins and resources for AVA, the JavaScript test runner. Unlike Jest, it runs test files concurrently in separate processes by default.",
     "src": "awesomelist"
   },
   {
@@ -114,8 +114,8 @@
       "github",
       "mülakat"
     ],
-    "tr": "Yapay zekâ destekli kod inceleme platformu CodeRabbit için kaynak listesi.",
-    "en": "A resource list for CodeRabbit, the AI-powered code-review platform.",
+    "tr": "Yapay zekâ destekli kod inceleme platformu CodeRabbit için kaynak listesi. Genel yapay zekâ kod inceleme listelerinden farkı yalnız CodeRabbit yapılandırmalarını ve örnek kurallarını toplaması; listeyi şirketin kendisi sürdürüyor.",
+    "en": "A resource list for CodeRabbit, the AI-powered code-review platform. Unlike general AI code-review lists, it gathers only CodeRabbit configurations and sample rules; the company maintains it itself.",
     "src": "awesomelist"
   },
   {
@@ -126,8 +126,8 @@
       "github",
       "otomasyon"
     ],
-    "tr": "Scala tabanlı yük ve performans test çatısı Gatling için kaynak listesi.",
-    "en": "A resource list for Gatling, the Scala-based load- and performance-testing framework.",
+    "tr": "Scala tabanlı yük ve performans test çatısı Gatling için kaynak listesi. JMeter’dan farkı senaryoları arayüzde tıklayarak değil kodla (Scala, Java, Kotlin) yazman.",
+    "en": "A resource list for Gatling, the Scala-based load- and performance-testing framework. Unlike JMeter, you write scenarios in code (Scala, Java, Kotlin) rather than clicking them together in a GUI.",
     "src": "awesomelist"
   },
   {
@@ -174,8 +174,8 @@
       "github",
       "otomasyon"
     ],
-    "tr": "Değişikliklerin işlevi/stili bozmadığını doğrulayan görsel regresyon araçları listesi.",
-    "en": "A list of visual-regression tools that verify changes did not break functionality or style.",
+    "tr": "Değişikliklerin işlevi/stili bozmadığını doğrulayan görsel regresyon araçları listesi. Birim testlerinden farkı ekran görüntülerini karşılaştırarak kodun göremediği stil kırılmalarını yakalaması.",
+    "en": "A list of visual-regression tools that verify changes did not break functionality or style. Unlike unit tests, they compare screenshots and catch style breakages that code assertions cannot see.",
     "src": "awesomelist"
   },
   {
@@ -210,8 +210,8 @@
       "github",
       "referans"
     ],
-    "tr": "Yazılım testinin her dalını — birim, uçtan uca, performans, sözleşme — kaynaklarıyla toplayan liste. Bu dizideki pratik sitelerin geri kalanını da buradan bulabilirsin.",
-    "en": "A list gathering every branch of software testing — unit, end-to-end, performance, contract — with resources. You can also find the rest of this field’s practice sites here.",
+    "tr": "Yazılım testinin her dalını — birim, uçtan uca, performans, sözleşme — kaynaklarıyla toplayan liste. Tek bir araç listesinden farkı kitapları ve test kuramını da araçlarla birlikte vermesi; bu dizideki pratik sitelerin geri kalanını da buradan bulabilirsin.",
+    "en": "A list gathering every branch of software testing — unit, end-to-end, performance, contract — with resources. Unlike a single tool list, it pairs books and testing theory with the tools; you can also find the rest of this field’s practice sites here.",
     "src": "awesomelist"
   },
   {

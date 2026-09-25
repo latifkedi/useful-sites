@@ -11,7 +11,7 @@
   <link href="https://github.com/Symbitic/awesome-babylonjs"/>
   <id>https://github.com/Symbitic/awesome-babylonjs</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Web ve yerel için 3B oyun motoru Babylon.js için kaynak listesi.</summary>
+  <summary>Web ve yerel için 3B oyun motoru Babylon.js için kaynak listesi. Three.js’ten farkı bir çizim kütüphanesi değil motor gibi davranması: fizik entegrasyonu, Inspector ve Playground yerleşik geliyor.</summary>
 </entry>
 <entry>
   <title>Awesome Flame</title>
@@ -81,7 +81,7 @@
   <link href="https://github.com/love2d-community/awesome-love2d"/>
   <id>https://github.com/love2d-community/awesome-love2d</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Lua tabanlı oyun motoru LÖVE için kaynak ve kütüphane listesi.</summary>
+  <summary>Lua tabanlı oyun motoru LÖVE için kaynak ve kütüphane listesi. Godot gibi editörlü motorlardan farkı editörü olmaması: her şey Lua koduyla; liste bu boşluğu dolduran kütüphaneleri topluyor.</summary>
 </entry>
 <entry>
   <title>Awesome Minecraft</title>
@@ -102,21 +102,21 @@
   <link href="https://github.com/eug/awesome-opengl"/>
   <id>https://github.com/eug/awesome-opengl</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>2B/3B çizim API’si OpenGL için kütüphane ve öğretici listesi.</summary>
+  <summary>2B/3B çizim API’si OpenGL için kütüphane ve öğretici listesi. Vulkan’dan farkı daha yüksek seviyeli ve öğrenmesi kolay olması; grafik programlamaya giriş için hâlâ en yaygın yol.</summary>
 </entry>
 <entry>
   <title>Awesome PICO-8</title>
   <link href="https://github.com/pico-8/awesome-PICO-8"/>
   <id>https://github.com/pico-8/awesome-PICO-8</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Retro kısıtlı fantezi konsol PICO-8 için oyun ve araç listesi.</summary>
+  <summary>Retro kısıtlı fantezi konsol PICO-8 için oyun ve araç listesi. Genel oyun motorlarından farkı bilinçli kısıtlar — 128×128 ekran, 16 renk — içinde oyun yaptırması.</summary>
 </entry>
 <entry>
   <title>Awesome Vulkan</title>
   <link href="https://github.com/vinjn/awesome-vulkan"/>
   <id>https://github.com/vinjn/awesome-vulkan</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Düşük seviye 3B grafik ve hesaplama API’si Vulkan için kaynak listesi.</summary>
+  <summary>Düşük seviye 3B grafik ve hesaplama API’si Vulkan için kaynak listesi. OpenGL’den farkı sürücünün üstlendiği işi — bellek yönetimi, eşzamanlama — sana bırakması: daha hızlı ama çok daha ayrıntılı.</summary>
 </entry>
 <entry>
   <title>Catlike Coding</title>

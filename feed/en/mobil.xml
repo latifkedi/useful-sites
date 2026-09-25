@@ -32,21 +32,21 @@
   <link href="https://github.com/riderx/awesome-capacitor"/>
   <id>https://github.com/riderx/awesome-capacitor</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Capacitor, wrapping web apps in a native mobile shell.</summary>
+  <summary>A resource list for Capacitor, wrapping web apps in a native mobile shell. Unlike Cordova, it keeps the native Xcode and Android Studio projects as source code rather than generated files; the list gathers plugins.</summary>
 </entry>
 <entry>
   <title>Awesome Cordova</title>
   <link href="https://github.com/busterc/awesome-cordova"/>
   <id>https://github.com/busterc/awesome-cordova</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Cordova, building hybrid mobile apps with JavaScript.</summary>
+  <summary>A resource list for Cordova, building hybrid mobile apps with JavaScript. Unlike Capacitor it is older with a broad plugin ecosystem; new projects mostly go to Capacitor.</summary>
 </entry>
 <entry>
   <title>Awesome Electron</title>
   <link href="https://github.com/sindresorhus/awesome-electron"/>
   <id>https://github.com/sindresorhus/awesome-electron</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Electron, building desktop apps with web technologies.</summary>
+  <summary>A resource list for Electron, building desktop apps with web technologies. Unlike alternatives such as Tauri, it bundles Chromium and Node.js with every app: large downloads, but identical behaviour on every platform.</summary>
 </entry>
 <entry>
   <title>Awesome Flutter</title>
@@ -74,7 +74,7 @@
   <link href="https://github.com/dersvenhesse/awesome-scriptable"/>
   <id>https://github.com/dersvenhesse/awesome-scriptable</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Scriptable, the iOS app for automation in JavaScript.</summary>
+  <summary>A resource list for Scriptable, the iOS app for automation in JavaScript. Unlike Apple Shortcuts you write automation in JavaScript instead of blocks; the list gathers scripts and home-screen widgets.</summary>
 </entry>
 <entry>
   <title>Awesome Smart TV</title>
@@ -95,14 +95,14 @@
   <link href="https://github.com/MartinZikmund/awesome-uno-platform"/>
   <id>https://github.com/MartinZikmund/awesome-uno-platform</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list for Uno Platform, building cross-platform .NET UIs from one codebase.</summary>
+  <summary>A list for Uno Platform, building cross-platform .NET UIs from one codebase. Unlike .NET MAUI, it also targets the browser via WebAssembly, and Linux.</summary>
 </entry>
 <entry>
   <title>Awesome watchOS</title>
   <link href="https://github.com/yenchenlin/awesome-watchos"/>
   <id>https://github.com/yenchenlin/awesome-watchos</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Apple Watch (watchOS) app development.</summary>
+  <summary>A resource list for Apple Watch (watchOS) app development. Unlike iOS lists, it collects samples specific to the watch’s constraints; part of the list dates from the old WatchKit era.</summary>
 </entry>
 <entry>
   <title>Capacitor</title>

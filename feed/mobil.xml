@@ -32,21 +32,21 @@
   <link href="https://github.com/riderx/awesome-capacitor"/>
   <id>https://github.com/riderx/awesome-capacitor</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Web uygulamalarını yerel mobil kabuğa taşıyan Capacitor için kaynak listesi.</summary>
+  <summary>Web uygulamalarını yerel mobil kabuğa taşıyan Capacitor için kaynak listesi. Cordova’dan farkı yerel Xcode ve Android Studio projelerini üretilen dosya değil kaynak kodu olarak tutması; liste eklentileri topluyor.</summary>
 </entry>
 <entry>
   <title>Awesome Cordova</title>
   <link href="https://github.com/busterc/awesome-cordova"/>
   <id>https://github.com/busterc/awesome-cordova</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>JavaScript ile melez mobil uygulama yapan Cordova için kaynak listesi.</summary>
+  <summary>JavaScript ile melez mobil uygulama yapan Cordova için kaynak listesi. Capacitor’dan farkı daha eski ve eklenti ekosisteminin geniş olması; yeni projeler çoğunlukla Capacitor’a yöneliyor.</summary>
 </entry>
 <entry>
   <title>Awesome Electron</title>
   <link href="https://github.com/sindresorhus/awesome-electron"/>
   <id>https://github.com/sindresorhus/awesome-electron</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Web teknolojileriyle masaüstü uygulaması yapmak için Electron kaynak listesi.</summary>
+  <summary>Web teknolojileriyle masaüstü uygulaması yapmak için Electron kaynak listesi. Tauri gibi alternatiflerden farkı her uygulamayla Chromium ve Node.js’i paketlemesi: dosyası büyük ama davranışı her platformda aynı.</summary>
 </entry>
 <entry>
   <title>Awesome Flutter</title>
@@ -74,7 +74,7 @@
   <link href="https://github.com/dersvenhesse/awesome-scriptable"/>
   <id>https://github.com/dersvenhesse/awesome-scriptable</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>iOS’ta JavaScript ile otomasyon yapan Scriptable uygulaması için kaynak listesi.</summary>
+  <summary>iOS’ta JavaScript ile otomasyon yapan Scriptable uygulaması için kaynak listesi. Apple Kestirmeler’den farkı otomasyonu blok yerine JavaScript ile yazman; liste betikleri ve ana ekran widget’larını topluyor.</summary>
 </entry>
 <entry>
   <title>Awesome Smart TV</title>
@@ -95,14 +95,14 @@
   <link href="https://github.com/MartinZikmund/awesome-uno-platform"/>
   <id>https://github.com/MartinZikmund/awesome-uno-platform</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Tek kod tabanıyla çok platformlu .NET arayüzü kuran Uno Platform listesi.</summary>
+  <summary>Tek kod tabanıyla çok platformlu .NET arayüzü kuran Uno Platform listesi. .NET MAUI’den farkı WebAssembly ile tarayıcıyı ve Linux’u da hedeflemesi.</summary>
 </entry>
 <entry>
   <title>Awesome watchOS</title>
   <link href="https://github.com/yenchenlin/awesome-watchos"/>
   <id>https://github.com/yenchenlin/awesome-watchos</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Apple Watch (watchOS) uygulama geliştirme için kaynak listesi.</summary>
+  <summary>Apple Watch (watchOS) uygulama geliştirme için kaynak listesi. iOS listelerinden farkı saatin kısıtlarına özgü örnekleri toplaması; listenin bir kısmı eski WatchKit dönemine ait.</summary>
 </entry>
 <entry>
   <title>Capacitor</title>

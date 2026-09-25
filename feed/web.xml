@@ -32,7 +32,7 @@
   <link href="https://github.com/awesome-css-group/awesome-css"/>
   <id>https://github.com/awesome-css-group/awesome-css</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>CSS dili, araçları ve kaynaklarını konuya göre toplayan liste.</summary>
+  <summary>CSS dili, araçları ve kaynaklarını konuya göre toplayan liste. Öğrenme odaklı CSS listelerinden farkı çatıları, araçları ve BEM gibi metodolojileri de kapsaması.</summary>
 </entry>
 <entry>
   <title>Awesome CSS Learning</title>
@@ -46,14 +46,14 @@
   <link href="https://github.com/dustinspecker/awesome-eslint"/>
   <id>https://github.com/dustinspecker/awesome-eslint</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>JavaScript linter’ı ESLint için eklenti ve yapılandırma listesi.</summary>
+  <summary>JavaScript linter’ı ESLint için eklenti ve yapılandırma listesi. ESLint belgelerinden farkı topluluğun paylaştığı yapılandırmaları ve React, Vue gibi çatılara özgü eklentileri toplaması.</summary>
 </entry>
 <entry>
   <title>Awesome Frontend GIS</title>
   <link href="https://github.com/joewdavies/awesome-frontend-gis"/>
   <id>https://github.com/joewdavies/awesome-frontend-gis</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Tarayıcıda coğrafi bilgi sistemleri (harita) için kütüphane listesi.</summary>
+  <summary>Tarayıcıda coğrafi bilgi sistemleri (harita) için kütüphane listesi. Genel harita API listelerinden farkı sunucu değil tarayıcıda çalışan kütüphanelere — harita görüntüleme, veri dönüştürme, mekânsal analiz — odaklanması.</summary>
 </entry>
 <entry>
   <title>Awesome HTML5</title>
@@ -74,28 +74,28 @@
   <link href="https://github.com/sindresorhus/awesome-npm"/>
   <id>https://github.com/sindresorhus/awesome-npm</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Node paket yöneticisi npm için ipucu, araç ve kaynak listesi.</summary>
+  <summary>Node paket yöneticisi npm için ipucu, araç ve kaynak listesi. npm belgelerinden farkı çevresindeki araçları — paket arama siteleri, yayınlama yardımcıları, komut satırı eklentileri — toplaması.</summary>
 </entry>
 <entry>
   <title>Awesome npm scripts</title>
   <link href="https://github.com/RyanZim/awesome-npm-scripts"/>
   <id>https://github.com/RyanZim/awesome-npm-scripts</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Görev koşucusu olarak npm script kullanımı için kaynak listesi.</summary>
+  <summary>Görev koşucusu olarak npm script kullanımı için kaynak listesi. Gulp ya da Grunt gibi görev koşucularından farkı ek bağımlılık olmadan package.json betikleriyle yetinmeyi öğretmesi.</summary>
 </entry>
 <entry>
   <title>Awesome Ponyfills</title>
   <link href="https://github.com/Richienb/awesome-ponyfills"/>
   <id>https://github.com/Richienb/awesome-ponyfills</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Yerel davranışı ezmeden ekleyen ponyfill kütüphaneleri listesi.</summary>
+  <summary>Yerel davranışı ezmeden ekleyen ponyfill kütüphaneleri listesi. Polyfill’lerden farkı global nesneleri değiştirmemesi: özelliği ayrı bir modül olarak içe aktarıyorsun.</summary>
 </entry>
 <entry>
   <title>Awesome PostCSS</title>
   <link href="https://github.com/jdrgomes/awesome-postcss"/>
   <id>https://github.com/jdrgomes/awesome-postcss</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>CSS’i eklentilerle dönüştüren PostCSS aracı için kaynak listesi.</summary>
+  <summary>CSS’i eklentilerle dönüştüren PostCSS aracı için kaynak listesi. Sass gibi ön işlemcilerden farkı her dönüşümün ayrı bir eklenti olması; liste bu eklentileri işlevine göre topluyor.</summary>
 </entry>
 <entry>
   <title>Awesome Preact</title>
@@ -109,7 +109,7 @@
   <link href="https://github.com/enaqx/awesome-react"/>
   <id>https://github.com/enaqx/awesome-react</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>React ekosistemi için kütüphane, araç ve öğrenme kaynağı listesi.</summary>
+  <summary>React ekosistemi için kütüphane, araç ve öğrenme kaynağı listesi. Resmî belgelerden farkı çevredeki ekosistemi — durum yönetimi, yönlendirme, bileşen kütüphaneleri, test — tek listede toplaması.</summary>
 </entry>
 <entry>
   <title>Awesome React Hooks</title>
@@ -123,7 +123,7 @@
   <link href="https://github.com/standard/awesome-standard"/>
   <id>https://github.com/standard/awesome-standard</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Yapılandırma gerektirmeyen JS stil kılavuzu ve linter Standard için kaynak listesi.</summary>
+  <summary>Yapılandırma gerektirmeyen JS stil kılavuzu ve linter Standard için kaynak listesi. ESLint’i elle yapılandırmaktan farkı kuralların tartışmaya kapalı, sabit gelmesi; liste editör eklentilerini ve uyumlu araçları topluyor.</summary>
 </entry>
 <entry>
   <title>Awesome Svelte</title>
@@ -151,14 +151,14 @@
   <link href="https://github.com/msub2/awesome-webxr"/>
   <id>https://github.com/msub2/awesome-webxr</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Tarayıcıda sanal/artırılmış gerçeklik sağlayan WebXR için kaynak listesi.</summary>
+  <summary>Tarayıcıda sanal/artırılmış gerçeklik sağlayan WebXR için kaynak listesi. Yerel XR SDK’larından farkı kurulum istemeden tarayıcıda açılan deneyimler; liste çatıları, örnekleri ve araçları topluyor.</summary>
 </entry>
 <entry>
   <title>Awesome WP-CLI</title>
   <link href="https://github.com/schlessera/awesome-wp-cli"/>
   <id>https://github.com/schlessera/awesome-wp-cli</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>WordPress’i komut satırından yöneten WP-CLI için kaynak listesi.</summary>
+  <summary>WordPress’i komut satırından yöneten WP-CLI için kaynak listesi. Yönetim panelinden farkı toplu ve betiklenebilir işlemler: yüz sitede eklenti güncellemek tek komut.</summary>
 </entry>
 <entry>
   <title>Awwwards</title>

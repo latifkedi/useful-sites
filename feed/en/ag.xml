@@ -18,7 +18,7 @@
   <link href="https://github.com/zoidbergwill/awesome-ebpf"/>
   <id>https://github.com/zoidbergwill/awesome-ebpf</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for eBPF, which runs safe programs inside the kernel.</summary>
+  <summary>A resource list for eBPF, which runs safe programs inside the kernel. Unlike writing a kernel module, the program must first pass the verifier, so it runs without the risk of crashing the kernel.</summary>
 </entry>
 <entry>
   <title>Awesome GNOME</title>
@@ -32,7 +32,7 @@
   <link href="https://github.com/ipfs/awesome-ipfs"/>
   <id>https://github.com/ipfs/awesome-ipfs</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of tools and projects for IPFS, the decentralised file protocol.</summary>
+  <summary>A list of tools and projects for IPFS, the decentralised file protocol. Unlike HTTP, it addresses a file by the hash of its content (CID) rather than by the server that holds it.</summary>
 </entry>
 <entry>
   <title>Awesome KDE</title>
@@ -53,7 +53,7 @@
   <link href="https://github.com/0pandadev/awesome-windows"/>
   <id>https://github.com/0pandadev/awesome-windows</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of the best apps and tools for the Windows desktop.</summary>
+  <summary>A list of the best apps and tools for the Windows desktop. Unlike the Microsoft Store it is curated and puts free and open-source options first.</summary>
 </entry>
 <entry>
   <title>Comcast</title>
@@ -256,7 +256,7 @@
   <link href="https://www.cozumpark.com/"/>
   <id>https://www.cozumpark.com/</id>
   <updated>2026-07-27T11:13:16Z</updated>
-  <summary>A Turkish sysadmin community and article archive with real depth on Active Directory, Exchange and virtualisation — a rare resource for locally specific scenarios.</summary>
+  <summary>A Turkish sysadmin community and article archive with real depth on Active Directory, Exchange and virtualisation. Unlike official English docs such as Microsoft Learn, it covers local scenarios in Turkish, from the field.</summary>
 </entry>
 <entry>
   <title>ServiceDesk Simulator</title>

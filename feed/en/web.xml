@@ -32,7 +32,7 @@
   <link href="https://github.com/awesome-css-group/awesome-css"/>
   <id>https://github.com/awesome-css-group/awesome-css</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list gathering the CSS language, tools and resources by topic.</summary>
+  <summary>A list gathering the CSS language, tools and resources by topic. Unlike learning-focused CSS lists, it also covers frameworks, tooling and methodologies such as BEM.</summary>
 </entry>
 <entry>
   <title>Awesome CSS Learning</title>
@@ -46,14 +46,14 @@
   <link href="https://github.com/dustinspecker/awesome-eslint"/>
   <id>https://github.com/dustinspecker/awesome-eslint</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of plugins and configs for ESLint, the JavaScript linter.</summary>
+  <summary>A list of plugins and configs for ESLint, the JavaScript linter. Unlike the ESLint docs, it gathers community-shared configs and plugins specific to frameworks such as React and Vue.</summary>
 </entry>
 <entry>
   <title>Awesome Frontend GIS</title>
   <link href="https://github.com/joewdavies/awesome-frontend-gis"/>
   <id>https://github.com/joewdavies/awesome-frontend-gis</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of libraries for geographic information systems (maps) in the browser.</summary>
+  <summary>A list of libraries for geographic information systems (maps) in the browser. Unlike general mapping-API lists, it focuses on libraries that run in the browser rather than on a server — rendering, data conversion, spatial analysis.</summary>
 </entry>
 <entry>
   <title>Awesome HTML5</title>
@@ -74,28 +74,28 @@
   <link href="https://github.com/sindresorhus/awesome-npm"/>
   <id>https://github.com/sindresorhus/awesome-npm</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of tips, tools and resources for npm, the Node package manager.</summary>
+  <summary>A list of tips, tools and resources for npm, the Node package manager. Unlike the npm docs, it gathers the tools around it — package search sites, publishing helpers, CLI add-ons.</summary>
 </entry>
 <entry>
   <title>Awesome npm scripts</title>
   <link href="https://github.com/RyanZim/awesome-npm-scripts"/>
   <id>https://github.com/RyanZim/awesome-npm-scripts</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for using npm scripts as a task runner.</summary>
+  <summary>A resource list for using npm scripts as a task runner. Unlike task runners such as Gulp or Grunt, it teaches making do with package.json scripts and no extra dependency.</summary>
 </entry>
 <entry>
   <title>Awesome Ponyfills</title>
   <link href="https://github.com/Richienb/awesome-ponyfills"/>
   <id>https://github.com/Richienb/awesome-ponyfills</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of ponyfill libraries that add native behaviour without overriding it.</summary>
+  <summary>A list of ponyfill libraries that add native behaviour without overriding it. Unlike polyfills they never patch globals: you import the feature as a separate module.</summary>
 </entry>
 <entry>
   <title>Awesome PostCSS</title>
   <link href="https://github.com/jdrgomes/awesome-postcss"/>
   <id>https://github.com/jdrgomes/awesome-postcss</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for PostCSS, the tool that transforms CSS with plugins.</summary>
+  <summary>A resource list for PostCSS, the tool that transforms CSS with plugins. Unlike preprocessors such as Sass, every transformation is a separate plugin; the list groups them by purpose.</summary>
 </entry>
 <entry>
   <title>Awesome Preact</title>
@@ -109,7 +109,7 @@
   <link href="https://github.com/enaqx/awesome-react"/>
   <id>https://github.com/enaqx/awesome-react</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of libraries, tools and learning resources for the React ecosystem.</summary>
+  <summary>A list of libraries, tools and learning resources for the React ecosystem. Unlike the official docs, it gathers the surrounding ecosystem — state management, routing, component libraries, testing — in one list.</summary>
 </entry>
 <entry>
   <title>Awesome React Hooks</title>
@@ -123,7 +123,7 @@
   <link href="https://github.com/standard/awesome-standard"/>
   <id>https://github.com/standard/awesome-standard</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Standard, the zero-config JS style guide and linter.</summary>
+  <summary>A resource list for Standard, the zero-config JS style guide and linter. Unlike configuring ESLint by hand, the rules are fixed and not up for debate; the list gathers editor plugins and compatible tools.</summary>
 </entry>
 <entry>
   <title>Awesome Svelte</title>
@@ -151,14 +151,14 @@
   <link href="https://github.com/msub2/awesome-webxr"/>
   <id>https://github.com/msub2/awesome-webxr</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for WebXR, enabling virtual/augmented reality in the browser.</summary>
+  <summary>A resource list for WebXR, enabling virtual/augmented reality in the browser. Unlike native XR SDKs, these experiences open in a browser with nothing to install; the list gathers frameworks, samples and tools.</summary>
 </entry>
 <entry>
   <title>Awesome WP-CLI</title>
   <link href="https://github.com/schlessera/awesome-wp-cli"/>
   <id>https://github.com/schlessera/awesome-wp-cli</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for WP-CLI, managing WordPress from the command line.</summary>
+  <summary>A resource list for WP-CLI, managing WordPress from the command line. Unlike the admin dashboard it offers bulk, scriptable operations: updating plugins on a hundred sites is one command.</summary>
 </entry>
 <entry>
   <title>Awwwards</title>

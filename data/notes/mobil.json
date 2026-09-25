@@ -67,8 +67,8 @@
       "masaüstü",
       "javascript"
     ],
-    "tr": "Web uygulamalarını yerel mobil kabuğa taşıyan Capacitor için kaynak listesi.",
-    "en": "A resource list for Capacitor, wrapping web apps in a native mobile shell.",
+    "tr": "Web uygulamalarını yerel mobil kabuğa taşıyan Capacitor için kaynak listesi. Cordova’dan farkı yerel Xcode ve Android Studio projelerini üretilen dosya değil kaynak kodu olarak tutması; liste eklentileri topluyor.",
+    "en": "A resource list for Capacitor, wrapping web apps in a native mobile shell. Unlike Cordova, it keeps the native Xcode and Android Studio projects as source code rather than generated files; the list gathers plugins.",
     "src": "awesomelist"
   },
   {
@@ -80,8 +80,8 @@
       "masaüstü",
       "javascript"
     ],
-    "tr": "JavaScript ile melez mobil uygulama yapan Cordova için kaynak listesi.",
-    "en": "A resource list for Cordova, building hybrid mobile apps with JavaScript.",
+    "tr": "JavaScript ile melez mobil uygulama yapan Cordova için kaynak listesi. Capacitor’dan farkı daha eski ve eklenti ekosisteminin geniş olması; yeni projeler çoğunlukla Capacitor’a yöneliyor.",
+    "en": "A resource list for Cordova, building hybrid mobile apps with JavaScript. Unlike Capacitor it is older with a broad plugin ecosystem; new projects mostly go to Capacitor.",
     "src": "awesomelist"
   },
   {
@@ -93,8 +93,8 @@
       "masaüstü",
       "javascript"
     ],
-    "tr": "Web teknolojileriyle masaüstü uygulaması yapmak için Electron kaynak listesi.",
-    "en": "A resource list for Electron, building desktop apps with web technologies.",
+    "tr": "Web teknolojileriyle masaüstü uygulaması yapmak için Electron kaynak listesi. Tauri gibi alternatiflerden farkı her uygulamayla Chromium ve Node.js’i paketlemesi: dosyası büyük ama davranışı her platformda aynı.",
+    "en": "A resource list for Electron, building desktop apps with web technologies. Unlike alternatives such as Tauri, it bundles Chromium and Node.js with every app: large downloads, but identical behaviour on every platform.",
     "src": "awesomelist"
   },
   {
@@ -141,8 +141,8 @@
       "masaüstü",
       "otomasyon"
     ],
-    "tr": "iOS’ta JavaScript ile otomasyon yapan Scriptable uygulaması için kaynak listesi.",
-    "en": "A resource list for Scriptable, the iOS app for automation in JavaScript.",
+    "tr": "iOS’ta JavaScript ile otomasyon yapan Scriptable uygulaması için kaynak listesi. Apple Kestirmeler’den farkı otomasyonu blok yerine JavaScript ile yazman; liste betikleri ve ana ekran widget’larını topluyor.",
+    "en": "A resource list for Scriptable, the iOS app for automation in JavaScript. Unlike Apple Shortcuts you write automation in JavaScript instead of blocks; the list gathers scripts and home-screen widgets.",
     "src": "awesomelist"
   },
   {
@@ -177,8 +177,8 @@
       "github",
       "masaüstü"
     ],
-    "tr": "Tek kod tabanıyla çok platformlu .NET arayüzü kuran Uno Platform listesi.",
-    "en": "A list for Uno Platform, building cross-platform .NET UIs from one codebase.",
+    "tr": "Tek kod tabanıyla çok platformlu .NET arayüzü kuran Uno Platform listesi. .NET MAUI’den farkı WebAssembly ile tarayıcıyı ve Linux’u da hedeflemesi.",
+    "en": "A list for Uno Platform, building cross-platform .NET UIs from one codebase. Unlike .NET MAUI, it also targets the browser via WebAssembly, and Linux.",
     "src": "awesomelist"
   },
   {
@@ -189,8 +189,8 @@
       "github",
       "masaüstü"
     ],
-    "tr": "Apple Watch (watchOS) uygulama geliştirme için kaynak listesi.",
-    "en": "A resource list for Apple Watch (watchOS) app development.",
+    "tr": "Apple Watch (watchOS) uygulama geliştirme için kaynak listesi. iOS listelerinden farkı saatin kısıtlarına özgü örnekleri toplaması; listenin bir kısmı eski WatchKit dönemine ait.",
+    "en": "A resource list for Apple Watch (watchOS) app development. Unlike iOS lists, it collects samples specific to the watch’s constraints; part of the list dates from the old WatchKit era.",
     "src": "awesomelist"
   },
   {

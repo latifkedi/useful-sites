@@ -8,8 +8,8 @@
       "interaktif",
       "3b"
     ],
-    "tr": "Web ve yerel için 3B oyun motoru Babylon.js için kaynak listesi.",
-    "en": "A resource list for Babylon.js, a 3D game engine for web and native.",
+    "tr": "Web ve yerel için 3B oyun motoru Babylon.js için kaynak listesi. Three.js’ten farkı bir çizim kütüphanesi değil motor gibi davranması: fizik entegrasyonu, Inspector ve Playground yerleşik geliyor.",
+    "en": "A resource list for Babylon.js, a 3D game engine for web and native. Unlike Three.js it behaves like an engine rather than a rendering library: physics integration, the Inspector and the Playground come built in.",
     "src": "awesomelist"
   },
   {
@@ -127,8 +127,8 @@
       "github",
       "interaktif"
     ],
-    "tr": "Lua tabanlı oyun motoru LÖVE için kaynak ve kütüphane listesi.",
-    "en": "A list of resources and libraries for LÖVE, the Lua-based game engine.",
+    "tr": "Lua tabanlı oyun motoru LÖVE için kaynak ve kütüphane listesi. Godot gibi editörlü motorlardan farkı editörü olmaması: her şey Lua koduyla; liste bu boşluğu dolduran kütüphaneleri topluyor.",
+    "en": "A list of resources and libraries for LÖVE, the Lua-based game engine. Unlike engines with an editor such as Godot, it has none — everything is Lua code; the list gathers the libraries that fill that gap.",
     "src": "awesomelist"
   },
   {
@@ -164,8 +164,8 @@
       "interaktif",
       "3b"
     ],
-    "tr": "2B/3B çizim API’si OpenGL için kütüphane ve öğretici listesi.",
-    "en": "A list of libraries and tutorials for OpenGL, the 2D/3D rendering API.",
+    "tr": "2B/3B çizim API’si OpenGL için kütüphane ve öğretici listesi. Vulkan’dan farkı daha yüksek seviyeli ve öğrenmesi kolay olması; grafik programlamaya giriş için hâlâ en yaygın yol.",
+    "en": "A list of libraries and tutorials for OpenGL, the 2D/3D rendering API. Unlike Vulkan it is higher-level and easier to learn — still the most common way into graphics programming.",
     "src": "awesomelist"
   },
   {
@@ -176,8 +176,8 @@
       "github",
       "interaktif"
     ],
-    "tr": "Retro kısıtlı fantezi konsol PICO-8 için oyun ve araç listesi.",
-    "en": "A list of games and tools for PICO-8, the retro-constrained fantasy console.",
+    "tr": "Retro kısıtlı fantezi konsol PICO-8 için oyun ve araç listesi. Genel oyun motorlarından farkı bilinçli kısıtlar — 128×128 ekran, 16 renk — içinde oyun yaptırması.",
+    "en": "A list of games and tools for PICO-8, the retro-constrained fantasy console. Unlike general game engines, it has you build within deliberate limits — a 128×128 screen, 16 colours.",
     "src": "awesomelist"
   },
   {
@@ -189,8 +189,8 @@
       "interaktif",
       "3b"
     ],
-    "tr": "Düşük seviye 3B grafik ve hesaplama API’si Vulkan için kaynak listesi.",
-    "en": "A resource list for Vulkan, the low-overhead 3D graphics and compute API.",
+    "tr": "Düşük seviye 3B grafik ve hesaplama API’si Vulkan için kaynak listesi. OpenGL’den farkı sürücünün üstlendiği işi — bellek yönetimi, eşzamanlama — sana bırakması: daha hızlı ama çok daha ayrıntılı.",
+    "en": "A resource list for Vulkan, the low-overhead 3D graphics and compute API. Unlike OpenGL it hands you the work the driver used to do — memory management, synchronisation: faster, but far more verbose.",
     "src": "awesomelist"
   },
   {

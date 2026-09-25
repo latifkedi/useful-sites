@@ -11,21 +11,21 @@
   <link href="https://github.com/Esri/awesome-arcgis-developer"/>
   <id>https://github.com/Esri/awesome-arcgis-developer</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Developer resources for ArcGIS, the mapping and location-analysis platform.</summary>
+  <summary>Developer resources for ArcGIS, the mapping and location-analysis platform. Unlike open-source GIS lists, it centres on the commercial Esri ecosystem, and Esri maintains it.</summary>
 </entry>
 <entry>
   <title>Awesome Core ML Models</title>
   <link href="https://github.com/likedan/Awesome-CoreML-Models"/>
   <id>https://github.com/likedan/Awesome-CoreML-Models</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of ready machine-learning models for Apple’s Core ML framework.</summary>
+  <summary>A list of ready machine-learning models for Apple’s Core ML framework. Unlike general model hubs, every model is already in Core ML format for on-device use on iOS/macOS; part of the list is dated.</summary>
 </entry>
 <entry>
   <title>Awesome CSV</title>
   <link href="https://github.com/secretGeek/awesomeCSV"/>
   <id>https://github.com/secretGeek/awesomeCSV</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of tools and resources for CSV, the tabular-data file format.</summary>
+  <summary>A list of tools and resources for CSV, the tabular-data file format. Unlike strictly schema’d formats (Parquet, JSON Schema) CSV is loose, and the list gathers the command-line tools and libraries that cope with its quirks.</summary>
 </entry>
 <entry>
   <title>Awesome Deep Learning</title>
@@ -46,42 +46,42 @@
   <link href="https://github.com/h2oai/awesome-h2o"/>
   <id>https://github.com/h2oai/awesome-h2o</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list for H2O, the open-source distributed machine-learning platform.</summary>
+  <summary>A list for H2O, the open-source distributed machine-learning platform. Unlike scikit-learn, it runs distributed across a cluster and has AutoML built in.</summary>
 </entry>
 <entry>
   <title>Awesome JAX</title>
   <link href="https://github.com/n2cholas/awesome-jax"/>
   <id>https://github.com/n2cholas/awesome-jax</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list for JAX, which offers automatic differentiation and XLA compilation.</summary>
+  <summary>A list for JAX, which offers automatic differentiation and XLA compilation. Unlike PyTorch it is functional: you apply transformations such as grad, jit and vmap to pure functions.</summary>
 </entry>
 <entry>
   <title>Awesome JSON</title>
   <link href="https://github.com/burningtree/awesome-json"/>
   <id>https://github.com/burningtree/awesome-json</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of tools and resources for JSON, the text-based data-interchange format.</summary>
+  <summary>A list of tools and resources for JSON, the text-based data-interchange format. Unlike a single parser, it brings together schema validators, query tools such as jq and libraries per language.</summary>
 </entry>
 <entry>
   <title>Awesome Jupyter</title>
   <link href="https://github.com/markusschanta/awesome-jupyter"/>
   <id>https://github.com/markusschanta/awesome-jupyter</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Jupyter notebooks, which hold code, text and charts together.</summary>
+  <summary>A resource list for Jupyter notebooks, which hold code, text and charts together. Unlike the Jupyter docs, it gathers the ecosystem around it — extensions, kernels, tools that turn a notebook into an app or slides.</summary>
 </entry>
 <entry>
   <title>Awesome NLG</title>
   <link href="https://github.com/accelerated-text/awesome-nlg"/>
   <id>https://github.com/accelerated-text/awesome-nlg</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list for generating text from data or dialogue (natural-language generation).</summary>
+  <summary>A list for generating text from data or dialogue (natural-language generation). Unlike general NLP lists it is about producing text rather than understanding it; much of it predates large language models.</summary>
 </entry>
 <entry>
   <title>Awesome OpenStreetMap</title>
   <link href="https://github.com/osmlab/awesome-openstreetmap"/>
   <id>https://github.com/osmlab/awesome-openstreetmap</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of tools and resources for OpenStreetMap, the open map-data project.</summary>
+  <summary>A list of tools and resources for OpenStreetMap, the open map-data project. Unlike the Google Maps API the data is openly licensed (ODbL) and fully downloadable; the list gathers editors, processors and renderers.</summary>
 </entry>
 <entry>
   <title>Awesome Public Datasets</title>
@@ -102,7 +102,7 @@
   <link href="https://github.com/seriousran/awesome-qa"/>
   <id>https://github.com/seriousran/awesome-qa</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list for asking and answering questions in natural language (QA).</summary>
+  <summary>A list for asking and answering questions in natural language (QA). Unlike general NLP lists, it focuses only on question answering — datasets, models, papers.</summary>
 </entry>
 <entry>
   <title>Awesome R</title>
@@ -123,7 +123,7 @@
   <link href="https://github.com/jtoy/awesome-tensorflow"/>
   <id>https://github.com/jtoy/awesome-tensorflow</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of resources and models for TensorFlow, the machine-intelligence library.</summary>
+  <summary>A list of resources and models for TensorFlow, the machine-intelligence library. Unlike the official docs, it gathers community tutorials, models and projects; part of it dates from the TensorFlow 1 era.</summary>
 </entry>
 <entry>
   <title>AWS Open Data Registry</title>
