@@ -1,0 +1,839 @@
+[
+  {
+    "url": "https://academybugs.com/find-bugs/",
+    "name": "Academy Bugs",
+    "tags": [
+      "otomasyon",
+      "ücretsiz",
+      "öğretici"
+    ],
+    "tr": "İçine 25 gerçek hata yerleştirilmiş, hata bulma pratiği yaptıran site.",
+    "en": "A practice site with 25 real bugs planted inside for you to find.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://airportgap.dev-tester.com/",
+    "name": "Airport Gap",
+    "tags": [
+      "api",
+      "ücretsiz",
+      "otomasyon"
+    ],
+    "tr": "API otomasyon testini geliştirmek için hazırlanmış RESTful API.",
+    "en": "A RESTful API built to improve your API automation testing.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://apichallenges.eviltester.com/",
+    "name": "API Challenges",
+    "tags": [
+      "api",
+      "öğretici",
+      "ücretsiz"
+    ],
+    "tr": "API testi pratiği için meydan okuma, öğretici ve referanslar dizisi.",
+    "en": "A series of challenges, tutorials and references for practising API testing.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://applitools.com",
+    "name": "Applitools",
+    "tags": [
+      "otomasyon",
+      "freemium"
+    ],
+    "tr": "Görsel yapay zekayla ekran karşılaştırması yapan görsel regresyon test platformu.",
+    "en": "A visual regression testing platform that compares screens with visual AI.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://demo.applitools.com/",
+    "name": "Applitools Demo",
+    "tags": [
+      "ücretsiz",
+      "otomasyon"
+    ],
+    "tr": "Görsel test için tasarlanmış, ikinci bir sürümüyle karşılaştırılabilen demo. İşlevsel testten farkı ekranın nasıl göründüğündeki değişimi yakalamaya odaklanması.",
+    "en": "A demo designed for visual testing, comparable against a second version. Unlike functional testing it targets catching changes in how the screen looks.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://practice-automation.com/",
+    "name": "AutomateNow Practice",
+    "tags": [
+      "otomasyon",
+      "ücretsiz"
+    ],
+    "tr": "Farklı etkileşim türlerini denemek için sade bir otomasyon pratik sayfası.",
+    "en": "A clean automation practice page for trying different interaction types.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://www.automationexercise.com/",
+    "name": "Automation Exercise",
+    "tags": [
+      "otomasyon",
+      "ücretsiz",
+      "api"
+    ],
+    "tr": "UI ve API arka ucuyla gelen, test senaryosu örnekleri içeren otomasyon pratik sitesi.",
+    "en": "An automation practice site with a UI and API backend, including test-case examples.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://github.com/SrinivasanTarget/awesome-appium",
+    "name": "Awesome Appium",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "otomasyon",
+      "masaüstü"
+    ],
+    "tr": "Mobil uygulama test otomasyonu aracı Appium için kaynak listesi.",
+    "en": "A resource list for Appium, the mobile-app test-automation tool.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/avajs/awesome-ava",
+    "name": "Awesome AVA",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "javascript",
+      "otomasyon"
+    ],
+    "tr": "JavaScript test koşucusu AVA için eklenti ve kaynak listesi.",
+    "en": "A list of plugins and resources for AVA, the JavaScript test runner.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/coderabbitai/awesome-coderabbit",
+    "name": "Awesome CodeRabbit",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "mülakat"
+    ],
+    "tr": "Yapay zekâ destekli kod inceleme platformu CodeRabbit için kaynak listesi.",
+    "en": "A resource list for CodeRabbit, the AI-powered code-review platform.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/aliesbelik/awesome-gatling",
+    "name": "Awesome Gatling",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "otomasyon"
+    ],
+    "tr": "Scala tabanlı yük ve performans test çatısı Gatling için kaynak listesi.",
+    "en": "A resource list for Gatling, the Scala-based load- and performance-testing framework.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/aliesbelik/awesome-jmeter",
+    "name": "Awesome JMeter",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "otomasyon"
+    ],
+    "tr": "Yük ve performans ölçüm aracı JMeter için kaynak listesi.",
+    "en": "A resource list for JMeter, the load- and performance-testing tool.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/grafana/awesome-k6",
+    "name": "Awesome k6",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "otomasyon"
+    ],
+    "tr": "Geliştirici odaklı yük ve performans testi aracı k6 için kaynak listesi. Genel performans listelerinden farkı tek araca ve onun betik ekosistemine odaklanması.",
+    "en": "A resource list for k6, the developer-centric load and performance testing tool. Unlike general performance lists it focuses on one tool and its scripting ecosystem.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/mxschmitt/awesome-playwright",
+    "name": "Awesome Playwright",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "otomasyon"
+    ],
+    "tr": "Playwright ekosistemi için araç, eklenti ve örneklerin listesi. Resmî dokümandan farkı topluluk araçlarını ve gerçek proje örneklerini bir araya getirmesi.",
+    "en": "A list of tools, plugins and examples for the Playwright ecosystem. Unlike the official docs it brings together community tooling and real project examples.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/mojoaxel/awesome-regression-testing",
+    "name": "Awesome Regression Testing",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "otomasyon"
+    ],
+    "tr": "Değişikliklerin işlevi/stili bozmadığını doğrulayan görsel regresyon araçları listesi.",
+    "en": "A list of visual-regression tools that verify changes did not break functionality or style.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/christian-bromann/awesome-selenium",
+    "name": "Awesome Selenium",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "otomasyon"
+    ],
+    "tr": "Selenium tarayıcı otomasyon çatısı ve çevresindeki araçların derlemesi. Dağınık aramadan farkı dil bağlayıcıları, ızgara ve eklentileri tek yerde toplaması.",
+    "en": "A collection of the Selenium browser-automation framework and its surrounding tools. Unlike scattered search it gathers language bindings, grid and plugins in one place.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/atinfo/awesome-test-automation",
+    "name": "Awesome Test Automation",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "otomasyon"
+    ],
+    "tr": "Test otomasyonu çatıları, araçları ve kaynaklarını dile ve platforma göre derleyen liste. Dağınık araç aramalarından farkı hepsini tek, düzenli yerde toplaması.",
+    "en": "A list gathering test-automation frameworks, tools and resources by language and platform. Unlike scattered searches it collects them all in one organised place.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/TheJambo/awesome-testing",
+    "name": "Awesome Testing",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "referans"
+    ],
+    "tr": "Yazılım testinin her dalını — birim, uçtan uca, performans, sözleşme — kaynaklarıyla toplayan liste. Bu dizideki pratik sitelerin geri kalanını da buradan bulabilirsin.",
+    "en": "A list gathering every branch of software testing — unit, end-to-end, performance, contract — with resources. You can also find the rest of this field’s practice sites here.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://beeceptor.com",
+    "name": "Beeceptor",
+    "tags": [
+      "api",
+      "freemium"
+    ],
+    "tr": "Saniyeler içinde sahte REST uç noktası kurup HTTP isteklerini yakalayan ve taklit eden araç.",
+    "en": "Spins up a mock REST endpoint in seconds and intercepts or fakes HTTP requests.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://blazedemo.com/",
+    "name": "BlazeDemo",
+    "tags": [
+      "otomasyon",
+      "ücretsiz"
+    ],
+    "tr": "BlazeMeter’ın performans testi için sunduğu basit seyahat acentesi demosu.",
+    "en": "BlazeMeter’s simple travel-agency demo for performance testing.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://www.candymapper.net/",
+    "name": "CandyMapper",
+    "tags": [
+      "otomasyon",
+      "ücretsiz"
+    ],
+    "tr": "Test otomasyonu becerilerini denemek için hazırlanmış, tuzaklı web uygulaması.",
+    "en": "A web app with traps, built to practise test-automation skills.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://coffee-cart.app/",
+    "name": "Coffee Cart",
+    "tags": [
+      "ücretsiz",
+      "otomasyon"
+    ],
+    "tr": "Kahve siparişi üzerinden temel etkileşimleri denemek için sade bir uygulama. Büyük demolardan farkı beş dakikada kavranacak kadar küçük ama sepet/mantık testine yetecek kadar dolu.",
+    "en": "A simple app for practising basic interactions through ordering coffee. Unlike large demos it is small enough to grasp in five minutes yet full enough for cart/logic testing.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://commitquality.com/",
+    "name": "Commit Quality",
+    "tags": [
+      "otomasyon",
+      "öğretici",
+      "ücretsiz"
+    ],
+    "tr": "Yüksek kaliteli Playwright otomasyon örnekleriyle gelen pratik sitesi.",
+    "en": "A practice site with high-quality Playwright automation examples.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://countries.trevorblades.com/",
+    "name": "Countries GraphQL API",
+    "tags": [
+      "api",
+      "ücretsiz"
+    ],
+    "tr": "Ülke verisiyle etkileşim için sade bir GraphQL API’si.",
+    "en": "A simple GraphQL API to interact with country data.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://cypress.io",
+    "name": "Cypress",
+    "tags": [
+      "otomasyon",
+      "javascript",
+      "açık-kaynak"
+    ],
+    "tr": "Tarayıcı içinde çalışan, gerçek zamanlı yeniden yükleme ve zaman-yolculuğu ile uçtan uca test çatısı.",
+    "en": "An end-to-end testing framework that runs in the browser with live reload and time-travel debugging.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://demoblaze.com/",
+    "name": "DemoBlaze",
+    "tags": [
+      "otomasyon",
+      "ücretsiz"
+    ],
+    "tr": "Otomasyona karşı çalışmak için tasarlanmış, gezinti anlatımlı örnek mağaza.",
+    "en": "A sample shop designed to automate against, with a walk-through.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://demoqa.com/",
+    "name": "DemoQA",
+    "tags": [
+      "ücretsiz",
+      "otomasyon"
+    ],
+    "tr": "Form, pencere öğesi, etkileşim ve kitap uygulamasıyla geniş bir otomasyon alıştırma seti. Tek sayfalık sitelerden farkı bir framework’ü baştan sona denemene yetecek çeşitlilik.",
+    "en": "A broad automation practice set with forms, widgets, interactions and a bookstore app. Unlike single-page sites it has enough variety to exercise a whole framework end to end.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://dummyjson.com",
+    "name": "DummyJSON",
+    "tags": [
+      "api",
+      "ücretsiz"
+    ],
+    "tr": "Onlarca kaynak sunan sahte JSON REST API'si; hızlı prototip ve test verisi için.",
+    "en": "A fake JSON REST API offering dozens of resources for quick prototyping and test data.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://testpages.eviltester.com/styled/index.html",
+    "name": "Evil Tester Test Pages",
+    "tags": [
+      "otomasyon",
+      "ücretsiz"
+    ],
+    "tr": "Farklı bileşen ve işlevleri tek tek denemek için hazırlanmış test sayfaları koleksiyonu.",
+    "en": "A collection of pages for testing different components and functionality one by one.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://practice.expandtesting.com/",
+    "name": "Expand Testing",
+    "tags": [
+      "otomasyon",
+      "api",
+      "ücretsiz"
+    ],
+    "tr": "UI ve API testi için birlikte kullanılabilen otomasyon pratik uygulaması.",
+    "en": "An automation practice app usable for both UI and API testing.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://fakestoreapi.com",
+    "name": "Fake Store API",
+    "tags": [
+      "api",
+      "ücretsiz"
+    ],
+    "tr": "Ürün, sepet ve kullanıcı içeren sahte e-ticaret REST API'si; ön yüz prototipleri için.",
+    "en": "A fake e-commerce REST API with products, carts and users for front-end prototypes.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://gorest.co.in/",
+    "name": "GoREST",
+    "tags": [
+      "api",
+      "ücretsiz",
+      "otomasyon"
+    ],
+    "tr": "OAuth2 kimlik doğrulamalı, yazma destekli, REST ve GraphQL sunan test API’si. Salt-okunur sahte API’lerden farkı kayıt oluşturma/güncelleme akışını gerçekten denetmesi.",
+    "en": "A test API with OAuth2 authentication and write support, over REST and GraphQL. Unlike read-only fake APIs it truly lets you exercise create/update flows.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://bonigarcia.dev/selenium-webdriver-java/",
+    "name": "Hands-On Selenium WebDriver",
+    "tags": [
+      "otomasyon",
+      "öğretici",
+      "ücretsiz"
+    ],
+    "tr": "Selenium ile etkileşime girilecek çok çeşitli web öğesini bir arada sunan alıştırma sayfası.",
+    "en": "A practice page bundling a wide variety of web elements to interact with via Selenium.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://httpbin.org",
+    "name": "httpbin",
+    "tags": [
+      "api",
+      "ücretsiz",
+      "açık-kaynak"
+    ],
+    "tr": "İstek başlıklarını, gövdeyi ve yanıtı aynen geri döndüren HTTP istek/yanıt test servisi; istemci davranışını denemek için.",
+    "en": "An HTTP request-and-response testing service that echoes headers, body and response — handy for exercising a client.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://httpstat.us",
+    "name": "httpstat.us",
+    "tags": [
+      "api",
+      "ücretsiz"
+    ],
+    "tr": "İstediğin HTTP durum kodunu (ve gecikmeyi) döndüren küçük servis; hata yollarını test etmek için.",
+    "en": "A tiny service that returns any HTTP status code (and delay) you ask for, to test error paths.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://insomnia.rest/",
+    "name": "Insomnia",
+    "tags": [
+      "api",
+      "açık-kaynak",
+      "otomasyon"
+    ],
+    "tr": "REST, GraphQL ve gRPC istekleri için sade bir API istemcisi. Postman’den farkı daha hafif ve açık kaynak olması, git ile sürümlenebilmesi.",
+    "en": "A clean API client for REST, GraphQL and gRPC requests. Unlike Postman it is lighter and open source, and can be versioned with git.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://jsonplaceholder.typicode.com/",
+    "name": "JSONPlaceholder",
+    "tags": [
+      "api",
+      "ücretsiz",
+      "öğretici"
+    ],
+    "tr": "İstek atınca gerçekçi sahte JSON döndüren, kurulum istemeyen test API’si. Kendi mock sunucunu kurmaktan farkı hemen hazır olması — prototip ve öğretici için standart.",
+    "en": "A zero-setup test API that returns realistic fake JSON on request. Unlike running your own mock it is instantly available — the standard for prototypes and tutorials.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://katalon.com",
+    "name": "Katalon",
+    "tags": [
+      "otomasyon",
+      "freemium"
+    ],
+    "tr": "Web, API ve mobil için düşük kodlu test otomasyonu aracı; kod yazmadan senaryo kurdurur.",
+    "en": "A low-code test automation tool for web, API and mobile that builds scenarios without coding.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://letcode.in/test",
+    "name": "LetCode",
+    "tags": [
+      "otomasyon",
+      "ücretsiz",
+      "öğretici"
+    ],
+    "tr": "Uçtan uca otomasyon pratiği için bol öğe örneği içeren site.",
+    "en": "A site with many element examples for end-to-end automation practice.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://testsmith-io.github.io/locator-game/",
+    "name": "Locator Game",
+    "tags": [
+      "otomasyon",
+      "interaktif",
+      "ücretsiz"
+    ],
+    "tr": "Test otomasyonu için doğru seçiciyi (locator) bulmayı oyunla öğreten site.",
+    "en": "A game-based site that teaches finding the right locator for test automation.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://mailtrap.io",
+    "name": "Mailtrap",
+    "tags": [
+      "api",
+      "freemium"
+    ],
+    "tr": "Giden e-postaları gerçek alıcılara ulaşmadan yakalayan e-posta test kum havuzu.",
+    "en": "An email sandbox that captures outgoing mail before it reaches real recipients.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://ministryoftesting.com",
+    "name": "Ministry of Testing",
+    "tags": [
+      "referans",
+      "öğretici"
+    ],
+    "tr": "Yazılım testçileri için topluluk, öğrenme kaynakları ve etkinlikleri bir araya getiren merkez.",
+    "en": "A hub bringing together community, learning resources and events for software testers.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://www.omdbapi.com/",
+    "name": "OMDb API",
+    "tags": [
+      "api",
+      "ücretsiz"
+    ],
+    "tr": "Film ve dizi verisi sunan API; test ve prototip için elverişli.",
+    "en": "An API serving movie and series data, handy for tests and prototypes.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://opensource-demo.orangehrmlive.com/",
+    "name": "OrangeHRM Demo",
+    "tags": [
+      "otomasyon",
+      "ücretsiz",
+      "açık-kaynak"
+    ],
+    "tr": "Bol işlevli, açık kaynak İK demosu; form ve akış otomasyonu pratiği için.",
+    "en": "A feature-rich open-source HR demo, for practising form and workflow automation.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://parabank.parasoft.com/parabank/index.htm",
+    "name": "ParaBank",
+    "tags": [
+      "ücretsiz",
+      "api",
+      "otomasyon"
+    ],
+    "tr": "SOAP/REST servisleriyle birlikte gelen örnek bankacılık test sitesi. Basit demolardan farkı web servisi, WSDL ve iş akışı test etmeye elverişli olması.",
+    "en": "A sample banking test site that ships with SOAP/REST services. Unlike simple demos it is suited to testing web services, WSDL and workflows.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://playwright.dev",
+    "name": "Playwright",
+    "tags": [
+      "otomasyon",
+      "javascript",
+      "açık-kaynak"
+    ],
+    "tr": "Microsoft'un çok tarayıcılı (Chromium, Firefox, WebKit) otomasyon ve test çatısı; tek API ile üçünü sürer.",
+    "en": "Microsoft's cross-browser (Chromium, Firefox, WebKit) automation and testing framework driving all three from one API.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://pokeapi.co/",
+    "name": "PokéAPI",
+    "tags": [
+      "api",
+      "ücretsiz",
+      "öğretici"
+    ],
+    "tr": "Pokémon verisi sunan, geniş ve iç içe bir REST API’si — test ve öğretici için popüler. Basit sahte API’lerden farkı derin, ilişkili veri modeliyle gerçekçi sorguları denetmesi.",
+    "en": "A large, deeply nested REST API serving Pokémon data — popular for tests and tutorials. Unlike simple fake APIs its rich, related data model lets you exercise realistic queries.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://www.postman.com/",
+    "name": "Postman",
+    "tags": [
+      "api",
+      "freemium",
+      "otomasyon"
+    ],
+    "tr": "API isteklerini oluşturup koleksiyon hâlinde saklayan ve test eden masaüstü/bulut aracı. curl’den farkı isteği kaydetme, ortam değişkeni ve otomatik test dizisi çalıştırma.",
+    "en": "A desktop/cloud tool to build, store as collections and test API requests. Unlike curl it saves requests, holds environment variables and runs automated test sequences.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://practicesoftwaretesting.com/",
+    "name": "Practice Software Testing",
+    "tags": [
+      "ücretsiz",
+      "otomasyon",
+      "api"
+    ],
+    "tr": "Hem UI hem REST API’si olan, gerçekçi bir alet dükkânı demosu; uçtan uca test için tasarlanmış. Eski demolardan farkı modern yığın (React + API + Swagger) üzerinde olması.",
+    "en": "A realistic tool-shop demo with both a UI and a REST API, designed for end-to-end testing. Unlike older demos it runs on a modern stack (React + API + Swagger).",
+    "src": "testsites"
+  },
+  {
+    "url": "https://demo.prestashop.com/",
+    "name": "PrestaShop Demo",
+    "tags": [
+      "otomasyon",
+      "ücretsiz"
+    ],
+    "tr": "Test için gerçekçi bir e-ticaret demosu (hem mağaza yüzü hem yönetim paneli).",
+    "en": "A realistic e-commerce demo for testing (both storefront and admin panel).",
+    "src": "testsites"
+  },
+  {
+    "url": "https://qaplayground.dev/",
+    "name": "QA Training Simulator",
+    "tags": [
+      "otomasyon",
+      "ücretsiz"
+    ],
+    "tr": "Zorluk listesiyle test becerisi geliştirmek için pratik simülatörü.",
+    "en": "A practice simulator with a list of challenges to build testing skills.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://randomuser.me/",
+    "name": "randomuser.me",
+    "tags": [
+      "api",
+      "ücretsiz"
+    ],
+    "tr": "İstenen sayıda sahte kullanıcı (ad, adres, foto) üreten API. Sabit fikstürlerden farkı her çağrıda çeşitli ve gerçekçi veri vermesi — form ve liste testleri için.",
+    "en": "An API generating any number of fake users (name, address, photo). Unlike fixed fixtures it returns varied, realistic data on each call — for form and list tests.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://reqres.in/",
+    "name": "Reqres",
+    "tags": [
+      "api",
+      "ücretsiz"
+    ],
+    "tr": "AJAX isteklerine gerçek yanıt veren barındırılmış REST API’si; sayfalama ve gecikme simülasyonu var. JSONPlaceholder’dan farkı yanıt gecikmesi ve hata durumlarını da taklit edebilmesi.",
+    "en": "A hosted REST API that answers AJAX requests, with pagination and delay simulation. Unlike JSONPlaceholder it can also emulate response delays and error states.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://automationintesting.online/",
+    "name": "Restful Booker Platform",
+    "tags": [
+      "otomasyon",
+      "api",
+      "ücretsiz"
+    ],
+    "tr": "React ön yüz + API arka uçlu, otel rezervasyonu temalı modern test uygulaması.",
+    "en": "A modern test app with a React front end and API backend, themed on hotel booking.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://restful-booker.herokuapp.com/",
+    "name": "Restful-Booker",
+    "tags": [
+      "api",
+      "ücretsiz",
+      "otomasyon"
+    ],
+    "tr": "Oda rezervasyonunu taklit eden, kimlik doğrulamalı ve iyi belgelenmiş bir test API’si. Sahte API’lerden farkı yazma işlemleri ve auth içermesi — tam bir CRUD akışı denenebiliyor.",
+    "en": "A test API emulating room booking, with authentication and good docs. Unlike fake APIs it includes writes and auth — a full CRUD flow can be exercised.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://rickandmortyapi.com/",
+    "name": "Rick and Morty API",
+    "tags": [
+      "api",
+      "ücretsiz"
+    ],
+    "tr": "Karakter, bölüm ve mekân verisi veren, hem REST hem GraphQL sunan ücretsiz API. Tek protokollü API’lerden farkı aynı veriyi iki arayüzle sunup ikisini de denetmesi.",
+    "en": "A free API serving character, episode and location data over both REST and GraphQL. Unlike single-protocol APIs it exposes the same data two ways, letting you test both.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://www.saucedemo.com/",
+    "name": "Sauce Demo",
+    "tags": [
+      "ücretsiz",
+      "otomasyon",
+      "öğretici"
+    ],
+    "tr": "Otomasyon öğrenmek için hazır giriş bilgileriyle gelen örnek alışveriş sitesi; bazı kullanıcılar kasıtlı olarak bozuk davranır. Rastgele demolardan farkı senaryonun kararlı ve tekrarlanabilir olması.",
+    "en": "A sample shopping site with ready logins for learning automation; some users deliberately misbehave. Unlike random demos its scenarios are stable and repeatable.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://selectorshub.com/xpath-practice-page/",
+    "name": "SelectorsHub · XPath Practice",
+    "tags": [
+      "ücretsiz",
+      "öğretici"
+    ],
+    "tr": "Karmaşık XPath ve CSS seçicileri yazmayı denemek için özel olarak zorlaştırılmış sayfa. Genel demolardan farkı iç içe iframe ve shadow DOM gibi seçici cehennemlerini barındırması.",
+    "en": "A page deliberately hardened for practising complex XPath and CSS selectors. Unlike general demos it contains selector hells like nested iframes and shadow DOM.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://seleniumbase.io/",
+    "name": "SeleniumBase Demo Pages",
+    "tags": [
+      "otomasyon",
+      "açık-kaynak",
+      "öğretici"
+    ],
+    "tr": "SeleniumBase çatısının, geniş senaryo yelpazesini gösteren demo sayfaları.",
+    "en": "The SeleniumBase framework’s demo pages covering a wide range of scenarios.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://serverest.dev/",
+    "name": "ServeRest",
+    "tags": [
+      "api",
+      "ücretsiz",
+      "otomasyon"
+    ],
+    "tr": "Sanal bir mağazayı taklit eden, API testi öğretimi için REST API.",
+    "en": "A REST API simulating a virtual store, for teaching API testing.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://www.spaceducking.com/",
+    "name": "SpaceDucking",
+    "tags": [
+      "otomasyon",
+      "ücretsiz",
+      "öğretici"
+    ],
+    "tr": "Gerçek işletmeleri taklit eden ördek temalı mini uygulamalarla test pratiği.",
+    "en": "Test practice through duck-themed mini apps modelled on real businesses.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://sqltest.online",
+    "name": "SQLTest.online",
+    "tags": [
+      "veritabanı",
+      "ücretsiz"
+    ],
+    "tr": "Zorlayıcı problemlerle SQL yetkinliğini geliştiren çevrimiçi alıştırma.",
+    "en": "An online practice that builds SQL proficiency with challenging problems.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.ssllabs.com/ssltest/",
+    "name": "SSL Labs Server Test",
+    "tags": [
+      "güvenlik",
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Bir sitenin TLS yapılandırmasını tarayıp A–F notu veren test. Tarayıcı kilidinden farkı sertifika zinciri, protokol ve şifre takımı düzeyinde ayrıntı vermesi.",
+    "en": "A test that scans a site’s TLS configuration and grades it A–F. Unlike the browser padlock it gives detail at the level of certificate chain, protocols and cipher suites.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://petstore.swagger.io/",
+    "name": "Swagger Petstore",
+    "tags": [
+      "api",
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Swagger UI önyüzüyle gelen kanonik örnek API — OpenAPI öğrenmenin standart yeri. Diğer sahte API’lerden farkı arayüzün doğrudan spesifikasyondan üretilmiş olması.",
+    "en": "The canonical sample API with a Swagger UI front end — the standard place to learn OpenAPI. Unlike other fake APIs its interface is generated straight from the spec.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://swapi.dev",
+    "name": "SWAPI — Star Wars API",
+    "tags": [
+      "api",
+      "ücretsiz",
+      "açık-kaynak"
+    ],
+    "tr": "Star Wars verisiyle dolu örnek REST API; istemci ve alıştırma için tanıdık, sabit bir veri kümesi.",
+    "en": "A sample REST API filled with Star Wars data — a familiar, stable dataset for clients and practice.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://testautomationu.applitools.com",
+    "name": "Test Automation University",
+    "tags": [
+      "müfredat",
+      "öğretici",
+      "ücretsiz"
+    ],
+    "tr": "Test otomasyonu üzerine ücretsiz, uzman eğitmenli çevrimiçi ders kataloğu.",
+    "en": "A free catalogue of online courses on test automation taught by expert instructors.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://thecatapi.com/",
+    "name": "The Cat API",
+    "tags": [
+      "api",
+      "ücretsiz"
+    ],
+    "tr": "Kedi görselleri ve verisi sunan, prototip ve test için eğlenceli API.",
+    "en": "An API serving cat images and data — a fun one for prototypes and tests.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://the-internet.herokuapp.com/",
+    "name": "The Internet (Herokuapp)",
+    "tags": [
+      "ücretsiz",
+      "otomasyon",
+      "referans"
+    ],
+    "tr": "Otomasyonu zorlayan ortak senaryoları (iframe, dosya yükleme, kayan menü) tek tek toplayan klasik alıştırma sitesi. Demo mağazalardan farkı her sayfanın tek bir zorluğu öğretmesi.",
+    "en": "A classic practice site collecting the common scenarios that challenge automation (iframes, file upload, hovering menus) one by one. Unlike demo shops each page teaches a single difficulty.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://obstaclecourse.tricentis.com/",
+    "name": "Tricentis Obstacle Course",
+    "tags": [
+      "otomasyon",
+      "ücretsiz"
+    ],
+    "tr": "Otomasyon becerisini sınayan bir dizi zorluktan oluşan engel parkuru.",
+    "en": "An obstacle course of challenges that test automation skill.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://www.uitestingplayground.com/",
+    "name": "UI Test Automation Playground",
+    "tags": [
+      "ücretsiz",
+      "otomasyon",
+      "öğretici"
+    ],
+    "tr": "Modern web’de otomasyonu tökezleten tuzakları (gecikmeli yükleme, gizli öğe, dinamik id) sergileyen site. Genel demolardan farkı doğrudan “neden testim kırılıyor” sorusuna odaklanması.",
+    "en": "A site exposing the traps that trip up automation on the modern web (delayed load, hidden elements, dynamic ids). Unlike general demos it targets exactly “why is my test flaky”.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://www.webpagetest.org/",
+    "name": "WebPageTest",
+    "tags": [
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Bir sayfanın yükleme performansını gerçek cihaz ve konumlardan ölçen test. Lighthouse’tan farkı şelale, film şeridi ve çoklu lokasyon karşılaştırması vermesi.",
+    "en": "A test measuring a page’s load performance from real devices and locations. Unlike Lighthouse it gives a waterfall, filmstrip and multi-location comparison.",
+    "src": "testsites"
+  },
+  {
+    "url": "https://www.globalsqa.com/angularJs-protractor/BankingProject/",
+    "name": "XYZ Bank",
+    "tags": [
+      "otomasyon",
+      "ücretsiz"
+    ],
+    "tr": "Angular ile yazılmış küçük örnek banka sitesi; otomasyon pratiği için.",
+    "en": "A small example bank site written in Angular, for automation practice.",
+    "src": "testsites"
+  }
+]

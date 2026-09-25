@@ -1,133 +1,40 @@
 # -*- coding: utf-8 -*-
-"""Merges the curator notes with fetched metadata into the site data.
+"""Turns the curator notes into the site data.
 
-Writes:
+Reads data/notes/<category>.json (see notes.py for the record format) and
+writes:
   ../links.js      records + Turkish descriptions   (loaded first)
   ../links.en.js   English descriptions             (on language switch)
   plus feed.xml, sitemap.xml, robots.txt and the static pages under ../k/
 
 The two languages are split because the descriptions are most of the
 payload; shipping one language makes the first load noticeably lighter.
+
+The build used to merge the notes with metadata extracted from the owner's
+personal bookmark export (meta.json, added.json). The bookmarks are kept
+separately now, so nothing here reads them: each record carries what it
+needs, including its real arrival date where one is known.
 """
 import json
 import io
 import re
 import os
 import sys
-import html
 import collections
 
 D = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, D)
-from notes import NOTES, CATS, GROUPS  # noqa: E402
+from notes import load_records, key, CATS, GROUPS  # noqa: E402
 from tags import normalise, LABELS    # noqa: E402
 from picks import PICKS               # noqa: E402
-from sources import SOURCES, DEFAULT  # noqa: E402
+from sources import SOURCES           # noqa: E402
 from intros import INTROS             # noqa: E402
-from recat import BY_NAME            # noqa: E402
 import emit                           # noqa: E402
 
-# Overridable for a clone where the bookmark export sits somewhere else;
-# the default matches this repo's own layout (site/ nested under duzen/,
-# the raw export kept in duzen/raw/).
-BOOKMARKS = os.environ.get(
-    'BOOKMARKS_HTML', os.path.join(D, '..', '..', 'raw', 'bookmarks_duzenli.html'))
-def _load(name):
-    p = os.path.join(D, name)
-    return json.load(io.open(p, encoding='utf-8')) if os.path.exists(p) else []
 
-
-# Three metadata sources: the original bookmark archive, the external
-# list, and a later export. Anything without a note is dropped below.
-meta = _load('meta.json') + _load('ext_meta.json')
 def _base(k):
     return re.split(r'[?#]', k)[0].rstrip('/')
 
-
-# Both the full and the query-stripped form of every known URL. Without
-# both, 'site.com/' and 'site.com/?utm=x' count as two separate records.
-_have = set()
-for _m in meta:
-    _k = re.sub(r'^https?://(www\.)?', '', _m['url'].lower()).rstrip('/')
-    _have.add(_k)
-    _have.add(_base(_k))
-
-# For notes that appear in no metadata file (newly added ones), synthesise
-# a metadata record out of the note's own URL.
-for _k, _n in sorted(NOTES.items()):
-    if _n.get('url') and _k not in _have and _base(_k) not in _have:
-        meta.append({'url': _n['url'], 'path': '', 'title': _n['name']})
-        _have.add(_k)
-        _have.add(_base(_k))
-
-
-def key(u):
-    u = re.sub(r'^https?://', '', u.strip().lower())
-    u = re.sub(r'^www\.', '', u)
-    return u.rstrip('/')
-
-
-# ------------------------------------------------------------------ added dates
-# The ADD_DATE field in the bookmark export says when a link was collected.
-# It was extracted once and frozen into added.json, so the build no longer
-# depends on a path on one particular machine and produces the same output
-# in CI. Use refresh_added() when the bookmark file is at hand.
-ADDED = {}
-_ap = os.path.join(D, 'added.json')
-if os.path.exists(_ap):
-    ADDED = dict((k, int(v)) for k, v in
-                 json.load(io.open(_ap, encoding='utf-8')).items())
-
-
-def refresh_added():
-    if not os.path.exists(BOOKMARKS):
-        print('bookmark file not found; added.json left as is')
-        return
-    for ln in io.open(BOOKMARKS, encoding='utf-8'):
-        m = re.search(r'<DT><A HREF="([^"]*)"[^>]*ADD_DATE="(\d+)"', ln.strip())
-        if m:
-            k = key(html.unescape(m.group(1)))
-            ts = int(m.group(2))
-            if 946684800 < ts < 2200000000:        # a sane 2000-2039 range
-                ADDED[k] = max(ADDED.get(k, 0), ts)
-    json.dump(ADDED, io.open(_ap, 'w', encoding='utf-8'),
-              ensure_ascii=False, indent=0, sort_keys=True)
-    print('added.json refreshed:', len(ADDED))
-
-PATHMAP = [
-    ('Bilişim/Yol Haritaları', 'ogrenme'), ('Bilişim/Eğitim Platformları', 'ogrenme'),
-    ('Bilişim/Sertifika & Sınav', 'ogrenme'), ('Bilişim/Pratik & Egzersiz', 'pratik'),
-    ('Bilişim/Programlama Dilleri', 'diller'), ('Bilişim/Web & Frontend', 'web'),
-    ('Bilişim/Backend & Framework', 'backend'), ('Bilişim/Sistem Tasarımı & API', 'backend'),
-    ('Bilişim/Mobil & Masaüstü', 'mobil'), ('Bilişim/Veritabanı', 'veritabani'),
-    ('Bilişim/DevOps & Altyapı', 'devops'), ('Bilişim/Ağ & Linux', 'ag'),
-    ('Bilişim/IT Destek & Sistem', 'ag'), ('Bilişim/Siber Güvenlik', 'guvenlik'),
-    ('Bilişim/Veri Bilimi & ML', 'veri'), ('Bilişim/Yapay Zeka/AI Altyapı', 'yz_altyapi'),
-    ('Bilişim/Yapay Zeka/API & Geliştirme', 'yz_altyapi'),
-    ('Bilişim/Yapay Zeka/Agent & Claude', 'yz_altyapi'),
-    ('Bilişim/Yapay Zeka/AI Araçları', 'yz_arac'),
-    ('Bilişim/Yapay Zeka/Üretken Araçlar', 'yz_arac'),
-    ('Bilişim/Yapay Zeka/Sohbet', 'yz_model'), ('Bilişim/Yapay Zeka/Model Arşivi', 'yz_model'),
-    ('Bilişim/Yapay Zeka', 'yz_model'),
-    ('Bilişim/Donanım, CAD & Robotik/Akıllı Gözlük', 'gozluk'),
-    ('Bilişim/Donanım, CAD & Robotik', 'donanim'), ('Bilişim/Kuantum Bilişim', 'kuantum'),
-    ('Bilişim/Araçlar', 'araclar'), ('Bilişim/Referans', 'referans'),
-    ('Bilişim/GitHub Koleksiyonları', 'referans'), ('Bilim & Düşünce', 'bilim'),
-]
-
-
-def cat_of(path):
-    for pre, c in PATHMAP:
-        if path.startswith(pre):
-            return c
-    return 'araclar'
-
-
-# A second URL form of the same source - no reason to list it twice.
-SKIP = {
-    'servicedesk-simulator.com/#ticket/inc0012871/ad',
-    'learn-anything.xyz/c-libraries',
-}
 
 # Per-record verification: ci_check.py refreshes verified.json weekly.
 VERIFIED = {}
@@ -143,38 +50,29 @@ _hp = os.path.join(D, 'health.json')
 if os.path.exists(_hp):
     HEALTH = json.load(io.open(_hp, encoding='utf-8'))
 
-out, missing, seen = [], [], set()
-for m in meta:
-    k = key(m['url'])
-    if k in seen or k in SKIP:
-        continue
-    seen.add(k)
-    n = NOTES.get(k) or NOTES.get(re.split(r'[?#]', k)[0].rstrip('/'))
-    if not n:
-        missing.append((k, m.get('title', '')[:60]))
-        continue
+out = []
+for n in load_records():
+    k = key(n['url'])
     rec = {
-        'url': m['url'],
+        'url': n['url'],
         'name': n['name'],
-        # BY_NAME wins: it is the reclassification pass, see data/recat.py
-        'cat': BY_NAME.get(n['name']) or n.get('cat') or cat_of(m['path']),
-        'tags': normalise(n.get('tags', [])),
+        'cat': n['cat'],
+        'tags': normalise(n['tags']),
         'tr': n['tr'],
         'en': n['en'],
-        'src': n.get('src') or DEFAULT,
+        'src': n['src'],
     }
-    ts = ADDED.get(k) or ADDED.get(re.split(r'[?#]', k)[0].rstrip('/'))
-    if ts:
-        rec['added'] = ts
-    if m['url'] in PICKS:
+    if n.get('added'):
+        rec['added'] = n['added']
+    if n['url'] in PICKS:
         rec['pick'] = 1
-    h = HEALTH.get(k) or HEALTH.get(re.split(r'[?#]', k)[0].rstrip('/'))
+    h = HEALTH.get(k) or HEALTH.get(_base(k))
     if h and h.get('s') in ('arşiv', 'bayat', 'yok'):
         rec['hs'] = h['s']
         if h.get('p'):
             rec['hp'] = h['p']
 
-    v = VERIFIED.get(k) or VERIFIED.get(re.split(r'[?#]', k)[0].rstrip('/'))
+    v = VERIFIED.get(k) or VERIFIED.get(_base(k))
     if v:
         rec['ver'] = v['d']
         if v['s'] == 'engel':
@@ -183,8 +81,8 @@ for m in meta:
             rec['dead'] = 1          # no response last scan - point at archive
     out.append(rec)
 
-# Records that never appeared in the bookmark archive have no ADD_DATE, so they
-# need a stand-in. One flat value would flatten "newest first" into noise, so
+# Records with no known arrival date ("added" absent in the note) need a
+# stand-in. One flat value would flatten "newest first" into noise, so
 # each intake gets the date it actually arrived.
 FALLBACK = 1787000000          # AI tools added while compiling the directory
 SRC_ADDED = {
@@ -313,7 +211,6 @@ tc = collections.Counter(t for r in out for t in r['tags'])
 print('records        :', len(out))
 print('distinct tags  :', len(tc))
 print('untagged       :', sum(1 for r in out if not r['tags']))
-print('without a note :', len(missing))
 print('real dates     :', sum(1 for r in out if r['added'] != FALLBACK))
 print('start-here     :', sum(1 for r in out if r.get('pick')), '/', len(PICKS))
 _sc = collections.Counter(r['src'] for r in out)
@@ -322,6 +219,3 @@ print('verified       :', sum(1 for r in core if r.get('ver')))
 print('with related   :', sum(1 for r in core if r.get('rel')))
 print('repo flagged   :', sum(1 for r in core if r.get('hs')))
 print('static pages   :', len(_pages), '+ sitemap, robots, feed')
-if missing:
-    io.open(os.path.join(D, 'missing.txt'), 'w', encoding='utf-8').write(
-        '\n'.join('%s\t%s' % t for t in missing))

@@ -1,0 +1,362 @@
+[
+  {
+    "url": "https://github.com/mgramin/awesome-db-tools",
+    "name": "Awesome DB Tools",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "veritabanı"
+    ],
+    "tr": "Veritabanıyla çalışmayı kolaylaştıran araçların (istemci, göç, şema) listesi. Tek veritabanına bağlı listelerden farkı motor-bağımsız yardımcı araçlara bakması.",
+    "en": "A list of tools that make working with databases easier (clients, migration, schema). Unlike single-database lists it looks at engine-agnostic helper tools.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/ramnes/awesome-mongodb",
+    "name": "Awesome MongoDB",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "veritabanı"
+    ],
+    "tr": "Belge tabanlı NoSQL veritabanı MongoDB için kütüphane ve araç listesi. Genel NoSQL listelerinden farkı tek ürünün sürücü ve ODM ekosistemine odaklanması.",
+    "en": "A list of libraries and tools for MongoDB, the document-based NoSQL database. Unlike general NoSQL lists it focuses on one product’s driver and ODM ecosystem.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/dhamaniasad/awesome-postgres",
+    "name": "Awesome Postgres",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "veritabanı"
+    ],
+    "tr": "PostgreSQL için eklenti, araç ve kaynak listesi. Resmî dokümandan farkı ekosistemin uzantılarını ve yönetim araçlarını bir arada göstermesi.",
+    "en": "A list of extensions, tools and resources for PostgreSQL. Unlike the official docs it shows the ecosystem’s extensions and management tools together.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://www.cockroachlabs.com",
+    "name": "CockroachDB",
+    "tags": [
+      "veritabanı",
+      "sunucu",
+      "açık-kaynak"
+    ],
+    "tr": "Yatay ölçeklenen, kuvvetli tutarlı ve arızalara dayanıklı dağıtık SQL veritabanı.",
+    "en": "A distributed SQL database that scales horizontally with strong consistency and survivability.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://learn.couchbase.com/learn",
+    "name": "Couchbase Learn",
+    "tags": [
+      "ücretsiz",
+      "veritabanı",
+      "müfredat"
+    ],
+    "tr": "Belge veritabanını SQL benzeri bir sorgu diliyle (N1QL) kullanıyor. İlişkisel dünyadan gelen ekipler için MongoDB’nin sorgu sözdiziminden daha az kırılma noktası.",
+    "en": "Queries a document store with a SQL-like language (N1QL), which is a gentler break for teams arriving from the relational world than MongoDB’s query syntax.",
+    "src": "kedi",
+    "added": 1776690084
+  },
+  {
+    "url": "https://dbdiagram.io",
+    "name": "dbdiagram.io",
+    "tags": [
+      "veritabanı",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "Basit bir metin dilinden hızlıca ER diyagramı üretip paylaştıran araç.",
+    "en": "A tool that turns a simple text DSL into shareable ER diagrams fast.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://dbeaver.io",
+    "name": "DBeaver",
+    "tags": [
+      "veritabanı",
+      "açık-kaynak",
+      "masaüstü"
+    ],
+    "tr": "Birçok veritabanını tek arayüzden yöneten evrensel masaüstü veritabanı istemcisi.",
+    "en": "A universal desktop database client managing many databases from one interface.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://firebase.google.com/docs",
+    "name": "Firebase",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "backend",
+      "api"
+    ],
+    "tr": "Gerçek zamanlı veritabanı, kimlik doğrulama, depolama ve barındırma tek pakette. Prototipi çok hızlandırıyor; sorgu esnekliği ve satıcı bağımlılığı ise sonradan sorun oluyor.",
+    "en": "Realtime database, auth, storage and hosting in one package. It accelerates a prototype sharply, while query flexibility and vendor lock-in become the later problem.",
+    "src": "kedi",
+    "added": 1776690083
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=26ls5lNiijk",
+    "name": "İlişkisel Veritabanı Tasarımı",
+    "tags": [
+      "video",
+      "ücretsiz",
+      "veritabanı"
+    ],
+    "tr": "Normalizasyon formlarını ve şema tasarımını işleyen tam kurs. Sorgu yazmayı değil tabloyu doğru kurmayı öğretiyor — sonraki tüm sorunların kaynağı burası.",
+    "en": "A full course on normal forms and schema design. It teaches getting the tables right rather than writing queries — which is where every later problem originates.",
+    "src": "kedi",
+    "added": 1775474977
+  },
+  {
+    "url": "https://mariadb.org",
+    "name": "MariaDB",
+    "tags": [
+      "veritabanı",
+      "açık-kaynak",
+      "sunucu"
+    ],
+    "tr": "MySQL'in topluluk güdümlü açık kaynak çatalı; yerine geçebilen bir alternatif.",
+    "en": "A community-driven open-source fork of MySQL, usable as a drop-in replacement.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://modern-sql.com",
+    "name": "Modern SQL",
+    "tags": [
+      "veritabanı",
+      "öğretici",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Pencere fonksiyonları gibi modern SQL özelliklerini lehçeler arası öğreten kaynak.",
+    "en": "A resource teaching modern SQL features such as window functions across dialects.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://learn.mongodb.com/",
+    "name": "MongoDB University",
+    "tags": [
+      "ücretsiz",
+      "veritabanı",
+      "müfredat"
+    ],
+    "tr": "MongoDB’nin resmî ücretsiz kursları. Veri modelleme dersi kritik: ilişkisel alışkanlıkla belge veritabanı tasarlamak, ortaya çıkan en yaygın performans sorunu.",
+    "en": "MongoDB’s official free courses. The data modelling unit is the important one — designing a document store with relational habits is the most common source of performance trouble.",
+    "src": "kedi",
+    "added": 1776690083
+  },
+  {
+    "url": "https://www.mysqltutorial.org/",
+    "name": "MySQL Tutorial",
+    "tags": [
+      "ücretsiz",
+      "veritabanı"
+    ],
+    "tr": "Örnek veritabanı üzerinden MySQL’i baştan sona işliyor; JOIN türleri, alt sorgular ve saklı yordamlar ayrı ayrı ele alınmış. Resmî kılavuzdan çok daha okunur bir giriş.",
+    "en": "Works MySQL end to end over a sample database, treating join types, subqueries and stored procedures separately. Far more readable as an introduction than the official manual.",
+    "src": "kedi",
+    "added": 1776690082
+  },
+  {
+    "url": "https://neon.tech",
+    "name": "Neon",
+    "tags": [
+      "veritabanı",
+      "freemium",
+      "sunucu"
+    ],
+    "tr": "Dallanma ve sıfıra ölçeklenmeyle sunucusuz Postgres; anlık veritabanı dalları açar.",
+    "en": "Serverless Postgres with branching and scale-to-zero, spinning up instant database branches.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://www.oracle.com/database/sqldeveloper/",
+    "name": "Oracle SQL Developer",
+    "tags": [
+      "ücretsiz",
+      "veritabanı"
+    ],
+    "tr": "Oracle veritabanları için ücretsiz masaüstü istemci; sorgu, şema gezme ve PL/SQL hata ayıklama bir arada. Oracle ile çalışıyorsan fiilî standart araç.",
+    "en": "A free desktop client for Oracle databases combining querying, schema browsing and PL/SQL debugging — the de facto tool if you work with Oracle.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://planetscale.com",
+    "name": "PlanetScale",
+    "tags": [
+      "veritabanı",
+      "freemium",
+      "sunucu"
+    ],
+    "tr": "Vitess tabanlı sunucusuz MySQL; şema değişikliklerini dal (branch) mantığıyla yönetir.",
+    "en": "Serverless MySQL built on Vitess, managing schema changes with a branching workflow.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://pocketbase.io/",
+    "name": "PocketBase",
+    "tags": [
+      "veritabanı",
+      "backend",
+      "açık-kaynak",
+      "go"
+    ],
+    "tr": "Tek Go dosyasında gelen; SQLite, kimlik doğrulama ve gerçek zamanlı API sunan backend. Ağır yığınlardan farkı sunucuyu tek çalıştırılabilir dosyaya indirmesi.",
+    "en": "A backend shipping as one Go file, providing SQLite, auth and a real-time API. Unlike heavy stacks it reduces the server to a single executable.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://pgexercises.com",
+    "name": "PostgreSQL Exercises",
+    "tags": [
+      "veritabanı",
+      "interaktif",
+      "öğretici",
+      "ücretsiz"
+    ],
+    "tr": "Tarayıcıda notlandırılan PostgreSQL alıştırmalarıyla SQL pratiği.",
+    "en": "Practise SQL with graded PostgreSQL exercises in the browser.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://neon.com/postgresql/tutorial",
+    "name": "PostgreSQL Tutorial",
+    "tags": [
+      "ücretsiz",
+      "veritabanı"
+    ],
+    "tr": "Her konuyu çalıştırılabilir sorguyla gösteren PostgreSQL öğreticisi. Pencere fonksiyonları ve CTE bölümleri, çoğu SQL kursunun atladığı yerde derinleşiyor.",
+    "en": "A PostgreSQL tutorial showing each topic with a runnable query, going deep on window functions and CTEs where most SQL courses stop.",
+    "src": "kedi",
+    "added": 1776690081
+  },
+  {
+    "url": "https://www.reddit.com/r/SQL/comments/11qe99b/best_way_to_learn_sql/",
+    "name": "SQL Nasıl Öğrenilir",
+    "tags": [
+      "ücretsiz",
+      "awesome-liste",
+      "veritabanı"
+    ],
+    "tr": "Deneyimli kullanıcıların SQL öğrenme yollarını tartıştığı başlık. Kurs satmayan insanların önerileri olduğu için ayıklama işini önden yapmış oluyor.",
+    "en": "A thread where experienced users argue over how to learn SQL. Because nobody there is selling a course, the filtering is already done.",
+    "src": "kedi",
+    "added": 1777358727
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
+    "name": "SQL Sıfırdan İleri Seviye",
+    "tags": [
+      "video",
+      "ücretsiz",
+      "veritabanı"
+    ],
+    "tr": "Dört saatte temelden ileri seviyeye SQL; tek oturumda bütünü görmek isteyenler için. Pencere fonksiyonlarına kadar gidiyor, temel SELECT’te kalmıyor.",
+    "en": "SQL from basics to advanced in four hours for anyone who wants the whole picture in one sitting. It reaches window functions rather than stopping at basic SELECT.",
+    "src": "kedi",
+    "added": 1775474944
+  },
+  {
+    "url": "https://sqlbolt.com",
+    "name": "SQLBolt",
+    "tags": [
+      "veritabanı",
+      "interaktif",
+      "öğretici",
+      "ücretsiz"
+    ],
+    "tr": "Tarayıcıda yaparak öğreten etkileşimli SQL dersleri.",
+    "en": "Interactive SQL lessons that teach by doing in the browser.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://sqlite.org/",
+    "name": "SQLite",
+    "tags": [
+      "açık-kaynak",
+      "veritabanı"
+    ],
+    "tr": "Sunucusu olmayan, tek dosyada duran gömülü veritabanı. Dünyada en çok dağıtılmış veritabanı motoru; telefonundaki her uygulamanın içinde bir kopyası var. Test kapsamı efsanevi.",
+    "en": "A serverless embedded database living in a single file — the most widely deployed database engine in the world, with a copy inside nearly every app on your phone. Its test coverage is legendary.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://sqlzoo.net/wiki/SQL_Tutorial",
+    "name": "SQLZoo",
+    "tags": [
+      "veritabanı",
+      "interaktif",
+      "ücretsiz",
+      "öğretici"
+    ],
+    "tr": "SQL’i doğrudan tarayıcıda sorgu yazdırarak öğreten alıştırma seti; her bölüm bir veri kümesi üzerinde. Kurulum gerektiren öğreticilerden farkı bu — ilk `SELECT`’ini yazmak için veritabanı kurmak gerekmiyor.",
+    "en": "An exercise set that teaches SQL by making you write queries in the browser, each section over its own dataset. That is the difference from tutorials needing an install: your first `SELECT` requires no database.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://supabase.com/",
+    "name": "Supabase",
+    "tags": [
+      "veritabanı",
+      "backend",
+      "açık-kaynak",
+      "freemium"
+    ],
+    "tr": "Postgres üstüne kimlik doğrulama, API ve depolama ekleyen açık kaynak Firebase alternatifi. Firebase’den farkı ilişkisel Postgres üstünde durması ve kendini barındırabilmen.",
+    "en": "An open-source Firebase alternative adding auth, APIs and storage on top of Postgres. Unlike Firebase it stands on relational Postgres and can be self-hosted.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://surrealdb.com",
+    "name": "SurrealDB",
+    "tags": [
+      "veritabanı",
+      "açık-kaynak",
+      "sunucu"
+    ],
+    "tr": "Belge, çizge ve ilişkiseli tek motorda birleştiren çok modelli veritabanı.",
+    "en": "A multi-model database combining document, graph and relational in one engine.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://turso.tech/",
+    "name": "Turso",
+    "tags": [
+      "veritabanı",
+      "açık-kaynak"
+    ],
+    "tr": "SQLite çatallaması libSQL üzerine kurulu veritabanı platformu; veritabanını kullanıcının yakınındaki uç düğümlere kopyalıyor. Planetscale gibi merkezî hizmetlerden farkı, okuma gecikmesini ağ mesafesi yerine yerel dosya erişimine indirmesi.",
+    "en": "A database platform built on libSQL, a SQLite fork, that replicates the database to edge nodes near the user. Unlike centralised services such as PlanetScale, read latency becomes local file access rather than a network round trip.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://use-the-index-luke.com",
+    "name": "Use The Index, Luke!",
+    "tags": [
+      "veritabanı",
+      "öğretici",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Geliştiriciye yönelik SQL indeksleme ve performans rehberinin başucu kaynağı.",
+    "en": "The go-to developer-focused guide to SQL indexing and performance.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=pPqazMTzNOM",
+    "name": "Veritabanları Derinlemesine",
+    "tags": [
+      "video",
+      "ücretsiz",
+      "sistem-tasarımı"
+    ],
+    "tr": "İndeks yapıları, işlem yalıtım seviyeleri ve kilitlenme gibi iç mekanizmaları anlatan kurs. Ürün öğreticisi değil; hangi veritabanını kullanırsan kullan geçerli.",
+    "en": "A course on internals — index structures, transaction isolation levels, locking. Not a product tutorial; it holds regardless of which database you use.",
+    "src": "kedi",
+    "added": 1775474959
+  }
+]

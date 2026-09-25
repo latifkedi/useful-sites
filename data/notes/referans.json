@@ -1,0 +1,1705 @@
+[
+  {
+    "url": "https://github.com/30-seconds/30-seconds-of-code",
+    "name": "30 Seconds of Code",
+    "tags": [
+      "referans",
+      "javascript",
+      "ücretsiz",
+      "kopya-kâğıdı"
+    ],
+    "tr": "30 saniyede kavranan kısa, açıklamalı kod parçacıkları koleksiyonu.",
+    "en": "A collection of short, explained code snippets you can grasp in 30 seconds.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://wildlyinaccurate.com/a-hackers-guide-to-git/",
+    "name": "A Hacker's Guide to Git",
+    "tags": [
+      "git",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Git’in nesne veritabanını, referanslarını ve birleştirme algoritmasını açıklayan rehber. \"Git from the Inside Out\"tan farkı daha kısa ve komut odaklı olması — ikisi birbirini tamamlıyor.",
+    "en": "A guide to Git’s object database, refs and merge algorithm. Against \"Git from the Inside Out\" it is shorter and more command-oriented — the two complement each other.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.accessibility-developer-guide.com/",
+    "name": "Accessibility Developer Guide",
+    "tags": [
+      "referans",
+      "dokümantasyon",
+      "frontend"
+    ],
+    "tr": "Erişilebilir arayüzü kod düzeyinde anlatan rehber; her örnekte önce yanlış yaklaşımı sonra doğrusunu gösteriyor. WCAG’ın soyut ölçütlerinden farkı, ekran okuyucunun ne duyduğunu somut örnekle göstermesi.",
+    "en": "A guide to accessible interfaces at the code level, showing the wrong approach before the right one in every example. Where WCAG states abstract criteria, this demonstrates what a screen reader actually announces.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://github.com/airbnb/javascript",
+    "name": "Airbnb JavaScript Üslup Kılavuzu",
+    "tags": [
+      "github",
+      "javascript",
+      "referans"
+    ],
+    "tr": "JavaScript’in fiilî üslup standardı; ESLint yapılandırması olarak doğrudan kurulabiliyor. Her kural örnek doğru ve yanlış kodla gösterilmiş.",
+    "en": "The de facto JavaScript style standard, installable directly as an ESLint config, with every rule shown as good and bad example code.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://en.algorithmica.org/hpc/",
+    "name": "Algorithmica HPC",
+    "tags": [
+      "algoritma",
+      "kitap",
+      "ücretsiz"
+    ],
+    "tr": "Modern donanımda hızlı kod yazmayı anlatan çevrimiçi kitap: önbellek hiyerarşisi, SIMD, dallanma tahmini. Algoritma kitaplarından farkı büyük-O yerine gerçek makinede geçen süreye bakması — aynı karmaşıklıktaki iki çözümün neden farklı hızda çalıştığını açıklıyor.",
+    "en": "An online book on writing fast code for modern hardware: cache hierarchy, SIMD, branch prediction. Where algorithm books stop at big-O, this measures wall-clock time on a real machine and explains why two solutions of equal complexity differ by tenfold.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://cooervo.github.io/Algorithms-DataStructures-BigONotation/",
+    "name": "Algorithms & Big-O Reference",
+    "tags": [
+      "referans",
+      "algoritma",
+      "kopya-kâğıdı"
+    ],
+    "tr": "Veri yapılarının ve sıralama algoritmalarının zaman/alan karmaşıklıklarını tek tabloda toplayan referans. Big-O Cheat Sheet’ten farkı her yapının kısa açıklamasını ve örnek kodunu da taşıması — tabloyu okumadan önce neye baktığını anlıyorsun.",
+    "en": "A single-table reference for the time and space complexity of data structures and sorting algorithms. Against the Big-O Cheat Sheet it also carries a short description and sample code per structure, so you know what you are reading before you read the table.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://github.com/AboutRSS/ALL-about-RSS",
+    "name": "ALL about RSS",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "referans"
+    ],
+    "tr": "RSS’e dair her şeyi — okuyucular, dönüştürücüler, servisler, öğreticiler — toplayan liste. Tek bir okuyucudan farkı ekosistemin haritası olması: bir siteye feed yoksa nasıl üretileceğinden okuma akışını nasıl kuracağına kadar tüm araçları bir arada veriyor.",
+    "en": "A list gathering everything about RSS — readers, converters, services, tutorials. Unlike a single reader it is the map of the ecosystem: from generating a feed for a site that lacks one to building a reading pipeline, it holds all the tools together.",
+    "src": "lowkwiki"
+  },
+  {
+    "url": "https://engineering.teknasyon.com/androidler-neden-elektrikli-koyun-d%C3%BC%C5%9Fleyemez-dab0ee1e85be",
+    "name": "Androidler Neden Elektrikli Koyun Düşleyemez",
+    "tags": [
+      "ücretsiz",
+      "türkçe",
+      "referans"
+    ],
+    "tr": "Türkçe mühendislik blogundan teknik bir yazı. Yerel dilde derinlikli teknik içerik az bulunduğu için örnek olarak değerli.",
+    "en": "A technical piece from a Turkish engineering blog — valuable as an example, since in-depth technical writing in the language is scarce.",
+    "src": "kedi",
+    "added": 1739291777
+  },
+  {
+    "url": "https://developer.apple.com/design/human-interface-guidelines/",
+    "name": "Apple Human Interface Guidelines",
+    "tags": [
+      "referans",
+      "dokümantasyon",
+      "masaüstü"
+    ],
+    "tr": "Apple’ın tüm platformları için arayüz tasarım kuralları: dokunma hedefi boyutları, gezinme kalıpları, hareket ve tipografi. Material Design’dan farkı, öneri değil App Store incelemesinde fiilen uygulanan bir ölçüt olması.",
+    "en": "Apple’s interface rules across all its platforms: touch target sizes, navigation patterns, motion and typography. Unlike Material Design, this is not advice — it is the yardstick App Store review actually applies.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://github.com/Esri/awesome-arcgis-developer",
+    "name": "Awesome ArcGIS Developer",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "referans"
+    ],
+    "tr": "Haritalama ve konum analizi platformu ArcGIS için geliştirici kaynakları.",
+    "en": "Developer resources for ArcGIS, the mapping and location-analysis platform.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://lecoupa.github.io/awesome-cheatsheets/",
+    "name": "Awesome Cheatsheets",
+    "tags": [
+      "kopya-kâğıdı",
+      "awesome-liste",
+      "github"
+    ],
+    "tr": "Programlama dilleri, çatılar ve komut satırı araçları için tek dosyada yoğunlaştırılmış kopya kâğıtları. Görsel kâğıtlardan farkı düz metin olması — aranabiliyor, kopyalanabiliyor ve depoda sürümleniyor.",
+    "en": "Cheat sheets for languages, frameworks and command-line tools, each condensed into a single file. Unlike visual sheets these are plain text — searchable, copyable and versioned in a repository.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://github.com/secretGeek/awesomeCSV",
+    "name": "Awesome CSV",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "referans",
+      "veri-bilimi"
+    ],
+    "tr": "Tablo verisi saklayan CSV biçimi için araç ve kaynak listesi.",
+    "en": "A list of tools and resources for CSV, the tabular-data file format.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/agamm/awesome-developer-first",
+    "name": "Awesome Developer-First",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "referans"
+    ],
+    "tr": "Kullanıcısı geliştirici olan ürünleri toplayan liste.",
+    "en": "A list of products that target developers as the user.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/aleixmorgadas/awesome-engineering-strategy",
+    "name": "Awesome Engineering Strategy",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "referans"
+    ],
+    "tr": "Mühendislik stratejisi tasarlama ve uygulama için kaynak listesi.",
+    "en": "A resource list for designing and executing engineering strategy.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/kdeldycke/awesome-engineering-team-management",
+    "name": "Awesome Engineering Team Management",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "referans"
+    ],
+    "tr": "Geliştiricilikten yöneticiliğe geçiş için kaynak listesi.",
+    "en": "A resource list for transitioning from software development into management.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/mungell/awesome-for-beginners",
+    "name": "Awesome for Beginners",
+    "tags": [
+      "awesome-liste",
+      "açık-kaynak",
+      "github"
+    ],
+    "tr": "Yeni başlayanlara uygun issue’ları olan depoların dil bazında listesi. Up For Grabs’tan farkı programlama diline göre ayrılmış olması — bildiğin dilde bir proje bulmak kolay.",
+    "en": "A list of repositories with beginner-friendly issues, organised by programming language. Against Up For Grabs the split by language is the difference — finding a project in a language you know is straightforward.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://github.com/johnjago/awesome-free-software",
+    "name": "Awesome Free Software",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "açık-kaynak",
+      "referans"
+    ],
+    "tr": "Özgür yazılım (özgürlük anlamında) proje ve kaynaklarının listesi.",
+    "en": "A list of free software (as in freedom) projects and resources.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/mezod/awesome-indie",
+    "name": "Awesome Indie",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "referans"
+    ],
+    "tr": "Bağımsız geliştirici işletmeleri kurmak için kaynak listesi.",
+    "en": "A resource list for building independent developer businesses.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/burningtree/awesome-json",
+    "name": "Awesome JSON",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "referans"
+    ],
+    "tr": "Metin tabanlı veri değişim biçimi JSON için araç ve kaynak listesi.",
+    "en": "A list of tools and resources for JSON, the text-based data-interchange format.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/egeerardyn/awesome-LaTeX",
+    "name": "Awesome LaTeX",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "akademik",
+      "referans"
+    ],
+    "tr": "Bilimsel dizgi dili LaTeX için paket, şablon ve araç listesi.",
+    "en": "A list of packages, templates and tools for LaTeX, the scientific typesetting language.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/Te1eG0esbrr/awesome-lowkenuinely-wikis",
+    "name": "Awesome Lowkenuinely Wikis",
+    "tags": [
+      "github",
+      "awesome-liste",
+      "referans",
+      "osint"
+    ],
+    "tr": "Bir kişinin GitHub yıldızlarından derlenmiş; wiki, dijital bahçe, siber güvenlik referansı, OSINT aracı ve dizin başlıkları altında elle ayrılmış ~320 depo. Diğer “awesome” listelerinden farkı kişisel ve ayıklanmamış olması: değerli projelerle ölü bloglar yan yana, README’si bile her bağlantının güvenli olmadığını uyarıyor. Ham cevher olarak iyi, ama süzmek sana kalıyor.",
+    "en": "A hand-sorted dump of one person’s GitHub stars — about 320 repositories filed under wikis, digital gardens, cybersecurity references, OSINT tools and directories. Unlike other “awesome” lists it is personal and unfiltered: living projects sit beside dead blogs, and its own README warns that not every link is safe. Good raw ore, but the sieving is left to you.",
+    "src": "lowkwiki"
+  },
+  {
+    "url": "https://github.com/BubuAnabelas/awesome-markdown",
+    "name": "Awesome Markdown",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "referans",
+      "dokümantasyon"
+    ],
+    "tr": "Markdown biçimleme dili için editör, dönüştürücü ve kaynak listesi.",
+    "en": "A list of editors, converters and resources for the Markdown markup language.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/gruhn/awesome-naming",
+    "name": "Awesome Naming",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "referans"
+    ],
+    "tr": "Bilgisayar biliminde “şeyleri adlandırma” üzerine rehberler listesi.",
+    "en": "A list of guides on naming things in computer science.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/domenicosolazzo/awesome-okr",
+    "name": "Awesome OKR",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "referans"
+    ],
+    "tr": "Hedef belirleme ve iletişim (OKR) en iyi uygulamaları için kaynak listesi.",
+    "en": "A resource list for OKR goal-setting and communication best practices.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/osmlab/awesome-openstreetmap",
+    "name": "Awesome OpenStreetMap",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "referans",
+      "açık-kaynak"
+    ],
+    "tr": "Açık harita verisi projesi OpenStreetMap için araç ve kaynak listesi.",
+    "en": "A list of tools and resources for OpenStreetMap, the open map-data project.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/mcanouil/awesome-quarto",
+    "name": "Awesome Quarto",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "akademik",
+      "dokümantasyon"
+    ],
+    "tr": "Bilimsel ve teknik açık kaynak yayıncılık sistemi Quarto için kaynak listesi.",
+    "en": "A resource list for Quarto, the scientific and technical open-source publishing system.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/readthedocs-examples/awesome-read-the-docs",
+    "name": "Awesome Read the Docs",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "dokümantasyon",
+      "referans"
+    ],
+    "tr": "İlham verici örnek dokümantasyon projelerini toplayan liste.",
+    "en": "A list of example documentation projects to inspire your own.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/slevithan/awesome-regex",
+    "name": "Awesome Regex",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "referans"
+    ],
+    "tr": "Metin desen eşleme dili düzenli ifadeler (regex) için araç ve kaynak listesi.",
+    "en": "A list of tools and resources for regular expressions (regex), the pattern-matching language.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/karlhorky/awesome-speakers",
+    "name": "Awesome Speakers",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "referans"
+    ],
+    "tr": "Programlama topluluğunda konferans ve buluşma konuşmacılarının listesi.",
+    "en": "A list of conference and meetup speakers in the programming community.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/stackshareio/awesome-stacks",
+    "name": "Awesome Stacks",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "referans"
+    ],
+    "tr": "Farklı uygulama türlerini kurmak için kullanılan teknoloji yığınlarının listesi.",
+    "en": "A list of tech stacks used for building different kinds of apps.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/donBarbos/awesome-standards",
+    "name": "Awesome Standards",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "referans"
+    ],
+    "tr": "İnternet ve yazılımı tanımlayan öneri ve standartların (RFC vb.) listesi.",
+    "en": "A list of the proposals and standards (RFCs and more) that define the internet and software.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/sampart/awesome-tech-ethics",
+    "name": "Awesome Tech Ethics",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "referans"
+    ],
+    "tr": "Teknolojinin olası zararlarını azaltmaya odaklı etik kaynakların listesi.",
+    "en": "A list of ethics resources focused on mitigating technology’s potential harms.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/jagracey/Awesome-Unicode",
+    "name": "Awesome Unicode",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "referans"
+    ],
+    "tr": "Unicode standardı, tuhaflıkları ve araçları için kaynak listesi.",
+    "en": "A resource list for the Unicode standard, its quirks and its tools.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/wardley-maps-community/awesome-wardley-maps",
+    "name": "Awesome Wardley Maps",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "referans"
+    ],
+    "tr": "Stratejik karar için durumsal farkındalık sağlayan Wardley haritaları listesi.",
+    "en": "A list for Wardley Maps, which give situational awareness for strategic decisions.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/iipc/awesome-web-archiving",
+    "name": "Awesome Web Archiving",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "referans",
+      "arşivlenmiş"
+    ],
+    "tr": "Web’i gelecek için koruma (arşivleme) araç ve kaynaklarının listesi.",
+    "en": "A list of tools and resources for preserving the web for the future (archiving).",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/LewisVo/Begin-Latex-in-minutes",
+    "name": "Begin LaTeX in Minutes",
+    "tags": [
+      "referans",
+      "öğretici",
+      "akademik",
+      "github"
+    ],
+    "tr": "Yeni başlayanlar için dakikalar içinde LaTeX’e kısa giriş.",
+    "en": "A brief intro to LaTeX for beginners, in minutes.",
+    "src": "velvia"
+  },
+  {
+    "url": "https://www.btkakademi.gov.tr/portal/public/terimlersozlugu",
+    "name": "BTK Terimler Sözlüğü",
+    "tags": [
+      "ücretsiz",
+      "türkçe",
+      "referans"
+    ],
+    "tr": "Bilişim terimlerinin resmî Türkçe karşılıkları. Belge, sunum ya da çeviri yaparken terim tutarlılığı için başvurulacak yer.",
+    "en": "Official Turkish equivalents for computing terms — the reference for keeping terminology consistent in documents, talks and translation.",
+    "src": "kedi",
+    "added": 1784181084
+  },
+  {
+    "url": "https://bukmark.club/",
+    "name": "BUKMARK.CLUB",
+    "tags": [
+      "referans",
+      "awesome-liste",
+      "ücretsiz"
+    ],
+    "tr": "Yalnızca bağlantı koleksiyonu barındıran siteleri listeleyen bir dizin — yer imi koleksiyonlarının dizini. Genel web dizinlerinden farkı bu şartı koşması: listelenmek için sitenin kendisi başka sitelere derli toplu bir bağlantı koleksiyonu sunmalı.",
+    "en": "A directory that lists only sites which themselves host a curated collection of links — a directory of bookmark collections. Unlike general web directories it sets that one condition: to be listed, a site must offer a tidy collection of links to other sites.",
+    "src": "lowkwiki"
+  },
+  {
+    "url": "https://www.cheat-sheets.org/",
+    "name": "Cheat-Sheets.org",
+    "tags": [
+      "kopya-kâğıdı",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "İnternete dağılmış kopya kâğıtlarını konuya göre toplayan dizin. Cheatography’den farkı kendi içerik üretmemesi — başka sitelerdeki iyi kâğıtlara işaret ediyor, tek merkez değil katalog.",
+    "en": "A directory collecting cheat sheets scattered across the web, filed by subject. Unlike Cheatography it produces nothing itself — it points at the good sheets elsewhere, a catalogue rather than a source.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://github.com/chubin/cheat.sh",
+    "name": "cheat.sh",
+    "tags": [
+      "github",
+      "cli",
+      "kopya-kâğıdı"
+    ],
+    "tr": "Terminalden `curl cheat.sh/komut` yazarak kopya kâğıdı çeken servis. Tarayıcı açmadan, editörden çıkmadan cevap veriyor.",
+    "en": "Pulls a cheat sheet from the terminal with `curl cheat.sh/command` — an answer without opening a browser or leaving your editor.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://cheatography.com/",
+    "name": "Cheatography",
+    "tags": [
+      "kopya-kâğıdı",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Kullanıcıların hazırladığı kopya kâğıdı arşivi; her biri PDF olarak basılabiliyor. Tek konuya adanmış kopya kâğıtlarından farkı kapsamı — programlama dilinden klavye kısayoluna kadar aynı biçimde.",
+    "en": "An archive of user-made cheat sheets, each printable as a PDF. Against single-subject cheat sheets the difference is coverage — everything from a programming language to an application’s shortcuts in the same format.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://choosealicense.com/appendix/",
+    "name": "Choose a License — Appendix",
+    "tags": [
+      "açık-kaynak",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Açık kaynak lisanslarını izin, koşul ve sınırlama sütunlarıyla tek tabloda karşılaştıran ek. Lisans metinlerini okumaktan farkı bu — patent hükmü var mı, aynı lisansla paylaşma zorunlu mu, satırdan görüyorsun.",
+    "en": "An appendix comparing open-source licences in one table of permissions, conditions and limitations. Against reading licence texts you see it in a row — whether there is a patent clause, whether share-alike applies.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://www.codeproject.com",
+    "name": "CodeProject",
+    "tags": [
+      "referans",
+      "ücretsiz",
+      "c-ailesi"
+    ],
+    "tr": "Geliştiricilerin yazdığı, çalışan kod içeren uzun makale arşivi; ağırlık .NET ve C++ tarafında. Blog toplayıcılarından farkı her makalenin indirilebilir kaynak projesiyle gelmesi.",
+    "en": "An archive of long, developer-written articles with working code, weighted towards .NET and C++. Against a blog aggregator each article ships with a downloadable source project.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.codetriage.com",
+    "name": "CodeTriage",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "ücretsiz"
+    ],
+    "tr": "Açık kaynak projelere katkı vermek isteyenlere her gün bir açık issue gönderen servis. \"good first issue\" etiketini taramaktan farkı düzenli ve küçük dozda gelmesi — katkıyı alışkanlığa çeviren şey bu.",
+    "en": "Sends you one open issue a day from projects you follow, for people who want to contribute. Against scanning \"good first issue\" labels the difference is regularity and small doses — which is what turns contribution into a habit.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://dblp.org/",
+    "name": "DBLP",
+    "tags": [
+      "akademik",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Bilgisayar bilimi yayınlarının açık bibliyografya veritabanı; yazar sayfaları ve konferans ciltleri düzenli. Google Scholar’dan farkı temiz ve elle bakımlı olması — yazar karışıklığı ve hayalet kayıt neredeyse yok.",
+    "en": "The open bibliography database of computer science publications, with tidy author pages and conference volumes. Against Google Scholar it is clean and hand-maintained — author ambiguity and phantom records are rare.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://devdocs.io/",
+    "name": "DevDocs",
+    "tags": [
+      "açık-kaynak",
+      "dokümantasyon",
+      "self-hosted"
+    ],
+    "tr": "Yüzlerce teknolojinin resmî dokümanını tek arayüzde topluyor; çevrimdışı indirilebiliyor ve anlık arama sunuyor. Sekme sekme doküman sitesi gezmenin sonu.",
+    "en": "Gathers official documentation for hundreds of technologies in one interface, downloadable for offline use with instant search. The end of tab-hopping between doc sites.",
+    "src": "kedi",
+    "added": 1787155963
+  },
+  {
+    "url": "https://devhints.io",
+    "name": "Devhints",
+    "tags": [
+      "ücretsiz",
+      "kopya-kâğıdı"
+    ],
+    "tr": "Yüzlerce araç ve dil için tek sayfalık kopya kâğıdı arşivi; her biri gerçekten bir ekrana sığacak şekilde budanmış.",
+    "en": "An archive of one-page cheat sheets for hundreds of tools and languages, each genuinely pruned to fit a single screen.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://xlinux.nist.gov/dads/",
+    "name": "Dictionary of Algorithms and Data Structures",
+    "tags": [
+      "referans",
+      "algoritma",
+      "ücretsiz"
+    ],
+    "tr": "NIST’in algoritma ve veri yapısı sözlüğü; her terim için kısa tanım, varsa formal tanımlama ve uygulama bağlantısı. Vikipedi’den farkı kısalığı ve terminolojide otorite olması — bir terimin doğru adını aradığında buraya bakılır.",
+    "en": "NIST’s dictionary of algorithms and data structures, with a short definition, a formal statement where one exists, and links to implementations. Against Wikipedia it is terse and authoritative on terminology — the place to check what a thing is properly called.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://github.com/MaggieAppleton/digital-gardeners",
+    "name": "Digital Gardeners",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "referans"
+    ],
+    "tr": "Herkese açık notlarını “bahçe” gibi işleyenler için kaynak, bağlantı ve fikir listesi. Araç odaklı listelerden farkı felsefeye ağırlık vermesi: hangi yazılımdan çok, aç­ık düşünmenin nasıl yapıldığına dair yazı ve örnekleri topluyor.",
+    "en": "A list of resources, links and ideas for people who tend their public notes like a garden. Unlike tool-focused lists it weights the philosophy: it gathers essays and examples on how to think in public rather than which software to use.",
+    "src": "lowkwiki"
+  },
+  {
+    "url": "https://tr.wikipedia.org/wiki/DjVu",
+    "name": "DjVu",
+    "tags": [
+      "ücretsiz",
+      "türkçe",
+      "referans"
+    ],
+    "tr": "Taranmış belgeler için PDF’e alternatif biçim; aynı kalitede çok daha küçük dosya üretiyor. Eski arşivlerde sık karşına çıkar, ne olduğunu bilmek gerekir.",
+    "en": "A PDF alternative for scanned documents producing much smaller files at the same quality. You meet it often in older archives, so it is worth knowing what it is.",
+    "src": "kedi",
+    "added": 1782368459
+  },
+  {
+    "url": "https://dzone.com",
+    "name": "DZone",
+    "tags": [
+      "referans",
+      "ücretsiz",
+      "devops"
+    ],
+    "tr": "Yazılım geliştirme, DevOps ve mimari üzerine makale ve \"refcard\" arşivi. Kişisel bloglardan farkı refcard’lar — tek konuyu iki sayfaya sığdıran indirilebilir özetler.",
+    "en": "An archive of articles and \"refcards\" on software development, DevOps and architecture. The refcards are what distinguish it from personal blogs: downloadable two-page summaries of a single subject.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://github.com/exercism/problem-specifications",
+    "name": "Exercism Problem Şartnameleri",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "interaktif"
+    ],
+    "tr": "Exercism alıştırmalarının dilden bağımsız tanımları ve test verileri. Kendi dilinde alıştırma seti kurmak isteyenler için hazır malzeme.",
+    "en": "Language-independent definitions and test data for Exercism’s exercises — ready material if you want to build a practice set in your own language.",
+    "src": "kedi",
+    "added": 1772624455
+  },
+  {
+    "url": "https://eylenburg.github.io/",
+    "name": "Eylenburg Tech Website",
+    "tags": [
+      "referans",
+      "interaktif",
+      "ücretsiz"
+    ],
+    "tr": "İşletim sistemleri, dosya sistemleri ve ülkelerin dijital özgürlüğü gibi konuları geniş karşılaştırma tablolarıyla veren teknik site. Ansiklopedi maddelerinden farkı yan yana tablo olması: 18 işletim sistemini ya da 17 ülkeyi tek ızgarada karşılaştırabiliyorsun.",
+    "en": "A technical site giving broad comparison tables on operating systems, file systems and countries’ digital freedom. Unlike encyclopaedia articles it is side-by-side tables: you can compare 18 operating systems or 17 countries in a single grid.",
+    "src": "lowkwiki"
+  },
+  {
+    "url": "https://www.firsttimersonly.com",
+    "name": "First Timers Only",
+    "tags": [
+      "açık-kaynak",
+      "öğretici",
+      "ücretsiz"
+    ],
+    "tr": "İlk açık kaynak katkısını yapmak isteyenler için hazırlanmış giriş; korkuyu azaltmaya odaklanıyor. Katkı rehberlerinden farkı teknik değil psikolojik engeli ele alması.",
+    "en": "An introduction for people making their first open-source contribution, aimed squarely at reducing the fear. Unlike contribution guides it addresses the psychological barrier rather than the technical one.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://freecomputerbooks.com/",
+    "name": "Free Computer Books",
+    "tags": [
+      "referans",
+      "kitap",
+      "ücretsiz"
+    ],
+    "tr": "Konuya göre düzenlenmiş ücretsiz teknoloji kitapları ve e-kitap dizini.",
+    "en": "A directory of free technology books and ebooks, organised by topic.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://free-for.dev/#/",
+    "name": "Free for Developers",
+    "tags": [
+      "ücretsiz",
+      "awesome-liste"
+    ],
+    "tr": "Ücretsiz katmanı olan geliştirici servislerinin listesi: barındırma, CI, izleme, e-posta. Yan projenin maliyetini sıfıra yakın tutmanın haritası.",
+    "en": "A list of developer services with free tiers — hosting, CI, monitoring, email. A map for keeping a side project near zero cost.",
+    "src": "kedi",
+    "added": 1787182696
+  },
+  {
+    "url": "https://github.com/EbookFoundation/free-programming-books",
+    "name": "Free Programming Books",
+    "tags": [
+      "awesome-liste",
+      "kitap",
+      "github",
+      "ücretsiz"
+    ],
+    "tr": "Yüzlerce dilde ücretsiz programlama kitabı, kurs ve etkileşimli eğitim derlemesi; GitHub’ın en çok yıldızlanan depolarından. Benzer listelerden farkı ölçeği ve aktif bakımı — dil bazında ayrılmış, Türkçe bölümü de var.",
+    "en": "A compilation of free programming books, courses and interactive tutorials in hundreds of languages, and one of GitHub’s most-starred repositories. Against similar lists it wins on scale and active maintenance, and it is split by language — Turkish included.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://github.com/ripienaar/free-for-dev",
+    "name": "free-for-dev (kaynak)",
+    "tags": [
+      "github",
+      "awesome-liste"
+    ],
+    "tr": "Free for Developers listesinin kaynak deposu; katkı göndermek ya da bir servisin ne zaman eklendiğine bakmak için.",
+    "en": "The source repository behind the Free for Developers list — for contributing or checking when a service was added.",
+    "src": "kedi",
+    "added": 1776686984
+  },
+  {
+    "url": "https://gitexplorer.com/",
+    "name": "Git Explorer",
+    "tags": [
+      "git",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "Ne yapmak istediğini menüden seçince doğru Git komutunu üreten araç. Kopya kâğıdından farkı ters yönde çalışması — komutu hatırlamana gerek yok, niyetini seçiyorsun.",
+    "en": "Pick what you are trying to do from menus and it composes the right Git command. Against a cheat sheet it works backwards: you do not need to recall the command, only your intent.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://maryrosecook.com/blog/post/git-from-the-inside-out",
+    "name": "Git from the Inside Out",
+    "tags": [
+      "git",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Git’i komutlarından değil veri modelinden anlatan uzun yazı: her komutun `.git` klasöründe ne değiştirdiğini adım adım gösteriyor. Komut rehberlerinden farkı bu — modeli anlayınca komutları ezberlemeye gerek kalmıyor.",
+    "en": "A long essay explaining Git from its data model rather than its commands, showing what each command changes inside `.git`. That is the difference from a command guide: once the model is clear the commands stop needing memorisation.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://rogerdudler.github.io/git-guide/",
+    "name": "Git — The Simple Guide",
+    "tags": [
+      "git",
+      "öğretici",
+      "ücretsiz"
+    ],
+    "tr": "Git’in temel akışını tek sayfada anlatan giriş; dal, birleştirme ve uzak depo kadarı var. Pro Git kitabından farkı kapsamlı olmaya çalışmaması — ilk gün için gereken minimum.",
+    "en": "A one-page introduction to Git’s basic flow, going as far as branching, merging and remotes. Unlike the Pro Git book it makes no attempt at completeness — it is the minimum for day one.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://www.gitbook.com",
+    "name": "GitBook",
+    "tags": [
+      "freemium",
+      "dokümantasyon"
+    ],
+    "tr": "Dokümantasyon yazma ve yayımlama platformu; Git ile senkron çalışıp teknik kitapları web sitesine çeviriyor.",
+    "en": "A platform for writing and publishing documentation, syncing with Git to turn technical books into websites.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://gitcoin.co",
+    "name": "Gitcoin",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "freemium"
+    ],
+    "tr": "Açık kaynak işlerine ödül koyup fon toplayan platform; Ethereum ekosisteminde doğdu. Bağış düğmelerinden farkı işi ödüllendirmesi — belirli bir issue’ya para bağlanabiliyor.",
+    "en": "A platform for placing bounties on open-source work and raising funds, born in the Ethereum ecosystem. Against a donate button it rewards the work: money can be attached to a specific issue.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://octoverse.github.com/",
+    "name": "GitHub Octoverse",
+    "tags": [
+      "referans",
+      "veri-bilimi",
+      "ücretsiz"
+    ],
+    "tr": "GitHub’ın yıllık raporu; yazılım dünyasının eğilimlerini veriyle gösterir.",
+    "en": "GitHub’s annual report, showing software trends with data.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://education.github.com/pack",
+    "name": "GitHub Student Pack",
+    "tags": [
+      "ücretsiz",
+      "sertifika"
+    ],
+    "tr": "Öğrencilere ücretsiz araç ve bulut kredisi veren paket: alan adı, JetBrains lisansı, DigitalOcean kredisi ve fazlası. Doğrulama okul e-postasıyla yapılıyor.",
+    "en": "A bundle of free tools and cloud credit for students — a domain, JetBrains licences, DigitalOcean credit and more, verified with a school email.",
+    "src": "kedi",
+    "added": 1770118325
+  },
+  {
+    "url": "https://github.com/abhigyanpatwari/GitNexus",
+    "name": "GitNexus",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "referans"
+    ],
+    "tr": "Depo içeriğini gezilebilir hâle getiriyor; büyük bir kod tabanına ilk kez bakarken nereden başlanacağını göstermesi işe yarıyor.",
+    "en": "Makes repository content navigable, which helps when you face a large codebase for the first time and need somewhere to start.",
+    "src": "kedi",
+    "added": 1776686611
+  },
+  {
+    "url": "https://gitsheet.wtf",
+    "name": "GitSheet",
+    "tags": [
+      "git",
+      "kopya-kâğıdı",
+      "ücretsiz"
+    ],
+    "tr": "Sık kullanılan Git komutlarının tek sayfalık kopya kâğıdı; kategori kategil düzenlenmiş. Uzun rehberlerden farkı arama değil tarama için tasarlanmış olması — komutu hatırlamaya çalışırken göz gezdiriyorsun.",
+    "en": "A single-page cheat sheet of common Git commands, grouped by task. Unlike a long guide it is built for scanning rather than searching — you glance at it while trying to recall a command.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://goalkicker.com",
+    "name": "GoalKicker",
+    "tags": [
+      "ücretsiz",
+      "kitap"
+    ],
+    "tr": "Stack Overflow Documentation arşivinden derlenmiş ücretsiz programlama kitapları; her biri örnek ağırlıklı ve konu konu ayrılmış.",
+    "en": "Free programming books compiled from the Stack Overflow Documentation archive, each example-heavy and split topic by topic.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://google.github.io/styleguide/csharp-style.html",
+    "name": "Google C# Üslup Kılavuzu",
+    "tags": [
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "C# için adlandırma ve düzen kuralları; Microsoft’un kendi kılavuzuna göre daha kısa ve kesin.",
+    "en": "Naming and layout rules for C#, shorter and more prescriptive than Microsoft’s own guide.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://google.github.io/styleguide/cppguide.html",
+    "name": "Google C++ Üslup Kılavuzu",
+    "tags": [
+      "ücretsiz",
+      "c-ailesi",
+      "referans"
+    ],
+    "tr": "Google’ın C++ kuralları; bazı maddeleri tartışmalı (istisna yasağı gibi) ama her kuralın gerekçesi yazılı olduğu için kendi kurallarını kurarken iyi bir başlangıç.",
+    "en": "Google’s C++ rules. Some are contested — the ban on exceptions, for one — but every rule carries its reasoning, which makes it a good base for writing your own.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://google.github.io/styleguide/javaguide.html",
+    "name": "Google Java Üslup Kılavuzu",
+    "tags": [
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Java için biçimlendirme ve adlandırma kuralları; google-java-format aracı doğrudan bu belgeyi uyguluyor.",
+    "en": "Formatting and naming rules for Java — the google-java-format tool implements this document directly.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://opensource.google/",
+    "name": "Google Open Source",
+    "tags": [
+      "açık-kaynak",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Google’ın açık kaynak projeleri, politikaları ve programları için merkez sayfa. Depoya tek tek bakmaktan farkı kurumsal politikanın da yayımlanmış olması — büyük bir şirketin açık kaynağı nasıl yönettiğini görmek için.",
+    "en": "The hub for Google’s open-source projects, policies and programmes. Against browsing the repositories one by one, the corporate policy is published too — a look at how a large company runs open source.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://google.github.io/styleguide/pyguide.html",
+    "name": "Google Python Üslup Kılavuzu",
+    "tags": [
+      "ücretsiz",
+      "python",
+      "referans"
+    ],
+    "tr": "PEP 8’in üstüne Google’ın kendi eklemeleri: docstring biçimi, içe aktarma düzeni, tip ipucu kullanımı. Büyük kod tabanlarında tutarlılık için.",
+    "en": "Google’s additions on top of PEP 8 — docstring format, import ordering, type-hint usage — aimed at consistency in large codebases.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://summerofcode.withgoogle.com",
+    "name": "Google Summer of Code",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "müfredat"
+    ],
+    "tr": "Öğrencileri açık kaynak projelerle eşleştiren ve ücretli çalıştıran yıllık program. Staj başvurusundan farkı çıktının kamuya açık olması — yaptığın iş özgeçmişte bağlantı olarak duruyor.",
+    "en": "An annual programme that pairs students with open-source projects and pays them. Against an internship the output is public — the work sits on your résumé as a link.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.youtube.com/user/GoogleTechTalks/videos",
+    "name": "Google Tech Talks",
+    "tags": [
+      "video",
+      "akademik",
+      "ücretsiz"
+    ],
+    "tr": "Google’da verilen teknik konuşmaların arşivi; birçoğu alanının kurucu isimlerinden. Konferans kayıtlarından farkı iç seyirciye anlatılmış olması — soru-cevap bölümleri genelde konuşmanın kendisinden değerli.",
+    "en": "The archive of technical talks given at Google, many by the founding figures of their fields. Against conference recordings these were delivered to an internal audience, and the Q&A is often worth more than the talk.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.youtube.com/user/GotoConferences",
+    "name": "GOTO Conferences",
+    "tags": [
+      "video",
+      "sistem-tasarımı",
+      "ücretsiz"
+    ],
+    "tr": "Yazılım mimarisi ve mühendislik kültürü ağırlıklı konferans kayıtları. Dile özgü konferanslardan farkı teknoloji bağımsız olması — mimari kararlar ve takım pratikleri üzerine.",
+    "en": "Conference recordings weighted towards software architecture and engineering culture. Unlike language-specific conferences it is technology-agnostic — about architectural decisions and team practice.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://github.com/ArchiveTeam/grab-site",
+    "name": "grab-site",
+    "tags": [
+      "arşivlenmiş",
+      "github",
+      "python",
+      "cli"
+    ],
+    "tr": "WARC çıktısı üreten, tüm taramaları tek panelden izlenen arşivci web tarayıcısı. wget gibi araçlardan farkı dinamik yok sayma kuralları: tarama sürerken tuzağa düşüren desenleri anında dışlayıp büyük siteleri düzgün arşivleyebiliyorsun.",
+    "en": "An archivist’s web crawler with WARC output and a dashboard for all crawls. Unlike tools like wget it has dynamic ignore rules: you exclude trap patterns mid-crawl, so large sites archive cleanly.",
+    "src": "lowkwiki"
+  },
+  {
+    "url": "https://www.chiark.greenend.org.uk/~sgtatham/bugs.html",
+    "name": "Hata Nasıl Bildirilir",
+    "tags": [
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Etkili hata raporu yazmanın klasik metni; PuTTY’nin yazarından. Açık kaynak projelere katkı verecek herkesin bir kez okuması gereken kısa bir yazı.",
+    "en": "The classic text on writing an effective bug report, from PuTTY’s author — a short piece worth reading once by anyone contributing to open source.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.h-schmidt.net/FloatConverter/IEEE754.html",
+    "name": "IEEE-754 Converter",
+    "tags": [
+      "tarayıcı-içi",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Ondalık sayı ile IEEE-754 kayan nokta gösterimi arasında iki yönlü dönüştürücü; bitleri tek tek çevirebiliyorsun. Hesap makinesinden farkı yuvarlama hatasının nereden geldiğini göstermesi — 0.1 + 0.2 sorusunun cevabı burada görünüyor.",
+    "en": "A two-way converter between decimal and IEEE-754 floating point, with individual bits toggleable. Against a calculator it shows where the rounding error comes from — this is where the 0.1 + 0.2 question is actually answered.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://www.infoq.com/presentations/",
+    "name": "InfoQ Presentations",
+    "tags": [
+      "video",
+      "sistem-tasarımı",
+      "ücretsiz"
+    ],
+    "tr": "Yazılım konferanslarından seçilmiş sunumların video arşivi; çoğunda yazıya dökülmüş metin de var. YouTube’dan farkı küratörlü ve aranabilir olması — konu ve seviyeye göre süzülüyor.",
+    "en": "A video archive of selected talks from software conferences, most with a transcript. Against YouTube it is curated and searchable, filterable by subject and level.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://standardjs.com",
+    "name": "JavaScript Standard Style",
+    "tags": [
+      "ücretsiz",
+      "javascript",
+      "referans"
+    ],
+    "tr": "Yapılandırma dosyası olmayan JavaScript biçimlendirici; tartışmayı bitirmek için tüm kararları kendisi veriyor. Airbnb’nin esnekliğinin karşı kutbu.",
+    "en": "A JavaScript formatter with no configuration file — it makes every decision for you to end the argument. The opposite pole from Airbnb’s flexibility.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://launchpad.net",
+    "name": "Launchpad",
+    "tags": [
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Canonical’ın proje barındırma ve hata takip platformu; Ubuntu paketlerinin hata kayıtları burada tutuluyor.",
+    "en": "Canonical’s project hosting and bug tracker — where Ubuntu package bug reports live.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://lawsofux.com/",
+    "name": "Laws of UX",
+    "tags": [
+      "referans",
+      "ücretsiz",
+      "frontend"
+    ],
+    "tr": "Fitts, Hick, Jakob gibi arayüz tasarımını yöneten psikoloji yasalarının kısa ve görsel derlemesi. Akademik kaynaklardan farkı her yasayı tek ekranda örnekle anlatması — tasarım tartışmasında ortak dil kurmak için.",
+    "en": "A short, visual collection of the psychological laws that govern interface design — Fitts, Hick, Jakob and the rest. Unlike the academic sources, each law fits on one screen with an example, which makes it a shared vocabulary for design arguments.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://learnmeabitcoin.com/",
+    "name": "Learn Me a Bitcoin",
+    "tags": [
+      "öğretici",
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Bitcoin’in teknik işleyişini — işlem yapısı, betik dili, madencilik — örneklerle anlatan site. Beyaz bültenden farkı somut olması: gerçek işlemleri baytına kadar açıp gösteriyor.",
+    "en": "Explains Bitcoin’s technical workings — transaction structure, script, mining — through worked examples. Against the whitepaper it is concrete: real transactions pulled apart byte by byte.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://learnvim.irian.to/",
+    "name": "Learn Vim",
+    "tags": [
+      "kitap",
+      "cli",
+      "ücretsiz"
+    ],
+    "tr": "Vim’i tuş dizisi ezberleterek değil, dilbilgisi olarak öğreten çevrimiçi kitap: eylem + hareket + metin nesnesi. Kopya kâğıtlarından farkı bu — komutları ezberlemek yerine yeni kombinasyonlar türetmeyi öğreniyorsun.",
+    "en": "An online book that teaches Vim as a grammar — verb plus motion plus text object — rather than as key sequences to memorise. That is the break from cheat sheets: you learn to derive new combinations instead of recalling old ones.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://learnvimscriptthehardway.stevelosh.com",
+    "name": "Learn Vimscript the Hard Way",
+    "tags": [
+      "kitap",
+      "cli",
+      "ücretsiz"
+    ],
+    "tr": "Vim’i yapılandırmak ve eklenti yazmak için Vimscript öğreten kitap. Vim kullanım rehberlerinden farkı editörü kullanmayı değil programlamayı anlatması — `.vimrc`’in ötesine geçmek isteyenler için.",
+    "en": "A book teaching Vimscript for configuring Vim and writing plugins. Unlike Vim usage guides it is about programming the editor rather than using it — for going past `.vimrc`.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://learnxinyminutes.com/",
+    "name": "Learn X in Y Minutes",
+    "tags": [
+      "ücretsiz",
+      "kopya-kâğıdı"
+    ],
+    "tr": "Bir dili tek yorumlu kod dosyasıyla tanıtıyor. Başka dil bilenler için en hızlı geçiş yolu: kavramları değil yalnızca sözdizimi farklarını okuyorsun.",
+    "en": "Introduces a language through a single annotated file. The fastest crossover if you already know another language — you read only the syntax differences, not the concepts.",
+    "src": "kedi",
+    "added": 1787182770
+  },
+  {
+    "url": "https://www.libhunt.com/",
+    "name": "LibHunt",
+    "tags": [
+      "açık-kaynak",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Kütüphaneleri karşılaştıran ve alternatiflerini gösteren dizin; etkinlik ve popülerlik eğilimini birlikte veriyor. Awesome listelerinden farkı verinin güncel olması — proje yavaşladığında grafikte görünüyor.",
+    "en": "A directory that compares libraries and shows their alternatives, with activity and popularity trends side by side. Against awesome lists the data is live — when a project slows down, the graph says so.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://libraries.io/",
+    "name": "Libraries.io",
+    "tags": [
+      "referans",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Otuzdan fazla paket yöneticisini tek yerde arayan dizin; bir kütüphanenin bağımlılıklarını ve ona bağımlı olanları gösteriyor. npm veya PyPI aramasından farkı ekosistemler arası olması ve terk edilmişlik sinyali vermesi.",
+    "en": "A directory searching more than thirty package managers at once, showing a library’s dependencies and its dependents. Against searching npm or PyPI directly it spans ecosystems and surfaces abandonment signals.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "http://literateprogramming.com/",
+    "name": "Literate Programming",
+    "tags": [
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Knuth’un kodu düzyazıyla iç içe yazma fikrinin arşivi. Jupyter not defterlerinin ve bugünkü “açıklanabilir kod” tartışmasının kökeni buraya çıkıyor.",
+    "en": "The archive of Knuth’s idea of writing code interwoven with prose — the root of Jupyter notebooks and today’s arguments about explainable code.",
+    "src": "kedi",
+    "added": 1787182724
+  },
+  {
+    "url": "https://github.com/LuNiZz?tab=repositories",
+    "name": "LuNiZz Depoları",
+    "tags": [
+      "github",
+      "türkçe",
+      "güvenlik"
+    ],
+    "tr": "Türkçe güvenlik ve bilişim içerikleri üreten bir geliştiricinin depoları; yerel kaynak arayanlar için toplu bir giriş noktası.",
+    "en": "The repositories of a developer producing Turkish security and IT material — a single entry point for local resources.",
+    "src": "kedi",
+    "added": 1753809524
+  },
+  {
+    "url": "https://anvaka.github.io/map-of-github/",
+    "name": "Map of GitHub",
+    "tags": [
+      "github",
+      "interaktif",
+      "ücretsiz"
+    ],
+    "tr": "GitHub depolarını yıldız benzerliğine göre kümeleyip harita gibi gezilebilir hâle getiren görselleştirme. Konuya göre aramadan farkı komşuluğu göstermesi — bir projeyi beğenenlerin başka neyi yıldızladığı topografya olarak çıkıyor.",
+    "en": "A visualisation clustering GitHub repositories by star similarity into a browsable map. Against topic search it shows adjacency: what else the people who starred one project starred, laid out as terrain.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://www.markdownguide.org/",
+    "name": "Markdown Guide",
+    "tags": [
+      "referans",
+      "dokümantasyon",
+      "ücretsiz"
+    ],
+    "tr": "README ve belge biçimlemede kullanılan Markdown dilinin kapsamlı rehberi.",
+    "en": "A comprehensive guide to Markdown, used for formatting READMEs and docs.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://guides.github.com/features/mastering-markdown/",
+    "name": "Mastering Markdown",
+    "tags": [
+      "dokümantasyon",
+      "github",
+      "ücretsiz",
+      "kopya-kâğıdı"
+    ],
+    "tr": "GitHub’ın kendi Markdown lehçesinin resmî özeti: tablolar, görev listeleri, kod blokları, bahsetmeler. Genel Markdown referanslarından farkı GitHub’a özgü eklentileri kapsaması — README yazarken doğru kaynak bu.",
+    "en": "GitHub’s official summary of its own Markdown dialect: tables, task lists, code fences, mentions. Against a general Markdown reference it covers the GitHub-specific extensions, which is what a README actually renders with.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://github.com/RichardLitt/meta-knowledge",
+    "name": "meta-knowledge",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "referans"
+    ],
+    "tr": "Bilgi depoları hakkında bir liste — yani listelerin ve kişisel wiki’lerin listesi. Konu listelerinden farkı bir üst katman olması: “insanlar bilgiyi nasıl saklıyor” sorusuna örnek arıyorsan giriş noktan burası.",
+    "en": "A list about knowledge repositories — a list of lists and personal wikis. Unlike topic lists it sits one layer up: if you are looking for examples of how people store knowledge, this is the entry point.",
+    "src": "lowkwiki"
+  },
+  {
+    "url": "https://fellowship.mlh.io/",
+    "name": "MLH Fellowship",
+    "tags": [
+      "açık-kaynak",
+      "müfredat",
+      "ücretsiz"
+    ],
+    "tr": "Uzaktan, takım hâlinde açık kaynak katkısı yaptıran burslu program. Google Summer of Code’dan farkı takım çalışması ve mentorluğun yapılandırılmış olması — tek başına değil ekiple çalışıyorsun.",
+    "en": "A funded remote programme where you contribute to open source in a team. Against Google Summer of Code the teamwork and mentorship are structured — you work with a group rather than alone.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://ohshitgit.com/",
+    "name": "Oh Shit, Git!?!",
+    "tags": [
+      "git",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Git’te bir şeyi bozduğunda nasıl geri alacağını anlatan kısa rehber; her başlık gerçek bir panik anıyla açılıyor. Resmî belgelerden farkı komuttan değil durumdan başlaması — \"yanlış dala commit attım\" diye arıyorsun, `reflog` diye değil.",
+    "en": "A short guide to undoing whatever you just broke in Git, each entry opening on a real moment of panic. Against the official docs it starts from the situation rather than the command — you search \"committed to the wrong branch\", not `reflog`.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://opensource.guide/",
+    "name": "Open Source Guides",
+    "tags": [
+      "açık-kaynak",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "GitHub’ın açık kaynak rehberleri: proje başlatma, katkı alma, topluluk yönetme, tükenmişlikle başa çıkma. Lisans ya da araç rehberlerinden farkı sosyal tarafı ele alması — kodun değil, projenin sürdürülebilirliği.",
+    "en": "GitHub’s guides to open source: starting a project, taking contributions, running a community, handling burnout. Unlike licence or tooling guides it deals with the social side — the sustainability of the project rather than the code.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://opensource.com",
+    "name": "Opensource.com",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Açık kaynak kültürü, araçları ve yönetişimi üzerine yazı arşivi; Red Hat destekliyor. Teknik bloglardan farkı lisans, topluluk ve kurumsal benimseme gibi konulara girmesi.",
+    "en": "An archive of writing on open-source culture, tooling and governance, supported by Red Hat. Against technical blogs it goes into licensing, community and institutional adoption.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://oss.gallery/",
+    "name": "OSS Gallery",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Açık kaynak projelerin topluluk tarafından derlenen vitrini; her kayıt canlı demo ve depo bağlantısıyla. Awesome listelerinden farkı görsel olması — ne yaptığını okumadan önce görüyorsun.",
+    "en": "A crowdsourced showcase of open-source projects, each with a live demo and repository link. Against awesome lists it is visual — you see what a thing does before reading about it.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://ossinsight.io/",
+    "name": "OSSInsight",
+    "tags": [
+      "github",
+      "veri-bilimi",
+      "interaktif",
+      "ücretsiz"
+    ],
+    "tr": "10 milyardan fazla GitHub olayını gerçek zamanlı analiz eden açık kaynak istatistik platformu; depoları yıldız, commit ve katkıcı sağlığına göre karşılaştırıyor. Yıldız sayısına bakmaktan farkı derin metrik vermesi: bir projenin gerçekten canlı mı yoksa sadece popüler mi olduğunu ölçebiliyorsun.",
+    "en": "An open-source analytics platform that analyses 10B+ GitHub events in real time, comparing repositories by stars, commits and contributor health. Unlike glancing at a star count it gives deep metrics: you can measure whether a project is genuinely alive or merely popular.",
+    "src": "lowkwiki"
+  },
+  {
+    "url": "https://overapi.com",
+    "name": "OverAPI",
+    "tags": [
+      "ücretsiz",
+      "kopya-kâğıdı"
+    ],
+    "tr": "Dil ve çatı kopya kâğıtlarını tek sayfada toplayan dizin; görsel olarak yoğun ama aradığını hızlı buluyorsun.",
+    "en": "A directory gathering language and framework cheat sheets on one page — visually dense, but you find things fast.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://github.com/sdmg15/Best-websites-a-programmer-should-visit",
+    "name": "Programcının Ziyaret Etmesi Gereken Siteler",
+    "tags": [
+      "github",
+      "awesome-liste",
+      "arşivlenmiş"
+    ],
+    "tr": "Kullanım amacına göre gruplanmış geliştirici bağlantı derlemesi: alıştırma, haber, araç, kitap. 76 bin yıldıza rağmen 1 Kasım 2025’te arşivlendi — artık salt okunur, ölü bağlantılar temizlenmiyor. Tarihsel bir kesit olarak değerli, güncel kaynak olarak değil.",
+    "en": "A developer link collection grouped by purpose — practice, news, tools, books. Despite 76k stars it was archived on 1 November 2025 and is now read-only, so dead links no longer get pruned. Valuable as a snapshot, not as a current source.",
+    "src": "kedi",
+    "added": 1787182872
+  },
+  {
+    "url": "https://en.wikipedia.org/wiki/Portal:Computer_programming",
+    "name": "Programlama Portalı",
+    "tags": [
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Programlama konularının Vikipedi giriş kapısı; kavram haritası çıkarmak için satıcı etkisinden uzak bir başlangıç.",
+    "en": "Wikipedia’s entry point for programming topics — a vendor-neutral start for mapping the concept space.",
+    "src": "kedi",
+    "added": 1753837676
+  },
+  {
+    "url": "https://www.programmingbooks.dev",
+    "name": "Programming Books",
+    "tags": [
+      "kitap",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Yazılım zanaatı üzerine okuma listesi; her kitap için neden okunması gerektiği yazılı. Ücretsiz kitap derlemelerinden farkı seçici olması — nicelik değil sıra öneriyor.",
+    "en": "A reading list on software craftsmanship with a reason attached to each book. Unlike the free-book compilations it is selective: it proposes an order rather than a quantity.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://github.com/wearehive/project-guidelines",
+    "name": "Project Guidelines",
+    "tags": [
+      "referans",
+      "github",
+      "backend",
+      "javascript"
+    ],
+    "tr": "Bir yazılım projesini yürütmek için toplanmış en iyi uygulamalar seti.",
+    "en": "A set of best practices for running a software project.",
+    "src": "velvia"
+  },
+  {
+    "url": "https://ufal.github.io/public-license-selector/",
+    "name": "Public License Selector",
+    "tags": [
+      "açık-kaynak",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Sorulara verdiğin cevaplara göre uygun lisansı öneren araç; yazılım, veri ve içerik için ayrı akışlar var. choosealicense.com’dan farkı veri kümesi ve içerik lisanslarını da kapsaması — CC lisansları arasında seçim yapmak için.",
+    "en": "Recommends a licence from your answers to a series of questions, with separate flows for software, data and content. Against choosealicense.com it also covers datasets and content, which is what you need when choosing among the CC licences.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://www.pythoncheatsheet.org/",
+    "name": "Python Cheatsheet",
+    "tags": [
+      "kopya-kâğıdı",
+      "python",
+      "ücretsiz"
+    ],
+    "tr": "\"Automate the Boring Stuff\" kitabına dayanan Python referansı; temel söz diziminden standart kütüphaneye. Resmî belgelerden farkı örnek ağırlıklı olması — sözdizimini hatırlamak için açılıyor, öğrenmek için değil.",
+    "en": "A Python reference based on \"Automate the Boring Stuff\", covering syntax through the standard library. Against the official documentation it leans on examples — you open it to recall syntax, not to learn it.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://jakevdp.github.io/PythonDataScienceHandbook/",
+    "name": "Python Data Science Handbook",
+    "tags": [
+      "ücretsiz",
+      "kitap",
+      "python",
+      "veri-bilimi"
+    ],
+    "tr": "NumPy, pandas, Matplotlib ve scikit-learn’ü kapsayan ücretsiz kitap; tamamı çalıştırılabilir Jupyter defterleri olarak yayımlanmış.",
+    "en": "A free book covering NumPy, pandas, Matplotlib and scikit-learn, published entirely as runnable Jupyter notebooks.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://quickref.me/index.html",
+    "name": "QuickRef",
+    "tags": [
+      "ücretsiz",
+      "kopya-kâğıdı"
+    ],
+    "tr": "Dil ve araçlar için tek sayfalık başvuru kâğıtları; sık kullanılanı öne alıyor. Tam dokümantasyon aramanın hantal kaldığı durumlar için.",
+    "en": "One-page cheat sheets for languages and tools, surfacing the common cases — for when reaching into full documentation is too slow.",
+    "src": "kedi",
+    "added": 1775420597
+  },
+  {
+    "url": "https://relatedrepos.com/",
+    "name": "Related Repos",
+    "tags": [
+      "github",
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Bir GitHub deposuna benzeyen projeleri bulan araç. GitHub’ın kendi \"benzer depolar\" önerisinden farkı yıldız örtüşmesine bakması — konu etiketi yanlış girilmiş projeleri de yakalıyor.",
+    "en": "Finds projects similar to a given GitHub repository. Against GitHub’s own suggestions it works from star overlap, so it also surfaces projects whose topic tags were filled in badly.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://github.com/bbatsov/ruby-style-guide",
+    "name": "Ruby Üslup Kılavuzu",
+    "tags": [
+      "github",
+      "referans"
+    ],
+    "tr": "Topluluk tarafından yazılmış Ruby üslup kılavuzu; RuboCop aracının varsayılan kural setinin temeli.",
+    "en": "A community-written Ruby style guide that forms the basis of RuboCop’s default rule set.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://github.com/rust-dev-tools/fmt-rfcs",
+    "name": "Rust Biçimlendirme Kuralları",
+    "tags": [
+      "github",
+      "rust",
+      "referans"
+    ],
+    "tr": "rustfmt’in uyguladığı biçimlendirme kararlarının gerekçeleriyle tartışıldığı depo; aracın neden öyle davrandığını buradan öğreniyorsun.",
+    "en": "The repository where rustfmt’s formatting decisions are debated with their reasoning — where you learn why the tool behaves as it does.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://github.com/KasperZutterman/Second-Brain",
+    "name": "Second-Brain",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "referans"
+    ],
+    "tr": "Herkese açık Zettelkasten’ler, “ikinci beyin”ler ve dijital bahçelerin derli toplu listesi. Genel not alma listelerinden farkı örnek toplaması: teoriden çok, insanların gerçekten yayımladığı bilgi kasalarını gezip görebiliyorsun.",
+    "en": "A curated list of public Zettelkastens, “second brains” and digital gardens. Unlike general note-taking lists it collects examples: rather than theory, you can browse the knowledge vaults people have actually published.",
+    "src": "lowkwiki"
+  },
+  {
+    "url": "https://github.com/PaulJerimy/SecCertRoadmapHTML",
+    "name": "Security Cert Roadmap (kaynak)",
+    "tags": [
+      "sertifika",
+      "github",
+      "açık-kaynak"
+    ],
+    "tr": "Yol haritasının HTML kaynağı, CC BY-SA lisanslı. Görselin kendisinden farkı veriyi ayıklanabilir hâlde vermesi — kendi listeni türetmek ya da kapsamı denetlemek için. Son güncelleme Ağustos 2024, yani tabloda o tarihten sonraki sertifikalar yok.",
+    "en": "The roadmap’s HTML source under CC BY-SA. Against the image itself it hands you the data in extractable form, for deriving your own list or auditing the coverage. Last updated August 2024, so anything newer is missing from the chart.",
+    "src": "seccert"
+  },
+  {
+    "url": "https://shields.io/",
+    "name": "Shields.io",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "ücretsiz"
+    ],
+    "tr": "README rozetleri üreten servis: derleme durumu, sürüm, indirme sayısı, lisans. Elle SVG hazırlamaktan farkı canlı veriye bağlanabilmesi — rozet npm sürümünü ya da CI durumunu kendisi çekiyor.",
+    "en": "Generates README badges: build status, version, downloads, licence. Against hand-made SVGs they bind to live data — the badge fetches the npm version or CI status itself.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://shipx.substack.com/",
+    "name": "ShipX",
+    "tags": [
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Teknoloji ve ürün üzerine bülten; günlük haber akışına karşı seçilmiş ve yorumlanmış içerik.",
+    "en": "A newsletter on technology and product — curated, interpreted content against the daily feed.",
+    "src": "kedi",
+    "added": 1779250547
+  },
+  {
+    "url": "https://sourceforge.net",
+    "name": "SourceForge",
+    "tags": [
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Açık kaynak projelerin eski dağıtım platformu; GitHub öncesinin arşivi. Hâlâ bakılıyor çünkü bazı eski projelerin tek kaynağı burası.",
+    "en": "The older distribution platform for open-source projects and an archive of the pre-GitHub era. Still consulted because some old projects exist nowhere else.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://sourcegraph.com/search",
+    "name": "Sourcegraph",
+    "tags": [
+      "github",
+      "referans",
+      "freemium"
+    ],
+    "tr": "Açık kaynak depolarda kod araması; düzenli ifade ve yapısal sorgu destekliyor. GitHub aramasından farkı depo sınırı olmadan tüm ekosistemde arayabilmesi — bir API’nin gerçek dünyada nasıl çağrıldığını görmek için.",
+    "en": "Code search across open-source repositories, with regular expressions and structural queries. Against GitHub search it spans the ecosystem rather than one repository — the way to see how an API is actually called in the wild.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://sourcemaking.com/",
+    "name": "SourceMaking",
+    "tags": [
+      "ücretsiz",
+      "sistem-tasarımı",
+      "referans"
+    ],
+    "tr": "Tasarım desenleri, kod kokuları ve yeniden düzenleme tekniklerini örneklerle anlatan referans. Refactoring Guru’nun yanında ikinci bakış olarak işe yarıyor.",
+    "en": "A reference covering design patterns, code smells and refactoring techniques with examples — useful as a second opinion alongside Refactoring Guru.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://speaking.io/",
+    "name": "speaking.io",
+    "tags": [
+      "referans",
+      "ücretsiz",
+      "kitap"
+    ],
+    "tr": "Teknik konuşma hazırlamak ve sunmak üzerine rehber: içerik kurma, slayt tasarımı, sahne korkusu. Genel sunum tavsiyelerinden farkı geliştirici konferanslarına özgü olması — canlı demo riski gibi konular ele alınıyor.",
+    "en": "A guide to preparing and delivering technical talks: structuring content, slide design, stage fright. Against general presentation advice it is specific to developer conferences — the risk of a live demo gets its own treatment.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://speedsheet.io/",
+    "name": "Speedsheet",
+    "tags": [
+      "referans",
+      "python",
+      "interaktif"
+    ],
+    "tr": "Aramaya göre daralan etkileşimli Python referansı; yazdıkça ilgili bölüm açılıyor. Statik kopya kâğıtlarından farkı bu — sayfada göz gezdirmek yerine aradığını yazıyorsun.",
+    "en": "An interactive Python reference that narrows as you search, opening the relevant section as you type. That is the break from a static cheat sheet: you type what you need rather than scanning a page.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://survey.stackoverflow.co/",
+    "name": "Stack Overflow Survey",
+    "tags": [
+      "referans",
+      "veri-bilimi",
+      "ücretsiz"
+    ],
+    "tr": "Geliştiricilerin araç, dil ve maaş eğilimlerini gösteren yıllık büyük anket.",
+    "en": "The annual large survey of developers’ tool, language and salary trends.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://github.com/maguowei/starred",
+    "name": "starred",
+    "tags": [
+      "github",
+      "otomasyon",
+      "açık-kaynak",
+      "cli"
+    ],
+    "tr": "GitHub yıldızlarını dile göre gruplanmış awesome-liste biçiminde otomatik üreten araç. Elle liste tutmaktan farkı kendini güncellemesi: yıldızladıkça listen bir iş akışıyla tazeleniyor (bu dizindeki lowkenuinely-wikis kaynağı da bununla üretildi).",
+    "en": "A tool that automatically generates an awesome-list from your GitHub stars, grouped by language. Unlike keeping a list by hand it updates itself: as you star, a workflow refreshes the list (the lowkenuinely-wikis source in this directory was built with it).",
+    "src": "lowkwiki"
+  },
+  {
+    "url": "https://aosabook.org/en/index.html",
+    "name": "The Architecture of Open Source Applications",
+    "tags": [
+      "kitap",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Açık kaynak projelerin mimarisini geliştiricilerinin kendi kalemiyle anlatan kitap serisi. Kaynak kodu okumaktan farkı hangi kararın neden alındığını ve neyin yanlış gittiğini öğrenmen — mimari kararların gerekçesi kodda yazmıyor.",
+    "en": "A book series in which the developers of open-source projects describe their own architecture. Against reading the source you learn which decisions were taken and why, and what went wrong — the rationale is never in the code.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://graphql.guide",
+    "name": "The GraphQL Guide",
+    "tags": [
+      "freemium",
+      "kitap",
+      "api"
+    ],
+    "tr": "GraphQL’i istemci ve sunucu tarafıyla birlikte anlatan kitap; resmî spesifikasyonun atladığı üretim pratiklerine giriyor.",
+    "en": "A book covering GraphQL from both client and server side, reaching into the production practices the spec leaves out.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://natureofcode.com/",
+    "name": "The Nature of Code",
+    "tags": [
+      "ücretsiz",
+      "kitap",
+      "interaktif"
+    ],
+    "tr": "Doğal sistemleri (kuvvet, parçacık, sürü davranışı, hücresel otomat) kodla simüle etmeyi anlatan ücretsiz kitap. Matematiği etkileşimli örneklerle veriyor, formül yığını değil.",
+    "en": "A free book on simulating natural systems in code — forces, particles, flocking, cellular automata — delivering the maths through interactive examples rather than a pile of formulas.",
+    "src": "kedi",
+    "added": 1786615701
+  },
+  {
+    "url": "https://www.youtube.com/user/ThoughtbotVideo/videos",
+    "name": "thoughtbot",
+    "tags": [
+      "video",
+      "ücretsiz",
+      "sistem-tasarımı"
+    ],
+    "tr": "Bir yazılım danışmanlığının kayıtları: eşli programlama oturumları, kod incelemeleri, tasarım tartışmaları. Öğretici kanallardan farkı gerçek işin kaydı olması — hazırlanmış ders değil, çalışan insanlar.",
+    "en": "Recordings from a software consultancy: pair programming sessions, code reviews, design discussions. Unlike tutorial channels this is a record of real work — people working, not a prepared lesson.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://tldr.sh",
+    "name": "tldr pages",
+    "tags": [
+      "cli",
+      "kopya-kâğıdı",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Komut satırı araçları için topluluk tarafından sadeleştirilmiş, örnek ağırlıklı man sayfaları.",
+    "en": "Community-simplified, example-first man pages for command-line tools.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://www.trackawesomelist.com/",
+    "name": "Track Awesome List",
+    "tags": [
+      "referans",
+      "awesome-liste",
+      "otomasyon",
+      "ücretsiz"
+    ],
+    "tr": "500’den fazla awesome listesini izleyip günlük eklenenleri gösteren, RSS ile takip edilebilen servis. Listeyi yıldızlamaktan farkı değişimi göstermesi: koca listeyi baştan taramadan yalnızca yeni girişleri görüyorsun.",
+    "en": "A service that tracks 500+ awesome lists and shows what was added daily, followable by RSS. Unlike starring a list it shows the change: you see only the new entries without re-scanning the whole list.",
+    "src": "lowkwiki"
+  },
+  {
+    "url": "https://www.tutorialspoint.com/index.htm",
+    "name": "TutorialsPoint",
+    "tags": [
+      "referans",
+      "öğretici",
+      "ücretsiz"
+    ],
+    "tr": "Yüzlerce teknoloji için kısa öğretici serileri. GeeksforGeeks’ten farkı konu başına düzenli bir sıra izlemesi; karşılığında derinliği sınırlı — bir teknolojiye hızlı bakış için uygun, ustalaşmak için değil.",
+    "en": "Short tutorial series for hundreds of technologies. Against GeeksforGeeks it follows an orderly sequence per subject; the trade is limited depth — good for a first look at a technology, not for mastering one.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://github.com/uber-go/guide",
+    "name": "Uber Go Üslup Kılavuzu",
+    "tags": [
+      "github",
+      "go",
+      "referans"
+    ],
+    "tr": "Go’da üretim kodu yazarken karşılaşılan tuzakları ve tercih edilen kalıpları derliyor; resmî Effective Go’nun bıraktığı yerden devam ediyor.",
+    "en": "Collects the traps and preferred patterns of writing production Go, picking up where the official Effective Go leaves off.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://up-for-grabs.net",
+    "name": "Up For Grabs",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "ücretsiz"
+    ],
+    "tr": "Yeni katkıcılar için ayrılmış issue’ları olan projeleri listeliyor. GitHub’ta etiket aramaktan farkı projelerin bu iş için gönüllü olması — issue’yu açan kişi zaten birinin gelmesini bekliyor.",
+    "en": "Lists projects that set aside issues for new contributors. Against searching labels on GitHub the projects here opted in — whoever opened the issue is already waiting for someone to take it.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://vimawesome.com/",
+    "name": "Vim Awesome",
+    "tags": [
+      "referans",
+      "cli",
+      "ücretsiz"
+    ],
+    "tr": "Vim ve Neovim eklentilerinin dizini; popülerlik, kategori ve kurulum yöntemine göre süzülüyor. GitHub aramasından farkı eklentilerin bakım durumunu ve kurulum satırını hazır vermesi.",
+    "en": "A directory of Vim and Neovim plugins, filterable by popularity, category and install method. Against searching GitHub it surfaces maintenance status and hands you the install line.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://vim.rtorr.com",
+    "name": "Vim Cheat Sheet",
+    "tags": [
+      "kopya-kâğıdı",
+      "cli",
+      "ücretsiz"
+    ],
+    "tr": "Vim komutlarının kategorilere ayrılmış tek sayfalık listesi; on kadar dile çevrilmiş. `vimtutor`dan farkı öğretmemesi, hatırlatması — Vim kullanmaya başladıktan sonraki ay açık tuttuğun sekme.",
+    "en": "A one-page list of Vim commands grouped by category, translated into a dozen languages. Unlike `vimtutor` it does not teach, it reminds — the tab you keep open during your second month of Vim.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://www.w3schools.com/",
+    "name": "W3Schools",
+    "tags": [
+      "ücretsiz",
+      "referans",
+      "öğretici"
+    ],
+    "tr": "Denenebilir örnekli web referansı. MDN kadar kesin değil ve zaman zaman güncelliğini yitiriyor, ama “Try it” düzenleyicisi başlangıçta gerçek bir avantaj.",
+    "en": "A web reference with runnable examples. Less rigorous than MDN and occasionally out of date, though the “Try it” editor is a genuine advantage early on.",
+    "src": "kedi",
+    "added": 1772025116
+  },
+  {
+    "url": "https://www.w3schools.com/c/ref_math_sqrt.php",
+    "name": "W3Schools C Referansı",
+    "tags": [
+      "ücretsiz",
+      "c-ailesi",
+      "referans"
+    ],
+    "tr": "C standart kütüphane fonksiyonlarının kısa ve örnekli referansı; hızlı kullanım örneği aradığında man sayfasından pratik.",
+    "en": "A short, example-driven reference for C standard library functions — handier than a man page when you just want a usage example.",
+    "src": "kedi",
+    "added": 1764146375
+  },
+  {
+    "url": "https://github.com/WikiTeam/wikiteam",
+    "name": "WikiTeam",
+    "tags": [
+      "arşivlenmiş",
+      "github",
+      "python",
+      "cli"
+    ],
+    "tr": "MediaWiki wiki’lerini indirip arşivleyen araç takımı; 600.000’den fazla wiki korunmuş. Genel site kopyalayıcılardan farkı wiki’ye özel olması: sayfa geçmişi ve medya dâhil tam döküm alıyor, HTML kabuğunu değil.",
+    "en": "A toolset that downloads and archives MediaWiki wikis — 600,000+ preserved. Unlike general site copiers it is wiki-specific: it takes a full dump including page history and media, not just the HTML shell.",
+    "src": "lowkwiki"
+  },
+  {
+    "url": "https://c9x.me/x86/",
+    "name": "x86 Instruction Set Reference",
+    "tags": [
+      "referans",
+      "gömülü",
+      "ücretsiz"
+    ],
+    "tr": "x86 komut kümesinin aranabilir referansı; her komut için kodlama, bayraklar ve sözde kod. Intel’in PDF kılavuzlarından farkı hızlı olması — bir komutu doğrulamak için 5000 sayfalık PDF açmıyorsun.",
+    "en": "A searchable reference for the x86 instruction set with encoding, flags and pseudocode per instruction. Against Intel’s PDF manuals it is simply fast — you no longer open a 5,000-page document to check one opcode.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "http://www.shedai.net/",
+    "name": "Şadi Evren Şeker",
+    "tags": [
+      "ücretsiz",
+      "türkçe",
+      "akademik"
+    ],
+    "tr": "Türkçe bilgisayar mühendisliği ders notları ve terim açıklamaları arşivi. Veri yapıları ve algoritma konularında yerel kaynak kıtlığını kısmen kapatıyor.",
+    "en": "An archive of Turkish computer engineering lecture notes and term explanations, partly filling the local shortage on data structures and algorithms.",
+    "src": "kedi",
+    "added": 1756374919
+  }
+]

@@ -1,0 +1,434 @@
+[
+  {
+    "url": "https://www.mongodb.com/products/platform/atlas-vector-search",
+    "name": "Atlas Vector Search",
+    "tags": [
+      "ücretli",
+      "vektör-db",
+      "veritabanı"
+    ],
+    "tr": "Vektör indeksi belgelerin yanında duruyor, ayrı bir depoya kopyalama ve senkron tutma derdi kalkıyor. Yalnızca Atlas’ta, kendi kurduğun MongoDB’de yok.",
+    "en": "The vector index sits beside your documents, removing the copy-and-sync burden of a separate store. Atlas only — it is not in a self-managed MongoDB.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://huggingface.co/BAAI",
+    "name": "BGE Modelleri",
+    "tags": [
+      "açık-ağırlık",
+      "embedding"
+    ],
+    "tr": "Açık gömme modellerinin en yaygın ailesi. MTEB sıralamasında ücretli API’lere yakın duruyor ve çoğu sürüm MIT lisanslı, yani ticari kullanımda engel yok.",
+    "en": "The most widely used family of open embedding models. It sits close to paid APIs on the MTEB leaderboard and most releases are MIT, so commercial use is unblocked.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://www.trychroma.com/",
+    "name": "Chroma",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "vektör-db",
+      "gömülü"
+    ],
+    "tr": "Uygulamanın içine gömülü çalışıyor, sunucu süreci yok — `pip install` sonrası kullanmaya başlıyorsun. Prototip için en hızlısı, üretim ölçeğinde başkasına devretmen gerekiyor.",
+    "en": "Runs embedded in your application with no server process — usable straight after `pip install`. Fastest for a prototype; at production scale you will hand off to something else.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://cohere.com/embed",
+    "name": "Cohere Embed",
+    "tags": [
+      "api",
+      "ücretli",
+      "embedding"
+    ],
+    "tr": "100’den fazla dili tek vektör uzayında temsil ediyor; Türkçe sorguyla İngilizce belge bulmak mümkün. Sorgu ve belge için ayrı giriş tipi almasi eşleşme kalitesini artırıyor.",
+    "en": "Represents 100+ languages in one vector space, so a Turkish query can retrieve an English document. Taking separate input types for query and document lifts match quality.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://www.elastic.co/elasticsearch",
+    "name": "Elasticsearch",
+    "tags": [
+      "freemium",
+      "rag",
+      "kuantum"
+    ],
+    "tr": "BM25 anahtar kelime aramasıyla vektör aramasını tek sorguda birleştirip (hibrit arama) sonuçları RRF ile harmanlayabiliyor. Saf vektör veritabanlarının eksiği tam olarak bu ilk yarı.",
+    "en": "Combines BM25 keyword search with vector search in a single query and fuses the results with RRF. That keyword half is exactly what pure vector databases lack.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://github.com/Graphify-Labs/graphify",
+    "name": "Graphify",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "sistem-tasarımı",
+      "rag"
+    ],
+    "tr": "Kod tabanını AST çözümlemesiyle gezip dokümanları, SQL şemalarını ve PDF’leri de katarak sorgulanabilir bir grafiğe çeviriyor. Kod asistanına bağlam beslemek için tasarlanmış.",
+    "en": "Walks a codebase via AST analysis and folds in docs, SQL schemas and PDFs to build a queryable graph. Designed to feed context to a coding agent.",
+    "src": "kedi",
+    "added": 1785304754
+  },
+  {
+    "url": "https://microsoft.github.io/graphrag/",
+    "name": "GraphRAG",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "rag"
+    ],
+    "tr": "Belgelerden varlık ve ilişki çıkarıp bilgi grafiği kuruyor, sonra topluluk özetleri üretiyor. “Bu külliyatın ana temaları neler” gibi bütüne dair sorular parça-getir yöntemiyle cevaplanamıyor; bu onun için var.",
+    "en": "Extracts entities and relations into a knowledge graph, then builds community summaries. Corpus-wide questions like “what are the main themes here” cannot be answered by chunk retrieval; this exists for those.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://haystack.deepset.ai/",
+    "name": "Haystack",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "rag",
+      "devops"
+    ],
+    "tr": "Bileşenleri açıkça birbirine bağlıyorsun; hattın hangi adımda ne yaptığı okunabilir kalıyor. Hata ayıklarken bu şeffaflık LangChain’in örtük akışına karşı gözle görülür bir kazanç.",
+    "en": "You wire components together explicitly, so what happens at each stage stays readable. When debugging, that transparency is a visible win over LangChain’s implicit flow.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://jina.ai",
+    "name": "Jina AI",
+    "tags": [
+      "rag",
+      "embedding",
+      "açık-kaynak"
+    ],
+    "tr": "Çok kipli gömme ve sinirsel arama altyapısı; belge ve görselleri vektörle aranır kılar.",
+    "en": "Multimodal embedding and neural-search infrastructure that makes documents and images searchable by vector.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://langchain-ai.github.io/langgraph/concepts/memory/",
+    "name": "LangGraph Memory",
+    "tags": [
+      "dokümantasyon",
+      "agent"
+    ],
+    "tr": "Kısa vadeli (thread içi durum) ve uzun vadeli (thread’ler arası store) belleğin ayrımını ve hangisinin ne zaman kullanılacağını anlatan kavram sayfası.",
+    "en": "The concept page separating short-term memory (in-thread state) from long-term (a cross-thread store), and when each applies.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://www.letta.com/",
+    "name": "Letta",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "agent"
+    ],
+    "tr": "MemGPT araştırmasının ürünleşmiş hâli. Bağlam penceresini işletim sistemi gibi yönetiyor: sıcak bilgiyi pencerede tutup gerisini harici depoya sayfalıyor.",
+    "en": "The productised form of the MemGPT research. It manages the context window like an operating system, keeping hot state in the window and paging the rest to external storage.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://www.llamaindex.ai/",
+    "name": "LlamaIndex",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "rag"
+    ],
+    "tr": "Belge yükleme, parçalama, indeksleme ve sorgu aşamalarının her birini ayrı ayrı değiştirilebilir kılıyor. Genel amaçlı bir çatı değil; alma (retrieval) hattını ince ayarlamak isteyen için tasarlanmış.",
+    "en": "Makes each stage — loading, chunking, indexing, querying — independently swappable. Not a general-purpose framework: it is built for someone tuning a retrieval pipeline.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://www.marqo.ai",
+    "name": "Marqo",
+    "tags": [
+      "rag",
+      "vektör-db",
+      "açık-kaynak"
+    ],
+    "tr": "Gömme üretiminden vektör aramaya kadar uçtan uca çalışan tek parça vektör arama motoru.",
+    "en": "An end-to-end vector search engine that handles everything from embedding generation to vector search.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://mem0.ai/",
+    "name": "Mem0",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "agent"
+    ],
+    "tr": "Konuşmadan çıkarılan olguları saklıyor, çelişenleri güncelliyor, alakasızları eliyor. Ham geçmişi biriktirmek yerine neyin hatırlanmaya değer olduğuna karar veren bir katman.",
+    "en": "Stores facts extracted from conversation, updates contradictions and drops the irrelevant. A layer that decides what is worth remembering instead of accumulating raw history.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://github.com/mem0ai/mem0",
+    "name": "Mem0 (kaynak)",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "python",
+      "agent"
+    ],
+    "tr": "Mem0’ın kendi altyapında çalıştırılabilen sürümü. Embedchain projesi de bu depoda birleşti, yani eski Embedchain bağlantıları buraya çıkıyor.",
+    "en": "The self-hostable version of Mem0. The Embedchain project was merged into this repository, so older Embedchain links land here.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://milvus.io/",
+    "name": "Milvus",
+    "tags": [
+      "açık-kaynak",
+      "vektör-db",
+      "docker",
+      "sistem-tasarımı"
+    ],
+    "tr": "Depolama ve hesaplamayı ayıran dağıtık mimari; milyar ölçekli koleksiyonlar için tasarlanmış. Kubernetes gerektiriyor, küçük projelerde kurulum maliyeti kazancından büyük.",
+    "en": "A distributed architecture separating storage from compute, built for billion-scale collections. It wants Kubernetes; on a small project the setup cost exceeds the gain.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://neo4j.com/",
+    "name": "Neo4j",
+    "tags": [
+      "freemium",
+      "veritabanı"
+    ],
+    "tr": "İlişkiler tabloda yabancı anahtar değil, birinci sınıf veri. Cypher sorgu diliyle çok adımlı ilişki gezinmeleri, SQL’de yazılacak iç içe JOIN’lere göre hem kısa hem hızlı.",
+    "en": "Relationships are first-class data, not foreign keys. Multi-hop traversals in Cypher are both shorter and faster than the nested JOINs the same question needs in SQL.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://platform.openai.com/docs/guides/embeddings",
+    "name": "OpenAI Embeddings",
+    "tags": [
+      "dokümantasyon",
+      "embedding",
+      "api"
+    ],
+    "tr": "text-embedding-3 ailesinin boyut, fiyat ve kullanım referansı. Matryoshka desteği sayesinde vektör boyutunu isteğe göre kısaltıp depolama maliyetini düşürebiliyorsun.",
+    "en": "Reference for the text-embedding-3 family — dimensions, pricing, usage. Matryoshka support lets you truncate vector dimensions on demand and cut storage cost.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://github.com/pgvector/pgvector",
+    "name": "pgvector",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "veritabanı",
+      "vektör-db"
+    ],
+    "tr": "PostgreSQL’e vektör tipi ve HNSW/IVFFlat indeksleri ekleyen uzantı. Vektörü ilişkisel veriyle aynı işlemde (transaction) tutabilmek ayrı bir sistem işletmeye bedel.",
+    "en": "An extension adding a vector type plus HNSW and IVFFlat indexes to PostgreSQL. Keeping vectors in the same transaction as relational data is worth a lot against running a second system.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://www.pinecone.io/",
+    "name": "Pinecone",
+    "tags": [
+      "ücretli",
+      "vektör-db"
+    ],
+    "tr": "Tam yönetilen vektör veritabanı; sunucusuz katmanında kapasite planlaması yapmıyorsun. İşletme yükü en düşük seçenek, buna karşılık verinin nerede durduğu üzerinde denetimin yok.",
+    "en": "A fully managed vector database whose serverless tier removes capacity planning. The lowest operational burden here, at the cost of control over where the data sits.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://www.postgresql.org/",
+    "name": "PostgreSQL",
+    "tags": [
+      "açık-kaynak",
+      "veritabanı"
+    ],
+    "tr": "JSONB, tam metin arama ve pgvector ile birlikte tek bir veritabanının üç ayrı sistemin işini görebildiği noktaya gelmiş durumda. Erken aşamada mimariyi ciddi ölçüde sadeleştiriyor.",
+    "en": "With JSONB, full-text search and pgvector it now does the work of three separate systems. Early on, that simplifies architecture considerably.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://qdrant.tech/",
+    "name": "Qdrant",
+    "tags": [
+      "açık-kaynak",
+      "rust",
+      "vektör-db"
+    ],
+    "tr": "Rust ile yazılmış; yüklü meta veri filtrelemesini vektör aramasıyla birlikte yürütüyor. Bellek ayak izi düşük olduğu için küçük bir VPS’te ciddi koleksiyon taşıyabiliyor.",
+    "en": "Written in Rust, executing heavy metadata filtering alongside the vector search itself. Its low memory footprint lets a small VPS carry a serious collection.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://docs.ragas.io/",
+    "name": "Ragas",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "gözlemlenebilirlik",
+      "rag"
+    ],
+    "tr": "RAG hatları için ölçüt kütüphanesi; referans cevap olmadan da çalışabilen metrikleri var. Sentetik test kümesi üretip değerlendirmeyi CI’ya bağlayabiliyorsun.",
+    "en": "A metrics library for RAG pipelines, including metrics that work without reference answers. It can generate a synthetic test set so evaluation runs in CI.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://ragflow.io/",
+    "name": "RAGFlow",
+    "tags": [
+      "açık-kaynak",
+      "self-hosted",
+      "rag",
+      "docker"
+    ],
+    "tr": "Derin belge ayrıştırma üstüne kurulu: karmaşık PDF düzenlerini, tabloları ve şekilleri tanıyıp anlamlı parçalara ayırıyor. Kütüphane değil, Docker ile kurduğun tam bir servis.",
+    "en": "Built on deep document parsing: it recognises complex PDF layouts, tables and figures before chunking. Not a library but a full service you stand up with Docker.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://github.com/evermind-ai/raven",
+    "name": "Raven",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "agent"
+    ],
+    "tr": "Bellek öncelikli agent koşum takımı; oturumlar arası öğrenmeyi ve kendi yapılandırmasını iyileştirmeyi merkeze alıyor.",
+    "en": "A memory-first agent harness centred on cross-session learning and refining its own configuration.",
+    "src": "kedi",
+    "added": 1787181448
+  },
+  {
+    "url": "https://redis.io/",
+    "name": "Redis",
+    "tags": [
+      "açık-kaynak",
+      "veritabanı"
+    ],
+    "tr": "Bellek içi veri yapısı deposu. YZ tarafında oturum durumu, hız sınırlama sayaçları ve yanıt önbelleği için kullanılıyor; vektör araması da modülle geliyor.",
+    "en": "An in-memory data structure store, used on the AI side for session state, rate-limit counters and response caching. Vector search arrives as a module.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://sbert.net/",
+    "name": "Sentence Transformers",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "embedding",
+      "self-hosted"
+    ],
+    "tr": "Gömme üretiminin standart Python kütüphanesi. Model yerelde çalışır, veri makineden çıkmaz, API faturası olmaz; karşılığında GPU ve bellek yönetimi sana kalır.",
+    "en": "The standard Python library for producing embeddings. Models run locally, data stays put and there is no API bill; in exchange GPU and memory management are yours.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://www.trulens.org/",
+    "name": "TruLens",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "gözlemlenebilirlik",
+      "rag"
+    ],
+    "tr": "RAG üçlemesini ölçüyor: bağlam alaka düzeyi, cevabın bağlama sadakati, cevabın soruya uygunluğu. Bu üçü ayrı ölçüldüğü için hatanın alma tarafında mı üretim tarafında mı olduğu ayrışıyor.",
+    "en": "Measures the RAG triad — context relevance, groundedness, answer relevance. Measuring them separately is what tells you whether the failure sits in retrieval or generation.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://unstructured.io/",
+    "name": "Unstructured",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "rag",
+      "veri-bilimi"
+    ],
+    "tr": "PDF, DOCX, HTML, e-posta ve sunumları ortak bir belge öğesi modeline indiriyor. RAG hatlarında en çok vakit yiyen ve en sık bozulan ilk adım burasıdır.",
+    "en": "Reduces PDF, DOCX, HTML, email and slides to a shared document-element model. This first step is where RAG pipelines lose the most time and break most often.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings",
+    "name": "Vertex AI Embeddings",
+    "tags": [
+      "dokümantasyon",
+      "embedding",
+      "sunucu"
+    ],
+    "tr": "GCP içindeki gömme servisi. Veriyi BigQuery’de tutuyorsan gömmeyi de aynı sınırlar içinde üretmek ağ maliyeti ve veri yerleşimi açısından anlamlı oluyor.",
+    "en": "The embedding service inside GCP. If your data sits in BigQuery, generating vectors within the same boundary makes sense for both egress cost and data residency.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://www.voyageai.com/",
+    "name": "Voyage AI",
+    "tags": [
+      "api",
+      "ücretli",
+      "embedding"
+    ],
+    "tr": "Hukuk, kod ve finans için ayrı ayrı eğitilmiş gömme modelleri. Dar alanlarda genel amaçlı modelleri geçtiğini iddia ediyor; karşılaştırmayı kendi verinle yapmak gerekiyor.",
+    "en": "Embedding models trained separately for law, code and finance. It claims to beat general-purpose models inside those domains — a claim worth testing on your own data.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://weaviate.io/",
+    "name": "Weaviate",
+    "tags": [
+      "açık-kaynak",
+      "vektör-db",
+      "api"
+    ],
+    "tr": "Gömme üretimini modül olarak içinde barındırabiliyor, yani ayrı bir gömme adımı kurmadan ham metin yazabiliyorsun. Sorgu arayüzü GraphQL.",
+    "en": "Can host embedding generation as a module, so you write raw text without standing up a separate embedding step. Its query interface is GraphQL.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://www.getzep.com/",
+    "name": "Zep",
+    "tags": [
+      "açık-kaynak",
+      "agent",
+      "rag"
+    ],
+    "tr": "Zamansal bilgi grafiği tutuyor: bir olgunun ne zaman doğru olduğunu ve ne zaman geçersizleştiğini kaydediyor. Düz vektör belleği bu ayrımı yapamıyor.",
+    "en": "Maintains a temporal knowledge graph, recording when a fact held and when it was invalidated. Flat vector memory cannot make that distinction.",
+    "src": "kedi",
+    "added": 1787000000
+  }
+]

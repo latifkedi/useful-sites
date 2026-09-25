@@ -1,0 +1,701 @@
+[
+  {
+    "url": "https://academictorrents.com/",
+    "name": "Academic Torrents",
+    "tags": [
+      "akademik",
+      "veri-bilimi",
+      "ücretsiz"
+    ],
+    "tr": "Büyük araştırma veri kümelerini BitTorrent üzerinden dağıtan topluluk arşivi. Kurumsal indirme bağlantılarından farkı dayanıklılığı — üniversite sunucusu kapansa bile veri tohumlayıcılarda yaşamaya devam ediyor.",
+    "en": "A community archive distributing large research datasets over BitTorrent. Against institutional download links the difference is durability: when the university server goes away, the data survives in the swarm.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://aima.cs.berkeley.edu",
+    "name": "AIMA",
+    "tags": [
+      "ücretsiz",
+      "kitap",
+      "akademik"
+    ],
+    "tr": "Yapay Zeka: Modern Yaklaşım kitabının kaynak sayfası; ders kodu ve algoritma uygulamaları birden çok dilde yayımlanmış.",
+    "en": "The companion site for Artificial Intelligence: A Modern Approach, publishing course code and algorithm implementations in several languages.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.statlearning.com/",
+    "name": "An Introduction to Statistical Learning",
+    "tags": [
+      "kitap",
+      "veri-bilimi",
+      "ücretsiz"
+    ],
+    "tr": "İstatistiksel öğrenmenin standart giriş kitabı; PDF’i ücretsiz, R ve Python laboratuvarları ayrı ayrı var. \"Elements of Statistical Learning\"den farkı matematiği azaltıp sezgiyi öne alması — ikisi aynı yazarlardan, bu olanı önce okunanı.",
+    "en": "The standard introduction to statistical learning, free as a PDF with separate R and Python labs. Against \"Elements of Statistical Learning\" by the same authors it trades mathematics for intuition — this is the one you read first.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://www.kaggle.com/competitions/arc-prize-2026-paper-track",
+    "name": "ARC Prize 2026",
+    "tags": [
+      "ücretsiz",
+      "akademik",
+      "veri-bilimi"
+    ],
+    "tr": "Soyut akıl yürütme üzerine yarışma; görevleri insanın kolay, modellerin zor bulduğu biçimde tasarlanmış. Ölçekleme yerine yeni yaklaşım gerektiriyor.",
+    "en": "A competition on abstract reasoning whose tasks are designed to be easy for humans and hard for models. It rewards a new approach rather than more scale.",
+    "src": "kedi",
+    "added": 1784617821
+  },
+  {
+    "url": "https://github.com/likedan/Awesome-CoreML-Models",
+    "name": "Awesome Core ML Models",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "veri-bilimi",
+      "masaüstü"
+    ],
+    "tr": "Apple’ın Core ML çerçevesi için hazır makine öğrenmesi modelleri listesi.",
+    "en": "A list of ready machine-learning models for Apple’s Core ML framework.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/ChristosChristofidis/awesome-deep-learning",
+    "name": "Awesome Deep Learning",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "veri-bilimi"
+    ],
+    "tr": "Derin öğrenme için ders, makale, çerçeve ve veri kümesi listesi. Genel ML listelerinden farkı sinir ağlarına ve modern mimarilere odaklanması.",
+    "en": "A list of courses, papers, frameworks and datasets for deep learning. Unlike general ML lists it focuses on neural networks and modern architectures.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/terryum/awesome-deep-learning-papers",
+    "name": "Awesome Deep Learning Papers",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "veri-bilimi",
+      "akademik"
+    ],
+    "tr": "En çok atıf alan derin öğrenme makalelerini derleyen liste.",
+    "en": "A list compiling the most-cited deep-learning papers.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/h2oai/awesome-h2o",
+    "name": "Awesome H2O",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "veri-bilimi"
+    ],
+    "tr": "Açık kaynak dağıtık makine öğrenmesi platformu H2O için kaynak listesi.",
+    "en": "A list for H2O, the open-source distributed machine-learning platform.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/n2cholas/awesome-jax",
+    "name": "Awesome JAX",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "veri-bilimi",
+      "python"
+    ],
+    "tr": "Otomatik türev ve XLA derlemesi sunan JAX için kaynak listesi.",
+    "en": "A list for JAX, which offers automatic differentiation and XLA compilation.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/markusschanta/awesome-jupyter",
+    "name": "Awesome Jupyter",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "veri-bilimi",
+      "python"
+    ],
+    "tr": "Kod, metin ve grafiği bir arada tutan Jupyter defterleri için kaynak listesi.",
+    "en": "A resource list for Jupyter notebooks, which hold code, text and charts together.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/accelerated-text/awesome-nlg",
+    "name": "Awesome NLG",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "veri-bilimi",
+      "llm"
+    ],
+    "tr": "Veriden veya diyalogdan metin üretimi (doğal dil üretimi) için kaynak listesi.",
+    "en": "A list for generating text from data or dialogue (natural-language generation).",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/awesomedata/awesome-public-datasets",
+    "name": "Awesome Public Datasets",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "veri-bilimi",
+      "ücretsiz"
+    ],
+    "tr": "Herkese açık, konu konu düzenlenmiş veri kümelerinin listesi. Rastgele veri aramaktan farkı temiz, kullanılabilir ve alanına göre gruplanmış kaynaklara götürmesi.",
+    "en": "A list of public datasets organised by topic. Unlike random data search it points to clean, usable sources grouped by domain.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/krzjoa/awesome-python-data-science",
+    "name": "Awesome Python Data Science",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "python",
+      "veri-bilimi"
+    ],
+    "tr": "Python veri bilimi kütüphanelerini iş akışına göre (veri, model, görselleştirme) düzenleyen liste. PyPI aramasından farkı her aşama için seçilmiş araçları göstermesi.",
+    "en": "A list organising Python data-science libraries by workflow (data, models, visualisation). Unlike a PyPI search it shows curated tools for each stage.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/seriousran/awesome-qa",
+    "name": "Awesome Question Answering",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "veri-bilimi",
+      "llm"
+    ],
+    "tr": "Doğal dilde soru sorma ve yanıtlama (QA) için kaynak listesi.",
+    "en": "A list for asking and answering questions in natural language (QA).",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/qinwf/awesome-R",
+    "name": "Awesome R",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "veri-bilimi"
+    ],
+    "tr": "İstatistik dili R için paket ve kaynak listesi. CRAN’dan farkı görev bazında (görselleştirme, makine öğrenmesi) seçilmiş paketleri öne çıkarması.",
+    "en": "A list of packages and resources for R, the statistics language. Unlike CRAN it foregrounds packages chosen by task (visualisation, machine learning).",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/SE-ML/awesome-seml",
+    "name": "Awesome SE for ML",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "veri-bilimi"
+    ],
+    "tr": "Deneyden üretime makine öğrenmesi mühendisliği kaynakları. Model listelerinden farkı test, dağıtım ve izleme gibi “ML’i ürün yapma” tarafına bakması.",
+    "en": "Resources for machine-learning engineering from experiment to production. Unlike model lists it looks at the “making ML a product” side — testing, deployment, monitoring.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/jtoy/awesome-tensorflow",
+    "name": "Awesome TensorFlow",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "veri-bilimi"
+    ],
+    "tr": "Makine zekâsı kütüphanesi TensorFlow için kaynak ve model listesi.",
+    "en": "A list of resources and models for TensorFlow, the machine-intelligence library.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://registry.opendata.aws",
+    "name": "AWS Open Data Registry",
+    "tags": [
+      "veri-bilimi",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "AWS üzerinde barındırılan büyük kamu veri kümelerinin kayıt defteri.",
+    "en": "A registry of large public datasets hosted on AWS.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://github.com/microsoft/Data-Science-For-Beginners/tree/main",
+    "name": "Data Science for Beginners",
+    "tags": [
+      "github",
+      "müfredat",
+      "ücretsiz"
+    ],
+    "tr": "20 derslik müfredat; her ders ders öncesi/sonrası sınav ve bir projeyle geliyor. Veri etiği ve görselleştirme bölümleri çoğu teknik kursta atlanan konular.",
+    "en": "A 20-lesson curriculum where each unit ships with pre/post quizzes and a project. Its data ethics and visualisation sections cover ground most technical courses skip.",
+    "src": "kedi",
+    "added": 1775421284
+  },
+  {
+    "url": "https://data.europa.eu",
+    "name": "data.europa.eu",
+    "tags": [
+      "veri-bilimi",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Avrupa Birliği'nin resmi açık veri portalı.",
+    "en": "The European Union's official open-data portal.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://data.gov",
+    "name": "Data.gov",
+    "tags": [
+      "veri-bilimi",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "ABD federal açık veri portalı; kanonik devlet veri kümeleri.",
+    "en": "The US government's open-data portal — canonical federal datasets.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://datahub.io",
+    "name": "DataHub",
+    "tags": [
+      "veri-bilimi",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Kullanıma hazır CSV/JSON biçiminde derlenmiş açık veri kümeleri ve araçları.",
+    "en": "Curated open datasets in ready CSV/JSON form, plus tooling.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://www.datasetlist.com/",
+    "name": "Dataset List",
+    "tags": [
+      "veri-bilimi",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Makine öğrenmesi veri kümelerini alana göre listeleyen dizin; boyut, lisans ve makale bağlantısı ile. Kaggle’dan farkı yarışma değil akademik ve endüstriyel kümeler olması — gerçek dünya verisi arayanlar için.",
+    "en": "A directory of machine learning datasets by domain, with size, licence and paper links. Against Kaggle these are academic and industrial sets rather than competition data — for when you need something real.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://www.deeplearning.ai",
+    "name": "DeepLearning.AI",
+    "tags": [
+      "freemium",
+      "müfredat",
+      "veri-bilimi"
+    ],
+    "tr": "Andrew Ng’in kurduğu eğitim platformu; derin öğrenme ve üretken YZ üzerine yapılandırılmış uzmanlık programları.",
+    "en": "Andrew Ng’s education platform, offering structured specialisations in deep learning and generative AI.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://course.fast.ai",
+    "name": "fast.ai",
+    "tags": [
+      "ücretsiz",
+      "müfredat",
+      "veri-bilimi"
+    ],
+    "tr": "Derin öğrenmeyi tepeden aşağı öğreten kurs: önce çalışan model, sonra teori. Matematikle başlayan akademik derslerin tam tersi bir sıra izliyor.",
+    "en": "Teaches deep learning top-down — a working model first, theory after. The exact inverse of the academic courses that open with mathematics.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://figshare.com",
+    "name": "Figshare",
+    "tags": [
+      "akademik",
+      "veri-bilimi",
+      "freemium"
+    ],
+    "tr": "Araştırma çıktılarını ve veri kümelerini atıf verilebilir biçimde paylaştıran platform.",
+    "en": "A platform for sharing research outputs and datasets in a citable form.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://www.gapminder.org",
+    "name": "Gapminder",
+    "tags": [
+      "veri-bilimi",
+      "interaktif",
+      "ücretsiz"
+    ],
+    "tr": "Küresel kalkınma verisini olgu temelli görselleştirmelerle sunan araç ve kaynak.",
+    "en": "Tools and resources presenting global development data through fact-based visualisations.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://datasetsearch.research.google.com/",
+    "name": "Google Dataset Search",
+    "tags": [
+      "ücretsiz",
+      "veri-bilimi",
+      "rag"
+    ],
+    "tr": "Web’e dağılmış açık veri kümelerini schema.org işaretlemesi üzerinden arıyor. Tek bir depoya bağlı olmadığı için kurum arşivlerini de kapsıyor.",
+    "en": "Searches open datasets scattered across the web via schema.org markup. Being tied to no single repository, it reaches institutional archives too.",
+    "src": "kedi",
+    "added": 1775507011
+  },
+  {
+    "url": "https://data.humdata.org",
+    "name": "Humanitarian Data Exchange",
+    "tags": [
+      "veri-bilimi",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "OCHA tarafından derlenen kriz ve insani yardım veri kümeleri.",
+    "en": "Crisis and humanitarian datasets curated by OCHA.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://www.image-net.org/",
+    "name": "ImageNet",
+    "tags": [
+      "veri-bilimi",
+      "akademik",
+      "ücretsiz"
+    ],
+    "tr": "WordNet hiyerarşisine göre etiketlenmiş, on dört milyon görsellik veri kümesi. Diğer görüntü kümelerinden farkı tarihsel ağırlığı — 2012’deki derin öğrenme sıçraması bu küme üzerindeki yarışmadan çıktı, hâlâ ölçüt olarak kullanılıyor.",
+    "en": "A dataset of fourteen million images labelled against the WordNet hierarchy. What sets it apart from other image sets is historical weight: the 2012 deep learning breakthrough came out of the competition on it, and it is still a benchmark.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://www.kaggle.com/",
+    "name": "Kaggle",
+    "tags": [
+      "ücretsiz",
+      "veri-bilimi",
+      "awesome-liste"
+    ],
+    "tr": "Yarışma, veri kümesi ve not defteri aynı platformda. Asıl değeri, kazanan çözümlerin yarışma bitince açıkça paylaşılması — uygulamalı ML’in en iyi açık arşivi.",
+    "en": "Competitions, datasets and notebooks on one platform. The real value is that winning solutions are published once a contest closes, making it the best open archive of applied ML.",
+    "src": "kedi",
+    "added": 1787182435
+  },
+  {
+    "url": "https://www.kaggle.com/competitions",
+    "name": "Kaggle Yarışmaları",
+    "tags": [
+      "ücretsiz",
+      "veri-bilimi"
+    ],
+    "tr": "Aktif ve geçmiş yarışmalar. Gerçek ölçütle değerlendirilmek, kendi projendeki “iyi görünüyor” yanılsamasını kırıyor.",
+    "en": "Active and past competitions. Being scored against a real metric breaks the “looks fine to me” illusion of working on your own project.",
+    "src": "kedi",
+    "added": 1765557477
+  },
+  {
+    "url": "https://keras.io/",
+    "name": "Keras",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "veri-bilimi"
+    ],
+    "tr": "Sinir ağını katman katman istiflemeyi birkaç satıra indiren yüksek seviye API. Artık TensorFlow, PyTorch ve JAX’in üçünde birden çalışıyor, yani çatı seçimini ertelemene izin veriyor.",
+    "en": "A high-level API reducing network construction to stacking layers in a few lines. It now runs on TensorFlow, PyTorch and JAX alike, which lets you defer the framework choice.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://github.com/rasbt/LLMs-from-scratch",
+    "name": "LLMs from Scratch",
+    "tags": [
+      "github",
+      "kitap",
+      "python"
+    ],
+    "tr": "Bir GPT’yi PyTorch ile sıfırdan yazdıran kitap deposu: tokenizer, dikkat mekanizması, eğitim döngüsü ve ince ayar. Kütüphane çağırmak yerine mekanizmayı kurduruyor.",
+    "en": "A book repo that has you write a GPT from scratch in PyTorch — tokeniser, attention, training loop, fine-tuning. You build the mechanism instead of calling a library.",
+    "src": "kedi",
+    "added": 1779246613
+  },
+  {
+    "url": "https://machinelearningmastery.com/",
+    "name": "Machine Learning Mastery",
+    "tags": [
+      "ücretsiz",
+      "öğretici",
+      "veri-bilimi"
+    ],
+    "tr": "Uygulama odaklı ML öğreticileri; her yazı çalışan bir kod örneğiyle bitiyor. Teoriden çok “bunu nasıl yaparım” sorusuna cevap veriyor.",
+    "en": "Application-focused ML tutorials, each ending in working code — answering “how do I do this” rather than the theory.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://matplotlib.org/",
+    "name": "Matplotlib",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "veri-bilimi"
+    ],
+    "tr": "Python görselleştirmenin temeli; seaborn ve pandas’ın çizim işlevleri bunun üstüne kurulu. Ayrıntılı denetim verir, karşılığında basit bir grafik için bile epey kod ister.",
+    "en": "The foundation of Python plotting — seaborn and pandas’ plotting are built on it. It gives fine control at the cost of considerable code even for a simple chart.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://developers.google.com/machine-learning/crash-course",
+    "name": "ML Crash Course",
+    "tags": [
+      "ücretsiz",
+      "müfredat",
+      "veri-bilimi"
+    ],
+    "tr": "Google’ın makine öğrenmesine hızlı girişi; kısa video, okuma ve çalıştırılabilir alıştırma üçlüsüyle ilerliyor.",
+    "en": "Google’s fast introduction to machine learning, moving through short video, reading and runnable exercises.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.reddit.com/r/MachineLearningJobs/comments/1r5upkb/how_i_land_15_machine_learning_engineer_offers/",
+    "name": "ML Mühendisliğinde İş Arama",
+    "tags": [
+      "ücretsiz",
+      "mülakat",
+      "awesome-liste"
+    ],
+    "tr": "Bir ML mühendisinin iş arama sürecini sayılarla anlattığı başlık: kaç başvuru, hangi aşamalar, ne işe yaradı. Genel kariyer tavsiyelerine karşı birinci elden veri.",
+    "en": "An ML engineer’s account of a job hunt with the numbers — applications sent, stages reached, what worked. First-hand data against generic career advice.",
+    "src": "kedi",
+    "added": 1771263981
+  },
+  {
+    "url": "https://mlcourse.ai/",
+    "name": "mlcourse.ai",
+    "tags": [
+      "ücretsiz",
+      "müfredat",
+      "veri-bilimi"
+    ],
+    "tr": "Açık makine öğrenmesi kursu; teori ile Kaggle yarışması ödevlerini birleştirmesi onu salt anlatımdan ayırıyor.",
+    "en": "An open machine learning course whose pairing of theory with Kaggle competition assignments separates it from lecture-only material.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://mlu-explain.github.io/",
+    "name": "MLU-Explain",
+    "tags": [
+      "ücretsiz",
+      "interaktif",
+      "veri-bilimi"
+    ],
+    "tr": "Amazon’un makine öğrenmesi kavramlarını etkileşimli görsellerle anlatan seti; parametreyi kaydırıp modelin nasıl değiştiğini görüyorsun.",
+    "en": "Amazon’s set explaining machine learning concepts through interactive visuals — you drag a parameter and watch the model change.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.opendatasoft.com",
+    "name": "Opendatasoft",
+    "tags": [
+      "veri-bilimi",
+      "referans",
+      "freemium"
+    ],
+    "tr": "Portallar arası aranabilir veri kümeleri sunan veri portalı platformu.",
+    "en": "A data-portal platform offering searchable datasets across many portals.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://pandas.pydata.org/",
+    "name": "pandas",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "veri-bilimi"
+    ],
+    "tr": "Tablo verisiyle çalışmanın standart kütüphanesi. Excel’den farkı, her dönüşümün tekrarlanabilir kod olması; bellek içi çalıştığı için veri RAM’e sığmak zorunda.",
+    "en": "The standard library for tabular data. Unlike Excel every transformation is reproducible code; it works in memory, so the data has to fit in RAM.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://paperswithcode.com/",
+    "name": "Papers with Code",
+    "tags": [
+      "veri-bilimi",
+      "akademik",
+      "ücretsiz"
+    ],
+    "tr": "Makine öğrenmesi makalelerini uygulama koduyla ve karşılaştırma tablolarıyla eşleştiren site. Salt makaleden farkı sonucun kodunu ve en iyi yöntem sıralamasını yanına koyması.",
+    "en": "A site pairing machine-learning papers with their implementation code and benchmark tables. Unlike a paper alone it puts the result’s code and the leaderboard beside it.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://plotly.com/",
+    "name": "Plotly",
+    "tags": [
+      "freemium",
+      "python",
+      "veri-bilimi"
+    ],
+    "tr": "Etkileşimli grafik kütüphanesi; yakınlaştırma, ipucu ve seçim kutudan çıkıyor. Matplotlib statik görsel üretir, bu tarayıcıda gezilebilir grafik verir.",
+    "en": "An interactive charting library with zoom, tooltips and selection built in. Matplotlib produces a static image; this produces a chart you can explore in the browser.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://pola.rs/",
+    "name": "Polars",
+    "tags": [
+      "açık-kaynak",
+      "rust",
+      "python",
+      "veri-bilimi"
+    ],
+    "tr": "Rust ile yazılmış DataFrame kütüphanesi. pandas’tan farkı çok çekirdeği kullanması ve tembel değerlendirmeyle sorguyu çalıştırmadan önce optimize etmesi — büyük dosyalarda kat kat hızlı.",
+    "en": "A DataFrame library written in Rust. Unlike pandas it uses every core and optimises the query before running it through lazy evaluation, which makes it multiples faster on large files.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://app.powerbi.com/",
+    "name": "Power BI",
+    "tags": [
+      "ücretli",
+      "veri-bilimi"
+    ],
+    "tr": "Microsoft’un iş zekâsı aracı; Excel ve Azure veri kaynaklarına yerleşik bağlanıyor. Kurum zaten Microsoft 365’teyse Tableau’ya karşı asıl avantajı lisansın ödenmiş olması.",
+    "en": "Microsoft’s business intelligence tool with native connections to Excel and Azure sources. If the organisation is already on Microsoft 365, its real edge over Tableau is a licence that is already paid for.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://spark.apache.org/docs/latest/api/python/index.html",
+    "name": "PySpark",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "veri-bilimi"
+    ],
+    "tr": "Apache Spark’ın Python arayüzü; veri tek makineye sığmadığında devreye giriyor. pandas benzeri API sunar ama işi kümedeki onlarca düğüme dağıtır.",
+    "en": "Apache Spark’s Python interface, for when the data no longer fits on one machine. It offers a pandas-like API while distributing the work across a cluster.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://www.re3data.org",
+    "name": "re3data",
+    "tags": [
+      "akademik",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Araştırma veri depolarının kayıt defteri; doğru depoyu bulmayı sağlar.",
+    "en": "A registry of research-data repositories that helps you find the right one.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://scikit-learn.org/stable/",
+    "name": "scikit-learn",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "veri-bilimi"
+    ],
+    "tr": "Klasik makine öğrenmesinin standart Python kütüphanesi: sınıflandırma, regresyon, kümeleme ve ön işleme aynı `fit`/`predict` arayüzü altında. Derin öğrenmeden önce gelen her şeyin ortak zemini.",
+    "en": "The standard Python library for classical machine learning — classification, regression, clustering and preprocessing behind one `fit`/`predict` interface. The common ground for everything before deep learning.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://seaborn.pydata.org/",
+    "name": "seaborn",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "veri-bilimi"
+    ],
+    "tr": "Matplotlib üstüne kurulu istatistiksel grafik kütüphanesi. Dağılım, ilişki ve kategori grafiklerini tek satıra indiriyor; varsayılan estetiği de düzgün.",
+    "en": "A statistical plotting library on top of Matplotlib, reducing distribution, relationship and category plots to one line — with sane defaults out of the box.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://github.com/SerpentAI/SerpentAI",
+    "name": "SerpentAI",
+    "tags": [
+      "github",
+      "veri-bilimi"
+    ],
+    "tr": "Herhangi bir video oyununu pekiştirmeli öğrenme ortamına çeviren çatı. Simülasyon yerine gerçek oyunla çalışması ayrıksı.",
+    "en": "A framework turning any video game into a reinforcement learning environment — working against real games rather than simulations is what makes it unusual.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://streamlit.io/",
+    "name": "Streamlit",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "veri-bilimi",
+      "tarayıcı-içi"
+    ],
+    "tr": "Python betiğini birkaç satırla web uygulamasına çeviriyor; HTML, CSS ya da JavaScript yok. Veri bilimcinin modelini paydaşa göstermesinin en kısa yolu.",
+    "en": "Turns a Python script into a web app in a few lines with no HTML, CSS or JavaScript — the shortest path for a data scientist to show a model to a stakeholder.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://www.tableau.com/",
+    "name": "Tableau",
+    "tags": [
+      "ücretli",
+      "veri-bilimi"
+    ],
+    "tr": "Sürükle-bırak iş zekâsı platformu; kod yazmadan pano kuruluyor. Kurumsal raporlamada yaygın, tekrarlanabilirlik ve sürüm kontrolü tarafında zayıf.",
+    "en": "A drag-and-drop business intelligence platform for building dashboards without code. Common in enterprise reporting and weak on reproducibility and version control.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://www.tensorflow.org",
+    "name": "TensorFlow",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "veri-bilimi"
+    ],
+    "tr": "Google’ın derin öğrenme çatısı. Araştırmada PyTorch’a yenildi ama mobil ve gömülü dağıtımda (TF Lite) ve üretim sunumunda (TF Serving) hâlâ güçlü.",
+    "en": "Google’s deep learning framework. It lost research ground to PyTorch, yet remains strong for mobile and embedded deployment (TF Lite) and production serving (TF Serving).",
+    "src": "kedi"
+  },
+  {
+    "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
+    "name": "Train LLM from Scratch",
+    "tags": [
+      "github",
+      "python",
+      "müfredat"
+    ],
+    "tr": "Veri indirmeden dağıtık eğitime kadar tüm hattı çalışan kodla gösteriyor. Teorik anlatımların atladığı kısım genelde bu altyapı tarafı.",
+    "en": "Shows the whole pipeline in working code, from data download to distributed training — the infrastructure side theoretical write-ups usually skip.",
+    "src": "kedi",
+    "added": 1785884172
+  },
+  {
+    "url": "https://zenodo.org",
+    "name": "Zenodo",
+    "tags": [
+      "akademik",
+      "veri-bilimi",
+      "ücretsiz"
+    ],
+    "tr": "CERN destekli açık araştırma deposu; veri kümesi ve yazılıma DOI verir.",
+    "en": "A CERN-backed open research repository that mints DOIs for datasets and software.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://github.com/mrdbourke/zero-to-mastery-ml",
+    "name": "Zero to Mastery ML",
+    "tags": [
+      "github",
+      "interaktif",
+      "python"
+    ],
+    "tr": "Uçtan uca ML not defterleri; veri temizlemeden model değerlendirmeye kadar çalışan bir hat okutuyor. Kavram anlatımı yerine gerçek kod üzerinden ilerliyor.",
+    "en": "End-to-end ML notebooks walking a working pipeline from data cleaning to model evaluation, progressing through real code rather than concept prose.",
+    "src": "kedi",
+    "added": 1775475171
+  }
+]

@@ -1,0 +1,777 @@
+[
+  {
+    "url": "https://alexhost.com/",
+    "name": "AlexHost",
+    "tags": [
+      "ücretli",
+      "sunucu",
+      "gizlilik"
+    ],
+    "tr": "Moldova merkezli barındırma. Farklı bir yargı bölgesi ve gevşek içerik politikası sunması sebebiyle tercih ediliyor; bu aynı zamanda komşuların kim olduğu sorusunu doğuruyor.",
+    "en": "Moldova-based hosting chosen for a different jurisdiction and looser content policy — which also raises the question of who your neighbours are.",
+    "src": "kedi",
+    "added": 1787155801
+  },
+  {
+    "url": "https://aws.amazon.com/",
+    "name": "Amazon Web Services",
+    "tags": [
+      "ücretli",
+      "sunucu"
+    ],
+    "tr": "Servis yelpazesi en geniş bulut. Genişlik avantaj ama maliyet takibi ayrı bir uzmanlık alanı; veri çıkış (egress) ücretleri özellikle sürpriz yapıyor.",
+    "en": "The cloud with the widest service range. The breadth is an advantage, while cost tracking is its own discipline — egress charges in particular catch people out.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://www.ansible.com",
+    "name": "Ansible",
+    "tags": [
+      "devops",
+      "otomasyon",
+      "açık-kaynak"
+    ],
+    "tr": "Ajansız yapılandırma yönetimi ve otomasyon; sunucuları YAML playbook'larla kurar.",
+    "en": "Agentless configuration management and automation that provisions servers with YAML playbooks.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://airflow.apache.org/",
+    "name": "Apache Airflow",
+    "tags": [
+      "açık-kaynak",
+      "otomasyon",
+      "python"
+    ],
+    "tr": "Veri boru hatlarını Python’la tanımlanan yönlü grafik (DAG) olarak zamanlayan orkestratör. Cron’dan farkı bağımlılık, yeniden deneme ve geçmiş çalıştırma görünürlüğü sunması.",
+    "en": "An orchestrator scheduling data pipelines as Python-defined directed graphs (DAGs). Unlike cron it offers dependencies, retries and visibility into historical runs.",
+    "src": "dataeng",
+    "added": 1787000000
+  },
+  {
+    "url": "https://httpd.apache.org/docs/",
+    "name": "Apache HTTP Server",
+    "tags": [
+      "açık-kaynak",
+      "sunucu",
+      "dokümantasyon"
+    ],
+    "tr": "Modül mimarisi ve .htaccess ile dizin bazlı yapılandırma esnekliği. Paylaşımlı barındırmada hâlâ hâkim; nginx’e göre yüksek eşzamanlılıkta daha çok bellek yiyor.",
+    "en": "A module architecture plus per-directory configuration through .htaccess. Still dominant in shared hosting, and hungrier for memory than nginx under high concurrency.",
+    "src": "kedi",
+    "added": 1776690080
+  },
+  {
+    "url": "https://kafka.apache.org/42/getting-started/introduction/",
+    "name": "Apache Kafka",
+    "tags": [
+      "açık-kaynak",
+      "otomasyon"
+    ],
+    "tr": "Mesajları tüketildikten sonra da saklıyor; tüketiciler kendi konumlarını (offset) taşıyıp geçmişi yeniden okuyabiliyor. Klasik kuyruklardan asıl ayrımı bu kalıcılık.",
+    "en": "Retains messages after consumption, with consumers carrying their own offsets so they can replay history. That durability is the real split from classic queues.",
+    "src": "kedi",
+    "added": 1776690087
+  },
+  {
+    "url": "https://argoproj.github.io",
+    "name": "Argo",
+    "tags": [
+      "devops",
+      "otomasyon",
+      "açık-kaynak"
+    ],
+    "tr": "Kubernetes'e özgü iş akışları ve GitOps sürekli dağıtım araçları takımı (Argo CD, Workflows).",
+    "en": "A suite of Kubernetes-native workflow and GitOps continuous-delivery tools (Argo CD, Workflows).",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://avenacloud.com/",
+    "name": "AvenaCloud",
+    "tags": [
+      "ücretli",
+      "sunucu"
+    ],
+    "tr": "VPS ve fiziksel sunucu sağlayıcı; küçük ölçekli projeler için bütçe odaklı bir seçenek.",
+    "en": "A VPS and dedicated server provider positioned on budget for small-scale projects.",
+    "src": "kedi",
+    "added": 1787155762
+  },
+  {
+    "url": "https://github.com/sdras/awesome-actions",
+    "name": "Awesome Actions",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "devops",
+      "otomasyon"
+    ],
+    "tr": "İş akışını otomatikleştiren GitHub Actions için hazır eylem listesi.",
+    "en": "A list of ready actions for GitHub Actions, automating your workflow.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/ansible-community/awesome-ansible",
+    "name": "Awesome Ansible",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "devops",
+      "otomasyon"
+    ],
+    "tr": "Python tabanlı BT yapılandırma aracı Ansible için rol ve kaynak listesi.",
+    "en": "A list of roles and resources for Ansible, the Python-based IT configuration tool.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/shano/awesome-backstage",
+    "name": "Awesome Backstage",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "devops"
+    ],
+    "tr": "İç geliştirici portalları kuran Backstage platformu için kaynak listesi.",
+    "en": "A resource list for Backstage, building internal developer portals.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/kolomied/awesome-cdk",
+    "name": "Awesome CDK",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "devops"
+    ],
+    "tr": "Altyapıyı gerçek kodla tanımlayan AWS CDK için kaynak listesi.",
+    "en": "A resource list for the AWS CDK, defining infrastructure with real code.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/ramitsurana/awesome-kubernetes",
+    "name": "Awesome Kubernetes",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "devops",
+      "docker"
+    ],
+    "tr": "Kubernetes ekosistemi için araç, öğretici ve üretim deneyimi listesi. Resmî dokümandan farkı topluluk araçlarını ve gerçek dünya kalıplarını bir arada toplaması.",
+    "en": "A list of tools, tutorials and production experience for the Kubernetes ecosystem. Unlike the official docs it gathers community tools and real-world patterns together.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/nix-community/awesome-nix",
+    "name": "Awesome Nix",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "devops"
+    ],
+    "tr": "Nix paket yöneticisi ve NixOS için araç, kütüphane ve rehber listesi. Genel Linux listelerinden farkı yeniden üretilebilir, bildirimsel yapılandırmaya odaklanması.",
+    "en": "A list of tools, libraries and guides for the Nix package manager and NixOS. Unlike general Linux lists it focuses on reproducible, declarative configuration.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/virtualroot/awesome-opentofu",
+    "name": "Awesome OpenTofu",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "devops",
+      "açık-kaynak"
+    ],
+    "tr": "Terraform’un açık kaynak çatalı OpenTofu için kaynak listesi.",
+    "en": "A resource list for OpenTofu, the open-source fork of Terraform.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/roaldnefs/awesome-prometheus",
+    "name": "Awesome Prometheus",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "devops",
+      "gözlemlenebilirlik"
+    ],
+    "tr": "Açık kaynak izleme sistemi Prometheus için exporter ve kaynak listesi.",
+    "en": "A list of exporters and resources for Prometheus, the open-source monitoring system.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/sduff/awesome-splunk",
+    "name": "Awesome Splunk",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "devops",
+      "gözlemlenebilirlik"
+    ],
+    "tr": "Log arama ve izleme platformu Splunk için kaynak listesi.",
+    "en": "A resource list for Splunk, the log-search and monitoring platform.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/shuaibiyy/awesome-terraform",
+    "name": "Awesome Terraform",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "devops",
+      "otomasyon"
+    ],
+    "tr": "Altyapıyı kod olarak yöneten Terraform için modül ve kaynak listesi.",
+    "en": "A list of modules and resources for Terraform, managing infrastructure as code.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://docs.celeryq.dev/en/stable/",
+    "name": "Celery",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "otomasyon"
+    ],
+    "tr": "Python’da arka plan görevlerinin standardı; Redis ya da RabbitMQ’yu aracı olarak kullanıyor. Zamanlanmış görevler (beat) ve yeniden deneme mantığı da içinde.",
+    "en": "The standard for background tasks in Python, using Redis or RabbitMQ as a broker, with scheduled tasks (beat) and retry logic included.",
+    "src": "kedi",
+    "added": 1776690088
+  },
+  {
+    "url": "https://github.com/chaos-mesh/chaos-mesh",
+    "name": "Chaos Mesh",
+    "tags": [
+      "devops",
+      "docker",
+      "açık-kaynak",
+      "github"
+    ],
+    "tr": "Kubernetes ile bütünleşik, bulut-doğal kaos mühendisliği (arıza enjeksiyonu) platformu.",
+    "en": "A cloud-native, Kubernetes-integrated chaos-engineering (fault-injection) platform.",
+    "src": "velvia"
+  },
+  {
+    "url": "https://www.cloudflare.com/",
+    "name": "Cloudflare",
+    "tags": [
+      "devops",
+      "güvenlik",
+      "freemium"
+    ],
+    "tr": "CDN, DNS, DDoS koruması ve kenar hesaplamayı tek platformda sunan altyapı. Ayrı hizmetlerden farkı bunları tek panelde birleştirip cömert bir ücretsiz katman vermesi.",
+    "en": "Infrastructure offering CDN, DNS, DDoS protection and edge computing in one platform. Unlike separate services it unites them in one dashboard with a generous free tier.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://www.cncf.io/training/certification/",
+    "name": "CNCF Sertifikasyon",
+    "tags": [
+      "sertifika",
+      "devops",
+      "docker",
+      "ücretli"
+    ],
+    "tr": "CKA, CKAD ve CKS ile Kubernetes sertifikaları. Bulut sağlayıcı sertifikalarından farkı satıcı bağımsız olması ve sınavın terminal başında geçmesi — çoktan seçmeli değil, canlı kümede görev çözüyorsun.",
+    "en": "Kubernetes certifications through CKA, CKAD and CKS. Unlike cloud provider certificates they are vendor-neutral, and the exam happens at a terminal — not multiple choice, but tasks solved on a live cluster.",
+    "src": "seccert"
+  },
+  {
+    "url": "https://coder.com",
+    "name": "Coder",
+    "tags": [
+      "açık-kaynak",
+      "self-hosted",
+      "sunucu",
+      "devops"
+    ],
+    "tr": "Geliştirme ortamını kendi altyapında kapsayıcı olarak çalıştıran platform; VS Code ya da JetBrains istemcisiyle bağlanıyorsun. GitHub Codespaces’ten farkı bulut sağlayıcısına bağlı olmaması — kaynak da kod da sende kalıyor.",
+    "en": "Runs development environments as containers on your own infrastructure, reached from a VS Code or JetBrains client. Against GitHub Codespaces it is not tied to a cloud provider — both the compute and the code stay with you.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://github.com/fccview/cronmaster",
+    "name": "Cronmaster",
+    "tags": [
+      "açık-kaynak",
+      "self-hosted",
+      "devops"
+    ],
+    "tr": "Cron görevlerini web arayüzünden yöneten öz-barındırılan uygulama; ifadeleri okunur hâlde gösteriyor ve çalıştırma günlüğü tutuyor. crontab -e’den farkı bir sonraki çalışma zamanını ve son çıktıyı göstermesi — sessizce başarısız olan görevler görünür oluyor.",
+    "en": "A self-hosted web interface for cron jobs that renders expressions in readable form and keeps a run log. Against `crontab -e` it shows the next run time and the last output, which makes silently failing jobs visible.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://crontab-generator.org/",
+    "name": "Crontab Generator",
+    "tags": [
+      "tarayıcı-içi",
+      "ücretsiz",
+      "devops"
+    ],
+    "tr": "Cron ifadesini form üzerinden üreten ve ne zaman çalışacağını yazıyla söyleyen araç. crontab.guru’dan farkı ters yönde çalışması — ifadeyi çözmek yerine istediğin zamanlamadan ifade üretiyor.",
+    "en": "Builds a cron expression from a form and states in words when it will fire. Against crontab.guru it runs the other way: instead of decoding an expression, it produces one from the schedule you describe.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://github.com/dokploy/dokploy",
+    "name": "Dokploy",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "self-hosted",
+      "docker"
+    ],
+    "tr": "Kendi VPS’inde Vercel benzeri dağıtım deneyimi kuruyor: git iterek yayına alma, veritabanı sağlama ve otomatik TLS. Heroku’nun ücretsiz katmanı kapandıktan sonra doğan boşluğu dolduruyor.",
+    "en": "Brings a Vercel-like deploy experience to your own VPS — git-push deploys, database provisioning, automatic TLS. It fills the hole left when Heroku’s free tier closed.",
+    "src": "kedi",
+    "added": 1776685913
+  },
+  {
+    "url": "https://earthly.dev",
+    "name": "Earthly",
+    "tags": [
+      "devops",
+      "otomasyon",
+      "açık-kaynak"
+    ],
+    "tr": "Yerelde ve CI'de aynı sonucu veren, tekrarlanabilir yapı (build) aracı.",
+    "en": "A build-automation tool giving repeatable builds that behave the same locally and in CI.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://www.fromlatest.io/",
+    "name": "FromLatest",
+    "tags": [
+      "docker",
+      "tarayıcı-içi",
+      "devops"
+    ],
+    "tr": "Dockerfile’ı çözümleyip katman katman ne olduğunu açıklayan ve iyileştirme öneren araç. hadolint’ten farkı görsel olması ve her kuralın neden var olduğunu anlatması — Dockerfile yazmayı öğrenmek için de kullanılabiliyor.",
+    "en": "Analyses a Dockerfile, explains what happens layer by layer and suggests improvements. Against hadolint it is visual and states why each rule exists, which makes it usable for learning to write Dockerfiles rather than only linting them.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://gource.io/",
+    "name": "Gource",
+    "tags": [
+      "açık-kaynak",
+      "git",
+      "interaktif"
+    ],
+    "tr": "Depo geçmişini büyüyen bir ağaç animasyonu olarak çiziyor; kimin nereye dokunduğu görünür oluyor. Teknik analiz aracı değil, proje tarihini anlatmak için.",
+    "en": "Renders repository history as a growing animated tree where you see who touched what. Not an analysis tool — a way to narrate a project’s history.",
+    "src": "kedi",
+    "added": 1776624930
+  },
+  {
+    "url": "https://grafana.com/",
+    "name": "Grafana",
+    "tags": [
+      "açık-kaynak",
+      "gözlemlenebilirlik"
+    ],
+    "tr": "Prometheus, Loki, PostgreSQL ve onlarca kaynağı aynı panoda birleştiriyor. Veri kaynağından bağımsız olması, izleme yığınının ortak yüzü hâline gelmesini sağladı.",
+    "en": "Unifies Prometheus, Loki, PostgreSQL and dozens of sources on one dashboard. Being data-source agnostic is how it became the shared face of monitoring stacks.",
+    "src": "kedi",
+    "added": 1776685903
+  },
+  {
+    "url": "https://www.guzel.net.tr/",
+    "name": "Güzel Hosting",
+    "tags": [
+      "ücretli",
+      "türkçe",
+      "sunucu"
+    ],
+    "tr": "Türkiye merkezli barındırma ve alan adı; .tr uzantısı, yerel ödeme ve Türkçe destek sunuyor. Sunucunun Türkiye’de olması gereken projeler için pratik.",
+    "en": "Turkey-based hosting and domains with .tr registration, local payment and Turkish support — practical when the server has to sit in Turkey.",
+    "src": "kedi",
+    "added": 1785074654
+  },
+  {
+    "url": "https://goharbor.io",
+    "name": "Harbor",
+    "tags": [
+      "devops",
+      "self-hosted",
+      "açık-kaynak"
+    ],
+    "tr": "Güvenlik taraması ve erişim denetimiyle özel konteyner imaj deposu (registry).",
+    "en": "A private container-image registry with security scanning and access control.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://helm.sh",
+    "name": "Helm",
+    "tags": [
+      "devops",
+      "açık-kaynak"
+    ],
+    "tr": "Kubernetes uygulamalarını paketleyip dağıtan paket yöneticisi (\"chart\"lar).",
+    "en": "A package manager that packages and deploys Kubernetes applications as charts.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://www.hetzner.com/",
+    "name": "Hetzner",
+    "tags": [
+      "ücretli",
+      "sunucu"
+    ],
+    "tr": "Almanya ve Finlandiya’da fiziksel sunucu ve VPS; aynı çekirdek/RAM için büyük bulutların birkaç katı ucuz. Yönetilen servis yok, işletim tamamen sana kalıyor.",
+    "en": "Dedicated servers and VPS in Germany and Finland at a fraction of the big clouds’ price for the same cores and RAM. No managed services — operations are entirely yours.",
+    "src": "kedi",
+    "added": 1783007591
+  },
+  {
+    "url": "https://k8syaml.com/",
+    "name": "K8s YAML Generator",
+    "tags": [
+      "devops",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "Kubernetes manifestolarını form doldurarak üreten araç; her alanın ne işe yaradığını yanında açıklıyor. Belgelerden kopyalamaktan farkı geçerli bir manifesto ile çıkman ve alanların anlamını okuyarak öğrenmen.",
+    "en": "Generates Kubernetes manifests from a form, explaining each field beside it. Against copying from the docs you leave with a valid manifest and pick up what the fields mean on the way.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://k9scli.io",
+    "name": "K9s",
+    "tags": [
+      "devops",
+      "cli",
+      "açık-kaynak"
+    ],
+    "tr": "Kubernetes kümelerini uçbirimden yöneten, hızlı ve etkileşimli TUI.",
+    "en": "A fast, interactive terminal UI for managing Kubernetes clusters.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://kestra.io/",
+    "name": "Kestra",
+    "tags": [
+      "açık-kaynak",
+      "otomasyon",
+      "devops"
+    ],
+    "tr": "Akışlar YAML’de bildirimsel olarak tanımlanıyor; dil bağımsız olduğu için Python olmayan ekiplerde de çalışıyor. Sürüm kontrolüyle iyi geçiniyor.",
+    "en": "Flows are declared in YAML, and being language-agnostic it works for teams that are not on Python. It sits well in version control.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://kubernetes.io",
+    "name": "Kubernetes",
+    "tags": [
+      "devops",
+      "açık-kaynak",
+      "dokümantasyon"
+    ],
+    "tr": "Konteynerleri ölçekte dağıtan, yöneten ve iyileştiren açık kaynak orkestrasyon sisteminin resmî sitesi.",
+    "en": "The official site of the open-source system that deploys, manages and heals containers at scale.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://www.litespeedtech.com/",
+    "name": "LiteSpeed",
+    "tags": [
+      "ücretli",
+      "sunucu"
+    ],
+    "tr": "Apache yapılandırmasını olduğu gibi okuyabilen ticari sunucu; olay güdümlü çekirdeği ile daha az kaynak tüketiyor. WordPress barındırmada önbellek eklentisiyle birlikte yaygın.",
+    "en": "A commercial server that reads Apache configuration as-is while using an event-driven core and fewer resources. Common in WordPress hosting alongside its cache plugin.",
+    "src": "kedi",
+    "added": 1785060756
+  },
+  {
+    "url": "https://docs.litespeedtech.com/",
+    "name": "LiteSpeed Dokümantasyonu",
+    "tags": [
+      "dokümantasyon",
+      "sunucu",
+      "veritabanı"
+    ],
+    "tr": "Yapılandırma referansı; LSCache kurallarının nasıl yazılacağı burada. Önbellekleme ayarları performansın büyük kısmını belirliyor.",
+    "en": "The configuration reference, including how LSCache rules are written — cache settings account for most of the performance you get.",
+    "src": "kedi",
+    "added": 1776690081
+  },
+  {
+    "url": "https://www.make.com/",
+    "name": "Make",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "otomasyon"
+    ],
+    "tr": "Senaryolar dallanma, döngü ve hata işleme taşıyabiliyor; Zapier’in doğrusal adım modeline göre karmaşık akışlarda daha rahat. Öğrenme eğrisi de buna paralel olarak dik.",
+    "en": "Scenarios carry branching, loops and error handling, which makes complex flows easier than Zapier’s linear steps. The learning curve is correspondingly steeper.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://n8n.io/",
+    "name": "n8n",
+    "tags": [
+      "açık-kaynak",
+      "self-hosted",
+      "otomasyon",
+      "docker"
+    ],
+    "tr": "Görsel düğüm editörü; kendi sunucunda çalıştırdığında çalıştırma sayısı sınırsız. Düğüm içine JavaScript yazabiliyorsun, yani no-code duvarına toslamıyorsun.",
+    "en": "A visual node editor with unmetered executions when self-hosted. You can drop JavaScript into a node, so you do not hit the usual no-code wall.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://docs.n8n.io/",
+    "name": "n8n Dokümantasyonu",
+    "tags": [
+      "dokümantasyon",
+      "otomasyon"
+    ],
+    "tr": "Düğüm referansı, kendi sunucuna kurulum ve kimlik bilgisi yönetimi. Kuyruk kipiyle ölçekleme bölümü üretimde çalıştıracaklar için önemli.",
+    "en": "Node reference, self-hosting and credential management. The queue-mode scaling section matters for anyone running it in production.",
+    "src": "kedi",
+    "added": 1776690086
+  },
+  {
+    "url": "https://github.com/m1k1o/neko",
+    "name": "Neko",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "docker",
+      "ağ"
+    ],
+    "tr": "Kapsayıcı içinde tarayıcı çalıştırıp WebRTC ile paylaşıyor; birden çok kişi aynı oturumu kontrol edebiliyor. Birlikte izleme ve izole gezinme için kullanılıyor.",
+    "en": "Runs a browser in a container and shares it over WebRTC, with several people able to control one session. Used for watch-together and for isolated browsing.",
+    "src": "kedi",
+    "added": 1776685556
+  },
+  {
+    "url": "https://nginx.org/en/docs/",
+    "name": "nginx",
+    "tags": [
+      "açık-kaynak",
+      "sunucu"
+    ],
+    "tr": "Olay güdümlü mimarisi sayesinde on binlerce eşzamanlı bağlantıyı düşük bellekle taşıyor. Ters vekil ve yük dengeleyici olarak kullanımı, web sunucusu olmasından daha yaygın.",
+    "en": "Its event-driven architecture carries tens of thousands of concurrent connections on little memory. It is used as a reverse proxy and load balancer more often than as a web server.",
+    "src": "kedi",
+    "added": 1776690079
+  },
+  {
+    "url": "https://njal.la/",
+    "name": "Njalla",
+    "tags": [
+      "ücretli",
+      "gizlilik"
+    ],
+    "tr": "Alan adını senin adına kendi üstüne kaydediyor, yani WHOIS kaydında sen görünmüyorsun. Vekil gizlilik hizmetinden farkı, mülkiyetin hukuken onlarda olması — bu bir güven meselesi.",
+    "en": "Registers the domain in its own name on your behalf, so you do not appear in WHOIS. Unlike a privacy proxy the legal ownership sits with them, which makes it a question of trust.",
+    "src": "kedi",
+    "added": 1787155810
+  },
+  {
+    "url": "https://opentofu.org",
+    "name": "OpenTofu",
+    "tags": [
+      "devops",
+      "açık-kaynak",
+      "otomasyon"
+    ],
+    "tr": "Terraform'un topluluk güdümlü açık kaynak çatalı; aynı yapılandırmayı çalıştırır.",
+    "en": "A community-driven open-source fork of Terraform that runs the same configurations.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://pipedream.com/",
+    "name": "Pipedream",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "otomasyon",
+      "sistem-tasarımı"
+    ],
+    "tr": "Her adım Node.js ya da Python kodu olabiliyor ve npm/PyPI paketi çekebiliyor. Görsel otomasyonla gerçek kod arasındaki boşluğu kapatan seçenek.",
+    "en": "Any step can be Node.js or Python and can pull an npm or PyPI package. The option that closes the gap between visual automation and real code.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://www.portainer.io",
+    "name": "Portainer",
+    "tags": [
+      "devops",
+      "self-hosted",
+      "açık-kaynak"
+    ],
+    "tr": "Docker ve Kubernetes ortamlarını görsel arayüzle yöneten self-hosted araç.",
+    "en": "A self-hosted tool that manages Docker and Kubernetes environments through a visual UI.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://www.microsoft.com/power-platform/products/power-automate",
+    "name": "Power Automate",
+    "tags": [
+      "ücretli",
+      "otomasyon"
+    ],
+    "tr": "SharePoint, Teams ve Dataverse bağlayıcıları yerleşik. Kurum zaten Microsoft 365’teyse lisans çoğu zaman ödenmiş oluyor — asıl tercih sebebi bu.",
+    "en": "SharePoint, Teams and Dataverse connectors are native. If the organisation is already on Microsoft 365 the licence is usually paid for — which is the real reason it gets chosen.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://www.prefect.io/",
+    "name": "Prefect",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "otomasyon"
+    ],
+    "tr": "Akış sıradan bir Python fonksiyonu; dekoratör ekleyip orkestrasyona dahil ediyorsun. Airflow’un ayrı DSL’ini öğrenmeden yerel kodu üretime taşımak daha kısa.",
+    "en": "A flow is an ordinary Python function you decorate into orchestration. Moving local code to production is shorter than learning Airflow’s separate DSL.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://git-scm.com/book/tr/v2",
+    "name": "Pro Git (Türkçe)",
+    "tags": [
+      "ücretsiz",
+      "türkçe",
+      "kitap",
+      "git"
+    ],
+    "tr": "Git’in resmî kitabının Türkçe çevirisi. İç mekanizma bölümü (nesne modeli, referanslar) komut ezberlemekten kurtarıyor — Git’i asıl anlaşılır kılan kısım orası.",
+    "en": "The Turkish translation of Git’s official book. The internals chapter — object model, refs — is what frees you from memorising commands and actually makes Git make sense.",
+    "src": "kedi",
+    "added": 1776690077
+  },
+  {
+    "url": "https://prometheus.io",
+    "name": "Prometheus",
+    "tags": [
+      "devops",
+      "gözlemlenebilirlik",
+      "açık-kaynak"
+    ],
+    "tr": "Metrik toplama ve uyarı için açık kaynak izleme sistemi; zaman serisi veritabanı içerir.",
+    "en": "An open-source monitoring system for metrics collection and alerting, with a time-series database.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://www.rabbitmq.com/tutorials",
+    "name": "RabbitMQ Öğreticileri",
+    "tags": [
+      "açık-kaynak",
+      "otomasyon"
+    ],
+    "tr": "Altı adımda mesaj kuyruğu desenlerini öğreten resmî seri: iş kuyruğu, yayın-abone, yönlendirme, RPC. Kafka olay akışına, bu görev dağıtımına odaklı.",
+    "en": "The official six-step series on queue patterns — work queues, pub/sub, routing, RPC. Kafka is for event streaming; this is for task distribution.",
+    "src": "kedi",
+    "added": 1776690087
+  },
+  {
+    "url": "https://redis.io/docs/latest/",
+    "name": "Redis Dokümantasyonu",
+    "tags": [
+      "dokümantasyon",
+      "veritabanı"
+    ],
+    "tr": "Liste, küme, sıralı küme ve akış gibi veri yapılarının referansı. Redis’i basit bir anahtar-değer deposu sanmak, elindeki aracın çoğunu kullanmamak demek.",
+    "en": "The reference for its data structures — lists, sets, sorted sets, streams. Treating Redis as a plain key-value store means leaving most of the tool unused.",
+    "src": "kedi",
+    "added": 1776690086
+  },
+  {
+    "url": "https://sentry.io/welcome/",
+    "name": "Sentry",
+    "tags": [
+      "freemium",
+      "açık-kaynak",
+      "gözlemlenebilirlik"
+    ],
+    "tr": "Hataları yığın izi, kaynak haritası ve kullanıcı bağlamıyla topluyor ve benzerlerini grupluyor. Günlük dosyası okumaya karşı, aynı hatanın kaç kullanıcıyı etkilediğini gösteriyor.",
+    "en": "Collects errors with stack traces, source maps and user context, grouping duplicates. Against reading log files, it tells you how many users a given error actually hit.",
+    "src": "kedi",
+    "added": 1783080974
+  },
+  {
+    "url": "https://www.shellcheck.net/",
+    "name": "ShellCheck",
+    "tags": [
+      "açık-kaynak",
+      "cli",
+      "ücretsiz"
+    ],
+    "tr": "Kabuk betiklerindeki hataları bulan statik çözümleyici; tırnaklanmamış değişken, yanlış test söz dizimi, taşınabilirlik sorunları. `bash -n`’den farkı sözdizimi değil anlam denetimi yapması — çalışan ama yanlış davranan betiği yakalıyor.",
+    "en": "A static analyser for shell scripts that finds unquoted variables, wrong test syntax and portability traps. Against `bash -n` it checks meaning rather than syntax, so it catches the script that runs and misbehaves.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://temporal.io/",
+    "name": "Temporal",
+    "tags": [
+      "açık-kaynak",
+      "otomasyon"
+    ],
+    "tr": "İş akışı durumunu olay geçmişi olarak kaydediyor; süreç çökerse aynı noktadan devam ediyor. Günlerce süren ve yeniden başlatılamayan işlemler için tasarlanmış.",
+    "en": "Records workflow state as an event history, so a crashed process resumes at the same point. Built for multi-day operations that cannot simply be restarted.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://www.terraform.io",
+    "name": "Terraform",
+    "tags": [
+      "devops",
+      "otomasyon"
+    ],
+    "tr": "Altyapıyı kod olarak tanımlayıp sağlayan HashiCorp aracı; bulut kaynaklarını bildirimsel yönetir.",
+    "en": "HashiCorp's tool to define and provision infrastructure as code, managing cloud resources declaratively.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://vercel.com/",
+    "name": "Vercel",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "sunucu",
+      "gömülü"
+    ],
+    "tr": "Ön yüz odaklı dağıtım; her PR için önizleme ortamı açması sektörde standart hâline geldi. Next.js’in arkasındaki şirket, dolayısıyla o çatıda en iyi entegrasyon burada.",
+    "en": "Frontend-focused deployment whose per-PR preview environments became an industry standard. It is the company behind Next.js, so integration with that framework is tightest here.",
+    "src": "kedi",
+    "added": 1782369927
+  },
+  {
+    "url": "https://www.yamllint.com/",
+    "name": "YAMLlint",
+    "tags": [
+      "tarayıcı-içi",
+      "ücretsiz",
+      "devops"
+    ],
+    "tr": "YAML doğrulayıcı; girinti ve tırnak hatalarını gösterip belgeyi ayrıştırılmış hâliyle basıyor. JSON doğrulayıcılardan farkı YAML’ın asıl tuzağını yakalaması — girintinin sessizce yanlış yapıyı üretmesi.",
+    "en": "A YAML validator that surfaces indentation and quoting errors and prints the parsed document back. Against a JSON validator it catches YAML’s actual trap: indentation that silently produces the wrong structure.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://zapier.com/",
+    "name": "Zapier",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "otomasyon"
+    ],
+    "tr": "En geniş entegrasyon kataloğu — bağlanmak istediğin niş SaaS büyük ihtimalle burada var. Fiyatlandırma görev başına, yani hacim arttıkça hızla pahalılaşıyor.",
+    "en": "The widest integration catalogue — the niche SaaS you want is probably already there. Pricing is per task, so it gets expensive quickly as volume grows.",
+    "src": "kedi",
+    "added": 1787000000
+  }
+]

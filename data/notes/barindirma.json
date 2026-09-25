@@ -1,0 +1,491 @@
+[
+  {
+    "url": "https://adguard.com/en/adguard-home/overview.html",
+    "name": "AdGuard Home",
+    "tags": [
+      "açık-kaynak",
+      "self-hosted",
+      "ağ",
+      "gizlilik"
+    ],
+    "tr": "Pi-hole ile aynı işi yapan ağ geneli engelleyici; farkı DNS-over-HTTPS ve DNS-over-TLS sunucusunu kendi içinde barındırması ve istemci başına ayrı kural yazmaya izin vermesi. Tek ikili dosya, ek bağımlılık yok.",
+    "en": "A network-wide blocker doing the same job as Pi-hole; what differs is that it ships its own DNS-over-HTTPS and DNS-over-TLS server and lets you write per-client rules. One binary, no extra dependencies.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://appwrite.io",
+    "name": "Appwrite",
+    "tags": [
+      "self-hosted",
+      "açık-kaynak",
+      "sunucu"
+    ],
+    "tr": "Kimlik doğrulama, veritabanı, depolama ve fonksiyonları self-hosted sunan açık kaynak arka uç (BaaS).",
+    "en": "An open-source backend-as-a-service offering auth, database, storage and functions, self-hostable.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://www.audiobookshelf.org/",
+    "name": "Audiobookshelf",
+    "tags": [
+      "açık-kaynak",
+      "self-hosted",
+      "ses"
+    ],
+    "tr": "Sesli kitap ve podcast koleksiyonunu kendi sunucunda yönetip yayınlayan uygulama; ilerleme cihazlar arasında eşitleniyor. Plex ya da Jellyfin’den farkı sesli kitaba özgü olması — bölüm işaretleri, hız ayarı ve seri takibi doğru çalışıyor.",
+    "en": "A self-hosted server for managing and streaming your audiobook and podcast collection, with progress synced across devices. Unlike Plex or Jellyfin it is built for audiobooks specifically, so chapter marks, playback speed and series tracking behave properly.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://github.com/jonleibowitz/awesome-digitalocean",
+    "name": "Awesome DigitalOcean",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "sunucu",
+      "devops"
+    ],
+    "tr": "DigitalOcean bulut platformu için araç ve rehber listesi.",
+    "en": "A list of tools and guides for the DigitalOcean cloud platform.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/ianstormtaylor/awesome-heroku",
+    "name": "Awesome Heroku",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "sunucu",
+      "devops"
+    ],
+    "tr": "Heroku PaaS için eklenti, buildpack ve kaynak listesi.",
+    "en": "A list of add-ons, buildpacks and resources for the Heroku PaaS.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/frenck/awesome-home-assistant",
+    "name": "Awesome Home Assistant",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "self-hosted"
+    ],
+    "tr": "Açık kaynak ev otomasyonu Home Assistant için eklenti, bileşen ve pano listesi. Resmî entegrasyonlardan farkı topluluk yapımı özel bileşenleri ve otomasyonları toplaması.",
+    "en": "A list of add-ons, components and dashboards for Home Assistant, the open-source home automation platform. Unlike the official integrations it gathers community-made custom components and automations.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://awesome-selfhosted.net/",
+    "name": "Awesome-Selfhosted",
+    "tags": [
+      "self-hosted",
+      "sunucu",
+      "awesome-liste",
+      "açık-kaynak"
+    ],
+    "tr": "Kendi sunucunda barındırabileceğin özgür yazılım servislerinin kategorilere ayrılmış kanonik listesi. Ham GitHub listesinden farkı gezilebilir sitesi: her giriş lisans, dil ve “aktif mi” bilgisiyle filtrelenebiliyor, bulut hizmetine bağımlı kalmadan alternatif aramanın standart yeri.",
+    "en": "The canonical, categorised list of free-software services you can host on your own server. Unlike the raw GitHub list its browsable site filters every entry by licence, language and whether it is still active — the standard place to find an alternative without depending on a cloud service.",
+    "src": "lowkwiki"
+  },
+  {
+    "url": "https://caprover.com",
+    "name": "CapRover",
+    "tags": [
+      "self-hosted",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Kendi sunucunda tek tıkla uygulama ve Docker dağıtımı yapan ücretsiz, self-hosted PaaS.",
+    "en": "A free, self-hosted PaaS for one-click apps and Docker deploys on your own server.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://www.cloudron.io",
+    "name": "Cloudron",
+    "tags": [
+      "self-hosted",
+      "otomasyon",
+      "freemium"
+    ],
+    "tr": "Web uygulamalarını yönetilen güncelleme, yedek ve tek oturum açmayla kendi sunucunda barındırır.",
+    "en": "Self-hosts web apps with managed updates, backups and single sign-on.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://coolify.io",
+    "name": "Coolify",
+    "tags": [
+      "self-hosted",
+      "açık-kaynak",
+      "otomasyon"
+    ],
+    "tr": "Kendi sunucunda çalıştırdığın açık kaynak PaaS; Heroku/Netlify'a self-hosted alternatif.",
+    "en": "An open-source self-hosted PaaS you run on your own server — a self-hosted alternative to Heroku/Netlify.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://github.com/Freika/dawarich",
+    "name": "Dawarich",
+    "tags": [
+      "açık-kaynak",
+      "self-hosted",
+      "gizlilik"
+    ],
+    "tr": "Konum geçmişini kendi sunucunda tutan ve haritada gösteren uygulama; Google Location History dışa aktarımını içe alabiliyor. Google’ın kendi hizmetinden farkı verinin sende kalması ve kapatıldığında kaybolmaması.",
+    "en": "Self-hosted location history with a map view, able to import a Google Location History export. The difference from Google’s own service is that the data stays with you — and does not vanish when the product is discontinued.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://deno.com/deploy",
+    "name": "Deno Deploy",
+    "tags": [
+      "sunucu",
+      "freemium"
+    ],
+    "tr": "JavaScript/TypeScript kodunu küresel kenar ağında sunucusuz çalıştıran platform.",
+    "en": "A platform that runs JavaScript/TypeScript serverless on a global edge network.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://www.digitalocean.com/",
+    "name": "DigitalOcean",
+    "tags": [
+      "sunucu",
+      "freemium"
+    ],
+    "tr": "Geliştirici dostu, sade fiyatlı bulut sunucu (droplet) sağlayıcısı.",
+    "en": "A developer-friendly cloud server (droplet) provider with simple pricing.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://dokku.com",
+    "name": "Dokku",
+    "tags": [
+      "self-hosted",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Tek sunucuda git-push ile çalışan, en küçük açık kaynak Heroku benzeri PaaS.",
+    "en": "The smallest open-source Heroku-like PaaS, running on a single host via git push.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://www.dreamhost.com/",
+    "name": "DreamHost",
+    "tags": [
+      "sunucu",
+      "ücretli"
+    ],
+    "tr": "Yüksek erişilebilirlikli paylaşımlı ve bulut web barındırma.",
+    "en": "High-availability shared and cloud web hosting.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://element.io/",
+    "name": "Element",
+    "tags": [
+      "açık-kaynak",
+      "gizlilik",
+      "self-hosted"
+    ],
+    "tr": "Matrix protokolü üzerine kurulu mesajlaşma istemcisi; uçtan uca şifreleme ve sunucular arası federasyon var. Slack ya da Discord’dan farkı bu federasyon: farklı sunucudaki iki kişi tek bir şirkete bağlı olmadan aynı odada konuşabiliyor.",
+    "en": "A messaging client on the Matrix protocol, with end-to-end encryption and federation between servers. That federation is the break from Slack or Discord: two people on different servers share a room without a single company in the middle.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://feedly.com/",
+    "name": "Feedly",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "api"
+    ],
+    "tr": "RSS okuyucu. Algoritmik akışların aksine ne okuyacağına kaynak düzeyinde sen karar veriyorsun; okumadığın şey de kaybolmuyor.",
+    "en": "An RSS reader where you decide what you read at the source level, unlike algorithmic feeds — and nothing you have not read disappears.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://fly.io",
+    "name": "Fly.io",
+    "tags": [
+      "sunucu",
+      "freemium"
+    ],
+    "tr": "Uygulama konteynerlerini kullanıcıya yakın kenar konumlarda çalıştırır; küresel dağıtım, Postgres ve disk.",
+    "en": "Runs app containers at edge locations close to users, with global deploy, Postgres and volumes.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://geek-cookbook.funkypenguin.co.nz/",
+    "name": "Geek Cookbook",
+    "tags": [
+      "self-hosted",
+      "sunucu",
+      "docker",
+      "öğretici"
+    ],
+    "tr": "Docker Swarm üzerinde yüksek erişilebilir bir “özel bulut” kurmak için uçtan uca tarifler. Awesome-Selfhosted’un liste yaklaşımından farkı adım adım kurulum vermesi: hangi yazılımı seçeceğini değil, seçtiğini üretimde nasıl ayağa kaldıracağını anlatıyor.",
+    "en": "End-to-end recipes for building a highly-available “private cloud” on Docker Swarm. Unlike Awesome-Selfhosted’s list approach it gives step-by-step deployment: not which software to pick, but how to stand up the one you picked in production.",
+    "src": "lowkwiki"
+  },
+  {
+    "url": "https://www.heroku.com/",
+    "name": "Heroku",
+    "tags": [
+      "sunucu",
+      "freemium"
+    ],
+    "tr": "Kodu git ile itip anında yayına alan hizmet olarak platform (PaaS).",
+    "en": "A platform-as-a-service that deploys code instantly on a git push.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://www.hostinger.com/",
+    "name": "Hostinger",
+    "tags": [
+      "sunucu",
+      "ücretli"
+    ],
+    "tr": "Uygun fiyatlı paylaşımlı ve bulut web barındırma.",
+    "en": "Affordable shared and cloud web hosting.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://immich.app/",
+    "name": "Immich",
+    "tags": [
+      "açık-kaynak",
+      "self-hosted",
+      "gizlilik"
+    ],
+    "tr": "Google Photos’un kendi sunucunda çalışan karşılığı: telefondan otomatik yükleme, yüz tanıma, harita ve zaman çizelgesi. Diğer öz-barındırılan galerilerden farkı mobil uygulamanın gerçekten arka planda yedekleme yapması — çoğu bunu beceremiyor.",
+    "en": "A self-hosted answer to Google Photos: background upload from the phone, face recognition, map and timeline. What separates it from other self-hosted galleries is that the mobile app actually backs up in the background, which most of them never manage.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://infinityfree.net/",
+    "name": "InfinityFree",
+    "tags": [
+      "sunucu",
+      "ücretsiz",
+      "php"
+    ],
+    "tr": "PHP ve MySQL destekli, tümüyle ücretsiz web barındırma.",
+    "en": "Completely free web hosting with PHP and MySQL support.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://keepnote.org/",
+    "name": "KeepNote",
+    "tags": [
+      "açık-kaynak",
+      "referans",
+      "masaüstü"
+    ],
+    "tr": "Basit ve taşınabilir not defteri; notları düz dosya olarak diskte tutuyor. Bulut not uygulamalarının kapanma riskine karşı sade bir sigorta.",
+    "en": "A simple, portable notebook keeping notes as plain files on disk — a modest hedge against cloud note apps shutting down.",
+    "src": "kedi",
+    "added": 1753809782
+  },
+  {
+    "url": "https://www.koyeb.com",
+    "name": "Koyeb",
+    "tags": [
+      "sunucu",
+      "freemium"
+    ],
+    "tr": "Uygulama ve konteynerleri küresel, git güdümlü ve sıfıra ölçeklenen sunucusuz biçimde dağıtır.",
+    "en": "Deploys apps and containers globally, git-driven and serverless with scale-to-zero.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://www.libreoffice.org/",
+    "name": "LibreOffice",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "masaüstü"
+    ],
+    "tr": "Yazı, hesap tablosu, sunum ve veritabanı içeren ofis paketi; varsayılan biçimi açık standart ODF. Microsoft Office ile farkı lisans ve veri sahipliği; karşılığında karmaşık .docx düzenlerinde ufak kaymalar görebiliyorsun.",
+    "en": "An office suite of writer, spreadsheet, presentation and database, defaulting to the open ODF standard. The difference from Microsoft Office is licensing and data ownership; the price is occasional layout drift on complex .docx files.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://www.linode.com",
+    "name": "Linode (Akamai)",
+    "tags": [
+      "sunucu",
+      "ücretli"
+    ],
+    "tr": "Öngörülebilir fiyatlı Linux sanal makineleriyle geliştirici dostu VPS bulutu.",
+    "en": "A developer-friendly VPS cloud with predictably priced Linux virtual machines.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://logseq.com/",
+    "name": "Logseq",
+    "tags": [
+      "açık-kaynak",
+      "masaüstü",
+      "ücretsiz"
+    ],
+    "tr": "Madde temelli, çift yönlü bağlantı kuran not uygulaması; notları düz Markdown dosyası olarak diskte tutuyor. Notion’dan farkı verinin senin klasöründe olması, Obsidian’dan farkı ana birimin sayfa değil madde olması — günlük tutmaya daha uygun.",
+    "en": "An outliner with bi-directional links that keeps every note as a plain Markdown file on disk. Against Notion the data is in your folder; against Obsidian the primary unit is the block rather than the page, which suits daily journalling better.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://www.netlify.com",
+    "name": "Netlify",
+    "tags": [
+      "sunucu",
+      "freemium",
+      "otomasyon"
+    ],
+    "tr": "Modern statik ve JAMstack siteleri için git-push ile dağıtım, kenar sunucu, form ve fonksiyonlar sunan barındırma.",
+    "en": "Hosting for modern static and JAMstack sites with git-push deploys, edge, forms and functions.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://nextcloud.com/",
+    "name": "Nextcloud",
+    "tags": [
+      "açık-kaynak",
+      "self-hosted",
+      "sunucu"
+    ],
+    "tr": "Kendi sunucunda çalışan dosya senkronizasyonu ve iş birliği paketi: takvim, kişiler, belge düzenleme, sohbet. Syncthing’den farkı web arayüzü ve paylaşım bağlantıları sunması — eşitleme değil, Google Workspace’in yerini almaya çalışıyor.",
+    "en": "A self-hosted file sync and collaboration suite: calendar, contacts, document editing, chat. Where Syncthing only syncs, this adds a web interface and share links — it is aiming at Google Workspace rather than at Dropbox.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://organicmaps.app/",
+    "name": "Organic Maps",
+    "tags": [
+      "açık-kaynak",
+      "gizlilik",
+      "ücretsiz"
+    ],
+    "tr": "OpenStreetMap verisiyle çalışan çevrimdışı harita ve navigasyon uygulaması; izleyici ve reklam yok. Maps.me’den farkı onun ticarileşmesinin ardından çatallanmış olması — eski reklamsız hâlin devamı.",
+    "en": "An offline map and navigation app on OpenStreetMap data, with no trackers and no ads. It is the fork Maps.me spawned when that went commercial — the continuation of the version people actually liked.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://pi-hole.net/",
+    "name": "Pi-hole",
+    "tags": [
+      "açık-kaynak",
+      "self-hosted",
+      "ağ",
+      "gizlilik"
+    ],
+    "tr": "Ağ geneli reklam engelleyici: DNS sunucusu olarak çalışıp reklam ve izleyici alan adlarını boşa düşürüyor. Tarayıcı eklentisinden farkı akıllı televizyon, telefon uygulaması ve IoT cihazlarını da kapsaması — eklenti kurulamayan her şeyi.",
+    "en": "A network-wide ad blocker that runs as your DNS server and sinkholes ad and tracker domains. Unlike a browser extension it also covers smart TVs, phone apps and IoT devices — everything you cannot install an extension on.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://www.pikapods.com",
+    "name": "PikaPods",
+    "tags": [
+      "self-hosted",
+      "freemium"
+    ],
+    "tr": "Açık kaynak uygulamaları sunucu yönetimi derdi olmadan yönetilen biçimde barındırır.",
+    "en": "Managed hosting that runs open-source apps without you administering a server.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://railway.app",
+    "name": "Railway",
+    "tags": [
+      "sunucu",
+      "freemium"
+    ],
+    "tr": "Uygulama ve veritabanlarını git'ten en az yapılandırmayla anında dağıtan altyapı.",
+    "en": "Infrastructure that deploys apps and databases from git with minimal configuration, instantly.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://render.com",
+    "name": "Render",
+    "tags": [
+      "sunucu",
+      "freemium"
+    ],
+    "tr": "Web servisleri, statik siteler ve veritabanlarını tek yerde toplayan, Heroku sadeliğinde bulut.",
+    "en": "A unified cloud for web services, static sites and databases with Heroku-like simplicity.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://www.rocket.chat/",
+    "name": "Rocket.Chat",
+    "tags": [
+      "açık-kaynak",
+      "self-hosted",
+      "sunucu"
+    ],
+    "tr": "Kendi sunucuna kurulabilen takım mesajlaşma platformu; kanal, tez (thread), sesli görüşme ve köprüler (bridge) var. Slack’ten farkı verinin senin altyapında kalması ve mesaj geçmişinin ücretli plan arkasına kilitlenmemesi.",
+    "en": "A self-hostable team messaging platform with channels, threads, voice and bridges. Against Slack, the data stays on your infrastructure and message history is not locked behind a paid tier.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://selfh.st/",
+    "name": "selfh.st",
+    "tags": [
+      "self-hosted",
+      "sunucu",
+      "ücretsiz"
+    ],
+    "tr": "Kendinden barındırma dünyasından haftalık haber, yeni yazılım ve güncelleme derleyen bülten ve içerik sitesi. Statik listelerden farkı akış olması: yeni ne çıktı, ne güncellendi diye takip etmek için canlı, tarihli bir kaynak.",
+    "en": "A newsletter and content site rounding up weekly news, new software and updates from the self-hosting world. Unlike static lists it is a feed: a live, dated source for tracking what launched and what was updated.",
+    "src": "lowkwiki"
+  },
+  {
+    "url": "https://surge.sh/",
+    "name": "Surge",
+    "tags": [
+      "sunucu",
+      "frontend",
+      "ücretsiz",
+      "cli"
+    ],
+    "tr": "Statik siteleri tek komutla yayına alan ücretsiz barındırma.",
+    "en": "Free hosting that publishes static sites with a single command.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://syncthing.net/",
+    "name": "Syncthing",
+    "tags": [
+      "açık-kaynak",
+      "self-hosted",
+      "gizlilik"
+    ],
+    "tr": "Cihazlar arası sürekli dosya eşitleme; merkezî sunucu yok, cihazlar doğrudan konuşuyor. Dropbox’tan farkı buluta hiç kopya çıkmaması — depolama kotası da yok, diskin kadar yer var.",
+    "en": "Continuous file synchronisation between devices with no central server: the devices talk directly. Unlike Dropbox no copy ever reaches a cloud, and there is no storage quota — you have as much room as you have disk.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://www.thunderbird.net/en-US/",
+    "name": "Thunderbird",
+    "tags": [
+      "açık-kaynak",
+      "masaüstü",
+      "gizlilik"
+    ],
+    "tr": "Mozilla çatısı altındaki masaüstü e-posta istemcisi; IMAP, takvim, kişiler ve OpenPGP imzalama bir arada. Web arayüzlerinden farkı postanın yerelde durması ve sağlayıcıyı değiştirdiğinde arşivinin seninle kalması.",
+    "en": "A desktop mail client under the Mozilla umbrella, with IMAP, calendar, contacts and OpenPGP signing in one place. Against webmail, the archive lives on your disk and stays yours when you change provider.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://yunohost.org/",
+    "name": "YunoHost",
+    "tags": [
+      "self-hosted",
+      "sunucu",
+      "açık-kaynak"
+    ],
+    "tr": "Kendi sunucunu tek tıkla uygulama kuran bir işletim sistemine çeviren proje. El ile Docker kurmaktan farkı yönetimi soyutlaması: kullanıcı, alan adı ve yedeği tek panelden yönetiyorsun, katalogdaki uygulamalar tek komutla geliyor.",
+    "en": "A project that turns your own server into an operating system with one-click app installs. Unlike setting up Docker by hand it abstracts the admin: you manage users, domains and backups from one panel, and catalog apps install in a single step.",
+    "src": "lowkwiki"
+  }
+]

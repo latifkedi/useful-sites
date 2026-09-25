@@ -1,0 +1,219 @@
+[
+  {
+    "url": "https://www.adafruit.com",
+    "name": "Adafruit",
+    "tags": [
+      "donanım",
+      "öğretici",
+      "açık-kaynak"
+    ],
+    "tr": "Açık kaynak donanım ve her kart için başlangıç dostu, dev bir öğrenme rehberi kütüphanesi.",
+    "en": "Open-source hardware plus a huge library of beginner-friendly learning guides for every board.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://learn.adafruit.com/",
+    "name": "Adafruit Learn",
+    "tags": [
+      "öğretici",
+      "ücretsiz",
+      "gömülü"
+    ],
+    "tr": "Mikrodenetleyici, sensör ve elektronik projeleri için adım adım, resimli rehberler. Ürün sayfalarından farkı satın alınan parçayı çalışır bir projeye kadar götürmesi.",
+    "en": "Step-by-step, illustrated guides for microcontroller, sensor and electronics projects. Unlike product pages it carries the part you bought all the way to a working project.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://www.allaboutcircuits.com/",
+    "name": "All About Circuits",
+    "tags": [
+      "öğretici",
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Elektrik ve elektroniği temelden anlatan ücretsiz ders, hesaplayıcı ve forum. Dağınık videolardan farkı DC’den sayısal tasarıma sıralı, ders kitabı düzeninde ilerlemesi.",
+    "en": "Free lessons, calculators and a forum teaching electrical and electronics from the ground up. Unlike scattered videos it progresses in textbook order from DC to digital design.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://github.com/adafruit/awesome-circuitpython",
+    "name": "Awesome CircuitPython",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "python"
+    ],
+    "tr": "Mikrodenetleyicilerde Python (CircuitPython) için kütüphane ve proje listesi. Genel gömülü listelerinden farkı C yerine Python’la donanım programlamaya odaklanması.",
+    "en": "A list of libraries and projects for Python on microcontrollers (CircuitPython). Unlike general embedded lists it focuses on programming hardware in Python rather than C.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/kitspace/awesome-electronics",
+    "name": "Awesome Electronics",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "referans"
+    ],
+    "tr": "Elektronik mühendisleri ve hobiciler için araç, üretici ve topluluk listesi. Genel donanım listelerinden farkı PCB tasarımı, komponent tedariki ve simülasyona odaklanması.",
+    "en": "A list of tools, manufacturers and communities for electronics engineers and hobbyists. Unlike general hardware lists it focuses on PCB design, component sourcing and simulation.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/agucova/awesome-esp",
+    "name": "Awesome ESP",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "gömülü"
+    ],
+    "tr": "WiFi’li ucuz mikrodenetleyiciler ESP8266/ESP32 için kütüphane ve proje listesi. Genel gömülü listelerden farkı bu yonga ailesine ve kablosuz projelere odaklanması.",
+    "en": "A list of libraries and projects for the ESP8266/ESP32, cheap microcontrollers with WiFi. Unlike general embedded lists it focuses on this chip family and wireless projects.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://www.electronics-tutorials.ws",
+    "name": "Basic Electronics Tutorials",
+    "tags": [
+      "öğretici",
+      "referans",
+      "ücretsiz",
+      "donanım"
+    ],
+    "tr": "Elektronik temellerini kademeli, konu konu anlatan ücretsiz öğretici arşivi.",
+    "en": "A free archive of tutorials teaching electronics fundamentals step by step, topic by topic.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://circuitdigest.com",
+    "name": "Circuit Digest",
+    "tags": [
+      "donanım",
+      "öğretici",
+      "ücretsiz"
+    ],
+    "tr": "Kodları ve şemalarıyla çalışan elektronik projeleri ve öğreticileri.",
+    "en": "Worked electronics projects and tutorials with schematics and code.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://easyeda.com",
+    "name": "EasyEDA",
+    "tags": [
+      "tarayıcı-içi",
+      "donanım",
+      "ücretsiz"
+    ],
+    "tr": "Tarayıcıda çalışan PCB şema ve yerleşim tasarımı; JLCPCB parça kütüphanesine bağlı.",
+    "en": "Browser-based PCB schematic and layout design, tied to the JLCPCB parts library.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://www.falstad.com/circuit/",
+    "name": "Falstad Circuit Simulator",
+    "tags": [
+      "interaktif",
+      "ücretsiz",
+      "tarayıcı-içi"
+    ],
+    "tr": "Devreyi tarayıcıda çizip akım ve gerilimi canlı animasyonla gösteren simülatör. Statik şemalardan farkı elektronun nasıl aktığını gerçek zamanlı görmen — sezgi kurmak için.",
+    "en": "A simulator that lets you draw a circuit in the browser and shows current and voltage as a live animation. Unlike static schematics you see how the electrons flow in real time — for intuition.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://hackaday.com",
+    "name": "Hackaday",
+    "tags": [
+      "donanım",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Donanım hack'leri ve maker projelerinin günlük yayınlandığı merkez.",
+    "en": "The daily hub for hardware hacks and maker projects.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://www.hackster.io",
+    "name": "Hackster.io",
+    "tags": [
+      "donanım",
+      "gömülü",
+      "öğretici",
+      "ücretsiz"
+    ],
+    "tr": "Adım adım IoT ve gömülü sistem projelerinin paylaşıldığı donanım topluluğu.",
+    "en": "A hardware community sharing step-by-step IoT and embedded projects.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://jlcpcb.com",
+    "name": "JLCPCB",
+    "tags": [
+      "donanım",
+      "ücretli"
+    ],
+    "tr": "Düşük maliyetli, küçük partili PCB üretimi ve montaj hizmeti.",
+    "en": "Low-cost, small-batch PCB fabrication and assembly.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://www.pcbway.com",
+    "name": "PCBWay",
+    "tags": [
+      "donanım",
+      "ücretli"
+    ],
+    "tr": "PCB prototipleme ve üretiminin yanında proje paylaşım topluluğu sunar.",
+    "en": "PCB prototyping and fabrication alongside a project-sharing community.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://www.snapmagic.com",
+    "name": "SnapMagic (SnapEDA)",
+    "tags": [
+      "donanım",
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Parçalar için hazır CAD sembol ve ayak izlerini ücretsiz sunan kütüphane; EDA araçlarına aktarılır. SnapEDA 2024'te SnapMagic adını aldı.",
+    "en": "A library of free ready-made CAD symbols and footprints for parts, exportable to EDA tools. SnapEDA was renamed SnapMagic in 2024.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://www.sparkfun.com",
+    "name": "SparkFun",
+    "tags": [
+      "donanım",
+      "öğretici",
+      "ücretsiz"
+    ],
+    "tr": "Maker elektronik mağazası; her modüle bağlı proje odaklı geniş bir öğretici sistemi var.",
+    "en": "A maker-electronics store with an extensive project-based tutorial system tied to each module.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://learn.sparkfun.com/",
+    "name": "SparkFun Learn",
+    "tags": [
+      "öğretici",
+      "ücretsiz",
+      "gömülü"
+    ],
+    "tr": "Elektronik temelleri ve gömülü projeler için öğretici kütüphanesi. Adafruit’e benzer; farkı lehim, güç ve iletişim protokolleri gibi temel kavramlara daha çok eğilmesi.",
+    "en": "A tutorial library for electronics basics and embedded projects. Similar to Adafruit; it leans more into foundational concepts like soldering, power and communication protocols.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://www.tinkercad.com",
+    "name": "Tinkercad",
+    "tags": [
+      "tarayıcı-içi",
+      "öğretici",
+      "ücretsiz",
+      "gömülü"
+    ],
+    "tr": "Tarayıcıda 3B tasarım ve devre/Arduino benzetimi; yeni başlayanlar için elektronik oyun alanı.",
+    "en": "Browser 3D design plus circuit and Arduino simulation — an electronics playground for beginners.",
+    "src": "kedi"
+  }
+]

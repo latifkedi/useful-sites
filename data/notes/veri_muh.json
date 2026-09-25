@@ -1,0 +1,290 @@
+[
+  {
+    "url": "https://airbyte.com",
+    "name": "Airbyte",
+    "tags": [
+      "veri-bilimi",
+      "açık-kaynak",
+      "otomasyon",
+      "self-hosted"
+    ],
+    "tr": "Geniş bağlayıcı kataloğuyla açık kaynak veri entegrasyonu (ELT); kendi sunucunda barındırılabilir.",
+    "en": "Open-source data integration (ELT) with a huge connector catalogue; self-hostable.",
+    "src": "dataeng"
+  },
+  {
+    "url": "https://flink.apache.org/",
+    "name": "Apache Flink",
+    "tags": [
+      "açık-kaynak",
+      "otomasyon"
+    ],
+    "tr": "Gerçek zamanlı akış işleme motoru; olayları geldikçe, düşük gecikmeyle işler. Spark’ın toplu kökeninden farkı akışı birinci sınıf model olarak alması.",
+    "en": "A real-time stream-processing engine that handles events as they arrive, with low latency. Unlike Spark’s batch roots it treats streaming as the first-class model.",
+    "src": "dataeng"
+  },
+  {
+    "url": "https://iceberg.apache.org/",
+    "name": "Apache Iceberg",
+    "tags": [
+      "açık-kaynak",
+      "veritabanı"
+    ],
+    "tr": "Büyük analitik tablolar için açık tablo biçimi; şema evrimi, zaman yolculuğu ve atomik yazma verir. Ham Parquet dizininden farkı tabloyu tutarlı, sürümlenebilir bir birim gibi yönetmesi.",
+    "en": "An open table format for large analytical tables, giving schema evolution, time travel and atomic writes. Unlike a raw Parquet directory it manages the table as a consistent, versioned unit.",
+    "src": "dataeng"
+  },
+  {
+    "url": "https://kafka.apache.org/",
+    "name": "Apache Kafka",
+    "tags": [
+      "açık-kaynak",
+      "otomasyon",
+      "backend"
+    ],
+    "tr": "Olay akışlarını dayanıklı bir günlük olarak taşıyan dağıtık mesaj platformu. Klasik kuyruklardan farkı mesajı okunduktan sonra silmeyip tekrar oynatılabilir tutması.",
+    "en": "A distributed messaging platform carrying event streams as a durable log. Unlike classic queues it keeps messages replayable rather than deleting them once read.",
+    "src": "dataeng"
+  },
+  {
+    "url": "https://spark.apache.org/",
+    "name": "Apache Spark",
+    "tags": [
+      "açık-kaynak",
+      "veri-bilimi",
+      "otomasyon"
+    ],
+    "tr": "Büyük veriyi bellek üstünde dağıtık işleyen motor — toplu ve akış işleme. Tek makine kütüphanelerinden farkı terabaytları küme üzerinde bölüştürüp paralel işlemesi.",
+    "en": "An engine that processes big data in a distributed, in-memory way — batch and streaming. Unlike single-machine libraries it splits terabytes across a cluster and processes them in parallel.",
+    "src": "dataeng"
+  },
+  {
+    "url": "https://github.com/igorbarinov/awesome-data-engineering",
+    "name": "Awesome Data Engineering",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "referans"
+    ],
+    "tr": "Veri mühendisliğinin tüm katmanlarını — alım, depolama, işleme, orkestrasyon — araçlarıyla toplayan liste. Tek araca bağlı listelerden farkı yığının bütününü haritalaması.",
+    "en": "A list gathering every layer of data engineering — ingestion, storage, processing, orchestration — with tools. Unlike single-tool lists it maps the whole stack.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/youngwookim/awesome-hadoop",
+    "name": "Awesome Hadoop",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "veri-bilimi"
+    ],
+    "tr": "Dağıtık depolama ve işleme çatısı Hadoop için kaynak listesi.",
+    "en": "A resource list for Hadoop, the distributed storage and processing framework.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/dstdev/awesome-hpc",
+    "name": "Awesome HPC",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "veri-bilimi"
+    ],
+    "tr": "Yüksek başarımlı hesaplama (HPC) için araç, kütüphane ve kaynak listesi.",
+    "en": "A list of tools, libraries and resources for high-performance computing (HPC).",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/awesome-spark/awesome-spark",
+    "name": "Awesome Spark",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "açık-kaynak"
+    ],
+    "tr": "Apache Spark ekosistemi için paket, öğretici ve örnek listesi. Resmî dokümandan farkı topluluk kütüphanelerini ve gerçek dünya örneklerini toplaması.",
+    "en": "A list of packages, tutorials and examples for the Apache Spark ecosystem. Unlike the official docs it gathers community libraries and real-world examples.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://clickhouse.com",
+    "name": "ClickHouse",
+    "tags": [
+      "veri-bilimi",
+      "veritabanı",
+      "açık-kaynak",
+      "sunucu"
+    ],
+    "tr": "Analitik için sütun temelli OLAP veritabanı; büyük ölçekte çok hızlı toplama yapar.",
+    "en": "A columnar OLAP database for analytics, extremely fast at aggregations at scale.",
+    "src": "dataeng"
+  },
+  {
+    "url": "https://dagster.io/",
+    "name": "Dagster",
+    "tags": [
+      "açık-kaynak",
+      "otomasyon",
+      "python"
+    ],
+    "tr": "Veri varlıklarını merkeze alan orkestratör; her tabloyu bir “varlık” olarak izliyor. Airflow’dan farkı görevden çok üretilen veriye odaklanıp veri kalitesini yerleşik tutması.",
+    "en": "An orchestrator centred on data assets, tracking each table as an “asset”. Unlike Airflow it focuses on the data produced rather than the task, with data quality built in.",
+    "src": "dataeng"
+  },
+  {
+    "url": "https://www.dataengineeringpodcast.com",
+    "name": "Data Engineering Podcast",
+    "tags": [
+      "veri-bilimi",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Veri mühendisliği araç ve mimarilerini derinlemesine konuşan uzun söyleşiler.",
+    "en": "Long-form interviews digging deep into data-engineering tools and architectures.",
+    "src": "dataeng"
+  },
+  {
+    "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp",
+    "name": "Data Engineering Zoomcamp",
+    "tags": [
+      "müfredat",
+      "ücretsiz",
+      "github"
+    ],
+    "tr": "Veri mühendisliğini uçtan uca (Docker, dbt, Spark, Kafka, bulut) öğreten ücretsiz, projeli kurs. Dağınık öğreticilerden farkı gerçek bir boru hattını baştan sona kurdurması.",
+    "en": "A free, project-based course teaching data engineering end to end (Docker, dbt, Spark, Kafka, cloud). Unlike scattered tutorials it has you build a real pipeline from start to finish.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://www.databricks.com/",
+    "name": "Databricks",
+    "tags": [
+      "veri-bilimi",
+      "freemium",
+      "otomasyon"
+    ],
+    "tr": "Spark üstüne kurulu, veri gölü ile ambarı birleştiren (“lakehouse”) bulut platformu. Ayrı ambar ve göl kurmaktan farkı ikisini tek yönetişim ve defter arayüzünde toplaması.",
+    "en": "A cloud platform built on Spark that merges the data lake and warehouse (“lakehouse”). Unlike running a separate warehouse and lake it unites them under one governance and notebook interface.",
+    "src": "dataeng",
+    "added": 1785080576
+  },
+  {
+    "url": "https://datatalks.club",
+    "name": "DataTalks.Club",
+    "tags": [
+      "veri-bilimi",
+      "öğretici",
+      "ücretsiz",
+      "müfredat"
+    ],
+    "tr": "Uygulamalı veri mühendisliği ve ML kampları (zoomcamp) sunan ücretsiz topluluk.",
+    "en": "A free community offering hands-on data-engineering and ML zoomcamps.",
+    "src": "dataeng"
+  },
+  {
+    "url": "https://www.getdbt.com/",
+    "name": "dbt",
+    "tags": [
+      "açık-kaynak",
+      "veritabanı",
+      "otomasyon"
+    ],
+    "tr": "Veri ambarındaki dönüşümleri SQL + sürüm kontrolü + test ile yöneten araç. El yazımı SQL betiklerinden farkı bağımlılık grafiği, belge ve testi bir yazılım projesi gibi getirmesi.",
+    "en": "A tool managing data-warehouse transformations with SQL + version control + tests. Unlike hand-written SQL scripts it brings a dependency graph, docs and tests like a software project.",
+    "src": "dataeng"
+  },
+  {
+    "url": "https://delta.io",
+    "name": "Delta Lake",
+    "tags": [
+      "veri-bilimi",
+      "açık-kaynak"
+    ],
+    "tr": "Veri göllerine ACID işlemleri ve zaman-yolculuğu getiren açık depolama katmanı.",
+    "en": "An open storage layer bringing ACID transactions and time travel to data lakes.",
+    "src": "dataeng"
+  },
+  {
+    "url": "https://duckdb.org/",
+    "name": "DuckDB",
+    "tags": [
+      "açık-kaynak",
+      "veritabanı",
+      "veri-bilimi"
+    ],
+    "tr": "Süreç içinde çalışan analitik veritabanı — kurulum yok, dosyayı doğrudan sorguluyor. Sunucu gerektiren ambarlardan farkı tek makinede, Parquet/CSV üstünde “SQLite hızında OLAP” olması.",
+    "en": "An in-process analytical database — no server, it queries files directly. Unlike server-based warehouses it is “OLAP at SQLite speed” on one machine, over Parquet/CSV.",
+    "src": "dataeng"
+  },
+  {
+    "url": "https://greatexpectations.io",
+    "name": "Great Expectations",
+    "tags": [
+      "veri-bilimi",
+      "açık-kaynak",
+      "python"
+    ],
+    "tr": "Veriyi bildirimsel kurallarla doğrulayan ve belgeleyen veri kalitesi çatısı.",
+    "en": "A data-quality framework that validates and documents data with declarative expectations.",
+    "src": "dataeng"
+  },
+  {
+    "url": "https://github.com/dagworks-inc/hamilton",
+    "name": "Hamilton",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "python"
+    ],
+    "tr": "Veri dönüşümlerini fonksiyonlardan bir grafik olarak kuran hafif Python kütüphanesi. Ağır orkestratörlerden farkı tek dosyada, altyapı gerektirmeden bağımlılık grafiği vermesi.",
+    "en": "A lightweight Python library that builds data transformations as a graph from functions. Unlike heavy orchestrators it gives a dependency graph in a single file with no infrastructure.",
+    "src": "dataeng"
+  },
+  {
+    "url": "https://meltano.com",
+    "name": "Meltano",
+    "tags": [
+      "veri-bilimi",
+      "açık-kaynak",
+      "otomasyon"
+    ],
+    "tr": "Singer temelli, komut satırı ve yapılandırma odaklı açık kaynak DataOps ELT platformu.",
+    "en": "An open-source DataOps ELT platform, Singer-based and CLI/config-driven.",
+    "src": "dataeng"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/training/career-paths/data-engineer",
+    "name": "Microsoft · Data Engineer Path",
+    "tags": [
+      "müfredat",
+      "ücretsiz"
+    ],
+    "tr": "Bulut veri mühendisliğini modül modül öğreten Microsoft öğrenme patikası. Ürün dokümanından farkı sınavla ölçülen, sıralı bir beceri yolu olarak kurgulanması.",
+    "en": "A Microsoft learning path teaching cloud data engineering module by module. Unlike product docs it is framed as an ordered, exam-measured skill path.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://github.com/JerryLead/SparkInternals",
+    "name": "Spark Internals",
+    "tags": [
+      "github",
+      "öğretici",
+      "referans"
+    ],
+    "tr": "Apache Spark’ın içeride nasıl çalıştığını — zamanlama, karıştırma, bellek — anlatan derin belge. Kullanım kılavuzundan farkı motorun altını açması, performans ayarı için.",
+    "en": "A deep document on how Apache Spark works inside — scheduling, shuffle, memory. Unlike a usage guide it opens up the engine, for performance tuning.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://trino.io",
+    "name": "Trino",
+    "tags": [
+      "veri-bilimi",
+      "açık-kaynak",
+      "sunucu"
+    ],
+    "tr": "Veriyi bulunduğu yerde sorgulayan dağıtık SQL sorgu motoru; birçok kaynağı birleştirir.",
+    "en": "A distributed SQL query engine that queries data where it lives, across many sources.",
+    "src": "dataeng"
+  }
+]

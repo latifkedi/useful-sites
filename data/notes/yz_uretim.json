@@ -1,0 +1,600 @@
+[
+  {
+    "url": "https://firefly.adobe.com/",
+    "name": "Adobe Firefly",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "görsel-üretim"
+    ],
+    "tr": "Adobe Stock ve süresi dolmuş telifli eserlerle eğitildiği için ticari kullanımda hukuki risk düşük. Müşteri işinde tercih edilmesinin sebebi görsel kalitesi değil, bu lisans netliği.",
+    "en": "Trained on Adobe Stock and public-domain work, so commercial legal risk is low. It gets picked for client work because of that licence clarity, not image quality.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://auphonic.com/",
+    "name": "Auphonic",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "ses"
+    ],
+    "tr": "Seviye eşitleme, gürültü azaltma ve yayın normlarına (LUFS) göre ses yüksekliği ayarı yapıyor. Canlı değil son işlem aracı; podcast yayımlamadan önceki son adım.",
+    "en": "Levels, denoises and normalises loudness to broadcast targets (LUFS). A post-production tool, not a live one — the last step before a podcast ships.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://github.com/sindresorhus/awesome-whisper",
+    "name": "Awesome Whisper",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "llm",
+      "ses"
+    ],
+    "tr": "Açık kaynak konuşma tanıma modeli Whisper için araç ve kaynak listesi.",
+    "en": "A list of tools and resources for Whisper, the open-source speech-recognition model.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://www.bing.com/images/create",
+    "name": "Bing Image Creator",
+    "tags": [
+      "ücretsiz",
+      "görsel-üretim"
+    ],
+    "tr": "DALL·E tabanlı, Microsoft hesabı dışında engel yok. Kalite üst sınıf değil ama sürtünmesi en düşük seçeneklerden.",
+    "en": "DALL·E-based with no barrier beyond a Microsoft account. Not top-tier quality, but among the lowest-friction options.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://github.com/gd3kr/BlenderGPT",
+    "name": "BlenderGPT",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "3b",
+      "eklenti"
+    ],
+    "tr": "Doğal dil komutunu Blender Python API çağrısına çeviriyor. Model üretmiyor; Blender’ın kendi araçlarını senin yerine kullanıyor, yani sonuç tekrar edilebilir kalıyor.",
+    "en": "Translates a natural-language instruction into Blender Python API calls. It does not generate models — it operates Blender’s own tools for you, so the result stays reproducible.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://www.canva.com/",
+    "name": "Canva",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "görsel-üretim"
+    ],
+    "tr": "Şablon kütüphanesi ve marka kiti sayesinde tasarım bilgisi olmadan tutarlı çıktı alınıyor. Sınırı da bu: şablonların dışına çıkıldığında araç direniyor.",
+    "en": "A template library and brand kit produce consistent output without design skill. That is also the ceiling — the tool resists once you step outside the templates.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://www.capcut.com/",
+    "name": "CapCut",
+    "tags": [
+      "masaüstü",
+      "freemium",
+      "video"
+    ],
+    "tr": "Otomatik altyazı, konuşmacı takibi ve dikey format şablonları. Kısa video akışında Premiere gibi paketlerden kat kat hızlı; renk ve ses tarafında ise sığ.",
+    "en": "Auto-captioning, speaker tracking and vertical-format templates. Far faster than Premiere for short-form, and correspondingly shallow on colour and audio.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://clipdrop.co/",
+    "name": "Clipdrop",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "görsel-üretim",
+      "referans"
+    ],
+    "tr": "Nesne silme, yeniden ışıklandırma, büyütme ve arka plan değiştirmeyi tek yerde topluyor. Her biri için ayrı servis aramak yerine bir hesapla dolaşabiliyorsun.",
+    "en": "Bundles object removal, relighting, upscaling and background replacement in one place, so one account covers what would otherwise be several services.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://www.comfy.org/",
+    "name": "ComfyUI",
+    "tags": [
+      "açık-kaynak",
+      "self-hosted",
+      "görsel-üretim"
+    ],
+    "tr": "Üretim hattını düğüm grafiği olarak kuruyorsun: model yükleme, örnekleme, VAE çözme ayrı düğümler. Kurulumu zahmetli ama akış JSON olarak paylaşılıp birebir tekrar edilebiliyor.",
+    "en": "You build the pipeline as a node graph — model loading, sampling, VAE decode as separate nodes. Harder to set up, but a workflow exports as JSON and reproduces exactly.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://www.craiyon.com/",
+    "name": "Craiyon",
+    "tags": [
+      "ücretsiz",
+      "görsel-üretim"
+    ],
+    "tr": "Kayıt istemeden çalışıyor. Çıktı kalitesi güncel modellerin belirgin gerisinde; hızlı ve engelsiz denemeden başka bir iddiası yok.",
+    "en": "Works without signup. Output quality sits well behind current models; it claims nothing beyond fast, frictionless experimentation.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://github.com/carson-katri/dream-textures",
+    "name": "Dream Textures",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "3b",
+      "görsel-üretim"
+    ],
+    "tr": "Blender içinde doku ve HDRI üretiyor; kesintisiz (seamless) döşeme ve projeksiyonla doğrudan mesh üzerine boyama yapabiliyor. Dışarıda üretip içeri aktarma adımı kalkıyor.",
+    "en": "Generates textures and HDRIs inside Blender, with seamless tiling and projection painting straight onto a mesh — removing the generate-elsewhere-then-import step.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://github.com/lllyasviel/Fooocus",
+    "name": "Fooocus",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "self-hosted",
+      "görsel-üretim"
+    ],
+    "tr": "ComfyUI’nin karşı kutbu: örnekleyici, adım sayısı, CFG gibi ayarları gizleyip iyi varsayılanlarla çalışıyor. Midjourney benzeri bir deneyimi yerelde vermeyi hedefliyor.",
+    "en": "The opposite pole from ComfyUI — it hides sampler, steps and CFG behind good defaults, aiming to deliver a Midjourney-like experience locally.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://gamma.app/",
+    "name": "Gamma",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "llm"
+    ],
+    "tr": "Slayt yerine kaydırılabilir sayfa üretiyor; içerik uzadıkça düzen kendini ayarlıyor, kutuya sığdırma derdi kalkıyor. Çıktı PowerPoint ve PDF olarak alınabiliyor.",
+    "en": "Produces scrollable pages rather than slides, with the layout adapting as content grows so you stop fighting to fit a box. Exports to PowerPoint and PDF.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://www.homestyler.com/",
+    "name": "Homestyler",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "cad",
+      "referans"
+    ],
+    "tr": "Gerçek mobilya markalarının kataloğu üzerinden tasarım yapıyorsun, yani çıkan sahnedeki her parçanın satın alınabilir bir karşılığı var.",
+    "en": "You design from catalogues of real furniture brands, so every item in the scene has a purchasable counterpart.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://ideogram.ai/",
+    "name": "Ideogram",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "görsel-üretim"
+    ],
+    "tr": "Görsel içinde okunaklı metin üretebilen ender modellerden. Afiş, logo ve ambalaj denemelerinde diğer difüzyon modellerinin bozduğu harfleri düzgün çıkarıyor.",
+    "en": "One of the few models that renders legible text inside an image, getting letters right on posters, logos and packaging where other diffusion models mangle them.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://github.com/TencentARC/InstantMesh",
+    "name": "InstantMesh",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "3b"
+    ],
+    "tr": "Tek görselden çok görünüşlü difüzyonla ara görüntüler üretip bunlardan mesh çıkarıyor. Nokta bulutu değil doğrudan kullanılabilir yüzey vermesi, hattın kalan adımlarını kısaltıyor.",
+    "en": "Generates intermediate views from one image via multi-view diffusion, then reconstructs a mesh. Returning usable surfaces rather than a point cloud shortens the rest of the pipeline.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://github.com/invoke-ai/InvokeAI",
+    "name": "InvokeAI",
+    "tags": [
+      "açık-kaynak",
+      "self-hosted",
+      "görsel-üretim"
+    ],
+    "tr": "Sonsuz tuval üzerinde bölgesel üretim ve düzenleme; profesyonel iş akışı ve ekip kullanımı düşünülerek yapılmış. Ticari bir sürümü de var.",
+    "en": "Regional generation and editing on an infinite canvas, built with professional workflows and team use in mind. A commercial edition exists alongside.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://krisp.ai/",
+    "name": "Krisp",
+    "tags": [
+      "masaüstü",
+      "freemium",
+      "ses"
+    ],
+    "tr": "Sanal mikrofon aygıtı olarak kurulup gürültüyü kaynakta kesiyor — Zoom, Teams, kayıt yazılımı fark etmeksizin hepsinde çalışıyor. Uygulama bazlı çözümlerin sınırı burada aşılıyor.",
+    "en": "Installs as a virtual microphone device and kills noise at the source, so it works across Zoom, Teams and any recorder alike — past the limit of per-app solutions.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://github.com/Acly/krita-ai-diffusion",
+    "name": "Krita AI Diffusion",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "eklenti",
+      "görsel-üretim"
+    ],
+    "tr": "Krita’nın katman ve maske sistemini doğrudan difüzyona bağlıyor; seçim yapıp o bölgeyi üretiyorsun. Ayrı bir araca geçmeden mevcut çizim akışının içinde kalıyorsun.",
+    "en": "Wires Krita’s layers and masks straight into diffusion — select a region and generate into it. You stay inside your existing painting flow instead of switching tools.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://leonardo.ai/",
+    "name": "Leonardo AI",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "görsel-üretim",
+      "interaktif"
+    ],
+    "tr": "Kendi görsellerinle stil modeli eğitip tekrar kullanabiliyorsun; oyun varlığı üretiminde tutarlı görünüm gerektiğinde bu belirleyici oluyor.",
+    "en": "You can train a style model on your own images and reuse it, which becomes decisive when game assets need a consistent look.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://lumalabs.ai/",
+    "name": "Luma AI",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "video",
+      "3b"
+    ],
+    "tr": "Video üretiminin yanında telefonla çektiğin nesneyi NeRF/Gaussian splatting ile 3B’ye çeviriyor. Bu ikinci ayak onu saf video modellerinden ayırıyor.",
+    "en": "Alongside video generation it turns an object you filmed on a phone into 3D via NeRF/Gaussian splatting. That second leg is what separates it from pure video models.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://www.meshy.ai/tr/?noRedirect=true",
+    "name": "Meshy",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "3b"
+    ],
+    "tr": "Metin ya da görselden 3B model üretip PBR dokusunu da kendisi giydiriyor. Oyun varlığı hattında en çok vakit yiyen adımın doku olması bunu değerli kılıyor.",
+    "en": "Generates a 3D model from text or an image and applies PBR textures itself. Texturing being the slowest step in an asset pipeline is what makes that matter.",
+    "src": "kedi",
+    "added": 1784182321
+  },
+  {
+    "url": "https://designer.microsoft.com/",
+    "name": "Microsoft Designer",
+    "tags": [
+      "ücretli",
+      "ücretsiz",
+      "görsel-üretim"
+    ],
+    "tr": "Üretilen görseli katmanlı ve düzenlenebilir bir tasarım olarak veriyor; saf üreticilerde elde ettiğin düz raster dosyanın aksine üzerinde çalışmaya devam edebiliyorsun.",
+    "en": "Returns the generated image as a layered, editable layout, so unlike the flat raster you get from pure generators you can keep working on it.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://www.napkin.ai/",
+    "name": "Napkin AI",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "görsel-üretim"
+    ],
+    "tr": "Düz metinden akış şeması, zaman çizelgesi ve karşılaştırma görseli üretiyor; çıktı düzenlenebilir vektör. Sunum üretmiyor, tek bir fikri görselleştiriyor.",
+    "en": "Turns plain prose into flow charts, timelines and comparison graphics as editable vectors. It does not build decks; it visualises one idea.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://otter.ai/",
+    "name": "Otter.ai",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "ses"
+    ],
+    "tr": "Toplantıya katılıp canlı yazıya döküyor ve konuşmacıları ayırıyor. Kayıt sonrası yükleme yapan araçlardan farkı, toplantı sürerken not almanı bırakabilmen.",
+    "en": "Joins a meeting, transcribes live and separates speakers. Unlike upload-after-the-fact tools it lets you stop taking notes while the meeting is still running.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://piclumen.com/",
+    "name": "PicLumen",
+    "tags": [
+      "ücretsiz",
+      "görsel-üretim"
+    ],
+    "tr": "Karakter ve ürün görsellerine yoğunlaşmış; ücretsiz katmanı günlük kullanıma yetecek kadar cömert.",
+    "en": "Focused on character and product imagery, with a free tier generous enough for daily use.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://pika.art/",
+    "name": "Pika",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "video",
+      "görsel-üretim"
+    ],
+    "tr": "Metin ve görselden kısa video üretiyor; kamera hareketi ve efektleri parametre olarak seçiliyor. İstemle rastgele sonuç beklemek yerine hareketi yönlendirebiliyorsun.",
+    "en": "Generates short video from text and images, with camera motion and effects exposed as parameters — you steer the motion instead of hoping the prompt lands.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://pitch.com/",
+    "name": "Pitch",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "llm",
+      "referans"
+    ],
+    "tr": "Eşzamanlı düzenleme, yorum ve marka şablonları; sunum bir ekip belgesi gibi çalışıyor. Analitik özelliği, gönderdiğin sunumun hangi slaytta bırakıldığını gösteriyor.",
+    "en": "Live co-editing, comments and brand templates make a deck behave like a team document. Its analytics show which slide a recipient stopped on.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://planner5d.com/",
+    "name": "Planner 5D",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "sistem-tasarımı",
+      "cad"
+    ],
+    "tr": "Kat planı çizip anında 3B görselleştirme alıyorsun. CAD hassasiyeti yok; ölçülü teknik çizim değil, hızlı sunum görseli için.",
+    "en": "Draw a floor plan and get an instant 3D render. No CAD precision — it is for a fast presentation image, not a dimensioned technical drawing.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://playground.com/",
+    "name": "Playground AI",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "görsel-üretim"
+    ],
+    "tr": "Üretim ve düzenlemeyi aynı tuvalde birleştiriyor; bölge seçip yalnızca orayı yeniden üretmek (inpainting) akışın parçası. Parça parça düzeltmeye elverişli.",
+    "en": "Combines generation and editing on one canvas, with region-selective regeneration (inpainting) built into the flow — which suits piecemeal correction.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://github.com/openai/point-e",
+    "name": "Point-E",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "3b",
+      "akademik"
+    ],
+    "tr": "Shap-E’den önceki nesil; nokta bulutu üretiyor, mesh’e dönüştürmek ayrı bir adım. Hızlı ama sonuç kaba, bugün pratik bir kullanımı kalmadı.",
+    "en": "The generation before Shap-E, producing point clouds that need a separate meshing step. Fast but coarse, with little practical use left today.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://predis.ai/",
+    "name": "Predis.ai",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "referans",
+      "video"
+    ],
+    "tr": "Metinle birlikte görsel ve kısa video da üretiyor; rakip için düşünülmüş şablonları var. Yalnızca metin üreten araçlardan ayrıldığı yer bu.",
+    "en": "Generates visuals and short video alongside copy, with competitor-oriented templates. That is where it separates from text-only tools.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://www.recraft.ai/projects",
+    "name": "Recraft",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "görsel-üretim"
+    ],
+    "tr": "SVG çıktı üretebiliyor. Logo, ikon ve illüstrasyon işlerinde raster üreticilerden temel farkı bu: sonucu ölçekleyip düzenleyebiliyorsun.",
+    "en": "Can output SVG. For logos, icons and illustration that is the fundamental split from raster generators — the result scales and stays editable.",
+    "src": "kedi",
+    "added": 1785628605
+  },
+  {
+    "url": "https://www.remove.bg/",
+    "name": "remove.bg",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "görsel-üretim",
+      "api"
+    ],
+    "tr": "Tek işe odaklı arka plan silme; API ve toplu işlem sunduğu için hattın içine gömülebiliyor. Saç ve şeffaf yüzey kenarlarında genel araçlardan iyi.",
+    "en": "Single-purpose background removal with an API and batch mode, so it drops into a pipeline. Better than general tools on hair and transparent edges.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://github.com/openai/shap-e",
+    "name": "Shap-E",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "3b",
+      "akademik"
+    ],
+    "tr": "Metinden doğrudan örtük 3B temsil üreten OpenAI modeli. Araştırma sürümü — çıktısı üretim kalitesinde değil, tarihsel ve akademik değeri var.",
+    "en": "An OpenAI model producing implicit 3D representations from text. A research release: the output is not production quality, and its value is historical and academic.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://simplified.com/",
+    "name": "Simplified",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "referans"
+    ],
+    "tr": "Tasarım, metin, video düzenleme ve zamanlamayı tek uygulamada topluyor. Her alanda uzman araçların gerisinde, ama araç sayısını azaltmak istiyorsan mantıklı bir denge.",
+    "en": "Bundles design, copy, video editing and scheduling in one app. Behind the specialists at each task, but a sensible trade if reducing tool count is the goal.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://www.slidesai.io/",
+    "name": "SlidesAI",
+    "tags": [
+      "eklenti",
+      "freemium",
+      "llm"
+    ],
+    "tr": "Google Slides eklentisi olarak çalışıyor; mevcut dosyandan çıkmadan metinden slayt üretiyor. Ayrı platforma taşınma ve sonra dışa aktarma adımı yok.",
+    "en": "Runs as a Google Slides add-on, generating slides from text without leaving your existing file — no migration to another platform and no export step back.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://spline.design/",
+    "name": "Spline",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "3b",
+      "tarayıcı-içi"
+    ],
+    "tr": "Tarayıcıda 3B sahne tasarlayıp doğrudan web sayfasına gömüyorsun. Blender gibi genel amaçlı değil; çıktısı baştan web için optimize edilmiş.",
+    "en": "Design a 3D scene in the browser and embed it straight into a page. Not general-purpose like Blender — the output is optimised for the web from the start.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "name": "Stable Diffusion WebUI",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "self-hosted",
+      "görsel-üretim"
+    ],
+    "tr": "Yerel görsel üretimin en yaygın arayüzü; eklenti ekosistemi (ControlNet, LoRA yükleyiciler) çok geniş. Depo artık aktif geliştirilmiyor ama kurulu tabanı hâlâ en büyüğü.",
+    "en": "The most widespread interface for local generation, with a huge extension ecosystem (ControlNet, LoRA loaders). The repo is no longer actively developed, but the installed base is still the largest.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://huggingface.co/stabilityai/stable-fast-3d",
+    "name": "Stable Fast 3D",
+    "tags": [
+      "açık-ağırlık",
+      "3b"
+    ],
+    "tr": "Tek görselden yarım saniyede UV açılmış ve dokulu mesh çıkarıyor. Kalite üst düzey değil ama toplu varlık üretiminde hız farkı belirleyici.",
+    "en": "Produces a UV-unwrapped, textured mesh from one image in about half a second. Quality is not top-tier, but at batch scale the speed difference decides.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://stitch.withgoogle.com/",
+    "name": "Stitch",
+    "tags": [
+      "ücretli",
+      "ücretsiz",
+      "frontend",
+      "görsel-üretim"
+    ],
+    "tr": "Metin ya da kaba çizimden arayüz tasarımı üretip düzenlenebilir tasarım dosyası veriyor. Kod üreten araçların aksine çıktısı tasarımcının devralabileceği biçimde.",
+    "en": "Turns text or a rough sketch into UI and hands back an editable design file — unlike the code generators, output a designer can take over.",
+    "src": "kedi",
+    "added": 1775843673
+  },
+  {
+    "url": "https://www.tripo3d.ai/",
+    "name": "Tripo AI",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "3b"
+    ],
+    "tr": "Meshy’nin doğrudan rakibi; üretim süresi daha kısa ve çıkan topoloji genelde daha temiz, yani sonradan elle düzeltme yükü az.",
+    "en": "A direct rival to Meshy with shorter generation times and generally cleaner topology, which means less manual cleanup afterwards.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://github.com/k4yt3x/video2x",
+    "name": "Video2X",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "video"
+    ],
+    "tr": "Videoyu kare kare sinir ağıyla büyüten çerçeve; waifu2x, Real-ESRGAN ve Anime4K gibi modelleri arkasında çalıştırıyor. Tek görsel büyütücülerden farkı zamansal tutarlılığı ve video boru hattını üstlenmesi.",
+    "en": "A framework that upscales video frame by frame with neural models, driving waifu2x, Real-ESRGAN and Anime4K behind the scenes. Against single-image upscalers it takes on the video pipeline and temporal consistency.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://github.com/jamiepine/voicebox",
+    "name": "Voicebox",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "ses"
+    ],
+    "tr": "Ses klonlama, dikte ve üretimi tek açık kaynak stüdyoda topluyor. Ses örneğinin bulut servisine yüklenmemesi, klonlamada gerçek bir gizlilik farkı.",
+    "en": "Bundles voice cloning, dictation and generation into one open-source studio. Keeping the voice sample off a cloud service is a real privacy difference for cloning.",
+    "src": "kedi",
+    "added": 1778513250
+  },
+  {
+    "url": "https://github.com/openai/whisper",
+    "name": "Whisper",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "ses",
+      "self-hosted"
+    ],
+    "tr": "Konuşma tanımanın açık standardı; 90+ dili destekliyor, Türkçede de kullanılabilir doğrulukta. Yerelde çalıştığı için kayıt makineden hiç çıkmıyor.",
+    "en": "The open standard for speech recognition, covering 90+ languages at usable accuracy in Turkish too. It runs locally, so the recording never leaves the machine.",
+    "src": "kedi",
+    "added": 1787000000
+  }
+]

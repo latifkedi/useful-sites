@@ -1,0 +1,566 @@
+[
+  {
+    "url": "https://github.com/peterzieba/5Vpld",
+    "name": "5Vpld",
+    "tags": [
+      "donanım",
+      "gömülü",
+      "github",
+      "cad"
+    ],
+    "tr": "Hâlâ üretilen az sayıdaki 5V programlanabilir mantık parçası (Atmel ATF150x, GAL) için betik ve araç derlemesi. Modern FPGA araç zincirlerinden farkı eski 5V lojiğe odaklanması: retro ve onarım projelerinde bu nadir parçaları programlamanın pratik yolu.",
+    "en": "A collection of scripts and tools for the few still-made 5V programmable logic parts (Atmel ATF150x, GAL). Unlike modern FPGA toolchains it focuses on legacy 5V logic: the practical way to program these rare parts in retro and repair projects.",
+    "src": "lowkwiki"
+  },
+  {
+    "url": "https://campaign.advantech.online/en/edgeaisdk/index.html",
+    "name": "Advantech Edge AI SDK",
+    "tags": [
+      "ücretsiz",
+      "gömülü",
+      "sdk"
+    ],
+    "tr": "Endüstriyel uç donanımda model çalıştırmak için geliştirme kiti. Fabrika ortamı gibi sertifikalı donanım gerektiren yerlerde Raspberry Pi sınıfı kartlar yeterli olmuyor.",
+    "en": "A development kit for running models on industrial edge hardware — where certified equipment is required, a Raspberry Pi-class board does not qualify.",
+    "src": "kedi",
+    "added": 1785968196
+  },
+  {
+    "url": "https://github.com/OpenIPC/firmware/issues/1970",
+    "name": "AK3918 Kamera Notları",
+    "tags": [
+      "github",
+      "gömülü",
+      "donanım"
+    ],
+    "tr": "Belirli bir kamera yongası için donanım bilgisi ve yazılım dökümlerinin biriktiği tartışma. Bu tür modeller için tek kaynak genelde böyle bir konu başlığı oluyor.",
+    "en": "A thread accumulating hardware notes and firmware dumps for one camera SoC. For models like this, a single issue thread is usually the only source there is.",
+    "src": "kedi",
+    "added": 1786567883
+  },
+  {
+    "url": "https://kokomotech.com/allwinner-v821/",
+    "name": "Allwinner V821",
+    "tags": [
+      "ücretsiz",
+      "donanım"
+    ],
+    "tr": "V821 yonga setinin teknik özeti; görüntü işleme hattı ve NPU yetenekleri dahil. Kamera veya uç yapay zeka projesinde yonga seçerken karşılaştırma noktası.",
+    "en": "A technical summary of the V821 SoC including its image pipeline and NPU capability — a comparison point when choosing silicon for a camera or edge AI project.",
+    "src": "kedi",
+    "added": 1785968188
+  },
+  {
+    "url": "https://github.com/MuhammedKalkan/Anyka-Camera-Firmware",
+    "name": "Anyka Kamera Firmware",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "gömülü"
+    ],
+    "tr": "Anyka yongalı kameralar için özel ürün yazılımı; OpenIPC’nin kapsamadığı bir aileyi hedefliyor. Ucuz Çin kameralarının çoğu bu yonga ailesini kullanıyor.",
+    "en": "Custom firmware for Anyka-based cameras, covering a family OpenIPC does not. Most cheap Chinese cameras use this chipset.",
+    "src": "kedi",
+    "added": 1786567891
+  },
+  {
+    "url": "https://github.com/AvaotaSBC/AvaotaF1",
+    "name": "AvaotaF1",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "gömülü"
+    ],
+    "tr": "Madeni para boyutunda RISC-V Linux kartı: 64 MB RAM, MIPI kamera, SPI ekran ve Wi-Fi. Bu ölçekte mikrodenetleyici değil tam Linux çalıştırabilmesi ayrıksı.",
+    "en": "A coin-sized RISC-V Linux board with 64 MB RAM, MIPI camera, SPI display and Wi-Fi. Running full Linux rather than a microcontroller at that scale is what makes it unusual.",
+    "src": "kedi",
+    "added": 1785945789
+  },
+  {
+    "url": "https://www.electronics-lab.com/avaotaf1-development-board-offers-allwinner-v821-soc-64mb-ram-mipi-camera-spi-display-and-wi-fi-in-coin-size-form/",
+    "name": "AvaotaF1 İncelemesi",
+    "tags": [
+      "ücretsiz",
+      "donanım",
+      "referans"
+    ],
+    "tr": "Kartın teknik özelliklerini ve olası kullanım alanlarını derleyen yazı; resmî depoya dalmadan önce hızlı bir bakış.",
+    "en": "An article summarising the board’s specifications and likely uses — a quick look before diving into the repo.",
+    "src": "kedi",
+    "added": 1785945803
+  },
+  {
+    "url": "https://github.com/adafruit/awesome-adafruitio",
+    "name": "Awesome Adafruit IO",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "donanım",
+      "gömülü"
+    ],
+    "tr": "Cihaz verisini görselleştirip saklayan Adafruit IO için kaynak listesi.",
+    "en": "A resource list for Adafruit IO, visualising and storing data from any device.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/dotintent/awesome-ble",
+    "name": "Awesome BLE",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "donanım",
+      "gömülü"
+    ],
+    "tr": "Düşük güçlü kablosuz iletişim (Bluetooth Low Energy) için kaynak listesi.",
+    "en": "A resource list for Bluetooth Low Energy, low-power wireless communication.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/HQarroum/awesome-iot",
+    "name": "Awesome IoT",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "donanım",
+      "gömülü"
+    ],
+    "tr": "Nesnelerin İnterneti için donanım, protokol ve platform listesi. Genel gömülü listelerden farkı bağlantı ve bulut tarafına — MQTT, LoRa, cihaz yönetimine — ağırlık vermesi.",
+    "en": "A list of hardware, protocols and platforms for the Internet of Things. Unlike general embedded lists it weights the connectivity and cloud side — MQTT, LoRa, device management.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/hobbyquaker/awesome-mqtt",
+    "name": "Awesome MQTT",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "donanım",
+      "gömülü"
+    ],
+    "tr": "Nesnelerin İnterneti bağlantı protokolü MQTT için araç ve kaynak listesi.",
+    "en": "A list of tools and resources for MQTT, the IoT connectivity protocol.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/delftopenhardware/awesome-open-hardware",
+    "name": "Awesome Open Hardware",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "donanım",
+      "açık-kaynak"
+    ],
+    "tr": "Tasarımı açık lisanslı donanım projelerinin listesi. Ürün kataloglarından farkı şemasını ve PCB’sini okuyup üstüne inşa edebileceğin projelere götürmesi.",
+    "en": "A list of hardware projects with openly licensed designs. Unlike product catalogs it points to projects whose schematics and PCBs you can read and build on.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/thibmaek/awesome-raspberry-pi",
+    "name": "Awesome Raspberry Pi",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "donanım"
+    ],
+    "tr": "Raspberry Pi projeleri, işletim sistemleri ve donanım eklentileri listesi. Forum başlıklarından farkı derli toplu, kategorilenmiş bir başlangıç noktası olması.",
+    "en": "A list of Raspberry Pi projects, operating systems and hardware add-ons. Unlike forum threads it is a tidy, categorised starting point.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/protontypes/awesome-robotic-tooling",
+    "name": "Awesome Robotic Tooling",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "donanım"
+    ],
+    "tr": "Profesyonel robotik geliştirme için ücretsiz ve açık araçların listesi. Genel robotik listelerinden farkı üretim kalitesinde araç zincirine — test, kayıt, görselleştirmeye — odaklanması.",
+    "en": "A list of free and open tools for professional robotics development. Unlike general robotics lists it focuses on a production-grade toolchain — testing, logging, visualisation.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/Kiloreux/awesome-robotics",
+    "name": "Awesome Robotics",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "donanım",
+      "gömülü"
+    ],
+    "tr": "Robotik için kütüphane, simülatör ve öğrenme kaynağı listesi. Tek platforma bağlı listelerden farkı ROS’tan kontrol teorisine kadar alanın bütününü haritalaması.",
+    "en": "A list of libraries, simulators and learning resources for robotics. Unlike single-platform lists it maps the whole field from ROS to control theory.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://cadxstudio.in/",
+    "name": "CadXStudio",
+    "tags": [
+      "ücretsiz",
+      "cad",
+      "tarayıcı-içi"
+    ],
+    "tr": "Metinden CAD modeli üreten tarayıcı aracı; CAM tarafını da kapsıyor. Çizim bilmeden basit parça çıkarmayı hedefliyor, hassas mühendislik için değil.",
+    "en": "A browser tool generating CAD models from text, reaching into CAM as well. Aimed at simple parts without drafting skill, not at precision engineering.",
+    "src": "kedi",
+    "added": 1775475294
+  },
+  {
+    "url": "https://www.digikey.com/",
+    "name": "Digi-Key",
+    "tags": [
+      "donanım",
+      "referans"
+    ],
+    "tr": "Elektronik bileşen dağıtıcısı; katalog, veri sayfaları ve parametrik arama çok güçlü. Diğer dağıtıcılardan farkı stok derinliği ve tek adet satış — prototip için bir parça almak sorun değil.",
+    "en": "An electronics component distributor with a strong catalogue, datasheets and parametric search. Against other distributors it wins on stock depth and single-unit sales — buying one part for a prototype is unremarkable here.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://eclipse.dev/ditto/",
+    "name": "Eclipse Ditto",
+    "tags": [
+      "açık-kaynak",
+      "gömülü"
+    ],
+    "tr": "Cihazın durumunu sunucuda bir “dijital ikiz” olarak tutuyor; cihaz uykudayken bile son bilinen durumu sorgulanabiliyor ve komut kuyruğa alınabiliyor.",
+    "en": "Keeps device state server-side as a digital twin, so the last known state stays queryable and commands queue up even while the device sleeps.",
+    "src": "kedi",
+    "added": 1786996035
+  },
+  {
+    "url": "https://everycircuit.com/",
+    "name": "EveryCircuit",
+    "tags": [
+      "interaktif",
+      "donanım",
+      "freemium"
+    ],
+    "tr": "Devre simülasyonunu gerçek zamanlı animasyonla gösteren araç; mobilde de çalışıyor. Falstad’dan farkı dokunmatik arayüz ve bileşen değerlerini kaydırarak değiştirip sonucu anlık görebilmen.",
+    "en": "Circuit simulation with real-time animation, working on mobile as well. Against Falstad it offers a touch interface and lets you drag component values and watch the result change immediately.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://github.com/jamisonderek/flipper-zero-tutorials",
+    "name": "Flipper Zero Tutorials",
+    "tags": [
+      "donanım",
+      "gömülü",
+      "github",
+      "öğretici"
+    ],
+    "tr": "Flipper Zero için uygulama, donanım eklentisi ve kullanım anlatan geniş öğretici deposu. Resmi belgelerden farkı topluluk projelerine inmesi: SAO rozetleri ve FlipBoard gibi aksesuarları da kapsayan, video destekli pratik rehberler.",
+    "en": "A large tutorial repository for the Flipper Zero covering apps, hardware add-ons and usage. Unlike the official docs it goes into community projects: practical, video-backed guides that also cover accessories like SAO badges and the FlipBoard.",
+    "src": "lowkwiki"
+  },
+  {
+    "url": "https://www.fpga4fun.com/",
+    "name": "FPGA4Fun",
+    "tags": [
+      "öğretici",
+      "donanım",
+      "gömülü"
+    ],
+    "tr": "FPGA’ya donanım tanımlama dilleriyle giriş yapan projeler; her biri çalışan bir devre üretiyor. Üniversite derslerinden farkı doğrudan projeden başlaması — teoriden önce çalışan bir şey.",
+    "en": "Projects that introduce FPGAs through hardware description languages, each producing a working circuit. Unlike a university course it starts from the project — something that works before any theory.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://www.freecad.org/",
+    "name": "FreeCAD",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "cad"
+    ],
+    "tr": "Parametrik 3B CAD modelleyici; tasarım ağacını düzenleyerek geçmişe dönüp ölçü değiştirebiliyorsun. Blender’dan farkı bu parametrik yaklaşım — Blender çokgen biçimlendirir, bu üretilebilir parça tasarlar.",
+    "en": "A parametric 3D CAD modeller where you go back up the design tree and change a dimension. That parametric approach is the split from Blender: Blender sculpts polygons, this designs a manufacturable part.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://grabcad.com/library/robotic-mini-tank-1",
+    "name": "GrabCAD · Mini Tank",
+    "tags": [
+      "ücretsiz",
+      "cad",
+      "açık-ağırlık"
+    ],
+    "tr": "Paylaşılmış paletli robot platformu modeli. Şasi geometrisini sıfırdan çizmek yerine çalışan bir tasarımdan başlamak için.",
+    "en": "A shared tracked robot platform model — a way to start from a working design instead of drawing chassis geometry from scratch.",
+    "src": "kedi",
+    "added": 1770484480
+  },
+  {
+    "url": "https://www.isa.org/certification",
+    "name": "ISA",
+    "tags": [
+      "sertifika",
+      "gömülü",
+      "donanım",
+      "güvenlik"
+    ],
+    "tr": "Otomasyon mühendisliği derneği; IEC 62443 endüstriyel siber güvenlik standardının sertifikalarını veriyor. BT güvenlik kurumlarından farkı işletim teknolojisine bakması — bir fabrikada güvenlik önceliği gizlilik değil, sürekliliktir.",
+    "en": "The automation engineering society, awarding certificates against the IEC 62443 industrial cybersecurity standard. Unlike IT security bodies it addresses operational technology, where the priority is not confidentiality but continuity.",
+    "src": "seccert"
+  },
+  {
+    "url": "https://www.kicad.org/",
+    "name": "KiCad",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "cad",
+      "donanım"
+    ],
+    "tr": "Şematik çizimden PCB yerleşimine kadar tüm elektronik tasarım akışını kapsayan açık kaynak paket. Eagle ve Altium’dan farkı katman veya kart boyutu sınırı olmaması — ücretsiz sürüm kısıtı diye bir şey yok.",
+    "en": "An open-source suite covering the whole electronics design flow from schematic to PCB layout. Against Eagle and Altium there is no layer count or board size limit — no free-tier ceiling at all.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://www.youtube.com/playlist?list=PLUMWjy5jgHK3j74Z5Tq6Tso1fSfVWZC8L",
+    "name": "Kontrol Sistemleri Dersleri",
+    "tags": [
+      "video",
+      "ücretsiz",
+      "donanım"
+    ],
+    "tr": "Kontrol teorisinin tam ders serisi: transfer fonksiyonları, kararlılık ölçütleri, durum uzayı. Matematiksel temeli akademik sırayla kuruyor.",
+    "en": "A full lecture series on control theory — transfer functions, stability criteria, state space — building the mathematics in academic order.",
+    "src": "kedi",
+    "added": 1785311468
+  },
+  {
+    "url": "https://www.youtube.com/playlist?list=PLn8PRpmsu08pFBqgd_6Bi7msgkWFKL33b",
+    "name": "Kontrol Sistemleri Uygulamada",
+    "tags": [
+      "video",
+      "ücretsiz",
+      "donanım"
+    ],
+    "tr": "Aynı teorinin mühendislik sezgisi tarafı: PID’i gerçekte nasıl ayarlarsın, gürültü ve doygunluk ne yapar. Ders serisiyle birlikte okunması gereken taraf.",
+    "en": "The engineering-intuition side of the same theory: how you actually tune a PID, what noise and saturation do to it. The half that belongs alongside the lecture course.",
+    "src": "kedi",
+    "added": 1785311501
+  },
+  {
+    "url": "https://github.com/LiteEMF?tab=repositories",
+    "name": "LiteEMF",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "gömülü"
+    ],
+    "tr": "Gömülü sistem kütüphaneleri ve ürün yazılımı depoları; USB HID ve kablosuz giriş cihazı projeleri ağırlıkta. Kumanda ve klavye protokolleri için referans.",
+    "en": "Embedded libraries and firmware repositories weighted towards USB HID and wireless input devices — a reference for controller and keyboard protocols.",
+    "src": "kedi",
+    "added": 1785945703
+  },
+  {
+    "url": "https://www.mcmaster.com/",
+    "name": "McMaster-Carr",
+    "tags": [
+      "ücretli",
+      "cad"
+    ],
+    "tr": "Endüstriyel parça kataloğu; neredeyse her ürünün CAD modelini indirebiliyorsun. Tasarımda gerçek bir cıvatanın ölçüsü lazım olduğunda referans kaynağa dönüşüyor.",
+    "en": "An industrial parts catalogue where nearly every item has a downloadable CAD model, which turns it into a reference whenever a design needs a real bolt’s dimensions.",
+    "src": "kedi",
+    "added": 1787156113
+  },
+  {
+    "url": "https://octopart.com/",
+    "name": "Octopart",
+    "tags": [
+      "donanım",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Elektronik bileşen arama motoru; distribütörlerdeki stok ve fiyatı tek sayfada karşılaştırıyor. Digi-Key veya Mouser’a tek tek bakmaktan farkı bu — parça tedarik edilebilirliğini tasarım aşamasında görüyorsun.",
+    "en": "A search engine for electronic components that compares stock and price across distributors on one page. That is what saves you checking Digi-Key and Mouser separately — you see availability while still designing.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://www.onshape.com/en/",
+    "name": "Onshape",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "cad",
+      "tarayıcı-içi"
+    ],
+    "tr": "Parametrik CAD, tamamen tarayıcıda. Dosya değil veritabanı üzerinde çalışıyor, bu yüzden dallanma ve birleştirme Git gibi işliyor — SolidWorks’te olmayan bir şey.",
+    "en": "Parametric CAD entirely in the browser, working on a database rather than files, so branching and merging behave like Git — something SolidWorks does not offer.",
+    "src": "kedi",
+    "added": 1787156125
+  },
+  {
+    "url": "https://www.opencircuitsbook.com/",
+    "name": "Open Circuits",
+    "tags": [
+      "kitap",
+      "donanım"
+    ],
+    "tr": "Elektronik bileşenlerin kesitlerini yüksek çözünürlükte fotoğraflayan kitap; direncin, kondansatörün, konnektörün içi görünüyor. Veri sayfalarından farkı bileşenin nasıl yapıldığını göstermesi — soyut sembol somut nesneye dönüşüyor.",
+    "en": "A book of high-resolution cross-sections of electronic components, showing the insides of resistors, capacitors and connectors. Against datasheets it shows how a component is made — the abstract symbol becomes a physical object.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://openipc.org/",
+    "name": "OpenIPC",
+    "tags": [
+      "açık-kaynak",
+      "gömülü"
+    ],
+    "tr": "IP kameralar için açık ürün yazılımı; üretici bulutunu devreden çıkarıp RTSP akışını doğrudan kendi ağına veriyor. Kamerayı internete açmadan kullanmanın yolu.",
+    "en": "Open firmware for IP cameras that removes the vendor cloud and exposes the RTSP stream directly on your own network — the way to run a camera without putting it on the internet.",
+    "src": "kedi",
+    "added": 1786567879
+  },
+  {
+    "url": "https://github.com/openipc/coupler/",
+    "name": "OpenIPC Coupler",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "gömülü"
+    ],
+    "tr": "Kamera ürün yazılımları arasında geçiş yapmayı ve orijinaline dönmeyi sağlıyor. Deneme yaparken elindeki tek kurtarma aracı bu olabiliyor.",
+    "en": "Moves between camera firmwares and back to stock — often the only recovery tool you have while experimenting.",
+    "src": "kedi",
+    "added": 1786567868
+  },
+  {
+    "url": "https://github.com/OpenIPC/firmware",
+    "name": "OpenIPC Firmware",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "gömülü"
+    ],
+    "tr": "Desteklenen yonga listesi ve derleme talimatları. Kameranı almadan önce yongasının listede olup olmadığına bakmak gerekiyor.",
+    "en": "The supported chipset list and build instructions — check whether your camera’s SoC is on it before you buy.",
+    "src": "kedi",
+    "added": 1786567871
+  },
+  {
+    "url": "https://github.com/OpenIPC/wiki/blob/master/en/installation.md",
+    "name": "OpenIPC Kurulum",
+    "tags": [
+      "github",
+      "öğretici",
+      "gömülü"
+    ],
+    "tr": "Alternatif yazılım yükleme adımları ve — daha önemlisi — geri dönüş yolu. Seri konsol bağlantısı olmadan denemek cihazı tuğlalama riskini ciddi artırıyor.",
+    "en": "The flashing steps and, more importantly, the way back. Attempting this without a serial console raises the bricking risk considerably.",
+    "src": "kedi",
+    "added": 1786567862
+  },
+  {
+    "url": "https://github.com/yuchung886886/ORCAS",
+    "name": "ORCAS",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "donanım",
+      "gömülü"
+    ],
+    "tr": "Uzaktan kumandalı airsoft taret sistemi; gömülü denetim, video akışı ve mekanik tasarım aynı projede birleşiyor. Bitmiş ürünlerin gizlediği entegrasyon sorunlarını görüyorsun.",
+    "en": "A remote-controlled airsoft turret where embedded control, video streaming and mechanical design meet in one project — showing the integration problems finished products hide.",
+    "src": "kedi",
+    "added": 1770634051
+  },
+  {
+    "url": "https://pc-builds.com/",
+    "name": "PC-Builds",
+    "tags": [
+      "donanım",
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Bilgisayar toplama ve darboğaz hesaplama araçları; işlemci-ekran kartı dengesini oyun ve çözünürlük bazında tahmin ediyor. PCPartPicker’dan farkı uyumluluk değil performans dengesi sorusuna cevap vermesi.",
+    "en": "PC building tools with a bottleneck calculator that estimates CPU-to-GPU balance per game and resolution. Where PCPartPicker answers compatibility, this answers whether the balance makes sense.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://pcpartpicker.com/list/",
+    "name": "PCPartPicker",
+    "tags": [
+      "donanım",
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Bilgisayar toplarken parçaların uyumluluğunu denetleyen ve fiyat karşılaştıran araç. Elle liste yapmaktan farkı uyumsuzluğu önceden yakalaması — güç kaynağı yetmiyorsa ya da soğutucu kasaya sığmıyorsa uyarıyor.",
+    "en": "Checks part compatibility and compares prices while you plan a PC build. Against a manual list it catches the mismatch in advance — an underpowered PSU or a cooler that will not clear the case.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://www.rtings.com/",
+    "name": "RTINGS",
+    "tags": [
+      "donanım",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Televizyon, kulaklık, monitör ve fare gibi cihazları laboratuvar ölçümleriyle inceleyen site; metodoloji ve ham veri açık. Kanaat yazılarından farkı ölçülebilir olması — kullanımına göre ağırlıklandırılmış puanı kendin ayarlıyorsun.",
+    "en": "Reviews TVs, headphones, monitors and mice through laboratory measurements, with methodology and raw data published. Unlike opinion reviews the results are measurable, and you can reweight the score for your own use.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://tr.smartvision.dev/",
+    "name": "SmartVision",
+    "tags": [
+      "freemium",
+      "türkçe",
+      "gömülü"
+    ],
+    "tr": "Türkçe arayüzlü video gözetim yazılımı; kamera yönetimi ve kayıt tarafını kapsıyor. Yerel kurulumlarda dil ve destek açısından pratik bir seçenek.",
+    "en": "Video surveillance software with a Turkish interface covering camera management and recording — a practical option locally for language and support reasons.",
+    "src": "kedi",
+    "added": 1786866878
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=d6PXSTV486c",
+    "name": "Taret Süspansiyon Günlüğü",
+    "tags": [
+      "video",
+      "donanım"
+    ],
+    "tr": "Ev yapımı taret projesinin geliştirme günlüğü; başarısız denemeler kesilmemiş. Cilalı öğreticilerin aksine gerçek tasarım süreci böyle görünüyor.",
+    "en": "A build diary for a homemade turret with the failed attempts left in — what a real design process looks like, unlike a polished tutorial.",
+    "src": "kedi",
+    "added": 1770633745
+  },
+  {
+    "url": "https://techspecs.io/",
+    "name": "TechSpecs",
+    "tags": [
+      "donanım",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Tüketici elektroniği ürünlerinin teknik özelliklerini arayan ve karşılaştıran motor. Üretici sayfalarından farkı normalize edilmiş veri sunması — iki markanın farklı adlarla yazdığı aynı özelliği yan yana koyabiliyorsun.",
+    "en": "A search engine for the specifications of consumer electronics, with comparison. Against manufacturer pages the data is normalised, so the same property written under two different names by two brands lines up.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://www.thingiverse.com/",
+    "name": "Thingiverse",
+    "tags": [
+      "ücretsiz"
+    ],
+    "tr": "3B baskı modellerinin topluluk arşivi; çoğu Creative Commons lisanslı ve baskı ayarlarıyla birlikte paylaşılıyor. Printables ve MakerWorld’den farkı en eski ve en büyük arşiv olması — niş bir parça arıyorsan hâlâ ilk bakılacak yer.",
+    "en": "The community archive of 3D printing models, mostly Creative Commons licensed and shared with print settings. Against Printables and MakerWorld it is the oldest and largest — still the first place to look for a niche part.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://wokwi.com/",
+    "name": "Wokwi",
+    "tags": [
+      "tarayıcı-içi",
+      "gömülü",
+      "donanım"
+    ],
+    "tr": "Arduino, ESP32 ve STM32’yi tarayıcıda simüle eden ortam; sensör ve ekran gibi çevre birimleri de sanal. Gerçek donanımdan farkı kart beklemeden çalışabilmen — kodun mantığını lehim yapmadan doğruluyorsun.",
+    "en": "Simulates Arduino, ESP32 and STM32 in the browser, with virtual sensors and displays attached. Against real hardware you start without waiting for a board — the logic gets verified before anything is soldered.",
+    "src": "awesome-uw"
+  }
+]

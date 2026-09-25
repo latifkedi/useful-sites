@@ -19,8 +19,10 @@ build if it fits the scope.
 
 ## What is in scope
 
-Technology and science: software, AI, security, hardware, networking,
-databases, and academic or scientific resources.
+Ten areas: software, artificial intelligence, infrastructure and systems,
+security, data, science and mathematics, economics and finance, design and
+media (including architecture), learning and reference, and open access and
+archives.
 
 What is turned away, and why:
 
@@ -48,18 +50,23 @@ not match your experience, say so and say why.
 
 ## Adding an entry yourself
 
-1. Write the note in one of `data/part_*.py`:
+1. Append the record to `data/notes/<category>.json` (the file is the
+   category — see [data/README.md](data/README.md) for the fields):
 
-   ```python
-   add('https://example.com/', 'Example', ['açık-kaynak', 'python'],
-       'Ne yaptığı ve komşularından nerede ayrıldığı.',
-       'What it does and where it parts ways with its neighbours.',
-       'araclar')
+   ```json
+   {
+     "url": "https://example.com",
+     "name": "Example",
+     "tags": ["açık-kaynak", "python"],
+     "tr": "Ne yaptığı ve komşularından nerede ayrıldığı.",
+     "en": "What it does and where it parts ways with its neighbours.",
+     "src": "kedi"
+   }
    ```
 
 2. Run `python data/build.py`
 3. Run `python data/test_build.py` — it must pass
-4. Commit the generated files along with your note
+4. Commit the generated files along with your record
 
 The build writes `links.js`, `links.en.js`, `feed.xml`, `sitemap.xml`,
 `robots.txt` and the pages under `k/`. All of them are committed, and CI fails

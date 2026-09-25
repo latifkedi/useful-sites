@@ -1,12 +1,14 @@
 name: Approved link to pull request
 
 # A submission sitting in an issue is worth nothing until someone transcribes
-# it into part_new.py, and transcription is exactly the step that gets put off.
+# it into data/notes/<category>.json, and transcription is exactly the step
+# that gets put off.
 # Label the issue `approved` and this opens a pull request with the record
 # already written and links.js rebuilt.
 #
 # It opens a PR. It never merges one -- the description still needs a human
-# pass, and the generated one deliberately says so in a comment.
+# pass. The record carries a "review" field saying so, and the build check
+# fails on it, so the PR stays red until someone has done that pass.
 
 on:
   issues:

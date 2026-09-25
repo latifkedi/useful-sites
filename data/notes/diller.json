@@ -1,0 +1,1323 @@
+[
+  {
+    "url": "https://python.swaroopch.com",
+    "name": "A Byte of Python",
+    "tags": [
+      "ücretsiz",
+      "kitap",
+      "python"
+    ],
+    "tr": "Python’a giriş kitabı; kısa, doğrudan ve onlarca dile çevrilmiş. Programlamaya tamamen yeni başlayanlar için yazılmış.",
+    "en": "An introductory Python book — short, direct and translated into dozens of languages, written for people entirely new to programming.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://go.dev/tour/welcome/1",
+    "name": "A Tour of Go",
+    "tags": [
+      "ücretsiz",
+      "go",
+      "interaktif"
+    ],
+    "tr": "Go’nun resmî turu; her örnek tarayıcıda çalıştırılıp değiştirilebiliyor. Goroutine ve kanalları anlatan son bölüm dilin asıl ayırt edici kısmı.",
+    "en": "Go’s official tour, with every example runnable and editable in the browser. The closing section on goroutines and channels is the language’s real differentiator.",
+    "src": "kedi",
+    "added": 1776690070
+  },
+  {
+    "url": "https://maven.apache.org/",
+    "name": "Apache Maven",
+    "tags": [
+      "açık-kaynak",
+      "otomasyon",
+      "dokümantasyon"
+    ],
+    "tr": "Java için bağımlılık yönetimi ve derlemeyi standart bir proje düzeniyle yapan araç. Elle jar toplamaktan farkı bağımlılıkları merkezî depodan çözüp yaşam döngüsünü tanımlaması.",
+    "en": "A tool doing dependency management and builds for Java with a standard project layout. Unlike collecting jars by hand it resolves dependencies from a central repository and defines a lifecycle.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://github.com/timofurrer/awesome-asyncio",
+    "name": "Awesome asyncio",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "python"
+    ],
+    "tr": "Python 3’te asenkron G/Ç (asyncio) için kütüphane ve kaynak listesi.",
+    "en": "A list of libraries and resources for asynchronous I/O in Python 3 (asyncio).",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/oz123/awesome-c",
+    "name": "Awesome C",
+    "tags": [
+      "github",
+      "awesome-liste",
+      "c-ailesi"
+    ],
+    "tr": "C kütüphane, çatı ve araç listesi. Dilin standart kütüphanesi kasten dar olduğu için C’de “hangi kütüphane” sorusu diğer dillerden çok daha sık sorulur.",
+    "en": "A list of C libraries, frameworks and tools. Because the standard library is deliberately thin, “which library” comes up far more often in C than elsewhere.",
+    "src": "kedi",
+    "added": 1771712641
+  },
+  {
+    "url": "https://github.com/uhub/awesome-cpp",
+    "name": "Awesome C++",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "c-ailesi"
+    ],
+    "tr": "C++ kütüphane ve çerçevelerini konuya göre düzenleyen liste. Genel aramadan farkı bakımı yapılan, kategorilenmiş bir başlangıç haritası olması.",
+    "en": "A list organising C++ libraries and frameworks by topic. Unlike general search it is a maintained, categorised starting map.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/onqtam/awesome-cmake",
+    "name": "Awesome CMake",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "c-ailesi"
+    ],
+    "tr": "C/C++ derleme aracı CMake için betik, modül ve kaynak listesi.",
+    "en": "A list of scripts, modules and resources for CMake, the C/C++ build tool.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/CodyReichert/awesome-cl",
+    "name": "Awesome Common Lisp",
+    "tags": [
+      "awesome-liste",
+      "github"
+    ],
+    "tr": "Common Lisp kütüphane ve araçlarını toplayan liste.",
+    "en": "A list gathering Common Lisp libraries and tools.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://aalhour.com/awesome-compilers/",
+    "name": "Awesome Compilers",
+    "tags": [
+      "awesome-liste",
+      "referans"
+    ],
+    "tr": "Derleyici, yorumlayıcı ve çalışma zamanı kaynaklarının derlemesi; kitaplar, dersler ve açık kaynak derleyiciler ayrı ayrı listelenmiş.",
+    "en": "A collection of compiler, interpreter and runtime resources, with books, courses and open-source compilers listed separately.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://github.com/jakoch/awesome-composer",
+    "name": "Awesome Composer",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "php"
+    ],
+    "tr": "PHP paket yöneticisi Composer için kaynak listesi.",
+    "en": "A resource list for Composer, the PHP package manager.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/coq-community/awesome-coq",
+    "name": "Awesome Coq",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "akademik"
+    ],
+    "tr": "Biçimsel ispat dili ve ortamı Coq için kaynak listesi.",
+    "en": "A resource list for Coq, the formal-proof language and environment.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/h4cc/awesome-elixir",
+    "name": "Awesome Elixir",
+    "tags": [
+      "awesome-liste",
+      "github"
+    ],
+    "tr": "Elixir dili ve Erlang ekosistemi için kütüphane listesi. Hex paket aramasından farkı seçilmiş ve konuya göre gruplanmış olması.",
+    "en": "A library list for the Elixir language and Erlang ecosystem. Unlike a Hex package search it is curated and grouped by topic.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/akullpp/awesome-java",
+    "name": "Awesome Java",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "referans"
+    ],
+    "tr": "Java kütüphane ve çerçevelerini konuya göre düzenleyen liste. Maven Central aramasından farkı seçilmiş, kategorilenmiş ve bakımı yapılan bir başlangıç haritası olması.",
+    "en": "A list organising Java libraries and frameworks by topic. Unlike a Maven Central search it is a curated, categorised and maintained starting map.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://github.com/faroit/awesome-python-scientific-audio",
+    "name": "Awesome Python Scientific Audio",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "python",
+      "ses"
+    ],
+    "tr": "Ses/müzik üzerine bilimsel araştırma için Python kütüphaneleri listesi.",
+    "en": "A list of Python libraries for scientific research in audio/music.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/typeddjango/awesome-python-typing",
+    "name": "Awesome Python Typing",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "python"
+    ],
+    "tr": "Python’da isteğe bağlı statik tipleme için araç ve kaynak listesi.",
+    "en": "A list of tools and resources for optional static typing in Python.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/markets/awesome-ruby",
+    "name": "Awesome Ruby",
+    "tags": [
+      "awesome-liste",
+      "github"
+    ],
+    "tr": "Ruby kütüphane ve araçlarını kategori kategori toplayan liste. RubyGems aramasından farkı seçilmiş, güncel ve gruplanmış olması.",
+    "en": "A list gathering Ruby libraries and tools category by category. Unlike a RubyGems search it is curated, current and grouped.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/rust-unofficial/awesome-rust",
+    "name": "Awesome Rust",
+    "tags": [
+      "rust",
+      "awesome-liste",
+      "github",
+      "referans"
+    ],
+    "tr": "Rust kütüphane ve uygulamalarını konuya göre düzenleyen liste. crates.io aramasından farkı seçilmiş, kategorilenmiş ve bakımı yapılan bir başlangıç haritası olması.",
+    "en": "A list organising Rust libraries and applications by topic. Unlike a crates.io search it is a curated, categorised and maintained starting map.",
+    "src": "rustlearn"
+  },
+  {
+    "url": "https://github.com/lauris/awesome-scala",
+    "name": "Awesome Scala",
+    "tags": [
+      "awesome-liste",
+      "github"
+    ],
+    "tr": "Scala kütüphane ve araçlarının konuya göre listesi. Dağınık aramadan farkı fonksiyonel ve büyük veri kütüphanelerini bir arada göstermesi.",
+    "en": "A topic-by-topic list of Scala libraries and tools. Unlike scattered search it shows functional and big-data libraries together.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/vlang/awesome-v",
+    "name": "Awesome V",
+    "tags": [
+      "awesome-liste",
+      "github"
+    ],
+    "tr": "Sade, hızlı ve güvenli derlenen V dili için kaynak listesi.",
+    "en": "A resource list for V, the simple, fast, safe compiled language.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://www.baeldung.com",
+    "name": "Baeldung",
+    "tags": [
+      "öğretici",
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Java ve Spring için çözümlü, güncel öğreticilerin en geniş arşivi. Resmî dokümandan farkı “şunu nasıl yaparım” sorusuna çalışan kod örnekleriyle cevap vermesi.",
+    "en": "The largest archive of worked, up-to-date tutorials for Java and Spring. Unlike the official docs it answers “how do I do this” with working code examples.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://github.com/pathikrit/better-files",
+    "name": "better-files",
+    "tags": [
+      "açık-kaynak",
+      "github"
+    ],
+    "tr": "Scala’da dosya işlemlerini kolaylaştıran ince NIO sarmalayıcı kütüphane.",
+    "en": "A thin NIO wrapper library that makes file operations in Scala easy.",
+    "src": "velvia"
+  },
+  {
+    "url": "https://www.tutorialspoint.com/cprogramming/index.htm",
+    "name": "C Programming Tutorial",
+    "tags": [
+      "ücretsiz",
+      "c-ailesi"
+    ],
+    "tr": "Baştan sona klasik C anlatımı. Kapsamlı ama üslubu ve örnekleri eski; sıralı okumaktan çok tek konu aramak için pratik.",
+    "en": "A classic front-to-back treatment of C. Comprehensive, but dated in style and examples — handier for looking one topic up than for reading through.",
+    "src": "kedi",
+    "added": 1772984221
+  },
+  {
+    "url": "https://github.com/Koubae/Programming-CookBook/blob/master/Programming%20Languages/C/roadmap.md",
+    "name": "C Yol Haritası",
+    "tags": [
+      "github",
+      "müfredat",
+      "c-ailesi"
+    ],
+    "tr": "C öğrenimini konu sırasına koyan kısa harita; işaretçi ve bellek yönetimini nereye yerleştireceğini gösteriyor.",
+    "en": "A short map ordering C topics, showing where pointers and memory management belong in the sequence.",
+    "src": "kedi",
+    "added": 1772927729
+  },
+  {
+    "url": "https://dotnet.microsoft.com/languages/csharp",
+    "name": "C#",
+    "tags": [
+      "c-ailesi",
+      "dokümantasyon"
+    ],
+    "tr": "Microsoft’un .NET platformu için geliştirdiği çok amaçlı dil.",
+    "en": "Microsoft’s general-purpose language for the .NET platform.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://www.stroustrup.com/bs_faq2.html",
+    "name": "C++ Üslup ve Teknik SSS",
+    "tags": [
+      "ücretsiz",
+      "c-ailesi",
+      "referans"
+    ],
+    "tr": "Stroustrup’un C++ üslubu ve sık yapılan hatalar üzerine SSS’i; “bunu neden böyle yapmalıyım” sorularının doğrudan cevabı.",
+    "en": "Stroustrup’s FAQ on C++ style and common mistakes — direct answers to “why should I do it this way”.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.stroustrup.com/C++11FAQ.html",
+    "name": "C++11 SSS (Stroustrup)",
+    "tags": [
+      "ücretsiz",
+      "c-ailesi",
+      "referans"
+    ],
+    "tr": "Dilin yaratıcısının C++11 ile gelen her özelliği neden eklediğini anlattığı SSS. Özellik listesinden farkı, tasarım gerekçesini vermesi.",
+    "en": "The language’s creator explaining why each C++11 feature was added. Unlike a feature list, it gives the design rationale.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=uhAnt4Iw1VQ&t=802s",
+    "name": "Canlı C++ Kodlama",
+    "tags": [
+      "video",
+      "c-ailesi"
+    ],
+    "tr": "C++ öğrenme sürecinin canlı kaydı; derleyici hataları ve çıkmaz sokaklar kesilmemiş. Cilalı derslerin gizlediği gerçek süreci gösteriyor.",
+    "en": "An uncut recording of learning C++, compiler errors and dead ends included — the real process that polished lectures hide.",
+    "src": "kedi",
+    "added": 1785422722
+  },
+  {
+    "url": "https://www.seas.upenn.edu/~cis1940/spring13/lectures.html",
+    "name": "CIS 194 Haskell",
+    "tags": [
+      "müfredat",
+      "ücretsiz",
+      "akademik"
+    ],
+    "tr": "Pennsylvania Üniversitesi’nin Haskell dersi; ders notları ve ödevler açık. Kitaplardan farkı ödevlerin olması — Haskell’i okuyarak değil ancak yazarak öğrenebildiğin için bu ayrım önemli.",
+    "en": "The University of Pennsylvania’s Haskell course, with lecture notes and assignments public. The difference from a book is the homework — and since Haskell is learned by writing rather than reading, that difference matters.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://clojure.org/",
+    "name": "Clojure",
+    "tags": [
+      "açık-kaynak"
+    ],
+    "tr": "JVM üzerinde çalışan modern bir Lisp lehçesi; değişmezliğe odaklı.",
+    "en": "A modern Lisp dialect on the JVM, focused on immutability.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://google.github.io/comprehensive-rust/",
+    "name": "Comprehensive Rust",
+    "tags": [
+      "rust",
+      "müfredat",
+      "ücretsiz"
+    ],
+    "tr": "Google’ın dört günlük, slayt + alıştırma biçiminde açık Rust kursu. Kitaptan farkı sınıf ortamı için tempolu, gömülü ve eşzamanlılık modülleriyle gelmesi.",
+    "en": "Google’s open four-day Rust course as slides + exercises. Unlike the book it is paced for a classroom and comes with embedded and concurrency modules.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://www.youtube.com/user/CppCon/videos?shelf_id=0&view=0&sort=dd",
+    "name": "CppCon",
+    "tags": [
+      "video",
+      "c-ailesi",
+      "ücretsiz"
+    ],
+    "tr": "Yıllık C++ konferansının tüm konuşmaları. Öğreticilerden farkı dilin standardını yazan kişilerin sunumlarını içermesi — bir özelliğin neden öyle tasarlandığını burada duyuyorsun.",
+    "en": "Every talk from the annual C++ conference. Against tutorials it carries presentations from the people who write the standard — where you hear why a feature was designed as it was.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://cppreference.com/",
+    "name": "cppreference",
+    "tags": [
+      "ücretsiz",
+      "c-ailesi",
+      "referans"
+    ],
+    "tr": "C ve C++ standart kütüphanesinin fiilî referansı; her özellikte hangi standartta (C++11/17/20/23) geldiği işaretli. Öğretici siteler bu sürüm ayrımını genelde atlıyor.",
+    "en": "The de facto reference for the C and C++ standard library, marking which standard (C++11/17/20/23) each feature landed in — a distinction tutorial sites usually skip.",
+    "src": "kedi",
+    "added": 1787182459
+  },
+  {
+    "url": "https://craftinginterpreters.com/",
+    "name": "Crafting Interpreters",
+    "tags": [
+      "ücretsiz",
+      "kitap",
+      "c-ailesi"
+    ],
+    "tr": "Bir dili iki kez sıfırdan yazdıran ücretsiz kitap: önce Java ile ağaç yürüyen yorumlayıcı, sonra C ile bayt kodu sanal makinesi. Alanın en iyi anlatımlarından.",
+    "en": "A free book that has you write a language twice — a tree-walking interpreter in Java, then a bytecode VM in C. One of the clearest treatments in the field.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://crates.io/",
+    "name": "crates.io",
+    "tags": [
+      "rust",
+      "referans",
+      "açık-kaynak"
+    ],
+    "tr": "Rust’ın resmî paket kayıt defteri — kütüphaneleri yayımlayıp bağımlılık olarak çekmenin merkezi. Genel kod aramalarından farkı sürüm ve indirme verisiyle güvenilir kaynağı göstermesi.",
+    "en": "Rust’s official package registry — the hub for publishing libraries and pulling them as dependencies. Unlike general code search it shows the trustworthy source with version and download data.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://dart.dev/",
+    "name": "Dart",
+    "tags": [
+      "açık-kaynak",
+      "masaüstü"
+    ],
+    "tr": "Google’ın geliştirdiği, Flutter’ın altındaki istemci-odaklı dil.",
+    "en": "Google’s client-oriented language, the one beneath Flutter.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://dev.java/learn/",
+    "name": "Dev.java · Learn",
+    "tags": [
+      "öğretici",
+      "ücretsiz",
+      "dokümantasyon"
+    ],
+    "tr": "Oracle’ın güncel, resmî Java öğrenme portalı. Eski Java Tutorials’tan farkı modern sürümlere göre yenilenmiş, konu konu düzenlenmiş olması.",
+    "en": "Oracle’s current, official Java learning portal. Unlike the old Java Tutorials it is refreshed for modern versions and organised topic by topic.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://docs.rs/",
+    "name": "docs.rs",
+    "tags": [
+      "rust",
+      "dokümantasyon",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "crates.io’daki her paketin belgelerini otomatik derleyip yayımlayan servis. Her projenin kendi sitesinden farkı tüm ekosistemin dokümanını tek biçim ve tek adreste toplaması.",
+    "en": "A service that automatically builds and publishes the docs for every package on crates.io. Unlike each project’s own site it gathers the whole ecosystem’s docs in one format at one address.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://elixir-lang.org/",
+    "name": "Elixir",
+    "tags": [
+      "açık-kaynak",
+      "backend"
+    ],
+    "tr": "Erlang sanal makinesinde çalışan, ölçeklenebilirliğe güçlü işlevsel dil.",
+    "en": "A functional language on the Erlang VM, strong in scalability.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://eloquentjavascript.net/",
+    "name": "Eloquent JavaScript",
+    "tags": [
+      "ücretsiz",
+      "kitap",
+      "javascript"
+    ],
+    "tr": "Ücretsiz ve çevrimiçi klasik. Sözdizimi öğretmekten çok programlama düşüncesi kuruyor; alıştırmaları kitabın içinde çalıştırılabiliyor.",
+    "en": "A free online classic that builds programming thinking rather than teaching syntax, with exercises runnable inside the book itself.",
+    "src": "kedi",
+    "added": 1787182405
+  },
+  {
+    "url": "https://fortran-lang.org/",
+    "name": "Fortran",
+    "tags": [
+      "akademik",
+      "açık-kaynak"
+    ],
+    "tr": "Sayısal ve bilimsel hesaplamanın öncüsü, hâlâ kullanılan dil.",
+    "en": "The pioneer of numerical and scientific computing, still in use.",
+    "src": "awesomeproj",
+    "added": 1784411432
+  },
+  {
+    "url": "https://www.freecodecamp.org/learn/python-v9/#lecture-introduction-to-python",
+    "name": "freeCodeCamp Python",
+    "tags": [
+      "ücretsiz",
+      "python",
+      "sertifika"
+    ],
+    "tr": "Ücretsiz müfredat ve sertifika; alıştırmalar tarayıcıda çalışıyor. Sertifika işveren nezdinde ağır basmıyor ama müfredat düzgün sıralanmış.",
+    "en": "A free curriculum and certificate with browser-based exercises. The certificate carries little weight with employers, but the curriculum is properly sequenced.",
+    "src": "kedi",
+    "added": 1770704659
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/c/c-programming-language/",
+    "name": "GeeksforGeeks C",
+    "tags": [
+      "ücretsiz",
+      "c-ailesi"
+    ],
+    "tr": "Konu başlığına bölünmüş C kaynağı; arama sonucundan doğrudan ilgili sayfaya düşüyorsun. Örnek kodların bir kısmı eski derleyici davranışına dayanıyor, dikkatli okumak gerekiyor.",
+    "en": "C material split by topic so a search lands you straight on the relevant page. Some examples rely on old compiler behaviour, so read carefully.",
+    "src": "kedi",
+    "added": 1771845656
+  },
+  {
+    "url": "https://golang.org/",
+    "name": "Go",
+    "tags": [
+      "go",
+      "açık-kaynak",
+      "dokümantasyon"
+    ],
+    "tr": "Google’ın sade, hızlı derlenen, eşzamanlılığa güçlü dili — resmî sitesi.",
+    "en": "Google’s simple, fast-compiling language strong in concurrency — its official site.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://gobyexample.com/",
+    "name": "Go by Example",
+    "tags": [
+      "ücretsiz",
+      "go",
+      "öğretici"
+    ],
+    "tr": "Her kavramı yorumlu tek bir programla anlatıyor. Turu bitirdikten sonra “bunu Go’da nasıl yapıyordum” sorusunun cevabı burada.",
+    "en": "Explains each concept through one annotated program. After the tour, this is where “how do I do that in Go again” gets answered.",
+    "src": "kedi",
+    "added": 1776690073
+  },
+  {
+    "url": "https://gradle.org/",
+    "name": "Gradle",
+    "tags": [
+      "açık-kaynak",
+      "otomasyon"
+    ],
+    "tr": "Java ve Android için betiklenebilir, artımlı derleme aracı. Maven’in XML’inden farkı derleme mantığını gerçek kodla (Kotlin/Groovy) yazıp yalnız değişeni yeniden derlemesi.",
+    "en": "A scriptable, incremental build tool for Java and Android. Unlike Maven’s XML it writes build logic in real code (Kotlin/Groovy) and rebuilds only what changed.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://github.com/google/guava",
+    "name": "Guava",
+    "tags": [
+      "açık-kaynak",
+      "github"
+    ],
+    "tr": "Google’ın Java için çekirdek yardımcı kütüphanesi — koleksiyonlar, önbellek, fonksiyonel ekler. Standart kütüphaneyi elle doldurmaktan farkı bu boşlukları test edilmiş biçimde kapatması.",
+    "en": "Google’s core utility library for Java — collections, caching, functional extras. Unlike filling the standard library’s gaps by hand it closes them in a tested way.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://www.haskell.org/",
+    "name": "Haskell",
+    "tags": [
+      "açık-kaynak",
+      "dokümantasyon"
+    ],
+    "tr": "Saf işlevsel ve statik tipli, tembel değerlendirmeli programlama dili.",
+    "en": "A purely functional, statically typed programming language with lazy evaluation.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://hibernate.org/",
+    "name": "Hibernate",
+    "tags": [
+      "açık-kaynak",
+      "veritabanı"
+    ],
+    "tr": "Java nesnelerini ilişkisel veritabanı satırlarına eşleyen ORM. Ham JDBC’den farkı SQL’i büyük ölçüde soyutlayıp nesne grafiğini kalıcılaştırması.",
+    "en": "An ORM mapping Java objects to relational database rows. Unlike raw JDBC it largely abstracts the SQL and persists the object graph.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://docs.python-guide.org/writing/style/",
+    "name": "Hitchhiker’s Guide to Python",
+    "tags": [
+      "ücretsiz",
+      "python",
+      "referans"
+    ],
+    "tr": "Python’da üslup, proje düzeni ve araç seçimi üzerine topluluk rehberi. Dil referansının anlatmadığı “nasıl yazılır” kısmı.",
+    "en": "A community guide to Python style, project layout and tooling — the “how it is written” part the language reference leaves out.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://holyc-lang.com/",
+    "name": "HolyC",
+    "tags": [
+      "açık-kaynak",
+      "referans",
+      "c-ailesi"
+    ],
+    "tr": "TempleOS’un HolyC dili için bağımsız derleyici ve dokümantasyon. Pratik bir kullanımı yok; dil tasarımı ve bilgisayar tarihi merakı için duruyor.",
+    "en": "An independent compiler and documentation for TempleOS’s HolyC. No practical use — it stands for the language design and computing history interest.",
+    "src": "kedi",
+    "added": 1753836338
+  },
+  {
+    "url": "https://www.includehelp.com/c-programs/c-programs-basic-input-output-operations.aspx",
+    "name": "IncludeHelp C Programları",
+    "tags": [
+      "ücretsiz",
+      "c-ailesi",
+      "öğretici"
+    ],
+    "tr": "Çözülmüş C programları koleksiyonu; anlatım yok, doğrudan çalışan örnek var. Bir kalıbı hızla hatırlamak için elverişli.",
+    "en": "A collection of solved C programs — no exposition, just working examples. Handy for recalling a pattern quickly.",
+    "src": "kedi",
+    "added": 1771712624
+  },
+  {
+    "url": "https://www.youtube.com/indently",
+    "name": "Indently",
+    "tags": [
+      "video",
+      "ücretsiz",
+      "python"
+    ],
+    "tr": "Tek bir Python kavramını derinleştiren kısa bölümler; uzun kurs formatına almayan konuları işliyor.",
+    "en": "Short episodes each deepening one Python concept, covering things a long-course format skips.",
+    "src": "kedi",
+    "added": 1775474578
+  },
+  {
+    "url": "https://github.com/FasterXML/jackson",
+    "name": "Jackson",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "api"
+    ],
+    "tr": "Java’da JSON’u nesneye ve nesneyi JSON’a çeviren fiili standart kütüphane. El yazımı ayrıştırmadan farkı akış, ağaç ve veri-bağlama modlarını tek çatıda vermesi.",
+    "en": "The de facto library for turning JSON into objects and back in Java. Unlike hand-written parsing it offers streaming, tree and data-binding modes under one roof.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://github.com/openjdk/jmh",
+    "name": "JMH",
+    "tags": [
+      "açık-kaynak",
+      "github"
+    ],
+    "tr": "JVM’de mikro-ölçüm için OpenJDK aracı; ölçümü bozan JIT etkilerini hesaba katar. Elle zamanlamadan farkı ısınma, ölü kod eleme gibi tuzakları doğru kurgulaması.",
+    "en": "An OpenJDK tool for microbenchmarking on the JVM that accounts for JIT effects that distort measurement. Unlike timing by hand it correctly handles traps like warmup and dead-code elimination.",
+    "src": "javalinks"
+  },
+  {
+    "url": "https://jsexercises.com/",
+    "name": "JS Exercises",
+    "tags": [
+      "ücretsiz",
+      "javascript",
+      "interaktif"
+    ],
+    "tr": "Tarayıcıda çalıştırılabilir JavaScript alıştırmaları; okuma sonrası pekiştirme için.",
+    "en": "Runnable JavaScript exercises in the browser, for consolidating after reading.",
+    "src": "kedi",
+    "added": 1787182432
+  },
+  {
+    "url": "https://julialang.org/",
+    "name": "Julia",
+    "tags": [
+      "açık-kaynak",
+      "veri-bilimi"
+    ],
+    "tr": "Bilimsel hesaplama için yüksek başarımlı, açık kaynak dil.",
+    "en": "A high-performance, open-source language for scientific computing.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://github.com/svaksha/Julia.jl",
+    "name": "Julia.jl",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "veri-bilimi"
+    ],
+    "tr": "Julia dili paket ve kaynaklarını konuya göre düzenleyen kapsamlı liste.",
+    "en": "A comprehensive list organising Julia packages and resources by topic.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://junit.org/junit5/",
+    "name": "JUnit 5",
+    "tags": [
+      "açık-kaynak",
+      "dokümantasyon"
+    ],
+    "tr": "Java’nın standart birim test çatısı; test yazımı ve çalıştırmanın temeli. Elle main’de denemekten farkı iddialar, yaşam döngüsü kancaları ve parametreli testler getirmesi.",
+    "en": "Java’s standard unit-testing framework; the base of writing and running tests. Unlike trying things in main it brings assertions, lifecycle hooks and parameterised tests.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://kodisyum.com/c-ornekler/",
+    "name": "Kodisyum C Örnekleri",
+    "tags": [
+      "ücretsiz",
+      "türkçe",
+      "c-ailesi"
+    ],
+    "tr": "Türkçe C örnek programları; ders ödevi düzeyindeki klasik alıştırmaları kapsıyor. Yerelde C kaynağı kıt olduğu için değerli.",
+    "en": "Turkish C example programs covering the classic coursework-level exercises — valuable because Turkish C material is thin on the ground.",
+    "src": "kedi",
+    "added": 1763972832
+  },
+  {
+    "url": "https://kotlinlang.org/",
+    "name": "Kotlin",
+    "tags": [
+      "açık-kaynak",
+      "dokümantasyon"
+    ],
+    "tr": "JVM üzerinde çalışan, Android’in tercih dili olan çok platformlu dil.",
+    "en": "A cross-platform language on the JVM, the preferred language for Android.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://www.youtube.com/user/kudvenkat/",
+    "name": "kudvenkat",
+    "tags": [
+      "video",
+      "öğretici",
+      "ücretsiz"
+    ],
+    "tr": ".NET, C# ve SQL Server konularında uzun ve düzenli ders serileri. Kısa öğreticilerden farkı her serinin bir müfredat gibi ilerlemesi — kurumsal .NET yığınını sıfırdan öğrenmek için.",
+    "en": "Long, orderly lecture series on .NET, C# and SQL Server. Against short tutorials each series advances like a syllabus — for learning the enterprise .NET stack from nothing.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.learn-c.org/",
+    "name": "Learn C",
+    "tags": [
+      "ücretsiz",
+      "c-ailesi",
+      "interaktif"
+    ],
+    "tr": "Tarayıcıda derleyip çalıştırabildiğin C öğreticisi. Derleyici kurmadan dile bakmak isteyenler için giriş engelini kaldırıyor.",
+    "en": "A C tutorial you compile and run in the browser, removing the entry barrier for anyone who wants a look at the language before installing a toolchain.",
+    "src": "kedi",
+    "added": 1772984248
+  },
+  {
+    "url": "https://www.learnpython.org",
+    "name": "Learn Python",
+    "tags": [
+      "python",
+      "öğretici",
+      "interaktif",
+      "ücretsiz"
+    ],
+    "tr": "Python’ı tarayıcıdaki alıştırmalarla öğreten etkileşimli giriş; kurulum gerektirmiyor. Kitaplardan farkı her bölümün sonunda çalıştırılan bir alıştırma olması — okuduğunun oturduğunu hemen görüyorsun.",
+    "en": "An interactive introduction teaching Python through in-browser exercises, with nothing to install. Against a book, each section ends in an exercise that runs — you see immediately whether it stuck.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://learnshell.org",
+    "name": "Learn Shell",
+    "tags": [
+      "cli",
+      "öğretici",
+      "interaktif",
+      "ücretsiz"
+    ],
+    "tr": "Kabuk betiklerini tarayıcıda çalıştırılabilir alıştırmalarla öğreten giriş. Kabuk kılavuzlarından farkı denemenin bedava olması — kendi makinende `rm` denemeye çekinirken burada takılıp kalmıyorsun.",
+    "en": "An introduction to shell scripting through exercises that run in the browser. Against the shell manuals the difference is that experimenting is free — you can try `rm` without hesitating over what it might hit.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://learnyouahaskell.github.io/chapters.html",
+    "name": "Learn You a Haskell",
+    "tags": [
+      "kitap",
+      "ücretsiz",
+      "öğretici"
+    ],
+    "tr": "Haskell’in en bilinen giriş kitabının topluluk tarafından güncellenmiş çevrimiçi hâli. Akademik Haskell kaynaklarından farkı üslubu: monad’ı kategori teorisiyle değil, çizimlerle ve kademeli örneklerle anlatıyor.",
+    "en": "The community-maintained online edition of the best-known Haskell introduction. Against the academic Haskell texts the difference is tone: it gets to monads through drawings and incremental examples rather than category theory.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://www.learnbyexample.org/",
+    "name": "LearnByExample",
+    "tags": [
+      "öğretici",
+      "python",
+      "ücretsiz"
+    ],
+    "tr": "Python, SQL ve R’ı çalıştırılabilir örneklerle öğreten site; her kavram tek bir küçük kod parçasıyla açılıyor. Belgelerden farkı sıra: önce çalışan örnek, sonra açıklama — sözdizimini hatırlamak için hızlı bir referans olarak da işe yarıyor.",
+    "en": "Teaches Python, SQL and R through runnable examples, opening each concept with one small piece of code. Against documentation the order is reversed — working example first, explanation after — which also makes it a fast syntax refresher.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://ruslanspivak.com/lsbasi-part1/",
+    "name": "Let’s Build A Simple Interpreter",
+    "tags": [
+      "ücretsiz",
+      "öğretici",
+      "python"
+    ],
+    "tr": "Python ile adım adım yorumlayıcı yazdıran uzun seri; sözcüksel çözümlemeden soyut sözdizimi ağacına kadar her parçayı elle kurduruyor.",
+    "en": "A long series building an interpreter step by step in Python, constructing every piece by hand from lexing to the abstract syntax tree.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://llvm.org/docs/GettingStartedTutorials.html",
+    "name": "LLVM Başlangıç",
+    "tags": [
+      "dokümantasyon",
+      "c-ailesi"
+    ],
+    "tr": "LLVM altyapısına giriş ve Kaleidoscope öğreticisi — kendi dilini yazmanın klasik başlangıcı. Ara temsil (IR) kavramını somutlaştıran en iyi kaynaklardan.",
+    "en": "An introduction to the LLVM infrastructure plus the Kaleidoscope tutorial, the classic starting point for writing your own language and one of the best ways to make the IR concept concrete.",
+    "src": "kedi",
+    "added": 1776145899
+  },
+  {
+    "url": "https://www.lua.org/",
+    "name": "Lua",
+    "tags": [
+      "açık-kaynak",
+      "gömülü"
+    ],
+    "tr": "Gömülmeye elverişli, hafif betik dili; oyun ve gömülü sistemlerde yaygın.",
+    "en": "A lightweight, embeddable scripting language, common in games and embedded systems.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://www.youtube.com/user/MeetingCPP/videos",
+    "name": "Meeting C++",
+    "tags": [
+      "video",
+      "c-ailesi",
+      "ücretsiz"
+    ],
+    "tr": "Avrupa’nın en büyük C++ konferansının konuşma arşivi. CppCon’dan farkı daha küçük ve uygulama ağırlıklı olması — standart tartışmasından çok gerçek projelerden deneyimler.",
+    "en": "The talk archive of Europe’s largest C++ conference. Against CppCon it is smaller and more applied — experience from real projects rather than standards debate.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://openjdk.org/",
+    "name": "OpenJDK",
+    "tags": [
+      "açık-kaynak",
+      "dokümantasyon"
+    ],
+    "tr": "Java platformunun açık kaynak referans uygulaması — dilin ve JVM’in geliştiği yer. Satıcı dağıtımlarından farkı standardın kendisinin burada tanımlanması.",
+    "en": "The open-source reference implementation of the Java platform — where the language and JVM are developed. Unlike vendor distributions the standard itself is defined here.",
+    "src": "javalinks"
+  },
+  {
+    "url": "https://www.python.org/dev/peps/pep-0008/",
+    "name": "PEP 8",
+    "tags": [
+      "ücretsiz",
+      "python",
+      "referans"
+    ],
+    "tr": "Python’un resmî üslup kılavuzu; standart kütüphanenin yazımında kullanılan kurallar. black ve ruff gibi araçların dayandığı metin.",
+    "en": "Python’s official style guide, the rules used for the standard library itself — the text tools like black and ruff are built on.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.perl.org/",
+    "name": "Perl",
+    "tags": [
+      "açık-kaynak"
+    ],
+    "tr": "Metin işleme ve sistem betiklerinde güçlü, dinamik ve olgun dil.",
+    "en": "A dynamic, mature language strong in text processing and system scripting.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://www.php.net/",
+    "name": "PHP",
+    "tags": [
+      "php",
+      "açık-kaynak",
+      "dokümantasyon"
+    ],
+    "tr": "Web’in sunucu tarafında en yaygın dillerinden; resmî belgeleri.",
+    "en": "One of the most common server-side languages of the web — its official docs.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://phpize.online/",
+    "name": "phpize.online",
+    "tags": [
+      "php",
+      "tarayıcı-içi",
+      "ücretsiz",
+      "veritabanı"
+    ],
+    "tr": "PHP kodunu farklı sürümlerde çalıştırıp yanına MySQL, PostgreSQL veya SQLite bağlayan oyun alanı. Diğer PHP oyun alanlarından farkı veritabanı bağlantısı sunması — sorgu davranışını denemek için sunucu kurmaya gerek kalmıyor.",
+    "en": "A playground that runs PHP across versions with MySQL, PostgreSQL or SQLite attached. Unlike other PHP playgrounds it gives you a database, so trying query behaviour needs no server of your own.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://projectlombok.org/",
+    "name": "Project Lombok",
+    "tags": [
+      "açık-kaynak"
+    ],
+    "tr": "Getter/setter, yapıcı gibi tekrar eden Java kodunu ek açıklamalarla derleme anında üreten araç. Elle yazmaktan farkı sınıfı kısa tutup gürültüyü derleyiciye bırakması.",
+    "en": "A tool that generates repetitive Java code like getters/setters and constructors from annotations at compile time. Unlike writing it by hand it keeps the class short and leaves the noise to the compiler.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://doc.qt.io/",
+    "name": "Qt Documentation",
+    "tags": [
+      "dokümantasyon",
+      "c-ailesi",
+      "masaüstü"
+    ],
+    "tr": "Qt çatısının resmî belgeleri; C++ ve QML için sınıf referansı, örnekler ve platform kılavuzları. Diğer arayüz çatılarının belgelerinden farkı kapsamı — masaüstü, mobil ve gömülü aynı API altında anlatılıyor.",
+    "en": "The official documentation for the Qt framework: class reference, examples and platform guides for C++ and QML. Against other UI framework docs the difference is scope — desktop, mobile and embedded described under one API.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.r-project.org/",
+    "name": "R",
+    "tags": [
+      "veri-bilimi",
+      "açık-kaynak"
+    ],
+    "tr": "İstatistik ve veri analizi için tasarlanmış dil ve ortam.",
+    "en": "A language and environment designed for statistics and data analysis.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://www.ruby-lang.org/en/",
+    "name": "Ruby",
+    "tags": [
+      "açık-kaynak",
+      "dokümantasyon"
+    ],
+    "tr": "Okunabilirliği ve geliştirici mutluluğunu öne alan çok paradigmalı dil.",
+    "en": "A multi-paradigm language foregrounding readability and developer happiness.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://guides.rubygems.org/",
+    "name": "RubyGems Guides",
+    "tags": [
+      "dokümantasyon",
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "RubyGems’in nasıl çalıştığını ve kendi gem’ini nasıl yayımlayacağını anlatan resmî rehber. API belgelerinden farkı sürüm numaralandırma, bağımlılık çözümleme ve yayımlama politikası gibi kararları da açıklaması.",
+    "en": "The official guide to how RubyGems works and how to publish your own gem. Against the API reference it also explains the decisions — version numbering, dependency resolution, publishing policy.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://doc.rust-lang.org/rust-by-example/",
+    "name": "Rust by Example",
+    "tags": [
+      "rust",
+      "interaktif",
+      "ücretsiz"
+    ],
+    "tr": "Her kavramı çalıştırılabilir, düzenlenebilir kod örneğiyle veren resmî kaynak. Kitaptan farkı anlatıyı kısıp örneği öne alması — deneyerek öğrenenler için.",
+    "en": "The official resource giving each concept as a runnable, editable code example. Unlike the book it cuts the prose and leads with the example — for those who learn by trying.",
+    "src": "rustlearn"
+  },
+  {
+    "url": "https://rust-lang-nursery.github.io/rust-cookbook/",
+    "name": "Rust Cookbook",
+    "tags": [
+      "rust",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "\"Dosyayı satır satır oku\", \"HTTP isteği at\" gibi gündelik işlerin Rust karşılıklarını veren tarif kitabı. Kitap ve örneklerden farkı görev odaklı olması — dili öğrenmek için değil, bir işi bitirmek için açılıyor.",
+    "en": "A cookbook of everyday tasks in Rust — read a file line by line, make an HTTP request. Against the book and the examples it is task-oriented: you open it to finish something, not to learn the language.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://play.rust-lang.org/",
+    "name": "Rust Playground",
+    "tags": [
+      "rust",
+      "tarayıcı-içi",
+      "ücretsiz",
+      "interaktif"
+    ],
+    "tr": "Rust kodunu kurulum olmadan tarayıcıda derleyip çalıştıran resmî alan. Yerel kurulumdan farkı derleyici çıktısını ve ASM/MIR’i paylaşılabilir bağlantıyla vermesi.",
+    "en": "The official space to compile and run Rust code in the browser with no install. Unlike a local setup it gives compiler output and ASM/MIR via a shareable link.",
+    "src": "rustlearn"
+  },
+  {
+    "url": "https://doc.rust-lang.org/std/",
+    "name": "Rust Standard Library",
+    "tags": [
+      "rust",
+      "dokümantasyon",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Rust standart kütüphanesinin resmî referansı — tip, trait ve makrolar. Öğreticilerden farkı öğretmeye değil, tam ve kesin başvuruya yönelmesi.",
+    "en": "The official reference for the Rust standard library — types, traits and macros. Unlike tutorials it aims not to teach but to be the complete, exact reference.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://rust-lang.org/tr/learn/",
+    "name": "Rust Öğrenin (Türkçe)",
+    "tags": [
+      "ücretsiz",
+      "türkçe",
+      "rust"
+    ],
+    "tr": "Rust’ın resmî öğrenme sayfasının Türkçe hâli. Sahiplik (ownership) ve ödünç alma kavramlarına kendi dilinde girmek, dilin en dik yokuşunu biraz yumuşatıyor.",
+    "en": "The Turkish version of Rust’s official learning page. Meeting ownership and borrowing in your own language softens the language’s steepest climb a little.",
+    "src": "kedi",
+    "added": 1774809406
+  },
+  {
+    "url": "https://github.com/rust-lang/rustlings",
+    "name": "Rustlings",
+    "tags": [
+      "rust",
+      "interaktif",
+      "açık-kaynak",
+      "github"
+    ],
+    "tr": "Küçük, kırık kod parçalarını düzelterek Rust öğreten alıştırma seti. Okuma temelli kaynaklardan farkı derleyici hatalarını okuyup düzeltmeyi elle deneyimletmesi.",
+    "en": "An exercise set teaching Rust by fixing small, broken snippets. Unlike reading-based resources it has you read and fix compiler errors by hand.",
+    "src": "rustlearn"
+  },
+  {
+    "url": "https://omerfi.medium.com/python-virtual-environment-venv-nedir-981788752e5a",
+    "name": "Sanal Ortam (venv) Nedir?",
+    "tags": [
+      "ücretsiz",
+      "türkçe",
+      "python"
+    ],
+    "tr": "Python sanal ortamlarını Türkçe anlatan kısa giriş; kavramı ilk kez duyanlar için yeterli. Modern araç zinciri artık uv tarafına kayıyor, onu da bilmekte fayda var.",
+    "en": "A short Turkish introduction to Python virtual environments, sufficient on first contact. The modern toolchain is shifting toward uv, which is worth knowing alongside.",
+    "src": "kedi",
+    "added": 1776614510
+  },
+  {
+    "url": "https://www.scala-lang.org/",
+    "name": "Scala",
+    "tags": [
+      "açık-kaynak",
+      "backend"
+    ],
+    "tr": "Nesne yönelimli ve işlevseli birleştiren, JVM üzerinde çalışan dil.",
+    "en": "A language on the JVM uniting object-oriented and functional programming.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://sdkman.io/",
+    "name": "SDKMAN!",
+    "tags": [
+      "cli",
+      "açık-kaynak",
+      "otomasyon"
+    ],
+    "tr": "JDK ve JVM araçlarının birden çok sürümünü kurup değiştiren komut satırı yöneticisi. Elle PATH ayarlamaktan farkı proje bazında sürüm geçişini tek komuta indirmesi.",
+    "en": "A command-line manager to install and switch between multiple versions of the JDK and JVM tools. Unlike editing PATH by hand it reduces per-project version switching to one command.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://sarabander.github.io/sicp/html/index.xhtml",
+    "name": "SICP",
+    "tags": [
+      "ücretsiz",
+      "kitap"
+    ],
+    "tr": "Bilgisayar Programlarının Yapısı ve Yorumlanması — MIT’nin klasik ders kitabının okunabilir HTML sürümü. Dil öğretmiyor, soyutlama kurmayı öğretiyor.",
+    "en": "Structure and Interpretation of Computer Programs, MIT’s classic text in a readable HTML edition. It does not teach a language; it teaches how to build abstractions.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://spring.io/projects/spring-boot",
+    "name": "Spring Boot",
+    "tags": [
+      "backend",
+      "açık-kaynak",
+      "api"
+    ],
+    "tr": "Spring uygulamalarını yapılandırma yükü olmadan, çalışır hâlde başlatan çatı. Ham Spring’den farkı akıllı varsayılanlar ve gömülü sunucuyla “tek komutla ayağa kalkması”.",
+    "en": "A framework that starts Spring applications running with no configuration burden. Unlike raw Spring it brings sensible defaults and an embedded server — “up with one command”.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://spring.io/",
+    "name": "Spring Framework",
+    "tags": [
+      "backend",
+      "açık-kaynak",
+      "api"
+    ],
+    "tr": "Kurumsal Java’nın fiili standardı olan uygulama çatısı — bağımlılık enjeksiyonu, web, veri. Kütüphane yığmaktan farkı bunları tek tutarlı programlama modelinde birleştirmesi.",
+    "en": "The application framework that is the de facto standard for enterprise Java — dependency injection, web, data. Unlike stacking libraries it unifies them in one consistent model.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://www.stroustrup.com/C++.html",
+    "name": "Stroustrup on C++",
+    "tags": [
+      "c-ailesi",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "C++’ın yaratıcısının kendi sayfası: sıkça sorulan sorular, üslup önerileri ve dilin neden öyle tasarlandığını anlatan yazılar. Öğreticilerden farkı gerekçe sunması — bir kararın nedenini ancak kararı verenden okuyabiliyorsun.",
+    "en": "The C++ creator’s own pages: FAQs, style advice and essays on why the language was designed as it was. Unlike tutorials it supplies rationale — the reason behind a decision is only available from the person who made it.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.swift.org/",
+    "name": "Swift",
+    "tags": [
+      "açık-kaynak",
+      "dokümantasyon"
+    ],
+    "tr": "Apple’ın öncelikle iOS için geliştirdiği, güvenli ve hızlı derlenen dili.",
+    "en": "Apple’s safe, fast-compiled language, developed primarily for iOS.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=yuVatFCOISc",
+    "name": "Sıfırdan C Programlama",
+    "tags": [
+      "video",
+      "türkçe",
+      "c-ailesi"
+    ],
+    "tr": "C dilini tek oturumda anlatan Türkçe video; hızlı giriş ya da sınav öncesi tekrar için.",
+    "en": "A Turkish video covering C in a single sitting — for a fast introduction or pre-exam revision.",
+    "src": "kedi",
+    "added": 1770706280
+  },
+  {
+    "url": "https://rust-lang.github.io/async-book/",
+    "name": "The Async Book",
+    "tags": [
+      "rust",
+      "kitap",
+      "ücretsiz",
+      "öğretici"
+    ],
+    "tr": "Rust’ta async/await ve Future modelini anlatan resmî kitap. Genel eşzamanlılık anlatımından farkı Rust’ın kendine özgü, ayrıştırılmış çalışma zamanı yaklaşımını açması.",
+    "en": "The official book on async/await and the Future model in Rust. Unlike general concurrency material it explains Rust’s distinctive, decoupled runtime approach.",
+    "src": "rustlearn"
+  },
+  {
+    "url": "https://guide.bash.academy",
+    "name": "The Bash Guide",
+    "tags": [
+      "cli",
+      "kitap",
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Bash’i baştan sona, doğru alışkanlıklarla öğreten rehber; tırnaklama ve kelime bölme gibi tuzakları erkenden ele alıyor. Kopyala-yapıştır öğreticilerinden farkı bu — çoğu betik hatası tam olarak o tuzaklardan çıkıyor.",
+    "en": "A guide teaching Bash end to end with the right habits, tackling quoting and word splitting early. That is the break from copy-paste tutorials: most script bugs come from exactly those traps.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://doc.rust-lang.org/cargo/",
+    "name": "The Cargo Book",
+    "tags": [
+      "rust",
+      "dokümantasyon",
+      "ücretsiz"
+    ],
+    "tr": "Rust’ın paket yöneticisi ve derleme aracı Cargo’nun resmî kılavuzu. Dağınık bloglardan farkı bağımlılık, çalışma alanı ve yayımlamayı tek yetkili yerde toplaması.",
+    "en": "The official guide to Cargo, Rust’s package manager and build tool. Unlike scattered blogs it gathers dependencies, workspaces and publishing in one authoritative place.",
+    "src": "rustlearn"
+  },
+  {
+    "url": "https://docs.oracle.com/javase/tutorial/",
+    "name": "The Java Tutorials",
+    "tags": [
+      "dokümantasyon",
+      "öğretici",
+      "ücretsiz"
+    ],
+    "tr": "Oracle’ın resmî Java öğreticisi; dil temellerinden koleksiyonlara ve eşzamanlılığa. Üçüncü parti kurslardan farkı standart kütüphanenin niyetini birinci ağızdan anlatması — karşılığında üslubu kuru ve bazı bölümleri eski sürümlerde kalmış.",
+    "en": "Oracle’s official Java tutorial, from language basics through collections and concurrency. Against third-party courses it explains the standard library’s intent first-hand; the price is a dry register and sections that stopped at older releases.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://doc.rust-lang.org/book/title-page.html",
+    "name": "The Rust Book",
+    "tags": [
+      "rust",
+      "kitap",
+      "dokümantasyon",
+      "ücretsiz"
+    ],
+    "tr": "Rust’ın resmî kitabı; sahiplik ve ödünç alma gibi dile özgü kavramları sıfırdan kuruyor. Diğer dil kitaplarından farkı derleyicinin hata mesajlarını öğretinin parçası yapması — Rust’ta derleyiciyle tartışmayı öğrenmek dilin yarısı.",
+    "en": "Rust’s official book, building up ownership and borrowing from nothing. Unlike other language books it makes the compiler’s error messages part of the teaching — in Rust, learning to argue with the compiler is half the language.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://doc.rust-lang.org/book/",
+    "name": "The Rust Programming Language",
+    "tags": [
+      "rust",
+      "kitap",
+      "ücretsiz",
+      "öğretici"
+    ],
+    "tr": "Rust’ı sıfırdan öğreten resmî kitap (“the book”). Üçüncü parti öğreticilerden farkı sahiplik ve ödünç alma modelini adım adım, dilin kendi ekibinin ağzından kurması.",
+    "en": "The official book teaching Rust from scratch (“the book”). Unlike third-party tutorials it builds the ownership and borrowing model step by step, from the language team itself.",
+    "src": "rustlearn"
+  },
+  {
+    "url": "https://doc.rust-lang.org/reference/",
+    "name": "The Rust Reference",
+    "tags": [
+      "rust",
+      "dokümantasyon",
+      "referans"
+    ],
+    "tr": "Dilin dilbilgisini ve anlamını tanımlayan resmî başvuru. Kitaptan farkı öğretici değil, “Rust tam olarak nasıl davranır” sorusunun yetkili cevabı olması.",
+    "en": "The official reference defining the language’s grammar and semantics. Unlike the book it is not a tutorial but the authoritative answer to “exactly how does Rust behave”.",
+    "src": "rustlearn"
+  },
+  {
+    "url": "https://doc.rust-lang.org/nomicon/",
+    "name": "The Rustonomicon",
+    "tags": [
+      "rust",
+      "kitap",
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Güvensiz (unsafe) Rust’ın kurallarını anlatan ileri düzey kitap. Ana kitaptan farkı ödünç denetçisinin dışına çıkıldığında nelere dikkat edileceğini kapsaması.",
+    "en": "An advanced book on the rules of unsafe Rust. Unlike the main book it covers what to watch for when you step outside the borrow checker.",
+    "src": "rustlearn"
+  },
+  {
+    "url": "https://github.com/thejameskyle/the-super-tiny-compiler",
+    "name": "The Super Tiny Compiler",
+    "tags": [
+      "github",
+      "öğretici"
+    ],
+    "tr": "Yorum satırlarıyla açıklanmış, birkaç yüz satırlık minik bir derleyici. Derleyici aşamalarının tamamını tek oturumda okunabilir kılıyor.",
+    "en": "A tiny compiler of a few hundred heavily commented lines, making every compiler stage readable in a single sitting.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://this-week-in-rust.org/",
+    "name": "This Week in Rust",
+    "tags": [
+      "rust",
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Rust dünyasındaki gelişmeleri, yeni sürüm ve yazıları haftalık derleyen bülten. Dağınık takipten farkı ekosistemi tek, düzenli akışta izlemeni sağlaması.",
+    "en": "A newsletter rounding up developments, releases and posts in the Rust world weekly. Unlike scattered following it lets you track the ecosystem in one regular stream.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://tokio.rs/",
+    "name": "Tokio",
+    "tags": [
+      "rust",
+      "açık-kaynak",
+      "backend",
+      "dokümantasyon"
+    ],
+    "tr": "Rust için en yaygın asenkron çalışma zamanı; ağ servisleri bunun üstüne kurulur. Standart kütüphaneden farkı yüksek eşzamanlı G/Ç için zamanlayıcı, görev ve araçları getirmesi.",
+    "en": "The most widely used asynchronous runtime for Rust; network services build on it. Unlike the standard library it brings a scheduler, tasks and tooling for highly concurrent I/O.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://docs.astral.sh/uv/",
+    "name": "uv",
+    "tags": [
+      "açık-kaynak",
+      "rust",
+      "python",
+      "referans"
+    ],
+    "tr": "Rust ile yazılmış paket ve proje yöneticisi; pip’ten onlarca kat hızlı. venv, pip, pip-tools ve pyenv’in işini tek ikili dosyada topluyor.",
+    "en": "A package and project manager written in Rust, tens of times faster than pip. It collapses venv, pip, pip-tools and pyenv into a single binary.",
+    "src": "kedi",
+    "added": 1776086922
+  },
+  {
+    "url": "https://github.com/vavr-io/vavr",
+    "name": "Vavr",
+    "tags": [
+      "açık-kaynak",
+      "github"
+    ],
+    "tr": "Java’ya kalıcı koleksiyonlar ve fonksiyonel kontrol yapıları getiren kütüphane. Standart koleksiyonlardan farkı değişmezliği ve Try/Either gibi tipleri öne alması.",
+    "en": "A library bringing persistent collections and functional control structures to Java. Unlike the standard collections it foregrounds immutability and types like Try/Either.",
+    "src": "javalinks"
+  },
+  {
+    "url": "https://norasandler.com/2017/11/29/Write-a-Compiler.html",
+    "name": "Writing a C Compiler",
+    "tags": [
+      "ücretsiz",
+      "öğretici",
+      "c-ailesi"
+    ],
+    "tr": "C derleyicisini parça parça yazdıran yazı dizisi; her bölüm dilin küçük bir alt kümesini derleyebilen çalışan bir program bırakıyor.",
+    "en": "A series writing a C compiler piece by piece, each part leaving you a working program that compiles a small subset of the language.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://python.yazbel.com/",
+    "name": "Yazbel Python Belgeleri",
+    "tags": [
+      "ücretsiz",
+      "türkçe",
+      "python"
+    ],
+    "tr": "Python’un en kapsamlı Türkçe kaynağı ve çeviri değil; baştan Türkçe yazılmış olduğu için terimler zorlama durmuyor. Karakter kodlaması bölümü Türkçe metinle çalışanlar için özellikle değerli.",
+    "en": "The most comprehensive Turkish Python resource, written natively rather than translated, so the terminology does not feel forced. Its encoding chapter is especially valuable if you work with Turkish text.",
+    "src": "kedi",
+    "added": 1772721067
+  }
+]

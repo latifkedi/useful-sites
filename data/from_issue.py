@@ -2,8 +2,8 @@
 """Turns an approved issue into a directory record.
 
 Run by .github/workflows/approve-link.yml when a maintainer puts the
-`approved` label on a "Suggest a link" issue. It appends an add(...) call to
-part_new.py, rebuilds, and the workflow opens a pull request with the result.
+`approved` label on a "Suggest a link" issue. It appends a record to
+data/notes/<category>.json, rebuilds, and the workflow opens a pull request with the result.
 
 The point is not to save typing. It is that a submission which sits in an
 issue is worth nothing until someone transcribes it, and transcription is
@@ -11,8 +11,8 @@ exactly the step that gets postponed. This closes that gap while leaving the
 final say with a human: the workflow opens a PR, it does not merge one.
 
 Nothing here trusts the issue text. The URL is checked, duplicates are
-refused, tags go through the canonical table, and every value is written as a
-quoted Python string with no interpolation into code.
+refused, tags go through the canonical table, and the record is written as JSON
+data -- there is no code for a submission to break into.
 """
 import io
 import json
@@ -23,11 +23,11 @@ import sys
 D = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, D)
 
-import readlinks                      # noqa: E402
-from notes import CATS                # noqa: E402
+from notes import CATS, load_records  # noqa: E402
 from tags import normalise            # noqa: E402
+from sources import DEFAULT           # noqa: E402
 
-PART = os.path.join(D, 'part_new.py')
+NOTES = os.path.join(D, 'notes')
 CAT_BY_EN = dict((c[2], c[0]) for c in CATS)
 
 
@@ -90,8 +90,10 @@ def parse(body):
 
 
 def already_there(url):
+    # Checked against the notes themselves, not the built links.js: the notes
+    # are the source of truth, and links.js can lag behind an unbuilt edit.
     have = set()
-    for d in readlinks.read(os.path.dirname(D)):
+    for d in load_records(NOTES):
         k = norm(d['url'])
         have.add(k)
         have.add(re.split(r'[?#]', k)[0].rstrip('/'))
@@ -99,38 +101,28 @@ def already_there(url):
     return k in have or re.split(r'[?#]', k)[0].rstrip('/') in have
 
 
-def py(s):
-    """A Python string literal. json.dumps gives valid, escaped output.
+def record(rec, issue):
+    """The note to append, as plain data.
 
-    Every value from the issue goes through here, which is what stops a
-    submission from breaking out of the string and into code. The first
-    version rendered the tag list by swapping double quotes for single ones,
-    which would have broken on a tag containing an apostrophe; each tag is now
-    quoted on its own.
+    Nothing from the issue is ever written as code any more: notes are JSON,
+    so a crafted description has nothing to break out into. The submitter
+    wrote one language in one voice, so both fields carry the same text, and
+    the "review" field says so -- test_build.py fails while it is present,
+    which keeps the pull request red until a person has done the pass.
     """
-    return json.dumps(s, ensure_ascii=False)
-
-
-def render(rec, issue):
     tr = rec['what'] + ((' ' + rec['diff']) if rec['diff'] else '')
-    body = [
-        '',
-        '    # from issue #%d -- description needs a pass: the submitter wrote'
-        % issue,
-        '    # one language and one voice; both fields below carry the same text.',
-        '    add(%s, %s,' % (py(rec['url']), py(rec['name'])),
-        '        [%s],' % ', '.join(py(t) for t in rec['tags']),
-        '        %s,' % py(tr),
-        '        %s%s' % (py(tr), ',' if rec['cat'] else ')'),
-    ]
-    if rec['cat']:
-        body.append('        %s)' % py(rec['cat']))
-    return '\n'.join(body) + '\n'
+    why = 'from issue #%d -- description needs a pass: one language, one voice' % issue
+    if not rec['cat']:
+        why += '; category was "Not sure", filed under araclar'
+    return {'url': rec['url'], 'name': rec['name'], 'tags': rec['tags'],
+            'tr': tr, 'en': tr, 'src': DEFAULT, 'review': why}
 
 
-def append(text):
-    src = io.open(PART, encoding='utf-8').read().rstrip('\n')
-    io.open(PART, 'w', encoding='utf-8', newline='\n').write(src + '\n' + text)
+def append(note, cat):
+    path = os.path.join(NOTES, cat + '.json')
+    have = json.load(io.open(path, encoding='utf-8')) if os.path.exists(path) else []
+    io.open(path, 'w', encoding='utf-8', newline='\n').write(
+        json.dumps(have + [note], ensure_ascii=False, indent=2) + '\n')
 
 
 def main():
@@ -146,9 +138,10 @@ def main():
         print('refused:', e)
         return 1
 
-    append(render(rec, issue))
-    print('appended to part_new.py:', rec['name'], '->', rec['url'])
-    print('category:', rec['cat'] or '(from bookmark path / fallback)')
+    cat = rec['cat'] or 'araclar'
+    append(record(rec, issue), cat)
+    print('appended to notes/%s.json:' % cat, rec['name'], '->', rec['url'])
+    print('category:', rec['cat'] or 'araclar (was Not sure)')
     print('tags    :', rec['tags'] or '(none)')
     return 0
 

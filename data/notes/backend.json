@@ -1,0 +1,649 @@
+[
+  {
+    "url": "https://any-api.com/",
+    "name": "Any API",
+    "tags": [
+      "backend",
+      "api",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Yüzlerce herkese açık API’nin belge ve konsolunu tek yerde toplayan dizin. Tek tek API sitelerinden farkı hepsini ortak bir arayüzde deneyebilmen.",
+    "en": "A directory gathering the docs and console of hundreds of public APIs in one place. Unlike individual API sites you can try them all in a common interface.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=XvFmUE-36Kc",
+    "name": "API Tasarımı ve Mimarisi",
+    "tags": [
+      "video",
+      "ücretsiz",
+      "api"
+    ],
+    "tr": "Bir saatlik backend giriş anlatımı; kaynak adlandırma, sürümleme ve hata biçimi kararlarını gerekçeleriyle işliyor.",
+    "en": "An hour-long backend introduction working through resource naming, versioning and error-format decisions with their reasoning.",
+    "src": "kedi",
+    "added": 1775475549
+  },
+  {
+    "url": "https://github.com/friendsofcake/awesome-cakephp",
+    "name": "Awesome CakePHP",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "php",
+      "backend"
+    ],
+    "tr": "PHP çatısı CakePHP için eklenti ve kaynak listesi.",
+    "en": "A list of plugins and resources for the CakePHP framework.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/ucg8j/awesome-dash",
+    "name": "Awesome Dash",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "python",
+      "veri-bilimi"
+    ],
+    "tr": "Python ile veri panosu kuran Dash çatısı için kaynak listesi.",
+    "en": "A resource list for Dash, building data dashboards with Python.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/heynickc/awesome-ddd",
+    "name": "Awesome DDD",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "sistem-tasarımı",
+      "backend"
+    ],
+    "tr": "Alan güdümlü tasarım (DDD), CQRS ve olay kaynaklı (event sourcing) mimari için kaynak, kitap ve örnek listesi. Genel mimari listelerinden farkı bu üç birbirine bağlı yaklaşıma odaklanması.",
+    "en": "A list of resources, books and samples for domain-driven design (DDD), CQRS and event sourcing. Unlike general architecture lists it focuses on these three connected approaches.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/denolib/awesome-deno",
+    "name": "Awesome Deno",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "javascript"
+    ],
+    "tr": "Node’a güvenlik ve TypeScript odaklı bir alternatif olan Deno için kaynak listesi. Node listelerinden farkı bu güvenli çalışma zamanına özgü modülleri toplaması.",
+    "en": "A resource list for Deno, a security- and TypeScript-focused alternative to Node. Unlike Node lists it gathers modules specific to this secure runtime.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/directus-community/awesome-directus",
+    "name": "Awesome Directus",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "backend",
+      "api"
+    ],
+    "tr": "Gerçek zamanlı API ve pano sunan başsız CMS Directus için kaynak listesi.",
+    "en": "A resource list for Directus, the headless CMS offering a real-time API and dashboard.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/nirgn975/awesome-drupal",
+    "name": "Awesome Drupal",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "php",
+      "backend"
+    ],
+    "tr": "PHP tabanlı içerik yönetim sistemi Drupal için modül ve kaynak listesi.",
+    "en": "A list of modules and resources for Drupal, the PHP-based CMS.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/mjhea0/awesome-fastapi",
+    "name": "Awesome FastAPI",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "python",
+      "api"
+    ],
+    "tr": "Python’un hızlı web çatısı FastAPI için eklenti, örnek ve öğretici listesi. Resmî dokümandan farkı topluluk kütüphanelerini ve üretim örneklerini toplaması.",
+    "en": "A list of plugins, examples and tutorials for FastAPI, Python’s fast web framework. Unlike the official docs it gathers community libraries and production examples.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/gofiber/awesome-fiber",
+    "name": "Awesome Fiber",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "go",
+      "backend"
+    ],
+    "tr": "Go için hızlı web çatısı Fiber’a dair kaynak listesi.",
+    "en": "A resource list for Fiber, a fast web framework for Go.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/jthegedus/awesome-firebase",
+    "name": "Awesome Firebase",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "backend"
+    ],
+    "tr": "Google’ın uygulama geliştirme platformu Firebase için kaynak listesi.",
+    "en": "A resource list for Firebase, Google’s app-development platform.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/stn1slv/awesome-integration",
+    "name": "Awesome Integration",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "backend"
+    ],
+    "tr": "Farklı BT sistemlerini birbirine bağlama (entegrasyon) kaynak listesi.",
+    "en": "A resource list for linking different IT systems together (integration).",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/chiraggude/awesome-laravel",
+    "name": "Awesome Laravel",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "php",
+      "backend"
+    ],
+    "tr": "PHP’nin en yaygın çatısı Laravel için paket ve kaynak listesi.",
+    "en": "A list of packages and resources for Laravel, PHP’s most popular framework.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/zenitysec/awesome-low-code",
+    "name": "Awesome Low Code",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "backend"
+    ],
+    "tr": "İş profesyonellerinin az kodla uygulama kurmasını sağlayan platformların listesi.",
+    "en": "A list of platforms letting business professionals build apps with little code.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/DavidLambauer/awesome-magento2",
+    "name": "Awesome Magento 2",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "php",
+      "backend"
+    ],
+    "tr": "PHP ile yazılmış açık kaynak e-ticaret platformu Magento 2 için kaynak listesi.",
+    "en": "A resource list for Magento 2, the open-source e-commerce platform built with PHP.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/naimo84/awesome-nodered",
+    "name": "Awesome Node-RED",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "backend",
+      "otomasyon"
+    ],
+    "tr": "Donanım ve servisleri görsel bağlayan Node-RED için kaynak listesi.",
+    "en": "A resource list for Node-RED, wiring hardware and services together visually.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/sindresorhus/awesome-nodejs",
+    "name": "Awesome Node.js",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "javascript"
+    ],
+    "tr": "Node.js paket ve kaynaklarını konuya göre düzenleyen liste. npm aramasından farkı seçilmiş, kalitesi denetlenmiş bir başlangıç noktası olması.",
+    "en": "A list organising Node.js packages and resources by topic. Unlike an npm search it is a curated, quality-checked starting point.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/ziadoz/awesome-php",
+    "name": "Awesome PHP",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "php"
+    ],
+    "tr": "PHP kütüphane, çerçeve ve araçlarını konuya göre toplayan liste. Packagist aramasından farkı seçilmiş ve modern PHP pratiğine göre düzenlenmiş olması.",
+    "en": "A list gathering PHP libraries, frameworks and tools by topic. Unlike a Packagist search it is curated and organised around modern PHP practice.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/collective/awesome-plone",
+    "name": "Awesome Plone",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "python",
+      "backend"
+    ],
+    "tr": "Açık kaynak Python CMS Plone için eklenti ve kaynak listesi.",
+    "en": "A list of add-ons and resources for Plone, the open-source Python CMS.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/catalinmiron/awesome-prisma",
+    "name": "Awesome Prisma",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "backend",
+      "veritabanı"
+    ],
+    "tr": "Veritabanını tip güvenli bir istemciye çeviren Prisma ORM için kaynak listesi.",
+    "en": "A resource list for Prisma, the ORM turning a database into a type-safe client.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/pmuens/awesome-serverless",
+    "name": "Awesome Serverless",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "backend",
+      "devops"
+    ],
+    "tr": "Sunucusuz (serverless) hesaplama ve mimari için kaynak listesi.",
+    "en": "A resource list for serverless computing and architecture.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/simskij/awesome-software-architecture",
+    "name": "Awesome Software Architecture",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "sistem-tasarımı",
+      "backend"
+    ],
+    "tr": "Yazılım mimarisini tasarlama ve belgeleme kaynaklarının listesi. Tek kitaptan farkı kalıp, örnek olay ve araçları bir arada, konu konu toplaması.",
+    "en": "A list of resources for designing and documenting software architecture. Unlike a single book it gathers patterns, case studies and tools together, topic by topic.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/sitepoint-editors/awesome-symfony",
+    "name": "Awesome Symfony",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "php",
+      "backend"
+    ],
+    "tr": "PHP çatısı Symfony için bundle ve kaynak listesi.",
+    "en": "A list of bundles and resources for the Symfony PHP framework.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/vapor-community/awesome-vapor",
+    "name": "Awesome Vapor",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "backend"
+    ],
+    "tr": "Swift ile sunucu tarafı geliştirme çatısı Vapor için kaynak listesi.",
+    "en": "A resource list for Vapor, server-side development in Swift.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://www.convex.dev/",
+    "name": "Convex",
+    "tags": [
+      "backend",
+      "veritabanı",
+      "açık-kaynak"
+    ],
+    "tr": "Veritabanı, sunucu işlevleri ve gerçek zamanlı abonelikleri tek üründe toplayan backend platformu. Firebase’den farkı sorguların TypeScript fonksiyonu olarak yazılması ve işlem (transaction) garantisi vermesi — döküman veritabanı esnekliğiyle ilişkisel tutarlılık.",
+    "en": "A backend platform folding the database, server functions and real-time subscriptions into one product. Where Firebase has you write rules, here queries are TypeScript functions with real transactional guarantees — document flexibility without giving up consistency.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://docs.djangoproject.com/en/6.0/",
+    "name": "Django",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "backend"
+    ],
+    "tr": "ORM, göç sistemi, yönetim paneli ve kimlik doğrulama kutudan çıkıyor. İlk haftayı kazandırıyor; Django’nun kalıbı dışına çıkmak istediğinde direnç gösteriyor.",
+    "en": "ORM, migrations, admin panel and authentication out of the box. It buys you the first week, and pushes back when you want to step outside its shape.",
+    "src": "kedi",
+    "added": 1776690062
+  },
+  {
+    "url": "https://expressjs.com/",
+    "name": "Express",
+    "tags": [
+      "açık-kaynak",
+      "javascript"
+    ],
+    "tr": "Node.js’in minimal çatısı; ara katman (middleware) modelini standartlaştırdığı için ekosistemin ortak dili hâline geldi. Yıllardır neredeyse hiç değişmemesi hem güç hem zayıflık.",
+    "en": "Node’s minimal framework, whose middleware model became the ecosystem’s shared vocabulary. That it has barely changed in years is both its strength and its weakness.",
+    "src": "kedi",
+    "added": 1776690076
+  },
+  {
+    "url": "https://fastapi.tiangolo.com/",
+    "name": "FastAPI",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "api"
+    ],
+    "tr": "Tip ipuçlarından hem doğrulama hem OpenAPI şeması üretiyor; `/docs` adresinde çalışan bir test arayüzü kendiliğinden geliyor. Asenkron desteği ASGI üzerinden yerleşik.",
+    "en": "Derives both validation and an OpenAPI schema from type hints, and a working test UI appears at `/docs` by itself. Async support is native through ASGI.",
+    "src": "kedi",
+    "added": 1776690062
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=iWS9ogMPOI0",
+    "name": "FastAPI ile 15 Dakikada REST API",
+    "tags": [
+      "video",
+      "python",
+      "api"
+    ],
+    "tr": "Yönlendirme, Pydantic modeli ve otomatik doküman üretimini uçtan uca gösteren kısa video. Dokümana dalmadan önce çatının şeklini görmek için.",
+    "en": "A short video showing routing, Pydantic models and automatic doc generation end to end — for seeing the framework’s shape before opening the docs.",
+    "src": "kedi",
+    "added": 1775475571
+  },
+  {
+    "url": "https://flask.palletsprojects.com/en/stable/",
+    "name": "Flask",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "backend"
+    ],
+    "tr": "Çekirdek kasten küçük: yönlendirme ve şablon var, ORM ve kimlik doğrulama yok. Ne kullanacağına sen karar veriyorsun, bu da her projede yeniden karar vermek anlamına geliyor.",
+    "en": "A deliberately small core — routing and templating, no ORM or auth. You choose the pieces, which also means choosing them again on every project.",
+    "src": "kedi",
+    "added": 1776690063
+  },
+  {
+    "url": "https://www.freepublicapis.com/",
+    "name": "Free Public APIs",
+    "tags": [
+      "api",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Üç yüzden fazla ücretsiz genel API’nin dizini; her biri için canlılık durumu ve son kontrol tarihi tutuluyor. Eski awesome-list derlemelerinden farkı bu: listedeki API’lerin hâlâ yanıt verip vermediğini düzenli olarak tarıyor.",
+    "en": "A directory of over three hundred free public APIs, each carrying a liveness status and a last-checked date. That is what separates it from the old awesome-list compilations: it actually keeps scanning whether the APIs still answer.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://graphql.org/",
+    "name": "GraphQL",
+    "tags": [
+      "açık-kaynak",
+      "api",
+      "sistem-tasarımı"
+    ],
+    "tr": "İstemci hangi alanları istediğini kendi belirtiyor; fazla veri çekme ve az veri çekme sorunu şema düzeyinde çözülüyor. Bedeli önbellekleme ve hız sınırlamanın REST’ten zor olması.",
+    "en": "The client declares which fields it wants, so over- and under-fetching are solved at the schema level. The cost is that caching and rate limiting get harder than in REST.",
+    "src": "kedi",
+    "added": 1785059907
+  },
+  {
+    "url": "https://highscalability.com/",
+    "name": "High Scalability",
+    "tags": [
+      "ücretsiz",
+      "sistem-tasarımı",
+      "referans"
+    ],
+    "tr": "On beş yılı aşkın mimari yazısı arşivi. Eski yazılar teknoloji olarak eskimiş olsa da ölçekleme baskısının nasıl karşılandığını görmek için hâlâ okunuyor.",
+    "en": "An archive of architecture write-ups spanning fifteen-plus years. The old posts are dated in technology but still read for how scaling pressure was actually met.",
+    "src": "kedi",
+    "added": 1787182449
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=7iHl71nt49o",
+    "name": "Kıdemli Mühendis Gibi API Tasarımı",
+    "tags": [
+      "video",
+      "ücretsiz",
+      "api"
+    ],
+    "tr": "REST ile GraphQL’i, kimlik doğrulama ve güvenlik kararlarını tek videoda karşılaştırıyor. Hangisinin ne zaman doğru olduğu sorusuna cevap veriyor.",
+    "en": "Compares REST against GraphQL alongside authentication and security decisions in one video, answering when each is the right call.",
+    "src": "kedi",
+    "added": 1775475585
+  },
+  {
+    "url": "https://laracasts.com/",
+    "name": "Laracasts",
+    "tags": [
+      "ücretli",
+      "php",
+      "video"
+    ],
+    "tr": "Laravel ekosisteminin ana video kaynağı; resmî dokümanın anlatmadığı mimari kararları işliyor. Ekosistem eğitimini tek bir sitenin taşıması alışılmadık bir durum.",
+    "en": "The main video resource for the Laravel ecosystem, covering the architectural decisions the docs leave out. One site carrying an ecosystem’s training is unusual.",
+    "src": "kedi",
+    "added": 1776690064
+  },
+  {
+    "url": "https://laravel.com/docs/13.x",
+    "name": "Laravel",
+    "tags": [
+      "açık-kaynak",
+      "php",
+      "backend"
+    ],
+    "tr": "Kuyruk, zamanlayıcı, olay yayını ve test araçları çekirdekte. PHP’nin “eski dil” imajının aksine burada kurulan geliştirici deneyimi çoğu modern çatının üstünde.",
+    "en": "Queues, scheduler, broadcasting and testing tools live in the core. Against PHP’s dated reputation, the developer experience here is ahead of most modern frameworks.",
+    "src": "kedi",
+    "added": 1776690064
+  },
+  {
+    "url": "https://martinfowler.com/architecture/",
+    "name": "Martin Fowler · Architecture",
+    "tags": [
+      "sistem-tasarımı",
+      "referans",
+      "ücretsiz",
+      "backend"
+    ],
+    "tr": "Yazılım mimarisi üzerine Martin Fowler’ın kanonik makale ve kalıp derlemesi. Dağınık bloglardan farkı mikroservis, event sourcing gibi kavramların en çok atıf alan tanımını vermesi.",
+    "en": "Martin Fowler’s canonical collection of essays and patterns on software architecture. Unlike scattered blogs it gives the most-cited definition of concepts like microservices and event sourcing.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://nodejs.org/learn",
+    "name": "Node.js Learn",
+    "tags": [
+      "ücretsiz",
+      "dokümantasyon",
+      "javascript"
+    ],
+    "tr": "Çatı öğretmeden önce çalışma zamanının kendisini anlatıyor: olay döngüsü, akışlar, işçi iş parçacıkları. Express öğrenip Node bilmemek yaygın bir boşluk.",
+    "en": "Explains the runtime itself before any framework — event loop, streams, worker threads. Learning Express without knowing Node is a common gap.",
+    "src": "kedi",
+    "added": 1775495363
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=bA0r0CBuj2Y",
+    "name": "Otel Rezervasyon Sistemi Tasarımı",
+    "tags": [
+      "video",
+      "sistem-tasarımı"
+    ],
+    "tr": "Uçtan uca vaka çalışması; eşzamanlı rezervasyon çakışması ve envanter kilitleme gibi gerçek problemleri mülakat formatında çözüyor.",
+    "en": "An end-to-end case study solving real problems — concurrent booking conflicts, inventory locking — in interview format.",
+    "src": "kedi",
+    "added": 1775421382
+  },
+  {
+    "url": "https://www.php.net/manual/tr/",
+    "name": "PHP El Kitabı (Türkçe)",
+    "tags": [
+      "ücretsiz",
+      "türkçe",
+      "php",
+      "referans"
+    ],
+    "tr": "Fonksiyon referansı için birincil kaynak. Sayfa altındaki kullanıcı yorumları bazen dokümanın kendisinden faydalı, bazen on yıllık kötü tavsiye — tarihe bakmak gerekiyor.",
+    "en": "The primary function reference. The user notes below each page are sometimes more useful than the doc and sometimes decade-old bad advice — check the dates.",
+    "src": "kedi",
+    "added": 1776690063
+  },
+  {
+    "url": "https://phptherightway.com/",
+    "name": "PHP: The Right Way",
+    "tags": [
+      "ücretsiz",
+      "php",
+      "öğretici"
+    ],
+    "tr": "Güncel PHP pratiklerini derliyor: Composer, PSR standartları, hazırlanmış sorgular. İnternette dolaşan `mysql_*` fonksiyonlu eski örneklere karşı düzeltici bir metin.",
+    "en": "Collects current PHP practice — Composer, PSR standards, prepared statements. A corrective to the old `mysql_*` examples still circulating online.",
+    "src": "kedi",
+    "added": 1776690064
+  },
+  {
+    "url": "https://porkbun.com/",
+    "name": "Porkbun",
+    "tags": [
+      "sunucu"
+    ],
+    "tr": "ICANN akreditasyonlu alan adı kayıt şirketi; WHOIS gizliliği, SSL ve e-posta yönlendirme ücretsiz geliyor. GoDaddy tarzı kayıtçılardan farkı yenileme fiyatının ilk yıl fiyatına yakın kalması — cazip giriş fiyatı sonra üç katına çıkmıyor.",
+    "en": "An ICANN-accredited domain registrar where WHOIS privacy, SSL and email forwarding are included rather than upsold. What separates it from the GoDaddy school is that renewal prices stay close to the first-year price instead of tripling.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://github.com/public-api-lists/public-api-lists",
+    "name": "Public API Lists",
+    "tags": [
+      "github",
+      "awesome-liste",
+      "api"
+    ],
+    "tr": "Public APIs’in sürdürülen çatalı. Asıl depo bir dönem bakımsız kaldığında ortaya çıktı; bazı girdileri daha güncel.",
+    "en": "A maintained fork of Public APIs, born while the original went untended. Some of its entries are fresher.",
+    "src": "kedi",
+    "added": 1775421545
+  },
+  {
+    "url": "https://github.com/public-apis/public-apis",
+    "name": "Public APIs",
+    "tags": [
+      "github",
+      "awesome-liste",
+      "api"
+    ],
+    "tr": "Kategorili ücretsiz API listesi; kimlik doğrulama türü, HTTPS ve CORS desteği tabloda işaretli. Prototipe veri lazım olduğunda ilk durak.",
+    "en": "A categorised list of free APIs with auth type, HTTPS and CORS support marked in the table. First stop when a prototype needs data.",
+    "src": "kedi",
+    "added": 1776686384
+  },
+  {
+    "url": "https://refactoring.guru/",
+    "name": "Refactoring Guru",
+    "tags": [
+      "freemium",
+      "sistem-tasarımı"
+    ],
+    "tr": "Her tasarım desenini şema, gerçekçi örnek ve kod olarak veriyor — üstelik altı ayrı dilde. Gang of Four kitabının okunması güç metnine karşı erişilebilir bir karşılık.",
+    "en": "Presents each design pattern as a diagram, a realistic scenario and code — in six languages. An accessible counterpart to the Gang of Four book’s difficult prose.",
+    "src": "kedi",
+    "added": 1778513563
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=adOkTjIIDnk",
+    "name": "Sistem Tasarımı Anlatımı",
+    "tags": [
+      "video",
+      "sistem-tasarımı"
+    ],
+    "tr": "API, veritabanı, önbellek, CDN ve yük dengeleyiciyi tek anlatımda birleştiren giriş. Parçaların birbirine nasıl bağlandığını görmek için.",
+    "en": "An introduction gathering APIs, databases, caching, CDNs and load balancers into one narrative — for seeing how the pieces connect.",
+    "src": "kedi",
+    "added": 1775421356
+  },
+  {
+    "url": "https://stripe.com/en-nl?utm_campaign=EMEA_NL_en_Google_Search_Brand_Stripe_EXA-20981195258&utm_medium=cpc&utm_source=google&utm_content=689219303694&utm_term=stripe&utm_matchtype=e&utm_adposition=&utm_device=c",
+    "name": "Stripe",
+    "tags": [
+      "ücretli",
+      "backend",
+      "api"
+    ],
+    "tr": "Ödeme altyapısı. Dokümantasyonu sektörde ölçüt kabul ediliyor — test kartları, webhook yeniden deneme mantığı ve idempotency anahtarları örneklerle anlatılmış.",
+    "en": "Payment infrastructure whose documentation is treated as an industry benchmark — test cards, webhook retry logic and idempotency keys all worked through with examples.",
+    "src": "kedi",
+    "added": 1785311887
+  },
+  {
+    "url": "https://systemdesign.one/",
+    "name": "System Design One",
+    "tags": [
+      "ücretsiz",
+      "sistem-tasarımı",
+      "öğretici"
+    ],
+    "tr": "Gerçek şirketlerin mimarisini vaka çalışması olarak çözümlüyor; sayısal büyüklükler ve yapılan takasları veriyor. Soyut anlatımlardan bu somutluk ayırıyor.",
+    "en": "Breaks down real company architectures as case studies with actual numbers and the trade-offs taken. That concreteness is what separates it from abstract write-ups.",
+    "src": "kedi",
+    "added": 1787182446
+  },
+  {
+    "url": "https://github.com/donnemartin/system-design-primer",
+    "name": "System Design Primer",
+    "tags": [
+      "github",
+      "sistem-tasarımı",
+      "mülakat"
+    ],
+    "tr": "Ölçekleme kavramlarını (önbellek, parçalama, kuyruk, CAP) örnek mimarilerle birlikte veriyor. Alanın en çok yıldızlanan kaynağı; mülakat dışında da mimari sözlüğü olarak işe yarıyor.",
+    "en": "Pairs scaling concepts — caching, sharding, queues, CAP — with worked architectures. The field’s most-starred resource, and useful as an architecture vocabulary beyond interviews.",
+    "src": "kedi",
+    "added": 1775421399
+  },
+  {
+    "url": "https://webhook.site/",
+    "name": "Webhook.site",
+    "tags": [
+      "api",
+      "ücretsiz",
+      "tarayıcı-içi"
+    ],
+    "tr": "Anında bir URL veriyor ve o adrese gelen istekleri başlıklarıyla birlikte gösteriyor. Yerel sunucu açıp tünellemekten farkı sıfır kurulum — bir webhook’un gerçekten ne gönderdiğini görmek için en kısa yol.",
+    "en": "Hands you a URL instantly and shows every request that arrives, headers included. Against running a local server behind a tunnel it needs no setup — the shortest way to see what a webhook actually sends.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://developer.wordpress.org/",
+    "name": "WordPress Developer",
+    "tags": [
+      "ücretsiz",
+      "php",
+      "dokümantasyon"
+    ],
+    "tr": "Eklenti ve tema geliştirme referansı. Kanca (hook) sistemi WordPress’in tamamını açıklayan tek kavram; onu anlamadan hiçbir şey yerine oturmuyor.",
+    "en": "The plugin and theme development reference. The hook system is the one concept that explains all of WordPress, and nothing falls into place until you have it.",
+    "src": "kedi",
+    "added": 1776690065
+  }
+]

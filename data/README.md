@@ -5,16 +5,31 @@ and `links.en.js` are the site; everything here exists to produce them.
 
 ## Adding a link
 
-Write a note in one of the `part_*.py` files:
+Every record lives in `notes/<category>.json` — one file per category, a JSON
+array. The file a record sits in is its category, so moving an entry to another
+category means moving the object to another file. Append an object to the
+right file:
 
-```python
-add('https://example.com/', 'Example', ['açık-kaynak', 'python'],
-    'Ne yaptığı ve komşularından nerede ayrıldığı.',
-    'What it does and where it parts ways with its neighbours.',
-    'araclar')
+```json
+{
+  "url": "https://example.com",
+  "name": "Example",
+  "tags": ["açık-kaynak", "python"],
+  "tr": "Ne yaptığı ve komşularından nerede ayrıldığı.",
+  "en": "What it does and where it parts ways with its neighbours.",
+  "src": "kedi"
+}
 ```
 
-Then run `python build.py`.
+Optional fields: `added` (unix time the link arrived; without it the date is
+derived from the source) and `review` (a note that the entry still needs a
+human pass — `test_build.py` fails while one is present).
+
+Then run `python build.py`. The loader in `notes.py` checks every record
+before anything is written: a missing or unknown field, a non-http(s) URL, an
+undeclared source, a duplicate URL, broken JSON or a file for a category that
+does not exist stops the build with the file and position named. The old
+loader silently dropped records instead, which is why this one does not.
 
 Tags come from the 63 canonical tags in `tags.py`. Anything else is looked up
 in the `ALIAS` table and mapped to a canonical equivalent; if it maps to
@@ -32,7 +47,8 @@ overwrites it.
 
 | Script | Job |
 |---|---|
-| `notes.py` + `part_*.py` | Curator notes — the actual content |
+| `notes/*.json` | The records — the actual content, one file per category |
+| `notes.py` | Category list, top-level fields, and the loader that validates the records |
 | `build.py` | Merges everything into the published files |
 | `emit.py` | Static category pages, sitemap, robots, Atom feed |
 | `readlinks.py` | Reads the record list back out of `links.js` |
@@ -45,12 +61,9 @@ overwrites it.
 | `ci_github.py` | Archive and staleness audit for linked GitHub repositories; writes `health.json` |
 | `ci_fresh.py` | Asks whether a link is still the thing we described — takeovers, parked domains, dated claims |
 | `test_build.py` | Smoke test over the build output; run it before committing |
-| `test_helpers.py` | Unit tests for build.py's and tags.py's pure helper functions |
+| `test_helpers.py` | Unit tests for the note loader/validator and the pure helpers |
 | `../test_search.js` | Unit tests for the client-side search/scoring logic (`node test_search.js`, no dependency) |
 | `make_og.py` | Regenerates `og.png`; the record count and address are baked into the pixels |
-| `extract.py` | Pulls technology links out of a browser bookmark file |
-| `check.py` | One-off liveness check |
-| `fetchmeta.py` | Fetches title/description metadata per site |
 
 ## What build.py writes
 
@@ -76,14 +89,14 @@ as plain HTML with no JavaScript.
 
 | File | |
 |---|---|
-| `meta.json`, `ext_meta.json` | Fetched title/description metadata. Committed, so a clone can rebuild |
-| `added.json` | When each link was first bookmarked, frozen from the browser export |
+| `notes/*.json` | The records themselves |
 | `verified.json` | Last-verified date and status per record; the weekly scan refreshes it |
 | `health.json` | Repository state per record (archived / dormant / deleted) and last push date |
 
-`added.json` is frozen rather than read live from the bookmark file, so the
-build does not depend on a path on one particular machine. `build.py` exposes
-`refresh_added()` for when that file is at hand.
+The build used to merge the notes with metadata extracted from the owner's
+personal bookmark export (`meta.json`, `ext_meta.json`, `added.json`). The
+bookmarks are kept separately now, so those files are gone: each record
+carries what it needs, including its real arrival date where one is known.
 
 ## Repository settings the automation depends on
 

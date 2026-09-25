@@ -1,0 +1,1240 @@
+[
+  {
+    "url": "https://www.30secondsofcode.org/",
+    "name": "30 Seconds of Code",
+    "tags": [
+      "referans",
+      "javascript",
+      "ücretsiz"
+    ],
+    "tr": "Otuz saniyede okunup anlaşılacak uzunlukta kod parçacıkları; JavaScript, Python, React ve CSS için. Stack Overflow’dan farkı her parçacığın açıklamalı, test edilmiş ve konu başlığına göre düzenlenmiş olması — arama değil, gezinme.",
+    "en": "Code snippets short enough to read and understand in thirty seconds, for JavaScript, Python, React and CSS. Against Stack Overflow, each one is explained, tested and filed by topic — you browse it rather than search it.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://angular.dev/",
+    "name": "Angular",
+    "tags": [
+      "ücretsiz",
+      "dokümantasyon",
+      "javascript"
+    ],
+    "tr": "Yönlendirme, form, HTTP ve bağımlılık enjeksiyonu çatının içinde geliyor. React’te bunları tek tek seçersin; burada karar verilmiş, karşılığında esneklik dar.",
+    "en": "Routing, forms, HTTP and dependency injection ship inside the framework. In React you pick each one; here the decisions are made for you, and flexibility narrows accordingly.",
+    "src": "kedi",
+    "added": 1776690056
+  },
+  {
+    "url": "https://atmos.style/",
+    "name": "Atmos",
+    "tags": [
+      "frontend",
+      "freemium"
+    ],
+    "tr": "Erişilebilirlik kontrolüyle renk paleti oluşturmak için gereken her şey.",
+    "en": "Everything needed to create colour palettes, with accessibility checks.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://autoprefixer.github.io/",
+    "name": "Autoprefixer",
+    "tags": [
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "CSS’e tarayıcı ön eklerini (‑webkit‑, ‑moz‑) otomatik ekleyen araç. Elle eklemekten farkı hangi ekin gerektiğini güncel tarayıcı verisinden bilmesi.",
+    "en": "A tool that automatically adds browser prefixes (‑webkit‑, ‑moz‑) to CSS. Unlike adding them by hand it knows which prefix is needed from current browser data.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://github.com/PatrickJS/awesome-angular",
+    "name": "Awesome Angular",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "frontend"
+    ],
+    "tr": "Angular uygulama çatısı için bileşen, araç ve öğretici listesi. Resmî dokümandan farkı topluluk kütüphanelerini ve gerçek örnekleri toplaması.",
+    "en": "A list of components, tools and tutorials for the Angular application framework. Unlike the official docs it gathers community libraries and real examples.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/awesome-css-group/awesome-css",
+    "name": "Awesome CSS",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "frontend"
+    ],
+    "tr": "CSS dili, araçları ve kaynaklarını konuya göre toplayan liste.",
+    "en": "A list gathering the CSS language, tools and resources by topic.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/micromata/awesome-css-learning",
+    "name": "Awesome CSS Learning",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "frontend",
+      "öğretici"
+    ],
+    "tr": "CSS dilini ve modüllerini öğrenmeye odaklı kaynak listesi.",
+    "en": "A resource list focused on learning the CSS language and its modules.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/dustinspecker/awesome-eslint",
+    "name": "Awesome ESLint",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "javascript"
+    ],
+    "tr": "JavaScript linter’ı ESLint için eklenti ve yapılandırma listesi.",
+    "en": "A list of plugins and configs for ESLint, the JavaScript linter.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/joewdavies/awesome-frontend-gis",
+    "name": "Awesome Frontend GIS",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "frontend"
+    ],
+    "tr": "Tarayıcıda coğrafi bilgi sistemleri (harita) için kütüphane listesi.",
+    "en": "A list of libraries for geographic information systems (maps) in the browser.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/diegocard/awesome-html5",
+    "name": "Awesome HTML5",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "frontend"
+    ],
+    "tr": "HTML5 API’leri, araçları ve kaynaklarının listesi.",
+    "en": "A list of HTML5 APIs, tools and resources.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/myshov/awesome-mobile-web-development",
+    "name": "Awesome Mobile Web Development",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "frontend",
+      "masaüstü"
+    ],
+    "tr": "İyi bir mobil web deneyimi kurmak için kaynak listesi.",
+    "en": "A resource list for building a great mobile web experience.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/Richienb/awesome-ponyfills",
+    "name": "Awesome Ponyfills",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "javascript"
+    ],
+    "tr": "Yerel davranışı ezmeden ekleyen ponyfill kütüphaneleri listesi.",
+    "en": "A list of ponyfill libraries that add native behaviour without overriding it.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/jdrgomes/awesome-postcss",
+    "name": "Awesome PostCSS",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "frontend"
+    ],
+    "tr": "CSS’i eklentilerle dönüştüren PostCSS aracı için kaynak listesi.",
+    "en": "A resource list for PostCSS, the tool that transforms CSS with plugins.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/preactjs/awesome-preact",
+    "name": "Awesome Preact",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "javascript"
+    ],
+    "tr": "React’in hafif alternatifi Preact için kaynak listesi.",
+    "en": "A resource list for Preact, the lightweight React alternative.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/enaqx/awesome-react",
+    "name": "Awesome React",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "javascript"
+    ],
+    "tr": "React ekosistemi için kütüphane, araç ve öğrenme kaynağı listesi.",
+    "en": "A list of libraries, tools and learning resources for the React ecosystem.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/glauberfc/awesome-react-hooks",
+    "name": "Awesome React Hooks",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "javascript"
+    ],
+    "tr": "React Hooks için kütüphane ve örneklerin listesi.",
+    "en": "A list of libraries and examples for React Hooks.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/standard/awesome-standard",
+    "name": "Awesome Standard",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "javascript"
+    ],
+    "tr": "Yapılandırma gerektirmeyen JS stil kılavuzu ve linter Standard için kaynak listesi.",
+    "en": "A resource list for Standard, the zero-config JS style guide and linter.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/TheComputerM/awesome-svelte",
+    "name": "Awesome Svelte",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "frontend"
+    ],
+    "tr": "Svelte ve SvelteKit için bileşen ve araç listesi. React ağırlıklı listelerden farkı bu derleme-zamanı çatısına özgü ekosistemi göstermesi.",
+    "en": "A list of components and tools for Svelte and SvelteKit. Unlike React-heavy lists it shows the ecosystem specific to this compile-time framework.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/aniftyco/awesome-tailwindcss",
+    "name": "Awesome Tailwind CSS",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "frontend"
+    ],
+    "tr": "Tailwind CSS için eklenti, bileşen ve araç listesi.",
+    "en": "A list of plugins, components and tools for Tailwind CSS.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/fregante/Awesome-WebExtensions",
+    "name": "Awesome WebExtensions",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "eklenti"
+    ],
+    "tr": "Tarayıcılar arası eklenti (WebExtension) geliştirmek için kaynak listesi. Tek tarayıcı dokümanından farkı Chrome, Firefox ve Safari’de çalışan ortak API’ye odaklanması.",
+    "en": "A resource list for building cross-browser add-ons (WebExtensions). Unlike single-browser docs it focuses on the common API that works across Chrome, Firefox and Safari.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/msub2/awesome-webxr",
+    "name": "Awesome WebXR",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "frontend",
+      "3b"
+    ],
+    "tr": "Tarayıcıda sanal/artırılmış gerçeklik sağlayan WebXR için kaynak listesi.",
+    "en": "A resource list for WebXR, enabling virtual/augmented reality in the browser.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://www.awwwards.com/",
+    "name": "Awwwards",
+    "tags": [
+      "frontend",
+      "referans",
+      "freemium"
+    ],
+    "tr": "Öne çıkan web tasarımlarını ödüllendiren ve sergileyen galeri. Rastgele ilhamdan farkı jüri değerlendirmesiyle kaliteyi süzmesi.",
+    "en": "A gallery that awards and showcases outstanding web design. Unlike random inspiration it filters quality through jury evaluation.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://before.click/",
+    "name": "before.click",
+    "tags": [
+      "ücretsiz",
+      "görsel-üretim",
+      "masaüstü"
+    ],
+    "tr": "App Store ekran görüntüsü tasarımları arşivi. Uygulama mağaza sayfası dönüşümü doğrudan bu görsellere bağlı olduğu için dar ama isabetli bir kaynak.",
+    "en": "An archive of App Store screenshot designs. Store-page conversion hangs directly on these images, which makes it a narrow but well-aimed resource.",
+    "src": "kedi",
+    "added": 1783924586
+  },
+  {
+    "url": "https://getbootstrap.com/docs/5.3/getting-started/introduction/",
+    "name": "Bootstrap",
+    "tags": [
+      "ücretsiz",
+      "frontend"
+    ],
+    "tr": "Hazır bileşenler ve ızgara sistemi; tasarım kararı vermeden çalışan bir arayüz çıkarıyorsun. Bedeli, Bootstrap kullandığının uzaktan belli olması.",
+    "en": "Ready components and a grid system that get you a working interface without design decisions. The cost is that a Bootstrap site is recognisable from a distance.",
+    "src": "kedi",
+    "added": 1776690061
+  },
+  {
+    "url": "https://www.getbootstrap.com/",
+    "name": "Bootstrap",
+    "tags": [
+      "frontend",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "En yaygın CSS çerçevesi; hazır ızgara ve bileşenlerle hızlı, tutarlı arayüz.",
+    "en": "The most widely used CSS framework — fast, consistent UI from ready grid and components.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://buildbootstrap.com/",
+    "name": "BuildBootstrap",
+    "tags": [
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "Bootstrap düzenini görsel olarak kurup kodunu üreten araç.",
+    "en": "Builds a Bootstrap layout visually and generates its code.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://bulma.io/",
+    "name": "Bulma",
+    "tags": [
+      "frontend",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Flexbox tabanlı, yalnız CSS’ten oluşan (JavaScript yok) modern framework. Bootstrap’tan farkı JS bileşeni getirmemesi — sınıfları alıp kendi etkileşimini yazıyorsun.",
+    "en": "A modern framework built purely from CSS (no JavaScript), based on Flexbox. Unlike Bootstrap it ships no JS components — you take the classes and write your own interactions.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://markodenic.com/tools/buttons-generator/",
+    "name": "Buttons Generator",
+    "tags": [
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "Projelerde kullanılabilecek hazır CSS buton stilleri ve kodları.",
+    "en": "Ready CSS button styles with their code for use in projects.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://caniuse.com/",
+    "name": "Can I Use",
+    "tags": [
+      "referans",
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "Bir web özelliğinin hangi tarayıcının hangi sürümünde çalıştığını gösteren tablo; kullanım oranlarıyla birlikte. MDN’den farkı, \"destekleniyor mu\" sorusuna sürüm ve pazar payı düzeyinde cevap vermesi — polyfill gerekip gerekmediğine buradan karar veriyorsun.",
+    "en": "A table of which browser version supports which web feature, weighted by usage share. Where MDN explains the feature, this answers \"can I ship it\" at version and market-share level — it is where you decide whether a polyfill is needed.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://www.chartjs.org/",
+    "name": "Chart.js",
+    "tags": [
+      "frontend",
+      "javascript",
+      "açık-kaynak",
+      "görsel-üretim"
+    ],
+    "tr": "Canvas üstünde sade, duyarlı grafikler çizen JavaScript kütüphanesi. Ağır görselleştirme kütüphanelerinden farkı birkaç satırda çalışan, hafif olması.",
+    "en": "A JavaScript library drawing simple, responsive charts on canvas. Unlike heavy visualisation libraries it is lightweight and works in a few lines.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://codetogo.io/",
+    "name": "CodeToGo",
+    "tags": [
+      "referans",
+      "javascript",
+      "ücretsiz"
+    ],
+    "tr": "\"Diziyi nasıl ters çeviririm\" gibi günlük JavaScript sorularına güncel tek satırlık cevaplar. Stack Overflow’dan farkı cevabın 2012’den kalma olmaması — modern söz dizimiyle güncel tutuluyor.",
+    "en": "Up-to-date one-line answers to everyday JavaScript questions like \"how do I reverse an array\". The difference from Stack Overflow is that the answer is not from 2012 — these are kept current with modern syntax.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://www.colorsandfonts.com/",
+    "name": "Colors and Fonts",
+    "tags": [
+      "frontend",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Renk paletleri ve tipografiyi bir arada sunan tasarım kaynağı.",
+    "en": "A design resource pairing colour palettes with typography.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://colors.lol",
+    "name": "Colors.lol",
+    "tags": [
+      "frontend",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "İlham verici renk paletleri deposu.",
+    "en": "A repository of inspiring colour palettes.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://cruip.com/",
+    "name": "Cruip",
+    "tags": [
+      "frontend",
+      "freemium"
+    ],
+    "tr": "Modern açılış sayfası ve arayüz şablonları (Tailwind ağırlıklı).",
+    "en": "Modern landing-page and UI templates (Tailwind-heavy).",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://cssbattle.dev/",
+    "name": "CSS Battle",
+    "tags": [
+      "frontend",
+      "interaktif",
+      "ücretsiz"
+    ],
+    "tr": "Verilen hedef görseli en az kodla, CSS ile yeniden üretmeye çalıştığın oyun. Öğreticilerden farkı beceriyi yarışma ve puanla keskinleştirmesi.",
+    "en": "A game where you reproduce a target image with as little CSS code as possible. Unlike tutorials it sharpens skill through competition and scoring.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://www.cleancss.com/css-beautify/",
+    "name": "CSS Formatter",
+    "tags": [
+      "frontend",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "Küçültülmüş (minified) CSS’i okunur biçime getiren ve düzenleyen araç.",
+    "en": "Un-minifies and formats CSS back into a readable shape.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://csslayout.io/",
+    "name": "CSS Layout",
+    "tags": [
+      "frontend",
+      "referans",
+      "ücretsiz",
+      "kopya-kâğıdı"
+    ],
+    "tr": "Sık kullanılan düzen ve bileşenlerin (kart, ortalama, sabit başlık) hazır CSS tarifleri. Aramaktan farkı her deseni kopyalanabilir, bağımsız bir örnek olarak vermesi.",
+    "en": "Ready CSS recipes for common layouts and components (cards, centring, sticky header). Unlike searching it gives each pattern as a copyable, self-contained example.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://simplecss.eu",
+    "name": "CSS Media Query Generator",
+    "tags": [
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "Belirli cihaz boyutları için CSS medya sorgusu üreten basit araç.",
+    "en": "Generates CSS media queries for specific device sizes.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://cssminifier.com/",
+    "name": "CSS Minifier",
+    "tags": [
+      "frontend",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "CSS kodunu boşlukları atarak küçülten (minify) araç.",
+    "en": "Minifies CSS by stripping whitespace to shrink it.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://cssreference.io/",
+    "name": "CSS Reference",
+    "tags": [
+      "frontend",
+      "referans",
+      "ücretsiz",
+      "interaktif"
+    ],
+    "tr": "Her CSS özelliğini görsel örnekle gösteren başvuru. Spesifikasyondan farkı “bu özellik ne yapar”ı metin yerine canlı bir demoyla anlatması.",
+    "en": "A reference showing every CSS property with a visual example. Unlike the spec it explains “what does this property do” with a live demo rather than text.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://css-tricks.com/",
+    "name": "CSS-Tricks",
+    "tags": [
+      "ücretsiz",
+      "frontend",
+      "referans"
+    ],
+    "tr": "Yirmi yıllık CSS tekniği arşivi; Flexbox ve Grid rehberleri fiilî başvuru kaynağı hâline geldi. Belirli bir düzen problemi ararken spesifikasyondan hızlı sonuç veriyor.",
+    "en": "Two decades of CSS technique, whose Flexbox and Grid guides became the de facto references. Faster than the spec when you are hunting a specific layout problem.",
+    "src": "kedi",
+    "added": 1787182444
+  },
+  {
+    "url": "https://css-tricks.com/snippets/",
+    "name": "CSS-Tricks Snippets",
+    "tags": [
+      "referans",
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "CSS, HTML, JavaScript ve .htaccess için yıllar içinde biriktirilmiş parçacık arşivi. Rastgele blog yazılarından farkı her parçacığın kendi sayfası ve tartışması olması — yorumlarda genelde daha iyi bir sürüm bulunuyor.",
+    "en": "An archive of snippets for CSS, HTML, JavaScript and .htaccess built up over years. Against scattered blog posts each snippet has its own page and discussion — and the comments usually hold a better version.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://www.devsamples.com/",
+    "name": "DevSamples",
+    "tags": [
+      "frontend",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Kolay kullanılan HTML, CSS ve JavaScript kod örnekleri.",
+    "en": "Easy-to-use HTML, CSS and JavaScript code examples.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://docusaurus.io/",
+    "name": "Docusaurus",
+    "tags": [
+      "tarayıcı-içi",
+      "frontend",
+      "açık-kaynak",
+      "dokümantasyon"
+    ],
+    "tr": "Meta’nın React tabanlı dokümantasyon sitesi üreticisi; sürümleme ve çeviri yerleşik geliyor. Genel statik üreticilerden farkı belge odaklı olması: özellikle yazılım dokümantasyonu için sürüm arşivi ve i18n gibi hazır parçalarla geliyor.",
+    "en": "Meta’s React-based documentation-site generator, with versioning and translation built in. Unlike general static generators it is docs-first: it ships ready-made pieces like version archives and i18n aimed specifically at software documentation.",
+    "src": "lowkwiki"
+  },
+  {
+    "url": "https://easingwizard.com/",
+    "name": "Easing Wizard",
+    "tags": [
+      "tarayıcı-içi",
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "CSS yumuşatma (easing) eğrilerini görsel olarak kuran araç; cubic-bezier’in yanında linear() ile yay ve sıçrama eğrilerini de üretiyor. cubic-bezier.com’dan farkı bu modern linear() desteği — CSS’te yay animasyonu artık kütüphane gerektirmiyor.",
+    "en": "A visual builder for CSS easing curves that covers not just cubic-bezier but linear() spring and bounce curves. That linear() support is what dates it past cubic-bezier.com: spring animation in CSS no longer needs a library.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://9elements.github.io/fancy-border-radius/",
+    "name": "Fancy Border-Radius",
+    "tags": [
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "Organik şekiller için CSS border-radius üreten görsel araç.",
+    "en": "A visual tool that generates CSS border-radius for organic shapes.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://www.flatuicolorpicker.com/",
+    "name": "Flat UI Color Picker",
+    "tags": [
+      "frontend",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Ön yüz için uyumlu düz (flat) renkler sunan etkileşimli palet.",
+    "en": "An interactive palette of harmonious flat colours for frontends.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://flexboxfroggy.com/",
+    "name": "Flexbox Froggy",
+    "tags": [
+      "ücretsiz",
+      "interaktif",
+      "frontend"
+    ],
+    "tr": "Kurbağaları hizalayarak Flexbox öğreten oyun; Grid Garden’ın kardeşi. justify-content ile align-items karışıklığını yirmi dakikada bitiriyor.",
+    "en": "The Flexbox sibling of Grid Garden, teaching alignment by positioning frogs. It settles the justify-content versus align-items confusion in twenty minutes.",
+    "src": "kedi",
+    "added": 1787182443
+  },
+  {
+    "url": "https://fontflipper.com/",
+    "name": "Font Flipper",
+    "tags": [
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "Yüzlerce Google fontunu kendi tasarımın üzerinde deneyip karşılaştıran araç.",
+    "en": "Tries and compares hundreds of Google fonts on your own design.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://www.fontpair.co/",
+    "name": "FontPair",
+    "tags": [
+      "frontend",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Birbiriyle iyi giden Google font çiftlerini gösteren araç. Tek tek denemekten farkı uyumlu başlık-gövde eşleşmelerini örnekle sunması.",
+    "en": "A tool showing Google font pairs that go well together. Unlike trying one by one it presents harmonious heading-body matches with examples.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://get.foundation/sites.html",
+    "name": "Foundation for Sites",
+    "tags": [
+      "açık-kaynak",
+      "frontend",
+      "github"
+    ],
+    "tr": "Bootstrap’ın uzun süreli rakibi olan duyarlı arayüz çatısı; XY ızgarası, erişilebilirlik odaklı bileşenler ve e-posta şablonları için ayrı bir sürümü var. Bootstrap’tan farkı daha az görsel kanaat dayatması — bileşenler biçimlendirilmemiş gelir, tasarımı sen kurarsın. Uyarı: son sürüm Eylül 2024, depoya son itme Ocak 2025; proje arşivlenmedi ama iki yıldır durgun ve tanıtım sitesi hâlâ 2017 tarihli bir web semineri duyuruyor.",
+    "en": "The long-running alternative to Bootstrap: a responsive front-end framework with an XY grid, accessibility-minded components and a separate edition for HTML email. Against Bootstrap it imposes fewer visual opinions — components arrive unstyled and you bring the design. Caveat: the last release was September 2024 and the last push January 2025. The project is not archived, but it has been dormant for two years and its marketing site still advertises a webinar from 2017.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://www.framer.com/",
+    "name": "Framer",
+    "tags": [
+      "frontend",
+      "freemium"
+    ],
+    "tr": "Etkileşimli arayüz ve site tasarlayıp yayına alan tasarım aracı.",
+    "en": "A design tool for building and publishing interactive interfaces and sites.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://freefrontend.com/",
+    "name": "FreeFrontEnd",
+    "tags": [
+      "frontend",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "HTML, CSS ve JavaScript kod örnekleri ve öğreticilerini toplayan geniş dizin.",
+    "en": "A large directory of HTML, CSS and JavaScript code samples and tutorials.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://frontendfoc.us/",
+    "name": "Frontend Focus",
+    "tags": [
+      "frontend",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Frontend dünyasındaki haber, yazı ve araçları haftalık derleyen bülten. Dağınık takipten farkı tek, süzülmüş bir akışta özet vermesi.",
+    "en": "A newsletter rounding up frontend news, articles and tools weekly. Unlike scattered following it gives a single, filtered digest.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://www.frontendmentor.io/",
+    "name": "Frontend Mentor",
+    "tags": [
+      "frontend",
+      "freemium"
+    ],
+    "tr": "Gerçekçi tasarım dosyaları verip onu koda dökmeni isteyen alıştırma platformu. Rastgele projelerden farkı profesyonel tasarım ve topluluk geri bildirimiyle gelmesi.",
+    "en": "A practice platform that gives realistic design files and asks you to turn them into code. Unlike random projects it comes with professional designs and community feedback.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://www.gameuidatabase.com/",
+    "name": "Game UI Database",
+    "tags": [
+      "ücretsiz",
+      "görsel-üretim",
+      "interaktif"
+    ],
+    "tr": "Oyun arayüzlerini ekran türüne göre sınıflandırıyor: envanter, harita, ayarlar, yükleme ekranı. Bu kadar sistematik bir arayüz arşivi başka alanlarda yok.",
+    "en": "Classifies game interfaces by screen type — inventory, map, settings, loading. No other field has an interface archive this systematic.",
+    "src": "kedi",
+    "added": 1776686049
+  },
+  {
+    "url": "https://fonts.google.com/?preview.script=Latn",
+    "name": "Google Fonts",
+    "tags": [
+      "ücretsiz",
+      "görsel-üretim"
+    ],
+    "tr": "Açık lisanslı yazı tipi kataloğu; dosyaları indirip kendi sunucundan servis edebiliyorsun. GDPR gerekçesiyle CDN’den çekmek Almanya’da dava konusu oldu, indirmek daha güvenli.",
+    "en": "A catalogue of openly licensed typefaces you can download and self-host. Loading them from the CDN has been litigated in Germany on GDPR grounds, so self-hosting is the safer route.",
+    "src": "kedi",
+    "added": 1776613735
+  },
+  {
+    "url": "https://grapesjs.com/",
+    "name": "GrapesJS",
+    "tags": [
+      "açık-kaynak",
+      "masaüstü",
+      "javascript"
+    ],
+    "tr": "Kendi ürününe gömdüğün görsel sayfa düzenleyici; bileşen ve stil yöneticisini sen tanımlıyorsun. Barındırılan site kurucularının aksine editörün sahibi sensin.",
+    "en": "A visual page editor you embed in your own product, defining the component and style managers yourself. Unlike hosted site builders, you own the editor.",
+    "src": "kedi",
+    "added": 1778763346
+  },
+  {
+    "url": "https://cssgridgarden.com/",
+    "name": "Grid Garden",
+    "tags": [
+      "ücretsiz",
+      "interaktif",
+      "frontend"
+    ],
+    "tr": "Havuç sulayarak CSS Grid öğreten 28 bölümlük oyun. grid-column ve grid-area gibi özellikler yazarak öğrenildiğinde akılda kalıyor.",
+    "en": "A 28-level game teaching CSS Grid by watering carrots. Properties like grid-column and grid-area stick when you type them rather than read them.",
+    "src": "kedi",
+    "added": 1787182440
+  },
+  {
+    "url": "https://howlerjs.com/",
+    "name": "Howler.js",
+    "tags": [
+      "açık-kaynak",
+      "javascript",
+      "ses"
+    ],
+    "tr": "Tarayıcılar arası ses oynatma kütüphanesi; Web Audio API’yi kullanıyor, olmadığı yerde HTML5 Audio’ya düşüyor. Ham Web Audio ile uğraşmaktan farkı ses sprite’ları, havuzlama ve mobil otomatik oynatma kilidini kendisi çözmesi.",
+    "en": "A cross-browser audio library that uses the Web Audio API and falls back to HTML5 Audio. Against hand-rolling Web Audio, it handles audio sprites, pooling and the mobile autoplay lock for you — the three things that always bite.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://htmlreference.io/",
+    "name": "HTML Reference",
+    "tags": [
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Her HTML etiketi ve özniteliği görsel örnekle listelenmiş, tek sayfada göz gezdirilebiliyor. MDN’in derinliği yok ama “bu etiket ne yapıyordu” sorusuna daha hızlı cevap veriyor.",
+    "en": "Every HTML element and attribute with a visual example, scannable on one page. It lacks MDN’s depth but answers “what did this tag do again” faster.",
+    "src": "kedi",
+    "added": 1787182437
+  },
+  {
+    "url": "https://htmx.org/docs/",
+    "name": "htmx",
+    "tags": [
+      "açık-kaynak",
+      "javascript",
+      "frontend"
+    ],
+    "tr": "HTML özniteliğiyle istek atıp dönen HTML parçasını sayfaya yerleştiriyorsun; JSON ve istemci durumu yok. 14 kB, bağımlılığı yok — SPA karmaşıklığına gerek olmayan yerde makul bir çıkış.",
+    "en": "Attributes fire requests and swap the returned HTML fragment into the page — no JSON, no client state. 14 kB with no dependencies, and a sane exit where SPA complexity is not warranted.",
+    "src": "kedi",
+    "added": 1776690060
+  },
+  {
+    "url": "https://gohugo.io/",
+    "name": "Hugo",
+    "tags": [
+      "tarayıcı-içi",
+      "frontend",
+      "açık-kaynak",
+      "dokümantasyon"
+    ],
+    "tr": "Markdown içeriği statik sitelere dönüştüren, Go ile yazılmış üretici. Node tabanlı üreticilerden farkı ham hızı: binlerce sayfayı saniyeler içinde derliyor, tek ikili dosya, JS bağımlılık ağacı yok.",
+    "en": "A static-site generator written in Go that turns Markdown into websites. Unlike Node-based generators its distinction is raw speed: it builds thousands of pages in seconds, from a single binary, with no JS dependency tree.",
+    "src": "lowkwiki"
+  },
+  {
+    "url": "https://imagecolorpicker.com",
+    "name": "Image Color Picker",
+    "tags": [
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "Bir görselden renk kodu ve palet çıkaran araç.",
+    "en": "Extracts colour codes and a palette from an image.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://interfaces.pro/",
+    "name": "Interfaces.pro",
+    "tags": [
+      "frontend",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Arayüz tasarımı için gerçek ürünlerden ilham galerisi.",
+    "en": "An inspiration gallery of interface designs from real products.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://ladybird.org/",
+    "name": "Ladybird",
+    "tags": [
+      "açık-kaynak",
+      "frontend"
+    ],
+    "tr": "Sıfırdan yazılan bağımsız tarayıcı motoru; Chromium, WebKit ya da Gecko’dan türetilmemiş. Diğer \"alternatif\" tarayıcılardan farkı tam olarak bu — ötekiler Chromium kabuğu, bu kendi motorunu yazıyor. Henüz günlük kullanıma hazır değil.",
+    "en": "An independent browser engine written from scratch, derived from neither Chromium, WebKit nor Gecko. That is precisely what separates it from the other \"alternative\" browsers, which are Chromium shells. Not yet ready for daily use.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://land-book.com/",
+    "name": "Land-book",
+    "tags": [
+      "ücretsiz",
+      "frontend"
+    ],
+    "tr": "İyi tasarlanmış web sitelerinin küratörlü galerisi; sektöre, üsluba ve renge göre süzülebiliyor. Awwwards gibi ödül sitelerinden farkı gösterişli deneysel işler yerine gerçekten yayında olan ürün sitelerini toplaması.",
+    "en": "A curated gallery of well-designed websites, filterable by industry, style and colour. Unlike award sites such as Awwwards it collects real shipping product sites rather than showpiece experiments.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://grid.layoutit.com/",
+    "name": "Layoutit Grid",
+    "tags": [
+      "frontend",
+      "ücretsiz",
+      "interaktif"
+    ],
+    "tr": "CSS Grid düzenini sürükle-bırak çizip kodunu üreten araç. Elle grid yazmaktan farkı satır/sütun yapısını görsel kurup çıktı alması.",
+    "en": "A tool to draw a CSS Grid layout by drag-and-drop and generate its code. Unlike writing grid by hand you build the row/column structure visually and export it.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://addyosmani.com/resources/essentialjsdesignpatterns/book/",
+    "name": "Learning JavaScript Design Patterns",
+    "tags": [
+      "frontend",
+      "kitap",
+      "ücretsiz",
+      "javascript"
+    ],
+    "tr": "Addy Osmani’nin JavaScript tasarım kalıplarını anlatan ücretsiz çevrimiçi kitabı.",
+    "en": "Addy Osmani’s free online book on JavaScript design patterns.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://lucide.dev/",
+    "name": "Lucide",
+    "tags": [
+      "açık-kaynak",
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "1600’den fazla SVG ikon içeren kütüphane; React, Vue, Svelte için hazır paketleri var. Feather’ın topluluk çatallaması olarak devam ediyor — farkı, Feather bakımsız kalırken bunun aktif olarak büyümesi ve tek tek ikon içe aktarmaya (tree-shaking) uygun olması.",
+    "en": "An icon library of over 1,600 SVG icons with ready packages for React, Vue and Svelte. It is the community fork of Feather, and the difference is that it kept growing while Feather went quiet — and that it tree-shakes down to the icons you import.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://mapstracker.com/",
+    "name": "Maps Tracker",
+    "tags": [
+      "ücretli",
+      "frontend",
+      "self-hosted"
+    ],
+    "tr": "Google Haritalar sıralamasını konum ızgarası üzerinde ölçüyor; aynı sorgunun mahalleden mahalleye nasıl değiştiğini gösteriyor. Genel SEO araçlarının kör noktası tam olarak burası.",
+    "en": "Measures Google Maps ranking across a grid of locations, showing how the same query shifts block by block — precisely the blind spot of general SEO tools.",
+    "src": "kedi",
+    "added": 1785227877
+  },
+  {
+    "url": "https://mui.com/",
+    "name": "Material UI",
+    "tags": [
+      "frontend",
+      "javascript",
+      "açık-kaynak"
+    ],
+    "tr": "React için Google Material tasarımını uygulayan bileşen kütüphanesi.",
+    "en": "A React component library implementing Google’s Material Design.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://developer.mozilla.org/en-US/",
+    "name": "MDN Web Docs",
+    "tags": [
+      "ücretsiz",
+      "referans",
+      "dokümantasyon"
+    ],
+    "tr": "Web platformunun fiilî referansı. Her sayfada tarayıcı uyumluluk tablosu var — bir özelliği kullanmadan önce Safari’de çalışıp çalışmadığını burada görürsün.",
+    "en": "The de facto reference for the web platform. Every page carries a browser compatibility table, which is where you check whether a feature works in Safari before shipping it.",
+    "src": "kedi",
+    "added": 1776685690
+  },
+  {
+    "url": "https://nostalgic-css.github.io/NES.css/",
+    "name": "NES.css",
+    "tags": [
+      "frontend",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "8-bit NES estetiğinde retro görünümlü CSS çerçevesi.",
+    "en": "A CSS framework with a retro 8-bit NES look.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://neumorphism.io/",
+    "name": "Neumorphism.io",
+    "tags": [
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "Yumuşak gölgeli “neumorphism” kutuları için CSS üreten araç. Elle gölge yazmaktan farkı iki yönlü gölgeyi görsel olarak ayarlayıp kodu vermesi.",
+    "en": "A tool generating CSS for soft-shadowed “neumorphism” boxes. Unlike writing shadows by hand it lets you tune the dual shadow visually and gives the code.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://necolas.github.io/normalize.css/",
+    "name": "Normalize.css",
+    "tags": [
+      "frontend",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Tarayıcılar arası varsayılan stil farklarını eşitleyen küçük CSS temeli.",
+    "en": "A small CSS base that evens out default styling differences across browsers.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://github.com/oleeskild/obsidian-digital-garden",
+    "name": "Obsidian Digital Garden",
+    "tags": [
+      "tarayıcı-içi",
+      "eklenti",
+      "açık-kaynak",
+      "frontend"
+    ],
+    "tr": "Obsidian notlarını doğrudan yayımlanmış bir dijital bahçeye çeviren eklenti. Quartz gibi üreticilerden farkı derleme adımı istememesi: not içinden tek düğmeyle yayınlıyorsun, ayrı bir build hattı kurmana gerek kalmıyor.",
+    "en": "An Obsidian plugin that publishes notes straight into a live digital garden. Unlike generators such as Quartz it needs no build step: you publish from inside a note with one button, with no separate build pipeline to set up.",
+    "src": "lowkwiki"
+  },
+  {
+    "url": "https://www.patterns.dev",
+    "name": "Patterns.dev",
+    "tags": [
+      "frontend",
+      "öğretici",
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Modern web uygulamaları için tasarım ve render desenlerini örneklerle anlatan ücretsiz kaynak.",
+    "en": "A free resource explaining design and rendering patterns for modern web apps with examples.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://purecss.io/",
+    "name": "Pure.css",
+    "tags": [
+      "frontend",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Yalnızca birkaç KB olan, küçük ve modüler bir CSS framework’ü (Yahoo). Büyük framework’lerden farkı sadece ihtiyacın olan modülü alıp sayfayı hafif tutması.",
+    "en": "A tiny, modular CSS framework of just a few KB (Yahoo). Unlike large frameworks you take only the module you need and keep the page light.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://quartz.jzhao.xyz/",
+    "name": "Quartz",
+    "tags": [
+      "tarayıcı-içi",
+      "frontend",
+      "açık-kaynak",
+      "dokümantasyon"
+    ],
+    "tr": "Markdown notlarını — özellikle Obsidian kasalarını — bağlantılı bir siteye dönüştüren üretici. Genel statik üreticilerden farkı çift yönlü bağlantı ve geri-bağlantıları koruması: dijital bahçeni ağ yapısıyla birlikte yayımlıyor.",
+    "en": "A generator that turns Markdown notes — Obsidian vaults especially — into a linked site. Unlike general static generators it preserves bidirectional links and backlinks: it publishes your digital garden with its network structure intact.",
+    "src": "lowkwiki"
+  },
+  {
+    "url": "https://react.dev/learn",
+    "name": "React",
+    "tags": [
+      "ücretsiz",
+      "dokümantasyon",
+      "javascript"
+    ],
+    "tr": "Yeniden yazılmış resmî doküman; kancalar (hooks) merkezde, sınıf bileşenleri artık yok. “You Might Not Need an Effect” bölümü en sık yapılan hatayı doğrudan hedefliyor.",
+    "en": "The rewritten official docs, centred on hooks with class components gone. The “You Might Not Need an Effect” page targets the single most common mistake head on.",
+    "src": "kedi",
+    "added": 1776690052
+  },
+  {
+    "url": "https://react-hook-form.com/",
+    "name": "React Hook Form",
+    "tags": [
+      "frontend",
+      "javascript",
+      "açık-kaynak"
+    ],
+    "tr": "React formlarını az yeniden render’la yöneten, doğrulama getiren kütüphane. Kontrollü bileşenlerden farkı performansı yüksek tutup kodu sadeleştirmesi.",
+    "en": "A library managing React forms with minimal re-renders and built-in validation. Unlike controlled components it keeps performance high and simplifies the code.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://www.cagrigungor.com/seo-kriterleri/",
+    "name": "SEO Kriterleri",
+    "tags": [
+      "ücretsiz",
+      "türkçe",
+      "frontend"
+    ],
+    "tr": "Teknik SEO kontrol listesi; başlık yapısı, şema işaretlemesi ve sayfa hızı maddeleri uygulanabilir. Türkçe kaynaklar arasında pazarlama söyleminden en uzak duranlardan.",
+    "en": "A technical SEO checklist covering heading structure, schema markup and page speed in actionable terms — one of the Turkish resources furthest from marketing talk.",
+    "src": "kedi",
+    "added": 1785061413
+  },
+  {
+    "url": "https://shopify.dev/docs/api/liquid",
+    "name": "Shopify Liquid",
+    "tags": [
+      "dokümantasyon",
+      "frontend",
+      "görsel-üretim"
+    ],
+    "tr": "Shopify tema şablon dilinin nesne, filtre ve etiket referansı. Mağaza teması geliştiriyorsan hangi verinin hangi şablonda erişilebilir olduğu buradan görülüyor.",
+    "en": "The object, filter and tag reference for Shopify’s theme language — where you find which data is reachable from which template when building a store theme.",
+    "src": "kedi",
+    "added": 1776690061
+  },
+  {
+    "url": "https://www.siteofsites.co/",
+    "name": "Site of Sites",
+    "tags": [
+      "ücretsiz",
+      "görsel-üretim"
+    ],
+    "tr": "Bütünsel tasarım dili örnekleri için galeri; tipografi ve hareket kullanımı güçlü siteler derleniyor.",
+    "en": "A gallery for whole-site design language, collecting sites with strong typography and motion.",
+    "src": "kedi",
+    "added": 1783499341
+  },
+  {
+    "url": "https://www.smashingmagazine.com",
+    "name": "Smashing Magazine",
+    "tags": [
+      "frontend",
+      "öğretici",
+      "referans"
+    ],
+    "tr": "Web tasarım ve geliştirme üzerine derinlemesine makaleler, kitaplar ve pratik rehberler yayımlar.",
+    "en": "Publishes in-depth articles, books and practical guides on web design and development.",
+    "src": "dsbest"
+  },
+  {
+    "url": "http://snapsvg.io",
+    "name": "Snap.svg",
+    "tags": [
+      "açık-kaynak",
+      "javascript",
+      "frontend"
+    ],
+    "tr": "SVG’yi betikle üretmek ve canlandırmak için JavaScript kütüphanesi; Raphaël’in modern tarayıcılara yazılmış hâli. D3’ten farkı veri görselleştirme değil doğrudan SVG kurgulaması — grafik değil grafik nesnesi üretiyorsun.",
+    "en": "A JavaScript library for generating and animating SVG, written as Raphaël’s successor for modern browsers. Against D3 it is not about data visualisation but about composing SVG directly — you produce graphics, not charts.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://splidejs.com/",
+    "name": "Splide",
+    "tags": [
+      "açık-kaynak",
+      "javascript",
+      "frontend"
+    ],
+    "tr": "Bağımlılığı olmayan, erişilebilirlik odaklı kaydırıcı/karusel kütüphanesi. Swiper’a göre çok daha küçük (sıkıştırılmış ~12 KB) ve klavye gezinme ile ARIA rollerini varsayılan olarak doğru kuruyor — karusel erişilebilirliğinin klasik zayıf noktası.",
+    "en": "A dependency-free, accessibility-first slider and carousel library. It is markedly smaller than Swiper (~12KB gzipped) and gets keyboard navigation and ARIA roles right by default — the usual weak spot of carousels.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://sweetalert2.github.io/",
+    "name": "SweetAlert2",
+    "tags": [
+      "frontend",
+      "javascript",
+      "açık-kaynak"
+    ],
+    "tr": "Tarayıcının çirkin alert kutusunu güzel, özelleştirilebilir modallarla değiştiren kütüphane. Yerleşik alert’ten farkı biçim, giriş alanı ve söz (promise) desteği vermesi.",
+    "en": "A library replacing the browser’s ugly alert box with pretty, customisable modals. Unlike the built-in alert it supports styling, input fields and promises.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://tailwindcss.com/docs/installation/using-vite",
+    "name": "Tailwind CSS",
+    "tags": [
+      "ücretsiz",
+      "frontend",
+      "dokümantasyon"
+    ],
+    "tr": "Yardımcı sınıflarla stil yazıyorsun; derleme adımı kullanılmayan sınıfları atıyor, CSS dosyası büyümüyor. Bootstrap hazır bileşen verir, bu yapı taşı verir.",
+    "en": "You style with utility classes and the build step drops unused ones, so the CSS file stops growing. Bootstrap hands you components; this hands you building blocks.",
+    "src": "kedi",
+    "added": 1776690060
+  },
+  {
+    "url": "https://tailwindcss.com/",
+    "name": "Tailwind CSS",
+    "tags": [
+      "frontend",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Hazır bileşen yerine küçük yardımcı sınıflarla tasarım kuran CSS çerçevesi.",
+    "en": "A CSS framework that builds design from small utility classes rather than ready components.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://teleporthq.io/",
+    "name": "TeleportHQ",
+    "tags": [
+      "frontend",
+      "freemium",
+      "otomasyon"
+    ],
+    "tr": "Görsel arayüz tasarımından temiz React, Vue ya da HTML kodu üreten düşük kodlu platform. Webflow’dan farkı çıktının dışa aktarılabilir ve okunabilir bileşen kodu olması — tasarımı devralıp elle geliştirmeye devam edebiliyorsun.",
+    "en": "A low-code platform that turns a visual interface design into clean React, Vue or HTML. Against Webflow the output is exportable, readable component code — you can take the design over and keep building by hand.",
+    "src": "invesp"
+  },
+  {
+    "url": "https://javascript.info/",
+    "name": "The Modern JavaScript Tutorial",
+    "tags": [
+      "ücretsiz",
+      "javascript",
+      "öğretici"
+    ],
+    "tr": "Dili temelden ileriye sıralı işliyor; prototip zinciri, olay döngüsü ve Promise gibi zor konuları atlamıyor. MDN referanstır, bu öğreticidir — ikisi birbirini tamamlar.",
+    "en": "Works the language front to back without skipping the hard parts: prototype chain, event loop, promises. MDN is the reference and this is the tutorial; they complement each other.",
+    "src": "kedi",
+    "added": 1776690043
+  },
+  {
+    "url": "https://uigradients.com/",
+    "name": "uiGradients",
+    "tags": [
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "Hazır CSS gradyanlarını gösterip kodunu veren araç. Elle renk denemekten farkı güzel geçişleri seçip doğrudan kopyalayabilmen.",
+    "en": "A tool that shows ready CSS gradients and gives their code. Unlike mixing colours by hand you pick a pleasing transition and copy it straight.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://uiverse.io/",
+    "name": "Uiverse",
+    "tags": [
+      "açık-kaynak",
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "Topluluğun katkı verdiği açık kaynak arayüz bileşeni galerisi: buton, kart, yükleyici, anahtar. CodePen’den farkı her parçanın MIT lisanslı, kopyala-yapıştır hazır ve saf CSS/Tailwind olarak sunulması — çatı bağımlılığı yok.",
+    "en": "A community-contributed gallery of open-source UI elements: buttons, cards, loaders, toggles. Unlike CodePen, everything is MIT-licensed, copy-paste ready and offered as plain CSS or Tailwind, with no framework attached.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://www.unsection.com/",
+    "name": "Unsection",
+    "tags": [
+      "ücretsiz",
+      "görsel-üretim"
+    ],
+    "tr": "Bölüm bazlı tasarım örnekleri: hero, fiyatlandırma, SSS, footer ayrı ayrı. Tüm siteyi taramak yerine tek bir bölümü çözmek için filtreleyebiliyorsun.",
+    "en": "Design examples organised by section — hero, pricing, FAQ, footer — filterable so you solve one section instead of scanning whole sites.",
+    "src": "kedi",
+    "added": 1783499061
+  },
+  {
+    "url": "https://jigsaw.w3.org/css-validator/",
+    "name": "W3C CSS Validator",
+    "tags": [
+      "frontend",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "CSS’i resmî W3C kurallarına göre doğrulayan araç.",
+    "en": "Validates CSS against the official W3C rules.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://validator.w3.org/",
+    "name": "W3C Markup Validation",
+    "tags": [
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "HTML’i spesifikasyona göre denetliyor; tarayıcının sessizce toparladığı kapatılmamış etiket ve geçersiz iç içe geçmeleri ortaya çıkarıyor. Erişilebilirlik sorunlarının bir kısmı buradan çıkar.",
+    "en": "Checks HTML against the spec, surfacing unclosed tags and invalid nesting that browsers quietly repair. A share of accessibility problems begins right there.",
+    "src": "kedi",
+    "added": 1787182438
+  },
+  {
+    "url": "https://wakamaifondue.com/",
+    "name": "Wakamai Fondue",
+    "tags": [
+      "tarayıcı-içi",
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "Bir font dosyasını sürükleyince içindeki her şeyi döküyor: karakter kümesi, OpenType özellikleri, değişken eksenler ve bunları açan hazır CSS. Font önizleyicilerinden farkı çıktının doğrudan kullanılabilir CSS olması.",
+    "en": "Drop in a font file and it reports everything inside: character set, OpenType features, variable axes — plus the CSS that switches each of them on. Unlike a font previewer, the output is code you can paste.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://github.com/microsoft/web-dev-for-beginners",
+    "name": "Web Dev for Beginners",
+    "tags": [
+      "github",
+      "müfredat",
+      "ücretsiz"
+    ],
+    "tr": "24 derslik müfredat; her ders öncesi ve sonrası sınav, sonunda proje var. Kendi kendine çalışırken ilerlemeyi ölçebilmek için bu yapı işe yarıyor.",
+    "en": "A 24-lesson curriculum with a quiz before and after each lesson and a project at the end. That structure is what lets you measure progress when studying alone.",
+    "src": "kedi",
+    "added": 1787181596
+  },
+  {
+    "url": "https://www.youtube.com/c/WebDevSimplified",
+    "name": "Web Dev Simplified",
+    "tags": [
+      "frontend",
+      "video",
+      "ücretsiz",
+      "öğretici"
+    ],
+    "tr": "Web geliştirmeyi temelden ileriye sade anlatan YouTube kanalı.",
+    "en": "A YouTube channel explaining web development from basics to advanced, simply.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://webaim.org/",
+    "name": "WebAIM",
+    "tags": [
+      "referans",
+      "ücretsiz",
+      "frontend"
+    ],
+    "tr": "Utah State Üniversitesi bünyesindeki erişilebilirlik merkezi; kontrast denetleyicisi, WAVE aracı ve yıllık \"Million\" taraması buradan çıkıyor. WCAG belgesinin kendisinden farkı, kuralı değil kuralın pratikte nasıl uygulandığını anlatması.",
+    "en": "The accessibility centre at Utah State University — the contrast checker, the WAVE tool and the annual \"Million\" survey all come from here. Where the WCAG spec states the rule, WebAIM shows what applying it actually looks like.",
+    "src": "cdcruz"
+  }
+]

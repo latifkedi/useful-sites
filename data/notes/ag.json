@@ -1,0 +1,631 @@
+[
+  {
+    "url": "https://www.youtube.com/watch?v=xj_GjnD4uyI",
+    "name": "20 Dakikada Tüm Ağ Kavramları",
+    "tags": [
+      "video",
+      "ücretsiz",
+      "ağ"
+    ],
+    "tr": "Ağ terimlerini hızla tarayan özet. Öğrenmek için değil; bildiğini sandığın yerlerdeki boşlukları yirmi dakikada bulmak için.",
+    "en": "A rapid sweep of networking terminology. Not for learning, but for finding in twenty minutes the gaps in what you assumed you knew.",
+    "src": "kedi",
+    "added": 1775474797
+  },
+  {
+    "url": "https://www.disk-image.com/index.html",
+    "name": "Active@ Disk Image",
+    "tags": [
+      "ücretli",
+      "ağ"
+    ],
+    "tr": "Sektör bazında disk imajı alıp geri yüklüyor; dosya yedeklemesinden farkı, işletim sistemi ve önyükleme kaydı dahil her şeyi bire bir kopyalaması.",
+    "en": "Takes and restores sector-level disk images. Unlike file backup it copies everything bit for bit, operating system and boot record included.",
+    "src": "kedi",
+    "added": 1782906152
+  },
+  {
+    "url": "https://tldp.org/LDP/abs/html/",
+    "name": "Advanced Bash-Scripting Guide",
+    "tags": [
+      "ücretsiz",
+      "kitap"
+    ],
+    "tr": "Bash betiklemenin en kapsamlı ücretsiz referansı; her konu çalıştırılabilir örnekle. Üslubu eski ama kapsamı hâlâ eşsiz.",
+    "en": "The most comprehensive free reference on Bash scripting, every topic with a runnable example. Dated in style, still unmatched in coverage.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://asahilinux.org/",
+    "name": "Asahi Linux",
+    "tags": [
+      "açık-kaynak",
+      "ağ",
+      "donanım"
+    ],
+    "tr": "Apple Silicon Mac’lere ana hat Linux getiren proje; GPU sürücüsünü ve güç yönetimini tersine mühendislikle yazıyor. Sanal makineden farkı donanımda doğrudan çalışması — M serisi yongadan tam performans alınıyor.",
+    "en": "A project bringing mainline Linux to Apple Silicon Macs, reverse-engineering the GPU driver and power management. Unlike a virtual machine it runs on the metal, so you get the M-series chip’s full performance.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://github.com/PandaFoss/Awesome-Arch",
+    "name": "Awesome Arch",
+    "tags": [
+      "awesome-liste",
+      "github"
+    ],
+    "tr": "Arch Linux tabanlı dağıtım ve projelerin listesi.",
+    "en": "A list of Arch Linux–based distributions and projects.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/zoidbergwill/awesome-ebpf",
+    "name": "Awesome eBPF",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "güvenlik"
+    ],
+    "tr": "Çekirdek içinde güvenli program çalıştıran eBPF için kaynak listesi.",
+    "en": "A resource list for eBPF, which runs safe programs inside the kernel.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/Kazhnuz/awesome-gnome",
+    "name": "Awesome GNOME",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "masaüstü"
+    ],
+    "tr": "GNOME masaüstü ortamı için uygulama ve eklenti listesi.",
+    "en": "A list of apps and extensions for the GNOME desktop environment.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/ipfs/awesome-ipfs",
+    "name": "Awesome IPFS",
+    "tags": [
+      "awesome-liste",
+      "github"
+    ],
+    "tr": "Merkeziyetsiz dosya protokolü IPFS için araç ve proje listesi.",
+    "en": "A list of tools and projects for IPFS, the decentralised file protocol.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/francoism90/awesome-kde",
+    "name": "Awesome KDE",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "masaüstü"
+    ],
+    "tr": "KDE masaüstü ortamı için uygulama ve kaynak listesi.",
+    "en": "A list of apps and resources for the KDE desktop environment.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/secdev/awesome-scapy",
+    "name": "Awesome Scapy",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "python"
+    ],
+    "tr": "Python paket işleme kütüphanesi Scapy için araç ve örnek listesi. Genel ağ listelerinden farkı paketi elle kurup gönderme (packet crafting) etrafında toplanması.",
+    "en": "A list of tools and examples for Scapy, the Python packet-manipulation library. Unlike general network lists it centres on crafting and sending packets by hand.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/0pandadev/awesome-windows",
+    "name": "Awesome Windows",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "masaüstü"
+    ],
+    "tr": "Windows masaüstü için en iyi uygulama ve araçları toplayan liste.",
+    "en": "A list of the best apps and tools for the Windows desktop.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://www.tldp.org/LDP/Bash-Beginners-Guide/html/",
+    "name": "Bash Guide for Beginners",
+    "tags": [
+      "ücretsiz",
+      "öğretici"
+    ],
+    "tr": "Kabuk betiklerine giriş; Advanced rehberin ağırlığına girmeden temelleri kuruyor.",
+    "en": "An introduction to shell scripting that lays the groundwork without the weight of the advanced guide.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.gnu.org/software/bash/manual/bashref.html",
+    "name": "Bash Referans Kılavuzu",
+    "tags": [
+      "ücretsiz",
+      "dokümantasyon"
+    ],
+    "tr": "Bash’in resmî kılavuzu; genişletme kuralları ve parametre değiştirme gibi tartışmalı konularda son söz burada.",
+    "en": "Bash’s official manual — the final word on contested topics like expansion rules and parameter substitution.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://mywiki.wooledge.org/BashGuide",
+    "name": "BashGuide (Wooledge)",
+    "tags": [
+      "ücretsiz",
+      "öğretici"
+    ],
+    "tr": "İnternetteki kötü Bash örneklerine karşı düzeltici bir rehber; tırnaklama ve sözcük bölme gibi en sık yapılan hataları merkeze alıyor.",
+    "en": "A corrective to the bad Bash examples circulating online, centred on the most common mistakes like quoting and word splitting.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=fQbBPa0ADvs",
+    "name": "Bilgisayar Ağları Temelleri",
+    "tags": [
+      "video",
+      "ücretsiz",
+      "ağ"
+    ],
+    "tr": "OSI katmanlarından yönlendirmeye kadar ağ kavramlarını tam kurs formatında işliyor. Sertifika çalışmasına başlamadan önce zemin kurmak için.",
+    "en": "Works networking concepts from the OSI layers through routing in full-course format — for laying the ground before certification study.",
+    "src": "kedi",
+    "added": 1775475510
+  },
+  {
+    "url": "https://www.brendangregg.com/",
+    "name": "Brendan Gregg",
+    "tags": [
+      "referans",
+      "ücretsiz",
+      "gözlemlenebilirlik"
+    ],
+    "tr": "Linux performans ve gözlemlenebilirliğinde başvurulan uzmanın blogu ve araçları. Genel kılavuzlardan farkı çekirdek düzeyinde ölçüm ve alev grafiği (flame graph) yöntemlerini vermesi.",
+    "en": "The blog and tools of the go-to expert on Linux performance and observability. Unlike general guides it gives kernel-level measurement and flame-graph methods.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://canyouseeme.org/",
+    "name": "CanYouSeeMe",
+    "tags": [
+      "ücretsiz",
+      "ağ"
+    ],
+    "tr": "Belirli bir portun dışarıdan açık olup olmadığını kontrol eden basit araç. Yerel port taramasından farkı dışarıdan bakması — yönlendirici port yönlendirmesinin gerçekten çalışıp çalışmadığı ancak böyle anlaşılıyor.",
+    "en": "A minimal check for whether a given port is reachable from outside. Unlike scanning locally it looks in from the internet, which is the only way to tell whether router port forwarding actually works.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://training-certifications.checkpoint.com/",
+    "name": "Check Point Eğitim",
+    "tags": [
+      "sertifika",
+      "güvenlik",
+      "ağ",
+      "ücretli"
+    ],
+    "tr": "CCSA ve CCSE sertifikaları. Diğer güvenlik duvarı satıcılarından farkı Check Point’in yönetim mimarisinin ayrı bir bilgi alanı olması — merkezî politika yönetimi eğitimin ağırlık merkezinde.",
+    "en": "The CCSA and CCSE certifications. What differs from other firewall vendors is that Check Point’s management architecture is its own body of knowledge — centralised policy management sits at the centre of the training.",
+    "src": "seccert"
+  },
+  {
+    "url": "https://www.netacad.com/",
+    "name": "Cisco Networking Academy",
+    "tags": [
+      "ücretsiz",
+      "ağ",
+      "müfredat"
+    ],
+    "tr": "Cisco’nun resmî ağ müfredatı; CCNA’ya hazırlayan derslerin bir kısmı ücretsiz. Packet Tracer laboratuvarlarıyla teoriyi topoloji kurarak sınıyorsun.",
+    "en": "Cisco’s official networking curriculum, with part of the CCNA track free. Packet Tracer labs let you test the theory by building topologies.",
+    "src": "kedi",
+    "added": 1771249061
+  },
+  {
+    "url": "https://www.cisco.com/site/us/en/learn/training-certifications/",
+    "name": "Cisco Sertifikasyon",
+    "tags": [
+      "sertifika",
+      "ağ",
+      "ücretli"
+    ],
+    "tr": "CCNA’dan CCIE’ye uzanan ağ sertifikaları programı. Satıcı bağımsız sertifikalardan farkı Cisco donanımına özgü olması; buna rağmen CCNA, ağ temellerini öğreten müfredat olarak marka bağımsız biçimde de değerli sayılıyor.",
+    "en": "The networking certification programme from CCNA to CCIE. Unlike vendor-neutral certificates it is specific to Cisco equipment; even so, CCNA is widely treated as a solid networking fundamentals curriculum regardless of vendor.",
+    "src": "seccert"
+  },
+  {
+    "url": "https://www.firewall.cx/downloads/cisco-product-datasheets-a-guides/cisco-sg500-series-switches.html",
+    "name": "Cisco SG500 Serisi",
+    "tags": [
+      "ücretsiz",
+      "ağ",
+      "referans"
+    ],
+    "tr": "SG500 serisinin teknik veri sayfaları; port sayısı, PoE bütçesi ve yığınlama desteği karşılaştırmalı. İkinci el alırken model farklarını bilmek gerekiyor.",
+    "en": "Datasheets for the SG500 series comparing port counts, PoE budgets and stacking support — the model differences you need when buying second-hand.",
+    "src": "kedi",
+    "added": 1782977827
+  },
+  {
+    "url": "https://www.firewall.cx/cisco/cisco-switches/cisco-switches-sg500-52p.html",
+    "name": "Cisco SG500-52P Kurulumu",
+    "tags": [
+      "ücretsiz",
+      "ağ",
+      "öğretici"
+    ],
+    "tr": "Belirli bir anahtar modelinin ilk kurulumu, ekran görüntüleriyle adım adım. Resmî kılavuzun atladığı pratik ayrıntılar burada.",
+    "en": "First-time setup of one specific switch model, screenshot by screenshot — with the practical details the official manual skips.",
+    "src": "kedi",
+    "added": 1782977928
+  },
+  {
+    "url": "https://www.commandlinefu.com/commands/browse",
+    "name": "Command-line Fu",
+    "tags": [
+      "ücretsiz",
+      "cli"
+    ],
+    "tr": "Kullanıcıların paylaştığı UNIX komut tek satırlıkları arşivi, oyla sıralı. Bir işin kısa yolu var mı diye bakmak için.",
+    "en": "An archive of user-submitted UNIX one-liners ranked by vote — where you check whether a shortcut exists for a task.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=HwUqCZFx6wk",
+    "name": "DHCP (CompTIA A+)",
+    "tags": [
+      "video",
+      "sertifika",
+      "ağ"
+    ],
+    "tr": "A+ müfredatındaki DHCP konusunun kısa anlatımı; kapsam sınav hedefine birebir oturuyor. Fazlasını anlatmaması sınav çalışmasında avantaj.",
+    "en": "A short treatment of DHCP as the A+ syllabus defines it, mapped exactly to the exam objective. Not covering more is an advantage when revising.",
+    "src": "kedi",
+    "added": 1778513489
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=lAHqO9sDVy4",
+    "name": "DNS Yapılandırma (CompTIA A+)",
+    "tags": [
+      "video",
+      "sertifika",
+      "ağ"
+    ],
+    "tr": "A+ kapsamındaki DNS kayıt türleri ve yapılandırması. Kısa ve sınav odaklı.",
+    "en": "DNS record types and configuration within the A+ scope — short and exam-focused.",
+    "src": "kedi",
+    "added": 1778513508
+  },
+  {
+    "url": "https://training.fortinet.com/",
+    "name": "Fortinet Training Institute",
+    "tags": [
+      "sertifika",
+      "güvenlik",
+      "ağ",
+      "ücretsiz"
+    ],
+    "tr": "NSE programı ve güvenlik eğitimleri. Diğer satıcı programlarından farkı büyük bölümünün ücretsiz açılmış olması — güvenlik duvarı ve ağ güvenliği temellerini bedelsiz öğrenmek için en geniş kaynak.",
+    "en": "The NSE programme and security training. Against other vendor programmes most of it has been made free — the broadest no-cost resource for firewall and network security fundamentals.",
+    "src": "seccert"
+  },
+  {
+    "url": "https://www.hirensbootcd.org/",
+    "name": "Hiren's BootCD PE",
+    "tags": [
+      "ücretsiz",
+      "ağ"
+    ],
+    "tr": "Açılmayan sistemler için önyüklenebilir Windows PE ortamı; disk klonlama, parola sıfırlama ve veri kurtarma araçları tek imajda. Sistem yöneticisinin cebinde taşıdığı USB.",
+    "en": "A bootable Windows PE environment for systems that will not start, bundling disk cloning, password reset and data recovery in one image. The USB stick a sysadmin carries.",
+    "src": "kedi",
+    "added": 1785304627
+  },
+  {
+    "url": "https://lookup.icann.org/en",
+    "name": "ICANN Lookup",
+    "tags": [
+      "referans",
+      "ağ",
+      "ücretsiz"
+    ],
+    "tr": "Alan adı kayıt bilgilerini ICANN’in kendi arayüzünden sorgulama. Üçüncü parti WHOIS sitelerinden farkı reklam ve satış teklifi olmaması — sorguladığın alan adı için ertesi gün e-posta almıyorsun.",
+    "en": "Domain registration lookup through ICANN’s own interface. Against third-party WHOIS sites there are no ads and no sales pitch — you do not get an email the next day about the domain you looked up.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://www.juniper.net/us/en/training/certification/",
+    "name": "Juniper Sertifikasyon",
+    "tags": [
+      "sertifika",
+      "ağ",
+      "ücretsiz"
+    ],
+    "tr": "Junos tabanlı ağ sertifikaları. Cisco programından farkı giriş seviyesi sınavların uzun süredir ücretsiz sunulması ve eğitim materyalinin açık olması — ağ öğrenmenin maliyetsiz yolu.",
+    "en": "Junos-based networking certifications. Against Cisco’s programme the entry-level exams have long been offered free and the training material is open — the no-cost route into networking.",
+    "src": "seccert"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=0pXicD2hqFU",
+    "name": "LFSR ve Rastgele Sayı Üreteçleri",
+    "tags": [
+      "video",
+      "güvenlik",
+      "donanım"
+    ],
+    "tr": "Doğrusal geri beslemeli kaydırma yazmaçlarının nasıl çalıştığını devre düzeyinde anlatıyor. Sözde rastgeleliğin donanımda nasıl üretildiğine iyi bir giriş.",
+    "en": "Explains linear feedback shift registers at circuit level — a good introduction to how pseudo-randomness is actually produced in hardware.",
+    "src": "kedi",
+    "added": 1766644409
+  },
+  {
+    "url": "https://labex.io/linuxjourney",
+    "name": "Linux Journey",
+    "tags": [
+      "ücretsiz",
+      "ağ",
+      "interaktif"
+    ],
+    "tr": "Linux’u küçük modüllere bölerek öğretiyor: dosya sistemi, izinler, süreçler, paket yönetimi. Kapsamlı kitapların yıldırdığı yerde sindirilebilir parçalar sunuyor.",
+    "en": "Teaches Linux in small modules — filesystem, permissions, processes, package management — offering digestible pieces where comprehensive books overwhelm.",
+    "src": "kedi",
+    "added": 1776690078
+  },
+  {
+    "url": "https://linuxjourney.com",
+    "name": "Linux Journey",
+    "tags": [
+      "öğretici",
+      "ücretsiz"
+    ],
+    "tr": "Linux’u sıfırdan, sıralı ve alıştırmalı biçimde öğreten ücretsiz site. Man sayfalarından farkı kavramları yeni başlayana göre, mantık sırasıyla anlatması.",
+    "en": "A free site teaching Linux from scratch, in order and with exercises. Unlike man pages it explains concepts for a beginner, in a logical sequence.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://www.lpi.org/",
+    "name": "Linux Professional Institute",
+    "tags": [
+      "sertifika",
+      "ağ",
+      "açık-kaynak",
+      "ücretli"
+    ],
+    "tr": "Dağıtım bağımsız Linux sertifikaları (LPIC-1, LPIC-2). Red Hat programından farkı tek bir dağıtıma bağlı olmaması — Debian, SUSE ya da Arch kullanıyorsan geçerli olan sertifika bu.",
+    "en": "Distribution-neutral Linux certifications (LPIC-1, LPIC-2). Against Red Hat’s programme it is not tied to one distribution — this is the certificate that still applies if you run Debian, SUSE or Arch.",
+    "src": "seccert"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=zIdv2NDRExI",
+    "name": "Linux Öğrenmenin En İyi Yolu",
+    "tags": [
+      "video",
+      "ücretsiz",
+      "ağ"
+    ],
+    "tr": "Komut öğretmiyor, nasıl çalışılacağını tarif ediyor: hangi dağıtım, hangi sırayla, hangi projelerle. Yön bulmak için başlangıçta işe yarıyor.",
+    "en": "Does not teach commands but describes how to study — which distribution, in what order, through which projects. Useful for orientation at the start.",
+    "src": "kedi",
+    "added": 1754138663
+  },
+  {
+    "url": "https://linuxcommand.org",
+    "name": "LinuxCommand.org",
+    "tags": [
+      "ağ",
+      "cli",
+      "kitap",
+      "ücretsiz"
+    ],
+    "tr": "Komut satırını sıfırdan öğretip kabuk betiği yazmaya götüren site; \"The Linux Command Line\" kitabının kaynağı. Komut listelerinden farkı bir yol izlemesi — dağınık kopya kâğıdı değil, sıralı bir ders.",
+    "en": "Teaches the command line from nothing and carries you into shell scripting; the home of \"The Linux Command Line\". Against a list of commands it follows a path — a sequenced course rather than a scattered cheat sheet.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://lokinet.org/",
+    "name": "Lokinet",
+    "tags": [
+      "ağ",
+      "gizlilik",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "IP tabanlı, merkezi olmayan bir soğan yönlendirme ağı; trafiği stake edilmiş düğümler üzerinden anonimleştiriyor. Tor’dan farkı yalnız web değil her IP protokolünü taşıması: onion yönlendirmenin üstünde tam bir kaplama ağı, tek uygulama değil.",
+    "en": "A decentralised, IP-based onion-routing network that anonymises traffic across staked nodes. Unlike Tor it carries any IP protocol, not just web: a full overlay network on top of onion routing rather than a single application.",
+    "src": "lowkwiki"
+  },
+  {
+    "url": "https://mempool.space",
+    "name": "mempool.space",
+    "tags": [
+      "açık-kaynak",
+      "self-hosted",
+      "gözlemlenebilirlik"
+    ],
+    "tr": "Bitcoin ağının bekleyen işlem havuzunu ve blok zincirini görselleştiren gezgin; kendi düğümünle çalıştırılabiliyor. Diğer blok gezginlerinden farkı ücret tahmini ve mempool görselleştirmesi — ağın o anki tıkanıklığını gösteriyor.",
+    "en": "An explorer visualising Bitcoin’s pending transaction pool and the chain, runnable against your own node. Against other block explorers it adds fee estimation and a mempool view — it shows how congested the network is right now.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.netacad.com/catalogs/learn/networking?language=tr-tr",
+    "name": "NetAcad Ağ Kursları (Türkçe)",
+    "tags": [
+      "ücretsiz",
+      "türkçe",
+      "ağ"
+    ],
+    "tr": "Cisco ağ kurslarının Türkçe kataloğu; giriş seviyesi dersler ücretsiz ve rozet veriyor. Türkçe teknik ağ eğitimi bulmak yerelde kolay değil.",
+    "en": "The Turkish catalogue of Cisco networking courses, with free entry-level classes that award badges. Turkish-language networking training is not easy to find locally.",
+    "src": "kedi",
+    "added": 1782472750
+  },
+  {
+    "url": "https://www.nist.gov/cryptography",
+    "name": "NIST Kriptografi",
+    "tags": [
+      "ücretsiz",
+      "referans",
+      "güvenlik"
+    ],
+    "tr": "Kriptografi standartlarının kaynağı; hangi algoritmanın hâlâ onaylı olduğunu buradan öğrenirsin. Kuantum sonrası algoritma seçimleri de burada yayımlandı.",
+    "en": "The source of cryptographic standards, where you check which algorithms remain approved. The post-quantum algorithm selections were published here too.",
+    "src": "kedi",
+    "added": 1766991580
+  },
+  {
+    "url": "https://www.ntop.org/",
+    "name": "ntop",
+    "tags": [
+      "açık-kaynak",
+      "ağ",
+      "gözlemlenebilirlik"
+    ],
+    "tr": "Ağ trafiğini gerçek zamanlı izleyen araç ailesi; hangi cihazın hangi protokolle ne kadar veri geçirdiğini gösteriyor. Wireshark’tan farkı paket paket inceleme değil sürekli akış izleme — sorunu yakalamak için değil, olağandışıyı fark etmek için.",
+    "en": "A family of tools for real-time network traffic monitoring, showing which device moves how much over which protocol. Where Wireshark inspects packet by packet, this watches the flow continuously — for noticing the anomaly rather than dissecting it.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://openspeedtest.com/",
+    "name": "OpenSpeedTest",
+    "tags": [
+      "açık-kaynak",
+      "self-hosted",
+      "ağ"
+    ],
+    "tr": "Tarayıcıda çalışan hız testi; Flash ya da uygulama gerektirmiyor, kendi sunucuna da kurulabiliyor. Speedtest.net’ten farkı bu öz-barındırma — yerel ağının gerçek hızını dış bağlantıya bağlı kalmadan ölçebiliyorsun.",
+    "en": "A browser-based speed test needing no Flash and no app, and self-hostable on your own server. That self-hosting is the difference from Speedtest.net: you can measure your LAN’s real throughput without an internet hop.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://www.netacad.com/resources/lab-downloads?courseLang=en-US",
+    "name": "Packet Tracer & Laboratuvarlar",
+    "tags": [
+      "ücretsiz",
+      "ağ",
+      "interaktif"
+    ],
+    "tr": "Cisco Packet Tracer indirmesi ve laboratuvar dosyaları. Anahtar ve yönlendirici almadan VLAN, OSPF ve ACL yapılandırması denenebiliyor.",
+    "en": "The Packet Tracer download plus lab files, letting you practise VLAN, OSPF and ACL configuration without buying switches and routers.",
+    "src": "kedi",
+    "added": 1782472831
+  },
+  {
+    "url": "https://www.paloaltonetworks.com/services/education",
+    "name": "Palo Alto Networks Eğitim",
+    "tags": [
+      "sertifika",
+      "güvenlik",
+      "ağ",
+      "ücretli"
+    ],
+    "tr": "PCNSA ve PCNSE sertifikaları ile güvenlik duvarı ve bulut güvenliği eğitimleri. Fortinet’ten farkı kurumsal pazarın üst segmentine odaklanması — sertifika, o ürünleri işleten kuruluşlarda doğrudan işe yarıyor.",
+    "en": "PCNSA and PCNSE certifications with firewall and cloud security training. Against Fortinet it targets the upper enterprise segment — the certificate pays off directly at organisations running those products.",
+    "src": "seccert"
+  },
+  {
+    "url": "https://github.com/dylanaraps/pure-bash-bible",
+    "name": "Pure Bash Bible",
+    "tags": [
+      "github",
+      "kopya-kâğıdı"
+    ],
+    "tr": "Dış program çağırmadan Bash’in kendi araçlarıyla iş yapma koleksiyonu. sed ve awk çağrılarını kaldırdığı için betikleri belirgin hızlandırıyor.",
+    "en": "A collection of ways to do things with Bash’s own facilities instead of calling external programs, which speeds scripts up markedly by removing sed and awk calls.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.redhat.com/en/services/certifications",
+    "name": "Red Hat Sertifikasyon",
+    "tags": [
+      "sertifika",
+      "ağ",
+      "devops",
+      "ücretli"
+    ],
+    "tr": "RHCSA ve RHCE sertifikaları. Çoktan seçmeli satıcı sınavlarından farkı tamamen pratik olması — canlı bir sistemde verilen görevleri tamamlıyorsun, bu yüzden Linux tarafında itibarı yüksek.",
+    "en": "The RHCSA and RHCE certifications. Unlike multiple-choice vendor exams these are entirely practical — you complete tasks on a live system, which is why they carry weight on the Linux side.",
+    "src": "seccert"
+  },
+  {
+    "url": "https://ryanstutorials.net/linuxtutorial/",
+    "name": "Ryan’s Linux Tutorial",
+    "tags": [
+      "ağ",
+      "cli",
+      "öğretici",
+      "ücretsiz"
+    ],
+    "tr": "Linux ve Bash’e giriş; her bölümün sonunda alıştırma var. LinuxCommand.org’dan farkı daha kısa ve sınav odaklı olması — temel komutları hızla geçmek isteyenler için.",
+    "en": "An introduction to Linux and Bash with exercises closing every section. Against LinuxCommand.org it is shorter and more drill-oriented — for getting through the basic commands quickly.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://servicedesk-simulator.com/",
+    "name": "ServiceDesk Simulator",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "ağ",
+      "interaktif"
+    ],
+    "tr": "Gerçek yardım masası biletleriyle çalışmayı simüle ediyor: önceliklendirme, tırmandırma, SLA takibi. IT destek eğitimlerinin teorik kaldığı yeri dolduruyor.",
+    "en": "Simulates working a real helpdesk queue — prioritisation, escalation, SLA tracking. It fills the practical gap that IT support courses leave theoretical.",
+    "src": "kedi",
+    "added": 1783424672
+  },
+  {
+    "url": "https://tailscale.com/",
+    "name": "Tailscale",
+    "tags": [
+      "ağ",
+      "güvenlik",
+      "freemium"
+    ],
+    "tr": "WireGuard üzerine kurulu örgü VPN; cihazlarını NAT ve güvenlik duvarı arkasında olsalar bile doğrudan birbirine bağlıyor. Klasik VPN sunucusundan farkı merkezî bir çıkış düğümü olmaması — trafik cihazdan cihaza gidiyor, koordinasyon sunucusu yalnızca anahtar dağıtıyor.",
+    "en": "A mesh VPN on top of WireGuard that connects your devices directly even behind NAT and firewalls. Unlike a classic VPN server there is no central exit hop: traffic goes device to device and the coordination server only hands out keys.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=5kt4t2gzt9g",
+    "name": "Windows 11 Tam Rehber",
+    "tags": [
+      "video",
+      "ücretsiz",
+      "ağ"
+    ],
+    "tr": "Windows 11 ayarlarını baştan sona gezen rehber; grup ilkesi ve kayıt defteri ayarlarına da giriyor. Kullanıcı desteği tarafında hızlı başvuru.",
+    "en": "A guide walking the whole of Windows 11’s settings, reaching into group policy and registry tweaks. A quick reference on the user-support side.",
+    "src": "kedi",
+    "added": 1778513528
+  },
+  {
+    "url": "https://www.wireshark.org/#download",
+    "name": "Wireshark",
+    "tags": [
+      "açık-kaynak",
+      "ağ",
+      "veri-bilimi"
+    ],
+    "tr": "Paket yakalama ve protokol çözümlemenin standardı; TLS anahtarı verirsen şifreli trafiği de açıyor. Ağ sorunlarında “sanırım” yerine kanıt üretmenin tek yolu.",
+    "en": "The standard for packet capture and protocol dissection, and it will decrypt TLS if you hand it the keys. The only way to replace “I think” with evidence in a network problem.",
+    "src": "kedi",
+    "added": 1776689854
+  },
+  {
+    "url": "https://www.cozumpark.com/",
+    "name": "ÇözümPark",
+    "tags": [
+      "ücretsiz",
+      "türkçe",
+      "awesome-liste",
+      "ağ"
+    ],
+    "tr": "Türkçe sistem yöneticiliği topluluğu ve makale arşivi; Active Directory, Exchange ve sanallaştırma tarafında derinlik var. Yerel senaryolar için nadir bir kaynak.",
+    "en": "A Turkish sysadmin community and article archive with real depth on Active Directory, Exchange and virtualisation — a rare resource for locally specific scenarios.",
+    "src": "kedi",
+    "added": 1785150796
+  }
+]

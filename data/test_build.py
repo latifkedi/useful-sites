@@ -26,7 +26,7 @@ ROOT = os.path.dirname(D)
 sys.path.insert(0, D)
 
 import readlinks                        # noqa: E402
-from notes import CATS                  # noqa: E402
+from notes import CATS, load_records    # noqa: E402
 from intros import INTROS               # noqa: E402
 from picks import PICKS                 # noqa: E402
 from sources import SOURCES             # noqa: E402
@@ -91,6 +91,13 @@ def main():
 
     duz = [d['name'] for d in rows if d['url'].startswith('http://')]
     check(len(duz) <= 5, 'at most 5 plaintext http URLs (now %d)' % len(duz))
+
+    # A record written from an issue carries a "review" note until a person has
+    # done the description pass. The approve-link pull request stays red until
+    # then -- that is the point of failing here rather than warning.
+    bekleyen = [r['name'] for r in load_records() if r.get('review')]
+    check(not bekleyen, 'no record still awaiting a description pass'
+          + (' -- %s' % bekleyen[:3] if bekleyen else ''))
 
     kaynaksiz = sorted({d['src'] for d in rows} - set(SOURCES))
     check(not kaynaksiz, 'every record has a declared source'

@@ -1,0 +1,284 @@
+[
+  {
+    "url": "https://github.com/ebraminio/awesome-qsharp",
+    "name": "Awesome Q#",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "kuantum"
+    ],
+    "tr": "Microsoft’un kuantum programlama dili Q# için kaynak listesi. Genel kuantum listelerinden farkı tek dile ve onun araç zincirine odaklanması.",
+    "en": "A resource list for Q#, Microsoft’s quantum programming language. Unlike general quantum lists it focuses on one language and its toolchain.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/desireevl/awesome-quantum-computing",
+    "name": "Awesome Quantum Computing",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "kuantum"
+    ],
+    "tr": "Kuantum hesaplama için çerçeve, ders ve makale listesi. Dağınık akademik kaynaklardan farkı yeni başlayana giriş yolu ile araştırmacıya derinliği bir arada sunması.",
+    "en": "A list of frameworks, courses and papers for quantum computing. Unlike scattered academic sources it offers both a beginner’s entry path and depth for the researcher.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://www.classiq.io",
+    "name": "Classiq",
+    "tags": [
+      "kuantum",
+      "freemium"
+    ],
+    "tr": "Kuantum devrelerini işlevsel modellerden sentezleyen üst düzey tasarım platformu.",
+    "en": "A high-level platform that synthesises quantum circuits from functional models.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://quantum.cloud.ibm.com/docs/en/guides",
+    "name": "IBM Quantum",
+    "tags": [
+      "ücretsiz",
+      "dokümantasyon",
+      "donanım"
+    ],
+    "tr": "Gerçek kuantum işlemcilerine kuyrukla erişim veriyor; Qiskit ile devre yazıp gönderiyorsun. Simülatörde görünmeyen gürültü ve hata oranlarını ancak burada karşılaşıyorsun.",
+    "en": "Queued access to real quantum processors, with circuits written and submitted through Qiskit. The noise and error rates a simulator hides only show up here.",
+    "src": "kedi",
+    "added": 1782471882
+  },
+  {
+    "url": "https://azure.microsoft.com/tr-tr/resources/training-and-certifications/quantum-computing",
+    "name": "Kuantum Öğrenme Kaynakları",
+    "tags": [
+      "ücretsiz",
+      "türkçe",
+      "müfredat"
+    ],
+    "tr": "Kuantum hesaplama eğitim kaynaklarının Türkçe derlemesi; alana sıralı bir giriş noktası.",
+    "en": "A Turkish compilation of quantum computing learning resources — an ordered way into the field.",
+    "src": "kedi",
+    "added": 1782456355
+  },
+  {
+    "url": "https://stationq.github.io/Liquid/getting-started/",
+    "name": "LIQUi|>",
+    "tags": [
+      "akademik",
+      "referans"
+    ],
+    "tr": "Microsoft’un erken dönem kuantum simülasyon platformu. Bugün yerini Q# aldı; alanın araç zincirinin nasıl geliştiğini görmek dışında pratik değeri kalmadı.",
+    "en": "Microsoft’s early quantum simulation platform, since superseded by Q#. Little practical value now beyond seeing how the field’s toolchain evolved.",
+    "src": "kedi",
+    "added": 1782471658
+  },
+  {
+    "url": "https://quantum.microsoft.com/en-us/vision/quantum-roadmap",
+    "name": "Microsoft Kuantum Yol Haritası",
+    "tags": [
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Gürültülü ara ölçek (NISQ) aşamasından hata düzeltmeli mantıksal kübitlere uzanan aşamalar. Alanın hangi vaatlerinin bugün, hangilerinin on yıl sonrası olduğunu tartmak için.",
+    "en": "The stages from noisy intermediate-scale (NISQ) to error-corrected logical qubits — useful for weighing which of the field’s promises are now and which are a decade out.",
+    "src": "kedi",
+    "added": 1782456569
+  },
+  {
+    "url": "https://github.com/microsoft/qdk",
+    "name": "Microsoft QDK",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "c-ailesi"
+    ],
+    "tr": "Q# derleyicisi ve simülatörünün kaynak kodu. Kuantum devresinin nasıl derlenip simüle edildiğini görmek isteyenler için.",
+    "en": "Source for the Q# compiler and simulator — for anyone who wants to see how a quantum circuit is compiled and simulated.",
+    "src": "kedi",
+    "added": 1782456713
+  },
+  {
+    "url": "https://quantum.microsoft.com/en-us/insights/blogs/qsharp/why-do-we-need-q",
+    "name": "Neden Q#?",
+    "tags": [
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Kuantum için neden ayrı bir dile ihtiyaç duyulduğunu anlatıyor: klonlanamama, ölçümün durumu bozması gibi kısıtlar klasik dil kalıplarına oturmuyor.",
+    "en": "Explains why quantum needs its own language — no-cloning and measurement collapsing state do not fit classical language idioms.",
+    "src": "kedi",
+    "added": 1782471746
+  },
+  {
+    "url": "https://pennylane.ai",
+    "name": "PennyLane",
+    "tags": [
+      "kuantum",
+      "açık-kaynak",
+      "python"
+    ],
+    "tr": "Kuantum makine öğrenmesi için türevlenebilir programlama çatısı (Xanadu).",
+    "en": "A differentiable-programming framework for quantum machine learning (by Xanadu).",
+    "src": "kedi"
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/azure/quantum/install-overview-qdk",
+    "name": "Q# Geliştirme Kiti Kurulumu",
+    "tags": [
+      "dokümantasyon",
+      "öğretici"
+    ],
+    "tr": "Q# ve QDK kurulumu; VS Code uzantısıyla yerel simülatörde devre çalıştırmanın en kısa yolu. Donanıma erişim gerekmeden başlanabiliyor.",
+    "en": "Installing Q# and the QDK, with the VS Code extension as the shortest path to running circuits on a local simulator — no hardware access needed to start.",
+    "src": "kedi",
+    "added": 1782456766
+  },
+  {
+    "url": "https://www.ibm.com/quantum/qiskit",
+    "name": "Qiskit",
+    "tags": [
+      "kuantum",
+      "açık-kaynak",
+      "python",
+      "öğretici"
+    ],
+    "tr": "IBM’in açık kaynak kuantum programlama çerçevesi; gerçek kuantum donanımına erişim verir. Salt simülatörlerden farkı yazdığın devreyi bulut üzerinden gerçek bir kuantum işlemcide çalıştırması.",
+    "en": "IBM’s open-source quantum programming framework, giving access to real quantum hardware. Unlike pure simulators it runs the circuit you write on a real quantum processor over the cloud.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://qplaylearn.com",
+    "name": "QPlayLearn",
+    "tags": [
+      "kuantum",
+      "öğretici",
+      "ücretsiz"
+    ],
+    "tr": "Kuantum kavramlarını üç ayrı derinlikte anlatan eğitim projesi: oyun, animasyon ve teknik açıklama. Tek seviyeli kaynaklardan farkı bu katmanlı yapı — aynı kavramı çocuğa da lisans öğrencisine de anlatabiliyor.",
+    "en": "An education project explaining quantum concepts at three separate depths: game, animation and technical account. Unlike single-level resources that layering lets the same concept reach a child and an undergraduate.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://quantiki.org",
+    "name": "Quantiki",
+    "tags": [
+      "kuantum",
+      "referans",
+      "akademik",
+      "ücretsiz"
+    ],
+    "tr": "Kuantum bilişim ve enformasyon üzerine köklü topluluk wiki'si ve kaynak dizini.",
+    "en": "A long-running community wiki and resource directory on quantum computing and information.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://quantumalgorithmzoo.org",
+    "name": "Quantum Algorithm Zoo",
+    "tags": [
+      "kuantum",
+      "akademik",
+      "referans"
+    ],
+    "tr": "Bilinen kuantum algoritmalarını açıklamalı ve atıflı biçimde toplayan kapsamlı katalog.",
+    "en": "A comprehensive, annotated and cited catalogue of known quantum algorithms.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://quantumcomputingreport.com",
+    "name": "Quantum Computing Report",
+    "tags": [
+      "kuantum",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Kuantum sektörünü, donanım yol haritalarını ve şirketleri izleyen haber kaynağı.",
+    "en": "A news source tracking the quantum industry, hardware roadmaps and companies.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://quantum.country/",
+    "name": "Quantum Country",
+    "tags": [
+      "kuantum",
+      "öğretici",
+      "ücretsiz",
+      "interaktif"
+    ],
+    "tr": "Kuantum hesaplamayı, hatırlatmalı tekrar (spaced repetition) gömülü bir “kitap” olarak öğreten site. Klasik metinlerden farkı okuduğunu unutmamak için araya soru serpiştirmesi.",
+    "en": "A site teaching quantum computing as a “book” with spaced-repetition built in. Unlike classic texts it interleaves questions so you do not forget what you read.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://quantumflytrap.com/",
+    "name": "Quantum Flytrap",
+    "tags": [
+      "kuantum",
+      "interaktif",
+      "ücretsiz"
+    ],
+    "tr": "Optik kuantum deneylerini sürükle bırak ile kurup çalıştıran sanal laboratuvar; foton, polarizör ve ışın bölücülerle. Devre simülatörlerinden farkı kübit soyutlamasıyla değil fiziksel deney düzeneğiyle çalışması.",
+    "en": "A virtual lab where you assemble and run optical quantum experiments by dragging photons, polarisers and beam splitters. Unlike circuit simulators it works at the level of the physical apparatus rather than the qubit abstraction.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://qutip.org",
+    "name": "QuTiP",
+    "tags": [
+      "kuantum",
+      "açık-kaynak",
+      "python"
+    ],
+    "tr": "Açık kuantum sistemlerinin dinamiğini benzetmek için standart açık kaynak Python kütüphanesi.",
+    "en": "The standard open-source Python library for simulating the dynamics of open quantum systems.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://scottaaronson.blog",
+    "name": "Shtetl-Optimized (Scott Aaronson)",
+    "tags": [
+      "kuantum",
+      "akademik",
+      "referans"
+    ],
+    "tr": "Kuantum karmaşıklık kuramının önde gelen isminin açık sözlü, otoriter blogu.",
+    "en": "The candid, authoritative blog of a leading figure in quantum complexity theory.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://www.tensorflow.org/quantum",
+    "name": "TensorFlow Quantum",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "veri-bilimi"
+    ],
+    "tr": "Parametreli kuantum devrelerini Keras katmanı gibi kullanıp klasik ağlarla birleştiriyor. Hibrit klasik-kuantum modellerin deneysel olarak araştırıldığı yer.",
+    "en": "Wraps parameterised quantum circuits as Keras-style layers to combine with classical networks — where hybrid classical-quantum models get explored experimentally.",
+    "src": "kedi",
+    "added": 1785946368
+  },
+  {
+    "url": "https://thequantuminsider.com",
+    "name": "The Quantum Insider",
+    "tags": [
+      "kuantum",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Kuantum endüstrisini geniş ve günlük kapsayan haber yayını.",
+    "en": "A news publication covering the quantum industry broadly and daily.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://www.vqol.org/",
+    "name": "Virtual Quantum Optics Laboratory",
+    "tags": [
+      "kuantum",
+      "interaktif",
+      "akademik"
+    ],
+    "tr": "Kuantum optik deneylerini tasarlayıp simüle eden tarayıcı tabanlı laboratuvar. Quantum Flytrap’tan farkı oyunlaştırma yerine araştırma düzeyinde doğruluk hedeflemesi — ders laboratuvarı yerine geçebiliyor.",
+    "en": "A browser-based laboratory for designing and simulating quantum optics experiments. Against Quantum Flytrap it aims at research-grade accuracy rather than gamification, enough to stand in for a teaching lab.",
+    "src": "awesome-uw"
+  }
+]

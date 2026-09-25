@@ -1,0 +1,873 @@
+[
+  {
+    "url": "https://adk.dev/",
+    "name": "Agent Development Kit (ADK)",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "agent",
+      "sunucu"
+    ],
+    "tr": "Google’ın agent kiti; değerlendirme koşumu ve Cloud Run’a dağıtım komutları kutudan çıkıyor. Agent2Agent protokolüyle farklı çatılardaki agent’ları konuşturabiliyor.",
+    "en": "Google’s agent kit, shipping an evaluation harness and Cloud Run deployment commands out of the box. The Agent2Agent protocol lets agents from different frameworks talk.",
+    "src": "kedi",
+    "added": 1785059652
+  },
+  {
+    "url": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9g4YJeBqChhFJwKQ9TRiivY",
+    "name": "Agent Geliştirme (oynatma listesi)",
+    "tags": [
+      "video",
+      "ücretsiz",
+      "agent"
+    ],
+    "tr": "Agent kurmayı adım adım gösteren video serisi; okumak yerine izleyerek başlamak isteyenler için.",
+    "en": "A video series building agents step by step, for people who would rather watch than read.",
+    "src": "kedi",
+    "added": 1785311527
+  },
+  {
+    "url": "https://www.agno.com/",
+    "name": "Agno",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "agent",
+      "sistem-tasarımı"
+    ],
+    "tr": "Bellek, araç ve bilgi tabanı desteği çekirdeğe gömülü; ek soyutlama katmanı yok. Agent örnekleme süresi mikrosaniye mertebesinde olduğu için çok agent’lı senaryolarda hafif kalıyor.",
+    "en": "Memory, tools and knowledge base are built into the core with no extra abstraction layer. Agent instantiation lands in the microsecond range, which keeps it light in many-agent scenarios.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://github.com/lyogavin/airllm",
+    "name": "AirLLM",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "self-hosted",
+      "agent"
+    ],
+    "tr": "70B modeli 4 GB GPU’da çalıştırıyor: katmanları tek tek yükleyip işledikten sonra bellekten atıyor. Nicemlemeden farkı, ağırlıkların hassasiyetini düşürmemesi — bedeli ise yavaşlık.",
+    "en": "Runs a 70B model on a 4 GB GPU by loading one layer at a time and discarding it after use. Unlike quantisation it does not reduce weight precision; the cost is speed.",
+    "src": "kedi",
+    "added": 1776686549
+  },
+  {
+    "url": "https://amilabs.xyz/",
+    "name": "AMI Labs",
+    "tags": [
+      "akademik",
+      "llm"
+    ],
+    "tr": "Dil yerine fiziksel dünyayı modelleyen sistemler üzerine çalışan araştırma şirketi; robotik ve endüstriyel denetim tarafına bakıyor.",
+    "en": "A research company building systems that model the physical world rather than language, aimed at robotics and industrial control.",
+    "src": "kedi",
+    "added": 1783497062
+  },
+  {
+    "url": "https://phoenix.arize.com/",
+    "name": "Arize Phoenix",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "gözlemlenebilirlik",
+      "interaktif"
+    ],
+    "tr": "Not defterinin içinde çalışıp izleri yerelde gösteriyor. Gömme uzayını görselleştirip alma hatasının nereden geldiğini kümelenmeye bakarak buldurabiliyor.",
+    "en": "Runs inside a notebook and renders traces locally. It can visualise the embedding space so you find the source of a retrieval failure by looking at clustering.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://github.com/hesreallyhim/awesome-claude-code",
+    "name": "Awesome Claude Code",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "agent",
+      "llm"
+    ],
+    "tr": "Anthropic’in terminal tabanlı kod asistanı Claude Code için kaynak listesi.",
+    "en": "A resource list for Claude Code, Anthropic’s terminal-based coding assistant.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+    "name": "Awesome Claude Skills",
+    "tags": [
+      "github",
+      "awesome-liste",
+      "agent"
+    ],
+    "tr": "Claude yeteneklerinin derlenmiş listesi. Neyin zaten yazıldığını görüp aynı şeyi ikinci kez yazmamak için bakılacak yer.",
+    "en": "A curated list of Claude skills — the place to check what already exists before writing the same thing twice.",
+    "src": "kedi",
+    "added": 1778503219
+  },
+  {
+    "url": "https://github.com/Code-and-Sorts/awesome-copilot-agents",
+    "name": "Awesome Copilot Agents",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "agent",
+      "llm"
+    ],
+    "tr": "GitHub’ın yapay zekâ eşleşik programlama asistanı Copilot için ajan kaynak listesi.",
+    "en": "A resource list of agents for Copilot, GitHub’s AI pair-programming assistant.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/xavidop/awesome-firebase-genkit",
+    "name": "Awesome Firebase Genkit",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "llm",
+      "agent"
+    ],
+    "tr": "Yapay zekâ destekli özellik kuran açık kaynak Genkit çatısı için kaynak listesi.",
+    "en": "A resource list for Genkit, the open-source framework for building AI-powered features.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/Piebald-AI/awesome-gemini-cli",
+    "name": "Awesome Gemini CLI",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "agent",
+      "llm"
+    ],
+    "tr": "Google’ın terminal tabanlı kod asistanı Gemini CLI için kaynak listesi.",
+    "en": "A resource list for Gemini CLI, Google’s terminal-based coding assistant.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://aws.amazon.com/bedrock/agents/",
+    "name": "AWS Bedrock Agents",
+    "tags": [
+      "ücretli",
+      "agent",
+      "sunucu"
+    ],
+    "tr": "Agent tanımı, araç şeması ve bilgi tabanı AWS konsolundan yapılandırılıyor; çalışma zamanını AWS işletiyor. Kendi çatını işletmemenin bedeli, akışın AWS’in belirlediği kalıba sığması.",
+    "en": "Agent definition, tool schema and knowledge base are configured in the console; AWS runs the runtime. The price of not operating your own framework is fitting the flow into AWS’s shape.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://aws.amazon.com/bedrock/guardrails/",
+    "name": "AWS Bedrock Guardrails",
+    "tags": [
+      "ücretli",
+      "guardrail",
+      "sunucu"
+    ],
+    "tr": "İçerik filtresi, yasaklı konu listesi ve kişisel veri maskeleme; Bedrock dışındaki modellere de bağımsız API olarak uygulanabiliyor.",
+    "en": "Content filters, denied-topic lists and PII redaction — and it can be applied as a standalone API to models outside Bedrock too.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://strandsagents.com/",
+    "name": "AWS Strands Agents",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "agent",
+      "sunucu"
+    ],
+    "tr": "Akışı elle kurmuyorsun: modele araç listesini veriyorsun, planlamayı o yapıyor. Az kod isteyen bir yaklaşım, karşılığında hata ayıklarken kararın nereden geldiğini izlemek zorlaşıyor.",
+    "en": "You do not wire the flow — you hand the model a tool list and it plans. Less code to write, at the cost of harder debugging when you need to trace where a decision came from.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://azure.microsoft.com/products/ai-services/ai-content-safety",
+    "name": "Azure AI Content Safety",
+    "tags": [
+      "ücretli",
+      "guardrail",
+      "sunucu"
+    ],
+    "tr": "Metin ve görseli dört zarar kategorisinde önem derecesiyle puanlayan sınıflandırıcı. Eşikleri kendin ayarlıyorsun; kendi moderasyon modelini eğitmeye alternatif.",
+    "en": "A classifier scoring text and images across four harm categories with severity levels. You set the thresholds yourself — an alternative to training your own moderation model.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://learn.microsoft.com/azure/ai-foundry/",
+    "name": "Azure AI Foundry",
+    "tags": [
+      "ücretli",
+      "sunucu"
+    ],
+    "tr": "Model kataloğu, agent servisi, değerlendirme ve içerik filtresi tek portalda. Uyumluluk ve bölge denetimi gerektiren kurumsal dağıtımlar için toplanmış bir yığın.",
+    "en": "Model catalogue, agent service, evaluation and content filtering in one portal — a stack assembled for enterprise deployments that need compliance and region control.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://learn.microsoft.com/azure/ai-services/openai/",
+    "name": "Azure OpenAI Service",
+    "tags": [
+      "dokümantasyon",
+      "api",
+      "sunucu"
+    ],
+    "tr": "OpenAI modelleri, Azure’un bölge seçimi ve özel ağ desteğiyle. Model sürümleri OpenAI’dan geriden geliyor; uyumluluk kazancının bedeli bu gecikme.",
+    "en": "OpenAI models with Azure’s region selection and private networking. Model versions lag OpenAI’s own releases — that lag is the price of the compliance gain.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://github.com/sipyourdrink-ltd/bernstein",
+    "name": "Bernstein",
+    "tags": [
+      "agent",
+      "guardrail",
+      "açık-kaynak",
+      "github"
+    ],
+    "tr": "AI ajanları için açık kaynak yönetişim katmanı; ajanların ne yapabileceğine dair kural ve sınırları uyguluyor. Ajan çatılarından farkı denetime bakması: ajanı kurmaz, kurulmuş bir ajanın eylemlerini politikayla sınırlar ve kayda geçirir.",
+    "en": "An open-source governance layer for AI agents that enforces rules and limits on what agents may do. Unlike agent frameworks it is about control: it does not build the agent, it constrains a built agent’s actions with policy and logs them.",
+    "src": "lowkwiki"
+  },
+  {
+    "url": "https://github.com/microsoft/BitNet",
+    "name": "BitNet",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "akademik",
+      "llm"
+    ],
+    "tr": "Ağırlıkları 1.58 bite (üç değere) indiren çıkarım çatısı. Çarpma işlemleri toplamaya dönüştüğü için CPU üzerinde kabul edilebilir hızda çalışıyor.",
+    "en": "An inference framework reducing weights to 1.58 bits (three values). Multiplications collapse into additions, which is why it runs at acceptable speed on CPU.",
+    "src": "kedi",
+    "added": 1776686678
+  },
+  {
+    "url": "https://github.com/microsoft/call-center-ai",
+    "name": "Call Center AI",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "ses",
+      "öğretici"
+    ],
+    "tr": "API çağrısıyla telefon araması başlatan agent örneği; konuşma tanıma, model ve sentez zincirini uçtan uca gösteriyor. Sesli agent mimarisi için çalışan bir referans.",
+    "en": "An agent that places phone calls from an API call, showing the speech-recognition → model → synthesis chain end to end. A working reference for voice-agent architecture.",
+    "src": "kedi",
+    "added": 1775420655
+  },
+  {
+    "url": "https://www.camel-ai.org/",
+    "name": "CAMEL-AI",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "akademik",
+      "agent"
+    ],
+    "tr": "Rol oynayan agent’ların birbirini yönlendirdiği toplum simülasyonu üzerine araştırma çatısı. Ölçekli deney ve sentetik veri üretimi için elverişli, ürün altyapısı olarak değil.",
+    "en": "A research framework for societies of role-playing agents steering each other. Suited to scaled experiments and synthetic data generation, not to production plumbing.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://github.com/shanraisshan/claude-code-best-practice",
+    "name": "Claude Code Best Practice",
+    "tags": [
+      "github",
+      "öğretici",
+      "agent"
+    ],
+    "tr": "Kod asistanıyla çalışırken işe yarayan ve yaramayan yaklaşımları derleyen depo. Resmî doküman değil, saha notu niteliğinde.",
+    "en": "A repo collecting what does and does not work when pairing with a coding agent — field notes rather than official docs.",
+    "src": "kedi",
+    "added": 1775475235
+  },
+  {
+    "url": "https://composio.dev/",
+    "name": "Composio",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "agent",
+      "api"
+    ],
+    "tr": "Bin küsur uygulama için hazır araç tanımı ve devredilmiş OAuth akışı sağlıyor. Her SaaS için kimlik doğrulama yazmak yerine yetkilendirmeyi ona devrediyorsun.",
+    "en": "Ships ready tool definitions and delegated OAuth for a thousand-odd apps. Instead of writing auth per SaaS, you hand the authorisation off to it.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://www.crewai.com/",
+    "name": "CrewAI",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "agent"
+    ],
+    "tr": "Her agent’a rol, hedef ve arka plan veriyorsun; görevler sıralı ya da hiyerarşik olarak dağıtılıyor. Kavramsal olarak sade ama akış üzerinde LangGraph kadar ince denetim vermiyor.",
+    "en": "You give each agent a role, goal and backstory; tasks are dispatched sequentially or hierarchically. Conceptually simple, but it gives less fine control over flow than LangGraph.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://dspy.ai/",
+    "name": "DSPy",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "llm",
+      "akademik"
+    ],
+    "tr": "İstem metni yazmıyorsun; giriş-çıkış imzası tanımlıyor, örnek veri veriyorsun, optimizer istemleri ve few-shot örneklerini kendisi üretiyor. Prompt ayarını derleyiciye devreden bir yaklaşım.",
+    "en": "You do not write prompt text — you declare input/output signatures and supply examples, and an optimiser generates the prompts and few-shot demonstrations. Prompt tuning handed to a compiler.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://github.com/affaan-m/everything-claude-code",
+    "name": "Everything Claude Code",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "agent"
+    ],
+    "tr": "Kod asistanları için yetenek, kural, bellek düzeni ve güvenlik ayarlarını tek pakette toplayan yapılandırma seti. Sıfırdan kurmak yerine üzerine budayarak başlanacak türden.",
+    "en": "A configuration bundle of skills, rules, memory layout and security settings for coding agents. The kind of thing you start from and prune, rather than assemble from scratch.",
+    "src": "kedi",
+    "added": 1776686372
+  },
+  {
+    "url": "https://gofastmcp.com/",
+    "name": "FastMCP",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "mcp",
+      "sdk"
+    ],
+    "tr": "Dekoratörle fonksiyon işaretleyip MCP aracına çeviriyorsun; şema tip ipuçlarından üretiliyor. Ham SDK’da elle yazdığın kalıp kodun neredeyse tamamını siliyor.",
+    "en": "Decorate a function and it becomes an MCP tool, with the schema derived from type hints. It erases nearly all the boilerplate you would hand-write against the raw SDK.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://github.com/gsd-build/get-shit-done",
+    "name": "Get Shit Done",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "agent"
+    ],
+    "tr": "Şartname güdümlü geliştirme sistemi: önce spec yazdırıyor, sonra ona karşı kod ürettiriyor. Amaç, üretilen kodun ne yapması gerektiğini yazılı bir referansa bağlamak.",
+    "en": "A spec-driven development system: it has the agent write a spec first and generate code against it, so what the code should do is anchored to a written reference.",
+    "src": "kedi",
+    "added": 1775477499
+  },
+  {
+    "url": "https://github.com/github/github-mcp-server",
+    "name": "GitHub MCP Server",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "mcp",
+      "go"
+    ],
+    "tr": "Depo, konu, PR ve Actions işlemlerini araç olarak açan resmî sunucu. İnce taneli izin kapsamı seçilebiliyor, yani asistana yalnızca okuma yetkisi verebilirsin.",
+    "en": "The official server exposing repo, issue, PR and Actions operations as tools. Permission scopes are fine-grained, so you can hand an assistant read-only access.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://www.guardrailsai.com/",
+    "name": "Guardrails AI",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "guardrail"
+    ],
+    "tr": "Çıktıyı şema ve doğrulayıcı zincirine sokuyor; başarısız olursa yeniden deniyor ya da düzeltiyor. NeMo diyaloğu tutuyor, bu ise üretilen metnin biçim ve içeriğini.",
+    "en": "Runs output through a chain of schemas and validators, retrying or repairing on failure. NeMo holds the dialogue; this holds the shape and content of the generated text.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://github.com/headroomlabs-ai/headroom",
+    "name": "Headroom",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "llm",
+      "api"
+    ],
+    "tr": "Araç çıktısı, günlük ve RAG parçalarını modele ulaşmadan sıkıştırıyor. Kütüphane, vekil ya da MCP sunucusu olarak çalışabiliyor — JSON ağırlıklı yüklerde kazanç en yüksek.",
+    "en": "Compresses tool output, logs and RAG chunks before they reach the model. Runs as a library, a proxy or an MCP server; the gain is largest on JSON-heavy payloads.",
+    "src": "kedi",
+    "added": 1785304772
+  },
+  {
+    "url": "https://www.helicone.ai/",
+    "name": "Helicone",
+    "tags": [
+      "açık-kaynak",
+      "api",
+      "gözlemlenebilirlik"
+    ],
+    "tr": "Taban URL’yi değiştirmen yeterli; istekler üzerinden geçerken kaydediliyor. Kod değişikliği istememesi, mevcut bir projeye sonradan takmayı kolaylaştırıyor.",
+    "en": "Change the base URL and requests are logged as they pass through. Requiring no code change makes it easy to bolt onto a project after the fact.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://github.com/blader/humanizer",
+    "name": "Humanizer",
+    "tags": [
+      "açık-kaynak",
+      "github"
+    ],
+    "tr": "Metinden yapay zeka yazımına özgü kalıpları (aşırı paralel yapı, gereksiz geçiş cümleleri, tekdüze ritim) temizleyen dar kapsamlı yetenek.",
+    "en": "A narrow skill stripping the tells of AI writing — over-parallel structure, filler transitions, uniform rhythm — from a text.",
+    "src": "kedi",
+    "added": 1778513044
+  },
+  {
+    "url": "https://www.lakera.ai/",
+    "name": "Lakera Guard",
+    "tags": [
+      "ücretli",
+      "guardrail"
+    ],
+    "tr": "İstem enjeksiyonu ve jailbreak tespitine odaklı API. Saldırı örüntülerini Gandalf adlı oyunlaştırılmış deneyden toplanan gerçek veriyle besliyor.",
+    "en": "An API focused on prompt injection and jailbreak detection, fed by real attack data harvested from its gamified Gandalf experiment.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://www.langchain.com/",
+    "name": "LangChain",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "agent"
+    ],
+    "tr": "Model, vektör deposu ve araç sağlayıcıları ortak arayüz altında toplayan çatı. Entegrasyon sayısı en büyük kozu; soyutlama katmanının kalınlığı da en sık gelen şikâyet.",
+    "en": "Wraps model, vector store and tool providers behind common interfaces. The integration count is its strongest card; the thickness of the abstraction layer is the most frequent complaint.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://python.langchain.com/docs/tutorials/agents/",
+    "name": "LangChain Agents (öğretici)",
+    "tags": [
+      "dokümantasyon",
+      "öğretici",
+      "agent"
+    ],
+    "tr": "Araç tanımlama, model bağlama ve döngüyü kurma adımlarını sırayla gösteren resmî başlangıç. Araç çağırma protokolünün nasıl işlediğini görmek için en kısa yol.",
+    "en": "The official walkthrough of defining tools, binding a model and wiring the loop — the shortest way to see how the tool-calling protocol actually works.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://docs.langchain.com/oss/python/langchain/overview",
+    "name": "LangChain Dokümantasyonu",
+    "tags": [
+      "dokümantasyon",
+      "python"
+    ],
+    "tr": "Güncel doküman, eski zincir kavramlarını bırakıp `create_agent` etrafında sadeleşmiş bir API anlatıyor. Eski öğreticilerdeki `LLMChain` örnekleri artık geçerli değil.",
+    "en": "The current docs drop the old chain vocabulary for a slimmer API built around `create_agent`. The `LLMChain` examples in older tutorials no longer apply.",
+    "src": "kedi",
+    "added": 1776690086
+  },
+  {
+    "url": "https://langfuse.com/",
+    "name": "Langfuse",
+    "tags": [
+      "açık-kaynak",
+      "self-hosted",
+      "gözlemlenebilirlik"
+    ],
+    "tr": "Çatı bağımsız izleme ve değerlendirme; OpenTelemetry uyumlu. Kendi sunucunda çalıştırabildiğin için istem ve yanıt verisi dışarı çıkmıyor.",
+    "en": "Framework-agnostic tracing and evaluation, OpenTelemetry-compatible. Because you can self-host it, prompt and response data never leaves your infrastructure.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://www.langchain.com/langgraph",
+    "name": "LangGraph",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "agent"
+    ],
+    "tr": "Agent akışını düğüm ve kenarlardan oluşan bir durum grafiği olarak tanımlıyorsun. Döngü, koşullu dallanma ve akışı durdurup insan onayı bekleme (interrupt) buradan çıkıyor; düz zincirde bunlar yok.",
+    "en": "You define agent flow as a state graph of nodes and edges, which is where loops, conditional branching and pausing for human approval (interrupts) come from. A flat chain has none of that.",
+    "src": "kedi",
+    "added": 1785059786
+  },
+  {
+    "url": "https://smith.langchain.com/",
+    "name": "LangSmith",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "gözlemlenebilirlik"
+    ],
+    "tr": "Her zincir adımının girdi, çıktı, gecikme ve jeton sayısını ayrı ayrı gösteriyor. LangChain’e bağlı değil ama en sıkı entegrasyonu orada.",
+    "en": "Shows input, output, latency and token count for every chain step separately. Not tied to LangChain, though that is where the integration is tightest.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://github.com/mvanhorn/last30days-skill",
+    "name": "last30days",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "akademik"
+    ],
+    "tr": "Bir konuda son otuz günün Reddit, X ve YouTube içeriğini tarayan yetenek. Modelin eğitim kesim tarihiyle bugün arasındaki boşluğu kapatmak için.",
+    "en": "A skill sweeping the last thirty days of Reddit, X and YouTube on a topic — aimed at the gap between a model’s training cutoff and today.",
+    "src": "kedi",
+    "added": 1787180377
+  },
+  {
+    "url": "https://docs.llamaindex.ai/en/stable/module_guides/workflow/",
+    "name": "LlamaIndex Workflows",
+    "tags": [
+      "dokümantasyon",
+      "agent",
+      "python"
+    ],
+    "tr": "Adımların olay yayıp olay dinlediği asenkron bir çalışma zamanı. Graf kurmak yerine `@step` ile fonksiyon işaretliyorsun; paralel dallar doğal şekilde çıkıyor.",
+    "en": "An async runtime where steps emit and listen for events. Instead of building a graph you mark functions with `@step`, and parallel branches fall out naturally.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://mcpmarket.com/tools/skills",
+    "name": "MCP Market · Agent Skills",
+    "tags": [
+      "ücretsiz",
+      "mcp",
+      "referans"
+    ],
+    "tr": "Topluluk yetenek ve sunucu pazarı. Resmî kayıt defterinden geniş, buna karşılık denetimi zayıf — kurmadan önce kaynağa bakmak gerekir.",
+    "en": "A community marketplace of skills and servers. Broader than the official registry but weakly vetted — read the source before installing.",
+    "src": "kedi",
+    "added": 1782805073
+  },
+  {
+    "url": "https://registry.modelcontextprotocol.io/",
+    "name": "MCP Registry",
+    "tags": [
+      "ücretsiz",
+      "mcp",
+      "referans"
+    ],
+    "tr": "Resmî sunucu kayıt defteri; makine tarafından okunabilir olduğu için istemciler kurulumu otomatikleştirebiliyor. Dağınık GitHub listelerinin yerini almak üzere kuruldu.",
+    "en": "The official server registry. Being machine-readable lets clients automate installation — it exists to replace scattered GitHub lists.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://github.com/modelcontextprotocol/servers",
+    "name": "MCP Sunucu Koleksiyonu",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "mcp",
+      "referans"
+    ],
+    "tr": "Dosya sistemi, PostgreSQL, Slack, Git ve fetch için referans uygulamalar. Kendi sunucunu yazmadan önce protokolün nasıl kullanıldığını buradan okumak en hızlısı.",
+    "en": "Reference implementations for filesystem, PostgreSQL, Slack, Git and fetch. Reading these is the fastest way to see the protocol in use before writing your own.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://learn.microsoft.com/en-us/agent-framework/",
+    "name": "Microsoft Agent Framework",
+    "tags": [
+      "dokümantasyon",
+      "agent",
+      "sunucu"
+    ],
+    "tr": "AutoGen’in deney tarafıyla Semantic Kernel’in kurumsal tarafını tek çatıda birleştiren yeni hat. Azure kimlik doğrulama ve izleme altyapısına baştan bağlı geliyor.",
+    "en": "The new line merging AutoGen’s experimental side with Semantic Kernel’s enterprise side. It arrives pre-wired to Azure identity and monitoring.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://microsoft.github.io/autogen/",
+    "name": "Microsoft AutoGen",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "agent",
+      "akademik"
+    ],
+    "tr": "Agent’lar bir grup sohbetinde konuşarak iş çözüyor; konuşma sırasını bir yönetici agent belirliyor. Araştırma kökenli, bu yüzden API’si sürümler arasında sertçe değişebiliyor.",
+    "en": "Agents solve tasks by talking in a group chat, with a manager agent deciding who speaks next. Research-rooted, so the API can shift sharply between versions.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://microsoft.github.io/presidio/",
+    "name": "Microsoft Presidio",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "gizlilik"
+    ],
+    "tr": "Metin ve görselde kişisel veriyi (TC kimlik, IBAN, e-posta gibi) tanıyıp maskeliyor. Tanıyıcılar özelleştirilebilir; modele veri göndermeden önceki anonimleştirme adımı için.",
+    "en": "Detects and redacts personal data — national IDs, IBANs, emails — in text and images. Recognisers are customisable; it belongs in the anonymisation step before data reaches a model.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://modelcontextprotocol.io/",
+    "name": "Model Context Protocol",
+    "tags": [
+      "açık-kaynak",
+      "mcp",
+      "referans",
+      "api"
+    ],
+    "tr": "JSON-RPC üzerine kurulu, modellere araç ve veri kaynağı açmak için açık protokol. Sunucuyu bir kez yazıyorsun, MCP konuşan her istemci onu kullanabiliyor.",
+    "en": "An open protocol over JSON-RPC for exposing tools and data sources to models. Write the server once and any MCP-speaking client can use it.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://github.com/NVIDIA/NeMo-Guardrails",
+    "name": "NeMo Guardrails",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "guardrail",
+      "python"
+    ],
+    "tr": "Colang adlı bir DSL ile izin verilen konuşma akışlarını tanımlıyorsun. Denetim çıktının içeriğinde değil diyaloğun gidişatında; konu sapmasını girişte kesiyor.",
+    "en": "You declare permitted conversation flows in a DSL called Colang. The control sits in the dialogue’s trajectory rather than the output text, cutting topic drift at the entrance.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://github.com/breferrari/obsidian-mind",
+    "name": "Obsidian Mind",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "agent",
+      "referans"
+    ],
+    "tr": "Kod asistanının belleğini bir Obsidian kasasında düz Markdown olarak tutuyor. Bellek servisi çalıştırmıyorsun; not dosyalarını kendin okuyup düzeltebiliyorsun.",
+    "en": "Keeps a coding agent’s memory as plain Markdown in an Obsidian vault. No memory service to run, and you can read and correct the notes yourself.",
+    "src": "kedi",
+    "added": 1776686564
+  },
+  {
+    "url": "https://github.com/diegosouzapw/OmniRoute",
+    "name": "OmniRoute",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "api"
+    ],
+    "tr": "Tek OpenAI uyumlu uç noktadan yüzlerce sağlayıcıya yönlendiriyor; birçoğu ücretsiz katmanlı. Sağlayıcı düşerse otomatik yedeğe geçmesi, tek bir API’ye bağımlılığı kırıyor.",
+    "en": "Routes one OpenAI-compatible endpoint to hundreds of providers, many with free tiers. Automatic failover when a provider drops is what breaks single-API dependence.",
+    "src": "kedi",
+    "added": 1785304793
+  },
+  {
+    "url": "https://openai.github.io/openai-agents-python/",
+    "name": "OpenAI Agents SDK",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "agent",
+      "sdk"
+    ],
+    "tr": "Dört kavramla yetiniyor: agent, araç, devretme (handoff) ve koruma bandı. İzleme (tracing) kutudan çıkıyor; öğrenme eğrisi çatıların en düşüğü.",
+    "en": "Settles for four concepts: agents, tools, handoffs and guardrails. Tracing ships built in, and the learning curve is the shallowest of the frameworks here.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://github.com/HKUDS/OpenSpace",
+    "name": "OpenSpace",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "agent"
+    ],
+    "tr": "Hangi yeteneğin ne zaman yükleneceğine karar veren yönetim katmanı. Tüm yetenekleri bağlama doldurmak yerine seçici yükleyerek jeton maliyetini düşürüyor.",
+    "en": "A management layer deciding which skill loads when. Selective loading instead of stuffing every skill into context is where the token saving comes from.",
+    "src": "kedi",
+    "added": 1776686800
+  },
+  {
+    "url": "https://github.com/DietrichGebert/ponytail",
+    "name": "Ponytail",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "agent"
+    ],
+    "tr": "Agent’ı gereksiz soyutlama ve erken genelleme yapmaktan alıkoyan yetenek. Kod üretme eğilimini kısıtlayarak çıktının bakım maliyetini düşürmeyi hedefliyor.",
+    "en": "A skill that stops an agent inventing needless abstraction and premature generalisation, restraining its urge to produce code in order to lower maintenance cost.",
+    "src": "kedi",
+    "added": 1785304698
+  },
+  {
+    "url": "https://protectai.com/",
+    "name": "Prisma AIRS (Protect AI)",
+    "tags": [
+      "ücretli",
+      "güvenlik"
+    ],
+    "tr": "Model dosyalarını zararlı yük için tarıyor — pickle serileştirmesi keyfî kod çalıştırabildiği için indirilen bir checkpoint gerçek bir saldırı yüzeyi. Protect AI 2025’te Palo Alto Networks’e katıldı; ürün artık Prisma AIRS çatısı altında.",
+    "en": "Scans model files for malicious payloads. Because pickle deserialisation can execute arbitrary code, a downloaded checkpoint is a real attack surface. Protect AI joined Palo Alto Networks in 2025; the product now lives under the Prisma AIRS umbrella.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://www.promptingguide.ai/",
+    "name": "Prompt Engineering Guide",
+    "tags": [
+      "llm",
+      "referans",
+      "ücretsiz",
+      "akademik"
+    ],
+    "tr": "İstem mühendisliği tekniklerini akademik kaynaklara dayandırarak toplayan rehber: düşünce zinciri, az örnekli öğrenme, RAG. Blog yazılarından farkı her tekniğin makale atfıyla gelmesi — iddia ile bulgu ayrışıyor.",
+    "en": "A guide collecting prompt engineering techniques with academic citations: chain of thought, few-shot, RAG. Against blog posts each technique carries a paper reference, which separates claim from finding.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.prompt.security/",
+    "name": "Prompt Security",
+    "tags": [
+      "ücretli",
+      "gizlilik",
+      "güvenlik"
+    ],
+    "tr": "Çalışanların hangi YZ aracına ne veri gönderdiğini görünür kılıyor ve politikaya göre engelliyor. Gölge YZ kullanımını ölçmek isteyen kurumlar için.",
+    "en": "Surfaces which AI tools employees send what data to, and blocks by policy. Aimed at organisations that need to measure shadow AI use.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://www.promptfoo.dev/",
+    "name": "Promptfoo",
+    "tags": [
+      "açık-kaynak",
+      "cli",
+      "gözlemlenebilirlik",
+      "devops"
+    ],
+    "tr": "İstem ve modelleri YAML’de tanımlanmış test kümesine karşı yan yana koşuyor. Model sürümü değiştiğinde çıktının bozulup bozulmadığını CI adımında yakalıyor.",
+    "en": "Runs prompts and models side by side against a test set declared in YAML. It catches output regressions in a CI step when a model version changes.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://promptlayer.com/",
+    "name": "PromptLayer",
+    "tags": [
+      "llm",
+      "gözlemlenebilirlik",
+      "freemium"
+    ],
+    "tr": "LLM istemlerini sürümleyen, kaydeden ve değerlendiren platform; hangi istemin hangi çıktıyı ürettiği izlenebiliyor. Genel APM araçlarından farkı istemi birinci sınıf nesne sayması — istem değişikliğini kod dağıtımından ayırıp ürün ekibine açıyor.",
+    "en": "A platform for versioning, logging and evaluating LLM prompts, so you can trace which prompt produced which output. Unlike general APM tooling it treats the prompt as a first-class object, separating prompt changes from code deploys.",
+    "src": "invesp"
+  },
+  {
+    "url": "https://ai.pydantic.dev/",
+    "name": "Pydantic AI",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "agent"
+    ],
+    "tr": "Model çıktısını Pydantic şemasına göre doğruluyor, uymazsa modele geri gönderip düzelttiriyor. Sonuçta serbest metin değil, tipi garanti edilmiş bir nesne alıyorsun.",
+    "en": "Validates model output against a Pydantic schema and sends it back for correction when it fails. What you get out is a type-guaranteed object, not free text.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://learn.microsoft.com/semantic-kernel/",
+    "name": "Semantic Kernel",
+    "tags": [
+      "dokümantasyon",
+      "c-ailesi",
+      "python",
+      "agent"
+    ],
+    "tr": "C#, Python ve Java için tek API sunan agent SDK’sı. Kurumsal .NET yığınında yaşıyorsan Python ağırlıklı alternatiflerden çok daha az sürtünme çıkarıyor.",
+    "en": "An agent SDK exposing one API across C#, Python and Java. If you live in an enterprise .NET stack it creates far less friction than the Python-centric alternatives.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://github.com/obra/superpowers",
+    "name": "Superpowers",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "agent"
+    ],
+    "tr": "Agent’a serbest istem yerine adımlı bir geliştirme disiplini dayatan yetenek çatısı. Planlama, uygulama ve doğrulama aşamalarını ayırıyor.",
+    "en": "A skills framework imposing a stepwise development discipline instead of free-form prompting, separating planning, implementation and verification.",
+    "src": "kedi",
+    "added": 1776686969
+  },
+  {
+    "url": "https://github.com/Alibaba-NLP/DeepResearch",
+    "name": "Tongyi DeepResearch",
+    "tags": [
+      "llm",
+      "agent",
+      "açık-kaynak",
+      "github"
+    ],
+    "tr": "Alibaba’nın açık kaynak “derin araştırma” ajan modeli; çok adımlı web araştırmasını kendi yürütüyor. Sohbet LLM’lerinden farkı ajan olması: tek yanıt vermek yerine araç çağırıp kaynak gezerek uzun bir araştırma görevini baştan sona tamamlıyor.",
+    "en": "Alibaba’s open-source “deep research” agent model that runs multi-step web research on its own. Unlike chat LLMs it is an agent: rather than a single reply it calls tools and browses sources to carry a long research task from start to finish.",
+    "src": "lowkwiki"
+  },
+  {
+    "url": "https://wandb.ai/site/weave/",
+    "name": "W&B Weave",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "gözlemlenebilirlik"
+    ],
+    "tr": "Weights & Biases’ın LLM tarafı. Zaten W&B ile eğitim izliyorsan, çıkarım izleri de aynı proje altında toplanıyor.",
+    "en": "The LLM side of Weights & Biases. If you already track training there, inference traces land under the same project.",
+    "src": "kedi",
+    "added": 1787000000
+  },
+  {
+    "url": "https://github.com/ggml-org/whisper.cpp",
+    "name": "whisper.cpp",
+    "tags": [
+      "açık-kaynak",
+      "c-ailesi",
+      "ses",
+      "llm"
+    ],
+    "tr": "OpenAI Whisper konuşma tanıma modelinin bağımlılıksız C/C++ uyarlaması; CPU’da bile makul hızda çalışıyor. Python sürümünden farkı kurulum yükünün olmaması ve tek ikili dosyaya derlenebilmesi — gömülü cihaza bile giriyor.",
+    "en": "A dependency-free C/C++ port of OpenAI’s Whisper speech recognition model that runs at a reasonable pace even on CPU. Against the Python original there is no install burden and it compiles to a single binary — small enough for embedded targets.",
+    "src": "cdcruz"
+  }
+]

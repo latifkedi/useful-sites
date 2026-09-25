@@ -1,0 +1,543 @@
+[
+  {
+    "url": "https://developer.android.com",
+    "name": "Android Developers",
+    "tags": [
+      "dokümantasyon",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Android'in resmî geliştirici belgeleri, araçları ve kılavuzları.",
+    "en": "The official Android developer documentation, tools and guides.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://androidweekly.net/",
+    "name": "Android Weekly",
+    "tags": [
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Android ve Kotlin geliştirme haberlerini haftalık derleyen bülten: makaleler, kütüphaneler, iş ilanları. Blog takip etmekten farkı seçilmiş olması — haftada bir e-posta, dağınık kaynak takibi yerine.",
+    "en": "A weekly newsletter of Android and Kotlin development news: articles, libraries, jobs. Against following blogs it is curated — one email a week instead of chasing scattered feeds.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://developer.apple.com",
+    "name": "Apple Developer",
+    "tags": [
+      "dokümantasyon",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "iOS ve Apple platformları için resmî geliştirici belgeleri ve kaynakları.",
+    "en": "The official developer documentation and resources for iOS and Apple platforms.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://github.com/JStumpp/awesome-android",
+    "name": "Awesome Android",
+    "tags": [
+      "awesome-liste",
+      "github"
+    ],
+    "tr": "Android geliştirme için kütüphane, araç ve öğrenme kaynağı listesi. Genel aramadan farkı mimariden UI’ye kadar kategorilere ayrılmış olması.",
+    "en": "A list of libraries, tools and learning resources for Android development. Unlike general search it is split into categories from architecture to UI.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://awesome-android-root.org/",
+    "name": "Awesome Android Root",
+    "tags": [
+      "masaüstü",
+      "referans",
+      "öğretici",
+      "awesome-liste"
+    ],
+    "tr": "Android root’lama için 600’den fazla uygulama, Magisk/KernelSU/APatch/LSPosed modülü ve cihaz bazlı rehber içeren bilgi tabanı. Dağınık forum başlıklarından farkı düzenli olması: Pixel, Samsung, Xiaomi gibi cihazlara özel adım adım rehberleri tek yerde topluyor.",
+    "en": "A knowledge base for rooting Android with 600+ apps, Magisk/KernelSU/APatch/LSPosed modules and device-specific guides. Unlike scattered forum threads it is organised: it gathers step-by-step guides for devices like Pixel, Samsung and Xiaomi in one place.",
+    "src": "lowkwiki"
+  },
+  {
+    "url": "https://github.com/riderx/awesome-capacitor",
+    "name": "Awesome Capacitor",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "masaüstü",
+      "javascript"
+    ],
+    "tr": "Web uygulamalarını yerel mobil kabuğa taşıyan Capacitor için kaynak listesi.",
+    "en": "A resource list for Capacitor, wrapping web apps in a native mobile shell.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/busterc/awesome-cordova",
+    "name": "Awesome Cordova",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "masaüstü",
+      "javascript"
+    ],
+    "tr": "JavaScript ile melez mobil uygulama yapan Cordova için kaynak listesi.",
+    "en": "A resource list for Cordova, building hybrid mobile apps with JavaScript.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/sindresorhus/awesome-electron",
+    "name": "Awesome Electron",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "masaüstü",
+      "javascript"
+    ],
+    "tr": "Web teknolojileriyle masaüstü uygulaması yapmak için Electron kaynak listesi.",
+    "en": "A resource list for Electron, building desktop apps with web technologies.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/Solido/awesome-flutter",
+    "name": "Awesome Flutter",
+    "tags": [
+      "awesome-liste",
+      "github"
+    ],
+    "tr": "Flutter ile çapraz platform uygulama geliştirmek için paket, örnek ve öğretici listesi. Resmî katalogtan farkı topluluk paketlerini ve gerçek uygulama örneklerini bir araya getirmesi.",
+    "en": "A list of packages, samples and tutorials for building cross-platform apps with Flutter. Unlike the official catalog it brings together community packages and real app examples.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/vsouza/awesome-ios",
+    "name": "Awesome iOS",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "masaüstü"
+    ],
+    "tr": "iOS geliştirme için kütüphane, araç ve öğrenme kaynağı listesi. Genel Apple listelerinden farkı yalnız iOS uygulama katmanına ve Swift/Obj-C ekosistemine odaklanması.",
+    "en": "A list of libraries, tools and learning resources for iOS development. Unlike general Apple lists it focuses on the iOS app layer and the Swift/Obj-C ecosystem.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/jondot/awesome-react-native",
+    "name": "Awesome React Native",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "javascript"
+    ],
+    "tr": "React Native ile mobil geliştirme için bileşen ve araç listesi. Web React listelerinden farkı yerel mobil bileşenlere ve köprülere odaklanması.",
+    "en": "A list of components and tools for mobile development with React Native. Unlike web React lists it focuses on native mobile components and bridges.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/dersvenhesse/awesome-scriptable",
+    "name": "Awesome Scriptable",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "masaüstü",
+      "otomasyon"
+    ],
+    "tr": "iOS’ta JavaScript ile otomasyon yapan Scriptable uygulaması için kaynak listesi.",
+    "en": "A resource list for Scriptable, the iOS app for automation in JavaScript.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/vitalets/awesome-smart-tv",
+    "name": "Awesome Smart TV",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "masaüstü"
+    ],
+    "tr": "Farklı TV platformları için uygulama geliştirme kaynak listesi.",
+    "en": "A resource list for building apps across different TV platforms.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/matteocrippa/awesome-swift",
+    "name": "Awesome Swift",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "masaüstü"
+    ],
+    "tr": "Apple’ın Swift dili için kütüphane ve araç listesi. Genel iOS listelerinden farkı doğrudan dile ve paketlerine odaklanması.",
+    "en": "A list of libraries and tools for Apple’s Swift language. Unlike general iOS lists it focuses directly on the language and its packages.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/MartinZikmund/awesome-uno-platform",
+    "name": "Awesome Uno Platform",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "masaüstü"
+    ],
+    "tr": "Tek kod tabanıyla çok platformlu .NET arayüzü kuran Uno Platform listesi.",
+    "en": "A list for Uno Platform, building cross-platform .NET UIs from one codebase.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/yenchenlin/awesome-watchos",
+    "name": "Awesome watchOS",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "masaüstü"
+    ],
+    "tr": "Apple Watch (watchOS) uygulama geliştirme için kaynak listesi.",
+    "en": "A resource list for Apple Watch (watchOS) app development.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://capacitorjs.com",
+    "name": "Capacitor",
+    "tags": [
+      "açık-kaynak",
+      "frontend"
+    ],
+    "tr": "Bir web uygulamasını yerel bir kabuğa saran, cihaz API'lerine erişim veren çalışma zamanı.",
+    "en": "A native runtime that wraps a web app in a native shell with access to device APIs.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://cocoapods.org",
+    "name": "CocoaPods",
+    "tags": [
+      "açık-kaynak",
+      "referans"
+    ],
+    "tr": "iOS ve Apple projeleri için yaygın kullanılan bağımlılık yöneticisi.",
+    "en": "A widely used dependency manager for iOS and Apple projects.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://dontkillmyapp.com/",
+    "name": "Don't Kill My App",
+    "tags": [
+      "referans",
+      "ücretsiz",
+      "masaüstü"
+    ],
+    "tr": "Android üreticilerinin arka plan uygulamalarını nasıl öldürdüğünü marka marka belgeleyen site; her cihaz için çözüm adımları var. Genel Android belgelerinden farkı üretici bazında olması — alarm uygulamasının neden çalmadığının cevabı burada.",
+    "en": "Documents how each Android manufacturer kills background apps, brand by brand, with the workaround for each device. Unlike general Android documentation it is per-vendor — which is where the answer to \"why did my alarm not ring\" lives.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://www.electronjs.org/",
+    "name": "Electron",
+    "tags": [
+      "açık-kaynak",
+      "javascript",
+      "masaüstü"
+    ],
+    "tr": "Chromium ve Node.js’i paketleyip web teknolojisiyle masaüstü uygulaması çıkarıyor. VS Code ve Slack bununla yazıldı; bellek tüketimi de bu yüzden sürekli eleştiriliyor.",
+    "en": "Bundles Chromium and Node.js to ship desktop apps built with web technology. VS Code and Slack were built this way — and its memory footprint is criticised for the same reason.",
+    "src": "kedi",
+    "added": 1777482472
+  },
+  {
+    "url": "https://www.electronjs.org/docs/latest",
+    "name": "Electron Dokümantasyonu",
+    "tags": [
+      "dokümantasyon",
+      "masaüstü",
+      "güvenlik"
+    ],
+    "tr": "Ana süreç ile işleyici süreç ayrımı ve bunlar arası iletişim (IPC) referansı. contextIsolation ve nodeIntegration ayarları güvenlik açısından kritik; varsayılanları değiştirme.",
+    "en": "Reference for the main/renderer process split and the IPC between them. The contextIsolation and nodeIntegration settings are security-critical — leave the defaults alone.",
+    "src": "kedi",
+    "added": 1776690089
+  },
+  {
+    "url": "https://reports.exodus-privacy.eu.org/en/",
+    "name": "Exodus Privacy",
+    "tags": [
+      "gizlilik",
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Android uygulamalarının içindeki izleyicileri ve istedikleri izinleri raporlayan servis. Play Store’un gizlilik etiketlerinden farkı beyana değil APK’nın kendisine bakması — geliştiricinin ne söylediği değil, ne koyduğu.",
+    "en": "Reports the trackers and permissions inside Android apps. Unlike Play Store privacy labels it reads the APK rather than the declaration — what the developer shipped, not what they said.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://docs.expo.dev/",
+    "name": "Expo",
+    "tags": [
+      "açık-kaynak",
+      "masaüstü"
+    ],
+    "tr": "React Native’i Xcode ve Android Studio kurmadan geliştirilebilir kılıyor; EAS ile derleme bulutta yapılıyor. Yerel modül eklemek eskisi kadar sorun değil artık.",
+    "en": "Makes React Native developable without installing Xcode or Android Studio, with EAS building in the cloud. Adding native modules is no longer the obstacle it once was.",
+    "src": "kedi",
+    "added": 1776690089
+  },
+  {
+    "url": "https://fastlane.tools",
+    "name": "fastlane",
+    "tags": [
+      "otomasyon",
+      "açık-kaynak"
+    ],
+    "tr": "Mobil derleme, ekran görüntüsü ve mağaza yayınını otomatikleştiren açık kaynak araç.",
+    "en": "An open-source tool that automates mobile builds, screenshots and store releases.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://docs.flutter.dev/learn",
+    "name": "Flutter",
+    "tags": [
+      "açık-kaynak",
+      "c-ailesi",
+      "masaüstü"
+    ],
+    "tr": "Skia/Impeller ile her pikseli kendisi çiziyor; platform bileşeni kullanmıyor. Bu yüzden iOS ve Android’de birebir aynı görünüyor — istediğin buysa güç, değilse sorun.",
+    "en": "Draws every pixel itself through Skia/Impeller rather than using platform widgets, so iOS and Android look identical. A strength if that is what you want, a problem if it is not.",
+    "src": "kedi",
+    "added": 1776690088
+  },
+  {
+    "url": "https://fossdroid.com/",
+    "name": "Fossdroid",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "gizlilik"
+    ],
+    "tr": "F-Droid deposundaki özgür yazılım Android uygulamalarını gezilebilir hâlde sunan vitrin. F-Droid istemcisinden farkı web üzerinden popülerliğe göre keşif — hangi uygulamanın gerçekten kullanıldığını görüyorsun.",
+    "en": "A browsable showcase of the free-software Android apps in the F-Droid repository. Against the F-Droid client it offers discovery by popularity on the web — you can see which apps are actually used.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://godotengine.org/",
+    "name": "Godot",
+    "tags": [
+      "açık-kaynak",
+      "masaüstü",
+      "interaktif"
+    ],
+    "tr": "MIT lisanslı oyun motoru; 2B ve 3B için ayrı ayrı olgun boru hatları var. Unity ve Unreal’dan ayrıldığı yer lisans: gelir payı, koltuk ücreti ya da kurulum başına ücret yok, motorun tamamı senin.",
+    "en": "An MIT-licensed game engine with separately mature 2D and 3D pipelines. Where it parts ways with Unity and Unreal is the licence: no revenue share, no seat fee, no per-install charge — the whole engine is yours.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://www.hackingwithswift.com",
+    "name": "Hacking with Swift",
+    "tags": [
+      "öğretici",
+      "ücretsiz"
+    ],
+    "tr": "Swift ve SwiftUI'yi projelerle öğreten kaynak; ücretsiz \"100 Days\" kursuyla tanınır.",
+    "en": "Learn Swift and SwiftUI through projects, known for its free \"100 Days\" courses.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://ionicframework.com",
+    "name": "Ionic",
+    "tags": [
+      "açık-kaynak",
+      "frontend"
+    ],
+    "tr": "Web teknolojileriyle çapraz platform mobil arayüz geliştiren açık kaynak çatı.",
+    "en": "An open-source framework for building cross-platform mobile UIs with web technologies.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://apt.izzysoft.de/fdroid/index.php",
+    "name": "IzzyOnDroid",
+    "tags": [
+      "açık-kaynak",
+      "gizlilik",
+      "ücretsiz"
+    ],
+    "tr": "F-Droid’e ek depo; kaynağı açık olduğu hâlde resmî depoya girmemiş uygulamaları barındırıyor ve her birine gizlilik denetimi uyguluyor. Resmî depodan farkı daha hızlı güncelleme ve izleyici raporu.",
+    "en": "An additional F-Droid repository carrying apps that are open source but not in the official repo, each run through a privacy audit. Against the official repository it updates faster and publishes a tracker report.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://www.kodeco.com",
+    "name": "Kodeco",
+    "tags": [
+      "öğretici",
+      "freemium"
+    ],
+    "tr": "iOS, Android ve Flutter için derinlemesine mobil geliştirme öğreticileri (eski adı raywenderlich).",
+    "en": "In-depth mobile-development tutorials for iOS, Android and Flutter (formerly raywenderlich).",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://m3.material.io",
+    "name": "Material Design",
+    "tags": [
+      "referans",
+      "dokümantasyon",
+      "frontend"
+    ],
+    "tr": "Google'ın açık tasarım sistemi ve arayüz kılavuzları; Android arayüzünün temeli.",
+    "en": "Google's open design system and UI guidelines — the basis of the Android interface.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://microstudio.dev/",
+    "name": "microStudio",
+    "tags": [
+      "tarayıcı-içi",
+      "ücretsiz",
+      "interaktif"
+    ],
+    "tr": "Tarayıcıda çalışan tam oyun geliştirme ortamı: kod editörü, sprite çizimi, harita editörü ve ses üretimi bir arada. Godot veya Unity’den farkı kurulum gerektirmemesi — Chromebook’ta bile oyun yazılabiliyor, öğretim için elverişli.",
+    "en": "A complete game development environment in the browser: code editor, sprite drawing, map editor and sound generation together. Unlike Godot or Unity it installs nothing, so it works on a Chromebook — which makes it good for teaching.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://nativescript.org",
+    "name": "NativeScript",
+    "tags": [
+      "açık-kaynak",
+      "javascript"
+    ],
+    "tr": "JavaScript, TypeScript, Vue veya Angular'dan gerçek yerel mobil uygulama üretir.",
+    "en": "Builds truly native mobile apps from JavaScript, TypeScript, Vue or Angular.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://www.objc.io",
+    "name": "objc.io",
+    "tags": [
+      "öğretici",
+      "kitap",
+      "freemium"
+    ],
+    "tr": "İleri Swift ve iOS üzerine kitaplar ve video serileri.",
+    "en": "Books and video series on advanced Swift and iOS.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://o3de.org/",
+    "name": "Open 3D Engine",
+    "tags": [
+      "açık-kaynak",
+      "c-ailesi",
+      "interaktif"
+    ],
+    "tr": "Amazon Lumberyard’ın Linux Foundation’a devredilmiş hâli; Apache 2.0 lisanslı, modüler 3B motor. Godot’ya göre daha ağır ama AAA ölçeğine yakın bir render hattı sunuyor; kurumsal destek arayan takımlar için açık kaynak seçeneği.",
+    "en": "Amazon’s Lumberyard, handed to the Linux Foundation as an Apache 2.0 modular 3D engine. Heavier than Godot, but with a rendering pipeline closer to AAA scale — the open-source option for teams that want corporate backing.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://github.com/mobilenetworkltd/openapk",
+    "name": "OpenAPK",
+    "tags": [
+      "masaüstü",
+      "açık-kaynak",
+      "github",
+      "awesome-liste"
+    ],
+    "tr": "Android için açık kaynak uygulama ve oyunların günlük güncellenen kategorili listesi. F-Droid gibi depolardan farkı mağaza değil dizin olması: uygulamaları doğrudan kendi kaynak depolarına yönlendiriyor, kendi paket dağıtımı yok.",
+    "en": "A daily-updated, categorised list of open-source apps and games for Android. Unlike repositories such as F-Droid it is a directory, not a store: it points apps straight to their own source repositories, with no package distribution of its own.",
+    "src": "lowkwiki"
+  },
+  {
+    "url": "https://proandroiddev.com",
+    "name": "ProAndroidDev",
+    "tags": [
+      "öğretici",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "İleri düzey Android mühendisliği yazılarının yayımlandığı topluluk yayını.",
+    "en": "A community publication of advanced Android-engineering articles.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://pub.dev",
+    "name": "pub.dev",
+    "tags": [
+      "açık-kaynak",
+      "referans",
+      "sdk"
+    ],
+    "tr": "Dart ve Flutter paketlerinin resmî kayıt deposu.",
+    "en": "The official package registry for Dart and Flutter.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://reactnative.dev",
+    "name": "React Native",
+    "tags": [
+      "dokümantasyon",
+      "açık-kaynak",
+      "javascript"
+    ],
+    "tr": "React ile yerel mobil uygulama geliştiren çapraz platform çatının resmî belgeleri.",
+    "en": "The official docs of the cross-platform framework for building native mobile apps with React.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://rive.app/docs/runtimes/flutter/flutter",
+    "name": "Rive (Flutter)",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "görsel-üretim",
+      "masaüstü"
+    ],
+    "tr": "Vektör animasyonu uygulamaya gömüyor; Lottie’den farkı, animasyonun durum makinesi taşıyıp kullanıcı etkileşimine tepki verebilmesi. Dosya boyutu da belirgin küçük.",
+    "en": "Embeds vector animation into an app. Unlike Lottie the animation carries a state machine and reacts to user interaction, and the file size is markedly smaller.",
+    "src": "kedi",
+    "added": 1785626699
+  },
+  {
+    "url": "https://www.swiftbysundell.com",
+    "name": "Swift by Sundell",
+    "tags": [
+      "öğretici",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Swift üzerine derinlemesine yazılar ve podcast; John Sundell'in kaynağı.",
+    "en": "Deep articles and a podcast on Swift, by John Sundell.",
+    "src": "dsbest"
+  },
+  {
+    "url": "https://www.youtube.com/user/ThinMatrix/videos",
+    "name": "ThinMatrix",
+    "tags": [
+      "video",
+      "interaktif",
+      "ücretsiz"
+    ],
+    "tr": "Bağımsız oyun geliştiricisinin kendi oyununu yaparken tuttuğu günlük ve OpenGL ders serisi. Motor öğreticilerinden farkı motoru sıfırdan yazması — soyutlamanın altında ne olduğunu gösteriyor.",
+    "en": "An indie developer’s devlog alongside an OpenGL tutorial series. Unlike engine tutorials he writes the engine from scratch, which shows what sits underneath the abstraction.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.unrealengine.com/en-US/",
+    "name": "Unreal Engine",
+    "tags": [
+      "masaüstü",
+      "c-ailesi",
+      "interaktif"
+    ],
+    "tr": "AAA yapımların motoru; Nanite ve Lumen ile gerçek zamanlı yüksek çözünürlüklü geometri ve küresel aydınlatma sunuyor. Unity’den farkı görsel üst sınırı ve Blueprint görsel betikleme — karşılığında daha ağır bir proje ve daha dik bir öğrenme eğrisi.",
+    "en": "The engine behind AAA productions, offering real-time high-density geometry and global illumination through Nanite and Lumen. Against Unity it wins on visual ceiling and Blueprint visual scripting, and pays for it with heavier projects and a steeper climb.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://xdaforums.com/",
+    "name": "XDA Forums",
+    "tags": [
+      "masaüstü",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Android cihaz modlama, ROM ve root topluluğunun en büyük forumu. Genel forumlardan farkı cihaz model model, derinlemesine teknik konulara bölünmüş olması.",
+    "en": "The largest community forum for Android device modding, ROMs and root. Unlike general forums it is split device by device into deep technical threads.",
+    "src": "awesomeproj"
+  }
+]
