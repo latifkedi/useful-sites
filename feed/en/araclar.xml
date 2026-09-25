@@ -1,32 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-<title>Tools &amp; Utilities — Useful Sites</title>
+<title>Productivity &amp; Everyday Tools — Useful Sites</title>
 <subtitle>A hand-curated, annotated link directory across ten areas, from software and AI to security, economics and architecture. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
 <link href="https://latifkedi.github.io/useful-sites/feed/en/araclar.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/en/araclar.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/araclar.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
-<entry>
-  <title>.NET Fiddle</title>
-  <link href="https://dotnetfiddle.net/"/>
-  <id>https://dotnetfiddle.net/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Write, run and share C# and .NET code in the browser — no install.</summary>
-</entry>
-<entry>
-  <title>Ammonite</title>
-  <link href="https://github.com/lihaoyi/Ammonite"/>
-  <id>https://github.com/lihaoyi/Ammonite</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An advanced REPL that makes Scala usable for BASH-like filesystem operations.</summary>
-</entry>
-<entry>
-  <title>Apache NetBeans</title>
-  <link href="https://netbeans.apache.org/"/>
-  <id>https://netbeans.apache.org/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A multi-language open-source IDE, strong for Java.</summary>
-</entry>
 <entry>
   <title>Asana</title>
   <link href="https://asana.com/"/>
@@ -42,53 +21,11 @@
   <summary>A list of calculator tools for every platform.</summary>
 </entry>
 <entry>
-  <title>Awesome CLI</title>
-  <link href="https://github.com/umutphp/awesome-cli"/>
-  <id>https://github.com/umutphp/awesome-cli</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list gathering useful, small command-line tools.</summary>
-</entry>
-<entry>
-  <title>Awesome Git Addons</title>
-  <link href="https://github.com/stevemao/awesome-git-addons"/>
-  <id>https://github.com/stevemao/awesome-git-addons</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of add-on commands and tools that enhance the git CLI.</summary>
-</entry>
-<entry>
-  <title>Awesome Hyper</title>
-  <link href="https://github.com/bnb/awesome-hyper"/>
-  <id>https://github.com/bnb/awesome-hyper</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of themes and plugins for Hyper, the web-tech terminal.</summary>
-</entry>
-<entry>
-  <title>Awesome Neovim</title>
-  <link href="https://github.com/rockerBOO/awesome-neovim"/>
-  <id>https://github.com/rockerBOO/awesome-neovim</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of plugins and configurations for the Neovim editor.</summary>
-</entry>
-<entry>
   <title>Awesome No-Login Web Apps</title>
   <link href="https://github.com/aviaryan/awesome-no-login-web-apps"/>
   <id>https://github.com/aviaryan/awesome-no-login-web-apps</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A list of useful web apps that work without login.</summary>
-</entry>
-<entry>
-  <title>Awesome npm</title>
-  <link href="https://github.com/sindresorhus/awesome-npm"/>
-  <id>https://github.com/sindresorhus/awesome-npm</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of tips, tools and resources for npm, the Node package manager.</summary>
-</entry>
-<entry>
-  <title>Awesome npm scripts</title>
-  <link href="https://github.com/RyanZim/awesome-npm-scripts"/>
-  <id>https://github.com/RyanZim/awesome-npm-scripts</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for using npm scripts as a task runner.</summary>
 </entry>
 <entry>
   <title>Awesome Userscripts</title>
@@ -98,116 +35,11 @@
   <summary>A list of userscripts that enhance your browsing experience.</summary>
 </entry>
 <entry>
-  <title>Awesome VS Code</title>
-  <link href="https://github.com/viatsko/awesome-vscode"/>
-  <id>https://github.com/viatsko/awesome-vscode</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of extensions and resources for Visual Studio Code.</summary>
-</entry>
-<entry>
-  <title>Awesome WP-CLI</title>
-  <link href="https://github.com/schlessera/awesome-wp-cli"/>
-  <id>https://github.com/schlessera/awesome-wp-cli</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for WP-CLI, managing WordPress from the command line.</summary>
-</entry>
-<entry>
-  <title>Beekeeper Studio</title>
-  <link href="https://www.beekeeperstudio.io/"/>
-  <id>https://www.beekeeperstudio.io/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An open-source SQL editor and manager supporting many databases.</summary>
-</entry>
-<entry>
-  <title>Browser Diet</title>
-  <link href="https://browserdiet.com/en/"/>
-  <id>https://browserdiet.com/en/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A guide of concrete, measurable tips for improving web performance.</summary>
-</entry>
-<entry>
-  <title>Browserling</title>
-  <link href="https://www.browserling.com"/>
-  <id>https://www.browserling.com</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Live-test your site across different browsers and operating systems.</summary>
-</entry>
-<entry>
-  <title>Can I email…</title>
-  <link href="https://www.caniemail.com/"/>
-  <id>https://www.caniemail.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A table showing which email client supports an HTML/CSS feature. Unlike the web’s Can I use it looks at the quirky, limited support of email clients.</summary>
-</entry>
-<entry>
-  <title>Cmder</title>
-  <link href="https://cmder.app/"/>
-  <id>https://cmder.app/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A portable, pleasant console package for Windows that ships with bash and unix commands. Unlike the built-in cmd it offers tabs, themes and unix tools together.</summary>
-</entry>
-<entry>
-  <title>Comcast</title>
-  <link href="https://github.com/tylertreat/Comcast"/>
-  <id>https://github.com/tylertreat/Comcast</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Injects network latency and packet loss to test how software copes under bad conditions.</summary>
-</entry>
-<entry>
-  <title>ConnectionStrings.com</title>
-  <link href="https://www.connectionstrings.com/"/>
-  <id>https://www.connectionstrings.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A reference giving the correct connection-string format for every database and driver. Unlike hunting the docs it gathers the syntax of dozens of drivers in one place.</summary>
-</entry>
-<entry>
-  <title>Coursier</title>
-  <link href="https://github.com/alexarchambault/coursier"/>
-  <id>https://github.com/alexarchambault/coursier</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A fast JVM dependency resolver and application launcher written in pure Scala.</summary>
-</entry>
-<entry>
-  <title>docsify</title>
-  <link href="https://docsify.js.org/"/>
-  <id>https://docsify.js.org/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A tool turning Markdown files into a documentation site in the browser, with no build. Unlike static generators it has no build step — it serves the pages on the fly.</summary>
-</entry>
-<entry>
-  <title>Editor.md</title>
-  <link href="https://pandao.github.io/editor.md/en.html"/>
-  <id>https://pandao.github.io/editor.md/en.html</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An open-source, in-browser Markdown editor with live preview and export.</summary>
-</entry>
-<entry>
-  <title>ES6 Console</title>
-  <link href="https://es6console.com/"/>
-  <id>https://es6console.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A console that compiles modern JavaScript (ES6+) in the browser and shows the result instantly.</summary>
-</entry>
-<entry>
-  <title>Firefox Developer Edition</title>
-  <link href="https://www.mozilla.org/firefox/developer/"/>
-  <id>https://www.mozilla.org/firefox/developer/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A build of Firefox for web developers, with advanced debugging tools built in.</summary>
-</entry>
-<entry>
   <title>Full Page Screen Capture</title>
   <link href="https://chrome.google.com/webstore/detail/full-page-screen-capture"/>
   <id>https://chrome.google.com/webstore/detail/full-page-screen-capture</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A Chrome extension that captures an entire page — scrolling included — as one image.</summary>
-</entry>
-<entry>
-  <title>generatedata</title>
-  <link href="https://www.generatedata.com/"/>
-  <id>https://www.generatedata.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A tool generating realistic fake test data to a given schema (CSV, JSON, SQL). Unlike making data up by hand it produces fields like names and addresses consistently and in bulk.</summary>
 </entry>
 <entry>
   <title>Google Keep</title>
@@ -217,41 +49,6 @@
   <summary>A quick sticky-note tool synced in the cloud.</summary>
 </entry>
 <entry>
-  <title>Google Safe Browsing</title>
-  <link href="https://transparencyreport.google.com/safe-browsing/search"/>
-  <id>https://transparencyreport.google.com/safe-browsing/search</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Checks whether a site is flagged as unsafe in Google’s Safe Browsing records.</summary>
-</entry>
-<entry>
-  <title>hub</title>
-  <link href="https://hub.github.com/"/>
-  <id>https://hub.github.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A wrapper extending the git command line with GitHub operations (PRs, issues, forks).</summary>
-</entry>
-<entry>
-  <title>Hyper</title>
-  <link href="https://hyper.is/"/>
-  <id>https://hyper.is/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An open-source terminal built with web technologies and extensible via plugins.</summary>
-</entry>
-<entry>
-  <title>Invertexto</title>
-  <link href="https://www.invertexto.com/"/>
-  <id>https://www.invertexto.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A site bundling small text utilities — reversing, counting, converting and more.</summary>
-</entry>
-<entry>
-  <title>JCTools</title>
-  <link href="https://github.com/JCTools/JCTools"/>
-  <id>https://github.com/JCTools/JCTools</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Very high-performance concurrent queues for the JVM, used by projects like Netty.</summary>
-</entry>
-<entry>
   <title>Jira</title>
   <link href="https://www.atlassian.com/software/jira"/>
   <id>https://www.atlassian.com/software/jira</id>
@@ -259,31 +56,129 @@
   <summary>Agile project management with strong issue and release tracking for software teams.</summary>
 </entry>
 <entry>
-  <title>JitPack</title>
-  <link href="https://jitpack.io"/>
-  <id>https://jitpack.io</id>
+  <title>Notion</title>
+  <link href="https://www.notion.so/"/>
+  <id>https://www.notion.so/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Makes GitHub repos that don’t publish jars usable directly as dependencies.</summary>
+  <summary>A tool combining notes, wikis, databases and project boards in one workspace.</summary>
 </entry>
 <entry>
-  <title>Joomla</title>
-  <link href="https://www.joomla.org/"/>
-  <id>https://www.joomla.org/</id>
+  <title>ProtectedText</title>
+  <link href="https://www.protectedtext.com/"/>
+  <id>https://www.protectedtext.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An open-source content management system (CMS), an alternative to WordPress.</summary>
+  <summary>An end-to-end encrypted online notepad that needs no registration.</summary>
 </entry>
 <entry>
-  <title>JSCompress</title>
-  <link href="https://jscompress.com/"/>
-  <id>https://jscompress.com/</id>
+  <title>Slack</title>
+  <link href="https://slack.com/"/>
+  <id>https://slack.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A tool that minifies JavaScript in the browser to shrink its size.</summary>
+  <summary>A team-communication platform organised by channels, with tool integrations.</summary>
 </entry>
 <entry>
-  <title>JSON Editor Online</title>
-  <link href="https://jsoneditoronline.org/"/>
-  <id>https://jsoneditoronline.org/</id>
+  <title>Todoist</title>
+  <link href="https://todoist.com/"/>
+  <id>https://todoist.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A browser tool to inspect and edit JSON in tree and text views. Unlike a plain editor it folds and validates the structure, making large JSON easy to navigate.</summary>
+  <summary>A to-do tool for personal and team projects, focused on fast capture.</summary>
+</entry>
+<entry>
+  <title>Trello</title>
+  <link href="https://trello.com/"/>
+  <id>https://trello.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A simple task tool managing projects with cards and boards (Kanban).</summary>
+</entry>
+<entry>
+  <title>Image Max URL</title>
+  <link href="https://qsniyg.github.io/maxurl/"/>
+  <id>https://qsniyg.github.io/maxurl/</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>A browser extension that finds the largest/original version of an image or video from its shrunken form. Unlike right-click “open image” it reverses the resizing: it resolves the full-resolution source from a thumbnail URL.</summary>
+</entry>
+<entry>
+  <title>Everything</title>
+  <link href="https://www.voidtools.com/"/>
+  <id>https://www.voidtools.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Instant filename search on Windows, built by reading the NTFS master file table directly. That is the trick against Windows Search: it does not index content, so the first scan takes seconds and results appear as you type.</summary>
+</entry>
+<entry>
+  <title>Microsoft PowerToys</title>
+  <link href="https://learn.microsoft.com/en-us/windows/powertoys/"/>
+  <id>https://learn.microsoft.com/en-us/windows/powertoys/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>The official set of tools that adds what Windows lacks: window layouts (FancyZones), bulk rename, colour picker, text extraction. Unlike third-party equivalents it is built and kept open source by Microsoft, so updates do not break it.</summary>
+</entry>
+<entry>
+  <title>Rufus</title>
+  <link href="https://rufus.ie/en/"/>
+  <id>https://rufus.ie/en/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A Windows tool for writing bootable USB drives that works out the UEFI/BIOS and partitioning details itself. What sets it apart from other writers is the option to strip the TPM and account requirements out of a Windows 11 install.</summary>
+</entry>
+<entry>
+  <title>Snapdrop</title>
+  <link href="https://snapdrop.net/"/>
+  <id>https://snapdrop.net/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Browser-to-browser file transfer between devices on the same network, connected directly over WebRTC. Unlike AirDrop it does not care about the operating system — Android to Mac works — and needs no install or account.</summary>
+</entry>
+<entry>
+  <title>GitHub Gist</title>
+  <link href="https://gist.github.com"/>
+  <id>https://gist.github.com</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Shares single-file snippets with version history; comments and forking make it more durable than a pastebin.</summary>
+</entry>
+<entry>
+  <title>Pastebin</title>
+  <link href="https://pastebin.com"/>
+  <id>https://pastebin.com</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The simplest way to share text or a log, with syntax highlighting and expiry. Worth remembering not to paste anything sensitive.</summary>
+</entry>
+<entry>
+  <title>Udeler GUI</title>
+  <link href="https://github.com/ZeoRexDevs/Udeler_GUI"/>
+  <id>https://github.com/ZeoRexDevs/Udeler_GUI</id>
+  <updated>2026-07-29T08:03:52Z</updated>
+  <summary>Downloads Udemy courses you own for offline viewing — an archiving tool for content you already have access to, which survives if that access is withdrawn.</summary>
+</entry>
+<entry>
+  <title>AppList</title>
+  <link href="https://sxp.studio/apps/applist"/>
+  <id>https://sxp.studio/apps/applist</id>
+  <updated>2026-07-07T06:49:13Z</updated>
+  <summary>A text-list app launcher for iPhone, removing the pull of an icon grid — deliberate friction on the digital minimalism side.</summary>
+</entry>
+<entry>
+  <title>MacroDroid</title>
+  <link href="https://www.macrodroid.com/"/>
+  <id>https://www.macrodroid.com/</id>
+  <updated>2026-06-08T14:36:48Z</updated>
+  <summary>Builds trigger-action rules on Android — Wi-Fi on when you reach a location, silent while charging. Less powerful than Tasker and vastly more comprehensible.</summary>
+</entry>
+<entry>
+  <title>Araç Serisi (oynatma listesi)</title>
+  <link href="https://www.youtube.com/watch?v=uOPl7ZzuXf8&amp;list=PLi2GhhsPL-RrapHA_Z8c1GG_qM3Nzdd0j&amp;index=2"/>
+  <id>https://www.youtube.com/watch?v=uOPl7ZzuXf8&amp;list=PLi2GhhsPL-RrapHA_Z8c1GG_qM3Nzdd0j&amp;index=2</id>
+  <updated>2026-03-29T18:19:46Z</updated>
+  <summary>A multi-part series on tooling and workflow, deepening the subject step by step rather than in one pass.</summary>
+</entry>
+<entry>
+  <title>Siteyi Çevrimdışı İndirme</title>
+  <link href="https://dynomapper.com/blog/inventory-content/how-to-download-a-website-for-offline-viewing/"/>
+  <id>https://dynomapper.com/blog/inventory-content/how-to-download-a-website-for-offline-viewing/</id>
+  <updated>2025-11-10T23:10:14Z</updated>
+  <summary>A guide comparing methods for archiving a site offline — wget, HTTrack and the rest. Practical preparation for documentation at risk of vanishing.</summary>
+</entry>
+<entry>
+  <title>Geliştirici Araçları (video)</title>
+  <link href="https://www.youtube.com/watch?v=rbu7Zu5X1zI"/>
+  <id>https://www.youtube.com/watch?v=rbu7Zu5X1zI</id>
+  <updated>2025-08-02T12:49:14Z</updated>
+  <summary>A walkthrough of developer tooling, for learning by watching rather than reading.</summary>
 </entry>
 </feed>

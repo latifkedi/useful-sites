@@ -375,6 +375,19 @@
     "added": 1772624349
   },
   {
+    "url": "https://github.com/exercism/problem-specifications",
+    "name": "Exercism Problem Şartnameleri",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "interaktif"
+    ],
+    "tr": "Exercism alıştırmalarının dilden bağımsız tanımları ve test verileri. Kendi dilinde alıştırma seti kurmak isteyenler için hazır malzeme.",
+    "en": "Language-independent definitions and test data for Exercism’s exercises — ready material if you want to build a practice set in your own language.",
+    "src": "kedi",
+    "added": 1772624455
+  },
+  {
     "url": "https://www.freecodecamp.com",
     "name": "freeCodeCamp",
     "tags": [
@@ -502,6 +515,17 @@
     ],
     "tr": "Mülakatta şirkete sorulacak soruların listesi; yön değiştirip iş yerini değerlendirmene yarıyor.",
     "en": "A list of questions to ask the company in an interview — it flips the direction so you can assess the workplace.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.keybr.com/",
+    "name": "keybr.com",
+    "tags": [
+      "interaktif",
+      "ücretsiz"
+    ],
+    "tr": "On parmak yazmayı öğreten alıştırma; hangi harfte zorlandığını ölçüp metni ona göre üretiyor. Sabit metinli yazma testlerinden farkı bu uyarlama — zayıf harfleri daha sık karşına çıkarıyor.",
+    "en": "Touch-typing practice that measures which letters you struggle with and generates text accordingly. Against fixed-text typing tests that adaptation is the point — your weak letters keep coming back.",
     "src": "bwapsv"
   },
   {
@@ -839,6 +863,17 @@
     ],
     "tr": "Algoritma sorularını adım adım çözen kanal; dinamik programlama serisi özellikle bilinir. Çözüm okumaktan farkı düşünme sürecini sesli göstermesi — mülakatta beklenen de bu.",
     "en": "A channel working algorithm problems step by step, best known for its dynamic programming series. Against reading a solution it shows the thinking aloud, which is what an interview asks for.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://play.typeracer.com/",
+    "name": "TypeRacer",
+    "tags": [
+      "interaktif",
+      "ücretsiz"
+    ],
+    "tr": "Başkalarıyla yarışarak klavyede yazma hızını artıran çevrimiçi oyun.",
+    "en": "An online game to increase your typing speed by racing against others.",
     "src": "bwapsv"
   },
   {

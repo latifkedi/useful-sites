@@ -36,6 +36,17 @@
     "src": "awesomelist"
   },
   {
+    "url": "https://www.beekeeperstudio.io/",
+    "name": "Beekeeper Studio",
+    "tags": [
+      "veritabanı",
+      "açık-kaynak"
+    ],
+    "tr": "Birçok veritabanını destekleyen, açık kaynak SQL editörü ve yöneticisi.",
+    "en": "An open-source SQL editor and manager supporting many databases.",
+    "src": "awesomeproj"
+  },
+  {
     "url": "https://www.cockroachlabs.com",
     "name": "CockroachDB",
     "tags": [
@@ -46,6 +57,17 @@
     "tr": "Yatay ölçeklenen, kuvvetli tutarlı ve arızalara dayanıklı dağıtık SQL veritabanı.",
     "en": "A distributed SQL database that scales horizontally with strong consistency and survivability.",
     "src": "dsbest"
+  },
+  {
+    "url": "https://www.connectionstrings.com/",
+    "name": "ConnectionStrings.com",
+    "tags": [
+      "referans",
+      "veritabanı"
+    ],
+    "tr": "Her veritabanı ve sürücü için doğru bağlantı dizesi biçimini veren başvuru. Dokümanı aramaktan farkı onlarca sürücünün sözdizimini tek yerde toplaması.",
+    "en": "A reference giving the correct connection-string format for every database and driver. Unlike hunting the docs it gathers the syntax of dozens of drivers in one place.",
+    "src": "awesomeproj"
   },
   {
     "url": "https://learn.couchbase.com/learn",
@@ -233,6 +255,18 @@
     "en": "A PostgreSQL tutorial showing each topic with a runnable query, going deep on window functions and CTEs where most SQL courses stop.",
     "src": "kedi",
     "added": 1776690081
+  },
+  {
+    "url": "https://redis.io/insight/",
+    "name": "Redis Insight",
+    "tags": [
+      "veritabanı",
+      "ücretsiz",
+      "masaüstü"
+    ],
+    "tr": "Redis'in resmî görsel arayüzü; veriyi görüntüleme, düzenleme, sorgu ve profil çıkarma. Eskiden RESP.app (RedisDesktopManager) kullanılan yerin yerini aldı.",
+    "en": "Redis's official GUI — browse, edit, query and profile your data. The successor to tools like RESP.app (RedisDesktopManager).",
+    "src": "awesomeproj"
   },
   {
     "url": "https://www.reddit.com/r/SQL/comments/11qe99b/best_way_to_learn_sql/",

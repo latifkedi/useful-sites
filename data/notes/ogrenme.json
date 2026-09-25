@@ -619,6 +619,18 @@
     "added": 1782370435
   },
   {
+    "url": "https://education.github.com/pack",
+    "name": "GitHub Student Pack",
+    "tags": [
+      "ücretsiz",
+      "sertifika"
+    ],
+    "tr": "Öğrencilere ücretsiz araç ve bulut kredisi veren paket: alan adı, JetBrains lisansı, DigitalOcean kredisi ve fazlası. Doğrulama okul e-postasıyla yapılıyor.",
+    "en": "A bundle of free tools and cloud credit for students — a domain, JetBrains licences, DigitalOcean credit and more, verified with a school email.",
+    "src": "kedi",
+    "added": 1770118325
+  },
+  {
     "url": "https://www.skills.google/paths/2336?locale=tr",
     "name": "Google AI Essentials",
     "tags": [
@@ -657,6 +669,30 @@
     "added": 1771248435
   },
   {
+    "url": "https://www.youtube.com/user/GoogleTechTalks/videos",
+    "name": "Google Tech Talks",
+    "tags": [
+      "video",
+      "akademik",
+      "ücretsiz"
+    ],
+    "tr": "Google’da verilen teknik konuşmaların arşivi; birçoğu alanının kurucu isimlerinden. Konferans kayıtlarından farkı iç seyirciye anlatılmış olması — soru-cevap bölümleri genelde konuşmanın kendisinden değerli.",
+    "en": "The archive of technical talks given at Google, many by the founding figures of their fields. Against conference recordings these were delivered to an internal audience, and the Q&A is often worth more than the talk.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.youtube.com/user/GotoConferences",
+    "name": "GOTO Conferences",
+    "tags": [
+      "video",
+      "sistem-tasarımı",
+      "ücretsiz"
+    ],
+    "tr": "Yazılım mimarisi ve mühendislik kültürü ağırlıklı konferans kayıtları. Dile özgü konferanslardan farkı teknoloji bağımsız olması — mimari kararlar ve takım pratikleri üzerine.",
+    "en": "Conference recordings weighted towards software architecture and engineering culture. Unlike language-specific conferences it is technology-agnostic — about architectural decisions and team practice.",
+    "src": "bwapsv"
+  },
+  {
     "url": "https://pll.harvard.edu/",
     "name": "Harvard Online Learning",
     "tags": [
@@ -680,6 +716,18 @@
     "en": "IBM’s free skills programme awarding digital badges on AI, security and data tracks, shaped for students and career changers.",
     "src": "kedi",
     "added": 1771488458
+  },
+  {
+    "url": "https://www.infoq.com/presentations/",
+    "name": "InfoQ Presentations",
+    "tags": [
+      "video",
+      "sistem-tasarımı",
+      "ücretsiz"
+    ],
+    "tr": "Yazılım konferanslarından seçilmiş sunumların video arşivi; çoğunda yazıya dökülmüş metin de var. YouTube’dan farkı küratörlü ve aranabilir olması — konu ve seviyeye göre süzülüyor.",
+    "en": "A video archive of selected talks from software conferences, most with a transcript. Against YouTube it is curated and searchable, filterable by subject and level.",
+    "src": "bwapsv"
   },
   {
     "url": "https://www.kadenze.com/courses?subjects%5B%5D=7",
@@ -1093,6 +1141,18 @@
     "src": "bwapsv"
   },
   {
+    "url": "https://www.youtube.com/user/ThoughtbotVideo/videos",
+    "name": "thoughtbot",
+    "tags": [
+      "video",
+      "ücretsiz",
+      "sistem-tasarımı"
+    ],
+    "tr": "Bir yazılım danışmanlığının kayıtları: eşli programlama oturumları, kod incelemeleri, tasarım tartışmaları. Öğretici kanallardan farkı gerçek işin kaydı olması — hazırlanmış ders değil, çalışan insanlar.",
+    "en": "Recordings from a software consultancy: pair programming sessions, code reviews, design discussions. Unlike tutorial channels this is a record of real work — people working, not a prepared lesson.",
+    "src": "bwapsv"
+  },
+  {
     "url": "https://www.tutorialspoint.com",
     "name": "Tutorialspoint",
     "tags": [
@@ -1116,5 +1176,18 @@
     "en": "Unity’s official training, updated in step with the engine. The version drift that plagues third-party courses does not occur here.",
     "src": "kedi",
     "added": 1775420722
+  },
+  {
+    "url": "http://www.shedai.net/",
+    "name": "Şadi Evren Şeker",
+    "tags": [
+      "ücretsiz",
+      "türkçe",
+      "akademik"
+    ],
+    "tr": "Türkçe bilgisayar mühendisliği ders notları ve terim açıklamaları arşivi. Veri yapıları ve algoritma konularında yerel kaynak kıtlığını kısmen kapatıyor.",
+    "en": "An archive of Turkish computer engineering lecture notes and term explanations, partly filling the local shortage on data structures and algorithms.",
+    "src": "kedi",
+    "added": 1756374919
   }
 ]

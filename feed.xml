@@ -7,6 +7,14 @@
 <id>https://latifkedi.github.io/useful-sites/</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Ammonite</title>
+  <link href="https://github.com/lihaoyi/Ammonite"/>
+  <id>https://github.com/lihaoyi/Ammonite</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Scala’yı BASH benzeri dosya işlemleri için kullanılabilir kılan gelişmiş REPL.</summary>
+</entry>
+<entry>
   <title>Awesome asyncio</title>
   <link href="https://github.com/timofurrer/awesome-asyncio"/>
   <id>https://github.com/timofurrer/awesome-asyncio</id>
@@ -135,6 +143,14 @@
   <summary>JVM üzerinde çalışan modern bir Lisp lehçesi; değişmezliğe odaklı.</summary>
 </entry>
 <entry>
+  <title>Coursier</title>
+  <link href="https://github.com/alexarchambault/coursier"/>
+  <id>https://github.com/alexarchambault/coursier</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Saf Scala ile yazılmış, hızlı JVM bağımlılık çözücü ve uygulama başlatıcı.</summary>
+</entry>
+<entry>
   <title>Dart</title>
   <link href="https://dart.dev/"/>
   <id>https://dart.dev/</id>
@@ -165,6 +181,14 @@
   <updated>2026-09-18T00:00:00Z</updated>
   <category term="Programlama Dilleri"/>
   <summary>Saf işlevsel ve statik tipli, tembel değerlendirmeli programlama dili.</summary>
+</entry>
+<entry>
+  <title>JCTools</title>
+  <link href="https://github.com/JCTools/JCTools"/>
+  <id>https://github.com/JCTools/JCTools</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>JVM için çok yüksek başarımlı eşzamanlı kuyruklar; Netty gibi projelerce kullanılır.</summary>
 </entry>
 <entry>
   <title>JMH</title>
@@ -279,51 +303,27 @@
   <summary>Nesne yönelimli ve işlevseli birleştiren, JVM üzerinde çalışan dil.</summary>
 </entry>
 <entry>
+  <title>Scalastyle</title>
+  <link href="http://www.scalastyle.org/"/>
+  <id>http://www.scalastyle.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Scala kaynak kodunu biçim ve stil kurallarına göre denetleyen linter.</summary>
+</entry>
+<entry>
+  <title>Scoverage</title>
+  <link href="https://github.com/scoverage"/>
+  <id>https://github.com/scoverage</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Scala için ifade (statement) bazlı kod kapsama aracı; satır bazlıdan daha isabetli.</summary>
+</entry>
+<entry>
   <title>Swift</title>
   <link href="https://www.swift.org/"/>
   <id>https://www.swift.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <category term="Programlama Dilleri"/>
   <summary>Apple’ın öncelikle iOS için geliştirdiği, güvenli ve hızlı derlenen dili.</summary>
-</entry>
-<entry>
-  <title>The Async Book</title>
-  <link href="https://rust-lang.github.io/async-book/"/>
-  <id>https://rust-lang.github.io/async-book/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Programlama Dilleri"/>
-  <summary>Rust’ta async/await ve Future modelini anlatan resmî kitap. Genel eşzamanlılık anlatımından farkı Rust’ın kendine özgü, ayrıştırılmış çalışma zamanı yaklaşımını açması.</summary>
-</entry>
-<entry>
-  <title>The Cargo Book</title>
-  <link href="https://doc.rust-lang.org/cargo/"/>
-  <id>https://doc.rust-lang.org/cargo/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Programlama Dilleri"/>
-  <summary>Rust’ın paket yöneticisi ve derleme aracı Cargo’nun resmî kılavuzu. Dağınık bloglardan farkı bağımlılık, çalışma alanı ve yayımlamayı tek yetkili yerde toplaması.</summary>
-</entry>
-<entry>
-  <title>The Rust Programming Language</title>
-  <link href="https://doc.rust-lang.org/book/"/>
-  <id>https://doc.rust-lang.org/book/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Programlama Dilleri"/>
-  <summary>Rust’ı sıfırdan öğreten resmî kitap (“the book”). Üçüncü parti öğreticilerden farkı sahiplik ve ödünç alma modelini adım adım, dilin kendi ekibinin ağzından kurması.</summary>
-</entry>
-<entry>
-  <title>The Rust Reference</title>
-  <link href="https://doc.rust-lang.org/reference/"/>
-  <id>https://doc.rust-lang.org/reference/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Programlama Dilleri"/>
-  <summary>Dilin dilbilgisini ve anlamını tanımlayan resmî başvuru. Kitaptan farkı öğretici değil, “Rust tam olarak nasıl davranır” sorusunun yetkili cevabı olması.</summary>
-</entry>
-<entry>
-  <title>The Rustonomicon</title>
-  <link href="https://doc.rust-lang.org/nomicon/"/>
-  <id>https://doc.rust-lang.org/nomicon/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Programlama Dilleri"/>
-  <summary>Güvensiz (unsafe) Rust’ın kurallarını anlatan ileri düzey kitap. Ana kitaptan farkı ödünç denetçisinin dışına çıkıldığında nelere dikkat edileceğini kapsaması.</summary>
 </entry>
 </feed>

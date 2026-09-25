@@ -12,6 +12,19 @@
     "src": "piracy"
   },
   {
+    "url": "https://github.com/iipc/awesome-web-archiving",
+    "name": "Awesome Web Archiving",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "referans",
+      "arşivlenmiş"
+    ],
+    "tr": "Web’i gelecek için koruma (arşivleme) araç ve kaynaklarının listesi.",
+    "en": "A list of tools and resources for preserving the web for the future (archiving).",
+    "src": "awesomelist"
+  },
+  {
     "url": "https://core.ac.uk",
     "name": "CORE",
     "tags": [
@@ -49,6 +62,19 @@
     "tr": "Hakemli açık erişim dergilerinin denetlenmiş dizini; yasal ve ücretsiz.",
     "en": "A vetted directory of peer-reviewed open-access journals — legal and free.",
     "src": "piracy"
+  },
+  {
+    "url": "https://github.com/ArchiveTeam/grab-site",
+    "name": "grab-site",
+    "tags": [
+      "arşivlenmiş",
+      "github",
+      "python",
+      "cli"
+    ],
+    "tr": "WARC çıktısı üreten, tüm taramaları tek panelden izlenen arşivci web tarayıcısı. wget gibi araçlardan farkı dinamik yok sayma kuralları: tarama sürerken tuzağa düşüren desenleri anında dışlayıp büyük siteleri düzgün arşivleyebiliyorsun.",
+    "en": "An archivist’s web crawler with WARC output and a dashboard for all crawls. Unlike tools like wget it has dynamic ignore rules: you exclude trap patterns mid-crawl, so large sites archive cleanly.",
+    "src": "lowkwiki"
   },
   {
     "url": "https://archive.org",
@@ -161,5 +187,18 @@
     "tr": "Ödeme duvarındaki makalelerin yasal açık erişim kopyalarını bulan araç ve tarayıcı eklentisi.",
     "en": "A tool and browser extension that finds legal open-access copies of paywalled papers.",
     "src": "piracy"
+  },
+  {
+    "url": "https://github.com/WikiTeam/wikiteam",
+    "name": "WikiTeam",
+    "tags": [
+      "arşivlenmiş",
+      "github",
+      "python",
+      "cli"
+    ],
+    "tr": "MediaWiki wiki’lerini indirip arşivleyen araç takımı; 600.000’den fazla wiki korunmuş. Genel site kopyalayıcılardan farkı wiki’ye özel olması: sayfa geçmişi ve medya dâhil tam döküm alıyor, HTML kabuğunu değil.",
+    "en": "A toolset that downloads and archives MediaWiki wikis — 600,000+ preserved. Unlike general site copiers it is wiki-specific: it takes a full dump including page history and media, not just the HTML shell.",
+    "src": "lowkwiki"
   }
 ]

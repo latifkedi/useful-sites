@@ -25,6 +25,18 @@
     "added": 1776690070
   },
   {
+    "url": "https://github.com/lihaoyi/Ammonite",
+    "name": "Ammonite",
+    "tags": [
+      "cli",
+      "açık-kaynak",
+      "github"
+    ],
+    "tr": "Scala’yı BASH benzeri dosya işlemleri için kullanılabilir kılan gelişmiş REPL.",
+    "en": "An advanced REPL that makes Scala usable for BASH-like filesystem operations.",
+    "src": "velvia"
+  },
+  {
     "url": "https://maven.apache.org/",
     "name": "Apache Maven",
     "tags": [
@@ -355,6 +367,17 @@
     "src": "kedi"
   },
   {
+    "url": "https://github.com/alexarchambault/coursier",
+    "name": "Coursier",
+    "tags": [
+      "açık-kaynak",
+      "github"
+    ],
+    "tr": "Saf Scala ile yazılmış, hızlı JVM bağımlılık çözücü ve uygulama başlatıcı.",
+    "en": "A fast JVM dependency resolver and application launcher written in pure Scala.",
+    "src": "velvia"
+  },
+  {
     "url": "https://www.youtube.com/user/CppCon/videos?shelf_id=0&view=0&sort=dd",
     "name": "CppCon",
     "tags": [
@@ -631,6 +654,18 @@
     "tr": "Java’da JSON’u nesneye ve nesneyi JSON’a çeviren fiili standart kütüphane. El yazımı ayrıştırmadan farkı akış, ağaç ve veri-bağlama modlarını tek çatıda vermesi.",
     "en": "The de facto library for turning JSON into objects and back in Java. Unlike hand-written parsing it offers streaming, tree and data-binding modes under one roof.",
     "src": "kedi"
+  },
+  {
+    "url": "https://github.com/JCTools/JCTools",
+    "name": "JCTools",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "backend"
+    ],
+    "tr": "JVM için çok yüksek başarımlı eşzamanlı kuyruklar; Netty gibi projelerce kullanılır.",
+    "en": "Very high-performance concurrent queues for the JVM, used by projects like Netty.",
+    "src": "velvia"
   },
   {
     "url": "https://github.com/openjdk/jmh",
@@ -1049,6 +1084,27 @@
     "tr": "Nesne yönelimli ve işlevseli birleştiren, JVM üzerinde çalışan dil.",
     "en": "A language on the JVM uniting object-oriented and functional programming.",
     "src": "awesomeproj"
+  },
+  {
+    "url": "http://www.scalastyle.org/",
+    "name": "Scalastyle",
+    "tags": [
+      "açık-kaynak"
+    ],
+    "tr": "Scala kaynak kodunu biçim ve stil kurallarına göre denetleyen linter.",
+    "en": "A linter that checks Scala source against formatting and style rules.",
+    "src": "velvia"
+  },
+  {
+    "url": "https://github.com/scoverage",
+    "name": "Scoverage",
+    "tags": [
+      "açık-kaynak",
+      "github"
+    ],
+    "tr": "Scala için ifade (statement) bazlı kod kapsama aracı; satır bazlıdan daha isabetli.",
+    "en": "A statement-based code-coverage tool for Scala, more precise than line-based coverage.",
+    "src": "velvia"
   },
   {
     "url": "https://sdkman.io/",

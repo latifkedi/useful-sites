@@ -188,19 +188,19 @@ INTROS = {
         'that in mind. Starting on a simulator is enough; the noise you meet on real hardware only makes '
         'learning harder.'),
     'araclar': (
-        'Buradakilerin çoğu tek bir işi iyi yapan küçük araçlar. Kurulum gerektirmeyenleri yer imine almak, '
-        'kurulum gerektirenleri gerçekten ihtiyaç doğunca kurmak iyi bir ayrım. '
-        'Hassas veri yapıştırdığın araçların nereye yüklediğini bir kez kontrol et.',
-        'Most of these are small tools that do one thing well. A good rule is to bookmark the ones needing '
-        'no installation and install the rest only when the need is real. Check once where a tool uploads '
-        'anything sensitive you paste into it.'),
+        "Proje ve not araçları, paylaşım, işletim sistemi yardımcıları ve tarayıcı eklentileri. "
+        "Buradaki çoğu şeyin onlarca alternatifi var; kurulum gerektirmeyenleri yer imine almak, "
+        "gerektirenleri gerçekten ihtiyaç doğunca kurmak iyi bir ayrım.",
+        "Project and note tools, sharing, operating-system helpers and browser extensions. Most things "
+        "here have dozens of alternatives; a good rule is to bookmark the ones needing no installation "
+        "and install the rest only when the need is real."),
     'referans': (
-        'Referans ile öğretici farklı işler görür: biri bildiğin bir şeyi hatırlamak, diğeri bilmediğin bir '
-        'şeyi öğrenmek içindir. Kopya kâğıtları ilkine, kitaplar ikincisine hizmet eder. '
-        'Derlenmiş listelerde son güncelleme tarihine bak — bu alanda çürüme hızlı.',
-        'References and tutorials do different jobs: one is for recalling something you know, the other for '
-        'learning something you do not. Cheat sheets serve the first, books the second. On curated lists, '
-        'check the last update date — decay is fast here.'),
+        "Bildiğin bir şeyi hatırlamak için: kopya kâğıtları, sözdizimi başvuruları, üslup kılavuzları "
+        "ve tasarım kuralları. Öğretici değiller; bir dili ya da aracı ilk kez öğreniyorsan kitaplardan "
+        "başla.",
+        "For recalling what you already know: cheat sheets, syntax references, style guides and design "
+        "rules. They are not tutorials; if you are learning a language or tool for the first time, "
+        "start with the books."),
     'bilim': (
         'Ön baskı arşivleri en güncel çalışmayı verir ama hakem sürecinden geçmemiştir; ikisini karıştırmamak '
         'gerekiyor. Türkçe akademik kaynaklar dağınık, bu yüzden DergiPark ve Harman gibi toplayıcılar '
@@ -281,4 +281,47 @@ INTROS = {
         "Legal open access and preservation: public-domain books, openly licensed textbooks, "
         "peer-reviewed open journals and the archives that keep the web itself. When a paper sits "
         "behind a paywall, try Unpaywall first — most work has a legal copy its author uploaded."),
+    'kitaplik': (
+        "Baştan sona okunmak için yazılmış metinler: ücretsiz kitaplar, uzun rehberler ve makale "
+        "arşivleri. Bir konuyu gerçekten anlamak istediğinde buradan başla; hızlıca hatırlamak için "
+        "kopya kâğıtları daha uygun.",
+        "Texts written to be read end to end: free books, long guides and article archives. Start here "
+        "when you want to actually understand a subject; for a quick reminder the cheat sheets serve "
+        "better."),
+    'koleksiyon': (
+        "Başka kaynaklara açılan kapılar: awesome listeleri, bağlantı dizinleri ve yükselen projeleri "
+        "izleyen keşif araçları. Derlenmiş listelerde son güncelleme tarihine bak — bu alanda çürüme "
+        "hızlı; bir listenin yıldız sayısı güncelliğini söylemez.",
+        "Doors to other resources: awesome lists, link directories and discovery tools that track "
+        "rising projects. On curated lists, check the last update date — decay is fast here, and a "
+        "list’s star count says nothing about how current it is."),
+    'acik_kaynak': (
+        "Açık kaynağa katkı vermeye başlamak ve projeleri sürdürmek için: yeni katkıcıya ayrılmış "
+        "işler, burslu programlar, fonlama ve proje rehberleri. İlk katkıda büyük bir özellik değil, "
+        "küçük ve iyi tanımlı bir issue seç.",
+        "For starting to contribute to open source and for keeping projects going: issues set aside for "
+        "newcomers, funded programmes, funding and project guides. For a first contribution pick a "
+        "small, well-defined issue, not a big feature."),
+    'editor': (
+        "Günün çoğunu içinde geçirdiğin araçlar: editörler, IDE’ler ve terminaller. Editör seçimi "
+        "zevkten çok iş akışı meselesi; birini seçip kısayollarını gerçekten öğrenmek, sürekli "
+        "değiştirmekten daha çok kazandırır.",
+        "The tools you spend most of the day inside: editors, IDEs and terminals. Choosing an editor is "
+        "less a matter of taste than of workflow; picking one and truly learning its shortcuts pays "
+        "more than switching often."),
+    'oyunalani': (
+        "Kurulum yapmadan kod çalıştırmak için: tarayıcıda çalışan oyun alanları, çevrimiçi "
+        "derleyiciler ve paylaşılabilir IDE’ler. Bir hatayı başkasına göstermenin en hızlı yolu onu "
+        "burada küçük bir örnekle yeniden üretmek. Gizli anahtar ya da şirket kodu yapıştırma; çoğu "
+        "varsayılan olarak herkese açık.",
+        "For running code without installing anything: browser playgrounds, online compilers and "
+        "shareable IDEs. The fastest way to show someone a bug is to reproduce it here in a small "
+        "example. Do not paste secrets or company code — most are public by default."),
+    'donusturucu': (
+        "Tek bir işi yapan küçük geliştirici araçları: JSON ve kod biçimlendiriciler, düzenli ifade "
+        "test ediciler, fark bulucular, üreteçler ve site denetleyicileri. Hassas veri yapıştırdığın "
+        "bir aracın bunu sunucusuna mı gönderdiğini yoksa tarayıcıda mı işlediğini bir kez kontrol et.",
+        "Small developer tools that do one job: JSON and code formatters, regular-expression testers, "
+        "diff tools, generators and site checkers. Check once whether a tool you paste sensitive data "
+        "into sends it to its server or processes it in the browser."),
 }

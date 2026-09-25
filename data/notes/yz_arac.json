@@ -249,6 +249,19 @@
     "added": 1787000000
   },
   {
+    "url": "https://codewiki.google/",
+    "name": "CodeWiki",
+    "tags": [
+      "ücretsiz",
+      "sistem-tasarımı",
+      "dokümantasyon"
+    ],
+    "tr": "Kod tabanları için otomatik üretilmiş dokümantasyon; bir depoya ilk baktığında yapıyı ve giriş noktalarını çıkarmaya yarıyor.",
+    "en": "Automatically generated documentation for codebases, useful for extracting structure and entry points the first time you open a repository.",
+    "src": "kedi",
+    "added": 1775474561
+  },
+  {
     "url": "https://github.com/sokrypton/ColabFold",
     "name": "ColabFold",
     "tags": [
@@ -866,5 +879,17 @@
     "en": "Cursor’s closest rival; its Cascade mode carries long tasks alone and runs terminal commands when needed. More autonomy, less oversight.",
     "src": "kedi",
     "added": 1787000000
+  },
+  {
+    "url": "https://wit.ai",
+    "name": "Wit.ai",
+    "tags": [
+      "llm",
+      "api",
+      "ücretsiz"
+    ],
+    "tr": "Metni ve konuşmayı niyet/varlıklara çeviren, geliştiriciler için doğal dil işleme servisi.",
+    "en": "A natural-language service for developers that turns text and speech into intents and entities.",
+    "src": "bwapsv"
   }
 ]

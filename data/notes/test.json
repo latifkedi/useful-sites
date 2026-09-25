@@ -237,6 +237,16 @@
     "src": "testsites"
   },
   {
+    "url": "https://www.browserling.com",
+    "name": "Browserling",
+    "tags": [
+      "freemium"
+    ],
+    "tr": "Sitenizi farklı tarayıcı ve işletim sistemlerinde canlı test etmenizi sağlayan servis.",
+    "en": "Live-test your site across different browsers and operating systems.",
+    "src": "awesomeproj"
+  },
+  {
     "url": "https://www.candymapper.net/",
     "name": "CandyMapper",
     "tags": [
@@ -246,6 +256,32 @@
     "tr": "Test otomasyonu becerilerini denemek için hazırlanmış, tuzaklı web uygulaması.",
     "en": "A web app with traps, built to practise test-automation skills.",
     "src": "testsites"
+  },
+  {
+    "url": "https://github.com/getagentseal/codeburn",
+    "name": "CodeBurn",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "veri-bilimi"
+    ],
+    "tr": "Kod tabanındaki ölü kodu ve kullanılmayan bağımlılıkları çıkarıyor. Uzun süredir yaşayan projelerde ne kadar birikinti olduğunu görmek şaşırtıcı olabiliyor.",
+    "en": "Surfaces dead code and unused dependencies in a codebase. On a long-lived project the amount of accumulated debris can be surprising.",
+    "src": "kedi",
+    "added": 1776686109
+  },
+  {
+    "url": "https://codescene.com/",
+    "name": "CodeScene",
+    "tags": [
+      "ücretli",
+      "veri-bilimi",
+      "sistem-tasarımı"
+    ],
+    "tr": "Kodu değişim geçmişiyle birlikte analiz ediyor: en çok değişen, en karmaşık ve tek kişiye bağımlı dosyaları çıkarıyor. Statik çözümleyicilerin göremediği boyut zaman.",
+    "en": "Analyses code alongside its change history, surfacing the files that churn most, carry most complexity or depend on one person. The dimension static analysers miss is time.",
+    "src": "kedi",
+    "added": 1783081092
   },
   {
     "url": "https://coffee-cart.app/",
@@ -581,6 +617,17 @@
     "tr": "Test için gerçekçi bir e-ticaret demosu (hem mağaza yüzü hem yönetim paneli).",
     "en": "A realistic e-commerce demo for testing (both storefront and admin panel).",
     "src": "testsites"
+  },
+  {
+    "url": "https://www.pullrequest.com/",
+    "name": "PullRequest",
+    "tags": [
+      "mülakat",
+      "ücretli"
+    ],
+    "tr": "Elemeden geçmiş profesyonel gözden geçirenlerle hizmet olarak kod incelemesi.",
+    "en": "Code review as a service from vetted, professional reviewers.",
+    "src": "bwapsv"
   },
   {
     "url": "https://qaplayground.dev/",

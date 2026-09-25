@@ -1,0 +1,221 @@
+[
+  {
+    "url": "https://wildlyinaccurate.com/a-hackers-guide-to-git/",
+    "name": "A Hacker's Guide to Git",
+    "tags": [
+      "git",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Git’in nesne veritabanını, referanslarını ve birleştirme algoritmasını açıklayan rehber. \"Git from the Inside Out\"tan farkı daha kısa ve komut odaklı olması — ikisi birbirini tamamlıyor.",
+    "en": "A guide to Git’s object database, refs and merge algorithm. Against \"Git from the Inside Out\" it is shorter and more command-oriented — the two complement each other.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://en.algorithmica.org/hpc/",
+    "name": "Algorithmica HPC",
+    "tags": [
+      "algoritma",
+      "kitap",
+      "ücretsiz"
+    ],
+    "tr": "Modern donanımda hızlı kod yazmayı anlatan çevrimiçi kitap: önbellek hiyerarşisi, SIMD, dallanma tahmini. Algoritma kitaplarından farkı büyük-O yerine gerçek makinede geçen süreye bakması — aynı karmaşıklıktaki iki çözümün neden farklı hızda çalıştığını açıklıyor.",
+    "en": "An online book on writing fast code for modern hardware: cache hierarchy, SIMD, branch prediction. Where algorithm books stop at big-O, this measures wall-clock time on a real machine and explains why two solutions of equal complexity differ by tenfold.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://engineering.teknasyon.com/androidler-neden-elektrikli-koyun-d%C3%BC%C5%9Fleyemez-dab0ee1e85be",
+    "name": "Androidler Neden Elektrikli Koyun Düşleyemez",
+    "tags": [
+      "ücretsiz",
+      "türkçe",
+      "referans"
+    ],
+    "tr": "Türkçe mühendislik blogundan teknik bir yazı. Yerel dilde derinlikli teknik içerik az bulunduğu için örnek olarak değerli.",
+    "en": "A technical piece from a Turkish engineering blog — valuable as an example, since in-depth technical writing in the language is scarce.",
+    "src": "kedi",
+    "added": 1739291777
+  },
+  {
+    "url": "https://www.codeproject.com",
+    "name": "CodeProject",
+    "tags": [
+      "referans",
+      "ücretsiz",
+      "c-ailesi"
+    ],
+    "tr": "Geliştiricilerin yazdığı, çalışan kod içeren uzun makale arşivi; ağırlık .NET ve C++ tarafında. Blog toplayıcılarından farkı her makalenin indirilebilir kaynak projesiyle gelmesi.",
+    "en": "An archive of long, developer-written articles with working code, weighted towards .NET and C++. Against a blog aggregator each article ships with a downloadable source project.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://dzone.com",
+    "name": "DZone",
+    "tags": [
+      "referans",
+      "ücretsiz",
+      "devops"
+    ],
+    "tr": "Yazılım geliştirme, DevOps ve mimari üzerine makale ve \"refcard\" arşivi. Kişisel bloglardan farkı refcard’lar — tek konuyu iki sayfaya sığdıran indirilebilir özetler.",
+    "en": "An archive of articles and \"refcards\" on software development, DevOps and architecture. The refcards are what distinguish it from personal blogs: downloadable two-page summaries of a single subject.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://freecomputerbooks.com/",
+    "name": "Free Computer Books",
+    "tags": [
+      "referans",
+      "kitap",
+      "ücretsiz"
+    ],
+    "tr": "Konuya göre düzenlenmiş ücretsiz teknoloji kitapları ve e-kitap dizini.",
+    "en": "A directory of free technology books and ebooks, organised by topic.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://github.com/EbookFoundation/free-programming-books",
+    "name": "Free Programming Books",
+    "tags": [
+      "awesome-liste",
+      "kitap",
+      "github",
+      "ücretsiz"
+    ],
+    "tr": "Yüzlerce dilde ücretsiz programlama kitabı, kurs ve etkileşimli eğitim derlemesi; GitHub’ın en çok yıldızlanan depolarından. Benzer listelerden farkı ölçeği ve aktif bakımı — dil bazında ayrılmış, Türkçe bölümü de var.",
+    "en": "A compilation of free programming books, courses and interactive tutorials in hundreds of languages, and one of GitHub’s most-starred repositories. Against similar lists it wins on scale and active maintenance, and it is split by language — Turkish included.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://maryrosecook.com/blog/post/git-from-the-inside-out",
+    "name": "Git from the Inside Out",
+    "tags": [
+      "git",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Git’i komutlarından değil veri modelinden anlatan uzun yazı: her komutun `.git` klasöründe ne değiştirdiğini adım adım gösteriyor. Komut rehberlerinden farkı bu — modeli anlayınca komutları ezberlemeye gerek kalmıyor.",
+    "en": "A long essay explaining Git from its data model rather than its commands, showing what each command changes inside `.git`. That is the difference from a command guide: once the model is clear the commands stop needing memorisation.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://goalkicker.com",
+    "name": "GoalKicker",
+    "tags": [
+      "ücretsiz",
+      "kitap"
+    ],
+    "tr": "Stack Overflow Documentation arşivinden derlenmiş ücretsiz programlama kitapları; her biri örnek ağırlıklı ve konu konu ayrılmış.",
+    "en": "Free programming books compiled from the Stack Overflow Documentation archive, each example-heavy and split topic by topic.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://learnvim.irian.to/",
+    "name": "Learn Vim",
+    "tags": [
+      "kitap",
+      "cli",
+      "ücretsiz"
+    ],
+    "tr": "Vim’i tuş dizisi ezberleterek değil, dilbilgisi olarak öğreten çevrimiçi kitap: eylem + hareket + metin nesnesi. Kopya kâğıtlarından farkı bu — komutları ezberlemek yerine yeni kombinasyonlar türetmeyi öğreniyorsun.",
+    "en": "An online book that teaches Vim as a grammar — verb plus motion plus text object — rather than as key sequences to memorise. That is the break from cheat sheets: you learn to derive new combinations instead of recalling old ones.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://learnvimscriptthehardway.stevelosh.com",
+    "name": "Learn Vimscript the Hard Way",
+    "tags": [
+      "kitap",
+      "cli",
+      "ücretsiz"
+    ],
+    "tr": "Vim’i yapılandırmak ve eklenti yazmak için Vimscript öğreten kitap. Vim kullanım rehberlerinden farkı editörü kullanmayı değil programlamayı anlatması — `.vimrc`’in ötesine geçmek isteyenler için.",
+    "en": "A book teaching Vimscript for configuring Vim and writing plugins. Unlike Vim usage guides it is about programming the editor rather than using it — for going past `.vimrc`.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "http://literateprogramming.com/",
+    "name": "Literate Programming",
+    "tags": [
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Knuth’un kodu düzyazıyla iç içe yazma fikrinin arşivi. Jupyter not defterlerinin ve bugünkü “açıklanabilir kod” tartışmasının kökeni buraya çıkıyor.",
+    "en": "The archive of Knuth’s idea of writing code interwoven with prose — the root of Jupyter notebooks and today’s arguments about explainable code.",
+    "src": "kedi",
+    "added": 1787182724
+  },
+  {
+    "url": "https://www.programmingbooks.dev",
+    "name": "Programming Books",
+    "tags": [
+      "kitap",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Yazılım zanaatı üzerine okuma listesi; her kitap için neden okunması gerektiği yazılı. Ücretsiz kitap derlemelerinden farkı seçici olması — nicelik değil sıra öneriyor.",
+    "en": "A reading list on software craftsmanship with a reason attached to each book. Unlike the free-book compilations it is selective: it proposes an order rather than a quantity.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://jakevdp.github.io/PythonDataScienceHandbook/",
+    "name": "Python Data Science Handbook",
+    "tags": [
+      "ücretsiz",
+      "kitap",
+      "python",
+      "veri-bilimi"
+    ],
+    "tr": "NumPy, pandas, Matplotlib ve scikit-learn’ü kapsayan ücretsiz kitap; tamamı çalıştırılabilir Jupyter defterleri olarak yayımlanmış.",
+    "en": "A free book covering NumPy, pandas, Matplotlib and scikit-learn, published entirely as runnable Jupyter notebooks.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://speaking.io/",
+    "name": "speaking.io",
+    "tags": [
+      "referans",
+      "ücretsiz",
+      "kitap"
+    ],
+    "tr": "Teknik konuşma hazırlamak ve sunmak üzerine rehber: içerik kurma, slayt tasarımı, sahne korkusu. Genel sunum tavsiyelerinden farkı geliştirici konferanslarına özgü olması — canlı demo riski gibi konular ele alınıyor.",
+    "en": "A guide to preparing and delivering technical talks: structuring content, slide design, stage fright. Against general presentation advice it is specific to developer conferences — the risk of a live demo gets its own treatment.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://aosabook.org/en/index.html",
+    "name": "The Architecture of Open Source Applications",
+    "tags": [
+      "kitap",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Açık kaynak projelerin mimarisini geliştiricilerinin kendi kalemiyle anlatan kitap serisi. Kaynak kodu okumaktan farkı hangi kararın neden alındığını ve neyin yanlış gittiğini öğrenmen — mimari kararların gerekçesi kodda yazmıyor.",
+    "en": "A book series in which the developers of open-source projects describe their own architecture. Against reading the source you learn which decisions were taken and why, and what went wrong — the rationale is never in the code.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://graphql.guide",
+    "name": "The GraphQL Guide",
+    "tags": [
+      "freemium",
+      "kitap",
+      "api"
+    ],
+    "tr": "GraphQL’i istemci ve sunucu tarafıyla birlikte anlatan kitap; resmî spesifikasyonun atladığı üretim pratiklerine giriyor.",
+    "en": "A book covering GraphQL from both client and server side, reaching into the production practices the spec leaves out.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://natureofcode.com/",
+    "name": "The Nature of Code",
+    "tags": [
+      "ücretsiz",
+      "kitap",
+      "interaktif"
+    ],
+    "tr": "Doğal sistemleri (kuvvet, parçacık, sürü davranışı, hücresel otomat) kodla simüle etmeyi anlatan ücretsiz kitap. Matematiği etkileşimli örneklerle veriyor, formül yığını değil.",
+    "en": "A free book on simulating natural systems in code — forces, particles, flocking, cellular automata — delivering the maths through interactive examples rather than a pile of formulas.",
+    "src": "kedi",
+    "added": 1786615701
+  }
+]

@@ -1,0 +1,379 @@
+[
+  {
+    "url": "https://beautifier.io/",
+    "name": "Beautifier.io",
+    "tags": [
+      "açık-kaynak",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "JavaScript, HTML ve CSS’i biçimlendiren, küçültülmüş kodu açan araç. Prettier’dan farkı kurulum gerektirmemesi ve okunamaz hâle getirilmiş kodu geri açabilmesi — başkasının küçültülmüş dosyasını incelemek için.",
+    "en": "Formats JavaScript, HTML and CSS and unpacks minified code. Against Prettier it needs no install and can open obfuscated output back up — which is what you want when inspecting someone else’s minified bundle.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://codebeautify.org/",
+    "name": "CodeBeautify",
+    "tags": [
+      "tarayıcı-içi",
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Biçimlendirme, doğrulama ve dönüştürme araçlarının toplandığı site: JSON, XML, YAML, SQL, Base64. IT Tools’tan farkı daha geniş ama daha reklamlı olması — burada olmayan bir dönüşüm bulmak zor.",
+    "en": "A collection of formatting, validation and conversion tools covering JSON, XML, YAML, SQL and Base64. Against IT Tools it is broader but heavier on ads — it is hard to find a conversion it lacks.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://cors-error.dev/cors-tester/",
+    "name": "CORS Tester",
+    "tags": [
+      "ücretsiz",
+      "api"
+    ],
+    "tr": "Bir API’nin CORS başlıklarını dışarıdan test ediyor; tarayıcı konsolundaki belirsiz CORS hatasının hangi başlıktan geldiğini söylüyor.",
+    "en": "Tests an API’s CORS headers from the outside, telling you which header causes the vague CORS error in the browser console.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://crontab.guru/",
+    "name": "Crontab Guru",
+    "tags": [
+      "ücretsiz"
+    ],
+    "tr": "Cron ifadesini yazdıkça düz dille ne anlama geldiğini ve sonraki çalışma zamanlarını gösteriyor. Yıldız ve eğik çizgi kombinasyonlarını tahmin etmeye son veriyor.",
+    "en": "Translates a cron expression into plain language as you type and shows the next run times, ending the guesswork over asterisks and slashes.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.debuggex.com/",
+    "name": "Debuggex",
+    "tags": [
+      "tarayıcı-içi",
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Düzenli ifadeyi durum diyagramına çeviren görsel test aracı; JavaScript, Python ve PCRE destekliyor. regex101’den farkı jeton listesi yerine akış şeması çizmesi — iç içe grupların yapısını görmek için daha okunaklı.",
+    "en": "A visual regex tester that draws the expression as a state diagram, covering JavaScript, Python and PCRE. Where regex101 lists tokens, this draws a flow chart, which reads better for nested groups.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://www.diffchecker.com/",
+    "name": "Diffchecker",
+    "tags": [
+      "tarayıcı-içi",
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Metin, görsel, PDF ve klasör karşılaştıran fark aracı. `diff` komutundan farkı biçimlendirme ve görsel karşılaştırma yapabilmesi — iki PDF sözleşme arasındaki farkı bulmak için komut satırı yetmiyor.",
+    "en": "A diff tool for text, images, PDFs and folders. Against the `diff` command it handles formatted and visual comparison — the command line will not tell you what changed between two PDF contracts.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://explainshell.com/",
+    "name": "explainshell",
+    "tags": [
+      "cli",
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Bir kabuk komutunu yapıştırınca her parçasının man sayfasındaki karşılığını gösteriyor. `man` okumaktan farkı ters yönde çalışması — elindeki komutun `-xzvf` kısmının ne anlama geldiğini kılavuzu taramadan öğreniyorsun.",
+    "en": "Paste a shell command and it maps every fragment to its entry in the man page. Against reading `man` it works backwards — you learn what the `-xzvf` in front of you means without scanning the manual.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://extendsclass.com/",
+    "name": "ExtendsClass",
+    "tags": [
+      "tarayıcı-içi",
+      "ücretsiz",
+      "api"
+    ],
+    "tr": "Geliştirici araçları koleksiyonu: REST istemcisi, SQLite tarayıcı, XML/JSON doğrulayıcı, normal ifade testi. IT Tools gibi derlemelerden farkı veritabanı ve API istemcisi gibi \"ağır\" araçları da tarayıcıda çalıştırması.",
+    "en": "A collection of developer tools: a REST client, a SQLite browser, XML and JSON validators, regex testing. Against collections like IT Tools it runs the heavier things — a database browser and an API client — in the browser too.",
+    "src": "invesp"
+  },
+  {
+    "url": "https://www.generatedata.com/",
+    "name": "generatedata",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "İstenen şemaya göre gerçekçi sahte test verisi üreten araç (CSV, JSON, SQL). Elle veri uydurmaktan farkı isim, adres gibi alanları tutarlı ve toplu üretmesi.",
+    "en": "A tool generating realistic fake test data to a given schema (CSV, JSON, SQL). Unlike making data up by hand it produces fields like names and addresses consistently and in bulk.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://www.gitignore.io/",
+    "name": "gitignore.io",
+    "tags": [
+      "ücretsiz",
+      "git"
+    ],
+    "tr": "İşletim sistemi, editör ve dil seçerek `.gitignore` dosyası üretiyor. Her projede aynı satırları elle yazmaya son veriyor.",
+    "en": "Generates a `.gitignore` from your operating system, editor and language choices — the end of retyping the same lines on every project.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://transparencyreport.google.com/safe-browsing/search",
+    "name": "Google Safe Browsing",
+    "tags": [
+      "güvenlik",
+      "ücretsiz"
+    ],
+    "tr": "Bir sitenin Google Güvenli Tarama kayıtlarında zararlı olarak işaretlenip işaretlenmediğini kontrol eder.",
+    "en": "Checks whether a site is flagged as unsafe in Google’s Safe Browsing records.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://www.h-schmidt.net/FloatConverter/IEEE754.html",
+    "name": "IEEE-754 Converter",
+    "tags": [
+      "tarayıcı-içi",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Ondalık sayı ile IEEE-754 kayan nokta gösterimi arasında iki yönlü dönüştürücü; bitleri tek tek çevirebiliyorsun. Hesap makinesinden farkı yuvarlama hatasının nereden geldiğini göstermesi — 0.1 + 0.2 sorusunun cevabı burada görünüyor.",
+    "en": "A two-way converter between decimal and IEEE-754 floating point, with individual bits toggleable. Against a calculator it shows where the rounding error comes from — this is where the 0.1 + 0.2 question is actually answered.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://www.invertexto.com/",
+    "name": "Invertexto",
+    "tags": [
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "Metin ters çevirme, sayaç, dönüştürme gibi küçük metin araçlarını bir arada sunan site.",
+    "en": "A site bundling small text utilities — reversing, counting, converting and more.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://it-tools.tech/",
+    "name": "IT Tools",
+    "tags": [
+      "açık-kaynak",
+      "tarayıcı-içi",
+      "self-hosted"
+    ],
+    "tr": "Seksen küsur geliştirici aracı tek sayfada: hash, JWT çözücü, cron ifadesi, UUID, renk dönüştürücü. Tek tek araç sitelerinden farkı hepsinin tarayıcıda çalışması ve Docker ile kendi sunucuna kurulabilmesi — veri dışarı çıkmıyor.",
+    "en": "Eighty-odd developer utilities on one page: hashes, JWT decoding, cron expressions, UUIDs, colour conversion. Unlike the one-tool-per-site alternatives, everything runs in the browser and the whole thing self-hosts with Docker, so nothing leaves your machine.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://jscompress.com/",
+    "name": "JSCompress",
+    "tags": [
+      "javascript",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "JavaScript kodunu tarayıcıda küçültüp (minify) boyutunu düşüren araç.",
+    "en": "A tool that minifies JavaScript in the browser to shrink its size.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://jsoncrack.com/",
+    "name": "JSON Crack",
+    "tags": [
+      "açık-kaynak",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "JSON’u ağaç yerine düğüm grafiği olarak çiziyor; iç içe yapılar tek bakışta görülüyor. JSON biçimlendiricilerinden farkı bu grafik gösterim — derin bir yanıtın şeklini anlamak için girintilere bakmaktan hızlı.",
+    "en": "Draws JSON as a node graph rather than a tree, so nested structures are visible at a glance. Against a JSON formatter that graph view is the point — faster than counting indentation to work out the shape of a deep response.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://jsoneditoronline.org/",
+    "name": "JSON Editor Online",
+    "tags": [
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "JSON’u ağaç ve metin görünümünde inceleyip düzenleyen tarayıcı aracı. Düz metin editöründen farkı yapıyı katlayıp doğrulayarak büyük JSON’da gezinmeyi kolaylaştırması.",
+    "en": "A browser tool to inspect and edit JSON in tree and text views. Unlike a plain editor it folds and validates the structure, making large JSON easy to navigate.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://jsonsort.net",
+    "name": "JSON Sort",
+    "tags": [
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "JSON anahtarlarını alfabetik sıralayan ve biçimlendiren basit araç.",
+    "en": "A simple tool that alphabetically sorts and formats JSON keys.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://jsonlint.com/",
+    "name": "JSONLint",
+    "tags": [
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "JSON doğrulayıcı ve biçimlendirici; hatanın hangi satırda ve neden olduğunu söylüyor. Editör eklentisinden farkı bir şey kurmadan çalışması — API’den gelen bozuk yanıtı hızlıca incelemek için.",
+    "en": "A JSON validator and formatter that tells you which line failed and why. Against an editor plugin it needs nothing installed, which is what you want when checking a malformed API response in a hurry.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://tools.keycdn.com/",
+    "name": "KeyCDN Tools",
+    "tags": [
+      "ağ",
+      "ücretsiz"
+    ],
+    "tr": "Ping, traceroute, HTTP başlık ve performans testi gibi ağ araçlarını bir arada sunar.",
+    "en": "Bundles network tools like ping, traceroute, HTTP header and performance tests.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://www.kodytools.com/dev-tools",
+    "name": "Kody Tools",
+    "tags": [
+      "tarayıcı-içi",
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Dönüştürücü, biçimlendirici ve üreteçlerden oluşan geliştirici araç koleksiyonu. IT Tools gibi derlemelerden farkı görsel ve metin araçlarını bir arada tutması — renk, görsel ve kod araçları aynı yerde.",
+    "en": "A collection of developer converters, formatters and generators. Against compilations like IT Tools it keeps visual and textual tools together — colour, image and code utilities in one place.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.lipsum.com/",
+    "name": "Lorem Ipsum",
+    "tags": [
+      "ücretsiz"
+    ],
+    "tr": "Tasarım denemeleri için sahte yer tutucu metin (lorem ipsum) üreten klasik araç.",
+    "en": "The classic generator of placeholder text (lorem ipsum) for design mockups.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://www.mockaroo.com/",
+    "name": "Mockaroo",
+    "tags": [
+      "veri-bilimi",
+      "freemium"
+    ],
+    "tr": "Belirlediğin şemaya göre gerçekçi sahte test verisi (CSV, JSON, SQL) üreten araç.",
+    "en": "Generates realistic fake test data (CSV, JSON, SQL) to your chosen schema.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://danieldeev.github.io/password-generator/",
+    "name": "Password Generator",
+    "tags": [
+      "güvenlik",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "Güvenlik odaklı, uzunluk ve karakter türü ayarlanabilen basit parola üretici.",
+    "en": "A simple, security-focused password generator with adjustable length and character sets.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://regex101.com/",
+    "name": "regex101",
+    "tags": [
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "İfadeyi jeton jeton açıklıyor ve hata ayıklayıcısıyla eşleşmenin nerede koptuğunu gösteriyor. PCRE, JavaScript ve Python lehçeleri arasında geçiş yapabiliyorsun.",
+    "en": "Explains an expression token by token and its debugger shows exactly where a match breaks down, with switching between the PCRE, JavaScript and Python flavours.",
+    "src": "kedi",
+    "added": 1787182453
+  },
+  {
+    "url": "https://regexr.com",
+    "name": "RegExr",
+    "tags": [
+      "ücretsiz"
+    ],
+    "tr": "Düzenli ifade test aracı; regex101’e alternatif, arayüzü daha sade ve topluluk örnekleri kütüphanesi var.",
+    "en": "A regex tester and an alternative to regex101, with a simpler interface and a community library of patterns.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://jex.im/regulex/",
+    "name": "Regulex",
+    "tags": [
+      "açık-kaynak",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "JavaScript düzenli ifadelerini demiryolu diyagramı olarak çizen araç. Debuggex’ten farkı tamamen istemci tarafında çalışması ve diyagramı SVG olarak dışa aktarabilmesi — belgeye koymak için elverişli.",
+    "en": "Draws JavaScript regular expressions as railroad diagrams. Against Debuggex it runs entirely client-side and exports the diagram as SVG, which makes it useful for documentation.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://soliddevtools.com",
+    "name": "Solid Dev Tools",
+    "tags": [
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "Geliştirici ve sistem yöneticileri için çevrimiçi hata ayıklama ve ağ araçları koleksiyonu.",
+    "en": "A collection of online debugging and network tools for developers and sysadmins.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.textise.net/",
+    "name": "Textise",
+    "tags": [
+      "ücretsiz",
+      "frontend",
+      "referans"
+    ],
+    "tr": "Sayfayı yalnızca metne indiriyor. Reklam ve düzen gürültüsünü kaldırmasının yanında, ekran okuyucunun sayfayı nasıl gördüğünü kabaca test etmeye de yarıyor.",
+    "en": "Strips a page to text only. Besides removing ads and layout noise, it roughly approximates what a screen reader sees.",
+    "src": "kedi",
+    "added": 1785225293
+  },
+  {
+    "url": "https://transform.tools/",
+    "name": "Transform",
+    "tags": [
+      "ücretsiz",
+      "referans",
+      "açık-kaynak"
+    ],
+    "tr": "Biçimler arası dönüştürücü koleksiyonu: JSON’dan TypeScript tipine, HTML’den JSX’e, SVG’den React bileşenine. Her biri için ayrı site aramaya son veriyor.",
+    "en": "A collection of format converters — JSON to TypeScript types, HTML to JSX, SVG to a React component. It ends hunting a separate site for each.",
+    "src": "kedi",
+    "added": 1763969039
+  },
+  {
+    "url": "https://www.wappalyzer.com/",
+    "name": "Wappalyzer",
+    "tags": [
+      "eklenti",
+      "freemium"
+    ],
+    "tr": "Bir sitenin hangi teknolojilerle (çatı, sunucu, analitik) kurulduğunu gösteren araç.",
+    "en": "Reveals which technologies (framework, server, analytics) a website runs on.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://website.grader.com/",
+    "name": "Website Grader",
+    "tags": [
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Bir sitenin performans, SEO, mobil uyum ve güvenliğini puanlayan ücretsiz araç.",
+    "en": "A free tool that grades a site on performance, SEO, mobile and security.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://www.xml-sitemaps.com/",
+    "name": "XML Sitemaps",
+    "tags": [
+      "ücretsiz"
+    ],
+    "tr": "Bir siteyi tarayıp arama motorları için sitemap.xml dosyası üreten araç.",
+    "en": "Crawls a site and builds the sitemap.xml file for search engines.",
+    "src": "awesomeproj"
+  }
+]

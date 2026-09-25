@@ -4,7 +4,7 @@ https://latifkedi.github.io/useful-sites/
 
 An annotated directory of <!-- n -->1,900+<!-- /n --> links across ten areas, from
 software and AI to security, economics and architecture, organised into
-<!-- c -->37<!-- /c --> categories and published in Turkish and English.
+<!-- c -->43<!-- /c --> categories and published in Turkish and English.
 
 ## The ten areas
 
@@ -21,7 +21,7 @@ you pick an area, then browse its categories.
 | **Bilim & Matematik · Science & Mathematics** | Science, mathematics, quantum. |
 | **Ekonomi & Finans · Economics & Finance** | Economic data and research; markets, valuation and crypto. |
 | **Tasarım & Medya · Design & Media** | Design and media tools, architecture. |
-| **Öğrenme & Referans · Learning & Reference** | Learning paths, references, everyday tools. |
+| **Öğrenme, Referans & Araçlar · Learning, Reference & Tools** | Roadmaps and free books; cheat sheets, lists and discovery; open source; editors, online playgrounds, converters and everyday tools. |
 | **Açık Erişim & Korsan · Open Access & Piracy** | Legal open access and archives, kept apart from piracy meta-hubs and tooling. |
 
 The design leans on a quiet, monochrome line language — circles and simple

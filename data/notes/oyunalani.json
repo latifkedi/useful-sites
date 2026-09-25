@@ -1,0 +1,244 @@
+[
+  {
+    "url": "https://dotnetfiddle.net/",
+    "name": ".NET Fiddle",
+    "tags": [
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "C# ve .NET kodunu tarayıcıda yazıp çalıştıran ve paylaşan alan; kurulum gerekmez.",
+    "en": "Write, run and share C# and .NET code in the browser — no install.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://codepen.io",
+    "name": "CodePen",
+    "tags": [
+      "freemium",
+      "tarayıcı-içi",
+      "frontend"
+    ],
+    "tr": "HTML, CSS ve JavaScript’i tarayıcıda deneyip paylaştığın oyun alanı. Asıl değeri keşif tarafı: başkalarının CSS numaralarını sökerek öğreniyorsun.",
+    "en": "A browser playground for HTML, CSS and JavaScript. The real value is discovery — you learn by taking apart other people’s CSS tricks.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://coderpad.io",
+    "name": "CoderPad",
+    "tags": [
+      "mülakat",
+      "freemium"
+    ],
+    "tr": "Canlı kod yazdırarak teknik mülakat yapmayı sağlayan ortak editör (birçok dil).",
+    "en": "A collaborative editor for running technical interviews with live coding (many languages).",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://codesandbox.io",
+    "name": "CodeSandbox",
+    "tags": [
+      "freemium",
+      "tarayıcı-içi"
+    ],
+    "tr": "Tarayıcıda tam npm bağımlılıklı proje çalıştırıyor; CodePen’den farkı, gerçek bir React ya da Node projesini olduğu gibi açabilmesi.",
+    "en": "Runs projects with full npm dependencies in the browser. Unlike CodePen it opens a real React or Node project as-is.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://codeshare.io",
+    "name": "CodeShare",
+    "tags": [
+      "ücretsiz",
+      "tarayıcı-içi"
+    ],
+    "tr": "Tarayıcıda gerçek zamanlı ortak kod düzenleme; kurulum ve hesap gerektirmiyor. Uzaktan eşli programlama ya da mülakat için hızlı çözüm.",
+    "en": "Real-time collaborative code editing in the browser with no install or account — a fast option for remote pairing or an interview.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://godbolt.org/",
+    "name": "Compiler Explorer",
+    "tags": [
+      "açık-kaynak",
+      "c-ailesi"
+    ],
+    "tr": "Kaynak kodun yanına ürettiği assembly’i koyuyor; optimizasyon seviyesini ve derleyici sürümünü değiştirip farkı anında görüyorsun. Performans tartışmalarını fikirden ölçüme taşıyor.",
+    "en": "Puts the generated assembly beside your source, with optimisation level and compiler version switchable so you see the difference immediately. It moves performance arguments from opinion to measurement.",
+    "src": "kedi",
+    "added": 1787182533
+  },
+  {
+    "url": "https://es6console.com/",
+    "name": "ES6 Console",
+    "tags": [
+      "javascript",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "Modern JavaScript (ES6+) kodunu tarayıcıda derleyip sonucunu anında gösteren konsol.",
+    "en": "A console that compiles modern JavaScript (ES6+) in the browser and shows the result instantly.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://ideone.com",
+    "name": "Ideone",
+    "tags": [
+      "ücretsiz",
+      "tarayıcı-içi"
+    ],
+    "tr": "60’tan fazla dili tarayıcıda derleyip çalıştırıyor, girdi akışı verebiliyorsun. Kurulum yapmadan bir dilin sözdizimini denemek için.",
+    "en": "Compiles and runs 60+ languages in the browser and accepts an input stream — for trying a language’s syntax without installing anything.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://jsbin.com/",
+    "name": "JS Bin",
+    "tags": [
+      "ücretsiz",
+      "tarayıcı-içi",
+      "javascript"
+    ],
+    "tr": "JSFiddle’a benzer, canlı çıktı paneli olan kod alanı; konsol çıktısını aynı ekranda göstermesi hata ayıklamada pratik.",
+    "en": "A JSFiddle-like scratchpad with a live output panel; showing console output on the same screen is handy when debugging.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://jsfiddle.net",
+    "name": "JSFiddle",
+    "tags": [
+      "ücretsiz",
+      "tarayıcı-içi",
+      "javascript"
+    ],
+    "tr": "Küçük JavaScript parçalarını denemenin en eski ve en hafif yolu; hata raporlarına tekrar üretilebilir örnek eklemek için standart araç.",
+    "en": "The oldest and lightest way to test a small JavaScript snippet — the standard tool for attaching a reproducible example to a bug report.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://ide.judge0.com",
+    "name": "Judge0 IDE",
+    "tags": [
+      "açık-kaynak",
+      "tarayıcı-içi"
+    ],
+    "tr": "Açık kaynak çevrimiçi derleyici; motoru kendi sunucunda çalıştırabiliyorsun. Kod değerlendirme sistemi kuranların altyapı olarak kullandığı proje.",
+    "en": "An open-source online compiler whose engine you can self-host — the project people building code assessment systems use as infrastructure.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://liveweave.com/",
+    "name": "Liveweave",
+    "tags": [
+      "frontend",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "HTML, CSS ve JS’i canlı önizlemeyle deneyebileceğin tarayıcı içi kod bahçesi.",
+    "en": "An in-browser playground to try HTML, CSS and JS with live preview.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://www.mycompiler.io/",
+    "name": "myCompiler",
+    "tags": [
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "Birçok dili destekleyen, kurulum istemeyen çevrimiçi IDE.",
+    "en": "An online IDE supporting many languages, with no install.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://ona.com/",
+    "name": "Ona (eski Gitpod)",
+    "tags": [
+      "freemium",
+      "agent"
+    ],
+    "tr": "Bulut geliştirme ortamı olarak başlayan Gitpod, 2025'te Ona adıyla arka planda çalışan yapay zekâ ajan platformuna dönüştü.",
+    "en": "Starting as the Gitpod cloud dev environment, it became Ona in 2025 — a platform for background AI coding agents.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://onelang.io/",
+    "name": "OneLang",
+    "tags": [
+      "açık-kaynak",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "Bir dilde yazılan kodu başka dillere çeviren deneysel araç; C#, Java, Python, JavaScript. Sözdizimi tablolarından farkı çalışan çeviri üretmesi — bir dilin kalıbının başka dilde nasıl karşılandığını görmek için.",
+    "en": "An experimental tool that converts code written in one language into others — C#, Java, Python, JavaScript. Against a syntax comparison table it produces working translations, which shows how one language’s idiom lands in another.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.onlinegdb.com/online_c_compiler",
+    "name": "OnlineGDB",
+    "tags": [
+      "tarayıcı-içi",
+      "ücretsiz",
+      "c-ailesi"
+    ],
+    "tr": "C ve birçok dili tarayıcıda derleyip hata ayıklayan çevrimiçi IDE (gdb hata ayıklayıcı dahil).",
+    "en": "An online IDE that compiles and debugs C and many languages in the browser (gdb included).",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://playcode.io/",
+    "name": "PlayCode",
+    "tags": [
+      "tarayıcı-içi",
+      "javascript",
+      "freemium"
+    ],
+    "tr": "Yazdıkça çalışan JavaScript ve TypeScript oyun alanı; npm paketi ekleyebiliyorsun. CodePen’den farkı anlık geri bildirim ve konsolun her zaman görünür olması — kütüphane denemek için CodeSandbox’tan hafif.",
+    "en": "A JavaScript and TypeScript playground that runs as you type and accepts npm packages. Against CodePen the feedback is instant and the console always visible; against CodeSandbox it is lighter for trying a library.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://replit.com/",
+    "name": "Replit",
+    "tags": [
+      "tarayıcı-içi",
+      "freemium"
+    ],
+    "tr": "Onlarca dili tarayıcıda yazıp çalıştıran, iş birliğine açık bulut IDE’si.",
+    "en": "A collaborative cloud IDE that writes and runs dozens of languages in the browser.",
+    "src": "awesomeproj",
+    "added": 1787000000
+  },
+  {
+    "url": "https://runjs.app/play",
+    "name": "RunJS",
+    "tags": [
+      "freemium",
+      "javascript"
+    ],
+    "tr": "Yazdıkça sonucu gösteren JavaScript oyun alanı; konsola `console.log` yazmadan değişkenin değerini görebiliyorsun.",
+    "en": "A JavaScript playground that evaluates as you type, showing a variable’s value without a `console.log`.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://stackblitz.com/",
+    "name": "StackBlitz",
+    "tags": [
+      "freemium",
+      "tarayıcı-içi"
+    ],
+    "tr": "WebContainer ile Node.js’i doğrudan tarayıcıda çalıştırıyor; sunucuya gitmediği için kurulum ve yeniden başlatma anlık. Çevrimdışı bile çalışabiliyor.",
+    "en": "Runs Node.js in the browser through WebContainers, so install and restart are instant with no server round trip — it even works offline.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://wandbox.org/",
+    "name": "Wandbox",
+    "tags": [
+      "ücretsiz",
+      "tarayıcı-içi",
+      "c-ailesi"
+    ],
+    "tr": "C++ derleyicilerinin onlarca sürümünü yan yana çalıştırıyor; bir davranışın hangi standarttan ya da hangi derleyici sürümünden geldiğini test etmek için.",
+    "en": "Runs dozens of C++ compiler versions side by side — for testing which standard or compiler release a behaviour comes from.",
+    "src": "bwapsv"
+  }
+]

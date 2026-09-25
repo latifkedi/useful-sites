@@ -76,10 +76,16 @@ CATS = [
     # -- Tasarım & Medya
     ('medya',      'Medya, Tasarım & Dosya',        'Media, Design & Files'),
     ('mimari',     'Mimari & Yapı',                 'Architecture & Building'),
-    # -- Öğrenme & Referans
+    # -- Öğrenme, Referans & Araçlar
     ('ogrenme',    'Öğrenme & Yol Haritaları',      'Learning & Roadmaps'),
-    ('referans',   'Referans & Koleksiyonlar',      'Reference & Collections'),
-    ('araclar',    'Araçlar & Yardımcılar',         'Tools & Utilities'),
+    ('kitaplik',   'Ücretsiz Kitaplar & Uzun Okumalar', 'Free Books & Long Reads'),
+    ('referans',   'Kopya Kâğıtları & Başvuru',     'Cheat Sheets & Quick Reference'),
+    ('koleksiyon', 'Listeler, Dizinler & Keşif',    'Lists, Directories & Discovery'),
+    ('acik_kaynak', 'Açık Kaynak & Katkı',          'Open Source & Contributing'),
+    ('editor',     'Editör, IDE & Terminal',        'Editors, IDEs & Terminals'),
+    ('oyunalani',  'Çevrimiçi Kod Alanları & Derleyiciler', 'Online Playgrounds & Compilers'),
+    ('donusturucu', 'Dönüştürücü, Biçimlendirici & Denetleyici', 'Converters, Formatters & Checkers'),
+    ('araclar',    'Üretkenlik & Günlük Araçlar',   'Productivity & Everyday Tools'),
     # -- Açık Erişim & Korsan
     ('acik_erisim', 'Açık Erişim & Arşiv',          'Open Access & Archives'),
     ('korsan',     'Korsan',                        'Piracy'),
@@ -105,8 +111,9 @@ GROUPS = [
      ['ekonomi', 'finans']),
     ('tasarim',     'Tasarım & Medya',    'Design & Media',
      ['medya', 'mimari']),
-    ('ogrenmealan', 'Öğrenme & Referans', 'Learning & Reference',
-     ['ogrenme', 'referans', 'araclar']),
+    ('ogrenmealan', 'Öğrenme, Referans & Araçlar', 'Learning, Reference & Tools',
+     ['ogrenme', 'kitaplik', 'referans', 'koleksiyon', 'acik_kaynak',
+      'editor', 'oyunalani', 'donusturucu', 'araclar']),
     ('korsanalan',  'Açık Erişim & Korsan', 'Open Access & Piracy',
      ['acik_erisim', 'korsan']),
 ]

@@ -471,6 +471,18 @@
     "src": "kedi"
   },
   {
+    "url": "https://memcached.org/",
+    "name": "Memcached",
+    "tags": [
+      "backend",
+      "açık-kaynak",
+      "sunucu"
+    ],
+    "tr": "Sık kullanılan veriyi bellekte tutarak site hızını artıran dağıtık önbellek sistemi.",
+    "en": "A distributed memory cache that speeds up sites by holding hot data in RAM.",
+    "src": "awesomeproj"
+  },
+  {
     "url": "https://nodejs.org/learn",
     "name": "Node.js Learn",
     "tags": [
@@ -494,6 +506,20 @@
     "en": "An end-to-end case study solving real problems — concurrent booking conflicts, inventory locking — in interview format.",
     "src": "kedi",
     "added": 1775421382
+  },
+  {
+    "url": "https://www.parse.bot/",
+    "name": "Parse",
+    "tags": [
+      "ücretli",
+      "freemium",
+      "referans",
+      "api"
+    ],
+    "tr": "Web sayfasından API üretiyor; seçicileri sen tanımlamıyorsun, sayfayı gösteriyorsun. API’si olmayan bir kaynaktan yapılandırılmış veri almanın kısa yolu.",
+    "en": "Turns a web page into an API without you writing selectors — you point at the page. A short route to structured data from a source with no API.",
+    "src": "kedi",
+    "added": 1756665357
   },
   {
     "url": "https://www.php.net/manual/tr/",
@@ -594,6 +620,18 @@
     "en": "Payment infrastructure whose documentation is treated as an industry benchmark — test cards, webhook retry logic and idempotency keys all worked through with examples.",
     "src": "kedi",
     "added": 1785311887
+  },
+  {
+    "url": "https://swagger.io/",
+    "name": "Swagger",
+    "tags": [
+      "api",
+      "backend",
+      "açık-kaynak"
+    ],
+    "tr": "RESTful API’leri tasarlamak, belgelemek ve denemek için OpenAPI araç seti.",
+    "en": "An OpenAPI toolset to design, document and try RESTful APIs.",
+    "src": "awesomeproj"
   },
   {
     "url": "https://systemdesign.one/",

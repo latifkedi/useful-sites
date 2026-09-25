@@ -1,0 +1,263 @@
+[
+  {
+    "url": "https://netbeans.apache.org/",
+    "name": "Apache NetBeans",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Java ağırlıklı, çok dilli açık kaynak geliştirme ortamı (IDE).",
+    "en": "A multi-language open-source IDE, strong for Java.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://github.com/umutphp/awesome-cli",
+    "name": "Awesome CLI",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "cli"
+    ],
+    "tr": "Komut satırında kullanışlı, küçük araçları toplayan liste.",
+    "en": "A list gathering useful, small command-line tools.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/stevemao/awesome-git-addons",
+    "name": "Awesome Git Addons",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "git",
+      "cli"
+    ],
+    "tr": "git komut satırını genişleten ek komut ve araç listesi.",
+    "en": "A list of add-on commands and tools that enhance the git CLI.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/bnb/awesome-hyper",
+    "name": "Awesome Hyper",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "cli"
+    ],
+    "tr": "Web teknolojili terminal Hyper için tema ve eklenti listesi.",
+    "en": "A list of themes and plugins for Hyper, the web-tech terminal.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/rockerBOO/awesome-neovim",
+    "name": "Awesome Neovim",
+    "tags": [
+      "awesome-liste",
+      "github"
+    ],
+    "tr": "Neovim editörü için eklenti ve yapılandırma listesi.",
+    "en": "A list of plugins and configurations for the Neovim editor.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/viatsko/awesome-vscode",
+    "name": "Awesome VS Code",
+    "tags": [
+      "awesome-liste",
+      "github"
+    ],
+    "tr": "Visual Studio Code için uzantı ve kaynak listesi.",
+    "en": "A list of extensions and resources for Visual Studio Code.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://cmder.app/",
+    "name": "Cmder",
+    "tags": [
+      "cli",
+      "açık-kaynak",
+      "masaüstü"
+    ],
+    "tr": "Windows için taşınabilir, güzel bir konsol paketi; bash ve unix komutlarıyla gelir. Yerleşik cmd’den farkı sekme, tema ve unix araçlarını bir arada sunması.",
+    "en": "A portable, pleasant console package for Windows that ships with bash and unix commands. Unlike the built-in cmd it offers tabs, themes and unix tools together.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://theia-ide.org/",
+    "name": "Eclipse Theia",
+    "tags": [
+      "açık-kaynak",
+      "masaüstü",
+      "sunucu"
+    ],
+    "tr": "Masaüstünde ve tarayıcıda çalışan, VS Code eklentileriyle uyumlu IDE çatısı. VS Code’dan farkı ürün değil çatı olması — kendi markanla, kendi eklenti setinle bir IDE inşa etmen için tasarlanmış.",
+    "en": "An IDE framework that runs on the desktop and in the browser and takes VS Code extensions. The difference from VS Code is that it is a framework rather than a product — built for you to construct your own IDE on top of.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://pandao.github.io/editor.md/en.html",
+    "name": "Editor.md",
+    "tags": [
+      "açık-kaynak",
+      "tarayıcı-içi"
+    ],
+    "tr": "Açık kaynak, tarayıcıda çalışan Markdown editörü; canlı önizleme ve dışa aktarma.",
+    "en": "An open-source, in-browser Markdown editor with live preview and export.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://sourceforge.net/projects/embarcadero-devcpp/files/v6.3/",
+    "name": "Embarcadero Dev-C++",
+    "tags": [
+      "ücretsiz",
+      "masaüstü",
+      "c-ailesi",
+      "ağ"
+    ],
+    "tr": "Hafif C/C++ geliştirme ortamı. Modern IDE’lerin gerisinde ama düşük donanımda çalışıyor ve Türkiye’deki üniversite laboratuvarlarında hâlâ standart kurulum.",
+    "en": "A lightweight C/C++ IDE. Behind modern ones, yet it runs on weak hardware and remains the standard install in many Turkish university labs.",
+    "src": "kedi",
+    "added": 1758707986
+  },
+  {
+    "url": "https://github.com/punitarani/fli",
+    "name": "fli",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "cli"
+    ],
+    "tr": "Uçuş aramayı komut satırına taşıyor; sonuçlar betiklenebilir olduğu için fiyat takibini bir cron işine bağlayabiliyorsun.",
+    "en": "Brings flight search to the command line, and because results are scriptable you can hang price tracking off a cron job.",
+    "src": "kedi",
+    "added": 1776686603
+  },
+  {
+    "url": "https://hub.github.com/",
+    "name": "hub",
+    "tags": [
+      "cli",
+      "git",
+      "github"
+    ],
+    "tr": "Git komut satırını GitHub işlemleriyle (PR, issue, fork) genişleten sarmalayıcı.",
+    "en": "A wrapper extending the git command line with GitHub operations (PRs, issues, forks).",
+    "src": "velvia"
+  },
+  {
+    "url": "https://hyper.is/",
+    "name": "Hyper",
+    "tags": [
+      "cli",
+      "açık-kaynak",
+      "masaüstü"
+    ],
+    "tr": "Web teknolojileriyle yazılmış, eklentilerle genişleyen açık kaynak terminal.",
+    "en": "An open-source terminal built with web technologies and extensible via plugins.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://micro-editor.github.io/",
+    "name": "Micro",
+    "tags": [
+      "cli",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Terminalde çalışan, sezgisel ve modern kısayollu metin editörü.",
+    "en": "A modern, intuitive terminal-based text editor with familiar shortcuts.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://neovim.io/",
+    "name": "Neovim",
+    "tags": [
+      "cli",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Vim’in yeniden yapılandırılmış, eklenti ve Lua desteğiyle modernleşen hâli.",
+    "en": "A refactored Vim, modernised with plugin and Lua support.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://notepad-plus-plus.org/",
+    "name": "Notepad++",
+    "tags": [
+      "açık-kaynak",
+      "masaüstü"
+    ],
+    "tr": "Windows için hafif kaynak kodu editörü; sözdizimi renklendirme, çok dosyada arama-değiştir ve makro kaydı var. VS Code’a karşı tercih sebebi hız: dev bir günlük dosyasını saniyeler içinde açıyor, dil sunucusu beklemiyor.",
+    "en": "A lightweight source editor for Windows with syntax highlighting, multi-file search and replace, and macro recording. The reason to reach for it over VS Code is speed: it opens a huge log file in seconds without waiting on a language server.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://github.com/p-e-w/ranwhen",
+    "name": "ranwhen",
+    "tags": [
+      "cli",
+      "açık-kaynak",
+      "github"
+    ],
+    "tr": "Sisteminin ne zaman çalıştığını terminalde görsel olarak gösteren araç.",
+    "en": "A tool that visualises when your system was running, right in the terminal.",
+    "src": "velvia"
+  },
+  {
+    "url": "https://www.sublimetext.com/",
+    "name": "Sublime Text",
+    "tags": [
+      "masaüstü",
+      "ücretli"
+    ],
+    "tr": "Hıza ve akıcılığa odaklı, çok hızlı açılan metin/kod editörü.",
+    "en": "A text/code editor focused on speed and fluidity, opening very fast.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://code.visualstudio.com/",
+    "name": "Visual Studio Code",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "masaüstü"
+    ],
+    "tr": "Eklenti ekosistemiyle en yaygın kod editörü; hafif ama güçlü.",
+    "en": "The most widely used code editor, lightweight yet powerful, with a plugin ecosystem.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://vscodium.com/",
+    "name": "VSCodium",
+    "tags": [
+      "açık-kaynak",
+      "masaüstü"
+    ],
+    "tr": "VS Code’un Microsoft telemetrisi ve markası çıkarılmış topluluk derlemesi. Aynı editör, aynı eklenti API’si; farkı, varsayılan eklenti marketinin Microsoft’unki değil Open VSX olması — bazı kapalı eklentiler burada bulunmuyor.",
+    "en": "A community build of VS Code with Microsoft’s telemetry and branding stripped out. Same editor, same extension API; the difference is that the default marketplace is Open VSX rather than Microsoft’s, so some proprietary extensions are simply absent.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://wakatime.com",
+    "name": "WakaTime",
+    "tags": [
+      "gözlemlenebilirlik",
+      "freemium",
+      "eklenti"
+    ],
+    "tr": "Editör eklentisiyle hangi projede, hangi dilde ne kadar zaman geçirdiğini ölçüyor. Genel zaman takip araçlarından farkı elle başlatma gerektirmemesi — ölçüm editörün kendisinden geliyor.",
+    "en": "Measures how long you spend in which project and language through an editor plugin. Against general time trackers it needs no manual start — the measurement comes from the editor itself.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.warp.dev/",
+    "name": "Warp",
+    "tags": [
+      "masaüstü",
+      "cli",
+      "llm"
+    ],
+    "tr": "Rust ile yazılmış terminal; komutları ve çıktılarını metin akışı yerine ayrı \"blok\"lar hâlinde tutuyor, böylece bir komutun çıktısını tek tıkla kopyalayabiliyorsun. iTerm veya Windows Terminal’dan ayrıldığı yer bu blok modeli ve gömülü YZ komut önerisi.",
+    "en": "A terminal written in Rust that keeps each command and its output as a separate block instead of one scrolling stream, so you can copy a single command’s output in one click. That block model and the built-in AI command suggestions are what set it apart.",
+    "src": "cdcruz"
+  }
+]

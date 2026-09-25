@@ -7,6 +7,13 @@
 <id>https://latifkedi.github.io/useful-sites/feed/en/diller.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Ammonite</title>
+  <link href="https://github.com/lihaoyi/Ammonite"/>
+  <id>https://github.com/lihaoyi/Ammonite</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>An advanced REPL that makes Scala usable for BASH-like filesystem operations.</summary>
+</entry>
+<entry>
   <title>Awesome asyncio</title>
   <link href="https://github.com/timofurrer/awesome-asyncio"/>
   <id>https://github.com/timofurrer/awesome-asyncio</id>
@@ -119,6 +126,13 @@
   <summary>A modern Lisp dialect on the JVM, focused on immutability.</summary>
 </entry>
 <entry>
+  <title>Coursier</title>
+  <link href="https://github.com/alexarchambault/coursier"/>
+  <id>https://github.com/alexarchambault/coursier</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A fast JVM dependency resolver and application launcher written in pure Scala.</summary>
+</entry>
+<entry>
   <title>Dart</title>
   <link href="https://dart.dev/"/>
   <id>https://dart.dev/</id>
@@ -145,6 +159,13 @@
   <id>https://www.haskell.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A purely functional, statically typed programming language with lazy evaluation.</summary>
+</entry>
+<entry>
+  <title>JCTools</title>
+  <link href="https://github.com/JCTools/JCTools"/>
+  <id>https://github.com/JCTools/JCTools</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Very high-performance concurrent queues for the JVM, used by projects like Netty.</summary>
 </entry>
 <entry>
   <title>JMH</title>
@@ -245,45 +266,24 @@
   <summary>A language on the JVM uniting object-oriented and functional programming.</summary>
 </entry>
 <entry>
+  <title>Scalastyle</title>
+  <link href="http://www.scalastyle.org/"/>
+  <id>http://www.scalastyle.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A linter that checks Scala source against formatting and style rules.</summary>
+</entry>
+<entry>
+  <title>Scoverage</title>
+  <link href="https://github.com/scoverage"/>
+  <id>https://github.com/scoverage</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A statement-based code-coverage tool for Scala, more precise than line-based coverage.</summary>
+</entry>
+<entry>
   <title>Swift</title>
   <link href="https://www.swift.org/"/>
   <id>https://www.swift.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Apple’s safe, fast-compiled language, developed primarily for iOS.</summary>
-</entry>
-<entry>
-  <title>The Async Book</title>
-  <link href="https://rust-lang.github.io/async-book/"/>
-  <id>https://rust-lang.github.io/async-book/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The official book on async/await and the Future model in Rust. Unlike general concurrency material it explains Rust’s distinctive, decoupled runtime approach.</summary>
-</entry>
-<entry>
-  <title>The Cargo Book</title>
-  <link href="https://doc.rust-lang.org/cargo/"/>
-  <id>https://doc.rust-lang.org/cargo/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The official guide to Cargo, Rust’s package manager and build tool. Unlike scattered blogs it gathers dependencies, workspaces and publishing in one authoritative place.</summary>
-</entry>
-<entry>
-  <title>The Rust Programming Language</title>
-  <link href="https://doc.rust-lang.org/book/"/>
-  <id>https://doc.rust-lang.org/book/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The official book teaching Rust from scratch (“the book”). Unlike third-party tutorials it builds the ownership and borrowing model step by step, from the language team itself.</summary>
-</entry>
-<entry>
-  <title>The Rust Reference</title>
-  <link href="https://doc.rust-lang.org/reference/"/>
-  <id>https://doc.rust-lang.org/reference/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The official reference defining the language’s grammar and semantics. Unlike the book it is not a tutorial but the authoritative answer to “exactly how does Rust behave”.</summary>
-</entry>
-<entry>
-  <title>The Rustonomicon</title>
-  <link href="https://doc.rust-lang.org/nomicon/"/>
-  <id>https://doc.rust-lang.org/nomicon/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An advanced book on the rules of unsafe Rust. Unlike the main book it covers what to watch for when you step outside the borrow checker.</summary>
 </entry>
 </feed>

@@ -301,6 +301,20 @@
     "src": "awesome-uw"
   },
   {
+    "url": "https://github.com/HQarroum/docker-android",
+    "name": "Docker Android",
+    "tags": [
+      "açık-kaynak",
+      "github",
+      "docker",
+      "interaktif"
+    ],
+    "tr": "Kapsayıcı içinde Android emülatörü çalıştırıyor; VNC ile ekranına bakabiliyorsun. CI hattında cihaz çiftliği kurmadan otomatik test çalıştırmak için.",
+    "en": "Runs an Android emulator in a container with VNC access to the screen — for running automated tests in CI without standing up a device farm.",
+    "src": "kedi",
+    "added": 1778513715
+  },
+  {
     "url": "https://github.com/dokploy/dokploy",
     "name": "Dokploy",
     "tags": [
@@ -410,6 +424,17 @@
     "en": "Dedicated servers and VPS in Germany and Finland at a fraction of the big clouds’ price for the same cores and RAM. No managed services — operations are entirely yours.",
     "src": "kedi",
     "added": 1783007591
+  },
+  {
+    "url": "https://jitpack.io",
+    "name": "JitPack",
+    "tags": [
+      "git",
+      "ücretsiz"
+    ],
+    "tr": "Jar yayımlamayan GitHub depolarını doğrudan bağımlılık olarak kullanılabilir yapan servis.",
+    "en": "Makes GitHub repos that don’t publish jars usable directly as dependencies.",
+    "src": "velvia"
   },
   {
     "url": "https://k8syaml.com/",
@@ -573,6 +598,17 @@
     "tr": "Terraform'un topluluk güdümlü açık kaynak çatalı; aynı yapılandırmayı çalıştırır.",
     "en": "A community-driven open-source fork of Terraform that runs the same configurations.",
     "src": "dsbest"
+  },
+  {
+    "url": "https://www.pantsbuild.org/",
+    "name": "Pants",
+    "tags": [
+      "açık-kaynak",
+      "otomasyon"
+    ],
+    "tr": "Çok dilli, büyük tek-depo (monorepo) projeleri için ölçeklenen derleme sistemi (Twitter kökenli).",
+    "en": "A build system that scales to large, multi-language monorepos (originated at Twitter).",
+    "src": "velvia"
   },
   {
     "url": "https://pipedream.com/",

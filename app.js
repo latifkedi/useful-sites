@@ -37,7 +37,7 @@ var T = {
       bilimmat:"Bilim, matematik ve kuantum.",
       ekonomialan:"İktisat verisi ve araştırması; piyasa, değerleme ve kripto araçları.",
       tasarim:"Tasarım ve medya araçları, mimari.",
-      ogrenmealan:"Yol haritaları, referanslar ve günlük araçlar.",
+      ogrenmealan:"Yol haritaları ve kitaplar; başvuru ve listeler; açık kaynak; editörler, kod alanları ve küçük araçlar.",
       korsanalan:"Yasal açık erişim ve arşivler; korsan meta-merkezleri ve araç zinciri."
     },
     areas:"Alanlar",
@@ -120,7 +120,7 @@ var T = {
       bilimmat:"Science, mathematics and quantum.",
       ekonomialan:"Economic data and research; market, valuation and crypto tools.",
       tasarim:"Design and media tools, architecture.",
-      ogrenmealan:"Learning paths, references and everyday tools.",
+      ogrenmealan:"Roadmaps and books; references and lists; open source; editors, playgrounds and small tools.",
       korsanalan:"Legal open access and archives; piracy meta-hubs and the toolchain."
     },
     areas:"Areas",

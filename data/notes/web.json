@@ -133,6 +133,31 @@
     "src": "awesomelist"
   },
   {
+    "url": "https://github.com/sindresorhus/awesome-npm",
+    "name": "Awesome npm",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "javascript"
+    ],
+    "tr": "Node paket yöneticisi npm için ipucu, araç ve kaynak listesi.",
+    "en": "A list of tips, tools and resources for npm, the Node package manager.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/RyanZim/awesome-npm-scripts",
+    "name": "Awesome npm scripts",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "javascript",
+      "otomasyon"
+    ],
+    "tr": "Görev koşucusu olarak npm script kullanımı için kaynak listesi.",
+    "en": "A resource list for using npm scripts as a task runner.",
+    "src": "awesomelist"
+  },
+  {
     "url": "https://github.com/Richienb/awesome-ponyfills",
     "name": "Awesome Ponyfills",
     "tags": [
@@ -254,6 +279,19 @@
     "src": "awesomelist"
   },
   {
+    "url": "https://github.com/schlessera/awesome-wp-cli",
+    "name": "Awesome WP-CLI",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "php",
+      "cli"
+    ],
+    "tr": "WordPress’i komut satırından yöneten WP-CLI için kaynak listesi.",
+    "en": "A resource list for WP-CLI, managing WordPress from the command line.",
+    "src": "awesomelist"
+  },
+  {
     "url": "https://www.awwwards.com/",
     "name": "Awwwards",
     "tags": [
@@ -291,6 +329,18 @@
     "added": 1776690061
   },
   {
+    "url": "https://browserdiet.com/en/",
+    "name": "Browser Diet",
+    "tags": [
+      "frontend",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Web performansını iyileştirmek için somut, ölçülebilir öneriler toplayan kılavuz.",
+    "en": "A guide of concrete, measurable tips for improving web performance.",
+    "src": "awesomeproj"
+  },
+  {
     "url": "https://buildbootstrap.com/",
     "name": "BuildBootstrap",
     "tags": [
@@ -322,6 +372,18 @@
     ],
     "tr": "Projelerde kullanılabilecek hazır CSS buton stilleri ve kodları.",
     "en": "Ready CSS button styles with their code for use in projects.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://www.caniemail.com/",
+    "name": "Can I email…",
+    "tags": [
+      "referans",
+      "ücretsiz",
+      "frontend"
+    ],
+    "tr": "Bir HTML/CSS özelliğinin hangi e-posta istemcisinde çalıştığını gösteren tablo. Web’in Can I use’undan farkı e-posta istemcilerinin kendine has, kısıtlı desteğine bakması.",
+    "en": "A table showing which email client supports an HTML/CSS feature. Unlike the web’s Can I use it looks at the quirky, limited support of email clients.",
     "src": "awesomeproj"
   },
   {
@@ -507,6 +569,18 @@
     "src": "awesomeproj"
   },
   {
+    "url": "https://docsify.js.org/",
+    "name": "docsify",
+    "tags": [
+      "açık-kaynak",
+      "dokümantasyon",
+      "javascript"
+    ],
+    "tr": "Markdown dosyalarını derleme olmadan, tarayıcıda dokümantasyon sitesine çeviren araç. Statik üreticilerden farkı build adımı olmaması — sayfaları anında sunması.",
+    "en": "A tool turning Markdown files into a documentation site in the browser, with no build. Unlike static generators it has no build step — it serves the pages on the fly.",
+    "src": "awesomeproj"
+  },
+  {
     "url": "https://docusaurus.io/",
     "name": "Docusaurus",
     "tags": [
@@ -540,6 +614,18 @@
     ],
     "tr": "Organik şekiller için CSS border-radius üreten görsel araç.",
     "en": "A visual tool that generates CSS border-radius for organic shapes.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://www.mozilla.org/firefox/developer/",
+    "name": "Firefox Developer Edition",
+    "tags": [
+      "frontend",
+      "ücretsiz",
+      "masaüstü"
+    ],
+    "tr": "Web geliştiricilere yönelik, gelişmiş hata ayıklama araçlarıyla gelen Firefox sürümü.",
+    "en": "A build of Firefox for web developers, with advanced debugging tools built in.",
     "src": "awesomeproj"
   },
   {
@@ -662,6 +748,17 @@
     "added": 1776686049
   },
   {
+    "url": "https://www.gitbook.com",
+    "name": "GitBook",
+    "tags": [
+      "freemium",
+      "dokümantasyon"
+    ],
+    "tr": "Dokümantasyon yazma ve yayımlama platformu; Git ile senkron çalışıp teknik kitapları web sitesine çeviriyor.",
+    "en": "A platform for writing and publishing documentation, syncing with Git to turn technical books into websites.",
+    "src": "bwapsv"
+  },
+  {
     "url": "https://fonts.google.com/?preview.script=Latn",
     "name": "Google Fonts",
     "tags": [
@@ -770,6 +867,18 @@
     ],
     "tr": "Arayüz tasarımı için gerçek ürünlerden ilham galerisi.",
     "en": "An inspiration gallery of interface designs from real products.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://www.joomla.org/",
+    "name": "Joomla",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "php"
+    ],
+    "tr": "WordPress’e alternatif, açık kaynak içerik yönetim sistemi (CMS).",
+    "en": "An open-source content management system (CMS), an alternative to WordPress.",
     "src": "awesomeproj"
   },
   {
@@ -1202,6 +1311,19 @@
     "src": "bwapsv"
   },
   {
+    "url": "https://web.dev/",
+    "name": "web.dev",
+    "tags": [
+      "frontend",
+      "referans",
+      "ücretsiz",
+      "öğretici"
+    ],
+    "tr": "Google’ın web kalitesi (performans, erişilebilirlik, PWA) rehberleri ve ölçüm araçları.",
+    "en": "Google’s guides and measurement tools for web quality — performance, accessibility, PWA.",
+    "src": "awesomeproj"
+  },
+  {
     "url": "https://webaim.org/",
     "name": "WebAIM",
     "tags": [
@@ -1212,5 +1334,17 @@
     "tr": "Utah State Üniversitesi bünyesindeki erişilebilirlik merkezi; kontrast denetleyicisi, WAVE aracı ve yıllık \"Million\" taraması buradan çıkıyor. WCAG belgesinin kendisinden farkı, kuralı değil kuralın pratikte nasıl uygulandığını anlatması.",
     "en": "The accessibility centre at Utah State University — the contrast checker, the WAVE tool and the annual \"Million\" survey all come from here. Where the WCAG spec states the rule, WebAIM shows what applying it actually looks like.",
     "src": "cdcruz"
+  },
+  {
+    "url": "https://www.wordpress.org/",
+    "name": "WordPress",
+    "tags": [
+      "php",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Web’in üçte birini çalıştıran açık kaynak blog ve içerik yönetim sistemi.",
+    "en": "The open-source blog and content management system that runs a third of the web.",
+    "src": "awesomeproj"
   }
 ]

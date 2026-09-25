@@ -28,11 +28,25 @@
   <summary>PostgreSQL için eklenti, araç ve kaynak listesi. Resmî dokümandan farkı ekosistemin uzantılarını ve yönetim araçlarını bir arada göstermesi.</summary>
 </entry>
 <entry>
+  <title>Beekeeper Studio</title>
+  <link href="https://www.beekeeperstudio.io/"/>
+  <id>https://www.beekeeperstudio.io/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Birçok veritabanını destekleyen, açık kaynak SQL editörü ve yöneticisi.</summary>
+</entry>
+<entry>
   <title>CockroachDB</title>
   <link href="https://www.cockroachlabs.com"/>
   <id>https://www.cockroachlabs.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Yatay ölçeklenen, kuvvetli tutarlı ve arızalara dayanıklı dağıtık SQL veritabanı.</summary>
+</entry>
+<entry>
+  <title>ConnectionStrings.com</title>
+  <link href="https://www.connectionstrings.com/"/>
+  <id>https://www.connectionstrings.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Her veritabanı ve sürücü için doğru bağlantı dizesi biçimini veren başvuru. Dokümanı aramaktan farkı onlarca sürücünün sözdizimini tek yerde toplaması.</summary>
 </entry>
 <entry>
   <title>dbdiagram.io</title>
@@ -82,6 +96,13 @@
   <id>https://pgexercises.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Tarayıcıda notlandırılan PostgreSQL alıştırmalarıyla SQL pratiği.</summary>
+</entry>
+<entry>
+  <title>Redis Insight</title>
+  <link href="https://redis.io/insight/"/>
+  <id>https://redis.io/insight/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Redis'in resmî görsel arayüzü; veriyi görüntüleme, düzenleme, sorgu ve profil çıkarma. Eskiden RESP.app (RedisDesktopManager) kullanılan yerin yerini aldı.</summary>
 </entry>
 <entry>
   <title>SQLBolt</title>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title>Free Books &amp; Long Reads — Useful Sites</title>
+<subtitle>A hand-curated, annotated link directory across ten areas, from software and AI to security, economics and architecture. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/kitaplik.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/kitaplik.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/en/kitaplik.xml</id>
+<updated>2026-09-18T00:00:00Z</updated>
+<entry>
+  <title>Free Computer Books</title>
+  <link href="https://freecomputerbooks.com/"/>
+  <id>https://freecomputerbooks.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A directory of free technology books and ebooks, organised by topic.</summary>
+</entry>
+<entry>
+  <title>Algorithmica HPC</title>
+  <link href="https://en.algorithmica.org/hpc/"/>
+  <id>https://en.algorithmica.org/hpc/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>An online book on writing fast code for modern hardware: cache hierarchy, SIMD, branch prediction. Where algorithm books stop at big-O, this measures wall-clock time on a real machine and explains why two solutions of equal complexity differ by tenfold.</summary>
+</entry>
+<entry>
+  <title>Learn Vim</title>
+  <link href="https://learnvim.irian.to/"/>
+  <id>https://learnvim.irian.to/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>An online book that teaches Vim as a grammar — verb plus motion plus text object — rather than as key sequences to memorise. That is the break from cheat sheets: you learn to derive new combinations instead of recalling old ones.</summary>
+</entry>
+<entry>
+  <title>The Architecture of Open Source Applications</title>
+  <link href="https://aosabook.org/en/index.html"/>
+  <id>https://aosabook.org/en/index.html</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A book series in which the developers of open-source projects describe their own architecture. Against reading the source you learn which decisions were taken and why, and what went wrong — the rationale is never in the code.</summary>
+</entry>
+<entry>
+  <title>Literate Programming</title>
+  <link href="http://literateprogramming.com/"/>
+  <id>http://literateprogramming.com/</id>
+  <updated>2026-08-19T23:38:44Z</updated>
+  <summary>The archive of Knuth’s idea of writing code interwoven with prose — the root of Jupyter notebooks and today’s arguments about explainable code.</summary>
+</entry>
+<entry>
+  <title>A Hacker's Guide to Git</title>
+  <link href="https://wildlyinaccurate.com/a-hackers-guide-to-git/"/>
+  <id>https://wildlyinaccurate.com/a-hackers-guide-to-git/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A guide to Git’s object database, refs and merge algorithm. Against &quot;Git from the Inside Out&quot; it is shorter and more command-oriented — the two complement each other.</summary>
+</entry>
+<entry>
+  <title>CodeProject</title>
+  <link href="https://www.codeproject.com"/>
+  <id>https://www.codeproject.com</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>An archive of long, developer-written articles with working code, weighted towards .NET and C++. Against a blog aggregator each article ships with a downloadable source project.</summary>
+</entry>
+<entry>
+  <title>DZone</title>
+  <link href="https://dzone.com"/>
+  <id>https://dzone.com</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>An archive of articles and &quot;refcards&quot; on software development, DevOps and architecture. The refcards are what distinguish it from personal blogs: downloadable two-page summaries of a single subject.</summary>
+</entry>
+<entry>
+  <title>Free Programming Books</title>
+  <link href="https://github.com/EbookFoundation/free-programming-books"/>
+  <id>https://github.com/EbookFoundation/free-programming-books</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A compilation of free programming books, courses and interactive tutorials in hundreds of languages, and one of GitHub’s most-starred repositories. Against similar lists it wins on scale and active maintenance, and it is split by language — Turkish included.</summary>
+</entry>
+<entry>
+  <title>Git from the Inside Out</title>
+  <link href="https://maryrosecook.com/blog/post/git-from-the-inside-out"/>
+  <id>https://maryrosecook.com/blog/post/git-from-the-inside-out</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A long essay explaining Git from its data model rather than its commands, showing what each command changes inside `.git`. That is the difference from a command guide: once the model is clear the commands stop needing memorisation.</summary>
+</entry>
+<entry>
+  <title>GoalKicker</title>
+  <link href="https://goalkicker.com"/>
+  <id>https://goalkicker.com</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Free programming books compiled from the Stack Overflow Documentation archive, each example-heavy and split topic by topic.</summary>
+</entry>
+<entry>
+  <title>Learn Vimscript the Hard Way</title>
+  <link href="https://learnvimscriptthehardway.stevelosh.com"/>
+  <id>https://learnvimscriptthehardway.stevelosh.com</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A book teaching Vimscript for configuring Vim and writing plugins. Unlike Vim usage guides it is about programming the editor rather than using it — for going past `.vimrc`.</summary>
+</entry>
+<entry>
+  <title>Programming Books</title>
+  <link href="https://www.programmingbooks.dev"/>
+  <id>https://www.programmingbooks.dev</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A reading list on software craftsmanship with a reason attached to each book. Unlike the free-book compilations it is selective: it proposes an order rather than a quantity.</summary>
+</entry>
+<entry>
+  <title>Python Data Science Handbook</title>
+  <link href="https://jakevdp.github.io/PythonDataScienceHandbook/"/>
+  <id>https://jakevdp.github.io/PythonDataScienceHandbook/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A free book covering NumPy, pandas, Matplotlib and scikit-learn, published entirely as runnable Jupyter notebooks.</summary>
+</entry>
+<entry>
+  <title>speaking.io</title>
+  <link href="https://speaking.io/"/>
+  <id>https://speaking.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A guide to preparing and delivering technical talks: structuring content, slide design, stage fright. Against general presentation advice it is specific to developer conferences — the risk of a live demo gets its own treatment.</summary>
+</entry>
+<entry>
+  <title>The GraphQL Guide</title>
+  <link href="https://graphql.guide"/>
+  <id>https://graphql.guide</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A book covering GraphQL from both client and server side, reaching into the production practices the spec leaves out.</summary>
+</entry>
+<entry>
+  <title>The Nature of Code</title>
+  <link href="https://natureofcode.com/"/>
+  <id>https://natureofcode.com/</id>
+  <updated>2026-08-13T10:08:21Z</updated>
+  <summary>A free book on simulating natural systems in code — forces, particles, flocking, cellular automata — delivering the maths through interactive examples rather than a pile of formulas.</summary>
+</entry>
+<entry>
+  <title>Androidler Neden Elektrikli Koyun Düşleyemez</title>
+  <link href="https://engineering.teknasyon.com/androidler-neden-elektrikli-koyun-d%C3%BC%C5%9Fleyemez-dab0ee1e85be"/>
+  <id>https://engineering.teknasyon.com/androidler-neden-elektrikli-koyun-d%C3%BC%C5%9Fleyemez-dab0ee1e85be</id>
+  <updated>2025-02-11T16:36:17Z</updated>
+  <summary>A technical piece from a Turkish engineering blog — valuable as an example, since in-depth technical writing in the language is scarce.</summary>
+</entry>
+</feed>

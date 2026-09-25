@@ -7,11 +7,25 @@
 <id>https://latifkedi.github.io/useful-sites/feed/veri.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Awesome ArcGIS Developer</title>
+  <link href="https://github.com/Esri/awesome-arcgis-developer"/>
+  <id>https://github.com/Esri/awesome-arcgis-developer</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Haritalama ve konum analizi platformu ArcGIS için geliştirici kaynakları.</summary>
+</entry>
+<entry>
   <title>Awesome Core ML Models</title>
   <link href="https://github.com/likedan/Awesome-CoreML-Models"/>
   <id>https://github.com/likedan/Awesome-CoreML-Models</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Apple’ın Core ML çerçevesi için hazır makine öğrenmesi modelleri listesi.</summary>
+</entry>
+<entry>
+  <title>Awesome CSV</title>
+  <link href="https://github.com/secretGeek/awesomeCSV"/>
+  <id>https://github.com/secretGeek/awesomeCSV</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Tablo verisi saklayan CSV biçimi için araç ve kaynak listesi.</summary>
 </entry>
 <entry>
   <title>Awesome Deep Learning</title>
@@ -42,6 +56,13 @@
   <summary>Otomatik türev ve XLA derlemesi sunan JAX için kaynak listesi.</summary>
 </entry>
 <entry>
+  <title>Awesome JSON</title>
+  <link href="https://github.com/burningtree/awesome-json"/>
+  <id>https://github.com/burningtree/awesome-json</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Metin tabanlı veri değişim biçimi JSON için araç ve kaynak listesi.</summary>
+</entry>
+<entry>
   <title>Awesome Jupyter</title>
   <link href="https://github.com/markusschanta/awesome-jupyter"/>
   <id>https://github.com/markusschanta/awesome-jupyter</id>
@@ -54,6 +75,13 @@
   <id>https://github.com/accelerated-text/awesome-nlg</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Veriden veya diyalogdan metin üretimi (doğal dil üretimi) için kaynak listesi.</summary>
+</entry>
+<entry>
+  <title>Awesome OpenStreetMap</title>
+  <link href="https://github.com/osmlab/awesome-openstreetmap"/>
+  <id>https://github.com/osmlab/awesome-openstreetmap</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Açık harita verisi projesi OpenStreetMap için araç ve kaynak listesi.</summary>
 </entry>
 <entry>
   <title>Awesome Public Datasets</title>
@@ -257,33 +285,5 @@
   <id>https://mlcourse.ai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>Açık makine öğrenmesi kursu; teori ile Kaggle yarışması ödevlerini birleştirmesi onu salt anlatımdan ayırıyor.</summary>
-</entry>
-<entry>
-  <title>MLU-Explain</title>
-  <link href="https://mlu-explain.github.io/"/>
-  <id>https://mlu-explain.github.io/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Amazon’un makine öğrenmesi kavramlarını etkileşimli görsellerle anlatan seti; parametreyi kaydırıp modelin nasıl değiştiğini görüyorsun.</summary>
-</entry>
-<entry>
-  <title>pandas</title>
-  <link href="https://pandas.pydata.org/"/>
-  <id>https://pandas.pydata.org/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Tablo verisiyle çalışmanın standart kütüphanesi. Excel’den farkı, her dönüşümün tekrarlanabilir kod olması; bellek içi çalıştığı için veri RAM’e sığmak zorunda.</summary>
-</entry>
-<entry>
-  <title>Papers with Code</title>
-  <link href="https://paperswithcode.com/"/>
-  <id>https://paperswithcode.com/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Makine öğrenmesi makalelerini uygulama koduyla ve karşılaştırma tablolarıyla eşleştiren site. Salt makaleden farkı sonucun kodunu ve en iyi yöntem sıralamasını yanına koyması.</summary>
-</entry>
-<entry>
-  <title>Plotly</title>
-  <link href="https://plotly.com/"/>
-  <id>https://plotly.com/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Etkileşimli grafik kütüphanesi; yakınlaştırma, ipucu ve seçim kutudan çıkıyor. Matplotlib statik görsel üretir, bu tarayıcıda gezilebilir grafik verir.</summary>
 </entry>
 </feed>

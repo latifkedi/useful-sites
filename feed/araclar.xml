@@ -1,32 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
-<title>Araçlar &amp; Yardımcılar — Kullanışlı Siteler</title>
+<title>Üretkenlik &amp; Günlük Araçlar — Kullanışlı Siteler</title>
 <subtitle>Yazılımdan yapay zekaya, güvenlikten ekonomiye ve mimariye on alanda elle derlenmiş, açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
 <link href="https://latifkedi.github.io/useful-sites/feed/araclar.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/araclar.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/araclar.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
-<entry>
-  <title>.NET Fiddle</title>
-  <link href="https://dotnetfiddle.net/"/>
-  <id>https://dotnetfiddle.net/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>C# ve .NET kodunu tarayıcıda yazıp çalıştıran ve paylaşan alan; kurulum gerekmez.</summary>
-</entry>
-<entry>
-  <title>Ammonite</title>
-  <link href="https://github.com/lihaoyi/Ammonite"/>
-  <id>https://github.com/lihaoyi/Ammonite</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Scala’yı BASH benzeri dosya işlemleri için kullanılabilir kılan gelişmiş REPL.</summary>
-</entry>
-<entry>
-  <title>Apache NetBeans</title>
-  <link href="https://netbeans.apache.org/"/>
-  <id>https://netbeans.apache.org/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Java ağırlıklı, çok dilli açık kaynak geliştirme ortamı (IDE).</summary>
-</entry>
 <entry>
   <title>Asana</title>
   <link href="https://asana.com/"/>
@@ -42,53 +21,11 @@
   <summary>Her platform için hesap makinesi araçlarının listesi.</summary>
 </entry>
 <entry>
-  <title>Awesome CLI</title>
-  <link href="https://github.com/umutphp/awesome-cli"/>
-  <id>https://github.com/umutphp/awesome-cli</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Komut satırında kullanışlı, küçük araçları toplayan liste.</summary>
-</entry>
-<entry>
-  <title>Awesome Git Addons</title>
-  <link href="https://github.com/stevemao/awesome-git-addons"/>
-  <id>https://github.com/stevemao/awesome-git-addons</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>git komut satırını genişleten ek komut ve araç listesi.</summary>
-</entry>
-<entry>
-  <title>Awesome Hyper</title>
-  <link href="https://github.com/bnb/awesome-hyper"/>
-  <id>https://github.com/bnb/awesome-hyper</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Web teknolojili terminal Hyper için tema ve eklenti listesi.</summary>
-</entry>
-<entry>
-  <title>Awesome Neovim</title>
-  <link href="https://github.com/rockerBOO/awesome-neovim"/>
-  <id>https://github.com/rockerBOO/awesome-neovim</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Neovim editörü için eklenti ve yapılandırma listesi.</summary>
-</entry>
-<entry>
   <title>Awesome No-Login Web Apps</title>
   <link href="https://github.com/aviaryan/awesome-no-login-web-apps"/>
   <id>https://github.com/aviaryan/awesome-no-login-web-apps</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Giriş yapmadan çalışan kullanışlı web uygulamalarının listesi.</summary>
-</entry>
-<entry>
-  <title>Awesome npm</title>
-  <link href="https://github.com/sindresorhus/awesome-npm"/>
-  <id>https://github.com/sindresorhus/awesome-npm</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Node paket yöneticisi npm için ipucu, araç ve kaynak listesi.</summary>
-</entry>
-<entry>
-  <title>Awesome npm scripts</title>
-  <link href="https://github.com/RyanZim/awesome-npm-scripts"/>
-  <id>https://github.com/RyanZim/awesome-npm-scripts</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Görev koşucusu olarak npm script kullanımı için kaynak listesi.</summary>
 </entry>
 <entry>
   <title>Awesome Userscripts</title>
@@ -98,116 +35,11 @@
   <summary>Gezinti deneyimini geliştiren kullanıcı betikleri (userscript) listesi.</summary>
 </entry>
 <entry>
-  <title>Awesome VS Code</title>
-  <link href="https://github.com/viatsko/awesome-vscode"/>
-  <id>https://github.com/viatsko/awesome-vscode</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Visual Studio Code için uzantı ve kaynak listesi.</summary>
-</entry>
-<entry>
-  <title>Awesome WP-CLI</title>
-  <link href="https://github.com/schlessera/awesome-wp-cli"/>
-  <id>https://github.com/schlessera/awesome-wp-cli</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>WordPress’i komut satırından yöneten WP-CLI için kaynak listesi.</summary>
-</entry>
-<entry>
-  <title>Beekeeper Studio</title>
-  <link href="https://www.beekeeperstudio.io/"/>
-  <id>https://www.beekeeperstudio.io/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Birçok veritabanını destekleyen, açık kaynak SQL editörü ve yöneticisi.</summary>
-</entry>
-<entry>
-  <title>Browser Diet</title>
-  <link href="https://browserdiet.com/en/"/>
-  <id>https://browserdiet.com/en/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Web performansını iyileştirmek için somut, ölçülebilir öneriler toplayan kılavuz.</summary>
-</entry>
-<entry>
-  <title>Browserling</title>
-  <link href="https://www.browserling.com"/>
-  <id>https://www.browserling.com</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Sitenizi farklı tarayıcı ve işletim sistemlerinde canlı test etmenizi sağlayan servis.</summary>
-</entry>
-<entry>
-  <title>Can I email…</title>
-  <link href="https://www.caniemail.com/"/>
-  <id>https://www.caniemail.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Bir HTML/CSS özelliğinin hangi e-posta istemcisinde çalıştığını gösteren tablo. Web’in Can I use’undan farkı e-posta istemcilerinin kendine has, kısıtlı desteğine bakması.</summary>
-</entry>
-<entry>
-  <title>Cmder</title>
-  <link href="https://cmder.app/"/>
-  <id>https://cmder.app/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Windows için taşınabilir, güzel bir konsol paketi; bash ve unix komutlarıyla gelir. Yerleşik cmd’den farkı sekme, tema ve unix araçlarını bir arada sunması.</summary>
-</entry>
-<entry>
-  <title>Comcast</title>
-  <link href="https://github.com/tylertreat/Comcast"/>
-  <id>https://github.com/tylertreat/Comcast</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Ağ gecikmesi ve paket kaybı gibi sorunları yapay olarak enjekte edip dayanıklılık testi yaptıran araç.</summary>
-</entry>
-<entry>
-  <title>ConnectionStrings.com</title>
-  <link href="https://www.connectionstrings.com/"/>
-  <id>https://www.connectionstrings.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Her veritabanı ve sürücü için doğru bağlantı dizesi biçimini veren başvuru. Dokümanı aramaktan farkı onlarca sürücünün sözdizimini tek yerde toplaması.</summary>
-</entry>
-<entry>
-  <title>Coursier</title>
-  <link href="https://github.com/alexarchambault/coursier"/>
-  <id>https://github.com/alexarchambault/coursier</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Saf Scala ile yazılmış, hızlı JVM bağımlılık çözücü ve uygulama başlatıcı.</summary>
-</entry>
-<entry>
-  <title>docsify</title>
-  <link href="https://docsify.js.org/"/>
-  <id>https://docsify.js.org/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Markdown dosyalarını derleme olmadan, tarayıcıda dokümantasyon sitesine çeviren araç. Statik üreticilerden farkı build adımı olmaması — sayfaları anında sunması.</summary>
-</entry>
-<entry>
-  <title>Editor.md</title>
-  <link href="https://pandao.github.io/editor.md/en.html"/>
-  <id>https://pandao.github.io/editor.md/en.html</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Açık kaynak, tarayıcıda çalışan Markdown editörü; canlı önizleme ve dışa aktarma.</summary>
-</entry>
-<entry>
-  <title>ES6 Console</title>
-  <link href="https://es6console.com/"/>
-  <id>https://es6console.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Modern JavaScript (ES6+) kodunu tarayıcıda derleyip sonucunu anında gösteren konsol.</summary>
-</entry>
-<entry>
-  <title>Firefox Developer Edition</title>
-  <link href="https://www.mozilla.org/firefox/developer/"/>
-  <id>https://www.mozilla.org/firefox/developer/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Web geliştiricilere yönelik, gelişmiş hata ayıklama araçlarıyla gelen Firefox sürümü.</summary>
-</entry>
-<entry>
   <title>Full Page Screen Capture</title>
   <link href="https://chrome.google.com/webstore/detail/full-page-screen-capture"/>
   <id>https://chrome.google.com/webstore/detail/full-page-screen-capture</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Tüm sayfayı (kaydırma dâhil) tek görüntüye alan Chrome eklentisi.</summary>
-</entry>
-<entry>
-  <title>generatedata</title>
-  <link href="https://www.generatedata.com/"/>
-  <id>https://www.generatedata.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>İstenen şemaya göre gerçekçi sahte test verisi üreten araç (CSV, JSON, SQL). Elle veri uydurmaktan farkı isim, adres gibi alanları tutarlı ve toplu üretmesi.</summary>
 </entry>
 <entry>
   <title>Google Keep</title>
@@ -217,41 +49,6 @@
   <summary>Bulutta senkronlu, hızlı yapışkan not aracı.</summary>
 </entry>
 <entry>
-  <title>Google Safe Browsing</title>
-  <link href="https://transparencyreport.google.com/safe-browsing/search"/>
-  <id>https://transparencyreport.google.com/safe-browsing/search</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Bir sitenin Google Güvenli Tarama kayıtlarında zararlı olarak işaretlenip işaretlenmediğini kontrol eder.</summary>
-</entry>
-<entry>
-  <title>hub</title>
-  <link href="https://hub.github.com/"/>
-  <id>https://hub.github.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Git komut satırını GitHub işlemleriyle (PR, issue, fork) genişleten sarmalayıcı.</summary>
-</entry>
-<entry>
-  <title>Hyper</title>
-  <link href="https://hyper.is/"/>
-  <id>https://hyper.is/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Web teknolojileriyle yazılmış, eklentilerle genişleyen açık kaynak terminal.</summary>
-</entry>
-<entry>
-  <title>Invertexto</title>
-  <link href="https://www.invertexto.com/"/>
-  <id>https://www.invertexto.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Metin ters çevirme, sayaç, dönüştürme gibi küçük metin araçlarını bir arada sunan site.</summary>
-</entry>
-<entry>
-  <title>JCTools</title>
-  <link href="https://github.com/JCTools/JCTools"/>
-  <id>https://github.com/JCTools/JCTools</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>JVM için çok yüksek başarımlı eşzamanlı kuyruklar; Netty gibi projelerce kullanılır.</summary>
-</entry>
-<entry>
   <title>Jira</title>
   <link href="https://www.atlassian.com/software/jira"/>
   <id>https://www.atlassian.com/software/jira</id>
@@ -259,31 +56,129 @@
   <summary>Yazılım ekipleri için sürüm ve hata takibine güçlü, çevik proje yönetimi.</summary>
 </entry>
 <entry>
-  <title>JitPack</title>
-  <link href="https://jitpack.io"/>
-  <id>https://jitpack.io</id>
+  <title>Notion</title>
+  <link href="https://www.notion.so/"/>
+  <id>https://www.notion.so/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Jar yayımlamayan GitHub depolarını doğrudan bağımlılık olarak kullanılabilir yapan servis.</summary>
+  <summary>Not, wiki, veritabanı ve proje panosunu tek çalışma alanında birleştiren araç.</summary>
 </entry>
 <entry>
-  <title>Joomla</title>
-  <link href="https://www.joomla.org/"/>
-  <id>https://www.joomla.org/</id>
+  <title>ProtectedText</title>
+  <link href="https://www.protectedtext.com/"/>
+  <id>https://www.protectedtext.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>WordPress’e alternatif, açık kaynak içerik yönetim sistemi (CMS).</summary>
+  <summary>Kayıt gerektirmeyen, uçtan uca şifreli çevrimiçi not defteri.</summary>
 </entry>
 <entry>
-  <title>JSCompress</title>
-  <link href="https://jscompress.com/"/>
-  <id>https://jscompress.com/</id>
+  <title>Slack</title>
+  <link href="https://slack.com/"/>
+  <id>https://slack.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>JavaScript kodunu tarayıcıda küçültüp (minify) boyutunu düşüren araç.</summary>
+  <summary>Kanallar üzerinden ekip iletişimi ve araç entegrasyonu platformu.</summary>
 </entry>
 <entry>
-  <title>JSON Editor Online</title>
-  <link href="https://jsoneditoronline.org/"/>
-  <id>https://jsoneditoronline.org/</id>
+  <title>Todoist</title>
+  <link href="https://todoist.com/"/>
+  <id>https://todoist.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>JSON’u ağaç ve metin görünümünde inceleyip düzenleyen tarayıcı aracı. Düz metin editöründen farkı yapıyı katlayıp doğrulayarak büyük JSON’da gezinmeyi kolaylaştırması.</summary>
+  <summary>Kişisel ve ekip projelerini yöneten, hızlı yakalamaya odaklı yapılacaklar aracı.</summary>
+</entry>
+<entry>
+  <title>Trello</title>
+  <link href="https://trello.com/"/>
+  <id>https://trello.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Projeleri kart ve panolarla (Kanban) yöneten sade görev aracı.</summary>
+</entry>
+<entry>
+  <title>Image Max URL</title>
+  <link href="https://qsniyg.github.io/maxurl/"/>
+  <id>https://qsniyg.github.io/maxurl/</id>
+  <updated>2026-09-10T20:53:20Z</updated>
+  <summary>Bir görselin ya da videonun küçültülmüş hâlinden en büyük/orijinal sürümünü bulan tarayıcı eklentisi. Sağ tık “görseli aç”tan farkı yeniden boyutlandırmayı geri alması: küçük resim URL’sinden tam çözünürlüklü kaynağı çözüyor.</summary>
+</entry>
+<entry>
+  <title>Everything</title>
+  <link href="https://www.voidtools.com/"/>
+  <id>https://www.voidtools.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Windows’ta dosya adına göre anlık arama; NTFS ana dosya tablosunu okuyarak indeks kuruyor. Windows Search’ten farkı bu: içerik indekslemediği için ilk taraması saniyeler sürüyor ve sonuçlar yazarken anında geliyor.</summary>
+</entry>
+<entry>
+  <title>Microsoft PowerToys</title>
+  <link href="https://learn.microsoft.com/en-us/windows/powertoys/"/>
+  <id>https://learn.microsoft.com/en-us/windows/powertoys/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Windows’a eksik özellikleri ekleyen resmi araç seti: pencere yerleşimi (FancyZones), toplu yeniden adlandırma, renk seçici, metin çıkarma. Üçüncü parti araçlardan farkı Microsoft’un kendi geliştirip açık kaynak tutması — güncellemelerle uyumu bozulmuyor.</summary>
+</entry>
+<entry>
+  <title>Rufus</title>
+  <link href="https://rufus.ie/en/"/>
+  <id>https://rufus.ie/en/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Önyüklenebilir USB hazırlayan Windows aracı; ISO’yu yazarken UEFI/BIOS ve bölümleme ayrıntılarını kendisi çözüyor. Diğer yazıcılardan farkı Windows 11 kurulumundaki TPM ve hesap zorunluluğunu kaldıran seçenekleri sunması.</summary>
+</entry>
+<entry>
+  <title>Snapdrop</title>
+  <link href="https://snapdrop.net/"/>
+  <id>https://snapdrop.net/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Aynı ağdaki cihazlar arasında tarayıcıdan dosya aktarımı; WebRTC ile doğrudan bağlanıyor. AirDrop’tan farkı işletim sistemi gözetmemesi — Android ile Mac arasında da çalışıyor, kurulum ve hesap istemiyor.</summary>
+</entry>
+<entry>
+  <title>GitHub Gist</title>
+  <link href="https://gist.github.com"/>
+  <id>https://gist.github.com</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Tek dosyalık kod parçalarını sürüm geçmişiyle paylaşma servisi; yorum ve çatallama desteği olduğu için pastebin’den kalıcı.</summary>
+</entry>
+<entry>
+  <title>Pastebin</title>
+  <link href="https://pastebin.com"/>
+  <id>https://pastebin.com</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Metin ve günlük paylaşmanın en basit yolu; sözdizimi vurgulama ve süre sınırı var. Hassas veri yapıştırmamak gerektiğini akılda tutmalı.</summary>
+</entry>
+<entry>
+  <title>Udeler GUI</title>
+  <link href="https://github.com/ZeoRexDevs/Udeler_GUI"/>
+  <id>https://github.com/ZeoRexDevs/Udeler_GUI</id>
+  <updated>2026-07-29T08:03:52Z</updated>
+  <summary>Satın aldığın Udemy kurslarını çevrimdışı izlemek için indiriyor. Erişimin olan içeriği arşivleme aracı; kurs erişimi kaldırıldığında elinde kalıyor.</summary>
+</entry>
+<entry>
+  <title>AppList</title>
+  <link href="https://sxp.studio/apps/applist"/>
+  <id>https://sxp.studio/apps/applist</id>
+  <updated>2026-07-07T06:49:13Z</updated>
+  <summary>iPhone için metin listesi biçiminde uygulama başlatıcı. Simge ızgarasının dikkat çekiciliğini kaldırıyor; dijital minimalizm tarafında bilinçli bir sürtünme.</summary>
+</entry>
+<entry>
+  <title>MacroDroid</title>
+  <link href="https://www.macrodroid.com/"/>
+  <id>https://www.macrodroid.com/</id>
+  <updated>2026-06-08T14:36:48Z</updated>
+  <summary>Android’de tetikleyici-eylem kuralları kuruyorsun: konuma girince Wi-Fi aç, şarj olurken sessize al. Tasker kadar güçlü değil ama arayüzü kat kat anlaşılır.</summary>
+</entry>
+<entry>
+  <title>Araç Serisi (oynatma listesi)</title>
+  <link href="https://www.youtube.com/watch?v=uOPl7ZzuXf8&amp;list=PLi2GhhsPL-RrapHA_Z8c1GG_qM3Nzdd0j&amp;index=2"/>
+  <id>https://www.youtube.com/watch?v=uOPl7ZzuXf8&amp;list=PLi2GhhsPL-RrapHA_Z8c1GG_qM3Nzdd0j&amp;index=2</id>
+  <updated>2026-03-29T18:19:46Z</updated>
+  <summary>Araç ve iş akışı üzerine çok bölümlü seri; tek videodan farkı konuyu adım adım derinleştirmesi.</summary>
+</entry>
+<entry>
+  <title>Siteyi Çevrimdışı İndirme</title>
+  <link href="https://dynomapper.com/blog/inventory-content/how-to-download-a-website-for-offline-viewing/"/>
+  <id>https://dynomapper.com/blog/inventory-content/how-to-download-a-website-for-offline-viewing/</id>
+  <updated>2025-11-10T23:10:14Z</updated>
+  <summary>Bir siteyi çevrimdışı arşivleme yöntemlerini karşılaştıran rehber (wget, HTTrack ve diğerleri). Kaybolma riski olan dokümantasyon için pratik bir hazırlık.</summary>
+</entry>
+<entry>
+  <title>Geliştirici Araçları (video)</title>
+  <link href="https://www.youtube.com/watch?v=rbu7Zu5X1zI"/>
+  <id>https://www.youtube.com/watch?v=rbu7Zu5X1zI</id>
+  <updated>2025-08-02T12:49:14Z</updated>
+  <summary>Geliştirici araç zinciri üzerine anlatım; yazılı dokümana alternatif olarak izleyerek öğrenmek için.</summary>
 </entry>
 </feed>

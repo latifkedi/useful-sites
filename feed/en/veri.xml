@@ -7,11 +7,25 @@
 <id>https://latifkedi.github.io/useful-sites/feed/en/veri.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
+  <title>Awesome ArcGIS Developer</title>
+  <link href="https://github.com/Esri/awesome-arcgis-developer"/>
+  <id>https://github.com/Esri/awesome-arcgis-developer</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Developer resources for ArcGIS, the mapping and location-analysis platform.</summary>
+</entry>
+<entry>
   <title>Awesome Core ML Models</title>
   <link href="https://github.com/likedan/Awesome-CoreML-Models"/>
   <id>https://github.com/likedan/Awesome-CoreML-Models</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A list of ready machine-learning models for Apple’s Core ML framework.</summary>
+</entry>
+<entry>
+  <title>Awesome CSV</title>
+  <link href="https://github.com/secretGeek/awesomeCSV"/>
+  <id>https://github.com/secretGeek/awesomeCSV</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of tools and resources for CSV, the tabular-data file format.</summary>
 </entry>
 <entry>
   <title>Awesome Deep Learning</title>
@@ -42,6 +56,13 @@
   <summary>A list for JAX, which offers automatic differentiation and XLA compilation.</summary>
 </entry>
 <entry>
+  <title>Awesome JSON</title>
+  <link href="https://github.com/burningtree/awesome-json"/>
+  <id>https://github.com/burningtree/awesome-json</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of tools and resources for JSON, the text-based data-interchange format.</summary>
+</entry>
+<entry>
   <title>Awesome Jupyter</title>
   <link href="https://github.com/markusschanta/awesome-jupyter"/>
   <id>https://github.com/markusschanta/awesome-jupyter</id>
@@ -54,6 +75,13 @@
   <id>https://github.com/accelerated-text/awesome-nlg</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A list for generating text from data or dialogue (natural-language generation).</summary>
+</entry>
+<entry>
+  <title>Awesome OpenStreetMap</title>
+  <link href="https://github.com/osmlab/awesome-openstreetmap"/>
+  <id>https://github.com/osmlab/awesome-openstreetmap</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of tools and resources for OpenStreetMap, the open map-data project.</summary>
 </entry>
 <entry>
   <title>Awesome Public Datasets</title>
@@ -257,33 +285,5 @@
   <id>https://mlcourse.ai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>An open machine learning course whose pairing of theory with Kaggle competition assignments separates it from lecture-only material.</summary>
-</entry>
-<entry>
-  <title>MLU-Explain</title>
-  <link href="https://mlu-explain.github.io/"/>
-  <id>https://mlu-explain.github.io/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Amazon’s set explaining machine learning concepts through interactive visuals — you drag a parameter and watch the model change.</summary>
-</entry>
-<entry>
-  <title>pandas</title>
-  <link href="https://pandas.pydata.org/"/>
-  <id>https://pandas.pydata.org/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The standard library for tabular data. Unlike Excel every transformation is reproducible code; it works in memory, so the data has to fit in RAM.</summary>
-</entry>
-<entry>
-  <title>Papers with Code</title>
-  <link href="https://paperswithcode.com/"/>
-  <id>https://paperswithcode.com/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A site pairing machine-learning papers with their implementation code and benchmark tables. Unlike a paper alone it puts the result’s code and the leaderboard beside it.</summary>
-</entry>
-<entry>
-  <title>Plotly</title>
-  <link href="https://plotly.com/"/>
-  <id>https://plotly.com/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An interactive charting library with zoom, tooltips and selection built in. Matplotlib produces a static image; this produces a chart you can explore in the browser.</summary>
 </entry>
 </feed>

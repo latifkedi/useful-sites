@@ -361,6 +361,19 @@
     "src": "bwapsv"
   },
   {
+    "url": "https://tr.wikipedia.org/wiki/DjVu",
+    "name": "DjVu",
+    "tags": [
+      "ücretsiz",
+      "türkçe",
+      "referans"
+    ],
+    "tr": "Taranmış belgeler için PDF’e alternatif biçim; aynı kalitede çok daha küçük dosya üretiyor. Eski arşivlerde sık karşına çıkar, ne olduğunu bilmek gerekir.",
+    "en": "A PDF alternative for scanned documents producing much smaller files at the same quality. You meet it often in older archives, so it is worth knowing what it is.",
+    "src": "kedi",
+    "added": 1782368459
+  },
+  {
     "url": "https://www.drawio.com/",
     "name": "draw.io",
     "tags": [
@@ -723,6 +736,16 @@
     "src": "bwapsv"
   },
   {
+    "url": "https://www.lucidchart.com/",
+    "name": "Lucidchart",
+    "tags": [
+      "freemium"
+    ],
+    "tr": "Diyagram ve akış şeması için ekip iş birliğine açık çevrimiçi araç.",
+    "en": "An online tool for diagrams and flowcharts with team collaboration.",
+    "src": "awesomeproj"
+  },
+  {
     "url": "https://www.manypixels.co/gallery",
     "name": "ManyPixels Gallery",
     "tags": [
@@ -745,6 +768,18 @@
     "src": "cdcruz"
   },
   {
+    "url": "https://mermaid.js.org/",
+    "name": "Mermaid",
+    "tags": [
+      "açık-kaynak",
+      "görsel-üretim",
+      "dokümantasyon"
+    ],
+    "tr": "Akış şeması ve diyagramları metinden üreten araç — “diyagramların Markdown’ı”. Çizim programlarından farkı diyagramı koda gömüp sürüm kontrolünde tutabilmen.",
+    "en": "A tool generating flowcharts and diagrams from text — “Markdown for diagrams”. Unlike drawing programs you embed the diagram as code and keep it in version control.",
+    "src": "kedi"
+  },
+  {
     "url": "https://mermaid.live/edit",
     "name": "Mermaid Live Editor",
     "tags": [
@@ -756,6 +791,17 @@
     "en": "Generates diagrams from text, so the source lives in version control with a readable diff. GitHub and GitLab render Mermaid natively.",
     "src": "kedi",
     "added": 1762796013
+  },
+  {
+    "url": "https://miro.com/",
+    "name": "Miro",
+    "tags": [
+      "interaktif",
+      "freemium"
+    ],
+    "tr": "Gerçek zamanlı, sonsuz beyaz tahta; diyagram ve beyin fırtınası için.",
+    "en": "A real-time, infinite whiteboard for diagrams and brainstorming.",
+    "src": "awesomeproj"
   },
   {
     "url": "https://mobbin.com",

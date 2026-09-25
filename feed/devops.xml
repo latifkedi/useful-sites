@@ -126,6 +126,13 @@
   <summary>Kubernetes uygulamalarını paketleyip dağıtan paket yöneticisi (&quot;chart&quot;lar).</summary>
 </entry>
 <entry>
+  <title>JitPack</title>
+  <link href="https://jitpack.io"/>
+  <id>https://jitpack.io</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Jar yayımlamayan GitHub depolarını doğrudan bağımlılık olarak kullanılabilir yapan servis.</summary>
+</entry>
+<entry>
   <title>K9s</title>
   <link href="https://k9scli.io"/>
   <id>https://k9scli.io</id>
@@ -145,6 +152,13 @@
   <id>https://opentofu.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Terraform'un topluluk güdümlü açık kaynak çatalı; aynı yapılandırmayı çalıştırır.</summary>
+</entry>
+<entry>
+  <title>Pants</title>
+  <link href="https://www.pantsbuild.org/"/>
+  <id>https://www.pantsbuild.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Çok dilli, büyük tek-depo (monorepo) projeleri için ölçeklenen derleme sistemi (Twitter kökenli).</summary>
 </entry>
 <entry>
   <title>Portainer</title>
@@ -271,19 +285,5 @@
   <id>https://www.make.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>Senaryolar dallanma, döngü ve hata işleme taşıyabiliyor; Zapier’in doğrusal adım modeline göre karmaşık akışlarda daha rahat. Öğrenme eğrisi de buna paralel olarak dik.</summary>
-</entry>
-<entry>
-  <title>n8n</title>
-  <link href="https://n8n.io/"/>
-  <id>https://n8n.io/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Görsel düğüm editörü; kendi sunucunda çalıştırdığında çalıştırma sayısı sınırsız. Düğüm içine JavaScript yazabiliyorsun, yani no-code duvarına toslamıyorsun.</summary>
-</entry>
-<entry>
-  <title>Pipedream</title>
-  <link href="https://pipedream.com/"/>
-  <id>https://pipedream.com/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Her adım Node.js ya da Python kodu olabiliyor ve npm/PyPI paketi çekebiliyor. Görsel otomasyonla gerçek kod arasındaki boşluğu kapatan seçenek.</summary>
 </entry>
 </feed>

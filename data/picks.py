@@ -168,6 +168,27 @@ PICKS = {
     'https://www.coingecko.com',                                                     # CoinGecko
     # --- guvenlik
     'https://www.privacyguides.org/en/',                                             # Privacy Guides
+    # --- ogrenme/referans/araclar bolunmesi
+    # --- kitaplik
+    'https://github.com/EbookFoundation/free-programming-books',                     # Free Programming Books
+    'https://aosabook.org/en/index.html',                                            # The Architecture of Open Source Applications
+    'https://jakevdp.github.io/PythonDataScienceHandbook/',                          # Python Data Science Handbook
+    # --- koleksiyon
+    'https://alternativeto.net/',                                                    # AlternativeTo
+    'https://libraries.io/',                                                         # Libraries.io
+    # --- acik_kaynak
+    'https://www.firsttimersonly.com',                                               # First Timers Only
+    'https://opensource.guide/',                                                     # Open Source Guides
+    'https://up-for-grabs.net',                                                      # Up For Grabs
+    # --- editor
+    'https://code.visualstudio.com/',                                                # Visual Studio Code
+    'https://neovim.io/',                                                            # Neovim
+    # --- oyunalani
+    'https://codepen.io',                                                            # CodePen
+    'https://replit.com/',                                                           # Replit
+    # --- araclar
+    'https://learn.microsoft.com/en-us/windows/powertoys/',                          # Microsoft PowerToys
+    'https://www.voidtools.com/',                                                    # Everything
 }
 
 

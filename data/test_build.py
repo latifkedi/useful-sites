@@ -35,7 +35,7 @@ from tags import CANON, LABELS          # noqa: E402
 from emit import SITE as EMIT_SITE      # noqa: E402
 
 MIN_RECORDS = 1850
-MIN_CATEGORIES = 37
+MIN_CATEGORIES = 43
 
 MIN_DESC = 30
 TRACKING = re.compile(r'[?&](utm_[a-z]+|fbclid|gclid|ab_channel|si|ref|ref_src|mc_[ce]id|igshid)=', re.I)

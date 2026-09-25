@@ -126,6 +126,13 @@
   <summary>A package manager that packages and deploys Kubernetes applications as charts.</summary>
 </entry>
 <entry>
+  <title>JitPack</title>
+  <link href="https://jitpack.io"/>
+  <id>https://jitpack.io</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Makes GitHub repos that don’t publish jars usable directly as dependencies.</summary>
+</entry>
+<entry>
   <title>K9s</title>
   <link href="https://k9scli.io"/>
   <id>https://k9scli.io</id>
@@ -145,6 +152,13 @@
   <id>https://opentofu.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A community-driven open-source fork of Terraform that runs the same configurations.</summary>
+</entry>
+<entry>
+  <title>Pants</title>
+  <link href="https://www.pantsbuild.org/"/>
+  <id>https://www.pantsbuild.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A build system that scales to large, multi-language monorepos (originated at Twitter).</summary>
 </entry>
 <entry>
   <title>Portainer</title>
@@ -271,19 +285,5 @@
   <id>https://www.make.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>Scenarios carry branching, loops and error handling, which makes complex flows easier than Zapier’s linear steps. The learning curve is correspondingly steeper.</summary>
-</entry>
-<entry>
-  <title>n8n</title>
-  <link href="https://n8n.io/"/>
-  <id>https://n8n.io/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A visual node editor with unmetered executions when self-hosted. You can drop JavaScript into a node, so you do not hit the usual no-code wall.</summary>
-</entry>
-<entry>
-  <title>Pipedream</title>
-  <link href="https://pipedream.com/"/>
-  <id>https://pipedream.com/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Any step can be Node.js or Python and can pull an npm or PyPI package. The option that closes the gap between visual automation and real code.</summary>
 </entry>
 </feed>

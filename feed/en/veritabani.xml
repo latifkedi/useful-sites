@@ -28,11 +28,25 @@
   <summary>A list of extensions, tools and resources for PostgreSQL. Unlike the official docs it shows the ecosystem’s extensions and management tools together.</summary>
 </entry>
 <entry>
+  <title>Beekeeper Studio</title>
+  <link href="https://www.beekeeperstudio.io/"/>
+  <id>https://www.beekeeperstudio.io/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>An open-source SQL editor and manager supporting many databases.</summary>
+</entry>
+<entry>
   <title>CockroachDB</title>
   <link href="https://www.cockroachlabs.com"/>
   <id>https://www.cockroachlabs.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A distributed SQL database that scales horizontally with strong consistency and survivability.</summary>
+</entry>
+<entry>
+  <title>ConnectionStrings.com</title>
+  <link href="https://www.connectionstrings.com/"/>
+  <id>https://www.connectionstrings.com/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A reference giving the correct connection-string format for every database and driver. Unlike hunting the docs it gathers the syntax of dozens of drivers in one place.</summary>
 </entry>
 <entry>
   <title>dbdiagram.io</title>
@@ -82,6 +96,13 @@
   <id>https://pgexercises.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Practise SQL with graded PostgreSQL exercises in the browser.</summary>
+</entry>
+<entry>
+  <title>Redis Insight</title>
+  <link href="https://redis.io/insight/"/>
+  <id>https://redis.io/insight/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Redis's official GUI — browse, edit, query and profile your data. The successor to tools like RESP.app (RedisDesktopManager).</summary>
 </entry>
 <entry>
   <title>SQLBolt</title>
