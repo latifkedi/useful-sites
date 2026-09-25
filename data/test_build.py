@@ -195,6 +195,20 @@ def main():
         check(('canonical" href="%s/%s"' % (EMIT_SITE, rel)) in h,
               'self-canonical on ' + rel)
 
+    # Sitedeki gonderim formu kategoriyi Ingilizce etiketiyle onceden seciyor;
+    # issue formunda o etiket yoksa GitHub secimi sessizce yok sayiyor.
+    form = io.open(os.path.join(ROOT, '.github', 'ISSUE_TEMPLATE', 'new-link.yml'),
+                   encoding='utf-8').read().split(chr(10))
+    i = form.index('    id: cat')
+    secenek = []
+    for satir in form[i:]:
+        if satir.startswith('        - '):
+            secenek.append(json.loads(satir[10:]))
+        elif secenek:
+            break
+    check(secenek == [c[2] for c in CATS] + ['Not sure'],
+          'issue form categories match notes.CATS exactly')
+
     ix = io.open(os.path.join(ROOT, 'index.html'), encoding='utf-8').read()
     check('links.js?v=' in ix, 'links.js carries a cache stamp')
     check('app.js?v=' in ix and 'app.js?v=0"' not in ix, 'app.js carries a real cache stamp')

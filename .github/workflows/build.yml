@@ -37,12 +37,14 @@ jobs:
 
       # The generated files are committed, so a rebuild must be a no-op. If it
       # is not, someone edited links.js or a category page by hand and the next
-      # build would quietly discard the change.
+      # build would quietly discard the change. index.html (its cache stamps),
+      # the per-category feeds and the issue form's category list are generated
+      # too; they were missing from this list, so they could drift unnoticed.
       - name: Committed output matches a fresh build
         run: |
-          if ! git diff --quiet -- links.js links.en.js sitemap.xml robots.txt feed.xml k/; then
+          if ! git diff --quiet -- links.js links.en.js index.html sitemap.xml robots.txt feed.xml k/ feed/ .github/ISSUE_TEMPLATE/new-link.yml; then
             echo "::error::A rebuild changed the committed output. Run 'python data/build.py' and commit the result."
-            git --no-pager diff --stat -- links.js links.en.js sitemap.xml robots.txt feed.xml k/
+            git --no-pager diff --stat -- links.js links.en.js index.html sitemap.xml robots.txt feed.xml k/ feed/ .github/ISSUE_TEMPLATE/new-link.yml
             exit 1
           fi
           echo "clean"

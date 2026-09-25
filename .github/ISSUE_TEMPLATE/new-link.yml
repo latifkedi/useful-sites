@@ -34,27 +34,39 @@ body:
     attributes:
       label: Category
       options:
-        - Learning & Roadmaps
-        - Practice & Challenges
-        - Programming Languages
-        - Web & Frontend
-        - Backend, API & System Design
-        - Mobile & Desktop
-        - Databases
-        - DevOps & Infrastructure
-        - Networking & Sysadmin
-        - Security & Privacy
-        - Data Science & ML
-        - AI · Models & Assistants
-        - AI · Agents, RAG & Infra
-        - AI · Applied Tools
-        - Hardware, CAD & Embedded
-        - Smart Glasses & Wearables
-        - Quantum Computing
-        - Tools & Utilities
-        - Reference & Collections
-        - Science & Academia
-        - Not sure
+        - "Programming Languages"
+        - "Web & Frontend"
+        - "Backend, API & System Design"
+        - "Mobile & Desktop"
+        - "Databases"
+        - "Practice & Challenges"
+        - "Testing & QA"
+        - "Game Development"
+        - "AI · Models & Assistants"
+        - "AI · Agents & Infrastructure"
+        - "AI · RAG, Embeddings & Vectors"
+        - "AI · Applied Tools"
+        - "AI · Generative Media"
+        - "DevOps & Infrastructure"
+        - "Networking & Sysadmin"
+        - "Self-Hosting & Personal Cloud"
+        - "Hardware, CAD & Embedded"
+        - "Electrical & Electronics"
+        - "Smart Glasses & Wearables"
+        - "Security & Privacy"
+        - "Data Science & ML"
+        - "Data Engineering"
+        - "Science & Academia"
+        - "Mathematics"
+        - "Quantum Computing"
+        - "Economics & Finance"
+        - "Media, Design & Files"
+        - "Architecture & Building"
+        - "Learning & Roadmaps"
+        - "Reference & Collections"
+        - "Tools & Utilities"
+        - "Piracy & FMHY"
+        - "Not sure"
     validations:
       required: true
 

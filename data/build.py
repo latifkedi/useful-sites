@@ -188,6 +188,7 @@ io.open(os.path.join(D, '..', 'links.en.js'), 'w', encoding='utf-8', newline='\n
 # The text version, for crawlers and for visitors without JavaScript:
 # category pages, sitemap, robots and the Atom feed. The app is untouched.
 _pages = emit.write_all(core, CATS, INTROS, LABELS, os.path.join(D, '..'), en)
+emit.write_issue_form(CATS, os.path.join(D, '..'))
 
 # ------------------------------------------------------------------ cache stamp
 # The address of links.js never changes, so after an update a browser can serve

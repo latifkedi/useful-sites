@@ -588,3 +588,33 @@ def _feed(core, label, out_dir):
     parts.append('</feed>')
     io.open(os.path.join(out_dir, 'feed.xml'), 'w',
             encoding='utf-8', newline='\n').write('\n'.join(parts) + '\n')
+
+
+# ------------------------------------------------------------------ issue form
+# The "Suggest a link" form had its own hand-kept category list. It drifted:
+# twelve categories added later were missing, and one it did have no longer
+# matched ("AI · Agents, RAG & Infra"). The site's submit dialog preselects the
+# category by its English label, and GitHub silently ignores a value that is
+# not among the options -- so the choice was lost for a third of the directory.
+# The options are rewritten from notes.CATS on every build now.
+ISSUE_FORM = os.path.join('.github', 'ISSUE_TEMPLATE', 'new-link.yml')
+
+
+def write_issue_form(cats, out_dir):
+    path = os.path.join(out_dir, ISSUE_FORM)
+    if not os.path.exists(path):
+        return None
+    src = io.open(path, encoding='utf-8').read()
+    lines = src.split('\n')
+    try:
+        i = lines.index('    id: cat')
+        o = next(n for n in range(i, len(lines)) if lines[n].strip() == 'options:')
+        v = next(n for n in range(o + 1, len(lines)) if not lines[n].startswith('        - '))
+    except (ValueError, StopIteration):
+        raise ValueError('%s: could not find the category options block' % ISSUE_FORM)
+    opts = ['        - ' + json.dumps(c[2], ensure_ascii=False) for c in cats]
+    opts.append('        - "Not sure"')
+    out = '\n'.join(lines[:o + 1] + opts + lines[v:])
+    if out != src:
+        io.open(path, 'w', encoding='utf-8', newline='\n').write(out)
+    return path
