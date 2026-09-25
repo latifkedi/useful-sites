@@ -18,6 +18,7 @@ Writes:
 """
 import io
 import os
+import re
 import json
 import datetime
 
@@ -619,3 +620,79 @@ def write_issue_form(cats, out_dir):
     if out != src:
         io.open(path, 'w', encoding='utf-8', newline='\n').write(out)
     return path
+
+
+# ------------------------------------------------------------------ homepage
+# The homepage used to be empty until links.js (190 KB gzipped) had downloaded
+# and run: nothing to read on a slow connection for seconds. Its content is
+# now written into index.html at build time -- the same markup homeHTML()
+# produces for Turkish, from the same data -- so the first paint already shows
+# the ten fields. app.js leaves this block in place on its first render
+# (data-pre); re-rendering identical markup would replay the fade-in.
+# These strings mirror app.js T.tr; test_build checks they have not drifted.
+HOME_TX = {
+    'lead': ('Yazılımdan ekonomiye, mimariden açık erişime <b>%d</b> bağlantı; %d alan, '
+             '%d başlık. Her kayıtta iki şey yazılı: ne işe yaradığı ve benzerlerinden '
+             'nerede ayrıldığı.'),
+    'hStart': 'Buradan Başla',
+    'areas': 'Alanlar',
+    'recent': 'Son Eklenenler',
+    'hAll': 'Tümünü tek listede gör →',
+}
+
+
+def _first(t):
+    # app.js firstSentence(): the first sentence of 40-150 characters.
+    m = re.match(r'^(.{40,150}?[.!?])(\s|$)', t or '')
+    return m.group(1) if m else (t or '')[:120]
+
+
+def home_html(core, cats, groups):
+    bycat = {}
+    for d in core:
+        bycat[d['cat']] = bycat.get(d['cat'], 0) + 1
+    lbl = dict((c[0], c[1]) for c in cats)
+
+    seen, strip = set(), []
+    for d in core:
+        if d.get('pick') and d['cat'] not in seen and len(strip) < 6:
+            seen.add(d['cat'])
+            strip.append(d)
+
+    cards = []
+    for g in groups:
+        n = sum(bycat.get(k, 0) for k in g['cats'])
+        if not n:
+            continue
+        full = [k for k in g['cats'] if bycat.get(k)]
+        link = ('href="?cat=%s" data-cat="%s"' % (esc(full[0]), esc(full[0])) if len(full) == 1
+                else 'href="?f=%s" data-field="%s"' % (esc(g['key']), esc(g['key'])))
+        cards.append('<a class="fcard" %s><span class="ft">%s<span class="n">%d</span></span>'
+                     '<p class="fd">%s</p><span class="fs">%s</span></a>'
+                     % (link, esc(g['tr']), n, esc(g['note_tr']),
+                        esc(' · '.join(lbl[k] for k in full))))
+
+    picks = ''
+    if strip:
+        picks = ('<p class="hsec">%s</p><div class="hpicks">%s</div>'
+                 % (esc(HOME_TX['hStart']), ''.join(
+                     '<div class="hpick"><a href="%s" target="_blank" rel="noopener noreferrer">'
+                     '%s</a><p>%s</p></div>' % (esc(d['url']), esc(d['name']), esc(_first(d['tr'])))
+                     for d in strip)))
+    return ('<div class="home" data-pre="1"><p class="lead">%s</p>%s'
+            '<p class="hsec">%s</p><div class="fcards">%s</div>'
+            '<p class="hlinks"><a href="?new=1" data-recent="1">%s →</a>'
+            '<a href="?sort=az" data-all="1">%s</a></p></div>'
+            % (HOME_TX['lead'] % (len(core), len(groups), len(bycat)), picks,
+               esc(HOME_TX['areas']), ''.join(cards), esc(HOME_TX['recent']),
+               esc(HOME_TX['hAll'])))
+
+
+def write_home(core, cats, groups, out_dir):
+    path = os.path.join(out_dir, 'index.html')
+    src = io.open(path, encoding='utf-8').read()
+    out = re.sub(r'(<main id="list" tabindex="-1">)(.*?)(</main>)',
+                 lambda m: m.group(1) + home_html(core, cats, groups) + m.group(3),
+                 src, count=1, flags=re.S)
+    if out != src:
+        io.open(path, 'w', encoding='utf-8', newline='').write(out)

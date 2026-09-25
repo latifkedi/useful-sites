@@ -27,12 +27,12 @@ ROOT = os.path.dirname(D)
 sys.path.insert(0, D)
 
 import readlinks                        # noqa: E402
-from notes import CATS, GROUPS, load_records  # noqa: E402
+from notes import CATS, GROUPS, FIELD_NOTES, load_records  # noqa: E402
 from intros import INTROS               # noqa: E402
 from picks import PICKS                 # noqa: E402
 from sources import SOURCES             # noqa: E402
 from tags import CANON, LABELS, FACETS  # noqa: E402
-from emit import SITE as EMIT_SITE      # noqa: E402
+from emit import SITE as EMIT_SITE, HOME_TX, esc as esc_html  # noqa: E402
 
 MIN_RECORDS = 1850
 MIN_CATEGORIES = 43
@@ -156,6 +156,11 @@ def main():
           + (' -- twice: %s' % sorted({k for k in alan if alan.count(k) > 1})
              if len(alan) != len(set(alan)) else ''))
 
+    notsuz = [g[0] for g in GROUPS
+              if not (g[0] in FIELD_NOTES and all(FIELD_NOTES[g[0]]))]
+    check(not notsuz, 'every field has a one-line note in both languages'
+          + (' -- %s' % notsuz if notsuz else ''))
+
     print('picks')
     urls = {d['url'] for d in rows}
     kayip = sorted(PICKS - urls)
@@ -216,6 +221,15 @@ def main():
 
     ix = io.open(os.path.join(ROOT, 'index.html'), encoding='utf-8').read()
     check('links.js?v=' in ix, 'links.js carries a cache stamp')
+    # The pre-rendered homepage must describe the same fields app.js would draw,
+    # and its strings must still be the ones app.js uses (they are copies).
+    on = ix[ix.index('<main id="list"'):ix.index('</main>')]
+    check('data-pre="1"' in on and all(esc_html(g[1]) in on for g in GROUPS),
+          'index.html carries the pre-rendered homepage with every field')
+    app = io.open(os.path.join(ROOT, 'app.js'), encoding='utf-8').read()
+    kopya = [k for k, v in HOME_TX.items() if (v.split('%')[0] if k == 'lead' else v) not in app]
+    check(not kopya, 'pre-render strings still match app.js'
+          + (' -- drifted: %s' % kopya if kopya else ''))
     check('app.js?v=' in ix and 'app.js?v=0"' not in ix, 'app.js carries a real cache stamp')
     check("'unsafe-inline'" not in ix.split('script-src', 1)[1].split(';', 1)[0],
           'no inline script allowed by the CSP')

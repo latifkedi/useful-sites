@@ -28,18 +28,6 @@ var T = {
     clear:"Filtreleri Temizle",
     back:"← Tüm Kategoriler",
     backFields:"← Tüm Alanlar",
-    fields:{
-      yazilim:"Diller, web, backend, mobil, veritabanı, pratik, test ve oyun.",
-      yapayzeka:"Modeller, altyapı, RAG, araçlar ve üretken yapay zeka.",
-      sistem:"DevOps, ağ, barındırma, donanım, elektronik ve giyilebilir.",
-      guvenlikalan:"Gizlilik; saldırı, savunma ve OSINT; CTF ve laboratuvarlar; sertifika ve kariyer.",
-      verialan:"Veri kaynakları, veri setleri ve veri mühendisliği.",
-      bilimmat:"Bilim, matematik ve kuantum.",
-      ekonomialan:"İktisat verisi ve araştırması; piyasa, değerleme ve kripto araçları.",
-      tasarim:"Tasarım ve medya araçları, mimari.",
-      ogrenmealan:"Yol haritaları ve kitaplar; başvuru ve listeler; açık kaynak; editörler, kod alanları ve küçük araçlar.",
-      korsanalan:"Yasal açık erişim ve arşivler; korsan meta-merkezleri ve araç zinciri."
-    },
     areas:"Alanlar",
     qLabel:"Dizinde ara", themeLabel:"Temayı değiştir", topLabel:"Yukarı çık",
     rand:"Rastgele", lang:"EN",
@@ -114,18 +102,6 @@ var T = {
     clear:"Clear Filters",
     back:"← All Categories",
     backFields:"← All Areas",
-    fields:{
-      yazilim:"Languages, web, backend, mobile, databases, practice, testing and games.",
-      yapayzeka:"Models, infrastructure, RAG, tooling and generative AI.",
-      sistem:"DevOps, networking, hosting, hardware, electronics and wearables.",
-      guvenlikalan:"Privacy; offence, defence and OSINT; CTFs and labs; certification and career.",
-      verialan:"Data sources, datasets and data engineering.",
-      bilimmat:"Science, mathematics and quantum.",
-      ekonomialan:"Economic data and research; market, valuation and crypto tools.",
-      tasarim:"Design and media tools, architecture.",
-      ogrenmealan:"Roadmaps and books; references and lists; open source; editors, playgrounds and small tools.",
-      korsanalan:"Legal open access and archives; piracy meta-hubs and the toolchain."
-    },
     areas:"Areas",
     qLabel:"Search the directory", themeLabel:"Toggle theme", topLabel:"Back to top",
     rand:"Random", lang:"TR",
@@ -640,7 +616,7 @@ function homeHTML(L){
                      .map(function(k){ return catName(k) }).join(" · ");
     return '<a class="fcard" '+fieldLink(g)+'>'+
              '<span class="ft">'+esc(g[lang])+'<span class="n">'+n+'</span></span>'+
-             '<p class="fd">'+esc((L.fields||{})[g.key] || "")+'</p>'+
+             '<p class="fd">'+esc(g["note_" + lang] || "")+'</p>'+
              '<span class="fs">'+esc(subs)+'</span>'+
            '</a>';
   }).join("");
@@ -682,7 +658,7 @@ function fieldHTML(fk, L){
   var n = g.cats.reduce(function(s, k){ return s + (BYCAT[k] ? BYCAT[k].length : 0) }, 0);
   return '<div class="home fieldpage">'+
     '<div class="fhero"><h2 class="fht">'+esc(g[lang])+'<span class="n">'+n+'</span></h2>'+
-      '<p class="fhd">'+esc((L.fields||{})[fk] || "")+'</p></div>'+
+      '<p class="fhd">'+esc(g["note_" + lang] || "")+'</p></div>'+
     '<div class="cards">'+cards+'</div>'+
   '</div>';
 }
@@ -815,7 +791,14 @@ function render(){
   /* Gezinme gorunumleri: hicbir suzgec yokken kayit degil once alanlar,
      bir alana girildiyse o alanin alt kategorileri gosterilir. */
   browsing = browsing && !single;
-  if(browsing && !activeCat && !activeField){ $("#list").innerHTML = homeHTML(L); return; }
+  if(browsing && !activeCat && !activeField){
+    /* build.py girisi index.html'e onceden ciziyor (data-pre). Ilk acilista
+       Turkce ise oldugu gibi birakiliyor; ayni markup'i yeniden yazmak belirme
+       animasyonunu ikinci kez oynatip sayfayi titretirdi. */
+    var pre = document.querySelector("#list [data-pre]");
+    if(pre && lang === "tr"){ pre.removeAttribute("data-pre"); return; }
+    $("#list").innerHTML = homeHTML(L); return;
+  }
   if(browsing && !activeCat && activeField){ $("#list").innerHTML = fieldHTML(activeField, L); return; }
 
   if(!shown.length){

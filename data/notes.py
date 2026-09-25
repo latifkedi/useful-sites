@@ -118,6 +118,31 @@ GROUPS = [
      ['acik_erisim', 'korsan']),
 ]
 
+# One line per field, shown on its card. Kept with the data rather than in
+# app.js so the build can pre-render the homepage from the same source.
+FIELD_NOTES = {
+    'yazilim': ('Diller, web, backend, mobil, veritabanı, pratik, test ve oyun.',
+                'Languages, web, backend, mobile, databases, practice, testing and games.'),
+    'yapayzeka': ('Modeller, altyapı, RAG, araçlar ve üretken yapay zeka.',
+                  'Models, infrastructure, RAG, tooling and generative AI.'),
+    'sistem': ('DevOps, ağ, öz-barındırma ve medya sunucuları, donanım, elektronik ve giyilebilir.',
+               'DevOps, networking, self-hosting and media servers, hardware, electronics and wearables.'),
+    'guvenlikalan': ('Gizlilik; saldırı, savunma ve OSINT; CTF ve laboratuvarlar; sertifika ve kariyer.',
+                     'Privacy; offence, defence and OSINT; CTFs and labs; certification and career.'),
+    'verialan': ('Veri bilimi, veri kaynakları ve veri mühendisliği.',
+                 'Data science, data sources and data engineering.'),
+    'bilimmat': ('Bilim, matematik ve kuantum.', 'Science, mathematics and quantum.'),
+    'ekonomialan': ('İktisat verisi ve araştırması; piyasa, değerleme ve kripto araçları.',
+                    'Economic data and research; market, valuation and crypto tools.'),
+    'tasarim': ('Tasarım ve medya araçları, mimari.', 'Design and media tools, architecture.'),
+    'ogrenmealan': ('Yol haritaları ve kitaplar; başvuru ve listeler; açık kaynak; editörler, '
+                    'kod alanları ve küçük araçlar.',
+                    'Roadmaps and books; references and lists; open source; editors, playgrounds '
+                    'and small tools.'),
+    'korsanalan': ('Yasal açık erişim ve arşivler; korsan meta-merkezleri ve araç zinciri.',
+                   'Legal open access and archives; piracy meta-hubs and the toolchain.'),
+}
+
 NOTES_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'notes')
 
 REQUIRED = ('url', 'name', 'tags', 'tr', 'en', 'src')

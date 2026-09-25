@@ -24,7 +24,7 @@ import collections
 
 D = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, D)
-from notes import load_records, key, CATS, GROUPS  # noqa: E402
+from notes import load_records, key, CATS, GROUPS, FIELD_NOTES  # noqa: E402
 from tags import normalise, LABELS, FACETS  # noqa: E402
 from picks import PICKS               # noqa: E402
 from sources import SOURCES           # noqa: E402
@@ -170,7 +170,8 @@ for i, r in enumerate(core):
         r['rel'] = rel
 
 J = dict(ensure_ascii=False, separators=(',', ':'))
-groups = [{'key': k, 'tr': tr, 'en': en_, 'cats': cats}
+groups = [{'key': k, 'tr': tr, 'en': en_, 'cats': cats,
+           'note_tr': FIELD_NOTES[k][0], 'note_en': FIELD_NOTES[k][1]}
           for (k, tr, en_, cats) in GROUPS]
 # newline='\n' matters: without it a Windows build writes CRLF, and the CI
 # "committed output matches a fresh build" check (which rebuilds on Linux, LF)
@@ -191,6 +192,7 @@ io.open(os.path.join(D, '..', 'links.en.js'), 'w', encoding='utf-8', newline='\n
 # category pages, sitemap, robots and the Atom feed. The app is untouched.
 _pages = emit.write_all(core, CATS, INTROS, LABELS, os.path.join(D, '..'), en)
 emit.write_issue_form(CATS, os.path.join(D, '..'))
+emit.write_home(core, CATS, groups, os.path.join(D, '..'))
 
 # ------------------------------------------------------------------ cache stamp
 # The address of links.js never changes, so after an update a browser can serve
