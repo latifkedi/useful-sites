@@ -20,8 +20,8 @@
       "ücretsiz",
       "api"
     ],
-    "tr": "Bir saatlik backend giriş anlatımı; kaynak adlandırma, sürümleme ve hata biçimi kararlarını gerekçeleriyle işliyor.",
-    "en": "An hour-long backend introduction working through resource naming, versioning and error-format decisions with their reasoning.",
+    "tr": "Bir saatlik backend giriş anlatımı; kaynak adlandırma, sürümleme ve hata biçimi kararlarını gerekçeleriyle işliyor. Kitap boyu API tasarımı kaynaklarından farkı temel kararları tek oturumda vermesi.",
+    "en": "An hour-long backend introduction working through resource naming, versioning and error-format decisions with their reasoning. Unlike book-length API design resources, it covers the core decisions in one sitting.",
     "src": "kedi",
     "added": 1775475549
   },
@@ -324,8 +324,8 @@
       "python",
       "backend"
     ],
-    "tr": "ORM, göç sistemi, yönetim paneli ve kimlik doğrulama kutudan çıkıyor. İlk haftayı kazandırıyor; Django’nun kalıbı dışına çıkmak istediğinde direnç gösteriyor.",
-    "en": "ORM, migrations, admin panel and authentication out of the box. It buys you the first week, and pushes back when you want to step outside its shape.",
+    "tr": "ORM, göç sistemi, yönetim paneli ve kimlik doğrulama kutudan çıkıyor. Flask’tan farkı bu “pil dahil” yaklaşım: ilk haftayı kazandırıyor, Django’nun kalıbı dışına çıkmak istediğinde ise direnç gösteriyor.",
+    "en": "ORM, migrations, admin panel and authentication out of the box. Unlike Flask it comes batteries-included: it buys you the first week, and pushes back when you want to step outside its shape.",
     "src": "kedi",
     "added": 1776690062
   },
@@ -336,8 +336,8 @@
       "açık-kaynak",
       "javascript"
     ],
-    "tr": "Node.js’in minimal çatısı; ara katman (middleware) modelini standartlaştırdığı için ekosistemin ortak dili hâline geldi. Yıllardır neredeyse hiç değişmemesi hem güç hem zayıflık.",
-    "en": "Node’s minimal framework, whose middleware model became the ecosystem’s shared vocabulary. That it has barely changed in years is both its strength and its weakness.",
+    "tr": "Node.js’in minimal çatısı; ara katman (middleware) modelini standartlaştırdığı için ekosistemin ortak dili hâline geldi. Fastify gibi yeni çatılara kıyasla yavaş ve az değişiyor — Express 5 ancak 2024’te çıktı; bu hem güç hem zayıflık.",
+    "en": "Node’s minimal framework, whose middleware model became the ecosystem’s shared vocabulary. Compared with newer frameworks such as Fastify it is slower and barely changes — Express 5 only shipped in 2024; that is both strength and weakness.",
     "src": "kedi",
     "added": 1776690076
   },
@@ -362,8 +362,8 @@
       "python",
       "backend"
     ],
-    "tr": "Çekirdek kasten küçük: yönlendirme ve şablon var, ORM ve kimlik doğrulama yok. Ne kullanacağına sen karar veriyorsun, bu da her projede yeniden karar vermek anlamına geliyor.",
-    "en": "A deliberately small core — routing and templating, no ORM or auth. You choose the pieces, which also means choosing them again on every project.",
+    "tr": "Çekirdek kasten küçük: yönlendirme ve şablon var, ORM ve kimlik doğrulama yok. Django’nun aksine ne kullanacağına sen karar veriyorsun — bu da her projede yeniden karar vermek anlamına geliyor.",
+    "en": "A deliberately small core — routing and templating, no ORM or auth. Unlike Django you choose the pieces, which also means choosing them again on every project.",
     "src": "kedi",
     "added": 1776690063
   },
@@ -414,8 +414,8 @@
       "sistem-tasarımı",
       "referans"
     ],
-    "tr": "On beş yılı aşkın mimari yazısı arşivi. Eski yazılar teknoloji olarak eskimiş olsa da ölçekleme baskısının nasıl karşılandığını görmek için hâlâ okunuyor.",
-    "en": "An archive of architecture write-ups spanning fifteen-plus years. The old posts are dated in technology but still read for how scaling pressure was actually met.",
+    "tr": "On beş yılı aşkın mimari yazısı arşivi. Güncel teknoloji bloglarının aksine yazılar teknoloji olarak eskimiş olabilir, ama ölçekleme baskısının gerçekte nasıl karşılandığını görmek için hâlâ okunuyor.",
+    "en": "An archive of architecture write-ups spanning fifteen-plus years. Unlike current tech blogs the technology in older posts may be dated, but they are still read for how scaling pressure was actually met.",
     "src": "kedi",
     "added": 1787182449
   },
@@ -427,8 +427,8 @@
       "php",
       "video"
     ],
-    "tr": "Laravel ekosisteminin ana video kaynağı; resmî dokümanın anlatmadığı mimari kararları işliyor. Ekosistem eğitimini tek bir sitenin taşıması alışılmadık bir durum.",
-    "en": "The main video resource for the Laravel ecosystem, covering the architectural decisions the docs leave out. One site carrying an ecosystem’s training is unusual.",
+    "tr": "Laravel ekosisteminin ana video kaynağı. Resmî belgelerden farkı onların anlatmadığı mimari kararları işlemesi; bir ekosistemin eğitimini tek bir sitenin taşıması alışılmadık bir durum.",
+    "en": "The main video resource for the Laravel ecosystem. Unlike the official docs, it covers the architectural decisions they leave out; one site carrying an ecosystem’s training is unusual.",
     "src": "kedi",
     "added": 1776690064
   },
@@ -466,8 +466,8 @@
       "açık-kaynak",
       "sunucu"
     ],
-    "tr": "Sık kullanılan veriyi bellekte tutarak site hızını artıran dağıtık önbellek sistemi.",
-    "en": "A distributed memory cache that speeds up sites by holding hot data in RAM.",
+    "tr": "Sık kullanılan veriyi bellekte tutarak site hızını artıran dağıtık önbellek sistemi. Redis’e kıyasla yalnız anahtar-değer saklıyor ve kalıcılığı yok; karşılığında çok iş parçacıklı ve son derece basit.",
+    "en": "A distributed memory cache that speeds up sites by holding hot data in RAM. Compared with Redis it stores only key-value pairs with no persistence; in exchange it is multi-threaded and extremely simple.",
     "src": "awesomeproj"
   },
   {
@@ -478,8 +478,8 @@
       "dokümantasyon",
       "javascript"
     ],
-    "tr": "Çatı öğretmeden önce çalışma zamanının kendisini anlatıyor: olay döngüsü, akışlar, işçi iş parçacıkları. Express öğrenip Node bilmemek yaygın bir boşluk.",
-    "en": "Explains the runtime itself before any framework — event loop, streams, worker threads. Learning Express without knowing Node is a common gap.",
+    "tr": "Çatı öğretmeden önce çalışma zamanının kendisini anlatıyor: olay döngüsü, akışlar, işçi iş parçacıkları. Express öğreticilerinden farkı bu temel — Express öğrenip Node’u bilmemek yaygın bir boşluk.",
+    "en": "Explains the runtime itself before any framework — event loop, streams, worker threads. Unlike Express tutorials it covers that foundation; learning Express without knowing Node is a common gap.",
     "src": "kedi",
     "added": 1775495363
   },
@@ -492,8 +492,8 @@
       "referans",
       "api"
     ],
-    "tr": "Web sayfasından API üretiyor; seçicileri sen tanımlamıyorsun, sayfayı gösteriyorsun. API’si olmayan bir kaynaktan yapılandırılmış veri almanın kısa yolu.",
-    "en": "Turns a web page into an API without you writing selectors — you point at the page. A short route to structured data from a source with no API.",
+    "tr": "Web sayfasından API üretiyor; sayfayı gösteriyorsun, gerisini o çıkarıyor. Kendi kazıyıcını yazmak yerine seçici tanımlamadan, API’si olmayan bir kaynaktan yapılandırılmış veri almanın kısa yolu.",
+    "en": "Turns a web page into an API — you point at the page and it works out the rest. Instead of writing your own scraper with selectors, it is a short route to structured data from a source with no API.",
     "src": "kedi",
     "added": 1756665357
   },
@@ -519,8 +519,8 @@
       "php",
       "öğretici"
     ],
-    "tr": "Güncel PHP pratiklerini derliyor: Composer, PSR standartları, hazırlanmış sorgular. İnternette dolaşan `mysql_*` fonksiyonlu eski örneklere karşı düzeltici bir metin.",
-    "en": "Collects current PHP practice — Composer, PSR standards, prepared statements. A corrective to the old `mysql_*` examples still circulating online.",
+    "tr": "Güncel PHP pratiklerini derliyor: Composer, PSR standartları, hazırlanmış sorgular. İnternette dolaşan `mysql_*` fonksiyonlu eski örneklerin aksine bugünkü doğru yolu gösteren düzeltici bir metin.",
+    "en": "Collects current PHP practice — Composer, PSR standards, prepared statements. Unlike the old `mysql_*` examples still circulating online, it is a corrective showing today’s right way.",
     "src": "kedi",
     "added": 1776690064
   },
@@ -580,8 +580,8 @@
       "backend",
       "api"
     ],
-    "tr": "Ödeme altyapısı. Dokümantasyonu sektörde ölçüt kabul ediliyor — test kartları, webhook yeniden deneme mantığı ve idempotency anahtarları örneklerle anlatılmış.",
-    "en": "Payment infrastructure whose documentation is treated as an industry benchmark — test cards, webhook retry logic and idempotency keys all worked through with examples.",
+    "tr": "Ödeme altyapısı; dokümantasyonu sektörde ölçüt kabul ediliyor — test kartları, webhook yeniden deneme mantığı ve idempotency anahtarları örneklerle anlatılmış. iyzico gibi yerel sağlayıcılardan farkı bu belge kalitesi; ancak Türkiye’de kurulu şirketlere açık değil.",
+    "en": "Payment infrastructure whose documentation is an industry benchmark — test cards, webhook retry logic and idempotency keys worked through with examples. Unlike local providers such as iyzico it has that documentation quality, but it is not available to companies based in Turkey.",
     "src": "kedi",
     "added": 1785311887
   },
@@ -593,8 +593,8 @@
       "backend",
       "açık-kaynak"
     ],
-    "tr": "RESTful API’leri tasarlamak, belgelemek ve denemek için OpenAPI araç seti.",
-    "en": "An OpenAPI toolset to design, document and try RESTful APIs.",
+    "tr": "RESTful API’leri tasarlamak, belgelemek ve denemek için OpenAPI araç seti. Postman gibi istemcilerden farkı önce şartnameyi yazıp belgeyi ve istemci kodunu ondan üretmen (spec-first).",
+    "en": "An OpenAPI toolset to design, document and try RESTful APIs. Unlike clients such as Postman, you write the spec first and generate docs and client code from it.",
     "src": "awesomeproj"
   },
   {
@@ -605,8 +605,8 @@
       "sistem-tasarımı",
       "öğretici"
     ],
-    "tr": "Gerçek şirketlerin mimarisini vaka çalışması olarak çözümlüyor; sayısal büyüklükler ve yapılan takasları veriyor. Soyut anlatımlardan bu somutluk ayırıyor.",
-    "en": "Breaks down real company architectures as case studies with actual numbers and the trade-offs taken. That concreteness is what separates it from abstract write-ups.",
+    "tr": "Gerçek şirketlerin mimarisini vaka çalışması olarak çözümlüyor; sayısal büyüklükleri ve yapılan takasları veriyor. Soyut sistem tasarımı anlatımlarından farkı bu somutluk.",
+    "en": "Breaks down real company architectures as case studies with actual numbers and the trade-offs taken. Unlike abstract system-design write-ups, it is concrete.",
     "src": "kedi",
     "added": 1787182446
   },

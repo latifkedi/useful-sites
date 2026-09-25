@@ -74,7 +74,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://www.youtube.com/watch?v=XvFmUE-36Kc" rel="noopener noreferrer nofollow">API Tasarımı ve Mimarisi</a></h2><span class="host">youtube.com</span>
-<p class="d">Bir saatlik backend giriş anlatımı; kaynak adlandırma, sürümleme ve hata biçimi kararlarını gerekçeleriyle işliyor.</p>
+<p class="d">Bir saatlik backend giriş anlatımı; kaynak adlandırma, sürümleme ve hata biçimi kararlarını gerekçeleriyle işliyor. Kitap boyu API tasarımı kaynaklarından farkı temel kararları tek oturumda vermesi.</p>
 <p class="t">Video, Ücretsiz, API</p>
 </article>
 <article>
@@ -194,12 +194,12 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://docs.djangoproject.com/en/6.0/" rel="noopener noreferrer nofollow">Django</a></h2><span class="host">docs.djangoproject.com</span>
-<p class="d">ORM, göç sistemi, yönetim paneli ve kimlik doğrulama kutudan çıkıyor. İlk haftayı kazandırıyor; Django’nun kalıbı dışına çıkmak istediğinde direnç gösteriyor.</p>
+<p class="d">ORM, göç sistemi, yönetim paneli ve kimlik doğrulama kutudan çıkıyor. Flask’tan farkı bu “pil dahil” yaklaşım: ilk haftayı kazandırıyor, Django’nun kalıbı dışına çıkmak istediğinde ise direnç gösteriyor.</p>
 <p class="t">Açık Kaynak, Python, Backend</p>
 </article>
 <article>
 <h2><a href="https://expressjs.com/" rel="noopener noreferrer nofollow">Express</a></h2><span class="host">expressjs.com</span>
-<p class="d">Node.js’in minimal çatısı; ara katman (middleware) modelini standartlaştırdığı için ekosistemin ortak dili hâline geldi. Yıllardır neredeyse hiç değişmemesi hem güç hem zayıflık.</p>
+<p class="d">Node.js’in minimal çatısı; ara katman (middleware) modelini standartlaştırdığı için ekosistemin ortak dili hâline geldi. Fastify gibi yeni çatılara kıyasla yavaş ve az değişiyor — Express 5 ancak 2024’te çıktı; bu hem güç hem zayıflık.</p>
 <p class="t">Açık Kaynak, JavaScript</p>
 </article>
 <article>
@@ -209,7 +209,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://flask.palletsprojects.com/en/stable/" rel="noopener noreferrer nofollow">Flask</a></h2><span class="host">flask.palletsprojects.com</span>
-<p class="d">Çekirdek kasten küçük: yönlendirme ve şablon var, ORM ve kimlik doğrulama yok. Ne kullanacağına sen karar veriyorsun, bu da her projede yeniden karar vermek anlamına geliyor.</p>
+<p class="d">Çekirdek kasten küçük: yönlendirme ve şablon var, ORM ve kimlik doğrulama yok. Django’nun aksine ne kullanacağına sen karar veriyorsun — bu da her projede yeniden karar vermek anlamına geliyor.</p>
 <p class="t">Açık Kaynak, Python, Backend</p>
 </article>
 <article>
@@ -229,12 +229,12 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://highscalability.com/" rel="noopener noreferrer nofollow">High Scalability</a></h2><span class="host">highscalability.com</span>
-<p class="d">On beş yılı aşkın mimari yazısı arşivi. Eski yazılar teknoloji olarak eskimiş olsa da ölçekleme baskısının nasıl karşılandığını görmek için hâlâ okunuyor.</p>
+<p class="d">On beş yılı aşkın mimari yazısı arşivi. Güncel teknoloji bloglarının aksine yazılar teknoloji olarak eskimiş olabilir, ama ölçekleme baskısının gerçekte nasıl karşılandığını görmek için hâlâ okunuyor.</p>
 <p class="t">Ücretsiz, Sistem Tasarımı, Referans</p>
 </article>
 <article>
 <h2><a href="https://laracasts.com/" rel="noopener noreferrer nofollow">Laracasts</a></h2><span class="host">laracasts.com</span>
-<p class="d">Laravel ekosisteminin ana video kaynağı; resmî dokümanın anlatmadığı mimari kararları işliyor. Ekosistem eğitimini tek bir sitenin taşıması alışılmadık bir durum.</p>
+<p class="d">Laravel ekosisteminin ana video kaynağı. Resmî belgelerden farkı onların anlatmadığı mimari kararları işlemesi; bir ekosistemin eğitimini tek bir sitenin taşıması alışılmadık bir durum.</p>
 <p class="t">Ücretli, PHP, Video</p>
 </article>
 <article>
@@ -249,17 +249,17 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://memcached.org/" rel="noopener noreferrer nofollow">Memcached</a></h2><span class="host">memcached.org</span>
-<p class="d">Sık kullanılan veriyi bellekte tutarak site hızını artıran dağıtık önbellek sistemi.</p>
+<p class="d">Sık kullanılan veriyi bellekte tutarak site hızını artıran dağıtık önbellek sistemi. Redis’e kıyasla yalnız anahtar-değer saklıyor ve kalıcılığı yok; karşılığında çok iş parçacıklı ve son derece basit.</p>
 <p class="t">Backend, Açık Kaynak, Sunucu</p>
 </article>
 <article>
 <h2><a href="https://nodejs.org/learn" rel="noopener noreferrer nofollow">Node.js Learn</a></h2><span class="host">nodejs.org</span>
-<p class="d">Çatı öğretmeden önce çalışma zamanının kendisini anlatıyor: olay döngüsü, akışlar, işçi iş parçacıkları. Express öğrenip Node bilmemek yaygın bir boşluk.</p>
+<p class="d">Çatı öğretmeden önce çalışma zamanının kendisini anlatıyor: olay döngüsü, akışlar, işçi iş parçacıkları. Express öğreticilerinden farkı bu temel — Express öğrenip Node’u bilmemek yaygın bir boşluk.</p>
 <p class="t">Ücretsiz, Dokümantasyon, JavaScript</p>
 </article>
 <article>
 <h2><a href="https://www.parse.bot/" rel="noopener noreferrer nofollow">Parse</a></h2><span class="host">parse.bot</span>
-<p class="d">Web sayfasından API üretiyor; seçicileri sen tanımlamıyorsun, sayfayı gösteriyorsun. API’si olmayan bir kaynaktan yapılandırılmış veri almanın kısa yolu.</p>
+<p class="d">Web sayfasından API üretiyor; sayfayı gösteriyorsun, gerisini o çıkarıyor. Kendi kazıyıcını yazmak yerine seçici tanımlamadan, API’si olmayan bir kaynaktan yapılandırılmış veri almanın kısa yolu.</p>
 <p class="t">Ücretli, Freemium, Referans, API</p>
 </article>
 <article>
@@ -269,7 +269,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://phptherightway.com/" rel="noopener noreferrer nofollow">PHP: The Right Way</a></h2><span class="host">phptherightway.com</span>
-<p class="d">Güncel PHP pratiklerini derliyor: Composer, PSR standartları, hazırlanmış sorgular. İnternette dolaşan `mysql_*` fonksiyonlu eski örneklere karşı düzeltici bir metin.</p>
+<p class="d">Güncel PHP pratiklerini derliyor: Composer, PSR standartları, hazırlanmış sorgular. İnternette dolaşan `mysql_*` fonksiyonlu eski örneklerin aksine bugünkü doğru yolu gösteren düzeltici bir metin.</p>
 <p class="t">Ücretsiz, PHP, Öğretici</p>
 </article>
 <article>
@@ -294,17 +294,17 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://stripe.com/" rel="noopener noreferrer nofollow">Stripe</a></h2><span class="host">stripe.com</span>
-<p class="d">Ödeme altyapısı. Dokümantasyonu sektörde ölçüt kabul ediliyor — test kartları, webhook yeniden deneme mantığı ve idempotency anahtarları örneklerle anlatılmış.</p>
+<p class="d">Ödeme altyapısı; dokümantasyonu sektörde ölçüt kabul ediliyor — test kartları, webhook yeniden deneme mantığı ve idempotency anahtarları örneklerle anlatılmış. iyzico gibi yerel sağlayıcılardan farkı bu belge kalitesi; ancak Türkiye’de kurulu şirketlere açık değil.</p>
 <p class="t">Ücretli, Backend, API</p>
 </article>
 <article>
 <h2><a href="https://swagger.io/" rel="noopener noreferrer nofollow">Swagger</a></h2><span class="host">swagger.io</span>
-<p class="d">RESTful API’leri tasarlamak, belgelemek ve denemek için OpenAPI araç seti.</p>
+<p class="d">RESTful API’leri tasarlamak, belgelemek ve denemek için OpenAPI araç seti. Postman gibi istemcilerden farkı önce şartnameyi yazıp belgeyi ve istemci kodunu ondan üretmen (spec-first).</p>
 <p class="t">API, Backend, Açık Kaynak</p>
 </article>
 <article>
 <h2><a href="https://systemdesign.one/" rel="noopener noreferrer nofollow">System Design One</a></h2><span class="host">systemdesign.one</span>
-<p class="d">Gerçek şirketlerin mimarisini vaka çalışması olarak çözümlüyor; sayısal büyüklükler ve yapılan takasları veriyor. Soyut anlatımlardan bu somutluk ayırıyor.</p>
+<p class="d">Gerçek şirketlerin mimarisini vaka çalışması olarak çözümlüyor; sayısal büyüklükleri ve yapılan takasları veriyor. Soyut sistem tasarımı anlatımlarından farkı bu somutluk.</p>
 <p class="t">Ücretsiz, Sistem Tasarımı, Öğretici</p>
 </article>
 <article>

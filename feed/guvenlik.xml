@@ -11,14 +11,14 @@
   <link href="https://keepass.info/"/>
   <id>https://keepass.info/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Parolaları yerelde şifreli bir kasada tutan açık kaynak parola yöneticisi.</summary>
+  <summary>Parolaları yerelde şifreli bir kasada tutan açık kaynak parola yöneticisi. Bitwarden’dan farkı bulut olmaması: kasa dosyası senin, eşitlemeyi kendin kuruyorsun; KeePassXC gibi platformlar arası çatalları var.</summary>
 </entry>
 <entry>
   <title>Malwarebytes</title>
   <link href="https://www.malwarebytes.com/"/>
   <id>https://www.malwarebytes.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Zararlı yazılımı tespit edip temizleyen kötü amaçlı yazılım koruması.</summary>
+  <summary>Zararlı yazılımı tespit edip temizleyen koruma yazılımı. Windows Defender’a kıyasla çoğunlukla ikinci görüş olarak kullanılıyor: Defender’ın kaçırdığı reklam yazılımı ve istenmeyen programları yakalamakta güçlü.</summary>
 </entry>
 <entry>
   <title>OpenVPN</title>
@@ -32,21 +32,21 @@
   <link href="https://www.torproject.org/"/>
   <id>https://www.torproject.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Trafiği gönüllü düğümler üzerinden anonimleştiren özgür ağ ve tarayıcı.</summary>
+  <summary>Trafiği gönüllü düğümler üzerinden anonimleştiren özgür ağ ve tarayıcı. VPN’den farkı güveni tek bir sağlayıcıya değil üç ayrı düğüme bölmesi; karşılığında bağlantı belirgin biçimde yavaş.</summary>
 </entry>
 <entry>
   <title>uBlock Origin</title>
   <link href="https://github.com/gorhill/uBlock"/>
   <id>https://github.com/gorhill/uBlock</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Chromium ve Firefox için verimli, hafif reklam/izleyici engelleyici.</summary>
+  <summary>Verimli, hafif reklam ve izleyici engelleyici. Diğer engelleyicilerden farkı düşük bellek kullanımı ve ayrıntılı filtre denetimi; Chrome’da Manifest V3 nedeniyle tam sürüm artık çalışmıyor — tam hâli Firefox’ta, Chrome’da uBO Lite var.</summary>
 </entry>
 <entry>
-  <title>Windows 10/11 Privacy Guide</title>
+  <title>Windows 10 Gizlilik Rehberi</title>
   <link href="https://github.com/adolfintel/Windows10-Privacy"/>
   <id>https://github.com/adolfintel/Windows10-Privacy</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Windows’taki veri toplamayı adım adım kısmayı anlatan ayrıntılı gizlilik rehberi.</summary>
+  <summary>Windows 10’daki veri toplamayı adım adım kısmayı anlatan ayrıntılı gizlilik rehberi; depo 2019’da arşivlendi. Tek tıklık “gizlilik araçlarının” aksine her adımın ne yaptığını açıklıyor, ama Windows 11 için güncel değil.</summary>
 </entry>
 <entry>
   <title>Citizen Lab Test Lists</title>
@@ -109,7 +109,7 @@
   <link href="https://ipleak.net/"/>
   <id>https://ipleak.net/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Bağlantının dışarıya ne sızdırdığını gösteren test: IP, DNS sunucuları, WebRTC yerel adresi, DNS sızıntısı. VPN kullanırken önemli olan da bu — VPN açıkken WebRTC gerçek IP’ni verebiliyor, burada görünüyor.</summary>
+  <summary>Bağlantının dışarıya ne sızdırdığını gösteren test: IP, DNS sunucuları, WebRTC yerel adresi, DNS sızıntısı. Yalnız IP gösteren sitelerden farkı VPN açıkken de sızan bilgiyi yakalaması — WebRTC gerçek IP’ni verebiliyor, burada görünüyor.</summary>
 </entry>
 <entry>
   <title>JustDeleteMe</title>
@@ -200,28 +200,28 @@
   <link href="https://privnote.com/"/>
   <id>https://privnote.com/</id>
   <updated>2026-07-28T08:48:10Z</updated>
-  <summary>Okunduktan sonra kendini silen not; hesap gerektirmiyor. Tek seferlik bir parolayı sohbet geçmişinde bırakmadan iletmek için pratik.</summary>
+  <summary>Okunduktan sonra kendini silen not; hesap gerektirmiyor. Sohbet uygulamasına yazmaktan farkı iz bırakmaması: tek seferlik bir parolayı sohbet geçmişinde bırakmadan iletmek için pratik.</summary>
 </entry>
 <entry>
   <title>5SIM</title>
   <link href="https://5sim.net/"/>
   <id>https://5sim.net/</id>
   <updated>2026-07-05T21:11:44Z</updated>
-  <summary>SMS doğrulaması için geçici numara kiralama. Kendi numaranı vermeden hesap açmayı sağlıyor; kalıcı hesaplarda kurtarma sorunu doğurabileceği için dikkatli kullanılmalı.</summary>
+  <summary>SMS doğrulaması için geçici numara kiralama. Kendi numaranı vermek yerine kiralık numarayla hesap açıyorsun; kalıcı hesaplarda kurtarma sorunu doğurabileceği için dikkatli kullanılmalı.</summary>
 </entry>
 <entry>
   <title>Silent Link</title>
   <link href="https://silent.link/#generic_price_table"/>
   <id>https://silent.link/#generic_price_table</id>
   <updated>2026-07-05T21:11:19Z</updated>
-  <summary>Kimlik istemeyen eSIM veri hattı; kripto ile ödeniyor, isim ya da belge sorulmuyor. Seyahatte telefon numarasını kimliğine bağlamadan veri almanın yolu.</summary>
+  <summary>Kimlik istemeyen eSIM veri hattı; kripto ile ödeniyor, isim ya da belge sorulmuyor. Operatörlerin eSIM’lerinden farkı numaranın kimliğine bağlanmaması: seyahatte veri almanın anonim yolu.</summary>
 </entry>
 <entry>
   <title>Bitwarden</title>
   <link href="https://bitwarden.com/"/>
   <id>https://bitwarden.com/</id>
   <updated>2026-07-03T12:26:39Z</updated>
-  <summary>Kaynak kodu açık ve bağımsız denetimden geçmiş parola yöneticisi. Ücretsiz katmanda sınırsız parola var; istersen Vaultwarden ile kendi sunucunda çalıştırılıyor.</summary>
+  <summary>Kaynak kodu açık ve bağımsız denetimden geçmiş parola yöneticisi; ücretsiz katmanda sınırsız parola var. 1Password gibi kapalı rakiplerinden farkı bu açıklık; istersen Vaultwarden ile kendi sunucunda çalıştırılıyor.</summary>
 </entry>
 <entry>
   <title>Özgür Yazılım Güvenlik Rehberi</title>
@@ -235,6 +235,6 @@
   <link href="https://guvenlik.oyd.org.tr/yazisma_guvenligi/mailvelope.html"/>
   <id>https://guvenlik.oyd.org.tr/yazisma_guvenligi/mailvelope.html</id>
   <updated>2025-03-11T08:23:50Z</updated>
-  <summary>Tarayıcı eklentisiyle PGP kullanmayı adım adım anlatan Türkçe rehber. Anahtar üretme ve paylaşma kısmı, kavramın en somut hâliyle görüldüğü yer.</summary>
+  <summary>Tarayıcı eklentisiyle PGP kullanmayı adım adım anlatan Türkçe rehber. İngilizce PGP belgelerinden farkı Türkçe ve uygulamalı olması; anahtar üretme ve paylaşma kısmı kavramın en somut hâli.</summary>
 </entry>
 </feed>

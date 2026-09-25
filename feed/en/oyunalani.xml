@@ -11,21 +11,21 @@
   <link href="https://dotnetfiddle.net/"/>
   <id>https://dotnetfiddle.net/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Write, run and share C# and .NET code in the browser — no install.</summary>
+  <summary>Write, run and share C# and .NET code in the browser. Instead of installing Visual Studio you try a small snippet at once — the .NET counterpart to JSFiddle.</summary>
 </entry>
 <entry>
   <title>ES6 Console</title>
   <link href="https://es6console.com/"/>
   <id>https://es6console.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A console that compiles modern JavaScript (ES6+) in the browser and shows the result instantly.</summary>
+  <summary>A console that compiles modern JavaScript (ES6+) in the browser and shows the result instantly. Unlike the browser console, it also shows side by side how your code transpiles to older JavaScript.</summary>
 </entry>
 <entry>
   <title>Liveweave</title>
   <link href="https://liveweave.com/"/>
   <id>https://liveweave.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An in-browser playground to try HTML, CSS and JS with live preview.</summary>
+  <summary>An in-browser playground to try HTML, CSS and JS with live preview. Unlike CodePen it is a plain, account-free scratchpad without the community and discovery layer.</summary>
 </entry>
 <entry>
   <title>myCompiler</title>
@@ -39,14 +39,14 @@
   <link href="https://ona.com/"/>
   <id>https://ona.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Starting as the Gitpod cloud dev environment, it became Ona in 2025 — a platform for background AI coding agents.</summary>
+  <summary>Starting as the Gitpod cloud dev environment, it became Ona in 2025 — a platform for background AI coding agents. Unlike cloud environments such as GitHub Codespaces, it now centres on the agents running inside rather than the environment itself.</summary>
 </entry>
 <entry>
   <title>OnlineGDB</title>
   <link href="https://www.onlinegdb.com/online_c_compiler"/>
   <id>https://www.onlinegdb.com/online_c_compiler</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An online IDE that compiles and debugs C and many languages in the browser (gdb included).</summary>
+  <summary>An online IDE that compiles C and many other languages in the browser. Unlike run-only sites such as Ideone it includes the gdb debugger, so you can set breakpoints and step through.</summary>
 </entry>
 <entry>
   <title>Compiler Explorer</title>
@@ -67,7 +67,7 @@
   <link href="https://coderpad.io"/>
   <id>https://coderpad.io</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A collaborative editor for running technical interviews with live coding (many languages).</summary>
+  <summary>A collaborative editor for technical interviews with live coding (many languages). Unlike simple shared editors such as CodeShare, it runs the code and can replay the session step by step afterwards.</summary>
 </entry>
 <entry>
   <title>CodeSandbox</title>
@@ -81,14 +81,14 @@
   <link href="https://codeshare.io"/>
   <id>https://codeshare.io</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Real-time collaborative code editing in the browser with no install or account — a fast option for remote pairing or an interview.</summary>
+  <summary>Real-time collaborative code editing in the browser with no install or account. Compared with CoderPad it does not run code, but it opens instantly — a fast option for remote pairing or an interview.</summary>
 </entry>
 <entry>
   <title>Ideone</title>
   <link href="https://ideone.com"/>
   <id>https://ideone.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Compiles and runs 60+ languages in the browser and accepts an input stream — for trying a language’s syntax without installing anything.</summary>
+  <summary>Compiles and runs 60+ languages in the browser and accepts an input stream. Unlike project environments such as Replit it is light, for single files — trying a language’s syntax without installing anything.</summary>
 </entry>
 <entry>
   <title>JS Bin</title>
@@ -102,14 +102,14 @@
   <link href="https://jsfiddle.net"/>
   <id>https://jsfiddle.net</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The oldest and lightest way to test a small JavaScript snippet — the standard tool for attaching a reproducible example to a bug report.</summary>
+  <summary>The oldest and lightest way to test a small JavaScript snippet. Unlike CodePen it is about reproducible examples rather than discovery — the standard tool for attaching one to a bug report.</summary>
 </entry>
 <entry>
   <title>Judge0 IDE</title>
   <link href="https://ide.judge0.com"/>
   <id>https://ide.judge0.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An open-source online compiler whose engine you can self-host — the project people building code assessment systems use as infrastructure.</summary>
+  <summary>An open-source online compiler. Unlike closed services such as Ideone you can self-host its engine — the project people building code assessment systems use as infrastructure.</summary>
 </entry>
 <entry>
   <title>OneLang</title>
@@ -137,20 +137,20 @@
   <link href="https://runjs.app/play"/>
   <id>https://runjs.app/play</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A JavaScript playground that evaluates as you type, showing a variable’s value without a `console.log`.</summary>
+  <summary>A JavaScript playground that evaluates as you type. Unlike the browser console it shows each line’s value alongside without a `console.log`.</summary>
 </entry>
 <entry>
   <title>StackBlitz</title>
   <link href="https://stackblitz.com/"/>
   <id>https://stackblitz.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Runs Node.js in the browser through WebContainers, so install and restart are instant with no server round trip — it even works offline.</summary>
+  <summary>Runs Node.js in the browser through WebContainers. Unlike online IDEs that spin up server-side containers, install and restart are instant — it even works offline.</summary>
 </entry>
 <entry>
   <title>Wandbox</title>
   <link href="https://wandbox.org/"/>
   <id>https://wandbox.org/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Runs dozens of C++ compiler versions side by side — for testing which standard or compiler release a behaviour comes from.</summary>
+  <summary>Runs dozens of C++ compiler versions side by side. Unlike Compiler Explorer it shows the program’s run output rather than the assembly — for testing which standard or compiler release a behaviour comes from.</summary>
 </entry>
 </feed>

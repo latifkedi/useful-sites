@@ -46,14 +46,14 @@
   <link href="https://www.classiq.io"/>
   <id>https://www.classiq.io</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Kuantum devrelerini işlevsel modellerden sentezleyen üst düzey tasarım platformu.</summary>
+  <summary>Kuantum devrelerini işlevsel modellerden sentezleyen üst düzey tasarım platformu. Qiskit gibi kapı düzeyinde çalışan araçlardan farkı ne istediğini tarif edip devreyi platformun üretmesi.</summary>
 </entry>
 <entry>
   <title>PennyLane</title>
   <link href="https://pennylane.ai"/>
   <id>https://pennylane.ai</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Kuantum makine öğrenmesi için türevlenebilir programlama çatısı (Xanadu).</summary>
+  <summary>Xanadu’nun kuantum makine öğrenmesi için türevlenebilir programlama çatısı. Qiskit’ten farkı donanımdan bağımsız olması ve PyTorch ya da JAX ile otomatik türev alabilmesi.</summary>
 </entry>
 <entry>
   <title>Qiskit</title>
@@ -67,21 +67,21 @@
   <link href="https://quantiki.org"/>
   <id>https://quantiki.org</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Kuantum bilişim ve enformasyon üzerine köklü topluluk wiki'si ve kaynak dizini.</summary>
+  <summary>Kuantum bilişim ve enformasyon üzerine köklü topluluk wiki’si ve kaynak dizini. Sektör haber sitelerinden farkı akademik odaklı olması: kavram maddeleri, konferans ve iş ilanları.</summary>
 </entry>
 <entry>
   <title>Quantum Algorithm Zoo</title>
   <link href="https://quantumalgorithmzoo.org"/>
   <id>https://quantumalgorithmzoo.org</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Bilinen kuantum algoritmalarını açıklamalı ve atıflı biçimde toplayan kapsamlı katalog.</summary>
+  <summary>Bilinen kuantum algoritmalarını açıklamalı ve atıflı biçimde toplayan kapsamlı katalog. Ders kitaplarından farkı her algoritmanın hızlanma türünü ve özgün makalesini tek listede vermesi.</summary>
 </entry>
 <entry>
   <title>Quantum Computing Report</title>
   <link href="https://quantumcomputingreport.com"/>
   <id>https://quantumcomputingreport.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Kuantum sektörünü, donanım yol haritalarını ve şirketleri izleyen haber kaynağı.</summary>
+  <summary>Kuantum sektörünü, donanım yol haritalarını ve şirketleri izleyen haber kaynağı. The Quantum Insider’a kıyasla daha analitik; bazı içerik ve veritabanları ücretli.</summary>
 </entry>
 <entry>
   <title>Quantum Country</title>
@@ -95,14 +95,14 @@
   <link href="https://qutip.org"/>
   <id>https://qutip.org</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Açık kuantum sistemlerinin dinamiğini benzetmek için standart açık kaynak Python kütüphanesi.</summary>
+  <summary>Açık kuantum sistemlerinin dinamiğini benzetmek için standart açık kaynak Python kütüphanesi. Qiskit gibi devre simülatörlerinden farkı kapı değil sürekli zamanlı dinamik — master denklemleri ve gürültü — ile çalışması.</summary>
 </entry>
 <entry>
   <title>Shtetl-Optimized (Scott Aaronson)</title>
   <link href="https://scottaaronson.blog"/>
   <id>https://scottaaronson.blog</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Kuantum karmaşıklık kuramının önde gelen isminin açık sözlü, otoriter blogu.</summary>
+  <summary>Kuantum karmaşıklık kuramının önde gelen isminin açık sözlü blogu. Abartılı kuantum haberlerinin aksine iddiaları teknik olarak sınıyor: hangi “kuantum üstünlüğü” duyurusunun gerçekten ne gösterdiğini anlamak için.</summary>
 </entry>
 <entry>
   <title>The Quantum Insider</title>
@@ -116,7 +116,7 @@
   <link href="https://www.tensorflow.org/quantum"/>
   <id>https://www.tensorflow.org/quantum</id>
   <updated>2026-08-05T16:12:48Z</updated>
-  <summary>Parametreli kuantum devrelerini Keras katmanı gibi kullanıp klasik ağlarla birleştiriyor. Hibrit klasik-kuantum modellerin deneysel olarak araştırıldığı yer.</summary>
+  <summary>Parametreli kuantum devrelerini Keras katmanı gibi kullanıp klasik ağlarla birleştiriyor. PennyLane’e kıyasla TensorFlow’a bağlı ve topluluğu daha küçük; hibrit klasik-kuantum modellerin deneysel olarak araştırıldığı yerlerden.</summary>
 </entry>
 <entry>
   <title>IBM Quantum</title>
@@ -130,14 +130,14 @@
   <link href="https://quantum.microsoft.com/en-us/insights/blogs/qsharp/why-do-we-need-q"/>
   <id>https://quantum.microsoft.com/en-us/insights/blogs/qsharp/why-do-we-need-q</id>
   <updated>2026-06-26T11:02:26Z</updated>
-  <summary>Kuantum için neden ayrı bir dile ihtiyaç duyulduğunu anlatıyor: klonlanamama, ölçümün durumu bozması gibi kısıtlar klasik dil kalıplarına oturmuyor.</summary>
+  <summary>Kuantum için neden ayrı bir dile ihtiyaç duyulduğunu anlatıyor. Qiskit gibi Python kütüphanelerinin aksine ayrı dil seçilmesinin gerekçesi: klonlanamama ve ölçümün durumu bozması gibi kısıtlar klasik dil kalıplarına oturmuyor.</summary>
 </entry>
 <entry>
   <title>LIQUi|&gt;</title>
   <link href="https://stationq.github.io/Liquid/getting-started/"/>
   <id>https://stationq.github.io/Liquid/getting-started/</id>
   <updated>2026-06-26T11:00:58Z</updated>
-  <summary>Microsoft’un erken dönem kuantum simülasyon platformu. Bugün yerini Q# aldı; alanın araç zincirinin nasıl geliştiğini görmek dışında pratik değeri kalmadı.</summary>
+  <summary>Microsoft’un erken dönem kuantum simülasyon platformu. Bugünkü Q#’ın aksine artık geliştirilmiyor; alanın araç zincirinin nasıl evrildiğini görmek dışında pratik değeri kalmadı.</summary>
 </entry>
 <entry>
   <title>Q# Geliştirme Kiti Kurulumu</title>
@@ -151,20 +151,20 @@
   <link href="https://github.com/microsoft/qdk"/>
   <id>https://github.com/microsoft/qdk</id>
   <updated>2026-06-26T06:51:53Z</updated>
-  <summary>Q# derleyicisi ve simülatörünün kaynak kodu. Kuantum devresinin nasıl derlenip simüle edildiğini görmek isteyenler için.</summary>
+  <summary>Q# derleyicisi ve simülatörünün kaynak kodu. Kurulum sayfasından farkı iç işleyişi göstermesi: bir kuantum devresinin nasıl derlenip simüle edildiğini görmek isteyenler için.</summary>
 </entry>
 <entry>
   <title>Microsoft Kuantum Yol Haritası</title>
   <link href="https://quantum.microsoft.com/en-us/vision/quantum-roadmap"/>
   <id>https://quantum.microsoft.com/en-us/vision/quantum-roadmap</id>
   <updated>2026-06-26T06:49:29Z</updated>
-  <summary>Gürültülü ara ölçek (NISQ) aşamasından hata düzeltmeli mantıksal kübitlere uzanan aşamalar. Alanın hangi vaatlerinin bugün, hangilerinin on yıl sonrası olduğunu tartmak için.</summary>
+  <summary>Gürültülü ara ölçek (NISQ) aşamasından hata düzeltmeli mantıksal kübitlere uzanan aşamalar. Haber başlıklarından farkı her aşamayı ölçütle tanımlaması — alanın vaatlerinden hangisinin bugün, hangisinin on yıl sonra olduğunu tartmak için; ama bir şirket yol haritası olduğunu unutma.</summary>
 </entry>
 <entry>
   <title>Kuantum Öğrenme Kaynakları</title>
   <link href="https://azure.microsoft.com/tr-tr/resources/training-and-certifications/quantum-computing"/>
   <id>https://azure.microsoft.com/tr-tr/resources/training-and-certifications/quantum-computing</id>
   <updated>2026-06-26T06:45:55Z</updated>
-  <summary>Kuantum hesaplama eğitim kaynaklarının Türkçe derlemesi; alana sıralı bir giriş noktası.</summary>
+  <summary>Microsoft’un kuantum hesaplama eğitim kaynaklarının Türkçe derlemesi. Dağınık İngilizce kaynakların yerine alana sıralı bir giriş noktası sunuyor.</summary>
 </entry>
 </feed>

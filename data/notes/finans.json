@@ -144,8 +144,8 @@
       "ücretsiz",
       "api"
     ],
-    "tr": "Kripto fiyat ve sıralamalarında yaygın kullanılan, piyasa değerine göre kanonik listeleme sağlar.",
-    "en": "Widely used crypto prices and rankings, providing the canonical market-cap listing.",
+    "tr": "Kripto fiyat ve sıralamalarında yaygın kullanılan, piyasa değerine göre listeleme sunan site. CoinGecko’dan farkı 2020’den beri Binance’e ait olması — bir borsanın sahibi olduğu veri kaynağı olduğunu akılda tut.",
+    "en": "Widely used crypto prices and rankings by market cap. Unlike CoinGecko it has been owned by Binance since 2020 — worth remembering that an exchange owns this data source.",
     "src": "econ"
   },
   {
@@ -156,8 +156,8 @@
       "açık-kaynak",
       "ücretsiz"
     ],
-    "tr": "Zincirler genelinde DeFi kilitli değer (TVL) analitiği; açık ve tarafsız metodoloji, kendi tokeni yok.",
-    "en": "DeFi total-value-locked analytics across chains with an open, unbiased methodology and no token of its own.",
+    "tr": "Zincirler genelinde DeFi kilitli değer (TVL) analitiği. Kendi tokeni olan analitik sitelerinin aksine tokeni yok ve metodolojisi açık: tarafsızlık iddiasını bu yapıyla destekliyor.",
+    "en": "DeFi total-value-locked analytics across chains. Unlike analytics sites with a token of their own it has none and publishes its methodology, which is how it backs its claim to neutrality.",
     "src": "econ"
   },
   {
@@ -169,8 +169,8 @@
       "freemium",
       "api"
     ],
-    "tr": "Blokzincir verisi üzerinde SQL sorgularıyla topluluk panoları kuran analitik platform.",
-    "en": "An analytics platform where the community builds dashboards with SQL queries over blockchain data.",
+    "tr": "Blokzincir verisi üzerinde SQL sorgularıyla topluluk panoları kuran analitik platform. Etherscan gibi blok gezginlerinden farkı tek işleme bakmak yerine zincirin tamamında kendi analizini yazabilmen.",
+    "en": "An analytics platform where the community builds dashboards with SQL queries over blockchain data. Unlike block explorers such as Etherscan, you write your own analysis across the whole chain instead of looking at one transaction.",
     "src": "econ"
   },
   {
@@ -181,8 +181,8 @@
       "api",
       "ücretsiz"
     ],
-    "tr": "Ethereum'un kanonik blok gezgini; işlem izleme, sözleşme doğrulama ve API sağlar.",
-    "en": "Ethereum's canonical block explorer, with transaction tracing, contract verification and an API.",
+    "tr": "Ethereum’un kanonik blok gezgini; işlem izleme, sözleşme doğrulama ve API sağlıyor. Dune’dan farkı tek bir işlemi, adresi ya da sözleşmeyi ayrıntısıyla incelemeye yönelik olması.",
+    "en": "Ethereum’s canonical block explorer, with transaction tracing, contract verification and an API. Unlike Dune it is built for inspecting a single transaction, address or contract in detail.",
     "src": "econ"
   },
   {
@@ -193,8 +193,8 @@
       "ücretsiz",
       "freemium"
     ],
-    "tr": "ABD borsasını tek ekranda ısı haritası ve yoğun filtrelerle tarayan görsel hisse tarayıcısı.",
-    "en": "A visual stock screener that scans the US market on one screen with a heatmap and dense filters.",
+    "tr": "ABD borsasını tek ekranda ısı haritası ve yoğun filtrelerle tarayan görsel hisse tarayıcısı. Yahoo Finance’e kıyasla tek hisseye değil tüm piyasaya bakmak ve filtrelemek için; gerçek zamanlı veri ücretli.",
+    "en": "A visual stock screener that scans the US market on one screen with a heatmap and dense filters. Compared with Yahoo Finance it is for looking across the whole market and filtering, not one stock; real-time data is paid.",
     "src": "econ"
   },
   {
@@ -204,8 +204,8 @@
       "veri-bilimi",
       "freemium"
     ],
-    "tr": "Zincir-üstü (on-chain) metrikler ve türev göstergelerle kripto piyasa istihbaratı.",
-    "en": "Crypto market intelligence through on-chain metrics and derived indicators.",
+    "tr": "Zincir üstü (on-chain) metrikler ve türev göstergelerle kripto piyasa istihbaratı. Fiyat sitelerinden farkı cüzdan hareketleri ve arz dağılımı gibi zincirin kendisinden gelen veriyi çözümlemesi; çoğu metrik ücretli.",
+    "en": "Crypto market intelligence through on-chain metrics and derived indicators. Unlike price sites it analyses data from the chain itself — wallet flows, supply distribution; most metrics are paid.",
     "src": "econ"
   },
   {
@@ -216,8 +216,8 @@
       "freemium",
       "veri-bilimi"
     ],
-    "tr": "Çok varlıklı gerçek zamanlı kotasyon ve ekonomik takvimi geniş kapsamla bir arada verir.",
-    "en": "Multi-asset real-time quotes together with an economic calendar in broad coverage.",
+    "tr": "Çok varlıklı gerçek zamanlı kotasyon ve ekonomik takvimi geniş kapsamla bir arada veriyor. Yahoo Finance’e kıyasla ekonomik takvimi ve Türkiye piyasaları (Türkçe sürümüyle) kapsamı güçlü.",
+    "en": "Multi-asset real-time quotes together with an economic calendar in broad coverage. Compared with Yahoo Finance its economic calendar and coverage of Turkish markets, with a Turkish edition, are stronger.",
     "src": "econ"
   },
   {
@@ -264,8 +264,8 @@
       "ücretsiz",
       "interaktif"
     ],
-    "tr": "Hisse ve ekonomik verilerin onlarca yıllık uzun vadeli grafiklerini ücretsiz sunar.",
-    "en": "Free long-term charts of stocks and economic data going back decades.",
+    "tr": "Hisse ve ekonomik verilerin onlarca yıllık uzun vadeli grafiklerini ücretsiz sunuyor. Kısa vadeli işlem grafiklerinin aksine uzun dönemi gösteriyor: bir göstergenin tarihsel bağlamını görmek için.",
+    "en": "Free long-term charts of stocks and economic data going back decades. Unlike short-term trading charts it shows the long run — for seeing an indicator in historical context.",
     "src": "econ"
   },
   {
@@ -276,8 +276,8 @@
       "referans",
       "freemium"
     ],
-    "tr": "Kripto varlıklar için araştırma düzeyinde profiller, yönetişim verisi ve raporlar.",
-    "en": "Research-grade profiles, governance data and reports for crypto assets.",
+    "tr": "Kripto varlıklar için araştırma düzeyinde profiller, yönetişim verisi ve raporlar. CoinGecko gibi fiyat sitelerinden farkı fiyat değil proje araştırması sunması; ayrıntılı raporlar ücretli.",
+    "en": "Research-grade profiles, governance data and reports for crypto assets. Unlike price sites such as CoinGecko it offers project research rather than prices; detailed reports are paid.",
     "src": "econ"
   },
   {
@@ -288,8 +288,8 @@
       "referans",
       "ücretsiz"
     ],
-    "tr": "Değerleme profesörü Damodaran'ın yazıları ve ücretsiz veri setleriyle otoriter değerleme çerçeveleri.",
-    "en": "Valuation professor Damodaran's writing and free datasets, an authoritative source on valuation frameworks.",
+    "tr": "Değerleme profesörü Aswath Damodaran’ın yazıları; her ocakta güncellenen ücretsiz veri setleri (sektör marjları, sermaye maliyeti) de buradan. Aracı kurum raporlarından farkı yöntemi açıkça göstermesi.",
+    "en": "Valuation professor Aswath Damodaran’s writing, plus his free datasets — industry margins, cost of capital — updated each January. Unlike brokerage reports it shows its method openly.",
     "src": "econ"
   },
   {
@@ -312,8 +312,8 @@
       "freemium",
       "veri-bilimi"
     ],
-    "tr": "Portföy geriye dönük testi, Monte Carlo ve faktör analizini tarayıcıda yapan araç.",
-    "en": "Runs portfolio backtesting, Monte Carlo simulation and factor analysis in the browser.",
+    "tr": "Portföy geriye dönük testi, Monte Carlo ve faktör analizini tarayıcıda yapan araç. Elektronik tabloda elle kurmaktan farkı bu analizlerin hazır ve veriyle birlikte gelmesi; bazı özellikler ücretli.",
+    "en": "Runs portfolio backtesting, Monte Carlo simulation and factor analysis in the browser. Unlike building them by hand in a spreadsheet, the analyses come ready with the data; some features are paid.",
     "src": "econ"
   },
   {
@@ -323,8 +323,8 @@
       "veri-bilimi",
       "ücretsiz"
     ],
-    "tr": "Hisse verisi ve finansallarını hızlı, sade ve cömert bir ücretsiz katmanla veren site.",
-    "en": "Fast, clean stock data and financials with a generous free tier.",
+    "tr": "Hisse verisi ve finansalları hızlı, sade ve cömert bir ücretsiz katmanla veren site. Yahoo Finance’e kıyasla reklamı az ve finansal tablolar daha uzun geçmişle, düzenli sunuluyor.",
+    "en": "Fast, clean stock data and financials with a generous free tier. Compared with Yahoo Finance it has fewer ads, and financial statements are laid out cleanly with longer history.",
     "src": "econ"
   },
   {

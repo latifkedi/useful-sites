@@ -74,7 +74,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://www.youtube.com/watch?v=XvFmUE-36Kc" rel="noopener noreferrer nofollow">API Tasarımı ve Mimarisi</a></h2><span class="host">youtube.com</span>
-<p class="d">An hour-long backend introduction working through resource naming, versioning and error-format decisions with their reasoning.</p>
+<p class="d">An hour-long backend introduction working through resource naming, versioning and error-format decisions with their reasoning. Unlike book-length API design resources, it covers the core decisions in one sitting.</p>
 <p class="t">Video, Free, API</p>
 </article>
 <article>
@@ -194,12 +194,12 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://docs.djangoproject.com/en/6.0/" rel="noopener noreferrer nofollow">Django</a></h2><span class="host">docs.djangoproject.com</span>
-<p class="d">ORM, migrations, admin panel and authentication out of the box. It buys you the first week, and pushes back when you want to step outside its shape.</p>
+<p class="d">ORM, migrations, admin panel and authentication out of the box. Unlike Flask it comes batteries-included: it buys you the first week, and pushes back when you want to step outside its shape.</p>
 <p class="t">Open Source, Python, Backend</p>
 </article>
 <article>
 <h2><a href="https://expressjs.com/" rel="noopener noreferrer nofollow">Express</a></h2><span class="host">expressjs.com</span>
-<p class="d">Node’s minimal framework, whose middleware model became the ecosystem’s shared vocabulary. That it has barely changed in years is both its strength and its weakness.</p>
+<p class="d">Node’s minimal framework, whose middleware model became the ecosystem’s shared vocabulary. Compared with newer frameworks such as Fastify it is slower and barely changes — Express 5 only shipped in 2024; that is both strength and weakness.</p>
 <p class="t">Open Source, JavaScript</p>
 </article>
 <article>
@@ -209,7 +209,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://flask.palletsprojects.com/en/stable/" rel="noopener noreferrer nofollow">Flask</a></h2><span class="host">flask.palletsprojects.com</span>
-<p class="d">A deliberately small core — routing and templating, no ORM or auth. You choose the pieces, which also means choosing them again on every project.</p>
+<p class="d">A deliberately small core — routing and templating, no ORM or auth. Unlike Django you choose the pieces, which also means choosing them again on every project.</p>
 <p class="t">Open Source, Python, Backend</p>
 </article>
 <article>
@@ -229,12 +229,12 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://highscalability.com/" rel="noopener noreferrer nofollow">High Scalability</a></h2><span class="host">highscalability.com</span>
-<p class="d">An archive of architecture write-ups spanning fifteen-plus years. The old posts are dated in technology but still read for how scaling pressure was actually met.</p>
+<p class="d">An archive of architecture write-ups spanning fifteen-plus years. Unlike current tech blogs the technology in older posts may be dated, but they are still read for how scaling pressure was actually met.</p>
 <p class="t">Free, System Design, Reference</p>
 </article>
 <article>
 <h2><a href="https://laracasts.com/" rel="noopener noreferrer nofollow">Laracasts</a></h2><span class="host">laracasts.com</span>
-<p class="d">The main video resource for the Laravel ecosystem, covering the architectural decisions the docs leave out. One site carrying an ecosystem’s training is unusual.</p>
+<p class="d">The main video resource for the Laravel ecosystem. Unlike the official docs, it covers the architectural decisions they leave out; one site carrying an ecosystem’s training is unusual.</p>
 <p class="t">Paid, PHP, Video</p>
 </article>
 <article>
@@ -249,17 +249,17 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://memcached.org/" rel="noopener noreferrer nofollow">Memcached</a></h2><span class="host">memcached.org</span>
-<p class="d">A distributed memory cache that speeds up sites by holding hot data in RAM.</p>
+<p class="d">A distributed memory cache that speeds up sites by holding hot data in RAM. Compared with Redis it stores only key-value pairs with no persistence; in exchange it is multi-threaded and extremely simple.</p>
 <p class="t">Backend, Open Source, Server</p>
 </article>
 <article>
 <h2><a href="https://nodejs.org/learn" rel="noopener noreferrer nofollow">Node.js Learn</a></h2><span class="host">nodejs.org</span>
-<p class="d">Explains the runtime itself before any framework — event loop, streams, worker threads. Learning Express without knowing Node is a common gap.</p>
+<p class="d">Explains the runtime itself before any framework — event loop, streams, worker threads. Unlike Express tutorials it covers that foundation; learning Express without knowing Node is a common gap.</p>
 <p class="t">Free, Docs, JavaScript</p>
 </article>
 <article>
 <h2><a href="https://www.parse.bot/" rel="noopener noreferrer nofollow">Parse</a></h2><span class="host">parse.bot</span>
-<p class="d">Turns a web page into an API without you writing selectors — you point at the page. A short route to structured data from a source with no API.</p>
+<p class="d">Turns a web page into an API — you point at the page and it works out the rest. Instead of writing your own scraper with selectors, it is a short route to structured data from a source with no API.</p>
 <p class="t">Paid, Freemium, Reference, API</p>
 </article>
 <article>
@@ -269,7 +269,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://phptherightway.com/" rel="noopener noreferrer nofollow">PHP: The Right Way</a></h2><span class="host">phptherightway.com</span>
-<p class="d">Collects current PHP practice — Composer, PSR standards, prepared statements. A corrective to the old `mysql_*` examples still circulating online.</p>
+<p class="d">Collects current PHP practice — Composer, PSR standards, prepared statements. Unlike the old `mysql_*` examples still circulating online, it is a corrective showing today’s right way.</p>
 <p class="t">Free, PHP, Tutorial</p>
 </article>
 <article>
@@ -294,17 +294,17 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://stripe.com/" rel="noopener noreferrer nofollow">Stripe</a></h2><span class="host">stripe.com</span>
-<p class="d">Payment infrastructure whose documentation is treated as an industry benchmark — test cards, webhook retry logic and idempotency keys all worked through with examples.</p>
+<p class="d">Payment infrastructure whose documentation is an industry benchmark — test cards, webhook retry logic and idempotency keys worked through with examples. Unlike local providers such as iyzico it has that documentation quality, but it is not available to companies based in Turkey.</p>
 <p class="t">Paid, Backend, API</p>
 </article>
 <article>
 <h2><a href="https://swagger.io/" rel="noopener noreferrer nofollow">Swagger</a></h2><span class="host">swagger.io</span>
-<p class="d">An OpenAPI toolset to design, document and try RESTful APIs.</p>
+<p class="d">An OpenAPI toolset to design, document and try RESTful APIs. Unlike clients such as Postman, you write the spec first and generate docs and client code from it.</p>
 <p class="t">API, Backend, Open Source</p>
 </article>
 <article>
 <h2><a href="https://systemdesign.one/" rel="noopener noreferrer nofollow">System Design One</a></h2><span class="host">systemdesign.one</span>
-<p class="d">Breaks down real company architectures as case studies with actual numbers and the trade-offs taken. That concreteness is what separates it from abstract write-ups.</p>
+<p class="d">Breaks down real company architectures as case studies with actual numbers and the trade-offs taken. Unlike abstract system-design write-ups, it is concrete.</p>
 <p class="t">Free, System Design, Tutorial</p>
 </article>
 <article>

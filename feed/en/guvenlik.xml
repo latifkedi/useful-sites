@@ -11,14 +11,14 @@
   <link href="https://keepass.info/"/>
   <id>https://keepass.info/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An open-source password manager that keeps passwords in a locally encrypted vault.</summary>
+  <summary>An open-source password manager that keeps passwords in a locally encrypted vault. Unlike Bitwarden there is no cloud — the vault file is yours and you set up sync yourself; cross-platform forks such as KeePassXC exist.</summary>
 </entry>
 <entry>
   <title>Malwarebytes</title>
   <link href="https://www.malwarebytes.com/"/>
   <id>https://www.malwarebytes.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Anti-malware protection that detects and removes malicious software.</summary>
+  <summary>Anti-malware software that detects and removes malicious software. Compared with Windows Defender it is mostly used as a second opinion, strong at catching the adware and unwanted programs Defender misses.</summary>
 </entry>
 <entry>
   <title>OpenVPN</title>
@@ -32,21 +32,21 @@
   <link href="https://www.torproject.org/"/>
   <id>https://www.torproject.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A free network and browser that anonymises traffic across volunteer nodes.</summary>
+  <summary>A free network and browser that anonymises traffic across volunteer nodes. Unlike a VPN it splits trust across three separate relays rather than one provider; the price is a noticeably slower connection.</summary>
 </entry>
 <entry>
   <title>uBlock Origin</title>
   <link href="https://github.com/gorhill/uBlock"/>
   <id>https://github.com/gorhill/uBlock</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An efficient, lightweight ad/tracker blocker for Chromium and Firefox.</summary>
+  <summary>An efficient, lightweight ad and tracker blocker. Unlike other blockers it combines low memory use with fine-grained filter control; because of Manifest V3 the full version no longer runs in Chrome — it lives on in Firefox, with uBO Lite for Chrome.</summary>
 </entry>
 <entry>
-  <title>Windows 10/11 Privacy Guide</title>
+  <title>Windows 10 Gizlilik Rehberi</title>
   <link href="https://github.com/adolfintel/Windows10-Privacy"/>
   <id>https://github.com/adolfintel/Windows10-Privacy</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A detailed privacy guide on step-by-step reducing data collection in Windows.</summary>
+  <summary>A detailed privacy guide to reducing data collection in Windows 10 step by step; the repository was archived in 2019. Unlike one-click “privacy tools” it explains what each step does, but it is not current for Windows 11.</summary>
 </entry>
 <entry>
   <title>Citizen Lab Test Lists</title>
@@ -109,7 +109,7 @@
   <link href="https://ipleak.net/"/>
   <id>https://ipleak.net/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Shows what your connection leaks: IP, DNS servers, WebRTC local addresses, DNS leakage. That is the test that matters with a VPN on — WebRTC can still hand over your real IP, and this is where you see it.</summary>
+  <summary>Shows what your connection leaks: IP, DNS servers, WebRTC local addresses, DNS leakage. Unlike sites that only show your IP, it catches what still leaks with a VPN on — WebRTC can hand over your real IP, and this is where you see it.</summary>
 </entry>
 <entry>
   <title>JustDeleteMe</title>
@@ -200,28 +200,28 @@
   <link href="https://privnote.com/"/>
   <id>https://privnote.com/</id>
   <updated>2026-07-28T08:48:10Z</updated>
-  <summary>A note that destroys itself after reading, with no account required — practical for handing over a one-time password without leaving it in a chat log.</summary>
+  <summary>A note that destroys itself after reading, with no account required. Unlike pasting into a chat it leaves no trail — practical for handing over a one-time password without leaving it in a chat log.</summary>
 </entry>
 <entry>
   <title>5SIM</title>
   <link href="https://5sim.net/"/>
   <id>https://5sim.net/</id>
   <updated>2026-07-05T21:11:44Z</updated>
-  <summary>Rents temporary numbers for SMS verification so you can sign up without your own. Use carefully on accounts you intend to keep — recovery becomes a problem.</summary>
+  <summary>Rents temporary numbers for SMS verification. Instead of giving your own number you sign up with a rented one; use carefully on accounts you intend to keep, as recovery becomes a problem.</summary>
 </entry>
 <entry>
   <title>Silent Link</title>
   <link href="https://silent.link/#generic_price_table"/>
   <id>https://silent.link/#generic_price_table</id>
   <updated>2026-07-05T21:11:19Z</updated>
-  <summary>An eSIM data plan requiring no identity — paid in crypto, no name or document. A way to get data abroad without tying a number to your identity.</summary>
+  <summary>An eSIM data plan requiring no identity — paid in crypto, no name or document. Unlike carriers’ eSIMs the line is not tied to your identity — an anonymous way to get data abroad.</summary>
 </entry>
 <entry>
   <title>Bitwarden</title>
   <link href="https://bitwarden.com/"/>
   <id>https://bitwarden.com/</id>
   <updated>2026-07-03T12:26:39Z</updated>
-  <summary>A password manager with open source and independent audits behind it. The free tier holds unlimited passwords, and Vaultwarden lets you self-host the whole thing.</summary>
+  <summary>A password manager with open source and independent audits behind it; the free tier holds unlimited passwords. Unlike closed rivals such as 1Password it is open, and Vaultwarden lets you self-host the whole thing.</summary>
 </entry>
 <entry>
   <title>Özgür Yazılım Güvenlik Rehberi</title>
@@ -235,6 +235,6 @@
   <link href="https://guvenlik.oyd.org.tr/yazisma_guvenligi/mailvelope.html"/>
   <id>https://guvenlik.oyd.org.tr/yazisma_guvenligi/mailvelope.html</id>
   <updated>2025-03-11T08:23:50Z</updated>
-  <summary>A step-by-step Turkish walkthrough of using PGP through a browser extension. The key generation and exchange section is where the concept becomes concrete.</summary>
+  <summary>A step-by-step Turkish walkthrough of using PGP through a browser extension. Unlike English PGP documentation it is in Turkish and hands-on; the key generation and exchange section is where the concept becomes concrete.</summary>
 </entry>
 </feed>

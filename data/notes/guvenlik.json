@@ -6,8 +6,8 @@
       "ücretli",
       "gizlilik"
     ],
-    "tr": "SMS doğrulaması için geçici numara kiralama. Kendi numaranı vermeden hesap açmayı sağlıyor; kalıcı hesaplarda kurtarma sorunu doğurabileceği için dikkatli kullanılmalı.",
-    "en": "Rents temporary numbers for SMS verification so you can sign up without your own. Use carefully on accounts you intend to keep — recovery becomes a problem.",
+    "tr": "SMS doğrulaması için geçici numara kiralama. Kendi numaranı vermek yerine kiralık numarayla hesap açıyorsun; kalıcı hesaplarda kurtarma sorunu doğurabileceği için dikkatli kullanılmalı.",
+    "en": "Rents temporary numbers for SMS verification. Instead of giving your own number you sign up with a rented one; use carefully on accounts you intend to keep, as recovery becomes a problem.",
     "src": "kedi",
     "added": 1783285904
   },
@@ -44,8 +44,8 @@
       "gizlilik",
       "self-hosted"
     ],
-    "tr": "Kaynak kodu açık ve bağımsız denetimden geçmiş parola yöneticisi. Ücretsiz katmanda sınırsız parola var; istersen Vaultwarden ile kendi sunucunda çalıştırılıyor.",
-    "en": "A password manager with open source and independent audits behind it. The free tier holds unlimited passwords, and Vaultwarden lets you self-host the whole thing.",
+    "tr": "Kaynak kodu açık ve bağımsız denetimden geçmiş parola yöneticisi; ücretsiz katmanda sınırsız parola var. 1Password gibi kapalı rakiplerinden farkı bu açıklık; istersen Vaultwarden ile kendi sunucunda çalıştırılıyor.",
+    "en": "A password manager with open source and independent audits behind it; the free tier holds unlimited passwords. Unlike closed rivals such as 1Password it is open, and Vaultwarden lets you self-host the whole thing.",
     "src": "kedi",
     "added": 1783081599
   },
@@ -131,8 +131,8 @@
       "ağ",
       "ücretsiz"
     ],
-    "tr": "Bağlantının dışarıya ne sızdırdığını gösteren test: IP, DNS sunucuları, WebRTC yerel adresi, DNS sızıntısı. VPN kullanırken önemli olan da bu — VPN açıkken WebRTC gerçek IP’ni verebiliyor, burada görünüyor.",
-    "en": "Shows what your connection leaks: IP, DNS servers, WebRTC local addresses, DNS leakage. That is the test that matters with a VPN on — WebRTC can still hand over your real IP, and this is where you see it.",
+    "tr": "Bağlantının dışarıya ne sızdırdığını gösteren test: IP, DNS sunucuları, WebRTC yerel adresi, DNS sızıntısı. Yalnız IP gösteren sitelerden farkı VPN açıkken de sızan bilgiyi yakalaması — WebRTC gerçek IP’ni verebiliyor, burada görünüyor.",
+    "en": "Shows what your connection leaks: IP, DNS servers, WebRTC local addresses, DNS leakage. Unlike sites that only show your IP, it catches what still leaks with a VPN on — WebRTC can hand over your real IP, and this is where you see it.",
     "src": "awesome-uw"
   },
   {
@@ -156,8 +156,8 @@
       "güvenlik",
       "ücretsiz"
     ],
-    "tr": "Parolaları yerelde şifreli bir kasada tutan açık kaynak parola yöneticisi.",
-    "en": "An open-source password manager that keeps passwords in a locally encrypted vault.",
+    "tr": "Parolaları yerelde şifreli bir kasada tutan açık kaynak parola yöneticisi. Bitwarden’dan farkı bulut olmaması: kasa dosyası senin, eşitlemeyi kendin kuruyorsun; KeePassXC gibi platformlar arası çatalları var.",
+    "en": "An open-source password manager that keeps passwords in a locally encrypted vault. Unlike Bitwarden there is no cloud — the vault file is yours and you set up sync yourself; cross-platform forks such as KeePassXC exist.",
     "src": "piracy"
   },
   {
@@ -180,8 +180,8 @@
       "türkçe",
       "gizlilik"
     ],
-    "tr": "Tarayıcı eklentisiyle PGP kullanmayı adım adım anlatan Türkçe rehber. Anahtar üretme ve paylaşma kısmı, kavramın en somut hâliyle görüldüğü yer.",
-    "en": "A step-by-step Turkish walkthrough of using PGP through a browser extension. The key generation and exchange section is where the concept becomes concrete.",
+    "tr": "Tarayıcı eklentisiyle PGP kullanmayı adım adım anlatan Türkçe rehber. İngilizce PGP belgelerinden farkı Türkçe ve uygulamalı olması; anahtar üretme ve paylaşma kısmı kavramın en somut hâli.",
+    "en": "A step-by-step Turkish walkthrough of using PGP through a browser extension. Unlike English PGP documentation it is in Turkish and hands-on; the key generation and exchange section is where the concept becomes concrete.",
     "src": "kedi",
     "added": 1741681430
   },
@@ -192,8 +192,8 @@
       "güvenlik",
       "freemium"
     ],
-    "tr": "Zararlı yazılımı tespit edip temizleyen kötü amaçlı yazılım koruması.",
-    "en": "Anti-malware protection that detects and removes malicious software.",
+    "tr": "Zararlı yazılımı tespit edip temizleyen koruma yazılımı. Windows Defender’a kıyasla çoğunlukla ikinci görüş olarak kullanılıyor: Defender’ın kaçırdığı reklam yazılımı ve istenmeyen programları yakalamakta güçlü.",
+    "en": "Anti-malware software that detects and removes malicious software. Compared with Windows Defender it is mostly used as a second opinion, strong at catching the adware and unwanted programs Defender misses.",
     "src": "piracy"
   },
   {
@@ -276,8 +276,8 @@
       "ücretsiz",
       "gizlilik"
     ],
-    "tr": "Okunduktan sonra kendini silen not; hesap gerektirmiyor. Tek seferlik bir parolayı sohbet geçmişinde bırakmadan iletmek için pratik.",
-    "en": "A note that destroys itself after reading, with no account required — practical for handing over a one-time password without leaving it in a chat log.",
+    "tr": "Okunduktan sonra kendini silen not; hesap gerektirmiyor. Sohbet uygulamasına yazmaktan farkı iz bırakmaması: tek seferlik bir parolayı sohbet geçmişinde bırakmadan iletmek için pratik.",
+    "en": "A note that destroys itself after reading, with no account required. Unlike pasting into a chat it leaves no trail — practical for handing over a one-time password without leaving it in a chat log.",
     "src": "kedi",
     "added": 1785228490
   },
@@ -300,8 +300,8 @@
       "ücretli",
       "gizlilik"
     ],
-    "tr": "Kimlik istemeyen eSIM veri hattı; kripto ile ödeniyor, isim ya da belge sorulmuyor. Seyahatte telefon numarasını kimliğine bağlamadan veri almanın yolu.",
-    "en": "An eSIM data plan requiring no identity — paid in crypto, no name or document. A way to get data abroad without tying a number to your identity.",
+    "tr": "Kimlik istemeyen eSIM veri hattı; kripto ile ödeniyor, isim ya da belge sorulmuyor. Operatörlerin eSIM’lerinden farkı numaranın kimliğine bağlanmaması: seyahatte veri almanın anonim yolu.",
+    "en": "An eSIM data plan requiring no identity — paid in crypto, no name or document. Unlike carriers’ eSIMs the line is not tied to your identity — an anonymous way to get data abroad.",
     "src": "kedi",
     "added": 1783285879
   },
@@ -350,8 +350,8 @@
       "ağ",
       "ücretsiz"
     ],
-    "tr": "Trafiği gönüllü düğümler üzerinden anonimleştiren özgür ağ ve tarayıcı.",
-    "en": "A free network and browser that anonymises traffic across volunteer nodes.",
+    "tr": "Trafiği gönüllü düğümler üzerinden anonimleştiren özgür ağ ve tarayıcı. VPN’den farkı güveni tek bir sağlayıcıya değil üç ayrı düğüme bölmesi; karşılığında bağlantı belirgin biçimde yavaş.",
+    "en": "A free network and browser that anonymises traffic across volunteer nodes. Unlike a VPN it splits trust across three separate relays rather than one provider; the price is a noticeably slower connection.",
     "src": "piracy"
   },
   {
@@ -375,21 +375,22 @@
       "eklenti",
       "ücretsiz"
     ],
-    "tr": "Chromium ve Firefox için verimli, hafif reklam/izleyici engelleyici.",
-    "en": "An efficient, lightweight ad/tracker blocker for Chromium and Firefox.",
+    "tr": "Verimli, hafif reklam ve izleyici engelleyici. Diğer engelleyicilerden farkı düşük bellek kullanımı ve ayrıntılı filtre denetimi; Chrome’da Manifest V3 nedeniyle tam sürüm artık çalışmıyor — tam hâli Firefox’ta, Chrome’da uBO Lite var.",
+    "en": "An efficient, lightweight ad and tracker blocker. Unlike other blockers it combines low memory use with fine-grained filter control; because of Manifest V3 the full version no longer runs in Chrome — it lives on in Firefox, with uBO Lite for Chrome.",
     "src": "piracy"
   },
   {
     "url": "https://github.com/adolfintel/Windows10-Privacy",
-    "name": "Windows 10/11 Privacy Guide",
+    "name": "Windows 10 Gizlilik Rehberi",
     "tags": [
       "gizlilik",
       "github",
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "arşivlenmiş"
     ],
-    "tr": "Windows’taki veri toplamayı adım adım kısmayı anlatan ayrıntılı gizlilik rehberi.",
-    "en": "A detailed privacy guide on step-by-step reducing data collection in Windows.",
+    "tr": "Windows 10’daki veri toplamayı adım adım kısmayı anlatan ayrıntılı gizlilik rehberi; depo 2019’da arşivlendi. Tek tıklık “gizlilik araçlarının” aksine her adımın ne yaptığını açıklıyor, ama Windows 11 için güncel değil.",
+    "en": "A detailed privacy guide to reducing data collection in Windows 10 step by step; the repository was archived in 2019. Unlike one-click “privacy tools” it explains what each step does, but it is not current for Windows 11.",
     "src": "piracy"
   },
   {

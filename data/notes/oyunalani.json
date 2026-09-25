@@ -6,8 +6,8 @@
       "tarayıcı-içi",
       "ücretsiz"
     ],
-    "tr": "C# ve .NET kodunu tarayıcıda yazıp çalıştıran ve paylaşan alan; kurulum gerekmez.",
-    "en": "Write, run and share C# and .NET code in the browser — no install.",
+    "tr": "C# ve .NET kodunu tarayıcıda yazıp çalıştıran ve paylaşan alan. Visual Studio kurmak yerine küçük bir parçayı hemen denemek için; JSFiddle’ın .NET karşılığı.",
+    "en": "Write, run and share C# and .NET code in the browser. Instead of installing Visual Studio you try a small snippet at once — the .NET counterpart to JSFiddle.",
     "src": "awesomeproj"
   },
   {
@@ -29,8 +29,8 @@
       "mülakat",
       "freemium"
     ],
-    "tr": "Canlı kod yazdırarak teknik mülakat yapmayı sağlayan ortak editör (birçok dil).",
-    "en": "A collaborative editor for running technical interviews with live coding (many languages).",
+    "tr": "Canlı kod yazdırarak teknik mülakat yapmayı sağlayan ortak editör (birçok dil). CodeShare gibi basit ortak editörlerden farkı kodu çalıştırması ve oturumu sonradan adım adım yeniden oynatabilmesi.",
+    "en": "A collaborative editor for technical interviews with live coding (many languages). Unlike simple shared editors such as CodeShare, it runs the code and can replay the session step by step afterwards.",
     "src": "bwapsv"
   },
   {
@@ -51,8 +51,8 @@
       "ücretsiz",
       "tarayıcı-içi"
     ],
-    "tr": "Tarayıcıda gerçek zamanlı ortak kod düzenleme; kurulum ve hesap gerektirmiyor. Uzaktan eşli programlama ya da mülakat için hızlı çözüm.",
-    "en": "Real-time collaborative code editing in the browser with no install or account — a fast option for remote pairing or an interview.",
+    "tr": "Tarayıcıda gerçek zamanlı ortak kod düzenleme; kurulum ve hesap gerektirmiyor. CoderPad’e kıyasla kodu çalıştırmıyor ama anında açılıyor: uzaktan eşli programlama ya da mülakat için hızlı çözüm.",
+    "en": "Real-time collaborative code editing in the browser with no install or account. Compared with CoderPad it does not run code, but it opens instantly — a fast option for remote pairing or an interview.",
     "src": "bwapsv"
   },
   {
@@ -75,8 +75,8 @@
       "tarayıcı-içi",
       "ücretsiz"
     ],
-    "tr": "Modern JavaScript (ES6+) kodunu tarayıcıda derleyip sonucunu anında gösteren konsol.",
-    "en": "A console that compiles modern JavaScript (ES6+) in the browser and shows the result instantly.",
+    "tr": "Modern JavaScript (ES6+) kodunu tarayıcıda derleyip sonucunu anında gösteren konsol. Tarayıcı konsolundan farkı yazdığın kodun eski JavaScript’e nasıl çevrildiğini de yan yana göstermesi.",
+    "en": "A console that compiles modern JavaScript (ES6+) in the browser and shows the result instantly. Unlike the browser console, it also shows side by side how your code transpiles to older JavaScript.",
     "src": "awesomeproj"
   },
   {
@@ -86,8 +86,8 @@
       "ücretsiz",
       "tarayıcı-içi"
     ],
-    "tr": "60’tan fazla dili tarayıcıda derleyip çalıştırıyor, girdi akışı verebiliyorsun. Kurulum yapmadan bir dilin sözdizimini denemek için.",
-    "en": "Compiles and runs 60+ languages in the browser and accepts an input stream — for trying a language’s syntax without installing anything.",
+    "tr": "60’tan fazla dili tarayıcıda derleyip çalıştırıyor, girdi akışı verebiliyorsun. Replit gibi proje ortamlarından farkı tek dosyalık deneme için hafif olması: kurulum yapmadan bir dilin sözdizimini denemek için.",
+    "en": "Compiles and runs 60+ languages in the browser and accepts an input stream. Unlike project environments such as Replit it is light, for single files — trying a language’s syntax without installing anything.",
     "src": "bwapsv"
   },
   {
@@ -110,8 +110,8 @@
       "tarayıcı-içi",
       "javascript"
     ],
-    "tr": "Küçük JavaScript parçalarını denemenin en eski ve en hafif yolu; hata raporlarına tekrar üretilebilir örnek eklemek için standart araç.",
-    "en": "The oldest and lightest way to test a small JavaScript snippet — the standard tool for attaching a reproducible example to a bug report.",
+    "tr": "Küçük JavaScript parçalarını denemenin en eski ve en hafif yolu. CodePen’den farkı keşif değil tekrar üretilebilir örnek odağı: hata raporlarına örnek eklemek için standart araç.",
+    "en": "The oldest and lightest way to test a small JavaScript snippet. Unlike CodePen it is about reproducible examples rather than discovery — the standard tool for attaching one to a bug report.",
     "src": "bwapsv"
   },
   {
@@ -121,8 +121,8 @@
       "açık-kaynak",
       "tarayıcı-içi"
     ],
-    "tr": "Açık kaynak çevrimiçi derleyici; motoru kendi sunucunda çalıştırabiliyorsun. Kod değerlendirme sistemi kuranların altyapı olarak kullandığı proje.",
-    "en": "An open-source online compiler whose engine you can self-host — the project people building code assessment systems use as infrastructure.",
+    "tr": "Açık kaynak çevrimiçi derleyici. Ideone gibi kapalı servislerin aksine motoru kendi sunucunda çalıştırabiliyorsun — kod değerlendirme sistemi kuranların altyapı olarak kullandığı proje.",
+    "en": "An open-source online compiler. Unlike closed services such as Ideone you can self-host its engine — the project people building code assessment systems use as infrastructure.",
     "src": "bwapsv"
   },
   {
@@ -133,8 +133,8 @@
       "tarayıcı-içi",
       "ücretsiz"
     ],
-    "tr": "HTML, CSS ve JS’i canlı önizlemeyle deneyebileceğin tarayıcı içi kod bahçesi.",
-    "en": "An in-browser playground to try HTML, CSS and JS with live preview.",
+    "tr": "HTML, CSS ve JS’i canlı önizlemeyle deneyebileceğin tarayıcı içi kod alanı. CodePen’den farkı topluluk ve keşif katmanı olmadan, hesapsız sade bir deneme alanı olması.",
+    "en": "An in-browser playground to try HTML, CSS and JS with live preview. Unlike CodePen it is a plain, account-free scratchpad without the community and discovery layer.",
     "src": "awesomeproj"
   },
   {
@@ -155,8 +155,8 @@
       "freemium",
       "agent"
     ],
-    "tr": "Bulut geliştirme ortamı olarak başlayan Gitpod, 2025'te Ona adıyla arka planda çalışan yapay zekâ ajan platformuna dönüştü.",
-    "en": "Starting as the Gitpod cloud dev environment, it became Ona in 2025 — a platform for background AI coding agents.",
+    "tr": "Bulut geliştirme ortamı olarak başlayan Gitpod, 2025’te Ona adıyla arka planda çalışan yapay zekâ ajan platformuna dönüştü. GitHub Codespaces gibi bulut ortamlarından farkı artık ortamın kendisinden çok içinde çalışan ajanlara odaklanması.",
+    "en": "Starting as the Gitpod cloud dev environment, it became Ona in 2025 — a platform for background AI coding agents. Unlike cloud environments such as GitHub Codespaces, it now centres on the agents running inside rather than the environment itself.",
     "src": "awesomeproj"
   },
   {
@@ -179,8 +179,8 @@
       "ücretsiz",
       "c-ailesi"
     ],
-    "tr": "C ve birçok dili tarayıcıda derleyip hata ayıklayan çevrimiçi IDE (gdb hata ayıklayıcı dahil).",
-    "en": "An online IDE that compiles and debugs C and many languages in the browser (gdb included).",
+    "tr": "C ve birçok dili tarayıcıda derleyen çevrimiçi IDE. Ideone gibi yalnız çalıştıran alanlardan farkı gdb hata ayıklayıcısını içermesi: kesme noktası koyup adım adım ilerleyebiliyorsun.",
+    "en": "An online IDE that compiles C and many other languages in the browser. Unlike run-only sites such as Ideone it includes the gdb debugger, so you can set breakpoints and step through.",
     "src": "awesomeproj"
   },
   {
@@ -214,8 +214,8 @@
       "freemium",
       "javascript"
     ],
-    "tr": "Yazdıkça sonucu gösteren JavaScript oyun alanı; konsola `console.log` yazmadan değişkenin değerini görebiliyorsun.",
-    "en": "A JavaScript playground that evaluates as you type, showing a variable’s value without a `console.log`.",
+    "tr": "Yazdıkça sonucu gösteren JavaScript oyun alanı. Tarayıcı konsolundan farkı `console.log` yazmadan her satırdaki değeri yanında göstermesi.",
+    "en": "A JavaScript playground that evaluates as you type. Unlike the browser console it shows each line’s value alongside without a `console.log`.",
     "src": "bwapsv"
   },
   {
@@ -225,8 +225,8 @@
       "freemium",
       "tarayıcı-içi"
     ],
-    "tr": "WebContainer ile Node.js’i doğrudan tarayıcıda çalıştırıyor; sunucuya gitmediği için kurulum ve yeniden başlatma anlık. Çevrimdışı bile çalışabiliyor.",
-    "en": "Runs Node.js in the browser through WebContainers, so install and restart are instant with no server round trip — it even works offline.",
+    "tr": "WebContainer ile Node.js’i doğrudan tarayıcıda çalıştırıyor. Sunucuda konteyner açan çevrimiçi IDE’lerden farkı kurulum ve yeniden başlatmanın anlık olması; çevrimdışı bile çalışabiliyor.",
+    "en": "Runs Node.js in the browser through WebContainers. Unlike online IDEs that spin up server-side containers, install and restart are instant — it even works offline.",
     "src": "bwapsv"
   },
   {
@@ -237,8 +237,8 @@
       "tarayıcı-içi",
       "c-ailesi"
     ],
-    "tr": "C++ derleyicilerinin onlarca sürümünü yan yana çalıştırıyor; bir davranışın hangi standarttan ya da hangi derleyici sürümünden geldiğini test etmek için.",
-    "en": "Runs dozens of C++ compiler versions side by side — for testing which standard or compiler release a behaviour comes from.",
+    "tr": "C++ derleyicilerinin onlarca sürümünü yan yana çalıştırıyor. Compiler Explorer’dan farkı derleme çıktısı (assembly) yerine programın çalışma sonucunu göstermesi: bir davranışın hangi standarttan ya da derleyici sürümünden geldiğini test etmek için.",
+    "en": "Runs dozens of C++ compiler versions side by side. Unlike Compiler Explorer it shows the program’s run output rather than the assembly — for testing which standard or compiler release a behaviour comes from.",
     "src": "bwapsv"
   }
 ]

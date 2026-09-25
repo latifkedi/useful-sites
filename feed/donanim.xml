@@ -193,28 +193,28 @@
   <link href="https://eclipse.dev/ditto/"/>
   <id>https://eclipse.dev/ditto/</id>
   <updated>2026-08-17T19:47:15Z</updated>
-  <summary>Cihazın durumunu sunucuda bir “dijital ikiz” olarak tutuyor; cihaz uykudayken bile son bilinen durumu sorgulanabiliyor ve komut kuyruğa alınabiliyor.</summary>
+  <summary>Cihazın durumunu sunucuda bir “dijital ikiz” olarak tutuyor. Yalnız mesaj ileten MQTT broker’larından farkı durumu saklaması: cihaz uykudayken bile son bilinen durum sorgulanabiliyor ve komut kuyruğa alınabiliyor.</summary>
 </entry>
 <entry>
   <title>SmartVision</title>
   <link href="https://tr.smartvision.dev/"/>
   <id>https://tr.smartvision.dev/</id>
   <updated>2026-08-16T07:54:38Z</updated>
-  <summary>Türkçe arayüzlü video gözetim yazılımı; kamera yönetimi ve kayıt tarafını kapsıyor. Yerel kurulumlarda dil ve destek açısından pratik bir seçenek.</summary>
+  <summary>Türkçe arayüzlü video gözetim yazılımı; kamera yönetimi ve kayıt tarafını kapsıyor. İngilizce arayüzlü gözetim yazılımlarına kıyasla yerel kurulumlarda dil ve destek açısından pratik.</summary>
 </entry>
 <entry>
   <title>Anyka Kamera Firmware</title>
   <link href="https://github.com/MuhammedKalkan/Anyka-Camera-Firmware"/>
   <id>https://github.com/MuhammedKalkan/Anyka-Camera-Firmware</id>
   <updated>2026-08-12T20:51:31Z</updated>
-  <summary>Anyka yongalı kameralar için özel ürün yazılımı; OpenIPC’nin kapsamadığı bir aileyi hedefliyor. Ucuz Çin kameralarının çoğu bu yonga ailesini kullanıyor.</summary>
+  <summary>Anyka yongalı kameralar için özel ürün yazılımı. OpenIPC’den farkı onun kapsamadığı bu aileyi hedeflemesi — ucuz Çin kameralarının çoğu bu yongayı kullanıyor.</summary>
 </entry>
 <entry>
   <title>AK3918 Kamera Notları</title>
   <link href="https://github.com/OpenIPC/firmware/issues/1970"/>
   <id>https://github.com/OpenIPC/firmware/issues/1970</id>
   <updated>2026-08-12T20:51:23Z</updated>
-  <summary>Belirli bir kamera yongası için donanım bilgisi ve yazılım dökümlerinin biriktiği tartışma. Bu tür modeller için tek kaynak genelde böyle bir konu başlığı oluyor.</summary>
+  <summary>Belirli bir kamera yongası (AK3918) için donanım bilgisi ve yazılım dökümlerinin biriktiği tartışma. Olmayan üretici belgesinin yerine, bu tür modeller için tek kaynak genelde böyle bir konu başlığı oluyor.</summary>
 </entry>
 <entry>
   <title>OpenIPC</title>
@@ -228,14 +228,14 @@
   <link href="https://github.com/OpenIPC/firmware"/>
   <id>https://github.com/OpenIPC/firmware</id>
   <updated>2026-08-12T20:51:11Z</updated>
-  <summary>Desteklenen yonga listesi ve derleme talimatları. Kameranı almadan önce yongasının listede olup olmadığına bakmak gerekiyor.</summary>
+  <summary>IP kameralar için açık ürün yazılımının desteklenen yonga listesi ve derleme talimatları. Üretici yazılımından farkı buluta bağımlı olmaması; kameranı almadan önce yongasının listede olup olmadığına bak.</summary>
 </entry>
 <entry>
   <title>OpenIPC Coupler</title>
   <link href="https://github.com/openipc/coupler/"/>
   <id>https://github.com/openipc/coupler/</id>
   <updated>2026-08-12T20:51:08Z</updated>
-  <summary>Kamera ürün yazılımları arasında geçiş yapmayı ve orijinaline dönmeyi sağlıyor. Deneme yaparken elindeki tek kurtarma aracı bu olabiliyor.</summary>
+  <summary>Kamera ürün yazılımları arasında geçiş yapmayı ve orijinaline dönmeyi sağlıyor. Seri kabloyla elle flaşlamaya kıyasla daha güvenli; deneme yaparken elindeki tek kurtarma aracı bu olabiliyor.</summary>
 </entry>
 <entry>
   <title>OpenIPC Kurulum</title>
@@ -249,21 +249,21 @@
   <link href="https://campaign.advantech.online/en/edgeaisdk/index.html"/>
   <id>https://campaign.advantech.online/en/edgeaisdk/index.html</id>
   <updated>2026-08-05T22:16:36Z</updated>
-  <summary>Endüstriyel uç donanımda model çalıştırmak için geliştirme kiti. Fabrika ortamı gibi sertifikalı donanım gerektiren yerlerde Raspberry Pi sınıfı kartlar yeterli olmuyor.</summary>
+  <summary>Endüstriyel uç donanımda model çalıştırmak için geliştirme kiti. Raspberry Pi sınıfı kartlardan farkı sertifikalı endüstriyel donanımı hedeflemesi — fabrika ortamında onlar yeterli olmuyor.</summary>
 </entry>
 <entry>
   <title>Allwinner V821</title>
   <link href="https://kokomotech.com/allwinner-v821/"/>
   <id>https://kokomotech.com/allwinner-v821/</id>
   <updated>2026-08-05T22:16:28Z</updated>
-  <summary>V821 yonga setinin teknik özeti; görüntü işleme hattı ve NPU yetenekleri dahil. Kamera veya uç yapay zeka projesinde yonga seçerken karşılaştırma noktası.</summary>
+  <summary>V821 yonga setinin teknik özeti; görüntü işleme hattı ve NPU yetenekleri dahil. Uzun veri sayfasına kıyasla hızlı okunuyor: kamera veya uç yapay zekâ projesinde yonga seçerken karşılaştırma noktası.</summary>
 </entry>
 <entry>
   <title>AvaotaF1 İncelemesi</title>
   <link href="https://www.electronics-lab.com/avaotaf1-development-board-offers-allwinner-v821-soc-64mb-ram-mipi-camera-spi-display-and-wi-fi-in-coin-size-form/"/>
   <id>https://www.electronics-lab.com/avaotaf1-development-board-offers-allwinner-v821-soc-64mb-ram-mipi-camera-spi-display-and-wi-fi-in-coin-size-form/</id>
   <updated>2026-08-05T16:03:23Z</updated>
-  <summary>Kartın teknik özelliklerini ve olası kullanım alanlarını derleyen yazı; resmî depoya dalmadan önce hızlı bir bakış.</summary>
+  <summary>AvaotaF1 kartının teknik özelliklerini ve olası kullanım alanlarını derleyen yazı. Resmî depoya dalmaktan farkı kartı birkaç dakikada tanıtması: hızlı bir ilk bakış.</summary>
 </entry>
 <entry>
   <title>AvaotaF1</title>
@@ -277,13 +277,13 @@
   <link href="https://github.com/LiteEMF?tab=repositories"/>
   <id>https://github.com/LiteEMF?tab=repositories</id>
   <updated>2026-08-05T16:01:43Z</updated>
-  <summary>Gömülü sistem kütüphaneleri ve ürün yazılımı depoları; USB HID ve kablosuz giriş cihazı projeleri ağırlıkta. Kumanda ve klavye protokolleri için referans.</summary>
+  <summary>Gömülü sistem kütüphaneleri ve ürün yazılımı depoları; USB HID ve kablosuz giriş cihazı projeleri ağırlıkta. Genel gömülü kütüphanelerden farkı bu odak: kumanda ve klavye protokolleri için referans.</summary>
 </entry>
 <entry>
   <title>Kontrol Sistemleri Uygulamada</title>
   <link href="https://www.youtube.com/playlist?list=PLn8PRpmsu08pFBqgd_6Bi7msgkWFKL33b"/>
   <id>https://www.youtube.com/playlist?list=PLn8PRpmsu08pFBqgd_6Bi7msgkWFKL33b</id>
   <updated>2026-07-29T07:51:41Z</updated>
-  <summary>Aynı teorinin mühendislik sezgisi tarafı: PID’i gerçekte nasıl ayarlarsın, gürültü ve doygunluk ne yapar. Ders serisiyle birlikte okunması gereken taraf.</summary>
+  <summary>Kontrol teorisinin mühendislik sezgisi tarafı: PID’i gerçekte nasıl ayarlarsın, gürültü ve doygunluk ne yapar. Akademik ders serisinden farkı formül yerine sezgi vermesi — ikisi birlikte izlenmeli.</summary>
 </entry>
 </feed>

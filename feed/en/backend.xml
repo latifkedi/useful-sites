@@ -172,14 +172,14 @@
   <link href="https://memcached.org/"/>
   <id>https://memcached.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A distributed memory cache that speeds up sites by holding hot data in RAM.</summary>
+  <summary>A distributed memory cache that speeds up sites by holding hot data in RAM. Compared with Redis it stores only key-value pairs with no persistence; in exchange it is multi-threaded and extremely simple.</summary>
 </entry>
 <entry>
   <title>Swagger</title>
   <link href="https://swagger.io/"/>
   <id>https://swagger.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An OpenAPI toolset to design, document and try RESTful APIs.</summary>
+  <summary>An OpenAPI toolset to design, document and try RESTful APIs. Unlike clients such as Postman, you write the spec first and generate docs and client code from it.</summary>
 </entry>
 <entry>
   <title>Convex</title>
@@ -207,14 +207,14 @@
   <link href="https://highscalability.com/"/>
   <id>https://highscalability.com/</id>
   <updated>2026-08-19T23:34:09Z</updated>
-  <summary>An archive of architecture write-ups spanning fifteen-plus years. The old posts are dated in technology but still read for how scaling pressure was actually met.</summary>
+  <summary>An archive of architecture write-ups spanning fifteen-plus years. Unlike current tech blogs the technology in older posts may be dated, but they are still read for how scaling pressure was actually met.</summary>
 </entry>
 <entry>
   <title>System Design One</title>
   <link href="https://systemdesign.one/"/>
   <id>https://systemdesign.one/</id>
   <updated>2026-08-19T23:34:06Z</updated>
-  <summary>Breaks down real company architectures as case studies with actual numbers and the trade-offs taken. That concreteness is what separates it from abstract write-ups.</summary>
+  <summary>Breaks down real company architectures as case studies with actual numbers and the trade-offs taken. Unlike abstract system-design write-ups, it is concrete.</summary>
 </entry>
 <entry>
   <title>Martin Fowler · Architecture</title>
@@ -235,7 +235,7 @@
   <link href="https://stripe.com/"/>
   <id>https://stripe.com/</id>
   <updated>2026-07-29T07:58:07Z</updated>
-  <summary>Payment infrastructure whose documentation is treated as an industry benchmark — test cards, webhook retry logic and idempotency keys all worked through with examples.</summary>
+  <summary>Payment infrastructure whose documentation is an industry benchmark — test cards, webhook retry logic and idempotency keys worked through with examples. Unlike local providers such as iyzico it has that documentation quality, but it is not available to companies based in Turkey.</summary>
 </entry>
 <entry>
   <title>GraphQL</title>
@@ -256,7 +256,7 @@
   <link href="https://expressjs.com/"/>
   <id>https://expressjs.com/</id>
   <updated>2026-04-20T13:01:16Z</updated>
-  <summary>Node’s minimal framework, whose middleware model became the ecosystem’s shared vocabulary. That it has barely changed in years is both its strength and its weakness.</summary>
+  <summary>Node’s minimal framework, whose middleware model became the ecosystem’s shared vocabulary. Compared with newer frameworks such as Fastify it is slower and barely changes — Express 5 only shipped in 2024; that is both strength and weakness.</summary>
 </entry>
 <entry>
   <title>WordPress Developer</title>
@@ -270,7 +270,7 @@
   <link href="https://laracasts.com/"/>
   <id>https://laracasts.com/</id>
   <updated>2026-04-20T13:01:04Z</updated>
-  <summary>The main video resource for the Laravel ecosystem, covering the architectural decisions the docs leave out. One site carrying an ecosystem’s training is unusual.</summary>
+  <summary>The main video resource for the Laravel ecosystem. Unlike the official docs, it covers the architectural decisions they leave out; one site carrying an ecosystem’s training is unusual.</summary>
 </entry>
 <entry>
   <title>Laravel</title>
@@ -284,6 +284,6 @@
   <link href="https://phptherightway.com/"/>
   <id>https://phptherightway.com/</id>
   <updated>2026-04-20T13:01:04Z</updated>
-  <summary>Collects current PHP practice — Composer, PSR standards, prepared statements. A corrective to the old `mysql_*` examples still circulating online.</summary>
+  <summary>Collects current PHP practice — Composer, PSR standards, prepared statements. Unlike the old `mysql_*` examples still circulating online, it is a corrective showing today’s right way.</summary>
 </entry>
 </feed>

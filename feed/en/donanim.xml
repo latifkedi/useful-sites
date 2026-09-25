@@ -193,28 +193,28 @@
   <link href="https://eclipse.dev/ditto/"/>
   <id>https://eclipse.dev/ditto/</id>
   <updated>2026-08-17T19:47:15Z</updated>
-  <summary>Keeps device state server-side as a digital twin, so the last known state stays queryable and commands queue up even while the device sleeps.</summary>
+  <summary>Keeps device state server-side as a digital twin. Unlike MQTT brokers that only relay messages it stores state, so the last known state stays queryable and commands queue up even while the device sleeps.</summary>
 </entry>
 <entry>
   <title>SmartVision</title>
   <link href="https://tr.smartvision.dev/"/>
   <id>https://tr.smartvision.dev/</id>
   <updated>2026-08-16T07:54:38Z</updated>
-  <summary>Video surveillance software with a Turkish interface covering camera management and recording — a practical option locally for language and support reasons.</summary>
+  <summary>Video surveillance software with a Turkish interface covering camera management and recording. Compared with English-language surveillance software it is practical locally for language and support.</summary>
 </entry>
 <entry>
   <title>Anyka Kamera Firmware</title>
   <link href="https://github.com/MuhammedKalkan/Anyka-Camera-Firmware"/>
   <id>https://github.com/MuhammedKalkan/Anyka-Camera-Firmware</id>
   <updated>2026-08-12T20:51:31Z</updated>
-  <summary>Custom firmware for Anyka-based cameras, covering a family OpenIPC does not. Most cheap Chinese cameras use this chipset.</summary>
+  <summary>Custom firmware for Anyka-based cameras. Unlike OpenIPC it targets this family, which OpenIPC does not cover — and most cheap Chinese cameras use it.</summary>
 </entry>
 <entry>
   <title>AK3918 Kamera Notları</title>
   <link href="https://github.com/OpenIPC/firmware/issues/1970"/>
   <id>https://github.com/OpenIPC/firmware/issues/1970</id>
   <updated>2026-08-12T20:51:23Z</updated>
-  <summary>A thread accumulating hardware notes and firmware dumps for one camera SoC. For models like this, a single issue thread is usually the only source there is.</summary>
+  <summary>A thread accumulating hardware notes and firmware dumps for one camera SoC (AK3918). In place of vendor documentation that does not exist, a single issue thread is usually the only source for models like this.</summary>
 </entry>
 <entry>
   <title>OpenIPC</title>
@@ -228,14 +228,14 @@
   <link href="https://github.com/OpenIPC/firmware"/>
   <id>https://github.com/OpenIPC/firmware</id>
   <updated>2026-08-12T20:51:11Z</updated>
-  <summary>The supported chipset list and build instructions — check whether your camera’s SoC is on it before you buy.</summary>
+  <summary>The supported chipset list and build instructions for open IP-camera firmware. Unlike the vendor firmware it does not depend on a cloud; check whether your camera’s SoC is on the list before you buy.</summary>
 </entry>
 <entry>
   <title>OpenIPC Coupler</title>
   <link href="https://github.com/openipc/coupler/"/>
   <id>https://github.com/openipc/coupler/</id>
   <updated>2026-08-12T20:51:08Z</updated>
-  <summary>Moves between camera firmwares and back to stock — often the only recovery tool you have while experimenting.</summary>
+  <summary>Moves between camera firmwares and back to stock. Compared with flashing by hand over a serial cable it is safer — often the only recovery tool you have while experimenting.</summary>
 </entry>
 <entry>
   <title>OpenIPC Kurulum</title>
@@ -249,21 +249,21 @@
   <link href="https://campaign.advantech.online/en/edgeaisdk/index.html"/>
   <id>https://campaign.advantech.online/en/edgeaisdk/index.html</id>
   <updated>2026-08-05T22:16:36Z</updated>
-  <summary>A development kit for running models on industrial edge hardware — where certified equipment is required, a Raspberry Pi-class board does not qualify.</summary>
+  <summary>A development kit for running models on industrial edge hardware. Unlike Raspberry Pi-class boards it targets certified industrial equipment — which is what a factory floor requires.</summary>
 </entry>
 <entry>
   <title>Allwinner V821</title>
   <link href="https://kokomotech.com/allwinner-v821/"/>
   <id>https://kokomotech.com/allwinner-v821/</id>
   <updated>2026-08-05T22:16:28Z</updated>
-  <summary>A technical summary of the V821 SoC including its image pipeline and NPU capability — a comparison point when choosing silicon for a camera or edge AI project.</summary>
+  <summary>A technical summary of the V821 SoC including its image pipeline and NPU capability. Compared with the long datasheet it reads quickly — a comparison point when choosing silicon for a camera or edge AI project.</summary>
 </entry>
 <entry>
   <title>AvaotaF1 İncelemesi</title>
   <link href="https://www.electronics-lab.com/avaotaf1-development-board-offers-allwinner-v821-soc-64mb-ram-mipi-camera-spi-display-and-wi-fi-in-coin-size-form/"/>
   <id>https://www.electronics-lab.com/avaotaf1-development-board-offers-allwinner-v821-soc-64mb-ram-mipi-camera-spi-display-and-wi-fi-in-coin-size-form/</id>
   <updated>2026-08-05T16:03:23Z</updated>
-  <summary>An article summarising the board’s specifications and likely uses — a quick look before diving into the repo.</summary>
+  <summary>An article summarising the AvaotaF1 board’s specifications and likely uses. Unlike diving into the official repo, it introduces the board in a few minutes — a quick first look.</summary>
 </entry>
 <entry>
   <title>AvaotaF1</title>
@@ -277,13 +277,13 @@
   <link href="https://github.com/LiteEMF?tab=repositories"/>
   <id>https://github.com/LiteEMF?tab=repositories</id>
   <updated>2026-08-05T16:01:43Z</updated>
-  <summary>Embedded libraries and firmware repositories weighted towards USB HID and wireless input devices — a reference for controller and keyboard protocols.</summary>
+  <summary>Embedded libraries and firmware repositories weighted towards USB HID and wireless input devices. Unlike general embedded libraries it has that focus — a reference for controller and keyboard protocols.</summary>
 </entry>
 <entry>
   <title>Kontrol Sistemleri Uygulamada</title>
   <link href="https://www.youtube.com/playlist?list=PLn8PRpmsu08pFBqgd_6Bi7msgkWFKL33b"/>
   <id>https://www.youtube.com/playlist?list=PLn8PRpmsu08pFBqgd_6Bi7msgkWFKL33b</id>
   <updated>2026-07-29T07:51:41Z</updated>
-  <summary>The engineering-intuition side of the same theory: how you actually tune a PID, what noise and saturation do to it. The half that belongs alongside the lecture course.</summary>
+  <summary>The engineering-intuition side of control theory: how you actually tune a PID, what noise and saturation do to it. Unlike the academic lecture series it offers intuition rather than formulas — the two belong together.</summary>
 </entry>
 </feed>

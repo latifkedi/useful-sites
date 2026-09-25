@@ -172,14 +172,14 @@
   <link href="https://memcached.org/"/>
   <id>https://memcached.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Sık kullanılan veriyi bellekte tutarak site hızını artıran dağıtık önbellek sistemi.</summary>
+  <summary>Sık kullanılan veriyi bellekte tutarak site hızını artıran dağıtık önbellek sistemi. Redis’e kıyasla yalnız anahtar-değer saklıyor ve kalıcılığı yok; karşılığında çok iş parçacıklı ve son derece basit.</summary>
 </entry>
 <entry>
   <title>Swagger</title>
   <link href="https://swagger.io/"/>
   <id>https://swagger.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>RESTful API’leri tasarlamak, belgelemek ve denemek için OpenAPI araç seti.</summary>
+  <summary>RESTful API’leri tasarlamak, belgelemek ve denemek için OpenAPI araç seti. Postman gibi istemcilerden farkı önce şartnameyi yazıp belgeyi ve istemci kodunu ondan üretmen (spec-first).</summary>
 </entry>
 <entry>
   <title>Convex</title>
@@ -207,14 +207,14 @@
   <link href="https://highscalability.com/"/>
   <id>https://highscalability.com/</id>
   <updated>2026-08-19T23:34:09Z</updated>
-  <summary>On beş yılı aşkın mimari yazısı arşivi. Eski yazılar teknoloji olarak eskimiş olsa da ölçekleme baskısının nasıl karşılandığını görmek için hâlâ okunuyor.</summary>
+  <summary>On beş yılı aşkın mimari yazısı arşivi. Güncel teknoloji bloglarının aksine yazılar teknoloji olarak eskimiş olabilir, ama ölçekleme baskısının gerçekte nasıl karşılandığını görmek için hâlâ okunuyor.</summary>
 </entry>
 <entry>
   <title>System Design One</title>
   <link href="https://systemdesign.one/"/>
   <id>https://systemdesign.one/</id>
   <updated>2026-08-19T23:34:06Z</updated>
-  <summary>Gerçek şirketlerin mimarisini vaka çalışması olarak çözümlüyor; sayısal büyüklükler ve yapılan takasları veriyor. Soyut anlatımlardan bu somutluk ayırıyor.</summary>
+  <summary>Gerçek şirketlerin mimarisini vaka çalışması olarak çözümlüyor; sayısal büyüklükleri ve yapılan takasları veriyor. Soyut sistem tasarımı anlatımlarından farkı bu somutluk.</summary>
 </entry>
 <entry>
   <title>Martin Fowler · Architecture</title>
@@ -235,7 +235,7 @@
   <link href="https://stripe.com/"/>
   <id>https://stripe.com/</id>
   <updated>2026-07-29T07:58:07Z</updated>
-  <summary>Ödeme altyapısı. Dokümantasyonu sektörde ölçüt kabul ediliyor — test kartları, webhook yeniden deneme mantığı ve idempotency anahtarları örneklerle anlatılmış.</summary>
+  <summary>Ödeme altyapısı; dokümantasyonu sektörde ölçüt kabul ediliyor — test kartları, webhook yeniden deneme mantığı ve idempotency anahtarları örneklerle anlatılmış. iyzico gibi yerel sağlayıcılardan farkı bu belge kalitesi; ancak Türkiye’de kurulu şirketlere açık değil.</summary>
 </entry>
 <entry>
   <title>GraphQL</title>
@@ -256,7 +256,7 @@
   <link href="https://expressjs.com/"/>
   <id>https://expressjs.com/</id>
   <updated>2026-04-20T13:01:16Z</updated>
-  <summary>Node.js’in minimal çatısı; ara katman (middleware) modelini standartlaştırdığı için ekosistemin ortak dili hâline geldi. Yıllardır neredeyse hiç değişmemesi hem güç hem zayıflık.</summary>
+  <summary>Node.js’in minimal çatısı; ara katman (middleware) modelini standartlaştırdığı için ekosistemin ortak dili hâline geldi. Fastify gibi yeni çatılara kıyasla yavaş ve az değişiyor — Express 5 ancak 2024’te çıktı; bu hem güç hem zayıflık.</summary>
 </entry>
 <entry>
   <title>WordPress Developer</title>
@@ -270,7 +270,7 @@
   <link href="https://laracasts.com/"/>
   <id>https://laracasts.com/</id>
   <updated>2026-04-20T13:01:04Z</updated>
-  <summary>Laravel ekosisteminin ana video kaynağı; resmî dokümanın anlatmadığı mimari kararları işliyor. Ekosistem eğitimini tek bir sitenin taşıması alışılmadık bir durum.</summary>
+  <summary>Laravel ekosisteminin ana video kaynağı. Resmî belgelerden farkı onların anlatmadığı mimari kararları işlemesi; bir ekosistemin eğitimini tek bir sitenin taşıması alışılmadık bir durum.</summary>
 </entry>
 <entry>
   <title>Laravel</title>
@@ -284,6 +284,6 @@
   <link href="https://phptherightway.com/"/>
   <id>https://phptherightway.com/</id>
   <updated>2026-04-20T13:01:04Z</updated>
-  <summary>Güncel PHP pratiklerini derliyor: Composer, PSR standartları, hazırlanmış sorgular. İnternette dolaşan `mysql_*` fonksiyonlu eski örneklere karşı düzeltici bir metin.</summary>
+  <summary>Güncel PHP pratiklerini derliyor: Composer, PSR standartları, hazırlanmış sorgular. İnternette dolaşan `mysql_*` fonksiyonlu eski örneklerin aksine bugünkü doğru yolu gösteren düzeltici bir metin.</summary>
 </entry>
 </feed>
