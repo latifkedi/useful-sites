@@ -53,14 +53,14 @@
   <link href="https://github.com/resumax"/>
   <id>https://github.com/resumax</id>
   <updated>2026-08-19T23:18:51Z</updated>
-  <summary>Özgeçmişi hedef ilana göre uyarlayan araç; ATS taramasından geçecek biçimlendirmeye dikkat ediyor. Genel yazım asistanlarının atladığı nokta bu eşleştirme.</summary>
+  <summary>Özgeçmişi hedef ilana göre uyarlayan araç; ATS taramasından geçecek biçimlendirmeye dikkat ediyor. Genel yazım asistanlarından farkı ilan ile özgeçmiş arasındaki bu eşleştirmeye odaklanması.</summary>
 </entry>
 <entry>
   <title>Ada Health</title>
   <link href="https://ada.com/"/>
   <id>https://ada.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Belirtileri yapılandırılmış soru akışıyla daraltıp olası nedenleri sıralıyor; tıbbi cihaz olarak CE işaretli. Web’de belirti aramanın disiplinli hâli.</summary>
+  <summary>Belirtileri yapılandırılmış soru akışıyla daraltıp olası nedenleri sıralıyor; tıbbi cihaz olarak CE işaretli. Web’de belirti aramaktan farkı bu disiplin: rastgele sayfalar yerine sıralı sorular ve olasılığa göre dizilmiş nedenler.</summary>
 </entry>
 <entry>
   <title>Aider</title>
@@ -74,7 +74,7 @@
   <link href="https://alphafoldserver.com/"/>
   <id>https://alphafoldserver.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>AlphaFold 3 ile protein, DNA ve ligand komplekslerinin yapısını tahmin ediyor; kurulum ve GPU gerekmiyor. Günlük iş sayısı sınırlı ve ticari kullanım kısıtlı.</summary>
+  <summary>AlphaFold 3 ile protein, DNA ve ligand komplekslerinin yapısını tahmin ediyor. ColabFold’dan farkı kurulum ve GPU gerektirmemesi ve AlphaFold 3’ü sunması; karşılığında günlük iş sayısı sınırlı ve ticari kullanım kısıtlı.</summary>
 </entry>
 <entry>
   <title>AskYourPDF</title>
@@ -88,7 +88,7 @@
   <link href="https://auto.gluon.ai/"/>
   <id>https://auto.gluon.ai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Üç satırla tablo verisinde güçlü bir taban çizgisi kuruyor; birden çok modeli eğitip yığınlayarak (stacking) birleştiriyor. Kaggle taban çizgisi olarak sık kullanılıyor.</summary>
+  <summary>Üç satırla tablo verisinde güçlü bir taban çizgisi kuruyor. Tek model eğitmekten farkı birden çok modeli eğitip yığınlayarak (stacking) birleştirmesi; Kaggle taban çizgisi olarak sık kullanılıyor.</summary>
 </entry>
 <entry>
   <title>BioGPT</title>
@@ -102,14 +102,14 @@
   <link href="https://www.blackbox.ai/"/>
   <id>https://www.blackbox.ai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Kod parçası aramayı sohbetle birleştiriyor; depo ve dokümanlarda arayıp bulduğunu bağlam olarak kullanıyor.</summary>
+  <summary>Kod parçası aramayı sohbetle birleştiriyor. Genel sohbet botlarından farkı depo ve dokümanlarda arama yapıp bulduğunu bağlam olarak kullanması.</summary>
 </entry>
 <entry>
   <title>Bolt.new</title>
   <link href="https://bolt.new/"/>
   <id>https://bolt.new/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Node.js’i WebContainer ile tarayıcıda çalıştırıyor; üretilen tam yığın uygulama sunucuya gitmeden anında önizleniyor. Hata çıkarsa aynı yerde düzeltiliyor.</summary>
+  <summary>Node.js’i WebContainer ile tarayıcıda çalıştırıyor; üretilen tam yığın uygulama sunucuya gitmeden anında önizleniyor. v0 gibi bileşen üreticilerinden farkı bütün uygulamayı çalıştırması: hata çıkarsa aynı yerde düzeltiliyor.</summary>
 </entry>
 <entry>
   <title>Buffer AI Assistant</title>
@@ -123,7 +123,7 @@
   <link href="https://www.chatpdf.com/"/>
   <id>https://www.chatpdf.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Kayıt olmadan dosya yükleyip soru sorabiliyorsun. Tek belgeye hızlı bakış için en düşük sürtünmeli yol; kütüphane yönetimi ya da çoklu belge desteği yok.</summary>
+  <summary>PDF’e soru sorma aracı; kayıt olmadan dosya yükleyip başlıyorsun. Humata gibi araçlardan farkı sürtünmenin en düşük olması; karşılığında kütüphane yönetimi ya da çoklu belge desteği yok.</summary>
 </entry>
 <entry>
   <title>ChemCrow</title>
@@ -137,7 +137,7 @@
   <link href="https://cline.bot/"/>
   <id>https://cline.bot/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>VS Code içinde dosya oluşturup komut çalıştırabiliyor ama her eylem için ayrı onay istiyor. Yavaşlatan bu adım, aynı zamanda otonom agent’larda kaybettiğin denetimi geri veriyor.</summary>
+  <summary>VS Code içinde dosya oluşturup komut çalıştırabilen kod agent’ı; her eylem için ayrı onay istiyor. Tam otonom agent’ların aksine bu yavaşlatan adım, kaybettiğin denetimi geri veriyor.</summary>
 </entry>
 <entry>
   <title>CodeGeeX</title>
@@ -151,7 +151,7 @@
   <link href="https://github.com/sokrypton/ColabFold"/>
   <id>https://github.com/sokrypton/ColabFold</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>MMseqs2 ile dizi hizalamayı hızlandırıp AlphaFold’u Colab’da çalıştırılabilir hâle getiriyor. Sunucunun kotasına takılmadan kendi dizilerini toplu işlemek isteyenler için.</summary>
+  <summary>MMseqs2 ile dizi hizalamayı hızlandırıp AlphaFold’u Colab’da çalıştırılabilir hâle getiriyor. AlphaFold Server’dan farkı kotaya takılmadan kendi dizilerini toplu işleyebilmen.</summary>
 </entry>
 <entry>
   <title>Consensus</title>
@@ -165,7 +165,7 @@
   <link href="https://www.continue.dev/"/>
   <id>https://www.continue.dev/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>VS Code ve JetBrains eklentisi; hangi modelin tamamlama, hangisinin sohbet yapacağını ayrı ayrı seçiyorsun. Yerel model bağlayıp kodu dışarı hiç göndermemek mümkün.</summary>
+  <summary>VS Code ve JetBrains için açık kaynak kod asistanı; hangi modelin tamamlama, hangisinin sohbet yapacağını ayrı ayrı seçiyorsun. GitHub Copilot’tan farkı model seçiminin serbest olması: yerel model bağlayıp kodu dışarı hiç göndermemek mümkün.</summary>
 </entry>
 <entry>
   <title>Cursor</title>
@@ -179,7 +179,7 @@
   <link href="https://deepchem.io/"/>
   <id>https://deepchem.io/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>İlaç keşfi için makine öğrenmesi; moleküler özellik hesaplama ve veri kümesi yükleyicileri dahil. Kimyasal veriyi modele hazır hâle getiren sıkıcı kısmı da üstleniyor.</summary>
+  <summary>İlaç keşfi için makine öğrenmesi kütüphanesi; moleküler özellik hesaplama ve veri kümesi yükleyicileri dahil. Genel ML kütüphanelerinden farkı kimyasal veriyi modele hazır hâle getiren sıkıcı kısmı da üstlenmesi.</summary>
 </entry>
 <entry>
   <title>DeepL Write</title>
@@ -200,7 +200,7 @@
   <link href="https://www.explainpaper.com/"/>
   <id>https://www.explainpaper.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>PDF’te işaretlediğin pasajı sadeleştiriyor. Tüm belgeyi özetlemiyor — takıldığın tek yeri açması onu dar ama isabetli kılıyor.</summary>
+  <summary>PDF’te işaretlediğin pasajı sadeleştiriyor. Tüm belgeyi özetleyen araçlardan farkı yalnız takıldığın tek yeri açması — onu dar ama isabetli kılan bu.</summary>
 </entry>
 <entry>
   <title>FinGPT</title>
@@ -221,28 +221,28 @@
   <link href="https://github.com/features/copilot"/>
   <id>https://github.com/features/copilot</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Editör içi tamamlama ve sohbet; kurumsal planda kodun modele gönderilip gönderilmeyeceği politika olarak yönetilebiliyor. Bu yönetişim tarafı rakiplerinde zayıf.</summary>
+  <summary>Editör içi tamamlama ve sohbet. Rakiplerinden farkı yönetişim tarafı: kurumsal planda kodun modele gönderilip gönderilmeyeceği ve hangi modellerin kullanılacağı politika olarak yönetilebiliyor.</summary>
 </entry>
 <entry>
   <title>Google Colab</title>
   <link href="https://colab.research.google.com/"/>
   <id>https://colab.research.google.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Tarayıcıda Jupyter; ücretsiz katmanda T4 GPU veriyor. Oturum süresi sınırlı ve makine kapanınca dosyalar gidiyor — uzun eğitimler için Drive’a bağlamak gerekiyor.</summary>
+  <summary>Tarayıcıda Jupyter; ücretsiz katmanda T4 GPU veriyor. Yerel Jupyter’dan farkı kurulum ve donanım istememesi; karşılığında oturum süresi sınırlı ve makine kapanınca dosyalar gidiyor — uzun eğitimler için Drive’a bağlamak gerekiyor.</summary>
 </entry>
 <entry>
   <title>Grammarly</title>
   <link href="https://www.grammarly.com/"/>
   <id>https://www.grammarly.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Yazdığın her yere giren eklentisiyle İngilizce dil bilgisi ve üslup denetimi. Türkçe desteklemiyor; yalnızca İngilizce yazarken anlamlı.</summary>
+  <summary>Yazdığın her yere giren eklentisiyle İngilizce dil bilgisi ve üslup denetimi. LanguageTool’dan farkı üslup ve ton önerilerinin daha güçlü olması; Türkçe desteklemiyor, yalnızca İngilizce yazarken anlamlı.</summary>
 </entry>
 <entry>
   <title>H2O.ai</title>
   <link href="https://h2o.ai/"/>
   <id>https://h2o.ai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Dağıtık AutoML platformu; model açıklanabilirliği ve üretime çıkarma araçları kütüphane çözümlerinden ileride. Büyük veri kümelerinde bellek dışına taşabiliyor.</summary>
+  <summary>Dağıtık AutoML platformu. Yalnız kütüphane olan çözümlerden farkı model açıklanabilirliği ve üretime çıkarma araçlarının da gelmesi; büyük veri kümelerinde bellek dışına taşabiliyor.</summary>
 </entry>
 <entry>
   <title>HubSpot Campaign Assistant</title>
@@ -256,14 +256,14 @@
   <link href="https://www.humata.ai/"/>
   <id>https://www.humata.ai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Uzun teknik belgeleri karşılaştırmalı okumaya yönelik; her cevabın altında kaynak sayfa bağlantısı var, yani iddiayı belgede doğrulayabiliyorsun.</summary>
+  <summary>Uzun teknik belgeleri karşılaştırmalı okumaya yönelik PDF asistanı. ChatPDF gibi hızlı araçlardan farkı her cevabın altında kaynak sayfa bağlantısı olması: iddiayı belgede doğrulayabiliyorsun.</summary>
 </entry>
 <entry>
   <title>Julius AI</title>
   <link href="https://julius.ai/"/>
   <id>https://julius.ai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>CSV veya Excel yükleyip sohbetle analiz ediyorsun; arka planda Python çalıştırıp grafik üretiyor ve kullandığı kodu gösteriyor. Sonucu doğrulayabilmen bu şeffaflığa bağlı.</summary>
+  <summary>CSV veya Excel yükleyip sohbetle analiz ediyorsun; arka planda Python çalıştırıp grafik üretiyor. Genel sohbet botlarından farkı kullandığı kodu göstermesi — sonucu doğrulayabilmen bu şeffaflığa bağlı.</summary>
 </entry>
 <entry>
   <title>Kaggle Notebooks</title>
@@ -277,13 +277,13 @@
   <link href="https://www.knime.com/"/>
   <id>https://www.knime.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Düğüm tabanlı görsel analiz; hattın tamamı kaydedilip tekrar çalıştırılabiliyor. Kod yazmadan tekrarlanabilirlik isteyen kurumsal veri ekiplerinde yaygın.</summary>
+  <summary>Düğüm tabanlı görsel analiz platformu; hattın tamamı kaydedilip tekrar çalıştırılabiliyor. Python betiklerinden farkı tekrarlanabilirliği kod yazmadan sağlaması; kurumsal veri ekiplerinde yaygın.</summary>
 </entry>
 <entry>
   <title>LanguageTool</title>
   <link href="https://languagetool.org/"/>
   <id>https://languagetool.org/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>30’dan fazla dili, Türkçe dahil, kural tabanlı olarak denetliyor ve kendi sunucunda çalıştırılabiliyor. Metnin bir şirkete gitmemesi gerektiği durumlarda tek gerçek seçenek.</summary>
+  <summary>Türkçe dahil 30’dan fazla dili kural tabanlı olarak denetliyor. Grammarly’den farkı Türkçeyi desteklemesi ve kendi sunucunda çalıştırılabilmesi — metnin bir şirkete gitmemesi gerektiğinde tek gerçek seçenek.</summary>
 </entry>
 </feed>

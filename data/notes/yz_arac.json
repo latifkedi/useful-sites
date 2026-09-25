@@ -7,8 +7,8 @@
       "ücretsiz",
       "akademik"
     ],
-    "tr": "Belirtileri yapılandırılmış soru akışıyla daraltıp olası nedenleri sıralıyor; tıbbi cihaz olarak CE işaretli. Web’de belirti aramanın disiplinli hâli.",
-    "en": "Narrows symptoms through a structured question flow and ranks possible causes; CE-marked as a medical device. The disciplined form of searching symptoms online.",
+    "tr": "Belirtileri yapılandırılmış soru akışıyla daraltıp olası nedenleri sıralıyor; tıbbi cihaz olarak CE işaretli. Web’de belirti aramaktan farkı bu disiplin: rastgele sayfalar yerine sıralı sorular ve olasılığa göre dizilmiş nedenler.",
+    "en": "Narrows symptoms through a structured question flow and ranks possible causes; CE-marked as a medical device. Unlike searching symptoms online it is disciplined: ordered questions instead of random pages, and causes ranked by likelihood.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -33,8 +33,8 @@
       "ücretsiz",
       "akademik"
     ],
-    "tr": "AlphaFold 3 ile protein, DNA ve ligand komplekslerinin yapısını tahmin ediyor; kurulum ve GPU gerekmiyor. Günlük iş sayısı sınırlı ve ticari kullanım kısıtlı.",
-    "en": "Predicts structures of protein, DNA and ligand complexes with AlphaFold 3, needing no install or GPU. Daily job counts are capped and commercial use is restricted.",
+    "tr": "AlphaFold 3 ile protein, DNA ve ligand komplekslerinin yapısını tahmin ediyor. ColabFold’dan farkı kurulum ve GPU gerektirmemesi ve AlphaFold 3’ü sunması; karşılığında günlük iş sayısı sınırlı ve ticari kullanım kısıtlı.",
+    "en": "Predicts structures of protein, DNA and ligand complexes with AlphaFold 3. Unlike ColabFold it needs no install or GPU and runs AlphaFold 3; in exchange, daily jobs are capped and commercial use is restricted.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -60,8 +60,8 @@
       "python",
       "veri-bilimi"
     ],
-    "tr": "Üç satırla tablo verisinde güçlü bir taban çizgisi kuruyor; birden çok modeli eğitip yığınlayarak (stacking) birleştiriyor. Kaggle taban çizgisi olarak sık kullanılıyor.",
-    "en": "Three lines gives a strong baseline on tabular data, training several models and combining them by stacking. Frequently used as a Kaggle baseline.",
+    "tr": "Üç satırla tablo verisinde güçlü bir taban çizgisi kuruyor. Tek model eğitmekten farkı birden çok modeli eğitip yığınlayarak (stacking) birleştirmesi; Kaggle taban çizgisi olarak sık kullanılıyor.",
+    "en": "Three lines gives a strong baseline on tabular data. Unlike training a single model, it trains several and combines them by stacking; frequently used as a Kaggle baseline.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -138,8 +138,8 @@
       "sistem-tasarımı",
       "rag"
     ],
-    "tr": "Kod parçası aramayı sohbetle birleştiriyor; depo ve dokümanlarda arayıp bulduğunu bağlam olarak kullanıyor.",
-    "en": "Merges snippet search with chat, searching repositories and docs and using the hits as context.",
+    "tr": "Kod parçası aramayı sohbetle birleştiriyor. Genel sohbet botlarından farkı depo ve dokümanlarda arama yapıp bulduğunu bağlam olarak kullanması.",
+    "en": "Merges snippet search with chat. Unlike general chatbots, it searches repositories and docs and uses the hits as context.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -151,8 +151,8 @@
       "donanım",
       "cad"
     ],
-    "tr": "Donanım ve devre tasarımına yapay zeka desteği getiriyor. Yazılım asistanlarının yoğunlaştığı alanın dışında kalan, seyrek işlenmiş bir konu.",
-    "en": "Brings AI assistance to hardware and circuit design — a thinly covered area outside where software assistants have crowded in.",
+    "tr": "Donanım ve devre tasarımına yapay zekâ desteği getiriyor. Yazılım asistanlarından farkı onların yoğunlaştığı alanın dışında, seyrek işlenmiş bir konuya — elektronik tasarıma — odaklanması.",
+    "en": "Brings AI assistance to hardware and circuit design. Unlike software assistants it works outside the crowded field, on a thinly covered subject: electronics design.",
     "src": "kedi",
     "added": 1782370103
   },
@@ -164,8 +164,8 @@
       "freemium",
       "frontend"
     ],
-    "tr": "Node.js’i WebContainer ile tarayıcıda çalıştırıyor; üretilen tam yığın uygulama sunucuya gitmeden anında önizleniyor. Hata çıkarsa aynı yerde düzeltiliyor.",
-    "en": "Runs Node.js in the browser via WebContainers, so the generated full-stack app previews instantly without a server round trip, and errors are fixed in place.",
+    "tr": "Node.js’i WebContainer ile tarayıcıda çalıştırıyor; üretilen tam yığın uygulama sunucuya gitmeden anında önizleniyor. v0 gibi bileşen üreticilerinden farkı bütün uygulamayı çalıştırması: hata çıkarsa aynı yerde düzeltiliyor.",
+    "en": "Runs Node.js in the browser via WebContainers, so the generated full-stack app previews instantly without a server round trip. Unlike component generators such as v0 it runs the whole app, and errors are fixed in place.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -202,8 +202,8 @@
       "freemium",
       "referans"
     ],
-    "tr": "Kayıt olmadan dosya yükleyip soru sorabiliyorsun. Tek belgeye hızlı bakış için en düşük sürtünmeli yol; kütüphane yönetimi ya da çoklu belge desteği yok.",
-    "en": "Upload and ask without signing up — the lowest-friction path to interrogating a single document. No library management or multi-document support.",
+    "tr": "PDF’e soru sorma aracı; kayıt olmadan dosya yükleyip başlıyorsun. Humata gibi araçlardan farkı sürtünmenin en düşük olması; karşılığında kütüphane yönetimi ya da çoklu belge desteği yok.",
+    "en": "A tool for asking questions of a PDF — upload and start without signing up. Unlike tools such as Humata it has the lowest friction; in exchange there is no library management or multi-document support.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -230,8 +230,8 @@
       "sistem-tasarımı",
       "agent"
     ],
-    "tr": "VS Code içinde dosya oluşturup komut çalıştırabiliyor ama her eylem için ayrı onay istiyor. Yavaşlatan bu adım, aynı zamanda otonom agent’larda kaybettiğin denetimi geri veriyor.",
-    "en": "Creates files and runs commands inside VS Code, asking approval for each action. That slowing step is also what returns the oversight autonomous agents take away.",
+    "tr": "VS Code içinde dosya oluşturup komut çalıştırabilen kod agent’ı; her eylem için ayrı onay istiyor. Tam otonom agent’ların aksine bu yavaşlatan adım, kaybettiğin denetimi geri veriyor.",
+    "en": "A coding agent that creates files and runs commands inside VS Code, asking approval for each action. Unlike fully autonomous agents, that slowing step gives back the oversight you would otherwise lose.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -271,8 +271,8 @@
       "sistem-tasarımı",
       "dokümantasyon"
     ],
-    "tr": "Kod tabanları için otomatik üretilmiş dokümantasyon; bir depoya ilk baktığında yapıyı ve giriş noktalarını çıkarmaya yarıyor.",
-    "en": "Automatically generated documentation for codebases, useful for extracting structure and entry points the first time you open a repository.",
+    "tr": "Google’ın kod tabanları için otomatik ürettiği dokümantasyon; bir depoya ilk baktığında yapıyı ve giriş noktalarını çıkarmaya yarıyor. Elle yazılmış README’lerin aksine kod değiştikçe yeniden üretiliyor.",
+    "en": "Google’s automatically generated documentation for codebases, useful for extracting structure and entry points the first time you open a repository. Unlike hand-written READMEs, it is regenerated as the code changes.",
     "src": "kedi",
     "added": 1775474561
   },
@@ -285,8 +285,8 @@
       "akademik",
       "interaktif"
     ],
-    "tr": "MMseqs2 ile dizi hizalamayı hızlandırıp AlphaFold’u Colab’da çalıştırılabilir hâle getiriyor. Sunucunun kotasına takılmadan kendi dizilerini toplu işlemek isteyenler için.",
-    "en": "Speeds up sequence alignment with MMseqs2 to make AlphaFold runnable in Colab — for batch-processing your own sequences without hitting the server’s quota.",
+    "tr": "MMseqs2 ile dizi hizalamayı hızlandırıp AlphaFold’u Colab’da çalıştırılabilir hâle getiriyor. AlphaFold Server’dan farkı kotaya takılmadan kendi dizilerini toplu işleyebilmen.",
+    "en": "Speeds up sequence alignment with MMseqs2 to make AlphaFold runnable in Colab. Unlike AlphaFold Server, you can batch-process your own sequences without hitting a quota.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -311,8 +311,8 @@
       "eklenti",
       "sistem-tasarımı"
     ],
-    "tr": "VS Code ve JetBrains eklentisi; hangi modelin tamamlama, hangisinin sohbet yapacağını ayrı ayrı seçiyorsun. Yerel model bağlayıp kodu dışarı hiç göndermemek mümkün.",
-    "en": "A VS Code and JetBrains plugin where you pick which model does completion and which does chat, separately. You can point it at a local model and never send code out.",
+    "tr": "VS Code ve JetBrains için açık kaynak kod asistanı; hangi modelin tamamlama, hangisinin sohbet yapacağını ayrı ayrı seçiyorsun. GitHub Copilot’tan farkı model seçiminin serbest olması: yerel model bağlayıp kodu dışarı hiç göndermemek mümkün.",
+    "en": "An open-source coding assistant for VS Code and JetBrains, where you pick which model does completion and which does chat. Unlike GitHub Copilot the model choice is open — point it at a local model and code never leaves your machine.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -337,8 +337,8 @@
       "python",
       "akademik"
     ],
-    "tr": "İlaç keşfi için makine öğrenmesi; moleküler özellik hesaplama ve veri kümesi yükleyicileri dahil. Kimyasal veriyi modele hazır hâle getiren sıkıcı kısmı da üstleniyor.",
-    "en": "Machine learning for drug discovery, including molecular featurisation and dataset loaders — it takes on the tedious part of getting chemical data model-ready.",
+    "tr": "İlaç keşfi için makine öğrenmesi kütüphanesi; moleküler özellik hesaplama ve veri kümesi yükleyicileri dahil. Genel ML kütüphanelerinden farkı kimyasal veriyi modele hazır hâle getiren sıkıcı kısmı da üstlenmesi.",
+    "en": "A machine-learning library for drug discovery, including molecular featurisation and dataset loaders. Unlike general ML libraries, it takes on the tedious part of getting chemical data model-ready.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -375,8 +375,8 @@
       "freemium",
       "akademik"
     ],
-    "tr": "PDF’te işaretlediğin pasajı sadeleştiriyor. Tüm belgeyi özetlemiyor — takıldığın tek yeri açması onu dar ama isabetli kılıyor.",
-    "en": "Simplifies whichever passage you highlight in a PDF. It does not summarise the document; opening up the one place you got stuck is what makes it narrow but accurate.",
+    "tr": "PDF’te işaretlediğin pasajı sadeleştiriyor. Tüm belgeyi özetleyen araçlardan farkı yalnız takıldığın tek yeri açması — onu dar ama isabetli kılan bu.",
+    "en": "Simplifies whichever passage you highlight in a PDF. Unlike tools that summarise the whole document, it opens up only the one place you got stuck — which makes it narrow but accurate.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -416,8 +416,8 @@
       "sistem-tasarımı",
       "eklenti"
     ],
-    "tr": "Editör içi tamamlama ve sohbet; kurumsal planda kodun modele gönderilip gönderilmeyeceği politika olarak yönetilebiliyor. Bu yönetişim tarafı rakiplerinde zayıf.",
-    "en": "In-editor completion and chat, with enterprise policy control over whether code is sent to the model at all. That governance side is where rivals are thin.",
+    "tr": "Editör içi tamamlama ve sohbet. Rakiplerinden farkı yönetişim tarafı: kurumsal planda kodun modele gönderilip gönderilmeyeceği ve hangi modellerin kullanılacağı politika olarak yönetilebiliyor.",
+    "en": "In-editor completion and chat. Unlike its rivals it is strong on governance: in the enterprise plan, whether code is sent to a model and which models are allowed can be managed as policy.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -430,8 +430,8 @@
       "self-hosted",
       "python"
     ],
-    "tr": "Tarayıcıda Jupyter; ücretsiz katmanda T4 GPU veriyor. Oturum süresi sınırlı ve makine kapanınca dosyalar gidiyor — uzun eğitimler için Drive’a bağlamak gerekiyor.",
-    "en": "Jupyter in the browser with a free T4 GPU. Sessions are time-limited and files vanish when the machine recycles, so long training runs need Drive mounted.",
+    "tr": "Tarayıcıda Jupyter; ücretsiz katmanda T4 GPU veriyor. Yerel Jupyter’dan farkı kurulum ve donanım istememesi; karşılığında oturum süresi sınırlı ve makine kapanınca dosyalar gidiyor — uzun eğitimler için Drive’a bağlamak gerekiyor.",
+    "en": "Jupyter in the browser with a free T4 GPU. Unlike local Jupyter it needs no setup or hardware; in exchange sessions are time-limited and files vanish when the machine recycles, so long training runs need Drive mounted.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -443,8 +443,8 @@
       "freemium",
       "referans"
     ],
-    "tr": "Metnin yapay zeka üretimi olma olasılığını tahmin ediyor. Sonuç olasılıksal — kendi belgeleri de yanlış pozitif oranını kabul ediyor, delil olarak kullanılmamalı.",
-    "en": "Estimates the probability that a text was AI-generated. The result is probabilistic and its own docs acknowledge false positives — it should not be treated as proof.",
+    "tr": "Metnin yapay zekâ üretimi olma olasılığını tahmin ediyor. İntihal denetleyicilerinden farkı eşleşen kaynak değil olasılık vermesi — kendi belgeleri de yanlış pozitifleri kabul ediyor, sonuç delil olarak kullanılmamalı.",
+    "en": "Estimates the probability that a text was AI-generated. Unlike plagiarism checkers it gives a probability rather than a matching source — its own docs acknowledge false positives, so the result should not be treated as proof.",
     "src": "kedi",
     "added": 1772723381
   },
@@ -455,8 +455,8 @@
       "ücretli",
       "freemium"
     ],
-    "tr": "Yazdığın her yere giren eklentisiyle İngilizce dil bilgisi ve üslup denetimi. Türkçe desteklemiyor; yalnızca İngilizce yazarken anlamlı.",
-    "en": "English grammar and style checking through an extension that follows you everywhere you type. No Turkish support — it only makes sense when you write in English.",
+    "tr": "Yazdığın her yere giren eklentisiyle İngilizce dil bilgisi ve üslup denetimi. LanguageTool’dan farkı üslup ve ton önerilerinin daha güçlü olması; Türkçe desteklemiyor, yalnızca İngilizce yazarken anlamlı.",
+    "en": "English grammar and style checking through an extension that follows you everywhere you type. Unlike LanguageTool its style and tone suggestions are stronger; there is no Turkish support, so it only makes sense for English.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -469,8 +469,8 @@
       "c-ailesi",
       "güvenlik"
     ],
-    "tr": "Dağıtık AutoML platformu; model açıklanabilirliği ve üretime çıkarma araçları kütüphane çözümlerinden ileride. Büyük veri kümelerinde bellek dışına taşabiliyor.",
-    "en": "A distributed AutoML platform whose explainability and productionisation tooling is ahead of library-only solutions, and which can spill out of memory on large datasets.",
+    "tr": "Dağıtık AutoML platformu. Yalnız kütüphane olan çözümlerden farkı model açıklanabilirliği ve üretime çıkarma araçlarının da gelmesi; büyük veri kümelerinde bellek dışına taşabiliyor.",
+    "en": "A distributed AutoML platform. Unlike library-only solutions, it also brings explainability and productionisation tooling, and can spill out of memory on large datasets.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -494,8 +494,8 @@
       "freemium",
       "referans"
     ],
-    "tr": "Uzun teknik belgeleri karşılaştırmalı okumaya yönelik; her cevabın altında kaynak sayfa bağlantısı var, yani iddiayı belgede doğrulayabiliyorsun.",
-    "en": "Aimed at comparative reading of long technical documents, with a source-page link under each answer so you can verify the claim in the document itself.",
+    "tr": "Uzun teknik belgeleri karşılaştırmalı okumaya yönelik PDF asistanı. ChatPDF gibi hızlı araçlardan farkı her cevabın altında kaynak sayfa bağlantısı olması: iddiayı belgede doğrulayabiliyorsun.",
+    "en": "A PDF assistant aimed at comparative reading of long technical documents. Unlike quick tools such as ChatPDF, each answer carries a source-page link so you can verify the claim in the document.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -507,8 +507,8 @@
       "freemium",
       "veri-bilimi"
     ],
-    "tr": "CSV veya Excel yükleyip sohbetle analiz ediyorsun; arka planda Python çalıştırıp grafik üretiyor ve kullandığı kodu gösteriyor. Sonucu doğrulayabilmen bu şeffaflığa bağlı.",
-    "en": "Upload a CSV or Excel and analyse by chatting; it runs Python behind the scenes, produces charts and shows the code it used — which is what makes the result verifiable.",
+    "tr": "CSV veya Excel yükleyip sohbetle analiz ediyorsun; arka planda Python çalıştırıp grafik üretiyor. Genel sohbet botlarından farkı kullandığı kodu göstermesi — sonucu doğrulayabilmen bu şeffaflığa bağlı.",
+    "en": "Upload a CSV or Excel and analyse by chatting; it runs Python behind the scenes and produces charts. Unlike general chatbots it shows the code it used — which is what makes the result verifiable.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -533,8 +533,8 @@
       "ücretsiz",
       "veri-bilimi"
     ],
-    "tr": "Düğüm tabanlı görsel analiz; hattın tamamı kaydedilip tekrar çalıştırılabiliyor. Kod yazmadan tekrarlanabilirlik isteyen kurumsal veri ekiplerinde yaygın.",
-    "en": "Node-based visual analytics where the whole pipeline is saved and re-runnable. Common in enterprise data teams that need reproducibility without writing code.",
+    "tr": "Düğüm tabanlı görsel analiz platformu; hattın tamamı kaydedilip tekrar çalıştırılabiliyor. Python betiklerinden farkı tekrarlanabilirliği kod yazmadan sağlaması; kurumsal veri ekiplerinde yaygın.",
+    "en": "A node-based visual analytics platform where the whole pipeline is saved and re-runnable. Unlike Python scripts it delivers reproducibility without writing code; common in enterprise data teams.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -545,8 +545,8 @@
       "açık-kaynak",
       "self-hosted"
     ],
-    "tr": "30’dan fazla dili, Türkçe dahil, kural tabanlı olarak denetliyor ve kendi sunucunda çalıştırılabiliyor. Metnin bir şirkete gitmemesi gerektiği durumlarda tek gerçek seçenek.",
-    "en": "Rule-based checking for 30+ languages including Turkish, and it can be self-hosted — the only real option when the text must not go to a company.",
+    "tr": "Türkçe dahil 30’dan fazla dili kural tabanlı olarak denetliyor. Grammarly’den farkı Türkçeyi desteklemesi ve kendi sunucunda çalıştırılabilmesi — metnin bir şirkete gitmemesi gerektiğinde tek gerçek seçenek.",
+    "en": "Rule-based checking for 30+ languages including Turkish. Unlike Grammarly it supports Turkish and can be self-hosted — the only real option when the text must not go to a company.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -596,8 +596,8 @@
       "freemium",
       "frontend"
     ],
-    "tr": "Sohbetle uygulama kurup Supabase bağlantısı ve dağıtımı da üstleniyor. v0 bileşen verirken bu çalışan ve veritabanı bağlı bir ürün hedefliyor.",
-    "en": "Builds an app from chat and takes on the Supabase wiring and deployment too. Where v0 hands you a component, this aims at a running, database-backed product.",
+    "tr": "Sohbetle uygulama kurup Supabase bağlantısını ve dağıtımı da üstleniyor. v0’dan farkı bileşen değil, çalışan ve veritabanı bağlı bir ürün hedeflemesi.",
+    "en": "Builds an app from chat and takes on the Supabase wiring and deployment too. Unlike v0, which hands you a component, it aims at a running, database-backed product.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -622,8 +622,8 @@
       "açık-ağırlık",
       "akademik"
     ],
-    "tr": "Gemma’nın tıbbi metin ve görüntüye uyarlanmış açık sürümü. Araştırma amaçlı — klinik karar desteği olarak kullanılması için düzenleyici onayı yok.",
-    "en": "An open Gemma variant adapted to medical text and imaging. Research use only — it carries no regulatory clearance for clinical decision support.",
+    "tr": "Gemma’nın tıbbi metin ve görüntüye uyarlanmış açık sürümü. Kapalı tıbbi modellerden farkı ağırlıklarının açık olması; araştırma amaçlı — klinik karar desteği olarak kullanılması için düzenleyici onayı yok.",
+    "en": "An open Gemma variant adapted to medical text and imaging. Unlike closed medical models its weights are open; it is for research — there is no regulatory clearance for clinical decision support.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -636,8 +636,8 @@
       "veri-bilimi",
       "referans"
     ],
-    "tr": "Model seçiminin yanında Markdown rapor üretiyor: öğrenme eğrileri, önem grafikleri ve karar açıklamaları dahil. Sonucu birine sunman gerekiyorsa bu fark yaratıyor.",
-    "en": "Alongside model selection it emits a Markdown report with learning curves, importance plots and decision explanations — which matters when you have to present the result to someone.",
+    "tr": "Model seçimini otomatikleştiren AutoML aracı. Diğer AutoML araçlarından farkı Markdown rapor üretmesi: öğrenme eğrileri, önem grafikleri ve karar açıklamaları dahil — sonucu birine sunman gerekiyorsa fark yaratıyor.",
+    "en": "An AutoML tool that automates model selection. Unlike other AutoML tools it emits a Markdown report with learning curves, importance plots and decision explanations — which matters when you have to present the result.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -648,8 +648,8 @@
       "ücretsiz",
       "akademik"
     ],
-    "tr": "Klinik soruya yalnızca hakemli literatürden, atıf vererek cevap veriyor; kayıtlı sağlık profesyonellerine açık. Genel botların tıpta güvenilmez olmasının sebebi kaynak denetimi eksikliği — burada var.",
-    "en": "Answers clinical questions only from peer-reviewed literature, with citations, for verified health professionals. General chatbots are unreliable in medicine because they lack that source control; this has it.",
+    "tr": "Klinik soruya yalnızca hakemli literatürden, atıf vererek cevap veriyor; kayıtlı sağlık profesyonellerine açık. Genel sohbet botlarından farkı bu kaynak denetimi — onların tıpta güvenilmez olmasının sebebi de bunun eksikliği.",
+    "en": "Answers clinical questions only from peer-reviewed literature, with citations, for verified health professionals. Unlike general chatbots it has source control — the very thing whose absence makes them unreliable in medicine.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -690,8 +690,8 @@
       "referans",
       "eklenti"
     ],
-    "tr": "Tarayıcı eklentisiyle web’de karşılaştığın PDF’lerde de çalışıyor — indirip yükleme adımını atlamış oluyorsun.",
-    "en": "A browser extension makes it work on PDFs you meet on the web, skipping the download-then-upload step.",
+    "tr": "PDF’e soru sorma aracı. Yükleme isteyen PDF sohbet araçlarından farkı tarayıcı eklentisiyle web’de karşılaştığın PDF’lerde de doğrudan çalışması: indirip yükleme adımı yok.",
+    "en": "A tool for asking questions of PDFs. Unlike PDF chat tools that require an upload, its browser extension works directly on PDFs you meet on the web — no download-then-upload step.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -704,8 +704,8 @@
       "referans",
       "agent"
     ],
-    "tr": "Kod parçalarını kaynağı ve o an ne yaptığınla birlikte saklıyor; sonra “geçen hafta şu hatayı çözerken kullandığım şey” diye arayabiliyorsun. Yerelde çalışan bir model kullanma seçeneği var.",
-    "en": "Stores snippets with their source and what you were doing at the time, so you can later search for “the thing I used while fixing that bug last week”. It can run on a local model.",
+    "tr": "Kod parçalarını kaynağı ve o an ne yaptığınla birlikte saklıyor; sonra “geçen hafta şu hatayı çözerken kullandığım şey” diye arayabiliyorsun. Klasik snippet yöneticilerinden farkı bu bağlam belleği; yerel model kullanma seçeneği var.",
+    "en": "Stores snippets with their source and what you were doing at the time, so you can later search for “the thing I used while fixing that bug last week”. Unlike classic snippet managers it remembers context; it can run on a local model.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -717,8 +717,8 @@
       "python",
       "veri-bilimi"
     ],
-    "tr": "Zaman serisini eğilim, mevsimsellik ve tatil etkilerine ayırıyor; parametre ayarı yapmadan makul sonuç veriyor. İstatistik bilgisi olmayan analistler için tasarlanmış.",
-    "en": "Decomposes a time series into trend, seasonality and holiday effects and gives reasonable results without tuning. Designed for analysts who are not statisticians.",
+    "tr": "Zaman serisini eğilim, mevsimsellik ve tatil etkilerine ayırıyor. ARIMA gibi klasik modellerden farkı parametre ayarı yapmadan makul sonuç vermesi; istatistik bilgisi olmayan analistler için tasarlanmış.",
+    "en": "Decomposes a time series into trend, seasonality and holiday effects. Unlike classic models such as ARIMA it gives reasonable results without tuning; designed for analysts who are not statisticians.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -743,8 +743,8 @@
       "freemium",
       "veri-bilimi"
     ],
-    "tr": "Strateji yazıp geçmiş veriyle test ediyorsun; hisse, opsiyon, futures ve kripto verisi hazır geliyor. Kendi kurulumunda en pahalı kısım olan temiz veriyi platform sağlıyor.",
-    "en": "Write a strategy and backtest it, with equity, options, futures and crypto data supplied. The platform provides the clean data that is the costliest part of a home setup.",
+    "tr": "Strateji yazıp geçmiş veriyle test ediyorsun; hisse, opsiyon, futures ve kripto verisi hazır geliyor. Kendi kurulumundan farkı en pahalı kısmı — temiz veriyi — platformun sağlaması; motoru LEAN açık kaynak.",
+    "en": "Write a strategy and backtest it, with equity, options, futures and crypto data supplied. Unlike a home setup, the platform provides the costliest part — clean data; its LEAN engine is open source.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -769,8 +769,8 @@
       "c-ailesi",
       "akademik"
     ],
-    "tr": "Kemoinformatiğin temel açık kütüphanesi: SMILES ayrıştırma, alt yapı arama, parmak izi üretimi. Alandaki araçların çoğu doğrudan bunun üzerine kurulu.",
-    "en": "The foundational open cheminformatics library — SMILES parsing, substructure search, fingerprints. Most tooling in the field is built directly on it.",
+    "tr": "Kemoinformatiğin temel açık kütüphanesi: SMILES ayrıştırma, alt yapı arama, parmak izi üretimi. Ticari kemoinformatik paketlerinden farkı açık kaynak olması; alandaki araçların çoğu doğrudan bunun üzerine kurulu.",
+    "en": "The foundational open cheminformatics library — SMILES parsing, substructure search, fingerprints. Unlike commercial cheminformatics suites it is open source, and most tooling in the field is built directly on it.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -781,8 +781,8 @@
       "ücretsiz",
       "akademik"
     ],
-    "tr": "Bir makaleden başlayıp atıf ve ortak yazar ağını görsel olarak genişletiyorsun. Anahtar kelimeyi bilmediğin için kaçırdığın komşu çalışmalar böyle çıkıyor.",
-    "en": "Start from one paper and expand the citation and co-author network visually. This is how you surface adjacent work you missed because you did not know its keyword.",
+    "tr": "Bir makaleden başlayıp atıf ve ortak yazar ağını görsel olarak genişletiyorsun. Anahtar kelime aramasından farkı, kelimesini bilmediğin için kaçırdığın komşu çalışmaları ağ üzerinden çıkarması.",
+    "en": "Start from one paper and expand the citation and co-author network visually. Unlike keyword search, it surfaces adjacent work you missed because you did not know its keyword.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -794,8 +794,8 @@
       "github",
       "mülakat"
     ],
-    "tr": "Özgeçmişi hedef ilana göre uyarlayan araç; ATS taramasından geçecek biçimlendirmeye dikkat ediyor. Genel yazım asistanlarının atladığı nokta bu eşleştirme.",
-    "en": "Tailors a résumé to a specific posting and watches the formatting that ATS parsers need. That matching step is what general writing assistants miss.",
+    "tr": "Özgeçmişi hedef ilana göre uyarlayan araç; ATS taramasından geçecek biçimlendirmeye dikkat ediyor. Genel yazım asistanlarından farkı ilan ile özgeçmiş arasındaki bu eşleştirmeye odaklanması.",
+    "en": "Tailors a résumé to a specific posting and watches the formatting ATS parsers need. Unlike general writing assistants, it focuses on matching the résumé to the posting.",
     "src": "kedi",
     "added": 1787181531
   },
@@ -808,8 +808,8 @@
       "sistem-tasarımı",
       "agent"
     ],
-    "tr": "Cline’dan çatallanmış; mimar, kodcu ve hata ayıklayıcı kipleri ayrı sistem istemi ve ayrı model kullanabiliyor. Planlamaya güçlü, kodlamaya ucuz model koymak mümkün.",
-    "en": "Forked from Cline, with architect, coder and debugger modes carrying separate system prompts and models. You can put a strong model on planning and a cheap one on coding.",
+    "tr": "Cline’dan çatallanmış kod agent’ı. Cline’dan farkı mimar, kodcu ve hata ayıklayıcı kiplerinin ayrı sistem istemi ve ayrı model kullanabilmesi: planlamaya güçlü, kodlamaya ucuz model koymak mümkün.",
+    "en": "A coding agent forked from Cline. Unlike Cline, its architect, coder and debugger modes can carry separate system prompts and models — a strong model on planning, a cheap one on coding.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -821,8 +821,8 @@
       "freemium",
       "akademik"
     ],
-    "tr": "Makaleyi yapılandırılmış kartlara indiriyor: temel iddia, yöntem, kısıtlar, atıflar ayrı ayrı. Hangi çalışmayı tam okuyacağına karar verdiğin ayıklama aşaması için.",
-    "en": "Reduces a paper to structured cards — core claim, method, limitations, references, each separate. For the triage stage where you decide what to read in full.",
+    "tr": "Makaleyi yapılandırılmış kartlara indiriyor: temel iddia, yöntem, kısıtlar, atıflar ayrı ayrı. Düz özet üreten araçlardan farkı bu yapı: hangi çalışmayı tam okuyacağına karar verdiğin ayıklama aşaması için.",
+    "en": "Reduces a paper to structured cards — core claim, method, limitations, references, each separate. Unlike tools that produce a flat summary it is structured — for the triage stage where you decide what to read in full.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -903,8 +903,8 @@
       "api",
       "ücretsiz"
     ],
-    "tr": "Metni ve konuşmayı niyet/varlıklara çeviren, geliştiriciler için doğal dil işleme servisi.",
-    "en": "A natural-language service for developers that turns text and speech into intents and entities.",
+    "tr": "Metni ve konuşmayı niyet ve varlıklara çeviren, geliştiriciler için doğal dil işleme servisi. Dialogflow gibi servislerden farkı Meta’ya ait olması ve ücretsiz sunulması.",
+    "en": "A natural-language service for developers that turns text and speech into intents and entities. Unlike services such as Dialogflow, it is owned by Meta and offered free.",
     "src": "bwapsv"
   }
 ]

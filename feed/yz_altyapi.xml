@@ -67,42 +67,42 @@
   <link href="https://github.com/mvanhorn/last30days-skill"/>
   <id>https://github.com/mvanhorn/last30days-skill</id>
   <updated>2026-08-19T22:59:37Z</updated>
-  <summary>Bir konuda son otuz günün Reddit, X ve YouTube içeriğini tarayan yetenek. Modelin eğitim kesim tarihiyle bugün arasındaki boşluğu kapatmak için.</summary>
+  <summary>Bir konuda son otuz günün Reddit, X ve YouTube içeriğini tarayan yetenek. Genel web aramasından farkı yalnız yakın zamana ve topluluk tartışmasına odaklanması: modelin eğitim kesim tarihiyle bugün arasındaki boşluk için.</summary>
 </entry>
 <entry>
   <title>Agno</title>
   <link href="https://www.agno.com/"/>
   <id>https://www.agno.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Bellek, araç ve bilgi tabanı desteği çekirdeğe gömülü; ek soyutlama katmanı yok. Agent örnekleme süresi mikrosaniye mertebesinde olduğu için çok agent’lı senaryolarda hafif kalıyor.</summary>
+  <summary>Bellek, araç ve bilgi tabanı desteği çekirdeğe gömülü agent çatısı. LangChain gibi çatılardan farkı ek soyutlama katmanı olmaması: agent örnekleme süresi mikrosaniye mertebesinde, çok agent’lı senaryolarda hafif kalıyor.</summary>
 </entry>
 <entry>
   <title>Arize Phoenix</title>
   <link href="https://phoenix.arize.com/"/>
   <id>https://phoenix.arize.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Not defterinin içinde çalışıp izleri yerelde gösteriyor. Gömme uzayını görselleştirip alma hatasının nereden geldiğini kümelenmeye bakarak buldurabiliyor.</summary>
+  <summary>LLM izleme ve değerlendirme aracı; not defterinin içinde çalışıp izleri yerelde gösteriyor. Sunucu kurulumu isteyen izleme araçlarından farkı bu yerellik ve gömme uzayını görselleştirmesi: alma hatasının nereden geldiğini kümelenmeye bakarak buluyorsun.</summary>
 </entry>
 <entry>
   <title>AWS Bedrock Agents</title>
   <link href="https://aws.amazon.com/bedrock/agents/"/>
   <id>https://aws.amazon.com/bedrock/agents/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Agent tanımı, araç şeması ve bilgi tabanı AWS konsolundan yapılandırılıyor; çalışma zamanını AWS işletiyor. Kendi çatını işletmemenin bedeli, akışın AWS’in belirlediği kalıba sığması.</summary>
+  <summary>Agent tanımı, araç şeması ve bilgi tabanı AWS konsolundan yapılandırılıyor; çalışma zamanını AWS işletiyor. LangGraph gibi kendi işlettiğin çatılardan farkı altyapı yükünün olmaması; bedeli, akışın AWS’in belirlediği kalıba sığması.</summary>
 </entry>
 <entry>
   <title>AWS Bedrock Guardrails</title>
   <link href="https://aws.amazon.com/bedrock/guardrails/"/>
   <id>https://aws.amazon.com/bedrock/guardrails/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>İçerik filtresi, yasaklı konu listesi ve kişisel veri maskeleme; Bedrock dışındaki modellere de bağımsız API olarak uygulanabiliyor.</summary>
+  <summary>İçerik filtresi, yasaklı konu listesi ve kişisel veri maskeleme. NeMo Guardrails gibi kendin çalıştırdığın kütüphanelerden farkı yönetilen bir servis olması; Bedrock dışındaki modellere de bağımsız API olarak uygulanabiliyor.</summary>
 </entry>
 <entry>
   <title>AWS Strands Agents</title>
   <link href="https://strandsagents.com/"/>
   <id>https://strandsagents.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Akışı elle kurmuyorsun: modele araç listesini veriyorsun, planlamayı o yapıyor. Az kod isteyen bir yaklaşım, karşılığında hata ayıklarken kararın nereden geldiğini izlemek zorlaşıyor.</summary>
+  <summary>AWS’in açık kaynak agent SDK’sı. Akışı elle çizdiğin LangGraph gibi çatıların aksine modele araç listesini verip planlamayı ona bırakıyorsun; az kod yazıyorsun, karşılığında kararın nereden geldiğini izlemek zorlaşıyor.</summary>
 </entry>
 <entry>
   <title>Azure AI Content Safety</title>
@@ -116,14 +116,14 @@
   <link href="https://learn.microsoft.com/azure/ai-foundry/"/>
   <id>https://learn.microsoft.com/azure/ai-foundry/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Model kataloğu, agent servisi, değerlendirme ve içerik filtresi tek portalda. Uyumluluk ve bölge denetimi gerektiren kurumsal dağıtımlar için toplanmış bir yığın.</summary>
+  <summary>Model kataloğu, agent servisi, değerlendirme ve içerik filtresi tek portalda. Bu parçaları ayrı servislerden birleştirmek yerine, uyumluluk ve bölge denetimi gerektiren kurumsal dağıtımlar için toplanmış bir yığın sunuyor.</summary>
 </entry>
 <entry>
   <title>Azure OpenAI Service</title>
   <link href="https://learn.microsoft.com/azure/ai-services/openai/"/>
   <id>https://learn.microsoft.com/azure/ai-services/openai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>OpenAI modelleri, Azure’un bölge seçimi ve özel ağ desteğiyle. Model sürümleri OpenAI’dan geriden geliyor; uyumluluk kazancının bedeli bu gecikme.</summary>
+  <summary>OpenAI modelleri, Azure’un bölge seçimi ve özel ağ desteğiyle. OpenAI’ın kendi API’sinden farkı bu uyumluluk kazancı; bedeli, yeni model sürümlerinin buraya daha geç gelmesi.</summary>
 </entry>
 <entry>
   <title>CAMEL-AI</title>
@@ -151,56 +151,56 @@
   <link href="https://dspy.ai/"/>
   <id>https://dspy.ai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>İstem metni yazmıyorsun; giriş-çıkış imzası tanımlıyor, örnek veri veriyorsun, optimizer istemleri ve few-shot örneklerini kendisi üretiyor. Prompt ayarını derleyiciye devreden bir yaklaşım.</summary>
+  <summary>İstem metni yazmıyorsun; giriş-çıkış imzası tanımlıyor, örnek veri veriyorsun, optimizer istemleri ve few-shot örneklerini kendisi üretiyor. İstem şablonu çatılarından farkı istem ayarını bir derleyiciye devretmesi.</summary>
 </entry>
 <entry>
   <title>FastMCP</title>
   <link href="https://gofastmcp.com/"/>
   <id>https://gofastmcp.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Dekoratörle fonksiyon işaretleyip MCP aracına çeviriyorsun; şema tip ipuçlarından üretiliyor. Ham SDK’da elle yazdığın kalıp kodun neredeyse tamamını siliyor.</summary>
+  <summary>Dekoratörle fonksiyon işaretleyip MCP aracına çeviriyorsun; şema tip ipuçlarından üretiliyor. Ham resmî SDK’dan farkı elle yazdığın kalıp kodun neredeyse tamamını silmesi.</summary>
 </entry>
 <entry>
   <title>GitHub MCP Server</title>
   <link href="https://github.com/github/github-mcp-server"/>
   <id>https://github.com/github/github-mcp-server</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Depo, konu, PR ve Actions işlemlerini araç olarak açan resmî sunucu. İnce taneli izin kapsamı seçilebiliyor, yani asistana yalnızca okuma yetkisi verebilirsin.</summary>
+  <summary>Depo, konu, PR ve Actions işlemlerini araç olarak açan resmî sunucu. Topluluk sunucularından farkı GitHub’ın kendisinin sürdürmesi ve ince taneli izin kapsamı: asistana yalnızca okuma yetkisi verebilirsin.</summary>
 </entry>
 <entry>
   <title>Guardrails AI</title>
   <link href="https://www.guardrailsai.com/"/>
   <id>https://www.guardrailsai.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Çıktıyı şema ve doğrulayıcı zincirine sokuyor; başarısız olursa yeniden deniyor ya da düzeltiyor. NeMo diyaloğu tutuyor, bu ise üretilen metnin biçim ve içeriğini.</summary>
+  <summary>Çıktıyı şema ve doğrulayıcı zincirine sokuyor; başarısız olursa yeniden deniyor ya da düzeltiyor. NeMo Guardrails’ten farkı diyalog akışını değil üretilen metnin biçimini ve içeriğini denetlemesi.</summary>
 </entry>
 <entry>
   <title>Helicone</title>
   <link href="https://www.helicone.ai/"/>
   <id>https://www.helicone.ai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Taban URL’yi değiştirmen yeterli; istekler üzerinden geçerken kaydediliyor. Kod değişikliği istememesi, mevcut bir projeye sonradan takmayı kolaylaştırıyor.</summary>
+  <summary>LLM gözlemlenebilirlik aracı; taban URL’yi değiştirmen yeterli, istekler üzerinden geçerken kaydediliyor. SDK entegrasyonu isteyen izleme araçlarından farkı vekil (proxy) olarak çalışması: mevcut bir projeye kod değiştirmeden takılıyor.</summary>
 </entry>
 <entry>
   <title>Lakera Guard</title>
   <link href="https://www.lakera.ai/"/>
   <id>https://www.lakera.ai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>İstem enjeksiyonu ve jailbreak tespitine odaklı API. Saldırı örüntülerini Gandalf adlı oyunlaştırılmış deneyden toplanan gerçek veriyle besliyor.</summary>
+  <summary>İstem enjeksiyonu ve jailbreak tespitine odaklı API. Genel içerik filtrelerinden farkı saldırı örüntülerini Gandalf adlı oyunlaştırılmış deneyden toplanan gerçek saldırı verisiyle beslemesi.</summary>
 </entry>
 <entry>
   <title>LangChain</title>
   <link href="https://www.langchain.com/"/>
   <id>https://www.langchain.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Model, vektör deposu ve araç sağlayıcıları ortak arayüz altında toplayan çatı. Entegrasyon sayısı en büyük kozu; soyutlama katmanının kalınlığı da en sık gelen şikâyet.</summary>
+  <summary>Model, vektör deposu ve araç sağlayıcıları ortak arayüz altında toplayan çatı. Daha ince çatılara kıyasla en büyük kozu entegrasyon sayısı; soyutlama katmanının kalınlığı da en sık gelen şikâyet.</summary>
 </entry>
 <entry>
   <title>LangChain Agents (öğretici)</title>
   <link href="https://python.langchain.com/docs/tutorials/agents/"/>
   <id>https://python.langchain.com/docs/tutorials/agents/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Araç tanımlama, model bağlama ve döngüyü kurma adımlarını sırayla gösteren resmî başlangıç. Araç çağırma protokolünün nasıl işlediğini görmek için en kısa yol.</summary>
+  <summary>Araç tanımlama, model bağlama ve döngüyü kurma adımlarını sırayla gösteren resmî başlangıç. Kavram anlatımlarından farkı çalışan kodla ilerlemesi: araç çağırma protokolünün nasıl işlediğini görmenin en kısa yolu.</summary>
 </entry>
 <entry>
   <title>Langfuse</title>
@@ -228,35 +228,35 @@
   <link href="https://registry.modelcontextprotocol.io/"/>
   <id>https://registry.modelcontextprotocol.io/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Resmî sunucu kayıt defteri; makine tarafından okunabilir olduğu için istemciler kurulumu otomatikleştirebiliyor. Dağınık GitHub listelerinin yerini almak üzere kuruldu.</summary>
+  <summary>Resmî MCP sunucu kayıt defteri. Dağınık GitHub listelerinin yerine kuruldu; makine tarafından okunabilir olduğu için istemciler kurulumu otomatikleştirebiliyor.</summary>
 </entry>
 <entry>
   <title>MCP Sunucu Koleksiyonu</title>
   <link href="https://github.com/modelcontextprotocol/servers"/>
   <id>https://github.com/modelcontextprotocol/servers</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Dosya sistemi, PostgreSQL, Slack, Git ve fetch için referans uygulamalar. Kendi sunucunu yazmadan önce protokolün nasıl kullanıldığını buradan okumak en hızlısı.</summary>
+  <summary>Dosya sistemi, Git ve fetch gibi araçlar için referans MCP sunucuları. Kayıt defterindeki üçüncü taraf sunuculardan farkı protokolün yazarlarınca, örnek olsun diye yazılmış olmaları: kendi sunucunu yazmadan önce okumanın en hızlı yolu.</summary>
 </entry>
 <entry>
   <title>Microsoft Agent Framework</title>
   <link href="https://learn.microsoft.com/en-us/agent-framework/"/>
   <id>https://learn.microsoft.com/en-us/agent-framework/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>AutoGen’in deney tarafıyla Semantic Kernel’in kurumsal tarafını tek çatıda birleştiren yeni hat. Azure kimlik doğrulama ve izleme altyapısına baştan bağlı geliyor.</summary>
+  <summary>AutoGen’in deney tarafıyla Semantic Kernel’in kurumsal tarafını tek çatıda birleştiren yeni hat. İkisinden ayrı ayrı farkı bu birleşim; Azure kimlik doğrulama ve izleme altyapısına baştan bağlı geliyor.</summary>
 </entry>
 <entry>
   <title>Microsoft AutoGen</title>
   <link href="https://microsoft.github.io/autogen/"/>
   <id>https://microsoft.github.io/autogen/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Agent’lar bir grup sohbetinde konuşarak iş çözüyor; konuşma sırasını bir yönetici agent belirliyor. Araştırma kökenli, bu yüzden API’si sürümler arasında sertçe değişebiliyor.</summary>
+  <summary>Agent’lar bir grup sohbetinde konuşarak iş çözüyor; konuşma sırasını bir yönetici agent belirliyor. LangGraph gibi grafik tabanlı çatılardan farkı akışın konuşma olarak kurulması; araştırma kökenli, API’si sürümler arasında sertçe değişebiliyor.</summary>
 </entry>
 <entry>
   <title>Microsoft Presidio</title>
   <link href="https://microsoft.github.io/presidio/"/>
   <id>https://microsoft.github.io/presidio/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Metin ve görselde kişisel veriyi (TC kimlik, IBAN, e-posta gibi) tanıyıp maskeliyor. Tanıyıcılar özelleştirilebilir; modele veri göndermeden önceki anonimleştirme adımı için.</summary>
+  <summary>Metin ve görselde kişisel veriyi (TC kimlik, IBAN, e-posta gibi) tanıyıp maskeliyor; tanıyıcılar özelleştirilebilir. Bulut PII servislerinden farkı açık kaynak olması ve yerelde çalışması: veri modele gitmeden önceki anonimleştirme adımı için.</summary>
 </entry>
 <entry>
   <title>Model Context Protocol</title>
@@ -277,13 +277,13 @@
   <link href="https://openai.github.io/openai-agents-python/"/>
   <id>https://openai.github.io/openai-agents-python/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Dört kavramla yetiniyor: agent, araç, devretme (handoff) ve koruma bandı. İzleme (tracing) kutudan çıkıyor; öğrenme eğrisi çatıların en düşüğü.</summary>
+  <summary>Dört kavramla yetiniyor: agent, araç, devretme (handoff) ve koruma bandı; izleme (tracing) kutudan çıkıyor. LangGraph gibi çatılara kıyasla öğrenme eğrisi çok daha düşük.</summary>
 </entry>
 <entry>
   <title>Prisma AIRS (Protect AI)</title>
   <link href="https://protectai.com/"/>
   <id>https://protectai.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Model dosyalarını zararlı yük için tarıyor — pickle serileştirmesi keyfî kod çalıştırabildiği için indirilen bir checkpoint gerçek bir saldırı yüzeyi. Protect AI 2025’te Palo Alto Networks’e katıldı; ürün artık Prisma AIRS çatısı altında.</summary>
+  <summary>Model dosyalarını zararlı yük için tarıyor — pickle serileştirmesi keyfî kod çalıştırabildiği için indirilen bir checkpoint gerçek bir saldırı yüzeyi. Klasik zararlı yazılım tarayıcılarından farkı bu model biçimlerini anlaması; Protect AI 2025’te Palo Alto Networks’e katıldı, ürün artık Prisma AIRS altında.</summary>
 </entry>
 </feed>

@@ -67,42 +67,42 @@
   <link href="https://github.com/mvanhorn/last30days-skill"/>
   <id>https://github.com/mvanhorn/last30days-skill</id>
   <updated>2026-08-19T22:59:37Z</updated>
-  <summary>A skill sweeping the last thirty days of Reddit, X and YouTube on a topic — aimed at the gap between a model’s training cutoff and today.</summary>
+  <summary>A skill sweeping the last thirty days of Reddit, X and YouTube on a topic. Unlike a general web search it focuses only on recent community discussion — aimed at the gap between a model’s training cutoff and today.</summary>
 </entry>
 <entry>
   <title>Agno</title>
   <link href="https://www.agno.com/"/>
   <id>https://www.agno.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Memory, tools and knowledge base are built into the core with no extra abstraction layer. Agent instantiation lands in the microsecond range, which keeps it light in many-agent scenarios.</summary>
+  <summary>An agent framework with memory, tools and knowledge base built into the core. Unlike frameworks such as LangChain there is no extra abstraction layer: agent instantiation lands in the microsecond range, which keeps it light with many agents.</summary>
 </entry>
 <entry>
   <title>Arize Phoenix</title>
   <link href="https://phoenix.arize.com/"/>
   <id>https://phoenix.arize.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Runs inside a notebook and renders traces locally. It can visualise the embedding space so you find the source of a retrieval failure by looking at clustering.</summary>
+  <summary>An LLM tracing and evaluation tool that runs inside a notebook and renders traces locally. Unlike tracing tools that need a server, it stays local and visualises the embedding space, so you find the source of a retrieval failure by looking at clustering.</summary>
 </entry>
 <entry>
   <title>AWS Bedrock Agents</title>
   <link href="https://aws.amazon.com/bedrock/agents/"/>
   <id>https://aws.amazon.com/bedrock/agents/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Agent definition, tool schema and knowledge base are configured in the console; AWS runs the runtime. The price of not operating your own framework is fitting the flow into AWS’s shape.</summary>
+  <summary>Agent definition, tool schema and knowledge base are configured in the AWS console, and AWS runs the runtime. Unlike self-operated frameworks such as LangGraph there is no infrastructure to run; the price is fitting the flow into AWS’s shape.</summary>
 </entry>
 <entry>
   <title>AWS Bedrock Guardrails</title>
   <link href="https://aws.amazon.com/bedrock/guardrails/"/>
   <id>https://aws.amazon.com/bedrock/guardrails/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Content filters, denied-topic lists and PII redaction — and it can be applied as a standalone API to models outside Bedrock too.</summary>
+  <summary>Content filters, denied-topic lists and PII redaction. Unlike libraries you run yourself such as NeMo Guardrails it is a managed service, and it can be applied as a standalone API to models outside Bedrock too.</summary>
 </entry>
 <entry>
   <title>AWS Strands Agents</title>
   <link href="https://strandsagents.com/"/>
   <id>https://strandsagents.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>You do not wire the flow — you hand the model a tool list and it plans. Less code to write, at the cost of harder debugging when you need to trace where a decision came from.</summary>
+  <summary>AWS’s open-source agent SDK. Unlike frameworks such as LangGraph where you wire the flow, you hand the model a tool list and let it plan; less code to write, at the cost of harder tracing when you need to see where a decision came from.</summary>
 </entry>
 <entry>
   <title>Azure AI Content Safety</title>
@@ -116,14 +116,14 @@
   <link href="https://learn.microsoft.com/azure/ai-foundry/"/>
   <id>https://learn.microsoft.com/azure/ai-foundry/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Model catalogue, agent service, evaluation and content filtering in one portal — a stack assembled for enterprise deployments that need compliance and region control.</summary>
+  <summary>Model catalogue, agent service, evaluation and content filtering in one portal. Rather than assembling these from separate services, it offers a stack gathered for enterprise deployments that need compliance and region control.</summary>
 </entry>
 <entry>
   <title>Azure OpenAI Service</title>
   <link href="https://learn.microsoft.com/azure/ai-services/openai/"/>
   <id>https://learn.microsoft.com/azure/ai-services/openai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>OpenAI models with Azure’s region selection and private networking. Model versions lag OpenAI’s own releases — that lag is the price of the compliance gain.</summary>
+  <summary>OpenAI models with Azure’s region selection and private networking. Unlike OpenAI’s own API you gain that compliance; the price is that new model versions arrive here later.</summary>
 </entry>
 <entry>
   <title>CAMEL-AI</title>
@@ -151,56 +151,56 @@
   <link href="https://dspy.ai/"/>
   <id>https://dspy.ai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>You do not write prompt text — you declare input/output signatures and supply examples, and an optimiser generates the prompts and few-shot demonstrations. Prompt tuning handed to a compiler.</summary>
+  <summary>You do not write prompt text — you declare input/output signatures and supply examples, and an optimiser generates the prompts and few-shot demonstrations. Unlike prompt-template frameworks, it hands prompt tuning to a compiler.</summary>
 </entry>
 <entry>
   <title>FastMCP</title>
   <link href="https://gofastmcp.com/"/>
   <id>https://gofastmcp.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Decorate a function and it becomes an MCP tool, with the schema derived from type hints. It erases nearly all the boilerplate you would hand-write against the raw SDK.</summary>
+  <summary>Decorate a function and it becomes an MCP tool, with the schema derived from type hints. Unlike the raw official SDK, it erases nearly all the boilerplate you would hand-write.</summary>
 </entry>
 <entry>
   <title>GitHub MCP Server</title>
   <link href="https://github.com/github/github-mcp-server"/>
   <id>https://github.com/github/github-mcp-server</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The official server exposing repo, issue, PR and Actions operations as tools. Permission scopes are fine-grained, so you can hand an assistant read-only access.</summary>
+  <summary>The official server exposing repo, issue, PR and Actions operations as tools. Unlike community servers it is maintained by GitHub itself, with fine-grained permission scopes, so you can hand an assistant read-only access.</summary>
 </entry>
 <entry>
   <title>Guardrails AI</title>
   <link href="https://www.guardrailsai.com/"/>
   <id>https://www.guardrailsai.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Runs output through a chain of schemas and validators, retrying or repairing on failure. NeMo holds the dialogue; this holds the shape and content of the generated text.</summary>
+  <summary>Runs output through a chain of schemas and validators, retrying or repairing on failure. Unlike NeMo Guardrails, which governs the dialogue flow, it polices the shape and content of the generated text.</summary>
 </entry>
 <entry>
   <title>Helicone</title>
   <link href="https://www.helicone.ai/"/>
   <id>https://www.helicone.ai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Change the base URL and requests are logged as they pass through. Requiring no code change makes it easy to bolt onto a project after the fact.</summary>
+  <summary>An LLM observability tool: change the base URL and requests are logged as they pass through. Unlike tracers that need SDK integration it works as a proxy, so it bolts onto an existing project without code changes.</summary>
 </entry>
 <entry>
   <title>Lakera Guard</title>
   <link href="https://www.lakera.ai/"/>
   <id>https://www.lakera.ai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An API focused on prompt injection and jailbreak detection, fed by real attack data harvested from its gamified Gandalf experiment.</summary>
+  <summary>An API focused on prompt injection and jailbreak detection. Unlike general content filters, it is fed by real attack data harvested from its gamified Gandalf experiment.</summary>
 </entry>
 <entry>
   <title>LangChain</title>
   <link href="https://www.langchain.com/"/>
   <id>https://www.langchain.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Wraps model, vector store and tool providers behind common interfaces. The integration count is its strongest card; the thickness of the abstraction layer is the most frequent complaint.</summary>
+  <summary>Wraps model, vector store and tool providers behind common interfaces. Compared with thinner frameworks its strongest card is the integration count; the thickness of the abstraction layer is the most frequent complaint.</summary>
 </entry>
 <entry>
   <title>LangChain Agents (öğretici)</title>
   <link href="https://python.langchain.com/docs/tutorials/agents/"/>
   <id>https://python.langchain.com/docs/tutorials/agents/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The official walkthrough of defining tools, binding a model and wiring the loop — the shortest way to see how the tool-calling protocol actually works.</summary>
+  <summary>The official walkthrough of defining tools, binding a model and wiring the loop. Unlike conceptual explainers it proceeds in running code — the shortest way to see how the tool-calling protocol actually works.</summary>
 </entry>
 <entry>
   <title>Langfuse</title>
@@ -228,35 +228,35 @@
   <link href="https://registry.modelcontextprotocol.io/"/>
   <id>https://registry.modelcontextprotocol.io/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The official server registry. Being machine-readable lets clients automate installation — it exists to replace scattered GitHub lists.</summary>
+  <summary>The official MCP server registry. It was built to replace scattered GitHub lists — being machine-readable, it lets clients automate installation.</summary>
 </entry>
 <entry>
   <title>MCP Sunucu Koleksiyonu</title>
   <link href="https://github.com/modelcontextprotocol/servers"/>
   <id>https://github.com/modelcontextprotocol/servers</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Reference implementations for filesystem, PostgreSQL, Slack, Git and fetch. Reading these is the fastest way to see the protocol in use before writing your own.</summary>
+  <summary>Reference MCP servers for tools such as filesystem, Git and fetch. Unlike third-party servers in the registry, these are written by the protocol’s authors as examples — the fastest read before writing your own.</summary>
 </entry>
 <entry>
   <title>Microsoft Agent Framework</title>
   <link href="https://learn.microsoft.com/en-us/agent-framework/"/>
   <id>https://learn.microsoft.com/en-us/agent-framework/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The new line merging AutoGen’s experimental side with Semantic Kernel’s enterprise side. It arrives pre-wired to Azure identity and monitoring.</summary>
+  <summary>The new line merging AutoGen’s experimental side with Semantic Kernel’s enterprise side. Unlike either one alone it combines both, and arrives pre-wired to Azure identity and monitoring.</summary>
 </entry>
 <entry>
   <title>Microsoft AutoGen</title>
   <link href="https://microsoft.github.io/autogen/"/>
   <id>https://microsoft.github.io/autogen/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Agents solve tasks by talking in a group chat, with a manager agent deciding who speaks next. Research-rooted, so the API can shift sharply between versions.</summary>
+  <summary>Agents solve tasks by talking in a group chat, with a manager agent deciding who speaks next. Unlike graph-based frameworks such as LangGraph the flow is a conversation; research-rooted, so the API can shift sharply between versions.</summary>
 </entry>
 <entry>
   <title>Microsoft Presidio</title>
   <link href="https://microsoft.github.io/presidio/"/>
   <id>https://microsoft.github.io/presidio/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Detects and redacts personal data — national IDs, IBANs, emails — in text and images. Recognisers are customisable; it belongs in the anonymisation step before data reaches a model.</summary>
+  <summary>Detects and redacts personal data — national IDs, IBANs, emails — in text and images, with customisable recognisers. Unlike cloud PII services it is open source and runs locally — for the anonymisation step before data reaches a model.</summary>
 </entry>
 <entry>
   <title>Model Context Protocol</title>
@@ -277,13 +277,13 @@
   <link href="https://openai.github.io/openai-agents-python/"/>
   <id>https://openai.github.io/openai-agents-python/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Settles for four concepts: agents, tools, handoffs and guardrails. Tracing ships built in, and the learning curve is the shallowest of the frameworks here.</summary>
+  <summary>Settles for four concepts: agents, tools, handoffs and guardrails, with tracing built in. Compared with frameworks such as LangGraph, the learning curve is far shallower.</summary>
 </entry>
 <entry>
   <title>Prisma AIRS (Protect AI)</title>
   <link href="https://protectai.com/"/>
   <id>https://protectai.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Scans model files for malicious payloads. Because pickle deserialisation can execute arbitrary code, a downloaded checkpoint is a real attack surface. Protect AI joined Palo Alto Networks in 2025; the product now lives under the Prisma AIRS umbrella.</summary>
+  <summary>Scans model files for malicious payloads — because pickle deserialisation can execute arbitrary code, a downloaded checkpoint is a real attack surface. Unlike classic malware scanners it understands these model formats; Protect AI joined Palo Alto Networks in 2025 and the product now lives under Prisma AIRS.</summary>
 </entry>
 </feed>

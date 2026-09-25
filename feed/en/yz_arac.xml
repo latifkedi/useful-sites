@@ -53,14 +53,14 @@
   <link href="https://github.com/resumax"/>
   <id>https://github.com/resumax</id>
   <updated>2026-08-19T23:18:51Z</updated>
-  <summary>Tailors a résumé to a specific posting and watches the formatting that ATS parsers need. That matching step is what general writing assistants miss.</summary>
+  <summary>Tailors a résumé to a specific posting and watches the formatting ATS parsers need. Unlike general writing assistants, it focuses on matching the résumé to the posting.</summary>
 </entry>
 <entry>
   <title>Ada Health</title>
   <link href="https://ada.com/"/>
   <id>https://ada.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Narrows symptoms through a structured question flow and ranks possible causes; CE-marked as a medical device. The disciplined form of searching symptoms online.</summary>
+  <summary>Narrows symptoms through a structured question flow and ranks possible causes; CE-marked as a medical device. Unlike searching symptoms online it is disciplined: ordered questions instead of random pages, and causes ranked by likelihood.</summary>
 </entry>
 <entry>
   <title>Aider</title>
@@ -74,7 +74,7 @@
   <link href="https://alphafoldserver.com/"/>
   <id>https://alphafoldserver.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Predicts structures of protein, DNA and ligand complexes with AlphaFold 3, needing no install or GPU. Daily job counts are capped and commercial use is restricted.</summary>
+  <summary>Predicts structures of protein, DNA and ligand complexes with AlphaFold 3. Unlike ColabFold it needs no install or GPU and runs AlphaFold 3; in exchange, daily jobs are capped and commercial use is restricted.</summary>
 </entry>
 <entry>
   <title>AskYourPDF</title>
@@ -88,7 +88,7 @@
   <link href="https://auto.gluon.ai/"/>
   <id>https://auto.gluon.ai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Three lines gives a strong baseline on tabular data, training several models and combining them by stacking. Frequently used as a Kaggle baseline.</summary>
+  <summary>Three lines gives a strong baseline on tabular data. Unlike training a single model, it trains several and combines them by stacking; frequently used as a Kaggle baseline.</summary>
 </entry>
 <entry>
   <title>BioGPT</title>
@@ -102,14 +102,14 @@
   <link href="https://www.blackbox.ai/"/>
   <id>https://www.blackbox.ai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Merges snippet search with chat, searching repositories and docs and using the hits as context.</summary>
+  <summary>Merges snippet search with chat. Unlike general chatbots, it searches repositories and docs and uses the hits as context.</summary>
 </entry>
 <entry>
   <title>Bolt.new</title>
   <link href="https://bolt.new/"/>
   <id>https://bolt.new/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Runs Node.js in the browser via WebContainers, so the generated full-stack app previews instantly without a server round trip, and errors are fixed in place.</summary>
+  <summary>Runs Node.js in the browser via WebContainers, so the generated full-stack app previews instantly without a server round trip. Unlike component generators such as v0 it runs the whole app, and errors are fixed in place.</summary>
 </entry>
 <entry>
   <title>Buffer AI Assistant</title>
@@ -123,7 +123,7 @@
   <link href="https://www.chatpdf.com/"/>
   <id>https://www.chatpdf.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Upload and ask without signing up — the lowest-friction path to interrogating a single document. No library management or multi-document support.</summary>
+  <summary>A tool for asking questions of a PDF — upload and start without signing up. Unlike tools such as Humata it has the lowest friction; in exchange there is no library management or multi-document support.</summary>
 </entry>
 <entry>
   <title>ChemCrow</title>
@@ -137,7 +137,7 @@
   <link href="https://cline.bot/"/>
   <id>https://cline.bot/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Creates files and runs commands inside VS Code, asking approval for each action. That slowing step is also what returns the oversight autonomous agents take away.</summary>
+  <summary>A coding agent that creates files and runs commands inside VS Code, asking approval for each action. Unlike fully autonomous agents, that slowing step gives back the oversight you would otherwise lose.</summary>
 </entry>
 <entry>
   <title>CodeGeeX</title>
@@ -151,7 +151,7 @@
   <link href="https://github.com/sokrypton/ColabFold"/>
   <id>https://github.com/sokrypton/ColabFold</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Speeds up sequence alignment with MMseqs2 to make AlphaFold runnable in Colab — for batch-processing your own sequences without hitting the server’s quota.</summary>
+  <summary>Speeds up sequence alignment with MMseqs2 to make AlphaFold runnable in Colab. Unlike AlphaFold Server, you can batch-process your own sequences without hitting a quota.</summary>
 </entry>
 <entry>
   <title>Consensus</title>
@@ -165,7 +165,7 @@
   <link href="https://www.continue.dev/"/>
   <id>https://www.continue.dev/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A VS Code and JetBrains plugin where you pick which model does completion and which does chat, separately. You can point it at a local model and never send code out.</summary>
+  <summary>An open-source coding assistant for VS Code and JetBrains, where you pick which model does completion and which does chat. Unlike GitHub Copilot the model choice is open — point it at a local model and code never leaves your machine.</summary>
 </entry>
 <entry>
   <title>Cursor</title>
@@ -179,7 +179,7 @@
   <link href="https://deepchem.io/"/>
   <id>https://deepchem.io/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Machine learning for drug discovery, including molecular featurisation and dataset loaders — it takes on the tedious part of getting chemical data model-ready.</summary>
+  <summary>A machine-learning library for drug discovery, including molecular featurisation and dataset loaders. Unlike general ML libraries, it takes on the tedious part of getting chemical data model-ready.</summary>
 </entry>
 <entry>
   <title>DeepL Write</title>
@@ -200,7 +200,7 @@
   <link href="https://www.explainpaper.com/"/>
   <id>https://www.explainpaper.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Simplifies whichever passage you highlight in a PDF. It does not summarise the document; opening up the one place you got stuck is what makes it narrow but accurate.</summary>
+  <summary>Simplifies whichever passage you highlight in a PDF. Unlike tools that summarise the whole document, it opens up only the one place you got stuck — which makes it narrow but accurate.</summary>
 </entry>
 <entry>
   <title>FinGPT</title>
@@ -221,28 +221,28 @@
   <link href="https://github.com/features/copilot"/>
   <id>https://github.com/features/copilot</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>In-editor completion and chat, with enterprise policy control over whether code is sent to the model at all. That governance side is where rivals are thin.</summary>
+  <summary>In-editor completion and chat. Unlike its rivals it is strong on governance: in the enterprise plan, whether code is sent to a model and which models are allowed can be managed as policy.</summary>
 </entry>
 <entry>
   <title>Google Colab</title>
   <link href="https://colab.research.google.com/"/>
   <id>https://colab.research.google.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Jupyter in the browser with a free T4 GPU. Sessions are time-limited and files vanish when the machine recycles, so long training runs need Drive mounted.</summary>
+  <summary>Jupyter in the browser with a free T4 GPU. Unlike local Jupyter it needs no setup or hardware; in exchange sessions are time-limited and files vanish when the machine recycles, so long training runs need Drive mounted.</summary>
 </entry>
 <entry>
   <title>Grammarly</title>
   <link href="https://www.grammarly.com/"/>
   <id>https://www.grammarly.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>English grammar and style checking through an extension that follows you everywhere you type. No Turkish support — it only makes sense when you write in English.</summary>
+  <summary>English grammar and style checking through an extension that follows you everywhere you type. Unlike LanguageTool its style and tone suggestions are stronger; there is no Turkish support, so it only makes sense for English.</summary>
 </entry>
 <entry>
   <title>H2O.ai</title>
   <link href="https://h2o.ai/"/>
   <id>https://h2o.ai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A distributed AutoML platform whose explainability and productionisation tooling is ahead of library-only solutions, and which can spill out of memory on large datasets.</summary>
+  <summary>A distributed AutoML platform. Unlike library-only solutions, it also brings explainability and productionisation tooling, and can spill out of memory on large datasets.</summary>
 </entry>
 <entry>
   <title>HubSpot Campaign Assistant</title>
@@ -256,14 +256,14 @@
   <link href="https://www.humata.ai/"/>
   <id>https://www.humata.ai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Aimed at comparative reading of long technical documents, with a source-page link under each answer so you can verify the claim in the document itself.</summary>
+  <summary>A PDF assistant aimed at comparative reading of long technical documents. Unlike quick tools such as ChatPDF, each answer carries a source-page link so you can verify the claim in the document.</summary>
 </entry>
 <entry>
   <title>Julius AI</title>
   <link href="https://julius.ai/"/>
   <id>https://julius.ai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Upload a CSV or Excel and analyse by chatting; it runs Python behind the scenes, produces charts and shows the code it used — which is what makes the result verifiable.</summary>
+  <summary>Upload a CSV or Excel and analyse by chatting; it runs Python behind the scenes and produces charts. Unlike general chatbots it shows the code it used — which is what makes the result verifiable.</summary>
 </entry>
 <entry>
   <title>Kaggle Notebooks</title>
@@ -277,13 +277,13 @@
   <link href="https://www.knime.com/"/>
   <id>https://www.knime.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Node-based visual analytics where the whole pipeline is saved and re-runnable. Common in enterprise data teams that need reproducibility without writing code.</summary>
+  <summary>A node-based visual analytics platform where the whole pipeline is saved and re-runnable. Unlike Python scripts it delivers reproducibility without writing code; common in enterprise data teams.</summary>
 </entry>
 <entry>
   <title>LanguageTool</title>
   <link href="https://languagetool.org/"/>
   <id>https://languagetool.org/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Rule-based checking for 30+ languages including Turkish, and it can be self-hosted — the only real option when the text must not go to a company.</summary>
+  <summary>Rule-based checking for 30+ languages including Turkish. Unlike Grammarly it supports Turkish and can be self-hosted — the only real option when the text must not go to a company.</summary>
 </entry>
 </feed>

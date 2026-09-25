@@ -79,7 +79,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://www.agno.com/" rel="noopener noreferrer nofollow">Agno</a></h2><span class="host">agno.com</span>
-<p class="d">Bellek, araç ve bilgi tabanı desteği çekirdeğe gömülü; ek soyutlama katmanı yok. Agent örnekleme süresi mikrosaniye mertebesinde olduğu için çok agent’lı senaryolarda hafif kalıyor.</p>
+<p class="d">Bellek, araç ve bilgi tabanı desteği çekirdeğe gömülü agent çatısı. LangChain gibi çatılardan farkı ek soyutlama katmanı olmaması: agent örnekleme süresi mikrosaniye mertebesinde, çok agent’lı senaryolarda hafif kalıyor.</p>
 <p class="t">Açık Kaynak, Python, Agent, Sistem Tasarımı</p>
 </article>
 <article>
@@ -94,7 +94,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://phoenix.arize.com/" rel="noopener noreferrer nofollow">Arize Phoenix</a></h2><span class="host">phoenix.arize.com</span>
-<p class="d">Not defterinin içinde çalışıp izleri yerelde gösteriyor. Gömme uzayını görselleştirip alma hatasının nereden geldiğini kümelenmeye bakarak buldurabiliyor.</p>
+<p class="d">LLM izleme ve değerlendirme aracı; not defterinin içinde çalışıp izleri yerelde gösteriyor. Sunucu kurulumu isteyen izleme araçlarından farkı bu yerellik ve gömme uzayını görselleştirmesi: alma hatasının nereden geldiğini kümelenmeye bakarak buluyorsun.</p>
 <p class="t">Açık Kaynak, Python, Gözlemlenebilirlik, İnteraktif</p>
 </article>
 <article>
@@ -124,17 +124,17 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://aws.amazon.com/bedrock/agents/" rel="noopener noreferrer nofollow">AWS Bedrock Agents</a></h2><span class="host">aws.amazon.com</span>
-<p class="d">Agent tanımı, araç şeması ve bilgi tabanı AWS konsolundan yapılandırılıyor; çalışma zamanını AWS işletiyor. Kendi çatını işletmemenin bedeli, akışın AWS’in belirlediği kalıba sığması.</p>
+<p class="d">Agent tanımı, araç şeması ve bilgi tabanı AWS konsolundan yapılandırılıyor; çalışma zamanını AWS işletiyor. LangGraph gibi kendi işlettiğin çatılardan farkı altyapı yükünün olmaması; bedeli, akışın AWS’in belirlediği kalıba sığması.</p>
 <p class="t">Ücretli, Agent, Sunucu</p>
 </article>
 <article>
 <h2><a href="https://aws.amazon.com/bedrock/guardrails/" rel="noopener noreferrer nofollow">AWS Bedrock Guardrails</a></h2><span class="host">aws.amazon.com</span>
-<p class="d">İçerik filtresi, yasaklı konu listesi ve kişisel veri maskeleme; Bedrock dışındaki modellere de bağımsız API olarak uygulanabiliyor.</p>
+<p class="d">İçerik filtresi, yasaklı konu listesi ve kişisel veri maskeleme. NeMo Guardrails gibi kendin çalıştırdığın kütüphanelerden farkı yönetilen bir servis olması; Bedrock dışındaki modellere de bağımsız API olarak uygulanabiliyor.</p>
 <p class="t">Ücretli, Guardrail, Sunucu</p>
 </article>
 <article>
 <h2><a href="https://strandsagents.com/" rel="noopener noreferrer nofollow">AWS Strands Agents</a></h2><span class="host">strandsagents.com</span>
-<p class="d">Akışı elle kurmuyorsun: modele araç listesini veriyorsun, planlamayı o yapıyor. Az kod isteyen bir yaklaşım, karşılığında hata ayıklarken kararın nereden geldiğini izlemek zorlaşıyor.</p>
+<p class="d">AWS’in açık kaynak agent SDK’sı. Akışı elle çizdiğin LangGraph gibi çatıların aksine modele araç listesini verip planlamayı ona bırakıyorsun; az kod yazıyorsun, karşılığında kararın nereden geldiğini izlemek zorlaşıyor.</p>
 <p class="t">Açık Kaynak, Python, Agent, Sunucu</p>
 </article>
 <article>
@@ -144,12 +144,12 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://learn.microsoft.com/azure/ai-foundry/" rel="noopener noreferrer nofollow">Azure AI Foundry</a></h2><span class="host">learn.microsoft.com</span>
-<p class="d">Model kataloğu, agent servisi, değerlendirme ve içerik filtresi tek portalda. Uyumluluk ve bölge denetimi gerektiren kurumsal dağıtımlar için toplanmış bir yığın.</p>
+<p class="d">Model kataloğu, agent servisi, değerlendirme ve içerik filtresi tek portalda. Bu parçaları ayrı servislerden birleştirmek yerine, uyumluluk ve bölge denetimi gerektiren kurumsal dağıtımlar için toplanmış bir yığın sunuyor.</p>
 <p class="t">Ücretli, Sunucu</p>
 </article>
 <article>
 <h2><a href="https://learn.microsoft.com/azure/ai-services/openai/" rel="noopener noreferrer nofollow">Azure OpenAI Service</a></h2><span class="host">learn.microsoft.com</span>
-<p class="d">OpenAI modelleri, Azure’un bölge seçimi ve özel ağ desteğiyle. Model sürümleri OpenAI’dan geriden geliyor; uyumluluk kazancının bedeli bu gecikme.</p>
+<p class="d">OpenAI modelleri, Azure’un bölge seçimi ve özel ağ desteğiyle. OpenAI’ın kendi API’sinden farkı bu uyumluluk kazancı; bedeli, yeni model sürümlerinin buraya daha geç gelmesi.</p>
 <p class="t">Dokümantasyon, API, Sunucu</p>
 </article>
 <article>
@@ -159,12 +159,12 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://github.com/microsoft/BitNet" rel="noopener noreferrer nofollow">BitNet</a></h2><span class="host">github.com</span>
-<p class="d">Ağırlıkları 1.58 bite (üç değere) indiren çıkarım çatısı. Çarpma işlemleri toplamaya dönüştüğü için CPU üzerinde kabul edilebilir hızda çalışıyor.</p>
+<p class="d">Ağırlıkları 1.58 bite (üç değere) indiren çıkarım çatısı; çarpmalar toplamaya dönüştüğü için CPU’da kabul edilebilir hızda çalışıyor. llama.cpp’deki 4–8 bit nicemlemeden farkı modelin baştan bu biçimde eğitilmiş olmasını gerektirmesi.</p>
 <p class="t">Açık Kaynak, GitHub, Akademik, LLM</p>
 </article>
 <article>
 <h2><a href="https://github.com/microsoft/call-center-ai" rel="noopener noreferrer nofollow">Call Center AI</a></h2><span class="host">github.com</span>
-<p class="d">API çağrısıyla telefon araması başlatan agent örneği; konuşma tanıma, model ve sentez zincirini uçtan uca gösteriyor. Sesli agent mimarisi için çalışan bir referans.</p>
+<p class="d">API çağrısıyla telefon araması başlatan agent örneği; konuşma tanıma, model ve sentez zincirini uçtan uca gösteriyor. Hazır sesli asistan servislerinden farkı açık kaynak olması: sesli agent mimarisini kendi Azure hesabında kurabileceğin çalışan bir referans.</p>
 <p class="t">Açık Kaynak, GitHub, Ses, Öğretici</p>
 </article>
 <article>
@@ -189,7 +189,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://dspy.ai/" rel="noopener noreferrer nofollow">DSPy</a></h2><span class="host">dspy.ai</span>
-<p class="d">İstem metni yazmıyorsun; giriş-çıkış imzası tanımlıyor, örnek veri veriyorsun, optimizer istemleri ve few-shot örneklerini kendisi üretiyor. Prompt ayarını derleyiciye devreden bir yaklaşım.</p>
+<p class="d">İstem metni yazmıyorsun; giriş-çıkış imzası tanımlıyor, örnek veri veriyorsun, optimizer istemleri ve few-shot örneklerini kendisi üretiyor. İstem şablonu çatılarından farkı istem ayarını bir derleyiciye devretmesi.</p>
 <p class="t">Açık Kaynak, Python, LLM, Akademik</p>
 </article>
 <article>
@@ -199,52 +199,52 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://gofastmcp.com/" rel="noopener noreferrer nofollow">FastMCP</a></h2><span class="host">gofastmcp.com</span>
-<p class="d">Dekoratörle fonksiyon işaretleyip MCP aracına çeviriyorsun; şema tip ipuçlarından üretiliyor. Ham SDK’da elle yazdığın kalıp kodun neredeyse tamamını siliyor.</p>
+<p class="d">Dekoratörle fonksiyon işaretleyip MCP aracına çeviriyorsun; şema tip ipuçlarından üretiliyor. Ham resmî SDK’dan farkı elle yazdığın kalıp kodun neredeyse tamamını silmesi.</p>
 <p class="t">Açık Kaynak, Python, MCP, SDK</p>
 </article>
 <article>
 <h2><a href="https://github.com/gsd-build/get-shit-done" rel="noopener noreferrer nofollow">Get Shit Done</a></h2><span class="host">github.com</span>
-<p class="d">Şartname güdümlü geliştirme sistemi: önce spec yazdırıyor, sonra ona karşı kod ürettiriyor. Amaç, üretilen kodun ne yapması gerektiğini yazılı bir referansa bağlamak.</p>
+<p class="d">Şartname güdümlü geliştirme sistemi: önce spec yazdırıyor, sonra ona karşı kod ürettiriyor. Doğrudan kod istemek yerine üretilen kodun ne yapması gerektiğini yazılı bir referansa bağlıyor.</p>
 <p class="t">Açık Kaynak, GitHub, Agent</p>
 </article>
 <article>
 <h2><a href="https://github.com/github/github-mcp-server" rel="noopener noreferrer nofollow">GitHub MCP Server</a></h2><span class="host">github.com</span>
-<p class="d">Depo, konu, PR ve Actions işlemlerini araç olarak açan resmî sunucu. İnce taneli izin kapsamı seçilebiliyor, yani asistana yalnızca okuma yetkisi verebilirsin.</p>
+<p class="d">Depo, konu, PR ve Actions işlemlerini araç olarak açan resmî sunucu. Topluluk sunucularından farkı GitHub’ın kendisinin sürdürmesi ve ince taneli izin kapsamı: asistana yalnızca okuma yetkisi verebilirsin.</p>
 <p class="t">Açık Kaynak, GitHub, MCP, Go</p>
 </article>
 <article>
 <h2><a href="https://www.guardrailsai.com/" rel="noopener noreferrer nofollow">Guardrails AI</a></h2><span class="host">guardrailsai.com</span>
-<p class="d">Çıktıyı şema ve doğrulayıcı zincirine sokuyor; başarısız olursa yeniden deniyor ya da düzeltiyor. NeMo diyaloğu tutuyor, bu ise üretilen metnin biçim ve içeriğini.</p>
+<p class="d">Çıktıyı şema ve doğrulayıcı zincirine sokuyor; başarısız olursa yeniden deniyor ya da düzeltiyor. NeMo Guardrails’ten farkı diyalog akışını değil üretilen metnin biçimini ve içeriğini denetlemesi.</p>
 <p class="t">Açık Kaynak, Python, Guardrail</p>
 </article>
 <article>
 <h2><a href="https://github.com/headroomlabs-ai/headroom" rel="noopener noreferrer nofollow">Headroom</a></h2><span class="host">github.com</span>
-<p class="d">Araç çıktısı, günlük ve RAG parçalarını modele ulaşmadan sıkıştırıyor. Kütüphane, vekil ya da MCP sunucusu olarak çalışabiliyor — JSON ağırlıklı yüklerde kazanç en yüksek.</p>
+<p class="d">Araç çıktısı, günlük ve RAG parçalarını modele ulaşmadan sıkıştırıyor; kütüphane, vekil ya da MCP sunucusu olarak çalışabiliyor. Bağlam penceresini büyütmek yerine içeriği küçültüyor — JSON ağırlıklı yüklerde kazanç en yüksek.</p>
 <p class="t">Açık Kaynak, GitHub, LLM, API</p>
 </article>
 <article>
 <h2><a href="https://www.helicone.ai/" rel="noopener noreferrer nofollow">Helicone</a></h2><span class="host">helicone.ai</span>
-<p class="d">Taban URL’yi değiştirmen yeterli; istekler üzerinden geçerken kaydediliyor. Kod değişikliği istememesi, mevcut bir projeye sonradan takmayı kolaylaştırıyor.</p>
+<p class="d">LLM gözlemlenebilirlik aracı; taban URL’yi değiştirmen yeterli, istekler üzerinden geçerken kaydediliyor. SDK entegrasyonu isteyen izleme araçlarından farkı vekil (proxy) olarak çalışması: mevcut bir projeye kod değiştirmeden takılıyor.</p>
 <p class="t">Açık Kaynak, API, Gözlemlenebilirlik</p>
 </article>
 <article>
 <h2><a href="https://github.com/blader/humanizer" rel="noopener noreferrer nofollow">Humanizer</a></h2><span class="host">github.com</span>
-<p class="d">Metinden yapay zeka yazımına özgü kalıpları (aşırı paralel yapı, gereksiz geçiş cümleleri, tekdüze ritim) temizleyen dar kapsamlı yetenek.</p>
+<p class="d">Metinden yapay zekâ yazımına özgü kalıpları — aşırı paralel yapı, gereksiz geçiş cümleleri, tekdüze ritim — temizleyen dar kapsamlı yetenek. Genel yeniden yazma araçlarından farkı içeriği değil yalnız bu izleri hedeflemesi.</p>
 <p class="t">Açık Kaynak, GitHub</p>
 </article>
 <article>
 <h2><a href="https://www.lakera.ai/" rel="noopener noreferrer nofollow">Lakera Guard</a></h2><span class="host">lakera.ai</span>
-<p class="d">İstem enjeksiyonu ve jailbreak tespitine odaklı API. Saldırı örüntülerini Gandalf adlı oyunlaştırılmış deneyden toplanan gerçek veriyle besliyor.</p>
+<p class="d">İstem enjeksiyonu ve jailbreak tespitine odaklı API. Genel içerik filtrelerinden farkı saldırı örüntülerini Gandalf adlı oyunlaştırılmış deneyden toplanan gerçek saldırı verisiyle beslemesi.</p>
 <p class="t">Ücretli, Guardrail</p>
 </article>
 <article>
 <h2><a href="https://www.langchain.com/" rel="noopener noreferrer nofollow">LangChain</a></h2><span class="host">langchain.com</span>
-<p class="d">Model, vektör deposu ve araç sağlayıcıları ortak arayüz altında toplayan çatı. Entegrasyon sayısı en büyük kozu; soyutlama katmanının kalınlığı da en sık gelen şikâyet.</p>
+<p class="d">Model, vektör deposu ve araç sağlayıcıları ortak arayüz altında toplayan çatı. Daha ince çatılara kıyasla en büyük kozu entegrasyon sayısı; soyutlama katmanının kalınlığı da en sık gelen şikâyet.</p>
 <p class="t">Açık Kaynak, Python, Agent</p>
 </article>
 <article>
 <h2><a href="https://python.langchain.com/docs/tutorials/agents/" rel="noopener noreferrer nofollow">LangChain Agents (öğretici)</a></h2><span class="host">python.langchain.com</span>
-<p class="d">Araç tanımlama, model bağlama ve döngüyü kurma adımlarını sırayla gösteren resmî başlangıç. Araç çağırma protokolünün nasıl işlediğini görmek için en kısa yol.</p>
+<p class="d">Araç tanımlama, model bağlama ve döngüyü kurma adımlarını sırayla gösteren resmî başlangıç. Kavram anlatımlarından farkı çalışan kodla ilerlemesi: araç çağırma protokolünün nasıl işlediğini görmenin en kısa yolu.</p>
 <p class="t">Dokümantasyon, Öğretici, Agent</p>
 </article>
 <article>
@@ -269,7 +269,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://github.com/mvanhorn/last30days-skill" rel="noopener noreferrer nofollow">last30days</a></h2><span class="host">github.com</span>
-<p class="d">Bir konuda son otuz günün Reddit, X ve YouTube içeriğini tarayan yetenek. Modelin eğitim kesim tarihiyle bugün arasındaki boşluğu kapatmak için.</p>
+<p class="d">Bir konuda son otuz günün Reddit, X ve YouTube içeriğini tarayan yetenek. Genel web aramasından farkı yalnız yakın zamana ve topluluk tartışmasına odaklanması: modelin eğitim kesim tarihiyle bugün arasındaki boşluk için.</p>
 <p class="t">Açık Kaynak, GitHub, Akademik</p>
 </article>
 <article>
@@ -284,27 +284,27 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://registry.modelcontextprotocol.io/" rel="noopener noreferrer nofollow">MCP Registry</a></h2><span class="host">registry.modelcontextprotocol.io</span>
-<p class="d">Resmî sunucu kayıt defteri; makine tarafından okunabilir olduğu için istemciler kurulumu otomatikleştirebiliyor. Dağınık GitHub listelerinin yerini almak üzere kuruldu.</p>
+<p class="d">Resmî MCP sunucu kayıt defteri. Dağınık GitHub listelerinin yerine kuruldu; makine tarafından okunabilir olduğu için istemciler kurulumu otomatikleştirebiliyor.</p>
 <p class="t">Ücretsiz, MCP, Referans</p>
 </article>
 <article>
 <h2><a href="https://github.com/modelcontextprotocol/servers" rel="noopener noreferrer nofollow">MCP Sunucu Koleksiyonu</a></h2><span class="host">github.com</span>
-<p class="d">Dosya sistemi, PostgreSQL, Slack, Git ve fetch için referans uygulamalar. Kendi sunucunu yazmadan önce protokolün nasıl kullanıldığını buradan okumak en hızlısı.</p>
+<p class="d">Dosya sistemi, Git ve fetch gibi araçlar için referans MCP sunucuları. Kayıt defterindeki üçüncü taraf sunuculardan farkı protokolün yazarlarınca, örnek olsun diye yazılmış olmaları: kendi sunucunu yazmadan önce okumanın en hızlı yolu.</p>
 <p class="t">Açık Kaynak, GitHub, MCP, Referans</p>
 </article>
 <article>
 <h2><a href="https://learn.microsoft.com/en-us/agent-framework/" rel="noopener noreferrer nofollow">Microsoft Agent Framework</a></h2><span class="host">learn.microsoft.com</span>
-<p class="d">AutoGen’in deney tarafıyla Semantic Kernel’in kurumsal tarafını tek çatıda birleştiren yeni hat. Azure kimlik doğrulama ve izleme altyapısına baştan bağlı geliyor.</p>
+<p class="d">AutoGen’in deney tarafıyla Semantic Kernel’in kurumsal tarafını tek çatıda birleştiren yeni hat. İkisinden ayrı ayrı farkı bu birleşim; Azure kimlik doğrulama ve izleme altyapısına baştan bağlı geliyor.</p>
 <p class="t">Dokümantasyon, Agent, Sunucu</p>
 </article>
 <article>
 <h2><a href="https://microsoft.github.io/autogen/" rel="noopener noreferrer nofollow">Microsoft AutoGen</a></h2><span class="host">microsoft.github.io</span>
-<p class="d">Agent’lar bir grup sohbetinde konuşarak iş çözüyor; konuşma sırasını bir yönetici agent belirliyor. Araştırma kökenli, bu yüzden API’si sürümler arasında sertçe değişebiliyor.</p>
+<p class="d">Agent’lar bir grup sohbetinde konuşarak iş çözüyor; konuşma sırasını bir yönetici agent belirliyor. LangGraph gibi grafik tabanlı çatılardan farkı akışın konuşma olarak kurulması; araştırma kökenli, API’si sürümler arasında sertçe değişebiliyor.</p>
 <p class="t">Açık Kaynak, Python, Agent, Akademik</p>
 </article>
 <article>
 <h2><a href="https://microsoft.github.io/presidio/" rel="noopener noreferrer nofollow">Microsoft Presidio</a></h2><span class="host">microsoft.github.io</span>
-<p class="d">Metin ve görselde kişisel veriyi (TC kimlik, IBAN, e-posta gibi) tanıyıp maskeliyor. Tanıyıcılar özelleştirilebilir; modele veri göndermeden önceki anonimleştirme adımı için.</p>
+<p class="d">Metin ve görselde kişisel veriyi (TC kimlik, IBAN, e-posta gibi) tanıyıp maskeliyor; tanıyıcılar özelleştirilebilir. Bulut PII servislerinden farkı açık kaynak olması ve yerelde çalışması: veri modele gitmeden önceki anonimleştirme adımı için.</p>
 <p class="t">Açık Kaynak, Python, Gizlilik</p>
 </article>
 <article>
@@ -319,17 +319,17 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://github.com/breferrari/obsidian-mind" rel="noopener noreferrer nofollow">Obsidian Mind</a></h2><span class="host">github.com</span>
-<p class="d">Kod asistanının belleğini bir Obsidian kasasında düz Markdown olarak tutuyor. Bellek servisi çalıştırmıyorsun; not dosyalarını kendin okuyup düzeltebiliyorsun.</p>
+<p class="d">Kod asistanının belleğini bir Obsidian kasasında düz Markdown olarak tutuyor. Vektör veritabanı tabanlı bellek servislerinden farkı çalıştırılacak bir servis olmaması: not dosyalarını kendin okuyup düzeltebiliyorsun.</p>
 <p class="t">Açık Kaynak, GitHub, Agent, Referans</p>
 </article>
 <article>
 <h2><a href="https://github.com/diegosouzapw/OmniRoute" rel="noopener noreferrer nofollow">OmniRoute</a></h2><span class="host">github.com</span>
-<p class="d">Tek OpenAI uyumlu uç noktadan yüzlerce sağlayıcıya yönlendiriyor; birçoğu ücretsiz katmanlı. Sağlayıcı düşerse otomatik yedeğe geçmesi, tek bir API’ye bağımlılığı kırıyor.</p>
+<p class="d">Tek OpenAI uyumlu uç noktadan yüzlerce sağlayıcıya yönlendiriyor; birçoğu ücretsiz katmanlı. Her sağlayıcı için ayrı istemci yazmak yerine tek adres kullanıyorsun; sağlayıcı düşerse otomatik yedeğe geçmesi tek API’ye bağımlılığı kırıyor.</p>
 <p class="t">Açık Kaynak, GitHub, API</p>
 </article>
 <article>
 <h2><a href="https://openai.github.io/openai-agents-python/" rel="noopener noreferrer nofollow">OpenAI Agents SDK</a></h2><span class="host">openai.github.io</span>
-<p class="d">Dört kavramla yetiniyor: agent, araç, devretme (handoff) ve koruma bandı. İzleme (tracing) kutudan çıkıyor; öğrenme eğrisi çatıların en düşüğü.</p>
+<p class="d">Dört kavramla yetiniyor: agent, araç, devretme (handoff) ve koruma bandı; izleme (tracing) kutudan çıkıyor. LangGraph gibi çatılara kıyasla öğrenme eğrisi çok daha düşük.</p>
 <p class="t">Açık Kaynak, Python, Agent, SDK</p>
 </article>
 <article>
@@ -339,12 +339,12 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://github.com/DietrichGebert/ponytail" rel="noopener noreferrer nofollow">Ponytail</a></h2><span class="host">github.com</span>
-<p class="d">Agent’ı gereksiz soyutlama ve erken genelleme yapmaktan alıkoyan yetenek. Kod üretme eğilimini kısıtlayarak çıktının bakım maliyetini düşürmeyi hedefliyor.</p>
+<p class="d">Agent’ı gereksiz soyutlama ve erken genelleme yapmaktan alıkoyan yetenek. Daha çok kod üretmeye yönelten genel kodlama yeteneklerinin aksine üretimi kısıtlıyor; amaç çıktının bakım maliyetini düşürmek.</p>
 <p class="t">Açık Kaynak, GitHub, Agent</p>
 </article>
 <article>
 <h2><a href="https://protectai.com/" rel="noopener noreferrer nofollow">Prisma AIRS (Protect AI)</a></h2><span class="host">protectai.com</span>
-<p class="d">Model dosyalarını zararlı yük için tarıyor — pickle serileştirmesi keyfî kod çalıştırabildiği için indirilen bir checkpoint gerçek bir saldırı yüzeyi. Protect AI 2025’te Palo Alto Networks’e katıldı; ürün artık Prisma AIRS çatısı altında.</p>
+<p class="d">Model dosyalarını zararlı yük için tarıyor — pickle serileştirmesi keyfî kod çalıştırabildiği için indirilen bir checkpoint gerçek bir saldırı yüzeyi. Klasik zararlı yazılım tarayıcılarından farkı bu model biçimlerini anlaması; Protect AI 2025’te Palo Alto Networks’e katıldı, ürün artık Prisma AIRS altında.</p>
 <p class="t">Ücretli, Güvenlik</p>
 </article>
 <article>
@@ -354,12 +354,12 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://www.prompt.security/" rel="noopener noreferrer nofollow">Prompt Security</a></h2><span class="host">prompt.security</span>
-<p class="d">Çalışanların hangi YZ aracına ne veri gönderdiğini görünür kılıyor ve politikaya göre engelliyor. Gölge YZ kullanımını ölçmek isteyen kurumlar için.</p>
+<p class="d">Çalışanların hangi YZ aracına ne veri gönderdiğini görünür kılıyor ve politikaya göre engelliyor. Model tarafına konan korumalardan farkı kullanıcı tarafını izlemesi: gölge YZ kullanımını ölçmek isteyen kurumlar için.</p>
 <p class="t">Ücretli, Gizlilik, Güvenlik</p>
 </article>
 <article>
 <h2><a href="https://www.promptfoo.dev/" rel="noopener noreferrer nofollow">Promptfoo</a></h2><span class="host">promptfoo.dev</span>
-<p class="d">İstem ve modelleri YAML’de tanımlanmış test kümesine karşı yan yana koşuyor. Model sürümü değiştiğinde çıktının bozulup bozulmadığını CI adımında yakalıyor.</p>
+<p class="d">İstem ve modelleri YAML’de tanımlanmış test kümesine karşı yan yana koşuyor. Üretimdeki izleri gözleyen araçlardan farkı sorunu yayından önce yakalaması: model sürümü değiştiğinde bozulmayı CI adımında görüyorsun.</p>
 <p class="t">Açık Kaynak, CLI, Gözlemlenebilirlik, DevOps</p>
 </article>
 <article>
@@ -389,7 +389,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://wandb.ai/site/weave/" rel="noopener noreferrer nofollow">W&amp;B Weave</a></h2><span class="host">wandb.ai</span>
-<p class="d">Weights &amp; Biases’ın LLM tarafı. Zaten W&amp;B ile eğitim izliyorsan, çıkarım izleri de aynı proje altında toplanıyor.</p>
+<p class="d">Weights &amp; Biases’ın LLM tarafı. Ayrı bir izleme aracı kurmak yerine, zaten W&amp;B ile eğitim izliyorsan çıkarım izleri de aynı proje altında toplanıyor.</p>
 <p class="t">Ücretli, Freemium, Gözlemlenebilirlik</p>
 </article>
 <article>
