@@ -114,14 +114,12 @@ order = [c[0] for c in CATS]
 out.sort(key=lambda r: (order.index(r['cat']) if r['cat'] in order else 99,
                         r['name'].lower()))
 
-cmap = {c[0]: (c[1], c[2]) for c in CATS}
-
+# Category labels travel once, in window.CATS, not on every record: the two
+# label fields repeated on 1,900 records were 13% of links.js.
 core, en = [], []
 for r in out:
-    ct, ce = cmap.get(r['cat'], (r['cat'], r['cat']))
     core.append({
-        'url': r['url'], 'name': r['name'], 'cat': r['cat'],
-        'cat_tr': ct, 'cat_en': ce, 'tags': r['tags'],
+        'url': r['url'], 'name': r['name'], 'cat': r['cat'], 'tags': r['tags'],
         'tr': r['tr'], 'added': r['added'], 'src': r['src'],
     })
     if r.get('ver'):
@@ -165,7 +163,9 @@ for i, r in enumerate(core):
         if puan:
             break
     puan.sort(reverse=True)
-    rel = [core[j]['name'] for _, _, j in puan[:3]]
+    # Indices into LINKS rather than names: names were not guaranteed unique
+    # (sixteen were duplicated at one point), and the names cost 100 KB.
+    rel = [j for _, _, j in puan[:3]]
     if rel:
         r['rel'] = rel
 
@@ -179,6 +179,7 @@ io.open(os.path.join(D, '..', 'links.js'), 'w', encoding='utf-8', newline='\n').
     '/* Otomatik uretildi - data/build.py */\n'
     'window.SOURCES=' + json.dumps(SOURCES, **J) + ';\n'
     'window.TAGLABELS=' + json.dumps(LABELS, **J) + ';\n'
+    'window.CATS=' + json.dumps([list(c) for c in CATS], **J) + ';\n'
     'window.GROUPS=' + json.dumps(groups, **J) + ';\n'
     'window.INTROS=' + json.dumps(INTROS, **J) + ';\n'
     'window.LINKS=' + json.dumps(core, **J) + ';\n')

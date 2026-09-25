@@ -218,6 +218,12 @@ function fold(s){
     .replace(/[üÜ]/g,"u").replace(/[öÖ]/g,"o").replace(/[çÇ]/g,"c");
 }
 
+/* Kategori etiketleri kayit basina degil, links.js'te bir kez (window.CATS)
+   geliyor. */
+var CATLBL = {};
+(window.CATS || []).forEach(function(c){ CATLBL[c[0]] = {tr:c[1], en:c[2]} });
+function catLbl(k, l){ return (CATLBL[k] || {})[l] || k }
+
 data.forEach(function(d,i){
   d._i = i;
   d._h = host(d.url);
@@ -226,7 +232,7 @@ data.forEach(function(d,i){
     var l = (window.TAGLABELS||{})[t];
     return l ? l[0]+" "+l[1] : t;
   }).join(" ");
-  d._s = fold([d.name,d.tr,(d.tags||[]).join(" "),lbl,d._h,d.cat_tr,d.cat_en].join(" "));
+  d._s = fold([d.name,d.tr,(d.tags||[]).join(" "),lbl,d._h,catLbl(d.cat,"tr"),catLbl(d.cat,"en")].join(" "));
 });
 
 /* Ingilizce aciklamalar ayri dosyada ve sonradan geliyor, dolayisiyla ilk
@@ -246,7 +252,7 @@ function indexEN(){
 var CATS = (function(){
   var seen = [], out = [];
   data.forEach(function(d){
-    if(seen.indexOf(d.cat) < 0){ seen.push(d.cat); out.push({key:d.cat, tr:d.cat_tr, en:d.cat_en}); }
+    if(seen.indexOf(d.cat) < 0){ seen.push(d.cat); out.push({key:d.cat, tr:catLbl(d.cat,"tr"), en:catLbl(d.cat,"en")}); }
   });
   return out;
 })();
@@ -464,8 +470,9 @@ function itemHTML(d, showYear){
       '<span class="meta">'+meta.join(SEP)+'</span>'+
     '</div>'+
     ((d.rel||[]).length
-      ? '<p class="rel"><b>'+esc(T[lang].rel)+'</b> '+d.rel.map(function(n){
-          return '<a data-rel="'+esc(n)+'">'+esc(n)+'</a>' }).join(" · ")+'</p>'
+      ? '<p class="rel"><b>'+esc(T[lang].rel)+'</b> '+d.rel.map(function(i){
+          var o = data[i];   /* rel: LINKS icindeki sira numaralari */
+          return o ? '<a data-rel="'+i+'">'+esc(o.name)+'</a>' : '' }).join(" · ")+'</p>'
       : '')+'</article>';
 }
 
@@ -753,7 +760,7 @@ function render(){
   if(single){
     var tek = byPerma(single);
     if(tek){
-      $("#list").innerHTML = '<section class="one"><h2><span>'+esc(tek.cat_tr && lang==="tr"?tek.cat_tr:tek.cat_en)+
+      $("#list").innerHTML = '<section class="one"><h2><span>'+esc(catLbl(tek.cat, lang))+
         '</span></h2><div class="grid one-g">'+itemHTML(tek, true)+'</div>'+
         '<p class="onemore"><a href="?cat='+esc(tek.cat)+'" data-cat="'+esc(tek.cat)+'">'+
         esc(L.backCat)+'</a></p></section>';
@@ -844,7 +851,7 @@ document.addEventListener("click", function(e){
   var rl = e.target.closest("[data-rel]");
   if(rl){
     e.preventDefault();
-    var target = NAMEIDX[rl.dataset.rel];
+    var target = data[parseInt(rl.dataset.rel, 10)];
     if(target){
       q = target.name; activeTags = []; activeCat = null; activeField = null; onlyPicks = false; activeSrc = null;
       pages = {}; update(true); scrollTop();
@@ -900,7 +907,7 @@ $("#rand").addEventListener("click", randomLink);
 function exportRows(){
   return sorted(data.filter(keep)).map(function(d){
     return {name:d.name, url:d.url,
-            category:d[lang === "tr" ? "cat_tr" : "cat_en"],
+            category:catLbl(d.cat, lang),
             tags:(d.tags||[]).map(tagLabel),
             source:srcLabel(d),
             added:new Date(d.added*1000).toISOString().slice(0,7),

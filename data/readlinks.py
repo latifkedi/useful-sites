@@ -18,6 +18,18 @@ import os
 MARK = 'window.LINKS='
 
 
+def _labelled(rows):
+    # links.js no longer repeats the category labels on every record; the CI
+    # scripts still report by label, so they are put back here from notes.CATS.
+    from notes import CATS
+    lbl = {c[0]: (c[1], c[2]) for c in CATS}
+    out = []
+    for d in rows:
+        tr, en = lbl.get(d.get('cat'), (d.get('cat', ''), d.get('cat', '')))
+        out.append(dict(d, cat_tr=tr, cat_en=en))
+    return out
+
+
 def read(root):
     path = os.path.join(root, 'links.js')
     src = io.open(path, encoding='utf-8').read()
@@ -47,5 +59,5 @@ def read(root):
         elif c == ']':
             depth -= 1
             if depth == 0:
-                return json.loads(src[i:j + 1])
+                return _labelled(json.loads(src[i:j + 1]))
     raise ValueError('links.js icindeki dizi kapanmiyor')
