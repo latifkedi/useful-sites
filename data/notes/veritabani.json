@@ -251,8 +251,8 @@
       "ücretsiz",
       "veritabanı"
     ],
-    "tr": "Her konuyu çalıştırılabilir sorguyla gösteren PostgreSQL öğreticisi. Pencere fonksiyonları ve CTE bölümleri, çoğu SQL kursunun atladığı yerde derinleşiyor.",
-    "en": "A PostgreSQL tutorial showing each topic with a runnable query, going deep on window functions and CTEs where most SQL courses stop.",
+    "tr": "Her konuyu çalıştırılabilir sorguyla gösteren PostgreSQL öğreticisi. Çoğu SQL kursundan farkı pencere fonksiyonları ve CTE’lerde derinleşmesi.",
+    "en": "A PostgreSQL tutorial showing each topic with a runnable query. Unlike most SQL courses, it goes deep on window functions and CTEs.",
     "src": "kedi",
     "added": 1776690081
   },
@@ -303,8 +303,8 @@
       "öğretici",
       "ücretsiz"
     ],
-    "tr": "Tarayıcıda yaparak öğreten etkileşimli SQL dersleri.",
-    "en": "Interactive SQL lessons that teach by doing in the browser.",
+    "tr": "Tarayıcıda yaparak öğreten etkileşimli SQL dersleri; her ders sorgu yazdığın bir alıştırmayla bitiyor. Video kurslardan farkı pasif izleme yerine sorguyu hemen yazman; PostgreSQL öğreticilerine göre daha temel seviyede.",
+    "en": "Interactive SQL lessons that teach by doing in the browser; each lesson ends with an exercise where you write the query. Unlike video courses you write queries instead of watching; it sits at a more basic level than PostgreSQL tutorials.",
     "src": "dsbest"
   },
   {

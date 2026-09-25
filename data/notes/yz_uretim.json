@@ -112,8 +112,8 @@
       "self-hosted",
       "görsel-üretim"
     ],
-    "tr": "Üretim hattını düğüm grafiği olarak kuruyorsun: model yükleme, örnekleme, VAE çözme ayrı düğümler. Kurulumu zahmetli ama akış JSON olarak paylaşılıp birebir tekrar edilebiliyor.",
-    "en": "You build the pipeline as a node graph — model loading, sampling, VAE decode as separate nodes. Harder to set up, but a workflow exports as JSON and reproduces exactly.",
+    "tr": "Üretim hattını düğüm grafiği olarak kuruyorsun: model yükleme, örnekleme, VAE çözme ayrı düğümler. Form tabanlı arayüzlerden (AUTOMATIC1111) farkı akışın JSON olarak paylaşılıp birebir tekrar edilebilmesi; karşılığında kurulumu zahmetli.",
+    "en": "You build the pipeline as a node graph — model loading, sampling and VAE decode are separate nodes. Unlike form-based interfaces such as AUTOMATIC1111, a workflow exports as JSON and reproduces exactly; the price is a harder setup.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -514,8 +514,8 @@
       "self-hosted",
       "görsel-üretim"
     ],
-    "tr": "Yerel görsel üretimin en yaygın arayüzü; eklenti ekosistemi (ControlNet, LoRA yükleyiciler) çok geniş. Depo artık aktif geliştirilmiyor ama kurulu tabanı hâlâ en büyüğü.",
-    "en": "The most widespread interface for local generation, with a huge extension ecosystem (ControlNet, LoRA loaders). The repo is no longer actively developed, but the installed base is still the largest.",
+    "tr": "Yerel görsel üretimin en yaygın arayüzü; eklenti ekosistemi (ControlNet, LoRA yükleyiciler) çok geniş. ComfyUI’dan farkı düğüm grafiği yerine form tabanlı olması; depo artık aktif geliştirilmiyor ama kurulu tabanı hâlâ en büyüğü.",
+    "en": "The most widespread interface for local image generation, with a huge extension ecosystem (ControlNet, LoRA loaders). Unlike ComfyUI it is form-based rather than a node graph; the repo is no longer actively developed, but its installed base is still the largest.",
     "src": "kedi",
     "added": 1787000000
   },

@@ -109,7 +109,7 @@
   <link href="https://ollama.com/"/>
   <id>https://ollama.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>llama.cpp üzerine kurulu, tek komutla model indirip çalıştıran araç. OpenAI uyumlu bir yerel API açıyor, yani mevcut istemci kodun değişmeden çalışıyor.</summary>
+  <summary>llama.cpp üzerine kurulu, tek komutla model indirip çalıştıran araç. Doğrudan llama.cpp kullanmaktan farkı OpenAI uyumlu bir yerel API açması: mevcut istemci kodun değişmeden çalışıyor.</summary>
 </entry>
 <entry>
   <title>Open WebUI</title>
@@ -200,7 +200,7 @@
   <link href="https://huggingface.co/"/>
   <id>https://huggingface.co/</id>
   <updated>2026-04-06T11:40:03Z</updated>
-  <summary>Model, veri kümesi ve Spaces demolarının merkezî deposu. Her model kartında lisans, eğitim verisi ve değerlendirme sonuçları duruyor — indirmeden önce bakılacak yer orası.</summary>
+  <summary>Model, veri kümesi ve Spaces demolarının merkezî deposu. Genel kod barındırıcılardan farkı her model kartında lisans, eğitim verisi ve değerlendirme sonuçlarının standart biçimde durması — indirmeden önce bakılacak yer orası.</summary>
 </entry>
 <entry>
   <title>OpenClaw</title>

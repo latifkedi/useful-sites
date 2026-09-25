@@ -207,7 +207,7 @@
   <link href="https://langfuse.com/"/>
   <id>https://langfuse.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Framework-agnostic tracing and evaluation, OpenTelemetry-compatible. Because you can self-host it, prompt and response data never leaves your infrastructure.</summary>
+  <summary>Framework-agnostic LLM tracing and evaluation, OpenTelemetry-compatible. Unlike hosted services such as LangSmith you can self-host it, so prompt and response data never leaves your infrastructure.</summary>
 </entry>
 <entry>
   <title>LangSmith</title>
@@ -263,7 +263,7 @@
   <link href="https://modelcontextprotocol.io/"/>
   <id>https://modelcontextprotocol.io/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An open protocol over JSON-RPC for exposing tools and data sources to models. Write the server once and any MCP-speaking client can use it.</summary>
+  <summary>An open protocol over JSON-RPC for exposing tools and data sources to models. Unlike writing a plugin per model, you write the server once and any MCP-speaking client can use it.</summary>
 </entry>
 <entry>
   <title>NeMo Guardrails</title>

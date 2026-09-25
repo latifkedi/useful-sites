@@ -42,8 +42,8 @@
       "dokümantasyon",
       "donanım"
     ],
-    "tr": "Gerçek kuantum işlemcilerine kuyrukla erişim veriyor; Qiskit ile devre yazıp gönderiyorsun. Simülatörde görünmeyen gürültü ve hata oranlarını ancak burada karşılaşıyorsun.",
-    "en": "Queued access to real quantum processors, with circuits written and submitted through Qiskit. The noise and error rates a simulator hides only show up here.",
+    "tr": "Gerçek kuantum işlemcilerine kuyrukla erişim veriyor; Qiskit ile devre yazıp gönderiyorsun. Simülatörlerden farkı, onların gizlediği gürültü ve hata oranlarıyla ancak burada karşılaşman.",
+    "en": "Queued access to real quantum processors, with circuits written and submitted through Qiskit. Unlike simulators, this is where you meet the noise and error rates they hide.",
     "src": "kedi",
     "added": 1782471882
   },
@@ -128,8 +128,8 @@
       "dokümantasyon",
       "öğretici"
     ],
-    "tr": "Q# ve QDK kurulumu; VS Code uzantısıyla yerel simülatörde devre çalıştırmanın en kısa yolu. Donanıma erişim gerekmeden başlanabiliyor.",
-    "en": "Installing Q# and the QDK, with the VS Code extension as the shortest path to running circuits on a local simulator — no hardware access needed to start.",
+    "tr": "Q# ve QDK kurulumu; VS Code uzantısıyla yerel simülatörde devre çalıştırmanın en kısa yolu. IBM Quantum’dan farkı donanım erişimi gerekmeden kendi makinende başlaman.",
+    "en": "Installing Q# and the QDK; the VS Code extension is the shortest path to running circuits on a local simulator. Unlike IBM Quantum, you start on your own machine without any hardware access.",
     "src": "kedi",
     "added": 1782456766
   },
@@ -265,8 +265,8 @@
       "referans",
       "ücretsiz"
     ],
-    "tr": "Kuantum endüstrisini geniş ve günlük kapsayan haber yayını.",
-    "en": "A news publication covering the quantum industry broadly and daily.",
+    "tr": "Kuantum endüstrisini geniş ve günlük kapsayan haber yayını. Akademik kaynaklardan farkı sektör odaklı olması: şirket, yatırım ve ürün haberleri.",
+    "en": "A news publication covering the quantum industry broadly and daily. Unlike academic sources it is industry-focused: companies, funding and product news.",
     "src": "kedi"
   },
   {

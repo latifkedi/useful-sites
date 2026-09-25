@@ -137,7 +137,7 @@
   <link href="https://github.com/pgvector/pgvector"/>
   <id>https://github.com/pgvector/pgvector</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An extension adding a vector type plus HNSW and IVFFlat indexes to PostgreSQL. Keeping vectors in the same transaction as relational data is worth a lot against running a second system.</summary>
+  <summary>An extension adding a vector type plus HNSW and IVFFlat indexes to PostgreSQL. Unlike a separate vector database, it keeps vectors in the same transaction as your relational data.</summary>
 </entry>
 <entry>
   <title>Pinecone</title>

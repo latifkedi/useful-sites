@@ -38,6 +38,12 @@ MIN_RECORDS = 1850
 MIN_CATEGORIES = 43
 
 MIN_DESC = 30
+DIFF_FLOOR = 0.53
+# Comparative language in either description counts as saying how it differs.
+DIFF_TR = re.compile(r'(farkı|farklı|yerine|aksine|oysa|karşın|kıyasla|göre daha|değil|benzer|ayrıl|'
+                     r'tersine|alternatif|daha (hafif|hızlı|basit|sade|derin|kapsamlı|az|çok|yeni|eski))', re.I)
+DIFF_EN = re.compile(r'(unlike|instead of|rather than|whereas|compared|alternative|differs|than |, not |'
+                     r'not a |lighter|heavier)', re.I)
 TRACKING = re.compile(r'[?&](utm_[a-z]+|fbclid|gclid|ab_channel|si|ref|ref_src|mc_[ce]id|igshid)=', re.I)
 
 fails = []
@@ -56,7 +62,8 @@ def main():
           'records: %d (floor %d)' % (len(rows), MIN_RECORDS))
 
     en = io.open(os.path.join(ROOT, 'links.en.js'), encoding='utf-8').read()
-    en_n = len(json.loads(en[en.index('['):en.rindex(';')]))
+    en_list = json.loads(en[en.index('['):en.rindex(';')])
+    en_n = len(en_list)
     check(en_n == len(rows),
           'English descriptions match record count: %d vs %d' % (en_n, len(rows)))
 
@@ -125,6 +132,16 @@ def main():
     izli = [d['name'] for d in rows if TRACKING.search(d['url'])]
     check(not izli, 'no tracking parameters in URLs'
           + (' -- %s' % izli[:3] if izli else ''))
+
+    # The directory's promise is two things per entry: what it does and where it
+    # parts ways with its neighbours. The second half was missing from over half
+    # the records after the bulk intakes. This is a ratchet, like MIN_RECORDS:
+    # raise DIFF_FLOOR as descriptions are rewritten, never lower it.
+    farkli = [d for i, d in enumerate(rows)
+              if DIFF_TR.search(d['tr']) or DIFF_EN.search(en_list[i])]
+    oran = len(farkli) / float(len(rows))
+    check(oran >= DIFF_FLOOR, 'descriptions that say how the entry differs: %.0f%% (floor %.0f%%)'
+          % (100 * oran, 100 * DIFF_FLOOR))
 
     kisa = [d['name'] for d in rows if len(d['tr']) < MIN_DESC]
     check(not kisa, 'every Turkish description is at least %d characters' % MIN_DESC

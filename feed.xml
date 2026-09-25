@@ -44,7 +44,7 @@
   <id>https://github.com/CodyReichert/awesome-cl</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <category term="Programlama Dilleri"/>
-  <summary>Common Lisp kütüphane ve araçlarını toplayan liste.</summary>
+  <summary>Common Lisp kütüphane ve araçlarını toplayan liste. Quicklisp deposunu tek tek taramaktan farkı kütüphaneleri alana göre (web, veritabanı, GUI) gruplaması.</summary>
 </entry>
 <entry>
   <title>Awesome Composer</title>
@@ -52,7 +52,7 @@
   <id>https://github.com/jakoch/awesome-composer</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <category term="Programlama Dilleri"/>
-  <summary>PHP paket yöneticisi Composer için kaynak listesi.</summary>
+  <summary>PHP paket yöneticisi Composer için eklenti, araç ve rehber listesi. Packagist’ten farkı paketleri değil, Composer’ın kendisini genişleten ve iş akışını iyileştiren araçları toplaması.</summary>
 </entry>
 <entry>
   <title>Awesome Coq</title>
@@ -60,7 +60,7 @@
   <id>https://github.com/coq-community/awesome-coq</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <category term="Programlama Dilleri"/>
-  <summary>Biçimsel ispat dili ve ortamı Coq için kaynak listesi.</summary>
+  <summary>Biçimsel ispat dili ve ortamı Coq (yeni adıyla Rocq) için kütüphane, araç ve öğretici listesi. Genel ispat asistanı listelerinden farkı yalnız Coq ekosistemine odaklanması.</summary>
 </entry>
 <entry>
   <title>Awesome Elixir</title>
@@ -116,7 +116,7 @@
   <id>https://github.com/vlang/awesome-v</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <category term="Programlama Dilleri"/>
-  <summary>Sade, hızlı ve güvenli derlenen V dili için kaynak listesi.</summary>
+  <summary>V dili için kütüphane, araç ve proje listesi. Go veya Rust listelerinden farkı henüz genç bir dilin ekosistemini tek yerde toplaması; dil hâlâ hızla değiştiği için kayıtların güncelliğine bak.</summary>
 </entry>
 <entry>
   <title>better-files</title>
@@ -204,7 +204,7 @@
   <id>https://julialang.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <category term="Programlama Dilleri"/>
-  <summary>Bilimsel hesaplama için yüksek başarımlı, açık kaynak dil.</summary>
+  <summary>Bilimsel hesaplama için yüksek başarımlı, açık kaynak dil. Python’dan farkı JIT derlemesiyle C’ye yakın hız: prototipi Python’da yazıp hızlı kodu C’ye çevirme zorunluluğunu (“iki dil sorunu”) ortadan kaldırmayı hedefliyor.</summary>
 </entry>
 <entry>
   <title>Julia.jl</title>
@@ -260,7 +260,7 @@
   <id>https://www.r-project.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <category term="Programlama Dilleri"/>
-  <summary>İstatistik ve veri analizi için tasarlanmış dil ve ortam.</summary>
+  <summary>İstatistik ve veri analizi için tasarlanmış dil ve ortam; CRAN’da on binlerce istatistik paketi var. Python’dan farkı yeni istatistik yöntemlerinin çoğunlukla önce burada yayımlanması ve ggplot2 gibi grafik araçları.</summary>
 </entry>
 <entry>
   <title>Ruby</title>

@@ -39,7 +39,7 @@
   <link href="https://github.com/micromata/awesome-css-learning"/>
   <id>https://github.com/micromata/awesome-css-learning</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list focused on learning the CSS language and its modules.</summary>
+  <summary>A resource list focused on learning the CSS language and its modules — Flexbox, Grid, selectors. Unlike general CSS lists, it picks resources that teach the language itself, not frameworks or tools.</summary>
 </entry>
 <entry>
   <title>Awesome ESLint</title>
@@ -60,14 +60,14 @@
   <link href="https://github.com/diegocard/awesome-html5"/>
   <id>https://github.com/diegocard/awesome-html5</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of HTML5 APIs, tools and resources.</summary>
+  <summary>A list of HTML5 APIs — Canvas, WebSocket, storage — plus tools and resources. Unlike general web lists, it focuses only on the browser APIs that came with the HTML5 standard.</summary>
 </entry>
 <entry>
   <title>Awesome Mobile Web Development</title>
   <link href="https://github.com/myshov/awesome-mobile-web-development"/>
   <id>https://github.com/myshov/awesome-mobile-web-development</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for building a great mobile web experience.</summary>
+  <summary>A resource list for building a good mobile web experience — touch events, performance, offline. Unlike native-app lists, it targets mobile sites running in the browser.</summary>
 </entry>
 <entry>
   <title>Awesome npm</title>
@@ -102,7 +102,7 @@
   <link href="https://github.com/preactjs/awesome-preact"/>
   <id>https://github.com/preactjs/awesome-preact</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Preact, the lightweight React alternative.</summary>
+  <summary>A list of components, tools and examples for Preact, the 3 KB lightweight React alternative. Unlike React lists, it collects only libraries that work with Preact and keep its small size.</summary>
 </entry>
 <entry>
   <title>Awesome React</title>
@@ -116,7 +116,7 @@
   <link href="https://github.com/glauberfc/awesome-react-hooks"/>
   <id>https://github.com/glauberfc/awesome-react-hooks</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of libraries and examples for React Hooks.</summary>
+  <summary>A list of libraries, examples and articles for React Hooks. Unlike general React lists, it gathers only hook-based patterns and custom-hook packages, not class components.</summary>
 </entry>
 <entry>
   <title>Awesome Standard</title>
@@ -137,7 +137,7 @@
   <link href="https://github.com/aniftyco/awesome-tailwindcss"/>
   <id>https://github.com/aniftyco/awesome-tailwindcss</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of plugins, components and tools for Tailwind CSS.</summary>
+  <summary>A list of plugins, components, templates and tools for Tailwind CSS. Unlike the official docs, it collects community-made component kits and helper tools.</summary>
 </entry>
 <entry>
   <title>Awesome WebExtensions</title>
@@ -179,7 +179,7 @@
   <link href="https://buildbootstrap.com/"/>
   <id>https://buildbootstrap.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Builds a Bootstrap layout visually and generates its code.</summary>
+  <summary>Builds a Bootstrap layout visually by drag and drop and generates its code. Unlike writing it by hand, you see the grid while you build it; the trade-off is that later customisation is still manual.</summary>
 </entry>
 <entry>
   <title>Bulma</title>
@@ -221,7 +221,7 @@
   <link href="https://colors.lol"/>
   <id>https://colors.lol</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A repository of inspiring colour palettes.</summary>
+  <summary>A repository of hand-picked colour palettes, each with a (deliberately over-) descriptive blurb. Unlike generators such as Coolors, it is a curated collection rather than random generation.</summary>
 </entry>
 <entry>
   <title>Cruip</title>
@@ -263,7 +263,7 @@
   <link href="https://cssminifier.com/"/>
   <id>https://cssminifier.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Minifies CSS by stripping whitespace to shrink it.</summary>
+  <summary>A simple tool that minifies CSS by stripping whitespace and comments, with an API too. Unlike build-pipeline tools such as cssnano or esbuild, it handles a one-off job with nothing to install.</summary>
 </entry>
 <entry>
   <title>CSS Reference</title>
@@ -277,7 +277,7 @@
   <link href="https://www.devsamples.com/"/>
   <id>https://www.devsamples.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Easy-to-use HTML, CSS and JavaScript code examples.</summary>
+  <summary>Ready-to-copy HTML, CSS and JavaScript code examples. Unlike documentation, it gives small working snippets rather than explanations.</summary>
 </entry>
 <entry>
   <title>docsify</title>

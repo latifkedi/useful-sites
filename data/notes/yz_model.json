@@ -173,8 +173,8 @@
       "veri-bilimi",
       "awesome-liste"
     ],
-    "tr": "Model, veri kümesi ve Spaces demolarının merkezî deposu. Her model kartında lisans, eğitim verisi ve değerlendirme sonuçları duruyor — indirmeden önce bakılacak yer orası.",
-    "en": "The central repository for models, datasets and Spaces demos. Each model card carries licence, training data and eval results — read that before you download.",
+    "tr": "Model, veri kümesi ve Spaces demolarının merkezî deposu. Genel kod barındırıcılardan farkı her model kartında lisans, eğitim verisi ve değerlendirme sonuçlarının standart biçimde durması — indirmeden önce bakılacak yer orası.",
+    "en": "The central repository for models, datasets and Spaces demos. Unlike general code hosts, every model card carries licence, training data and eval results in a standard form — read it before you download.",
     "src": "kedi",
     "added": 1775475603
   },
@@ -313,8 +313,8 @@
       "cli",
       "self-hosted"
     ],
-    "tr": "llama.cpp üzerine kurulu, tek komutla model indirip çalıştıran araç. OpenAI uyumlu bir yerel API açıyor, yani mevcut istemci kodun değişmeden çalışıyor.",
-    "en": "Built on llama.cpp; one command pulls and runs a model. It exposes an OpenAI-compatible local endpoint, so existing client code runs unchanged.",
+    "tr": "llama.cpp üzerine kurulu, tek komutla model indirip çalıştıran araç. Doğrudan llama.cpp kullanmaktan farkı OpenAI uyumlu bir yerel API açması: mevcut istemci kodun değişmeden çalışıyor.",
+    "en": "Built on llama.cpp; one command pulls and runs a model. Unlike using llama.cpp directly, it exposes an OpenAI-compatible local endpoint, so existing client code runs unchanged.",
     "src": "kedi",
     "added": 1787000000
   },

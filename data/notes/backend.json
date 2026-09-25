@@ -34,8 +34,8 @@
       "php",
       "backend"
     ],
-    "tr": "PHP çatısı CakePHP için eklenti ve kaynak listesi.",
-    "en": "A list of plugins and resources for the CakePHP framework.",
+    "tr": "PHP çatısı CakePHP için eklenti ve kaynak listesi. Genel PHP listelerinden farkı yalnız CakePHP eklentilerine ve ekosistemine odaklanması.",
+    "en": "A list of plugins and resources for the CakePHP framework. Unlike general PHP lists, it focuses only on CakePHP plugins and its ecosystem.",
     "src": "awesomelist"
   },
   {
@@ -124,8 +124,8 @@
       "go",
       "backend"
     ],
-    "tr": "Go için hızlı web çatısı Fiber’a dair kaynak listesi.",
-    "en": "A resource list for Fiber, a fast web framework for Go.",
+    "tr": "Express’ten esinlenen, fasthttp üzerine kurulu Go web çatısı Fiber için kaynak listesi. Genel Go listelerinden farkı yalnız Fiber ara katmanlarını, şablonlarını ve örneklerini toplaması.",
+    "en": "A resource list for Fiber, the Express-inspired Go web framework built on fasthttp. Unlike general Go lists, it gathers only Fiber middleware, templates and examples.",
     "src": "awesomelist"
   },
   {
@@ -288,8 +288,8 @@
       "php",
       "backend"
     ],
-    "tr": "PHP çatısı Symfony için bundle ve kaynak listesi.",
-    "en": "A list of bundles and resources for the Symfony PHP framework.",
+    "tr": "PHP çatısı Symfony için bundle ve kaynak listesi. Genel PHP listelerinden farkı Symfony bundle’larına ve bu çatıya özgü araçlara odaklanması.",
+    "en": "A list of bundles and resources for the Symfony PHP framework. Unlike general PHP lists, it focuses on Symfony bundles and tools specific to the framework.",
     "src": "awesomelist"
   },
   {
@@ -349,8 +349,8 @@
       "python",
       "api"
     ],
-    "tr": "Tip ipuçlarından hem doğrulama hem OpenAPI şeması üretiyor; `/docs` adresinde çalışan bir test arayüzü kendiliğinden geliyor. Asenkron desteği ASGI üzerinden yerleşik.",
-    "en": "Derives both validation and an OpenAPI schema from type hints, and a working test UI appears at `/docs` by itself. Async support is native through ASGI.",
+    "tr": "Tip ipuçlarından hem doğrulama hem OpenAPI şeması üretiyor; `/docs` adresinde çalışan bir test arayüzü kendiliğinden geliyor. Flask’tan farkı bu şemanın ve asenkron desteğin (ASGI) yerleşik gelmesi.",
+    "en": "Derives validation and an OpenAPI schema from type hints, and a working test UI appears at `/docs` by itself. Unlike Flask, the schema and async support (ASGI) are built in.",
     "src": "kedi",
     "added": 1776690062
   },
@@ -567,8 +567,8 @@
       "freemium",
       "sistem-tasarımı"
     ],
-    "tr": "Her tasarım desenini şema, gerçekçi örnek ve kod olarak veriyor — üstelik altı ayrı dilde. Gang of Four kitabının okunması güç metnine karşı erişilebilir bir karşılık.",
-    "en": "Presents each design pattern as a diagram, a realistic scenario and code — in six languages. An accessible counterpart to the Gang of Four book’s difficult prose.",
+    "tr": "Her tasarım desenini şema, gerçekçi örnek ve kod olarak veriyor — üstelik altı ayrı dilde. Gang of Four kitabından farkı, aynı desenleri okunması güç bir metin yerine erişilebilir bir anlatımla sunması.",
+    "en": "Presents each design pattern as a diagram, a realistic scenario and code — in six languages. Unlike the Gang of Four book, it covers the same patterns in accessible prose rather than a difficult text.",
     "src": "kedi",
     "added": 1778513563
   },
@@ -618,8 +618,8 @@
       "sistem-tasarımı",
       "mülakat"
     ],
-    "tr": "Ölçekleme kavramlarını (önbellek, parçalama, kuyruk, CAP) örnek mimarilerle birlikte veriyor. Alanın en çok yıldızlanan kaynağı; mülakat dışında da mimari sözlüğü olarak işe yarıyor.",
-    "en": "Pairs scaling concepts — caching, sharding, queues, CAP — with worked architectures. The field’s most-starred resource, and useful as an architecture vocabulary beyond interviews.",
+    "tr": "Ölçekleme kavramlarını (önbellek, parçalama, kuyruk, CAP) örnek mimarilerle birlikte veriyor. Mülakat odaklı kısa rehberlerden farkı, mimari sözlüğü olarak da işe yarayacak kadar kapsamlı olması.",
+    "en": "Pairs scaling concepts — caching, sharding, queues, CAP — with worked architectures. Unlike short interview guides, it is thorough enough to serve as an architecture vocabulary beyond interviews.",
     "src": "kedi",
     "added": 1775421399
   },

@@ -18,8 +18,8 @@
       "github",
       "cli"
     ],
-    "tr": "Komut satırında kullanışlı, küçük araçları toplayan liste.",
-    "en": "A list gathering useful, small command-line tools.",
+    "tr": "Komut satırında kullanışlı, küçük araçları toplayan liste. awesome-shell gibi geniş listelerden farkı tek iş gören, hemen kurulup kullanılabilecek küçük araçlara odaklanması.",
+    "en": "A list gathering useful, small command-line tools. Unlike broad lists such as awesome-shell, it focuses on small single-purpose tools you can install and use right away.",
     "src": "awesomelist"
   },
   {
@@ -31,8 +31,8 @@
       "git",
       "cli"
     ],
-    "tr": "git komut satırını genişleten ek komut ve araç listesi.",
-    "en": "A list of add-on commands and tools that enhance the git CLI.",
+    "tr": "git komut satırını genişleten ek komut ve araç listesi. Git istemcilerinden farkı grafik arayüz değil, `git`’e yeni alt komutlar ekleyen araçları toplaması.",
+    "en": "A list of add-on commands and tools that enhance the git CLI. Unlike git clients, it collects not GUIs but tools that add new subcommands to `git`.",
     "src": "awesomelist"
   },
   {
@@ -54,8 +54,8 @@
       "awesome-liste",
       "github"
     ],
-    "tr": "Neovim editörü için eklenti ve yapılandırma listesi.",
-    "en": "A list of plugins and configurations for the Neovim editor.",
+    "tr": "Neovim editörü için eklenti ve yapılandırma listesi. Vim eklenti listelerinden farkı Lua ile yazılmış ve Tree-sitter ile LSP gibi yalnız Neovim’de bulunan özelliklere dayanan eklentileri toplaması.",
+    "en": "A list of plugins and configurations for the Neovim editor. Unlike Vim plugin lists, it gathers plugins written in Lua that rely on Neovim-only features such as Tree-sitter and LSP.",
     "src": "awesomelist"
   },
   {
@@ -65,8 +65,8 @@
       "awesome-liste",
       "github"
     ],
-    "tr": "Visual Studio Code için uzantı ve kaynak listesi.",
-    "en": "A list of extensions and resources for Visual Studio Code.",
+    "tr": "Visual Studio Code için uzantı ve kaynak listesi. Marketplace’in kendisinden farkı küratörlü olması: binlerce uzantı yerine denenmiş olanları dile ve işe göre gruplaması.",
+    "en": "A list of extensions and resources for Visual Studio Code. Unlike the Marketplace itself it is curated: instead of thousands of extensions, it groups proven ones by language and task.",
     "src": "awesomelist"
   },
   {
@@ -175,8 +175,8 @@
       "açık-kaynak",
       "ücretsiz"
     ],
-    "tr": "Vim’in yeniden yapılandırılmış, eklenti ve Lua desteğiyle modernleşen hâli.",
-    "en": "A refactored Vim, modernised with plugin and Lua support.",
+    "tr": "Vim’in yeniden yapılandırılmış hâli; yapılandırma ve eklentiler Lua ile yazılıyor, dil sunucusu (LSP) desteği yerleşik. Klasik Vim’den farkı bu Lua ekosistemi ve eşzamansız eklenti mimarisi.",
+    "en": "A refactored Vim where configuration and plugins are written in Lua and language-server (LSP) support is built in. Unlike classic Vim, it has that Lua ecosystem and an asynchronous plugin architecture.",
     "src": "awesomeproj"
   },
   {
@@ -221,8 +221,8 @@
       "ücretsiz",
       "masaüstü"
     ],
-    "tr": "Eklenti ekosistemiyle en yaygın kod editörü; hafif ama güçlü.",
-    "en": "The most widely used code editor, lightweight yet powerful, with a plugin ecosystem.",
+    "tr": "Eklenti ekosistemiyle en yaygın kod editörü; hafif açılıyor ama dil sunucuları ve hata ayıklayıcılarla bir IDE’ye yaklaşıyor. JetBrains gibi tam IDE’lerden farkı her dili eklentiyle alman: temel küçük, yetenek eklentiden geliyor.",
+    "en": "The most widely used code editor: it starts light but approaches an IDE through language servers and debuggers. Unlike full IDEs such as JetBrains, every language comes as an extension — a small base with capability added on.",
     "src": "awesomeproj"
   },
   {

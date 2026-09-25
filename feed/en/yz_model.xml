@@ -109,7 +109,7 @@
   <link href="https://ollama.com/"/>
   <id>https://ollama.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Built on llama.cpp; one command pulls and runs a model. It exposes an OpenAI-compatible local endpoint, so existing client code runs unchanged.</summary>
+  <summary>Built on llama.cpp; one command pulls and runs a model. Unlike using llama.cpp directly, it exposes an OpenAI-compatible local endpoint, so existing client code runs unchanged.</summary>
 </entry>
 <entry>
   <title>Open WebUI</title>
@@ -200,7 +200,7 @@
   <link href="https://huggingface.co/"/>
   <id>https://huggingface.co/</id>
   <updated>2026-04-06T11:40:03Z</updated>
-  <summary>The central repository for models, datasets and Spaces demos. Each model card carries licence, training data and eval results — read that before you download.</summary>
+  <summary>The central repository for models, datasets and Spaces demos. Unlike general code hosts, every model card carries licence, training data and eval results in a standard form — read it before you download.</summary>
 </entry>
 <entry>
   <title>OpenClaw</title>

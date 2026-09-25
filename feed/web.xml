@@ -39,7 +39,7 @@
   <link href="https://github.com/micromata/awesome-css-learning"/>
   <id>https://github.com/micromata/awesome-css-learning</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>CSS dilini ve modüllerini öğrenmeye odaklı kaynak listesi.</summary>
+  <summary>CSS dilini ve modüllerini (Flexbox, Grid, seçiciler) öğrenmeye odaklı kaynak listesi. Genel CSS listelerinden farkı çatı ve araç değil, dilin kendisini öğreten kaynakları seçmesi.</summary>
 </entry>
 <entry>
   <title>Awesome ESLint</title>
@@ -60,14 +60,14 @@
   <link href="https://github.com/diegocard/awesome-html5"/>
   <id>https://github.com/diegocard/awesome-html5</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>HTML5 API’leri, araçları ve kaynaklarının listesi.</summary>
+  <summary>HTML5 API’leri (Canvas, WebSocket, depolama), araçları ve kaynaklarının listesi. Genel web listelerinden farkı yalnız HTML5 standardıyla gelen tarayıcı API’lerine odaklanması.</summary>
 </entry>
 <entry>
   <title>Awesome Mobile Web Development</title>
   <link href="https://github.com/myshov/awesome-mobile-web-development"/>
   <id>https://github.com/myshov/awesome-mobile-web-development</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>İyi bir mobil web deneyimi kurmak için kaynak listesi.</summary>
+  <summary>İyi bir mobil web deneyimi kurmak için kaynak listesi: dokunmatik olaylar, performans, çevrimdışı çalışma. Yerel uygulama listelerinden farkı tarayıcıda çalışan mobil siteleri hedeflemesi.</summary>
 </entry>
 <entry>
   <title>Awesome npm</title>
@@ -102,7 +102,7 @@
   <link href="https://github.com/preactjs/awesome-preact"/>
   <id>https://github.com/preactjs/awesome-preact</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>React’in hafif alternatifi Preact için kaynak listesi.</summary>
+  <summary>React’in 3 KB’lık hafif alternatifi Preact için bileşen, araç ve örnek listesi. React listelerinden farkı yalnız Preact ile uyumlu ve küçük boyutu koruyan kütüphaneleri toplaması.</summary>
 </entry>
 <entry>
   <title>Awesome React</title>
@@ -116,7 +116,7 @@
   <link href="https://github.com/glauberfc/awesome-react-hooks"/>
   <id>https://github.com/glauberfc/awesome-react-hooks</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>React Hooks için kütüphane ve örneklerin listesi.</summary>
+  <summary>React Hooks için kütüphane, örnek ve yazı listesi. Genel React listelerinden farkı sınıf bileşenlerini değil, yalnız hook tabanlı kalıpları ve özel hook paketlerini toplaması.</summary>
 </entry>
 <entry>
   <title>Awesome Standard</title>
@@ -137,7 +137,7 @@
   <link href="https://github.com/aniftyco/awesome-tailwindcss"/>
   <id>https://github.com/aniftyco/awesome-tailwindcss</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Tailwind CSS için eklenti, bileşen ve araç listesi.</summary>
+  <summary>Tailwind CSS için eklenti, bileşen, şablon ve araç listesi. Tailwind’in resmî belgelerinden farkı topluluğun yaptığı hazır bileşen kitlerini ve yardımcı araçları toplaması.</summary>
 </entry>
 <entry>
   <title>Awesome WebExtensions</title>
@@ -179,7 +179,7 @@
   <link href="https://buildbootstrap.com/"/>
   <id>https://buildbootstrap.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Bootstrap düzenini görsel olarak kurup kodunu üreten araç.</summary>
+  <summary>Bootstrap düzenini sürükle-bırak ile görsel olarak kurup kodunu üreten araç. Kodu elle yazmaktan farkı ızgarayı ekranda görerek kurabilmen; karşılığında sonraki özelleştirme yine elle yapılıyor.</summary>
 </entry>
 <entry>
   <title>Bulma</title>
@@ -221,7 +221,7 @@
   <link href="https://colors.lol"/>
   <id>https://colors.lol</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>İlham verici renk paletleri deposu.</summary>
+  <summary>Elle seçilmiş renk paletleri deposu; her palet (bilerek abartılı) bir tanımla geliyor. Coolors gibi üreteçlerden farkı rastgele üretim değil küratörlü bir koleksiyon olması.</summary>
 </entry>
 <entry>
   <title>Cruip</title>
@@ -263,7 +263,7 @@
   <link href="https://cssminifier.com/"/>
   <id>https://cssminifier.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>CSS kodunu boşlukları atarak küçülten (minify) araç.</summary>
+  <summary>CSS kodunu boşluk ve yorumları atarak küçülten (minify) basit bir araç; API’si de var. cssnano ya da esbuild gibi derleme hattı araçlarından farkı kurulum istemeden tek seferlik iş görmesi.</summary>
 </entry>
 <entry>
   <title>CSS Reference</title>
@@ -277,7 +277,7 @@
   <link href="https://www.devsamples.com/"/>
   <id>https://www.devsamples.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Kolay kullanılan HTML, CSS ve JavaScript kod örnekleri.</summary>
+  <summary>Kopyalanıp kullanılabilecek HTML, CSS ve JavaScript kod örnekleri. Dokümantasyondan farkı açıklama yerine doğrudan çalışan küçük parçalar vermesi.</summary>
 </entry>
 <entry>
   <title>docsify</title>

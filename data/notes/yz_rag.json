@@ -242,8 +242,8 @@
       "veritabanı",
       "vektör-db"
     ],
-    "tr": "PostgreSQL’e vektör tipi ve HNSW/IVFFlat indeksleri ekleyen uzantı. Vektörü ilişkisel veriyle aynı işlemde (transaction) tutabilmek ayrı bir sistem işletmeye bedel.",
-    "en": "An extension adding a vector type plus HNSW and IVFFlat indexes to PostgreSQL. Keeping vectors in the same transaction as relational data is worth a lot against running a second system.",
+    "tr": "PostgreSQL’e vektör tipi ve HNSW/IVFFlat indeksleri ekleyen uzantı. Ayrı bir vektör veritabanından farkı, vektörü ilişkisel veriyle aynı işlemde (transaction) tutabilmen.",
+    "en": "An extension adding a vector type plus HNSW and IVFFlat indexes to PostgreSQL. Unlike a separate vector database, it keeps vectors in the same transaction as your relational data.",
     "src": "kedi",
     "added": 1787000000
   },

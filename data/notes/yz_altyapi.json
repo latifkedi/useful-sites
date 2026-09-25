@@ -495,8 +495,8 @@
       "self-hosted",
       "gözlemlenebilirlik"
     ],
-    "tr": "Çatı bağımsız izleme ve değerlendirme; OpenTelemetry uyumlu. Kendi sunucunda çalıştırabildiğin için istem ve yanıt verisi dışarı çıkmıyor.",
-    "en": "Framework-agnostic tracing and evaluation, OpenTelemetry-compatible. Because you can self-host it, prompt and response data never leaves your infrastructure.",
+    "tr": "Çatı bağımsız LLM izleme ve değerlendirme; OpenTelemetry uyumlu. LangSmith gibi barındırılan servislerden farkı kendi sunucunda çalışabilmesi: istem ve yanıt verisi dışarı çıkmıyor.",
+    "en": "Framework-agnostic LLM tracing and evaluation, OpenTelemetry-compatible. Unlike hosted services such as LangSmith you can self-host it, so prompt and response data never leaves your infrastructure.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -508,8 +508,8 @@
       "python",
       "agent"
     ],
-    "tr": "Agent akışını düğüm ve kenarlardan oluşan bir durum grafiği olarak tanımlıyorsun. Döngü, koşullu dallanma ve akışı durdurup insan onayı bekleme (interrupt) buradan çıkıyor; düz zincirde bunlar yok.",
-    "en": "You define agent flow as a state graph of nodes and edges, which is where loops, conditional branching and pausing for human approval (interrupts) come from. A flat chain has none of that.",
+    "tr": "Agent akışını düğüm ve kenarlardan oluşan bir durum grafiği olarak tanımlıyorsun. Düz bir LangChain zincirinden farkı döngü, koşullu dallanma ve akışı durdurup insan onayı bekleme (interrupt) desteği.",
+    "en": "You define agent flow as a state graph of nodes and edges. Unlike a flat LangChain chain, it supports loops, conditional branching and pausing for human approval (interrupts).",
     "src": "kedi",
     "added": 1785059786
   },
@@ -641,8 +641,8 @@
       "referans",
       "api"
     ],
-    "tr": "JSON-RPC üzerine kurulu, modellere araç ve veri kaynağı açmak için açık protokol. Sunucuyu bir kez yazıyorsun, MCP konuşan her istemci onu kullanabiliyor.",
-    "en": "An open protocol over JSON-RPC for exposing tools and data sources to models. Write the server once and any MCP-speaking client can use it.",
+    "tr": "JSON-RPC üzerine kurulu, modellere araç ve veri kaynağı açmak için açık protokol. Her modele ayrı eklenti yazmaktan farkı, sunucuyu bir kez yazman ve MCP konuşan her istemcinin onu kullanabilmesi.",
+    "en": "An open protocol over JSON-RPC for exposing tools and data sources to models. Unlike writing a plugin per model, you write the server once and any MCP-speaking client can use it.",
     "src": "kedi",
     "added": 1787000000
   },

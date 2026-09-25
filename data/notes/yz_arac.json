@@ -21,8 +21,8 @@
       "sistem-tasarımı",
       "git"
     ],
-    "tr": "Terminalde çalışıyor ve her değişikliği ayrı bir git commit’i olarak yazıyor. Beğenmediğin adımı `git revert` ile geri almak, editör tabanlı asistanlarda olmayan bir güvenlik ağı.",
-    "en": "Runs in the terminal and writes each change as its own git commit. Reverting a step you dislike with `git revert` is a safety net editor-based assistants do not offer.",
+    "tr": "Terminalde çalışıyor ve her değişikliği ayrı bir git commit’i olarak yazıyor. Editör tabanlı asistanlardan farkı bu güvenlik ağı: beğenmediğin adımı `git revert` ile geri alabiliyorsun.",
+    "en": "Runs in the terminal and writes each change as its own git commit. Unlike editor-based assistants it gives you that safety net: revert a step you dislike with `git revert`.",
     "src": "kedi",
     "added": 1787000000
   },
@@ -347,8 +347,8 @@
       "freemium",
       "akademik"
     ],
-    "tr": "Yüzlerce makaleyi tarayıp örneklem büyüklüğü, yöntem ve bulgu gibi alanları tabloya çıkarıyor. Sistematik derleme yaparken en çok vakit yiyen adım tam olarak bu ayıklama.",
-    "en": "Screens hundreds of papers and extracts fields like sample size, method and finding into a table — precisely the screening step that eats the most time in a systematic review.",
+    "tr": "Yüzlerce makaleyi tarayıp örneklem büyüklüğü, yöntem ve bulgu gibi alanları tabloya çıkarıyor. Genel sohbet asistanlarından farkı, sistematik derlemede en çok vakit yiyen ayıklama adımına özel olması.",
+    "en": "Screens hundreds of papers and extracts fields such as sample size, method and finding into a table. Unlike general chat assistants, it is built for the screening step that eats the most time in a systematic review.",
     "src": "kedi",
     "added": 1787000000
   },

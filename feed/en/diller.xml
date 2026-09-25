@@ -39,21 +39,21 @@
   <link href="https://github.com/CodyReichert/awesome-cl"/>
   <id>https://github.com/CodyReichert/awesome-cl</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list gathering Common Lisp libraries and tools.</summary>
+  <summary>A list gathering Common Lisp libraries and tools. Unlike browsing the Quicklisp repository one by one, it groups them by domain — web, databases, GUI.</summary>
 </entry>
 <entry>
   <title>Awesome Composer</title>
   <link href="https://github.com/jakoch/awesome-composer"/>
   <id>https://github.com/jakoch/awesome-composer</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Composer, the PHP package manager.</summary>
+  <summary>A list of plugins, tools and guides for Composer, the PHP package manager. Unlike Packagist, it collects not packages but tools that extend Composer itself and improve the workflow.</summary>
 </entry>
 <entry>
   <title>Awesome Coq</title>
   <link href="https://github.com/coq-community/awesome-coq"/>
   <id>https://github.com/coq-community/awesome-coq</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Coq, the formal-proof language and environment.</summary>
+  <summary>A list of libraries, tools and tutorials for Coq (now renamed Rocq), the formal-proof language and environment. Unlike general proof-assistant lists, it covers only the Coq ecosystem.</summary>
 </entry>
 <entry>
   <title>Awesome Elixir</title>
@@ -102,7 +102,7 @@
   <link href="https://github.com/vlang/awesome-v"/>
   <id>https://github.com/vlang/awesome-v</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for V, the simple, fast, safe compiled language.</summary>
+  <summary>A list of libraries, tools and projects for the V language. Unlike Go or Rust lists, it gathers the ecosystem of a still-young language in one place; since the language changes quickly, check how current entries are.</summary>
 </entry>
 <entry>
   <title>better-files</title>
@@ -179,7 +179,7 @@
   <link href="https://julialang.org/"/>
   <id>https://julialang.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A high-performance, open-source language for scientific computing.</summary>
+  <summary>A high-performance open-source language for scientific computing. Unlike Python it JIT-compiles to near-C speed, aiming to remove the “two-language problem” of prototyping in Python and rewriting hot code in C.</summary>
 </entry>
 <entry>
   <title>Julia.jl</title>
@@ -228,7 +228,7 @@
   <link href="https://www.r-project.org/"/>
   <id>https://www.r-project.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A language and environment designed for statistics and data analysis.</summary>
+  <summary>A language and environment designed for statistics and data analysis, with tens of thousands of packages on CRAN. Unlike Python, new statistical methods usually appear here first, and it has graphics tools such as ggplot2.</summary>
 </entry>
 <entry>
   <title>Ruby</title>

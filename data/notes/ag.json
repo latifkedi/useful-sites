@@ -53,8 +53,8 @@
       "awesome-liste",
       "github"
     ],
-    "tr": "Arch Linux tabanlı dağıtım ve projelerin listesi.",
-    "en": "A list of Arch Linux–based distributions and projects.",
+    "tr": "Arch Linux tabanlı dağıtım ve projelerin listesi. Arch Wiki’den farkı belgeleri değil, Arch’tan türeyen dağıtımları ve onların araçlarını karşılaştırmalı toplaması.",
+    "en": "A list of Arch Linux–based distributions and projects. Unlike the Arch Wiki, it collects not documentation but the distributions derived from Arch and their tools, side by side.",
     "src": "awesomelist"
   },
   {
@@ -77,8 +77,8 @@
       "github",
       "masaüstü"
     ],
-    "tr": "GNOME masaüstü ortamı için uygulama ve eklenti listesi.",
-    "en": "A list of apps and extensions for the GNOME desktop environment.",
+    "tr": "GNOME masaüstü ortamı için uygulama ve eklenti listesi. KDE listesinden farkı GTK/libadwaita ile yazılmış, GNOME arayüz kılavuzuna uyan uygulamalar ve shell eklentileri.",
+    "en": "A list of apps and extensions for the GNOME desktop environment. Unlike the KDE list, it covers GTK/libadwaita apps that follow GNOME’s interface guidelines, plus shell extensions.",
     "src": "awesomelist"
   },
   {
@@ -100,8 +100,8 @@
       "github",
       "masaüstü"
     ],
-    "tr": "KDE masaüstü ortamı için uygulama ve kaynak listesi.",
-    "en": "A list of apps and resources for the KDE desktop environment.",
+    "tr": "KDE masaüstü ortamı için uygulama ve kaynak listesi. GNOME listesinden farkı Qt tabanlı KDE uygulamalarına ve Plasma özelleştirmelerine odaklanması.",
+    "en": "A list of apps and resources for the KDE desktop environment. Unlike the GNOME list, it focuses on Qt-based KDE apps and Plasma customisation.",
     "src": "awesomelist"
   },
   {
@@ -218,8 +218,8 @@
       "ağ",
       "müfredat"
     ],
-    "tr": "Cisco’nun resmî ağ müfredatı; CCNA’ya hazırlayan derslerin bir kısmı ücretsiz. Packet Tracer laboratuvarlarıyla teoriyi topoloji kurarak sınıyorsun.",
-    "en": "Cisco’s official networking curriculum, with part of the CCNA track free. Packet Tracer labs let you test the theory by building topologies.",
+    "tr": "Cisco’nun resmî ağ müfredatı; CCNA’ya hazırlayan derslerin bir kısmı ücretsiz. Video derslerden farkı Packet Tracer laboratuvarları: teoriyi topoloji kurarak sınıyorsun.",
+    "en": "Cisco’s official networking curriculum, with part of the CCNA track free. Unlike video courses it comes with Packet Tracer labs, so you test the theory by building topologies.",
     "src": "kedi",
     "added": 1771249061
   },
@@ -341,8 +341,8 @@
       "ağ",
       "interaktif"
     ],
-    "tr": "Linux’u küçük modüllere bölerek öğretiyor: dosya sistemi, izinler, süreçler, paket yönetimi. Kapsamlı kitapların yıldırdığı yerde sindirilebilir parçalar sunuyor.",
-    "en": "Teaches Linux in small modules — filesystem, permissions, processes, package management — offering digestible pieces where comprehensive books overwhelm.",
+    "tr": "Linux’u küçük modüllere bölerek öğretiyor: dosya sistemi, izinler, süreçler, paket yönetimi. Kapsamlı kitaplardan farkı sindirilebilir parçalar ve her dersin sonundaki alıştırmalar.",
+    "en": "Teaches Linux in small modules — filesystem, permissions, processes, package management. Unlike comprehensive books, it offers digestible pieces with exercises at the end of each lesson.",
     "src": "kedi",
     "added": 1776690078
   },

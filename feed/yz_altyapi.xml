@@ -207,7 +207,7 @@
   <link href="https://langfuse.com/"/>
   <id>https://langfuse.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Çatı bağımsız izleme ve değerlendirme; OpenTelemetry uyumlu. Kendi sunucunda çalıştırabildiğin için istem ve yanıt verisi dışarı çıkmıyor.</summary>
+  <summary>Çatı bağımsız LLM izleme ve değerlendirme; OpenTelemetry uyumlu. LangSmith gibi barındırılan servislerden farkı kendi sunucunda çalışabilmesi: istem ve yanıt verisi dışarı çıkmıyor.</summary>
 </entry>
 <entry>
   <title>LangSmith</title>
@@ -263,7 +263,7 @@
   <link href="https://modelcontextprotocol.io/"/>
   <id>https://modelcontextprotocol.io/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>JSON-RPC üzerine kurulu, modellere araç ve veri kaynağı açmak için açık protokol. Sunucuyu bir kez yazıyorsun, MCP konuşan her istemci onu kullanabiliyor.</summary>
+  <summary>JSON-RPC üzerine kurulu, modellere araç ve veri kaynağı açmak için açık protokol. Her modele ayrı eklenti yazmaktan farkı, sunucuyu bir kez yazman ve MCP konuşan her istemcinin onu kullanabilmesi.</summary>
 </entry>
 <entry>
   <title>NeMo Guardrails</title>

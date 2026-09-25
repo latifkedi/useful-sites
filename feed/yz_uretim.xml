@@ -74,7 +74,7 @@
   <link href="https://www.comfy.org/"/>
   <id>https://www.comfy.org/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Üretim hattını düğüm grafiği olarak kuruyorsun: model yükleme, örnekleme, VAE çözme ayrı düğümler. Kurulumu zahmetli ama akış JSON olarak paylaşılıp birebir tekrar edilebiliyor.</summary>
+  <summary>Üretim hattını düğüm grafiği olarak kuruyorsun: model yükleme, örnekleme, VAE çözme ayrı düğümler. Form tabanlı arayüzlerden (AUTOMATIC1111) farkı akışın JSON olarak paylaşılıp birebir tekrar edilebilmesi; karşılığında kurulumu zahmetli.</summary>
 </entry>
 <entry>
   <title>Craiyon</title>
@@ -270,7 +270,7 @@
   <link href="https://github.com/AUTOMATIC1111/stable-diffusion-webui"/>
   <id>https://github.com/AUTOMATIC1111/stable-diffusion-webui</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Yerel görsel üretimin en yaygın arayüzü; eklenti ekosistemi (ControlNet, LoRA yükleyiciler) çok geniş. Depo artık aktif geliştirilmiyor ama kurulu tabanı hâlâ en büyüğü.</summary>
+  <summary>Yerel görsel üretimin en yaygın arayüzü; eklenti ekosistemi (ControlNet, LoRA yükleyiciler) çok geniş. ComfyUI’dan farkı düğüm grafiği yerine form tabanlı olması; depo artık aktif geliştirilmiyor ama kurulu tabanı hâlâ en büyüğü.</summary>
 </entry>
 <entry>
   <title>Stable Fast 3D</title>

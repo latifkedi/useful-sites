@@ -74,7 +74,7 @@
   <link href="https://www.comfy.org/"/>
   <id>https://www.comfy.org/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>You build the pipeline as a node graph — model loading, sampling, VAE decode as separate nodes. Harder to set up, but a workflow exports as JSON and reproduces exactly.</summary>
+  <summary>You build the pipeline as a node graph — model loading, sampling and VAE decode are separate nodes. Unlike form-based interfaces such as AUTOMATIC1111, a workflow exports as JSON and reproduces exactly; the price is a harder setup.</summary>
 </entry>
 <entry>
   <title>Craiyon</title>
@@ -270,7 +270,7 @@
   <link href="https://github.com/AUTOMATIC1111/stable-diffusion-webui"/>
   <id>https://github.com/AUTOMATIC1111/stable-diffusion-webui</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The most widespread interface for local generation, with a huge extension ecosystem (ControlNet, LoRA loaders). The repo is no longer actively developed, but the installed base is still the largest.</summary>
+  <summary>The most widespread interface for local image generation, with a huge extension ecosystem (ControlNet, LoRA loaders). Unlike ComfyUI it is form-based rather than a node graph; the repo is no longer actively developed, but its installed base is still the largest.</summary>
 </entry>
 <entry>
   <title>Stable Fast 3D</title>

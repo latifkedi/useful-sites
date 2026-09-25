@@ -280,8 +280,8 @@
       "ücretsiz",
       "referans"
     ],
-    "tr": "İfadeyi jeton jeton açıklıyor ve hata ayıklayıcısıyla eşleşmenin nerede koptuğunu gösteriyor. PCRE, JavaScript ve Python lehçeleri arasında geçiş yapabiliyorsun.",
-    "en": "Explains an expression token by token and its debugger shows exactly where a match breaks down, with switching between the PCRE, JavaScript and Python flavours.",
+    "tr": "İfadeyi jeton jeton açıklıyor ve hata ayıklayıcısıyla eşleşmenin nerede koptuğunu gösteriyor. RegExr’dan farkı PCRE, JavaScript, Python ve Go lehçeleri arasında geçiş yapabilmen.",
+    "en": "Explains an expression token by token, and its debugger shows exactly where a match breaks down. Unlike RegExr, you can switch between the PCRE, JavaScript, Python and Go flavours.",
     "src": "kedi",
     "added": 1787182453
   },

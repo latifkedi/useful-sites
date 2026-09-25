@@ -19,8 +19,8 @@
       "go",
       "interaktif"
     ],
-    "tr": "Go’nun resmî turu; her örnek tarayıcıda çalıştırılıp değiştirilebiliyor. Goroutine ve kanalları anlatan son bölüm dilin asıl ayırt edici kısmı.",
-    "en": "Go’s official tour, with every example runnable and editable in the browser. The closing section on goroutines and channels is the language’s real differentiator.",
+    "tr": "Go’nun resmî turu; her örnek tarayıcıda çalıştırılıp değiştirilebiliyor. Kitaplardan farkı kurulum istemeden dili deneyerek öğretmesi; goroutine ve kanallar bölümü dilin asıl ayırt edici kısmı.",
+    "en": "Go’s official tour, with every example runnable and editable in the browser. Unlike a book, it teaches the language hands-on with nothing to install; the section on goroutines and channels is where Go really differs.",
     "src": "kedi",
     "added": 1776690070
   },
@@ -104,8 +104,8 @@
       "awesome-liste",
       "github"
     ],
-    "tr": "Common Lisp kütüphane ve araçlarını toplayan liste.",
-    "en": "A list gathering Common Lisp libraries and tools.",
+    "tr": "Common Lisp kütüphane ve araçlarını toplayan liste. Quicklisp deposunu tek tek taramaktan farkı kütüphaneleri alana göre (web, veritabanı, GUI) gruplaması.",
+    "en": "A list gathering Common Lisp libraries and tools. Unlike browsing the Quicklisp repository one by one, it groups them by domain — web, databases, GUI.",
     "src": "awesomelist"
   },
   {
@@ -127,8 +127,8 @@
       "github",
       "php"
     ],
-    "tr": "PHP paket yöneticisi Composer için kaynak listesi.",
-    "en": "A resource list for Composer, the PHP package manager.",
+    "tr": "PHP paket yöneticisi Composer için eklenti, araç ve rehber listesi. Packagist’ten farkı paketleri değil, Composer’ın kendisini genişleten ve iş akışını iyileştiren araçları toplaması.",
+    "en": "A list of plugins, tools and guides for Composer, the PHP package manager. Unlike Packagist, it collects not packages but tools that extend Composer itself and improve the workflow.",
     "src": "awesomelist"
   },
   {
@@ -139,8 +139,8 @@
       "github",
       "akademik"
     ],
-    "tr": "Biçimsel ispat dili ve ortamı Coq için kaynak listesi.",
-    "en": "A resource list for Coq, the formal-proof language and environment.",
+    "tr": "Biçimsel ispat dili ve ortamı Coq (yeni adıyla Rocq) için kütüphane, araç ve öğretici listesi. Genel ispat asistanı listelerinden farkı yalnız Coq ekosistemine odaklanması.",
+    "en": "A list of libraries, tools and tutorials for Coq (now renamed Rocq), the formal-proof language and environment. Unlike general proof-assistant lists, it covers only the Coq ecosystem.",
     "src": "awesomelist"
   },
   {
@@ -233,8 +233,8 @@
       "awesome-liste",
       "github"
     ],
-    "tr": "Sade, hızlı ve güvenli derlenen V dili için kaynak listesi.",
-    "en": "A resource list for V, the simple, fast, safe compiled language.",
+    "tr": "V dili için kütüphane, araç ve proje listesi. Go veya Rust listelerinden farkı henüz genç bir dilin ekosistemini tek yerde toplaması; dil hâlâ hızla değiştiği için kayıtların güncelliğine bak.",
+    "en": "A list of libraries, tools and projects for the V language. Unlike Go or Rust lists, it gathers the ecosystem of a still-young language in one place; since the language changes quickly, check how current entries are.",
     "src": "awesomelist"
   },
   {
@@ -385,8 +385,8 @@
       "c-ailesi",
       "referans"
     ],
-    "tr": "C ve C++ standart kütüphanesinin fiilî referansı; her özellikte hangi standartta (C++11/17/20/23) geldiği işaretli. Öğretici siteler bu sürüm ayrımını genelde atlıyor.",
-    "en": "The de facto reference for the C and C++ standard library, marking which standard (C++11/17/20/23) each feature landed in — a distinction tutorial sites usually skip.",
+    "tr": "C ve C++ standart kütüphanesinin fiilî referansı; her özelliğin hangi standartta (C++11/17/20/23) geldiği işaretli. Öğretici sitelerden farkı bu sürüm ayrımını atlamaması.",
+    "en": "The de facto reference for the C and C++ standard library, marking which standard (C++11/17/20/23) each feature arrived in. Unlike tutorial sites, it never skips that version distinction.",
     "src": "kedi",
     "added": 1787182459
   },
@@ -686,8 +686,8 @@
       "açık-kaynak",
       "veri-bilimi"
     ],
-    "tr": "Bilimsel hesaplama için yüksek başarımlı, açık kaynak dil.",
-    "en": "A high-performance, open-source language for scientific computing.",
+    "tr": "Bilimsel hesaplama için yüksek başarımlı, açık kaynak dil. Python’dan farkı JIT derlemesiyle C’ye yakın hız: prototipi Python’da yazıp hızlı kodu C’ye çevirme zorunluluğunu (“iki dil sorunu”) ortadan kaldırmayı hedefliyor.",
+    "en": "A high-performance open-source language for scientific computing. Unlike Python it JIT-compiles to near-C speed, aiming to remove the “two-language problem” of prototyping in Python and rewriting hot code in C.",
     "src": "awesomeproj"
   },
   {
@@ -946,8 +946,8 @@
       "veri-bilimi",
       "açık-kaynak"
     ],
-    "tr": "İstatistik ve veri analizi için tasarlanmış dil ve ortam.",
-    "en": "A language and environment designed for statistics and data analysis.",
+    "tr": "İstatistik ve veri analizi için tasarlanmış dil ve ortam; CRAN’da on binlerce istatistik paketi var. Python’dan farkı yeni istatistik yöntemlerinin çoğunlukla önce burada yayımlanması ve ggplot2 gibi grafik araçları.",
+    "en": "A language and environment designed for statistics and data analysis, with tens of thousands of packages on CRAN. Unlike Python, new statistical methods usually appear here first, and it has graphics tools such as ggplot2.",
     "src": "awesomeproj"
   },
   {

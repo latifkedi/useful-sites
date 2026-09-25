@@ -76,8 +76,8 @@
       "ücretsiz",
       "api"
     ],
-    "tr": "UI ve API arka ucuyla gelen, test senaryosu örnekleri içeren otomasyon pratik sitesi.",
-    "en": "An automation practice site with a UI and API backend, including test-case examples.",
+    "tr": "UI ve API arka ucuyla gelen, hazır test senaryosu listesi olan otomasyon pratik sitesi. Tek sayfalık demo sitelerden farkı kayıt, sepet ve ödeme gibi uçtan uca akışları API’siyle birlikte sunması.",
+    "en": "An automation practice site with a UI, an API backend and a ready list of test cases. Unlike single-page demo sites, it offers end-to-end flows — sign-up, cart, checkout — together with their API.",
     "src": "testsites"
   },
   {
@@ -138,8 +138,8 @@
       "github",
       "otomasyon"
     ],
-    "tr": "Yük ve performans ölçüm aracı JMeter için kaynak listesi.",
-    "en": "A resource list for JMeter, the load- and performance-testing tool.",
+    "tr": "Yük ve performans ölçüm aracı JMeter için kaynak listesi. Genel performans testi listelerinden farkı yalnız JMeter eklentilerini, entegrasyonlarını ve rehberlerini toplaması.",
+    "en": "A resource list for JMeter, the load- and performance-testing tool. Unlike general performance-testing lists, it gathers only JMeter plugins, integrations and guides.",
     "src": "awesomelist"
   },
   {
@@ -313,8 +313,8 @@
       "api",
       "ücretsiz"
     ],
-    "tr": "Ülke verisiyle etkileşim için sade bir GraphQL API’si.",
-    "en": "A simple GraphQL API to interact with country data.",
+    "tr": "Ülke, kıta ve dil verisi sunan sade, herkese açık bir GraphQL API’si; anahtar istemiyor. REST tabanlı sahte API’lerden farkı GraphQL sorgusu ve istemci testi denemeye uygun olması.",
+    "en": "A simple public GraphQL API serving country, continent and language data, with no key required. Unlike REST-based mock APIs, it suits practising GraphQL queries and client testing.",
     "src": "testsites"
   },
   {
@@ -567,8 +567,8 @@
       "javascript",
       "açık-kaynak"
     ],
-    "tr": "Microsoft'un çok tarayıcılı (Chromium, Firefox, WebKit) otomasyon ve test çatısı; tek API ile üçünü sürer.",
-    "en": "Microsoft's cross-browser (Chromium, Firefox, WebKit) automation and testing framework driving all three from one API.",
+    "tr": "Microsoft’un çok tarayıcılı (Chromium, Firefox, WebKit) otomasyon ve test çatısı; üçünü tek API ile sürer. Selenium’dan farkı otomatik beklemesi ve tarayıcıyla WebDriver yerine kendi protokolü üzerinden konuşması.",
+    "en": "Microsoft’s cross-browser (Chromium, Firefox, WebKit) automation and testing framework, driving all three from one API. Unlike Selenium, it waits automatically and talks to the browser over its own protocol rather than WebDriver.",
     "src": "testsites"
   },
   {
@@ -811,8 +811,8 @@
       "öğretici",
       "ücretsiz"
     ],
-    "tr": "Test otomasyonu üzerine ücretsiz, uzman eğitmenli çevrimiçi ders kataloğu.",
-    "en": "A free catalogue of online courses on test automation taught by expert instructors.",
+    "tr": "Applitools’un test otomasyonu üzerine ücretsiz, uzman eğitmenli ders kataloğu; Selenium, Cypress, Playwright ve API testi ayrı yollar hâlinde. Dağınık video derslerinden farkı sıralı öğrenme yolları ve bitirme sertifikaları.",
+    "en": "Applitools’ free catalogue of test-automation courses by expert instructors, with separate paths for Selenium, Cypress, Playwright and API testing. Unlike scattered video tutorials, it offers ordered learning paths and completion certificates.",
     "src": "testsites"
   },
   {

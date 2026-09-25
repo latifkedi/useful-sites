@@ -18,14 +18,14 @@
   <link href="https://github.com/umutphp/awesome-cli"/>
   <id>https://github.com/umutphp/awesome-cli</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list gathering useful, small command-line tools.</summary>
+  <summary>A list gathering useful, small command-line tools. Unlike broad lists such as awesome-shell, it focuses on small single-purpose tools you can install and use right away.</summary>
 </entry>
 <entry>
   <title>Awesome Git Addons</title>
   <link href="https://github.com/stevemao/awesome-git-addons"/>
   <id>https://github.com/stevemao/awesome-git-addons</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of add-on commands and tools that enhance the git CLI.</summary>
+  <summary>A list of add-on commands and tools that enhance the git CLI. Unlike git clients, it collects not GUIs but tools that add new subcommands to `git`.</summary>
 </entry>
 <entry>
   <title>Awesome Hyper</title>
@@ -39,14 +39,14 @@
   <link href="https://github.com/rockerBOO/awesome-neovim"/>
   <id>https://github.com/rockerBOO/awesome-neovim</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of plugins and configurations for the Neovim editor.</summary>
+  <summary>A list of plugins and configurations for the Neovim editor. Unlike Vim plugin lists, it gathers plugins written in Lua that rely on Neovim-only features such as Tree-sitter and LSP.</summary>
 </entry>
 <entry>
   <title>Awesome VS Code</title>
   <link href="https://github.com/viatsko/awesome-vscode"/>
   <id>https://github.com/viatsko/awesome-vscode</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of extensions and resources for Visual Studio Code.</summary>
+  <summary>A list of extensions and resources for Visual Studio Code. Unlike the Marketplace itself it is curated: instead of thousands of extensions, it groups proven ones by language and task.</summary>
 </entry>
 <entry>
   <title>Cmder</title>
@@ -88,7 +88,7 @@
   <link href="https://neovim.io/"/>
   <id>https://neovim.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A refactored Vim, modernised with plugin and Lua support.</summary>
+  <summary>A refactored Vim where configuration and plugins are written in Lua and language-server (LSP) support is built in. Unlike classic Vim, it has that Lua ecosystem and an asynchronous plugin architecture.</summary>
 </entry>
 <entry>
   <title>ranwhen</title>
@@ -109,7 +109,7 @@
   <link href="https://code.visualstudio.com/"/>
   <id>https://code.visualstudio.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The most widely used code editor, lightweight yet powerful, with a plugin ecosystem.</summary>
+  <summary>The most widely used code editor: it starts light but approaches an IDE through language servers and debuggers. Unlike full IDEs such as JetBrains, every language comes as an extension — a small base with capability added on.</summary>
 </entry>
 <entry>
   <title>Eclipse Theia</title>

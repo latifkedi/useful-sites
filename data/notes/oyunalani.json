@@ -18,8 +18,8 @@
       "tarayıcı-içi",
       "frontend"
     ],
-    "tr": "HTML, CSS ve JavaScript’i tarayıcıda deneyip paylaştığın oyun alanı. Asıl değeri keşif tarafı: başkalarının CSS numaralarını sökerek öğreniyorsun.",
-    "en": "A browser playground for HTML, CSS and JavaScript. The real value is discovery — you learn by taking apart other people’s CSS tricks.",
+    "tr": "HTML, CSS ve JavaScript’i tarayıcıda deneyip paylaştığın oyun alanı. JSFiddle’dan farkı keşif tarafı: başkalarının CSS numaralarını sökerek öğreniyorsun.",
+    "en": "A browser playground for HTML, CSS and JavaScript. Unlike JSFiddle its real value is discovery — you learn by taking apart other people’s CSS tricks.",
     "src": "bwapsv"
   },
   {
@@ -144,8 +144,8 @@
       "tarayıcı-içi",
       "ücretsiz"
     ],
-    "tr": "Birçok dili destekleyen, kurulum istemeyen çevrimiçi IDE.",
-    "en": "An online IDE supporting many languages, with no install.",
+    "tr": "Birçok dili destekleyen, kurulum istemeyen çevrimiçi IDE. Replit’ten farkı hesap açmadan tek dosyalık kodu çalıştırıp bağlantıyla paylaşabilmen; karşılığında çok dosyalı proje desteği sınırlı.",
+    "en": "An online IDE supporting many languages, with no install. Unlike Replit you can run and share single-file code by link without an account; the trade-off is limited multi-file project support.",
     "src": "awesomeproj"
   },
   {
@@ -202,8 +202,8 @@
       "tarayıcı-içi",
       "freemium"
     ],
-    "tr": "Onlarca dili tarayıcıda yazıp çalıştıran, iş birliğine açık bulut IDE’si.",
-    "en": "A collaborative cloud IDE that writes and runs dozens of languages in the browser.",
+    "tr": "Onlarca dili tarayıcıda yazıp çalıştıran, iş birliğine açık bulut IDE’si; projeyi tek tıkla yayına alabiliyor. JSFiddle gibi parça alanlarından farkı dosya sistemi, paket kurulumu ve barındırmayla bütün bir projeyi çalıştırması.",
+    "en": "A collaborative cloud IDE that writes and runs dozens of languages in the browser and can deploy a project in one click. Unlike snippet playgrounds such as JSFiddle, it runs whole projects with a filesystem, package installs and hosting.",
     "src": "awesomeproj",
     "added": 1787000000
   },

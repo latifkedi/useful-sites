@@ -79,8 +79,8 @@
       "frontend",
       "öğretici"
     ],
-    "tr": "CSS dilini ve modüllerini öğrenmeye odaklı kaynak listesi.",
-    "en": "A resource list focused on learning the CSS language and its modules.",
+    "tr": "CSS dilini ve modüllerini (Flexbox, Grid, seçiciler) öğrenmeye odaklı kaynak listesi. Genel CSS listelerinden farkı çatı ve araç değil, dilin kendisini öğreten kaynakları seçmesi.",
+    "en": "A resource list focused on learning the CSS language and its modules — Flexbox, Grid, selectors. Unlike general CSS lists, it picks resources that teach the language itself, not frameworks or tools.",
     "src": "awesomelist"
   },
   {
@@ -115,8 +115,8 @@
       "github",
       "frontend"
     ],
-    "tr": "HTML5 API’leri, araçları ve kaynaklarının listesi.",
-    "en": "A list of HTML5 APIs, tools and resources.",
+    "tr": "HTML5 API’leri (Canvas, WebSocket, depolama), araçları ve kaynaklarının listesi. Genel web listelerinden farkı yalnız HTML5 standardıyla gelen tarayıcı API’lerine odaklanması.",
+    "en": "A list of HTML5 APIs — Canvas, WebSocket, storage — plus tools and resources. Unlike general web lists, it focuses only on the browser APIs that came with the HTML5 standard.",
     "src": "awesomelist"
   },
   {
@@ -128,8 +128,8 @@
       "frontend",
       "masaüstü"
     ],
-    "tr": "İyi bir mobil web deneyimi kurmak için kaynak listesi.",
-    "en": "A resource list for building a great mobile web experience.",
+    "tr": "İyi bir mobil web deneyimi kurmak için kaynak listesi: dokunmatik olaylar, performans, çevrimdışı çalışma. Yerel uygulama listelerinden farkı tarayıcıda çalışan mobil siteleri hedeflemesi.",
+    "en": "A resource list for building a good mobile web experience — touch events, performance, offline. Unlike native-app lists, it targets mobile sites running in the browser.",
     "src": "awesomelist"
   },
   {
@@ -189,8 +189,8 @@
       "github",
       "javascript"
     ],
-    "tr": "React’in hafif alternatifi Preact için kaynak listesi.",
-    "en": "A resource list for Preact, the lightweight React alternative.",
+    "tr": "React’in 3 KB’lık hafif alternatifi Preact için bileşen, araç ve örnek listesi. React listelerinden farkı yalnız Preact ile uyumlu ve küçük boyutu koruyan kütüphaneleri toplaması.",
+    "en": "A list of components, tools and examples for Preact, the 3 KB lightweight React alternative. Unlike React lists, it collects only libraries that work with Preact and keep its small size.",
     "src": "awesomelist"
   },
   {
@@ -213,8 +213,8 @@
       "github",
       "javascript"
     ],
-    "tr": "React Hooks için kütüphane ve örneklerin listesi.",
-    "en": "A list of libraries and examples for React Hooks.",
+    "tr": "React Hooks için kütüphane, örnek ve yazı listesi. Genel React listelerinden farkı sınıf bileşenlerini değil, yalnız hook tabanlı kalıpları ve özel hook paketlerini toplaması.",
+    "en": "A list of libraries, examples and articles for React Hooks. Unlike general React lists, it gathers only hook-based patterns and custom-hook packages, not class components.",
     "src": "awesomelist"
   },
   {
@@ -249,8 +249,8 @@
       "github",
       "frontend"
     ],
-    "tr": "Tailwind CSS için eklenti, bileşen ve araç listesi.",
-    "en": "A list of plugins, components and tools for Tailwind CSS.",
+    "tr": "Tailwind CSS için eklenti, bileşen, şablon ve araç listesi. Tailwind’in resmî belgelerinden farkı topluluğun yaptığı hazır bileşen kitlerini ve yardımcı araçları toplaması.",
+    "en": "A list of plugins, components, templates and tools for Tailwind CSS. Unlike the official docs, it collects community-made component kits and helper tools.",
     "src": "awesomelist"
   },
   {
@@ -347,8 +347,8 @@
       "frontend",
       "ücretsiz"
     ],
-    "tr": "Bootstrap düzenini görsel olarak kurup kodunu üreten araç.",
-    "en": "Builds a Bootstrap layout visually and generates its code.",
+    "tr": "Bootstrap düzenini sürükle-bırak ile görsel olarak kurup kodunu üreten araç. Kodu elle yazmaktan farkı ızgarayı ekranda görerek kurabilmen; karşılığında sonraki özelleştirme yine elle yapılıyor.",
+    "en": "Builds a Bootstrap layout visually by drag and drop and generates its code. Unlike writing it by hand, you see the grid while you build it; the trade-off is that later customisation is still manual.",
     "src": "awesomeproj"
   },
   {
@@ -443,8 +443,8 @@
       "referans",
       "ücretsiz"
     ],
-    "tr": "İlham verici renk paletleri deposu.",
-    "en": "A repository of inspiring colour palettes.",
+    "tr": "Elle seçilmiş renk paletleri deposu; her palet (bilerek abartılı) bir tanımla geliyor. Coolors gibi üreteçlerden farkı rastgele üretim değil küratörlü bir koleksiyon olması.",
+    "en": "A repository of hand-picked colour palettes, each with a (deliberately over-) descriptive blurb. Unlike generators such as Coolors, it is a curated collection rather than random generation.",
     "src": "awesomeproj"
   },
   {
@@ -514,8 +514,8 @@
       "tarayıcı-içi",
       "ücretsiz"
     ],
-    "tr": "CSS kodunu boşlukları atarak küçülten (minify) araç.",
-    "en": "Minifies CSS by stripping whitespace to shrink it.",
+    "tr": "CSS kodunu boşluk ve yorumları atarak küçülten (minify) basit bir araç; API’si de var. cssnano ya da esbuild gibi derleme hattı araçlarından farkı kurulum istemeden tek seferlik iş görmesi.",
+    "en": "A simple tool that minifies CSS by stripping whitespace and comments, with an API too. Unlike build-pipeline tools such as cssnano or esbuild, it handles a one-off job with nothing to install.",
     "src": "awesomeproj"
   },
   {
@@ -564,8 +564,8 @@
       "referans",
       "ücretsiz"
     ],
-    "tr": "Kolay kullanılan HTML, CSS ve JavaScript kod örnekleri.",
-    "en": "Easy-to-use HTML, CSS and JavaScript code examples.",
+    "tr": "Kopyalanıp kullanılabilecek HTML, CSS ve JavaScript kod örnekleri. Dokümantasyondan farkı açıklama yerine doğrudan çalışan küçük parçalar vermesi.",
+    "en": "Ready-to-copy HTML, CSS and JavaScript code examples. Unlike documentation, it gives small working snippets rather than explanations.",
     "src": "awesomeproj"
   },
   {
@@ -612,8 +612,8 @@
       "frontend",
       "ücretsiz"
     ],
-    "tr": "Organik şekiller için CSS border-radius üreten görsel araç.",
-    "en": "A visual tool that generates CSS border-radius for organic shapes.",
+    "tr": "Organik şekiller için CSS border-radius üreten görsel araç. Elle yazmaktan farkı, sekiz değerli (eğik çizgili) sözdizimini tutamaçları sürükleyerek ayarlaman.",
+    "en": "A visual tool that generates CSS border-radius for organic shapes. Unlike writing it by hand, you tune the eight-value (slash) syntax by dragging handles.",
     "src": "awesomeproj"
   },
   {
@@ -853,8 +853,8 @@
       "frontend",
       "ücretsiz"
     ],
-    "tr": "Bir görselden renk kodu ve palet çıkaran araç.",
-    "en": "Extracts colour codes and a palette from an image.",
+    "tr": "Yüklediğin görselin üzerine tıklayarak HEX/RGB kodu alıyor ve görselden bir palet çıkarıyor. Tarayıcının damlalık aracından farkı sayfa yerine kendi görselin üzerinde çalışması.",
+    "en": "Click on an uploaded image to get HEX/RGB codes, and extract a palette from it. Unlike the browser’s eyedropper, it works on your own image rather than the page.",
     "src": "awesomeproj"
   },
   {
@@ -865,8 +865,8 @@
       "referans",
       "ücretsiz"
     ],
-    "tr": "Arayüz tasarımı için gerçek ürünlerden ilham galerisi.",
-    "en": "An inspiration gallery of interface designs from real products.",
+    "tr": "Arayüz tasarımı için ilham galerisi. Dribbble gibi sitelerden farkı konsept çalışmalar yerine gerçek ürünlerden alınmış ekranları göstermesi.",
+    "en": "An inspiration gallery for interface design. Unlike sites such as Dribbble, it shows screens from real shipped products rather than concept shots.",
     "src": "awesomeproj"
   },
   {
@@ -973,8 +973,8 @@
       "referans",
       "dokümantasyon"
     ],
-    "tr": "Web platformunun fiilî referansı. Her sayfada tarayıcı uyumluluk tablosu var — bir özelliği kullanmadan önce Safari’de çalışıp çalışmadığını burada görürsün.",
-    "en": "The de facto reference for the web platform. Every page carries a browser compatibility table, which is where you check whether a feature works in Safari before shipping it.",
+    "tr": "Web platformunun fiilî referansı. W3Schools gibi özet sitelerden farkı her sayfadaki tarayıcı uyumluluk tablosu — bir özelliği kullanmadan önce Safari’de çalışıp çalışmadığını burada görürsün.",
+    "en": "The de facto reference for the web platform. Unlike summary sites such as W3Schools, every page carries a browser-compatibility table — where you check whether a feature works in Safari before shipping it.",
     "src": "kedi",
     "added": 1776685690
   },
@@ -986,8 +986,8 @@
       "açık-kaynak",
       "ücretsiz"
     ],
-    "tr": "8-bit NES estetiğinde retro görünümlü CSS çerçevesi.",
-    "en": "A CSS framework with a retro 8-bit NES look.",
+    "tr": "8-bit NES estetiğinde retro görünümlü CSS çerçevesi. Bootstrap gibi çatılardan farkı işlev değil üslup sunması: yalnız CSS, JavaScript gerektirmiyor.",
+    "en": "A CSS framework with a retro 8-bit NES look. Unlike frameworks such as Bootstrap it supplies style, not behaviour: it is CSS only and needs no JavaScript.",
     "src": "awesomeproj"
   },
   {
@@ -1208,8 +1208,8 @@
       "javascript",
       "öğretici"
     ],
-    "tr": "Dili temelden ileriye sıralı işliyor; prototip zinciri, olay döngüsü ve Promise gibi zor konuları atlamıyor. MDN referanstır, bu öğreticidir — ikisi birbirini tamamlar.",
-    "en": "Works the language front to back without skipping the hard parts: prototype chain, event loop, promises. MDN is the reference and this is the tutorial; they complement each other.",
+    "tr": "Dili temelden ileriye sıralı işliyor; prototip zinciri, olay döngüsü ve Promise gibi zor konuları atlamıyor. MDN’den farkı referans değil öğretici olması; ikisi birbirini tamamlar.",
+    "en": "Works the language front to back without skipping the hard parts: prototype chain, event loop, promises. Unlike MDN it is a tutorial, not a reference; the two complement each other.",
     "src": "kedi",
     "added": 1776690043
   },
@@ -1256,8 +1256,8 @@
       "referans",
       "ücretsiz"
     ],
-    "tr": "CSS’i resmî W3C kurallarına göre doğrulayan araç.",
-    "en": "Validates CSS against the official W3C rules.",
+    "tr": "CSS’i resmî W3C kurallarına göre doğrulayan araç; URL, dosya ya da doğrudan metin kabul ediyor. Stylelint gibi linter’lardan farkı üslubu değil yalnız standarda uygunluğu denetlemesi.",
+    "en": "Validates CSS against the official W3C rules, accepting a URL, a file or pasted text. Unlike linters such as Stylelint, it checks conformance to the standard, not style.",
     "src": "awesomeproj"
   },
   {
