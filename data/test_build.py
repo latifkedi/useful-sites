@@ -31,7 +31,7 @@ from notes import CATS, GROUPS, load_records  # noqa: E402
 from intros import INTROS               # noqa: E402
 from picks import PICKS                 # noqa: E402
 from sources import SOURCES             # noqa: E402
-from tags import CANON, LABELS          # noqa: E402
+from tags import CANON, LABELS, FACETS  # noqa: E402
 from emit import SITE as EMIT_SITE      # noqa: E402
 
 MIN_RECORDS = 1850
@@ -73,6 +73,11 @@ def main():
     disi = sorted({t for d in rows for t in d['tags']} - set(CANON))
     check(not disi, 'no tag outside the canonical set'
           + (' -- stray: %s' % disi[:5] if disi else ''))
+
+    yuzey = [t for f in FACETS for t in f[3]]
+    check(sorted(yuzey) == sorted(CANON),
+          'every canonical tag sits in exactly one filter facet'
+          + (' -- off: %s' % sorted(set(yuzey) ^ set(CANON)) if set(yuzey) != set(CANON) else ''))
 
     gorunmez = sorted({t for d in rows for t in d['tags']} - set(LABELS))
     check(not gorunmez, 'every tag has a display label'

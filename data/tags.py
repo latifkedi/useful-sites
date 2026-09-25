@@ -267,3 +267,24 @@ for _en, _tr in {
     'cheatsheet': 'kopya-kâğıdı', 'cheat-sheet': 'kopya-kâğıdı',
 }.items():
     ALIAS.setdefault(_en, _tr)
+
+
+# Filter facets. The tag bar was one flat row of 63 chips mixing price,
+# content type, platform and topic, so "ücretsiz" (on 45% of records) sat next
+# to "kuantum" as if they answered the same question. Each canonical tag lives
+# in exactly one facet; whatever the first three do not claim is a topic.
+# key, Turkish label, English label, tags.
+_FACET_HEADS = [
+    ('fiyat', 'Fiyat & Lisans', 'Price & Licence',
+     ['ücretsiz', 'freemium', 'ücretli', 'açık-kaynak', 'açık-ağırlık', 'self-hosted']),
+    ('tur', 'Tür', 'Type',
+     ['referans', 'öğretici', 'müfredat', 'kitap', 'video', 'kopya-kâğıdı', 'dokümantasyon',
+      'awesome-liste', 'interaktif', 'akademik', 'sertifika', 'mülakat', 'türkçe', 'arşivlenmiş']),
+    ('arayuz', 'Arayüz & Dil', 'Interface & Language',
+     ['tarayıcı-içi', 'masaüstü', 'cli', 'api', 'sdk', 'eklenti', 'github', 'docker',
+      'python', 'javascript', 'c-ailesi', 'rust', 'go', 'php']),
+]
+_claimed = {t for _, _, _, ts in _FACET_HEADS for t in ts}
+FACETS = _FACET_HEADS + [
+    ('konu', 'Konu', 'Topic', [t for t in CANON if t not in _claimed]),
+]

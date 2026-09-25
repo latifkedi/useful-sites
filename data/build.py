@@ -25,7 +25,7 @@ import collections
 D = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, D)
 from notes import load_records, key, CATS, GROUPS  # noqa: E402
-from tags import normalise, LABELS    # noqa: E402
+from tags import normalise, LABELS, FACETS  # noqa: E402
 from picks import PICKS               # noqa: E402
 from sources import SOURCES           # noqa: E402
 from intros import INTROS             # noqa: E402
@@ -179,6 +179,7 @@ io.open(os.path.join(D, '..', 'links.js'), 'w', encoding='utf-8', newline='\n').
     '/* Otomatik uretildi - data/build.py */\n'
     'window.SOURCES=' + json.dumps(SOURCES, **J) + ';\n'
     'window.TAGLABELS=' + json.dumps(LABELS, **J) + ';\n'
+    'window.TAGFACETS=' + json.dumps([[k, tr, en_, ts] for k, tr, en_, ts in FACETS], **J) + ';\n'
     'window.CATS=' + json.dumps([list(c) for c in CATS], **J) + ';\n'
     'window.GROUPS=' + json.dumps(groups, **J) + ';\n'
     'window.INTROS=' + json.dumps(INTROS, **J) + ';\n'

@@ -67,7 +67,10 @@ var T = {
       "ve benzerlerinden nerede ayrıldığı." },
     hStart:"Buradan Başla", hCats:"Başlıklar", hAll:"Tümünü tek listede gör →",
     tagMore:function(n){ return "+ " + n + " Etiket Daha" }, tagLess:"− Etiketleri Kısalt",
+    tagFilter:function(n){ return "Etiketle süz · " + n + " etiket" },
     srcMore:function(n){ return "+ " + n + " Kaynak Daha" }, srcLess:"− Kaynakları Kısalt",
+    srcShow:function(n){ return "Ekleyene göre süz · " + n + " kaynak" },
+    listsHead:"Listeler & Koleksiyonlar",
     backCat:"← Bu başlıktaki diğer kayıtlar", permaTip:"Bu kayda bağlantı", perma:"bağlantı",
     recent:"Son Eklenenler", recentLead:function(n){ return "Dizine en son giren "+n+" kayıt, aya göre." },
     dead:"Ölü", deadTip:"Son taramada yanıt vermedi — arşivden bak",
@@ -150,7 +153,10 @@ var T = {
       "things: what it does and where it parts ways with its neighbours." },
     hStart:"Start Here", hCats:"Headings", hAll:"See everything in one list →",
     tagMore:function(n){ return "+ " + n + " More Tags" }, tagLess:"− Fewer Tags",
+    tagFilter:function(n){ return "Filter by tag · " + n + " tags" },
     srcMore:function(n){ return "+ " + n + " More Sources" }, srcLess:"− Fewer Sources",
+    srcShow:function(n){ return "Filter by source · " + n + " sources" },
+    listsHead:"Lists & Collections",
     backCat:"← Other entries under this heading", permaTip:"Link to this entry", perma:"link",
     recent:"Recently Added", recentLead:function(n){ return "The "+n+" newest entries, by month." },
     dead:"Dead", deadTip:"No response in the last scan — try the archive",
@@ -446,7 +452,7 @@ function itemHTML(d, showYear){
          esc(T[lang].repo[d.hs])+'</span>';
   }
   var meta = ['<span class="host">'+esc(d._h)+'</span>',
-              '<span class="badge'+(d.src!=="kedi"?' ext':'')+'" title="'+esc(srcNote(d))+'">'+
+              '<span class="badge src'+(d.src!=="kedi"?' ext':'')+'" title="'+esc(srcNote(d))+'">'+
                 esc(srcLabel(d))+'</span>'];
   if(rt) meta.push(rt);
   if(showYear) meta.push('<span class="age">'+whenOf(d)+'</span>');
@@ -498,54 +504,66 @@ function firstSentence(t){
   return m ? m[1] : (t || "").slice(0, 120);
 }
 
-/* Acilista 63 etiket dugmesi birden goruntuyu doldurup asil icerigi asagi
-   itiyordu. Ilk on bes gorunur, kalani katli; secili bir etiket kesimin
-   disinda kalsa bile her zaman gosteriliyor, yoksa aktif suzgec kayboluyor. */
-var TAG_HEAD = 15;
+/* Etiket cubugu fasetli: fiyat ve lisans, tur, arayuz ve dil, konu. Tek duz
+   satirda "ucretsiz" (kayitlarin %45'i) "kuantum"un yaninda ayni soruya
+   cevapmis gibi duruyordu. Her fasette en cok kullanilan birkaci gorunur;
+   secili bir etiket kesimin disinda kalsa bile her zaman gosteriliyor. */
+var FACETS = window.TAGFACETS || [];
+var FACET_HEAD = 4;
 var tagsOpen = false;
-var SRC_HEAD = 7;
 var srcOpen = false;
 
-/* The source ("added by") bar grew from 6 to 16 chips as the directory took in
-   external lists. At that size it pushed content down, so it collapses to the
-   biggest few with a "+N more", mirroring the tag bar. */
+function tagChip(t){
+  return '<button class="tag" type="button" data-tag="'+esc(t)+'" aria-pressed="'+
+         (activeTags.indexOf(t)>=0)+'"><b>'+esc(tagLabel(t))+'</b> '+TAGCOUNT[t]+'</button>';
+}
+
+/* "Ekleyen" cubugu (18 kaynak) okurdan cok bakimciya hitap ediyor. Kapaliyken
+   tek bir dugme; secili kaynak varsa o da gorunuyor. */
 function srcbarHTML(L){
   var keys = Object.keys(SRCMAP).filter(function(k){ return SRCCOUNT[k] });
   keys.sort(function(a, b){ return SRCCOUNT[b] - SRCCOUNT[a] });
-  var goster = keys.slice(0, SRC_HEAD);
-  if(activeSrc && goster.indexOf(activeSrc) < 0 && keys.indexOf(activeSrc) >= 0)
-    goster.push(activeSrc);
-  var liste = srcOpen ? keys : goster;
-  var gizli = keys.length - liste.length;
-  return '<span class="lbl">'+esc(L.by)+'</span>' +
-    liste.map(function(k){
-      var sm = SRCMAP[k];
-      return '<button class="tag" type="button" data-src="'+esc(k)+'" aria-pressed="'+
-             (activeSrc===k)+'" title="'+esc(sm[lang==="tr"?"note_tr":"note_en"])+'"><b>'+
-             esc(sm[lang==="tr"?"label_tr":"label_en"])+'</b> '+SRCCOUNT[k]+'</button>';
-    }).join("") +
-    (gizli > 0 || srcOpen
-      ? '<button class="tag more" type="button" id="srcmore" aria-expanded="'+srcOpen+'">'+
-        (srcOpen ? esc(L.srcLess) : esc(L.srcMore(gizli)))+'</button>'
-      : "");
+  function chip(k){
+    var sm = SRCMAP[k];
+    return '<button class="tag" type="button" data-src="'+esc(k)+'" aria-pressed="'+
+           (activeSrc===k)+'" title="'+esc(sm[lang==="tr"?"note_tr":"note_en"])+'"><b>'+
+           esc(sm[lang==="tr"?"label_tr":"label_en"])+'</b> '+SRCCOUNT[k]+'</button>';
+  }
+  if(!srcOpen){
+    return '<button class="tag more" type="button" id="srcmore" aria-expanded="false">'+
+           esc(L.srcShow(keys.length))+'</button>' + (activeSrc && SRCMAP[activeSrc] ? chip(activeSrc) : "");
+  }
+  return '<span class="lbl">'+esc(L.by)+'</span>' + keys.map(chip).join("") +
+    '<button class="tag more" type="button" id="srcmore" aria-expanded="true">'+esc(L.srcLess)+'</button>';
 }
 
-function tagbarHTML(L){
-  var goster = ALLTAGS.slice(0, TAG_HEAD);
-  activeTags.forEach(function(t){
-    if(goster.indexOf(t) < 0 && ALLTAGS.indexOf(t) >= 0) goster.push(t);
-  });
-  var liste = tagsOpen ? ALLTAGS : goster;
-  var gizli = ALLTAGS.length - liste.length;
+/* Dar ekranda fasetler bile dort-bes satir tutuyor ve ilk kaydi ekranin
+   altina itiyordu (375 pikselde 1185. piksel). Orada etiketler, secili bir
+   etiket yoksa, tek bir dugmeye katli basliyor. */
+var NARROW = window.matchMedia ? window.matchMedia("(max-width:720px)") : { matches: false };
 
-  return liste.map(function(t){
-    return '<button class="tag" type="button" data-tag="'+esc(t)+'" aria-pressed="'+
-           (activeTags.indexOf(t)>=0)+'"><b>'+esc(tagLabel(t))+'</b> '+TAGCOUNT[t]+'</button>';
-  }).join("") +
-  (gizli > 0 || tagsOpen
-    ? '<button class="tag more" type="button" id="tagmore" aria-expanded="'+tagsOpen+'">'+
-      (tagsOpen ? esc(L.tagLess) : esc(L.tagMore(gizli)))+'</button>'
-    : "");
+function tagbarHTML(L){
+  if(NARROW.matches && !tagsOpen && !activeTags.length){
+    return '<button class="tag more" type="button" id="tagmore" aria-expanded="false">'+
+           esc(L.tagFilter(ALLTAGS.length))+'</button>';
+  }
+  var gizli = 0;
+  var rows = FACETS.map(function(f){
+    var tags = f[3].filter(function(t){ return TAGCOUNT[t] }).sort(function(a, b){
+      return TAGCOUNT[b] - TAGCOUNT[a] || a.localeCompare(b, "tr");
+    });
+    var show = tagsOpen ? tags : tags.slice(0, FACET_HEAD);
+    activeTags.forEach(function(t){ if(tags.indexOf(t) >= 0 && show.indexOf(t) < 0) show = show.concat([t]) });
+    gizli += tags.length - show.length;
+    if(!show.length) return "";
+    return '<span class="facet"><span class="flbl">'+esc(f[lang === "tr" ? 1 : 2])+'</span>'+
+           show.map(tagChip).join("")+'</span>';
+  }).join("");
+  return rows +
+    (gizli > 0 || tagsOpen
+      ? '<button class="tag more" type="button" id="tagmore" aria-expanded="'+tagsOpen+'">'+
+        (tagsOpen ? esc(L.tagLess) : esc(L.tagMore(gizli)))+'</button>'
+      : "");
 }
 
 /* Son eklenenler. Ayri bir gorunum olmasinin sebebi arastirma: bir dizine
@@ -620,7 +638,7 @@ function homeHTML(L){
     if(!n) return "";
     var subs = g.cats.filter(function(k){ return BYCAT[k] && BYCAT[k].length })
                      .map(function(k){ return catName(k) }).join(" · ");
-    return '<a class="fcard" href="?f='+esc(g.key)+'" data-field="'+esc(g.key)+'">'+
+    return '<a class="fcard" '+fieldLink(g)+'>'+
              '<span class="ft">'+esc(g[lang])+'<span class="n">'+n+'</span></span>'+
              '<p class="fd">'+esc((L.fields||{})[g.key] || "")+'</p>'+
              '<span class="fs">'+esc(subs)+'</span>'+
@@ -644,6 +662,15 @@ function homeHTML(L){
       '<a href="?sort=az" data-all="1">'+esc(L.hAll)+'</a>'+
     '</p>'+
   '</div>';
+}
+
+/* Tek bir dolu kategorisi olan bir alan icin ara sayfa, tek karti olan bir
+   ekran ve ikinci bir tik demek; o alan dogrudan kategorisine acilir. */
+function fieldLink(g){
+  var dolu = g.cats.filter(function(k){ return BYCAT[k] && BYCAT[k].length });
+  return dolu.length === 1
+    ? 'href="?cat='+esc(dolu[0])+'" data-cat="'+esc(dolu[0])+'"'
+    : 'href="?f='+esc(g.key)+'" data-field="'+esc(g.key)+'"';
 }
 
 /* Alan sayfasi: bir amblem-baslik serlevhasi, ardindan o alanin alt kategori
@@ -677,40 +704,51 @@ function block(key, label, items, L, showYear, cat){
          '</div>'+pagerHTML(key, page, total, L)+'</section>';
 }
 
-function render(){
-  var L = T[lang];
+function paintChrome(L){
   document.documentElement.lang = lang;
   document.title            = L.title;
   $("#t-title").textContent = L.title;
   $("#t-sub").textContent   = L.sub;
   $("#q").placeholder       = L.ph;
-  if($("#q").value !== q) $("#q").value = q;
   $("#rand").textContent    = L.rand;
   $("#q").setAttribute("aria-label", L.qLabel);
   $("#theme").setAttribute("aria-label", L.themeLabel); $("#theme").title = L.themeLabel;
   $("#top").setAttribute("aria-label", L.topLabel); $("#top").title = L.topLabel;
   $("#skip").textContent    = L.skip;
-  /* Geri: bir kategorideysen alanina, bir alandaysan tum alanlara. */
-  $("#back").textContent    = (activeCat && FIELDBYKEY[activeField])
-                                ? "← " + FIELDBYKEY[activeField][lang]
-                                : (activeField ? L.backFields : L.back);
   $("#foot").innerHTML      = L.foot + "<br>" + L.kb;
-  $("#back").classList.toggle("show", !!(activeCat || activeField || single || recent));
-
   $("#sort").innerHTML = Object.keys(L.sorts).map(function(k){
-    return '<option value="'+k+'"'+(k===sortBy?' selected':'')+'>'+esc(L.sorts[k])+'</option>';
+    return '<option value="'+k+'">'+esc(L.sorts[k])+'</option>';
   }).join("");
-
   $("#l-dl").textContent = L.exportLbl;
   $("#dl").innerHTML = '<option value="">'+esc(L.exportLbl)+'</option>'+
     '<option value="json">JSON</option><option value="csv">CSV</option>';
   $("#dl").value = "";
-
   paintSub();
-
   $("#l-lang").textContent = lang.toUpperCase();
   $("#lang").innerHTML = '<option value="tr"'+(lang==="tr"?' selected':'')+'>TR</option>'+
                          '<option value="en"'+(lang==="en"?' selected':'')+'>EN</option>';
+}
+
+/* Dile bagli sabit metinler ve secim kutulari yalnizca dil degisince kuruluyor;
+   ilk surumde her tus vurusunda gonderim formu dahil hepsi yeniden yaziliyordu. */
+var chromeLang = null;
+
+function render(){
+  var L = T[lang];
+  if(chromeLang !== lang){ paintChrome(L); chromeLang = lang; }
+  $("#sort").value = sortBy;
+  if($("#q").value !== q) $("#q").value = q;
+  /* Geri: bir kategorideysen alanina, bir alandaysan tum alanlara. */
+  $("#back").textContent    = (activeCat && FIELDBYKEY[activeField])
+                                ? "← " + FIELDBYKEY[activeField][lang]
+                                : (activeField ? L.backFields : L.back);
+  $("#back").classList.toggle("show", !!(activeCat || activeField || single || recent));
+
+  /* Sakin gorunum: giris ve alan sayfalari yalnizca gezinmedir; etiket ve
+     kaynak cubuklari ile ray orada kalabalik ediyordu. Aramaya, bir suzgece ya
+     da bir kategoriye girilince geri geliyorlar. */
+  var browsing = !q && !activeTags.length && !onlyPicks && !activeSrc && sortBy === "cat";
+  document.body.classList.toggle("calm", !!(single || recent || (browsing && !activeCat)));
 
   var shown = data.filter(keep);
   $("#count").textContent = L.count(shown.length, data.length);
@@ -741,7 +779,7 @@ function render(){
   } else {
     navHTML = GROUPS.map(function(gg){
       var n = gg.cats.reduce(function(s, k){ return s + (counts[k] || 0) }, 0);
-      return '<li><a href="?f='+esc(gg.key)+'" data-field="'+esc(gg.key)+'" class="'+
+      return '<li><a '+fieldLink(gg)+' class="'+
              (n ? "" : "empty")+'">'+esc(gg[lang])+
              '<span class="n">'+n+'</span></a></li>';
     }).join("");
@@ -776,7 +814,7 @@ function render(){
 
   /* Gezinme gorunumleri: hicbir suzgec yokken kayit degil once alanlar,
      bir alana girildiyse o alanin alt kategorileri gosterilir. */
-  var browsing = !q && !activeTags.length && !onlyPicks && !activeSrc && !single && sortBy === "cat";
+  browsing = browsing && !single;
   if(browsing && !activeCat && !activeField){ $("#list").innerHTML = homeHTML(L); return; }
   if(browsing && !activeCat && activeField){ $("#list").innerHTML = fieldHTML(activeField, L); return; }
 
@@ -785,7 +823,18 @@ function render(){
     return;
   }
 
-  if(sortBy === "cat" && !q){
+  if(sortBy === "cat" && !q && activeCat){
+    /* Awesome listeleri kayitlarin %15'i ve bir kategoride birincil kaynaklarin
+       arasina karisiyordu. Once kaynaklar, sonra ayri bolumde listeler. */
+    var mine = shown.filter(function(d){ return d.cat === activeCat });
+    var liste = function(d){ return (d.tags || []).indexOf("awesome-liste") >= 0 };
+    var bir = mine.filter(function(d){ return !liste(d) }), lst = mine.filter(liste);
+    var ad = CATS.filter(function(c){ return c.key === activeCat })[0][lang];
+    $("#list").innerHTML =
+      (bir.length ? block(activeCat, ad, bir, L, false, activeCat) : "") +
+      (lst.length ? block(activeCat + "_l", bir.length ? L.listsHead : ad, lst, L, false,
+                          bir.length ? null : activeCat) : "");
+  } else if(sortBy === "cat" && !q){
     $("#list").innerHTML = CATS.map(function(c){
       var items = shown.filter(function(d){ return d.cat === c.key });
       return items.length ? block(c.key, c[lang], items, L, false, c.key) : "";

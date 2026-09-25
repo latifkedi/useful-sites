@@ -170,8 +170,12 @@ h1{font:600 31px/1.2 var(--serif);margin:0;letter-spacing:-.014em}
    fills them in. */
 #nav:empty, #list:empty{min-height:60vh}
 #t-sub:empty{min-height:56px}
-#tagbar:empty{min-height:130px}
-#srcbar:empty{min-height:34px}
+/* Sakin gorunum (giris ve alan sayfalari): yalnizca gezinme. Etiket ve kaynak
+   cubuklari, siralama ve ray gizli; <body class="calm"> ile basliyor ki onceden
+   cizilmis giris ilk boyamada da ayni duzende dursun, sonradan kaymasin. */
+body.calm .tags, body.calm .srcbar, body.calm #sort{display:none}
+body.calm .cols{grid-template-columns:minmax(0,1fr)}
+body.calm .cols > nav{display:none}
 #foot:empty{min-height:160px}
 nav ol{list-style:none;margin:0;padding:0}
 nav li{border-bottom:1px solid var(--rule2)}
@@ -272,6 +276,18 @@ h2 .n{font-variant-numeric:tabular-nums}
 .onemore a{color:var(--dim);text-decoration:none}
 .onemore a:hover{color:var(--accent)}
 .srcbar{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px;align-items:center}
+/* Etiket fasetleri: her grubun basinda kucuk bir etiket, gruplar arasinda bosluk. */
+.facet{display:inline-flex;flex-wrap:wrap;gap:6px;align-items:center;margin-right:14px}
+.flbl{font:11px/1 var(--mono);color:var(--faint);text-transform:uppercase;letter-spacing:.07em;
+  margin-right:2px}
+/* Ikincil kunye (kaynak rozeti, arsiv ve kalici baglanti) fareyle ustune gelince
+   ya da klavyeyle kayda girince beliriyor; dokunmatikte hep gorunur. visibility
+   kullaniliyor, display degil: yer tutuyor, belirince satir kaymiyor. */
+@media (hover:hover){
+  .item .meta .arch, .item .meta .badge.src{visibility:hidden}
+  .item:hover .meta .arch, .item:hover .meta .badge.src,
+  .item:focus-within .meta .arch, .item:focus-within .meta .badge.src{visibility:visible}
+}
 .srcbar .lbl{font:12px/1 var(--mono);color:var(--faint);margin-right:2px}
 mark{background:var(--mark);color:inherit;padding:0 2px;border-radius:2px}
 
@@ -473,17 +489,29 @@ dialog#sub::backdrop{background:rgba(0,0,0,.45)}
 }
 
 @media (max-width:900px){
-  .cols{grid-template-columns:1fr;gap:0}
-  nav{margin-bottom:26px;padding-bottom:14px;border-bottom:1px solid var(--rule)}
-  nav ol{display:flex;flex-wrap:wrap;gap:0 16px}
-  nav li{border-bottom:0}
-  nav a{padding:6px 0}
-  nav a:hover{padding-left:0}
+  /* minmax(0,...) sart: aksi halde tek satirlik cip rayi sutunu kendi genisligine
+     acip sayfayi yatay kaydirtiyordu. */
+  .cols{grid-template-columns:minmax(0,1fr);gap:0}
+  .cols > *{min-width:0}
+  /* Mobilde ray icerigin ustunde tek satir, yatay kaydirilan cipler: alt alta
+     otuz baslik icerigi ekranin altina itiyordu. */
+  nav{margin-bottom:22px;padding-bottom:10px;border-bottom:1px solid var(--rule)}
+  nav ol{display:flex;flex-wrap:nowrap;gap:8px;overflow-x:auto;padding-bottom:6px;
+    -webkit-overflow-scrolling:touch;scrollbar-width:thin}
+  nav li{border-bottom:0;flex:none}
+  nav .navfield{display:none}
+  nav a{padding:7px 12px;border:1px solid var(--rule);border-radius:999px;white-space:nowrap;gap:8px}
+  nav a:hover{padding-left:12px}
+  nav a.on{border-color:var(--accent)}
+  nav a.on::before{content:none}
 }
 
 @media (max-width:720px){
   body{padding:0 16px 72px}
   header{padding:28px 0 16px}
+  /* Liste gorunumlerinde dort satirlik alt baslik ilk kaydi asagi itiyordu;
+     giriste (calm) duruyor, orada tanitim isi goruyor. */
+  body:not(.calm) .sub{display:none}
   h1{font-size:23px}
   .sub{font-size:15.5px}
   .masthead{gap:14px}
@@ -544,7 +572,7 @@ dialog#sub::backdrop{background:rgba(0,0,0,.45)}
 }
 </style>
 </head>
-<body>
+<body class="calm">
 <!-- Arka plan: sitenin gerisinde duran, cok soluk cizgi/daire motifi
      (tasavvuf/Tao esintisi). Sabittir, icerigin arkasinda kalir, hicbir
      etkilesime karismaz. -->
@@ -635,7 +663,7 @@ dialog#sub::backdrop{background:rgba(0,0,0,.45)}
 
 <button class="btn" id="top" type="button" title="Yukarı" aria-label="Yukarı">↑</button>
 
-<script src="links.js?v=6a81267b"></script>
-<script src="app.js?v=02cacbfd" data-en="links.en.js?v=cdf5ae0f"></script>
+<script src="links.js?v=8523adc7"></script>
+<script src="app.js?v=0afdb399" data-en="links.en.js?v=cdf5ae0f"></script>
 </body>
 </html>
