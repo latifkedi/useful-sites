@@ -355,19 +355,6 @@
     "added": 1776690062
   },
   {
-    "url": "https://www.youtube.com/watch?v=iWS9ogMPOI0",
-    "name": "FastAPI ile 15 Dakikada REST API",
-    "tags": [
-      "video",
-      "python",
-      "api"
-    ],
-    "tr": "Yönlendirme, Pydantic modeli ve otomatik doküman üretimini uçtan uca gösteren kısa video. Dokümana dalmadan önce çatının şeklini görmek için.",
-    "en": "A short video showing routing, Pydantic models and automatic doc generation end to end — for seeing the framework’s shape before opening the docs.",
-    "src": "kedi",
-    "added": 1775475571
-  },
-  {
     "url": "https://flask.palletsprojects.com/en/stable/",
     "name": "Flask",
     "tags": [
@@ -406,6 +393,20 @@
     "added": 1785059907
   },
   {
+    "url": "https://www.youtube.com/@hayk.simonyan",
+    "name": "Hayk Simonyan (YouTube)",
+    "tags": [
+      "video",
+      "sistem-tasarımı",
+      "backend",
+      "ücretsiz"
+    ],
+    "tr": "Sistem tasarımı, API tasarımı ve backend mimarisini vaka çalışmalarıyla anlatan kanal: otel rezervasyonu, önbellek, CDN, yük dengeleme. Tek tek konu videolarından farkı, aynı düşünme çerçevesini farklı sistemlere uygulaması.",
+    "en": "A channel teaching system design, API design and backend architecture through case studies: a hotel booking system, caching, CDNs, load balancing. Unlike one-off topic videos it applies the same way of thinking across different systems.",
+    "src": "kedi",
+    "added": 1775421356
+  },
+  {
     "url": "https://highscalability.com/",
     "name": "High Scalability",
     "tags": [
@@ -417,19 +418,6 @@
     "en": "An archive of architecture write-ups spanning fifteen-plus years. The old posts are dated in technology but still read for how scaling pressure was actually met.",
     "src": "kedi",
     "added": 1787182449
-  },
-  {
-    "url": "https://www.youtube.com/watch?v=7iHl71nt49o",
-    "name": "Kıdemli Mühendis Gibi API Tasarımı",
-    "tags": [
-      "video",
-      "ücretsiz",
-      "api"
-    ],
-    "tr": "REST ile GraphQL’i, kimlik doğrulama ve güvenlik kararlarını tek videoda karşılaştırıyor. Hangisinin ne zaman doğru olduğu sorusuna cevap veriyor.",
-    "en": "Compares REST against GraphQL alongside authentication and security decisions in one video, answering when each is the right call.",
-    "src": "kedi",
-    "added": 1775475585
   },
   {
     "url": "https://laracasts.com/",
@@ -494,18 +482,6 @@
     "en": "Explains the runtime itself before any framework — event loop, streams, worker threads. Learning Express without knowing Node is a common gap.",
     "src": "kedi",
     "added": 1775495363
-  },
-  {
-    "url": "https://www.youtube.com/watch?v=bA0r0CBuj2Y",
-    "name": "Otel Rezervasyon Sistemi Tasarımı",
-    "tags": [
-      "video",
-      "sistem-tasarımı"
-    ],
-    "tr": "Uçtan uca vaka çalışması; eşzamanlı rezervasyon çakışması ve envanter kilitleme gibi gerçek problemleri mülakat formatında çözüyor.",
-    "en": "An end-to-end case study solving real problems — concurrent booking conflicts, inventory locking — in interview format.",
-    "src": "kedi",
-    "added": 1775421382
   },
   {
     "url": "https://www.parse.bot/",
@@ -595,18 +571,6 @@
     "en": "Presents each design pattern as a diagram, a realistic scenario and code — in six languages. An accessible counterpart to the Gang of Four book’s difficult prose.",
     "src": "kedi",
     "added": 1778513563
-  },
-  {
-    "url": "https://www.youtube.com/watch?v=adOkTjIIDnk",
-    "name": "Sistem Tasarımı Anlatımı",
-    "tags": [
-      "video",
-      "sistem-tasarımı"
-    ],
-    "tr": "API, veritabanı, önbellek, CDN ve yük dengeleyiciyi tek anlatımda birleştiren giriş. Parçaların birbirine nasıl bağlandığını görmek için.",
-    "en": "An introduction gathering APIs, databases, caching, CDNs and load balancers into one narrative — for seeing how the pieces connect.",
-    "src": "kedi",
-    "added": 1775421356
   },
   {
     "url": "https://stripe.com/",

@@ -1,18 +1,5 @@
 [
   {
-    "url": "https://www.youtube.com/watch?v=xj_GjnD4uyI",
-    "name": "20 Dakikada Tüm Ağ Kavramları",
-    "tags": [
-      "video",
-      "ücretsiz",
-      "ağ"
-    ],
-    "tr": "Ağ terimlerini hızla tarayan özet. Öğrenmek için değil; bildiğini sandığın yerlerdeki boşlukları yirmi dakikada bulmak için.",
-    "en": "A rapid sweep of networking terminology. Not for learning, but for finding in twenty minutes the gaps in what you assumed you knew.",
-    "src": "kedi",
-    "added": 1775474797
-  },
-  {
     "url": "https://www.disk-image.com/index.html",
     "name": "Active@ Disk Image",
     "tags": [
@@ -298,32 +285,6 @@
     "src": "bwapsv"
   },
   {
-    "url": "https://www.youtube.com/watch?v=HwUqCZFx6wk",
-    "name": "DHCP (CompTIA A+)",
-    "tags": [
-      "video",
-      "sertifika",
-      "ağ"
-    ],
-    "tr": "A+ müfredatındaki DHCP konusunun kısa anlatımı; kapsam sınav hedefine birebir oturuyor. Fazlasını anlatmaması sınav çalışmasında avantaj.",
-    "en": "A short treatment of DHCP as the A+ syllabus defines it, mapped exactly to the exam objective. Not covering more is an advantage when revising.",
-    "src": "kedi",
-    "added": 1778513489
-  },
-  {
-    "url": "https://www.youtube.com/watch?v=lAHqO9sDVy4",
-    "name": "DNS Yapılandırma (CompTIA A+)",
-    "tags": [
-      "video",
-      "sertifika",
-      "ağ"
-    ],
-    "tr": "A+ kapsamındaki DNS kayıt türleri ve yapılandırması. Kısa ve sınav odaklı.",
-    "en": "DNS record types and configuration within the A+ scope — short and exam-focused.",
-    "src": "kedi",
-    "added": 1778513508
-  },
-  {
     "url": "https://training.fortinet.com/",
     "name": "Fortinet Training Institute",
     "tags": [
@@ -373,19 +334,6 @@
     "src": "seccert"
   },
   {
-    "url": "https://www.youtube.com/watch?v=0pXicD2hqFU",
-    "name": "LFSR ve Rastgele Sayı Üreteçleri",
-    "tags": [
-      "video",
-      "güvenlik",
-      "donanım"
-    ],
-    "tr": "Doğrusal geri beslemeli kaydırma yazmaçlarının nasıl çalıştığını devre düzeyinde anlatıyor. Sözde rastgeleliğin donanımda nasıl üretildiğine iyi bir giriş.",
-    "en": "Explains linear feedback shift registers at circuit level — a good introduction to how pseudo-randomness is actually produced in hardware.",
-    "src": "kedi",
-    "added": 1766644409
-  },
-  {
     "url": "https://labex.io/linuxjourney",
     "name": "Linux Journey",
     "tags": [
@@ -410,19 +358,6 @@
     "tr": "Dağıtım bağımsız Linux sertifikaları (LPIC-1, LPIC-2). Red Hat programından farkı tek bir dağıtıma bağlı olmaması — Debian, SUSE ya da Arch kullanıyorsan geçerli olan sertifika bu.",
     "en": "Distribution-neutral Linux certifications (LPIC-1, LPIC-2). Against Red Hat’s programme it is not tied to one distribution — this is the certificate that still applies if you run Debian, SUSE or Arch.",
     "src": "seccert"
-  },
-  {
-    "url": "https://www.youtube.com/watch?v=zIdv2NDRExI",
-    "name": "Linux Öğrenmenin En İyi Yolu",
-    "tags": [
-      "video",
-      "ücretsiz",
-      "ağ"
-    ],
-    "tr": "Komut öğretmiyor, nasıl çalışılacağını tarif ediyor: hangi dağıtım, hangi sırayla, hangi projelerle. Yön bulmak için başlangıçta işe yarıyor.",
-    "en": "Does not teach commands but describes how to study — which distribution, in what order, through which projects. Useful for orientation at the start.",
-    "src": "kedi",
-    "added": 1754138663
   },
   {
     "url": "https://linuxcommand.org",
@@ -551,6 +486,20 @@
     "src": "seccert"
   },
   {
+    "url": "https://www.professormesser.com/",
+    "name": "Professor Messer",
+    "tags": [
+      "video",
+      "sertifika",
+      "ücretsiz",
+      "ağ"
+    ],
+    "tr": "CompTIA A+, Network+ ve Security+ müfredatının tamamını ücretsiz video derslerle kapsayan site; ders notları ve deneme sınavları ücretli. Genel ağ kurslarından farkı, derslerin sınav hedeflerine birebir numaralanmış olması.",
+    "en": "Free video courses covering the whole CompTIA A+, Network+ and Security+ syllabus; course notes and practice exams are paid. Unlike general networking courses, every lesson is numbered one to one against the exam objectives.",
+    "src": "kedi",
+    "added": 1778513489
+  },
+  {
     "url": "https://github.com/dylanaraps/pure-bash-bible",
     "name": "Pure Bash Bible",
     "tags": [
@@ -612,19 +561,6 @@
     "tr": "WireGuard üzerine kurulu örgü VPN; cihazlarını NAT ve güvenlik duvarı arkasında olsalar bile doğrudan birbirine bağlıyor. Klasik VPN sunucusundan farkı merkezî bir çıkış düğümü olmaması — trafik cihazdan cihaza gidiyor, koordinasyon sunucusu yalnızca anahtar dağıtıyor.",
     "en": "A mesh VPN on top of WireGuard that connects your devices directly even behind NAT and firewalls. Unlike a classic VPN server there is no central exit hop: traffic goes device to device and the coordination server only hands out keys.",
     "src": "cdcruz"
-  },
-  {
-    "url": "https://www.youtube.com/watch?v=5kt4t2gzt9g",
-    "name": "Windows 11 Tam Rehber",
-    "tags": [
-      "video",
-      "ücretsiz",
-      "ağ"
-    ],
-    "tr": "Windows 11 ayarlarını baştan sona gezen rehber; grup ilkesi ve kayıt defteri ayarlarına da giriyor. Kullanıcı desteği tarafında hızlı başvuru.",
-    "en": "A guide walking the whole of Windows 11’s settings, reaching into group policy and registry tweaks. A quick reference on the user-support side.",
-    "src": "kedi",
-    "added": 1778513528
   },
   {
     "url": "https://www.wireshark.org/#download",

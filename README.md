@@ -2,7 +2,7 @@
 
 https://latifkedi.github.io/useful-sites/
 
-An annotated directory of <!-- n -->1,900+<!-- /n --> links across ten areas, from
+An annotated directory of <!-- n -->1,800+<!-- /n --> links across ten areas, from
 software and AI to security, economics and architecture, organised into
 <!-- c -->43<!-- /c --> categories and published in Turkish and English.
 
