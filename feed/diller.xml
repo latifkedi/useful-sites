@@ -109,63 +109,63 @@
   <link href="https://github.com/pathikrit/better-files"/>
   <id>https://github.com/pathikrit/better-files</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Scala’da dosya işlemlerini kolaylaştıran ince NIO sarmalayıcı kütüphane.</summary>
+  <summary>Scala’da dosya işlemlerini kolaylaştıran ince NIO sarmalayıcı kütüphane. java.nio’yu doğrudan kullanmaktan farkı dosya okuma, yazma ve gezinmeyi tek satırlık, okunaklı Scala deyimlerine indirmesi.</summary>
 </entry>
 <entry>
   <title>C#</title>
   <link href="https://dotnet.microsoft.com/languages/csharp"/>
   <id>https://dotnet.microsoft.com/languages/csharp</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Microsoft’un .NET platformu için geliştirdiği çok amaçlı dil.</summary>
+  <summary>Microsoft’un .NET platformu için geliştirdiği çok amaçlı dil; Unity oyunlarının da betik dili. Java’dan farkı LINQ, async/await ve özel değer tipleri gibi özelliklerin dile gömülü gelmesi.</summary>
 </entry>
 <entry>
   <title>Clojure</title>
   <link href="https://clojure.org/"/>
   <id>https://clojure.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>JVM üzerinde çalışan modern bir Lisp lehçesi; değişmezliğe odaklı.</summary>
+  <summary>JVM üzerinde çalışan modern bir Lisp lehçesi. Common Lisp’ten farkı Java kütüphanelerini doğrudan kullanabilmesi ve veri yapılarının varsayılan olarak değişmez olması.</summary>
 </entry>
 <entry>
   <title>Coursier</title>
   <link href="https://github.com/alexarchambault/coursier"/>
   <id>https://github.com/alexarchambault/coursier</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Saf Scala ile yazılmış, hızlı JVM bağımlılık çözücü ve uygulama başlatıcı.</summary>
+  <summary>Saf Scala ile yazılmış JVM bağımlılık çözücü ve uygulama başlatıcı. Klasik Maven/Ivy çözümlemesinden farkı paralel indirmeyle çok daha hızlı olması; sbt de bağımlılıkları artık onunla çözüyor.</summary>
 </entry>
 <entry>
   <title>Dart</title>
   <link href="https://dart.dev/"/>
   <id>https://dart.dev/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Google’ın geliştirdiği, Flutter’ın altındaki istemci-odaklı dil.</summary>
+  <summary>Google’ın geliştirdiği, Flutter’ın altındaki istemci odaklı dil. JavaScript’ten farkı sağlam tip sistemi ve null güvenliği; hem yerel makine koduna hem JavaScript’e derlenebiliyor.</summary>
 </entry>
 <entry>
   <title>Elixir</title>
   <link href="https://elixir-lang.org/"/>
   <id>https://elixir-lang.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Erlang sanal makinesinde çalışan, ölçeklenebilirliğe güçlü işlevsel dil.</summary>
+  <summary>Erlang sanal makinesinde çalışan, ölçeklenebilirlikte güçlü işlevsel dil. Erlang’dan farkı Ruby’yi andıran sözdizimi ve makro sistemi; hata toleransını (OTP) ise aynen devralıyor.</summary>
 </entry>
 <entry>
   <title>Go</title>
   <link href="https://golang.org/"/>
   <id>https://golang.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Google’ın sade, hızlı derlenen, eşzamanlılığa güçlü dili — resmî sitesi.</summary>
+  <summary>Google’ın sade, hızlı derlenen, eşzamanlılıkta güçlü dilinin resmî sitesi. Java ya da C++’tan farkı dilin bilinçli küçüklüğü: az anahtar sözcük, tek biçimleyici (gofmt), saniyeler içinde derleme.</summary>
 </entry>
 <entry>
   <title>Haskell</title>
   <link href="https://www.haskell.org/"/>
   <id>https://www.haskell.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Saf işlevsel ve statik tipli, tembel değerlendirmeli programlama dili.</summary>
+  <summary>Saf işlevsel ve statik tipli, tembel değerlendirmeli programlama dili. Çoğu işlevsel dilden farkı saf olması: yan etkiler tip sisteminde (IO) ayrı tutuluyor.</summary>
 </entry>
 <entry>
   <title>JCTools</title>
   <link href="https://github.com/JCTools/JCTools"/>
   <id>https://github.com/JCTools/JCTools</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>JVM için çok yüksek başarımlı eşzamanlı kuyruklar; Netty gibi projelerce kullanılır.</summary>
+  <summary>JVM için çok yüksek başarımlı eşzamanlı kuyruklar; Netty gibi projelerce kullanılıyor. java.util.concurrent kuyruklarından farkı tek/çok üretici–tüketici senaryolarına özel, kilitsiz tasarımlar sunması.</summary>
 </entry>
 <entry>
   <title>JMH</title>
@@ -193,14 +193,14 @@
   <link href="https://kotlinlang.org/"/>
   <id>https://kotlinlang.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>JVM üzerinde çalışan, Android’in tercih dili olan çok platformlu dil.</summary>
+  <summary>JVM üzerinde çalışan, Android’in tercih ettiği çok platformlu dil. Java’dan farkı null güvenliği, daha kısa sözdizimi ve eşyordamlar (coroutines); Java koduyla tam uyumlu çalışıyor.</summary>
 </entry>
 <entry>
   <title>Lua</title>
   <link href="https://www.lua.org/"/>
   <id>https://www.lua.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Gömülmeye elverişli, hafif betik dili; oyun ve gömülü sistemlerde yaygın.</summary>
+  <summary>Gömülmeye elverişli, hafif betik dili; oyun motorlarında, gömülü sistemlerde ve Neovim’de yaygın. Python’dan farkı çalışma zamanının çok küçük olması ve bir C programına kolayca gömülebilmesi.</summary>
 </entry>
 <entry>
   <title>OpenJDK</title>
@@ -214,14 +214,14 @@
   <link href="https://www.perl.org/"/>
   <id>https://www.perl.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Metin işleme ve sistem betiklerinde güçlü, dinamik ve olgun dil.</summary>
+  <summary>Metin işleme ve sistem betiklerinde güçlü, dinamik ve olgun dil. Python’dan farkı düzenli ifadelerin dile gömülü olması ve tek satırlık betik kültürü; CPAN arşivi çok geniş.</summary>
 </entry>
 <entry>
   <title>PHP</title>
   <link href="https://www.php.net/"/>
   <id>https://www.php.net/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Web’in sunucu tarafında en yaygın dillerinden; resmî belgeleri.</summary>
+  <summary>Web’in sunucu tarafında en yaygın dillerinden birinin resmî belgeleri. Çoğu dil belgesinden farkı her fonksiyon sayfasının altındaki kullanıcı notları: pratik tuzaklar genellikle orada yazıyor.</summary>
 </entry>
 <entry>
   <title>R</title>
@@ -235,7 +235,7 @@
   <link href="https://www.ruby-lang.org/en/"/>
   <id>https://www.ruby-lang.org/en/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Okunabilirliği ve geliştirici mutluluğunu öne alan çok paradigmalı dil.</summary>
+  <summary>Okunabilirliği ve geliştirici mutluluğunu öne alan çok paradigmalı dil; Rails’in dili. Python’dan farkı her şeyin nesne olması ve DSL yazmaya elverişli esnek sözdizimi.</summary>
 </entry>
 <entry>
   <title>Rust by Example</title>
@@ -263,14 +263,14 @@
   <link href="https://www.scala-lang.org/"/>
   <id>https://www.scala-lang.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Nesne yönelimli ve işlevseli birleştiren, JVM üzerinde çalışan dil.</summary>
+  <summary>Nesne yönelimli ve işlevseli birleştiren, JVM üzerinde çalışan dil; Spark’ın yazıldığı dil. Java’dan farkı güçlü tip çıkarımı, desen eşleme ve işlevsel koleksiyonlar.</summary>
 </entry>
 <entry>
   <title>Scalastyle</title>
-  <link href="http://www.scalastyle.org/"/>
-  <id>http://www.scalastyle.org/</id>
+  <link href="https://github.com/scalastyle/scalastyle"/>
+  <id>https://github.com/scalastyle/scalastyle</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Scala kaynak kodunu biçim ve stil kurallarına göre denetleyen linter.</summary>
+  <summary>Scala kaynak kodunu biçim ve stil kurallarına göre denetleyen linter; projenin sitesi kapandı, depo 2022’den beri durgun. scalafmt’den farkı kodu biçimlemek yerine kurala uymayanı raporlaması; yeni projelerde Scalafix daha yaygın.</summary>
 </entry>
 <entry>
   <title>Scoverage</title>
@@ -284,6 +284,6 @@
   <link href="https://www.swift.org/"/>
   <id>https://www.swift.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Apple’ın öncelikle iOS için geliştirdiği, güvenli ve hızlı derlenen dili.</summary>
+  <summary>Apple’ın öncelikle iOS için geliştirdiği, güvenli ve hızlı derlenen dil; Linux ve sunucuda da çalışıyor. Objective-C’den farkı optional’larla gelen güvenli bellek modeli ve modern sözdizimi.</summary>
 </entry>
 </feed>

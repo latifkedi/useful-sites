@@ -7,8 +7,8 @@
       "kitap",
       "python"
     ],
-    "tr": "Python’a giriş kitabı; kısa, doğrudan ve onlarca dile çevrilmiş. Programlamaya tamamen yeni başlayanlar için yazılmış.",
-    "en": "An introductory Python book — short, direct and translated into dozens of languages, written for people entirely new to programming.",
+    "tr": "Python’a giriş kitabı; onlarca dile çevrilmiş ve programlamaya tamamen yeni başlayanlar için yazılmış. Kalın giriş kitaplarından farkı kısa ve doğrudan olması: birkaç günde bitiyor.",
+    "en": "An introductory Python book, translated into dozens of languages and written for people entirely new to programming. Unlike thick introductory books it is short and direct — done in a few days.",
     "src": "bwapsv"
   },
   {
@@ -256,8 +256,8 @@
       "açık-kaynak",
       "github"
     ],
-    "tr": "Scala’da dosya işlemlerini kolaylaştıran ince NIO sarmalayıcı kütüphane.",
-    "en": "A thin NIO wrapper library that makes file operations in Scala easy.",
+    "tr": "Scala’da dosya işlemlerini kolaylaştıran ince NIO sarmalayıcı kütüphane. java.nio’yu doğrudan kullanmaktan farkı dosya okuma, yazma ve gezinmeyi tek satırlık, okunaklı Scala deyimlerine indirmesi.",
+    "en": "A thin NIO wrapper library that makes file operations in Scala easy. Unlike using java.nio directly, it reduces reading, writing and walking files to readable one-line Scala idioms.",
     "src": "velvia"
   },
   {
@@ -280,8 +280,8 @@
       "müfredat",
       "c-ailesi"
     ],
-    "tr": "C öğrenimini konu sırasına koyan kısa harita; işaretçi ve bellek yönetimini nereye yerleştireceğini gösteriyor.",
-    "en": "A short map ordering C topics, showing where pointers and memory management belong in the sequence.",
+    "tr": "C öğrenimini konu sırasına koyan kısa harita. Kapsamlı kurslardan farkı içerik değil yalnız sıra vermesi: işaretçi ve bellek yönetimini nereye yerleştireceğini gösteriyor.",
+    "en": "A short map ordering C topics. Unlike full courses it gives sequence rather than content, showing where pointers and memory management belong.",
     "src": "kedi",
     "added": 1772927729
   },
@@ -292,8 +292,8 @@
       "c-ailesi",
       "dokümantasyon"
     ],
-    "tr": "Microsoft’un .NET platformu için geliştirdiği çok amaçlı dil.",
-    "en": "Microsoft’s general-purpose language for the .NET platform.",
+    "tr": "Microsoft’un .NET platformu için geliştirdiği çok amaçlı dil; Unity oyunlarının da betik dili. Java’dan farkı LINQ, async/await ve özel değer tipleri gibi özelliklerin dile gömülü gelmesi.",
+    "en": "Microsoft’s general-purpose language for the .NET platform, and the scripting language of Unity games. Unlike Java, features such as LINQ, async/await and custom value types are built into the language.",
     "src": "awesomeproj"
   },
   {
@@ -304,8 +304,8 @@
       "c-ailesi",
       "referans"
     ],
-    "tr": "Stroustrup’un C++ üslubu ve sık yapılan hatalar üzerine SSS’i; “bunu neden böyle yapmalıyım” sorularının doğrudan cevabı.",
-    "en": "Stroustrup’s FAQ on C++ style and common mistakes — direct answers to “why should I do it this way”.",
+    "tr": "Stroustrup’un C++ üslubu ve sık yapılan hatalar üzerine SSS’i; “bunu neden böyle yapmalıyım” sorularının doğrudan cevabı. Üçüncü taraf öğreticilerden farkı gerekçenin dilin yaratıcısından gelmesi.",
+    "en": "Stroustrup’s FAQ on C++ style and common mistakes — direct answers to “why should I do it this way”. Unlike third-party tutorials, the reasoning comes from the language’s creator.",
     "src": "bwapsv"
   },
   {
@@ -338,8 +338,8 @@
     "tags": [
       "açık-kaynak"
     ],
-    "tr": "JVM üzerinde çalışan modern bir Lisp lehçesi; değişmezliğe odaklı.",
-    "en": "A modern Lisp dialect on the JVM, focused on immutability.",
+    "tr": "JVM üzerinde çalışan modern bir Lisp lehçesi. Common Lisp’ten farkı Java kütüphanelerini doğrudan kullanabilmesi ve veri yapılarının varsayılan olarak değişmez olması.",
+    "en": "A modern Lisp dialect on the JVM. Unlike Common Lisp, it uses Java libraries directly and its data structures are immutable by default.",
     "src": "awesomeproj"
   },
   {
@@ -361,8 +361,8 @@
       "açık-kaynak",
       "github"
     ],
-    "tr": "Saf Scala ile yazılmış, hızlı JVM bağımlılık çözücü ve uygulama başlatıcı.",
-    "en": "A fast JVM dependency resolver and application launcher written in pure Scala.",
+    "tr": "Saf Scala ile yazılmış JVM bağımlılık çözücü ve uygulama başlatıcı. Klasik Maven/Ivy çözümlemesinden farkı paralel indirmeyle çok daha hızlı olması; sbt de bağımlılıkları artık onunla çözüyor.",
+    "en": "A JVM dependency resolver and application launcher written in pure Scala. Unlike classic Maven/Ivy resolution it downloads in parallel and is much faster; sbt now resolves dependencies with it too.",
     "src": "velvia"
   },
   {
@@ -398,8 +398,8 @@
       "kitap",
       "c-ailesi"
     ],
-    "tr": "Bir dili iki kez sıfırdan yazdıran ücretsiz kitap: önce Java ile ağaç yürüyen yorumlayıcı, sonra C ile bayt kodu sanal makinesi. Alanın en iyi anlatımlarından.",
-    "en": "A free book that has you write a language twice — a tree-walking interpreter in Java, then a bytecode VM in C. One of the clearest treatments in the field.",
+    "tr": "Bir dili iki kez sıfırdan yazdıran ücretsiz kitap: önce Java ile ağaç yürüyen yorumlayıcı, sonra C ile bayt kodu sanal makinesi. Kuramsal derleyici ders kitaplarından farkı her satırı sana yazdırması; alanın en açık anlatımlarından.",
+    "en": "A free book that has you write a language twice — a tree-walking interpreter in Java, then a bytecode VM in C. Unlike theoretical compiler textbooks it makes you write every line; one of the clearest treatments in the field.",
     "src": "bwapsv"
   },
   {
@@ -421,8 +421,8 @@
       "açık-kaynak",
       "masaüstü"
     ],
-    "tr": "Google’ın geliştirdiği, Flutter’ın altındaki istemci-odaklı dil.",
-    "en": "Google’s client-oriented language, the one beneath Flutter.",
+    "tr": "Google’ın geliştirdiği, Flutter’ın altındaki istemci odaklı dil. JavaScript’ten farkı sağlam tip sistemi ve null güvenliği; hem yerel makine koduna hem JavaScript’e derlenebiliyor.",
+    "en": "Google’s client-oriented language, the one beneath Flutter. Unlike JavaScript it has a sound type system with null safety, and compiles both to native machine code and to JavaScript.",
     "src": "awesomeproj"
   },
   {
@@ -457,8 +457,8 @@
       "açık-kaynak",
       "backend"
     ],
-    "tr": "Erlang sanal makinesinde çalışan, ölçeklenebilirliğe güçlü işlevsel dil.",
-    "en": "A functional language on the Erlang VM, strong in scalability.",
+    "tr": "Erlang sanal makinesinde çalışan, ölçeklenebilirlikte güçlü işlevsel dil. Erlang’dan farkı Ruby’yi andıran sözdizimi ve makro sistemi; hata toleransını (OTP) ise aynen devralıyor.",
+    "en": "A functional language on the Erlang VM, strong in scalability. Unlike Erlang it has a Ruby-like syntax and a macro system, while inheriting fault tolerance (OTP) unchanged.",
     "src": "awesomeproj"
   },
   {
@@ -481,8 +481,8 @@
       "akademik",
       "açık-kaynak"
     ],
-    "tr": "Sayısal ve bilimsel hesaplamanın öncüsü, hâlâ kullanılan dil.",
-    "en": "The pioneer of numerical and scientific computing, still in use.",
+    "tr": "Sayısal ve bilimsel hesaplamanın öncüsü, hâlâ kullanılan dil; iklim ve fizik simülasyonlarında temel. C++’tan farkı dizi işlemlerinin dile yerleşik olması ve derleyicilerin bunları agresif biçimde eniyilemesi.",
+    "en": "The pioneer of numerical and scientific computing, still in use and central to climate and physics simulation. Unlike C++, array operations are built into the language and compilers optimise them aggressively.",
     "src": "awesomeproj",
     "added": 1784411432
   },
@@ -494,8 +494,8 @@
       "python",
       "sertifika"
     ],
-    "tr": "Ücretsiz müfredat ve sertifika; alıştırmalar tarayıcıda çalışıyor. Sertifika işveren nezdinde ağır basmıyor ama müfredat düzgün sıralanmış.",
-    "en": "A free curriculum and certificate with browser-based exercises. The certificate carries little weight with employers, but the curriculum is properly sequenced.",
+    "tr": "Ücretsiz müfredat ve sertifika; alıştırmalar tarayıcıda çalışıyor. Ücretli kurslardan farkı tamamen ücretsiz olması; sertifika işveren nezdinde ağır basmıyor ama müfredat düzgün sıralanmış.",
+    "en": "A free curriculum and certificate with browser-based exercises. Unlike paid courses it costs nothing; the certificate carries little weight with employers, but the curriculum is properly sequenced.",
     "src": "kedi",
     "added": 1770704659
   },
@@ -506,8 +506,8 @@
       "ücretsiz",
       "c-ailesi"
     ],
-    "tr": "Konu başlığına bölünmüş C kaynağı; arama sonucundan doğrudan ilgili sayfaya düşüyorsun. Örnek kodların bir kısmı eski derleyici davranışına dayanıyor, dikkatli okumak gerekiyor.",
-    "en": "C material split by topic so a search lands you straight on the relevant page. Some examples rely on old compiler behaviour, so read carefully.",
+    "tr": "Konu başlığına bölünmüş C kaynağı. Sıralı bir kitaptan farkı aramadan doğrudan ilgili sayfaya düşmen; örnek kodların bir kısmı eski derleyici davranışına dayanıyor, dikkatli okumak gerekiyor.",
+    "en": "C material split by topic. Unlike a sequential book, a search lands you straight on the relevant page; some examples rely on old compiler behaviour, so read carefully.",
     "src": "kedi",
     "added": 1771845656
   },
@@ -519,8 +519,8 @@
       "açık-kaynak",
       "dokümantasyon"
     ],
-    "tr": "Google’ın sade, hızlı derlenen, eşzamanlılığa güçlü dili — resmî sitesi.",
-    "en": "Google’s simple, fast-compiling language strong in concurrency — its official site.",
+    "tr": "Google’ın sade, hızlı derlenen, eşzamanlılıkta güçlü dilinin resmî sitesi. Java ya da C++’tan farkı dilin bilinçli küçüklüğü: az anahtar sözcük, tek biçimleyici (gofmt), saniyeler içinde derleme.",
+    "en": "The official site of Google’s simple, fast-compiling language, strong in concurrency. Unlike Java or C++ it is deliberately small: few keywords, one formatter (gofmt), builds in seconds.",
     "src": "awesomeproj"
   },
   {
@@ -531,8 +531,8 @@
       "go",
       "öğretici"
     ],
-    "tr": "Her kavramı yorumlu tek bir programla anlatıyor. Turu bitirdikten sonra “bunu Go’da nasıl yapıyordum” sorusunun cevabı burada.",
-    "en": "Explains each concept through one annotated program. After the tour, this is where “how do I do that in Go again” gets answered.",
+    "tr": "Her kavramı yorumlu tek bir programla anlatıyor. Resmî turdan farkı sıralı öğretmek yerine başvuru olarak kullanılması: “bunu Go’da nasıl yapıyordum” sorusunun cevabı burada.",
+    "en": "Explains each concept through one annotated program. Unlike the official tour it works as a reference rather than a sequence — where “how do I do that in Go again” gets answered.",
     "src": "kedi",
     "added": 1776690073
   },
@@ -565,8 +565,8 @@
       "açık-kaynak",
       "dokümantasyon"
     ],
-    "tr": "Saf işlevsel ve statik tipli, tembel değerlendirmeli programlama dili.",
-    "en": "A purely functional, statically typed programming language with lazy evaluation.",
+    "tr": "Saf işlevsel ve statik tipli, tembel değerlendirmeli programlama dili. Çoğu işlevsel dilden farkı saf olması: yan etkiler tip sisteminde (IO) ayrı tutuluyor.",
+    "en": "A purely functional, statically typed programming language with lazy evaluation. Unlike most functional languages it is pure: side effects are kept apart in the type system (IO).",
     "src": "awesomeproj"
   },
   {
@@ -588,8 +588,8 @@
       "python",
       "referans"
     ],
-    "tr": "Python’da üslup, proje düzeni ve araç seçimi üzerine topluluk rehberi. Dil referansının anlatmadığı “nasıl yazılır” kısmı.",
-    "en": "A community guide to Python style, project layout and tooling — the “how it is written” part the language reference leaves out.",
+    "tr": "Python’da üslup, proje düzeni ve araç seçimi üzerine topluluk rehberi. Dil referansından farkı “nasıl yazılır” kısmını anlatması: deyimsel kod, paketleme, test.",
+    "en": "A community guide to Python style, project layout and tooling. Unlike the language reference it covers the “how it is written” part: idiomatic code, packaging, testing.",
     "src": "bwapsv"
   },
   {
@@ -600,8 +600,8 @@
       "referans",
       "c-ailesi"
     ],
-    "tr": "TempleOS’un HolyC dili için bağımsız derleyici ve dokümantasyon. Pratik bir kullanımı yok; dil tasarımı ve bilgisayar tarihi merakı için duruyor.",
-    "en": "An independent compiler and documentation for TempleOS’s HolyC. No practical use — it stands for the language design and computing history interest.",
+    "tr": "TempleOS’un HolyC dili için bağımsız derleyici ve dokümantasyon. Üretim dillerinin aksine pratik bir kullanımı yok; dil tasarımı ve bilgisayar tarihi merakı için duruyor.",
+    "en": "An independent compiler and documentation for TempleOS’s HolyC. Unlike production languages it has no practical use — it stands for the language design and computing history interest.",
     "src": "kedi",
     "added": 1753836338
   },
@@ -613,8 +613,8 @@
       "c-ailesi",
       "öğretici"
     ],
-    "tr": "Çözülmüş C programları koleksiyonu; anlatım yok, doğrudan çalışan örnek var. Bir kalıbı hızla hatırlamak için elverişli.",
-    "en": "A collection of solved C programs — no exposition, just working examples. Handy for recalling a pattern quickly.",
+    "tr": "Çözülmüş C programları koleksiyonu. Öğreticilerden farkı anlatım yerine doğrudan çalışan örnek vermesi; bir kalıbı hızla hatırlamak için elverişli.",
+    "en": "A collection of solved C programs. Unlike tutorials it offers working examples instead of exposition — handy for recalling a pattern quickly.",
     "src": "kedi",
     "added": 1771712624
   },
@@ -626,8 +626,8 @@
       "ücretsiz",
       "python"
     ],
-    "tr": "Tek bir Python kavramını derinleştiren kısa bölümler; uzun kurs formatına almayan konuları işliyor.",
-    "en": "Short episodes each deepening one Python concept, covering things a long-course format skips.",
+    "tr": "Tek bir Python kavramını derinleştiren kısa bölümler. Uzun kurs formatından farkı, kursların atladığı konuları — dekoratörler, tip ipuçları, standart kütüphane köşeleri — tek tek işlemesi.",
+    "en": "Short episodes each deepening one Python concept. Unlike the long-course format, they take on topics courses skip — decorators, type hints, corners of the standard library — one at a time.",
     "src": "kedi",
     "added": 1775474578
   },
@@ -651,8 +651,8 @@
       "github",
       "backend"
     ],
-    "tr": "JVM için çok yüksek başarımlı eşzamanlı kuyruklar; Netty gibi projelerce kullanılır.",
-    "en": "Very high-performance concurrent queues for the JVM, used by projects like Netty.",
+    "tr": "JVM için çok yüksek başarımlı eşzamanlı kuyruklar; Netty gibi projelerce kullanılıyor. java.util.concurrent kuyruklarından farkı tek/çok üretici–tüketici senaryolarına özel, kilitsiz tasarımlar sunması.",
+    "en": "Very high-performance concurrent queues for the JVM, used by projects like Netty. Unlike the java.util.concurrent queues, it offers lock-free designs specialised for single/multi producer–consumer cases.",
     "src": "velvia"
   },
   {
@@ -674,8 +674,8 @@
       "javascript",
       "interaktif"
     ],
-    "tr": "Tarayıcıda çalıştırılabilir JavaScript alıştırmaları; okuma sonrası pekiştirme için.",
-    "en": "Runnable JavaScript exercises in the browser, for consolidating after reading.",
+    "tr": "Tarayıcıda çalıştırılabilir JavaScript alıştırmaları. Öğretici sitelerden farkı anlatım değil yalnız alıştırma sunması; okuduğunu pekiştirmek için.",
+    "en": "Runnable JavaScript exercises in the browser. Unlike tutorial sites it offers only exercises, no exposition — for consolidating what you have read.",
     "src": "kedi",
     "added": 1787182432
   },
@@ -721,8 +721,8 @@
       "türkçe",
       "c-ailesi"
     ],
-    "tr": "Türkçe C örnek programları; ders ödevi düzeyindeki klasik alıştırmaları kapsıyor. Yerelde C kaynağı kıt olduğu için değerli.",
-    "en": "Turkish C example programs covering the classic coursework-level exercises — valuable because Turkish C material is thin on the ground.",
+    "tr": "Türkçe C örnek programları; ders ödevi düzeyindeki klasik alıştırmaları kapsıyor. İngilizce örnek arşivlerinden farkı Türkçe olması — yerelde C kaynağı kıt olduğu için değerli.",
+    "en": "Turkish C example programs covering the classic coursework-level exercises. Unlike English example archives it is in Turkish — valuable because Turkish C material is thin on the ground.",
     "src": "kedi",
     "added": 1763972832
   },
@@ -733,8 +733,8 @@
       "açık-kaynak",
       "dokümantasyon"
     ],
-    "tr": "JVM üzerinde çalışan, Android’in tercih dili olan çok platformlu dil.",
-    "en": "A cross-platform language on the JVM, the preferred language for Android.",
+    "tr": "JVM üzerinde çalışan, Android’in tercih ettiği çok platformlu dil. Java’dan farkı null güvenliği, daha kısa sözdizimi ve eşyordamlar (coroutines); Java koduyla tam uyumlu çalışıyor.",
+    "en": "A cross-platform language on the JVM, the preferred language for Android. Unlike Java it has null safety, a terser syntax and coroutines, while interoperating fully with Java code.",
     "src": "awesomeproj"
   },
   {
@@ -757,8 +757,8 @@
       "c-ailesi",
       "interaktif"
     ],
-    "tr": "Tarayıcıda derleyip çalıştırabildiğin C öğreticisi. Derleyici kurmadan dile bakmak isteyenler için giriş engelini kaldırıyor.",
-    "en": "A C tutorial you compile and run in the browser, removing the entry barrier for anyone who wants a look at the language before installing a toolchain.",
+    "tr": "Tarayıcıda derleyip çalıştırabildiğin C öğreticisi. Derleyici kurmak yerine doğrudan sayfada denediğin için dile bakmak isteyenlerin giriş engelini kaldırıyor.",
+    "en": "A C tutorial you compile and run in the browser. Rather than installing a toolchain you try it on the page, which removes the entry barrier for anyone who wants a look at the language.",
     "src": "kedi",
     "added": 1772984248
   },
@@ -820,8 +820,8 @@
       "öğretici",
       "python"
     ],
-    "tr": "Python ile adım adım yorumlayıcı yazdıran uzun seri; sözcüksel çözümlemeden soyut sözdizimi ağacına kadar her parçayı elle kurduruyor.",
-    "en": "A long series building an interpreter step by step in Python, constructing every piece by hand from lexing to the abstract syntax tree.",
+    "tr": "Python ile adım adım yorumlayıcı yazdıran uzun seri; sözcüksel çözümlemeden soyut sözdizimi ağacına kadar her parçayı elle kurduruyor. Crafting Interpreters’tan farkı Python ile, bir Pascal alt kümesi üzerinden ilerlemesi.",
+    "en": "A long series building an interpreter step by step in Python, constructing every piece by hand from lexing to the abstract syntax tree. Unlike Crafting Interpreters, it works in Python on a subset of Pascal.",
     "src": "bwapsv"
   },
   {
@@ -831,8 +831,8 @@
       "dokümantasyon",
       "c-ailesi"
     ],
-    "tr": "LLVM altyapısına giriş ve Kaleidoscope öğreticisi — kendi dilini yazmanın klasik başlangıcı. Ara temsil (IR) kavramını somutlaştıran en iyi kaynaklardan.",
-    "en": "An introduction to the LLVM infrastructure plus the Kaleidoscope tutorial, the classic starting point for writing your own language and one of the best ways to make the IR concept concrete.",
+    "tr": "LLVM altyapısına giriş ve Kaleidoscope öğreticisi — kendi dilini yazmanın klasik başlangıcı. Sıfırdan derleyici yazmaktan farkı eniyileme ve kod üretimini LLVM’e bırakıp yalnız ön yüzü yazman; ara temsil (IR) kavramını somutlaştırıyor.",
+    "en": "An introduction to the LLVM infrastructure plus the Kaleidoscope tutorial, the classic starting point for writing your own language. Unlike writing a compiler from scratch, you write only the front end and leave optimisation and code generation to LLVM; it makes the IR concept concrete.",
     "src": "kedi",
     "added": 1776145899
   },
@@ -843,8 +843,8 @@
       "açık-kaynak",
       "gömülü"
     ],
-    "tr": "Gömülmeye elverişli, hafif betik dili; oyun ve gömülü sistemlerde yaygın.",
-    "en": "A lightweight, embeddable scripting language, common in games and embedded systems.",
+    "tr": "Gömülmeye elverişli, hafif betik dili; oyun motorlarında, gömülü sistemlerde ve Neovim’de yaygın. Python’dan farkı çalışma zamanının çok küçük olması ve bir C programına kolayca gömülebilmesi.",
+    "en": "A lightweight, embeddable scripting language, common in game engines, embedded systems and Neovim. Unlike Python its runtime is tiny and it embeds easily into a C program.",
     "src": "awesomeproj"
   },
   {
@@ -878,8 +878,8 @@
       "python",
       "referans"
     ],
-    "tr": "Python’un resmî üslup kılavuzu; standart kütüphanenin yazımında kullanılan kurallar. black ve ruff gibi araçların dayandığı metin.",
-    "en": "Python’s official style guide, the rules used for the standard library itself — the text tools like black and ruff are built on.",
+    "tr": "Python’un resmî üslup kılavuzu; standart kütüphanenin yazımında kullanılan kurallar. Topluluk rehberlerinden farkı bağlayıcı kaynak olması: black ve ruff gibi araçların dayandığı metin bu.",
+    "en": "Python’s official style guide, the rules used for the standard library itself. Unlike community guides it is the binding source — the text tools like black and ruff are built on.",
     "src": "bwapsv"
   },
   {
@@ -888,8 +888,8 @@
     "tags": [
       "açık-kaynak"
     ],
-    "tr": "Metin işleme ve sistem betiklerinde güçlü, dinamik ve olgun dil.",
-    "en": "A dynamic, mature language strong in text processing and system scripting.",
+    "tr": "Metin işleme ve sistem betiklerinde güçlü, dinamik ve olgun dil. Python’dan farkı düzenli ifadelerin dile gömülü olması ve tek satırlık betik kültürü; CPAN arşivi çok geniş.",
+    "en": "A dynamic, mature language strong in text processing and system scripting. Unlike Python it has regular expressions built into the language and a one-liner culture; the CPAN archive is vast.",
     "src": "awesomeproj"
   },
   {
@@ -900,8 +900,8 @@
       "açık-kaynak",
       "dokümantasyon"
     ],
-    "tr": "Web’in sunucu tarafında en yaygın dillerinden; resmî belgeleri.",
-    "en": "One of the most common server-side languages of the web — its official docs.",
+    "tr": "Web’in sunucu tarafında en yaygın dillerinden birinin resmî belgeleri. Çoğu dil belgesinden farkı her fonksiyon sayfasının altındaki kullanıcı notları: pratik tuzaklar genellikle orada yazıyor.",
+    "en": "The official docs of one of the web’s most common server-side languages. Unlike most language docs, every function page carries user notes at the bottom — where the practical pitfalls are usually written up.",
     "src": "awesomeproj"
   },
   {
@@ -957,8 +957,8 @@
       "açık-kaynak",
       "dokümantasyon"
     ],
-    "tr": "Okunabilirliği ve geliştirici mutluluğunu öne alan çok paradigmalı dil.",
-    "en": "A multi-paradigm language foregrounding readability and developer happiness.",
+    "tr": "Okunabilirliği ve geliştirici mutluluğunu öne alan çok paradigmalı dil; Rails’in dili. Python’dan farkı her şeyin nesne olması ve DSL yazmaya elverişli esnek sözdizimi.",
+    "en": "A multi-paradigm language foregrounding readability and developer happiness — the language of Rails. Unlike Python, everything is an object and its flexible syntax lends itself to DSLs.",
     "src": "awesomeproj"
   },
   {
@@ -1031,8 +1031,8 @@
       "türkçe",
       "rust"
     ],
-    "tr": "Rust’ın resmî öğrenme sayfasının Türkçe hâli. Sahiplik (ownership) ve ödünç alma kavramlarına kendi dilinde girmek, dilin en dik yokuşunu biraz yumuşatıyor.",
-    "en": "The Turkish version of Rust’s official learning page. Meeting ownership and borrowing in your own language softens the language’s steepest climb a little.",
+    "tr": "Rust’ın resmî öğrenme sayfasının Türkçe hâli. İngilizce sayfa yerine sahiplik (ownership) ve ödünç alma kavramlarına kendi dilinde girmek, dilin en dik yokuşunu biraz yumuşatıyor.",
+    "en": "The Turkish version of Rust’s official learning page. Meeting ownership and borrowing in your own language rather than English softens the language’s steepest climb a little.",
     "src": "kedi",
     "added": 1774809406
   },
@@ -1057,8 +1057,8 @@
       "türkçe",
       "python"
     ],
-    "tr": "Python sanal ortamlarını Türkçe anlatan kısa giriş; kavramı ilk kez duyanlar için yeterli. Modern araç zinciri artık uv tarafına kayıyor, onu da bilmekte fayda var.",
-    "en": "A short Turkish introduction to Python virtual environments, sufficient on first contact. The modern toolchain is shifting toward uv, which is worth knowing alongside.",
+    "tr": "Python sanal ortamlarını Türkçe anlatan kısa giriş; kavramı ilk kez duyanlar için yeterli. Klasik venv yerine modern araç zinciri artık uv tarafına kayıyor; onu da bilmekte fayda var.",
+    "en": "A short Turkish introduction to Python virtual environments, sufficient on first contact. The modern toolchain is shifting to uv instead of classic venv, which is worth knowing alongside.",
     "src": "kedi",
     "added": 1776614510
   },
@@ -1069,18 +1069,18 @@
       "açık-kaynak",
       "backend"
     ],
-    "tr": "Nesne yönelimli ve işlevseli birleştiren, JVM üzerinde çalışan dil.",
-    "en": "A language on the JVM uniting object-oriented and functional programming.",
+    "tr": "Nesne yönelimli ve işlevseli birleştiren, JVM üzerinde çalışan dil; Spark’ın yazıldığı dil. Java’dan farkı güçlü tip çıkarımı, desen eşleme ve işlevsel koleksiyonlar.",
+    "en": "A language on the JVM uniting object-oriented and functional programming — the language Spark is written in. Unlike Java it has strong type inference, pattern matching and functional collections.",
     "src": "awesomeproj"
   },
   {
-    "url": "http://www.scalastyle.org/",
+    "url": "https://github.com/scalastyle/scalastyle",
     "name": "Scalastyle",
     "tags": [
       "açık-kaynak"
     ],
-    "tr": "Scala kaynak kodunu biçim ve stil kurallarına göre denetleyen linter.",
-    "en": "A linter that checks Scala source against formatting and style rules.",
+    "tr": "Scala kaynak kodunu biçim ve stil kurallarına göre denetleyen linter; projenin sitesi kapandı, depo 2022’den beri durgun. scalafmt’den farkı kodu biçimlemek yerine kurala uymayanı raporlaması; yeni projelerde Scalafix daha yaygın.",
+    "en": "A linter that checks Scala source against formatting and style rules; the project site is gone and the repository has been dormant since 2022. Unlike scalafmt it reports violations instead of reformatting; new projects mostly use Scalafix.",
     "src": "velvia"
   },
   {
@@ -1113,8 +1113,8 @@
       "ücretsiz",
       "kitap"
     ],
-    "tr": "Bilgisayar Programlarının Yapısı ve Yorumlanması — MIT’nin klasik ders kitabının okunabilir HTML sürümü. Dil öğretmiyor, soyutlama kurmayı öğretiyor.",
-    "en": "Structure and Interpretation of Computer Programs, MIT’s classic text in a readable HTML edition. It does not teach a language; it teaches how to build abstractions.",
+    "tr": "Bilgisayar Programlarının Yapısı ve Yorumlanması — MIT’nin klasik ders kitabının okunabilir HTML sürümü. Dil öğreten kitaplardan farkı soyutlama kurmayı öğretmesi; Scheme yalnız araç.",
+    "en": "Structure and Interpretation of Computer Programs, MIT’s classic text in a readable HTML edition. Unlike books that teach a language it teaches how to build abstractions; Scheme is just the vehicle.",
     "src": "bwapsv"
   },
   {
@@ -1160,8 +1160,8 @@
       "açık-kaynak",
       "dokümantasyon"
     ],
-    "tr": "Apple’ın öncelikle iOS için geliştirdiği, güvenli ve hızlı derlenen dili.",
-    "en": "Apple’s safe, fast-compiled language, developed primarily for iOS.",
+    "tr": "Apple’ın öncelikle iOS için geliştirdiği, güvenli ve hızlı derlenen dil; Linux ve sunucuda da çalışıyor. Objective-C’den farkı optional’larla gelen güvenli bellek modeli ve modern sözdizimi.",
+    "en": "Apple’s safe, fast-compiled language, developed primarily for iOS and also running on Linux and servers. Unlike Objective-C it has a safe memory model built around optionals and a modern syntax.",
     "src": "awesomeproj"
   },
   {
@@ -1172,8 +1172,8 @@
       "türkçe",
       "c-ailesi"
     ],
-    "tr": "C dilini tek oturumda anlatan Türkçe video; hızlı giriş ya da sınav öncesi tekrar için.",
-    "en": "A Turkish video covering C in a single sitting — for a fast introduction or pre-exam revision.",
+    "tr": "C dilini tek oturumda anlatan Türkçe video. Haftalara yayılan kurslardan farkı hızlı giriş ya da sınav öncesi tekrar için tek seferde bitmesi.",
+    "en": "A Turkish video covering C in a single sitting. Unlike courses spread over weeks it is done in one go — for a fast introduction or pre-exam revision.",
     "src": "kedi",
     "added": 1770706280
   },
@@ -1285,8 +1285,8 @@
       "github",
       "öğretici"
     ],
-    "tr": "Yorum satırlarıyla açıklanmış, birkaç yüz satırlık minik bir derleyici. Derleyici aşamalarının tamamını tek oturumda okunabilir kılıyor.",
-    "en": "A tiny compiler of a few hundred heavily commented lines, making every compiler stage readable in a single sitting.",
+    "tr": "Yorum satırlarıyla açıklanmış, birkaç yüz satırlık minik bir derleyici. Kitap boyu derleyici kaynaklarından farkı tüm aşamaları — ayrıştırma, dönüştürme, kod üretimi — tek oturumda okunabilir kılması.",
+    "en": "A tiny compiler of a few hundred heavily commented lines. Unlike book-length compiler resources, it makes every stage — parsing, transformation, code generation — readable in a single sitting.",
     "src": "bwapsv"
   },
   {
@@ -1347,8 +1347,8 @@
       "öğretici",
       "c-ailesi"
     ],
-    "tr": "C derleyicisini parça parça yazdıran yazı dizisi; her bölüm dilin küçük bir alt kümesini derleyebilen çalışan bir program bırakıyor.",
-    "en": "A series writing a C compiler piece by piece, each part leaving you a working program that compiles a small subset of the language.",
+    "tr": "C derleyicisini parça parça yazdıran yazı dizisi. Tüm dili tek seferde hedefleyen anlatımlardan farkı her bölümün, dilin küçük bir alt kümesini derleyebilen çalışan bir program bırakması.",
+    "en": "A series writing a C compiler piece by piece. Unlike treatments that aim at the whole language at once, each part leaves you a working program that compiles a small subset of it.",
     "src": "bwapsv"
   },
   {

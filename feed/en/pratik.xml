@@ -18,14 +18,14 @@
   <link href="https://www.beecrowd.com.br/judge/en/"/>
   <id>https://www.beecrowd.com.br/judge/en/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An online judge grading programming, mathematics and SQL problems automatically.</summary>
+  <summary>An online judge grading programming, mathematics and SQL problems automatically, formerly URI Online Judge. Unlike LeetCode it is learning- rather than interview-oriented, with plenty of beginner problems.</summary>
 </entry>
 <entry>
   <title>Code Golf (Stack Exchange)</title>
   <link href="https://codegolf.stackexchange.com/"/>
   <id>https://codegolf.stackexchange.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A community contest to solve a problem in the shortest possible code.</summary>
+  <summary>A community contest to solve a problem in the shortest possible code. Unlike algorithm sites the measure is code length rather than speed or correctness — it shows how far languages can be bent.</summary>
 </entry>
 <entry>
   <title>CodePen Challenges</title>
@@ -39,7 +39,7 @@
   <link href="https://www.dailycodingproblem.com/"/>
   <id>https://www.dailycodingproblem.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A service that emails one coding-interview problem every day.</summary>
+  <summary>A service that emails one coding-interview problem every day. Unlike problem platforms it lands in your inbox — the point is building a habit; detailed solutions are paid.</summary>
 </entry>
 <entry>
   <title>devChallenges.io</title>
@@ -60,7 +60,7 @@
   <link href="https://projecteuler.net/archives"/>
   <id>https://projecteuler.net/archives</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An archived collection of problems joining mathematics and programming.</summary>
+  <summary>An archived collection of problems joining mathematics and programming. Unlike algorithm sites it demands mathematical insight: a good solution should run in under a minute, and brute force usually is not enough.</summary>
 </entry>
 <entry>
   <title>RealWorld</title>
@@ -81,7 +81,7 @@
   <link href="https://todomvc.com"/>
   <id>https://todomvc.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Shows the same to-do app built in dozens of JavaScript frameworks so you can compare them side by side.</summary>
+  <summary>Shows the same to-do app built in dozens of JavaScript frameworks. Unlike the frameworks’ own demos the functionality is held constant, so only the approach changes and you can compare them side by side.</summary>
 </entry>
 <entry>
   <title>TopCoder Arena</title>
@@ -95,21 +95,21 @@
   <link href="https://onlinejudge.org/"/>
   <id>https://onlinejudge.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A classic online judge auto-grading hundreds of contest problems.</summary>
+  <summary>A classic online judge auto-grading hundreds of contest problems. Unlike newer platforms, it is the archive the problem lists of the Competitive Programming (Halim) book are built on.</summary>
 </entry>
 <entry>
   <title>Python Tutor</title>
   <link href="https://pythontutor.com/"/>
   <id>https://pythontutor.com/</id>
   <updated>2026-08-19T23:33:57Z</updated>
-  <summary>Steps through code drawing stack frames and heap objects. Nothing explains reference semantics, scope and mutable default arguments as clearly.</summary>
+  <summary>Steps through code drawing stack frames and heap objects. Unlike a classic debugger it visualises memory — nothing explains reference semantics, scope and mutable default arguments as clearly.</summary>
 </entry>
 <entry>
   <title>AlgoDS</title>
   <link href="https://github.com/sherxon/AlgoDS"/>
   <id>https://github.com/sherxon/AlgoDS</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Java implementations of algorithms and data structures, each written readably and with tests.</summary>
+  <summary>Java implementations of algorithms and data structures. Unlike textbook pseudocode, each is real, readable, working code with its tests.</summary>
 </entry>
 <entry>
   <title>Algorithm Design Canvas</title>
@@ -130,14 +130,14 @@
   <link href="https://bigocheatsheet.com/#"/>
   <id>https://bigocheatsheet.com/#</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A single colour-coded table of time and space complexity for data structures and sorting algorithms — the last look before an interview.</summary>
+  <summary>A single colour-coded table of time and space complexity for data structures and sorting algorithms. Unlike a textbook it shows everything at a glance — the last look before an interview.</summary>
 </entry>
 <entry>
   <title>Big-O Yanılgıları</title>
   <link href="https://ssp.impulsetrain.com/big-o.html"/>
   <id>https://ssp.impulsetrain.com/big-o.html</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A piece correcting common misunderstandings of big-O notation, such as conflating worst case with average case.</summary>
+  <summary>A piece correcting common misunderstandings of big-O notation. Unlike standard explanations, it targets subtle errors directly, such as conflating worst case with average case.</summary>
 </entry>
 <entry>
   <title>Bit İşlemleri Numaraları</title>
@@ -158,7 +158,7 @@
   <link href="https://www.codechef.com"/>
   <id>https://www.codechef.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A competitive algorithm platform with monthly contests, difficulty-tagged problems and published editorial solutions.</summary>
+  <summary>A competitive algorithm platform with regular contests, difficulty-tagged problems and published editorial solutions. Unlike Codeforces, it offers learning paths and practice sections aimed at beginners.</summary>
 </entry>
 <entry>
   <title>Codeforces</title>
@@ -179,7 +179,7 @@
   <link href="https://coderbyte.com/"/>
   <id>https://coderbyte.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An interview problem bank and assessment tool with video explanations of solutions.</summary>
+  <summary>An interview problem bank and assessment tool. Unlike LeetCode it offers video explanations of solutions and also hosts the assessment tool companies use to screen candidates.</summary>
 </entry>
 <entry>
   <title>CodeSignal</title>
@@ -214,7 +214,7 @@
   <link href="https://cryptohack.org/"/>
   <id>https://cryptohack.org/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Teaches cryptography by breaking it, with each level exploiting a real weakness — the applied counterpart to a theory course.</summary>
+  <summary>Teaches cryptography by breaking it, with each level exploiting a real weakness. Unlike a theory course it teaches from the attacker’s side — the applied counterpart.</summary>
 </entry>
 <entry>
   <title>freeCodeCamp</title>
@@ -224,46 +224,39 @@
   <summary>A complete free curriculum with in-browser exercises and free certificates. Its capstone projects make you build real applications rather than stopping at drills.</summary>
 </entry>
 <entry>
-  <title>Glitch</title>
-  <link href="https://glitch.com/"/>
-  <id>https://glitch.com/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A browser environment for small apps that go live instantly — for testing an idea while skipping setup and deployment entirely.</summary>
-</entry>
-<entry>
   <title>Google Interview Warmup</title>
   <link href="https://grow.google/certificates/interview-warmup/"/>
   <id>https://grow.google/certificates/interview-warmup/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A practice tool where you answer interview questions aloud and get AI feedback.</summary>
+  <summary>A practice tool where you answer interview questions aloud and get AI feedback. Unlike coding-interview sites, it focuses on behavioural and role questions, highlighting the key terms in your answer.</summary>
 </entry>
 <entry>
   <title>HackerEarth</title>
   <link href="https://www.hackerearth.com"/>
   <id>https://www.hackerearth.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Combines contests with hiring assessments — companies run technical screening here.</summary>
+  <summary>Combines contests with hiring assessments — companies run technical screening here. Unlike HackerRank, it is strong on hosting hackathons.</summary>
 </entry>
 <entry>
   <title>HiredInTech</title>
   <link href="https://www.hiredintech.com/"/>
   <id>https://www.hiredintech.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Structured courses for system-design and algorithm interviews.</summary>
+  <summary>Structured courses for system-design and algorithm interviews. Unlike problem banks it teaches method rather than questions — a framework for working a problem step by step; the content is old but the framework holds.</summary>
 </entry>
 <entry>
   <title>InterviewBit</title>
   <link href="https://www.interviewbit.com"/>
   <id>https://www.interviewbit.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Gamified interview preparation ordered by topic dependency, each subject building on the last.</summary>
+  <summary>Gamified interview preparation. Unlike LeetCode’s open problem pool, topics are ordered by dependency, each building on the last.</summary>
 </entry>
 <entry>
   <title>InterviewThis</title>
   <link href="https://github.com/Twipped/InterviewThis"/>
   <id>https://github.com/Twipped/InterviewThis</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A list of questions to ask the company in an interview — it flips the direction so you can assess the workplace.</summary>
+  <summary>A list of questions to ask the company in an interview. Unlike candidate-prep lists it flips the direction, so you assess the workplace.</summary>
 </entry>
 <entry>
   <title>keybr.com</title>
@@ -284,6 +277,13 @@
   <link href="https://github.com/mission-peace/interview"/>
   <id>https://github.com/mission-peace/interview</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A large collection of coding-interview problems and solutions, with video explanations.</summary>
+  <summary>Tushar Roy’s large collection of coding-interview problems and solutions. Unlike LeetCode solutions, most problems pair with a detailed video explanation on YouTube.</summary>
+</entry>
+<entry>
+  <title>NeetCode</title>
+  <link href="https://neetcode.io"/>
+  <id>https://neetcode.io</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A roadmap that groups LeetCode problems by topic and pairs each with a solution video. Against a raw problem list the difference is ordering: which 150 problems, in which sequence, teach the patterns — the thing random grinding never gives you.</summary>
 </entry>
 </feed>

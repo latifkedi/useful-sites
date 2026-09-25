@@ -109,63 +109,63 @@
   <link href="https://github.com/pathikrit/better-files"/>
   <id>https://github.com/pathikrit/better-files</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A thin NIO wrapper library that makes file operations in Scala easy.</summary>
+  <summary>A thin NIO wrapper library that makes file operations in Scala easy. Unlike using java.nio directly, it reduces reading, writing and walking files to readable one-line Scala idioms.</summary>
 </entry>
 <entry>
   <title>C#</title>
   <link href="https://dotnet.microsoft.com/languages/csharp"/>
   <id>https://dotnet.microsoft.com/languages/csharp</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Microsoft’s general-purpose language for the .NET platform.</summary>
+  <summary>Microsoft’s general-purpose language for the .NET platform, and the scripting language of Unity games. Unlike Java, features such as LINQ, async/await and custom value types are built into the language.</summary>
 </entry>
 <entry>
   <title>Clojure</title>
   <link href="https://clojure.org/"/>
   <id>https://clojure.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A modern Lisp dialect on the JVM, focused on immutability.</summary>
+  <summary>A modern Lisp dialect on the JVM. Unlike Common Lisp, it uses Java libraries directly and its data structures are immutable by default.</summary>
 </entry>
 <entry>
   <title>Coursier</title>
   <link href="https://github.com/alexarchambault/coursier"/>
   <id>https://github.com/alexarchambault/coursier</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A fast JVM dependency resolver and application launcher written in pure Scala.</summary>
+  <summary>A JVM dependency resolver and application launcher written in pure Scala. Unlike classic Maven/Ivy resolution it downloads in parallel and is much faster; sbt now resolves dependencies with it too.</summary>
 </entry>
 <entry>
   <title>Dart</title>
   <link href="https://dart.dev/"/>
   <id>https://dart.dev/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Google’s client-oriented language, the one beneath Flutter.</summary>
+  <summary>Google’s client-oriented language, the one beneath Flutter. Unlike JavaScript it has a sound type system with null safety, and compiles both to native machine code and to JavaScript.</summary>
 </entry>
 <entry>
   <title>Elixir</title>
   <link href="https://elixir-lang.org/"/>
   <id>https://elixir-lang.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A functional language on the Erlang VM, strong in scalability.</summary>
+  <summary>A functional language on the Erlang VM, strong in scalability. Unlike Erlang it has a Ruby-like syntax and a macro system, while inheriting fault tolerance (OTP) unchanged.</summary>
 </entry>
 <entry>
   <title>Go</title>
   <link href="https://golang.org/"/>
   <id>https://golang.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Google’s simple, fast-compiling language strong in concurrency — its official site.</summary>
+  <summary>The official site of Google’s simple, fast-compiling language, strong in concurrency. Unlike Java or C++ it is deliberately small: few keywords, one formatter (gofmt), builds in seconds.</summary>
 </entry>
 <entry>
   <title>Haskell</title>
   <link href="https://www.haskell.org/"/>
   <id>https://www.haskell.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A purely functional, statically typed programming language with lazy evaluation.</summary>
+  <summary>A purely functional, statically typed programming language with lazy evaluation. Unlike most functional languages it is pure: side effects are kept apart in the type system (IO).</summary>
 </entry>
 <entry>
   <title>JCTools</title>
   <link href="https://github.com/JCTools/JCTools"/>
   <id>https://github.com/JCTools/JCTools</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Very high-performance concurrent queues for the JVM, used by projects like Netty.</summary>
+  <summary>Very high-performance concurrent queues for the JVM, used by projects like Netty. Unlike the java.util.concurrent queues, it offers lock-free designs specialised for single/multi producer–consumer cases.</summary>
 </entry>
 <entry>
   <title>JMH</title>
@@ -193,14 +193,14 @@
   <link href="https://kotlinlang.org/"/>
   <id>https://kotlinlang.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A cross-platform language on the JVM, the preferred language for Android.</summary>
+  <summary>A cross-platform language on the JVM, the preferred language for Android. Unlike Java it has null safety, a terser syntax and coroutines, while interoperating fully with Java code.</summary>
 </entry>
 <entry>
   <title>Lua</title>
   <link href="https://www.lua.org/"/>
   <id>https://www.lua.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A lightweight, embeddable scripting language, common in games and embedded systems.</summary>
+  <summary>A lightweight, embeddable scripting language, common in game engines, embedded systems and Neovim. Unlike Python its runtime is tiny and it embeds easily into a C program.</summary>
 </entry>
 <entry>
   <title>OpenJDK</title>
@@ -214,14 +214,14 @@
   <link href="https://www.perl.org/"/>
   <id>https://www.perl.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A dynamic, mature language strong in text processing and system scripting.</summary>
+  <summary>A dynamic, mature language strong in text processing and system scripting. Unlike Python it has regular expressions built into the language and a one-liner culture; the CPAN archive is vast.</summary>
 </entry>
 <entry>
   <title>PHP</title>
   <link href="https://www.php.net/"/>
   <id>https://www.php.net/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>One of the most common server-side languages of the web — its official docs.</summary>
+  <summary>The official docs of one of the web’s most common server-side languages. Unlike most language docs, every function page carries user notes at the bottom — where the practical pitfalls are usually written up.</summary>
 </entry>
 <entry>
   <title>R</title>
@@ -235,7 +235,7 @@
   <link href="https://www.ruby-lang.org/en/"/>
   <id>https://www.ruby-lang.org/en/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A multi-paradigm language foregrounding readability and developer happiness.</summary>
+  <summary>A multi-paradigm language foregrounding readability and developer happiness — the language of Rails. Unlike Python, everything is an object and its flexible syntax lends itself to DSLs.</summary>
 </entry>
 <entry>
   <title>Rust by Example</title>
@@ -263,14 +263,14 @@
   <link href="https://www.scala-lang.org/"/>
   <id>https://www.scala-lang.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A language on the JVM uniting object-oriented and functional programming.</summary>
+  <summary>A language on the JVM uniting object-oriented and functional programming — the language Spark is written in. Unlike Java it has strong type inference, pattern matching and functional collections.</summary>
 </entry>
 <entry>
   <title>Scalastyle</title>
-  <link href="http://www.scalastyle.org/"/>
-  <id>http://www.scalastyle.org/</id>
+  <link href="https://github.com/scalastyle/scalastyle"/>
+  <id>https://github.com/scalastyle/scalastyle</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A linter that checks Scala source against formatting and style rules.</summary>
+  <summary>A linter that checks Scala source against formatting and style rules; the project site is gone and the repository has been dormant since 2022. Unlike scalafmt it reports violations instead of reformatting; new projects mostly use Scalafix.</summary>
 </entry>
 <entry>
   <title>Scoverage</title>
@@ -284,6 +284,6 @@
   <link href="https://www.swift.org/"/>
   <id>https://www.swift.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Apple’s safe, fast-compiled language, developed primarily for iOS.</summary>
+  <summary>Apple’s safe, fast-compiled language, developed primarily for iOS and also running on Linux and servers. Unlike Objective-C it has a safe memory model built around optionals and a modern syntax.</summary>
 </entry>
 </feed>

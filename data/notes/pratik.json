@@ -7,8 +7,8 @@
       "türkçe",
       "interaktif"
     ],
-    "tr": "Türkçe kelime listesiyle yazma hızı testi; sonuçları kaydedip ilerlemeyi izleyebiliyorsun.",
-    "en": "A typing speed test on a Turkish word list, saving results so you can track progress.",
+    "tr": "Türkçe kelime listesiyle yazma hızı testi; sonuçları kaydedip ilerlemeyi izleyebiliyorsun. İngilizce odaklı testlerden farkı Türkçe karakterler ve kelime sıklığıyla ölçmesi.",
+    "en": "A typing speed test on a Turkish word list, saving results so you can track progress. Unlike English-centric tests, it measures with Turkish characters and word frequencies.",
     "src": "kedi",
     "added": 1763065356
   },
@@ -19,8 +19,8 @@
       "ücretsiz",
       "interaktif"
     ],
-    "tr": "Her aralık ayında günde bir bulmaca. Herkes aynı anda çözdüğü için tartışma ve çözüm karşılaştırması o hafta çok zengin oluyor; arşiv yıl boyu açık.",
-    "en": "One puzzle a day each December. Because everyone solves in sync the discussion that week is unusually rich; the archive stays open year round.",
+    "tr": "Her aralık ayında günde bir bulmaca; arşiv yıl boyu açık. Diğer bulmaca sitelerinden farkı herkesin aynı anda çözmesi: o hafta tartışma ve çözüm karşılaştırması çok zengin oluyor.",
+    "en": "One puzzle a day each December, with the archive open year round. Unlike other puzzle sites everyone solves in sync, so the discussion and solution comparisons that week are unusually rich.",
     "src": "kedi",
     "added": 1775420463
   },
@@ -31,8 +31,8 @@
       "github",
       "algoritma"
     ],
-    "tr": "Algoritma ve veri yapılarının Java uygulamaları; her biri testleriyle birlikte, okunabilir biçimde yazılmış.",
-    "en": "Java implementations of algorithms and data structures, each written readably and with tests.",
+    "tr": "Algoritma ve veri yapılarının Java uygulamaları. Ders kitaplarındaki sözde koddan farkı her birinin okunabilir biçimde yazılmış, testleriyle çalışan gerçek kod olması.",
+    "en": "Java implementations of algorithms and data structures. Unlike textbook pseudocode, each is real, readable, working code with its tests.",
     "src": "bwapsv"
   },
   {
@@ -89,8 +89,8 @@
       "ücretsiz",
       "algoritma"
     ],
-    "tr": "Programlama, matematik ve SQL problemlerini çözüp otomatik değerlendiren yargıç (online judge).",
-    "en": "An online judge grading programming, mathematics and SQL problems automatically.",
+    "tr": "Programlama, matematik ve SQL problemlerini çözüp otomatik değerlendiren yargıç (online judge); eski adı URI Online Judge. LeetCode’dan farkı mülakat değil öğrenme odaklı olması ve başlangıç seviyesi problemlerinin bolluğu.",
+    "en": "An online judge grading programming, mathematics and SQL problems automatically, formerly URI Online Judge. Unlike LeetCode it is learning- rather than interview-oriented, with plenty of beginner problems.",
     "src": "awesomeproj"
   },
   {
@@ -102,8 +102,8 @@
       "algoritma",
       "mülakat"
     ],
-    "tr": "Veri yapıları ve sıralama algoritmalarının zaman ve alan karmaşıklıklarını tek tabloda renk kodlu gösteriyor. Mülakat öncesi son bakış için.",
-    "en": "A single colour-coded table of time and space complexity for data structures and sorting algorithms — the last look before an interview.",
+    "tr": "Veri yapıları ve sıralama algoritmalarının zaman ve alan karmaşıklıklarını tek tabloda renk kodlu gösteriyor. Ders kitabından farkı her şeyin tek bakışta görülmesi: mülakat öncesi son bakış için.",
+    "en": "A single colour-coded table of time and space complexity for data structures and sorting algorithms. Unlike a textbook it shows everything at a glance — the last look before an interview.",
     "src": "bwapsv"
   },
   {
@@ -113,8 +113,8 @@
       "ücretsiz",
       "algoritma"
     ],
-    "tr": "Büyük-O gösterimi üzerine yaygın yanlış anlamaları düzelten yazı; en kötü durum ile ortalama durumun karıştırılması gibi.",
-    "en": "A piece correcting common misunderstandings of big-O notation, such as conflating worst case with average case.",
+    "tr": "Büyük-O gösterimi üzerine yaygın yanlış anlamaları düzelten yazı. Standart anlatımlardan farkı, en kötü durum ile ortalama durumun karıştırılması gibi ince hataları doğrudan hedef alması.",
+    "en": "A piece correcting common misunderstandings of big-O notation. Unlike standard explanations, it targets subtle errors directly, such as conflating worst case with average case.",
     "src": "bwapsv"
   },
   {
@@ -136,8 +136,8 @@
       "interaktif",
       "tarayıcı-içi"
     ],
-    "tr": "15+ dilde tarayıcı içi dersler; ortam kurulumu gerektirmiyor. Kurulum aşamasında pes eden yeni başlayanlar için gerçek bir engel kaldırıyor.",
-    "en": "In-browser lessons across 15+ languages with no environment setup — removing the barrier that stops beginners at installation.",
+    "tr": "15+ dilde tarayıcı içi dersler. Yerel kurulum yerine her şey tarayıcıda çalıştığı için kurulum aşamasında pes eden yeni başlayanların önündeki gerçek bir engeli kaldırıyor.",
+    "en": "In-browser lessons across 15+ languages. Because everything runs in the browser instead of a local setup, it removes the barrier that stops beginners at installation.",
     "src": "kedi",
     "added": 1776686976
   },
@@ -148,8 +148,8 @@
       "interaktif",
       "ücretsiz"
     ],
-    "tr": "Bir problemi mümkün olan en kısa kodla çözme yarışması topluluğu.",
-    "en": "A community contest to solve a problem in the shortest possible code.",
+    "tr": "Bir problemi mümkün olan en kısa kodla çözme yarışması topluluğu. Algoritma sitelerinden farkı ölçütün hız ya da doğruluk değil kod uzunluğu olması; dillerin ne kadar esnetilebileceğini gösteriyor.",
+    "en": "A community contest to solve a problem in the shortest possible code. Unlike algorithm sites the measure is code length rather than speed or correctness — it shows how far languages can be bent.",
     "src": "awesomeproj"
   },
   {
@@ -170,8 +170,8 @@
       "freemium",
       "algoritma"
     ],
-    "tr": "Aylık yarışmalı algoritma platformu; sorular zorluk seviyesine göre etiketli ve editöryal çözümleri yayımlanıyor.",
-    "en": "A competitive algorithm platform with monthly contests, difficulty-tagged problems and published editorial solutions.",
+    "tr": "Düzenli yarışmalar düzenleyen algoritma platformu; sorular zorluk seviyesine göre etiketli ve editöryal çözümleri yayımlanıyor. Codeforces’tan farkı başlangıç seviyesine yönelik öğrenme yolları ve pratik bölümleri sunması.",
+    "en": "A competitive algorithm platform with regular contests, difficulty-tagged problems and published editorial solutions. Unlike Codeforces, it offers learning paths and practice sections aimed at beginners.",
     "src": "bwapsv"
   },
   {
@@ -214,8 +214,8 @@
       "freemium",
       "mülakat"
     ],
-    "tr": "Mülakat sorusu havuzu ve değerlendirme aracı; çözümlerin video anlatımı var.",
-    "en": "An interview problem bank and assessment tool with video explanations of solutions.",
+    "tr": "Mülakat sorusu havuzu ve değerlendirme aracı. LeetCode’dan farkı çözümlerin video anlatımı ve şirketlerin aday değerlendirmesinde kullandığı sınav aracını da barındırması.",
+    "en": "An interview problem bank and assessment tool. Unlike LeetCode it offers video explanations of solutions and also hosts the assessment tool companies use to screen candidates.",
     "src": "bwapsv"
   },
   {
@@ -237,8 +237,8 @@
       "ücretsiz",
       "interaktif"
     ],
-    "tr": "Dövüş sanatı derecelendirmesiyle oyunlaştırılmış alıştırmalar. Asıl öğrenme çözümden sonra: aynı soruya başkalarının yazdığı çözümleri okuyorsun.",
-    "en": "Practice gamified with martial-arts ranks. The learning happens after you solve — you read what everyone else wrote for the same problem.",
+    "tr": "Dövüş sanatı derecelendirmesiyle oyunlaştırılmış alıştırmalar. LeetCode’dan farkı asıl öğrenmenin çözümden sonra gelmesi: aynı soruya başkalarının yazdığı çözümleri okuyup oyluyorsun.",
+    "en": "Practice gamified with martial-arts ranks. Unlike LeetCode the learning happens after you solve — you read and vote on what everyone else wrote for the same problem.",
     "src": "kedi",
     "added": 1772624252
   },
@@ -273,8 +273,8 @@
       "öğretici",
       "interaktif"
     ],
-    "tr": "Rol yapma oyunu temalı öğrenme; deneyim puanı ve harita ilerlemesiyle motivasyonu ayakta tutuyor. Tamamen yeni başlayanlar için tasarlanmış, ileri seviyeye çıkmıyor.",
-    "en": "RPG-themed learning that sustains motivation with XP and map progress. Built for complete beginners and it does not carry you to advanced.",
+    "tr": "Rol yapma oyunu temalı öğrenme; deneyim puanı ve harita ilerlemesiyle motivasyonu ayakta tutuyor. Ciddi tonlu kurslardan farkı bu oyun teması; tamamen yeni başlayanlar için tasarlanmış, ileri seviyeye çıkmıyor.",
+    "en": "RPG-themed learning that sustains motivation with XP and map progress. Unlike serious-toned courses it leans on the game theme; built for complete beginners, it does not carry you to advanced.",
     "src": "kedi",
     "added": 1753917013
   },
@@ -298,8 +298,8 @@
       "interaktif",
       "güvenlik"
     ],
-    "tr": "Kriptografiyi kırarak öğreten platform; her seviye gerçek bir zafiyeti sömürdürüyor. Teorik kriptografi dersinin uygulamalı karşılığı.",
-    "en": "Teaches cryptography by breaking it, with each level exploiting a real weakness — the applied counterpart to a theory course.",
+    "tr": "Kriptografiyi kırarak öğreten platform; her seviye gerçek bir zafiyeti sömürdürüyor. Teorik kriptografi dersinden farkı saldırgan gözüyle öğretmesi — onun uygulamalı karşılığı.",
+    "en": "Teaches cryptography by breaking it, with each level exploiting a real weakness. Unlike a theory course it teaches from the attacker’s side — the applied counterpart.",
     "src": "bwapsv"
   },
   {
@@ -322,8 +322,8 @@
       "mülakat",
       "freemium"
     ],
-    "tr": "Her gün e-postayla bir kodlama mülakat sorusu gönderen servis.",
-    "en": "A service that emails one coding-interview problem every day.",
+    "tr": "Her gün e-postayla bir kodlama mülakat sorusu gönderen servis. Soru platformlarından farkı gelen kutusuna düşmesi: amaç alışkanlık kurdurmak; ayrıntılı çözümler ücretli.",
+    "en": "A service that emails one coding-interview problem every day. Unlike problem platforms it lands in your inbox — the point is building a habit; detailed solutions are paid.",
     "src": "awesomeproj"
   },
   {
@@ -334,8 +334,8 @@
       "veritabanı",
       "mülakat"
     ],
-    "tr": "SQL ve veri bilimi mülakat soruları; tarayıcıda gerçek sorgu çalıştırıp doğruluyorsun. Genel algoritma platformlarının kapsamadığı bir boşluk.",
-    "en": "SQL and data science interview questions with real queries run and checked in the browser — a gap the general algorithm platforms leave open.",
+    "tr": "SQL ve veri bilimi mülakat soruları; tarayıcıda gerçek sorgu çalıştırıp doğruluyorsun. Genel algoritma platformlarından farkı onların boş bıraktığı veri mülakatlarına odaklanması.",
+    "en": "SQL and data science interview questions with real queries run and checked in the browser. Unlike general algorithm platforms, it focuses on the data interviews they leave uncovered.",
     "src": "kedi",
     "added": 1778513679
   },
@@ -382,8 +382,8 @@
       "github",
       "interaktif"
     ],
-    "tr": "Exercism alıştırmalarının dilden bağımsız tanımları ve test verileri. Kendi dilinde alıştırma seti kurmak isteyenler için hazır malzeme.",
-    "en": "Language-independent definitions and test data for Exercism’s exercises — ready material if you want to build a practice set in your own language.",
+    "tr": "Exercism alıştırmalarının dilden bağımsız tanımları ve test verileri. Exercism sitesinden farkı çözüm ortamı değil ham malzeme olması: kendi dilinde alıştırma seti kurmak isteyenler için.",
+    "en": "Language-independent definitions and test data for Exercism’s exercises. Unlike the Exercism site it is raw material rather than a practice environment — for building a practice set in your own language.",
     "src": "kedi",
     "added": 1772624455
   },
@@ -419,21 +419,10 @@
       "git",
       "interaktif"
     ],
-    "tr": "Git komutlarını güvenli bir ortamda deneyip anında geri bildirim alıyorsun. Gerçek depoda hata yapma korkusu olmadan pratik.",
-    "en": "Run Git commands in a safe environment with immediate feedback — practice without the fear of breaking a real repository.",
+    "tr": "Git komutlarını güvenli bir ortamda deneyip anında geri bildirim alıyorsun. Gerçek bir depoda denemek yerine burada hata yapma korkusu olmadan pratik yapıyorsun.",
+    "en": "Run Git commands in a safe environment with immediate feedback. Rather than experimenting on a real repository, you practise here without the fear of breaking anything.",
     "src": "kedi",
     "added": 1775475259
-  },
-  {
-    "url": "https://glitch.com/",
-    "name": "Glitch",
-    "tags": [
-      "ücretsiz",
-      "tarayıcı-içi"
-    ],
-    "tr": "Tarayıcıda çalışan, anında yayına giren küçük uygulama ortamı. Kurulum ve dağıtım adımını tamamen atlayıp fikri denemek için.",
-    "en": "A browser environment for small apps that go live instantly — for testing an idea while skipping setup and deployment entirely.",
-    "src": "bwapsv"
   },
   {
     "url": "https://grow.google/certificates/interview-warmup/",
@@ -442,8 +431,8 @@
       "mülakat",
       "ücretsiz"
     ],
-    "tr": "Mülakat sorularına sesli yanıt verip yapay zekâ geri bildirimi aldığın pratik aracı.",
-    "en": "A practice tool where you answer interview questions aloud and get AI feedback.",
+    "tr": "Mülakat sorularına sesli yanıt verip yapay zekâ geri bildirimi aldığın pratik aracı. Kodlama mülakatı sitelerinden farkı davranışsal ve alan sorularına odaklanması; yanıtında geçen anahtar terimleri işaretliyor.",
+    "en": "A practice tool where you answer interview questions aloud and get AI feedback. Unlike coding-interview sites, it focuses on behavioural and role questions, highlighting the key terms in your answer.",
     "src": "bwapsv"
   },
   {
@@ -454,8 +443,8 @@
       "algoritma",
       "mülakat"
     ],
-    "tr": "Yarışma ve işe alım değerlendirmesini birleştiren platform; şirketler teknik ön elemeyi burada yapıyor.",
-    "en": "Combines contests with hiring assessments — companies run technical screening here.",
+    "tr": "Yarışma ve işe alım değerlendirmesini birleştiren platform; şirketler teknik ön elemeyi burada yapıyor. HackerRank’ten farkı hackathon düzenleme tarafının güçlü olması.",
+    "en": "Combines contests with hiring assessments — companies run technical screening here. Unlike HackerRank, it is strong on hosting hackathons.",
     "src": "bwapsv"
   },
   {
@@ -466,8 +455,8 @@
       "mülakat",
       "sertifika"
     ],
-    "tr": "Alıştırma ve işe alım sınavı aynı platformda; şirketler teknik testleri gerçekten burada uyguluyor. Yani sınav ortamını önceden tanımış oluyorsun.",
-    "en": "Practice and hiring assessments on one platform — companies genuinely run their technical tests here, so you get to know the exam environment in advance.",
+    "tr": "Alıştırma ve işe alım sınavı aynı platformda. LeetCode’dan farkı şirketlerin teknik testleri gerçekten burada uygulaması: sınav ortamını önceden tanımış oluyorsun.",
+    "en": "Practice and hiring assessments on one platform. Unlike LeetCode, companies genuinely run their technical tests here, so you get to know the exam environment in advance.",
     "src": "kedi",
     "added": 1772624319
   },
@@ -478,8 +467,8 @@
       "mülakat",
       "öğretici"
     ],
-    "tr": "Sistem tasarımı ve algoritma mülakatlarına yönelik yapılı kurslar.",
-    "en": "Structured courses for system-design and algorithm interviews.",
+    "tr": "Sistem tasarımı ve algoritma mülakatlarına yönelik yapılı kurslar. Soru havuzlarından farkı soru değil yöntem öğretmesi: problemi adım adım ele alma çerçevesi; içerik eski ama çerçeve hâlâ geçerli.",
+    "en": "Structured courses for system-design and algorithm interviews. Unlike problem banks it teaches method rather than questions — a framework for working a problem step by step; the content is old but the framework holds.",
     "src": "bwapsv"
   },
   {
@@ -502,8 +491,8 @@
       "mülakat",
       "algoritma"
     ],
-    "tr": "Mülakat hazırlığını konu bağımlılığına göre sıralayıp oyunlaştıran platform; her konu bir öncekinin üstüne bina ediliyor.",
-    "en": "Gamified interview preparation ordered by topic dependency, each subject building on the last.",
+    "tr": "Mülakat hazırlığını oyunlaştıran platform. LeetCode’un serbest soru havuzundan farkı konuların bağımlılık sırasına dizilmesi: her konu bir öncekinin üstüne bina ediliyor.",
+    "en": "Gamified interview preparation. Unlike LeetCode’s open problem pool, topics are ordered by dependency, each building on the last.",
     "src": "bwapsv"
   },
   {
@@ -513,8 +502,8 @@
       "github",
       "mülakat"
     ],
-    "tr": "Mülakatta şirkete sorulacak soruların listesi; yön değiştirip iş yerini değerlendirmene yarıyor.",
-    "en": "A list of questions to ask the company in an interview — it flips the direction so you can assess the workplace.",
+    "tr": "Mülakatta şirkete sorulacak soruların listesi. Aday hazırlık listelerinin aksine yönü tersine çeviriyor: iş yerini sen değerlendiriyorsun.",
+    "en": "A list of questions to ask the company in an interview. Unlike candidate-prep lists it flips the direction, so you assess the workplace.",
     "src": "bwapsv"
   },
   {
@@ -588,8 +577,8 @@
       "github",
       "algoritma"
     ],
-    "tr": "Video anlatımlı, geniş bir kodlama mülakat problemleri ve çözümleri koleksiyonu.",
-    "en": "A large collection of coding-interview problems and solutions, with video explanations.",
+    "tr": "Tushar Roy’un geniş kodlama mülakat problemleri ve çözümleri koleksiyonu. LeetCode çözümlerinden farkı çoğu problemin YouTube’da ayrıntılı bir video anlatımıyla eşleşmesi.",
+    "en": "Tushar Roy’s large collection of coding-interview problems and solutions. Unlike LeetCode solutions, most problems pair with a detailed video explanation on YouTube.",
     "src": "bwapsv"
   },
   {
@@ -612,8 +601,8 @@
       "türkçe",
       "interaktif"
     ],
-    "tr": "F ve Q düzenlerini ayrı ayrı destekleyen Türkçe on parmak eğitimi. F klavye materyalinin ücretsiz bulunması yerelde ender.",
-    "en": "Turkish touch-typing training supporting F and Q layouts separately. Free material for the F layout is rare locally.",
+    "tr": "F ve Q düzenlerini ayrı ayrı destekleyen Türkçe on parmak eğitimi. Q klavye odaklı sitelerden farkı F klavyeyi de desteklemesi — ücretsiz F klavye materyali yerelde ender.",
+    "en": "Turkish touch-typing training supporting F and Q layouts separately. Unlike Q-centric sites it supports the F layout too — free F-layout material is rare locally.",
     "src": "kedi",
     "added": 1785875459
   },
@@ -624,8 +613,8 @@
       "algoritma",
       "ücretsiz"
     ],
-    "tr": "ACM/ICPC tarzı problemler için klasik online judge (Peking Üniversitesi).",
-    "en": "A classic online judge for ACM/ICPC-style problems (Peking University).",
+    "tr": "ACM/ICPC tarzı problemler için klasik çevrimiçi yargıç (Peking Üniversitesi). Codeforces gibi yarışma platformlarından farkı eski ICPC problemlerinin arşivi olması; arayüzü eski ama soruları klasik.",
+    "en": "A classic online judge for ACM/ICPC-style problems (Peking University). Unlike contest platforms such as Codeforces it is an archive of older ICPC problems; the interface is dated but the problems are classics.",
     "src": "bwapsv"
   },
   {
@@ -635,8 +624,8 @@
       "mülakat",
       "ücretsiz"
     ],
-    "tr": "Gerçek akranlarla karşılıklı, ücretsiz teknik mülakat pratiği.",
-    "en": "Free, peer-to-peer mock technical-interview practice.",
+    "tr": "Gerçek akranlarla karşılıklı, ücretsiz teknik mülakat pratiği; artık Exponent bünyesinde. Tek başına soru çözmekten farkı karşında gerçek bir insanın olması: sırayla mülakatçı ve aday oluyorsunuz.",
+    "en": "Free, peer-to-peer mock technical-interview practice, now part of Exponent. Unlike solving problems alone there is a real person opposite you, and you take turns as interviewer and candidate.",
     "src": "bwapsv"
   },
   {
@@ -646,8 +635,8 @@
       "ücretsiz",
       "öğretici"
     ],
-    "tr": "Küçük ve çok sayıda alıştırmayla programlamayı öğreten site; her adım bir öncekinin üstüne minik bir ekleme yapıyor. Lise düzeyi giriş için tasarlanmış.",
-    "en": "Teaches programming through many small exercises, each adding a little to the last. Designed for a high-school-level start.",
+    "tr": "Küçük ve çok sayıda alıştırmayla programlamayı öğreten site; lise düzeyi giriş için tasarlanmış. Proje tabanlı kurslardan farkı her adımın bir öncekine yalnız minik bir ekleme yapması.",
+    "en": "Teaches programming through many small exercises, designed for a high-school-level start. Unlike project-based courses, each step adds only a little to the last.",
     "src": "bwapsv"
   },
   {
@@ -670,8 +659,8 @@
       "akademik",
       "ücretsiz"
     ],
-    "tr": "Matematik ve programlamayı birleştiren, arşivlenmiş problemler koleksiyonu.",
-    "en": "An archived collection of problems joining mathematics and programming.",
+    "tr": "Matematik ve programlamayı birleştiren, arşivlenmiş problemler koleksiyonu. Algoritma sitelerinden farkı matematiksel içgörü istemesi: iyi bir çözüm bir dakikadan kısa sürmeli, kaba kuvvet çoğu zaman yetmiyor.",
+    "en": "An archived collection of problems joining mathematics and programming. Unlike algorithm sites it demands mathematical insight: a good solution should run in under a minute, and brute force usually is not enough.",
     "src": "awesomeproj"
   },
   {
@@ -681,8 +670,8 @@
       "algoritma",
       "referans"
     ],
-    "tr": "Matematik ve algoritma ağırlıklı, iyi açıklanmış küçük programlama problemleri.",
-    "en": "Well-explained small programming problems, heavy on maths and algorithms.",
+    "tr": "Matematik ve algoritma ağırlıklı, iyi açıklanmış küçük programlama projeleri. Soru sitelerinden farkı her yazının açıklamasıyla birlikte, birden çok dilde temiz bir uygulama sunması.",
+    "en": "Well-explained small programming projects, heavy on maths and algorithms. Unlike problem sites, each article comes with a clean implementation, often in several languages, alongside the explanation.",
     "src": "bwapsv"
   },
   {
@@ -693,8 +682,8 @@
       "interaktif",
       "sistem-tasarımı"
     ],
-    "tr": "Kodu satır satır çalıştırıp yığın çerçevelerini ve heap’teki nesneleri çiziyor. Referans, kapsam ve değişebilir varsayılan argüman hatalarını anlatmakta eşi yok.",
-    "en": "Steps through code drawing stack frames and heap objects. Nothing explains reference semantics, scope and mutable default arguments as clearly.",
+    "tr": "Kodu satır satır çalıştırıp yığın çerçevelerini ve heap’teki nesneleri çiziyor. Klasik hata ayıklayıcılardan farkı belleği görselleştirmesi: referans, kapsam ve değişebilir varsayılan argüman hatalarını anlatmakta eşi yok.",
+    "en": "Steps through code drawing stack frames and heap objects. Unlike a classic debugger it visualises memory — nothing explains reference semantics, scope and mutable default arguments as clearly.",
     "src": "kedi",
     "added": 1787182437
   },
@@ -728,8 +717,8 @@
       "ücretsiz",
       "öğretici"
     ],
-    "tr": "Programlamaya hevesliler için düzenli, etkileşimli konu anlatım ve pratik alanı.",
-    "en": "An organised, interactive space of topic tutorials and practice for aspiring programmers.",
+    "tr": "Programlamaya hevesliler için düzenli, etkileşimli konu anlatım ve pratik alanı. Scaler’ın ücretli akademi programlarından farkı ücretsiz, tek tek konu sayfaları olması.",
+    "en": "An organised, interactive space of topic tutorials and practice for aspiring programmers. Unlike Scaler’s paid academy programmes, these are free, standalone topic pages.",
     "src": "bwapsv"
   },
   {
@@ -739,8 +728,8 @@
       "ücretsiz",
       "algoritma"
     ],
-    "tr": "Uzun süredir çalışan çevrimiçi yargıç; klasik algoritma problemlerinin geniş arşivi. Arayüzü eski ama soru havuzu hâlâ referans kabul ediliyor.",
-    "en": "A long-running online judge with a large archive of classic algorithm problems. The interface is dated, but the problem set is still treated as a reference.",
+    "tr": "Uzun süredir çalışan çevrimiçi yargıç; klasik algoritma problemlerinin geniş arşivi. Codeforces’tan farkı yarışmadan çok arşiv olması ve 40’tan fazla dili kabul etmesi; arayüzü eski ama soru havuzu hâlâ referans.",
+    "en": "A long-running online judge with a large archive of classic algorithm problems. Unlike Codeforces it is more archive than contest and accepts 40+ languages; the interface is dated, but the problem set is still a reference.",
     "src": "bwapsv"
   },
   {
@@ -776,8 +765,8 @@
       "ücretsiz",
       "referans"
     ],
-    "tr": "Teknik mülakatı geçmek için sıralı, kapsamlı ve ücretsiz rehber.",
-    "en": "An ordered, comprehensive, free guide to cracking the tech interview.",
+    "tr": "Teknik mülakatı geçmek için sıralı, kapsamlı ve ücretsiz rehber; Blind 75 listesinin yazarından. Soru havuzlarından farkı sürecin tamamını — CV, davranışsal sorular, maaş pazarlığı — kapsaması.",
+    "en": "An ordered, comprehensive, free guide to cracking the tech interview, by the author of the Blind 75 list. Unlike problem banks it covers the whole process — résumé, behavioural questions, salary negotiation.",
     "src": "bwapsv"
   },
   {
@@ -814,8 +803,8 @@
       "açık-kaynak",
       "referans"
     ],
-    "tr": "Aynı yapılacaklar uygulamasını onlarca JavaScript çatısında gösterip çatıları yan yana karşılaştırmayı sağlar.",
-    "en": "Shows the same to-do app built in dozens of JavaScript frameworks so you can compare them side by side.",
+    "tr": "Aynı yapılacaklar uygulamasını onlarca JavaScript çatısında gösteriyor. Çatıların kendi demolarından farkı işlevin sabit tutulması: yalnız yaklaşım değiştiği için çatıları yan yana karşılaştırabiliyorsun.",
+    "en": "Shows the same to-do app built in dozens of JavaScript frameworks. Unlike the frameworks’ own demos the functionality is held constant, so only the approach changes and you can compare them side by side.",
     "src": "testsites"
   },
   {
@@ -825,8 +814,8 @@
       "ücretsiz",
       "algoritma"
     ],
-    "tr": "Yarışmacı programlamanın en eski platformlarından; problem arşivi ve editöryalleri algoritma tarihinin bir kesiti.",
-    "en": "One of the oldest competitive programming platforms; its problem archive and editorials form a slice of algorithm history.",
+    "tr": "Yarışmacı programlamanın en eski platformlarından; problem arşivi ve editöryalleri algoritma tarihinin bir kesiti. Codeforces’tan farkı artık ağırlığın serbest yazılım işlerine (crowdsourcing) kaymış olması.",
+    "en": "One of the oldest competitive programming platforms; its problem archive and editorials form a slice of algorithm history. Unlike Codeforces, its weight has since shifted to crowdsourced freelance work.",
     "src": "bwapsv"
   },
   {
@@ -872,8 +861,8 @@
       "interaktif",
       "ücretsiz"
     ],
-    "tr": "Başkalarıyla yarışarak klavyede yazma hızını artıran çevrimiçi oyun.",
-    "en": "An online game to increase your typing speed by racing against others.",
+    "tr": "Başkalarıyla yarışarak klavyede yazma hızını artıran çevrimiçi oyun. Tek başına yazma testlerinden farkı canlı yarış olması; metinler kitap ve film alıntılarından seçiliyor.",
+    "en": "An online game to increase your typing speed by racing against others. Unlike solo typing tests it is a live race, with texts drawn from book and film quotes.",
     "src": "bwapsv"
   },
   {
@@ -883,8 +872,8 @@
       "algoritma",
       "ücretsiz"
     ],
-    "tr": "Yüzlerce yarışma problemini otomatik değerlendiren klasik online judge.",
-    "en": "A classic online judge auto-grading hundreds of contest problems.",
+    "tr": "Yüzlerce yarışma problemini otomatik değerlendiren klasik çevrimiçi yargıç. Yeni platformlardan farkı Competitive Programming (Halim) kitabının problem listelerinin dayandığı arşiv olması.",
+    "en": "A classic online judge auto-grading hundreds of contest problems. Unlike newer platforms, it is the archive the problem lists of the Competitive Programming (Halim) book are built on.",
     "src": "awesomeproj"
   },
   {
@@ -906,8 +895,8 @@
       "interaktif",
       "algoritma"
     ],
-    "tr": "Veri yapısı ve algoritmaları adım adım canlandırıyor; kendi girdini verip izleyebiliyorsun. AVL ağacı dönmesi gibi konuları kod okuyarak anlamak çok daha zor.",
-    "en": "Animates data structures and algorithms step by step against input you supply. Something like an AVL rotation is far harder to grasp by reading code.",
+    "tr": "Veri yapısı ve algoritmaları adım adım canlandırıyor. Ders kitabı çizimlerinden farkı kendi girdini verip izleyebilmen: AVL ağacı dönmesi gibi konular kod okuyarak anlamaktan çok daha kolay kavranıyor.",
+    "en": "Animates data structures and algorithms step by step. Unlike textbook diagrams you supply your own input and watch — something like an AVL rotation is far easier to grasp than by reading code.",
     "src": "kedi",
     "added": 1778513592
   }
