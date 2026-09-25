@@ -18,8 +18,8 @@
       "ücretsiz",
       "kitap"
     ],
-    "tr": "Bash betiklemenin en kapsamlı ücretsiz referansı; her konu çalıştırılabilir örnekle. Üslubu eski ama kapsamı hâlâ eşsiz.",
-    "en": "The most comprehensive free reference on Bash scripting, every topic with a runnable example. Dated in style, still unmatched in coverage.",
+    "tr": "Bash betiklemenin en kapsamlı ücretsiz referansı; her konu çalıştırılabilir örnekle. Wooledge BashGuide’a kıyasla kapsamı hâlâ eşsiz ama üslubu eski; bazı örnekler bugün kötü alışkanlık sayılıyor.",
+    "en": "The most comprehensive free reference on Bash scripting, every topic with a runnable example. Compared with the Wooledge BashGuide its coverage is still unmatched, but its style is dated and some examples now count as bad habits.",
     "src": "bwapsv"
   },
   {
@@ -135,8 +135,8 @@
       "ücretsiz",
       "öğretici"
     ],
-    "tr": "Kabuk betiklerine giriş; Advanced rehberin ağırlığına girmeden temelleri kuruyor.",
-    "en": "An introduction to shell scripting that lays the groundwork without the weight of the advanced guide.",
+    "tr": "Kabuk betiklerine giriş. Advanced Bash-Scripting Guide’dan farkı onun ağırlığına girmeden temelleri kurması.",
+    "en": "An introduction to shell scripting. Unlike the Advanced Bash-Scripting Guide, it lays the groundwork without that guide’s weight.",
     "src": "bwapsv"
   },
   {
@@ -146,8 +146,8 @@
       "ücretsiz",
       "dokümantasyon"
     ],
-    "tr": "Bash’in resmî kılavuzu; genişletme kuralları ve parametre değiştirme gibi tartışmalı konularda son söz burada.",
-    "en": "Bash’s official manual — the final word on contested topics like expansion rules and parameter substitution.",
+    "tr": "Bash’in resmî kılavuzu. Öğreticilerden farkı genişletme kuralları ve parametre değiştirme gibi tartışmalı konularda son sözün burada olması.",
+    "en": "Bash’s official manual. Unlike tutorials, it has the final word on contested topics such as expansion rules and parameter substitution.",
     "src": "bwapsv"
   },
   {
@@ -157,8 +157,8 @@
       "ücretsiz",
       "öğretici"
     ],
-    "tr": "İnternetteki kötü Bash örneklerine karşı düzeltici bir rehber; tırnaklama ve sözcük bölme gibi en sık yapılan hataları merkeze alıyor.",
-    "en": "A corrective to the bad Bash examples circulating online, centred on the most common mistakes like quoting and word splitting.",
+    "tr": "Tırnaklama ve sözcük bölme gibi en sık yapılan hataları merkeze alan Bash rehberi. Advanced Bash-Scripting Guide gibi eski kaynakların aksine internette dolaşan kötü örnekleri düzeltmek için yazılmış.",
+    "en": "A Bash guide centred on the most common mistakes, such as quoting and word splitting. Unlike older sources such as the Advanced Bash-Scripting Guide, it was written to correct the bad examples circulating online.",
     "src": "bwapsv"
   },
   {
@@ -169,8 +169,8 @@
       "ücretsiz",
       "ağ"
     ],
-    "tr": "OSI katmanlarından yönlendirmeye kadar ağ kavramlarını tam kurs formatında işliyor. Sertifika çalışmasına başlamadan önce zemin kurmak için.",
-    "en": "Works networking concepts from the OSI layers through routing in full-course format — for laying the ground before certification study.",
+    "tr": "OSI katmanlarından yönlendirmeye kadar ağ kavramlarını tam kurs formatında işleyen video. Sınav odaklı sertifika kurslarından farkı kavramları sınav hedefine bağlamadan kurması: sertifika çalışmasından önce zemin için.",
+    "en": "A video working networking concepts from the OSI layers through routing in full-course format. Unlike exam-driven certification courses it builds concepts without tying them to objectives — groundwork before certification study.",
     "src": "kedi",
     "added": 1775475510
   },
@@ -243,8 +243,8 @@
       "ağ",
       "referans"
     ],
-    "tr": "SG500 serisinin teknik veri sayfaları; port sayısı, PoE bütçesi ve yığınlama desteği karşılaştırmalı. İkinci el alırken model farklarını bilmek gerekiyor.",
-    "en": "Datasheets for the SG500 series comparing port counts, PoE budgets and stacking support — the model differences you need when buying second-hand.",
+    "tr": "SG500 serisinin teknik veri sayfaları. Tek bir modelin kılavuzundan farkı port sayısı, PoE bütçesi ve yığınlama desteğini karşılaştırmalı vermesi — ikinci el alırken model farklarını bilmek gerekiyor.",
+    "en": "Datasheets for the SG500 series. Unlike a single model’s manual, they compare port counts, PoE budgets and stacking support — the differences you need when buying second-hand.",
     "src": "kedi",
     "added": 1782977827
   },
@@ -256,8 +256,8 @@
       "ağ",
       "öğretici"
     ],
-    "tr": "Belirli bir anahtar modelinin ilk kurulumu, ekran görüntüleriyle adım adım. Resmî kılavuzun atladığı pratik ayrıntılar burada.",
-    "en": "First-time setup of one specific switch model, screenshot by screenshot — with the practical details the official manual skips.",
+    "tr": "Belirli bir anahtar modelinin ilk kurulumu, ekran görüntüleriyle adım adım. Resmî kılavuzdan farkı onun atladığı pratik ayrıntıları göstermesi.",
+    "en": "First-time setup of one specific switch model, screenshot by screenshot. Unlike the official manual, it shows the practical details that manual skips.",
     "src": "kedi",
     "added": 1782977928
   },
@@ -269,8 +269,8 @@
       "açık-kaynak",
       "github"
     ],
-    "tr": "Ağ gecikmesi ve paket kaybı gibi sorunları yapay olarak enjekte edip dayanıklılık testi yaptıran araç.",
-    "en": "Injects network latency and packet loss to test how software copes under bad conditions.",
+    "tr": "Ağ gecikmesi ve paket kaybı gibi sorunları yapay olarak enjekte edip yazılımın kötü koşullarda nasıl davrandığını test ettiren araç. tc/netem ve iptables komutlarını elle yazmak yerine tek komutla aynı etkiyi veriyor.",
+    "en": "Injects network latency and packet loss to test how software copes under bad conditions. Instead of hand-writing tc/netem and iptables commands, it produces the same effect with one command.",
     "src": "velvia"
   },
   {
@@ -280,8 +280,8 @@
       "ücretsiz",
       "cli"
     ],
-    "tr": "Kullanıcıların paylaştığı UNIX komut tek satırlıkları arşivi, oyla sıralı. Bir işin kısa yolu var mı diye bakmak için.",
-    "en": "An archive of user-submitted UNIX one-liners ranked by vote — where you check whether a shortcut exists for a task.",
+    "tr": "Kullanıcıların paylaştığı UNIX komut tek satırlıkları arşivi, oyla sıralı. tldr gibi araç başına özetlerden farkı işe göre aranması: bir işin kısa yolu var mı diye bakmak için.",
+    "en": "An archive of user-submitted UNIX one-liners ranked by vote. Unlike per-tool summaries such as tldr, you search by task — to check whether a shortcut exists.",
     "src": "bwapsv"
   },
   {
@@ -304,8 +304,8 @@
       "ücretsiz",
       "ağ"
     ],
-    "tr": "Açılmayan sistemler için önyüklenebilir Windows PE ortamı; disk klonlama, parola sıfırlama ve veri kurtarma araçları tek imajda. Sistem yöneticisinin cebinde taşıdığı USB.",
-    "en": "A bootable Windows PE environment for systems that will not start, bundling disk cloning, password reset and data recovery in one image. The USB stick a sysadmin carries.",
+    "tr": "Açılmayan sistemler için önyüklenebilir Windows PE ortamı; disk klonlama, parola sıfırlama ve veri kurtarma araçları tek imajda. Linux tabanlı kurtarma disklerinden farkı tanıdık Windows arayüzü ve Windows araçlarını çalıştırabilmesi.",
+    "en": "A bootable Windows PE environment for systems that will not start, bundling disk cloning, password reset and data recovery in one image. Unlike Linux-based rescue disks it offers a familiar Windows interface and runs Windows tools.",
     "src": "kedi",
     "added": 1785304627
   },
@@ -418,8 +418,8 @@
       "referans",
       "güvenlik"
     ],
-    "tr": "Kriptografi standartlarının kaynağı; hangi algoritmanın hâlâ onaylı olduğunu buradan öğrenirsin. Kuantum sonrası algoritma seçimleri de burada yayımlandı.",
-    "en": "The source of cryptographic standards, where you check which algorithms remain approved. The post-quantum algorithm selections were published here too.",
+    "tr": "Kriptografi standartlarının kaynağı; hangi algoritmanın hâlâ onaylı olduğunu buradan öğreniyorsun, kuantum sonrası algoritma seçimleri de burada yayımlandı. Blog yazılarından farkı bağlayıcı resmî kaynak olması.",
+    "en": "The source of cryptographic standards, where you check which algorithms remain approved; the post-quantum selections were published here too. Unlike blog posts, it is the binding official source.",
     "src": "kedi",
     "added": 1766991580
   },
@@ -455,8 +455,8 @@
       "güvenlik",
       "ağ"
     ],
-    "tr": "İşletim sistemini SQL ile sorgulanabilir hâle getiriyor: çalışan süreçler, açık portlar ve kurulu paketler birer tablo. Uç nokta izlemede yaygın.",
-    "en": "Turns the operating system into something you query with SQL — running processes, open ports and installed packages become tables. Common in endpoint monitoring.",
+    "tr": "İşletim sistemini SQL ile sorgulanabilir hâle getiriyor: çalışan süreçler, açık portlar ve kurulu paketler birer tablo. ps, netstat gibi ayrı ayrı komutlar yerine her şeyi tek sorgu diliyle soruyorsun; uç nokta izlemede yaygın.",
+    "en": "Turns the operating system into something you query with SQL — running processes, open ports and installed packages become tables. Instead of separate commands such as ps and netstat, you ask everything in one query language; common in endpoint monitoring.",
     "src": "bwapsv"
   },
   {
@@ -467,8 +467,8 @@
       "ağ",
       "interaktif"
     ],
-    "tr": "Cisco Packet Tracer indirmesi ve laboratuvar dosyaları. Anahtar ve yönlendirici almadan VLAN, OSPF ve ACL yapılandırması denenebiliyor.",
-    "en": "The Packet Tracer download plus lab files, letting you practise VLAN, OSPF and ACL configuration without buying switches and routers.",
+    "tr": "Cisco Packet Tracer indirmesi ve laboratuvar dosyaları; anahtar ve yönlendirici almadan VLAN, OSPF ve ACL yapılandırması denenebiliyor. GNS3’ten farkı simülasyon olması: gerçek IOS imajı gerektirmiyor, karşılığında komut kapsamı sınırlı.",
+    "en": "The Packet Tracer download plus lab files, letting you practise VLAN, OSPF and ACL configuration without buying switches and routers. Unlike GNS3 it is a simulator — no real IOS images needed, but command coverage is limited.",
     "src": "kedi",
     "added": 1782472831
   },
@@ -545,8 +545,8 @@
       "ağ",
       "interaktif"
     ],
-    "tr": "Gerçek yardım masası biletleriyle çalışmayı simüle ediyor: önceliklendirme, tırmandırma, SLA takibi. IT destek eğitimlerinin teorik kaldığı yeri dolduruyor.",
-    "en": "Simulates working a real helpdesk queue — prioritisation, escalation, SLA tracking. It fills the practical gap that IT support courses leave theoretical.",
+    "tr": "Gerçek yardım masası biletleriyle çalışmayı simüle ediyor: önceliklendirme, tırmandırma, SLA takibi. Teoride kalan IT destek kurslarının aksine işin pratiğini yaptırıyor.",
+    "en": "Simulates working a real helpdesk queue — prioritisation, escalation, SLA tracking. Unlike IT support courses that stay theoretical, it has you practise the job.",
     "src": "kedi",
     "added": 1783424672
   },

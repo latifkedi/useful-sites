@@ -11,21 +11,21 @@
   <link href="https://www.meta.com/tr/ai-glasses/meta-ray-ban-display-shiny-sand-transitions-and-neural-band-sand/"/>
   <id>https://www.meta.com/tr/ai-glasses/meta-ray-ban-display-shiny-sand-transitions-and-neural-band-sand/</id>
   <updated>2026-08-13T10:31:33Z</updated>
-  <summary>Ekranlı ve sinir bandıyla (EMG bileklik) kontrol edilen Meta gözlüğü. Kapalı bir ekosistem ama giriş yönteminin nereye evrildiğini göstermesi bakımından referans.</summary>
+  <summary>Ekranlı ve sinir bandıyla (EMG bileklik) kontrol edilen Meta gözlüğü. Dokunmatik ya da sesli kontrole kıyasla giriş yönteminin nereye evrildiğini gösteriyor; ekosistemi kapalı.</summary>
 </entry>
 <entry>
   <title>Brilliant Labs</title>
   <link href="https://brilliant.xyz/"/>
   <id>https://brilliant.xyz/</id>
   <updated>2026-08-13T05:50:46Z</updated>
-  <summary>Donanım şemasını ve yazılımını yayımlayan gözlük üreticisi. Bu sektörde hem ürün satıp hem tasarımı açan neredeyse tek şirket.</summary>
+  <summary>Donanım şemasını ve yazılımını yayımlayan gözlük üreticisi. Meta gibi kapalı üreticilerin aksine hem ürün satıp hem tasarımı açan, sektörde neredeyse tek şirket.</summary>
 </entry>
 <entry>
   <title>Açık Kaynak Gözlük Yaptık</title>
   <link href="https://www.youtube.com/watch?v=4ZY760EIUc4"/>
   <id>https://www.youtube.com/watch?v=4ZY760EIUc4</id>
   <updated>2026-08-11T20:19:11Z</updated>
-  <summary>Açık kaynak gözlük üretim sürecini anlatan video; nelerin gerçekten zor olduğunu süslemeden gösteriyor. Projeye girişmeden önce izlenmeli.</summary>
+  <summary>Açık kaynak gözlük üretim sürecini anlatan video. Başarı hikâyesi anlatan tanıtımların aksine nelerin gerçekten zor olduğunu süslemeden gösteriyor; projeye girişmeden önce izlenmeli.</summary>
 </entry>
 <entry>
   <title>Akıllı Gözlük Yapımı</title>
@@ -39,21 +39,21 @@
   <link href="https://github.com/topics/ray-ban-meta"/>
   <id>https://github.com/topics/ray-ban-meta</id>
   <updated>2026-08-11T20:19:06Z</updated>
-  <summary>Ray-Ban Meta gözlükleri üzerine topluluk projeleri. Resmî SDK olmadığı için buradaki çalışmalar ağırlıkla protokol çözümlemesi ve gayriresmî köprüler.</summary>
+  <summary>Ray-Ban Meta gözlükleri üzerine topluluk projeleri. Meta’nın resmî erişim araç setinin aksine buradaki çalışmalar ağırlıkla protokol çözümlemesi ve gayriresmî köprüler; resmî araç seti yeni ve kısıtlı olduğu için bu yol hâlâ canlı.</summary>
 </entry>
 <entry>
   <title>Açık Kaynak Gözlük Yapımı</title>
   <link href="https://github.com/Mentra-Community/OpenSourceSmartGlasses/wiki/How-to-build-the-Open-Source-Smart-Glasses/4f426a4923cd6265b6179954e8abb2e6308b893a"/>
   <id>https://github.com/Mentra-Community/OpenSourceSmartGlasses/wiki/How-to-build-the-Open-Source-Smart-Glasses/4f426a4923cd6265b6179954e8abb2e6308b893a</id>
   <updated>2026-08-11T20:18:43Z</updated>
-  <summary>Malzeme listesi ve montaj sırasıyla adım adım yapım rehberi. Projeyi tekrar edilebilir kılan şey tam olarak bu ayrıntı düzeyi.</summary>
+  <summary>Malzeme listesi ve montaj sırasıyla adım adım açık kaynak akıllı gözlük yapım rehberi. Proje tanıtımlarından farkı bu ayrıntı düzeyi: projeyi tekrar edilebilir kılan tam olarak bu.</summary>
 </entry>
 <entry>
   <title>Mentra Bluetooth SDK</title>
   <link href="https://github.com/Mentra-Community/Mentra-Bluetooth-SDK-Starter-Kit"/>
   <id>https://github.com/Mentra-Community/Mentra-Bluetooth-SDK-Starter-Kit</id>
   <updated>2026-08-11T20:18:12Z</updated>
-  <summary>Android’den gözlüğe BLE ile bağlanmak için başlangıç kiti. GATT servisleri ve karakteristikleri tanımlı geldiği için protokolü kendin çözmüyorsun.</summary>
+  <summary>Android’den gözlüğe BLE ile bağlanmak için başlangıç kiti. Sıfırdan BLE kodu yazmaktan farkı GATT servisleri ve karakteristiklerinin tanımlı gelmesi: protokolü kendin çözmüyorsun.</summary>
 </entry>
 <entry>
   <title>MentraOS</title>
@@ -102,7 +102,7 @@
   <link href="https://github.com/AdeelHamid/HeyCyan-Web-Bridge-App"/>
   <id>https://github.com/AdeelHamid/HeyCyan-Web-Bridge-App</id>
   <updated>2026-08-11T20:17:56Z</updated>
-  <summary>Gözlüğü Web Bluetooth üzerinden tarayıcıya bağlıyor; yerel uygulama yazmadan cihazla konuşabiliyorsun. Prototip için hızlı bir yol.</summary>
+  <summary>HeyCyan gözlüğünü Web Bluetooth üzerinden tarayıcıya bağlıyor. Yerel uygulama yazmak yerine cihazla tarayıcıdan konuşuyorsun — prototip için hızlı bir yol.</summary>
 </entry>
 <entry>
   <title>Alternatif HeyCyan Uygulaması</title>
@@ -116,7 +116,7 @@
   <link href="https://github.com/ebowwa/HeyCyanSmartGlassesSDK"/>
   <id>https://github.com/ebowwa/HeyCyanSmartGlassesSDK</id>
   <updated>2026-08-11T20:17:12Z</updated>
-  <summary>HeyCyan gözlükleri için platformlar arası SDK; fotoğraf, video ve ses kaydını uygulama tarafından denetlemeyi sağlıyor.</summary>
+  <summary>HeyCyan gözlükleri için platformlar arası SDK. Üreticinin kapalı uygulamasından farkı fotoğraf, video ve ses kaydını kendi uygulamandan denetleyebilmen.</summary>
 </entry>
 <entry>
   <title>Brilliant Labs Halo</title>
@@ -130,21 +130,21 @@
   <link href="https://dymesty.com/blogs/articles/smart-glasses-operating-system-guide"/>
   <id>https://dymesty.com/blogs/articles/smart-glasses-operating-system-guide</id>
   <updated>2026-08-05T22:20:55Z</updated>
-  <summary>Horizon OS, Android XR ve diğer platformların karşılaştırması. Hangi ekosisteme yatırım yapılacağı kararı donanım seçiminden önce geliyor.</summary>
+  <summary>Horizon OS, Android XR ve diğer akıllı gözlük platformlarının karşılaştırması; hangi ekosisteme yatırım yapılacağı kararı donanım seçiminden önce geliyor. Tek bir platformun tanıtımından farkı yan yana koyması — ama yazının bir gözlük üreticisinin blogu olduğunu akılda tut.</summary>
 </entry>
 <entry>
   <title>Giyilebilir Yonga Setleri</title>
   <link href="https://blog.imaginationtech.com/chipsets-for-smart-glasses-and-other-high-end-wearables/"/>
   <id>https://blog.imaginationtech.com/chipsets-for-smart-glasses-and-other-high-end-wearables/</id>
   <updated>2026-08-05T22:20:52Z</updated>
-  <summary>Üst seviye giyilebilirlerde grafik ve güç dengesini tartışan yazı. Ekranlı gözlükte GPU seçimi doğrudan pil ömrünü belirliyor.</summary>
+  <summary>Üst seviye giyilebilirlerde grafik ve güç dengesini tartışan yazı; ekranlı gözlükte GPU seçimi doğrudan pil ömrünü belirliyor. Ürün incelemelerinden farkı yonga tasarımı tarafından bakması — yazarın bir GPU üreticisi olduğunu akılda tut.</summary>
 </entry>
 <entry>
   <title>PSOC4 CAPSENSE Uygulama Notu</title>
   <link href="https://www.infineon.com/assets/row/public/documents/30/42/infineon-an242193-smart-glasses-hmi-with-psoc4-capsense-applicationnotes-en.pdf"/>
   <id>https://www.infineon.com/assets/row/public/documents/30/42/infineon-an242193-smart-glasses-hmi-with-psoc4-capsense-applicationnotes-en.pdf</id>
   <updated>2026-08-05T22:20:46Z</updated>
-  <summary>Gözlük sapına dokunmatik kontrol eklemenin uygulama notu; devre şeması ve kalibrasyon parametreleri dahil. Bu düzeyde somut belge nadiren açık oluyor.</summary>
+  <summary>Gözlük sapına dokunmatik kontrol eklemenin uygulama notu; devre şeması ve kalibrasyon parametreleri dahil. Genel veri sayfalarından farkı bu somutluk — bu düzeyde belge nadiren açık oluyor.</summary>
 </entry>
 <entry>
   <title>RealMCU Akıllı Gözlük</title>
@@ -158,7 +158,7 @@
   <link href="https://www.qualcomm.com/xr-vr-ar/applications/ai-glasses"/>
   <id>https://www.qualcomm.com/xr-vr-ar/applications/ai-glasses</id>
   <updated>2026-08-05T22:20:39Z</updated>
-  <summary>Piyasadaki gözlüklerin çoğunda bulunan Snapdragon AR platformunun resmî sayfası; referans tasarımlar ve güç tüketimi verileri burada.</summary>
+  <summary>Piyasadaki gözlüklerin çoğunda bulunan Snapdragon AR platformunun resmî sayfası; referans tasarımlar ve güç tüketimi verileri burada. Tek tek ürün sayfalarından farkı platform düzeyinde bakması: hangi gözlüğün içinde ne olduğunu anlamak için.</summary>
 </entry>
 <entry>
   <title>Akıllı Gözlük Yonga Rehberi</title>
@@ -186,14 +186,14 @@
   <link href="https://github.com/even-realities"/>
   <id>https://github.com/even-realities</id>
   <updated>2026-08-05T22:20:16Z</updated>
-  <summary>Üreticinin resmî depoları; SDK ve örnek uygulamalar için birincil kaynak. Donanım üreticisinin kod yayımlaması bu sektörde hâlâ istisna.</summary>
+  <summary>Even Realities’in resmî depoları; SDK ve örnek uygulamalar için birincil kaynak. Kodunu kapalı tutan gözlük üreticilerinin aksine yayımlıyor — bu sektörde hâlâ istisna.</summary>
 </entry>
 <entry>
   <title>Even Hub</title>
   <link href="https://hub.evenrealities.com/?_gl=1*rku60w*_gcl_au*MTY2MjM2NDk0LjE3ODUwODM2MjY"/>
   <id>https://hub.evenrealities.com/?_gl=1*rku60w*_gcl_au*MTY2MjM2NDk0LjE3ODUwODM2MjY</id>
   <updated>2026-08-05T22:20:04Z</updated>
-  <summary>Üreticinin geliştirici merkezi; uygulama geliştirme kaynakları ve API belgeleri burada.</summary>
+  <summary>Even Realities’in geliştirici merkezi; uygulama geliştirme kaynakları ve API belgeleri burada. GitHub depolarından farkı kodu değil belgeleri ve yönergeleri toplaması.</summary>
 </entry>
 <entry>
   <title>Even Realities · Çerçeve Seçimi</title>

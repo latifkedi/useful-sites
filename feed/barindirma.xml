@@ -32,21 +32,21 @@
   <link href="https://www.digitalocean.com/"/>
   <id>https://www.digitalocean.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Geliştirici dostu, sade fiyatlı bulut sunucu (droplet) sağlayıcısı.</summary>
+  <summary>Geliştirici dostu, sade fiyatlı bulut sunucu (droplet) sağlayıcısı. AWS’e kıyasla servis yelpazesi dar ama fiyatlandırma öngörülebilir ve belgeleri (öğretici arşivi) çok iyi.</summary>
 </entry>
 <entry>
   <title>DreamHost</title>
   <link href="https://www.dreamhost.com/"/>
   <id>https://www.dreamhost.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Yüksek erişilebilirlikli paylaşımlı ve bulut web barındırma.</summary>
+  <summary>Paylaşımlı ve bulut web barındırma. Hostinger gibi bütçe sağlayıcılarına kıyasla daha köklü; WordPress barındırmada uzun geçmişi var.</summary>
 </entry>
 <entry>
   <title>Heroku</title>
   <link href="https://www.heroku.com/"/>
   <id>https://www.heroku.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Kodu git ile itip anında yayına alan hizmet olarak platform (PaaS).</summary>
+  <summary>Kodu git ile itip anında yayına alan hizmet olarak platform (PaaS); bu modelin öncüsü. Render ve Railway gibi yeni rakiplerine kıyasla daha pahalı; ücretsiz katmanını 2022’de kaldırdı.</summary>
 </entry>
 <entry>
   <title>Hostinger</title>
@@ -95,7 +95,7 @@
   <link href="https://surge.sh/"/>
   <id>https://surge.sh/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Statik siteleri tek komutla yayına alan ücretsiz barındırma.</summary>
+  <summary>Statik siteleri tek komutla yayına alan ücretsiz barındırma. Netlify’a kıyasla git bağlantısı, derleme hattı ya da panel yok: klasörü komut satırından yüklüyorsun, o kadar.</summary>
 </entry>
 <entry>
   <title>Tautulli</title>
@@ -228,21 +228,21 @@
   <link href="https://appwrite.io"/>
   <id>https://appwrite.io</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Kimlik doğrulama, veritabanı, depolama ve fonksiyonları self-hosted sunan açık kaynak arka uç (BaaS).</summary>
+  <summary>Kimlik doğrulama, veritabanı, depolama ve fonksiyonları sunan açık kaynak arka uç (BaaS). Firebase’den farkı açık kaynak olup kendi sunucunda çalışabilmesi: satıcı bağımlılığı yok.</summary>
 </entry>
 <entry>
   <title>CapRover</title>
   <link href="https://caprover.com"/>
   <id>https://caprover.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Kendi sunucunda tek tıkla uygulama ve Docker dağıtımı yapan ücretsiz, self-hosted PaaS.</summary>
+  <summary>Kendi sunucunda tek tıkla uygulama ve Docker dağıtımı yapan ücretsiz, self-hosted PaaS. Heroku’dan farkı sunucunun senin olması; Cloudron’a kıyasla ücretsiz ama bakım ve güncellemeler sende.</summary>
 </entry>
 <entry>
   <title>Cloudron</title>
   <link href="https://www.cloudron.io"/>
   <id>https://www.cloudron.io</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Web uygulamalarını yönetilen güncelleme, yedek ve tek oturum açmayla kendi sunucunda barındırır.</summary>
+  <summary>Web uygulamalarını yönetilen güncelleme, yedek ve tek oturum açmayla kendi sunucunda barındırıyor. CapRover’dan farkı bu bakımı üstlenmesi; karşılığında ücretli lisans, ücretsiz katman iki uygulamayla sınırlı.</summary>
 </entry>
 <entry>
   <title>Coolify</title>
@@ -256,7 +256,7 @@
   <link href="https://deno.com/deploy"/>
   <id>https://deno.com/deploy</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>JavaScript/TypeScript kodunu küresel kenar ağında sunucusuz çalıştıran platform.</summary>
+  <summary>JavaScript/TypeScript kodunu küresel kenar ağında sunucusuz çalıştıran platform. Cloudflare Workers’a kıyasla Deno çalışma zamanını ve npm uyumunu kullanıyor: yerelde çalışan kod değişmeden yayına çıkıyor.</summary>
 </entry>
 <entry>
   <title>Dokku</title>
@@ -277,13 +277,13 @@
   <link href="https://fly.io"/>
   <id>https://fly.io</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Uygulama konteynerlerini kullanıcıya yakın kenar konumlarda çalıştırır; küresel dağıtım, Postgres ve disk.</summary>
+  <summary>Uygulama konteynerlerini kullanıcıya yakın kenar konumlarda çalıştırıyor; küresel dağıtım, Postgres ve disk dahil. Render ya da Railway’e kıyasla farkı uygulamayı tek bölge yerine dünyanın birçok noktasında aynı anda çalıştırması.</summary>
 </entry>
 <entry>
   <title>Koyeb</title>
   <link href="https://www.koyeb.com"/>
   <id>https://www.koyeb.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Uygulama ve konteynerleri küresel, git güdümlü ve sıfıra ölçeklenen sunucusuz biçimde dağıtır.</summary>
+  <summary>Uygulama ve konteynerleri küresel, git güdümlü ve sıfıra ölçeklenen sunucusuz biçimde dağıtıyor. Heroku’ya kıyasla sıfıra ölçekleme ve GPU örnekleri sunması; boşta kalan servis için ödeme yapmıyorsun.</summary>
 </entry>
 </feed>

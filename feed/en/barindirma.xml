@@ -32,21 +32,21 @@
   <link href="https://www.digitalocean.com/"/>
   <id>https://www.digitalocean.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A developer-friendly cloud server (droplet) provider with simple pricing.</summary>
+  <summary>A developer-friendly cloud server (droplet) provider with simple pricing. Compared with AWS the service range is narrow, but pricing is predictable and its documentation — the tutorial archive — is excellent.</summary>
 </entry>
 <entry>
   <title>DreamHost</title>
   <link href="https://www.dreamhost.com/"/>
   <id>https://www.dreamhost.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>High-availability shared and cloud web hosting.</summary>
+  <summary>Shared and cloud web hosting. Compared with budget providers such as Hostinger it is longer-established, with a long track record in WordPress hosting.</summary>
 </entry>
 <entry>
   <title>Heroku</title>
   <link href="https://www.heroku.com/"/>
   <id>https://www.heroku.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A platform-as-a-service that deploys code instantly on a git push.</summary>
+  <summary>A platform-as-a-service that deploys code on a git push — the pioneer of the model. Compared with newer rivals such as Render and Railway it is pricier, and it dropped its free tier in 2022.</summary>
 </entry>
 <entry>
   <title>Hostinger</title>
@@ -95,7 +95,7 @@
   <link href="https://surge.sh/"/>
   <id>https://surge.sh/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Free hosting that publishes static sites with a single command.</summary>
+  <summary>Free hosting that publishes static sites with a single command. Compared with Netlify there is no git integration, build pipeline or dashboard — you upload a folder from the command line, and that is it.</summary>
 </entry>
 <entry>
   <title>Tautulli</title>
@@ -228,21 +228,21 @@
   <link href="https://appwrite.io"/>
   <id>https://appwrite.io</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An open-source backend-as-a-service offering auth, database, storage and functions, self-hostable.</summary>
+  <summary>An open-source backend-as-a-service offering auth, database, storage and functions. Unlike Firebase it is open source and self-hostable — no vendor lock-in.</summary>
 </entry>
 <entry>
   <title>CapRover</title>
   <link href="https://caprover.com"/>
   <id>https://caprover.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A free, self-hosted PaaS for one-click apps and Docker deploys on your own server.</summary>
+  <summary>A free, self-hosted PaaS for one-click apps and Docker deploys on your own server. Unlike Heroku the server is yours; compared with Cloudron it is free, but maintenance and updates are on you.</summary>
 </entry>
 <entry>
   <title>Cloudron</title>
   <link href="https://www.cloudron.io"/>
   <id>https://www.cloudron.io</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Self-hosts web apps with managed updates, backups and single sign-on.</summary>
+  <summary>Self-hosts web apps with managed updates, backups and single sign-on. Unlike CapRover it takes on that maintenance; in exchange it is licensed, with the free tier limited to two apps.</summary>
 </entry>
 <entry>
   <title>Coolify</title>
@@ -256,7 +256,7 @@
   <link href="https://deno.com/deploy"/>
   <id>https://deno.com/deploy</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A platform that runs JavaScript/TypeScript serverless on a global edge network.</summary>
+  <summary>A platform that runs JavaScript/TypeScript serverless on a global edge network. Compared with Cloudflare Workers it uses the Deno runtime with npm compatibility, so code that runs locally ships unchanged.</summary>
 </entry>
 <entry>
   <title>Dokku</title>
@@ -277,13 +277,13 @@
   <link href="https://fly.io"/>
   <id>https://fly.io</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Runs app containers at edge locations close to users, with global deploy, Postgres and volumes.</summary>
+  <summary>Runs app containers at edge locations close to users, with global deploy, Postgres and volumes. Compared with Render or Railway, it runs your app in many places around the world at once rather than one region.</summary>
 </entry>
 <entry>
   <title>Koyeb</title>
   <link href="https://www.koyeb.com"/>
   <id>https://www.koyeb.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Deploys apps and containers globally, git-driven and serverless with scale-to-zero.</summary>
+  <summary>Deploys apps and containers globally, git-driven and serverless with scale-to-zero. Compared with Heroku it offers scale-to-zero and GPU instances, so you do not pay for idle services.</summary>
 </entry>
 </feed>

@@ -11,14 +11,14 @@
   <link href="https://developer.android.com"/>
   <id>https://developer.android.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Android'in resmî geliştirici belgeleri, araçları ve kılavuzları.</summary>
+  <summary>Android’in resmî geliştirici belgeleri, araçları ve kılavuzları. Topluluk öğreticilerinden farkı API davranışı ve Jetpack kütüphaneleri için birincil kaynak olması.</summary>
 </entry>
 <entry>
   <title>Apple Developer</title>
   <link href="https://developer.apple.com"/>
   <id>https://developer.apple.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>iOS ve Apple platformları için resmî geliştirici belgeleri ve kaynakları.</summary>
+  <summary>iOS ve Apple platformları için resmî geliştirici belgeleri ve kaynakları; İnsan Arayüzü Yönergeleri (HIG) de burada. Üçüncü taraf öğreticilerden farkı API ve mağaza kuralları için son söz olması.</summary>
 </entry>
 <entry>
   <title>Awesome Android</title>
@@ -109,56 +109,56 @@
   <link href="https://capacitorjs.com"/>
   <id>https://capacitorjs.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Bir web uygulamasını yerel bir kabuğa saran, cihaz API'lerine erişim veren çalışma zamanı.</summary>
+  <summary>Bir web uygulamasını yerel bir kabuğa saran, cihaz API’lerine erişim veren çalışma zamanı. Cordova’dan farkı yerel projeleri üretilen dosya değil kaynak kodu olarak tutması; React Native’in aksine arayüz WebView içinde çiziliyor.</summary>
 </entry>
 <entry>
   <title>CocoaPods</title>
   <link href="https://cocoapods.org"/>
   <id>https://cocoapods.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>iOS ve Apple projeleri için yaygın kullanılan bağımlılık yöneticisi.</summary>
+  <summary>iOS ve Apple projeleri için uzun süre standart olan bağımlılık yöneticisi. Swift Package Manager’a kıyasla eski yol: yeni projeler SPM’e geçiyor, CocoaPods deposu da 2026 sonunda salt okunur hâle geliyor.</summary>
 </entry>
 <entry>
   <title>fastlane</title>
   <link href="https://fastlane.tools"/>
   <id>https://fastlane.tools</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Mobil derleme, ekran görüntüsü ve mağaza yayınını otomatikleştiren açık kaynak araç.</summary>
+  <summary>Mobil derleme, ekran görüntüsü ve mağaza yayınını otomatikleştiren açık kaynak araç. Xcode ve Gradle adımlarını elle yürütmek yerine imzalama, sürüm numarası ve mağazaya yüklemeyi tek komuta bağlıyor.</summary>
 </entry>
 <entry>
   <title>Hacking with Swift</title>
   <link href="https://www.hackingwithswift.com"/>
   <id>https://www.hackingwithswift.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Swift ve SwiftUI'yi projelerle öğreten kaynak; ücretsiz &quot;100 Days&quot; kursuyla tanınır.</summary>
+  <summary>Paul Hudson’ın Swift ve SwiftUI’yi projelerle öğreten sitesi; ücretsiz “100 Days” kurslarıyla tanınıyor. Apple belgelerinden farkı her kavramı küçük, bitmiş bir uygulama içinde göstermesi.</summary>
 </entry>
 <entry>
   <title>Ionic</title>
   <link href="https://ionicframework.com"/>
   <id>https://ionicframework.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Web teknolojileriyle çapraz platform mobil arayüz geliştiren açık kaynak çatı.</summary>
+  <summary>Web teknolojileriyle çapraz platform mobil arayüz geliştiren açık kaynak çatı. React Native’den farkı arayüzün web bileşenleriyle WebView içinde çizilmesi: web ekibi aynı kodla mobile çıkabiliyor.</summary>
 </entry>
 <entry>
   <title>Kodeco</title>
   <link href="https://www.kodeco.com"/>
   <id>https://www.kodeco.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>iOS, Android ve Flutter için derinlemesine mobil geliştirme öğreticileri (eski adı raywenderlich).</summary>
+  <summary>iOS, Android ve Flutter için derinlemesine mobil geliştirme öğreticileri (eski adı raywenderlich). Ücretsiz blog yazılarına kıyasla editör denetiminden geçmiş, tutarlı içerik; çoğu ücretli abonelikte.</summary>
 </entry>
 <entry>
   <title>Material Design</title>
   <link href="https://m3.material.io"/>
   <id>https://m3.material.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Google'ın açık tasarım sistemi ve arayüz kılavuzları; Android arayüzünün temeli.</summary>
+  <summary>Google’ın açık tasarım sistemi ve arayüz kılavuzları; Android arayüzünün temeli. Apple’ın İnsan Arayüzü Yönergeleri’nin karşılığı; farkı dinamik renk gibi tema sistemini açık bir token modeliyle tanımlaması.</summary>
 </entry>
 <entry>
   <title>NativeScript</title>
   <link href="https://nativescript.org"/>
   <id>https://nativescript.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>JavaScript, TypeScript, Vue veya Angular'dan gerçek yerel mobil uygulama üretir.</summary>
+  <summary>JavaScript, TypeScript, Vue veya Angular’dan gerçek yerel mobil uygulama üretiyor. Capacitor ya da Ionic’ten farkı WebView yerine yerel arayüz bileşenleri kullanması ve yerel API’lere doğrudan JavaScript’ten erişmesi.</summary>
 </entry>
 <entry>
   <title>objc.io</title>
@@ -172,7 +172,7 @@
   <link href="https://proandroiddev.com"/>
   <id>https://proandroiddev.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>İleri düzey Android mühendisliği yazılarının yayımlandığı topluluk yayını.</summary>
+  <summary>İleri düzey Android mühendisliği yazılarının yayımlandığı topluluk yayını. Resmî belgelerden farkı sahadan gelen deneyim: mimari tercihler, performans sorunları ve çözümleri.</summary>
 </entry>
 <entry>
   <title>pub.dev</title>
@@ -186,14 +186,14 @@
   <link href="https://reactnative.dev"/>
   <id>https://reactnative.dev</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>React ile yerel mobil uygulama geliştiren çapraz platform çatının resmî belgeleri.</summary>
+  <summary>React ile yerel mobil uygulama geliştiren çapraz platform çatının resmî belgeleri. Flutter’dan farkı JavaScript ve React bilgisini doğrudan kullanması ve platformun kendi arayüz bileşenlerini çizmesi.</summary>
 </entry>
 <entry>
   <title>Swift by Sundell</title>
   <link href="https://www.swiftbysundell.com"/>
   <id>https://www.swiftbysundell.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Swift üzerine derinlemesine yazılar ve podcast; John Sundell'in kaynağı.</summary>
+  <summary>John Sundell’in Swift üzerine derinlemesine yazıları ve podcast’i. Hacking with Swift’e kıyasla proje değil kavram odaklı ve daha ileri seviye: dil özellikleri ve mimari.</summary>
 </entry>
 <entry>
   <title>XDA Forums</title>

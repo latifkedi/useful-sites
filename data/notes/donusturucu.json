@@ -30,8 +30,8 @@
       "ücretsiz",
       "api"
     ],
-    "tr": "Bir API’nin CORS başlıklarını dışarıdan test ediyor; tarayıcı konsolundaki belirsiz CORS hatasının hangi başlıktan geldiğini söylüyor.",
-    "en": "Tests an API’s CORS headers from the outside, telling you which header causes the vague CORS error in the browser console.",
+    "tr": "Bir API’nin CORS başlıklarını dışarıdan test ediyor. Tarayıcı konsolunun belirsiz CORS hatasından farkı sorunun hangi başlıktan geldiğini açıkça söylemesi.",
+    "en": "Tests an API’s CORS headers from the outside. Unlike the vague CORS error in the browser console, it tells you plainly which header is at fault.",
     "src": "bwapsv"
   },
   {
@@ -40,8 +40,8 @@
     "tags": [
       "ücretsiz"
     ],
-    "tr": "Cron ifadesini yazdıkça düz dille ne anlama geldiğini ve sonraki çalışma zamanlarını gösteriyor. Yıldız ve eğik çizgi kombinasyonlarını tahmin etmeye son veriyor.",
-    "en": "Translates a cron expression into plain language as you type and shows the next run times, ending the guesswork over asterisks and slashes.",
+    "tr": "Cron ifadesini yazdıkça düz dille ne anlama geldiğini ve sonraki çalışma zamanlarını gösteriyor. man sayfasını okumaktan farkı sonucu anında görmen: yıldız ve eğik çizgi kombinasyonlarını tahmin etmeye son veriyor.",
+    "en": "Translates a cron expression into plain language as you type and shows the next run times. Unlike reading the man page you see the result instantly — the end of guesswork over asterisks and slashes.",
     "src": "bwapsv"
   },
   {
@@ -110,8 +110,8 @@
       "ücretsiz",
       "git"
     ],
-    "tr": "İşletim sistemi, editör ve dil seçerek `.gitignore` dosyası üretiyor. Her projede aynı satırları elle yazmaya son veriyor.",
-    "en": "Generates a `.gitignore` from your operating system, editor and language choices — the end of retyping the same lines on every project.",
+    "tr": "İşletim sistemi, editör ve dil seçerek `.gitignore` dosyası üretiyor. GitHub’ın tek tek şablonlarından farkı birden çok şablonu birleştirmesi: her projede aynı satırları elle yazmaya son veriyor.",
+    "en": "Generates a `.gitignore` from your operating system, editor and language choices. Unlike GitHub’s individual templates, it merges several at once — the end of retyping the same lines on every project.",
     "src": "bwapsv"
   },
   {
@@ -121,8 +121,8 @@
       "güvenlik",
       "ücretsiz"
     ],
-    "tr": "Bir sitenin Google Güvenli Tarama kayıtlarında zararlı olarak işaretlenip işaretlenmediğini kontrol eder.",
-    "en": "Checks whether a site is flagged as unsafe in Google’s Safe Browsing records.",
+    "tr": "Bir sitenin Google Güvenli Tarama kayıtlarında zararlı olarak işaretlenip işaretlenmediğini kontrol ediyor. VirusTotal gibi çok motorlu tarayıcılardan farkı yalnız Google’ın listesine bakması — Chrome kullanıcılarının göreceği uyarıyı önceden görürsün.",
+    "en": "Checks whether a site is flagged as unsafe in Google’s Safe Browsing records. Unlike multi-engine scanners such as VirusTotal it consults only Google’s list — so you see in advance the warning Chrome users would get.",
     "src": "awesomeproj"
   },
   {
@@ -144,8 +144,8 @@
       "tarayıcı-içi",
       "ücretsiz"
     ],
-    "tr": "Metin ters çevirme, sayaç, dönüştürme gibi küçük metin araçlarını bir arada sunan site.",
-    "en": "A site bundling small text utilities — reversing, counting, converting and more.",
+    "tr": "Metin ters çevirme, sayaç, dönüştürme gibi küçük metin araçlarını bir arada sunan Portekizce site. Tek işlevli sitelerden farkı onlarca küçük aracı tek adreste toplaması.",
+    "en": "A Portuguese-language site bundling small text utilities — reversing, counting, converting and more. Unlike single-purpose sites, it gathers dozens of small tools at one address.",
     "src": "awesomeproj"
   },
   {
@@ -168,8 +168,8 @@
       "tarayıcı-içi",
       "ücretsiz"
     ],
-    "tr": "JavaScript kodunu tarayıcıda küçültüp (minify) boyutunu düşüren araç.",
-    "en": "A tool that minifies JavaScript in the browser to shrink its size.",
+    "tr": "JavaScript kodunu tarayıcıda küçültüp (minify) boyutunu düşüren araç. Terser ya da esbuild gibi derleme hattı araçlarından farkı kurulum istemeden tek seferlik iş görmesi.",
+    "en": "A tool that minifies JavaScript in the browser to shrink its size. Unlike build-pipeline tools such as Terser or esbuild, it handles a one-off job with nothing to install.",
     "src": "awesomeproj"
   },
   {
@@ -202,8 +202,8 @@
       "tarayıcı-içi",
       "ücretsiz"
     ],
-    "tr": "JSON anahtarlarını alfabetik sıralayan ve biçimlendiren basit araç.",
-    "en": "A simple tool that alphabetically sorts and formats JSON keys.",
+    "tr": "JSON anahtarlarını alfabetik sıralayan ve biçimlendiren basit araç. jq gibi komut satırı araçlarından farkı tarayıcıda, sorgu yazmadan çalışması: iki JSON’u karşılaştırmadan önce sıralamak için.",
+    "en": "A simple tool that alphabetically sorts and formats JSON keys. Unlike command-line tools such as jq it works in the browser with no query to write — handy for sorting two JSON files before comparing them.",
     "src": "awesomeproj"
   },
   {
@@ -224,8 +224,8 @@
       "ağ",
       "ücretsiz"
     ],
-    "tr": "Ping, traceroute, HTTP başlık ve performans testi gibi ağ araçlarını bir arada sunar.",
-    "en": "Bundles network tools like ping, traceroute, HTTP header and performance tests.",
+    "tr": "Ping, traceroute, HTTP başlık ve performans testi gibi ağ araçlarını bir arada sunuyor. Kendi makinenden ping atmaktan farkı testleri dünyanın farklı noktalarındaki sunuculardan yapması.",
+    "en": "Bundles network tools like ping, traceroute, HTTP header and performance tests. Unlike pinging from your own machine, it runs the tests from servers in different parts of the world.",
     "src": "awesomeproj"
   },
   {
@@ -246,8 +246,8 @@
     "tags": [
       "ücretsiz"
     ],
-    "tr": "Tasarım denemeleri için sahte yer tutucu metin (lorem ipsum) üreten klasik araç.",
-    "en": "The classic generator of placeholder text (lorem ipsum) for design mockups.",
+    "tr": "Tasarım denemeleri için yer tutucu metin (lorem ipsum) üreten klasik araç. Gerçek içerik gelene kadar metin yerine kullanılıyor; metnin kökeni ve tarihi de sayfada anlatılıyor.",
+    "en": "The classic generator of placeholder text (lorem ipsum) for design mockups. It stands in for text until real content arrives, and the page also explains where the text comes from.",
     "src": "awesomeproj"
   },
   {
@@ -257,8 +257,8 @@
       "veri-bilimi",
       "freemium"
     ],
-    "tr": "Belirlediğin şemaya göre gerçekçi sahte test verisi (CSV, JSON, SQL) üreten araç.",
-    "en": "Generates realistic fake test data (CSV, JSON, SQL) to your chosen schema.",
+    "tr": "Belirlediğin şemaya göre gerçekçi sahte test verisi (CSV, JSON, SQL) üreten araç. Faker gibi kütüphanelerden farkı kod yazmadan arayüzden alan tanımlayıp binlerce satır indirebilmen.",
+    "en": "Generates realistic fake test data (CSV, JSON, SQL) to your chosen schema. Unlike libraries such as Faker, you define fields in a UI without code and download thousands of rows.",
     "src": "awesomeproj"
   },
   {
@@ -269,8 +269,8 @@
       "tarayıcı-içi",
       "ücretsiz"
     ],
-    "tr": "Güvenlik odaklı, uzunluk ve karakter türü ayarlanabilen basit parola üretici.",
-    "en": "A simple, security-focused password generator with adjustable length and character sets.",
+    "tr": "Uzunluk ve karakter türü ayarlanabilen basit parola üretici. Sunucuya istek atan çevrimiçi üreteçlerin aksine statik bir sayfa: parola tarayıcında üretiliyor.",
+    "en": "A simple password generator with adjustable length and character sets. Unlike online generators that call a server it is a static page — the password is generated in your browser.",
     "src": "awesomeproj"
   },
   {
@@ -314,8 +314,8 @@
       "tarayıcı-içi",
       "ücretsiz"
     ],
-    "tr": "Geliştirici ve sistem yöneticileri için çevrimiçi hata ayıklama ve ağ araçları koleksiyonu.",
-    "en": "A collection of online debugging and network tools for developers and sysadmins.",
+    "tr": "Geliştirici ve sistem yöneticileri için çevrimiçi hata ayıklama ve ağ araçları koleksiyonu. Tek işlevli araç sitelerinden farkı DNS, HTTP ve kodlama gibi araçları tek yerde toplaması.",
+    "en": "A collection of online debugging and network tools for developers and sysadmins. Unlike single-purpose tool sites, it gathers DNS, HTTP and encoding tools in one place.",
     "src": "bwapsv"
   },
   {
@@ -326,8 +326,8 @@
       "frontend",
       "referans"
     ],
-    "tr": "Sayfayı yalnızca metne indiriyor. Reklam ve düzen gürültüsünü kaldırmasının yanında, ekran okuyucunun sayfayı nasıl gördüğünü kabaca test etmeye de yarıyor.",
-    "en": "Strips a page to text only. Besides removing ads and layout noise, it roughly approximates what a screen reader sees.",
+    "tr": "Sayfayı yalnızca metne indiriyor. Tarayıcının okuma modundan farkı sayfanın tamamını düz metne çevirmesi: reklam ve düzen gürültüsünü kaldırmanın yanında ekran okuyucunun sayfayı nasıl gördüğünü kabaca test etmeye de yarıyor.",
+    "en": "Strips a page to text only. Unlike a browser’s reader mode it converts the whole page to plain text — besides removing ads and layout noise, it roughly approximates what a screen reader sees.",
     "src": "kedi",
     "added": 1785225293
   },
@@ -339,8 +339,8 @@
       "referans",
       "açık-kaynak"
     ],
-    "tr": "Biçimler arası dönüştürücü koleksiyonu: JSON’dan TypeScript tipine, HTML’den JSX’e, SVG’den React bileşenine. Her biri için ayrı site aramaya son veriyor.",
-    "en": "A collection of format converters — JSON to TypeScript types, HTML to JSX, SVG to a React component. It ends hunting a separate site for each.",
+    "tr": "Biçimler arası dönüştürücü koleksiyonu: JSON’dan TypeScript tipine, HTML’den JSX’e, SVG’den React bileşenine. Her dönüşüm için ayrı site aramak yerine hepsi tek yerde.",
+    "en": "A collection of format converters — JSON to TypeScript types, HTML to JSX, SVG to a React component. Instead of hunting a separate site for each conversion, they are all in one place.",
     "src": "kedi",
     "added": 1763969039
   },
@@ -351,8 +351,8 @@
       "eklenti",
       "freemium"
     ],
-    "tr": "Bir sitenin hangi teknolojilerle (çatı, sunucu, analitik) kurulduğunu gösteren araç.",
-    "en": "Reveals which technologies (framework, server, analytics) a website runs on.",
+    "tr": "Bir sitenin hangi teknolojilerle (çatı, sunucu, analitik) kurulduğunu gösteren araç ve tarayıcı eklentisi. Kaynak kodu elle incelemekten farkı parmak izlerini otomatik tanıması.",
+    "en": "A tool and browser extension revealing which technologies (framework, server, analytics) a website runs on. Unlike reading the source by hand, it recognises the fingerprints automatically.",
     "src": "awesomeproj"
   },
   {
@@ -362,8 +362,8 @@
       "ücretsiz",
       "referans"
     ],
-    "tr": "Bir sitenin performans, SEO, mobil uyum ve güvenliğini puanlayan ücretsiz araç.",
-    "en": "A free tool that grades a site on performance, SEO, mobile and security.",
+    "tr": "HubSpot’un bir sitenin performans, SEO, mobil uyum ve güvenliğini puanlayan ücretsiz aracı. Lighthouse’a kıyasla daha yüzeysel ama sonucu teknik olmayan birine anlatılabilir bir karneye çeviriyor.",
+    "en": "HubSpot’s free tool grading a site on performance, SEO, mobile and security. Compared with Lighthouse it is shallower, but turns the result into a report card a non-technical person can follow.",
     "src": "awesomeproj"
   },
   {
@@ -372,8 +372,8 @@
     "tags": [
       "ücretsiz"
     ],
-    "tr": "Bir siteyi tarayıp arama motorları için sitemap.xml dosyası üreten araç.",
-    "en": "Crawls a site and builds the sitemap.xml file for search engines.",
+    "tr": "Bir siteyi tarayıp arama motorları için sitemap.xml dosyası üreten araç. Site üreteçlerinin yerleşik sitemap’inden farkı herhangi bir siteyi dışarıdan tarayabilmesi; ücretsiz sürüm 500 sayfayla sınırlı.",
+    "en": "Crawls a site and builds the sitemap.xml file for search engines. Unlike a site generator’s built-in sitemap it can crawl any site from outside; the free version is capped at 500 pages.",
     "src": "awesomeproj"
   }
 ]

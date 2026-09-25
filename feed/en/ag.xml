@@ -60,7 +60,7 @@
   <link href="https://github.com/tylertreat/Comcast"/>
   <id>https://github.com/tylertreat/Comcast</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Injects network latency and packet loss to test how software copes under bad conditions.</summary>
+  <summary>Injects network latency and packet loss to test how software copes under bad conditions. Instead of hand-writing tc/netem and iptables commands, it produces the same effect with one command.</summary>
 </entry>
 <entry>
   <title>Lokinet</title>
@@ -172,28 +172,28 @@
   <link href="https://tldp.org/LDP/abs/html/"/>
   <id>https://tldp.org/LDP/abs/html/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The most comprehensive free reference on Bash scripting, every topic with a runnable example. Dated in style, still unmatched in coverage.</summary>
+  <summary>The most comprehensive free reference on Bash scripting, every topic with a runnable example. Compared with the Wooledge BashGuide its coverage is still unmatched, but its style is dated and some examples now count as bad habits.</summary>
 </entry>
 <entry>
   <title>Bash Guide for Beginners</title>
   <link href="https://www.tldp.org/LDP/Bash-Beginners-Guide/html/"/>
   <id>https://www.tldp.org/LDP/Bash-Beginners-Guide/html/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An introduction to shell scripting that lays the groundwork without the weight of the advanced guide.</summary>
+  <summary>An introduction to shell scripting. Unlike the Advanced Bash-Scripting Guide, it lays the groundwork without that guide’s weight.</summary>
 </entry>
 <entry>
   <title>Bash Referans Kılavuzu</title>
   <link href="https://www.gnu.org/software/bash/manual/bashref.html"/>
   <id>https://www.gnu.org/software/bash/manual/bashref.html</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Bash’s official manual — the final word on contested topics like expansion rules and parameter substitution.</summary>
+  <summary>Bash’s official manual. Unlike tutorials, it has the final word on contested topics such as expansion rules and parameter substitution.</summary>
 </entry>
 <entry>
   <title>BashGuide (Wooledge)</title>
   <link href="https://mywiki.wooledge.org/BashGuide"/>
   <id>https://mywiki.wooledge.org/BashGuide</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A corrective to the bad Bash examples circulating online, centred on the most common mistakes like quoting and word splitting.</summary>
+  <summary>A Bash guide centred on the most common mistakes, such as quoting and word splitting. Unlike older sources such as the Advanced Bash-Scripting Guide, it was written to correct the bad examples circulating online.</summary>
 </entry>
 <entry>
   <title>Brendan Gregg</title>
@@ -207,7 +207,7 @@
   <link href="https://www.commandlinefu.com/commands/browse"/>
   <id>https://www.commandlinefu.com/commands/browse</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An archive of user-submitted UNIX one-liners ranked by vote — where you check whether a shortcut exists for a task.</summary>
+  <summary>An archive of user-submitted UNIX one-liners ranked by vote. Unlike per-tool summaries such as tldr, you search by task — to check whether a shortcut exists.</summary>
 </entry>
 <entry>
   <title>LinuxCommand.org</title>
@@ -228,7 +228,7 @@
   <link href="https://osquery.io"/>
   <id>https://osquery.io</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Turns the operating system into something you query with SQL — running processes, open ports and installed packages become tables. Common in endpoint monitoring.</summary>
+  <summary>Turns the operating system into something you query with SQL — running processes, open ports and installed packages become tables. Instead of separate commands such as ps and netstat, you ask everything in one query language; common in endpoint monitoring.</summary>
 </entry>
 <entry>
   <title>Pure Bash Bible</title>
@@ -249,7 +249,7 @@
   <link href="https://www.hirensbootcd.org/"/>
   <id>https://www.hirensbootcd.org/</id>
   <updated>2026-07-29T05:57:07Z</updated>
-  <summary>A bootable Windows PE environment for systems that will not start, bundling disk cloning, password reset and data recovery in one image. The USB stick a sysadmin carries.</summary>
+  <summary>A bootable Windows PE environment for systems that will not start, bundling disk cloning, password reset and data recovery in one image. Unlike Linux-based rescue disks it offers a familiar Windows interface and runs Windows tools.</summary>
 </entry>
 <entry>
   <title>ÇözümPark</title>
@@ -263,21 +263,21 @@
   <link href="https://servicedesk-simulator.com/"/>
   <id>https://servicedesk-simulator.com/</id>
   <updated>2026-07-07T11:44:32Z</updated>
-  <summary>Simulates working a real helpdesk queue — prioritisation, escalation, SLA tracking. It fills the practical gap that IT support courses leave theoretical.</summary>
+  <summary>Simulates working a real helpdesk queue — prioritisation, escalation, SLA tracking. Unlike IT support courses that stay theoretical, it has you practise the job.</summary>
 </entry>
 <entry>
   <title>Cisco SG500-52P Kurulumu</title>
   <link href="https://www.firewall.cx/cisco/cisco-switches/cisco-switches-sg500-52p.html"/>
   <id>https://www.firewall.cx/cisco/cisco-switches/cisco-switches-sg500-52p.html</id>
   <updated>2026-07-02T07:38:48Z</updated>
-  <summary>First-time setup of one specific switch model, screenshot by screenshot — with the practical details the official manual skips.</summary>
+  <summary>First-time setup of one specific switch model, screenshot by screenshot. Unlike the official manual, it shows the practical details that manual skips.</summary>
 </entry>
 <entry>
   <title>Cisco SG500 Serisi</title>
   <link href="https://www.firewall.cx/downloads/cisco-product-datasheets-a-guides/cisco-sg500-series-switches.html"/>
   <id>https://www.firewall.cx/downloads/cisco-product-datasheets-a-guides/cisco-sg500-series-switches.html</id>
   <updated>2026-07-02T07:37:07Z</updated>
-  <summary>Datasheets for the SG500 series comparing port counts, PoE budgets and stacking support — the model differences you need when buying second-hand.</summary>
+  <summary>Datasheets for the SG500 series. Unlike a single model’s manual, they compare port counts, PoE budgets and stacking support — the differences you need when buying second-hand.</summary>
 </entry>
 <entry>
   <title>Active@ Disk Image</title>

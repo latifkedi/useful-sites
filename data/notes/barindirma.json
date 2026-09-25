@@ -20,8 +20,8 @@
       "açık-kaynak",
       "sunucu"
     ],
-    "tr": "Kimlik doğrulama, veritabanı, depolama ve fonksiyonları self-hosted sunan açık kaynak arka uç (BaaS).",
-    "en": "An open-source backend-as-a-service offering auth, database, storage and functions, self-hostable.",
+    "tr": "Kimlik doğrulama, veritabanı, depolama ve fonksiyonları sunan açık kaynak arka uç (BaaS). Firebase’den farkı açık kaynak olup kendi sunucunda çalışabilmesi: satıcı bağımlılığı yok.",
+    "en": "An open-source backend-as-a-service offering auth, database, storage and functions. Unlike Firebase it is open source and self-hostable — no vendor lock-in.",
     "src": "kedi"
   },
   {
@@ -95,8 +95,8 @@
       "açık-kaynak",
       "ücretsiz"
     ],
-    "tr": "Kendi sunucunda tek tıkla uygulama ve Docker dağıtımı yapan ücretsiz, self-hosted PaaS.",
-    "en": "A free, self-hosted PaaS for one-click apps and Docker deploys on your own server.",
+    "tr": "Kendi sunucunda tek tıkla uygulama ve Docker dağıtımı yapan ücretsiz, self-hosted PaaS. Heroku’dan farkı sunucunun senin olması; Cloudron’a kıyasla ücretsiz ama bakım ve güncellemeler sende.",
+    "en": "A free, self-hosted PaaS for one-click apps and Docker deploys on your own server. Unlike Heroku the server is yours; compared with Cloudron it is free, but maintenance and updates are on you.",
     "src": "kedi"
   },
   {
@@ -107,8 +107,8 @@
       "otomasyon",
       "freemium"
     ],
-    "tr": "Web uygulamalarını yönetilen güncelleme, yedek ve tek oturum açmayla kendi sunucunda barındırır.",
-    "en": "Self-hosts web apps with managed updates, backups and single sign-on.",
+    "tr": "Web uygulamalarını yönetilen güncelleme, yedek ve tek oturum açmayla kendi sunucunda barındırıyor. CapRover’dan farkı bu bakımı üstlenmesi; karşılığında ücretli lisans, ücretsiz katman iki uygulamayla sınırlı.",
+    "en": "Self-hosts web apps with managed updates, backups and single sign-on. Unlike CapRover it takes on that maintenance; in exchange it is licensed, with the free tier limited to two apps.",
     "src": "kedi"
   },
   {
@@ -142,8 +142,8 @@
       "sunucu",
       "freemium"
     ],
-    "tr": "JavaScript/TypeScript kodunu küresel kenar ağında sunucusuz çalıştıran platform.",
-    "en": "A platform that runs JavaScript/TypeScript serverless on a global edge network.",
+    "tr": "JavaScript/TypeScript kodunu küresel kenar ağında sunucusuz çalıştıran platform. Cloudflare Workers’a kıyasla Deno çalışma zamanını ve npm uyumunu kullanıyor: yerelde çalışan kod değişmeden yayına çıkıyor.",
+    "en": "A platform that runs JavaScript/TypeScript serverless on a global edge network. Compared with Cloudflare Workers it uses the Deno runtime with npm compatibility, so code that runs locally ships unchanged.",
     "src": "kedi"
   },
   {
@@ -153,8 +153,8 @@
       "sunucu",
       "freemium"
     ],
-    "tr": "Geliştirici dostu, sade fiyatlı bulut sunucu (droplet) sağlayıcısı.",
-    "en": "A developer-friendly cloud server (droplet) provider with simple pricing.",
+    "tr": "Geliştirici dostu, sade fiyatlı bulut sunucu (droplet) sağlayıcısı. AWS’e kıyasla servis yelpazesi dar ama fiyatlandırma öngörülebilir ve belgeleri (öğretici arşivi) çok iyi.",
+    "en": "A developer-friendly cloud server (droplet) provider with simple pricing. Compared with AWS the service range is narrow, but pricing is predictable and its documentation — the tutorial archive — is excellent.",
     "src": "awesomeproj"
   },
   {
@@ -176,8 +176,8 @@
       "sunucu",
       "ücretli"
     ],
-    "tr": "Yüksek erişilebilirlikli paylaşımlı ve bulut web barındırma.",
-    "en": "High-availability shared and cloud web hosting.",
+    "tr": "Paylaşımlı ve bulut web barındırma. Hostinger gibi bütçe sağlayıcılarına kıyasla daha köklü; WordPress barındırmada uzun geçmişi var.",
+    "en": "Shared and cloud web hosting. Compared with budget providers such as Hostinger it is longer-established, with a long track record in WordPress hosting.",
     "src": "awesomeproj"
   },
   {
@@ -211,8 +211,8 @@
       "sunucu",
       "freemium"
     ],
-    "tr": "Uygulama konteynerlerini kullanıcıya yakın kenar konumlarda çalıştırır; küresel dağıtım, Postgres ve disk.",
-    "en": "Runs app containers at edge locations close to users, with global deploy, Postgres and volumes.",
+    "tr": "Uygulama konteynerlerini kullanıcıya yakın kenar konumlarda çalıştırıyor; küresel dağıtım, Postgres ve disk dahil. Render ya da Railway’e kıyasla farkı uygulamayı tek bölge yerine dünyanın birçok noktasında aynı anda çalıştırması.",
+    "en": "Runs app containers at edge locations close to users, with global deploy, Postgres and volumes. Compared with Render or Railway, it runs your app in many places around the world at once rather than one region.",
     "src": "kedi"
   },
   {
@@ -235,8 +235,8 @@
       "sunucu",
       "freemium"
     ],
-    "tr": "Kodu git ile itip anında yayına alan hizmet olarak platform (PaaS).",
-    "en": "A platform-as-a-service that deploys code instantly on a git push.",
+    "tr": "Kodu git ile itip anında yayına alan hizmet olarak platform (PaaS); bu modelin öncüsü. Render ve Railway gibi yeni rakiplerine kıyasla daha pahalı; ücretsiz katmanını 2022’de kaldırdı.",
+    "en": "A platform-as-a-service that deploys code on a git push — the pioneer of the model. Compared with newer rivals such as Render and Railway it is pricier, and it dropped its free tier in 2022.",
     "src": "awesomeproj"
   },
   {
@@ -307,8 +307,8 @@
       "referans",
       "masaüstü"
     ],
-    "tr": "Basit ve taşınabilir not defteri; notları düz dosya olarak diskte tutuyor. Bulut not uygulamalarının kapanma riskine karşı sade bir sigorta.",
-    "en": "A simple, portable notebook keeping notes as plain files on disk — a modest hedge against cloud note apps shutting down.",
+    "tr": "Basit ve taşınabilir not defteri; notları düz dosya olarak diskte tutuyor. Bulut not uygulamalarının aksine hizmet kapanırsa notların kaybolmuyor; program uzun süredir güncellenmiyor.",
+    "en": "A simple, portable notebook keeping notes as plain files on disk. Unlike cloud note apps your notes survive if a service shuts down; the program itself has not been updated in a long time.",
     "src": "kedi",
     "added": 1753809782
   },
@@ -332,8 +332,8 @@
       "sunucu",
       "freemium"
     ],
-    "tr": "Uygulama ve konteynerleri küresel, git güdümlü ve sıfıra ölçeklenen sunucusuz biçimde dağıtır.",
-    "en": "Deploys apps and containers globally, git-driven and serverless with scale-to-zero.",
+    "tr": "Uygulama ve konteynerleri küresel, git güdümlü ve sıfıra ölçeklenen sunucusuz biçimde dağıtıyor. Heroku’ya kıyasla sıfıra ölçekleme ve GPU örnekleri sunması; boşta kalan servis için ödeme yapmıyorsun.",
+    "en": "Deploys apps and containers globally, git-driven and serverless with scale-to-zero. Compared with Heroku it offers scale-to-zero and GPU instances, so you do not pay for idle services.",
     "src": "kedi"
   },
   {
@@ -355,8 +355,8 @@
       "sunucu",
       "ücretli"
     ],
-    "tr": "Öngörülebilir fiyatlı Linux sanal makineleriyle geliştirici dostu VPS bulutu.",
-    "en": "A developer-friendly VPS cloud with predictably priced Linux virtual machines.",
+    "tr": "Öngörülebilir fiyatlı Linux sanal makineleriyle geliştirici dostu VPS bulutu; artık Akamai’ye ait. DigitalOcean’a benzer sadelikte; farkı Akamai’nin ağı ve kenar altyapısıyla bütünleşmesi.",
+    "en": "A developer-friendly VPS cloud with predictably priced Linux VMs, now owned by Akamai. Similar in simplicity to DigitalOcean, it differs by integrating with Akamai’s network and edge infrastructure.",
     "src": "kedi"
   },
   {
@@ -379,8 +379,8 @@
       "freemium",
       "otomasyon"
     ],
-    "tr": "Modern statik ve JAMstack siteleri için git-push ile dağıtım, kenar sunucu, form ve fonksiyonlar sunan barındırma.",
-    "en": "Hosting for modern static and JAMstack sites with git-push deploys, edge, forms and functions.",
+    "tr": "Modern statik ve JAMstack siteleri için git-push ile dağıtım, kenar sunucu, form ve fonksiyonlar sunan barındırma. Vercel’e kıyasla çatıdan bağımsız ve form, kimlik doğrulama gibi yerleşik özellikleri daha geniş.",
+    "en": "Hosting for modern static and JAMstack sites with git-push deploys, edge, forms and functions. Compared with Vercel it is framework-agnostic, with a wider set of built-ins such as forms and auth.",
     "src": "kedi"
   },
   {
@@ -427,8 +427,8 @@
       "self-hosted",
       "freemium"
     ],
-    "tr": "Açık kaynak uygulamaları sunucu yönetimi derdi olmadan yönetilen biçimde barındırır.",
-    "en": "Managed hosting that runs open-source apps without you administering a server.",
+    "tr": "Açık kaynak uygulamaları sunucu yönetimi derdi olmadan yönetilen biçimde barındırıyor. Kendi VPS’inde kurmaktan farkı bakımı üstlenmesi; gelirin bir kısmını uygulamaların geliştiricileriyle paylaşıyor.",
+    "en": "Managed hosting that runs open-source apps without you administering a server. Unlike installing on your own VPS it handles maintenance, and it shares part of its revenue with the apps’ developers.",
     "src": "kedi"
   },
   {
@@ -450,8 +450,8 @@
       "sunucu",
       "freemium"
     ],
-    "tr": "Uygulama ve veritabanlarını git'ten en az yapılandırmayla anında dağıtan altyapı.",
-    "en": "Infrastructure that deploys apps and databases from git with minimal configuration, instantly.",
+    "tr": "Uygulama ve veritabanlarını git’ten en az yapılandırmayla anında dağıtan altyapı. Heroku’dan farkı kullanım bazlı fiyatlandırma ve bir projedeki servisleri görsel bir tuvalde birbirine bağlaman.",
+    "en": "Infrastructure that deploys apps and databases from git with minimal configuration. Unlike Heroku it prices by usage, and you wire a project’s services together on a visual canvas.",
     "src": "kedi"
   },
   {
@@ -461,8 +461,8 @@
       "sunucu",
       "freemium"
     ],
-    "tr": "Web servisleri, statik siteler ve veritabanlarını tek yerde toplayan, Heroku sadeliğinde bulut.",
-    "en": "A unified cloud for web services, static sites and databases with Heroku-like simplicity.",
+    "tr": "Web servisleri, statik siteler ve veritabanlarını tek yerde toplayan bulut. Heroku’nun sadeliğini sunuyor; farkı daha düşük fiyat ve yapılandırmanın kod olarak (render.yaml) tutulabilmesi.",
+    "en": "A unified cloud for web services, static sites and databases. It offers Heroku’s simplicity, differing on lower prices and configuration kept as code (render.yaml).",
     "src": "kedi"
   },
   {
@@ -498,8 +498,8 @@
       "ücretsiz",
       "cli"
     ],
-    "tr": "Statik siteleri tek komutla yayına alan ücretsiz barındırma.",
-    "en": "Free hosting that publishes static sites with a single command.",
+    "tr": "Statik siteleri tek komutla yayına alan ücretsiz barındırma. Netlify’a kıyasla git bağlantısı, derleme hattı ya da panel yok: klasörü komut satırından yüklüyorsun, o kadar.",
+    "en": "Free hosting that publishes static sites with a single command. Compared with Netlify there is no git integration, build pipeline or dashboard — you upload a folder from the command line, and that is it.",
     "src": "awesomeproj"
   },
   {

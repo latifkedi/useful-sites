@@ -7,8 +7,8 @@
       "referans",
       "ücretsiz"
     ],
-    "tr": "Android'in resmî geliştirici belgeleri, araçları ve kılavuzları.",
-    "en": "The official Android developer documentation, tools and guides.",
+    "tr": "Android’in resmî geliştirici belgeleri, araçları ve kılavuzları. Topluluk öğreticilerinden farkı API davranışı ve Jetpack kütüphaneleri için birincil kaynak olması.",
+    "en": "The official Android developer documentation, tools and guides. Unlike community tutorials, it is the primary source for API behaviour and the Jetpack libraries.",
     "src": "dsbest"
   },
   {
@@ -30,8 +30,8 @@
       "referans",
       "ücretsiz"
     ],
-    "tr": "iOS ve Apple platformları için resmî geliştirici belgeleri ve kaynakları.",
-    "en": "The official developer documentation and resources for iOS and Apple platforms.",
+    "tr": "iOS ve Apple platformları için resmî geliştirici belgeleri ve kaynakları; İnsan Arayüzü Yönergeleri (HIG) de burada. Üçüncü taraf öğreticilerden farkı API ve mağaza kuralları için son söz olması.",
+    "en": "The official developer documentation and resources for iOS and Apple platforms, including the Human Interface Guidelines. Unlike third-party tutorials, it is the last word on APIs and App Store rules.",
     "src": "dsbest"
   },
   {
@@ -200,8 +200,8 @@
       "açık-kaynak",
       "frontend"
     ],
-    "tr": "Bir web uygulamasını yerel bir kabuğa saran, cihaz API'lerine erişim veren çalışma zamanı.",
-    "en": "A native runtime that wraps a web app in a native shell with access to device APIs.",
+    "tr": "Bir web uygulamasını yerel bir kabuğa saran, cihaz API’lerine erişim veren çalışma zamanı. Cordova’dan farkı yerel projeleri üretilen dosya değil kaynak kodu olarak tutması; React Native’in aksine arayüz WebView içinde çiziliyor.",
+    "en": "A native runtime that wraps a web app in a native shell with access to device APIs. Unlike Cordova it keeps native projects as source rather than generated files; unlike React Native, the UI is drawn inside a WebView.",
     "src": "dsbest"
   },
   {
@@ -211,8 +211,8 @@
       "açık-kaynak",
       "referans"
     ],
-    "tr": "iOS ve Apple projeleri için yaygın kullanılan bağımlılık yöneticisi.",
-    "en": "A widely used dependency manager for iOS and Apple projects.",
+    "tr": "iOS ve Apple projeleri için uzun süre standart olan bağımlılık yöneticisi. Swift Package Manager’a kıyasla eski yol: yeni projeler SPM’e geçiyor, CocoaPods deposu da 2026 sonunda salt okunur hâle geliyor.",
+    "en": "A dependency manager long standard for iOS and Apple projects. Compared with Swift Package Manager it is the older route: new projects move to SPM, and the CocoaPods trunk becomes read-only at the end of 2026.",
     "src": "dsbest"
   },
   {
@@ -235,8 +235,8 @@
       "javascript",
       "masaüstü"
     ],
-    "tr": "Chromium ve Node.js’i paketleyip web teknolojisiyle masaüstü uygulaması çıkarıyor. VS Code ve Slack bununla yazıldı; bellek tüketimi de bu yüzden sürekli eleştiriliyor.",
-    "en": "Bundles Chromium and Node.js to ship desktop apps built with web technology. VS Code and Slack were built this way — and its memory footprint is criticised for the same reason.",
+    "tr": "Chromium ve Node.js’i paketleyip web teknolojisiyle masaüstü uygulaması çıkarıyor; VS Code ve Slack bununla yazıldı. Tauri’den farkı her uygulamayla bütün bir tarayıcıyı taşıması — bellek tüketiminin sürekli eleştirilmesi de bu yüzden.",
+    "en": "Bundles Chromium and Node.js to ship desktop apps built with web technology; VS Code and Slack were built this way. Unlike Tauri it carries a whole browser with every app — which is why its memory footprint is criticised.",
     "src": "kedi",
     "added": 1777482472
   },
@@ -248,8 +248,8 @@
       "masaüstü",
       "güvenlik"
     ],
-    "tr": "Ana süreç ile işleyici süreç ayrımı ve bunlar arası iletişim (IPC) referansı. contextIsolation ve nodeIntegration ayarları güvenlik açısından kritik; varsayılanları değiştirme.",
-    "en": "Reference for the main/renderer process split and the IPC between them. The contextIsolation and nodeIntegration settings are security-critical — leave the defaults alone.",
+    "tr": "Ana süreç ile işleyici süreç ayrımı ve bunlar arası iletişim (IPC) referansı. Genel öğreticilerden farkı güvenlik ayarlarını açıkça anlatması: contextIsolation ve nodeIntegration kritik, varsayılanları değiştirme.",
+    "en": "Reference for the main/renderer process split and the IPC between them. Unlike general tutorials it spells out the security settings: contextIsolation and nodeIntegration are critical — leave the defaults alone.",
     "src": "kedi",
     "added": 1776690089
   },
@@ -284,8 +284,8 @@
       "otomasyon",
       "açık-kaynak"
     ],
-    "tr": "Mobil derleme, ekran görüntüsü ve mağaza yayınını otomatikleştiren açık kaynak araç.",
-    "en": "An open-source tool that automates mobile builds, screenshots and store releases.",
+    "tr": "Mobil derleme, ekran görüntüsü ve mağaza yayınını otomatikleştiren açık kaynak araç. Xcode ve Gradle adımlarını elle yürütmek yerine imzalama, sürüm numarası ve mağazaya yüklemeyi tek komuta bağlıyor.",
+    "en": "An open-source tool that automates mobile builds, screenshots and store releases. Instead of running Xcode and Gradle steps by hand, it ties signing, version bumps and store upload into one command.",
     "src": "dsbest"
   },
   {
@@ -332,8 +332,8 @@
       "öğretici",
       "ücretsiz"
     ],
-    "tr": "Swift ve SwiftUI'yi projelerle öğreten kaynak; ücretsiz \"100 Days\" kursuyla tanınır.",
-    "en": "Learn Swift and SwiftUI through projects, known for its free \"100 Days\" courses.",
+    "tr": "Paul Hudson’ın Swift ve SwiftUI’yi projelerle öğreten sitesi; ücretsiz “100 Days” kurslarıyla tanınıyor. Apple belgelerinden farkı her kavramı küçük, bitmiş bir uygulama içinde göstermesi.",
+    "en": "Paul Hudson’s site teaching Swift and SwiftUI through projects, known for its free “100 Days” courses. Unlike Apple’s docs, it shows every concept inside a small, finished app.",
     "src": "dsbest"
   },
   {
@@ -343,8 +343,8 @@
       "açık-kaynak",
       "frontend"
     ],
-    "tr": "Web teknolojileriyle çapraz platform mobil arayüz geliştiren açık kaynak çatı.",
-    "en": "An open-source framework for building cross-platform mobile UIs with web technologies.",
+    "tr": "Web teknolojileriyle çapraz platform mobil arayüz geliştiren açık kaynak çatı. React Native’den farkı arayüzün web bileşenleriyle WebView içinde çizilmesi: web ekibi aynı kodla mobile çıkabiliyor.",
+    "en": "An open-source framework for building cross-platform mobile UIs with web technologies. Unlike React Native the UI is drawn with web components inside a WebView, so a web team can ship mobile from the same code.",
     "src": "dsbest"
   },
   {
@@ -366,8 +366,8 @@
       "öğretici",
       "freemium"
     ],
-    "tr": "iOS, Android ve Flutter için derinlemesine mobil geliştirme öğreticileri (eski adı raywenderlich).",
-    "en": "In-depth mobile-development tutorials for iOS, Android and Flutter (formerly raywenderlich).",
+    "tr": "iOS, Android ve Flutter için derinlemesine mobil geliştirme öğreticileri (eski adı raywenderlich). Ücretsiz blog yazılarına kıyasla editör denetiminden geçmiş, tutarlı içerik; çoğu ücretli abonelikte.",
+    "en": "In-depth mobile-development tutorials for iOS, Android and Flutter (formerly raywenderlich). Compared with free blog posts the content is editor-reviewed and consistent; most of it sits behind a subscription.",
     "src": "dsbest"
   },
   {
@@ -378,8 +378,8 @@
       "dokümantasyon",
       "frontend"
     ],
-    "tr": "Google'ın açık tasarım sistemi ve arayüz kılavuzları; Android arayüzünün temeli.",
-    "en": "Google's open design system and UI guidelines — the basis of the Android interface.",
+    "tr": "Google’ın açık tasarım sistemi ve arayüz kılavuzları; Android arayüzünün temeli. Apple’ın İnsan Arayüzü Yönergeleri’nin karşılığı; farkı dinamik renk gibi tema sistemini açık bir token modeliyle tanımlaması.",
+    "en": "Google’s open design system and UI guidelines — the basis of the Android interface. It is the counterpart to Apple’s Human Interface Guidelines, differing in that it defines theming such as dynamic colour through an open token model.",
     "src": "dsbest"
   },
   {
@@ -401,8 +401,8 @@
       "açık-kaynak",
       "javascript"
     ],
-    "tr": "JavaScript, TypeScript, Vue veya Angular'dan gerçek yerel mobil uygulama üretir.",
-    "en": "Builds truly native mobile apps from JavaScript, TypeScript, Vue or Angular.",
+    "tr": "JavaScript, TypeScript, Vue veya Angular’dan gerçek yerel mobil uygulama üretiyor. Capacitor ya da Ionic’ten farkı WebView yerine yerel arayüz bileşenleri kullanması ve yerel API’lere doğrudan JavaScript’ten erişmesi.",
+    "en": "Builds truly native mobile apps from JavaScript, TypeScript, Vue or Angular. Unlike Capacitor or Ionic, it uses native UI components instead of a WebView and calls native APIs straight from JavaScript.",
     "src": "dsbest"
   },
   {
@@ -450,8 +450,8 @@
       "referans",
       "ücretsiz"
     ],
-    "tr": "İleri düzey Android mühendisliği yazılarının yayımlandığı topluluk yayını.",
-    "en": "A community publication of advanced Android-engineering articles.",
+    "tr": "İleri düzey Android mühendisliği yazılarının yayımlandığı topluluk yayını. Resmî belgelerden farkı sahadan gelen deneyim: mimari tercihler, performans sorunları ve çözümleri.",
+    "en": "A community publication of advanced Android-engineering articles. Unlike the official docs it carries field experience — architecture choices, performance problems and how they were solved.",
     "src": "dsbest"
   },
   {
@@ -474,8 +474,8 @@
       "açık-kaynak",
       "javascript"
     ],
-    "tr": "React ile yerel mobil uygulama geliştiren çapraz platform çatının resmî belgeleri.",
-    "en": "The official docs of the cross-platform framework for building native mobile apps with React.",
+    "tr": "React ile yerel mobil uygulama geliştiren çapraz platform çatının resmî belgeleri. Flutter’dan farkı JavaScript ve React bilgisini doğrudan kullanması ve platformun kendi arayüz bileşenlerini çizmesi.",
+    "en": "The official docs of the cross-platform framework for building native mobile apps with React. Unlike Flutter, it reuses JavaScript and React skills directly and renders the platform’s own UI components.",
     "src": "dsbest"
   },
   {
@@ -500,8 +500,8 @@
       "referans",
       "ücretsiz"
     ],
-    "tr": "Swift üzerine derinlemesine yazılar ve podcast; John Sundell'in kaynağı.",
-    "en": "Deep articles and a podcast on Swift, by John Sundell.",
+    "tr": "John Sundell’in Swift üzerine derinlemesine yazıları ve podcast’i. Hacking with Swift’e kıyasla proje değil kavram odaklı ve daha ileri seviye: dil özellikleri ve mimari.",
+    "en": "John Sundell’s in-depth articles and podcast on Swift. Compared with Hacking with Swift it is concept- rather than project-driven and more advanced: language features and architecture.",
     "src": "dsbest"
   },
   {

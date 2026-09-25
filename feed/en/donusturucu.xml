@@ -18,21 +18,21 @@
   <link href="https://transparencyreport.google.com/safe-browsing/search"/>
   <id>https://transparencyreport.google.com/safe-browsing/search</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Checks whether a site is flagged as unsafe in Google’s Safe Browsing records.</summary>
+  <summary>Checks whether a site is flagged as unsafe in Google’s Safe Browsing records. Unlike multi-engine scanners such as VirusTotal it consults only Google’s list — so you see in advance the warning Chrome users would get.</summary>
 </entry>
 <entry>
   <title>Invertexto</title>
   <link href="https://www.invertexto.com/"/>
   <id>https://www.invertexto.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A site bundling small text utilities — reversing, counting, converting and more.</summary>
+  <summary>A Portuguese-language site bundling small text utilities — reversing, counting, converting and more. Unlike single-purpose sites, it gathers dozens of small tools at one address.</summary>
 </entry>
 <entry>
   <title>JSCompress</title>
   <link href="https://jscompress.com/"/>
   <id>https://jscompress.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A tool that minifies JavaScript in the browser to shrink its size.</summary>
+  <summary>A tool that minifies JavaScript in the browser to shrink its size. Unlike build-pipeline tools such as Terser or esbuild, it handles a one-off job with nothing to install.</summary>
 </entry>
 <entry>
   <title>JSON Editor Online</title>
@@ -46,56 +46,56 @@
   <link href="https://jsonsort.net"/>
   <id>https://jsonsort.net</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A simple tool that alphabetically sorts and formats JSON keys.</summary>
+  <summary>A simple tool that alphabetically sorts and formats JSON keys. Unlike command-line tools such as jq it works in the browser with no query to write — handy for sorting two JSON files before comparing them.</summary>
 </entry>
 <entry>
   <title>KeyCDN Tools</title>
   <link href="https://tools.keycdn.com/"/>
   <id>https://tools.keycdn.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Bundles network tools like ping, traceroute, HTTP header and performance tests.</summary>
+  <summary>Bundles network tools like ping, traceroute, HTTP header and performance tests. Unlike pinging from your own machine, it runs the tests from servers in different parts of the world.</summary>
 </entry>
 <entry>
   <title>Lorem Ipsum</title>
   <link href="https://www.lipsum.com/"/>
   <id>https://www.lipsum.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The classic generator of placeholder text (lorem ipsum) for design mockups.</summary>
+  <summary>The classic generator of placeholder text (lorem ipsum) for design mockups. It stands in for text until real content arrives, and the page also explains where the text comes from.</summary>
 </entry>
 <entry>
   <title>Mockaroo</title>
   <link href="https://www.mockaroo.com/"/>
   <id>https://www.mockaroo.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Generates realistic fake test data (CSV, JSON, SQL) to your chosen schema.</summary>
+  <summary>Generates realistic fake test data (CSV, JSON, SQL) to your chosen schema. Unlike libraries such as Faker, you define fields in a UI without code and download thousands of rows.</summary>
 </entry>
 <entry>
   <title>Password Generator</title>
   <link href="https://danieldeev.github.io/password-generator/"/>
   <id>https://danieldeev.github.io/password-generator/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A simple, security-focused password generator with adjustable length and character sets.</summary>
+  <summary>A simple password generator with adjustable length and character sets. Unlike online generators that call a server it is a static page — the password is generated in your browser.</summary>
 </entry>
 <entry>
   <title>Wappalyzer</title>
   <link href="https://www.wappalyzer.com/"/>
   <id>https://www.wappalyzer.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Reveals which technologies (framework, server, analytics) a website runs on.</summary>
+  <summary>A tool and browser extension revealing which technologies (framework, server, analytics) a website runs on. Unlike reading the source by hand, it recognises the fingerprints automatically.</summary>
 </entry>
 <entry>
   <title>Website Grader</title>
   <link href="https://website.grader.com/"/>
   <id>https://website.grader.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A free tool that grades a site on performance, SEO, mobile and security.</summary>
+  <summary>HubSpot’s free tool grading a site on performance, SEO, mobile and security. Compared with Lighthouse it is shallower, but turns the result into a report card a non-technical person can follow.</summary>
 </entry>
 <entry>
   <title>XML Sitemaps</title>
   <link href="https://www.xml-sitemaps.com/"/>
   <id>https://www.xml-sitemaps.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Crawls a site and builds the sitemap.xml file for search engines.</summary>
+  <summary>Crawls a site and builds the sitemap.xml file for search engines. Unlike a site generator’s built-in sitemap it can crawl any site from outside; the free version is capped at 500 pages.</summary>
 </entry>
 <entry>
   <title>Beautifier.io</title>
@@ -172,14 +172,14 @@
   <link href="https://cors-error.dev/cors-tester/"/>
   <id>https://cors-error.dev/cors-tester/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Tests an API’s CORS headers from the outside, telling you which header causes the vague CORS error in the browser console.</summary>
+  <summary>Tests an API’s CORS headers from the outside. Unlike the vague CORS error in the browser console, it tells you plainly which header is at fault.</summary>
 </entry>
 <entry>
   <title>Crontab Guru</title>
   <link href="https://crontab.guru/"/>
   <id>https://crontab.guru/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Translates a cron expression into plain language as you type and shows the next run times, ending the guesswork over asterisks and slashes.</summary>
+  <summary>Translates a cron expression into plain language as you type and shows the next run times. Unlike reading the man page you see the result instantly — the end of guesswork over asterisks and slashes.</summary>
 </entry>
 <entry>
   <title>explainshell</title>
@@ -193,7 +193,7 @@
   <link href="https://www.gitignore.io/"/>
   <id>https://www.gitignore.io/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Generates a `.gitignore` from your operating system, editor and language choices — the end of retyping the same lines on every project.</summary>
+  <summary>Generates a `.gitignore` from your operating system, editor and language choices. Unlike GitHub’s individual templates, it merges several at once — the end of retyping the same lines on every project.</summary>
 </entry>
 <entry>
   <title>JSON Crack</title>
@@ -221,20 +221,20 @@
   <link href="https://soliddevtools.com"/>
   <id>https://soliddevtools.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A collection of online debugging and network tools for developers and sysadmins.</summary>
+  <summary>A collection of online debugging and network tools for developers and sysadmins. Unlike single-purpose tool sites, it gathers DNS, HTTP and encoding tools in one place.</summary>
 </entry>
 <entry>
   <title>Textise</title>
   <link href="https://www.textise.net/"/>
   <id>https://www.textise.net/</id>
   <updated>2026-07-28T07:54:53Z</updated>
-  <summary>Strips a page to text only. Besides removing ads and layout noise, it roughly approximates what a screen reader sees.</summary>
+  <summary>Strips a page to text only. Unlike a browser’s reader mode it converts the whole page to plain text — besides removing ads and layout noise, it roughly approximates what a screen reader sees.</summary>
 </entry>
 <entry>
   <title>Transform</title>
   <link href="https://transform.tools/"/>
   <id>https://transform.tools/</id>
   <updated>2025-11-24T07:23:59Z</updated>
-  <summary>A collection of format converters — JSON to TypeScript types, HTML to JSX, SVG to a React component. It ends hunting a separate site for each.</summary>
+  <summary>A collection of format converters — JSON to TypeScript types, HTML to JSX, SVG to a React component. Instead of hunting a separate site for each conversion, they are all in one place.</summary>
 </entry>
 </feed>

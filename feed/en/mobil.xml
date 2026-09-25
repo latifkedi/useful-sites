@@ -11,14 +11,14 @@
   <link href="https://developer.android.com"/>
   <id>https://developer.android.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The official Android developer documentation, tools and guides.</summary>
+  <summary>The official Android developer documentation, tools and guides. Unlike community tutorials, it is the primary source for API behaviour and the Jetpack libraries.</summary>
 </entry>
 <entry>
   <title>Apple Developer</title>
   <link href="https://developer.apple.com"/>
   <id>https://developer.apple.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The official developer documentation and resources for iOS and Apple platforms.</summary>
+  <summary>The official developer documentation and resources for iOS and Apple platforms, including the Human Interface Guidelines. Unlike third-party tutorials, it is the last word on APIs and App Store rules.</summary>
 </entry>
 <entry>
   <title>Awesome Android</title>
@@ -109,56 +109,56 @@
   <link href="https://capacitorjs.com"/>
   <id>https://capacitorjs.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A native runtime that wraps a web app in a native shell with access to device APIs.</summary>
+  <summary>A native runtime that wraps a web app in a native shell with access to device APIs. Unlike Cordova it keeps native projects as source rather than generated files; unlike React Native, the UI is drawn inside a WebView.</summary>
 </entry>
 <entry>
   <title>CocoaPods</title>
   <link href="https://cocoapods.org"/>
   <id>https://cocoapods.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A widely used dependency manager for iOS and Apple projects.</summary>
+  <summary>A dependency manager long standard for iOS and Apple projects. Compared with Swift Package Manager it is the older route: new projects move to SPM, and the CocoaPods trunk becomes read-only at the end of 2026.</summary>
 </entry>
 <entry>
   <title>fastlane</title>
   <link href="https://fastlane.tools"/>
   <id>https://fastlane.tools</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An open-source tool that automates mobile builds, screenshots and store releases.</summary>
+  <summary>An open-source tool that automates mobile builds, screenshots and store releases. Instead of running Xcode and Gradle steps by hand, it ties signing, version bumps and store upload into one command.</summary>
 </entry>
 <entry>
   <title>Hacking with Swift</title>
   <link href="https://www.hackingwithswift.com"/>
   <id>https://www.hackingwithswift.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Learn Swift and SwiftUI through projects, known for its free &quot;100 Days&quot; courses.</summary>
+  <summary>Paul Hudson’s site teaching Swift and SwiftUI through projects, known for its free “100 Days” courses. Unlike Apple’s docs, it shows every concept inside a small, finished app.</summary>
 </entry>
 <entry>
   <title>Ionic</title>
   <link href="https://ionicframework.com"/>
   <id>https://ionicframework.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An open-source framework for building cross-platform mobile UIs with web technologies.</summary>
+  <summary>An open-source framework for building cross-platform mobile UIs with web technologies. Unlike React Native the UI is drawn with web components inside a WebView, so a web team can ship mobile from the same code.</summary>
 </entry>
 <entry>
   <title>Kodeco</title>
   <link href="https://www.kodeco.com"/>
   <id>https://www.kodeco.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>In-depth mobile-development tutorials for iOS, Android and Flutter (formerly raywenderlich).</summary>
+  <summary>In-depth mobile-development tutorials for iOS, Android and Flutter (formerly raywenderlich). Compared with free blog posts the content is editor-reviewed and consistent; most of it sits behind a subscription.</summary>
 </entry>
 <entry>
   <title>Material Design</title>
   <link href="https://m3.material.io"/>
   <id>https://m3.material.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Google's open design system and UI guidelines — the basis of the Android interface.</summary>
+  <summary>Google’s open design system and UI guidelines — the basis of the Android interface. It is the counterpart to Apple’s Human Interface Guidelines, differing in that it defines theming such as dynamic colour through an open token model.</summary>
 </entry>
 <entry>
   <title>NativeScript</title>
   <link href="https://nativescript.org"/>
   <id>https://nativescript.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Builds truly native mobile apps from JavaScript, TypeScript, Vue or Angular.</summary>
+  <summary>Builds truly native mobile apps from JavaScript, TypeScript, Vue or Angular. Unlike Capacitor or Ionic, it uses native UI components instead of a WebView and calls native APIs straight from JavaScript.</summary>
 </entry>
 <entry>
   <title>objc.io</title>
@@ -172,7 +172,7 @@
   <link href="https://proandroiddev.com"/>
   <id>https://proandroiddev.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A community publication of advanced Android-engineering articles.</summary>
+  <summary>A community publication of advanced Android-engineering articles. Unlike the official docs it carries field experience — architecture choices, performance problems and how they were solved.</summary>
 </entry>
 <entry>
   <title>pub.dev</title>
@@ -186,14 +186,14 @@
   <link href="https://reactnative.dev"/>
   <id>https://reactnative.dev</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The official docs of the cross-platform framework for building native mobile apps with React.</summary>
+  <summary>The official docs of the cross-platform framework for building native mobile apps with React. Unlike Flutter, it reuses JavaScript and React skills directly and renders the platform’s own UI components.</summary>
 </entry>
 <entry>
   <title>Swift by Sundell</title>
   <link href="https://www.swiftbysundell.com"/>
   <id>https://www.swiftbysundell.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Deep articles and a podcast on Swift, by John Sundell.</summary>
+  <summary>John Sundell’s in-depth articles and podcast on Swift. Compared with Hacking with Swift it is concept- rather than project-driven and more advanced: language features and architecture.</summary>
 </entry>
 <entry>
   <title>XDA Forums</title>

@@ -6,8 +6,8 @@
       "ücretsiz",
       "referans"
     ],
-    "tr": "Horizon OS, Android XR ve diğer platformların karşılaştırması. Hangi ekosisteme yatırım yapılacağı kararı donanım seçiminden önce geliyor.",
-    "en": "A comparison of Horizon OS, Android XR and the rest. Which ecosystem to invest in is a decision that precedes hardware selection.",
+    "tr": "Horizon OS, Android XR ve diğer akıllı gözlük platformlarının karşılaştırması; hangi ekosisteme yatırım yapılacağı kararı donanım seçiminden önce geliyor. Tek bir platformun tanıtımından farkı yan yana koyması — ama yazının bir gözlük üreticisinin blogu olduğunu akılda tut.",
+    "en": "A comparison of Horizon OS, Android XR and the other smart-glasses platforms; which ecosystem to invest in comes before hardware selection. Unlike a single platform’s pitch it sets them side by side — though bear in mind it is a glasses maker’s blog.",
     "src": "kedi",
     "added": 1785968455
   },
@@ -68,8 +68,8 @@
       "video",
       "donanım"
     ],
-    "tr": "Açık kaynak gözlük üretim sürecini anlatan video; nelerin gerçekten zor olduğunu süslemeden gösteriyor. Projeye girişmeden önce izlenmeli.",
-    "en": "A video on building open-source glasses that is honest about which parts are genuinely hard. Worth watching before committing to the project.",
+    "tr": "Açık kaynak gözlük üretim sürecini anlatan video. Başarı hikâyesi anlatan tanıtımların aksine nelerin gerçekten zor olduğunu süslemeden gösteriyor; projeye girişmeden önce izlenmeli.",
+    "en": "A video on building open-source glasses. Unlike success-story showcases it is honest about which parts are genuinely hard — worth watching before committing to the project.",
     "src": "kedi",
     "added": 1786479551
   },
@@ -81,8 +81,8 @@
       "öğretici",
       "donanım"
     ],
-    "tr": "Malzeme listesi ve montaj sırasıyla adım adım yapım rehberi. Projeyi tekrar edilebilir kılan şey tam olarak bu ayrıntı düzeyi.",
-    "en": "A step-by-step build guide with a bill of materials and assembly order — exactly the level of detail that makes a project reproducible.",
+    "tr": "Malzeme listesi ve montaj sırasıyla adım adım açık kaynak akıllı gözlük yapım rehberi. Proje tanıtımlarından farkı bu ayrıntı düzeyi: projeyi tekrar edilebilir kılan tam olarak bu.",
+    "en": "A step-by-step build guide for open-source smart glasses with a bill of materials and assembly order. Unlike project showcases it has that level of detail — exactly what makes the project reproducible.",
     "src": "kedi",
     "added": 1786479523
   },
@@ -94,8 +94,8 @@
       "açık-kaynak",
       "donanım"
     ],
-    "tr": "Donanım şemasını ve yazılımını yayımlayan gözlük üreticisi. Bu sektörde hem ürün satıp hem tasarımı açan neredeyse tek şirket.",
-    "en": "A glasses maker that publishes both hardware schematics and software — close to the only company in the sector selling a product while opening the design.",
+    "tr": "Donanım şemasını ve yazılımını yayımlayan gözlük üreticisi. Meta gibi kapalı üreticilerin aksine hem ürün satıp hem tasarımı açan, sektörde neredeyse tek şirket.",
+    "en": "A glasses maker that publishes both hardware schematics and software. Unlike closed makers such as Meta, it is close to the only company in the sector selling a product while opening the design.",
     "src": "kedi",
     "added": 1786600246
   },
@@ -132,8 +132,8 @@
       "ücretsiz",
       "sdk"
     ],
-    "tr": "Üreticinin geliştirici merkezi; uygulama geliştirme kaynakları ve API belgeleri burada.",
-    "en": "The vendor’s developer hub, holding app development resources and API documentation.",
+    "tr": "Even Realities’in geliştirici merkezi; uygulama geliştirme kaynakları ve API belgeleri burada. GitHub depolarından farkı kodu değil belgeleri ve yönergeleri toplaması.",
+    "en": "Even Realities’ developer hub, holding app development resources and API documentation. Unlike its GitHub repositories, it gathers documentation and guidelines rather than code.",
     "src": "kedi",
     "added": 1785968404
   },
@@ -145,8 +145,8 @@
       "github",
       "sdk"
     ],
-    "tr": "Üreticinin resmî depoları; SDK ve örnek uygulamalar için birincil kaynak. Donanım üreticisinin kod yayımlaması bu sektörde hâlâ istisna.",
-    "en": "The vendor’s official repositories and the primary source for the SDK and sample apps. A hardware maker publishing code is still the exception in this sector.",
+    "tr": "Even Realities’in resmî depoları; SDK ve örnek uygulamalar için birincil kaynak. Kodunu kapalı tutan gözlük üreticilerinin aksine yayımlıyor — bu sektörde hâlâ istisna.",
+    "en": "Even Realities’ official repositories and the primary source for the SDK and sample apps. Unlike glasses makers that keep code closed it publishes — still the exception in this sector.",
     "src": "kedi",
     "added": 1785968416
   },
@@ -182,8 +182,8 @@
       "referans",
       "güvenlik"
     ],
-    "tr": "Ray-Ban Meta gözlükleri üzerine topluluk projeleri. Resmî SDK olmadığı için buradaki çalışmalar ağırlıkla protokol çözümlemesi ve gayriresmî köprüler.",
-    "en": "Community projects around Ray-Ban Meta glasses. With no official SDK, the work here is mostly protocol analysis and unofficial bridges.",
+    "tr": "Ray-Ban Meta gözlükleri üzerine topluluk projeleri. Meta’nın resmî erişim araç setinin aksine buradaki çalışmalar ağırlıkla protokol çözümlemesi ve gayriresmî köprüler; resmî araç seti yeni ve kısıtlı olduğu için bu yol hâlâ canlı.",
+    "en": "Community projects around Ray-Ban Meta glasses. Unlike Meta’s official access toolkit, the work here is mostly protocol analysis and unofficial bridges — still active because the official toolkit is new and limited.",
     "src": "kedi",
     "added": 1786479546
   },
@@ -207,8 +207,8 @@
       "referans",
       "self-hosted"
     ],
-    "tr": "Üst seviye giyilebilirlerde grafik ve güç dengesini tartışan yazı. Ekranlı gözlükte GPU seçimi doğrudan pil ömrünü belirliyor.",
-    "en": "An article on the graphics-versus-power trade-off in high-end wearables. In display glasses, the GPU choice sets battery life directly.",
+    "tr": "Üst seviye giyilebilirlerde grafik ve güç dengesini tartışan yazı; ekranlı gözlükte GPU seçimi doğrudan pil ömrünü belirliyor. Ürün incelemelerinden farkı yonga tasarımı tarafından bakması — yazarın bir GPU üreticisi olduğunu akılda tut.",
+    "en": "An article on the graphics-versus-power trade-off in high-end wearables; in display glasses the GPU choice sets battery life directly. Unlike product reviews it looks from the chip-design side — bear in mind the author is a GPU vendor.",
     "src": "kedi",
     "added": 1785968452
   },
@@ -221,8 +221,8 @@
       "sdk",
       "gömülü"
     ],
-    "tr": "HeyCyan gözlükleri için platformlar arası SDK; fotoğraf, video ve ses kaydını uygulama tarafından denetlemeyi sağlıyor.",
-    "en": "A cross-platform SDK for HeyCyan glasses giving application-level control over photo, video and audio capture.",
+    "tr": "HeyCyan gözlükleri için platformlar arası SDK. Üreticinin kapalı uygulamasından farkı fotoğraf, video ve ses kaydını kendi uygulamandan denetleyebilmen.",
+    "en": "A cross-platform SDK for HeyCyan glasses. Unlike the vendor’s closed app, it lets your own application control photo, video and audio capture.",
     "src": "kedi",
     "added": 1786479432
   },
@@ -234,8 +234,8 @@
       "github",
       "gömülü"
     ],
-    "tr": "Gözlüğü Web Bluetooth üzerinden tarayıcıya bağlıyor; yerel uygulama yazmadan cihazla konuşabiliyorsun. Prototip için hızlı bir yol.",
-    "en": "Connects the glasses to a browser over Web Bluetooth, so you can talk to the device without writing a native app — a fast route for prototyping.",
+    "tr": "HeyCyan gözlüğünü Web Bluetooth üzerinden tarayıcıya bağlıyor. Yerel uygulama yazmak yerine cihazla tarayıcıdan konuşuyorsun — prototip için hızlı bir yol.",
+    "en": "Connects HeyCyan glasses to a browser over Web Bluetooth. Instead of writing a native app you talk to the device from the browser — a fast route for prototyping.",
     "src": "kedi",
     "added": 1786479476
   },
@@ -260,8 +260,8 @@
       "github",
       "gömülü"
     ],
-    "tr": "Android’den gözlüğe BLE ile bağlanmak için başlangıç kiti. GATT servisleri ve karakteristikleri tanımlı geldiği için protokolü kendin çözmüyorsun.",
-    "en": "A starter kit for connecting to glasses over BLE from Android. GATT services and characteristics arrive defined, so you do not reverse-engineer the protocol yourself.",
+    "tr": "Android’den gözlüğe BLE ile bağlanmak için başlangıç kiti. Sıfırdan BLE kodu yazmaktan farkı GATT servisleri ve karakteristiklerinin tanımlı gelmesi: protokolü kendin çözmüyorsun.",
+    "en": "A starter kit for connecting to glasses over BLE from Android. Unlike writing BLE code from scratch, the GATT services and characteristics arrive defined, so you do not reverse-engineer the protocol.",
     "src": "kedi",
     "added": 1786479492
   },
@@ -285,8 +285,8 @@
       "ücretli",
       "donanım"
     ],
-    "tr": "Ekranlı ve sinir bandıyla (EMG bileklik) kontrol edilen Meta gözlüğü. Kapalı bir ekosistem ama giriş yönteminin nereye evrildiğini göstermesi bakımından referans.",
-    "en": "Meta’s display glasses controlled by an EMG wristband. A closed ecosystem, but a reference point for where the input method is heading.",
+    "tr": "Ekranlı ve sinir bandıyla (EMG bileklik) kontrol edilen Meta gözlüğü. Dokunmatik ya da sesli kontrole kıyasla giriş yönteminin nereye evrildiğini gösteriyor; ekosistemi kapalı.",
+    "en": "Meta’s display glasses controlled by an EMG wristband. Compared with touch or voice control, it shows where the input method is heading; the ecosystem is closed.",
     "src": "kedi",
     "added": 1786617093
   },
@@ -338,8 +338,8 @@
       "referans",
       "donanım"
     ],
-    "tr": "Gözlük sapına dokunmatik kontrol eklemenin uygulama notu; devre şeması ve kalibrasyon parametreleri dahil. Bu düzeyde somut belge nadiren açık oluyor.",
-    "en": "An application note on adding touch control to a glasses temple, with circuit diagram and calibration parameters. Documentation this concrete is rarely public.",
+    "tr": "Gözlük sapına dokunmatik kontrol eklemenin uygulama notu; devre şeması ve kalibrasyon parametreleri dahil. Genel veri sayfalarından farkı bu somutluk — bu düzeyde belge nadiren açık oluyor.",
+    "en": "An application note on adding touch control to a glasses temple, with circuit diagram and calibration parameters. Unlike general datasheets it is concrete — documentation at this level is rarely public.",
     "src": "kedi",
     "added": 1785968446
   },
@@ -350,8 +350,8 @@
       "ücretsiz",
       "donanım"
     ],
-    "tr": "Piyasadaki gözlüklerin çoğunda bulunan Snapdragon AR platformunun resmî sayfası; referans tasarımlar ve güç tüketimi verileri burada.",
-    "en": "The official page for the Snapdragon AR platform found in most shipping glasses, holding the reference designs and power figures.",
+    "tr": "Piyasadaki gözlüklerin çoğunda bulunan Snapdragon AR platformunun resmî sayfası; referans tasarımlar ve güç tüketimi verileri burada. Tek tek ürün sayfalarından farkı platform düzeyinde bakması: hangi gözlüğün içinde ne olduğunu anlamak için.",
+    "en": "The official page for the Snapdragon AR platform inside most shipping glasses, with reference designs and power figures. Unlike individual product pages it looks at the platform level — for understanding what is inside which glasses.",
     "src": "kedi",
     "added": 1785968439
   },

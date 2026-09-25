@@ -32,14 +32,14 @@
   <link href="https://www.beekeeperstudio.io/"/>
   <id>https://www.beekeeperstudio.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An open-source SQL editor and manager supporting many databases.</summary>
+  <summary>An open-source SQL editor and manager supporting many databases. Compared with DBeaver its interface is simpler and more modern, with fewer advanced features in exchange.</summary>
 </entry>
 <entry>
   <title>CockroachDB</title>
   <link href="https://www.cockroachlabs.com"/>
   <id>https://www.cockroachlabs.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A distributed SQL database that scales horizontally with strong consistency and survivability.</summary>
+  <summary>A distributed SQL database that scales horizontally with strong consistency and survivability, speaking the PostgreSQL protocol. Unlike single-node PostgreSQL it replicates across regions; since 2024 it has no open-source core and is offered free to small businesses under licence.</summary>
 </entry>
 <entry>
   <title>ConnectionStrings.com</title>
@@ -53,14 +53,14 @@
   <link href="https://dbdiagram.io"/>
   <id>https://dbdiagram.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A tool that turns a simple text DSL into shareable ER diagrams fast.</summary>
+  <summary>A tool that turns a simple text DSL (DBML) into shareable ER diagrams fast. Unlike drag-and-drop diagram tools you type the schema — no aligning boxes by hand — and can export it to SQL.</summary>
 </entry>
 <entry>
   <title>DBeaver</title>
   <link href="https://dbeaver.io"/>
   <id>https://dbeaver.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A universal desktop database client managing many databases from one interface.</summary>
+  <summary>A universal desktop database client managing many databases from one interface. Compared with Beekeeper Studio it is far more comprehensive — ER diagrams, data transfer, hundreds of drivers — but Java-based and heavy.</summary>
 </entry>
 <entry>
   <title>MariaDB</title>
@@ -74,35 +74,35 @@
   <link href="https://modern-sql.com"/>
   <id>https://modern-sql.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource teaching modern SQL features such as window functions across dialects.</summary>
+  <summary>Markus Winand’s site teaching modern SQL features such as window functions across dialects. Unlike general SQL tutorials, it tabulates which databases support each feature and since which version.</summary>
 </entry>
 <entry>
   <title>Neon</title>
   <link href="https://neon.tech"/>
   <id>https://neon.tech</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Serverless Postgres with branching and scale-to-zero, spinning up instant database branches.</summary>
+  <summary>Serverless Postgres with branching and scale-to-zero; it joined Databricks in 2025. Unlike traditional managed Postgres you can branch the database like git — an instant copy for every PR.</summary>
 </entry>
 <entry>
   <title>PlanetScale</title>
   <link href="https://planetscale.com"/>
   <id>https://planetscale.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Serverless MySQL built on Vitess, managing schema changes with a branching workflow.</summary>
+  <summary>Serverless MySQL built on Vitess, managing schema changes through branches with no downtime. Unlike classic managed MySQL it offers that branching and non-blocking migrations; its free tier was removed in 2024.</summary>
 </entry>
 <entry>
   <title>PostgreSQL Exercises</title>
   <link href="https://pgexercises.com"/>
   <id>https://pgexercises.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Practise SQL with graded PostgreSQL exercises in the browser.</summary>
+  <summary>Practise SQL with graded PostgreSQL exercises in the browser. Compared with SQLBolt it is PostgreSQL-specific and more advanced, including recursive queries and window functions.</summary>
 </entry>
 <entry>
   <title>Redis Insight</title>
   <link href="https://redis.io/insight/"/>
   <id>https://redis.io/insight/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Redis's official GUI — browse, edit, query and profile your data. The successor to tools like RESP.app (RedisDesktopManager).</summary>
+  <summary>Redis’s official GUI — browse, edit, query and profile your data. Instead of third-party tools such as RESP.app (RedisDesktopManager), this is now the official option.</summary>
 </entry>
 <entry>
   <title>SQLBolt</title>
@@ -116,14 +116,14 @@
   <link href="https://surrealdb.com"/>
   <id>https://surrealdb.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A multi-model database combining document, graph and relational in one engine.</summary>
+  <summary>A multi-model database combining document, graph and relational in one engine. Instead of running a document store, a graph database and a SQL database separately, you use them all through one query language — at the cost of less maturity than established databases.</summary>
 </entry>
 <entry>
   <title>Use The Index, Luke!</title>
   <link href="https://use-the-index-luke.com"/>
   <id>https://use-the-index-luke.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The go-to developer-focused guide to SQL indexing and performance.</summary>
+  <summary>Markus Winand’s developer-focused guide to SQL indexing and performance. Unlike general SQL books, it focuses solely on indexing and compares every topic across five major databases.</summary>
 </entry>
 <entry>
   <title>Turso</title>
@@ -137,7 +137,7 @@
   <link href="https://www.oracle.com/database/sqldeveloper/"/>
   <id>https://www.oracle.com/database/sqldeveloper/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A free desktop client for Oracle databases combining querying, schema browsing and PL/SQL debugging — the de facto tool if you work with Oracle.</summary>
+  <summary>A free desktop client for Oracle databases combining querying, schema browsing and PL/SQL debugging. Unlike general clients such as DBeaver it has a PL/SQL debugger and Oracle-specific tooling — the de facto tool if you work with Oracle.</summary>
 </entry>
 <entry>
   <title>PocketBase</title>
@@ -151,7 +151,7 @@
   <link href="https://sqlite.org/"/>
   <id>https://sqlite.org/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A serverless embedded database living in a single file — the most widely deployed database engine in the world, with a copy inside nearly every app on your phone. Its test coverage is legendary.</summary>
+  <summary>A serverless embedded database living in a single file — the most widely deployed database engine in the world. Unlike server databases such as PostgreSQL it needs no separate process or setup; its test coverage is legendary.</summary>
 </entry>
 <entry>
   <title>SQLZoo</title>
@@ -186,14 +186,14 @@
   <link href="https://firebase.google.com/docs"/>
   <id>https://firebase.google.com/docs</id>
   <updated>2026-04-20T13:01:23Z</updated>
-  <summary>Realtime database, auth, storage and hosting in one package. It accelerates a prototype sharply, while query flexibility and vendor lock-in become the later problem.</summary>
+  <summary>Realtime database, auth, storage and hosting in one package. Unlike Supabase it is NoSQL: it accelerates a prototype sharply, while query flexibility and vendor lock-in become the later problem.</summary>
 </entry>
 <entry>
   <title>MongoDB University</title>
   <link href="https://learn.mongodb.com/"/>
   <id>https://learn.mongodb.com/</id>
   <updated>2026-04-20T13:01:23Z</updated>
-  <summary>MongoDB’s official free courses. The data modelling unit is the important one — designing a document store with relational habits is the most common source of performance trouble.</summary>
+  <summary>MongoDB’s official free courses. Unlike third-party courses it puts weight on data modelling — designing a document store with relational habits is the most common source of performance trouble.</summary>
 </entry>
 <entry>
   <title>MySQL Tutorial</title>

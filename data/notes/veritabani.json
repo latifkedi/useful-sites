@@ -42,8 +42,8 @@
       "veritabanı",
       "açık-kaynak"
     ],
-    "tr": "Birçok veritabanını destekleyen, açık kaynak SQL editörü ve yöneticisi.",
-    "en": "An open-source SQL editor and manager supporting many databases.",
+    "tr": "Birçok veritabanını destekleyen, açık kaynak SQL editörü ve yöneticisi. DBeaver’a kıyasla arayüzü daha sade ve modern; karşılığında gelişmiş özellikleri daha az.",
+    "en": "An open-source SQL editor and manager supporting many databases. Compared with DBeaver its interface is simpler and more modern, with fewer advanced features in exchange.",
     "src": "awesomeproj"
   },
   {
@@ -54,8 +54,8 @@
       "sunucu",
       "açık-kaynak"
     ],
-    "tr": "Yatay ölçeklenen, kuvvetli tutarlı ve arızalara dayanıklı dağıtık SQL veritabanı.",
-    "en": "A distributed SQL database that scales horizontally with strong consistency and survivability.",
+    "tr": "Yatay ölçeklenen, kuvvetli tutarlı ve arızalara dayanıklı dağıtık SQL veritabanı; PostgreSQL protokolüyle uyumlu. Tek düğümlü PostgreSQL’den farkı bölgeler arası çoğaltma; 2024’ten beri açık kaynak çekirdeği yok, küçük işletmelere ücretsiz lisansla sunuluyor.",
+    "en": "A distributed SQL database that scales horizontally with strong consistency and survivability, speaking the PostgreSQL protocol. Unlike single-node PostgreSQL it replicates across regions; since 2024 it has no open-source core and is offered free to small businesses under licence.",
     "src": "dsbest"
   },
   {
@@ -90,8 +90,8 @@
       "tarayıcı-içi",
       "ücretsiz"
     ],
-    "tr": "Basit bir metin dilinden hızlıca ER diyagramı üretip paylaştıran araç.",
-    "en": "A tool that turns a simple text DSL into shareable ER diagrams fast.",
+    "tr": "Basit bir metin dilinden (DBML) hızlıca ER diyagramı üretip paylaştıran araç. Sürükle-bırak diyagram araçlarından farkı şemayı yazarak kurman: kutuları elle hizalamıyorsun, SQL’e de dışa aktarabiliyorsun.",
+    "en": "A tool that turns a simple text DSL (DBML) into shareable ER diagrams fast. Unlike drag-and-drop diagram tools you type the schema — no aligning boxes by hand — and can export it to SQL.",
     "src": "dsbest"
   },
   {
@@ -102,8 +102,8 @@
       "açık-kaynak",
       "masaüstü"
     ],
-    "tr": "Birçok veritabanını tek arayüzden yöneten evrensel masaüstü veritabanı istemcisi.",
-    "en": "A universal desktop database client managing many databases from one interface.",
+    "tr": "Birçok veritabanını tek arayüzden yöneten evrensel masaüstü veritabanı istemcisi. Beekeeper Studio’ya kıyasla çok daha kapsamlı (ER diyagramı, veri aktarımı, yüzlerce sürücü); karşılığında Java tabanlı ve ağır.",
+    "en": "A universal desktop database client managing many databases from one interface. Compared with Beekeeper Studio it is far more comprehensive — ER diagrams, data transfer, hundreds of drivers — but Java-based and heavy.",
     "src": "dsbest"
   },
   {
@@ -115,8 +115,8 @@
       "backend",
       "api"
     ],
-    "tr": "Gerçek zamanlı veritabanı, kimlik doğrulama, depolama ve barındırma tek pakette. Prototipi çok hızlandırıyor; sorgu esnekliği ve satıcı bağımlılığı ise sonradan sorun oluyor.",
-    "en": "Realtime database, auth, storage and hosting in one package. It accelerates a prototype sharply, while query flexibility and vendor lock-in become the later problem.",
+    "tr": "Gerçek zamanlı veritabanı, kimlik doğrulama, depolama ve barındırma tek pakette. Supabase’den farkı NoSQL olması: prototipi çok hızlandırıyor, sorgu esnekliği ve satıcı bağımlılığı ise sonradan sorun oluyor.",
+    "en": "Realtime database, auth, storage and hosting in one package. Unlike Supabase it is NoSQL: it accelerates a prototype sharply, while query flexibility and vendor lock-in become the later problem.",
     "src": "kedi",
     "added": 1776690083
   },
@@ -154,8 +154,8 @@
       "referans",
       "ücretsiz"
     ],
-    "tr": "Pencere fonksiyonları gibi modern SQL özelliklerini lehçeler arası öğreten kaynak.",
-    "en": "A resource teaching modern SQL features such as window functions across dialects.",
+    "tr": "Markus Winand’ın pencere fonksiyonları gibi modern SQL özelliklerini lehçeler arası öğreten sitesi. Genel SQL öğreticilerinden farkı her özelliğin hangi veritabanında, hangi sürümden beri desteklendiğini tabloyla göstermesi.",
+    "en": "Markus Winand’s site teaching modern SQL features such as window functions across dialects. Unlike general SQL tutorials, it tabulates which databases support each feature and since which version.",
     "src": "dsbest"
   },
   {
@@ -166,8 +166,8 @@
       "veritabanı",
       "müfredat"
     ],
-    "tr": "MongoDB’nin resmî ücretsiz kursları. Veri modelleme dersi kritik: ilişkisel alışkanlıkla belge veritabanı tasarlamak, ortaya çıkan en yaygın performans sorunu.",
-    "en": "MongoDB’s official free courses. The data modelling unit is the important one — designing a document store with relational habits is the most common source of performance trouble.",
+    "tr": "MongoDB’nin resmî ücretsiz kursları. Üçüncü taraf kurslardan farkı veri modelleme dersinin ağırlığı: ilişkisel alışkanlıkla belge veritabanı tasarlamak, en yaygın performans sorununun kaynağı.",
+    "en": "MongoDB’s official free courses. Unlike third-party courses it puts weight on data modelling — designing a document store with relational habits is the most common source of performance trouble.",
     "src": "kedi",
     "added": 1776690083
   },
@@ -191,8 +191,8 @@
       "freemium",
       "sunucu"
     ],
-    "tr": "Dallanma ve sıfıra ölçeklenmeyle sunucusuz Postgres; anlık veritabanı dalları açar.",
-    "en": "Serverless Postgres with branching and scale-to-zero, spinning up instant database branches.",
+    "tr": "Dallanma ve sıfıra ölçeklenmeyle sunucusuz Postgres; 2025’te Databricks bünyesine katıldı. Geleneksel yönetilen Postgres’ten farkı veritabanını git gibi dallandırabilmen: her PR için anında bir kopya.",
+    "en": "Serverless Postgres with branching and scale-to-zero; it joined Databricks in 2025. Unlike traditional managed Postgres you can branch the database like git — an instant copy for every PR.",
     "src": "dsbest"
   },
   {
@@ -202,8 +202,8 @@
       "ücretsiz",
       "veritabanı"
     ],
-    "tr": "Oracle veritabanları için ücretsiz masaüstü istemci; sorgu, şema gezme ve PL/SQL hata ayıklama bir arada. Oracle ile çalışıyorsan fiilî standart araç.",
-    "en": "A free desktop client for Oracle databases combining querying, schema browsing and PL/SQL debugging — the de facto tool if you work with Oracle.",
+    "tr": "Oracle veritabanları için ücretsiz masaüstü istemci; sorgu, şema gezme ve PL/SQL hata ayıklama bir arada. DBeaver gibi genel istemcilerden farkı PL/SQL hata ayıklayıcısı ve Oracle’a özgü araçlar: Oracle ile çalışıyorsan fiilî standart.",
+    "en": "A free desktop client for Oracle databases combining querying, schema browsing and PL/SQL debugging. Unlike general clients such as DBeaver it has a PL/SQL debugger and Oracle-specific tooling — the de facto tool if you work with Oracle.",
     "src": "kedi"
   },
   {
@@ -214,8 +214,8 @@
       "freemium",
       "sunucu"
     ],
-    "tr": "Vitess tabanlı sunucusuz MySQL; şema değişikliklerini dal (branch) mantığıyla yönetir.",
-    "en": "Serverless MySQL built on Vitess, managing schema changes with a branching workflow.",
+    "tr": "Vitess tabanlı sunucusuz MySQL; şema değişikliklerini dal (branch) mantığıyla, kesintisiz yönetiyor. Klasik yönetilen MySQL’den farkı bu dallanma ve kesintisiz şema geçişi; ücretsiz katmanı 2024’te kaldırıldı.",
+    "en": "Serverless MySQL built on Vitess, managing schema changes through branches with no downtime. Unlike classic managed MySQL it offers that branching and non-blocking migrations; its free tier was removed in 2024.",
     "src": "dsbest"
   },
   {
@@ -240,8 +240,8 @@
       "öğretici",
       "ücretsiz"
     ],
-    "tr": "Tarayıcıda notlandırılan PostgreSQL alıştırmalarıyla SQL pratiği.",
-    "en": "Practise SQL with graded PostgreSQL exercises in the browser.",
+    "tr": "Tarayıcıda notlandırılan PostgreSQL alıştırmalarıyla SQL pratiği. SQLBolt’a kıyasla PostgreSQL’e özgü ve daha ileri: özyinelemeli sorgular ve pencere fonksiyonları dahil.",
+    "en": "Practise SQL with graded PostgreSQL exercises in the browser. Compared with SQLBolt it is PostgreSQL-specific and more advanced, including recursive queries and window functions.",
     "src": "dsbest"
   },
   {
@@ -264,8 +264,8 @@
       "ücretsiz",
       "masaüstü"
     ],
-    "tr": "Redis'in resmî görsel arayüzü; veriyi görüntüleme, düzenleme, sorgu ve profil çıkarma. Eskiden RESP.app (RedisDesktopManager) kullanılan yerin yerini aldı.",
-    "en": "Redis's official GUI — browse, edit, query and profile your data. The successor to tools like RESP.app (RedisDesktopManager).",
+    "tr": "Redis’in resmî görsel arayüzü; veriyi görüntüleme, düzenleme, sorgu ve profil çıkarma. RESP.app (RedisDesktopManager) gibi üçüncü taraf araçların yerine artık resmî seçenek bu.",
+    "en": "Redis’s official GUI — browse, edit, query and profile your data. Instead of third-party tools such as RESP.app (RedisDesktopManager), this is now the official option.",
     "src": "awesomeproj"
   },
   {
@@ -314,8 +314,8 @@
       "açık-kaynak",
       "veritabanı"
     ],
-    "tr": "Sunucusu olmayan, tek dosyada duran gömülü veritabanı. Dünyada en çok dağıtılmış veritabanı motoru; telefonundaki her uygulamanın içinde bir kopyası var. Test kapsamı efsanevi.",
-    "en": "A serverless embedded database living in a single file — the most widely deployed database engine in the world, with a copy inside nearly every app on your phone. Its test coverage is legendary.",
+    "tr": "Sunucusu olmayan, tek dosyada duran gömülü veritabanı; dünyada en çok dağıtılmış veritabanı motoru. PostgreSQL gibi sunucu veritabanlarından farkı ayrı bir süreç ve kurulum istememesi; test kapsamı efsanevi.",
+    "en": "A serverless embedded database living in a single file — the most widely deployed database engine in the world. Unlike server databases such as PostgreSQL it needs no separate process or setup; its test coverage is legendary.",
     "src": "kedi"
   },
   {
@@ -352,8 +352,8 @@
       "açık-kaynak",
       "sunucu"
     ],
-    "tr": "Belge, çizge ve ilişkiseli tek motorda birleştiren çok modelli veritabanı.",
-    "en": "A multi-model database combining document, graph and relational in one engine.",
+    "tr": "Belge, çizge ve ilişkisel modeli tek motorda birleştiren çok modelli veritabanı. Belge deposu, çizge veritabanı ve SQL veritabanını ayrı ayrı işletmek yerine hepsini tek sorgu diliyle kullanıyorsun; karşılığında olgunluğu yerleşik veritabanlarına göre daha az.",
+    "en": "A multi-model database combining document, graph and relational in one engine. Instead of running a document store, a graph database and a SQL database separately, you use them all through one query language — at the cost of less maturity than established databases.",
     "src": "dsbest"
   },
   {
@@ -376,8 +376,8 @@
       "referans",
       "ücretsiz"
     ],
-    "tr": "Geliştiriciye yönelik SQL indeksleme ve performans rehberinin başucu kaynağı.",
-    "en": "The go-to developer-focused guide to SQL indexing and performance.",
+    "tr": "Markus Winand’ın geliştiriciye yönelik SQL indeksleme ve performans rehberi. Genel SQL kitaplarından farkı yalnız indekslemeye odaklanması ve her konuyu beş büyük veritabanında karşılaştırması.",
+    "en": "Markus Winand’s developer-focused guide to SQL indexing and performance. Unlike general SQL books, it focuses solely on indexing and compares every topic across five major databases.",
     "src": "dsbest"
   },
   {

@@ -32,14 +32,14 @@
   <link href="https://www.beekeeperstudio.io/"/>
   <id>https://www.beekeeperstudio.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Birçok veritabanını destekleyen, açık kaynak SQL editörü ve yöneticisi.</summary>
+  <summary>Birçok veritabanını destekleyen, açık kaynak SQL editörü ve yöneticisi. DBeaver’a kıyasla arayüzü daha sade ve modern; karşılığında gelişmiş özellikleri daha az.</summary>
 </entry>
 <entry>
   <title>CockroachDB</title>
   <link href="https://www.cockroachlabs.com"/>
   <id>https://www.cockroachlabs.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Yatay ölçeklenen, kuvvetli tutarlı ve arızalara dayanıklı dağıtık SQL veritabanı.</summary>
+  <summary>Yatay ölçeklenen, kuvvetli tutarlı ve arızalara dayanıklı dağıtık SQL veritabanı; PostgreSQL protokolüyle uyumlu. Tek düğümlü PostgreSQL’den farkı bölgeler arası çoğaltma; 2024’ten beri açık kaynak çekirdeği yok, küçük işletmelere ücretsiz lisansla sunuluyor.</summary>
 </entry>
 <entry>
   <title>ConnectionStrings.com</title>
@@ -53,14 +53,14 @@
   <link href="https://dbdiagram.io"/>
   <id>https://dbdiagram.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Basit bir metin dilinden hızlıca ER diyagramı üretip paylaştıran araç.</summary>
+  <summary>Basit bir metin dilinden (DBML) hızlıca ER diyagramı üretip paylaştıran araç. Sürükle-bırak diyagram araçlarından farkı şemayı yazarak kurman: kutuları elle hizalamıyorsun, SQL’e de dışa aktarabiliyorsun.</summary>
 </entry>
 <entry>
   <title>DBeaver</title>
   <link href="https://dbeaver.io"/>
   <id>https://dbeaver.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Birçok veritabanını tek arayüzden yöneten evrensel masaüstü veritabanı istemcisi.</summary>
+  <summary>Birçok veritabanını tek arayüzden yöneten evrensel masaüstü veritabanı istemcisi. Beekeeper Studio’ya kıyasla çok daha kapsamlı (ER diyagramı, veri aktarımı, yüzlerce sürücü); karşılığında Java tabanlı ve ağır.</summary>
 </entry>
 <entry>
   <title>MariaDB</title>
@@ -74,35 +74,35 @@
   <link href="https://modern-sql.com"/>
   <id>https://modern-sql.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Pencere fonksiyonları gibi modern SQL özelliklerini lehçeler arası öğreten kaynak.</summary>
+  <summary>Markus Winand’ın pencere fonksiyonları gibi modern SQL özelliklerini lehçeler arası öğreten sitesi. Genel SQL öğreticilerinden farkı her özelliğin hangi veritabanında, hangi sürümden beri desteklendiğini tabloyla göstermesi.</summary>
 </entry>
 <entry>
   <title>Neon</title>
   <link href="https://neon.tech"/>
   <id>https://neon.tech</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Dallanma ve sıfıra ölçeklenmeyle sunucusuz Postgres; anlık veritabanı dalları açar.</summary>
+  <summary>Dallanma ve sıfıra ölçeklenmeyle sunucusuz Postgres; 2025’te Databricks bünyesine katıldı. Geleneksel yönetilen Postgres’ten farkı veritabanını git gibi dallandırabilmen: her PR için anında bir kopya.</summary>
 </entry>
 <entry>
   <title>PlanetScale</title>
   <link href="https://planetscale.com"/>
   <id>https://planetscale.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Vitess tabanlı sunucusuz MySQL; şema değişikliklerini dal (branch) mantığıyla yönetir.</summary>
+  <summary>Vitess tabanlı sunucusuz MySQL; şema değişikliklerini dal (branch) mantığıyla, kesintisiz yönetiyor. Klasik yönetilen MySQL’den farkı bu dallanma ve kesintisiz şema geçişi; ücretsiz katmanı 2024’te kaldırıldı.</summary>
 </entry>
 <entry>
   <title>PostgreSQL Exercises</title>
   <link href="https://pgexercises.com"/>
   <id>https://pgexercises.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Tarayıcıda notlandırılan PostgreSQL alıştırmalarıyla SQL pratiği.</summary>
+  <summary>Tarayıcıda notlandırılan PostgreSQL alıştırmalarıyla SQL pratiği. SQLBolt’a kıyasla PostgreSQL’e özgü ve daha ileri: özyinelemeli sorgular ve pencere fonksiyonları dahil.</summary>
 </entry>
 <entry>
   <title>Redis Insight</title>
   <link href="https://redis.io/insight/"/>
   <id>https://redis.io/insight/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Redis'in resmî görsel arayüzü; veriyi görüntüleme, düzenleme, sorgu ve profil çıkarma. Eskiden RESP.app (RedisDesktopManager) kullanılan yerin yerini aldı.</summary>
+  <summary>Redis’in resmî görsel arayüzü; veriyi görüntüleme, düzenleme, sorgu ve profil çıkarma. RESP.app (RedisDesktopManager) gibi üçüncü taraf araçların yerine artık resmî seçenek bu.</summary>
 </entry>
 <entry>
   <title>SQLBolt</title>
@@ -116,14 +116,14 @@
   <link href="https://surrealdb.com"/>
   <id>https://surrealdb.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Belge, çizge ve ilişkiseli tek motorda birleştiren çok modelli veritabanı.</summary>
+  <summary>Belge, çizge ve ilişkisel modeli tek motorda birleştiren çok modelli veritabanı. Belge deposu, çizge veritabanı ve SQL veritabanını ayrı ayrı işletmek yerine hepsini tek sorgu diliyle kullanıyorsun; karşılığında olgunluğu yerleşik veritabanlarına göre daha az.</summary>
 </entry>
 <entry>
   <title>Use The Index, Luke!</title>
   <link href="https://use-the-index-luke.com"/>
   <id>https://use-the-index-luke.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Geliştiriciye yönelik SQL indeksleme ve performans rehberinin başucu kaynağı.</summary>
+  <summary>Markus Winand’ın geliştiriciye yönelik SQL indeksleme ve performans rehberi. Genel SQL kitaplarından farkı yalnız indekslemeye odaklanması ve her konuyu beş büyük veritabanında karşılaştırması.</summary>
 </entry>
 <entry>
   <title>Turso</title>
@@ -137,7 +137,7 @@
   <link href="https://www.oracle.com/database/sqldeveloper/"/>
   <id>https://www.oracle.com/database/sqldeveloper/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Oracle veritabanları için ücretsiz masaüstü istemci; sorgu, şema gezme ve PL/SQL hata ayıklama bir arada. Oracle ile çalışıyorsan fiilî standart araç.</summary>
+  <summary>Oracle veritabanları için ücretsiz masaüstü istemci; sorgu, şema gezme ve PL/SQL hata ayıklama bir arada. DBeaver gibi genel istemcilerden farkı PL/SQL hata ayıklayıcısı ve Oracle’a özgü araçlar: Oracle ile çalışıyorsan fiilî standart.</summary>
 </entry>
 <entry>
   <title>PocketBase</title>
@@ -151,7 +151,7 @@
   <link href="https://sqlite.org/"/>
   <id>https://sqlite.org/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Sunucusu olmayan, tek dosyada duran gömülü veritabanı. Dünyada en çok dağıtılmış veritabanı motoru; telefonundaki her uygulamanın içinde bir kopyası var. Test kapsamı efsanevi.</summary>
+  <summary>Sunucusu olmayan, tek dosyada duran gömülü veritabanı; dünyada en çok dağıtılmış veritabanı motoru. PostgreSQL gibi sunucu veritabanlarından farkı ayrı bir süreç ve kurulum istememesi; test kapsamı efsanevi.</summary>
 </entry>
 <entry>
   <title>SQLZoo</title>
@@ -186,14 +186,14 @@
   <link href="https://firebase.google.com/docs"/>
   <id>https://firebase.google.com/docs</id>
   <updated>2026-04-20T13:01:23Z</updated>
-  <summary>Gerçek zamanlı veritabanı, kimlik doğrulama, depolama ve barındırma tek pakette. Prototipi çok hızlandırıyor; sorgu esnekliği ve satıcı bağımlılığı ise sonradan sorun oluyor.</summary>
+  <summary>Gerçek zamanlı veritabanı, kimlik doğrulama, depolama ve barındırma tek pakette. Supabase’den farkı NoSQL olması: prototipi çok hızlandırıyor, sorgu esnekliği ve satıcı bağımlılığı ise sonradan sorun oluyor.</summary>
 </entry>
 <entry>
   <title>MongoDB University</title>
   <link href="https://learn.mongodb.com/"/>
   <id>https://learn.mongodb.com/</id>
   <updated>2026-04-20T13:01:23Z</updated>
-  <summary>MongoDB’nin resmî ücretsiz kursları. Veri modelleme dersi kritik: ilişkisel alışkanlıkla belge veritabanı tasarlamak, ortaya çıkan en yaygın performans sorunu.</summary>
+  <summary>MongoDB’nin resmî ücretsiz kursları. Üçüncü taraf kurslardan farkı veri modelleme dersinin ağırlığı: ilişkisel alışkanlıkla belge veritabanı tasarlamak, en yaygın performans sorununun kaynağı.</summary>
 </entry>
 <entry>
   <title>MySQL Tutorial</title>
