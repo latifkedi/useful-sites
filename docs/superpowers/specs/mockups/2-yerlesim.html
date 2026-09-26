@@ -1,0 +1,168 @@
+<style>
+  .pg2{display:grid;grid-template-columns:minmax(0,1fr) 390px;gap:22px;align-items:start}
+  @media (max-width:1100px){.pg2{grid-template-columns:1fr}}
+  .cap{font-size:.78rem;opacity:.75;margin:.4rem 0 0}
+  .notes{display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem;margin-top:1rem;font-size:.84rem}
+  .notes div{background:rgba(128,128,128,.08);border-radius:8px;padding:.7rem .85rem;line-height:1.5}
+  .notes b{display:block;margin-bottom:.2rem}
+  .fr{border-radius:10px;overflow:hidden;border:1px solid rgba(128,128,128,.35)}
+
+  .A{--p:#f6f1e7;--p2:#efe8da;--i:#1c1a16;--d:#5b564c;--f:#857e70;--r:#ddd5c4;--r2:#e9e2d3;--red:#a8321f;--reds:#f1e0d6;
+     background:var(--p);color:var(--i);font:15px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  .A .se{font-family:"Source Serif 4",Georgia,"Times New Roman",serif}
+  .A .bar{display:flex;align-items:center;gap:14px;padding:12px 22px;border-bottom:1px solid var(--r)}
+  .A .logo{display:flex;align-items:center;gap:8px;font:600 15px/1 "Source Serif 4",Georgia,serif;white-space:nowrap}
+  .A .q{flex:1;max-width:460px;border:1px solid var(--r);background:#fbf8f1;border-radius:6px;padding:7px 12px;color:var(--f);font-size:13.5px;display:flex;justify-content:space-between}
+  .A .q kbd{font:11px ui-monospace,monospace;border:1px solid var(--r);border-radius:3px;padding:0 5px;color:var(--f)}
+  .A .act{margin-left:auto;display:flex;gap:14px;font-size:12.5px;color:var(--d);white-space:nowrap}
+  .A .cols{display:grid;grid-template-columns:190px minmax(0,1fr);gap:34px;padding:22px 22px 26px}
+  .A .toc .k{font:12px/1 system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--red);margin-bottom:10px}
+  .A .toc a{display:flex;justify-content:space-between;gap:8px;padding:6px 0;border-bottom:1px solid var(--r2);font-size:13.5px;color:var(--d);text-decoration:none;line-height:1.35}
+  .A .toc a small{color:var(--f);font-variant-numeric:tabular-nums}
+  .A .toc a.on{color:var(--i);font-weight:600}
+  .A .toc a.on::before{content:"▸";color:var(--red);margin-right:4px}
+  .A .toc .all{border:0;margin-top:10px;color:var(--f);font-size:12.5px}
+  .A .crumb{font-size:12.5px;color:var(--f)}
+  .A .crumb b{color:var(--red);font-weight:400;margin:0 5px}
+  .A h1{font:600 32px/1.12 "Source Serif 4",Georgia,serif;letter-spacing:-.015em;margin:6px 0 10px}
+  .A .lede{font:400 16.5px/1.6 "Source Serif 4",Georgia,serif;color:var(--d);margin:0 0 16px;max-width:64ch}
+  .A .tb{display:flex;align-items:center;gap:8px;padding:10px 0;border-top:1px solid var(--r);border-bottom:1px solid var(--r);font-size:13px}
+  .A .chip{border:1px solid var(--r);border-radius:999px;padding:5px 12px;color:var(--d);background:#fbf8f1;white-space:nowrap}
+  .A .chip.on{border-color:var(--red);color:var(--red);background:var(--reds)}
+  .A .chip .x{margin-left:6px;opacity:.7}
+  .A .tb .sp{margin-left:auto;color:var(--f);white-space:nowrap}
+  .A .rec{display:grid;grid-template-columns:28px minmax(0,1fr);gap:0 6px;padding:16px 0;border-bottom:1px solid var(--r2)}
+  .A .rec .no{font:600 13px/28px "Source Serif 4",Georgia,serif;color:var(--red);text-align:right;padding-right:6px}
+  .A .rec .nm{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+  .A .rec .nm a{font:600 19px/1.3 "Source Serif 4",Georgia,serif;color:var(--i);text-decoration:none;letter-spacing:-.005em}
+  .A .rec .nm .h{font-size:12.5px;color:var(--f)}
+  .A .rec .nm .pk{font-size:11.5px;color:var(--red);border:1px solid var(--red);border-radius:3px;padding:0 5px;line-height:1.5}
+  .A .rec p{margin:5px 0 0;color:var(--d);font-size:15px;line-height:1.62;max-width:68ch}
+  .A .rec .mt{margin-top:7px;font-size:12.5px;color:var(--f);display:flex;gap:6px 14px;flex-wrap:wrap}
+  .A .rec .mt i{font-style:normal;color:var(--d)}
+  .A .rec .mt .rel{color:var(--f)}
+  .A .rec .mt .rel u{text-decoration:none;color:var(--d);border-bottom:1px solid var(--r)}
+
+  /* mobile */
+  .M{width:100%;max-width:375px;margin:0 auto;border-radius:22px;border:1px solid rgba(128,128,128,.4);overflow:hidden}
+  .M .bar{padding:12px 16px 10px;flex-wrap:wrap;gap:10px;border:0}
+  .M .bar .q{flex:1 1 100%;max-width:none;order:3;padding:10px 12px;font-size:14px}
+  .M .bar .act{font-size:18px;color:var(--d)}
+  .M .body{padding:4px 16px 18px}
+  .M h1{font-size:25px;margin:4px 0 6px;display:flex;align-items:baseline;gap:8px}
+  .M h1 span{font:400 15px system-ui,sans-serif;color:var(--red)}
+  .M .lede{font-size:15px;margin-bottom:10px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .M .more{font-size:12.5px;color:var(--red);margin:-6px 0 10px;display:block}
+  .M .tb{gap:6px}
+  .M .rec{grid-template-columns:22px minmax(0,1fr)}
+  .M .rec .nm a{font-size:17.5px}
+  .M .rec p{font-size:14.5px}
+  .M .fold{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--red);text-align:center;border-top:1px dashed var(--red);margin:0 -16px;padding:3px 0 0;opacity:.8}
+
+  /* sheet */
+  .S{max-width:375px;margin:14px auto 0;border-radius:22px 22px 0 0;border:1px solid rgba(128,128,128,.4);overflow:hidden}
+  .S .hd{display:flex;align-items:center;padding:14px 16px 8px}
+  .S .hd b{font:600 18px "Source Serif 4",Georgia,serif}
+  .S .hd span{margin-left:auto;font-size:13px;color:var(--red)}
+  .S .grp{padding:6px 16px 10px}
+  .S .grp .k{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--f);margin-bottom:7px}
+  .S .grp .cs{display:flex;flex-wrap:wrap;gap:6px}
+  .S .ft{display:flex;gap:8px;padding:10px 16px 16px;border-top:1px solid var(--r)}
+  .S .ft div{flex:1;text-align:center;border:1px solid var(--r);border-radius:8px;padding:10px;font-size:14px}
+  .S .ft div.pr{background:var(--i);color:var(--p);border-color:var(--i)}
+</style>
+
+<h2>2. Kategori sayfası — masaüstü ve mobil</h2>
+<p class="subtitle">Sitenin en çok kullanılan ekranı. Gerçek içerik: <b>YZ · RAG, Gömme &amp; Vektör</b>. Solda masaüstü, sağda telefon ve süzgeç çekmecesi. Kırmızı yalnızca işaret için: sıra numarası, seçili başlık, aktif süzgeç, "Buradan başla".</p>
+
+<div class="pg2">
+<div>
+<div class="fr"><div class="A">
+  <div class="bar">
+    <span class="logo"><svg width="22" height="22" viewBox="0 0 60 60"><path d="M43 12 A22 22 0 1 0 51 30" fill="none" stroke="#a8321f" stroke-width="5" stroke-linecap="round"/></svg>Kullanışlı Siteler</span>
+    <span class="q"><span>1888 bağlantıda ara…</span><kbd>/</kbd></span>
+    <span class="act"><span>Gönder</span><span>Rastgele</span><span>TR</span><span>◐</span></span>
+  </div>
+  <div class="cols">
+    <aside class="toc">
+      <div class="k">II · Yapay Zeka</div>
+      <a>Modeller &amp; Asistanlar<small>35</small></a>
+      <a>Agent &amp; Altyapı<small>66</small></a>
+      <a class="on">RAG, Gömme &amp; Vektör<small>33</small></a>
+      <a>Uygulama Araçları<small>69</small></a>
+      <a>Üretken Medya<small>45</small></a>
+      <a class="all">← Tüm alanlar (fihrist)</a>
+    </aside>
+    <main>
+      <div class="crumb">Fihrist<b>/</b>Yapay Zeka</div>
+      <h1>RAG, Gömme &amp; Vektör</h1>
+      <p class="lede">Getirim tarafında asıl kararlar modelde değil hattın kendisinde: belgeyi nasıl parçalıyorsun, hangi gömme modelini kullanıyorsun, sonuçları yeniden sıralıyor musun. Vektör veritabanı seçimi çoğu projede en az önemli karar.</p>
+      <div class="tb">
+        <span class="chip">Süz ▾</span>
+        <span class="chip on">Açık Kaynak<span class="x">✕</span></span>
+        <span class="chip">◆ Buradan başla</span>
+        <span class="sp">12 / 33 bağlantı · Sırala: Ada göre ▾</span>
+      </div>
+      <div class="rec"><span class="no">1</span><div>
+        <div class="nm"><a>Chroma</a><span class="h">trychroma.com</span></div>
+        <p>Uygulamanın içine gömülü çalışan vektör veritabanı; sunucu süreci yok, <code>pip install</code> sonrası kullanmaya başlıyorsun. Qdrant ya da Milvus gibi sunucu tabanlılardan farkı prototip için en hızlısı olması.</p>
+        <div class="mt"><i>Açık Kaynak · Python · Vektör VT</i><span class="rel">Benzerleri: <u>Qdrant</u> · <u>pgvector</u> · <u>LanceDB</u></span></div>
+      </div></div>
+      <div class="rec"><span class="no">2</span><div>
+        <div class="nm"><a>pgvector</a><span class="pk">◆ Buradan başla</span><span class="h">github.com</span></div>
+        <p>PostgreSQL’e vektör tipi ve HNSW/IVFFlat indeksleri ekleyen uzantı. Ayrı bir vektör veritabanından farkı, vektörü ilişkisel veriyle aynı işlemde (transaction) tutabilmen.</p>
+        <div class="mt"><i>Açık Kaynak · Vektör VT · Veritabanı</i><span class="rel">Benzerleri: <u>Chroma</u> · <u>Atlas Vector Search</u></span></div>
+      </div></div>
+      <div class="rec"><span class="no">3</span><div>
+        <div class="nm"><a>Qdrant</a><span class="h">qdrant.tech</span></div>
+        <p>Rust ile yazılmış vektör veritabanı; yüklü meta veri filtrelemesini vektör aramasıyla birlikte yürütüyor. Pinecone’dan farkı açık kaynak olup kendi sunucunda çalışabilmesi.</p>
+        <div class="mt"><i>Açık Kaynak · Kendi Sunucunda · Vektör VT</i></div>
+      </div></div>
+    </main>
+  </div>
+</div></div>
+<p class="cap">Masaüstü (1440 px). Sol sütun artık yalnızca bulunduğun alanın fihristi; 43 başlığın hepsi değil.</p>
+</div>
+
+<div>
+<div class="M A">
+  <div class="bar">
+    <span class="logo"><svg width="20" height="20" viewBox="0 0 60 60"><path d="M43 12 A22 22 0 1 0 51 30" fill="none" stroke="#a8321f" stroke-width="5" stroke-linecap="round"/></svg>Kullanışlı Siteler</span>
+    <span class="act">⋯</span>
+    <span class="q"><span>Ara…</span></span>
+  </div>
+  <div class="body">
+    <div class="crumb">Fihrist<b>/</b>Yapay Zeka</div>
+    <h1>RAG, Gömme &amp; Vektör <span>▾</span></h1>
+    <p class="lede">Getirim tarafında asıl kararlar modelde değil hattın kendisinde: belgeyi nasıl parçalıyorsun, hangi gömme modelini kullanıyorsun…</p>
+    <span class="more">devamını oku</span>
+    <div class="tb"><span class="chip">Süz · 1</span><span class="chip">◆</span><span class="sp">12 / 33 · Ada ▾</span></div>
+    <div class="rec"><span class="no">1</span><div>
+      <div class="nm"><a>Chroma</a><span class="h">trychroma.com</span></div>
+      <p>Uygulamanın içine gömülü çalışan vektör veritabanı; sunucu süreci yok. Qdrant ya da Milvus gibi sunucu tabanlılardan farkı prototip için en hızlısı olması.</p>
+      <div class="mt"><i>Açık Kaynak · Python</i></div>
+    </div></div>
+    <div class="fold">ilk ekranın sonu</div>
+    <div class="rec"><span class="no">2</span><div>
+      <div class="nm"><a>pgvector</a><span class="pk">◆</span></div>
+    </div></div>
+  </div>
+</div>
+<p class="cap">Telefon (375 px). İlk kayıt ilk ekranda — bugün iki ekran aşağıda. Başlıktaki ▾ kardeş başlıklara geçiyor; yatay çip şeridi kalkıyor. Beş düğme tek ⋯ menüsüne giriyor.</p>
+
+<div class="S A">
+  <div class="hd"><b>Süz</b><span>Temizle</span></div>
+  <div class="grp"><div class="k">Fiyat &amp; Lisans</div><div class="cs"><span class="chip on">Açık Kaynak 12</span><span class="chip">Ücretli 9</span><span class="chip">Ücretsiz 7</span><span class="chip">Açık Ağırlık 3</span></div></div>
+  <div class="grp"><div class="k">Konu</div><div class="cs"><span class="chip">Vektör VT 14</span><span class="chip">Embedding 8</span><span class="chip">RAG 6</span><span class="chip">+ 5</span></div></div>
+  <div class="grp"><div class="k">Sırala</div><div class="cs"><span class="chip on">Ada göre</span><span class="chip">En yeni</span><span class="chip">Başlangıç önce</span></div></div>
+  <div class="ft"><div>Kapat</div><div class="pr">12 bağlantıyı göster</div></div>
+</div>
+<p class="cap">Süzgeç çekmecesi: yalnızca bu başlıkta geçen etiketler, sayılarıyla. Masaüstünde aynı panel araç çubuğunun altında açılıyor.</p>
+</div>
+</div>
+
+<div class="notes">
+  <div><b>Kalabalık gidiyor</b>3 satırlık etiket çubuğu, kaynak çubuğu ve 43 başlıklı ray varsayılan olarak görünmüyor. Yalnız seçili süzgeçler, çıkarılabilir çip olarak duruyor.</div>
+  <div><b>Kayıt sadeleşiyor</b>Tek sütun, okunur satır uzunluğu (~68 harf). Ad, alan adı, açıklama, etiketler ve benzerleri. Arşiv, kalıcı bağlantı ve kaynak bilgisi fareyle üzerine gelince ya da odaklanınca beliriyor.</div>
+  <div><b>Kimlik anlam taşıyor</b>Kırmızı sıra numaraları sayfa ve sırayı gösteriyor, ▸ bulunduğun yeri, ◆ başlangıç noktalarını. Süs olsun diye tek bir kırmızı öğe bile yok.</div>
+</div>

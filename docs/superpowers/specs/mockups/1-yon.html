@@ -1,0 +1,147 @@
+<style>
+  .mk{border-radius:10px;overflow:hidden;border:1px solid rgba(128,128,128,.35);margin-top:.75rem}
+  .why{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin-top:.75rem;font-size:.82rem}
+  .why div{background:rgba(128,128,128,.08);border-radius:8px;padding:.6rem .8rem}
+  .why b{display:block;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;margin-bottom:.25rem;opacity:.75}
+  .rec{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.05em;background:#a8321f;color:#fff;border-radius:4px;padding:.15rem .45rem;margin-left:.5rem;vertical-align:middle}
+
+  /* ---------- A: Fihrist ---------- */
+  .dA{background:#f6f1e7;color:#1c1a16;font-family:"Source Serif 4",Georgia,"Times New Roman",serif;padding:22px 30px 26px}
+  .dA .top{display:flex;align-items:center;gap:10px;font-size:15px}
+  .dA .top b{font-weight:600;letter-spacing:-.01em}
+  .dA .top nav{margin-left:auto;display:flex;gap:16px;font:12.5px/1 system-ui,sans-serif;color:#5f5a50}
+  .dA h1{font-weight:400;font-size:34px;line-height:1.18;letter-spacing:-.018em;margin:34px 0 18px;max-width:22ch}
+  .dA h1 em{font-style:normal;color:#a8321f}
+  .dA .q{border:0;border-bottom:1.5px solid #1c1a16;font:17px/1.4 Georgia,serif;padding:10px 0;color:#5f5a50;display:flex;justify-content:space-between}
+  .dA .q span:last-child{font:12px system-ui,sans-serif;color:#8a8375}
+  .dA .h{font:12px/1 system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#a8321f;margin:30px 0 12px;display:flex;align-items:center;gap:10px}
+  .dA .h::after{content:"";flex:1;height:1px;background:#ddd5c4}
+  .dA .fx{display:grid;grid-template-columns:1fr 1fr;gap:4px 40px}
+  .dA .e{padding:9px 0;border-bottom:1px solid #e7e0d1}
+  .dA .e .t{display:flex;align-items:baseline;gap:10px;font-size:19px;font-weight:600;letter-spacing:-.01em}
+  .dA .e .t i{font-style:normal;color:#a8321f;font-size:14px;width:26px;flex:none}
+  .dA .e .t s{flex:1;border-bottom:1px dotted #b9b09d;text-decoration:none;transform:translateY(-4px)}
+  .dA .e .t small{font:13px system-ui,sans-serif;color:#8a8375;font-variant-numeric:tabular-nums}
+  .dA .e p{margin:4px 0 0 36px;font-size:14px;line-height:1.5;color:#5f5a50}
+  .dA .e p a{color:inherit;text-decoration:none;border-bottom:1px solid #ddd5c4}
+
+  /* ---------- B: Katalog ---------- */
+  .dB{background:#fff;color:#111;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding:0 0 24px}
+  .dB .bar{display:flex;align-items:center;gap:18px;padding:14px 26px;border-bottom:1px solid #e6e6e6}
+  .dB .bar b{font-weight:800;letter-spacing:-.02em;font-size:16px}
+  .dB .bar .s{flex:1;max-width:420px;margin:0 auto;background:#f2f2f2;border-radius:999px;padding:9px 16px;font-size:14px;color:#777;display:flex;justify-content:space-between}
+  .dB .bar .s kbd{font:11px ui-monospace,monospace;background:#fff;border:1px solid #ddd;border-radius:4px;padding:1px 6px;color:#555}
+  .dB .bar .ic{display:flex;gap:10px;font-size:13px;color:#555}
+  .dB .hero{padding:26px 26px 18px;display:flex;align-items:flex-end;gap:18px}
+  .dB .hero .big{font-weight:800;font-size:64px;line-height:.9;letter-spacing:-.04em}
+  .dB .hero p{margin:0 0 6px;font-size:15px;color:#555;max-width:42ch;line-height:1.45}
+  .dB .grid{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;padding:0 26px}
+  .dB .tile{border:1px solid #e6e6e6;border-radius:10px;padding:12px 12px 10px;display:flex;flex-direction:column;gap:6px;min-height:118px}
+  .dB .tile .n{font:700 12px ui-monospace,monospace;color:#2a4bd7}
+  .dB .tile .t{font-weight:750;font-size:15px;line-height:1.15;letter-spacing:-.01em}
+  .dB .tile .c{font-size:11.5px;color:#777;line-height:1.35}
+  .dB .tile .m{margin-top:auto;display:flex;align-items:center;gap:6px;font:600 11px ui-monospace,monospace;color:#555}
+  .dB .tile .m i{flex:1;height:4px;border-radius:2px;background:#eee;position:relative;overflow:hidden}
+  .dB .tile .m i::before{content:"";position:absolute;inset:0 auto 0 0;width:var(--w);background:#2a4bd7}
+
+  /* ---------- C: Semâ ---------- */
+  .dC{background:#13141b;color:#ece6d8;font-family:"Source Serif 4",Georgia,serif;padding:20px 26px 22px;display:grid;grid-template-columns:1.05fr 1fr;gap:18px;align-items:center}
+  .dC .l h1{font-weight:400;font-size:30px;line-height:1.2;margin:6px 0 14px;letter-spacing:-.015em}
+  .dC .l h1 em{font-style:normal;color:#c9a24a}
+  .dC .l .w{font:12px/1 system-ui,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#c9a24a}
+  .dC .l .q{border:1px solid #3a3b46;border-radius:999px;padding:10px 16px;font:15px system-ui,sans-serif;color:#8d8a80}
+  .dC .l p{font:13.5px/1.55 system-ui,sans-serif;color:#a9a497;margin:14px 0 0}
+  .dC svg text{font-family:system-ui,sans-serif}
+</style>
+
+<h2>1. Hangi görsel yön?</h2>
+<p class="subtitle">Üçü de aynı içeriği gösteriyor: ana sayfa, gerçek alanlar ve sayılarla. Kullanım düzeltmeleri (mobilde içerik önce, filtreler çekmecede, tek sütun kayıt listesi) üçünde de aynı — bu ekran yalnızca <b>karakter</b> seçimi. Beğendiğine tıkla, terminalden de yazabilirsin.</p>
+
+<div class="options">
+
+<div class="option" data-choice="A-fihrist" onclick="toggleSelect(this)">
+  <div class="letter">A</div>
+  <div class="content">
+    <h3>Fihrist — mürekkep, kâğıt ve tek bir kırmızı <span class="rec">ÖNERİM</span></h3>
+    <p>Bugünkü tek renkli kimliği koruyor ama onu el yazması bir kitabın fihristine çeviriyor. Tek renk kural gereği değil, anlam için kullanılıyor: yazma eserlerdeki gibi başlıklar ve işaretler kırmızı mürekkeple (lâl/sürh). Enso çemberi logo oluyor.</p>
+    <div class="mk"><div class="dA">
+      <div class="top">
+        <svg width="28" height="28" viewBox="0 0 60 60"><path d="M43 12 A22 22 0 1 0 51 30" fill="none" stroke="#a8321f" stroke-width="4.5" stroke-linecap="round"/></svg>
+        <b>Kullanışlı Siteler</b>
+        <nav><span>Bağlantı gönder</span><span>Rastgele</span><span>TR / EN</span><span>◐</span></nav>
+      </div>
+      <h1>Elle derlenmiş <em>1888</em> bağlantı. Her biri benzerlerinden nerede ayrıldığını söylüyor.</h1>
+      <div class="q"><span>Ne arıyorsun? — örn. “pgvector’a alternatif”</span><span>/ ile ara</span></div>
+      <div class="h">Fihrist</div>
+      <div class="fx">
+        <div class="e"><div class="t"><i>I</i>Yazılım<s></s><small>534</small></div><p><a>Diller</a>, <a>Web</a>, <a>Backend &amp; API</a>, <a>Mobil</a>, <a>Veritabanı</a>, <a>Pratik</a>, <a>Test</a>, <a>Oyun</a></p></div>
+        <div class="e"><div class="t"><i>VI</i>Bilim &amp; Matematik<s></s><small>101</small></div><p><a>Bilim &amp; Akademik</a>, <a>Matematik</a>, <a>Kuantum</a></p></div>
+        <div class="e"><div class="t"><i>II</i>Yapay Zeka<s></s><small>248</small></div><p><a>Modeller</a>, <a>Agent &amp; Altyapı</a>, <a>RAG &amp; Vektör</a>, <a>Araçlar</a>, <a>Üretken Medya</a></p></div>
+        <div class="e"><div class="t"><i>VII</i>Ekonomi &amp; Finans<s></s><small>54</small></div><p><a>Ekonomi</a>, <a>Finans, Piyasa &amp; Kripto</a></p></div>
+        <div class="e"><div class="t"><i>III</i>Altyapı &amp; Sistem<s></s><small>250</small></div><p><a>DevOps</a>, <a>Ağ</a>, <a>Öz-Barındırma</a>, <a>Donanım</a>, <a>Elektronik</a>, <a>Giyilebilir</a></p></div>
+        <div class="e"><div class="t"><i>VIII</i>Tasarım &amp; Medya<s></s><small>135</small></div><p><a>Medya &amp; Tasarım</a>, <a>Mimari</a></p></div>
+      </div>
+    </div></div>
+    <div class="why"><div><b>Artısı</b>Senin seçtiğin kimliğin devamı, ama artık akılda kalıyor. Yazı ağırlıklı içerik için en okunur yön. Görsel yok, dış kaynak yok: hız ve CSP aynen kalıyor.</div><div><b>Eksisi</b>“Araç” hissi en az olan yön; çok hızlı tarama yapan birine B kadar yoğun gelmez.</div></div>
+  </div>
+</div>
+
+<div class="option" data-choice="B-katalog" onclick="toggleSelect(this)">
+  <div class="letter">B</div>
+  <div class="content">
+    <h3>Katalog — keskin, sistematik, araç gibi</h3>
+    <p>İsviçre tarzı ızgara: kalın sans-serif, büyük sayılar, numaralı alanlar, tek bir kobalt vurgu. Arama üst çubukta, <kbd>/</kbd> kısayoluyla. Bir dizinden çok bir araç gibi hissettiriyor.</p>
+    <div class="mk"><div class="dB">
+      <div class="bar"><b>Kullanışlı Siteler</b><div class="s"><span>1888 bağlantıda ara…</span><kbd>/</kbd></div><div class="ic"><span>＋</span><span>⚄</span><span>TR</span><span>◐</span></div></div>
+      <div class="hero"><div class="big">1888</div><p>elle seçilmiş bağlantı · 10 alan · 43 başlık. Her kayıtta ne işe yaradığı ve benzerlerinden farkı yazılı.</p></div>
+      <div class="grid">
+        <div class="tile"><span class="n">01</span><span class="t">Yazılım</span><span class="c">Diller · Web · Backend · Mobil · Test</span><span class="m">534<i style="--w:100%"></i></span></div>
+        <div class="tile"><span class="n">02</span><span class="t">Yapay Zeka</span><span class="c">Modeller · Agent · RAG · Araçlar</span><span class="m">248<i style="--w:46%"></i></span></div>
+        <div class="tile"><span class="n">03</span><span class="t">Altyapı &amp; Sistem</span><span class="c">DevOps · Ağ · Barındırma · Donanım</span><span class="m">250<i style="--w:47%"></i></span></div>
+        <div class="tile"><span class="n">04</span><span class="t">Güvenlik</span><span class="c">Gizlilik · Saldırı · CTF · Kariyer</span><span class="m">126<i style="--w:24%"></i></span></div>
+        <div class="tile"><span class="n">05</span><span class="t">Veri</span><span class="c">Veri bilimi · Veri mühendisliği</span><span class="m">85<i style="--w:16%"></i></span></div>
+      </div>
+    </div></div>
+    <div class="why"><div><b>Artısı</b>En hızlı taranan yön; güç kullanıcısı ve klavye için ideal. Kategori sayfasında tablo gibi yoğun liste mümkün.</div><div><b>Eksisi</b>Bugünkü kimlikten tamamen kopuyor; binlerce benzer “SaaS” sitesine benzeme riski var. Uzun açıklamalar yoğun ızgarada daha zor okunur.</div></div>
+  </div>
+</div>
+
+<div class="option" data-choice="C-sema" onclick="toggleSelect(this)">
+  <div class="letter">C</div>
+  <div class="content">
+    <h3>Semâ — alanlar bir yörünge haritası</h3>
+    <p>Tasavvuf/Tao motifini süs olmaktan çıkarıp gezinmenin kendisi yapıyor: on alan bir çemberin etrafında, büyüklükleri kayıt sayısıyla orantılı. Gece mavisi zemin, altın vurgu. En akılda kalan, en “sanatsal” yön.</p>
+    <div class="mk"><div class="dC">
+      <div class="l">
+        <div class="w">Kullanışlı Siteler</div>
+        <h1>On alan, <em>1888</em> bağlantı, tek soru: bu, benzerlerinden nasıl ayrılıyor?</h1>
+        <div class="q">Ara…</div>
+        <p>Bir alana dokun, başlıkları yörüngede açılsın. Aşağıda aynı fihrist düz liste olarak da duruyor.</p>
+      </div>
+      <svg viewBox="0 0 400 380" width="100%">
+        <g fill="none" stroke="#2c2d38"><circle cx="200" cy="190" r="150"/><circle cx="200" cy="190" r="95"/><circle cx="200" cy="190" r="45"/></g>
+        <circle cx="200" cy="190" r="34" fill="#1c1d26" stroke="#c9a24a"/>
+        <text x="200" y="195" text-anchor="middle" font-size="17" font-weight="700" fill="#ece6d8">1888</text>
+        <g fill="#1c1d26" stroke="#c9a24a" stroke-width="1.3">
+          <circle cx="200" cy="40" r="22.5"/><circle cx="288" cy="68.7" r="16.6"/><circle cx="342.7" cy="143.6" r="16.6"/><circle cx="342.7" cy="236.4" r="13"/><circle cx="288" cy="311.3" r="11.4"/>
+          <circle cx="200" cy="340" r="12"/><circle cx="112" cy="311.3" r="9.9"/><circle cx="57.3" cy="236.4" r="13.3"/><circle cx="57.3" cy="143.6" r="18.3"/><circle cx="112" cy="68.7" r="8.7"/>
+        </g>
+        <g font-size="10.5" fill="#cfc8b8">
+          <text x="200" y="12" text-anchor="middle">Yazılım · 534</text>
+          <text x="310" y="52">Yapay Zeka · 248</text>
+          <text x="364" y="140" text-anchor="start" dx="-4">Altyapı</text>
+          <text x="360" y="252">Güvenlik</text>
+          <text x="302" y="336">Veri</text>
+          <text x="200" y="370" text-anchor="middle">Bilim &amp; Matematik</text>
+          <text x="100" y="336" text-anchor="end">Ekonomi</text>
+          <text x="38" y="262" text-anchor="middle">Tasarım</text>
+          <text x="40" y="118" text-anchor="middle">Öğrenme</text>
+          <text x="92" y="52" text-anchor="end">Açık Erişim</text>
+        </g>
+      </svg>
+    </div></div>
+    <div class="why"><div><b>Artısı</b>Kimlik iddiası en güçlü yön; sitenin “ne olduğunu” ilk bakışta gösteriyor. Alanların göreli büyüklüğü görünür oluyor.</div><div><b>Eksisi</b>Harita mobilde küçük kalıyor, klavye ve ekran okuyucu için ayrıca düz liste gerekiyor; yapımı ve bakımı en pahalısı. İçerik sayfaları yine A gibi yazı ağırlıklı olmak zorunda.</div></div>
+  </div>
+</div>
+
+</div>
