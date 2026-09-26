@@ -255,8 +255,8 @@
       "ücretsiz",
       "referans"
     ],
-    "tr": "Güvenlik konularının derli toplu not arşivi; laboratuvar sırasında komut ve yöntem hatırlamak için hızlı başvuru.",
-    "en": "A tidy note archive of security topics, for recalling a command or method mid-lab.",
+    "tr": "Güvenlik konularının derli toplu not arşivi. Kapsamlı el kitaplarından farkı hız için budanmış olması: laboratuvar sırasında bir komut ya da yöntem hatırlamak için hızlı başvuru.",
+    "en": "A tidy note archive of security topics. Unlike comprehensive handbooks it is pruned for speed — a quick reference for recalling a command or method mid-lab.",
     "src": "kedi",
     "added": 1776685375
   },
@@ -281,8 +281,8 @@
       "mcp",
       "güvenlik"
     ],
-    "tr": "Ghidra’yı MCP üzerinden bir asistana açıyor; sökülmüş kodu okuma ve fonksiyon adlandırma gibi yorucu adımları devredebiliyorsun. İkili çözümlemede yeni bir iş akışı.",
-    "en": "Exposes Ghidra to an assistant over MCP, letting you delegate the tedious parts — reading disassembly, naming functions. A genuinely new workflow in binary analysis.",
+    "tr": "Ghidra’yı MCP üzerinden bir asistana açıyor; sökülmüş kodu okuma ve fonksiyon adlandırma gibi yorucu adımları devredebiliyorsun. Klasik Ghidra betiklerinden farkı çözümlemeyi diyalogla yürütmesi: ikili çözümlemede yeni bir iş akışı.",
+    "en": "Exposes Ghidra to an assistant over MCP, letting you delegate the tedious parts — reading disassembly, naming functions. Unlike classic Ghidra scripts it drives the analysis through dialogue — a genuinely new workflow in binary analysis.",
     "src": "kedi",
     "added": 1775474719
   },
@@ -331,8 +331,8 @@
       "github",
       "osint"
     ],
-    "tr": "Servis numaralandırma betiği; keşif aşamasında elle çalıştırılan komut dizisini otomatikleştiriyor.",
-    "en": "A service enumeration script automating the command sequence you would otherwise run by hand during reconnaissance.",
+    "tr": "Servis numaralandırma betiği; keşif aşamasında elle çalıştırılan komut dizisini otomatikleştiriyor. Elle sorgu yazmaktan farkı adımları tek betikte toplaması; dayandığı harici API’nin erişilebilirliğine bağlı olduğunu akılda tut.",
+    "en": "A service enumeration script automating the command sequence you would otherwise run by hand during reconnaissance. Unlike hand-typed queries it bundles the steps into one script; bear in mind it depends on the availability of the external API it calls.",
     "src": "kedi",
     "added": 1716038390
   },
@@ -381,8 +381,8 @@
       "türkçe",
       "güvenlik"
     ],
-    "tr": "Türkçe güvenlik ve bilişim içerikleri üreten bir geliştiricinin depoları; yerel kaynak arayanlar için toplu bir giriş noktası.",
-    "en": "The repositories of a developer producing Turkish security and IT material — a single entry point for local resources.",
+    "tr": "Türkçe güvenlik ve bilişim içerikleri üreten bir geliştiricinin depoları. Dağınık İngilizce kaynaklardan farkı Türkçe içerikleri tek bir geliştiricinin profilinde toplaması: yerel kaynak arayanlar için toplu bir giriş noktası.",
+    "en": "The repositories of a developer producing Turkish security and IT material. Unlike scattered English resources it gathers Turkish content under one developer’s profile — a single entry point for local resources.",
     "src": "kedi",
     "added": 1753809524
   },
@@ -420,8 +420,8 @@
       "donanım",
       "ağ"
     ],
-    "tr": "Monitör modu ve paket enjeksiyonu destekleyen Wi-Fi yonga setleri üzerine Türkçe tartışma. Kablosuz güvenlik testine başlamadan çözülmesi gereken donanım sorusu bu.",
-    "en": "A Turkish discussion of Wi-Fi chipsets supporting monitor mode and packet injection — the hardware question that has to be settled before any wireless testing.",
+    "tr": "Monitör modu ve paket enjeksiyonu destekleyen Wi-Fi yonga setleri üzerine Türkçe tartışma. Genel donanım listelerinden farkı yerel piyasada bulunabilen kartlara odaklanması: kablosuz güvenlik testine başlamadan çözülmesi gereken donanım sorusu.",
+    "en": "A Turkish discussion of Wi-Fi chipsets supporting monitor mode and packet injection. Unlike general hardware lists it focuses on cards available on the local market — the hardware question that must be settled before any wireless testing.",
     "src": "kedi",
     "added": 1715812695
   },
@@ -510,8 +510,8 @@
       "osint",
       "llm"
     ],
-    "tr": "Karanlık ağ araştırmasında sorguyu genişletip sonuçları özetleyen yapay zeka destekli araç. Elle arama yapmanın zaman aldığı bir alanda tarama adımını otomatikleştiriyor.",
-    "en": "An AI-assisted tool that expands queries and summarises results in dark web research, automating the sweep in an area where manual searching is slow.",
+    "tr": "Karanlık ağ araştırmasında sorguyu genişletip sonuçları özetleyen yapay zekâ destekli araç. Elle arama yapmaktan farkı tarama adımını otomatikleştirmesi: sonuçların insan gözüyle doğrulanması gereken bir alanda ilk süzgeç.",
+    "en": "An AI-assisted tool that expands queries and summarises results in dark web research. Unlike manual searching it automates the sweep — a first filter in an area where results still need human verification.",
     "src": "kedi",
     "added": 1776685472
   },
@@ -535,8 +535,8 @@
       "türkçe",
       "akademik"
     ],
-    "tr": "Türkiye’nin siber güvenlik otoritesi; ulusal uyarılar, mevzuat ve kritik altyapı rehberleri buradan yayımlanıyor.",
-    "en": "Turkey’s cyber security authority, publishing national advisories, regulation and critical-infrastructure guidance.",
+    "tr": "Türkiye’nin siber güvenlik otoritesi; ulusal uyarılar, mevzuat ve kritik altyapı rehberleri buradan yayımlanıyor. Uluslararası kaynaklardan farkı Türkiye’ye özgü mevzuat ve uyum gereklerini vermesi.",
+    "en": "Turkey’s cyber security authority, publishing national advisories, regulation and critical-infrastructure guidance. Unlike international sources it gives Turkey-specific regulation and compliance requirements.",
     "src": "kedi",
     "added": 1784545775
   },

@@ -11,7 +11,7 @@
   <link href="https://netbeans.apache.org/"/>
   <id>https://netbeans.apache.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Java ağırlıklı, çok dilli açık kaynak geliştirme ortamı (IDE).</summary>
+  <summary>Java ağırlıklı, çok dilli açık kaynak geliştirme ortamı (IDE). IntelliJ IDEA’ya kıyasla tamamen ücretsiz ve Apache altında; karşılığında eklenti ekosistemi ve akıllı kod tamamlama tarafı daha zayıf.</summary>
 </entry>
 <entry>
   <title>Awesome CLI</title>
@@ -60,28 +60,28 @@
   <link href="https://pandao.github.io/editor.md/en.html"/>
   <id>https://pandao.github.io/editor.md/en.html</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Açık kaynak, tarayıcıda çalışan Markdown editörü; canlı önizleme ve dışa aktarma.</summary>
+  <summary>Açık kaynak, tarayıcıda çalışan Markdown editörü; canlı önizleme ve dışa aktarma. Barındırılan not uygulamalarından farkı bir bileşen olması: kendi sayfana gömüp veriyi kendinde tutabiliyorsun.</summary>
 </entry>
 <entry>
   <title>hub</title>
   <link href="https://hub.github.com/"/>
   <id>https://hub.github.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Git komut satırını GitHub işlemleriyle (PR, issue, fork) genişleten sarmalayıcı.</summary>
+  <summary>Git komut satırını GitHub işlemleriyle (PR, issue, fork) genişleten sarmalayıcı. Resmî gh aracından farkı git komutlarını doğrudan sarmalaması; artık gh’nin gerisinde kaldı, yeni kurulumlarda gh tercih ediliyor.</summary>
 </entry>
 <entry>
   <title>Hyper</title>
   <link href="https://hyper.is/"/>
   <id>https://hyper.is/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Web teknolojileriyle yazılmış, eklentilerle genişleyen açık kaynak terminal.</summary>
+  <summary>Web teknolojileriyle yazılmış, eklentilerle genişleyen açık kaynak terminal. Alacritty gibi yerel terminallerden farkı Electron üzerine kurulu olması: HTML/CSS/JS ile tema yazabiliyorsun, karşılığında daha ağır.</summary>
 </entry>
 <entry>
   <title>Micro</title>
   <link href="https://micro-editor.github.io/"/>
   <id>https://micro-editor.github.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Terminalde çalışan, sezgisel ve modern kısayollu metin editörü.</summary>
+  <summary>Terminalde çalışan, sezgisel ve modern kısayollu metin editörü. Vim ve nano’dan farkı öğrenme eğrisinin neredeyse düz olması: Ctrl+S kaydeder, Ctrl+C kopyalar — masaüstü editör alışkanlıklarıyla çalışıyor.</summary>
 </entry>
 <entry>
   <title>Neovim</title>
@@ -95,14 +95,14 @@
   <link href="https://github.com/p-e-w/ranwhen"/>
   <id>https://github.com/p-e-w/ranwhen</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Sisteminin ne zaman çalıştığını terminalde görsel olarak gösteren araç.</summary>
+  <summary>Sisteminin ne zaman çalıştığını terminalde görsel olarak gösteren araç; depo 2013’ten beri güncellenmiyor. Düz `last` çıktısından farkı verileri renkli bir zaman grafiğine dökmesi.</summary>
 </entry>
 <entry>
   <title>Sublime Text</title>
   <link href="https://www.sublimetext.com/"/>
   <id>https://www.sublimetext.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Hıza ve akıcılığa odaklı, çok hızlı açılan metin/kod editörü.</summary>
+  <summary>Hıza ve akıcılığa odaklı, çok hızlı açılan metin/kod editörü. VS Code’dan farkı yerel kod olması ve anında açılması; karşılığında eklenti ekosistemi ve yerleşik özellikleri daha dar, ücretli.</summary>
 </entry>
 <entry>
   <title>Visual Studio Code</title>
@@ -123,7 +123,7 @@
   <link href="https://notepad-plus-plus.org/"/>
   <id>https://notepad-plus-plus.org/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Windows için hafif kaynak kodu editörü; sözdizimi renklendirme, çok dosyada arama-değiştir ve makro kaydı var. VS Code’a karşı tercih sebebi hız: dev bir günlük dosyasını saniyeler içinde açıyor, dil sunucusu beklemiyor.</summary>
+  <summary>Windows için hafif kaynak kodu editörü; sözdizimi renklendirme, çok dosyada arama-değiştir ve makro kaydı var. VS Code’dan farkı hız: dev bir günlük dosyasını saniyeler içinde açıyor, dil sunucusu beklemiyor.</summary>
 </entry>
 <entry>
   <title>VSCodium</title>
@@ -151,13 +151,13 @@
   <link href="https://github.com/punitarani/fli"/>
   <id>https://github.com/punitarani/fli</id>
   <updated>2026-04-20T12:03:23Z</updated>
-  <summary>Uçuş aramayı komut satırına taşıyor; sonuçlar betiklenebilir olduğu için fiyat takibini bir cron işine bağlayabiliyorsun.</summary>
+  <summary>Uçuş aramayı komut satırına taşıyor; MCP, CLI ve Python kütüphanesi olarak kullanılabiliyor. Uçuş sitelerinden farkı sonuçların betiklenebilir olması: fiyat takibini bir cron işine bağlayabiliyorsun.</summary>
 </entry>
 <entry>
   <title>Embarcadero Dev-C++</title>
   <link href="https://sourceforge.net/projects/embarcadero-devcpp/files/v6.3/"/>
   <id>https://sourceforge.net/projects/embarcadero-devcpp/files/v6.3/</id>
   <updated>2025-09-24T09:59:46Z</updated>
-  <summary>Hafif C/C++ geliştirme ortamı. Modern IDE’lerin gerisinde ama düşük donanımda çalışıyor ve Türkiye’deki üniversite laboratuvarlarında hâlâ standart kurulum.</summary>
+  <summary>Hafif C/C++ geliştirme ortamı. Modern IDE’lerden farkı düşük donanımda çalışması ve Türkiye’deki üniversite laboratuvarlarında hâlâ standart kurulum olması; karşılığında güncel araç desteği zayıf.</summary>
 </entry>
 </feed>

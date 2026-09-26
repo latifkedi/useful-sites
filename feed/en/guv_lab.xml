@@ -25,21 +25,21 @@
   <link href="https://damnvulnerableiosapp.com/"/>
   <id>https://damnvulnerableiosapp.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A deliberately vulnerable iOS app for learning mobile security.</summary>
+  <summary>A deliberately vulnerable iOS app for learning mobile security. Unlike web-based vulnerability labs it targets mobile-specific issues — insecure data storage, binary patching.</summary>
 </entry>
 <entry>
   <title>Firing Range</title>
   <link href="https://public-firing-range.appspot.com/"/>
   <id>https://public-firing-range.appspot.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A Google-built test target hosting many application-security issues.</summary>
+  <summary>A Google-built test target hosting many application-security issues. Unlike instructional vulnerability labs it is designed for testing scanners and automated tools — not scenarios, but a raw catalogue of bug types.</summary>
 </entry>
 <entry>
   <title>Gin &amp; Juice Shop</title>
   <link href="https://ginandjuice.shop/"/>
   <id>https://ginandjuice.shop/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A modern, vulnerability-filled web app practice target built by PortSwigger.</summary>
+  <summary>A modern, vulnerability-filled web app practice target built by PortSwigger. Unlike older practice sites it carries a realistic single-page-app and API architecture, reflecting today’s web.</summary>
 </entry>
 <entry>
   <title>Google Gruyere</title>
@@ -53,7 +53,7 @@
   <link href="https://labex.io/learn/cybersecurity"/>
   <id>https://labex.io/learn/cybersecurity</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Hands-on, in-browser labs covering penetration testing and web security.</summary>
+  <summary>Hands-on, in-browser labs covering penetration testing and web security. Unlike building your own lab the environment is ready in the browser — no setup, you start practising straight away.</summary>
 </entry>
 <entry>
   <title>OWASP Juice Shop</title>
@@ -116,14 +116,14 @@
   <link href="https://www.boxentriq.com/guides/cicada-3301-first-puzzle-walkthrough"/>
   <id>https://www.boxentriq.com/guides/cicada-3301-first-puzzle-walkthrough</id>
   <updated>2026-07-29T06:34:40Z</updated>
-  <summary>A step-by-step solution of the internet’s best-known puzzle, chaining steganography, book ciphers and Tor hidden services — a good example of how techniques link together.</summary>
+  <summary>A step-by-step solution of the internet’s best-known puzzle, chaining steganography, book ciphers and Tor hidden services. Unlike single-topic tutorials it shows how the techniques link together on a real problem.</summary>
 </entry>
 <entry>
   <title>Çözülmemiş Tarihî Şifreler</title>
   <link href="https://en.wikipedia.org/wiki/Category:Undeciphered_historical_codes_and_ciphers"/>
   <id>https://en.wikipedia.org/wiki/Category:Undeciphered_historical_codes_and_ciphers</id>
   <updated>2026-07-29T06:33:44Z</updated>
-  <summary>The category of ciphers still unbroken, the Voynich manuscript and Beale ciphers among them. Each stands as an open problem.</summary>
+  <summary>The category of ciphers still unbroken, the Voynich manuscript and Beale ciphers among them. Unlike solved-cipher tutorials, each here stands as an open problem.</summary>
 </entry>
 <entry>
   <title>Çözülmemiş Şifreli Metinler</title>
@@ -137,7 +137,7 @@
   <link href="https://github.com/farhanashrafdev/90DaysOfCyberSecurity"/>
   <id>https://github.com/farhanashrafdev/90DaysOfCyberSecurity</id>
   <updated>2026-04-05T20:38:10Z</updated>
-  <summary>A study plan split across ninety days — networking, Linux, Python, then offence and defence. A dated schedule against the usual scattered resource list.</summary>
+  <summary>A study plan split across ninety days — networking, Linux, Python, then offence and defence. Unlike scattered resource lists it offers a dated, ordered programme.</summary>
 </entry>
 <entry>
   <title>OverTheWire Wargames</title>

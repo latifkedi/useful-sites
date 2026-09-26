@@ -11,7 +11,7 @@
   <link href="https://netbeans.apache.org/"/>
   <id>https://netbeans.apache.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A multi-language open-source IDE, strong for Java.</summary>
+  <summary>A multi-language open-source IDE, strong for Java. Compared with IntelliJ IDEA it is entirely free and under Apache; in exchange its plugin ecosystem and smart completion are weaker.</summary>
 </entry>
 <entry>
   <title>Awesome CLI</title>
@@ -60,28 +60,28 @@
   <link href="https://pandao.github.io/editor.md/en.html"/>
   <id>https://pandao.github.io/editor.md/en.html</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An open-source, in-browser Markdown editor with live preview and export.</summary>
+  <summary>An open-source, in-browser Markdown editor with live preview and export. Unlike hosted note apps it is a component you embed in your own page, keeping the data yourself.</summary>
 </entry>
 <entry>
   <title>hub</title>
   <link href="https://hub.github.com/"/>
   <id>https://hub.github.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A wrapper extending the git command line with GitHub operations (PRs, issues, forks).</summary>
+  <summary>A wrapper extending the git command line with GitHub operations (PRs, issues, forks). Unlike the official gh tool it wraps git commands directly; it now trails gh, which is preferred for new setups.</summary>
 </entry>
 <entry>
   <title>Hyper</title>
   <link href="https://hyper.is/"/>
   <id>https://hyper.is/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An open-source terminal built with web technologies and extensible via plugins.</summary>
+  <summary>An open-source terminal built with web technologies and extensible via plugins. Unlike native terminals such as Alacritty it is built on Electron, so you theme it with HTML/CSS/JS at the cost of more weight.</summary>
 </entry>
 <entry>
   <title>Micro</title>
   <link href="https://micro-editor.github.io/"/>
   <id>https://micro-editor.github.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A modern, intuitive terminal-based text editor with familiar shortcuts.</summary>
+  <summary>A modern, intuitive terminal-based text editor with familiar shortcuts. Unlike Vim and nano its learning curve is nearly flat: Ctrl+S saves, Ctrl+C copies — it works with desktop-editor habits.</summary>
 </entry>
 <entry>
   <title>Neovim</title>
@@ -95,14 +95,14 @@
   <link href="https://github.com/p-e-w/ranwhen"/>
   <id>https://github.com/p-e-w/ranwhen</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A tool that visualises when your system was running, right in the terminal.</summary>
+  <summary>A tool that visualises when your system was running, right in the terminal; the repository has not been updated since 2013. Unlike plain `last` output it renders the data as a coloured time chart.</summary>
 </entry>
 <entry>
   <title>Sublime Text</title>
   <link href="https://www.sublimetext.com/"/>
   <id>https://www.sublimetext.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A text/code editor focused on speed and fluidity, opening very fast.</summary>
+  <summary>A text/code editor focused on speed and fluidity, opening very fast. Unlike VS Code it is native and opens instantly; in exchange its plugin ecosystem and built-ins are narrower, and it is paid.</summary>
 </entry>
 <entry>
   <title>Visual Studio Code</title>
@@ -123,7 +123,7 @@
   <link href="https://notepad-plus-plus.org/"/>
   <id>https://notepad-plus-plus.org/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A lightweight source editor for Windows with syntax highlighting, multi-file search and replace, and macro recording. The reason to reach for it over VS Code is speed: it opens a huge log file in seconds without waiting on a language server.</summary>
+  <summary>A lightweight source editor for Windows with syntax highlighting, multi-file search and replace, and macro recording. Unlike VS Code its edge is speed: it opens a huge log file in seconds without waiting on a language server.</summary>
 </entry>
 <entry>
   <title>VSCodium</title>
@@ -151,13 +151,13 @@
   <link href="https://github.com/punitarani/fli"/>
   <id>https://github.com/punitarani/fli</id>
   <updated>2026-04-20T12:03:23Z</updated>
-  <summary>Brings flight search to the command line, and because results are scriptable you can hang price tracking off a cron job.</summary>
+  <summary>Brings flight search to the command line, usable as an MCP server, a CLI and a Python library. Unlike flight sites the results are scriptable, so you can hang price tracking off a cron job.</summary>
 </entry>
 <entry>
   <title>Embarcadero Dev-C++</title>
   <link href="https://sourceforge.net/projects/embarcadero-devcpp/files/v6.3/"/>
   <id>https://sourceforge.net/projects/embarcadero-devcpp/files/v6.3/</id>
   <updated>2025-09-24T09:59:46Z</updated>
-  <summary>A lightweight C/C++ IDE. Behind modern ones, yet it runs on weak hardware and remains the standard install in many Turkish university labs.</summary>
+  <summary>A lightweight C/C++ IDE. Unlike modern IDEs it runs on weak hardware and remains the standard install in many Turkish university labs; in exchange its modern tooling support is thin.</summary>
 </entry>
 </feed>

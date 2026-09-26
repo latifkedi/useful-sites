@@ -11,7 +11,7 @@
   <link href="https://airbyte.com"/>
   <id>https://airbyte.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Geniş bağlayıcı kataloğuyla açık kaynak veri entegrasyonu (ELT); kendi sunucunda barındırılabilir.</summary>
+  <summary>Geniş bağlayıcı kataloğuyla açık kaynak veri entegrasyonu (ELT); kendi sunucunda barındırılabiliyor. Fivetran gibi kapalı servislerden farkı açık kaynak olması ve eksik bağlayıcıyı kendin yazabilmen.</summary>
 </entry>
 <entry>
   <title>Apache Flink</title>
@@ -67,7 +67,7 @@
   <link href="https://clickhouse.com"/>
   <id>https://clickhouse.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Analitik için sütun temelli OLAP veritabanı; büyük ölçekte çok hızlı toplama yapar.</summary>
+  <summary>Analitik için sütun temelli OLAP veritabanı; büyük ölçekte çok hızlı toplama yapıyor. PostgreSQL gibi satır temelli veritabanlarından farkı milyarlarca satırda toplama sorgularını saniyeler içinde bitirmesi; tekil kayıt güncellemede zayıf.</summary>
 </entry>
 <entry>
   <title>Dagster</title>
@@ -81,14 +81,14 @@
   <link href="https://www.dataengineeringpodcast.com"/>
   <id>https://www.dataengineeringpodcast.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Veri mühendisliği araç ve mimarilerini derinlemesine konuşan uzun söyleşiler.</summary>
+  <summary>Veri mühendisliği araç ve mimarilerini derinlemesine konuşan uzun söyleşiler. Araç belgelerinden farkı bir aracın gerçekte neden ve nasıl seçildiğini uygulayanların ağzından anlatması.</summary>
 </entry>
 <entry>
   <title>DataTalks.Club</title>
   <link href="https://datatalks.club"/>
   <id>https://datatalks.club</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Uygulamalı veri mühendisliği ve ML kampları (zoomcamp) sunan ücretsiz topluluk.</summary>
+  <summary>Uygulamalı veri mühendisliği ve ML kampları (zoomcamp) sunan ücretsiz topluluk. Ücretli bootcamp’lerden farkı tamamen ücretsiz ve topluluk yürütmeli olması: kamplar belirli tarihlerde toplu ilerliyor.</summary>
 </entry>
 <entry>
   <title>dbt</title>
@@ -102,7 +102,7 @@
   <link href="https://delta.io"/>
   <id>https://delta.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Veri göllerine ACID işlemleri ve zaman-yolculuğu getiren açık depolama katmanı.</summary>
+  <summary>Veri göllerine ACID işlemleri ve zaman-yolculuğu getiren açık depolama katmanı. Düz Parquet dosyalarından farkı işlem güvenliği ve sürüm geçmişi eklemesi: göl bir tablo gibi güvenilir davranıyor.</summary>
 </entry>
 <entry>
   <title>DuckDB</title>
@@ -116,7 +116,7 @@
   <link href="https://greatexpectations.io"/>
   <id>https://greatexpectations.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Veriyi bildirimsel kurallarla doğrulayan ve belgeleyen veri kalitesi çatısı.</summary>
+  <summary>Veriyi bildirimsel kurallarla doğrulayan ve belgeleyen veri kalitesi çatısı. Elle yazılan doğrulama betiklerinden farkı kuralları veri belgesine çevirmesi ve hattın içine yerleşik testler eklemesi.</summary>
 </entry>
 <entry>
   <title>Hamilton</title>
@@ -130,7 +130,7 @@
   <link href="https://meltano.com"/>
   <id>https://meltano.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Singer temelli, komut satırı ve yapılandırma odaklı açık kaynak DataOps ELT platformu.</summary>
+  <summary>Singer temelli, komut satırı ve yapılandırma odaklı açık kaynak DataOps ELT platformu. Airbyte’ın arayüz odaklı yaklaşımından farkı her şeyin sürüm kontrolüne giren metin yapılandırmasıyla tanımlanması: veri hattını kod gibi yönetiyorsun.</summary>
 </entry>
 <entry>
   <title>Spark Internals</title>
@@ -144,7 +144,7 @@
   <link href="https://trino.io"/>
   <id>https://trino.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Veriyi bulunduğu yerde sorgulayan dağıtık SQL sorgu motoru; birçok kaynağı birleştirir.</summary>
+  <summary>Veriyi bulunduğu yerde sorgulayan dağıtık SQL sorgu motoru; birçok kaynağı birleştiriyor. Klasik veritabanlarından farkı veriyi kendine taşımaması: S3, PostgreSQL ve Kafka’yı tek sorguda birlikte sorgulayabiliyorsun.</summary>
 </entry>
 <entry>
   <title>Data Engineering Zoomcamp</title>
@@ -172,6 +172,6 @@
   <link href="https://kafka.apache.org/"/>
   <id>https://kafka.apache.org/</id>
   <updated>2026-04-20T13:01:27Z</updated>
-  <summary>Mesajları tüketildikten sonra da saklıyor; tüketiciler kendi konumlarını (offset) taşıyıp geçmişi yeniden okuyabiliyor. Klasik kuyruklardan asıl ayrımı bu kalıcılık.</summary>
+  <summary>Mesajları tüketildikten sonra da saklıyor; tüketiciler kendi konumlarını (offset) taşıyıp geçmişi yeniden okuyabiliyor. Klasik kuyruklardan (RabbitMQ) asıl ayrımı bu kalıcılık ve yeniden oynatma.</summary>
 </entry>
 </feed>

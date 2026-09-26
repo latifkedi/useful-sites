@@ -8,8 +8,8 @@
       "otomasyon",
       "self-hosted"
     ],
-    "tr": "Geniş bağlayıcı kataloğuyla açık kaynak veri entegrasyonu (ELT); kendi sunucunda barındırılabilir.",
-    "en": "Open-source data integration (ELT) with a huge connector catalogue; self-hostable.",
+    "tr": "Geniş bağlayıcı kataloğuyla açık kaynak veri entegrasyonu (ELT); kendi sunucunda barındırılabiliyor. Fivetran gibi kapalı servislerden farkı açık kaynak olması ve eksik bağlayıcıyı kendin yazabilmen.",
+    "en": "Open-source data integration (ELT) with a huge connector catalogue; self-hostable. Unlike closed services such as Fivetran it is open source, and you can write a missing connector yourself.",
     "src": "dataeng"
   },
   {
@@ -41,8 +41,8 @@
       "açık-kaynak",
       "otomasyon"
     ],
-    "tr": "Mesajları tüketildikten sonra da saklıyor; tüketiciler kendi konumlarını (offset) taşıyıp geçmişi yeniden okuyabiliyor. Klasik kuyruklardan asıl ayrımı bu kalıcılık.",
-    "en": "Retains messages after consumption, with consumers carrying their own offsets so they can replay history. That durability is the real split from classic queues.",
+    "tr": "Mesajları tüketildikten sonra da saklıyor; tüketiciler kendi konumlarını (offset) taşıyıp geçmişi yeniden okuyabiliyor. Klasik kuyruklardan (RabbitMQ) asıl ayrımı bu kalıcılık ve yeniden oynatma.",
+    "en": "Retains messages after consumption, with consumers carrying their own offsets so they can replay history. The real split from classic queues (RabbitMQ) is that durability and replay.",
     "src": "kedi",
     "added": 1776690087
   },
@@ -115,8 +115,8 @@
       "açık-kaynak",
       "sunucu"
     ],
-    "tr": "Analitik için sütun temelli OLAP veritabanı; büyük ölçekte çok hızlı toplama yapar.",
-    "en": "A columnar OLAP database for analytics, extremely fast at aggregations at scale.",
+    "tr": "Analitik için sütun temelli OLAP veritabanı; büyük ölçekte çok hızlı toplama yapıyor. PostgreSQL gibi satır temelli veritabanlarından farkı milyarlarca satırda toplama sorgularını saniyeler içinde bitirmesi; tekil kayıt güncellemede zayıf.",
+    "en": "A columnar OLAP database for analytics, extremely fast at aggregations at scale. Unlike row-based databases such as PostgreSQL it finishes aggregation queries over billions of rows in seconds; it is weak at single-record updates.",
     "src": "dataeng"
   },
   {
@@ -139,8 +139,8 @@
       "referans",
       "ücretsiz"
     ],
-    "tr": "Veri mühendisliği araç ve mimarilerini derinlemesine konuşan uzun söyleşiler.",
-    "en": "Long-form interviews digging deep into data-engineering tools and architectures.",
+    "tr": "Veri mühendisliği araç ve mimarilerini derinlemesine konuşan uzun söyleşiler. Araç belgelerinden farkı bir aracın gerçekte neden ve nasıl seçildiğini uygulayanların ağzından anlatması.",
+    "en": "Long-form interviews digging deep into data-engineering tools and architectures. Unlike tool docs it tells why and how a tool was actually chosen, from the people who use it.",
     "src": "dataeng"
   },
   {
@@ -177,8 +177,8 @@
       "ücretsiz",
       "müfredat"
     ],
-    "tr": "Uygulamalı veri mühendisliği ve ML kampları (zoomcamp) sunan ücretsiz topluluk.",
-    "en": "A free community offering hands-on data-engineering and ML zoomcamps.",
+    "tr": "Uygulamalı veri mühendisliği ve ML kampları (zoomcamp) sunan ücretsiz topluluk. Ücretli bootcamp’lerden farkı tamamen ücretsiz ve topluluk yürütmeli olması: kamplar belirli tarihlerde toplu ilerliyor.",
+    "en": "A free community offering hands-on data-engineering and ML zoomcamps. Unlike paid bootcamps it is entirely free and community-run — the camps run in cohorts on set dates.",
     "src": "dataeng"
   },
   {
@@ -200,8 +200,8 @@
       "veri-bilimi",
       "açık-kaynak"
     ],
-    "tr": "Veri göllerine ACID işlemleri ve zaman-yolculuğu getiren açık depolama katmanı.",
-    "en": "An open storage layer bringing ACID transactions and time travel to data lakes.",
+    "tr": "Veri göllerine ACID işlemleri ve zaman-yolculuğu getiren açık depolama katmanı. Düz Parquet dosyalarından farkı işlem güvenliği ve sürüm geçmişi eklemesi: göl bir tablo gibi güvenilir davranıyor.",
+    "en": "An open storage layer bringing ACID transactions and time travel to data lakes. Unlike plain Parquet files it adds transactional safety and version history, so the lake behaves reliably like a table.",
     "src": "dataeng"
   },
   {
@@ -224,8 +224,8 @@
       "açık-kaynak",
       "python"
     ],
-    "tr": "Veriyi bildirimsel kurallarla doğrulayan ve belgeleyen veri kalitesi çatısı.",
-    "en": "A data-quality framework that validates and documents data with declarative expectations.",
+    "tr": "Veriyi bildirimsel kurallarla doğrulayan ve belgeleyen veri kalitesi çatısı. Elle yazılan doğrulama betiklerinden farkı kuralları veri belgesine çevirmesi ve hattın içine yerleşik testler eklemesi.",
+    "en": "A data-quality framework that validates and documents data with declarative expectations. Unlike hand-written validation scripts it turns rules into data documentation and embeds tests inside the pipeline.",
     "src": "dataeng"
   },
   {
@@ -248,8 +248,8 @@
       "açık-kaynak",
       "otomasyon"
     ],
-    "tr": "Singer temelli, komut satırı ve yapılandırma odaklı açık kaynak DataOps ELT platformu.",
-    "en": "An open-source DataOps ELT platform, Singer-based and CLI/config-driven.",
+    "tr": "Singer temelli, komut satırı ve yapılandırma odaklı açık kaynak DataOps ELT platformu. Airbyte’ın arayüz odaklı yaklaşımından farkı her şeyin sürüm kontrolüne giren metin yapılandırmasıyla tanımlanması: veri hattını kod gibi yönetiyorsun.",
+    "en": "An open-source DataOps ELT platform, Singer-based and CLI/config-driven. Unlike Airbyte’s UI-first approach everything is defined in text config that lives in version control — you manage the pipeline like code.",
     "src": "dataeng"
   },
   {
@@ -283,8 +283,8 @@
       "açık-kaynak",
       "sunucu"
     ],
-    "tr": "Veriyi bulunduğu yerde sorgulayan dağıtık SQL sorgu motoru; birçok kaynağı birleştirir.",
-    "en": "A distributed SQL query engine that queries data where it lives, across many sources.",
+    "tr": "Veriyi bulunduğu yerde sorgulayan dağıtık SQL sorgu motoru; birçok kaynağı birleştiriyor. Klasik veritabanlarından farkı veriyi kendine taşımaması: S3, PostgreSQL ve Kafka’yı tek sorguda birlikte sorgulayabiliyorsun.",
+    "en": "A distributed SQL query engine that queries data where it lives, across many sources. Unlike classic databases it does not move the data to itself — you can query S3, PostgreSQL and Kafka together in one query.",
     "src": "dataeng"
   }
 ]

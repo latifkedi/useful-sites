@@ -6,8 +6,8 @@
       "açık-kaynak",
       "ücretsiz"
     ],
-    "tr": "Java ağırlıklı, çok dilli açık kaynak geliştirme ortamı (IDE).",
-    "en": "A multi-language open-source IDE, strong for Java.",
+    "tr": "Java ağırlıklı, çok dilli açık kaynak geliştirme ortamı (IDE). IntelliJ IDEA’ya kıyasla tamamen ücretsiz ve Apache altında; karşılığında eklenti ekosistemi ve akıllı kod tamamlama tarafı daha zayıf.",
+    "en": "A multi-language open-source IDE, strong for Java. Compared with IntelliJ IDEA it is entirely free and under Apache; in exchange its plugin ecosystem and smart completion are weaker.",
     "src": "awesomeproj"
   },
   {
@@ -100,8 +100,8 @@
       "açık-kaynak",
       "tarayıcı-içi"
     ],
-    "tr": "Açık kaynak, tarayıcıda çalışan Markdown editörü; canlı önizleme ve dışa aktarma.",
-    "en": "An open-source, in-browser Markdown editor with live preview and export.",
+    "tr": "Açık kaynak, tarayıcıda çalışan Markdown editörü; canlı önizleme ve dışa aktarma. Barındırılan not uygulamalarından farkı bir bileşen olması: kendi sayfana gömüp veriyi kendinde tutabiliyorsun.",
+    "en": "An open-source, in-browser Markdown editor with live preview and export. Unlike hosted note apps it is a component you embed in your own page, keeping the data yourself.",
     "src": "awesomeproj"
   },
   {
@@ -113,8 +113,8 @@
       "c-ailesi",
       "ağ"
     ],
-    "tr": "Hafif C/C++ geliştirme ortamı. Modern IDE’lerin gerisinde ama düşük donanımda çalışıyor ve Türkiye’deki üniversite laboratuvarlarında hâlâ standart kurulum.",
-    "en": "A lightweight C/C++ IDE. Behind modern ones, yet it runs on weak hardware and remains the standard install in many Turkish university labs.",
+    "tr": "Hafif C/C++ geliştirme ortamı. Modern IDE’lerden farkı düşük donanımda çalışması ve Türkiye’deki üniversite laboratuvarlarında hâlâ standart kurulum olması; karşılığında güncel araç desteği zayıf.",
+    "en": "A lightweight C/C++ IDE. Unlike modern IDEs it runs on weak hardware and remains the standard install in many Turkish university labs; in exchange its modern tooling support is thin.",
     "src": "kedi",
     "added": 1758707986
   },
@@ -126,8 +126,8 @@
       "github",
       "cli"
     ],
-    "tr": "Uçuş aramayı komut satırına taşıyor; sonuçlar betiklenebilir olduğu için fiyat takibini bir cron işine bağlayabiliyorsun.",
-    "en": "Brings flight search to the command line, and because results are scriptable you can hang price tracking off a cron job.",
+    "tr": "Uçuş aramayı komut satırına taşıyor; MCP, CLI ve Python kütüphanesi olarak kullanılabiliyor. Uçuş sitelerinden farkı sonuçların betiklenebilir olması: fiyat takibini bir cron işine bağlayabiliyorsun.",
+    "en": "Brings flight search to the command line, usable as an MCP server, a CLI and a Python library. Unlike flight sites the results are scriptable, so you can hang price tracking off a cron job.",
     "src": "kedi",
     "added": 1776686603
   },
@@ -139,8 +139,8 @@
       "git",
       "github"
     ],
-    "tr": "Git komut satırını GitHub işlemleriyle (PR, issue, fork) genişleten sarmalayıcı.",
-    "en": "A wrapper extending the git command line with GitHub operations (PRs, issues, forks).",
+    "tr": "Git komut satırını GitHub işlemleriyle (PR, issue, fork) genişleten sarmalayıcı. Resmî gh aracından farkı git komutlarını doğrudan sarmalaması; artık gh’nin gerisinde kaldı, yeni kurulumlarda gh tercih ediliyor.",
+    "en": "A wrapper extending the git command line with GitHub operations (PRs, issues, forks). Unlike the official gh tool it wraps git commands directly; it now trails gh, which is preferred for new setups.",
     "src": "velvia"
   },
   {
@@ -151,8 +151,8 @@
       "açık-kaynak",
       "masaüstü"
     ],
-    "tr": "Web teknolojileriyle yazılmış, eklentilerle genişleyen açık kaynak terminal.",
-    "en": "An open-source terminal built with web technologies and extensible via plugins.",
+    "tr": "Web teknolojileriyle yazılmış, eklentilerle genişleyen açık kaynak terminal. Alacritty gibi yerel terminallerden farkı Electron üzerine kurulu olması: HTML/CSS/JS ile tema yazabiliyorsun, karşılığında daha ağır.",
+    "en": "An open-source terminal built with web technologies and extensible via plugins. Unlike native terminals such as Alacritty it is built on Electron, so you theme it with HTML/CSS/JS at the cost of more weight.",
     "src": "awesomeproj"
   },
   {
@@ -163,8 +163,8 @@
       "açık-kaynak",
       "ücretsiz"
     ],
-    "tr": "Terminalde çalışan, sezgisel ve modern kısayollu metin editörü.",
-    "en": "A modern, intuitive terminal-based text editor with familiar shortcuts.",
+    "tr": "Terminalde çalışan, sezgisel ve modern kısayollu metin editörü. Vim ve nano’dan farkı öğrenme eğrisinin neredeyse düz olması: Ctrl+S kaydeder, Ctrl+C kopyalar — masaüstü editör alışkanlıklarıyla çalışıyor.",
+    "en": "A modern, intuitive terminal-based text editor with familiar shortcuts. Unlike Vim and nano its learning curve is nearly flat: Ctrl+S saves, Ctrl+C copies — it works with desktop-editor habits.",
     "src": "awesomeproj"
   },
   {
@@ -186,8 +186,8 @@
       "açık-kaynak",
       "masaüstü"
     ],
-    "tr": "Windows için hafif kaynak kodu editörü; sözdizimi renklendirme, çok dosyada arama-değiştir ve makro kaydı var. VS Code’a karşı tercih sebebi hız: dev bir günlük dosyasını saniyeler içinde açıyor, dil sunucusu beklemiyor.",
-    "en": "A lightweight source editor for Windows with syntax highlighting, multi-file search and replace, and macro recording. The reason to reach for it over VS Code is speed: it opens a huge log file in seconds without waiting on a language server.",
+    "tr": "Windows için hafif kaynak kodu editörü; sözdizimi renklendirme, çok dosyada arama-değiştir ve makro kaydı var. VS Code’dan farkı hız: dev bir günlük dosyasını saniyeler içinde açıyor, dil sunucusu beklemiyor.",
+    "en": "A lightweight source editor for Windows with syntax highlighting, multi-file search and replace, and macro recording. Unlike VS Code its edge is speed: it opens a huge log file in seconds without waiting on a language server.",
     "src": "cdcruz"
   },
   {
@@ -198,8 +198,8 @@
       "açık-kaynak",
       "github"
     ],
-    "tr": "Sisteminin ne zaman çalıştığını terminalde görsel olarak gösteren araç.",
-    "en": "A tool that visualises when your system was running, right in the terminal.",
+    "tr": "Sisteminin ne zaman çalıştığını terminalde görsel olarak gösteren araç; depo 2013’ten beri güncellenmiyor. Düz `last` çıktısından farkı verileri renkli bir zaman grafiğine dökmesi.",
+    "en": "A tool that visualises when your system was running, right in the terminal; the repository has not been updated since 2013. Unlike plain `last` output it renders the data as a coloured time chart.",
     "src": "velvia"
   },
   {
@@ -209,8 +209,8 @@
       "masaüstü",
       "ücretli"
     ],
-    "tr": "Hıza ve akıcılığa odaklı, çok hızlı açılan metin/kod editörü.",
-    "en": "A text/code editor focused on speed and fluidity, opening very fast.",
+    "tr": "Hıza ve akıcılığa odaklı, çok hızlı açılan metin/kod editörü. VS Code’dan farkı yerel kod olması ve anında açılması; karşılığında eklenti ekosistemi ve yerleşik özellikleri daha dar, ücretli.",
+    "en": "A text/code editor focused on speed and fluidity, opening very fast. Unlike VS Code it is native and opens instantly; in exchange its plugin ecosystem and built-ins are narrower, and it is paid.",
     "src": "awesomeproj"
   },
   {

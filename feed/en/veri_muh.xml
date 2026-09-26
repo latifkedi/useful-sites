@@ -11,7 +11,7 @@
   <link href="https://airbyte.com"/>
   <id>https://airbyte.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Open-source data integration (ELT) with a huge connector catalogue; self-hostable.</summary>
+  <summary>Open-source data integration (ELT) with a huge connector catalogue; self-hostable. Unlike closed services such as Fivetran it is open source, and you can write a missing connector yourself.</summary>
 </entry>
 <entry>
   <title>Apache Flink</title>
@@ -67,7 +67,7 @@
   <link href="https://clickhouse.com"/>
   <id>https://clickhouse.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A columnar OLAP database for analytics, extremely fast at aggregations at scale.</summary>
+  <summary>A columnar OLAP database for analytics, extremely fast at aggregations at scale. Unlike row-based databases such as PostgreSQL it finishes aggregation queries over billions of rows in seconds; it is weak at single-record updates.</summary>
 </entry>
 <entry>
   <title>Dagster</title>
@@ -81,14 +81,14 @@
   <link href="https://www.dataengineeringpodcast.com"/>
   <id>https://www.dataengineeringpodcast.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Long-form interviews digging deep into data-engineering tools and architectures.</summary>
+  <summary>Long-form interviews digging deep into data-engineering tools and architectures. Unlike tool docs it tells why and how a tool was actually chosen, from the people who use it.</summary>
 </entry>
 <entry>
   <title>DataTalks.Club</title>
   <link href="https://datatalks.club"/>
   <id>https://datatalks.club</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A free community offering hands-on data-engineering and ML zoomcamps.</summary>
+  <summary>A free community offering hands-on data-engineering and ML zoomcamps. Unlike paid bootcamps it is entirely free and community-run — the camps run in cohorts on set dates.</summary>
 </entry>
 <entry>
   <title>dbt</title>
@@ -102,7 +102,7 @@
   <link href="https://delta.io"/>
   <id>https://delta.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An open storage layer bringing ACID transactions and time travel to data lakes.</summary>
+  <summary>An open storage layer bringing ACID transactions and time travel to data lakes. Unlike plain Parquet files it adds transactional safety and version history, so the lake behaves reliably like a table.</summary>
 </entry>
 <entry>
   <title>DuckDB</title>
@@ -116,7 +116,7 @@
   <link href="https://greatexpectations.io"/>
   <id>https://greatexpectations.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A data-quality framework that validates and documents data with declarative expectations.</summary>
+  <summary>A data-quality framework that validates and documents data with declarative expectations. Unlike hand-written validation scripts it turns rules into data documentation and embeds tests inside the pipeline.</summary>
 </entry>
 <entry>
   <title>Hamilton</title>
@@ -130,7 +130,7 @@
   <link href="https://meltano.com"/>
   <id>https://meltano.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An open-source DataOps ELT platform, Singer-based and CLI/config-driven.</summary>
+  <summary>An open-source DataOps ELT platform, Singer-based and CLI/config-driven. Unlike Airbyte’s UI-first approach everything is defined in text config that lives in version control — you manage the pipeline like code.</summary>
 </entry>
 <entry>
   <title>Spark Internals</title>
@@ -144,7 +144,7 @@
   <link href="https://trino.io"/>
   <id>https://trino.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A distributed SQL query engine that queries data where it lives, across many sources.</summary>
+  <summary>A distributed SQL query engine that queries data where it lives, across many sources. Unlike classic databases it does not move the data to itself — you can query S3, PostgreSQL and Kafka together in one query.</summary>
 </entry>
 <entry>
   <title>Data Engineering Zoomcamp</title>
@@ -172,6 +172,6 @@
   <link href="https://kafka.apache.org/"/>
   <id>https://kafka.apache.org/</id>
   <updated>2026-04-20T13:01:27Z</updated>
-  <summary>Retains messages after consumption, with consumers carrying their own offsets so they can replay history. That durability is the real split from classic queues.</summary>
+  <summary>Retains messages after consumption, with consumers carrying their own offsets so they can replay history. The real split from classic queues (RabbitMQ) is that durability and replay.</summary>
 </entry>
 </feed>

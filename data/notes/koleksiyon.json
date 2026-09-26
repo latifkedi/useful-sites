@@ -286,8 +286,8 @@
       "veri-bilimi",
       "ücretsiz"
     ],
-    "tr": "GitHub’ın yıllık raporu; yazılım dünyasının eğilimlerini veriyle gösterir.",
-    "en": "GitHub’s annual report, showing software trends with data.",
+    "tr": "GitHub’ın yıllık raporu; yazılım dünyasının eğilimlerini veriyle gösteriyor. Anket tabanlı raporlardan farkı verinin GitHub’ın kendi platform etkinliğinden gelmesi: söylenen değil, yapılan.",
+    "en": "GitHub’s annual report, showing software trends with data. Unlike survey-based reports the data comes from GitHub’s own platform activity — not what people say, but what they do.",
     "src": "awesomeproj"
   },
   {
@@ -298,8 +298,8 @@
       "github",
       "referans"
     ],
-    "tr": "Depo içeriğini gezilebilir hâle getiriyor; büyük bir kod tabanına ilk kez bakarken nereden başlanacağını göstermesi işe yarıyor.",
-    "en": "Makes repository content navigable, which helps when you face a large codebase for the first time and need somewhere to start.",
+    "tr": "Depo içeriğini gezilebilir hâle getiriyor; sunucu gerektirmeden tarayıcıda çalışıyor. Kod arama araçlarından farkı büyük bir kod tabanına ilk kez bakarken nereden başlanacağını göstermesi.",
+    "en": "Makes repository content navigable, running in the browser with no server. Unlike code-search tools it helps when you face a large codebase for the first time and need somewhere to start.",
     "src": "kedi",
     "added": 1776686611
   },
@@ -323,8 +323,8 @@
       "ücretsiz",
       "referans"
     ],
-    "tr": "Google’ın henüz ürünleşmemiş denemelerinin vitrini. Buradaki çoğu şey kapanıyor, ama şirketin hangi yöne baktığını erken gösteriyor.",
-    "en": "A showcase of Google experiments that have not become products. Most of it gets shut down, but it shows early where the company is looking.",
+    "tr": "Google’ın henüz ürünleşmemiş denemelerinin vitrini. Çıkmış ürünlerden farkı buradaki çoğu şeyin deneysel olması ve kapanabilmesi; karşılığında şirketin hangi yöne baktığını erken gösteriyor.",
+    "en": "A showcase of Google experiments that have not become products. Unlike shipped products most of it is experimental and may be shut down; in exchange it shows early where the company is looking.",
     "src": "kedi",
     "added": 1775408963
   },
@@ -335,8 +335,8 @@
       "referans",
       "açık-kaynak"
     ],
-    "tr": "İhtiyacına uygun açık kaynak kütüphaneyi kalite ve lisans bilgisiyle bulmanı sağlayan arama.",
-    "en": "A search to find the right open-source library for a need, with quality and licence data.",
+    "tr": "İhtiyacına uygun açık kaynak kütüphaneyi kalite ve lisans bilgisiyle bulmanı sağlayan arama. GitHub aramasından farkı sonuçları kalite puanı, lisans ve güvenlik gibi ölçütlerle sunması; erişimi zaman zaman kesintiye uğruyor.",
+    "en": "A search to find the right open-source library for a need, with quality and licence data. Unlike GitHub search it surfaces results with a quality score, licence and security signals; access is intermittent at times.",
     "src": "bwapsv"
   },
   {
@@ -407,8 +407,8 @@
       "github",
       "veri-bilimi"
     ],
-    "tr": "GitHub depolarının yıldız kazanma hızını gösteriyor. Toplam yıldız eski projeleri kayırır; ivmeye bakmak yeni çıkanı görmenin daha iyi yolu.",
-    "en": "Shows how fast GitHub repositories gain stars. Total stars favour old projects, so looking at momentum is the better way to see what is new.",
+    "tr": "GitHub depolarının yıldız kazanma hızını gösteriyor. Toplam yıldıza bakan sıralamalardan farkı ivmeye bakması: toplam yıldız eski projeleri kayırır, hız yeni çıkanı daha iyi gösterir.",
+    "en": "Shows how fast GitHub repositories gain stars. Unlike rankings by total stars it looks at momentum: total stars favour old projects, so speed reveals what is new better.",
     "src": "kedi",
     "added": 1716039634
   },
@@ -469,8 +469,8 @@
       "ücretsiz",
       "referans"
     ],
-    "tr": "Teknoloji ve ürün üzerine bülten; günlük haber akışına karşı seçilmiş ve yorumlanmış içerik.",
-    "en": "A newsletter on technology and product — curated, interpreted content against the daily feed.",
+    "tr": "Teknoloji ve ürün üzerine bülten. Günlük haber akışından farkı seçilmiş ve yorumlanmış içerik sunması: hacmi azaltıp anlamı öne çıkarıyor.",
+    "en": "A newsletter on technology and product. Unlike the daily feed it offers curated, interpreted content — cutting the volume and foregrounding the meaning.",
     "src": "kedi",
     "added": 1779250547
   },
@@ -482,8 +482,8 @@
       "veri-bilimi",
       "ücretsiz"
     ],
-    "tr": "Geliştiricilerin araç, dil ve maaş eğilimlerini gösteren yıllık büyük anket.",
-    "en": "The annual large survey of developers’ tool, language and salary trends.",
+    "tr": "Geliştiricilerin araç, dil ve maaş eğilimlerini gösteren yıllık büyük anket. Platform etkinliğine bakan raporlardan farkı verinin doğrudan geliştiricilere sorulmasından gelmesi: “sevilen” ve “korkulan” teknolojiler burada ölçülüyor.",
+    "en": "The annual large survey of developers’ tool, language and salary trends. Unlike reports drawn from platform activity, the data comes from asking developers directly — where the “loved” and “dreaded” technologies are measured.",
     "src": "awesomeproj"
   },
   {
@@ -519,8 +519,8 @@
       "ücretsiz",
       "veri-bilimi"
     ],
-    "tr": "Programlama dili popülerlik endeksi. Yöntemi (arama motoru sonucu sayısı) haklı olarak eleştiriliyor; yine de yirmi yıllık tutarlı seri olduğu için eğilim okumada kullanılıyor.",
-    "en": "A programming language popularity index whose methodology — counting search engine results — is rightly criticised, yet which is read for trends because the series has been consistent for twenty years.",
+    "tr": "Programlama dili popülerlik endeksi. Stack Overflow anketinden farkı yöntemi arama motoru sonuç sayısına dayanması — bu yüzden haklı eleştiri alıyor; yine de yirmi yıllık tutarlı seri olduğu için uzun eğilim okumada kullanılıyor.",
+    "en": "A programming language popularity index. Unlike the Stack Overflow survey its methodology rests on counting search-engine results — which draws fair criticism; still, it is read for long-run trends because the series has been consistent for twenty years.",
     "src": "kedi",
     "added": 1770619527
   },
@@ -557,8 +557,8 @@
       "github",
       "veri-bilimi"
     ],
-    "tr": "Yükselen açık kaynak projeleri izleyen pano; olgunlaşmış listelerin kaçırdığı yeni çıkanları öne alıyor.",
-    "en": "A dashboard tracking rising open-source projects, foregrounding the new arrivals established lists miss.",
+    "tr": "Yükselen açık kaynak projeleri izleyen pano. Olgunlaşmış awesome listelerinden farkı yeni çıkanları öne alması: listelerin henüz yakalamadığı projeleri gösteriyor.",
+    "en": "A dashboard tracking rising open-source projects. Unlike established awesome lists it foregrounds new arrivals, surfacing projects the lists have not caught yet.",
     "src": "kedi",
     "added": 1770703494
   },

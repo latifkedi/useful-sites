@@ -7,8 +7,8 @@
       "referans",
       "ücretsiz"
     ],
-    "tr": "Merkez bankalarının merkez bankası; küresel finansal istatistikleri ve araştırma metinlerini yayımlar.",
-    "en": "The central bank of central banks; publishes global financial statistics and research papers.",
+    "tr": "Merkez bankalarının merkez bankası; küresel finansal istatistikleri ve araştırma metinlerini yayımlıyor. Piyasa veri sitelerinden farkı sistemik ve sınır ötesi bankacılık verisine odaklanması.",
+    "en": "The central bank of central banks, publishing global financial statistics and research papers. Unlike market-data sites it focuses on systemic and cross-border banking data.",
     "src": "econ"
   },
   {
@@ -31,8 +31,8 @@
       "ücretsiz",
       "akademik"
     ],
-    "tr": "Ekonomi ansiklopedisi, denemeler ve klasik iktisat metinlerinin tam sürümlerini barındıran kütüphane.",
-    "en": "A library holding an economics encyclopedia, essays and full texts of classic economics works.",
+    "tr": "Ekonomi ansiklopedisi, denemeler ve klasik iktisat metinlerinin tam sürümlerini barındıran kütüphane. Güncel veri portallarından farkı veri değil kavram ve kuram vermesi; belirgin biçimde serbest piyasa yanlısı bir editöryal duruşu var.",
+    "en": "A library holding an economics encyclopedia, essays and full texts of classic economics works. Unlike current data portals it offers concepts and theory rather than data, with a distinctly free-market editorial stance.",
     "src": "econ"
   },
   {
@@ -148,8 +148,8 @@
       "ücretsiz",
       "referans"
     ],
-    "tr": "ABD Ulusal Ekonomik Araştırmalar Bürosu’nun çalışma kâğıtları — çoğu daha sonra hakemli dergilerde yayımlanır. Dergileri beklemeden alanın öncü araştırmasını burada okursun.",
-    "en": "Working papers from the US National Bureau of Economic Research — most later appear in peer-reviewed journals. You read the field’s leading research here before the journals.",
+    "tr": "ABD Ulusal Ekonomik Araştırmalar Bürosu’nun çalışma kâğıtları — çoğu sonradan hakemli dergilerde yayımlanıyor. Dergilerden farkı öncü araştırmayı yayımlanmadan aylar önce okutması; henüz hakem sürecinden geçmemiş olmalarını akılda tut.",
+    "en": "Working papers from the US National Bureau of Economic Research — most later appear in peer-reviewed journals. Unlike the journals it lets you read leading research months before publication; bear in mind they have not yet been peer-reviewed.",
     "src": "econ"
   },
   {
@@ -161,8 +161,8 @@
       "ücretsiz",
       "api"
     ],
-    "tr": "OECD üyesi ekonomilerin resmi istatistiklerini standart, ülkeler-arası karşılaştırılabilir biçimde kaynağından verir.",
-    "en": "Official OECD statistics across member economies, standardised for cross-country comparison straight from the source.",
+    "tr": "OECD üyesi ekonomilerin resmî istatistiklerini standart, ülkeler-arası karşılaştırılabilir biçimde kaynağından veriyor. Genel veri toplayıcılarından farkı verinin standartlaştırılmış ve doğrudan resmî kaynaktan olması.",
+    "en": "Official OECD statistics across member economies, standardised for cross-country comparison straight from the source. Unlike general data aggregators the data is standardised and comes directly from the official source.",
     "src": "econ"
   },
   {
@@ -187,8 +187,8 @@
       "interaktif",
       "akademik"
     ],
-    "tr": "Ekonomi, nüfus, sağlık ve çevre üzerine uzun vadeli verileri etkileşimli grafiklerle sunan, üniversite kökenli araştırma yayını.",
-    "en": "University-backed research publication presenting long-run data on the economy, population, health and environment as interactive charts.",
+    "tr": "Ekonomi, nüfus, sağlık ve çevre üzerine uzun vadeli verileri etkileşimli grafiklerle sunan, üniversite kökenli araştırma yayını. Ham veri portallarından farkı veriyi anlatı ve bağlamla birlikte sunması ve tüm grafiklerin serbestçe kullanılabilmesi.",
+    "en": "A university-backed research publication presenting long-run data on the economy, population, health and environment as interactive charts. Unlike raw data portals it pairs the data with narrative and context, and every chart is freely reusable.",
     "src": "econ"
   },
   {
@@ -211,8 +211,8 @@
       "referans",
       "ücretsiz"
     ],
-    "tr": "İktisat araştırmacıları için hizmet ağı: kaynakça, çalışma kâğıdı akışı, blog toplayıcı. IDEAS onun arayüzü; repec.org ise ardındaki gönüllü altyapının kendisi.",
-    "en": "A network of services for economics researchers: bibliography, working-paper feeds, blog aggregator. IDEAS is its front end; repec.org is the volunteer infrastructure behind it.",
+    "tr": "İktisat araştırmacıları için hizmet ağı: kaynakça, çalışma kâğıdı akışı, blog toplayıcı. Tek bir arşivden farkı dağıtık ve gönüllü altyapı olması; IDEAS onun arayüzü, repec.org ardındaki sistemin kendisi.",
+    "en": "A network of services for economics researchers: bibliography, working-paper feeds, blog aggregator. Unlike a single archive it is distributed volunteer infrastructure; IDEAS is its front end, repec.org the system behind it.",
     "src": "econ"
   },
   {
@@ -246,8 +246,8 @@
       "referans",
       "freemium"
     ],
-    "tr": "Sektörler genelinde istatistikleri kaynak göstererek toplayan piyasa ve anket verisi portalı.",
-    "en": "A statistics portal aggregating market and survey data across industries with sourcing.",
+    "tr": "Sektörler genelinde istatistikleri kaynak göstererek toplayan piyasa ve anket verisi portalı. Birincil veri kaynaklarından farkı dağınık verileri tek grafikte toplaması; ham veriye erişim ve indirme çoğunlukla ücretli.",
+    "en": "A statistics portal aggregating market and survey data across industries with sourcing. Unlike primary data sources it collects scattered figures into one chart; access to the raw data and downloads is mostly paid.",
     "src": "econ"
   },
   {
@@ -259,8 +259,8 @@
       "freemium",
       "api"
     ],
-    "tr": "196 ülke için GSYH, enflasyon, faiz gibi makro göstergeleri tarihsel seriler ve tahminlerle tek panelde toplar.",
-    "en": "Gathers macro indicators — GDP, inflation, rates — for 196 countries in one dashboard with historical series and forecasts.",
+    "tr": "196 ülke için GSYH, enflasyon, faiz gibi makro göstergeleri tarihsel seriler ve tahminlerle tek panelde topluyor. Tek ülkeye bakan resmî portallardan farkı ülkeler arası karşılaştırma ve tahmin sunması.",
+    "en": "Gathers macro indicators — GDP, inflation, rates — for 196 countries in one dashboard with historical series and forecasts. Unlike official portals that cover one country, it offers cross-country comparison and forecasts.",
     "src": "econ"
   },
   {

@@ -69,7 +69,7 @@ footer a{color:var(--dim)}</style>
 <main>
 <article>
 <h2><a href="https://airbyte.com" rel="noopener noreferrer nofollow">Airbyte</a></h2><span class="host">airbyte.com</span>
-<p class="d">Open-source data integration (ELT) with a huge connector catalogue; self-hostable.</p>
+<p class="d">Open-source data integration (ELT) with a huge connector catalogue; self-hostable. Unlike closed services such as Fivetran it is open source, and you can write a missing connector yourself.</p>
 <p class="t">Data Science, Open Source, Automation, Self-Hosted</p>
 </article>
 <article>
@@ -84,7 +84,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://kafka.apache.org/" rel="noopener noreferrer nofollow">Apache Kafka</a></h2><span class="host">kafka.apache.org</span>
-<p class="d">Retains messages after consumption, with consumers carrying their own offsets so they can replay history. That durability is the real split from classic queues.</p>
+<p class="d">Retains messages after consumption, with consumers carrying their own offsets so they can replay history. The real split from classic queues (RabbitMQ) is that durability and replay.</p>
 <p class="t">Open Source, Automation</p>
 </article>
 <article>
@@ -114,7 +114,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://clickhouse.com" rel="noopener noreferrer nofollow">ClickHouse</a></h2><span class="host">clickhouse.com</span>
-<p class="d">A columnar OLAP database for analytics, extremely fast at aggregations at scale.</p>
+<p class="d">A columnar OLAP database for analytics, extremely fast at aggregations at scale. Unlike row-based databases such as PostgreSQL it finishes aggregation queries over billions of rows in seconds; it is weak at single-record updates.</p>
 <p class="t">Data Science, Database, Open Source, Server</p>
 </article>
 <article>
@@ -124,7 +124,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://www.dataengineeringpodcast.com" rel="noopener noreferrer nofollow">Data Engineering Podcast</a></h2><span class="host">dataengineeringpodcast.com</span>
-<p class="d">Long-form interviews digging deep into data-engineering tools and architectures.</p>
+<p class="d">Long-form interviews digging deep into data-engineering tools and architectures. Unlike tool docs it tells why and how a tool was actually chosen, from the people who use it.</p>
 <p class="t">Data Science, Reference, Free</p>
 </article>
 <article>
@@ -139,7 +139,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://datatalks.club" rel="noopener noreferrer nofollow">DataTalks.Club</a></h2><span class="host">datatalks.club</span>
-<p class="d">A free community offering hands-on data-engineering and ML zoomcamps.</p>
+<p class="d">A free community offering hands-on data-engineering and ML zoomcamps. Unlike paid bootcamps it is entirely free and community-run — the camps run in cohorts on set dates.</p>
 <p class="t">Data Science, Tutorial, Free, Curriculum</p>
 </article>
 <article>
@@ -149,7 +149,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://delta.io" rel="noopener noreferrer nofollow">Delta Lake</a></h2><span class="host">delta.io</span>
-<p class="d">An open storage layer bringing ACID transactions and time travel to data lakes.</p>
+<p class="d">An open storage layer bringing ACID transactions and time travel to data lakes. Unlike plain Parquet files it adds transactional safety and version history, so the lake behaves reliably like a table.</p>
 <p class="t">Data Science, Open Source</p>
 </article>
 <article>
@@ -159,7 +159,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://greatexpectations.io" rel="noopener noreferrer nofollow">Great Expectations</a></h2><span class="host">greatexpectations.io</span>
-<p class="d">A data-quality framework that validates and documents data with declarative expectations.</p>
+<p class="d">A data-quality framework that validates and documents data with declarative expectations. Unlike hand-written validation scripts it turns rules into data documentation and embeds tests inside the pipeline.</p>
 <p class="t">Data Science, Open Source, Python</p>
 </article>
 <article>
@@ -169,7 +169,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://meltano.com" rel="noopener noreferrer nofollow">Meltano</a></h2><span class="host">meltano.com</span>
-<p class="d">An open-source DataOps ELT platform, Singer-based and CLI/config-driven.</p>
+<p class="d">An open-source DataOps ELT platform, Singer-based and CLI/config-driven. Unlike Airbyte’s UI-first approach everything is defined in text config that lives in version control — you manage the pipeline like code.</p>
 <p class="t">Data Science, Open Source, Automation</p>
 </article>
 <article>
@@ -184,7 +184,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://trino.io" rel="noopener noreferrer nofollow">Trino</a></h2><span class="host">trino.io</span>
-<p class="d">A distributed SQL query engine that queries data where it lives, across many sources.</p>
+<p class="d">A distributed SQL query engine that queries data where it lives, across many sources. Unlike classic databases it does not move the data to itself — you can query S3, PostgreSQL and Kafka together in one query.</p>
 <p class="t">Data Science, Open Source, Server</p>
 </article>
 </main>

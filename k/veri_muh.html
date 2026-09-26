@@ -69,7 +69,7 @@ footer a{color:var(--dim)}</style>
 <main>
 <article>
 <h2><a href="https://airbyte.com" rel="noopener noreferrer nofollow">Airbyte</a></h2><span class="host">airbyte.com</span>
-<p class="d">Geniş bağlayıcı kataloğuyla açık kaynak veri entegrasyonu (ELT); kendi sunucunda barındırılabilir.</p>
+<p class="d">Geniş bağlayıcı kataloğuyla açık kaynak veri entegrasyonu (ELT); kendi sunucunda barındırılabiliyor. Fivetran gibi kapalı servislerden farkı açık kaynak olması ve eksik bağlayıcıyı kendin yazabilmen.</p>
 <p class="t">Veri Bilimi, Açık Kaynak, Otomasyon, Kendi Sunucunda</p>
 </article>
 <article>
@@ -84,7 +84,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://kafka.apache.org/" rel="noopener noreferrer nofollow">Apache Kafka</a></h2><span class="host">kafka.apache.org</span>
-<p class="d">Mesajları tüketildikten sonra da saklıyor; tüketiciler kendi konumlarını (offset) taşıyıp geçmişi yeniden okuyabiliyor. Klasik kuyruklardan asıl ayrımı bu kalıcılık.</p>
+<p class="d">Mesajları tüketildikten sonra da saklıyor; tüketiciler kendi konumlarını (offset) taşıyıp geçmişi yeniden okuyabiliyor. Klasik kuyruklardan (RabbitMQ) asıl ayrımı bu kalıcılık ve yeniden oynatma.</p>
 <p class="t">Açık Kaynak, Otomasyon</p>
 </article>
 <article>
@@ -114,7 +114,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://clickhouse.com" rel="noopener noreferrer nofollow">ClickHouse</a></h2><span class="host">clickhouse.com</span>
-<p class="d">Analitik için sütun temelli OLAP veritabanı; büyük ölçekte çok hızlı toplama yapar.</p>
+<p class="d">Analitik için sütun temelli OLAP veritabanı; büyük ölçekte çok hızlı toplama yapıyor. PostgreSQL gibi satır temelli veritabanlarından farkı milyarlarca satırda toplama sorgularını saniyeler içinde bitirmesi; tekil kayıt güncellemede zayıf.</p>
 <p class="t">Veri Bilimi, Veritabanı, Açık Kaynak, Sunucu</p>
 </article>
 <article>
@@ -124,7 +124,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://www.dataengineeringpodcast.com" rel="noopener noreferrer nofollow">Data Engineering Podcast</a></h2><span class="host">dataengineeringpodcast.com</span>
-<p class="d">Veri mühendisliği araç ve mimarilerini derinlemesine konuşan uzun söyleşiler.</p>
+<p class="d">Veri mühendisliği araç ve mimarilerini derinlemesine konuşan uzun söyleşiler. Araç belgelerinden farkı bir aracın gerçekte neden ve nasıl seçildiğini uygulayanların ağzından anlatması.</p>
 <p class="t">Veri Bilimi, Referans, Ücretsiz</p>
 </article>
 <article>
@@ -139,7 +139,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://datatalks.club" rel="noopener noreferrer nofollow">DataTalks.Club</a></h2><span class="host">datatalks.club</span>
-<p class="d">Uygulamalı veri mühendisliği ve ML kampları (zoomcamp) sunan ücretsiz topluluk.</p>
+<p class="d">Uygulamalı veri mühendisliği ve ML kampları (zoomcamp) sunan ücretsiz topluluk. Ücretli bootcamp’lerden farkı tamamen ücretsiz ve topluluk yürütmeli olması: kamplar belirli tarihlerde toplu ilerliyor.</p>
 <p class="t">Veri Bilimi, Öğretici, Ücretsiz, Müfredat</p>
 </article>
 <article>
@@ -149,7 +149,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://delta.io" rel="noopener noreferrer nofollow">Delta Lake</a></h2><span class="host">delta.io</span>
-<p class="d">Veri göllerine ACID işlemleri ve zaman-yolculuğu getiren açık depolama katmanı.</p>
+<p class="d">Veri göllerine ACID işlemleri ve zaman-yolculuğu getiren açık depolama katmanı. Düz Parquet dosyalarından farkı işlem güvenliği ve sürüm geçmişi eklemesi: göl bir tablo gibi güvenilir davranıyor.</p>
 <p class="t">Veri Bilimi, Açık Kaynak</p>
 </article>
 <article>
@@ -159,7 +159,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://greatexpectations.io" rel="noopener noreferrer nofollow">Great Expectations</a></h2><span class="host">greatexpectations.io</span>
-<p class="d">Veriyi bildirimsel kurallarla doğrulayan ve belgeleyen veri kalitesi çatısı.</p>
+<p class="d">Veriyi bildirimsel kurallarla doğrulayan ve belgeleyen veri kalitesi çatısı. Elle yazılan doğrulama betiklerinden farkı kuralları veri belgesine çevirmesi ve hattın içine yerleşik testler eklemesi.</p>
 <p class="t">Veri Bilimi, Açık Kaynak, Python</p>
 </article>
 <article>
@@ -169,7 +169,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://meltano.com" rel="noopener noreferrer nofollow">Meltano</a></h2><span class="host">meltano.com</span>
-<p class="d">Singer temelli, komut satırı ve yapılandırma odaklı açık kaynak DataOps ELT platformu.</p>
+<p class="d">Singer temelli, komut satırı ve yapılandırma odaklı açık kaynak DataOps ELT platformu. Airbyte’ın arayüz odaklı yaklaşımından farkı her şeyin sürüm kontrolüne giren metin yapılandırmasıyla tanımlanması: veri hattını kod gibi yönetiyorsun.</p>
 <p class="t">Veri Bilimi, Açık Kaynak, Otomasyon</p>
 </article>
 <article>
@@ -184,7 +184,7 @@ footer a{color:var(--dim)}</style>
 </article>
 <article>
 <h2><a href="https://trino.io" rel="noopener noreferrer nofollow">Trino</a></h2><span class="host">trino.io</span>
-<p class="d">Veriyi bulunduğu yerde sorgulayan dağıtık SQL sorgu motoru; birçok kaynağı birleştirir.</p>
+<p class="d">Veriyi bulunduğu yerde sorgulayan dağıtık SQL sorgu motoru; birçok kaynağı birleştiriyor. Klasik veritabanlarından farkı veriyi kendine taşımaması: S3, PostgreSQL ve Kafka’yı tek sorguda birlikte sorgulayabiliyorsun.</p>
 <p class="t">Veri Bilimi, Açık Kaynak, Sunucu</p>
 </article>
 </main>

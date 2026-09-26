@@ -7,8 +7,8 @@
       "müfredat",
       "ücretsiz"
     ],
-    "tr": "Doksan güne bölünmüş çalışma planı: ağ temelleri, Linux, Python, ardından saldırı ve savunma. Dağınık kaynak listelerine karşı takvimli bir program.",
-    "en": "A study plan split across ninety days — networking, Linux, Python, then offence and defence. A dated schedule against the usual scattered resource list.",
+    "tr": "Doksan güne bölünmüş çalışma planı: ağ temelleri, Linux, Python, ardından saldırı ve savunma. Dağınık kaynak listelerinden farkı takvimli ve sıralı bir program sunması.",
+    "en": "A study plan split across ninety days — networking, Linux, Python, then offence and defence. Unlike scattered resource lists it offers a dated, ordered programme.",
     "src": "kedi",
     "added": 1775421490
   },
@@ -42,8 +42,8 @@
       "ücretsiz",
       "güvenlik"
     ],
-    "tr": "İnternetin en bilinen bulmacasının adım adım çözümü; steganografi, kitap şifresi ve Tor gizli servisleri bir arada kullanılıyor. Tekniklerin nasıl zincirlendiğine iyi bir örnek.",
-    "en": "A step-by-step solution of the internet’s best-known puzzle, chaining steganography, book ciphers and Tor hidden services — a good example of how techniques link together.",
+    "tr": "İnternetin en bilinen bulmacasının adım adım çözümü; steganografi, kitap şifresi ve Tor gizli servisleri bir arada kullanılıyor. Tek konu anlatan öğreticilerden farkı tekniklerin gerçek bir problemde nasıl zincirlendiğini göstermesi.",
+    "en": "A step-by-step solution of the internet’s best-known puzzle, chaining steganography, book ciphers and Tor hidden services. Unlike single-topic tutorials it shows how the techniques link together on a real problem.",
     "src": "kedi",
     "added": 1785306880
   },
@@ -77,8 +77,8 @@
       "güvenlik",
       "masaüstü"
     ],
-    "tr": "Mobil güvenlik öğrenmek için kasıtlı olarak zafiyetli iOS uygulaması.",
-    "en": "A deliberately vulnerable iOS app for learning mobile security.",
+    "tr": "Mobil güvenlik öğrenmek için kasıtlı olarak zafiyetli iOS uygulaması. Web tabanlı zafiyet laboratuvarlarından farkı mobil platforma özgü sorunlara — güvensiz veri saklama, ikili yama — odaklanması.",
+    "en": "A deliberately vulnerable iOS app for learning mobile security. Unlike web-based vulnerability labs it targets mobile-specific issues — insecure data storage, binary patching.",
     "src": "testsites"
   },
   {
@@ -88,8 +88,8 @@
       "güvenlik",
       "ücretsiz"
     ],
-    "tr": "Çok sayıda uygulama güvenliği açığını barındıran, Google kaynaklı test hedefi.",
-    "en": "A Google-built test target hosting many application-security issues.",
+    "tr": "Çok sayıda uygulama güvenliği açığını barındıran, Google kaynaklı test hedefi. Öğretici zafiyet laboratuvarlarından farkı tarayıcı ve otomatik güvenlik aracı denemek için tasarlanması: senaryo değil, açık türlerinin ham kataloğu.",
+    "en": "A Google-built test target hosting many application-security issues. Unlike instructional vulnerability labs it is designed for testing scanners and automated tools — not scenarios, but a raw catalogue of bug types.",
     "src": "testsites"
   },
   {
@@ -99,8 +99,8 @@
       "güvenlik",
       "öğretici"
     ],
-    "tr": "PortSwigger’ın hazırladığı, zafiyetlerle dolu modern web uygulaması pratik hedefi.",
-    "en": "A modern, vulnerability-filled web app practice target built by PortSwigger.",
+    "tr": "PortSwigger’ın hazırladığı, zafiyetlerle dolu modern web uygulaması pratik hedefi. Eski pratik sitelerinden farkı gerçekçi tek sayfa uygulaması ve API mimarisi taşıması: bugünün web’ini yansıtıyor.",
+    "en": "A modern, vulnerability-filled web app practice target built by PortSwigger. Unlike older practice sites it carries a realistic single-page-app and API architecture, reflecting today’s web.",
     "src": "testsites"
   },
   {
@@ -161,8 +161,8 @@
       "interaktif",
       "öğretici"
     ],
-    "tr": "Sızma testi ve web güvenliğini kapsayan, tarayıcıda çalışan uygulamalı laboratuvarlar.",
-    "en": "Hands-on, in-browser labs covering penetration testing and web security.",
+    "tr": "Sızma testi ve web güvenliğini kapsayan, tarayıcıda çalışan uygulamalı laboratuvarlar. Kendi laboratuvarını kurmaktan farkı ortamın tarayıcıda hazır gelmesi: kurulum yok, doğrudan pratiğe başlıyorsun.",
+    "en": "Hands-on, in-browser labs covering penetration testing and web security. Unlike building your own lab the environment is ready in the browser — no setup, you start practising straight away.",
     "src": "testsites"
   },
   {
@@ -260,8 +260,8 @@
       "ücretsiz",
       "güvenlik"
     ],
-    "tr": "Hâlâ kırılamamış şifrelerin kategorisi; Voynich el yazması ve Beale şifreleri dahil. Her biri açık bir problem olarak duruyor.",
-    "en": "The category of ciphers still unbroken, the Voynich manuscript and Beale ciphers among them. Each stands as an open problem.",
+    "tr": "Hâlâ kırılamamış şifrelerin kategorisi; Voynich el yazması ve Beale şifreleri dahil. Çözümlü şifre öğreticilerinin aksine burada her biri açık bir problem olarak duruyor.",
+    "en": "The category of ciphers still unbroken, the Voynich manuscript and Beale ciphers among them. Unlike solved-cipher tutorials, each here stands as an open problem.",
     "src": "kedi",
     "added": 1785306824
   },
