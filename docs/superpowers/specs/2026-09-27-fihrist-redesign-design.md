@@ -34,18 +34,22 @@ Tokens (light / dark):
 
 | token | light | dark | use |
 |---|---|---|---|
-| `--paper` | `#f6f1e7` | `#15140f` | page |
-| `--paper-2` | `#efe8da` | `#1e1c17` | panels, hover |
+| `--bg` | `#f6f1e7` | `#15140f` | paper |
+| `--panel` | `#efe8da` | `#1e1c17` | panels, hover |
 | `--field` | `#fbf8f1` | `#1a1914` | inputs, chips |
-| `--ink` | `#1c1a16` | `#ebe5d8` | text |
-| `--ink-2` | `#5b564c` | `#b3ad9f` | secondary text |
-| `--ink-3` | `#857e70` | `#8f897b` | tertiary, counts |
+| `--fg` | `#1c1a16` | `#ebe5d8` | ink |
+| `--dim` | `#5b564c` | `#b3ad9f` | secondary text |
+| `--faint` | `#6f695c` | `#8f897b` | tertiary text, counts |
 | `--rule` | `#ddd5c4` | `#302d26` | borders |
-| `--rule-2` | `#e9e2d3` | `#24221c` | row separators |
+| `--rule2` | `#e9e2d3` | `#24221c` | row separators |
 | `--red` | `#a8321f` | `#e0674f` | the mark |
-| `--red-soft` | `#f1e0d6` | `#3a2019` | active chip fill |
+| `--red-soft` | `#f1e0d6` | `#2e1a14` | active chip fill |
+| `--on-red` | `#fbf8f1` | `#15140f` | text on red |
 
-Both reds clear WCAG AA (≥ 4.5:1) as text on their paper. Dark mode follows
+Token names keep the current stylesheet's names so nothing else has to be
+renamed. Measured contrast on the paper: `--faint` 4.9:1 light / 5.3:1 dark,
+`--red` 5.9:1 / 5.5:1, red on `--red-soft` 5.2:1 / 4.9:1 — all clear WCAG AA
+for text. Dark mode follows
 `prefers-color-scheme`, overridable by `data-theme` exactly as today.
 
 **The red is a mark, never decoration.** It appears only as: entry ordinals,
@@ -107,8 +111,8 @@ One header element, two layouts driven by `body.home`:
    serif area name, dotted leader, count; beneath it, every non-empty category
    of that area as a plain inline link straight to `?cat=`. The area name links
    to `?f=` (or straight to its only category, as `fieldLink` does now).
-4. Quiet links: Son eklenenler · Tümü tek listede · Katkıda bulunanlar ·
-   Hakkında · RSS.
+4. Quiet links: Son eklenenler · Tümü tek listede. Contributors and the
+   plain-text edition stay linked from the footer text, as today.
 
 **Area (`?f=`)** — breadcrumb `Fihrist / <area>`, `h1` with the roman
 numeral, the area note, then its categories as a single-column table of
@@ -144,8 +148,9 @@ headings, entries in the standard list.
 **Submit dialog** — same behaviour and fields; restyled with the new tokens
 (serif title, rule tabs, field inputs).
 
-**Footer** — last-verified line, keyboard hint, Dışa aktar (JSON · CSV),
-licence, links.
+**Footer** — the existing footer text (last-verified date, issue link,
+contributors, plain-text edition), the keyboard hint, and Dışa aktar
+(JSON · CSV).
 
 ## 4. Entry anatomy
 
@@ -230,11 +235,14 @@ entry must be above the fold.
 
 ## 9. Data fixes found on the way
 
-- Elasticsearch carries the tag `kuantum` by mistake — remove.
+- Elasticsearch carries the tag `kuantum` by mistake — replace it with
+  `vektör-db` (its description is about vector search).
 - Chroma carries `gömülü` (embedded hardware); it is an embedded *database* —
   remove that tag.
 
 ## Rollout
 
 Work on a branch (`redesign-fihrist`), since `main` is what GitHub Pages
-serves. Merge when every view is verified; CI must be green.
+serves. Merge when every view is verified and a local run of the CI steps
+(build, determinism, all tests) is green; CI itself runs on the push to
+`main` (it is configured for `main` pushes and pull requests only).
