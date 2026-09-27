@@ -194,6 +194,21 @@ _pages = emit.write_all(core, CATS, INTROS, LABELS, os.path.join(D, '..'), en)
 emit.write_issue_form(CATS, os.path.join(D, '..'))
 emit.write_home(core, CATS, groups, os.path.join(D, '..'))
 
+# ------------------------------------------------------------------ stylesheet
+# style.css is the one stylesheet. index.html carries a copy inline so the
+# first paint needs no extra request and the CSP stays as it is; this writes
+# that copy from the file on every build, and CI's byte-for-byte check makes
+# a hand edit to the inline copy impossible to forget.
+def _inline_css():
+    ix = os.path.join(D, '..', 'index.html')
+    src = io.open(ix, encoding='utf-8').read()
+    css = io.open(os.path.join(D, '..', 'style.css'), encoding='utf-8').read()
+    out = re.sub(r'(<style id="css">\n)(.*?)(</style>)',
+                 lambda m: m.group(1) + css + m.group(3), src, count=1, flags=re.S)
+    if out != src:
+        io.open(ix, 'w', encoding='utf-8', newline='').write(out)
+
+
 # ------------------------------------------------------------------ cache stamp
 # The address of links.js never changes, so after an update a browser can serve
 # the old data file while index.html is fresh: new categories simply do not
@@ -245,6 +260,7 @@ def _readme():
         io.open(p, 'w', encoding='utf-8', newline='\n').write(out)
 
 
+_inline_css()
 _stamp()
 _readme()
 

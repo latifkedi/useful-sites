@@ -238,6 +238,11 @@ def main():
 
     ix = io.open(os.path.join(ROOT, 'index.html'), encoding='utf-8').read()
     check('links.js?v=' in ix, 'links.js carries a cache stamp')
+    css_path = os.path.join(ROOT, 'style.css')
+    css = io.open(css_path, encoding='utf-8').read() if os.path.exists(css_path) else None
+    m_css = re.search(r'<style id="css">\n(.*?)</style>', ix, re.S)
+    check(css is not None and bool(m_css) and m_css.group(1) == css,
+          'index.html inlines style.css byte for byte')
     # The pre-rendered homepage must describe the same fields app.js would draw,
     # and its strings must still be the ones app.js uses (they are copies).
     on = ix[ix.index('<main id="list"'):ix.index('</main>')]
