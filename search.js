@@ -24,8 +24,14 @@ var Search = (function(){
      genislik noktalama. Harf mi diye sormak yerine ayirici mi diye soruyor:
      \p{L} sinifli bolme 1888 kayitta 8 kat yavasti. Dizin, sorgu ve hl()
      ayni tanimi kullaniyor; tutarlilik tanimin kendisinden daha onemli. */
-  var SEPS = "\\s!-\\/:-@\\[-`{-~\\u00a0-\\u00bf\\u00d7\\u00f7\\u2000-\\u206f\\u2190-\\u21ff" +
-             "\\u2500-\\u27bf\\u3000-\\u303f\\ufe30-\\ufe4f\\uff00-\\uff0f";
+  /* Bloklarin icindeki harf ve rakamlar (ª µ º, ² ³ ¹ ¼ ½ ¾, daire ici
+     rakamlar, 々 〆 〇 ...) araliklardan disarida; test_search.js bu bloklarda
+     \p{L}\p{N} olan hicbir karakterin ayirici sayilmadigini denetliyor. */
+  var SEPS = "\\s!-\\/:-@\\[-`{-~" +
+             "\\u00a0-\\u00a9\\u00ab-\\u00b1\\u00b4\\u00b6-\\u00b8\\u00bb\\u00bf\\u00d7\\u00f7" +
+             "\\u2000-\\u206f\\u2190-\\u21ff\\u2500-\\u2775\\u2794-\\u27bf" +
+             "\\u3000-\\u3004\\u3008-\\u3020\\u302a-\\u3030\\u3036-\\u3037\\u303d-\\u303f" +
+             "\\ufe30-\\ufe4f\\uff00-\\uff0f";
   var SPLIT = new RegExp("[" + SEPS + "]+"), SEP = new RegExp("^[" + SEPS + "]$");
   function words(s){ return String(s).split(SPLIT).filter(Boolean) }
   function isSep(c){ return SEP.test(c) }

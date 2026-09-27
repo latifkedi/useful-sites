@@ -46,6 +46,16 @@ console.log("esc");
 check(esc('<a href="x">&</a>') === "&lt;a href=&quot;x&quot;&gt;&amp;&lt;/a&gt;",
   "escapes the five HTML-sensitive characters");
 
+console.log("words");
+check(Search.words(Search.fold("10µF ve 2ª, 3º — node.js")).join() === "10µf,ve,2ª,3º,node,js",
+  "splits on separators only: µ ª º stay letters, punctuation and dashes split");
+const miscut = [];
+for (let c = 0; c < 0x10000; c++) {
+  const ch = String.fromCharCode(c);
+  if (/[\p{L}\p{N}]/u.test(ch) && Search.isSep(ch)) miscut.push("U+" + c.toString(16).padStart(4, "0"));
+}
+check(!miscut.length, "no letter or digit in the BMP is treated as a separator" + (miscut.length ? ": " + miscut.slice(0, 8).join(" ") : ""));
+
 console.log("stem");
 [["haritalar", "harita"], ["setleri", "set"], ["yoneticisi", "yonetici"],
  ["veritabanlari", "veritaban"], ["podcastler", "podcast"], ["icons", "icon"],
