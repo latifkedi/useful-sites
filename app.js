@@ -251,11 +251,9 @@ var CATBYKEY = {};
 CATS.forEach(function(c){ CATBYKEY[c.key] = c; });
 function catName(k){ return CATBYKEY[k] ? CATBYKEY[k][lang] : k; }
 
-/* Kartlarda hacim cubugu ve orneklem icin bir kez turetilir; veri sabit. */
+/* Kategori basina kayitlar: sayilar ve orneklem icin bir kez turetilir; veri sabit. */
 var BYCAT = {};
 data.forEach(function(d){ (BYCAT[d.cat] = BYCAT[d.cat] || []).push(d); });
-var ENBUYUK = 1;
-CATS.forEach(function(c){ ENBUYUK = Math.max(ENBUYUK, (BYCAT[c.key] || []).length); });
 
 var TAGCOUNT = {};
 data.forEach(function(d){ (d.tags||[]).forEach(function(t){ TAGCOUNT[t]=(TAGCOUNT[t]||0)+1 }) });
@@ -567,15 +565,21 @@ function recentHTML(L){
     }).join("")+'</div>';
 }
 
-/* Bir kategori karti: ad, hacim cubugu, girisin ilk cumlesi ve orneklem.
-   Hem alan sayfasindaki alt kategori izgarasi hem de eski giris bunu kullanir. */
-function cardFor(key){
-  var c = CATBYKEY[key];
-  var rows = BYCAT[key] || [];
+/* Yol izi: Fihrist / alan / baslik. "Fihrist" her zaman girise doner. */
+function crumbHTML(L, fk, ck){
+  var g = fk && FIELDBYKEY[fk];
+  return '<p class="crumb"><a href="./" data-home="1">'+esc(L.fxHead)+'</a>'+
+    (g ? '<b>/</b><a '+fieldLink(g)+'>'+esc(g[lang])+'</a>' : '')+
+    (ck ? '<b>/</b><a href="?cat='+esc(ck)+'" data-cat="'+esc(ck)+'">'+esc(catLbl(ck, lang))+'</a>' : '')+
+  '</p>';
+}
+
+/* Alan sayfasinda bir baslik: ad, noktali cizgi, sayi; altinda girisin ilk
+   cumlesi ve uc ornek kayit (once baslangic noktalari). */
+function tocItem(key){
+  var c = CATBYKEY[key], rows = BYCAT[key] || [];
   if(!c || !rows.length) return "";
   var intro = (INTROS[key] || ["",""])[lang === "tr" ? 0 : 1];
-  /* Alfabetik ilk uc kayit kotu ornek oluyor ("1000 Projects, 20 Proje...").
-     Once o kategorinin baslangic noktalari, yetmezse arasindan secilenler. */
   var sec = rows.filter(function(d){ return d.pick }).slice(0, 3);
   if(sec.length < 3){
     var step = Math.max(1, Math.floor(rows.length / 4));
@@ -583,15 +587,10 @@ function cardFor(key){
       if(sec.indexOf(rows[i]) < 0) sec.push(rows[i]);
     }
   }
-  var ornek = sec.map(function(d){ return d.name }).join(" · ");
-  var tier = rows.length >= 60 ? " lg" : (rows.length >= 34 ? " md" : "");
-  var pay = Math.round(rows.length / ENBUYUK * 100);
-  return '<a class="card'+tier+'" href="?cat='+esc(key)+'" data-cat="'+esc(key)+'">'+
-           '<span class="ch">'+esc(c[lang])+'<span class="n">'+rows.length+'</span></span>'+
-           '<span class="bar"><i style="width:'+pay+'%"></i></span>'+
-           '<p class="cd">'+esc(firstSentence(intro))+'</p>'+
-           '<span class="cs">'+esc(ornek)+'</span>'+
-         '</a>';
+  return '<li><a class="tt" href="?cat='+esc(key)+'" data-cat="'+esc(key)+'">'+
+           '<span class="tn">'+esc(c[lang])+'</span><span class="ld"></span><span class="n">'+rows.length+'</span></a>'+
+         (intro ? '<p class="td">'+esc(firstSentence(intro))+'</p>' : '')+
+         '<p class="ts">'+esc(sec.map(function(d){ return d.name }).join(" · "))+'</p></li>';
 }
 
 /* Giris: once baslangic noktalari, sonra fihrist. On alan roma rakamiyla,
@@ -640,17 +639,17 @@ function fieldLink(g){
     : 'href="?f='+esc(g.key)+'" data-field="'+esc(g.key)+'"';
 }
 
-/* Alan sayfasi: bir amblem-baslik serlevhasi, ardindan o alanin alt kategori
-   kartlari. Karta tiklayinca kategori kayitlarina inilir. */
+/* Alan sayfasi: yol izi, roma rakamli baslik, alanin notu ve alt basliklarin
+   icindekiler listesi. */
 function fieldHTML(fk, L){
   var g = FIELDBYKEY[fk];
   if(!g) return homeHTML(L);
-  var cards = g.cats.map(function(k){ return cardFor(k) }).join("");
   var n = g.cats.reduce(function(s, k){ return s + (BYCAT[k] ? BYCAT[k].length : 0) }, 0);
-  return '<div class="home fieldpage">'+
-    '<div class="fhero"><h2 class="fht">'+esc(g[lang])+'<span class="n">'+n+'</span></h2>'+
-      '<p class="fhd">'+esc(g["note_" + lang] || "")+'</p></div>'+
-    '<div class="cards">'+cards+'</div>'+
+  return '<div class="fieldpage">'+crumbHTML(L)+
+    '<h1 class="ph"><span class="rn">'+ROMAN[GROUPS.indexOf(g)]+'</span>'+esc(g[lang])+
+      '<span class="n">'+n+'</span></h1>'+
+    '<p class="lede">'+esc(g["note_" + lang] || "")+'</p>'+
+    '<ol class="toc">'+g.cats.map(tocItem).join("")+'</ol>'+
   '</div>';
 }
 
