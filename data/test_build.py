@@ -274,6 +274,8 @@ def main():
     check(not kopya, 'pre-render strings still match app.js'
           + (' -- drifted: %s' % kopya if kopya else ''))
     check('app.js?v=' in ix and 'app.js?v=0"' not in ix, 'app.js carries a real cache stamp')
+    s_at, a_at = ix.find('src="search.js?v='), ix.find('src="app.js?v=')
+    check(0 <= s_at < a_at, 'index.html loads a stamped search.js before app.js')
     check("'unsafe-inline'" not in ix.split('script-src', 1)[1].split(';', 1)[0],
           'no inline script allowed by the CSP')
     check('KULLANICI' not in ix, 'no placeholder repository address left')

@@ -46,6 +46,7 @@ var T = {
     sib:"Bu alandaki diğer başlıklar", allAreas:"← Tüm alanlar",
     remove:function(x){ return x+" süzgecini kaldır" },
     results:function(q,n){ return "“"+q+"” için "+n+" sonuç" },
+    didYouMean:"Bunu mu demek istedin:", scArea:"Alan", scCat:"Başlık",
     relevance:"Alakaya göre",
     all:"Tüm bağlantılar",
     foot:'Bağlantılar elle derlendi, son kontrol <b>'+CHECKED+'</b>. '+
@@ -120,6 +121,7 @@ var T = {
     sib:"Other headings in this area", allAreas:"← All areas",
     remove:function(x){ return "Remove filter: "+x },
     results:function(q,n){ return n+" results for “"+q+"”" },
+    didYouMean:"Did you mean:", scArea:"Area", scCat:"Heading",
     relevance:"By relevance",
     all:"All links",
     foot:'Curated by hand, last checked <b>'+CHECKED+'</b>. '+
@@ -186,38 +188,23 @@ var $ = function(s){return document.querySelector(s)};
 var esc = function(s){return String(s).replace(/[&<>"]/g,function(c){
   return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})};
 
-function host(u){ try{ return new URL(u).hostname.replace(/^www\./,"") }catch(e){ return "" } }
+/* Arama motoru search.js'te; buradaki adlar eski cagrilar icin. */
+var fold = Search.fold, host = Search.host;
 function ukey(u){
   return String(u).trim().toLowerCase()
     .replace(/^https?:\/\//, "").replace(/^www\./, "").replace(/\/+$/, "");
 }
-function fold(s){
-  /* toLowerCase() turns "İ" (Turkish dotted capital I) into "i" plus a
-     combining dot (U+0307), not plain "i" -- so it has to be flattened
-     before toLowerCase runs, or that invisible mark survives and breaks
-     every substring match against it (e.g. "istanbul" no longer finds
-     a record titled "İstanbul"). */
-  return s.replace(/İ/g,"i").toLowerCase()
-    .replace(/[ıİ]/g,"i").replace(/[şŞ]/g,"s").replace(/[ğĞ]/g,"g")
-    .replace(/[üÜ]/g,"u").replace(/[öÖ]/g,"o").replace(/[çÇ]/g,"c");
-}
-
 /* Kategori etiketleri kayit basina degil, links.js'te bir kez (window.CATS)
    geliyor. */
 var CATLBL = {};
 (window.CATS || []).forEach(function(c){ CATLBL[c[0]] = {tr:c[1], en:c[2]} });
 function catLbl(k, l){ return (CATLBL[k] || {})[l] || k }
 
-data.forEach(function(d,i){
-  d._i = i;
-  d._h = host(d.url);
-  d._k = ukey(d.url);
-  var lbl = (d.tags||[]).map(function(t){
-    var l = (window.TAGLABELS||{})[t];
-    return l ? l[0]+" "+l[1] : t;
-  }).join(" ");
-  d._s = fold([d.name,d.tr,(d.tags||[]).join(" "),lbl,d._h,catLbl(d.cat,"tr"),catLbl(d.cat,"en")].join(" "));
-});
+data.forEach(function(d,i){ d._i = i; d._k = ukey(d.url) });
+/* Arama alanlari (d._h, d._s, d._ws ...) search.js'te kuruluyor; alan ve
+   baslik adlari da dizine giriyor. */
+Search.init({records: data, synonyms: window.SYNONYMS || [], groups: window.GROUPS || [],
+             cats: window.CATS || [], tagLabels: window.TAGLABELS || {}});
 
 /* Ingilizce aciklamalar ayri dosyada ve sonradan geliyor, dolayisiyla ilk
    indeks yalnizca Turkce metni tasiyor. Bunu tazelemezsek Ingilizce moddaki
@@ -229,8 +216,9 @@ function indexEN(){
   enIndexed = true;
   data.forEach(function(d){
     var t = window.LINKS_EN[d._i];
-    if(t) d._s += " " + fold(t);
+    if(t) Search.index(d, t);
   });
+  parsedFor = null;   /* yeni kelimeler bitisik okumayi degistirebilir */
 }
 
 var CATS = (function(){
@@ -334,62 +322,52 @@ function writeURL(push){
 /* ------------------------------------------------------------ filter & sort */
 function keep(d){ return matches(d, false) }
 
-function matches(d, ignoreCat){
+/* Sorgu her cizimde bir kez ayristiriliyor, kayit basina degil. */
+var parsedFor = null, parsedQ = [];
+function qParsed(){
+  if(parsedFor !== q){ parsedFor = q; parsedQ = Search.parse(q) }
+  return parsedQ;
+}
+/* Sorgu disindaki suzgecler; "Bunu mu demek istedin?" sayimi da bunu kullaniyor. */
+function passes(d, ignoreCat){
   if(onlyPicks && !d.pick) return false;
   if(activeSrc && d.src !== activeSrc) return false;
   if(!ignoreCat && activeCat && d.cat !== activeCat) return false;
   for(var i=0;i<activeTags.length;i++){
     if((d.tags||[]).indexOf(activeTags[i]) < 0) return false;
   }
-  if(!q) return true;
-  var terms = fold(q).split(/\s+/).filter(Boolean);
-  for(var j=0;j<terms.length;j++){ if(d._s.indexOf(terms[j]) < 0) return false; }
   return true;
 }
-
-/* Arama alt dize eslesmesiydi ve sirasizdi: "docker" yazinca adi Docker olan
-   kayitla aciklamasinda docker gecen kayit ayni agirliktaydi. Puanlama nerede
-   eslestigine bakiyor -- ad en agir, sonra etiket, sonra alan adi, en hafifi
-   aciklama. Bas harften eslesme ayrica odullendiriliyor ki kisa sorgular
-   dogru kaydi one cikarsin. */
-function score(d, terms){
-  var p = 0, ad = fold(d.name), et = (d.tags||[]).join(" "), h = d._h;
-  for(var i=0;i<terms.length;i++){
-    var t = terms[i], v = 0;
-    if(ad === t) v = 60;
-    else if(ad.indexOf(t) === 0) v = 34;
-    else if(ad.indexOf(t) >= 0) v = 20;
-    if(fold(et).indexOf(t) >= 0) v += 9;
-    if(h.indexOf(t) >= 0) v += 6;
-    if(!v && d._s.indexOf(t) >= 0) v = 2;
-    p += v;
-  }
-  /* Baslangic noktalari esit puanda one geciyor: ayni isi goren iki kayittan
-     hangisine once bakilacagi zaten isaretlenmis durumda. */
-  if(d.pick) p += 3;
-  return p;
+function matches(d, ignoreCat){
+  return passes(d, ignoreCat) && (!q || Search.match(d, qParsed()));
 }
 
+/* Alakaya gore siralama search.js'te (Search.rank): ad en agir, sonra etiket,
+   sonra alan adi, en hafifi aciklama; esanlamlidan gelen eslesme 3/4. */
 function sorted(rows){
   var r = rows.slice();
   if(sortBy === "az")  r.sort(function(a,b){ return a.name.localeCompare(b.name,"tr") });
   else if(sortBy === "new") r.sort(function(a,b){ return b.added - a.added || a.name.localeCompare(b.name,"tr") });
-  else if(q){
-    var terms = fold(q).split(/\s+/).filter(Boolean);
-    r.forEach(function(d){ d._p = score(d, terms) });
-    r.sort(function(a,b){ return b._p - a._p || a.name.localeCompare(b.name,"tr") });
-  }
+  else if(q) r = Search.rank(r, qParsed());
   return r;
 }
 
+/* Vurgu: kisa terim yalnizca tam kelime, kok yalnizca kelime basinda, uzun
+   terim her yerde (Search.marks). fold uzunlugu korudugu icin katlanmis
+   metin ile asil metin ayni indeksle ilerliyor. */
+var WORDCH = /[\p{L}\p{N}]/u;
 function hl(text){
   if(!q) return esc(text);
-  var terms = fold(q).split(/\s+/).filter(Boolean).sort(function(a,b){return b.length-a.length});
+  var ms = Search.marks(qParsed());
   var src = esc(text), f = fold(src), out = "", i = 0;
   while(i < src.length){
     var len = 0;
-    for(var t=0;t<terms.length;t++){
-      if(terms[t] && f.startsWith(terms[t], i)){ len = terms[t].length; break; }
+    for(var t=0;t<ms.length;t++){
+      var m = ms[t];
+      if(!f.startsWith(m.s, i)) continue;
+      if(m.how !== "any" && i > 0 && WORDCH.test(f[i-1])) continue;
+      if(m.how === "word" && i + m.s.length < f.length && WORDCH.test(f[i + m.s.length])) continue;
+      len = m.s.length; break;
     }
     if(len){ out += "<mark>"+src.substr(i,len)+"</mark>"; i += len; }
     else { out += src[i]; i++; }
@@ -683,6 +661,32 @@ function emptyHTML(L){
   return '<p class="none">'+esc(L.empty)+' <a href="#" id="clr">'+esc(L.clear)+'</a></p>';
 }
 
+/* Arama yardimi: sorgu bir alan ya da baslik adiysa oraya kisayol; az sonuc
+   varsa "Bunu mu demek istedin?". Oneri sayimi gecerli suzgeclerle yapiliyor. */
+function qHelpHTML(L, n){
+  if(!q) return "";
+  var out = "", sc = activeCat ? [] : Search.shortcuts(q);
+  var links = sc.map(function(s){
+    if(s.kind === "f"){
+      var g = FIELDBYKEY[s.key];
+      return g ? '<a href="?f='+esc(s.key)+'" data-field="'+esc(s.key)+'">'+esc(L.scArea)+': '+
+                 ROMAN[GROUPS.indexOf(g)]+' '+esc(g[lang])+' →</a>' : "";
+    }
+    return CATBYKEY[s.key] ? '<a href="?cat='+esc(s.key)+'" data-cat="'+esc(s.key)+'" data-noq="1">'+
+                             esc(L.scCat)+': '+esc(catName(s.key))+' →</a>' : "";
+  }).filter(Boolean);
+  if(links.length) out += '<p class="qhelp">'+links.join(" · ")+'</p>';
+  if(n < 3){
+    var s = Search.suggest(q, function(x){
+      var p = Search.parse(x);
+      return data.filter(function(d){ return passes(d, false) && Search.match(d, p) }).length;
+    });
+    if(s) out += '<p class="qhelp">'+esc(L.didYouMean)+' <a href="?q='+encodeURIComponent(s)+
+                 '" data-q="'+esc(s)+'">'+esc(s)+'</a>?</p>';
+  }
+  return out;
+}
+
 /* Arac cubugu: Suz dugmesi (etkin suzgec sayisiyla), secili suzgecler
    cikarilabilir cip olarak, Buradan Basla, sayi ve siralama. */
 function tbHTML(L, n, total){
@@ -770,7 +774,7 @@ function catPageHTML(L, shown){
     '<div class="ch1"><h1 class="ph">'+esc(shortCat(activeCat))+'</h1>'+sib+'</div>'+sibList+
     (intro ? '<p class="lede clamp">'+esc(intro)+'</p>'+
              '<button class="more-b" type="button" data-more="1">'+esc(L.more)+'</button>' : '')+
-    tbHTML(L, mine.length, total)+body+
+    tbHTML(L, mine.length, total)+qHelpHTML(L, mine.length)+body+
   '</div>';
 }
 
@@ -823,7 +827,7 @@ function listPageHTML(L, shown){
     body = listBlock("_", null, sorted(shown), L, {year: sortBy === "new", path: true});
   }
   return '<div class="catpage">'+crumbHTML(L)+'<h1 class="ph">'+esc(h)+'</h1>'+
-    tbHTML(L, shown.length, data.length)+body+'</div>';
+    tbHTML(L, shown.length, data.length)+qHelpHTML(L, shown.length)+body+'</div>';
 }
 
 /* Tek kayit: yol izi, kaydin kendisi buyuk (ad h1), benzerleri, geri donus. */
@@ -956,6 +960,9 @@ document.addEventListener("click", function(e){
     single = null; recent = false; pages = {}; update(true); return;
   }
   if(e.target.closest("#clr")){ e.preventDefault(); clearAll(); return; }
+  /* "Bunu mu demek istedin?" onerisi: sorguyu degistir. */
+  var sq = e.target.closest("[data-q]");
+  if(sq){ e.preventDefault(); q = sq.dataset.q; single = null; recent = false; pages = {}; update(true); return; }
   /* Bir alan (ust kategori) secildi: alan sayfasina in. */
   var fv = e.target.closest("[data-field]");
   if(fv){
@@ -969,6 +976,7 @@ document.addEventListener("click", function(e){
   if(nv){
     e.preventDefault();
     var c = nv.dataset.cat;
+    if(nv.dataset.noq) q = "";                         /* aramadan basliga kisayol */
     if(activeCat === c){ activeCat = null; }          /* geri: alan sayfasina don */
     else { activeCat = c; activeField = CATFIELD[c] || activeField; }
     single = null; recent = false; /* tek kayit ve son eklenenlerden cikiyoruz */

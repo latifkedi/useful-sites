@@ -190,6 +190,9 @@ body.calm .side{display:none}
 .count{margin:0 0 14px;font-size:13px;color:var(--faint)}
 .none{padding:36px 0;color:var(--dim)}
 .none a{color:var(--red)}
+.qhelp{margin:0 0 14px;font-size:14px;color:var(--dim)}
+.qhelp a{color:var(--red);text-decoration:none}
+.qhelp a:hover{text-decoration:underline}
 .sh{margin:40px 0 2px;padding-bottom:10px;border-bottom:1px solid var(--rule);
   display:flex;align-items:baseline;gap:10px;font:600 20px/1.25 var(--serif);letter-spacing:-.01em}
 section{scroll-margin-top:20px}
