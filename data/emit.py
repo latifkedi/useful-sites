@@ -650,6 +650,11 @@ def _first(t):
     return m.group(1) if m else (t or '')[:120]
 
 
+def _short(label):
+    # app.js shortCat(): alanin icinde 'YZ · Modeller' yerine 'Modeller'.
+    return re.sub(r'^\S{1,3} · ', '', label)
+
+
 def home_html(core, cats, groups):
     bycat = {}
     for d in core:
@@ -675,7 +680,7 @@ def home_html(core, cats, groups):
                   '<span class="fn">%s</span><span class="ld"></span><span class="n">%d</span></a>'
                   '<p class="fc">%s</p></li>'
                   % (link, ROMAN[gi], esc(g['tr']), n, ', '.join(
-                      '<a href="?cat=%s" data-cat="%s">%s</a>' % (esc(k), esc(k), esc(lbl[k]))
+                      '<a href="?cat=%s" data-cat="%s">%s</a>' % (esc(k), esc(k), esc(_short(lbl[k])))
                       for k in full)))
 
     picks = ''

@@ -28,20 +28,24 @@ var T = {
     menu:"Menü", tools:"Araçlar", langLabel:"İngilizceye geç", close:"Kapat",
     fxHead:"Fihrist", exp:"Dışa aktar:", filter:"Süz", fClear:"Temizle",
     ph:"Ara — ad, açıklama, etiket ya da alan adı",
-    count:function(n,t){return n+" / "+t+" Bağlantı"},
+    count:function(n,t){return n+" / "+t+" bağlantı"},
     empty:"Eşleşen Bağlantı Yok",
     clear:"Filtreleri Temizle",
     qLabel:"Dizinde ara", themeLabel:"Temayı değiştir", topLabel:"Yukarı çık",
     rand:"Rastgele", lang:"EN",
     picks:"Başlangıç Noktaları",
     by:"Ekleyen",
-    rel:"İlgili",
+    rel:"Benzerleri",
     verified:function(d){ return "Son Doğrulama: " + d },
     verwarn:"(Bot Engeli — Elle Bakılmalı)",
     pickTip:"Bu alana ilk girenin gitmesi gereken yer",
     page:function(a,b){return a+" / "+b+" Sayfa"},
     prev:"Önceki", next:"Sonraki",
-    sorts:{cat:"Kategoriye Göre", az:"A → Z", "new":"Önce Yeni Eklenen"},
+    sorts:{cat:"Kategoriye göre", az:"A → Z", "new":"En yeni önce"},
+    sortLbl:"Sırala:", sortAria:"Sıralama", more:"devamını oku",
+    sib:"Bu alandaki diğer başlıklar", allAreas:"← Tüm alanlar",
+    remove:function(x){ return x+" süzgecini kaldır" },
+    results:function(q,n){ return "“"+q+"” için "+n+" sonuç" },
     relevance:"Alakaya Göre",
     all:"Tüm Bağlantılar",
     foot:'Bağlantılar elle derlendi, son kontrol <b>'+CHECKED+'</b>. '+
@@ -99,20 +103,24 @@ var T = {
     menu:"Menu", tools:"Tools", langLabel:"Switch to Turkish", close:"Close",
     fxHead:"Index", exp:"Export:", filter:"Filter", fClear:"Clear",
     ph:"Search — name, description, tag or domain",
-    count:function(n,t){return n+" / "+t+" Links"},
+    count:function(n,t){return n+" / "+t+" links"},
     empty:"No Matching Links",
     clear:"Clear Filters",
     qLabel:"Search the directory", themeLabel:"Toggle theme", topLabel:"Back to top",
     rand:"Random", lang:"TR",
     picks:"Start Here",
     by:"Added By",
-    rel:"Related",
+    rel:"Similar",
     verified:function(d){ return "Last Verified: " + d },
     verwarn:"(Bot-Blocked — Needs A Manual Look)",
     pickTip:"Where to go first in this area",
     page:function(a,b){return "Page "+a+" / "+b},
     prev:"Prev", next:"Next"      ,
-    sorts:{cat:"By Category", az:"A → Z", "new":"Newest First"},
+    sorts:{cat:"By category", az:"A → Z", "new":"Newest first"},
+    sortLbl:"Sort:", sortAria:"Sort order", more:"read more",
+    sib:"Other headings in this area", allAreas:"← All areas",
+    remove:function(x){ return "Remove filter: "+x },
+    results:function(q,n){ return n+" results for “"+q+"”" },
     relevance:"By Relevance",
     all:"All Links",
     foot:'Curated by hand, last checked <b>'+CHECKED+'</b>. '+
@@ -250,6 +258,10 @@ GROUPS.forEach(function(g){
 var CATBYKEY = {};
 CATS.forEach(function(c){ CATBYKEY[c.key] = c; });
 function catName(k){ return CATBYKEY[k] ? CATBYKEY[k][lang] : k; }
+/* Alanin icinde gosterilen baslik adi: "YZ · Modeller" -> "Modeller"; alanin
+   adi zaten ustte yaziyor. Arama sonucu, disa aktarma ve statik sayfalar tam
+   adi kullaniyor (emit._short ile ayni kural). */
+function shortCat(k){ return catName(k).replace(/^\S{1,3} · /, "") }
 
 /* Kategori basina kayitlar: sayilar ve orneklem icin bir kez turetilir; veri sabit. */
 var BYCAT = {};
@@ -278,6 +290,11 @@ var ALLTAGS = Object.keys(TAGCOUNT).sort(function(a,b){
 });
 
 /* ------------------------------------------------------------ URL state */
+/* Sayfa numarasinin hangi listeye ait oldugu: yalnizca bir kategorinin kendi
+   (aramasiz, kategori sirali) listesi kendi anahtarini tasiyor. Once URL ile
+   liste farkli anahtar kullaniyordu; kategori icinde aramada sayfa kayboluyordu. */
+function pageKey(){ return (activeCat && sortBy === "cat" && !q) ? activeCat : "_" }
+
 function readURL(){
   var p = new URLSearchParams(location.search);
   q          = (p.get("q") || "").trim();
@@ -299,7 +316,7 @@ function readURL(){
   activeTags = activeTags.filter(function(t){ return TAGCOUNT[t] });
   pages = {};
   var pg = parseInt(p.get("p"), 10);
-  if(pg > 1) pages[activeCat && sortBy === "cat" ? activeCat : "_"] = pg;
+  if(pg > 1) pages[pageKey()] = pg;
 }
 
 function writeURL(push){
@@ -314,7 +331,7 @@ function writeURL(push){
   if(recent) p.set("new", "1");
   if(sortBy !== "cat") p.set("sort", sortBy);
   if(lang !== "tr") p.set("lang", lang);
-  var pg = pages[activeCat && sortBy === "cat" ? activeCat : "_"];
+  var pg = pages[pageKey()];
   if(pg > 1) p.set("p", pg);
   var s = p.toString();
   history[push ? "pushState" : "replaceState"]({}, "", location.pathname + (s ? "?"+s : ""));
@@ -407,49 +424,48 @@ function srcNote(d){
   return n;
 }
 
-function itemHTML(d, showYear){
-  var SEP = '<span class="sep">·</span>';
-  /* Kunye satiri: bakilan sey ad ve aciklama, bunlar dogrulama bilgisi.
-     Ayni satirda durunca hangisinin once okunacagi belirsiz kaliyordu. */
-  /* Depo sagligi. Bir kayit mukemmel yanit verirken arkasindaki proje iki
-     yildir durmus olabilir; denetim bunu biliyordu ama yalnizca issue'ya
-     yaziyordu. Dizinin tezi tam olarak bu ayrimdi, artik kayitta duruyor. */
+/* Aciklamalardaki `kod` parcalari kod olarak gorunsun. */
+function descHTML(d){ return hl(descOf(d)).replace(/`([^`<>]+)`/g, "<code>$1</code>") }
+
+/* Bir kayit: kirmizi sira numarasi, ad, baslangic isareti, alan adi,
+   aciklama; altinda etiketler, benzerleri ve (fareyle beliren) kunye.
+   Depo sagligi rozeti: bir kayit mukemmel yanit verirken arkasindaki proje
+   iki yildir durmus olabilir; dizinin tezi tam olarak bu ayrim. */
+function itemHTML(d, n, o){
+  o = o || {};
+  var L = T[lang];
   var rt = "";
   if(d.hs){
-    var tip = T[lang].repoTip[d.hs];
+    var tip = L.repoTip[d.hs];
     rt = '<span class="badge repo '+(d.hs==="bayat"?"warn":"stop")+'" title="'+
-         esc(typeof tip === "function" ? tip(d.hp) : tip)+'">'+
-         esc(T[lang].repo[d.hs])+'</span>';
+         esc(typeof tip === "function" ? tip(d.hp) : tip)+'">'+esc(L.repo[d.hs])+'</span>';
   }
-  var meta = ['<span class="host">'+esc(d._h)+'</span>',
-              '<span class="badge src'+(d.src!=="kedi"?' ext':'')+'" title="'+esc(srcNote(d))+'">'+
+  var meta = ['<span class="badge src'+(d.src!=="kedi"?' ext':'')+'" title="'+esc(srcNote(d))+'">'+
                 esc(srcLabel(d))+'</span>'];
-  if(rt) meta.push(rt);
-  if(showYear) meta.push('<span class="age">'+whenOf(d)+'</span>');
-  meta.push('<a class="arch" href="'+esc(ARCHIVE+d.url)+'" target="_blank" '+
-            'rel="noopener noreferrer" title="'+esc(T[lang].archTip)+'">'+esc(T[lang].arch)+'</a>');
-  meta.push('<a class="arch perma" href="?e='+encodeURIComponent(d._k)+'" '+
-            'data-perma="'+esc(d._k)+'" title="'+esc(T[lang].permaTip)+'">'+
-            esc(T[lang].perma)+'</a>');
-
-  return '<article class="item'+(d.pick?' pick':'')+'"><div class="item-h">'+
-    (d.pick ? '<span class="dot" title="'+esc(T[lang].pickTip)+'">◆</span>' : '')+
-    '<a class="name" href="'+esc(d.url)+'" target="_blank" rel="noopener noreferrer">'+hl(d.name)+'</a>'+
-    (d.dead ? '<span class="badge dead" title="'+esc(T[lang].deadTip)+'">'+
-              esc(T[lang].dead)+'</span>' : '')+
-    '</div><p class="desc">'+hl(descOf(d))+'</p>'+
-    '<div class="foot">'+
-      ((d.tags||[]).length
-        ? '<span class="itags">'+d.tags.map(function(t){
-            return '<span data-tag="'+esc(t)+'">'+esc(tagLabel(t))+'</span>' }).join(" "+SEP+" ")+'</span>'
-        : '<span class="itags"></span>')+
-      '<span class="meta">'+meta.join(SEP)+'</span>'+
-    '</div>'+
-    ((d.rel||[]).length
-      ? '<p class="rel"><b>'+esc(T[lang].rel)+'</b> '+d.rel.map(function(i){
-          var o = data[i];   /* rel: LINKS icindeki sira numaralari */
-          return o ? '<a data-rel="'+i+'">'+esc(o.name)+'</a>' : '' }).join(" · ")+'</p>'
-      : '')+'</article>';
+  if(o.year) meta.push('<span class="age">'+whenOf(d)+'</span>');
+  meta.push('<a class="arch" href="'+esc(ARCHIVE+d.url)+'" target="_blank" rel="noopener noreferrer" '+
+            'title="'+esc(L.archTip)+'">'+esc(L.arch)+'</a>');
+  meta.push('<a class="arch perma" href="?e='+encodeURIComponent(d._k)+'" data-perma="'+esc(d._k)+'" '+
+            'title="'+esc(L.permaTip)+'">'+esc(L.perma)+'</a>');
+  var tags = (d.tags||[]).map(function(t){
+    return '<span data-tag="'+esc(t)+'">'+esc(tagLabel(t))+'</span>' }).join('<i>·</i>');
+  var rel = (d.rel||[]).map(function(i){
+    var x = data[i];   /* rel: LINKS icindeki sira numaralari */
+    return x ? '<a data-rel="'+i+'">'+esc(x.name)+'</a>' : "" }).filter(Boolean).join(" · ");
+  var ad = '<a class="name" href="'+esc(d.url)+'" target="_blank" rel="noopener noreferrer">'+hl(d.name)+'</a>';
+  return '<article class="rec'+(d.pick?' pick':'')+(o.big?' big':'')+'">'+
+    '<span class="no">'+(n || "")+'</span><div class="rb">'+
+    (o.path ? '<p class="path"><a href="?cat='+esc(d.cat)+'" data-cat="'+esc(d.cat)+'">'+
+              esc(catLbl(d.cat, lang))+'</a></p>' : '')+
+    '<div class="nm">'+(o.big ? '<h1 class="ph">'+ad+'</h1>' : ad)+
+      (d.pick ? '<span class="pk" title="'+esc(L.pickTip)+'">◆ '+esc(L.hStart)+'</span>' : '')+
+      (d.dead ? '<span class="badge dead" title="'+esc(L.deadTip)+'">'+esc(L.dead)+'</span>' : '')+rt+
+      '<span class="host">'+esc(d._h)+'</span></div>'+
+    '<p class="desc">'+descHTML(d)+'</p>'+
+    '<div class="mt">'+(tags ? '<span class="itags">'+tags+'</span>' : '')+
+      (rel ? '<span class="rel">'+esc(L.rel)+': '+rel+'</span>' : '')+
+      '<span class="meta">'+meta.join("")+'</span></div>'+
+  '</div></article>';
 }
 
 function pagerHTML(key, page, total, L){
@@ -559,8 +575,8 @@ function recentHTML(L){
   return '<div class="home"><p class="lead">'+esc(L.recentLead(rows.length))+'</p>'+
     gruplar.map(function(g){
       return '<section><h2><span>'+esc(g.ay)+'</span>'+
-             '<span class="n">'+g.kayit.length+'</span></h2><div class="grid">'+
-             g.kayit.map(function(d){ return itemHTML(d, false) }).join("")+
+             '<span class="n">'+g.kayit.length+'</span></h2><div class="recs">'+
+             g.kayit.map(function(d){ return itemHTML(d, 0, {path: true}) }).join("")+
              '</div></section>';
     }).join("")+'</div>';
 }
@@ -570,7 +586,7 @@ function crumbHTML(L, fk, ck){
   var g = fk && FIELDBYKEY[fk];
   return '<p class="crumb"><a href="./" data-home="1">'+esc(L.fxHead)+'</a>'+
     (g ? '<b>/</b><a '+fieldLink(g)+'>'+esc(g[lang])+'</a>' : '')+
-    (ck ? '<b>/</b><a href="?cat='+esc(ck)+'" data-cat="'+esc(ck)+'">'+esc(catLbl(ck, lang))+'</a>' : '')+
+    (ck ? '<b>/</b><a href="?cat='+esc(ck)+'" data-cat="'+esc(ck)+'">'+esc(shortCat(ck))+'</a>' : '')+
   '</p>';
 }
 
@@ -588,7 +604,7 @@ function tocItem(key){
     }
   }
   return '<li><a class="tt" href="?cat='+esc(key)+'" data-cat="'+esc(key)+'">'+
-           '<span class="tn">'+esc(c[lang])+'</span><span class="ld"></span><span class="n">'+rows.length+'</span></a>'+
+           '<span class="tn">'+esc(shortCat(key))+'</span><span class="ld"></span><span class="n">'+rows.length+'</span></a>'+
          (intro ? '<p class="td">'+esc(firstSentence(intro))+'</p>' : '')+
          '<p class="ts">'+esc(sec.map(function(d){ return d.name }).join(" · "))+'</p></li>';
 }
@@ -612,7 +628,7 @@ function homeHTML(L){
     return '<li class="fe"><a class="ft" '+fieldLink(g)+'><span class="rn">'+ROMAN[gi]+'</span>'+
              '<span class="fn">'+esc(g[lang])+'</span><span class="ld"></span><span class="n">'+n+'</span></a>'+
            '<p class="fc">'+full.map(function(k){
-             return '<a href="?cat='+esc(k)+'" data-cat="'+esc(k)+'">'+esc(catName(k))+'</a>';
+             return '<a href="?cat='+esc(k)+'" data-cat="'+esc(k)+'">'+esc(shortCat(k))+'</a>';
            }).join(", ")+'</p></li>';
   }).join("");
   return '<div class="home">'+
@@ -653,21 +669,114 @@ function fieldHTML(fk, L){
   '</div>';
 }
 
-function introHTML(cat){
-  var t = INTROS[cat];
-  return t ? '<p class="intro">'+esc(t[lang === "tr" ? 0 : 1])+'</p>' : "";
-}
 
-function block(key, label, items, L, showYear, cat){
+
+/* Numarali liste. Sira numarasi sayfalar boyunca surer: ikinci sayfanin ilk
+   kaydi 21. Baslik yalnizca verildiyse (listeler bolumu, ay, kategori). */
+function listBlock(key, heading, items, L, o){
   var total = Math.max(1, Math.ceil(items.length / PER_PAGE));
   var page  = Math.min(Math.max(pages[key]||1, 1), total);
   pages[key] = page;
-  return '<section id="c-'+key+'"><h2><span>'+esc(label)+'</span>'+
-         '<span class="n">'+items.length+'</span></h2>'+
-         (cat ? introHTML(cat) : "")+'<div class="grid">'+
-         items.slice((page-1)*PER_PAGE, page*PER_PAGE)
-              .map(function(d){ return itemHTML(d, showYear) }).join("")+
-         '</div>'+pagerHTML(key, page, total, L)+'</section>';
+  var off = (page-1)*PER_PAGE;
+  return '<section id="c-'+key+'">'+
+    (heading ? '<h2 class="sh">'+esc(heading)+'<span class="n">'+items.length+'</span></h2>' : '')+
+    '<div class="recs">'+items.slice(off, off+PER_PAGE).map(function(d, i){
+      return itemHTML(d, off+i+1, o) }).join("")+'</div>'+
+    pagerHTML(key, page, total, L)+'</section>';
+}
+
+function emptyHTML(L){
+  return '<p class="none">'+esc(L.empty)+' <a href="#" id="clr">'+esc(L.clear)+'</a></p>';
+}
+
+/* Arac cubugu: Suz dugmesi (etkin suzgec sayisiyla), secili suzgecler
+   cikarilabilir cip olarak, Buradan Basla, sayi ve siralama. */
+function tbHTML(L, n, total){
+  var act = activeTags.length + (activeSrc ? 1 : 0);
+  var chips = activeTags.map(function(t){
+      return '<button class="chip on" type="button" data-tag="'+esc(t)+'" aria-label="'+
+             esc(L.remove(tagLabel(t)))+'">'+esc(tagLabel(t))+'<span class="x" aria-hidden="true">✕</span></button>';
+    }).join("") +
+    (activeSrc && SRCMAP[activeSrc]
+      ? '<button class="chip on" type="button" data-src="'+esc(activeSrc)+'" aria-label="'+
+        esc(L.remove(SRCMAP[activeSrc][lang==="tr"?"label_tr":"label_en"]))+'">'+
+        esc(SRCMAP[activeSrc][lang==="tr"?"label_tr":"label_en"])+'<span class="x" aria-hidden="true">✕</span></button>'
+      : "");
+  return '<div class="tb">'+
+    '<button class="chip" type="button" id="filtb" aria-haspopup="dialog" aria-controls="filt" aria-expanded="false">'+
+      esc(L.filter)+(act ? ' · '+act : '')+' <span aria-hidden="true">▾</span></button>'+
+    chips+
+    '<button class="chip pickbtn" type="button" id="pickbtn" aria-pressed="'+onlyPicks+'">'+
+      '<span class="dot" aria-hidden="true">◆</span><span class="lbl">'+esc(L.hStart)+'</span></button>'+
+    '<span class="sp"><span class="count">'+esc(L.count(n, total))+'</span>'+
+      '<label class="sortl"><span>'+esc(L.sortLbl)+'</span><select id="sort" aria-label="'+esc(L.sortAria)+'">'+
+      Object.keys(L.sorts).map(function(k){
+        return '<option value="'+k+'"'+(k===sortBy?' selected':'')+'>'+esc(L.sorts[k])+'</option>' }).join("")+
+      '</select></label></span>'+
+  '</div>';
+}
+
+/* Yan sutun: bir alanin icindeysen yalnizca o alanin fihristi (bulundugun
+   baslik isaretli); degilsen on alanin listesi. Sayilar gecerli suzgece gore;
+   eslesmesi olmayan soluklasiyor ama yerinden oynamiyor. */
+function sideHTML(L){
+  var counts = {};
+  data.filter(function(d){ return matches(d, true) }).forEach(function(d){
+    counts[d.cat] = (counts[d.cat]||0) + 1 });
+  function item(k){
+    var c = CATBYKEY[k]; if(!c) return "";
+    var n = counts[k] || 0, on = activeCat === k;
+    return '<li><a href="?cat='+esc(k)+'" data-cat="'+esc(k)+'" class="'+(on ? "on" : (n ? "" : "empty"))+'"'+
+           (on ? ' aria-current="page"' : '')+'><span class="t">'+esc(shortCat(k))+'</span><span class="n">'+n+'</span></a></li>';
+  }
+  var g = activeField && FIELDBYKEY[activeField];
+  if(g){
+    return '<p class="side-k"><span class="rn">'+ROMAN[GROUPS.indexOf(g)]+'</span> · '+esc(g[lang])+'</p>'+
+      '<ol>'+g.cats.map(item).join("")+'</ol>'+
+      '<a class="all" href="./" data-home="1">'+esc(L.allAreas)+'</a>';
+  }
+  return '<p class="side-k">'+esc(L.fxHead)+'</p><ol>'+GROUPS.map(function(gg, gi){
+    var n = gg.cats.reduce(function(s, k){ return s + (counts[k] || 0) }, 0);
+    return '<li><a '+fieldLink(gg)+' class="'+(n ? "" : "empty")+'"><span class="t"><span class="rn">'+
+           ROMAN[gi]+'</span> '+esc(gg[lang])+'</span><span class="n">'+n+'</span></a></li>';
+  }).join("")+'</ol>';
+}
+
+/* Kategori sayfasi: yol izi, baslik (telefonda kardes basliklara acilan ▾),
+   giris metni, arac cubugu, once birincil kaynaklar sonra listeler. */
+function catPageHTML(L, shown){
+  var c = CATBYKEY[activeCat], g = FIELDBYKEY[activeField];
+  var sibs = g ? g.cats.filter(function(k){ return BYCAT[k] && BYCAT[k].length }) : [];
+  var intro = (INTROS[activeCat] || ["",""])[lang === "tr" ? 0 : 1];
+  var mine = shown.filter(function(d){ return d.cat === activeCat });
+  var total = (BYCAT[activeCat] || []).length;
+  var body;
+  if(!mine.length) body = emptyHTML(L);
+  else if(sortBy === "cat" && !q){
+    /* Awesome listeleri birincil kaynaklarin arasina karismasin. */
+    var liste = function(d){ return (d.tags || []).indexOf("awesome-liste") >= 0 };
+    var bir = mine.filter(function(d){ return !liste(d) }), lst = mine.filter(liste);
+    body = (bir.length ? listBlock(activeCat, null, bir, L, {}) : "") +
+           (lst.length ? listBlock(activeCat + "_l", bir.length ? L.listsHead : null, lst, L, {}) : "");
+  } else {
+    body = listBlock("_", q ? L.results(q, mine.length) : null, sorted(mine), L, {year: sortBy === "new"});
+  }
+  var sib = sibs.length > 1
+    ? '<button class="sib-b lnk" type="button" popovertarget="sib" aria-label="'+esc(L.sib)+'">▾</button>'
+    : '';
+  var sibList = sibs.length > 1
+    ? '<div id="sib" class="sib" popover><p class="side-k"><span class="rn">'+ROMAN[GROUPS.indexOf(g)]+
+      '</span> · '+esc(g[lang])+'</p>'+sibs.map(function(k){
+        return '<a href="?cat='+esc(k)+'" data-cat="'+esc(k)+'" class="'+(k === activeCat ? "on" : "")+'">'+
+               '<span class="t">'+esc(shortCat(k))+'</span><span class="n">'+BYCAT[k].length+'</span></a>';
+      }).join("")+'</div>'
+    : '';
+  return '<div class="catpage">'+crumbHTML(L, activeField)+
+    '<div class="ch1"><h1 class="ph">'+esc(shortCat(activeCat))+'</h1>'+sib+'</div>'+sibList+
+    (intro ? '<p class="lede clamp">'+esc(intro)+'</p>'+
+             '<button class="more-b" type="button" data-more="1">'+esc(L.more)+'</button>' : '')+
+    tbHTML(L, mine.length, total)+body+
+  '</div>';
 }
 
 function paintChrome(L){
@@ -705,55 +814,22 @@ function render(){
   if(chromeLang !== lang){ paintChrome(L); chromeLang = lang; }
   if($("#q").value !== q) $("#q").value = q;
 
-  /* Sakin gorunum: giris ve alan sayfalari yalnizca gezinmedir; etiket ve
-     kaynak cubuklari ile ray orada kalabalik ediyordu. Aramaya, bir suzgece ya
-     da bir kategoriye girilince geri geliyorlar. */
+  /* Sakin gorunum: giris ve alan sayfalari yalnizca gezinmedir; yan sutun
+     orada kalabalik ediyordu. Aramaya, bir suzgece ya da bir kategoriye
+     girilince geri geliyor. */
   var browsing = !q && !activeTags.length && !onlyPicks && !activeSrc && sortBy === "cat";
   document.body.classList.toggle("calm", !!(single || recent || (browsing && !activeCat)));
   document.body.classList.toggle("at-home", !!(browsing && !activeCat && !activeField && !single && !recent));
 
   var shown = data.filter(keep);
-
-  /* The category list never shrinks. If the others vanish when one is
-     picked, you lose your bearings. The selected one is marked, the ones
-     with no matches fade, but everything stays where it was. */
-  var counts = {};
-  var poolNoCat = data.filter(function(d){ return matches(d, true) });
-  poolNoCat.forEach(function(d){ counts[d.cat] = (counts[d.cat]||0) + 1 });
-  var navByKey = {};
-  CATS.forEach(function(c){ navByKey[c.key] = c });
-  function navItem(key){
-    var c = navByKey[key]; if(!c) return "";
-    var n = counts[key] || 0;
-    return '<li><a href="?cat='+key+'" data-cat="'+key+'" class="'+
-           (activeCat===key ? "on" : (n ? "" : "empty"))+
-           '"'+(activeCat===key ? ' aria-current="page"' : '')+'>'+esc(c[lang])+'<span class="n">'+n+'</span></a></li>';
-  }
-  /* Ray baglama duyarli: bir alanin icindeysen (alan sayfasi veya bir
-     kategorisi) o alanin alt kategorilerini; degilsen alanlarin listesini
-     gosterir. Boylece "once alan, sonra alt kategori" gezinmesi rayda da izlenir. */
-  var navHTML;
-  if(activeField && FIELDBYKEY[activeField]){
-    var g = FIELDBYKEY[activeField];
-    navHTML = '<li class="navfield">'+esc(g[lang])+'</li>'+
-              g.cats.map(function(k){ return navItem(k) }).join("");
-  } else {
-    navHTML = GROUPS.map(function(gg){
-      var n = gg.cats.reduce(function(s, k){ return s + (counts[k] || 0) }, 0);
-      return '<li><a '+fieldLink(gg)+' class="'+
-             (n ? "" : "empty")+'">'+esc(gg[lang])+
-             '<span class="n">'+n+'</span></a></li>';
-    }).join("");
-  }
-  $("#nav").innerHTML = '<ol>' + navHTML + '</ol>';
+  $("#nav").innerHTML = sideHTML(L);
 
   /* Tek kayit gorunumu. Bir dizinde tek bir kaydi paylasabilmek gerekiyordu;
-     adres kayit adina bagli, yeniden derleme onu kaydirmiyor. */
+     adres kaydin URL anahtarina bagli, yeniden derleme onu kaydirmiyor. */
   if(single){
     var tek = byPerma(single);
     if(tek){
-      $("#list").innerHTML = '<section class="one"><h2><span>'+esc(catLbl(tek.cat, lang))+
-        '</span></h2><div class="grid one-g">'+itemHTML(tek, true)+'</div>'+
+      $("#list").innerHTML = '<section class="one"><div class="recs">'+itemHTML(tek, 0, {year: true})+'</div>'+
         '<p class="onemore"><a href="?cat='+esc(tek.cat)+'" data-cat="'+esc(tek.cat)+'">'+
         esc(L.backCat)+'</a></p></section>';
       return;
@@ -768,7 +844,6 @@ function render(){
 
   /* Gezinme gorunumleri: hicbir suzgec yokken kayit degil once alanlar,
      bir alana girildiyse o alanin alt kategorileri gosterilir. */
-  browsing = browsing && !single;
   if(browsing && !activeCat && !activeField){
     /* build.py girisi index.html'e onceden ciziyor (data-pre). Ilk acilista
        Turkce ise oldugu gibi birakiliyor; ayni markup'i yeniden yazmak belirme
@@ -779,32 +854,16 @@ function render(){
   }
   if(browsing && !activeCat && activeField){ $("#list").innerHTML = fieldHTML(activeField, L); return; }
 
-  if(!shown.length){
-    $("#list").innerHTML = '<p class="empty">'+L.empty+' <a href="#" id="clr"><code>'+L.clear+'</code></a></p>';
-    return;
-  }
-
-  if(sortBy === "cat" && !q && activeCat){
-    /* Awesome listeleri kayitlarin %15'i ve bir kategoride birincil kaynaklarin
-       arasina karisiyordu. Once kaynaklar, sonra ayri bolumde listeler. */
-    var mine = shown.filter(function(d){ return d.cat === activeCat });
-    var liste = function(d){ return (d.tags || []).indexOf("awesome-liste") >= 0 };
-    var bir = mine.filter(function(d){ return !liste(d) }), lst = mine.filter(liste);
-    var ad = CATS.filter(function(c){ return c.key === activeCat })[0][lang];
-    $("#list").innerHTML =
-      (bir.length ? block(activeCat, ad, bir, L, false, activeCat) : "") +
-      (lst.length ? block(activeCat + "_l", bir.length ? L.listsHead : ad, lst, L, false,
-                          bir.length ? null : activeCat) : "");
-  } else if(sortBy === "cat" && !q){
+  if(activeCat){ $("#list").innerHTML = catPageHTML(L, shown); return; }
+  if(!shown.length){ $("#list").innerHTML = emptyHTML(L); return; }
+  if(sortBy === "cat" && !q){
     $("#list").innerHTML = CATS.map(function(c){
       var items = shown.filter(function(d){ return d.cat === c.key });
-      return items.length ? block(c.key, c[lang], items, L, false, c.key) : "";
+      return items.length ? listBlock(c.key, c[lang], items, L, {}) : "";
     }).join("");
   } else {
-    var label = activeCat
-      ? CATS.filter(function(c){ return c.key === activeCat })[0][lang]
-      : (q ? L.relevance : L.all);
-    $("#list").innerHTML = block("_", label, sorted(shown), L, sortBy === "new", activeCat);
+    $("#list").innerHTML = listBlock("_", q ? L.relevance : L.all, sorted(shown), L,
+                                     {year: sortBy === "new", path: true});
   }
 }
 
@@ -835,6 +894,8 @@ document.addEventListener("click", function(e){
   if(hm){ e.preventDefault(); goHome(); return }
   var ex = e.target.closest("[data-exp]");
   if(ex){ exportAs(ex.dataset.exp); return }
+  var mr = e.target.closest("[data-more]");
+  if(mr){ var ld = mr.previousElementSibling; if(ld) ld.classList.add("open"); mr.remove(); return }
   var pg = e.target.closest("[data-pg]");
   if(pg){
     var parts = pg.dataset.pg.split(":");
