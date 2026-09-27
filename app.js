@@ -59,8 +59,9 @@ var T = {
     hStart:"Buradan Başla", hCats:"Başlıklar", hAll:"Tümünü tek listede gör →",
     tagMore:function(n){ return "+ " + n + " Etiket Daha" }, tagLess:"− Etiketleri Kısalt",
     tagFilter:function(n){ return "Etiketle süz · " + n + " etiket" },
-    srcMore:function(n){ return "+ " + n + " Kaynak Daha" }, srcLess:"− Kaynakları Kısalt",
-    srcShow:function(n){ return "Ekleyene göre süz · " + n + " kaynak" },
+    srcMore:function(n){ return "+ " + n + " Kaynak Daha" }, srcLess:"− Kaynakları gizle",
+    srcShow:function(n){ return n+" kaynağı göster" },
+    fShow:function(n){ return n+" bağlantıyı göster" },
     listsHead:"Listeler & Koleksiyonlar",
     backCat:"← Bu başlıktaki diğer kayıtlar", permaTip:"Bu kayda bağlantı", perma:"bağlantı",
     recent:"Son Eklenenler", recentLead:function(n){ return "Dizine en son giren "+n+" kayıt, aya göre." },
@@ -134,8 +135,9 @@ var T = {
     hStart:"Start Here", hCats:"Headings", hAll:"See everything in one list →",
     tagMore:function(n){ return "+ " + n + " More Tags" }, tagLess:"− Fewer Tags",
     tagFilter:function(n){ return "Filter by tag · " + n + " tags" },
-    srcMore:function(n){ return "+ " + n + " More Sources" }, srcLess:"− Fewer Sources",
-    srcShow:function(n){ return "Filter by source · " + n + " sources" },
+    srcMore:function(n){ return "+ " + n + " More Sources" }, srcLess:"− Hide sources",
+    srcShow:function(n){ return "Show "+n+" sources" },
+    fShow:function(n){ return "Show "+n+" links" },
     listsHead:"Lists & Collections",
     backCat:"← Other entries under this heading", permaTip:"Link to this entry", perma:"link",
     recent:"Recently Added", recentLead:function(n){ return "The "+n+" newest entries, by month." },
@@ -284,7 +286,6 @@ var INTROS = window.INTROS || {};
 var NAMEIDX = {}, KEYIDX = {};
 data.forEach(function(d){ NAMEIDX[d.name] = d; KEYIDX[d._k] = d });
 function byPerma(v){ return KEYIDX[v] || NAMEIDX[v] || null }
-var PICKCOUNT = data.filter(function(d){ return d.pick }).length;
 var ALLTAGS = Object.keys(TAGCOUNT).sort(function(a,b){
   return TAGCOUNT[b]-TAGCOUNT[a] || a.localeCompare(b,"tr");
 });
@@ -490,66 +491,60 @@ function firstSentence(t){
   return m ? m[1] : (t || "").slice(0, 120);
 }
 
-/* Etiket cubugu fasetli: fiyat ve lisans, tur, arayuz ve dil, konu. Tek duz
+/* Etiketler fasetli: fiyat ve lisans, tur, arayuz ve dil, konu. Tek duz
    satirda "ucretsiz" (kayitlarin %45'i) "kuantum"un yaninda ayni soruya
-   cevapmis gibi duruyordu. Her fasette en cok kullanilan birkaci gorunur;
-   secili bir etiket kesimin disinda kalsa bile her zaman gosteriliyor. */
+   cevapmis gibi duruyordu. Hepsi artik Suz panelinde. */
 var FACETS = window.TAGFACETS || [];
-var FACET_HEAD = 4;
-var tagsOpen = false;
 var srcOpen = false;
 
-function tagChip(t){
-  return '<button class="tag" type="button" data-tag="'+esc(t)+'" aria-pressed="'+
-         (activeTags.indexOf(t)>=0)+'"><b>'+esc(tagLabel(t))+'</b> '+TAGCOUNT[t]+'</button>';
-}
-
-/* "Ekleyen" cubugu (18 kaynak) okurdan cok bakimciya hitap ediyor. Kapaliyken
-   tek bir dugme; secili kaynak varsa o da gorunuyor. */
+/* "Ekleyen" secimi (18 kaynak) okurdan cok bakimciya hitap ediyor: panelde
+   kapali basliyor; secili kaynak varsa o hep gorunuyor. */
 function srcbarHTML(L){
   var keys = Object.keys(SRCMAP).filter(function(k){ return SRCCOUNT[k] });
   keys.sort(function(a, b){ return SRCCOUNT[b] - SRCCOUNT[a] });
   function chip(k){
     var sm = SRCMAP[k];
-    return '<button class="tag" type="button" data-src="'+esc(k)+'" aria-pressed="'+
-           (activeSrc===k)+'" title="'+esc(sm[lang==="tr"?"note_tr":"note_en"])+'"><b>'+
-           esc(sm[lang==="tr"?"label_tr":"label_en"])+'</b> '+SRCCOUNT[k]+'</button>';
+    return '<button class="chip" type="button" data-src="'+esc(k)+'" aria-pressed="'+(activeSrc===k)+'" '+
+           'title="'+esc(sm[lang==="tr"?"note_tr":"note_en"])+'">'+esc(sm[lang==="tr"?"label_tr":"label_en"])+
+           ' <span class="c">'+SRCCOUNT[k]+'</span></button>';
   }
   if(!srcOpen){
-    return '<button class="tag more" type="button" id="srcmore" aria-expanded="false">'+
+    return '<button class="chip more" type="button" id="srcmore" aria-expanded="false">'+
            esc(L.srcShow(keys.length))+'</button>' + (activeSrc && SRCMAP[activeSrc] ? chip(activeSrc) : "");
   }
-  return '<span class="lbl">'+esc(L.by)+'</span>' + keys.map(chip).join("") +
-    '<button class="tag more" type="button" id="srcmore" aria-expanded="true">'+esc(L.srcLess)+'</button>';
+  return keys.map(chip).join("") +
+    '<button class="chip more" type="button" id="srcmore" aria-expanded="true">'+esc(L.srcLess)+'</button>';
 }
 
-/* Dar ekranda fasetler bile dort-bes satir tutuyor ve ilk kaydi ekranin
-   altina itiyordu (375 pikselde 1185. piksel). Orada etiketler, secili bir
-   etiket yoksa, tek bir dugmeye katli basliyor. */
+/* Dar ekranda Suz paneli alttan gelen bir cekmece (modal) oluyor. */
 var NARROW = window.matchMedia ? window.matchMedia("(max-width:720px)") : { matches: false };
 
-function tagbarHTML(L){
-  if(NARROW.matches && !tagsOpen && !activeTags.length){
-    return '<button class="tag more" type="button" id="tagmore" aria-expanded="false">'+
-           esc(L.tagFilter(ALLTAGS.length))+'</button>';
-  }
-  var gizli = 0;
-  var rows = FACETS.map(function(f){
-    var tags = f[3].filter(function(t){ return TAGCOUNT[t] }).sort(function(a, b){
-      return TAGCOUNT[b] - TAGCOUNT[a] || a.localeCompare(b, "tr");
-    });
-    var show = tagsOpen ? tags : tags.slice(0, FACET_HEAD);
-    activeTags.forEach(function(t){ if(tags.indexOf(t) >= 0 && show.indexOf(t) < 0) show = show.concat([t]) });
-    gizli += tags.length - show.length;
-    if(!show.length) return "";
-    return '<span class="facet"><span class="flbl">'+esc(f[lang === "tr" ? 1 : 2])+'</span>'+
-           show.map(tagChip).join("")+'</span>';
+/* Suz paneli: Buradan Basla, dort faset ve kaynaklar. Fasetlerde yalnizca
+   su anki sonuclarda gecen etiketler, bu sonuclardaki sayilariyla; secili
+   bir etiket sayisi sifira dusse de gorunur kaliyor. */
+function filtHTML(L){
+  var cnt = {};
+  data.filter(keep).forEach(function(d){
+    (d.tags||[]).forEach(function(t){ cnt[t] = (cnt[t]||0) + 1 }) });
+  var groups = FACETS.map(function(f){
+    var ts = f[3].filter(function(t){ return cnt[t] || activeTags.indexOf(t) >= 0 })
+                 .sort(function(a, b){ return (cnt[b]||0) - (cnt[a]||0) || a.localeCompare(b, "tr") });
+    if(!ts.length) return "";
+    return '<div class="fg"><p class="fk">'+esc(f[lang === "tr" ? 1 : 2])+'</p><div class="cs">'+
+      ts.map(function(t){
+        return '<button class="chip" type="button" data-tag="'+esc(t)+'" aria-pressed="'+
+               (activeTags.indexOf(t) >= 0)+'">'+esc(tagLabel(t))+' <span class="c">'+(cnt[t]||0)+'</span></button>';
+      }).join("")+'</div></div>';
   }).join("");
-  return rows +
-    (gizli > 0 || tagsOpen
-      ? '<button class="tag more" type="button" id="tagmore" aria-expanded="'+tagsOpen+'">'+
-        (tagsOpen ? esc(L.tagLess) : esc(L.tagMore(gizli)))+'</button>'
-      : "");
+  /* Baslangic noktasi sayisi da bu sonuclarin icinden (secimin kendisi haric). */
+  var acik = onlyPicks; onlyPicks = false;
+  var pc = data.filter(function(d){ return d.pick && keep(d) }).length;
+  onlyPicks = acik;
+  return '<div class="fg"><div class="cs"><button class="chip pickbtn" type="button" data-pick="1" aria-pressed="'+
+      onlyPicks+'"><span class="dot" aria-hidden="true">◆</span> '+esc(L.hStart)+' <span class="c">'+pc+
+      '</span></button></div></div>'+
+    groups+
+    '<div class="fg"><p class="fk">'+esc(L.by)+'</p><div class="cs">'+srcbarHTML(L)+'</div></div>';
 }
 
 /* Son eklenenler. Ayri bir gorunum olmasinin sebebi arastirma: bir dizine
@@ -809,7 +804,7 @@ function paintChrome(L){
    ilk surumde her tus vurusunda gonderim formu dahil hepsi yeniden yaziliyordu. */
 var chromeLang = null;
 
-function render(){
+function renderView(){
   var L = T[lang];
   if(chromeLang !== lang){ paintChrome(L); chromeLang = lang; }
   if($("#q").value !== q) $("#q").value = q;
@@ -866,6 +861,7 @@ function render(){
                                      {year: sortBy === "new", path: true});
   }
 }
+function render(){ renderView(); syncFilt(); }
 
 function update(push){ writeURL(push); render(); }
 function clearAll(){ q=""; activeTags=[]; activeCat=null; activeField=null; onlyPicks=false; activeSrc=null; single=null; recent=false; pages={}; update(true) }
@@ -890,6 +886,9 @@ document.addEventListener("change", function(e){
 });
 
 document.addEventListener("click", function(e){
+  var fb = e.target.closest("#filtb");
+  if(fb){ if(filt.open) filt.close(); else openFilt(fb); return }
+  if(filt.open && !filt.matches(":modal") && !e.target.closest("#filt")) filt.close();
   var hm = e.target.closest("[data-home]");
   if(hm){ e.preventDefault(); goHome(); return }
   var ex = e.target.closest("[data-exp]");
@@ -914,9 +913,8 @@ document.addEventListener("click", function(e){
   }
   var all = e.target.closest("[data-all]");
   if(all){ e.preventDefault(); sortBy = "az"; single = null; recent = false; activeCat = null; activeField = null; pages = {}; update(true); return }
-  if(e.target.closest("#tagmore")){ tagsOpen = !tagsOpen; render(); return }
   if(e.target.closest("#srcmore")){ srcOpen = !srcOpen; render(); return }
-  if(e.target.closest("#pickbtn")){ onlyPicks = !onlyPicks; single = null; recent = false; pages = {}; update(true); return }
+  if(e.target.closest("#pickbtn,[data-pick]")){ onlyPicks = !onlyPicks; single = null; recent = false; pages = {}; update(true); return }
   var sb = e.target.closest("[data-src]");
   if(sb){
     var sk = sb.dataset.src;
@@ -1093,10 +1091,62 @@ document.addEventListener("keydown", function(e){
   try{ if(document.querySelector(":popover-open")) return }catch(err){}
   /* While the dialog is open, / and r must not fire. <dialog> handles Esc. */
   if(dlg.open) return;
+  if(filt.open){
+    if(e.key === "Escape" && !filt.matches(":modal")){ filt.close(); var fbt = $("#filtb"); if(fbt) fbt.focus() }
+    return;
+  }
   var typing = /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName);
   if(e.key === "/" && !typing){ e.preventDefault(); $("#q").focus() }
   if(e.key === "r" && !typing && !e.ctrlKey && !e.metaKey && !e.altKey){ randomLink() }
   if(e.key === "Escape"){ clearAll(); $("#q").blur() }
+});
+
+/* ------------------------------------------------------------ suz paneli
+   Masaustunde arac cubugunun altinda acilan modal olmayan bir panel; dar
+   ekranda alttan gelen, arkasini karartan bir cekmece (showModal). */
+var filt = $("#filt");
+function paintFiltFoot(){ $("#f-go").textContent = T[lang].fShow(data.filter(keep).length) }
+function placeFilt(btn){
+  var b = btn || $("#filtb"); if(!b) return;
+  var r = b.getBoundingClientRect(), vw = document.documentElement.clientWidth;
+  filt.style.left = (Math.max(16, Math.min(r.left, vw - filt.offsetWidth - 16)) + scrollX) + "px";
+  filt.style.top  = (r.bottom + scrollY + 8) + "px";
+}
+function openFilt(btn){
+  $("#f-body").innerHTML = filtHTML(T[lang]);
+  paintFiltFoot();
+  btn.setAttribute("aria-expanded", "true");
+  if(NARROW.matches){ filt.style.left = filt.style.top = ""; filt.showModal(); return }
+  filt.show(); placeFilt(btn);
+  var ilk = filt.querySelector(".fl-b button"); if(ilk) ilk.focus();
+}
+/* Her cizimden sonra: panel aciksa icerigini tazele, odagi ayni cipe geri ver. */
+function syncFilt(){
+  if(!filt || !filt.open) return;
+  var b = $("#filtb");
+  if(!b){ filt.close(); return }
+  b.setAttribute("aria-expanded", "true");
+  var fa = document.activeElement, sec = null;
+  if(fa && filt.contains(fa)){
+    sec = fa.dataset.tag ? '[data-tag="'+fa.dataset.tag+'"]' :
+          fa.dataset.src ? '[data-src="'+fa.dataset.src+'"]' :
+          fa.dataset.pick ? '[data-pick]' : (fa.id ? '#'+fa.id : null);
+  }
+  $("#f-body").innerHTML = filtHTML(T[lang]);
+  paintFiltFoot();
+  if(!filt.matches(":modal")) placeFilt(b);
+  if(sec){ var nf = filt.querySelector(sec); if(nf) nf.focus() }
+}
+$("#f-close").addEventListener("click", function(){ filt.close() });
+$("#f-go").addEventListener("click", function(){ filt.close() });
+$("#f-clear").addEventListener("click", function(){
+  activeTags = []; activeSrc = null; onlyPicks = false; single = null; recent = false; pages = {}; update(true);
+});
+filt.addEventListener("close", function(){ var b = $("#filtb"); if(b) b.setAttribute("aria-expanded", "false") });
+filt.addEventListener("click", function(e){
+  if(e.target !== filt || !filt.matches(":modal")) return;
+  var r = filt.getBoundingClientRect();
+  if(e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) filt.close();
 });
 
 /* ------------------------------------------------------------ submissions
