@@ -134,6 +134,32 @@ check(firstSentence("kelime ".repeat(30)) === Array(17).fill("kelime").join(" ")
 check(firstSentence("abcdefghi, ".repeat(20)) === Array(10).fill("abcdefghi").join(", ") + "…",
   "the cut drops a dangling comma before the ellipsis");
 
+/* Real data: links.js as the build writes it. */
+const win = {};
+new Function("window", fs.readFileSync(path.join(__dirname, "links.js"), "utf8"))(win);
+const LINKS = win.LINKS;
+Search.init({ records: LINKS, synonyms: win.SYNONYMS || [], groups: win.GROUPS || [],
+              cats: win.CATS || [], tagLabels: win.TAGLABELS || {} });
+
+console.log("synonyms");
+const groups = win.SYNONYMS || [];
+check(groups.length >= 40, "links.js carries at least 40 synonym groups (" + groups.length + ")");
+check(groups.every(g => g.length >= 2), "every group has at least two members");
+const owner = Object.create(null), dup = [];
+groups.forEach((g, gi) => g.forEach(t => {
+  const k = Search.words(Search.fold(t)).join(" ");
+  if (owner[k] !== undefined && owner[k] !== gi) dup.push(t);
+  owner[k] = gi;
+}));
+check(!dup.length, "no term appears in two groups" + (dup.length ? ": " + dup.join(", ") : ""));
+/* A member counts the way search.js uses it: at word starts only. */
+const alone = t => {
+  const alt = { ws: Search.words(Search.fold(t)).map(w => ({ t: w, st: Search.stem(w), start: true })), syn: true };
+  return LINKS.some(d => Search.match(d, [{ n: 1, alts: [alt] }]));
+};
+const dead = groups.filter(g => !g.some(alone)).map(g => g.join(" / "));
+check(!dead.length, "every group has a member that finds a record on its own" + (dead.length ? ": " + dead.join("; ") : ""));
+
 console.log();
 if (fails) {
   console.log(fails + " check(s) failed");
