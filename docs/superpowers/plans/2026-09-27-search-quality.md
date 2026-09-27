@@ -111,7 +111,7 @@ const R = [
   { name: "Docker Compose", url: "https://docs.docker.com/compose", tr: "Birden çok konteyner.", tags: ["devops"], cat: "c1" },
   { name: "Something Else", url: "https://docker.com/x", tr: "Başka bir şey.", tags: ["devops"], cat: "c1" },
   { name: "A Tour of Go", url: "https://go.dev/tour", tr: "Go dilinin turu.", tags: [], cat: "c2" },
-  { name: "Google", url: "https://google.com", tr: "Arama motoru; bu ait olduğu yer.", tags: [], cat: "c2" },
+  { name: "Google", url: "https://google.com", tr: "Arama motoru; bu ait olduğu yer.", tags: [], cat: "c1" },
   { name: "Harita Atlası", url: "https://a.example", tr: "Eski haritası ve atlas.", tags: [], cat: "c2" },
   { name: "PostgreSQL", url: "https://postgresql.org", tr: "Veritabanı.", tags: [], cat: "c3" },
   { name: "Bitwarden", url: "https://bitwarden.com", tr: "Açık kaynak parola yöneticisi.", tags: [], cat: "c3", pick: 1 },
