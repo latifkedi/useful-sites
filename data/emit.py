@@ -633,14 +633,15 @@ def write_issue_form(cats, out_dir):
 HOME_TX = {
     'hero': ('Elle derlenmiş <em>%d</em> bağlantı. Her biri benzerlerinden nerede '
              'ayrıldığını söylüyor.'),
-    'lead':('Yazılımdan ekonomiye, mimariden açık erişime <b>%d</b> bağlantı; %d alan, '
-             '%d başlık. Her kayıtta iki şey yazılı: ne işe yaradığı ve benzerlerinden '
-             'nerede ayrıldığı.'),
     'hStart': 'Buradan Başla',
-    'areas': 'Alanlar',
+    'fxHead': 'Fihrist',
+    'fxNote': '%d alan, %d başlık',
     'recent': 'Son Eklenenler',
     'hAll': 'Tümünü tek listede gör →',
 }
+
+# app.js ROMAN ile ayni: alan numaralari GROUPS sirasindaki yerleri.
+ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII']
 
 
 def _first(t):
@@ -661,33 +662,36 @@ def home_html(core, cats, groups):
             seen.add(d['cat'])
             strip.append(d)
 
-    cards = []
-    for g in groups:
-        n = sum(bycat.get(k, 0) for k in g['cats'])
+    fx, nf = [], 0
+    for gi, g in enumerate(groups):
+        full = [k for k in g['cats'] if bycat.get(k)]
+        n = sum(bycat[k] for k in full)
         if not n:
             continue
-        full = [k for k in g['cats'] if bycat.get(k)]
+        nf += 1
         link = ('href="?cat=%s" data-cat="%s"' % (esc(full[0]), esc(full[0])) if len(full) == 1
                 else 'href="?f=%s" data-field="%s"' % (esc(g['key']), esc(g['key'])))
-        cards.append('<a class="fcard" %s><span class="ft">%s<span class="n">%d</span></span>'
-                     '<p class="fd">%s</p><span class="fs">%s</span></a>'
-                     % (link, esc(g['tr']), n, esc(g['note_tr']),
-                        esc(' · '.join(lbl[k] for k in full))))
+        fx.append('<li class="fe"><a class="ft" %s><span class="rn">%s</span>'
+                  '<span class="fn">%s</span><span class="ld"></span><span class="n">%d</span></a>'
+                  '<p class="fc">%s</p></li>'
+                  % (link, ROMAN[gi], esc(g['tr']), n, ', '.join(
+                      '<a href="?cat=%s" data-cat="%s">%s</a>' % (esc(k), esc(k), esc(lbl[k]))
+                      for k in full)))
 
     picks = ''
     if strip:
-        picks = ('<p class="hsec">%s</p><div class="hpicks">%s</div>'
+        picks = ('<section class="hsec"><h2 class="k">%s</h2><ol class="hpicks">%s</ol></section>'
                  % (esc(HOME_TX['hStart']), ''.join(
-                     '<div class="hpick"><a href="%s" target="_blank" rel="noopener noreferrer">'
-                     '%s</a><p>%s</p></div>' % (esc(d['url']), esc(d['name']), esc(_first(d['tr'])))
+                     '<li><a href="%s" target="_blank" rel="noopener noreferrer">%s</a>'
+                     '<p>%s</p></li>' % (esc(d['url']), esc(d['name']), esc(_first(d['tr'])))
                      for d in strip)))
-    return ('<div class="home" data-pre="1"><p class="lead">%s</p>%s'
-            '<p class="hsec">%s</p><div class="fcards">%s</div>'
+    return ('<div class="home" data-pre="1">%s'
+            '<section class="hsec"><h2 class="k">%s<span>%s</span></h2>'
+            '<ol class="fx">%s</ol></section>'
             '<p class="hlinks"><a href="?new=1" data-recent="1">%s →</a>'
             '<a href="?sort=az" data-all="1">%s</a></p></div>'
-            % (HOME_TX['lead'] % (len(core), len(groups), len(bycat)), picks,
-               esc(HOME_TX['areas']), ''.join(cards), esc(HOME_TX['recent']),
-               esc(HOME_TX['hAll'])))
+            % (picks, esc(HOME_TX['fxHead']), esc(HOME_TX['fxNote'] % (nf, len(bycat))),
+               ''.join(fx), esc(HOME_TX['recent']), esc(HOME_TX['hAll'])))
 
 
 def write_home(core, cats, groups, out_dir):

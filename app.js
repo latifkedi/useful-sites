@@ -17,6 +17,8 @@ var REPO     = "https://github.com/latifkedi/useful-sites";
 /* Link directories share a fate: they rot. An archive link on every entry
    means a record does not lose all of its value when the site goes. */
 var ARCHIVE  = "https://web.archive.org/web/2024/";
+/* Alan numaralari: GROUPS icindeki yerleri, roma rakamiyla (emit.ROMAN ile ayni). */
+var ROMAN = ["I","II","III","IV","V","VI","VII","VIII","IX","X","XI","XII"];
 
 var T = {
   tr:{
@@ -29,7 +31,6 @@ var T = {
     count:function(n,t){return n+" / "+t+" Bağlantı"},
     empty:"Eşleşen Bağlantı Yok",
     clear:"Filtreleri Temizle",
-    areas:"Alanlar",
     qLabel:"Dizinde ara", themeLabel:"Temayı değiştir", topLabel:"Yukarı çık",
     rand:"Rastgele", lang:"EN",
     picks:"Başlangıç Noktaları",
@@ -50,8 +51,7 @@ var T = {
          '<a href="k/tesekkur.html">Katkıda bulunanlar</a> · '+
          'dizinin <a href="k/index.html">metin hâli</a> de var.',
     skip:"İçeriğe Atla",
-    lead:function(n,c,f){ return "Yazılımdan ekonomiye, mimariden açık erişime <b>"+n+
-      "</b> bağlantı; "+f+" alan, "+c+" başlık. Her kayıtta iki şey yazılı: ne işe yaradığı ve benzerlerinden nerede ayrıldığı." },
+    fxNote:function(f,c){ return f+" alan, "+c+" başlık" },
     hStart:"Buradan Başla", hCats:"Başlıklar", hAll:"Tümünü tek listede gör →",
     tagMore:function(n){ return "+ " + n + " Etiket Daha" }, tagLess:"− Etiketleri Kısalt",
     tagFilter:function(n){ return "Etiketle süz · " + n + " etiket" },
@@ -102,7 +102,6 @@ var T = {
     count:function(n,t){return n+" / "+t+" Links"},
     empty:"No Matching Links",
     clear:"Clear Filters",
-    areas:"Areas",
     qLabel:"Search the directory", themeLabel:"Toggle theme", topLabel:"Back to top",
     rand:"Random", lang:"TR",
     picks:"Start Here",
@@ -123,9 +122,7 @@ var T = {
          '<a href="k/en/credits.html">Contributors</a> · '+
          'there is a <a href="k/en/index.html">plain-text edition</a> too.',
     skip:"Skip To Content",
-    lead:function(n,c,f){ return "<b>"+n+"</b> links across "+f+" areas and "+c+" headings, "+
-      "from software to economics and architecture to open access. Every entry states two "+
-      "things: what it does and where it parts ways with its neighbours." },
+    fxNote:function(f,c){ return f+" areas, "+c+" headings" },
     hStart:"Start Here", hCats:"Headings", hAll:"See everything in one list →",
     tagMore:function(n){ return "+ " + n + " More Tags" }, tagLess:"− Fewer Tags",
     tagFilter:function(n){ return "Filter by tag · " + n + " tags" },
@@ -597,9 +594,9 @@ function cardFor(key){
          '</a>';
 }
 
-/* Giris: on kayit degil, on alan. Kullanici once bir alan (ust kategori)
-   secer; alana girince alt kategoriler, oradan kayitlar gelir. Her alan bir
-   cizgi amblemle temsil edilir. */
+/* Giris: once baslangic noktalari, sonra fihrist. On alan roma rakamiyla,
+   noktali cizgiyle sayisina baglaniyor; alt basliklar dogrudan tiklanabilir.
+   emit.home_html ayni markup'i Turkce icin index.html'e onceden ciziyor. */
 function homeHTML(L){
   var picks = data.filter(function(d){ return d.pick });
   var seen = {}, strip = [];
@@ -607,35 +604,30 @@ function homeHTML(L){
     if(seen[d.cat] || strip.length >= 6) return;
     seen[d.cat] = 1; strip.push(d);
   });
-
-  var cards = GROUPS.map(function(g){
-    var n = g.cats.reduce(function(s, k){ return s + (BYCAT[k] ? BYCAT[k].length : 0) }, 0);
+  var nf = 0;
+  var fx = GROUPS.map(function(g, gi){
+    var full = g.cats.filter(function(k){ return BYCAT[k] && BYCAT[k].length });
+    var n = full.reduce(function(s, k){ return s + BYCAT[k].length }, 0);
     if(!n) return "";
-    var subs = g.cats.filter(function(k){ return BYCAT[k] && BYCAT[k].length })
-                     .map(function(k){ return catName(k) }).join(" · ");
-    return '<a class="fcard" '+fieldLink(g)+'>'+
-             '<span class="ft">'+esc(g[lang])+'<span class="n">'+n+'</span></span>'+
-             '<p class="fd">'+esc(g["note_" + lang] || "")+'</p>'+
-             '<span class="fs">'+esc(subs)+'</span>'+
-           '</a>';
+    nf++;
+    return '<li class="fe"><a class="ft" '+fieldLink(g)+'><span class="rn">'+ROMAN[gi]+'</span>'+
+             '<span class="fn">'+esc(g[lang])+'</span><span class="ld"></span><span class="n">'+n+'</span></a>'+
+           '<p class="fc">'+full.map(function(k){
+             return '<a href="?cat='+esc(k)+'" data-cat="'+esc(k)+'">'+esc(catName(k))+'</a>';
+           }).join(", ")+'</p></li>';
   }).join("");
-
   return '<div class="home">'+
-    '<p class="lead">'+L.lead(data.length, CATS.length, GROUPS.length)+'</p>'+
     (strip.length
-      ? '<p class="hsec">'+esc(L.hStart)+'</p><div class="hpicks">'+
+      ? '<section class="hsec"><h2 class="k">'+esc(L.hStart)+'</h2><ol class="hpicks">'+
         strip.map(function(d){
-          return '<div class="hpick"><a href="'+esc(d.url)+'" target="_blank" '+
-                 'rel="noopener noreferrer">'+esc(d.name)+'</a>'+
-                 '<p>'+esc(firstSentence(descOf(d)))+'</p></div>';
-        }).join("")+'</div>'
+          return '<li><a href="'+esc(d.url)+'" target="_blank" rel="noopener noreferrer">'+esc(d.name)+'</a>'+
+                 '<p>'+esc(firstSentence(descOf(d)))+'</p></li>';
+        }).join("")+'</ol></section>'
       : "")+
-    '<p class="hsec">'+esc(L.areas)+'</p>'+
-    '<div class="fcards">'+cards+'</div>'+
-    '<p class="hlinks">'+
-      '<a href="?new=1" data-recent="1">'+esc(L.recent)+' →</a>'+
-      '<a href="?sort=az" data-all="1">'+esc(L.hAll)+'</a>'+
-    '</p>'+
+    '<section class="hsec"><h2 class="k">'+esc(L.fxHead)+'<span>'+esc(L.fxNote(nf, CATS.length))+'</span></h2>'+
+    '<ol class="fx">'+fx+'</ol></section>'+
+    '<p class="hlinks"><a href="?new=1" data-recent="1">'+esc(L.recent)+' →</a>'+
+      '<a href="?sort=az" data-all="1">'+esc(L.hAll)+'</a></p>'+
   '</div>';
 }
 
