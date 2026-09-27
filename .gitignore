@@ -5,6 +5,8 @@ data/*.json
 !data/verified.json
 !data/health.json
 !data/manual.json
+# test_search.js'in CI'da kostugu arama olcum seti.
+!data/search_cases.json
 data/worklist.txt
 data/missing.txt
 __pycache__/

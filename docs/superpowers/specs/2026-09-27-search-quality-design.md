@@ -18,6 +18,31 @@ six groups:
 | typos | `pyhton`, `javascirpt`, `kubernets`, `postgress` | 0 results, nothing offered |
 | area names | `yapay zeka`, `güvenlik` | area labels are not in the index; no way from the query to the curated area page |
 
+### After
+
+The benchmark passes 48 of 48 (baseline 22 of 48). `node test_search.js`
+enforces it in CI. The slowest query takes about 7–9 ms in node, against a
+16 ms budget.
+
+| query | before | after |
+|---|---|---|
+| `ai` | 466, including entries that only contain `ait` | 274, the AI area and whole-word "AI" |
+| `ml` | 775, mostly `html` | 81 |
+| `go` | 818, A Tour of Go not in the top 10 | 11, the Go entries first |
+| `yapay zeka` | 3 | 274 |
+| `password manager` | 0 | 2 (Bitwarden, KeePass) |
+| `haritalar` | 101, Awesome OpenStreetMap missed | 136, found |
+
+Nothing found before is lost for terms of 3+ letters. A check over 900
+sampled queries (600 single words, 300 word pairs) finds zero records that
+the old substring search returned and the new one does not.
+
+One case was corrected rather than the code. `kubernets` was expected to get
+a suggestion, but suffix stripping (`kubernets → kubernet`) already finds the
+same 12 entries as `kubernetes`. The case now asserts those entries instead.
+Two synonym groups (computer vision, weather) were dropped, because no
+record uses either concept.
+
 ## Decisions (agreed 2026-09-27)
 
 - Cross-language is handled by a **hand-kept synonym list** only. English

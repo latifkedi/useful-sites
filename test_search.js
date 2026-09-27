@@ -160,6 +160,27 @@ const alone = t => {
 const dead = groups.filter(g => !g.some(alone)).map(g => g.join(" / "));
 check(!dead.length, "every group has a member that finds a record on its own" + (dead.length ? ": " + dead.join("; ") : ""));
 
+console.log("benchmark");
+const cases = JSON.parse(fs.readFileSync(path.join(__dirname, "data", "search_cases.json"), "utf8"));
+const run = q => { const p = Search.parse(q); return Search.rank(LINKS.filter(d => Search.match(d, p)), p).map(d => d.name) };
+cases.forEach(c => run(c.q));                       /* warm-up: time the second pass only */
+let slow = { q: "", ms: 0 };
+cases.forEach(c => {
+  const t0 = process.hrtime.bigint();
+  const found = run(c.q);
+  const ms = Number(process.hrtime.bigint() - t0) / 1e6;
+  if (ms > slow.ms) slow = { q: c.q, ms: ms };
+  const why = [];
+  (c.must || []).forEach(n => { if (found.indexOf(n) < 0) why.push("missing " + n) });
+  (c.top || []).forEach(n => { const i = found.indexOf(n); if (i < 0 || i >= 10) why.push(n + " not in top 10") });
+  (c.not || []).forEach(n => { if (found.indexOf(n) >= 0) why.push("unwanted " + n) });
+  if (c.max && found.length > c.max) why.push(found.length + " results, max " + c.max);
+  if (c.suggest !== undefined) { const s = Search.suggest(c.q); if (s !== c.suggest) why.push("suggested " + JSON.stringify(s)) }
+  if (c.shortcut) { const s = Search.shortcuts(c.q).map(x => x.kind + ":" + x.key); if (s.indexOf(c.shortcut) < 0) why.push("no shortcut " + c.shortcut) }
+  check(!why.length, JSON.stringify(c.q) + " (" + found.length + ")" + (why.length ? " -- " + why.join("; ") : ""));
+});
+check(slow.ms < 16, "every benchmark query runs in under 16 ms (slowest " + JSON.stringify(slow.q) + " " + slow.ms.toFixed(1) + " ms)");
+
 console.log();
 if (fails) {
   console.log(fails + " check(s) failed");
