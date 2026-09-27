@@ -21,8 +21,14 @@ six groups:
 ### After
 
 The benchmark passes 48 of 48 (baseline 22 of 48). `node test_search.js`
-enforces it in CI. The slowest query takes about 7–9 ms in node, against a
-16 ms budget.
+enforces it in CI. Speed in node:
+- a keystroke (parse, match, rank and shortcuts): at most about 2–5 ms,
+  against a 16 ms budget;
+- a suggestion: at most about 1–4 ms, against 32 ms;
+- page-load indexing: about 15–55 ms, the same as the old search.
+
+The word index and the suggestion vocabulary (about 70–150 ms) are built in
+idle time.
 
 | query | before | after |
 |---|---|---|
@@ -43,6 +49,18 @@ same 12 entries as `kubernetes`. The case now asserts those entries instead.
 Two synonym groups (computer vision, weather) were dropped, because no
 record uses either concept.
 
+The code review before shipping changed four things:
+- A query with no letters or digits (`???`) matched every record; it now
+  matches none.
+- The suggestion had been outside the speed budget and cost 20–60 ms on
+  multi-typo queries. It is now computed 200 ms after typing pauses, and the
+  test measures it against its own budget.
+- Matching moved from `indexOf` on each record's text to an inverted word
+  index.
+- `localeCompare(…, "tr")` built a new collator on every comparison (31 ms
+  against 1 ms for 274 rows). One cached `Intl.Collator` now sorts
+  everywhere, in the same order.
+
 ## Decisions (agreed 2026-09-27)
 
 - Cross-language is handled by a **hand-kept synonym list** only. English
@@ -60,15 +78,24 @@ record uses either concept.
 
 - `fold()` also flattens `â î û` (and capitals) to `a i u`.
 - Each record carries `_s`, the folded text as today, plus the area label in
-  both languages. It also carries `_ws`, the same text as unique words with
-  one leading and one trailing space (`" word word "`). Words are split on any
-  character that is not a letter or a digit.
+  both languages.
+- Words are split on separators: whitespace, punctuation, arrows, box and
+  dingbat symbols, and CJK and full-width punctuation. The index, the query
+  and the highlighter all use the same definition. Splitting on "not a
+  letter or digit" (`\p{L}`) was 8× slower on this data.
+- An inverted word index maps each word to the records that carry it, over a
+  sorted word list.
 - A query term `t` matches a record when:
-  - `t.length <= 2`: `t` is a whole word (`_ws` contains `" "+t+" "`). This is
-    the only place recall drops on purpose (`ai`, `ml`, `go`, `js`, `r`, `c`).
-  - otherwise: `_s` contains `t` (today's rule, unchanged) **or** a word starts
-    with `stem(t)`. Every record found today for a 3+ character term is still
-    found.
+  - `t.length <= 2`: `t` is a whole word of the record. This is the only
+    place recall drops on purpose (`ai`, `ml`, `go`, `js`, `r`, `c`).
+  - otherwise: the record's text contains `t` (today's rule, unchanged)
+    **or** a word starts with `stem(t)`. Every record found today for a 3+
+    character term is still found.
+- A term contains no separator, so "the text contains `t`" is the same as
+  "a word contains `t`". The set of matching records is therefore computed
+  once per term from the word list and cached, and each record's match is a
+  single lookup.
+- A query with no letters or digits matches nothing.
 - `stem(t)` strips at most one suffix from a fixed list (longest first) when
   `t` is at least 5 characters long and at least 3 characters remain. The list,
   folded: `lerinden larindan lerinde larinda lerini larini leri lari ler lar
@@ -114,13 +141,15 @@ best alternative:
 | host | — | — | +6 | +6 |
 | anything else in `_s` | — | — | 4 | 2 |
 
-A start-here pick still adds +3. Ties sort by name (`localeCompare 'tr'`).
+A start-here pick still adds +3. Ties sort by name through one cached
+`Intl.Collator('tr')`.
 
 ### 4. "Bunu mu demek istedin?"
 
 - The vocabulary is the words of names, tags, tag labels, and category and
-  area labels, each with the number of records it appears in. It is built
-  lazily on the first search that needs it.
+  area labels, each with the number of records it appears in. It is built in
+  idle time (`Search.warm()`), or on the first suggestion if that comes
+  sooner.
 - The suggestion is computed when the query has fewer than 3 results. For each
   query word that matches nothing, it takes the closest vocabulary word by
   optimal string alignment distance (a transposition costs 1). The allowed
@@ -131,6 +160,9 @@ A start-here pick still adds +3. Ties sort by name (`localeCompare 'tr'`).
   than the typed one. It appears as a line above the results, or inside the
   empty state: `Bunu mu demek istedin: <a data-q="python">python</a>?` /
   `Did you mean: …?`. Clicking it runs that query.
+- It is computed 200 ms after typing pauses, not on every keystroke. The
+  render leaves an empty `#qsug` line, and the timer fills it if the query
+  has not changed in the meantime.
 
 ### 5. Area and category shortcut
 
@@ -145,7 +177,13 @@ links appear above the results: `Alan: IV Güvenlik →` or `Başlık: Veritaban
   It defines one global, `Search`, holding pure functions: `fold`, `host`,
   `stem`, `init({records, synonyms, groups, cats, tagLabels})`, `index(d,
   extra)`, `parse(q)`, `match(d, parsed)`, `score(d, parsed)`,
-  `suggest(q, count)` and `shortcuts(q)`.
+  `suggest(q, count, base)`, `shortcuts(q)`, `rank`, `marks`, `cmp`, `term`,
+  `isSep` and `warm()`.
+- At page load, `index()` only folds the text and extracts the host, as the
+  old search did. The word index, the suggestion vocabulary and the name and
+  tag word strings are built by `warm()`. `app.js` calls it through
+  `requestIdleCallback` after the first render and again after the English
+  text is indexed. If a search comes first, it builds whatever it needs.
 - `app.js` keeps UI and state. `matches()` parses the query once per render
   (cached by `q`) instead of once per record. `indexEN()` calls
   `Search.index(d, enText)`. `hl()` highlights the typed terms and their
@@ -162,8 +200,10 @@ links appear above the results: `Alan: IV Güvenlik →` or `Başlık: Veritaban
 - New unit tests cover `stem`, the short-term whole-word rule, synonym phrase
   parsing, the joined reading, the OSA distance and suggestion ties, and
   shortcuts.
-- Speed: `parse` + `match` + `score` over all 1888 records stays under 16 ms
-  per query in node. The benchmark prints the slowest query.
+- Speed, measured over every case plus multi-typo probes, best of three runs
+  (so a busy CI runner does not fail the check), in two budgets:
+  - a keystroke's work (parse, match, rank, shortcuts): under 16 ms;
+  - the suggestion, which runs once typing pauses: under 32 ms.
 - Browser check: search at 1440 and 375 in both languages, the suggestion
   link, a shortcut link, no console errors. The pre-rendered home is untouched.
 

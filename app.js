@@ -220,6 +220,14 @@ function indexEN(){
   });
   parsedFor = null;   /* yeni kelimeler bitisik okumayi degistirebilir */
 }
+/* Kelime dizini ve oneri sozlugu (search.js) bos zamanda kuruluyor ki ilk
+   tus vurusu ve ilk oneri beklemesin; kullanici daha once yazarsa ilk arama
+   kendisi kuruyor. */
+function warmSearch(){
+  var go = function(){ Search.warm() };
+  if(window.requestIdleCallback) window.requestIdleCallback(go, {timeout: 2000});
+  else setTimeout(go, 300);
+}
 
 var CATS = (function(){
   var seen = [], out = [];
@@ -346,8 +354,8 @@ function matches(d, ignoreCat){
    sonra alan adi, en hafifi aciklama; esanlamlidan gelen eslesme 3/4. */
 function sorted(rows){
   var r = rows.slice();
-  if(sortBy === "az")  r.sort(function(a,b){ return a.name.localeCompare(b.name,"tr") });
-  else if(sortBy === "new") r.sort(function(a,b){ return b.added - a.added || a.name.localeCompare(b.name,"tr") });
+  if(sortBy === "az")  r.sort(function(a,b){ return Search.cmp(a.name, b.name) });
+  else if(sortBy === "new") r.sort(function(a,b){ return b.added - a.added || Search.cmp(a.name, b.name) });
   else if(q) r = Search.rank(r, qParsed());
   return r;
 }
@@ -355,7 +363,8 @@ function sorted(rows){
 /* Vurgu: kisa terim yalnizca tam kelime, kok yalnizca kelime basinda, uzun
    terim her yerde (Search.marks). fold uzunlugu korudugu icin katlanmis
    metin ile asil metin ayni indeksle ilerliyor. */
-var WORDCH = /[\p{L}\p{N}]/u;
+/* Kelime siniri search.js'teki tanimla ayni (Search.isSep). */
+function wordCh(c){ return c !== undefined && !Search.isSep(c) }
 function hl(text){
   if(!q) return esc(text);
   var ms = Search.marks(qParsed());
@@ -365,8 +374,8 @@ function hl(text){
     for(var t=0;t<ms.length;t++){
       var m = ms[t];
       if(!f.startsWith(m.s, i)) continue;
-      if(m.how !== "any" && i > 0 && WORDCH.test(f[i-1])) continue;
-      if(m.how === "word" && i + m.s.length < f.length && WORDCH.test(f[i + m.s.length])) continue;
+      if(m.how !== "any" && i > 0 && wordCh(f[i-1])) continue;
+      if(m.how === "word" && wordCh(f[i + m.s.length])) continue;
       len = m.s.length; break;
     }
     if(len){ out += "<mark>"+src.substr(i,len)+"</mark>"; i += len; }
@@ -505,7 +514,7 @@ function filtHTML(L){
     (d.tags||[]).forEach(function(t){ cnt[t] = (cnt[t]||0) + 1 }) });
   var groups = FACETS.map(function(f){
     var ts = f[3].filter(function(t){ return cnt[t] || activeTags.indexOf(t) >= 0 })
-                 .sort(function(a, b){ return (cnt[b]||0) - (cnt[a]||0) || a.localeCompare(b, "tr") });
+                 .sort(function(a, b){ return (cnt[b]||0) - (cnt[a]||0) || Search.cmp(a, b) });
     if(!ts.length) return "";
     return '<div class="fg"><p class="fk">'+esc(f[lang === "tr" ? 1 : 2])+'</p><div class="cs">'+
       ts.map(function(t){
@@ -534,7 +543,7 @@ var RECENT_N = 40;
 
 function recentHTML(L){
   var rows = data.slice().sort(function(a, b){
-    return b.added - a.added || a.name.localeCompare(b.name, "tr");
+    return b.added - a.added || Search.cmp(a.name, b.name);
   }).slice(0, RECENT_N);
 
   var gruplar = [], sonAy = null;
@@ -676,15 +685,25 @@ function qHelpHTML(L, n){
                              esc(L.scCat)+': '+esc(catName(s.key))+' →</a>' : "";
   }).filter(Boolean);
   if(links.length) out += '<p class="qhelp">'+links.join(" · ")+'</p>';
-  if(n < 3){
+  if(n < 3){ out += '<p class="qhelp" id="qsug"></p>'; askSuggest(q, n) }
+  return out;
+}
+/* Oneri pahali (sozlukte en yakin kelime + bir tarama daha); her tus
+   vurusunda degil, yazmaya 200 ms ara verilince hesaplaniyor ve cizimin
+   biraktigi #qsug yerine yaziliyor. O arada sorgu degistiyse bosa gidiyor. */
+var sugTimer;
+function askSuggest(forQ, n){
+  clearTimeout(sugTimer);
+  sugTimer = setTimeout(function(){
+    var el = document.getElementById("qsug");
+    if(!el || q !== forQ) return;
     var s = Search.suggest(q, function(x){
       var p = Search.parse(x);
       return data.filter(function(d){ return passes(d, false) && Search.match(d, p) }).length;
-    });
-    if(s) out += '<p class="qhelp">'+esc(L.didYouMean)+' <a href="?q='+encodeURIComponent(s)+
-                 '" data-q="'+esc(s)+'">'+esc(s)+'</a>?</p>';
-  }
-  return out;
+    }, n);
+    if(s) el.innerHTML = esc(T[lang].didYouMean)+' <a href="?q='+encodeURIComponent(s)+
+                         '" data-q="'+esc(s)+'">'+esc(s)+'</a>?';
+  }, 200);
 }
 
 /* Arac cubugu: Suz dugmesi (etkin suzgec sayisiyla), secili suzgecler
@@ -1058,7 +1077,7 @@ function setLang(next){
     enLoading = true;
     var s = document.createElement("script");
     s.src = EN_SRC;
-    s.onload = s.onerror = function(){ enLoading = false; indexEN(); render() };
+    s.onload = s.onerror = function(){ enLoading = false; indexEN(); render(); warmSearch() };
     document.head.appendChild(s);
   }
   update(false);
@@ -1507,4 +1526,5 @@ $("#s-drop").addEventListener("drop", function(e){
 
 readURL();
 if(lang === "en") setLang("en"); else render();
+warmSearch();
 })();

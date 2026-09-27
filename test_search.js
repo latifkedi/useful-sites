@@ -85,6 +85,7 @@ check(hits("haritalar").indexOf("Harita Atlası") >= 0, "an inflected term finds
 check(hits("gres").indexOf("PostgreSQL") >= 0, "a 3+ letter term still matches mid-word, as before");
 check(hits("yazılım").length === 6, "area labels are in the index");
 check(hits("docker konteyner").join() === "Docker,Docker Compose", "every term must match (AND), best first");
+check(hits("???").length === 0, "a query with no letters or digits matches nothing, not everything");
 check(Search.parse("veri tabanı")[0].alts.some(a => a.ws.length === 1 && a.ws[0].t === "veritabani"),
   "spaced words are also read joined when the joined word exists");
 check(hits("password manager").indexOf("Bitwarden") >= 0, "a synonym group member finds records using another member");
@@ -154,7 +155,7 @@ groups.forEach((g, gi) => g.forEach(t => {
 check(!dup.length, "no term appears in two groups" + (dup.length ? ": " + dup.join(", ") : ""));
 /* A member counts the way search.js uses it: at word starts only. */
 const alone = t => {
-  const alt = { ws: Search.words(Search.fold(t)).map(w => ({ t: w, st: Search.stem(w), start: true })), syn: true };
+  const alt = { ws: Search.words(Search.fold(t)).map(w => Search.term(w, true)), syn: true };
   return LINKS.some(d => Search.match(d, [{ n: 1, alts: [alt] }]));
 };
 const dead = groups.filter(g => !g.some(alone)).map(g => g.join(" / "));
@@ -163,13 +164,8 @@ check(!dead.length, "every group has a member that finds a record on its own" + 
 console.log("benchmark");
 const cases = JSON.parse(fs.readFileSync(path.join(__dirname, "data", "search_cases.json"), "utf8"));
 const run = q => { const p = Search.parse(q); return Search.rank(LINKS.filter(d => Search.match(d, p)), p).map(d => d.name) };
-cases.forEach(c => run(c.q));                       /* warm-up: time the second pass only */
-let slow = { q: "", ms: 0 };
 cases.forEach(c => {
-  const t0 = process.hrtime.bigint();
   const found = run(c.q);
-  const ms = Number(process.hrtime.bigint() - t0) / 1e6;
-  if (ms > slow.ms) slow = { q: c.q, ms: ms };
   const why = [];
   (c.must || []).forEach(n => { if (found.indexOf(n) < 0) why.push("missing " + n) });
   (c.top || []).forEach(n => { const i = found.indexOf(n); if (i < 0 || i >= 10) why.push(n + " not in top 10") });
@@ -179,7 +175,39 @@ cases.forEach(c => {
   if (c.shortcut) { const s = Search.shortcuts(c.q).map(x => x.kind + ":" + x.key); if (s.indexOf(c.shortcut) < 0) why.push("no shortcut " + c.shortcut) }
   check(!why.length, JSON.stringify(c.q) + " (" + found.length + ")" + (why.length ? " -- " + why.join("; ") : ""));
 });
-check(slow.ms < 16, "every benchmark query runs in under 16 ms (slowest " + JSON.stringify(slow.q) + " " + slow.ms.toFixed(1) + " ms)");
+
+/* Speed, in two budgets matching what app.js does:
+   - every keystroke: parse, match, rank and shortcuts -- under 16 ms;
+   - once typing pauses, only when fewer than three results came back: the
+     suggestion -- under 32 ms.
+   Every case plus a few multi-typo queries (the suggestion's worst case).
+   The vocabulary is built once up front, as the app does on its first
+   suggestion. Best of three runs, so a busy CI runner does not fail it. */
+const probes = cases.map(c => c.q).concat(["pyhton kubernets", "javascirpt postgress",
+  "docker konteyner postgress kubernets", "dokümantasyn yazı tiplri"]);
+const best3 = f => {
+  let best = Infinity;
+  for (let k = 0; k < 3; k++) {
+    const t0 = process.hrtime.bigint();
+    f();
+    best = Math.min(best, Number(process.hrtime.bigint() - t0) / 1e6);
+  }
+  return best;
+};
+const counts = {};
+probes.forEach(q => { counts[q] = run(q).length; Search.shortcuts(q); if (counts[q] < 3) Search.suggest(q, undefined, counts[q]) });
+let slowKey = { q: "", ms: 0 }, slowSug = { q: "", ms: 0 };
+probes.forEach(q => {
+  const k = best3(() => { run(q); Search.shortcuts(q) });
+  if (k > slowKey.ms) slowKey = { q: q, ms: k };
+  if (counts[q] < 3) {
+    const s = best3(() => Search.suggest(q, undefined, counts[q]));
+    if (s > slowSug.ms) slowSug = { q: q, ms: s };
+  }
+});
+const at = s => " (slowest " + JSON.stringify(s.q) + " " + s.ms.toFixed(1) + " ms)";
+check(slowKey.ms < 16, "a keystroke's search work stays under 16 ms" + at(slowKey));
+check(slowSug.ms < 32, "the suggestion, computed once typing pauses, stays under 32 ms" + at(slowSug));
 
 console.log();
 if (fails) {
