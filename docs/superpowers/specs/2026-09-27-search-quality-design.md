@@ -68,6 +68,9 @@ six groups:
 - A phrase or word that belongs to a group becomes one **concept**. It matches
   when any of its alternatives matches: the words as typed, or any group
   member. For a multi-word member, every word must match.
+- The words as typed follow the rules in section 1. Group members match only
+  at a word start (whole word for 1–2 letters), never mid-word. Otherwise
+  `kitap → book` would also bring back `facebook` and `notebook`.
 - Scoring: a match found only through a synonym scores ¾ of the same match
   found directly.
 - Validation (in `test_search.js`, using the real search code): every group
