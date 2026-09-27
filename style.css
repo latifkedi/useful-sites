@@ -248,6 +248,7 @@ section{scroll-margin-top:20px}
 .rec.big{grid-template-columns:minmax(0,1fr);border-bottom:0;padding-top:4px}
 .rec.big .no{display:none}
 .rec.big .ph{margin:0}
+.rec.big a.name{font-size:32px;line-height:1.15;letter-spacing:-.016em}
 .rec.big .desc{font:400 17.5px/1.66 var(--serif);max-width:66ch}
 .onemore{margin:26px 0 0;font-size:14px}
 .onemore a{color:var(--dim);text-decoration:none}
@@ -422,6 +423,7 @@ footer .lnk{padding:4px 6px;font-size:14px}
   .chip,.lnk,.pg,.btn,#sort{min-height:44px}
   .rec{grid-template-columns:22px minmax(0,1fr);column-gap:6px;padding:15px 0}
   .rec a.name{font-size:17.5px}
+  .rec.big a.name{font-size:25px}
   .desc{font-size:15px}
   .meta{margin-left:0}
   .hpicks{grid-template-columns:1fr}

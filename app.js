@@ -46,8 +46,8 @@ var T = {
     sib:"Bu alandaki diğer başlıklar", allAreas:"← Tüm alanlar",
     remove:function(x){ return x+" süzgecini kaldır" },
     results:function(q,n){ return "“"+q+"” için "+n+" sonuç" },
-    relevance:"Alakaya Göre",
-    all:"Tüm Bağlantılar",
+    relevance:"Alakaya göre",
+    all:"Tüm bağlantılar",
     foot:'Bağlantılar elle derlendi, son kontrol <b>'+CHECKED+'</b>. '+
          'Açıklamalar projelerin kendi belgelerine bakılarak yazıldı; karşılaştırmalı yargılar derleyene ait. '+
          'Ölü ya da hatalı bir kayıt görürsen <a href="'+REPO+'/issues/new/choose">bildir</a> — '+
@@ -122,8 +122,8 @@ var T = {
     sib:"Other headings in this area", allAreas:"← All areas",
     remove:function(x){ return "Remove filter: "+x },
     results:function(q,n){ return n+" results for “"+q+"”" },
-    relevance:"By Relevance",
-    all:"All Links",
+    relevance:"By relevance",
+    all:"All links",
     foot:'Curated by hand, last checked <b>'+CHECKED+'</b>. '+
          "Descriptions are written from each project's own documentation; comparative judgements are the curator's. "+
          'Spotted a dead or wrong entry? <a href="'+REPO+'/issues/new/choose">Tell me</a> — '+
@@ -567,11 +567,11 @@ function recentHTML(L){
     gruplar[gruplar.length - 1].kayit.push(d);
   });
 
-  return '<div class="home"><p class="lead">'+esc(L.recentLead(rows.length))+'</p>'+
+  return '<div class="recentpage">'+crumbHTML(L)+'<h1 class="ph">'+esc(L.recent)+'</h1>'+
+    '<p class="lede">'+esc(L.recentLead(rows.length))+'</p>'+
     gruplar.map(function(g){
-      return '<section><h2><span>'+esc(g.ay)+'</span>'+
-             '<span class="n">'+g.kayit.length+'</span></h2><div class="recs">'+
-             g.kayit.map(function(d){ return itemHTML(d, 0, {path: true}) }).join("")+
+      return '<section><h2 class="sh">'+esc(g.ay)+'<span class="n">'+g.kayit.length+'</span></h2>'+
+             '<div class="recs">'+g.kayit.map(function(d, i){ return itemHTML(d, i + 1, {path: true}) }).join("")+
              '</div></section>';
     }).join("")+'</div>';
 }
@@ -706,7 +706,8 @@ function tbHTML(L, n, total){
     '<span class="sp"><span class="count">'+esc(L.count(n, total))+'</span>'+
       '<label class="sortl"><span>'+esc(L.sortLbl)+'</span><select id="sort" aria-label="'+esc(L.sortAria)+'">'+
       Object.keys(L.sorts).map(function(k){
-        return '<option value="'+k+'"'+(k===sortBy?' selected':'')+'>'+esc(L.sorts[k])+'</option>' }).join("")+
+        return '<option value="'+k+'"'+(k===sortBy?' selected':'')+'>'+
+          esc(k === "cat" && q ? L.relevance : L.sorts[k])+'</option>' }).join("")+
       '</select></label></span>'+
   '</div>';
 }
@@ -804,62 +805,70 @@ function paintChrome(L){
    ilk surumde her tus vurusunda gonderim formu dahil hepsi yeniden yaziliyordu. */
 var chromeLang = null;
 
+/* Kategorisiz liste (arama, etiket, tumu): yol izi, sonuc basligi, arac
+   cubugu. Sonuclar kategorileri karistirdigi icin her kaydin ustunde yolu. */
+function listPageHTML(L, shown){
+  var h = q ? L.results(q, shown.length)
+            : (onlyPicks && !activeTags.length && !activeSrc ? L.hStart : L.all);
+  var body;
+  if(!shown.length) body = emptyHTML(L);
+  else if(sortBy === "cat" && !q){
+    body = CATS.map(function(c){
+      var items = shown.filter(function(d){ return d.cat === c.key });
+      return items.length ? listBlock(c.key, c[lang], items, L, {}) : "";
+    }).join("");
+  } else {
+    body = listBlock("_", null, sorted(shown), L, {year: sortBy === "new", path: true});
+  }
+  return '<div class="catpage">'+crumbHTML(L)+'<h1 class="ph">'+esc(h)+'</h1>'+
+    tbHTML(L, shown.length, data.length)+body+'</div>';
+}
+
+/* Tek kayit: yol izi, kaydin kendisi buyuk (ad h1), benzerleri, geri donus. */
+function singleHTML(L, d){
+  var rel = (d.rel||[]).map(function(i){ return data[i] }).filter(Boolean);
+  return '<div class="one">'+crumbHTML(L, CATFIELD[d.cat], d.cat)+
+    '<div class="recs">'+itemHTML(d, 0, {year: true, big: true})+'</div>'+
+    (rel.length
+      ? '<h2 class="sh">'+esc(L.rel)+'<span class="n">'+rel.length+'</span></h2><div class="recs">'+
+        rel.map(function(x, i){ return itemHTML(x, i + 1, {}) }).join("")+'</div>'
+      : '')+
+    '<p class="onemore"><a href="?cat='+esc(d.cat)+'" data-cat="'+esc(d.cat)+'">'+esc(L.backCat)+'</a></p>'+
+  '</div>';
+}
+
 function renderView(){
   var L = T[lang];
   if(chromeLang !== lang){ paintChrome(L); chromeLang = lang; }
   if($("#q").value !== q) $("#q").value = q;
 
-  /* Sakin gorunum: giris ve alan sayfalari yalnizca gezinmedir; yan sutun
-     orada kalabalik ediyordu. Aramaya, bir suzgece ya da bir kategoriye
-     girilince geri geliyor. */
+  /* Sakin gorunum (giris, alan, tek kayit, son eklenenler): yalnizca gezinme,
+     yan sutun yok. Giris ayrica iri baslik duzenini aciyor. */
   var browsing = !q && !activeTags.length && !onlyPicks && !activeSrc && sortBy === "cat";
   document.body.classList.toggle("calm", !!(single || recent || (browsing && !activeCat)));
   document.body.classList.toggle("at-home", !!(browsing && !activeCat && !activeField && !single && !recent));
-
-  var shown = data.filter(keep);
   $("#nav").innerHTML = sideHTML(L);
 
-  /* Tek kayit gorunumu. Bir dizinde tek bir kaydi paylasabilmek gerekiyordu;
-     adres kaydin URL anahtarina bagli, yeniden derleme onu kaydirmiyor. */
+  /* Tek kayit gorunumu: adres kaydin URL anahtarina bagli. */
   if(single){
     var tek = byPerma(single);
-    if(tek){
-      $("#list").innerHTML = '<section class="one"><div class="recs">'+itemHTML(tek, 0, {year: true})+'</div>'+
-        '<p class="onemore"><a href="?cat='+esc(tek.cat)+'" data-cat="'+esc(tek.cat)+'">'+
-        esc(L.backCat)+'</a></p></section>';
-      return;
-    }
+    if(tek){ $("#list").innerHTML = singleHTML(L, tek); return; }
     single = null;
   }
+  if(recent){ $("#list").innerHTML = recentHTML(L); return; }
 
-  if(recent){
-    $("#list").innerHTML = recentHTML(L);
-    return;
-  }
-
-  /* Gezinme gorunumleri: hicbir suzgec yokken kayit degil once alanlar,
-     bir alana girildiyse o alanin alt kategorileri gosterilir. */
   if(browsing && !activeCat && !activeField){
     /* build.py girisi index.html'e onceden ciziyor (data-pre). Ilk acilista
        Turkce ise oldugu gibi birakiliyor; ayni markup'i yeniden yazmak belirme
-       animasyonunu ikinci kez oynatip sayfayi titretirdi. */
+       animasyonunu ikinci kez oynatirdi. */
     var pre = document.querySelector("#list [data-pre]");
     if(pre && lang === "tr"){ pre.removeAttribute("data-pre"); return; }
     $("#list").innerHTML = homeHTML(L); return;
   }
-  if(browsing && !activeCat && activeField){ $("#list").innerHTML = fieldHTML(activeField, L); return; }
+  if(browsing && !activeCat){ $("#list").innerHTML = fieldHTML(activeField, L); return; }
 
-  if(activeCat){ $("#list").innerHTML = catPageHTML(L, shown); return; }
-  if(!shown.length){ $("#list").innerHTML = emptyHTML(L); return; }
-  if(sortBy === "cat" && !q){
-    $("#list").innerHTML = CATS.map(function(c){
-      var items = shown.filter(function(d){ return d.cat === c.key });
-      return items.length ? listBlock(c.key, c[lang], items, L, {}) : "";
-    }).join("");
-  } else {
-    $("#list").innerHTML = listBlock("_", q ? L.relevance : L.all, sorted(shown), L,
-                                     {year: sortBy === "new", path: true});
-  }
+  var shown = data.filter(keep);
+  $("#list").innerHTML = activeCat ? catPageHTML(L, shown) : listPageHTML(L, shown);
 }
 function render(){ renderView(); syncFilt(); }
 
