@@ -243,13 +243,23 @@ def main():
     m_css = re.search(r'<style id="css">\n(.*?)</style>', ix, re.S)
     check(css is not None and bool(m_css) and m_css.group(1) == css,
           'index.html inlines style.css byte for byte')
+    check(len(re.findall(r'<h1\b', ix)) == 1 and ('<em>%d</em>' % len(rows)) in ix,
+          'index.html has one h1, the hero, carrying the live record count')
+    check('<a class="logo"' in ix and not re.search(r'<h1[^>]*>\s*Kullanışlı Siteler', ix),
+          'the wordmark is a link, not a heading')
+    govde = re.sub(r':root[^{]*\{[^}]*\}', '', css or '')
+    hex_ = re.findall(r'(?<=[\s:,(])#[0-9a-fA-F]{3,8}(?=[\s;,)}!])', govde)
+    check(css is not None and not hex_, 'style.css takes every colour from its :root tokens'
+          + (' -- literals: %s' % sorted(set(hex_))[:5] if hex_ else ''))
     # The pre-rendered homepage must describe the same fields app.js would draw,
     # and its strings must still be the ones app.js uses (they are copies).
     on = ix[ix.index('<main id="list"'):ix.index('</main>')]
     check('data-pre="1"' in on and all(esc_html(g[1]) in on for g in GROUPS),
           'index.html carries the pre-rendered homepage with every field')
     app = io.open(os.path.join(ROOT, 'app.js'), encoding='utf-8').read()
-    kopya = [k for k, v in HOME_TX.items() if (v.split('%')[0] if k == 'lead' else v) not in app]
+    def _parcalar(v):
+        return [p for p in re.split(r'%[ds]', v) if p]
+    kopya = [k for k, v in HOME_TX.items() if not all(p in app for p in _parcalar(v))]
     check(not kopya, 'pre-render strings still match app.js'
           + (' -- drifted: %s' % kopya if kopya else ''))
     check('app.js?v=' in ix and 'app.js?v=0"' not in ix, 'app.js carries a real cache stamp')

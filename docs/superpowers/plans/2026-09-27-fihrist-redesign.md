@@ -249,7 +249,7 @@ Replace the whole stylesheet with the new design, rebuild the `index.html` shell
 
 **Interfaces:**
 - Produces (DOM ids later tasks rely on): `#logo` (a.logo, `data-home`), `#t-title`, `#hero` (h1.hero), `#q`, `#menub`, `#acts` (nav, `popover`), `#addbtn`, `#rand`, `#langbtn`, `#theme`, `#side` (aside.side), `#nav` (div inside `#side`), `#list` (main), `#foot`, `#foot-t`, `#foot-kb`, `#l-exp`, buttons `[data-exp="json"|"csv"]`, `#filt` (dialog) with `#f-title`, `#f-clear`, `#f-close`, `#f-body`, `#f-go`; `#sub` dialog unchanged; `#top`.
-- Produces (JS): `goHome()`, `exportAs(kind)`, `hideMenu()`, body classes `home` and `calm`, `T[lang].hero(n)`, `T[lang].fxHead`, `T[lang].filter`, `T[lang].fClear`, `T[lang].close`.
+- Produces (JS): `goHome()`, `exportAs(kind)`, `hideMenu()`, body classes `at-home` and `calm`, `T[lang].hero(n)`, `T[lang].fxHead`, `T[lang].filter`, `T[lang].fClear`, `T[lang].close`.
 - Produces (CSS classes for later tasks): `.lnk .btn .chip .k .rn .n .ld .vh .crumb .ph .ch1 .sib-b .sib .lede .clamp .more-b .count .none .sh .tb .sp .sortl .pickbtn .recs .rec .no .rb .path .nm .name .pk .host .desc .mt .itags .rel .meta .arch .badge .age .pager .pg .pgpos .home .hsec .hpicks .fx .fe .ft .fn .fc .hlinks .fieldpage .toc .tt .tn .td .ts .catpage .one .big .onemore .recentpage .side-k .all .fl-h .fl-b .fl-f .fg .fk .cs .other`.
 
 - [ ] **Step 1: Write the failing tests**
@@ -429,19 +429,19 @@ header.top{position:relative;display:grid;grid-template-columns:auto minmax(0,1f
    "..." dugmesiyle acilan menu olur. [popover] icin UA kurallari sifirlaniyor. */
 .acts{grid-area:acts;display:flex;align-items:center;gap:2px;position:static;inset:auto;
   width:auto;height:auto;margin:0;padding:0;border:0;overflow:visible;background:none;color:inherit}
-body.home header.top{grid-template-columns:minmax(0,1fr) auto;
+body.at-home header.top{grid-template-columns:minmax(0,1fr) auto;
   grid-template-areas:"logo acts" "hero hero" "search search";row-gap:0;padding:22px 0 34px}
-body.home .hero{grid-area:hero;display:block;position:relative;z-index:1;
+body.at-home .hero{grid-area:hero;display:block;position:relative;z-index:1;
   margin:52px 0 26px;max-width:22ch;font:400 42px/1.14 var(--serif);letter-spacing:-.022em}
-body.home .hero em{font-style:normal;color:var(--red)}
-body.home .wm{display:block;position:absolute;right:-24px;top:34px;width:330px;height:330px;
+body.at-home .hero em{font-style:normal;color:var(--red)}
+body.at-home .wm{display:block;position:absolute;right:-24px;top:34px;width:330px;height:330px;
   opacity:.09;pointer-events:none}
-body.home .wm path{stroke-width:1.6}
-body.home .search{max-width:660px;z-index:1}
-body.home #q{font:19px/1.4 var(--serif);padding:12px 40px 12px 0;background:transparent;
+body.at-home .wm path{stroke-width:1.6}
+body.at-home .search{max-width:660px;z-index:1}
+body.at-home #q{font:19px/1.4 var(--serif);padding:12px 40px 12px 0;background:transparent;
   border:0;border-bottom:1.5px solid var(--fg);border-radius:0}
-body.home #q:focus{box-shadow:none;border-bottom-color:var(--red)}
-body.home .search kbd{right:0}
+body.at-home #q:focus{box-shadow:none;border-bottom-color:var(--red)}
+body.at-home .search kbd{right:0}
 body.static header.top{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"logo acts"}
 
 /* ---------------------------------------------------------------- duzen */
@@ -683,11 +683,11 @@ footer .lnk{padding:4px 6px;font-size:14px}
   body{padding:0 16px 72px}
   header.top{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"logo menu" "search search";
     row-gap:10px;padding:12px 0 14px}
-  body.home header.top{grid-template-areas:"logo menu" "hero hero" "search search";padding:14px 0 22px}
+  body.at-home header.top{grid-template-areas:"logo menu" "hero hero" "search search";padding:14px 0 22px}
   body.static header.top{grid-template-areas:"logo acts"}
-  body.home .hero{font-size:29px;margin:26px 0 16px}
-  body.home .wm{display:none}
-  body.home #q{font-size:17px}
+  body.at-home .hero{font-size:29px;margin:26px 0 16px}
+  body.at-home .wm{display:none}
+  body.at-home #q{font-size:17px}
   .menu-b{display:inline-flex}
   .acts[popover]:not(:popover-open){display:none}
   .acts:popover-open{position:fixed;inset:60px 12px auto auto;margin:0;z-index:50;
@@ -697,7 +697,7 @@ footer .lnk{padding:4px 6px;font-size:14px}
   html.nopop .acts{display:flex;flex-wrap:wrap}
   html.nopop .menu-b{display:none}
   html.nopop header.top{grid-template-areas:"logo logo" "acts acts" "search search"}
-  html.nopop body.home header.top{grid-template-areas:"logo logo" "acts acts" "hero hero" "search search"}
+  html.nopop body.at-home header.top{grid-template-areas:"logo logo" "acts acts" "hero hero" "search search"}
   .search kbd{display:none}
   #q{min-height:46px;font-size:16px}
   .ph{font-size:26px}
@@ -736,7 +736,7 @@ footer .lnk{padding:4px 6px;font-size:14px}
 }
 @media (max-width:380px){
   body{padding:0 12px 64px}
-  body.home .hero{font-size:26px}
+  body.at-home .hero{font-size:26px}
 }
 ```
 
@@ -745,7 +745,7 @@ footer .lnk{padding:4px 6px;font-size:14px}
 In `index.html`, replace everything from `<body class="calm">` up to and including `<footer id="foot"></footer>\n</div>` with the block below, keeping the existing pre-rendered `<main id="list" tabindex="-1">…</main>` content where the comment says (copy the whole existing `<main>` element over unchanged — Task 4 rewrites its content):
 
 ```html
-<body class="calm home">
+<body class="calm at-home">
 <a class="skip" id="skip" href="#list"></a>
 <div class="wrap">
 
@@ -876,7 +876,7 @@ In `render()`:
 - After `document.body.classList.toggle("calm", …);` add:
 
 ```js
-  document.body.classList.toggle("home", !!(browsing && !activeCat && !activeField && !single && !recent));
+  document.body.classList.toggle("at-home", !!(browsing && !activeCat && !activeField && !single && !recent));
 ```
 
 - Replace `$("#nav").innerHTML = navHTML;` with `$("#nav").innerHTML = '<ol>' + navHTML + '</ol>';`.
@@ -1758,7 +1758,7 @@ function renderView(){
      yan sutun yok. Giris ayrica iri baslik duzenini aciyor. */
   var browsing = !q && !activeTags.length && !onlyPicks && !activeSrc && sortBy === "cat";
   document.body.classList.toggle("calm", !!(single || recent || (browsing && !activeCat)));
-  document.body.classList.toggle("home", !!(browsing && !activeCat && !activeField && !single && !recent));
+  document.body.classList.toggle("at-home", !!(browsing && !activeCat && !activeField && !single && !recent));
   $("#nav").innerHTML = sideHTML(L);
 
   /* Tek kayit gorunumu: adres kaydin URL anahtarina bagli. */

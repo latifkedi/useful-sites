@@ -21,19 +21,19 @@ var ARCHIVE  = "https://web.archive.org/web/2024/";
 var T = {
   tr:{
     title:"Kullanışlı Siteler",
-    sub:"Yazılımdan ekonomiye, mimariden açık erişime on alanda elle derlenmiş bir dizin. Her kayıtta bağlantının ne yaptığı ve komşularından nerede ayrıldığı yazılı.",
-    ph:"Ara — İsim, Açıklama, Etiket, Alan Adı",
+    hero:function(n){ return "Elle derlenmiş <em>"+n+"</em> bağlantı. Her biri benzerlerinden nerede ayrıldığını söylüyor." },
+    homeLabel:"Kullanışlı Siteler — Fihrist",
+    menu:"Menü", tools:"Araçlar", langLabel:"İngilizceye geç", close:"Kapat",
+    fxHead:"Fihrist", exp:"Dışa aktar:", filter:"Süz", fClear:"Temizle",
+    ph:"Ara — ad, açıklama, etiket ya da alan adı",
     count:function(n,t){return n+" / "+t+" Bağlantı"},
     empty:"Eşleşen Bağlantı Yok",
     clear:"Filtreleri Temizle",
-    back:"← Tüm Kategoriler",
-    backFields:"← Tüm Alanlar",
     areas:"Alanlar",
     qLabel:"Dizinde ara", themeLabel:"Temayı değiştir", topLabel:"Yukarı çık",
     rand:"Rastgele", lang:"EN",
     picks:"Başlangıç Noktaları",
     by:"Ekleyen",
-    exportLbl:"Dışa Aktar",
     rel:"İlgili",
     verified:function(d){ return "Son Doğrulama: " + d },
     verwarn:"(Bot Engeli — Elle Bakılmalı)",
@@ -51,8 +51,7 @@ var T = {
          'dizinin <a href="k/index.html">metin hâli</a> de var.',
     skip:"İçeriğe Atla",
     lead:function(n,c,f){ return "Yazılımdan ekonomiye, mimariden açık erişime <b>"+n+
-      "</b> bağlantı; "+f+" alan, "+c+" başlık. Her kayıtta iki şey yazılı: ne işe yaradığı "+
-      "ve benzerlerinden nerede ayrıldığı." },
+      "</b> bağlantı; "+f+" alan, "+c+" başlık. Her kayıtta iki şey yazılı: ne işe yaradığı ve benzerlerinden nerede ayrıldığı." },
     hStart:"Buradan Başla", hCats:"Başlıklar", hAll:"Tümünü tek listede gör →",
     tagMore:function(n){ return "+ " + n + " Etiket Daha" }, tagLess:"− Etiketleri Kısalt",
     tagFilter:function(n){ return "Etiketle süz · " + n + " etiket" },
@@ -95,19 +94,19 @@ var T = {
   },
   en:{
     title:"Useful Sites",
-    sub:"A hand-curated directory across ten areas, from software to economics and architecture to open access. Every entry states what the thing does and where it parts ways with its neighbours.",
-    ph:"Search — name, description, tag, domain",
+    hero:function(n){ return "<em>"+n+"</em> links, picked by hand. Each one says where it parts ways with its neighbours." },
+    homeLabel:"Useful Sites — Index",
+    menu:"Menu", tools:"Tools", langLabel:"Switch to Turkish", close:"Close",
+    fxHead:"Index", exp:"Export:", filter:"Filter", fClear:"Clear",
+    ph:"Search — name, description, tag or domain",
     count:function(n,t){return n+" / "+t+" Links"},
     empty:"No Matching Links",
     clear:"Clear Filters",
-    back:"← All Categories",
-    backFields:"← All Areas",
     areas:"Areas",
     qLabel:"Search the directory", themeLabel:"Toggle theme", topLabel:"Back to top",
     rand:"Random", lang:"TR",
     picks:"Start Here",
     by:"Added By",
-    exportLbl:"Export",
     rel:"Related",
     verified:function(d){ return "Last Verified: " + d },
     verwarn:"(Bot-Blocked — Needs A Manual Look)",
@@ -684,25 +683,26 @@ function paintChrome(L){
   document.documentElement.lang = lang;
   document.title            = L.title;
   $("#t-title").textContent = L.title;
-  $("#t-sub").textContent   = L.sub;
+  $("#logo").setAttribute("aria-label", L.homeLabel);
+  $("#hero").innerHTML      = L.hero(data.length);
   $("#q").placeholder       = L.ph;
-  $("#rand").textContent    = L.rand;
   $("#q").setAttribute("aria-label", L.qLabel);
+  $("#rand").textContent    = L.rand;
+  $("#langbtn").textContent = L.lang;
+  $("#langbtn").setAttribute("aria-label", L.langLabel);
   $("#theme").setAttribute("aria-label", L.themeLabel); $("#theme").title = L.themeLabel;
+  $("#menub").setAttribute("aria-label", L.menu);
+  $("#acts").setAttribute("aria-label", L.tools);
+  $("#side").setAttribute("aria-label", L.fxHead);
   $("#top").setAttribute("aria-label", L.topLabel); $("#top").title = L.topLabel;
   $("#skip").textContent    = L.skip;
-  $("#foot").innerHTML      = L.foot + "<br>" + L.kb;
-  $("#sort").innerHTML = Object.keys(L.sorts).map(function(k){
-    return '<option value="'+k+'">'+esc(L.sorts[k])+'</option>';
-  }).join("");
-  $("#l-dl").textContent = L.exportLbl;
-  $("#dl").innerHTML = '<option value="">'+esc(L.exportLbl)+'</option>'+
-    '<option value="json">JSON</option><option value="csv">CSV</option>';
-  $("#dl").value = "";
+  $("#foot-t").innerHTML    = L.foot;
+  $("#foot-kb").innerHTML   = L.kb;
+  $("#l-exp").textContent   = L.exp;
+  $("#f-title").textContent = L.filter;
+  $("#f-clear").textContent = L.fClear;
+  $("#f-close").setAttribute("aria-label", L.close);
   paintSub();
-  $("#l-lang").textContent = lang.toUpperCase();
-  $("#lang").innerHTML = '<option value="tr"'+(lang==="tr"?' selected':'')+'>TR</option>'+
-                         '<option value="en"'+(lang==="en"?' selected':'')+'>EN</option>';
 }
 
 /* Dile bagli sabit metinler ve secim kutulari yalnizca dil degisince kuruluyor;
@@ -712,22 +712,16 @@ var chromeLang = null;
 function render(){
   var L = T[lang];
   if(chromeLang !== lang){ paintChrome(L); chromeLang = lang; }
-  $("#sort").value = sortBy;
   if($("#q").value !== q) $("#q").value = q;
-  /* Geri: bir kategorideysen alanina, bir alandaysan tum alanlara. */
-  $("#back").textContent    = (activeCat && FIELDBYKEY[activeField])
-                                ? "← " + FIELDBYKEY[activeField][lang]
-                                : (activeField ? L.backFields : L.back);
-  $("#back").classList.toggle("show", !!(activeCat || activeField || single || recent));
 
   /* Sakin gorunum: giris ve alan sayfalari yalnizca gezinmedir; etiket ve
      kaynak cubuklari ile ray orada kalabalik ediyordu. Aramaya, bir suzgece ya
      da bir kategoriye girilince geri geliyorlar. */
   var browsing = !q && !activeTags.length && !onlyPicks && !activeSrc && sortBy === "cat";
   document.body.classList.toggle("calm", !!(single || recent || (browsing && !activeCat)));
+  document.body.classList.toggle("at-home", !!(browsing && !activeCat && !activeField && !single && !recent));
 
   var shown = data.filter(keep);
-  $("#count").textContent = L.count(shown.length, data.length);
 
   /* The category list never shrinks. If the others vanish when one is
      picked, you lose your bearings. The selected one is marked, the ones
@@ -760,14 +754,7 @@ function render(){
              '<span class="n">'+n+'</span></a></li>';
     }).join("");
   }
-  $("#nav").innerHTML = navHTML;
-
-  $("#srcbar").innerHTML = srcbarHTML(L);
-
-  $("#tagbar").innerHTML =
-    '<button class="tag pickbtn" type="button" id="pickbtn" aria-pressed="'+onlyPicks+'">'+
-    '<span class="dot">◆</span> <b>'+esc(L.picks)+'</b> '+PICKCOUNT+'</button>' +
-    tagbarHTML(L);
+  $("#nav").innerHTML = '<ol>' + navHTML + '</ol>';
 
   /* Tek kayit gorunumu. Bir dizinde tek bir kaydi paylasabilmek gerekiyordu;
      adres kayit adina bagli, yeniden derleme onu kaydirmiyor. */
@@ -832,6 +819,11 @@ function render(){
 
 function update(push){ writeURL(push); render(); }
 function clearAll(){ q=""; activeTags=[]; activeCat=null; activeField=null; onlyPicks=false; activeSrc=null; single=null; recent=false; pages={}; update(true) }
+/* Logo ve yol izinin "Fihrist" halkasi: her seyi birakip girise don. */
+function goHome(){
+  q = ""; activeTags = []; activeCat = null; activeField = null; onlyPicks = false; activeSrc = null;
+  single = null; recent = false; sortBy = "cat"; pages = {}; update(true); scrollTop();
+}
 
 /* ------------------------------------------------------------ olaylar */
 var typeTimer;
@@ -841,11 +833,17 @@ $("#q").addEventListener("input", function(e){
   typeTimer = setTimeout(function(){ writeURL(false) }, 400);   /* do not pollute the history stack */
 });
 
-$("#sort").addEventListener("change", function(e){
-  sortBy = e.target.value; pages = {}; update(true);
+/* Siralama kutusu artik arac cubugunda ve her cizimde yeniden yaziliyor;
+   dinleyici belgeye bagli. */
+document.addEventListener("change", function(e){
+  if(e.target && e.target.id === "sort"){ sortBy = e.target.value; pages = {}; update(true) }
 });
 
 document.addEventListener("click", function(e){
+  var hm = e.target.closest("[data-home]");
+  if(hm){ e.preventDefault(); goHome(); return }
+  var ex = e.target.closest("[data-exp]");
+  if(ex){ exportAs(ex.dataset.exp); return }
   var pg = e.target.closest("[data-pg]");
   if(pg){
     var parts = pg.dataset.pg.split(":");
@@ -920,21 +918,20 @@ document.addEventListener("click", function(e){
 
 addEventListener("popstate", function(){ readURL(); render() });
 
-$("#back").addEventListener("click", function(){
-  /* Adimli geri: tek kayit/son eklenen -> ciktigi yer; kategori -> alan
-     sayfasi; alan -> tum alanlar (giris). */
-  if(single || recent){ single = null; recent = false; }
-  else if(activeCat){ activeCat = null; }   /* activeField korunur: alan sayfasi */
-  else if(activeField){ activeField = null; }
-  pages = {}; update(true); scrollTop();
-});
-
 function randomLink(){
   var pool = data.filter(keep);
   if(!pool.length) pool = data;
   window.open(pool[Math.floor(Math.random()*pool.length)].url, "_blank", "noopener");
 }
-$("#rand").addEventListener("click", randomLink);
+/* Popover API yoksa "..." menusu calismaz; o durumda araclar dar ekranda da
+   satir ici duruyor (html.nopop). */
+var POP = typeof HTMLElement !== "undefined" && HTMLElement.prototype.hasOwnProperty("popover");
+if(!POP) document.documentElement.classList.add("nopop");
+function hideMenu(){
+  var a = $("#acts");
+  try{ if(a.matches(":popover-open")) a.hidePopover() }catch(err){}
+}
+$("#rand").addEventListener("click", function(){ hideMenu(); randomLink() });
 
 function exportRows(){
   return sorted(data.filter(keep)).map(function(d){
@@ -954,8 +951,8 @@ function download(name, text, mime){
   document.body.appendChild(a); a.click();
   setTimeout(function(){ URL.revokeObjectURL(a.href); a.remove() }, 0);
 }
-$("#dl").addEventListener("change", function(e){
-  var kind = e.target.value, rows = exportRows();
+function exportAs(kind){
+  var rows = exportRows();
   var base = "baglantilar-" + (activeCat || "tumu");
   if(kind === "json"){
     download(base + ".json", JSON.stringify({
@@ -975,8 +972,7 @@ $("#dl").addEventListener("change", function(e){
       rows.map(function(r){ return cols.map(function(c){ return esc2(r[c]) }).join(",") }).join(NL);
     download(base + ".csv", csv, "text/csv;charset=utf-8");
   }
-  e.target.value = "";
-});
+}
 
 /* English descriptions are not in the first load; fetched on switch. */
 var enLoading = false;
@@ -998,13 +994,14 @@ function setLang(next){
   }
   update(false);
 }
-$("#lang").addEventListener("change", function(e){ setLang(e.target.value) });
+$("#langbtn").addEventListener("click", function(){ hideMenu(); setLang(lang === "tr" ? "en" : "tr") });
 
 function applyTheme(){
   if(theme) document.documentElement.setAttribute("data-theme", theme);
   else document.documentElement.removeAttribute("data-theme");
 }
 $("#theme").addEventListener("click", function(){
+  hideMenu();
   var dark = matchMedia("(prefers-color-scheme:dark)").matches;
   theme = ((theme || (dark ? "dark" : "light")) === "dark") ? "light" : "dark";
   store.set("theme", theme); applyTheme();
@@ -1026,7 +1023,7 @@ function scrollTop(){
 var topBtn = $("#top"), ticking = false;
 function syncTop(){
   topBtn.classList.toggle("show",
-    document.querySelector("header").getBoundingClientRect().bottom < 0);
+    document.querySelector("header.top").getBoundingClientRect().bottom < 0);
 }
 addEventListener("scroll", function(){
   if(ticking) return;
@@ -1034,12 +1031,14 @@ addEventListener("scroll", function(){
   requestAnimationFrame(function(){ syncTop(); ticking = false });
 }, {passive:true});
 if("IntersectionObserver" in window){
-  new IntersectionObserver(syncTop).observe(document.querySelector("header"));
+  new IntersectionObserver(syncTop).observe(document.querySelector("header.top"));
 }
 topBtn.addEventListener("click", scrollTop);
 window.__syncTop = syncTop;
 
 document.addEventListener("keydown", function(e){
+  /* Acik bir popover (menu, kardes basliklar) Esc'i kendisi kapatiyor. */
+  try{ if(document.querySelector(":popover-open")) return }catch(err){}
   /* While the dialog is open, / and r must not fire. <dialog> handles Esc. */
   if(dlg.open) return;
   var typing = /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName);
@@ -1336,7 +1335,7 @@ function setTab(t, focus){
   paintFoot();
 }
 
-$("#addbtn").addEventListener("click", function(){ paintSub(); dlg.showModal() });
+$("#addbtn").addEventListener("click", function(){ hideMenu(); paintSub(); dlg.showModal() });
 $("#s-close").addEventListener("click", function(){ dlg.close() });
 $("#s-t1").addEventListener("click", function(){ setTab("one") });
 $("#s-t2").addEventListener("click", function(){ setTab("bulk") });

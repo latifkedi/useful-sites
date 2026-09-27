@@ -631,7 +631,9 @@ def write_issue_form(cats, out_dir):
 # (data-pre); re-rendering identical markup would replay the fade-in.
 # These strings mirror app.js T.tr; test_build checks they have not drifted.
 HOME_TX = {
-    'lead': ('Yazılımdan ekonomiye, mimariden açık erişime <b>%d</b> bağlantı; %d alan, '
+    'hero': ('Elle derlenmiş <em>%d</em> bağlantı. Her biri benzerlerinden nerede '
+             'ayrıldığını söylüyor.'),
+    'lead':('Yazılımdan ekonomiye, mimariden açık erişime <b>%d</b> bağlantı; %d alan, '
              '%d başlık. Her kayıtta iki şey yazılı: ne işe yaradığı ve benzerlerinden '
              'nerede ayrıldığı.'),
     'hStart': 'Buradan Başla',
@@ -694,5 +696,10 @@ def write_home(core, cats, groups, out_dir):
     out = re.sub(r'(<main id="list" tabindex="-1">)(.*?)(</main>)',
                  lambda m: m.group(1) + home_html(core, cats, groups) + m.group(3),
                  src, count=1, flags=re.S)
+    # Giris cumlesi baslikta duruyor, <main>'de degil: arama kutusu onunla
+    # icerik arasina girebilsin diye. Sayi her derlemede veriden yaziliyor.
+    out = re.sub(r'(<h1 class="hero" id="hero">)(.*?)(</h1>)',
+                 lambda m: m.group(1) + HOME_TX['hero'] % len(core) + m.group(3),
+                 out, count=1, flags=re.S)
     if out != src:
         io.open(path, 'w', encoding='utf-8', newline='').write(out)

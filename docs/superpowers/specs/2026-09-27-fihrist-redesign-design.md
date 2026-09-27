@@ -78,9 +78,9 @@ disables it.
 
 ## 2. Frame
 
-One header element, two layouts driven by `body.home`:
+One header element, two layouts driven by `body.at-home` (not `body.home`: that would collide with the home view container `.home`):
 
-- **Home (`body.home`)** — row 1: logo · actions. Row 2: hero `h1` (the lead
+- **Home (`body.at-home`)** — row 1: logo · actions. Row 2: hero `h1` (the lead
   sentence with the red count). Row 3: large search field.
 - **Everything else** — a single row: logo · search (flex) · actions; the hero
   is hidden (`display:none`, so it leaves the accessibility tree).
