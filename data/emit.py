@@ -21,6 +21,7 @@ import os
 import re
 import json
 import datetime
+import hashlib
 
 from sources import SOURCES
 
@@ -42,59 +43,24 @@ def _day(ts):
 
 
 # The static pages carry none of the app shell; their only job is to be
-# readable. Same tokens, same typography, no JavaScript.
-STYLE = """@font-face{
-font-family:"Serif Fallback";src:local("Georgia"),local("Times New Roman"),local("Iowan Old Style");
-size-adjust:98.7%;ascent-override:105%;descent-override:34%;line-gap-override:0%}
-@font-face{font-family:"Source Serif 4";font-style:normal;font-weight:400;font-display:swap;
-src:url("__F__/serif-400.woff2") format("woff2")}
-@font-face{font-family:"Source Serif 4";font-style:normal;font-weight:600;font-display:swap;
-src:url("__F__/serif-600.woff2") format("woff2")}
-:root{--bg:#faf9f5;--fg:#33312b;--dim:#63605a;--faint:#6e6b63;
---rule:#e3dfd6;--accent:#141310;--accent-soft:#e8e4da;
---serif:"Source Serif 4","Serif Fallback",Georgia,"Times New Roman",serif}
-@media (prefers-color-scheme:dark){:root{--bg:#141311;--fg:#e6e3da;--dim:#a5a199;
---faint:#89867e;--rule:#2b2a26;--accent:#f4f1e8;--accent-soft:#2a2823}}
-*{box-sizing:border-box}
-body{margin:0 auto;padding:0 24px 72px;max-width:820px;background:var(--bg);color:var(--fg);
-font:17px/1.62 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
-a{color:var(--fg)}
-header{padding:48px 0 20px;border-bottom:1px solid var(--rule)}
-.up{font:12.5px/1 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--dim);
-text-decoration:none;letter-spacing:.04em}
-.up:hover{color:var(--accent)}
-h1{font:600 31px/1.2 var(--serif);letter-spacing:-.014em;margin:16px 0 0}
-.intro{color:var(--dim);font-size:16px;line-height:1.7;margin:12px 0 0;max-width:66ch}
-.n{font:12.5px/1 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--faint);
-margin-top:10px;display:block}
-article{padding:16px 0 16px 14px;border-left:2px solid var(--rule);margin:26px 0 0}
-article h2{font:600 18px/1.3 var(--serif);letter-spacing:-.004em;margin:0;display:inline}
-article h2 a{text-decoration:none}
-article h2 a:hover{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
-.host{font:12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--faint);margin-left:8px}
-p.d{color:var(--dim);font-size:15.5px;line-height:1.7;margin:7px 0 0}
-p.t{font:12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--faint);margin:8px 0 0}
-nav.other{margin:56px 0 0;padding-top:22px;border-top:1px solid var(--rule);
-font-size:15px;line-height:2}
-nav.other a{color:var(--dim);text-decoration:none;margin-right:18px}
-nav.other a:hover{color:var(--accent)}
-footer{margin-top:40px;padding-top:20px;border-top:1px solid var(--rule);
-color:var(--faint);font-size:14px;line-height:1.8}
-footer a{color:var(--dim)}"""
+# readable. They link the one stylesheet the app inlines, with a content
+# stamp so a browser never pairs a new page with an old stylesheet.
+ENSO = ('<svg class="enso" viewBox="0 0 60 60" aria-hidden="true">'
+        '<path d="M43 12A22 22 0 1 0 51 30"/></svg>')
 
-PAGE = """<!doctype html>
+HEAD = """<!doctype html>
 <html lang="{lang}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src 'self' data:; font-src 'self'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self' data:; font-src 'self'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<title>{title} — {site_name}</title>
+<title>{title}</title>
 <meta name="description" content="{desc}">
 <link rel="canonical" href="{canon}">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="{site_name}">
-<meta property="og:title" content="{title} — {site_name}">
+<meta property="og:title" content="{title}">
 <meta property="og:description" content="{desc}">
 <meta property="og:url" content="{canon}">
 <meta property="og:image" content="{site}/og.png">
@@ -102,27 +68,45 @@ PAGE = """<!doctype html>
 <link rel="alternate" type="application/atom+xml" title="{feed_title}" href="{feed_url}">
 <link rel="alternate" hreflang="tr" href="{alt_tr}">
 <link rel="alternate" hreflang="en" href="{alt_en}">
-<link rel="alternate" hreflang="x-default" href="{alt_tr}">
+<link rel="alternate" hreflang="x-default" href="{alt_x}">
 <script type="application/ld+json">{jsonld}</script>
-<style>{style}</style>
+<link rel="stylesheet" href="{css}">
 </head>
-<body>
-<header>
-<a class="up" href="{home}">← {site_name}</a>
-<h1>{title}</h1>
-<p class="intro">{intro}</p>
-<span class="n">{count} {word_links}</span>
+<body class="static">
+<div class="wrap">
+<header class="top">
+<a class="logo" href="{home}">""" + ENSO + """<span>{site_name}</span></a>
+<nav class="acts"><a class="lnk" href="{app}">{app_link}</a><a class="lnk" href="{other_lang}">{other_word}</a></nav>
 </header>
-<main>
+"""
+
+PAGE = HEAD + """<main class="catpage">
+<p class="crumb"><a href="{hub}">{hub_name}</a></p>
+<h1 class="ph">{h1}</h1>
+<p class="lede">{intro}</p>
+<p class="count">{count} {word_links}</p>
+<div class="recs">
 {items}
+</div>
+<nav class="other"><h2 class="sh">{others_head}</h2><p>{others}</p></nav>
 </main>
-<nav class="other">{others}</nav>
 <footer>
 {foot}
 </footer>
+</div>
 </body>
 </html>
 """
+
+
+def _css_href(out_dir, L):
+    h = hashlib.sha1(io.open(os.path.join(out_dir, 'style.css'), 'rb').read()).hexdigest()[:8]
+    return ('../../' if L['dir'] else '../') + 'style.css?v=' + h
+
+
+def _code(t):
+    # app.js descHTML() ile ayni: `kod` parcalari <code> olarak.
+    return re.sub(r'`([^`<>]+)`', r'<code>\1</code>', t)
 
 
 def _jsonld(title, canon, rows, L):
@@ -147,54 +131,18 @@ def _jsonld(title, canon, rows, L):
                len(rows), ','.join(ogeler)))
 
 
-HUB = """<!doctype html>
-<html lang="{lang}">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; \
-style-src 'unsafe-inline'; img-src 'self' data:; font-src 'self'; \
-base-uri 'none'; form-action 'none'">
-<meta name="referrer" content="strict-origin-when-cross-origin">
-<title>{site_name}</title>
-<meta name="description" content="{desc}">
-<link rel="canonical" href="{canon}">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="{site_name}">
-<meta property="og:title" content="{site_name}">
-<meta property="og:description" content="{desc}">
-<meta property="og:url" content="{canon}">
-<meta property="og:image" content="{site}/og.png">
-<meta name="twitter:card" content="summary_large_image">
-<link rel="alternate" type="application/atom+xml" title="{site_name}" href="{site}/feed.xml">
-<link rel="alternate" hreflang="tr" href="{site}/k/index.html">
-<link rel="alternate" hreflang="en" href="{site}/k/en/index.html">
-<link rel="alternate" hreflang="x-default" href="{site}/">
-<script type="application/ld+json">{jsonld}</script>
-<style>{style}
-.hub{{margin:26px 0 0}}
-.hub li{{list-style:none;margin:0 0 2px;padding:12px 0;border-bottom:1px solid var(--rule)}}
-.hub ul{{padding:0;margin:0}}
-.hub a{{font:600 18px/1.3 var(--serif);text-decoration:none}}
-.hub a:hover{{color:var(--accent)}}
-.hub .c{{font:12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--faint);margin-left:8px}}
-.hub .f{{font:11.5px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--faint);text-decoration:none;margin-left:10px;border-bottom:1px dotted var(--rule)}}
-.hub .f:hover{{color:var(--accent);border-bottom-color:var(--accent)}}
-.hub p{{margin:5px 0 0;color:var(--dim);font-size:15px;line-height:1.6;max-width:70ch}}</style>
-</head>
-<body>
-<header>
-<a class="up" href="{site}/">{app_link}</a>
-<h1>{site_name}</h1>
-<p class="intro">{desc}</p>
-<span class="n">{total} {word_links} · {ncat} {word_cats}</span>
-</header>
-<main class="hub"><ul>
+HUB = HEAD + """<main class="fieldpage">
+<h1 class="ph">{h1}</h1>
+<p class="lede">{intro}</p>
+<p class="count">{count} {word_links} · {ncat} {word_cats}</p>
+<ol class="toc">
 {items}
-</ul></main>
+</ol>
+</main>
 <footer>
 {foot}
 </footer>
+</div>
 </body>
 </html>
 """
@@ -205,17 +153,17 @@ def _host(u):
     return h[4:] if h.startswith('www.') else h
 
 
-def _item(d, taglbl, desc, li):
-    tags = ', '.join(taglbl.get(t, [t, t])[li] for t in d.get('tags', [])[:6])
+def _item(d, taglbl, desc, li, n):
+    tags = ' · '.join(taglbl.get(t, [t, t])[li] for t in d.get('tags', [])[:6])
     return (
-        '<article>\n'
-        '<h2><a href="%s" rel="noopener noreferrer nofollow">%s</a></h2>'
-        '<span class="host">%s</span>\n'
-        '<p class="d">%s</p>\n'
+        '<article class="rec"><span class="no">%d</span><div class="rb">\n'
+        '<div class="nm"><a class="name" href="%s" rel="noopener noreferrer nofollow">%s</a>'
+        '<span class="host">%s</span></div>\n'
+        '<p class="desc">%s</p>\n'
         '%s'
-        '</article>'
-    ) % (esc(d['url']), esc(d['name']), esc(_host(d['url'])), esc(desc),
-         ('<p class="t">%s</p>\n' % esc(tags)) if tags else '')
+        '</div></article>'
+    ) % (n, esc(d['url']), esc(d['name']), esc(_host(d['url'])), _code(esc(desc)),
+         ('<div class="mt"><span class="itags">%s</span></div>\n' % esc(tags)) if tags else '')
 
 
 # Turkish and English differ only in the words around the list, so the two
@@ -224,6 +172,7 @@ def _item(d, taglbl, desc, li):
 LANGS = {
     'tr': {
         'code': 'tr', 'li': 0, 'ci': 1, 'dir': '', 'fonts': '../fonts',
+        'hub_name': 'Fihrist', 'others_head': 'Diğer başlıklar', 'other_word': 'English',
         'name': 'Kullanışlı Siteler', 'links': 'bağlantı', 'cats': 'başlık',
         'app_link': '← Aranabilir sürüme dön',
         'feed_word': 'akış', 'feed_tip': 'Bu başlığın Atom akışı',
@@ -238,6 +187,7 @@ LANGS = {
     },
     'en': {
         'code': 'en', 'li': 1, 'ci': 2, 'dir': 'en/', 'fonts': '../../fonts',
+        'hub_name': 'Index', 'others_head': 'Other headings', 'other_word': 'Türkçe',
         'name': 'Useful Sites', 'links': 'links', 'cats': 'headings',
         'app_link': '← Back to the searchable version',
         'feed_word': 'feed', 'feed_tip': 'Atom feed for this heading',
@@ -284,21 +234,28 @@ def write_all(core, cats, intros, taglbl, out_dir, en_desc):
             canon = '%s/k/%s%s.html' % (SITE, L['dir'], k)
             desc = (intro or label[k])[:180]
             items = []
-            for i, d in rows:
+            for n, (i, d) in enumerate(rows, 1):
                 text = en_desc[i] if L['li'] == 1 and i < len(en_desc) else d['tr']
-                items.append(_item(d, taglbl, text, L['li']))
+                items.append(_item(d, taglbl, text, L['li'], n))
             io.open(os.path.join(kdir, k + '.html'), 'w',
                     encoding='utf-8', newline='\n').write(PAGE.format(
                         lang=L['code'], site_name=esc(L['name']),
-                        title=esc(label[k]), desc=esc(desc), canon=canon, site=SITE,
-                        home=SITE + '/', intro=esc(intro),
-                        style=STYLE.replace('__F__', L['fonts']),
-                        count=len(rows), word_links=esc(L['links']), key=esc(k),
+                        title=esc('%s — %s' % (label[k], L['name'])), h1=esc(label[k]),
+                        desc=esc(desc), canon=canon, site=SITE,
+                        home=SITE + '/', app='%s/?cat=%s%s' % (SITE, esc(k), '&amp;lang=en' if L['li'] else ''),
+                        app_link=esc(L['app_link']),
+                        other_lang='%s/k/%s%s.html' % (SITE, '' if L['li'] else 'en/', esc(k)),
+                        other_word=esc(L['other_word']),
+                        hub='index.html', hub_name=esc(L['hub_name']),
+                        intro=esc(intro), css=_css_href(out_dir, L),
+                        count=len(rows), word_links=esc(L['links']),
                         feed_title=esc('%s — %s' % (label[k], L['name'])),
                         feed_url='%s/feed/%s%s.xml' % (SITE, L['dir'], k),
                         alt_tr='%s/k/%s.html' % (SITE, k),
                         alt_en='%s/k/en/%s.html' % (SITE, k),
+                        alt_x='%s/k/%s.html' % (SITE, k),
                         items='\n'.join(items), others=others,
+                        others_head=esc(L['others_head']),
                         jsonld=_jsonld(label[k], canon, rows, L),
                         foot=L['foot'].format(t=esc(label[k]), s=SITE, k=esc(k))))
             if lang == 'tr':
@@ -370,29 +327,35 @@ def _credits(core, out_dir):
             name = s['label_tr'] if lang == 'tr' else s['label_en']
             note = (s['note_tr'] if lang == 'tr' else s['note_en']) if k != 'kedi' else T['own']
             url = s.get('url')
-            head = ('<a href="%s" rel="noopener noreferrer">%s</a>' % (esc(url), esc(name))) \
-                if url else esc(name)
+            head = ('<a class="name" href="%s" rel="noopener noreferrer">%s</a>' % (esc(url), esc(name))) \
+                if url else ('<span class="name">%s</span>' % esc(name))
             rows.append(
-                '<article><h2>%s<span class="host">%d %s</span></h2>'
-                '<p class="d">%s</p></article>'
-                % (head, n, esc(T['links']), esc(note)))
+                '<article class="rec"><span class="no">%d</span><div class="rb">'
+                '<div class="nm">%s<span class="host">%d %s</span></div>'
+                '<p class="desc">%s</p></div></article>'
+                % (len(rows) + 1, head, n, esc(T['links']), esc(note)))
         canon = '%s/k/%s%s' % (SITE, L['dir'], 'tesekkur.html' if lang == 'tr' else 'credits.html')
         alt_tr = '%s/k/tesekkur.html' % SITE
         alt_en = '%s/k/en/credits.html' % SITE
         html = PAGE.format(
-            lang=L['code'], site_name=esc(L['name']), title=esc(T['title']),
+            lang=L['code'], site_name=esc(L['name']),
+            title=esc('%s — %s' % (T['title'], L['name'])), h1=esc(T['title']),
             desc=esc(T['intro'][:180]), canon=canon, site=SITE, home=SITE + '/',
-            intro=T['intro'], style=STYLE.replace('__F__', L['fonts']),
+            app=SITE + ('/' if lang == 'tr' else '/?lang=en'), app_link=esc(L['app_link']),
+            other_lang=alt_en if lang == 'tr' else alt_tr, other_word=esc(L['other_word']),
+            hub='index.html', hub_name=esc(L['hub_name']),
+            intro=T['intro'], css=_css_href(out_dir, L),
             count=len([1 for k in order if count.get(k)]),
             word_links=esc('kaynak' if lang == 'tr' else 'sources'),
             feed_title=esc(L['name']), feed_url='%s/feed.xml' % SITE,
-            alt_tr=alt_tr, alt_en=alt_en,
+            alt_tr=alt_tr, alt_en=alt_en, alt_x=alt_tr,
             jsonld=json.dumps({'@context': 'https://schema.org', '@type': 'AboutPage',
                                'name': T['title'], 'url': canon}, ensure_ascii=False),
             items='\n'.join(rows)
-            + '\n<article><h2>%s</h2><p class="d">%s</p></article>'
+            + '\n<article class="rec"><span class="no"></span><div class="rb"><div class="nm">'
+              '<span class="name">%s</span></div><p class="desc">%s</p></div></article>'
               % (esc(T['chow']), T['ctext'].format(repo=repo)),
-            others='<a href="%s">%s</a>' % (esc(SITE + '/'), esc(T['back'])),
+            others_head=esc(L['name']), others='<a href="%s">%s</a>' % (esc(SITE + '/'), esc(T['back'])),
             foot=('<a href="%s">%s</a>' % (esc(SITE + ('/' if lang == 'tr' else '/?lang=en')),
                                            esc(T['back']))))
         fn = 'tesekkur.html' if lang == 'tr' else 'credits.html'
@@ -423,20 +386,31 @@ def _hubs(core, cats, intros, out_dir):
             # Her basligin kendi akisi var; abonelik konuya inebilsin diye
             # dizinde de gorunuyor, yoksa yalnizca sayfa kaynaginda kalirdi.
             satir.append(
-                '<li><a href="%s.html">%s</a><span class="c">%d</span>'
-                '<a class="f" href="../feed/%s%s.xml" title="%s">%s</a>'
-                '<p>%s</p></li>'
-                % (esc(k), esc(label[k]), say[k], esc(L['dir']), esc(k),
-                   esc(L['feed_tip']), esc(L['feed_word']), esc(intro)))
+                '<li><a class="tt" href="%s.html"><span class="tn">%s</span><span class="ld"></span>'
+                '<span class="n">%d</span></a><p class="td">%s</p>'
+                '<p class="ts"><a href="../feed/%s%s.xml" title="%s">%s</a></p></li>'
+                % (esc(k), esc(label[k]), say[k], esc(intro), esc(L['dir']), esc(k),
+                   esc(L['feed_tip']), esc(L['feed_word'])))
+            # k/en/index.html iki kat derinde: akis adresi ../../feed/en/ olmali
+            # (onceden ../feed/en/ yaziliyordu ve /k/feed/en/'e, olmayan bir yere cikiyordu).
+            if L['dir']:
+                satir[-1] = satir[-1].replace('href="../feed/', 'href="../../feed/', 1)
         canon = '%s/k/%sindex.html' % (SITE, L['dir'])
         io.open(os.path.join(out_dir, 'k', L['dir'].strip('/'), 'index.html')
                 if L['dir'] else os.path.join(out_dir, 'k', 'index.html'),
                 'w', encoding='utf-8', newline='\n').write(HUB.format(
-                    lang=L['code'], site_name=esc(L['name']), desc=esc(L['hub_desc']),
-                    canon=canon, site=SITE, style=STYLE.replace('__F__', L['fonts']),
-                    total=len(core), ncat=len(satir), word_links=esc(L['links']),
-                    word_cats=esc(L['cats']), app_link=esc(L['app_link']),
-                    items='\n'.join(satir), foot=esc(L['hub_foot']),
+                    lang=L['code'], site_name=esc(L['name']), title=esc(L['name']), h1=esc(L['name']),
+                    desc=esc(L['hub_desc']), intro=esc(L['hub_desc']),
+                    canon=canon, site=SITE, css=_css_href(out_dir, L),
+                    home=SITE + '/', app=SITE + ('/?lang=en' if L['li'] else '/'),
+                    app_link=esc(L['app_link']),
+                    other_lang='%s/k/%sindex.html' % (SITE, '' if L['li'] else 'en/'),
+                    other_word=esc(L['other_word']),
+                    feed_title=esc(L['name']), feed_url='%s/feed.xml' % SITE,
+                    alt_tr='%s/k/index.html' % SITE, alt_en='%s/k/en/index.html' % SITE,
+                    alt_x=SITE + '/',
+                    count=len(core), ncat=len(satir), word_links=esc(L['links']),
+                    word_cats=esc(L['cats']), items='\n'.join(satir), foot=esc(L['hub_foot']),
                     jsonld=_hub_jsonld(L, canon, order, label, say)))
 
 

@@ -392,7 +392,8 @@ footer .lnk{padding:4px 6px;font-size:14px}
   header.top{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"logo menu" "search search";
     row-gap:10px;padding:12px 0 14px}
   body.at-home header.top{grid-template-areas:"logo menu" "hero hero" "search search";padding:14px 0 22px}
-  body.static header.top{grid-template-areas:"logo acts"}
+  body.static header.top{grid-template-columns:minmax(0,1fr);grid-template-areas:"logo" "acts";row-gap:4px}
+  body.static .acts{flex-wrap:wrap;margin-left:-10px}
   body.at-home .hero{font-size:29px;margin:26px 0 16px}
   body.at-home .wm{display:none}
   body.at-home #q{font-size:17px}

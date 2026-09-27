@@ -251,6 +251,17 @@ def main():
     hex_ = re.findall(r'(?<=[\s:,(])#[0-9a-fA-F]{3,8}(?=[\s;,)}!])', govde)
     check(css is not None and not hex_, 'style.css takes every colour from its :root tokens'
           + (' -- literals: %s' % sorted(set(hex_))[:5] if hex_ else ''))
+    sayfalar = [os.path.join(ROOT, 'k', f) for f in os.listdir(os.path.join(ROOT, 'k')) if f.endswith('.html')]
+    sayfalar += [os.path.join(ROOT, 'k', 'en', f) for f in os.listdir(os.path.join(ROOT, 'k', 'en'))
+                 if f.endswith('.html')]
+    kotu = []
+    for p in sayfalar:
+        t = io.open(p, encoding='utf-8').read()
+        if ('style.css?v=' not in t or "style-src 'self';" not in t or '<style' in t
+                or 'class="static"' not in t):
+            kotu.append(os.path.relpath(p, ROOT))
+    check(sayfalar and not kotu, 'static pages link style.css, allow only self styles, carry no inline style'
+          + (' -- %s' % kotu[:3] if kotu else ''))
     # The pre-rendered homepage must describe the same fields app.js would draw,
     # and its strings must still be the ones app.js uses (they are copies).
     on = ix[ix.index('<main id="list"'):ix.index('</main>')]

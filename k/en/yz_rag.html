@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src 'self' data:; font-src 'self'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self' data:; font-src 'self'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <title>AI · RAG, Embeddings &amp; Vectors — Useful Sites</title>
 <meta name="description" content="On the retrieval side the decisions that matter are in the pipeline rather than the model: how you chunk documents, which embedding model you pick, whether you rerank. Choosing a v">
@@ -20,222 +20,191 @@
 <link rel="alternate" hreflang="en" href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html">
 <link rel="alternate" hreflang="x-default" href="https://latifkedi.github.io/useful-sites/k/yz_rag.html">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"AI · RAG, Embeddings & Vectors","url":"https://latifkedi.github.io/useful-sites/k/en/yz_rag.html","inLanguage":"en","numberOfItems":33,"itemListOrder":"https://schema.org/ItemListOrderAscending","itemListElement":[{"@type":"ListItem","position":1,"url":"https://www.mongodb.com/products/platform/atlas-vector-search","name":"Atlas Vector Search"},{"@type":"ListItem","position":2,"url":"https://huggingface.co/BAAI","name":"BGE Modelleri"},{"@type":"ListItem","position":3,"url":"https://www.trychroma.com/","name":"Chroma"},{"@type":"ListItem","position":4,"url":"https://cohere.com/embed","name":"Cohere Embed"},{"@type":"ListItem","position":5,"url":"https://www.elastic.co/elasticsearch","name":"Elasticsearch"},{"@type":"ListItem","position":6,"url":"https://github.com/Graphify-Labs/graphify","name":"Graphify"},{"@type":"ListItem","position":7,"url":"https://microsoft.github.io/graphrag/","name":"GraphRAG"},{"@type":"ListItem","position":8,"url":"https://haystack.deepset.ai/","name":"Haystack"},{"@type":"ListItem","position":9,"url":"https://jina.ai","name":"Jina AI"},{"@type":"ListItem","position":10,"url":"https://langchain-ai.github.io/langgraph/concepts/memory/","name":"LangGraph Memory"},{"@type":"ListItem","position":11,"url":"https://www.letta.com/","name":"Letta"},{"@type":"ListItem","position":12,"url":"https://www.llamaindex.ai/","name":"LlamaIndex"},{"@type":"ListItem","position":13,"url":"https://www.marqo.ai","name":"Marqo"},{"@type":"ListItem","position":14,"url":"https://mem0.ai/","name":"Mem0"},{"@type":"ListItem","position":15,"url":"https://github.com/mem0ai/mem0","name":"Mem0 (kaynak)"},{"@type":"ListItem","position":16,"url":"https://milvus.io/","name":"Milvus"},{"@type":"ListItem","position":17,"url":"https://neo4j.com/","name":"Neo4j"},{"@type":"ListItem","position":18,"url":"https://platform.openai.com/docs/guides/embeddings","name":"OpenAI Embeddings"},{"@type":"ListItem","position":19,"url":"https://github.com/pgvector/pgvector","name":"pgvector"},{"@type":"ListItem","position":20,"url":"https://www.pinecone.io/","name":"Pinecone"},{"@type":"ListItem","position":21,"url":"https://www.postgresql.org/","name":"PostgreSQL"},{"@type":"ListItem","position":22,"url":"https://qdrant.tech/","name":"Qdrant"},{"@type":"ListItem","position":23,"url":"https://docs.ragas.io/","name":"Ragas"},{"@type":"ListItem","position":24,"url":"https://ragflow.io/","name":"RAGFlow"},{"@type":"ListItem","position":25,"url":"https://github.com/evermind-ai/raven","name":"Raven"},{"@type":"ListItem","position":26,"url":"https://redis.io/","name":"Redis"},{"@type":"ListItem","position":27,"url":"https://sbert.net/","name":"Sentence Transformers"},{"@type":"ListItem","position":28,"url":"https://www.trulens.org/","name":"TruLens"},{"@type":"ListItem","position":29,"url":"https://unstructured.io/","name":"Unstructured"},{"@type":"ListItem","position":30,"url":"https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings","name":"Vertex AI Embeddings"},{"@type":"ListItem","position":31,"url":"https://www.voyageai.com/","name":"Voyage AI"},{"@type":"ListItem","position":32,"url":"https://weaviate.io/","name":"Weaviate"},{"@type":"ListItem","position":33,"url":"https://www.getzep.com/","name":"Zep"}]}</script>
-<style>@font-face{
-font-family:"Serif Fallback";src:local("Georgia"),local("Times New Roman"),local("Iowan Old Style");
-size-adjust:98.7%;ascent-override:105%;descent-override:34%;line-gap-override:0%}
-@font-face{font-family:"Source Serif 4";font-style:normal;font-weight:400;font-display:swap;
-src:url("../../fonts/serif-400.woff2") format("woff2")}
-@font-face{font-family:"Source Serif 4";font-style:normal;font-weight:600;font-display:swap;
-src:url("../../fonts/serif-600.woff2") format("woff2")}
-:root{--bg:#faf9f5;--fg:#33312b;--dim:#63605a;--faint:#6e6b63;
---rule:#e3dfd6;--accent:#141310;--accent-soft:#e8e4da;
---serif:"Source Serif 4","Serif Fallback",Georgia,"Times New Roman",serif}
-@media (prefers-color-scheme:dark){:root{--bg:#141311;--fg:#e6e3da;--dim:#a5a199;
---faint:#89867e;--rule:#2b2a26;--accent:#f4f1e8;--accent-soft:#2a2823}}
-*{box-sizing:border-box}
-body{margin:0 auto;padding:0 24px 72px;max-width:820px;background:var(--bg);color:var(--fg);
-font:17px/1.62 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
-a{color:var(--fg)}
-header{padding:48px 0 20px;border-bottom:1px solid var(--rule)}
-.up{font:12.5px/1 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--dim);
-text-decoration:none;letter-spacing:.04em}
-.up:hover{color:var(--accent)}
-h1{font:600 31px/1.2 var(--serif);letter-spacing:-.014em;margin:16px 0 0}
-.intro{color:var(--dim);font-size:16px;line-height:1.7;margin:12px 0 0;max-width:66ch}
-.n{font:12.5px/1 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--faint);
-margin-top:10px;display:block}
-article{padding:16px 0 16px 14px;border-left:2px solid var(--rule);margin:26px 0 0}
-article h2{font:600 18px/1.3 var(--serif);letter-spacing:-.004em;margin:0;display:inline}
-article h2 a{text-decoration:none}
-article h2 a:hover{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
-.host{font:12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--faint);margin-left:8px}
-p.d{color:var(--dim);font-size:15.5px;line-height:1.7;margin:7px 0 0}
-p.t{font:12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--faint);margin:8px 0 0}
-nav.other{margin:56px 0 0;padding-top:22px;border-top:1px solid var(--rule);
-font-size:15px;line-height:2}
-nav.other a{color:var(--dim);text-decoration:none;margin-right:18px}
-nav.other a:hover{color:var(--accent)}
-footer{margin-top:40px;padding-top:20px;border-top:1px solid var(--rule);
-color:var(--faint);font-size:14px;line-height:1.8}
-footer a{color:var(--dim)}</style>
+<link rel="stylesheet" href="../../style.css?v=4318a81e">
 </head>
-<body>
-<header>
-<a class="up" href="https://latifkedi.github.io/useful-sites/">← Useful Sites</a>
-<h1>AI · RAG, Embeddings &amp; Vectors</h1>
-<p class="intro">On the retrieval side the decisions that matter are in the pipeline rather than the model: how you chunk documents, which embedding model you pick, whether you rerank. Choosing a vector database is usually the least consequential call — pgvector carries small projects, and running a separate system only pays for itself past a certain volume.</p>
-<span class="n">33 links</span>
+<body class="static">
+<div class="wrap">
+<header class="top">
+<a class="logo" href="https://latifkedi.github.io/useful-sites/"><svg class="enso" viewBox="0 0 60 60" aria-hidden="true"><path d="M43 12A22 22 0 1 0 51 30"/></svg><span>Useful Sites</span></a>
+<nav class="acts"><a class="lnk" href="https://latifkedi.github.io/useful-sites/?cat=yz_rag&amp;lang=en">← Back to the searchable version</a><a class="lnk" href="https://latifkedi.github.io/useful-sites/k/yz_rag.html">Türkçe</a></nav>
 </header>
-<main>
-<article>
-<h2><a href="https://www.mongodb.com/products/platform/atlas-vector-search" rel="noopener noreferrer nofollow">Atlas Vector Search</a></h2><span class="host">mongodb.com</span>
-<p class="d">The vector index sits beside your documents. Unlike a separate vector database, it removes the copy-and-sync burden; full support is on Atlas, and the feature is newer in self-managed MongoDB.</p>
-<p class="t">Paid, Vector DB, Database</p>
-</article>
-<article>
-<h2><a href="https://huggingface.co/BAAI" rel="noopener noreferrer nofollow">BGE Modelleri</a></h2><span class="host">huggingface.co</span>
-<p class="d">The most widely used family of open embedding models. Compared with paid embedding APIs it sits close on the MTEB leaderboard, and most releases are MIT — commercial use is unblocked and data stays on your machine.</p>
-<p class="t">Open Weights, Embedding</p>
-</article>
-<article>
-<h2><a href="https://www.trychroma.com/" rel="noopener noreferrer nofollow">Chroma</a></h2><span class="host">trychroma.com</span>
-<p class="d">A vector database that runs embedded in your application with no server process — usable straight after `pip install`. Unlike server-based ones such as Qdrant or Milvus it is the fastest for a prototype; at production scale you may hand off to something else.</p>
-<p class="t">Open Source, Python, Vector DB</p>
-</article>
-<article>
-<h2><a href="https://cohere.com/embed" rel="noopener noreferrer nofollow">Cohere Embed</a></h2><span class="host">cohere.com</span>
-<p class="d">Represents 100+ languages in one vector space, so a Turkish query can retrieve an English document. Unlike OpenAI embeddings it takes separate input types for query and document — the distinction that lifts match quality.</p>
-<p class="t">API, Paid, Embedding</p>
-</article>
-<article>
-<h2><a href="https://www.elastic.co/elasticsearch" rel="noopener noreferrer nofollow">Elasticsearch</a></h2><span class="host">elastic.co</span>
-<p class="d">Combines BM25 keyword search with vector search in a single query and fuses the results with RRF. Unlike pure vector databases, it has exactly that keyword half.</p>
-<p class="t">Freemium, RAG, Vector DB</p>
-</article>
-<article>
-<h2><a href="https://github.com/Graphify-Labs/graphify" rel="noopener noreferrer nofollow">Graphify</a></h2><span class="host">github.com</span>
-<p class="d">Walks a codebase via AST analysis and folds in docs, SQL schemas and PDFs to build a queryable graph. Unlike plain text search, it hands a coding agent the relationships — who calls whom, which table is used where — as context.</p>
-<p class="t">Open Source, GitHub, System Design, RAG</p>
-</article>
-<article>
-<h2><a href="https://microsoft.github.io/graphrag/" rel="noopener noreferrer nofollow">GraphRAG</a></h2><span class="host">microsoft.github.io</span>
-<p class="d">Extracts entities and relations into a knowledge graph, then builds community summaries. Unlike classic chunk-retrieval RAG, it can answer corpus-wide questions such as “what are the main themes here”.</p>
-<p class="t">Open Source, Python, RAG</p>
-</article>
-<article>
-<h2><a href="https://haystack.deepset.ai/" rel="noopener noreferrer nofollow">Haystack</a></h2><span class="host">haystack.deepset.ai</span>
-<p class="d">You wire components together explicitly, so what happens at each stage stays readable. Unlike LangChain’s implicit flow it is transparent — a visible win when debugging.</p>
-<p class="t">Open Source, Python, RAG, DevOps</p>
-</article>
-<article>
-<h2><a href="https://jina.ai" rel="noopener noreferrer nofollow">Jina AI</a></h2><span class="host">jina.ai</span>
-<p class="d">Multimodal embedding and search infrastructure that makes documents and images searchable by vector. Unlike single-modality embedding APIs it places text and images in one space, and it also offers a reader that turns web pages into model-ready text, plus rerankers.</p>
-<p class="t">RAG, Embedding, Open Source</p>
-</article>
-<article>
-<h2><a href="https://langchain-ai.github.io/langgraph/concepts/memory/" rel="noopener noreferrer nofollow">LangGraph Memory</a></h2><span class="host">langchain-ai.github.io</span>
-<p class="d">The concept page separating short-term memory (in-thread state) from long-term (a cross-thread store), and when each applies. Unlike general writing on agent memory, it ties the distinction to the concrete LangGraph API.</p>
-<p class="t">Docs, Agent</p>
-</article>
-<article>
-<h2><a href="https://www.letta.com/" rel="noopener noreferrer nofollow">Letta</a></h2><span class="host">letta.com</span>
-<p class="d">The productised form of the MemGPT research. Unlike flat vector memory, it manages the context window like an operating system, keeping hot state in the window and paging the rest to external storage.</p>
-<p class="t">Open Source, Python, Agent</p>
-</article>
-<article>
-<h2><a href="https://www.llamaindex.ai/" rel="noopener noreferrer nofollow">LlamaIndex</a></h2><span class="host">llamaindex.ai</span>
-<p class="d">Makes each stage — loading, chunking, indexing, querying — independently swappable. Not a general-purpose framework: it is built for someone tuning a retrieval pipeline.</p>
-<p class="t">Open Source, Python, RAG</p>
-</article>
-<article>
-<h2><a href="https://www.marqo.ai" rel="noopener noreferrer nofollow">Marqo</a></h2><span class="host">marqo.ai</span>
-<p class="d">An end-to-end vector search engine that handles everything from embedding generation to search. Instead of standing up a separate embedding service and vector database, you hand it raw text or images and search directly.</p>
-<p class="t">RAG, Vector DB, Open Source</p>
-</article>
-<article>
-<h2><a href="https://mem0.ai/" rel="noopener noreferrer nofollow">Mem0</a></h2><span class="host">mem0.ai</span>
-<p class="d">Stores facts extracted from conversation, updates contradictions and drops the irrelevant. A layer that decides what is worth remembering instead of accumulating raw history.</p>
-<p class="t">Paid, Freemium, Agent</p>
-</article>
-<article>
-<h2><a href="https://github.com/mem0ai/mem0" rel="noopener noreferrer nofollow">Mem0 (kaynak)</a></h2><span class="host">github.com</span>
-<p class="d">The self-hostable version of the Mem0 memory layer. Instead of the hosted Mem0 platform you keep the data yourself; the Embedchain project was merged in here too, so older Embedchain links land here.</p>
-<p class="t">Open Source, GitHub, Python, Agent</p>
-</article>
-<article>
-<h2><a href="https://milvus.io/" rel="noopener noreferrer nofollow">Milvus</a></h2><span class="host">milvus.io</span>
-<p class="d">A distributed vector database separating storage from compute, built for billion-scale collections. Compared with Qdrant it targets larger scale; the distributed setup wants Kubernetes, while Milvus Lite and a single-node build cover small projects.</p>
-<p class="t">Open Source, Vector DB, Docker, System Design</p>
-</article>
-<article>
-<h2><a href="https://neo4j.com/" rel="noopener noreferrer nofollow">Neo4j</a></h2><span class="host">neo4j.com</span>
-<p class="d">Relationships are first-class data, not foreign keys. Multi-hop traversals in Cypher are both shorter and faster than the nested JOINs the same question needs in SQL.</p>
-<p class="t">Freemium, Database</p>
-</article>
-<article>
-<h2><a href="https://platform.openai.com/docs/guides/embeddings" rel="noopener noreferrer nofollow">OpenAI Embeddings</a></h2><span class="host">platform.openai.com</span>
-<p class="d">Reference for the text-embedding-3 family — dimensions, pricing, usage. Compared with open embedding models there is nothing to operate, and Matryoshka support lets you truncate vector dimensions on demand to cut storage cost.</p>
-<p class="t">Docs, Embedding, API</p>
-</article>
-<article>
-<h2><a href="https://github.com/pgvector/pgvector" rel="noopener noreferrer nofollow">pgvector</a></h2><span class="host">github.com</span>
-<p class="d">An extension adding a vector type plus HNSW and IVFFlat indexes to PostgreSQL. Unlike a separate vector database, it keeps vectors in the same transaction as your relational data.</p>
-<p class="t">Open Source, GitHub, Database, Vector DB</p>
-</article>
-<article>
-<h2><a href="https://www.pinecone.io/" rel="noopener noreferrer nofollow">Pinecone</a></h2><span class="host">pinecone.io</span>
-<p class="d">A fully managed vector database whose serverless tier removes capacity planning. Compared with self-run options such as Qdrant or pgvector it has the lowest operational burden, at the cost of control over where the data sits.</p>
-<p class="t">Paid, Vector DB</p>
-</article>
-<article>
-<h2><a href="https://www.postgresql.org/" rel="noopener noreferrer nofollow">PostgreSQL</a></h2><span class="host">postgresql.org</span>
-<p class="d">With JSONB, full-text search and pgvector it now does the work of three separate systems. Instead of running a document store, a search engine and a vector database separately, it simplifies early-stage architecture considerably.</p>
-<p class="t">Open Source, Database</p>
-</article>
-<article>
-<h2><a href="https://qdrant.tech/" rel="noopener noreferrer nofollow">Qdrant</a></h2><span class="host">qdrant.tech</span>
-<p class="d">A vector database written in Rust that executes heavy metadata filtering alongside the vector search. Unlike Pinecone it is open source and self-hostable; its low memory footprint lets a small VPS carry a serious collection.</p>
-<p class="t">Open Source, Rust, Vector DB</p>
-</article>
-<article>
-<h2><a href="https://docs.ragas.io/" rel="noopener noreferrer nofollow">Ragas</a></h2><span class="host">docs.ragas.io</span>
-<p class="d">A metrics library for RAG pipelines, including metrics that work without reference answers. Instead of evaluating by reading samples by hand, it can generate a synthetic test set so evaluation runs in CI.</p>
-<p class="t">Open Source, Python, Observability, RAG</p>
-</article>
-<article>
-<h2><a href="https://ragflow.io/" rel="noopener noreferrer nofollow">RAGFlow</a></h2><span class="host">ragflow.io</span>
-<p class="d">Built on deep document parsing: it recognises complex PDF layouts, tables and figures before chunking. Not a library but a full service you stand up with Docker.</p>
-<p class="t">Open Source, Self-Hosted, RAG, Docker</p>
-</article>
-<article>
-<h2><a href="https://github.com/evermind-ai/raven" rel="noopener noreferrer nofollow">Raven</a></h2><span class="host">github.com</span>
-<p class="d">A memory-first agent harness. Unlike agents that start every session from scratch, it centres on learning across sessions and refining its own configuration.</p>
-<p class="t">Open Source, GitHub, Agent</p>
-</article>
-<article>
-<h2><a href="https://redis.io/" rel="noopener noreferrer nofollow">Redis</a></h2><span class="host">redis.io</span>
-<p class="d">An in-memory data structure store, used on the AI side for session state, rate-limit counters and response caching. Compared with a separate vector database, its advantage is that vector search is added to the cache you already run.</p>
-<p class="t">Open Source, Database</p>
-</article>
-<article>
-<h2><a href="https://sbert.net/" rel="noopener noreferrer nofollow">Sentence Transformers</a></h2><span class="host">sbert.net</span>
-<p class="d">The standard Python library for producing embeddings. Unlike embedding APIs the model runs locally — data stays put and there is no API bill; in exchange, GPU and memory management are yours.</p>
-<p class="t">Open Source, Python, Embedding, Self-Hosted</p>
-</article>
-<article>
-<h2><a href="https://www.trulens.org/" rel="noopener noreferrer nofollow">TruLens</a></h2><span class="host">trulens.org</span>
-<p class="d">Measures the RAG triad — context relevance, groundedness, answer relevance. Unlike evaluations that give one overall score it measures the three separately, which tells you whether the failure sits in retrieval or generation.</p>
-<p class="t">Open Source, Python, Observability, RAG</p>
-</article>
-<article>
-<h2><a href="https://unstructured.io/" rel="noopener noreferrer nofollow">Unstructured</a></h2><span class="host">unstructured.io</span>
-<p class="d">Reduces PDF, DOCX, HTML, email and slides to a shared document-element model. Unlike format-specific parsers it brings everything into one structure — and this first step is where RAG pipelines lose the most time and break most often.</p>
-<p class="t">Open Source, Python, RAG, Data Science</p>
-</article>
-<article>
-<h2><a href="https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings" rel="noopener noreferrer nofollow">Vertex AI Embeddings</a></h2><span class="host">cloud.google.com</span>
-<p class="d">The embedding service inside GCP. Compared with another provider’s embedding API, if your data sits in BigQuery, generating vectors within the same boundary makes sense for egress cost and data residency.</p>
-<p class="t">Docs, Embedding, Server</p>
-</article>
-<article>
-<h2><a href="https://www.voyageai.com/" rel="noopener noreferrer nofollow">Voyage AI</a></h2><span class="host">voyageai.com</span>
-<p class="d">Embedding models trained separately for law, code and finance; it joined MongoDB in 2025. Unlike general-purpose models it is domain-trained and claims to beat them in those domains — a claim to test on your own data.</p>
-<p class="t">API, Paid, Embedding</p>
-</article>
-<article>
-<h2><a href="https://weaviate.io/" rel="noopener noreferrer nofollow">Weaviate</a></h2><span class="host">weaviate.io</span>
-<p class="d">An open-source vector database. Unlike databases that only store vectors, it can host embedding generation as a module, so you write raw text without a separate embedding step; its query interface is GraphQL.</p>
-<p class="t">Open Source, Vector DB, API</p>
-</article>
-<article>
-<h2><a href="https://www.getzep.com/" rel="noopener noreferrer nofollow">Zep</a></h2><span class="host">getzep.com</span>
-<p class="d">Maintains a temporal knowledge graph for agents, recording when a fact held and when it was invalidated. Unlike flat vector memory, it can make exactly that distinction.</p>
-<p class="t">Open Source, Agent, RAG</p>
-</article>
+<main class="catpage">
+<p class="crumb"><a href="index.html">Index</a></p>
+<h1 class="ph">AI · RAG, Embeddings &amp; Vectors</h1>
+<p class="lede">On the retrieval side the decisions that matter are in the pipeline rather than the model: how you chunk documents, which embedding model you pick, whether you rerank. Choosing a vector database is usually the least consequential call — pgvector carries small projects, and running a separate system only pays for itself past a certain volume.</p>
+<p class="count">33 links</p>
+<div class="recs">
+<article class="rec"><span class="no">1</span><div class="rb">
+<div class="nm"><a class="name" href="https://www.mongodb.com/products/platform/atlas-vector-search" rel="noopener noreferrer nofollow">Atlas Vector Search</a><span class="host">mongodb.com</span></div>
+<p class="desc">The vector index sits beside your documents. Unlike a separate vector database, it removes the copy-and-sync burden; full support is on Atlas, and the feature is newer in self-managed MongoDB.</p>
+<div class="mt"><span class="itags">Paid · Vector DB · Database</span></div>
+</div></article>
+<article class="rec"><span class="no">2</span><div class="rb">
+<div class="nm"><a class="name" href="https://huggingface.co/BAAI" rel="noopener noreferrer nofollow">BGE Modelleri</a><span class="host">huggingface.co</span></div>
+<p class="desc">The most widely used family of open embedding models. Compared with paid embedding APIs it sits close on the MTEB leaderboard, and most releases are MIT — commercial use is unblocked and data stays on your machine.</p>
+<div class="mt"><span class="itags">Open Weights · Embedding</span></div>
+</div></article>
+<article class="rec"><span class="no">3</span><div class="rb">
+<div class="nm"><a class="name" href="https://www.trychroma.com/" rel="noopener noreferrer nofollow">Chroma</a><span class="host">trychroma.com</span></div>
+<p class="desc">A vector database that runs embedded in your application with no server process — usable straight after <code>pip install</code>. Unlike server-based ones such as Qdrant or Milvus it is the fastest for a prototype; at production scale you may hand off to something else.</p>
+<div class="mt"><span class="itags">Open Source · Python · Vector DB</span></div>
+</div></article>
+<article class="rec"><span class="no">4</span><div class="rb">
+<div class="nm"><a class="name" href="https://cohere.com/embed" rel="noopener noreferrer nofollow">Cohere Embed</a><span class="host">cohere.com</span></div>
+<p class="desc">Represents 100+ languages in one vector space, so a Turkish query can retrieve an English document. Unlike OpenAI embeddings it takes separate input types for query and document — the distinction that lifts match quality.</p>
+<div class="mt"><span class="itags">API · Paid · Embedding</span></div>
+</div></article>
+<article class="rec"><span class="no">5</span><div class="rb">
+<div class="nm"><a class="name" href="https://www.elastic.co/elasticsearch" rel="noopener noreferrer nofollow">Elasticsearch</a><span class="host">elastic.co</span></div>
+<p class="desc">Combines BM25 keyword search with vector search in a single query and fuses the results with RRF. Unlike pure vector databases, it has exactly that keyword half.</p>
+<div class="mt"><span class="itags">Freemium · RAG · Vector DB</span></div>
+</div></article>
+<article class="rec"><span class="no">6</span><div class="rb">
+<div class="nm"><a class="name" href="https://github.com/Graphify-Labs/graphify" rel="noopener noreferrer nofollow">Graphify</a><span class="host">github.com</span></div>
+<p class="desc">Walks a codebase via AST analysis and folds in docs, SQL schemas and PDFs to build a queryable graph. Unlike plain text search, it hands a coding agent the relationships — who calls whom, which table is used where — as context.</p>
+<div class="mt"><span class="itags">Open Source · GitHub · System Design · RAG</span></div>
+</div></article>
+<article class="rec"><span class="no">7</span><div class="rb">
+<div class="nm"><a class="name" href="https://microsoft.github.io/graphrag/" rel="noopener noreferrer nofollow">GraphRAG</a><span class="host">microsoft.github.io</span></div>
+<p class="desc">Extracts entities and relations into a knowledge graph, then builds community summaries. Unlike classic chunk-retrieval RAG, it can answer corpus-wide questions such as “what are the main themes here”.</p>
+<div class="mt"><span class="itags">Open Source · Python · RAG</span></div>
+</div></article>
+<article class="rec"><span class="no">8</span><div class="rb">
+<div class="nm"><a class="name" href="https://haystack.deepset.ai/" rel="noopener noreferrer nofollow">Haystack</a><span class="host">haystack.deepset.ai</span></div>
+<p class="desc">You wire components together explicitly, so what happens at each stage stays readable. Unlike LangChain’s implicit flow it is transparent — a visible win when debugging.</p>
+<div class="mt"><span class="itags">Open Source · Python · RAG · DevOps</span></div>
+</div></article>
+<article class="rec"><span class="no">9</span><div class="rb">
+<div class="nm"><a class="name" href="https://jina.ai" rel="noopener noreferrer nofollow">Jina AI</a><span class="host">jina.ai</span></div>
+<p class="desc">Multimodal embedding and search infrastructure that makes documents and images searchable by vector. Unlike single-modality embedding APIs it places text and images in one space, and it also offers a reader that turns web pages into model-ready text, plus rerankers.</p>
+<div class="mt"><span class="itags">RAG · Embedding · Open Source</span></div>
+</div></article>
+<article class="rec"><span class="no">10</span><div class="rb">
+<div class="nm"><a class="name" href="https://langchain-ai.github.io/langgraph/concepts/memory/" rel="noopener noreferrer nofollow">LangGraph Memory</a><span class="host">langchain-ai.github.io</span></div>
+<p class="desc">The concept page separating short-term memory (in-thread state) from long-term (a cross-thread store), and when each applies. Unlike general writing on agent memory, it ties the distinction to the concrete LangGraph API.</p>
+<div class="mt"><span class="itags">Docs · Agent</span></div>
+</div></article>
+<article class="rec"><span class="no">11</span><div class="rb">
+<div class="nm"><a class="name" href="https://www.letta.com/" rel="noopener noreferrer nofollow">Letta</a><span class="host">letta.com</span></div>
+<p class="desc">The productised form of the MemGPT research. Unlike flat vector memory, it manages the context window like an operating system, keeping hot state in the window and paging the rest to external storage.</p>
+<div class="mt"><span class="itags">Open Source · Python · Agent</span></div>
+</div></article>
+<article class="rec"><span class="no">12</span><div class="rb">
+<div class="nm"><a class="name" href="https://www.llamaindex.ai/" rel="noopener noreferrer nofollow">LlamaIndex</a><span class="host">llamaindex.ai</span></div>
+<p class="desc">Makes each stage — loading, chunking, indexing, querying — independently swappable. Not a general-purpose framework: it is built for someone tuning a retrieval pipeline.</p>
+<div class="mt"><span class="itags">Open Source · Python · RAG</span></div>
+</div></article>
+<article class="rec"><span class="no">13</span><div class="rb">
+<div class="nm"><a class="name" href="https://www.marqo.ai" rel="noopener noreferrer nofollow">Marqo</a><span class="host">marqo.ai</span></div>
+<p class="desc">An end-to-end vector search engine that handles everything from embedding generation to search. Instead of standing up a separate embedding service and vector database, you hand it raw text or images and search directly.</p>
+<div class="mt"><span class="itags">RAG · Vector DB · Open Source</span></div>
+</div></article>
+<article class="rec"><span class="no">14</span><div class="rb">
+<div class="nm"><a class="name" href="https://mem0.ai/" rel="noopener noreferrer nofollow">Mem0</a><span class="host">mem0.ai</span></div>
+<p class="desc">Stores facts extracted from conversation, updates contradictions and drops the irrelevant. A layer that decides what is worth remembering instead of accumulating raw history.</p>
+<div class="mt"><span class="itags">Paid · Freemium · Agent</span></div>
+</div></article>
+<article class="rec"><span class="no">15</span><div class="rb">
+<div class="nm"><a class="name" href="https://github.com/mem0ai/mem0" rel="noopener noreferrer nofollow">Mem0 (kaynak)</a><span class="host">github.com</span></div>
+<p class="desc">The self-hostable version of the Mem0 memory layer. Instead of the hosted Mem0 platform you keep the data yourself; the Embedchain project was merged in here too, so older Embedchain links land here.</p>
+<div class="mt"><span class="itags">Open Source · GitHub · Python · Agent</span></div>
+</div></article>
+<article class="rec"><span class="no">16</span><div class="rb">
+<div class="nm"><a class="name" href="https://milvus.io/" rel="noopener noreferrer nofollow">Milvus</a><span class="host">milvus.io</span></div>
+<p class="desc">A distributed vector database separating storage from compute, built for billion-scale collections. Compared with Qdrant it targets larger scale; the distributed setup wants Kubernetes, while Milvus Lite and a single-node build cover small projects.</p>
+<div class="mt"><span class="itags">Open Source · Vector DB · Docker · System Design</span></div>
+</div></article>
+<article class="rec"><span class="no">17</span><div class="rb">
+<div class="nm"><a class="name" href="https://neo4j.com/" rel="noopener noreferrer nofollow">Neo4j</a><span class="host">neo4j.com</span></div>
+<p class="desc">Relationships are first-class data, not foreign keys. Multi-hop traversals in Cypher are both shorter and faster than the nested JOINs the same question needs in SQL.</p>
+<div class="mt"><span class="itags">Freemium · Database</span></div>
+</div></article>
+<article class="rec"><span class="no">18</span><div class="rb">
+<div class="nm"><a class="name" href="https://platform.openai.com/docs/guides/embeddings" rel="noopener noreferrer nofollow">OpenAI Embeddings</a><span class="host">platform.openai.com</span></div>
+<p class="desc">Reference for the text-embedding-3 family — dimensions, pricing, usage. Compared with open embedding models there is nothing to operate, and Matryoshka support lets you truncate vector dimensions on demand to cut storage cost.</p>
+<div class="mt"><span class="itags">Docs · Embedding · API</span></div>
+</div></article>
+<article class="rec"><span class="no">19</span><div class="rb">
+<div class="nm"><a class="name" href="https://github.com/pgvector/pgvector" rel="noopener noreferrer nofollow">pgvector</a><span class="host">github.com</span></div>
+<p class="desc">An extension adding a vector type plus HNSW and IVFFlat indexes to PostgreSQL. Unlike a separate vector database, it keeps vectors in the same transaction as your relational data.</p>
+<div class="mt"><span class="itags">Open Source · GitHub · Database · Vector DB</span></div>
+</div></article>
+<article class="rec"><span class="no">20</span><div class="rb">
+<div class="nm"><a class="name" href="https://www.pinecone.io/" rel="noopener noreferrer nofollow">Pinecone</a><span class="host">pinecone.io</span></div>
+<p class="desc">A fully managed vector database whose serverless tier removes capacity planning. Compared with self-run options such as Qdrant or pgvector it has the lowest operational burden, at the cost of control over where the data sits.</p>
+<div class="mt"><span class="itags">Paid · Vector DB</span></div>
+</div></article>
+<article class="rec"><span class="no">21</span><div class="rb">
+<div class="nm"><a class="name" href="https://www.postgresql.org/" rel="noopener noreferrer nofollow">PostgreSQL</a><span class="host">postgresql.org</span></div>
+<p class="desc">With JSONB, full-text search and pgvector it now does the work of three separate systems. Instead of running a document store, a search engine and a vector database separately, it simplifies early-stage architecture considerably.</p>
+<div class="mt"><span class="itags">Open Source · Database</span></div>
+</div></article>
+<article class="rec"><span class="no">22</span><div class="rb">
+<div class="nm"><a class="name" href="https://qdrant.tech/" rel="noopener noreferrer nofollow">Qdrant</a><span class="host">qdrant.tech</span></div>
+<p class="desc">A vector database written in Rust that executes heavy metadata filtering alongside the vector search. Unlike Pinecone it is open source and self-hostable; its low memory footprint lets a small VPS carry a serious collection.</p>
+<div class="mt"><span class="itags">Open Source · Rust · Vector DB</span></div>
+</div></article>
+<article class="rec"><span class="no">23</span><div class="rb">
+<div class="nm"><a class="name" href="https://docs.ragas.io/" rel="noopener noreferrer nofollow">Ragas</a><span class="host">docs.ragas.io</span></div>
+<p class="desc">A metrics library for RAG pipelines, including metrics that work without reference answers. Instead of evaluating by reading samples by hand, it can generate a synthetic test set so evaluation runs in CI.</p>
+<div class="mt"><span class="itags">Open Source · Python · Observability · RAG</span></div>
+</div></article>
+<article class="rec"><span class="no">24</span><div class="rb">
+<div class="nm"><a class="name" href="https://ragflow.io/" rel="noopener noreferrer nofollow">RAGFlow</a><span class="host">ragflow.io</span></div>
+<p class="desc">Built on deep document parsing: it recognises complex PDF layouts, tables and figures before chunking. Not a library but a full service you stand up with Docker.</p>
+<div class="mt"><span class="itags">Open Source · Self-Hosted · RAG · Docker</span></div>
+</div></article>
+<article class="rec"><span class="no">25</span><div class="rb">
+<div class="nm"><a class="name" href="https://github.com/evermind-ai/raven" rel="noopener noreferrer nofollow">Raven</a><span class="host">github.com</span></div>
+<p class="desc">A memory-first agent harness. Unlike agents that start every session from scratch, it centres on learning across sessions and refining its own configuration.</p>
+<div class="mt"><span class="itags">Open Source · GitHub · Agent</span></div>
+</div></article>
+<article class="rec"><span class="no">26</span><div class="rb">
+<div class="nm"><a class="name" href="https://redis.io/" rel="noopener noreferrer nofollow">Redis</a><span class="host">redis.io</span></div>
+<p class="desc">An in-memory data structure store, used on the AI side for session state, rate-limit counters and response caching. Compared with a separate vector database, its advantage is that vector search is added to the cache you already run.</p>
+<div class="mt"><span class="itags">Open Source · Database</span></div>
+</div></article>
+<article class="rec"><span class="no">27</span><div class="rb">
+<div class="nm"><a class="name" href="https://sbert.net/" rel="noopener noreferrer nofollow">Sentence Transformers</a><span class="host">sbert.net</span></div>
+<p class="desc">The standard Python library for producing embeddings. Unlike embedding APIs the model runs locally — data stays put and there is no API bill; in exchange, GPU and memory management are yours.</p>
+<div class="mt"><span class="itags">Open Source · Python · Embedding · Self-Hosted</span></div>
+</div></article>
+<article class="rec"><span class="no">28</span><div class="rb">
+<div class="nm"><a class="name" href="https://www.trulens.org/" rel="noopener noreferrer nofollow">TruLens</a><span class="host">trulens.org</span></div>
+<p class="desc">Measures the RAG triad — context relevance, groundedness, answer relevance. Unlike evaluations that give one overall score it measures the three separately, which tells you whether the failure sits in retrieval or generation.</p>
+<div class="mt"><span class="itags">Open Source · Python · Observability · RAG</span></div>
+</div></article>
+<article class="rec"><span class="no">29</span><div class="rb">
+<div class="nm"><a class="name" href="https://unstructured.io/" rel="noopener noreferrer nofollow">Unstructured</a><span class="host">unstructured.io</span></div>
+<p class="desc">Reduces PDF, DOCX, HTML, email and slides to a shared document-element model. Unlike format-specific parsers it brings everything into one structure — and this first step is where RAG pipelines lose the most time and break most often.</p>
+<div class="mt"><span class="itags">Open Source · Python · RAG · Data Science</span></div>
+</div></article>
+<article class="rec"><span class="no">30</span><div class="rb">
+<div class="nm"><a class="name" href="https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings" rel="noopener noreferrer nofollow">Vertex AI Embeddings</a><span class="host">cloud.google.com</span></div>
+<p class="desc">The embedding service inside GCP. Compared with another provider’s embedding API, if your data sits in BigQuery, generating vectors within the same boundary makes sense for egress cost and data residency.</p>
+<div class="mt"><span class="itags">Docs · Embedding · Server</span></div>
+</div></article>
+<article class="rec"><span class="no">31</span><div class="rb">
+<div class="nm"><a class="name" href="https://www.voyageai.com/" rel="noopener noreferrer nofollow">Voyage AI</a><span class="host">voyageai.com</span></div>
+<p class="desc">Embedding models trained separately for law, code and finance; it joined MongoDB in 2025. Unlike general-purpose models it is domain-trained and claims to beat them in those domains — a claim to test on your own data.</p>
+<div class="mt"><span class="itags">API · Paid · Embedding</span></div>
+</div></article>
+<article class="rec"><span class="no">32</span><div class="rb">
+<div class="nm"><a class="name" href="https://weaviate.io/" rel="noopener noreferrer nofollow">Weaviate</a><span class="host">weaviate.io</span></div>
+<p class="desc">An open-source vector database. Unlike databases that only store vectors, it can host embedding generation as a module, so you write raw text without a separate embedding step; its query interface is GraphQL.</p>
+<div class="mt"><span class="itags">Open Source · Vector DB · API</span></div>
+</div></article>
+<article class="rec"><span class="no">33</span><div class="rb">
+<div class="nm"><a class="name" href="https://www.getzep.com/" rel="noopener noreferrer nofollow">Zep</a><span class="host">getzep.com</span></div>
+<p class="desc">Maintains a temporal knowledge graph for agents, recording when a fact held and when it was invalidated. Unlike flat vector memory, it can make exactly that distinction.</p>
+<div class="mt"><span class="itags">Open Source · Agent · RAG</span></div>
+</div></article>
+</div>
+<nav class="other"><h2 class="sh">Other headings</h2><p><a href="diller.html">Programming Languages</a> <a href="web.html">Web &amp; Frontend</a> <a href="backend.html">Backend, API &amp; System Design</a> <a href="mobil.html">Mobile &amp; Desktop</a> <a href="veritabani.html">Databases</a> <a href="pratik.html">Practice &amp; Challenges</a> <a href="test.html">Testing &amp; QA</a> <a href="oyun.html">Game Development</a> <a href="yz_model.html">AI · Models &amp; Assistants</a> <a href="yz_altyapi.html">AI · Agents &amp; Infrastructure</a> <a href="yz_arac.html">AI · Applied Tools</a> <a href="yz_uretim.html">AI · Generative Media</a> <a href="devops.html">DevOps &amp; Infrastructure</a> <a href="ag.html">Networking &amp; Sysadmin</a> <a href="barindirma.html">Self-Hosting &amp; Personal Cloud</a> <a href="donanim.html">Hardware, CAD &amp; Embedded</a> <a href="elektronik.html">Electrical &amp; Electronics</a> <a href="gozluk.html">Smart Glasses &amp; Wearables</a> <a href="guvenlik.html">Privacy &amp; Personal Security</a> <a href="guv_teknik.html">Offence, Defence &amp; OSINT</a> <a href="guv_lab.html">CTF &amp; Hands-on Labs</a> <a href="guv_kariyer.html">Certification &amp; Career</a> <a href="veri.html">Data Science &amp; ML</a> <a href="veri_muh.html">Data Engineering</a> <a href="bilim.html">Science &amp; Academia</a> <a href="matematik.html">Mathematics</a> <a href="kuantum.html">Quantum Computing</a> <a href="ekonomi.html">Economics</a> <a href="finans.html">Finance, Markets &amp; Crypto</a> <a href="medya.html">Media, Design &amp; Files</a> <a href="mimari.html">Architecture &amp; Building</a> <a href="ogrenme.html">Learning &amp; Roadmaps</a> <a href="kitaplik.html">Free Books &amp; Long Reads</a> <a href="referans.html">Cheat Sheets &amp; Quick Reference</a> <a href="koleksiyon.html">Lists, Directories &amp; Discovery</a> <a href="acik_kaynak.html">Open Source &amp; Contributing</a> <a href="editor.html">Editors, IDEs &amp; Terminals</a> <a href="oyunalani.html">Online Playgrounds &amp; Compilers</a> <a href="donusturucu.html">Converters, Formatters &amp; Checkers</a> <a href="araclar.html">Productivity &amp; Everyday Tools</a> <a href="acik_erisim.html">Open Access &amp; Archives</a> <a href="korsan.html">Piracy</a></p></nav>
 </main>
-<nav class="other"><a href="diller.html">Programming Languages</a> <a href="web.html">Web &amp; Frontend</a> <a href="backend.html">Backend, API &amp; System Design</a> <a href="mobil.html">Mobile &amp; Desktop</a> <a href="veritabani.html">Databases</a> <a href="pratik.html">Practice &amp; Challenges</a> <a href="test.html">Testing &amp; QA</a> <a href="oyun.html">Game Development</a> <a href="yz_model.html">AI · Models &amp; Assistants</a> <a href="yz_altyapi.html">AI · Agents &amp; Infrastructure</a> <a href="yz_arac.html">AI · Applied Tools</a> <a href="yz_uretim.html">AI · Generative Media</a> <a href="devops.html">DevOps &amp; Infrastructure</a> <a href="ag.html">Networking &amp; Sysadmin</a> <a href="barindirma.html">Self-Hosting &amp; Personal Cloud</a> <a href="donanim.html">Hardware, CAD &amp; Embedded</a> <a href="elektronik.html">Electrical &amp; Electronics</a> <a href="gozluk.html">Smart Glasses &amp; Wearables</a> <a href="guvenlik.html">Privacy &amp; Personal Security</a> <a href="guv_teknik.html">Offence, Defence &amp; OSINT</a> <a href="guv_lab.html">CTF &amp; Hands-on Labs</a> <a href="guv_kariyer.html">Certification &amp; Career</a> <a href="veri.html">Data Science &amp; ML</a> <a href="veri_muh.html">Data Engineering</a> <a href="bilim.html">Science &amp; Academia</a> <a href="matematik.html">Mathematics</a> <a href="kuantum.html">Quantum Computing</a> <a href="ekonomi.html">Economics</a> <a href="finans.html">Finance, Markets &amp; Crypto</a> <a href="medya.html">Media, Design &amp; Files</a> <a href="mimari.html">Architecture &amp; Building</a> <a href="ogrenme.html">Learning &amp; Roadmaps</a> <a href="kitaplik.html">Free Books &amp; Long Reads</a> <a href="referans.html">Cheat Sheets &amp; Quick Reference</a> <a href="koleksiyon.html">Lists, Directories &amp; Discovery</a> <a href="acik_kaynak.html">Open Source &amp; Contributing</a> <a href="editor.html">Editors, IDEs &amp; Terminals</a> <a href="oyunalani.html">Online Playgrounds &amp; Compilers</a> <a href="donusturucu.html">Converters, Formatters &amp; Checkers</a> <a href="araclar.html">Productivity &amp; Everyday Tools</a> <a href="acik_erisim.html">Open Access &amp; Archives</a> <a href="korsan.html">Piracy</a></nav>
 <footer>
 The plain-text edition of the AI · RAG, Embeddings &amp; Vectors section. For search, tag filtering and Turkish descriptions, <a href="https://latifkedi.github.io/useful-sites/?cat=yz_rag">go to the directory</a>. <a href="https://latifkedi.github.io/useful-sites/k/yz_rag.html">Türkçe</a>
 </footer>
+</div>
 </body>
 </html>

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src 'self' data:; font-src 'self'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self' data:; font-src 'self'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Veri Mühendisliği — Kullanışlı Siteler</title>
 <meta name="description" content="Veri mühendisliği veriyi taşımak, dönüştürmek ve güvenilir kılmakla ilgilenir — analizden önceki katman. Spark ve Flink işler, Kafka taşır, dbt dönüştürür, Airflow ve Dagster orkes">
@@ -20,177 +20,146 @@
 <link rel="alternate" hreflang="en" href="https://latifkedi.github.io/useful-sites/k/en/veri_muh.html">
 <link rel="alternate" hreflang="x-default" href="https://latifkedi.github.io/useful-sites/k/veri_muh.html">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"Veri Mühendisliği","url":"https://latifkedi.github.io/useful-sites/k/veri_muh.html","inLanguage":"tr","numberOfItems":24,"itemListOrder":"https://schema.org/ItemListOrderAscending","itemListElement":[{"@type":"ListItem","position":1,"url":"https://airbyte.com","name":"Airbyte"},{"@type":"ListItem","position":2,"url":"https://flink.apache.org/","name":"Apache Flink"},{"@type":"ListItem","position":3,"url":"https://iceberg.apache.org/","name":"Apache Iceberg"},{"@type":"ListItem","position":4,"url":"https://kafka.apache.org/","name":"Apache Kafka"},{"@type":"ListItem","position":5,"url":"https://spark.apache.org/","name":"Apache Spark"},{"@type":"ListItem","position":6,"url":"https://github.com/igorbarinov/awesome-data-engineering","name":"Awesome Data Engineering"},{"@type":"ListItem","position":7,"url":"https://github.com/youngwookim/awesome-hadoop","name":"Awesome Hadoop"},{"@type":"ListItem","position":8,"url":"https://github.com/dstdev/awesome-hpc","name":"Awesome HPC"},{"@type":"ListItem","position":9,"url":"https://github.com/awesome-spark/awesome-spark","name":"Awesome Spark"},{"@type":"ListItem","position":10,"url":"https://clickhouse.com","name":"ClickHouse"},{"@type":"ListItem","position":11,"url":"https://dagster.io/","name":"Dagster"},{"@type":"ListItem","position":12,"url":"https://www.dataengineeringpodcast.com","name":"Data Engineering Podcast"},{"@type":"ListItem","position":13,"url":"https://github.com/DataTalksClub/data-engineering-zoomcamp","name":"Data Engineering Zoomcamp"},{"@type":"ListItem","position":14,"url":"https://www.databricks.com/","name":"Databricks"},{"@type":"ListItem","position":15,"url":"https://datatalks.club","name":"DataTalks.Club"},{"@type":"ListItem","position":16,"url":"https://www.getdbt.com/","name":"dbt"},{"@type":"ListItem","position":17,"url":"https://delta.io","name":"Delta Lake"},{"@type":"ListItem","position":18,"url":"https://duckdb.org/","name":"DuckDB"},{"@type":"ListItem","position":19,"url":"https://greatexpectations.io","name":"Great Expectations"},{"@type":"ListItem","position":20,"url":"https://github.com/dagworks-inc/hamilton","name":"Hamilton"},{"@type":"ListItem","position":21,"url":"https://meltano.com","name":"Meltano"},{"@type":"ListItem","position":22,"url":"https://learn.microsoft.com/en-us/training/career-paths/data-engineer","name":"Microsoft · Data Engineer Path"},{"@type":"ListItem","position":23,"url":"https://github.com/JerryLead/SparkInternals","name":"Spark Internals"},{"@type":"ListItem","position":24,"url":"https://trino.io","name":"Trino"}]}</script>
-<style>@font-face{
-font-family:"Serif Fallback";src:local("Georgia"),local("Times New Roman"),local("Iowan Old Style");
-size-adjust:98.7%;ascent-override:105%;descent-override:34%;line-gap-override:0%}
-@font-face{font-family:"Source Serif 4";font-style:normal;font-weight:400;font-display:swap;
-src:url("../fonts/serif-400.woff2") format("woff2")}
-@font-face{font-family:"Source Serif 4";font-style:normal;font-weight:600;font-display:swap;
-src:url("../fonts/serif-600.woff2") format("woff2")}
-:root{--bg:#faf9f5;--fg:#33312b;--dim:#63605a;--faint:#6e6b63;
---rule:#e3dfd6;--accent:#141310;--accent-soft:#e8e4da;
---serif:"Source Serif 4","Serif Fallback",Georgia,"Times New Roman",serif}
-@media (prefers-color-scheme:dark){:root{--bg:#141311;--fg:#e6e3da;--dim:#a5a199;
---faint:#89867e;--rule:#2b2a26;--accent:#f4f1e8;--accent-soft:#2a2823}}
-*{box-sizing:border-box}
-body{margin:0 auto;padding:0 24px 72px;max-width:820px;background:var(--bg);color:var(--fg);
-font:17px/1.62 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
-a{color:var(--fg)}
-header{padding:48px 0 20px;border-bottom:1px solid var(--rule)}
-.up{font:12.5px/1 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--dim);
-text-decoration:none;letter-spacing:.04em}
-.up:hover{color:var(--accent)}
-h1{font:600 31px/1.2 var(--serif);letter-spacing:-.014em;margin:16px 0 0}
-.intro{color:var(--dim);font-size:16px;line-height:1.7;margin:12px 0 0;max-width:66ch}
-.n{font:12.5px/1 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--faint);
-margin-top:10px;display:block}
-article{padding:16px 0 16px 14px;border-left:2px solid var(--rule);margin:26px 0 0}
-article h2{font:600 18px/1.3 var(--serif);letter-spacing:-.004em;margin:0;display:inline}
-article h2 a{text-decoration:none}
-article h2 a:hover{color:var(--accent);text-decoration:underline;text-underline-offset:3px}
-.host{font:12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--faint);margin-left:8px}
-p.d{color:var(--dim);font-size:15.5px;line-height:1.7;margin:7px 0 0}
-p.t{font:12px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--faint);margin:8px 0 0}
-nav.other{margin:56px 0 0;padding-top:22px;border-top:1px solid var(--rule);
-font-size:15px;line-height:2}
-nav.other a{color:var(--dim);text-decoration:none;margin-right:18px}
-nav.other a:hover{color:var(--accent)}
-footer{margin-top:40px;padding-top:20px;border-top:1px solid var(--rule);
-color:var(--faint);font-size:14px;line-height:1.8}
-footer a{color:var(--dim)}</style>
+<link rel="stylesheet" href="../style.css?v=4318a81e">
 </head>
-<body>
-<header>
-<a class="up" href="https://latifkedi.github.io/useful-sites/">← Kullanışlı Siteler</a>
-<h1>Veri Mühendisliği</h1>
-<p class="intro">Veri mühendisliği veriyi taşımak, dönüştürmek ve güvenilir kılmakla ilgilenir — analizden önceki katman. Spark ve Flink işler, Kafka taşır, dbt dönüştürür, Airflow ve Dagster orkestra eder; ambar tarafında DuckDB ve Iceberg yeni dengeyi kurar.</p>
-<span class="n">24 bağlantı</span>
+<body class="static">
+<div class="wrap">
+<header class="top">
+<a class="logo" href="https://latifkedi.github.io/useful-sites/"><svg class="enso" viewBox="0 0 60 60" aria-hidden="true"><path d="M43 12A22 22 0 1 0 51 30"/></svg><span>Kullanışlı Siteler</span></a>
+<nav class="acts"><a class="lnk" href="https://latifkedi.github.io/useful-sites/?cat=veri_muh">← Aranabilir sürüme dön</a><a class="lnk" href="https://latifkedi.github.io/useful-sites/k/en/veri_muh.html">English</a></nav>
 </header>
-<main>
-<article>
-<h2><a href="https://airbyte.com" rel="noopener noreferrer nofollow">Airbyte</a></h2><span class="host">airbyte.com</span>
-<p class="d">Geniş bağlayıcı kataloğuyla açık kaynak veri entegrasyonu (ELT); kendi sunucunda barındırılabiliyor. Fivetran gibi kapalı servislerden farkı açık kaynak olması ve eksik bağlayıcıyı kendin yazabilmen.</p>
-<p class="t">Veri Bilimi, Açık Kaynak, Otomasyon, Kendi Sunucunda</p>
-</article>
-<article>
-<h2><a href="https://flink.apache.org/" rel="noopener noreferrer nofollow">Apache Flink</a></h2><span class="host">flink.apache.org</span>
-<p class="d">Gerçek zamanlı akış işleme motoru; olayları geldikçe, düşük gecikmeyle işler. Spark’ın toplu kökeninden farkı akışı birinci sınıf model olarak alması.</p>
-<p class="t">Açık Kaynak, Otomasyon</p>
-</article>
-<article>
-<h2><a href="https://iceberg.apache.org/" rel="noopener noreferrer nofollow">Apache Iceberg</a></h2><span class="host">iceberg.apache.org</span>
-<p class="d">Büyük analitik tablolar için açık tablo biçimi; şema evrimi, zaman yolculuğu ve atomik yazma verir. Ham Parquet dizininden farkı tabloyu tutarlı, sürümlenebilir bir birim gibi yönetmesi.</p>
-<p class="t">Açık Kaynak, Veritabanı</p>
-</article>
-<article>
-<h2><a href="https://kafka.apache.org/" rel="noopener noreferrer nofollow">Apache Kafka</a></h2><span class="host">kafka.apache.org</span>
-<p class="d">Mesajları tüketildikten sonra da saklıyor; tüketiciler kendi konumlarını (offset) taşıyıp geçmişi yeniden okuyabiliyor. Klasik kuyruklardan (RabbitMQ) asıl ayrımı bu kalıcılık ve yeniden oynatma.</p>
-<p class="t">Açık Kaynak, Otomasyon</p>
-</article>
-<article>
-<h2><a href="https://spark.apache.org/" rel="noopener noreferrer nofollow">Apache Spark</a></h2><span class="host">spark.apache.org</span>
-<p class="d">Büyük veriyi bellek üstünde dağıtık işleyen motor — toplu ve akış işleme. Tek makine kütüphanelerinden farkı terabaytları küme üzerinde bölüştürüp paralel işlemesi.</p>
-<p class="t">Açık Kaynak, Veri Bilimi, Otomasyon</p>
-</article>
-<article>
-<h2><a href="https://github.com/igorbarinov/awesome-data-engineering" rel="noopener noreferrer nofollow">Awesome Data Engineering</a></h2><span class="host">github.com</span>
-<p class="d">Veri mühendisliğinin tüm katmanlarını — alım, depolama, işleme, orkestrasyon — araçlarıyla toplayan liste. Tek araca bağlı listelerden farkı yığının bütününü haritalaması.</p>
-<p class="t">Awesome Liste, GitHub, Referans</p>
-</article>
-<article>
-<h2><a href="https://github.com/youngwookim/awesome-hadoop" rel="noopener noreferrer nofollow">Awesome Hadoop</a></h2><span class="host">github.com</span>
-<p class="d">Dağıtık depolama ve işleme çatısı Hadoop için kaynak listesi. Spark gibi bellek içi motorların listelerinden farkı disk tabanlı HDFS ve MapReduce ekosistemine odaklanması.</p>
-<p class="t">Awesome Liste, GitHub, Veri Bilimi</p>
-</article>
-<article>
-<h2><a href="https://github.com/dstdev/awesome-hpc" rel="noopener noreferrer nofollow">Awesome HPC</a></h2><span class="host">github.com</span>
-<p class="d">Yüksek başarımlı hesaplama (HPC) için araç, kütüphane ve kaynak listesi. Genel DevOps listelerinden farkı küme yönetimine, Slurm gibi iş zamanlayıcılara ve MPI ile paralel programlamaya odaklanması.</p>
-<p class="t">Awesome Liste, GitHub, Veri Bilimi</p>
-</article>
-<article>
-<h2><a href="https://github.com/awesome-spark/awesome-spark" rel="noopener noreferrer nofollow">Awesome Spark</a></h2><span class="host">github.com</span>
-<p class="d">Apache Spark ekosistemi için paket, öğretici ve örnek listesi. Resmî dokümandan farkı topluluk kütüphanelerini ve gerçek dünya örneklerini toplaması.</p>
-<p class="t">Awesome Liste, GitHub, Açık Kaynak</p>
-</article>
-<article>
-<h2><a href="https://clickhouse.com" rel="noopener noreferrer nofollow">ClickHouse</a></h2><span class="host">clickhouse.com</span>
-<p class="d">Analitik için sütun temelli OLAP veritabanı; büyük ölçekte çok hızlı toplama yapıyor. PostgreSQL gibi satır temelli veritabanlarından farkı milyarlarca satırda toplama sorgularını saniyeler içinde bitirmesi; tekil kayıt güncellemede zayıf.</p>
-<p class="t">Veri Bilimi, Veritabanı, Açık Kaynak, Sunucu</p>
-</article>
-<article>
-<h2><a href="https://dagster.io/" rel="noopener noreferrer nofollow">Dagster</a></h2><span class="host">dagster.io</span>
-<p class="d">Veri varlıklarını merkeze alan orkestratör; her tabloyu bir “varlık” olarak izliyor. Airflow’dan farkı görevden çok üretilen veriye odaklanıp veri kalitesini yerleşik tutması.</p>
-<p class="t">Açık Kaynak, Otomasyon, Python</p>
-</article>
-<article>
-<h2><a href="https://www.dataengineeringpodcast.com" rel="noopener noreferrer nofollow">Data Engineering Podcast</a></h2><span class="host">dataengineeringpodcast.com</span>
-<p class="d">Veri mühendisliği araç ve mimarilerini derinlemesine konuşan uzun söyleşiler. Araç belgelerinden farkı bir aracın gerçekte neden ve nasıl seçildiğini uygulayanların ağzından anlatması.</p>
-<p class="t">Veri Bilimi, Referans, Ücretsiz</p>
-</article>
-<article>
-<h2><a href="https://github.com/DataTalksClub/data-engineering-zoomcamp" rel="noopener noreferrer nofollow">Data Engineering Zoomcamp</a></h2><span class="host">github.com</span>
-<p class="d">Veri mühendisliğini uçtan uca (Docker, dbt, Spark, Kafka, bulut) öğreten ücretsiz, projeli kurs. Dağınık öğreticilerden farkı gerçek bir boru hattını baştan sona kurdurması.</p>
-<p class="t">Müfredat, Ücretsiz, GitHub</p>
-</article>
-<article>
-<h2><a href="https://www.databricks.com/" rel="noopener noreferrer nofollow">Databricks</a></h2><span class="host">databricks.com</span>
-<p class="d">Spark üstüne kurulu, veri gölü ile ambarı birleştiren (“lakehouse”) bulut platformu. Ayrı ambar ve göl kurmaktan farkı ikisini tek yönetişim ve defter arayüzünde toplaması.</p>
-<p class="t">Veri Bilimi, Freemium, Otomasyon</p>
-</article>
-<article>
-<h2><a href="https://datatalks.club" rel="noopener noreferrer nofollow">DataTalks.Club</a></h2><span class="host">datatalks.club</span>
-<p class="d">Uygulamalı veri mühendisliği ve ML kampları (zoomcamp) sunan ücretsiz topluluk. Ücretli bootcamp’lerden farkı tamamen ücretsiz ve topluluk yürütmeli olması: kamplar belirli tarihlerde toplu ilerliyor.</p>
-<p class="t">Veri Bilimi, Öğretici, Ücretsiz, Müfredat</p>
-</article>
-<article>
-<h2><a href="https://www.getdbt.com/" rel="noopener noreferrer nofollow">dbt</a></h2><span class="host">getdbt.com</span>
-<p class="d">Veri ambarındaki dönüşümleri SQL + sürüm kontrolü + test ile yöneten araç. El yazımı SQL betiklerinden farkı bağımlılık grafiği, belge ve testi bir yazılım projesi gibi getirmesi.</p>
-<p class="t">Açık Kaynak, Veritabanı, Otomasyon</p>
-</article>
-<article>
-<h2><a href="https://delta.io" rel="noopener noreferrer nofollow">Delta Lake</a></h2><span class="host">delta.io</span>
-<p class="d">Veri göllerine ACID işlemleri ve zaman-yolculuğu getiren açık depolama katmanı. Düz Parquet dosyalarından farkı işlem güvenliği ve sürüm geçmişi eklemesi: göl bir tablo gibi güvenilir davranıyor.</p>
-<p class="t">Veri Bilimi, Açık Kaynak</p>
-</article>
-<article>
-<h2><a href="https://duckdb.org/" rel="noopener noreferrer nofollow">DuckDB</a></h2><span class="host">duckdb.org</span>
-<p class="d">Süreç içinde çalışan analitik veritabanı — kurulum yok, dosyayı doğrudan sorguluyor. Sunucu gerektiren ambarlardan farkı tek makinede, Parquet/CSV üstünde “SQLite hızında OLAP” olması.</p>
-<p class="t">Açık Kaynak, Veritabanı, Veri Bilimi</p>
-</article>
-<article>
-<h2><a href="https://greatexpectations.io" rel="noopener noreferrer nofollow">Great Expectations</a></h2><span class="host">greatexpectations.io</span>
-<p class="d">Veriyi bildirimsel kurallarla doğrulayan ve belgeleyen veri kalitesi çatısı. Elle yazılan doğrulama betiklerinden farkı kuralları veri belgesine çevirmesi ve hattın içine yerleşik testler eklemesi.</p>
-<p class="t">Veri Bilimi, Açık Kaynak, Python</p>
-</article>
-<article>
-<h2><a href="https://github.com/dagworks-inc/hamilton" rel="noopener noreferrer nofollow">Hamilton</a></h2><span class="host">github.com</span>
-<p class="d">Veri dönüşümlerini fonksiyonlardan bir grafik olarak kuran hafif Python kütüphanesi. Ağır orkestratörlerden farkı tek dosyada, altyapı gerektirmeden bağımlılık grafiği vermesi.</p>
-<p class="t">Açık Kaynak, GitHub, Python</p>
-</article>
-<article>
-<h2><a href="https://meltano.com" rel="noopener noreferrer nofollow">Meltano</a></h2><span class="host">meltano.com</span>
-<p class="d">Singer temelli, komut satırı ve yapılandırma odaklı açık kaynak DataOps ELT platformu. Airbyte’ın arayüz odaklı yaklaşımından farkı her şeyin sürüm kontrolüne giren metin yapılandırmasıyla tanımlanması: veri hattını kod gibi yönetiyorsun.</p>
-<p class="t">Veri Bilimi, Açık Kaynak, Otomasyon</p>
-</article>
-<article>
-<h2><a href="https://learn.microsoft.com/en-us/training/career-paths/data-engineer" rel="noopener noreferrer nofollow">Microsoft · Data Engineer Path</a></h2><span class="host">learn.microsoft.com</span>
-<p class="d">Bulut veri mühendisliğini modül modül öğreten Microsoft öğrenme patikası. Ürün dokümanından farkı sınavla ölçülen, sıralı bir beceri yolu olarak kurgulanması.</p>
-<p class="t">Müfredat, Ücretsiz</p>
-</article>
-<article>
-<h2><a href="https://github.com/JerryLead/SparkInternals" rel="noopener noreferrer nofollow">Spark Internals</a></h2><span class="host">github.com</span>
-<p class="d">Apache Spark’ın içeride nasıl çalıştığını — zamanlama, karıştırma, bellek — anlatan derin belge. Kullanım kılavuzundan farkı motorun altını açması, performans ayarı için.</p>
-<p class="t">GitHub, Öğretici, Referans</p>
-</article>
-<article>
-<h2><a href="https://trino.io" rel="noopener noreferrer nofollow">Trino</a></h2><span class="host">trino.io</span>
-<p class="d">Veriyi bulunduğu yerde sorgulayan dağıtık SQL sorgu motoru; birçok kaynağı birleştiriyor. Klasik veritabanlarından farkı veriyi kendine taşımaması: S3, PostgreSQL ve Kafka’yı tek sorguda birlikte sorgulayabiliyorsun.</p>
-<p class="t">Veri Bilimi, Açık Kaynak, Sunucu</p>
-</article>
+<main class="catpage">
+<p class="crumb"><a href="index.html">Fihrist</a></p>
+<h1 class="ph">Veri Mühendisliği</h1>
+<p class="lede">Veri mühendisliği veriyi taşımak, dönüştürmek ve güvenilir kılmakla ilgilenir — analizden önceki katman. Spark ve Flink işler, Kafka taşır, dbt dönüştürür, Airflow ve Dagster orkestra eder; ambar tarafında DuckDB ve Iceberg yeni dengeyi kurar.</p>
+<p class="count">24 bağlantı</p>
+<div class="recs">
+<article class="rec"><span class="no">1</span><div class="rb">
+<div class="nm"><a class="name" href="https://airbyte.com" rel="noopener noreferrer nofollow">Airbyte</a><span class="host">airbyte.com</span></div>
+<p class="desc">Geniş bağlayıcı kataloğuyla açık kaynak veri entegrasyonu (ELT); kendi sunucunda barındırılabiliyor. Fivetran gibi kapalı servislerden farkı açık kaynak olması ve eksik bağlayıcıyı kendin yazabilmen.</p>
+<div class="mt"><span class="itags">Veri Bilimi · Açık Kaynak · Otomasyon · Kendi Sunucunda</span></div>
+</div></article>
+<article class="rec"><span class="no">2</span><div class="rb">
+<div class="nm"><a class="name" href="https://flink.apache.org/" rel="noopener noreferrer nofollow">Apache Flink</a><span class="host">flink.apache.org</span></div>
+<p class="desc">Gerçek zamanlı akış işleme motoru; olayları geldikçe, düşük gecikmeyle işler. Spark’ın toplu kökeninden farkı akışı birinci sınıf model olarak alması.</p>
+<div class="mt"><span class="itags">Açık Kaynak · Otomasyon</span></div>
+</div></article>
+<article class="rec"><span class="no">3</span><div class="rb">
+<div class="nm"><a class="name" href="https://iceberg.apache.org/" rel="noopener noreferrer nofollow">Apache Iceberg</a><span class="host">iceberg.apache.org</span></div>
+<p class="desc">Büyük analitik tablolar için açık tablo biçimi; şema evrimi, zaman yolculuğu ve atomik yazma verir. Ham Parquet dizininden farkı tabloyu tutarlı, sürümlenebilir bir birim gibi yönetmesi.</p>
+<div class="mt"><span class="itags">Açık Kaynak · Veritabanı</span></div>
+</div></article>
+<article class="rec"><span class="no">4</span><div class="rb">
+<div class="nm"><a class="name" href="https://kafka.apache.org/" rel="noopener noreferrer nofollow">Apache Kafka</a><span class="host">kafka.apache.org</span></div>
+<p class="desc">Mesajları tüketildikten sonra da saklıyor; tüketiciler kendi konumlarını (offset) taşıyıp geçmişi yeniden okuyabiliyor. Klasik kuyruklardan (RabbitMQ) asıl ayrımı bu kalıcılık ve yeniden oynatma.</p>
+<div class="mt"><span class="itags">Açık Kaynak · Otomasyon</span></div>
+</div></article>
+<article class="rec"><span class="no">5</span><div class="rb">
+<div class="nm"><a class="name" href="https://spark.apache.org/" rel="noopener noreferrer nofollow">Apache Spark</a><span class="host">spark.apache.org</span></div>
+<p class="desc">Büyük veriyi bellek üstünde dağıtık işleyen motor — toplu ve akış işleme. Tek makine kütüphanelerinden farkı terabaytları küme üzerinde bölüştürüp paralel işlemesi.</p>
+<div class="mt"><span class="itags">Açık Kaynak · Veri Bilimi · Otomasyon</span></div>
+</div></article>
+<article class="rec"><span class="no">6</span><div class="rb">
+<div class="nm"><a class="name" href="https://github.com/igorbarinov/awesome-data-engineering" rel="noopener noreferrer nofollow">Awesome Data Engineering</a><span class="host">github.com</span></div>
+<p class="desc">Veri mühendisliğinin tüm katmanlarını — alım, depolama, işleme, orkestrasyon — araçlarıyla toplayan liste. Tek araca bağlı listelerden farkı yığının bütününü haritalaması.</p>
+<div class="mt"><span class="itags">Awesome Liste · GitHub · Referans</span></div>
+</div></article>
+<article class="rec"><span class="no">7</span><div class="rb">
+<div class="nm"><a class="name" href="https://github.com/youngwookim/awesome-hadoop" rel="noopener noreferrer nofollow">Awesome Hadoop</a><span class="host">github.com</span></div>
+<p class="desc">Dağıtık depolama ve işleme çatısı Hadoop için kaynak listesi. Spark gibi bellek içi motorların listelerinden farkı disk tabanlı HDFS ve MapReduce ekosistemine odaklanması.</p>
+<div class="mt"><span class="itags">Awesome Liste · GitHub · Veri Bilimi</span></div>
+</div></article>
+<article class="rec"><span class="no">8</span><div class="rb">
+<div class="nm"><a class="name" href="https://github.com/dstdev/awesome-hpc" rel="noopener noreferrer nofollow">Awesome HPC</a><span class="host">github.com</span></div>
+<p class="desc">Yüksek başarımlı hesaplama (HPC) için araç, kütüphane ve kaynak listesi. Genel DevOps listelerinden farkı küme yönetimine, Slurm gibi iş zamanlayıcılara ve MPI ile paralel programlamaya odaklanması.</p>
+<div class="mt"><span class="itags">Awesome Liste · GitHub · Veri Bilimi</span></div>
+</div></article>
+<article class="rec"><span class="no">9</span><div class="rb">
+<div class="nm"><a class="name" href="https://github.com/awesome-spark/awesome-spark" rel="noopener noreferrer nofollow">Awesome Spark</a><span class="host">github.com</span></div>
+<p class="desc">Apache Spark ekosistemi için paket, öğretici ve örnek listesi. Resmî dokümandan farkı topluluk kütüphanelerini ve gerçek dünya örneklerini toplaması.</p>
+<div class="mt"><span class="itags">Awesome Liste · GitHub · Açık Kaynak</span></div>
+</div></article>
+<article class="rec"><span class="no">10</span><div class="rb">
+<div class="nm"><a class="name" href="https://clickhouse.com" rel="noopener noreferrer nofollow">ClickHouse</a><span class="host">clickhouse.com</span></div>
+<p class="desc">Analitik için sütun temelli OLAP veritabanı; büyük ölçekte çok hızlı toplama yapıyor. PostgreSQL gibi satır temelli veritabanlarından farkı milyarlarca satırda toplama sorgularını saniyeler içinde bitirmesi; tekil kayıt güncellemede zayıf.</p>
+<div class="mt"><span class="itags">Veri Bilimi · Veritabanı · Açık Kaynak · Sunucu</span></div>
+</div></article>
+<article class="rec"><span class="no">11</span><div class="rb">
+<div class="nm"><a class="name" href="https://dagster.io/" rel="noopener noreferrer nofollow">Dagster</a><span class="host">dagster.io</span></div>
+<p class="desc">Veri varlıklarını merkeze alan orkestratör; her tabloyu bir “varlık” olarak izliyor. Airflow’dan farkı görevden çok üretilen veriye odaklanıp veri kalitesini yerleşik tutması.</p>
+<div class="mt"><span class="itags">Açık Kaynak · Otomasyon · Python</span></div>
+</div></article>
+<article class="rec"><span class="no">12</span><div class="rb">
+<div class="nm"><a class="name" href="https://www.dataengineeringpodcast.com" rel="noopener noreferrer nofollow">Data Engineering Podcast</a><span class="host">dataengineeringpodcast.com</span></div>
+<p class="desc">Veri mühendisliği araç ve mimarilerini derinlemesine konuşan uzun söyleşiler. Araç belgelerinden farkı bir aracın gerçekte neden ve nasıl seçildiğini uygulayanların ağzından anlatması.</p>
+<div class="mt"><span class="itags">Veri Bilimi · Referans · Ücretsiz</span></div>
+</div></article>
+<article class="rec"><span class="no">13</span><div class="rb">
+<div class="nm"><a class="name" href="https://github.com/DataTalksClub/data-engineering-zoomcamp" rel="noopener noreferrer nofollow">Data Engineering Zoomcamp</a><span class="host">github.com</span></div>
+<p class="desc">Veri mühendisliğini uçtan uca (Docker, dbt, Spark, Kafka, bulut) öğreten ücretsiz, projeli kurs. Dağınık öğreticilerden farkı gerçek bir boru hattını baştan sona kurdurması.</p>
+<div class="mt"><span class="itags">Müfredat · Ücretsiz · GitHub</span></div>
+</div></article>
+<article class="rec"><span class="no">14</span><div class="rb">
+<div class="nm"><a class="name" href="https://www.databricks.com/" rel="noopener noreferrer nofollow">Databricks</a><span class="host">databricks.com</span></div>
+<p class="desc">Spark üstüne kurulu, veri gölü ile ambarı birleştiren (“lakehouse”) bulut platformu. Ayrı ambar ve göl kurmaktan farkı ikisini tek yönetişim ve defter arayüzünde toplaması.</p>
+<div class="mt"><span class="itags">Veri Bilimi · Freemium · Otomasyon</span></div>
+</div></article>
+<article class="rec"><span class="no">15</span><div class="rb">
+<div class="nm"><a class="name" href="https://datatalks.club" rel="noopener noreferrer nofollow">DataTalks.Club</a><span class="host">datatalks.club</span></div>
+<p class="desc">Uygulamalı veri mühendisliği ve ML kampları (zoomcamp) sunan ücretsiz topluluk. Ücretli bootcamp’lerden farkı tamamen ücretsiz ve topluluk yürütmeli olması: kamplar belirli tarihlerde toplu ilerliyor.</p>
+<div class="mt"><span class="itags">Veri Bilimi · Öğretici · Ücretsiz · Müfredat</span></div>
+</div></article>
+<article class="rec"><span class="no">16</span><div class="rb">
+<div class="nm"><a class="name" href="https://www.getdbt.com/" rel="noopener noreferrer nofollow">dbt</a><span class="host">getdbt.com</span></div>
+<p class="desc">Veri ambarındaki dönüşümleri SQL + sürüm kontrolü + test ile yöneten araç. El yazımı SQL betiklerinden farkı bağımlılık grafiği, belge ve testi bir yazılım projesi gibi getirmesi.</p>
+<div class="mt"><span class="itags">Açık Kaynak · Veritabanı · Otomasyon</span></div>
+</div></article>
+<article class="rec"><span class="no">17</span><div class="rb">
+<div class="nm"><a class="name" href="https://delta.io" rel="noopener noreferrer nofollow">Delta Lake</a><span class="host">delta.io</span></div>
+<p class="desc">Veri göllerine ACID işlemleri ve zaman-yolculuğu getiren açık depolama katmanı. Düz Parquet dosyalarından farkı işlem güvenliği ve sürüm geçmişi eklemesi: göl bir tablo gibi güvenilir davranıyor.</p>
+<div class="mt"><span class="itags">Veri Bilimi · Açık Kaynak</span></div>
+</div></article>
+<article class="rec"><span class="no">18</span><div class="rb">
+<div class="nm"><a class="name" href="https://duckdb.org/" rel="noopener noreferrer nofollow">DuckDB</a><span class="host">duckdb.org</span></div>
+<p class="desc">Süreç içinde çalışan analitik veritabanı — kurulum yok, dosyayı doğrudan sorguluyor. Sunucu gerektiren ambarlardan farkı tek makinede, Parquet/CSV üstünde “SQLite hızında OLAP” olması.</p>
+<div class="mt"><span class="itags">Açık Kaynak · Veritabanı · Veri Bilimi</span></div>
+</div></article>
+<article class="rec"><span class="no">19</span><div class="rb">
+<div class="nm"><a class="name" href="https://greatexpectations.io" rel="noopener noreferrer nofollow">Great Expectations</a><span class="host">greatexpectations.io</span></div>
+<p class="desc">Veriyi bildirimsel kurallarla doğrulayan ve belgeleyen veri kalitesi çatısı. Elle yazılan doğrulama betiklerinden farkı kuralları veri belgesine çevirmesi ve hattın içine yerleşik testler eklemesi.</p>
+<div class="mt"><span class="itags">Veri Bilimi · Açık Kaynak · Python</span></div>
+</div></article>
+<article class="rec"><span class="no">20</span><div class="rb">
+<div class="nm"><a class="name" href="https://github.com/dagworks-inc/hamilton" rel="noopener noreferrer nofollow">Hamilton</a><span class="host">github.com</span></div>
+<p class="desc">Veri dönüşümlerini fonksiyonlardan bir grafik olarak kuran hafif Python kütüphanesi. Ağır orkestratörlerden farkı tek dosyada, altyapı gerektirmeden bağımlılık grafiği vermesi.</p>
+<div class="mt"><span class="itags">Açık Kaynak · GitHub · Python</span></div>
+</div></article>
+<article class="rec"><span class="no">21</span><div class="rb">
+<div class="nm"><a class="name" href="https://meltano.com" rel="noopener noreferrer nofollow">Meltano</a><span class="host">meltano.com</span></div>
+<p class="desc">Singer temelli, komut satırı ve yapılandırma odaklı açık kaynak DataOps ELT platformu. Airbyte’ın arayüz odaklı yaklaşımından farkı her şeyin sürüm kontrolüne giren metin yapılandırmasıyla tanımlanması: veri hattını kod gibi yönetiyorsun.</p>
+<div class="mt"><span class="itags">Veri Bilimi · Açık Kaynak · Otomasyon</span></div>
+</div></article>
+<article class="rec"><span class="no">22</span><div class="rb">
+<div class="nm"><a class="name" href="https://learn.microsoft.com/en-us/training/career-paths/data-engineer" rel="noopener noreferrer nofollow">Microsoft · Data Engineer Path</a><span class="host">learn.microsoft.com</span></div>
+<p class="desc">Bulut veri mühendisliğini modül modül öğreten Microsoft öğrenme patikası. Ürün dokümanından farkı sınavla ölçülen, sıralı bir beceri yolu olarak kurgulanması.</p>
+<div class="mt"><span class="itags">Müfredat · Ücretsiz</span></div>
+</div></article>
+<article class="rec"><span class="no">23</span><div class="rb">
+<div class="nm"><a class="name" href="https://github.com/JerryLead/SparkInternals" rel="noopener noreferrer nofollow">Spark Internals</a><span class="host">github.com</span></div>
+<p class="desc">Apache Spark’ın içeride nasıl çalıştığını — zamanlama, karıştırma, bellek — anlatan derin belge. Kullanım kılavuzundan farkı motorun altını açması, performans ayarı için.</p>
+<div class="mt"><span class="itags">GitHub · Öğretici · Referans</span></div>
+</div></article>
+<article class="rec"><span class="no">24</span><div class="rb">
+<div class="nm"><a class="name" href="https://trino.io" rel="noopener noreferrer nofollow">Trino</a><span class="host">trino.io</span></div>
+<p class="desc">Veriyi bulunduğu yerde sorgulayan dağıtık SQL sorgu motoru; birçok kaynağı birleştiriyor. Klasik veritabanlarından farkı veriyi kendine taşımaması: S3, PostgreSQL ve Kafka’yı tek sorguda birlikte sorgulayabiliyorsun.</p>
+<div class="mt"><span class="itags">Veri Bilimi · Açık Kaynak · Sunucu</span></div>
+</div></article>
+</div>
+<nav class="other"><h2 class="sh">Diğer başlıklar</h2><p><a href="diller.html">Programlama Dilleri</a> <a href="web.html">Web &amp; Frontend</a> <a href="backend.html">Backend, API &amp; Sistem Tasarımı</a> <a href="mobil.html">Mobil &amp; Masaüstü</a> <a href="veritabani.html">Veritabanı</a> <a href="pratik.html">Pratik &amp; Alıştırma</a> <a href="test.html">Test &amp; Kalite</a> <a href="oyun.html">Oyun Geliştirme</a> <a href="yz_model.html">YZ · Modeller &amp; Asistanlar</a> <a href="yz_altyapi.html">YZ · Agent &amp; Altyapı</a> <a href="yz_rag.html">YZ · RAG, Gömme &amp; Vektör</a> <a href="yz_arac.html">YZ · Uygulama Araçları</a> <a href="yz_uretim.html">YZ · Üretken Medya</a> <a href="devops.html">DevOps &amp; Altyapı</a> <a href="ag.html">Ağ &amp; Sistem Yönetimi</a> <a href="barindirma.html">Öz-Barındırma &amp; Kişisel Bulut</a> <a href="donanim.html">Donanım, CAD &amp; Gömülü</a> <a href="elektronik.html">Elektrik &amp; Elektronik</a> <a href="gozluk.html">Akıllı Gözlük &amp; Giyilebilir</a> <a href="guvenlik.html">Gizlilik &amp; Kişisel Güvenlik</a> <a href="guv_teknik.html">Saldırı, Savunma &amp; OSINT</a> <a href="guv_lab.html">CTF &amp; Uygulamalı Lab</a> <a href="guv_kariyer.html">Sertifika &amp; Kariyer</a> <a href="veri.html">Veri Bilimi &amp; Makine Öğrenmesi</a> <a href="bilim.html">Bilim &amp; Akademik</a> <a href="matematik.html">Matematik</a> <a href="kuantum.html">Kuantum Bilişim</a> <a href="ekonomi.html">Ekonomi</a> <a href="finans.html">Finans, Piyasa &amp; Kripto</a> <a href="medya.html">Medya, Tasarım &amp; Dosya</a> <a href="mimari.html">Mimari &amp; Yapı</a> <a href="ogrenme.html">Öğrenme &amp; Yol Haritaları</a> <a href="kitaplik.html">Ücretsiz Kitaplar &amp; Uzun Okumalar</a> <a href="referans.html">Kopya Kâğıtları &amp; Başvuru</a> <a href="koleksiyon.html">Listeler, Dizinler &amp; Keşif</a> <a href="acik_kaynak.html">Açık Kaynak &amp; Katkı</a> <a href="editor.html">Editör, IDE &amp; Terminal</a> <a href="oyunalani.html">Çevrimiçi Kod Alanları &amp; Derleyiciler</a> <a href="donusturucu.html">Dönüştürücü, Biçimlendirici &amp; Denetleyici</a> <a href="araclar.html">Üretkenlik &amp; Günlük Araçlar</a> <a href="acik_erisim.html">Açık Erişim &amp; Arşiv</a> <a href="korsan.html">Korsan</a></p></nav>
 </main>
-<nav class="other"><a href="diller.html">Programlama Dilleri</a> <a href="web.html">Web &amp; Frontend</a> <a href="backend.html">Backend, API &amp; Sistem Tasarımı</a> <a href="mobil.html">Mobil &amp; Masaüstü</a> <a href="veritabani.html">Veritabanı</a> <a href="pratik.html">Pratik &amp; Alıştırma</a> <a href="test.html">Test &amp; Kalite</a> <a href="oyun.html">Oyun Geliştirme</a> <a href="yz_model.html">YZ · Modeller &amp; Asistanlar</a> <a href="yz_altyapi.html">YZ · Agent &amp; Altyapı</a> <a href="yz_rag.html">YZ · RAG, Gömme &amp; Vektör</a> <a href="yz_arac.html">YZ · Uygulama Araçları</a> <a href="yz_uretim.html">YZ · Üretken Medya</a> <a href="devops.html">DevOps &amp; Altyapı</a> <a href="ag.html">Ağ &amp; Sistem Yönetimi</a> <a href="barindirma.html">Öz-Barındırma &amp; Kişisel Bulut</a> <a href="donanim.html">Donanım, CAD &amp; Gömülü</a> <a href="elektronik.html">Elektrik &amp; Elektronik</a> <a href="gozluk.html">Akıllı Gözlük &amp; Giyilebilir</a> <a href="guvenlik.html">Gizlilik &amp; Kişisel Güvenlik</a> <a href="guv_teknik.html">Saldırı, Savunma &amp; OSINT</a> <a href="guv_lab.html">CTF &amp; Uygulamalı Lab</a> <a href="guv_kariyer.html">Sertifika &amp; Kariyer</a> <a href="veri.html">Veri Bilimi &amp; Makine Öğrenmesi</a> <a href="bilim.html">Bilim &amp; Akademik</a> <a href="matematik.html">Matematik</a> <a href="kuantum.html">Kuantum Bilişim</a> <a href="ekonomi.html">Ekonomi</a> <a href="finans.html">Finans, Piyasa &amp; Kripto</a> <a href="medya.html">Medya, Tasarım &amp; Dosya</a> <a href="mimari.html">Mimari &amp; Yapı</a> <a href="ogrenme.html">Öğrenme &amp; Yol Haritaları</a> <a href="kitaplik.html">Ücretsiz Kitaplar &amp; Uzun Okumalar</a> <a href="referans.html">Kopya Kâğıtları &amp; Başvuru</a> <a href="koleksiyon.html">Listeler, Dizinler &amp; Keşif</a> <a href="acik_kaynak.html">Açık Kaynak &amp; Katkı</a> <a href="editor.html">Editör, IDE &amp; Terminal</a> <a href="oyunalani.html">Çevrimiçi Kod Alanları &amp; Derleyiciler</a> <a href="donusturucu.html">Dönüştürücü, Biçimlendirici &amp; Denetleyici</a> <a href="araclar.html">Üretkenlik &amp; Günlük Araçlar</a> <a href="acik_erisim.html">Açık Erişim &amp; Arşiv</a> <a href="korsan.html">Korsan</a></nav>
 <footer>
 Bu sayfa dizinin Veri Mühendisliği bölümünün metin hâli. Arama, etiket süzgeci ve İngilizce açıklamalar için <a href="https://latifkedi.github.io/useful-sites/?cat=veri_muh">dizine dön</a>. <a href="https://latifkedi.github.io/useful-sites/k/en/veri_muh.html">In English</a>
 </footer>
+</div>
 </body>
 </html>
