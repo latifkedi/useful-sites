@@ -20,6 +20,7 @@ D = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, D)
 
 import build                            # noqa: E402  (running this re-runs the build)
+import emit                             # noqa: E402
 import linkstate                        # noqa: E402
 import notes                            # noqa: E402
 import tags                             # noqa: E402
@@ -128,6 +129,19 @@ def main():
           'an unmapped tag is dropped rather than guessed at')
     check(tags.normalise(['python', 'python']) == ['python'],
           'duplicates collapse to one')
+
+    # The same three cases as test_search.js checks against app.js
+    # firstSentence(); the pre-rendered home depends on the two agreeing.
+    print('emit._first')
+    one = 'Bu bir kayıt açıklamasıdır ve kırk karakteri rahatça geçer. İkinci cümle.'
+    check(emit._first(one) == 'Bu bir kayıt açıklamasıdır ve kırk karakteri rahatça geçer.',
+          'returns the first sentence of 40-150 characters')
+    check(emit._first('Kısa, noktasız bir not') == 'Kısa, noktasız bir not',
+          'a short text without a full stop comes back whole')
+    check(emit._first('kelime ' * 30) == ' '.join(['kelime'] * 17) + '…',
+          'a long text without one is cut at a word, with an ellipsis')
+    check(emit._first('abcdefghi, ' * 20) == ', '.join(['abcdefghi'] * 10) + '…',
+          'the cut drops a dangling comma before the ellipsis')
 
     print()
     if fails:

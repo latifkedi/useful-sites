@@ -16,6 +16,7 @@ this one image is not worth the bytes.
 Needs Pillow, which is not otherwise a dependency:  pip install pillow
 """
 import io
+import math
 import os
 import sys
 
@@ -29,13 +30,15 @@ from emit import SITE                     # noqa: E402
 from notes import GROUPS                  # noqa: E402
 
 W, H = 1200, 630
-# The site's monochrome ink-on-paper tokens (index.html :root).
-BG = (250, 249, 245)
-FG = (20, 19, 16)
-DIM = (99, 96, 90)
-FAINT = (110, 107, 99)       # --faint, WCAG AA against the background
-RULE = (227, 223, 214)
-MOTIF = (233, 229, 220)      # the background circles, barely there
+S = 2                        # supersampling factor
+# The fihrist tokens (style.css :root, light): ink on paper, one red.
+BG = (246, 241, 231)         # --bg
+FG = (28, 26, 22)            # --fg
+DIM = (91, 86, 76)           # --dim
+FAINT = (104, 98, 86)        # --faint, WCAG AA on every background it sits on
+RULE = (221, 213, 196)       # --rule
+RED = (168, 50, 31)          # --red
+WM = 0.12                    # the watermark enso's opacity over the paper
 PAD = 84
 
 SANS = ['segoeui.ttf', 'DejaVuSans.ttf', 'Arial.ttf', 'arial.ttf',
@@ -55,6 +58,22 @@ def system_font(names, size):
     return ImageFont.load_default()
 
 
+def mix(a, b, t):
+    """a laid over b at opacity t."""
+    return tuple(round(b[i] + (a[i] - b[i]) * t) for i in range(3))
+
+
+def enso(d, cx, cy, r, w, colour):
+    """The site's enso (M43 12 A22 22 0 1 0 51 30): an open circle whose gap
+    sits between three o'clock and the upper right, with round ends."""
+    d.arc([cx - r, cy - r, cx + r, cy + r], 0, 306, fill=colour, width=w)
+    for deg in (0, 306):
+        a = math.radians(deg)
+        ex = cx + (r - w / 2) * math.cos(a)
+        ey = cy + (r - w / 2) * math.sin(a)
+        d.ellipse([ex - w / 2, ey - w / 2, ex + w / 2, ey + w / 2], fill=colour)
+
+
 def count(n):
     f = n // 100 * 100
     return '{:,}'.format(f).replace(',', '.') + ('+' if n > f else '')
@@ -67,27 +86,40 @@ def main():
     fields = len(GROUPS)
     host = SITE.split('//', 1)[-1]
 
-    title = ImageFont.truetype(os.path.join(ROOT, 'fonts', 'serif-600.woff2'), 76)
-    body = system_font(SANS, 31)
-    mono = system_font(MONO, 23)
+    # Drawn at twice the size and scaled down: Pillow does not antialias arcs,
+    # and the enso's edges show it at 1x.
+    serif = os.path.join(ROOT, 'fonts', 'serif-%d.woff2')
+    mark = ImageFont.truetype(serif % 600, 30 * S)
+    hero = ImageFont.truetype(serif % 400, 64 * S)
+    mono = system_font(MONO, 23 * S)
 
-    img = Image.new('RGB', (W, H), BG)
+    img = Image.new('RGB', (W * S, H * S), BG)
     d = ImageDraw.Draw(img)
 
-    # The same quiet concentric-circle motif the site draws behind its content.
-    cx, cy = W - 96, 96
-    for r in (70, 140, 215, 300, 395):
-        d.ellipse([cx - r, cy - r, cx + r, cy + r], outline=MOTIF, width=2)
+    # The watermark enso behind the hero, as on the home page, and the small
+    # one that stands in for a logo.
+    enso(d, (W - 190) * S, 250 * S, 250 * S, 11 * S, mix(RED, BG, WM))
+    enso(d, (PAD + 20) * S, 104 * S, 20 * S, 5 * S, RED)
+    d.text(((PAD + 56) * S, 104 * S), 'Kullanışlı Siteler', font=mark, fill=FG,
+           anchor='lm')
 
-    d.text((PAD, 150), 'Kullanışlı Siteler', font=title, fill=FG)
-    d.text((PAD, 264), 'Her kayıtta bağlantının ne yaptığı ve', font=body, fill=DIM)
-    d.text((PAD, 308), 'benzerlerinden nerede ayrıldığı yazılı.', font=body, fill=DIM)
-    d.line([PAD, 404, W - PAD, 404], fill=RULE, width=1)
-    lead = '%s BAĞLANTI' % count(n)
-    d.text((PAD, 432), lead, font=mono, fill=FG)
-    d.text((PAD + d.textlength(lead + '   ', font=mono), 432),
-           '%d ALAN · %d BAŞLIK' % (fields, cats), font=mono, fill=FAINT)
-    d.text((PAD, 502), host, font=mono, fill=DIM)
+    # The hero sentence, with the count in red like the page's <em>.
+    x, y = PAD * S, 200 * S
+    for part, colour in (('Elle derlenmiş ', FG), (count(n), RED),
+                         (' bağlantı.', FG)):
+        d.text((x, y), part, font=hero, fill=colour)
+        x += d.textlength(part, font=hero)
+    d.text((PAD * S, y + 82 * S), 'Her biri benzerlerinden nerede',
+           font=hero, fill=DIM)
+    d.text((PAD * S, y + 164 * S), 'ayrıldığını söylüyor.', font=hero, fill=DIM)
+
+    d.line([PAD * S, 494 * S, (W - PAD) * S, 494 * S], fill=RULE, width=S)
+    lead = '%d ALAN · %d BAŞLIK' % (fields, cats)
+    d.text((PAD * S, 522 * S), lead, font=mono, fill=FAINT)
+    d.text(((W - PAD) * S, 522 * S), host, font=mono, fill=DIM, anchor='ra')
+    # A handful of inks on one paper: a 128-colour palette loses nothing
+    # visible and halves the file.
+    img = img.resize((W, H), Image.LANCZOS).quantize(128)
 
     out = os.path.join(ROOT, 'og.png')
     img.save(out, 'PNG', optimize=True)

@@ -25,9 +25,9 @@ const body = html.slice(from + START.length, to);
 
 const sandbox = { window: {}, localStorage: { getItem: () => null }, URL };
 const code = "(function(window, localStorage, URL){\n" + body +
-  "\nreturn {fold, host, score, esc};\n})";
+  "\nreturn {fold, host, score, esc, firstSentence};\n})";
 const exported = new Function("return " + code)()(sandbox.window, sandbox.localStorage, sandbox.URL);
-const { fold, host, score, esc } = exported;
+const { fold, host, score, esc, firstSentence } = exported;
 
 let fails = 0;
 function check(ok, msg) {
@@ -60,6 +60,19 @@ check(score(rec(), ["zzznomatch"]) === 0,
   "a term matching nothing scores zero");
 check(score(rec({ pick: 1 }), ["docker"]) === score(rec(), ["docker"]) + 3,
   "a start-here pick gets a flat +3 at equal relevance");
+
+/* The same cases as data/test_helpers.py checks against emit._first(); the
+   pre-rendered home depends on the two agreeing. */
+console.log("firstSentence");
+check(firstSentence("Bu bir kayıt açıklamasıdır ve kırk karakteri rahatça geçer. İkinci cümle.") ===
+  "Bu bir kayıt açıklamasıdır ve kırk karakteri rahatça geçer.",
+  "returns the first sentence of 40-150 characters");
+check(firstSentence("Kısa, noktasız bir not") === "Kısa, noktasız bir not",
+  "a short text without a full stop comes back whole");
+check(firstSentence("kelime ".repeat(30)) === Array(17).fill("kelime").join(" ") + "…",
+  "a long text without one is cut at a word, with an ellipsis");
+check(firstSentence("abcdefghi, ".repeat(20)) === Array(10).fill("abcdefghi").join(", ") + "…",
+  "the cut drops a dangling comma before the ellipsis");
 
 console.log();
 if (fails) {

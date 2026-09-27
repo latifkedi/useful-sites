@@ -619,9 +619,17 @@ ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII
 
 
 def _first(t):
-    # app.js firstSentence(): the first sentence of 40-150 characters.
-    m = re.match(r'^(.{40,150}?[.!?])(\s|$)', t or '')
-    return m.group(1) if m else (t or '')[:120]
+    # app.js firstSentence(): the first sentence of 40-150 characters, or
+    # else 120 characters cut at a word, with an ellipsis.
+    t = t or ''
+    m = re.match(r'^(.{40,150}?[.!?])(\s|$)', t)
+    if m:
+        return m.group(1)
+    if len(t) <= 120:
+        return t
+    cut = t[:120]
+    sp = cut.rfind(' ')
+    return re.sub(r'[\s,;:—–-]+$', '', cut[:sp] if sp > 60 else cut) + '…'
 
 
 def _short(label):

@@ -15,7 +15,7 @@
 - Repo: `C:\Users\Cebrail\Documents\code\useful-sites`, branch `redesign-fihrist`. Never commit to `main` until Task 11.
 - CSP stays `script-src 'self'`; no external requests of any kind (no CDN, no web font service).
 - Only the two existing subset fonts `fonts/serif-400.woff2`, `fonts/serif-600.woff2` (Source Serif 4). They cover full Turkish.
-- Colours come only from the `:root` tokens in `style.css`: `--bg #f6f1e7/#15140f`, `--panel #efe8da/#1e1c17`, `--field #fbf8f1/#1a1914`, `--fg #1c1a16/#ebe5d8`, `--dim #5b564c/#b3ad9f`, `--faint #6f695c/#8f897b`, `--rule #ddd5c4/#302d26`, `--rule2 #e9e2d3/#24221c`, `--red #a8321f/#e0674f`, `--red-soft #f1e0d6/#2e1a14`, `--on-red #fbf8f1/#15140f`.
+- Colours come only from the `:root` tokens in `style.css`: `--bg #f6f1e7/#15140f`, `--panel #efe8da/#1e1c17`, `--field #fbf8f1/#1a1914`, `--fg #1c1a16/#ebe5d8`, `--dim #5b564c/#b3ad9f`, `--faint #686256/#8f897b`, `--rule #ddd5c4/#302d26`, `--rule2 #e9e2d3/#24221c`, `--red #a8321f/#e0674f`, `--red-soft #f1e0d6/#2e1a14`, `--on-red #fbf8f1/#15140f`.
 - The red is a mark only: ordinals, roman numerals, `▸` current position, `◆ Buradan başla`, active chips, breadcrumb separators, enso logo, focus ring.
 - URL scheme unchanged: `?q= ?cat= ?f= ?tag= ?pick= ?src= ?e= ?new= ?sort= ?lang= ?p=`.
 - 44 px touch targets at ≤ 720 px; visible focus ring; skip link; `prefers-reduced-motion` respected.
@@ -314,7 +314,7 @@ Write `style.css` with exactly this content:
    odak halkasi. Baska hicbir sey kirmizi degil. */
 :root{
   --bg:#f6f1e7; --panel:#efe8da; --field:#fbf8f1;
-  --fg:#1c1a16; --dim:#5b564c; --faint:#6f695c;
+  --fg:#1c1a16; --dim:#5b564c; --faint:#686256;
   --rule:#ddd5c4; --rule2:#e9e2d3;
   --red:#a8321f; --red-soft:#f1e0d6; --on-red:#fbf8f1; --mark:#efd9c9;
   --shadow:0 16px 44px rgba(28,26,22,.14); --scrim:rgba(28,26,22,.42);

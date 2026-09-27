@@ -39,7 +39,7 @@ Tokens (light / dark):
 | `--field` | `#fbf8f1` | `#1a1914` | inputs, chips |
 | `--fg` | `#1c1a16` | `#ebe5d8` | ink |
 | `--dim` | `#5b564c` | `#b3ad9f` | secondary text |
-| `--faint` | `#6f695c` | `#8f897b` | tertiary text, counts |
+| `--faint` | `#686256` | `#8f897b` | tertiary text, counts |
 | `--rule` | `#ddd5c4` | `#302d26` | borders |
 | `--rule2` | `#e9e2d3` | `#24221c` | row separators |
 | `--red` | `#a8321f` | `#e0674f` | the mark |

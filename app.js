@@ -26,14 +26,14 @@ var T = {
     hero:function(n){ return "Elle derlenmiş <em>"+n+"</em> bağlantı. Her biri benzerlerinden nerede ayrıldığını söylüyor." },
     homeLabel:"Kullanışlı Siteler — Fihrist",
     menu:"Menü", tools:"Araçlar", langLabel:"İngilizceye geç", close:"Kapat",
+    langName:"English", themeName:"Tema",
     fxHead:"Fihrist", exp:"Dışa aktar:", filter:"Süz", fClear:"Temizle",
-    ph:"Ara — ad, açıklama, etiket ya da alan adı",
+    ph:"Ara: ad, açıklama, etiket, alan adı",
     count:function(n,t){return n+" / "+t+" bağlantı"},
     empty:"Eşleşen Bağlantı Yok",
     clear:"Filtreleri Temizle",
     qLabel:"Dizinde ara", themeLabel:"Temayı değiştir", topLabel:"Yukarı çık",
     rand:"Rastgele", lang:"EN",
-    picks:"Başlangıç Noktaları",
     by:"Ekleyen",
     rel:"Benzerleri",
     verified:function(d){ return "Son Doğrulama: " + d },
@@ -56,10 +56,8 @@ var T = {
          'dizinin <a href="k/index.html">metin hâli</a> de var.',
     skip:"İçeriğe Atla",
     fxNote:function(f,c){ return f+" alan, "+c+" başlık" },
-    hStart:"Buradan Başla", hCats:"Başlıklar", hAll:"Tümünü tek listede gör →",
-    tagMore:function(n){ return "+ " + n + " Etiket Daha" }, tagLess:"− Etiketleri Kısalt",
-    tagFilter:function(n){ return "Etiketle süz · " + n + " etiket" },
-    srcMore:function(n){ return "+ " + n + " Kaynak Daha" }, srcLess:"− Kaynakları gizle",
+    hStart:"Buradan Başla", hAll:"Tümünü tek listede gör →",
+    srcLess:"− Kaynakları gizle",
     srcShow:function(n){ return n+" kaynağı göster" },
     fShow:function(n){ return n+" bağlantıyı göster" },
     listsHead:"Listeler & Koleksiyonlar",
@@ -102,14 +100,14 @@ var T = {
     hero:function(n){ return "<em>"+n+"</em> links, picked by hand. Each one says where it parts ways with its neighbours." },
     homeLabel:"Useful Sites — Index",
     menu:"Menu", tools:"Tools", langLabel:"Switch to Turkish", close:"Close",
+    langName:"Türkçe", themeName:"Theme",
     fxHead:"Index", exp:"Export:", filter:"Filter", fClear:"Clear",
-    ph:"Search — name, description, tag or domain",
+    ph:"Search: name, notes, tag, domain",
     count:function(n,t){return n+" / "+t+" links"},
     empty:"No Matching Links",
     clear:"Clear Filters",
     qLabel:"Search the directory", themeLabel:"Toggle theme", topLabel:"Back to top",
     rand:"Random", lang:"TR",
-    picks:"Start Here",
     by:"Added By",
     rel:"Similar",
     verified:function(d){ return "Last Verified: " + d },
@@ -132,10 +130,8 @@ var T = {
          'there is a <a href="k/en/index.html">plain-text edition</a> too.',
     skip:"Skip To Content",
     fxNote:function(f,c){ return f+" areas, "+c+" headings" },
-    hStart:"Start Here", hCats:"Headings", hAll:"See everything in one list →",
-    tagMore:function(n){ return "+ " + n + " More Tags" }, tagLess:"− Fewer Tags",
-    tagFilter:function(n){ return "Filter by tag · " + n + " tags" },
-    srcMore:function(n){ return "+ " + n + " More Sources" }, srcLess:"− Hide sources",
+    hStart:"Start Here", hAll:"See everything in one list →",
+    srcLess:"− Hide sources",
     srcShow:function(n){ return "Show "+n+" sources" },
     fShow:function(n){ return "Show "+n+" links" },
     listsHead:"Lists & Collections",
@@ -286,9 +282,6 @@ var INTROS = window.INTROS || {};
 var NAMEIDX = {}, KEYIDX = {};
 data.forEach(function(d){ NAMEIDX[d.name] = d; KEYIDX[d._k] = d });
 function byPerma(v){ return KEYIDX[v] || NAMEIDX[v] || null }
-var ALLTAGS = Object.keys(TAGCOUNT).sort(function(a,b){
-  return TAGCOUNT[b]-TAGCOUNT[a] || a.localeCompare(b,"tr");
-});
 
 /* ------------------------------------------------------------ URL state */
 /* Sayfa numarasinin hangi listeye ait oldugu: yalnizca bir kategorinin kendi
@@ -486,9 +479,15 @@ function pagerHTML(key, page, total, L){
 }
 
 /* Kategori kartinda gosterilecek ilk cumle: giris metninin tamami cok uzun. */
+/* Ilk cumle (40-150 karakter). Yoksa 120 karakterde, bir kelime sinirinda
+   kesip sonuna "…" koyuyor; emit._first() ile harfi harfine ayni. */
 function firstSentence(t){
-  var m = /^(.{40,150}?[.!?])(\s|$)/.exec(t || "");
-  return m ? m[1] : (t || "").slice(0, 120);
+  t = t || "";
+  var m = /^(.{40,150}?[.!?])(\s|$)/.exec(t);
+  if(m) return m[1];
+  if(t.length <= 120) return t;
+  var cut = t.slice(0, 120), sp = cut.lastIndexOf(" ");
+  return (sp > 60 ? cut.slice(0, sp) : cut).replace(/[\s,;:—–-]+$/, "") + "…";
 }
 
 /* Etiketler fasetli: fiyat ve lisans, tur, arayuz ve dil, konu. Tek duz
@@ -784,7 +783,10 @@ function paintChrome(L){
   $("#q").placeholder       = L.ph;
   $("#q").setAttribute("aria-label", L.qLabel);
   $("#rand").textContent    = L.rand;
-  $("#langbtn").textContent = L.lang;
+  /* Masaustunde yalnizca "EN" ve "◐"; telefondaki menude yanlarinda adlari da
+     gorunuyor (.ml), yoksa iki harf ve bir simge ne ise yaradiklarini soylemiyor. */
+  $("#langbtn").innerHTML   = esc(L.lang)+'<span class="ml">'+esc(L.langName)+'</span>';
+  $("#theme").innerHTML     = '◐<span class="ml">'+esc(L.themeName)+'</span>';
   $("#langbtn").setAttribute("aria-label", L.langLabel);
   $("#theme").setAttribute("aria-label", L.themeLabel); $("#theme").title = L.themeLabel;
   $("#menub").setAttribute("aria-label", L.menu);
@@ -1101,7 +1103,7 @@ document.addEventListener("keydown", function(e){
   /* While the dialog is open, / and r must not fire. <dialog> handles Esc. */
   if(dlg.open) return;
   if(filt.open){
-    if(e.key === "Escape" && !filt.matches(":modal")){ filt.close(); var fbt = $("#filtb"); if(fbt) fbt.focus() }
+    if(e.key === "Escape" && !filt.matches(":modal")) filt.close();
     return;
   }
   var typing = /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName);
@@ -1151,7 +1153,16 @@ $("#f-go").addEventListener("click", function(){ filt.close() });
 $("#f-clear").addEventListener("click", function(){
   activeTags = []; activeSrc = null; onlyPicks = false; single = null; recent = false; pages = {}; update(true);
 });
-filt.addEventListener("close", function(){ var b = $("#filtb"); if(b) b.setAttribute("aria-expanded", "false") });
+/* Kapaninca odak panelin icinde (ya da hicbir yerde) kaldiysa Suz dugmesine
+   donuyor. Tarayicinin kendi geri vermesine guvenilmiyor: iOS Safari'de
+   dokunulan dugme odak almiyor, odak kapali panelde asili kaliyordu. Panelin
+   disinda bir yere tiklandiysa odak orada kaliyor. */
+filt.addEventListener("close", function(){
+  var b = $("#filtb"); if(!b) return;
+  b.setAttribute("aria-expanded", "false");
+  var fa = document.activeElement;
+  if(!fa || fa === document.body || filt.contains(fa)) b.focus();
+});
 filt.addEventListener("click", function(e){
   if(e.target !== filt || !filt.matches(":modal")) return;
   var r = filt.getBoundingClientRect();

@@ -21,7 +21,7 @@
    odak halkasi. Baska hicbir sey kirmizi degil. */
 :root{
   --bg:#f6f1e7; --panel:#efe8da; --field:#fbf8f1;
-  --fg:#1c1a16; --dim:#5b564c; --faint:#6f695c;
+  --fg:#1c1a16; --dim:#5b564c; --faint:#686256;
   --rule:#ddd5c4; --rule2:#e9e2d3;
   --red:#a8321f; --red-soft:#f1e0d6; --on-red:#fbf8f1; --mark:#efd9c9;
   --shadow:0 16px 44px rgba(28,26,22,.14); --scrim:rgba(28,26,22,.42);
@@ -132,6 +132,7 @@ header.top{position:relative;display:grid;grid-template-columns:auto minmax(0,1f
 .search kbd{position:absolute;right:10px;top:50%;transform:translateY(-50%);pointer-events:none}
 #q:focus + kbd{display:none}
 .menu-b{grid-area:menu;display:none;font-size:22px;line-height:1;padding:4px 10px}
+.ml{display:none}
 /* .acts bir popover: masaustunde hep gorunur ve akista durur, dar ekranda
    "..." dugmesiyle acilan menu olur. [popover] icin UA kurallari sifirlaniyor. */
 .acts{grid-area:acts;display:flex;align-items:center;gap:2px;position:static;inset:auto;
@@ -139,7 +140,8 @@ header.top{position:relative;display:grid;grid-template-columns:auto minmax(0,1f
 body.at-home header.top{grid-template-columns:minmax(0,1fr) auto;
   grid-template-areas:"logo acts" "hero hero" "search search";row-gap:0;padding:22px 0 34px}
 body.at-home .hero{grid-area:hero;display:block;position:relative;z-index:1;
-  margin:52px 0 26px;max-width:22ch;font:400 42px/1.14 var(--serif);letter-spacing:-.022em}
+  margin:52px 0 26px;max-width:29ch;font:400 42px/1.14 var(--serif);letter-spacing:-.022em;
+  text-wrap:balance}
 body.at-home .hero em{font-style:normal;color:var(--red)}
 body.at-home .wm{display:block;position:absolute;right:-24px;top:34px;width:330px;height:330px;
   opacity:.09;pointer-events:none}
@@ -403,6 +405,7 @@ footer .lnk{padding:4px 6px;font-size:14px}
     flex-direction:column;align-items:stretch;min-width:220px;padding:6px;
     background:var(--bg);border:1px solid var(--rule);border-radius:12px;box-shadow:var(--shadow)}
   .acts:popover-open .lnk{min-height:44px;padding:0 14px;font-size:15px;justify-content:flex-start}
+  .acts:popover-open .ml{display:inline;margin-left:4px;color:var(--dim)}
   html.nopop .acts{display:flex;flex-wrap:wrap}
   html.nopop .menu-b{display:none}
   html.nopop header.top{grid-template-areas:"logo logo" "acts acts" "search search"}

@@ -24,8 +24,9 @@ you pick an area, then browse its categories.
 | **Öğrenme, Referans & Araçlar · Learning, Reference & Tools** | Roadmaps and free books; cheat sheets, lists and discovery; open source; editors, online playgrounds, converters and everyday tools. |
 | **Açık Erişim & Korsan · Open Access & Piracy** | Legal open access and archives, kept apart from piracy meta-hubs and tooling. |
 
-The design leans on a quiet, monochrome line language — circles and simple
-geometry drawn from Sufi and Taoist motifs — kept plain on purpose.
+The design is a rubricated index: ink on paper, and one red used only as a
+mark — entry numbers, the area numerals, where you are, where to start. An
+enso stands in for a logo.
 
 ## What an entry contains
 
