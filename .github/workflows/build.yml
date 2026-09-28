@@ -48,3 +48,40 @@ jobs:
             exit 1
           fi
           echo "clean"
+
+  # The committed pages in Chromium at desktop and phone size: one h1 per
+  # view, no sideways scroll, a clean console, the pre-rendered home equal to
+  # what app.js draws, the Süz panel, the menu, search -- see e2e/README.md.
+  # The repository's only npm dependency. No dependency cache on purpose:
+  # one package installs in seconds, and a cache shared with pull requests is
+  # one more thing that can be poisoned.
+  browser:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262  # v4.4.0
+
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065  # v5.6.0
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020  # v7.0.0
+        with:
+          node-version: "22"
+          package-manager-cache: false
+
+      - name: Install the test runner
+        run: npm ci
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Run the browser tests
+        run: npx playwright test
+
+      - name: Keep the report when a test fails
+        if: failure()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a  # v7.0.1
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 14

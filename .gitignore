@@ -17,3 +17,7 @@ rapor-github.md
 rapor-tazelik.md
 issue-error.txt
 .claude/
+# Tarayici testleri (npm run e2e): bagimliliklar ve raporlar depoda durmuyor.
+node_modules/
+test-results/
+playwright-report/

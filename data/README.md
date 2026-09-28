@@ -63,7 +63,10 @@ overwrites it.
 | `ci_fresh.py` | Asks whether a link is still the thing we described — takeovers, parked domains, dated claims |
 | `test_build.py` | Smoke test over the build output; run it before committing |
 | `test_helpers.py` | Unit tests for the note loader/validator and the pure helpers |
-| `../test_search.js` | Unit tests for the client-side search/scoring logic (`node test_search.js`, no dependency) |
+| `synonyms.py` | Search synonym groups (TR/EN equivalents, abbreviations); emitted into `links.js` |
+| `search_cases.json` | The 48-query search benchmark `test_search.js` enforces |
+| `../test_search.js` | Unit tests for `search.js`, the search benchmark and its speed budgets (`node test_search.js`, no dependency) |
+| `../e2e/` | Browser tests at desktop and phone size (`npm ci`, `npx playwright install chromium`, `npm run e2e`); what they guard is in `e2e/README.md` |
 | `make_og.py` | Regenerates `og.png`; the record count and address are baked into the pixels |
 
 ## What build.py writes
