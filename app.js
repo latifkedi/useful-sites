@@ -224,9 +224,11 @@ function indexEN(){
    tus vurusu ve ilk oneri beklemesin; kullanici daha once yazarsa ilk arama
    kendisi kuruyor. */
 function warmSearch(){
-  var go = function(){ Search.warm() };
-  if(window.requestIdleCallback) window.requestIdleCallback(go, {timeout: 2000});
-  else setTimeout(go, 300);
+  if(!window.requestIdleCallback){ setTimeout(function(){ Search.warm() }, 300); return }
+  /* Her bos anda bir dilim; is bitene kadar yeniden isteniyor. Tek parca
+     kurulum yavas bir telefonda sayfayi yarim saniyeden uzun kilitliyordu. */
+  var step = function(deadline){ if(!Search.warm(deadline)) window.requestIdleCallback(step, {timeout: 1000}) };
+  window.requestIdleCallback(step, {timeout: 2000});
 }
 
 var CATS = (function(){
@@ -1527,4 +1529,9 @@ $("#s-drop").addEventListener("drop", function(e){
 readURL();
 if(lang === "en") setLang("en"); else render();
 warmSearch();
+/* Tekrar ziyaretlerde anlik acilis ve cevrimdisi okuma (sw.js). Yukleme
+   bittikten sonra: ilk acilisla ag ve islemci icin yarismasin. */
+if("serviceWorker" in navigator){
+  addEventListener("load", function(){ navigator.serviceWorker.register("sw.js").catch(function(){}) });
+}
 })();

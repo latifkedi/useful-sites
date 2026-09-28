@@ -17,7 +17,10 @@ var Search = (function(){
   function fold(s){
     return String(s).replace(/İ/g,"i").toLowerCase().replace(/[ışğüöçâîû]/g, function(c){ return FOLD[c] });
   }
-  function host(u){ try{ return new URL(u).hostname.replace(/^www\./,"") }catch(e){ return "" } }
+  /* new URL() 1888 kez sayfa acilisinin en pahali parcasiydi; butun
+     kayitlarda ayni sonucu veren bir duzenli ifade. */
+  var HOST = /^[a-z][a-z0-9+.-]*:\/\/(?:[^\/?#@]*@)?([^\/?#:]+)/i;
+  function host(u){ var m = HOST.exec(String(u)); return m ? m[1].toLowerCase().replace(/^www\./, "") : "" }
 
   /* Kelime ayiricilari: bosluk, ASCII noktalama, Latin-1 noktalama/simgeler,
      genel noktalama, oklar, cizgi/sekil/dingbat bloklari, CJK ve tam
@@ -83,6 +86,9 @@ var Search = (function(){
   }
 
   var CATL, AREA, TAGL, SHORT, SYN, SYNG, VOC, RECS, VW, VTXT, VOFF, POST, SETS, SETN;
+  /* Parca parca kurulum: WP/WI yarim kelime dizini ve imleci, WJ ad/etiket
+     kelimeleri imleci, VN/VD/VI yarim oneri sozlugu ve imleci. */
+  var WP = null, WI = 0, WJ = 0, VN = null, VD = null, VI = 0;
 
   function label(s){ return words(fold(s || "")).join(" ") }
   function shortLbl(s){ return String(s || "").replace(/^\S{1,3} · /, "") }
@@ -91,18 +97,22 @@ var Search = (function(){
   }
 
   /* Bir kaydin arama alanlari. extra: sonradan gelen Ingilizce aciklama.
-     Sayfa acilisinda yalnizca bu kadari (alan adi, katlanmis ad ve metin);
-     kelime dizini ve oneri sozlugu warm() ile bos zamanda ya da ilk aramada,
-     ad/etiket kelimeleri yalnizca siralanan kayitlarda (wn, wt) kuruluyor. */
+     Sayfa acilisinda yalnizca alan adi (ekranda gosteriliyor); katlanmis
+     metin (prep), kelime dizini, ad/etiket kelimeleri ve oneri sozlugu
+     warm() ile bos zamanda parca parca, ya da ilk aramada bir kerede. */
   function index(d, extra){
-    var c = CATL[d.cat] || {}, a = AREA[d.cat] || {};
     d._h = host(d.url);
-    d._n = fold(d.name);
-    d._s = fold([d.name, d.tr, tagText(d), d._h, c.tr, c.en, a.tr, a.en, extra].filter(Boolean).join(" "));
-    d._wn = d._wt = null;
-    VOC = null; VW = null;
+    if(extra !== undefined) d._xt = extra;
+    d._s = d._n = d._wn = d._wt = null;
+    VW = null; WP = null; WI = 0; WJ = 0; VOC = null; VN = null; VI = 0;
   }
-  function wn(d){ return d._wn || (d._wn = wordStr(words(d._n))) }
+  function prep(d){
+    if(d._s !== null && d._s !== undefined) return;
+    var c = CATL[d.cat] || {}, a = AREA[d.cat] || {};
+    d._n = fold(d.name);
+    d._s = fold([d.name, d.tr, tagText(d), d._h, c.tr, c.en, a.tr, a.en, d._xt].filter(Boolean).join(" "));
+  }
+  function wn(d){ prep(d); return d._wn || (d._wn = wordStr(words(d._n))) }
   function wt(d){
     if(d._wt === null || d._wt === undefined){ d._t = fold(tagText(d)); d._wt = wordStr(words(d._t)) }
     return d._wt;
@@ -136,19 +146,26 @@ var Search = (function(){
      kaydin metninde gecmesi, o kaydin bir kelimesinin icinde gecmesiyle ayni
      sey -- yani sonuc, metinde teker teker aramakla birebir ayni. index()
      dizini bozuyor; warm() ya da ilk arama yeniden kuruyor. */
-  function ensure(){
-    if(VW) return;
-    POST = Object.create(null); SETS = Object.create(null); SETN = 0;
-    for(var i=0;i<RECS.length;i++){
-      new Set(words(RECS[i]._s)).forEach(function(w){ (POST[w] || (POST[w] = [])).push(i) });
+  function stepIdx(more){
+    if(VW) return true;
+    if(!WP){ WP = Object.create(null); WI = 0 }
+    while(WI < RECS.length){
+      var i = WI++, d = RECS[i];
+      prep(d);
+      new Set(words(d._s)).forEach(function(w){ (WP[w] || (WP[w] = [])).push(i) });
+      if(!more()) return false;
     }
+    POST = WP; WP = null; SETS = Object.create(null); SETN = 0;
     VW = Object.keys(POST).sort();
     /* Kelime ici arama icin butun kelimeler tek metinde; VOFF her kelimenin
        baslangici. 20 bin kelimeyi tek tek dolasmak yerine yerel indexOf. */
     VOFF = new Array(VW.length);
     for(var k=0, at=0;k<VW.length;k++){ VOFF[k] = at; at += VW[k].length + 1 }
     VTXT = VW.join(" ");
+    return true;
   }
+  function always(){ return true }
+  function ensure(){ if(!VW) stepIdx(always) }
   function wordAt(pos){
     var lo = 0, hi = VOFF.length - 1;
     while(lo < hi){ var m = (lo + hi + 1) >> 1; if(VOFF[m] <= pos) lo = m; else hi = m - 1 }
@@ -260,7 +277,7 @@ var Search = (function(){
 
   /* Tek kelimenin puani: ad, etiket, alan adi, gerisi (spec, bolum 3). */
   function wscore(d, w){
-    var t = w.t, sp = w.sp, v = 0, nw = wn(d), tw = wt(d), tt = d._t;
+    var t = w.t, sp = w.sp, v = 0, nw = wn(d), tw = wt(d), tt = d._t;   /* wn() prep ediyor */
     if(t.length <= 2){
       var whole = w.wh;
       if(d._n === t) v = 60;
@@ -329,27 +346,32 @@ var Search = (function(){
      gectigi kayit sayisi ve ekranda gosterilecek hali (Turkce harfleriyle).
      Uzunluga gore kovalarda: bir yazim hatasi yalnizca +-2 harflik kovalara
      bakiyor. */
-  function buildVoc(){
-    var n = Object.create(null), disp = Object.create(null);
-    RECS.forEach(function(d){
-      var c = CATL[d.cat] || {}, a = AREA[d.cat] || {}, seen = new Set();
+  function stepVoc(more){
+    if(VOC) return true;
+    if(!VN){ VN = Object.create(null); VD = Object.create(null); VI = 0 }
+    while(VI < RECS.length){
+      var d = RECS[VI++], c = CATL[d.cat] || {}, a = AREA[d.cat] || {}, seen = new Set();
       var raw = [d.name, tagText(d), c.tr, c.en, a.tr, a.en].filter(Boolean).join(" ");
       /* fold uzunlugu ve ayiricilari korudugu icin iki bolme ayni hizada. */
       var ows = words(raw), fws = words(fold(raw));
       if(ows.length !== fws.length) fws = ows.map(fold);
-      ows.forEach(function(ow, oi){
-        var w = fws[oi];
-        if(w.length < 3 || seen.has(w)) return;
+      for(var k=0;k<ows.length;k++){
+        var w = fws[k];
+        if(w.length < 3 || seen.has(w)) continue;
         seen.add(w);
-        n[w] = (n[w] || 0) + 1;
-        if(!disp[w]) disp[w] = ow.replace(/İ/g, "i").toLowerCase();
-      });
-    });
+        VN[w] = (VN[w] || 0) + 1;
+        if(!VD[w]) VD[w] = ows[k].replace(/İ/g, "i").toLowerCase();
+      }
+      if(!more()) return false;
+    }
     VOC = [];
-    Object.keys(n).forEach(function(w){
-      (VOC[w.length] = VOC[w.length] || []).push({w: w, n: n[w], d: disp[w], m: mask(w)});
+    Object.keys(VN).forEach(function(w){
+      (VOC[w.length] = VOC[w.length] || []).push({w: w, n: VN[w], d: VD[w], m: mask(w)});
     });
+    VN = VD = null;
+    return true;
   }
+  function buildVoc(){ stepVoc(always) }
   /* Kelimede gecen harflerin kumesi, 32 bitte. Tek bir duzenleme kumede en
      fazla iki harfi degistirebiliyor, yani iki kelimenin kume farki 2*max'i
      asiyorsa aralarindaki uzaklik max'i asiyor: osa'ya gerek kalmadan eleniyor.
@@ -432,10 +454,17 @@ var Search = (function(){
 
   /* Bos zamanda cagrilsin diye: kelime dizini ve oneri sozlugu simdiden
      kurulsun, ilk tus vurusu ya da ilk oneri beklemesin. */
-  function warm(){
-    ensure();
-    for(var i=0;i<RECS.length;i++){ wn(RECS[i]); wt(RECS[i]) }
-    if(!VOC) buildVoc();
+  /* Bos zamanda parca parca: deadline, requestIdleCallback'in verdigi
+     nesne (timeRemaining, didTimeout). Is bitince true, kalirsa false; app.js
+     false donunce bir sonraki bos ani istiyor. Zaman asimiyla cagrildiysa
+     (sayfa hic bosa cikmadiysa) 8 ms'lik bir dilim. deadline yoksa hepsi. */
+  function warm(deadline){
+    var end = deadline && deadline.didTimeout ? Date.now() + 8 : 0;
+    var more = !deadline ? always : end ? function(){ return Date.now() < end }
+                                        : function(){ return deadline.timeRemaining() > 1 };
+    if(!stepIdx(more)) return false;
+    while(WJ < RECS.length){ wn(RECS[WJ]); wt(RECS[WJ]); WJ++; if(!more()) return false }
+    return stepVoc(more);
   }
 
   init({});

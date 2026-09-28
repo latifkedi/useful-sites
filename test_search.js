@@ -171,6 +171,26 @@ const alone = t => {
 const dead = groups.filter(g => !g.some(alone)).map(g => g.join(" / "));
 check(!dead.length, "every group has a member that finds a record on its own" + (dead.length ? ": " + dead.join("; ") : ""));
 
+/* The app builds the index in idle slices (warm with a deadline). Check it
+   really stops and resumes, and that a search arriving mid-way finishes the
+   work itself and gets the same answer. The benchmark below then runs on
+   the index built in slices. */
+console.log("warm");
+const count = q => { const p = Search.parse(q); return LINKS.filter(d => Search.match(d, p)).length };
+const full = count("veri tabanı");
+Search.init({ records: LINKS, synonyms: win.SYNONYMS || [], groups: win.GROUPS || [],
+              cats: win.CATS || [], tagLabels: win.TAGLABELS || {} });
+let calls = 0, budget = 0;
+const slice = { didTimeout: false, timeRemaining: () => (budget-- > 0 ? 10 : 0) };
+budget = 100; calls++;
+check(Search.warm(slice) === false, "a short idle slice leaves work for later");
+check(count("veri tabanı") === full, "a search in the middle of warming finishes the index and matches");
+Search.init({ records: LINKS, synonyms: win.SYNONYMS || [], groups: win.GROUPS || [],
+              cats: win.CATS || [], tagLabels: win.TAGLABELS || {} });
+do { budget = 100; calls++ } while (!Search.warm(slice));
+check(calls > 20, "warming in 100-record slices takes many idle callbacks (" + calls + ")");
+check(Search.warm(slice) === true, "once warm, warm() is a no-op that reports done");
+
 console.log("benchmark");
 const cases = JSON.parse(fs.readFileSync(path.join(__dirname, "data", "search_cases.json"), "utf8"));
 const run = q => { const p = Search.parse(q); return Search.rank(LINKS.filter(d => Search.match(d, p)), p).map(d => d.name) };

@@ -68,6 +68,8 @@ overwrites it.
 | `../test_search.js` | Unit tests for `search.js`, the search benchmark and its speed budgets (`node test_search.js`, no dependency) |
 | `../e2e/` | Browser tests at desktop and phone size (`npm ci`, `npx playwright install chromium`, `npm run e2e`); what they guard is in `e2e/README.md` |
 | `make_og.py` | Regenerates `og.png`; the record count and address are baked into the pixels |
+| `make_icons.py` | Regenerates the app icons in `icons/` (the enso, red on paper), for `manifest.webmanifest` |
+| `../sw.js` | The service worker: network-first pages, cache-first stamped files, offline after one visit (no build step) |
 
 ## What build.py writes
 

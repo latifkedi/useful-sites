@@ -7,7 +7,7 @@
      alanindan geliyor, hicbir yere istek atilmiyor. CSP bunu bir
      niyet beyani olmaktan cikarip tarayicinin uyguladigi bir kural
      yapiyor -- ileride biri farkinda olmadan bir CDN eklerse patlar. -->
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Kullanışlı Siteler</title>
 <meta name="description" content="Yazılımdan yapay zekaya, güvenlikten ekonomiye ve mimariye on alanda elle derlenmiş, açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.">
@@ -40,7 +40,11 @@
 "target":{"@type":"EntryPoint","urlTemplate":"https://latifkedi.github.io/useful-sites/?q={search_term_string}"},
 "query-input":"required name=search_term_string"}}
 </script>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='13' font-size='13'>▤</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 60'><path d='M43 12A22 22 0 1 0 51 30' fill='none' stroke='%23a8321f' stroke-width='6' stroke-linecap='round'/></svg>">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="theme-color" content="#f6f1e7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#15140f" media="(prefers-color-scheme: dark)">
 <style id="css">
 /* Kullanisli Siteler -- tek stil kaynagi.
    build.py bu dosyayi index.html'e gomuyor (ek istek yok, CSP ayni); k/
@@ -586,7 +590,7 @@ footer .lnk{padding:4px 6px;font-size:14px}
 <button class="btn" id="top" type="button" title="Yukarı" aria-label="Yukarı">↑</button>
 
 <script src="links.js?v=a40667ce"></script>
-<script src="search.js?v=5919ce54"></script>
-<script src="app.js?v=a0a75e89" data-en="links.en.js?v=3c1670b2"></script>
+<script src="search.js?v=7d9c336f"></script>
+<script src="app.js?v=bdc70d9f" data-en="links.en.js?v=3c1670b2"></script>
 </body>
 </html>

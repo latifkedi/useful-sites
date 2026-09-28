@@ -71,6 +71,7 @@ HEAD = """<!doctype html>
 <link rel="alternate" hreflang="x-default" href="{alt_x}">
 <script type="application/ld+json">{jsonld}</script>
 <link rel="stylesheet" href="{css}">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 60'><path d='M43 12A22 22 0 1 0 51 30' fill='none' stroke='%23a8321f' stroke-width='6' stroke-linecap='round'/></svg>">
 </head>
 <body class="static">
 <div class="wrap">

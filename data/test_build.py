@@ -276,6 +276,19 @@ def main():
     check('app.js?v=' in ix and 'app.js?v=0"' not in ix, 'app.js carries a real cache stamp')
     s_at, a_at = ix.find('src="search.js?v='), ix.find('src="app.js?v=')
     check(0 <= s_at < a_at, 'index.html loads a stamped search.js before app.js')
+    # Installable and offline: the manifest is linked and allowed by the CSP,
+    # every icon it names exists, and the service worker app.js registers is
+    # there to register.
+    check('<link rel="manifest" href="manifest.webmanifest">' in ix and "manifest-src 'self'" in ix,
+          'index.html links the web manifest and its CSP allows it')
+    man = json.load(io.open(os.path.join(ROOT, 'manifest.webmanifest'), encoding='utf-8'))
+    missing = [i['src'] for i in man.get('icons', []) if not os.path.exists(os.path.join(ROOT, i['src']))]
+    check(man.get('start_url') == './' and not missing and
+          any(i.get('purpose') == 'maskable' for i in man.get('icons', [])),
+          'the manifest starts at ./ and every icon it names exists, one of them maskable'
+          + (' -- missing: %s' % missing if missing else ''))
+    check(os.path.exists(os.path.join(ROOT, 'sw.js')) and 'serviceWorker.register("sw.js")' in app,
+          'app.js registers sw.js, and sw.js exists')
     check("'unsafe-inline'" not in ix.split('script-src', 1)[1].split(';', 1)[0],
           'no inline script allowed by the CSP')
     check('KULLANICI' not in ix, 'no placeholder repository address left')
