@@ -5,6 +5,8 @@
 const { test, expect } = require("@playwright/test");
 const { ready, watchErrors } = require("./helpers");
 
+test.use({ serviceWorkers: "allow" });           /* blocked everywhere else (playwright.config.js) */
+
 async function installed(page) {
   await page.evaluate(() => navigator.serviceWorker.ready);
   /* the install step caches the page and what it references */

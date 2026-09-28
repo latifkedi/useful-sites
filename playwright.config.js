@@ -18,6 +18,11 @@ module.exports = defineConfig({
   use: {
     baseURL: "http://127.0.0.1:" + PORT,
     trace: "retain-on-failure",
+    /* The service worker installs right after load and fetches the page's
+       files; left on, that work races the context closing at the end of
+       unrelated tests ("browserContext.close: Test ended"). Only
+       offline.spec.js, which is about it, turns it back on. */
+    serviceWorkers: "block",
   },
   webServer: {
     command: "python -m http.server " + PORT + " --bind 127.0.0.1",
