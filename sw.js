@@ -11,6 +11,14 @@
    build'e bu dosya icin bir liste yazdirmak gerekmiyor. Baska sitelere giden
    isteklere dokunulmuyor. */
 "use strict";
+/* Onbellek sitenin kendi dosyalariyla sinirli: sayfalar yollarina gore
+   (sorgusuz), damgali dosyalar yol basina tek surum (trim), geri kalani
+   fontlar ve ikonlar. Hepsini sifirlamak icin bu adi degistir (v1 -> v2):
+   yeni sw.js yuklenince activate eski onbellegi siliyor. Service worker'i
+   tamamen kaldirmak gerekirse sw.js'i, kendini
+   self.registration.unregister() ile kaldiran ve onbellegi silen bir
+   dosyayla degistirmek yeterli; tarayici sw.js'i her gezinmede yeniden
+   denetliyor (en fazla 24 saatte bir). */
 var CACHE = "useful-sites-v1";
 var NAV_TIMEOUT = 3000;
 
@@ -84,7 +92,13 @@ self.addEventListener("fetch", function(e){
   if(stamped(url)){
     e.respondWith(caches.open(CACHE).then(function(cache){
       return cache.match(req).then(function(hit){
-        return hit || network(req, cache).then(function(r){ if(r.ok) trim(cache, url); return r });
+        return hit || network(req, cache).then(function(r){ if(r.ok) trim(cache, url); return r })
+          /* Bu damga hic alinmamis ve ag yok: ayni dosyanin elimizdeki surumu
+             (yeni bir sayfa eski bir betikle calisir; hic calismamasindan iyi),
+             o da yoksa temiz bir ag hatasi. */
+          .catch(function(){
+            return cache.match(req, {ignoreSearch: true}).then(function(old){ return old || Response.error() });
+          });
       });
     }));
     return;

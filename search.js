@@ -19,7 +19,7 @@ var Search = (function(){
   }
   /* new URL() 1888 kez sayfa acilisinin en pahali parcasiydi; butun
      kayitlarda ayni sonucu veren bir duzenli ifade. */
-  var HOST = /^[a-z][a-z0-9+.-]*:\/\/(?:[^\/?#@]*@)?([^\/?#:]+)/i;
+  var HOST = /^[a-z][a-z0-9+.-]*:\/\/(?:[^\/?#@]*@)?(\[[^\]\/?#]*\]|[^\/?#:\[\]]+)/i;
   function host(u){ var m = HOST.exec(String(u)); return m ? m[1].toLowerCase().replace(/^www\./, "") : "" }
 
   /* Kelime ayiricilari: bosluk, ASCII noktalama, Latin-1 noktalama/simgeler,

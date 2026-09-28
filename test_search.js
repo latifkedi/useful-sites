@@ -41,6 +41,12 @@ check(Search.fold("İÂşı").length === 4, "keeps the length hl() relies on");
 console.log("host");
 check(Search.host("https://www.Example.com/path?q=1") === "example.com", "strips scheme, www and path/query");
 check(Search.host("not a url") === "", "an invalid URL returns empty string rather than throwing");
+/* The regex replaced new URL() at start-up; it must agree with it. */
+["HTTPS://WWW.Example.COM/x", "https://user:pw@example.com:8080/a?b#c", "http://example.com.", "https://[::1]:8080/p",
+ "https://[2001:db8::1]/", "https://sub.example.co.uk"].forEach(function (u) {
+  check(Search.host(u) === new URL(u).hostname.replace(/^www\./, ""), "host(" + u + ") agrees with new URL()");
+});
+check(Search.host("mailto:a@b.c") === "", "a URL without // has no host");
 
 console.log("esc");
 check(esc('<a href="x">&</a>') === "&lt;a href=&quot;x&quot;&gt;&amp;&lt;/a&gt;",
