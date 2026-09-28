@@ -24,6 +24,7 @@ import datetime
 import hashlib
 
 from sources import SOURCES
+from notes import key as url_key
 
 SITE = 'https://latifkedi.github.io/useful-sites'
 FEED_N = 40
@@ -110,19 +111,40 @@ def _code(t):
     return re.sub(r'`([^`<>]+)`', r'<code>\1</code>', t)
 
 
-def _jsonld(title, canon, rows, L):
+def _anchors(rows):
+    """Each entry's id on its category page, from its URL key -- the key the
+    app's ?e= permalink uses: letters and digits kept, every other run one
+    hyphen (python.swaroopch.com -> python-swaroopch-com). It follows the
+    URL, not the name, so renaming an entry keeps its links. A clash on the
+    same page gets -2, -3 in list order."""
+    seen, out = set(), []
+    for _, d in rows:
+        base = re.sub(r'[^a-z0-9]+', '-', url_key(d['url'])).strip('-') or 'e'
+        a, n = base, 1
+        while a in seen:
+            n += 1
+            a = '%s-%d' % (base, n)
+        seen.add(a)
+        out.append(a)
+    return out
+
+
+def _jsonld(title, canon, rows, L, ids):
     """ItemList: a crawler sees the list as a list rather than as prose.
 
     The static pages already carry the text, but nothing told a machine what
     the structure was -- this is what separates a section of a directory from
     an arbitrary article.
     """
+    # All-in-one-page list: each item's url is its anchor on this page; the
+    # site it describes sits in "item".
     ogeler = []
-    for i, (_, d) in enumerate(rows, 1):
+    for i, ((_, d), a) in enumerate(zip(rows, ids), 1):
         ogeler.append(
-            '{"@type":"ListItem","position":%d,"url":%s,"name":%s}'
-            % (i, json.dumps(d['url'], ensure_ascii=False),
-               json.dumps(d['name'], ensure_ascii=False)))
+            '{"@type":"ListItem","position":%d,"url":%s,"name":%s,'
+            '"item":{"@type":"WebSite","name":%s,"url":%s}}'
+            % (i, json.dumps(canon + '#' + a), json.dumps(d['name'], ensure_ascii=False),
+               json.dumps(d['name'], ensure_ascii=False), json.dumps(d['url'], ensure_ascii=False)))
     return ('{"@context":"https://schema.org","@type":"ItemList",'
             '"name":%s,"url":%s,"inLanguage":"%s","numberOfItems":%d,'
             '"itemListOrder":"https://schema.org/ItemListOrderAscending",'
@@ -154,16 +176,16 @@ def _host(u):
     return h[4:] if h.startswith('www.') else h
 
 
-def _item(d, taglbl, desc, li, n):
+def _item(d, taglbl, desc, li, n, aid):
     tags = ' · '.join(taglbl.get(t, [t, t])[li] for t in d.get('tags', [])[:6])
     return (
-        '<article class="rec"><span class="no">%d</span><div class="rb">\n'
+        '<article class="rec" id="%s"><span class="no">%d</span><div class="rb">\n'
         '<div class="nm"><a class="name" href="%s" rel="noopener noreferrer nofollow">%s</a>'
         '<span class="host">%s</span></div>\n'
         '<p class="desc">%s</p>\n'
         '%s'
         '</div></article>'
-    ) % (n, esc(d['url']), esc(d['name']), esc(_host(d['url'])), _code(esc(desc)),
+    ) % (esc(aid), n, esc(d['url']), esc(d['name']), esc(_host(d['url'])), _code(esc(desc)),
          ('<div class="mt"><span class="itags">%s</span></div>\n' % esc(tags)) if tags else '')
 
 
@@ -234,10 +256,10 @@ def write_all(core, cats, intros, taglbl, out_dir, en_desc):
                 for o in order if o != k and by_cat.get(o))
             canon = '%s/k/%s%s.html' % (SITE, L['dir'], k)
             desc = (intro or label[k])[:180]
-            items = []
+            items, ids = [], _anchors(rows)
             for n, (i, d) in enumerate(rows, 1):
                 text = en_desc[i] if L['li'] == 1 and i < len(en_desc) else d['tr']
-                items.append(_item(d, taglbl, text, L['li'], n))
+                items.append(_item(d, taglbl, text, L['li'], n, ids[n - 1]))
             io.open(os.path.join(kdir, k + '.html'), 'w',
                     encoding='utf-8', newline='\n').write(PAGE.format(
                         lang=L['code'], site_name=esc(L['name']),
@@ -257,7 +279,7 @@ def write_all(core, cats, intros, taglbl, out_dir, en_desc):
                         alt_x='%s/k/%s.html' % (SITE, k),
                         items='\n'.join(items), others=others,
                         others_head=esc(L['others_head']),
-                        jsonld=_jsonld(label[k], canon, rows, L),
+                        jsonld=_jsonld(label[k], canon, rows, L, ids),
                         foot=L['foot'].format(t=esc(label[k]), s=SITE, k=esc(k))))
             if lang == 'tr':
                 written.append(k)

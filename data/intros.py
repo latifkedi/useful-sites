@@ -88,13 +88,43 @@ INTROS = {
         'Official documentation is a reference, not a tutorial, and confusing the two is the most common '
         'mistake. Moving to a new language, the useful order is a differences list, then the official tour, '
         'then the reference.'),
+    'c_rust': (
+        'C ve C++’ta başvuru ile iyi pratik ayrı yerlerden geliyor: dilin kendisini cppreference gibi bir '
+        'başvurudan, nasıl yazılması gerektiğini Stroustrup’un SSS’lerinden ve konferans konuşmalarından '
+        'öğreniyorsun. Rust’ta resmî kitap hem giriş hem ortak dil; derleyicinin hata iletileri de öğretimin '
+        'bir parçası, Rustlings bu yüzden okumaktan daha hızlı ilerletiyor.',
+        'In C and C++ the reference and good practice come from different places: the language itself from a '
+        'reference like cppreference, how to write it from Stroustrup’s FAQs and conference talks. In Rust the '
+        'official book is both the introduction and the shared vocabulary, and the compiler’s error messages '
+        'are part of the teaching — which is why Rustlings moves you along faster than reading.'),
+    'jvm': (
+        'Java’da dil küçük, ekosistem büyük: asıl öğrenilen derleme aracı (Maven ya da Gradle), test '
+        '(JUnit) ve çerçeve (Spring). Dev.java dilin kendisi için, Baeldung “bunu Spring’de nasıl yaparım” '
+        'sorusu için. Kotlin, Scala ve Clojure aynı JVM’de çalışıyor; birinden ötekine geçerken Java '
+        'kütüphaneleri ve araçları yanında geliyor.',
+        'In Java the language is small and the ecosystem large: what you really learn is the build tool '
+        '(Maven or Gradle), testing (JUnit) and the framework (Spring). Dev.java is for the language itself, '
+        'Baeldung for “how do I do this in Spring”. Kotlin, Scala and Clojure run on the same JVM, so moving '
+        'between them brings the Java libraries and tools along.'),
     'web': (
         'Tarayıcı uyumluluğu her kararın arkasında duruyor; MDN’in uyumluluk tabloları bu yüzden '
-        'öğreticilerden daha değerli. CSS tarafında Grid ve Flexbox’ı oyunla öğrenmek, spesifikasyon '
-        'okumaktan hem daha hızlı hem daha kalıcı.',
+        'öğreticilerden daha değerli. Araç seçerken önce ihtiyaç: çoğu içerik sitesi için bir statik site '
+        'üreteci (Hugo, Docusaurus) bir tek sayfa uygulama çerçevesinden daha az iş çıkarıyor. CSS ve '
+        'arayüz kitleri kendi başlıklarında.',
         'Browser compatibility sits behind every decision, which is why MDN’s support tables matter more '
-        'than tutorials. On the CSS side, learning Grid and Flexbox through a game is both faster and '
-        'more durable than reading the spec.'),
+        'than tutorials. When choosing tools, start from the need: for most content sites a static site '
+        'generator (Hugo, Docusaurus) is less work than a single-page app framework. CSS and UI kits have '
+        'their own heading.'),
+    'css': (
+        'CSS sorularının çoğu iki yerden birine düşüyor: yerleşim ya da görünüm. Yerleşimi, yani Grid ve '
+        'Flexbox’ı, Flexbox Froggy ve Grid Garden gibi oyunlarla öğrenmek spesifikasyon okumaktan hem hızlı '
+        'hem kalıcı. Çerçevelerde asıl seçim yardımcı sınıflar (Tailwind) ile hazır bileşenler (Bootstrap, '
+        'Bulma) arasında; üreteçler tek bir özelliği — gölge, köşe, geçiş eğrisi — elle ayarlamaktan kurtarıyor.',
+        'Most CSS questions fall into one of two places: layout or looks. Learning layout — Grid and Flexbox — '
+        'through games like Flexbox Froggy and Grid Garden is both faster and more durable than reading the '
+        'spec. Among frameworks the real choice is utility classes (Tailwind) versus ready components '
+        '(Bootstrap, Bulma); the generators save you tuning one property by hand — a shadow, a corner, an '
+        'easing curve.'),
     'backend': (
         'Çatı seçimi çoğunlukla “ne kadarı hazır gelsin” sorusudur: Django her şeyi getirir, Flask hiçbir '
         'şeyi. Sistem tasarımı kaynaklarını yalnızca mülakat için okuma — ölçekleme kararlarının '
@@ -235,6 +265,24 @@ INTROS = {
         'interfaces running the same model, one handing you masks, layers and seeds, the other a single '
         'text box. If commercial use is on the table, check the training data provenance and the output '
         'licence — they vary sharply here.'),
+    'arayuz': (
+        'İlham galerileri (Dribbble, Behance) ile desen kütüphaneleri (Mobbin, The Component Gallery) '
+        'farklı işe yarıyor: ilki neyin güzel göründüğünü, ikincisi bir bileşenin gerçek ürünlerde nasıl '
+        'çözüldüğünü gösteriyor. Renkte üreteçler hızlı ama kontrastı ayrıca denetlemek gerekiyor; yazı '
+        'tipinde eşleştirmeyi (FontPair) ve ölçeği (Type Scale) birlikte düşünmek işi kısaltıyor.',
+        'Inspiration galleries (Dribbble, Behance) and pattern libraries (Mobbin, The Component Gallery) do '
+        'different jobs: the first shows what looks good, the second how a component is actually solved in '
+        'real products. Colour generators are fast, but contrast still needs checking on its own; with type, '
+        'thinking about pairing (FontPair) and scale (Type Scale) together saves work.'),
+    'gorsel': (
+        'Burada seçimi çoğu zaman lisans belirliyor: stok fotoğraf siteleri (Unsplash, Pexels, Pixabay) '
+        'ücretsiz ama kendi lisanslarıyla, kamu malı arşivler koşulsuz. İkonda tek bir setle kalmak '
+        'tutarlılık getiriyor; Iconify gibi toplayıcılar birçok seti tek yerden aratıyor. İllüstrasyonda '
+        'rengi ayarlanabilenler (unDraw gibi) markaya uyarlamayı kolaylaştırıyor.',
+        'Here the choice is usually made by the licence: stock photo sites (Unsplash, Pexels, Pixabay) are '
+        'free but under their own licences, public-domain archives carry no conditions at all. With icons, '
+        'staying within one set brings consistency; aggregators like Iconify search many sets in one place. '
+        'Illustrations whose colour you can set (unDraw, say) are easier to fit to a brand.'),
     'medya': (
         'Bu alandaki araçların çoğu tek bir işi iyi yapıyor ve zincirlenmek üzere tasarlanmış. Tarayıcıda '
         'çalışanlar dosyayı yüklemiyor, yerelde çalışanlar toplu işi kaldırıyor: bir görsel için ilki, yüz '

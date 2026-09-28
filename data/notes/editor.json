@@ -82,6 +82,17 @@
     "src": "awesomeproj"
   },
   {
+    "url": "https://www.codingfont.com/",
+    "name": "CodingFont",
+    "tags": [
+      "interaktif",
+      "ücretsiz"
+    ],
+    "tr": "Kodlama fontlarını turnuva usulü ikişer ikişer karşılaştırıp sana en uygun olanı buldurmayı amaçlayan araç. Font listelerinden farkı seçimi karara indirgemesi — yirmi fontu yan yana koymuyor, ikisini seçtiriyor.",
+    "en": "Compares coding fonts two at a time in a tournament until one wins. Unlike a font list it turns browsing into a decision — it never puts twenty fonts side by side, only two.",
+    "src": "awesome-uw"
+  },
+  {
     "url": "https://theia-ide.org/",
     "name": "Eclipse Theia",
     "tags": [
@@ -191,6 +202,18 @@
     "src": "cdcruz"
   },
   {
+    "url": "https://www.programmingfonts.org/",
+    "name": "Programming Fonts",
+    "tags": [
+      "referans",
+      "ücretsiz",
+      "tarayıcı-içi"
+    ],
+    "tr": "Kodlama için tasarlanmış tek aralıklı fontları gerçek kod örneği üzerinde yan yana deneme sitesi. Font indirme sitelerinden farkı, ligatürleri ve 0/O, 1/l/I ayrımını doğrudan kod bağlamında görmen — asıl önemli olan da bu.",
+    "en": "A place to try monospaced coding fonts side by side on real code. Unlike a font download site, you see the ligatures and the 0/O and 1/l/I distinctions in the context that actually matters.",
+    "src": "cdcruz"
+  },
+  {
     "url": "https://github.com/p-e-w/ranwhen",
     "name": "ranwhen",
     "tags": [
@@ -224,6 +247,18 @@
     "tr": "Eklenti ekosistemiyle en yaygın kod editörü; hafif açılıyor ama dil sunucuları ve hata ayıklayıcılarla bir IDE’ye yaklaşıyor. JetBrains gibi tam IDE’lerden farkı her dili eklentiyle alman: temel küçük, yetenek eklentiden geliyor.",
     "en": "The most widely used code editor: it starts light but approaches an IDE through language servers and debuggers. Unlike full IDEs such as JetBrains, every language comes as an extension — a small base with capability added on.",
     "src": "awesomeproj"
+  },
+  {
+    "url": "https://vscodethemes.com/",
+    "name": "VS Code Themes",
+    "tags": [
+      "referans",
+      "ücretsiz",
+      "tarayıcı-içi"
+    ],
+    "tr": "VS Code temalarını gerçek kod üzerinde önizleyen galeri. Marketplace’ten farkı temayı kurmadan görmen — birkaç dilde aynı anda nasıl göründüğünü karşılaştırabiliyorsun.",
+    "en": "A gallery previewing VS Code themes on real code. Against the marketplace you see a theme without installing it, and can compare how it looks across several languages at once.",
+    "src": "awesome-uw"
   },
   {
     "url": "https://vscodium.com/",

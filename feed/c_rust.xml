@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
+<title>C, C++ &amp; Rust — Kullanışlı Siteler</title>
+<subtitle>Yazılımdan yapay zekaya, güvenlikten ekonomiye ve mimariye on alanda elle derlenmiş, açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/c_rust.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/c_rust.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/c_rust.xml</id>
+<updated>2026-09-18T00:00:00Z</updated>
+<entry>
+  <title>Awesome C++</title>
+  <link href="https://github.com/uhub/awesome-cpp"/>
+  <id>https://github.com/uhub/awesome-cpp</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>C++ kütüphane ve çerçevelerini konuya göre düzenleyen liste. Genel aramadan farkı bakımı yapılan, kategorilenmiş bir başlangıç haritası olması.</summary>
+</entry>
+<entry>
+  <title>Awesome CMake</title>
+  <link href="https://github.com/onqtam/awesome-cmake"/>
+  <id>https://github.com/onqtam/awesome-cmake</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>C/C++ derleme aracı CMake için betik, modül ve kaynak listesi. Resmî belgelerden farkı hedef tabanlı “modern CMake” pratiklerini anlatan rehberleri ve hazır modülleri seçmesi.</summary>
+</entry>
+<entry>
+  <title>Awesome Rust</title>
+  <link href="https://github.com/rust-unofficial/awesome-rust"/>
+  <id>https://github.com/rust-unofficial/awesome-rust</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Rust kütüphane ve uygulamalarını konuya göre düzenleyen liste. crates.io aramasından farkı seçilmiş, kategorilenmiş ve bakımı yapılan bir başlangıç haritası olması.</summary>
+</entry>
+<entry>
+  <title>Rust by Example</title>
+  <link href="https://doc.rust-lang.org/rust-by-example/"/>
+  <id>https://doc.rust-lang.org/rust-by-example/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Her kavramı çalıştırılabilir, düzenlenebilir kod örneğiyle veren resmî kaynak. Kitaptan farkı anlatıyı kısıp örneği öne alması — deneyerek öğrenenler için.</summary>
+</entry>
+<entry>
+  <title>Rust Playground</title>
+  <link href="https://play.rust-lang.org/"/>
+  <id>https://play.rust-lang.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Rust kodunu kurulum olmadan tarayıcıda derleyip çalıştıran resmî alan. Yerel kurulumdan farkı derleyici çıktısını ve ASM/MIR’i paylaşılabilir bağlantıyla vermesi.</summary>
+</entry>
+<entry>
+  <title>Rustlings</title>
+  <link href="https://github.com/rust-lang/rustlings"/>
+  <id>https://github.com/rust-lang/rustlings</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Küçük, kırık kod parçalarını düzelterek Rust öğreten alıştırma seti. Okuma temelli kaynaklardan farkı derleyici hatalarını okuyup düzeltmeyi elle deneyimletmesi.</summary>
+</entry>
+<entry>
+  <title>The Async Book</title>
+  <link href="https://rust-lang.github.io/async-book/"/>
+  <id>https://rust-lang.github.io/async-book/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Rust’ta async/await ve Future modelini anlatan resmî kitap. Genel eşzamanlılık anlatımından farkı Rust’ın kendine özgü, ayrıştırılmış çalışma zamanı yaklaşımını açması.</summary>
+</entry>
+<entry>
+  <title>The Cargo Book</title>
+  <link href="https://doc.rust-lang.org/cargo/"/>
+  <id>https://doc.rust-lang.org/cargo/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Rust’ın paket yöneticisi ve derleme aracı Cargo’nun resmî kılavuzu. Dağınık bloglardan farkı bağımlılık, çalışma alanı ve yayımlamayı tek yetkili yerde toplaması.</summary>
+</entry>
+<entry>
+  <title>The Rust Programming Language</title>
+  <link href="https://doc.rust-lang.org/book/"/>
+  <id>https://doc.rust-lang.org/book/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Rust’ı sıfırdan öğreten resmî kitap (“the book”). Üçüncü parti öğreticilerden farkı sahiplik ve ödünç alma modelini adım adım, dilin kendi ekibinin ağzından kurması.</summary>
+</entry>
+<entry>
+  <title>The Rust Reference</title>
+  <link href="https://doc.rust-lang.org/reference/"/>
+  <id>https://doc.rust-lang.org/reference/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Dilin dilbilgisini ve anlamını tanımlayan resmî başvuru. Kitaptan farkı öğretici değil, “Rust tam olarak nasıl davranır” sorusunun yetkili cevabı olması.</summary>
+</entry>
+<entry>
+  <title>The Rustonomicon</title>
+  <link href="https://doc.rust-lang.org/nomicon/"/>
+  <id>https://doc.rust-lang.org/nomicon/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Güvensiz (unsafe) Rust’ın kurallarını anlatan ileri düzey kitap. Ana kitaptan farkı ödünç denetçisinin dışına çıkıldığında nelere dikkat edileceğini kapsaması.</summary>
+</entry>
+<entry>
+  <title>cppreference</title>
+  <link href="https://cppreference.com/"/>
+  <id>https://cppreference.com/</id>
+  <updated>2026-08-19T23:34:19Z</updated>
+  <summary>C ve C++ standart kütüphanesinin fiilî referansı; her özelliğin hangi standartta (C++11/17/20/23) geldiği işaretli. Öğretici sitelerden farkı bu sürüm ayrımını atlamaması.</summary>
+</entry>
+<entry>
+  <title>C++ Üslup ve Teknik SSS</title>
+  <link href="https://www.stroustrup.com/bs_faq2.html"/>
+  <id>https://www.stroustrup.com/bs_faq2.html</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Stroustrup’un C++ üslubu ve sık yapılan hatalar üzerine SSS’i; “bunu neden böyle yapmalıyım” sorularının doğrudan cevabı. Üçüncü taraf öğreticilerden farkı gerekçenin dilin yaratıcısından gelmesi.</summary>
+</entry>
+<entry>
+  <title>C++11 SSS (Stroustrup)</title>
+  <link href="https://www.stroustrup.com/C++11FAQ.html"/>
+  <id>https://www.stroustrup.com/C++11FAQ.html</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Dilin yaratıcısının C++11 ile gelen her özelliği neden eklediğini anlattığı SSS. Özellik listesinden farkı, tasarım gerekçesini vermesi.</summary>
+</entry>
+<entry>
+  <title>Comprehensive Rust</title>
+  <link href="https://google.github.io/comprehensive-rust/"/>
+  <id>https://google.github.io/comprehensive-rust/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Google’ın dört günlük, slayt + alıştırma biçiminde açık Rust kursu. Kitaptan farkı sınıf ortamı için tempolu, gömülü ve eşzamanlılık modülleriyle gelmesi.</summary>
+</entry>
+<entry>
+  <title>CppCon</title>
+  <link href="https://www.youtube.com/user/CppCon/videos?shelf_id=0&amp;view=0&amp;sort=dd"/>
+  <id>https://www.youtube.com/user/CppCon/videos?shelf_id=0&amp;view=0&amp;sort=dd</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Yıllık C++ konferansının tüm konuşmaları. Öğreticilerden farkı dilin standardını yazan kişilerin sunumlarını içermesi — bir özelliğin neden öyle tasarlandığını burada duyuyorsun.</summary>
+</entry>
+<entry>
+  <title>crates.io</title>
+  <link href="https://crates.io/"/>
+  <id>https://crates.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Rust’ın resmî paket kayıt defteri — kütüphaneleri yayımlayıp bağımlılık olarak çekmenin merkezi. Genel kod aramalarından farkı sürüm ve indirme verisiyle güvenilir kaynağı göstermesi.</summary>
+</entry>
+<entry>
+  <title>docs.rs</title>
+  <link href="https://docs.rs/"/>
+  <id>https://docs.rs/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>crates.io’daki her paketin belgelerini otomatik derleyip yayımlayan servis. Her projenin kendi sitesinden farkı tüm ekosistemin dokümanını tek biçim ve tek adreste toplaması.</summary>
+</entry>
+<entry>
+  <title>Meeting C++</title>
+  <link href="https://www.youtube.com/user/MeetingCPP/videos"/>
+  <id>https://www.youtube.com/user/MeetingCPP/videos</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Avrupa’nın en büyük C++ konferansının konuşma arşivi. CppCon’dan farkı daha küçük ve uygulama ağırlıklı olması — standart tartışmasından çok gerçek projelerden deneyimler.</summary>
+</entry>
+<entry>
+  <title>Qt Documentation</title>
+  <link href="https://doc.qt.io/"/>
+  <id>https://doc.qt.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Qt çatısının resmî belgeleri; C++ ve QML için sınıf referansı, örnekler ve platform kılavuzları. Diğer arayüz çatılarının belgelerinden farkı kapsamı — masaüstü, mobil ve gömülü aynı API altında anlatılıyor.</summary>
+</entry>
+<entry>
+  <title>Rust Cookbook</title>
+  <link href="https://rust-lang-nursery.github.io/rust-cookbook/"/>
+  <id>https://rust-lang-nursery.github.io/rust-cookbook/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>&quot;Dosyayı satır satır oku&quot;, &quot;HTTP isteği at&quot; gibi gündelik işlerin Rust karşılıklarını veren tarif kitabı. Kitap ve örneklerden farkı görev odaklı olması — dili öğrenmek için değil, bir işi bitirmek için açılıyor.</summary>
+</entry>
+<entry>
+  <title>Rust Standard Library</title>
+  <link href="https://doc.rust-lang.org/std/"/>
+  <id>https://doc.rust-lang.org/std/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Rust standart kütüphanesinin resmî referansı — tip, trait ve makrolar. Öğreticilerden farkı öğretmeye değil, tam ve kesin başvuruya yönelmesi.</summary>
+</entry>
+<entry>
+  <title>Stroustrup on C++</title>
+  <link href="https://www.stroustrup.com/C++.html"/>
+  <id>https://www.stroustrup.com/C++.html</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>C++’ın yaratıcısının kendi sayfası: sıkça sorulan sorular, üslup önerileri ve dilin neden öyle tasarlandığını anlatan yazılar. Öğreticilerden farkı gerekçe sunması — bir kararın nedenini ancak kararı verenden okuyabiliyorsun.</summary>
+</entry>
+<entry>
+  <title>The Rust Book</title>
+  <link href="https://doc.rust-lang.org/book/title-page.html"/>
+  <id>https://doc.rust-lang.org/book/title-page.html</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Rust’ın resmî kitabı; sahiplik ve ödünç alma gibi dile özgü kavramları sıfırdan kuruyor. Diğer dil kitaplarından farkı derleyicinin hata mesajlarını öğretinin parçası yapması — Rust’ta derleyiciyle tartışmayı öğrenmek dilin yarısı.</summary>
+</entry>
+<entry>
+  <title>This Week in Rust</title>
+  <link href="https://this-week-in-rust.org/"/>
+  <id>https://this-week-in-rust.org/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Rust dünyasındaki gelişmeleri, yeni sürüm ve yazıları haftalık derleyen bülten. Dağınık takipten farkı ekosistemi tek, düzenli akışta izlemeni sağlaması.</summary>
+</entry>
+<entry>
+  <title>Tokio</title>
+  <link href="https://tokio.rs/"/>
+  <id>https://tokio.rs/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Rust için en yaygın asenkron çalışma zamanı; ağ servisleri bunun üstüne kurulur. Standart kütüphaneden farkı yüksek eşzamanlı G/Ç için zamanlayıcı, görev ve araçları getirmesi.</summary>
+</entry>
+<entry>
+  <title>Rust Öğrenin (Türkçe)</title>
+  <link href="https://rust-lang.org/tr/learn/"/>
+  <id>https://rust-lang.org/tr/learn/</id>
+  <updated>2026-03-29T18:36:46Z</updated>
+  <summary>Rust’ın resmî öğrenme sayfasının Türkçe hâli. İngilizce sayfa yerine sahiplik (ownership) ve ödünç alma kavramlarına kendi dilinde girmek, dilin en dik yokuşunu biraz yumuşatıyor.</summary>
+</entry>
+<entry>
+  <title>Learn C</title>
+  <link href="https://www.learn-c.org/"/>
+  <id>https://www.learn-c.org/</id>
+  <updated>2026-03-08T15:37:28Z</updated>
+  <summary>Tarayıcıda derleyip çalıştırabildiğin C öğreticisi. Derleyici kurmak yerine doğrudan sayfada denediğin için dile bakmak isteyenlerin giriş engelini kaldırıyor.</summary>
+</entry>
+<entry>
+  <title>C Programming Tutorial</title>
+  <link href="https://www.tutorialspoint.com/cprogramming/index.htm"/>
+  <id>https://www.tutorialspoint.com/cprogramming/index.htm</id>
+  <updated>2026-03-08T15:37:01Z</updated>
+  <summary>Baştan sona klasik C anlatımı. Kapsamlı ama üslubu ve örnekleri eski; sıralı okumaktan çok tek konu aramak için pratik.</summary>
+</entry>
+<entry>
+  <title>C Yol Haritası</title>
+  <link href="https://github.com/Koubae/Programming-CookBook/blob/master/Programming%20Languages/C/roadmap.md"/>
+  <id>https://github.com/Koubae/Programming-CookBook/blob/master/Programming%20Languages/C/roadmap.md</id>
+  <updated>2026-03-07T23:55:29Z</updated>
+  <summary>C öğrenimini konu sırasına koyan kısa harita. Kapsamlı kurslardan farkı içerik değil yalnız sıra vermesi: işaretçi ve bellek yönetimini nereye yerleştireceğini gösteriyor.</summary>
+</entry>
+<entry>
+  <title>GeeksforGeeks C</title>
+  <link href="https://www.geeksforgeeks.org/c/c-programming-language/"/>
+  <id>https://www.geeksforgeeks.org/c/c-programming-language/</id>
+  <updated>2026-02-23T11:20:56Z</updated>
+  <summary>Konu başlığına bölünmüş C kaynağı. Sıralı bir kitaptan farkı aramadan doğrudan ilgili sayfaya düşmen; örnek kodların bir kısmı eski derleyici davranışına dayanıyor, dikkatli okumak gerekiyor.</summary>
+</entry>
+<entry>
+  <title>Awesome C</title>
+  <link href="https://github.com/oz123/awesome-c"/>
+  <id>https://github.com/oz123/awesome-c</id>
+  <updated>2026-02-21T22:24:01Z</updated>
+  <summary>C kütüphane, çatı ve araç listesi. Dilin standart kütüphanesi kasten dar olduğu için C’de “hangi kütüphane” sorusu diğer dillerden çok daha sık sorulur.</summary>
+</entry>
+<entry>
+  <title>IncludeHelp C Programları</title>
+  <link href="https://www.includehelp.com/c-programs/c-programs-basic-input-output-operations.aspx"/>
+  <id>https://www.includehelp.com/c-programs/c-programs-basic-input-output-operations.aspx</id>
+  <updated>2026-02-21T22:23:44Z</updated>
+  <summary>Çözülmüş C programları koleksiyonu. Öğreticilerden farkı anlatım yerine doğrudan çalışan örnek vermesi; bir kalıbı hızla hatırlamak için elverişli.</summary>
+</entry>
+<entry>
+  <title>Sıfırdan C Programlama</title>
+  <link href="https://www.youtube.com/watch?v=yuVatFCOISc"/>
+  <id>https://www.youtube.com/watch?v=yuVatFCOISc</id>
+  <updated>2026-02-10T06:51:20Z</updated>
+  <summary>C dilini tek oturumda anlatan Türkçe video. Haftalara yayılan kurslardan farkı hızlı giriş ya da sınav öncesi tekrar için tek seferde bitmesi.</summary>
+</entry>
+<entry>
+  <title>Kodisyum C Örnekleri</title>
+  <link href="https://kodisyum.com/c-ornekler/"/>
+  <id>https://kodisyum.com/c-ornekler/</id>
+  <updated>2025-11-24T08:27:12Z</updated>
+  <summary>Türkçe C örnek programları; ders ödevi düzeyindeki klasik alıştırmaları kapsıyor. İngilizce örnek arşivlerinden farkı Türkçe olması — yerelde C kaynağı kıt olduğu için değerli.</summary>
+</entry>
+<entry>
+  <title>HolyC</title>
+  <link href="https://holyc-lang.com/"/>
+  <id>https://holyc-lang.com/</id>
+  <updated>2025-07-30T00:45:38Z</updated>
+  <summary>TempleOS’un HolyC dili için bağımsız derleyici ve dokümantasyon. Üretim dillerinin aksine pratik bir kullanımı yok; dil tasarımı ve bilgisayar tarihi merakı için duruyor.</summary>
+</entry>
+</feed>

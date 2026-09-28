@@ -1,45 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-<title>Media, Design &amp; Files — Useful Sites</title>
+<title>Media, Files &amp; Diagrams — Useful Sites</title>
 <subtitle>A hand-curated, annotated link directory across ten areas, from software and AI to security, economics and architecture. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
 <link href="https://latifkedi.github.io/useful-sites/feed/en/medya.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/en/medya.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/medya.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
-  <title>Animista</title>
-  <link href="https://animista.net"/>
-  <id>https://animista.net</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A library of ready CSS animations you can play, tweak and copy the code from. Unlike adding a whole library such as animate.css, you take only the code for the animation you need.</summary>
-</entry>
-<entry>
-  <title>Awesome Ant Design</title>
-  <link href="https://github.com/websemantics/awesome-ant-design"/>
-  <id>https://github.com/websemantics/awesome-ant-design</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Ant Design, the enterprise-class UI design language. Unlike Material UI, its components target data-heavy enterprise interfaces; the list gathers community components and templates.</summary>
-</entry>
-<entry>
   <title>Awesome Creative Coding</title>
   <link href="https://github.com/terkelg/awesome-creative-coding"/>
   <id>https://github.com/terkelg/awesome-creative-coding</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A resource list for creative coding — programming to express rather than to function.</summary>
-</entry>
-<entry>
-  <title>Awesome Design Principles</title>
-  <link href="https://github.com/robinstickel/awesome-design-principles"/>
-  <id>https://github.com/robinstickel/awesome-design-principles</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of design principles for better, more consistent designs. Unlike component libraries, it collects not components but the design principles companies and teams have published.</summary>
-</entry>
-<entry>
-  <title>Awesome Design Systems</title>
-  <link href="https://github.com/klaufel/awesome-design-systems"/>
-  <id>https://github.com/klaufel/awesome-design-systems</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of reusable component systems (design systems) guided by rules. Unlike UI kits, it gathers real companies’ systems published with their principles and documentation, not just components.</summary>
 </entry>
 <entry>
   <title>Awesome FFmpeg</title>
@@ -49,144 +21,11 @@
   <summary>A resource list for FFmpeg, recording, converting and streaming audio/video. Unlike the FFmpeg docs, it gathers command examples, GUIs and library wrappers per language.</summary>
 </entry>
 <entry>
-  <title>Awesome GIF</title>
-  <link href="https://github.com/davisonio/awesome-gif"/>
-  <id>https://github.com/davisonio/awesome-gif</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of tools and resources for the GIF animated-image format. Unlike general image lists, it gathers only tools for creating, optimising and playing GIFs.</summary>
-</entry>
-<entry>
-  <title>Awesome Icons</title>
-  <link href="https://github.com/notlmn/awesome-icons"/>
-  <id>https://github.com/notlmn/awesome-icons</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of downloadable SVG/PNG/font icon projects. Unlike a single icon set, it lays dozens of sets side by side so you can pick by style and licence.</summary>
-</entry>
-<entry>
-  <title>Awesome Pixel Art</title>
-  <link href="https://github.com/Siilwyn/awesome-pixel-art"/>
-  <id>https://github.com/Siilwyn/awesome-pixel-art</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of tools and resources for pixel-level digital art. Unlike general drawing lists, it focuses on pixel editors, palettes and pixel-art tutorials.</summary>
-</entry>
-<entry>
-  <title>Awesome Product Design</title>
-  <link href="https://github.com/ttt30ga/awesome-product-design"/>
-  <id>https://github.com/ttt30ga/awesome-product-design</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list covering the design process from concept to product. Unlike UI-kit lists it is process-focused: research, prototyping, usability testing and handoff.</summary>
-</entry>
-<entry>
   <title>Awesome VLC</title>
   <link href="https://github.com/mfkl/awesome-vlc"/>
   <id>https://github.com/mfkl/awesome-vlc</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A list of plugins and resources for VLC, the cross-platform media player. Unlike general media-player lists, it focuses on VLC and libVLC alone: plugins, language bindings, projects built on top.</summary>
-</entry>
-<entry>
-  <title>Awesome Web Design</title>
-  <link href="https://github.com/nicolesaidy/awesome-web-design"/>
-  <id>https://github.com/nicolesaidy/awesome-web-design</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A web-design resource list for digital designers. Unlike developer lists it is aimed at designers: inspiration, typography, colour and design tools.</summary>
-</entry>
-<entry>
-  <title>Behance</title>
-  <link href="https://www.behance.net"/>
-  <id>https://www.behance.net</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Adobe's portfolio platform presenting full project case studies rather than single shots.</summary>
-</entry>
-<entry>
-  <title>Checklist Design</title>
-  <link href="https://www.checklist.design"/>
-  <id>https://www.checklist.design</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Actionable UI/UX checklists organised per component and per page. Unlike general UX articles, it gives concrete, tickable items for each component.</summary>
-</entry>
-<entry>
-  <title>Color Hunt</title>
-  <link href="https://colorhunt.co"/>
-  <id>https://colorhunt.co</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A catalogue of ready-to-use colour palettes curated by community votes. Unlike generators such as Coolors, you pick from palettes others liked rather than generating at random.</summary>
-</entry>
-<entry>
-  <title>Colorful</title>
-  <link href="https://github.com/Siddharth11/Colorful"/>
-  <id>https://github.com/Siddharth11/Colorful</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list to help choose your next colour scheme. Unlike a single palette generator such as Coolors, it gathers generators, palettes and colour-theory resources together.</summary>
-</entry>
-<entry>
-  <title>Colormind</title>
-  <link href="https://colormind.io"/>
-  <id>https://colormind.io</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An AI generator that learns from photos and art to suggest harmonious colour palettes. Unlike Coolors, it generates from a learned model rather than random combinations.</summary>
-</entry>
-<entry>
-  <title>cubic-bezier.com</title>
-  <link href="https://cubic-bezier.com"/>
-  <id>https://cubic-bezier.com</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Lea Verou’s tool to craft CSS easing curves by hand and compare them against presets live. Unlike easings.net, you build your own curve by dragging handles rather than picking a preset.</summary>
-</entry>
-<entry>
-  <title>Dribbble</title>
-  <link href="https://dribbble.com"/>
-  <id>https://dribbble.com</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An inspiration community where designers share work. Unlike Behance it is built on short “shots”, weighted towards concept work rather than shipped products.</summary>
-</entry>
-<entry>
-  <title>Easings.net</title>
-  <link href="https://easings.net"/>
-  <id>https://easings.net</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Visualises common easing curves and lets you copy the cubic-bezier for each. Unlike cubic-bezier.com, you choose among named presets rather than building a curve.</summary>
-</entry>
-<entry>
-  <title>Feather Icons</title>
-  <link href="https://feathericons.com/"/>
-  <id>https://feathericons.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A simple, consistent open-source icon set at a single stroke weight. Unlike large libraries it offers a minimal visual language and small file size.</summary>
-</entry>
-<entry>
-  <title>Flaticon</title>
-  <link href="https://www.flaticon.com"/>
-  <id>https://www.flaticon.com</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A vast icon bank offering millions of vector icons in various styles.</summary>
-</entry>
-<entry>
-  <title>Font Awesome</title>
-  <link href="https://fontawesome.com/"/>
-  <id>https://fontawesome.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The de facto icon and logo library of the web. Unlike collecting SVGs one by one you add icons as a font/CSS class in a single line.</summary>
-</entry>
-<entry>
-  <title>Fontsource</title>
-  <link href="https://fontsource.org"/>
-  <id>https://fontsource.org</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Lets you self-host open-source fonts as npm packages. Unlike the Google Fonts CDN no request goes to an outside server — for privacy and offline use.</summary>
-</entry>
-<entry>
-  <title>FreeImages</title>
-  <link href="https://www.freeimages.com/"/>
-  <id>https://www.freeimages.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A free stock-photo archive whose roots go back to the old stock.xchng (SXC) community. Unlike Unsplash it is an older, broader archive; the trade-off is that image quality and licence terms vary from item to item.</summary>
-</entry>
-<entry>
-  <title>Freepik Stories</title>
-  <link href="https://stories.freepik.com/"/>
-  <id>https://stories.freepik.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Freepik’s set of free, editable illustrations (Storyset); you can recolour them and download them animated. Unlike Freepik’s main archive, every image is customisable in the browser; free use requires attribution.</summary>
 </entry>
 <entry>
   <title>GIMP</title>
@@ -196,94 +35,255 @@
   <summary>A full-featured image editor that is the open-source alternative to Photoshop. Unlike paid tools it is free and extensible with plugins.</summary>
 </entry>
 <entry>
-  <title>Gratisography</title>
-  <link href="https://gratisography.com/"/>
-  <id>https://gratisography.com/</id>
+  <title>Lucidchart</title>
+  <link href="https://www.lucidchart.com/"/>
+  <id>https://www.lucidchart.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Unusual and creative free stock photos. Unlike archives such as Unsplash, its quirky, humorous shots steer clear of the clichéd stock-photo look.</summary>
+  <summary>An online tool for diagrams and flowcharts with team collaboration. Compared with draw.io its team and integration features are stronger, while the free tier is limited.</summary>
 </entry>
 <entry>
-  <title>Haikei</title>
-  <link href="https://haikei.app"/>
-  <id>https://haikei.app</id>
+  <title>Miro</title>
+  <link href="https://miro.com/"/>
+  <id>https://miro.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A browser tool that generates blobs, waves and layered SVG background shapes. Unlike drawing SVG by hand, you generate random but controllable shapes in a click and export them.</summary>
+  <summary>A real-time, infinite whiteboard for diagrams and brainstorming. Unlike diagram tools such as draw.io it is free-form — sticky notes, sketches and templates suited to running team workshops.</summary>
 </entry>
 <entry>
-  <title>Hero Patterns</title>
-  <link href="https://heropatterns.com"/>
-  <id>https://heropatterns.com</id>
+  <title>Pixilart</title>
+  <link href="https://www.pixilart.com/draw"/>
+  <id>https://www.pixilart.com/draw</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Repeatable SVG background patterns whose colour and opacity you tune, then copy the CSS. Unlike image-file backgrounds they are tiny and recolourable in CSS.</summary>
+  <summary>A tool for drawing pixel art in the browser, with drawings shareable with the community. Unlike desktop tools such as Aseprite it needs no install; the trade-off is more limited animation and layer features.</summary>
 </entry>
 <entry>
-  <title>Humaaans</title>
-  <link href="https://www.humaaans.com/"/>
-  <id>https://www.humaaans.com/</id>
+  <title>Pixlr</title>
+  <link href="https://pixlr.com/"/>
+  <id>https://pixlr.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A library of human illustrations whose parts you can mix and pose. Unlike ready illustrations you assemble the figure limb by limb into an original scene.</summary>
+  <summary>Cloud-based image-editing tools that run in the browser. Unlike Photoshop it needs no install and has a free tier; in exchange, advanced features are limited.</summary>
 </entry>
 <entry>
-  <title>IcoFont</title>
-  <link href="https://icofont.com/"/>
-  <id>https://icofont.com/</id>
+  <title>Vectorizer</title>
+  <link href="https://www.vectorizer.io/"/>
+  <id>https://www.vectorizer.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>2,100+ free icons to spice up designs, also usable as an icon font. Unlike downloading SVGs one by one, you drop an icon into a page with a CSS class.</summary>
+  <summary>A tool converting pixel images like PNG/JPG into vectors (SVG). Unlike redrawing by hand it automatically turns an existing logo into a scalable form.</summary>
 </entry>
 <entry>
-  <title>Iconfinder</title>
-  <link href="https://www.iconfinder.com/"/>
-  <id>https://www.iconfinder.com/</id>
+  <title>Whimsical</title>
+  <link href="https://whimsical.com/"/>
+  <id>https://whimsical.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A search engine hosting millions of icons and illustrations. Unlike a single icon set, you search across many designers’ sets at once; free and paid icons are mixed, so check the licence.</summary>
+  <summary>A tool combining flowcharts, wireframes, sticky notes and mind maps on one canvas. Unlike single-purpose tools it keeps them all together in one document.</summary>
 </entry>
 <entry>
-  <title>Iconify</title>
-  <link href="https://iconify.design/"/>
-  <id>https://iconify.design/</id>
+  <title>X-Icon Editor</title>
+  <link href="https://www.xiconeditor.com/"/>
+  <id>https://www.xiconeditor.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A library unifying 100+ icon sets under one API/component. Unlike installing each set separately you pull and mix them all from one interface.</summary>
+  <summary>An editor that produces high-resolution favicons from images. Unlike one-click favicon generators, you can edit the icon pixel by pixel at each size.</summary>
 </entry>
 <entry>
-  <title>iconmonstr</title>
-  <link href="https://iconmonstr.com/"/>
-  <id>https://iconmonstr.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A site with 316 free icon collections, all by a single designer. Unlike marketplaces such as Iconfinder it keeps one consistent style, so icons from different collections still sit well together.</summary>
+  <title>Aseprite</title>
+  <link href="https://www.aseprite.org/"/>
+  <id>https://www.aseprite.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>An editor built for pixel art and animation, with onion skinning, a frame timeline and sprite sheet export. Unlike a general painting program every tool snaps to the pixel grid, so anti-aliasing never appears where you did not ask for it.</summary>
 </entry>
 <entry>
-  <title>Icons8</title>
-  <link href="https://icons8.com/"/>
-  <id>https://icons8.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A broad asset source offering icons, illustrations, photos and music in various styles. Unlike single-type sites it gives many types in one consistent visual language.</summary>
+  <title>Blender</title>
+  <link href="https://www.blender.org/"/>
+  <id>https://www.blender.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Modelling, texturing, rigging, simulation, rendering and video editing in one package. Against Maya or 3ds Max it is free, and it keeps the entire pipeline in a single program so nothing is lost in file handoffs.</summary>
 </entry>
 <entry>
-  <title>Iconscout</title>
-  <link href="https://iconscout.com/"/>
-  <id>https://iconscout.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A large collection bringing together icons, illustrations and 3D assets. Unlike sites offering a single asset type, it covers all of them under one search and licence; much of it is paid.</summary>
+  <title>FontForge</title>
+  <link href="https://fontforge.org/en-US/"/>
+  <id>https://fontforge.org/en-US/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A font creation and editing program that converts between TTF, OTF and WOFF and lets you work on glyph hinting. Unlike an online font converter, you can get at the glyphs themselves.</summary>
 </entry>
 <entry>
-  <title>IRA Design</title>
-  <link href="https://iradesign.io/illustrations"/>
-  <id>https://iradesign.io/illustrations</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Free illustrations with editable colours and objects. Unlike ready-made stock illustrations, you choose the gradient and objects to compose your own scene.</summary>
+  <title>Inkscape</title>
+  <link href="https://inkscape.org/"/>
+  <id>https://inkscape.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A vector editor that uses SVG as its native format. Against Illustrator, the file is clean SVG ready for the web — no export step in between, and you can hand-edit the source.</summary>
 </entry>
 <entry>
-  <title>LineIcons</title>
-  <link href="https://lineicons.com/"/>
-  <id>https://lineicons.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An icon set of 2,000+ icons in a line style, part of it paid. Unlike mixed-style sets, every icon shares the same stroke weight and style.</summary>
+  <title>Krita</title>
+  <link href="https://krita.org/en/"/>
+  <id>https://krita.org/en/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A painting program for digital art and concept work, with a strong brush engine and frame-by-frame animation. Unlike GIMP it was built for drawing rather than photo editing, and brush latency and stabilisation are tuned accordingly.</summary>
 </entry>
 <entry>
-  <title>Lorem Picsum</title>
-  <link href="https://picsum.photos/"/>
-  <id>https://picsum.photos/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A service returning placeholder photos at any size (the lorem ipsum of images). Unlike fixed placeholders you pass a size in the URL and get a real photo.</summary>
+  <title>LosslessCut</title>
+  <link href="https://github.com/mifi/lossless-cut"/>
+  <id>https://github.com/mifi/lossless-cut</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Cuts and joins video without re-encoding, working on keyframe boundaries. Against a normal editor the operation takes seconds and loses no quality — trimming the head and tail off an hour of footage no longer means opening a timeline.</summary>
+</entry>
+<entry>
+  <title>MediaInfo</title>
+  <link href="https://mediaarea.net/en/MediaInfo"/>
+  <id>https://mediaarea.net/en/MediaInfo</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Dumps the technical identity of a video or audio file: codec, bitrate, frame rate, colour space, container details. Unlike a player’s properties dialog it goes to stream level, which makes it the source of truth when something will not play.</summary>
+</entry>
+<entry>
+  <title>Photopea</title>
+  <link href="https://www.photopea.com/"/>
+  <id>https://www.photopea.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>An image editor in the browser that opens PSD, XCF, Sketch and XD files with their layers intact. Against GIMP it installs nothing and its PSD compatibility is genuinely good, which makes it the shortest path to opening a file someone sent you.</summary>
+</entry>
+<entry>
+  <title>Piskel</title>
+  <link href="https://www.piskelapp.com/"/>
+  <id>https://www.piskelapp.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A pixel art and sprite animation editor in the browser. Against Aseprite it is free and needs no install; in exchange the layer and brush tools are thinner — enough for your first sprite.</summary>
+</entry>
+<entry>
+  <title>SankeyDiagram.net</title>
+  <link href="https://sankeydiagram.net/"/>
+  <id>https://sankeydiagram.net/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Generates Sankey flow diagrams from text input, for energy, budget or funnel flows. Unlike general diagram tools it does one chart type, and takes its input as text rather than as drawing.</summary>
+</entry>
+<entry>
+  <title>ShareX</title>
+  <link href="https://getsharex.com/"/>
+  <id>https://getsharex.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A screenshot and recording tool for Windows that chains post-capture steps: upload, shorten, OCR. What separates it from Snipping Tool is that workflow automation — capture and link-on-clipboard becomes one shortcut.</summary>
+</entry>
+<entry>
+  <title>Shutter Encoder</title>
+  <link href="https://www.shutterencoder.com/"/>
+  <id>https://www.shutterencoder.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A converter wrapping FFmpeg with a UI, offering the intermediate codecs and batch jobs editors need. Against HandBrake it is aimed at post-production — ProRes, DNxHD and subtitle burn-in sit in the menu rather than in a command line.</summary>
+</entry>
+<entry>
+  <title>Squoosh</title>
+  <link href="https://squoosh.app/"/>
+  <id>https://squoosh.app/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Image compression with a side-by-side comparison, running MozJPEG, WebP and AVIF encoders in the browser through WebAssembly. Unlike TinyPNG nothing is uploaded, and every encoder setting is yours to tune.</summary>
+</entry>
+<entry>
+  <title>Subtitle Edit</title>
+  <link href="https://github.com/SubtitleEdit/subtitleedit"/>
+  <id>https://github.com/SubtitleEdit/subtitleedit</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A subtitle editor that shows a waveform and spectrogram underneath, reads over 200 formats, shifts timings and extracts burned-in subtitles by OCR. Those synchronisation tools are what separate it from simple subtitle editors.</summary>
+</entry>
+<entry>
+  <title>Subtitle Editor Online</title>
+  <link href="https://subtitle-editor.org/"/>
+  <id>https://subtitle-editor.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>A subtitle editor in the browser for opening .srt and .vtt files and fixing timings and text. Against desktop tools like Subtitle Edit it installs nothing, which is what you want for a quick fix on someone else’s machine.</summary>
+</entry>
+<entry>
+  <title>TinyPNG</title>
+  <link href="https://tinypng.com/"/>
+  <id>https://tinypng.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Shrinks PNG and JPEG files through selective quantisation: drag, drop, no settings. Against Squoosh it offers batch processing and an API — Squoosh for one image, this for a hundred.</summary>
+</entry>
+<entry>
+  <title>Vector Magic</title>
+  <link href="https://vectormagic.com/"/>
+  <id>https://vectormagic.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Converts a bitmap image into vector art. Against Illustrator’s trace, its edge detection is noticeably cleaner — it is the best route to recovering a logo from a low-resolution PNG.</summary>
+</entry>
+<entry>
+  <title>XnConvert</title>
+  <link href="https://www.xnview.com/en/xnconvert/"/>
+  <id>https://www.xnview.com/en/xnconvert/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Batch image conversion and processing that reads over 500 formats and writes around 70, with resize and watermark steps chained together. Unlike online converters it handles thousands of files locally with no size cap.</summary>
+</entry>
+<entry>
+  <title>Carbon</title>
+  <link href="https://carbon.now.sh/"/>
+  <id>https://carbon.now.sh/</id>
+  <updated>2026-08-19T16:12:33Z</updated>
+  <summary>Turns a snippet into a shareable image with theme, window chrome and line numbers under your control. Unlike a screenshot the result is reproducible and legible.</summary>
+</entry>
+<entry>
+  <title>Excalidraw</title>
+  <link href="https://excalidraw.com/"/>
+  <id>https://excalidraw.com/</id>
+  <updated>2026-08-19T16:11:36Z</updated>
+  <summary>A hand-drawn-style whiteboard. Looking deliberately rough is functional rather than stylistic — it stops a draft architecture being mistaken for a finished one.</summary>
+</entry>
+<entry>
+  <title>diagrams.net</title>
+  <link href="https://app.diagrams.net/"/>
+  <id>https://app.diagrams.net/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The online edition of draw.io, saving to Drive, OneDrive or local disk rather than keeping your file on its own server.</summary>
+</entry>
+<entry>
+  <title>Mermaid</title>
+  <link href="https://mermaid.js.org/"/>
+  <id>https://mermaid.js.org/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A tool generating flowcharts and diagrams from text — “Markdown for diagrams”. Unlike drawing programs you embed the diagram as code and keep it in version control.</summary>
+</entry>
+<entry>
+  <title>ray.so</title>
+  <link href="https://www.ray.so/"/>
+  <id>https://www.ray.so/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Turns a snippet into a shareable image — a Carbon alternative with fewer knobs and a faster result.</summary>
+</entry>
+<entry>
+  <title>SVG Path Editor</title>
+  <link href="https://yqnn.github.io/svg-path-editor/"/>
+  <id>https://yqnn.github.io/svg-path-editor/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Edits SVG path data (the `d` attribute) visually while listing the commands one by one. Against a general vector editor you get at the raw path text, which is what you want for fixing a hand-written icon.</summary>
+</entry>
+<entry>
+  <title>DjVu</title>
+  <link href="https://tr.wikipedia.org/wiki/DjVu"/>
+  <id>https://tr.wikipedia.org/wiki/DjVu</id>
+  <updated>2026-06-25T06:20:59Z</updated>
+  <summary>A PDF alternative for scanned documents producing much smaller files at the same quality. You meet it often in older archives, so it is worth knowing what it is.</summary>
+</entry>
+<entry>
+  <title>OpenReel Video</title>
+  <link href="https://github.com/Augani/openreel-video"/>
+  <id>https://github.com/Augani/openreel-video</id>
+  <updated>2026-05-11T15:28:43Z</updated>
+  <summary>A video editor running in the browser with the footage staying on device — an alternative that needs no installation and no upload to a cloud service.</summary>
+</entry>
+<entry>
+  <title>draw.io</title>
+  <link href="https://www.drawio.com/"/>
+  <id>https://www.drawio.com/</id>
+  <updated>2026-02-25T21:43:43Z</updated>
+  <summary>A free tool for flowcharts and diagrams. Unlike Lucidchart it is entirely free and lets you keep diagrams in your own repository or cloud.</summary>
+</entry>
+<entry>
+  <title>Mermaid Live Editor</title>
+  <link href="https://mermaid.live/edit"/>
+  <id>https://mermaid.live/edit</id>
+  <updated>2025-11-10T17:33:33Z</updated>
+  <summary>Generates diagrams from text; GitHub and GitLab render Mermaid natively. Unlike drawing tools such as draw.io the source is plain text, so it lives in version control with a readable diff.</summary>
+</entry>
+<entry>
+  <title>iLovePDF</title>
+  <link href="https://www.ilovepdf.com/"/>
+  <id>https://www.ilovepdf.com/</id>
+  <updated>2025-07-22T17:33:56Z</updated>
+  <summary>Merge, split, compress and convert. Unlike desktop PDF tools it needs no installation; be careful with sensitive documents — the file is uploaded to a server, and a local tool may be the better call.</summary>
 </entry>
 </feed>

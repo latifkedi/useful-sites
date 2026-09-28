@@ -1,0 +1,453 @@
+[
+  {
+    "url": "https://github.com/oz123/awesome-c",
+    "name": "Awesome C",
+    "tags": [
+      "github",
+      "awesome-liste",
+      "c-ailesi"
+    ],
+    "tr": "C kütüphane, çatı ve araç listesi. Dilin standart kütüphanesi kasten dar olduğu için C’de “hangi kütüphane” sorusu diğer dillerden çok daha sık sorulur.",
+    "en": "A list of C libraries, frameworks and tools. Because the standard library is deliberately thin, “which library” comes up far more often in C than elsewhere.",
+    "src": "kedi",
+    "added": 1771712641
+  },
+  {
+    "url": "https://github.com/uhub/awesome-cpp",
+    "name": "Awesome C++",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "c-ailesi"
+    ],
+    "tr": "C++ kütüphane ve çerçevelerini konuya göre düzenleyen liste. Genel aramadan farkı bakımı yapılan, kategorilenmiş bir başlangıç haritası olması.",
+    "en": "A list organising C++ libraries and frameworks by topic. Unlike general search it is a maintained, categorised starting map.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/onqtam/awesome-cmake",
+    "name": "Awesome CMake",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "c-ailesi"
+    ],
+    "tr": "C/C++ derleme aracı CMake için betik, modül ve kaynak listesi. Resmî belgelerden farkı hedef tabanlı “modern CMake” pratiklerini anlatan rehberleri ve hazır modülleri seçmesi.",
+    "en": "A list of scripts, modules and resources for CMake, the C/C++ build tool. Unlike the official docs, it picks guides to target-based “modern CMake” practice and ready-made modules.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/rust-unofficial/awesome-rust",
+    "name": "Awesome Rust",
+    "tags": [
+      "rust",
+      "awesome-liste",
+      "github",
+      "referans"
+    ],
+    "tr": "Rust kütüphane ve uygulamalarını konuya göre düzenleyen liste. crates.io aramasından farkı seçilmiş, kategorilenmiş ve bakımı yapılan bir başlangıç haritası olması.",
+    "en": "A list organising Rust libraries and applications by topic. Unlike a crates.io search it is a curated, categorised and maintained starting map.",
+    "src": "rustlearn"
+  },
+  {
+    "url": "https://www.tutorialspoint.com/cprogramming/index.htm",
+    "name": "C Programming Tutorial",
+    "tags": [
+      "ücretsiz",
+      "c-ailesi"
+    ],
+    "tr": "Baştan sona klasik C anlatımı. Kapsamlı ama üslubu ve örnekleri eski; sıralı okumaktan çok tek konu aramak için pratik.",
+    "en": "A classic front-to-back treatment of C. Comprehensive, but dated in style and examples — handier for looking one topic up than for reading through.",
+    "src": "kedi",
+    "added": 1772984221
+  },
+  {
+    "url": "https://github.com/Koubae/Programming-CookBook/blob/master/Programming%20Languages/C/roadmap.md",
+    "name": "C Yol Haritası",
+    "tags": [
+      "github",
+      "müfredat",
+      "c-ailesi"
+    ],
+    "tr": "C öğrenimini konu sırasına koyan kısa harita. Kapsamlı kurslardan farkı içerik değil yalnız sıra vermesi: işaretçi ve bellek yönetimini nereye yerleştireceğini gösteriyor.",
+    "en": "A short map ordering C topics. Unlike full courses it gives sequence rather than content, showing where pointers and memory management belong.",
+    "src": "kedi",
+    "added": 1772927729
+  },
+  {
+    "url": "https://www.stroustrup.com/bs_faq2.html",
+    "name": "C++ Üslup ve Teknik SSS",
+    "tags": [
+      "ücretsiz",
+      "c-ailesi",
+      "referans"
+    ],
+    "tr": "Stroustrup’un C++ üslubu ve sık yapılan hatalar üzerine SSS’i; “bunu neden böyle yapmalıyım” sorularının doğrudan cevabı. Üçüncü taraf öğreticilerden farkı gerekçenin dilin yaratıcısından gelmesi.",
+    "en": "Stroustrup’s FAQ on C++ style and common mistakes — direct answers to “why should I do it this way”. Unlike third-party tutorials, the reasoning comes from the language’s creator.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.stroustrup.com/C++11FAQ.html",
+    "name": "C++11 SSS (Stroustrup)",
+    "tags": [
+      "ücretsiz",
+      "c-ailesi",
+      "referans"
+    ],
+    "tr": "Dilin yaratıcısının C++11 ile gelen her özelliği neden eklediğini anlattığı SSS. Özellik listesinden farkı, tasarım gerekçesini vermesi.",
+    "en": "The language’s creator explaining why each C++11 feature was added. Unlike a feature list, it gives the design rationale.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://google.github.io/comprehensive-rust/",
+    "name": "Comprehensive Rust",
+    "tags": [
+      "rust",
+      "müfredat",
+      "ücretsiz"
+    ],
+    "tr": "Google’ın dört günlük, slayt + alıştırma biçiminde açık Rust kursu. Kitaptan farkı sınıf ortamı için tempolu, gömülü ve eşzamanlılık modülleriyle gelmesi.",
+    "en": "Google’s open four-day Rust course as slides + exercises. Unlike the book it is paced for a classroom and comes with embedded and concurrency modules.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://www.youtube.com/user/CppCon/videos?shelf_id=0&view=0&sort=dd",
+    "name": "CppCon",
+    "tags": [
+      "video",
+      "c-ailesi",
+      "ücretsiz"
+    ],
+    "tr": "Yıllık C++ konferansının tüm konuşmaları. Öğreticilerden farkı dilin standardını yazan kişilerin sunumlarını içermesi — bir özelliğin neden öyle tasarlandığını burada duyuyorsun.",
+    "en": "Every talk from the annual C++ conference. Against tutorials it carries presentations from the people who write the standard — where you hear why a feature was designed as it was.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://cppreference.com/",
+    "name": "cppreference",
+    "tags": [
+      "ücretsiz",
+      "c-ailesi",
+      "referans"
+    ],
+    "tr": "C ve C++ standart kütüphanesinin fiilî referansı; her özelliğin hangi standartta (C++11/17/20/23) geldiği işaretli. Öğretici sitelerden farkı bu sürüm ayrımını atlamaması.",
+    "en": "The de facto reference for the C and C++ standard library, marking which standard (C++11/17/20/23) each feature arrived in. Unlike tutorial sites, it never skips that version distinction.",
+    "src": "kedi",
+    "added": 1787182459
+  },
+  {
+    "url": "https://crates.io/",
+    "name": "crates.io",
+    "tags": [
+      "rust",
+      "referans",
+      "açık-kaynak"
+    ],
+    "tr": "Rust’ın resmî paket kayıt defteri — kütüphaneleri yayımlayıp bağımlılık olarak çekmenin merkezi. Genel kod aramalarından farkı sürüm ve indirme verisiyle güvenilir kaynağı göstermesi.",
+    "en": "Rust’s official package registry — the hub for publishing libraries and pulling them as dependencies. Unlike general code search it shows the trustworthy source with version and download data.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://docs.rs/",
+    "name": "docs.rs",
+    "tags": [
+      "rust",
+      "dokümantasyon",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "crates.io’daki her paketin belgelerini otomatik derleyip yayımlayan servis. Her projenin kendi sitesinden farkı tüm ekosistemin dokümanını tek biçim ve tek adreste toplaması.",
+    "en": "A service that automatically builds and publishes the docs for every package on crates.io. Unlike each project’s own site it gathers the whole ecosystem’s docs in one format at one address.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://www.geeksforgeeks.org/c/c-programming-language/",
+    "name": "GeeksforGeeks C",
+    "tags": [
+      "ücretsiz",
+      "c-ailesi"
+    ],
+    "tr": "Konu başlığına bölünmüş C kaynağı. Sıralı bir kitaptan farkı aramadan doğrudan ilgili sayfaya düşmen; örnek kodların bir kısmı eski derleyici davranışına dayanıyor, dikkatli okumak gerekiyor.",
+    "en": "C material split by topic. Unlike a sequential book, a search lands you straight on the relevant page; some examples rely on old compiler behaviour, so read carefully.",
+    "src": "kedi",
+    "added": 1771845656
+  },
+  {
+    "url": "https://holyc-lang.com/",
+    "name": "HolyC",
+    "tags": [
+      "açık-kaynak",
+      "referans",
+      "c-ailesi"
+    ],
+    "tr": "TempleOS’un HolyC dili için bağımsız derleyici ve dokümantasyon. Üretim dillerinin aksine pratik bir kullanımı yok; dil tasarımı ve bilgisayar tarihi merakı için duruyor.",
+    "en": "An independent compiler and documentation for TempleOS’s HolyC. Unlike production languages it has no practical use — it stands for the language design and computing history interest.",
+    "src": "kedi",
+    "added": 1753836338
+  },
+  {
+    "url": "https://www.includehelp.com/c-programs/c-programs-basic-input-output-operations.aspx",
+    "name": "IncludeHelp C Programları",
+    "tags": [
+      "ücretsiz",
+      "c-ailesi",
+      "öğretici"
+    ],
+    "tr": "Çözülmüş C programları koleksiyonu. Öğreticilerden farkı anlatım yerine doğrudan çalışan örnek vermesi; bir kalıbı hızla hatırlamak için elverişli.",
+    "en": "A collection of solved C programs. Unlike tutorials it offers working examples instead of exposition — handy for recalling a pattern quickly.",
+    "src": "kedi",
+    "added": 1771712624
+  },
+  {
+    "url": "https://kodisyum.com/c-ornekler/",
+    "name": "Kodisyum C Örnekleri",
+    "tags": [
+      "ücretsiz",
+      "türkçe",
+      "c-ailesi"
+    ],
+    "tr": "Türkçe C örnek programları; ders ödevi düzeyindeki klasik alıştırmaları kapsıyor. İngilizce örnek arşivlerinden farkı Türkçe olması — yerelde C kaynağı kıt olduğu için değerli.",
+    "en": "Turkish C example programs covering the classic coursework-level exercises. Unlike English example archives it is in Turkish — valuable because Turkish C material is thin on the ground.",
+    "src": "kedi",
+    "added": 1763972832
+  },
+  {
+    "url": "https://www.learn-c.org/",
+    "name": "Learn C",
+    "tags": [
+      "ücretsiz",
+      "c-ailesi",
+      "interaktif"
+    ],
+    "tr": "Tarayıcıda derleyip çalıştırabildiğin C öğreticisi. Derleyici kurmak yerine doğrudan sayfada denediğin için dile bakmak isteyenlerin giriş engelini kaldırıyor.",
+    "en": "A C tutorial you compile and run in the browser. Rather than installing a toolchain you try it on the page, which removes the entry barrier for anyone who wants a look at the language.",
+    "src": "kedi",
+    "added": 1772984248
+  },
+  {
+    "url": "https://www.youtube.com/user/MeetingCPP/videos",
+    "name": "Meeting C++",
+    "tags": [
+      "video",
+      "c-ailesi",
+      "ücretsiz"
+    ],
+    "tr": "Avrupa’nın en büyük C++ konferansının konuşma arşivi. CppCon’dan farkı daha küçük ve uygulama ağırlıklı olması — standart tartışmasından çok gerçek projelerden deneyimler.",
+    "en": "The talk archive of Europe’s largest C++ conference. Against CppCon it is smaller and more applied — experience from real projects rather than standards debate.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://doc.qt.io/",
+    "name": "Qt Documentation",
+    "tags": [
+      "dokümantasyon",
+      "c-ailesi",
+      "masaüstü"
+    ],
+    "tr": "Qt çatısının resmî belgeleri; C++ ve QML için sınıf referansı, örnekler ve platform kılavuzları. Diğer arayüz çatılarının belgelerinden farkı kapsamı — masaüstü, mobil ve gömülü aynı API altında anlatılıyor.",
+    "en": "The official documentation for the Qt framework: class reference, examples and platform guides for C++ and QML. Against other UI framework docs the difference is scope — desktop, mobile and embedded described under one API.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://doc.rust-lang.org/rust-by-example/",
+    "name": "Rust by Example",
+    "tags": [
+      "rust",
+      "interaktif",
+      "ücretsiz"
+    ],
+    "tr": "Her kavramı çalıştırılabilir, düzenlenebilir kod örneğiyle veren resmî kaynak. Kitaptan farkı anlatıyı kısıp örneği öne alması — deneyerek öğrenenler için.",
+    "en": "The official resource giving each concept as a runnable, editable code example. Unlike the book it cuts the prose and leads with the example — for those who learn by trying.",
+    "src": "rustlearn"
+  },
+  {
+    "url": "https://rust-lang-nursery.github.io/rust-cookbook/",
+    "name": "Rust Cookbook",
+    "tags": [
+      "rust",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "\"Dosyayı satır satır oku\", \"HTTP isteği at\" gibi gündelik işlerin Rust karşılıklarını veren tarif kitabı. Kitap ve örneklerden farkı görev odaklı olması — dili öğrenmek için değil, bir işi bitirmek için açılıyor.",
+    "en": "A cookbook of everyday tasks in Rust — read a file line by line, make an HTTP request. Against the book and the examples it is task-oriented: you open it to finish something, not to learn the language.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://play.rust-lang.org/",
+    "name": "Rust Playground",
+    "tags": [
+      "rust",
+      "tarayıcı-içi",
+      "ücretsiz",
+      "interaktif"
+    ],
+    "tr": "Rust kodunu kurulum olmadan tarayıcıda derleyip çalıştıran resmî alan. Yerel kurulumdan farkı derleyici çıktısını ve ASM/MIR’i paylaşılabilir bağlantıyla vermesi.",
+    "en": "The official space to compile and run Rust code in the browser with no install. Unlike a local setup it gives compiler output and ASM/MIR via a shareable link.",
+    "src": "rustlearn"
+  },
+  {
+    "url": "https://doc.rust-lang.org/std/",
+    "name": "Rust Standard Library",
+    "tags": [
+      "rust",
+      "dokümantasyon",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Rust standart kütüphanesinin resmî referansı — tip, trait ve makrolar. Öğreticilerden farkı öğretmeye değil, tam ve kesin başvuruya yönelmesi.",
+    "en": "The official reference for the Rust standard library — types, traits and macros. Unlike tutorials it aims not to teach but to be the complete, exact reference.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://rust-lang.org/tr/learn/",
+    "name": "Rust Öğrenin (Türkçe)",
+    "tags": [
+      "ücretsiz",
+      "türkçe",
+      "rust"
+    ],
+    "tr": "Rust’ın resmî öğrenme sayfasının Türkçe hâli. İngilizce sayfa yerine sahiplik (ownership) ve ödünç alma kavramlarına kendi dilinde girmek, dilin en dik yokuşunu biraz yumuşatıyor.",
+    "en": "The Turkish version of Rust’s official learning page. Meeting ownership and borrowing in your own language rather than English softens the language’s steepest climb a little.",
+    "src": "kedi",
+    "added": 1774809406
+  },
+  {
+    "url": "https://github.com/rust-lang/rustlings",
+    "name": "Rustlings",
+    "tags": [
+      "rust",
+      "interaktif",
+      "açık-kaynak",
+      "github"
+    ],
+    "tr": "Küçük, kırık kod parçalarını düzelterek Rust öğreten alıştırma seti. Okuma temelli kaynaklardan farkı derleyici hatalarını okuyup düzeltmeyi elle deneyimletmesi.",
+    "en": "An exercise set teaching Rust by fixing small, broken snippets. Unlike reading-based resources it has you read and fix compiler errors by hand.",
+    "src": "rustlearn"
+  },
+  {
+    "url": "https://www.stroustrup.com/C++.html",
+    "name": "Stroustrup on C++",
+    "tags": [
+      "c-ailesi",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "C++’ın yaratıcısının kendi sayfası: sıkça sorulan sorular, üslup önerileri ve dilin neden öyle tasarlandığını anlatan yazılar. Öğreticilerden farkı gerekçe sunması — bir kararın nedenini ancak kararı verenden okuyabiliyorsun.",
+    "en": "The C++ creator’s own pages: FAQs, style advice and essays on why the language was designed as it was. Unlike tutorials it supplies rationale — the reason behind a decision is only available from the person who made it.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=yuVatFCOISc",
+    "name": "Sıfırdan C Programlama",
+    "tags": [
+      "video",
+      "türkçe",
+      "c-ailesi"
+    ],
+    "tr": "C dilini tek oturumda anlatan Türkçe video. Haftalara yayılan kurslardan farkı hızlı giriş ya da sınav öncesi tekrar için tek seferde bitmesi.",
+    "en": "A Turkish video covering C in a single sitting. Unlike courses spread over weeks it is done in one go — for a fast introduction or pre-exam revision.",
+    "src": "kedi",
+    "added": 1770706280
+  },
+  {
+    "url": "https://rust-lang.github.io/async-book/",
+    "name": "The Async Book",
+    "tags": [
+      "rust",
+      "kitap",
+      "ücretsiz",
+      "öğretici"
+    ],
+    "tr": "Rust’ta async/await ve Future modelini anlatan resmî kitap. Genel eşzamanlılık anlatımından farkı Rust’ın kendine özgü, ayrıştırılmış çalışma zamanı yaklaşımını açması.",
+    "en": "The official book on async/await and the Future model in Rust. Unlike general concurrency material it explains Rust’s distinctive, decoupled runtime approach.",
+    "src": "rustlearn"
+  },
+  {
+    "url": "https://doc.rust-lang.org/cargo/",
+    "name": "The Cargo Book",
+    "tags": [
+      "rust",
+      "dokümantasyon",
+      "ücretsiz"
+    ],
+    "tr": "Rust’ın paket yöneticisi ve derleme aracı Cargo’nun resmî kılavuzu. Dağınık bloglardan farkı bağımlılık, çalışma alanı ve yayımlamayı tek yetkili yerde toplaması.",
+    "en": "The official guide to Cargo, Rust’s package manager and build tool. Unlike scattered blogs it gathers dependencies, workspaces and publishing in one authoritative place.",
+    "src": "rustlearn"
+  },
+  {
+    "url": "https://doc.rust-lang.org/book/title-page.html",
+    "name": "The Rust Book",
+    "tags": [
+      "rust",
+      "kitap",
+      "dokümantasyon",
+      "ücretsiz"
+    ],
+    "tr": "Rust’ın resmî kitabı; sahiplik ve ödünç alma gibi dile özgü kavramları sıfırdan kuruyor. Diğer dil kitaplarından farkı derleyicinin hata mesajlarını öğretinin parçası yapması — Rust’ta derleyiciyle tartışmayı öğrenmek dilin yarısı.",
+    "en": "Rust’s official book, building up ownership and borrowing from nothing. Unlike other language books it makes the compiler’s error messages part of the teaching — in Rust, learning to argue with the compiler is half the language.",
+    "src": "bwapsv"
+  },
+  {
+    "url": "https://doc.rust-lang.org/book/",
+    "name": "The Rust Programming Language",
+    "tags": [
+      "rust",
+      "kitap",
+      "ücretsiz",
+      "öğretici"
+    ],
+    "tr": "Rust’ı sıfırdan öğreten resmî kitap (“the book”). Üçüncü parti öğreticilerden farkı sahiplik ve ödünç alma modelini adım adım, dilin kendi ekibinin ağzından kurması.",
+    "en": "The official book teaching Rust from scratch (“the book”). Unlike third-party tutorials it builds the ownership and borrowing model step by step, from the language team itself.",
+    "src": "rustlearn"
+  },
+  {
+    "url": "https://doc.rust-lang.org/reference/",
+    "name": "The Rust Reference",
+    "tags": [
+      "rust",
+      "dokümantasyon",
+      "referans"
+    ],
+    "tr": "Dilin dilbilgisini ve anlamını tanımlayan resmî başvuru. Kitaptan farkı öğretici değil, “Rust tam olarak nasıl davranır” sorusunun yetkili cevabı olması.",
+    "en": "The official reference defining the language’s grammar and semantics. Unlike the book it is not a tutorial but the authoritative answer to “exactly how does Rust behave”.",
+    "src": "rustlearn"
+  },
+  {
+    "url": "https://doc.rust-lang.org/nomicon/",
+    "name": "The Rustonomicon",
+    "tags": [
+      "rust",
+      "kitap",
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Güvensiz (unsafe) Rust’ın kurallarını anlatan ileri düzey kitap. Ana kitaptan farkı ödünç denetçisinin dışına çıkıldığında nelere dikkat edileceğini kapsaması.",
+    "en": "An advanced book on the rules of unsafe Rust. Unlike the main book it covers what to watch for when you step outside the borrow checker.",
+    "src": "rustlearn"
+  },
+  {
+    "url": "https://this-week-in-rust.org/",
+    "name": "This Week in Rust",
+    "tags": [
+      "rust",
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Rust dünyasındaki gelişmeleri, yeni sürüm ve yazıları haftalık derleyen bülten. Dağınık takipten farkı ekosistemi tek, düzenli akışta izlemeni sağlaması.",
+    "en": "A newsletter rounding up developments, releases and posts in the Rust world weekly. Unlike scattered following it lets you track the ecosystem in one regular stream.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://tokio.rs/",
+    "name": "Tokio",
+    "tags": [
+      "rust",
+      "açık-kaynak",
+      "backend",
+      "dokümantasyon"
+    ],
+    "tr": "Rust için en yaygın asenkron çalışma zamanı; ağ servisleri bunun üstüne kurulur. Standart kütüphaneden farkı yüksek eşzamanlı G/Ç için zamanlayıcı, görev ve araçları getirmesi.",
+    "en": "The most widely used asynchronous runtime for Rust; network services build on it. Unlike the standard library it brings a scheduler, tasks and tooling for highly concurrent I/O.",
+    "src": "kedi"
+  }
+]

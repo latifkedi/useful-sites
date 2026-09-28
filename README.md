@@ -4,7 +4,7 @@ https://latifkedi.github.io/useful-sites/
 
 An annotated directory of <!-- n -->1,800+<!-- /n --> links across ten areas, from
 software and AI to security, economics and architecture, organised into
-<!-- c -->43<!-- /c --> categories and published in Turkish and English.
+<!-- c -->48<!-- /c --> categories and published in Turkish and English.
 
 ## The ten areas
 
@@ -13,14 +13,14 @@ you pick an area, then browse its categories.
 
 | Area | What it holds |
 |------|---------------|
-| **Yazılım · Software** | Languages, web, backend, mobile, databases, practice, testing, games. |
+| **Yazılım · Software** | Languages; C, C++ and Rust; Java and the JVM; web; CSS and UI kits; backend, mobile, databases, practice, testing, games. |
 | **Yapay Zeka · Artificial Intelligence** | Models, infrastructure, RAG, tooling, generation. |
 | **Altyapı & Sistem · Infrastructure & Systems** | DevOps, networking, self-hosting and media servers, hardware, electronics, wearables. |
 | **Güvenlik · Security** | Privacy; offence, defence and OSINT; CTFs and hands-on labs; certification and career. |
 | **Veri · Data** | Data sources and datasets, data engineering. |
 | **Bilim & Matematik · Science & Mathematics** | Science, mathematics, quantum. |
 | **Ekonomi & Finans · Economics & Finance** | Economic data and research; markets, valuation and crypto. |
-| **Tasarım & Medya · Design & Media** | Design and media tools, architecture. |
+| **Tasarım & Medya · Design & Media** | UI design, colour and type; icons, photos and illustration; media editing, files and diagrams; architecture. |
 | **Öğrenme, Referans & Araçlar · Learning, Reference & Tools** | Roadmaps and free books; cheat sheets, lists and discovery; open source; editors, online playgrounds, converters and everyday tools. |
 | **Açık Erişim & Korsan · Open Access & Piracy** | Legal open access and archives, kept apart from piracy meta-hubs and tooling. |
 

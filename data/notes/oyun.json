@@ -1,5 +1,17 @@
 [
   {
+    "url": "https://github.com/killop/anything_about_game",
+    "name": "anything_about_game",
+    "tags": [
+      "referans",
+      "awesome-liste",
+      "github"
+    ],
+    "tr": "Oyun geliştirmenin her yanını — grafik, motor, ses, akademik makaleler — kapsayan devasa kaynak listesi. Awesome-Game-Analysis’in analiz odağından farkı yapım tarafına bakması: oyunu çözmek değil sıfırdan üretmek için gereken her dalı topluyor.",
+    "en": "A vast resource list covering every side of game development — graphics, engines, audio, academic papers. Unlike Awesome-Game-Analysis’s analysis focus it looks at the build side: it gathers every branch you need to make a game from scratch, not to dissect one.",
+    "src": "lowkwiki"
+  },
+  {
     "url": "https://github.com/Symbitic/awesome-babylonjs",
     "name": "Awesome Babylon.js",
     "tags": [
@@ -24,6 +36,18 @@
     "tr": "Flutter için oyun motoru Flame’e dair kaynak listesi. Genel Flutter listelerinden farkı yalnız oyun geliştirmeye — Flame eklentileri, örnek oyunlar, öğreticiler — odaklanması.",
     "en": "A resource list for Flame, the game engine for Flutter. Unlike general Flutter lists, it focuses only on game development — Flame plugins, sample games, tutorials.",
     "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/OTFCG/Awesome-Game-Analysis",
+    "name": "Awesome Game Analysis",
+    "tags": [
+      "referans",
+      "awesome-liste",
+      "github"
+    ],
+    "tr": "Video oyun teknolojisinin analizine — motor içi çalışma, grafik teknikleri, dosya formatları — dair topluluk destekli kaynak koleksiyonu. Oyun yapım derslerinden farkı tersine bakması: nasıl yapılır değil, çıkmış oyunların içinde ne olduğunu çözüyor.",
+    "en": "A community-driven collection of resources on analysing video-game technology — engine internals, graphics techniques, file formats. Unlike game-making courses it looks the other way: not how to build, but working out what is inside shipped games.",
+    "src": "lowkwiki"
   },
   {
     "url": "https://github.com/gbdev/awesome-gbdev",
@@ -330,6 +354,18 @@
     "tr": "Oyun geliştirme matematiğini (A*, altıgen ızgaralar, görüş alanı) etkileşimli görsellerle anlatan öğreticiler. Ders kitaplarından farkı algoritmayı sayfada kendin oynatarak görmen.",
     "en": "Tutorials explaining game-dev maths — A*, hex grids, field of view — through interactive visuals. Unlike textbooks, you watch the algorithm by playing with it on the page.",
     "src": "dsbest"
+  },
+  {
+    "url": "https://www.retroreversing.com/",
+    "name": "RetroReversing",
+    "tags": [
+      "referans",
+      "öğretici",
+      "gömülü"
+    ],
+    "tr": "Retro oyunların tersine mühendisliği için kaynak, öğretici ve araç sitesi — kaynak kod sızıntıları, donanım, derleyici çözme. Genel tersine mühendislik sitelerinden farkı retro oyun donanımına odaklanması: konsol iç mimarisi ve dönem araç zincirlerine iniyor.",
+    "en": "A site of resources, tutorials and tools for reverse-engineering retro games — source leaks, hardware, decompilation. Unlike general reverse-engineering sites it centres on retro game hardware: it goes into console internals and period toolchains.",
+    "src": "lowkwiki"
   },
   {
     "url": "https://thebookofshaders.com",

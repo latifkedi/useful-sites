@@ -17,13 +17,20 @@ PICKS = {
     'https://leetcode.com/',                                                         # LeetCode
     'https://learngitbranching.js.org/',                                             # Learn Git Branching
     # --- diller
-    'https://cppreference.com/',                                                     # cppreference
     'https://go.dev/tour/welcome/1',                                                 # A Tour of Go
     'https://python.yazbel.com/',                                                    # Yazbel Python Belgeleri
     # --- web
     'https://developer.mozilla.org/en-US/',                                          # MDN Web Docs
     'https://javascript.info/',                                                      # The Modern JavaScript Tutorial
+    # --- c_rust
+    'https://cppreference.com/',                                                     # cppreference
+    'https://doc.rust-lang.org/book/',                                               # The Rust Programming Language
+    # --- jvm
+    'https://dev.java/learn/',                                                       # Dev.java · Learn
+    'https://www.baeldung.com',                                                      # Baeldung
+    # --- css
     'https://css-tricks.com/',                                                       # CSS-Tricks
+    'https://flexboxfroggy.com/',                                                    # Flexbox Froggy
     # --- backend
     'https://github.com/donnemartin/system-design-primer',                           # System Design Primer
     'https://fastapi.tiangolo.com/',                                                 # FastAPI
@@ -90,6 +97,12 @@ PICKS = {
     'https://syncthing.net/',                                                        # Syncthing
     'https://immich.app/',                                                           # Immich
     'https://nextcloud.com/',                                                        # Nextcloud
+    # --- arayuz
+    'https://www.figma.com/',                                                        # Figma
+    'https://coolors.co/',                                                           # Coolors
+    # --- gorsel
+    'https://unsplash.com/',                                                         # Unsplash
+    'https://iconify.design/',                                                       # Iconify
     # --- medya
     'https://www.blender.org/',                                                      # Blender
     'https://squoosh.app/',                                                          # Squoosh

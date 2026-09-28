@@ -35,7 +35,7 @@ from tags import CANON, LABELS, FACETS  # noqa: E402
 from emit import SITE as EMIT_SITE, HOME_TX, esc as esc_html  # noqa: E402
 
 MIN_RECORDS = 1850
-MIN_CATEGORIES = 43
+MIN_CATEGORIES = 48
 
 MIN_DESC = 30
 DIFF_FLOOR = 0.99
@@ -201,6 +201,20 @@ def main():
             check(False, 'static pages for category: ' + k)
     check(True, 'static pages present in both languages for %d categories'
           % len(kullanilan))
+
+    # Every entry on a static page is linkable (k/diller.html#python-swaroopch-com),
+    # ids are unique on the page, and the ItemList's anchored urls land on them.
+    sorunlu = []
+    for k in sorted(kullanilan):
+        for sub in ('', 'en'):
+            html = io.open(os.path.join(ROOT, 'k', sub, k + '.html'), encoding='utf-8').read()
+            ids = re.findall(r'<article class="rec" id="([^"]+)"', html)
+            recs = html.count('<article class="rec"')
+            hedef = re.findall(r'"url":"[^"#]*/k/(?:en/)?%s\.html#([^"]+)"' % re.escape(k), html)
+            if len(ids) != recs or len(set(ids)) != len(ids) or hedef != ids:
+                sorunlu.append(os.path.join(sub, k))
+    check(not sorunlu, 'every static entry has a unique anchor, and the ItemList points at them'
+          + (' -- %s' % sorunlu[:3] if sorunlu else ''))
 
     eksik_akis = [k for k in sorted(kullanilan)
                   if not (os.path.exists(os.path.join(ROOT, 'feed', k + '.xml'))

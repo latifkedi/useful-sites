@@ -1,0 +1,457 @@
+[
+  {
+    "url": "https://animista.net",
+    "name": "Animista",
+    "tags": [
+      "frontend",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "Hazır CSS animasyonlarını oynatıp ayarlayarak kodunu kopyalatan kütüphane. animate.css gibi bütün bir kütüphaneyi eklemekten farkı yalnız ihtiyaç duyduğun animasyonun kodunu alman.",
+    "en": "A library of ready CSS animations you can play, tweak and copy the code from. Unlike adding a whole library such as animate.css, you take only the code for the animation you need.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://autoprefixer.github.io/",
+    "name": "Autoprefixer",
+    "tags": [
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "CSS’e tarayıcı ön eklerini (‑webkit‑, ‑moz‑) otomatik ekleyen araç. Elle eklemekten farkı hangi ekin gerektiğini güncel tarayıcı verisinden bilmesi.",
+    "en": "A tool that automatically adds browser prefixes (‑webkit‑, ‑moz‑) to CSS. Unlike adding them by hand it knows which prefix is needed from current browser data.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://github.com/websemantics/awesome-ant-design",
+    "name": "Awesome Ant Design",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "frontend"
+    ],
+    "tr": "Kurumsal arayüz tasarım dili Ant Design için kaynak listesi. Material UI’dan farkı veri yoğun kurumsal arayüzlere yönelik bileşenleri; liste topluluk bileşenlerini ve şablonlarını topluyor.",
+    "en": "A resource list for Ant Design, the enterprise-class UI design language. Unlike Material UI, its components target data-heavy enterprise interfaces; the list gathers community components and templates.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/awesome-css-group/awesome-css",
+    "name": "Awesome CSS",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "frontend"
+    ],
+    "tr": "CSS dili, araçları ve kaynaklarını konuya göre toplayan liste. Öğrenme odaklı CSS listelerinden farkı çatıları, araçları ve BEM gibi metodolojileri de kapsaması.",
+    "en": "A list gathering the CSS language, tools and resources by topic. Unlike learning-focused CSS lists, it also covers frameworks, tooling and methodologies such as BEM.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/micromata/awesome-css-learning",
+    "name": "Awesome CSS Learning",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "frontend",
+      "öğretici"
+    ],
+    "tr": "CSS dilini ve modüllerini (Flexbox, Grid, seçiciler) öğrenmeye odaklı kaynak listesi. Genel CSS listelerinden farkı çatı ve araç değil, dilin kendisini öğreten kaynakları seçmesi.",
+    "en": "A resource list focused on learning the CSS language and its modules — Flexbox, Grid, selectors. Unlike general CSS lists, it picks resources that teach the language itself, not frameworks or tools.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/jdrgomes/awesome-postcss",
+    "name": "Awesome PostCSS",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "frontend"
+    ],
+    "tr": "CSS’i eklentilerle dönüştüren PostCSS aracı için kaynak listesi. Sass gibi ön işlemcilerden farkı her dönüşümün ayrı bir eklenti olması; liste bu eklentileri işlevine göre topluyor.",
+    "en": "A resource list for PostCSS, the tool that transforms CSS with plugins. Unlike preprocessors such as Sass, every transformation is a separate plugin; the list groups them by purpose.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://github.com/aniftyco/awesome-tailwindcss",
+    "name": "Awesome Tailwind CSS",
+    "tags": [
+      "awesome-liste",
+      "github",
+      "frontend"
+    ],
+    "tr": "Tailwind CSS için eklenti, bileşen, şablon ve araç listesi. Tailwind’in resmî belgelerinden farkı topluluğun yaptığı hazır bileşen kitlerini ve yardımcı araçları toplaması.",
+    "en": "A list of plugins, components, templates and tools for Tailwind CSS. Unlike the official docs, it collects community-made component kits and helper tools.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://getbootstrap.com/",
+    "name": "Bootstrap",
+    "tags": [
+      "ücretsiz",
+      "frontend"
+    ],
+    "tr": "Hazır bileşenler ve ızgara sistemi; tasarım kararı vermeden çalışan bir arayüz çıkarıyorsun. Tailwind’den farkı yapı taşı değil bitmiş bileşen vermesi; bedeli, Bootstrap kullandığının uzaktan belli olması.",
+    "en": "Ready components and a grid system that get you a working interface without design decisions. Unlike Tailwind it hands you finished components rather than building blocks; the cost is that a Bootstrap site is recognisable from a distance.",
+    "src": "kedi",
+    "added": 1776690061
+  },
+  {
+    "url": "https://buildbootstrap.com/",
+    "name": "BuildBootstrap",
+    "tags": [
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "Bootstrap düzenini sürükle-bırak ile görsel olarak kurup kodunu üreten araç. Kodu elle yazmaktan farkı ızgarayı ekranda görerek kurabilmen; karşılığında sonraki özelleştirme yine elle yapılıyor.",
+    "en": "Builds a Bootstrap layout visually by drag and drop and generates its code. Unlike writing it by hand, you see the grid while you build it; the trade-off is that later customisation is still manual.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://bulma.io/",
+    "name": "Bulma",
+    "tags": [
+      "frontend",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Flexbox tabanlı, yalnız CSS’ten oluşan (JavaScript yok) modern framework. Bootstrap’tan farkı JS bileşeni getirmemesi — sınıfları alıp kendi etkileşimini yazıyorsun.",
+    "en": "A modern framework built purely from CSS (no JavaScript), based on Flexbox. Unlike Bootstrap it ships no JS components — you take the classes and write your own interactions.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://markodenic.com/tools/buttons-generator/",
+    "name": "Buttons Generator",
+    "tags": [
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "Projelerde kullanılabilecek hazır CSS buton stilleri ve kodları. Bileşen kütüphanelerinden farkı bağımlılık getirmemesi: tıklayıp düz CSS’i kopyalıyorsun.",
+    "en": "Ready CSS button styles with their code for use in projects. Unlike component libraries it adds no dependency — click and copy plain CSS.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://cruip.com/",
+    "name": "Cruip",
+    "tags": [
+      "frontend",
+      "freemium"
+    ],
+    "tr": "Modern açılış sayfası ve arayüz şablonları (Tailwind ağırlıklı). Sıfırdan kurmaktan farkı hazır, tutarlı bir sayfa vermesi; bir kısmı ücretsiz, kapsamlı şablonlar ücretli.",
+    "en": "Modern landing-page and UI templates (Tailwind-heavy). Unlike building from scratch you get a ready, coherent page; some are free, the fuller templates are paid.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://cssbattle.dev/",
+    "name": "CSS Battle",
+    "tags": [
+      "frontend",
+      "interaktif",
+      "ücretsiz"
+    ],
+    "tr": "Verilen hedef görseli en az kodla, CSS ile yeniden üretmeye çalıştığın oyun. Öğreticilerden farkı beceriyi yarışma ve puanla keskinleştirmesi.",
+    "en": "A game where you reproduce a target image with as little CSS code as possible. Unlike tutorials it sharpens skill through competition and scoring.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://www.cleancss.com/css-beautify/",
+    "name": "CSS Formatter",
+    "tags": [
+      "frontend",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "Küçültülmüş (minified) CSS’i okunur biçime getiren ve düzenleyen araç. Küçültücülerin tersine sıkıştırılmış dosyayı açıyor: başkasının stil dosyasını incelemen gerektiğinde işe yarıyor.",
+    "en": "Un-minifies and formats CSS back into a readable shape. Unlike a minifier it expands a compressed file — useful when you need to read someone else’s stylesheet.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://csslayout.io/",
+    "name": "CSS Layout",
+    "tags": [
+      "frontend",
+      "referans",
+      "ücretsiz",
+      "kopya-kâğıdı"
+    ],
+    "tr": "Sık kullanılan düzen ve bileşenlerin (kart, ortalama, sabit başlık) hazır CSS tarifleri. Aramaktan farkı her deseni kopyalanabilir, bağımsız bir örnek olarak vermesi.",
+    "en": "Ready CSS recipes for common layouts and components (cards, centring, sticky header). Unlike searching it gives each pattern as a copyable, self-contained example.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://simplecss.eu",
+    "name": "CSS Media Query Generator",
+    "tags": [
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "Belirli cihaz boyutları için CSS medya sorgusu üreten basit araç. Elle yazmaktan farkı yaygın cihaz kırılım noktalarını hazır listeden seçebilmen.",
+    "en": "Generates CSS media queries for specific device sizes. Unlike writing them by hand, you pick common device breakpoints from a ready list.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://cssminifier.com/",
+    "name": "CSS Minifier",
+    "tags": [
+      "frontend",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "CSS kodunu boşluk ve yorumları atarak küçülten (minify) basit bir araç; API’si de var. cssnano ya da esbuild gibi derleme hattı araçlarından farkı kurulum istemeden tek seferlik iş görmesi.",
+    "en": "A simple tool that minifies CSS by stripping whitespace and comments, with an API too. Unlike build-pipeline tools such as cssnano or esbuild, it handles a one-off job with nothing to install.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://cssreference.io/",
+    "name": "CSS Reference",
+    "tags": [
+      "frontend",
+      "referans",
+      "ücretsiz",
+      "interaktif"
+    ],
+    "tr": "Her CSS özelliğini görsel örnekle gösteren başvuru. Spesifikasyondan farkı “bu özellik ne yapar”ı metin yerine canlı bir demoyla anlatması.",
+    "en": "A reference showing every CSS property with a visual example. Unlike the spec it explains “what does this property do” with a live demo rather than text.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://css-tricks.com/",
+    "name": "CSS-Tricks",
+    "tags": [
+      "ücretsiz",
+      "frontend",
+      "referans"
+    ],
+    "tr": "Yirmi yıllık CSS tekniği arşivi; Flexbox ve Grid rehberleri fiilî başvuru kaynağı hâline geldi. Belirli bir düzen problemi ararken spesifikasyondan hızlı sonuç veriyor.",
+    "en": "Two decades of CSS technique, whose Flexbox and Grid guides became the de facto references. Faster than the spec when you are hunting a specific layout problem.",
+    "src": "kedi",
+    "added": 1787182444
+  },
+  {
+    "url": "https://css-tricks.com/snippets/",
+    "name": "CSS-Tricks Snippets",
+    "tags": [
+      "referans",
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "CSS, HTML, JavaScript ve .htaccess için yıllar içinde biriktirilmiş parçacık arşivi. Rastgele blog yazılarından farkı her parçacığın kendi sayfası ve tartışması olması — yorumlarda genelde daha iyi bir sürüm bulunuyor.",
+    "en": "An archive of snippets for CSS, HTML, JavaScript and .htaccess built up over years. Against scattered blog posts each snippet has its own page and discussion — and the comments usually hold a better version.",
+    "src": "awesome-uw"
+  },
+  {
+    "url": "https://cubic-bezier.com",
+    "name": "cubic-bezier.com",
+    "tags": [
+      "tarayıcı-içi",
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "Lea Verou’nun CSS yumuşatma eğrilerini elle kurup hazır ayarlarla canlı karşılaştıran aracı. easings.net’ten farkı hazır eğri seçmek yerine tutamaçları sürükleyerek kendi eğrini kurman.",
+    "en": "Lea Verou’s tool to craft CSS easing curves by hand and compare them against presets live. Unlike easings.net, you build your own curve by dragging handles rather than picking a preset.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://easingwizard.com/",
+    "name": "Easing Wizard",
+    "tags": [
+      "tarayıcı-içi",
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "CSS yumuşatma (easing) eğrilerini görsel olarak kuran araç; cubic-bezier’in yanında linear() ile yay ve sıçrama eğrilerini de üretiyor. cubic-bezier.com’dan farkı bu modern linear() desteği — CSS’te yay animasyonu artık kütüphane gerektirmiyor.",
+    "en": "A visual builder for CSS easing curves that covers not just cubic-bezier but linear() spring and bounce curves. That linear() support is what dates it past cubic-bezier.com: spring animation in CSS no longer needs a library.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://easings.net",
+    "name": "Easings.net",
+    "tags": [
+      "referans",
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "Yaygın yumuşatma (easing) eğrilerini görselleştiriyor; her biri için cubic-bezier değerini kopyalatıyor. cubic-bezier.com’dan farkı eğri kurmak yerine adı konmuş hazır eğriler arasından seçmen.",
+    "en": "Visualises common easing curves and lets you copy the cubic-bezier for each. Unlike cubic-bezier.com, you choose among named presets rather than building a curve.",
+    "src": "awesomelist"
+  },
+  {
+    "url": "https://9elements.github.io/fancy-border-radius/",
+    "name": "Fancy Border-Radius",
+    "tags": [
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "Organik şekiller için CSS border-radius üreten görsel araç. Elle yazmaktan farkı, sekiz değerli (eğik çizgili) sözdizimini tutamaçları sürükleyerek ayarlaman.",
+    "en": "A visual tool that generates CSS border-radius for organic shapes. Unlike writing it by hand, you tune the eight-value (slash) syntax by dragging handles.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://flexboxfroggy.com/",
+    "name": "Flexbox Froggy",
+    "tags": [
+      "ücretsiz",
+      "interaktif",
+      "frontend"
+    ],
+    "tr": "Kurbağaları hizalayarak Flexbox öğreten oyun; Grid Garden’ın kardeşi. Belgeleri okumaktan farkı her özelliği anında görsel sonuçla denemen: justify-content ile align-items karışıklığını yirmi dakikada bitiriyor.",
+    "en": "The Flexbox sibling of Grid Garden, teaching alignment by positioning frogs. Unlike reading the docs you see every property’s effect at once — it settles the justify-content versus align-items confusion in twenty minutes.",
+    "src": "kedi",
+    "added": 1787182443
+  },
+  {
+    "url": "https://get.foundation/sites.html",
+    "name": "Foundation for Sites",
+    "tags": [
+      "açık-kaynak",
+      "frontend",
+      "github"
+    ],
+    "tr": "Bootstrap’ın uzun süreli rakibi olan duyarlı arayüz çatısı; XY ızgarası, erişilebilirlik odaklı bileşenler ve e-posta şablonları için ayrı bir sürümü var. Bootstrap’tan farkı daha az görsel kanaat dayatması — bileşenler biçimlendirilmemiş gelir, tasarımı sen kurarsın. Uyarı: son sürüm Eylül 2024, depoya son itme Ocak 2025; proje arşivlenmedi ama iki yıldır durgun ve tanıtım sitesi hâlâ 2017 tarihli bir web semineri duyuruyor.",
+    "en": "The long-running alternative to Bootstrap: a responsive front-end framework with an XY grid, accessibility-minded components and a separate edition for HTML email. Against Bootstrap it imposes fewer visual opinions — components arrive unstyled and you bring the design. Caveat: the last release was September 2024 and the last push January 2025. The project is not archived, but it has been dormant for two years and its marketing site still advertises a webinar from 2017.",
+    "src": "kedi"
+  },
+  {
+    "url": "https://freefrontend.com/",
+    "name": "FreeFrontEnd",
+    "tags": [
+      "frontend",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "HTML, CSS ve JavaScript kod örnekleri ve öğreticilerini toplayan geniş dizin. CodePen’de aramaktan farkı örnekleri türüne göre — buton, menü, kart, animasyon — sınıflandırması.",
+    "en": "A large directory of HTML, CSS and JavaScript code samples and tutorials. Unlike searching CodePen, it classifies examples by type — buttons, menus, cards, animation.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://cssgridgarden.com/",
+    "name": "Grid Garden",
+    "tags": [
+      "ücretsiz",
+      "interaktif",
+      "frontend"
+    ],
+    "tr": "Havuç sulayarak CSS Grid öğreten 28 bölümlük oyun. grid-column ve grid-area gibi özellikler yazarak öğrenildiğinde akılda kalıyor.",
+    "en": "A 28-level game teaching CSS Grid by watering carrots. Properties like grid-column and grid-area stick when you type them rather than read them.",
+    "src": "kedi",
+    "added": 1787182440
+  },
+  {
+    "url": "https://grid.layoutit.com/",
+    "name": "Layoutit Grid",
+    "tags": [
+      "frontend",
+      "ücretsiz",
+      "interaktif"
+    ],
+    "tr": "CSS Grid düzenini sürükle-bırak çizip kodunu üreten araç. Elle grid yazmaktan farkı satır/sütun yapısını görsel kurup çıktı alması.",
+    "en": "A tool to draw a CSS Grid layout by drag-and-drop and generate its code. Unlike writing grid by hand you build the row/column structure visually and export it.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://mui.com/",
+    "name": "Material UI",
+    "tags": [
+      "frontend",
+      "javascript",
+      "açık-kaynak"
+    ],
+    "tr": "React için Google Material tasarımını uygulayan bileşen kütüphanesi. Ant Design’dan farkı Material Design yönergelerine sıkı bağlılığı; tema sistemiyle bu görünümden uzaklaşmak mümkün ama emek istiyor.",
+    "en": "A React component library implementing Google’s Material Design. Unlike Ant Design it follows the Material guidelines closely; the theming system can move you away from that look, but it takes work.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://nostalgic-css.github.io/NES.css/",
+    "name": "NES.css",
+    "tags": [
+      "frontend",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "8-bit NES estetiğinde retro görünümlü CSS çerçevesi. Bootstrap gibi çatılardan farkı işlev değil üslup sunması: yalnız CSS, JavaScript gerektirmiyor.",
+    "en": "A CSS framework with a retro 8-bit NES look. Unlike frameworks such as Bootstrap it supplies style, not behaviour: it is CSS only and needs no JavaScript.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://neumorphism.io/",
+    "name": "Neumorphism.io",
+    "tags": [
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "Yumuşak gölgeli “neumorphism” kutuları için CSS üreten araç. Elle gölge yazmaktan farkı iki yönlü gölgeyi görsel olarak ayarlayıp kodu vermesi.",
+    "en": "A tool generating CSS for soft-shadowed “neumorphism” boxes. Unlike writing shadows by hand it lets you tune the dual shadow visually and gives the code.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://necolas.github.io/normalize.css/",
+    "name": "Normalize.css",
+    "tags": [
+      "frontend",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Tarayıcılar arası varsayılan stil farklarını eşitleyen küçük CSS temeli. CSS reset’lerden farkı varsayılanları silmek yerine işe yarayanları koruyup yalnız tutarsızlıkları düzeltmesi.",
+    "en": "A small CSS base that evens out default styling differences across browsers. Unlike CSS resets it keeps the useful defaults instead of wiping everything, and fixes only the inconsistencies.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://purecss.io/",
+    "name": "Pure.css",
+    "tags": [
+      "frontend",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Yalnızca birkaç KB olan, küçük ve modüler bir CSS framework’ü (Yahoo). Büyük framework’lerden farkı sadece ihtiyacın olan modülü alıp sayfayı hafif tutması.",
+    "en": "A tiny, modular CSS framework of just a few KB (Yahoo). Unlike large frameworks you take only the module you need and keep the page light.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://tailwindcss.com/",
+    "name": "Tailwind CSS",
+    "tags": [
+      "ücretsiz",
+      "frontend",
+      "dokümantasyon"
+    ],
+    "tr": "Yardımcı sınıflarla stil yazıyorsun; derleme adımı kullanılmayan sınıfları atıyor, CSS dosyası büyümüyor. Bootstrap’tan farkı hazır bileşen değil yapı taşı vermesi: görünüm tamamen senin.",
+    "en": "You style with utility classes and the build step drops unused ones, so the CSS file stops growing. Unlike Bootstrap it hands you building blocks rather than components — the look is entirely yours.",
+    "src": "kedi",
+    "added": 1776690060
+  },
+  {
+    "url": "https://uigradients.com/",
+    "name": "uiGradients",
+    "tags": [
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "Hazır CSS gradyanlarını gösterip kodunu veren araç. Elle renk denemekten farkı güzel geçişleri seçip doğrudan kopyalayabilmen.",
+    "en": "A tool that shows ready CSS gradients and gives their code. Unlike mixing colours by hand you pick a pleasing transition and copy it straight.",
+    "src": "awesomeproj"
+  },
+  {
+    "url": "https://uiverse.io/",
+    "name": "Uiverse",
+    "tags": [
+      "açık-kaynak",
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "Topluluğun katkı verdiği açık kaynak arayüz bileşeni galerisi: buton, kart, yükleyici, anahtar. CodePen’den farkı her parçanın MIT lisanslı, kopyala-yapıştır hazır ve saf CSS/Tailwind olarak sunulması — çatı bağımlılığı yok.",
+    "en": "A community-contributed gallery of open-source UI elements: buttons, cards, loaders, toggles. Unlike CodePen, everything is MIT-licensed, copy-paste ready and offered as plain CSS or Tailwind, with no framework attached.",
+    "src": "cdcruz"
+  },
+  {
+    "url": "https://jigsaw.w3.org/css-validator/",
+    "name": "W3C CSS Validator",
+    "tags": [
+      "frontend",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "CSS’i resmî W3C kurallarına göre doğrulayan araç; URL, dosya ya da doğrudan metin kabul ediyor. Stylelint gibi linter’lardan farkı üslubu değil yalnız standarda uygunluğu denetlemesi.",
+    "en": "Validates CSS against the official W3C rules, accepting a URL, a file or pasted text. Unlike linters such as Stylelint, it checks conformance to the standard, not style.",
+    "src": "awesomeproj"
+  }
+]

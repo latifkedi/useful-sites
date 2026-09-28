@@ -1,45 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
-<title>Medya, Tasarım &amp; Dosya — Kullanışlı Siteler</title>
+<title>Medya, Dosya &amp; Diyagram — Kullanışlı Siteler</title>
 <subtitle>Yazılımdan yapay zekaya, güvenlikten ekonomiye ve mimariye on alanda elle derlenmiş, açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
 <link href="https://latifkedi.github.io/useful-sites/feed/medya.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/medya.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/medya.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
 <entry>
-  <title>Animista</title>
-  <link href="https://animista.net"/>
-  <id>https://animista.net</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Hazır CSS animasyonlarını oynatıp ayarlayarak kodunu kopyalatan kütüphane. animate.css gibi bütün bir kütüphaneyi eklemekten farkı yalnız ihtiyaç duyduğun animasyonun kodunu alman.</summary>
-</entry>
-<entry>
-  <title>Awesome Ant Design</title>
-  <link href="https://github.com/websemantics/awesome-ant-design"/>
-  <id>https://github.com/websemantics/awesome-ant-design</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Kurumsal arayüz tasarım dili Ant Design için kaynak listesi. Material UI’dan farkı veri yoğun kurumsal arayüzlere yönelik bileşenleri; liste topluluk bileşenlerini ve şablonlarını topluyor.</summary>
-</entry>
-<entry>
   <title>Awesome Creative Coding</title>
   <link href="https://github.com/terkelg/awesome-creative-coding"/>
   <id>https://github.com/terkelg/awesome-creative-coding</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>İşlevsel değil ifadeye yönelik (yaratıcı) programlama için kaynak listesi.</summary>
-</entry>
-<entry>
-  <title>Awesome Design Principles</title>
-  <link href="https://github.com/robinstickel/awesome-design-principles"/>
-  <id>https://github.com/robinstickel/awesome-design-principles</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Daha iyi ve tutarlı tasarımlar için tasarım ilkeleri listesi. Bileşen kitaplarından farkı somut bileşen değil, şirketlerin ve ekiplerin yayımladığı tasarım ilkelerini toplaması.</summary>
-</entry>
-<entry>
-  <title>Awesome Design Systems</title>
-  <link href="https://github.com/klaufel/awesome-design-systems"/>
-  <id>https://github.com/klaufel/awesome-design-systems</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Kurallarla yönlendirilen, yeniden kullanılabilir bileşen sistemleri (design system) listesi. UI kitlerinden farkı yalnız bileşenleri değil, ilkeleri ve belgeleriyle birlikte yayımlanmış gerçek şirket sistemlerini toplaması.</summary>
 </entry>
 <entry>
   <title>Awesome FFmpeg</title>
@@ -49,144 +21,11 @@
   <summary>Ses/video kaydetme, dönüştürme ve akıtma aracı FFmpeg için kaynak listesi. FFmpeg belgelerinden farkı komut örneklerini, grafik arayüzleri ve dillere göre kütüphane sarmalayıcılarını toplaması.</summary>
 </entry>
 <entry>
-  <title>Awesome GIF</title>
-  <link href="https://github.com/davisonio/awesome-gif"/>
-  <id>https://github.com/davisonio/awesome-gif</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Animasyonlu görsel biçimi GIF için araç ve kaynak listesi. Genel görsel listelerinden farkı yalnız GIF üretme, küçültme ve oynatma araçlarını toplaması.</summary>
-</entry>
-<entry>
-  <title>Awesome Icons</title>
-  <link href="https://github.com/notlmn/awesome-icons"/>
-  <id>https://github.com/notlmn/awesome-icons</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>İndirilebilir SVG/PNG/font ikon projelerinin listesi. Tek bir ikon setinden farkı onlarca seti yan yana koyarak üsluba ve lisansa göre seçmeni kolaylaştırması.</summary>
-</entry>
-<entry>
-  <title>Awesome Pixel Art</title>
-  <link href="https://github.com/Siilwyn/awesome-pixel-art"/>
-  <id>https://github.com/Siilwyn/awesome-pixel-art</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Piksel düzeyinde dijital sanat için araç ve kaynak listesi. Genel çizim listelerinden farkı piksel düzenleyicilere, paletlere ve piksel sanatı öğreticilerine odaklanması.</summary>
-</entry>
-<entry>
-  <title>Awesome Product Design</title>
-  <link href="https://github.com/ttt30ga/awesome-product-design"/>
-  <id>https://github.com/ttt30ga/awesome-product-design</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Fikirden ürüne tasarım sürecini kapsayan kaynak listesi. UI kit listelerinden farkı süreç odaklı olması: araştırma, prototipleme, kullanılabilirlik testi ve devir teslim.</summary>
-</entry>
-<entry>
   <title>Awesome VLC</title>
   <link href="https://github.com/mfkl/awesome-vlc"/>
   <id>https://github.com/mfkl/awesome-vlc</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Çapraz platform medya oynatıcı VLC için eklenti ve kaynak listesi. Genel medya oynatıcı listelerinden farkı yalnız VLC ve libVLC’ye odaklanması: eklentiler, dil bağlamaları, üzerine kurulan projeler.</summary>
-</entry>
-<entry>
-  <title>Awesome Web Design</title>
-  <link href="https://github.com/nicolesaidy/awesome-web-design"/>
-  <id>https://github.com/nicolesaidy/awesome-web-design</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Dijital tasarımcılar için web tasarımı kaynak listesi. Geliştirici listelerinden farkı tasarımcıya yönelik olması: ilham, tipografi, renk ve tasarım araçları.</summary>
-</entry>
-<entry>
-  <title>Behance</title>
-  <link href="https://www.behance.net"/>
-  <id>https://www.behance.net</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Adobe'nin portföy platformu; tekil görsel yerine uçtan uca proje vaka çalışmaları sunar.</summary>
-</entry>
-<entry>
-  <title>Checklist Design</title>
-  <link href="https://www.checklist.design"/>
-  <id>https://www.checklist.design</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Bileşen ve sayfa bazında uygulanabilir UI/UX kontrol listeleri. Genel UX yazılarından farkı her bileşen için somut, işaretlenebilir maddeler vermesi.</summary>
-</entry>
-<entry>
-  <title>Color Hunt</title>
-  <link href="https://colorhunt.co"/>
-  <id>https://colorhunt.co</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Topluluk oyuyla derlenmiş, kullanıma hazır renk paletleri kataloğu. Coolors gibi üreteçlerden farkı rastgele üretim yerine başkalarının beğendiği hazır paletlerden seçmen.</summary>
-</entry>
-<entry>
-  <title>Colorful</title>
-  <link href="https://github.com/Siddharth11/Colorful"/>
-  <id>https://github.com/Siddharth11/Colorful</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Bir sonraki renk şemanı seçmene yardım eden kaynak listesi. Coolors gibi tek bir palet üretecinden farkı, üreteçleri, paletleri ve renk kuramı kaynaklarını birlikte toplaması.</summary>
-</entry>
-<entry>
-  <title>Colormind</title>
-  <link href="https://colormind.io"/>
-  <id>https://colormind.io</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Fotoğraf ve sanattan öğrenerek uyumlu renk paletleri öneren yapay zekâ üreticisi. Coolors’tan farkı rastgele kombinasyon yerine öğrenilmiş bir modelden palet üretmesi.</summary>
-</entry>
-<entry>
-  <title>cubic-bezier.com</title>
-  <link href="https://cubic-bezier.com"/>
-  <id>https://cubic-bezier.com</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Lea Verou’nun CSS yumuşatma eğrilerini elle kurup hazır ayarlarla canlı karşılaştıran aracı. easings.net’ten farkı hazır eğri seçmek yerine tutamaçları sürükleyerek kendi eğrini kurman.</summary>
-</entry>
-<entry>
-  <title>Dribbble</title>
-  <link href="https://dribbble.com"/>
-  <id>https://dribbble.com</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Tasarımcıların iş örneklerini paylaştığı ilham topluluğu. Behance’ten farkı kısa “shot”lar paylaşılması; gerçek ürünlerden çok konsept çalışma ağırlıklı.</summary>
-</entry>
-<entry>
-  <title>Easings.net</title>
-  <link href="https://easings.net"/>
-  <id>https://easings.net</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Yaygın yumuşatma (easing) eğrilerini görselleştiriyor; her biri için cubic-bezier değerini kopyalatıyor. cubic-bezier.com’dan farkı eğri kurmak yerine adı konmuş hazır eğriler arasından seçmen.</summary>
-</entry>
-<entry>
-  <title>Feather Icons</title>
-  <link href="https://feathericons.com/"/>
-  <id>https://feathericons.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Tek çizgi kalınlığında, sade ve tutarlı açık kaynak ikon seti. Büyük kütüphanelerden farkı minimal bir görsel dil ve küçük dosya boyutu sunması.</summary>
-</entry>
-<entry>
-  <title>Flaticon</title>
-  <link href="https://www.flaticon.com"/>
-  <id>https://www.flaticon.com</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Milyonlarca vektör ikonu farklı stillerde sunan geniş ikon bankası.</summary>
-</entry>
-<entry>
-  <title>Font Awesome</title>
-  <link href="https://fontawesome.com/"/>
-  <id>https://fontawesome.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Web’in fiili standardı olan ikon ve logo kütüphanesi. Tek tek SVG toplamaktan farkı ikonları font/CSS sınıfı olarak, tek satırla eklemen.</summary>
-</entry>
-<entry>
-  <title>Fontsource</title>
-  <link href="https://fontsource.org"/>
-  <id>https://fontsource.org</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Açık kaynak yazı tiplerini npm paketi olarak kendi sunucunda barındırmanı sağlıyor. Google Fonts CDN’inden farkı dış bir sunucuya istek atılmaması: gizlilik ve çevrimdışı çalışma için.</summary>
-</entry>
-<entry>
-  <title>FreeImages</title>
-  <link href="https://www.freeimages.com/"/>
-  <id>https://www.freeimages.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Ücretsiz stok fotoğraf arşivi; kökeni eski stock.xchng (SXC) topluluğuna dayanıyor. Unsplash’tan farkı daha eski ve geniş bir arşiv olması; karşılığında görsel kalitesi ve lisans koşulları kayıttan kayda değişiyor.</summary>
-</entry>
-<entry>
-  <title>Freepik Stories</title>
-  <link href="https://stories.freepik.com/"/>
-  <id>https://stories.freepik.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Freepik’in ücretsiz, düzenlenebilir illüstrasyon seti (Storyset); renkleri değiştirip animasyonlu indirebiliyorsun. Freepik’in ana arşivinden farkı her görselin tarayıcıda özelleştirilebilmesi; ücretsiz kullanımda atıf isteniyor.</summary>
 </entry>
 <entry>
   <title>GIMP</title>
@@ -196,94 +35,255 @@
   <summary>Photoshop’a açık kaynak alternatif olan tam donanımlı görüntü düzenleyici. Ücretli araçlardan farkı bedava ve eklentiyle genişleyebilir olması.</summary>
 </entry>
 <entry>
-  <title>Gratisography</title>
-  <link href="https://gratisography.com/"/>
-  <id>https://gratisography.com/</id>
+  <title>Lucidchart</title>
+  <link href="https://www.lucidchart.com/"/>
+  <id>https://www.lucidchart.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Sıra dışı ve yaratıcı ücretsiz stok fotoğraflar. Unsplash gibi arşivlerden farkı tuhaf, esprili karelerle klişe stok fotoğraf görünümünden kaçınması.</summary>
+  <summary>Diyagram ve akış şeması için ekip iş birliğine açık çevrimiçi araç. draw.io’ya kıyasla ekip ve entegrasyon özellikleri güçlü; ücretsiz katmanı ise sınırlı.</summary>
 </entry>
 <entry>
-  <title>Haikei</title>
-  <link href="https://haikei.app"/>
-  <id>https://haikei.app</id>
+  <title>Miro</title>
+  <link href="https://miro.com/"/>
+  <id>https://miro.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Blob, dalga ve katmanlı SVG arka plan şekilleri üreten tarayıcı aracı. Elle SVG çizmekten farkı rastgele ama denetlenebilir şekilleri tek tıkla üretip dışa aktarman.</summary>
+  <summary>Gerçek zamanlı, sonsuz beyaz tahta; diyagram ve beyin fırtınası için. draw.io gibi diyagram araçlarından farkı serbest biçimli olması: yapışkan not, çizim ve şablonlarla ekip atölyesi yürütmeye uygun.</summary>
 </entry>
 <entry>
-  <title>Hero Patterns</title>
-  <link href="https://heropatterns.com"/>
-  <id>https://heropatterns.com</id>
+  <title>Pixilart</title>
+  <link href="https://www.pixilart.com/draw"/>
+  <id>https://www.pixilart.com/draw</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Rengi ve saydamlığı ayarlanıp CSS’i kopyalanan tekrarlı SVG arka plan desenleri. Görsel dosya arka planlarından farkı çok küçük olması ve renginin CSS’le değiştirilebilmesi.</summary>
+  <summary>Tarayıcıda piksel sanatı çizmek için araç; çizimleri toplulukla paylaşabiliyorsun. Aseprite gibi masaüstü araçlarından farkı kurulum istememesi; karşılığında animasyon ve katman özellikleri daha sınırlı.</summary>
 </entry>
 <entry>
-  <title>Humaaans</title>
-  <link href="https://www.humaaans.com/"/>
-  <id>https://www.humaaans.com/</id>
+  <title>Pixlr</title>
+  <link href="https://pixlr.com/"/>
+  <id>https://pixlr.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Parçalarını karıştırıp poz verebildiğin insan illüstrasyonları kütüphanesi. Hazır illüstrasyonlardan farkı figürü uzuv uzuv birleştirip özgün sahne kurman.</summary>
+  <summary>Bulut tabanlı, tarayıcıda çalışan görüntü düzenleme araçları. Photoshop’tan farkı kurulum istememesi ve ücretsiz katmanı; karşılığında gelişmiş özellikler sınırlı.</summary>
 </entry>
 <entry>
-  <title>IcoFont</title>
-  <link href="https://icofont.com/"/>
-  <id>https://icofont.com/</id>
+  <title>Vectorizer</title>
+  <link href="https://www.vectorizer.io/"/>
+  <id>https://www.vectorizer.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Tasarımları renklendirmek için 2100+ ücretsiz ikon; ikon fontu olarak da kullanılabiliyor. Tek tek SVG indirmekten farkı ikonu CSS sınıfıyla sayfaya ekleyebilmen.</summary>
+  <summary>PNG/JPG gibi piksel görselleri vektöre (SVG) çeviren araç. Elle çizmekten farkı mevcut logoyu ölçeklenebilir hâle otomatik dönüştürmesi.</summary>
 </entry>
 <entry>
-  <title>Iconfinder</title>
-  <link href="https://www.iconfinder.com/"/>
-  <id>https://www.iconfinder.com/</id>
+  <title>Whimsical</title>
+  <link href="https://whimsical.com/"/>
+  <id>https://whimsical.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Milyonlarca ikon ve illüstrasyonu barındıran arama motoru. Tek bir ikon setinden farkı pek çok tasarımcının setlerinde birlikte arama yapabilmen; ücretsiz ve ücretli ikonlar karışık, lisansı kontrol et.</summary>
+  <summary>Akış şeması, tel çerçeve, yapışkan not ve zihin haritasını tek tuvalde birleştiren araç. Tek amaçlı araçlardan farkı hepsini aynı belgede bir arada tutması.</summary>
 </entry>
 <entry>
-  <title>Iconify</title>
-  <link href="https://iconify.design/"/>
-  <id>https://iconify.design/</id>
+  <title>X-Icon Editor</title>
+  <link href="https://www.xiconeditor.com/"/>
+  <id>https://www.xiconeditor.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>100’den fazla ikon setini tek API/bileşen altında birleştiren kütüphane. Her seti ayrı kurmaktan farkı hepsini tek arayüzden çekip karıştırabilmen.</summary>
+  <summary>Görsellerden yüksek çözünürlüklü favicon üreten editör. Tek tıkla dönüştüren favicon üreteçlerinden farkı ikonu her boyutta piksel piksel düzenleyebilmen.</summary>
 </entry>
 <entry>
-  <title>iconmonstr</title>
-  <link href="https://iconmonstr.com/"/>
-  <id>https://iconmonstr.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>316 ücretsiz ikon koleksiyonu içeren site; tamamı tek bir tasarımcının elinden çıkma. Iconfinder gibi pazaryerlerinden farkı bu tutarlı üslup: farklı koleksiyonlardaki ikonlar bile birlikte uyumlu duruyor.</summary>
+  <title>Aseprite</title>
+  <link href="https://www.aseprite.org/"/>
+  <id>https://www.aseprite.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Piksel sanatı ve animasyon için tasarlanmış editör; soğan zarı, kare zaman çizelgesi ve sprite sayfası dışa aktarımı var. Genel amaçlı çizim programlarından farkı her aracın piksel ızgarasına oturması — yumuşatma (anti-aliasing) istemediğin yerde olmuyor.</summary>
 </entry>
 <entry>
-  <title>Icons8</title>
-  <link href="https://icons8.com/"/>
-  <id>https://icons8.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>İkon, illüstrasyon, fotoğraf ve müziği farklı stillerde sunan geniş varlık kaynağı. Tek türlü sitelerden farkı aynı görsel dilde çok türü bir arada vermesi.</summary>
+  <title>Blender</title>
+  <link href="https://www.blender.org/"/>
+  <id>https://www.blender.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Modelleme, kaplama, kuşatma (rigging), simülasyon, render ve video kurgu tek pakette. Maya ya da 3ds Max’ten farkı tamamen ücretsiz olması ve bu boru hattının tümünü tek programda tutması — dosya aktarımı kaybı yok.</summary>
 </entry>
 <entry>
-  <title>Iconscout</title>
-  <link href="https://iconscout.com/"/>
-  <id>https://iconscout.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>İkon, illüstrasyon ve 3B varlıkları bir arada sunan geniş koleksiyon. Tek tür varlık sunan sitelerden farkı hepsini aynı arama ve lisansla vermesi; içeriğin önemli kısmı ücretli.</summary>
+  <title>FontForge</title>
+  <link href="https://fontforge.org/en-US/"/>
+  <id>https://fontforge.org/en-US/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Font oluşturma ve düzenleme programı; TTF, OTF, WOFF arasında dönüştürüyor ve glif ipuçlarını (hinting) düzenlemeye izin veriyor. Çevrimiçi font dönüştürücülerden farkı gliflerin kendisine müdahale edebilmen.</summary>
 </entry>
 <entry>
-  <title>IRA Design</title>
-  <link href="https://iradesign.io/illustrations"/>
-  <id>https://iradesign.io/illustrations</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Rengi ve nesneleri düzenlenebilen ücretsiz illüstrasyonlar. Hazır stok illüstrasyonlardan farkı degradeyi ve nesneleri seçerek kendi sahneni kurabilmen.</summary>
+  <title>Inkscape</title>
+  <link href="https://inkscape.org/"/>
+  <id>https://inkscape.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>SVG’yi yerel biçimi olarak kullanan vektör çizim programı. Illustrator’dan farkı dosyanın doğrudan web’e gidebilecek temiz SVG olması — ara dışa aktarma adımı yok, kaynağı elle düzenleyebiliyorsun.</summary>
 </entry>
 <entry>
-  <title>LineIcons</title>
-  <link href="https://lineicons.com/"/>
-  <id>https://lineicons.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>2000’den fazla çizgi stilinde ikon seti; bir kısmı ücretli. Karma üsluplu setlerden farkı hepsinin aynı çizgi kalınlığı ve üslubunda olması.</summary>
+  <title>Krita</title>
+  <link href="https://krita.org/en/"/>
+  <id>https://krita.org/en/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Dijital resim ve konsept sanat için çizim programı; fırça motoru ve kare kare animasyon desteği güçlü. GIMP’ten farkı fotoğraf düzenleme değil çizim için tasarlanmış olması — fırça gecikmesi ve stabilizasyon buna göre ayarlanmış.</summary>
 </entry>
 <entry>
-  <title>Lorem Picsum</title>
-  <link href="https://picsum.photos/"/>
-  <id>https://picsum.photos/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>İstediğin boyutta yer tutucu fotoğraf döndüren servis (görsellerin lorem ipsum’u). Sabit yer tutuculardan farkı URL’ye boyut verip gerçek fotoğraf alman.</summary>
+  <title>LosslessCut</title>
+  <link href="https://github.com/mifi/lossless-cut"/>
+  <id>https://github.com/mifi/lossless-cut</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Videoyu yeniden kodlamadan kesip birleştiren araç; anahtar kare sınırlarında çalışıyor. Klasik video editörlerinden farkı işlemin saniyeler sürmesi ve kalite kaybı olmaması — bir saatlik kaydın başını sonunu almak için editör açmaya gerek yok.</summary>
+</entry>
+<entry>
+  <title>MediaInfo</title>
+  <link href="https://mediaarea.net/en/MediaInfo"/>
+  <id>https://mediaarea.net/en/MediaInfo</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Video ve ses dosyalarının teknik künyesini döken araç: kodek, bit hızı, kare hızı, renk uzayı, kapsayıcı ayrıntıları. Oynatıcıların &quot;özellikler&quot; ekranından farkı akış düzeyinde ayrıntıya inmesi — sorun ayıklarken tek gerçek kaynak.</summary>
+</entry>
+<entry>
+  <title>Photopea</title>
+  <link href="https://www.photopea.com/"/>
+  <id>https://www.photopea.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Tarayıcıda çalışan görsel editör; PSD, XCF, Sketch ve XD dosyalarını katmanlarıyla açıyor. GIMP’ten farkı kurulum gerektirmemesi ve PSD uyumluluğunun gerçekten iyi olması — başkasının gönderdiği PSD’yi açmak için en kısa yol.</summary>
+</entry>
+<entry>
+  <title>Piskel</title>
+  <link href="https://www.piskelapp.com/"/>
+  <id>https://www.piskelapp.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Tarayıcıda çalışan piksel sanatı ve sprite animasyon editörü. Aseprite’tan farkı ücretsiz ve kurulumsuz olması; karşılığında katman ve fırça araçları daha sınırlı — ilk sprite’ını çizmek için yeterli.</summary>
+</entry>
+<entry>
+  <title>SankeyDiagram.net</title>
+  <link href="https://sankeydiagram.net/"/>
+  <id>https://sankeydiagram.net/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Metin girdisinden Sankey akış diyagramı üreten araç; enerji, bütçe ya da dönüşüm hunisi akışları için. Genel diyagram araçlarından farkı tek bir grafik türüne odaklanması ve girdiyi grafik değil metin olarak alması.</summary>
+</entry>
+<entry>
+  <title>ShareX</title>
+  <link href="https://getsharex.com/"/>
+  <id>https://getsharex.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Windows için ekran görüntüsü ve kayıt aracı; kaydettikten sonra yükleme, kısaltma, OCR gibi adımları zincirleyebiliyorsun. Snipping Tool’dan farkı bu iş akışı otomasyonu — görüntü alıp panoya bağlantı koymayı tek kısayola indiriyor.</summary>
+</entry>
+<entry>
+  <title>Shutter Encoder</title>
+  <link href="https://www.shutterencoder.com/"/>
+  <id>https://www.shutterencoder.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>FFmpeg’i arayüzle saran dönüştürücü; video editörlerinin ihtiyaç duyduğu ara kodekleri ve toplu işlemleri hazır sunuyor. HandBrake’ten farkı yayın/kurgu odaklı olması — ProRes, DNxHD ve altyazı gömme gibi işler menüde duruyor.</summary>
+</entry>
+<entry>
+  <title>Squoosh</title>
+  <link href="https://squoosh.app/"/>
+  <id>https://squoosh.app/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Görsel sıkıştırmayı iki bölmede karşılaştırmalı gösteren araç; MozJPEG, WebP, AVIF kodlayıcılarını WebAssembly ile tarayıcıda çalıştırıyor. TinyPNG’den farkı dosyanın hiç yüklenmemesi ve her kodlayıcının ayarını elle kurcalayabilmen.</summary>
+</entry>
+<entry>
+  <title>Subtitle Edit</title>
+  <link href="https://github.com/SubtitleEdit/subtitleedit"/>
+  <id>https://github.com/SubtitleEdit/subtitleedit</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Altyapı olarak dalga formu ve ses spektrumu gösteren altyazı editörü; 200’den fazla biçim okuyor, zamanlama kaydırma ve OCR ile gömülü altyazı çıkarma yapıyor. Basit altyazı düzenleyicilerden farkı bu senkronizasyon araçları.</summary>
+</entry>
+<entry>
+  <title>Subtitle Editor Online</title>
+  <link href="https://subtitle-editor.org/"/>
+  <id>https://subtitle-editor.org/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Tarayıcıda çalışan altyazı düzenleyici; .srt ve .vtt dosyalarını açıp zamanlama ve metin düzeltmeye yarıyor. Subtitle Edit gibi masaüstü araçlardan farkı kurulum istememesi — başkasının bilgisayarında hızlı bir düzeltme için.</summary>
+</entry>
+<entry>
+  <title>TinyPNG</title>
+  <link href="https://tinypng.com/"/>
+  <id>https://tinypng.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>PNG ve JPEG dosyalarını seçici nicemleme ile küçülten servis; sürükle bırak, ayar yok. Squoosh’tan farkı toplu işlem ve API sunması — tek görsel için Squoosh, yüz görsel için bu.</summary>
+</entry>
+<entry>
+  <title>Vector Magic</title>
+  <link href="https://vectormagic.com/"/>
+  <id>https://vectormagic.com/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Bitmap görseli vektöre çeviren araç. Illustrator’ın izleme (trace) işlevinden farkı kenar tespitinin belirgin daha temiz olması — logoyu düşük çözünürlüklü bir PNG’den geri kazanmak için en iyi sonucu veren yol.</summary>
+</entry>
+<entry>
+  <title>XnConvert</title>
+  <link href="https://www.xnview.com/en/xnconvert/"/>
+  <id>https://www.xnview.com/en/xnconvert/</id>
+  <updated>2026-08-21T20:53:20Z</updated>
+  <summary>Toplu görsel dönüştürme ve işleme aracı; 500’den fazla biçimi okuyup 70 kadarına yazıyor, yeniden boyutlandırma ve filigran zincirlenebiliyor. Çevrimiçi dönüştürücülerden farkı binlerce dosyayı yerelde, boyut sınırı olmadan işlemesi.</summary>
+</entry>
+<entry>
+  <title>Carbon</title>
+  <link href="https://carbon.now.sh/"/>
+  <id>https://carbon.now.sh/</id>
+  <updated>2026-08-19T16:12:33Z</updated>
+  <summary>Kod parçasından paylaşılabilir görsel üretiyor; tema, pencere süsü ve satır numarası ayarlanabiliyor. Ekran görüntüsünden farkı, sonucun tekrar edilebilir ve okunaklı olması.</summary>
+</entry>
+<entry>
+  <title>Excalidraw</title>
+  <link href="https://excalidraw.com/"/>
+  <id>https://excalidraw.com/</id>
+  <updated>2026-08-19T16:11:36Z</updated>
+  <summary>El çizimi görünümlü beyaz tahta. Kasıtlı olarak kaba durması bir üslup tercihi değil işlevsel: taslak aşamasındaki bir mimarinin bitmiş sanılmasını engelliyor.</summary>
+</entry>
+<entry>
+  <title>diagrams.net</title>
+  <link href="https://app.diagrams.net/"/>
+  <id>https://app.diagrams.net/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>draw.io’nun çevrimiçi sürümü; dosyayı Drive, OneDrive ya da yerel diske kaydediyor, kendi sunucusunda tutmuyor.</summary>
+</entry>
+<entry>
+  <title>Mermaid</title>
+  <link href="https://mermaid.js.org/"/>
+  <id>https://mermaid.js.org/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Akış şeması ve diyagramları metinden üreten araç — “diyagramların Markdown’ı”. Çizim programlarından farkı diyagramı koda gömüp sürüm kontrolünde tutabilmen.</summary>
+</entry>
+<entry>
+  <title>ray.so</title>
+  <link href="https://www.ray.so/"/>
+  <id>https://www.ray.so/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Kod parçasından paylaşılabilir görsel üretiyor; Carbon’a alternatif, daha az ayar ve daha hızlı sonuç.</summary>
+</entry>
+<entry>
+  <title>SVG Path Editor</title>
+  <link href="https://yqnn.github.io/svg-path-editor/"/>
+  <id>https://yqnn.github.io/svg-path-editor/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>SVG yol verisini (`d` özniteliği) görsel olarak düzenleyip komutları tek tek gösteriyor. Genel vektör editörlerinden farkı yolun ham metnine dokunabilmen — elle yazılmış bir ikonu düzeltmek için doğru araç.</summary>
+</entry>
+<entry>
+  <title>DjVu</title>
+  <link href="https://tr.wikipedia.org/wiki/DjVu"/>
+  <id>https://tr.wikipedia.org/wiki/DjVu</id>
+  <updated>2026-06-25T06:20:59Z</updated>
+  <summary>Taranmış belgeler için PDF’e alternatif biçim; aynı kalitede çok daha küçük dosya üretiyor. Eski arşivlerde sık karşına çıkar, ne olduğunu bilmek gerekir.</summary>
+</entry>
+<entry>
+  <title>OpenReel Video</title>
+  <link href="https://github.com/Augani/openreel-video"/>
+  <id>https://github.com/Augani/openreel-video</id>
+  <updated>2026-05-11T15:28:43Z</updated>
+  <summary>Tarayıcıda çalışan video düzenleyici; görüntü cihazdan çıkmıyor. Kurulum istemeyen ve bulut servisine yüklemeyen bir alternatif.</summary>
+</entry>
+<entry>
+  <title>draw.io</title>
+  <link href="https://www.drawio.com/"/>
+  <id>https://www.drawio.com/</id>
+  <updated>2026-02-25T21:43:43Z</updated>
+  <summary>Akış şeması ve diyagram çizen ücretsiz araç. Lucidchart’tan farkı tamamen ücretsiz olması ve diyagramı kendi deponda ya da bulutunda tutabilmen.</summary>
+</entry>
+<entry>
+  <title>Mermaid Live Editor</title>
+  <link href="https://mermaid.live/edit"/>
+  <id>https://mermaid.live/edit</id>
+  <updated>2025-11-10T17:33:33Z</updated>
+  <summary>Metinden diyagram üretiyor; GitHub ve GitLab Mermaid’i doğrudan gösteriyor. draw.io gibi çizim araçlarından farkı kaynağın düz metin olması: sürüm kontrolüne giriyor ve diff’i okunabiliyor.</summary>
+</entry>
+<entry>
+  <title>iLovePDF</title>
+  <link href="https://www.ilovepdf.com/"/>
+  <id>https://www.ilovepdf.com/</id>
+  <updated>2025-07-22T17:33:56Z</updated>
+  <summary>Birleştirme, bölme, sıkıştırma ve dönüştürme. Masaüstü PDF araçlarından farkı kurulum istememesi; hassas belgeler için dikkat: dosya sunucuya yükleniyor, yerel bir araç daha uygun olabilir.</summary>
 </entry>
 </feed>

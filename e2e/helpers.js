@@ -8,11 +8,14 @@ function watchErrors(page) {
   return errors;
 }
 
-/* The app has drawn its view: #list holds something. */
+/* The app has drawn its view. #list is never empty -- index.html ships the
+   pre-rendered home in it -- so "has children" alone passed before app.js
+   ran, on any view. The app always drops the pre-render's data-pre marker
+   when it draws (the attribute on the home, the whole markup elsewhere). */
 async function ready(page) {
   await page.waitForFunction(() => {
     const l = document.querySelector("#list");
-    return l && l.children.length > 0;
+    return l && l.children.length > 0 && !l.querySelector("[data-pre]");
   });
 }
 

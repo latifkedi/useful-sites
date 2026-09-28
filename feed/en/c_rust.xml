@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title>C, C++ &amp; Rust — Useful Sites</title>
+<subtitle>A hand-curated, annotated link directory across ten areas, from software and AI to security, economics and architecture. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/c_rust.xml" rel="self"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html"/>
+<id>https://latifkedi.github.io/useful-sites/feed/en/c_rust.xml</id>
+<updated>2026-09-18T00:00:00Z</updated>
+<entry>
+  <title>Awesome C++</title>
+  <link href="https://github.com/uhub/awesome-cpp"/>
+  <id>https://github.com/uhub/awesome-cpp</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list organising C++ libraries and frameworks by topic. Unlike general search it is a maintained, categorised starting map.</summary>
+</entry>
+<entry>
+  <title>Awesome CMake</title>
+  <link href="https://github.com/onqtam/awesome-cmake"/>
+  <id>https://github.com/onqtam/awesome-cmake</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list of scripts, modules and resources for CMake, the C/C++ build tool. Unlike the official docs, it picks guides to target-based “modern CMake” practice and ready-made modules.</summary>
+</entry>
+<entry>
+  <title>Awesome Rust</title>
+  <link href="https://github.com/rust-unofficial/awesome-rust"/>
+  <id>https://github.com/rust-unofficial/awesome-rust</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A list organising Rust libraries and applications by topic. Unlike a crates.io search it is a curated, categorised and maintained starting map.</summary>
+</entry>
+<entry>
+  <title>Rust by Example</title>
+  <link href="https://doc.rust-lang.org/rust-by-example/"/>
+  <id>https://doc.rust-lang.org/rust-by-example/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>The official resource giving each concept as a runnable, editable code example. Unlike the book it cuts the prose and leads with the example — for those who learn by trying.</summary>
+</entry>
+<entry>
+  <title>Rust Playground</title>
+  <link href="https://play.rust-lang.org/"/>
+  <id>https://play.rust-lang.org/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>The official space to compile and run Rust code in the browser with no install. Unlike a local setup it gives compiler output and ASM/MIR via a shareable link.</summary>
+</entry>
+<entry>
+  <title>Rustlings</title>
+  <link href="https://github.com/rust-lang/rustlings"/>
+  <id>https://github.com/rust-lang/rustlings</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>An exercise set teaching Rust by fixing small, broken snippets. Unlike reading-based resources it has you read and fix compiler errors by hand.</summary>
+</entry>
+<entry>
+  <title>The Async Book</title>
+  <link href="https://rust-lang.github.io/async-book/"/>
+  <id>https://rust-lang.github.io/async-book/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>The official book on async/await and the Future model in Rust. Unlike general concurrency material it explains Rust’s distinctive, decoupled runtime approach.</summary>
+</entry>
+<entry>
+  <title>The Cargo Book</title>
+  <link href="https://doc.rust-lang.org/cargo/"/>
+  <id>https://doc.rust-lang.org/cargo/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>The official guide to Cargo, Rust’s package manager and build tool. Unlike scattered blogs it gathers dependencies, workspaces and publishing in one authoritative place.</summary>
+</entry>
+<entry>
+  <title>The Rust Programming Language</title>
+  <link href="https://doc.rust-lang.org/book/"/>
+  <id>https://doc.rust-lang.org/book/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>The official book teaching Rust from scratch (“the book”). Unlike third-party tutorials it builds the ownership and borrowing model step by step, from the language team itself.</summary>
+</entry>
+<entry>
+  <title>The Rust Reference</title>
+  <link href="https://doc.rust-lang.org/reference/"/>
+  <id>https://doc.rust-lang.org/reference/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>The official reference defining the language’s grammar and semantics. Unlike the book it is not a tutorial but the authoritative answer to “exactly how does Rust behave”.</summary>
+</entry>
+<entry>
+  <title>The Rustonomicon</title>
+  <link href="https://doc.rust-lang.org/nomicon/"/>
+  <id>https://doc.rust-lang.org/nomicon/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>An advanced book on the rules of unsafe Rust. Unlike the main book it covers what to watch for when you step outside the borrow checker.</summary>
+</entry>
+<entry>
+  <title>cppreference</title>
+  <link href="https://cppreference.com/"/>
+  <id>https://cppreference.com/</id>
+  <updated>2026-08-19T23:34:19Z</updated>
+  <summary>The de facto reference for the C and C++ standard library, marking which standard (C++11/17/20/23) each feature arrived in. Unlike tutorial sites, it never skips that version distinction.</summary>
+</entry>
+<entry>
+  <title>C++ Üslup ve Teknik SSS</title>
+  <link href="https://www.stroustrup.com/bs_faq2.html"/>
+  <id>https://www.stroustrup.com/bs_faq2.html</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Stroustrup’s FAQ on C++ style and common mistakes — direct answers to “why should I do it this way”. Unlike third-party tutorials, the reasoning comes from the language’s creator.</summary>
+</entry>
+<entry>
+  <title>C++11 SSS (Stroustrup)</title>
+  <link href="https://www.stroustrup.com/C++11FAQ.html"/>
+  <id>https://www.stroustrup.com/C++11FAQ.html</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The language’s creator explaining why each C++11 feature was added. Unlike a feature list, it gives the design rationale.</summary>
+</entry>
+<entry>
+  <title>Comprehensive Rust</title>
+  <link href="https://google.github.io/comprehensive-rust/"/>
+  <id>https://google.github.io/comprehensive-rust/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Google’s open four-day Rust course as slides + exercises. Unlike the book it is paced for a classroom and comes with embedded and concurrency modules.</summary>
+</entry>
+<entry>
+  <title>CppCon</title>
+  <link href="https://www.youtube.com/user/CppCon/videos?shelf_id=0&amp;view=0&amp;sort=dd"/>
+  <id>https://www.youtube.com/user/CppCon/videos?shelf_id=0&amp;view=0&amp;sort=dd</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Every talk from the annual C++ conference. Against tutorials it carries presentations from the people who write the standard — where you hear why a feature was designed as it was.</summary>
+</entry>
+<entry>
+  <title>crates.io</title>
+  <link href="https://crates.io/"/>
+  <id>https://crates.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Rust’s official package registry — the hub for publishing libraries and pulling them as dependencies. Unlike general code search it shows the trustworthy source with version and download data.</summary>
+</entry>
+<entry>
+  <title>docs.rs</title>
+  <link href="https://docs.rs/"/>
+  <id>https://docs.rs/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A service that automatically builds and publishes the docs for every package on crates.io. Unlike each project’s own site it gathers the whole ecosystem’s docs in one format at one address.</summary>
+</entry>
+<entry>
+  <title>Meeting C++</title>
+  <link href="https://www.youtube.com/user/MeetingCPP/videos"/>
+  <id>https://www.youtube.com/user/MeetingCPP/videos</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The talk archive of Europe’s largest C++ conference. Against CppCon it is smaller and more applied — experience from real projects rather than standards debate.</summary>
+</entry>
+<entry>
+  <title>Qt Documentation</title>
+  <link href="https://doc.qt.io/"/>
+  <id>https://doc.qt.io/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The official documentation for the Qt framework: class reference, examples and platform guides for C++ and QML. Against other UI framework docs the difference is scope — desktop, mobile and embedded described under one API.</summary>
+</entry>
+<entry>
+  <title>Rust Cookbook</title>
+  <link href="https://rust-lang-nursery.github.io/rust-cookbook/"/>
+  <id>https://rust-lang-nursery.github.io/rust-cookbook/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A cookbook of everyday tasks in Rust — read a file line by line, make an HTTP request. Against the book and the examples it is task-oriented: you open it to finish something, not to learn the language.</summary>
+</entry>
+<entry>
+  <title>Rust Standard Library</title>
+  <link href="https://doc.rust-lang.org/std/"/>
+  <id>https://doc.rust-lang.org/std/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The official reference for the Rust standard library — types, traits and macros. Unlike tutorials it aims not to teach but to be the complete, exact reference.</summary>
+</entry>
+<entry>
+  <title>Stroustrup on C++</title>
+  <link href="https://www.stroustrup.com/C++.html"/>
+  <id>https://www.stroustrup.com/C++.html</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The C++ creator’s own pages: FAQs, style advice and essays on why the language was designed as it was. Unlike tutorials it supplies rationale — the reason behind a decision is only available from the person who made it.</summary>
+</entry>
+<entry>
+  <title>The Rust Book</title>
+  <link href="https://doc.rust-lang.org/book/title-page.html"/>
+  <id>https://doc.rust-lang.org/book/title-page.html</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Rust’s official book, building up ownership and borrowing from nothing. Unlike other language books it makes the compiler’s error messages part of the teaching — in Rust, learning to argue with the compiler is half the language.</summary>
+</entry>
+<entry>
+  <title>This Week in Rust</title>
+  <link href="https://this-week-in-rust.org/"/>
+  <id>https://this-week-in-rust.org/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>A newsletter rounding up developments, releases and posts in the Rust world weekly. Unlike scattered following it lets you track the ecosystem in one regular stream.</summary>
+</entry>
+<entry>
+  <title>Tokio</title>
+  <link href="https://tokio.rs/"/>
+  <id>https://tokio.rs/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>The most widely used asynchronous runtime for Rust; network services build on it. Unlike the standard library it brings a scheduler, tasks and tooling for highly concurrent I/O.</summary>
+</entry>
+<entry>
+  <title>Rust Öğrenin (Türkçe)</title>
+  <link href="https://rust-lang.org/tr/learn/"/>
+  <id>https://rust-lang.org/tr/learn/</id>
+  <updated>2026-03-29T18:36:46Z</updated>
+  <summary>The Turkish version of Rust’s official learning page. Meeting ownership and borrowing in your own language rather than English softens the language’s steepest climb a little.</summary>
+</entry>
+<entry>
+  <title>Learn C</title>
+  <link href="https://www.learn-c.org/"/>
+  <id>https://www.learn-c.org/</id>
+  <updated>2026-03-08T15:37:28Z</updated>
+  <summary>A C tutorial you compile and run in the browser. Rather than installing a toolchain you try it on the page, which removes the entry barrier for anyone who wants a look at the language.</summary>
+</entry>
+<entry>
+  <title>C Programming Tutorial</title>
+  <link href="https://www.tutorialspoint.com/cprogramming/index.htm"/>
+  <id>https://www.tutorialspoint.com/cprogramming/index.htm</id>
+  <updated>2026-03-08T15:37:01Z</updated>
+  <summary>A classic front-to-back treatment of C. Comprehensive, but dated in style and examples — handier for looking one topic up than for reading through.</summary>
+</entry>
+<entry>
+  <title>C Yol Haritası</title>
+  <link href="https://github.com/Koubae/Programming-CookBook/blob/master/Programming%20Languages/C/roadmap.md"/>
+  <id>https://github.com/Koubae/Programming-CookBook/blob/master/Programming%20Languages/C/roadmap.md</id>
+  <updated>2026-03-07T23:55:29Z</updated>
+  <summary>A short map ordering C topics. Unlike full courses it gives sequence rather than content, showing where pointers and memory management belong.</summary>
+</entry>
+<entry>
+  <title>GeeksforGeeks C</title>
+  <link href="https://www.geeksforgeeks.org/c/c-programming-language/"/>
+  <id>https://www.geeksforgeeks.org/c/c-programming-language/</id>
+  <updated>2026-02-23T11:20:56Z</updated>
+  <summary>C material split by topic. Unlike a sequential book, a search lands you straight on the relevant page; some examples rely on old compiler behaviour, so read carefully.</summary>
+</entry>
+<entry>
+  <title>Awesome C</title>
+  <link href="https://github.com/oz123/awesome-c"/>
+  <id>https://github.com/oz123/awesome-c</id>
+  <updated>2026-02-21T22:24:01Z</updated>
+  <summary>A list of C libraries, frameworks and tools. Because the standard library is deliberately thin, “which library” comes up far more often in C than elsewhere.</summary>
+</entry>
+<entry>
+  <title>IncludeHelp C Programları</title>
+  <link href="https://www.includehelp.com/c-programs/c-programs-basic-input-output-operations.aspx"/>
+  <id>https://www.includehelp.com/c-programs/c-programs-basic-input-output-operations.aspx</id>
+  <updated>2026-02-21T22:23:44Z</updated>
+  <summary>A collection of solved C programs. Unlike tutorials it offers working examples instead of exposition — handy for recalling a pattern quickly.</summary>
+</entry>
+<entry>
+  <title>Sıfırdan C Programlama</title>
+  <link href="https://www.youtube.com/watch?v=yuVatFCOISc"/>
+  <id>https://www.youtube.com/watch?v=yuVatFCOISc</id>
+  <updated>2026-02-10T06:51:20Z</updated>
+  <summary>A Turkish video covering C in a single sitting. Unlike courses spread over weeks it is done in one go — for a fast introduction or pre-exam revision.</summary>
+</entry>
+<entry>
+  <title>Kodisyum C Örnekleri</title>
+  <link href="https://kodisyum.com/c-ornekler/"/>
+  <id>https://kodisyum.com/c-ornekler/</id>
+  <updated>2025-11-24T08:27:12Z</updated>
+  <summary>Turkish C example programs covering the classic coursework-level exercises. Unlike English example archives it is in Turkish — valuable because Turkish C material is thin on the ground.</summary>
+</entry>
+<entry>
+  <title>HolyC</title>
+  <link href="https://holyc-lang.com/"/>
+  <id>https://holyc-lang.com/</id>
+  <updated>2025-07-30T00:45:38Z</updated>
+  <summary>An independent compiler and documentation for TempleOS’s HolyC. Unlike production languages it has no practical use — it stands for the language design and computing history interest.</summary>
+</entry>
+</feed>

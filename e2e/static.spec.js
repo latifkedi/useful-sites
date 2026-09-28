@@ -17,3 +17,12 @@ for (const url of ["/k/index.html", "/k/diller.html", "/k/tesekkur.html", "/k/en
     expect(errors).toEqual([]);
   });
 }
+
+test("an entry's anchor on a static page brings that entry into view", async ({ page }) => {
+  await page.goto("/k/c_rust.html");
+  const target = page.locator("article.rec").nth(12);
+  const id = await target.getAttribute("id");
+  expect(id).toMatch(/^[a-z0-9-]+$/);
+  await page.goto("/k/c_rust.html#" + id);
+  await expect(target).toBeInViewport();
+});

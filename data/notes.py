@@ -38,7 +38,10 @@ import re
 CATS = [
     # -- Yazılım
     ('diller',     'Programlama Dilleri',           'Programming Languages'),
+    ('c_rust',     'C, C++ & Rust',                 'C, C++ & Rust'),
+    ('jvm',        'Java & JVM',                    'Java & JVM'),
     ('web',        'Web & Frontend',                'Web & Frontend'),
+    ('css',        'CSS & Arayüz Kitleri',          'CSS & UI Kits'),
     ('backend',    'Backend, API & Sistem Tasarımı', 'Backend, API & System Design'),
     ('mobil',      'Mobil & Masaüstü',              'Mobile & Desktop'),
     ('veritabani', 'Veritabanı',                    'Databases'),
@@ -74,7 +77,9 @@ CATS = [
     ('ekonomi',    'Ekonomi',                       'Economics'),
     ('finans',     'Finans, Piyasa & Kripto',       'Finance, Markets & Crypto'),
     # -- Tasarım & Medya
-    ('medya',      'Medya, Tasarım & Dosya',        'Media, Design & Files'),
+    ('arayuz',     'Arayüz Tasarımı, Renk & Yazı Tipi', 'UI Design, Colour & Type'),
+    ('gorsel',     'İkon, Fotoğraf & İllüstrasyon', 'Icons, Photos & Illustration'),
+    ('medya',      'Medya, Dosya & Diyagram',       'Media, Files & Diagrams'),
     ('mimari',     'Mimari & Yapı',                 'Architecture & Building'),
     # -- Öğrenme, Referans & Araçlar
     ('ogrenme',    'Öğrenme & Yol Haritaları',      'Learning & Roadmaps'),
@@ -96,7 +101,7 @@ CATS = [
 # per-category pages are unchanged. key, Turkish label, English label, cats.
 GROUPS = [
     ('yazilim',     'Yazılım',            'Software',
-     ['diller', 'web', 'backend', 'mobil', 'veritabani', 'pratik', 'test', 'oyun']),
+     ['diller', 'c_rust', 'jvm', 'web', 'css', 'backend', 'mobil', 'veritabani', 'pratik', 'test', 'oyun']),
     ('yapayzeka',   'Yapay Zeka',         'Artificial Intelligence',
      ['yz_model', 'yz_altyapi', 'yz_rag', 'yz_arac', 'yz_uretim']),
     ('sistem',      'Altyapı & Sistem',   'Infrastructure & Systems',
@@ -110,7 +115,7 @@ GROUPS = [
     ('ekonomialan', 'Ekonomi & Finans',   'Economics & Finance',
      ['ekonomi', 'finans']),
     ('tasarim',     'Tasarım & Medya',    'Design & Media',
-     ['medya', 'mimari']),
+     ['arayuz', 'gorsel', 'medya', 'mimari']),
     ('ogrenmealan', 'Öğrenme, Referans & Araçlar', 'Learning, Reference & Tools',
      ['ogrenme', 'kitaplik', 'referans', 'koleksiyon', 'acik_kaynak',
       'editor', 'oyunalani', 'donusturucu', 'araclar']),
