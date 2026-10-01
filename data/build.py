@@ -170,6 +170,46 @@ for i, r in enumerate(core):
     if rel:
         r['rel'] = rel
 
+# One more neighbour from another heading of the same area, when the overlap
+# is about the subject: at least two shared topic or language tags. Price,
+# licence, platform and type tags sit on most records and say nothing about
+# what a thing is for, so they do not count here. Splitting the large headings
+# (the JVM out of the languages, CSS out of Web) had made close neighbours
+# across headings invisible to each other. Across areas the same two tags
+# proved too loose (a VPN next to an LLM guardrail, both "privacy" and
+# "security"), so the neighbour stays inside the area. Candidates rank by
+# shared tags, then by how much of both tag sets they share (Jaccard), then by
+# nearness; and no record is the cross-heading neighbour of more than three
+# others -- with nearness alone, the first record of the next heading became
+# everyone's suggestion. Deterministic either way.
+KONU = set(next(ts for k, _, _, ts in FACETS if k == 'konu'))
+ANLAMLI = KONU | {'python', 'javascript', 'c-ailesi', 'rust', 'go', 'php', 'jvm',
+                  'docker', 'cli', 'api', 'sdk'}
+ALAN = {k: g[0] for g in GROUPS for k in g[3]}
+KOMSU_EN_COK = 3
+by_tag = {}
+for j, r in enumerate(core):
+    for t in set(r['tags']) & ANLAMLI:
+        by_tag.setdefault(t, []).append(j)
+secilen = collections.Counter()
+for i, r in enumerate(core):
+    ts = set(r['tags']) & ANLAMLI
+    if len(ts) < 2:
+        continue
+    alan = ALAN.get(r['cat'])
+    say = collections.Counter(j for t in ts for j in by_tag[t]
+                              if core[j]['cat'] != r['cat'] and ALAN.get(core[j]['cat']) == alan)
+    # Two languages alone (python + c-ailesi) are not a subject: one shared
+    # topic tag is required as well.
+    aday = sorted(((n, n / len(ts | (set(core[j]['tags']) & ANLAMLI)), -abs(j - i), -j)
+                   for j, n in say.items() if n >= 2 and set(core[j]['tags']) & ts & KONU),
+                  reverse=True)
+    for _, _, _, mj in aday:
+        if secilen[-mj] < KOMSU_EN_COK:
+            secilen[-mj] += 1
+            r['rel'] = r.get('rel', []) + [-mj]
+            break
+
 J = dict(ensure_ascii=False, separators=(',', ':'))
 groups = [{'key': k, 'tr': tr, 'en': en_, 'cats': cats,
            'note_tr': FIELD_NOTES[k][0], 'note_en': FIELD_NOTES[k][1]}

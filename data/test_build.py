@@ -191,6 +191,19 @@ def main():
     check(not az, 'every category has at least two start-here picks'
           + (' -- %s' % az if az else ''))
 
+    # "Benzerleri": up to three from the same heading, plus at most one from
+    # another heading of the same area; never the record itself.
+    alan = {k: g[0] for g in GROUPS for k in g[3]}
+    kotu_rel = []
+    for i, d in enumerate(rows):
+        rel = d.get('rel') or []
+        disari = [j for j in rel if 0 <= j < len(rows) and rows[j]['cat'] != d['cat']]
+        if (len(rel) > 4 or i in rel or any(not (0 <= j < len(rows)) for j in rel) or len(disari) > 1
+                or any(alan.get(rows[j]['cat']) != alan.get(d['cat']) for j in disari)):
+            kotu_rel.append(d['name'])
+    check(not kotu_rel, 'related entries: at most 4, one from another heading of the same area at most'
+          + (' -- %s' % kotu_rel[:3] if kotu_rel else ''))
+
     print('static output')
     for name in ('sitemap.xml', 'robots.txt', 'feed.xml', 'og.png'):
         check(os.path.exists(os.path.join(ROOT, name)), 'exists: ' + name)

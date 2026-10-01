@@ -227,6 +227,22 @@ LANGS = {
 }
 
 
+def _intro_links(text, core, yer):
+    """The intro, escaped, with the records it names linked to their place on
+    the static pages -- the same rule as app.js introHTML(): longer names
+    first, each name once and at a word boundary, names under four letters
+    left alone."""
+    s, links = esc(text), []
+    for d in sorted((d for d in core if len(d['name']) >= 4 and d['url'] in yer),
+                    key=lambda d: -len(esc(d['name']))):
+        m = re.search(r'(?<![\w\x00])%s(?![\w\x01])' % re.escape(esc(d['name'])), s)
+        if not m:
+            continue
+        links.append('<a href="%s">%s</a>' % (esc(yer[d['url']]), esc(d['name'])))
+        s = s[:m.start()] + '\x00%d\x01' % (len(links) - 1) + s[m.end():]
+    return re.sub(r'\x00(\d+)\x01', lambda m: links[int(m.group(1))], s)
+
+
 def write_all(core, cats, intros, taglbl, out_dir, en_desc):
     """core: the record list as written to links.js. cats: [(key, tr, en)].
 
@@ -245,6 +261,12 @@ def write_all(core, cats, intros, taglbl, out_dir, en_desc):
         by_cat = {}
         for i, d in enumerate(core):
             by_cat.setdefault(d['cat'], []).append((i, d))
+        # Every entry's place on the static pages, so an intro can link the
+        # records it names (same folder: diller.html#python-swaroopch-com).
+        yer = {}
+        for k, rows in by_cat.items():
+            for (_, d), a in zip(rows, _anchors(rows)):
+                yer[d['url']] = '%s.html#%s' % (k, a)
 
         for k in order:
             rows = by_cat.get(k)
@@ -270,7 +292,7 @@ def write_all(core, cats, intros, taglbl, out_dir, en_desc):
                         other_lang='%s/k/%s%s.html' % (SITE, '' if L['li'] else 'en/', esc(k)),
                         other_word=esc(L['other_word']),
                         hub='index.html', hub_name=esc(L['hub_name']),
-                        intro=esc(intro), css=_css_href(out_dir, L),
+                        intro=_intro_links(intro, core, yer), css=_css_href(out_dir, L),
                         count=len(rows), word_links=esc(L['links']),
                         feed_title=esc('%s — %s' % (label[k], L['name'])),
                         feed_url='%s/feed/%s%s.xml' % (SITE, L['dir'], k),

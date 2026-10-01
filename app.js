@@ -762,6 +762,29 @@ function sideHTML(L){
   }).join("")+'</ol>';
 }
 
+/* Giris metninde adi gecen kayitlar tek kayit gorunumune bagli. Uzun adlar
+   once ("Rust Cookbook" "Rust"tan once), her ad bir kez ve kelime sinirinda;
+   4 harften kisa adlar ("Go", "R") yanlis eslesmesin diye disarida. Eklenen
+   baglantilar yer tutucuyla bekliyor ki sonraki bir ad onlarin icinde
+   eslesmesin. */
+var INTRO_NAMES = null;
+function introHTML(t){
+  if(!INTRO_NAMES){
+    INTRO_NAMES = data.filter(function(d){ return d.name.length >= 4 })
+      .map(function(d){ return {s: esc(d.name), k: d._k} })
+      .sort(function(a, b){ return b.s.length - a.s.length });
+  }
+  var s = esc(t), links = [];
+  for(var i=0;i<INTRO_NAMES.length;i++){
+    var n = INTRO_NAMES[i], at = s.indexOf(n.s);
+    while(at >= 0 && ((at > 0 && wordCh(s[at-1])) || wordCh(s[at + n.s.length]))) at = s.indexOf(n.s, at + 1);
+    if(at < 0) continue;
+    links.push('<a href="?e='+encodeURIComponent(n.k)+'" data-perma="'+esc(n.k)+'">'+n.s+'</a>');
+    s = s.slice(0, at) + "\u0000" + (links.length - 1) + "\u0001" + s.slice(at + n.s.length);
+  }
+  return s.replace(/\u0000(\d+)\u0001/g, function(_, j){ return links[+j] });
+}
+
 /* Kategori sayfasi: yol izi, baslik (telefonda kardes basliklara acilan ▾),
    giris metni, arac cubugu, once birincil kaynaklar sonra listeler. */
 function catPageHTML(L, shown){
@@ -793,7 +816,7 @@ function catPageHTML(L, shown){
     : '';
   return '<div class="catpage">'+crumbHTML(L, activeField)+
     '<div class="ch1"><h1 class="ph">'+esc(shortCat(activeCat))+'</h1>'+sib+'</div>'+sibList+
-    (intro ? '<p class="lede clamp">'+esc(intro)+'</p>'+
+    (intro ? '<p class="lede clamp">'+introHTML(intro)+'</p>'+
              '<button class="more-b" type="button" data-more="1">'+esc(L.more)+'</button>' : '')+
     tbHTML(L, mine.length, total)+qHelpHTML(L, mine.length)+body+
   '</div>';

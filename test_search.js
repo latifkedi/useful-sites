@@ -138,6 +138,25 @@ check(ids("veritabanı").indexOf("c:c3") >= 0, "a heading name offers the headin
 check(ids("model").indexOf("c:c2") >= 0, "a 4+ letter prefix of a short heading label is enough");
 check(ids("ve").length === 0, "a prefix under 4 letters offers nothing");
 
+/* introHTML() needs records; a second slice gets a few. */
+const withRecs = new Function("return (function(window, localStorage, URL, Search){\n" + body +
+  "\nreturn {introHTML};\n})")()({ LINKS: [
+    { name: "Rustlings", url: "https://rustlings.rust-lang.org/", tags: [], tr: "x", cat: "c" },
+    { name: "Rust Cookbook", url: "https://rust-lang-nursery.github.io/rust-cookbook/", tags: [], tr: "x", cat: "c" },
+    { name: "Rust", url: "https://www.rust-lang.org/", tags: [], tr: "x", cat: "c" },
+    { name: "Go", url: "https://go.dev/", tags: [], tr: "x", cat: "c" },
+  ] }, { getItem: () => null }, URL, Search);
+console.log("introHTML");
+const ih = withRecs.introHTML("Rustlings’i ve Rust Cookbook’u dene; Go ile Rust. Rustlingsler & <b>");
+check(ih.indexOf('data-perma="rustlings.rust-lang.org">Rustlings</a>’i') >= 0,
+  "a record named in an intro links to it, Turkish suffix after the apostrophe kept outside");
+check(ih.indexOf('>Rust Cookbook</a>') >= 0 && ih.indexOf('>Rust</a>.') >= 0,
+  "the longer name wins its own words; the shorter one links where it stands alone");
+check(ih.indexOf('>Go<') < 0, "names under 4 letters are not linked");
+check(ih.split("data-perma=").length - 1 === 3, "each name is linked once");
+check(ih.indexOf("&amp; &lt;b&gt;") >= 0, "the rest of the text stays escaped");
+Search.init({ records: R, synonyms: [], groups: [], cats: [], tagLabels: {} });   /* the slice re-inited Search */
+
 /* The same cases as data/test_helpers.py checks against emit._first(); the
    pre-rendered home depends on the two agreeing. */
 console.log("firstSentence");
