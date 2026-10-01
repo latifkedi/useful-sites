@@ -21,6 +21,7 @@ import requests
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import readlinks  # noqa: E402
+import linkstate  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TOKEN = os.environ.get('GITHUB_TOKEN') or os.environ.get('GH_TOKEN')
@@ -31,7 +32,6 @@ if TOKEN:
 
 # A repository untouched for this long counts as stale.
 STALE_DAYS = 730          # iki yil
-SKIP_OWNERS = {'topics', 'features', 'education', 'sponsors', 'orgs', 'collections'}
 
 
 # Registry pages carry their own last-published date and are worth auditing on
@@ -60,25 +60,29 @@ def _find_repo(url):
                          timeout=(6, 15), allow_redirects=True)
     except requests.exceptions.RequestException:
         return None
-    for m in re.finditer(r'https?://github\.com/([A-Za-z0-9._-]+)/([A-Za-z0-9._-]+)',
+    for m in re.finditer(r'https?://github\.com/[A-Za-z0-9._-]+/[A-Za-z0-9._-]+',
                          r.text[:200000]):
-        owner, repo = m.group(1), m.group(2)
-        if owner.lower() in SKIP_OWNERS:
+        t = linkstate.github_target(m.group(0))
+        if not t or t[0] != 'repo':
+            continue                     # GitHub's own pages, a user page, a tab
+        if t[2].lower().endswith(('.png', '.svg', '.jpg', '.css', '.js')):
             continue
-        if repo.lower().endswith(('.png', '.svg', '.jpg', '.css', '.js')):
-            continue
-        return owner, repo.rstrip('.')
+        return t[1], t[2]
     return None
 
 
 def repos():
+    """(name, cat, owner, repo, url) to audit, and the URLs deliberately left
+    out: user and organisation pages have no single repository to judge."""
     rows = readlinks.read(ROOT)
-    out, dolayli = [], []
+    out, dolayli, skipped = [], [], []
     for r in rows:
-        m = re.match(r'https://github\.com/([^/]+)/([^/#?]+)', r['url'])
-        if m and m.group(1).lower() not in SKIP_OWNERS:
-            out.append((r['name'], r.get('cat_tr', ''), m.group(1), m.group(2), r['url']))
-        elif 'açık-kaynak' in (r.get('tags') or []):
+        t = linkstate.github_target(r['url'])
+        if t and t[0] == 'repo':
+            out.append((r['name'], r.get('cat_tr', ''), t[1], t[2], r['url']))
+        elif t and t[0] == 'page':
+            skipped.append(r['url'])
+        elif 'açık-kaynak' in (r.get('tags') or []) and not re.match(r'https?://(www\.)?github\.com/', r['url']):
             dolayli.append(r)
 
     dolayli = dolayli[:HOMEPAGE_LIMIT]
@@ -90,7 +94,7 @@ def repos():
         for r, hit in bulunan:
             if hit:
                 out.append((r['name'], r.get('cat_tr', ''), hit[0], hit[1], r['url']))
-    return out
+    return out, skipped, [r['url'] for r in rows]
 
 
 def check(t):
@@ -126,7 +130,11 @@ def check(t):
     return rec
 
 
-def write_health(results):
+def _key(u):
+    return re.sub(r'^https?://(www\.)?', '', u.strip().lower()).rstrip('/')
+
+
+def write_health(results, skipped=(), current=None):
     """Per-record repository health, for the site to show.
 
     The audit already knew all of this and told nobody: it went into an issue
@@ -135,19 +143,27 @@ def write_health(results):
     project behind it stopped moving two years ago.
 
     Existing entries are kept when a run cannot reach them (rate limit, network
-    error), so a bad run degrades to stale data rather than to no data.
+    error), so a bad run degrades to stale data rather than to no data. Two
+    kinds are dropped: entries for URLs the audit now skips on purpose (user
+    and organisation pages, once misread as deleted repositories), and
+    entries for records that are no longer in the directory.
     """
     path = os.path.join(ROOT, 'data', 'health.json')
     out = {}
     if os.path.exists(path):
         out = json.load(io.open(path, encoding='utf-8'))
+    for u in skipped:
+        out.pop(_key(u), None)
+    if current is not None:
+        keep = {_key(u) for u in current}
+        out = {k: v for k, v in out.items() if k in keep}
 
     today = datetime.date.today().isoformat()
     yeni = 0
     for r in results:
         if r['state'] in ('kota', 'hata'):
             continue                     # eski kaydi koru
-        k = re.sub(r'^https?://(www\.)?', '', r['url'].strip().lower()).rstrip('/')
+        k = _key(r['url'])
         rec = {'s': r['state'], 'd': today}
         if r.get('pushed'):
             rec['p'] = r['pushed']
@@ -164,13 +180,13 @@ def write_health(results):
 
 
 def main():
-    rs = repos()
+    rs, skipped, current = repos()
     if not TOKEN:
         print('UYARI: token yok, 60 istek sonrasi kotaya takilacak', file=sys.stderr)
     with cf.ThreadPoolExecutor(max_workers=8 if TOKEN else 3) as ex:
         results = list(ex.map(check, rs))
 
-    write_health(results)
+    write_health(results, skipped, current)
 
     by = {}
     for r in results:

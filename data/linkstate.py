@@ -6,8 +6,35 @@ entry in verified.json moves from one scan to the next. Kept apart so the rules
 can be unit-tested in the build job, which does not install requests.
 """
 
+import re
+
 DEAD_CODES = {404, 410}
 DEAD_AFTER = 2
+
+# github.com paths that are GitHub's own pages, not an owner.
+GITHUB_SITE = {'topics', 'features', 'education', 'sponsors', 'orgs', 'collections',
+               'marketplace', 'settings', 'search', 'explore', 'trending', 'about'}
+# Second path segments that are a tab of a user or organisation page.
+GITHUB_TABS = {'repositories', 'followers', 'following', 'stars', 'projects',
+               'packages', 'people', 'sponsoring', 'teams'}
+
+
+def github_target(url):
+    """What a github.com URL points at, for the repository audit.
+
+    ('repo', owner, name) for a repository or a path inside one; ('page', owner,
+    None) for a user or organisation page -- which has no single repository to
+    judge, and used to be scanned like a project homepage, its first link
+    taken as "the" repository and a 404 reported as a deleted repo; None for
+    GitHub's own pages and for other sites.
+    """
+    m = re.match(r'https?://(?:www\.)?github\.com/([^/?#]+)(?:/([^/?#]+))?', url or '', re.I)
+    if not m or m.group(1).lower() in GITHUB_SITE:
+        return None
+    owner, name = m.group(1), m.group(2)
+    if not name or name.lower() in GITHUB_TABS:
+        return ('page', owner, None)
+    return ('repo', owner, re.sub(r'\.git$', '', name).rstrip('.'))
 
 
 def classify(result):

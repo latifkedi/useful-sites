@@ -97,6 +97,19 @@ def main():
     finally:
         shutil.rmtree(tmp)
 
+    print('linkstate.github_target')
+    gt = linkstate.github_target
+    check(gt('https://github.com/donnemartin/system-design-primer') == ('repo', 'donnemartin', 'system-design-primer'),
+          'an owner/repo URL is a repository')
+    check(gt('https://github.com/foo/bar/tree/main/docs') == ('repo', 'foo', 'bar'),
+          'a path inside a repository still names that repository')
+    check(gt('https://github.com/foo/bar.git') == ('repo', 'foo', 'bar'), 'a .git suffix is not part of the name')
+    check(all(gt(u)[0] == 'page' for u in ('https://github.com/scoverage', 'https://github.com/LiteEMF?tab=repositories',
+                                           'https://github.com/even-realities/', 'https://github.com/foo/repositories')),
+          'user and organisation pages (and their tabs) are not repositories')
+    check(gt('https://github.com/topics/rust') is None and gt('https://example.com/x') is None,
+          'GitHub feature pages and other sites are neither')
+
     print('linkstate.classify')
     check(linkstate.classify(None) == 'ok', 'no failure is ok')
     check(linkstate.classify({'status': 404}) == 'dead', '404 is dead')
