@@ -375,29 +375,17 @@
     "src": "rustlearn"
   },
   {
-    "url": "https://doc.rust-lang.org/book/title-page.html",
-    "name": "The Rust Book",
-    "tags": [
-      "rust",
-      "kitap",
-      "dokümantasyon",
-      "ücretsiz"
-    ],
-    "tr": "Rust’ın resmî kitabı; sahiplik ve ödünç alma gibi dile özgü kavramları sıfırdan kuruyor. Diğer dil kitaplarından farkı derleyicinin hata mesajlarını öğretinin parçası yapması — Rust’ta derleyiciyle tartışmayı öğrenmek dilin yarısı.",
-    "en": "Rust’s official book, building up ownership and borrowing from nothing. Unlike other language books it makes the compiler’s error messages part of the teaching — in Rust, learning to argue with the compiler is half the language.",
-    "src": "bwapsv"
-  },
-  {
     "url": "https://doc.rust-lang.org/book/",
     "name": "The Rust Programming Language",
     "tags": [
       "rust",
       "kitap",
       "ücretsiz",
-      "öğretici"
+      "öğretici",
+      "dokümantasyon"
     ],
-    "tr": "Rust’ı sıfırdan öğreten resmî kitap (“the book”). Üçüncü parti öğreticilerden farkı sahiplik ve ödünç alma modelini adım adım, dilin kendi ekibinin ağzından kurması.",
-    "en": "The official book teaching Rust from scratch (“the book”). Unlike third-party tutorials it builds the ownership and borrowing model step by step, from the language team itself.",
+    "tr": "Rust’ın resmî kitabı; sahiplik ve ödünç alma gibi dile özgü kavramları sıfırdan kuruyor. Diğer dil kitaplarından farkı derleyicinin hata mesajlarını öğretinin parçası yapması — Rust’ta derleyiciyle tartışmayı öğrenmek dilin yarısı.",
+    "en": "Rust’s official book, building up ownership and borrowing from nothing. Unlike other language books it makes the compiler’s error messages part of the teaching — in Rust, learning to argue with the compiler is half the language.",
     "src": "rustlearn"
   },
   {

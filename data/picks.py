@@ -122,8 +122,6 @@ PICKS = {
     'https://caniuse.com/',                                                          # Can I Use
     # --- devops
     'https://www.shellcheck.net/',                                                   # ShellCheck
-    # --- mobil
-    'https://godotengine.org/',                                                      # Godot
     # --- donanim
     'https://wokwi.com/',                                                            # Wokwi
     'https://www.kicad.org/',                                                        # KiCad
@@ -146,6 +144,7 @@ PICKS = {
     'https://gameprogrammingpatterns.com/',                                          # Game Programming Patterns
     'https://www.redblobgames.com',                                                  # Red Blob Games
     'https://kenney.nl',                                                             # Kenney
+    'https://godotengine.org/',                                                      # Godot
     # --- elektronik
     'https://www.electronics-tutorials.ws',                                          # Basic Electronics Tutorials
     'https://www.falstad.com/circuit/',                                              # Falstad Circuit Simulator

@@ -116,7 +116,7 @@
   <link href="https://cocoapods.org"/>
   <id>https://cocoapods.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>iOS ve Apple projeleri için uzun süre standart olan bağımlılık yöneticisi. Swift Package Manager’a kıyasla eski yol: yeni projeler SPM’e geçiyor, CocoaPods deposu da 2026 sonunda salt okunur hâle geliyor.</summary>
+  <summary>iOS ve Apple projeleri için uzun süre standart olan bağımlılık yöneticisi. Swift Package Manager’a kıyasla eski yol: yeni projeler SPM’e geçiyor, CocoaPods’un merkezî deposu (trunk) da Aralık 2026 itibarıyla salt okunur.</summary>
 </entry>
 <entry>
   <title>fastlane</title>
@@ -245,13 +245,6 @@
   <summary>F-Droid deposundaki özgür yazılım Android uygulamalarını gezilebilir hâlde sunan vitrin. F-Droid istemcisinden farkı web üzerinden popülerliğe göre keşif — hangi uygulamanın gerçekten kullanıldığını görüyorsun.</summary>
 </entry>
 <entry>
-  <title>Godot</title>
-  <link href="https://godotengine.org/"/>
-  <id>https://godotengine.org/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>MIT lisanslı oyun motoru; 2B ve 3B için ayrı ayrı olgun boru hatları var. Unity ve Unreal’dan ayrıldığı yer lisans: gelir payı, koltuk ücreti ya da kurulum başına ücret yok, motorun tamamı senin.</summary>
-</entry>
-<entry>
   <title>IzzyOnDroid</title>
   <link href="https://apt.izzysoft.de/fdroid/index.php"/>
   <id>https://apt.izzysoft.de/fdroid/index.php</id>
@@ -285,5 +278,12 @@
   <id>https://www.youtube.com/user/ThinMatrix/videos</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>Bağımsız oyun geliştiricisinin kendi oyununu yaparken tuttuğu günlük ve OpenGL ders serisi. Motor öğreticilerinden farkı motoru sıfırdan yazması — soyutlamanın altında ne olduğunu gösteriyor.</summary>
+</entry>
+<entry>
+  <title>Rive (Flutter)</title>
+  <link href="https://rive.app/docs/runtimes/flutter/flutter"/>
+  <id>https://rive.app/docs/runtimes/flutter/flutter</id>
+  <updated>2026-08-01T23:24:59Z</updated>
+  <summary>Vektör animasyonu uygulamaya gömüyor; Lottie’den farkı, animasyonun durum makinesi taşıyıp kullanıcı etkileşimine tepki verebilmesi. Dosya boyutu da belirgin küçük.</summary>
 </entry>
 </feed>

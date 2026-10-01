@@ -211,8 +211,8 @@
       "açık-kaynak",
       "referans"
     ],
-    "tr": "iOS ve Apple projeleri için uzun süre standart olan bağımlılık yöneticisi. Swift Package Manager’a kıyasla eski yol: yeni projeler SPM’e geçiyor, CocoaPods deposu da 2026 sonunda salt okunur hâle geliyor.",
-    "en": "A dependency manager long standard for iOS and Apple projects. Compared with Swift Package Manager it is the older route: new projects move to SPM, and the CocoaPods trunk becomes read-only at the end of 2026.",
+    "tr": "iOS ve Apple projeleri için uzun süre standart olan bağımlılık yöneticisi. Swift Package Manager’a kıyasla eski yol: yeni projeler SPM’e geçiyor, CocoaPods’un merkezî deposu (trunk) da Aralık 2026 itibarıyla salt okunur.",
+    "en": "A dependency manager long standard for iOS and Apple projects. Compared with Swift Package Manager it is the older route: new projects move to SPM, and the central CocoaPods trunk is read-only from December 2026.",
     "src": "dsbest"
   },
   {
@@ -312,18 +312,6 @@
     "tr": "F-Droid deposundaki özgür yazılım Android uygulamalarını gezilebilir hâlde sunan vitrin. F-Droid istemcisinden farkı web üzerinden popülerliğe göre keşif — hangi uygulamanın gerçekten kullanıldığını görüyorsun.",
     "en": "A browsable showcase of the free-software Android apps in the F-Droid repository. Against the F-Droid client it offers discovery by popularity on the web — you can see which apps are actually used.",
     "src": "awesome-uw"
-  },
-  {
-    "url": "https://godotengine.org/",
-    "name": "Godot",
-    "tags": [
-      "açık-kaynak",
-      "masaüstü",
-      "interaktif"
-    ],
-    "tr": "MIT lisanslı oyun motoru; 2B ve 3B için ayrı ayrı olgun boru hatları var. Unity ve Unreal’dan ayrıldığı yer lisans: gelir payı, koltuk ücreti ya da kurulum başına ücret yok, motorun tamamı senin.",
-    "en": "An MIT-licensed game engine with separately mature 2D and 3D pipelines. Where it parts ways with Unity and Unreal is the licence: no revenue share, no seat fee, no per-install charge — the whole engine is yours.",
-    "src": "cdcruz"
   },
   {
     "url": "https://www.hackingwithswift.com",

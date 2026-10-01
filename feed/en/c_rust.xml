@@ -67,7 +67,7 @@
   <link href="https://doc.rust-lang.org/book/"/>
   <id>https://doc.rust-lang.org/book/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The official book teaching Rust from scratch (“the book”). Unlike third-party tutorials it builds the ownership and borrowing model step by step, from the language team itself.</summary>
+  <summary>Rust’s official book, building up ownership and borrowing from nothing. Unlike other language books it makes the compiler’s error messages part of the teaching — in Rust, learning to argue with the compiler is half the language.</summary>
 </entry>
 <entry>
   <title>The Rust Reference</title>
@@ -166,13 +166,6 @@
   <id>https://www.stroustrup.com/C++.html</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>The C++ creator’s own pages: FAQs, style advice and essays on why the language was designed as it was. Unlike tutorials it supplies rationale — the reason behind a decision is only available from the person who made it.</summary>
-</entry>
-<entry>
-  <title>The Rust Book</title>
-  <link href="https://doc.rust-lang.org/book/title-page.html"/>
-  <id>https://doc.rust-lang.org/book/title-page.html</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Rust’s official book, building up ownership and borrowing from nothing. Unlike other language books it makes the compiler’s error messages part of the teaching — in Rust, learning to argue with the compiler is half the language.</summary>
 </entry>
 <entry>
   <title>This Week in Rust</title>
