@@ -241,8 +241,7 @@ def main():
 
     # hreflang yalnizca simetrikse ise yariyor: A dili B'yi gosteriyorsa
     # B de A'yi gostermeli, ve her sayfa kendini isaret etmeli.
-    for rel, other in (('k/kuantum.html', 'k/en/kuantum.html'),
-                       ('k/en/kuantum.html', 'k/kuantum.html')):
+    for rel in ('k/kuantum.html', 'k/en/kuantum.html'):
         h = io.open(os.path.join(ROOT, *rel.split('/')), encoding='utf-8').read()
         check('hreflang="tr"' in h and 'hreflang="en"' in h,
               'both hreflang pairs on ' + rel)

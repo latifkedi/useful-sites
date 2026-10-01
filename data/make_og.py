@@ -15,7 +15,6 @@ this one image is not worth the bytes.
 
 Needs Pillow, which is not otherwise a dependency:  pip install pillow
 """
-import io
 import math
 import os
 import sys
@@ -41,8 +40,6 @@ RED = (168, 50, 31)          # --red
 WM = 0.12                    # the watermark enso's opacity over the paper
 PAD = 84
 
-SANS = ['segoeui.ttf', 'DejaVuSans.ttf', 'Arial.ttf', 'arial.ttf',
-        'LiberationSans-Regular.ttf']
 MONO = ['consola.ttf', 'DejaVuSansMono.ttf', 'cour.ttf',
         'LiberationMono-Regular.ttf']
 DIRS = [r'C:\Windows\Fonts', '/usr/share/fonts/truetype/dejavu',

@@ -129,20 +129,6 @@ SOURCES = {
         'note_en': 'Surfaced by gdcmarinho/awesome-project',
         'url': 'https://github.com/gdcmarinho/awesome-project',
     },
-    'quarbby': {
-        'label_tr': 'Links & Resources',
-        'label_en': 'Links & Resources',
-        'note_tr': 'quarbby/links-and-resources derlemesinden geldi',
-        'note_en': 'Surfaced by quarbby/links-and-resources',
-        'url': 'https://github.com/quarbby/links-and-resources',
-    },
-    'gmartins': {
-        'label_tr': 'gmartins/links',
-        'label_en': 'gmartins/links',
-        'note_tr': 'gmartins-dev/links derlemesinden geldi',
-        'note_en': 'Surfaced by gmartins-dev/links',
-        'url': 'https://github.com/gmartins-dev/links',
-    },
     'velvia': {
         'label_tr': 'velvia/links',
         'label_en': 'velvia/links',

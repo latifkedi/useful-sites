@@ -788,7 +788,7 @@ function introHTML(t){
 /* Kategori sayfasi: yol izi, baslik (telefonda kardes basliklara acilan ▾),
    giris metni, arac cubugu, once birincil kaynaklar sonra listeler. */
 function catPageHTML(L, shown){
-  var c = CATBYKEY[activeCat], g = FIELDBYKEY[activeField];
+  var g = FIELDBYKEY[activeField];
   var sibs = g ? g.cats.filter(function(k){ return BYCAT[k] && BYCAT[k].length }) : [];
   var intro = (INTROS[activeCat] || ["",""])[lang === "tr" ? 0 : 1];
   var mine = shown.filter(function(d){ return d.cat === activeCat });

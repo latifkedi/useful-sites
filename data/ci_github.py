@@ -34,16 +34,6 @@ if TOKEN:
 STALE_DAYS = 730          # iki yil
 
 
-# Registry pages carry their own last-published date and are worth auditing on
-# the same terms as a repository. None are linked today; the patterns are here
-# so the audit covers them the day one is added.
-REGISTRY = [
-    ('npm', r'npmjs\.com/package/(@?[^/?#]+)',
-     'https://registry.npmjs.org/%s', ('time', 'modified')),
-    ('pypi', r'pypi\.org/project/([^/?#]+)',
-     'https://pypi.org/pypi/%s/json', ('urls', 0, 'upload_time')),
-]
-
 # A project can go quiet on its own domain while its repository still tells the
 # truth -- Foundation for Sites is exactly that case: the site was reachable and
 # advertising a webinar from 2017, and only the repository showed the last

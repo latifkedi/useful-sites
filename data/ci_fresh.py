@@ -23,7 +23,6 @@ None of this is auto-corrected. The output is a review list, because deciding
 whether a description has gone stale needs a person.
 """
 import io
-import json
 import os
 import re
 import sys

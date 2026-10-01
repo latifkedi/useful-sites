@@ -202,7 +202,3 @@ PICKS = {
     'https://learn.microsoft.com/en-us/windows/powertoys/',                          # Microsoft PowerToys
     'https://www.voidtools.com/',                                                    # Everything
 }
-
-
-def is_pick(url):
-    return url in PICKS

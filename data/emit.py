@@ -362,7 +362,6 @@ def _credits(core, out_dir):
 
     for lang, L in sorted(LANGS.items()):
         T = CREDITS_TX[lang]
-        li = 0 if lang == 'tr' else 1
         rows = []
         for k in order:
             s = SOURCES[k]

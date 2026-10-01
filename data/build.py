@@ -103,8 +103,6 @@ SRC_ADDED = {
     'piracy': 1789689600,
     'awesomelist': 1789689600,
     'awesomeproj': 1789689600,
-    'quarbby': 1789689600,
-    'gmartins': 1789689600,
     'velvia': 1789689600,
 }
 for r in out:
