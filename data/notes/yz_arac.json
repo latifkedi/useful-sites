@@ -347,7 +347,8 @@
     "name": "DeepL Write",
     "tags": [
       "ücretli",
-      "freemium"
+      "freemium",
+      "llm"
     ],
     "tr": "Hatayı işaretlemek yerine cümleyi yeniden kuruyor ve ton seçenekleri sunuyor. Grammarly düzeltiyor, bu yeniden yazıyor — ikisi farklı iş.",
     "en": "Rewrites the sentence and offers tone variants instead of flagging errors. Grammarly corrects, this rewrites — two different jobs.",
@@ -453,7 +454,8 @@
     "name": "Grammarly",
     "tags": [
       "ücretli",
-      "freemium"
+      "freemium",
+      "llm"
     ],
     "tr": "Yazdığın her yere giren eklentisiyle İngilizce dil bilgisi ve üslup denetimi. LanguageTool’dan farkı üslup ve ton önerilerinin daha güçlü olması; Türkçe desteklemiyor, yalnızca İngilizce yazarken anlamlı.",
     "en": "English grammar and style checking through an extension that follows you everywhere you type. Unlike LanguageTool its style and tone suggestions are stronger; there is no Turkish support, so it only makes sense for English.",
@@ -543,7 +545,8 @@
     "name": "LanguageTool",
     "tags": [
       "açık-kaynak",
-      "self-hosted"
+      "self-hosted",
+      "türkçe"
     ],
     "tr": "Türkçe dahil 30’dan fazla dili kural tabanlı olarak denetliyor. Grammarly’den farkı Türkçeyi desteklemesi ve kendi sunucunda çalıştırılabilmesi — metnin bir şirkete gitmemesi gerektiğinde tek gerçek seçenek.",
     "en": "Rule-based checking for 30+ languages including Turkish. Unlike Grammarly it supports Turkish and can be self-hosted — the only real option when the text must not go to a company.",
@@ -753,7 +756,8 @@
     "name": "QuillBot",
     "tags": [
       "ücretli",
-      "freemium"
+      "freemium",
+      "llm"
     ],
     "tr": "Aynı cümlenin farklı ifade edilişlerini üretiyor; uzunluk ve resmiyet ayarlanabiliyor. Akademik yazımda intihal riskini artırabileceği için dikkatli kullanılması gereken bir araç.",
     "en": "Produces alternative phrasings of the same sentence with adjustable length and formality. In academic writing it can raise plagiarism risk, so it needs careful use.",

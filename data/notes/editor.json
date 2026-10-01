@@ -4,7 +4,9 @@
     "name": "Apache NetBeans",
     "tags": [
       "açık-kaynak",
-      "ücretsiz"
+      "ücretsiz",
+      "masaüstü",
+      "jvm"
     ],
     "tr": "Java ağırlıklı, çok dilli açık kaynak geliştirme ortamı (IDE). IntelliJ IDEA’ya kıyasla tamamen ücretsiz ve Apache altında; karşılığında eklenti ekosistemi ve akıllı kod tamamlama tarafı daha zayıf.",
     "en": "A multi-language open-source IDE, strong for Java. Compared with IntelliJ IDEA it is entirely free and under Apache; in exchange its plugin ecosystem and smart completion are weaker.",
@@ -109,7 +111,8 @@
     "name": "Editor.md",
     "tags": [
       "açık-kaynak",
-      "tarayıcı-içi"
+      "tarayıcı-içi",
+      "ücretsiz"
     ],
     "tr": "Açık kaynak, tarayıcıda çalışan Markdown editörü; canlı önizleme ve dışa aktarma. Barındırılan not uygulamalarından farkı bir bileşen olması: kendi sayfana gömüp veriyi kendinde tutabiliyorsun.",
     "en": "An open-source, in-browser Markdown editor with live preview and export. Unlike hosted note apps it is a component you embed in your own page, keeping the data yourself.",
@@ -195,7 +198,8 @@
     "name": "Notepad++",
     "tags": [
       "açık-kaynak",
-      "masaüstü"
+      "masaüstü",
+      "ücretsiz"
     ],
     "tr": "Windows için hafif kaynak kodu editörü; sözdizimi renklendirme, çok dosyada arama-değiştir ve makro kaydı var. VS Code’dan farkı hız: dev bir günlük dosyasını saniyeler içinde açıyor, dil sunucusu beklemiyor.",
     "en": "A lightweight source editor for Windows with syntax highlighting, multi-file search and replace, and macro recording. Unlike VS Code its edge is speed: it opens a huge log file in seconds without waiting on a language server.",
@@ -265,7 +269,9 @@
     "name": "VSCodium",
     "tags": [
       "açık-kaynak",
-      "masaüstü"
+      "masaüstü",
+      "ücretsiz",
+      "gizlilik"
     ],
     "tr": "VS Code’un Microsoft telemetrisi ve markası çıkarılmış topluluk derlemesi. Aynı editör, aynı eklenti API’si; farkı, varsayılan eklenti marketinin Microsoft’unki değil Open VSX olması — bazı kapalı eklentiler burada bulunmuyor.",
     "en": "A community build of VS Code with Microsoft’s telemetry and branding stripped out. Same editor, same extension API; the difference is that the default marketplace is Open VSX rather than Microsoft’s, so some proprietary extensions are simply absent.",

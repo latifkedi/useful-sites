@@ -93,7 +93,9 @@
     "tags": [
       "self-hosted",
       "açık-kaynak",
-      "ücretsiz"
+      "ücretsiz",
+      "devops",
+      "docker"
     ],
     "tr": "Kendi sunucunda tek tıkla uygulama ve Docker dağıtımı yapan ücretsiz, self-hosted PaaS. Heroku’dan farkı sunucunun senin olması; Cloudron’a kıyasla ücretsiz ama bakım ve güncellemeler sende.",
     "en": "A free, self-hosted PaaS for one-click apps and Docker deploys on your own server. Unlike Heroku the server is yours; compared with Cloudron it is free, but maintenance and updates are on you.",
@@ -163,7 +165,10 @@
     "tags": [
       "self-hosted",
       "açık-kaynak",
-      "ücretsiz"
+      "ücretsiz",
+      "devops",
+      "docker",
+      "git"
     ],
     "tr": "Tek sunucuda git-push ile çalışan, en küçük açık kaynak Heroku benzeri PaaS.",
     "en": "The smallest open-source Heroku-like PaaS, running on a single host via git push.",
@@ -425,7 +430,8 @@
     "name": "PikaPods",
     "tags": [
       "self-hosted",
-      "freemium"
+      "freemium",
+      "sunucu"
     ],
     "tr": "Açık kaynak uygulamaları sunucu yönetimi derdi olmadan yönetilen biçimde barındırıyor. Kendi VPS’inde kurmaktan farkı bakımı üstlenmesi; gelirin bir kısmını uygulamaların geliştiricileriyle paylaşıyor.",
     "en": "Managed hosting that runs open-source apps without you administering a server. Unlike installing on your own VPS it handles maintenance, and it shares part of its revenue with the apps’ developers.",

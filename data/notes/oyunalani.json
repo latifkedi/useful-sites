@@ -4,7 +4,9 @@
     "name": ".NET Fiddle",
     "tags": [
       "tarayıcı-içi",
-      "ücretsiz"
+      "ücretsiz",
+      "c-ailesi",
+      "interaktif"
     ],
     "tr": "C# ve .NET kodunu tarayıcıda yazıp çalıştıran ve paylaşan alan. Visual Studio kurmak yerine küçük bir parçayı hemen denemek için; JSFiddle’ın .NET karşılığı.",
     "en": "Write, run and share C# and .NET code in the browser. Instead of installing Visual Studio you try a small snippet at once — the .NET counterpart to JSFiddle.",
@@ -38,7 +40,9 @@
     "name": "CodeSandbox",
     "tags": [
       "freemium",
-      "tarayıcı-içi"
+      "tarayıcı-içi",
+      "javascript",
+      "interaktif"
     ],
     "tr": "Tarayıcıda tam npm bağımlılıklı proje çalıştırıyor; CodePen’den farkı, gerçek bir React ya da Node projesini olduğu gibi açabilmesi.",
     "en": "Runs projects with full npm dependencies in the browser. Unlike CodePen it opens a real React or Node project as-is.",
@@ -49,7 +53,8 @@
     "name": "CodeShare",
     "tags": [
       "ücretsiz",
-      "tarayıcı-içi"
+      "tarayıcı-içi",
+      "interaktif"
     ],
     "tr": "Tarayıcıda gerçek zamanlı ortak kod düzenleme; kurulum ve hesap gerektirmiyor. CoderPad’e kıyasla kodu çalıştırmıyor ama anında açılıyor: uzaktan eşli programlama ya da mülakat için hızlı çözüm.",
     "en": "Real-time collaborative code editing in the browser with no install or account. Compared with CoderPad it does not run code, but it opens instantly — a fast option for remote pairing or an interview.",
@@ -84,7 +89,8 @@
     "name": "Ideone",
     "tags": [
       "ücretsiz",
-      "tarayıcı-içi"
+      "tarayıcı-içi",
+      "interaktif"
     ],
     "tr": "60’tan fazla dili tarayıcıda derleyip çalıştırıyor, girdi akışı verebiliyorsun. Replit gibi proje ortamlarından farkı tek dosyalık deneme için hafif olması: kurulum yapmadan bir dilin sözdizimini denemek için.",
     "en": "Compiles and runs 60+ languages in the browser and accepts an input stream. Unlike project environments such as Replit it is light, for single files — trying a language’s syntax without installing anything.",
@@ -119,7 +125,9 @@
     "name": "Judge0 IDE",
     "tags": [
       "açık-kaynak",
-      "tarayıcı-içi"
+      "tarayıcı-içi",
+      "interaktif",
+      "self-hosted"
     ],
     "tr": "Açık kaynak çevrimiçi derleyici. Ideone gibi kapalı servislerin aksine motoru kendi sunucunda çalıştırabiliyorsun — kod değerlendirme sistemi kuranların altyapı olarak kullandığı proje.",
     "en": "An open-source online compiler. Unlike closed services such as Ideone you can self-host its engine — the project people building code assessment systems use as infrastructure.",
@@ -142,7 +150,8 @@
     "name": "myCompiler",
     "tags": [
       "tarayıcı-içi",
-      "ücretsiz"
+      "ücretsiz",
+      "interaktif"
     ],
     "tr": "Birçok dili destekleyen, kurulum istemeyen çevrimiçi IDE. Replit’ten farkı hesap açmadan tek dosyalık kodu çalıştırıp bağlantıyla paylaşabilmen; karşılığında çok dosyalı proje desteği sınırlı.",
     "en": "An online IDE supporting many languages, with no install. Unlike Replit you can run and share single-file code by link without an account; the trade-off is limited multi-file project support.",
@@ -200,7 +209,8 @@
     "name": "Replit",
     "tags": [
       "tarayıcı-içi",
-      "freemium"
+      "freemium",
+      "interaktif"
     ],
     "tr": "Onlarca dili tarayıcıda yazıp çalıştıran, iş birliğine açık bulut IDE’si; projeyi tek tıkla yayına alabiliyor. JSFiddle gibi parça alanlarından farkı dosya sistemi, paket kurulumu ve barındırmayla bütün bir projeyi çalıştırması.",
     "en": "A collaborative cloud IDE that writes and runs dozens of languages in the browser and can deploy a project in one click. Unlike snippet playgrounds such as JSFiddle, it runs whole projects with a filesystem, package installs and hosting.",
@@ -223,7 +233,9 @@
     "name": "StackBlitz",
     "tags": [
       "freemium",
-      "tarayıcı-içi"
+      "tarayıcı-içi",
+      "javascript",
+      "interaktif"
     ],
     "tr": "WebContainer ile Node.js’i doğrudan tarayıcıda çalıştırıyor. Sunucuda konteyner açan çevrimiçi IDE’lerden farkı kurulum ve yeniden başlatmanın anlık olması; çevrimdışı bile çalışabiliyor.",
     "en": "Runs Node.js in the browser through WebContainers. Unlike online IDEs that spin up server-side containers, install and restart are instant — it even works offline.",

@@ -84,7 +84,8 @@
     "name": "GitHub Gist",
     "tags": [
       "ücretsiz",
-      "github"
+      "github",
+      "git"
     ],
     "tr": "Tek dosyalık kod parçalarını sürüm geçmişiyle paylaşma servisi; yorum ve çatallama desteği olduğu için pastebin’den kalıcı.",
     "en": "Shares single-file snippets with version history; comments and forking make it more durable than a pastebin.",
@@ -218,7 +219,8 @@
     "tags": [
       "açık-kaynak",
       "tarayıcı-içi",
-      "ücretsiz"
+      "ücretsiz",
+      "ağ"
     ],
     "tr": "Aynı ağdaki cihazlar arasında tarayıcıdan dosya aktarımı; WebRTC ile doğrudan bağlanıyor. AirDrop’tan farkı işletim sistemi gözetmemesi — Android ile Mac arasında da çalışıyor, kurulum ve hesap istemiyor.",
     "en": "Browser-to-browser file transfer between devices on the same network, connected directly over WebRTC. Unlike AirDrop it does not care about the operating system — Android to Mac works — and needs no install or account.",

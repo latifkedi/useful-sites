@@ -118,7 +118,8 @@
     "name": "draw.io",
     "tags": [
       "ücretsiz",
-      "açık-kaynak"
+      "açık-kaynak",
+      "tarayıcı-içi"
     ],
     "tr": "Akış şeması ve diyagram çizen ücretsiz araç. Lucidchart’tan farkı tamamen ücretsiz olması ve diyagramı kendi deponda ya da bulutunda tutabilmen.",
     "en": "A free tool for flowcharts and diagrams. Unlike Lucidchart it is entirely free and lets you keep diagrams in your own repository or cloud.",
@@ -156,7 +157,8 @@
     "tags": [
       "açık-kaynak",
       "ücretsiz",
-      "masaüstü"
+      "masaüstü",
+      "görsel-üretim"
     ],
     "tr": "Photoshop’a açık kaynak alternatif olan tam donanımlı görüntü düzenleyici. Ücretli araçlardan farkı bedava ve eklentiyle genişleyebilir olması.",
     "en": "A full-featured image editor that is the open-source alternative to Photoshop. Unlike paid tools it is free and extensible with plugins.",
@@ -181,7 +183,8 @@
     "tags": [
       "açık-kaynak",
       "ücretsiz",
-      "masaüstü"
+      "masaüstü",
+      "görsel-üretim"
     ],
     "tr": "SVG’yi yerel biçimi olarak kullanan vektör çizim programı. Illustrator’dan farkı dosyanın doğrudan web’e gidebilecek temiz SVG olması — ara dışa aktarma adımı yok, kaynağı elle düzenleyebiliyorsun.",
     "en": "A vector editor that uses SVG as its native format. Against Illustrator, the file is clean SVG ready for the web — no export step in between, and you can hand-edit the source.",
@@ -193,7 +196,8 @@
     "tags": [
       "açık-kaynak",
       "ücretsiz",
-      "masaüstü"
+      "masaüstü",
+      "görsel-üretim"
     ],
     "tr": "Dijital resim ve konsept sanat için çizim programı; fırça motoru ve kare kare animasyon desteği güçlü. GIMP’ten farkı fotoğraf düzenleme değil çizim için tasarlanmış olması — fırça gecikmesi ve stabilizasyon buna göre ayarlanmış.",
     "en": "A painting program for digital art and concept work, with a strong brush engine and frame-by-frame animation. Unlike GIMP it was built for drawing rather than photo editing, and brush latency and stabilisation are tuned accordingly.",
@@ -215,7 +219,8 @@
     "url": "https://www.lucidchart.com/",
     "name": "Lucidchart",
     "tags": [
-      "freemium"
+      "freemium",
+      "tarayıcı-içi"
     ],
     "tr": "Diyagram ve akış şeması için ekip iş birliğine açık çevrimiçi araç. draw.io’ya kıyasla ekip ve entegrasyon özellikleri güçlü; ücretsiz katmanı ise sınırlı.",
     "en": "An online tool for diagrams and flowcharts with team collaboration. Compared with draw.io its team and integration features are stronger, while the free tier is limited.",
@@ -226,7 +231,9 @@
     "name": "MediaInfo",
     "tags": [
       "açık-kaynak",
-      "ücretsiz"
+      "ücretsiz",
+      "ses",
+      "masaüstü"
     ],
     "tr": "Video ve ses dosyalarının teknik künyesini döken araç: kodek, bit hızı, kare hızı, renk uzayı, kapsayıcı ayrıntıları. Oynatıcıların \"özellikler\" ekranından farkı akış düzeyinde ayrıntıya inmesi — sorun ayıklarken tek gerçek kaynak.",
     "en": "Dumps the technical identity of a video or audio file: codec, bitrate, frame rate, colour space, container details. Unlike a player’s properties dialog it goes to stream level, which makes it the source of truth when something will not play.",
@@ -287,7 +294,8 @@
     "name": "Photopea",
     "tags": [
       "tarayıcı-içi",
-      "ücretsiz"
+      "ücretsiz",
+      "görsel-üretim"
     ],
     "tr": "Tarayıcıda çalışan görsel editör; PSD, XCF, Sketch ve XD dosyalarını katmanlarıyla açıyor. GIMP’ten farkı kurulum gerektirmemesi ve PSD uyumluluğunun gerçekten iyi olması — başkasının gönderdiği PSD’yi açmak için en kısa yol.",
     "en": "An image editor in the browser that opens PSD, XCF, Sketch and XD files with their layers intact. Against GIMP it installs nothing and its PSD compatibility is genuinely good, which makes it the shortest path to opening a file someone sent you.",
@@ -299,7 +307,8 @@
     "tags": [
       "açık-kaynak",
       "tarayıcı-içi",
-      "ücretsiz"
+      "ücretsiz",
+      "görsel-üretim"
     ],
     "tr": "Tarayıcıda çalışan piksel sanatı ve sprite animasyon editörü. Aseprite’tan farkı ücretsiz ve kurulumsuz olması; karşılığında katman ve fırça araçları daha sınırlı — ilk sprite’ını çizmek için yeterli.",
     "en": "A pixel art and sprite animation editor in the browser. Against Aseprite it is free and needs no install; in exchange the layer and brush tools are thinner — enough for your first sprite.",
@@ -382,7 +391,8 @@
     "tags": [
       "açık-kaynak",
       "tarayıcı-içi",
-      "ücretsiz"
+      "ücretsiz",
+      "görsel-üretim"
     ],
     "tr": "Görsel sıkıştırmayı iki bölmede karşılaştırmalı gösteren araç; MozJPEG, WebP, AVIF kodlayıcılarını WebAssembly ile tarayıcıda çalıştırıyor. TinyPNG’den farkı dosyanın hiç yüklenmemesi ve her kodlayıcının ayarını elle kurcalayabilmen.",
     "en": "Image compression with a side-by-side comparison, running MozJPEG, WebP and AVIF encoders in the browser through WebAssembly. Unlike TinyPNG nothing is uploaded, and every encoder setting is yours to tune.",
@@ -394,7 +404,8 @@
     "tags": [
       "açık-kaynak",
       "masaüstü",
-      "ücretsiz"
+      "ücretsiz",
+      "ses"
     ],
     "tr": "Altyapı olarak dalga formu ve ses spektrumu gösteren altyazı editörü; 200’den fazla biçim okuyor, zamanlama kaydırma ve OCR ile gömülü altyazı çıkarma yapıyor. Basit altyazı düzenleyicilerden farkı bu senkronizasyon araçları.",
     "en": "A subtitle editor that shows a waveform and spectrogram underneath, reads over 200 formats, shifts timings and extracts burned-in subtitles by OCR. Those synchronisation tools are what separate it from simple subtitle editors.",
@@ -429,7 +440,8 @@
     "name": "TinyPNG",
     "tags": [
       "ücretsiz",
-      "tarayıcı-içi"
+      "tarayıcı-içi",
+      "görsel-üretim"
     ],
     "tr": "PNG ve JPEG dosyalarını seçici nicemleme ile küçülten servis; sürükle bırak, ayar yok. Squoosh’tan farkı toplu işlem ve API sunması — tek görsel için Squoosh, yüz görsel için bu.",
     "en": "Shrinks PNG and JPEG files through selective quantisation: drag, drop, no settings. Against Squoosh it offers batch processing and an API — Squoosh for one image, this for a hundred.",
@@ -440,7 +452,8 @@
     "name": "Vector Magic",
     "tags": [
       "ücretli",
-      "tarayıcı-içi"
+      "tarayıcı-içi",
+      "görsel-üretim"
     ],
     "tr": "Bitmap görseli vektöre çeviren araç. Illustrator’ın izleme (trace) işlevinden farkı kenar tespitinin belirgin daha temiz olması — logoyu düşük çözünürlüklü bir PNG’den geri kazanmak için en iyi sonucu veren yol.",
     "en": "Converts a bitmap image into vector art. Against Illustrator’s trace, its edge detection is noticeably cleaner — it is the best route to recovering a logo from a low-resolution PNG.",
@@ -485,7 +498,8 @@
     "name": "XnConvert",
     "tags": [
       "ücretsiz",
-      "masaüstü"
+      "masaüstü",
+      "görsel-üretim"
     ],
     "tr": "Toplu görsel dönüştürme ve işleme aracı; 500’den fazla biçimi okuyup 70 kadarına yazıyor, yeniden boyutlandırma ve filigran zincirlenebiliyor. Çevrimiçi dönüştürücülerden farkı binlerce dosyayı yerelde, boyut sınırı olmadan işlemesi.",
     "en": "Batch image conversion and processing that reads over 500 formats and writes around 70, with resize and watermark steps chained together. Unlike online converters it handles thousands of files locally with no size cap.",

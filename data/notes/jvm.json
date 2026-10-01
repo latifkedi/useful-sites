@@ -5,7 +5,8 @@
     "tags": [
       "cli",
       "açık-kaynak",
-      "github"
+      "github",
+      "jvm"
     ],
     "tr": "Scala’yı BASH benzeri dosya işlemleri için kullanılabilir kılan gelişmiş REPL.",
     "en": "An advanced REPL that makes Scala usable for BASH-like filesystem operations.",
@@ -17,7 +18,8 @@
     "tags": [
       "açık-kaynak",
       "otomasyon",
-      "dokümantasyon"
+      "dokümantasyon",
+      "jvm"
     ],
     "tr": "Java için bağımlılık yönetimi ve derlemeyi standart bir proje düzeniyle yapan araç. Elle jar toplamaktan farkı bağımlılıkları merkezî depodan çözüp yaşam döngüsünü tanımlaması.",
     "en": "A tool doing dependency management and builds for Java with a standard project layout. Unlike collecting jars by hand it resolves dependencies from a central repository and defines a lifecycle.",
@@ -29,7 +31,8 @@
     "tags": [
       "awesome-liste",
       "github",
-      "referans"
+      "referans",
+      "jvm"
     ],
     "tr": "Java kütüphane ve çerçevelerini konuya göre düzenleyen liste. Maven Central aramasından farkı seçilmiş, kategorilenmiş ve bakımı yapılan bir başlangıç haritası olması.",
     "en": "A list organising Java libraries and frameworks by topic. Unlike a Maven Central search it is a curated, categorised and maintained starting map.",
@@ -40,7 +43,8 @@
     "name": "Awesome Scala",
     "tags": [
       "awesome-liste",
-      "github"
+      "github",
+      "jvm"
     ],
     "tr": "Scala kütüphane ve araçlarının konuya göre listesi. Dağınık aramadan farkı fonksiyonel ve büyük veri kütüphanelerini bir arada göstermesi.",
     "en": "A topic-by-topic list of Scala libraries and tools. Unlike scattered search it shows functional and big-data libraries together.",
@@ -52,7 +56,8 @@
     "tags": [
       "öğretici",
       "ücretsiz",
-      "referans"
+      "referans",
+      "jvm"
     ],
     "tr": "Java ve Spring için çözümlü, güncel öğreticilerin en geniş arşivi. Resmî dokümandan farkı “şunu nasıl yaparım” sorusuna çalışan kod örnekleriyle cevap vermesi.",
     "en": "The largest archive of worked, up-to-date tutorials for Java and Spring. Unlike the official docs it answers “how do I do this” with working code examples.",
@@ -63,7 +68,8 @@
     "name": "better-files",
     "tags": [
       "açık-kaynak",
-      "github"
+      "github",
+      "jvm"
     ],
     "tr": "Scala’da dosya işlemlerini kolaylaştıran ince NIO sarmalayıcı kütüphane. java.nio’yu doğrudan kullanmaktan farkı dosya okuma, yazma ve gezinmeyi tek satırlık, okunaklı Scala deyimlerine indirmesi.",
     "en": "A thin NIO wrapper library that makes file operations in Scala easy. Unlike using java.nio directly, it reduces reading, writing and walking files to readable one-line Scala idioms.",
@@ -73,7 +79,8 @@
     "url": "https://clojure.org/",
     "name": "Clojure",
     "tags": [
-      "açık-kaynak"
+      "açık-kaynak",
+      "jvm"
     ],
     "tr": "JVM üzerinde çalışan modern bir Lisp lehçesi. Common Lisp’ten farkı Java kütüphanelerini doğrudan kullanabilmesi ve veri yapılarının varsayılan olarak değişmez olması.",
     "en": "A modern Lisp dialect on the JVM. Unlike Common Lisp, it uses Java libraries directly and its data structures are immutable by default.",
@@ -84,7 +91,8 @@
     "name": "Coursier",
     "tags": [
       "açık-kaynak",
-      "github"
+      "github",
+      "jvm"
     ],
     "tr": "Saf Scala ile yazılmış JVM bağımlılık çözücü ve uygulama başlatıcı. Klasik Maven/Ivy çözümlemesinden farkı paralel indirmeyle çok daha hızlı olması; sbt de bağımlılıkları artık onunla çözüyor.",
     "en": "A JVM dependency resolver and application launcher written in pure Scala. Unlike classic Maven/Ivy resolution it downloads in parallel and is much faster; sbt now resolves dependencies with it too.",
@@ -96,7 +104,8 @@
     "tags": [
       "öğretici",
       "ücretsiz",
-      "dokümantasyon"
+      "dokümantasyon",
+      "jvm"
     ],
     "tr": "Oracle’ın güncel, resmî Java öğrenme portalı. Eski Java Tutorials’tan farkı modern sürümlere göre yenilenmiş, konu konu düzenlenmiş olması.",
     "en": "Oracle’s current, official Java learning portal. Unlike the old Java Tutorials it is refreshed for modern versions and organised topic by topic.",
@@ -107,7 +116,8 @@
     "name": "Gradle",
     "tags": [
       "açık-kaynak",
-      "otomasyon"
+      "otomasyon",
+      "jvm"
     ],
     "tr": "Java ve Android için betiklenebilir, artımlı derleme aracı. Maven’in XML’inden farkı derleme mantığını gerçek kodla (Kotlin/Groovy) yazıp yalnız değişeni yeniden derlemesi.",
     "en": "A scriptable, incremental build tool for Java and Android. Unlike Maven’s XML it writes build logic in real code (Kotlin/Groovy) and rebuilds only what changed.",
@@ -118,7 +128,8 @@
     "name": "Guava",
     "tags": [
       "açık-kaynak",
-      "github"
+      "github",
+      "jvm"
     ],
     "tr": "Google’ın Java için çekirdek yardımcı kütüphanesi — koleksiyonlar, önbellek, fonksiyonel ekler. Standart kütüphaneyi elle doldurmaktan farkı bu boşlukları test edilmiş biçimde kapatması.",
     "en": "Google’s core utility library for Java — collections, caching, functional extras. Unlike filling the standard library’s gaps by hand it closes them in a tested way.",
@@ -129,7 +140,8 @@
     "name": "Hibernate",
     "tags": [
       "açık-kaynak",
-      "veritabanı"
+      "veritabanı",
+      "jvm"
     ],
     "tr": "Java nesnelerini ilişkisel veritabanı satırlarına eşleyen ORM. Ham JDBC’den farkı SQL’i büyük ölçüde soyutlayıp nesne grafiğini kalıcılaştırması.",
     "en": "An ORM mapping Java objects to relational database rows. Unlike raw JDBC it largely abstracts the SQL and persists the object graph.",
@@ -141,7 +153,8 @@
     "tags": [
       "açık-kaynak",
       "github",
-      "api"
+      "api",
+      "jvm"
     ],
     "tr": "Java’da JSON’u nesneye ve nesneyi JSON’a çeviren fiili standart kütüphane. El yazımı ayrıştırmadan farkı akış, ağaç ve veri-bağlama modlarını tek çatıda vermesi.",
     "en": "The de facto library for turning JSON into objects and back in Java. Unlike hand-written parsing it offers streaming, tree and data-binding modes under one roof.",
@@ -153,7 +166,8 @@
     "tags": [
       "açık-kaynak",
       "github",
-      "backend"
+      "backend",
+      "jvm"
     ],
     "tr": "JVM için çok yüksek başarımlı eşzamanlı kuyruklar; Netty gibi projelerce kullanılıyor. java.util.concurrent kuyruklarından farkı tek/çok üretici–tüketici senaryolarına özel, kilitsiz tasarımlar sunması.",
     "en": "Very high-performance concurrent queues for the JVM, used by projects like Netty. Unlike the java.util.concurrent queues, it offers lock-free designs specialised for single/multi producer–consumer cases.",
@@ -164,7 +178,8 @@
     "name": "JMH",
     "tags": [
       "açık-kaynak",
-      "github"
+      "github",
+      "jvm"
     ],
     "tr": "JVM’de mikro-ölçüm için OpenJDK aracı; ölçümü bozan JIT etkilerini hesaba katar. Elle zamanlamadan farkı ısınma, ölü kod eleme gibi tuzakları doğru kurgulaması.",
     "en": "An OpenJDK tool for microbenchmarking on the JVM that accounts for JIT effects that distort measurement. Unlike timing by hand it correctly handles traps like warmup and dead-code elimination.",
@@ -175,7 +190,8 @@
     "name": "JUnit 5",
     "tags": [
       "açık-kaynak",
-      "dokümantasyon"
+      "dokümantasyon",
+      "jvm"
     ],
     "tr": "Java’nın standart birim test çatısı; test yazımı ve çalıştırmanın temeli. Elle main’de denemekten farkı iddialar, yaşam döngüsü kancaları ve parametreli testler getirmesi.",
     "en": "Java’s standard unit-testing framework; the base of writing and running tests. Unlike trying things in main it brings assertions, lifecycle hooks and parameterised tests.",
@@ -186,7 +202,8 @@
     "name": "Kotlin",
     "tags": [
       "açık-kaynak",
-      "dokümantasyon"
+      "dokümantasyon",
+      "jvm"
     ],
     "tr": "JVM üzerinde çalışan, Android’in tercih ettiği çok platformlu dil. Java’dan farkı null güvenliği, daha kısa sözdizimi ve eşyordamlar (coroutines); Java koduyla tam uyumlu çalışıyor.",
     "en": "A cross-platform language on the JVM, the preferred language for Android. Unlike Java it has null safety, a terser syntax and coroutines, while interoperating fully with Java code.",
@@ -197,7 +214,8 @@
     "name": "OpenJDK",
     "tags": [
       "açık-kaynak",
-      "dokümantasyon"
+      "dokümantasyon",
+      "jvm"
     ],
     "tr": "Java platformunun açık kaynak referans uygulaması — dilin ve JVM’in geliştiği yer. Satıcı dağıtımlarından farkı standardın kendisinin burada tanımlanması.",
     "en": "The open-source reference implementation of the Java platform — where the language and JVM are developed. Unlike vendor distributions the standard itself is defined here.",
@@ -207,7 +225,8 @@
     "url": "https://projectlombok.org/",
     "name": "Project Lombok",
     "tags": [
-      "açık-kaynak"
+      "açık-kaynak",
+      "jvm"
     ],
     "tr": "Getter/setter, yapıcı gibi tekrar eden Java kodunu ek açıklamalarla derleme anında üreten araç. Elle yazmaktan farkı sınıfı kısa tutup gürültüyü derleyiciye bırakması.",
     "en": "A tool that generates repetitive Java code like getters/setters and constructors from annotations at compile time. Unlike writing it by hand it keeps the class short and leaves the noise to the compiler.",
@@ -218,7 +237,8 @@
     "name": "Scala",
     "tags": [
       "açık-kaynak",
-      "backend"
+      "backend",
+      "jvm"
     ],
     "tr": "Nesne yönelimli ve işlevseli birleştiren, JVM üzerinde çalışan dil; Spark’ın yazıldığı dil. Java’dan farkı güçlü tip çıkarımı, desen eşleme ve işlevsel koleksiyonlar.",
     "en": "A language on the JVM uniting object-oriented and functional programming — the language Spark is written in. Unlike Java it has strong type inference, pattern matching and functional collections.",
@@ -228,7 +248,8 @@
     "url": "https://github.com/scalastyle/scalastyle",
     "name": "Scalastyle",
     "tags": [
-      "açık-kaynak"
+      "açık-kaynak",
+      "jvm"
     ],
     "tr": "Scala kaynak kodunu biçim ve stil kurallarına göre denetleyen linter; projenin sitesi kapandı, depo 2022’den beri durgun. scalafmt’den farkı kodu biçimlemek yerine kurala uymayanı raporlaması; yeni projelerde Scalafix daha yaygın.",
     "en": "A linter that checks Scala source against formatting and style rules; the project site is gone and the repository has been dormant since 2022. Unlike scalafmt it reports violations instead of reformatting; new projects mostly use Scalafix.",
@@ -239,7 +260,8 @@
     "name": "Scoverage",
     "tags": [
       "açık-kaynak",
-      "github"
+      "github",
+      "jvm"
     ],
     "tr": "Scala için ifade (statement) bazlı kod kapsama aracı; satır bazlıdan daha isabetli.",
     "en": "A statement-based code-coverage tool for Scala, more precise than line-based coverage.",
@@ -251,7 +273,8 @@
     "tags": [
       "cli",
       "açık-kaynak",
-      "otomasyon"
+      "otomasyon",
+      "jvm"
     ],
     "tr": "JDK ve JVM araçlarının birden çok sürümünü kurup değiştiren komut satırı yöneticisi. Elle PATH ayarlamaktan farkı proje bazında sürüm geçişini tek komuta indirmesi.",
     "en": "A command-line manager to install and switch between multiple versions of the JDK and JVM tools. Unlike editing PATH by hand it reduces per-project version switching to one command.",
@@ -263,7 +286,8 @@
     "tags": [
       "backend",
       "açık-kaynak",
-      "api"
+      "api",
+      "jvm"
     ],
     "tr": "Spring uygulamalarını yapılandırma yükü olmadan, çalışır hâlde başlatan çatı. Ham Spring’den farkı akıllı varsayılanlar ve gömülü sunucuyla “tek komutla ayağa kalkması”.",
     "en": "A framework that starts Spring applications running with no configuration burden. Unlike raw Spring it brings sensible defaults and an embedded server — “up with one command”.",
@@ -275,7 +299,8 @@
     "tags": [
       "backend",
       "açık-kaynak",
-      "api"
+      "api",
+      "jvm"
     ],
     "tr": "Kurumsal Java’nın fiili standardı olan uygulama çatısı — bağımlılık enjeksiyonu, web, veri. Kütüphane yığmaktan farkı bunları tek tutarlı programlama modelinde birleştirmesi.",
     "en": "The application framework that is the de facto standard for enterprise Java — dependency injection, web, data. Unlike stacking libraries it unifies them in one consistent model.",
@@ -287,7 +312,8 @@
     "tags": [
       "dokümantasyon",
       "öğretici",
-      "ücretsiz"
+      "ücretsiz",
+      "jvm"
     ],
     "tr": "Oracle’ın resmî Java öğreticisi; dil temellerinden koleksiyonlara ve eşzamanlılığa. Üçüncü parti kurslardan farkı standart kütüphanenin niyetini birinci ağızdan anlatması — karşılığında üslubu kuru ve bazı bölümleri eski sürümlerde kalmış.",
     "en": "Oracle’s official Java tutorial, from language basics through collections and concurrency. Against third-party courses it explains the standard library’s intent first-hand; the price is a dry register and sections that stopped at older releases.",
@@ -298,7 +324,8 @@
     "name": "Vavr",
     "tags": [
       "açık-kaynak",
-      "github"
+      "github",
+      "jvm"
     ],
     "tr": "Java’ya kalıcı koleksiyonlar ve fonksiyonel kontrol yapıları getiren kütüphane. Standart koleksiyonlardan farkı değişmezliği ve Try/Either gibi tipleri öne alması.",
     "en": "A library bringing persistent collections and functional control structures to Java. Unlike the standard collections it foregrounds immutability and types like Try/Either.",

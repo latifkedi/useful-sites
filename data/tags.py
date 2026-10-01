@@ -18,7 +18,7 @@ CANON = [
     # --- distribution & interface
     'self-hosted', 'cli', 'api', 'sdk', 'tarayıcı-içi', 'masaüstü', 'eklenti',
     # --- dil & platform
-    'python', 'javascript', 'c-ailesi', 'rust', 'go', 'php', 'github', 'docker',
+    'python', 'javascript', 'c-ailesi', 'rust', 'go', 'php', 'jvm', 'github', 'docker',
     # --- yapay zeka
     'llm', 'agent', 'rag', 'embedding', 'vektör-db', 'mcp',
     'guardrail', 'gözlemlenebilirlik', 'görsel-üretim', '3b', 'ses', 'otomasyon',
@@ -69,7 +69,7 @@ ALIAS = {
     # dil & platform
     'c': 'c-ailesi', 'c++': 'c-ailesi', 'dart': 'c-ailesi',
     'typescript': 'javascript', 'node': 'javascript', 'react': 'javascript',
-    'java': 'c-ailesi', 'dotnet': 'c-ailesi', 'q#': 'kuantum', 'r': 'veri-bilimi',
+    'java': 'jvm', 'kotlin': 'jvm', 'scala': 'jvm', 'dotnet': 'c-ailesi', 'q#': 'kuantum', 'r': 'veri-bilimi',
     'fortran': 'c-ailesi', 'dil': 'referans', 'derleyici': 'c-ailesi',
     'assembly': 'c-ailesi', 'pytorch': 'python', 'async': 'python',
     'k8s': 'docker', 'ci': 'devops', 'edge': 'gömülü',
@@ -199,6 +199,7 @@ LABELS = {
     'rust':                ('Rust', 'Rust'),
     'go':                  ('Go', 'Go'),
     'php':                 ('PHP', 'PHP'),
+    'jvm':                 ('JVM (Java, Kotlin, Scala)', 'JVM (Java, Kotlin, Scala)'),
     'github':              ('GitHub', 'GitHub'),
     'docker':              ('Docker', 'Docker'),
     'llm':                 ('LLM', 'LLM'),
@@ -282,7 +283,7 @@ _FACET_HEADS = [
       'awesome-liste', 'interaktif', 'akademik', 'sertifika', 'mülakat', 'türkçe', 'arşivlenmiş']),
     ('arayuz', 'Arayüz & Dil', 'Interface & Language',
      ['tarayıcı-içi', 'masaüstü', 'cli', 'api', 'sdk', 'eklenti', 'github', 'docker',
-      'python', 'javascript', 'c-ailesi', 'rust', 'go', 'php']),
+      'python', 'javascript', 'c-ailesi', 'rust', 'go', 'php', 'jvm']),
 ]
 _claimed = {t for _, _, _, ts in _FACET_HEADS for t in ts}
 FACETS = _FACET_HEADS + [

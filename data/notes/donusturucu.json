@@ -5,7 +5,9 @@
     "tags": [
       "açık-kaynak",
       "tarayıcı-içi",
-      "ücretsiz"
+      "ücretsiz",
+      "javascript",
+      "frontend"
     ],
     "tr": "JavaScript, HTML ve CSS’i biçimlendiren, küçültülmüş kodu açan araç. Prettier’dan farkı kurulum gerektirmemesi ve okunamaz hâle getirilmiş kodu geri açabilmesi — başkasının küçültülmüş dosyasını incelemek için.",
     "en": "Formats JavaScript, HTML and CSS and unpacks minified code. Against Prettier it needs no install and can open obfuscated output back up — which is what you want when inspecting someone else’s minified bundle.",
@@ -38,7 +40,9 @@
     "url": "https://crontab.guru/",
     "name": "Crontab Guru",
     "tags": [
-      "ücretsiz"
+      "ücretsiz",
+      "devops",
+      "tarayıcı-içi"
     ],
     "tr": "Cron ifadesini yazdıkça düz dille ne anlama geldiğini ve sonraki çalışma zamanlarını gösteriyor. man sayfasını okumaktan farkı sonucu anında görmen: yıldız ve eğik çizgi kombinasyonlarını tahmin etmeye son veriyor.",
     "en": "Translates a cron expression into plain language as you type and shows the next run times. Unlike reading the man page you see the result instantly — the end of guesswork over asterisks and slashes.",
@@ -97,7 +101,8 @@
     "name": "generatedata",
     "tags": [
       "açık-kaynak",
-      "ücretsiz"
+      "ücretsiz",
+      "veritabanı"
     ],
     "tr": "İstenen şemaya göre gerçekçi sahte test verisi üreten araç (CSV, JSON, SQL). Elle veri uydurmaktan farkı isim, adres gibi alanları tutarlı ve toplu üretmesi.",
     "en": "A tool generating realistic fake test data to a given schema (CSV, JSON, SQL). Unlike making data up by hand it produces fields like names and addresses consistently and in bulk.",
@@ -154,7 +159,8 @@
     "tags": [
       "açık-kaynak",
       "tarayıcı-içi",
-      "self-hosted"
+      "self-hosted",
+      "ücretsiz"
     ],
     "tr": "Seksen küsur geliştirici aracı tek sayfada: hash, JWT çözücü, cron ifadesi, UUID, renk dönüştürücü. Tek tek araç sitelerinden farkı hepsinin tarayıcıda çalışması ve Docker ile kendi sunucuna kurulabilmesi — veri dışarı çıkmıyor.",
     "en": "Eighty-odd developer utilities on one page: hashes, JWT decoding, cron expressions, UUIDs, colour conversion. Unlike the one-tool-per-site alternatives, everything runs in the browser and the whole thing self-hosts with Docker, so nothing leaves your machine.",
@@ -244,7 +250,8 @@
     "url": "https://www.lipsum.com/",
     "name": "Lorem Ipsum",
     "tags": [
-      "ücretsiz"
+      "ücretsiz",
+      "frontend"
     ],
     "tr": "Tasarım denemeleri için yer tutucu metin (lorem ipsum) üreten klasik araç. Gerçek içerik yerine geçici olarak kullanılıyor; metnin kökeni ve tarihi de sayfada anlatılıyor.",
     "en": "The classic generator of placeholder text (lorem ipsum) for design mockups. It stands in temporarily instead of real content, and the page also explains where the text comes from.",
@@ -289,7 +296,9 @@
     "url": "https://regexr.com",
     "name": "RegExr",
     "tags": [
-      "ücretsiz"
+      "ücretsiz",
+      "tarayıcı-içi",
+      "interaktif"
     ],
     "tr": "Düzenli ifade test aracı; regex101’e alternatif, arayüzü daha sade ve topluluk örnekleri kütüphanesi var.",
     "en": "A regex tester and an alternative to regex101, with a simpler interface and a community library of patterns.",
@@ -301,7 +310,9 @@
     "tags": [
       "açık-kaynak",
       "tarayıcı-içi",
-      "ücretsiz"
+      "ücretsiz",
+      "javascript",
+      "interaktif"
     ],
     "tr": "JavaScript düzenli ifadelerini demiryolu diyagramı olarak çizen araç. Debuggex’ten farkı tamamen istemci tarafında çalışması ve diyagramı SVG olarak dışa aktarabilmesi — belgeye koymak için elverişli.",
     "en": "Draws JavaScript regular expressions as railroad diagrams. Against Debuggex it runs entirely client-side and exports the diagram as SVG, which makes it useful for documentation.",
@@ -312,7 +323,8 @@
     "name": "Solid Dev Tools",
     "tags": [
       "tarayıcı-içi",
-      "ücretsiz"
+      "ücretsiz",
+      "ağ"
     ],
     "tr": "Geliştirici ve sistem yöneticileri için çevrimiçi hata ayıklama ve ağ araçları koleksiyonu. Tek işlevli araç sitelerinden farkı DNS, HTTP ve kodlama gibi araçları tek yerde toplaması.",
     "en": "A collection of online debugging and network tools for developers and sysadmins. Unlike single-purpose tool sites, it gathers DNS, HTTP and encoding tools in one place.",
@@ -370,7 +382,8 @@
     "url": "https://www.xml-sitemaps.com/",
     "name": "XML Sitemaps",
     "tags": [
-      "ücretsiz"
+      "ücretsiz",
+      "tarayıcı-içi"
     ],
     "tr": "Bir siteyi tarayıp arama motorları için sitemap.xml dosyası üreten araç. Site üreteçlerinin yerleşik sitemap’inden farkı herhangi bir siteyi dışarıdan tarayabilmesi; ücretsiz sürüm 500 sayfayla sınırlı.",
     "en": "Crawls a site and builds the sitemap.xml file for search engines. Unlike a site generator’s built-in sitemap it can crawl any site from outside; the free version is capped at 500 pages.",

@@ -157,7 +157,8 @@
     "tags": [
       "ücretsiz",
       "açık-ağırlık",
-      "açık-kaynak"
+      "açık-kaynak",
+      "llm"
     ],
     "tr": "Açık modelleri lisans ve kaynak kaydıyla yan yana koyan alternatif tarayıcı. İndirilen dosyalar için SHA-256 özeti yayımlıyor, yani bütünlüğü doğrulayabiliyorsun.",
     "en": "An alternative browser placing open models side by side with licence and provenance. It publishes SHA-256 hashes for downloads, so integrity is verifiable.",
@@ -221,7 +222,8 @@
     "tags": [
       "masaüstü",
       "ücretsiz",
-      "self-hosted"
+      "self-hosted",
+      "llm"
     ],
     "tr": "GGUF modelleri aramak, indirmek ve nicemleme seviyesi seçmek için masaüstü arayüz. Ollama’dan farkı hangi nicemlemenin RAM’ine sığacağını önden göstermesi — orada bunu kendin hesaplarsın.",
     "en": "A desktop app for finding GGUF models, downloading them and picking a quantisation level. Unlike Ollama it tells you upfront which quant fits your RAM; there you work that out yourself.",
