@@ -252,13 +252,6 @@
   <summary>İstek başlıklarını, gövdeyi ve yanıtı aynen geri döndüren HTTP test servisi. Sahte REST API’lerinden farkı veriyi değil HTTP’nin kendisini — başlık, çerez, yönlendirme, sıkıştırma — test etmene yaraması.</summary>
 </entry>
 <entry>
-  <title>httpstat.us</title>
-  <link href="https://httpstat.us"/>
-  <id>https://httpstat.us</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>İstediğin HTTP durum kodunu (ve gecikmeyi) döndüren küçük servis; hata yollarını test etmek için. httpbin’den farkı tek bir işe odaklanması: URL’ye kodu yazıyorsun, o yanıtı alıyorsun.</summary>
-</entry>
-<entry>
   <title>Insomnia</title>
   <link href="https://insomnia.rest/"/>
   <id>https://insomnia.rest/</id>
@@ -285,5 +278,12 @@
   <id>https://letcode.in/test</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Uçtan uca otomasyon pratiği için bol öğe örneği içeren site. Tek tip pratik sayfalarından farkı öğe çeşitliliği ve eşlik eden video dersleri.</summary>
+</entry>
+<entry>
+  <title>Locator Game</title>
+  <link href="https://testsmith-io.github.io/locator-game/"/>
+  <id>https://testsmith-io.github.io/locator-game/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>Test otomasyonu için doğru seçiciyi (locator) bulmayı oyunla öğreten site. Genel pratik sitelerinden farkı yalnız seçici yazmaya — CSS ve XPath — odaklanması.</summary>
 </entry>
 </feed>

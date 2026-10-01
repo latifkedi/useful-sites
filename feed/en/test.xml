@@ -252,13 +252,6 @@
   <summary>An HTTP testing service that echoes headers, body and response. Unlike mock REST APIs, it tests HTTP itself — headers, cookies, redirects, compression — rather than data.</summary>
 </entry>
 <entry>
-  <title>httpstat.us</title>
-  <link href="https://httpstat.us"/>
-  <id>https://httpstat.us</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A tiny service that returns any HTTP status code (and delay) you ask for, to test error paths. Unlike httpbin it does one job: put the code in the URL and get that response.</summary>
-</entry>
-<entry>
   <title>Insomnia</title>
   <link href="https://insomnia.rest/"/>
   <id>https://insomnia.rest/</id>
@@ -285,5 +278,12 @@
   <id>https://letcode.in/test</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A site with many element examples for end-to-end automation practice. Unlike single-purpose practice pages, it offers a wide variety of elements plus companion video lessons.</summary>
+</entry>
+<entry>
+  <title>Locator Game</title>
+  <link href="https://testsmith-io.github.io/locator-game/"/>
+  <id>https://testsmith-io.github.io/locator-game/</id>
+  <updated>2026-09-18T00:00:00Z</updated>
+  <summary>A game-based site that teaches finding the right locator for test automation. Unlike general practice sites, it focuses solely on writing selectors — CSS and XPath.</summary>
 </entry>
 </feed>

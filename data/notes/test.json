@@ -422,17 +422,6 @@
     "src": "testsites"
   },
   {
-    "url": "https://httpstat.us",
-    "name": "httpstat.us",
-    "tags": [
-      "api",
-      "ücretsiz"
-    ],
-    "tr": "İstediğin HTTP durum kodunu (ve gecikmeyi) döndüren küçük servis; hata yollarını test etmek için. httpbin’den farkı tek bir işe odaklanması: URL’ye kodu yazıyorsun, o yanıtı alıyorsun.",
-    "en": "A tiny service that returns any HTTP status code (and delay) you ask for, to test error paths. Unlike httpbin it does one job: put the code in the URL and get that response.",
-    "src": "testsites"
-  },
-  {
     "url": "https://insomnia.rest/",
     "name": "Insomnia",
     "tags": [
