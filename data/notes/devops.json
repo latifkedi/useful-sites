@@ -769,8 +769,8 @@
       "devops",
       "otomasyon"
     ],
-    "tr": "Altyapıyı kod olarak tanımlayıp sağlayan HashiCorp aracı; bulut kaynaklarını bildirimsel yönetiyor. CloudFormation’dan farkı tek bir buluta bağlı olmaması; 2023’ten beri BSL lisanslı, açık lisanslı çatalı OpenTofu.",
-    "en": "HashiCorp’s tool to define and provision infrastructure as code, managing cloud resources declaratively. Unlike CloudFormation it is not tied to one cloud; it has been BSL-licensed since 2023, with OpenTofu as the openly licensed fork.",
+    "tr": "Altyapıyı kod olarak tanımlayıp sağlayan HashiCorp aracı; bulut kaynaklarını bildirimsel yönetiyor. CloudFormation’dan farkı tek bir buluta bağlı olmaması; 2023’ten beri BSL lisanslı (HashiCorp’u 2025’te IBM satın aldı, lisans değişmedi), açık lisanslı çatalı OpenTofu.",
+    "en": "HashiCorp’s tool to define and provision infrastructure as code, managing cloud resources declaratively. Unlike CloudFormation it is not tied to one cloud; it has been BSL-licensed since 2023 (IBM bought HashiCorp in 2025; the licence did not change), with OpenTofu as the openly licensed fork.",
     "src": "dsbest"
   },
   {
