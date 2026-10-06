@@ -205,7 +205,7 @@ LANGS = {
         'hub_foot': ('Bu sayfa dizinin metin hâli. Arama, etiket süzgeci ve '
                      'sıralama için aranabilir sürümü kullan.'),
         'foot': ('Bu sayfa dizinin {t} bölümünün metin hâli. Arama, etiket süzgeci '
-                 've İngilizce açıklamalar için <a href="{s}/?cat={k}">dizine dön</a>. '
+                 've İngilizce açıklamalar için <a href="{s}/?cat={k}&amp;lang=tr">dizine dön</a>. '
                  '<a href="{s}/k/en/{k}.html">In English</a>'),
     },
     'en': {
@@ -287,7 +287,8 @@ def write_all(core, cats, intros, taglbl, out_dir, en_desc):
                         lang=L['code'], site_name=esc(L['name']),
                         title=esc('%s — %s' % (label[k], L['name'])), h1=esc(label[k]),
                         desc=esc(desc), canon=canon, site=SITE,
-                        home=SITE + '/', app='%s/?cat=%s%s' % (SITE, esc(k), '&amp;lang=en' if L['li'] else ''),
+                        home=SITE + ('/?lang=en' if L['li'] else '/?lang=tr'),
+                        app='%s/?cat=%s&amp;lang=%s' % (SITE, esc(k), 'en' if L['li'] else 'tr'),
                         app_link=esc(L['app_link']),
                         other_lang='%s/k/%s%s.html' % (SITE, '' if L['li'] else 'en/', esc(k)),
                         other_word=esc(L['other_word']),
@@ -384,8 +385,9 @@ def _credits(core, out_dir):
         html = PAGE.format(
             lang=L['code'], site_name=esc(L['name']),
             title=esc('%s — %s' % (T['title'], L['name'])), h1=esc(T['title']),
-            desc=esc(T['intro'][:180]), canon=canon, site=SITE, home=SITE + '/',
-            app=SITE + ('/' if lang == 'tr' else '/?lang=en'), app_link=esc(L['app_link']),
+            desc=esc(T['intro'][:180]), canon=canon, site=SITE,
+            home=SITE + ('/?lang=tr' if lang == 'tr' else '/?lang=en'),
+            app=SITE + ('/?lang=tr' if lang == 'tr' else '/?lang=en'), app_link=esc(L['app_link']),
             other_lang=alt_en if lang == 'tr' else alt_tr, other_word=esc(L['other_word']),
             hub='index.html', hub_name=esc(L['hub_name']),
             intro=T['intro'], css=_css_href(out_dir, L),
@@ -399,8 +401,8 @@ def _credits(core, out_dir):
             + '\n<article class="rec"><span class="no"></span><div class="rb"><div class="nm">'
               '<span class="name">%s</span></div><p class="desc">%s</p></div></article>'
               % (esc(T['chow']), T['ctext'].format(repo=repo)),
-            others_head=esc(L['name']), others='<a href="%s">%s</a>' % (esc(SITE + '/'), esc(T['back'])),
-            foot=('<a href="%s">%s</a>' % (esc(SITE + ('/' if lang == 'tr' else '/?lang=en')),
+            others_head=esc(L['name']), others='<a href="%s">%s</a>' % (esc(SITE + ('/?lang=tr' if lang == 'tr' else '/?lang=en')), esc(T['back'])),
+            foot=('<a href="%s">%s</a>' % (esc(SITE + ('/?lang=tr' if lang == 'tr' else '/?lang=en')),
                                            esc(T['back']))))
         fn = 'tesekkur.html' if lang == 'tr' else 'credits.html'
         kdir = os.path.join(out_dir, 'k') if lang == 'tr' else os.path.join(out_dir, 'k', 'en')
@@ -446,7 +448,8 @@ def _hubs(core, cats, intros, out_dir):
                     lang=L['code'], site_name=esc(L['name']), title=esc(L['name']), h1=esc(L['name']),
                     desc=esc(L['hub_desc']), intro=esc(L['hub_desc']),
                     canon=canon, site=SITE, css=_css_href(out_dir, L),
-                    home=SITE + '/', app=SITE + ('/?lang=en' if L['li'] else '/'),
+                    home=SITE + ('/?lang=en' if L['li'] else '/?lang=tr'),
+                    app=SITE + ('/?lang=en' if L['li'] else '/?lang=tr'),
                     app_link=esc(L['app_link']),
                     other_lang='%s/k/%sindex.html' % (SITE, '' if L['li'] else 'en/'),
                     other_word=esc(L['other_word']),
@@ -644,18 +647,19 @@ def write_issue_form(cats, out_dir):
 # The homepage used to be empty until links.js (190 KB gzipped) had downloaded
 # and run: nothing to read on a slow connection for seconds. Its content is
 # now written into index.html at build time -- the same markup homeHTML()
-# produces for Turkish, from the same data -- so the first paint already shows
-# the ten fields. app.js leaves this block in place on its first render
-# (data-pre); re-rendering identical markup would replay the fade-in.
-# These strings mirror app.js T.tr; test_build checks they have not drifted.
+# produces for English, the default language, from the same data -- so the
+# first paint already shows the ten fields. app.js leaves this block in place
+# on its first render (data-pre); re-rendering identical markup would replay
+# the fade-in. These strings mirror app.js T.en; test_build checks they have
+# not drifted.
 HOME_TX = {
-    'hero': ('Elle derlenmiş <em>%d</em> bağlantı. Her biri benzerlerinden nerede '
-             'ayrıldığını söylüyor.'),
-    'hStart': 'Buradan Başla',
-    'fxHead': 'Fihrist',
-    'fxNote': '%d alan, %d başlık',
-    'recent': 'Son Eklenenler',
-    'hAll': 'Tümünü tek listede gör →',
+    'hero': ('<em>%d</em> links, picked by hand. Each one says where it parts '
+             'ways with its neighbours.'),
+    'hStart': 'Start Here',
+    'fxHead': 'Index',
+    'fxNote': '%d areas, %d headings',
+    'recent': 'Recently Added',
+    'hAll': 'See everything in one list →',
 }
 
 # app.js ROMAN ile ayni: alan numaralari GROUPS sirasindaki yerleri.
@@ -681,17 +685,17 @@ def _short(label):
     return re.sub(r'^\S{1,3} · ', '', label)
 
 
-def home_html(core, cats, groups):
+def home_html(core, cats, groups, en):
     bycat = {}
     for d in core:
         bycat[d['cat']] = bycat.get(d['cat'], 0) + 1
-    lbl = dict((c[0], c[1]) for c in cats)
+    lbl = dict((c[0], c[2]) for c in cats)
 
     seen, strip = set(), []
-    for d in core:
+    for i, d in enumerate(core):
         if d.get('pick') and d['cat'] not in seen and len(strip) < 6:
             seen.add(d['cat'])
-            strip.append(d)
+            strip.append((d, en[i]))
 
     fx, nf = [], 0
     for gi, g in enumerate(groups):
@@ -705,7 +709,7 @@ def home_html(core, cats, groups):
         fx.append('<li class="fe"><a class="ft" %s><span class="rn">%s</span>'
                   '<span class="fn">%s</span><span class="ld"></span><span class="n">%d</span></a>'
                   '<p class="fc">%s</p></li>'
-                  % (link, ROMAN[gi], esc(g['tr']), n, ', '.join(
+                  % (link, ROMAN[gi], esc(g['en']), n, ', '.join(
                       '<a href="?cat=%s" data-cat="%s">%s</a>' % (esc(k), esc(k), esc(_short(lbl[k])))
                       for k in full)))
 
@@ -714,8 +718,8 @@ def home_html(core, cats, groups):
         picks = ('<section class="hsec"><h2 class="k">%s</h2><ol class="hpicks">%s</ol></section>'
                  % (esc(HOME_TX['hStart']), ''.join(
                      '<li><a href="%s" target="_blank" rel="noopener noreferrer">%s</a>'
-                     '<p>%s</p></li>' % (esc(d['url']), esc(d['name']), esc(_first(d['tr'])))
-                     for d in strip)))
+                     '<p>%s</p></li>' % (esc(d['url']), esc(d['name']), esc(_first(e)))
+                     for d, e in strip)))
     return ('<div class="home" data-pre="1">%s'
             '<section class="hsec"><h2 class="k">%s<span>%s</span></h2>'
             '<ol class="fx">%s</ol></section>'
@@ -725,11 +729,11 @@ def home_html(core, cats, groups):
                ''.join(fx), esc(HOME_TX['recent']), esc(HOME_TX['hAll'])))
 
 
-def write_home(core, cats, groups, out_dir):
+def write_home(core, cats, groups, out_dir, en):
     path = os.path.join(out_dir, 'index.html')
     src = io.open(path, encoding='utf-8').read()
     out = re.sub(r'(<main id="list" tabindex="-1">)(.*?)(</main>)',
-                 lambda m: m.group(1) + home_html(core, cats, groups) + m.group(3),
+                 lambda m: m.group(1) + home_html(core, cats, groups, en) + m.group(3),
                  src, count=1, flags=re.S)
     # Giris cumlesi baslikta duruyor, <main>'de degil: arama kutusu onunla
     # icerik arasina girebilsin diye. Sayi her derlemede veriden yaziliyor.

@@ -12,8 +12,8 @@ const VIEWS = [
   ["search with no results", "/?q=zzqqxx"],
   ["recent", "/?new=1"],
   ["all links A-Z", "/?sort=az"],
-  ["English home", "/?lang=en"],
-  ["English category", "/?cat=web&lang=en"],
+  ["Turkish home", "/?lang=tr"],
+  ["Turkish category", "/?cat=web&lang=tr"],
 ];
 
 const PAPER = { light: "rgb(246, 241, 231)", dark: "rgb(21, 20, 15)" };

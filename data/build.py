@@ -232,7 +232,7 @@ io.open(os.path.join(D, '..', 'links.en.js'), 'w', encoding='utf-8', newline='\n
 # category pages, sitemap, robots and the Atom feed. The app is untouched.
 _pages = emit.write_all(core, CATS, INTROS, LABELS, os.path.join(D, '..'), en)
 emit.write_issue_form(CATS, os.path.join(D, '..'))
-emit.write_home(core, CATS, groups, os.path.join(D, '..'))
+emit.write_home(core, CATS, groups, os.path.join(D, '..'), en)
 
 # ------------------------------------------------------------------ stylesheet
 # style.css is the one stylesheet. index.html carries a copy inline so the
@@ -278,8 +278,8 @@ def _count(n):
 def _og_copy(src):
     # The social preview line carried '1000+ bağlantı, 24 başlık' long after
     # both numbers had moved. It is written from the data now.
-    line = ('%s bağlantı, %d alan, %d başlık. Her kayıtta ne işe yaradığı ve '
-            'benzerlerinden nerede ayrıldığı yazılı.'
+    line = ('%s links, %d areas, %d headings. Every entry says what it does and '
+            'where it parts ways with its neighbours.'
             % (_count(len(core)), len(GROUPS), len({r['cat'] for r in core})))
     return re.sub(r'(<meta property="og:description" content=")[^"]*(">)',
                   lambda m: m.group(1) + line + m.group(2), src, count=1)

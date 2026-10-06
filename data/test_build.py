@@ -291,7 +291,7 @@ def main():
     # The pre-rendered homepage must describe the same fields app.js would draw,
     # and its strings must still be the ones app.js uses (they are copies).
     on = ix[ix.index('<main id="list"'):ix.index('</main>')]
-    check('data-pre="1"' in on and all(esc_html(g[1]) in on for g in GROUPS),
+    check('data-pre="1"' in on and all(esc_html(g[2]) in on for g in GROUPS),
           'index.html carries the pre-rendered homepage with every field')
     app = io.open(os.path.join(ROOT, 'app.js'), encoding='utf-8').read()
     def _parcalar(v):

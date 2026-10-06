@@ -300,8 +300,8 @@ function readURL(){
   activeField = p.get("f") || null;
   if(activeField && !FIELDBYKEY[activeField]) activeField = null;
   if(activeSrc && !SRCMAP[activeSrc]) activeSrc = null;
-  lang       = p.get("lang") || store.get("lang") || "tr";
-  if(!T[lang]) lang = "tr";
+  lang       = p.get("lang") || store.get("lang") || "en";
+  if(!T[lang]) lang = "en";
   if(!T.tr.sorts[sortBy]) sortBy = "cat";
   if(activeCat && !CATS.some(function(c){return c.key === activeCat})) activeCat = null;
   if(activeCat) activeField = CATFIELD[activeCat] || activeField;
@@ -322,7 +322,7 @@ function writeURL(push){
   if(single) p.set("e", single);
   if(recent) p.set("new", "1");
   if(sortBy !== "cat") p.set("sort", sortBy);
-  if(lang !== "tr") p.set("lang", lang);
+  if(lang !== "en") p.set("lang", lang);
   var pg = pages[pageKey()];
   if(pg > 1) p.set("p", pg);
   var s = p.toString();
@@ -909,10 +909,10 @@ function renderView(){
 
   if(browsing && !activeCat && !activeField){
     /* build.py girisi index.html'e onceden ciziyor (data-pre). Ilk acilista
-       Turkce ise oldugu gibi birakiliyor; ayni markup'i yeniden yazmak belirme
-       animasyonunu ikinci kez oynatirdi. */
+       Ingilizce ise (varsayilan dil) oldugu gibi birakiliyor; ayni markup'i
+       yeniden yazmak belirme animasyonunu ikinci kez oynatirdi. */
     var pre = document.querySelector("#list [data-pre]");
-    if(pre && lang === "tr"){ pre.removeAttribute("data-pre"); return; }
+    if(pre && lang === "en"){ pre.removeAttribute("data-pre"); return; }
     $("#list").innerHTML = homeHTML(L); return;
   }
   if(browsing && !activeCat){ $("#list").innerHTML = fieldHTML(activeField, L); return; }

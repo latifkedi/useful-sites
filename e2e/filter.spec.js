@@ -5,7 +5,7 @@ const { test, expect } = require("@playwright/test");
 const { ready } = require("./helpers");
 
 async function openFilter(page) {
-  await page.goto("/?cat=diller");
+  await page.goto("/?cat=diller&lang=tr");
   await ready(page);
   await page.locator("#filtb").click();
   const filt = page.locator("#filt");
@@ -43,7 +43,7 @@ test("a facet filters the list and the URL; closing gives focus back to Süz", a
    give focus back to; app.js moves it to Süz itself. Chromium focuses on
    click, which would hide the difference -- hence opening without focus. */
 test("focus goes back to Süz even when the button never took focus", async ({ page }) => {
-  await page.goto("/?cat=diller");
+  await page.goto("/?cat=diller&lang=tr");
   await ready(page);
   await page.evaluate(() => { document.activeElement.blur(); document.querySelector("#filtb").click() });
   await expect(page.locator("#filt")).toBeVisible();

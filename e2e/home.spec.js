@@ -13,11 +13,11 @@ test("the pre-rendered home is exactly what app.js draws", async ({ page, reques
     doc.querySelector("#list [data-pre]").removeAttribute("data-pre");
     return doc.querySelector("#list").innerHTML;
   }, src);
-  /* English and back: the second Turkish home comes from homeHTML(). */
-  await page.evaluate(() => document.querySelector("#langbtn").click());
-  await expect(page.locator("html")).toHaveAttribute("lang", "en");
+  /* Turkish and back: the second English home comes from homeHTML(). */
   await page.evaluate(() => document.querySelector("#langbtn").click());
   await expect(page.locator("html")).toHaveAttribute("lang", "tr");
+  await page.evaluate(() => document.querySelector("#langbtn").click());
+  await expect(page.locator("html")).toHaveAttribute("lang", "en");
   await expect(page.locator("#list [data-pre]")).toHaveCount(0);
   expect(await page.locator("#list").evaluate(el => el.innerHTML)).toBe(pre);
 });

@@ -17,8 +17,8 @@ test("phone: the menu opens with named items, and the submit dialog replaces it"
   await expect(page.locator("#acts")).toBeHidden();
   await page.locator("#menub").click();
   await expect(page.locator("#acts")).toBeVisible();
-  await expect(page.locator("#langbtn")).toContainText("English");
-  await expect(page.locator("#theme")).toContainText("Tema");
+  await expect(page.locator("#langbtn")).toContainText("Türkçe");
+  await expect(page.locator("#theme")).toContainText("Theme");
   await page.locator("#addbtn").click();
   await expect(page.locator("#sub")).toBeVisible();
   await expect(page.locator("#acts")).toBeHidden();
