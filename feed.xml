@@ -5,7 +5,159 @@
 <link href="https://latifkedi.github.io/useful-sites/feed.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/"/>
 <id>https://latifkedi.github.io/useful-sites/</id>
-<updated>2026-09-18T00:00:00Z</updated>
+<updated>2026-10-08T09:00:00Z</updated>
+<entry>
+  <title>CIA World Factbook</title>
+  <link href="https://www.cia.gov/the-world-factbook/"/>
+  <id>https://www.cia.gov/the-world-factbook/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <category term="Veri Bilimi &amp; Makine Öğrenmesi"/>
+  <summary>Her ülke için coğrafya, nüfus, ekonomi, hükûmet ve askerî göstergeleri tek tip sayfalarda veren başvuru kaynağı; kamu malı. Wikipedia ülke maddelerinden farkı her ülkede aynı alanların aynı sırayla bulunması, böylece ülkeleri karşılaştırmak kolay. Kaynak bir istihbarat kurumu, yorum içeren alanlarda bunu akılda tut.</summary>
+</entry>
+<entry>
+  <title>Data Commons</title>
+  <link href="https://datacommons.org/"/>
+  <id>https://datacommons.org/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <category term="Veri Bilimi &amp; Makine Öğrenmesi"/>
+  <summary>Google destekli, Census, WHO, BM ve onlarca kaynağın istatistiğini tek bir bilgi grafiğinde birleştiren proje; doğal dille sorgulanıyor ve API’si var. Tek tek kurum portallarından farkı farklı kaynaklı serileri tek sorguda yan yana getirmesi. Google’ın eski Public Data Explorer adresi buraya yönleniyor.</summary>
+</entry>
+<entry>
+  <title>Google Cloud Public Datasets</title>
+  <link href="https://cloud.google.com/datasets"/>
+  <id>https://cloud.google.com/datasets</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <category term="Veri Bilimi &amp; Makine Öğrenmesi"/>
+  <summary>BigQuery içinde duran kamuya açık veri kümeleri: GitHub, Wikipedia, hava durumu, nüfus sayımı. AWS Open Data Registry’den farkı verinin dosya olarak değil SQL ile sorgulanacak tablo olarak sunulması; aylık ücretsiz sorgu kotası içinde indirmeden çalışabiliyorsun.</summary>
+</entry>
+<entry>
+  <title>Google Trends</title>
+  <link href="https://trends.google.com/trends/"/>
+  <id>https://trends.google.com/trends/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <category term="Veri Bilimi &amp; Makine Öğrenmesi"/>
+  <summary>Arama ilgisinin zaman ve bölge içinde nasıl değiştiğini gösteren araç. Anahtar kelime planlayıcılarından farkı mutlak arama sayısı değil 0–100 arası göreli bir endeks vermesi; toplumsal ilgiyi, mevsimselliği ve yükselen konuları ölçmek için kullanışlı.</summary>
+</entry>
+<entry>
+  <title>NASA Earthdata</title>
+  <link href="https://www.earthdata.nasa.gov/"/>
+  <id>https://www.earthdata.nasa.gov/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <category term="Veri Bilimi &amp; Makine Öğrenmesi"/>
+  <summary>NASA’nın uydu ve yer gözlemi verilerini tek kapıdan sunan portal; yağıştan buz örtüsüne, bitki örtüsünden atmosfere kadar. NOAA’nın yer istasyonu kayıtlarından farkı uzaydan alınan görüntü ve ölçümlere dayanması; indirmek için ücretsiz bir Earthdata hesabı gerekiyor.</summary>
+</entry>
+<entry>
+  <title>NOAA NCEI</title>
+  <link href="https://www.ncei.noaa.gov/"/>
+  <id>https://www.ncei.noaa.gov/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <category term="Veri Bilimi &amp; Makine Öğrenmesi"/>
+  <summary>ABD’nin hava, iklim, okyanus ve jeofizik verilerinin ulusal arşivi; eski adıyla NCDC. NASA Earthdata’dan farkı uydu görüntüsünden çok istasyon ve gözlem kayıtlarının onlarca yıllık serilerini tutması — geçmiş hava durumu için asıl kaynak.</summary>
+</entry>
+<entry>
+  <title>OpenCorporates</title>
+  <link href="https://opencorporates.com/"/>
+  <id>https://opencorporates.com/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <category term="Veri Bilimi &amp; Makine Öğrenmesi"/>
+  <summary>Ülkelerin ticaret sicillerini tek aramada birleştiren, şirketler üzerine en büyük açık veri tabanı. Tek tek ulusal sicillerden farkı birçok yargı alanını aynı biçimde sunması; yönetici ve bağlı şirket ilişkileri araştırmaya elverişli, yoğun API kullanımı ücretli.</summary>
+</entry>
+<entry>
+  <title>r/datasets</title>
+  <link href="https://www.reddit.com/r/datasets/"/>
+  <id>https://www.reddit.com/r/datasets/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <category term="Veri Bilimi &amp; Makine Öğrenmesi"/>
+  <summary>Veri kümesi bulma ve isteme topluluğu. Katalog sitelerinden farkı aradığın veri yoksa bir yazıyla isteyebilmen ve başkalarının bulduklarını görmen; kalite denetimi yok, bu yüzden lisansı ve kaynağı kendin kontrol et.</summary>
+</entry>
+<entry>
+  <title>UCI Machine Learning Repository</title>
+  <link href="https://archive.ics.uci.edu/"/>
+  <id>https://archive.ics.uci.edu/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <category term="Veri Bilimi &amp; Makine Öğrenmesi"/>
+  <summary>Makine öğrenmesi araştırmasının en eski veri arşivlerinden; Iris ve Adult gibi klasik küçük veri kümelerinin yuvası. Kaggle’dan farkı yarışma değil akademik bir arşiv olması: her küme bağış yapanı, alan tanımı ve atıf bilgisiyle geliyor, makalelerde ölçüt olarak kullanılıyor.</summary>
+</entry>
+<entry>
+  <title>UNdata</title>
+  <link href="https://data.un.org/"/>
+  <id>https://data.un.org/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <category term="Veri Bilimi &amp; Makine Öğrenmesi"/>
+  <summary>Birleşmiş Milletler kuruluşlarının istatistiklerini tek aramada toplayan veri servisi: nüfus, tarım, enerji, ticaret, eğitim. Tek tek kurumların sitelerini gezmekten farkı ülke ve yıl bazında karşılaştırmalı tablolar çıkarması; derinlik için kaynak kuruluşun kendi portalı daha iyi.</summary>
+</entry>
+<entry>
+  <title>Uppsala Conflict Data Program</title>
+  <link href="https://ucdp.uu.se/"/>
+  <id>https://ucdp.uu.se/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <category term="Veri Bilimi &amp; Makine Öğrenmesi"/>
+  <summary>Uppsala Üniversitesi’nin silahlı çatışma ve örgütlü şiddet veri programı; olay düzeyinde, koordinatlı kayıtlar tutuyor. Haber arşivlerinden farkı her olayın kodlama kurallarına göre doğrulanmış olması; çatışma araştırmalarında standart başvuru.</summary>
+</entry>
+<entry>
+  <title>WHO Global Health Observatory</title>
+  <link href="https://www.who.int/data/gho"/>
+  <id>https://www.who.int/data/gho</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <category term="Veri Bilimi &amp; Makine Öğrenmesi"/>
+  <summary>Dünya Sağlık Örgütü’nün ülke bazlı sağlık göstergeleri: ölüm nedenleri, aşılama, sağlık harcaması, risk etkenleri. Ulusal sağlık kurumlarının verisinden farkı ülkeleri aynı tanım ve yöntemle karşılaştırılabilir kılması; veriye API ile de erişiliyor.</summary>
+</entry>
+<entry>
+  <title>Atlas of Economic Complexity</title>
+  <link href="https://atlas.hks.harvard.edu/"/>
+  <id>https://atlas.hks.harvard.edu/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <category term="Ekonomi"/>
+  <summary>Harvard Growth Lab’ın bir ülkenin ihracat yapısını ve ekonomik karmaşıklığını görselleştiren atlası. Ham ticaret verisinden farkı ihracat sepetinden büyüme potansiyeli çıkaran “karmaşıklık endeksi” gibi türetilmiş ölçülerle gelmesi.</summary>
+</entry>
+<entry>
+  <title>Bureau of Economic Analysis</title>
+  <link href="https://www.bea.gov/"/>
+  <id>https://www.bea.gov/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <category term="Ekonomi"/>
+  <summary>ABD’nin GSYH, ulusal hesaplar, kişisel gelir ve uluslararası ticaret verilerini yayımlayan resmî kurum. BLS’den farkı işgücünden çok üretim ve gelir hesaplarına odaklanması; eyalet ve sektör düzeyinde GSYH tabloları var.</summary>
+</entry>
+<entry>
+  <title>Bureau of Labor Statistics</title>
+  <link href="https://www.bls.gov/"/>
+  <id>https://www.bls.gov/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <category term="Ekonomi"/>
+  <summary>ABD’de istihdam, işsizlik, ücret ve tüketici enflasyonunun (CPI) resmî kaynağı. FRED’de gördüğün birçok serinin asıl yayıncısı; FRED’den farkı ayrıntılı meslek, sektör ve bölge kırılımlarına inmesi. Kamuya açık bir API’si var.</summary>
+</entry>
+<entry>
+  <title>NBER Data</title>
+  <link href="https://www.nber.org/research/data"/>
+  <id>https://www.nber.org/research/data</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <category term="Ekonomi"/>
+  <summary>NBER araştırmacılarının yayımladığı veri kümeleri: makroekonomi tarihi, CPS çıkarımları, patent verisi. NBER Working Papers’tan farkı makale değil makalelerin dayandığı verinin kendisi olması; bu yüzden tekrar üretilebilir iktisat çalışması için kullanışlı.</summary>
+</entry>
+<entry>
+  <title>UN Comtrade</title>
+  <link href="https://comtrade.un.org/"/>
+  <id>https://comtrade.un.org/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <category term="Ekonomi"/>
+  <summary>Ülkelerin mal ticaretini ürün (HS kodu) ve ortak ülke bazında veren BM veri tabanı. Ulusal gümrük istatistiklerinden farkı ülkelerin verisini tek yapıda toplaması, böylece iki ülke arasındaki ticaret her iki tarafın bildirimiyle karşılaştırılabiliyor; ücretsiz kullanımın sınırı var.</summary>
+</entry>
+<entry>
+  <title>UNDP Human Development Data Center</title>
+  <link href="https://hdr.undp.org/data-center"/>
+  <id>https://hdr.undp.org/data-center</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <category term="Ekonomi"/>
+  <summary>BM Kalkınma Programı’nın İnsani Gelişme Endeksi ve ilgili bileşik endekslerinin (eşitsizlik, cinsiyet, yoksulluk) veri merkezi. Yalnızca gelire bakan GSYH verisinden farkı sağlık ve eğitimi de aynı endekste toplaması.</summary>
+</entry>
+<entry>
+  <title>US Census Bureau</title>
+  <link href="https://www.census.gov/"/>
+  <id>https://www.census.gov/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <category term="Ekonomi"/>
+  <summary>ABD’nin nüfus, hane, konut ve işletme istatistiklerinin resmî yayıncısı; American Community Survey ve ekonomik sayımlar burada. FRED gibi derleyicilerden farkı ilçe ve mahalle düzeyine inebilen ayrıntısı; ham tablolar ve API sunuyor.</summary>
+</entry>
 <entry>
   <title>Awesome asyncio</title>
   <link href="https://github.com/timofurrer/awesome-asyncio"/>
@@ -173,157 +325,5 @@
   <updated>2026-09-18T00:00:00Z</updated>
   <category term="Programlama Dilleri"/>
   <summary>Okunabilirliği ve geliştirici mutluluğunu öne alan çok paradigmalı dil; Rails’in dili. Python’dan farkı her şeyin nesne olması ve DSL yazmaya elverişli esnek sözdizimi.</summary>
-</entry>
-<entry>
-  <title>Swift</title>
-  <link href="https://www.swift.org/"/>
-  <id>https://www.swift.org/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Programlama Dilleri"/>
-  <summary>Apple’ın öncelikle iOS için geliştirdiği, güvenli ve hızlı derlenen dil; Linux ve sunucuda da çalışıyor. Objective-C’den farkı optional’larla gelen güvenli bellek modeli ve modern sözdizimi.</summary>
-</entry>
-<entry>
-  <title>Awesome C++</title>
-  <link href="https://github.com/uhub/awesome-cpp"/>
-  <id>https://github.com/uhub/awesome-cpp</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="C, C++ &amp; Rust"/>
-  <summary>C++ kütüphane ve çerçevelerini konuya göre düzenleyen liste. Genel aramadan farkı bakımı yapılan, kategorilenmiş bir başlangıç haritası olması.</summary>
-</entry>
-<entry>
-  <title>Awesome CMake</title>
-  <link href="https://github.com/onqtam/awesome-cmake"/>
-  <id>https://github.com/onqtam/awesome-cmake</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="C, C++ &amp; Rust"/>
-  <summary>C/C++ derleme aracı CMake için betik, modül ve kaynak listesi. Resmî belgelerden farkı hedef tabanlı “modern CMake” pratiklerini anlatan rehberleri ve hazır modülleri seçmesi.</summary>
-</entry>
-<entry>
-  <title>Awesome Rust</title>
-  <link href="https://github.com/rust-unofficial/awesome-rust"/>
-  <id>https://github.com/rust-unofficial/awesome-rust</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="C, C++ &amp; Rust"/>
-  <summary>Rust kütüphane ve uygulamalarını konuya göre düzenleyen liste. crates.io aramasından farkı seçilmiş, kategorilenmiş ve bakımı yapılan bir başlangıç haritası olması.</summary>
-</entry>
-<entry>
-  <title>Rust by Example</title>
-  <link href="https://doc.rust-lang.org/rust-by-example/"/>
-  <id>https://doc.rust-lang.org/rust-by-example/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="C, C++ &amp; Rust"/>
-  <summary>Her kavramı çalıştırılabilir, düzenlenebilir kod örneğiyle veren resmî kaynak. Kitaptan farkı anlatıyı kısıp örneği öne alması — deneyerek öğrenenler için.</summary>
-</entry>
-<entry>
-  <title>Rust Playground</title>
-  <link href="https://play.rust-lang.org/"/>
-  <id>https://play.rust-lang.org/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="C, C++ &amp; Rust"/>
-  <summary>Rust kodunu kurulum olmadan tarayıcıda derleyip çalıştıran resmî alan. Yerel kurulumdan farkı derleyici çıktısını ve ASM/MIR’i paylaşılabilir bağlantıyla vermesi.</summary>
-</entry>
-<entry>
-  <title>Rustlings</title>
-  <link href="https://github.com/rust-lang/rustlings"/>
-  <id>https://github.com/rust-lang/rustlings</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="C, C++ &amp; Rust"/>
-  <summary>Küçük, kırık kod parçalarını düzelterek Rust öğreten alıştırma seti. Okuma temelli kaynaklardan farkı derleyici hatalarını okuyup düzeltmeyi elle deneyimletmesi.</summary>
-</entry>
-<entry>
-  <title>The Async Book</title>
-  <link href="https://rust-lang.github.io/async-book/"/>
-  <id>https://rust-lang.github.io/async-book/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="C, C++ &amp; Rust"/>
-  <summary>Rust’ta async/await ve Future modelini anlatan resmî kitap. Genel eşzamanlılık anlatımından farkı Rust’ın kendine özgü, ayrıştırılmış çalışma zamanı yaklaşımını açması.</summary>
-</entry>
-<entry>
-  <title>The Cargo Book</title>
-  <link href="https://doc.rust-lang.org/cargo/"/>
-  <id>https://doc.rust-lang.org/cargo/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="C, C++ &amp; Rust"/>
-  <summary>Rust’ın paket yöneticisi ve derleme aracı Cargo’nun resmî kılavuzu. Dağınık bloglardan farkı bağımlılık, çalışma alanı ve yayımlamayı tek yetkili yerde toplaması.</summary>
-</entry>
-<entry>
-  <title>The Rust Programming Language</title>
-  <link href="https://doc.rust-lang.org/book/"/>
-  <id>https://doc.rust-lang.org/book/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="C, C++ &amp; Rust"/>
-  <summary>Rust’ın resmî kitabı; sahiplik ve ödünç alma gibi dile özgü kavramları sıfırdan kuruyor. Diğer dil kitaplarından farkı derleyicinin hata mesajlarını öğretinin parçası yapması — Rust’ta derleyiciyle tartışmayı öğrenmek dilin yarısı.</summary>
-</entry>
-<entry>
-  <title>The Rust Reference</title>
-  <link href="https://doc.rust-lang.org/reference/"/>
-  <id>https://doc.rust-lang.org/reference/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="C, C++ &amp; Rust"/>
-  <summary>Dilin dilbilgisini ve anlamını tanımlayan resmî başvuru. Kitaptan farkı öğretici değil, “Rust tam olarak nasıl davranır” sorusunun yetkili cevabı olması.</summary>
-</entry>
-<entry>
-  <title>The Rustonomicon</title>
-  <link href="https://doc.rust-lang.org/nomicon/"/>
-  <id>https://doc.rust-lang.org/nomicon/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="C, C++ &amp; Rust"/>
-  <summary>Güvensiz (unsafe) Rust’ın kurallarını anlatan ileri düzey kitap. Ana kitaptan farkı ödünç denetçisinin dışına çıkıldığında nelere dikkat edileceğini kapsaması.</summary>
-</entry>
-<entry>
-  <title>Ammonite</title>
-  <link href="https://github.com/lihaoyi/Ammonite"/>
-  <id>https://github.com/lihaoyi/Ammonite</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Java &amp; JVM"/>
-  <summary>Scala’yı BASH benzeri dosya işlemleri için kullanılabilir kılan gelişmiş REPL.</summary>
-</entry>
-<entry>
-  <title>Awesome Scala</title>
-  <link href="https://github.com/lauris/awesome-scala"/>
-  <id>https://github.com/lauris/awesome-scala</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Java &amp; JVM"/>
-  <summary>Scala kütüphane ve araçlarının konuya göre listesi. Dağınık aramadan farkı fonksiyonel ve büyük veri kütüphanelerini bir arada göstermesi.</summary>
-</entry>
-<entry>
-  <title>better-files</title>
-  <link href="https://github.com/pathikrit/better-files"/>
-  <id>https://github.com/pathikrit/better-files</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Java &amp; JVM"/>
-  <summary>Scala’da dosya işlemlerini kolaylaştıran ince NIO sarmalayıcı kütüphane. java.nio’yu doğrudan kullanmaktan farkı dosya okuma, yazma ve gezinmeyi tek satırlık, okunaklı Scala deyimlerine indirmesi.</summary>
-</entry>
-<entry>
-  <title>Clojure</title>
-  <link href="https://clojure.org/"/>
-  <id>https://clojure.org/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Java &amp; JVM"/>
-  <summary>JVM üzerinde çalışan modern bir Lisp lehçesi. Common Lisp’ten farkı Java kütüphanelerini doğrudan kullanabilmesi ve veri yapılarının varsayılan olarak değişmez olması.</summary>
-</entry>
-<entry>
-  <title>Coursier</title>
-  <link href="https://github.com/alexarchambault/coursier"/>
-  <id>https://github.com/alexarchambault/coursier</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Java &amp; JVM"/>
-  <summary>Saf Scala ile yazılmış JVM bağımlılık çözücü ve uygulama başlatıcı. Klasik Maven/Ivy çözümlemesinden farkı paralel indirmeyle çok daha hızlı olması; sbt de bağımlılıkları artık onunla çözüyor.</summary>
-</entry>
-<entry>
-  <title>JCTools</title>
-  <link href="https://github.com/JCTools/JCTools"/>
-  <id>https://github.com/JCTools/JCTools</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Java &amp; JVM"/>
-  <summary>JVM için çok yüksek başarımlı eşzamanlı kuyruklar; Netty gibi projelerce kullanılıyor. java.util.concurrent kuyruklarından farkı tek/çok üretici–tüketici senaryolarına özel, kilitsiz tasarımlar sunması.</summary>
-</entry>
-<entry>
-  <title>JMH</title>
-  <link href="https://github.com/openjdk/jmh"/>
-  <id>https://github.com/openjdk/jmh</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Java &amp; JVM"/>
-  <summary>JVM’de mikro-ölçüm için OpenJDK aracı; ölçümü bozan JIT etkilerini hesaba katar. Elle zamanlamadan farkı ısınma, ölü kod eleme gibi tuzakları doğru kurgulaması.</summary>
 </entry>
 </feed>

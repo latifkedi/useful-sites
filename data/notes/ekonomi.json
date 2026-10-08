@@ -1,5 +1,18 @@
 [
   {
+    "url": "https://atlas.hks.harvard.edu/",
+    "name": "Atlas of Economic Complexity",
+    "tags": [
+      "veri-bilimi",
+      "akademik",
+      "ücretsiz"
+    ],
+    "tr": "Harvard Growth Lab’ın bir ülkenin ihracat yapısını ve ekonomik karmaşıklığını görselleştiren atlası. Ham ticaret verisinden farkı ihracat sepetinden büyüme potansiyeli çıkaran “karmaşıklık endeksi” gibi türetilmiş ölçülerle gelmesi.",
+    "en": "The Harvard Growth Lab’s atlas visualising a country’s export structure and economic complexity. Unlike raw trade data it comes with derived measures such as the complexity index, which reads growth potential off the export basket.",
+    "src": "tafrali",
+    "added": 1791450000
+  },
+  {
     "url": "https://www.bis.org",
     "name": "BIS — Bank for International Settlements",
     "tags": [
@@ -10,6 +23,32 @@
     "tr": "Merkez bankalarının merkez bankası; küresel finansal istatistikleri ve araştırma metinlerini yayımlıyor. Piyasa veri sitelerinden farkı sistemik ve sınır ötesi bankacılık verisine odaklanması.",
     "en": "The central bank of central banks, publishing global financial statistics and research papers. Unlike market-data sites it focuses on systemic and cross-border banking data.",
     "src": "econ"
+  },
+  {
+    "url": "https://www.bea.gov/",
+    "name": "Bureau of Economic Analysis",
+    "tags": [
+      "veri-bilimi",
+      "api",
+      "ücretsiz"
+    ],
+    "tr": "ABD’nin GSYH, ulusal hesaplar, kişisel gelir ve uluslararası ticaret verilerini yayımlayan resmî kurum. BLS’den farkı işgücünden çok üretim ve gelir hesaplarına odaklanması; eyalet ve sektör düzeyinde GSYH tabloları var.",
+    "en": "The official US publisher of GDP, national accounts, personal income and international trade data. Unlike BLS it focuses on production and income accounts rather than the labour market; it has GDP tables by state and industry.",
+    "src": "tafrali",
+    "added": 1791450000
+  },
+  {
+    "url": "https://www.bls.gov/",
+    "name": "Bureau of Labor Statistics",
+    "tags": [
+      "veri-bilimi",
+      "api",
+      "ücretsiz"
+    ],
+    "tr": "ABD’de istihdam, işsizlik, ücret ve tüketici enflasyonunun (CPI) resmî kaynağı. FRED’de gördüğün birçok serinin asıl yayıncısı; FRED’den farkı ayrıntılı meslek, sektör ve bölge kırılımlarına inmesi. Kamuya açık bir API’si var.",
+    "en": "The official US source for employment, unemployment, wages and consumer inflation (CPI). It publishes many series you see on FRED; unlike FRED it goes down to occupation, industry and region breakdowns. It has a public API.",
+    "src": "tafrali",
+    "added": 1791450000
   },
   {
     "url": "https://econjobmarket.org/",
@@ -141,6 +180,19 @@
     "src": "econ"
   },
   {
+    "url": "https://www.nber.org/research/data",
+    "name": "NBER Data",
+    "tags": [
+      "veri-bilimi",
+      "akademik",
+      "ücretsiz"
+    ],
+    "tr": "NBER araştırmacılarının yayımladığı veri kümeleri: makroekonomi tarihi, CPS çıkarımları, patent verisi. NBER Working Papers’tan farkı makale değil makalelerin dayandığı verinin kendisi olması; bu yüzden tekrar üretilebilir iktisat çalışması için kullanışlı.",
+    "en": "Datasets released by NBER researchers: macroeconomic history, CPS extracts, patent data. Unlike NBER Working Papers it is the data behind the papers, not the papers themselves, which makes it useful for reproducible economics.",
+    "src": "tafrali",
+    "added": 1791450000
+  },
+  {
     "url": "https://www.nber.org/papers",
     "name": "NBER Working Papers",
     "tags": [
@@ -262,6 +314,45 @@
     "tr": "196 ülke için GSYH, enflasyon, faiz gibi makro göstergeleri tarihsel seriler ve tahminlerle tek panelde topluyor. Tek ülkeye bakan resmî portallardan farkı ülkeler arası karşılaştırma ve tahmin sunması.",
     "en": "Gathers macro indicators — GDP, inflation, rates — for 196 countries in one dashboard with historical series and forecasts. Unlike official portals that cover one country, it offers cross-country comparison and forecasts.",
     "src": "econ"
+  },
+  {
+    "url": "https://comtrade.un.org/",
+    "name": "UN Comtrade",
+    "tags": [
+      "veri-bilimi",
+      "api",
+      "freemium"
+    ],
+    "tr": "Ülkelerin mal ticaretini ürün (HS kodu) ve ortak ülke bazında veren BM veri tabanı. Ulusal gümrük istatistiklerinden farkı ülkelerin verisini tek yapıda toplaması, böylece iki ülke arasındaki ticaret her iki tarafın bildirimiyle karşılaştırılabiliyor; ücretsiz kullanımın sınırı var.",
+    "en": "The UN database of countries’ merchandise trade by product (HS code) and partner. Unlike national customs statistics it collects countries into one structure, so trade between two countries can be checked against both sides’ reports; free use has limits.",
+    "src": "tafrali",
+    "added": 1791450000
+  },
+  {
+    "url": "https://hdr.undp.org/data-center",
+    "name": "UNDP Human Development Data Center",
+    "tags": [
+      "veri-bilimi",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "BM Kalkınma Programı’nın İnsani Gelişme Endeksi ve ilgili bileşik endekslerinin (eşitsizlik, cinsiyet, yoksulluk) veri merkezi. Yalnızca gelire bakan GSYH verisinden farkı sağlık ve eğitimi de aynı endekste toplaması.",
+    "en": "The data centre for the UNDP’s Human Development Index and its related composite indices (inequality, gender, poverty). Unlike income-only GDP data it folds health and education into the same index.",
+    "src": "tafrali",
+    "added": 1791450000
+  },
+  {
+    "url": "https://www.census.gov/",
+    "name": "US Census Bureau",
+    "tags": [
+      "veri-bilimi",
+      "api",
+      "ücretsiz"
+    ],
+    "tr": "ABD’nin nüfus, hane, konut ve işletme istatistiklerinin resmî yayıncısı; American Community Survey ve ekonomik sayımlar burada. FRED gibi derleyicilerden farkı ilçe ve mahalle düzeyine inebilen ayrıntısı; ham tablolar ve API sunuyor.",
+    "en": "The official publisher of US population, household, housing and business statistics, home to the American Community Survey and the economic censuses. Unlike aggregators such as FRED it goes down to county and neighbourhood level; it offers raw tables and an API.",
+    "src": "tafrali",
+    "added": 1791450000
   },
   {
     "url": "https://www.visualcapitalist.com/",

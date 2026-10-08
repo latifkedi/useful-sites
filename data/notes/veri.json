@@ -275,6 +275,32 @@
     "src": "dsbest"
   },
   {
+    "url": "https://www.cia.gov/the-world-factbook/",
+    "name": "CIA World Factbook",
+    "tags": [
+      "veri-bilimi",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Her ülke için coğrafya, nüfus, ekonomi, hükûmet ve askerî göstergeleri tek tip sayfalarda veren başvuru kaynağı; kamu malı. Wikipedia ülke maddelerinden farkı her ülkede aynı alanların aynı sırayla bulunması, böylece ülkeleri karşılaştırmak kolay. Kaynak bir istihbarat kurumu, yorum içeren alanlarda bunu akılda tut.",
+    "en": "A reference giving geography, population, economy, government and military indicators for every country on uniform pages; public domain. Unlike Wikipedia country articles every country has the same fields in the same order, which makes comparison easy. The publisher is an intelligence agency — keep that in mind for interpretive fields.",
+    "src": "tafrali",
+    "added": 1791450000
+  },
+  {
+    "url": "https://datacommons.org/",
+    "name": "Data Commons",
+    "tags": [
+      "veri-bilimi",
+      "api",
+      "ücretsiz"
+    ],
+    "tr": "Google destekli, Census, WHO, BM ve onlarca kaynağın istatistiğini tek bir bilgi grafiğinde birleştiren proje; doğal dille sorgulanıyor ve API’si var. Tek tek kurum portallarından farkı farklı kaynaklı serileri tek sorguda yan yana getirmesi. Google’ın eski Public Data Explorer adresi buraya yönleniyor.",
+    "en": "A Google-backed project that merges statistics from the Census, WHO, the UN and dozens of other sources into one knowledge graph, queryable in natural language and through an API. Unlike single-agency portals it sets series from different sources side by side in one query. Google’s old Public Data Explorer address redirects here.",
+    "src": "tafrali",
+    "added": 1791450000
+  },
+  {
     "url": "https://github.com/microsoft/Data-Science-For-Beginners/tree/main",
     "name": "Data Science for Beginners",
     "tags": [
@@ -384,6 +410,18 @@
     "src": "dsbest"
   },
   {
+    "url": "https://cloud.google.com/datasets",
+    "name": "Google Cloud Public Datasets",
+    "tags": [
+      "veri-bilimi",
+      "freemium"
+    ],
+    "tr": "BigQuery içinde duran kamuya açık veri kümeleri: GitHub, Wikipedia, hava durumu, nüfus sayımı. AWS Open Data Registry’den farkı verinin dosya olarak değil SQL ile sorgulanacak tablo olarak sunulması; aylık ücretsiz sorgu kotası içinde indirmeden çalışabiliyorsun.",
+    "en": "Public datasets that live inside BigQuery: GitHub, Wikipedia, weather, the census. Unlike the AWS Open Data Registry the data comes as tables you query with SQL rather than files; within the monthly free query quota you can work without downloading.",
+    "src": "tafrali",
+    "added": 1791450000
+  },
+  {
     "url": "https://datasetsearch.research.google.com/",
     "name": "Google Dataset Search",
     "tags": [
@@ -395,6 +433,18 @@
     "en": "Searches open datasets scattered across the web via schema.org markup. Unlike a single repository’s search it is tied to none, so it reaches institutional archives too.",
     "src": "kedi",
     "added": 1775507011
+  },
+  {
+    "url": "https://trends.google.com/trends/",
+    "name": "Google Trends",
+    "tags": [
+      "veri-bilimi",
+      "ücretsiz"
+    ],
+    "tr": "Arama ilgisinin zaman ve bölge içinde nasıl değiştiğini gösteren araç. Anahtar kelime planlayıcılarından farkı mutlak arama sayısı değil 0–100 arası göreli bir endeks vermesi; toplumsal ilgiyi, mevsimselliği ve yükselen konuları ölçmek için kullanışlı.",
+    "en": "A tool showing how search interest changes over time and place. Unlike keyword planners it gives a relative 0–100 index rather than absolute search counts; useful for gauging public interest, seasonality and rising topics.",
+    "src": "tafrali",
+    "added": 1791450000
   },
   {
     "url": "https://data.humdata.org",
@@ -531,6 +581,45 @@
     "src": "bwapsv"
   },
   {
+    "url": "https://www.earthdata.nasa.gov/",
+    "name": "NASA Earthdata",
+    "tags": [
+      "veri-bilimi",
+      "api",
+      "ücretsiz"
+    ],
+    "tr": "NASA’nın uydu ve yer gözlemi verilerini tek kapıdan sunan portal; yağıştan buz örtüsüne, bitki örtüsünden atmosfere kadar. NOAA’nın yer istasyonu kayıtlarından farkı uzaydan alınan görüntü ve ölçümlere dayanması; indirmek için ücretsiz bir Earthdata hesabı gerekiyor.",
+    "en": "NASA’s portal to its satellite and Earth-observation data, from rainfall and ice cover to vegetation and the atmosphere. Unlike NOAA’s ground-station records it rests on measurements taken from space; downloads need a free Earthdata account.",
+    "src": "tafrali",
+    "added": 1791450000
+  },
+  {
+    "url": "https://www.ncei.noaa.gov/",
+    "name": "NOAA NCEI",
+    "tags": [
+      "veri-bilimi",
+      "api",
+      "ücretsiz"
+    ],
+    "tr": "ABD’nin hava, iklim, okyanus ve jeofizik verilerinin ulusal arşivi; eski adıyla NCDC. NASA Earthdata’dan farkı uydu görüntüsünden çok istasyon ve gözlem kayıtlarının onlarca yıllık serilerini tutması — geçmiş hava durumu için asıl kaynak.",
+    "en": "The US national archive of weather, climate, ocean and geophysical data, formerly NCDC. Unlike NASA Earthdata it holds decades-long series of station and observation records rather than imagery — the primary source for past weather.",
+    "src": "tafrali",
+    "added": 1791450000
+  },
+  {
+    "url": "https://opencorporates.com/",
+    "name": "OpenCorporates",
+    "tags": [
+      "veri-bilimi",
+      "api",
+      "freemium"
+    ],
+    "tr": "Ülkelerin ticaret sicillerini tek aramada birleştiren, şirketler üzerine en büyük açık veri tabanı. Tek tek ulusal sicillerden farkı birçok yargı alanını aynı biçimde sunması; yönetici ve bağlı şirket ilişkileri araştırmaya elverişli, yoğun API kullanımı ücretli.",
+    "en": "The largest open database of companies, merging national company registers into one search. Unlike individual national registers it presents many jurisdictions in the same form; officer and affiliate links make it useful for investigation, while heavy API use is paid.",
+    "src": "tafrali",
+    "added": 1791450000
+  },
+  {
     "url": "https://www.opendatasoft.com",
     "name": "Opendatasoft",
     "tags": [
@@ -613,6 +702,18 @@
     "tr": "Apache Spark’ın Python arayüzü; veri tek makineye sığmadığında devreye giriyor. pandas benzeri API sunar ama işi kümedeki onlarca düğüme dağıtır.",
     "en": "Apache Spark’s Python interface, for when the data no longer fits on one machine. It offers a pandas-like API while distributing the work across a cluster.",
     "src": "kedi"
+  },
+  {
+    "url": "https://www.reddit.com/r/datasets/",
+    "name": "r/datasets",
+    "tags": [
+      "veri-bilimi",
+      "ücretsiz"
+    ],
+    "tr": "Veri kümesi bulma ve isteme topluluğu. Katalog sitelerinden farkı aradığın veri yoksa bir yazıyla isteyebilmen ve başkalarının bulduklarını görmen; kalite denetimi yok, bu yüzden lisansı ve kaynağı kendin kontrol et.",
+    "en": "A community for finding and requesting datasets. Unlike catalogue sites you can post a request when the data you want is missing and see what others have found; there is no quality control, so check the licence and source yourself.",
+    "src": "tafrali",
+    "added": 1791450000
   },
   {
     "url": "https://www.re3data.org",
@@ -709,6 +810,58 @@
     "en": "Shows a language model’s whole training pipeline in working code, from data download to distributed training. Unlike theoretical write-ups, it also covers the infrastructure side they usually skip.",
     "src": "kedi",
     "added": 1785884172
+  },
+  {
+    "url": "https://archive.ics.uci.edu/",
+    "name": "UCI Machine Learning Repository",
+    "tags": [
+      "veri-bilimi",
+      "akademik",
+      "ücretsiz"
+    ],
+    "tr": "Makine öğrenmesi araştırmasının en eski veri arşivlerinden; Iris ve Adult gibi klasik küçük veri kümelerinin yuvası. Kaggle’dan farkı yarışma değil akademik bir arşiv olması: her küme bağış yapanı, alan tanımı ve atıf bilgisiyle geliyor, makalelerde ölçüt olarak kullanılıyor.",
+    "en": "One of the oldest archives for machine-learning research, home to classic small sets such as Iris and Adult. Unlike Kaggle it is an academic archive rather than a contest site: each set comes with its donor, field descriptions and citation, and papers use them as benchmarks.",
+    "src": "tafrali",
+    "added": 1791450000
+  },
+  {
+    "url": "https://data.un.org/",
+    "name": "UNdata",
+    "tags": [
+      "veri-bilimi",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Birleşmiş Milletler kuruluşlarının istatistiklerini tek aramada toplayan veri servisi: nüfus, tarım, enerji, ticaret, eğitim. Tek tek kurumların sitelerini gezmekten farkı ülke ve yıl bazında karşılaştırmalı tablolar çıkarması; derinlik için kaynak kuruluşun kendi portalı daha iyi.",
+    "en": "A data service pulling the statistics of UN bodies into one search: population, agriculture, energy, trade, education. Unlike visiting each agency’s site it builds country-by-year comparison tables; for depth, the source agency’s own portal is better.",
+    "src": "tafrali",
+    "added": 1791450000
+  },
+  {
+    "url": "https://ucdp.uu.se/",
+    "name": "Uppsala Conflict Data Program",
+    "tags": [
+      "veri-bilimi",
+      "akademik",
+      "ücretsiz"
+    ],
+    "tr": "Uppsala Üniversitesi’nin silahlı çatışma ve örgütlü şiddet veri programı; olay düzeyinde, koordinatlı kayıtlar tutuyor. Haber arşivlerinden farkı her olayın kodlama kurallarına göre doğrulanmış olması; çatışma araştırmalarında standart başvuru.",
+    "en": "Uppsala University’s data programme on armed conflict and organised violence, keeping event-level records with coordinates. Unlike news archives each event is verified against coding rules; it is a standard reference in conflict research.",
+    "src": "tafrali",
+    "added": 1791450000
+  },
+  {
+    "url": "https://www.who.int/data/gho",
+    "name": "WHO Global Health Observatory",
+    "tags": [
+      "veri-bilimi",
+      "api",
+      "ücretsiz"
+    ],
+    "tr": "Dünya Sağlık Örgütü’nün ülke bazlı sağlık göstergeleri: ölüm nedenleri, aşılama, sağlık harcaması, risk etkenleri. Ulusal sağlık kurumlarının verisinden farkı ülkeleri aynı tanım ve yöntemle karşılaştırılabilir kılması; veriye API ile de erişiliyor.",
+    "en": "The World Health Organization’s country-level health indicators: causes of death, vaccination, health spending, risk factors. Unlike national health agencies’ figures, it puts countries on the same definitions and methods so they can be compared; the data is also available through an API.",
+    "src": "tafrali",
+    "added": 1791450000
   },
   {
     "url": "https://zenodo.org",

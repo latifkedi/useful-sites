@@ -5,7 +5,91 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/en/veri.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/veri.xml</id>
-<updated>2026-09-18T00:00:00Z</updated>
+<updated>2026-10-08T09:00:00Z</updated>
+<entry>
+  <title>CIA World Factbook</title>
+  <link href="https://www.cia.gov/the-world-factbook/"/>
+  <id>https://www.cia.gov/the-world-factbook/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>A reference giving geography, population, economy, government and military indicators for every country on uniform pages; public domain. Unlike Wikipedia country articles every country has the same fields in the same order, which makes comparison easy. The publisher is an intelligence agency — keep that in mind for interpretive fields.</summary>
+</entry>
+<entry>
+  <title>Data Commons</title>
+  <link href="https://datacommons.org/"/>
+  <id>https://datacommons.org/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>A Google-backed project that merges statistics from the Census, WHO, the UN and dozens of other sources into one knowledge graph, queryable in natural language and through an API. Unlike single-agency portals it sets series from different sources side by side in one query. Google’s old Public Data Explorer address redirects here.</summary>
+</entry>
+<entry>
+  <title>Google Cloud Public Datasets</title>
+  <link href="https://cloud.google.com/datasets"/>
+  <id>https://cloud.google.com/datasets</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>Public datasets that live inside BigQuery: GitHub, Wikipedia, weather, the census. Unlike the AWS Open Data Registry the data comes as tables you query with SQL rather than files; within the monthly free query quota you can work without downloading.</summary>
+</entry>
+<entry>
+  <title>Google Trends</title>
+  <link href="https://trends.google.com/trends/"/>
+  <id>https://trends.google.com/trends/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>A tool showing how search interest changes over time and place. Unlike keyword planners it gives a relative 0–100 index rather than absolute search counts; useful for gauging public interest, seasonality and rising topics.</summary>
+</entry>
+<entry>
+  <title>NASA Earthdata</title>
+  <link href="https://www.earthdata.nasa.gov/"/>
+  <id>https://www.earthdata.nasa.gov/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>NASA’s portal to its satellite and Earth-observation data, from rainfall and ice cover to vegetation and the atmosphere. Unlike NOAA’s ground-station records it rests on measurements taken from space; downloads need a free Earthdata account.</summary>
+</entry>
+<entry>
+  <title>NOAA NCEI</title>
+  <link href="https://www.ncei.noaa.gov/"/>
+  <id>https://www.ncei.noaa.gov/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>The US national archive of weather, climate, ocean and geophysical data, formerly NCDC. Unlike NASA Earthdata it holds decades-long series of station and observation records rather than imagery — the primary source for past weather.</summary>
+</entry>
+<entry>
+  <title>OpenCorporates</title>
+  <link href="https://opencorporates.com/"/>
+  <id>https://opencorporates.com/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>The largest open database of companies, merging national company registers into one search. Unlike individual national registers it presents many jurisdictions in the same form; officer and affiliate links make it useful for investigation, while heavy API use is paid.</summary>
+</entry>
+<entry>
+  <title>r/datasets</title>
+  <link href="https://www.reddit.com/r/datasets/"/>
+  <id>https://www.reddit.com/r/datasets/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>A community for finding and requesting datasets. Unlike catalogue sites you can post a request when the data you want is missing and see what others have found; there is no quality control, so check the licence and source yourself.</summary>
+</entry>
+<entry>
+  <title>UCI Machine Learning Repository</title>
+  <link href="https://archive.ics.uci.edu/"/>
+  <id>https://archive.ics.uci.edu/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>One of the oldest archives for machine-learning research, home to classic small sets such as Iris and Adult. Unlike Kaggle it is an academic archive rather than a contest site: each set comes with its donor, field descriptions and citation, and papers use them as benchmarks.</summary>
+</entry>
+<entry>
+  <title>UNdata</title>
+  <link href="https://data.un.org/"/>
+  <id>https://data.un.org/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>A data service pulling the statistics of UN bodies into one search: population, agriculture, energy, trade, education. Unlike visiting each agency’s site it builds country-by-year comparison tables; for depth, the source agency’s own portal is better.</summary>
+</entry>
+<entry>
+  <title>Uppsala Conflict Data Program</title>
+  <link href="https://ucdp.uu.se/"/>
+  <id>https://ucdp.uu.se/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>Uppsala University’s data programme on armed conflict and organised violence, keeping event-level records with coordinates. Unlike news archives each event is verified against coding rules; it is a standard reference in conflict research.</summary>
+</entry>
+<entry>
+  <title>WHO Global Health Observatory</title>
+  <link href="https://www.who.int/data/gho"/>
+  <id>https://www.who.int/data/gho</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>The World Health Organization’s country-level health indicators: causes of death, vaccination, health spending, risk factors. Unlike national health agencies’ figures, it puts countries on the same definitions and methods so they can be compared; the data is also available through an API.</summary>
+</entry>
 <entry>
   <title>Awesome ArcGIS Developer</title>
   <link href="https://github.com/Esri/awesome-arcgis-developer"/>
@@ -201,89 +285,5 @@
   <id>https://academictorrents.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
   <summary>A community archive distributing large research datasets over BitTorrent. Against institutional download links the difference is durability: when the university server goes away, the data survives in the swarm.</summary>
-</entry>
-<entry>
-  <title>An Introduction to Statistical Learning</title>
-  <link href="https://www.statlearning.com/"/>
-  <id>https://www.statlearning.com/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>The standard introduction to statistical learning, free as a PDF with separate R and Python labs. Against &quot;Elements of Statistical Learning&quot; by the same authors it trades mathematics for intuition — this is the one you read first.</summary>
-</entry>
-<entry>
-  <title>Dataset List</title>
-  <link href="https://www.datasetlist.com/"/>
-  <id>https://www.datasetlist.com/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A directory of machine learning datasets by domain, with size, licence and paper links. Against Kaggle these are academic and industrial sets rather than competition data — for when you need something real.</summary>
-</entry>
-<entry>
-  <title>ImageNet</title>
-  <link href="https://www.image-net.org/"/>
-  <id>https://www.image-net.org/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A dataset of fourteen million images labelled against the WordNet hierarchy. What sets it apart from other image sets is historical weight: the 2012 deep learning breakthrough came out of the competition on it, and it is still a benchmark.</summary>
-</entry>
-<entry>
-  <title>Kaggle</title>
-  <link href="https://www.kaggle.com/"/>
-  <id>https://www.kaggle.com/</id>
-  <updated>2026-08-19T23:33:55Z</updated>
-  <summary>Competitions, datasets and notebooks on one platform. Unlike other dataset sites, winning solutions are published once a contest closes, making it the best open archive of applied ML.</summary>
-</entry>
-<entry>
-  <title>AIMA</title>
-  <link href="https://aima.cs.berkeley.edu"/>
-  <id>https://aima.cs.berkeley.edu</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The companion site for Artificial Intelligence: A Modern Approach. Unlike the printed book, this is where course code and algorithm implementations (Python, Java and more) are openly published.</summary>
-</entry>
-<entry>
-  <title>DeepLearning.AI</title>
-  <link href="https://www.deeplearning.ai"/>
-  <id>https://www.deeplearning.ai</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Andrew Ng’s education platform, with specialisations in deep learning and generative AI. Unlike the long specialisations, its free one-hour short courses are built with industry partners.</summary>
-</entry>
-<entry>
-  <title>fast.ai</title>
-  <link href="https://course.fast.ai"/>
-  <id>https://course.fast.ai</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Teaches deep learning top-down — a working model first, theory after. Unlike academic courses that open with mathematics, it inverts the order.</summary>
-</entry>
-<entry>
-  <title>Keras</title>
-  <link href="https://keras.io/"/>
-  <id>https://keras.io/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A high-level API reducing network construction to stacking layers in a few lines. Compared with raw PyTorch or TensorFlow it is far less code, and since it now runs on TensorFlow, PyTorch and JAX alike, it lets you defer the framework choice.</summary>
-</entry>
-<entry>
-  <title>Machine Learning Mastery</title>
-  <link href="https://machinelearningmastery.com/"/>
-  <id>https://machinelearningmastery.com/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Application-focused ML tutorials, each ending in working code — answering “how do I do this” rather than the theory.</summary>
-</entry>
-<entry>
-  <title>Matplotlib</title>
-  <link href="https://matplotlib.org/"/>
-  <id>https://matplotlib.org/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The foundation of Python plotting — seaborn and pandas’ plotting are built on it. Unlike interactive libraries such as Plotly it is static but gives fine control, at the cost of considerable code even for a simple chart.</summary>
-</entry>
-<entry>
-  <title>ML Crash Course</title>
-  <link href="https://developers.google.com/machine-learning/crash-course"/>
-  <id>https://developers.google.com/machine-learning/crash-course</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Google’s fast introduction to machine learning, moving through short video, reading and runnable exercises. Compared with long specialisations it is done in a few days, and free.</summary>
-</entry>
-<entry>
-  <title>mlcourse.ai</title>
-  <link href="https://mlcourse.ai/"/>
-  <id>https://mlcourse.ai/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An open machine learning course. Unlike lecture-only material, it pairs theory with Kaggle competition assignments.</summary>
 </entry>
 </feed>

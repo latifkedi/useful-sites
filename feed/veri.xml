@@ -5,7 +5,91 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/veri.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/veri.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/veri.xml</id>
-<updated>2026-09-18T00:00:00Z</updated>
+<updated>2026-10-08T09:00:00Z</updated>
+<entry>
+  <title>CIA World Factbook</title>
+  <link href="https://www.cia.gov/the-world-factbook/"/>
+  <id>https://www.cia.gov/the-world-factbook/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>Her ülke için coğrafya, nüfus, ekonomi, hükûmet ve askerî göstergeleri tek tip sayfalarda veren başvuru kaynağı; kamu malı. Wikipedia ülke maddelerinden farkı her ülkede aynı alanların aynı sırayla bulunması, böylece ülkeleri karşılaştırmak kolay. Kaynak bir istihbarat kurumu, yorum içeren alanlarda bunu akılda tut.</summary>
+</entry>
+<entry>
+  <title>Data Commons</title>
+  <link href="https://datacommons.org/"/>
+  <id>https://datacommons.org/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>Google destekli, Census, WHO, BM ve onlarca kaynağın istatistiğini tek bir bilgi grafiğinde birleştiren proje; doğal dille sorgulanıyor ve API’si var. Tek tek kurum portallarından farkı farklı kaynaklı serileri tek sorguda yan yana getirmesi. Google’ın eski Public Data Explorer adresi buraya yönleniyor.</summary>
+</entry>
+<entry>
+  <title>Google Cloud Public Datasets</title>
+  <link href="https://cloud.google.com/datasets"/>
+  <id>https://cloud.google.com/datasets</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>BigQuery içinde duran kamuya açık veri kümeleri: GitHub, Wikipedia, hava durumu, nüfus sayımı. AWS Open Data Registry’den farkı verinin dosya olarak değil SQL ile sorgulanacak tablo olarak sunulması; aylık ücretsiz sorgu kotası içinde indirmeden çalışabiliyorsun.</summary>
+</entry>
+<entry>
+  <title>Google Trends</title>
+  <link href="https://trends.google.com/trends/"/>
+  <id>https://trends.google.com/trends/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>Arama ilgisinin zaman ve bölge içinde nasıl değiştiğini gösteren araç. Anahtar kelime planlayıcılarından farkı mutlak arama sayısı değil 0–100 arası göreli bir endeks vermesi; toplumsal ilgiyi, mevsimselliği ve yükselen konuları ölçmek için kullanışlı.</summary>
+</entry>
+<entry>
+  <title>NASA Earthdata</title>
+  <link href="https://www.earthdata.nasa.gov/"/>
+  <id>https://www.earthdata.nasa.gov/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>NASA’nın uydu ve yer gözlemi verilerini tek kapıdan sunan portal; yağıştan buz örtüsüne, bitki örtüsünden atmosfere kadar. NOAA’nın yer istasyonu kayıtlarından farkı uzaydan alınan görüntü ve ölçümlere dayanması; indirmek için ücretsiz bir Earthdata hesabı gerekiyor.</summary>
+</entry>
+<entry>
+  <title>NOAA NCEI</title>
+  <link href="https://www.ncei.noaa.gov/"/>
+  <id>https://www.ncei.noaa.gov/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>ABD’nin hava, iklim, okyanus ve jeofizik verilerinin ulusal arşivi; eski adıyla NCDC. NASA Earthdata’dan farkı uydu görüntüsünden çok istasyon ve gözlem kayıtlarının onlarca yıllık serilerini tutması — geçmiş hava durumu için asıl kaynak.</summary>
+</entry>
+<entry>
+  <title>OpenCorporates</title>
+  <link href="https://opencorporates.com/"/>
+  <id>https://opencorporates.com/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>Ülkelerin ticaret sicillerini tek aramada birleştiren, şirketler üzerine en büyük açık veri tabanı. Tek tek ulusal sicillerden farkı birçok yargı alanını aynı biçimde sunması; yönetici ve bağlı şirket ilişkileri araştırmaya elverişli, yoğun API kullanımı ücretli.</summary>
+</entry>
+<entry>
+  <title>r/datasets</title>
+  <link href="https://www.reddit.com/r/datasets/"/>
+  <id>https://www.reddit.com/r/datasets/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>Veri kümesi bulma ve isteme topluluğu. Katalog sitelerinden farkı aradığın veri yoksa bir yazıyla isteyebilmen ve başkalarının bulduklarını görmen; kalite denetimi yok, bu yüzden lisansı ve kaynağı kendin kontrol et.</summary>
+</entry>
+<entry>
+  <title>UCI Machine Learning Repository</title>
+  <link href="https://archive.ics.uci.edu/"/>
+  <id>https://archive.ics.uci.edu/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>Makine öğrenmesi araştırmasının en eski veri arşivlerinden; Iris ve Adult gibi klasik küçük veri kümelerinin yuvası. Kaggle’dan farkı yarışma değil akademik bir arşiv olması: her küme bağış yapanı, alan tanımı ve atıf bilgisiyle geliyor, makalelerde ölçüt olarak kullanılıyor.</summary>
+</entry>
+<entry>
+  <title>UNdata</title>
+  <link href="https://data.un.org/"/>
+  <id>https://data.un.org/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>Birleşmiş Milletler kuruluşlarının istatistiklerini tek aramada toplayan veri servisi: nüfus, tarım, enerji, ticaret, eğitim. Tek tek kurumların sitelerini gezmekten farkı ülke ve yıl bazında karşılaştırmalı tablolar çıkarması; derinlik için kaynak kuruluşun kendi portalı daha iyi.</summary>
+</entry>
+<entry>
+  <title>Uppsala Conflict Data Program</title>
+  <link href="https://ucdp.uu.se/"/>
+  <id>https://ucdp.uu.se/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>Uppsala Üniversitesi’nin silahlı çatışma ve örgütlü şiddet veri programı; olay düzeyinde, koordinatlı kayıtlar tutuyor. Haber arşivlerinden farkı her olayın kodlama kurallarına göre doğrulanmış olması; çatışma araştırmalarında standart başvuru.</summary>
+</entry>
+<entry>
+  <title>WHO Global Health Observatory</title>
+  <link href="https://www.who.int/data/gho"/>
+  <id>https://www.who.int/data/gho</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>Dünya Sağlık Örgütü’nün ülke bazlı sağlık göstergeleri: ölüm nedenleri, aşılama, sağlık harcaması, risk etkenleri. Ulusal sağlık kurumlarının verisinden farkı ülkeleri aynı tanım ve yöntemle karşılaştırılabilir kılması; veriye API ile de erişiliyor.</summary>
+</entry>
 <entry>
   <title>Awesome ArcGIS Developer</title>
   <link href="https://github.com/Esri/awesome-arcgis-developer"/>
@@ -201,89 +285,5 @@
   <id>https://academictorrents.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
   <summary>Büyük araştırma veri kümelerini BitTorrent üzerinden dağıtan topluluk arşivi. Kurumsal indirme bağlantılarından farkı dayanıklılığı — üniversite sunucusu kapansa bile veri tohumlayıcılarda yaşamaya devam ediyor.</summary>
-</entry>
-<entry>
-  <title>An Introduction to Statistical Learning</title>
-  <link href="https://www.statlearning.com/"/>
-  <id>https://www.statlearning.com/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>İstatistiksel öğrenmenin standart giriş kitabı; PDF’i ücretsiz, R ve Python laboratuvarları ayrı ayrı var. &quot;Elements of Statistical Learning&quot;den farkı matematiği azaltıp sezgiyi öne alması — ikisi aynı yazarlardan, bu olanı önce okunanı.</summary>
-</entry>
-<entry>
-  <title>Dataset List</title>
-  <link href="https://www.datasetlist.com/"/>
-  <id>https://www.datasetlist.com/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Makine öğrenmesi veri kümelerini alana göre listeleyen dizin; boyut, lisans ve makale bağlantısı ile. Kaggle’dan farkı yarışma değil akademik ve endüstriyel kümeler olması — gerçek dünya verisi arayanlar için.</summary>
-</entry>
-<entry>
-  <title>ImageNet</title>
-  <link href="https://www.image-net.org/"/>
-  <id>https://www.image-net.org/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>WordNet hiyerarşisine göre etiketlenmiş, on dört milyon görsellik veri kümesi. Diğer görüntü kümelerinden farkı tarihsel ağırlığı — 2012’deki derin öğrenme sıçraması bu küme üzerindeki yarışmadan çıktı, hâlâ ölçüt olarak kullanılıyor.</summary>
-</entry>
-<entry>
-  <title>Kaggle</title>
-  <link href="https://www.kaggle.com/"/>
-  <id>https://www.kaggle.com/</id>
-  <updated>2026-08-19T23:33:55Z</updated>
-  <summary>Yarışma, veri kümesi ve not defteri aynı platformda. Diğer veri kümesi sitelerinden farkı, kazanan çözümlerin yarışma bitince açıkça paylaşılması — uygulamalı ML’in en iyi açık arşivi.</summary>
-</entry>
-<entry>
-  <title>AIMA</title>
-  <link href="https://aima.cs.berkeley.edu"/>
-  <id>https://aima.cs.berkeley.edu</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Yapay Zekâ: Modern Bir Yaklaşım kitabının kaynak sayfası. Kitabın basılı hâlinden farkı ders kodu ve algoritma uygulamalarının (Python, Java ve diğerleri) burada açık yayımlanması.</summary>
-</entry>
-<entry>
-  <title>DeepLearning.AI</title>
-  <link href="https://www.deeplearning.ai"/>
-  <id>https://www.deeplearning.ai</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Andrew Ng’in kurduğu eğitim platformu; derin öğrenme ve üretken YZ üzerine uzmanlık programları. Uzun uzmanlık programlarından farkı, şirketlerle birlikte hazırlanmış bir saatlik ücretsiz kısa kurslar da sunması.</summary>
-</entry>
-<entry>
-  <title>fast.ai</title>
-  <link href="https://course.fast.ai"/>
-  <id>https://course.fast.ai</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Derin öğrenmeyi tepeden aşağı öğreten kurs: önce çalışan model, sonra teori. Matematikle başlayan akademik derslerin aksine sırayı tersine çeviriyor.</summary>
-</entry>
-<entry>
-  <title>Keras</title>
-  <link href="https://keras.io/"/>
-  <id>https://keras.io/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Sinir ağını katman katman istiflemeyi birkaç satıra indiren yüksek seviye API. Ham PyTorch ya da TensorFlow’a kıyasla çok daha az kod; artık üçünde (TensorFlow, PyTorch, JAX) birden çalıştığı için çatı seçimini ertelemene izin veriyor.</summary>
-</entry>
-<entry>
-  <title>Machine Learning Mastery</title>
-  <link href="https://machinelearningmastery.com/"/>
-  <id>https://machinelearningmastery.com/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Uygulama odaklı ML öğreticileri; her yazı çalışan bir kod örneğiyle bitiyor. Teoriden çok “bunu nasıl yaparım” sorusuna cevap veriyor.</summary>
-</entry>
-<entry>
-  <title>Matplotlib</title>
-  <link href="https://matplotlib.org/"/>
-  <id>https://matplotlib.org/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Python görselleştirmenin temeli; seaborn ve pandas’ın çizim işlevleri bunun üstüne kurulu. Plotly gibi etkileşimli kütüphanelerden farkı statik ama ayrıntılı denetim vermesi; karşılığında basit bir grafik için bile epey kod istiyor.</summary>
-</entry>
-<entry>
-  <title>ML Crash Course</title>
-  <link href="https://developers.google.com/machine-learning/crash-course"/>
-  <id>https://developers.google.com/machine-learning/crash-course</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Google’ın makine öğrenmesine hızlı girişi; kısa video, okuma ve çalıştırılabilir alıştırma üçlüsüyle ilerliyor. Uzun uzmanlık programlarına kıyasla birkaç günde bitiyor ve ücretsiz.</summary>
-</entry>
-<entry>
-  <title>mlcourse.ai</title>
-  <link href="https://mlcourse.ai/"/>
-  <id>https://mlcourse.ai/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Açık makine öğrenmesi kursu. Salt anlatım içeriğinden farkı teoriyi Kaggle yarışması ödevleriyle birleştirmesi.</summary>
 </entry>
 </feed>

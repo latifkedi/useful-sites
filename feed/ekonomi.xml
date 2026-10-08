@@ -5,7 +5,56 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/ekonomi.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/ekonomi.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/ekonomi.xml</id>
-<updated>2026-09-18T00:00:00Z</updated>
+<updated>2026-10-08T09:00:00Z</updated>
+<entry>
+  <title>Atlas of Economic Complexity</title>
+  <link href="https://atlas.hks.harvard.edu/"/>
+  <id>https://atlas.hks.harvard.edu/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>Harvard Growth Lab’ın bir ülkenin ihracat yapısını ve ekonomik karmaşıklığını görselleştiren atlası. Ham ticaret verisinden farkı ihracat sepetinden büyüme potansiyeli çıkaran “karmaşıklık endeksi” gibi türetilmiş ölçülerle gelmesi.</summary>
+</entry>
+<entry>
+  <title>Bureau of Economic Analysis</title>
+  <link href="https://www.bea.gov/"/>
+  <id>https://www.bea.gov/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>ABD’nin GSYH, ulusal hesaplar, kişisel gelir ve uluslararası ticaret verilerini yayımlayan resmî kurum. BLS’den farkı işgücünden çok üretim ve gelir hesaplarına odaklanması; eyalet ve sektör düzeyinde GSYH tabloları var.</summary>
+</entry>
+<entry>
+  <title>Bureau of Labor Statistics</title>
+  <link href="https://www.bls.gov/"/>
+  <id>https://www.bls.gov/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>ABD’de istihdam, işsizlik, ücret ve tüketici enflasyonunun (CPI) resmî kaynağı. FRED’de gördüğün birçok serinin asıl yayıncısı; FRED’den farkı ayrıntılı meslek, sektör ve bölge kırılımlarına inmesi. Kamuya açık bir API’si var.</summary>
+</entry>
+<entry>
+  <title>NBER Data</title>
+  <link href="https://www.nber.org/research/data"/>
+  <id>https://www.nber.org/research/data</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>NBER araştırmacılarının yayımladığı veri kümeleri: makroekonomi tarihi, CPS çıkarımları, patent verisi. NBER Working Papers’tan farkı makale değil makalelerin dayandığı verinin kendisi olması; bu yüzden tekrar üretilebilir iktisat çalışması için kullanışlı.</summary>
+</entry>
+<entry>
+  <title>UN Comtrade</title>
+  <link href="https://comtrade.un.org/"/>
+  <id>https://comtrade.un.org/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>Ülkelerin mal ticaretini ürün (HS kodu) ve ortak ülke bazında veren BM veri tabanı. Ulusal gümrük istatistiklerinden farkı ülkelerin verisini tek yapıda toplaması, böylece iki ülke arasındaki ticaret her iki tarafın bildirimiyle karşılaştırılabiliyor; ücretsiz kullanımın sınırı var.</summary>
+</entry>
+<entry>
+  <title>UNDP Human Development Data Center</title>
+  <link href="https://hdr.undp.org/data-center"/>
+  <id>https://hdr.undp.org/data-center</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>BM Kalkınma Programı’nın İnsani Gelişme Endeksi ve ilgili bileşik endekslerinin (eşitsizlik, cinsiyet, yoksulluk) veri merkezi. Yalnızca gelire bakan GSYH verisinden farkı sağlık ve eğitimi de aynı endekste toplaması.</summary>
+</entry>
+<entry>
+  <title>US Census Bureau</title>
+  <link href="https://www.census.gov/"/>
+  <id>https://www.census.gov/</id>
+  <updated>2026-10-08T09:00:00Z</updated>
+  <summary>ABD’nin nüfus, hane, konut ve işletme istatistiklerinin resmî yayıncısı; American Community Survey ve ekonomik sayımlar burada. FRED gibi derleyicilerden farkı ilçe ve mahalle düzeyine inebilen ayrıntısı; ham tablolar ve API sunuyor.</summary>
+</entry>
 <entry>
   <title>BIS — Bank for International Settlements</title>
   <link href="https://www.bis.org"/>

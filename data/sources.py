@@ -136,6 +136,13 @@ SOURCES = {
         'note_en': 'Surfaced by velvia/links',
         'url': 'https://github.com/velvia/links',
     },
+    'tafrali': {
+        'label_tr': 'Veri Kaynakları (Tafralı)',
+        'label_en': 'Data Sources (Tafralı)',
+        'note_tr': 'Serdar Tafralı’nın "Veri Bilimi Projeleri için Veri Kaynakları" yazısından geldi',
+        'note_en': 'Surfaced by Serdar Tafralı’s "Data Sources for Data Science Projects" post',
+        'url': 'https://serdartafrali.medium.com/veri-bilimi-projeleri-i%C3%A7in-veri-kaynaklar%C4%B1-ceece4d0aeb8',
+    },
     'invesp': {
         'label_tr': 'Invesp',
         'label_en': 'Invesp',
