@@ -29,7 +29,7 @@ var T = {
     langName:"English", themeName:"Tema",
     fxHead:"Fihrist", exp:"Dışa aktar:", filter:"Süz", fClear:"Temizle",
     ph:"Ara: ad, açıklama, etiket, alan adı",
-    count:function(n,t){return n+" / "+t+" bağlantı"},
+    count:function(n,t){return fmtN(n)+" / "+fmtN(t)+" bağlantı"},
     empty:"Eşleşen Bağlantı Yok",
     clear:"Filtreleri Temizle",
     qLabel:"Dizinde ara", themeLabel:"Temayı değiştir", topLabel:"Yukarı çık",
@@ -104,7 +104,7 @@ var T = {
     langName:"Türkçe", themeName:"Theme",
     fxHead:"Index", exp:"Export:", filter:"Filter", fClear:"Clear",
     ph:"Search: name, notes, tag, domain",
-    count:function(n,t){return n+" / "+t+" links"},
+    count:function(n,t){return fmtN(n)+" / "+fmtN(t)+" links"},
     empty:"No Matching Links",
     clear:"Clear Filters",
     qLabel:"Search the directory", themeLabel:"Toggle theme", topLabel:"Back to top",
@@ -185,6 +185,8 @@ var theme = store.get("theme");
 var lang, q, activeTags, activeCat, sortBy, pages, onlyPicks, activeSrc, single, recent, activeField;
 
 var $ = function(s){return document.querySelector(s)};
+/* 1900 -> 1.900 (tr) / 1,900 (en). emit.py'nin ana sayfa onrenderi ayni bicimi uretiyor. */
+var fmtN = function(n){ return String(n).replace(/\B(?=(\d{3})+$)/g, lang === "tr" ? "." : ",") };
 var esc = function(s){return String(s).replace(/[&<>"]/g,function(c){
   return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})};
 
@@ -627,6 +629,8 @@ function homeHTML(L){
            }).join(", ")+'</p></li>';
   }).join("");
   return '<div class="home">'+
+    '<section class="hsec"><h2 class="k">'+esc(L.fxHead)+'<span>'+esc(L.fxNote(nf, CATS.length))+'</span></h2>'+
+    '<ol class="fx">'+fx+'</ol></section>'+
     (strip.length
       ? '<section class="hsec"><h2 class="k">'+esc(L.hStart)+'</h2><ol class="hpicks">'+
         strip.map(function(d){
@@ -634,8 +638,6 @@ function homeHTML(L){
                  '<p>'+esc(firstSentence(descOf(d)))+'</p></li>';
         }).join("")+'</ol></section>'
       : "")+
-    '<section class="hsec"><h2 class="k">'+esc(L.fxHead)+'<span>'+esc(L.fxNote(nf, CATS.length))+'</span></h2>'+
-    '<ol class="fx">'+fx+'</ol></section>'+
     '<p class="hlinks"><a href="?new=1" data-recent="1">'+esc(L.recent)+' →</a>'+
       '<a href="?sort=az" data-all="1">'+esc(L.hAll)+'</a></p>'+
   '</div>';
@@ -839,7 +841,7 @@ function paintChrome(L){
   document.title            = L.title;
   $("#t-title").textContent = L.title;
   $("#logo").setAttribute("aria-label", L.homeLabel);
-  $("#hero").innerHTML      = L.hero(data.length);
+  $("#hero").innerHTML      = L.hero(fmtN(data.length));
   $("#q").placeholder       = L.ph;
   $("#q").setAttribute("aria-label", L.qLabel);
   $("#rand").textContent    = L.rand;

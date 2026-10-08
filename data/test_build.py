@@ -279,7 +279,7 @@ def main():
     m_css = re.search(r'<style id="css">\n(.*?)</style>', ix, re.S)
     check(css is not None and bool(m_css) and m_css.group(1) == css,
           'index.html inlines style.css byte for byte')
-    check(len(re.findall(r'<h1\b', ix)) == 1 and ('<em>%d</em>' % len(rows)) in ix,
+    check(len(re.findall(r'<h1\b', ix)) == 1 and ('<em>%s</em>' % '{:,}'.format(len(rows))) in ix,
           'index.html has one h1, the hero, carrying the live record count')
     check('<a class="logo"' in ix and not re.search(r'<h1[^>]*>\s*Kullanışlı Siteler', ix),
           'the wordmark is a link, not a heading')

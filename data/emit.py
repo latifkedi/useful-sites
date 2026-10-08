@@ -653,7 +653,7 @@ def write_issue_form(cats, out_dir):
 # the fade-in. These strings mirror app.js T.en; test_build checks they have
 # not drifted.
 HOME_TX = {
-    'hero': ('<em>%d</em> links, picked by hand. Each one says where it parts '
+    'hero': ('<em>%s</em> links, picked by hand. Each one says where it parts '
              'ways with its neighbours.'),
     'hStart': 'Start Here',
     'fxHead': 'Index',
@@ -720,13 +720,13 @@ def home_html(core, cats, groups, en):
                      '<li><a href="%s" target="_blank" rel="noopener noreferrer">%s</a>'
                      '<p>%s</p></li>' % (esc(d['url']), esc(d['name']), esc(_first(e)))
                      for d, e in strip)))
-    return ('<div class="home" data-pre="1">%s'
+    return ('<div class="home" data-pre="1">'
             '<section class="hsec"><h2 class="k">%s<span>%s</span></h2>'
-            '<ol class="fx">%s</ol></section>'
+            '<ol class="fx">%s</ol></section>%s'
             '<p class="hlinks"><a href="?new=1" data-recent="1">%s →</a>'
             '<a href="?sort=az" data-all="1">%s</a></p></div>'
-            % (picks, esc(HOME_TX['fxHead']), esc(HOME_TX['fxNote'] % (nf, len(bycat))),
-               ''.join(fx), esc(HOME_TX['recent']), esc(HOME_TX['hAll'])))
+            % (esc(HOME_TX['fxHead']), esc(HOME_TX['fxNote'] % (nf, len(bycat))),
+               ''.join(fx), picks, esc(HOME_TX['recent']), esc(HOME_TX['hAll'])))
 
 
 def write_home(core, cats, groups, out_dir, en):
@@ -738,7 +738,7 @@ def write_home(core, cats, groups, out_dir, en):
     # Giris cumlesi baslikta duruyor, <main>'de degil: arama kutusu onunla
     # icerik arasina girebilsin diye. Sayi her derlemede veriden yaziliyor.
     out = re.sub(r'(<h1 class="hero" id="hero">)(.*?)(</h1>)',
-                 lambda m: m.group(1) + HOME_TX['hero'] % len(core) + m.group(3),
+                 lambda m: m.group(1) + HOME_TX['hero'] % '{:,}'.format(len(core)) + m.group(3),
                  out, count=1, flags=re.S)
     if out != src:
         io.open(path, 'w', encoding='utf-8', newline='').write(out)

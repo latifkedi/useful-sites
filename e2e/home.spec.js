@@ -26,5 +26,5 @@ test("the hero carries the live record count", async ({ page }) => {
   await page.goto("/");
   await ready(page);
   const n = await page.evaluate(() => window.LINKS.length);
-  await expect(page.locator("#hero em")).toHaveText(String(n));
+  await expect(page.locator("#hero em")).toHaveText(n.toLocaleString("en-US"));
 });
