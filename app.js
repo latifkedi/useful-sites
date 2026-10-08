@@ -1110,13 +1110,11 @@ function setLang(next){
 $("#langbtn").addEventListener("click", function(){ hideMenu(); setLang(lang === "tr" ? "en" : "tr") });
 
 function applyTheme(){
-  if(theme) document.documentElement.setAttribute("data-theme", theme);
-  else document.documentElement.removeAttribute("data-theme");
+  document.documentElement.setAttribute("data-theme", theme === "dark" ? "dark" : "light");
 }
 $("#theme").addEventListener("click", function(){
   hideMenu();
-  var dark = matchMedia("(prefers-color-scheme:dark)").matches;
-  theme = ((theme || (dark ? "dark" : "light")) === "dark") ? "light" : "dark";
+  theme = theme === "dark" ? "light" : "dark";
   store.set("theme", theme); applyTheme();
 });
 applyTheme();

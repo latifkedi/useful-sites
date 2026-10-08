@@ -260,7 +260,7 @@ def _stamp():
     src = io.open(ix, encoding='utf-8').read()
     # app.js too: it is hand-written, but a browser holding yesterday's copy
     # against today's links.js is the same stale-pairing problem.
-    for name in ('links.js', 'links.en.js', 'search.js', 'app.js'):
+    for name in ('links.js', 'links.en.js', 'search.js', 'app.js', 'theme.js'):
         h = hashlib.sha1(io.open(os.path.join(D, '..', name), 'rb').read()).hexdigest()[:8]
         pat = re.compile(r'(["\'])' + re.escape(name) + r'(?:\?v=[0-9a-f]+)?\1')
         src = pat.sub(lambda m, n=name, d=h: m.group(1) + n + '?v=' + d + m.group(1), src)

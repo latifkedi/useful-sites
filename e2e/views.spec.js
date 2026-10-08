@@ -21,6 +21,10 @@ const PAPER = { light: "rgb(246, 241, 231)", dark: "rgb(21, 20, 15)" };
 for (const scheme of ["light", "dark"]) {
   test.describe(scheme, () => {
     test.use({ colorScheme: scheme });
+    /* The site opens light whatever the system prefers; dark is a saved choice. */
+    test.beforeEach(async ({ page }) => {
+      if (scheme === "dark") await page.addInitScript(() => localStorage.setItem("theme", "dark"));
+    });
 
     for (const [name, url] of VIEWS) {
       test(name + ": one visible h1, no sideways scroll, clean console", async ({ page }) => {
@@ -60,4 +64,14 @@ test("a category's second page continues the numbering", async ({ page }) => {
   await page.goto("/?cat=diller&p=2");
   await ready(page);
   await expect(page.locator("#list .rec .no").first()).toHaveText("21");
+});
+
+test("the site opens light even when the system prefers dark", async ({ browser }) => {
+  const ctx = await browser.newContext({ colorScheme: "dark" });
+  const page = await ctx.newPage();
+  await page.goto("/");
+  await ready(page);
+  await expect(page.locator("html")).toHaveAttribute("data-theme", "light");
+  expect(await page.evaluate(() => getComputedStyle(document.body).backgroundColor)).toBe(PAPER.light);
+  await ctx.close();
 });
