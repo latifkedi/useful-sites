@@ -5,7 +5,8 @@
     "tags": [
       "akademik",
       "veri-bilimi",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-seti"
     ],
     "tr": "Büyük araştırma veri kümelerini BitTorrent üzerinden dağıtan topluluk arşivi. Kurumsal indirme bağlantılarından farkı dayanıklılığı — üniversite sunucusu kapansa bile veri tohumlayıcılarda yaşamaya devam ediyor.",
     "en": "A community archive distributing large research datasets over BitTorrent. Against institutional download links the difference is durability: when the university server goes away, the data survives in the swarm.",
@@ -194,7 +195,8 @@
       "awesome-liste",
       "github",
       "veri-bilimi",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-seti"
     ],
     "tr": "Herkese açık, konu konu düzenlenmiş veri kümelerinin listesi. Rastgele veri aramaktan farkı temiz, kullanılabilir ve alanına göre gruplanmış kaynaklara götürmesi.",
     "en": "A list of public datasets organised by topic. Unlike random data search it points to clean, usable sources grouped by domain.",
@@ -268,7 +270,8 @@
     "tags": [
       "veri-bilimi",
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-seti"
     ],
     "tr": "AWS üzerinde barındırılan büyük kamu veri kümelerinin kayıt defteri. Data.gov gibi portallardan farkı verinin doğrudan S3’te durması: indirmeden AWS içinde işleyebiliyorsun.",
     "en": "A registry of large public datasets hosted on AWS. Unlike portals such as Data.gov the data sits directly in S3, so you can process it inside AWS without downloading.",
@@ -280,7 +283,8 @@
     "tags": [
       "veri-bilimi",
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-seti"
     ],
     "tr": "Her ülke için coğrafya, nüfus, ekonomi, hükûmet ve askerî göstergeleri tek tip sayfalarda veren başvuru kaynağı; kamu malı. Wikipedia ülke maddelerinden farkı her ülkede aynı alanların aynı sırayla bulunması, böylece ülkeleri karşılaştırmak kolay. Kaynak bir istihbarat kurumu, yorum içeren alanlarda bunu akılda tut.",
     "en": "A reference giving geography, population, economy, government and military indicators for every country on uniform pages; public domain. Unlike Wikipedia country articles every country has the same fields in the same order, which makes comparison easy. The publisher is an intelligence agency — keep that in mind for interpretive fields.",
@@ -293,7 +297,8 @@
     "tags": [
       "veri-bilimi",
       "api",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-seti"
     ],
     "tr": "Google destekli, Census, WHO, BM ve onlarca kaynağın istatistiğini tek bir bilgi grafiğinde birleştiren proje; doğal dille sorgulanıyor ve API’si var. Tek tek kurum portallarından farkı farklı kaynaklı serileri tek sorguda yan yana getirmesi. Google’ın eski Public Data Explorer adresi buraya yönleniyor.",
     "en": "A Google-backed project that merges statistics from the Census, WHO, the UN and dozens of other sources into one knowledge graph, queryable in natural language and through an API. Unlike single-agency portals it sets series from different sources side by side in one query. Google’s old Public Data Explorer address redirects here.",
@@ -319,7 +324,8 @@
     "tags": [
       "veri-bilimi",
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-seti"
     ],
     "tr": "Avrupa Birliği’nin resmî açık veri portalı. Ulusal portallardan farkı üye ülkelerin veri kümelerini tek aramada birleştirmesi ve AB kurumlarının kendi verisini de içermesi.",
     "en": "The European Union’s official open-data portal. Unlike national portals, it merges member states’ datasets into one search and also includes data from the EU institutions themselves.",
@@ -331,7 +337,8 @@
     "tags": [
       "veri-bilimi",
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-seti"
     ],
     "tr": "ABD federal açık veri portalı; kanonik devlet veri kümeleri. Üçüncü taraf derlemelerden farkı resmî kaynak olması; kayıtların çoğu veriyi yayımlayan kurumun sitesine yönlendiriyor.",
     "en": "The US government’s open-data portal — canonical federal datasets. Unlike third-party compilations it is the official source; most records point on to the publishing agency’s site.",
@@ -343,7 +350,8 @@
     "tags": [
       "veri-bilimi",
       "açık-kaynak",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-seti"
     ],
     "tr": "Kullanıma hazır CSV/JSON biçiminde derlenmiş açık veri kümeleri ve araçları. Ham portal verisinden farkı temizlenmiş ve standart veri paketi (Frictionless Data) biçiminde sunulması.",
     "en": "Curated open datasets in ready CSV/JSON form, plus tooling. Unlike raw portal data, they are cleaned and published as standard Frictionless Data packages.",
@@ -355,7 +363,8 @@
     "tags": [
       "veri-bilimi",
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-seti"
     ],
     "tr": "Makine öğrenmesi veri kümelerini alana göre listeleyen dizin; boyut, lisans ve makale bağlantısı ile. Kaggle’dan farkı yarışma değil akademik ve endüstriyel kümeler olması — gerçek dünya verisi arayanlar için.",
     "en": "A directory of machine learning datasets by domain, with size, licence and paper links. Against Kaggle these are academic and industrial sets rather than competition data — for when you need something real.",
@@ -391,7 +400,8 @@
     "tags": [
       "akademik",
       "veri-bilimi",
-      "freemium"
+      "freemium",
+      "veri-seti"
     ],
     "tr": "Araştırma çıktılarını ve veri kümelerini DOI ile atıf verilebilir biçimde paylaştıran platform. Zenodo’ya kıyasla ticari bir şirketin (Digital Science) ürünü; üniversitelere kurumsal depo olarak da satılıyor.",
     "en": "A platform for sharing research outputs and datasets in citable form with DOIs. Compared with Zenodo it is a commercial product (Digital Science), also sold to universities as an institutional repository.",
@@ -403,7 +413,8 @@
     "tags": [
       "veri-bilimi",
       "interaktif",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-seti"
     ],
     "tr": "Hans Rosling’in kurduğu vakfın küresel kalkınma verisini olgu temelli görselleştirmelerle sunan araçları. Ham veri portallarından farkı veriyi yaygın yanılgıları düzeltecek biçimde, zaman içinde hareket eden grafiklerle anlatması.",
     "en": "Tools from the foundation Hans Rosling co-founded, presenting global development data through fact-based visualisations. Unlike raw data portals, it tells the data through charts moving over time, aimed at correcting common misconceptions.",
@@ -414,7 +425,8 @@
     "name": "Google Cloud Public Datasets",
     "tags": [
       "veri-bilimi",
-      "freemium"
+      "freemium",
+      "veri-seti"
     ],
     "tr": "BigQuery içinde duran kamuya açık veri kümeleri: GitHub, Wikipedia, hava durumu, nüfus sayımı. AWS Open Data Registry’den farkı verinin dosya olarak değil SQL ile sorgulanacak tablo olarak sunulması; aylık ücretsiz sorgu kotası içinde indirmeden çalışabiliyorsun.",
     "en": "Public datasets that live inside BigQuery: GitHub, Wikipedia, weather, the census. Unlike the AWS Open Data Registry the data comes as tables you query with SQL rather than files; within the monthly free query quota you can work without downloading.",
@@ -427,7 +439,8 @@
     "tags": [
       "ücretsiz",
       "veri-bilimi",
-      "rag"
+      "rag",
+      "veri-seti"
     ],
     "tr": "Web’e dağılmış açık veri kümelerini schema.org işaretlemesi üzerinden arıyor. Tek bir veri deposunun aramasından farkı hiçbir depoya bağlı olmaması: kurum arşivlerini de kapsıyor.",
     "en": "Searches open datasets scattered across the web via schema.org markup. Unlike a single repository’s search it is tied to none, so it reaches institutional archives too.",
@@ -439,7 +452,8 @@
     "name": "Google Trends",
     "tags": [
       "veri-bilimi",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-seti"
     ],
     "tr": "Arama ilgisinin zaman ve bölge içinde nasıl değiştiğini gösteren araç. Anahtar kelime planlayıcılarından farkı mutlak arama sayısı değil 0–100 arası göreli bir endeks vermesi; toplumsal ilgiyi, mevsimselliği ve yükselen konuları ölçmek için kullanışlı.",
     "en": "A tool showing how search interest changes over time and place. Unlike keyword planners it gives a relative 0–100 index rather than absolute search counts; useful for gauging public interest, seasonality and rising topics.",
@@ -452,7 +466,8 @@
     "tags": [
       "veri-bilimi",
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-seti"
     ],
     "tr": "OCHA’nın derlediği kriz ve insani yardım veri kümeleri. Genel açık veri portallarından farkı yalnız kriz bölgelerine odaklanması ve verinin sahadaki kuruluşlardan gelmesi.",
     "en": "Crisis and humanitarian datasets curated by OCHA. Unlike general open-data portals, it focuses on crisis areas, with data coming from organisations in the field.",
@@ -464,7 +479,8 @@
     "tags": [
       "veri-bilimi",
       "akademik",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-seti"
     ],
     "tr": "WordNet hiyerarşisine göre etiketlenmiş, on dört milyon görsellik veri kümesi. Diğer görüntü kümelerinden farkı tarihsel ağırlığı — 2012’deki derin öğrenme sıçraması bu küme üzerindeki yarışmadan çıktı, hâlâ ölçüt olarak kullanılıyor.",
     "en": "A dataset of fourteen million images labelled against the WordNet hierarchy. What sets it apart from other image sets is historical weight: the 2012 deep learning breakthrough came out of the competition on it, and it is still a benchmark.",
@@ -476,7 +492,8 @@
     "tags": [
       "ücretsiz",
       "veri-bilimi",
-      "awesome-liste"
+      "awesome-liste",
+      "veri-seti"
     ],
     "tr": "Yarışma, veri kümesi ve not defteri aynı platformda. Diğer veri kümesi sitelerinden farkı, kazanan çözümlerin yarışma bitince açıkça paylaşılması — uygulamalı ML’in en iyi açık arşivi.",
     "en": "Competitions, datasets and notebooks on one platform. Unlike other dataset sites, winning solutions are published once a contest closes, making it the best open archive of applied ML.",
@@ -586,7 +603,8 @@
     "tags": [
       "veri-bilimi",
       "api",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-seti"
     ],
     "tr": "NASA’nın uydu ve yer gözlemi verilerini tek kapıdan sunan portal; yağıştan buz örtüsüne, bitki örtüsünden atmosfere kadar. NOAA’nın yer istasyonu kayıtlarından farkı uzaydan alınan görüntü ve ölçümlere dayanması; indirmek için ücretsiz bir Earthdata hesabı gerekiyor.",
     "en": "NASA’s portal to its satellite and Earth-observation data, from rainfall and ice cover to vegetation and the atmosphere. Unlike NOAA’s ground-station records it rests on measurements taken from space; downloads need a free Earthdata account.",
@@ -599,7 +617,8 @@
     "tags": [
       "veri-bilimi",
       "api",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-seti"
     ],
     "tr": "ABD’nin hava, iklim, okyanus ve jeofizik verilerinin ulusal arşivi; eski adıyla NCDC. NASA Earthdata’dan farkı uydu görüntüsünden çok istasyon ve gözlem kayıtlarının onlarca yıllık serilerini tutması — geçmiş hava durumu için asıl kaynak.",
     "en": "The US national archive of weather, climate, ocean and geophysical data, formerly NCDC. Unlike NASA Earthdata it holds decades-long series of station and observation records rather than imagery — the primary source for past weather.",
@@ -612,7 +631,8 @@
     "tags": [
       "veri-bilimi",
       "api",
-      "freemium"
+      "freemium",
+      "veri-seti"
     ],
     "tr": "Ülkelerin ticaret sicillerini tek aramada birleştiren, şirketler üzerine en büyük açık veri tabanı. Tek tek ulusal sicillerden farkı birçok yargı alanını aynı biçimde sunması; yönetici ve bağlı şirket ilişkileri araştırmaya elverişli, yoğun API kullanımı ücretli.",
     "en": "The largest open database of companies, merging national company registers into one search. Unlike individual national registers it presents many jurisdictions in the same form; officer and affiliate links make it useful for investigation, while heavy API use is paid.",
@@ -625,7 +645,8 @@
     "tags": [
       "veri-bilimi",
       "referans",
-      "freemium"
+      "freemium",
+      "veri-seti"
     ],
     "tr": "Kurumların ve belediyelerin veri portalı kurduğu platform; portallar arası aranabilir veri kümeleri sunuyor. Tek tek portalları gezmek yerine bu platformu kullanan portalların verisinde birlikte arama yapabiliyorsun.",
     "en": "A platform institutions and cities use to run data portals, with datasets searchable across portals. Rather than visiting portals one by one, you can search the data of every portal built on it together.",
@@ -708,7 +729,8 @@
     "name": "r/datasets",
     "tags": [
       "veri-bilimi",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-seti"
     ],
     "tr": "Veri kümesi bulma ve isteme topluluğu. Katalog sitelerinden farkı aradığın veri yoksa bir yazıyla isteyebilmen ve başkalarının bulduklarını görmen; kalite denetimi yok, bu yüzden lisansı ve kaynağı kendin kontrol et.",
     "en": "A community for finding and requesting datasets. Unlike catalogue sites you can post a request when the data you want is missing and see what others have found; there is no quality control, so check the licence and source yourself.",
@@ -817,7 +839,8 @@
     "tags": [
       "veri-bilimi",
       "akademik",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-seti"
     ],
     "tr": "Makine öğrenmesi araştırmasının en eski veri arşivlerinden; Iris ve Adult gibi klasik küçük veri kümelerinin yuvası. Kaggle’dan farkı yarışma değil akademik bir arşiv olması: her küme bağış yapanı, alan tanımı ve atıf bilgisiyle geliyor, makalelerde ölçüt olarak kullanılıyor.",
     "en": "One of the oldest archives for machine-learning research, home to classic small sets such as Iris and Adult. Unlike Kaggle it is an academic archive rather than a contest site: each set comes with its donor, field descriptions and citation, and papers use them as benchmarks.",
@@ -830,7 +853,8 @@
     "tags": [
       "veri-bilimi",
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-seti"
     ],
     "tr": "Birleşmiş Milletler kuruluşlarının istatistiklerini tek aramada toplayan veri servisi: nüfus, tarım, enerji, ticaret, eğitim. Tek tek kurumların sitelerini gezmekten farkı ülke ve yıl bazında karşılaştırmalı tablolar çıkarması; derinlik için kaynak kuruluşun kendi portalı daha iyi.",
     "en": "A data service pulling the statistics of UN bodies into one search: population, agriculture, energy, trade, education. Unlike visiting each agency’s site it builds country-by-year comparison tables; for depth, the source agency’s own portal is better.",
@@ -843,7 +867,8 @@
     "tags": [
       "veri-bilimi",
       "akademik",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-seti"
     ],
     "tr": "Uppsala Üniversitesi’nin silahlı çatışma ve örgütlü şiddet veri programı; olay düzeyinde, koordinatlı kayıtlar tutuyor. Haber arşivlerinden farkı her olayın kodlama kurallarına göre doğrulanmış olması; çatışma araştırmalarında standart başvuru.",
     "en": "Uppsala University’s data programme on armed conflict and organised violence, keeping event-level records with coordinates. Unlike news archives each event is verified against coding rules; it is a standard reference in conflict research.",
@@ -856,7 +881,8 @@
     "tags": [
       "veri-bilimi",
       "api",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-seti"
     ],
     "tr": "Dünya Sağlık Örgütü’nün ülke bazlı sağlık göstergeleri: ölüm nedenleri, aşılama, sağlık harcaması, risk etkenleri. Ulusal sağlık kurumlarının verisinden farkı ülkeleri aynı tanım ve yöntemle karşılaştırılabilir kılması; veriye API ile de erişiliyor.",
     "en": "The World Health Organization’s country-level health indicators: causes of death, vaccination, health spending, risk factors. Unlike national health agencies’ figures, it puts countries on the same definitions and methods so they can be compared; the data is also available through an API.",
@@ -869,7 +895,8 @@
     "tags": [
       "akademik",
       "veri-bilimi",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-seti"
     ],
     "tr": "CERN destekli açık araştırma deposu; veri kümesi ve yazılıma DOI veriyor. Figshare’den farkı kâr amacı gütmemesi ve GitHub sürümlerini otomatik arşivleyip DOI’leyebilmesi.",
     "en": "A CERN-backed open research repository that mints DOIs for datasets and software. Unlike Figshare it is non-profit, and it can automatically archive and DOI your GitHub releases.",

@@ -27,7 +27,7 @@ CANON = [
     'algoritma', 'git', 'sunucu',
     # --- other areas
     'güvenlik', 'osint', 'gizlilik', 'ağ', 'donanım', 'gömülü', 'cad',
-    'veri-bilimi', 'akademik', 'kuantum',
+    'veri-bilimi', 'veri-seti', 'akademik', 'kuantum',
     # --- context
     'türkçe', 'mülakat', 'sertifika', 'arşivlenmiş',
 ]
@@ -106,7 +106,8 @@ ALIAS = {
     'cypher': 'veritabanı', 'önbellek': 'veritabanı', 'veri-yapısı': 'veritabanı',
     'modelleme': 'veritabanı', 'spark': 'veri-bilimi', 'etl': 'veri-bilimi',
     'automl': 'veri-bilimi', 'ml': 'veri-bilimi', 'düşük-kod': 'veri-bilimi',
-    'veri': 'veri-bilimi', 'veri-kümesi': 'veri-bilimi', 'analiz': 'veri-bilimi',
+    'veri': 'veri-bilimi', 'veri-kümesi': 'veri-seti', 'analiz': 'veri-bilimi',
+    'dataset': 'veri-seti', 'datasets': 'veri-seti', 'açık-veri': 'veri-seti',
     'zaman-serisi': 'veri-bilimi', 'finans': 'veri-bilimi', 'backtest': 'veri-bilimi',
     'veri-görselleştirme': 'veri-bilimi', 'istatistik': 'veri-bilimi',
     'barındırma': 'sunucu', 'vps': 'sunucu', 'bulut': 'sunucu', 'aws': 'sunucu',
@@ -230,6 +231,7 @@ LABELS = {
     'gömülü':              ('Gömülü', 'Embedded'),
     'cad':                 ('CAD', 'CAD'),
     'veri-bilimi':         ('Veri Bilimi', 'Data Science'),
+    'veri-seti':           ('Veri Seti', 'Dataset'),
     'akademik':            ('Akademik', 'Academic'),
     'kuantum':             ('Kuantum', 'Quantum'),
     'türkçe':              ('Türkçe', 'Turkish'),

@@ -31,7 +31,7 @@ undeclared source, a duplicate URL, broken JSON or a file for a category that
 does not exist stops the build with the file and position named. The old
 loader silently dropped records instead, which is why this one does not.
 
-Tags come from the 64 canonical tags in `tags.py`. Anything else is looked up
+Tags come from the 65 canonical tags in `tags.py`. Anything else is looked up
 in the `ALIAS` table and mapped to a canonical equivalent; if it maps to
 nothing, it is dropped rather than guessed at. Common English spellings
 (`open-source`, `database`, `oss`, `k8s`) are covered — that layer is derived
@@ -52,7 +52,7 @@ overwrites it.
 | `build.py` | Merges everything into the published files |
 | `emit.py` | Static category pages, sitemap, robots, Atom feed |
 | `readlinks.py` | Reads the record list back out of `links.js` |
-| `tags.py` | Collapses free-form tags into 64 canonical ones, with display labels |
+| `tags.py` | Collapses free-form tags into 65 canonical ones, with display labels |
 | `picks.py` | Entries marked as starting points, a few per category |
 | `sources.py` | Where each record came from (own archive / external list) |
 | `intros.py` | Category introduction texts |
