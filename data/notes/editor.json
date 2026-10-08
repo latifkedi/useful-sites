@@ -17,8 +17,8 @@
     "name": "Awesome CLI",
     "tags": [
       "awesome-liste",
-      "github",
-      "cli"
+      "cli",
+      "ücretsiz"
     ],
     "tr": "Komut satırında kullanışlı, küçük araçları toplayan liste. awesome-shell gibi geniş listelerden farkı tek iş gören, hemen kurulup kullanılabilecek küçük araçlara odaklanması.",
     "en": "A list gathering useful, small command-line tools. Unlike broad lists such as awesome-shell, it focuses on small single-purpose tools you can install and use right away.",
@@ -29,9 +29,9 @@
     "name": "Awesome Git Addons",
     "tags": [
       "awesome-liste",
-      "github",
       "git",
-      "cli"
+      "cli",
+      "ücretsiz"
     ],
     "tr": "git komut satırını genişleten ek komut ve araç listesi. Git istemcilerinden farkı grafik arayüz değil, `git`’e yeni alt komutlar ekleyen araçları toplaması.",
     "en": "A list of add-on commands and tools that enhance the git CLI. Unlike git clients, it collects not GUIs but tools that add new subcommands to `git`.",
@@ -42,8 +42,8 @@
     "name": "Awesome Hyper",
     "tags": [
       "awesome-liste",
-      "github",
-      "cli"
+      "cli",
+      "ücretsiz"
     ],
     "tr": "Web teknolojili terminal Hyper için tema ve eklenti listesi. Alacritty gibi yerel terminallerden farkı Electron üzerine kurulu olması: HTML/CSS/JS ile tema ve eklenti yazabiliyorsun; karşılığında daha ağır.",
     "en": "A list of themes and plugins for Hyper, the web-tech terminal. Unlike native terminals such as Alacritty it is built on Electron, so themes and plugins are HTML/CSS/JS; the price is weight.",
@@ -54,7 +54,7 @@
     "name": "Awesome Neovim",
     "tags": [
       "awesome-liste",
-      "github"
+      "ücretsiz"
     ],
     "tr": "Neovim editörü için eklenti ve yapılandırma listesi. Vim eklenti listelerinden farkı Lua ile yazılmış ve Tree-sitter ile LSP gibi yalnız Neovim’de bulunan özelliklere dayanan eklentileri toplaması.",
     "en": "A list of plugins and configurations for the Neovim editor. Unlike Vim plugin lists, it gathers plugins written in Lua that rely on Neovim-only features such as Tree-sitter and LSP.",
@@ -65,7 +65,7 @@
     "name": "Awesome VS Code",
     "tags": [
       "awesome-liste",
-      "github"
+      "ücretsiz"
     ],
     "tr": "Visual Studio Code için uzantı ve kaynak listesi. Marketplace’in kendisinden farkı küratörlü olması: binlerce uzantı yerine denenmiş olanları dile ve işe göre gruplaması.",
     "en": "A list of extensions and resources for Visual Studio Code. Unlike the Marketplace itself it is curated: instead of thousands of extensions, it groups proven ones by language and task.",
@@ -77,7 +77,8 @@
     "tags": [
       "cli",
       "açık-kaynak",
-      "masaüstü"
+      "masaüstü",
+      "ücretsiz"
     ],
     "tr": "Windows için taşınabilir, güzel bir konsol paketi; bash ve unix komutlarıyla gelir. Yerleşik cmd’den farkı sekme, tema ve unix araçlarını bir arada sunması.",
     "en": "A portable, pleasant console package for Windows that ships with bash and unix commands. Unlike the built-in cmd it offers tabs, themes and unix tools together.",
@@ -100,7 +101,8 @@
     "tags": [
       "açık-kaynak",
       "masaüstü",
-      "sunucu"
+      "sunucu",
+      "ücretsiz"
     ],
     "tr": "Masaüstünde ve tarayıcıda çalışan, VS Code eklentileriyle uyumlu IDE çatısı. VS Code’dan farkı ürün değil çatı olması — kendi markanla, kendi eklenti setinle bir IDE inşa etmen için tasarlanmış.",
     "en": "An IDE framework that runs on the desktop and in the browser and takes VS Code extensions. The difference from VS Code is that it is a framework rather than a product — built for you to construct your own IDE on top of.",
@@ -137,8 +139,8 @@
     "name": "fli",
     "tags": [
       "açık-kaynak",
-      "github",
-      "cli"
+      "cli",
+      "ücretsiz"
     ],
     "tr": "Uçuş aramayı komut satırına taşıyor; MCP, CLI ve Python kütüphanesi olarak kullanılabiliyor. Uçuş sitelerinden farkı sonuçların betiklenebilir olması: fiyat takibini bir cron işine bağlayabiliyorsun.",
     "en": "Brings flight search to the command line, usable as an MCP server, a CLI and a Python library. Unlike flight sites the results are scriptable, so you can hang price tracking off a cron job.",
@@ -151,7 +153,7 @@
     "tags": [
       "cli",
       "git",
-      "github"
+      "ücretsiz"
     ],
     "tr": "Git komut satırını GitHub işlemleriyle (PR, issue, fork) genişleten sarmalayıcı. Resmî gh aracından farkı git komutlarını doğrudan sarmalaması; artık gh’nin gerisinde kaldı, yeni kurulumlarda gh tercih ediliyor.",
     "en": "A wrapper extending the git command line with GitHub operations (PRs, issues, forks). Unlike the official gh tool it wraps git commands directly; it now trails gh, which is preferred for new setups.",
@@ -163,7 +165,8 @@
     "tags": [
       "cli",
       "açık-kaynak",
-      "masaüstü"
+      "masaüstü",
+      "ücretsiz"
     ],
     "tr": "Web teknolojileriyle yazılmış, eklentilerle genişleyen açık kaynak terminal. Alacritty gibi yerel terminallerden farkı Electron üzerine kurulu olması: HTML/CSS/JS ile tema yazabiliyorsun, karşılığında daha ağır.",
     "en": "An open-source terminal built with web technologies and extensible via plugins. Unlike native terminals such as Alacritty it is built on Electron, so you theme it with HTML/CSS/JS at the cost of more weight.",
@@ -223,7 +226,7 @@
     "tags": [
       "cli",
       "açık-kaynak",
-      "github"
+      "ücretsiz"
     ],
     "tr": "Sisteminin ne zaman çalıştığını terminalde görsel olarak gösteren araç; depo 2013’ten beri güncellenmiyor. Düz `last` çıktısından farkı verileri renkli bir zaman grafiğine dökmesi.",
     "en": "A tool that visualises when your system was running, right in the terminal; the repository has not been updated since 2013. Unlike plain `last` output it renders the data as a coloured time chart.",

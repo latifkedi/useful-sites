@@ -16,9 +16,9 @@
     "name": "Awesome Web Archiving",
     "tags": [
       "awesome-liste",
-      "github",
       "referans",
-      "arşivlenmiş"
+      "arşivlenmiş",
+      "ücretsiz"
     ],
     "tr": "Web’i gelecek için koruma (arşivleme) araç ve kaynaklarının listesi. Wayback Machine’i kullanmaktan farkı kendi arşivini kurmana yarayan araçları — tarayıcılar, WARC araçları, oynatıcılar — toplaması; uluslararası arşiv konsorsiyumu IIPC sürdürüyor.",
     "en": "A list of tools and resources for preserving the web for the future (archiving). Unlike using the Wayback Machine, it gathers tools for running your own archive — crawlers, WARC tools, replay; maintained by the IIPC consortium.",
@@ -68,9 +68,9 @@
     "name": "grab-site",
     "tags": [
       "arşivlenmiş",
-      "github",
       "python",
-      "cli"
+      "cli",
+      "ücretsiz"
     ],
     "tr": "WARC çıktısı üreten, tüm taramaları tek panelden izlenen arşivci web tarayıcısı. wget gibi araçlardan farkı dinamik yok sayma kuralları: tarama sürerken tuzağa düşüren desenleri anında dışlayıp büyük siteleri düzgün arşivleyebiliyorsun.",
     "en": "An archivist’s web crawler with WARC output and a dashboard for all crawls. Unlike tools like wget it has dynamic ignore rules: you exclude trap patterns mid-crawl, so large sites archive cleanly.",
@@ -193,9 +193,9 @@
     "name": "WikiTeam",
     "tags": [
       "arşivlenmiş",
-      "github",
       "python",
-      "cli"
+      "cli",
+      "ücretsiz"
     ],
     "tr": "MediaWiki wiki’lerini indirip arşivleyen araç takımı; 600.000’den fazla wiki korunmuş. Genel site kopyalayıcılardan farkı wiki’ye özel olması: sayfa geçmişi ve medya dâhil tam döküm alıyor, HTML kabuğunu değil.",
     "en": "A toolset that downloads and archives MediaWiki wikis — 600,000+ preserved. Unlike general site copiers it is wiki-specific: it takes a full dump including page history and media, not just the HTML shell.",

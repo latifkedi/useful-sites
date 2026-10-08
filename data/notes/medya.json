@@ -30,9 +30,9 @@
     "name": "Awesome Creative Coding",
     "tags": [
       "awesome-liste",
-      "github",
       "referans",
-      "görsel-üretim"
+      "görsel-üretim",
+      "ücretsiz"
     ],
     "tr": "İşlevsel değil ifadeye yönelik (yaratıcı) programlama için kaynak listesi.",
     "en": "A resource list for creative coding — programming to express rather than to function.",
@@ -43,9 +43,9 @@
     "name": "Awesome FFmpeg",
     "tags": [
       "awesome-liste",
-      "github",
       "video",
-      "referans"
+      "referans",
+      "ücretsiz"
     ],
     "tr": "Ses/video kaydetme, dönüştürme ve akıtma aracı FFmpeg için kaynak listesi. FFmpeg belgelerinden farkı komut örneklerini, grafik arayüzleri ve dillere göre kütüphane sarmalayıcılarını toplaması.",
     "en": "A resource list for FFmpeg, recording, converting and streaming audio/video. Unlike the FFmpeg docs, it gathers command examples, GUIs and library wrappers per language.",
@@ -56,9 +56,9 @@
     "name": "Awesome VLC",
     "tags": [
       "awesome-liste",
-      "github",
       "video",
-      "referans"
+      "referans",
+      "ücretsiz"
     ],
     "tr": "Çapraz platform medya oynatıcı VLC için eklenti ve kaynak listesi. Genel medya oynatıcı listelerinden farkı yalnız VLC ve libVLC’ye odaklanması: eklentiler, dil bağlamaları, üzerine kurulan projeler.",
     "en": "A list of plugins and resources for VLC, the cross-platform media player. Unlike general media-player lists, it focuses on VLC and libVLC alone: plugins, language bindings, projects built on top.",
@@ -132,7 +132,8 @@
     "tags": [
       "açık-kaynak",
       "görsel-üretim",
-      "tarayıcı-içi"
+      "tarayıcı-içi",
+      "ücretsiz"
     ],
     "tr": "El çizimi görünümlü beyaz tahta. Kasıtlı olarak kaba durması bir üslup tercihi değil işlevsel: taslak aşamasındaki bir mimarinin bitmiş sanılmasını engelliyor.",
     "en": "A hand-drawn-style whiteboard. Looking deliberately rough is functional rather than stylistic — it stops a draft architecture being mistaken for a finished one.",
@@ -209,7 +210,8 @@
     "tags": [
       "açık-kaynak",
       "masaüstü",
-      "video"
+      "video",
+      "ücretsiz"
     ],
     "tr": "Videoyu yeniden kodlamadan kesip birleştiren araç; anahtar kare sınırlarında çalışıyor. Klasik video editörlerinden farkı işlemin saniyeler sürmesi ve kalite kaybı olmaması — bir saatlik kaydın başını sonunu almak için editör açmaya gerek yok.",
     "en": "Cuts and joins video without re-encoding, working on keyframe boundaries. Against a normal editor the operation takes seconds and loses no quality — trimming the head and tail off an hour of footage no longer means opening a timeline.",
@@ -245,7 +247,8 @@
     "tags": [
       "açık-kaynak",
       "görsel-üretim",
-      "dokümantasyon"
+      "dokümantasyon",
+      "ücretsiz"
     ],
     "tr": "Akış şeması ve diyagramları metinden üreten araç — “diyagramların Markdown’ı”. Çizim programlarından farkı diyagramı koda gömüp sürüm kontrolünde tutabilmen.",
     "en": "A tool generating flowcharts and diagrams from text — “Markdown for diagrams”. Unlike drawing programs you embed the diagram as code and keep it in version control.",
@@ -280,9 +283,9 @@
     "name": "OpenReel Video",
     "tags": [
       "açık-kaynak",
-      "github",
       "video",
-      "tarayıcı-içi"
+      "tarayıcı-içi",
+      "ücretsiz"
     ],
     "tr": "Tarayıcıda çalışan video düzenleyici; görüntü cihazdan çıkmıyor. Kurulum istemeyen ve bulut servisine yüklemeyen bir alternatif.",
     "en": "A video editor running in the browser with the footage staying on device — an alternative that needs no installation and no upload to a cloud service.",

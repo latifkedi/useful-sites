@@ -56,8 +56,8 @@
     "name": "Awesome Agriculture",
     "tags": [
       "awesome-liste",
-      "github",
-      "donanım"
+      "donanım",
+      "ücretsiz"
     ],
     "tr": "Tarım ve bahçecilik için açık kaynak teknoloji ve araç listesi. Ticari tarım yazılımlarından farkı yalnız açık kaynak olanları — sensör, sulama, çiftlik yönetimi, veri — toplaması.",
     "en": "A list of open-source technology and tools for farming and gardening. Unlike commercial agriculture software, it gathers only open-source options — sensors, irrigation, farm management, data.",
@@ -68,9 +68,9 @@
     "name": "Awesome Bioinformatics",
     "tags": [
       "awesome-liste",
-      "github",
       "akademik",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Biyolojik verinin çözümlenmesi (biyoinformatik) için araç ve kaynak listesi. Genel veri bilimi listelerinden farkı dizi hizalama ve varyant çağırma gibi biyolojiye özgü araçlara odaklanması.",
     "en": "A list of tools and resources for analysing biological data (bioinformatics). Unlike general data-science lists, it focuses on biology-specific tools such as sequence alignment and variant calling.",
@@ -81,8 +81,8 @@
     "name": "Awesome Citizen Science",
     "tags": [
       "awesome-liste",
-      "github",
-      "akademik"
+      "akademik",
+      "ücretsiz"
     ],
     "tr": "Topluluk temelli, kurum-dışı bilim (yurttaş bilimi) için kaynak listesi. Akademik bilim kaynaklarından farkı kurum dışından katılıma açık projeleri, araçları ve donanımları toplaması.",
     "en": "A list for community-based, non-institutional science (citizen science). Unlike academic science resources, it gathers projects, tools and hardware open to people outside institutions.",
@@ -93,9 +93,9 @@
     "name": "Awesome Clean Tech",
     "tags": [
       "awesome-liste",
-      "github",
       "referans",
-      "akademik"
+      "akademik",
+      "ücretsiz"
     ],
     "tr": "İklim değişikliğiyle teknolojiyle mücadele eden proje ve kaynakların listesi. Genel sürdürülebilirlik yazılarından farkı açık kaynak projelere ve yazılımcıların katkı verebileceği alanlara odaklanması.",
     "en": "A list of projects and resources fighting climate change with technology. Unlike general sustainability writing, it focuses on open-source projects and areas where developers can contribute.",
@@ -106,9 +106,9 @@
     "name": "Awesome Computational Biology",
     "tags": [
       "awesome-liste",
-      "github",
       "akademik",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Biyoloji problemlerine hesaplamalı yaklaşımlar için kaynak listesi. Araç ağırlıklı biyoinformatik listelerinden farkı kursları, kitapları ve yöntemleri de araçlarla birlikte vermesi.",
     "en": "A list of resources for computational approaches to biology problems. Unlike tool-heavy bioinformatics lists, it pairs courses, books and methods with the tools.",
@@ -119,8 +119,8 @@
     "name": "Awesome Healthcare",
     "tags": [
       "awesome-liste",
-      "github",
-      "açık-kaynak"
+      "açık-kaynak",
+      "ücretsiz"
     ],
     "tr": "Sağlık kuruluşları için açık kaynak sağlık yazılımı listesi. Ticari sağlık yazılımlarından farkı açık kaynak olanları — elektronik sağlık kaydı, görüntüleme, HL7/FHIR gibi standartlar — toplaması.",
     "en": "A list of open-source healthcare software for facilities. Unlike commercial health software, it gathers open-source options — electronic health records, imaging, standards such as HL7/FHIR.",
@@ -131,8 +131,8 @@
     "name": "Awesome Information Retrieval",
     "tags": [
       "awesome-liste",
-      "github",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Kendi arama motorunu geliştirmeyi öğreten bilgi getirimi kaynakları listesi. Elasticsearch gibi hazır motorların belgelerinden farkı arkadaki kuramı — dizinleme, sıralama, değerlendirme — öğretmesi.",
     "en": "A list of information-retrieval resources for learning to build your own search engine. Unlike the docs of ready engines such as Elasticsearch, it teaches the theory underneath — indexing, ranking, evaluation.",
@@ -143,9 +143,9 @@
     "name": "Awesome LaTeX",
     "tags": [
       "awesome-liste",
-      "github",
       "akademik",
-      "referans"
+      "referans",
+      "ücretsiz"
     ],
     "tr": "Bilimsel dizgi dili LaTeX için paket, şablon ve araç listesi. Overleaf belgelerinden farkı editörleri, paketleri ve şablonları tek bir hizmete bağlı olmadan toplaması.",
     "en": "A list of packages, templates and tools for LaTeX, the scientific typesetting language. Unlike Overleaf’s docs, it gathers editors, packages and templates without tying them to one service.",
@@ -156,8 +156,8 @@
     "name": "Awesome Neuroimaging",
     "tags": [
       "awesome-liste",
-      "github",
-      "akademik"
+      "akademik",
+      "ücretsiz"
     ],
     "tr": "Canlı beyin verisini çözümlemek için görüntüleme yazılımları listesi. Genel görüntü işleme listelerinden farkı MR ve fMRI gibi beyin verisine özgü yazılımlara odaklanması.",
     "en": "A list of imaging software for analysing brain data from living subjects. Unlike general image-processing lists, it focuses on software specific to brain data such as MRI and fMRI.",
@@ -168,8 +168,8 @@
     "name": "Awesome Neuroscience",
     "tags": [
       "awesome-liste",
-      "github",
-      "akademik"
+      "akademik",
+      "ücretsiz"
     ],
     "tr": "Sinir sistemi ve beyin çalışmaları için hesaplamalı kaynak listesi. Neuroimaging listesinden farkı görüntülemeye değil hesaplamalı modellemeye, veri kaynaklarına ve kurslara odaklanması.",
     "en": "A list of computational resources for studying the nervous system and brain. Unlike the neuroimaging list, it focuses on computational modelling, data sources and courses rather than imaging.",
@@ -180,9 +180,9 @@
     "name": "Awesome Quarto",
     "tags": [
       "awesome-liste",
-      "github",
       "akademik",
-      "dokümantasyon"
+      "dokümantasyon",
+      "ücretsiz"
     ],
     "tr": "Bilimsel ve teknik açık kaynak yayıncılık sistemi Quarto için kaynak listesi. R Markdown’dan farkı dile bağımsız olması: aynı belgeyi Python, R, Julia ya da Observable ile yazıyorsun.",
     "en": "A resource list for Quarto, the scientific and technical open-source publishing system. Unlike R Markdown it is language-agnostic: you write the same document with Python, R, Julia or Observable.",
@@ -193,8 +193,8 @@
     "name": "Awesome Scientific Computing",
     "tags": [
       "awesome-liste",
-      "github",
-      "akademik"
+      "akademik",
+      "ücretsiz"
     ],
     "tr": "Karmaşık bilimsel problemleri bilgisayarla çözmek için araç ve kütüphane listesi. Veri bilimi listelerinden farkı sayısal yöntemlere — sonlu elemanlar, doğrusal cebir, diferansiyel denklem çözücüleri — odaklanması.",
     "en": "A list of tools and libraries for solving complex scientific problems by computer. Unlike data-science lists, it focuses on numerical methods — finite elements, linear algebra, differential-equation solvers.",
@@ -205,8 +205,8 @@
     "name": "Awesome Theoretical CS",
     "tags": [
       "awesome-liste",
-      "github",
-      "akademik"
+      "akademik",
+      "ücretsiz"
     ],
     "tr": "Bilgisayar bilimi ile saf matematiğin kesişimi (kuramsal CS) için kaynak listesi. Pratik programlama listelerinden farkı karmaşıklık kuramı, algoritma analizi ve mantık gibi kuramsal alanları kapsaması.",
     "en": "A list for the interplay of computer science and pure mathematics (theoretical CS). Unlike practical programming lists, it covers theoretical fields such as complexity theory, algorithm analysis and logic.",
@@ -219,7 +219,7 @@
       "referans",
       "öğretici",
       "akademik",
-      "github"
+      "ücretsiz"
     ],
     "tr": "Yeni başlayanlar için dakikalar içinde LaTeX’e kısa giriş. Overleaf’in uzun rehberlerinden farkı tek sayfalık, hızlı başlangıç olması: belge yapısı, matematik, tablo ve kaynakça temelleri.",
     "en": "A brief intro to LaTeX for beginners, in minutes. Unlike Overleaf’s long guides it is a one-page quick start: document structure, maths, tables and bibliography basics.",
@@ -549,7 +549,8 @@
     "tags": [
       "açık-kaynak",
       "akademik",
-      "tarayıcı-içi"
+      "tarayıcı-içi",
+      "ücretsiz"
     ],
     "tr": "Bulunduğun konumun gerçek gökyüzünü tarayıcıda gösteriyor; zamanı ileri sarıp gezegen konumlarını görebiliyorsun. Masaüstü Stellarium’dan farkı kurulum gerektirmemesi.",
     "en": "Shows the real sky for your location in the browser, with time you can wind forward to see planetary positions. Unlike desktop Stellarium it needs no installation.",
@@ -587,7 +588,8 @@
     "tags": [
       "açık-kaynak",
       "interaktif",
-      "akademik"
+      "akademik",
+      "ücretsiz"
     ],
     "tr": "Vikipedi maddelerinin bağlantı ağını graf olarak gezdiriyor. Madde madde okumaktan farkı kavramlar arası uzaklığı metne girmeden görmen: bir alanın yapısını hızlı çıkarıyor.",
     "en": "Explores Wikipedia’s link network as a graph. Unlike reading article by article, you see conceptual distance without entering the text, which sketches a field’s structure quickly.",

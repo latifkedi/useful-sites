@@ -29,8 +29,8 @@
     "name": "Awesome ChatGPT",
     "tags": [
       "awesome-liste",
-      "github",
-      "llm"
+      "llm",
+      "ücretsiz"
     ],
     "tr": "OpenAI’nin sohbet modeli ChatGPT için araç, eklenti ve kaynak listesi. Genel LLM listelerinden farkı yalnız ChatGPT çevresindeki uygulamaları, tarayıcı eklentilerini ve istemcileri toplaması.",
     "en": "A list of tools, plugins and resources for ChatGPT, OpenAI’s chat model. Unlike general LLM lists, it gathers only apps, browser extensions and clients built around ChatGPT.",
@@ -106,7 +106,8 @@
     "tags": [
       "api",
       "dokümantasyon",
-      "llm"
+      "llm",
+      "ücretsiz"
     ],
     "tr": "Gemini API ve açık ağırlıklı Gemma ailesinin geliştirici kapısı. OpenAI API’sine kıyasla ücretsiz kotası gerçek bir prototip taşıyacak kadar geniş ve kredi kartı istemiyor.",
     "en": "Developer gateway for the Gemini API and the open-weight Gemma family. Compared with the OpenAI API, its free tier is wide enough to carry a real prototype and asks for no card.",
@@ -186,7 +187,8 @@
     "tags": [
       "llm",
       "açık-kaynak",
-      "açık-ağırlık"
+      "açık-ağırlık",
+      "ücretsiz"
     ],
     "tr": "Modelleri yerelde, çevrimdışı çalıştıran masaüstü uygulaması. LM Studio’dan farkı tamamen açık kaynak olması; sohbet verisi cihazdan çıkmıyor.",
     "en": "A desktop app that runs models locally and offline. Unlike LM Studio it is fully open source; chat data never leaves the device.",
@@ -314,7 +316,8 @@
     "tags": [
       "açık-kaynak",
       "cli",
-      "self-hosted"
+      "self-hosted",
+      "ücretsiz"
     ],
     "tr": "llama.cpp üzerine kurulu, tek komutla model indirip çalıştıran araç. Doğrudan llama.cpp kullanmaktan farkı OpenAI uyumlu bir yerel API açması: mevcut istemci kodun değişmeden çalışıyor.",
     "en": "Built on llama.cpp; one command pulls and runs a model. Unlike using llama.cpp directly, it exposes an OpenAI-compatible local endpoint, so existing client code runs unchanged.",
@@ -328,7 +331,8 @@
       "açık-kaynak",
       "self-hosted",
       "docker",
-      "tarayıcı-içi"
+      "tarayıcı-içi",
+      "ücretsiz"
     ],
     "tr": "Ollama veya herhangi bir OpenAI uyumlu uç noktanın önüne geçen web arayüzü; genelde Docker ile kuruluyor. Komut satırında sohbet etmek yerine çok kullanıcı, rol yönetimi ve RAG için belge yükleme getiriyor.",
     "en": "A web front-end for Ollama or any OpenAI-compatible endpoint, usually deployed with Docker. Instead of chatting on the command line, it adds multi-user accounts, role management and document upload for RAG.",
@@ -340,7 +344,8 @@
     "name": "OpenAI API Dokümantasyonu",
     "tags": [
       "dokümantasyon",
-      "api"
+      "api",
+      "ücretsiz"
     ],
     "tr": "Chat Completions, Responses ve Realtime uç noktalarının parametre referansı. Topluluk rehberlerinden farkı birincil kaynak olması: fonksiyon çağırma şeması ve akış (streaming) davranışı için son söz burada.",
     "en": "Parameter reference for the Chat Completions, Responses and Realtime endpoints. Unlike community guides it is the primary source — the last word on function-calling schemas and streaming behaviour.",
@@ -367,7 +372,8 @@
       "açık-kaynak",
       "self-hosted",
       "llm",
-      "agent"
+      "agent",
+      "ücretsiz"
     ],
     "tr": "Kendi makinende çalışan kişisel asistan; kendi arayüzü yok, WhatsApp ve Telegram gibi zaten kullandığın sohbet uygulamalarına bağlanıyor. Barındırılan asistanların aksine veriler cihazından çıkmıyor.",
     "en": "A personal assistant that runs on your own machine; it has no UI of its own and hooks into chat apps you already use, such as WhatsApp and Telegram. Unlike hosted assistants, data never leaves the device.",
@@ -443,7 +449,8 @@
       "açık-kaynak",
       "python",
       "llm",
-      "self-hosted"
+      "self-hosted",
+      "ücretsiz"
     ],
     "tr": "PagedAttention ile KV önbelleğini sayfalayarak GPU belleğini verimli kullanan çıkarım motoru. Ollama’ya kıyasla sürekli yığınlama (continuous batching) sayesinde eşzamanlı istek verimi kat kat yüksek: tek kullanıcı değil sunucu için.",
     "en": "An inference engine that pages the KV cache with PagedAttention to use GPU memory efficiently. Compared with Ollama, continuous batching pushes concurrent-request throughput far higher — built for serving, not a single user.",

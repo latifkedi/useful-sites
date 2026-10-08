@@ -5,7 +5,8 @@
     "tags": [
       "referans",
       "dokümantasyon",
-      "frontend"
+      "frontend",
+      "ücretsiz"
     ],
     "tr": "Erişilebilir arayüzü kod düzeyinde anlatan rehber; her örnekte önce yanlış yaklaşımı sonra doğrusunu gösteriyor. WCAG’ın soyut ölçütlerinden farkı, ekran okuyucunun ne duyduğunu somut örnekle göstermesi.",
     "en": "A guide to accessible interfaces at the code level, showing the wrong approach before the right one in every example. Where WCAG states abstract criteria, this demonstrates what a screen reader actually announces.",
@@ -15,9 +16,9 @@
     "url": "https://github.com/airbnb/javascript",
     "name": "Airbnb JavaScript Üslup Kılavuzu",
     "tags": [
-      "github",
       "javascript",
-      "referans"
+      "referans",
+      "ücretsiz"
     ],
     "tr": "JavaScript’in fiilî üslup standardı; ESLint yapılandırması olarak doğrudan kurulabiliyor ve her kural doğru ve yanlış örnek kodla gösterilmiş. Standard’dan farkı kuralları gerekçeleriyle anlatıp özelleştirmeye izin vermesi.",
     "en": "The de facto JavaScript style standard, installable directly as an ESLint config, with every rule shown as good and bad example code. Unlike Standard it explains rules with their reasoning and lets you customise them.",
@@ -29,7 +30,8 @@
     "tags": [
       "referans",
       "algoritma",
-      "kopya-kâğıdı"
+      "kopya-kâğıdı",
+      "ücretsiz"
     ],
     "tr": "Veri yapılarının ve sıralama algoritmalarının zaman/alan karmaşıklıklarını tek tabloda toplayan referans. Big-O Cheat Sheet’ten farkı her yapının kısa açıklamasını ve örnek kodunu da taşıması — tabloyu okumadan önce neye baktığını anlıyorsun.",
     "en": "A single-table reference for the time and space complexity of data structures and sorting algorithms. Against the Big-O Cheat Sheet it also carries a short description and sample code per structure, so you know what you are reading before you read the table.",
@@ -41,7 +43,8 @@
     "tags": [
       "referans",
       "dokümantasyon",
-      "masaüstü"
+      "masaüstü",
+      "ücretsiz"
     ],
     "tr": "Apple’ın tüm platformları için arayüz tasarım kuralları: dokunma hedefi boyutları, gezinme kalıpları, hareket ve tipografi. Material Design’dan farkı, öneri değil App Store incelemesinde fiilen uygulanan bir ölçüt olması.",
     "en": "Apple’s interface rules across all its platforms: touch target sizes, navigation patterns, motion and typography. Unlike Material Design, this is not advice — it is the yardstick App Store review actually applies.",
@@ -53,7 +56,7 @@
     "tags": [
       "kopya-kâğıdı",
       "awesome-liste",
-      "github"
+      "ücretsiz"
     ],
     "tr": "Programlama dilleri, çatılar ve komut satırı araçları için tek dosyada yoğunlaştırılmış kopya kâğıtları. Görsel kâğıtlardan farkı düz metin olması — aranabiliyor, kopyalanabiliyor ve depoda sürümleniyor.",
     "en": "Cheat sheets for languages, frameworks and command-line tools, each condensed into a single file. Unlike visual sheets these are plain text — searchable, copyable and versioned in a repository.",
@@ -88,9 +91,9 @@
     "url": "https://github.com/chubin/cheat.sh",
     "name": "cheat.sh",
     "tags": [
-      "github",
       "cli",
-      "kopya-kâğıdı"
+      "kopya-kâğıdı",
+      "ücretsiz"
     ],
     "tr": "Terminalden `curl cheat.sh/komut` yazarak kopya kâğıdı çeken servis. tldr’den farkı kurulum gerektirmemesi ve programlama dili sorularını da yanıtlaması: tarayıcı açmadan, editörden çıkmadan.",
     "en": "Pulls a cheat sheet from the terminal with `curl cheat.sh/command`. Unlike tldr it needs no install and answers programming-language questions too — without opening a browser or leaving your editor.",
@@ -126,7 +129,8 @@
     "tags": [
       "açık-kaynak",
       "dokümantasyon",
-      "self-hosted"
+      "self-hosted",
+      "ücretsiz"
     ],
     "tr": "Yüzlerce teknolojinin resmî dokümanını tek arayüzde topluyor; çevrimdışı indirilebiliyor ve anlık arama sunuyor. Doküman sitelerini tek tek gezmekten farkı her şeyin aynı arama kutusunda olması.",
     "en": "Gathers official documentation for hundreds of technologies in one interface, downloadable offline with instant search. Unlike visiting doc sites one by one, everything sits behind the same search box.",
@@ -314,7 +318,6 @@
     "name": "Mastering Markdown",
     "tags": [
       "dokümantasyon",
-      "github",
       "ücretsiz",
       "kopya-kâğıdı"
     ],
@@ -362,9 +365,9 @@
     "name": "Project Guidelines",
     "tags": [
       "referans",
-      "github",
       "backend",
-      "javascript"
+      "javascript",
+      "ücretsiz"
     ],
     "tr": "Bir yazılım projesini yürütmek için toplanmış en iyi uygulamalar seti. Genel tavsiye yazılarından farkı somut kurallar vermesi: git akışı, dokümantasyon, ortamlar, bağımlılıklar, test ve API tasarımı.",
     "en": "A set of best practices for running a software project. Unlike general advice pieces it gives concrete rules — git workflow, documentation, environments, dependencies, testing and API design.",
@@ -410,8 +413,8 @@
     "url": "https://github.com/rubocop/ruby-style-guide",
     "name": "Ruby Üslup Kılavuzu",
     "tags": [
-      "github",
-      "referans"
+      "referans",
+      "ücretsiz"
     ],
     "tr": "Topluluk tarafından yazılmış Ruby üslup kılavuzu; RuboCop aracının varsayılan kural setinin temeli. Tek bir şirketin iç kılavuzundan farkı topluluk uzlaşısını yansıtması.",
     "en": "A community-written Ruby style guide that forms the basis of RuboCop’s default rule set. Unlike a single company’s internal guide, it reflects community consensus.",
@@ -423,7 +426,8 @@
     "tags": [
       "rust",
       "referans",
-      "dokümantasyon"
+      "dokümantasyon",
+      "ücretsiz"
     ],
     "tr": "Rust’ın resmî biçimlendirme kılavuzu; rustfmt’in varsayılan davranışını tanımlıyor. rustfmt belgelerinden farkı kararların kendisini ve gerekçesini yazması: aracın neden öyle davrandığını buradan öğreniyorsun.",
     "en": "Rust’s official style guide, defining rustfmt’s default behaviour. Unlike the rustfmt docs it states the decisions themselves and their reasoning — where you learn why the tool behaves as it does.",
@@ -470,9 +474,9 @@
     "url": "https://github.com/uber-go/guide",
     "name": "Uber Go Üslup Kılavuzu",
     "tags": [
-      "github",
       "go",
-      "referans"
+      "referans",
+      "ücretsiz"
     ],
     "tr": "Go’da üretim kodu yazarken karşılaşılan tuzakları ve tercih edilen kalıpları derliyor. Resmî Effective Go’dan farkı onun bıraktığı yerden devam edip gerçek üretim deneyiminden gelen kuralları eklemesi.",
     "en": "Collects the traps and preferred patterns of writing production Go. Unlike the official Effective Go, it picks up where that leaves off with rules drawn from real production experience.",

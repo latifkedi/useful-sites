@@ -29,8 +29,8 @@
     "name": "Awesome asyncio",
     "tags": [
       "awesome-liste",
-      "github",
-      "python"
+      "python",
+      "ücretsiz"
     ],
     "tr": "Python 3’te asenkron G/Ç (asyncio) için kütüphane ve kaynak listesi. Genel Python listelerinden farkı yalnız olay döngüsüyle uyumlu kütüphaneleri — web çatıları, veritabanı sürücüleri, test araçları — toplaması.",
     "en": "A list of libraries and resources for asynchronous I/O in Python 3 (asyncio). Unlike general Python lists, it gathers only event-loop-friendly libraries — web frameworks, database drivers, test tools.",
@@ -41,7 +41,7 @@
     "name": "Awesome Common Lisp",
     "tags": [
       "awesome-liste",
-      "github"
+      "ücretsiz"
     ],
     "tr": "Common Lisp kütüphane ve araçlarını toplayan liste. Quicklisp deposunu tek tek taramaktan farkı kütüphaneleri alana göre (web, veritabanı, GUI) gruplaması.",
     "en": "A list gathering Common Lisp libraries and tools. Unlike browsing the Quicklisp repository one by one, it groups them by domain — web, databases, GUI.",
@@ -52,7 +52,8 @@
     "name": "Awesome Compilers",
     "tags": [
       "awesome-liste",
-      "referans"
+      "referans",
+      "ücretsiz"
     ],
     "tr": "Derleyici, yorumlayıcı ve çalışma zamanı kaynaklarının derlemesi; kitaplar, dersler ve açık kaynak derleyiciler ayrı ayrı listelenmiş. Tek bir ders kitabından farkı kuramı, gerçek derleyici kodlarını ve çalışma zamanı tasarımını yan yana koyması.",
     "en": "A collection of compiler, interpreter and runtime resources, with books, courses and open-source compilers listed separately. Unlike a single textbook, it sets theory, real compiler source and runtime design side by side.",
@@ -63,8 +64,8 @@
     "name": "Awesome Composer",
     "tags": [
       "awesome-liste",
-      "github",
-      "php"
+      "php",
+      "ücretsiz"
     ],
     "tr": "PHP paket yöneticisi Composer için eklenti, araç ve rehber listesi. Packagist’ten farkı paketleri değil, Composer’ın kendisini genişleten ve iş akışını iyileştiren araçları toplaması.",
     "en": "A list of plugins, tools and guides for Composer, the PHP package manager. Unlike Packagist, it collects not packages but tools that extend Composer itself and improve the workflow.",
@@ -75,8 +76,8 @@
     "name": "Awesome Coq",
     "tags": [
       "awesome-liste",
-      "github",
-      "akademik"
+      "akademik",
+      "ücretsiz"
     ],
     "tr": "Biçimsel ispat dili ve ortamı Coq (yeni adıyla Rocq) için kütüphane, araç ve öğretici listesi. Genel ispat asistanı listelerinden farkı yalnız Coq ekosistemine odaklanması.",
     "en": "A list of libraries, tools and tutorials for Coq (now renamed Rocq), the formal-proof language and environment. Unlike general proof-assistant lists, it covers only the Coq ecosystem.",
@@ -87,7 +88,7 @@
     "name": "Awesome Elixir",
     "tags": [
       "awesome-liste",
-      "github"
+      "ücretsiz"
     ],
     "tr": "Elixir dili ve Erlang ekosistemi için kütüphane listesi. Hex paket aramasından farkı seçilmiş ve konuya göre gruplanmış olması.",
     "en": "A library list for the Elixir language and Erlang ecosystem. Unlike a Hex package search it is curated and grouped by topic.",
@@ -98,9 +99,9 @@
     "name": "Awesome Python Scientific Audio",
     "tags": [
       "awesome-liste",
-      "github",
       "python",
-      "ses"
+      "ses",
+      "ücretsiz"
     ],
     "tr": "Ses/müzik üzerine bilimsel araştırma için Python kütüphaneleri listesi. Genel ses işleme araçlarından farkı araştırma odaklı olması: öznitelik çıkarma, müzik bilgi erişimi, kaynak ayrıştırma.",
     "en": "A list of Python libraries for scientific research in audio/music. Unlike general audio tools it is research-oriented: feature extraction, music information retrieval, source separation.",
@@ -111,8 +112,8 @@
     "name": "Awesome Python Typing",
     "tags": [
       "awesome-liste",
-      "github",
-      "python"
+      "python",
+      "ücretsiz"
     ],
     "tr": "Python’da isteğe bağlı statik tipleme için araç ve kaynak listesi. mypy belgelerinden farkı tip denetleyicilerini (mypy, Pyright, Pyre), stub paketlerini ve çalışma zamanı doğrulayıcılarını birlikte toplaması.",
     "en": "A list of tools and resources for optional static typing in Python. Unlike the mypy docs, it brings together type checkers (mypy, Pyright, Pyre), stub packages and runtime validators.",
@@ -123,7 +124,7 @@
     "name": "Awesome Ruby",
     "tags": [
       "awesome-liste",
-      "github"
+      "ücretsiz"
     ],
     "tr": "Ruby kütüphane ve araçlarını kategori kategori toplayan liste. RubyGems aramasından farkı seçilmiş, güncel ve gruplanmış olması.",
     "en": "A list gathering Ruby libraries and tools category by category. Unlike a RubyGems search it is curated, current and grouped.",
@@ -134,7 +135,7 @@
     "name": "Awesome V",
     "tags": [
       "awesome-liste",
-      "github"
+      "ücretsiz"
     ],
     "tr": "V dili için kütüphane, araç ve proje listesi. Go veya Rust listelerinden farkı henüz genç bir dilin ekosistemini tek yerde toplaması; dil hâlâ hızla değiştiği için kayıtların güncelliğine bak.",
     "en": "A list of libraries, tools and projects for the V language. Unlike Go or Rust lists, it gathers the ecosystem of a still-young language in one place; since the language changes quickly, check how current entries are.",
@@ -145,7 +146,8 @@
     "name": "C#",
     "tags": [
       "c-ailesi",
-      "dokümantasyon"
+      "dokümantasyon",
+      "ücretsiz"
     ],
     "tr": "Microsoft’un .NET platformu için geliştirdiği çok amaçlı dil; Unity oyunlarının da betik dili. Java’dan farkı LINQ, async/await ve özel değer tipleri gibi özelliklerin dile gömülü gelmesi.",
     "en": "Microsoft’s general-purpose language for the .NET platform, and the scripting language of Unity games. Unlike Java, features such as LINQ, async/await and custom value types are built into the language.",
@@ -181,7 +183,8 @@
     "tags": [
       "açık-kaynak",
       "masaüstü",
-      "dokümantasyon"
+      "dokümantasyon",
+      "ücretsiz"
     ],
     "tr": "Google’ın geliştirdiği, Flutter’ın altındaki istemci odaklı dil. JavaScript’ten farkı sağlam tip sistemi ve null güvenliği; hem yerel makine koduna hem JavaScript’e derlenebiliyor.",
     "en": "Google’s client-oriented language, the one beneath Flutter. Unlike JavaScript it has a sound type system with null safety, and compiles both to native machine code and to JavaScript.",
@@ -192,7 +195,8 @@
     "name": "Elixir",
     "tags": [
       "açık-kaynak",
-      "backend"
+      "backend",
+      "ücretsiz"
     ],
     "tr": "Erlang sanal makinesinde çalışan, ölçeklenebilirlikte güçlü işlevsel dil. Erlang’dan farkı Ruby’yi andıran sözdizimi ve makro sistemi; hata toleransını (OTP) ise aynen devralıyor.",
     "en": "A functional language on the Erlang VM, strong in scalability. Unlike Erlang it has a Ruby-like syntax and a macro system, while inheriting fault tolerance (OTP) unchanged.",
@@ -216,7 +220,8 @@
     "name": "Fortran",
     "tags": [
       "akademik",
-      "açık-kaynak"
+      "açık-kaynak",
+      "ücretsiz"
     ],
     "tr": "Sayısal ve bilimsel hesaplamanın öncüsü, hâlâ kullanılan dil; iklim ve fizik simülasyonlarında temel. C++’tan farkı dizi işlemlerinin dile yerleşik olması ve derleyicilerin bunları agresif biçimde eniyilemesi.",
     "en": "The pioneer of numerical and scientific computing, still in use and central to climate and physics simulation. Unlike C++, array operations are built into the language and compilers optimise them aggressively.",
@@ -242,7 +247,8 @@
     "tags": [
       "go",
       "açık-kaynak",
-      "dokümantasyon"
+      "dokümantasyon",
+      "ücretsiz"
     ],
     "tr": "Google’ın sade, hızlı derlenen, eşzamanlılıkta güçlü dilinin resmî sitesi. Java ya da C++’tan farkı dilin bilinçli küçüklüğü: az anahtar sözcük, tek biçimleyici (gofmt), saniyeler içinde derleme.",
     "en": "The official site of Google’s simple, fast-compiling language, strong in concurrency. Unlike Java or C++ it is deliberately small: few keywords, one formatter (gofmt), builds in seconds.",
@@ -266,7 +272,8 @@
     "name": "Haskell",
     "tags": [
       "açık-kaynak",
-      "dokümantasyon"
+      "dokümantasyon",
+      "ücretsiz"
     ],
     "tr": "Saf işlevsel ve statik tipli, tembel değerlendirmeli programlama dili. Çoğu işlevsel dilden farkı saf olması: yan etkiler tip sisteminde (IO) ayrı tutuluyor.",
     "en": "A purely functional, statically typed programming language with lazy evaluation. Unlike most functional languages it is pure: side effects are kept apart in the type system (IO).",
@@ -315,7 +322,8 @@
     "name": "Julia",
     "tags": [
       "açık-kaynak",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Bilimsel hesaplama için yüksek başarımlı, açık kaynak dil. Python’dan farkı JIT derlemesiyle C’ye yakın hız: prototipi Python’da yazıp hızlı kodu C’ye çevirme zorunluluğunu (“iki dil sorunu”) ortadan kaldırmayı hedefliyor.",
     "en": "A high-performance open-source language for scientific computing. Unlike Python it JIT-compiles to near-C speed, aiming to remove the “two-language problem” of prototyping in Python and rewriting hot code in C.",
@@ -326,8 +334,8 @@
     "name": "Julia.jl",
     "tags": [
       "awesome-liste",
-      "github",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Julia dili paket ve kaynaklarını konuya göre düzenleyen kapsamlı liste. Paket aramasından farkı paketleri bilim alanına göre elle sınıflandırması; bazı bölümleri eskimiş olabilir.",
     "en": "A comprehensive list organising Julia packages and resources by topic. Unlike a package search, it hand-classifies packages by scientific field; some sections may be dated.",
@@ -412,7 +420,8 @@
     "name": "LLVM Başlangıç",
     "tags": [
       "dokümantasyon",
-      "c-ailesi"
+      "c-ailesi",
+      "ücretsiz"
     ],
     "tr": "LLVM altyapısına giriş ve Kaleidoscope öğreticisi — kendi dilini yazmanın klasik başlangıcı. Sıfırdan derleyici yazmaktan farkı eniyileme ve kod üretimini LLVM’e bırakıp yalnız ön yüzü yazman; ara temsil (IR) kavramını somutlaştırıyor.",
     "en": "An introduction to the LLVM infrastructure plus the Kaleidoscope tutorial, the classic starting point for writing your own language. Unlike writing a compiler from scratch, you write only the front end and leave optimisation and code generation to LLVM; it makes the IR concept concrete.",
@@ -424,7 +433,8 @@
     "name": "Lua",
     "tags": [
       "açık-kaynak",
-      "gömülü"
+      "gömülü",
+      "ücretsiz"
     ],
     "tr": "Gömülmeye elverişli, hafif betik dili; oyun motorlarında, gömülü sistemlerde ve Neovim’de yaygın. Python’dan farkı çalışma zamanının çok küçük olması ve bir C programına kolayca gömülebilmesi.",
     "en": "A lightweight, embeddable scripting language, common in game engines, embedded systems and Neovim. Unlike Python its runtime is tiny and it embeds easily into a C program.",
@@ -447,7 +457,8 @@
     "name": "Perl",
     "tags": [
       "açık-kaynak",
-      "dokümantasyon"
+      "dokümantasyon",
+      "ücretsiz"
     ],
     "tr": "Metin işleme ve sistem betiklerinde güçlü, dinamik ve olgun dil. Python’dan farkı düzenli ifadelerin dile gömülü olması ve tek satırlık betik kültürü; CPAN arşivi çok geniş.",
     "en": "A dynamic, mature language strong in text processing and system scripting. Unlike Python it has regular expressions built into the language and a one-liner culture; the CPAN archive is vast.",
@@ -459,7 +470,8 @@
     "tags": [
       "php",
       "açık-kaynak",
-      "dokümantasyon"
+      "dokümantasyon",
+      "ücretsiz"
     ],
     "tr": "Web’in sunucu tarafında en yaygın dillerinden birinin resmî belgeleri. Çoğu dil belgesinden farkı her fonksiyon sayfasının altındaki kullanıcı notları: pratik tuzaklar genellikle orada yazıyor.",
     "en": "The official docs of one of the web’s most common server-side languages. Unlike most language docs, every function page carries user notes at the bottom — where the practical pitfalls are usually written up.",
@@ -483,7 +495,8 @@
     "name": "R",
     "tags": [
       "veri-bilimi",
-      "açık-kaynak"
+      "açık-kaynak",
+      "ücretsiz"
     ],
     "tr": "İstatistik ve veri analizi için tasarlanmış dil ve ortam; CRAN’da on binlerce istatistik paketi var. Python’dan farkı yeni istatistik yöntemlerinin çoğunlukla önce burada yayımlanması ve ggplot2 gibi grafik araçları.",
     "en": "A language and environment designed for statistics and data analysis, with tens of thousands of packages on CRAN. Unlike Python, new statistical methods usually appear here first, and it has graphics tools such as ggplot2.",
@@ -494,7 +507,8 @@
     "name": "Ruby",
     "tags": [
       "açık-kaynak",
-      "dokümantasyon"
+      "dokümantasyon",
+      "ücretsiz"
     ],
     "tr": "Okunabilirliği ve geliştirici mutluluğunu öne alan çok paradigmalı dil; Rails’in dili. Python’dan farkı her şeyin nesne olması ve DSL yazmaya elverişli esnek sözdizimi.",
     "en": "A multi-paradigm language foregrounding readability and developer happiness — the language of Rails. Unlike Python, everything is an object and its flexible syntax lends itself to DSLs.",
@@ -541,7 +555,8 @@
     "name": "Swift",
     "tags": [
       "açık-kaynak",
-      "dokümantasyon"
+      "dokümantasyon",
+      "ücretsiz"
     ],
     "tr": "Apple’ın öncelikle iOS için geliştirdiği, güvenli ve hızlı derlenen dil; Linux ve sunucuda da çalışıyor. Objective-C’den farkı optional’larla gelen güvenli bellek modeli ve modern sözdizimi.",
     "en": "Apple’s safe, fast-compiled language, developed primarily for iOS and also running on Linux and servers. Unlike Objective-C it has a safe memory model built around optionals and a modern syntax.",
@@ -564,8 +579,8 @@
     "url": "https://github.com/thejameskyle/the-super-tiny-compiler",
     "name": "The Super Tiny Compiler",
     "tags": [
-      "github",
-      "öğretici"
+      "öğretici",
+      "ücretsiz"
     ],
     "tr": "Yorum satırlarıyla açıklanmış, birkaç yüz satırlık minik bir derleyici. Kitap boyu derleyici kaynaklarından farkı tüm aşamaları — ayrıştırma, dönüştürme, kod üretimi — tek oturumda okunabilir kılması.",
     "en": "A tiny compiler of a few hundred heavily commented lines. Unlike book-length compiler resources, it makes every stage — parsing, transformation, code generation — readable in a single sitting.",
@@ -578,7 +593,8 @@
       "açık-kaynak",
       "rust",
       "python",
-      "referans"
+      "referans",
+      "ücretsiz"
     ],
     "tr": "Rust ile yazılmış paket ve proje yöneticisi; pip’ten onlarca kat hızlı. venv, pip, pip-tools ve pyenv’in işini tek ikili dosyada topluyor.",
     "en": "A package and project manager written in Rust, tens of times faster than pip. It collapses venv, pip, pip-tools and pyenv into a single binary.",

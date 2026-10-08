@@ -4,8 +4,8 @@
     "name": "Awesome Q#",
     "tags": [
       "awesome-liste",
-      "github",
-      "kuantum"
+      "kuantum",
+      "ücretsiz"
     ],
     "tr": "Microsoft’un kuantum programlama dili Q# için kaynak listesi. Genel kuantum listelerinden farkı tek dile ve onun araç zincirine odaklanması.",
     "en": "A resource list for Q#, Microsoft’s quantum programming language. Unlike general quantum lists it focuses on one language and its toolchain.",
@@ -16,8 +16,8 @@
     "name": "Awesome Quantum Computing",
     "tags": [
       "awesome-liste",
-      "github",
-      "kuantum"
+      "kuantum",
+      "ücretsiz"
     ],
     "tr": "Kuantum hesaplama için çerçeve, ders ve makale listesi. Dağınık akademik kaynaklardan farkı yeni başlayana giriş yolu ile araştırmacıya derinliği bir arada sunması.",
     "en": "A list of frameworks, courses and papers for quantum computing. Unlike scattered academic sources it offers both a beginner’s entry path and depth for the researcher.",
@@ -89,8 +89,8 @@
     "name": "Microsoft QDK",
     "tags": [
       "açık-kaynak",
-      "github",
-      "c-ailesi"
+      "c-ailesi",
+      "ücretsiz"
     ],
     "tr": "Q# derleyicisi ve simülatörünün kaynak kodu. Kurulum sayfasından farkı iç işleyişi göstermesi: bir kuantum devresinin nasıl derlenip simüle edildiğini görmek isteyenler için.",
     "en": "Source for the Q# compiler and simulator. Unlike the install page it shows the internals — for anyone who wants to see how a quantum circuit is compiled and simulated.",
@@ -115,7 +115,8 @@
     "tags": [
       "kuantum",
       "açık-kaynak",
-      "python"
+      "python",
+      "ücretsiz"
     ],
     "tr": "Xanadu’nun kuantum makine öğrenmesi için türevlenebilir programlama çatısı. Qiskit’ten farkı donanımdan bağımsız olması ve PyTorch ya da JAX ile otomatik türev alabilmesi.",
     "en": "Xanadu’s differentiable-programming framework for quantum machine learning. Unlike Qiskit it is hardware-agnostic and computes gradients automatically with PyTorch or JAX.",
@@ -126,7 +127,8 @@
     "name": "Q# Geliştirme Kiti Kurulumu",
     "tags": [
       "dokümantasyon",
-      "öğretici"
+      "öğretici",
+      "ücretsiz"
     ],
     "tr": "Q# ve QDK kurulumu; VS Code uzantısıyla yerel simülatörde devre çalıştırmanın en kısa yolu. IBM Quantum’dan farkı donanım erişimi gerekmeden kendi makinende başlaman.",
     "en": "Installing Q# and the QDK; the VS Code extension is the shortest path to running circuits on a local simulator. Unlike IBM Quantum, you start on your own machine without any hardware access.",
@@ -140,7 +142,8 @@
       "kuantum",
       "açık-kaynak",
       "python",
-      "öğretici"
+      "öğretici",
+      "ücretsiz"
     ],
     "tr": "IBM’in açık kaynak kuantum programlama çerçevesi; gerçek kuantum donanımına erişim verir. Salt simülatörlerden farkı yazdığın devreyi bulut üzerinden gerçek bir kuantum işlemcide çalıştırması.",
     "en": "IBM’s open-source quantum programming framework, giving access to real quantum hardware. Unlike pure simulators it runs the circuit you write on a real quantum processor over the cloud.",
@@ -226,7 +229,8 @@
     "tags": [
       "kuantum",
       "açık-kaynak",
-      "python"
+      "python",
+      "ücretsiz"
     ],
     "tr": "Açık kuantum sistemlerinin dinamiğini benzetmek için standart açık kaynak Python kütüphanesi. Qiskit gibi devre simülatörlerinden farkı kapı değil sürekli zamanlı dinamik — master denklemleri ve gürültü — ile çalışması.",
     "en": "The standard open-source Python library for simulating the dynamics of open quantum systems. Unlike circuit simulators such as Qiskit, it works with continuous-time dynamics — master equations and noise — rather than gates.",
@@ -250,7 +254,8 @@
     "tags": [
       "açık-kaynak",
       "python",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Parametreli kuantum devrelerini Keras katmanı gibi kullanıp klasik ağlarla birleştiriyor. PennyLane’e kıyasla TensorFlow’a bağlı ve topluluğu daha küçük; hibrit klasik-kuantum modellerin deneysel olarak araştırıldığı yerlerden.",
     "en": "Wraps parameterised quantum circuits as Keras-style layers to combine with classical networks. Compared with PennyLane it is tied to TensorFlow with a smaller community; one of the places hybrid classical-quantum models are explored.",

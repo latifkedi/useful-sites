@@ -4,8 +4,8 @@
     "name": "Awesome DB Tools",
     "tags": [
       "awesome-liste",
-      "github",
-      "veritabanı"
+      "veritabanı",
+      "ücretsiz"
     ],
     "tr": "Veritabanıyla çalışmayı kolaylaştıran araçların (istemci, göç, şema) listesi. Tek veritabanına bağlı listelerden farkı motor-bağımsız yardımcı araçlara bakması.",
     "en": "A list of tools that make working with databases easier (clients, migration, schema). Unlike single-database lists it looks at engine-agnostic helper tools.",
@@ -16,8 +16,8 @@
     "name": "Awesome MongoDB",
     "tags": [
       "awesome-liste",
-      "github",
-      "veritabanı"
+      "veritabanı",
+      "ücretsiz"
     ],
     "tr": "Belge tabanlı NoSQL veritabanı MongoDB için kütüphane ve araç listesi. Genel NoSQL listelerinden farkı tek ürünün sürücü ve ODM ekosistemine odaklanması.",
     "en": "A list of libraries and tools for MongoDB, the document-based NoSQL database. Unlike general NoSQL lists it focuses on one product’s driver and ODM ecosystem.",
@@ -28,8 +28,8 @@
     "name": "Awesome Postgres",
     "tags": [
       "awesome-liste",
-      "github",
-      "veritabanı"
+      "veritabanı",
+      "ücretsiz"
     ],
     "tr": "PostgreSQL için eklenti, araç ve kaynak listesi. Resmî dokümandan farkı ekosistemin uzantılarını ve yönetim araçlarını bir arada göstermesi.",
     "en": "A list of extensions, tools and resources for PostgreSQL. Unlike the official docs it shows the ecosystem’s extensions and management tools together.",
@@ -40,7 +40,8 @@
     "name": "Beekeeper Studio",
     "tags": [
       "veritabanı",
-      "açık-kaynak"
+      "açık-kaynak",
+      "ücretsiz"
     ],
     "tr": "Birçok veritabanını destekleyen, açık kaynak SQL editörü ve yöneticisi. DBeaver’a kıyasla arayüzü daha sade ve modern; karşılığında gelişmiş özellikleri daha az.",
     "en": "An open-source SQL editor and manager supporting many databases. Compared with DBeaver its interface is simpler and more modern, with fewer advanced features in exchange.",
@@ -52,7 +53,8 @@
     "tags": [
       "veritabanı",
       "sunucu",
-      "açık-kaynak"
+      "açık-kaynak",
+      "ücretsiz"
     ],
     "tr": "Yatay ölçeklenen, kuvvetli tutarlı ve arızalara dayanıklı dağıtık SQL veritabanı; PostgreSQL protokolüyle uyumlu. Tek düğümlü PostgreSQL’den farkı bölgeler arası çoğaltma; 2024’ten beri açık kaynak çekirdeği yok, bireylere, öğrencilere ve yıllık geliri 10 milyon doların altındaki işletmelere ücretsiz kurumsal lisansla sunuluyor.",
     "en": "A distributed SQL database that scales horizontally with strong consistency and survivability, speaking the PostgreSQL protocol. Unlike single-node PostgreSQL it replicates across regions; since 2024 it has no open-source core and is offered free to individuals, students and businesses under $10M annual revenue under an enterprise licence.",
@@ -100,7 +102,8 @@
     "tags": [
       "veritabanı",
       "açık-kaynak",
-      "masaüstü"
+      "masaüstü",
+      "ücretsiz"
     ],
     "tr": "Birçok veritabanını tek arayüzden yöneten evrensel masaüstü veritabanı istemcisi. Beekeeper Studio’ya kıyasla çok daha kapsamlı (ER diyagramı, veri aktarımı, yüzlerce sürücü); karşılığında Java tabanlı ve ağır.",
     "en": "A universal desktop database client managing many databases from one interface. Compared with Beekeeper Studio it is far more comprehensive — ER diagrams, data transfer, hundreds of drivers — but Java-based and heavy.",
@@ -139,7 +142,8 @@
     "tags": [
       "veritabanı",
       "açık-kaynak",
-      "sunucu"
+      "sunucu",
+      "ücretsiz"
     ],
     "tr": "MySQL'in topluluk güdümlü açık kaynak çatalı; yerine geçebilen bir alternatif.",
     "en": "A community-driven open-source fork of MySQL, usable as a drop-in replacement.",
@@ -225,7 +229,8 @@
       "veritabanı",
       "backend",
       "açık-kaynak",
-      "go"
+      "go",
+      "ücretsiz"
     ],
     "tr": "Tek Go dosyasında gelen; SQLite, kimlik doğrulama ve gerçek zamanlı API sunan backend. Ağır yığınlardan farkı sunucuyu tek çalıştırılabilir dosyaya indirmesi.",
     "en": "A backend shipping as one Go file, providing SQLite, auth and a real-time API. Unlike heavy stacks it reduces the server to a single executable.",
@@ -312,7 +317,8 @@
     "name": "SQLite",
     "tags": [
       "açık-kaynak",
-      "veritabanı"
+      "veritabanı",
+      "ücretsiz"
     ],
     "tr": "Sunucusu olmayan, tek dosyada duran gömülü veritabanı; dünyada en çok dağıtılmış veritabanı motoru. PostgreSQL gibi sunucu veritabanlarından farkı ayrı bir süreç ve kurulum istememesi; test kapsamı efsanevi.",
     "en": "A serverless embedded database living in a single file — the most widely deployed database engine in the world. Unlike server databases such as PostgreSQL it needs no separate process or setup; its test coverage is legendary.",
@@ -350,7 +356,8 @@
     "tags": [
       "veritabanı",
       "açık-kaynak",
-      "sunucu"
+      "sunucu",
+      "ücretsiz"
     ],
     "tr": "Belge, çizge ve ilişkisel modeli tek motorda birleştiren çok modelli veritabanı. Belge deposu, çizge veritabanı ve SQL veritabanını ayrı ayrı işletmek yerine hepsini tek sorgu diliyle kullanıyorsun; karşılığında olgunluğu yerleşik veritabanlarına göre daha az.",
     "en": "A multi-model database combining document, graph and relational in one engine. Instead of running a document store, a graph database and a SQL database separately, you use them all through one query language — at the cost of less maturity than established databases.",
@@ -361,7 +368,8 @@
     "name": "Turso",
     "tags": [
       "veritabanı",
-      "açık-kaynak"
+      "açık-kaynak",
+      "ücretsiz"
     ],
     "tr": "SQLite çatallaması libSQL üzerine kurulu veritabanı platformu; veritabanını kullanıcının yakınındaki uç düğümlere kopyalıyor. Planetscale gibi merkezî hizmetlerden farkı, okuma gecikmesini ağ mesafesi yerine yerel dosya erişimine indirmesi.",
     "en": "A database platform built on libSQL, a SQLite fork, that replicates the database to edge nodes near the user. Unlike centralised services such as PlanetScale, read latency becomes local file access rather than a network round trip.",

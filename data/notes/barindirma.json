@@ -6,7 +6,8 @@
       "açık-kaynak",
       "self-hosted",
       "ağ",
-      "gizlilik"
+      "gizlilik",
+      "ücretsiz"
     ],
     "tr": "Pi-hole ile aynı işi yapan ağ geneli engelleyici; farkı DNS-over-HTTPS ve DNS-over-TLS sunucusunu kendi içinde barındırması ve istemci başına ayrı kural yazmaya izin vermesi. Tek ikili dosya, ek bağımlılık yok.",
     "en": "A network-wide blocker doing the same job as Pi-hole; what differs is that it ships its own DNS-over-HTTPS and DNS-over-TLS server and lets you write per-client rules. One binary, no extra dependencies.",
@@ -18,7 +19,8 @@
     "tags": [
       "self-hosted",
       "açık-kaynak",
-      "sunucu"
+      "sunucu",
+      "ücretsiz"
     ],
     "tr": "Kimlik doğrulama, veritabanı, depolama ve fonksiyonları sunan açık kaynak arka uç (BaaS). Firebase’den farkı açık kaynak olup kendi sunucunda çalışabilmesi: satıcı bağımlılığı yok.",
     "en": "An open-source backend-as-a-service offering auth, database, storage and functions. Unlike Firebase it is open source and self-hostable — no vendor lock-in.",
@@ -30,7 +32,8 @@
     "tags": [
       "açık-kaynak",
       "self-hosted",
-      "ses"
+      "ses",
+      "ücretsiz"
     ],
     "tr": "Sesli kitap ve podcast koleksiyonunu kendi sunucunda yönetip yayınlayan uygulama; ilerleme cihazlar arasında eşitleniyor. Plex ya da Jellyfin’den farkı sesli kitaba özgü olması — bölüm işaretleri, hız ayarı ve seri takibi doğru çalışıyor.",
     "en": "A self-hosted server for managing and streaming your audiobook and podcast collection, with progress synced across devices. Unlike Plex or Jellyfin it is built for audiobooks specifically, so chapter marks, playback speed and series tracking behave properly.",
@@ -41,9 +44,9 @@
     "name": "Awesome DigitalOcean",
     "tags": [
       "awesome-liste",
-      "github",
       "sunucu",
-      "devops"
+      "devops",
+      "ücretsiz"
     ],
     "tr": "DigitalOcean bulut platformu için araç ve rehber listesi. Resmî belgelerden farkı topluluğun yazdığı araçları, istemci kütüphanelerini ve rehberleri toplaması.",
     "en": "A list of tools and guides for the DigitalOcean cloud platform. Unlike the official docs, it gathers community-written tools, client libraries and guides.",
@@ -54,9 +57,9 @@
     "name": "Awesome Heroku",
     "tags": [
       "awesome-liste",
-      "github",
       "sunucu",
-      "devops"
+      "devops",
+      "ücretsiz"
     ],
     "tr": "Heroku PaaS için eklenti, buildpack ve kaynak listesi. Resmî Elements pazarından farkı topluluk seçkisi olması; liste eski ve Heroku ücretsiz katmanını 2022’de kaldırdığı ve 2026’da yeni özellik geliştirmeyi bıraktığı için bazı kayıtlar güncelliğini yitirmiş olabilir.",
     "en": "A list of add-ons, buildpacks and resources for the Heroku PaaS. Unlike the official Elements marketplace it is a community pick; the list is old, and since Heroku dropped its free tier in 2022 and stopped new feature work in 2026, some entries may be out of date.",
@@ -67,8 +70,8 @@
     "name": "Awesome Home Assistant",
     "tags": [
       "awesome-liste",
-      "github",
-      "self-hosted"
+      "self-hosted",
+      "ücretsiz"
     ],
     "tr": "Açık kaynak ev otomasyonu Home Assistant için eklenti, bileşen ve pano listesi. Resmî entegrasyonlardan farkı topluluk yapımı özel bileşenleri ve otomasyonları toplaması.",
     "en": "A list of add-ons, components and dashboards for Home Assistant, the open-source home automation platform. Unlike the official integrations it gathers community-made custom components and automations.",
@@ -81,7 +84,8 @@
       "self-hosted",
       "sunucu",
       "awesome-liste",
-      "açık-kaynak"
+      "açık-kaynak",
+      "ücretsiz"
     ],
     "tr": "Kendi sunucunda barındırabileceğin özgür yazılım servislerinin kategorilere ayrılmış kanonik listesi. Ham GitHub listesinden farkı gezilebilir sitesi: her giriş lisans, dil ve “aktif mi” bilgisiyle filtrelenebiliyor, bulut hizmetine bağımlı kalmadan alternatif aramanın standart yeri.",
     "en": "The canonical, categorised list of free-software services you can host on your own server. Unlike the raw GitHub list its browsable site filters every entry by licence, language and whether it is still active — the standard place to find an alternative without depending on a cloud service.",
@@ -119,7 +123,8 @@
     "tags": [
       "self-hosted",
       "açık-kaynak",
-      "otomasyon"
+      "otomasyon",
+      "ücretsiz"
     ],
     "tr": "Kendi sunucunda çalıştırdığın açık kaynak PaaS; Heroku/Netlify'a self-hosted alternatif.",
     "en": "An open-source self-hosted PaaS you run on your own server — a self-hosted alternative to Heroku/Netlify.",
@@ -131,7 +136,8 @@
     "tags": [
       "açık-kaynak",
       "self-hosted",
-      "gizlilik"
+      "gizlilik",
+      "ücretsiz"
     ],
     "tr": "Konum geçmişini kendi sunucunda tutan ve haritada gösteren uygulama; Google Location History dışa aktarımını içe alabiliyor. Google’ın kendi hizmetinden farkı verinin sende kalması ve kapatıldığında kaybolmaması.",
     "en": "Self-hosted location history with a map view, able to import a Google Location History export. The difference from Google’s own service is that the data stays with you — and does not vanish when the product is discontinued.",
@@ -191,7 +197,8 @@
     "tags": [
       "açık-kaynak",
       "gizlilik",
-      "self-hosted"
+      "self-hosted",
+      "ücretsiz"
     ],
     "tr": "Matrix protokolü üzerine kurulu mesajlaşma istemcisi; uçtan uca şifreleme ve sunucular arası federasyon var. Slack ya da Discord’dan farkı bu federasyon: farklı sunucudaki iki kişi tek bir şirkete bağlı olmadan aynı odada konuşabiliyor.",
     "en": "A messaging client on the Matrix protocol, with end-to-end encryption and federation between servers. That federation is the break from Slack or Discord: two people on different servers share a room without a single company in the middle.",
@@ -261,7 +268,8 @@
     "tags": [
       "açık-kaynak",
       "self-hosted",
-      "gizlilik"
+      "gizlilik",
+      "ücretsiz"
     ],
     "tr": "Google Photos’un kendi sunucunda çalışan karşılığı: telefondan otomatik yükleme, yüz tanıma, harita ve zaman çizelgesi. Diğer öz-barındırılan galerilerden farkı mobil uygulamanın gerçekten arka planda yedekleme yapması — çoğu bunu beceremiyor.",
     "en": "A self-hosted answer to Google Photos: background upload from the phone, face recognition, map and timeline. What separates it from other self-hosted galleries is that the mobile app actually backs up in the background, which most of them never manage.",
@@ -285,7 +293,8 @@
     "tags": [
       "açık-kaynak",
       "ağ",
-      "gizlilik"
+      "gizlilik",
+      "ücretsiz"
     ],
     "tr": "İçeriği adrese değil özüne (hash) göre adresleyen merkeziyetsiz dosya sistemi. Klasik barındırmadan farkı aynı dosyanın birçok düğümden, sansüre dirençli biçimde gelmesi.",
     "en": "A decentralised file system that addresses content by its hash, not its location. Unlike classic hosting the same file can come from many nodes, resistant to censorship.",
@@ -310,7 +319,8 @@
     "tags": [
       "açık-kaynak",
       "referans",
-      "masaüstü"
+      "masaüstü",
+      "ücretsiz"
     ],
     "tr": "Basit ve taşınabilir not defteri; notları düz dosya olarak diskte tutuyor. Bulut not uygulamalarının aksine hizmet kapanırsa notların kaybolmuyor; program uzun süredir güncellenmiyor.",
     "en": "A simple, portable notebook keeping notes as plain files on disk. Unlike cloud note apps your notes survive if a service shuts down; the program itself has not been updated in a long time.",
@@ -394,7 +404,8 @@
     "tags": [
       "açık-kaynak",
       "self-hosted",
-      "sunucu"
+      "sunucu",
+      "ücretsiz"
     ],
     "tr": "Kendi sunucunda çalışan dosya senkronizasyonu ve iş birliği paketi: takvim, kişiler, belge düzenleme, sohbet. Syncthing’den farkı web arayüzü ve paylaşım bağlantıları sunması — eşitleme değil, Google Workspace’in yerini almaya çalışıyor.",
     "en": "A self-hosted file sync and collaboration suite: calendar, contacts, document editing, chat. Where Syncthing only syncs, this adds a web interface and share links — it is aiming at Google Workspace rather than at Dropbox.",
@@ -419,7 +430,8 @@
       "açık-kaynak",
       "self-hosted",
       "ağ",
-      "gizlilik"
+      "gizlilik",
+      "ücretsiz"
     ],
     "tr": "Ağ geneli reklam engelleyici: DNS sunucusu olarak çalışıp reklam ve izleyici alan adlarını boşa düşürüyor. Tarayıcı eklentisinden farkı akıllı televizyon, telefon uygulaması ve IoT cihazlarını da kapsaması — eklenti kurulamayan her şeyi.",
     "en": "A network-wide ad blocker that runs as your DNS server and sinkholes ad and tracker domains. Unlike a browser extension it also covers smart TVs, phone apps and IoT devices — everything you cannot install an extension on.",
@@ -477,7 +489,8 @@
     "tags": [
       "açık-kaynak",
       "self-hosted",
-      "sunucu"
+      "sunucu",
+      "ücretsiz"
     ],
     "tr": "Kendi sunucuna kurulabilen takım mesajlaşma platformu; kanal, tez (thread), sesli görüşme ve köprüler (bridge) var. Slack’ten farkı verinin senin altyapında kalması ve mesaj geçmişinin ücretli plan arkasına kilitlenmemesi.",
     "en": "A self-hostable team messaging platform with channels, threads, voice and bridges. Against Slack, the data stays on your infrastructure and message history is not locked behind a paid tier.",
@@ -514,7 +527,8 @@
     "tags": [
       "açık-kaynak",
       "self-hosted",
-      "gizlilik"
+      "gizlilik",
+      "ücretsiz"
     ],
     "tr": "Cihazlar arası sürekli dosya eşitleme; merkezî sunucu yok, cihazlar doğrudan konuşuyor. Dropbox’tan farkı buluta hiç kopya çıkmaması — depolama kotası da yok, diskin kadar yer var.",
     "en": "Continuous file synchronisation between devices with no central server: the devices talk directly. Unlike Dropbox no copy ever reaches a cloud, and there is no storage quota — you have as much room as you have disk.",
@@ -526,7 +540,8 @@
     "tags": [
       "self-hosted",
       "açık-kaynak",
-      "gözlemlenebilirlik"
+      "gözlemlenebilirlik",
+      "ücretsiz"
     ],
     "tr": "Plex sunucundaki izlenmeleri ve kullanıcıları izleyip raporlayan araç. Plex’in kendi istatistiğinden farkı ayrıntılı geçmiş, bildirim ve grafik sunması.",
     "en": "A tool that monitors and reports plays and users on your Plex server. Unlike Plex’s own stats it offers detailed history, notifications and charts.",
@@ -538,7 +553,8 @@
     "tags": [
       "açık-kaynak",
       "masaüstü",
-      "gizlilik"
+      "gizlilik",
+      "ücretsiz"
     ],
     "tr": "Mozilla çatısı altındaki masaüstü e-posta istemcisi; IMAP, takvim, kişiler ve OpenPGP imzalama bir arada. Web arayüzlerinden farkı postanın yerelde durması ve sağlayıcıyı değiştirdiğinde arşivinin seninle kalması.",
     "en": "A desktop mail client under the Mozilla umbrella, with IMAP, calendar, contacts and OpenPGP signing in one place. Against webmail, the archive lives on your disk and stays yours when you change provider.",
@@ -550,7 +566,8 @@
     "tags": [
       "self-hosted",
       "sunucu",
-      "açık-kaynak"
+      "açık-kaynak",
+      "ücretsiz"
     ],
     "tr": "Kendi sunucunu tek tıkla uygulama kuran bir işletim sistemine çeviren proje. El ile Docker kurmaktan farkı yönetimi soyutlaması: kullanıcı, alan adı ve yedeği tek panelden yönetiyorsun, katalogdaki uygulamalar tek komutla geliyor.",
     "en": "A project that turns your own server into an operating system with one-click app installs. Unlike setting up Docker by hand it abstracts the admin: you manage users, domains and backups from one panel, and catalog apps install in a single step.",

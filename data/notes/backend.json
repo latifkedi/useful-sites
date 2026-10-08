@@ -30,9 +30,9 @@
     "name": "Awesome CakePHP",
     "tags": [
       "awesome-liste",
-      "github",
       "php",
-      "backend"
+      "backend",
+      "ücretsiz"
     ],
     "tr": "PHP çatısı CakePHP için eklenti ve kaynak listesi. Genel PHP listelerinden farkı yalnız CakePHP eklentilerine ve ekosistemine odaklanması.",
     "en": "A list of plugins and resources for the CakePHP framework. Unlike general PHP lists, it focuses only on CakePHP plugins and its ecosystem.",
@@ -43,9 +43,9 @@
     "name": "Awesome Dash",
     "tags": [
       "awesome-liste",
-      "github",
       "python",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Python ile veri panosu kuran Dash çatısı için kaynak listesi. Streamlit’ten farkı Plotly tabanlı olması ve geri çağırma (callback) modeliyle etkileşim üzerinde daha çok denetim vermesi.",
     "en": "A resource list for Dash, building data dashboards with Python. Unlike Streamlit it is Plotly-based, and its callback model gives more control over interactivity.",
@@ -56,9 +56,9 @@
     "name": "Awesome DDD",
     "tags": [
       "awesome-liste",
-      "github",
       "sistem-tasarımı",
-      "backend"
+      "backend",
+      "ücretsiz"
     ],
     "tr": "Alan güdümlü tasarım (DDD), CQRS ve olay kaynaklı (event sourcing) mimari için kaynak, kitap ve örnek listesi. Genel mimari listelerinden farkı bu üç birbirine bağlı yaklaşıma odaklanması.",
     "en": "A list of resources, books and samples for domain-driven design (DDD), CQRS and event sourcing. Unlike general architecture lists it focuses on these three connected approaches.",
@@ -69,8 +69,8 @@
     "name": "Awesome Deno",
     "tags": [
       "awesome-liste",
-      "github",
-      "javascript"
+      "javascript",
+      "ücretsiz"
     ],
     "tr": "Node’a güvenlik ve TypeScript odaklı bir alternatif olan Deno için kaynak listesi. Node listelerinden farkı bu güvenli çalışma zamanına özgü modülleri toplaması.",
     "en": "A resource list for Deno, a security- and TypeScript-focused alternative to Node. Unlike Node lists it gathers modules specific to this secure runtime.",
@@ -81,9 +81,9 @@
     "name": "Awesome Directus",
     "tags": [
       "awesome-liste",
-      "github",
       "backend",
-      "api"
+      "api",
+      "ücretsiz"
     ],
     "tr": "Gerçek zamanlı API ve pano sunan başsız CMS Directus için kaynak listesi. Strapi gibi başsız CMS’lerden farkı mevcut bir SQL veritabanının üzerine oturup şemasını kendi biçimine zorlamaması.",
     "en": "A resource list for Directus, the headless CMS offering a real-time API and dashboard. Unlike headless CMSes such as Strapi, it sits on top of an existing SQL database without forcing its schema into its own shape.",
@@ -94,9 +94,9 @@
     "name": "Awesome Drupal",
     "tags": [
       "awesome-liste",
-      "github",
       "php",
-      "backend"
+      "backend",
+      "ücretsiz"
     ],
     "tr": "PHP tabanlı içerik yönetim sistemi Drupal için modül ve kaynak listesi. Genel CMS listelerinden farkı yalnız Drupal modüllerini, dağıtımlarını ve geliştirici araçlarını toplaması.",
     "en": "A list of modules and resources for Drupal, the PHP-based CMS. Unlike general CMS lists, it gathers only Drupal modules, distributions and developer tools.",
@@ -107,9 +107,9 @@
     "name": "Awesome FastAPI",
     "tags": [
       "awesome-liste",
-      "github",
       "python",
-      "api"
+      "api",
+      "ücretsiz"
     ],
     "tr": "Python’un hızlı web çatısı FastAPI için eklenti, örnek ve öğretici listesi. Resmî dokümandan farkı topluluk kütüphanelerini ve üretim örneklerini toplaması.",
     "en": "A list of plugins, examples and tutorials for FastAPI, Python’s fast web framework. Unlike the official docs it gathers community libraries and production examples.",
@@ -120,9 +120,9 @@
     "name": "Awesome Fiber",
     "tags": [
       "awesome-liste",
-      "github",
       "go",
-      "backend"
+      "backend",
+      "ücretsiz"
     ],
     "tr": "Express’ten esinlenen, fasthttp üzerine kurulu Go web çatısı Fiber için kaynak listesi. Genel Go listelerinden farkı yalnız Fiber ara katmanlarını, şablonlarını ve örneklerini toplaması.",
     "en": "A resource list for Fiber, the Express-inspired Go web framework built on fasthttp. Unlike general Go lists, it gathers only Fiber middleware, templates and examples.",
@@ -133,8 +133,8 @@
     "name": "Awesome Firebase",
     "tags": [
       "awesome-liste",
-      "github",
-      "backend"
+      "backend",
+      "ücretsiz"
     ],
     "tr": "Google’ın uygulama geliştirme platformu Firebase için kaynak listesi. Resmî belgelerden farkı topluluk kütüphanelerini, örnek projeleri ve deneyim yazılarını toplaması.",
     "en": "A resource list for Firebase, Google’s app-development platform. Unlike the official docs, it gathers community libraries, sample projects and write-ups from experience.",
@@ -145,8 +145,8 @@
     "name": "Awesome Integration",
     "tags": [
       "awesome-liste",
-      "github",
-      "backend"
+      "backend",
+      "ücretsiz"
     ],
     "tr": "Farklı BT sistemlerini birbirine bağlama (entegrasyon) kaynak listesi.",
     "en": "A resource list for linking different IT systems together (integration).",
@@ -157,9 +157,9 @@
     "name": "Awesome Laravel",
     "tags": [
       "awesome-liste",
-      "github",
       "php",
-      "backend"
+      "backend",
+      "ücretsiz"
     ],
     "tr": "PHP’nin en yaygın çatısı Laravel için paket ve kaynak listesi. Packagist’te aramaktan farkı yaygın kullanılan paketleri ve öğrenme kaynaklarını konuya göre seçmesi.",
     "en": "A list of packages and resources for Laravel, PHP’s most popular framework. Unlike searching Packagist, it picks widely used packages and learning resources by topic.",
@@ -170,8 +170,8 @@
     "name": "Awesome Low Code",
     "tags": [
       "awesome-liste",
-      "github",
-      "backend"
+      "backend",
+      "ücretsiz"
     ],
     "tr": "İş profesyonellerinin az kodla uygulama kurmasını sağlayan platformların listesi. Tek bir platformun belgelerinden farkı platformları yan yana listelemesi; listeyi bir güvenlik şirketi (Zenity) sürdürüyor.",
     "en": "A list of platforms letting business professionals build apps with little code. Unlike a single platform’s docs it lists them side by side; it is maintained by a security company (Zenity).",
@@ -182,9 +182,9 @@
     "name": "Awesome Magento 2",
     "tags": [
       "awesome-liste",
-      "github",
       "php",
-      "backend"
+      "backend",
+      "ücretsiz"
     ],
     "tr": "PHP ile yazılmış açık kaynak e-ticaret platformu Magento 2 için kaynak listesi. Genel e-ticaret listelerinden farkı yalnız Magento 2 modüllerini, geliştirici araçlarını ve öğrenme kaynaklarını toplaması.",
     "en": "A resource list for Magento 2, the open-source e-commerce platform built with PHP. Unlike general e-commerce lists, it gathers only Magento 2 modules, developer tools and learning resources.",
@@ -195,9 +195,9 @@
     "name": "Awesome Node-RED",
     "tags": [
       "awesome-liste",
-      "github",
       "backend",
-      "otomasyon"
+      "otomasyon",
+      "ücretsiz"
     ],
     "tr": "Donanım ve servisleri görsel bağlayan Node-RED için kaynak listesi. Entegrasyonu kodla yazmaktan farkı akışı tarayıcıda düğüm bağlayarak kurman; liste topluluk düğümlerini ve örnek akışları topluyor.",
     "en": "A resource list for Node-RED, wiring hardware and services together visually. Unlike writing integrations in code, you build the flow by wiring nodes in the browser; the list gathers community nodes and sample flows.",
@@ -208,8 +208,8 @@
     "name": "Awesome Node.js",
     "tags": [
       "awesome-liste",
-      "github",
-      "javascript"
+      "javascript",
+      "ücretsiz"
     ],
     "tr": "Node.js paket ve kaynaklarını konuya göre düzenleyen liste. npm aramasından farkı seçilmiş, kalitesi denetlenmiş bir başlangıç noktası olması.",
     "en": "A list organising Node.js packages and resources by topic. Unlike an npm search it is a curated, quality-checked starting point.",
@@ -220,8 +220,8 @@
     "name": "Awesome PHP",
     "tags": [
       "awesome-liste",
-      "github",
-      "php"
+      "php",
+      "ücretsiz"
     ],
     "tr": "PHP kütüphane, çerçeve ve araçlarını konuya göre toplayan liste. Packagist aramasından farkı seçilmiş ve modern PHP pratiğine göre düzenlenmiş olması.",
     "en": "A list gathering PHP libraries, frameworks and tools by topic. Unlike a Packagist search it is curated and organised around modern PHP practice.",
@@ -232,9 +232,9 @@
     "name": "Awesome Plone",
     "tags": [
       "awesome-liste",
-      "github",
       "python",
-      "backend"
+      "backend",
+      "ücretsiz"
     ],
     "tr": "Açık kaynak Python CMS Plone için eklenti ve kaynak listesi. WordPress ya da Drupal listelerinden farkı Python tabanlı, kurumsal kullanıma yönelik bir CMS’in ekosistemine odaklanması.",
     "en": "A list of add-ons and resources for Plone, the open-source Python CMS. Unlike WordPress or Drupal lists, it focuses on the ecosystem of a Python-based CMS aimed at institutional use.",
@@ -245,9 +245,9 @@
     "name": "Awesome Prisma",
     "tags": [
       "awesome-liste",
-      "github",
       "backend",
-      "veritabanı"
+      "veritabanı",
+      "ücretsiz"
     ],
     "tr": "Veritabanını tip güvenli bir istemciye çeviren Prisma ORM için kaynak listesi. TypeORM gibi ORM’lerden farkı şemayı ayrı bir dosyada (schema.prisma) tanımlayıp istemciyi o dosyadan üretmesi.",
     "en": "A resource list for Prisma, the ORM turning a database into a type-safe client. Unlike ORMs such as TypeORM, you define the schema in a separate file (schema.prisma) and the client is generated from it.",
@@ -258,9 +258,9 @@
     "name": "Awesome Serverless",
     "tags": [
       "awesome-liste",
-      "github",
       "backend",
-      "devops"
+      "devops",
+      "ücretsiz"
     ],
     "tr": "Sunucusuz (serverless) hesaplama ve mimari için kaynak listesi. Tek sağlayıcı belgelerinden farkı AWS Lambda, Azure Functions gibi servisleri ve açık kaynak çatıları yan yana toplaması.",
     "en": "A resource list for serverless computing and architecture. Unlike a single provider’s docs, it sets services such as AWS Lambda and Azure Functions beside open-source frameworks.",
@@ -271,9 +271,9 @@
     "name": "Awesome Software Architecture",
     "tags": [
       "awesome-liste",
-      "github",
       "sistem-tasarımı",
-      "backend"
+      "backend",
+      "ücretsiz"
     ],
     "tr": "Yazılım mimarisini tasarlama ve belgeleme kaynaklarının listesi. Tek kitaptan farkı kalıp, örnek olay ve araçları bir arada, konu konu toplaması.",
     "en": "A list of resources for designing and documenting software architecture. Unlike a single book it gathers patterns, case studies and tools together, topic by topic.",
@@ -284,9 +284,9 @@
     "name": "Awesome Symfony",
     "tags": [
       "awesome-liste",
-      "github",
       "php",
-      "backend"
+      "backend",
+      "ücretsiz"
     ],
     "tr": "PHP çatısı Symfony için bundle ve kaynak listesi. Genel PHP listelerinden farkı Symfony bundle’larına ve bu çatıya özgü araçlara odaklanması.",
     "en": "A list of bundles and resources for the Symfony PHP framework. Unlike general PHP lists, it focuses on Symfony bundles and tools specific to the framework.",
@@ -297,8 +297,8 @@
     "name": "Awesome Vapor",
     "tags": [
       "awesome-liste",
-      "github",
-      "backend"
+      "backend",
+      "ücretsiz"
     ],
     "tr": "Swift ile sunucu tarafı geliştirme çatısı Vapor için kaynak listesi. Node veya Go çatılarından farkı iOS uygulamasının dilini sunucuda da kullanabilmen; liste paketleri ve rehberleri topluyor.",
     "en": "A resource list for Vapor, server-side development in Swift. Unlike Node or Go frameworks, you use your iOS app’s language on the server too; the list gathers packages and guides.",
@@ -310,7 +310,8 @@
     "tags": [
       "backend",
       "veritabanı",
-      "açık-kaynak"
+      "açık-kaynak",
+      "ücretsiz"
     ],
     "tr": "Veritabanı, sunucu işlevleri ve gerçek zamanlı abonelikleri tek üründe toplayan backend platformu. Firebase’den farkı sorguların TypeScript fonksiyonu olarak yazılması ve işlem (transaction) garantisi vermesi — döküman veritabanı esnekliğiyle ilişkisel tutarlılık.",
     "en": "A backend platform folding the database, server functions and real-time subscriptions into one product. Where Firebase has you write rules, here queries are TypeScript functions with real transactional guarantees — document flexibility without giving up consistency.",
@@ -322,7 +323,8 @@
     "tags": [
       "açık-kaynak",
       "python",
-      "backend"
+      "backend",
+      "ücretsiz"
     ],
     "tr": "ORM, göç sistemi, yönetim paneli ve kimlik doğrulama kutudan çıkıyor. Flask’tan farkı bu “pil dahil” yaklaşım: ilk haftayı kazandırıyor, Django’nun kalıbı dışına çıkmak istediğinde ise direnç gösteriyor.",
     "en": "ORM, migrations, admin panel and authentication out of the box. Unlike Flask it comes batteries-included: it buys you the first week, and pushes back when you want to step outside its shape.",
@@ -334,7 +336,8 @@
     "name": "Express",
     "tags": [
       "açık-kaynak",
-      "javascript"
+      "javascript",
+      "ücretsiz"
     ],
     "tr": "Node.js’in minimal çatısı; ara katman (middleware) modelini standartlaştırdığı için ekosistemin ortak dili hâline geldi. Fastify gibi yeni çatılara kıyasla yavaş ve az değişiyor — Express 5 ancak 2024’te çıktı; bu hem güç hem zayıflık.",
     "en": "Node’s minimal framework, whose middleware model became the ecosystem’s shared vocabulary. Compared with newer frameworks such as Fastify it is slower and barely changes — Express 5 only shipped in 2024; that is both strength and weakness.",
@@ -347,7 +350,8 @@
     "tags": [
       "açık-kaynak",
       "python",
-      "api"
+      "api",
+      "ücretsiz"
     ],
     "tr": "Tip ipuçlarından hem doğrulama hem OpenAPI şeması üretiyor; `/docs` adresinde çalışan bir test arayüzü kendiliğinden geliyor. Flask’tan farkı bu şemanın ve asenkron desteğin (ASGI) yerleşik gelmesi.",
     "en": "Derives validation and an OpenAPI schema from type hints, and a working test UI appears at `/docs` by itself. Unlike Flask, the schema and async support (ASGI) are built in.",
@@ -360,7 +364,8 @@
     "tags": [
       "açık-kaynak",
       "python",
-      "backend"
+      "backend",
+      "ücretsiz"
     ],
     "tr": "Çekirdek kasten küçük: yönlendirme ve şablon var, ORM ve kimlik doğrulama yok. Django’nun aksine ne kullanacağına sen karar veriyorsun — bu da her projede yeniden karar vermek anlamına geliyor.",
     "en": "A deliberately small core — routing and templating, no ORM or auth. Unlike Django you choose the pieces, which also means choosing them again on every project.",
@@ -385,7 +390,8 @@
     "tags": [
       "açık-kaynak",
       "api",
-      "sistem-tasarımı"
+      "sistem-tasarımı",
+      "ücretsiz"
     ],
     "tr": "İstemci hangi alanları istediğini kendi belirtiyor; fazla veri çekme ve az veri çekme sorunu şema düzeyinde çözülüyor. Bedeli önbellekleme ve hız sınırlamanın REST’ten zor olması.",
     "en": "The client declares which fields it wants, so over- and under-fetching are solved at the schema level. The cost is that caching and rate limiting get harder than in REST.",
@@ -438,7 +444,8 @@
     "tags": [
       "açık-kaynak",
       "php",
-      "backend"
+      "backend",
+      "ücretsiz"
     ],
     "tr": "Kuyruk, zamanlayıcı, olay yayını ve test araçları çekirdekte. PHP’nin “eski dil” imajının aksine burada kurulan geliştirici deneyimi çoğu modern çatının üstünde.",
     "en": "Queues, scheduler, broadcasting and testing tools live in the core. Against PHP’s dated reputation, the developer experience here is ahead of most modern frameworks.",
@@ -464,7 +471,8 @@
     "tags": [
       "backend",
       "açık-kaynak",
-      "sunucu"
+      "sunucu",
+      "ücretsiz"
     ],
     "tr": "Sık kullanılan veriyi bellekte tutarak site hızını artıran dağıtık önbellek sistemi. Redis’e kıyasla yalnız anahtar-değer saklıyor ve kalıcılığı yok; karşılığında çok iş parçacıklı ve son derece basit.",
     "en": "A distributed memory cache that speeds up sites by holding hot data in RAM. Compared with Redis it stores only key-value pairs with no persistence; in exchange it is multi-threaded and extremely simple.",
@@ -539,9 +547,9 @@
     "url": "https://github.com/public-api-lists/public-api-lists",
     "name": "Public API Lists",
     "tags": [
-      "github",
       "awesome-liste",
-      "api"
+      "api",
+      "ücretsiz"
     ],
     "tr": "Public APIs’in sürdürülen çatalı; asıl depo bir dönem bakımsız kaldığında ortaya çıktı. Asıl listeden farkı bazı girdilerinin daha güncel olması — birinde bulamadığını diğerinde ara.",
     "en": "A maintained fork of Public APIs, born while the original went untended. Unlike the original, some of its entries are fresher — search one when the other comes up empty.",
@@ -552,9 +560,9 @@
     "url": "https://github.com/public-apis/public-apis",
     "name": "Public APIs",
     "tags": [
-      "github",
       "awesome-liste",
-      "api"
+      "api",
+      "ücretsiz"
     ],
     "tr": "Kategorili ücretsiz API listesi; kimlik doğrulama türü, HTTPS ve CORS desteği tabloda işaretli. RapidAPI gibi pazaryerlerinden farkı ücretsiz API’leri sade bir tabloyla sunması: prototipe veri lazım olduğunda ilk durak.",
     "en": "A categorised list of free APIs with auth type, HTTPS and CORS support marked in the table. Unlike marketplaces such as RapidAPI, it presents free APIs in a plain table — first stop when a prototype needs data.",
@@ -592,7 +600,8 @@
     "tags": [
       "api",
       "backend",
-      "açık-kaynak"
+      "açık-kaynak",
+      "ücretsiz"
     ],
     "tr": "RESTful API’leri tasarlamak, belgelemek ve denemek için OpenAPI araç seti. Postman gibi istemcilerden farkı önce şartnameyi yazıp belgeyi ve istemci kodunu ondan üretmen (spec-first).",
     "en": "An OpenAPI toolset to design, document and try RESTful APIs. Unlike clients such as Postman, you write the spec first and generate docs and client code from it.",
@@ -615,9 +624,9 @@
     "url": "https://github.com/donnemartin/system-design-primer",
     "name": "System Design Primer",
     "tags": [
-      "github",
       "sistem-tasarımı",
-      "mülakat"
+      "mülakat",
+      "ücretsiz"
     ],
     "tr": "Ölçekleme kavramlarını (önbellek, parçalama, kuyruk, CAP) örnek mimarilerle birlikte veriyor. Mülakat odaklı kısa rehberlerden farkı, mimari sözlüğü olarak da işe yarayacak kadar kapsamlı olması.",
     "en": "Pairs scaling concepts — caching, sharding, queues, CAP — with worked architectures. Unlike short interview guides, it is thorough enough to serve as an architecture vocabulary beyond interviews.",

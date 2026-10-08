@@ -19,7 +19,8 @@
       "açık-kaynak",
       "cli",
       "sistem-tasarımı",
-      "git"
+      "git",
+      "ücretsiz"
     ],
     "tr": "Terminalde çalışıyor ve her değişikliği ayrı bir git commit’i olarak yazıyor. Editör tabanlı asistanlardan farkı bu güvenlik ağı: beğenmediğin adımı `git revert` ile geri alabiliyorsun.",
     "en": "Runs in the terminal and writes each change as its own git commit. Unlike editor-based assistants it gives you that safety net: revert a step you dislike with `git revert`.",
@@ -58,7 +59,8 @@
     "tags": [
       "açık-kaynak",
       "python",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Üç satırla tablo verisinde güçlü bir taban çizgisi kuruyor. Tek model eğitmekten farkı birden çok modeli eğitip yığınlayarak (stacking) birleştirmesi; Kaggle taban çizgisi olarak sık kullanılıyor.",
     "en": "Three lines gives a strong baseline on tabular data. Unlike training a single model, it trains several and combines them by stacking; frequently used as a Kaggle baseline.",
@@ -70,8 +72,8 @@
     "name": "Awesome Actions on Google",
     "tags": [
       "awesome-liste",
-      "github",
-      "llm"
+      "llm",
+      "ücretsiz"
     ],
     "tr": "Google Asistan için geliştirme platformu Actions on Google kaynak listesi. Google konuşmalı eylemleri 2023’te kapattığı için güncel Asistan listelerinden farkı artık yalnız tarihsel değer taşıması.",
     "en": "A resource list for Actions on Google, the developer platform for Google Assistant. Since Google shut down Conversational Actions in 2023, unlike current assistant lists it now has only historical value.",
@@ -82,9 +84,9 @@
     "name": "Awesome Generative AI",
     "tags": [
       "awesome-liste",
-      "github",
       "llm",
-      "görsel-üretim"
+      "görsel-üretim",
+      "ücretsiz"
     ],
     "tr": "Metin, görsel ve sesi üreten yapay zekâ araç ve projelerinin listesi. Tek ürün sayfalarından farkı alanı kategori kategori haritalayıp hızlı gelişmeyi takip etmesi.",
     "en": "A list of AI tools and projects that generate text, images and audio. Unlike single product pages it maps the field category by category and tracks its fast movement.",
@@ -95,9 +97,9 @@
     "name": "Awesome XAI",
     "tags": [
       "awesome-liste",
-      "github",
       "llm",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Açıklanabilir yapay zekâ (XAI) — modelin neden öyle karar verdiğini gösteren yöntemler listesi. Genel ML listelerinden farkı yalnız yorumlanabilirliğe odaklanması.",
     "en": "A list of methods for explainable AI (XAI) — showing why a model decided as it did. Unlike general ML lists it focuses only on interpretability.",
@@ -120,9 +122,9 @@
     "name": "BioGPT",
     "tags": [
       "açık-kaynak",
-      "github",
       "akademik",
-      "açık-ağırlık"
+      "açık-ağırlık",
+      "ücretsiz"
     ],
     "tr": "PubMed özetleriyle eğitilmiş dil modeli; ilaç-hastalık ilişkisi çıkarımı gibi görevlerde genel modellerden isabetli. Metin üretmekten çok bilgi çıkarımı için.",
     "en": "A language model trained on PubMed abstracts, more accurate than general models at tasks like drug–disease relation extraction. Built for information extraction rather than generation.",
@@ -212,9 +214,9 @@
     "name": "ChemCrow",
     "tags": [
       "açık-kaynak",
-      "github",
       "agent",
-      "akademik"
+      "akademik",
+      "ücretsiz"
     ],
     "tr": "Kimya araçlarını (RDKit, reaksiyon veritabanları, sentez planlayıcıları) kullanabilen LLM agent’ı. Modelin kendi belleğine değil gerçek hesaplamalara başvurması, kimyada hata payını ciddi düşürüyor.",
     "en": "An LLM agent that operates chemistry tools — RDKit, reaction databases, synthesis planners. Consulting real computation instead of the model’s recall sharply lowers error in chemistry.",
@@ -228,7 +230,8 @@
       "açık-kaynak",
       "eklenti",
       "sistem-tasarımı",
-      "agent"
+      "agent",
+      "ücretsiz"
     ],
     "tr": "VS Code içinde dosya oluşturup komut çalıştırabilen kod agent’ı; her eylem için ayrı onay istiyor. Tam otonom agent’ların aksine bu yavaşlatan adım, kaybettiğin denetimi geri veriyor.",
     "en": "A coding agent that creates files and runs commands inside VS Code, asking approval for each action. Unlike fully autonomous agents, that slowing step gives back the oversight you would otherwise lose.",
@@ -281,9 +284,9 @@
     "name": "ColabFold",
     "tags": [
       "açık-kaynak",
-      "github",
       "akademik",
-      "interaktif"
+      "interaktif",
+      "ücretsiz"
     ],
     "tr": "MMseqs2 ile dizi hizalamayı hızlandırıp AlphaFold’u Colab’da çalıştırılabilir hâle getiriyor. AlphaFold Server’dan farkı kotaya takılmadan kendi dizilerini toplu işleyebilmen.",
     "en": "Speeds up sequence alignment with MMseqs2 to make AlphaFold runnable in Colab. Unlike AlphaFold Server, you can batch-process your own sequences without hitting a quota.",
@@ -309,7 +312,8 @@
     "tags": [
       "açık-kaynak",
       "eklenti",
-      "sistem-tasarımı"
+      "sistem-tasarımı",
+      "ücretsiz"
     ],
     "tr": "VS Code ve JetBrains için açık kaynak kod asistanı; hangi modelin tamamlama, hangisinin sohbet yapacağını ayrı ayrı seçiyorsun. GitHub Copilot’tan farkı model seçiminin serbest olması: yerel model bağlayıp kodu dışarı hiç göndermemek mümkün.",
     "en": "An open-source coding assistant for VS Code and JetBrains, where you pick which model does completion and which does chat. Unlike GitHub Copilot the model choice is open — point it at a local model and code never leaves your machine.",
@@ -335,7 +339,8 @@
     "tags": [
       "açık-kaynak",
       "python",
-      "akademik"
+      "akademik",
+      "ücretsiz"
     ],
     "tr": "İlaç keşfi için makine öğrenmesi kütüphanesi; moleküler özellik hesaplama ve veri kümesi yükleyicileri dahil. Genel ML kütüphanelerinden farkı kimyasal veriyi modele hazır hâle getiren sıkıcı kısmı da üstlenmesi.",
     "en": "A machine-learning library for drug discovery, including molecular featurisation and dataset loaders. Unlike general ML libraries, it takes on the tedious part of getting chemical data model-ready.",
@@ -386,9 +391,9 @@
     "name": "FinGPT",
     "tags": [
       "açık-kaynak",
-      "github",
       "veri-bilimi",
-      "llm"
+      "llm",
+      "ücretsiz"
     ],
     "tr": "Finansal metin için açık modeller ve veri hattı; duygu analizi ve haber sınıflandırma üzerine ince ayarlı sürümler içeriyor. Bloomberg terminaline araştırma amaçlı açık alternatif.",
     "en": "Open models and data pipelines for financial text, including fine-tunes for sentiment and news classification. An open research alternative to a Bloomberg terminal.",
@@ -546,7 +551,8 @@
     "tags": [
       "açık-kaynak",
       "self-hosted",
-      "türkçe"
+      "türkçe",
+      "ücretsiz"
     ],
     "tr": "Türkçe dahil 30’dan fazla dili kural tabanlı olarak denetliyor. Grammarly’den farkı Türkçeyi desteklemesi ve kendi sunucunda çalıştırılabilmesi — metnin bir şirkete gitmemesi gerektiğinde tek gerçek seçenek.",
     "en": "Rule-based checking for 30+ languages including Turkish. Unlike Grammarly it supports Turkish and can be self-hosted — the only real option when the text must not go to a company.",
@@ -572,7 +578,8 @@
     "tags": [
       "açık-kaynak",
       "self-hosted",
-      "api"
+      "api",
+      "ücretsiz"
     ],
     "tr": "Kendi sunucuna kurulabilen makine çevirisi API’si; Argos Translate modellerini kullanıyor. Google Translate API’sinden farkı çevrilen metnin hiç dışarı çıkmaması ve istek başına ücret olmaması — kalite daha düşük, gizlilik daha yüksek.",
     "en": "A self-hostable machine translation API running Argos Translate models. Against the Google Translate API the text never leaves your server and there is no per-request charge — lower quality, higher privacy.",
@@ -609,9 +616,9 @@
     "name": "MedAlpaca",
     "tags": [
       "açık-kaynak",
-      "github",
       "akademik",
-      "açık-ağırlık"
+      "açık-ağırlık",
+      "ücretsiz"
     ],
     "tr": "Tıbbi soru-cevap için ince ayarlanmış açık model; USMLE tarzı sınav sorularıyla değerlendirilmiş. Klinik kullanım için değil, araştırma ve sınav çalışması için.",
     "en": "An open model fine-tuned for medical Q&A and evaluated on USMLE-style questions. For research and exam practice, not clinical use.",
@@ -637,7 +644,8 @@
       "açık-kaynak",
       "python",
       "veri-bilimi",
-      "referans"
+      "referans",
+      "ücretsiz"
     ],
     "tr": "Model seçimini otomatikleştiren AutoML aracı. Diğer AutoML araçlarından farkı Markdown rapor üretmesi: öğrenme eğrileri, önem grafikleri ve karar açıklamaları dahil — sonucu birine sunman gerekiyorsa fark yaratıyor.",
     "en": "An AutoML tool that automates model selection. Unlike other AutoML tools it emits a Markdown report with learning curves, importance plots and decision explanations — which matters when you have to present the result.",
@@ -663,7 +671,8 @@
       "açık-kaynak",
       "agent",
       "sistem-tasarımı",
-      "docker"
+      "docker",
+      "ücretsiz"
     ],
     "tr": "Tarayıcı ve terminal kullanabilen otonom geliştirme agent’ı; izole bir Docker kapsayıcısında çalışıyor. Satır tamamlamak değil, bir konuyu (issue) baştan sona kapatmak için tasarlanmış.",
     "en": "An autonomous development agent with browser and terminal access, running in an isolated Docker container. Built to close an issue end to end, not to complete a line.",
@@ -677,7 +686,8 @@
       "açık-kaynak",
       "python",
       "veri-bilimi",
-      "müfredat"
+      "müfredat",
+      "ücretsiz"
     ],
     "tr": "Görsel programlamayla veri madenciliği; widget’lar scikit-learn’i sarmalıyor. KNIME’dan hafif ve görselleştirme tarafı güçlü, bu yüzden derslerde tercih ediliyor.",
     "en": "Visual-programming data mining whose widgets wrap scikit-learn. Lighter than KNIME with stronger visualisation, which is why it shows up in teaching.",
@@ -718,7 +728,8 @@
     "tags": [
       "açık-kaynak",
       "python",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Zaman serisini eğilim, mevsimsellik ve tatil etkilerine ayırıyor. ARIMA gibi klasik modellerden farkı parametre ayarı yapmadan makul sonuç vermesi; istatistik bilgisi olmayan analistler için tasarlanmış.",
     "en": "Decomposes a time series into trend, seasonality and holiday effects. Unlike classic models such as ARIMA it gives reasonable results without tuning; designed for analysts who are not statisticians.",
@@ -731,7 +742,8 @@
     "tags": [
       "açık-kaynak",
       "python",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "`compare_models()` tek satırda onlarca algoritmayı çapraz doğrulamayla kıyaslayıp tabloya döküyor. Keşif aşamasında hangi model ailesinin işe yaradığını hızla eliyor.",
     "en": "`compare_models()` cross-validates dozens of algorithms in one line and tabulates the result, quickly narrowing which model family is worth pursuing.",
@@ -771,7 +783,8 @@
       "açık-kaynak",
       "python",
       "c-ailesi",
-      "akademik"
+      "akademik",
+      "ücretsiz"
     ],
     "tr": "Kemoinformatiğin temel açık kütüphanesi: SMILES ayrıştırma, alt yapı arama, parmak izi üretimi. Ticari kemoinformatik paketlerinden farkı açık kaynak olması; alandaki araçların çoğu doğrudan bunun üzerine kurulu.",
     "en": "The foundational open cheminformatics library — SMILES parsing, substructure search, fingerprints. Unlike commercial cheminformatics suites it is open source, and most tooling in the field is built directly on it.",
@@ -795,8 +808,8 @@
     "name": "ResuMax",
     "tags": [
       "açık-kaynak",
-      "github",
-      "mülakat"
+      "mülakat",
+      "ücretsiz"
     ],
     "tr": "Özgeçmişi hedef ilana göre uyarlayan araç; ATS taramasından geçecek biçimlendirmeye dikkat ediyor. Genel yazım asistanlarından farkı ilan ile özgeçmiş arasındaki bu eşleştirmeye odaklanması.",
     "en": "Tailors a résumé to a specific posting and watches the formatting ATS parsers need. Unlike general writing assistants, it focuses on matching the résumé to the posting.",
@@ -810,7 +823,8 @@
       "açık-kaynak",
       "eklenti",
       "sistem-tasarımı",
-      "agent"
+      "agent",
+      "ücretsiz"
     ],
     "tr": "Cline’dan çatallanmış kod agent’ı. Cline’dan farkı mimar, kodcu ve hata ayıklayıcı kiplerinin ayrı sistem istemi ve ayrı model kullanabilmesi: planlamaya güçlü, kodlamaya ucuz model koymak mümkün.",
     "en": "A coding agent forked from Cline. Unlike Cline, its architect, coder and debugger modes can carry separate system prompts and models — a strong model on planning, a cheap one on coding.",
@@ -850,7 +864,8 @@
       "açık-kaynak",
       "self-hosted",
       "sistem-tasarımı",
-      "rust"
+      "rust",
+      "ücretsiz"
     ],
     "tr": "Kendi sunucunda çalışan tamamlama motoru; Rust ile yazılmış, tek GPU’da barınıyor. Kodun kurum dışına çıkmaması gereken durumlarda Copilot’un yerine geçen seçenek.",
     "en": "A self-hosted completion engine written in Rust that fits on one GPU. The Copilot substitute when code must not leave the building.",
@@ -878,7 +893,8 @@
       "açık-kaynak",
       "c-ailesi",
       "veri-bilimi",
-      "akademik"
+      "akademik",
+      "ücretsiz"
     ],
     "tr": "Klasik makine öğrenmesi algoritmalarının Java araç kutusu; alanın en eski açık projelerinden. Modern kütüphanelerin gerisinde ama algoritmaları yan yana kıyaslamak için hâlâ düzenli.",
     "en": "A Java toolbox of classical ML algorithms and one of the field’s oldest open projects. Behind modern libraries, yet still tidy for comparing algorithms side by side.",

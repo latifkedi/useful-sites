@@ -29,7 +29,8 @@
     "tags": [
       "devops",
       "otomasyon",
-      "açık-kaynak"
+      "açık-kaynak",
+      "ücretsiz"
     ],
     "tr": "Yapılandırma yönetimi ve otomasyon; sunucuları YAML playbook’larla kuruyor. Puppet ve Chef’ten farkı hedef makineye ajan kurmadan, SSH üzerinden çalışması.",
     "en": "Configuration management and automation that provisions servers with YAML playbooks. Unlike Puppet and Chef, it needs no agent on the target and works over SSH.",
@@ -41,7 +42,8 @@
     "tags": [
       "açık-kaynak",
       "otomasyon",
-      "python"
+      "python",
+      "ücretsiz"
     ],
     "tr": "Veri boru hatlarını Python’la tanımlanan yönlü grafik (DAG) olarak zamanlayan orkestratör. Cron’dan farkı bağımlılık, yeniden deneme ve geçmiş çalıştırma görünürlüğü sunması.",
     "en": "An orchestrator scheduling data pipelines as Python-defined directed graphs (DAGs). Unlike cron it offers dependencies, retries and visibility into historical runs.",
@@ -54,7 +56,8 @@
     "tags": [
       "açık-kaynak",
       "sunucu",
-      "dokümantasyon"
+      "dokümantasyon",
+      "ücretsiz"
     ],
     "tr": "Modül mimarisi ve .htaccess ile dizin bazlı yapılandırma esnekliği. Paylaşımlı barındırmada hâlâ hâkim; nginx’e göre yüksek eşzamanlılıkta daha çok bellek yiyor.",
     "en": "A module architecture plus per-directory configuration through .htaccess. Still dominant in shared hosting, and hungrier for memory than nginx under high concurrency.",
@@ -67,7 +70,8 @@
     "tags": [
       "devops",
       "otomasyon",
-      "açık-kaynak"
+      "açık-kaynak",
+      "ücretsiz"
     ],
     "tr": "Kubernetes’e özgü iş akışları ve GitOps sürekli dağıtım araçları takımı (Argo CD, Workflows). Jenkins gibi CI sunucularından farkı kümenin içinde çalışması ve Git’i tek doğru kaynak sayması: küme durumu depoyla sürekli eşitleniyor.",
     "en": "A suite of Kubernetes-native workflow and GitOps continuous-delivery tools (Argo CD, Workflows). Unlike CI servers such as Jenkins, it runs inside the cluster and treats Git as the single source of truth, continuously syncing cluster state to the repo.",
@@ -90,9 +94,9 @@
     "name": "Awesome Actions",
     "tags": [
       "awesome-liste",
-      "github",
       "devops",
-      "otomasyon"
+      "otomasyon",
+      "ücretsiz"
     ],
     "tr": "İş akışını otomatikleştiren GitHub Actions için hazır eylem listesi. Marketplace’ten farkı küratörlü olması: denenmiş eylemleri kullanım alanına göre grupluyor.",
     "en": "A list of ready actions for GitHub Actions, automating your workflow. Unlike the Marketplace it is curated, grouping proven actions by use.",
@@ -103,9 +107,9 @@
     "name": "Awesome Ansible",
     "tags": [
       "awesome-liste",
-      "github",
       "devops",
-      "otomasyon"
+      "otomasyon",
+      "ücretsiz"
     ],
     "tr": "Python tabanlı BT yapılandırma aracı Ansible için rol ve kaynak listesi. Puppet ve Chef’ten farkı hedef makineye ajan kurmadan SSH üzerinden çalışması.",
     "en": "A list of roles and resources for Ansible, the Python-based IT configuration tool. Unlike Puppet and Chef, it works over SSH with no agent installed on the target machine.",
@@ -116,8 +120,8 @@
     "name": "Awesome Backstage",
     "tags": [
       "awesome-liste",
-      "github",
-      "devops"
+      "devops",
+      "ücretsiz"
     ],
     "tr": "İç geliştirici portalları kuran Backstage platformu için kaynak listesi. Genel DevOps listelerinden farkı Spotify kökenli bu portalın eklentilerini, kurulum örneklerini ve yazılarını toplaması.",
     "en": "A resource list for Backstage, building internal developer portals. Unlike general DevOps lists, it gathers plugins, deployment examples and write-ups for this Spotify-born portal.",
@@ -128,8 +132,8 @@
     "name": "Awesome CDK",
     "tags": [
       "awesome-liste",
-      "github",
-      "devops"
+      "devops",
+      "ücretsiz"
     ],
     "tr": "Altyapıyı gerçek kodla tanımlayan AWS CDK için kaynak listesi. Terraform’dan farkı altyapıyı HCL yerine TypeScript ya da Python gibi genel amaçlı dillerle yazman ve sonucun CloudFormation’a derlenmesi.",
     "en": "A resource list for the AWS CDK, defining infrastructure with real code. Unlike Terraform, you write infrastructure in general-purpose languages such as TypeScript or Python instead of HCL, and it compiles to CloudFormation.",
@@ -140,9 +144,9 @@
     "name": "Awesome Kubernetes",
     "tags": [
       "awesome-liste",
-      "github",
       "devops",
-      "docker"
+      "docker",
+      "ücretsiz"
     ],
     "tr": "Kubernetes ekosistemi için araç, öğretici ve üretim deneyimi listesi. Resmî dokümandan farkı topluluk araçlarını ve gerçek dünya kalıplarını bir arada toplaması.",
     "en": "A list of tools, tutorials and production experience for the Kubernetes ecosystem. Unlike the official docs it gathers community tools and real-world patterns together.",
@@ -153,8 +157,8 @@
     "name": "Awesome Nix",
     "tags": [
       "awesome-liste",
-      "github",
-      "devops"
+      "devops",
+      "ücretsiz"
     ],
     "tr": "Nix paket yöneticisi ve NixOS için araç, kütüphane ve rehber listesi. Genel Linux listelerinden farkı yeniden üretilebilir, bildirimsel yapılandırmaya odaklanması.",
     "en": "A list of tools, libraries and guides for the Nix package manager and NixOS. Unlike general Linux lists it focuses on reproducible, declarative configuration.",
@@ -165,9 +169,9 @@
     "name": "Awesome OpenTofu",
     "tags": [
       "awesome-liste",
-      "github",
       "devops",
-      "açık-kaynak"
+      "açık-kaynak",
+      "ücretsiz"
     ],
     "tr": "Terraform’un açık kaynak çatalı OpenTofu için kaynak listesi. Terraform’dan farkı Linux Vakfı altında açık kaynak (MPL) lisansta kalması; HashiCorp 2023’te BSL lisansına geçince doğdu.",
     "en": "A resource list for OpenTofu, the open-source fork of Terraform. Unlike Terraform, it stays under an open-source (MPL) licence at the Linux Foundation; it was born when HashiCorp moved to the BSL in 2023.",
@@ -178,9 +182,9 @@
     "name": "Awesome Prometheus",
     "tags": [
       "awesome-liste",
-      "github",
       "devops",
-      "gözlemlenebilirlik"
+      "gözlemlenebilirlik",
+      "ücretsiz"
     ],
     "tr": "Açık kaynak izleme sistemi Prometheus için exporter ve kaynak listesi. Push tabanlı izleme sistemlerinden farkı metrikleri hedeflerden çekerek (pull) toplaması; liste exporter’ları, panoları ve araçları topluyor.",
     "en": "A list of exporters and resources for Prometheus, the open-source monitoring system. Unlike push-based monitoring it pulls metrics from targets; the list gathers exporters, dashboards and tools.",
@@ -191,9 +195,9 @@
     "name": "Awesome Splunk",
     "tags": [
       "awesome-liste",
-      "github",
       "devops",
-      "gözlemlenebilirlik"
+      "gözlemlenebilirlik",
+      "ücretsiz"
     ],
     "tr": "Log arama ve izleme platformu Splunk için kaynak listesi. ELK ya da Loki gibi açık kaynak yığın listelerinden farkı ticari Splunk ekosistemine — uygulamalar, SPL sorguları, eklentiler — odaklanması.",
     "en": "A resource list for Splunk, the log-search and monitoring platform. Unlike lists for open-source stacks such as ELK or Loki, it focuses on the commercial Splunk ecosystem — apps, SPL queries, add-ons.",
@@ -204,9 +208,9 @@
     "name": "Awesome Terraform",
     "tags": [
       "awesome-liste",
-      "github",
       "devops",
-      "otomasyon"
+      "otomasyon",
+      "ücretsiz"
     ],
     "tr": "Altyapıyı kod olarak yöneten Terraform için modül ve kaynak listesi. OpenTofu listelerinden farkı HashiCorp’un özgün aracına ve onun daha eski, geniş modül ekosistemine odaklanması.",
     "en": "A list of modules and resources for Terraform, managing infrastructure as code. Unlike OpenTofu lists, it centres on HashiCorp’s original tool and its older, broader module ecosystem.",
@@ -218,7 +222,8 @@
     "tags": [
       "açık-kaynak",
       "python",
-      "otomasyon"
+      "otomasyon",
+      "ücretsiz"
     ],
     "tr": "Python’da arka plan görevlerinin standardı; Redis ya da RabbitMQ’yu aracı olarak kullanıyor. RQ gibi daha basit kuyruklara kıyasla zamanlanmış görevler (beat), yeniden deneme ve iş akışı ilkelleriyle kapsamlı; karşılığında yapılandırması ağır.",
     "en": "The standard for background tasks in Python, using Redis or RabbitMQ as a broker. Compared with simpler queues such as RQ it is comprehensive — scheduled tasks (beat), retries, workflow primitives — at the cost of heavier configuration.",
@@ -232,7 +237,7 @@
       "devops",
       "docker",
       "açık-kaynak",
-      "github"
+      "ücretsiz"
     ],
     "tr": "Kubernetes ile bütünleşik, bulut-doğal kaos mühendisliği (arıza enjeksiyonu) platformu. Yalnız örnek sonlandıran Chaos Monkey’den farkı ağ gecikmesi, disk hatası ve saat kayması gibi arızaları Kubernetes kaynağı olarak tanımlayabilmen.",
     "en": "A cloud-native, Kubernetes-integrated chaos-engineering (fault-injection) platform. Unlike Chaos Monkey, which only kills instances, you declare faults such as network latency, disk errors and clock skew as Kubernetes resources.",
@@ -270,7 +275,8 @@
       "açık-kaynak",
       "self-hosted",
       "sunucu",
-      "devops"
+      "devops",
+      "ücretsiz"
     ],
     "tr": "Geliştirme ortamını kendi altyapında kapsayıcı olarak çalıştıran platform; VS Code ya da JetBrains istemcisiyle bağlanıyorsun. GitHub Codespaces’ten farkı bulut sağlayıcısına bağlı olmaması — kaynak da kod da sende kalıyor.",
     "en": "Runs development environments as containers on your own infrastructure, reached from a VS Code or JetBrains client. Against GitHub Codespaces it is not tied to a cloud provider — both the compute and the code stay with you.",
@@ -282,7 +288,8 @@
     "tags": [
       "açık-kaynak",
       "self-hosted",
-      "devops"
+      "devops",
+      "ücretsiz"
     ],
     "tr": "Cron görevlerini web arayüzünden yöneten öz-barındırılan uygulama; ifadeleri okunur hâlde gösteriyor ve çalıştırma günlüğü tutuyor. crontab -e’den farkı bir sonraki çalışma zamanını ve son çıktıyı göstermesi — sessizce başarısız olan görevler görünür oluyor.",
     "en": "A self-hosted web interface for cron jobs that renders expressions in readable form and keeps a run log. Against `crontab -e` it shows the next run time and the last output, which makes silently failing jobs visible.",
@@ -305,9 +312,9 @@
     "name": "Docker Android",
     "tags": [
       "açık-kaynak",
-      "github",
       "docker",
-      "interaktif"
+      "interaktif",
+      "ücretsiz"
     ],
     "tr": "Kapsayıcı içinde Android emülatörü çalıştırıyor; VNC ile ekranına bakabiliyorsun. Bulut cihaz çiftliklerine kıyasla ücretsiz ve kendi CI hattında çalışıyor: otomatik testler için cihaz kurmadan emülatör.",
     "en": "Runs an Android emulator in a container with VNC access to the screen. Compared with cloud device farms it is free and runs in your own CI — an emulator for automated tests without standing up devices.",
@@ -319,9 +326,9 @@
     "name": "Dokploy",
     "tags": [
       "açık-kaynak",
-      "github",
       "self-hosted",
-      "docker"
+      "docker",
+      "ücretsiz"
     ],
     "tr": "Kendi VPS’inde Vercel benzeri dağıtım deneyimi kuruyor: git iterek yayına alma, veritabanı sağlama ve otomatik TLS. Heroku’nun ücretsiz katmanı kapandıktan sonra doğan boşluğu dolduruyor.",
     "en": "Brings a Vercel-like deploy experience to your own VPS — git-push deploys, database provisioning, automatic TLS. It fills the hole left when Heroku’s free tier closed.",
@@ -334,7 +341,8 @@
     "tags": [
       "devops",
       "otomasyon",
-      "açık-kaynak"
+      "açık-kaynak",
+      "ücretsiz"
     ],
     "tr": "Dockerfile ile Makefile’ı birleştiren sözdizimiyle, yerelde ve CI’de aynı sonucu veren derleme aracı. Düz Makefile’dan farkı her adımın kapsayıcıda yalıtılması; proje artık aktif geliştirilmiyor, yeni kurulumlarda bunu hesaba kat.",
     "en": "A build tool with a syntax blending Dockerfile and Makefile, giving the same result locally and in CI. Unlike a plain Makefile every step is isolated in a container; the project is no longer actively maintained, so factor that into new setups.",
@@ -358,7 +366,8 @@
     "tags": [
       "açık-kaynak",
       "git",
-      "interaktif"
+      "interaktif",
+      "ücretsiz"
     ],
     "tr": "Depo geçmişini büyüyen bir ağaç animasyonu olarak çiziyor; kimin nereye dokunduğu görünür oluyor. Teknik analiz aracı değil, proje tarihini anlatmak için.",
     "en": "Renders repository history as a growing animated tree where you see who touched what. Not an analysis tool — a way to narrate a project’s history.",
@@ -370,7 +379,8 @@
     "name": "Grafana",
     "tags": [
       "açık-kaynak",
-      "gözlemlenebilirlik"
+      "gözlemlenebilirlik",
+      "ücretsiz"
     ],
     "tr": "Prometheus, Loki, PostgreSQL ve onlarca kaynağı aynı panoda birleştiriyor. Tek bir araca bağlı panolardan farkı veri kaynağından bağımsız olması; izleme yığınlarının ortak yüzü hâline gelmesinin sebebi bu.",
     "en": "Unifies Prometheus, Loki, PostgreSQL and dozens of sources on one dashboard. Unlike dashboards tied to one tool it is data-source agnostic, which is how it became the shared face of monitoring stacks.",
@@ -396,7 +406,8 @@
     "tags": [
       "devops",
       "self-hosted",
-      "açık-kaynak"
+      "açık-kaynak",
+      "ücretsiz"
     ],
     "tr": "Güvenlik taraması ve erişim denetimiyle özel konteyner imaj deposu (registry); CNCF mezun projesi. Docker Hub’dan farkı kendi sunucunda çalışması ve imajları yayından önce zafiyete karşı taraması.",
     "en": "A private container-image registry with security scanning and access control, a CNCF graduated project. Unlike Docker Hub, it runs on your own infrastructure and scans images for vulnerabilities before release.",
@@ -407,7 +418,8 @@
     "name": "Helm",
     "tags": [
       "devops",
-      "açık-kaynak"
+      "açık-kaynak",
+      "ücretsiz"
     ],
     "tr": "Kubernetes uygulamalarını paketleyip dağıtan paket yöneticisi (“chart”lar). Düz YAML manifestlerinden farkı şablonlama, değer dosyalarıyla ortam farklarını yönetme ve sürüm geri alma.",
     "en": "A package manager that packages and deploys Kubernetes applications as charts. Unlike plain YAML manifests, it adds templating, values files for environment differences and release rollback.",
@@ -454,7 +466,8 @@
     "tags": [
       "devops",
       "cli",
-      "açık-kaynak"
+      "açık-kaynak",
+      "ücretsiz"
     ],
     "tr": "Kubernetes kümelerini uçbirimden yöneten, hızlı ve etkileşimli TUI. Tek tek kubectl komutu yazmak yerine kaynaklar arasında klavyeyle gezip günlüklere ve kabuğa anında geçiyorsun.",
     "en": "A fast, interactive terminal UI for managing Kubernetes clusters. Instead of typing kubectl commands one by one, you move through resources by keyboard and jump straight into logs and shells.",
@@ -466,7 +479,8 @@
     "tags": [
       "açık-kaynak",
       "otomasyon",
-      "devops"
+      "devops",
+      "ücretsiz"
     ],
     "tr": "İş akışı düzenleyici; akışlar YAML’de bildirimsel olarak tanımlanıyor. Airflow’dan farkı Python yerine YAML kullanması: dil bağımsız olduğu için Python olmayan ekiplerde de çalışıyor ve sürüm kontrolüyle iyi geçiniyor.",
     "en": "A workflow orchestrator whose flows are declared in YAML. Unlike Airflow it uses YAML instead of Python, so it works for teams not on Python and sits well in version control.",
@@ -479,7 +493,8 @@
     "tags": [
       "devops",
       "açık-kaynak",
-      "dokümantasyon"
+      "dokümantasyon",
+      "ücretsiz"
     ],
     "tr": "Konteynerleri ölçekte dağıtan, yöneten ve iyileştiren açık kaynak orkestrasyon sisteminin resmî sitesi. Docker Compose’dan farkı birden çok makinede ölçekleme ve kendi kendini onarma; karşılığında öğrenme ve işletme maliyeti yüksek.",
     "en": "The official site of the open-source system that deploys, manages and heals containers at scale. Unlike Docker Compose it scales across machines and self-heals; in exchange the learning and operating costs are high.",
@@ -503,7 +518,8 @@
     "tags": [
       "dokümantasyon",
       "sunucu",
-      "veritabanı"
+      "veritabanı",
+      "ücretsiz"
     ],
     "tr": "LiteSpeed web sunucusunun yapılandırma referansı; LSCache kurallarının nasıl yazılacağı burada. Apache’den farkı olay tabanlı olup .htaccess’i yine de okuması; performansın büyük kısmını önbellekleme ayarları belirliyor.",
     "en": "The LiteSpeed web server’s configuration reference, including how LSCache rules are written. Unlike Apache it is event-driven yet still reads .htaccess; cache settings account for most of the performance you get.",
@@ -530,7 +546,8 @@
       "açık-kaynak",
       "self-hosted",
       "otomasyon",
-      "docker"
+      "docker",
+      "ücretsiz"
     ],
     "tr": "Görsel düğüm editörlü iş akışı otomasyonu. Zapier’den farkı kendi sunucunda çalıştırdığında çalıştırma sayısının sınırsız olması ve düğüm içine JavaScript yazabilmen: no-code duvarına toslamıyorsun.",
     "en": "Workflow automation with a visual node editor. Unlike Zapier, executions are unmetered when self-hosted and you can drop JavaScript into a node, so you do not hit the no-code wall.",
@@ -542,7 +559,8 @@
     "name": "n8n Dokümantasyonu",
     "tags": [
       "dokümantasyon",
-      "otomasyon"
+      "otomasyon",
+      "ücretsiz"
     ],
     "tr": "Düğüm referansı, kendi sunucuna kurulum ve kimlik bilgisi yönetimi. Topluluk öğreticilerinden farkı üretim konularını da kapsaması: kuyruk kipiyle ölçekleme bölümü, üretimde çalıştıracaklar için önemli.",
     "en": "Node reference, self-hosting and credential management. Unlike community tutorials it covers production topics too — the queue-mode scaling section matters for anyone running it in production.",
@@ -554,9 +572,9 @@
     "name": "Neko",
     "tags": [
       "açık-kaynak",
-      "github",
       "docker",
-      "ağ"
+      "ağ",
+      "ücretsiz"
     ],
     "tr": "Kapsayıcı içinde tarayıcı çalıştırıp WebRTC ile paylaşıyor; birden çok kişi aynı oturumu kontrol edebiliyor. Uzak masaüstü araçlarından farkı yalnız tarayıcıyı paylaşması: birlikte izleme ve izole gezinme için.",
     "en": "Runs a browser in a container and shares it over WebRTC, with several people able to control one session. Unlike remote-desktop tools it shares only the browser — for watching together and isolated browsing.",
@@ -568,7 +586,8 @@
     "name": "nginx",
     "tags": [
       "açık-kaynak",
-      "sunucu"
+      "sunucu",
+      "ücretsiz"
     ],
     "tr": "Olay güdümlü mimarisi sayesinde on binlerce eşzamanlı bağlantıyı düşük bellekle taşıyor. Ters vekil ve yük dengeleyici olarak kullanımı, web sunucusu olmasından daha yaygın.",
     "en": "Its event-driven architecture carries tens of thousands of concurrent connections on little memory. It is used as a reverse proxy and load balancer more often than as a web server.",
@@ -593,7 +612,8 @@
     "tags": [
       "devops",
       "açık-kaynak",
-      "otomasyon"
+      "otomasyon",
+      "ücretsiz"
     ],
     "tr": "Terraform’un topluluk güdümlü açık kaynak çatalı; aynı yapılandırmayı çalıştırıyor. Terraform’dan farkı Linux Vakfı altında açık (MPL) lisansta kalması ve durum dosyası şifreleme gibi kendi özellikleri eklemesi.",
     "en": "A community-driven open-source fork of Terraform that runs the same configurations. Unlike Terraform it stays under an open (MPL) licence at the Linux Foundation and adds its own features such as state encryption.",
@@ -604,7 +624,8 @@
     "name": "Pants",
     "tags": [
       "açık-kaynak",
-      "otomasyon"
+      "otomasyon",
+      "ücretsiz"
     ],
     "tr": "Çok dilli, büyük tek-depo (monorepo) projeleri için ölçeklenen derleme sistemi (Twitter kökenli). Bazel’e kıyasla Python ekosistemine daha dost ve bağımlılıkları kaynaktan kendisi çıkardığı için yapılandırması daha hafif.",
     "en": "A build system that scales to large, multi-language monorepos (originated at Twitter). Compared with Bazel it is friendlier to the Python ecosystem and lighter to configure, since it infers dependencies from source.",
@@ -630,7 +651,8 @@
     "tags": [
       "devops",
       "self-hosted",
-      "açık-kaynak"
+      "açık-kaynak",
+      "ücretsiz"
     ],
     "tr": "Docker ve Kubernetes ortamlarını görsel arayüzle yöneten self-hosted araç. Komut satırı yerine kapsayıcıları, yığınları ve günlükleri panelden yönetiyorsun; birden çok ortamı tek yerden izlemek için.",
     "en": "A self-hosted tool that manages Docker and Kubernetes environments through a visual UI. Instead of the command line you manage containers, stacks and logs from a panel — for watching several environments in one place.",
@@ -654,7 +676,8 @@
     "tags": [
       "açık-kaynak",
       "python",
-      "otomasyon"
+      "otomasyon",
+      "ücretsiz"
     ],
     "tr": "Akış sıradan bir Python fonksiyonu; dekoratör ekleyip orkestrasyona dahil ediyorsun. Airflow’un ayrı DSL’ini öğrenmeden yerel kodu üretime taşımak daha kısa.",
     "en": "A flow is an ordinary Python function you decorate into orchestration. Moving local code to production is shorter than learning Airflow’s separate DSL.",
@@ -681,7 +704,8 @@
     "tags": [
       "devops",
       "gözlemlenebilirlik",
-      "açık-kaynak"
+      "açık-kaynak",
+      "ücretsiz"
     ],
     "tr": "Metrik toplama ve uyarı için açık kaynak izleme sistemi; zaman serisi veritabanı içeriyor. Push tabanlı sistemlerin aksine metrikleri hedeflerden çekiyor (pull) ve PromQL ile sorgulatıyor.",
     "en": "An open-source monitoring system for metrics collection and alerting, with a time-series database. Unlike push-based systems it pulls metrics from targets and queries them with PromQL.",
@@ -692,7 +716,8 @@
     "name": "RabbitMQ Öğreticileri",
     "tags": [
       "açık-kaynak",
-      "otomasyon"
+      "otomasyon",
+      "ücretsiz"
     ],
     "tr": "Altı adımda mesaj kuyruğu desenlerini öğreten resmî seri: iş kuyruğu, yayın-abone, yönlendirme, RPC. Kafka’dan farkı olay akışına değil görev dağıtımına odaklanması.",
     "en": "The official six-step series on queue patterns — work queues, pub/sub, routing, RPC. Unlike Kafka, which is for event streaming, this is about task distribution.",
@@ -704,7 +729,8 @@
     "name": "Redis Dokümantasyonu",
     "tags": [
       "dokümantasyon",
-      "veritabanı"
+      "veritabanı",
+      "ücretsiz"
     ],
     "tr": "Liste, küme, sıralı küme ve akış gibi veri yapılarının referansı. Memcached’den farkı bu veri yapıları ve kalıcılık: Redis’i basit bir anahtar-değer deposu sanmak, aracın çoğunu kullanmamak demek.",
     "en": "The reference for its data structures — lists, sets, sorted sets, streams. Unlike Memcached it has those structures and persistence; treating Redis as a plain key-value store means leaving most of the tool unused.",
@@ -755,7 +781,8 @@
     "name": "Temporal",
     "tags": [
       "açık-kaynak",
-      "otomasyon"
+      "otomasyon",
+      "ücretsiz"
     ],
     "tr": "İş akışı durumunu olay geçmişi olarak kaydediyor; süreç çökerse aynı noktadan devam ediyor. Celery gibi görev kuyruklarından farkı durumun kalıcı olması: günlerce süren ve baştan başlatılamayan işlemler için tasarlanmış.",
     "en": "Records workflow state as an event history, so a crashed process resumes at the same point. Unlike task queues such as Celery the state is durable — built for multi-day operations that cannot simply be restarted.",

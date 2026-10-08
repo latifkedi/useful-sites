@@ -18,7 +18,7 @@ CANON = [
     # --- distribution & interface
     'self-hosted', 'cli', 'api', 'sdk', 'tarayıcı-içi', 'masaüstü', 'eklenti',
     # --- dil & platform
-    'python', 'javascript', 'c-ailesi', 'rust', 'go', 'php', 'jvm', 'github', 'docker',
+    'python', 'javascript', 'c-ailesi', 'rust', 'go', 'php', 'jvm', 'docker',
     # --- yapay zeka
     'llm', 'agent', 'rag', 'embedding', 'vektör-db', 'mcp',
     'guardrail', 'gözlemlenebilirlik', 'görsel-üretim', '3b', 'ses', 'otomasyon',
@@ -201,7 +201,6 @@ LABELS = {
     'go':                  ('Go', 'Go'),
     'php':                 ('PHP', 'PHP'),
     'jvm':                 ('JVM (Java, Kotlin, Scala)', 'JVM (Java, Kotlin, Scala)'),
-    'github':              ('GitHub', 'GitHub'),
     'docker':              ('Docker', 'Docker'),
     'llm':                 ('LLM', 'LLM'),
     'agent':               ('Agent', 'Agent'),
@@ -284,7 +283,7 @@ _FACET_HEADS = [
      ['referans', 'öğretici', 'müfredat', 'kitap', 'video', 'kopya-kâğıdı', 'dokümantasyon',
       'awesome-liste', 'interaktif', 'akademik', 'sertifika', 'mülakat', 'türkçe', 'arşivlenmiş']),
     ('arayuz', 'Arayüz & Dil', 'Interface & Language',
-     ['tarayıcı-içi', 'masaüstü', 'cli', 'api', 'sdk', 'eklenti', 'github', 'docker',
+     ['tarayıcı-içi', 'masaüstü', 'cli', 'api', 'sdk', 'eklenti', 'docker',
       'python', 'javascript', 'c-ailesi', 'rust', 'go', 'php', 'jvm']),
 ]
 _claimed = {t for _, _, _, ts in _FACET_HEADS for t in ts}

@@ -30,9 +30,9 @@
     "name": "Awesome Whisper",
     "tags": [
       "awesome-liste",
-      "github",
       "llm",
-      "ses"
+      "ses",
+      "ücretsiz"
     ],
     "tr": "Açık kaynak konuşma tanıma modeli Whisper için araç ve kaynak listesi. Bulut konuşma tanıma servislerinden farkı modeli yerelde çalıştırabilmen; liste hızlandırılmış sürümleri ve arayüzleri topluyor.",
     "en": "A list of tools and resources for Whisper, the open-source speech-recognition model. Unlike cloud speech services you can run the model locally; the list gathers accelerated ports and front-ends.",
@@ -55,9 +55,9 @@
     "name": "BlenderGPT",
     "tags": [
       "açık-kaynak",
-      "github",
       "3b",
-      "eklenti"
+      "eklenti",
+      "ücretsiz"
     ],
     "tr": "Doğal dil komutunu Blender Python API çağrısına çeviriyor. Model üretmiyor; Blender’ın kendi araçlarını senin yerine kullanıyor, yani sonuç tekrar edilebilir kalıyor.",
     "en": "Translates a natural-language instruction into Blender Python API calls. It does not generate models — it operates Blender’s own tools for you, so the result stays reproducible.",
@@ -110,7 +110,8 @@
     "tags": [
       "açık-kaynak",
       "self-hosted",
-      "görsel-üretim"
+      "görsel-üretim",
+      "ücretsiz"
     ],
     "tr": "Üretim hattını düğüm grafiği olarak kuruyorsun: model yükleme, örnekleme, VAE çözme ayrı düğümler. Form tabanlı arayüzlerden (AUTOMATIC1111) farkı akışın JSON olarak paylaşılıp birebir tekrar edilebilmesi; karşılığında kurulumu zahmetli.",
     "en": "You build the pipeline as a node graph — model loading, sampling and VAE decode are separate nodes. Unlike form-based interfaces such as AUTOMATIC1111, a workflow exports as JSON and reproduces exactly; the price is a harder setup.",
@@ -134,9 +135,9 @@
     "name": "Dream Textures",
     "tags": [
       "açık-kaynak",
-      "github",
       "3b",
-      "görsel-üretim"
+      "görsel-üretim",
+      "ücretsiz"
     ],
     "tr": "Blender içinde doku ve HDRI üretiyor; kesintisiz döşeme ve projeksiyonla doğrudan mesh üzerine boyama yapabiliyor. Dışarıda üretip içeri aktarmak yerine her şey Blender’ın içinde kalıyor.",
     "en": "Generates textures and HDRIs inside Blender, with seamless tiling and projection painting straight onto a mesh. Instead of generating elsewhere and importing, everything stays inside Blender.",
@@ -148,9 +149,9 @@
     "name": "Fooocus",
     "tags": [
       "açık-kaynak",
-      "github",
       "self-hosted",
-      "görsel-üretim"
+      "görsel-üretim",
+      "ücretsiz"
     ],
     "tr": "ComfyUI’nin karşı kutbu: örnekleyici, adım sayısı, CFG gibi ayarları gizleyip iyi varsayılanlarla çalışıyor. Midjourney benzeri bir deneyimi yerelde vermeyi hedefliyor.",
     "en": "The opposite pole from ComfyUI — it hides sampler, steps and CFG behind good defaults, aiming to deliver a Midjourney-like experience locally.",
@@ -202,8 +203,8 @@
     "name": "InstantMesh",
     "tags": [
       "açık-kaynak",
-      "github",
-      "3b"
+      "3b",
+      "ücretsiz"
     ],
     "tr": "Tek görselden çok görünüşlü difüzyonla ara görüntüler üretip bunlardan mesh çıkarıyor. Nokta bulutu değil doğrudan kullanılabilir yüzey vermesi, hattın kalan adımlarını kısaltıyor.",
     "en": "Generates intermediate views from one image via multi-view diffusion, then reconstructs a mesh. Returning usable surfaces rather than a point cloud shortens the rest of the pipeline.",
@@ -216,7 +217,8 @@
     "tags": [
       "açık-kaynak",
       "self-hosted",
-      "görsel-üretim"
+      "görsel-üretim",
+      "ücretsiz"
     ],
     "tr": "Sonsuz tuval üzerinde bölgesel üretim ve düzenleme; profesyonel iş akışı ve ekip kullanımı düşünülerek yapılmış. ComfyUI’nin düğüm grafiğinden farkı tuval odaklı olması: ressam gibi çalışıyorsun; ticari sürümü de var.",
     "en": "Regional generation and editing on an infinite canvas, built for professional workflows and team use. Unlike ComfyUI’s node graph it is canvas-first, so you work like a painter; a commercial edition exists too.",
@@ -240,9 +242,9 @@
     "name": "Krita AI Diffusion",
     "tags": [
       "açık-kaynak",
-      "github",
       "eklenti",
-      "görsel-üretim"
+      "görsel-üretim",
+      "ücretsiz"
     ],
     "tr": "Krita’nın katman ve maske sistemini doğrudan difüzyona bağlıyor; seçim yapıp o bölgeyi üretiyorsun. Ayrı bir araca geçmeden mevcut çizim akışının içinde kalıyorsun.",
     "en": "Wires Krita’s layers and masks straight into diffusion — select a region and generate into it. You stay inside your existing painting flow instead of switching tools.",
@@ -401,9 +403,9 @@
     "name": "Point-E",
     "tags": [
       "açık-kaynak",
-      "github",
       "3b",
-      "akademik"
+      "akademik",
+      "ücretsiz"
     ],
     "tr": "OpenAI’ın nokta bulutu üreten 3B modeli; mesh’e dönüştürmek ayrı bir adım. Sonraki nesil Shap-E’ye kıyasla hızlı ama kaba; bugün pratik bir kullanımı kalmadı, tarihsel değeri var.",
     "en": "OpenAI’s 3D model that produces point clouds needing a separate meshing step. Compared with its successor Shap-E it is fast but coarse; little practical use is left today beyond historical interest.",
@@ -456,9 +458,9 @@
     "name": "Shap-E",
     "tags": [
       "açık-kaynak",
-      "github",
       "3b",
-      "akademik"
+      "akademik",
+      "ücretsiz"
     ],
     "tr": "Metinden doğrudan örtük 3B temsil üreten OpenAI modeli. Araştırma sürümü — çıktısı üretim kalitesinde değil, tarihsel ve akademik değeri var.",
     "en": "An OpenAI model producing implicit 3D representations from text. A research release: the output is not production quality, and its value is historical and academic.",
@@ -510,9 +512,9 @@
     "name": "Stable Diffusion WebUI",
     "tags": [
       "açık-kaynak",
-      "github",
       "self-hosted",
-      "görsel-üretim"
+      "görsel-üretim",
+      "ücretsiz"
     ],
     "tr": "Yerel görsel üretimin en yaygın arayüzü; eklenti ekosistemi (ControlNet, LoRA yükleyiciler) çok geniş. ComfyUI’dan farkı düğüm grafiği yerine form tabanlı olması; depo artık aktif geliştirilmiyor ama kurulu tabanı hâlâ en büyüğü.",
     "en": "The most widespread interface for local image generation, with a huge extension ecosystem (ControlNet, LoRA loaders). Unlike ComfyUI it is form-based rather than a node graph; the repo is no longer actively developed, but its installed base is still the largest.",
@@ -564,7 +566,8 @@
     "tags": [
       "açık-kaynak",
       "python",
-      "video"
+      "video",
+      "ücretsiz"
     ],
     "tr": "Videoyu kare kare sinir ağıyla büyüten çerçeve; waifu2x, Real-ESRGAN ve Anime4K gibi modelleri arkasında çalıştırıyor. Tek görsel büyütücülerden farkı zamansal tutarlılığı ve video boru hattını üstlenmesi.",
     "en": "A framework that upscales video frame by frame with neural models, driving waifu2x, Real-ESRGAN and Anime4K behind the scenes. Against single-image upscalers it takes on the video pipeline and temporal consistency.",
@@ -575,8 +578,8 @@
     "name": "Voicebox",
     "tags": [
       "açık-kaynak",
-      "github",
-      "ses"
+      "ses",
+      "ücretsiz"
     ],
     "tr": "Ses klonlama, dikte ve üretimi tek açık kaynak stüdyoda topluyor. Ses örneğinin bulut servisine yüklenmemesi, klonlamada gerçek bir gizlilik farkı.",
     "en": "Bundles voice cloning, dictation and generation into one open-source studio. Keeping the voice sample off a cloud service is a real privacy difference for cloning.",
@@ -588,9 +591,9 @@
     "name": "Whisper",
     "tags": [
       "açık-kaynak",
-      "github",
       "ses",
-      "self-hosted"
+      "self-hosted",
+      "ücretsiz"
     ],
     "tr": "Konuşma tanımanın açık standardı; 90+ dili destekliyor, Türkçede de kullanılabilir doğrulukta. Bulut konuşma tanıma servislerinden farkı yerelde çalışması: kayıt makineden hiç çıkmıyor.",
     "en": "The open standard for speech recognition, covering 90+ languages at usable accuracy in Turkish too. Unlike cloud speech services it runs locally, so the recording never leaves the machine.",

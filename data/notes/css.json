@@ -27,8 +27,8 @@
     "name": "Awesome Ant Design",
     "tags": [
       "awesome-liste",
-      "github",
-      "frontend"
+      "frontend",
+      "ücretsiz"
     ],
     "tr": "Kurumsal arayüz tasarım dili Ant Design için kaynak listesi. Material UI’dan farkı veri yoğun kurumsal arayüzlere yönelik bileşenleri; liste topluluk bileşenlerini ve şablonlarını topluyor.",
     "en": "A resource list for Ant Design, the enterprise-class UI design language. Unlike Material UI, its components target data-heavy enterprise interfaces; the list gathers community components and templates.",
@@ -39,8 +39,8 @@
     "name": "Awesome CSS",
     "tags": [
       "awesome-liste",
-      "github",
-      "frontend"
+      "frontend",
+      "ücretsiz"
     ],
     "tr": "CSS dili, araçları ve kaynaklarını konuya göre toplayan liste. Öğrenme odaklı CSS listelerinden farkı çatıları, araçları ve BEM gibi metodolojileri de kapsaması.",
     "en": "A list gathering the CSS language, tools and resources by topic. Unlike learning-focused CSS lists, it also covers frameworks, tooling and methodologies such as BEM.",
@@ -51,9 +51,9 @@
     "name": "Awesome CSS Learning",
     "tags": [
       "awesome-liste",
-      "github",
       "frontend",
-      "öğretici"
+      "öğretici",
+      "ücretsiz"
     ],
     "tr": "CSS dilini ve modüllerini (Flexbox, Grid, seçiciler) öğrenmeye odaklı kaynak listesi. Genel CSS listelerinden farkı çatı ve araç değil, dilin kendisini öğreten kaynakları seçmesi.",
     "en": "A resource list focused on learning the CSS language and its modules — Flexbox, Grid, selectors. Unlike general CSS lists, it picks resources that teach the language itself, not frameworks or tools.",
@@ -64,8 +64,8 @@
     "name": "Awesome PostCSS",
     "tags": [
       "awesome-liste",
-      "github",
-      "frontend"
+      "frontend",
+      "ücretsiz"
     ],
     "tr": "CSS’i eklentilerle dönüştüren PostCSS aracı için kaynak listesi. Sass gibi ön işlemcilerden farkı her dönüşümün ayrı bir eklenti olması; liste bu eklentileri işlevine göre topluyor.",
     "en": "A resource list for PostCSS, the tool that transforms CSS with plugins. Unlike preprocessors such as Sass, every transformation is a separate plugin; the list groups them by purpose.",
@@ -76,8 +76,8 @@
     "name": "Awesome Tailwind CSS",
     "tags": [
       "awesome-liste",
-      "github",
-      "frontend"
+      "frontend",
+      "ücretsiz"
     ],
     "tr": "Tailwind CSS için eklenti, bileşen, şablon ve araç listesi. Tailwind’in resmî belgelerinden farkı topluluğun yaptığı hazır bileşen kitlerini ve yardımcı araçları toplaması.",
     "en": "A list of plugins, components, templates and tools for Tailwind CSS. Unlike the official docs, it collects community-made component kits and helper tools.",
@@ -304,7 +304,7 @@
     "tags": [
       "açık-kaynak",
       "frontend",
-      "github"
+      "ücretsiz"
     ],
     "tr": "Bootstrap’ın uzun süreli rakibi olan duyarlı arayüz çatısı; XY ızgarası, erişilebilirlik odaklı bileşenler ve e-posta şablonları için ayrı bir sürümü var. Bootstrap’tan farkı daha az görsel kanaat dayatması — bileşenler biçimlendirilmemiş gelir, tasarımı sen kurarsın. Uyarı: son sürüm Eylül 2024, depoya son itme Ocak 2025; proje arşivlenmedi ama o tarihten beri durgun ve tanıtım sitesi hâlâ 2017 tarihli bir web semineri duyuruyor.",
     "en": "The long-running alternative to Bootstrap: a responsive front-end framework with an XY grid, accessibility-minded components and a separate edition for HTML email. Against Bootstrap it imposes fewer visual opinions — components arrive unstyled and you bring the design. Caveat: the last release was September 2024 and the last push January 2025. The project is not archived, but it has been dormant since then and its marketing site still advertises a webinar from 2017.",
@@ -353,7 +353,8 @@
     "tags": [
       "frontend",
       "javascript",
-      "açık-kaynak"
+      "açık-kaynak",
+      "ücretsiz"
     ],
     "tr": "React için Google Material tasarımını uygulayan bileşen kütüphanesi. Ant Design’dan farkı Material Design yönergelerine sıkı bağlılığı; tema sistemiyle bu görünümden uzaklaşmak mümkün ama emek istiyor.",
     "en": "A React component library implementing Google’s Material Design. Unlike Ant Design it follows the Material guidelines closely; the theming system can move you away from that look, but it takes work.",

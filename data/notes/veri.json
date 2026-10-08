@@ -54,8 +54,8 @@
     "name": "Awesome ArcGIS Developer",
     "tags": [
       "awesome-liste",
-      "github",
-      "referans"
+      "referans",
+      "ücretsiz"
     ],
     "tr": "Haritalama ve konum analizi platformu ArcGIS için geliştirici kaynakları. Açık kaynak GIS listelerinden farkı ticari Esri ekosistemine odaklanması; listeyi Esri’nin kendisi sürdürüyor.",
     "en": "Developer resources for ArcGIS, the mapping and location-analysis platform. Unlike open-source GIS lists, it centres on the commercial Esri ecosystem, and Esri maintains it.",
@@ -66,9 +66,9 @@
     "name": "Awesome Core ML Models",
     "tags": [
       "awesome-liste",
-      "github",
       "veri-bilimi",
-      "masaüstü"
+      "masaüstü",
+      "ücretsiz"
     ],
     "tr": "Apple’ın Core ML çerçevesi için hazır makine öğrenmesi modelleri listesi. Genel model depolarından farkı hepsinin iOS/macOS’ta cihaz üzerinde çalışacak Core ML biçiminde olması; listenin bir kısmı eski.",
     "en": "A list of ready machine-learning models for Apple’s Core ML framework. Unlike general model hubs, every model is already in Core ML format for on-device use on iOS/macOS; part of the list is dated.",
@@ -79,9 +79,9 @@
     "name": "Awesome CSV",
     "tags": [
       "awesome-liste",
-      "github",
       "referans",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Tablo verisi saklayan CSV biçimi için araç ve kaynak listesi. Sıkı şemalı biçimlerden (Parquet, JSON Schema) farkı CSV’nin gevşekliği; liste bu tuhaflıklarla başa çıkan komut satırı araçlarını ve kütüphaneleri topluyor.",
     "en": "A list of tools and resources for CSV, the tabular-data file format. Unlike strictly schema’d formats (Parquet, JSON Schema) CSV is loose, and the list gathers the command-line tools and libraries that cope with its quirks.",
@@ -92,8 +92,8 @@
     "name": "Awesome Deep Learning",
     "tags": [
       "awesome-liste",
-      "github",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Derin öğrenme için ders, makale, çerçeve ve veri kümesi listesi. Genel ML listelerinden farkı sinir ağlarına ve modern mimarilere odaklanması.",
     "en": "A list of courses, papers, frameworks and datasets for deep learning. Unlike general ML lists it focuses on neural networks and modern architectures.",
@@ -104,9 +104,9 @@
     "name": "Awesome Deep Learning Papers",
     "tags": [
       "awesome-liste",
-      "github",
       "veri-bilimi",
-      "akademik"
+      "akademik",
+      "ücretsiz"
     ],
     "tr": "2012–2016 arasının en çok atıf alan derin öğrenme makalelerini derleyen liste; artık güncellenmiyor. Papers with Code gibi güncel izleyicilerden farkı atıf sayısına göre seçilmiş sabit bir çekirdek sunması: alanın temellerine tarihsel bir giriş.",
     "en": "A list compiling the most-cited deep-learning papers of 2012–2016; it is no longer maintained. Unlike live trackers such as Papers with Code, it offers a fixed core chosen by citation count — a historical entry point to the field’s foundations.",
@@ -117,8 +117,8 @@
     "name": "Awesome H2O",
     "tags": [
       "awesome-liste",
-      "github",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Açık kaynak dağıtık makine öğrenmesi platformu H2O için kaynak listesi. scikit-learn’den farkı bir kümede dağıtık çalışması ve AutoML’in yerleşik gelmesi.",
     "en": "A list for H2O, the open-source distributed machine-learning platform. Unlike scikit-learn, it runs distributed across a cluster and has AutoML built in.",
@@ -129,9 +129,9 @@
     "name": "Awesome JAX",
     "tags": [
       "awesome-liste",
-      "github",
       "veri-bilimi",
-      "python"
+      "python",
+      "ücretsiz"
     ],
     "tr": "Otomatik türev ve XLA derlemesi sunan JAX için kaynak listesi. PyTorch’tan farkı fonksiyonel yaklaşımı: grad, jit ve vmap gibi dönüşümleri saf fonksiyonlara uyguluyorsun.",
     "en": "A list for JAX, which offers automatic differentiation and XLA compilation. Unlike PyTorch it is functional: you apply transformations such as grad, jit and vmap to pure functions.",
@@ -142,8 +142,8 @@
     "name": "Awesome JSON",
     "tags": [
       "awesome-liste",
-      "github",
-      "referans"
+      "referans",
+      "ücretsiz"
     ],
     "tr": "Metin tabanlı veri değişim biçimi JSON için araç ve kaynak listesi. Tek bir ayrıştırıcıdan farkı şema doğrulayıcılarını, jq gibi sorgu araçlarını ve dillere göre kütüphaneleri birlikte toplaması.",
     "en": "A list of tools and resources for JSON, the text-based data-interchange format. Unlike a single parser, it brings together schema validators, query tools such as jq and libraries per language.",
@@ -154,9 +154,9 @@
     "name": "Awesome Jupyter",
     "tags": [
       "awesome-liste",
-      "github",
       "veri-bilimi",
-      "python"
+      "python",
+      "ücretsiz"
     ],
     "tr": "Kod, metin ve grafiği bir arada tutan Jupyter defterleri için kaynak listesi. Jupyter belgelerinden farkı çevredeki ekosistemi — uzantılar, çekirdekler, defteri uygulamaya ya da sunuma çeviren araçlar — toplaması.",
     "en": "A resource list for Jupyter notebooks, which hold code, text and charts together. Unlike the Jupyter docs, it gathers the ecosystem around it — extensions, kernels, tools that turn a notebook into an app or slides.",
@@ -167,9 +167,9 @@
     "name": "Awesome NLG",
     "tags": [
       "awesome-liste",
-      "github",
       "veri-bilimi",
-      "llm"
+      "llm",
+      "ücretsiz"
     ],
     "tr": "Veriden veya diyalogdan metin üretimi (doğal dil üretimi) için kaynak listesi. Genel NLP listelerinden farkı metni anlamaya değil üretmeye odaklanması; kayıtların önemli kısmı büyük dil modelleri öncesi yöntemlere ait.",
     "en": "A list for generating text from data or dialogue (natural-language generation). Unlike general NLP lists it is about producing text rather than understanding it; much of it predates large language models.",
@@ -180,9 +180,9 @@
     "name": "Awesome OpenStreetMap",
     "tags": [
       "awesome-liste",
-      "github",
       "referans",
-      "açık-kaynak"
+      "açık-kaynak",
+      "ücretsiz"
     ],
     "tr": "Açık harita verisi projesi OpenStreetMap için araç ve kaynak listesi. Google Maps API’sinden farkı verinin açık lisanslı (ODbL) ve tamamen indirilebilir olması; liste düzenleyicileri, işleyicileri ve görüntüleyicileri topluyor.",
     "en": "A list of tools and resources for OpenStreetMap, the open map-data project. Unlike the Google Maps API the data is openly licensed (ODbL) and fully downloadable; the list gathers editors, processors and renderers.",
@@ -193,7 +193,6 @@
     "name": "Awesome Public Datasets",
     "tags": [
       "awesome-liste",
-      "github",
       "veri-bilimi",
       "ücretsiz",
       "veri-seti"
@@ -207,9 +206,9 @@
     "name": "Awesome Python Data Science",
     "tags": [
       "awesome-liste",
-      "github",
       "python",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Python veri bilimi kütüphanelerini iş akışına göre (veri, model, görselleştirme) düzenleyen liste. PyPI aramasından farkı her aşama için seçilmiş araçları göstermesi.",
     "en": "A list organising Python data-science libraries by workflow (data, models, visualisation). Unlike a PyPI search it shows curated tools for each stage.",
@@ -220,9 +219,9 @@
     "name": "Awesome Question Answering",
     "tags": [
       "awesome-liste",
-      "github",
       "veri-bilimi",
-      "llm"
+      "llm",
+      "ücretsiz"
     ],
     "tr": "Doğal dilde soru sorma ve yanıtlama (QA) için kaynak listesi. Genel NLP listelerinden farkı yalnız soru yanıtlamaya — veri kümeleri, modeller, makaleler — odaklanması.",
     "en": "A list for asking and answering questions in natural language (QA). Unlike general NLP lists, it focuses only on question answering — datasets, models, papers.",
@@ -233,8 +232,8 @@
     "name": "Awesome R",
     "tags": [
       "awesome-liste",
-      "github",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "İstatistik dili R için paket ve kaynak listesi. CRAN’dan farkı görev bazında (görselleştirme, makine öğrenmesi) seçilmiş paketleri öne çıkarması.",
     "en": "A list of packages and resources for R, the statistics language. Unlike CRAN it foregrounds packages chosen by task (visualisation, machine learning).",
@@ -245,8 +244,8 @@
     "name": "Awesome SE for ML",
     "tags": [
       "awesome-liste",
-      "github",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Deneyden üretime makine öğrenmesi mühendisliği kaynakları. Model listelerinden farkı test, dağıtım ve izleme gibi “ML’i ürün yapma” tarafına bakması.",
     "en": "Resources for machine-learning engineering from experiment to production. Unlike model lists it looks at the “making ML a product” side — testing, deployment, monitoring.",
@@ -257,8 +256,8 @@
     "name": "Awesome TensorFlow",
     "tags": [
       "awesome-liste",
-      "github",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Makine zekâsı kütüphanesi TensorFlow için kaynak ve model listesi. Resmî belgelerden farkı topluluk öğreticilerini, modellerini ve projelerini toplaması; kayıtların bir kısmı TensorFlow 1 dönemine ait.",
     "en": "A list of resources and models for TensorFlow, the machine-intelligence library. Unlike the official docs, it gathers community tutorials, models and projects; part of it dates from the TensorFlow 1 era.",
@@ -309,7 +308,6 @@
     "url": "https://github.com/microsoft/Data-Science-For-Beginners/tree/main",
     "name": "Data Science for Beginners",
     "tags": [
-      "github",
       "müfredat",
       "ücretsiz"
     ],
@@ -518,7 +516,8 @@
     "tags": [
       "açık-kaynak",
       "python",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Sinir ağını katman katman istiflemeyi birkaç satıra indiren yüksek seviye API. Ham PyTorch ya da TensorFlow’a kıyasla çok daha az kod; artık üçünde (TensorFlow, PyTorch, JAX) birden çalıştığı için çatı seçimini ertelemene izin veriyor.",
     "en": "A high-level API reducing network construction to stacking layers in a few lines. Compared with raw PyTorch or TensorFlow it is far less code, and since it now runs on TensorFlow, PyTorch and JAX alike, it lets you defer the framework choice.",
@@ -528,9 +527,9 @@
     "url": "https://github.com/rasbt/LLMs-from-scratch",
     "name": "LLMs from Scratch",
     "tags": [
-      "github",
       "kitap",
-      "python"
+      "python",
+      "ücretsiz"
     ],
     "tr": "Bir GPT’yi PyTorch ile sıfırdan yazdıran kitap deposu: tokenizer, dikkat mekanizması, eğitim döngüsü ve ince ayar. Kütüphane çağırmak yerine mekanizmayı kurduruyor.",
     "en": "A book repo that has you write a GPT from scratch in PyTorch — tokeniser, attention, training loop, fine-tuning. You build the mechanism instead of calling a library.",
@@ -555,7 +554,8 @@
     "tags": [
       "açık-kaynak",
       "python",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Python görselleştirmenin temeli; seaborn ve pandas’ın çizim işlevleri bunun üstüne kurulu. Plotly gibi etkileşimli kütüphanelerden farkı statik ama ayrıntılı denetim vermesi; karşılığında basit bir grafik için bile epey kod istiyor.",
     "en": "The foundation of Python plotting — seaborn and pandas’ plotting are built on it. Unlike interactive libraries such as Plotly it is static but gives fine control, at the cost of considerable code even for a simple chart.",
@@ -658,7 +658,8 @@
     "tags": [
       "açık-kaynak",
       "python",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Tablo verisiyle çalışmanın standart kütüphanesi. Excel’den farkı, her dönüşümün tekrarlanabilir kod olması; bellek içi çalıştığı için veri RAM’e sığmak zorunda.",
     "en": "The standard library for tabular data. Unlike Excel every transformation is reproducible code; it works in memory, so the data has to fit in RAM.",
@@ -695,7 +696,8 @@
       "açık-kaynak",
       "rust",
       "python",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Rust ile yazılmış DataFrame kütüphanesi. pandas’tan farkı çok çekirdeği kullanması ve tembel değerlendirmeyle sorguyu çalıştırmadan önce optimize etmesi — büyük dosyalarda kat kat hızlı.",
     "en": "A DataFrame library written in Rust. Unlike pandas it uses every core and optimises the query before running it through lazy evaluation, which makes it multiples faster on large files.",
@@ -718,7 +720,8 @@
     "tags": [
       "açık-kaynak",
       "python",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Apache Spark’ın Python arayüzü; veri tek makineye sığmadığında devreye giriyor. pandas benzeri API sunar ama işi kümedeki onlarca düğüme dağıtır.",
     "en": "Apache Spark’s Python interface, for when the data no longer fits on one machine. It offers a pandas-like API while distributing the work across a cluster.",
@@ -755,7 +758,8 @@
     "tags": [
       "açık-kaynak",
       "python",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Klasik makine öğrenmesinin standart Python kütüphanesi: sınıflandırma, regresyon, kümeleme ve ön işleme aynı `fit`/`predict` arayüzü altında. PyTorch gibi derin öğrenme çatılarından farkı tablo verisi ve klasik yöntemler için hazır, tutarlı bir araç kutusu olması.",
     "en": "The standard Python library for classical machine learning — classification, regression, clustering and preprocessing behind one `fit`/`predict` interface. Unlike deep-learning frameworks such as PyTorch, it is a ready, consistent toolbox for tabular data and classical methods.",
@@ -767,7 +771,8 @@
     "tags": [
       "açık-kaynak",
       "python",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Matplotlib üstüne kurulu istatistiksel grafik kütüphanesi. Ham Matplotlib’den farkı dağılım, ilişki ve kategori grafiklerini tek satıra indirmesi; varsayılan estetiği de düzgün.",
     "en": "A statistical plotting library on top of Matplotlib. Unlike raw Matplotlib, it reduces distribution, relationship and category plots to one line, with sane defaults.",
@@ -777,8 +782,8 @@
     "url": "https://github.com/SerpentAI/SerpentAI",
     "name": "SerpentAI",
     "tags": [
-      "github",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Herhangi bir video oyununu pekiştirmeli öğrenme ortamına çeviren çatı. Simülasyon yerine gerçek oyunla çalışması ayrıksı.",
     "en": "A framework turning any video game into a reinforcement learning environment — working against real games rather than simulations is what makes it unusual.",
@@ -791,7 +796,8 @@
       "açık-kaynak",
       "python",
       "veri-bilimi",
-      "tarayıcı-içi"
+      "tarayıcı-içi",
+      "ücretsiz"
     ],
     "tr": "Python betiğini birkaç satırla web uygulamasına çeviriyor; HTML, CSS ya da JavaScript yok. Dash’e kıyasla daha az kod ama etkileşim üzerinde daha az denetim: veri bilimcinin modelini paydaşa göstermesinin en kısa yolu.",
     "en": "Turns a Python script into a web app in a few lines with no HTML, CSS or JavaScript. Compared with Dash it is less code but less control over interaction — the shortest path for a data scientist to show a model to a stakeholder.",
@@ -814,7 +820,8 @@
     "tags": [
       "açık-kaynak",
       "python",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Google’ın derin öğrenme çatısı. PyTorch’a kıyasla araştırmada geriledi ama mobil ve gömülü dağıtımda (TF Lite) ve üretim sunumunda (TF Serving) hâlâ güçlü.",
     "en": "Google’s deep learning framework. Compared with PyTorch it lost research ground, yet remains strong for mobile and embedded deployment (TF Lite) and production serving (TF Serving).",
@@ -824,9 +831,9 @@
     "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
     "name": "Train LLM from Scratch",
     "tags": [
-      "github",
       "python",
-      "müfredat"
+      "müfredat",
+      "ücretsiz"
     ],
     "tr": "Veri indirmeden dağıtık eğitime kadar bir dil modelinin tüm eğitim hattını çalışan kodla gösteriyor. Teorik anlatımlardan farkı onların genelde atladığı altyapı tarafını da işlemesi.",
     "en": "Shows a language model’s whole training pipeline in working code, from data download to distributed training. Unlike theoretical write-ups, it also covers the infrastructure side they usually skip.",
@@ -906,9 +913,9 @@
     "url": "https://github.com/mrdbourke/zero-to-mastery-ml",
     "name": "Zero to Mastery ML",
     "tags": [
-      "github",
       "interaktif",
-      "python"
+      "python",
+      "ücretsiz"
     ],
     "tr": "Uçtan uca ML not defterleri; veri temizlemeden model değerlendirmeye kadar çalışan bir hat okutuyor. Kavram anlatımı yerine gerçek kod üzerinden ilerliyor.",
     "en": "End-to-end ML notebooks walking a working pipeline from data cleaning to model evaluation, progressing through real code rather than concept prose.",

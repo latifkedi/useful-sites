@@ -6,7 +6,8 @@
       "açık-kaynak",
       "python",
       "agent",
-      "sunucu"
+      "sunucu",
+      "ücretsiz"
     ],
     "tr": "Google’ın agent kiti; değerlendirme koşumu ve Cloud Run’a dağıtım komutları kutudan çıkıyor. Agent2Agent protokolüyle farklı çatılardaki agent’ları konuşturabiliyor.",
     "en": "Google’s agent kit, shipping an evaluation harness and Cloud Run deployment commands out of the box. The Agent2Agent protocol lets agents from different frameworks talk.",
@@ -33,7 +34,8 @@
       "açık-kaynak",
       "python",
       "agent",
-      "sistem-tasarımı"
+      "sistem-tasarımı",
+      "ücretsiz"
     ],
     "tr": "Bellek, araç ve bilgi tabanı desteği çekirdeğe gömülü agent çatısı. LangChain gibi çatılardan farkı ek soyutlama katmanı olmaması: agent örnekleme süresi mikrosaniye mertebesinde, çok agent’lı senaryolarda hafif kalıyor.",
     "en": "An agent framework with memory, tools and knowledge base built into the core. Unlike frameworks such as LangChain there is no extra abstraction layer: agent instantiation lands in the microsecond range, which keeps it light with many agents.",
@@ -45,9 +47,9 @@
     "name": "AirLLM",
     "tags": [
       "açık-kaynak",
-      "github",
       "self-hosted",
-      "agent"
+      "agent",
+      "ücretsiz"
     ],
     "tr": "70B modeli 4 GB GPU’da çalıştırıyor: katmanları tek tek yükleyip işledikten sonra bellekten atıyor. Nicemlemeden farkı, ağırlıkların hassasiyetini düşürmemesi — bedeli ise yavaşlık.",
     "en": "Runs a 70B model on a 4 GB GPU by loading one layer at a time and discarding it after use. Unlike quantisation it does not reduce weight precision; the cost is speed.",
@@ -73,7 +75,8 @@
       "açık-kaynak",
       "python",
       "gözlemlenebilirlik",
-      "interaktif"
+      "interaktif",
+      "ücretsiz"
     ],
     "tr": "LLM izleme ve değerlendirme aracı; not defterinin içinde çalışıp izleri yerelde gösteriyor. Sunucu kurulumu isteyen izleme araçlarından farkı bu yerellik ve gömme uzayını görselleştirmesi: alma hatasının nereden geldiğini kümelenmeye bakarak buluyorsun.",
     "en": "An LLM tracing and evaluation tool that runs inside a notebook and renders traces locally. Unlike tracing tools that need a server, it stays local and visualises the embedding space, so you find the source of a retrieval failure by looking at clustering.",
@@ -85,9 +88,9 @@
     "name": "Awesome Claude Code",
     "tags": [
       "awesome-liste",
-      "github",
       "agent",
-      "llm"
+      "llm",
+      "ücretsiz"
     ],
     "tr": "Anthropic’in terminal tabanlı kod asistanı Claude Code için kaynak listesi. Resmî belgelerden farkı topluluğun paylaştığı slash komutlarını, hook’ları ve CLAUDE.md örneklerini toplaması.",
     "en": "A resource list for Claude Code, Anthropic’s terminal-based coding assistant. Unlike the official docs, it gathers community-shared slash commands, hooks and CLAUDE.md examples.",
@@ -97,9 +100,9 @@
     "url": "https://github.com/ComposioHQ/awesome-claude-skills",
     "name": "Awesome Claude Skills",
     "tags": [
-      "github",
       "awesome-liste",
-      "agent"
+      "agent",
+      "ücretsiz"
     ],
     "tr": "Claude yeteneklerinin (skills) derlenmiş listesi. Sıfırdan yazmak yerine neyin zaten yazıldığını görüp aynı şeyi ikinci kez yazmamak için bakılacak yer.",
     "en": "A curated list of Claude skills — the place to check what already exists rather than writing the same thing twice from scratch.",
@@ -111,9 +114,9 @@
     "name": "Awesome Copilot Agents",
     "tags": [
       "awesome-liste",
-      "github",
       "agent",
-      "llm"
+      "llm",
+      "ücretsiz"
     ],
     "tr": "GitHub’ın yapay zekâ eşli programlama asistanı Copilot için ajan kaynak listesi. Genel Copilot ipuçlarından farkı hazır ajan tanımlarına ve özel talimat dosyalarına odaklanması.",
     "en": "A resource list of agents for Copilot, GitHub’s AI pair-programming assistant. Unlike general Copilot tips, it focuses on ready agent definitions and custom instruction files.",
@@ -124,9 +127,9 @@
     "name": "Awesome Firebase Genkit",
     "tags": [
       "awesome-liste",
-      "github",
       "llm",
-      "agent"
+      "agent",
+      "ücretsiz"
     ],
     "tr": "Yapay zekâ destekli özellik kuran açık kaynak Genkit çatısı için kaynak listesi. LangChain gibi çatılardan farkı Firebase ve Google Cloud ile sıkı entegrasyonu ve yerel bir geliştirici arayüzüyle gelmesi.",
     "en": "A resource list for Genkit, the open-source framework for building AI-powered features. Unlike frameworks such as LangChain, it integrates tightly with Firebase and Google Cloud and ships a local developer UI.",
@@ -137,9 +140,9 @@
     "name": "Awesome Gemini CLI",
     "tags": [
       "awesome-liste",
-      "github",
       "agent",
-      "llm"
+      "llm",
+      "ücretsiz"
     ],
     "tr": "Google’ın terminal tabanlı kod asistanı Gemini CLI için kaynak listesi. Claude Code listelerinden farkı Google’ın aracına özgü uzantıları, MCP yapılandırmalarını ve iş akışlarını toplaması.",
     "en": "A resource list for Gemini CLI, Google’s terminal-based coding assistant. Unlike Claude Code lists, it gathers extensions, MCP configurations and workflows specific to Google’s tool.",
@@ -178,7 +181,8 @@
       "açık-kaynak",
       "python",
       "agent",
-      "sunucu"
+      "sunucu",
+      "ücretsiz"
     ],
     "tr": "AWS’in açık kaynak agent SDK’sı. Akışı elle çizdiğin LangGraph gibi çatıların aksine modele araç listesini verip planlamayı ona bırakıyorsun; az kod yazıyorsun, karşılığında kararın nereden geldiğini izlemek zorlaşıyor.",
     "en": "AWS’s open-source agent SDK. Unlike frameworks such as LangGraph where you wire the flow, you hand the model a tool list and let it plan; less code to write, at the cost of harder tracing when you need to see where a decision came from.",
@@ -216,7 +220,8 @@
     "tags": [
       "dokümantasyon",
       "api",
-      "sunucu"
+      "sunucu",
+      "ücretsiz"
     ],
     "tr": "OpenAI modelleri, Azure’un bölge seçimi ve özel ağ desteğiyle. OpenAI’ın kendi API’sinden farkı bu uyumluluk kazancı; bedeli, yeni model sürümlerinin buraya daha geç gelmesi.",
     "en": "OpenAI models with Azure’s region selection and private networking. Unlike OpenAI’s own API you gain that compliance; the price is that new model versions arrive here later.",
@@ -230,7 +235,7 @@
       "agent",
       "guardrail",
       "açık-kaynak",
-      "github"
+      "ücretsiz"
     ],
     "tr": "AI ajanları için açık kaynak yönetişim katmanı; ajanların ne yapabileceğine dair kural ve sınırları uyguluyor. Ajan çatılarından farkı denetime bakması: ajanı kurmaz, kurulmuş bir ajanın eylemlerini politikayla sınırlar ve kayda geçirir.",
     "en": "An open-source governance layer for AI agents that enforces rules and limits on what agents may do. Unlike agent frameworks it is about control: it does not build the agent, it constrains a built agent’s actions with policy and logs them.",
@@ -241,9 +246,9 @@
     "name": "BitNet",
     "tags": [
       "açık-kaynak",
-      "github",
       "akademik",
-      "llm"
+      "llm",
+      "ücretsiz"
     ],
     "tr": "Ağırlıkları 1.58 bite (üç değere) indiren çıkarım çatısı; çarpmalar toplamaya dönüştüğü için CPU’da kabul edilebilir hızda çalışıyor. llama.cpp’deki 4–8 bit nicemlemeden farkı modelin baştan bu biçimde eğitilmiş olmasını gerektirmesi.",
     "en": "An inference framework reducing weights to 1.58 bits (three values); multiplications collapse into additions, so it runs at acceptable speed on CPU. Unlike llama.cpp’s 4–8-bit quantisation, it needs a model trained in this format from the start.",
@@ -255,9 +260,9 @@
     "name": "Call Center AI",
     "tags": [
       "açık-kaynak",
-      "github",
       "ses",
-      "öğretici"
+      "öğretici",
+      "ücretsiz"
     ],
     "tr": "API çağrısıyla telefon araması başlatan agent örneği; konuşma tanıma, model ve sentez zincirini uçtan uca gösteriyor. Hazır sesli asistan servislerinden farkı açık kaynak olması: sesli agent mimarisini kendi Azure hesabında kurabileceğin çalışan bir referans.",
     "en": "An agent that places phone calls from an API call, showing the speech-recognition → model → synthesis chain end to end. Unlike off-the-shelf voice-assistant services it is open source — a working reference for voice-agent architecture you can deploy in your own Azure account.",
@@ -271,7 +276,8 @@
       "açık-kaynak",
       "python",
       "akademik",
-      "agent"
+      "agent",
+      "ücretsiz"
     ],
     "tr": "Rol oynayan agent’ların birbirini yönlendirdiği toplum simülasyonu üzerine araştırma çatısı. Ölçekli deney ve sentetik veri üretimi için elverişli, ürün altyapısı olarak değil.",
     "en": "A research framework for societies of role-playing agents steering each other. Suited to scaled experiments and synthetic data generation, not to production plumbing.",
@@ -282,9 +288,9 @@
     "url": "https://github.com/shanraisshan/claude-code-best-practice",
     "name": "Claude Code Best Practice",
     "tags": [
-      "github",
       "öğretici",
-      "agent"
+      "agent",
+      "ücretsiz"
     ],
     "tr": "Kod asistanıyla çalışırken işe yarayan ve yaramayan yaklaşımları derleyen depo. Resmî doküman değil, saha notu niteliğinde.",
     "en": "A repo collecting what does and does not work when pairing with a coding agent — field notes rather than official docs.",
@@ -310,7 +316,8 @@
     "tags": [
       "açık-kaynak",
       "python",
-      "agent"
+      "agent",
+      "ücretsiz"
     ],
     "tr": "Her agent’a rol, hedef ve arka plan veriyorsun; görevler sıralı ya da hiyerarşik olarak dağıtılıyor. Kavramsal olarak sade ama akış üzerinde LangGraph kadar ince denetim vermiyor.",
     "en": "You give each agent a role, goal and backstory; tasks are dispatched sequentially or hierarchically. Conceptually simple, but it gives less fine control over flow than LangGraph.",
@@ -324,7 +331,8 @@
       "açık-kaynak",
       "python",
       "llm",
-      "akademik"
+      "akademik",
+      "ücretsiz"
     ],
     "tr": "İstem metni yazmıyorsun; giriş-çıkış imzası tanımlıyor, örnek veri veriyorsun, optimizer istemleri ve few-shot örneklerini kendisi üretiyor. İstem şablonu çatılarından farkı istem ayarını bir derleyiciye devretmesi.",
     "en": "You do not write prompt text — you declare input/output signatures and supply examples, and an optimiser generates the prompts and few-shot demonstrations. Unlike prompt-template frameworks, it hands prompt tuning to a compiler.",
@@ -336,8 +344,8 @@
     "name": "Everything Claude Code",
     "tags": [
       "açık-kaynak",
-      "github",
-      "agent"
+      "agent",
+      "ücretsiz"
     ],
     "tr": "Kod asistanları için yetenek, kural, bellek düzeni ve güvenlik ayarlarını tek pakette toplayan yapılandırma seti. Sıfırdan kurmak yerine üzerine budayarak başlanacak türden.",
     "en": "A configuration bundle of skills, rules, memory layout and security settings for coding agents. The kind of thing you start from and prune, rather than assemble from scratch.",
@@ -351,7 +359,8 @@
       "açık-kaynak",
       "python",
       "mcp",
-      "sdk"
+      "sdk",
+      "ücretsiz"
     ],
     "tr": "Dekoratörle fonksiyon işaretleyip MCP aracına çeviriyorsun; şema tip ipuçlarından üretiliyor. Ham resmî SDK’dan farkı elle yazdığın kalıp kodun neredeyse tamamını silmesi.",
     "en": "Decorate a function and it becomes an MCP tool, with the schema derived from type hints. Unlike the raw official SDK, it erases nearly all the boilerplate you would hand-write.",
@@ -363,8 +372,8 @@
     "name": "Get Shit Done",
     "tags": [
       "açık-kaynak",
-      "github",
-      "agent"
+      "agent",
+      "ücretsiz"
     ],
     "tr": "Şartname güdümlü geliştirme sistemi: önce spec yazdırıyor, sonra ona karşı kod ürettiriyor. Doğrudan kod istemek yerine üretilen kodun ne yapması gerektiğini yazılı bir referansa bağlıyor.",
     "en": "A spec-driven development system: it has the agent write a spec first and then generate code against it. Rather than asking for code directly, it anchors what the code should do to a written reference.",
@@ -376,9 +385,9 @@
     "name": "GitHub MCP Server",
     "tags": [
       "açık-kaynak",
-      "github",
       "mcp",
-      "go"
+      "go",
+      "ücretsiz"
     ],
     "tr": "Depo, konu, PR ve Actions işlemlerini araç olarak açan resmî sunucu. Topluluk sunucularından farkı GitHub’ın kendisinin sürdürmesi ve ince taneli izin kapsamı: asistana yalnızca okuma yetkisi verebilirsin.",
     "en": "The official server exposing repo, issue, PR and Actions operations as tools. Unlike community servers it is maintained by GitHub itself, with fine-grained permission scopes, so you can hand an assistant read-only access.",
@@ -391,7 +400,8 @@
     "tags": [
       "açık-kaynak",
       "python",
-      "guardrail"
+      "guardrail",
+      "ücretsiz"
     ],
     "tr": "Çıktıyı şema ve doğrulayıcı zincirine sokuyor; başarısız olursa yeniden deniyor ya da düzeltiyor. NeMo Guardrails’ten farkı diyalog akışını değil üretilen metnin biçimini ve içeriğini denetlemesi.",
     "en": "Runs output through a chain of schemas and validators, retrying or repairing on failure. Unlike NeMo Guardrails, which governs the dialogue flow, it polices the shape and content of the generated text.",
@@ -403,9 +413,9 @@
     "name": "Headroom",
     "tags": [
       "açık-kaynak",
-      "github",
       "llm",
-      "api"
+      "api",
+      "ücretsiz"
     ],
     "tr": "Araç çıktısı, günlük ve RAG parçalarını modele ulaşmadan sıkıştırıyor; kütüphane, vekil ya da MCP sunucusu olarak çalışabiliyor. Bağlam penceresini büyütmek yerine içeriği küçültüyor — JSON ağırlıklı yüklerde kazanç en yüksek.",
     "en": "Compresses tool output, logs and RAG chunks before they reach the model, running as a library, a proxy or an MCP server. Instead of a bigger context window it shrinks the content — the gain is largest on JSON-heavy payloads.",
@@ -418,7 +428,8 @@
     "tags": [
       "açık-kaynak",
       "api",
-      "gözlemlenebilirlik"
+      "gözlemlenebilirlik",
+      "ücretsiz"
     ],
     "tr": "LLM gözlemlenebilirlik aracı; taban URL’yi değiştirmen yeterli, istekler üzerinden geçerken kaydediliyor. SDK entegrasyonu isteyen izleme araçlarından farkı vekil (proxy) olarak çalışması: mevcut bir projeye kod değiştirmeden takılıyor.",
     "en": "An LLM observability tool: change the base URL and requests are logged as they pass through. Unlike tracers that need SDK integration it works as a proxy, so it bolts onto an existing project without code changes.",
@@ -430,8 +441,8 @@
     "name": "Humanizer",
     "tags": [
       "açık-kaynak",
-      "github",
-      "llm"
+      "llm",
+      "ücretsiz"
     ],
     "tr": "Metinden yapay zekâ yazımına özgü kalıpları — aşırı paralel yapı, gereksiz geçiş cümleleri, tekdüze ritim — temizleyen dar kapsamlı yetenek. Genel yeniden yazma araçlarından farkı içeriği değil yalnız bu izleri hedeflemesi.",
     "en": "A narrow skill stripping the tells of AI writing — over-parallel structure, filler transitions, uniform rhythm — from a text. Unlike general rewriting tools, it targets only those tells, not the content.",
@@ -456,7 +467,8 @@
     "tags": [
       "açık-kaynak",
       "python",
-      "agent"
+      "agent",
+      "ücretsiz"
     ],
     "tr": "Model, vektör deposu ve araç sağlayıcıları ortak arayüz altında toplayan çatı. Daha ince çatılara kıyasla en büyük kozu entegrasyon sayısı; soyutlama katmanının kalınlığı da en sık gelen şikâyet.",
     "en": "Wraps model, vector store and tool providers behind common interfaces. Compared with thinner frameworks its strongest card is the integration count; the thickness of the abstraction layer is the most frequent complaint.",
@@ -469,7 +481,8 @@
     "tags": [
       "dokümantasyon",
       "öğretici",
-      "agent"
+      "agent",
+      "ücretsiz"
     ],
     "tr": "Araç tanımlama, model bağlama ve döngüyü kurma adımlarını sırayla gösteren resmî başlangıç. Kavram anlatımlarından farkı çalışan kodla ilerlemesi: araç çağırma protokolünün nasıl işlediğini görmenin en kısa yolu.",
     "en": "The official walkthrough of defining tools, binding a model and wiring the loop. Unlike conceptual explainers it proceeds in running code — the shortest way to see how the tool-calling protocol actually works.",
@@ -481,7 +494,8 @@
     "name": "LangChain Dokümantasyonu",
     "tags": [
       "dokümantasyon",
-      "python"
+      "python",
+      "ücretsiz"
     ],
     "tr": "Güncel doküman, eski zincir kavramlarını bırakıp `create_agent` etrafında sadeleşmiş bir API anlatıyor. Eski öğreticilerdeki `LLMChain` örnekleri artık geçerli değil.",
     "en": "The current docs drop the old chain vocabulary for a slimmer API built around `create_agent`. The `LLMChain` examples in older tutorials no longer apply.",
@@ -494,7 +508,8 @@
     "tags": [
       "açık-kaynak",
       "self-hosted",
-      "gözlemlenebilirlik"
+      "gözlemlenebilirlik",
+      "ücretsiz"
     ],
     "tr": "Çatı bağımsız LLM izleme ve değerlendirme; OpenTelemetry uyumlu. LangSmith gibi barındırılan servislerden farkı kendi sunucunda çalışabilmesi: istem ve yanıt verisi dışarı çıkmıyor.",
     "en": "Framework-agnostic LLM tracing and evaluation, OpenTelemetry-compatible. Unlike hosted services such as LangSmith you can self-host it, so prompt and response data never leaves your infrastructure.",
@@ -507,7 +522,8 @@
     "tags": [
       "açık-kaynak",
       "python",
-      "agent"
+      "agent",
+      "ücretsiz"
     ],
     "tr": "Agent akışını düğüm ve kenarlardan oluşan bir durum grafiği olarak tanımlıyorsun. Düz bir LangChain zincirinden farkı döngü, koşullu dallanma ve akışı durdurup insan onayı bekleme (interrupt) desteği.",
     "en": "You define agent flow as a state graph of nodes and edges. Unlike a flat LangChain chain, it supports loops, conditional branching and pausing for human approval (interrupts).",
@@ -532,8 +548,8 @@
     "name": "last30days",
     "tags": [
       "açık-kaynak",
-      "github",
-      "akademik"
+      "akademik",
+      "ücretsiz"
     ],
     "tr": "Bir konuda son otuz günün Reddit, X ve YouTube içeriğini tarayan yetenek. Genel web aramasından farkı yalnız yakın zamana ve topluluk tartışmasına odaklanması: modelin eğitim kesim tarihiyle bugün arasındaki boşluk için.",
     "en": "A skill sweeping the last thirty days of Reddit, X and YouTube on a topic. Unlike a general web search it focuses only on recent community discussion — aimed at the gap between a model’s training cutoff and today.",
@@ -546,7 +562,8 @@
     "tags": [
       "dokümantasyon",
       "agent",
-      "python"
+      "python",
+      "ücretsiz"
     ],
     "tr": "Adımların olay yayıp olay dinlediği asenkron bir çalışma zamanı. Graf kurmak yerine `@step` ile fonksiyon işaretliyorsun; paralel dallar doğal şekilde çıkıyor.",
     "en": "An async runtime where steps emit and listen for events. Instead of building a graph you mark functions with `@step`, and parallel branches fall out naturally.",
@@ -584,9 +601,9 @@
     "name": "MCP Sunucu Koleksiyonu",
     "tags": [
       "açık-kaynak",
-      "github",
       "mcp",
-      "referans"
+      "referans",
+      "ücretsiz"
     ],
     "tr": "Dosya sistemi, Git ve fetch gibi araçlar için referans MCP sunucuları. Kayıt defterindeki üçüncü taraf sunuculardan farkı protokolün yazarlarınca, örnek olsun diye yazılmış olmaları: kendi sunucunu yazmadan önce okumanın en hızlı yolu.",
     "en": "Reference MCP servers for tools such as filesystem, Git and fetch. Unlike third-party servers in the registry, these are written by the protocol’s authors as examples — the fastest read before writing your own.",
@@ -599,7 +616,8 @@
     "tags": [
       "dokümantasyon",
       "agent",
-      "sunucu"
+      "sunucu",
+      "ücretsiz"
     ],
     "tr": "AutoGen’in deney tarafıyla Semantic Kernel’in kurumsal tarafını tek çatıda birleştiren yeni hat. İkisinden ayrı ayrı farkı bu birleşim; Azure kimlik doğrulama ve izleme altyapısına baştan bağlı geliyor.",
     "en": "The new line merging AutoGen’s experimental side with Semantic Kernel’s enterprise side. Unlike either one alone it combines both, and arrives pre-wired to Azure identity and monitoring.",
@@ -613,7 +631,8 @@
       "açık-kaynak",
       "python",
       "agent",
-      "akademik"
+      "akademik",
+      "ücretsiz"
     ],
     "tr": "Agent’lar bir grup sohbetinde konuşarak iş çözüyor; konuşma sırasını bir yönetici agent belirliyor. LangGraph gibi grafik tabanlı çatılardan farkı akışın konuşma olarak kurulması; araştırma kökenli, API’si sürümler arasında sertçe değişebiliyor.",
     "en": "Agents solve tasks by talking in a group chat, with a manager agent deciding who speaks next. Unlike graph-based frameworks such as LangGraph the flow is a conversation; research-rooted, so the API can shift sharply between versions.",
@@ -626,7 +645,8 @@
     "tags": [
       "açık-kaynak",
       "python",
-      "gizlilik"
+      "gizlilik",
+      "ücretsiz"
     ],
     "tr": "Metin ve görselde kişisel veriyi (TC kimlik, IBAN, e-posta gibi) tanıyıp maskeliyor; tanıyıcılar özelleştirilebilir. Bulut PII servislerinden farkı açık kaynak olması ve yerelde çalışması: veri modele gitmeden önceki anonimleştirme adımı için.",
     "en": "Detects and redacts personal data — national IDs, IBANs, emails — in text and images, with customisable recognisers. Unlike cloud PII services it is open source and runs locally — for the anonymisation step before data reaches a model.",
@@ -640,7 +660,8 @@
       "açık-kaynak",
       "mcp",
       "referans",
-      "api"
+      "api",
+      "ücretsiz"
     ],
     "tr": "JSON-RPC üzerine kurulu, modellere araç ve veri kaynağı açmak için açık protokol. Her modele ayrı eklenti yazmaktan farkı, sunucuyu bir kez yazman ve MCP konuşan her istemcinin onu kullanabilmesi.",
     "en": "An open protocol over JSON-RPC for exposing tools and data sources to models. Unlike writing a plugin per model, you write the server once and any MCP-speaking client can use it.",
@@ -652,9 +673,9 @@
     "name": "NeMo Guardrails",
     "tags": [
       "açık-kaynak",
-      "github",
       "guardrail",
-      "python"
+      "python",
+      "ücretsiz"
     ],
     "tr": "Colang adlı bir DSL ile izin verilen konuşma akışlarını tanımlıyorsun. Denetim çıktının içeriğinde değil diyaloğun gidişatında; konu sapmasını girişte kesiyor.",
     "en": "You declare permitted conversation flows in a DSL called Colang. The control sits in the dialogue’s trajectory rather than the output text, cutting topic drift at the entrance.",
@@ -666,9 +687,9 @@
     "name": "Obsidian Mind",
     "tags": [
       "açık-kaynak",
-      "github",
       "agent",
-      "referans"
+      "referans",
+      "ücretsiz"
     ],
     "tr": "Kod asistanının belleğini bir Obsidian kasasında düz Markdown olarak tutuyor. Vektör veritabanı tabanlı bellek servislerinden farkı çalıştırılacak bir servis olmaması: not dosyalarını kendin okuyup düzeltebiliyorsun.",
     "en": "Keeps a coding agent’s memory as plain Markdown in an Obsidian vault. Unlike vector-database memory services there is nothing to run, and you can read and correct the notes yourself.",
@@ -680,8 +701,8 @@
     "name": "OmniRoute",
     "tags": [
       "açık-kaynak",
-      "github",
-      "api"
+      "api",
+      "ücretsiz"
     ],
     "tr": "Tek OpenAI uyumlu uç noktadan yüzlerce sağlayıcıya yönlendiriyor; birçoğu ücretsiz katmanlı. Her sağlayıcı için ayrı istemci yazmak yerine tek adres kullanıyorsun; sağlayıcı düşerse otomatik yedeğe geçmesi tek API’ye bağımlılığı kırıyor.",
     "en": "Routes one OpenAI-compatible endpoint to hundreds of providers, many with free tiers. Instead of a client per provider you use one address, and automatic failover when a provider drops breaks single-API dependence.",
@@ -695,7 +716,8 @@
       "açık-kaynak",
       "python",
       "agent",
-      "sdk"
+      "sdk",
+      "ücretsiz"
     ],
     "tr": "Dört kavramla yetiniyor: agent, araç, devretme (handoff) ve koruma bandı; izleme (tracing) kutudan çıkıyor. LangGraph gibi çatılara kıyasla öğrenme eğrisi çok daha düşük.",
     "en": "Settles for four concepts: agents, tools, handoffs and guardrails, with tracing built in. Compared with frameworks such as LangGraph, the learning curve is far shallower.",
@@ -707,8 +729,8 @@
     "name": "OpenSpace",
     "tags": [
       "açık-kaynak",
-      "github",
-      "agent"
+      "agent",
+      "ücretsiz"
     ],
     "tr": "Hangi yeteneğin ne zaman yükleneceğine karar veren yönetim katmanı. Tüm yetenekleri bağlama doldurmak yerine seçici yükleyerek jeton maliyetini düşürüyor.",
     "en": "A management layer deciding which skill loads when. Selective loading instead of stuffing every skill into context is where the token saving comes from.",
@@ -720,8 +742,8 @@
     "name": "Ponytail",
     "tags": [
       "açık-kaynak",
-      "github",
-      "agent"
+      "agent",
+      "ücretsiz"
     ],
     "tr": "Agent’ı gereksiz soyutlama ve erken genelleme yapmaktan alıkoyan yetenek. Daha çok kod üretmeye yönelten genel kodlama yeteneklerinin aksine üretimi kısıtlıyor; amaç çıktının bakım maliyetini düşürmek.",
     "en": "A skill that stops an agent inventing needless abstraction and premature generalisation. Unlike general coding skills that push towards more code, it restrains output in order to lower maintenance cost.",
@@ -773,7 +795,8 @@
       "açık-kaynak",
       "cli",
       "gözlemlenebilirlik",
-      "devops"
+      "devops",
+      "ücretsiz"
     ],
     "tr": "İstem ve modelleri YAML’de tanımlanmış test kümesine karşı yan yana koşuyor. Üretimdeki izleri gözleyen araçlardan farkı sorunu yayından önce yakalaması: model sürümü değiştiğinde bozulmayı CI adımında görüyorsun.",
     "en": "Runs prompts and models side by side against a test set declared in YAML. Unlike tools that watch production traces it catches problems before release — a model-version regression shows up in a CI step.",
@@ -798,7 +821,8 @@
     "tags": [
       "açık-kaynak",
       "python",
-      "agent"
+      "agent",
+      "ücretsiz"
     ],
     "tr": "Model çıktısını Pydantic şemasına göre doğruluyor, uymazsa modele geri gönderip düzelttiriyor. Sonuçta serbest metin değil, tipi garanti edilmiş bir nesne alıyorsun.",
     "en": "Validates model output against a Pydantic schema and sends it back for correction when it fails. What you get out is a type-guaranteed object, not free text.",
@@ -812,7 +836,8 @@
       "dokümantasyon",
       "c-ailesi",
       "python",
-      "agent"
+      "agent",
+      "ücretsiz"
     ],
     "tr": "C#, Python ve Java için tek API sunan agent SDK’sı. Kurumsal .NET yığınında yaşıyorsan Python ağırlıklı alternatiflerden çok daha az sürtünme çıkarıyor.",
     "en": "An agent SDK exposing one API across C#, Python and Java. If you live in an enterprise .NET stack it creates far less friction than the Python-centric alternatives.",
@@ -824,8 +849,8 @@
     "name": "Superpowers",
     "tags": [
       "açık-kaynak",
-      "github",
-      "agent"
+      "agent",
+      "ücretsiz"
     ],
     "tr": "Agent’a serbest istem yerine adımlı bir geliştirme disiplini dayatan yetenek çatısı. Planlama, uygulama ve doğrulama aşamalarını ayırıyor.",
     "en": "A skills framework imposing a stepwise development discipline instead of free-form prompting, separating planning, implementation and verification.",
@@ -839,7 +864,7 @@
       "llm",
       "agent",
       "açık-kaynak",
-      "github"
+      "ücretsiz"
     ],
     "tr": "Alibaba’nın açık kaynak “derin araştırma” ajan modeli; çok adımlı web araştırmasını kendi yürütüyor. Sohbet LLM’lerinden farkı ajan olması: tek yanıt vermek yerine araç çağırıp kaynak gezerek uzun bir araştırma görevini baştan sona tamamlıyor.",
     "en": "Alibaba’s open-source “deep research” agent model that runs multi-step web research on its own. Unlike chat LLMs it is an agent: rather than a single reply it calls tools and browses sources to carry a long research task from start to finish.",
@@ -865,7 +890,8 @@
       "açık-kaynak",
       "c-ailesi",
       "ses",
-      "llm"
+      "llm",
+      "ücretsiz"
     ],
     "tr": "OpenAI Whisper konuşma tanıma modelinin bağımlılıksız C/C++ uyarlaması; CPU’da bile makul hızda çalışıyor. Python sürümünden farkı kurulum yükünün olmaması ve tek ikili dosyaya derlenebilmesi — gömülü cihaza bile giriyor.",
     "en": "A dependency-free C/C++ port of OpenAI’s Whisper speech recognition model that runs at a reasonable pace even on CPU. Against the Python original there is no install burden and it compiles to a single binary — small enough for embedded targets.",

@@ -75,7 +75,7 @@ if what you committed does not match a fresh build.
 Both languages are required. Turkish and English descriptions should say the
 same thing, not one be a machine translation of the other.
 
-Tags come from the 65 canonical tags in `data/tags.py`. Anything else is mapped
+Tags come from the 64 canonical tags in `data/tags.py`. Anything else is mapped
 through the `ALIAS` table or dropped — it is never invented. If a genuinely new
 tag is needed, add it to `CANON` and to `LABELS` in the same change.
 

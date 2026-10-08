@@ -28,7 +28,8 @@
     "tags": [
       "açık-kaynak",
       "ağ",
-      "donanım"
+      "donanım",
+      "ücretsiz"
     ],
     "tr": "Apple Silicon Mac’lere ana hat Linux getiren proje; GPU sürücüsünü ve güç yönetimini tersine mühendislikle yazıyor. Sanal makineden farkı donanımda doğrudan çalışması — M serisi yongadan tam performans alınıyor.",
     "en": "A project bringing mainline Linux to Apple Silicon Macs, reverse-engineering the GPU driver and power management. Unlike a virtual machine it runs on the metal, so you get the M-series chip’s full performance.",
@@ -51,7 +52,7 @@
     "name": "Awesome Arch",
     "tags": [
       "awesome-liste",
-      "github"
+      "ücretsiz"
     ],
     "tr": "Arch Linux tabanlı dağıtım ve projelerin listesi. Arch Wiki’den farkı belgeleri değil, Arch’tan türeyen dağıtımları ve onların araçlarını karşılaştırmalı toplaması.",
     "en": "A list of Arch Linux–based distributions and projects. Unlike the Arch Wiki, it collects not documentation but the distributions derived from Arch and their tools, side by side.",
@@ -62,8 +63,8 @@
     "name": "Awesome eBPF",
     "tags": [
       "awesome-liste",
-      "github",
-      "güvenlik"
+      "güvenlik",
+      "ücretsiz"
     ],
     "tr": "Çekirdek içinde güvenli program çalıştıran eBPF için kaynak listesi. Çekirdek modülü yazmaktan farkı programın önce doğrulayıcıdan (verifier) geçmesi: çekirdeği çökertme riski olmadan çalışıyor.",
     "en": "A resource list for eBPF, which runs safe programs inside the kernel. Unlike writing a kernel module, the program must first pass the verifier, so it runs without the risk of crashing the kernel.",
@@ -74,8 +75,8 @@
     "name": "Awesome GNOME",
     "tags": [
       "awesome-liste",
-      "github",
-      "masaüstü"
+      "masaüstü",
+      "ücretsiz"
     ],
     "tr": "GNOME masaüstü ortamı için uygulama ve eklenti listesi. KDE listesinden farkı GTK/libadwaita ile yazılmış, GNOME arayüz kılavuzuna uyan uygulamalar ve shell eklentileri.",
     "en": "A list of apps and extensions for the GNOME desktop environment. Unlike the KDE list, it covers GTK/libadwaita apps that follow GNOME’s interface guidelines, plus shell extensions.",
@@ -86,7 +87,7 @@
     "name": "Awesome IPFS",
     "tags": [
       "awesome-liste",
-      "github"
+      "ücretsiz"
     ],
     "tr": "Merkeziyetsiz dosya protokolü IPFS için araç ve proje listesi. HTTP’den farkı dosyayı bulunduğu sunucuya göre değil içeriğinin özetine (CID) göre adreslemesi.",
     "en": "A list of tools and projects for IPFS, the decentralised file protocol. Unlike HTTP, it addresses a file by the hash of its content (CID) rather than by the server that holds it.",
@@ -97,8 +98,8 @@
     "name": "Awesome KDE",
     "tags": [
       "awesome-liste",
-      "github",
-      "masaüstü"
+      "masaüstü",
+      "ücretsiz"
     ],
     "tr": "KDE masaüstü ortamı için uygulama ve kaynak listesi. GNOME listesinden farkı Qt tabanlı KDE uygulamalarına ve Plasma özelleştirmelerine odaklanması.",
     "en": "A list of apps and resources for the KDE desktop environment. Unlike the GNOME list, it focuses on Qt-based KDE apps and Plasma customisation.",
@@ -109,8 +110,8 @@
     "name": "Awesome Scapy",
     "tags": [
       "awesome-liste",
-      "github",
-      "python"
+      "python",
+      "ücretsiz"
     ],
     "tr": "Python paket işleme kütüphanesi Scapy için araç ve örnek listesi. Genel ağ listelerinden farkı paketi elle kurup gönderme (packet crafting) etrafında toplanması.",
     "en": "A list of tools and examples for Scapy, the Python packet-manipulation library. Unlike general network lists it centres on crafting and sending packets by hand.",
@@ -121,8 +122,8 @@
     "name": "Awesome Windows",
     "tags": [
       "awesome-liste",
-      "github",
-      "masaüstü"
+      "masaüstü",
+      "ücretsiz"
     ],
     "tr": "Windows masaüstü için en iyi uygulama ve araçları toplayan liste. Microsoft Store’dan farkı küratörlü olması ve ücretsiz, açık kaynak seçenekleri öne çıkarması.",
     "en": "A list of the best apps and tools for the Windows desktop. Unlike the Microsoft Store it is curated and puts free and open-source options first.",
@@ -267,7 +268,7 @@
     "tags": [
       "ağ",
       "açık-kaynak",
-      "github"
+      "ücretsiz"
     ],
     "tr": "Ağ gecikmesi ve paket kaybı gibi sorunları yapay olarak enjekte edip yazılımın kötü koşullarda nasıl davrandığını test ettiren araç. tc/netem ve iptables komutlarını elle yazmak yerine tek komutla aynı etkiyi veriyor.",
     "en": "Injects network latency and packet loss to test how software copes under bad conditions. Instead of hand-writing tc/netem and iptables commands, it produces the same effect with one command.",
@@ -391,7 +392,8 @@
     "tags": [
       "açık-kaynak",
       "self-hosted",
-      "gözlemlenebilirlik"
+      "gözlemlenebilirlik",
+      "ücretsiz"
     ],
     "tr": "Bitcoin ağının bekleyen işlem havuzunu ve blok zincirini görselleştiren gezgin; kendi düğümünle çalıştırılabiliyor. Diğer blok gezginlerinden farkı ücret tahmini ve mempool görselleştirmesi — ağın o anki tıkanıklığını gösteriyor.",
     "en": "An explorer visualising Bitcoin’s pending transaction pool and the chain, runnable against your own node. Against other block explorers it adds fee estimation and a mempool view — it shows how congested the network is right now.",
@@ -429,7 +431,8 @@
     "tags": [
       "açık-kaynak",
       "ağ",
-      "gözlemlenebilirlik"
+      "gözlemlenebilirlik",
+      "ücretsiz"
     ],
     "tr": "Ağ trafiğini gerçek zamanlı izleyen araç ailesi; hangi cihazın hangi protokolle ne kadar veri geçirdiğini gösteriyor. Wireshark’tan farkı paket paket inceleme değil sürekli akış izleme — sorunu yakalamak için değil, olağandışıyı fark etmek için.",
     "en": "A family of tools for real-time network traffic monitoring, showing which device moves how much over which protocol. Where Wireshark inspects packet by packet, this watches the flow continuously — for noticing the anomaly rather than dissecting it.",
@@ -441,7 +444,8 @@
     "tags": [
       "açık-kaynak",
       "self-hosted",
-      "ağ"
+      "ağ",
+      "ücretsiz"
     ],
     "tr": "Tarayıcıda çalışan hız testi; Flash ya da uygulama gerektirmiyor, kendi sunucuna da kurulabiliyor. Speedtest.net’ten farkı bu öz-barındırma — yerel ağının gerçek hızını dış bağlantıya bağlı kalmadan ölçebiliyorsun.",
     "en": "A browser-based speed test needing no Flash and no app, and self-hostable on your own server. That self-hosting is the difference from Speedtest.net: you can measure your LAN’s real throughput without an internet hop.",
@@ -453,7 +457,8 @@
     "tags": [
       "açık-kaynak",
       "güvenlik",
-      "ağ"
+      "ağ",
+      "ücretsiz"
     ],
     "tr": "İşletim sistemini SQL ile sorgulanabilir hâle getiriyor: çalışan süreçler, açık portlar ve kurulu paketler birer tablo. ps, netstat gibi ayrı ayrı komutlar yerine her şeyi tek sorgu diliyle soruyorsun; uç nokta izlemede yaygın.",
     "en": "Turns the operating system into something you query with SQL — running processes, open ports and installed packages become tables. Instead of separate commands such as ps and netstat, you ask everything in one query language; common in endpoint monitoring.",
@@ -503,8 +508,8 @@
     "url": "https://github.com/dylanaraps/pure-bash-bible",
     "name": "Pure Bash Bible",
     "tags": [
-      "github",
-      "kopya-kâğıdı"
+      "kopya-kâğıdı",
+      "ücretsiz"
     ],
     "tr": "Dış program çağırmadan Bash’in kendi araçlarıyla iş yapma koleksiyonu. sed ve awk çağrılarını kaldırdığı için betikleri belirgin hızlandırıyor.",
     "en": "A collection of ways to do things with Bash’s own facilities instead of calling external programs, which speeds scripts up markedly by removing sed and awk calls.",
@@ -568,7 +573,8 @@
     "tags": [
       "açık-kaynak",
       "ağ",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Paket yakalama ve protokol çözümlemenin standardı; TLS anahtarı verirsen şifreli trafiği de açıyor. Ağ sorunlarında “sanırım” yerine kanıt üretmenin tek yolu.",
     "en": "The standard for packet capture and protocol dissection, and it will decrypt TLS if you hand it the keys. The only way to replace “I think” with evidence in a network problem.",

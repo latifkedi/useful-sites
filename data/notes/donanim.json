@@ -5,8 +5,8 @@
     "tags": [
       "donanım",
       "gömülü",
-      "github",
-      "cad"
+      "cad",
+      "ücretsiz"
     ],
     "tr": "Hâlâ üretilen az sayıdaki 5V programlanabilir mantık parçası (Atmel ATF150x, GAL) için betik ve araç derlemesi. Modern FPGA araç zincirlerinden farkı eski 5V lojiğe odaklanması: retro ve onarım projelerinde bu nadir parçaları programlamanın pratik yolu.",
     "en": "A collection of scripts and tools for the few still-made 5V programmable logic parts (Atmel ATF150x, GAL). Unlike modern FPGA toolchains it focuses on legacy 5V logic: the practical way to program these rare parts in retro and repair projects.",
@@ -29,9 +29,9 @@
     "url": "https://github.com/OpenIPC/firmware/issues/1970",
     "name": "AK3918 Kamera Notları",
     "tags": [
-      "github",
       "gömülü",
-      "donanım"
+      "donanım",
+      "ücretsiz"
     ],
     "tr": "Belirli bir kamera yongası (AK3918) için donanım bilgisi ve yazılım dökümlerinin biriktiği tartışma. Olmayan üretici belgesinin yerine, bu tür modeller için tek kaynak genelde böyle bir konu başlığı oluyor.",
     "en": "A thread accumulating hardware notes and firmware dumps for one camera SoC (AK3918). Rather than vendor documentation, which does not exist, a single issue thread is usually the only source for models like this.",
@@ -55,8 +55,8 @@
     "name": "Anyka Kamera Firmware",
     "tags": [
       "açık-kaynak",
-      "github",
-      "gömülü"
+      "gömülü",
+      "ücretsiz"
     ],
     "tr": "Anyka yongalı kameralar için özel ürün yazılımı. OpenIPC’den farkı onun kapsamadığı bu aileyi hedeflemesi — ucuz Çin kameralarının çoğu bu yongayı kullanıyor.",
     "en": "Custom firmware for Anyka-based cameras. Unlike OpenIPC it targets this family, which OpenIPC does not cover — and most cheap Chinese cameras use it.",
@@ -68,8 +68,8 @@
     "name": "AvaotaF1",
     "tags": [
       "açık-kaynak",
-      "github",
-      "gömülü"
+      "gömülü",
+      "ücretsiz"
     ],
     "tr": "Madeni para boyutunda RISC-V Linux kartı: 64 MB RAM, MIPI kamera, SPI ekran ve Wi-Fi. Bu ölçekte mikrodenetleyici değil tam Linux çalıştırabilmesi ayrıksı.",
     "en": "A coin-sized RISC-V Linux board with 64 MB RAM, MIPI camera, SPI display and Wi-Fi. Running full Linux rather than a microcontroller at that scale is what makes it unusual.",
@@ -94,9 +94,9 @@
     "name": "Awesome Adafruit IO",
     "tags": [
       "awesome-liste",
-      "github",
       "donanım",
-      "gömülü"
+      "gömülü",
+      "ücretsiz"
     ],
     "tr": "Cihaz verisini görselleştirip saklayan Adafruit IO için kaynak listesi. Genel IoT platformlarından farkı Adafruit donanımı ve kütüphaneleriyle doğrudan bütünleşik, hobi dostu olması.",
     "en": "A resource list for Adafruit IO, visualising and storing data from any device. Unlike general IoT platforms, it integrates directly with Adafruit hardware and libraries and is hobbyist-friendly.",
@@ -107,9 +107,9 @@
     "name": "Awesome BLE",
     "tags": [
       "awesome-liste",
-      "github",
       "donanım",
-      "gömülü"
+      "gömülü",
+      "ücretsiz"
     ],
     "tr": "Düşük güçlü kablosuz iletişim (Bluetooth Low Energy) için kaynak listesi. Klasik Bluetooth kaynaklarından farkı düşük güç senaryolarına odaklanması; liste yığınları, kütüphaneleri ve hata ayıklama araçlarını topluyor.",
     "en": "A resource list for Bluetooth Low Energy, low-power wireless communication. Unlike classic Bluetooth resources it focuses on low-power use; the list gathers stacks, libraries and debugging tools.",
@@ -120,9 +120,9 @@
     "name": "Awesome IoT",
     "tags": [
       "awesome-liste",
-      "github",
       "donanım",
-      "gömülü"
+      "gömülü",
+      "ücretsiz"
     ],
     "tr": "Nesnelerin İnterneti için donanım, protokol ve platform listesi. Genel gömülü listelerden farkı bağlantı ve bulut tarafına — MQTT, LoRa, cihaz yönetimine — ağırlık vermesi.",
     "en": "A list of hardware, protocols and platforms for the Internet of Things. Unlike general embedded lists it weights the connectivity and cloud side — MQTT, LoRa, device management.",
@@ -133,9 +133,9 @@
     "name": "Awesome MQTT",
     "tags": [
       "awesome-liste",
-      "github",
       "donanım",
-      "gömülü"
+      "gömülü",
+      "ücretsiz"
     ],
     "tr": "Nesnelerin İnterneti bağlantı protokolü MQTT için araç ve kaynak listesi. HTTP’den farkı hafif yayınla-abone ol modeli; liste broker’ları, istemcileri ve araçları topluyor.",
     "en": "A list of tools and resources for MQTT, the IoT connectivity protocol. Unlike HTTP it uses a lightweight publish–subscribe model; the list gathers brokers, clients and tools.",
@@ -146,9 +146,9 @@
     "name": "Awesome Open Hardware",
     "tags": [
       "awesome-liste",
-      "github",
       "donanım",
-      "açık-kaynak"
+      "açık-kaynak",
+      "ücretsiz"
     ],
     "tr": "Tasarımı açık lisanslı donanım projelerinin listesi. Ürün kataloglarından farkı şemasını ve PCB’sini okuyup üstüne inşa edebileceğin projelere götürmesi.",
     "en": "A list of hardware projects with openly licensed designs. Unlike product catalogs it points to projects whose schematics and PCBs you can read and build on.",
@@ -159,8 +159,8 @@
     "name": "Awesome Raspberry Pi",
     "tags": [
       "awesome-liste",
-      "github",
-      "donanım"
+      "donanım",
+      "ücretsiz"
     ],
     "tr": "Raspberry Pi projeleri, işletim sistemleri ve donanım eklentileri listesi. Forum başlıklarından farkı derli toplu, kategorilenmiş bir başlangıç noktası olması.",
     "en": "A list of Raspberry Pi projects, operating systems and hardware add-ons. Unlike forum threads it is a tidy, categorised starting point.",
@@ -171,8 +171,8 @@
     "name": "Awesome Robotic Tooling",
     "tags": [
       "awesome-liste",
-      "github",
-      "donanım"
+      "donanım",
+      "ücretsiz"
     ],
     "tr": "Profesyonel robotik geliştirme için ücretsiz ve açık araçların listesi. Genel robotik listelerinden farkı üretim kalitesinde araç zincirine — test, kayıt, görselleştirmeye — odaklanması.",
     "en": "A list of free and open tools for professional robotics development. Unlike general robotics lists it focuses on a production-grade toolchain — testing, logging, visualisation.",
@@ -183,9 +183,9 @@
     "name": "Awesome Robotics",
     "tags": [
       "awesome-liste",
-      "github",
       "donanım",
-      "gömülü"
+      "gömülü",
+      "ücretsiz"
     ],
     "tr": "Robotik için kütüphane, simülatör ve öğrenme kaynağı listesi. Tek platforma bağlı listelerden farkı ROS’tan kontrol teorisine kadar alanın bütününü haritalaması.",
     "en": "A list of libraries, simulators and learning resources for robotics. Unlike single-platform lists it maps the whole field from ROS to control theory.",
@@ -220,7 +220,8 @@
     "name": "Eclipse Ditto",
     "tags": [
       "açık-kaynak",
-      "gömülü"
+      "gömülü",
+      "ücretsiz"
     ],
     "tr": "Cihazın durumunu sunucuda bir “dijital ikiz” olarak tutuyor. Yalnız mesaj ileten MQTT broker’larından farkı durumu saklaması: cihaz uykudayken bile son bilinen durum sorgulanabiliyor ve komut kuyruğa alınabiliyor.",
     "en": "Keeps device state server-side as a digital twin. Unlike MQTT brokers that only relay messages it stores state, so the last known state stays queryable and commands queue up even while the device sleeps.",
@@ -245,8 +246,8 @@
     "tags": [
       "donanım",
       "gömülü",
-      "github",
-      "öğretici"
+      "öğretici",
+      "ücretsiz"
     ],
     "tr": "Flipper Zero için uygulama, donanım eklentisi ve kullanım anlatan geniş öğretici deposu. Resmi belgelerden farkı topluluk projelerine inmesi: SAO rozetleri ve FlipBoard gibi aksesuarları da kapsayan, video destekli pratik rehberler.",
     "en": "A large tutorial repository for the Flipper Zero covering apps, hardware add-ons and usage. Unlike the official docs it goes into community projects: practical, video-backed guides that also cover accessories like SAO badges and the FlipBoard.",
@@ -346,8 +347,8 @@
     "name": "LiteEMF",
     "tags": [
       "açık-kaynak",
-      "github",
-      "gömülü"
+      "gömülü",
+      "ücretsiz"
     ],
     "tr": "Gömülü sistem kütüphaneleri ve ürün yazılımı depoları; USB HID ve kablosuz giriş cihazı projeleri ağırlıkta. Genel gömülü kütüphanelerden farkı bu odak: kumanda ve klavye protokolleri için referans.",
     "en": "Embedded libraries and firmware repositories weighted towards USB HID and wireless input devices. Unlike general embedded libraries it has that focus — a reference for controller and keyboard protocols.",
@@ -397,7 +398,8 @@
     "name": "Open Circuits",
     "tags": [
       "kitap",
-      "donanım"
+      "donanım",
+      "ücretsiz"
     ],
     "tr": "Elektronik bileşenlerin kesitlerini yüksek çözünürlükte fotoğraflayan kitap; direncin, kondansatörün, konnektörün içi görünüyor. Veri sayfalarından farkı bileşenin nasıl yapıldığını göstermesi — soyut sembol somut nesneye dönüşüyor.",
     "en": "A book of high-resolution cross-sections of electronic components, showing the insides of resistors, capacitors and connectors. Against datasheets it shows how a component is made — the abstract symbol becomes a physical object.",
@@ -408,7 +410,8 @@
     "name": "OpenIPC",
     "tags": [
       "açık-kaynak",
-      "gömülü"
+      "gömülü",
+      "ücretsiz"
     ],
     "tr": "IP kameralar için açık ürün yazılımı; üretici bulutunu devreden çıkarıp RTSP akışını doğrudan kendi ağına veriyor. Üreticinin yazılımından farkı kamerayı internete açmadan kullanabilmen.",
     "en": "Open firmware for IP cameras that removes the vendor cloud and exposes the RTSP stream directly on your own network. Unlike the vendor firmware, it lets you run the camera without putting it on the internet.",
@@ -420,8 +423,8 @@
     "name": "OpenIPC Coupler",
     "tags": [
       "açık-kaynak",
-      "github",
-      "gömülü"
+      "gömülü",
+      "ücretsiz"
     ],
     "tr": "Kamera ürün yazılımları arasında geçiş yapmayı ve orijinaline dönmeyi sağlıyor. Seri kabloyla elle flaşlamaya kıyasla daha güvenli; deneme yaparken elindeki tek kurtarma aracı bu olabiliyor.",
     "en": "Moves between camera firmwares and back to stock. Compared with flashing by hand over a serial cable it is safer — often the only recovery tool you have while experimenting.",
@@ -433,8 +436,8 @@
     "name": "OpenIPC Firmware",
     "tags": [
       "açık-kaynak",
-      "github",
-      "gömülü"
+      "gömülü",
+      "ücretsiz"
     ],
     "tr": "IP kameralar için açık ürün yazılımının desteklenen yonga listesi ve derleme talimatları. Üretici yazılımından farkı buluta bağımlı olmaması; kameranı almadan önce yongasının listede olup olmadığına bak.",
     "en": "The supported chipset list and build instructions for open IP-camera firmware. Unlike the vendor firmware it does not depend on a cloud; check whether your camera’s SoC is on the list before you buy.",
@@ -445,9 +448,9 @@
     "url": "https://github.com/OpenIPC/wiki/blob/master/en/installation.md",
     "name": "OpenIPC Kurulum",
     "tags": [
-      "github",
       "öğretici",
-      "gömülü"
+      "gömülü",
+      "ücretsiz"
     ],
     "tr": "Alternatif yazılım yükleme adımları ve — daha önemlisi — geri dönüş yolu. Seri konsol bağlantısı olmadan denemek cihazı tuğlalama riskini ciddi artırıyor.",
     "en": "The flashing steps and, more importantly, the way back. Attempting this without a serial console raises the bricking risk considerably.",
@@ -459,9 +462,9 @@
     "name": "ORCAS",
     "tags": [
       "açık-kaynak",
-      "github",
       "donanım",
-      "gömülü"
+      "gömülü",
+      "ücretsiz"
     ],
     "tr": "Uzaktan kumandalı airsoft taret sistemi; gömülü denetim, video akışı ve mekanik tasarım aynı projede birleşiyor. Bitmiş ürünlerin aksine entegrasyon sorunlarını gizlemiyor, hepsini görüyorsun.",
     "en": "A remote-controlled airsoft turret where embedded control, video streaming and mechanical design meet in one project. Unlike finished products it does not hide the integration problems — you see them all.",

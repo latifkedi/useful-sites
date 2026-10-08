@@ -6,7 +6,8 @@
       "veri-bilimi",
       "açık-kaynak",
       "otomasyon",
-      "self-hosted"
+      "self-hosted",
+      "ücretsiz"
     ],
     "tr": "Geniş bağlayıcı kataloğuyla açık kaynak veri entegrasyonu (ELT); kendi sunucunda barındırılabiliyor. Fivetran gibi kapalı servislerden farkı açık kaynak olması ve eksik bağlayıcıyı kendin yazabilmen.",
     "en": "Open-source data integration (ELT) with a huge connector catalogue; self-hostable. Unlike closed services such as Fivetran it is open source, and you can write a missing connector yourself.",
@@ -17,7 +18,8 @@
     "name": "Apache Flink",
     "tags": [
       "açık-kaynak",
-      "otomasyon"
+      "otomasyon",
+      "ücretsiz"
     ],
     "tr": "Gerçek zamanlı akış işleme motoru; olayları geldikçe, düşük gecikmeyle işler. Spark’ın toplu kökeninden farkı akışı birinci sınıf model olarak alması.",
     "en": "A real-time stream-processing engine that handles events as they arrive, with low latency. Unlike Spark’s batch roots it treats streaming as the first-class model.",
@@ -28,7 +30,8 @@
     "name": "Apache Iceberg",
     "tags": [
       "açık-kaynak",
-      "veritabanı"
+      "veritabanı",
+      "ücretsiz"
     ],
     "tr": "Büyük analitik tablolar için açık tablo biçimi; şema evrimi, zaman yolculuğu ve atomik yazma verir. Ham Parquet dizininden farkı tabloyu tutarlı, sürümlenebilir bir birim gibi yönetmesi.",
     "en": "An open table format for large analytical tables, giving schema evolution, time travel and atomic writes. Unlike a raw Parquet directory it manages the table as a consistent, versioned unit.",
@@ -39,7 +42,8 @@
     "name": "Apache Kafka",
     "tags": [
       "açık-kaynak",
-      "otomasyon"
+      "otomasyon",
+      "ücretsiz"
     ],
     "tr": "Mesajları tüketildikten sonra da saklıyor; tüketiciler kendi konumlarını (offset) taşıyıp geçmişi yeniden okuyabiliyor. Klasik kuyruklardan (RabbitMQ) asıl ayrımı bu kalıcılık ve yeniden oynatma.",
     "en": "Retains messages after consumption, with consumers carrying their own offsets so they can replay history. The real split from classic queues (RabbitMQ) is that durability and replay.",
@@ -52,7 +56,8 @@
     "tags": [
       "açık-kaynak",
       "veri-bilimi",
-      "otomasyon"
+      "otomasyon",
+      "ücretsiz"
     ],
     "tr": "Büyük veriyi bellek üstünde dağıtık işleyen motor — toplu ve akış işleme. Tek makine kütüphanelerinden farkı terabaytları küme üzerinde bölüştürüp paralel işlemesi.",
     "en": "An engine that processes big data in a distributed, in-memory way — batch and streaming. Unlike single-machine libraries it splits terabytes across a cluster and processes them in parallel.",
@@ -63,8 +68,8 @@
     "name": "Awesome Data Engineering",
     "tags": [
       "awesome-liste",
-      "github",
-      "referans"
+      "referans",
+      "ücretsiz"
     ],
     "tr": "Veri mühendisliğinin tüm katmanlarını — alım, depolama, işleme, orkestrasyon — araçlarıyla toplayan liste. Tek araca bağlı listelerden farkı yığının bütününü haritalaması.",
     "en": "A list gathering every layer of data engineering — ingestion, storage, processing, orchestration — with tools. Unlike single-tool lists it maps the whole stack.",
@@ -75,8 +80,8 @@
     "name": "Awesome Hadoop",
     "tags": [
       "awesome-liste",
-      "github",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Dağıtık depolama ve işleme çatısı Hadoop için kaynak listesi. Spark gibi bellek içi motorların listelerinden farkı disk tabanlı HDFS ve MapReduce ekosistemine odaklanması.",
     "en": "A resource list for Hadoop, the distributed storage and processing framework. Unlike lists for in-memory engines such as Spark, it focuses on the disk-based HDFS and MapReduce ecosystem.",
@@ -87,8 +92,8 @@
     "name": "Awesome HPC",
     "tags": [
       "awesome-liste",
-      "github",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Yüksek başarımlı hesaplama (HPC) için araç, kütüphane ve kaynak listesi. Genel DevOps listelerinden farkı küme yönetimine, Slurm gibi iş zamanlayıcılara ve MPI ile paralel programlamaya odaklanması.",
     "en": "A list of tools, libraries and resources for high-performance computing (HPC). Unlike general DevOps lists, it focuses on cluster management, job schedulers such as Slurm and parallel programming with MPI.",
@@ -99,8 +104,8 @@
     "name": "Awesome Spark",
     "tags": [
       "awesome-liste",
-      "github",
-      "açık-kaynak"
+      "açık-kaynak",
+      "ücretsiz"
     ],
     "tr": "Apache Spark ekosistemi için paket, öğretici ve örnek listesi. Resmî dokümandan farkı topluluk kütüphanelerini ve gerçek dünya örneklerini toplaması.",
     "en": "A list of packages, tutorials and examples for the Apache Spark ecosystem. Unlike the official docs it gathers community libraries and real-world examples.",
@@ -113,7 +118,8 @@
       "veri-bilimi",
       "veritabanı",
       "açık-kaynak",
-      "sunucu"
+      "sunucu",
+      "ücretsiz"
     ],
     "tr": "Analitik için sütun temelli OLAP veritabanı; büyük ölçekte çok hızlı toplama yapıyor. PostgreSQL gibi satır temelli veritabanlarından farkı milyarlarca satırda toplama sorgularını saniyeler içinde bitirmesi; tekil kayıt güncellemede zayıf.",
     "en": "A columnar OLAP database for analytics, extremely fast at aggregations at scale. Unlike row-based databases such as PostgreSQL it finishes aggregation queries over billions of rows in seconds; it is weak at single-record updates.",
@@ -125,7 +131,8 @@
     "tags": [
       "açık-kaynak",
       "otomasyon",
-      "python"
+      "python",
+      "ücretsiz"
     ],
     "tr": "Veri varlıklarını merkeze alan orkestratör; her tabloyu bir “varlık” olarak izliyor. Airflow’dan farkı görevden çok üretilen veriye odaklanıp veri kalitesini yerleşik tutması.",
     "en": "An orchestrator centred on data assets, tracking each table as an “asset”. Unlike Airflow it focuses on the data produced rather than the task, with data quality built in.",
@@ -148,8 +155,7 @@
     "name": "Data Engineering Zoomcamp",
     "tags": [
       "müfredat",
-      "ücretsiz",
-      "github"
+      "ücretsiz"
     ],
     "tr": "Veri mühendisliğini uçtan uca (Docker, dbt, Spark, Kafka, bulut) öğreten ücretsiz, projeli kurs. Dağınık öğreticilerden farkı gerçek bir boru hattını baştan sona kurdurması.",
     "en": "A free, project-based course teaching data engineering end to end (Docker, dbt, Spark, Kafka, cloud). Unlike scattered tutorials it has you build a real pipeline from start to finish.",
@@ -187,7 +193,8 @@
     "tags": [
       "açık-kaynak",
       "veritabanı",
-      "otomasyon"
+      "otomasyon",
+      "ücretsiz"
     ],
     "tr": "Veri ambarındaki dönüşümleri SQL + sürüm kontrolü + test ile yöneten araç. El yazımı SQL betiklerinden farkı bağımlılık grafiği, belge ve testi bir yazılım projesi gibi getirmesi.",
     "en": "A tool managing data-warehouse transformations with SQL + version control + tests. Unlike hand-written SQL scripts it brings a dependency graph, docs and tests like a software project.",
@@ -198,7 +205,8 @@
     "name": "Delta Lake",
     "tags": [
       "veri-bilimi",
-      "açık-kaynak"
+      "açık-kaynak",
+      "ücretsiz"
     ],
     "tr": "Veri göllerine ACID işlemleri ve zaman-yolculuğu getiren açık depolama katmanı. Düz Parquet dosyalarından farkı işlem güvenliği ve sürüm geçmişi eklemesi: göl bir tablo gibi güvenilir davranıyor.",
     "en": "An open storage layer bringing ACID transactions and time travel to data lakes. Unlike plain Parquet files it adds transactional safety and version history, so the lake behaves reliably like a table.",
@@ -210,7 +218,8 @@
     "tags": [
       "açık-kaynak",
       "veritabanı",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Süreç içinde çalışan analitik veritabanı — kurulum yok, dosyayı doğrudan sorguluyor. Sunucu gerektiren ambarlardan farkı tek makinede, Parquet/CSV üstünde “SQLite hızında OLAP” olması.",
     "en": "An in-process analytical database — no server, it queries files directly. Unlike server-based warehouses it is “OLAP at SQLite speed” on one machine, over Parquet/CSV.",
@@ -222,7 +231,8 @@
     "tags": [
       "veri-bilimi",
       "açık-kaynak",
-      "python"
+      "python",
+      "ücretsiz"
     ],
     "tr": "Veriyi bildirimsel kurallarla doğrulayan ve belgeleyen veri kalitesi çatısı. Elle yazılan doğrulama betiklerinden farkı kuralları veri belgesine çevirmesi ve hattın içine yerleşik testler eklemesi.",
     "en": "A data-quality framework that validates and documents data with declarative expectations. Unlike hand-written validation scripts it turns rules into data documentation and embeds tests inside the pipeline.",
@@ -233,8 +243,8 @@
     "name": "Hamilton",
     "tags": [
       "açık-kaynak",
-      "github",
-      "python"
+      "python",
+      "ücretsiz"
     ],
     "tr": "Veri dönüşümlerini fonksiyonlardan bir grafik olarak kuran hafif Python kütüphanesi. Ağır orkestratörlerden farkı tek dosyada, altyapı gerektirmeden bağımlılık grafiği vermesi.",
     "en": "A lightweight Python library that builds data transformations as a graph from functions. Unlike heavy orchestrators it gives a dependency graph in a single file with no infrastructure.",
@@ -246,7 +256,8 @@
     "tags": [
       "veri-bilimi",
       "açık-kaynak",
-      "otomasyon"
+      "otomasyon",
+      "ücretsiz"
     ],
     "tr": "Singer temelli, komut satırı ve yapılandırma odaklı açık kaynak DataOps ELT platformu. Airbyte’ın arayüz odaklı yaklaşımından farkı her şeyin sürüm kontrolüne giren metin yapılandırmasıyla tanımlanması: veri hattını kod gibi yönetiyorsun.",
     "en": "An open-source DataOps ELT platform, Singer-based and CLI/config-driven. Unlike Airbyte’s UI-first approach everything is defined in text config that lives in version control — you manage the pipeline like code.",
@@ -267,9 +278,9 @@
     "url": "https://github.com/JerryLead/SparkInternals",
     "name": "Spark Internals",
     "tags": [
-      "github",
       "öğretici",
-      "referans"
+      "referans",
+      "ücretsiz"
     ],
     "tr": "Apache Spark’ın içeride nasıl çalıştığını — zamanlama, karıştırma, bellek — anlatan derin belge. Kullanım kılavuzundan farkı motorun altını açması, performans ayarı için.",
     "en": "A deep document on how Apache Spark works inside — scheduling, shuffle, memory. Unlike a usage guide it opens up the engine, for performance tuning.",
@@ -281,7 +292,8 @@
     "tags": [
       "veri-bilimi",
       "açık-kaynak",
-      "sunucu"
+      "sunucu",
+      "ücretsiz"
     ],
     "tr": "Veriyi bulunduğu yerde sorgulayan dağıtık SQL sorgu motoru; birçok kaynağı birleştiriyor. Klasik veritabanlarından farkı veriyi kendine taşımaması: S3, PostgreSQL ve Kafka’yı tek sorguda birlikte sorgulayabiliyorsun.",
     "en": "A distributed SQL query engine that queries data where it lives, across many sources. Unlike classic databases it does not move the data to itself — you can query S3, PostgreSQL and Kafka together in one query.",

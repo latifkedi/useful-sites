@@ -29,8 +29,8 @@
     "name": "Awesome Angular",
     "tags": [
       "awesome-liste",
-      "github",
-      "frontend"
+      "frontend",
+      "ücretsiz"
     ],
     "tr": "Angular uygulama çatısı için bileşen, araç ve öğretici listesi. Resmî dokümandan farkı topluluk kütüphanelerini ve gerçek örnekleri toplaması.",
     "en": "A list of components, tools and tutorials for the Angular application framework. Unlike the official docs it gathers community libraries and real examples.",
@@ -41,8 +41,8 @@
     "name": "Awesome ESLint",
     "tags": [
       "awesome-liste",
-      "github",
-      "javascript"
+      "javascript",
+      "ücretsiz"
     ],
     "tr": "JavaScript linter’ı ESLint için eklenti ve yapılandırma listesi. ESLint belgelerinden farkı topluluğun paylaştığı yapılandırmaları ve React, Vue gibi çatılara özgü eklentileri toplaması.",
     "en": "A list of plugins and configs for ESLint, the JavaScript linter. Unlike the ESLint docs, it gathers community-shared configs and plugins specific to frameworks such as React and Vue.",
@@ -53,8 +53,8 @@
     "name": "Awesome Frontend GIS",
     "tags": [
       "awesome-liste",
-      "github",
-      "frontend"
+      "frontend",
+      "ücretsiz"
     ],
     "tr": "Tarayıcıda coğrafi bilgi sistemleri (harita) için kütüphane listesi. Genel harita API listelerinden farkı sunucu değil tarayıcıda çalışan kütüphanelere — harita görüntüleme, veri dönüştürme, mekânsal analiz — odaklanması.",
     "en": "A list of libraries for geographic information systems (maps) in the browser. Unlike general mapping-API lists, it focuses on libraries that run in the browser rather than on a server — rendering, data conversion, spatial analysis.",
@@ -65,8 +65,8 @@
     "name": "Awesome HTML5",
     "tags": [
       "awesome-liste",
-      "github",
-      "frontend"
+      "frontend",
+      "ücretsiz"
     ],
     "tr": "HTML5 API’leri (Canvas, WebSocket, depolama), araçları ve kaynaklarının listesi. Genel web listelerinden farkı yalnız HTML5 standardıyla gelen tarayıcı API’lerine odaklanması.",
     "en": "A list of HTML5 APIs — Canvas, WebSocket, storage — plus tools and resources. Unlike general web lists, it focuses only on the browser APIs that came with the HTML5 standard.",
@@ -77,9 +77,9 @@
     "name": "Awesome Mobile Web Development",
     "tags": [
       "awesome-liste",
-      "github",
       "frontend",
-      "masaüstü"
+      "masaüstü",
+      "ücretsiz"
     ],
     "tr": "İyi bir mobil web deneyimi kurmak için kaynak listesi: dokunmatik olaylar, performans, çevrimdışı çalışma. Yerel uygulama listelerinden farkı tarayıcıda çalışan mobil siteleri hedeflemesi.",
     "en": "A resource list for building a good mobile web experience — touch events, performance, offline. Unlike native-app lists, it targets mobile sites running in the browser.",
@@ -90,8 +90,8 @@
     "name": "Awesome npm",
     "tags": [
       "awesome-liste",
-      "github",
-      "javascript"
+      "javascript",
+      "ücretsiz"
     ],
     "tr": "Node paket yöneticisi npm için ipucu, araç ve kaynak listesi. npm belgelerinden farkı çevresindeki araçları — paket arama siteleri, yayınlama yardımcıları, komut satırı eklentileri — toplaması.",
     "en": "A list of tips, tools and resources for npm, the Node package manager. Unlike the npm docs, it gathers the tools around it — package search sites, publishing helpers, CLI add-ons.",
@@ -102,9 +102,9 @@
     "name": "Awesome npm scripts",
     "tags": [
       "awesome-liste",
-      "github",
       "javascript",
-      "otomasyon"
+      "otomasyon",
+      "ücretsiz"
     ],
     "tr": "Görev koşucusu olarak npm script kullanımı için kaynak listesi. Gulp ya da Grunt gibi görev koşucularından farkı ek bağımlılık olmadan package.json betikleriyle yetinmeyi öğretmesi.",
     "en": "A resource list for using npm scripts as a task runner. Unlike task runners such as Gulp or Grunt, it teaches making do with package.json scripts and no extra dependency.",
@@ -115,8 +115,8 @@
     "name": "Awesome Ponyfills",
     "tags": [
       "awesome-liste",
-      "github",
-      "javascript"
+      "javascript",
+      "ücretsiz"
     ],
     "tr": "Yerel davranışı ezmeden ekleyen ponyfill kütüphaneleri listesi. Polyfill’lerden farkı global nesneleri değiştirmemesi: özelliği ayrı bir modül olarak içe aktarıyorsun.",
     "en": "A list of ponyfill libraries that add native behaviour without overriding it. Unlike polyfills they never patch globals: you import the feature as a separate module.",
@@ -127,8 +127,8 @@
     "name": "Awesome Preact",
     "tags": [
       "awesome-liste",
-      "github",
-      "javascript"
+      "javascript",
+      "ücretsiz"
     ],
     "tr": "React’in 3 KB’lık hafif alternatifi Preact için bileşen, araç ve örnek listesi. React listelerinden farkı yalnız Preact ile uyumlu ve küçük boyutu koruyan kütüphaneleri toplaması.",
     "en": "A list of components, tools and examples for Preact, the 3 KB lightweight React alternative. Unlike React lists, it collects only libraries that work with Preact and keep its small size.",
@@ -139,8 +139,8 @@
     "name": "Awesome React",
     "tags": [
       "awesome-liste",
-      "github",
-      "javascript"
+      "javascript",
+      "ücretsiz"
     ],
     "tr": "React ekosistemi için kütüphane, araç ve öğrenme kaynağı listesi. Resmî belgelerden farkı çevredeki ekosistemi — durum yönetimi, yönlendirme, bileşen kütüphaneleri, test — tek listede toplaması.",
     "en": "A list of libraries, tools and learning resources for the React ecosystem. Unlike the official docs, it gathers the surrounding ecosystem — state management, routing, component libraries, testing — in one list.",
@@ -151,8 +151,8 @@
     "name": "Awesome React Hooks",
     "tags": [
       "awesome-liste",
-      "github",
-      "javascript"
+      "javascript",
+      "ücretsiz"
     ],
     "tr": "React Hooks için kütüphane, örnek ve yazı listesi. Genel React listelerinden farkı sınıf bileşenlerini değil, yalnız hook tabanlı kalıpları ve özel hook paketlerini toplaması.",
     "en": "A list of libraries, examples and articles for React Hooks. Unlike general React lists, it gathers only hook-based patterns and custom-hook packages, not class components.",
@@ -163,8 +163,8 @@
     "name": "Awesome Standard",
     "tags": [
       "awesome-liste",
-      "github",
-      "javascript"
+      "javascript",
+      "ücretsiz"
     ],
     "tr": "Yapılandırma gerektirmeyen JS stil kılavuzu ve linter Standard için kaynak listesi. ESLint’i elle yapılandırmaktan farkı kuralların tartışmaya kapalı, sabit gelmesi; liste editör eklentilerini ve uyumlu araçları topluyor.",
     "en": "A resource list for Standard, the zero-config JS style guide and linter. Unlike configuring ESLint by hand, the rules are fixed and not up for debate; the list gathers editor plugins and compatible tools.",
@@ -175,8 +175,8 @@
     "name": "Awesome Svelte",
     "tags": [
       "awesome-liste",
-      "github",
-      "frontend"
+      "frontend",
+      "ücretsiz"
     ],
     "tr": "Svelte ve SvelteKit için bileşen ve araç listesi. React ağırlıklı listelerden farkı bu derleme-zamanı çatısına özgü ekosistemi göstermesi.",
     "en": "A list of components and tools for Svelte and SvelteKit. Unlike React-heavy lists it shows the ecosystem specific to this compile-time framework.",
@@ -187,8 +187,8 @@
     "name": "Awesome WebExtensions",
     "tags": [
       "awesome-liste",
-      "github",
-      "eklenti"
+      "eklenti",
+      "ücretsiz"
     ],
     "tr": "Tarayıcılar arası eklenti (WebExtension) geliştirmek için kaynak listesi. Tek tarayıcı dokümanından farkı Chrome, Firefox ve Safari’de çalışan ortak API’ye odaklanması.",
     "en": "A resource list for building cross-browser add-ons (WebExtensions). Unlike single-browser docs it focuses on the common API that works across Chrome, Firefox and Safari.",
@@ -199,9 +199,9 @@
     "name": "Awesome WebXR",
     "tags": [
       "awesome-liste",
-      "github",
       "frontend",
-      "3b"
+      "3b",
+      "ücretsiz"
     ],
     "tr": "Tarayıcıda sanal/artırılmış gerçeklik sağlayan WebXR için kaynak listesi. Yerel XR SDK’larından farkı kurulum istemeden tarayıcıda açılan deneyimler; liste çatıları, örnekleri ve araçları topluyor.",
     "en": "A resource list for WebXR, enabling virtual/augmented reality in the browser. Unlike native XR SDKs, these experiences open in a browser with nothing to install; the list gathers frameworks, samples and tools.",
@@ -212,9 +212,9 @@
     "name": "Awesome WP-CLI",
     "tags": [
       "awesome-liste",
-      "github",
       "php",
-      "cli"
+      "cli",
+      "ücretsiz"
     ],
     "tr": "WordPress’i komut satırından yöneten WP-CLI için kaynak listesi. Yönetim panelinden farkı toplu ve betiklenebilir işlemler: yüz sitede eklenti güncellemek tek komut.",
     "en": "A resource list for WP-CLI, managing WordPress from the command line. Unlike the admin dashboard it offers bulk, scriptable operations: updating plugins on a hundred sites is one command.",
@@ -263,7 +263,8 @@
       "frontend",
       "javascript",
       "açık-kaynak",
-      "görsel-üretim"
+      "görsel-üretim",
+      "ücretsiz"
     ],
     "tr": "Canvas üstünde sade, duyarlı grafikler çizen JavaScript kütüphanesi. Ağır görselleştirme kütüphanelerinden farkı birkaç satırda çalışan, hafif olması.",
     "en": "A JavaScript library drawing simple, responsive charts on canvas. Unlike heavy visualisation libraries it is lightweight and works in a few lines.",
@@ -299,7 +300,8 @@
     "tags": [
       "açık-kaynak",
       "dokümantasyon",
-      "javascript"
+      "javascript",
+      "ücretsiz"
     ],
     "tr": "Markdown dosyalarını derleme olmadan, tarayıcıda dokümantasyon sitesine çeviren araç. Statik üreticilerden farkı build adımı olmaması — sayfaları anında sunması.",
     "en": "A tool turning Markdown files into a documentation site in the browser, with no build. Unlike static generators it has no build step — it serves the pages on the fly.",
@@ -312,7 +314,8 @@
       "tarayıcı-içi",
       "frontend",
       "açık-kaynak",
-      "dokümantasyon"
+      "dokümantasyon",
+      "ücretsiz"
     ],
     "tr": "Meta’nın React tabanlı dokümantasyon sitesi üreticisi; sürümleme ve çeviri yerleşik geliyor. Genel statik üreticilerden farkı belge odaklı olması: özellikle yazılım dokümantasyonu için sürüm arşivi ve i18n gibi hazır parçalarla geliyor.",
     "en": "Meta’s React-based documentation-site generator, with versioning and translation built in. Unlike general static generators it is docs-first: it ships ready-made pieces like version archives and i18n aimed specifically at software documentation.",
@@ -370,7 +373,8 @@
     "tags": [
       "açık-kaynak",
       "masaüstü",
-      "javascript"
+      "javascript",
+      "ücretsiz"
     ],
     "tr": "Kendi ürününe gömdüğün görsel sayfa düzenleyici; bileşen ve stil yöneticisini sen tanımlıyorsun. Barındırılan site kurucularının aksine editörün sahibi sensin.",
     "en": "A visual page editor you embed in your own product, defining the component and style managers yourself. Unlike hosted site builders, you own the editor.",
@@ -383,7 +387,8 @@
     "tags": [
       "açık-kaynak",
       "javascript",
-      "ses"
+      "ses",
+      "ücretsiz"
     ],
     "tr": "Tarayıcılar arası ses oynatma kütüphanesi; Web Audio API’yi kullanıyor, olmadığı yerde HTML5 Audio’ya düşüyor. Ham Web Audio ile uğraşmaktan farkı ses sprite’ları, havuzlama ve mobil otomatik oynatma kilidini kendisi çözmesi.",
     "en": "A cross-browser audio library that uses the Web Audio API and falls back to HTML5 Audio. Against hand-rolling Web Audio, it handles audio sprites, pooling and the mobile autoplay lock for you — the three things that always bite.",
@@ -407,7 +412,8 @@
     "tags": [
       "açık-kaynak",
       "javascript",
-      "frontend"
+      "frontend",
+      "ücretsiz"
     ],
     "tr": "HTML özniteliğiyle istek atıp dönen HTML parçasını sayfaya yerleştiriyorsun; JSON ve istemci durumu yok. React gibi SPA çatılarından farkı bu sadelik: 14 kB, bağımlılığı yok — SPA karmaşıklığına gerek olmayan yerde makul bir çıkış.",
     "en": "Attributes fire requests and swap the returned HTML fragment into the page — no JSON, no client state. Unlike SPA frameworks such as React it is tiny: 14 kB with no dependencies, a sane exit where SPA complexity is not warranted.",
@@ -421,7 +427,8 @@
       "tarayıcı-içi",
       "frontend",
       "açık-kaynak",
-      "dokümantasyon"
+      "dokümantasyon",
+      "ücretsiz"
     ],
     "tr": "Markdown içeriği statik sitelere dönüştüren, Go ile yazılmış üretici. Node tabanlı üreticilerden farkı ham hızı: binlerce sayfayı saniyeler içinde derliyor, tek ikili dosya, JS bağımlılık ağacı yok.",
     "en": "A static-site generator written in Go that turns Markdown into websites. Unlike Node-based generators its distinction is raw speed: it builds thousands of pages in seconds, from a single binary, with no JS dependency tree.",
@@ -444,7 +451,8 @@
     "name": "Ladybird",
     "tags": [
       "açık-kaynak",
-      "frontend"
+      "frontend",
+      "ücretsiz"
     ],
     "tr": "Sıfırdan yazılan bağımsız tarayıcı motoru; Chromium, WebKit ya da Gecko’dan türetilmemiş. Diğer \"alternatif\" tarayıcılardan farkı tam olarak bu — ötekiler Chromium kabuğu, bu kendi motorunu yazıyor. Henüz günlük kullanıma hazır değil.",
     "en": "An independent browser engine written from scratch, derived from neither Chromium, WebKit nor Gecko. That is precisely what separates it from the other \"alternative\" browsers, which are Chromium shells. Not yet ready for daily use.",
@@ -496,7 +504,8 @@
       "tarayıcı-içi",
       "eklenti",
       "açık-kaynak",
-      "frontend"
+      "frontend",
+      "ücretsiz"
     ],
     "tr": "Obsidian notlarını doğrudan yayımlanmış bir dijital bahçeye çeviren eklenti. Quartz gibi üreticilerden farkı derleme adımı istememesi: not içinden tek düğmeyle yayınlıyorsun, ayrı bir build hattı kurmana gerek kalmıyor.",
     "en": "An Obsidian plugin that publishes notes straight into a live digital garden. Unlike generators such as Quartz it needs no build step: you publish from inside a note with one button, with no separate build pipeline to set up.",
@@ -522,7 +531,8 @@
       "tarayıcı-içi",
       "frontend",
       "açık-kaynak",
-      "dokümantasyon"
+      "dokümantasyon",
+      "ücretsiz"
     ],
     "tr": "Markdown notlarını — özellikle Obsidian kasalarını — bağlantılı bir siteye dönüştüren üretici. Genel statik üreticilerden farkı çift yönlü bağlantı ve geri-bağlantıları koruması: dijital bahçeni ağ yapısıyla birlikte yayımlıyor.",
     "en": "A generator that turns Markdown notes — Obsidian vaults especially — into a linked site. Unlike general static generators it preserves bidirectional links and backlinks: it publishes your digital garden with its network structure intact.",
@@ -547,7 +557,8 @@
     "tags": [
       "frontend",
       "javascript",
-      "açık-kaynak"
+      "açık-kaynak",
+      "ücretsiz"
     ],
     "tr": "React formlarını az yeniden render’la yöneten, doğrulama getiren kütüphane. Kontrollü bileşenlerden farkı performansı yüksek tutup kodu sadeleştirmesi.",
     "en": "A library managing React forms with minimal re-renders and built-in validation. Unlike controlled components it keeps performance high and simplifies the code.",
@@ -572,7 +583,8 @@
     "tags": [
       "dokümantasyon",
       "frontend",
-      "görsel-üretim"
+      "görsel-üretim",
+      "ücretsiz"
     ],
     "tr": "Shopify tema şablon dilinin nesne, filtre ve etiket referansı. Genel Liquid belgelerinden farkı Shopify’a özgü nesneleri kapsaması: hangi verinin hangi şablonda erişilebilir olduğu buradan görülüyor.",
     "en": "The object, filter and tag reference for Shopify’s theme language. Unlike generic Liquid docs it covers Shopify-specific objects — where you find which data is reachable from which template.",
@@ -597,7 +609,8 @@
     "tags": [
       "açık-kaynak",
       "javascript",
-      "frontend"
+      "frontend",
+      "ücretsiz"
     ],
     "tr": "SVG’yi betikle üretmek ve canlandırmak için JavaScript kütüphanesi; Raphaël’in modern tarayıcılara yazılmış hâli. D3’ten farkı veri görselleştirme değil doğrudan SVG kurgulaması — grafik değil grafik nesnesi üretiyorsun.",
     "en": "A JavaScript library for generating and animating SVG, written as Raphaël’s successor for modern browsers. Against D3 it is not about data visualisation but about composing SVG directly — you produce graphics, not charts.",
@@ -609,7 +622,8 @@
     "tags": [
       "açık-kaynak",
       "javascript",
-      "frontend"
+      "frontend",
+      "ücretsiz"
     ],
     "tr": "Bağımlılığı olmayan, erişilebilirlik odaklı kaydırıcı/karusel kütüphanesi. Swiper’a göre çok daha küçük (sıkıştırılmış ~12 KB) ve klavye gezinme ile ARIA rollerini varsayılan olarak doğru kuruyor — karusel erişilebilirliğinin klasik zayıf noktası.",
     "en": "A dependency-free, accessibility-first slider and carousel library. It is markedly smaller than Swiper (~12KB gzipped) and gets keyboard navigation and ARIA roles right by default — the usual weak spot of carousels.",
@@ -621,7 +635,8 @@
     "tags": [
       "frontend",
       "javascript",
-      "açık-kaynak"
+      "açık-kaynak",
+      "ücretsiz"
     ],
     "tr": "Tarayıcının çirkin alert kutusunu güzel, özelleştirilebilir modallarla değiştiren kütüphane. Yerleşik alert’ten farkı biçim, giriş alanı ve söz (promise) desteği vermesi.",
     "en": "A library replacing the browser’s ugly alert box with pretty, customisable modals. Unlike the built-in alert it supports styling, input fields and promises.",
@@ -668,7 +683,6 @@
     "url": "https://github.com/microsoft/web-dev-for-beginners",
     "name": "Web Dev for Beginners",
     "tags": [
-      "github",
       "müfredat",
       "ücretsiz"
     ],

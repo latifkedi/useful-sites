@@ -5,7 +5,6 @@
     "tags": [
       "osint",
       "öğretici",
-      "github",
       "ücretsiz"
     ],
     "tr": "Sıradan araç listelerinin atladığı OSINT tekniklerini toplayan rehber — blokzincir izleme, meta veri, alışılmadık kaynaklar. Standart OSINT listelerinden farkı köşe kapmaca yöntemlere gitmesi: herkesin bildiği araçları değil, az bilinen yolları anlatıyor.",
@@ -18,8 +17,8 @@
     "tags": [
       "güvenlik",
       "awesome-liste",
-      "github",
-      "referans"
+      "referans",
+      "ücretsiz"
     ],
     "tr": "Araştırma kuruluşları ve devlet kurumlarının yıllık siber güvenlik raporlarını tek yerde toplayan liste. Tek bir raporu okumaktan farkı satıcı bağımsız olması: pazarlama metnini ayıklayıp trendleri karşılaştırabilmen için hepsini yan yana koyuyor.",
     "en": "A list gathering the annual cybersecurity reports of research consultancies and government agencies in one place. Unlike reading a single report it is vendor-neutral: it sets them side by side so you can strip the marketing and compare the trends.",
@@ -29,9 +28,9 @@
     "url": "https://github.com/redhuntlabs/Awesome-Asset-Discovery",
     "name": "Awesome Asset Discovery",
     "tags": [
-      "github",
       "awesome-liste",
-      "osint"
+      "osint",
+      "ücretsiz"
     ],
     "tr": "Varlık keşfi araç ve yöntemleri listesi: alt alan adı numaralandırma, sertifika şeffaflığı, ASN sorgulama. Genel sızma testi listelerinden farkı yalnız testin ilk ve en belirleyici aşaması olan keşfe odaklanması.",
     "en": "A list of asset discovery tools and methods — subdomain enumeration, certificate transparency, ASN lookups. Unlike general penetration-testing lists, it focuses only on discovery, the first and most decisive phase of a test.",
@@ -44,7 +43,7 @@
     "tags": [
       "güvenlik",
       "awesome-liste",
-      "github"
+      "ücretsiz"
     ],
     "tr": "Yalnızca Black Hat konferanslarında resmen sunulmuş araçları toplayan liste. Genel araç listelerinden farkı giriş engeli olması: her araç sahnede canlı gösterilmiş, yani rastgele depo değil hakem süzgecinden geçmiş, sahada denenmiş araçlar.",
     "en": "A list of tools officially presented at Black Hat events, and only those. Against general tool lists it has a bar to entry: each was demonstrated live on stage, so these are field-tested, vetted tools rather than random repositories.",
@@ -55,8 +54,8 @@
     "name": "Awesome CAPTCHA",
     "tags": [
       "awesome-liste",
-      "github",
-      "güvenlik"
+      "güvenlik",
+      "ücretsiz"
     ],
     "tr": "İnsan-bot ayrımı için kullanılan CAPTCHA türleri ve kütüphaneleri listesi. Tek bir CAPTCHA servisinden farkı türleri ve açık kaynak kütüphaneleri yan yana toplaması.",
     "en": "A list of CAPTCHA types and libraries used to tell humans from bots. Unlike a single CAPTCHA service, it sets the types and open-source libraries side by side.",
@@ -67,9 +66,9 @@
     "name": "Awesome Crypto Papers",
     "tags": [
       "awesome-liste",
-      "github",
       "güvenlik",
-      "akademik"
+      "akademik",
+      "ücretsiz"
     ],
     "tr": "Kriptografiyi uzman olmayanlar için açan kuramsal temel makaleler listesi. Ders kitaplarından farkı doğrudan özgün makalelere yönlendirmesi ve bunları uzman olmayan okur için sıralaması.",
     "en": "A list of theory-basics papers on cryptography for non-cryptographers. Unlike textbooks, it points straight to the original papers and orders them for the non-specialist reader.",
@@ -80,8 +79,8 @@
     "name": "Awesome Cybersecurity Blue Team",
     "tags": [
       "awesome-liste",
-      "github",
-      "güvenlik"
+      "güvenlik",
+      "ücretsiz"
     ],
     "tr": "Savunma (blue team) için tespit, izleme ve müdahale araçlarının listesi. Saldırı listelerinden farkı sistemleri korumaya ve olayı yakalamaya odaklanması.",
     "en": "A list of detection, monitoring and response tools for the defensive (blue team) side. Unlike offensive lists it focuses on protecting systems and catching incidents.",
@@ -92,8 +91,8 @@
     "name": "Awesome Detection Engineering",
     "tags": [
       "awesome-liste",
-      "github",
-      "güvenlik"
+      "güvenlik",
+      "ücretsiz"
     ],
     "tr": "Saldırıları yakalayan tespit kurallarını tasarlama ve işletme kaynakları. Hazır araçlardan farkı “nasıl iyi tespit yazılır” mühendisliğine eğilmesi.",
     "en": "Resources for designing and operating the detection rules that catch attacks. Unlike ready tools it leans into the engineering of “how to write good detections”.",
@@ -104,9 +103,9 @@
     "name": "Awesome DevSecOps",
     "tags": [
       "awesome-liste",
-      "github",
       "güvenlik",
-      "devops"
+      "devops",
+      "ücretsiz"
     ],
     "tr": "Güvenliği CI/CD boru hattına gömen araç ve pratiklerin listesi. Ayrı güvenlik testlerinden farkı denetimi geliştirme akışının içine yerleştirmesi.",
     "en": "A list of tools and practices embedding security into the CI/CD pipeline. Unlike separate security tests it places the checks inside the development flow.",
@@ -118,7 +117,7 @@
     "tags": [
       "awesome-liste",
       "güvenlik",
-      "github"
+      "ücretsiz"
     ],
     "tr": "Bulanık test kaynaklarının derlemesi: araçlar, kitaplar, konuşmalar, akademik makaleler ve alıştırma ortamları. OWASP sayfasından farkı kapsam — yöntemi öğrendikten sonra derinleşmek için gidilecek yer.",
     "en": "A compilation of fuzzing resources: tools, books, talks, papers and practice environments. Against the OWASP page the difference is breadth — this is where you go after you understand the method.",
@@ -130,7 +129,7 @@
     "tags": [
       "güvenlik",
       "awesome-liste",
-      "github"
+      "ücretsiz"
     ],
     "tr": "Oyun güvenliğine — anti-hile, tersine mühendislik, koruma atlatma — özel kaynak listesi. Genel tersine mühendislik listelerinden farkı oyunlara odaklanması: anti-cheat sistemleri ve oyun korumaları gibi bu alana has konuları bir arada topluyor.",
     "en": "A resource list specific to game security — anti-cheat, reverse engineering, protection bypasses. Unlike general reverse-engineering lists it centres on games, gathering domain-specific topics like anti-cheat systems and game protections together.",
@@ -142,8 +141,8 @@
     "tags": [
       "güvenlik",
       "awesome-liste",
-      "github",
-      "referans"
+      "referans",
+      "ücretsiz"
     ],
     "tr": "Hacker, pentester ve araştırmacılar için awesome listelerini toplayan bir liste. Tek tek konu listelerinden farkı üst dizin olması: OSINT’ten zararlı yazılım analizine kadar onlarca alt listeye tek kapıdan giriş sağlıyor.",
     "en": "A list that collects awesome lists for hackers, pentesters and researchers. Unlike the individual topic lists it is the index above them: one door into dozens of sub-lists from OSINT to malware analysis.",
@@ -154,8 +153,8 @@
     "name": "Awesome Honeypots",
     "tags": [
       "awesome-liste",
-      "github",
-      "güvenlik"
+      "güvenlik",
+      "ücretsiz"
     ],
     "tr": "Saldırganı tuzağa çekmek için kurulan sahte sistemlerin (honeypot) listesi. Genel savunma listelerinden farkı yalnız aldatma ve erken uyarı araçlarına odaklanması.",
     "en": "A list of decoy systems (honeypots) set up to lure attackers. Unlike general defence lists it focuses only on deception and early-warning tools.",
@@ -166,8 +165,8 @@
     "name": "Awesome IAM",
     "tags": [
       "awesome-liste",
-      "github",
-      "güvenlik"
+      "güvenlik",
+      "ücretsiz"
     ],
     "tr": "Kullanıcı hesapları, kimlik doğrulama ve yetkilendirme için kaynak listesi. Tek bir kimlik sağlayıcısının belgelerinden farkı sağlayıcıdan bağımsız olması: parola saklama, oturum, MFA, OAuth ve yetki modellerini kavram düzeyinde ele alıyor.",
     "en": "A resource list for user accounts, authentication and authorisation. Unlike a single identity provider’s docs it is vendor-neutral, treating password storage, sessions, MFA, OAuth and permission models at the level of concepts.",
@@ -177,9 +176,9 @@
     "url": "https://github.com/jivoi/awesome-ml-for-cybersecurity",
     "name": "Awesome ML for Cybersecurity",
     "tags": [
-      "github",
       "awesome-liste",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Güvenlikte makine öğrenmesi kaynakları; veri kümeleri ve akademik makaleleri bir arada veriyor. Aynı alandaki ikinci derlemeden farkı etiketli veri tarafının güçlü olması — bu alanda en zor bulunan şey de o.",
     "en": "Machine learning resources for security, gathering datasets and academic papers together. Unlike the second compilation in the same field, its labelled-data section is strong — and labelled data is the hardest thing to find here.",
@@ -192,8 +191,8 @@
     "tags": [
       "osint",
       "awesome-liste",
-      "github",
-      "referans"
+      "referans",
+      "ücretsiz"
     ],
     "tr": "Açık kaynak istihbarat araç ve kaynaklarının kategori kategori (kişi, alan adı, sosyal medya, coğrafi) listesi. Tek amaçlı OSINT araçlarından farkı harita olması: hangi işe hangi aracın olduğunu gösteren, alanın en çok atıf alan başlangıç dizini.",
     "en": "A category-by-category list of open-source intelligence tools and resources (people, domains, social media, geolocation). Unlike a single-purpose OSINT tool it is the map: the field’s most-cited starting index for which tool fits which job.",
@@ -204,9 +203,9 @@
     "name": "Awesome Prompt Injection",
     "tags": [
       "awesome-liste",
-      "github",
       "güvenlik",
-      "llm"
+      "llm",
+      "ücretsiz"
     ],
     "tr": "Dil modellerine özgü “prompt enjeksiyonu” zafiyetine dair araç ve makale listesi. Klasik güvenlik listelerinden farkı yalnız YZ sistemlerinin yeni saldırı yüzeyine bakması.",
     "en": "A list of tools and papers on the “prompt injection” vulnerability specific to language models. Unlike classic security lists it looks only at the new attack surface of AI systems.",
@@ -218,8 +217,8 @@
     "tags": [
       "güvenlik",
       "awesome-liste",
-      "github",
-      "frontend"
+      "frontend",
+      "ücretsiz"
     ],
     "tr": "Web güvenliğine odaklı, saldırı sınıflarına (XSS, SSRF, deserialization) göre bölünmüş kaynak listesi. Genel hacking listelerinden farkı dar ve derin olması: yalnız web katmanını hedefliyor, her zafiyet türü için makale, araç ve laboratuvarı bir arada topluyor.",
     "en": "A resource list focused on web security, split by attack class (XSS, SSRF, deserialisation). Against general hacking lists it is narrow and deep: it targets the web layer alone, gathering articles, tools and labs together for each vulnerability type.",
@@ -277,9 +276,9 @@
     "name": "GhidraMCP",
     "tags": [
       "açık-kaynak",
-      "github",
       "mcp",
-      "güvenlik"
+      "güvenlik",
+      "ücretsiz"
     ],
     "tr": "Ghidra’yı MCP üzerinden bir asistana açıyor; sökülmüş kodu okuma ve fonksiyon adlandırma gibi yorucu adımları devredebiliyorsun. Klasik Ghidra betiklerinden farkı çözümlemeyi diyalogla yürütmesi: ikili çözümlemede yeni bir iş akışı.",
     "en": "Exposes Ghidra to an assistant over MCP, letting you delegate the tedious parts — reading disassembly, naming functions. Unlike classic Ghidra scripts it drives the analysis through dialogue — a genuinely new workflow in binary analysis.",
@@ -328,8 +327,8 @@
     "name": "Illicit Services Enum",
     "tags": [
       "açık-kaynak",
-      "github",
-      "osint"
+      "osint",
+      "ücretsiz"
     ],
     "tr": "Servis numaralandırma betiği; keşif aşamasında elle çalıştırılan komut dizisini otomatikleştiriyor. Elle sorgu yazmaktan farkı adımları tek betikte toplaması; dayandığı harici API’nin erişilebilirliğine bağlı olduğunu akılda tut.",
     "en": "A service enumeration script automating the command sequence you would otherwise run by hand during reconnaissance. Unlike hand-typed queries it bundles the steps into one script; bear in mind it depends on the availability of the external API it calls.",
@@ -343,7 +342,7 @@
       "güvenlik",
       "referans",
       "awesome-liste",
-      "github"
+      "ücretsiz"
     ],
     "tr": "Kırmızı ve mavi takım, DFIR, AppSec ve daha fazlasını kapsayan tek çatı altında devasa bir güvenlik başvurusu. Konu bazlı awesome listelerinden farkı bütünsel olması: her uzmanlığa ayrı liste aramak yerine tek yerde, açıklamalı ve düzenli bir referans.",
     "en": "A vast security reference under one roof — red team, blue team, DFIR, AppSec and more. Unlike single-topic awesome lists it is holistic: instead of hunting a separate list per specialism, one annotated, organised reference in a single place.",
@@ -355,7 +354,8 @@
     "tags": [
       "güvenlik",
       "açık-kaynak",
-      "referans"
+      "referans",
+      "ücretsiz"
     ],
     "tr": "OSSTMM güvenlik test metodolojisini yayımlayan kâr amacı gütmeyen kurum. Sertifika kurumlarından farkı asıl ürününün metodoloji olması: nasıl test edileceğini tarif eden, ücretsiz ve satıcı bağımsız bir standart.",
     "en": "The non-profit publishing the OSSTMM security testing methodology. Unlike the certification bodies its actual product is the method: a free, vendor-neutral standard describing how testing should be done.",
@@ -377,9 +377,9 @@
     "url": "https://github.com/LuNiZz?tab=repositories",
     "name": "LuNiZz Depoları",
     "tags": [
-      "github",
       "türkçe",
-      "güvenlik"
+      "güvenlik",
+      "ücretsiz"
     ],
     "tr": "Türkçe güvenlik ve bilişim içerikleri üreten bir geliştiricinin depoları. Dağınık İngilizce kaynaklardan farkı Türkçe içerikleri tek bir geliştiricinin profilinde toplaması: yerel kaynak arayanlar için toplu bir giriş noktası.",
     "en": "The repositories of a developer producing Turkish security and IT material. Unlike scattered English resources it gathers Turkish content under one developer’s profile — a single entry point for local resources.",
@@ -391,9 +391,9 @@
     "name": "MISP Warning Lists",
     "tags": [
       "güvenlik",
-      "github",
       "otomasyon",
-      "referans"
+      "referans",
+      "ücretsiz"
     ],
     "tr": "Tehdit göstergelerindeki yanlış pozitifleri elemek için hazır listeler — genel DNS çözücüleri, bilinen bulut aralıkları, kamu hizmetleri. Ham gösterge akışlarından farkı gürültü filtresi olması: alarm üretmemesi gereken meşru altyapıyı işaretliyor.",
     "en": "Ready-made lists for weeding false positives out of threat indicators — public DNS resolvers, known cloud ranges, public services. Unlike raw indicator feeds it is the noise filter: it marks the legitimate infrastructure that should not raise an alarm.",
@@ -403,9 +403,9 @@
     "url": "https://github.com/wtsxDev/Machine-Learning-for-Cyber-Security",
     "name": "ML for Cyber Security",
     "tags": [
-      "github",
       "awesome-liste",
-      "veri-bilimi"
+      "veri-bilimi",
+      "ücretsiz"
     ],
     "tr": "Güvenlikte makine öğrenmesi üzerine ikinci bir derleme. awesome-ml-for-cybersecurity’den farkı araç, kurs ve konferans konuşması tarafının daha ağır basması.",
     "en": "A second compilation on machine learning for security. Unlike awesome-ml-for-cybersecurity, it is weighted more towards tools, courses and conference talks.",
@@ -444,8 +444,8 @@
     "tags": [
       "güvenlik",
       "awesome-liste",
-      "github",
-      "öğretici"
+      "öğretici",
+      "ücretsiz"
     ],
     "tr": "Ofansif güvenliğin her dalını — altyapı, kablosuz, IoT, exploit geliştirme, bulut — laboratuvarlarla birlikte toplayan kaynak seti. Tek konulu listelerden farkı geniş ve laboratuvar odaklı olması: okumakla kalmayıp pratik yapabileceğin ortamları da işaret ediyor.",
     "en": "A resource set covering every branch of offensive security — infrastructure, wireless, IoT, exploit development, cloud — together with labs. Unlike single-topic lists it is broad and lab-focused: it points to environments where you can practise, not just read.",
@@ -457,8 +457,8 @@
     "tags": [
       "osint",
       "awesome-liste",
-      "github",
-      "referans"
+      "referans",
+      "ücretsiz"
     ],
     "tr": "OSINT kaynaklarını 193 ülke ve bölgeye göre ayıran liste. Küresel OSINT listelerinden farkı coğrafi olması: belirli bir ülkenin resmi kayıtları, sicilleri ve yerel araçlarını arıyorsan doğrudan o başlığa gidiyorsun.",
     "en": "A list that sorts OSINT resources by 193 countries and territories. Unlike global OSINT lists it is geographic: if you need a specific country’s public records, registries and local tools, you go straight to that heading.",
@@ -494,8 +494,8 @@
     "name": "PoC-in-GitHub",
     "tags": [
       "güvenlik",
-      "github",
-      "otomasyon"
+      "otomasyon",
+      "ücretsiz"
     ],
     "tr": "CVE’lere ait kavram kanıtı depolarını GitHub’dan otomatik toplayan ve günlük güncelleyen liste. Trickest CVE’den farkı yalnız GitHub’ı taraması: her zafiyet için açıkça “bu tarihte şu depo yayınlandı” diyen, PoC’a en hızlı ulaşma yolu (README’de zararlı yazılım uyarısı var).",
     "en": "A list that automatically harvests CVE proof-of-concept repositories from GitHub and updates daily. Against Trickest CVE it scans GitHub alone: for each vulnerability it states “this repo was published on this date” — the fastest route to a PoC (its README warns of malware).",
@@ -506,9 +506,9 @@
     "name": "Robin",
     "tags": [
       "açık-kaynak",
-      "github",
       "osint",
-      "llm"
+      "llm",
+      "ücretsiz"
     ],
     "tr": "Karanlık ağ araştırmasında sorguyu genişletip sonuçları özetleyen yapay zekâ destekli araç. Elle arama yapmaktan farkı tarama adımını otomatikleştirmesi: sonuçların insan gözüyle doğrulanması gereken bir alanda ilk süzgeç.",
     "en": "An AI-assisted tool that expands queries and summarises results in dark web research. Unlike manual searching it automates the sweep — a first filter in an area where results still need human verification.",
@@ -546,8 +546,8 @@
     "tags": [
       "osint",
       "açık-kaynak",
-      "github",
-      "cli"
+      "cli",
+      "ücretsiz"
     ],
     "tr": "Bir kullanıcı adını yüzlerce sitede arayan takma ad avcısı. Sherlock gibi araçlardan farkı BDT/Rusça web’e ağırlık vermesi: batı odaklı araçların kaçırdığı bölgesel platformları da kapsıyor.",
     "en": "A username hunter that searches one handle across hundreds of sites. Unlike tools such as Sherlock it weights the CIS/Russian-language web: it covers the regional platforms that western-focused tools miss.",
@@ -571,8 +571,8 @@
     "name": "ThreatIntel-Reports",
     "tags": [
       "güvenlik",
-      "github",
-      "referans"
+      "referans",
+      "ücretsiz"
     ],
     "tr": "Binlerce tehdit istihbaratı raporundan çıkarılmış içeriği aranabilir kılan depo. Raporların kendisinden farkı içlerini taraması: bir aracın ya da APT grubunun adını giriyorsun, hangi raporlarda geçtiğini tek seferde döküyor.",
     "en": "A repository that makes the content extracted from thousands of threat-intelligence reports searchable. Unlike the reports themselves it searches inside them: you enter a tool or APT-group name and it lists every report that mentions it at once.",
@@ -594,9 +594,9 @@
     "name": "Trickest CVE",
     "tags": [
       "güvenlik",
-      "github",
       "otomasyon",
-      "referans"
+      "referans",
+      "ücretsiz"
     ],
     "tr": "Bilinen tüm CVE’leri, varsa kavram kanıtı (PoC) bağlantılarıyla birlikte otomatik toplayan ve güncel tutan depo. NVD gibi resmi veri tabanlarından farkı istismar odaklı olması: bir zafiyetin sömürülebilir kodu nerede diye bakıyorsan doğrudan onu gösteriyor.",
     "en": "A repository that automatically gathers and keeps current every known CVE, with links to proof-of-concept code where it exists. Unlike official databases like the NVD it is exploit-focused: if you want to know where a vulnerability’s working code lives, it points straight to it.",

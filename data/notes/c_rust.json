@@ -3,9 +3,9 @@
     "url": "https://github.com/oz123/awesome-c",
     "name": "Awesome C",
     "tags": [
-      "github",
       "awesome-liste",
-      "c-ailesi"
+      "c-ailesi",
+      "ücretsiz"
     ],
     "tr": "C kütüphane, çatı ve araç listesi. Dilin standart kütüphanesi kasten dar olduğu için C’de “hangi kütüphane” sorusu diğer dillerden çok daha sık sorulur.",
     "en": "A list of C libraries, frameworks and tools. Because the standard library is deliberately thin, “which library” comes up far more often in C than elsewhere.",
@@ -17,8 +17,8 @@
     "name": "Awesome C++",
     "tags": [
       "awesome-liste",
-      "github",
-      "c-ailesi"
+      "c-ailesi",
+      "ücretsiz"
     ],
     "tr": "C++ kütüphane ve çerçevelerini konuya göre düzenleyen liste. Genel aramadan farkı bakımı yapılan, kategorilenmiş bir başlangıç haritası olması.",
     "en": "A list organising C++ libraries and frameworks by topic. Unlike general search it is a maintained, categorised starting map.",
@@ -29,8 +29,8 @@
     "name": "Awesome CMake",
     "tags": [
       "awesome-liste",
-      "github",
-      "c-ailesi"
+      "c-ailesi",
+      "ücretsiz"
     ],
     "tr": "C/C++ derleme aracı CMake için betik, modül ve kaynak listesi. Resmî belgelerden farkı hedef tabanlı “modern CMake” pratiklerini anlatan rehberleri ve hazır modülleri seçmesi.",
     "en": "A list of scripts, modules and resources for CMake, the C/C++ build tool. Unlike the official docs, it picks guides to target-based “modern CMake” practice and ready-made modules.",
@@ -42,8 +42,8 @@
     "tags": [
       "rust",
       "awesome-liste",
-      "github",
-      "referans"
+      "referans",
+      "ücretsiz"
     ],
     "tr": "Rust kütüphane ve uygulamalarını konuya göre düzenleyen liste. crates.io aramasından farkı seçilmiş, kategorilenmiş ve bakımı yapılan bir başlangıç haritası olması.",
     "en": "A list organising Rust libraries and applications by topic. Unlike a crates.io search it is a curated, categorised and maintained starting map.",
@@ -65,9 +65,9 @@
     "url": "https://github.com/Koubae/Programming-CookBook/blob/master/Programming%20Languages/C/roadmap.md",
     "name": "C Yol Haritası",
     "tags": [
-      "github",
       "müfredat",
-      "c-ailesi"
+      "c-ailesi",
+      "ücretsiz"
     ],
     "tr": "C öğrenimini konu sırasına koyan kısa harita. Kapsamlı kurslardan farkı içerik değil yalnız sıra vermesi: işaretçi ve bellek yönetimini nereye yerleştireceğini gösteriyor.",
     "en": "A short map ordering C topics. Unlike full courses it gives sequence rather than content, showing where pointers and memory management belong.",
@@ -141,7 +141,8 @@
     "tags": [
       "rust",
       "referans",
-      "açık-kaynak"
+      "açık-kaynak",
+      "ücretsiz"
     ],
     "tr": "Rust’ın resmî paket kayıt defteri — kütüphaneleri yayımlayıp bağımlılık olarak çekmenin merkezi. Genel kod aramalarından farkı sürüm ve indirme verisiyle güvenilir kaynağı göstermesi.",
     "en": "Rust’s official package registry — the hub for publishing libraries and pulling them as dependencies. Unlike general code search it shows the trustworthy source with version and download data.",
@@ -178,7 +179,8 @@
     "tags": [
       "açık-kaynak",
       "referans",
-      "c-ailesi"
+      "c-ailesi",
+      "ücretsiz"
     ],
     "tr": "TempleOS’un HolyC dili için bağımsız derleyici ve dokümantasyon. Üretim dillerinin aksine pratik bir kullanımı yok; dil tasarımı ve bilgisayar tarihi merakı için duruyor.",
     "en": "An independent compiler and documentation for TempleOS’s HolyC. Unlike production languages it has no practical use — it stands for the language design and computing history interest.",
@@ -242,7 +244,8 @@
     "tags": [
       "dokümantasyon",
       "c-ailesi",
-      "masaüstü"
+      "masaüstü",
+      "ücretsiz"
     ],
     "tr": "Qt çatısının resmî belgeleri; C++ ve QML için sınıf referansı, örnekler ve platform kılavuzları. Diğer arayüz çatılarının belgelerinden farkı kapsamı — masaüstü, mobil ve gömülü aynı API altında anlatılıyor.",
     "en": "The official documentation for the Qt framework: class reference, examples and platform guides for C++ and QML. Against other UI framework docs the difference is scope — desktop, mobile and embedded described under one API.",
@@ -318,7 +321,7 @@
       "rust",
       "interaktif",
       "açık-kaynak",
-      "github"
+      "ücretsiz"
     ],
     "tr": "Küçük, kırık kod parçalarını düzelterek Rust öğreten alıştırma seti. Okuma temelli kaynaklardan farkı derleyici hatalarını okuyup düzeltmeyi elle deneyimletmesi.",
     "en": "An exercise set teaching Rust by fixing small, broken snippets. Unlike reading-based resources it has you read and fix compiler errors by hand.",
@@ -394,7 +397,8 @@
     "tags": [
       "rust",
       "dokümantasyon",
-      "referans"
+      "referans",
+      "ücretsiz"
     ],
     "tr": "Dilin dilbilgisini ve anlamını tanımlayan resmî başvuru. Kitaptan farkı öğretici değil, “Rust tam olarak nasıl davranır” sorusunun yetkili cevabı olması.",
     "en": "The official reference defining the language’s grammar and semantics. Unlike the book it is not a tutorial but the authoritative answer to “exactly how does Rust behave”.",
@@ -432,7 +436,8 @@
       "rust",
       "açık-kaynak",
       "backend",
-      "dokümantasyon"
+      "dokümantasyon",
+      "ücretsiz"
     ],
     "tr": "Rust için en yaygın asenkron çalışma zamanı; ağ servisleri bunun üstüne kurulur. Standart kütüphaneden farkı yüksek eşzamanlı G/Ç için zamanlayıcı, görev ve araçları getirmesi.",
     "en": "The most widely used asynchronous runtime for Rust; network services build on it. Unlike the standard library it brings a scheduler, tasks and tooling for highly concurrent I/O.",

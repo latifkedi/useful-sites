@@ -55,7 +55,6 @@
     "tags": [
       "gizlilik",
       "osint",
-      "github",
       "ücretsiz"
     ],
     "tr": "Ülke ülke sansür ölçümünde kullanılan, engellenip engellenmediği test edilecek URL listeleri. Genel alan adı listelerinden farkı amacının sansür tespiti olması: OONI gibi ölçüm projelerinin beslendiği, hangi sitelerin nerede engellendiğini haritalayan kaynak.",
@@ -79,7 +78,6 @@
     "name": "DandelionSprout Filters",
     "tags": [
       "gizlilik",
-      "github",
       "ücretsiz",
       "referans"
     ],
@@ -93,7 +91,8 @@
     "tags": [
       "gizlilik",
       "açık-kaynak",
-      "referans"
+      "referans",
+      "ücretsiz"
     ],
     "tr": "Google ürünlerinin her biri için alternatif listesi; kategori kategori düzenlenmiş. Genel \"alternatif\" sitelerinden farkı tek bir sağlayıcıdan çıkışa odaklanması — hangi ürünün yerine ne konacağı sırayla işlenmiş.",
     "en": "A list of alternatives for each Google product, organised category by category. Unlike general alternative-finder sites it is focused on leaving one provider, working through what replaces what in order.",
@@ -166,7 +165,8 @@
     "tags": [
       "açık-kaynak",
       "gizlilik",
-      "eklenti"
+      "eklenti",
+      "ücretsiz"
     ],
     "tr": "YouTube, Twitter, Reddit, Instagram bağlantılarını otomatik olarak gizlilik dostu ön yüzlere (Invidious, Nitter, Redlib) yönlendiren tarayıcı eklentisi. Elle ön yüz aramaktan farkı, çalışmayan örnekleri atlayıp çalışanı seçmesi.",
     "en": "A browser extension that redirects YouTube, Twitter, Reddit and Instagram links to privacy-respecting frontends such as Invidious, Nitter and Redlib. Against hunting for a frontend yourself, it skips the dead instances and picks a working one.",
@@ -203,7 +203,8 @@
       "açık-kaynak",
       "gizlilik",
       "python",
-      "cli"
+      "cli",
+      "ücretsiz"
     ],
     "tr": "Dosyalardaki meta veriyi temizleyen araç: fotoğrafın GPS koordinatı, PDF’in yazar alanı, ofis belgesinin düzenleme geçmişi. exiftool’dan farkı varsayılanın silmek olması — hangi alanın kaldığını tek tek düşünmen gerekmiyor.",
     "en": "A tool that strips metadata from files: GPS coordinates in a photo, the author field in a PDF, the revision history in an office document. Unlike exiftool the default is removal, so you are not left reasoning about which field survived.",
@@ -227,7 +228,8 @@
     "tags": [
       "gizlilik",
       "açık-kaynak",
-      "ağ"
+      "ağ",
+      "ücretsiz"
     ],
     "tr": "Esnek, açık kaynak VPN protokolü ve yazılımı; TLS üzerine kurulu, neredeyse her platformda çalışıyor. WireGuard’dan farkı olgunluğu ve yapılandırma esnekliği; karşılığında kod tabanı çok daha büyük ve genelde daha yavaş.",
     "en": "A flexible, open-source VPN protocol and software built on TLS, running on almost every platform. Unlike WireGuard it wins on maturity and configurability; the trade-off is a much larger codebase and usually lower speed.",
@@ -263,7 +265,8 @@
     "tags": [
       "açık-kaynak",
       "self-hosted",
-      "gizlilik"
+      "gizlilik",
+      "ücretsiz"
     ],
     "tr": "Sunucunun içeriği hiç bilmediği pastebin: metin tarayıcıda şifreleniyor, anahtar URL parçasında kalıyor ve sunucuya gitmiyor. Pastebin.com’dan farkı bu sıfır bilgi tasarımı ve okununca yok olma seçeneği.",
     "en": "A pastebin the server cannot read: the text is encrypted in the browser and the key lives in the URL fragment, which is never sent. That zero-knowledge design and burn-after-reading are the break from pastebin.com.",
@@ -323,7 +326,8 @@
     "tags": [
       "açık-kaynak",
       "gizlilik",
-      "güvenlik"
+      "güvenlik",
+      "ücretsiz"
     ],
     "tr": "Kullanıcı kimliği kavramı olmayan mesajlaşma: telefon numarası, kullanıcı adı, hatta kalıcı bir ID yok. Signal’dan farkı bu — Signal numaranı biliyor, SimpleX sunucularında bağlanacak bir kimlik hiç oluşmuyor, dolayısıyla ilişki grafiği de çıkarılamıyor.",
     "en": "Messaging with no notion of a user identity: no phone number, no username, not even a persistent ID. That is the break from Signal — Signal knows your number, whereas SimpleX servers never hold an identifier to correlate, so no social graph can be derived.",
@@ -335,7 +339,8 @@
     "tags": [
       "açık-kaynak",
       "gizlilik",
-      "güvenlik"
+      "güvenlik",
+      "ücretsiz"
     ],
     "tr": "USB’den çalışan, tüm trafiği Tor üzerinden geçiren canlı Linux dağıtımı. Tor Browser kullanmaktan farkı, sistemin tamamının unutkan olması: kapattığında diskte hiçbir iz kalmıyor, bilerek kalıcı bölüm açmadıysan.",
     "en": "A live Linux distribution that runs from USB and routes everything through Tor. Unlike just using Tor Browser, the whole system is amnesic: shut it down and nothing remains on disk unless you deliberately made a persistent volume.",
@@ -384,7 +389,6 @@
     "name": "Windows 10 Gizlilik Rehberi",
     "tags": [
       "gizlilik",
-      "github",
       "referans",
       "ücretsiz",
       "arşivlenmiş"

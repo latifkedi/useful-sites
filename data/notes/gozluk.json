@@ -42,8 +42,8 @@
     "name": "Alternatif HeyCyan Uygulaması",
     "tags": [
       "açık-kaynak",
-      "github",
-      "donanım"
+      "donanım",
+      "ücretsiz"
     ],
     "tr": "Üreticinin uygulamasına açık kaynak alternatif; kapalı uygulamanın kilitlediği özellikleri açmayı ve bulut bağımlılığını kaldırmayı hedefliyor.",
     "en": "An open-source alternative to the vendor app, aimed at unlocking restricted features and removing the cloud dependency.",
@@ -54,8 +54,8 @@
     "url": "https://github.com/pangoleen/awesome-even-realities-g2",
     "name": "Awesome Even Realities G2",
     "tags": [
-      "github",
-      "awesome-liste"
+      "awesome-liste",
+      "ücretsiz"
     ],
     "tr": "Even Realities G2 akıllı gözlüğü için topluluk kaynakları derlemesi. Resmî dokümandan farkı onun kapsamadığı araçların ve çözülmüş sorunların burada birikmesi.",
     "en": "A community resource collection for the Even Realities G2 smart glasses. Unlike the official documentation, this is where the tools and solved problems it does not cover accumulate.",
@@ -78,9 +78,9 @@
     "url": "https://github.com/Mentra-Community/OpenSourceSmartGlasses/wiki/How-to-build-the-Open-Source-Smart-Glasses/4f426a4923cd6265b6179954e8abb2e6308b893a",
     "name": "Açık Kaynak Gözlük Yapımı",
     "tags": [
-      "github",
       "öğretici",
-      "donanım"
+      "donanım",
+      "ücretsiz"
     ],
     "tr": "Malzeme listesi ve montaj sırasıyla adım adım açık kaynak akıllı gözlük yapım rehberi. Proje tanıtımlarından farkı bu ayrıntı düzeyi: projeyi tekrar edilebilir kılan tam olarak bu.",
     "en": "A step-by-step build guide for open-source smart glasses with a bill of materials and assembly order. Unlike project showcases it has that level of detail — exactly what makes the project reproducible.",
@@ -117,9 +117,9 @@
     "name": "Even G2 Protokolü",
     "tags": [
       "açık-kaynak",
-      "github",
       "güvenlik",
-      "gömülü"
+      "gömülü",
+      "ücretsiz"
     ],
     "tr": "Cihazın BLE protokolünü tersine mühendislikle çözen çalışma. Resmî SDK’nın izin vermediği kullanımlar ancak buradan mümkün oluyor.",
     "en": "Reverse-engineering of the device’s BLE protocol — the only route to uses the official SDK does not permit.",
@@ -143,8 +143,8 @@
     "name": "Even Realities (GitHub)",
     "tags": [
       "açık-kaynak",
-      "github",
-      "sdk"
+      "sdk",
+      "ücretsiz"
     ],
     "tr": "Even Realities’in resmî depoları; SDK ve örnek uygulamalar için birincil kaynak. Kodunu kapalı tutan gözlük üreticilerinin aksine yayımlıyor — bu sektörde hâlâ istisna.",
     "en": "Even Realities’ official repositories and the primary source for the SDK and sample apps. Unlike glasses makers that keep code closed it publishes — still the exception in this sector.",
@@ -179,9 +179,9 @@
     "url": "https://github.com/topics/ray-ban-meta",
     "name": "GitHub · ray-ban-meta",
     "tags": [
-      "github",
       "referans",
-      "güvenlik"
+      "güvenlik",
+      "ücretsiz"
     ],
     "tr": "Ray-Ban Meta gözlükleri üzerine topluluk projeleri. Meta’nın resmî erişim araç setinin aksine buradaki çalışmalar ağırlıkla protokol çözümlemesi ve gayriresmî köprüler; resmî araç seti yeni ve kısıtlı olduğu için bu yol hâlâ canlı.",
     "en": "Community projects around Ray-Ban Meta glasses. Unlike Meta’s official access toolkit, the work here is mostly protocol analysis and unofficial bridges — still active because the official toolkit is new and limited.",
@@ -192,8 +192,8 @@
     "url": "https://github.com/topics/smart-glasses",
     "name": "GitHub · smart-glasses",
     "tags": [
-      "github",
-      "referans"
+      "referans",
+      "ücretsiz"
     ],
     "tr": "Etiketli açık kaynak projelerin canlı listesi; derlenmiş listelerin aksine kendiliğinden güncel kalıyor. Yeni çıkanları yakalamak için.",
     "en": "A live list of tagged open-source projects that stays current by itself, unlike curated lists — the way to catch new arrivals.",
@@ -218,9 +218,9 @@
     "name": "HeyCyan SDK",
     "tags": [
       "açık-kaynak",
-      "github",
       "sdk",
-      "gömülü"
+      "gömülü",
+      "ücretsiz"
     ],
     "tr": "HeyCyan gözlükleri için platformlar arası SDK. Üreticinin kapalı uygulamasından farkı fotoğraf, video ve ses kaydını kendi uygulamandan denetleyebilmen.",
     "en": "A cross-platform SDK for HeyCyan glasses. Unlike the vendor’s closed app, it lets your own application control photo, video and audio capture.",
@@ -232,8 +232,8 @@
     "name": "HeyCyan Web Köprüsü",
     "tags": [
       "açık-kaynak",
-      "github",
-      "gömülü"
+      "gömülü",
+      "ücretsiz"
     ],
     "tr": "HeyCyan gözlüğünü Web Bluetooth üzerinden tarayıcıya bağlıyor. Yerel uygulama yazmak yerine cihazla tarayıcıdan konuşuyorsun — prototip için hızlı bir yol.",
     "en": "Connects HeyCyan glasses to a browser over Web Bluetooth. Instead of writing a native app you talk to the device from the browser — a fast route for prototyping.",
@@ -244,9 +244,9 @@
     "url": "https://github.com/ebowwa/HeyCyanSmartGlassesSDK/blob/main/WIFI_TRANSFER_ARCHITECTURE.md",
     "name": "HeyCyan Wi-Fi Aktarım Mimarisi",
     "tags": [
-      "github",
       "referans",
-      "sistem-tasarımı"
+      "sistem-tasarımı",
+      "ücretsiz"
     ],
     "tr": "Gözlükten telefona medya aktarımının nasıl kurgulandığını anlatan teknik not: BLE ile denetim, Wi-Fi ile veri. Benzer cihaz tasarlayanlar için doğrudan uygulanabilir bir desen.",
     "en": "A technical note on how media transfer from glasses to phone is structured — control over BLE, bulk data over Wi-Fi. A pattern directly applicable to similar devices.",
@@ -258,8 +258,8 @@
     "name": "Mentra Bluetooth SDK",
     "tags": [
       "açık-kaynak",
-      "github",
-      "gömülü"
+      "gömülü",
+      "ücretsiz"
     ],
     "tr": "Android’den gözlüğe BLE ile bağlanmak için başlangıç kiti. Sıfırdan BLE kodu yazmaktan farkı GATT servisleri ve karakteristiklerinin tanımlı gelmesi: protokolü kendin çözmüyorsun.",
     "en": "A starter kit for connecting to glasses over BLE from Android. Unlike writing BLE code from scratch, the GATT services and characteristics arrive defined, so you do not reverse-engineer the protocol.",
@@ -271,8 +271,8 @@
     "name": "MentraOS",
     "tags": [
       "açık-kaynak",
-      "github",
-      "gömülü"
+      "gömülü",
+      "ücretsiz"
     ],
     "tr": "Akıllı gözlükler için açık işletim sistemi; farklı üreticilerin donanımını tek uygulama katmanında topluyor. Her gözlük için ayrı uygulama yazma sorununu hedefliyor.",
     "en": "An open operating system for smart glasses unifying different vendors’ hardware under one app layer — aimed at the problem of writing a separate app per device.",
@@ -296,9 +296,9 @@
     "name": "Omi",
     "tags": [
       "açık-kaynak",
-      "github",
       "donanım",
-      "ses"
+      "ses",
+      "ücretsiz"
     ],
     "tr": "Konuşmaları dinleyip özetleyen giyilebilir cihaz; gözlükten farklı olarak görüntü değil bağlam yakalıyor. Sürekli dinleme fikrinin etik tarafı ayrı bir tartışma.",
     "en": "A wearable that listens to conversations and summarises them, capturing context rather than vision. The ethics of always-on listening are a separate argument.",
@@ -310,8 +310,8 @@
     "name": "Open Source Smart Glasses",
     "tags": [
       "açık-kaynak",
-      "github",
-      "donanım"
+      "donanım",
+      "ücretsiz"
     ],
     "tr": "Tüm gün takılabilir açık kaynak gözlük tasarımı; şema, PCB ve yazılım açık. Kapalı ürünlerin aksine ne topladığını ve nereye gönderdiğini görebiliyorsun.",
     "en": "An all-day wearable open-source glasses design with schematics, PCB and software published — so unlike closed products you can see what it collects and where it sends it.",
@@ -323,8 +323,8 @@
     "name": "OpenGlass",
     "tags": [
       "açık-kaynak",
-      "github",
-      "donanım"
+      "donanım",
+      "ücretsiz"
     ],
     "tr": "Mevcut bir gözlüğe kamera ve kart takarak akıllı gözlüğe çeviriyor; yaklaşık 25 dolarlık parça listesi var. Sıfırdan üretim yerine dönüştürme yolu.",
     "en": "Converts an existing pair of glasses by attaching a camera and board, on a parts list of roughly $25. Conversion rather than manufacture.",
