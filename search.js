@@ -96,7 +96,7 @@ var Search = (function(){
     return (d.tags || []).map(function(t){ var l = TAGL[t]; return l ? t+" "+l[0]+" "+l[1] : t }).join(" ");
   }
 
-  /* Bir kaydin arama alanlari. extra: sonradan gelen Ingilizce aciklama.
+  /* Bir kaydin arama alanlari. extra: yuklenmis dil dosyalarindaki aciklamalar.
      Sayfa acilisinda yalnizca alan adi (ekranda gosteriliyor); katlanmis
      metin (prep), kelime dizini, ad/etiket kelimeleri ve oneri sozlugu
      warm() ile bos zamanda parca parca, ya da ilk aramada bir kerede. */
@@ -110,7 +110,7 @@ var Search = (function(){
     if(d._s !== null && d._s !== undefined) return;
     var c = CATL[d.cat] || {}, a = AREA[d.cat] || {};
     d._n = fold(d.name);
-    d._s = fold([d.name, d.tr, tagText(d), d._h, c.tr, c.en, a.tr, a.en, d._xt].filter(Boolean).join(" "));
+    d._s = fold([d.name, tagText(d), d._h, c.tr, c.en, a.tr, a.en, d._xt].filter(Boolean).join(" "));
   }
   function wn(d){ prep(d); return d._wn || (d._wn = wordStr(words(d._n))) }
   function wt(d){

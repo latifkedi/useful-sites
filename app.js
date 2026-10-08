@@ -206,16 +206,27 @@ data.forEach(function(d,i){ d._i = i; d._k = ukey(d.url) });
 Search.init({records: data, synonyms: window.SYNONYMS || [], groups: window.GROUPS || [],
              cats: window.CATS || [], tagLabels: window.TAGLABELS || {}});
 
-/* Ingilizce aciklamalar ayri dosyada ve sonradan geliyor, dolayisiyla ilk
-   indeks yalnizca Turkce metni tasiyor. Bunu tazelemezsek Ingilizce moddaki
-   arama, ekranda okunan cumleyi bulamiyor: "mesh" yaziyorsun, aciklamada
-   geciyor, sonuc bos donuyor. */
-var enIndexed = false;
-function indexEN(){
-  if(enIndexed || !window.LINKS_EN) return;
-  enIndexed = true;
+/* Aciklamalar dil basina ayri dosyada (desc.tr.js, links.en.js); sayfa yalnizca
+   okunan dili ilk yukte aliyor. Dosya geldikce arama indeksi onu da
+   kapsayacak sekilde tazeleniyor, yoksa ekranda okunan cumle aranamaz:
+   "mesh" yaziyorsun, aciklamada geciyor, sonuc bos donuyor. Iki dil de
+   yuklenmisse ikisi birden aranir. */
+var DESCVAR = { tr: "DESC_TR", en: "LINKS_EN" };
+var BOOT = window.__boot || { done: true };
+var indexedSig = "";
+/* Dosya, links.js ile ayni uzunlukta degilse (yarim guncellenmis onbellek)
+   kullanilmaz: konumla eslesen aciklama yanlis kayda yapisirdi. */
+function descList(l){
+  var a = window[DESCVAR[l]];
+  return a && a.length === data.length ? a : null;
+}
+function indexDescs(){
+  var sig = ["tr", "en"].filter(descList).join();
+  if(sig === indexedSig) return;
+  indexedSig = sig;
+  var tr = descList("tr"), en = descList("en");
   data.forEach(function(d){
-    var t = window.LINKS_EN[d._i];
+    var t = [tr && tr[d._i], en && en[d._i]].filter(Boolean).join(" ");
     if(t) Search.index(d, t);
   });
   parsedFor = null;   /* yeni kelimeler bitisik okumayi degistirebilir */
@@ -387,7 +398,8 @@ function hl(text){
 }
 
 function descOf(d){
-  return (lang === "en" && window.LINKS_EN && window.LINKS_EN[d._i]) || d.tr;
+  var own = descList(lang), other = descList(lang === "en" ? "tr" : "en");
+  return (own && own[d._i]) || (other && other[d._i]) || "";
 }
 var AYLAR = {
   tr:["Oca","Şub","Mar","Nis","May","Haz","Tem","Ağu","Eyl","Eki","Kas","Ara"],
@@ -1087,25 +1099,40 @@ function exportAs(kind){
   }
 }
 
-/* English descriptions are not in the first load; fetched on switch. */
-var enLoading = false;
-/* links.en.js'in onbellek damgali adresi index.html'de, bu betigin etiketindeki
-   data-en ozniteliginde duruyor: damgalari build.py yalnizca index.html'de
-   yeniliyor, app.js elle yazilan kaynak olarak kaliyor. currentScript yalnizca
-   ilk calisma sirasinda dolu, o yuzden yukleme aninda okunuyor. */
-var EN_SRC = (document.currentScript && document.currentScript.getAttribute("data-en")) || "links.en.js";
-
+/* Damgali adresler index.html'de, boot.js'in etiketinde: damgalari build.py
+   yalnizca index.html'de yeniliyor, app.js elle yazilan kaynak olarak kaliyor. */
+var BOOTTAG = document.getElementById("boot");
+var DESC_SRC = {
+  tr: (BOOTTAG && BOOTTAG.getAttribute("data-tr")) || "desc.tr.js",
+  en: (BOOTTAG && BOOTTAG.getAttribute("data-en")) || "links.en.js"
+};
+var descWait = {};
+/* l dilinin aciklamalari hazir olunca cb. Dosya index.html'de boot.js
+   tarafindan zaten istenmis olabilir; degilse (dil sonradan degistiyse)
+   burada isteniyor. Yuklenemezse de cb cagriliyor: sayfa aciklamasiz da
+   calisir. */
+function needDesc(l, cb){
+  if(descList(l)) return cb();
+  if(BOOT.lang === l && BOOT.done) return cb();
+  var q = descWait[l];
+  if(q) return q.push(cb);
+  q = descWait[l] = [cb];
+  var el = BOOT.lang === l && BOOT.el;
+  if(!el){
+    el = document.createElement("script");
+    el.src = DESC_SRC[l];
+    document.head.appendChild(el);
+  }
+  var fire = function(){ delete descWait[l]; q.forEach(function(f){ f() }) };
+  el.addEventListener("load", fire);
+  el.addEventListener("error", fire);
+}
 function setLang(next){
   lang = next;
   store.set("lang", lang);
-  if(lang === "en" && !window.LINKS_EN && !enLoading){
-    enLoading = true;
-    var s = document.createElement("script");
-    s.src = EN_SRC;
-    s.onload = s.onerror = function(){ enLoading = false; indexEN(); render(); warmSearch() };
-    document.head.appendChild(s);
-  }
   update(false);
+  /* Diger dilin aciklamalari ilk yukte yok; gelince yeniden ciziliyor. */
+  if(!descList(lang)) needDesc(lang, function(){ indexDescs(); render(); warmSearch() });
 }
 $("#langbtn").addEventListener("click", function(){ hideMenu(); setLang(lang === "tr" ? "en" : "tr") });
 
@@ -1548,8 +1575,9 @@ $("#s-drop").addEventListener("drop", function(e){
 
 
 readURL();
-if(lang === "en") setLang("en"); else render();
-warmSearch();
+/* Ilk cizim, okunan dilin aciklamalari gelince: boot.js dosyayi links.js ile
+   paralel istemisti. O zamana kadar index.html'deki hazir ana sayfa duruyor. */
+needDesc(lang, function(){ indexDescs(); render(); warmSearch() });
 /* Tekrar ziyaretlerde anlik acilis ve cevrimdisi okuma (sw.js). Yukleme
    bittikten sonra: ilk acilisla ag ve islemci icin yarismasin. */
 if("serviceWorker" in navigator){

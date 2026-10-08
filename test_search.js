@@ -71,15 +71,15 @@ console.log("stem");
 
 // A small fixture for the matching, scoring, suggestion and shortcut rules.
 const R = [
-  { name: "Docker", url: "https://docker.com", tr: "Konteyner aracı.", tags: ["devops"], cat: "c1" },
-  { name: "Docker Compose", url: "https://docs.docker.com/compose", tr: "Birden çok konteyner.", tags: ["devops"], cat: "c1" },
-  { name: "Something Else", url: "https://docker.com/x", tr: "Başka bir şey.", tags: ["devops"], cat: "c1" },
-  { name: "A Tour of Go", url: "https://go.dev/tour", tr: "Go dilinin turu.", tags: [], cat: "c2" },
-  { name: "Google", url: "https://google.com", tr: "Arama motoru; bu ait olduğu yer.", tags: [], cat: "c1" },
-  { name: "Harita Atlası", url: "https://a.example", tr: "Eski haritası ve atlas.", tags: [], cat: "c2" },
-  { name: "PostgreSQL", url: "https://postgresql.org", tr: "Veritabanı.", tags: [], cat: "c3" },
-  { name: "Bitwarden", url: "https://bitwarden.com", tr: "Açık kaynak parola yöneticisi.", tags: [], cat: "c3", pick: 1 },
-  { name: "Docket", url: "https://docket.example", tr: "Takvim.", tags: [], cat: "c3" },
+  { name: "Docker", url: "https://docker.com", _xt: "Konteyner aracı.", tags: ["devops"], cat: "c1" },
+  { name: "Docker Compose", url: "https://docs.docker.com/compose", _xt: "Birden çok konteyner.", tags: ["devops"], cat: "c1" },
+  { name: "Something Else", url: "https://docker.com/x", _xt: "Başka bir şey.", tags: ["devops"], cat: "c1" },
+  { name: "A Tour of Go", url: "https://go.dev/tour", _xt: "Go dilinin turu.", tags: [], cat: "c2" },
+  { name: "Google", url: "https://google.com", _xt: "Arama motoru; bu ait olduğu yer.", tags: [], cat: "c1" },
+  { name: "Harita Atlası", url: "https://a.example", _xt: "Eski haritası ve atlas.", tags: [], cat: "c2" },
+  { name: "PostgreSQL", url: "https://postgresql.org", _xt: "Veritabanı.", tags: [], cat: "c3" },
+  { name: "Bitwarden", url: "https://bitwarden.com", _xt: "Açık kaynak parola yöneticisi.", tags: [], cat: "c3", pick: 1 },
+  { name: "Docket", url: "https://docket.example", _xt: "Takvim.", tags: [], cat: "c3" },
 ];
 Search.init({
   records: R,
@@ -141,10 +141,10 @@ check(ids("ve").length === 0, "a prefix under 4 letters offers nothing");
 /* introHTML() needs records; a second slice gets a few. */
 const withRecs = new Function("return (function(window, localStorage, URL, Search){\n" + body +
   "\nreturn {introHTML};\n})")()({ LINKS: [
-    { name: "Rustlings", url: "https://rustlings.rust-lang.org/", tags: [], tr: "x", cat: "c" },
-    { name: "Rust Cookbook", url: "https://rust-lang-nursery.github.io/rust-cookbook/", tags: [], tr: "x", cat: "c" },
-    { name: "Rust", url: "https://www.rust-lang.org/", tags: [], tr: "x", cat: "c" },
-    { name: "Go", url: "https://go.dev/", tags: [], tr: "x", cat: "c" },
+    { name: "Rustlings", url: "https://rustlings.rust-lang.org/", tags: [], _xt: "x", cat: "c" },
+    { name: "Rust Cookbook", url: "https://rust-lang-nursery.github.io/rust-cookbook/", tags: [], _xt: "x", cat: "c" },
+    { name: "Rust", url: "https://www.rust-lang.org/", tags: [], _xt: "x", cat: "c" },
+    { name: "Go", url: "https://go.dev/", tags: [], _xt: "x", cat: "c" },
   ] }, { getItem: () => null }, URL, Search);
 console.log("introHTML");
 const ih = withRecs.introHTML("Rustlings’i ve Rust Cookbook’u dene; Go ile Rust. Rustlingsler & <b>");
@@ -174,6 +174,11 @@ check(firstSentence("abcdefghi, ".repeat(20)) === Array(10).fill("abcdefghi").jo
 const win = {};
 new Function("window", fs.readFileSync(path.join(__dirname, "links.js"), "utf8"))(win);
 const LINKS = win.LINKS;
+/* The descriptions are in their own file, parallel to LINKS; the app feeds
+   them to the index as extra text once the file has loaded (indexDescs). */
+new Function("window", fs.readFileSync(path.join(__dirname, "desc.tr.js"), "utf8"))(win);
+check(win.DESC_TR.length === LINKS.length, "desc.tr.js has one description per record");
+LINKS.forEach((d, i) => { d._xt = win.DESC_TR[i] });
 Search.init({ records: LINKS, synonyms: win.SYNONYMS || [], groups: win.GROUPS || [],
               cats: win.CATS || [], tagLabels: win.TAGLABELS || {} });
 

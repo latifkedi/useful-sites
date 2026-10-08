@@ -30,6 +30,16 @@ def _labelled(rows):
     return out
 
 
+def _with_tr(root, rows):
+    # The Turkish descriptions live in desc.tr.js, parallel to LINKS by
+    # position; the CI scripts want one record with everything on it.
+    src = io.open(os.path.join(root, 'desc.tr.js'), encoding='utf-8').read()
+    tr = json.loads(src[src.index('['):src.rindex(';')])
+    if len(tr) != len(rows):
+        raise ValueError('desc.tr.js has %d descriptions for %d records' % (len(tr), len(rows)))
+    return [dict(d, tr=t) for d, t in zip(rows, tr)]
+
+
 def read(root):
     path = os.path.join(root, 'links.js')
     src = io.open(path, encoding='utf-8').read()
@@ -59,5 +69,5 @@ def read(root):
         elif c == ']':
             depth -= 1
             if depth == 0:
-                return _labelled(json.loads(src[i:j + 1]))
+                return _labelled(_with_tr(root, json.loads(src[i:j + 1])))
     raise ValueError('links.js icindeki dizi kapanmiyor')

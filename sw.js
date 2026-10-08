@@ -26,7 +26,7 @@ function stamped(url){ return /[?&]v=[0-9a-f]+$/.test(url.search) }
 
 /* Giris sayfasinin istedigi damgali dosyalar ve fontlar. */
 function assetsOf(html, base){
-  var out = [], re = /(?:src|href|data-en)="([^"]+\?v=[0-9a-f]+)"|url\((['"]?)(fonts\/[^)'"]+)\2\)/g, m;
+  var out = [], re = /(?:src|href|data-tr|data-en)="([^"]+\?v=[0-9a-f]+)"|url\((['"]?)(fonts\/[^)'"]+)\2\)/g, m;
   while((m = re.exec(html))) out.push(new URL(m[1] || m[3], base).href);
   return out;
 }

@@ -66,6 +66,13 @@ def main():
     en_n = len(en_list)
     check(en_n == len(rows),
           'English descriptions match record count: %d vs %d' % (en_n, len(rows)))
+    tr_src = io.open(os.path.join(ROOT, 'desc.tr.js'), encoding='utf-8').read()
+    tr_n = len(json.loads(tr_src[tr_src.index('['):tr_src.rindex(';')]))
+    check(tr_n == len(rows),
+          'Turkish descriptions (desc.tr.js) match record count: %d vs %d' % (tr_n, len(rows)))
+    links_src = io.open(os.path.join(ROOT, 'links.js'), encoding='utf-8').read()
+    check('"tr":"' not in links_src.split('window.LINKS=', 1)[1],
+          'links.js carries no descriptions (they live in desc.tr.js and links.en.js)')
 
     print('records')
     eksik = [d['name'] for d in rows
@@ -264,6 +271,9 @@ def main():
 
     ix = io.open(os.path.join(ROOT, 'index.html'), encoding='utf-8').read()
     check('links.js?v=' in ix, 'links.js carries a cache stamp')
+    check(all(re.search(r'data-%s="%s\?v=[0-9a-f]{8}"' % (a, re.escape(b)), ix)
+              for a, b in (('tr', 'desc.tr.js'), ('en', 'links.en.js'))) and 'boot.js?v=' in ix,
+          'boot.js and the two description files carry cache stamps')
     css_path = os.path.join(ROOT, 'style.css')
     css = io.open(css_path, encoding='utf-8').read() if os.path.exists(css_path) else None
     m_css = re.search(r'<style id="css">\n(.*?)</style>', ix, re.S)

@@ -1,7 +1,7 @@
 # Build scripts
 
-Nothing in this folder is needed to serve the site. `index.html`, `links.js`
-and `links.en.js` are the site; everything here exists to produce them.
+Nothing in this folder is needed to serve the site. `index.html`, `links.js`,
+`desc.tr.js` and `links.en.js` are the site; everything here exists to produce them.
 
 ## Adding a link
 
@@ -77,8 +77,9 @@ Everything below is committed, so what GitHub Pages serves always matches what
 was built:
 
 ```
-../links.js        records + Turkish descriptions   (first load)
-../links.en.js     English descriptions             (loaded on language switch)
+../links.js        records, labels, intros          (first load)
+../desc.tr.js      Turkish descriptions             (first load when the page is Turkish)
+../links.en.js     English descriptions             (first load when the page is English)
 ../feed.xml        Atom feed of the newest entries
 ../sitemap.xml     index + category pages
 ../robots.txt      sitemap pointer

@@ -224,7 +224,12 @@ io.open(os.path.join(D, '..', 'links.js'), 'w', encoding='utf-8', newline='\n').
     'window.GROUPS=' + json.dumps(groups, **J) + ';\n'
     'window.INTROS=' + json.dumps(INTROS, **J) + ';\n'
     'window.SYNONYMS=' + json.dumps(synonyms.GROUPS, **J) + ';\n'
-    'window.LINKS=' + json.dumps(core, **J) + ';\n')
+    'window.LINKS=' + json.dumps([{k: v for k, v in r.items() if k != 'tr'} for r in core], **J) + ';\n')
+# The descriptions are the bulk of the data and a visitor reads one language,
+# so each language is its own file, parallel to LINKS by position, and the
+# page loads only the one it shows (boot.js picks it before app.js runs).
+io.open(os.path.join(D, '..', 'desc.tr.js'), 'w', encoding='utf-8', newline='\n').write(
+    '/* Otomatik uretildi - data/build.py */\nwindow.DESC_TR=' + json.dumps([r['tr'] for r in core], **J) + ';\n')
 io.open(os.path.join(D, '..', 'links.en.js'), 'w', encoding='utf-8', newline='\n').write(
     '/* Otomatik uretildi - data/build.py */\nwindow.LINKS_EN=' + json.dumps(en, **J) + ';\n')
 
@@ -260,7 +265,7 @@ def _stamp():
     src = io.open(ix, encoding='utf-8').read()
     # app.js too: it is hand-written, but a browser holding yesterday's copy
     # against today's links.js is the same stale-pairing problem.
-    for name in ('links.js', 'links.en.js', 'search.js', 'app.js', 'theme.js'):
+    for name in ('links.js', 'desc.tr.js', 'links.en.js', 'search.js', 'app.js', 'boot.js'):
         h = hashlib.sha1(io.open(os.path.join(D, '..', name), 'rb').read()).hexdigest()[:8]
         pat = re.compile(r'(["\'])' + re.escape(name) + r'(?:\?v=[0-9a-f]+)?\1')
         src = pat.sub(lambda m, n=name, d=h: m.group(1) + n + '?v=' + d + m.group(1), src)
