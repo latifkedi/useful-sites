@@ -455,3 +455,16 @@ footer .lnk{padding:4px 6px;font-size:14px}
   body{padding:0 12px 64px}
   body.at-home .hero{font-size:26px}
 }
+
+/* Dokunmatik ekran: kucuk baglantilarin dokunma alani 44 px'e cikiyor, ama
+   yerlesim oynamiyor (dolgu buyuyup kenar boslugu geri cekiliyor, ya da gorunmez
+   bir katman tasiyor). Olculen: kayit adi 23, arsiv baglantisi 22, giris
+   listesi 25, ana sayfa alt baglantilari 22 px yuksekligindeydi. */
+@media (pointer:coarse),(max-width:720px){
+  .logo{padding:9px 0;margin:-9px 0}
+  .rec a.name,.arch{position:relative}
+  .rec a.name::after{content:"";position:absolute;inset:-11px 0}
+  .arch::after{content:"";position:absolute;inset:-12px -8px}
+  .ft{padding:10px 0;margin:-10px 0}
+  .hlinks a{display:inline-block;padding:11px 0;margin:-11px 0}
+}

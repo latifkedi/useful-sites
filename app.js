@@ -933,6 +933,16 @@ function renderView(){
 
   var shown = data.filter(keep);
   $("#list").innerHTML = activeCat ? catPageHTML(L, shown) : listPageHTML(L, shown);
+  announce(q ? L.results(q, shown.length) : L.count(shown.length, data.length));
+}
+/* Arama ve suzgec sonucu ekranda gorunuyor; ekran okuyucuya ise kimse
+   soylemiyordu. Canli bolge yalnizca ilk cizimden sonra, sonuc sayisi
+   degisince konusuyor (ilk acilista sayfa zaten okunuyor). */
+var liveReady = false, liveLast = "";
+function announce(text){
+  if(!liveReady || text === liveLast) return;
+  liveLast = text;
+  $("#live").textContent = text;
 }
 function render(){ renderView(); syncFilt(); }
 
@@ -1579,7 +1589,7 @@ $("#s-drop").addEventListener("drop", function(e){
 readURL();
 /* Ilk cizim, okunan dilin aciklamalari gelince: boot.js dosyayi links.js ile
    paralel istemisti. O zamana kadar index.html'deki hazir ana sayfa duruyor. */
-needDesc(lang, function(){ indexDescs(); render(); warmSearch() });
+needDesc(lang, function(){ indexDescs(); render(); liveReady = true; warmSearch() });
 /* Tekrar ziyaretlerde anlik acilis ve cevrimdisi okuma (sw.js). Yukleme
    bittikten sonra: ilk acilisla ag ve islemci icin yarismasin. */
 if("serviceWorker" in navigator){
