@@ -497,8 +497,8 @@
       "otomasyon",
       "ücretsiz"
     ],
-    "tr": "CVE’lere ait kavram kanıtı depolarını GitHub’dan otomatik toplayan ve günlük güncelleyen liste. Trickest CVE’den farkı yalnız GitHub’ı taraması: her zafiyet için açıkça “bu tarihte şu depo yayınlandı” diyen, PoC’a en hızlı ulaşma yolu (README’de zararlı yazılım uyarısı var).",
-    "en": "A list that automatically harvests CVE proof-of-concept repositories from GitHub and updates daily. Against Trickest CVE it scans GitHub alone: for each vulnerability it states “this repo was published on this date” — the fastest route to a PoC (its README warns of malware).",
+    "tr": "CVE’lere ait kavram kanıtı depolarını GitHub’dan otomatik toplayan ve günlük güncelleyen liste. Trickest CVE’den farkı yalnız GitHub’ı taraması: her zafiyet için açıkça “bu tarihte şu depo yayınlandı” diyen, PoC’a hızlı ulaşma yolu (README’de zararlı yazılım uyarısı var).",
+    "en": "A list that automatically harvests CVE proof-of-concept repositories from GitHub and updates daily. Against Trickest CVE it scans GitHub alone: for each vulnerability it states “this repo was published on this date” — a quick route to a PoC (its README warns of malware).",
     "src": "lowkwiki"
   },
   {

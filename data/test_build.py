@@ -150,6 +150,16 @@ def main():
     check(oran >= DIFF_FLOOR, 'descriptions that say how the entry differs: %.0f%% (floor %.0f%%)'
           % (100 * oran, 100 * DIFF_FLOOR))
 
+    # Superlatives are the sentences a page stops being true of first, and
+    # nobody rechecks them: "de facto standard", "the largest" and the like.
+    # "One of the largest" and "among the oldest" are claims that stay true.
+    ABS = re.compile(r'\bde facto\b|(?<!of )(?<!among )\bthe (?:largest|biggest|fastest|best open)\b', re.I)
+    ABS_OK = {'Stable Diffusion WebUI', 'Image Max URL'}   # "installed base ... still the largest"; "largest/original version"
+    mutlak = [d['name'] for i, d in enumerate(rows)
+              if ABS.search(en_list[i]) and d['name'] not in ABS_OK]
+    check(not mutlak, 'no description claims "de facto" or "the largest/biggest/fastest"'
+          + (' -- %s' % mutlak[:3] if mutlak else ''))
+
     kisa = [d['name'] for d in rows if len(d['tr']) < MIN_DESC]
     check(not kisa, 'every Turkish description is at least %d characters' % MIN_DESC
           + (' -- %s' % kisa[:3] if kisa else ''))
