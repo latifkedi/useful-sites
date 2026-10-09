@@ -42,7 +42,7 @@ urllib3.disable_warnings()
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import readlinks  # noqa: E402
 from notes import key  # noqa: E402
-from linkstate import classify, next_state, DEAD_AFTER  # noqa: E402
+from linkstate import classify, next_state, may_write, DEAD_AFTER  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UA = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
@@ -135,8 +135,11 @@ def write_verified(links, results, manual, today):
     for k in [k for k in ver if k not in live]:
         del ver[k]
 
-    json.dump(ver, io.open(path, 'w', encoding='utf-8', newline='\n'),
-              ensure_ascii=False, indent=1)
+    if may_write(sys.argv, os.environ):
+        json.dump(ver, io.open(path, 'w', encoding='utf-8', newline='\n'),
+                  ensure_ascii=False, indent=1)
+    else:
+        print('verified.json left alone (local run); pass --write to refresh it')
     return final
 
 

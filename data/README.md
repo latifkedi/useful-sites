@@ -155,4 +155,7 @@ When a link is flagged but opens fine in a browser, record that in
 `s` is `ok` or `engel` (reachable, but the scanner is blocked). The key is the
 URL without scheme, `www` or trailing slash.
 
-Run either scan by hand with `python ci_check.py` or `python ci_github.py`.
+Run either scan by hand with `python ci_check.py` or `python ci_github.py`. A run
+by hand writes only the report: `verified.json` and `health.json` belong to the
+weekly workflow (committing a local scan collides with the bot's commit on
+`main`), so they are rewritten only inside GitHub Actions or with `--write`.

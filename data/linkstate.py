@@ -37,6 +37,17 @@ def github_target(url):
     return ('repo', owner, re.sub(r'\.git$', '', name).rstrip('.'))
 
 
+def may_write(argv, env):
+    """Whether a scan may rewrite the tracked data files (verified.json, health.json).
+
+    Only the weekly workflow -- or someone who asks with --write -- does. A scan
+    run by hand used to rewrite both files, and committing them collided with the
+    bot's commit on main: two people's scans, one file of ~3,800 changed lines,
+    one rebase conflict every time. The report is still written either way.
+    """
+    return '--write' in argv or env.get('GITHUB_ACTIONS') == 'true'
+
+
 def classify(result):
     if result is None:
         return 'ok'

@@ -164,9 +164,12 @@ def write_health(results, skipped=(), current=None):
         out[k] = rec
         yeni += 1
 
-    json.dump(out, io.open(path, 'w', encoding='utf-8'),
-              ensure_ascii=False, indent=1, sort_keys=True)
-    print('health.json: %d kayit (%d tazelendi)' % (len(out), yeni))
+    if linkstate.may_write(sys.argv, os.environ):
+        json.dump(out, io.open(path, 'w', encoding='utf-8'),
+                  ensure_ascii=False, indent=1, sort_keys=True)
+        print('health.json: %d kayit (%d tazelendi)' % (len(out), yeni))
+    else:
+        print('health.json left alone (local run); pass --write to refresh it')
 
 
 def main():

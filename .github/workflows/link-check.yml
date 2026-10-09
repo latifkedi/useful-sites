@@ -54,7 +54,7 @@ jobs:
 
       - name: Commit the verification data and the rebuilt site
         run: |
-          paths="data/verified.json data/health.json links.js links.en.js index.html sitemap.xml robots.txt feed.xml k/ feed/"
+          paths="data/verified.json data/health.json links.js desc.tr.js links.en.js index.html sitemap.xml robots.txt feed.xml k/ feed/"
           if git diff --quiet -- $paths; then
             echo "no change"
           else

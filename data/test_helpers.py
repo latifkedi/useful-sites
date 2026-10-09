@@ -110,6 +110,12 @@ def main():
     check(gt('https://github.com/topics/rust') is None and gt('https://example.com/x') is None,
           'GitHub feature pages and other sites are neither')
 
+    print('linkstate.may_write')
+    check(not linkstate.may_write(['ci_check.py'], {}), 'a scan run by hand leaves verified.json and health.json alone')
+    check(linkstate.may_write(['ci_check.py', '--write'], {}), '--write lets a scan refresh them')
+    check(linkstate.may_write([], {'GITHUB_ACTIONS': 'true'}), 'the weekly workflow refreshes them')
+    check(not linkstate.may_write([], {'GITHUB_ACTIONS': 'false'}), 'only a real Actions run counts')
+
     print('linkstate.classify')
     check(linkstate.classify(None) == 'ok', 'no failure is ok')
     check(linkstate.classify({'status': 404}) == 'dead', '404 is dead')
