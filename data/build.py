@@ -239,6 +239,21 @@ _pages = emit.write_all(core, CATS, INTROS, LABELS, os.path.join(D, '..'), en)
 emit.write_issue_form(CATS, os.path.join(D, '..'))
 emit.write_home(core, CATS, groups, os.path.join(D, '..'), en)
 
+# ------------------------------------------------------------------ app.js
+# The client was one 1,600-line file. Its source now lives in src/app/*.js,
+# one concern per file, and is joined here in file-name order into the single
+# app.js the page loads: the same closure, so no behaviour changes and the page
+# still makes one request for it. Edit the parts, never app.js (a test and CI's
+# rebuild-matches-commit check both catch a hand edit).
+def _app_js():
+    parts = sorted(f for f in os.listdir(os.path.join(D, '..', 'src', 'app')) if f.endswith('.js'))
+    text = ''.join(io.open(os.path.join(D, '..', 'src', 'app', f), encoding='utf-8', newline='').read()
+                   for f in parts)
+    path = os.path.join(D, '..', 'app.js')
+    if not os.path.exists(path) or io.open(path, encoding='utf-8', newline='').read() != text:
+        io.open(path, 'w', encoding='utf-8', newline='').write(text)
+
+
 # ------------------------------------------------------------------ stylesheet
 # style.css is the one stylesheet. index.html carries a copy inline so the
 # first paint needs no extra request and the CSP stays as it is; this writes
@@ -305,6 +320,7 @@ def _readme():
         io.open(p, 'w', encoding='utf-8', newline='\n').write(out)
 
 
+_app_js()
 _inline_css()
 _stamp()
 _readme()

@@ -49,7 +49,7 @@ overwrites it.
 |---|---|
 | `notes/*.json` | The records — the actual content, one file per category |
 | `notes.py` | Category list, top-level fields, and the loader that validates the records |
-| `build.py` | Merges everything into the published files |
+| `build.py` | Merges everything into the published files, including `app.js` (joined from `../src/app/*.js`) |
 | `emit.py` | Static category pages, sitemap, robots, Atom feed |
 | `readlinks.py` | Reads the record list back out of `links.js` |
 | `tags.py` | Collapses free-form tags into 64 canonical ones, with display labels |
@@ -77,6 +77,7 @@ Everything below is committed, so what GitHub Pages serves always matches what
 was built:
 
 ```
+../app.js          the client, joined from src/app/*.js in file-name order (never edit it by hand)
 ../links.js        records, labels, intros          (first load)
 ../desc.tr.js      Turkish descriptions             (first load when the page is Turkish)
 ../links.en.js     English descriptions             (first load when the page is English)

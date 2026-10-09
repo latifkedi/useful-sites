@@ -68,7 +68,7 @@ not match your experience, say so and say why.
 3. Run `python data/test_build.py` — it must pass
 4. Commit the generated files along with your record
 
-The build writes `links.js`, `desc.tr.js`, `links.en.js`, `feed.xml`, `sitemap.xml`,
+The build writes `links.js`, `desc.tr.js`, `links.en.js`, `app.js` (joined from `src/app/*.js` -- edit the parts), `feed.xml`, `sitemap.xml`,
 `robots.txt` and the pages under `k/`. All of them are committed, and CI fails
 if what you committed does not match a fresh build.
 

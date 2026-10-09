@@ -1,7 +1,9 @@
 /* Kullanisli Siteler -- istemci uygulamasi.
    index.html'de satir ici duruyordu; ayri dosyada tarayici onbellege alabiliyor
    ve CSP'den 'unsafe-inline' kaldirilabildi (bkz. index.html). links.js'ten
-   sonra yuklenir: window.LINKS, GROUPS, INTROS, SOURCES, TAGLABELS onu bekler. */
+   sonra yuklenir: window.LINKS, GROUPS, INTROS, SOURCES, TAGLABELS onu bekler.
+   BU DOSYA URETILIYOR: kaynagi src/app/*.js, data/build.py dosya adi sirasiyla
+   birlestiriyor. Parcalari duzenle, app.js'i degil. */
 (function(){
 "use strict";
 

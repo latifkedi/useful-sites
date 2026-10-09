@@ -320,6 +320,9 @@ def main():
     check(not kopya, 'pre-render strings still match app.js'
           + (' -- drifted: %s' % kopya if kopya else ''))
     check('app.js?v=' in ix and 'app.js?v=0"' not in ix, 'app.js carries a real cache stamp')
+    parts = sorted(f for f in os.listdir(os.path.join(ROOT, 'src', 'app')) if f.endswith('.js'))
+    joined = ''.join(io.open(os.path.join(ROOT, 'src', 'app', f), encoding='utf-8', newline='').read() for f in parts)
+    check(joined == app, 'app.js is exactly src/app/*.js joined in name order (edit the parts, not app.js)')
     s_at, a_at = ix.find('src="search.js?v='), ix.find('src="app.js?v=')
     check(0 <= s_at < a_at, 'index.html loads a stamped search.js before app.js')
     # Installable and offline: the manifest is linked and allowed by the CSP,
