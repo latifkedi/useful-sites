@@ -654,6 +654,34 @@
     "src": "bwapsv"
   },
   {
+    "url": "https://www.pythonchallenge.com/",
+    "name": "Python Challenge",
+    "tags": [
+      "python",
+      "interaktif",
+      "ücretsiz"
+    ],
+    "tr": "Her seviyesi biraz Python ile çözülen bir bilmece oyunu. Alıştırma sitelerinden farkı her bulmacanın bir sonrakinin adresini gizlemesi — çözmeden ilerlenmiyor.",
+    "en": "A riddle game where each level is solved with a bit of Python. Unlike exercise sites every puzzle hides the next level’s address — you cannot move on without solving it.",
+    "src": "pycrumbs",
+    "added": 1791536400
+  },
+  {
+    "url": "https://github.com/gregmalcolm/python_koans",
+    "name": "Python Koans",
+    "tags": [
+      "python",
+      "öğretici",
+      "interaktif",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Python’u “koan” adı verilen başarısız testleri tek tek geçirerek öğreten depo. Öğretici okumaktan farkı gerçek testleri düzeltmen: geri bildirim anında geliyor.",
+    "en": "A repository that teaches Python by making failing tests (“koans”) pass one at a time. Unlike reading a tutorial you fix real tests, so feedback is immediate.",
+    "src": "pycrumbs",
+    "added": 1791536400
+  },
+  {
     "url": "https://pythontutor.com/",
     "name": "Python Tutor",
     "tags": [
@@ -665,6 +693,20 @@
     "en": "Steps through code drawing stack frames and heap objects. Unlike a classic debugger it visualises memory — nothing explains reference semantics, scope and mutable default arguments as clearly.",
     "src": "kedi",
     "added": 1787182437
+  },
+  {
+    "url": "https://github.com/norvig/pytudes",
+    "name": "Pytudes",
+    "tags": [
+      "python",
+      "interaktif",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Peter Norvig’in bulmaca, algoritma ve dil işleme üzerine kısa Python programları ve not defterleri. Alıştırma sitelerinden farkı her birinin bir uzmanın gerekçesiyle anlatılmış çözümü olması.",
+    "en": "Peter Norvig’s short Python programs and notebooks on puzzles, algorithms and language. Unlike exercise sites each is an expert’s worked solution with the reasoning explained.",
+    "src": "pycrumbs",
+    "added": 1791536400
   },
   {
     "url": "https://realworld.how",
@@ -700,6 +742,20 @@
     "tr": "Programlamaya hevesliler için düzenli, etkileşimli konu anlatım ve pratik alanı. Scaler’ın ücretli akademi programlarından farkı ücretsiz, tek tek konu sayfaları olması.",
     "en": "An organised, interactive space of topic tutorials and practice for aspiring programmers. Unlike Scaler’s paid academy programmes, these are free, standalone topic pages.",
     "src": "bwapsv"
+  },
+  {
+    "url": "https://snakify.org/en/",
+    "name": "Snakify",
+    "tags": [
+      "python",
+      "öğretici",
+      "interaktif",
+      "ücretsiz"
+    ],
+    "tr": "Yüzü aşkın alıştırmalı, tarayıcıda kod yazılan Python 3 kursu. Video kurslardan farkı bir denetleyicinin çözümünü anında doğrulaması.",
+    "en": "A Python 3 course with 100+ exercises, coded in the browser. Unlike video courses a checker verifies your solution at once.",
+    "src": "pycrumbs",
+    "added": 1791536400
   },
   {
     "url": "https://www.spoj.com",

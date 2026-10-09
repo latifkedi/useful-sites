@@ -364,6 +364,18 @@
     "src": "cdcruz"
   },
   {
+    "url": "https://github.com/LinkStackOrg/LinkStack",
+    "name": "LinkStack",
+    "tags": [
+      "açık-kaynak",
+      "self-hosted"
+    ],
+    "tr": "Yönetim paneli olan, kendi sunucunda çalışan “biyografide bağlantı” platformu (PHP). LittleLink’ten (elle düzenlenen statik sayfa) farkı kullanıcı hesapları ve web üzerinden düzenleyici eklemesi.",
+    "en": "A self-hosted link-in-bio platform with an admin panel, written in PHP. Unlike LittleLink (a static page you edit by hand) it adds user accounts and a web editor.",
+    "src": "littlelink",
+    "added": 1791536400
+  },
+  {
     "url": "https://www.linode.com",
     "name": "Linode (Akamai)",
     "tags": [
@@ -460,6 +472,18 @@
     "tr": "Kendi medya kütüphaneni düzenleyip her cihaza yayınlayan sunucu. Klasör paylaşımından farkı afiş, özet ve altyazıyı otomatik toplayıp Netflix benzeri bir arayüz kurması.",
     "en": "A server that organises your own media library and streams it to any device. Unlike folder sharing it auto-fetches posters, summaries and subtitles and builds a Netflix-like interface.",
     "src": "piracy"
+  },
+  {
+    "url": "https://www.pythonanywhere.com/",
+    "name": "PythonAnywhere",
+    "tags": [
+      "freemium",
+      "python"
+    ],
+    "tr": "Python uygulamalarını barındıran ve tarayıcıda konsol sunan bulut hizmeti; ücretsiz katmanı var. Genel PaaS’lerden farkı yalnız Python için kurulması ve kurulum gerektirmeden tarayıcıda çalışması.",
+    "en": "A cloud service that hosts Python apps and gives browser consoles, with a free tier. Unlike general PaaS it is built for Python only and works in the browser with no setup.",
+    "src": "pycrumbs",
+    "added": 1791536400
   },
   {
     "url": "https://railway.app",

@@ -125,6 +125,94 @@
     "src": "econ"
   },
   {
+    "url": "https://developer.bitcoin.org/",
+    "name": "Bitcoin Developer Documentation",
+    "tags": [
+      "ücretsiz",
+      "dokümantasyon",
+      "api"
+    ],
+    "tr": "Bitcoin üzerine uygulama geliştirmek için işlemler, RPC ve P2P ağını anlatan geliştirici kılavuzu ve başvurusu. Teknik makaleden farkı uygulamaya dönük belge olması.",
+    "en": "A developer guide and reference for building on Bitcoin: transactions, RPC and the P2P network. Unlike the white paper it is practical documentation.",
+    "src": "cryptolist",
+    "added": 1791536400
+  },
+  {
+    "url": "https://bitcoin.stackexchange.com/",
+    "name": "Bitcoin Stack Exchange",
+    "tags": [
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Bitcoin kullanıcıları ve geliştiricileri için soru-cevap sitesi. Forumlardan farkı cevapların oylanıp düzenlenmesi, böylece iyi cevap üste çıkıyor.",
+    "en": "A Q&A site for Bitcoin users and developers. Unlike forums, answers are voted and edited, so the good one rises to the top.",
+    "src": "cryptolist",
+    "added": 1791536400
+  },
+  {
+    "url": "https://bitcoin.org/bitcoin.pdf",
+    "name": "Bitcoin Whitepaper",
+    "tags": [
+      "akademik",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Bitcoin’i tanıtan dokuz sayfalık makale. İkincil anlatımlardan farkı kaynağın kendisi olması: kısa, okunur ve sonraki her iddianın karşılaştırılacağı metin.",
+    "en": "The nine-page paper that introduced Bitcoin. Unlike secondary explanations it is the source: short, readable, and the text every later claim should be checked against.",
+    "src": "cryptolist",
+    "added": 1791536400
+  },
+  {
+    "url": "https://en.bitcoin.it/wiki/Main_Page",
+    "name": "Bitcoin Wiki",
+    "tags": [
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Bitcoin’in nasıl çalıştığını anlatan topluluk wiki’si: protokol, betik dili, tarih. Haber sitelerinden farkı tarihli yazı değil bakımı süren bir başvuru kaynağı olması.",
+    "en": "The community wiki on how Bitcoin works: protocol, script, history. Unlike news sites it is a maintained reference, not dated articles.",
+    "src": "cryptolist",
+    "added": 1791536400
+  },
+  {
+    "url": "https://github.com/ccxt/ccxt",
+    "name": "CCXT",
+    "tags": [
+      "açık-kaynak",
+      "api",
+      "python",
+      "javascript"
+    ],
+    "tr": "Yüzü aşkın kripto borsasına tek bir API ile bağlanan kütüphane (JavaScript, Python, PHP ve diğerleri). Her borsanın kendi SDK’sından farkı bir kez yazıp borsa değiştirebilmen.",
+    "en": "A library giving one API over more than a hundred crypto exchanges (JavaScript, Python, PHP and others). Unlike each exchange’s own SDK you write once and switch exchange freely.",
+    "src": "cryptolist",
+    "added": 1791536400
+  },
+  {
+    "url": "https://coincap.io/",
+    "name": "CoinCap",
+    "tags": [
+      "ücretsiz",
+      "api"
+    ],
+    "tr": "Piyasa değerine göre kripto para fiyat ve sıralaması; verisi ücretsiz bir API ile de sunuluyor. Daha kalabalık takipçilerden farkı sade bir tablo ve doğrudan veri erişimi.",
+    "en": "Crypto prices and market-cap rankings, with the data also available through a free API. Unlike busier trackers it is a plain table with direct data access.",
+    "src": "cryptolist",
+    "added": 1791536400
+  },
+  {
+    "url": "https://www.coindesk.com/",
+    "name": "CoinDesk",
+    "tags": [
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Kripto para ve blokzincir haberleri, piyasa verisi ve analiz sitesi. CryptoPanic gibi derleyicilerden farkı kendi muhabirliğini yapması.",
+    "en": "A crypto and blockchain news site with market data and analysis. Unlike aggregators such as CryptoPanic it does its own reporting.",
+    "src": "cryptolist",
+    "added": 1791536400
+  },
+  {
     "url": "https://www.coingecko.com",
     "name": "CoinGecko",
     "tags": [
@@ -147,6 +235,18 @@
     "tr": "Kripto fiyat ve sıralamalarında yaygın kullanılan, piyasa değerine göre listeleme sunan site. CoinGecko’dan farkı 2020’den beri Binance’e ait olması — bir borsanın sahibi olduğu veri kaynağı olduğunu akılda tut.",
     "en": "Widely used crypto prices and rankings by market cap. Unlike CoinGecko it has been owned by Binance since 2020 — worth remembering that an exchange owns this data source.",
     "src": "econ"
+  },
+  {
+    "url": "https://cryptopanic.com/",
+    "name": "CryptoPanic",
+    "tags": [
+      "freemium",
+      "referans"
+    ],
+    "tr": "Başlıkları fiyata etkisine göre işaretleyen kripto haber derleyicisi. Tek bir haber sitesinden farkı birçok kaynağı tek akışta toplaması.",
+    "en": "A crypto news aggregator that marks headlines by their expected effect on price. Unlike a single news site it gathers many sources into one feed.",
+    "src": "cryptolist",
+    "added": 1791536400
   },
   {
     "url": "https://defillama.com",
@@ -174,6 +274,19 @@
     "src": "econ"
   },
   {
+    "url": "https://electrum.org/",
+    "name": "Electrum",
+    "tags": [
+      "açık-kaynak",
+      "masaüstü",
+      "ücretsiz"
+    ],
+    "tr": "2011’den beri geliştirilen hafif, açık kaynaklı Bitcoin cüzdanı. Tam düğüm cüzdanlarından farkı zinciri indirmemesi — hız kazanıyor, karşılığında sunuculara bir ölçüde güveniyorsun.",
+    "en": "A lightweight open-source Bitcoin wallet, developed since 2011. Unlike full-node wallets it does not download the chain — you gain speed and trade some trust in servers for it.",
+    "src": "cryptolist",
+    "added": 1791536400
+  },
+  {
     "url": "https://etherscan.io",
     "name": "Etherscan",
     "tags": [
@@ -184,6 +297,18 @@
     "tr": "Ethereum’un kanonik blok gezgini; işlem izleme, sözleşme doğrulama ve API sağlıyor. Dune’dan farkı tek bir işlemi, adresi ya da sözleşmeyi ayrıntısıyla incelemeye yönelik olması.",
     "en": "Ethereum’s canonical block explorer, with transaction tracing, contract verification and an API. Unlike Dune it is built for inspecting a single transaction, address or contract in detail.",
     "src": "econ"
+  },
+  {
+    "url": "https://ethplorer.io/",
+    "name": "Ethplorer",
+    "tags": [
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Ethereum token gezgini: sahipler, transferler ve token sayfaları. Etherscan’den farkı token ve sahip dağılımını merkeze alması.",
+    "en": "An Ethereum token explorer: holders, transfers and token pages. Unlike Etherscan it centres on tokens and their holder distribution.",
+    "src": "cryptolist",
+    "added": 1791536400
   },
   {
     "url": "https://finviz.com",
@@ -269,6 +394,18 @@
     "src": "econ"
   },
   {
+    "url": "https://metamask.io/",
+    "name": "MetaMask",
+    "tags": [
+      "eklenti",
+      "ücretsiz"
+    ],
+    "tr": "Ethereum uyumlu ağlar için en yaygın tarayıcı eklentisi cüzdanı. Donanım cüzdanlarından farkı anahtarın cihazın yazılımında durması: rahat, ama makinen kadar güvenli.",
+    "en": "The most widely used browser-extension wallet for Ethereum-compatible networks. Unlike hardware wallets the keys live in software on your device: convenient, but only as safe as your machine.",
+    "src": "cryptolist",
+    "added": 1791536400
+  },
+  {
     "url": "https://aswathdamodaran.blogspot.com",
     "name": "Musings on Markets (Aswath Damodaran)",
     "tags": [
@@ -293,6 +430,18 @@
     "src": "econ"
   },
   {
+    "url": "https://www.openzeppelin.com/",
+    "name": "OpenZeppelin",
+    "tags": [
+      "açık-kaynak",
+      "güvenlik"
+    ],
+    "tr": "Solidity için denetlenmiş akıllı sözleşme kütüphaneleri ve güvenlik araçları. Token ya da yetki sözleşmelerini kendin yazmaktan farkı yaygın kullanımda sınanmış yapı taşları sunması.",
+    "en": "Audited smart-contract libraries and security tooling for Solidity. Unlike writing token or access-control contracts yourself, they are building blocks tested in wide use.",
+    "src": "cryptolist",
+    "added": 1791536400
+  },
+  {
     "url": "https://www.portfoliovisualizer.com",
     "name": "Portfolio Visualizer",
     "tags": [
@@ -314,6 +463,18 @@
     "tr": "Hisse verisi ve finansalları hızlı, sade ve cömert bir ücretsiz katmanla veren site. Yahoo Finance’e kıyasla reklamı az ve finansal tablolar daha uzun geçmişle, düzenli sunuluyor.",
     "en": "Fast, clean stock data and financials with a generous free tier. Compared with Yahoo Finance it has fewer ads, and financial statements are laid out cleanly with longer history.",
     "src": "econ"
+  },
+  {
+    "url": "https://whattomine.com/",
+    "name": "WhatToMine",
+    "tags": [
+      "ücretsiz",
+      "interaktif"
+    ],
+    "tr": "Hash gücün, elektrik tüketimin ve fiyatına göre GPU ile kazılabilir coinlerin kârlılığını karşılaştıran hesaplayıcı. Genel fiyat takipçilerinden farkı doğrudan madencilik kârı hesaplaması.",
+    "en": "A calculator comparing the profitability of GPU-mineable coins from your hashrate, power draw and electricity price. Unlike general price trackers it computes mining profit directly.",
+    "src": "cryptolist",
+    "added": 1791536400
   },
   {
     "url": "https://finance.yahoo.com",

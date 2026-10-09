@@ -5,7 +5,56 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/en/diller.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/diller.xml</id>
-<updated>2026-09-18T00:00:00Z</updated>
+<updated>2026-10-09T09:00:00Z</updated>
+<entry>
+  <title>Facts and Myths about Python Names and Values</title>
+  <link href="https://nedbatchelder.com/text/names.html"/>
+  <id>https://nedbatchelder.com/text/names.html</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Ned Batchelder’s classic talk on Python’s model of names and values. Unlike general tutorials it targets the misunderstanding behind most beginner bugs.</summary>
+</entry>
+<entry>
+  <title>Google’s Python Class</title>
+  <link href="https://developers.google.com/edu/python/"/>
+  <id>https://developers.google.com/edu/python/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Google’s short Python course made for its own staff: notes, lectures and exercises. Unlike newer bootcamps it is brief and direct; it was first written for Python 2, so check the exercises against current Python.</summary>
+</entry>
+<entry>
+  <title>PyCoder’s Weekly</title>
+  <link href="https://pycoders.com/"/>
+  <id>https://pycoders.com/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>A weekly email newsletter of Python news, articles and projects. Unlike general feeds it is Python-only and hand-picked.</summary>
+</entry>
+<entry>
+  <title>PyInstaller</title>
+  <link href="https://pyinstaller.org/"/>
+  <id>https://pyinstaller.org/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Bundles a Python application with its interpreter into a single executable for Windows, macOS and Linux. Unlike single-platform tools such as py2exe it covers all three.</summary>
+</entry>
+<entry>
+  <title>PyVideo</title>
+  <link href="https://pyvideo.org/"/>
+  <id>https://pyvideo.org/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>A searchable index of Python conference talks (PyCon and others). Unlike YouTube search it is organised by event and speaker.</summary>
+</entry>
+<entry>
+  <title>Talk Python To Me</title>
+  <link href="https://talkpython.fm/"/>
+  <id>https://talkpython.fm/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>A weekly podcast on Python, data science and AI, interviewing the people behind the tools. Unlike newsletters it offers long, detailed conversations.</summary>
+</entry>
+<entry>
+  <title>The Little Book of Python Anti-Patterns</title>
+  <link href="https://docs.quantifiedcode.com/python-anti-patterns/"/>
+  <id>https://docs.quantifiedcode.com/python-anti-patterns/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>A short book of common Python mistakes, each with the wrong and the right form. Unlike style guides it shows what wrong looks like.</summary>
+</entry>
 <entry>
   <title>Awesome asyncio</title>
   <link href="https://github.com/timofurrer/awesome-asyncio"/>
@@ -236,54 +285,5 @@
   <id>https://www.youtube.com/user/kudvenkat/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>Long, orderly lecture series on .NET, C# and SQL Server. Against short tutorials each series advances like a syllabus — for learning the enterprise .NET stack from nothing.</summary>
-</entry>
-<entry>
-  <title>Learn Python</title>
-  <link href="https://www.learnpython.org"/>
-  <id>https://www.learnpython.org</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An interactive introduction teaching Python through in-browser exercises, with nothing to install. Against a book, each section ends in an exercise that runs — you see immediately whether it stuck.</summary>
-</entry>
-<entry>
-  <title>Learn Shell</title>
-  <link href="https://learnshell.org"/>
-  <id>https://learnshell.org</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An introduction to shell scripting through exercises that run in the browser. Against the shell manuals the difference is that experimenting is free — you can try `rm` without hesitating over what it might hit.</summary>
-</entry>
-<entry>
-  <title>Let’s Build A Simple Interpreter</title>
-  <link href="https://ruslanspivak.com/lsbasi-part1/"/>
-  <id>https://ruslanspivak.com/lsbasi-part1/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A long series building an interpreter step by step in Python, constructing every piece by hand from lexing to the abstract syntax tree. Unlike Crafting Interpreters, it works in Python on a subset of Pascal.</summary>
-</entry>
-<entry>
-  <title>PEP 8</title>
-  <link href="https://www.python.org/dev/peps/pep-0008/"/>
-  <id>https://www.python.org/dev/peps/pep-0008/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Python’s official style guide, the rules used for the standard library itself. Unlike community guides it is the binding source — the text tools like black and ruff are built on.</summary>
-</entry>
-<entry>
-  <title>phpize.online</title>
-  <link href="https://phpize.online/"/>
-  <id>https://phpize.online/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A playground that runs PHP across versions with MySQL, PostgreSQL or SQLite attached. Unlike other PHP playgrounds it gives you a database, so trying query behaviour needs no server of your own.</summary>
-</entry>
-<entry>
-  <title>SICP</title>
-  <link href="https://sarabander.github.io/sicp/html/index.xhtml"/>
-  <id>https://sarabander.github.io/sicp/html/index.xhtml</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Structure and Interpretation of Computer Programs, MIT’s classic text in a readable HTML edition. Unlike books that teach a language it teaches how to build abstractions; Scheme is just the vehicle.</summary>
-</entry>
-<entry>
-  <title>The Bash Guide</title>
-  <link href="https://guide.bash.academy"/>
-  <id>https://guide.bash.academy</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A guide teaching Bash end to end with the right habits, tackling quoting and word splitting early. That is the break from copy-paste tutorials: most script bugs come from exactly those traps.</summary>
 </entry>
 </feed>

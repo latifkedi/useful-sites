@@ -5,7 +5,28 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/backend.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/backend.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/backend.xml</id>
-<updated>2026-09-18T00:00:00Z</updated>
+<updated>2026-10-09T09:00:00Z</updated>
+<entry>
+  <title>Classy Class-Based Views</title>
+  <link href="https://ccbv.co.uk/"/>
+  <id>https://ccbv.co.uk/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Django’nun her sınıf tabanlı görünümünü yöntemleri, kalıtım zinciri ve kaynak koduyla gösteren site. Dokümandan farkı hangi yöntemi nerede ezeceğini ve nereden geldiğini görebilmen.</summary>
+</entry>
+<entry>
+  <title>Django Girls Tutorial</title>
+  <link href="https://tutorial.djangogirls.org/en/"/>
+  <id>https://tutorial.djangogirls.org/en/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Django ile bir blog kurdurarak anlatan, atölyeler için yazılmış ama tek başına da izlenebilen adım adım öğretici. Resmî dokümandan farkı programlama bilgisi varsaymaması.</summary>
+</entry>
+<entry>
+  <title>The Flask Mega-Tutorial</title>
+  <link href="https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world"/>
+  <id>https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Miguel Grinberg’in uzun, proje tabanlı Flask öğreticisi: kimlik doğrulama, veritabanı ve yayına alma dahil. Resmî hızlı başlangıçtan farkı tek bir uygulamayı “merhaba dünya”dan üretime kadar götürmesi.</summary>
+</entry>
 <entry>
   <title>Any API</title>
   <link href="https://any-api.com/"/>
@@ -264,26 +285,5 @@
   <id>https://developer.wordpress.org/</id>
   <updated>2026-04-20T13:01:05Z</updated>
   <summary>Eklenti ve tema geliştirme referansı. Kanca (hook) sistemi WordPress’in tamamını açıklayan tek kavram; onu anlamadan hiçbir şey yerine oturmuyor.</summary>
-</entry>
-<entry>
-  <title>Laracasts</title>
-  <link href="https://laracasts.com/"/>
-  <id>https://laracasts.com/</id>
-  <updated>2026-04-20T13:01:04Z</updated>
-  <summary>Laravel ekosisteminin ana video kaynağı. Resmî belgelerden farkı onların anlatmadığı mimari kararları işlemesi; bir ekosistemin eğitimini tek bir sitenin taşıması alışılmadık bir durum.</summary>
-</entry>
-<entry>
-  <title>Laravel</title>
-  <link href="https://laravel.com/docs/13.x"/>
-  <id>https://laravel.com/docs/13.x</id>
-  <updated>2026-04-20T13:01:04Z</updated>
-  <summary>Kuyruk, zamanlayıcı, olay yayını ve test araçları çekirdekte. PHP’nin “eski dil” imajının aksine burada kurulan geliştirici deneyimi çoğu modern çatının üstünde.</summary>
-</entry>
-<entry>
-  <title>PHP: The Right Way</title>
-  <link href="https://phptherightway.com/"/>
-  <id>https://phptherightway.com/</id>
-  <updated>2026-04-20T13:01:04Z</updated>
-  <summary>Güncel PHP pratiklerini derliyor: Composer, PSR standartları, hazırlanmış sorgular. İnternette dolaşan `mysql_*` fonksiyonlu eski örneklerin aksine bugünkü doğru yolu gösteren düzeltici bir metin.</summary>
 </entry>
 </feed>

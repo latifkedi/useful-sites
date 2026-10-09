@@ -5,7 +5,28 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/en/backend.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/backend.xml</id>
-<updated>2026-09-18T00:00:00Z</updated>
+<updated>2026-10-09T09:00:00Z</updated>
+<entry>
+  <title>Classy Class-Based Views</title>
+  <link href="https://ccbv.co.uk/"/>
+  <id>https://ccbv.co.uk/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Shows every Django class-based view with its methods, inheritance chain and source. Unlike the docs it lets you see which method to override and where it comes from.</summary>
+</entry>
+<entry>
+  <title>Django Girls Tutorial</title>
+  <link href="https://tutorial.djangogirls.org/en/"/>
+  <id>https://tutorial.djangogirls.org/en/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>A step-by-step tutorial that builds a blog with Django, written for workshops but followable alone. Unlike the official docs it assumes no programming background.</summary>
+</entry>
+<entry>
+  <title>The Flask Mega-Tutorial</title>
+  <link href="https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world"/>
+  <id>https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Miguel Grinberg’s long, project-based Flask tutorial covering authentication, databases and deployment. Unlike the official quickstart it follows one application from hello-world to production.</summary>
+</entry>
 <entry>
   <title>Any API</title>
   <link href="https://any-api.com/"/>
@@ -264,26 +285,5 @@
   <id>https://developer.wordpress.org/</id>
   <updated>2026-04-20T13:01:05Z</updated>
   <summary>The plugin and theme development reference. The hook system is the one concept that explains all of WordPress, and nothing falls into place until you have it.</summary>
-</entry>
-<entry>
-  <title>Laracasts</title>
-  <link href="https://laracasts.com/"/>
-  <id>https://laracasts.com/</id>
-  <updated>2026-04-20T13:01:04Z</updated>
-  <summary>The main video resource for the Laravel ecosystem. Unlike the official docs, it covers the architectural decisions they leave out; one site carrying an ecosystem’s training is unusual.</summary>
-</entry>
-<entry>
-  <title>Laravel</title>
-  <link href="https://laravel.com/docs/13.x"/>
-  <id>https://laravel.com/docs/13.x</id>
-  <updated>2026-04-20T13:01:04Z</updated>
-  <summary>Queues, scheduler, broadcasting and testing tools live in the core. Against PHP’s dated reputation, the developer experience here is ahead of most modern frameworks.</summary>
-</entry>
-<entry>
-  <title>PHP: The Right Way</title>
-  <link href="https://phptherightway.com/"/>
-  <id>https://phptherightway.com/</id>
-  <updated>2026-04-20T13:01:04Z</updated>
-  <summary>Collects current PHP practice — Composer, PSR standards, prepared statements. Unlike the old `mysql_*` examples still circulating online, it is a corrective showing today’s right way.</summary>
 </entry>
 </feed>

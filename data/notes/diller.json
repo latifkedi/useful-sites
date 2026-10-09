@@ -216,6 +216,19 @@
     "added": 1787182405
   },
   {
+    "url": "https://nedbatchelder.com/text/names.html",
+    "name": "Facts and Myths about Python Names and Values",
+    "tags": [
+      "python",
+      "öğretici",
+      "ücretsiz"
+    ],
+    "tr": "Ned Batchelder’in Python’un ad ve değer modelini anlattığı klasik konuşma metni. Genel öğreticilerden farkı yeni başlayanların çoğu hatasının ardındaki yanlış anlamayı hedeflemesi.",
+    "en": "Ned Batchelder’s classic talk on Python’s model of names and values. Unlike general tutorials it targets the misunderstanding behind most beginner bugs.",
+    "src": "pycrumbs",
+    "added": 1791536400
+  },
+  {
     "url": "https://fortran-lang.org/",
     "name": "Fortran",
     "tags": [
@@ -266,6 +279,19 @@
     "en": "Explains each concept through one annotated program. Unlike the official tour it works as a reference rather than a sequence — where “how do I do that in Go again” gets answered.",
     "src": "kedi",
     "added": 1776690073
+  },
+  {
+    "url": "https://developers.google.com/edu/python/",
+    "name": "Google’s Python Class",
+    "tags": [
+      "python",
+      "öğretici",
+      "ücretsiz"
+    ],
+    "tr": "Google’ın kendi çalışanları için hazırladığı kısa Python dersi: notlar, dersler ve alıştırmalar. Yeni bootcamp’lerden farkı kısa ve doğrudan olması; ilk olarak Python 2 için yazıldığından alıştırmaları güncel Python’a göre denetle.",
+    "en": "Google’s short Python course made for its own staff: notes, lectures and exercises. Unlike newer bootcamps it is brief and direct; it was first written for Python 2, so check the exercises against current Python.",
+    "src": "pycrumbs",
+    "added": 1791536400
   },
   {
     "url": "https://www.haskell.org/",
@@ -491,6 +517,44 @@
     "src": "bwapsv"
   },
   {
+    "url": "https://pycoders.com/",
+    "name": "PyCoder’s Weekly",
+    "tags": [
+      "python",
+      "ücretsiz"
+    ],
+    "tr": "Python haber, makale ve proje bağlantılarını derleyen haftalık e-posta bülteni. Genel akışlardan farkı Python’a odaklı ve elle seçilmiş olması.",
+    "en": "A weekly email newsletter of Python news, articles and projects. Unlike general feeds it is Python-only and hand-picked.",
+    "src": "pycrumbs",
+    "added": 1791536400
+  },
+  {
+    "url": "https://pyinstaller.org/",
+    "name": "PyInstaller",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "cli"
+    ],
+    "tr": "Python uygulamasını yorumlayıcısıyla tek bir çalıştırılabilir dosyaya paketleyen araç (Windows, macOS, Linux). py2exe gibi tek platformlu araçlardan farkı üç sistemi de desteklemesi.",
+    "en": "Bundles a Python application with its interpreter into a single executable for Windows, macOS and Linux. Unlike single-platform tools such as py2exe it covers all three.",
+    "src": "pycrumbs",
+    "added": 1791536400
+  },
+  {
+    "url": "https://pyvideo.org/",
+    "name": "PyVideo",
+    "tags": [
+      "python",
+      "video",
+      "ücretsiz"
+    ],
+    "tr": "Python konferans konuşmalarının (PyCon ve diğerleri) aranabilir dizini. YouTube aramasından farkı etkinliğe ve konuşmacıya göre düzenlenmesi.",
+    "en": "A searchable index of Python conference talks (PyCon and others). Unlike YouTube search it is organised by event and speaker.",
+    "src": "pycrumbs",
+    "added": 1791536400
+  },
+  {
     "url": "https://www.r-project.org/",
     "name": "R",
     "tags": [
@@ -563,6 +627,18 @@
     "src": "awesomeproj"
   },
   {
+    "url": "https://talkpython.fm/",
+    "name": "Talk Python To Me",
+    "tags": [
+      "python",
+      "ücretsiz"
+    ],
+    "tr": "Python, veri bilimi ve yapay zekâ üzerine haftalık podcast; araçların arkasındaki kişilerle söyleşi. Haber bültenlerinden farkı uzun, ayrıntılı konuşmalar olması.",
+    "en": "A weekly podcast on Python, data science and AI, interviewing the people behind the tools. Unlike newsletters it offers long, detailed conversations.",
+    "src": "pycrumbs",
+    "added": 1791536400
+  },
+  {
     "url": "https://guide.bash.academy",
     "name": "The Bash Guide",
     "tags": [
@@ -574,6 +650,19 @@
     "tr": "Bash’i baştan sona, doğru alışkanlıklarla öğreten rehber; tırnaklama ve kelime bölme gibi tuzakları erkenden ele alıyor. Kopyala-yapıştır öğreticilerinden farkı bu — çoğu betik hatası tam olarak o tuzaklardan çıkıyor.",
     "en": "A guide teaching Bash end to end with the right habits, tackling quoting and word splitting early. That is the break from copy-paste tutorials: most script bugs come from exactly those traps.",
     "src": "bwapsv"
+  },
+  {
+    "url": "https://docs.quantifiedcode.com/python-anti-patterns/",
+    "name": "The Little Book of Python Anti-Patterns",
+    "tags": [
+      "python",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Sık yapılan Python hatalarını yanlış ve doğru örneğiyle gösteren kısa kitap. Üslup kılavuzlarından farkı yanlışın neye benzediğini göstermesi.",
+    "en": "A short book of common Python mistakes, each with the wrong and the right form. Unlike style guides it shows what wrong looks like.",
+    "src": "pycrumbs",
+    "added": 1791536400
   },
   {
     "url": "https://github.com/thejameskyle/the-super-tiny-compiler",

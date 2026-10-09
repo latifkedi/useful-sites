@@ -5,7 +5,56 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/diller.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/diller.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/diller.xml</id>
-<updated>2026-09-18T00:00:00Z</updated>
+<updated>2026-10-09T09:00:00Z</updated>
+<entry>
+  <title>Facts and Myths about Python Names and Values</title>
+  <link href="https://nedbatchelder.com/text/names.html"/>
+  <id>https://nedbatchelder.com/text/names.html</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Ned Batchelder’in Python’un ad ve değer modelini anlattığı klasik konuşma metni. Genel öğreticilerden farkı yeni başlayanların çoğu hatasının ardındaki yanlış anlamayı hedeflemesi.</summary>
+</entry>
+<entry>
+  <title>Google’s Python Class</title>
+  <link href="https://developers.google.com/edu/python/"/>
+  <id>https://developers.google.com/edu/python/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Google’ın kendi çalışanları için hazırladığı kısa Python dersi: notlar, dersler ve alıştırmalar. Yeni bootcamp’lerden farkı kısa ve doğrudan olması; ilk olarak Python 2 için yazıldığından alıştırmaları güncel Python’a göre denetle.</summary>
+</entry>
+<entry>
+  <title>PyCoder’s Weekly</title>
+  <link href="https://pycoders.com/"/>
+  <id>https://pycoders.com/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Python haber, makale ve proje bağlantılarını derleyen haftalık e-posta bülteni. Genel akışlardan farkı Python’a odaklı ve elle seçilmiş olması.</summary>
+</entry>
+<entry>
+  <title>PyInstaller</title>
+  <link href="https://pyinstaller.org/"/>
+  <id>https://pyinstaller.org/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Python uygulamasını yorumlayıcısıyla tek bir çalıştırılabilir dosyaya paketleyen araç (Windows, macOS, Linux). py2exe gibi tek platformlu araçlardan farkı üç sistemi de desteklemesi.</summary>
+</entry>
+<entry>
+  <title>PyVideo</title>
+  <link href="https://pyvideo.org/"/>
+  <id>https://pyvideo.org/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Python konferans konuşmalarının (PyCon ve diğerleri) aranabilir dizini. YouTube aramasından farkı etkinliğe ve konuşmacıya göre düzenlenmesi.</summary>
+</entry>
+<entry>
+  <title>Talk Python To Me</title>
+  <link href="https://talkpython.fm/"/>
+  <id>https://talkpython.fm/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Python, veri bilimi ve yapay zekâ üzerine haftalık podcast; araçların arkasındaki kişilerle söyleşi. Haber bültenlerinden farkı uzun, ayrıntılı konuşmalar olması.</summary>
+</entry>
+<entry>
+  <title>The Little Book of Python Anti-Patterns</title>
+  <link href="https://docs.quantifiedcode.com/python-anti-patterns/"/>
+  <id>https://docs.quantifiedcode.com/python-anti-patterns/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Sık yapılan Python hatalarını yanlış ve doğru örneğiyle gösteren kısa kitap. Üslup kılavuzlarından farkı yanlışın neye benzediğini göstermesi.</summary>
+</entry>
 <entry>
   <title>Awesome asyncio</title>
   <link href="https://github.com/timofurrer/awesome-asyncio"/>
@@ -236,54 +285,5 @@
   <id>https://www.youtube.com/user/kudvenkat/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>.NET, C# ve SQL Server konularında uzun ve düzenli ders serileri. Kısa öğreticilerden farkı her serinin bir müfredat gibi ilerlemesi — kurumsal .NET yığınını sıfırdan öğrenmek için.</summary>
-</entry>
-<entry>
-  <title>Learn Python</title>
-  <link href="https://www.learnpython.org"/>
-  <id>https://www.learnpython.org</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Python’ı tarayıcıdaki alıştırmalarla öğreten etkileşimli giriş; kurulum gerektirmiyor. Kitaplardan farkı her bölümün sonunda çalıştırılan bir alıştırma olması — okuduğunun oturduğunu hemen görüyorsun.</summary>
-</entry>
-<entry>
-  <title>Learn Shell</title>
-  <link href="https://learnshell.org"/>
-  <id>https://learnshell.org</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Kabuk betiklerini tarayıcıda çalıştırılabilir alıştırmalarla öğreten giriş. Kabuk kılavuzlarından farkı denemenin bedava olması — kendi makinende `rm` denemeye çekinirken burada takılıp kalmıyorsun.</summary>
-</entry>
-<entry>
-  <title>Let’s Build A Simple Interpreter</title>
-  <link href="https://ruslanspivak.com/lsbasi-part1/"/>
-  <id>https://ruslanspivak.com/lsbasi-part1/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Python ile adım adım yorumlayıcı yazdıran uzun seri; sözcüksel çözümlemeden soyut sözdizimi ağacına kadar her parçayı elle kurduruyor. Crafting Interpreters’tan farkı Python ile, bir Pascal alt kümesi üzerinden ilerlemesi.</summary>
-</entry>
-<entry>
-  <title>PEP 8</title>
-  <link href="https://www.python.org/dev/peps/pep-0008/"/>
-  <id>https://www.python.org/dev/peps/pep-0008/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Python’un resmî üslup kılavuzu; standart kütüphanenin yazımında kullanılan kurallar. Topluluk rehberlerinden farkı bağlayıcı kaynak olması: black ve ruff gibi araçların dayandığı metin bu.</summary>
-</entry>
-<entry>
-  <title>phpize.online</title>
-  <link href="https://phpize.online/"/>
-  <id>https://phpize.online/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>PHP kodunu farklı sürümlerde çalıştırıp yanına MySQL, PostgreSQL veya SQLite bağlayan oyun alanı. Diğer PHP oyun alanlarından farkı veritabanı bağlantısı sunması — sorgu davranışını denemek için sunucu kurmaya gerek kalmıyor.</summary>
-</entry>
-<entry>
-  <title>SICP</title>
-  <link href="https://sarabander.github.io/sicp/html/index.xhtml"/>
-  <id>https://sarabander.github.io/sicp/html/index.xhtml</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Bilgisayar Programlarının Yapısı ve Yorumlanması — MIT’nin klasik ders kitabının okunabilir HTML sürümü. Dil öğreten kitaplardan farkı soyutlama kurmayı öğretmesi; Scheme yalnız araç.</summary>
-</entry>
-<entry>
-  <title>The Bash Guide</title>
-  <link href="https://guide.bash.academy"/>
-  <id>https://guide.bash.academy</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Bash’i baştan sona, doğru alışkanlıklarla öğreten rehber; tırnaklama ve kelime bölme gibi tuzakları erkenden ele alıyor. Kopyala-yapıştır öğreticilerinden farkı bu — çoğu betik hatası tam olarak o tuzaklardan çıkıyor.</summary>
 </entry>
 </feed>

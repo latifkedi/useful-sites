@@ -305,6 +305,19 @@
     "src": "awesomelist"
   },
   {
+    "url": "https://ccbv.co.uk/",
+    "name": "Classy Class-Based Views",
+    "tags": [
+      "python",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Django’nun her sınıf tabanlı görünümünü yöntemleri, kalıtım zinciri ve kaynak koduyla gösteren site. Dokümandan farkı hangi yöntemi nerede ezeceğini ve nereden geldiğini görebilmen.",
+    "en": "Shows every Django class-based view with its methods, inheritance chain and source. Unlike the docs it lets you see which method to override and where it comes from.",
+    "src": "pycrumbs",
+    "added": 1791536400
+  },
+  {
     "url": "https://www.convex.dev/",
     "name": "Convex",
     "tags": [
@@ -330,6 +343,19 @@
     "en": "ORM, migrations, admin panel and authentication out of the box. Unlike Flask it comes batteries-included: it buys you the first week, and pushes back when you want to step outside its shape.",
     "src": "kedi",
     "added": 1776690062
+  },
+  {
+    "url": "https://tutorial.djangogirls.org/en/",
+    "name": "Django Girls Tutorial",
+    "tags": [
+      "python",
+      "öğretici",
+      "ücretsiz"
+    ],
+    "tr": "Django ile bir blog kurdurarak anlatan, atölyeler için yazılmış ama tek başına da izlenebilen adım adım öğretici. Resmî dokümandan farkı programlama bilgisi varsaymaması.",
+    "en": "A step-by-step tutorial that builds a blog with Django, written for workshops but followable alone. Unlike the official docs it assumes no programming background.",
+    "src": "pycrumbs",
+    "added": 1791536400
   },
   {
     "url": "https://expressjs.com/",
@@ -632,6 +658,19 @@
     "en": "Pairs scaling concepts — caching, sharding, queues, CAP — with worked architectures. Unlike short interview guides, it is thorough enough to serve as an architecture vocabulary beyond interviews.",
     "src": "kedi",
     "added": 1775421399
+  },
+  {
+    "url": "https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world",
+    "name": "The Flask Mega-Tutorial",
+    "tags": [
+      "python",
+      "öğretici",
+      "ücretsiz"
+    ],
+    "tr": "Miguel Grinberg’in uzun, proje tabanlı Flask öğreticisi: kimlik doğrulama, veritabanı ve yayına alma dahil. Resmî hızlı başlangıçtan farkı tek bir uygulamayı “merhaba dünya”dan üretime kadar götürmesi.",
+    "en": "Miguel Grinberg’s long, project-based Flask tutorial covering authentication, databases and deployment. Unlike the official quickstart it follows one application from hello-world to production.",
+    "src": "pycrumbs",
+    "added": 1791536400
   },
   {
     "url": "https://webhook.site/",

@@ -299,6 +299,19 @@
     "src": "seccert"
   },
   {
+    "url": "https://github.com/goshs-labs/goshs",
+    "name": "goshs",
+    "tags": [
+      "açık-kaynak",
+      "cli",
+      "go"
+    ],
+    "tr": "Go ile yazılmış, HTTP, WebDAV, FTP/SFTP ve SMB gibi protokolleri destekleyen tek ikili dosya sunucusu. python -m http.server’dan farkı yükleme, kimlik doğrulama ve daha çok protokol sunması; kırmızı takım özellikleri yüzünden yalnız sahibi olduğun sistemlerde kullan.",
+    "en": "A single-binary file server written in Go, supporting HTTP, WebDAV, FTP/SFTP, SMB and more. Unlike python -m http.server it adds uploads, authentication and more protocols; its red-team features mean you should use it only on systems you own.",
+    "src": "favlink",
+    "added": 1791536400
+  },
+  {
     "url": "https://www.hirensbootcd.org/",
     "name": "Hiren's BootCD PE",
     "tags": [
@@ -333,6 +346,19 @@
     "tr": "Junos tabanlı ağ sertifikaları. Cisco programından farkı giriş seviyesi sınavların uzun süredir ücretsiz sunulması ve eğitim materyalinin açık olması — ağ öğrenmenin maliyetsiz yolu.",
     "en": "Junos-based networking certifications. Against Cisco’s programme the entry-level exams have long been offered free and the training material is open — the no-cost route into networking.",
     "src": "seccert"
+  },
+  {
+    "url": "https://github.com/Adembc/lazyssh",
+    "name": "lazyssh",
+    "tags": [
+      "açık-kaynak",
+      "cli",
+      "go"
+    ],
+    "tr": "SSH yapılandırmandaki sunucuları listeleyip bağlandıran terminal arayüzü (Go). ~/.ssh/config dosyasını elle düzenleyip adları hatırlamaktan farkı aranabilir bir liste sunması.",
+    "en": "A terminal UI that lists the hosts in your SSH config and connects to them (Go). Unlike editing ~/.ssh/config by hand and remembering names it gives a searchable list.",
+    "src": "favlink",
+    "added": 1791536400
   },
   {
     "url": "https://labex.io/linuxjourney",
@@ -385,6 +411,19 @@
     "tr": "IP tabanlı, merkezi olmayan bir soğan yönlendirme ağı; trafiği stake edilmiş düğümler üzerinden anonimleştiriyor. Tor’dan farkı yalnız web değil her IP protokolünü taşıması: onion yönlendirmenin üstünde tam bir kaplama ağı, tek uygulama değil.",
     "en": "A decentralised, IP-based onion-routing network that anonymises traffic across staked nodes. Unlike Tor it carries any IP protocol, not just web: a full overlay network on top of onion routing rather than a single application.",
     "src": "lowkwiki"
+  },
+  {
+    "url": "https://github.com/metaspartan/mactop",
+    "name": "mactop",
+    "tags": [
+      "açık-kaynak",
+      "cli",
+      "go"
+    ],
+    "tr": "Apple Silicon için CPU, GPU ve güç tüketimini gösteren terminal izleyicisi. htop’tan farkı Apple’a özgü sensörleri (güç, GPU, sinir motoru) okuması.",
+    "en": "A terminal monitor for Apple Silicon showing CPU, GPU and power use. Unlike htop it reads Apple-specific sensors (power, GPU, neural engine).",
+    "src": "favlink",
+    "added": 1791536400
   },
   {
     "url": "https://mempool.space",
@@ -554,6 +593,19 @@
     "en": "Simulates working a real helpdesk queue — prioritisation, escalation, SLA tracking. Unlike IT support courses that stay theoretical, it has you practise the job.",
     "src": "kedi",
     "added": 1783424672
+  },
+  {
+    "url": "https://github.com/GyulyVGC/sniffnet",
+    "name": "Sniffnet",
+    "tags": [
+      "açık-kaynak",
+      "masaüstü",
+      "rust"
+    ],
+    "tr": "Ağ trafiğini anlaşılır bir arayüzde gösteren çapraz platform uygulama (Rust). Wireshark’tan farkı paket ayrıntısından çok okunabilir bir genel görünüm sunması.",
+    "en": "A cross-platform app that shows network traffic in a friendly interface (Rust). Unlike Wireshark it favours a readable overview over packet-level detail.",
+    "src": "favlink",
+    "added": 1791536400
   },
   {
     "url": "https://tailscale.com/",

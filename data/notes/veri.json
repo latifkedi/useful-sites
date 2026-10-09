@@ -511,6 +511,19 @@
     "added": 1765557477
   },
   {
+    "url": "https://www.kdnuggets.com/",
+    "name": "KDnuggets",
+    "tags": [
+      "ücretsiz",
+      "veri-bilimi",
+      "referans"
+    ],
+    "tr": "Uzun soluklu veri bilimi ve makine öğrenmesi sitesi: haber, öğretici, iş ilanı ve anketler. Araştırma odaklı kaynaklardan farkı pratisyenlere yönelik bir derleme olması.",
+    "en": "A long-running data science and machine learning site: news, tutorials, jobs and polls. Unlike research-oriented sources it is a practitioner’s digest.",
+    "src": "trekhleb",
+    "added": 1791536400
+  },
+  {
     "url": "https://keras.io/",
     "name": "Keras",
     "tags": [
@@ -624,6 +637,20 @@
     "en": "The US national archive of weather, climate, ocean and geophysical data, formerly NCDC. Unlike NASA Earthdata it holds decades-long series of station and observation records rather than imagery — the primary source for past weather.",
     "src": "tafrali",
     "added": 1791450000
+  },
+  {
+    "url": "https://open-meteo.com/",
+    "name": "Open-Meteo",
+    "tags": [
+      "api",
+      "açık-kaynak",
+      "veri-seti",
+      "ücretsiz"
+    ],
+    "tr": "Anahtar gerektirmeyen, ticari olmayan kullanım için ücretsiz açık kaynak hava durumu API’si. Ticari hava API’lerinden farkı kayıt ve anahtar istememesi ve verinin açık olması.",
+    "en": "A free, open-source weather API that needs no key for non-commercial use. Unlike commercial weather APIs it asks for no signup, and its data is open.",
+    "src": "favlink",
+    "added": 1791536400
   },
   {
     "url": "https://opencorporates.com/",
@@ -751,6 +778,20 @@
     "tr": "Araştırma veri depolarının kayıt defteri. Genel arama motorlarından farkı depoları disiplin, erişim koşulu, lisans ve sertifika gibi ölçütlerle sınıflandırması: verini nereye koyacağını seçmek için.",
     "en": "A registry of research-data repositories. Unlike general search engines, it classifies repositories by discipline, access terms, licence and certification — for choosing where to deposit your data.",
     "src": "dsbest"
+  },
+  {
+    "url": "https://lectures.scientific-python.org/",
+    "name": "Scientific Python Lectures",
+    "tags": [
+      "python",
+      "öğretici",
+      "veri-bilimi",
+      "ücretsiz"
+    ],
+    "tr": "NumPy, SciPy ve Matplotlib gibi bilimsel Python araçlarını anlatan ücretsiz ders notları. Tek kütüphane dokümanlarından farkı bunların birbirine nasıl oturduğunu göstermesi.",
+    "en": "Free lecture notes on the scientific Python stack — NumPy, SciPy, Matplotlib. Unlike single-library docs they show how the pieces fit together.",
+    "src": "pycrumbs",
+    "added": 1791536400
   },
   {
     "url": "https://scikit-learn.org/stable/",

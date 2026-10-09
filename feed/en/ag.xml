@@ -5,7 +5,35 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/en/ag.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/ag.xml</id>
-<updated>2026-09-18T00:00:00Z</updated>
+<updated>2026-10-09T09:00:00Z</updated>
+<entry>
+  <title>goshs</title>
+  <link href="https://github.com/goshs-labs/goshs"/>
+  <id>https://github.com/goshs-labs/goshs</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>A single-binary file server written in Go, supporting HTTP, WebDAV, FTP/SFTP, SMB and more. Unlike python -m http.server it adds uploads, authentication and more protocols; its red-team features mean you should use it only on systems you own.</summary>
+</entry>
+<entry>
+  <title>lazyssh</title>
+  <link href="https://github.com/Adembc/lazyssh"/>
+  <id>https://github.com/Adembc/lazyssh</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>A terminal UI that lists the hosts in your SSH config and connects to them (Go). Unlike editing ~/.ssh/config by hand and remembering names it gives a searchable list.</summary>
+</entry>
+<entry>
+  <title>mactop</title>
+  <link href="https://github.com/metaspartan/mactop"/>
+  <id>https://github.com/metaspartan/mactop</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>A terminal monitor for Apple Silicon showing CPU, GPU and power use. Unlike htop it reads Apple-specific sensors (power, GPU, neural engine).</summary>
+</entry>
+<entry>
+  <title>Sniffnet</title>
+  <link href="https://github.com/GyulyVGC/sniffnet"/>
+  <id>https://github.com/GyulyVGC/sniffnet</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>A cross-platform app that shows network traffic in a friendly interface (Rust). Unlike Wireshark it favours a readable overview over packet-level detail.</summary>
+</entry>
 <entry>
   <title>Awesome Arch</title>
   <link href="https://github.com/PandaFoss/Awesome-Arch"/>
@@ -257,33 +285,5 @@
   <id>https://www.cozumpark.com/</id>
   <updated>2026-07-27T11:13:16Z</updated>
   <summary>A Turkish sysadmin community and article archive with real depth on Active Directory, Exchange and virtualisation. Unlike official English docs such as Microsoft Learn, it covers local scenarios in Turkish, from the field.</summary>
-</entry>
-<entry>
-  <title>ServiceDesk Simulator</title>
-  <link href="https://servicedesk-simulator.com/"/>
-  <id>https://servicedesk-simulator.com/</id>
-  <updated>2026-07-07T11:44:32Z</updated>
-  <summary>Simulates working a real helpdesk queue — prioritisation, escalation, SLA tracking. Unlike IT support courses that stay theoretical, it has you practise the job.</summary>
-</entry>
-<entry>
-  <title>Cisco SG500-52P Kurulumu</title>
-  <link href="https://www.firewall.cx/cisco/cisco-switches/cisco-switches-sg500-52p.html"/>
-  <id>https://www.firewall.cx/cisco/cisco-switches/cisco-switches-sg500-52p.html</id>
-  <updated>2026-07-02T07:38:48Z</updated>
-  <summary>First-time setup of one specific switch model, screenshot by screenshot. Unlike the official manual, it shows the practical details that manual skips.</summary>
-</entry>
-<entry>
-  <title>Cisco SG500 Serisi</title>
-  <link href="https://www.firewall.cx/downloads/cisco-product-datasheets-a-guides/cisco-sg500-series-switches.html"/>
-  <id>https://www.firewall.cx/downloads/cisco-product-datasheets-a-guides/cisco-sg500-series-switches.html</id>
-  <updated>2026-07-02T07:37:07Z</updated>
-  <summary>Datasheets for the SG500 series. Unlike a single model’s manual, they compare port counts, PoE budgets and stacking support — the differences you need when buying second-hand.</summary>
-</entry>
-<entry>
-  <title>Active@ Disk Image</title>
-  <link href="https://www.disk-image.com/index.html"/>
-  <id>https://www.disk-image.com/index.html</id>
-  <updated>2026-07-01T11:42:32Z</updated>
-  <summary>Takes and restores sector-level disk images. Unlike file backup it copies everything bit for bit, operating system and boot record included.</summary>
 </entry>
 </feed>

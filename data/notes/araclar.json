@@ -57,6 +57,30 @@
     "src": "awesomelist"
   },
   {
+    "url": "https://github.com/ChrisTitusTech/winutil",
+    "name": "Chris Titus Tech WinUtil",
+    "tags": [
+      "açık-kaynak",
+      "masaüstü"
+    ],
+    "tr": "Windows’a program kurma, ayar yapma ve onarım için Chris Titus’un PowerShell aracı. Elle kayıt defteri düzenleyen rehberlerden farkı bunları onay kutuları olarak sunması — her ayar betiği gibi çalıştırmadan önce okunmalı.",
+    "en": "Chris Titus’s PowerShell tool for installing programs, applying tweaks and fixing Windows. Unlike registry-editing guides it offers them as checkboxes — and like any tweak script it should be read before it is run.",
+    "src": "favlink",
+    "added": 1791536400
+  },
+  {
+    "url": "https://github.com/kepano/defuddle",
+    "name": "Defuddle",
+    "tags": [
+      "açık-kaynak",
+      "javascript"
+    ],
+    "tr": "Bir web sayfasının ana içeriğini temiz Markdown olarak çıkaran kütüphane. Düz HTML’den Markdown’a çevirmeden farkı önce gezinme ve gürültüyü ayıklaması.",
+    "en": "A library that extracts a web page’s main content as clean Markdown. Unlike a plain HTML-to-Markdown conversion it first strips navigation and clutter.",
+    "src": "favlink",
+    "added": 1791536400
+  },
+  {
     "url": "https://www.voidtools.com/",
     "name": "Everything",
     "tags": [
@@ -123,6 +147,30 @@
     "src": "awesomeproj"
   },
   {
+    "url": "https://littlelink.io/",
+    "name": "LittleLink",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Açık kaynaklı, kendin barındırdığın “biyografide bağlantı” sayfası: markalı düğmelerle tek bir küçük HTML/CSS sayfası. Linktree’den farkı ücretsiz ve hesapsız olması — bir dosyayı düzenleyip yayınlıyorsun.",
+    "en": "An open-source link-in-bio page you host yourself: one small HTML/CSS page with branded buttons. Unlike Linktree it costs nothing and needs no account — you edit a file and deploy it.",
+    "src": "littlelink",
+    "added": 1791536400
+  },
+  {
+    "url": "https://builder.littlelink.io/",
+    "name": "LittleLink Button Builder",
+    "tags": [
+      "ücretsiz",
+      "tarayıcı-içi"
+    ],
+    "tr": "LittleLink sayfaları için markalı bağlantı düğmeleri üreten araç. Düğmeleri elle çizmekten farkı hazır renk ve simgeyle çalışması.",
+    "en": "A tool for making branded link buttons for LittleLink pages. Unlike drawing buttons by hand it works from ready colours and logos.",
+    "src": "littlelink",
+    "added": 1791536400
+  },
+  {
     "url": "https://www.macrodroid.com/",
     "name": "MacroDroid",
     "tags": [
@@ -155,6 +203,18 @@
     "tr": "Not, wiki, veritabanı ve proje panosunu tek çalışma alanında birleştiren araç. Obsidian’dan farkı bulutta ve ekip odaklı olması; karşılığında veriler yerel dosya değil, çevrimdışı çalışma sınırlı.",
     "en": "A tool combining notes, wikis, databases and project boards in one workspace. Unlike Obsidian it is cloud-based and team-oriented; in exchange your data is not local files and offline use is limited.",
     "src": "awesomeproj"
+  },
+  {
+    "url": "https://github.com/dortania/OpenCore-Legacy-Patcher",
+    "name": "OpenCore Legacy Patcher",
+    "tags": [
+      "açık-kaynak",
+      "masaüstü"
+    ],
+    "tr": "Apple’ın artık desteklemediği Mac’lere yeni macOS kurmaya yarayan araç. Son resmî sürümde kalmaktan farkı yeni sürümleri almak; bedeli desteklenmeyen donanım tuhaflıkları — hangi Mac ve sürümleri desteklediğini projeden kontrol et.",
+    "en": "A tool for installing recent macOS on Macs Apple no longer supports. Unlike staying on the last official release you get new versions; the cost is unsupported-hardware quirks — check the project for which Macs and versions it currently covers.",
+    "src": "favlink",
+    "added": 1791536400
   },
   {
     "url": "https://pastebin.com",

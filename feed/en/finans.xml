@@ -5,7 +5,98 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/en/finans.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/en/finans.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/finans.xml</id>
-<updated>2026-09-18T00:00:00Z</updated>
+<updated>2026-10-09T09:00:00Z</updated>
+<entry>
+  <title>Bitcoin Developer Documentation</title>
+  <link href="https://developer.bitcoin.org/"/>
+  <id>https://developer.bitcoin.org/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>A developer guide and reference for building on Bitcoin: transactions, RPC and the P2P network. Unlike the white paper it is practical documentation.</summary>
+</entry>
+<entry>
+  <title>Bitcoin Stack Exchange</title>
+  <link href="https://bitcoin.stackexchange.com/"/>
+  <id>https://bitcoin.stackexchange.com/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>A Q&amp;A site for Bitcoin users and developers. Unlike forums, answers are voted and edited, so the good one rises to the top.</summary>
+</entry>
+<entry>
+  <title>Bitcoin Whitepaper</title>
+  <link href="https://bitcoin.org/bitcoin.pdf"/>
+  <id>https://bitcoin.org/bitcoin.pdf</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>The nine-page paper that introduced Bitcoin. Unlike secondary explanations it is the source: short, readable, and the text every later claim should be checked against.</summary>
+</entry>
+<entry>
+  <title>Bitcoin Wiki</title>
+  <link href="https://en.bitcoin.it/wiki/Main_Page"/>
+  <id>https://en.bitcoin.it/wiki/Main_Page</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>The community wiki on how Bitcoin works: protocol, script, history. Unlike news sites it is a maintained reference, not dated articles.</summary>
+</entry>
+<entry>
+  <title>CCXT</title>
+  <link href="https://github.com/ccxt/ccxt"/>
+  <id>https://github.com/ccxt/ccxt</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>A library giving one API over more than a hundred crypto exchanges (JavaScript, Python, PHP and others). Unlike each exchange’s own SDK you write once and switch exchange freely.</summary>
+</entry>
+<entry>
+  <title>CoinCap</title>
+  <link href="https://coincap.io/"/>
+  <id>https://coincap.io/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Crypto prices and market-cap rankings, with the data also available through a free API. Unlike busier trackers it is a plain table with direct data access.</summary>
+</entry>
+<entry>
+  <title>CoinDesk</title>
+  <link href="https://www.coindesk.com/"/>
+  <id>https://www.coindesk.com/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>A crypto and blockchain news site with market data and analysis. Unlike aggregators such as CryptoPanic it does its own reporting.</summary>
+</entry>
+<entry>
+  <title>CryptoPanic</title>
+  <link href="https://cryptopanic.com/"/>
+  <id>https://cryptopanic.com/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>A crypto news aggregator that marks headlines by their expected effect on price. Unlike a single news site it gathers many sources into one feed.</summary>
+</entry>
+<entry>
+  <title>Electrum</title>
+  <link href="https://electrum.org/"/>
+  <id>https://electrum.org/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>A lightweight open-source Bitcoin wallet, developed since 2011. Unlike full-node wallets it does not download the chain — you gain speed and trade some trust in servers for it.</summary>
+</entry>
+<entry>
+  <title>Ethplorer</title>
+  <link href="https://ethplorer.io/"/>
+  <id>https://ethplorer.io/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>An Ethereum token explorer: holders, transfers and token pages. Unlike Etherscan it centres on tokens and their holder distribution.</summary>
+</entry>
+<entry>
+  <title>MetaMask</title>
+  <link href="https://metamask.io/"/>
+  <id>https://metamask.io/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>The most widely used browser-extension wallet for Ethereum-compatible networks. Unlike hardware wallets the keys live in software on your device: convenient, but only as safe as your machine.</summary>
+</entry>
+<entry>
+  <title>OpenZeppelin</title>
+  <link href="https://www.openzeppelin.com/"/>
+  <id>https://www.openzeppelin.com/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Audited smart-contract libraries and security tooling for Solidity. Unlike writing token or access-control contracts yourself, they are building blocks tested in wide use.</summary>
+</entry>
+<entry>
+  <title>WhatToMine</title>
+  <link href="https://whattomine.com/"/>
+  <id>https://whattomine.com/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>A calculator comparing the profitability of GPU-mineable coins from your hashrate, power draw and electricity price. Unlike general price trackers it computes mining profit directly.</summary>
+</entry>
 <entry>
   <title>Awesome AI in Finance</title>
   <link href="https://github.com/georgezouq/awesome-ai-in-finance"/>
@@ -194,12 +285,5 @@
   <id>https://finance.yahoo.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Quotes, financials and portfolio tracking, with free historical price downloads. Unlike paid terminals its free coverage is broad; the trade-off is that the data is mostly delayed.</summary>
-</entry>
-<entry>
-  <title>Learn Me a Bitcoin</title>
-  <link href="https://learnmeabitcoin.com/"/>
-  <id>https://learnmeabitcoin.com/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Explains Bitcoin’s technical workings — transaction structure, script, mining — through worked examples. Against the whitepaper it is concrete: real transactions pulled apart byte by byte.</summary>
 </entry>
 </feed>

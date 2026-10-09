@@ -5,7 +5,35 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/ag.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/ag.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/ag.xml</id>
-<updated>2026-09-18T00:00:00Z</updated>
+<updated>2026-10-09T09:00:00Z</updated>
+<entry>
+  <title>goshs</title>
+  <link href="https://github.com/goshs-labs/goshs"/>
+  <id>https://github.com/goshs-labs/goshs</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Go ile yazılmış, HTTP, WebDAV, FTP/SFTP ve SMB gibi protokolleri destekleyen tek ikili dosya sunucusu. python -m http.server’dan farkı yükleme, kimlik doğrulama ve daha çok protokol sunması; kırmızı takım özellikleri yüzünden yalnız sahibi olduğun sistemlerde kullan.</summary>
+</entry>
+<entry>
+  <title>lazyssh</title>
+  <link href="https://github.com/Adembc/lazyssh"/>
+  <id>https://github.com/Adembc/lazyssh</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>SSH yapılandırmandaki sunucuları listeleyip bağlandıran terminal arayüzü (Go). ~/.ssh/config dosyasını elle düzenleyip adları hatırlamaktan farkı aranabilir bir liste sunması.</summary>
+</entry>
+<entry>
+  <title>mactop</title>
+  <link href="https://github.com/metaspartan/mactop"/>
+  <id>https://github.com/metaspartan/mactop</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Apple Silicon için CPU, GPU ve güç tüketimini gösteren terminal izleyicisi. htop’tan farkı Apple’a özgü sensörleri (güç, GPU, sinir motoru) okuması.</summary>
+</entry>
+<entry>
+  <title>Sniffnet</title>
+  <link href="https://github.com/GyulyVGC/sniffnet"/>
+  <id>https://github.com/GyulyVGC/sniffnet</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Ağ trafiğini anlaşılır bir arayüzde gösteren çapraz platform uygulama (Rust). Wireshark’tan farkı paket ayrıntısından çok okunabilir bir genel görünüm sunması.</summary>
+</entry>
 <entry>
   <title>Awesome Arch</title>
   <link href="https://github.com/PandaFoss/Awesome-Arch"/>
@@ -257,33 +285,5 @@
   <id>https://www.cozumpark.com/</id>
   <updated>2026-07-27T11:13:16Z</updated>
   <summary>Türkçe sistem yöneticiliği topluluğu ve makale arşivi; Active Directory, Exchange ve sanallaştırma tarafında derinlik var. Microsoft Learn gibi resmî İngilizce belgelerden farkı yerel senaryoları Türkçe ve sahadan anlatması.</summary>
-</entry>
-<entry>
-  <title>ServiceDesk Simulator</title>
-  <link href="https://servicedesk-simulator.com/"/>
-  <id>https://servicedesk-simulator.com/</id>
-  <updated>2026-07-07T11:44:32Z</updated>
-  <summary>Gerçek yardım masası biletleriyle çalışmayı simüle ediyor: önceliklendirme, tırmandırma, SLA takibi. Teoride kalan IT destek kurslarının aksine işin pratiğini yaptırıyor.</summary>
-</entry>
-<entry>
-  <title>Cisco SG500-52P Kurulumu</title>
-  <link href="https://www.firewall.cx/cisco/cisco-switches/cisco-switches-sg500-52p.html"/>
-  <id>https://www.firewall.cx/cisco/cisco-switches/cisco-switches-sg500-52p.html</id>
-  <updated>2026-07-02T07:38:48Z</updated>
-  <summary>Belirli bir anahtar modelinin ilk kurulumu, ekran görüntüleriyle adım adım. Resmî kılavuzdan farkı onun atladığı pratik ayrıntıları göstermesi.</summary>
-</entry>
-<entry>
-  <title>Cisco SG500 Serisi</title>
-  <link href="https://www.firewall.cx/downloads/cisco-product-datasheets-a-guides/cisco-sg500-series-switches.html"/>
-  <id>https://www.firewall.cx/downloads/cisco-product-datasheets-a-guides/cisco-sg500-series-switches.html</id>
-  <updated>2026-07-02T07:37:07Z</updated>
-  <summary>SG500 serisinin teknik veri sayfaları. Tek bir modelin kılavuzundan farkı port sayısı, PoE bütçesi ve yığınlama desteğini karşılaştırmalı vermesi — ikinci el alırken model farklarını bilmek gerekiyor.</summary>
-</entry>
-<entry>
-  <title>Active@ Disk Image</title>
-  <link href="https://www.disk-image.com/index.html"/>
-  <id>https://www.disk-image.com/index.html</id>
-  <updated>2026-07-01T11:42:32Z</updated>
-  <summary>Sektör bazında disk imajı alıp geri yüklüyor; dosya yedeklemesinden farkı, işletim sistemi ve önyükleme kaydı dahil her şeyi bire bir kopyalaması.</summary>
 </entry>
 </feed>

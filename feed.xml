@@ -5,325 +5,325 @@
 <link href="https://latifkedi.github.io/useful-sites/feed.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/"/>
 <id>https://latifkedi.github.io/useful-sites/</id>
-<updated>2026-10-08T09:00:00Z</updated>
+<updated>2026-10-09T09:00:00Z</updated>
 <entry>
-  <title>CIA World Factbook</title>
-  <link href="https://www.cia.gov/the-world-factbook/"/>
-  <id>https://www.cia.gov/the-world-factbook/</id>
-  <updated>2026-10-08T09:00:00Z</updated>
+  <title>Facts and Myths about Python Names and Values</title>
+  <link href="https://nedbatchelder.com/text/names.html"/>
+  <id>https://nedbatchelder.com/text/names.html</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Ned Batchelder’in Python’un ad ve değer modelini anlattığı klasik konuşma metni. Genel öğreticilerden farkı yeni başlayanların çoğu hatasının ardındaki yanlış anlamayı hedeflemesi.</summary>
+</entry>
+<entry>
+  <title>Google’s Python Class</title>
+  <link href="https://developers.google.com/edu/python/"/>
+  <id>https://developers.google.com/edu/python/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Google’ın kendi çalışanları için hazırladığı kısa Python dersi: notlar, dersler ve alıştırmalar. Yeni bootcamp’lerden farkı kısa ve doğrudan olması; ilk olarak Python 2 için yazıldığından alıştırmaları güncel Python’a göre denetle.</summary>
+</entry>
+<entry>
+  <title>PyCoder’s Weekly</title>
+  <link href="https://pycoders.com/"/>
+  <id>https://pycoders.com/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Python haber, makale ve proje bağlantılarını derleyen haftalık e-posta bülteni. Genel akışlardan farkı Python’a odaklı ve elle seçilmiş olması.</summary>
+</entry>
+<entry>
+  <title>PyInstaller</title>
+  <link href="https://pyinstaller.org/"/>
+  <id>https://pyinstaller.org/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Python uygulamasını yorumlayıcısıyla tek bir çalıştırılabilir dosyaya paketleyen araç (Windows, macOS, Linux). py2exe gibi tek platformlu araçlardan farkı üç sistemi de desteklemesi.</summary>
+</entry>
+<entry>
+  <title>PyVideo</title>
+  <link href="https://pyvideo.org/"/>
+  <id>https://pyvideo.org/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Python konferans konuşmalarının (PyCon ve diğerleri) aranabilir dizini. YouTube aramasından farkı etkinliğe ve konuşmacıya göre düzenlenmesi.</summary>
+</entry>
+<entry>
+  <title>Talk Python To Me</title>
+  <link href="https://talkpython.fm/"/>
+  <id>https://talkpython.fm/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Python, veri bilimi ve yapay zekâ üzerine haftalık podcast; araçların arkasındaki kişilerle söyleşi. Haber bültenlerinden farkı uzun, ayrıntılı konuşmalar olması.</summary>
+</entry>
+<entry>
+  <title>The Little Book of Python Anti-Patterns</title>
+  <link href="https://docs.quantifiedcode.com/python-anti-patterns/"/>
+  <id>https://docs.quantifiedcode.com/python-anti-patterns/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Sık yapılan Python hatalarını yanlış ve doğru örneğiyle gösteren kısa kitap. Üslup kılavuzlarından farkı yanlışın neye benzediğini göstermesi.</summary>
+</entry>
+<entry>
+  <title>cargo-binstall</title>
+  <link href="https://github.com/cargo-bins/cargo-binstall"/>
+  <id>https://github.com/cargo-bins/cargo-binstall</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="C, C++ &amp; Rust"/>
+  <summary>Rust araçlarını derlemek yerine hazır ikili dosyadan kuran cargo eklentisi. cargo install’dan farkı dakikalar yerine saniyeler sürmesi.</summary>
+</entry>
+<entry>
+  <title>ni</title>
+  <link href="https://github.com/antfu-collective/ni"/>
+  <id>https://github.com/antfu-collective/ni</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Web &amp; Frontend"/>
+  <summary>Her projede kilit dosyasına bakıp npm, yarn, pnpm ya da bun’u kendisi seçen tek komut. Hangi yöneticinin kullanıldığını hatırlamaktan farkı her yerde aynı komutu yazman.</summary>
+</entry>
+<entry>
+  <title>Classy Class-Based Views</title>
+  <link href="https://ccbv.co.uk/"/>
+  <id>https://ccbv.co.uk/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Backend, API &amp; Sistem Tasarımı"/>
+  <summary>Django’nun her sınıf tabanlı görünümünü yöntemleri, kalıtım zinciri ve kaynak koduyla gösteren site. Dokümandan farkı hangi yöntemi nerede ezeceğini ve nereden geldiğini görebilmen.</summary>
+</entry>
+<entry>
+  <title>Django Girls Tutorial</title>
+  <link href="https://tutorial.djangogirls.org/en/"/>
+  <id>https://tutorial.djangogirls.org/en/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Backend, API &amp; Sistem Tasarımı"/>
+  <summary>Django ile bir blog kurdurarak anlatan, atölyeler için yazılmış ama tek başına da izlenebilen adım adım öğretici. Resmî dokümandan farkı programlama bilgisi varsaymaması.</summary>
+</entry>
+<entry>
+  <title>The Flask Mega-Tutorial</title>
+  <link href="https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world"/>
+  <id>https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Backend, API &amp; Sistem Tasarımı"/>
+  <summary>Miguel Grinberg’in uzun, proje tabanlı Flask öğreticisi: kimlik doğrulama, veritabanı ve yayına alma dahil. Resmî hızlı başlangıçtan farkı tek bir uygulamayı “merhaba dünya”dan üretime kadar götürmesi.</summary>
+</entry>
+<entry>
+  <title>Atlantis</title>
+  <link href="https://github.com/ProxymanApp/atlantis"/>
+  <id>https://github.com/ProxymanApp/atlantis</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Mobil &amp; Masaüstü"/>
+  <summary>iOS uygulamasının HTTP/HTTPS ve WebSocket trafiğini proxy ayarı yapmadan Proxyman’a aktaran Swift çerçevesi. Proxy kurup sertifika yüklemekten farkı uygulamaya bir çerçeve eklemenin yetmesi.</summary>
+</entry>
+<entry>
+  <title>Kivy</title>
+  <link href="https://kivy.org/"/>
+  <id>https://kivy.org/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Mobil &amp; Masaüstü"/>
+  <summary>Çoklu dokunma destekli arayüzler için Python çatısı; masaüstü ve mobilde tek kod tabanı. Tkinter’den farkı dokunmatik ve mobili hedeflemesi.</summary>
+</entry>
+<entry>
+  <title>Obtainium</title>
+  <link href="https://github.com/ImranR98/Obtainium"/>
+  <id>https://github.com/ImranR98/Obtainium</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Mobil &amp; Masaüstü"/>
+  <summary>Android uygulamalarını doğrudan yayın sayfalarından (GitHub, GitLab, F-Droid ve diğerleri) kurup güncelleyen uygulama. Mağaza güncellemelerinden farkı geliştiricinin kendi sürümünü izlemesi.</summary>
+</entry>
+<entry>
+  <title>Python Challenge</title>
+  <link href="https://www.pythonchallenge.com/"/>
+  <id>https://www.pythonchallenge.com/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Pratik &amp; Alıştırma"/>
+  <summary>Her seviyesi biraz Python ile çözülen bir bilmece oyunu. Alıştırma sitelerinden farkı her bulmacanın bir sonrakinin adresini gizlemesi — çözmeden ilerlenmiyor.</summary>
+</entry>
+<entry>
+  <title>Python Koans</title>
+  <link href="https://github.com/gregmalcolm/python_koans"/>
+  <id>https://github.com/gregmalcolm/python_koans</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Pratik &amp; Alıştırma"/>
+  <summary>Python’u “koan” adı verilen başarısız testleri tek tek geçirerek öğreten depo. Öğretici okumaktan farkı gerçek testleri düzeltmen: geri bildirim anında geliyor.</summary>
+</entry>
+<entry>
+  <title>Pytudes</title>
+  <link href="https://github.com/norvig/pytudes"/>
+  <id>https://github.com/norvig/pytudes</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Pratik &amp; Alıştırma"/>
+  <summary>Peter Norvig’in bulmaca, algoritma ve dil işleme üzerine kısa Python programları ve not defterleri. Alıştırma sitelerinden farkı her birinin bir uzmanın gerekçesiyle anlatılmış çözümü olması.</summary>
+</entry>
+<entry>
+  <title>Snakify</title>
+  <link href="https://snakify.org/en/"/>
+  <id>https://snakify.org/en/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Pratik &amp; Alıştırma"/>
+  <summary>Yüzü aşkın alıştırmalı, tarayıcıda kod yazılan Python 3 kursu. Video kurslardan farkı bir denetleyicinin çözümünü anında doğrulaması.</summary>
+</entry>
+<entry>
+  <title>There’s An AI For That</title>
+  <link href="https://theresanaiforthat.com/"/>
+  <id>https://theresanaiforthat.com/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="YZ · Uygulama Araçları"/>
+  <summary>Yapay zekâ araçlarının göreve göre sıralandığı büyük dizin; en yeniler başta. Şirket bazlı listelerden farkı “ne yapmak istiyorum?” sorusundan başlaması; kalite değişken, birçok kayıt ince sarmalayıcı.</summary>
+</entry>
+<entry>
+  <title>goshs</title>
+  <link href="https://github.com/goshs-labs/goshs"/>
+  <id>https://github.com/goshs-labs/goshs</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Ağ &amp; Sistem Yönetimi"/>
+  <summary>Go ile yazılmış, HTTP, WebDAV, FTP/SFTP ve SMB gibi protokolleri destekleyen tek ikili dosya sunucusu. python -m http.server’dan farkı yükleme, kimlik doğrulama ve daha çok protokol sunması; kırmızı takım özellikleri yüzünden yalnız sahibi olduğun sistemlerde kullan.</summary>
+</entry>
+<entry>
+  <title>lazyssh</title>
+  <link href="https://github.com/Adembc/lazyssh"/>
+  <id>https://github.com/Adembc/lazyssh</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Ağ &amp; Sistem Yönetimi"/>
+  <summary>SSH yapılandırmandaki sunucuları listeleyip bağlandıran terminal arayüzü (Go). ~/.ssh/config dosyasını elle düzenleyip adları hatırlamaktan farkı aranabilir bir liste sunması.</summary>
+</entry>
+<entry>
+  <title>mactop</title>
+  <link href="https://github.com/metaspartan/mactop"/>
+  <id>https://github.com/metaspartan/mactop</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Ağ &amp; Sistem Yönetimi"/>
+  <summary>Apple Silicon için CPU, GPU ve güç tüketimini gösteren terminal izleyicisi. htop’tan farkı Apple’a özgü sensörleri (güç, GPU, sinir motoru) okuması.</summary>
+</entry>
+<entry>
+  <title>Sniffnet</title>
+  <link href="https://github.com/GyulyVGC/sniffnet"/>
+  <id>https://github.com/GyulyVGC/sniffnet</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Ağ &amp; Sistem Yönetimi"/>
+  <summary>Ağ trafiğini anlaşılır bir arayüzde gösteren çapraz platform uygulama (Rust). Wireshark’tan farkı paket ayrıntısından çok okunabilir bir genel görünüm sunması.</summary>
+</entry>
+<entry>
+  <title>LinkStack</title>
+  <link href="https://github.com/LinkStackOrg/LinkStack"/>
+  <id>https://github.com/LinkStackOrg/LinkStack</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Öz-Barındırma &amp; Kişisel Bulut"/>
+  <summary>Yönetim paneli olan, kendi sunucunda çalışan “biyografide bağlantı” platformu (PHP). LittleLink’ten (elle düzenlenen statik sayfa) farkı kullanıcı hesapları ve web üzerinden düzenleyici eklemesi.</summary>
+</entry>
+<entry>
+  <title>PythonAnywhere</title>
+  <link href="https://www.pythonanywhere.com/"/>
+  <id>https://www.pythonanywhere.com/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Öz-Barındırma &amp; Kişisel Bulut"/>
+  <summary>Python uygulamalarını barındıran ve tarayıcıda konsol sunan bulut hizmeti; ücretsiz katmanı var. Genel PaaS’lerden farkı yalnız Python için kurulması ve kurulum gerektirmeden tarayıcıda çalışması.</summary>
+</entry>
+<entry>
+  <title>KDnuggets</title>
+  <link href="https://www.kdnuggets.com/"/>
+  <id>https://www.kdnuggets.com/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
   <category term="Veri Bilimi &amp; Makine Öğrenmesi"/>
-  <summary>Her ülke için coğrafya, nüfus, ekonomi, hükûmet ve askerî göstergeleri tek tip sayfalarda veren başvuru kaynağı; kamu malı. Wikipedia ülke maddelerinden farkı her ülkede aynı alanların aynı sırayla bulunması, böylece ülkeleri karşılaştırmak kolay. Kaynak bir istihbarat kurumu, yorum içeren alanlarda bunu akılda tut.</summary>
+  <summary>Uzun soluklu veri bilimi ve makine öğrenmesi sitesi: haber, öğretici, iş ilanı ve anketler. Araştırma odaklı kaynaklardan farkı pratisyenlere yönelik bir derleme olması.</summary>
 </entry>
 <entry>
-  <title>Data Commons</title>
-  <link href="https://datacommons.org/"/>
-  <id>https://datacommons.org/</id>
-  <updated>2026-10-08T09:00:00Z</updated>
+  <title>Open-Meteo</title>
+  <link href="https://open-meteo.com/"/>
+  <id>https://open-meteo.com/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
   <category term="Veri Bilimi &amp; Makine Öğrenmesi"/>
-  <summary>Google destekli, Census, WHO, BM ve onlarca kaynağın istatistiğini tek bir bilgi grafiğinde birleştiren proje; doğal dille sorgulanıyor ve API’si var. Tek tek kurum portallarından farkı farklı kaynaklı serileri tek sorguda yan yana getirmesi. Google’ın eski Public Data Explorer adresi buraya yönleniyor.</summary>
+  <summary>Anahtar gerektirmeyen, ticari olmayan kullanım için ücretsiz açık kaynak hava durumu API’si. Ticari hava API’lerinden farkı kayıt ve anahtar istememesi ve verinin açık olması.</summary>
 </entry>
 <entry>
-  <title>Google Cloud Public Datasets</title>
-  <link href="https://cloud.google.com/datasets"/>
-  <id>https://cloud.google.com/datasets</id>
-  <updated>2026-10-08T09:00:00Z</updated>
+  <title>Scientific Python Lectures</title>
+  <link href="https://lectures.scientific-python.org/"/>
+  <id>https://lectures.scientific-python.org/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
   <category term="Veri Bilimi &amp; Makine Öğrenmesi"/>
-  <summary>BigQuery içinde duran kamuya açık veri kümeleri: GitHub, Wikipedia, hava durumu, nüfus sayımı. AWS Open Data Registry’den farkı verinin dosya olarak değil SQL ile sorgulanacak tablo olarak sunulması; aylık ücretsiz sorgu kotası içinde indirmeden çalışabiliyorsun.</summary>
+  <summary>NumPy, SciPy ve Matplotlib gibi bilimsel Python araçlarını anlatan ücretsiz ders notları. Tek kütüphane dokümanlarından farkı bunların birbirine nasıl oturduğunu göstermesi.</summary>
 </entry>
 <entry>
-  <title>Google Trends</title>
-  <link href="https://trends.google.com/trends/"/>
-  <id>https://trends.google.com/trends/</id>
-  <updated>2026-10-08T09:00:00Z</updated>
-  <category term="Veri Bilimi &amp; Makine Öğrenmesi"/>
-  <summary>Arama ilgisinin zaman ve bölge içinde nasıl değiştiğini gösteren araç. Anahtar kelime planlayıcılarından farkı mutlak arama sayısı değil 0–100 arası göreli bir endeks vermesi; toplumsal ilgiyi, mevsimselliği ve yükselen konuları ölçmek için kullanışlı.</summary>
+  <title>Bitcoin Developer Documentation</title>
+  <link href="https://developer.bitcoin.org/"/>
+  <id>https://developer.bitcoin.org/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Finans, Piyasa &amp; Kripto"/>
+  <summary>Bitcoin üzerine uygulama geliştirmek için işlemler, RPC ve P2P ağını anlatan geliştirici kılavuzu ve başvurusu. Teknik makaleden farkı uygulamaya dönük belge olması.</summary>
 </entry>
 <entry>
-  <title>NASA Earthdata</title>
-  <link href="https://www.earthdata.nasa.gov/"/>
-  <id>https://www.earthdata.nasa.gov/</id>
-  <updated>2026-10-08T09:00:00Z</updated>
-  <category term="Veri Bilimi &amp; Makine Öğrenmesi"/>
-  <summary>NASA’nın uydu ve yer gözlemi verilerini tek kapıdan sunan portal; yağıştan buz örtüsüne, bitki örtüsünden atmosfere kadar. NOAA’nın yer istasyonu kayıtlarından farkı uzaydan alınan görüntü ve ölçümlere dayanması; indirmek için ücretsiz bir Earthdata hesabı gerekiyor.</summary>
+  <title>Bitcoin Stack Exchange</title>
+  <link href="https://bitcoin.stackexchange.com/"/>
+  <id>https://bitcoin.stackexchange.com/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Finans, Piyasa &amp; Kripto"/>
+  <summary>Bitcoin kullanıcıları ve geliştiricileri için soru-cevap sitesi. Forumlardan farkı cevapların oylanıp düzenlenmesi, böylece iyi cevap üste çıkıyor.</summary>
 </entry>
 <entry>
-  <title>NOAA NCEI</title>
-  <link href="https://www.ncei.noaa.gov/"/>
-  <id>https://www.ncei.noaa.gov/</id>
-  <updated>2026-10-08T09:00:00Z</updated>
-  <category term="Veri Bilimi &amp; Makine Öğrenmesi"/>
-  <summary>ABD’nin hava, iklim, okyanus ve jeofizik verilerinin ulusal arşivi; eski adıyla NCDC. NASA Earthdata’dan farkı uydu görüntüsünden çok istasyon ve gözlem kayıtlarının onlarca yıllık serilerini tutması — geçmiş hava durumu için asıl kaynak.</summary>
+  <title>Bitcoin Whitepaper</title>
+  <link href="https://bitcoin.org/bitcoin.pdf"/>
+  <id>https://bitcoin.org/bitcoin.pdf</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Finans, Piyasa &amp; Kripto"/>
+  <summary>Bitcoin’i tanıtan dokuz sayfalık makale. İkincil anlatımlardan farkı kaynağın kendisi olması: kısa, okunur ve sonraki her iddianın karşılaştırılacağı metin.</summary>
 </entry>
 <entry>
-  <title>OpenCorporates</title>
-  <link href="https://opencorporates.com/"/>
-  <id>https://opencorporates.com/</id>
-  <updated>2026-10-08T09:00:00Z</updated>
-  <category term="Veri Bilimi &amp; Makine Öğrenmesi"/>
-  <summary>Ülkelerin ticaret sicillerini tek aramada birleştiren, şirketler üzerine en büyük açık veri tabanlarından biri. Tek tek ulusal sicillerden farkı birçok yargı alanını aynı biçimde sunması; yönetici ve bağlı şirket ilişkileri araştırmaya elverişli, yoğun API kullanımı ücretli.</summary>
+  <title>Bitcoin Wiki</title>
+  <link href="https://en.bitcoin.it/wiki/Main_Page"/>
+  <id>https://en.bitcoin.it/wiki/Main_Page</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Finans, Piyasa &amp; Kripto"/>
+  <summary>Bitcoin’in nasıl çalıştığını anlatan topluluk wiki’si: protokol, betik dili, tarih. Haber sitelerinden farkı tarihli yazı değil bakımı süren bir başvuru kaynağı olması.</summary>
 </entry>
 <entry>
-  <title>r/datasets</title>
-  <link href="https://www.reddit.com/r/datasets/"/>
-  <id>https://www.reddit.com/r/datasets/</id>
-  <updated>2026-10-08T09:00:00Z</updated>
-  <category term="Veri Bilimi &amp; Makine Öğrenmesi"/>
-  <summary>Veri kümesi bulma ve isteme topluluğu. Katalog sitelerinden farkı aradığın veri yoksa bir yazıyla isteyebilmen ve başkalarının bulduklarını görmen; kalite denetimi yok, bu yüzden lisansı ve kaynağı kendin kontrol et.</summary>
+  <title>CCXT</title>
+  <link href="https://github.com/ccxt/ccxt"/>
+  <id>https://github.com/ccxt/ccxt</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Finans, Piyasa &amp; Kripto"/>
+  <summary>Yüzü aşkın kripto borsasına tek bir API ile bağlanan kütüphane (JavaScript, Python, PHP ve diğerleri). Her borsanın kendi SDK’sından farkı bir kez yazıp borsa değiştirebilmen.</summary>
 </entry>
 <entry>
-  <title>UCI Machine Learning Repository</title>
-  <link href="https://archive.ics.uci.edu/"/>
-  <id>https://archive.ics.uci.edu/</id>
-  <updated>2026-10-08T09:00:00Z</updated>
-  <category term="Veri Bilimi &amp; Makine Öğrenmesi"/>
-  <summary>Makine öğrenmesi araştırmasının en eski veri arşivlerinden; Iris ve Adult gibi klasik küçük veri kümelerinin yuvası. Kaggle’dan farkı yarışma değil akademik bir arşiv olması: her küme bağış yapanı, alan tanımı ve atıf bilgisiyle geliyor, makalelerde ölçüt olarak kullanılıyor.</summary>
+  <title>CoinCap</title>
+  <link href="https://coincap.io/"/>
+  <id>https://coincap.io/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Finans, Piyasa &amp; Kripto"/>
+  <summary>Piyasa değerine göre kripto para fiyat ve sıralaması; verisi ücretsiz bir API ile de sunuluyor. Daha kalabalık takipçilerden farkı sade bir tablo ve doğrudan veri erişimi.</summary>
 </entry>
 <entry>
-  <title>UNdata</title>
-  <link href="https://data.un.org/"/>
-  <id>https://data.un.org/</id>
-  <updated>2026-10-08T09:00:00Z</updated>
-  <category term="Veri Bilimi &amp; Makine Öğrenmesi"/>
-  <summary>Birleşmiş Milletler kuruluşlarının istatistiklerini tek aramada toplayan veri servisi: nüfus, tarım, enerji, ticaret, eğitim. Tek tek kurumların sitelerini gezmekten farkı ülke ve yıl bazında karşılaştırmalı tablolar çıkarması; derinlik için kaynak kuruluşun kendi portalı daha iyi.</summary>
+  <title>CoinDesk</title>
+  <link href="https://www.coindesk.com/"/>
+  <id>https://www.coindesk.com/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Finans, Piyasa &amp; Kripto"/>
+  <summary>Kripto para ve blokzincir haberleri, piyasa verisi ve analiz sitesi. CryptoPanic gibi derleyicilerden farkı kendi muhabirliğini yapması.</summary>
 </entry>
 <entry>
-  <title>Uppsala Conflict Data Program</title>
-  <link href="https://ucdp.uu.se/"/>
-  <id>https://ucdp.uu.se/</id>
-  <updated>2026-10-08T09:00:00Z</updated>
-  <category term="Veri Bilimi &amp; Makine Öğrenmesi"/>
-  <summary>Uppsala Üniversitesi’nin silahlı çatışma ve örgütlü şiddet veri programı; olay düzeyinde, koordinatlı kayıtlar tutuyor. Haber arşivlerinden farkı her olayın kodlama kurallarına göre doğrulanmış olması; çatışma araştırmalarında standart başvuru.</summary>
+  <title>CryptoPanic</title>
+  <link href="https://cryptopanic.com/"/>
+  <id>https://cryptopanic.com/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Finans, Piyasa &amp; Kripto"/>
+  <summary>Başlıkları fiyata etkisine göre işaretleyen kripto haber derleyicisi. Tek bir haber sitesinden farkı birçok kaynağı tek akışta toplaması.</summary>
 </entry>
 <entry>
-  <title>WHO Global Health Observatory</title>
-  <link href="https://www.who.int/data/gho"/>
-  <id>https://www.who.int/data/gho</id>
-  <updated>2026-10-08T09:00:00Z</updated>
-  <category term="Veri Bilimi &amp; Makine Öğrenmesi"/>
-  <summary>Dünya Sağlık Örgütü’nün ülke bazlı sağlık göstergeleri: ölüm nedenleri, aşılama, sağlık harcaması, risk etkenleri. Ulusal sağlık kurumlarının verisinden farkı ülkeleri aynı tanım ve yöntemle karşılaştırılabilir kılması; veriye API ile de erişiliyor.</summary>
+  <title>Electrum</title>
+  <link href="https://electrum.org/"/>
+  <id>https://electrum.org/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Finans, Piyasa &amp; Kripto"/>
+  <summary>2011’den beri geliştirilen hafif, açık kaynaklı Bitcoin cüzdanı. Tam düğüm cüzdanlarından farkı zinciri indirmemesi — hız kazanıyor, karşılığında sunuculara bir ölçüde güveniyorsun.</summary>
 </entry>
 <entry>
-  <title>Atlas of Economic Complexity</title>
-  <link href="https://atlas.hks.harvard.edu/"/>
-  <id>https://atlas.hks.harvard.edu/</id>
-  <updated>2026-10-08T09:00:00Z</updated>
-  <category term="Ekonomi"/>
-  <summary>Harvard Growth Lab’ın bir ülkenin ihracat yapısını ve ekonomik karmaşıklığını görselleştiren atlası. Ham ticaret verisinden farkı ihracat sepetinden büyüme potansiyeli çıkaran “karmaşıklık endeksi” gibi türetilmiş ölçülerle gelmesi.</summary>
+  <title>Ethplorer</title>
+  <link href="https://ethplorer.io/"/>
+  <id>https://ethplorer.io/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Finans, Piyasa &amp; Kripto"/>
+  <summary>Ethereum token gezgini: sahipler, transferler ve token sayfaları. Etherscan’den farkı token ve sahip dağılımını merkeze alması.</summary>
 </entry>
 <entry>
-  <title>Bureau of Economic Analysis</title>
-  <link href="https://www.bea.gov/"/>
-  <id>https://www.bea.gov/</id>
-  <updated>2026-10-08T09:00:00Z</updated>
-  <category term="Ekonomi"/>
-  <summary>ABD’nin GSYH, ulusal hesaplar, kişisel gelir ve uluslararası ticaret verilerini yayımlayan resmî kurum. BLS’den farkı işgücünden çok üretim ve gelir hesaplarına odaklanması; eyalet ve sektör düzeyinde GSYH tabloları var.</summary>
-</entry>
-<entry>
-  <title>Bureau of Labor Statistics</title>
-  <link href="https://www.bls.gov/"/>
-  <id>https://www.bls.gov/</id>
-  <updated>2026-10-08T09:00:00Z</updated>
-  <category term="Ekonomi"/>
-  <summary>ABD’de istihdam, işsizlik, ücret ve tüketici enflasyonunun (CPI) resmî kaynağı. FRED’de gördüğün birçok serinin asıl yayıncısı; FRED’den farkı ayrıntılı meslek, sektör ve bölge kırılımlarına inmesi. Kamuya açık bir API’si var.</summary>
-</entry>
-<entry>
-  <title>NBER Data</title>
-  <link href="https://www.nber.org/research/data"/>
-  <id>https://www.nber.org/research/data</id>
-  <updated>2026-10-08T09:00:00Z</updated>
-  <category term="Ekonomi"/>
-  <summary>NBER araştırmacılarının yayımladığı veri kümeleri: makroekonomi tarihi, CPS çıkarımları, patent verisi. NBER Working Papers’tan farkı makale değil makalelerin dayandığı verinin kendisi olması; bu yüzden tekrar üretilebilir iktisat çalışması için kullanışlı.</summary>
-</entry>
-<entry>
-  <title>UN Comtrade</title>
-  <link href="https://comtrade.un.org/"/>
-  <id>https://comtrade.un.org/</id>
-  <updated>2026-10-08T09:00:00Z</updated>
-  <category term="Ekonomi"/>
-  <summary>Ülkelerin mal ticaretini ürün (HS kodu) ve ortak ülke bazında veren BM veri tabanı. Ulusal gümrük istatistiklerinden farkı ülkelerin verisini tek yapıda toplaması, böylece iki ülke arasındaki ticaret her iki tarafın bildirimiyle karşılaştırılabiliyor; ücretsiz kullanımın sınırı var.</summary>
-</entry>
-<entry>
-  <title>UNDP Human Development Data Center</title>
-  <link href="https://hdr.undp.org/data-center"/>
-  <id>https://hdr.undp.org/data-center</id>
-  <updated>2026-10-08T09:00:00Z</updated>
-  <category term="Ekonomi"/>
-  <summary>BM Kalkınma Programı’nın İnsani Gelişme Endeksi ve ilgili bileşik endekslerinin (eşitsizlik, cinsiyet, yoksulluk) veri merkezi. Yalnızca gelire bakan GSYH verisinden farkı sağlık ve eğitimi de aynı endekste toplaması.</summary>
-</entry>
-<entry>
-  <title>US Census Bureau</title>
-  <link href="https://www.census.gov/"/>
-  <id>https://www.census.gov/</id>
-  <updated>2026-10-08T09:00:00Z</updated>
-  <category term="Ekonomi"/>
-  <summary>ABD’nin nüfus, hane, konut ve işletme istatistiklerinin resmî yayıncısı; American Community Survey ve ekonomik sayımlar burada. FRED gibi derleyicilerden farkı ilçe ve mahalle düzeyine inebilen ayrıntısı; ham tablolar ve API sunuyor.</summary>
-</entry>
-<entry>
-  <title>Awesome asyncio</title>
-  <link href="https://github.com/timofurrer/awesome-asyncio"/>
-  <id>https://github.com/timofurrer/awesome-asyncio</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Programlama Dilleri"/>
-  <summary>Python 3’te asenkron G/Ç (asyncio) için kütüphane ve kaynak listesi. Genel Python listelerinden farkı yalnız olay döngüsüyle uyumlu kütüphaneleri — web çatıları, veritabanı sürücüleri, test araçları — toplaması.</summary>
-</entry>
-<entry>
-  <title>Awesome Common Lisp</title>
-  <link href="https://github.com/CodyReichert/awesome-cl"/>
-  <id>https://github.com/CodyReichert/awesome-cl</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Programlama Dilleri"/>
-  <summary>Common Lisp kütüphane ve araçlarını toplayan liste. Quicklisp deposunu tek tek taramaktan farkı kütüphaneleri alana göre (web, veritabanı, GUI) gruplaması.</summary>
-</entry>
-<entry>
-  <title>Awesome Composer</title>
-  <link href="https://github.com/jakoch/awesome-composer"/>
-  <id>https://github.com/jakoch/awesome-composer</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Programlama Dilleri"/>
-  <summary>PHP paket yöneticisi Composer için eklenti, araç ve rehber listesi. Packagist’ten farkı paketleri değil, Composer’ın kendisini genişleten ve iş akışını iyileştiren araçları toplaması.</summary>
-</entry>
-<entry>
-  <title>Awesome Coq</title>
-  <link href="https://github.com/coq-community/awesome-coq"/>
-  <id>https://github.com/coq-community/awesome-coq</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Programlama Dilleri"/>
-  <summary>Biçimsel ispat dili ve ortamı Coq (yeni adıyla Rocq) için kütüphane, araç ve öğretici listesi. Genel ispat asistanı listelerinden farkı yalnız Coq ekosistemine odaklanması.</summary>
-</entry>
-<entry>
-  <title>Awesome Elixir</title>
-  <link href="https://github.com/h4cc/awesome-elixir"/>
-  <id>https://github.com/h4cc/awesome-elixir</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Programlama Dilleri"/>
-  <summary>Elixir dili ve Erlang ekosistemi için kütüphane listesi. Hex paket aramasından farkı seçilmiş ve konuya göre gruplanmış olması.</summary>
-</entry>
-<entry>
-  <title>Awesome Python Scientific Audio</title>
-  <link href="https://github.com/faroit/awesome-python-scientific-audio"/>
-  <id>https://github.com/faroit/awesome-python-scientific-audio</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Programlama Dilleri"/>
-  <summary>Ses/müzik üzerine bilimsel araştırma için Python kütüphaneleri listesi. Genel ses işleme araçlarından farkı araştırma odaklı olması: öznitelik çıkarma, müzik bilgi erişimi, kaynak ayrıştırma.</summary>
-</entry>
-<entry>
-  <title>Awesome Python Typing</title>
-  <link href="https://github.com/typeddjango/awesome-python-typing"/>
-  <id>https://github.com/typeddjango/awesome-python-typing</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Programlama Dilleri"/>
-  <summary>Python’da isteğe bağlı statik tipleme için araç ve kaynak listesi. mypy belgelerinden farkı tip denetleyicilerini (mypy, Pyright, Pyre), stub paketlerini ve çalışma zamanı doğrulayıcılarını birlikte toplaması.</summary>
-</entry>
-<entry>
-  <title>Awesome Ruby</title>
-  <link href="https://github.com/markets/awesome-ruby"/>
-  <id>https://github.com/markets/awesome-ruby</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Programlama Dilleri"/>
-  <summary>Ruby kütüphane ve araçlarını kategori kategori toplayan liste. RubyGems aramasından farkı seçilmiş, güncel ve gruplanmış olması.</summary>
-</entry>
-<entry>
-  <title>Awesome V</title>
-  <link href="https://github.com/vlang/awesome-v"/>
-  <id>https://github.com/vlang/awesome-v</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Programlama Dilleri"/>
-  <summary>V dili için kütüphane, araç ve proje listesi. Go veya Rust listelerinden farkı henüz genç bir dilin ekosistemini tek yerde toplaması; dil hâlâ hızla değiştiği için kayıtların güncelliğine bak.</summary>
-</entry>
-<entry>
-  <title>C#</title>
-  <link href="https://dotnet.microsoft.com/languages/csharp"/>
-  <id>https://dotnet.microsoft.com/languages/csharp</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Programlama Dilleri"/>
-  <summary>Microsoft’un .NET platformu için geliştirdiği çok amaçlı dil; Unity oyunlarının da betik dili. Java’dan farkı LINQ, async/await ve özel değer tipleri gibi özelliklerin dile gömülü gelmesi.</summary>
-</entry>
-<entry>
-  <title>Dart</title>
-  <link href="https://dart.dev/"/>
-  <id>https://dart.dev/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Programlama Dilleri"/>
-  <summary>Google’ın geliştirdiği, Flutter’ın altındaki istemci odaklı dil. JavaScript’ten farkı sağlam tip sistemi ve null güvenliği; hem yerel makine koduna hem JavaScript’e derlenebiliyor.</summary>
-</entry>
-<entry>
-  <title>Elixir</title>
-  <link href="https://elixir-lang.org/"/>
-  <id>https://elixir-lang.org/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Programlama Dilleri"/>
-  <summary>Erlang sanal makinesinde çalışan, ölçeklenebilirlikte güçlü işlevsel dil. Erlang’dan farkı Ruby’yi andıran sözdizimi ve makro sistemi; hata toleransını (OTP) ise aynen devralıyor.</summary>
-</entry>
-<entry>
-  <title>Go</title>
-  <link href="https://golang.org/"/>
-  <id>https://golang.org/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Programlama Dilleri"/>
-  <summary>Google’ın sade, hızlı derlenen, eşzamanlılıkta güçlü dilinin resmî sitesi. Java ya da C++’tan farkı dilin bilinçli küçüklüğü: az anahtar sözcük, tek biçimleyici (gofmt), saniyeler içinde derleme.</summary>
-</entry>
-<entry>
-  <title>Haskell</title>
-  <link href="https://www.haskell.org/"/>
-  <id>https://www.haskell.org/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Programlama Dilleri"/>
-  <summary>Saf işlevsel ve statik tipli, tembel değerlendirmeli programlama dili. Çoğu işlevsel dilden farkı saf olması: yan etkiler tip sisteminde (IO) ayrı tutuluyor.</summary>
-</entry>
-<entry>
-  <title>Julia</title>
-  <link href="https://julialang.org/"/>
-  <id>https://julialang.org/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Programlama Dilleri"/>
-  <summary>Bilimsel hesaplama için yüksek başarımlı, açık kaynak dil. Python’dan farkı JIT derlemesiyle C’ye yakın hız: prototipi Python’da yazıp hızlı kodu C’ye çevirme zorunluluğunu (“iki dil sorunu”) ortadan kaldırmayı hedefliyor.</summary>
-</entry>
-<entry>
-  <title>Julia.jl</title>
-  <link href="https://github.com/svaksha/Julia.jl"/>
-  <id>https://github.com/svaksha/Julia.jl</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Programlama Dilleri"/>
-  <summary>Julia dili paket ve kaynaklarını konuya göre düzenleyen kapsamlı liste. Paket aramasından farkı paketleri bilim alanına göre elle sınıflandırması; bazı bölümleri eskimiş olabilir.</summary>
-</entry>
-<entry>
-  <title>Lua</title>
-  <link href="https://www.lua.org/"/>
-  <id>https://www.lua.org/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Programlama Dilleri"/>
-  <summary>Gömülmeye elverişli, hafif betik dili; oyun motorlarında, gömülü sistemlerde ve Neovim’de yaygın. Python’dan farkı çalışma zamanının çok küçük olması ve bir C programına kolayca gömülebilmesi.</summary>
-</entry>
-<entry>
-  <title>Perl</title>
-  <link href="https://www.perl.org/"/>
-  <id>https://www.perl.org/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Programlama Dilleri"/>
-  <summary>Metin işleme ve sistem betiklerinde güçlü, dinamik ve olgun dil. Python’dan farkı düzenli ifadelerin dile gömülü olması ve tek satırlık betik kültürü; CPAN arşivi çok geniş.</summary>
-</entry>
-<entry>
-  <title>PHP</title>
-  <link href="https://www.php.net/"/>
-  <id>https://www.php.net/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Programlama Dilleri"/>
-  <summary>Web’in sunucu tarafında en yaygın dillerinden birinin resmî belgeleri. Çoğu dil belgesinden farkı her fonksiyon sayfasının altındaki kullanıcı notları: pratik tuzaklar genellikle orada yazıyor.</summary>
-</entry>
-<entry>
-  <title>R</title>
-  <link href="https://www.r-project.org/"/>
-  <id>https://www.r-project.org/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Programlama Dilleri"/>
-  <summary>İstatistik ve veri analizi için tasarlanmış dil ve ortam; CRAN’da on binlerce istatistik paketi var. Python’dan farkı yeni istatistik yöntemlerinin çoğunlukla önce burada yayımlanması ve ggplot2 gibi grafik araçları.</summary>
-</entry>
-<entry>
-  <title>Ruby</title>
-  <link href="https://www.ruby-lang.org/en/"/>
-  <id>https://www.ruby-lang.org/en/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <category term="Programlama Dilleri"/>
-  <summary>Okunabilirliği ve geliştirici mutluluğunu öne alan çok paradigmalı dil; Rails’in dili. Python’dan farkı her şeyin nesne olması ve DSL yazmaya elverişli esnek sözdizimi.</summary>
+  <title>MetaMask</title>
+  <link href="https://metamask.io/"/>
+  <id>https://metamask.io/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <category term="Finans, Piyasa &amp; Kripto"/>
+  <summary>Ethereum uyumlu ağlar için en yaygın tarayıcı eklentisi cüzdanı. Donanım cüzdanlarından farkı anahtarın cihazın yazılımında durması: rahat, ama makinen kadar güvenli.</summary>
 </entry>
 </feed>

@@ -99,6 +99,19 @@
     "src": "bwapsv"
   },
   {
+    "url": "https://github.com/cargo-bins/cargo-binstall",
+    "name": "cargo-binstall",
+    "tags": [
+      "açık-kaynak",
+      "cli",
+      "rust"
+    ],
+    "tr": "Rust araçlarını derlemek yerine hazır ikili dosyadan kuran cargo eklentisi. cargo install’dan farkı dakikalar yerine saniyeler sürmesi.",
+    "en": "A cargo plugin that installs Rust tools from prebuilt binaries instead of compiling. Unlike cargo install it takes seconds, not minutes.",
+    "src": "favlink",
+    "added": 1791536400
+  },
+  {
     "url": "https://google.github.io/comprehensive-rust/",
     "name": "Comprehensive Rust",
     "tags": [

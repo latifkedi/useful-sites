@@ -96,6 +96,19 @@
     "src": "awesome-uw"
   },
   {
+    "url": "https://github.com/dlvhdr/diffnav",
+    "name": "diffnav",
+    "tags": [
+      "açık-kaynak",
+      "cli",
+      "go"
+    ],
+    "tr": "delta tabanlı, GitHub’daki gibi dosya ağacı sunan git diff görüntüleyicisi (Go). Düz delta’dan farkı gezilebilir bir dosya listesi eklemesi.",
+    "en": "A git diff pager based on delta with a GitHub-style file tree (Go). Unlike plain delta it adds a navigable file list.",
+    "src": "favlink",
+    "added": 1791536400
+  },
+  {
     "url": "https://theia-ide.org/",
     "name": "Eclipse Theia",
     "tags": [
@@ -244,6 +257,32 @@
     "src": "awesomeproj"
   },
   {
+    "url": "https://terminaltrove.com/",
+    "name": "Terminal Trove",
+    "tags": [
+      "ücretsiz",
+      "cli",
+      "referans"
+    ],
+    "tr": "Komut satırı ve terminal arayüzlü araçların vitrini; her araç için kısa tanıtım ve kurulum bilgisi var. Awesome listelerden farkı araç başına tek sayfa ve denemeye hazır kurulum yönergesi sunması.",
+    "en": "A showcase of command-line and terminal-UI tools, each with a short pitch and install instructions. Unlike awesome lists it gives every tool its own page and a way to try it straight away.",
+    "src": "trekhleb",
+    "added": 1791536400
+  },
+  {
+    "url": "https://github.com/crate-ci/typos",
+    "name": "typos",
+    "tags": [
+      "açık-kaynak",
+      "cli",
+      "rust"
+    ],
+    "tr": "Kaynak kodda ve metinde yazım hatalarını bulan hızlı Rust aracı. Düz yazı denetleyicilerden farkı tanımlayıcıları kelimelere bölüp yanlış alarmı az tutması.",
+    "en": "A fast Rust tool that finds typos in source code and text. Unlike prose spell checkers it splits identifiers into words and keeps false alarms low.",
+    "src": "favlink",
+    "added": 1791536400
+  },
+  {
     "url": "https://code.visualstudio.com/",
     "name": "Visual Studio Code",
     "tags": [
@@ -303,5 +342,18 @@
     "tr": "Rust ile yazılmış terminal; komutları ve çıktılarını metin akışı yerine ayrı \"blok\"lar hâlinde tutuyor, böylece bir komutun çıktısını tek tıkla kopyalayabiliyorsun. iTerm veya Windows Terminal’dan ayrıldığı yer bu blok modeli ve gömülü YZ komut önerisi.",
     "en": "A terminal written in Rust that keeps each command and its output as a separate block instead of one scrolling stream, so you can copy a single command’s output in one click. That block model and the built-in AI command suggestions are what set it apart.",
     "src": "cdcruz"
+  },
+  {
+    "url": "https://github.com/zellij-org/zellij",
+    "name": "Zellij",
+    "tags": [
+      "açık-kaynak",
+      "cli",
+      "rust"
+    ],
+    "tr": "Rust ile yazılmış, yerleşimleri ve eklenti sistemi olan terminal çalışma alanı. tmux’tan farkı varsayılanlarının keşfedilebilir olması (ekranda tuş ipuçları); bedeli daha genç olması.",
+    "en": "A terminal workspace written in Rust, with layouts and a plugin system. Unlike tmux its defaults are discoverable (on-screen key hints); the trade-off is that it is younger.",
+    "src": "favlink",
+    "added": 1791536400
   }
 ]

@@ -5,7 +5,98 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/finans.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/finans.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/finans.xml</id>
-<updated>2026-09-18T00:00:00Z</updated>
+<updated>2026-10-09T09:00:00Z</updated>
+<entry>
+  <title>Bitcoin Developer Documentation</title>
+  <link href="https://developer.bitcoin.org/"/>
+  <id>https://developer.bitcoin.org/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Bitcoin üzerine uygulama geliştirmek için işlemler, RPC ve P2P ağını anlatan geliştirici kılavuzu ve başvurusu. Teknik makaleden farkı uygulamaya dönük belge olması.</summary>
+</entry>
+<entry>
+  <title>Bitcoin Stack Exchange</title>
+  <link href="https://bitcoin.stackexchange.com/"/>
+  <id>https://bitcoin.stackexchange.com/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Bitcoin kullanıcıları ve geliştiricileri için soru-cevap sitesi. Forumlardan farkı cevapların oylanıp düzenlenmesi, böylece iyi cevap üste çıkıyor.</summary>
+</entry>
+<entry>
+  <title>Bitcoin Whitepaper</title>
+  <link href="https://bitcoin.org/bitcoin.pdf"/>
+  <id>https://bitcoin.org/bitcoin.pdf</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Bitcoin’i tanıtan dokuz sayfalık makale. İkincil anlatımlardan farkı kaynağın kendisi olması: kısa, okunur ve sonraki her iddianın karşılaştırılacağı metin.</summary>
+</entry>
+<entry>
+  <title>Bitcoin Wiki</title>
+  <link href="https://en.bitcoin.it/wiki/Main_Page"/>
+  <id>https://en.bitcoin.it/wiki/Main_Page</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Bitcoin’in nasıl çalıştığını anlatan topluluk wiki’si: protokol, betik dili, tarih. Haber sitelerinden farkı tarihli yazı değil bakımı süren bir başvuru kaynağı olması.</summary>
+</entry>
+<entry>
+  <title>CCXT</title>
+  <link href="https://github.com/ccxt/ccxt"/>
+  <id>https://github.com/ccxt/ccxt</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Yüzü aşkın kripto borsasına tek bir API ile bağlanan kütüphane (JavaScript, Python, PHP ve diğerleri). Her borsanın kendi SDK’sından farkı bir kez yazıp borsa değiştirebilmen.</summary>
+</entry>
+<entry>
+  <title>CoinCap</title>
+  <link href="https://coincap.io/"/>
+  <id>https://coincap.io/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Piyasa değerine göre kripto para fiyat ve sıralaması; verisi ücretsiz bir API ile de sunuluyor. Daha kalabalık takipçilerden farkı sade bir tablo ve doğrudan veri erişimi.</summary>
+</entry>
+<entry>
+  <title>CoinDesk</title>
+  <link href="https://www.coindesk.com/"/>
+  <id>https://www.coindesk.com/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Kripto para ve blokzincir haberleri, piyasa verisi ve analiz sitesi. CryptoPanic gibi derleyicilerden farkı kendi muhabirliğini yapması.</summary>
+</entry>
+<entry>
+  <title>CryptoPanic</title>
+  <link href="https://cryptopanic.com/"/>
+  <id>https://cryptopanic.com/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Başlıkları fiyata etkisine göre işaretleyen kripto haber derleyicisi. Tek bir haber sitesinden farkı birçok kaynağı tek akışta toplaması.</summary>
+</entry>
+<entry>
+  <title>Electrum</title>
+  <link href="https://electrum.org/"/>
+  <id>https://electrum.org/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>2011’den beri geliştirilen hafif, açık kaynaklı Bitcoin cüzdanı. Tam düğüm cüzdanlarından farkı zinciri indirmemesi — hız kazanıyor, karşılığında sunuculara bir ölçüde güveniyorsun.</summary>
+</entry>
+<entry>
+  <title>Ethplorer</title>
+  <link href="https://ethplorer.io/"/>
+  <id>https://ethplorer.io/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Ethereum token gezgini: sahipler, transferler ve token sayfaları. Etherscan’den farkı token ve sahip dağılımını merkeze alması.</summary>
+</entry>
+<entry>
+  <title>MetaMask</title>
+  <link href="https://metamask.io/"/>
+  <id>https://metamask.io/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Ethereum uyumlu ağlar için en yaygın tarayıcı eklentisi cüzdanı. Donanım cüzdanlarından farkı anahtarın cihazın yazılımında durması: rahat, ama makinen kadar güvenli.</summary>
+</entry>
+<entry>
+  <title>OpenZeppelin</title>
+  <link href="https://www.openzeppelin.com/"/>
+  <id>https://www.openzeppelin.com/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Solidity için denetlenmiş akıllı sözleşme kütüphaneleri ve güvenlik araçları. Token ya da yetki sözleşmelerini kendin yazmaktan farkı yaygın kullanımda sınanmış yapı taşları sunması.</summary>
+</entry>
+<entry>
+  <title>WhatToMine</title>
+  <link href="https://whattomine.com/"/>
+  <id>https://whattomine.com/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>Hash gücün, elektrik tüketimin ve fiyatına göre GPU ile kazılabilir coinlerin kârlılığını karşılaştıran hesaplayıcı. Genel fiyat takipçilerinden farkı doğrudan madencilik kârı hesaplaması.</summary>
+</entry>
 <entry>
   <title>Awesome AI in Finance</title>
   <link href="https://github.com/georgezouq/awesome-ai-in-finance"/>
@@ -194,12 +285,5 @@
   <id>https://finance.yahoo.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Kotasyon, bilanço ve portföy takibi; tarihsel fiyat verisini ücretsiz indirtiyor. Ücretli terminallerden farkı bu geniş ücretsiz kapsam; karşılığında veri çoğunlukla gecikmeli.</summary>
-</entry>
-<entry>
-  <title>Learn Me a Bitcoin</title>
-  <link href="https://learnmeabitcoin.com/"/>
-  <id>https://learnmeabitcoin.com/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Bitcoin’in teknik işleyişini — işlem yapısı, betik dili, madencilik — örneklerle anlatan site. Beyaz bültenden farkı somut olması: gerçek işlemleri baytına kadar açıp gösteriyor.</summary>
 </entry>
 </feed>

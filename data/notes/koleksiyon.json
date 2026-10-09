@@ -25,6 +25,18 @@
     "added": 1758379030
   },
   {
+    "url": "https://github.com/bayandin/awesome-awesomeness",
+    "name": "Awesome Awesomeness",
+    "tags": [
+      "awesome-liste",
+      "ücretsiz"
+    ],
+    "tr": "Konulara göre gruplanmış “awesome” listelerinin listesi. sindresorhus/awesome dizininden farkı daha düz ve geniş olması, daha niş listeleri de kapsaması.",
+    "en": "A list of awesome lists, grouped by topic. Unlike the sindresorhus/awesome index it is flatter and wider, covering more niche lists.",
+    "src": "trekhleb",
+    "added": 1791536400
+  },
+  {
     "url": "https://github.com/agamm/awesome-developer-first",
     "name": "Awesome Developer-First",
     "tags": [
@@ -220,6 +232,30 @@
     "src": "awesomelist"
   },
   {
+    "url": "https://betalist.com/",
+    "name": "BetaList",
+    "tags": [
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Henüz yayına girmemiş girişimlerin erken erişim listesi. Product Hunt’tan farkı lansman öncesi ürünleri göstermesi — kalabalıktan önce tanışıyorsun; bedeli, bazılarının hiç yayına girmemesi.",
+    "en": "Early-access listings for startups that have not launched yet. Unlike Product Hunt it shows pre-launch products, so you meet them before the crowd — the catch being that some never launch.",
+    "src": "trekhleb",
+    "added": 1791536400
+  },
+  {
+    "url": "https://blogroll.org/",
+    "name": "Blogroll.org",
+    "tags": [
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Düzenli güncellenen bağımsız kişisel blogların insan eliyle derlenmiş listesi, algoritmasız. Keşif sekmelerinden farkı düz bir liste olması: ne sıralama var ne öneri.",
+    "en": "A human-curated list of independent personal blogs that are updated regularly, with no algorithm. Unlike a reader’s discovery tab it is a plain list: no ranking, no recommendations.",
+    "src": "trekhleb",
+    "added": 1791536400
+  },
+  {
     "url": "https://bukmark.club/",
     "name": "BUKMARK.CLUB",
     "tags": [
@@ -230,6 +266,41 @@
     "tr": "Yalnızca bağlantı koleksiyonu barındıran siteleri listeleyen bir dizin — yer imi koleksiyonlarının dizini. Genel web dizinlerinden farkı bu şartı koşması: listelenmek için sitenin kendisi başka sitelere derli toplu bir bağlantı koleksiyonu sunmalı.",
     "en": "A directory that lists only sites which themselves host a curated collection of links — a directory of bookmark collections. Unlike general web directories it sets that one condition: to be listed, a site must offer a tidy collection of links to other sites.",
     "src": "lowkwiki"
+  },
+  {
+    "url": "https://changelog.com/",
+    "name": "Changelog",
+    "tags": [
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Yazılım geliştirme ve açık kaynak üzerine podcast’ler ve haber akışı. Genel teknoloji podcast’lerinden farkı pratisyenlerde kalması: bakımcılar ve geliştiriciler nasıl çalıştıklarını anlatıyor.",
+    "en": "Podcasts and a news feed about software development and open source. Unlike general tech podcasts it stays with practitioners: maintainers and builders explaining how they work.",
+    "src": "trekhleb",
+    "added": 1791536400
+  },
+  {
+    "url": "https://daily.dev/",
+    "name": "daily.dev",
+    "tags": [
+      "ücretsiz"
+    ],
+    "tr": "Kişiselleştirilmiş geliştirici haber derleyicisi. Tek bir küratörlü listeden farkı ilgi alanlarını öğrenip birçok kaynağı tek akışta toplaması.",
+    "en": "A personalised developer news aggregator. Unlike a single curated list it learns your topics and pulls many sources into one feed.",
+    "src": "trekhleb",
+    "added": 1791536400
+  },
+  {
+    "url": "https://dev.to/",
+    "name": "DEV Community",
+    "tags": [
+      "ücretsiz",
+      "öğretici"
+    ],
+    "tr": "Programcılar için ücretsiz blog ve tartışma topluluğu. Medium’dan farkı yalnız geliştiricilere yönelik olması ve etiketlerin ana gezinme yolu olması; yazılar yeni başlayanlara öğreticilerden derin incelemelere uzanıyor.",
+    "en": "A free blogging and discussion community for programmers. Unlike Medium it is developer-only, with tags as the main way to navigate; posts range from beginner tutorials to deep dives.",
+    "src": "trekhleb",
+    "added": 1791536400
   },
   {
     "url": "https://devurls.com/",
@@ -328,6 +399,52 @@
     "added": 1775408963
   },
   {
+    "url": "https://news.ycombinator.com/",
+    "name": "Hacker News",
+    "tags": [
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Y Combinator’ın programlama, girişim ve teknoloji için bağlantı ve tartışma panosu. Reddit’ten farkı tek bir sıralı ön sayfa ve kısa, uzman ağırlıklı yorumlar; Lobsters daha küçük ve davetle girilen alternatifi.",
+    "en": "Y Combinator’s link-and-discussion board for programming, startups and technology. Unlike Reddit it is one ranked front page with short, expert-heavy comments; Lobsters is the smaller, invitation-only alternative.",
+    "src": "trekhleb",
+    "added": 1791536400
+  },
+  {
+    "url": "https://hashnode.com/",
+    "name": "Hashnode",
+    "tags": [
+      "freemium"
+    ],
+    "tr": "Geliştiriciler için, kendi alan adında yayın yaptığın blog platformu. DEV’den farkı blogun sana ait olması (özel alan adı) ve yine de ortak bir akışa girmesi.",
+    "en": "A blogging platform for developers where you publish on your own domain. Unlike DEV the blog is yours (custom domain) while still appearing in a shared feed.",
+    "src": "trekhleb",
+    "added": 1791536400
+  },
+  {
+    "url": "https://www.indiehackers.com/",
+    "name": "Indie Hackers",
+    "tags": [
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Kurucuların küçük ürün ve yan projelerinin gelirini ve stratejisini paylaştığı topluluk. Genel girişim haberciliğinden farkı gösterişsiz ayrıntıyı yayımlaması: bir ürünün gerçekte ne kazandığı ve ilk kullanıcıları nasıl bulduğu.",
+    "en": "A community where founders share the revenue and strategy behind small products and side projects. Unlike general startup media it publishes the unglamorous detail: what a product actually earned and how it found its first users.",
+    "src": "trekhleb",
+    "added": 1791536400
+  },
+  {
+    "url": "https://indieblog.page/",
+    "name": "Indieblog.page",
+    "tags": [
+      "ücretsiz"
+    ],
+    "tr": "Bir düğmeye basınca kişisel bir blogdan rastgele yazıya götüren keşif sitesi. Blog listelerinden farkı seçmemen: sürprize bırakıyor, böylece tanımadığın seslere denk geliyorsun.",
+    "en": "A discovery site that sends you to a random post from a personal blog at the press of a button. Unlike blog lists you do not choose, so you run into voices you would not have looked for.",
+    "src": "trekhleb",
+    "added": 1791536400
+  },
+  {
     "url": "https://kandi.openweaver.com/",
     "name": "kandi",
     "tags": [
@@ -364,6 +481,18 @@
     "src": "awesome-uw"
   },
   {
+    "url": "https://lobste.rs/",
+    "name": "Lobsters",
+    "tags": [
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Etiket tabanlı süzgeci olan, daha küçük ve davetle katılınan bilişim bağlantı panosu. Hacker News’ten farkı daha dar ve yavaş olması, daha sıkı denetim ve istemediğin konuları gizleyebilmen.",
+    "en": "A smaller computing link board, joined by invitation, with tag-based filtering. Unlike Hacker News it is narrower and slower, with stricter moderation and the option to mute topics.",
+    "src": "trekhleb",
+    "added": 1791536400
+  },
+  {
     "url": "https://anvaka.github.io/map-of-github/",
     "name": "Map of GitHub",
     "tags": [
@@ -373,6 +502,18 @@
     "tr": "GitHub depolarını yıldız benzerliğine göre kümeleyip harita gibi gezilebilir hâle getiren görselleştirme. Konuya göre aramadan farkı komşuluğu göstermesi — bir projeyi beğenenlerin başka neyi yıldızladığı topografya olarak çıkıyor.",
     "en": "A visualisation clustering GitHub repositories by star similarity into a browsable map. Against topic search it shows adjacency: what else the people who starred one project starred, laid out as terrain.",
     "src": "awesome-uw"
+  },
+  {
+    "url": "https://marginalia-search.com/",
+    "name": "Marginalia Search",
+    "tags": [
+      "ücretsiz",
+      "açık-kaynak"
+    ],
+    "tr": "Çerez ve bülten istemeyen, metin ağırlıklı sitelere odaklanan küçük, bağımsız arama motoru. Google’dan farkı SEO ile şişirilmiş sayfaları bilerek geri atması: daha az ve daha tuhaf sonuç, ama okumak için çoğu zaman daha iyi.",
+    "en": "A small independent search engine favouring text-heavy sites that ask for no cookies or newsletters. Unlike Google it deliberately downranks SEO-inflated pages: fewer and stranger results, but often better for reading.",
+    "src": "trekhleb",
+    "added": 1791536400
   },
   {
     "url": "https://github.com/RichardLitt/meta-knowledge",
@@ -423,6 +564,18 @@
     "src": "lowkwiki"
   },
   {
+    "url": "https://www.producthunt.com/",
+    "name": "Product Hunt",
+    "tags": [
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Yeni çıkan ürünlerin topluluk oylamasıyla günlük sıralandığı site. G2 gibi değerlendirme sitelerinden farkı bugün ne çıktığına bakması: yeniliği görmenin en hızlı yolu, ama sıralama kalıcı kaliteden çok lansman günü çabasını ödüllendiriyor.",
+    "en": "A daily, community-voted ranking of newly launched products. Unlike review sites such as G2 it is about what launched today — the quickest way to see what is new, though the ranking rewards launch-day effort more than lasting quality.",
+    "src": "trekhleb",
+    "added": 1791536400
+  },
+  {
     "url": "https://github.com/sdmg15/Best-websites-a-programmer-should-visit",
     "name": "Programcının Ziyaret Etmesi Gereken Siteler",
     "tags": [
@@ -445,6 +598,18 @@
     "tr": "Bir GitHub deposuna benzeyen projeleri bulan araç. GitHub’ın kendi \"benzer depolar\" önerisinden farkı yıldız örtüşmesine bakması — konu etiketi yanlış girilmiş projeleri de yakalıyor.",
     "en": "Finds projects similar to a given GitHub repository. Against GitHub’s own suggestions it works from star overlap, so it also surfaces projects whose topic tags were filled in badly.",
     "src": "awesome-uw"
+  },
+  {
+    "url": "https://www.saashub.com/",
+    "name": "SaaSHub",
+    "tags": [
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Bir yazılımı yazıp benzer araçları yan yana karşılaştırmalı sayfalarla bulduran alternatif dizini. AlternativeTo’dan farkı SaaS ve girişim ürünlerine odaklanması.",
+    "en": "A software-alternatives directory: name a product and get comparable tools with side-by-side pages. Unlike AlternativeTo it centres on SaaS and startup products.",
+    "src": "trekhleb",
+    "added": 1791536400
   },
   {
     "url": "https://github.com/KasperZutterman/Second-Brain",
@@ -471,6 +636,18 @@
     "added": 1779250547
   },
   {
+    "url": "https://sidebar.io/",
+    "name": "Sidebar",
+    "tags": [
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Her hafta içi günü tek bir küratörün seçtiği beş tasarım bağlantısı. Her şeyi önüne boşaltan akışlardan farkı seçeneği bilerek sınırlaması: bir dakika yeterli.",
+    "en": "Five design links every weekday, picked by one curator. Unlike feeds that throw everything at you it limits the choice on purpose, so a minute is enough.",
+    "src": "trekhleb",
+    "added": 1791536400
+  },
+  {
     "url": "https://survey.stackoverflow.co/",
     "name": "Stack Overflow Survey",
     "tags": [
@@ -481,6 +658,18 @@
     "tr": "Geliştiricilerin araç, dil ve maaş eğilimlerini gösteren yıllık büyük anket. Platform etkinliğine bakan raporlardan farkı verinin doğrudan geliştiricilere sorulmasından gelmesi: “sevilen” ve “korkulan” teknolojiler burada ölçülüyor.",
     "en": "The annual large survey of developers’ tool, language and salary trends. Unlike reports drawn from platform activity, the data comes from asking developers directly — where the “loved” and “dreaded” technologies are measured.",
     "src": "awesomeproj"
+  },
+  {
+    "url": "https://stackshare.io/",
+    "name": "StackShare",
+    "tags": [
+      "freemium",
+      "referans"
+    ],
+    "tr": "Şirketlerin ve geliştiricilerin ürünlerini hangi araçlarla kurduğunu gösteren site; şirket başına bir yığın sayfası var. Araç karşılaştırma sitelerinden farkı “en iyisi hangisi” yerine “gerçek ekipler neyi çalıştırıyor” sorusuna cevap vermesi; veri kendi beyanına dayanıyor, eskimiş olabilir.",
+    "en": "Shows which tools companies and developers build their products with, one stack page per company. Unlike comparison sites it answers “what do real teams run?” rather than “which is best?”; the data is self-reported and can be out of date.",
+    "src": "trekhleb",
+    "added": 1791536400
   },
   {
     "url": "https://github.com/maguowei/starred",
@@ -568,5 +757,16 @@
     "tr": "Vim ve Neovim eklentilerinin dizini; popülerlik, kategori ve kurulum yöntemine göre süzülüyor. GitHub aramasından farkı eklentilerin bakım durumunu ve kurulum satırını hazır vermesi.",
     "en": "A directory of Vim and Neovim plugins, filterable by popularity, category and install method. Against searching GitHub it surfaces maintenance status and hands you the install line.",
     "src": "awesome-uw"
+  },
+  {
+    "url": "https://wiby.me/",
+    "name": "Wiby",
+    "tags": [
+      "ücretsiz"
+    ],
+    "tr": "Klasik, hafif web sayfaları için arama motoru ve “şansına bak” düğmesi. Marginalia’dan farkı dizinini insanların gönderdiği sayfalardan kurması; kapsamı küçük ve elle seçilmiş.",
+    "en": "A search engine for the classic, lightweight web, with a “surprise me” button. Unlike Marginalia its index is built from pages people submitted, so it is smaller and hand-picked.",
+    "src": "trekhleb",
+    "added": 1791536400
   }
 ]

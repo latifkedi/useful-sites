@@ -37,6 +37,19 @@
     "added": 1739291777
   },
   {
+    "url": "https://diveintopython3.net/",
+    "name": "Dive Into Python 3",
+    "tags": [
+      "kitap",
+      "python",
+      "ücretsiz"
+    ],
+    "tr": "Mark Pilgrim’in programcılar için ücretsiz Python 3 kitabı. Sıfırdan anlatan kitaplardan farkı bilen birine hızlı giriş yapması; 2009 dolaylarında yazıldığından yeni özellikler yok.",
+    "en": "Mark Pilgrim’s free Python 3 book for programmers. Unlike from-scratch books it is a fast introduction for someone who already codes; it dates from around 2009, so newer features are missing.",
+    "src": "pycrumbs",
+    "added": 1791536400
+  },
+  {
     "url": "https://dzone.com",
     "name": "DZone",
     "tags": [
@@ -96,6 +109,19 @@
     "src": "bwapsv"
   },
   {
+    "url": "https://inventwithpython.com/",
+    "name": "Invent with Python",
+    "tags": [
+      "kitap",
+      "python",
+      "ücretsiz"
+    ],
+    "tr": "Al Sweigart’ın yeni başlayanlar için ücretsiz çevrimiçi Python kitapları: oyunlar ve günlük işleri otomatikleştirme. Genel öğreticilerden farkı sonunda çalışan bir oyun ya da araç çıkarman.",
+    "en": "Al Sweigart’s free online Python books for beginners: games and automating everyday tasks. Unlike generic tutorials you end up with a working game or tool.",
+    "src": "pycrumbs",
+    "added": 1791536400
+  },
+  {
     "url": "https://learnvim.irian.to/",
     "name": "Learn Vim",
     "tags": [
@@ -132,6 +158,19 @@
     "added": 1787182724
   },
   {
+    "url": "https://github.com/bitcoinbook/bitcoinbook",
+    "name": "Mastering Bitcoin",
+    "tags": [
+      "kitap",
+      "ücretsiz",
+      "açık-kaynak"
+    ],
+    "tr": "Andreas Antonopoulos’un Bitcoin’in teknik işleyişini anlattığı kitabın açık deposu. Başlangıç özetlerinden farkı anahtarlardan işlemlere, betiklerden ağa kadar yazılımcı gözüyle inmesi.",
+    "en": "The open repository of Andreas Antonopoulos’s book on how Bitcoin works technically. Unlike beginner summaries it goes from keys to transactions, scripts and the network, from a programmer’s point of view.",
+    "src": "cryptolist",
+    "added": 1791536400
+  },
+  {
     "url": "https://www.programmingbooks.dev",
     "name": "Programming Books",
     "tags": [
@@ -157,6 +196,19 @@
     "src": "bwapsv"
   },
   {
+    "url": "https://anandology.com/python-practice-book/",
+    "name": "Python Practice Book",
+    "tags": [
+      "kitap",
+      "python",
+      "ücretsiz"
+    ],
+    "tr": "Alıştırma ağırlıklı ücretsiz Python kitabı. Anlatım ağırlıklı kitaplardan farkı bölümleri alıştırmalarla ilerletmesi.",
+    "en": "A free, exercise-heavy Python book. Unlike explanation-first books it moves chapter by chapter through exercises.",
+    "src": "pycrumbs",
+    "added": 1791536400
+  },
+  {
     "url": "https://speaking.io/",
     "name": "speaking.io",
     "tags": [
@@ -167,6 +219,19 @@
     "tr": "Teknik konuşma hazırlamak ve sunmak üzerine rehber: içerik kurma, slayt tasarımı, sahne korkusu. Genel sunum tavsiyelerinden farkı geliştirici konferanslarına özgü olması — canlı demo riski gibi konular ele alınıyor.",
     "en": "A guide to preparing and delivering technical talks: structuring content, slide design, stage fright. Against general presentation advice it is specific to developer conferences — the risk of a live demo gets its own treatment.",
     "src": "bwapsv"
+  },
+  {
+    "url": "https://www.tangowithdjango.com/",
+    "name": "Tango with Django",
+    "tags": [
+      "kitap",
+      "python",
+      "ücretsiz"
+    ],
+    "tr": "Tek bir uygulama kurdurarak Django’yu anlatan ücretsiz başlangıç kitabı. Resmî öğreticiden farkı daha rehberli olması; hedeflediği Django sürümünü kontrol et.",
+    "en": "A free beginner book that teaches Django by building one application. Unlike the official tutorial it is more guided; check which Django version it targets.",
+    "src": "pycrumbs",
+    "added": 1791536400
   },
   {
     "url": "https://aosabook.org/en/index.html",
@@ -204,5 +269,18 @@
     "en": "A free book on simulating natural systems in code — forces, particles, flocking, cellular automata — delivering the maths through interactive examples rather than a pile of formulas.",
     "src": "kedi",
     "added": 1786615701
+  },
+  {
+    "url": "https://greenteapress.com/wp/think-python-2e/",
+    "name": "Think Python",
+    "tags": [
+      "kitap",
+      "python",
+      "ücretsiz"
+    ],
+    "tr": "Allen Downey’in programlamayı Python ile sıfırdan anlatan ücretsiz kitabı. Sözdizimiyle başlayan kitaplardan farkı problem çözme düşüncesini öğretmesi.",
+    "en": "Allen Downey’s free book teaching programming from scratch with Python. Unlike syntax-first books it teaches how to think through a problem.",
+    "src": "pycrumbs",
+    "added": 1791536400
   }
 ]

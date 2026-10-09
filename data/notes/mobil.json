@@ -35,6 +35,17 @@
     "src": "dsbest"
   },
   {
+    "url": "https://github.com/ProxymanApp/atlantis",
+    "name": "Atlantis",
+    "tags": [
+      "açık-kaynak"
+    ],
+    "tr": "iOS uygulamasının HTTP/HTTPS ve WebSocket trafiğini proxy ayarı yapmadan Proxyman’a aktaran Swift çerçevesi. Proxy kurup sertifika yüklemekten farkı uygulamaya bir çerçeve eklemenin yetmesi.",
+    "en": "A Swift framework that sends an iOS app’s HTTP/HTTPS and WebSocket traffic to Proxyman without a proxy setup. Unlike configuring a proxy and installing a certificate it only needs a framework added to the app.",
+    "src": "favlink",
+    "added": 1791536400
+  },
+  {
     "url": "https://github.com/JStumpp/awesome-android",
     "name": "Awesome Android",
     "tags": [
@@ -358,6 +369,19 @@
     "src": "awesome-uw"
   },
   {
+    "url": "https://kivy.org/",
+    "name": "Kivy",
+    "tags": [
+      "açık-kaynak",
+      "python",
+      "ücretsiz"
+    ],
+    "tr": "Çoklu dokunma destekli arayüzler için Python çatısı; masaüstü ve mobilde tek kod tabanı. Tkinter’den farkı dokunmatik ve mobili hedeflemesi.",
+    "en": "A Python framework for multi-touch interfaces with one codebase for desktop and mobile. Unlike Tkinter it targets touch and mobile.",
+    "src": "pycrumbs",
+    "added": 1791536400
+  },
+  {
     "url": "https://www.kodeco.com",
     "name": "Kodeco",
     "tags": [
@@ -416,6 +440,18 @@
     "tr": "İleri Swift ve iOS üzerine kitaplar (Advanced Swift, Thinking in SwiftUI) ve Swift Talk video serisi. Başlangıç kurslarından farkı dilin iç işleyişine ve uygulama mimarisine inmesi.",
     "en": "Books (Advanced Swift, Thinking in SwiftUI) and the Swift Talk video series on advanced Swift and iOS. Unlike beginner courses, it goes into the language’s internals and app architecture.",
     "src": "dsbest"
+  },
+  {
+    "url": "https://github.com/ImranR98/Obtainium",
+    "name": "Obtainium",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Android uygulamalarını doğrudan yayın sayfalarından (GitHub, GitLab, F-Droid ve diğerleri) kurup güncelleyen uygulama. Mağaza güncellemelerinden farkı geliştiricinin kendi sürümünü izlemesi.",
+    "en": "An Android app that installs and updates apps straight from their release pages (GitHub, GitLab, F-Droid and others). Unlike store updates it follows the developer’s own releases.",
+    "src": "favlink",
+    "added": 1791536400
   },
   {
     "url": "https://o3de.org/",

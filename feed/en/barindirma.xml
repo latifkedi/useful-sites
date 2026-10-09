@@ -5,7 +5,21 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/en/barindirma.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/barindirma.xml</id>
-<updated>2026-09-18T00:00:00Z</updated>
+<updated>2026-10-09T09:00:00Z</updated>
+<entry>
+  <title>LinkStack</title>
+  <link href="https://github.com/LinkStackOrg/LinkStack"/>
+  <id>https://github.com/LinkStackOrg/LinkStack</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>A self-hosted link-in-bio platform with an admin panel, written in PHP. Unlike LittleLink (a static page you edit by hand) it adds user accounts and a web editor.</summary>
+</entry>
+<entry>
+  <title>PythonAnywhere</title>
+  <link href="https://www.pythonanywhere.com/"/>
+  <id>https://www.pythonanywhere.com/</id>
+  <updated>2026-10-09T09:00:00Z</updated>
+  <summary>A cloud service that hosts Python apps and gives browser consoles, with a free tier. Unlike general PaaS it is built for Python only and works in the browser with no setup.</summary>
+</entry>
 <entry>
   <title>Awesome DigitalOcean</title>
   <link href="https://github.com/jonleibowitz/awesome-digitalocean"/>
@@ -271,19 +285,5 @@
   <id>https://feedly.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>An RSS reader where you decide what you read at the source level, unlike algorithmic feeds — and nothing you have not read disappears.</summary>
-</entry>
-<entry>
-  <title>Fly.io</title>
-  <link href="https://fly.io"/>
-  <id>https://fly.io</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Runs app containers at edge locations close to users, with global deploy, Postgres and volumes. Compared with Render or Railway, it runs your app in many places around the world at once rather than one region.</summary>
-</entry>
-<entry>
-  <title>Koyeb</title>
-  <link href="https://www.koyeb.com"/>
-  <id>https://www.koyeb.com</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Deploys apps and containers globally, git-driven and serverless with scale-to-zero. Compared with Heroku it offers scale-to-zero and GPU instances, so you do not pay for idle services.</summary>
 </entry>
 </feed>
