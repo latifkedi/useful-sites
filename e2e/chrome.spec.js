@@ -53,3 +53,32 @@ test("keyboard: Tab reaches the skip link first, / focuses search, Escape clears
   await expect(page.locator("#q")).toHaveValue("");
   await expect(page.locator("body")).toHaveClass(/at-home/);
 });
+
+test("export: bookmarks file is the browser import format and carries the whole list", async ({ page }) => {
+  await page.goto("/");
+  await ready(page);
+  const n = await page.evaluate(() => window.LINKS.length);
+  const [dl] = await Promise.all([
+    page.waitForEvent("download"),
+    page.locator('[data-exp="bookmarks"]').click(),
+  ]);
+  expect(dl.suggestedFilename()).toBe("baglantilar-tumu.html");
+  const text = require("fs").readFileSync(await dl.path(), "utf8");
+  expect(text.startsWith("<!DOCTYPE NETSCAPE-Bookmark-file-1>")).toBe(true);
+  expect((text.match(/<A HREF="/g) || []).length).toBe(n);
+  expect(text).toContain("<DT><H3");
+  expect(text).not.toMatch(/<A HREF="[^"]*"[^>]*>[^<]*<script/i);
+});
+
+test("export: bookmarks follow the filter", async ({ page }) => {
+  await page.goto("/?cat=web");
+  await ready(page);
+  const n = await page.evaluate(() => window.LINKS.filter(d => d.cat === "web").length);
+  const [dl] = await Promise.all([
+    page.waitForEvent("download"),
+    page.locator('[data-exp="bookmarks"]').click(),
+  ]);
+  expect(dl.suggestedFilename()).toBe("baglantilar-web.html");
+  const text = require("fs").readFileSync(await dl.path(), "utf8");
+  expect((text.match(/<A HREF="/g) || []).length).toBe(n);
+});

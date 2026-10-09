@@ -27,7 +27,7 @@ var T = {
     homeLabel:"Kullanışlı Siteler — Fihrist",
     menu:"Menü", tools:"Araçlar", langLabel:"İngilizceye geç", close:"Kapat",
     langName:"English", themeName:"Tema",
-    fxHead:"Fihrist", exp:"Dışa aktar:", filter:"Süz", fClear:"Temizle",
+    fxHead:"Fihrist", exp:"Dışa aktar:", bookmarks:"Yer imleri (HTML)", filter:"Süz", fClear:"Temizle",
     ph:"Ara: ad, açıklama, etiket, alan adı",
     count:function(n,t){return fmtN(n)+" / "+fmtN(t)+" bağlantı"},
     empty:"Eşleşen Bağlantı Yok",
@@ -102,7 +102,7 @@ var T = {
     homeLabel:"Useful Sites — Index",
     menu:"Menu", tools:"Tools", langLabel:"Switch to Turkish", close:"Close",
     langName:"Türkçe", themeName:"Theme",
-    fxHead:"Index", exp:"Export:", filter:"Filter", fClear:"Clear",
+    fxHead:"Index", exp:"Export:", bookmarks:"Bookmarks (HTML)", filter:"Filter", fClear:"Clear",
     ph:"Search: name, notes, tag, domain",
     count:function(n,t){return fmtN(n)+" / "+fmtN(t)+" links"},
     empty:"No Matching Links",
@@ -859,6 +859,7 @@ function paintChrome(L){
   $("#foot-t").innerHTML    = L.foot;
   $("#foot-kb").innerHTML   = L.kb;
   $("#l-exp").textContent   = L.exp;
+  $("#x-bm").textContent    = L.bookmarks;
   $("#f-title").textContent = L.filter;
   $("#f-clear").textContent = L.fClear;
   $("#f-close").setAttribute("aria-label", L.close);
@@ -1081,6 +1082,38 @@ function exportRows(){
             description:descOf(d)};
   });
 }
+/* Tarayicinin yer imi iceri aktarma bicimi (Netscape Bookmark File): Chrome,
+   Edge, Firefox ve Safari bunu okuyor. Gorunen liste (suzgecler dahil) alan ve
+   baslik klasorlerine ayrilarak yaziliyor; suzgec yoksa butun dizin. Chrome
+   <DD> aciklamalarini yok sayiyor, Firefox gosteriyor. */
+function bookmarksHTML(){
+  var NL = String.fromCharCode(10), now = Math.floor(Date.now()/1000);
+  var byCat = {};
+  sorted(data.filter(keep)).forEach(function(d){ (byCat[d.cat] = byCat[d.cat] || []).push(d) });
+  var out = ['<!DOCTYPE NETSCAPE-Bookmark-file-1>',
+    '<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">',
+    '<TITLE>Bookmarks</TITLE>', '<H1>Bookmarks</H1>', '<DL><p>',
+    '    <DT><H3 ADD_DATE="'+now+'">'+esc(T[lang].title)+'</H3>', '    <DL><p>'];
+  GROUPS.forEach(function(g){
+    var cats = g.cats.filter(function(k){ return byCat[k] });
+    if(!cats.length) return;
+    out.push('        <DT><H3 ADD_DATE="'+now+'">'+esc(g[lang])+'</H3>', '        <DL><p>');
+    cats.forEach(function(k){
+      out.push('            <DT><H3 ADD_DATE="'+now+'">'+esc(catName(k))+'</H3>', '            <DL><p>');
+      byCat[k].forEach(function(d){
+        var tg = (d.tags||[]).map(function(t){ return tagLabel(t).replace(/,/g, "") }).join(",");
+        out.push('                <DT><A HREF="'+esc(d.url)+'" ADD_DATE="'+d.added+'"'+(tg ? ' TAGS="'+esc(tg)+'"' : '')+'>'+
+                 esc(d.name)+'</A>');
+        var ds = descOf(d);
+        if(ds) out.push('                <DD>'+esc(ds));
+      });
+      out.push('            </DL><p>');
+    });
+    out.push('        </DL><p>');
+  });
+  out.push('    </DL><p>', '</DL><p>', "");
+  return out.join(NL);
+}
 function download(name, text, mime){
   var a = document.createElement("a");
   a.href = URL.createObjectURL(new Blob([text], {type:mime}));
@@ -1089,8 +1122,12 @@ function download(name, text, mime){
   setTimeout(function(){ URL.revokeObjectURL(a.href); a.remove() }, 0);
 }
 function exportAs(kind){
-  var rows = exportRows();
   var base = "baglantilar-" + (activeCat || "tumu");
+  if(kind === "bookmarks"){
+    download(base + ".html", bookmarksHTML(), "text/html;charset=utf-8");
+    return;
+  }
+  var rows = exportRows();
   if(kind === "json"){
     download(base + ".json", JSON.stringify({
       source:"Kullanışlı Siteler", checked:CHECKED, lang:lang,
