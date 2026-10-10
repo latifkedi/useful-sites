@@ -6,8 +6,9 @@
 The weekly scan gets 403 from sites behind a bot challenge (Cloudflare and the
 like) and cannot tell them from dead ones. Open the address yourself; if the
 real page loads, run this with the address exactly as it appears in the
-directory. Each one is written as "ok" with today's date, and a scan that keeps
-failing is then reported as held by manual.json instead of suspect. Addresses
+directory. Each one is written as "ok" with today's date and a date to look again
+("r", half a year on), and a scan that keeps failing is then reported as held by
+manual.json instead of suspect; when "r" comes the weekly report asks for a recheck. Addresses
 that are not in the directory are refused, so a typo cannot add a stray entry.
 """
 import datetime
@@ -19,6 +20,7 @@ import sys
 D = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, D)
 
+import linkstate   # noqa: E402
 import readlinks   # noqa: E402
 from ci_check import key   # noqa: E402
 
@@ -40,7 +42,7 @@ def main(urls):
         print('not in the directory (nothing written): ' + ', '.join(bad))
         return 1
     for u in urls:
-        manual[key(u)] = {'d': today, 's': 'ok', 'note': NOTE % today}
+        manual[key(u)] = {'d': today, 'r': linkstate.recheck_date(today), 's': 'ok', 'note': NOTE % today}
         print('ok  %s  (%s)' % (known[key(u)], u))
     io.open(path, 'w', encoding='utf-8', newline='\n').write(
         json.dumps(dict(sorted(manual.items())), ensure_ascii=False, indent=1) + '\n')

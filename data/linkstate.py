@@ -6,6 +6,7 @@ entry in verified.json moves from one scan to the next. Kept apart so the rules
 can be unit-tested in the build job, which does not install requests.
 """
 
+import datetime
 import re
 
 DEAD_CODES = {404, 410}
@@ -35,6 +36,58 @@ def github_target(url):
     if not name or name.lower() in GITHUB_TABS:
         return ('page', owner, None)
     return ('repo', owner, re.sub(r'\.git$', '', name).rstrip('.'))
+
+
+# A YouTube page is a JavaScript shell: the scan sees an empty or generic title
+# and almost no text, so "is the recorded name still on the page" has no answer.
+YOUTUBE = re.compile(r'https?://(?:[a-z0-9-]+\.)?(?:youtube\.com|youtu\.be)/', re.I)
+
+
+def name_check_applies(url, title):
+    """Whether "the name is missing from the page" can mean anything for this page.
+
+    ci_fresh's "name not on the page" list was half noise: 19 of its 50 entries
+    were YouTube channels and 34 had no <title> at all. A page with no title, and
+    a site whose page is a script shell, cannot be judged by its words.
+    """
+    return bool((title or '').strip()) and not YOUTUBE.match(url or '')
+
+
+# A decision made by hand is true on the day it is made. Sites change hands (es6console.com
+# went from a JavaScript console to a betting site), so every entry in manual.json
+# carries a date to look again, "r"; one written without it is due a year after "d".
+RECHECK_DAYS = 365
+
+
+def recheck_due(entry, today):
+    """Whether a manual.json entry is due for another look (ISO dates)."""
+    r = entry.get('r')
+    if r:
+        return r <= today
+    d = entry.get('d')
+    if not d:
+        return True
+    return (datetime.date.fromisoformat(d) + datetime.timedelta(days=RECHECK_DAYS)).isoformat() <= today
+
+
+def recheck_date(today, days=180):
+    """The "r" that a new manual.json entry gets: look again in half a year."""
+    return (datetime.date.fromisoformat(today) + datetime.timedelta(days=days)).isoformat()
+
+
+def orphan_keys(keys, urls, keyfn):
+    """Keys of verified.json (or manual.json) that no record in the directory carries.
+
+    A removed or re-addressed record leaves its entry behind; the file once held 251
+    such keys against 988 records. Matches a record by its key with and without the
+    query string, as the scan always has.
+    """
+    live = set()
+    for u in urls:
+        k = keyfn(u)
+        live.add(k)
+        live.add(re.split(r'[?#]', k)[0].rstrip('/'))
+    return sorted(k for k in keys if k not in live)
 
 
 def may_write(argv, env):

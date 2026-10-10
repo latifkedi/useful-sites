@@ -150,11 +150,16 @@ When a link is flagged but opens fine in a browser, record that in
 `verified.json`, but it respects `manual.json`:
 
 ```json
-{"example.com": {"s": "engel", "d": "2026-09-21", "note": "why"}}
+{"example.com": {"s": "engel", "d": "2026-09-21", "r": "2027-03-20", "note": "why"}}
 ```
 
 `s` is `ok` or `engel` (reachable, but the scanner is blocked). The key is the
 URL without scheme, `www` or trailing slash.
+
+`r` is the date to look at the decision again (`mark_ok.py` writes half a year
+ahead; an entry without one is due a year after `d`). When it comes, the weekly
+report lists the entry under "Manual decisions due for a recheck": sites change
+hands, and a decision that was true in October is not evidence in a year.
 
 To record sites you opened yourself, `python data/mark_ok.py <address> ...` writes the
 `ok` entries (address exactly as listed in the directory; unknown addresses are

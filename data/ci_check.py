@@ -42,7 +42,7 @@ urllib3.disable_warnings()
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import readlinks  # noqa: E402
 from notes import key  # noqa: E402
-from linkstate import classify, next_state, may_write, DEAD_AFTER  # noqa: E402
+from linkstate import classify, next_state, may_write, recheck_due, orphan_keys, DEAD_AFTER  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UA = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
@@ -106,6 +106,10 @@ def load_manual():
     bad = [k for k, v in data.items() if v.get('s') not in MANUAL_STATES]
     if bad:
         raise ValueError('manual.json: "s" must be one of %s -- %s' % (MANUAL_STATES, bad[:3]))
+    nodate = [k for k, v in data.items() if not re.match(r'^\d{4}-\d{2}-\d{2}$', v.get('d', ''))
+              or ('r' in v and not re.match(r'^\d{4}-\d{2}-\d{2}$', v['r']))]
+    if nodate:
+        raise ValueError('manual.json: "d" (and "r", if given) must be YYYY-MM-DD -- %s' % nodate[:3])
     return data
 
 
@@ -127,12 +131,7 @@ def write_verified(links, results, manual, today):
     # Entries removed from the directory leave their verification behind. The
     # file had once accumulated 251 such keys against 988 records. Anything
     # with no record is dropped on each run.
-    live = set()
-    for l in links:
-        k = key(l['url'])
-        live.add(k)
-        live.add(re.split(r'[?#]', k)[0].rstrip('/'))
-    for k in [k for k in ver if k not in live]:
+    for k in orphan_keys(ver, [l['url'] for l in links], key):
         del ver[k]
 
     if may_write(sys.argv, os.environ):
@@ -150,6 +149,9 @@ def _row(r, extra=''):
 
 def report(links, results, final, manual, today):
     failing = [r for r in results.values()]
+    due = [{'name': l['name'], 'cat': l.get('cat_tr', ''), 'url': l['url'],
+            'status': 'd=%s r=%s' % (manual[key(l['url'])].get('d'), manual[key(l['url'])].get('r', '-'))}
+           for l in links if key(l['url']) in manual and recheck_due(manual[key(l['url'])], today)]
     over = [r for r in failing if key(r['url']) in manual]
     rest = [r for r in failing if key(r['url']) not in manual]
     dead = [r for r in rest if final.get(r['url']) == 'olu']
@@ -160,7 +162,7 @@ def report(links, results, final, manual, today):
           % (len(links), len(dead), len(first), len(suspect), len(over)))
 
     path = os.path.join(ROOT, 'rapor.md')
-    if not failing:
+    if not failing and not due:
         if os.path.exists(path):
             os.remove(path)             # a clean week reads as clean
         return 0
@@ -180,6 +182,10 @@ def report(links, results, final, manual, today):
         (over, 'Held by manual.json (%d)' % len(over),
          'Still failing the scan, but a person checked these by hand and '
          'recorded a decision in data/manual.json. Revisit if it looks stale.'),
+        (due, 'Manual decisions due for a recheck (%d)' % len(due),
+         'A person decided these by hand, and the date to look again (r in manual.json, '
+         'or a year after d) has come. Open each in a browser; if it is still what the '
+         'directory says, run python data/mark_ok.py <address> to renew the decision.'),
     ]
     for rows, title, blurb in sections:
         if not rows:

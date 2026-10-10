@@ -110,6 +110,20 @@ def main():
     check(gt('https://github.com/topics/rust') is None and gt('https://example.com/x') is None,
           'GitHub feature pages and other sites are neither')
 
+    print('linkstate: name check, recheck, orphans')
+    check(not linkstate.name_check_applies('https://www.youtube.com/@abdul_bari/videos', 'Abdul Bari'),
+          'a YouTube page cannot be judged by its words')
+    check(not linkstate.name_check_applies('https://example.com/', '  '), 'a page with no title cannot be judged by its words')
+    check(linkstate.name_check_applies('https://example.com/', 'Example'), 'an ordinary page with a title can')
+    check(linkstate.recheck_due({'d': '2025-01-01'}, '2026-10-10'), 'a decision older than a year is due without an r')
+    check(not linkstate.recheck_due({'d': '2026-06-01'}, '2026-10-10'), 'a recent decision without an r is not due')
+    check(linkstate.recheck_due({'d': '2026-06-01', 'r': '2026-10-01'}, '2026-10-10'), 'a passed r is due')
+    check(not linkstate.recheck_due({'d': '2026-01-01', 'r': '2027-01-01'}, '2026-10-10'), 'r overrides the year rule')
+    check(linkstate.recheck_date('2026-10-10') == '2027-04-08', 'a new decision is looked at again in 180 days')
+    check(linkstate.orphan_keys(['a.com', 'b.com/x', 'gone.com'], ['https://a.com/', 'https://b.com/x?y=1'],
+                                lambda u: u.split('://')[1].rstrip('/')) == ['gone.com'],
+          'orphan_keys finds the key no record carries, matching with or without the query')
+
     print('linkstate.may_write')
     check(not linkstate.may_write(['ci_check.py'], {}), 'a scan run by hand leaves verified.json and health.json alone')
     check(linkstate.may_write(['ci_check.py', '--write'], {}), '--write lets a scan refresh them')

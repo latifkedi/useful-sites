@@ -37,6 +37,7 @@ urllib3.disable_warnings()
 D = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(D)
 sys.path.insert(0, D)
+import linkstate                       # noqa: E402
 import readlinks                        # noqa: E402
 
 UA = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
@@ -125,6 +126,7 @@ def fetch(d):
     urun_adi = (len(d['name'].split()) <= 3
                 and not re.search(r'[şğıİöçüŞĞÖÇÜ]', d['name']))
     if (ad and urun_adi and len(text) > 2500
+            and linkstate.name_check_applies(d['url'], title)
             and not (ad & words(title))
             and not (ad & words(text[:8000]))):
         out['flags'].append('ad-yok')

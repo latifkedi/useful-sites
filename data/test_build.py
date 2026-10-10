@@ -26,8 +26,10 @@ D = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(D)
 sys.path.insert(0, D)
 
+import linkstate                        # noqa: E402
 import readlinks                        # noqa: E402
 from notes import CATS, GROUPS, FIELD_NOTES, load_records  # noqa: E402
+from notes import key as notes_key     # noqa: E402
 from intros import INTROS               # noqa: E402
 from picks import PICKS                 # noqa: E402
 from sources import SOURCES             # noqa: E402
@@ -73,6 +75,16 @@ def main():
     links_src = io.open(os.path.join(ROOT, 'links.js'), encoding='utf-8').read()
     check('"tr":"' not in links_src.split('window.LINKS=', 1)[1],
           'links.js carries no descriptions (they live in desc.tr.js and links.en.js)')
+
+    print('verification data')
+    _ver = json.load(io.open(os.path.join(ROOT, 'data', 'verified.json'), encoding='utf-8'))
+    _orph = linkstate.orphan_keys(_ver, [d['url'] for d in rows], notes_key)
+    check(not _orph, 'verified.json has no key that no record carries'
+          + (' -- %s' % _orph[:3] if _orph else ''))
+    _man = json.load(io.open(os.path.join(ROOT, 'data', 'manual.json'), encoding='utf-8'))
+    _morph = linkstate.orphan_keys(_man, [d['url'] for d in rows], notes_key)
+    check(not _morph, 'manual.json has no decision about a record that is gone'
+          + (' -- %s' % _morph[:3] if _morph else ''))
 
     print('records')
     eksik = [d['name'] for d in rows
