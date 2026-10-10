@@ -61,6 +61,7 @@ overwrites it.
 | `linkstate.py` | The scan rules (what counts as dead, how a record moves between scans), kept network-free so they are unit-tested |
 | `ci_github.py` | Archive and staleness audit for linked GitHub repositories; writes `health.json` |
 | `ci_fresh.py` | Asks whether a link is still the thing we described — takeovers, parked domains, dated claims |
+| `coverage.py` | Counts records per topic to spot thin areas (a rough word match); the scope section of `CONTRIBUTING.md` quotes it |
 | `test_build.py` | Smoke test over the build output; run it before committing |
 | `test_helpers.py` | Unit tests for the note loader/validator and the pure helpers |
 | `synonyms.py` | Search synonym groups (TR/EN equivalents, abbreviations); emitted into `links.js` |

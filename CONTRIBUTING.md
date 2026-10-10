@@ -34,6 +34,35 @@ What is turned away, and why:
 | Links that do not resolve | Checked before acceptance |
 | Pure marketing pages with no product behind them | Nothing to describe |
 
+## Where the directory is thin, and what it leaves out on purpose
+
+`python data/coverage.py` counts how many records touch a set of topics (a rough
+instrument: it matches words, so it finds a gap, it does not measure one).
+
+**Wanted** — topics a programmer, data person or maker looks for and the
+directory barely has (as of 6 October 2026, matching records in brackets):
+WebAssembly (2), regular expressions (8), accessibility (10), LaTeX and
+typesetting (3), maps and GIS (4), low-code and no-code (3), cryptography for
+learners (12). A suggestion in one of these is welcome even if it is not
+famous; the question is still whether a description of how it differs can be
+written.
+
+**Left out on purpose** — these are not gaps, and a suggestion there will
+usually be turned away:
+- The natural sciences as a subject. Chemistry (4), biology and genomics (2)
+  and astronomy (14) are thin because the directory takes science as data,
+  tools and open access (one category, *Bilim & Akademik*), not as a general
+  science directory. A genome browser or an open dataset fits; a popular
+  astronomy blog does not.
+- Hobby and leisure sites with no tool, data or learning path behind them
+  (chess, music listings, entertainment, shopping).
+- News and opinion, except where a source is a standing reference (a changelog,
+  a newsletter a field depends on).
+- Anything whose entry could only say what it is, never how it differs.
+
+This list is a decision, not a law: if you think a line is drawn wrongly, say
+so in an issue with an example.
+
 A link being popular is not itself a reason to include it, and a link being
 obscure is not a reason to exclude it. The question is whether a description
 can be written that helps someone choose.
