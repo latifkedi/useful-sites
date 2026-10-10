@@ -403,7 +403,9 @@ function singleHTML(L, d){
       ? '<h2 class="sh">'+esc(L.rel)+'<span class="n">'+rel.length+'</span></h2><div class="recs">'+
         rel.map(function(x, i){ return itemHTML(x, i + 1, {}) }).join("")+'</div>'
       : '')+
-    '<p class="onemore"><a href="?cat='+esc(d.cat)+'" data-cat="'+esc(d.cat)+'">'+esc(L.backCat)+'</a></p>'+
+    '<p class="onemore"><a href="?cat='+esc(d.cat)+'" data-cat="'+esc(d.cat)+'">'+esc(L.backCat)+'</a>'+
+      ' · <a class="fix" href="'+esc(fixURL(d))+'" target="_blank" rel="noopener noreferrer" title="'+esc(L.fixTip)+'">'+
+      esc(L.fix)+'</a></p>'+
   '</div>';
 }
 

@@ -82,3 +82,34 @@ test("export: bookmarks follow the filter", async ({ page }) => {
   const text = require("fs").readFileSync(await dl.path(), "utf8");
   expect((text.match(/<A HREF="/g) || []).length).toBe(n);
 });
+
+test("a single record offers a pre-filled report that names the entry", async ({ page }) => {
+  await page.goto("/");
+  await ready(page);
+  const rec = await page.evaluate(() => { const d = window.LINKS[0]; return { k: d._k, name: d.name, url: d.url } });
+  await page.goto("/?e=" + encodeURIComponent(rec.k));
+  await ready(page);
+  const href = await page.locator("a.fix").getAttribute("href");
+  const u = new URL(href);
+  expect(u.origin + u.pathname).toBe("https://github.com/latifkedi/useful-sites/issues/new");
+  expect(u.searchParams.get("template")).toBe("broken-entry.yml");
+  expect(u.searchParams.get("title")).toBe("[fix] " + rec.name);
+  expect(u.searchParams.get("url")).toBe(rec.url);
+});
+
+test("a record missing from the scan for weeks carries a badge; a fresh one does not", async ({ page }) => {
+  /* Serve links.js with the first record's verification date moved back to 2020. */
+  await page.route("**/links.js*", async route => {
+    const res = await route.fetch();
+    const body = (await res.text()).replace(/"ver":"[0-9-]+"/, '"ver":"2020-01-01"');
+    await route.fulfill({ response: res, body });
+  });
+  await page.goto("/");
+  await ready(page);
+  const cat = await page.evaluate(() => window.LINKS.find(d => d.ver === "2020-01-01").cat);
+  await page.goto("/?cat=" + cat);
+  await ready(page);
+  await expect(page.locator('.badge.chk[title*="2020-01-01"]')).toHaveCount(1);
+  const fresh = await page.evaluate(() => window.LINKS.filter(d => d.ver && d.ver !== "2020-01-01").length);
+  expect(fresh).toBeGreaterThan(100);
+});

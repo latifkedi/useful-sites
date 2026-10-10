@@ -10,11 +10,17 @@
 var PER_PAGE = 20;
 /* Son kontrol tarihi elle yaziliydi ("20.08.2026") ve haftalik tarama calistikca
    eskiyordu. Artik kayitlardaki en yeni dogrulama tarihinden turuyor. */
-var CHECKED  = (function(){
+var CHECKED_ISO = (function(){
   var m = "";
   (window.LINKS || []).forEach(function(d){ if(d.ver && d.ver > m) m = d.ver });
-  return m ? m.slice(8, 10) + "." + m.slice(5, 7) + "." + m.slice(0, 4) : "";
+  return m;
 })();
+var CHECKED  = CHECKED_ISO ? CHECKED_ISO.slice(8, 10) + "." + CHECKED_ISO.slice(5, 7) + "." + CHECKED_ISO.slice(0, 4) : "";
+/* Bir kayit son taramadan bu kadar gun once dogrulandiysa kartta isaret tasiyor. Olcu
+   en yeni dogrulamaya gore: tarama haftalik, yani birkac haftalik bir bosluk "bu kayit
+   taramadan dusmus" demek; butun dizin eskiyse (tarama durduysa) her kartta degil,
+   altbilgideki "son kontrol" tarihinde gorunuyor. */
+var STALE_DAYS = 21;
 var REPO     = "https://github.com/latifkedi/useful-sites";
 /* Link directories share a fate: they rot. An archive link on every entry
    means a record does not lose all of its value when the site goes. */
@@ -67,6 +73,9 @@ var T = {
     backCat:"← Bu başlıktaki diğer kayıtlar", permaTip:"Bu kayda bağlantı", perma:"bağlantı",
     recent:"Son Eklenenler", recentLead:function(n){ return "Dizine en son giren "+n+" kayıt, aya göre." },
     dead:"Ölü", deadTip:"Son taramada yanıt vermedi — arşivden bak",
+    stale:"Eski kontrol", staleTip:function(d){ return "Son doğrulama " + d + " — bu kayıt birkaç haftadır taramada yok" },
+    unchecked:"Kontrol yok", uncheckedTip:"Bu kayıt henüz taranmadı; ilk taramada doğrulanacak",
+    fix:"Bu kayıtla ilgili sorun bildir", fixTip:"Ölü bağlantı, yanlış açıklama ya da yanlış karşılaştırma için GitHub’da önceden doldurulmuş bir form açılır",
     repo:{'arşiv':"Depo Arşivlenmiş", 'bayat':"Depo Durgun", 'yok':"Depo Silinmiş"},
     repoTip:{
       'arşiv':"Kaynak deposu salt okunur; bakım durmuş. Sayfa açılıyor olabilir.",
@@ -142,6 +151,9 @@ var T = {
     backCat:"← Other entries under this heading", permaTip:"Link to this entry", perma:"link",
     recent:"Recently Added", recentLead:function(n){ return "The "+n+" newest entries, by month." },
     dead:"Dead", deadTip:"No response in the last scan — try the archive",
+    stale:"Stale check", staleTip:function(d){ return "Last verified " + d + " — this record has been missing from the scan for weeks" },
+    unchecked:"Unchecked", uncheckedTip:"This record has not been scanned yet; the next scan will verify it",
+    fix:"Report a problem with this entry", fixTip:"Opens a pre-filled GitHub form for a dead link, a wrong description or a comparison that is off",
     repo:{'arşiv':"Repo Archived", 'bayat':"Repo Dormant", 'yok':"Repo Deleted"},
     repoTip:{
       'arşiv':"The source repository is read-only; maintenance has stopped. The page may still load.",
@@ -439,6 +451,14 @@ function itemHTML(d, n, o){
     rt = '<span class="badge repo '+(d.hs==="bayat"?"warn":"stop")+'" title="'+
          esc(typeof tip === "function" ? tip(d.hp) : tip)+'">'+esc(L.repo[d.hs])+'</span>';
   }
+  /* Güven isareti yalnizca istisnada: kayitlarin cogu ayni gunden dogrulandigi icin
+     her karta tarih basmak bilgi tasimiyor. Eski ya da hic taranmamis olan isaretleniyor. */
+  var chk = "";
+  if(!d.dead){
+    if(!d.ver) chk = '<span class="badge chk" title="'+esc(L.uncheckedTip)+'">'+esc(L.unchecked)+'</span>';
+    else if(CHECKED_ISO && (Date.parse(CHECKED_ISO) - Date.parse(d.ver)) / 864e5 > STALE_DAYS)
+      chk = '<span class="badge chk" title="'+esc(L.staleTip(d.ver))+'">'+esc(L.stale)+'</span>';
+  }
   var meta = ['<span class="badge src'+(d.src!=="kedi"?' ext':'')+'" title="'+esc(srcNote(d))+'">'+
                 esc(srcLabel(d))+'</span>'];
   if(o.year) meta.push('<span class="age">'+whenOf(d)+'</span>');
@@ -460,7 +480,7 @@ function itemHTML(d, n, o){
               esc(catLbl(d.cat, lang))+'</a></p>' : '')+
     '<div class="nm">'+(o.big ? '<h1 class="ph">'+ad+'</h1>' : ad)+
       (d.pick ? '<span class="pk" title="'+esc(L.pickTip)+'">◆ '+esc(L.hStart)+'</span>' : '')+
-      (d.dead ? '<span class="badge dead" title="'+esc(L.deadTip)+'">'+esc(L.dead)+'</span>' : '')+rt+
+      (d.dead ? '<span class="badge dead" title="'+esc(L.deadTip)+'">'+esc(L.dead)+'</span>' : '')+chk+rt+
       '<span class="host">'+esc(d._h)+'</span></div>'+
     '<p class="desc">'+descHTML(d)+'</p>'+
     '<div class="mt">'+(tags ? '<span class="itags">'+tags+'</span>' : '')+
@@ -902,7 +922,9 @@ function singleHTML(L, d){
       ? '<h2 class="sh">'+esc(L.rel)+'<span class="n">'+rel.length+'</span></h2><div class="recs">'+
         rel.map(function(x, i){ return itemHTML(x, i + 1, {}) }).join("")+'</div>'
       : '')+
-    '<p class="onemore"><a href="?cat='+esc(d.cat)+'" data-cat="'+esc(d.cat)+'">'+esc(L.backCat)+'</a></p>'+
+    '<p class="onemore"><a href="?cat='+esc(d.cat)+'" data-cat="'+esc(d.cat)+'">'+esc(L.backCat)+'</a>'+
+      ' · <a class="fix" href="'+esc(fixURL(d))+'" target="_blank" rel="noopener noreferrer" title="'+esc(L.fixTip)+'">'+
+      esc(L.fix)+'</a></p>'+
   '</div>';
 }
 
@@ -1312,6 +1334,15 @@ filt.addEventListener("click", function(e){
 var dlg = $("#sub"), subTab = "one", bulkNew = [], bulkStat = null;
 
 var nkey = ukey;   /* ayni kimlik: sema, www ve sondaki / atilmis adres */
+/* "Duzelt": broken-entry.yml formunu kaydin adresiyle onceden doldurur (alan kimlikleri
+   sablondaki id'ler: url, kind, detail). Sablon dosya adiyla seciliyor. */
+function fixURL(d){
+  var u = new URLSearchParams();
+  u.set("template", "broken-entry.yml");
+  u.set("title", "[fix] " + d.name);
+  u.set("url", d.url);
+  return REPO + "/issues/new?" + u.toString();
+}
 function bare(k){ return k.replace(/[?#].*$/, "").replace(/\/+$/, "") }
 
 /* Index of what is already here. Both the full and the query-stripped

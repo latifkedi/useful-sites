@@ -60,6 +60,14 @@ function itemHTML(d, n, o){
     rt = '<span class="badge repo '+(d.hs==="bayat"?"warn":"stop")+'" title="'+
          esc(typeof tip === "function" ? tip(d.hp) : tip)+'">'+esc(L.repo[d.hs])+'</span>';
   }
+  /* Güven isareti yalnizca istisnada: kayitlarin cogu ayni gunden dogrulandigi icin
+     her karta tarih basmak bilgi tasimiyor. Eski ya da hic taranmamis olan isaretleniyor. */
+  var chk = "";
+  if(!d.dead){
+    if(!d.ver) chk = '<span class="badge chk" title="'+esc(L.uncheckedTip)+'">'+esc(L.unchecked)+'</span>';
+    else if(CHECKED_ISO && (Date.parse(CHECKED_ISO) - Date.parse(d.ver)) / 864e5 > STALE_DAYS)
+      chk = '<span class="badge chk" title="'+esc(L.staleTip(d.ver))+'">'+esc(L.stale)+'</span>';
+  }
   var meta = ['<span class="badge src'+(d.src!=="kedi"?' ext':'')+'" title="'+esc(srcNote(d))+'">'+
                 esc(srcLabel(d))+'</span>'];
   if(o.year) meta.push('<span class="age">'+whenOf(d)+'</span>');
@@ -81,7 +89,7 @@ function itemHTML(d, n, o){
               esc(catLbl(d.cat, lang))+'</a></p>' : '')+
     '<div class="nm">'+(o.big ? '<h1 class="ph">'+ad+'</h1>' : ad)+
       (d.pick ? '<span class="pk" title="'+esc(L.pickTip)+'">◆ '+esc(L.hStart)+'</span>' : '')+
-      (d.dead ? '<span class="badge dead" title="'+esc(L.deadTip)+'">'+esc(L.dead)+'</span>' : '')+rt+
+      (d.dead ? '<span class="badge dead" title="'+esc(L.deadTip)+'">'+esc(L.dead)+'</span>' : '')+chk+rt+
       '<span class="host">'+esc(d._h)+'</span></div>'+
     '<p class="desc">'+descHTML(d)+'</p>'+
     '<div class="mt">'+(tags ? '<span class="itags">'+tags+'</span>' : '')+

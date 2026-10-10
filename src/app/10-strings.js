@@ -43,6 +43,9 @@ var T = {
     backCat:"← Bu başlıktaki diğer kayıtlar", permaTip:"Bu kayda bağlantı", perma:"bağlantı",
     recent:"Son Eklenenler", recentLead:function(n){ return "Dizine en son giren "+n+" kayıt, aya göre." },
     dead:"Ölü", deadTip:"Son taramada yanıt vermedi — arşivden bak",
+    stale:"Eski kontrol", staleTip:function(d){ return "Son doğrulama " + d + " — bu kayıt birkaç haftadır taramada yok" },
+    unchecked:"Kontrol yok", uncheckedTip:"Bu kayıt henüz taranmadı; ilk taramada doğrulanacak",
+    fix:"Bu kayıtla ilgili sorun bildir", fixTip:"Ölü bağlantı, yanlış açıklama ya da yanlış karşılaştırma için GitHub’da önceden doldurulmuş bir form açılır",
     repo:{'arşiv':"Depo Arşivlenmiş", 'bayat':"Depo Durgun", 'yok':"Depo Silinmiş"},
     repoTip:{
       'arşiv':"Kaynak deposu salt okunur; bakım durmuş. Sayfa açılıyor olabilir.",
@@ -118,6 +121,9 @@ var T = {
     backCat:"← Other entries under this heading", permaTip:"Link to this entry", perma:"link",
     recent:"Recently Added", recentLead:function(n){ return "The "+n+" newest entries, by month." },
     dead:"Dead", deadTip:"No response in the last scan — try the archive",
+    stale:"Stale check", staleTip:function(d){ return "Last verified " + d + " — this record has been missing from the scan for weeks" },
+    unchecked:"Unchecked", uncheckedTip:"This record has not been scanned yet; the next scan will verify it",
+    fix:"Report a problem with this entry", fixTip:"Opens a pre-filled GitHub form for a dead link, a wrong description or a comparison that is off",
     repo:{'arşiv':"Repo Archived", 'bayat':"Repo Dormant", 'yok':"Repo Deleted"},
     repoTip:{
       'arşiv':"The source repository is read-only; maintenance has stopped. The page may still load.",

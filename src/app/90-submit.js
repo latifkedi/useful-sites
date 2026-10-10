@@ -11,6 +11,15 @@
 var dlg = $("#sub"), subTab = "one", bulkNew = [], bulkStat = null;
 
 var nkey = ukey;   /* ayni kimlik: sema, www ve sondaki / atilmis adres */
+/* "Duzelt": broken-entry.yml formunu kaydin adresiyle onceden doldurur (alan kimlikleri
+   sablondaki id'ler: url, kind, detail). Sablon dosya adiyla seciliyor. */
+function fixURL(d){
+  var u = new URLSearchParams();
+  u.set("template", "broken-entry.yml");
+  u.set("title", "[fix] " + d.name);
+  u.set("url", d.url);
+  return REPO + "/issues/new?" + u.toString();
+}
 function bare(k){ return k.replace(/[?#].*$/, "").replace(/\/+$/, "") }
 
 /* Index of what is already here. Both the full and the query-stripped
