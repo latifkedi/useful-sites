@@ -382,7 +382,13 @@
     "tr": "Tip ipuçlarından hem doğrulama hem OpenAPI şeması üretiyor; `/docs` adresinde çalışan bir test arayüzü kendiliğinden geliyor. Flask’tan farkı bu şemanın ve asenkron desteğin (ASGI) yerleşik gelmesi.",
     "en": "Derives validation and an OpenAPI schema from type hints, and a working test UI appears at `/docs` by itself. Unlike Flask, the schema and async support (ASGI) are built in.",
     "src": "kedi",
-    "added": 1776690062
+    "added": 1776690062,
+    "vs": [
+      {
+        "u": "https://flask.palletsprojects.com/en/stable/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://flask.palletsprojects.com/en/stable/",

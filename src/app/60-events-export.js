@@ -55,11 +55,25 @@ document.addEventListener("click", function(e){
     onlyPicks = false; activeSrc = null; pages = {}; update(true); scrollTop();
     return;
   }
+  var vsl = e.target.closest("[data-vs]");
+  if(vsl){
+    /* Karsilastirma: dogrudan o kaydin kendi sayfasina. */
+    e.preventDefault();
+    var rival = data[parseInt(vsl.dataset.vs, 10)];
+    if(rival){
+      q = ""; activeTags = []; activeCat = null; activeField = null; onlyPicks = false; activeSrc = null;
+      recent = false; pages = {}; single = rival._k; update(true); scrollTop();
+    }
+    return;
+  }
   var rl = e.target.closest("[data-rel]");
   if(rl){
     e.preventDefault();
     var target = data[parseInt(rl.dataset.rel, 10)];
     if(target){
+      /* single ve recent sifirlanmazsa kayit sayfasindan tiklanan "benzer" baglantisi
+         ayni sayfada kaliyordu: gorunum single'i her seyden once ciziyor. */
+      single = null; recent = false;
       q = target.name; activeTags = []; activeCat = null; activeField = null; onlyPicks = false; activeSrc = null;
       pages = {}; update(true); scrollTop();
     }

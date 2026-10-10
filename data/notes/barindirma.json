@@ -422,7 +422,13 @@
     ],
     "tr": "Kendi sunucunda çalışan dosya senkronizasyonu ve iş birliği paketi: takvim, kişiler, belge düzenleme, sohbet. Syncthing’den farkı web arayüzü ve paylaşım bağlantıları sunması — eşitleme değil, Google Workspace’in yerini almaya çalışıyor.",
     "en": "A self-hosted file sync and collaboration suite: calendar, contacts, document editing, chat. Where Syncthing only syncs, this adds a web interface and share links — it is aiming at Google Workspace rather than at Dropbox.",
-    "src": "cdcruz"
+    "src": "cdcruz",
+    "vs": [
+      {
+        "u": "https://syncthing.net/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://organicmaps.app/",
@@ -557,7 +563,13 @@
     ],
     "tr": "Cihazlar arası sürekli dosya eşitleme; merkezî sunucu yok, cihazlar doğrudan konuşuyor. Dropbox’tan farkı buluta hiç kopya çıkmaması — depolama kotası da yok, diskin kadar yer var.",
     "en": "Continuous file synchronisation between devices with no central server: the devices talk directly. Unlike Dropbox no copy ever reaches a cloud, and there is no storage quota — you have as much room as you have disk.",
-    "src": "cdcruz"
+    "src": "cdcruz",
+    "vs": [
+      {
+        "u": "https://nextcloud.com/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://tautulli.com/",

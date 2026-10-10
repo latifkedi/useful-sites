@@ -401,7 +401,13 @@
     "tr": "Bilgisayar bilimine girişin ölçüt kabul edilen dersi; C ile başlayıp Python ve SQL’e geçiyor. Çoğu çevrimiçi dersten farkı problem setlerinin otomatik değerlendirilmesi, yani geri bildirimin gerçek olması.",
     "en": "The benchmark introduction to computer science, starting in C and moving to Python and SQL. Unlike most online courses its problem sets are auto-graded, so the feedback is real.",
     "src": "kedi",
-    "added": 1775474670
+    "added": 1775474670,
+    "vs": [
+      {
+        "u": "https://github.com/ossu/computer-science",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://flukeout.github.io/",

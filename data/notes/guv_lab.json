@@ -140,7 +140,13 @@
     "tr": "Gerçekçi makineler; ipucu vermiyor, keşif ve araştırma yükü tamamen sende. TryHackMe’den farkı bu zorluk: OSCP hazırlığında sık kullanılmasının sebebi de bu.",
     "en": "Realistic machines with no hints — reconnaissance and research are entirely on you. Unlike TryHackMe it does not guide you, which is why it turns up so often in OSCP preparation.",
     "src": "kedi",
-    "added": 1753838707
+    "added": 1753838707,
+    "vs": [
+      {
+        "u": "https://tryhackme.com/",
+        "a": "rehberlik"
+      }
+    ]
   },
   {
     "url": "https://academy.hackthebox.com/",
@@ -243,7 +249,13 @@
     "tr": "Rehberli laboratuvarlar; her odada hangi aracı neden kullandığın anlatılıyor. Hack The Box’a göre elinden tutuyor, o yüzden ilk sızma testi deneyimi için daha uygun.",
     "en": "Guided labs that explain which tool you are using and why in each room. It holds your hand more than Hack The Box, which makes it the better first exposure to penetration testing.",
     "src": "kedi",
-    "added": 1753838719
+    "added": 1753838719,
+    "vs": [
+      {
+        "u": "https://www.hackthebox.com/",
+        "a": "rehberlik"
+      }
+    ]
   },
   {
     "url": "https://portswigger.net/web-security",

@@ -317,7 +317,13 @@
     ],
     "tr": "Şematik çizimden PCB yerleşimine kadar tüm elektronik tasarım akışını kapsayan açık kaynak paket. Eagle ve Altium’dan farkı katman veya kart boyutu sınırı olmaması — ücretsiz sürüm kısıtı diye bir şey yok.",
     "en": "An open-source suite covering the whole electronics design flow from schematic to PCB layout. Against Eagle and Altium there is no layer count or board size limit — no free-tier ceiling at all.",
-    "src": "cdcruz"
+    "src": "cdcruz",
+    "vs": [
+      {
+        "u": "https://easyeda.com",
+        "a": "platform"
+      }
+    ]
   },
   {
     "url": "https://www.youtube.com/playlist?list=PLUMWjy5jgHK3j74Z5Tq6Tso1fSfVWZC8L",
@@ -393,7 +399,13 @@
     "tr": "Parametrik CAD, tamamen tarayıcıda. Dosya değil veritabanı üzerinde çalışıyor, bu yüzden dallanma ve birleştirme Git gibi işliyor — SolidWorks’te olmayan bir şey.",
     "en": "Parametric CAD entirely in the browser, working on a database rather than files, so branching and merging behave like Git — something SolidWorks does not offer.",
     "src": "kedi",
-    "added": 1787156125
+    "added": 1787156125,
+    "vs": [
+      {
+        "u": "https://www.freecad.org/",
+        "a": "platform"
+      }
+    ]
   },
   {
     "url": "https://www.opencircuitsbook.com/",

@@ -22,7 +22,13 @@
     "tr": "Go’nun resmî turu; her örnek tarayıcıda çalıştırılıp değiştirilebiliyor. Kitaplardan farkı kurulum istemeden dili deneyerek öğretmesi; goroutine ve kanallar bölümü dilin asıl ayırt edici kısmı.",
     "en": "Go’s official tour, with every example runnable and editable in the browser. Unlike a book, it teaches the language hands-on with nothing to install; the section on goroutines and channels is where Go really differs.",
     "src": "kedi",
-    "added": 1776690070
+    "added": 1776690070,
+    "vs": [
+      {
+        "u": "https://gobyexample.com/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://github.com/timofurrer/awesome-asyncio",

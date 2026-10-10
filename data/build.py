@@ -25,6 +25,7 @@ import collections
 D = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, D)
 from notes import load_records, key, CATS, GROUPS, FIELD_NOTES  # noqa: E402
+from axes import AXES, AXIS_KEYS  # noqa: E402
 from tags import normalise, LABELS, FACETS  # noqa: E402
 from picks import PICKS               # noqa: E402
 from sources import SOURCES           # noqa: E402
@@ -67,6 +68,8 @@ for n in load_records():
         rec['added'] = n['added']
     if n['url'] in PICKS:
         rec['pick'] = 1
+    if n.get('vs'):
+        rec['_vs'] = n['vs']          # resolved to positions once the list is sorted
     h = HEALTH.get(k) or HEALTH.get(_base(k))
     if h and h.get('s') in ('arşiv', 'bayat', 'yok'):
         rec['hs'] = h['s']
@@ -208,6 +211,14 @@ for i, r in enumerate(core):
             r['rel'] = r.get('rel', []) + [-mj]
             break
 
+# vs: the curated comparison, [position of the other record, axis number].
+# Positions in links.js, like rel; load_records already refused a target that is
+# not in the directory.
+_pos = {key(r['url']): i for i, r in enumerate(core)}
+for _i, _r in enumerate(out):
+    if _r.get('_vs'):
+        core[_i]['vs'] = [[_pos[key(e['u'])], AXIS_KEYS.index(e['a'])] for e in _r['_vs']]
+
 J = dict(ensure_ascii=False, separators=(',', ':'))
 groups = [{'key': k, 'tr': tr, 'en': en_, 'cats': cats,
            'note_tr': FIELD_NOTES[k][0], 'note_en': FIELD_NOTES[k][1]}
@@ -221,6 +232,7 @@ io.open(os.path.join(D, '..', 'links.js'), 'w', encoding='utf-8', newline='\n').
     'window.TAGLABELS=' + json.dumps(LABELS, **J) + ';\n'
     'window.TAGFACETS=' + json.dumps([[k, tr, en_, ts] for k, tr, en_, ts in FACETS], **J) + ';\n'
     'window.CATS=' + json.dumps([list(c) for c in CATS], **J) + ';\n'
+    'window.AXES=' + json.dumps([list(a) for a in AXES], **J) + ';\n'
     'window.GROUPS=' + json.dumps(groups, **J) + ';\n'
     'window.INTROS=' + json.dumps(INTROS, **J) + ';\n'
     'window.SYNONYMS=' + json.dumps(synonyms.GROUPS, **J) + ';\n'

@@ -75,6 +75,7 @@ var T = {
     dead:"Ölü", deadTip:"Son taramada yanıt vermedi — arşivden bak",
     stale:"Eski kontrol", staleTip:function(d){ return "Son doğrulama " + d + " — bu kayıt birkaç haftadır taramada yok" },
     unchecked:"Kontrol yok", uncheckedTip:"Bu kayıt henüz taranmadı; ilk taramada doğrulanacak",
+    vsHead:"Şununla karşılaştır", vsAxisLabel:"Fark: ",
     fix:"Bu kayıtla ilgili sorun bildir", fixTip:"Ölü bağlantı, yanlış açıklama ya da yanlış karşılaştırma için GitHub’da önceden doldurulmuş bir form açılır",
     repo:{'arşiv':"Depo Arşivlenmiş", 'bayat':"Depo Durgun", 'yok':"Depo Silinmiş"},
     repoTip:{
@@ -153,6 +154,7 @@ var T = {
     dead:"Dead", deadTip:"No response in the last scan — try the archive",
     stale:"Stale check", staleTip:function(d){ return "Last verified " + d + " — this record has been missing from the scan for weeks" },
     unchecked:"Unchecked", uncheckedTip:"This record has not been scanned yet; the next scan will verify it",
+    vsHead:"Compare with", vsAxisLabel:"Differs in: ",
     fix:"Report a problem with this entry", fixTip:"Opens a pre-filled GitHub form for a dead link, a wrong description or a comparison that is off",
     repo:{'arşiv':"Repo Archived", 'bayat':"Repo Dormant", 'yok':"Repo Deleted"},
     repoTip:{
@@ -301,6 +303,16 @@ var SRCMAP = window.SOURCES || {};
 var SRCCOUNT = {};
 data.forEach(function(d){ SRCCOUNT[d.src] = (SRCCOUNT[d.src]||0) + 1 });
 var INTROS = window.INTROS || {};
+/* Kuratorlu karsilastirma: kayit basina [rakibin sirasi, eksen]. Bir yonde yazilmis ama iki
+   yonde gosteriliyor: A "B'ye karsi" diyorsa B'nin sayfasinda da A cikiyor. */
+var AXES = window.AXES || [];
+var VSIDX = {};
+data.forEach(function(d, i){
+  (d.vs || []).forEach(function(e){
+    (VSIDX[i] = VSIDX[i] || []).push([e[0], e[1]]);
+    (VSIDX[e[0]] = VSIDX[e[0]] || []).push([i, e[1]]);
+  });
+});
 /* Kalici baglanti URL anahtarina bagli (sema, www ve sondaki / atilmis adres).
    Ilk surum kayit adini kullaniyordu; ayni adli iki kayit oldugunda baglanti
    yanlis kayda gidiyordu. Eski ?e=<ad> baglantilari icin ad dizini de duruyor. */
@@ -914,10 +926,22 @@ function listPageHTML(L, shown){
 }
 
 /* Tek kayit: yol izi, kaydin kendisi buyuk (ad h1), benzerleri, geri donus. */
+function vsHTML(L, d){
+  var list = VSIDX[d._i] || [], seen = {};
+  list = list.filter(function(e){ var k = e[0] + ":" + e[1]; if(seen[k]) return false; seen[k] = 1; return true });
+  if(!list.length) return "";
+  return '<h2 class="sh">'+esc(L.vsHead)+'<span class="n">'+list.length+'</span></h2><ul class="vs">'+
+    list.map(function(e){
+      var x = data[e[0]], ax = AXES[e[1]];
+      return '<li><a data-vs="'+e[0]+'" href="?e='+encodeURIComponent(x._k)+'">'+esc(x.name)+'</a><span class="ax">'+esc(L.vsAxisLabel)+esc(ax[lang === "tr" ? 1 : 2])+'</span></li>';
+    }).join("")+'</ul>';
+}
+
 function singleHTML(L, d){
   var rel = (d.rel||[]).map(function(i){ return data[i] }).filter(Boolean);
   return '<div class="one">'+crumbHTML(L, CATFIELD[d.cat], d.cat)+
     '<div class="recs">'+itemHTML(d, 0, {year: true, big: true})+'</div>'+
+    vsHTML(L, d)+
     (rel.length
       ? '<h2 class="sh">'+esc(L.rel)+'<span class="n">'+rel.length+'</span></h2><div class="recs">'+
         rel.map(function(x, i){ return itemHTML(x, i + 1, {}) }).join("")+'</div>'
@@ -1038,11 +1062,25 @@ document.addEventListener("click", function(e){
     onlyPicks = false; activeSrc = null; pages = {}; update(true); scrollTop();
     return;
   }
+  var vsl = e.target.closest("[data-vs]");
+  if(vsl){
+    /* Karsilastirma: dogrudan o kaydin kendi sayfasina. */
+    e.preventDefault();
+    var rival = data[parseInt(vsl.dataset.vs, 10)];
+    if(rival){
+      q = ""; activeTags = []; activeCat = null; activeField = null; onlyPicks = false; activeSrc = null;
+      recent = false; pages = {}; single = rival._k; update(true); scrollTop();
+    }
+    return;
+  }
   var rl = e.target.closest("[data-rel]");
   if(rl){
     e.preventDefault();
     var target = data[parseInt(rl.dataset.rel, 10)];
     if(target){
+      /* single ve recent sifirlanmazsa kayit sayfasindan tiklanan "benzer" baglantisi
+         ayni sayfada kaliyordu: gorunum single'i her seyden once ciziyor. */
+      single = null; recent = false;
       q = target.name; activeTags = []; activeCat = null; activeField = null; onlyPicks = false; activeSrc = null;
       pages = {}; update(true); scrollTop();
     }

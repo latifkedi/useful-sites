@@ -137,7 +137,13 @@
     "tr": "El çizimi görünümlü beyaz tahta. Kasıtlı olarak kaba durması bir üslup tercihi değil işlevsel: taslak aşamasındaki bir mimarinin bitmiş sanılmasını engelliyor.",
     "en": "A hand-drawn-style whiteboard. Looking deliberately rough is functional rather than stylistic — it stops a draft architecture being mistaken for a finished one.",
     "src": "kedi",
-    "added": 1787155896
+    "added": 1787155896,
+    "vs": [
+      {
+        "u": "https://www.drawio.com/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://fontforge.org/en-US/",
@@ -300,7 +306,13 @@
     ],
     "tr": "Tarayıcıda çalışan görsel editör; PSD, XCF, Sketch ve XD dosyalarını katmanlarıyla açıyor. GIMP’ten farkı kurulum gerektirmemesi ve PSD uyumluluğunun gerçekten iyi olması — başkasının gönderdiği PSD’yi açmak için en kısa yol.",
     "en": "An image editor in the browser that opens PSD, XCF, Sketch and XD files with their layers intact. Against GIMP it installs nothing and its PSD compatibility is genuinely good, which makes it the shortest path to opening a file someone sent you.",
-    "src": "cdcruz"
+    "src": "cdcruz",
+    "vs": [
+      {
+        "u": "https://www.gimp.org/",
+        "a": "platform"
+      }
+    ]
   },
   {
     "url": "https://www.piskelapp.com/",
@@ -397,7 +409,13 @@
     ],
     "tr": "Görsel sıkıştırmayı iki bölmede karşılaştırmalı gösteren araç; MozJPEG, WebP, AVIF kodlayıcılarını WebAssembly ile tarayıcıda çalıştırıyor. TinyPNG’den farkı dosyanın hiç yüklenmemesi ve her kodlayıcının ayarını elle kurcalayabilmen.",
     "en": "Image compression with a side-by-side comparison, running MozJPEG, WebP and AVIF encoders in the browser through WebAssembly. Unlike TinyPNG nothing is uploaded, and every encoder setting is yours to tune.",
-    "src": "cdcruz"
+    "src": "cdcruz",
+    "vs": [
+      {
+        "u": "https://tinypng.com/",
+        "a": "barindirma"
+      }
+    ]
   },
   {
     "url": "https://github.com/SubtitleEdit/subtitleedit",

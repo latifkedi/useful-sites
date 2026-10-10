@@ -592,7 +592,13 @@
     "tr": "Olay güdümlü mimarisi sayesinde on binlerce eşzamanlı bağlantıyı düşük bellekle taşıyor. Ters vekil ve yük dengeleyici olarak kullanımı, web sunucusu olmasından daha yaygın.",
     "en": "Its event-driven architecture carries tens of thousands of concurrent connections on little memory. It is used as a reverse proxy and load balancer more often than as a web server.",
     "src": "kedi",
-    "added": 1776690079
+    "added": 1776690079,
+    "vs": [
+      {
+        "u": "https://httpd.apache.org/docs/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://njal.la/",

@@ -151,7 +151,7 @@ FIELD_NOTES = {
 NOTES_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'notes')
 
 REQUIRED = ('url', 'name', 'tags', 'tr', 'en', 'src')
-OPTIONAL = ('added', 'review')
+OPTIONAL = ('added', 'review', 'vs')
 
 
 class NoteError(ValueError):
@@ -200,6 +200,32 @@ def validate(rec, sources):
         out.append('"added" must be an integer unix time')
     if 'review' in rec and not _text(rec['review']):
         out.append('"review" must be non-empty text')
+    if 'vs' in rec:
+        out.extend(_validate_vs(rec))
+    return out
+
+
+def _validate_vs(rec):
+    from axes import AXIS_KEYS
+    vs = rec['vs']
+    if not (isinstance(vs, list) and vs):
+        return ['"vs" must be a non-empty list of {"u": url, "a": axis}']
+    out, seen = [], set()
+    for i, e in enumerate(vs):
+        if not (isinstance(e, dict) and set(e) == {'u', 'a'}):
+            out.append('vs #%d must be {"u": url, "a": axis}' % (i + 1))
+            continue
+        if e['a'] not in AXIS_KEYS:
+            out.append('vs #%d: unknown axis %r (one of %s)' % (i + 1, e['a'], ', '.join(AXIS_KEYS)))
+        if not isinstance(e['u'], str):
+            out.append('vs #%d: "u" must be a URL' % (i + 1))
+            continue
+        k = key(e['u'])
+        if k == key(rec.get('url', '')):
+            out.append('vs #%d points at the record itself' % (i + 1))
+        if k in seen:
+            out.append('vs #%d repeats %s' % (i + 1, e['u']))
+        seen.add(k)
     return out
 
 
@@ -244,6 +270,14 @@ def load_records(notes_dir=NOTES_DIR, sources=None):
             r = dict(rec)
             r['cat'] = cat
             records.append(r)
+
+    # A comparison must name a record that is in the directory: a rival that has
+    # been removed or re-addressed would otherwise vanish from the page silently.
+    for r in records:
+        for e in r.get('vs', []):
+            if isinstance(e, dict) and isinstance(e.get('u'), str) and key(e['u']) not in seen:
+                errors.append('%s (%s): vs points at %s, which is not in the directory'
+                              % (r['name'], r['cat'], e['u']))
 
     if errors:
         shown = errors[:40]

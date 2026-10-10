@@ -112,6 +112,16 @@ var SRCMAP = window.SOURCES || {};
 var SRCCOUNT = {};
 data.forEach(function(d){ SRCCOUNT[d.src] = (SRCCOUNT[d.src]||0) + 1 });
 var INTROS = window.INTROS || {};
+/* Kuratorlu karsilastirma: kayit basina [rakibin sirasi, eksen]. Bir yonde yazilmis ama iki
+   yonde gosteriliyor: A "B'ye karsi" diyorsa B'nin sayfasinda da A cikiyor. */
+var AXES = window.AXES || [];
+var VSIDX = {};
+data.forEach(function(d, i){
+  (d.vs || []).forEach(function(e){
+    (VSIDX[i] = VSIDX[i] || []).push([e[0], e[1]]);
+    (VSIDX[e[0]] = VSIDX[e[0]] || []).push([i, e[1]]);
+  });
+});
 /* Kalici baglanti URL anahtarina bagli (sema, www ve sondaki / atilmis adres).
    Ilk surum kayit adini kullaniyordu; ayni adli iki kayit oldugunda baglanti
    yanlis kayda gidiyordu. Eski ?e=<ad> baglantilari icin ad dizini de duruyor. */

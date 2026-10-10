@@ -63,6 +63,8 @@ def main():
     check(len(rows) >= MIN_RECORDS,
           'records: %d (floor %d)' % (len(rows), MIN_RECORDS))
 
+    _l = io.open(os.path.join(ROOT, 'links.js'), encoding='utf-8').read()
+    AXES_JS = json.loads(_l[_l.index('window.AXES=') + 12:_l.index(';', _l.index('window.AXES='))])
     en = io.open(os.path.join(ROOT, 'links.en.js'), encoding='utf-8').read()
     en_list = json.loads(en[en.index('['):en.rindex(';')])
     en_n = len(en_list)
@@ -91,6 +93,14 @@ def main():
     _cift = [d['name'] for d in rows if len([t for t in d['tags'] if t in _maliyet]) != 1]
     check(not _cift, 'every record carries exactly one of ücretsiz / freemium / ücretli'
           + (' -- %d: %s' % (len(_cift), _cift[:3]) if _cift else ''))
+
+    print('comparisons (vs)')
+    _vs = [d for d in rows if d.get('vs')]
+    # A ratchet like the others: raise it as comparisons are written, never lower it.
+    check(len(_vs) >= 35, 'records that carry a curated comparison: %d (floor 35)' % len(_vs))
+    check(all(0 <= j < len(rows) and j != i and 0 <= a < len(AXES_JS)
+              for i, d in enumerate(rows) for j, a in d.get('vs', [])),
+          'every vs points at another record and a known axis')
 
     print('records')
     eksik = [d['name'] for d in rows

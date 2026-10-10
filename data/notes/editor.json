@@ -294,7 +294,13 @@
     ],
     "tr": "Eklenti ekosistemiyle en yaygın kod editörü; hafif açılıyor ama dil sunucuları ve hata ayıklayıcılarla bir IDE’ye yaklaşıyor. JetBrains gibi tam IDE’lerden farkı her dili eklentiyle alman: temel küçük, yetenek eklentiden geliyor.",
     "en": "The most widely used code editor: it starts light but approaches an IDE through language servers and debuggers. Unlike full IDEs such as JetBrains, every language comes as an extension — a small base with capability added on.",
-    "src": "awesomeproj"
+    "src": "awesomeproj",
+    "vs": [
+      {
+        "u": "https://vscodium.com/",
+        "a": "lisans"
+      }
+    ]
   },
   {
     "url": "https://vscodethemes.com/",

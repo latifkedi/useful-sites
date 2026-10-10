@@ -551,7 +551,13 @@
     ],
     "tr": "Microsoft’un çok tarayıcılı (Chromium, Firefox, WebKit) otomasyon ve test çatısı; üçünü tek API ile sürer. Selenium’dan farkı otomatik beklemesi ve tarayıcıyla WebDriver yerine kendi protokolü üzerinden konuşması.",
     "en": "Microsoft’s cross-browser (Chromium, Firefox, WebKit) automation and testing framework, driving all three from one API. Unlike Selenium, it waits automatically and talks to the browser over its own protocol rather than WebDriver.",
-    "src": "testsites"
+    "src": "testsites",
+    "vs": [
+      {
+        "u": "https://cypress.io",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://pokeapi.co/",

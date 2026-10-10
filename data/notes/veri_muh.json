@@ -223,7 +223,13 @@
     ],
     "tr": "Süreç içinde çalışan analitik veritabanı — kurulum yok, dosyayı doğrudan sorguluyor. Sunucu gerektiren ambarlardan farkı tek makinede, Parquet/CSV üstünde “SQLite hızında OLAP” olması.",
     "en": "An in-process analytical database — no server, it queries files directly. Unlike server-based warehouses it is “OLAP at SQLite speed” on one machine, over Parquet/CSV.",
-    "src": "dataeng"
+    "src": "dataeng",
+    "vs": [
+      {
+        "u": "https://sqlite.org/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://greatexpectations.io",

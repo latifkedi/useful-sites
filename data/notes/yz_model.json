@@ -320,7 +320,13 @@
     "tr": "llama.cpp üzerine kurulu, tek komutla model indirip çalıştıran araç. Doğrudan llama.cpp kullanmaktan farkı OpenAI uyumlu bir yerel API açması: mevcut istemci kodun değişmeden çalışıyor.",
     "en": "Built on llama.cpp; one command pulls and runs a model. Unlike using llama.cpp directly, it exposes an OpenAI-compatible local endpoint, so existing client code runs unchanged.",
     "src": "kedi",
-    "added": 1787000000
+    "added": 1787000000,
+    "vs": [
+      {
+        "u": "https://docs.vllm.ai/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://openwebui.com/",
@@ -400,7 +406,13 @@
     "tr": "Sorguyu web aramasına çevirip dönen sayfaları modele okutuyor, sonra her cümleye kaynak numarası iliştiriyor. Yani bir RAG hattı; modelin belleğine değil o anki arama sonuçlarına dayanıyor.",
     "en": "Turns your query into a web search, feeds the retrieved pages to a model, then footnotes each sentence. It is a RAG pipeline: answers rest on live search results, not the model’s memory.",
     "src": "kedi",
-    "added": 1740787299
+    "added": 1740787299,
+    "vs": [
+      {
+        "u": "https://notebooklm.google.com/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://replicate.com",

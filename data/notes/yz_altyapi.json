@@ -514,7 +514,13 @@
     "tr": "Çatı bağımsız LLM izleme ve değerlendirme; OpenTelemetry uyumlu. LangSmith gibi barındırılan servislerden farkı kendi sunucunda çalışabilmesi: istem ve yanıt verisi dışarı çıkmıyor.",
     "en": "Framework-agnostic LLM tracing and evaluation, OpenTelemetry-compatible. Unlike hosted services such as LangSmith you can self-host it, so prompt and response data never leaves your infrastructure.",
     "src": "kedi",
-    "added": 1787000000
+    "added": 1787000000,
+    "vs": [
+      {
+        "u": "https://smith.langchain.com/",
+        "a": "barindirma"
+      }
+    ]
   },
   {
     "url": "https://www.langchain.com/langgraph",
@@ -528,7 +534,13 @@
     "tr": "Agent akışını düğüm ve kenarlardan oluşan bir durum grafiği olarak tanımlıyorsun. Düz bir LangChain zincirinden farkı döngü, koşullu dallanma ve akışı durdurup insan onayı bekleme (interrupt) desteği.",
     "en": "You define agent flow as a state graph of nodes and edges. Unlike a flat LangChain chain, it supports loops, conditional branching and pausing for human approval (interrupts).",
     "src": "kedi",
-    "added": 1785059786
+    "added": 1785059786,
+    "vs": [
+      {
+        "u": "https://www.langchain.com/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://smith.langchain.com/",

@@ -112,4 +112,27 @@ test("a record missing from the scan for weeks carries a badge; a fresh one does
   await expect(page.locator('.badge.chk[title*="2020-01-01"]')).toHaveCount(1);
   const fresh = await page.evaluate(() => window.LINKS.filter(d => d.ver && d.ver !== "2020-01-01").length);
   expect(fresh).toBeGreaterThan(100);
+  await page.waitForLoadState("networkidle");
+  await page.unroute("**/links.js*");
+});
+
+test("a record page lists what it is compared with, from either side", async ({ page }) => {
+  await page.goto("/");
+  await ready(page);
+  const pair = await page.evaluate(() => {
+    const d = window.LINKS.find(x => x.name === "Squoosh");
+    const rival = window.LINKS[d.vs[0][0]];
+    return { a: d._k, b: rival._k, an: d.name, bn: rival.name };
+  });
+  await page.goto("/?e=" + encodeURIComponent(pair.a));
+  await ready(page);
+  await expect(page.locator("h2.sh", { hasText: "Compare with" })).toBeVisible();
+  await expect(page.locator(".vs li", { hasText: pair.bn })).toContainText("Where it runs, where the data lives");
+  /* written on Squoosh only, shown on TinyPNG too */
+  await page.goto("/?e=" + encodeURIComponent(pair.b));
+  await ready(page);
+  await expect(page.locator(".vs li", { hasText: pair.an })).toBeVisible();
+  /* and the link leads to the other record's page */
+  await page.locator(".vs li a", { hasText: pair.an }).click();
+  await expect(page.locator("h1:visible")).toHaveText(pair.an);
 });

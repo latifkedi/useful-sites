@@ -25,6 +25,17 @@ Optional fields: `added` (unix time the link arrived; without it the date is
 derived from the source) and `review` (a note that the entry still needs a
 human pass — `test_build.py` fails while one is present).
 
+`vs` is the curated comparison: `"vs": [{"u": "https://rival.example", "a": "lisans"}]`
+names the entry this one is most naturally weighed against (it must be in the
+directory — the build refuses one that is not) and the one thing on which they
+part ways, from the closed list in `axes.py` (licence, price, where it runs and
+where the data lives, scope, approach, platform, guidance, maturity). Write it on
+one side only: the record page shows it on both. It is deliberately a short
+list — only where a rival is in the directory and the difference can be stated
+as fact; a free-text reason would be as unsearchable as the description it
+would copy. The record page (`?e=`) shows it as "Compare with"; the static
+pages under `k/` do not yet.
+
 Then run `python build.py`. The loader in `notes.py` checks every record
 before anything is written: a missing or unknown field, a non-http(s) URL, an
 undeclared source, a duplicate URL, broken JSON or a file for a category that

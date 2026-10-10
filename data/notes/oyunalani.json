@@ -22,7 +22,13 @@
     ],
     "tr": "HTML, CSS ve JavaScript’i tarayıcıda deneyip paylaştığın oyun alanı. JSFiddle’dan farkı keşif tarafı: başkalarının CSS numaralarını sökerek öğreniyorsun.",
     "en": "A browser playground for HTML, CSS and JavaScript. Unlike JSFiddle its real value is discovery — you learn by taking apart other people’s CSS tricks.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://jsfiddle.net",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://coderpad.io",
@@ -205,7 +211,13 @@
     "tr": "Onlarca dili tarayıcıda yazıp çalıştıran, iş birliğine açık bulut IDE’si; projeyi tek tıkla yayına alabiliyor. JSFiddle gibi parça alanlarından farkı dosya sistemi, paket kurulumu ve barındırmayla bütün bir projeyi çalıştırması.",
     "en": "A collaborative cloud IDE that writes and runs dozens of languages in the browser and can deploy a project in one click. Unlike snippet playgrounds such as JSFiddle, it runs whole projects with a filesystem, package installs and hosting.",
     "src": "awesomeproj",
-    "added": 1787000000
+    "added": 1787000000,
+    "vs": [
+      {
+        "u": "https://jsfiddle.net",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://runjs.app/play",

@@ -395,10 +395,22 @@ function listPageHTML(L, shown){
 }
 
 /* Tek kayit: yol izi, kaydin kendisi buyuk (ad h1), benzerleri, geri donus. */
+function vsHTML(L, d){
+  var list = VSIDX[d._i] || [], seen = {};
+  list = list.filter(function(e){ var k = e[0] + ":" + e[1]; if(seen[k]) return false; seen[k] = 1; return true });
+  if(!list.length) return "";
+  return '<h2 class="sh">'+esc(L.vsHead)+'<span class="n">'+list.length+'</span></h2><ul class="vs">'+
+    list.map(function(e){
+      var x = data[e[0]], ax = AXES[e[1]];
+      return '<li><a data-vs="'+e[0]+'" href="?e='+encodeURIComponent(x._k)+'">'+esc(x.name)+'</a><span class="ax">'+esc(L.vsAxisLabel)+esc(ax[lang === "tr" ? 1 : 2])+'</span></li>';
+    }).join("")+'</ul>';
+}
+
 function singleHTML(L, d){
   var rel = (d.rel||[]).map(function(i){ return data[i] }).filter(Boolean);
   return '<div class="one">'+crumbHTML(L, CATFIELD[d.cat], d.cat)+
     '<div class="recs">'+itemHTML(d, 0, {year: true, big: true})+'</div>'+
+    vsHTML(L, d)+
     (rel.length
       ? '<h2 class="sh">'+esc(L.rel)+'<span class="n">'+rel.length+'</span></h2><div class="recs">'+
         rel.map(function(x, i){ return itemHTML(x, i + 1, {}) }).join("")+'</div>'

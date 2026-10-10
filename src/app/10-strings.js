@@ -45,6 +45,7 @@ var T = {
     dead:"Ölü", deadTip:"Son taramada yanıt vermedi — arşivden bak",
     stale:"Eski kontrol", staleTip:function(d){ return "Son doğrulama " + d + " — bu kayıt birkaç haftadır taramada yok" },
     unchecked:"Kontrol yok", uncheckedTip:"Bu kayıt henüz taranmadı; ilk taramada doğrulanacak",
+    vsHead:"Şununla karşılaştır", vsAxisLabel:"Fark: ",
     fix:"Bu kayıtla ilgili sorun bildir", fixTip:"Ölü bağlantı, yanlış açıklama ya da yanlış karşılaştırma için GitHub’da önceden doldurulmuş bir form açılır",
     repo:{'arşiv':"Depo Arşivlenmiş", 'bayat':"Depo Durgun", 'yok':"Depo Silinmiş"},
     repoTip:{
@@ -123,6 +124,7 @@ var T = {
     dead:"Dead", deadTip:"No response in the last scan — try the archive",
     stale:"Stale check", staleTip:function(d){ return "Last verified " + d + " — this record has been missing from the scan for weeks" },
     unchecked:"Unchecked", uncheckedTip:"This record has not been scanned yet; the next scan will verify it",
+    vsHead:"Compare with", vsAxisLabel:"Differs in: ",
     fix:"Report a problem with this entry", fixTip:"Opens a pre-filled GitHub form for a dead link, a wrong description or a comparison that is off",
     repo:{'arşiv':"Repo Archived", 'bayat':"Repo Dormant", 'yok':"Repo Deleted"},
     repoTip:{
