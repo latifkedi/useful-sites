@@ -208,9 +208,8 @@
     "url": "https://feedly.com/",
     "name": "Feedly",
     "tags": [
-      "ücretli",
-      "freemium",
-      "api"
+      "api",
+      "freemium"
     ],
     "tr": "RSS okuyucu. Algoritmik akışların aksine ne okuyacağına kaynak düzeyinde sen karar veriyorsun; okumadığın şey de kaybolmuyor.",
     "en": "An RSS reader where you decide what you read at the source level, unlike algorithmic feeds — and nothing you have not read disappears.",
@@ -234,7 +233,8 @@
       "self-hosted",
       "sunucu",
       "docker",
-      "öğretici"
+      "öğretici",
+      "ücretsiz"
     ],
     "tr": "Docker Swarm üzerinde yüksek erişilebilir bir “özel bulut” kurmak için uçtan uca tarifler. Awesome-Selfhosted’un liste yaklaşımından farkı adım adım kurulum vermesi: hangi yazılımı seçeceğini değil, seçtiğini üretimde nasıl ayağa kaldıracağını anlatıyor.",
     "en": "End-to-end recipes for building a highly-available “private cloud” on Docker Swarm. Unlike Awesome-Selfhosted’s list approach it gives step-by-step deployment: not which software to pick, but how to stand up the one you picked in production.",
@@ -368,7 +368,8 @@
     "name": "LinkStack",
     "tags": [
       "açık-kaynak",
-      "self-hosted"
+      "self-hosted",
+      "ücretsiz"
     ],
     "tr": "Yönetim paneli olan, kendi sunucunda çalışan “biyografide bağlantı” platformu (PHP). LittleLink’ten (elle düzenlenen statik sayfa) farkı kullanıcı hesapları ve web üzerinden düzenleyici eklemesi.",
     "en": "A self-hosted link-in-bio platform with an admin panel, written in PHP. Unlike LittleLink (a static page you edit by hand) it adds user accounts and a web editor.",

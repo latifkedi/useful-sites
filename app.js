@@ -446,7 +446,9 @@ function itemHTML(d, n, o){
             'title="'+esc(L.archTip)+'">'+esc(L.arch)+'</a>');
   meta.push('<a class="arch perma" href="?e='+encodeURIComponent(d._k)+'" data-perma="'+esc(d._k)+'" '+
             'title="'+esc(L.permaTip)+'">'+esc(L.perma)+'</a>');
-  var tags = (d.tags||[]).map(function(t){
+  /* "ucretsiz" kayitlarin dortte uc'unde: kartta tekrarlanirsa bilgi vermiyor, yalnizca
+     ucretli ve freemium farki gosteriyor. Suzgecte duruyor. */
+  var tags = (d.tags||[]).filter(function(t){ return t !== "ücretsiz" }).map(function(t){
     return '<span data-tag="'+esc(t)+'">'+esc(tagLabel(t))+'</span>' }).join('<i>·</i>');
   var rel = (d.rel||[]).map(function(i){
     var x = data[i];   /* rel: LINKS icindeki sira numaralari */

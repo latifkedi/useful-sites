@@ -61,7 +61,8 @@
     "name": "AMI Labs",
     "tags": [
       "akademik",
-      "llm"
+      "llm",
+      "ücretsiz"
     ],
     "tr": "Dil yerine fiziksel dünyayı modelleyen sistemler üzerine çalışan araştırma şirketi; robotik ve endüstriyel denetim tarafına bakıyor.",
     "en": "A research company building systems that model the physical world rather than language, aimed at robotics and industrial control.",
@@ -301,10 +302,9 @@
     "url": "https://composio.dev/",
     "name": "Composio",
     "tags": [
-      "ücretli",
-      "freemium",
       "agent",
-      "api"
+      "api",
+      "freemium"
     ],
     "tr": "Bin küsur uygulama için hazır araç tanımı ve devredilmiş OAuth akışı sağlıyor. Her SaaS için kimlik doğrulama yazmak yerine yetkilendirmeyi ona devrediyorsun.",
     "en": "Ships ready tool definitions and delegated OAuth for a thousand-odd apps. Instead of writing auth per SaaS, you hand the authorisation off to it.",
@@ -534,9 +534,8 @@
     "url": "https://smith.langchain.com/",
     "name": "LangSmith",
     "tags": [
-      "ücretli",
-      "freemium",
-      "gözlemlenebilirlik"
+      "gözlemlenebilirlik",
+      "freemium"
     ],
     "tr": "Her zincir adımının girdi, çıktı, gecikme ve jeton sayısını ayrı ayrı gösteriyor. LangChain’e bağlı değil ama en sıkı entegrasyonu orada.",
     "en": "Shows input, output, latency and token count for every chain step separately. Not tied to LangChain, though that is where the integration is tightest.",
@@ -874,9 +873,8 @@
     "url": "https://wandb.ai/site/weave/",
     "name": "W&B Weave",
     "tags": [
-      "ücretli",
-      "freemium",
-      "gözlemlenebilirlik"
+      "gözlemlenebilirlik",
+      "freemium"
     ],
     "tr": "Weights & Biases’ın LLM tarafı. Ayrı bir izleme aracı kurmak yerine, zaten W&B ile eğitim izliyorsan çıkarım izleri de aynı proje altında toplanıyor.",
     "en": "The LLM side of Weights & Biases. Rather than setting up a separate tracing tool, if you already track training in W&B the inference traces land under the same project.",

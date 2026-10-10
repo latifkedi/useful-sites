@@ -38,7 +38,8 @@
     "url": "https://github.com/ProxymanApp/atlantis",
     "name": "Atlantis",
     "tags": [
-      "açık-kaynak"
+      "açık-kaynak",
+      "ücretsiz"
     ],
     "tr": "iOS uygulamasının HTTP/HTTPS ve WebSocket trafiğini proxy ayarı yapmadan Proxyman’a aktaran Swift çerçevesi. Proxy kurup sertifika yüklemekten farkı uygulamaya bir çerçeve eklemenin yetmesi.",
     "en": "A Swift framework that sends an iOS app’s HTTP/HTTPS and WebSocket traffic to Proxyman without a proxy setup. Unlike configuring a proxy and installing a certificate it only needs a framework added to the app.",
@@ -521,10 +522,9 @@
     "url": "https://rive.app/docs/runtimes/flutter/flutter",
     "name": "Rive (Flutter)",
     "tags": [
-      "ücretli",
-      "freemium",
       "görsel-üretim",
-      "masaüstü"
+      "masaüstü",
+      "freemium"
     ],
     "tr": "Vektör animasyonu uygulamaya gömüyor; Lottie’den farkı, animasyonun durum makinesi taşıyıp kullanıcı etkileşimine tepki verebilmesi. Dosya boyutu da belirgin küçük.",
     "en": "Embeds vector animation into an app. Unlike Lottie the animation carries a state machine and reacts to user interaction, and the file size is markedly smaller.",
@@ -561,7 +561,8 @@
     "tags": [
       "masaüstü",
       "c-ailesi",
-      "interaktif"
+      "interaktif",
+      "ücretsiz"
     ],
     "tr": "AAA yapımların motoru; Nanite ve Lumen ile gerçek zamanlı yüksek çözünürlüklü geometri ve küresel aydınlatma sunuyor. Unity’den farkı görsel üst sınırı ve Blueprint görsel betikleme — karşılığında daha ağır bir proje ve daha dik bir öğrenme eğrisi.",
     "en": "The engine behind AAA productions, offering real-time high-density geometry and global illumination through Nanite and Lumen. Against Unity it wins on visual ceiling and Blueprint visual scripting, and pays for it with heavier projects and a steeper climb.",

@@ -17,7 +17,8 @@
     "name": "BGE Modelleri",
     "tags": [
       "açık-ağırlık",
-      "embedding"
+      "embedding",
+      "ücretsiz"
     ],
     "tr": "Açık gömme modellerinin en yaygın ailesi. Ücretli gömme API’lerine kıyasla MTEB sıralamasında yakın duruyor ve çoğu sürüm MIT lisanslı: ticari kullanımda engel yok, veri makineden çıkmıyor.",
     "en": "The most widely used family of open embedding models. Compared with paid embedding APIs it sits close on the MTEB leaderboard, and most releases are MIT — commercial use is unblocked and data stays on your machine.",
@@ -178,9 +179,8 @@
     "url": "https://mem0.ai/",
     "name": "Mem0",
     "tags": [
-      "ücretli",
-      "freemium",
-      "agent"
+      "agent",
+      "freemium"
     ],
     "tr": "Konuşmadan çıkarılan olguları saklıyor, çelişenleri güncelliyor, alakasızları eliyor. Ham geçmişi biriktirmek yerine neyin hatırlanmaya değer olduğuna karar veren bir katman.",
     "en": "Stores facts extracted from conversation, updates contradictions and drops the irrelevant. A layer that decides what is worth remembering instead of accumulating raw history.",

@@ -209,7 +209,8 @@
     "name": "Digi-Key",
     "tags": [
       "donanım",
-      "referans"
+      "referans",
+      "ücretsiz"
     ],
     "tr": "Elektronik bileşen dağıtıcısı; katalog, veri sayfaları ve parametrik arama çok güçlü. Diğer dağıtıcılardan farkı stok derinliği ve tek adet satış — prototip için bir parça almak sorun değil.",
     "en": "An electronics component distributor with a strong catalogue, datasheets and parametric search. Against other distributors it wins on stock depth and single-unit sales — buying one part for a prototype is unremarkable here.",
@@ -259,7 +260,8 @@
     "tags": [
       "öğretici",
       "donanım",
-      "gömülü"
+      "gömülü",
+      "ücretsiz"
     ],
     "tr": "FPGA’ya donanım tanımlama dilleriyle giriş yapan projeler; her biri çalışan bir devre üretiyor. Üniversite derslerinden farkı doğrudan projeden başlaması — teoriden önce çalışan bir şey.",
     "en": "Projects that introduce FPGAs through hardware description languages, each producing a working circuit. Unlike a university course it starts from the project — something that works before any theory.",
@@ -297,7 +299,8 @@
       "sertifika",
       "gömülü",
       "donanım",
-      "güvenlik"
+      "güvenlik",
+      "ücretli"
     ],
     "tr": "Otomasyon mühendisliği derneği; IEC 62443 endüstriyel siber güvenlik standardının sertifikalarını veriyor. BT güvenlik kurumlarından farkı işletim teknolojisine bakması — bir fabrikada güvenlik önceliği gizlilik değil, sürekliliktir.",
     "en": "The automation engineering society, awarding certificates against the IEC 62443 industrial cybersecurity standard. Unlike IT security bodies it addresses operational technology, where the priority is not confidentiality but continuity.",
@@ -383,10 +386,9 @@
     "url": "https://www.onshape.com/en/",
     "name": "Onshape",
     "tags": [
-      "ücretli",
-      "freemium",
       "cad",
-      "tarayıcı-içi"
+      "tarayıcı-içi",
+      "freemium"
     ],
     "tr": "Parametrik CAD, tamamen tarayıcıda. Dosya değil veritabanı üzerinde çalışıyor, bu yüzden dallanma ve birleştirme Git gibi işliyor — SolidWorks’te olmayan bir şey.",
     "en": "Parametric CAD entirely in the browser, working on a database rather than files, so branching and merging behave like Git — something SolidWorks does not offer.",
@@ -549,7 +551,8 @@
     "tags": [
       "tarayıcı-içi",
       "gömülü",
-      "donanım"
+      "donanım",
+      "freemium"
     ],
     "tr": "Arduino, ESP32 ve STM32’yi tarayıcıda simüle eden ortam; sensör ve ekran gibi çevre birimleri de sanal. Gerçek donanımdan farkı kart beklemeden çalışabilmen — kodun mantığını lehim yapmadan doğruluyorsun.",
     "en": "Simulates Arduino, ESP32 and STM32 in the browser, with virtual sensors and displays attached. Against real hardware you start without waiting for a board — the logic gets verified before anything is soldered.",

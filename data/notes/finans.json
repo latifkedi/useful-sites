@@ -181,7 +181,8 @@
       "açık-kaynak",
       "api",
       "python",
-      "javascript"
+      "javascript",
+      "ücretsiz"
     ],
     "tr": "Yüzü aşkın kripto borsasına tek bir API ile bağlanan kütüphane (JavaScript, Python, PHP ve diğerleri). Her borsanın kendi SDK’sından farkı bir kez yazıp borsa değiştirebilmen.",
     "en": "A library giving one API over more than a hundred crypto exchanges (JavaScript, Python, PHP and others). Unlike each exchange’s own SDK you write once and switch exchange freely.",
@@ -315,7 +316,6 @@
     "name": "Finviz",
     "tags": [
       "interaktif",
-      "ücretsiz",
       "freemium"
     ],
     "tr": "ABD borsasını tek ekranda ısı haritası ve yoğun filtrelerle tarayan görsel hisse tarayıcısı. Yahoo Finance’e kıyasla tek hisseye değil tüm piyasaya bakmak ve filtrelemek için; gerçek zamanlı veri ücretli.",
@@ -337,9 +337,8 @@
     "url": "https://www.investing.com",
     "name": "Investing.com",
     "tags": [
-      "ücretsiz",
-      "freemium",
-      "veri-bilimi"
+      "veri-bilimi",
+      "freemium"
     ],
     "tr": "Çok varlıklı gerçek zamanlı kotasyon ve ekonomik takvimi geniş kapsamla bir arada veriyor. Yahoo Finance’e kıyasla ekonomik takvimi ve Türkiye piyasaları (Türkçe sürümüyle) kapsamı güçlü.",
     "en": "Multi-asset real-time quotes together with an economic calendar in broad coverage. Compared with Yahoo Finance its economic calendar and coverage of Turkish markets, with a Turkish edition, are stronger.",
@@ -434,7 +433,8 @@
     "name": "OpenZeppelin",
     "tags": [
       "açık-kaynak",
-      "güvenlik"
+      "güvenlik",
+      "ücretsiz"
     ],
     "tr": "Solidity için denetlenmiş akıllı sözleşme kütüphaneleri ve güvenlik araçları. Token ya da yetki sözleşmelerini kendin yazmaktan farkı yaygın kullanımda sınanmış yapı taşları sunması.",
     "en": "Audited smart-contract libraries and security tooling for Solidity. Unlike writing token or access-control contracts yourself, they are building blocks tested in wide use.",
@@ -481,7 +481,6 @@
     "name": "Yahoo Finance",
     "tags": [
       "veri-bilimi",
-      "ücretsiz",
       "freemium"
     ],
     "tr": "Kotasyon, bilanço ve portföy takibi; tarihsel fiyat verisini ücretsiz indirtiyor. Ücretli terminallerden farkı bu geniş ücretsiz kapsam; karşılığında veri çoğunlukla gecikmeli.",

@@ -354,7 +354,8 @@
     "tags": [
       "docker",
       "tarayıcı-içi",
-      "devops"
+      "devops",
+      "ücretsiz"
     ],
     "tr": "Dockerfile’ı çözümleyip katman katman ne olduğunu açıklayan ve iyileştirme öneren araç. hadolint’ten farkı görsel olması ve her kuralın neden var olduğunu anlatması — Dockerfile yazmayı öğrenmek için de kullanılabiliyor.",
     "en": "Analyses a Dockerfile, explains what happens layer by layer and suggests improvements. Against hadolint it is visual and states why each rule exists, which makes it usable for learning to write Dockerfiles rather than only linting them.",
@@ -530,9 +531,8 @@
     "url": "https://www.make.com/",
     "name": "Make",
     "tags": [
-      "ücretli",
-      "freemium",
-      "otomasyon"
+      "otomasyon",
+      "freemium"
     ],
     "tr": "Senaryolar dallanma, döngü ve hata işleme taşıyabiliyor; Zapier’in doğrusal adım modeline göre karmaşık akışlarda daha rahat. Öğrenme eğrisi de buna paralel olarak dik.",
     "en": "Scenarios carry branching, loops and error handling, which makes complex flows easier than Zapier’s linear steps. The learning curve is correspondingly steeper.",
@@ -635,10 +635,9 @@
     "url": "https://pipedream.com/",
     "name": "Pipedream",
     "tags": [
-      "ücretli",
-      "freemium",
       "otomasyon",
-      "sistem-tasarımı"
+      "sistem-tasarımı",
+      "freemium"
     ],
     "tr": "Her adımı Node.js ya da Python kodu olabilen, npm/PyPI paketi çekebilen otomasyon platformu. Zapier gibi görsel otomasyonlardan farkı gerçek kodla aradaki boşluğu kapatması.",
     "en": "An automation platform where any step can be Node.js or Python code pulling npm or PyPI packages. Unlike visual automation such as Zapier, it closes the gap to real code.",
@@ -794,7 +793,8 @@
     "name": "Terraform",
     "tags": [
       "devops",
-      "otomasyon"
+      "otomasyon",
+      "ücretsiz"
     ],
     "tr": "Altyapıyı kod olarak tanımlayıp sağlayan HashiCorp aracı; bulut kaynaklarını bildirimsel yönetiyor. CloudFormation’dan farkı tek bir buluta bağlı olmaması; 2023’ten beri BSL lisanslı (HashiCorp’u 2025’te IBM satın aldı, lisans değişmedi), açık lisanslı çatalı OpenTofu.",
     "en": "HashiCorp’s tool to define and provision infrastructure as code, managing cloud resources declaratively. Unlike CloudFormation it is not tied to one cloud; it has been BSL-licensed since 2023 (IBM bought HashiCorp in 2025; the licence did not change), with OpenTofu as the openly licensed fork.",
@@ -804,10 +804,9 @@
     "url": "https://vercel.com/",
     "name": "Vercel",
     "tags": [
-      "ücretli",
-      "freemium",
       "sunucu",
-      "gömülü"
+      "gömülü",
+      "freemium"
     ],
     "tr": "Ön yüz odaklı dağıtım; her PR için önizleme ortamı açması sektörde standart hâline geldi. Netlify’a kıyasla farkı Next.js’in arkasındaki şirket olması: o çatıyla en sıkı entegrasyon burada.",
     "en": "Frontend-focused deployment whose per-PR preview environments became an industry standard. Compared with Netlify, it is the company behind Next.js, so integration with that framework is tightest here.",
@@ -830,9 +829,8 @@
     "url": "https://zapier.com/",
     "name": "Zapier",
     "tags": [
-      "ücretli",
-      "freemium",
-      "otomasyon"
+      "otomasyon",
+      "freemium"
     ],
     "tr": "En geniş entegrasyon kataloğuna sahip otomasyon aracı — bağlanmak istediğin niş SaaS büyük ihtimalle burada. n8n’e kıyasla bu genişlik avantaj; fiyatlandırma görev başına olduğu için hacim arttıkça hızla pahalılaşıyor.",
     "en": "The automation tool with the widest integration catalogue — the niche SaaS you want is probably there. Compared with n8n the breadth is an advantage; pricing is per task, so it gets expensive quickly as volume grows.",

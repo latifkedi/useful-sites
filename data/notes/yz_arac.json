@@ -3,9 +3,8 @@
     "url": "https://ada.com/",
     "name": "Ada Health",
     "tags": [
-      "ücretli",
-      "ücretsiz",
-      "akademik"
+      "akademik",
+      "freemium"
     ],
     "tr": "Belirtileri yapılandırılmış soru akışıyla daraltıp olası nedenleri sıralıyor; tıbbi cihaz olarak CE işaretli. Web’de belirti aramaktan farkı bu disiplin: rastgele sayfalar yerine sıralı sorular ve olasılığa göre dizilmiş nedenler.",
     "en": "Narrows symptoms through a structured question flow and ranks possible causes; CE-marked as a medical device. Unlike searching symptoms online it is disciplined: ordered questions instead of random pages, and causes ranked by likelihood.",
@@ -43,10 +42,9 @@
     "url": "https://askyourpdf.com/",
     "name": "AskYourPDF",
     "tags": [
-      "ücretli",
-      "freemium",
       "referans",
-      "rag"
+      "rag",
+      "freemium"
     ],
     "tr": "Birden çok belgeyi tek kütüphanede toplayıp hepsine birden soru sorabiliyorsun; cevaplar sayfa numarasıyla geliyor. Tek dosyalık araçlardan ayrıldığı yer bu.",
     "en": "Collects many documents into one library you can query together, with page-cited answers. That is where it parts from single-file tools.",
@@ -135,10 +133,9 @@
     "url": "https://www.blackbox.ai/",
     "name": "Blackbox AI",
     "tags": [
-      "ücretli",
-      "freemium",
       "sistem-tasarımı",
-      "rag"
+      "rag",
+      "freemium"
     ],
     "tr": "Kod parçası aramayı sohbetle birleştiriyor. Genel sohbet botlarından farkı depo ve dokümanlarda arama yapıp bulduğunu bağlam olarak kullanması.",
     "en": "Merges snippet search with chat. Unlike general chatbots, it searches repositories and docs and uses the hits as context.",
@@ -162,9 +159,8 @@
     "url": "https://bolt.new/",
     "name": "Bolt.new",
     "tags": [
-      "ücretli",
-      "freemium",
-      "frontend"
+      "frontend",
+      "freemium"
     ],
     "tr": "Node.js’i WebContainer ile tarayıcıda çalıştırıyor; üretilen tam yığın uygulama sunucuya gitmeden anında önizleniyor. v0 gibi bileşen üreticilerinden farkı bütün uygulamayı çalıştırması: hata çıkarsa aynı yerde düzeltiliyor.",
     "en": "Runs Node.js in the browser via WebContainers, so the generated full-stack app previews instantly without a server round trip. Unlike component generators such as v0 it runs the whole app, and errors are fixed in place.",
@@ -187,9 +183,8 @@
     "url": "https://buffer.com/ai-assistant",
     "name": "Buffer AI Assistant",
     "tags": [
-      "ücretli",
-      "freemium",
-      "referans"
+      "referans",
+      "freemium"
     ],
     "tr": "Zamanlama aracının içinde çalışıyor; bir gönderiyi farklı platformların ton ve uzunluğuna göre yeniden paketliyor. Ayrı bir metin aracıyla gidip gelme adımı kalkıyor.",
     "en": "Lives inside the scheduling tool, repackaging one post for each platform’s tone and length — removing the round trip to a separate copy tool.",
@@ -200,9 +195,8 @@
     "url": "https://www.chatpdf.com/",
     "name": "ChatPDF",
     "tags": [
-      "ücretli",
-      "freemium",
-      "referans"
+      "referans",
+      "freemium"
     ],
     "tr": "PDF’e soru sorma aracı; kayıt olmadan dosya yükleyip başlıyorsun. Humata gibi araçlardan farkı sürtünmenin en düşük olması; karşılığında kütüphane yönetimi ya da çoklu belge desteği yok.",
     "en": "A tool for asking questions of a PDF — upload and start without signing up. Unlike tools such as Humata it has the lowest friction; in exchange there is no library management or multi-document support.",
@@ -297,9 +291,8 @@
     "url": "https://consensus.app/",
     "name": "Consensus",
     "tags": [
-      "ücretli",
-      "freemium",
-      "akademik"
+      "akademik",
+      "freemium"
     ],
     "tr": "Bir soruya literatürün ne yönde eğildiğini özetliyor ve destekleyen/çelişen çalışma oranını gösteriyor. Tek makale bulmakla alanın genel eğilimini görmek farklı işler.",
     "en": "Summarises which way the literature leans on a question and shows the ratio of supporting to contradicting studies. Finding one paper and seeing the field’s tendency are different jobs.",
@@ -351,9 +344,8 @@
     "url": "https://www.deepl.com/write",
     "name": "DeepL Write",
     "tags": [
-      "ücretli",
-      "freemium",
-      "llm"
+      "llm",
+      "freemium"
     ],
     "tr": "Hatayı işaretlemek yerine cümleyi yeniden kuruyor ve ton seçenekleri sunuyor. Grammarly düzeltiyor, bu yeniden yazıyor — ikisi farklı iş.",
     "en": "Rewrites the sentence and offers tone variants instead of flagging errors. Grammarly corrects, this rewrites — two different jobs.",
@@ -364,9 +356,8 @@
     "url": "https://elicit.com/",
     "name": "Elicit",
     "tags": [
-      "ücretli",
-      "freemium",
-      "akademik"
+      "akademik",
+      "freemium"
     ],
     "tr": "Yüzlerce makaleyi tarayıp örneklem büyüklüğü, yöntem ve bulgu gibi alanları tabloya çıkarıyor. Genel sohbet asistanlarından farkı, sistematik derlemede en çok vakit yiyen ayıklama adımına özel olması.",
     "en": "Screens hundreds of papers and extracts fields such as sample size, method and finding into a table. Unlike general chat assistants, it is built for the screening step that eats the most time in a systematic review.",
@@ -377,9 +368,8 @@
     "url": "https://www.explainpaper.com/",
     "name": "Explainpaper",
     "tags": [
-      "ücretli",
-      "freemium",
-      "akademik"
+      "akademik",
+      "freemium"
     ],
     "tr": "PDF’te işaretlediğin pasajı sadeleştiriyor. Tüm belgeyi özetleyen araçlardan farkı yalnız takıldığın tek yeri açması — onu dar ama isabetli kılan bu.",
     "en": "Simplifies whichever passage you highlight in a PDF. Unlike tools that summarise the whole document, it opens up only the one place you got stuck — which makes it narrow but accurate.",
@@ -404,9 +394,8 @@
     "url": "https://fireflies.ai/",
     "name": "Fireflies.ai",
     "tags": [
-      "ücretli",
-      "freemium",
-      "akademik"
+      "akademik",
+      "freemium"
     ],
     "tr": "Ham döküm yerine karar, aksiyon maddesi ve soru listesi çıkarıyor; CRM’e yazabiliyor. Otter dökümde, bu çıkarımda yoğunlaşmış.",
     "en": "Extracts decisions, action items and questions rather than a raw transcript, and can write into a CRM. Otter concentrates on transcription; this on extraction.",
@@ -417,10 +406,9 @@
     "url": "https://github.com/features/copilot",
     "name": "GitHub Copilot",
     "tags": [
-      "ücretli",
-      "freemium",
       "sistem-tasarımı",
-      "eklenti"
+      "eklenti",
+      "freemium"
     ],
     "tr": "Editör içi tamamlama ve sohbet. Rakiplerinden farkı yönetişim tarafı: kurumsal planda kodun modele gönderilip gönderilmeyeceği ve hangi modellerin kullanılacağı politika olarak yönetilebiliyor.",
     "en": "In-editor completion and chat. Unlike its rivals it is strong on governance: in the enterprise plan, whether code is sent to a model and which models are allowed can be managed as policy.",
@@ -445,9 +433,8 @@
     "url": "https://app.gptzero.me/home",
     "name": "GPTZero",
     "tags": [
-      "ücretli",
-      "freemium",
-      "referans"
+      "referans",
+      "freemium"
     ],
     "tr": "Metnin yapay zekâ üretimi olma olasılığını tahmin ediyor. İntihal denetleyicilerinden farkı eşleşen kaynak değil olasılık vermesi — kendi belgeleri de yanlış pozitifleri kabul ediyor, sonuç delil olarak kullanılmamalı.",
     "en": "Estimates the probability that a text was AI-generated. Unlike plagiarism checkers it gives a probability rather than a matching source — its own docs acknowledge false positives, so the result should not be treated as proof.",
@@ -458,9 +445,8 @@
     "url": "https://www.grammarly.com/",
     "name": "Grammarly",
     "tags": [
-      "ücretli",
-      "freemium",
-      "llm"
+      "llm",
+      "freemium"
     ],
     "tr": "Yazdığın her yere giren eklentisiyle İngilizce dil bilgisi ve üslup denetimi. LanguageTool’dan farkı üslup ve ton önerilerinin daha güçlü olması; Türkçe desteklemiyor, yalnızca İngilizce yazarken anlamlı.",
     "en": "English grammar and style checking through an extension that follows you everywhere you type. Unlike LanguageTool its style and tone suggestions are stronger; there is no Turkish support, so it only makes sense for English.",
@@ -497,9 +483,8 @@
     "url": "https://www.humata.ai/",
     "name": "Humata",
     "tags": [
-      "ücretli",
-      "freemium",
-      "referans"
+      "referans",
+      "freemium"
     ],
     "tr": "Uzun teknik belgeleri karşılaştırmalı okumaya yönelik PDF asistanı. ChatPDF gibi hızlı araçlardan farkı her cevabın altında kaynak sayfa bağlantısı olması: iddiayı belgede doğrulayabiliyorsun.",
     "en": "A PDF assistant aimed at comparative reading of long technical documents. Unlike quick tools such as ChatPDF, each answer carries a source-page link so you can verify the claim in the document.",
@@ -510,9 +495,8 @@
     "url": "https://julius.ai/",
     "name": "Julius AI",
     "tags": [
-      "ücretli",
-      "freemium",
-      "veri-bilimi"
+      "veri-bilimi",
+      "freemium"
     ],
     "tr": "CSV veya Excel yükleyip sohbetle analiz ediyorsun; arka planda Python çalıştırıp grafik üretiyor. Genel sohbet botlarından farkı kullandığı kodu göstermesi — sonucu doğrulayabilmen bu şeffaflığa bağlı.",
     "en": "Upload a CSV or Excel and analyse by chatting; it runs Python behind the scenes and produces charts. Unlike general chatbots it shows the code it used — which is what makes the result verifiable.",
@@ -562,9 +546,8 @@
     "url": "https://legalesedecoder.com/",
     "name": "Legalese Decoder",
     "tags": [
-      "ücretli",
-      "freemium",
-      "referans"
+      "referans",
+      "freemium"
     ],
     "tr": "Sözleşme dilini sade Türkçeye/İngilizceye çevirirken madde yapısını koruyor, yani hangi cümlenin hangi maddeden geldiği kayboluyor değil.",
     "en": "Translates contract language into plain prose while preserving clause structure, so you do not lose which sentence came from which clause.",
@@ -588,9 +571,8 @@
     "url": "https://lightpdf.com/",
     "name": "LightPDF",
     "tags": [
-      "ücretli",
-      "freemium",
-      "referans"
+      "referans",
+      "freemium"
     ],
     "tr": "Dönüştürme, sıkıştırma, imzalama ve OCR gibi klasik PDF işlerinin üzerine sohbet eklenmiş. Tek işlevli rakiplerine göre geniş, her bir işlevde ise ortalama.",
     "en": "Classic PDF chores — convert, compress, sign, OCR — with chat layered on. Broader than the single-purpose rivals and average at each individual job.",
@@ -601,9 +583,8 @@
     "url": "https://lovable.dev/",
     "name": "Lovable",
     "tags": [
-      "ücretli",
-      "freemium",
-      "frontend"
+      "frontend",
+      "freemium"
     ],
     "tr": "Sohbetle uygulama kurup Supabase bağlantısını ve dağıtımı da üstleniyor. v0’dan farkı bileşen değil, çalışan ve veritabanı bağlı bir ürün hedeflemesi.",
     "en": "Builds an app from chat and takes on the Supabase wiring and deployment too. Unlike v0, which hands you a component, it aims at a running, database-backed product.",
@@ -629,7 +610,8 @@
     "name": "MedGemma",
     "tags": [
       "açık-ağırlık",
-      "akademik"
+      "akademik",
+      "ücretsiz"
     ],
     "tr": "Gemma’nın tıbbi metin ve görüntüye uyarlanmış açık sürümü. Kapalı tıbbi modellerden farkı ağırlıklarının açık olması; araştırma amaçlı — klinik karar desteği olarak kullanılması için düzenleyici onayı yok.",
     "en": "An open Gemma variant adapted to medical text and imaging. Unlike closed medical models its weights are open; it is for research — there is no regulatory clearance for clinical decision support.",
@@ -697,10 +679,9 @@
     "url": "https://pdf.ai/",
     "name": "PDF.ai",
     "tags": [
-      "ücretli",
-      "freemium",
       "referans",
-      "eklenti"
+      "eklenti",
+      "freemium"
     ],
     "tr": "PDF’e soru sorma aracı. Yükleme isteyen PDF sohbet araçlarından farkı tarayıcı eklentisiyle web’de karşılaştığın PDF’lerde de doğrudan çalışması: indirip yükleme adımı yok.",
     "en": "A tool for asking questions of PDFs. Unlike PDF chat tools that require an upload, its browser extension works directly on PDFs you meet on the web — no download-then-upload step.",
@@ -753,9 +734,8 @@
     "url": "https://www.quantconnect.com/",
     "name": "QuantConnect",
     "tags": [
-      "ücretli",
-      "freemium",
-      "veri-bilimi"
+      "veri-bilimi",
+      "freemium"
     ],
     "tr": "Strateji yazıp geçmiş veriyle test ediyorsun; hisse, opsiyon, futures ve kripto verisi hazır geliyor. Kendi kurulumundan farkı en pahalı kısmı — temiz veriyi — platformun sağlaması; motoru LEAN açık kaynak.",
     "en": "Write a strategy and backtest it, with equity, options, futures and crypto data supplied. Unlike a home setup, the platform provides the costliest part — clean data; its LEAN engine is open source.",
@@ -766,9 +746,8 @@
     "url": "https://quillbot.com/",
     "name": "QuillBot",
     "tags": [
-      "ücretli",
-      "freemium",
-      "llm"
+      "llm",
+      "freemium"
     ],
     "tr": "Aynı cümlenin farklı ifade edilişlerini üretiyor; uzunluk ve resmiyet ayarlanabiliyor. Akademik yazımda intihal riskini artırabileceği için dikkatli kullanılması gereken bir araç.",
     "en": "Produces alternative phrasings of the same sentence with adjustable length and formality. In academic writing it can raise plagiarism risk, so it needs careful use.",
@@ -834,9 +813,8 @@
     "url": "https://www.scholarcy.com/",
     "name": "Scholarcy",
     "tags": [
-      "ücretli",
-      "freemium",
-      "akademik"
+      "akademik",
+      "freemium"
     ],
     "tr": "Makaleyi yapılandırılmış kartlara indiriyor: temel iddia, yöntem, kısıtlar, atıflar ayrı ayrı. Düz özet üreten araçlardan farkı bu yapı: hangi çalışmayı tam okuyacağına karar verdiğin ayıklama aşaması için.",
     "en": "Reduces a paper to structured cards — core claim, method, limitations, references, each separate. Unlike tools that produce a flat summary it is structured — for the triage stage where you decide what to read in full.",
@@ -847,9 +825,8 @@
     "url": "https://scispace.com/",
     "name": "SciSpace",
     "tags": [
-      "ücretli",
-      "freemium",
-      "akademik"
+      "akademik",
+      "freemium"
     ],
     "tr": "Makaleyi paragraf paragraf açıklıyor, seçtiğin denklemi ya da terimi yerinde çözüyor. Alan dışından okuyan biri için kritik olan, özet değil bu satır içi açıklama.",
     "en": "Explains a paper paragraph by paragraph, unpacking a chosen equation or term in place. For a reader from outside the field, that inline explanation matters more than a summary.",
@@ -887,10 +864,9 @@
     "url": "https://v0.app/",
     "name": "v0",
     "tags": [
-      "ücretli",
-      "freemium",
       "frontend",
-      "javascript"
+      "javascript",
+      "freemium"
     ],
     "tr": "Metinden React bileşeni üretiyor; çıktı shadcn/ui ve Tailwind kullanıyor, yani mevcut bir projeye kopyalanabilir kod çıkıyor. Tam uygulama değil, parça üretiyor.",
     "en": "Generates React components from text, using shadcn/ui and Tailwind so the output is copy-ready into an existing project. It produces pieces, not whole applications.",

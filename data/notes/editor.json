@@ -101,7 +101,8 @@
     "tags": [
       "açık-kaynak",
       "cli",
-      "go"
+      "go",
+      "ücretsiz"
     ],
     "tr": "delta tabanlı, GitHub’daki gibi dosya ağacı sunan git diff görüntüleyicisi (Go). Düz delta’dan farkı gezilebilir bir dosya listesi eklemesi.",
     "en": "A git diff pager based on delta with a GitHub-style file tree (Go). Unlike plain delta it adds a navigable file list.",
@@ -275,7 +276,8 @@
     "tags": [
       "açık-kaynak",
       "cli",
-      "rust"
+      "rust",
+      "ücretsiz"
     ],
     "tr": "Kaynak kodda ve metinde yazım hatalarını bulan hızlı Rust aracı. Düz yazı denetleyicilerden farkı tanımlayıcıları kelimelere bölüp yanlış alarmı az tutması.",
     "en": "A fast Rust tool that finds typos in source code and text. Unlike prose spell checkers it splits identifiers into words and keeps false alarms low.",
@@ -337,7 +339,8 @@
     "tags": [
       "masaüstü",
       "cli",
-      "llm"
+      "llm",
+      "freemium"
     ],
     "tr": "Rust ile yazılmış terminal; komutları ve çıktılarını metin akışı yerine ayrı \"blok\"lar hâlinde tutuyor, böylece bir komutun çıktısını tek tıkla kopyalayabiliyorsun. iTerm veya Windows Terminal’dan ayrıldığı yer bu blok modeli ve gömülü YZ komut önerisi.",
     "en": "A terminal written in Rust that keeps each command and its output as a separate block instead of one scrolling stream, so you can copy a single command’s output in one click. That block model and the built-in AI command suggestions are what set it apart.",
@@ -349,7 +352,8 @@
     "tags": [
       "açık-kaynak",
       "cli",
-      "rust"
+      "rust",
+      "ücretsiz"
     ],
     "tr": "Rust ile yazılmış, yerleşimleri ve eklenti sistemi olan terminal çalışma alanı. tmux’tan farkı varsayılanlarının keşfedilebilir olması (ekranda tuş ipuçları); bedeli daha genç olması.",
     "en": "A terminal workspace written in Rust, with layouts and a plugin system. Unlike tmux its defaults are discoverable (on-screen key hints); the trade-off is that it is younger.",

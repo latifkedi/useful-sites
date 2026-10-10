@@ -65,7 +65,8 @@
     "name": "ConnectionStrings.com",
     "tags": [
       "referans",
-      "veritabanı"
+      "veritabanı",
+      "ücretsiz"
     ],
     "tr": "Her veritabanı ve sürücü için doğru bağlantı dizesi biçimini veren başvuru. Dokümanı aramaktan farkı onlarca sürücünün sözdizimini tek yerde toplaması.",
     "en": "A reference giving the correct connection-string format for every database and driver. Unlike hunting the docs it gathers the syntax of dozens of drivers in one place.",
@@ -113,10 +114,9 @@
     "url": "https://firebase.google.com/docs",
     "name": "Firebase",
     "tags": [
-      "ücretli",
-      "freemium",
       "backend",
-      "api"
+      "api",
+      "freemium"
     ],
     "tr": "Gerçek zamanlı veritabanı, kimlik doğrulama, depolama ve barındırma tek pakette. Supabase’den farkı NoSQL olması: prototipi çok hızlandırıyor, sorgu esnekliği ve satıcı bağımlılığı ise sonradan sorun oluyor.",
     "en": "Realtime database, auth, storage and hosting in one package. Unlike Supabase it is NoSQL: it accelerates a prototype sharply, while query flexibility and vendor lock-in become the later problem.",

@@ -272,16 +272,22 @@ for _en, _tr in {
 
 
 # Filter facets. The tag bar was one flat row of 63 chips mixing price,
-# content type, platform and topic, so "ücretsiz" (on 45% of records) sat next
-# to "kuantum" as if they answered the same question. Each canonical tag lives
-# in exactly one facet; whatever the first three do not claim is a topic.
+# content type, platform and topic, so "ücretsiz" sat next to "kuantum" as if
+# they answered the same question. Each canonical tag lives in exactly one facet;
+# whatever the heads do not claim is a topic. The three cost tags are one
+# question with one answer per record (test_build enforces it): "ücretsiz" is on
+# four records in five now that it is set wherever nothing is sold, which is why
+# the cards do not repeat it -- the filter keeps it.
 # key, Turkish label, English label, tags.
 _FACET_HEADS = [
     ('fiyat', 'Fiyat & Lisans', 'Price & Licence',
      ['ücretsiz', 'freemium', 'ücretli', 'açık-kaynak', 'açık-ağırlık', 'self-hosted']),
     ('tur', 'Tür', 'Type',
      ['referans', 'öğretici', 'müfredat', 'kitap', 'video', 'kopya-kâğıdı', 'dokümantasyon',
-      'awesome-liste', 'interaktif', 'akademik', 'sertifika', 'mülakat', 'türkçe', 'arşivlenmiş']),
+      'awesome-liste', 'interaktif', 'akademik', 'sertifika', 'mülakat', 'arşivlenmiş']),
+    # The language the resource itself is written in -- its own question, not a
+    # kind of content. 'türkçe' sat in Type beside 'video' and 'kitap'.
+    ('dil', 'İçerik Dili', 'Content Language', ['türkçe']),
     ('arayuz', 'Arayüz & Dil', 'Interface & Language',
      ['tarayıcı-içi', 'masaüstü', 'cli', 'api', 'sdk', 'eklenti', 'docker',
       'python', 'javascript', 'c-ailesi', 'rust', 'go', 'php', 'jvm']),

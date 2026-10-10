@@ -304,7 +304,8 @@
     "tags": [
       "açık-kaynak",
       "cli",
-      "go"
+      "go",
+      "ücretsiz"
     ],
     "tr": "Go ile yazılmış, HTTP, WebDAV, FTP/SFTP ve SMB gibi protokolleri destekleyen tek ikili dosya sunucusu. python -m http.server’dan farkı yükleme, kimlik doğrulama ve daha çok protokol sunması; kırmızı takım özellikleri yüzünden yalnız sahibi olduğun sistemlerde kullan.",
     "en": "A single-binary file server written in Go, supporting HTTP, WebDAV, FTP/SFTP, SMB and more. Unlike python -m http.server it adds uploads, authentication and more protocols; its red-team features mean you should use it only on systems you own.",
@@ -353,7 +354,8 @@
     "tags": [
       "açık-kaynak",
       "cli",
-      "go"
+      "go",
+      "ücretsiz"
     ],
     "tr": "SSH yapılandırmandaki sunucuları listeleyip bağlandıran terminal arayüzü (Go). ~/.ssh/config dosyasını elle düzenleyip adları hatırlamaktan farkı aranabilir bir liste sunması.",
     "en": "A terminal UI that lists the hosts in your SSH config and connects to them (Go). Unlike editing ~/.ssh/config by hand and remembering names it gives a searchable list.",
@@ -418,7 +420,8 @@
     "tags": [
       "açık-kaynak",
       "cli",
-      "go"
+      "go",
+      "ücretsiz"
     ],
     "tr": "Apple Silicon için CPU, GPU ve güç tüketimini gösteren terminal izleyicisi. htop’tan farkı Apple’a özgü sensörleri (güç, GPU, sinir motoru) okuması.",
     "en": "A terminal monitor for Apple Silicon showing CPU, GPU and power use. Unlike htop it reads Apple-specific sensors (power, GPU, neural engine).",
@@ -584,10 +587,9 @@
     "url": "https://servicedesk-simulator.com/",
     "name": "ServiceDesk Simulator",
     "tags": [
-      "ücretli",
-      "freemium",
       "ağ",
-      "interaktif"
+      "interaktif",
+      "freemium"
     ],
     "tr": "Gerçek yardım masası biletleriyle çalışmayı simüle ediyor: önceliklendirme, tırmandırma, SLA takibi. Teoride kalan IT destek kurslarının aksine işin pratiğini yaptırıyor.",
     "en": "Simulates working a real helpdesk queue — prioritisation, escalation, SLA tracking. Unlike IT support courses that stay theoretical, it has you practise the job.",
@@ -600,7 +602,8 @@
     "tags": [
       "açık-kaynak",
       "masaüstü",
-      "rust"
+      "rust",
+      "ücretsiz"
     ],
     "tr": "Ağ trafiğini anlaşılır bir arayüzde gösteren çapraz platform uygulama (Rust). Wireshark’tan farkı paket ayrıntısından çok okunabilir bir genel görünüm sunması.",
     "en": "A cross-platform app that shows network traffic in a friendly interface (Rust). Unlike Wireshark it favours a readable overview over packet-level detail.",

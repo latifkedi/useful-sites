@@ -53,9 +53,8 @@
     "url": "https://chatgpt.com/",
     "name": "ChatGPT",
     "tags": [
-      "ücretli",
-      "freemium",
-      "llm"
+      "llm",
+      "freemium"
     ],
     "tr": "Kod çalıştırma (sandbox Python), görsel üretim, dosya yükleme ve özel GPT’ler tek pencerede. Geniş olması pahasına her bir yeteneği kendi alanının en iyisi değil.",
     "en": "Sandboxed Python execution, image generation, file upload and custom GPTs in one window. The breadth costs it depth — no single capability is best-in-class.",
@@ -66,9 +65,8 @@
     "url": "https://claude.ai/new",
     "name": "Claude",
     "tags": [
-      "ücretli",
-      "freemium",
-      "llm"
+      "llm",
+      "freemium"
     ],
     "tr": "Anthropic’in sohbet uygulaması; uzun bağlam penceresi uzun belge ve kod tabanı okumayı taşıyor. Rakiplerine kıyasla uzun metinde tutarlılığıyla öne çıkıyor; Projects dosyaları sohbetler arası kalıcı bağlam olarak tutuyor, Artifacts çıktıyı ayrı panelde çalıştırıyor.",
     "en": "Anthropic’s chat app, whose long context window carries long documents and whole codebases. Compared with its rivals it stands out for consistency over long text; Projects keeps files as persistent context across chats, and Artifacts runs output in a side panel.",
@@ -93,7 +91,8 @@
     "name": "DeepSeek",
     "tags": [
       "açık-ağırlık",
-      "llm"
+      "llm",
+      "ücretsiz"
     ],
     "tr": "V3 ve R1 ağırlıkları indirilebilir durumda. Kapalı modellere kıyasla farkı bu açıklık ve karışım-uzman (MoE) mimarisi: toplam parametre büyük ama her jetonda yalnızca bir kısmı etkin, akıl yürütme başarımını çok daha düşük çıkarım maliyetiyle veriyor.",
     "en": "V3 and R1 weights are downloadable. Unlike closed models it is open, and its mixture-of-experts architecture keeps total parameters high while activating only a slice per token — reasoning performance at far lower inference cost.",
@@ -131,9 +130,8 @@
     "url": "https://gemini.google.com/",
     "name": "Google Gemini",
     "tags": [
-      "ücretli",
-      "freemium",
-      "llm"
+      "llm",
+      "freemium"
     ],
     "tr": "Google’ın sohbet asistanı; Gmail, Drive ve YouTube’a doğrudan bağlanıp hesabındaki içeriği kaynak alabiliyor. ChatGPT’den farkı bu entegrasyon: Google ekosistemindeysen belirleyici, değilsen önemsiz.",
     "en": "Google’s chat assistant, connecting straight into Gmail, Drive and YouTube to use your own content as source. Unlike ChatGPT it has that integration — decisive if you live in Google’s ecosystem, irrelevant if you do not.",
@@ -198,9 +196,8 @@
     "url": "https://kimi-claw.com/",
     "name": "Kimi Claw",
     "tags": [
-      "ücretli",
-      "freemium",
-      "agent"
+      "agent",
+      "freemium"
     ],
     "tr": "OpenClaw üzerine kurulu barındırılmış sürüm: kalıcı bellek, zamanlanmış görevler ve sen istemeden tetiklenen işler ekliyor. OpenClaw’u kendi makinende işletmek yerine hazır hizmet olarak kullanmak isteyenler için.",
     "en": "A hosted layer on OpenClaw adding persistent memory, scheduled tasks and jobs that fire without being asked. For people who want it as a ready service rather than operating OpenClaw on their own machine.",
@@ -212,7 +209,8 @@
     "name": "Kimi K2.7 Code",
     "tags": [
       "açık-ağırlık",
-      "sistem-tasarımı"
+      "sistem-tasarımı",
+      "ücretsiz"
     ],
     "tr": "Moonshot AI’ın kod odaklı açık ağırlıklı modeli. Kapalı kod modellerine kıyasla ağırlıklarının açık olması, yerel kod asistanı kurmak isteyip kapalı API’ye bağlanmak istemeyenler için gerçek bir seçenek.",
     "en": "Moonshot AI’s code-focused open-weight model. Compared with closed coding models its weights are open — a genuine option if you want a local coding assistant without wiring yourself to a closed API.",
@@ -250,7 +248,8 @@
     "name": "LocateAnything-3B",
     "tags": [
       "açık-ağırlık",
-      "llm"
+      "llm",
+      "ücretsiz"
     ],
     "tr": "Metinle tarif edilen nesneyi görüntüde sınırlayıcı kutuyla işaretleyen görsel konumlandırma modeli. Sınıflandırmadan farkı, önceden tanımlı etiket listesine bağlı olmaması.",
     "en": "A visual grounding model that boxes an object in an image from a text description. Unlike classification it is not tied to a predefined label set.",
@@ -263,7 +262,8 @@
     "tags": [
       "açık-ağırlık",
       "llm",
-      "self-hosted"
+      "self-hosted",
+      "ücretsiz"
     ],
     "tr": "Ağırlıklar indirilebilir ve kendi donanımında çalışır. Lisans tam OSI uyumlu değil — büyük ölçekli ticari kullanımda aylık aktif kullanıcı eşiği var, okumadan geçme.",
     "en": "Weights are downloadable and run on your own hardware. The licence is not fully OSI-compliant: there is a monthly-active-user threshold for large commercial use — read it before shipping.",
@@ -274,9 +274,8 @@
     "url": "https://copilot.microsoft.com/",
     "name": "Microsoft Copilot",
     "tags": [
-      "ücretli",
-      "ücretsiz",
-      "llm"
+      "llm",
+      "freemium"
     ],
     "tr": "Word, Excel ve Windows kabuğuna gömülü çalışıyor — belgeyi bir siteye kopyalamadan üzerinde işlem yapıyor. ChatGPT’den farkı model değil dağıtım noktası: arkadaki modeller OpenAI’ın.",
     "en": "Runs embedded in Word, Excel and the Windows shell, so you operate on a document without copying it to a website. Unlike ChatGPT the difference is the delivery point rather than the model — the models underneath are OpenAI’s.",
@@ -300,10 +299,9 @@
     "url": "https://notebooklm.google.com/",
     "name": "NotebookLM",
     "tags": [
-      "ücretli",
-      "ücretsiz",
       "rag",
-      "akademik"
+      "akademik",
+      "freemium"
     ],
     "tr": "Yüklediğin PDF, doküman ve bağlantılarla sınırlı bir bağlam kuruyor; kaynak dışına çıkmayı reddediyor. Genel sohbet botlarından farkı bu kısıt: uydurma oranını düşürüyor, karşılığında genel bilgi soramıyorsun.",
     "en": "Builds a context limited to the PDFs, docs and links you upload, and refuses to answer outside them. Unlike general chatbots it has that constraint — it cuts hallucination, at the price of not answering general questions.",
@@ -396,9 +394,8 @@
     "url": "https://www.perplexity.ai/",
     "name": "Perplexity",
     "tags": [
-      "ücretli",
-      "freemium",
-      "rag"
+      "rag",
+      "freemium"
     ],
     "tr": "Sorguyu web aramasına çevirip dönen sayfaları modele okutuyor, sonra her cümleye kaynak numarası iliştiriyor. Yani bir RAG hattı; modelin belleğine değil o anki arama sonuçlarına dayanıyor.",
     "en": "Turns your query into a web search, feeds the retrieved pages to a model, then footnotes each sentence. It is a RAG pipeline: answers rest on live search results, not the model’s memory.",
@@ -435,7 +432,8 @@
     "name": "Unlimited-OCR",
     "tags": [
       "açık-ağırlık",
-      "referans"
+      "referans",
+      "ücretsiz"
     ],
     "tr": "Baidu’nun OCR modeli; sayfa sınırı olmadan uzun ve çok sütunlu belgelerden metin çıkarıyor. Tablo ve düzen korumada klasik Tesseract hattından belirgin şekilde iyi.",
     "en": "Baidu’s OCR model, extracting text from long multi-column documents with no page ceiling. Markedly better than a classic Tesseract pipeline at preserving tables and layout.",

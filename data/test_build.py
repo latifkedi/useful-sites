@@ -86,6 +86,12 @@ def main():
     check(not _morph, 'manual.json has no decision about a record that is gone'
           + (' -- %s' % _morph[:3] if _morph else ''))
 
+    print('tags')
+    _maliyet = ('ücretsiz', 'freemium', 'ücretli')
+    _cift = [d['name'] for d in rows if len([t for t in d['tags'] if t in _maliyet]) != 1]
+    check(not _cift, 'every record carries exactly one of ücretsiz / freemium / ücretli'
+          + (' -- %d: %s' % (len(_cift), _cift[:3]) if _cift else ''))
+
     print('records')
     eksik = [d['name'] for d in rows
              if not all(d.get(f) for f in ('url', 'name', 'cat', 'tr'))]
