@@ -132,8 +132,7 @@ def fetch(d):
         out['flags'].append('ad-yok')
 
     # A claim pinned to a year that has since passed.
-    yil = [int(y) for y in YEAR.findall(d['tr'])]
-    eski = [y for y in yil if y <= THIS_YEAR - 2]
+    eski = linkstate.stale_years(d['tr'], THIS_YEAR) + linkstate.stale_years(d.get('en', ''), THIS_YEAR)
     if eski:
         out['flags'].append('tarihli')
         out['note'] = ', '.join(str(y) for y in sorted(set(eski)))

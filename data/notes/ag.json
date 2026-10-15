@@ -551,10 +551,11 @@
     "name": "Pure Bash Bible",
     "tags": [
       "kopya-kâğıdı",
-      "ücretsiz"
+      "ücretsiz",
+      "arşivlenmiş"
     ],
-    "tr": "Dış program çağırmadan Bash’in kendi araçlarıyla iş yapma koleksiyonu. sed ve awk çağrılarını kaldırdığı için betikleri belirgin hızlandırıyor.",
-    "en": "A collection of ways to do things with Bash’s own facilities instead of calling external programs, which speeds scripts up markedly by removing sed and awk calls.",
+    "tr": "Dış program çağırmadan Bash’in kendi araçlarıyla iş yapma koleksiyonu. sed ve awk çağrılarını kaldırdığı için betikleri belirgin hızlandırıyor. Depo arşivlendi (son güncelleme Kasım 2023); teknikler Bash’in kendi özelliklerine dayandığı için çoğu hâlâ geçerli, ama sorunları artık kimse kapatmıyor.",
+    "en": "A collection of ways to do things with Bash’s own facilities instead of calling external programs, which speeds scripts up markedly by removing sed and awk calls. The repository is archived (last update November 2023); the techniques rest on Bash itself so most still hold, but nobody closes issues any more.",
     "src": "bwapsv"
   },
   {

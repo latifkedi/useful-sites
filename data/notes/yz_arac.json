@@ -128,10 +128,11 @@
       "açık-kaynak",
       "akademik",
       "açık-ağırlık",
-      "ücretsiz"
+      "ücretsiz",
+      "arşivlenmiş"
     ],
-    "tr": "PubMed özetleriyle eğitilmiş dil modeli; ilaç-hastalık ilişkisi çıkarımı gibi görevlerde genel modellerden isabetli. Metin üretmekten çok bilgi çıkarımı için.",
-    "en": "A language model trained on PubMed abstracts, more accurate than general models at tasks like drug–disease relation extraction. Built for information extraction rather than generation.",
+    "tr": "PubMed özetleriyle eğitilmiş dil modeli; ilaç-hastalık ilişkisi çıkarımı gibi görevlerde genel modellerden isabetli. Metin üretmekten çok bilgi çıkarımı için. Depo arşivlendi (son güncelleme Temmuz 2024); model ve kod olduğu gibi çalışır, ama bakımı yapılmıyor.",
+    "en": "A language model trained on PubMed abstracts, more accurate than general models at tasks like drug–disease relation extraction. Built for information extraction rather than generation. The repository is archived (last update July 2024); the model and code run as they are, but nobody maintains them.",
     "src": "kedi",
     "added": 1787000000
   },

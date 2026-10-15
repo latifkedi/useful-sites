@@ -90,6 +90,30 @@ def orphan_keys(keys, urls, keyfn):
     return sorted(k for k in keys if k not in live)
 
 
+# A year in a description is usually a fact about the past ("dropped its free tier
+# in 2022", "in development since 2011") and stays true. It is a claim that can go
+# stale only when it is set beside a word that speaks of now: "latest release
+# 2023", "currently version 5 (2024)". ci_fresh used to flag every year older than
+# two: 22 of 22 hits were past-tense facts, so the list taught nobody anything.
+PRESENT = re.compile(
+    r'(latest|newest|current|currently|as of|today|right now|at present|'
+    r'son sürüm|en yeni|güncel|şu an|şimdilik|bugün)(?![a-zçğıöşüÇĞİÖŞÜ])', re.I)
+YEAR = re.compile(r'\b(19[89]\d|20[0-4]\d)\b')
+
+
+def stale_years(text, this_year, window=45):
+    """Years older than two that sit within `window` characters of a word about now."""
+    out = set()
+    for m in YEAR.finditer(text or ''):
+        y = int(m.group(1))
+        if y > this_year - 2:
+            continue
+        near = text[max(0, m.start() - window):m.end() + window]
+        if PRESENT.search(near):
+            out.add(y)
+    return sorted(out)
+
+
 def may_write(argv, env):
     """Whether a scan may rewrite the tracked data files (verified.json, health.json).
 

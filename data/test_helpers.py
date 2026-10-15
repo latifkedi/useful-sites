@@ -124,6 +124,14 @@ def main():
                                 lambda u: u.split('://')[1].rstrip('/')) == ['gone.com'],
           'orphan_keys finds the key no record carries, matching with or without the query')
 
+    print('linkstate.stale_years')
+    check(linkstate.stale_years('Heroku dropped its free tier in 2022.', 2026) == [],
+          'a past-tense fact with an old year is not stale')
+    check(linkstate.stale_years('The latest release is from 2023.', 2026) == [2023],
+          'an old year beside "latest" is a claim that can go stale')
+    check(linkstate.stale_years('Son sürüm 2022, depo durgun.', 2026) == [2022], 'the Turkish form is caught too')
+    check(linkstate.stale_years('The latest release is from 2025.', 2026) == [], 'a recent year is fine')
+
     print('linkstate.may_write')
     check(not linkstate.may_write(['ci_check.py'], {}), 'a scan run by hand leaves verified.json and health.json alone')
     check(linkstate.may_write(['ci_check.py', '--write'], {}), '--write lets a scan refresh them')

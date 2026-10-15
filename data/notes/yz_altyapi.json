@@ -373,10 +373,11 @@
     "tags": [
       "açık-kaynak",
       "agent",
-      "ücretsiz"
+      "ücretsiz",
+      "arşivlenmiş"
     ],
-    "tr": "Şartname güdümlü geliştirme sistemi: önce spec yazdırıyor, sonra ona karşı kod ürettiriyor. Doğrudan kod istemek yerine üretilen kodun ne yapması gerektiğini yazılı bir referansa bağlıyor.",
-    "en": "A spec-driven development system: it has the agent write a spec first and then generate code against it. Rather than asking for code directly, it anchors what the code should do to a written reference.",
+    "tr": "Şartname güdümlü geliştirme sistemi: önce spec yazdırıyor, sonra ona karşı kod ürettiriyor. Doğrudan kod istemek yerine üretilen kodun ne yapması gerektiğini yazılı bir referansa bağlıyor. Depo arşivlendi (son güncelleme Mayıs 2026), yeni sürüm gelmiyor.",
+    "en": "A spec-driven development system: it has the agent write a spec first and then generate code against it. Rather than asking for code directly, it anchors what the code should do to a written reference. The repository is archived (last update May 2026), so no new releases are coming.",
     "src": "kedi",
     "added": 1775477499
   },
