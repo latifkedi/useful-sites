@@ -409,7 +409,10 @@ function wordCh(c){ return c !== undefined && !Search.isSep(c) }
 function hl(text){
   if(!q) return esc(text);
   var ms = Search.marks(qParsed());
-  var src = esc(text), f = fold(src), out = "", i = 0;
+  /* Ham metin uzerinde eslestirilip parca parca kaciriliyor: kacirilmis
+     metinde ("&amp;") "amp" gibi bir terim varlik adinin ortasina
+     isaretleyip gorunumu bozuyordu. */
+  var src = String(text), f = fold(src), out = "", i = 0;
   while(i < src.length){
     var len = 0;
     for(var t=0;t<ms.length;t++){
@@ -419,8 +422,8 @@ function hl(text){
       if(m.how === "word" && wordCh(f[i + m.s.length])) continue;
       len = m.s.length; break;
     }
-    if(len){ out += "<mark>"+src.substr(i,len)+"</mark>"; i += len; }
-    else { out += src[i]; i++; }
+    if(len){ out += "<mark>"+esc(src.substr(i,len))+"</mark>"; i += len; }
+    else { out += esc(src[i]); i++; }
   }
   return out;
 }
@@ -484,7 +487,7 @@ function itemHTML(d, n, o){
     return '<span data-tag="'+esc(t)+'">'+esc(tagLabel(t))+'</span>' }).join('<i>·</i>');
   var rel = (d.rel||[]).map(function(i){
     var x = data[i];   /* rel: LINKS icindeki sira numaralari */
-    return x ? '<a data-rel="'+i+'">'+esc(x.name)+'</a>' : "" }).filter(Boolean).join(" · ");
+    return x ? '<a href="?q='+encodeURIComponent(x.name)+'" data-rel="'+i+'">'+esc(x.name)+'</a>' : "" }).filter(Boolean).join(" · ");
   var ad = '<a class="name" href="'+esc(d.url)+'" target="_blank" rel="noopener noreferrer">'+hl(d.name)+'</a>';
   return '<article class="rec'+(d.pick?' pick':'')+(o.big?' big':'')+'">'+
     '<span class="no">'+(n || "")+'</span><div class="rb">'+
@@ -1023,6 +1026,11 @@ document.addEventListener("click", function(e){
   var fb = e.target.closest("#filtb");
   if(fb){ if(filt.open) filt.close(); else openFilt(fb); return }
   if(filt.open && !filt.matches(":modal") && !e.target.closest("#filt")) filt.close();
+  /* Ctrl/Cmd/Shift-tikla ve orta tus: tarayici baglantiyi yeni sekmede
+     acsin (href'ler gercek adresler), uygulama araya girmesin. */
+  var al = e.target.closest("a[href]");
+  if(al && (e.button || e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) &&
+     al.matches("[data-home],[data-recent],[data-all],[data-perma],[data-vs],[data-rel],[data-field],[data-cat],[data-q]")) return;
   var hm = e.target.closest("[data-home]");
   if(hm){ e.preventDefault(); goHome(); return }
   var ex = e.target.closest("[data-exp]");
@@ -1035,7 +1043,13 @@ document.addEventListener("click", function(e){
     pages[parts[0]] = parseInt(parts[1], 10);
     update(false);
     var sec = document.getElementById("c-"+parts[0]);
-    if(sec) sec.scrollIntoView({block:"start", behavior:"smooth"});
+    if(sec){
+      /* Tiklanan dugme yeniden cizimle yok oluyor; odak bolume gitsin ki
+         klavye ve ekran okuyucu basta kalmasin. */
+      sec.tabIndex = -1; sec.focus({preventScroll:true});
+      sec.scrollIntoView({block:"start",
+        behavior: matchMedia("(prefers-reduced-motion:reduce)").matches ? "auto" : "smooth"});
+    }
     return;
   }
   var rc = e.target.closest("[data-recent]");
@@ -1118,7 +1132,8 @@ document.addEventListener("click", function(e){
   }
 });
 
-addEventListener("popstate", function(){ readURL(); render() });
+/* Bekleyen adres yazimi geri gelinen adresi ezmesin. */
+addEventListener("popstate", function(){ clearTimeout(typeTimer); readURL(); render() });
 
 function randomLink(){
   var pool = data.filter(keep);
@@ -1183,7 +1198,7 @@ function download(name, text, mime){
   a.href = URL.createObjectURL(new Blob([text], {type:mime}));
   a.download = name;
   document.body.appendChild(a); a.click();
-  setTimeout(function(){ URL.revokeObjectURL(a.href); a.remove() }, 0);
+  setTimeout(function(){ URL.revokeObjectURL(a.href); a.remove() }, 4000);
 }
 function exportAs(kind){
   var base = "baglantilar-" + (activeCat || "tumu");
@@ -1299,7 +1314,11 @@ document.addEventListener("keydown", function(e){
   var typing = /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName);
   if(e.key === "/" && !typing){ e.preventDefault(); $("#q").focus() }
   if(e.key === "r" && !typing && !e.ctrlKey && !e.metaKey && !e.altKey){ randomLink() }
-  if(e.key === "Escape"){ clearAll(); $("#q").blur() }
+  if(e.key === "Escape"){
+    /* Bos bir durumda gecmise yinelenen kayit eklenmesin. */
+    if(q || activeTags.length || activeCat || activeField || onlyPicks || activeSrc || single || recent) clearAll();
+    $("#q").blur();
+  }
 });
 
 /* ------------------------------------------------------------ suz paneli
