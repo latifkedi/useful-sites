@@ -6,7 +6,10 @@ function wordCh(c){ return c !== undefined && !Search.isSep(c) }
 function hl(text){
   if(!q) return esc(text);
   var ms = Search.marks(qParsed());
-  var src = esc(text), f = fold(src), out = "", i = 0;
+  /* Ham metin uzerinde eslestirilip parca parca kaciriliyor: kacirilmis
+     metinde ("&amp;") "amp" gibi bir terim varlik adinin ortasina
+     isaretleyip gorunumu bozuyordu. */
+  var src = String(text), f = fold(src), out = "", i = 0;
   while(i < src.length){
     var len = 0;
     for(var t=0;t<ms.length;t++){
@@ -16,8 +19,8 @@ function hl(text){
       if(m.how === "word" && wordCh(f[i + m.s.length])) continue;
       len = m.s.length; break;
     }
-    if(len){ out += "<mark>"+src.substr(i,len)+"</mark>"; i += len; }
-    else { out += src[i]; i++; }
+    if(len){ out += "<mark>"+esc(src.substr(i,len))+"</mark>"; i += len; }
+    else { out += esc(src[i]); i++; }
   }
   return out;
 }
@@ -81,7 +84,7 @@ function itemHTML(d, n, o){
     return '<span data-tag="'+esc(t)+'">'+esc(tagLabel(t))+'</span>' }).join('<i>·</i>');
   var rel = (d.rel||[]).map(function(i){
     var x = data[i];   /* rel: LINKS icindeki sira numaralari */
-    return x ? '<a data-rel="'+i+'">'+esc(x.name)+'</a>' : "" }).filter(Boolean).join(" · ");
+    return x ? '<a href="?q='+encodeURIComponent(x.name)+'" data-rel="'+i+'">'+esc(x.name)+'</a>' : "" }).filter(Boolean).join(" · ");
   var ad = '<a class="name" href="'+esc(d.url)+'" target="_blank" rel="noopener noreferrer">'+hl(d.name)+'</a>';
   return '<article class="rec'+(d.pick?' pick':'')+(o.big?' big':'')+'">'+
     '<span class="no">'+(n || "")+'</span><div class="rb">'+

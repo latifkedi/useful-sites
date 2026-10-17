@@ -86,6 +86,10 @@ document.addEventListener("keydown", function(e){
   var typing = /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName);
   if(e.key === "/" && !typing){ e.preventDefault(); $("#q").focus() }
   if(e.key === "r" && !typing && !e.ctrlKey && !e.metaKey && !e.altKey){ randomLink() }
-  if(e.key === "Escape"){ clearAll(); $("#q").blur() }
+  if(e.key === "Escape"){
+    /* Bos bir durumda gecmise yinelenen kayit eklenmesin. */
+    if(q || activeTags.length || activeCat || activeField || onlyPicks || activeSrc || single || recent) clearAll();
+    $("#q").blur();
+  }
 });
 

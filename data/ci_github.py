@@ -165,7 +165,7 @@ def write_health(results, skipped=(), current=None):
         yeni += 1
 
     if linkstate.may_write(sys.argv, os.environ):
-        json.dump(out, io.open(path, 'w', encoding='utf-8'),
+        json.dump(out, io.open(path, 'w', encoding='utf-8', newline='\n'),
                   ensure_ascii=False, indent=1, sort_keys=True)
         print('health.json: %d kayit (%d tazelendi)' % (len(out), yeni))
     else:
@@ -218,7 +218,7 @@ def main():
         L.append('')
 
     L.append('<sub>`data/ci_github.py` tarafından otomatik üretildi.</sub>')
-    io.open(os.path.join(ROOT, 'rapor-github.md'), 'w', encoding='utf-8').write('\n'.join(L))
+    io.open(os.path.join(ROOT, 'rapor-github.md'), 'w', encoding='utf-8', newline='\n').write('\n'.join(L))
     return 0
 
 

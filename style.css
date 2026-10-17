@@ -197,6 +197,7 @@ body.calm .side{display:none}
 .sh{margin:40px 0 2px;padding-bottom:10px;border-bottom:1px solid var(--rule);
   display:flex;align-items:baseline;gap:10px;font:600 20px/1.25 var(--serif);letter-spacing:-.01em}
 section{scroll-margin-top:20px}
+section[tabindex="-1"]:focus{outline:none}
 
 /* ---------------------------------------------------------------- arac cubugu */
 .tb{display:flex;align-items:center;flex-wrap:wrap;gap:8px;padding:10px 0;margin:0 0 4px;

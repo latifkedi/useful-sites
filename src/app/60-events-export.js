@@ -16,6 +16,11 @@ document.addEventListener("click", function(e){
   var fb = e.target.closest("#filtb");
   if(fb){ if(filt.open) filt.close(); else openFilt(fb); return }
   if(filt.open && !filt.matches(":modal") && !e.target.closest("#filt")) filt.close();
+  /* Ctrl/Cmd/Shift-tikla ve orta tus: tarayici baglantiyi yeni sekmede
+     acsin (href'ler gercek adresler), uygulama araya girmesin. */
+  var al = e.target.closest("a[href]");
+  if(al && (e.button || e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) &&
+     al.matches("[data-home],[data-recent],[data-all],[data-perma],[data-vs],[data-rel],[data-field],[data-cat],[data-q]")) return;
   var hm = e.target.closest("[data-home]");
   if(hm){ e.preventDefault(); goHome(); return }
   var ex = e.target.closest("[data-exp]");
@@ -28,7 +33,13 @@ document.addEventListener("click", function(e){
     pages[parts[0]] = parseInt(parts[1], 10);
     update(false);
     var sec = document.getElementById("c-"+parts[0]);
-    if(sec) sec.scrollIntoView({block:"start", behavior:"smooth"});
+    if(sec){
+      /* Tiklanan dugme yeniden cizimle yok oluyor; odak bolume gitsin ki
+         klavye ve ekran okuyucu basta kalmasin. */
+      sec.tabIndex = -1; sec.focus({preventScroll:true});
+      sec.scrollIntoView({block:"start",
+        behavior: matchMedia("(prefers-reduced-motion:reduce)").matches ? "auto" : "smooth"});
+    }
     return;
   }
   var rc = e.target.closest("[data-recent]");
@@ -111,7 +122,8 @@ document.addEventListener("click", function(e){
   }
 });
 
-addEventListener("popstate", function(){ readURL(); render() });
+/* Bekleyen adres yazimi geri gelinen adresi ezmesin. */
+addEventListener("popstate", function(){ clearTimeout(typeTimer); readURL(); render() });
 
 function randomLink(){
   var pool = data.filter(keep);
@@ -176,7 +188,7 @@ function download(name, text, mime){
   a.href = URL.createObjectURL(new Blob([text], {type:mime}));
   a.download = name;
   document.body.appendChild(a); a.click();
-  setTimeout(function(){ URL.revokeObjectURL(a.href); a.remove() }, 0);
+  setTimeout(function(){ URL.revokeObjectURL(a.href); a.remove() }, 4000);
 }
 function exportAs(kind){
   var base = "baglantilar-" + (activeCat || "tumu");

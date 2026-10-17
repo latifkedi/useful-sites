@@ -36,11 +36,11 @@ def esc(s):
 
 
 def _iso(ts):
-    return datetime.datetime.utcfromtimestamp(ts).strftime('%Y-%m-%dT%H:%M:%SZ')
+    return datetime.datetime.fromtimestamp(ts, datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
 
 
 def _day(ts):
-    return datetime.datetime.utcfromtimestamp(ts).strftime('%Y-%m-%d')
+    return datetime.datetime.fromtimestamp(ts, datetime.timezone.utc).strftime('%Y-%m-%d')
 
 
 # The static pages carry none of the app shell; their only job is to be

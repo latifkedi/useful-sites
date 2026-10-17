@@ -18,9 +18,14 @@ permissions:
   contents: write      # to write verified.json back
   issues: write
 
+concurrency:
+  group: link-check
+  cancel-in-progress: false
+
 jobs:
   check:
     runs-on: ubuntu-latest
+    timeout-minutes: 90
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262  # v4.4.0
 
@@ -55,7 +60,7 @@ jobs:
       - name: Commit the verification data and the rebuilt site
         run: |
           paths="data/verified.json data/health.json links.js desc.tr.js links.en.js index.html sitemap.xml robots.txt feed.xml k/ feed/"
-          if git diff --quiet -- $paths; then
+          if [ -z "$(git status --porcelain -- $paths)" ]; then
             echo "no change"
           else
             git config user.name  "link-check[bot]"

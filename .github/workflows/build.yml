@@ -13,9 +13,14 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262  # v4.4.0
 
@@ -42,9 +47,9 @@ jobs:
       # too; they were missing from this list, so they could drift unnoticed.
       - name: Committed output matches a fresh build
         run: |
-          if ! git diff --quiet -- links.js desc.tr.js links.en.js app.js index.html sitemap.xml robots.txt feed.xml k/ feed/ README.md .github/ISSUE_TEMPLATE/new-link.yml; then
+          if [ -n "$(git status --porcelain -- links.js desc.tr.js links.en.js app.js index.html sitemap.xml robots.txt feed.xml k/ feed/ README.md .github/ISSUE_TEMPLATE/new-link.yml)" ]; then
             echo "::error::A rebuild changed the committed output. Run 'python data/build.py' and commit the result."
-            git --no-pager diff --stat -- links.js desc.tr.js links.en.js app.js index.html sitemap.xml robots.txt feed.xml k/ feed/ README.md .github/ISSUE_TEMPLATE/new-link.yml
+            git --no-pager status --short -- links.js desc.tr.js links.en.js app.js index.html sitemap.xml robots.txt feed.xml k/ feed/ README.md .github/ISSUE_TEMPLATE/new-link.yml
             exit 1
           fi
           echo "clean"
@@ -57,6 +62,7 @@ jobs:
   # one more thing that can be poisoned.
   browser:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262  # v4.4.0
 

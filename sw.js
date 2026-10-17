@@ -66,7 +66,7 @@ function trim(cache, url){
    Yonlendirilmis yanit saklanmiyor: gezinmede sunulursa tarayici reddediyor. */
 function network(req, cache, key){
   return fetch(req).then(function(r){
-    if(r.ok && r.type === "basic" && !r.redirected) cache.put(key || req, r.clone());
+    if(r.ok && r.status === 200 && r.type === "basic" && !r.redirected) cache.put(key || req, r.clone()).catch(function(){});
     return r;
   });
 }

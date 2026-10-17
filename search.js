@@ -13,9 +13,12 @@ var Search = (function(){
      a record titled "İstanbul"). Every replacement is one character for one
      character: hl() in app.js lines folded and original text up by index.
      One pass over a lookup table rather than nine replace() calls. */
-  var FOLD = {"ı":"i", "ş":"s", "ğ":"g", "ü":"u", "ö":"o", "ç":"c", "â":"a", "î":"i", "û":"u"};
+  var FOLD = {"ı":"i", "ş":"s", "ğ":"g", "ü":"u", "ö":"o", "ç":"c", "â":"a", "î":"i", "û":"u",
+              "á":"a", "à":"a", "ä":"a", "ã":"a", "å":"a", "é":"e", "è":"e", "ê":"e", "ë":"e",
+              "í":"i", "ì":"i", "ï":"i", "ó":"o", "ò":"o", "ô":"o", "õ":"o", "ú":"u", "ù":"u",
+              "ñ":"n", "ý":"y", "ÿ":"y"};
   function fold(s){
-    return String(s).replace(/İ/g,"i").toLowerCase().replace(/[ışğüöçâîû]/g, function(c){ return FOLD[c] });
+    return String(s).replace(/İ/g,"i").toLowerCase().replace(/[ışğüöçâîûáàäãåéèêëíìïóòôõúùñýÿ]/g, function(c){ return FOLD[c] });
   }
   /* new URL() 1888 kez sayfa acilisinin en pahali parcasiydi; butun
      kayitlarda ayni sonucu veren bir duzenli ifade. */
