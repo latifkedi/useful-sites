@@ -5,7 +5,70 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/en/guv_teknik.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/guv_teknik.xml</id>
-<updated>2026-09-18T00:00:00Z</updated>
+<updated>2026-10-18T00:00:00Z</updated>
+<entry>
+  <title>Awesome Connected Things Security</title>
+  <link href="https://v33ru.github.io/awesome-connected-things-sec/"/>
+  <id>https://v33ru.github.io/awesome-connected-things-sec/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A list for security research on IoT, embedded, industrial and automotive systems, gathering hardware attacks, wireless protocols (BLE, Zigbee, LoRa, NFC) and firmware resources. Unlike web-focused security lists it centres on physical devices and the radio layer.</summary>
+</entry>
+<entry>
+  <title>Awesome Cybersecurity List</title>
+  <link href="https://github.com/0xor0ne/awesome-list"/>
+  <id>https://github.com/0xor0ne/awesome-list</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A year-by-year archive of cybersecurity blog posts, write-ups and papers, with entries up to 2026. Unlike tool lists the links are technical analyses to read (exploit chains, CVE write-ups); tools sit in a separate file.</summary>
+</entry>
+<entry>
+  <title>Awesome Industrial Protocols</title>
+  <link href="https://github.com/Orange-Cyberdefense/awesome-industrial-protocols"/>
+  <id>https://github.com/Orange-Cyberdefense/awesome-industrial-protocols</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A security-oriented resource list on industrial network protocols such as Modbus, S7 and OPC UA, with a page and dataset per protocol. Unlike general security lists it goes down to the OT/ICS protocol level.</summary>
+</entry>
+<entry>
+  <title>ICS Security Tools</title>
+  <link href="https://github.com/ITI/ICS-Security-Tools"/>
+  <id>https://github.com/ITI/ICS-Security-Tools</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Tools, protocol notes, sample pcaps, configurations and guides for industrial control system (ICS/SCADA) security. Unlike general security lists it covers only OT/ICS environments, and includes packet captures and protocol material. Last updated 2025.</summary>
+</entry>
+<entry>
+  <title>Kicksecure Documentation</title>
+  <link href="https://www.kicksecure.com/wiki/Documentation"/>
+  <id>https://www.kicksecure.com/wiki/Documentation</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>The wiki of Kicksecure, a hardened Debian derivative, covering system hardening, kernel and browser settings, Tor and password management step by step. Unlike generic security checklists it shows how each recommendation is applied at operating-system level.</summary>
+</entry>
+<entry>
+  <title>Oh SHINT! It's a Blog</title>
+  <link href="https://ohshint.gitbook.io/oh-shint-its-a-blog"/>
+  <id>https://ohshint.gitbook.io/oh-shint-its-a-blog</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A GitBook site gathering OSINT web-resource and tool lists plus blog posts, with a separate page of newly added resources per year. Unlike a single framework page it has many topic-specific sub-lists; last updated in 2024.</summary>
+</entry>
+<entry>
+  <title>OSINT Bible</title>
+  <link href="https://github.com/frangelbarrera/OSINT-BIBLE"/>
+  <id>https://github.com/frangelbarrera/OSINT-BIBLE</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>An OSINT guide of 450+ tools, methods and ethics/legal notes across 35 sections, which also publishes a link-audit report. Unlike pure tool lists it adds a four-step research methodology and legal-framework sections.</summary>
+</entry>
+<entry>
+  <title>s0cm0nkey's Security Reference Guide</title>
+  <link href="https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide"/>
+  <id>https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A hand-curated guide to links and resources split by topic for SOC, pentesting, DFIR, threat intelligence and AppSec. Unlike awesome lists that cover a single area, it collects blue-team and red-team material in one gitbook.</summary>
+</entry>
+<entry>
+  <title>WiGLE</title>
+  <link href="https://wigle.net"/>
+  <id>https://wigle.net</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Map and search interface for volunteer-collected worldwide Wi-Fi, Bluetooth and cell-tower observations. Unlike IP geolocation services, it indexes wireless access points with location data.</summary>
+</entry>
 <entry>
   <title>Awesome CAPTCHA</title>
   <link href="https://github.com/ZYSzys/awesome-captcha"/>
@@ -222,68 +285,5 @@
   <id>https://www.cryptologie.net/</id>
   <updated>2026-08-21T20:53:20Z</updated>
   <summary>Cryptographer David Wong’s blog and notes on applied cryptography. Against academic papers it explains protocols from an implementer’s seat — not the theorem, but where real systems get it wrong.</summary>
-</entry>
-<entry>
-  <title>OWASP Fuzzing</title>
-  <link href="https://owasp.org/www-community/Fuzzing"/>
-  <id>https://owasp.org/www-community/Fuzzing</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>An introduction to fuzzing from OWASP’s own community pages: how it works, which tools exist, which classes of bug it finds. Against a tool’s own documentation it describes the method neutrally.</summary>
-</entry>
-<entry>
-  <title>SANS Cheat Sheets</title>
-  <link href="https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets/"/>
-  <id>https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>The SANS Institute’s security cheat sheets: forensics, incident response, memory analysis, the Windows registry. Unlike general cheat sheets these are built for use during an incident — which command yields which evidence.</summary>
-</entry>
-<entry>
-  <title>TinEye</title>
-  <link href="https://tineye.com/"/>
-  <id>https://tineye.com/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A reverse image search that finds where an image appears online and which copy is oldest. Against Google Images it looks for the same image rather than similar ones, which makes it better for finding a source or checking a fake profile.</summary>
-</entry>
-<entry>
-  <title>Bugcrowd</title>
-  <link href="https://www.bugcrowd.com/"/>
-  <id>https://www.bugcrowd.com/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A crowdsourced vulnerability (bug bounty) platform connecting companies with security researchers. Unlike individual programs it gathers many targets in one dashboard.</summary>
-</entry>
-<entry>
-  <title>Hak5</title>
-  <link href="https://www.youtube.com/user/Hak5Darren"/>
-  <id>https://www.youtube.com/user/Hak5Darren</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A security channel demonstrating penetration testing tools and techniques hands-on. Against theoretical treatments it goes to the hardware side — network implants and physical attack tools.</summary>
-</entry>
-<entry>
-  <title>Siber Güvenlik Başkanlığı</title>
-  <link href="https://siberguvenlik.gov.tr/"/>
-  <id>https://siberguvenlik.gov.tr/</id>
-  <updated>2026-07-20T11:09:35Z</updated>
-  <summary>Turkey’s cyber security authority, publishing national advisories, regulation and critical-infrastructure guidance. Unlike international sources it gives Turkey-specific regulation and compliance requirements.</summary>
-</entry>
-<entry>
-  <title>Robin</title>
-  <link href="https://github.com/apurvsinghgautam/robin"/>
-  <id>https://github.com/apurvsinghgautam/robin</id>
-  <updated>2026-04-20T11:44:32Z</updated>
-  <summary>An AI-assisted tool that expands queries and summarises results in dark web research. Unlike manual searching it automates the sweep — a first filter in an area where results still need human verification.</summary>
-</entry>
-<entry>
-  <title>CyberNotes</title>
-  <link href="https://www.cybernotes.tech/"/>
-  <id>https://www.cybernotes.tech/</id>
-  <updated>2026-04-20T11:42:55Z</updated>
-  <summary>A tidy note archive of security topics. Unlike comprehensive handbooks it is pruned for speed — a quick reference for recalling a command or method mid-lab.</summary>
-</entry>
-<entry>
-  <title>GhidraMCP</title>
-  <link href="https://github.com/lauriewired/ghidramcp"/>
-  <id>https://github.com/lauriewired/ghidramcp</id>
-  <updated>2026-04-06T11:25:19Z</updated>
-  <summary>Exposes Ghidra to an assistant over MCP, letting you delegate the tedious parts — reading disassembly, naming functions. Unlike classic Ghidra scripts it drives the analysis through dialogue — a genuinely new workflow in binary analysis.</summary>
 </entry>
 </feed>

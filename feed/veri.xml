@@ -7,11 +7,32 @@
 <id>https://latifkedi.github.io/useful-sites/feed/veri.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
 <entry>
+  <title>Awesome GIS</title>
+  <link href="https://github.com/sshuair/awesome-gis"/>
+  <id>https://github.com/sshuair/awesome-gis</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Haritacılık araçları, coğrafi analiz kütüphaneleri, veri kaynakları ve topluluklar için coğrafi bilgi sistemleri (CBS) listesi. Esri odaklı listelerin aksine açık kaynak ve platformdan bağımsız: masaüstü GIS, web harita kütüphaneleri ve açık veri aynı yerde.</summary>
+</entry>
+<entry>
   <title>kepler.gl</title>
   <link href="https://kepler.gl/"/>
   <id>https://kepler.gl/</id>
   <updated>2026-10-18T00:00:00Z</updated>
   <summary>Büyük konum veri setlerini (milyonlarca nokta, yolculuk, ızgara) tarayıcıda katman katman görselleştiren açık kaynak araç; Uber’de doğdu. QGIS’ten farkı analizden çok keşif ve sunuma odaklanması: CSV ya da GeoJSON’u sürükleyip zaman kaydırıcılı bir haritaya dakikalar içinde ulaşıyorsun.</summary>
+</entry>
+<entry>
+  <title>Map of Reddit</title>
+  <link href="https://anvaka.github.io/map-of-reddit/"/>
+  <id>https://anvaka.github.io/map-of-reddit/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Subreddit'leri ortak yorumcu benzerliğine göre kümeleyip WebGL ile haritalayan etkileşimli görselleştirme (2020-21 yorumları). Subreddit listelerinden farkı topluluklar arası yakınlığı mekânsal olarak göstermesi.</summary>
+</entry>
+<entry>
+  <title>OpenDigger</title>
+  <link href="https://open-digger.cn/en/"/>
+  <id>https://open-digger.cn/en/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>X-lab'ın GitHub etkinliğinden türettiği açık kaynak sağlık metriklerini (OpenRank, aktivite, katılımcı) sunan analiz platformu. Ham GitHub API'sinden farkı hazır, zaman serisi ve açık veri olarak yayımlanması.</summary>
 </entry>
 <entry>
   <title>overpass turbo</title>
@@ -264,26 +285,5 @@
   <id>https://data.europa.eu</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Avrupa Birliği’nin resmî açık veri portalı. Ulusal portallardan farkı üye ülkelerin veri kümelerini tek aramada birleştirmesi ve AB kurumlarının kendi verisini de içermesi.</summary>
-</entry>
-<entry>
-  <title>Data.gov</title>
-  <link href="https://data.gov"/>
-  <id>https://data.gov</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>ABD federal açık veri portalı; kanonik devlet veri kümeleri. Üçüncü taraf derlemelerden farkı resmî kaynak olması; kayıtların çoğu veriyi yayımlayan kurumun sitesine yönlendiriyor.</summary>
-</entry>
-<entry>
-  <title>DataHub</title>
-  <link href="https://datahub.io"/>
-  <id>https://datahub.io</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Kullanıma hazır CSV/JSON biçiminde derlenmiş açık veri kümeleri ve araçları. Ham portal verisinden farkı temizlenmiş ve standart veri paketi (Frictionless Data) biçiminde sunulması.</summary>
-</entry>
-<entry>
-  <title>Figshare</title>
-  <link href="https://figshare.com"/>
-  <id>https://figshare.com</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Araştırma çıktılarını ve veri kümelerini DOI ile atıf verilebilir biçimde paylaştıran platform. Zenodo’ya kıyasla ticari bir şirketin (Digital Science) ürünü; üniversitelere kurumsal depo olarak da satılıyor.</summary>
 </entry>
 </feed>

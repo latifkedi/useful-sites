@@ -5,7 +5,35 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/en/barindirma.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/barindirma.xml</id>
-<updated>2026-10-09T09:00:00Z</updated>
+<updated>2026-10-18T00:00:00Z</updated>
+<entry>
+  <title>MediaWiki</title>
+  <link href="https://www.mediawiki.org/wiki/MediaWiki"/>
+  <id>https://www.mediawiki.org/wiki/MediaWiki</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>The official home of the wiki software that runs Wikipedia, with installation, configuration, extension and API documentation. It stands out as the most widely used and mature wiki engine for people who want to run their own knowledge base.</summary>
+</entry>
+<entry>
+  <title>Self-Hosting Guide</title>
+  <link href="https://github.com/mikeroyal/Self-Hosting-Guide"/>
+  <id>https://github.com/mikeroyal/Self-Hosting-Guide</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A large guide to hosting your own services (home and cloud), packed with software and tool links. Unlike awesome-selfhosted it covers setup and infrastructure topics, not only an app list.</summary>
+</entry>
+<entry>
+  <title>Spacebar</title>
+  <link href="https://spacebar.chat"/>
+  <id>https://spacebar.chat</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A self-hostable chat platform reimplementing Discord's backend and frontend. Unlike Matrix or Rocket.Chat, it stays compatible with Discord's own API.</summary>
+</entry>
+<entry>
+  <title>YunoHost App Store</title>
+  <link href="https://apps.yunohost.org"/>
+  <id>https://apps.yunohost.org</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Catalogue of apps installable in one click on YunoHost, graded by packaging quality and upkeep. Unlike awesome-selfhosted, every listed app already has a ready YunoHost package.</summary>
+</entry>
 <entry>
   <title>LinkStack</title>
   <link href="https://github.com/LinkStackOrg/LinkStack"/>
@@ -257,33 +285,5 @@
   <id>https://www.cloudron.io</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>Self-hosts web apps with managed updates, backups and single sign-on. Unlike CapRover it takes on that maintenance; in exchange it is licensed, with the free tier limited to two apps.</summary>
-</entry>
-<entry>
-  <title>Coolify</title>
-  <link href="https://coolify.io"/>
-  <id>https://coolify.io</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An open-source self-hosted PaaS you run on your own server — a self-hosted alternative to Heroku/Netlify.</summary>
-</entry>
-<entry>
-  <title>Deno Deploy</title>
-  <link href="https://deno.com/deploy"/>
-  <id>https://deno.com/deploy</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A platform that runs JavaScript/TypeScript serverless on a global edge network. Compared with Cloudflare Workers it uses the Deno runtime with npm compatibility, so code that runs locally ships unchanged.</summary>
-</entry>
-<entry>
-  <title>Dokku</title>
-  <link href="https://dokku.com"/>
-  <id>https://dokku.com</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The smallest open-source Heroku-like PaaS, running on a single host via git push.</summary>
-</entry>
-<entry>
-  <title>Feedly</title>
-  <link href="https://feedly.com/"/>
-  <id>https://feedly.com/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An RSS reader where you decide what you read at the source level, unlike algorithmic feeds — and nothing you have not read disappears.</summary>
 </entry>
 </feed>

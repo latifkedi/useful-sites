@@ -7,6 +7,14 @@
 <id>https://latifkedi.github.io/useful-sites/</id>
 <updated>2026-10-18T00:00:00Z</updated>
 <entry>
+  <title>Beej's Guides</title>
+  <link href="https://beej.us/guide/"/>
+  <id>https://beej.us/guide/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="C, C++ &amp; Rust"/>
+  <summary>C dili ve ağ programlama (soket) üzerine uzun yıllardır güncellenen, ücretsiz ve esprili kılavuzlar; HTML, PDF ve basılı biçimde sunuluyor. Resmî dokümanlardan farkı öğretici bir dille yazılmış olması.</summary>
+</entry>
+<entry>
   <title>Protomaps</title>
   <link href="https://protomaps.com/"/>
   <id>https://protomaps.com/</id>
@@ -63,6 +71,14 @@
   <summary>Bytecode Alliance’ın tarayıcı dışında WebAssembly çalıştıran çalışma ortamı; Rust ile yazılmış, Cranelift ile derliyor, WASI ve bileşen modelini ilk uygulayanlardan. Wasmer’dan farkı paket kaydı ya da barındırma satmaması; standart takibine ve gömülerek kullanılmaya odaklanması.</summary>
 </entry>
 <entry>
+  <title>Select Star SQL</title>
+  <link href="https://selectstarsql.com/"/>
+  <id>https://selectstarsql.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Veritabanı"/>
+  <summary>Gerçek bir veri seti üzerinde tarayıcıda çalıştırılan alıştırmalarla SQL'i anlatan etkileşimli çevrimiçi kitap. Sözdizimi referanslarından farkı, tek bir veri setinin hikayesi üzerinden sorgu mantığını adım adım öğretmesidir.</summary>
+</entry>
+<entry>
   <title>Awesome Sites to Test On</title>
   <link href="https://github.com/BMayhew/awesome-sites-to-test-on"/>
   <id>https://github.com/BMayhew/awesome-sites-to-test-on</id>
@@ -71,12 +87,36 @@
   <summary>Test otomasyonu pratiği için hedef siteler ve API’lerin listesi: demo mağazalar, formlar, tuzaklı sayfalar ve sahte API’ler türüne göre ayrılmış. Bu dizinde yalnızca birkaç temsilci tutuluyor; birbirinin yerine geçen onlarca demo sitesinin tam listesi burada.</summary>
 </entry>
 <entry>
+  <title>Awesome GIS</title>
+  <link href="https://github.com/sshuair/awesome-gis"/>
+  <id>https://github.com/sshuair/awesome-gis</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Veri Bilimi &amp; Makine Öğrenmesi"/>
+  <summary>Haritacılık araçları, coğrafi analiz kütüphaneleri, veri kaynakları ve topluluklar için coğrafi bilgi sistemleri (CBS) listesi. Esri odaklı listelerin aksine açık kaynak ve platformdan bağımsız: masaüstü GIS, web harita kütüphaneleri ve açık veri aynı yerde.</summary>
+</entry>
+<entry>
   <title>kepler.gl</title>
   <link href="https://kepler.gl/"/>
   <id>https://kepler.gl/</id>
   <updated>2026-10-18T00:00:00Z</updated>
   <category term="Veri Bilimi &amp; Makine Öğrenmesi"/>
   <summary>Büyük konum veri setlerini (milyonlarca nokta, yolculuk, ızgara) tarayıcıda katman katman görselleştiren açık kaynak araç; Uber’de doğdu. QGIS’ten farkı analizden çok keşif ve sunuma odaklanması: CSV ya da GeoJSON’u sürükleyip zaman kaydırıcılı bir haritaya dakikalar içinde ulaşıyorsun.</summary>
+</entry>
+<entry>
+  <title>Map of Reddit</title>
+  <link href="https://anvaka.github.io/map-of-reddit/"/>
+  <id>https://anvaka.github.io/map-of-reddit/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Veri Bilimi &amp; Makine Öğrenmesi"/>
+  <summary>Subreddit'leri ortak yorumcu benzerliğine göre kümeleyip WebGL ile haritalayan etkileşimli görselleştirme (2020-21 yorumları). Subreddit listelerinden farkı topluluklar arası yakınlığı mekânsal olarak göstermesi.</summary>
+</entry>
+<entry>
+  <title>OpenDigger</title>
+  <link href="https://open-digger.cn/en/"/>
+  <id>https://open-digger.cn/en/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Veri Bilimi &amp; Makine Öğrenmesi"/>
+  <summary>X-lab'ın GitHub etkinliğinden türettiği açık kaynak sağlık metriklerini (OpenRank, aktivite, katılımcı) sunan analiz platformu. Ham GitHub API'sinden farkı hazır, zaman serisi ve açık veri olarak yayımlanması.</summary>
 </entry>
 <entry>
   <title>overpass turbo</title>
@@ -95,6 +135,94 @@
   <summary>Windows, macOS ve Linux’ta çalışan açık kaynak masaüstü coğrafi bilgi sistemi; shapefile, GeoPackage, PostGIS ve raster katmanlarını okuyup analiz ediyor, eklentilerle genişliyor. ArcGIS’ten farkı lisans ücreti olmaması; buna karşın kurumsal destek topluluk ve ticari ortaklardan geliyor.</summary>
 </entry>
 <entry>
+  <title>Floci</title>
+  <link href="https://floci.io/floci/"/>
+  <id>https://floci.io/floci/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="DevOps &amp; Altyapı"/>
+  <summary>Yerelde ve CI'da çalışan, hesap ya da token istemeyen AWS emülatörü; AWS SDK, CLI ve Terraform aynı 4566 portuna yönlendirilir. LocalStack'ten farkı, özellik kısıtı ve kimlik doğrulaması olmadan imaj değiştirerek yerine geçmeyi hedeflemesidir.</summary>
+</entry>
+<entry>
+  <title>iximiuz Labs</title>
+  <link href="https://labs.iximiuz.com/"/>
+  <id>https://labs.iximiuz.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="DevOps &amp; Altyapı"/>
+  <summary>Linux, konteyner, Kubernetes ve ağ konularını tarayıcıdaki gerçek sanal makinelerde uygulamalı öğreten laboratuvarlar ve meydan okumalar. Yalnız anlatan yazılardan farkı her dersin çalışan bir ortamla gelmesi.</summary>
+</entry>
+<entry>
+  <title>Awesome eBPF (qmonnet)</title>
+  <link href="https://github.com/qmonnet/awesome-ebpf"/>
+  <id>https://github.com/qmonnet/awesome-ebpf</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Ağ &amp; Sistem Yönetimi"/>
+  <summary>eBPF ile ilgili projeler, makaleler ve araçlar için liste; derleyici, izleme ve ağ (XDP) projeleri ayrı başlıklarda. Dizindeki diğer eBPF listesinden farkı bakımının sürmesi ve eBPF dokümantasyonu yazan birinin elinden çıkması.</summary>
+</entry>
+<entry>
+  <title>Bridgy Fed</title>
+  <link href="https://fed.brid.gy"/>
+  <id>https://fed.brid.gy</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Ağ &amp; Sistem Yönetimi"/>
+  <summary>Web siteleri, fediverse (Mastodon vb.) ve Bluesky/AT Protocol arasında köprü kuran servis; hesabını kaybetmeden ağlar arası takip ve yanıt sağlar. Tek ağa bağlı istemcilerden farkı protokolleri birbirine çevirmesi.</summary>
+</entry>
+<entry>
+  <title>OpenInfraMap</title>
+  <link href="https://openinframap.org"/>
+  <id>https://openinframap.org</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Ağ &amp; Sistem Yönetimi"/>
+  <summary>OpenStreetMap verisinden elektrik hatları, santraller, petrol/gaz boru hatları ve telekom altyapısını çizen harita. Genel haritalardan farkı altyapıya özel katmanlar ve gerilim/kapasite ayrıntısı.</summary>
+</entry>
+<entry>
+  <title>Submarine Cable Map</title>
+  <link href="https://www.submarinecablemap.com/"/>
+  <id>https://www.submarinecablemap.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Ağ &amp; Sistem Yönetimi"/>
+  <summary>TeleGeography'nin dünyadaki denizaltı internet kablolarını, iniş noktalarını ve işleten şirketleri gösteren etkileşimli haritası. Genel ağ haritalarından farkı, internetin fiziksel omurgasını kablo kablo izlenebilir kılmasıdır.</summary>
+</entry>
+<entry>
+  <title>MediaWiki</title>
+  <link href="https://www.mediawiki.org/wiki/MediaWiki"/>
+  <id>https://www.mediawiki.org/wiki/MediaWiki</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Öz-Barındırma &amp; Kişisel Bulut"/>
+  <summary>Vikipedi'nin de üzerinde çalıştığı wiki yazılımının resmi sayfası; kurulum, yapılandırma, eklenti ve API belgeleri burada. Kendi sunucusunda bilgi tabanı kurmak isteyenler için en yaygın ve olgun wiki motoru olmasıyla ayrılır.</summary>
+</entry>
+<entry>
+  <title>Self-Hosting Guide</title>
+  <link href="https://github.com/mikeroyal/Self-Hosting-Guide"/>
+  <id>https://github.com/mikeroyal/Self-Hosting-Guide</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Öz-Barındırma &amp; Kişisel Bulut"/>
+  <summary>Kendi sunucunda barındırmayı (ev ve bulut) anlatan, yazılım ve araç bağlantılarıyla dolu büyük rehber. awesome-selfhosted'dan farkı yalnız uygulama listesi değil, kurulum ve altyapı konularını da kapsaması.</summary>
+</entry>
+<entry>
+  <title>Spacebar</title>
+  <link href="https://spacebar.chat"/>
+  <id>https://spacebar.chat</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Öz-Barındırma &amp; Kişisel Bulut"/>
+  <summary>Discord'un arka uç ve arayüzünü yeniden uygulayan, kendi sunucunda barındırılabilen sohbet platformu. Matrix veya Rocket.Chat'ten farkı Discord API'si ile uyumlu olması.</summary>
+</entry>
+<entry>
+  <title>YunoHost App Store</title>
+  <link href="https://apps.yunohost.org"/>
+  <id>https://apps.yunohost.org</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Öz-Barındırma &amp; Kişisel Bulut"/>
+  <summary>YunoHost için tek tıkla kurulabilen uygulamaların kataloğu; kalite ve bakım düzeyine göre derecelendirilmiş. awesome-selfhosted'dan farkı, listelenen her uygulamanın YunoHost'ta hazır paketlenmiş olması.</summary>
+</entry>
+<entry>
+  <title>Digital Defense (Personal Security Checklist)</title>
+  <link href="https://digital-defense.io/"/>
+  <id>https://digital-defense.io/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Gizlilik &amp; Kişisel Güvenlik"/>
+  <summary>300'den fazla maddelik, kategorilere ayrılmış kişisel dijital güvenlik kontrol listesi; her maddenin yanında önerilen araç ve ayarlar bulunur. Tek bir aracı değil, parolalardan mesajlaşmaya kadar tüm güvenlik alışkanlıklarını kapsayan açık kaynaklı bir denetim listesi olması onu ayırır.</summary>
+</entry>
+<entry>
   <title>KVKK — Kişisel Verileri Koruma Kurumu</title>
   <link href="https://www.kvkk.gov.tr/"/>
   <id>https://www.kvkk.gov.tr/</id>
@@ -103,227 +231,99 @@
   <summary>Türkiye’nin veri koruma otoritesi: 6698 sayılı Kanun, Kurul kararları, rehberler ve kamuoyuna duyurulan veri ihlali bildirimleri. Gizlilik araçları anlatan rehberlerden farkı düzenleyicinin kendisi olması: şirketlerin ne yapmak zorunda olduğunu ve hangi sızıntıların bildirildiğini buradan görüyorsun.</summary>
 </entry>
 <entry>
-  <title>OpenAlex</title>
-  <link href="https://openalex.org/"/>
-  <id>https://openalex.org/</id>
+  <title>PRISM Break</title>
+  <link href="https://prism-break.org/en/all/"/>
+  <id>https://prism-break.org/en/all/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Bilim &amp; Akademik"/>
-  <summary>Bilimsel yayınların, yazarların, kurumların ve dergilerin açık kataloğu; tüm veri CC0 lisanslı ve ücretsiz bir API ile sorgulanıyor. Semantic Scholar’dan farkı verinin hiçbir kısıtlama olmadan yeniden kullanılabilmesi; Microsoft Academic Graph kapandığında onun yerini almak üzere kuruldu.</summary>
+  <category term="Gizlilik &amp; Kişisel Güvenlik"/>
+  <summary>Gözetim yapan hizmetlere karşı platform ve kategoriye göre özgür, gizliliğe saygılı alternatifleri listeleyen katalog. Genel yazılım alternatifi sitelerinden farkı, ölçütünün yalnızca gizlilik ve açık kaynak olmasıdır.</summary>
 </entry>
 <entry>
-  <title>Türkiye Bursları</title>
-  <link href="https://www.turkiyeburslari.gov.tr/"/>
-  <id>https://www.turkiyeburslari.gov.tr/</id>
+  <title>Surveillance Self-Defense</title>
+  <link href="https://ssd.eff.org/"/>
+  <id>https://ssd.eff.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Bilim &amp; Akademik"/>
-  <summary>Türkiye’de lisans, yüksek lisans ve doktora için uluslararası öğrencilere verilen devlet bursu programı; burs kapsamı, programlar ve başvuru takvimi burada. Üniversitelerin kendi burslarından farkı öğrenim ücreti, aylık ödenek, yurt ve bir yıllık Türkçe kursunu tek başvuruda toplaması.</summary>
+  <category term="Gizlilik &amp; Kişisel Güvenlik"/>
+  <summary>Electronic Frontier Foundation'ın gözetime karşı iletişim ve cihaz güvenliği rehberi; tehdit modeli çıkarmaktan şifreli mesajlaşmaya kadar adım adım kılavuzlar içerir. Araç listelerinden farkı, önce kime karşı korunulduğunu sorgulatan öğretici yaklaşımıdır.</summary>
 </entry>
 <entry>
-  <title>YÖK Atlas</title>
-  <link href="https://yokatlas.yok.gov.tr/"/>
-  <id>https://yokatlas.yok.gov.tr/</id>
+  <title>WhoTracks.me</title>
+  <link href="https://www.ghostery.com/whotracksme"/>
+  <id>https://www.ghostery.com/whotracksme</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Bilim &amp; Akademik"/>
-  <summary>Lisans ve önlisans programlarının yerleştirme verisi: taban puan ve başarı sırası, kontenjan, öğrencilerin geldiği iller ve liseler, akademik kadro. Dershane tercih listelerinden farkı ÖSYM yerleştirmesine dayanan resmî ve program düzeyinde ayrıntılı veri olması.</summary>
+  <category term="Gizlilik &amp; Kişisel Güvenlik"/>
+  <summary>Web sitelerindeki ve izleyici şirketlerdeki takibin yaygınlığını aylık ölçümlerle gösteren Ghostery verisi; hangi sitede hangi izleyicilerin çalıştığı aranabilir. Eklenti panellerinden farkı, ham verisi açık veri olarak indirilebilen uzun soluklu bir ölçüm arşivi olmasıdır.</summary>
 </entry>
 <entry>
-  <title>YÖK Yükseköğretim İstatistikleri</title>
-  <link href="https://istatistik.yok.gov.tr/"/>
-  <id>https://istatistik.yok.gov.tr/</id>
+  <title>Awesome Connected Things Security</title>
+  <link href="https://v33ru.github.io/awesome-connected-things-sec/"/>
+  <id>https://v33ru.github.io/awesome-connected-things-sec/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Bilim &amp; Akademik"/>
-  <summary>Yükseköğretim Bilgi Yönetim Sistemi’nin istatistikleri: üniversite, birim ve programa göre öğrenci ve öğretim elemanı sayıları. YÖK Atlas’tan farkı tercih verisi değil, sistemin geneline bakan sayım tabloları vermesi.</summary>
+  <category term="Saldırı, Savunma &amp; OSINT"/>
+  <summary>IoT, gömülü, endüstriyel ve otomotiv sistemlerinin güvenlik araştırması için donanım saldırıları, kablosuz protokoller (BLE, Zigbee, LoRa, NFC) ve firmware kaynaklarını bir araya getiren liste. Web odaklı güvenlik listelerinden farkı fiziksel cihazlara ve radyo katmanına odaklanması.</summary>
 </entry>
 <entry>
-  <title>Zotero</title>
-  <link href="https://www.zotero.org/"/>
-  <id>https://www.zotero.org/</id>
+  <title>Awesome Cybersecurity List</title>
+  <link href="https://github.com/0xor0ne/awesome-list"/>
+  <id>https://github.com/0xor0ne/awesome-list</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Bilim &amp; Akademik"/>
-  <summary>Açık kaynak kaynakça yöneticisi: tarayıcı eklentisi makale sayfasından künyeyi ve PDF’i tek tıkla kaydediyor, Word ve LibreOffice eklentileri alıntı ve kaynakçayı binlerce stilde biçimliyor. Mendeley gibi yayıncıya ait yöneticilerden farkı kâr amacı gütmeyen bir kurumca geliştirilmesi; yalnızca bulut depolamanın küçük kotanın üstü ücretli.</summary>
+  <category term="Saldırı, Savunma &amp; OSINT"/>
+  <summary>Siber güvenlik blog yazıları, write-up ve makalelerin yıla göre dizilmiş arşivi; 2026 girdileri de var. Araç listelerinden farkı bağlantıların alet değil okunacak teknik analiz olması (exploit zincirleri, CVE incelemeleri); araçlar ayrı bir dosyada.</summary>
 </entry>
 <entry>
-  <title>EKAP — Elektronik Kamu Alımları Platformu</title>
-  <link href="https://ekap.kik.gov.tr/"/>
-  <id>https://ekap.kik.gov.tr/</id>
+  <title>Awesome Industrial Protocols</title>
+  <link href="https://github.com/Orange-Cyberdefense/awesome-industrial-protocols"/>
+  <id>https://github.com/Orange-Cyberdefense/awesome-industrial-protocols</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Ekonomi"/>
-  <summary>Kamu İhale Kurumu’nun platformu; ihale ve sonuç ilanları herkese açık olarak aranabiliyor. İhale haber sitelerinden farkı kaynağın kendisi olması: kamu alımlarını kurum, tarih ve tutar üzerinden izlemenin resmî yolu, teklif vermek ise kayıt gerektiriyor.</summary>
+  <category term="Saldırı, Savunma &amp; OSINT"/>
+  <summary>Modbus, S7, OPC UA gibi endüstriyel ağ protokollerine saldırı odaklı bakan kaynak listesi; her protokol için ayrı sayfa ve veri tabanı var. Genel güvenlik listelerinden farkı OT/ICS protokol düzeyine inmesi.</summary>
 </entry>
 <entry>
-  <title>EVDS — TCMB Elektronik Veri Dağıtım Sistemi</title>
-  <link href="https://evds3.tcmb.gov.tr/"/>
-  <id>https://evds3.tcmb.gov.tr/</id>
+  <title>ICS Security Tools</title>
+  <link href="https://github.com/ITI/ICS-Security-Tools"/>
+  <id>https://github.com/ITI/ICS-Security-Tools</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Ekonomi"/>
-  <summary>Merkez Bankası’nın zaman serisi deposu: döviz kurları, faizler, para arzı, ödemeler dengesi ve piyasa katılımcıları anketi. FRED’den farkı Türkiye’nin parasal ve finansal serilerinin birincil kaynağı olması; tablolar hesapsız indiriliyor, API için ücretsiz anahtar gerekiyor.</summary>
+  <category term="Saldırı, Savunma &amp; OSINT"/>
+  <summary>Endüstriyel kontrol sistemleri (ICS/SCADA) güvenliği için araçlar, protokol notları, pcap örnekleri, yapılandırmalar ve rehberler. Genel güvenlik listelerinden farkı yalnızca OT/ICS ortamına odaklanması; pcap ve protokol malzemesi de içeriyor. Son güncelleme 2025.</summary>
 </entry>
 <entry>
-  <title>TÜİK Veri Portalı</title>
-  <link href="https://veriportali.tuik.gov.tr/"/>
-  <id>https://veriportali.tuik.gov.tr/</id>
+  <title>Kicksecure Documentation</title>
+  <link href="https://www.kicksecure.com/wiki/Documentation"/>
+  <id>https://www.kicksecure.com/wiki/Documentation</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Ekonomi"/>
-  <summary>Türkiye İstatistik Kurumu’nun resmî istatistik portalı: enflasyon (TÜFE, ÜFE), GSYH, işgücü, nüfus ve dış ticaret tabloları ile bültenler. EVDS’den farkı finansal piyasa serilerini değil fiyat, üretim ve demografi istatistiklerini üreten kurumun kendisi olması.</summary>
+  <category term="Saldırı, Savunma &amp; OSINT"/>
+  <summary>Sertleştirilmiş bir Debian türevi olan Kicksecure'ın wiki'si; sistem sertleştirme, çekirdek ve tarayıcı ayarları, Tor ve parola yönetimi gibi konuları adım adım anlatır. Genel güvenlik kontrol listelerinden farkı, her önerinin işletim sistemi düzeyinde nasıl uygulandığını göstermesidir.</summary>
 </entry>
 <entry>
-  <title>KAP — Kamuyu Aydınlatma Platformu</title>
-  <link href="https://www.kap.org.tr/tr"/>
-  <id>https://www.kap.org.tr/tr</id>
+  <title>Oh SHINT! It's a Blog</title>
+  <link href="https://ohshint.gitbook.io/oh-shint-its-a-blog"/>
+  <id>https://ohshint.gitbook.io/oh-shint-its-a-blog</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Finans, Piyasa &amp; Kripto"/>
-  <summary>Borsa İstanbul şirketlerinin yasal bildirimlerinin yayımlandığı platform: finansal tablolar, özel durum açıklamaları, genel kurul ve sermaye artırımı duyuruları. Yahoo Finance gibi veri sitelerinden farkı bildirimin ilk ve bağlayıcı hâlini göstermesi; ABD’deki SEC EDGAR’ın karşılığı.</summary>
+  <category term="Saldırı, Savunma &amp; OSINT"/>
+  <summary>OSINT için web kaynakları ve araç listeleri ile blog yazılarını bir GitBook'ta toplayan site; yılın yeni eklenen kaynaklarını ayrı sayfada veriyor. Tek bir çerçeve sayfasından farkı konuya göre ayrılmış çok sayıda alt listesi olması; son güncelleme 2024.</summary>
 </entry>
 <entry>
-  <title>TEFAS — Türkiye Elektronik Fon Alım Satım Platformu</title>
-  <link href="https://www.tefas.gov.tr/"/>
-  <id>https://www.tefas.gov.tr/</id>
+  <title>OSINT Bible</title>
+  <link href="https://github.com/frangelbarrera/OSINT-BIBLE"/>
+  <id>https://github.com/frangelbarrera/OSINT-BIBLE</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Finans, Piyasa &amp; Kripto"/>
-  <summary>Takasbank’ın yatırım fonu platformu; açık sayfalarında platformdaki fonların fiyatları, dönemsel getirileri ve portföy dağılımları karşılaştırılabiliyor. Bir bankanın kendi fon listesinden farkı platformdaki fonları kurucusundan bağımsız tek tabloda yan yana koyması.</summary>
+  <category term="Saldırı, Savunma &amp; OSINT"/>
+  <summary>450'den fazla aracı, yöntemi ve etik-hukuk notunu 35 bölümde toplayan OSINT rehberi; bağlantı denetim raporu da yayımlıyor. Salt araç listelerinden farkı dört adımlı bir araştırma metodolojisi ve yasal çerçeve bölümlerini de içermesi.</summary>
 </entry>
 <entry>
-  <title>WebAIM Contrast Checker</title>
-  <link href="https://webaim.org/resources/contrastchecker/"/>
-  <id>https://webaim.org/resources/contrastchecker/</id>
+  <title>s0cm0nkey's Security Reference Guide</title>
+  <link href="https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide"/>
+  <id>https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Arayüz Tasarımı, Renk &amp; Yazı Tipi"/>
-  <summary>Ön plan ve arka plan rengini girince kontrast oranını ve normal metin, büyük metin ve arayüz bileşenleri için WCAG AA/AAA geçip geçmediğini gösteriyor. Palet üreticilerinden farkı renk önermemesi; seçtiğin bir çiftin okunabilirlik eşiğini tutup tutmadığını söylemesi.</summary>
+  <category term="Saldırı, Savunma &amp; OSINT"/>
+  <summary>SOC, sızma testi, DFIR, tehdit istihbaratı ve AppSec için konu başlıklarına ayrılmış, elle derlenen bağlantı ve kaynak rehberi. Tek bir alana odaklanan awesome listelerinden farkı, mavi ve kırmızı takım alanlarını tek bir gitbook'ta toplamasıdır.</summary>
 </entry>
 <entry>
-  <title>BTK Akademi</title>
-  <link href="https://www.btkakademi.gov.tr/"/>
-  <id>https://www.btkakademi.gov.tr/</id>
+  <title>WiGLE</title>
+  <link href="https://wigle.net"/>
+  <id>https://wigle.net</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Öğrenme &amp; Yol Haritaları"/>
-  <summary>Bilgi Teknolojileri ve İletişim Kurumu’nun ücretsiz çevrimiçi eğitim platformu: programlama, siber güvenlik, yapay zekâ ve ağ kursları, tamamlayana sertifika. Ücretli Türkçe kurs pazarlarından farkı devlet destekli ve ücretsiz olması; kurslara katılmak için üyelik gerekiyor.</summary>
-</entry>
-<entry>
-  <title>Coderspace</title>
-  <link href="https://coderspace.io/"/>
-  <id>https://coderspace.io/</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Öğrenme &amp; Yol Haritaları"/>
-  <summary>Türkiye’deki yazılımcılar için kariyer platformu: şirket destekli bootcamp’ler ve hackathon’lar, herkese açık mülakat soruları, maaş verileri, yol haritaları ve yazılımcı sözlüğü. Techcareer’dan farkı ücretli Pro planında etkileşimli Python ve veri eğitimleri sunması ve maaş verisi yayımlaması.</summary>
-</entry>
-<entry>
-  <title>Techcareer.net</title>
-  <link href="https://www.techcareer.net/"/>
-  <id>https://www.techcareer.net/</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Öğrenme &amp; Yol Haritaları"/>
-  <summary>Şirket destekli bootcamp’ler, iş ilanları ve herkese açık kaynaklar (teknik sözlük, mülakat soruları, CV örnekleri, üniversite taban puanları) sunan Türkçe kariyer platformu. Coderspace’ten farkı ağırlığı yapay zekâ yetkinlik eğitimlerine kaydırmış olması; kaynak sayfaları hesapsız okunuyor.</summary>
-</entry>
-<entry>
-  <title>ÖSYM</title>
-  <link href="https://www.osym.gov.tr/"/>
-  <id>https://www.osym.gov.tr/</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Öğrenme &amp; Yol Haritaları"/>
-  <summary>Türkiye’nin merkezî sınavlarını (YKS, KPSS, ALES, YDS) yapan kurum; açık sayfalarında sınav takvimi, kılavuzlar, yayımlanmış soru kitapçıkları ve sonuç istatistikleri var. Hazırlık sitelerinden farkı resmî kaynak olması: tarih ve kuralın son sözü burada, başvuru ise ayrı ve kimlik doğrulamalı sistemde.</summary>
-</entry>
-<entry>
-  <title>CTAN</title>
-  <link href="https://ctan.org/"/>
-  <id>https://ctan.org/</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Kopya Kâğıtları &amp; Başvuru"/>
-  <summary>TeX ve LaTeX paketlerinin merkezî arşivi: her paketin belgeleri, sürümü, lisansı ve bakım durumu tek sayfada. Forum yanıtlarından farkı bir paketin asıl kılavuzuna (çoğu zaman PDF) ve TeX Live’a giren hâline buradan ulaşman.</summary>
-</entry>
-<entry>
-  <title>Detexify</title>
-  <link href="https://detexify.kirelabs.org/classify.html"/>
-  <id>https://detexify.kirelabs.org/classify.html</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Kopya Kâğıtları &amp; Başvuru"/>
-  <summary>Aradığın sembolü fareyle çiziyorsun, karşılık gelen LaTeX komutunu ve gereken paketi söylüyor. Sembol tablolarını taramaktan farkı adını bilmediğin bir işareti şeklinden bulabilmen.</summary>
-</entry>
-<entry>
-  <title>iHateRegex</title>
-  <link href="https://ihateregex.io/"/>
-  <id>https://ihateregex.io/</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Kopya Kâğıtları &amp; Başvuru"/>
-  <summary>E-posta, telefon, tarih, IP adresi gibi sık ihtiyaç duyulan düzenli ifadelerin kataloğu; her biri diyagram, açıklama ve deneme alanıyla geliyor. Test araçlarından farkı ifadeyi sıfırdan yazdırmak yerine hazır ve açıklanmış bir kalıp vermesi.</summary>
-</entry>
-<entry>
-  <title>TDK Güncel Türkçe Sözlük</title>
-  <link href="https://sozluk.gov.tr/"/>
-  <id>https://sozluk.gov.tr/</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Kopya Kâğıtları &amp; Başvuru"/>
-  <summary>Türk Dil Kurumu’nun sözlükleri tek arama kutusunda: Güncel Türkçe Sözlük, Yazım Kılavuzu, atasözleri ve terim sözlükleri. Tureng gibi iki dilli sözlüklerden farkı tek dilli ve kuralcı olması; bir kelimenin nasıl yazılacağına bakılan yer.</summary>
-</entry>
-<entry>
-  <title>Tureng</title>
-  <link href="https://tureng.com/"/>
-  <id>https://tureng.com/</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Kopya Kâğıtları &amp; Başvuru"/>
-  <summary>Türkçe–İngilizce çevrimiçi sözlük; karşılıkları bilgisayar, hukuk, tıp gibi alanlara göre ayırıyor ve telaffuz veriyor. TDK sözlüğünden farkı iki dilli ve terim odaklı olması; teknik bir İngilizce kelimenin alandaki Türkçe karşılığını bulmanın hızlı yolu.</summary>
-</entry>
-<entry>
-  <title>Overleaf</title>
-  <link href="https://www.overleaf.com/"/>
-  <id>https://www.overleaf.com/</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Editör, IDE &amp; Terminal"/>
-  <summary>Tarayıcıda çalışan, ortak düzenlemeli LaTeX editörü; derleme sunucuda, binlerce dergi ve tez şablonu hazır. Yerel TeX kurulumundan farkı kurulumsuz ve eşzamanlı çalışılabilmesi; ücretsiz planda derleme süresi ve ortak çalışan sınırlı, Community Edition kendi sunucunda kurulabiliyor.</summary>
-</entry>
-<entry>
-  <title>Typst</title>
-  <link href="https://typst.app/"/>
-  <id>https://typst.app/</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Editör, IDE &amp; Terminal"/>
-  <summary>LaTeX’e alternatif yeni bir dizgi dili ve onun çevrimiçi editörü; derleyici açık kaynak (Rust) ve değişiklikleri anında yeniden derliyor. Overleaf’ten farkı LaTeX değil daha sade bir sözdizimi ve yerleşik betik dili kullanması; buna karşın paket ekosistemi küçük ve çoğu dergi hâlâ LaTeX istiyor.</summary>
-</entry>
-<entry>
-  <title>geojson.io</title>
-  <link href="https://geojson.io/"/>
-  <id>https://geojson.io/</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Dönüştürücü, Biçimlendirici &amp; Denetleyici"/>
-  <summary>Harita üzerinde nokta, çizgi ve alan çizip GeoJSON’u yan panelde düzenleyen tarayıcı aracı; KML, shapefile, CSV gibi biçimlere dışa aktarıyor. QGIS’ten farkı kurulumsuz olması: küçük bir veri parçasını hızla çizmek ya da düzeltmek için, analiz için değil.</summary>
-</entry>
-<entry>
-  <title>Mapshaper</title>
-  <link href="https://mapshaper.org/"/>
-  <id>https://mapshaper.org/</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Dönüştürücü, Biçimlendirici &amp; Denetleyici"/>
-  <summary>Shapefile, GeoJSON, TopoJSON ve CSV harita verisini tarayıcıda sadeleştirip biçimler arasında dönüştüren araç; aynı işlemler komut satırı sürümüyle betiklenebiliyor. geojson.io’dan farkı çizim değil, büyük sınır dosyalarını web için küçültmeye yönelik olması.</summary>
-</entry>
-<entry>
-  <title>Regexper</title>
-  <link href="https://regexper.com/"/>
-  <id>https://regexper.com/</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Dönüştürücü, Biçimlendirici &amp; Denetleyici"/>
-  <summary>JavaScript düzenli ifadesini demiryolu diyagramına çeviriyor; gruplar, alternatifler ve tekrarlar kutu ve oklarla görünüyor. regex101’den farkı eşleşme test etmemesi: başkasının yazdığı karmaşık bir ifadenin yapısını bir bakışta anlamak için.</summary>
-</entry>
-<entry>
-  <title>Tables Generator</title>
-  <link href="https://www.tablesgenerator.com/"/>
-  <id>https://www.tablesgenerator.com/</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Dönüştürücü, Biçimlendirici &amp; Denetleyici"/>
-  <summary>Tabloyu hücre hücre görsel olarak kuruyorsun; çıktıyı LaTeX, HTML, Markdown, düz metin ya da MediaWiki olarak veriyor, CSV yapıştırmayı da kabul ediyor. Elle tabular yazmaktan farkı birleştirilmiş hücre ve kenarlık kodunu senin yerine üretmesi.</summary>
-</entry>
-<entry>
-  <title>Mevzuat Bilgi Sistemi</title>
-  <link href="https://www.mevzuat.gov.tr/"/>
-  <id>https://www.mevzuat.gov.tr/</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Açık Erişim &amp; Arşiv"/>
-  <summary>Kanun, KHK, Cumhurbaşkanlığı kararnamesi ve yönetmeliklerin değişiklikler işlenmiş güncel metinleri. Resmî Gazete’den farkı metni yayımlandığı günkü hâliyle değil, sonraki değişikliklerle birleştirilmiş olarak vermesi.</summary>
-</entry>
-<entry>
-  <title>Resmî Gazete</title>
-  <link href="https://www.resmigazete.gov.tr/"/>
-  <id>https://www.resmigazete.gov.tr/</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Açık Erişim &amp; Arşiv"/>
-  <summary>Türkiye’nin resmî yayın organı: her günün sayısı ve geçmiş sayıların arşivi; mevzuat burada yayımlandığı gün yürürlüğe giriyor. Mevzuat Bilgi Sistemi’nden farkı değişikliklerin birleştirilmemesi — bir düzenlemenin tarihsel ilk metnine ulaşmanın yolu.</summary>
+  <category term="Saldırı, Savunma &amp; OSINT"/>
+  <summary>Gönüllülerce toplanan dünya çapındaki Wi-Fi, Bluetooth ve baz istasyonu gözlemlerinin harita ve arama arayüzü. Coğrafi IP servislerinden farkı kablosuz erişim noktalarını konum verisiyle indekslemesi.</summary>
 </entry>
 </feed>

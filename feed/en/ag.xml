@@ -5,7 +5,35 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/en/ag.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/ag.xml</id>
-<updated>2026-10-09T09:00:00Z</updated>
+<updated>2026-10-18T00:00:00Z</updated>
+<entry>
+  <title>Awesome eBPF (qmonnet)</title>
+  <link href="https://github.com/qmonnet/awesome-ebpf"/>
+  <id>https://github.com/qmonnet/awesome-ebpf</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A list of eBPF projects, articles and tools, with compilers, tracing and networking (XDP) under separate headings. Unlike the other eBPF list already in the directory it is still being updated, and is kept by someone who writes eBPF documentation.</summary>
+</entry>
+<entry>
+  <title>Bridgy Fed</title>
+  <link href="https://fed.brid.gy"/>
+  <id>https://fed.brid.gy</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A service that bridges websites, the fediverse (Mastodon etc.) and Bluesky/AT Protocol so accounts can follow and reply across networks. Unlike single-network clients, it translates between the protocols themselves.</summary>
+</entry>
+<entry>
+  <title>OpenInfraMap</title>
+  <link href="https://openinframap.org"/>
+  <id>https://openinframap.org</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A map rendering power lines, plants, oil/gas pipelines and telecom infrastructure from OpenStreetMap data. Unlike general maps, it has infrastructure-specific layers with voltage and capacity detail.</summary>
+</entry>
+<entry>
+  <title>Submarine Cable Map</title>
+  <link href="https://www.submarinecablemap.com/"/>
+  <id>https://www.submarinecablemap.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>TeleGeography's interactive map of the world's submarine internet cables, landing points and owners. Unlike generic network maps it makes the physical backbone of the internet traceable cable by cable.</summary>
+</entry>
 <entry>
   <title>goshs</title>
   <link href="https://github.com/goshs-labs/goshs"/>
@@ -257,33 +285,5 @@
   <id>https://osquery.io</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>Turns the operating system into something you query with SQL — running processes, open ports and installed packages become tables. Instead of separate commands such as ps and netstat, you ask everything in one query language; common in endpoint monitoring.</summary>
-</entry>
-<entry>
-  <title>Pure Bash Bible</title>
-  <link href="https://github.com/dylanaraps/pure-bash-bible"/>
-  <id>https://github.com/dylanaraps/pure-bash-bible</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A collection of ways to do things with Bash’s own facilities instead of calling external programs, which speeds scripts up markedly by removing sed and awk calls. The repository is archived (last update November 2023); the techniques rest on Bash itself so most still hold, but nobody closes issues any more.</summary>
-</entry>
-<entry>
-  <title>Ryan’s Linux Tutorial</title>
-  <link href="https://ryanstutorials.net/linuxtutorial/"/>
-  <id>https://ryanstutorials.net/linuxtutorial/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An introduction to Linux and Bash with exercises closing every section. Against LinuxCommand.org it is shorter and more drill-oriented — for getting through the basic commands quickly.</summary>
-</entry>
-<entry>
-  <title>Hiren's BootCD PE</title>
-  <link href="https://www.hirensbootcd.org/"/>
-  <id>https://www.hirensbootcd.org/</id>
-  <updated>2026-07-29T05:57:07Z</updated>
-  <summary>A bootable Windows PE environment for systems that will not start, bundling disk cloning, password reset and data recovery in one image. Unlike Linux-based rescue disks it offers a familiar Windows interface and runs Windows tools.</summary>
-</entry>
-<entry>
-  <title>ÇözümPark</title>
-  <link href="https://www.cozumpark.com/"/>
-  <id>https://www.cozumpark.com/</id>
-  <updated>2026-07-27T11:13:16Z</updated>
-  <summary>A Turkish sysadmin community and article archive with real depth on Active Directory, Exchange and virtualisation. Unlike official English docs such as Microsoft Learn, it covers local scenarios in Turkish, from the field.</summary>
 </entry>
 </feed>

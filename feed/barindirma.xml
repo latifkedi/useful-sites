@@ -5,7 +5,35 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/barindirma.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/barindirma.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/barindirma.xml</id>
-<updated>2026-10-09T09:00:00Z</updated>
+<updated>2026-10-18T00:00:00Z</updated>
+<entry>
+  <title>MediaWiki</title>
+  <link href="https://www.mediawiki.org/wiki/MediaWiki"/>
+  <id>https://www.mediawiki.org/wiki/MediaWiki</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Vikipedi'nin de üzerinde çalıştığı wiki yazılımının resmi sayfası; kurulum, yapılandırma, eklenti ve API belgeleri burada. Kendi sunucusunda bilgi tabanı kurmak isteyenler için en yaygın ve olgun wiki motoru olmasıyla ayrılır.</summary>
+</entry>
+<entry>
+  <title>Self-Hosting Guide</title>
+  <link href="https://github.com/mikeroyal/Self-Hosting-Guide"/>
+  <id>https://github.com/mikeroyal/Self-Hosting-Guide</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Kendi sunucunda barındırmayı (ev ve bulut) anlatan, yazılım ve araç bağlantılarıyla dolu büyük rehber. awesome-selfhosted'dan farkı yalnız uygulama listesi değil, kurulum ve altyapı konularını da kapsaması.</summary>
+</entry>
+<entry>
+  <title>Spacebar</title>
+  <link href="https://spacebar.chat"/>
+  <id>https://spacebar.chat</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Discord'un arka uç ve arayüzünü yeniden uygulayan, kendi sunucunda barındırılabilen sohbet platformu. Matrix veya Rocket.Chat'ten farkı Discord API'si ile uyumlu olması.</summary>
+</entry>
+<entry>
+  <title>YunoHost App Store</title>
+  <link href="https://apps.yunohost.org"/>
+  <id>https://apps.yunohost.org</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>YunoHost için tek tıkla kurulabilen uygulamaların kataloğu; kalite ve bakım düzeyine göre derecelendirilmiş. awesome-selfhosted'dan farkı, listelenen her uygulamanın YunoHost'ta hazır paketlenmiş olması.</summary>
+</entry>
 <entry>
   <title>LinkStack</title>
   <link href="https://github.com/LinkStackOrg/LinkStack"/>
@@ -257,33 +285,5 @@
   <id>https://www.cloudron.io</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>Web uygulamalarını yönetilen güncelleme, yedek ve tek oturum açmayla kendi sunucunda barındırıyor. CapRover’dan farkı bu bakımı üstlenmesi; karşılığında ücretli lisans, ücretsiz katman iki uygulamayla sınırlı.</summary>
-</entry>
-<entry>
-  <title>Coolify</title>
-  <link href="https://coolify.io"/>
-  <id>https://coolify.io</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Kendi sunucunda çalıştırdığın açık kaynak PaaS; Heroku/Netlify'a self-hosted alternatif.</summary>
-</entry>
-<entry>
-  <title>Deno Deploy</title>
-  <link href="https://deno.com/deploy"/>
-  <id>https://deno.com/deploy</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>JavaScript/TypeScript kodunu küresel kenar ağında sunucusuz çalıştıran platform. Cloudflare Workers’a kıyasla Deno çalışma zamanını ve npm uyumunu kullanıyor: yerelde çalışan kod değişmeden yayına çıkıyor.</summary>
-</entry>
-<entry>
-  <title>Dokku</title>
-  <link href="https://dokku.com"/>
-  <id>https://dokku.com</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Tek sunucuda git-push ile çalışan, en küçük açık kaynak Heroku benzeri PaaS.</summary>
-</entry>
-<entry>
-  <title>Feedly</title>
-  <link href="https://feedly.com/"/>
-  <id>https://feedly.com/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>RSS okuyucu. Algoritmik akışların aksine ne okuyacağına kaynak düzeyinde sen karar veriyorsun; okumadığın şey de kaybolmuyor.</summary>
 </entry>
 </feed>

@@ -5,7 +5,70 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/guv_teknik.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/guv_teknik.xml</id>
-<updated>2026-09-18T00:00:00Z</updated>
+<updated>2026-10-18T00:00:00Z</updated>
+<entry>
+  <title>Awesome Connected Things Security</title>
+  <link href="https://v33ru.github.io/awesome-connected-things-sec/"/>
+  <id>https://v33ru.github.io/awesome-connected-things-sec/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>IoT, gömülü, endüstriyel ve otomotiv sistemlerinin güvenlik araştırması için donanım saldırıları, kablosuz protokoller (BLE, Zigbee, LoRa, NFC) ve firmware kaynaklarını bir araya getiren liste. Web odaklı güvenlik listelerinden farkı fiziksel cihazlara ve radyo katmanına odaklanması.</summary>
+</entry>
+<entry>
+  <title>Awesome Cybersecurity List</title>
+  <link href="https://github.com/0xor0ne/awesome-list"/>
+  <id>https://github.com/0xor0ne/awesome-list</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Siber güvenlik blog yazıları, write-up ve makalelerin yıla göre dizilmiş arşivi; 2026 girdileri de var. Araç listelerinden farkı bağlantıların alet değil okunacak teknik analiz olması (exploit zincirleri, CVE incelemeleri); araçlar ayrı bir dosyada.</summary>
+</entry>
+<entry>
+  <title>Awesome Industrial Protocols</title>
+  <link href="https://github.com/Orange-Cyberdefense/awesome-industrial-protocols"/>
+  <id>https://github.com/Orange-Cyberdefense/awesome-industrial-protocols</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Modbus, S7, OPC UA gibi endüstriyel ağ protokollerine saldırı odaklı bakan kaynak listesi; her protokol için ayrı sayfa ve veri tabanı var. Genel güvenlik listelerinden farkı OT/ICS protokol düzeyine inmesi.</summary>
+</entry>
+<entry>
+  <title>ICS Security Tools</title>
+  <link href="https://github.com/ITI/ICS-Security-Tools"/>
+  <id>https://github.com/ITI/ICS-Security-Tools</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Endüstriyel kontrol sistemleri (ICS/SCADA) güvenliği için araçlar, protokol notları, pcap örnekleri, yapılandırmalar ve rehberler. Genel güvenlik listelerinden farkı yalnızca OT/ICS ortamına odaklanması; pcap ve protokol malzemesi de içeriyor. Son güncelleme 2025.</summary>
+</entry>
+<entry>
+  <title>Kicksecure Documentation</title>
+  <link href="https://www.kicksecure.com/wiki/Documentation"/>
+  <id>https://www.kicksecure.com/wiki/Documentation</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Sertleştirilmiş bir Debian türevi olan Kicksecure'ın wiki'si; sistem sertleştirme, çekirdek ve tarayıcı ayarları, Tor ve parola yönetimi gibi konuları adım adım anlatır. Genel güvenlik kontrol listelerinden farkı, her önerinin işletim sistemi düzeyinde nasıl uygulandığını göstermesidir.</summary>
+</entry>
+<entry>
+  <title>Oh SHINT! It's a Blog</title>
+  <link href="https://ohshint.gitbook.io/oh-shint-its-a-blog"/>
+  <id>https://ohshint.gitbook.io/oh-shint-its-a-blog</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>OSINT için web kaynakları ve araç listeleri ile blog yazılarını bir GitBook'ta toplayan site; yılın yeni eklenen kaynaklarını ayrı sayfada veriyor. Tek bir çerçeve sayfasından farkı konuya göre ayrılmış çok sayıda alt listesi olması; son güncelleme 2024.</summary>
+</entry>
+<entry>
+  <title>OSINT Bible</title>
+  <link href="https://github.com/frangelbarrera/OSINT-BIBLE"/>
+  <id>https://github.com/frangelbarrera/OSINT-BIBLE</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>450'den fazla aracı, yöntemi ve etik-hukuk notunu 35 bölümde toplayan OSINT rehberi; bağlantı denetim raporu da yayımlıyor. Salt araç listelerinden farkı dört adımlı bir araştırma metodolojisi ve yasal çerçeve bölümlerini de içermesi.</summary>
+</entry>
+<entry>
+  <title>s0cm0nkey's Security Reference Guide</title>
+  <link href="https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide"/>
+  <id>https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>SOC, sızma testi, DFIR, tehdit istihbaratı ve AppSec için konu başlıklarına ayrılmış, elle derlenen bağlantı ve kaynak rehberi. Tek bir alana odaklanan awesome listelerinden farkı, mavi ve kırmızı takım alanlarını tek bir gitbook'ta toplamasıdır.</summary>
+</entry>
+<entry>
+  <title>WiGLE</title>
+  <link href="https://wigle.net"/>
+  <id>https://wigle.net</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Gönüllülerce toplanan dünya çapındaki Wi-Fi, Bluetooth ve baz istasyonu gözlemlerinin harita ve arama arayüzü. Coğrafi IP servislerinden farkı kablosuz erişim noktalarını konum verisiyle indekslemesi.</summary>
+</entry>
 <entry>
   <title>Awesome CAPTCHA</title>
   <link href="https://github.com/ZYSzys/awesome-captcha"/>
@@ -222,68 +285,5 @@
   <id>https://www.cryptologie.net/</id>
   <updated>2026-08-21T20:53:20Z</updated>
   <summary>Kriptograf David Wong’un uygulamalı kriptografi üzerine blogu ve not arşivi. Akademik makalelerden farkı protokolleri uygulayıcı gözüyle anlatması — teoremi değil, gerçek sistemlerde nerede yanlış kurulduğunu.</summary>
-</entry>
-<entry>
-  <title>OWASP Fuzzing</title>
-  <link href="https://owasp.org/www-community/Fuzzing"/>
-  <id>https://owasp.org/www-community/Fuzzing</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Bulanık test (fuzzing) yöntemini OWASP’ın kendi topluluk sayfasından anlatan giriş: nasıl çalışır, hangi araçlar var, ne tür açıkları bulur. Araç belgelerinden farkı yöntemin kendisini tarafsız biçimde tanıtması.</summary>
-</entry>
-<entry>
-  <title>SANS Cheat Sheets</title>
-  <link href="https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets/"/>
-  <id>https://www.sans.org/blog/the-ultimate-list-of-sans-cheat-sheets/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>SANS Enstitüsü’nün güvenlik kopya kâğıtları: adli bilişim, olay müdahalesi, bellek analizi, Windows kayıt defteri. Genel kopya kâğıtlarından farkı olay anında kullanılmak üzere tasarlanmış olması — hangi komutun ne kanıt ürettiği yazılı.</summary>
-</entry>
-<entry>
-  <title>TinEye</title>
-  <link href="https://tineye.com/"/>
-  <id>https://tineye.com/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Ters görsel arama motoru; bir görselin internette nerede geçtiğini ve en eski sürümünü buluyor. Google Görseller’den farkı benzer değil aynı görseli araması — kaynağı bulmak ve sahte profili doğrulamak için daha isabetli.</summary>
-</entry>
-<entry>
-  <title>Bugcrowd</title>
-  <link href="https://www.bugcrowd.com/"/>
-  <id>https://www.bugcrowd.com/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Şirketlerle güvenlik araştırmacılarını buluşturan kitlesel zafiyet (bug bounty) platformu. Tek tek programlardan farkı çok sayıda hedefi tek panelde toplaması.</summary>
-</entry>
-<entry>
-  <title>Hak5</title>
-  <link href="https://www.youtube.com/user/Hak5Darren"/>
-  <id>https://www.youtube.com/user/Hak5Darren</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Sızma testi araçlarını ve tekniklerini uygulamalı gösteren güvenlik kanalı. Teorik anlatımlardan farkı donanım tarafına girmesi — ağ implantları ve fiziksel saldırı araçları burada.</summary>
-</entry>
-<entry>
-  <title>Siber Güvenlik Başkanlığı</title>
-  <link href="https://siberguvenlik.gov.tr/"/>
-  <id>https://siberguvenlik.gov.tr/</id>
-  <updated>2026-07-20T11:09:35Z</updated>
-  <summary>Türkiye’nin siber güvenlik otoritesi; ulusal uyarılar, mevzuat ve kritik altyapı rehberleri buradan yayımlanıyor. Uluslararası kaynaklardan farkı Türkiye’ye özgü mevzuat ve uyum gereklerini vermesi.</summary>
-</entry>
-<entry>
-  <title>Robin</title>
-  <link href="https://github.com/apurvsinghgautam/robin"/>
-  <id>https://github.com/apurvsinghgautam/robin</id>
-  <updated>2026-04-20T11:44:32Z</updated>
-  <summary>Karanlık ağ araştırmasında sorguyu genişletip sonuçları özetleyen yapay zekâ destekli araç. Elle arama yapmaktan farkı tarama adımını otomatikleştirmesi: sonuçların insan gözüyle doğrulanması gereken bir alanda ilk süzgeç.</summary>
-</entry>
-<entry>
-  <title>CyberNotes</title>
-  <link href="https://www.cybernotes.tech/"/>
-  <id>https://www.cybernotes.tech/</id>
-  <updated>2026-04-20T11:42:55Z</updated>
-  <summary>Güvenlik konularının derli toplu not arşivi. Kapsamlı el kitaplarından farkı hız için budanmış olması: laboratuvar sırasında bir komut ya da yöntem hatırlamak için hızlı başvuru.</summary>
-</entry>
-<entry>
-  <title>GhidraMCP</title>
-  <link href="https://github.com/lauriewired/ghidramcp"/>
-  <id>https://github.com/lauriewired/ghidramcp</id>
-  <updated>2026-04-06T11:25:19Z</updated>
-  <summary>Ghidra’yı MCP üzerinden bir asistana açıyor; sökülmüş kodu okuma ve fonksiyon adlandırma gibi yorucu adımları devredebiliyorsun. Klasik Ghidra betiklerinden farkı çözümlemeyi diyalogla yürütmesi: ikili çözümlemede yeni bir iş akışı.</summary>
 </entry>
 </feed>

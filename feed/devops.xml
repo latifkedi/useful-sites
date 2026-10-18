@@ -5,7 +5,21 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/devops.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/devops.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/devops.xml</id>
-<updated>2026-09-18T00:00:00Z</updated>
+<updated>2026-10-18T00:00:00Z</updated>
+<entry>
+  <title>Floci</title>
+  <link href="https://floci.io/floci/"/>
+  <id>https://floci.io/floci/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Yerelde ve CI'da çalışan, hesap ya da token istemeyen AWS emülatörü; AWS SDK, CLI ve Terraform aynı 4566 portuna yönlendirilir. LocalStack'ten farkı, özellik kısıtı ve kimlik doğrulaması olmadan imaj değiştirerek yerine geçmeyi hedeflemesidir.</summary>
+</entry>
+<entry>
+  <title>iximiuz Labs</title>
+  <link href="https://labs.iximiuz.com/"/>
+  <id>https://labs.iximiuz.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Linux, konteyner, Kubernetes ve ağ konularını tarayıcıdaki gerçek sanal makinelerde uygulamalı öğreten laboratuvarlar ve meydan okumalar. Yalnız anlatan yazılardan farkı her dersin çalışan bir ortamla gelmesi.</summary>
+</entry>
 <entry>
   <title>Ansible</title>
   <link href="https://www.ansible.com"/>
@@ -271,19 +285,5 @@
   <id>https://coder.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>Geliştirme ortamını kendi altyapında kapsayıcı olarak çalıştıran platform; VS Code ya da JetBrains istemcisiyle bağlanıyorsun. GitHub Codespaces’ten farkı bulut sağlayıcısına bağlı olmaması — kaynak da kod da sende kalıyor.</summary>
-</entry>
-<entry>
-  <title>Kestra</title>
-  <link href="https://kestra.io/"/>
-  <id>https://kestra.io/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>İş akışı düzenleyici; akışlar YAML’de bildirimsel olarak tanımlanıyor. Airflow’dan farkı Python yerine YAML kullanması: dil bağımsız olduğu için Python olmayan ekiplerde de çalışıyor ve sürüm kontrolüyle iyi geçiniyor.</summary>
-</entry>
-<entry>
-  <title>Make</title>
-  <link href="https://www.make.com/"/>
-  <id>https://www.make.com/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Senaryolar dallanma, döngü ve hata işleme taşıyabiliyor; Zapier’in doğrusal adım modeline göre karmaşık akışlarda daha rahat. Öğrenme eğrisi de buna paralel olarak dik.</summary>
 </entry>
 </feed>

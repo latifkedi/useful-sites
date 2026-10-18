@@ -7,11 +7,32 @@
 <id>https://latifkedi.github.io/useful-sites/feed/en/veri.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
 <entry>
+  <title>Awesome GIS</title>
+  <link href="https://github.com/sshuair/awesome-gis"/>
+  <id>https://github.com/sshuair/awesome-gis</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A list for geographic information systems: cartographic tools, geoanalysis libraries, data sources and communities. Unlike Esri-centred lists it is open-source and platform-neutral, with desktop GIS, web mapping libraries and open data in one place.</summary>
+</entry>
+<entry>
   <title>kepler.gl</title>
   <link href="https://kepler.gl/"/>
   <id>https://kepler.gl/</id>
   <updated>2026-10-18T00:00:00Z</updated>
   <summary>An open-source tool, born at Uber, for visualising large location datasets (millions of points, trips, grids) layer by layer in the browser. Unlike QGIS it aims at exploration and presentation rather than analysis: drop in a CSV or GeoJSON and you have a map with a time slider in minutes.</summary>
+</entry>
+<entry>
+  <title>Map of Reddit</title>
+  <link href="https://anvaka.github.io/map-of-reddit/"/>
+  <id>https://anvaka.github.io/map-of-reddit/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Interactive WebGL map clustering subreddits by shared commenters (2020-21 comments). Unlike subreddit lists, it shows how communities relate spatially.</summary>
+</entry>
+<entry>
+  <title>OpenDigger</title>
+  <link href="https://open-digger.cn/en/"/>
+  <id>https://open-digger.cn/en/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>X-lab's analysis platform publishing open-source health metrics derived from GitHub activity (OpenRank, activity, contributors). Unlike the raw GitHub API, the metrics come ready-made as open time-series data.</summary>
 </entry>
 <entry>
   <title>overpass turbo</title>
@@ -264,26 +285,5 @@
   <id>https://data.europa.eu</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>The European Union’s official open-data portal. Unlike national portals, it merges member states’ datasets into one search and also includes data from the EU institutions themselves.</summary>
-</entry>
-<entry>
-  <title>Data.gov</title>
-  <link href="https://data.gov"/>
-  <id>https://data.gov</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The US government’s open-data portal — canonical federal datasets. Unlike third-party compilations it is the official source; most records point on to the publishing agency’s site.</summary>
-</entry>
-<entry>
-  <title>DataHub</title>
-  <link href="https://datahub.io"/>
-  <id>https://datahub.io</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Curated open datasets in ready CSV/JSON form, plus tooling. Unlike raw portal data, they are cleaned and published as standard Frictionless Data packages.</summary>
-</entry>
-<entry>
-  <title>Figshare</title>
-  <link href="https://figshare.com"/>
-  <id>https://figshare.com</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A platform for sharing research outputs and datasets in citable form with DOIs. Compared with Zenodo it is a commercial product (Digital Science), also sold to universities as an institutional repository.</summary>
 </entry>
 </feed>
