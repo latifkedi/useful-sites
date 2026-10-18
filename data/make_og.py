@@ -122,6 +122,108 @@ def main():
     img.save(out, 'PNG', optimize=True)
     print('og.png: %d records, %s, %.1f KB'
           % (n, host, os.path.getsize(out) / 1024))
+    pages(rows)
+
+
+# ------------------------------------------------------------------ per page
+# Every heading page and every goal path gets its own preview: the heading's
+# name, its area above it, how many records it holds, and the site's red enso.
+# Shared on its own, a heading link used to show the site-wide card, which
+# says nothing about where the link goes. Written to og/<key>.png and
+# og/path-<slug>.png; emit.py points a page at its image only when the file is
+# there. These are not in the service worker's precache (it caches what
+# index.html asks for, and the home page never asks for them).
+LIMIT = 45 * 1024            # each image stays small; the build does not need them
+
+
+def floor10(n):
+    """48 -> '40+': the image is made by hand, so its number should not go
+    stale with every record added; it never claims more than is there."""
+    return str(n) if n < 10 else '%d%s' % (n // 10 * 10, '+' if n % 10 else '')
+
+
+def tr_upper(s):
+    """Turkish capitals: i is İ and ı is I (str.upper() gives GELIŞTIRICI)."""
+    return s.replace('i', 'İ').replace('ı', 'I').upper()
+
+
+def fit(d, text, path, size, width):
+    """The largest size up to `size` at which text fits in one or two lines."""
+    while size > 28:
+        f = ImageFont.truetype(path, size * S)
+        if d.textlength(text, font=f) <= width * S:
+            return f, [text]
+        words = text.split(' ')
+        for i in range(len(words) - 1, 0, -1):
+            a, b = ' '.join(words[:i]), ' '.join(words[i:])
+            if d.textlength(a, font=f) <= width * S and d.textlength(b, font=f) <= width * S:
+                return f, [a, b]
+        size -= 4
+    return ImageFont.truetype(path, size * S), [text]
+
+
+def card(out, kicker, title, sub, foot, host):
+    serif = os.path.join(ROOT, 'fonts', 'serif-%d.woff2')
+    mark = ImageFont.truetype(serif % 600, 26 * S)
+    mono = system_font(MONO, 22 * S)
+    subf = ImageFont.truetype(serif % 400, 34 * S)
+
+    img = Image.new('RGB', (W * S, H * S), BG)
+    d = ImageDraw.Draw(img)
+    enso(d, (W - 150) * S, 300 * S, 230 * S, 11 * S, mix(RED, BG, WM))
+    enso(d, (PAD + 18) * S, 96 * S, 18 * S, 5 * S, RED)
+    d.text(((PAD + 50) * S, 96 * S), 'Kullanışlı Siteler · Useful Sites', font=mark, fill=FG, anchor='lm')
+
+    d.text((PAD * S, 182 * S), kicker, font=mono, fill=RED)
+    hero, lines = fit(d, title, serif % 600, 76, W - 2 * PAD)
+    y = 226
+    lh = hero.size / S * 1.12
+    for ln in lines:
+        d.text((PAD * S, y * S), ln, font=hero, fill=FG)
+        y += lh
+    if sub and sub != title:
+        d.text((PAD * S, (y + 14) * S), sub, font=subf, fill=DIM)
+
+    d.line([PAD * S, 494 * S, (W - PAD) * S, 494 * S], fill=RULE, width=S)
+    d.text((PAD * S, 522 * S), foot, font=mono, fill=FAINT)
+    d.text(((W - PAD) * S, 522 * S), host, font=mono, fill=DIM, anchor='ra')
+    img = img.resize((W, H), Image.LANCZOS).quantize(48)
+    img.save(out, 'PNG', optimize=True)
+    size = os.path.getsize(out)
+    if size > LIMIT:
+        img.quantize(16).save(out, 'PNG', optimize=True)
+        size = os.path.getsize(out)
+    return size
+
+
+def pages(rows):
+    from notes import CATS
+    from paths import PATHS
+    host = SITE.split('//', 1)[-1]
+    odir = os.path.join(ROOT, 'og')
+    if not os.path.isdir(odir):
+        os.makedirs(odir)
+    n = {}
+    for r in rows:
+        n[r['cat']] = n.get(r['cat'], 0) + 1
+    field = {k: (g[1], g[2]) for g in GROUPS for k in g[3]}
+    jobs = []
+    for k, tr, en in CATS:
+        if n.get(k):
+            f = field.get(k, ('', ''))
+            c = floor10(n[k])
+            jobs.append((k, '%s · %s' % (tr_upper(f[0]), f[1].upper()), tr, en,
+                         '%s BAĞLANTI · %s LINKS' % (c, c)))
+    for p in PATHS:
+        s = len(p['steps'])
+        jobs.append(('path-' + p['en_slug'], 'ÖĞRENME YOLU · LEARNING PATH', p['tr'], p['en'],
+                     '%d ADIM · %d STEPS' % (s, s)))
+    big = []
+    for name, kicker, title, sub, foot in jobs:
+        size = card(os.path.join(odir, name + '.png'), kicker, title, sub, foot, host)
+        if size > LIMIT:
+            big.append(name)
+    print('og/: %d images%s' % (len(jobs), ', over %d KB: %s' % (LIMIT // 1024, big) if big else ''))
 
 
 if __name__ == '__main__':

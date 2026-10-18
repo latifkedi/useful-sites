@@ -129,7 +129,16 @@ $("#s-drop").addEventListener("drop", function(e){
 readURL();
 /* Ilk cizim, okunan dilin aciklamalari gelince: boot.js dosyayi links.js ile
    paralel istemisti. O zamana kadar index.html'deki hazir ana sayfa duruyor. */
-needDesc(lang, function(){ indexDescs(); render(); liveReady = true; warmSearch() });
+/* Aciklamalarin arama dizinine eklenmesi bos zamanda: ilk cizim beklemiyor.
+   Adreste sorgu varsa (ya da once yazilirsa) hemen kuruluyor. */
+var idle = window.requestIdleCallback
+  ? function(f){ window.requestIdleCallback(f, {timeout: 1500}) }
+  : function(f){ setTimeout(f, 200) };
+needDesc(lang, function(){
+  if(q) indexDescs();
+  render(); liveReady = true; takeGo();
+  idle(function(){ indexDescs(); warmSearch() });
+});
 /* Tekrar ziyaretlerde anlik acilis ve cevrimdisi okuma (sw.js). Yukleme
    bittikten sonra: ilk acilisla ag ve islemci icin yarismasin. */
 if("serviceWorker" in navigator){

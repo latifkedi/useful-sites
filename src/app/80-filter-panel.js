@@ -27,7 +27,7 @@ function syncFilt(){
   if(fa && filt.contains(fa)){
     sec = fa.dataset.tag ? '[data-tag="'+fa.dataset.tag+'"]' :
           fa.dataset.src ? '[data-src="'+fa.dataset.src+'"]' :
-          fa.dataset.pick ? '[data-pick]' : (fa.id ? '#'+fa.id : null);
+          fa.dataset.pick ? '[data-pick]' : fa.dataset.free ? '#f-body [data-free]' : (fa.id ? '#'+fa.id : null);
   }
   $("#f-body").innerHTML = filtHTML(T[lang]);
   paintFiltFoot();
@@ -37,7 +37,7 @@ function syncFilt(){
 $("#f-close").addEventListener("click", function(){ filt.close() });
 $("#f-go").addEventListener("click", function(){ filt.close() });
 $("#f-clear").addEventListener("click", function(){
-  activeTags = []; activeSrc = null; onlyPicks = false; single = null; recent = false; pages = {}; update(true);
+  activeTags = []; activeSrc = null; onlyPicks = false; hidePaid = false; single = null; recent = false; pages = {}; update(true);
 });
 /* Kapaninca odak panelin icinde (ya da hicbir yerde) kaldiysa Suz dugmesine
    donuyor. Tarayicinin kendi geri vermesine guvenilmiyor: iOS Safari'de

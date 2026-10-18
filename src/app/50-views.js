@@ -34,7 +34,7 @@ function filtHTML(L){
   data.filter(keep).forEach(function(d){
     (d.tags||[]).forEach(function(t){ cnt[t] = (cnt[t]||0) + 1 }) });
   var groups = FACETS.map(function(f){
-    var ts = f[3].filter(function(t){ return cnt[t] || activeTags.indexOf(t) >= 0 })
+    var ts = f[3].filter(function(t){ return t !== "ücretsiz" && (cnt[t] || activeTags.indexOf(t) >= 0) })
                  .sort(function(a, b){ return (cnt[b]||0) - (cnt[a]||0) || Search.cmp(a, b) });
     if(!ts.length) return "";
     return '<div class="fg"><p class="fk">'+esc(f[lang === "tr" ? 1 : 2])+'</p><div class="cs">'+
@@ -49,9 +49,15 @@ function filtHTML(L){
   onlyPicks = acik;
   return '<div class="fg"><div class="cs"><button class="chip pickbtn" type="button" data-pick="1" aria-pressed="'+
       onlyPicks+'"><span class="dot" aria-hidden="true">◆</span> '+esc(L.hStart)+' <span class="c">'+pc+
-      '</span></button></div></div>'+
+      '</span></button>'+freeChip(L)+'</div></div>'+
     groups+
     '<div class="fg"><p class="fk">'+esc(L.by)+'</p><div class="cs">'+srcbarHTML(L)+'</div></div>';
+}
+
+/* "Ucretsiz" kayitlarin dortte ucunde: secilecek bir etiket gibi durmasi
+   yaniltiyordu. Asil soru "parasi olanlari gizle", o yuzden bir anahtar. */
+function freeChip(L){
+  return '<button class="chip" type="button" data-free="1" aria-pressed="'+hidePaid+'">'+esc(L.noPaid)+'</button>';
 }
 
 /* Son eklenenler. Ayri bir gorunum olmasinin sebebi arastirma: bir dizine
@@ -133,19 +139,32 @@ function homeHTML(L){
              return '<a href="?cat='+esc(k)+'" data-cat="'+esc(k)+'">'+esc(shortCat(k))+'</a>';
            }).join(", ")+'</p></li>';
   }).join("");
+  /* Kanit satiri ve ornek sorgular: ilk bakista dizinin ne oldugu ve
+     nasil kullanildigi. Sayilar veriden; emit.home_html ayni satiri yaziyor.
+     Buradan Basla fihristten once: masaustunde ilk ekranda gorunsun. */
+  var flagged = data.filter(function(d){ return d.hs }).length;
   return '<div class="home">'+
-    '<section class="hsec"><h2 class="k">'+esc(L.fxHead)+'<span>'+esc(L.fxNote(nf, CATS.length))+'</span></h2>'+
-    '<ol class="fx">'+fx+'</ol></section>'+
+    '<p class="proof">'+esc(L.proof(fmtN(data.length), fmtDay(CHECKED_ISO), fmtN(flagged)))+'</p>'+
+    '<p class="tryq"><span>'+esc(L.tryLbl)+'</span>'+L.tryQs.map(function(x){
+      return '<a class="chip" href="?q='+encodeURIComponent(x)+'" data-q="'+esc(x)+'">'+esc(x)+'</a>';
+    }).join("")+'</p>'+
     (strip.length
-      ? '<section class="hsec"><h2 class="k">'+esc(L.hStart)+'</h2><ol class="hpicks">'+
+      ? '<section class="hsec hp"><h2 class="k">'+esc(L.hStart)+'</h2><ol class="hpicks">'+
         strip.map(function(d){
           return '<li><a href="'+esc(d.url)+'" target="_blank" rel="noopener noreferrer">'+esc(d.name)+'</a>'+
                  '<p>'+esc(firstSentence(descOf(d)))+'</p></li>';
         }).join("")+'</ol></section>'
       : "")+
+    '<section class="hsec"><h2 class="k">'+esc(L.fxHead)+'<span>'+esc(L.fxNote(nf, CATS.length))+'</span></h2>'+
+    '<ol class="fx">'+fx+'</ol></section>'+
     '<p class="hlinks"><a href="?new=1" data-recent="1">'+esc(L.recent)+' →</a>'+
       '<a href="?sort=az" data-all="1">'+esc(L.hAll)+'</a></p>'+
   '</div>';
+}
+
+/* "2026-10-12" -> "12 Oct 2026" (emit._day_label ile ayni). */
+function fmtDay(iso){
+  return iso ? +iso.slice(8, 10) + " " + AYLAR[lang][+iso.slice(5, 7) - 1] + " " + iso.slice(0, 4) : "";
 }
 
 /* Tek bir dolu kategorisi olan bir alan icin ara sayfa, tek karti olan bir
@@ -187,8 +206,19 @@ function listBlock(key, heading, items, L, o){
     pagerHTML(key, page, total, L)+'</section>';
 }
 
+/* Bos sonuc bir cikmaz olmasin: sorgunun suzgecsiz en cok eslestigi baslik,
+   diger dilin aciklamalari (yuklu degilse) ve sorguyla doldurulmus oneri formu. */
 function emptyHTML(L){
-  return '<p class="none">'+esc(L.empty)+' <a href="#" id="clr">'+esc(L.clear)+'</a></p>';
+  var out = '<p class="none">'+esc(L.empty)+' <a href="#" id="clr">'+esc(L.clear)+'</a></p>';
+  if(!q || savedView || listKeys) return out;
+  var by = {}, best = null, p = qParsed();
+  data.forEach(function(d){ if(Search.match(d, p)) by[d.cat] = (by[d.cat] || 0) + 1 });
+  Object.keys(by).forEach(function(k){ if(k !== activeCat && (!best || by[k] > by[best])) best = k });
+  var more = [];
+  if(best) more.push('<a href="?cat='+esc(best)+'" data-cat="'+esc(best)+'" data-near="1">'+esc(L.nearCat(catName(best), by[best]))+'</a>');
+  if(!descList(lang === "en" ? "tr" : "en")) more.push('<button class="lnk" type="button" data-olang="1">'+esc(L.otherLang)+'</button>');
+  more.push('<button class="lnk" type="button" data-suggest="1">'+esc(L.suggest(q))+'</button>');
+  return out + '<p class="none-x">'+more.join("")+'</p>';
 }
 
 /* Arama yardimi: sorgu bir alan ya da baslik adiysa oraya kisayol; az sonuc
@@ -230,7 +260,7 @@ function askSuggest(forQ, n){
 /* Arac cubugu: Suz dugmesi (etkin suzgec sayisiyla), secili suzgecler
    cikarilabilir cip olarak, Buradan Basla, sayi ve siralama. */
 function tbHTML(L, n, total){
-  var act = activeTags.length + (activeSrc ? 1 : 0);
+  var act = activeTags.length + (activeSrc ? 1 : 0) + (hidePaid ? 1 : 0);
   var chips = activeTags.map(function(t){
       return '<button class="chip on" type="button" data-tag="'+esc(t)+'" aria-label="'+
              esc(L.remove(tagLabel(t)))+'">'+esc(tagLabel(t))+'<span class="x" aria-hidden="true">✕</span></button>';
@@ -239,14 +269,20 @@ function tbHTML(L, n, total){
       ? '<button class="chip on" type="button" data-src="'+esc(activeSrc)+'" aria-label="'+
         esc(L.remove(SRCMAP[activeSrc][lang==="tr"?"label_tr":"label_en"]))+'">'+
         esc(SRCMAP[activeSrc][lang==="tr"?"label_tr":"label_en"])+'<span class="x" aria-hidden="true">✕</span></button>'
+      : "") +
+    (hidePaid
+      ? '<button class="chip on" type="button" data-free="1" aria-label="'+esc(L.remove(L.noPaid))+'">'+
+        esc(L.noPaid)+'<span class="x" aria-hidden="true">✕</span></button>'
       : "");
   return '<div class="tb">'+
     '<button class="chip" type="button" id="filtb" aria-haspopup="dialog" aria-controls="filt" aria-expanded="false">'+
-      esc(L.filter)+(act ? ' · '+act : '')+' <span aria-hidden="true">▾</span></button>'+
-    chips+
+      esc(L.filtN(act))+' <span aria-hidden="true">▾</span></button>'+
+    (chips ? '<span class="tchips">'+chips+'</span>' : '')+
     '<button class="chip pickbtn" type="button" id="pickbtn" aria-pressed="'+onlyPicks+'">'+
       '<span class="dot" aria-hidden="true">◆</span><span class="lbl">'+esc(L.hStart)+'</span></button>'+
-    '<span class="sp"><span class="count">'+esc(L.count(n, total))+'</span>'+
+    /* Telefonda yer dar: "12 / 538 baglanti" yerine "12 sonuc". */
+    '<span class="sp"><span class="count"><span class="cw">'+esc(L.count(n, total))+'</span>'+
+      '<span class="cn">'+esc(L.nRes(n))+'</span></span>'+
       '<label class="sortl"><span>'+esc(L.sortLbl)+'</span><select id="sort" aria-label="'+esc(L.sortAria)+'">'+
       Object.keys(L.sorts).map(function(k){
         return '<option value="'+k+'"'+(k===sortBy?' selected':'')+'>'+
@@ -379,9 +415,20 @@ var chromeLang = null;
    cubugu. Sonuclar kategorileri karistirdigi icin her kaydin ustunde yolu. */
 function listPageHTML(L, shown){
   var h = q ? L.results(q, shown.length)
+            : listKeys ? L.shared : savedView ? L.saved
             : (onlyPicks && !activeTags.length && !activeSrc ? L.hStart : L.all);
-  var body;
-  if(!shown.length) body = emptyHTML(L);
+  var body, lead = "";
+  if(listKeys){
+    lead = '<p class="lede">'+esc(listKeys.length ? L.sharedLead : L.sharedBad)+'</p>'+
+      (listKeys.length ? '<p class="shelfx"><button class="btn primary" type="button" data-saveall="1">'+
+                         esc(L.saveAll)+'</button></p>' : '');
+  } else if(savedView){
+    lead = savedCount()
+      ? '<p class="shelfx"><button class="btn" type="button" data-share="1">'+esc(L.share)+'</button></p>'
+      : '<p class="lede">'+esc(L.savedEmpty)+'</p>';
+  }
+  var bare = !q && !activeTags.length && !activeSrc && !hidePaid && !onlyPicks;
+  if(!shown.length) body = (savedView || listKeys) && bare ? "" : emptyHTML(L);
   else if(sortBy === "cat" && !q){
     body = CATS.map(function(c){
       var items = shown.filter(function(d){ return d.cat === c.key });
@@ -390,7 +437,7 @@ function listPageHTML(L, shown){
   } else {
     body = listBlock("_", null, sorted(shown), L, {year: sortBy === "new", path: true});
   }
-  return '<div class="catpage">'+crumbHTML(L)+'<h1 class="ph">'+esc(h)+'</h1>'+
+  return '<div class="catpage">'+crumbHTML(L)+'<h1 class="ph">'+esc(h)+'</h1>'+lead+
     tbHTML(L, shown.length, data.length)+qHelpHTML(L, shown.length)+body+'</div>';
 }
 
@@ -408,8 +455,11 @@ function vsHTML(L, d){
 
 function singleHTML(L, d){
   var rel = (d.rel||[]).map(function(i){ return data[i] }).filter(Boolean);
+  /* Rastgele kayit once burada, dizinin icinde aciliyor; siteye gitmek ikinci adim. */
   return '<div class="one">'+crumbHTML(L, CATFIELD[d.cat], d.cat)+
     '<div class="recs">'+itemHTML(d, 0, {year: true, big: true})+'</div>'+
+    '<p class="visit"><a class="btn primary" href="'+esc(d.url)+'" target="_blank" rel="noopener noreferrer" data-go="'+
+      esc(d._k)+'">'+esc(L.visit)+'</a><button class="btn" type="button" data-rand="1">'+esc(L.another)+'</button></p>'+
     vsHTML(L, d)+
     (rel.length
       ? '<h2 class="sh">'+esc(L.rel)+'<span class="n">'+rel.length+'</span></h2><div class="recs">'+
@@ -421,6 +471,43 @@ function singleHTML(L, d){
   '</div>';
 }
 
+/* Karsilastirma (?cmp=a,b,c): dizinin kendi alanlari yan yana. Ilk sutun
+   (satir adlari) telefonda yapisik, kayit sutunlari yatay kaydirmada yerine oturuyor. */
+var PRICE = ["ücretsiz", "freemium", "ücretli"];
+function cmpHTML(L){
+  var rows = cmpKeys.map(function(k){ return KEYIDX[k] });
+  var R = L.cmpRows, none = esc(L.cmpNone);
+  function vsCell(d){
+    var out = (VSIDX[d._i] || []).filter(function(e){ return rows.indexOf(data[e[0]]) >= 0 }).map(function(e){
+      return esc(data[e[0]].name)+': '+esc(AXES[e[1]][lang === "tr" ? 1 : 2]) });
+    return out.filter(function(x, i){ return out.indexOf(x) === i }).join("<br>") || none;
+  }
+  var line = [
+    [R.what, function(d){ return esc(firstSentence(descOf(d))) }],
+    [R.price, function(d){
+      var p = (d.tags||[]).filter(function(t){ return PRICE.indexOf(t) >= 0 });
+      return p.length ? esc(tagLabel(p[0])) : none }],
+    [R.src, function(d){ return esc(srcLabel(d)) }],
+    [R.ver, function(d){ return esc(d.ver ? fmtDay(d.ver) : L.unchecked) }],
+    [R.repo, function(d){ return d.hs ? esc(L.repo[d.hs]) : none }],
+    [R.tags, function(d){
+      return esc((d.tags||[]).filter(function(t){ return PRICE.indexOf(t) < 0 }).map(tagLabel).join(", ")) || none }],
+    [R.vs, vsCell]
+  ];
+  return '<div class="cmppage">'+crumbHTML(L)+'<h1 class="ph">'+esc(L.cmpHead)+'</h1>'+
+    (rows.length < 2 ? '<p class="lede">'+esc(L.cmpOne)+'</p>' : '')+
+    '<div class="cmpwrap" role="region" aria-labelledby="cmpcap" tabindex="0"><table class="cmp">'+
+    '<caption id="cmpcap" class="vh">'+esc(L.cmpHead)+'</caption>'+
+    '<thead><tr><td></td>'+rows.map(function(d){
+      return '<th scope="col"><a href="?e='+encodeURIComponent(d._k)+'" data-perma="'+esc(d._k)+'">'+esc(d.name)+'</a>'+
+             '<span class="host">'+esc(d._h)+'</span>'+
+             '<button class="lnk" type="button" data-cmpoff="'+esc(d._k)+'" aria-label="'+esc(L.cmpOff(d.name))+'">✕</button></th>';
+    }).join("")+'</tr></thead><tbody>'+
+    line.map(function(r){
+      return '<tr><th scope="row">'+esc(r[0])+'</th>'+rows.map(function(d){ return '<td>'+r[1](d)+'</td>' }).join("")+'</tr>';
+    }).join("")+'</tbody></table></div></div>';
+}
+
 function renderView(){
   var L = T[lang];
   if(chromeLang !== lang){ paintChrome(L); chromeLang = lang; }
@@ -428,9 +515,13 @@ function renderView(){
 
   /* Sakin gorunum (giris, alan, tek kayit, son eklenenler): yalnizca gezinme,
      yan sutun yok. Giris ayrica iri baslik duzenini aciyor. */
-  var browsing = !q && !activeTags.length && !onlyPicks && !activeSrc && sortBy === "cat";
-  document.body.classList.toggle("calm", !!(single || recent || (browsing && !activeCat)));
-  document.body.classList.toggle("at-home", !!(browsing && !activeCat && !activeField && !single && !recent));
+  var browsing = !q && !activeTags.length && !onlyPicks && !activeSrc && sortBy === "cat" &&
+                 !hidePaid && !savedView && !listKeys;
+  /* boot.js iskeleti: gorunum ciziliyor, hazir giris artik saklanmiyor. */
+  document.documentElement.classList.remove("pending");
+  paintSavedBtn(); paintTray();
+  document.body.classList.toggle("calm", !!(single || recent || cmpKeys.length || (browsing && !activeCat)));
+  document.body.classList.toggle("at-home", !!(browsing && !activeCat && !activeField && !single && !recent && !cmpKeys.length));
   $("#nav").innerHTML = sideHTML(L);
 
   /* Tek kayit gorunumu: adres kaydin URL anahtarina bagli. */
@@ -440,6 +531,7 @@ function renderView(){
     single = null;
   }
   if(recent){ $("#list").innerHTML = recentHTML(L); return; }
+  if(cmpKeys.length){ $("#list").innerHTML = cmpHTML(L); return; }
 
   if(browsing && !activeCat && !activeField){
     /* build.py girisi index.html'e onceden ciziyor (data-pre). Ilk acilista
@@ -467,10 +559,13 @@ function announce(text){
 function render(){ renderView(); syncFilt(); }
 
 function update(push){ writeURL(push); render(); }
-function clearAll(){ q=""; activeTags=[]; activeCat=null; activeField=null; onlyPicks=false; activeSrc=null; single=null; recent=false; pages={}; update(true) }
+function resetView(){
+  q = ""; activeTags = []; activeCat = null; activeField = null; onlyPicks = false; activeSrc = null;
+  single = null; recent = false; hidePaid = false; savedView = false; listKeys = null; cmpKeys = []; pages = {};
+}
+function clearAll(){ resetView(); update(true) }
 /* Logo ve yol izinin "Fihrist" halkasi: her seyi birakip girise don. */
 function goHome(){
-  q = ""; activeTags = []; activeCat = null; activeField = null; onlyPicks = false; activeSrc = null;
-  single = null; recent = false; sortBy = "cat"; pages = {}; update(true); scrollTop();
+  resetView(); sortBy = "cat"; update(true); scrollTop();
 }
 

@@ -125,7 +125,8 @@ data.forEach(function(d, i){
 /* Kalici baglanti URL anahtarina bagli (sema, www ve sondaki / atilmis adres).
    Ilk surum kayit adini kullaniyordu; ayni adli iki kayit oldugunda baglanti
    yanlis kayda gidiyordu. Eski ?e=<ad> baglantilari icin ad dizini de duruyor. */
-var NAMEIDX = {}, KEYIDX = {};
+/* Object.create(null): ?cmp=constructor / ?e=toString must not hit Object.prototype */
+var NAMEIDX = Object.create(null), KEYIDX = Object.create(null);
 data.forEach(function(d){ NAMEIDX[d.name] = d; KEYIDX[d._k] = d });
 function byPerma(v){ return KEYIDX[v] || NAMEIDX[v] || null }
 

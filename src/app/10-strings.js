@@ -31,6 +31,7 @@ var T = {
          'Açıklamalar projelerin kendi belgelerine bakılarak yazıldı; karşılaştırmalı yargılar derleyene ait. '+
          'Ölü ya da hatalı bir kayıt görürsen <a href="'+REPO+'/issues/new/choose">bildir</a> — '+
          'yeni bağlantı önerileri de aynı yerden. '+
+         '<a href="k/yol/index.html">Öğrenme yolları</a> · '+
          '<a href="k/tesekkur.html">Katkıda bulunanlar</a> · '+
          'dizinin <a href="k/index.html">metin hâli</a> de var.',
     skip:"İçeriğe Atla",
@@ -38,7 +39,7 @@ var T = {
     hStart:"Buradan Başla", hAll:"Tümünü tek listede gör →",
     srcLess:"− Kaynakları gizle",
     srcShow:function(n){ return n+" kaynağı göster" },
-    fShow:function(n){ return n+" bağlantıyı göster" },
+    fShow:function(n){ return n+" sonucu göster" },
     listsHead:"Listeler & Koleksiyonlar",
     backCat:"← Bu başlıktaki diğer kayıtlar", permaTip:"Bu kayda bağlantı", perma:"bağlantı",
     recent:"Son Eklenenler", recentLead:function(n){ return "Dizine en son giren "+n+" kayıt, aya göre." },
@@ -76,7 +77,34 @@ var T = {
     tooBig:function(n){ return n+" bağlantı issue adresine sığmaz. Dosyayı indir, issue'ya ekle." },
     bIssue:"GitHub'da Aç", bCopy:"Kopyala", bJson:"JSON İndir", bCsv:"CSV İndir",
     copied:"Kopyalandı",
-    kb:'<kbd>/</kbd> Ara · <kbd>r</kbd> Rastgele · <kbd>Esc</kbd> Temizle'
+    kb:'<kbd>/</kbd> Ara · <kbd>Ctrl K</kbd> Komutlar · <kbd>r</kbd> Rastgele · <kbd>?</kbd> Kısayollar · <kbd>Esc</kbd> Temizle',
+    proof:function(n, d, a){ return n+" bağlantı · son kontrol "+d+" · "+a+" kayıt arşiv ya da durgun diye işaretli · izleyici yok · çevrimdışı çalışır" },
+    tryLbl:"Dene:", tryQs:["llm", "postgres", "regex", "self-hosted", "diyagram", "renk paleti"],
+    filtN:function(n){ return "Süz" + (n ? " (" + n + ")" : "") },
+    nRes:function(n){ return fmtN(n)+" sonuç" },
+    noPaid:"Ücretli ve freemium gizle",
+    saved:"Kaydedilenler", savedEmpty:"Henüz kayıt yok. Bir kayıttaki ☆ ile buraya ekle; liste yalnızca bu tarayıcıda durur, hesap yok.",
+    save:function(x){ return x+" kaydet" }, unsave:function(x){ return x+" kaydedilenlerden çıkar" },
+    share:"Paylaşım bağlantısını kopyala", shared:"Paylaşılan Liste",
+    sharedLead:"Biri bu listeyi seninle paylaştı. Sen kaydetmedikçe hiçbir şey saklanmıyor.",
+    sharedBad:"Bu paylaşılan listede dizinin tanıdığı bir kayıt yok.",
+    saveAll:"Hepsini kaydet", savedAll:function(n){ return n+" kayıt kaydedildi" },
+    cmp:"Karşılaştır", cmpHead:"Karşılaştırma", cmpMax:"En fazla 3 kayıt karşılaştırılabilir",
+    cmpGo:function(n){ return "Karşılaştır ("+n+") →" }, cmpClear:"Temizle",
+    cmpOff:function(x){ return x+" karşılaştırmadan çıkar" },
+    cmpOne:"Bir kayıt daha ekle: herhangi bir kayıttaki “Karşılaştır” ile.",
+    cmpRows:{what:"Ne yapıyor", price:"Fiyat", src:"Kaynak", ver:"Son doğrulama", repo:"Depo durumu",
+             tags:"Etiketler", vs:"Farkı"},
+    cmpNone:"—",
+    nearCat:function(x, n){ return "En yakın başlık: "+x+" ("+n+") →" },
+    otherLang:"İngilizce açıklamalarda da ara",
+    suggest:function(x){ return "“"+x+"” için bir site öner" },
+    visit:"Siteyi aç ↗", another:"Başka bir rastgele kayıt",
+    palLabel:"Komut paleti", palPh:"Bir kayda, başlığa ya da komuta git…", palNone:"Eşleşen yok",
+    gAct:"Komutlar", gField:"Alanlar", gCat:"Başlıklar", gRec:"Kayıtlar",
+    aRand:"Rastgele kayıt", aHome:"Fihrist (giriş)", aKeys:"Klavye kısayolları",
+    keys:[["/","Ara"], ["Ctrl K · ⌘ K","Komut paleti"], ["r","Rastgele kayıt"],
+          ["j · k","Sonraki · önceki kayıt"], ["?","Bu yardım"], ["Esc","Temizle ya da kapat"]]
   },
   en:{
     title:"Useful Sites",
@@ -110,6 +138,7 @@ var T = {
          "Descriptions are written from each project's own documentation; comparative judgements are the curator's. "+
          'Spotted a dead or wrong entry? <a href="'+REPO+'/issues/new/choose">Tell me</a> — '+
          'link suggestions go to the same place. '+
+         '<a href="k/en/path/index.html">Learning paths</a> · '+
          '<a href="k/en/credits.html">Contributors</a> · '+
          'there is a <a href="k/en/index.html">plain-text edition</a> too.',
     skip:"Skip To Content",
@@ -117,7 +146,7 @@ var T = {
     hStart:"Start Here", hAll:"See everything in one list →",
     srcLess:"− Hide sources",
     srcShow:function(n){ return "Show "+n+" sources" },
-    fShow:function(n){ return "Show "+n+" links" },
+    fShow:function(n){ return "Show "+n+" results" },
     listsHead:"Lists & Collections",
     backCat:"← Other entries under this heading", permaTip:"Link to this entry", perma:"link",
     recent:"Recently Added", recentLead:function(n){ return "The "+n+" newest entries, by month." },
@@ -155,7 +184,34 @@ var T = {
     tooBig:function(n){ return n+" links will not fit in an issue URL. Download the file and attach it." },
     bIssue:"Open On GitHub", bCopy:"Copy", bJson:"Download JSON", bCsv:"Download CSV",
     copied:"Copied",
-    kb:'<kbd>/</kbd> Search · <kbd>r</kbd> Random · <kbd>Esc</kbd> Clear'
+    kb:'<kbd>/</kbd> Search · <kbd>Ctrl K</kbd> Commands · <kbd>r</kbd> Random · <kbd>?</kbd> Shortcuts · <kbd>Esc</kbd> Clear',
+    proof:function(n, d, a){ return n+" links · last checked "+d+" · "+a+" flagged archived or dormant · no trackers · works offline" },
+    tryLbl:"Try:", tryQs:["llm", "postgres", "regex", "self-hosted", "diagram", "color palette"],
+    filtN:function(n){ return "Filter" + (n ? " (" + n + ")" : "") },
+    nRes:function(n){ return fmtN(n)+" results" },
+    noPaid:"Hide paid & freemium",
+    saved:"Saved", savedEmpty:"Nothing saved yet. Use ☆ on any entry to keep it here; the list lives in this browser only, no account.",
+    save:function(x){ return "Save "+x }, unsave:function(x){ return "Remove "+x+" from saved" },
+    share:"Copy share link", shared:"Shared List",
+    sharedLead:"Someone shared this list with you. Nothing is stored unless you save it.",
+    sharedBad:"This shared list names no entry this directory knows.",
+    saveAll:"Save all", savedAll:function(n){ return "Saved "+n+" entries" },
+    cmp:"Compare", cmpHead:"Comparison", cmpMax:"Up to 3 entries can be compared",
+    cmpGo:function(n){ return "Compare ("+n+") →" }, cmpClear:"Clear",
+    cmpOff:function(x){ return "Remove "+x+" from the comparison" },
+    cmpOne:"Add one more: use “Compare” on any entry.",
+    cmpRows:{what:"What it does", price:"Price", src:"Source", ver:"Last verified", repo:"Repository",
+             tags:"Tags", vs:"Differs in"},
+    cmpNone:"—",
+    nearCat:function(x, n){ return "Closest heading: "+x+" ("+n+") →" },
+    otherLang:"Search the Turkish descriptions too",
+    suggest:function(x){ return "Suggest a site for “"+x+"”" },
+    visit:"Open the site ↗", another:"Another random entry",
+    palLabel:"Command palette", palPh:"Jump to an entry, heading or action…", palNone:"Nothing matches",
+    gAct:"Actions", gField:"Areas", gCat:"Headings", gRec:"Entries",
+    aRand:"Random entry", aHome:"Index (home)", aKeys:"Keyboard shortcuts",
+    keys:[["/","Search"], ["Ctrl K · ⌘ K","Command palette"], ["r","Random entry"],
+          ["j · k","Next · previous entry"], ["?","This help"], ["Esc","Clear or close"]]
   }
 };
 

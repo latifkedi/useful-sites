@@ -85,15 +85,21 @@ function itemHTML(d, n, o){
   var rel = (d.rel||[]).map(function(i){
     var x = data[i];   /* rel: LINKS icindeki sira numaralari */
     return x ? '<a href="?q='+encodeURIComponent(x.name)+'" data-rel="'+i+'">'+esc(x.name)+'</a>' : "" }).filter(Boolean).join(" · ");
-  var ad = '<a class="name" href="'+esc(d.url)+'" target="_blank" rel="noopener noreferrer">'+hl(d.name)+'</a>';
-  return '<article class="rec'+(d.pick?' pick':'')+(o.big?' big':'')+'">'+
+  var ad = '<a class="name" href="'+esc(d.url)+'" target="_blank" rel="noopener noreferrer" data-go="'+esc(d._k)+'">'+hl(d.name)+'</a>';
+  /* Kaydet ve karsilastir yalnizca istemcinin cizdigi kartlarda: index.html'deki
+     hazir giris sayfasinda kart yok, o markup emit.py ile birebir kaliyor. */
+  var sv = isSaved(d._k), cm = cmpPick.indexOf(d._k) >= 0;
+  var saveB = '<button class="save" type="button" data-save="'+esc(d._k)+'" aria-pressed="'+sv+'" aria-label="'+
+              esc(L.save(d.name))+'" title="'+esc(sv ? L.unsave(d.name) : L.save(d.name))+'"><span aria-hidden="true">'+(sv ? "★" : "☆")+'</span></button>';
+  meta.push('<button class="cmpb" type="button" data-cmp="'+esc(d._k)+'" aria-pressed="'+cm+'">'+esc(L.cmp)+'</button>');
+  return '<article class="rec'+(d.pick?' pick':'')+(o.big?' big':'')+(isSeen(d._k)?' seen':'')+'" data-k="'+esc(d._k)+'">'+
     '<span class="no">'+(n || "")+'</span><div class="rb">'+
     (o.path ? '<p class="path"><a href="?cat='+esc(d.cat)+'" data-cat="'+esc(d.cat)+'">'+
               esc(catLbl(d.cat, lang))+'</a></p>' : '')+
     '<div class="nm">'+(o.big ? '<h1 class="ph">'+ad+'</h1>' : ad)+
       (d.pick ? '<span class="pk" title="'+esc(L.pickTip)+'">◆ '+esc(L.hStart)+'</span>' : '')+
       (d.dead ? '<span class="badge dead" title="'+esc(L.deadTip)+'">'+esc(L.dead)+'</span>' : '')+chk+rt+
-      '<span class="host">'+esc(d._h)+'</span></div>'+
+      '<span class="host">'+esc(d._h)+'</span>'+saveB+'</div>'+
     '<p class="desc">'+descHTML(d)+'</p>'+
     '<div class="mt">'+(tags ? '<span class="itags">'+tags+'</span>' : '')+
       (rel ? '<span class="rel">'+esc(L.rel)+': '+rel+'</span>' : '')+

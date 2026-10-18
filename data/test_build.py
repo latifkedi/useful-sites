@@ -34,10 +34,19 @@ from intros import INTROS               # noqa: E402
 from picks import PICKS                 # noqa: E402
 from sources import SOURCES             # noqa: E402
 from tags import CANON, LABELS, FACETS  # noqa: E402
+from tags import UNCOUNTED, MIN_TAGS, MAX_TAGS, LEVELS, LEVEL_CATS  # noqa: E402
 from emit import SITE as EMIT_SITE, HOME_TX, esc as esc_html  # noqa: E402
+from paths import PATHS                 # noqa: E402
+from taghubs import INTROS as TAG_INTROS, MIN_N as TAG_MIN, SKIP as TAG_SKIP, slug as tag_slug  # noqa: E402
 
 MIN_RECORDS = 1850
 MIN_CATEGORIES = 48
+# Records with fewer than tags.MIN_TAGS tags outside price & licence. A ceiling,
+# the other way round from MIN_RECORDS: lower it as thin records get a second
+# tag that their own text supports, never raise it to let a new thin one in.
+# 99 when the rule arrived (October 2026): mostly stock-photo and icon banks,
+# news boards and productivity apps, where no topic tag could be justified.
+THIN_MAX = 99
 
 MIN_DESC = 30
 DIFF_FLOOR = 0.99
@@ -93,11 +102,24 @@ def main():
     _cift = [d['name'] for d in rows if len([t for t in d['tags'] if t in _maliyet]) != 1]
     check(not _cift, 'every record carries exactly one of ücretsiz / freemium / ücretli'
           + (' -- %d: %s' % (len(_cift), _cift[:3]) if _cift else ''))
+    def _sayi(d):
+        return len([t for t in d['tags'] if t not in UNCOUNTED])
+    _fazla = [d['name'] for d in rows if _sayi(d) > MAX_TAGS]
+    check(not _fazla, 'no record carries more than %d tags outside price & licence' % MAX_TAGS
+          + (' -- %d: %s' % (len(_fazla), _fazla[:3]) if _fazla else ''))
+    _ince = [d['name'] for d in rows if _sayi(d) < MIN_TAGS]
+    check(len(_ince) <= THIN_MAX, 'records with fewer than %d tags outside price & licence: %d (ceiling %d)'
+          % (MIN_TAGS, len(_ince), THIN_MAX))
+    _seviye = [d['name'] for d in rows
+               if (set(d['tags']) & set(LEVELS) and d['cat'] not in LEVEL_CATS)
+               or len(set(d['tags']) & set(LEVELS)) > 1]
+    check(not _seviye, 'a level (başlangıç / orta / ileri) only on learning records, one at most'
+          + (' -- %s' % _seviye[:3] if _seviye else ''))
 
     print('comparisons (vs)')
     _vs = [d for d in rows if d.get('vs')]
     # A ratchet like the others: raise it as comparisons are written, never lower it.
-    check(len(_vs) >= 35, 'records that carry a curated comparison: %d (floor 35)' % len(_vs))
+    check(len(_vs) >= 420, 'records that carry a curated comparison: %d (floor 420)' % len(_vs))
     check(all(0 <= j < len(rows) and j != i and 0 <= a < len(AXES_JS)
               for i, d in enumerate(rows) for j, a in d.get('vs', [])),
           'every vs points at another record and a known axis')
@@ -284,6 +306,96 @@ def main():
         check(os.path.exists(os.path.join(ROOT, *h)),
               'static hub page: ' + '/'.join(h))
 
+    print('goal paths')
+    bykey = {notes_key(d['url']): d for d in rows}
+    yol_sorun = []
+    for p in PATHS:
+        ad = p.get('en_slug', '?')
+        if not (8 <= len(p['steps']) <= 15):
+            yol_sorun.append('%s: %d steps' % (ad, len(p['steps'])))
+        if not all(p.get(f) for f in ('tr', 'en', 'tr_slug', 'en_slug')) or not all(p['intro']):
+            yol_sorun.append('%s: title, slug or intro missing in a language' % ad)
+        for u, w_tr, w_en in p['steps']:
+            d = bykey.get(notes_key(u))
+            if not d:
+                yol_sorun.append('%s: %s is not a record' % (ad, u))
+            elif 'arşivlenmiş' in d['tags'] or d.get('hs') == 'arşiv' or d.get('dead'):
+                yol_sorun.append('%s: %s is archived or dead' % (ad, u))
+            if not (w_tr.strip() and w_en.strip()) or w_tr.strip() == w_en.strip():
+                yol_sorun.append('%s: %s lacks a why-now line in both languages' % (ad, u))
+        if len({notes_key(u) for u, _, _ in p['steps']}) != len(p['steps']):
+            yol_sorun.append('%s: a step repeats' % ad)
+    check(len(PATHS) == 8, 'eight goal paths (%d)' % len(PATHS))
+    check(not yol_sorun, 'every path has 8-15 live, non-archived steps with a why-now line in TR and EN'
+          + (' -- %s' % yol_sorun[:3] if yol_sorun else ''))
+    slugs = [p['tr_slug'] for p in PATHS] + [p['en_slug'] for p in PATHS]
+    check(len(set(slugs)) == len(slugs) and all(re.match(r'^[a-z0-9-]+$', s) for s in slugs),
+          'path slugs are unique and ASCII')
+    yok = [s for s in ['k/yol/index.html', 'k/en/path/index.html']
+           + ['k/yol/%s.html' % p['tr_slug'] for p in PATHS]
+           + ['k/en/path/%s.html' % p['en_slug'] for p in PATHS]
+           if not os.path.exists(os.path.join(ROOT, *s.split('/')))]
+    check(not yok, 'every path page exists in both languages, with its index'
+          + (' -- %s' % yok[:3] if yok else ''))
+
+    print('tag pages')
+    _tn = collections.Counter(t for d in rows for t in d['tags'])
+    hub_tags = [t for t in CANON if t not in TAG_SKIP and _tn[t] >= TAG_MIN]
+    check(len(hub_tags) >= 40, 'tags with a page: %d (floor 40)' % len(hub_tags))
+    girissiz_t = [t for t in CANON if t not in TAG_SKIP and not (t in TAG_INTROS and all(TAG_INTROS[t]))]
+    check(not girissiz_t, 'every tag that can have a page has an intro in TR and EN'
+          + (' -- %s' % girissiz_t[:5] if girissiz_t else ''))
+    tslug = [tag_slug(t) for t in CANON]
+    check(len(set(tslug)) == len(tslug) and all(re.match(r'^[a-z0-9-]+$', s) for s in tslug),
+          'tag slugs are unique and ASCII')
+    beklenen = {tag_slug(t) + '.html' for t in hub_tags}
+    for sub in (('k', 't'), ('k', 'en', 'tag')):
+        var = set(os.listdir(os.path.join(ROOT, *sub))) if os.path.isdir(os.path.join(ROOT, *sub)) else set()
+        check(var == beklenen, 'tag pages in %s: exactly the tags on %d+ records'
+              % ('/'.join(sub), TAG_MIN) + (' -- off: %s' % sorted(var ^ beklenen)[:4] if var != beklenen else ''))
+    ince = []
+    for t in hub_tags:
+        h = io.open(os.path.join(ROOT, 'k', 't', tag_slug(t) + '.html'), encoding='utf-8').read()
+        if h.count('<article class="rec"') != _tn[t]:
+            ince.append(t)
+    check(not ince, 'each tag page lists every record carrying the tag'
+          + (' -- %s' % ince[:3] if ince else ''))
+
+    print('sitemap')
+    sm = io.open(os.path.join(ROOT, 'sitemap.xml'), encoding='utf-8').read()
+    locs = re.findall(r'<loc>([^<]+)</loc>', sm)
+    hedefsiz = [u for u in locs if u != EMIT_SITE + '/'
+                and not os.path.exists(os.path.join(ROOT, *u[len(EMIT_SITE) + 1:].split('/')))]
+    check(not hedefsiz, 'every sitemap URL is a committed file (%d URLs)' % len(locs)
+          + (' -- %s' % hedefsiz[:3] if hedefsiz else ''))
+    statik = sorted('k/' + os.path.relpath(os.path.join(dp, f), os.path.join(ROOT, 'k')).replace(os.sep, '/')
+                    for dp, _, fs in os.walk(os.path.join(ROOT, 'k')) for f in fs if f.endswith('.html'))
+    haritasiz = [s for s in statik if '%s/%s' % (EMIT_SITE, s) not in locs]
+    check(not haritasiz, 'every static page is in the sitemap'
+          + (' -- %s' % haritasiz[:3] if haritasiz else ''))
+
+    print('also see, social images')
+    yoksun = []
+    for k in sorted(kullanilan):
+        for sub, head in (('', 'Ayrıca bak'), ('en', 'Also see')):
+            h = io.open(os.path.join(ROOT, 'k', sub, k + '.html'), encoding='utf-8').read()
+            m = re.search(r'<h2 class="sh">%s</h2><p>(.*?)</p>' % head, h)
+            if not m or len(re.findall(r'<a href="([a-z_]+)\.html"', m.group(1))) < 3:
+                yoksun.append(os.path.join(sub, k))
+    check(not yoksun, 'every heading page suggests at least three related headings'
+          + (' -- %s' % yoksun[:3] if yoksun else ''))
+    ogdir = os.path.join(ROOT, 'og')
+    pngs = sorted(f for f in os.listdir(ogdir) if f.endswith('.png')) if os.path.isdir(ogdir) else []
+    agir = [f for f in pngs if os.path.getsize(os.path.join(ogdir, f)) > 45 * 1024]
+    check(not agir, 'per-page social images stay under 45 KB (%d images)' % len(pngs)
+          + (' -- %s' % agir[:3] if agir else ''))
+    eksik_og = [k for k in sorted(kullanilan) if k + '.png' not in pngs] + \
+               ['path-' + p['en_slug'] for p in PATHS if 'path-%s.png' % p['en_slug'] not in pngs]
+    check(not eksik_og, 'every heading and path has its own social image (run data/make_og.py)'
+          + (' -- %s' % eksik_og[:3] if eksik_og else ''))
+    sw = io.open(os.path.join(ROOT, 'sw.js'), encoding='utf-8').read()
+    check('og/' not in sw, 'the service worker does not precache the social images')
+
     # hreflang yalnizca simetrikse ise yariyor: A dili B'yi gosteriyorsa
     # B de A'yi gostermeli, ve her sayfa kendini isaret etmeli.
     for rel in ('k/kuantum.html', 'k/en/kuantum.html'):
@@ -325,9 +437,9 @@ def main():
     hex_ = re.findall(r'(?<=[\s:,(])#[0-9a-fA-F]{3,8}(?=[\s;,)}!])', govde)
     check(css is not None and not hex_, 'style.css takes every colour from its :root tokens'
           + (' -- literals: %s' % sorted(set(hex_))[:5] if hex_ else ''))
-    sayfalar = [os.path.join(ROOT, 'k', f) for f in os.listdir(os.path.join(ROOT, 'k')) if f.endswith('.html')]
-    sayfalar += [os.path.join(ROOT, 'k', 'en', f) for f in os.listdir(os.path.join(ROOT, 'k', 'en'))
-                 if f.endswith('.html')]
+    # Every page under k/, the path and tag folders included.
+    sayfalar = [os.path.join(dp, f) for dp, _, fs in os.walk(os.path.join(ROOT, 'k'))
+                for f in fs if f.endswith('.html')]
     kotu = []
     for p in sayfalar:
         t = io.open(p, encoding='utf-8').read()

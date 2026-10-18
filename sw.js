@@ -13,13 +13,13 @@
 "use strict";
 /* Onbellek sitenin kendi dosyalariyla sinirli: sayfalar yollarina gore
    (sorgusuz), damgali dosyalar yol basina tek surum (trim), geri kalani
-   fontlar ve ikonlar. Hepsini sifirlamak icin bu adi degistir (v1 -> v2):
+   fontlar ve ikonlar. Hepsini sifirlamak icin bu adi degistir (v2 -> v3; v2 raf, palet ve karsilastirma ile geldi):
    yeni sw.js yuklenince activate eski onbellegi siliyor. Service worker'i
    tamamen kaldirmak gerekirse sw.js'i, kendini
    self.registration.unregister() ile kaldiran ve onbellegi silen bir
    dosyayla degistirmek yeterli; tarayici sw.js'i her gezinmede yeniden
    denetliyor (en fazla 24 saatte bir). */
-var CACHE = "useful-sites-v1";
+var CACHE = "useful-sites-v2";
 var NAV_TIMEOUT = 3000;
 
 function stamped(url){ return /[?&]v=[0-9a-f]+$/.test(url.search) }
@@ -34,7 +34,7 @@ function assetsOf(html, base){
 self.addEventListener("install", function(e){
   var home = new URL("./", self.registration.scope).href;
   e.waitUntil(caches.open(CACHE).then(function(cache){
-    return fetch(home).then(function(r){
+    return fetch(home, {cache: "no-cache"}).then(function(r){
       if(!r.ok) return;
       return r.clone().text().then(function(html){
         /* Tek tek: biri alinamazsa kurulum yine tamamlaniyor. */

@@ -28,3 +28,30 @@ test("the hero carries the live record count", async ({ page }) => {
   const n = await page.evaluate(() => window.LINKS.length);
   await expect(page.locator("#hero em")).toHaveText(n.toLocaleString("en-US"));
 });
+
+test("the proof line under the hero carries live numbers; a query chip runs a search", async ({ page }) => {
+  await page.goto("/");
+  await ready(page);
+  const f = await page.evaluate(() => ({
+    n: window.LINKS.length.toLocaleString("en-US"),
+    flagged: window.LINKS.filter(d => d.hs).length,
+    last: window.LINKS.reduce((m, d) => d.ver && d.ver > m ? d.ver : m, ""),
+  }));
+  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const day = +f.last.slice(8, 10) + " " + months[+f.last.slice(5, 7) - 1] + " " + f.last.slice(0, 4);
+  await expect(page.locator(".proof")).toHaveText(
+    f.n + " links · last checked " + day + " · " + f.flagged + " flagged archived or dormant · no trackers · works offline");
+  const chips = page.locator(".tryq .chip");
+  expect(await chips.count()).toBeGreaterThanOrEqual(4);
+  await chips.filter({ hasText: "postgres" }).click();
+  await expect(page).toHaveURL(/\?q=postgres$/);
+  await expect(page.locator("#list .rec").first()).toBeVisible();
+});
+
+test("desktop: Start Here sits above the fold", async ({ page, isMobile }) => {
+  test.skip(isMobile, "on phones the index comes first");
+  await page.goto("/");
+  await ready(page);
+  const box = await page.locator(".hpicks li").first().boundingBox();
+  expect(box.y + box.height).toBeLessThan(900);
+});

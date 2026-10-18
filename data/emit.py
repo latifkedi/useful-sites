@@ -15,6 +15,8 @@ Writes:
   feed.xml        newest entries (Atom) -- how anyone follows the directory
   k/<category>.html      Turkish
   k/en/<category>.html   English
+  k/yol/, k/en/path/     the goal paths of paths.py, and their index
+  k/t/, k/en/tag/        one page per tag on enough records (taghubs.py)
 """
 import io
 import os
@@ -64,8 +66,13 @@ HEAD = """<!doctype html>
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{desc}">
 <meta property="og:url" content="{canon}">
-<meta property="og:image" content="{site}/og.png">
+<meta property="og:image" content="{og_image}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{title}">
+<meta name="twitter:description" content="{desc}">
+<meta name="twitter:image" content="{og_image}">
 <link rel="alternate" type="application/atom+xml" title="{feed_title}" href="{feed_url}">
 <link rel="alternate" hreflang="tr" href="{alt_tr}">
 <link rel="alternate" hreflang="en" href="{alt_en}">
@@ -90,7 +97,7 @@ PAGE = HEAD + """<main class="catpage">
 <div class="recs">
 {items}
 </div>
-<nav class="other"><h2 class="sh">{others_head}</h2><p>{others}</p></nav>
+{also}<nav class="other"><h2 class="sh">{others_head}</h2><p>{others}</p></nav>
 </main>
 <footer>
 {foot}
@@ -101,9 +108,19 @@ PAGE = HEAD + """<main class="catpage">
 """
 
 
-def _css_href(out_dir, L):
+def _css_href(out_dir, L, sub=False):
+    """sub: the page sits one folder below its language's root (k/yol/, k/en/tag/)."""
     h = hashlib.sha1(io.open(os.path.join(out_dir, 'style.css'), 'rb').read()).hexdigest()[:8]
-    return ('../../' if L['dir'] else '../') + 'style.css?v=' + h
+    return ('../../' if L['dir'] else '../') + ('../' if sub else '') + 'style.css?v=' + h
+
+
+def _og(out_dir, name):
+    """A page's own social image (og/<name>.png, written by make_og.py) when it
+    exists, else the site's. make_og.py needs Pillow and is run by hand, so a
+    heading added since its last run falls back rather than pointing nowhere."""
+    if os.path.exists(os.path.join(out_dir, 'og', name + '.png')):
+        return '%s/og/%s.png' % (SITE, name)
+    return SITE + '/og.png'
 
 
 def _code(t):
@@ -161,7 +178,7 @@ HUB = HEAD + """<main class="fieldpage">
 <ol class="toc">
 {items}
 </ol>
-</main>
+{extra}</main>
 <footer>
 {foot}
 </footer>
@@ -207,6 +224,15 @@ LANGS = {
         'foot': ('Bu sayfa dizinin {t} bölümünün metin hâli. Arama, etiket süzgeci '
                  've İngilizce açıklamalar için <a href="{s}/?cat={k}&amp;lang=tr">dizine dön</a>. '
                  '<a href="{s}/k/en/{k}.html">In English</a>'),
+        'pdir': 'yol', 'tdir': 't', 'also_head': 'Ayrıca bak',
+        'paths_head': 'Öğrenme yolları', 'tags_head': 'Etiketler', 'other_tags': 'Diğer etiketler',
+        'steps': 'adım', 'npaths': 'yol', 'tag_word': 'etiket',
+        'paths_desc': ('Bir alana nereden başlanır, sonra ne gelir: dizindeki kayıtlardan elle '
+                       'sıralanmış sekiz yol. Her adımda neden o noktada geldiği yazılı.'),
+        'path_foot': ('Her adım dizindeki bir kayda bağlı; açıklamanın tamamı ve benzerleri '
+                      'başlık sayfasında.'),
+        'tag_foot': ('Bu sayfa dizinin {t} etiketli kayıtlarının metin hâli. Süzgeçleri birleştirmek '
+                     've aramak için <a href="{s}/?tag={q}&amp;lang=tr">dizine dön</a>.'),
     },
     'en': {
         'code': 'en', 'li': 1, 'ci': 2, 'dir': 'en/', 'fonts': '../../fonts',
@@ -223,6 +249,15 @@ LANGS = {
         'foot': ('The plain-text edition of the {t} section. For search, tag '
                  'filtering and Turkish descriptions, <a href="{s}/?cat={k}">go to '
                  'the directory</a>. <a href="{s}/k/{k}.html">Türkçe</a>'),
+        'pdir': 'path', 'tdir': 'tag', 'also_head': 'Also see',
+        'paths_head': 'Learning paths', 'tags_head': 'Tags', 'other_tags': 'Other tags',
+        'steps': 'steps', 'npaths': 'paths', 'tag_word': 'tag',
+        'paths_desc': ('Where to start in a field and what comes next: eight routes put in order by '
+                       'hand from entries in the directory, each step saying why it comes where it does.'),
+        'path_foot': ('Every step links to an entry in the directory; its full description and its '
+                      'neighbours are on the heading page.'),
+        'tag_foot': ('The plain-text edition of the entries tagged {t}. To combine filters and search, '
+                     '<a href="{s}/?tag={q}">go to the directory</a>.'),
     },
 }
 
@@ -250,6 +285,7 @@ def write_all(core, cats, intros, taglbl, out_dir, en_desc):
     carry English text rather than the Turkish original with an English shell.
     """
     written = []
+    near = also_see(core, cats)
     for lang, L in sorted(LANGS.items()):
         kdir = os.path.join(out_dir, 'k', L['dir'].strip('/')) if L['dir'] \
             else os.path.join(out_dir, 'k')
@@ -302,18 +338,258 @@ def write_all(core, cats, intros, taglbl, out_dir, en_desc):
                         alt_x='%s/k/%s.html' % (SITE, k),
                         items='\n'.join(items), others=others,
                         others_head=esc(L['others_head']),
+                        also=_also_html(near.get(k), label, L),
+                        og_image=_og(out_dir, k),
                         jsonld=_jsonld(label[k], canon, rows, L, ids),
                         foot=L['foot'].format(t=esc(label[k]), s=SITE, k=esc(k))))
             if lang == 'tr':
                 written.append(k)
 
-    _hubs(core, cats, intros, out_dir)
+    tags = tag_hubs(core)
+    extra = _paths(core, cats, en_desc, out_dir) + _tag_pages(core, tags, taglbl, en_desc, out_dir)
+    _hubs(core, cats, intros, out_dir, tags, taglbl)
     _cat_feeds(core, cats, en_desc, out_dir)
-    _sitemap(written, core, out_dir)
+    _sitemap(written, core, out_dir, extra)
     _robots(out_dir)
     _feed(core, dict((c[0], c[1]) for c in cats), out_dir)
     _credits(core, out_dir)
-    return written
+    return written + [tr for tr, _ in extra]
+
+
+# ------------------------------------------------------------------ also see
+# Each heading page ends with "Other headings": all 47 others, in field order,
+# which is a table of contents rather than a suggestion. "Also see" is the
+# suggestion: the three headings whose records are tagged most alike (cosine
+# similarity of the per-heading tag counts, price tags left out because every
+# heading has them in the same proportions), then the headings its curated
+# comparisons (vs) reach into. Similarities are rounded before sorting and ties
+# break on the key, so the order cannot wobble between machines.
+COST = ('ücretsiz', 'freemium', 'ücretli')
+ALSO_N, ALSO_VS = 3, 3
+
+
+def also_see(core, cats):
+    import math
+    prof = {}
+    for d in core:
+        p = prof.setdefault(d['cat'], {})
+        for t in d['tags']:
+            if t not in COST:
+                p[t] = p.get(t, 0) + 1
+    norm = {k: math.sqrt(sum(v * v for v in p.values())) for k, p in prof.items()}
+    vs = {}
+    for d in core:
+        for j, _ in d.get('vs', []):
+            o = core[j]['cat']
+            if o != d['cat']:
+                for a, b in ((d['cat'], o), (o, d['cat'])):
+                    vs.setdefault(a, {})
+                    vs[a][b] = vs[a].get(b, 0) + 1
+    out = {}
+    for k in (c[0] for c in cats):
+        if k not in prof:
+            continue
+        sims = []
+        for o, p in prof.items():
+            if o == k or not norm[k] or not norm[o]:
+                continue
+            dot = sum(n * p.get(t, 0) for t, n in prof[k].items())
+            sims.append((-round(dot / (norm[k] * norm[o]), 9), o))
+        top = [o for _, o in sorted(sims)[:ALSO_N]]
+        more = [o for n, o in sorted((-n, o) for o, n in vs.get(k, {}).items()) if o not in top]
+        out[k] = top + more[:ALSO_VS]
+    return out
+
+
+def _also_html(keys, label, L):
+    if not keys:
+        return ''
+    return ('<nav class="other"><h2 class="sh">%s</h2><p>%s</p></nav>\n'
+            % (esc(L['also_head']), ' '.join('<a href="%s.html">%s</a>' % (esc(o), esc(label[o]))
+                                             for o in keys)))
+
+
+# ------------------------------------------------------------------ shared bits
+def _places(core):
+    """Every entry's place on its heading page: url -> (cat, anchor)."""
+    by_cat, yer = {}, {}
+    for d in core:
+        by_cat.setdefault(d['cat'], []).append((0, d))
+    for k, rows in by_cat.items():
+        for (_, d), a in zip(rows, _anchors(rows)):
+            yer[d['url']] = (k, a)
+    return yer
+
+
+def _sub_page(L, out_dir, path_tr, path_en, **kw):
+    """The fields every page one folder below k/ or k/en/ shares."""
+    tr, en = '%s/k/%s' % (SITE, path_tr), '%s/k/en/%s' % (SITE, path_en)
+    base = dict(lang=L['code'], site_name=esc(L['name']), site=SITE,
+                canon=en if L['li'] else tr, css=_css_href(out_dir, L, sub=True),
+                home=SITE + ('/?lang=en' if L['li'] else '/?lang=tr'),
+                app_link=esc(L['app_link']),
+                other_lang=tr if L['li'] else en, other_word=esc(L['other_word']),
+                feed_title=esc(L['name']), feed_url='%s/feed.xml' % SITE,
+                alt_tr=tr, alt_en=en, alt_x=tr, hub_name=esc(L['hub_name']),
+                og_image=SITE + '/og.png', also='')
+    base.update(kw)
+    return base
+
+
+def _dir(out_dir, L, sub):
+    d = os.path.join(out_dir, 'k', *([L['dir'].strip('/')] if L['dir'] else []) + [sub])
+    if not os.path.isdir(d):
+        os.makedirs(d)
+    return d
+
+
+def _write(out_dir, L, sub, name, html):
+    io.open(os.path.join(_dir(out_dir, L, sub), name), 'w', encoding='utf-8', newline='\n').write(html)
+
+
+def _prune(out_dir, L, sub, keep):
+    """A tag that drops below the threshold, or a renamed path, would leave its
+    old page behind: still committed, still served, linked from nowhere."""
+    d = _dir(out_dir, L, sub)
+    for f in sorted(os.listdir(d)):
+        if f.endswith('.html') and f not in keep:
+            os.remove(os.path.join(d, f))
+
+
+# ------------------------------------------------------------------ goal paths
+PATH_PAGE = HEAD + """<main class="catpage">
+<p class="crumb"><a href="../index.html">{hub_name}</a><b>/</b><a href="index.html">{paths_head}</a></p>
+<h1 class="ph">{h1}</h1>
+<p class="lede">{intro}</p>
+<p class="count">{count} {word_links}</p>
+<div class="recs">
+{items}
+</div>
+<nav class="other"><h2 class="sh">{others_head}</h2><p>{others}</p></nav>
+</main>
+<footer>
+{foot}
+</footer>
+</div>
+</body>
+</html>
+"""
+
+
+def _paths(core, cats, en_desc, out_dir):
+    """The goal paths of data/paths.py, one page each plus an index per
+    language. Returns the sitemap pairs (tr url, en url)."""
+    from paths import PATHS
+    byurl = {url_key(d['url']): (i, d) for i, d in enumerate(core)}
+    yer = _places(core)
+    pairs = [('%s/k/yol/index.html' % SITE, '%s/k/en/path/index.html' % SITE)]
+    for lang, L in sorted(LANGS.items()):
+        li = L['li']
+        label = dict((c[0], c[L['ci']]) for c in cats)
+        slug = 'en_slug' if li else 'tr_slug'
+        toc = []
+        for p in PATHS:
+            rows, why = [], []
+            for u, w_tr, w_en in p['steps']:
+                i, d = byurl[url_key(u)]
+                rows.append((i, d))
+                why.append(w_en if li else w_tr)
+            ids = _anchors(rows)
+            items = []
+            for n, ((i, d), a, w) in enumerate(zip(rows, ids, why), 1):
+                k, ca = yer[d['url']]
+                items.append(
+                    '<article class="rec" id="%s"><span class="no">%d</span><div class="rb">\n'
+                    '<p class="path"><a href="../%s.html#%s">%s</a></p>\n'
+                    '<div class="nm"><a class="name" href="%s" rel="noopener noreferrer nofollow">%s</a>'
+                    '<span class="host">%s</span></div>\n'
+                    '<p class="desc">%s</p>\n'
+                    '</div></article>'
+                    % (esc(a), n, esc(k), esc(ca), esc(label[k]), esc(d['url']), esc(d['name']),
+                       esc(_host(d['url'])), esc(w)))
+            title = p[L['code']]
+            path_tr, path_en = 'yol/%s.html' % p['tr_slug'], 'path/%s.html' % p['en_slug']
+            kw = _sub_page(L, out_dir, path_tr, path_en)
+            others = ' '.join('<a href="%s.html">%s</a>' % (esc(o[slug]), esc(o[L['code']]))
+                              for o in PATHS if o is not p)
+            _write(out_dir, L, L['pdir'], p[slug] + '.html', PATH_PAGE.format(
+                title=esc('%s — %s' % (title, L['paths_head'])), h1=esc(title),
+                desc=esc(p['intro'][li][:180]), intro=esc(p['intro'][li]),
+                app=kw['home'], paths_head=esc(L['paths_head']),
+                count=len(rows), word_links=esc(L['steps']), items='\n'.join(items),
+                others_head=esc(L['paths_head']), others=others,
+                foot=esc(L['path_foot']),
+                jsonld=_jsonld(title, kw['canon'], rows, L, ids),
+                **dict(kw, og_image=_og(out_dir, 'path-' + p['en_slug']))))
+            toc.append('<li><a class="tt" href="%s.html"><span class="tn">%s</span><span class="ld"></span>'
+                       '<span class="n">%d</span></a><p class="td">%s</p></li>'
+                       % (esc(p[slug]), esc(title), len(rows), esc(p['intro'][li])))
+            if lang == 'tr':
+                pairs.append(('%s/k/%s' % (SITE, path_tr), '%s/k/en/%s' % (SITE, path_en)))
+        kw = _sub_page(L, out_dir, 'yol/index.html', 'path/index.html')
+        ogeler = ','.join('{"@type":"ListItem","position":%d,"url":%s,"name":%s}'
+                          % (n, json.dumps('%s/k/%s%s/%s.html' % (SITE, L['dir'], L['pdir'], p[slug])),
+                             json.dumps(p[L['code']], ensure_ascii=False))
+                          for n, p in enumerate(PATHS, 1))
+        _write(out_dir, L, L['pdir'], 'index.html', HUB.replace(
+            '<main class="fieldpage">',
+            '<main class="fieldpage">\n<p class="crumb"><a href="../index.html">{hub_name}</a></p>').format(
+            title=esc('%s — %s' % (L['paths_head'], L['name'])), h1=esc(L['paths_head']),
+            desc=esc(L['paths_desc'][:180]), intro=esc(L['paths_desc']), app=kw['home'],
+            count=sum(len(p['steps']) for p in PATHS), word_links=esc(L['steps']),
+            ncat=len(PATHS), word_cats=esc(L['npaths']), items='\n'.join(toc), extra='',
+            foot=esc(L['path_foot']),
+            jsonld=('{"@context":"https://schema.org","@type":"CollectionPage","name":%s,"url":%s,'
+                    '"inLanguage":"%s","mainEntity":{"@type":"ItemList","numberOfItems":%d,'
+                    '"itemListElement":[%s]}}'
+                    % (json.dumps(L['paths_head'], ensure_ascii=False), json.dumps(kw['canon']),
+                       L['code'], len(PATHS), ogeler)),
+            **kw))
+        _prune(out_dir, L, L['pdir'], {p[slug] + '.html' for p in PATHS} | {'index.html'})
+    return pairs
+
+
+# ------------------------------------------------------------------ tag hubs
+def tag_hubs(core):
+    """[(tag, slug, count)] for every tag that gets a page, in canonical order."""
+    from taghubs import MIN_N, SKIP, slug
+    from tags import CANON
+    n = {}
+    for d in core:
+        for t in d['tags']:
+            n[t] = n.get(t, 0) + 1
+    return [(t, slug(t), n[t]) for t in CANON if t not in SKIP and n.get(t, 0) >= MIN_N]
+
+
+def _tag_pages(core, tags, taglbl, en_desc, out_dir):
+    from urllib.parse import quote
+    from taghubs import INTROS
+    pairs = []
+    for lang, L in sorted(LANGS.items()):
+        li = L['li']
+        for t, s, _ in tags:
+            rows = [(i, d) for i, d in enumerate(core) if t in d['tags']]
+            ids = _anchors(rows)
+            items = [_item(d, taglbl, en_desc[i] if li and i < len(en_desc) else d['tr'], li, n, a)
+                     for n, ((i, d), a) in enumerate(zip(rows, ids), 1)]
+            name = taglbl[t][li]
+            intro = INTROS[t][li]
+            kw = _sub_page(L, out_dir, 't/%s.html' % s, 'tag/%s.html' % s)
+            q = esc(quote(t, safe=''))
+            _write(out_dir, L, L['tdir'], s + '.html', PAGE.format(
+                title=esc('%s · %s — %s' % (name, L['tag_word'].capitalize(), L['name'])),
+                h1=esc(name), desc=esc(intro[:180]), intro=esc(intro),
+                app='%s/?tag=%s&amp;lang=%s' % (SITE, q, L['code']),
+                hub='../index.html', count=len(rows), word_links=esc(L['links']),
+                items='\n'.join(items), others_head=esc(L['other_tags']),
+                others=' '.join('<a href="%s.html">%s</a>' % (esc(o), esc(taglbl[ot][li]))
+                                for ot, o, _ in tags if ot != t),
+                foot=L['tag_foot'].format(t=esc(name), s=SITE, q=q),
+                jsonld=_jsonld(name, kw['canon'], rows, L, ids), **kw))
+            if lang == 'tr':
+                pairs.append(('%s/k/t/%s.html' % (SITE, s), '%s/k/en/tag/%s.html' % (SITE, s)))
+        _prune(out_dir, L, L['tdir'], {s + '.html' for _, s, _ in tags})
+    return pairs
 
 
 # key, tr label, en label, tr note, en note, url  -- driven by data/sources.py
@@ -394,7 +670,7 @@ def _credits(core, out_dir):
             count=len([1 for k in order if count.get(k)]),
             word_links=esc('kaynak' if lang == 'tr' else 'sources'),
             feed_title=esc(L['name']), feed_url='%s/feed.xml' % SITE,
-            alt_tr=alt_tr, alt_en=alt_en, alt_x=alt_tr,
+            alt_tr=alt_tr, alt_en=alt_en, alt_x=alt_tr, also='', og_image=SITE + '/og.png',
             jsonld=json.dumps({'@context': 'https://schema.org', '@type': 'AboutPage',
                                'name': T['title'], 'url': canon}, ensure_ascii=False),
             items='\n'.join(rows)
@@ -409,7 +685,7 @@ def _credits(core, out_dir):
         io.open(os.path.join(kdir, fn), 'w', encoding='utf-8', newline='\n').write(html)
 
 
-def _hubs(core, cats, intros, out_dir):
+def _hubs(core, cats, intros, out_dir, tags, taglbl):
     """Her iki dil icin statik kategori dizini.
 
     index.html uygulamanin kendisi ve dili istemci tarafinda degistiriyor --
@@ -442,6 +718,17 @@ def _hubs(core, cats, intros, out_dir):
             if L['dir']:
                 satir[-1] = satir[-1].replace('href="../feed/', 'href="../../feed/', 1)
         canon = '%s/k/%sindex.html' % (SITE, L['dir'])
+        # The ways in that are not headings: the goal paths and the tag pages.
+        from paths import PATHS
+        slug = 'en_slug' if L['li'] else 'tr_slug'
+        extra = ('<nav class="other"><h2 class="sh">%s</h2><p>%s</p></nav>\n'
+                 '<nav class="other"><h2 class="sh">%s</h2><p>%s</p></nav>\n'
+                 % (esc(L['paths_head']),
+                    ' '.join('<a href="%s/%s.html">%s</a>' % (L['pdir'], esc(p[slug]), esc(p[L['code']]))
+                             for p in PATHS),
+                    esc(L['tags_head']),
+                    ' '.join('<a href="%s/%s.html">%s</a>' % (L['tdir'], esc(s), esc(taglbl[t][L['li']]))
+                             for t, s, _ in tags)))
         io.open(os.path.join(out_dir, 'k', L['dir'].strip('/'), 'index.html')
                 if L['dir'] else os.path.join(out_dir, 'k', 'index.html'),
                 'w', encoding='utf-8', newline='\n').write(HUB.format(
@@ -458,6 +745,7 @@ def _hubs(core, cats, intros, out_dir):
                     alt_x=SITE + '/',
                     count=len(core), ncat=len(satir), word_links=esc(L['links']),
                     word_cats=esc(L['cats']), items='\n'.join(satir), foot=esc(L['hub_foot']),
+                    extra=extra, og_image=SITE + '/og.png',
                     jsonld=_hub_jsonld(L, canon, order, label, say)))
 
 
@@ -479,7 +767,7 @@ def _hub_jsonld(L, canon, order, label, say):
                json.dumps(canon), L['code'], i, ','.join(ogeler)))
 
 
-def _sitemap(keys, core, out_dir):
+def _sitemap(keys, core, out_dir, extra=()):
     """Site haritasi, dil ciftlerini de bildiriyor.
 
     hreflang zaten sayfalarin kendisinde var ve tek basina yeterli; burada
@@ -496,6 +784,7 @@ def _sitemap(keys, core, out_dir):
                for k in keys]
     ciftler.insert(0, ('%s/k/index.html' % SITE, '%s/k/en/index.html' % SITE))
     ciftler.append(('%s/k/tesekkur.html' % SITE, '%s/k/en/credits.html' % SITE))
+    ciftler.extend(extra)          # goal paths and tag pages
 
     satir = ['  <url><loc>%s</loc><lastmod>%s</lastmod><priority>1.0</priority>'
              '</url>' % (esc(SITE + '/'), today)]
@@ -660,7 +949,18 @@ HOME_TX = {
     'fxNote': '%d areas, %d headings',
     'recent': 'Recently Added',
     'hAll': 'See everything in one list →',
+    'proof': ('%s links · last checked %s · %s flagged archived or dormant · '
+              'no trackers · works offline'),
+    'tryLbl': 'Try:',
 }
+# app.js T.en.tryQs: example queries under the hero, each one runs a search.
+HOME_TRY = ['llm', 'postgres', 'regex', 'self-hosted', 'diagram', 'color palette']
+# app.js AYLAR.en, for the proof line's date (fmtDay: '12 Oct 2026').
+MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+
+
+def _day_label(iso):
+    return '%d %s %s' % (int(iso[8:10]), MONTHS[int(iso[5:7]) - 1], iso[:4]) if iso else ''
 
 # app.js ROMAN ile ayni: alan numaralari GROUPS sirasindaki yerleri.
 ROMAN = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII']
@@ -686,6 +986,7 @@ def _short(label):
 
 
 def home_html(core, cats, groups, en):
+    from urllib.parse import quote   # encodeURIComponent's safe set, below
     bycat = {}
     for d in core:
         bycat[d['cat']] = bycat.get(d['cat'], 0) + 1
@@ -713,20 +1014,29 @@ def home_html(core, cats, groups, en):
                       '<a href="?cat=%s" data-cat="%s">%s</a>' % (esc(k), esc(k), esc(_short(lbl[k])))
                       for k in full)))
 
+    # The proof line: live numbers, the same ones app.js homeHTML() counts.
+    checked = max((d.get('ver') or '' for d in core), default='')
+    proof = HOME_TX['proof'] % ('{:,}'.format(len(core)), _day_label(checked),
+                                '{:,}'.format(sum(1 for d in core if d.get('hs'))))
+    tryq = ''.join('<a class="chip" href="?q=%s" data-q="%s">%s</a>'
+                   % (quote(q, safe="-_.!~*'()"), esc(q), esc(q)) for q in HOME_TRY)
+
     picks = ''
     if strip:
-        picks = ('<section class="hsec"><h2 class="k">%s</h2><ol class="hpicks">%s</ol></section>'
+        picks = ('<section class="hsec hp"><h2 class="k">%s</h2><ol class="hpicks">%s</ol></section>'
                  % (esc(HOME_TX['hStart']), ''.join(
                      '<li><a href="%s" target="_blank" rel="noopener noreferrer">%s</a>'
                      '<p>%s</p></li>' % (esc(d['url']), esc(d['name']), esc(_first(e)))
                      for d, e in strip)))
     return ('<div class="home" data-pre="1">'
+            '<p class="proof">%s</p><p class="tryq"><span>%s</span>%s</p>%s'
             '<section class="hsec"><h2 class="k">%s<span>%s</span></h2>'
-            '<ol class="fx">%s</ol></section>%s'
+            '<ol class="fx">%s</ol></section>'
             '<p class="hlinks"><a href="?new=1" data-recent="1">%s →</a>'
             '<a href="?sort=az" data-all="1">%s</a></p></div>'
-            % (esc(HOME_TX['fxHead']), esc(HOME_TX['fxNote'] % (nf, len(bycat))),
-               ''.join(fx), picks, esc(HOME_TX['recent']), esc(HOME_TX['hAll'])))
+            % (esc(proof), esc(HOME_TX['tryLbl']), tryq, picks,
+               esc(HOME_TX['fxHead']), esc(HOME_TX['fxNote'] % (nf, len(bycat))),
+               ''.join(fx), esc(HOME_TX['recent']), esc(HOME_TX['hAll'])))
 
 
 def write_home(core, cats, groups, out_dir, en):

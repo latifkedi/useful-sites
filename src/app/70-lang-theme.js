@@ -36,13 +36,15 @@ function setLang(next){
 }
 $("#langbtn").addEventListener("click", function(){ hideMenu(); setLang(lang === "tr" ? "en" : "tr") });
 
+function toggleTheme(){
+  theme = theme === "dark" ? "light" : "dark";
+  store.set("theme", theme); applyTheme();
+}
 function applyTheme(){
   document.documentElement.setAttribute("data-theme", theme === "dark" ? "dark" : "light");
 }
 $("#theme").addEventListener("click", function(){
-  hideMenu();
-  theme = theme === "dark" ? "light" : "dark";
-  store.set("theme", theme); applyTheme();
+  hideMenu(); toggleTheme();
 });
 applyTheme();
 
@@ -78,17 +80,25 @@ document.addEventListener("keydown", function(e){
   /* Acik bir popover (menu, kardes basliklar) Esc'i kendisi kapatiyor. */
   try{ if(document.querySelector(":popover-open")) return }catch(err){}
   /* While the dialog is open, / and r must not fire. <dialog> handles Esc. */
-  if(dlg.open) return;
+  if(dlg.open || pal.open || kbh.open) return;
+  /* Komut paleti: yazarken de (Ctrl/Cmd+K bir metin kisayolu degil). */
+  if(e.key && e.key.toLowerCase() === "k" && (e.ctrlKey || e.metaKey) && !e.altKey){
+    e.preventDefault(); if(filt.open) filt.close(); openPal(); return;
+  }
   if(filt.open){
     if(e.key === "Escape" && !filt.matches(":modal")) filt.close();
     return;
   }
   var typing = /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName);
   if(e.key === "/" && !typing){ e.preventDefault(); $("#q").focus() }
-  if(e.key === "r" && !typing && !e.ctrlKey && !e.metaKey && !e.altKey){ randomLink() }
+  var plain = !typing && !e.ctrlKey && !e.metaKey && !e.altKey;
+  if(e.key === "r" && plain){ openRandom() }
+  if(e.key === "?" && plain){ e.preventDefault(); openKeys() }
+  if((e.key === "j" || e.key === "k") && plain){ e.preventDefault(); stepRec(e.key === "j" ? 1 : -1) }
   if(e.key === "Escape"){
     /* Bos bir durumda gecmise yinelenen kayit eklenmesin. */
-    if(q || activeTags.length || activeCat || activeField || onlyPicks || activeSrc || single || recent) clearAll();
+    if(q || activeTags.length || activeCat || activeField || onlyPicks || activeSrc || single || recent ||
+       hidePaid || savedView || listKeys || cmpKeys.length) clearAll();
     $("#q").blur();
   }
 });

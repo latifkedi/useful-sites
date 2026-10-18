@@ -75,3 +75,69 @@ test("the site opens light even when the system prefers dark", async ({ browser 
   expect(await page.evaluate(() => getComputedStyle(document.body).backgroundColor)).toBe(PAPER.light);
   await ctx.close();
 });
+
+test("records off screen skip layout, and the fade-in is short", async ({ page }) => {
+  await page.goto("/?cat=diller");
+  await ready(page);
+  const s = await page.evaluate(() => ({
+    cv: getComputedStyle(document.querySelector("#list .rec")).contentVisibility,
+    dur: parseFloat(getComputedStyle(document.querySelector("#list .catpage")).animationDuration),
+  }));
+  expect(s.cv).toBe("auto");
+  expect(s.dur).toBeLessThanOrEqual(0.2);
+});
+
+test("reduced motion: no fade-in", async ({ browser }) => {
+  const ctx = await browser.newContext({ reducedMotion: "reduce" });
+  const page = await ctx.newPage();
+  await page.goto("/?cat=diller");
+  await ready(page);
+  expect(await page.evaluate(() => getComputedStyle(document.querySelector("#list .catpage")).animationName)).toBe("none");
+  await ctx.close();
+});
+
+test("a deep link shows a skeleton, not the home, until the app draws", async ({ page }) => {
+  await page.route("**/app.js*", route => route.abort());
+  await page.goto("/?cat=web");
+  await expect(page.locator("html")).toHaveClass(/pending/);
+  await expect(page.locator("#list [data-pre]")).toBeHidden();
+});
+
+/* WCAG AA for body text: every text colour on every surface it sits on, both themes. */
+for (const scheme of ["light", "dark"]) {
+  test("contrast: text tokens reach 4.5:1 on every surface (" + scheme + ")", async ({ page }) => {
+    if (scheme === "dark") await page.addInitScript(() => localStorage.setItem("theme", "dark"));
+    await page.goto("/");
+    await ready(page);
+    const low = await page.evaluate(() => {
+      const cs = getComputedStyle(document.documentElement);
+      const hex = n => cs.getPropertyValue("--" + n).trim();
+      const lum = h => [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16) / 255)
+        .map(v => v <= .03928 ? v / 12.92 : Math.pow((v + .055) / 1.055, 2.4))
+        .reduce((s, v, i) => s + v * [.2126, .7152, .0722][i], 0);
+      const ratio = (a, b) => { const x = lum(a), y = lum(b); return (Math.max(x, y) + .05) / (Math.min(x, y) + .05) };
+      const out = [];
+      for (const f of ["fg", "dim", "faint", "red"])
+        for (const b of ["bg", "panel", "field", "red-soft", "mark"])
+          if (ratio(hex(f), hex(b)) < 4.5) out.push(f + "/" + b + " " + ratio(hex(f), hex(b)).toFixed(2));
+      if (ratio(hex("on-red"), hex("red")) < 4.5) out.push("on-red/red");
+      return out;
+    });
+    expect(low).toEqual([]);
+  });
+}
+
+test("prefers-contrast: more darkens the faint text; forced colours mark the pressed state", async ({ browser }) => {
+  const ctx = await browser.newContext({ contrast: "more" });
+  const page = await ctx.newPage();
+  await page.goto("/");
+  await ready(page);
+  expect(await page.evaluate(() => getComputedStyle(document.documentElement).getPropertyValue("--faint").trim())).toBe("#46423a");
+  await ctx.close();
+  const ctx2 = await browser.newContext({ forcedColors: "active" });
+  const p2 = await ctx2.newPage();
+  await p2.goto("/?cat=diller&free=1");
+  await ready(p2);
+  expect(await p2.locator("#list .tb .chip.on").evaluate(el => getComputedStyle(el).forcedColorAdjust)).toBe("none");
+  await ctx2.close();
+});

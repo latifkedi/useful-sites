@@ -14,6 +14,9 @@
   var d = document, s = d.currentScript, B = window.__boot = { done: false };
   function pref(k){ try{ return localStorage.getItem(k) }catch(e){ return null } }
   try{ if(pref("theme") === "dark") d.documentElement.setAttribute("data-theme", "dark") }catch(e){}
+  /* Giris disi bir adres (?cat=, ?q=, ?e= ...): veri gelene kadar hazir giris
+     sayfasi yerine bir iskelet. app.js ilk cizimde "pending"i kaldiriyor. */
+  try{ if(/[?&](?!lang=)[a-z]+=/.test(location.search)) d.documentElement.classList.add("pending") }catch(e){}
   var lang = null;
   try{ lang = new URLSearchParams(location.search).get("lang") }catch(e){}
   lang = lang || pref("lang") || "en";
