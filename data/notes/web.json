@@ -22,7 +22,13 @@
     "tr": "Yönlendirme, form, HTTP ve bağımlılık enjeksiyonu çatının içinde geliyor. React’ten farkı bu kararların senin yerine verilmiş olması: orada her parçayı tek tek seçersin, burada hazır gelir; karşılığında esneklik dar.",
     "en": "Routing, forms, HTTP and dependency injection ship inside the framework. Unlike React, where you pick each piece yourself, the decisions are made for you; flexibility narrows accordingly.",
     "src": "kedi",
-    "added": 1776690056
+    "added": 1776690056,
+    "vs": [
+      {
+        "u": "https://react.dev/learn",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://github.com/PatrickJS/awesome-angular",
@@ -78,7 +84,7 @@
     "tags": [
       "awesome-liste",
       "frontend",
-      "masaüstü",
+      "mobil",
       "ücretsiz"
     ],
     "tr": "İyi bir mobil web deneyimi kurmak için kaynak listesi: dokunmatik olaylar, performans, çevrimdışı çalışma. Yerel uygulama listelerinden farkı tarayıcıda çalışan mobil siteleri hedeflemesi.",
@@ -242,7 +248,13 @@
     ],
     "tr": "Bir HTML/CSS özelliğinin hangi e-posta istemcisinde çalıştığını gösteren tablo. Web’in Can I use’undan farkı e-posta istemcilerinin kendine has, kısıtlı desteğine bakması.",
     "en": "A table showing which email client supports an HTML/CSS feature. Unlike the web’s Can I use it looks at the quirky, limited support of email clients.",
-    "src": "awesomeproj"
+    "src": "awesomeproj",
+    "vs": [
+      {
+        "u": "https://caniuse.com/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://caniuse.com/",
@@ -254,7 +266,13 @@
     ],
     "tr": "Bir web özelliğinin hangi tarayıcının hangi sürümünde çalıştığını gösteren tablo; kullanım oranlarıyla birlikte. MDN’den farkı, \"destekleniyor mu\" sorusuna sürüm ve pazar payı düzeyinde cevap vermesi — polyfill gerekip gerekmediğine buradan karar veriyorsun.",
     "en": "A table of which browser version supports which web feature, weighted by usage share. Where MDN explains the feature, this answers \"can I ship it\" at version and market-share level — it is where you decide whether a polyfill is needed.",
-    "src": "cdcruz"
+    "src": "cdcruz",
+    "vs": [
+      {
+        "u": "https://developer.mozilla.org/en-US/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.chartjs.org/",
@@ -263,7 +281,6 @@
       "frontend",
       "javascript",
       "açık-kaynak",
-      "görsel-üretim",
       "ücretsiz"
     ],
     "tr": "Canvas üstünde sade, duyarlı grafikler çizen JavaScript kütüphanesi. Ağır görselleştirme kütüphanelerinden farkı birkaç satırda çalışan, hafif olması.",
@@ -305,7 +322,13 @@
     ],
     "tr": "Markdown dosyalarını derleme olmadan, tarayıcıda dokümantasyon sitesine çeviren araç. Statik üreticilerden farkı build adımı olmaması — sayfaları anında sunması.",
     "en": "A tool turning Markdown files into a documentation site in the browser, with no build. Unlike static generators it has no build step — it serves the pages on the fly.",
-    "src": "awesomeproj"
+    "src": "awesomeproj",
+    "vs": [
+      {
+        "u": "https://docusaurus.io/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://docusaurus.io/",
@@ -350,7 +373,8 @@
     "name": "Frontend Mentor",
     "tags": [
       "frontend",
-      "freemium"
+      "freemium",
+      "interaktif"
     ],
     "tr": "Gerçekçi tasarım dosyaları verip onu koda dökmeni isteyen alıştırma platformu. Rastgele projelerden farkı profesyonel tasarım ve topluluk geri bildirimiyle gelmesi.",
     "en": "A practice platform that gives realistic design files and asks you to turn them into code. Unlike random projects it comes with professional designs and community feedback.",
@@ -361,18 +385,25 @@
     "name": "GitBook",
     "tags": [
       "freemium",
-      "dokümantasyon"
+      "dokümantasyon",
+      "araç"
     ],
     "tr": "Dokümantasyon yazma ve yayımlama platformu; Git ile senkron çalışıp teknik kitapları web sitesine çeviriyor. Docusaurus gibi statik site üreteçlerinden farkı barındırılan, teknik olmayan yazarların da kullanabildiği bir editör sunması.",
     "en": "A platform for writing and publishing documentation, syncing with Git to turn technical books into websites. Unlike static-site generators such as Docusaurus, it offers a hosted editor that non-technical writers can use too.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://docusaurus.io/",
+        "a": "barindirma"
+      }
+    ]
   },
   {
     "url": "https://grapesjs.com/",
     "name": "GrapesJS",
     "tags": [
       "açık-kaynak",
-      "masaüstü",
+      "frontend",
       "javascript",
       "ücretsiz"
     ],
@@ -399,12 +430,19 @@
     "name": "HTML Reference",
     "tags": [
       "ücretsiz",
-      "referans"
+      "referans",
+      "frontend"
     ],
     "tr": "Her HTML etiketi ve özniteliği görsel örnekle listelenmiş, tek sayfada göz gezdirilebiliyor. MDN’in derinliği yok ama “bu etiket ne yapıyordu” sorusuna daha hızlı cevap veriyor.",
     "en": "Every HTML element and attribute with a visual example, scannable on one page. It lacks MDN’s depth but answers “what did this tag do again” faster.",
     "src": "kedi",
-    "added": 1787182437
+    "added": 1787182437,
+    "vs": [
+      {
+        "u": "https://developer.mozilla.org/en-US/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://htmx.org/docs/",
@@ -418,7 +456,13 @@
     "tr": "HTML özniteliğiyle istek atıp dönen HTML parçasını sayfaya yerleştiriyorsun; JSON ve istemci durumu yok. React gibi SPA çatılarından farkı bu sadelik: 14 kB, bağımlılığı yok — SPA karmaşıklığına gerek olmayan yerde makul bir çıkış.",
     "en": "Attributes fire requests and swap the returned HTML fragment into the page — no JSON, no client state. Unlike SPA frameworks such as React it is tiny: 14 kB with no dependencies, a sane exit where SPA complexity is not warranted.",
     "src": "kedi",
-    "added": 1776690060
+    "added": 1776690060,
+    "vs": [
+      {
+        "u": "https://react.dev/learn",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://gohugo.io/",
@@ -432,7 +476,13 @@
     ],
     "tr": "Markdown içeriği statik sitelere dönüştüren, Go ile yazılmış üretici. Node tabanlı üreticilerden farkı ham hızı: binlerce sayfayı saniyeler içinde derliyor, tek ikili dosya, JS bağımlılık ağacı yok.",
     "en": "A static-site generator written in Go that turns Markdown into websites. Unlike Node-based generators its distinction is raw speed: it builds thousands of pages in seconds, from a single binary, with no JS dependency tree.",
-    "src": "lowkwiki"
+    "src": "lowkwiki",
+    "vs": [
+      {
+        "u": "https://docusaurus.io/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.joomla.org/",
@@ -440,7 +490,8 @@
     "tags": [
       "açık-kaynak",
       "ücretsiz",
-      "php"
+      "php",
+      "backend"
     ],
     "tr": "WordPress’e alternatif, açık kaynak içerik yönetim sistemi (CMS).",
     "en": "An open-source content management system (CMS), an alternative to WordPress.",
@@ -529,7 +580,13 @@
     ],
     "tr": "Obsidian notlarını doğrudan yayımlanmış bir dijital bahçeye çeviren eklenti. Quartz gibi üreticilerden farkı derleme adımı istememesi: not içinden tek düğmeyle yayınlıyorsun, ayrı bir build hattı kurmana gerek kalmıyor.",
     "en": "An Obsidian plugin that publishes notes straight into a live digital garden. Unlike generators such as Quartz it needs no build step: you publish from inside a note with one button, with no separate build pipeline to set up.",
-    "src": "lowkwiki"
+    "src": "lowkwiki",
+    "vs": [
+      {
+        "u": "https://quartz.jzhao.xyz/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.patterns.dev",
@@ -603,7 +660,6 @@
     "tags": [
       "dokümantasyon",
       "frontend",
-      "görsel-üretim",
       "ücretsiz"
     ],
     "tr": "Shopify tema şablon dilinin nesne, filtre ve etiket referansı. Genel Liquid belgelerinden farkı Shopify’a özgü nesneleri kapsaması: hangi verinin hangi şablonda erişilebilir olduğu buradan görülüyor.",
@@ -686,14 +742,21 @@
     "tr": "Dili temelden ileriye sıralı işliyor; prototip zinciri, olay döngüsü ve Promise gibi zor konuları atlamıyor. MDN’den farkı referans değil öğretici olması; ikisi birbirini tamamlar.",
     "en": "Works the language front to back without skipping the hard parts: prototype chain, event loop, promises. Unlike MDN it is a tutorial, not a reference; the two complement each other.",
     "src": "kedi",
-    "added": 1776690043
+    "added": 1776690043,
+    "vs": [
+      {
+        "u": "https://developer.mozilla.org/en-US/",
+        "a": "rehberlik"
+      }
+    ]
   },
   {
     "url": "https://validator.w3.org/",
     "name": "W3C Markup Validation",
     "tags": [
       "ücretsiz",
-      "referans"
+      "araç",
+      "frontend"
     ],
     "tr": "HTML’i spesifikasyona göre denetliyor; tarayıcının sessizce toparladığı kapatılmamış etiket ve geçersiz iç içe geçmeleri ortaya çıkarıyor. HTMLHint gibi linter’lardan farkı üslup değil spesifikasyona uygunluk denetlemesi; erişilebilirlik sorunlarının bir kısmı buradan çıkar.",
     "en": "Checks HTML against the spec, surfacing unclosed tags and invalid nesting that browsers quietly repair. Unlike linters such as HTMLHint it checks conformance, not style; a share of accessibility problems begins right there.",
@@ -705,7 +768,8 @@
     "name": "Web Dev for Beginners",
     "tags": [
       "müfredat",
-      "ücretsiz"
+      "ücretsiz",
+      "frontend"
     ],
     "tr": "Microsoft’un 24 derslik müfredatı; her ders öncesi ve sonrası sınav, sonunda proje var. Dağınık öğreticilerden farkı bu yapı: kendi kendine çalışırken ilerlemeni ölçebiliyorsun.",
     "en": "Microsoft’s 24-lesson curriculum with a quiz before and after each lesson and a project at the end. Unlike scattered tutorials it has that structure, which lets you measure progress when studying alone.",
@@ -736,7 +800,13 @@
     ],
     "tr": "Google’ın web kalitesi (performans, erişilebilirlik, PWA) rehberleri ve ölçüm araçları. MDN’den farkı referans değil rehber olması: Core Web Vitals gibi ölçütleri ve nasıl iyileştirileceklerini anlatıyor.",
     "en": "Google’s guides and measurement tools for web quality — performance, accessibility, PWA. Unlike MDN it is a guide rather than a reference, explaining metrics such as Core Web Vitals and how to improve them.",
-    "src": "awesomeproj"
+    "src": "awesomeproj",
+    "vs": [
+      {
+        "u": "https://developer.mozilla.org/en-US/",
+        "a": "rehberlik"
+      }
+    ]
   },
   {
     "url": "https://webaim.org/",
@@ -756,10 +826,95 @@
     "tags": [
       "php",
       "açık-kaynak",
-      "ücretsiz"
+      "ücretsiz",
+      "backend"
     ],
     "tr": "Web’in büyük bölümünü çalıştıran açık kaynak blog ve içerik yönetim sistemi; burası kendin kuracağın yazılım, WordPress.com barındırma hizmeti değil. Statik site üreteçlerinden farkı yönetim paneli ve dev eklenti ekosistemi; karşılığında bakım ve güvenlik güncellemesi yükü.",
     "en": "The open-source blog and CMS that runs a large share of the web; this is the software you install yourself, not the WordPress.com hosting service. Unlike static-site generators it has an admin panel and a huge plugin ecosystem; the price is ongoing maintenance and security updates.",
-    "src": "awesomeproj"
+    "src": "awesomeproj",
+    "vs": [
+      {
+        "u": "https://gohugo.io/",
+        "a": "yaklasim"
+      }
+    ]
+  },
+  {
+    "url": "https://protomaps.com/",
+    "name": "Protomaps",
+    "tags": [
+      "frontend",
+      "sunucu",
+      "self-hosted",
+      "ücretsiz",
+      "açık-kaynak"
+    ],
+    "tr": "Tüm dünya haritasını tek bir PMTiles dosyası olarak sunan açık kaynak harita yığını; dosya S3 gibi düz bir depoda duruyor, tarayıcı HTTP aralık istekleriyle yalnızca gereken parçaları okuyor. Mapbox gibi barındırılan harita servislerinden farkı karo sunucusu ve kullanım başına ücret olmaması.",
+    "en": "An open-source map stack that serves a world basemap as a single PMTiles file; the file sits on plain storage such as S3 and the browser reads only the parts it needs through HTTP range requests. Unlike hosted map services such as Mapbox there is no tile server and no per-use fee.",
+    "src": "bosluk",
+    "added": 1792281600
+  },
+  {
+    "url": "https://webassembly.org/",
+    "name": "WebAssembly",
+    "tags": [
+      "dokümantasyon",
+      "referans",
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "WebAssembly standardının resmî sitesi: belirtimler, kavramlara giriş ve hangi önerinin hangi tarayıcı ve çalışma ortamında desteklendiğini gösteren özellik tablosu. MDN’in WebAssembly sayfalarından farkı JavaScript tarafından değil, standardın kendisinden ve çalışma ortamlarının durumundan bakması.",
+    "en": "The official site of the WebAssembly standard: the specifications, an introduction to the concepts and a feature table showing which proposal is supported in which browser and runtime. Unlike MDN’s WebAssembly pages it looks from the standard and the runtimes rather than from the JavaScript side.",
+    "src": "bosluk",
+    "added": 1792281600
+  },
+  {
+    "url": "https://www.w3.org/WAI/WCAG22/quickref/",
+    "name": "WCAG 2.2 Hızlı Başvuru",
+    "tags": [
+      "referans",
+      "kopya-kâğıdı",
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "W3C’nin “How to Meet WCAG” sayfası: her başarı ölçütü, düzeyi (A, AA, AAA) ve onu karşılayan teknikler ile yaygın hatalar; düzeye ve konuya göre süzülüyor. Standart metnini okumaktan farkı ölçütten doğrudan uygulanacak tekniğe götürmesi.",
+    "en": "The W3C’s “How to Meet WCAG” page: every success criterion, its level (A, AA, AAA), the techniques that satisfy it and the common failures, filterable by level and topic. Unlike reading the standard itself it takes you from a criterion straight to a technique you can apply.",
+    "src": "bosluk",
+    "added": 1792281600
+  },
+  {
+    "url": "https://www.a11yproject.com/",
+    "name": "The A11Y Project",
+    "tags": [
+      "referans",
+      "kopya-kâğıdı",
+      "frontend",
+      "ücretsiz",
+      "açık-kaynak"
+    ],
+    "tr": "Topluluk eliyle yürütülen erişilebilirlik sitesi; WCAG’a dayanan sade bir kontrol listesi, yazılar ve araç-kaynak listeleri. W3C’nin hızlı başvurusundan farkı ölçütleri teknik dil yerine geliştiricinin anlayacağı maddeler hâlinde vermesi.",
+    "en": "A community-run accessibility site with a plain checklist based on WCAG, articles and lists of tools and resources. Unlike the W3C quick reference it states the criteria as items a developer can follow rather than in standards language.",
+    "src": "bosluk",
+    "added": 1792281600,
+    "vs": [
+      {
+        "u": "https://www.w3.org/WAI/WCAG22/quickref/",
+        "a": "rehberlik"
+      }
+    ]
+  },
+  {
+    "url": "https://wave.webaim.org/",
+    "name": "WAVE",
+    "tags": [
+      "araç",
+      "frontend",
+      "eklenti",
+      "ücretsiz"
+    ],
+    "tr": "WebAIM’in erişilebilirlik değerlendirme aracı; bir adres girince ya da tarayıcı eklentisiyle sayfanın üstüne hataları, uyarıları ve yapı bilgisini simge olarak yerleştiriyor. Rapor üreten tarayıcılardan farkı sorunu sayfanın içinde, yerinde göstermesi; eklenti giriş gerektiren sayfaları da yerelde değerlendiriyor.",
+    "en": "WebAIM’s accessibility evaluation tool; given an address, or through its browser extension, it overlays errors, alerts and structural information as icons on the page. Unlike scanners that produce a report it shows each problem in place on the page; the extension also checks pages behind a login, locally.",
+    "src": "bosluk",
+    "added": 1792281600
   }
 ]

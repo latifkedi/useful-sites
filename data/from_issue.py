@@ -24,10 +24,11 @@ D = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, D)
 
 from notes import CATS, load_records  # noqa: E402
-from tags import normalise            # noqa: E402
+from tags import normalise, UNCOUNTED, MAX_TAGS  # noqa: E402
 from sources import DEFAULT           # noqa: E402
 
 NOTES = os.path.join(D, 'notes')
+REMOVED = os.path.join(D, 'removed.txt')
 CAT_BY_EN = dict((c[2], c[0]) for c in CATS)
 
 
@@ -83,10 +84,39 @@ def parse(body):
     cat = CAT_BY_EN.get(f.get('category', '').strip())
 
     raw = [t.strip() for t in re.split(r'[,;]', f.get('tags (optional)', '')) if t.strip()]
-    tg = normalise(raw)[:6]
+    tg = cap_tags(normalise(raw))
 
     return {'url': url, 'name': name, 'cat': cat, 'tags': tg,
             'what': what[:400], 'diff': diff[:400]}
+
+
+def cap_tags(tags):
+    """At most MAX_TAGS tags besides price and licence, the same ceiling test_build holds."""
+    out, n = [], 0
+    for t in tags:
+        if t not in UNCOUNTED:
+            if n == MAX_TAGS:
+                continue
+            n += 1
+        out.append(t)
+    return out
+
+
+def removed_reason(url, path=REMOVED):
+    """Why this URL was taken out of the directory on purpose, or None.
+
+    removed.txt holds one URL per line, a tab, then the reason; '#' lines are comments.
+    """
+    if not os.path.exists(path):
+        return None
+    k = norm(url)
+    for line in io.open(path, encoding='utf-8'):
+        if not line.strip() or line.startswith('#'):
+            continue
+        u, _, why = line.rstrip('\n').partition('\t')
+        if norm(u) == k:
+            return why or 'no reason recorded'
+    return None
 
 
 def already_there(url):
@@ -132,6 +162,9 @@ def main():
         rec = parse(body)
         if already_there(rec['url']):
             raise Refused('This URL is already in the directory')
+        why = removed_reason(rec['url'])
+        if why:
+            raise Refused('This URL was removed on purpose (data/removed.txt): %s' % why)
     except Refused as e:
         io.open(os.path.join(D, '..', 'issue-error.txt'), 'w',
                 encoding='utf-8').write(str(e))

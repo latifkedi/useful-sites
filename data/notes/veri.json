@@ -67,7 +67,7 @@
     "tags": [
       "awesome-liste",
       "veri-bilimi",
-      "masaüstü",
+      "mobil",
       "ücretsiz"
     ],
     "tr": "Apple’ın Core ML çerçevesi için hazır makine öğrenmesi modelleri listesi. Genel model depolarından farkı hepsinin iOS/macOS’ta cihaz üzerinde çalışacak Core ML biçiminde olması; listenin bir kısmı eski.",
@@ -309,7 +309,8 @@
     "name": "Data Science for Beginners",
     "tags": [
       "müfredat",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-bilimi"
     ],
     "tr": "Microsoft’un 20 derslik müfredatı; her ders ders öncesi/sonrası sınav ve bir projeyle geliyor. Çoğu teknik kurstan farkı veri etiği ve görselleştirmeye ayrı bölümler ayırması.",
     "en": "Microsoft’s 20-lesson curriculum, each unit with pre/post quizzes and a project. Unlike most technical courses, it gives data ethics and visualisation sections of their own.",
@@ -327,7 +328,13 @@
     ],
     "tr": "Avrupa Birliği’nin resmî açık veri portalı. Ulusal portallardan farkı üye ülkelerin veri kümelerini tek aramada birleştirmesi ve AB kurumlarının kendi verisini de içermesi.",
     "en": "The European Union’s official open-data portal. Unlike national portals, it merges member states’ datasets into one search and also includes data from the EU institutions themselves.",
-    "src": "dsbest"
+    "src": "dsbest",
+    "vs": [
+      {
+        "u": "https://data.gov",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://data.gov",
@@ -390,7 +397,13 @@
     ],
     "tr": "Derin öğrenmeyi tepeden aşağı öğreten kurs: önce çalışan model, sonra teori. Matematikle başlayan akademik derslerin aksine sırayı tersine çeviriyor.",
     "en": "Teaches deep learning top-down — a working model first, theory after. Unlike academic courses that open with mathematics, it inverts the order.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://www.deeplearning.ai",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://figshare.com",
@@ -416,7 +429,13 @@
     ],
     "tr": "Hans Rosling’in kurduğu vakfın küresel kalkınma verisini olgu temelli görselleştirmelerle sunan araçları. Ham veri portallarından farkı veriyi yaygın yanılgıları düzeltecek biçimde, zaman içinde hareket eden grafiklerle anlatması.",
     "en": "Tools from the foundation Hans Rosling co-founded, presenting global development data through fact-based visualisations. Unlike raw data portals, it tells the data through charts moving over time, aimed at correcting common misconceptions.",
-    "src": "dsbest"
+    "src": "dsbest",
+    "vs": [
+      {
+        "u": "https://ourworldindata.org",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://cloud.google.com/datasets",
@@ -443,7 +462,13 @@
     "tr": "Web’e dağılmış açık veri kümelerini schema.org işaretlemesi üzerinden arıyor. Tek bir veri deposunun aramasından farkı hiçbir depoya bağlı olmaması: kurum arşivlerini de kapsıyor.",
     "en": "Searches open datasets scattered across the web via schema.org markup. Unlike a single repository’s search it is tied to none, so it reaches institutional archives too.",
     "src": "kedi",
-    "added": 1775507011
+    "added": 1775507011,
+    "vs": [
+      {
+        "u": "https://www.kaggle.com/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://trends.google.com/trends/",
@@ -496,14 +521,21 @@
     "tr": "Yarışma, veri kümesi ve not defteri aynı platformda. Diğer veri kümesi sitelerinden farkı, kazanan çözümlerin yarışma bitince açıkça paylaşılması — uygulamalı ML’in zengin bir açık arşivi.",
     "en": "Competitions, datasets and notebooks on one platform. Unlike other dataset sites, winning solutions are published once a contest closes, making it a rich open archive of applied ML.",
     "src": "kedi",
-    "added": 1787182435
+    "added": 1787182435,
+    "vs": [
+      {
+        "u": "https://archive.ics.uci.edu/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.kaggle.com/competitions",
     "name": "Kaggle Yarışmaları",
     "tags": [
       "ücretsiz",
-      "veri-bilimi"
+      "veri-bilimi",
+      "interaktif"
     ],
     "tr": "Aktif ve geçmiş yarışmalar. Kendi projende çalışmaktan farkı gerçek bir ölçütle, gizli test kümesine karşı puanlanman — “iyi görünüyor” yanılsamasını kırıyor.",
     "en": "Active and past competitions. Unlike working on your own project, you are scored against a real metric on a hidden test set — which breaks the “looks fine to me” illusion.",
@@ -534,7 +566,13 @@
     ],
     "tr": "Sinir ağını katman katman istiflemeyi birkaç satıra indiren yüksek seviye API. Ham PyTorch ya da TensorFlow’a kıyasla çok daha az kod; artık üçünde (TensorFlow, PyTorch, JAX) birden çalıştığı için çatı seçimini ertelemene izin veriyor.",
     "en": "A high-level API reducing network construction to stacking layers in a few lines. Compared with raw PyTorch or TensorFlow it is far less code, and since it now runs on TensorFlow, PyTorch and JAX alike, it lets you defer the framework choice.",
-    "src": "kedi"
+    "src": "kedi",
+    "vs": [
+      {
+        "u": "https://www.tensorflow.org",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://github.com/rasbt/LLMs-from-scratch",
@@ -645,7 +683,8 @@
       "api",
       "açık-kaynak",
       "veri-seti",
-      "ücretsiz"
+      "ücretsiz",
+      "hesap-gerekmez"
     ],
     "tr": "Anahtar gerektirmeyen, ticari olmayan kullanım için ücretsiz açık kaynak hava durumu API’si. Ticari hava API’lerinden farkı kayıt ve anahtar istememesi ve verinin açık olması.",
     "en": "A free, open-source weather API that needs no key for non-commercial use. Unlike commercial weather APIs it asks for no signup, and its data is open.",
@@ -714,7 +753,13 @@
     ],
     "tr": "Etkileşimli grafik kütüphanesi; yakınlaştırma, ipucu ve seçim kutudan çıkıyor. Matplotlib’den farkı statik görsel yerine tarayıcıda gezilebilir grafik üretmesi.",
     "en": "An interactive charting library with zoom, tooltips and selection built in. Unlike Matplotlib it produces a chart you can explore in the browser rather than a static image.",
-    "src": "kedi"
+    "src": "kedi",
+    "vs": [
+      {
+        "u": "https://matplotlib.org/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://pola.rs/",
@@ -728,18 +773,31 @@
     ],
     "tr": "Rust ile yazılmış DataFrame kütüphanesi. pandas’tan farkı çok çekirdeği kullanması ve tembel değerlendirmeyle sorguyu çalıştırmadan önce optimize etmesi — büyük dosyalarda kat kat hızlı.",
     "en": "A DataFrame library written in Rust. Unlike pandas it uses every core and optimises the query before running it through lazy evaluation, which makes it multiples faster on large files.",
-    "src": "kedi"
+    "src": "kedi",
+    "vs": [
+      {
+        "u": "https://pandas.pydata.org/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://app.powerbi.com/",
     "name": "Power BI",
     "tags": [
       "ücretli",
-      "veri-bilimi"
+      "veri-bilimi",
+      "araç"
     ],
     "tr": "Microsoft’un iş zekâsı aracı; Excel ve Azure veri kaynaklarına yerleşik bağlanıyor. Tableau’ya kıyasla asıl avantajı, kurum zaten Microsoft 365’teyse lisansın çoğu zaman ödenmiş olması.",
     "en": "Microsoft’s business intelligence tool with native connections to Excel and Azure sources. Compared with Tableau, its real edge is that the licence is usually already paid for if the organisation is on Microsoft 365.",
-    "src": "kedi"
+    "src": "kedi",
+    "vs": [
+      {
+        "u": "https://www.tableau.com/",
+        "a": "fiyat"
+      }
+    ]
   },
   {
     "url": "https://spark.apache.org/docs/latest/api/python/index.html",
@@ -817,7 +875,13 @@
     ],
     "tr": "Matplotlib üstüne kurulu istatistiksel grafik kütüphanesi. Ham Matplotlib’den farkı dağılım, ilişki ve kategori grafiklerini tek satıra indirmesi; varsayılan estetiği de düzgün.",
     "en": "A statistical plotting library on top of Matplotlib. Unlike raw Matplotlib, it reduces distribution, relationship and category plots to one line, with sane defaults.",
-    "src": "kedi"
+    "src": "kedi",
+    "vs": [
+      {
+        "u": "https://matplotlib.org/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://github.com/SerpentAI/SerpentAI",
@@ -850,7 +914,8 @@
     "name": "Tableau",
     "tags": [
       "ücretli",
-      "veri-bilimi"
+      "veri-bilimi",
+      "araç"
     ],
     "tr": "Sürükle-bırak iş zekâsı platformu; kod yazmadan pano kuruluyor. Power BI’a kıyasla görselleştirme esnekliği güçlü; ama iki araç gibi tekrarlanabilirlik ve sürüm kontrolü tarafında zayıf.",
     "en": "A drag-and-drop business intelligence platform for building dashboards without code. Compared with Power BI its visualisation flexibility is strong, though like both it is weak on reproducibility and version control.",
@@ -880,7 +945,13 @@
     "tr": "Veri indirmeden dağıtık eğitime kadar bir dil modelinin tüm eğitim hattını çalışan kodla gösteriyor. Teorik anlatımlardan farkı onların genelde atladığı altyapı tarafını da işlemesi.",
     "en": "Shows a language model’s whole training pipeline in working code, from data download to distributed training. Unlike theoretical write-ups, it also covers the infrastructure side they usually skip.",
     "src": "kedi",
-    "added": 1785884172
+    "added": 1785884172,
+    "vs": [
+      {
+        "u": "https://github.com/rasbt/LLMs-from-scratch",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://archive.ics.uci.edu/",
@@ -963,5 +1034,56 @@
     "en": "End-to-end ML notebooks walking a working pipeline from data cleaning to model evaluation, progressing through real code rather than concept prose.",
     "src": "kedi",
     "added": 1775475171
+  },
+  {
+    "url": "https://qgis.org/",
+    "name": "QGIS",
+    "tags": [
+      "masaüstü",
+      "veri-bilimi",
+      "araç",
+      "ücretsiz",
+      "açık-kaynak"
+    ],
+    "tr": "Windows, macOS ve Linux’ta çalışan açık kaynak masaüstü coğrafi bilgi sistemi; shapefile, GeoPackage, PostGIS ve raster katmanlarını okuyup analiz ediyor, eklentilerle genişliyor. ArcGIS’ten farkı lisans ücreti olmaması; buna karşın kurumsal destek topluluk ve ticari ortaklardan geliyor.",
+    "en": "An open-source desktop GIS for Windows, macOS and Linux; it reads and analyses shapefile, GeoPackage, PostGIS and raster layers and extends through plugins. Unlike ArcGIS there is no licence fee; in exchange support comes from the community and commercial partners.",
+    "src": "bosluk",
+    "added": 1792281600
+  },
+  {
+    "url": "https://overpass-turbo.eu/",
+    "name": "overpass turbo",
+    "tags": [
+      "veri-seti",
+      "tarayıcı-içi",
+      "araç",
+      "ücretsiz",
+      "açık-kaynak"
+    ],
+    "tr": "OpenStreetMap verisini Overpass API ile sorgulayan web arayüzü; sonucu haritada gösteriyor, GeoJSON olarak indiriyor, sorgu yazmayanlar için sihirbazı var. Hazır OSM dökümlerini indirmekten farkı yalnızca istediğin nesneleri (bir şehirdeki tüm eczaneler gibi) çekmesi.",
+    "en": "A web front end for querying OpenStreetMap data through the Overpass API; it shows the result on a map, downloads it as GeoJSON and has a wizard for those who do not write queries. Unlike downloading a full OSM extract it fetches only the features you ask for, such as every pharmacy in a city.",
+    "src": "bosluk",
+    "added": 1792281600
+  },
+  {
+    "url": "https://kepler.gl/",
+    "name": "kepler.gl",
+    "tags": [
+      "veri-bilimi",
+      "tarayıcı-içi",
+      "araç",
+      "ücretsiz",
+      "açık-kaynak"
+    ],
+    "tr": "Büyük konum veri setlerini (milyonlarca nokta, yolculuk, ızgara) tarayıcıda katman katman görselleştiren açık kaynak araç; Uber’de doğdu. QGIS’ten farkı analizden çok keşif ve sunuma odaklanması: CSV ya da GeoJSON’u sürükleyip zaman kaydırıcılı bir haritaya dakikalar içinde ulaşıyorsun.",
+    "en": "An open-source tool, born at Uber, for visualising large location datasets (millions of points, trips, grids) layer by layer in the browser. Unlike QGIS it aims at exploration and presentation rather than analysis: drop in a CSV or GeoJSON and you have a map with a time slider in minutes.",
+    "src": "bosluk",
+    "added": 1792281600,
+    "vs": [
+      {
+        "u": "https://qgis.org/",
+        "a": "yaklasim"
+      }
+    ]
   }
 ]

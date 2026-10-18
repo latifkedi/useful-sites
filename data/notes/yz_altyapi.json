@@ -82,7 +82,13 @@
     "tr": "LLM izleme ve değerlendirme aracı; not defterinin içinde çalışıp izleri yerelde gösteriyor. Sunucu kurulumu isteyen izleme araçlarından farkı bu yerellik ve gömme uzayını görselleştirmesi: alma hatasının nereden geldiğini kümelenmeye bakarak buluyorsun.",
     "en": "An LLM tracing and evaluation tool that runs inside a notebook and renders traces locally. Unlike tracing tools that need a server, it stays local and visualises the embedding space, so you find the source of a retrieval failure by looking at clustering.",
     "src": "kedi",
-    "added": 1787000000
+    "added": 1787000000,
+    "vs": [
+      {
+        "u": "https://smith.langchain.com/",
+        "a": "barindirma"
+      }
+    ]
   },
   {
     "url": "https://github.com/hesreallyhim/awesome-claude-code",
@@ -173,7 +179,13 @@
     "tr": "İçerik filtresi, yasaklı konu listesi ve kişisel veri maskeleme. NeMo Guardrails gibi kendin çalıştırdığın kütüphanelerden farkı yönetilen bir servis olması; Bedrock dışındaki modellere de bağımsız API olarak uygulanabiliyor.",
     "en": "Content filters, denied-topic lists and PII redaction. Unlike libraries you run yourself such as NeMo Guardrails it is a managed service, and it can be applied as a standalone API to models outside Bedrock too.",
     "src": "kedi",
-    "added": 1787000000
+    "added": 1787000000,
+    "vs": [
+      {
+        "u": "https://github.com/NVIDIA/NeMo-Guardrails",
+        "a": "barindirma"
+      }
+    ]
   },
   {
     "url": "https://strandsagents.com/",
@@ -208,7 +220,8 @@
     "name": "Azure AI Foundry",
     "tags": [
       "ücretli",
-      "sunucu"
+      "sunucu",
+      "llm"
     ],
     "tr": "Model kataloğu, agent servisi, değerlendirme ve içerik filtresi tek portalda. Bu parçaları ayrı servislerden birleştirmek yerine, uyumluluk ve bölge denetimi gerektiren kurumsal dağıtımlar için toplanmış bir yığın sunuyor.",
     "en": "Model catalogue, agent service, evaluation and content filtering in one portal. Rather than assembling these from separate services, it offers a stack gathered for enterprise deployments that need compliance and region control.",
@@ -322,7 +335,13 @@
     "tr": "Her agent’a rol, hedef ve arka plan veriyorsun; görevler sıralı ya da hiyerarşik olarak dağıtılıyor. Kavramsal olarak sade ama akış üzerinde LangGraph kadar ince denetim vermiyor.",
     "en": "You give each agent a role, goal and backstory; tasks are dispatched sequentially or hierarchically. Conceptually simple, but it gives less fine control over flow than LangGraph.",
     "src": "kedi",
-    "added": 1787000000
+    "added": 1787000000,
+    "vs": [
+      {
+        "u": "https://www.langchain.com/langgraph",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://dspy.ai/",
@@ -345,7 +364,8 @@
     "tags": [
       "açık-kaynak",
       "agent",
-      "ücretsiz"
+      "ücretsiz",
+      "llm"
     ],
     "tr": "Kod asistanları için yetenek, kural, bellek düzeni ve güvenlik ayarlarını tek pakette toplayan yapılandırma seti. Sıfırdan kurmak yerine üzerine budayarak başlanacak türden.",
     "en": "A configuration bundle of skills, rules, memory layout and security settings for coding agents. The kind of thing you start from and prune, rather than assemble from scratch.",
@@ -407,7 +427,13 @@
     "tr": "Çıktıyı şema ve doğrulayıcı zincirine sokuyor; başarısız olursa yeniden deniyor ya da düzeltiyor. NeMo Guardrails’ten farkı diyalog akışını değil üretilen metnin biçimini ve içeriğini denetlemesi.",
     "en": "Runs output through a chain of schemas and validators, retrying or repairing on failure. Unlike NeMo Guardrails, which governs the dialogue flow, it polices the shape and content of the generated text.",
     "src": "kedi",
-    "added": 1787000000
+    "added": 1787000000,
+    "vs": [
+      {
+        "u": "https://github.com/NVIDIA/NeMo-Guardrails",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://github.com/headroomlabs-ai/headroom",
@@ -435,7 +461,13 @@
     "tr": "LLM gözlemlenebilirlik aracı; taban URL’yi değiştirmen yeterli, istekler üzerinden geçerken kaydediliyor. SDK entegrasyonu isteyen izleme araçlarından farkı vekil (proxy) olarak çalışması: mevcut bir projeye kod değiştirmeden takılıyor.",
     "en": "An LLM observability tool: change the base URL and requests are logged as they pass through. Unlike tracers that need SDK integration it works as a proxy, so it bolts onto an existing project without code changes.",
     "src": "kedi",
-    "added": 1787000000
+    "added": 1787000000,
+    "vs": [
+      {
+        "u": "https://langfuse.com/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://github.com/blader/humanizer",
@@ -443,7 +475,8 @@
     "tags": [
       "açık-kaynak",
       "llm",
-      "ücretsiz"
+      "ücretsiz",
+      "agent"
     ],
     "tr": "Metinden yapay zekâ yazımına özgü kalıpları — aşırı paralel yapı, gereksiz geçiş cümleleri, tekdüze ritim — temizleyen dar kapsamlı yetenek. Genel yeniden yazma araçlarından farkı içeriği değil yalnız bu izleri hedeflemesi.",
     "en": "A narrow skill stripping the tells of AI writing — over-parallel structure, filler transitions, uniform rhythm — from a text. Unlike general rewriting tools, it targets only those tells, not the content.",
@@ -455,7 +488,8 @@
     "name": "Lakera Guard",
     "tags": [
       "ücretli",
-      "guardrail"
+      "guardrail",
+      "api"
     ],
     "tr": "İstem enjeksiyonu ve jailbreak tespitine odaklı API. Genel içerik filtrelerinden farkı saldırı örüntülerini Gandalf adlı oyunlaştırılmış deneyden toplanan gerçek saldırı verisiyle beslemesi.",
     "en": "An API focused on prompt injection and jailbreak detection. Unlike general content filters, it is fed by real attack data harvested from its gamified Gandalf experiment.",
@@ -548,7 +582,8 @@
     "name": "LangSmith",
     "tags": [
       "gözlemlenebilirlik",
-      "freemium"
+      "freemium",
+      "llm"
     ],
     "tr": "Her zincir adımının girdi, çıktı, gecikme ve jeton sayısını ayrı ayrı gösteriyor. LangChain’e bağlı değil ama en sıkı entegrasyonu orada.",
     "en": "Shows input, output, latency and token count for every chain step separately. Not tied to LangChain, though that is where the integration is tightest.",
@@ -560,8 +595,8 @@
     "name": "last30days",
     "tags": [
       "açık-kaynak",
-      "akademik",
-      "ücretsiz"
+      "ücretsiz",
+      "agent"
     ],
     "tr": "Bir konuda son otuz günün Reddit, X ve YouTube içeriğini tarayan yetenek. Genel web aramasından farkı yalnız yakın zamana ve topluluk tartışmasına odaklanması: modelin eğitim kesim tarihiyle bugün arasındaki boşluk için.",
     "en": "A skill sweeping the last thirty days of Reddit, X and YouTube on a topic. Unlike a general web search it focuses only on recent community discussion — aimed at the gap between a model’s training cutoff and today.",
@@ -634,7 +669,13 @@
     "tr": "AutoGen’in deney tarafıyla Semantic Kernel’in kurumsal tarafını tek çatıda birleştiren yeni hat. İkisinden ayrı ayrı farkı bu birleşim; Azure kimlik doğrulama ve izleme altyapısına baştan bağlı geliyor.",
     "en": "The new line merging AutoGen’s experimental side with Semantic Kernel’s enterprise side. Unlike either one alone it combines both, and arrives pre-wired to Azure identity and monitoring.",
     "src": "kedi",
-    "added": 1787000000
+    "added": 1787000000,
+    "vs": [
+      {
+        "u": "https://learn.microsoft.com/semantic-kernel/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://microsoft.github.io/autogen/",
@@ -649,7 +690,13 @@
     "tr": "Agent’lar bir grup sohbetinde konuşarak iş çözüyor; konuşma sırasını bir yönetici agent belirliyor. LangGraph gibi grafik tabanlı çatılardan farkı akışın konuşma olarak kurulması; araştırma kökenli, API’si sürümler arasında sertçe değişebiliyor.",
     "en": "Agents solve tasks by talking in a group chat, with a manager agent deciding who speaks next. Unlike graph-based frameworks such as LangGraph the flow is a conversation; research-rooted, so the API can shift sharply between versions.",
     "src": "kedi",
-    "added": 1787000000
+    "added": 1787000000,
+    "vs": [
+      {
+        "u": "https://www.langchain.com/langgraph",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://microsoft.github.io/presidio/",
@@ -700,7 +747,7 @@
     "tags": [
       "açık-kaynak",
       "agent",
-      "referans",
+      "araç",
       "ücretsiz"
     ],
     "tr": "Kod asistanının belleğini bir Obsidian kasasında düz Markdown olarak tutuyor. Vektör veritabanı tabanlı bellek servislerinden farkı çalıştırılacak bir servis olmaması: not dosyalarını kendin okuyup düzeltebiliyorsun.",
@@ -714,7 +761,8 @@
     "tags": [
       "açık-kaynak",
       "api",
-      "ücretsiz"
+      "ücretsiz",
+      "llm"
     ],
     "tr": "Tek OpenAI uyumlu uç noktadan yüzlerce sağlayıcıya yönlendiriyor; birçoğu ücretsiz katmanlı. Her sağlayıcı için ayrı istemci yazmak yerine tek adres kullanıyorsun; sağlayıcı düşerse otomatik yedeğe geçmesi tek API’ye bağımlılığı kırıyor.",
     "en": "Routes one OpenAI-compatible endpoint to hundreds of providers, many with free tiers. Instead of a client per provider you use one address, and automatic failover when a provider drops breaks single-API dependence.",
@@ -734,7 +782,13 @@
     "tr": "Dört kavramla yetiniyor: agent, araç, devretme (handoff) ve koruma bandı; izleme (tracing) kutudan çıkıyor. LangGraph gibi çatılara kıyasla öğrenme eğrisi çok daha düşük.",
     "en": "Settles for four concepts: agents, tools, handoffs and guardrails, with tracing built in. Compared with frameworks such as LangGraph, the learning curve is far shallower.",
     "src": "kedi",
-    "added": 1787000000
+    "added": 1787000000,
+    "vs": [
+      {
+        "u": "https://www.langchain.com/langgraph",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://github.com/HKUDS/OpenSpace",
@@ -742,7 +796,8 @@
     "tags": [
       "açık-kaynak",
       "agent",
-      "ücretsiz"
+      "ücretsiz",
+      "llm"
     ],
     "tr": "Hangi yeteneğin ne zaman yükleneceğine karar veren yönetim katmanı. Tüm yetenekleri bağlama doldurmak yerine seçici yükleyerek jeton maliyetini düşürüyor.",
     "en": "A management layer deciding which skill loads when. Selective loading instead of stuffing every skill into context is where the token saving comes from.",
@@ -755,7 +810,8 @@
     "tags": [
       "açık-kaynak",
       "agent",
-      "ücretsiz"
+      "ücretsiz",
+      "llm"
     ],
     "tr": "Agent’ı gereksiz soyutlama ve erken genelleme yapmaktan alıkoyan yetenek. Daha çok kod üretmeye yönelten genel kodlama yeteneklerinin aksine üretimi kısıtlıyor; amaç çıktının bakım maliyetini düşürmek.",
     "en": "A skill that stops an agent inventing needless abstraction and premature generalisation. Unlike general coding skills that push towards more code, it restrains output in order to lower maintenance cost.",
@@ -767,7 +823,8 @@
     "name": "Prisma AIRS (Protect AI)",
     "tags": [
       "ücretli",
-      "güvenlik"
+      "güvenlik",
+      "llm"
     ],
     "tr": "Model dosyalarını zararlı yük için tarıyor — pickle serileştirmesi keyfî kod çalıştırabildiği için indirilen bir checkpoint gerçek bir saldırı yüzeyi. Klasik zararlı yazılım tarayıcılarından farkı bu model biçimlerini anlaması; Protect AI 2025’te Palo Alto Networks’e katıldı, ürün artık Prisma AIRS altında.",
     "en": "Scans model files for malicious payloads — because pickle deserialisation can execute arbitrary code, a downloaded checkpoint is a real attack surface. Unlike classic malware scanners it understands these model formats; Protect AI joined Palo Alto Networks in 2025 and the product now lives under Prisma AIRS.",
@@ -813,7 +870,13 @@
     "tr": "İstem ve modelleri YAML’de tanımlanmış test kümesine karşı yan yana koşuyor. Üretimdeki izleri gözleyen araçlardan farkı sorunu yayından önce yakalaması: model sürümü değiştiğinde bozulmayı CI adımında görüyorsun.",
     "en": "Runs prompts and models side by side against a test set declared in YAML. Unlike tools that watch production traces it catches problems before release — a model-version regression shows up in a CI step.",
     "src": "kedi",
-    "added": 1787000000
+    "added": 1787000000,
+    "vs": [
+      {
+        "u": "https://langfuse.com/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://promptlayer.com/",
@@ -854,7 +917,13 @@
     "tr": "C#, Python ve Java için tek API sunan agent SDK’sı. Kurumsal .NET yığınında yaşıyorsan Python ağırlıklı alternatiflerden çok daha az sürtünme çıkarıyor.",
     "en": "An agent SDK exposing one API across C#, Python and Java. If you live in an enterprise .NET stack it creates far less friction than the Python-centric alternatives.",
     "src": "kedi",
-    "added": 1787000000
+    "added": 1787000000,
+    "vs": [
+      {
+        "u": "https://ai.pydantic.dev/",
+        "a": "platform"
+      }
+    ]
   },
   {
     "url": "https://github.com/obra/superpowers",
@@ -862,7 +931,8 @@
     "tags": [
       "açık-kaynak",
       "agent",
-      "ücretsiz"
+      "ücretsiz",
+      "llm"
     ],
     "tr": "Agent’a serbest istem yerine adımlı bir geliştirme disiplini dayatan yetenek çatısı. Planlama, uygulama ve doğrulama aşamalarını ayırıyor.",
     "en": "A skills framework imposing a stepwise development discipline instead of free-form prompting, separating planning, implementation and verification.",
@@ -887,7 +957,8 @@
     "name": "W&B Weave",
     "tags": [
       "gözlemlenebilirlik",
-      "freemium"
+      "freemium",
+      "llm"
     ],
     "tr": "Weights & Biases’ın LLM tarafı. Ayrı bir izleme aracı kurmak yerine, zaten W&B ile eğitim izliyorsan çıkarım izleri de aynı proje altında toplanıyor.",
     "en": "The LLM side of Weights & Biases. Rather than setting up a separate tracing tool, if you already track training in W&B the inference traces land under the same project.",
@@ -906,6 +977,12 @@
     ],
     "tr": "OpenAI Whisper konuşma tanıma modelinin bağımlılıksız C/C++ uyarlaması; CPU’da bile makul hızda çalışıyor. Python sürümünden farkı kurulum yükünün olmaması ve tek ikili dosyaya derlenebilmesi — gömülü cihaza bile giriyor.",
     "en": "A dependency-free C/C++ port of OpenAI’s Whisper speech recognition model that runs at a reasonable pace even on CPU. Against the Python original there is no install burden and it compiles to a single binary — small enough for embedded targets.",
-    "src": "cdcruz"
+    "src": "cdcruz",
+    "vs": [
+      {
+        "u": "https://github.com/openai/whisper",
+        "a": "platform"
+      }
+    ]
   }
 ]

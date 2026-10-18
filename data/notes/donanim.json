@@ -43,7 +43,8 @@
     "name": "Allwinner V821",
     "tags": [
       "ücretsiz",
-      "donanım"
+      "donanım",
+      "gömülü"
     ],
     "tr": "V821 yonga setinin teknik özeti; görüntü işleme hattı ve NPU yetenekleri dahil. Uzun veri sayfasına kıyasla hızlı okunuyor: kamera veya uç yapay zekâ projesinde yonga seçerken karşılaştırma noktası.",
     "en": "A technical summary of the V821 SoC including its image pipeline and NPU capability. Compared with the long datasheet it reads quickly — a comparison point when choosing silicon for a camera or edge AI project.",
@@ -56,12 +57,19 @@
     "tags": [
       "açık-kaynak",
       "gömülü",
-      "ücretsiz"
+      "ücretsiz",
+      "donanım"
     ],
     "tr": "Anyka yongalı kameralar için özel ürün yazılımı. OpenIPC’den farkı onun kapsamadığı bu aileyi hedeflemesi — ucuz Çin kameralarının çoğu bu yongayı kullanıyor.",
     "en": "Custom firmware for Anyka-based cameras. Unlike OpenIPC it targets this family, which OpenIPC does not cover — and most cheap Chinese cameras use it.",
     "src": "kedi",
-    "added": 1786567891
+    "added": 1786567891,
+    "vs": [
+      {
+        "u": "https://openipc.org/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://github.com/AvaotaSBC/AvaotaF1",
@@ -69,7 +77,8 @@
     "tags": [
       "açık-kaynak",
       "gömülü",
-      "ücretsiz"
+      "ücretsiz",
+      "donanım"
     ],
     "tr": "Madeni para boyutunda RISC-V Linux kartı: 64 MB RAM, MIPI kamera, SPI ekran ve Wi-Fi. Bu ölçekte mikrodenetleyici değil tam Linux çalıştırabilmesi ayrıksı.",
     "en": "A coin-sized RISC-V Linux board with 64 MB RAM, MIPI camera, SPI display and Wi-Fi. Running full Linux rather than a microcontroller at that scale is what makes it unusual.",
@@ -222,7 +231,8 @@
     "tags": [
       "açık-kaynak",
       "gömülü",
-      "ücretsiz"
+      "ücretsiz",
+      "backend"
     ],
     "tr": "Cihazın durumunu sunucuda bir “dijital ikiz” olarak tutuyor. Yalnız mesaj ileten MQTT broker’larından farkı durumu saklaması: cihaz uykudayken bile son bilinen durum sorgulanabiliyor ve komut kuyruğa alınabiliyor.",
     "en": "Keeps device state server-side as a digital twin. Unlike MQTT brokers that only relay messages it stores state, so the last known state stays queryable and commands queue up even while the device sleeps.",
@@ -239,7 +249,13 @@
     ],
     "tr": "Devre simülasyonunu gerçek zamanlı animasyonla gösteren araç; mobilde de çalışıyor. Falstad’dan farkı dokunmatik arayüz ve bileşen değerlerini kaydırarak değiştirip sonucu anlık görebilmen.",
     "en": "Circuit simulation with real-time animation, working on mobile as well. Against Falstad it offers a touch interface and lets you drag component values and watch the result change immediately.",
-    "src": "awesome-uw"
+    "src": "awesome-uw",
+    "vs": [
+      {
+        "u": "https://www.falstad.com/circuit/",
+        "a": "platform"
+      }
+    ]
   },
   {
     "url": "https://github.com/jamisonderek/flipper-zero-tutorials",
@@ -273,11 +289,18 @@
     "tags": [
       "açık-kaynak",
       "ücretsiz",
-      "cad"
+      "cad",
+      "3b"
     ],
     "tr": "Parametrik 3B CAD modelleyici; tasarım ağacını düzenleyerek geçmişe dönüp ölçü değiştirebiliyorsun. Blender’dan farkı bu parametrik yaklaşım — Blender çokgen biçimlendirir, bu üretilebilir parça tasarlar.",
     "en": "A parametric 3D CAD modeller where you go back up the design tree and change a dimension. That parametric approach is the split from Blender: Blender sculpts polygons, this designs a manufacturable part.",
-    "src": "cdcruz"
+    "src": "cdcruz",
+    "vs": [
+      {
+        "u": "https://www.blender.org/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://grabcad.com/library/robotic-mini-tank-1",
@@ -285,7 +308,8 @@
     "tags": [
       "ücretsiz",
       "cad",
-      "açık-ağırlık"
+      "açık-ağırlık",
+      "donanım"
     ],
     "tr": "Paylaşılmış paletli robot platformu modeli. Şasi geometrisini sıfırdan çizmek yerine çalışan bir tasarımdan başlamak için.",
     "en": "A shared tracked robot platform model — a way to start from a working design instead of drawing chassis geometry from scratch.",
@@ -352,12 +376,13 @@
     "added": 1785311501
   },
   {
-    "url": "https://github.com/LiteEMF?tab=repositories",
+    "url": "https://github.com/LiteEMF",
     "name": "LiteEMF",
     "tags": [
       "açık-kaynak",
       "gömülü",
-      "ücretsiz"
+      "ücretsiz",
+      "donanım"
     ],
     "tr": "Gömülü sistem kütüphaneleri ve ürün yazılımı depoları; USB HID ve kablosuz giriş cihazı projeleri ağırlıkta. Genel gömülü kütüphanelerden farkı bu odak: kumanda ve klavye protokolleri için referans.",
     "en": "Embedded libraries and firmware repositories weighted towards USB HID and wireless input devices. Unlike general embedded libraries it has that focus — a reference for controller and keyboard protocols.",
@@ -369,7 +394,8 @@
     "name": "McMaster-Carr",
     "tags": [
       "ücretli",
-      "cad"
+      "cad",
+      "donanım"
     ],
     "tr": "Endüstriyel parça kataloğu; neredeyse her ürünün CAD modelini indirebiliyorsun. Genel alışveriş sitelerinden farkı bu modeller ve ölçü tabloları: tasarımda gerçek bir cıvatanın ölçüsü lazım olduğunda referans kaynak.",
     "en": "An industrial parts catalogue where nearly every item has a downloadable CAD model. Unlike general shops, those models and dimension tables make it a reference whenever a design needs a real bolt’s measurements.",
@@ -381,12 +407,18 @@
     "name": "Octopart",
     "tags": [
       "donanım",
-      "referans",
+      "araç",
       "ücretsiz"
     ],
     "tr": "Elektronik bileşen arama motoru; distribütörlerdeki stok ve fiyatı tek sayfada karşılaştırıyor. Digi-Key veya Mouser’a tek tek bakmaktan farkı bu — parça tedarik edilebilirliğini tasarım aşamasında görüyorsun.",
     "en": "A search engine for electronic components that compares stock and price across distributors on one page. That is what saves you checking Digi-Key and Mouser separately — you see availability while still designing.",
-    "src": "awesome-uw"
+    "src": "awesome-uw",
+    "vs": [
+      {
+        "u": "https://www.digikey.com/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.onshape.com/en/",
@@ -425,7 +457,8 @@
     "tags": [
       "açık-kaynak",
       "gömülü",
-      "ücretsiz"
+      "ücretsiz",
+      "gizlilik"
     ],
     "tr": "IP kameralar için açık ürün yazılımı; üretici bulutunu devreden çıkarıp RTSP akışını doğrudan kendi ağına veriyor. Üreticinin yazılımından farkı kamerayı internete açmadan kullanabilmen.",
     "en": "Open firmware for IP cameras that removes the vendor cloud and exposes the RTSP stream directly on your own network. Unlike the vendor firmware, it lets you run the camera without putting it on the internet.",
@@ -438,7 +471,8 @@
     "tags": [
       "açık-kaynak",
       "gömülü",
-      "ücretsiz"
+      "ücretsiz",
+      "araç"
     ],
     "tr": "Kamera ürün yazılımları arasında geçiş yapmayı ve orijinaline dönmeyi sağlıyor. Seri kabloyla elle flaşlamaya kıyasla daha güvenli; deneme yaparken elindeki tek kurtarma aracı bu olabiliyor.",
     "en": "Moves between camera firmwares and back to stock. Compared with flashing by hand over a serial cable it is safer — often the only recovery tool you have while experimenting.",
@@ -451,7 +485,8 @@
     "tags": [
       "açık-kaynak",
       "gömülü",
-      "ücretsiz"
+      "ücretsiz",
+      "donanım"
     ],
     "tr": "IP kameralar için açık ürün yazılımının desteklenen yonga listesi ve derleme talimatları. Üretici yazılımından farkı buluta bağımlı olmaması; kameranı almadan önce yongasının listede olup olmadığına bak.",
     "en": "The supported chipset list and build instructions for open IP-camera firmware. Unlike the vendor firmware it does not depend on a cloud; check whether your camera’s SoC is on the list before you buy.",
@@ -491,11 +526,17 @@
     "tags": [
       "donanım",
       "ücretsiz",
-      "referans"
+      "araç"
     ],
     "tr": "Bilgisayar toplama ve darboğaz hesaplama araçları; işlemci-ekran kartı dengesini oyun ve çözünürlük bazında tahmin ediyor. PCPartPicker’dan farkı uyumluluk değil performans dengesi sorusuna cevap vermesi.",
     "en": "PC building tools with a bottleneck calculator that estimates CPU-to-GPU balance per game and resolution. Where PCPartPicker answers compatibility, this answers whether the balance makes sense.",
-    "src": "awesome-uw"
+    "src": "awesome-uw",
+    "vs": [
+      {
+        "u": "https://pcpartpicker.com/list/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://pcpartpicker.com/list/",
@@ -503,7 +544,7 @@
     "tags": [
       "donanım",
       "ücretsiz",
-      "referans"
+      "araç"
     ],
     "tr": "Bilgisayar toplarken parçaların uyumluluğunu denetleyen ve fiyat karşılaştıran araç. Elle liste yapmaktan farkı uyumsuzluğu önceden yakalaması — güç kaynağı yetmiyorsa ya da soğutucu kasaya sığmıyorsa uyarıyor.",
     "en": "Checks part compatibility and compares prices while you plan a PC build. Against a manual list it catches the mismatch in advance — an underpowered PSU or a cooler that will not clear the case.",
@@ -519,7 +560,13 @@
     ],
     "tr": "Televizyon, kulaklık, monitör ve fare gibi cihazları laboratuvar ölçümleriyle inceleyen site; metodoloji ve ham veri açık. Kanaat yazılarından farkı ölçülebilir olması — kullanımına göre ağırlıklandırılmış puanı kendin ayarlıyorsun.",
     "en": "Reviews TVs, headphones, monitors and mice through laboratory measurements, with methodology and raw data published. Unlike opinion reviews the results are measurable, and you can reweight the score for your own use.",
-    "src": "awesome-uw"
+    "src": "awesome-uw",
+    "vs": [
+      {
+        "u": "https://techspecs.io/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://tr.smartvision.dev/",
@@ -551,7 +598,8 @@
     "name": "Thingiverse",
     "tags": [
       "ücretsiz",
-      "3b"
+      "3b",
+      "donanım"
     ],
     "tr": "3B baskı modellerinin topluluk arşivi; çoğu Creative Commons lisanslı ve baskı ayarlarıyla birlikte paylaşılıyor. Printables ve MakerWorld’den farkı en eski ve en büyük arşivlerden biri olması — niş bir parça arıyorsan hâlâ ilk bakılacak yer.",
     "en": "The community archive of 3D printing models, mostly Creative Commons licensed and shared with print settings. Against Printables and MakerWorld it is among the oldest and largest — still the first place to look for a niche part.",
@@ -568,6 +616,12 @@
     ],
     "tr": "Arduino, ESP32 ve STM32’yi tarayıcıda simüle eden ortam; sensör ve ekran gibi çevre birimleri de sanal. Gerçek donanımdan farkı kart beklemeden çalışabilmen — kodun mantığını lehim yapmadan doğruluyorsun.",
     "en": "Simulates Arduino, ESP32 and STM32 in the browser, with virtual sensors and displays attached. Against real hardware you start without waiting for a board — the logic gets verified before anything is soldered.",
-    "src": "awesome-uw"
+    "src": "awesome-uw",
+    "vs": [
+      {
+        "u": "https://www.falstad.com/circuit/",
+        "a": "kapsam"
+      }
+    ]
   }
 ]

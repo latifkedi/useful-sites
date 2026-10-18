@@ -4,11 +4,18 @@
     "name": "Atmos",
     "tags": [
       "frontend",
-      "freemium"
+      "freemium",
+      "tasarım"
     ],
     "tr": "Renk paleti ve ton basamakları üreten araç. Coolors gibi palet üreteçlerinden farkı erişilebilirlik (kontrast) denetimini paletin içine yerleştirmesi: arayüzde kullanılacak renkleri daha baştan okunur seçiyorsun.",
     "en": "A tool for building colour palettes and tonal scales. Unlike palette generators such as Coolors, it builds accessibility (contrast) checks into the palette, so interface colours are legible from the start.",
-    "src": "awesomeproj"
+    "src": "awesomeproj",
+    "vs": [
+      {
+        "u": "https://coolors.co/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://github.com/robinstickel/awesome-design-principles",
@@ -16,7 +23,8 @@
     "tags": [
       "awesome-liste",
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "tasarım"
     ],
     "tr": "Daha iyi ve tutarlı tasarımlar için tasarım ilkeleri listesi. Bileşen kitaplarından farkı somut bileşen değil, şirketlerin ve ekiplerin yayımladığı tasarım ilkelerini toplaması.",
     "en": "A list of design principles for better, more consistent designs. Unlike component libraries, it collects not components but the design principles companies and teams have published.",
@@ -40,7 +48,8 @@
     "tags": [
       "awesome-liste",
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "tasarım"
     ],
     "tr": "Fikirden ürüne tasarım sürecini kapsayan kaynak listesi. UI kit listelerinden farkı süreç odaklı olması: araştırma, prototipleme, kullanılabilirlik testi ve devir teslim.",
     "en": "A resource list covering the design process from concept to product. Unlike UI-kit lists it is process-focused: research, prototyping, usability testing and handoff.",
@@ -64,7 +73,8 @@
     "tags": [
       "frontend",
       "referans",
-      "freemium"
+      "freemium",
+      "tasarım"
     ],
     "tr": "Öne çıkan web tasarımlarını ödüllendiren ve sergileyen galeri. Rastgele ilhamdan farkı jüri değerlendirmesiyle kaliteyi süzmesi.",
     "en": "A gallery that awards and showcases outstanding web design. Unlike random inspiration it filters quality through jury evaluation.",
@@ -75,8 +85,8 @@
     "name": "before.click",
     "tags": [
       "ücretsiz",
-      "görsel-üretim",
-      "masaüstü"
+      "tasarım",
+      "mobil"
     ],
     "tr": "App Store ekran görüntüsü tasarımları arşivi. Genel arayüz galerilerinden farkı yalnız mağaza görsellerine odaklanması — mağaza sayfası dönüşümü doğrudan bu görsellere bağlı olduğu için dar ama isabetli bir kaynak.",
     "en": "An archive of App Store screenshot designs. Unlike general UI galleries it covers only store imagery — and store-page conversion hangs directly on these images, which makes it narrow but well aimed.",
@@ -87,20 +97,27 @@
     "url": "https://www.behance.net",
     "name": "Behance",
     "tags": [
-      "görsel-üretim",
+      "tasarım",
       "referans",
       "ücretsiz"
     ],
     "tr": "Adobe'nin portföy platformu; tekil görsel yerine uçtan uca proje vaka çalışmaları sunar.",
     "en": "Adobe's portfolio platform presenting full project case studies rather than single shots.",
-    "src": "awesomelist"
+    "src": "awesomelist",
+    "vs": [
+      {
+        "u": "https://dribbble.com",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.checklist.design",
     "name": "Checklist Design",
     "tags": [
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "tasarım"
     ],
     "tr": "Bileşen ve sayfa bazında uygulanabilir UI/UX kontrol listeleri. Genel UX yazılarından farkı her bileşen için somut, işaretlenebilir maddeler vermesi.",
     "en": "Actionable UI/UX checklists organised per component and per page. Unlike general UX articles, it gives concrete, tickable items for each component.",
@@ -110,7 +127,7 @@
     "url": "https://colorhunt.co",
     "name": "Color Hunt",
     "tags": [
-      "görsel-üretim",
+      "tasarım",
       "ücretsiz",
       "tarayıcı-içi"
     ],
@@ -134,19 +151,25 @@
     "url": "https://colormind.io",
     "name": "Colormind",
     "tags": [
-      "görsel-üretim",
+      "tasarım",
       "tarayıcı-içi",
       "ücretsiz"
     ],
     "tr": "Fotoğraf ve sanattan öğrenerek uyumlu renk paletleri öneren yapay zekâ üreticisi. Coolors’tan farkı rastgele kombinasyon yerine öğrenilmiş bir modelden palet üretmesi.",
     "en": "An AI generator that learns from photos and art to suggest harmonious colour palettes. Unlike Coolors, it generates from a learned model rather than random combinations.",
-    "src": "awesomelist"
+    "src": "awesomelist",
+    "vs": [
+      {
+        "u": "https://coolors.co/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.colorsandfonts.com/",
     "name": "Colors and Fonts",
     "tags": [
-      "frontend",
+      "tasarım",
       "referans",
       "ücretsiz"
     ],
@@ -158,7 +181,7 @@
     "url": "https://colors.lol",
     "name": "Colors.lol",
     "tags": [
-      "frontend",
+      "tasarım",
       "referans",
       "ücretsiz"
     ],
@@ -171,7 +194,8 @@
     "name": "Coolors",
     "tags": [
       "freemium",
-      "görsel-üretim"
+      "tasarım",
+      "araç"
     ],
     "tr": "Renk paleti üreteci; boşluk tuşuyla yeni kombinasyon deniyor, beğendiğini kilitleyip gerisini yeniliyorsun. Color Hunt gibi hazır palet kataloglarından farkı paleti kendin üretmen; kontrast denetimi de var.",
     "en": "A palette generator — hit space for a new combination, lock what you like and regenerate the rest. Unlike ready-palette catalogues such as Color Hunt you generate your own; it checks contrast too.",
@@ -187,7 +211,7 @@
     "url": "https://dribbble.com",
     "name": "Dribbble",
     "tags": [
-      "görsel-üretim",
+      "tasarım",
       "referans",
       "freemium"
     ],
@@ -199,8 +223,9 @@
     "url": "https://www.figma.com/",
     "name": "Figma",
     "tags": [
-      "görsel-üretim",
-      "freemium"
+      "tasarım",
+      "freemium",
+      "tarayıcı-içi"
     ],
     "tr": "Arayüz tasarımında en yaygın kullanılan araç; Dev Mode ile geliştiriciye ölçü ve token aktarıyor. Sketch gibi masaüstü araçlardan farkı tarayıcıda çalışması ve eşzamanlı düzenleme — o araçların sonunu getiren de bu.",
     "en": "The most widely used tool for interface design, with Dev Mode handing measurements and tokens to developers. Unlike desktop tools such as Sketch it runs in the browser with multiplayer editing — which is what ended them.",
@@ -211,8 +236,8 @@
     "url": "https://www.flatuicolorpicker.com/",
     "name": "Flat UI Color Picker",
     "tags": [
-      "frontend",
-      "referans",
+      "tasarım",
+      "araç",
       "ücretsiz"
     ],
     "tr": "Ön yüz için uyumlu düz (flat) renkler sunan etkileşimli palet. Serbest renk seçicilerden farkı önceden seçilmiş, birbirine uyan renklerle çalışması.",
@@ -224,18 +249,25 @@
     "name": "Font Flipper",
     "tags": [
       "frontend",
-      "ücretsiz"
+      "ücretsiz",
+      "tasarım"
     ],
     "tr": "Google fontlarını tek tek, hızla çevirerek kendi metninle karşılaştıran araç. Google Fonts kataloğunda gezmekten farkı karar vermeye odaklanması: beğenmediğini eliyor, beğendiğini ayırıyorsun.",
     "en": "Flips through Google fonts one by one against your own text. Unlike browsing the Google Fonts catalogue it is built for deciding: discard what you dislike, keep what you like.",
-    "src": "awesomeproj"
+    "src": "awesomeproj",
+    "vs": [
+      {
+        "u": "https://fonts.google.com/?preview.script=Latn",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.fontpair.co/",
     "name": "FontPair",
     "tags": [
-      "frontend",
-      "referans",
+      "tasarım",
+      "araç",
       "ücretsiz"
     ],
     "tr": "Birbiriyle iyi giden Google font çiftlerini gösteren araç. Tek tek denemekten farkı uyumlu başlık-gövde eşleşmelerini örnekle sunması.",
@@ -248,29 +280,43 @@
     "tags": [
       "açık-kaynak",
       "ücretsiz",
-      "frontend"
+      "frontend",
+      "tasarım"
     ],
     "tr": "Açık kaynak yazı tiplerini npm paketi olarak kendi sunucunda barındırmanı sağlıyor. Google Fonts CDN’inden farkı dış bir sunucuya istek atılmaması: gizlilik ve çevrimdışı çalışma için.",
     "en": "Lets you self-host open-source fonts as npm packages. Unlike the Google Fonts CDN no request goes to an outside server — for privacy and offline use.",
-    "src": "awesomelist"
+    "src": "awesomelist",
+    "vs": [
+      {
+        "u": "https://fonts.google.com/?preview.script=Latn",
+        "a": "barindirma"
+      }
+    ]
   },
   {
     "url": "https://www.framer.com/",
     "name": "Framer",
     "tags": [
       "frontend",
-      "freemium"
+      "freemium",
+      "tasarım"
     ],
     "tr": "Etkileşimli arayüz ve site tasarlayıp yayına alan tasarım aracı. Figma’dan farkı tasarımın bir maket değil, doğrudan yayına alınan çalışır bir site olması.",
     "en": "A design tool for building and publishing interactive interfaces and sites. Unlike Figma, the design is not a mock-up but a working site you publish directly.",
-    "src": "awesomeproj"
+    "src": "awesomeproj",
+    "vs": [
+      {
+        "u": "https://www.figma.com/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.gameuidatabase.com/",
     "name": "Game UI Database",
     "tags": [
       "ücretsiz",
-      "görsel-üretim",
+      "tasarım",
       "interaktif"
     ],
     "tr": "Oyun arayüzlerini ekran türüne göre sınıflandırıyor: envanter, harita, ayarlar, yükleme ekranı. Dribbble gibi genel galerilerden farkı bu sistematiklik — başka alanda bu kadar düzenli bir arayüz arşivi yok.",
@@ -283,7 +329,8 @@
     "name": "Google Fonts",
     "tags": [
       "ücretsiz",
-      "görsel-üretim"
+      "tasarım",
+      "frontend"
     ],
     "tr": "Açık lisanslı yazı tipi kataloğu; dosyaları indirip kendi sunucundan servis edebiliyorsun. Ticari font dağıtıcılarından farkı tümünün ücretsiz ve açık lisanslı olması; CDN’den çekmek Almanya’da GDPR gerekçesiyle dava konusu oldu, indirmek daha güvenli.",
     "en": "A catalogue of openly licensed typefaces you can download and self-host. Unlike commercial foundries everything is free and openly licensed; loading from the CDN has been litigated in Germany on GDPR grounds, so self-hosting is safer.",
@@ -295,7 +342,8 @@
     "name": "Image Color Picker",
     "tags": [
       "frontend",
-      "ücretsiz"
+      "ücretsiz",
+      "tasarım"
     ],
     "tr": "Yüklediğin görselin üzerine tıklayarak HEX/RGB kodu alıyor ve görselden bir palet çıkarıyor. Tarayıcının damlalık aracından farkı sayfa yerine kendi görselin üzerinde çalışması.",
     "en": "Click on an uploaded image to get HEX/RGB codes, and extract a palette from it. Unlike the browser’s eyedropper, it works on your own image rather than the page.",
@@ -305,7 +353,7 @@
     "url": "https://interfaces.pro/",
     "name": "Interfaces.pro",
     "tags": [
-      "frontend",
+      "tasarım",
       "referans",
       "ücretsiz"
     ],
@@ -318,18 +366,27 @@
     "name": "Land-book",
     "tags": [
       "ücretsiz",
-      "frontend"
+      "frontend",
+      "tasarım"
     ],
     "tr": "İyi tasarlanmış web sitelerinin küratörlü galerisi; sektöre, üsluba ve renge göre süzülebiliyor. Awwwards gibi ödül sitelerinden farkı gösterişli deneysel işler yerine gerçekten yayında olan ürün sitelerini toplaması.",
     "en": "A curated gallery of well-designed websites, filterable by industry, style and colour. Unlike award sites such as Awwwards it collects real shipping product sites rather than showpiece experiments.",
-    "src": "cdcruz"
+    "src": "cdcruz",
+    "vs": [
+      {
+        "u": "https://www.awwwards.com/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://mobbin.com",
     "name": "Mobbin",
     "tags": [
       "referans",
-      "freemium"
+      "freemium",
+      "tasarım",
+      "mobil"
     ],
     "tr": "Gerçek mobil ve web uygulamalarının arayüz akışlarını aranabilir ekran görüntüleriyle topluyor. Dribbble’dan farkı konsept değil yayındaki ürünleri göstermesi; tam erişim ücretli.",
     "en": "A searchable library of real mobile and web UI flows captured as screenshots. Unlike Dribbble it shows shipped products rather than concepts; full access is paid.",
@@ -340,19 +397,27 @@
     "name": "Moqups",
     "tags": [
       "frontend",
-      "freemium"
+      "freemium",
+      "tasarım"
     ],
     "tr": "Tarayıcıda tel kafes ve prototip; Figma’nın tasarım derinliği yok ama hızlı bir akış şeması ya da ekran taslağı için yeterli ve daha hafif.",
     "en": "Browser wireframing and prototyping. It lacks Figma’s design depth but is lighter and sufficient for a quick flow or screen sketch.",
     "src": "kedi",
-    "added": 1756981527
+    "added": 1756981527,
+    "vs": [
+      {
+        "u": "https://www.figma.com/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://onepagelove.com/",
     "name": "One Page Love",
     "tags": [
       "freemium",
-      "referans"
+      "referans",
+      "tasarım"
     ],
     "tr": "Tek sayfalık web sitelerinin ve şablonların galerisi. Awwwards gibi geniş tasarım galerilerinden farkı tek bir biçime odaklanması — açılış sayfası tasarlayanın aradığı da genelde bu.",
     "en": "A gallery of one-page websites and templates. Unlike broad design galleries such as Awwwards it covers a single format, which is what a landing-page designer usually wants.",
@@ -363,7 +428,7 @@
     "url": "https://www.realtimecolors.com",
     "name": "Realtime Colors",
     "tags": [
-      "görsel-üretim",
+      "tasarım",
       "tarayıcı-içi",
       "ücretsiz"
     ],
@@ -375,8 +440,9 @@
     "url": "https://www.saasdesign.io/free-figma-templates",
     "name": "SaaS Design",
     "tags": [
-      "görsel-üretim",
-      "ücretsiz"
+      "tasarım",
+      "ücretsiz",
+      "frontend"
     ],
     "tr": "Açık kaynak Figma arayüz şablonları koleksiyonu. Genel Figma topluluk dosyalarından farkı SaaS ürün arayüzlerine odaklanması.",
     "en": "A collection of open-source Figma UI design templates. Unlike general Figma community files, it focuses on SaaS product interfaces.",
@@ -387,12 +453,19 @@
     "name": "Site of Sites",
     "tags": [
       "ücretsiz",
-      "görsel-üretim"
+      "tasarım",
+      "frontend"
     ],
     "tr": "Bütünsel tasarım dili örnekleri için galeri; tipografi ve hareket kullanımı güçlü siteler derleniyor. Bileşen galerilerinden farkı tek tek parçaları değil sitenin bütün dilini göstermesi.",
     "en": "A gallery of whole-site design language, collecting sites with strong typography and motion. Unlike component galleries, it shows a site’s entire language rather than single parts.",
     "src": "kedi",
-    "added": 1783499341
+    "added": 1783499341,
+    "vs": [
+      {
+        "u": "https://component.gallery",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://component.gallery",
@@ -400,7 +473,8 @@
     "tags": [
       "referans",
       "frontend",
-      "ücretsiz"
+      "ücretsiz",
+      "tasarım"
     ],
     "tr": "Aynı arayüz bileşenini farklı tasarım sistemlerinde yan yana gösteren referans.",
     "en": "A reference showing the same UI component across different design systems side by side.",
@@ -423,7 +497,8 @@
     "name": "UI Design Daily",
     "tags": [
       "ücretsiz",
-      "görsel-üretim"
+      "tasarım",
+      "frontend"
     ],
     "tr": "Her gün yayımlanan ücretsiz arayüz bileşeni tasarımları; kaynak dosyaları Figma ve Sketch biçiminde indirilebiliyor. Ücretli UI kitlerinden farkı ücretsiz ve tek tek bileşen olarak gelmesi.",
     "en": "Free UI component designs published daily, with source files downloadable in Figma and Sketch format. Unlike paid UI kits, they are free and come as individual components.",
@@ -434,7 +509,8 @@
     "name": "Unsection",
     "tags": [
       "ücretsiz",
-      "görsel-üretim"
+      "tasarım",
+      "frontend"
     ],
     "tr": "Bölüm bazlı tasarım örnekleri: hero, fiyatlandırma, SSS, footer ayrı ayrı. Tüm siteyi taramak yerine tek bir bölümü çözmek için filtreleyebiliyorsun.",
     "en": "Design examples organised by section — hero, pricing, FAQ, footer — filterable so you solve one section instead of scanning whole sites.",
@@ -452,5 +528,19 @@
     "tr": "Bir font dosyasını sürükleyince içindeki her şeyi döküyor: karakter kümesi, OpenType özellikleri, değişken eksenler ve bunları açan hazır CSS. Font önizleyicilerinden farkı çıktının doğrudan kullanılabilir CSS olması.",
     "en": "Drop in a font file and it reports everything inside: character set, OpenType features, variable axes — plus the CSS that switches each of them on. Unlike a font previewer, the output is code you can paste.",
     "src": "cdcruz"
+  },
+  {
+    "url": "https://webaim.org/resources/contrastchecker/",
+    "name": "WebAIM Contrast Checker",
+    "tags": [
+      "araç",
+      "tasarım",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "Ön plan ve arka plan rengini girince kontrast oranını ve normal metin, büyük metin ve arayüz bileşenleri için WCAG AA/AAA geçip geçmediğini gösteriyor. Palet üreticilerinden farkı renk önermemesi; seçtiğin bir çiftin okunabilirlik eşiğini tutup tutmadığını söylemesi.",
+    "en": "Enter a foreground and a background colour and it gives the contrast ratio and whether it passes WCAG AA/AAA for normal text, large text and UI components. Unlike palette generators it suggests nothing; it tells you whether a pair you chose meets the legibility threshold.",
+    "src": "bosluk",
+    "added": 1792281600
   }
 ]

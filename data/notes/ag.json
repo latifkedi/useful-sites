@@ -4,7 +4,8 @@
     "name": "Active@ Disk Image",
     "tags": [
       "ücretli",
-      "ağ"
+      "ağ",
+      "araç"
     ],
     "tr": "Sektör bazında disk imajı alıp geri yüklüyor; dosya yedeklemesinden farkı, işletim sistemi ve önyükleme kaydı dahil her şeyi bire bir kopyalaması.",
     "en": "Takes and restores sector-level disk images. Unlike file backup it copies everything bit for bit, operating system and boot record included.",
@@ -16,7 +17,8 @@
     "name": "Advanced Bash-Scripting Guide",
     "tags": [
       "ücretsiz",
-      "kitap"
+      "kitap",
+      "cli"
     ],
     "tr": "Bash betiklemenin en kapsamlı ücretsiz referansı; her konu çalıştırılabilir örnekle. Wooledge BashGuide’a kıyasla kapsamı hâlâ eşsiz ama üslubu eski; bazı örnekler bugün kötü alışkanlık sayılıyor.",
     "en": "The most comprehensive free reference on Bash scripting, every topic with a runnable example. Compared with the Wooledge BashGuide its coverage is still unmatched, but its style is dated and some examples now count as bad habits.",
@@ -52,7 +54,8 @@
     "name": "Awesome Arch",
     "tags": [
       "awesome-liste",
-      "ücretsiz"
+      "ücretsiz",
+      "ağ"
     ],
     "tr": "Arch Linux tabanlı dağıtım ve projelerin listesi. Arch Wiki’den farkı belgeleri değil, Arch’tan türeyen dağıtımları ve onların araçlarını karşılaştırmalı toplaması.",
     "en": "A list of Arch Linux–based distributions and projects. Unlike the Arch Wiki, it collects not documentation but the distributions derived from Arch and their tools, side by side.",
@@ -87,7 +90,8 @@
     "name": "Awesome IPFS",
     "tags": [
       "awesome-liste",
-      "ücretsiz"
+      "ücretsiz",
+      "ağ"
     ],
     "tr": "Merkeziyetsiz dosya protokolü IPFS için araç ve proje listesi. HTTP’den farkı dosyayı bulunduğu sunucuya göre değil içeriğinin özetine (CID) göre adreslemesi.",
     "en": "A list of tools and projects for IPFS, the decentralised file protocol. Unlike HTTP, it addresses a file by the hash of its content (CID) rather than by the server that holds it.",
@@ -134,18 +138,26 @@
     "name": "Bash Guide for Beginners",
     "tags": [
       "ücretsiz",
-      "öğretici"
+      "öğretici",
+      "cli"
     ],
     "tr": "Kabuk betiklerine giriş. Advanced Bash-Scripting Guide’dan farkı onun ağırlığına girmeden temelleri kurması.",
     "en": "An introduction to shell scripting. Unlike the Advanced Bash-Scripting Guide, it lays the groundwork without that guide’s weight.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://tldp.org/LDP/abs/html/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.gnu.org/software/bash/manual/bashref.html",
     "name": "Bash Referans Kılavuzu",
     "tags": [
       "ücretsiz",
-      "dokümantasyon"
+      "dokümantasyon",
+      "cli"
     ],
     "tr": "Bash’in resmî kılavuzu. Öğreticilerden farkı genişletme kuralları ve parametre değiştirme gibi tartışmalı konularda son sözün burada olması.",
     "en": "Bash’s official manual. Unlike tutorials, it has the final word on contested topics such as expansion rules and parameter substitution.",
@@ -156,11 +168,18 @@
     "name": "BashGuide (Wooledge)",
     "tags": [
       "ücretsiz",
-      "öğretici"
+      "öğretici",
+      "cli"
     ],
     "tr": "Tırnaklama ve sözcük bölme gibi en sık yapılan hataları merkeze alan Bash rehberi. Advanced Bash-Scripting Guide gibi eski kaynakların aksine internette dolaşan kötü örnekleri düzeltmek için yazılmış.",
     "en": "A Bash guide centred on the most common mistakes, such as quoting and word splitting. Unlike older sources such as the Advanced Bash-Scripting Guide, it was written to correct the bad examples circulating online.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://tldp.org/LDP/abs/html/",
+        "a": "olgunluk"
+      }
+    ]
   },
   {
     "url": "https://www.youtube.com/watch?v=fQbBPa0ADvs",
@@ -173,7 +192,13 @@
     "tr": "OSI katmanlarından yönlendirmeye kadar ağ kavramlarını tam kurs formatında işleyen video. Sınav odaklı sertifika kurslarından farkı kavramları sınav hedefine bağlamadan kurması: sertifika çalışmasından önce zemin için.",
     "en": "A video working networking concepts from the OSI layers through routing in full-course format. Unlike exam-driven certification courses it builds concepts without tying them to objectives — groundwork before certification study.",
     "src": "kedi",
-    "added": 1775475510
+    "added": 1775475510,
+    "vs": [
+      {
+        "u": "https://www.netacad.com/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.brendangregg.com/",
@@ -192,7 +217,8 @@
     "name": "CanYouSeeMe",
     "tags": [
       "ücretsiz",
-      "ağ"
+      "ağ",
+      "araç"
     ],
     "tr": "Belirli bir portun dışarıdan açık olup olmadığını kontrol eden basit araç. Yerel port taramasından farkı dışarıdan bakması — yönlendirici port yönlendirmesinin gerçekten çalışıp çalışmadığı ancak böyle anlaşılıyor.",
     "en": "A minimal check for whether a given port is reachable from outside. Unlike scanning locally it looks in from the internet, which is the only way to tell whether router port forwarding actually works.",
@@ -268,7 +294,8 @@
     "tags": [
       "ağ",
       "açık-kaynak",
-      "ücretsiz"
+      "ücretsiz",
+      "araç"
     ],
     "tr": "Ağ gecikmesi ve paket kaybı gibi sorunları yapay olarak enjekte edip yazılımın kötü koşullarda nasıl davrandığını test ettiren araç. tc/netem ve iptables komutlarını elle yazmak yerine tek komutla aynı etkiyi veriyor.",
     "en": "Injects network latency and packet loss to test how software copes under bad conditions. Instead of hand-writing tc/netem and iptables commands, it produces the same effect with one command.",
@@ -279,7 +306,8 @@
     "name": "Command-line Fu",
     "tags": [
       "ücretsiz",
-      "cli"
+      "cli",
+      "referans"
     ],
     "tr": "Kullanıcıların paylaştığı UNIX komut tek satırlıkları arşivi, oyla sıralı. tldr gibi araç başına özetlerden farkı işe göre aranması: bir işin kısa yolu var mı diye bakmak için.",
     "en": "An archive of user-submitted UNIX one-liners ranked by vote. Unlike per-tool summaries such as tldr, you search by task — to check whether a shortcut exists.",
@@ -317,7 +345,8 @@
     "name": "Hiren's BootCD PE",
     "tags": [
       "ücretsiz",
-      "ağ"
+      "ağ",
+      "araç"
     ],
     "tr": "Açılmayan sistemler için önyüklenebilir Windows PE ortamı; disk klonlama, parola sıfırlama ve veri kurtarma araçları tek imajda. Linux tabanlı kurtarma disklerinden farkı tanıdık Windows arayüzü ve Windows araçlarını çalıştırabilmesi.",
     "en": "A bootable Windows PE environment for systems that will not start, bundling disk cloning, password reset and data recovery in one image. Unlike Linux-based rescue disks it offers a familiar Windows interface and runs Windows tools.",
@@ -328,7 +357,7 @@
     "url": "https://lookup.icann.org/en",
     "name": "ICANN Lookup",
     "tags": [
-      "referans",
+      "araç",
       "ağ",
       "ücretsiz"
     ],
@@ -412,7 +441,13 @@
     ],
     "tr": "IP tabanlı, merkezi olmayan bir soğan yönlendirme ağı; trafiği stake edilmiş düğümler üzerinden anonimleştiriyor. Tor’dan farkı yalnız web değil her IP protokolünü taşıması: onion yönlendirmenin üstünde tam bir kaplama ağı, tek uygulama değil.",
     "en": "A decentralised, IP-based onion-routing network that anonymises traffic across staked nodes. Unlike Tor it carries any IP protocol, not just web: a full overlay network on top of onion routing rather than a single application.",
-    "src": "lowkwiki"
+    "src": "lowkwiki",
+    "vs": [
+      {
+        "u": "https://www.torproject.org/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://github.com/metaspartan/mactop",
@@ -435,11 +470,18 @@
       "açık-kaynak",
       "self-hosted",
       "gözlemlenebilirlik",
-      "ücretsiz"
+      "ücretsiz",
+      "kripto"
     ],
     "tr": "Bitcoin ağının bekleyen işlem havuzunu ve blok zincirini görselleştiren gezgin; kendi düğümünle çalıştırılabiliyor. Diğer blok gezginlerinden farkı ücret tahmini ve mempool görselleştirmesi — ağın o anki tıkanıklığını gösteriyor.",
     "en": "An explorer visualising Bitcoin’s pending transaction pool and the chain, runnable against your own node. Against other block explorers it adds fee estimation and a mempool view — it shows how congested the network is right now.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://etherscan.io",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.netacad.com/catalogs/learn/networking?language=tr-tr",
@@ -478,7 +520,13 @@
     ],
     "tr": "Ağ trafiğini gerçek zamanlı izleyen araç ailesi; hangi cihazın hangi protokolle ne kadar veri geçirdiğini gösteriyor. Wireshark’tan farkı paket paket inceleme değil sürekli akış izleme — sorunu yakalamak için değil, olağandışıyı fark etmek için.",
     "en": "A family of tools for real-time network traffic monitoring, showing which device moves how much over which protocol. Where Wireshark inspects packet by packet, this watches the flow continuously — for noticing the anomaly rather than dissecting it.",
-    "src": "cdcruz"
+    "src": "cdcruz",
+    "vs": [
+      {
+        "u": "https://www.wireshark.org/#download",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://openspeedtest.com/",
@@ -487,7 +535,8 @@
       "açık-kaynak",
       "self-hosted",
       "ağ",
-      "ücretsiz"
+      "ücretsiz",
+      "tarayıcı-içi"
     ],
     "tr": "Tarayıcıda çalışan hız testi; Flash ya da uygulama gerektirmiyor, kendi sunucuna da kurulabiliyor. Speedtest.net’ten farkı bu öz-barındırma — yerel ağının gerçek hızını dış bağlantıya bağlı kalmadan ölçebiliyorsun.",
     "en": "A browser-based speed test needing no Flash and no app, and self-hostable on your own server. That self-hosting is the difference from Speedtest.net: you can measure your LAN’s real throughput without an internet hop.",
@@ -544,7 +593,13 @@
     "tr": "CompTIA A+, Network+ ve Security+ müfredatının tamamını ücretsiz video derslerle kapsayan site; ders notları ve deneme sınavları ücretli. Genel ağ kurslarından farkı, derslerin sınav hedeflerine birebir numaralanmış olması.",
     "en": "Free video courses covering the whole CompTIA A+, Network+ and Security+ syllabus; course notes and practice exams are paid. Unlike general networking courses, every lesson is numbered one to one against the exam objectives.",
     "src": "kedi",
-    "added": 1778513489
+    "added": 1778513489,
+    "vs": [
+      {
+        "u": "https://www.netacad.com/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://github.com/dylanaraps/pure-bash-bible",
@@ -582,7 +637,13 @@
     ],
     "tr": "Linux ve Bash’e giriş; her bölümün sonunda alıştırma var. LinuxCommand.org’dan farkı daha kısa ve sınav odaklı olması — temel komutları hızla geçmek isteyenler için.",
     "en": "An introduction to Linux and Bash with exercises closing every section. Against LinuxCommand.org it is shorter and more drill-oriented — for getting through the basic commands quickly.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://linuxcommand.org",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://servicedesk-simulator.com/",
@@ -609,7 +670,13 @@
     "tr": "Ağ trafiğini anlaşılır bir arayüzde gösteren çapraz platform uygulama (Rust). Wireshark’tan farkı paket ayrıntısından çok okunabilir bir genel görünüm sunması.",
     "en": "A cross-platform app that shows network traffic in a friendly interface (Rust). Unlike Wireshark it favours a readable overview over packet-level detail.",
     "src": "favlink",
-    "added": 1791536400
+    "added": 1791536400,
+    "vs": [
+      {
+        "u": "https://www.wireshark.org/#download",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://tailscale.com/",
@@ -621,7 +688,13 @@
     ],
     "tr": "WireGuard üzerine kurulu örgü VPN; cihazlarını NAT ve güvenlik duvarı arkasında olsalar bile doğrudan birbirine bağlıyor. Klasik VPN sunucusundan farkı merkezî bir çıkış düğümü olmaması — trafik cihazdan cihaza gidiyor, koordinasyon sunucusu yalnızca anahtar dağıtıyor.",
     "en": "A mesh VPN on top of WireGuard that connects your devices directly even behind NAT and firewalls. Unlike a classic VPN server there is no central exit hop: traffic goes device to device and the coordination server only hands out keys.",
-    "src": "cdcruz"
+    "src": "cdcruz",
+    "vs": [
+      {
+        "u": "https://openvpn.net/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.wireshark.org/#download",

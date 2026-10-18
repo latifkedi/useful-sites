@@ -8,6 +8,7 @@ can be unit-tested in the build job, which does not install requests.
 
 import datetime
 import re
+import zlib
 
 DEAD_CODES = {404, 410}
 DEAD_AFTER = 2
@@ -112,6 +113,68 @@ def stale_years(text, this_year, window=45):
         if PRESENT.search(near):
             out.add(y)
     return sorted(out)
+
+
+# Freshness tiers. A description goes stale at the speed of its field: an AI tool's
+# pricing, model list or waitlist changes within a quarter, a textbook's in years.
+# So a record is due a description recheck every 90 days in the AI categories and
+# finance/crypto, every 365 elsewhere. Stateless on purpose: the due week is
+# derived from the record's arrival date (or, without one, from a hash of its URL),
+# so a weekly run sees each record once per interval and nothing has to be stored.
+FAST_PREFIXES = ('yz_',)
+FAST_CATS = ('finans',)
+FAST_DAYS, SLOW_DAYS = 90, 365
+WEEK = 7
+
+# The words that make a description perishable: what it costs and whether you can
+# get in. "lock-free" and "free-form" are not price claims, hence the lookarounds.
+CLAIM = re.compile(r'(?<![-\w])(free|ücretsiz\w*|beta|waitlist|wait-list|bekleme listesi|'
+                   r'early access|erken erişim)(?![-\w])', re.I)
+# A week's review list stays short enough to be read; the overflow is counted, and
+# next week brings a different slice of records anyway.
+CLAIM_CAP = 25
+
+
+def recheck_days(cat):
+    """How often a record in this category is due a description recheck."""
+    cat = cat or ''
+    return FAST_DAYS if cat.startswith(FAST_PREFIXES) or cat in FAST_CATS else SLOW_DAYS
+
+
+def description_due(cat, url, added, today, window=WEEK):
+    """Whether a record's description falls due in the week starting `today` (ISO date).
+
+    `added` is the record's unix arrival time or None. A record is never due before
+    one full interval has passed since it arrived.
+    """
+    days = recheck_days(cat)
+    t = datetime.date.fromisoformat(today).toordinal()
+    if added:
+        start = datetime.datetime.fromtimestamp(added, datetime.timezone.utc).date().toordinal()
+    else:
+        start = zlib.crc32((url or '').encode('utf-8')) % days
+    age = t - start
+    return age >= days and age % days < window
+
+
+def time_claims(text):
+    """The perishable words (price, beta, waitlist) a description contains, lowercased."""
+    return sorted({m.group(1).lower() for m in CLAIM.finditer(text or '')})
+
+
+def claim_rechecks(rows, today, cap=CLAIM_CAP):
+    """Records due this week whose description makes a perishable claim.
+
+    rows: dicts with cat, url, added (or None), tr, en. Returns (picked, overflow):
+    at most `cap` of them, the 90-day tier first, and how many were left out.
+    """
+    due = []
+    for r in rows:
+        words = time_claims((r.get('tr') or '') + ' ' + (r.get('en') or ''))
+        if words and description_due(r.get('cat'), r.get('url'), r.get('added'), today):
+            due.append(dict(r, claims=words))
+    due.sort(key=lambda r: (recheck_days(r.get('cat')), r.get('url') or ''))
+    return due[:cap], max(0, len(due) - cap)
 
 
 def may_write(argv, env):

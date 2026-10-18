@@ -19,11 +19,18 @@
     "tags": [
       "açık-kaynak",
       "otomasyon",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-bilimi"
     ],
     "tr": "Gerçek zamanlı akış işleme motoru; olayları geldikçe, düşük gecikmeyle işler. Spark’ın toplu kökeninden farkı akışı birinci sınıf model olarak alması.",
     "en": "A real-time stream-processing engine that handles events as they arrive, with low latency. Unlike Spark’s batch roots it treats streaming as the first-class model.",
-    "src": "dataeng"
+    "src": "dataeng",
+    "vs": [
+      {
+        "u": "https://spark.apache.org/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://iceberg.apache.org/",
@@ -31,7 +38,8 @@
     "tags": [
       "açık-kaynak",
       "veritabanı",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-bilimi"
     ],
     "tr": "Büyük analitik tablolar için açık tablo biçimi; şema evrimi, zaman yolculuğu ve atomik yazma verir. Ham Parquet dizininden farkı tabloyu tutarlı, sürümlenebilir bir birim gibi yönetmesi.",
     "en": "An open table format for large analytical tables, giving schema evolution, time travel and atomic writes. Unlike a raw Parquet directory it manages the table as a consistent, versioned unit.",
@@ -43,12 +51,19 @@
     "tags": [
       "açık-kaynak",
       "otomasyon",
-      "ücretsiz"
+      "ücretsiz",
+      "backend"
     ],
     "tr": "Mesajları tüketildikten sonra da saklıyor; tüketiciler kendi konumlarını (offset) taşıyıp geçmişi yeniden okuyabiliyor. Klasik kuyruklardan (RabbitMQ) asıl ayrımı bu kalıcılık ve yeniden oynatma.",
     "en": "Retains messages after consumption, with consumers carrying their own offsets so they can replay history. The real split from classic queues (RabbitMQ) is that durability and replay.",
     "src": "kedi",
-    "added": 1776690087
+    "added": 1776690087,
+    "vs": [
+      {
+        "u": "https://www.rabbitmq.com/tutorials",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://spark.apache.org/",
@@ -105,7 +120,8 @@
     "tags": [
       "awesome-liste",
       "açık-kaynak",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-bilimi"
     ],
     "tr": "Apache Spark ekosistemi için paket, öğretici ve örnek listesi. Resmî dokümandan farkı topluluk kütüphanelerini ve gerçek dünya örneklerini toplaması.",
     "en": "A list of packages, tutorials and examples for the Apache Spark ecosystem. Unlike the official docs it gathers community libraries and real-world examples.",
@@ -123,7 +139,13 @@
     ],
     "tr": "Analitik için sütun temelli OLAP veritabanı; büyük ölçekte çok hızlı toplama yapıyor. PostgreSQL gibi satır temelli veritabanlarından farkı milyarlarca satırda toplama sorgularını saniyeler içinde bitirmesi; tekil kayıt güncellemede zayıf.",
     "en": "A columnar OLAP database for analytics, extremely fast at aggregations at scale. Unlike row-based databases such as PostgreSQL it finishes aggregation queries over billions of rows in seconds; it is weak at single-record updates.",
-    "src": "dataeng"
+    "src": "dataeng",
+    "vs": [
+      {
+        "u": "https://duckdb.org/",
+        "a": "barindirma"
+      }
+    ]
   },
   {
     "url": "https://dagster.io/",
@@ -136,7 +158,13 @@
     ],
     "tr": "Veri varlıklarını merkeze alan orkestratör; her tabloyu bir “varlık” olarak izliyor. Airflow’dan farkı görevden çok üretilen veriye odaklanıp veri kalitesini yerleşik tutması.",
     "en": "An orchestrator centred on data assets, tracking each table as an “asset”. Unlike Airflow it focuses on the data produced rather than the task, with data quality built in.",
-    "src": "dataeng"
+    "src": "dataeng",
+    "vs": [
+      {
+        "u": "https://airflow.apache.org/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.dataengineeringpodcast.com",
@@ -155,11 +183,18 @@
     "name": "Data Engineering Zoomcamp",
     "tags": [
       "müfredat",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-bilimi"
     ],
     "tr": "Veri mühendisliğini uçtan uca (Docker, dbt, Spark, Kafka, bulut) öğreten ücretsiz, projeli kurs. Dağınık öğreticilerden farkı gerçek bir boru hattını baştan sona kurdurması.",
     "en": "A free, project-based course teaching data engineering end to end (Docker, dbt, Spark, Kafka, cloud). Unlike scattered tutorials it has you build a real pipeline from start to finish.",
-    "src": "kedi"
+    "src": "kedi",
+    "vs": [
+      {
+        "u": "https://learn.microsoft.com/en-us/training/career-paths/data-engineer",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.databricks.com/",
@@ -206,7 +241,8 @@
     "tags": [
       "veri-bilimi",
       "açık-kaynak",
-      "ücretsiz"
+      "ücretsiz",
+      "veritabanı"
     ],
     "tr": "Veri göllerine ACID işlemleri ve zaman-yolculuğu getiren açık depolama katmanı. Düz Parquet dosyalarından farkı işlem güvenliği ve sürüm geçmişi eklemesi: göl bir tablo gibi güvenilir davranıyor.",
     "en": "An open storage layer bringing ACID transactions and time travel to data lakes. Unlike plain Parquet files it adds transactional safety and version history, so the lake behaves reliably like a table.",
@@ -250,7 +286,8 @@
     "tags": [
       "açık-kaynak",
       "python",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-bilimi"
     ],
     "tr": "Veri dönüşümlerini fonksiyonlardan bir grafik olarak kuran hafif Python kütüphanesi. Ağır orkestratörlerden farkı tek dosyada, altyapı gerektirmeden bağımlılık grafiği vermesi.",
     "en": "A lightweight Python library that builds data transformations as a graph from functions. Unlike heavy orchestrators it gives a dependency graph in a single file with no infrastructure.",
@@ -263,18 +300,26 @@
       "veri-bilimi",
       "açık-kaynak",
       "otomasyon",
-      "ücretsiz"
+      "ücretsiz",
+      "cli"
     ],
     "tr": "Singer temelli, komut satırı ve yapılandırma odaklı açık kaynak DataOps ELT platformu. Airbyte’ın arayüz odaklı yaklaşımından farkı her şeyin sürüm kontrolüne giren metin yapılandırmasıyla tanımlanması: veri hattını kod gibi yönetiyorsun.",
     "en": "An open-source DataOps ELT platform, Singer-based and CLI/config-driven. Unlike Airbyte’s UI-first approach everything is defined in text config that lives in version control — you manage the pipeline like code.",
-    "src": "dataeng"
+    "src": "dataeng",
+    "vs": [
+      {
+        "u": "https://airbyte.com",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://learn.microsoft.com/en-us/training/career-paths/data-engineer",
     "name": "Microsoft · Data Engineer Path",
     "tags": [
       "müfredat",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-bilimi"
     ],
     "tr": "Bulut veri mühendisliğini modül modül öğreten Microsoft öğrenme patikası. Ürün dokümanından farkı sınavla ölçülen, sıralı bir beceri yolu olarak kurgulanması.",
     "en": "A Microsoft learning path teaching cloud data engineering module by module. Unlike product docs it is framed as an ordered, exam-measured skill path.",

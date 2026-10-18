@@ -16,7 +16,8 @@
     "name": "Awesome Algorand",
     "tags": [
       "awesome-liste",
-      "ücretsiz"
+      "ücretsiz",
+      "kripto"
     ],
     "tr": "Proof-of-stake blokzincir Algorand için geliştirici kaynakları listesi. Ethereum listelerinden farkı saf proof-of-stake bir zincire ve onun akıllı sözleşme araçlarına odaklanması.",
     "en": "A list of developer resources for Algorand, a proof-of-stake blockchain. Unlike Ethereum lists, it focuses on a pure proof-of-stake chain and its smart-contract tooling.",
@@ -39,7 +40,8 @@
     "name": "Awesome Bitcoin",
     "tags": [
       "awesome-liste",
-      "ücretsiz"
+      "ücretsiz",
+      "kripto"
     ],
     "tr": "Bitcoin yazılımı geliştirmek için servis ve araç listesi. Genel kripto listelerinden farkı yalnız Bitcoin’e odaklanması: kütüphaneler, düğüm yazılımları, cüzdanlar, API’ler.",
     "en": "A list of services and tools for Bitcoin software development. Unlike general crypto lists, it focuses only on Bitcoin: libraries, node software, wallets, APIs.",
@@ -50,7 +52,9 @@
     "name": "Awesome Bitcoin Payment Processors",
     "tags": [
       "awesome-liste",
-      "ücretsiz"
+      "ücretsiz",
+      "self-hosted",
+      "kripto"
     ],
     "tr": "Bitcoin ödemesi kabul etmeye başlamak için işlemci ve araç listesi. Genel ödeme listelerinden farkı yalnız Bitcoin’e odaklanması ve kendin barındırdığın çözümlerle aracılı işlemcileri yan yana koyması.",
     "en": "A list of processors and tools to start accepting Bitcoin payments. Unlike general payment lists, it focuses on Bitcoin only and sets self-hosted solutions beside custodial processors.",
@@ -61,7 +65,8 @@
     "name": "Awesome Coins",
     "tags": [
       "awesome-liste",
-      "ücretsiz"
+      "ücretsiz",
+      "kripto"
     ],
     "tr": "Kripto para araçları ve algoritmalarının listesi — cüzdanlar, düğüm yazılımları, kütüphaneler. Fiyat sitelerinden farkı ürünü değil altındaki teknolojiyi toplaması.",
     "en": "A list of cryptocurrency tools and algorithms — wallets, node software, libraries. Unlike price sites it collects the underlying technology, not the product.",
@@ -72,7 +77,8 @@
     "name": "Awesome Cosmos",
     "tags": [
       "awesome-liste",
-      "ücretsiz"
+      "ücretsiz",
+      "kripto"
     ],
     "tr": "Uygulamaya özel blokzincir kuran Cosmos çatısı için kaynak listesi. Ethereum üzerinde akıllı sözleşme yazmaktan farkı Cosmos SDK ile uygulamana özel, kendi zincirini kurman.",
     "en": "A resource list for Cosmos, a modular framework for building app-specific blockchains. Unlike writing smart contracts on Ethereum, you build your own application-specific chain with the Cosmos SDK.",
@@ -95,7 +101,8 @@
     "name": "Awesome Ethereum",
     "tags": [
       "awesome-liste",
-      "ücretsiz"
+      "ücretsiz",
+      "kripto"
     ],
     "tr": "Akıllı sözleşme platformu Ethereum için geliştirici kaynakları listesi. Genel kripto listelerinden farkı akıllı sözleşme geliştirmeye — Solidity, geliştirme çatıları, test ağları — odaklanması.",
     "en": "A list of developer resources for Ethereum, the smart-contract platform. Unlike general crypto lists, it focuses on smart-contract development — Solidity, development frameworks, testnets.",
@@ -118,7 +125,8 @@
     "name": "Awesome Stock Trading",
     "tags": [
       "awesome-liste",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-bilimi"
     ],
     "tr": "Hisse senedi alım-satımı için kütüphane, strateji ve veri kaynaklarının derlemesi. Yatırım tavsiyesi değil; araçların bir arada listesi.",
     "en": "A collection of libraries, strategies and data sources for stock trading. Not investment advice; a list of the tooling in one place.",
@@ -130,7 +138,8 @@
     "tags": [
       "ücretsiz",
       "dokümantasyon",
-      "api"
+      "api",
+      "kripto"
     ],
     "tr": "Bitcoin üzerine uygulama geliştirmek için işlemler, RPC ve P2P ağını anlatan geliştirici kılavuzu ve başvurusu. Teknik makaleden farkı uygulamaya dönük belge olması.",
     "en": "A developer guide and reference for building on Bitcoin: transactions, RPC and the P2P network. Unlike the white paper it is practical documentation.",
@@ -142,7 +151,8 @@
     "name": "Bitcoin Stack Exchange",
     "tags": [
       "ücretsiz",
-      "referans"
+      "referans",
+      "kripto"
     ],
     "tr": "Bitcoin kullanıcıları ve geliştiricileri için soru-cevap sitesi. Forumlardan farkı cevapların oylanıp düzenlenmesi, böylece iyi cevap üste çıkıyor.",
     "en": "A Q&A site for Bitcoin users and developers. Unlike forums, answers are voted and edited, so the good one rises to the top.",
@@ -155,19 +165,27 @@
     "tags": [
       "akademik",
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "kripto"
     ],
     "tr": "Bitcoin’i tanıtan dokuz sayfalık makale. İkincil anlatımlardan farkı kaynağın kendisi olması: kısa, okunur ve sonraki her iddianın karşılaştırılacağı metin.",
     "en": "The nine-page paper that introduced Bitcoin. Unlike secondary explanations it is the source: short, readable, and the text every later claim should be checked against.",
     "src": "cryptolist",
-    "added": 1791536400
+    "added": 1791536400,
+    "vs": [
+      {
+        "u": "https://github.com/bitcoinbook/bitcoinbook",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://en.bitcoin.it/wiki/Main_Page",
     "name": "Bitcoin Wiki",
     "tags": [
       "ücretsiz",
-      "referans"
+      "referans",
+      "kripto"
     ],
     "tr": "Bitcoin’in nasıl çalıştığını anlatan topluluk wiki’si: protokol, betik dili, tarih. Haber sitelerinden farkı tarihli yazı değil bakımı süren bir başvuru kaynağı olması.",
     "en": "The community wiki on how Bitcoin works: protocol, script, history. Unlike news sites it is a maintained reference, not dated articles.",
@@ -182,7 +200,8 @@
       "api",
       "python",
       "javascript",
-      "ücretsiz"
+      "ücretsiz",
+      "kripto"
     ],
     "tr": "Yüzü aşkın kripto borsasına tek bir API ile bağlanan kütüphane (JavaScript, Python, PHP ve diğerleri). Her borsanın kendi SDK’sından farkı bir kez yazıp borsa değiştirebilmen.",
     "en": "A library giving one API over more than a hundred crypto exchanges (JavaScript, Python, PHP and others). Unlike each exchange’s own SDK you write once and switch exchange freely.",
@@ -194,24 +213,19 @@
     "name": "CoinCap",
     "tags": [
       "ücretsiz",
-      "api"
+      "api",
+      "kripto"
     ],
     "tr": "Piyasa değerine göre kripto para fiyat ve sıralaması; verisi ücretsiz bir API ile de sunuluyor. Daha kalabalık takipçilerden farkı sade bir tablo ve doğrudan veri erişimi.",
     "en": "Crypto prices and market-cap rankings, with the data also available through a free API. Unlike busier trackers it is a plain table with direct data access.",
     "src": "cryptolist",
-    "added": 1791536400
-  },
-  {
-    "url": "https://www.coindesk.com/",
-    "name": "CoinDesk",
-    "tags": [
-      "ücretsiz",
-      "referans"
-    ],
-    "tr": "Kripto para ve blokzincir haberleri, piyasa verisi ve analiz sitesi. CryptoPanic gibi derleyicilerden farkı kendi muhabirliğini yapması.",
-    "en": "A crypto and blockchain news site with market data and analysis. Unlike aggregators such as CryptoPanic it does its own reporting.",
-    "src": "cryptolist",
-    "added": 1791536400
+    "added": 1791536400,
+    "vs": [
+      {
+        "u": "https://www.coingecko.com",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.coingecko.com",
@@ -219,7 +233,8 @@
     "tags": [
       "veri-bilimi",
       "api",
-      "freemium"
+      "freemium",
+      "kripto"
     ],
     "tr": "Binlerce kripto varlığın piyasa verisini merkeziyetsiz borsalar dahil sunuyor; ücretsiz API’si var. CoinMarketCap’ten (2020’den beri Binance’in) farkı bağımsız olması ve DEX’leri ve küçük varlıkları daha geniş kapsaması.",
     "en": "Market data for thousands of crypto assets, DEXes included, with a free API. Unlike CoinMarketCap (owned by Binance since 2020), it is independent and covers DEXes and small assets more widely.",
@@ -237,23 +252,12 @@
     "tags": [
       "veri-bilimi",
       "ücretsiz",
-      "api"
+      "api",
+      "kripto"
     ],
     "tr": "Kripto fiyat ve sıralamalarında yaygın kullanılan, piyasa değerine göre listeleme sunan site. CoinGecko’dan farkı 2020’den beri Binance’e ait olması — bir borsanın sahibi olduğu veri kaynağı olduğunu akılda tut.",
     "en": "Widely used crypto prices and rankings by market cap. Unlike CoinGecko it has been owned by Binance since 2020 — worth remembering that an exchange owns this data source.",
     "src": "econ"
-  },
-  {
-    "url": "https://cryptopanic.com/",
-    "name": "CryptoPanic",
-    "tags": [
-      "freemium",
-      "referans"
-    ],
-    "tr": "Başlıkları fiyata etkisine göre işaretleyen kripto haber derleyicisi. Tek bir haber sitesinden farkı birçok kaynağı tek akışta toplaması.",
-    "en": "A crypto news aggregator that marks headlines by their expected effect on price. Unlike a single news site it gathers many sources into one feed.",
-    "src": "cryptolist",
-    "added": 1791536400
   },
   {
     "url": "https://defillama.com",
@@ -261,7 +265,8 @@
     "tags": [
       "veri-bilimi",
       "açık-kaynak",
-      "ücretsiz"
+      "ücretsiz",
+      "kripto"
     ],
     "tr": "Zincirler genelinde DeFi kilitli değer (TVL) analitiği. Kendi tokeni olan analitik sitelerinin aksine tokeni yok ve metodolojisi açık: tarafsızlık iddiasını bu yapıyla destekliyor.",
     "en": "DeFi total-value-locked analytics across chains. Unlike analytics sites with a token of their own it has none and publishes its methodology, which is how it backs its claim to neutrality.",
@@ -274,11 +279,18 @@
       "veri-bilimi",
       "interaktif",
       "freemium",
-      "api"
+      "api",
+      "kripto"
     ],
     "tr": "Blokzincir verisi üzerinde SQL sorgularıyla topluluk panoları kuran analitik platform. Etherscan gibi blok gezginlerinden farkı tek işleme bakmak yerine zincirin tamamında kendi analizini yazabilmen.",
     "en": "An analytics platform where the community builds dashboards with SQL queries over blockchain data. Unlike block explorers such as Etherscan, you write your own analysis across the whole chain instead of looking at one transaction.",
-    "src": "econ"
+    "src": "econ",
+    "vs": [
+      {
+        "u": "https://etherscan.io",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://electrum.org/",
@@ -286,7 +298,8 @@
     "tags": [
       "açık-kaynak",
       "masaüstü",
-      "ücretsiz"
+      "ücretsiz",
+      "kripto"
     ],
     "tr": "2011’den beri geliştirilen hafif, açık kaynaklı Bitcoin cüzdanı. Tam düğüm cüzdanlarından farkı zinciri indirmemesi — hız kazanıyor, karşılığında sunuculara bir ölçüde güveniyorsun.",
     "en": "A lightweight open-source Bitcoin wallet, developed since 2011. Unlike full-node wallets it does not download the chain — you gain speed and trade some trust in servers for it.",
@@ -299,7 +312,8 @@
     "tags": [
       "veri-bilimi",
       "api",
-      "ücretsiz"
+      "ücretsiz",
+      "kripto"
     ],
     "tr": "Ethereum’un kanonik blok gezgini; işlem izleme, sözleşme doğrulama ve API sağlıyor. Dune’dan farkı tek bir işlemi, adresi ya da sözleşmeyi ayrıntısıyla incelemeye yönelik olması.",
     "en": "Ethereum’s canonical block explorer, with transaction tracing, contract verification and an API. Unlike Dune it is built for inspecting a single transaction, address or contract in detail.",
@@ -310,45 +324,73 @@
     "name": "Ethplorer",
     "tags": [
       "ücretsiz",
-      "referans"
+      "araç",
+      "kripto"
     ],
     "tr": "Ethereum token gezgini: sahipler, transferler ve token sayfaları. Etherscan’den farkı token ve sahip dağılımını merkeze alması.",
     "en": "An Ethereum token explorer: holders, transfers and token pages. Unlike Etherscan it centres on tokens and their holder distribution.",
     "src": "cryptolist",
-    "added": 1791536400
+    "added": 1791536400,
+    "vs": [
+      {
+        "u": "https://etherscan.io",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://finviz.com",
     "name": "Finviz",
     "tags": [
       "interaktif",
-      "freemium"
+      "freemium",
+      "veri-bilimi"
     ],
     "tr": "ABD borsasını tek ekranda ısı haritası ve yoğun filtrelerle tarayan görsel hisse tarayıcısı. Yahoo Finance’e kıyasla tek hisseye değil tüm piyasaya bakmak ve filtrelemek için; gerçek zamanlı veri ücretli.",
     "en": "A visual stock screener that scans the US market on one screen with a heatmap and dense filters. Compared with Yahoo Finance it is for looking across the whole market and filtering, not one stock; real-time data is paid.",
-    "src": "econ"
+    "src": "econ",
+    "vs": [
+      {
+        "u": "https://finance.yahoo.com",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://glassnode.com",
     "name": "Glassnode",
     "tags": [
       "veri-bilimi",
-      "freemium"
+      "freemium",
+      "kripto"
     ],
     "tr": "Zincir üstü (on-chain) metrikler ve türev göstergelerle kripto piyasa istihbaratı. Fiyat sitelerinden farkı cüzdan hareketleri ve arz dağılımı gibi zincirin kendisinden gelen veriyi çözümlemesi; çoğu metrik ücretli.",
     "en": "Crypto market intelligence through on-chain metrics and derived indicators. Unlike price sites it analyses data from the chain itself — wallet flows, supply distribution; most metrics are paid.",
-    "src": "econ"
+    "src": "econ",
+    "vs": [
+      {
+        "u": "https://coinmarketcap.com",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.investing.com",
     "name": "Investing.com",
     "tags": [
       "veri-bilimi",
-      "freemium"
+      "freemium",
+      "veri-seti"
     ],
     "tr": "Çok varlıklı gerçek zamanlı kotasyon ve ekonomik takvimi geniş kapsamla bir arada veriyor. Yahoo Finance’e kıyasla ekonomik takvimi ve Türkiye piyasaları (Türkçe sürümüyle) kapsamı güçlü.",
     "en": "Multi-asset real-time quotes together with an economic calendar in broad coverage. Compared with Yahoo Finance its economic calendar and coverage of Turkish markets, with a Turkish edition, are stronger.",
-    "src": "econ"
+    "src": "econ",
+    "vs": [
+      {
+        "u": "https://finance.yahoo.com",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.investopedia.com",
@@ -380,11 +422,18 @@
     "tags": [
       "öğretici",
       "ücretsiz",
-      "referans"
+      "referans",
+      "kripto"
     ],
     "tr": "Bitcoin’in teknik işleyişini — işlem yapısı, betik dili, madencilik — örneklerle anlatan site. Beyaz bültenden farkı somut olması: gerçek işlemleri baytına kadar açıp gösteriyor.",
     "en": "Explains Bitcoin’s technical workings — transaction structure, script, mining — through worked examples. Against the whitepaper it is concrete: real transactions pulled apart byte by byte.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://github.com/bitcoinbook/bitcoinbook",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.macrotrends.net",
@@ -403,12 +452,19 @@
     "name": "MetaMask",
     "tags": [
       "eklenti",
-      "ücretsiz"
+      "ücretsiz",
+      "kripto"
     ],
     "tr": "Ethereum uyumlu ağlar için en yaygın tarayıcı eklentisi cüzdanı. Donanım cüzdanlarından farkı anahtarın cihazın yazılımında durması: rahat, ama makinen kadar güvenli.",
     "en": "The most widely used browser-extension wallet for Ethereum-compatible networks. Unlike hardware wallets the keys live in software on your device: convenient, but only as safe as your machine.",
     "src": "cryptolist",
-    "added": 1791536400
+    "added": 1791536400,
+    "vs": [
+      {
+        "u": "https://electrum.org/",
+        "a": "platform"
+      }
+    ]
   },
   {
     "url": "https://aswathdamodaran.blogspot.com",
@@ -440,7 +496,8 @@
     "tags": [
       "açık-kaynak",
       "güvenlik",
-      "ücretsiz"
+      "ücretsiz",
+      "kripto"
     ],
     "tr": "Solidity için denetlenmiş akıllı sözleşme kütüphaneleri ve güvenlik araçları. Token ya da yetki sözleşmelerini kendin yazmaktan farkı yaygın kullanımda sınanmış yapı taşları sunması.",
     "en": "Audited smart-contract libraries and security tooling for Solidity. Unlike writing token or access-control contracts yourself, they are building blocks tested in wide use.",
@@ -453,7 +510,8 @@
     "tags": [
       "interaktif",
       "freemium",
-      "veri-bilimi"
+      "veri-bilimi",
+      "tarayıcı-içi"
     ],
     "tr": "Portföy geriye dönük testi, Monte Carlo ve faktör analizini tarayıcıda yapan araç. Elektronik tabloda elle kurmaktan farkı bu analizlerin hazır ve veriyle birlikte gelmesi; bazı özellikler ücretli.",
     "en": "Runs portfolio backtesting, Monte Carlo simulation and factor analysis in the browser. Unlike building them by hand in a spreadsheet, the analyses come ready with the data; some features are paid.",
@@ -464,33 +522,63 @@
     "name": "StockAnalysis",
     "tags": [
       "veri-bilimi",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-seti"
     ],
     "tr": "Hisse verisi ve finansalları hızlı, sade ve cömert bir ücretsiz katmanla veren site. Yahoo Finance’e kıyasla reklamı az ve finansal tablolar daha uzun geçmişle, düzenli sunuluyor.",
     "en": "Fast, clean stock data and financials with a generous free tier. Compared with Yahoo Finance it has fewer ads, and financial statements are laid out cleanly with longer history.",
-    "src": "econ"
-  },
-  {
-    "url": "https://whattomine.com/",
-    "name": "WhatToMine",
-    "tags": [
-      "ücretsiz",
-      "interaktif"
-    ],
-    "tr": "Hash gücün, elektrik tüketimin ve fiyatına göre GPU ile kazılabilir coinlerin kârlılığını karşılaştıran hesaplayıcı. Genel fiyat takipçilerinden farkı doğrudan madencilik kârı hesaplaması.",
-    "en": "A calculator comparing the profitability of GPU-mineable coins from your hashrate, power draw and electricity price. Unlike general price trackers it computes mining profit directly.",
-    "src": "cryptolist",
-    "added": 1791536400
+    "src": "econ",
+    "vs": [
+      {
+        "u": "https://finance.yahoo.com",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://finance.yahoo.com",
     "name": "Yahoo Finance",
     "tags": [
       "veri-bilimi",
-      "freemium"
+      "freemium",
+      "veri-seti"
     ],
     "tr": "Kotasyon, bilanço ve portföy takibi; tarihsel fiyat verisini ücretsiz indirtiyor. Ücretli terminallerden farkı bu geniş ücretsiz kapsam; karşılığında veri çoğunlukla gecikmeli.",
     "en": "Quotes, financials and portfolio tracking, with free historical price downloads. Unlike paid terminals its free coverage is broad; the trade-off is that the data is mostly delayed.",
     "src": "econ"
+  },
+  {
+    "url": "https://www.kap.org.tr/tr",
+    "name": "KAP — Kamuyu Aydınlatma Platformu",
+    "tags": [
+      "referans",
+      "veri-seti",
+      "türkçe",
+      "ücretsiz"
+    ],
+    "tr": "Borsa İstanbul şirketlerinin yasal bildirimlerinin yayımlandığı platform: finansal tablolar, özel durum açıklamaları, genel kurul ve sermaye artırımı duyuruları. Yahoo Finance gibi veri sitelerinden farkı bildirimin ilk ve bağlayıcı hâlini göstermesi; ABD’deki SEC EDGAR’ın karşılığı.",
+    "en": "The platform where Borsa Istanbul companies publish their legal disclosures: financial statements, material-event notices, general meetings and capital increases. Unlike data sites such as Yahoo Finance it shows the filing in its first, binding form; the Turkish counterpart of the SEC’s EDGAR.",
+    "src": "bosluk",
+    "added": 1792281600,
+    "vs": [
+      {
+        "u": "https://finance.yahoo.com",
+        "a": "yaklasim"
+      }
+    ]
+  },
+  {
+    "url": "https://www.tefas.gov.tr/",
+    "name": "TEFAS — Türkiye Elektronik Fon Alım Satım Platformu",
+    "tags": [
+      "araç",
+      "veri-seti",
+      "türkçe",
+      "ücretsiz"
+    ],
+    "tr": "Takasbank’ın yatırım fonu platformu; açık sayfalarında platformdaki fonların fiyatları, dönemsel getirileri ve portföy dağılımları karşılaştırılabiliyor. Bir bankanın kendi fon listesinden farkı platformdaki fonları kurucusundan bağımsız tek tabloda yan yana koyması.",
+    "en": "Takasbank’s investment-fund platform; its public pages compare prices, period returns and asset allocation across funds. Unlike a single bank’s fund list it puts the platform’s funds side by side in one table regardless of who runs them.",
+    "src": "bosluk",
+    "added": 1792281600
   }
 ]

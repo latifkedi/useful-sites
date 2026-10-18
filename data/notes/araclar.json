@@ -4,7 +4,8 @@
     "name": "AppList",
     "tags": [
       "ücretsiz",
-      "referans"
+      "araç",
+      "mobil"
     ],
     "tr": "iPhone için metin listesi biçiminde uygulama başlatıcı. Varsayılan simge ızgarasının aksine dikkat çeken renkli simgeleri kaldırıyor — dijital minimalizm tarafında bilinçli bir sürtünme.",
     "en": "A text-list app launcher for iPhone. Unlike the default icon grid it removes attention-grabbing colourful icons — deliberate friction on the digital minimalism side.",
@@ -19,14 +20,21 @@
     ],
     "tr": "Ekip işini, görev ve iş akışlarını izleyen proje yönetim platformu. Jira’ya kıyasla yazılım dışı ekiplere daha uygun ve kurulumu hafif; karşılığında geliştirme süreçlerine özgü özellikleri daha az.",
     "en": "A project-management platform tracking team work, tasks and workflows. Compared with Jira it suits non-software teams better and is lighter to set up, with fewer development-specific features.",
-    "src": "awesomeproj"
+    "src": "awesomeproj",
+    "vs": [
+      {
+        "u": "https://www.atlassian.com/software/jira",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://github.com/xxczaki/awesome-calculators",
     "name": "Awesome Calculators",
     "tags": [
       "awesome-liste",
-      "ücretsiz"
+      "ücretsiz",
+      "araç"
     ],
     "tr": "Her platform için hesap makinesi araçlarının listesi. Tek bir hesap makinesinden farkı seçenekleri platforma göre — masaüstü, mobil, web, komut satırı — düzenlemesi.",
     "en": "A list of calculator tools for every platform. Unlike a single calculator, it arranges options by platform — desktop, mobile, web, command line.",
@@ -37,7 +45,9 @@
     "name": "Awesome No-Login Web Apps",
     "tags": [
       "awesome-liste",
-      "ücretsiz"
+      "ücretsiz",
+      "hesap-gerekmez",
+      "tarayıcı-içi"
     ],
     "tr": "Giriş yapmadan çalışan kullanışlı web uygulamalarının listesi. Genel araç listelerinden farkı hesap açma şartı olmayanları seçmesi: veri vermeden hemen kullan.",
     "en": "A list of useful web apps that work without login. Unlike general tool lists, it picks only those with no sign-up — use them at once without handing over data.",
@@ -62,7 +72,8 @@
     "tags": [
       "açık-kaynak",
       "masaüstü",
-      "ücretsiz"
+      "ücretsiz",
+      "araç"
     ],
     "tr": "Windows’a program kurma, ayar yapma ve onarım için Chris Titus’un PowerShell aracı. Elle kayıt defteri düzenleyen rehberlerden farkı bunları onay kutuları olarak sunması — her ayar betiği gibi çalıştırmadan önce okunmalı.",
     "en": "Chris Titus’s PowerShell tool for installing programs, applying tweaks and fixing Windows. Unlike registry-editing guides it offers them as checkboxes — and like any tweak script it should be read before it is run.",
@@ -75,7 +86,8 @@
     "tags": [
       "açık-kaynak",
       "javascript",
-      "ücretsiz"
+      "ücretsiz",
+      "araç"
     ],
     "tr": "Bir web sayfasının ana içeriğini temiz Markdown olarak çıkaran kütüphane. Düz HTML’den Markdown’a çevirmeden farkı önce gezinme ve gürültüyü ayıklaması.",
     "en": "A library that extracts a web page’s main content as clean Markdown. Unlike a plain HTML-to-Markdown conversion it first strips navigation and clutter.",
@@ -87,7 +99,8 @@
     "name": "Everything",
     "tags": [
       "ücretsiz",
-      "masaüstü"
+      "masaüstü",
+      "araç"
     ],
     "tr": "Windows’ta dosya adına göre anlık arama; NTFS ana dosya tablosunu okuyarak indeks kuruyor. Windows Search’ten farkı bu: içerik indekslemediği için ilk taraması saniyeler sürüyor ve sonuçlar yazarken anında geliyor.",
     "en": "Instant filename search on Windows, built by reading the NTFS master file table directly. That is the trick against Windows Search: it does not index content, so the first scan takes seconds and results appear as you type.",
@@ -98,7 +111,8 @@
     "name": "Full Page Screen Capture",
     "tags": [
       "eklenti",
-      "ücretsiz"
+      "ücretsiz",
+      "araç"
     ],
     "tr": "Tüm sayfayı (kaydırma dâhil) tek görüntüye alan Chrome eklentisi. DevTools’taki gizli “tam boy ekran görüntüsü” komutuna kıyasla tek tık ve PDF olarak da kaydedebiliyor.",
     "en": "A Chrome extension that captures an entire page — scrolling included — as one image. Compared with DevTools’ hidden full-size screenshot command it is one click, and can save as PDF too.",
@@ -109,7 +123,8 @@
     "name": "GitHub Gist",
     "tags": [
       "ücretsiz",
-      "git"
+      "git",
+      "araç"
     ],
     "tr": "Tek dosyalık kod parçalarını sürüm geçmişiyle paylaşma servisi; yorum ve çatallama desteği olduğu için pastebin’den kalıcı.",
     "en": "Shares single-file snippets with version history; comments and forking make it more durable than a pastebin.",
@@ -123,7 +138,13 @@
     ],
     "tr": "Bulutta senkronlu, hızlı yapışkan not aracı; liste, hatırlatıcı ve sesli not destekliyor. Notion ya da Obsidian’dan farkı hız: yapı kurmadan not düşüyorsun; karşılığında düzenleme ve bağlantı özellikleri sınırlı.",
     "en": "A quick sticky-note tool synced in the cloud, with lists, reminders and voice notes. Unlike Notion or Obsidian it wins on speed — you jot without building structure; the trade-off is limited formatting and linking.",
-    "src": "awesomeproj"
+    "src": "awesomeproj",
+    "vs": [
+      {
+        "u": "https://www.notion.so/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://qsniyg.github.io/maxurl/",
@@ -153,7 +174,9 @@
     "name": "LittleLink",
     "tags": [
       "açık-kaynak",
-      "ücretsiz"
+      "ücretsiz",
+      "self-hosted",
+      "hesap-gerekmez"
     ],
     "tr": "Açık kaynaklı, kendin barındırdığın “biyografide bağlantı” sayfası: markalı düğmelerle tek bir küçük HTML/CSS sayfası. Linktree’den farkı ücretsiz ve hesapsız olması — bir dosyayı düzenleyip yayınlıyorsun.",
     "en": "An open-source link-in-bio page you host yourself: one small HTML/CSS page with branded buttons. Unlike Linktree it costs nothing and needs no account — you edit a file and deploy it.",
@@ -165,7 +188,8 @@
     "name": "LittleLink Button Builder",
     "tags": [
       "ücretsiz",
-      "tarayıcı-içi"
+      "tarayıcı-içi",
+      "araç"
     ],
     "tr": "LittleLink sayfaları için markalı bağlantı düğmeleri üreten araç. Düğmeleri elle çizmekten farkı hazır renk ve simgeyle çalışması.",
     "en": "A tool for making branded link buttons for LittleLink pages. Unlike drawing buttons by hand it works from ready colours and logos.",
@@ -177,7 +201,8 @@
     "name": "MacroDroid",
     "tags": [
       "freemium",
-      "otomasyon"
+      "otomasyon",
+      "mobil"
     ],
     "tr": "Android’de tetikleyici-eylem kuralları kuruyorsun: konuma girince Wi-Fi aç, şarj olurken sessize al. Tasker kadar güçlü değil ama arayüzü kat kat anlaşılır.",
     "en": "Builds trigger-action rules on Android — Wi-Fi on when you reach a location, silent while charging. Less powerful than Tasker and vastly more comprehensible.",
@@ -190,7 +215,8 @@
     "tags": [
       "açık-kaynak",
       "ücretsiz",
-      "masaüstü"
+      "masaüstü",
+      "araç"
     ],
     "tr": "Windows’a eksik özellikleri ekleyen resmi araç seti: pencere yerleşimi (FancyZones), toplu yeniden adlandırma, renk seçici, metin çıkarma. Üçüncü parti araçlardan farkı Microsoft’un kendi geliştirip açık kaynak tutması — güncellemelerle uyumu bozulmuyor.",
     "en": "The official set of tools that adds what Windows lacks: window layouts (FancyZones), bulk rename, colour picker, text extraction. Unlike third-party equivalents it is built and kept open source by Microsoft, so updates do not break it.",
@@ -212,7 +238,8 @@
     "tags": [
       "açık-kaynak",
       "masaüstü",
-      "ücretsiz"
+      "ücretsiz",
+      "araç"
     ],
     "tr": "Apple’ın artık desteklemediği Mac’lere yeni macOS kurmaya yarayan araç. Son resmî sürümde kalmaktan farkı yeni sürümleri almak; bedeli desteklenmeyen donanım tuhaflıkları — hangi Mac ve sürümleri desteklediğini projeden kontrol et.",
     "en": "A tool for installing recent macOS on Macs Apple no longer supports. Unlike staying on the last official release you get new versions; the cost is unsupported-hardware quirks — check the project for which Macs and versions it currently covers.",
@@ -223,18 +250,27 @@
     "url": "https://pastebin.com",
     "name": "Pastebin",
     "tags": [
-      "ücretsiz"
+      "ücretsiz",
+      "araç",
+      "hesap-gerekmez"
     ],
     "tr": "Metin ve günlük paylaşmanın en basit yolu; sözdizimi vurgulama ve süre sınırı var. GitHub Gist’ten farkı hesap istememesi; hassas veri yapıştırmamak gerektiğini akılda tut.",
     "en": "The simplest way to share text or a log, with syntax highlighting and expiry. Unlike GitHub Gist it needs no account; remember not to paste anything sensitive.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://gist.github.com",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.protectedtext.com/",
     "name": "ProtectedText",
     "tags": [
       "gizlilik",
-      "ücretsiz"
+      "ücretsiz",
+      "hesap-gerekmez"
     ],
     "tr": "Kayıt gerektirmeyen, şifreli çevrimiçi not defteri; parola tarayıcıdan çıkmıyor. Pastebin’in aksine sunucu notu düz metin olarak görmüyor.",
     "en": "An encrypted online notepad that needs no registration; the password never leaves your browser. Unlike Pastebin, the server never sees the note in plain text.",
@@ -246,7 +282,8 @@
     "tags": [
       "açık-kaynak",
       "ücretsiz",
-      "masaüstü"
+      "masaüstü",
+      "araç"
     ],
     "tr": "Önyüklenebilir USB hazırlayan Windows aracı; ISO’yu yazarken UEFI/BIOS ve bölümleme ayrıntılarını kendisi çözüyor. Diğer yazıcılardan farkı Windows 11 kurulumundaki TPM ve hesap zorunluluğunu kaldıran seçenekleri sunması.",
     "en": "A Windows tool for writing bootable USB drives that works out the UEFI/BIOS and partitioning details itself. What sets it apart from other writers is the option to strip the TPM and account requirements out of a Windows 11 install.",
@@ -296,7 +333,13 @@
     ],
     "tr": "Kişisel ve ekip projelerini yöneten, hızlı yakalamaya odaklı yapılacaklar aracı. Notion gibi çok amaçlı araçlardan farkı yalnız göreve odaklanması; “yarın 9’da” gibi doğal dil tarih girişini anlıyor.",
     "en": "A to-do tool for personal and team projects, focused on fast capture. Unlike all-purpose tools such as Notion it focuses solely on tasks, and understands natural-language dates like “tomorrow at 9”.",
-    "src": "awesomeproj"
+    "src": "awesomeproj",
+    "vs": [
+      {
+        "u": "https://www.notion.so/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://trello.com/",
@@ -306,16 +349,23 @@
     ],
     "tr": "Projeleri kart ve panolarla (Kanban) yöneten sade görev aracı; Atlassian’a ait. Jira’ya kıyasla kurulumu dakikalar sürüyor, karşılığında büyük ekiplerin raporlama ihtiyacını karşılamıyor.",
     "en": "A simple task tool managing projects with cards and boards (Kanban), owned by Atlassian. Compared with Jira it takes minutes to set up, but does not meet large teams’ reporting needs.",
-    "src": "awesomeproj"
+    "src": "awesomeproj",
+    "vs": [
+      {
+        "u": "https://www.atlassian.com/software/jira",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://github.com/ZeoRexDevs/Udeler_GUI",
     "name": "Udeler GUI",
     "tags": [
       "açık-kaynak",
-      "referans",
+      "araç",
       "arşivlenmiş",
-      "ücretsiz"
+      "ücretsiz",
+      "çevrimdışı"
     ],
     "tr": "Satın aldığın Udemy kurslarını çevrimdışı izlemek için indiren araç; depo 2024’te arşivlendi. Udemy uygulamasının çevrimdışı modundan farkı dosyaların sende kalması — ama Udemy’nin DRM’li kurslarında artık çalışmayabilir.",
     "en": "Downloads Udemy courses you own for offline viewing; the repository was archived in 2024. Unlike the Udemy app’s offline mode the files stay with you — though it may no longer work on Udemy’s DRM-protected courses.",

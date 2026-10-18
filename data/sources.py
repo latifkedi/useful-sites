@@ -185,6 +185,15 @@ SOURCES = {
         'note_en': 'Surfaced by Invesp’s "109 useful websites" post',
         'url': 'https://www.invespcro.com/blog/109-useful-websites-online-applications/',
     },
+    'bosluk': {
+        'label_tr': 'Boşluk Taraması',
+        'label_en': 'Gap Review',
+        'note_tr': 'Ekim 2026 kapsam taramasında eklendi (Türkiye kamu verisi, LaTeX, CBS, WebAssembly, '
+                   'erişilebilirlik, regex, araştırma araçları); her adres açılıp denetlendi',
+        'note_en': 'Added in the October 2026 coverage review (Turkish public data, LaTeX, GIS, WebAssembly, '
+                   'accessibility, regex, research tools); each address was opened and checked',
+        'url': None,
+    },
 }
 
 DEFAULT = 'kedi'

@@ -4,24 +4,38 @@
     "name": "Adobe Firefly",
     "tags": [
       "görsel-üretim",
-      "freemium"
+      "freemium",
+      "tasarım"
     ],
     "tr": "Adobe Stock ve süresi dolmuş telifli eserlerle eğitildiği için ticari kullanımda hukuki risk düşük. Müşteri işinde tercih edilmesinin sebebi görsel kalitesi değil, bu lisans netliği.",
     "en": "Trained on Adobe Stock and public-domain work, so commercial legal risk is low. It gets picked for client work because of that licence clarity, not image quality.",
     "src": "kedi",
-    "added": 1787000000
+    "added": 1787000000,
+    "vs": [
+      {
+        "u": "https://ideogram.ai/",
+        "a": "lisans"
+      }
+    ]
   },
   {
     "url": "https://auphonic.com/",
     "name": "Auphonic",
     "tags": [
       "ses",
-      "freemium"
+      "freemium",
+      "araç"
     ],
     "tr": "Seviye eşitleme, gürültü azaltma ve yayın normlarına (LUFS) göre ses yüksekliği ayarı yapıyor. Canlı değil son işlem aracı; podcast yayımlamadan önceki son adım.",
     "en": "Levels, denoises and normalises loudness to broadcast targets (LUFS). A post-production tool, not a live one — the last step before a podcast ships.",
     "src": "kedi",
-    "added": 1787000000
+    "added": 1787000000,
+    "vs": [
+      {
+        "u": "https://krisp.ai/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://github.com/sindresorhus/awesome-whisper",
@@ -41,7 +55,8 @@
     "name": "Bing Image Creator",
     "tags": [
       "ücretsiz",
-      "görsel-üretim"
+      "görsel-üretim",
+      "tarayıcı-içi"
     ],
     "tr": "DALL·E tabanlı, Microsoft hesabı dışında engel yok. Kalite üst sınıf değil ama sürtünmesi en düşük seçeneklerden.",
     "en": "DALL·E-based with no barrier beyond a Microsoft account. Not top-tier quality, but among the lowest-friction options.",
@@ -66,8 +81,9 @@
     "url": "https://www.canva.com/",
     "name": "Canva",
     "tags": [
-      "görsel-üretim",
-      "freemium"
+      "tasarım",
+      "freemium",
+      "araç"
     ],
     "tr": "Şablon kütüphanesi ve marka kiti sayesinde tasarım bilgisi olmadan tutarlı çıktı alınıyor. Figma’dan farkı şablon öncelikli olması; sınırı da bu: şablonların dışına çıkıldığında araç direniyor.",
     "en": "A template library and brand kit produce consistent output without design skill. Unlike Figma it is template-first; that is also the ceiling — the tool resists once you step outside the templates.",
@@ -92,7 +108,7 @@
     "name": "Clipdrop",
     "tags": [
       "görsel-üretim",
-      "referans",
+      "araç",
       "freemium"
     ],
     "tr": "Nesne silme, yeniden ışıklandırma, büyütme ve arka plan değiştirmeyi tek yerde topluyor. Her biri için ayrı servis aramak yerine bir hesapla dolaşabiliyorsun.",
@@ -125,7 +141,8 @@
     "name": "Craiyon",
     "tags": [
       "ücretsiz",
-      "görsel-üretim"
+      "görsel-üretim",
+      "hesap-gerekmez"
     ],
     "tr": "Kayıt istemeden çalışan görsel üreteci. Güncel modellere kıyasla çıktı kalitesi belirgin geride; hızlı ve engelsiz denemeden başka bir iddiası yok.",
     "en": "An image generator that works without signup. Compared with current models its output quality is well behind; it claims nothing beyond fast, frictionless experimentation.",
@@ -165,7 +182,8 @@
     "name": "Gamma",
     "tags": [
       "llm",
-      "freemium"
+      "freemium",
+      "araç"
     ],
     "tr": "Slayt yerine kaydırılabilir sayfa üretiyor; içerik uzadıkça düzen kendini ayarlıyor, kutuya sığdırma derdi kalkıyor. Çıktı PowerPoint ve PDF olarak alınabiliyor.",
     "en": "Produces scrollable pages rather than slides, with the layout adapting as content grows so you stop fighting to fit a box. Exports to PowerPoint and PDF.",
@@ -177,7 +195,7 @@
     "name": "Homestyler",
     "tags": [
       "cad",
-      "referans",
+      "araç",
       "freemium"
     ],
     "tr": "İç mekân tasarım aracı. Serbest 3B modelleme araçlarından farkı gerçek mobilya markalarının kataloğu üzerinden çalışması: sahnedeki her parçanın satın alınabilir bir karşılığı var.",
@@ -190,7 +208,8 @@
     "name": "Ideogram",
     "tags": [
       "görsel-üretim",
-      "freemium"
+      "freemium",
+      "tasarım"
     ],
     "tr": "Görsel içinde okunaklı metin üretebilen ender modellerden. Diğer difüzyon modellerinden farkı afiş, logo ve ambalaj denemelerinde onların bozduğu harfleri düzgün çıkarması.",
     "en": "One of the few models that renders legible text inside an image. Unlike other diffusion models, it gets letters right on posters, logos and packaging where they mangle them.",
@@ -203,7 +222,8 @@
     "tags": [
       "açık-kaynak",
       "3b",
-      "ücretsiz"
+      "ücretsiz",
+      "görsel-üretim"
     ],
     "tr": "Tek görselden çok görünüşlü difüzyonla ara görüntüler üretip bunlardan mesh çıkarıyor. Nokta bulutu değil doğrudan kullanılabilir yüzey vermesi, hattın kalan adımlarını kısaltıyor.",
     "en": "Generates intermediate views from one image via multi-view diffusion, then reconstructs a mesh. Returning usable surfaces rather than a point cloud shortens the rest of the pipeline.",
@@ -221,7 +241,13 @@
     ],
     "tr": "Sonsuz tuval üzerinde bölgesel üretim ve düzenleme; profesyonel iş akışı ve ekip kullanımı düşünülerek yapılmış. ComfyUI’nin düğüm grafiğinden farkı tuval odaklı olması: ressam gibi çalışıyorsun; ticari sürümü de var.",
     "en": "Regional generation and editing on an infinite canvas, built for professional workflows and team use. Unlike ComfyUI’s node graph it is canvas-first, so you work like a painter; a commercial edition exists too.",
-    "src": "kedi"
+    "src": "kedi",
+    "vs": [
+      {
+        "u": "https://www.comfy.org/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://krisp.ai/",
@@ -281,7 +307,8 @@
     "name": "Meshy",
     "tags": [
       "3b",
-      "freemium"
+      "freemium",
+      "görsel-üretim"
     ],
     "tr": "Metin ya da görselden 3B model üretip PBR dokusunu da kendisi giydiriyor. Yalnız geometri üreten araçlardan farkı dokuyu da yapması — oyun varlığı hattında en çok vakit yiyen adım bu.",
     "en": "Generates a 3D model from text or an image and applies PBR textures itself. Unlike tools that produce geometry alone it textures too — the slowest step in an asset pipeline.",
@@ -293,7 +320,8 @@
     "name": "Microsoft Designer",
     "tags": [
       "görsel-üretim",
-      "freemium"
+      "freemium",
+      "tasarım"
     ],
     "tr": "Üretilen görseli katmanlı ve düzenlenebilir bir tasarım olarak veriyor; saf üreticilerde elde ettiğin düz raster dosyanın aksine üzerinde çalışmaya devam edebiliyorsun.",
     "en": "Returns the generated image as a layered, editable layout, so unlike the flat raster you get from pure generators you can keep working on it.",
@@ -305,7 +333,8 @@
     "name": "Napkin AI",
     "tags": [
       "görsel-üretim",
-      "freemium"
+      "freemium",
+      "tasarım"
     ],
     "tr": "Düz metinden akış şeması, zaman çizelgesi ve karşılaştırma görseli üretiyor; çıktı düzenlenebilir vektör. Sunum üreticilerinden farkı bütün bir deste değil tek bir fikri görselleştirmesi.",
     "en": "Turns plain prose into flow charts, timelines and comparison graphics as editable vectors. Unlike deck generators, it visualises one idea rather than building a whole deck.",
@@ -317,7 +346,8 @@
     "name": "Otter.ai",
     "tags": [
       "ses",
-      "freemium"
+      "freemium",
+      "araç"
     ],
     "tr": "Toplantıya katılıp canlı yazıya döküyor ve konuşmacıları ayırıyor. Kayıt sonrası yükleme yapan araçlardan farkı, toplantı sürerken not almanı bırakabilmen.",
     "en": "Joins a meeting, transcribes live and separates speakers. Unlike upload-after-the-fact tools it lets you stop taking notes while the meeting is still running.",
@@ -329,7 +359,8 @@
     "name": "PicLumen",
     "tags": [
       "ücretsiz",
-      "görsel-üretim"
+      "görsel-üretim",
+      "tarayıcı-içi"
     ],
     "tr": "Karakter ve ürün görsellerine yoğunlaşmış görsel üreteci. Genel üreteçlerden farkı bu odak ve günlük kullanıma yetecek kadar cömert ücretsiz katmanı.",
     "en": "An image generator focused on character and product imagery. Unlike general generators it has that focus, plus a free tier generous enough for daily use.",
@@ -354,7 +385,7 @@
     "name": "Pitch",
     "tags": [
       "llm",
-      "referans",
+      "araç",
       "freemium"
     ],
     "tr": "Eşzamanlı düzenleme, yorum ve marka şablonlarıyla sunum aracı; deste bir ekip belgesi gibi çalışıyor. PowerPoint’ten farkı analitik: gönderdiğin sunumun hangi slaytta bırakıldığını gösteriyor.",
@@ -380,7 +411,8 @@
     "name": "Playground AI",
     "tags": [
       "görsel-üretim",
-      "freemium"
+      "freemium",
+      "tasarım"
     ],
     "tr": "Üretim ve düzenlemeyi aynı tuvalde birleştiriyor; bölge seçip yalnızca orayı yeniden üretmek (inpainting) akışın parçası. Yalnız üreten araçlardan farkı parça parça düzeltmeye elverişli olması.",
     "en": "Combines generation and editing on one canvas, with region-selective regeneration (inpainting) built into the flow. Unlike generate-only tools, it suits piecemeal correction.",
@@ -399,13 +431,19 @@
     "tr": "OpenAI’ın nokta bulutu üreten 3B modeli; mesh’e dönüştürmek ayrı bir adım. Sonraki nesil Shap-E’ye kıyasla hızlı ama kaba; bugün pratik bir kullanımı kalmadı, tarihsel değeri var.",
     "en": "OpenAI’s 3D model that produces point clouds needing a separate meshing step. Compared with its successor Shap-E it is fast but coarse; little practical use is left today beyond historical interest.",
     "src": "kedi",
-    "added": 1787000000
+    "added": 1787000000,
+    "vs": [
+      {
+        "u": "https://github.com/openai/shap-e",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://predis.ai/",
     "name": "Predis.ai",
     "tags": [
-      "referans",
+      "araç",
       "video",
       "freemium"
     ],
@@ -419,7 +457,8 @@
     "name": "Recraft",
     "tags": [
       "görsel-üretim",
-      "freemium"
+      "freemium",
+      "tasarım"
     ],
     "tr": "SVG çıktı üretebiliyor. Logo, ikon ve illüstrasyon işlerinde raster üreticilerden temel farkı bu: sonucu ölçekleyip düzenleyebiliyorsun.",
     "en": "Can output SVG. For logos, icons and illustration that is the fundamental split from raster generators — the result scales and stays editable.",
@@ -437,7 +476,13 @@
     "tr": "Tek işe odaklı arka plan silme; API ve toplu işlem sunduğu için hattın içine gömülebiliyor. Saç ve şeffaf yüzey kenarlarında genel araçlardan iyi.",
     "en": "Single-purpose background removal with an API and batch mode, so it drops into a pipeline. Better than general tools on hair and transparent edges.",
     "src": "kedi",
-    "added": 1787000000
+    "added": 1787000000,
+    "vs": [
+      {
+        "u": "https://clipdrop.co/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://github.com/openai/shap-e",
@@ -457,8 +502,9 @@
     "url": "https://simplified.com/",
     "name": "Simplified",
     "tags": [
-      "referans",
-      "freemium"
+      "araç",
+      "freemium",
+      "tasarım"
     ],
     "tr": "Tasarım, metin, video düzenleme ve zamanlamayı tek uygulamada topluyor. Uzman araçlara kıyasla her alanda geride, ama araç sayısını azaltmak istiyorsan mantıklı bir denge.",
     "en": "Bundles design, copy, video editing and scheduling in one app. Compared with the specialists it trails at each task, but it is a sensible trade if reducing tool count is the goal.",
@@ -476,7 +522,13 @@
     "tr": "Google Slides eklentisi olarak çalışıp metinden slayt üretiyor. Ayrı bir sunum platformuna taşınmak yerine mevcut dosyandan çıkmıyorsun; dışa aktarma adımı da yok.",
     "en": "A Google Slides add-on that generates slides from text. Instead of moving to a separate presentation platform you stay in your existing file, with no export step.",
     "src": "kedi",
-    "added": 1787000000
+    "added": 1787000000,
+    "vs": [
+      {
+        "u": "https://gamma.app/",
+        "a": "platform"
+      }
+    ]
   },
   {
     "url": "https://spline.design/",
@@ -517,12 +569,19 @@
     "tags": [
       "açık-ağırlık",
       "3b",
-      "ücretsiz"
+      "ücretsiz",
+      "görsel-üretim"
     ],
     "tr": "Tek görselden yarım saniyede UV açılmış ve dokulu mesh çıkarıyor. Kalite üst düzey değil ama toplu varlık üretiminde hız farkı belirleyici.",
     "en": "Produces a UV-unwrapped, textured mesh from one image in about half a second. Quality is not top-tier, but at batch scale the speed difference decides.",
     "src": "kedi",
-    "added": 1787000000
+    "added": 1787000000,
+    "vs": [
+      {
+        "u": "https://github.com/TencentARC/InstantMesh",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://stitch.withgoogle.com/",
@@ -542,12 +601,19 @@
     "name": "Tripo AI",
     "tags": [
       "3b",
-      "freemium"
+      "freemium",
+      "görsel-üretim"
     ],
     "tr": "Metinden ve görselden 3B model üreten araç; Meshy’nin doğrudan rakibi. Meshy’ye kıyasla üretim süresi daha kısa ve çıkan topoloji genelde daha temiz, yani sonradan elle düzeltme yükü az.",
     "en": "A text- and image-to-3D tool, a direct rival to Meshy. Compared with Meshy, generation is faster and topology generally cleaner, which means less manual cleanup afterwards.",
     "src": "kedi",
-    "added": 1787000000
+    "added": 1787000000,
+    "vs": [
+      {
+        "u": "https://www.meshy.ai/tr/?noRedirect=true",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://github.com/k4yt3x/video2x",
@@ -568,7 +634,8 @@
     "tags": [
       "açık-kaynak",
       "ses",
-      "ücretsiz"
+      "ücretsiz",
+      "self-hosted"
     ],
     "tr": "Ses klonlama, dikte ve üretimi tek açık kaynak stüdyoda topluyor. Ses örneğinin bulut servisine yüklenmemesi, klonlamada gerçek bir gizlilik farkı.",
     "en": "Bundles voice cloning, dictation and generation into one open-source studio. Keeping the voice sample off a cloud service is a real privacy difference for cloning.",

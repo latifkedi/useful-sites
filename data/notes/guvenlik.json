@@ -4,7 +4,8 @@
     "name": "5SIM",
     "tags": [
       "ücretli",
-      "gizlilik"
+      "gizlilik",
+      "araç"
     ],
     "tr": "SMS doğrulaması için geçici numara kiralama. Kendi numaranı vermek yerine kiralık numarayla hesap açıyorsun; kalıcı hesaplarda kurtarma sorunu doğurabileceği için dikkatli kullanılmalı.",
     "en": "Rents temporary numbers for SMS verification. Instead of giving your own number you sign up with a rented one; use carefully on accounts you intend to keep, as recovery becomes a problem.",
@@ -157,7 +158,13 @@
     ],
     "tr": "Parolaları yerelde şifreli bir kasada tutan açık kaynak parola yöneticisi. Bitwarden’dan farkı bulut olmaması: kasa dosyası senin, eşitlemeyi kendin kuruyorsun; KeePassXC gibi platformlar arası çatalları var.",
     "en": "An open-source password manager that keeps passwords in a locally encrypted vault. Unlike Bitwarden there is no cloud — the vault file is yours and you set up sync yourself; cross-platform forks such as KeePassXC exist.",
-    "src": "piracy"
+    "src": "piracy",
+    "vs": [
+      {
+        "u": "https://bitwarden.com/",
+        "a": "barindirma"
+      }
+    ]
   },
   {
     "url": "https://libredirect.codeberg.page/",
@@ -190,7 +197,8 @@
     "name": "Malwarebytes",
     "tags": [
       "güvenlik",
-      "freemium"
+      "freemium",
+      "araç"
     ],
     "tr": "Zararlı yazılımı tespit edip temizleyen koruma yazılımı. Windows Defender’a kıyasla çoğunlukla ikinci görüş olarak kullanılıyor: Defender’ın kaçırdığı reklam yazılımı ve istenmeyen programları yakalamakta güçlü.",
     "en": "Anti-malware software that detects and removes malicious software. Compared with Windows Defender it is mostly used as a second opinion, strong at catching the adware and unwanted programs Defender misses.",
@@ -245,7 +253,13 @@
     ],
     "tr": "Gizlilik araçlarını ölçüt bazlı değerlendiren, kâr amacı gütmeyen gönüllü topluluk. \"En iyi VPN\" listelerinden farkı ortaklık geliri almaması ve her tavsiyenin karşılamak zorunda olduğu koşulları açıkça yazması — tavsiyeyi tartışabiliyorsun.",
     "en": "A non-profit, volunteer-run evaluation of privacy tools against stated criteria. Unlike the \"best VPN\" listicles it takes no affiliate money and publishes the conditions each recommendation must meet, so the recommendation is arguable.",
-    "src": "cdcruz"
+    "src": "cdcruz",
+    "vs": [
+      {
+        "u": "https://degoogle.jmoore.dev/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://privacy.com/",
@@ -266,18 +280,26 @@
       "açık-kaynak",
       "self-hosted",
       "gizlilik",
-      "ücretsiz"
+      "ücretsiz",
+      "tarayıcı-içi"
     ],
     "tr": "Sunucunun içeriği hiç bilmediği pastebin: metin tarayıcıda şifreleniyor, anahtar URL parçasında kalıyor ve sunucuya gitmiyor. Pastebin.com’dan farkı bu sıfır bilgi tasarımı ve okununca yok olma seçeneği.",
     "en": "A pastebin the server cannot read: the text is encrypted in the browser and the key lives in the URL fragment, which is never sent. That zero-knowledge design and burn-after-reading are the break from pastebin.com.",
-    "src": "cdcruz"
+    "src": "cdcruz",
+    "vs": [
+      {
+        "u": "https://pastebin.com",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://privnote.com/",
     "name": "Privnote",
     "tags": [
       "ücretsiz",
-      "gizlilik"
+      "gizlilik",
+      "hesap-gerekmez"
     ],
     "tr": "Okunduktan sonra kendini silen not; hesap gerektirmiyor. Sohbet uygulamasına yazmaktan farkı iz bırakmaması: tek seferlik bir parolayı sohbet geçmişinde bırakmadan iletmek için pratik.",
     "en": "A note that destroys itself after reading, with no account required. Unlike pasting into a chat it leaves no trail — practical for handing over a one-time password without leaving it in a chat log.",
@@ -302,7 +324,8 @@
     "name": "Silent Link",
     "tags": [
       "ücretli",
-      "gizlilik"
+      "gizlilik",
+      "mobil"
     ],
     "tr": "Kimlik istemeyen eSIM veri hattı; kripto ile ödeniyor, isim ya da belge sorulmuyor. Operatörlerin eSIM’lerinden farkı numaranın kimliğine bağlanmaması: seyahatte veri almanın anonim yolu.",
     "en": "An eSIM data plan requiring no identity — paid in crypto, no name or document. Unlike carriers’ eSIMs the line is not tied to your identity — an anonymous way to get data abroad.",
@@ -315,7 +338,8 @@
     "tags": [
       "açık-kaynak",
       "gizlilik",
-      "freemium"
+      "freemium",
+      "self-hosted"
     ],
     "tr": "E-posta takma adı hizmeti: her siteye ayrı adres verip gelen postayı asıl kutuna yönlendiriyor. \"Apple ile giriş yap\" gizli adresinden farkı açık kaynak ve kendi sunucuna kurulabilir olması; takma adı silince spam da kesiliyor ve kimin sattığı belli oluyor.",
     "en": "An email aliasing service: a separate address per site, forwarded to your real inbox. Unlike Apple’s hide-my-email it is open source and self-hostable, and killing an alias both stops the spam and tells you who sold your address.",
@@ -345,7 +369,13 @@
     ],
     "tr": "USB’den çalışan, tüm trafiği Tor üzerinden geçiren canlı Linux dağıtımı. Tor Browser kullanmaktan farkı, sistemin tamamının unutkan olması: kapattığında diskte hiçbir iz kalmıyor, bilerek kalıcı bölüm açmadıysan.",
     "en": "A live Linux distribution that runs from USB and routes everything through Tor. Unlike just using Tor Browser, the whole system is amnesic: shut it down and nothing remains on disk unless you deliberately made a persistent volume.",
-    "src": "cdcruz"
+    "src": "cdcruz",
+    "vs": [
+      {
+        "u": "https://www.torproject.org/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.torproject.org/",
@@ -358,7 +388,13 @@
     ],
     "tr": "Trafiği gönüllü düğümler üzerinden anonimleştiren özgür ağ ve tarayıcı. VPN’den farkı güveni tek bir sağlayıcıya değil üç ayrı düğüme bölmesi; karşılığında bağlantı belirgin biçimde yavaş.",
     "en": "A free network and browser that anonymises traffic across volunteer nodes. Unlike a VPN it splits trust across three separate relays rather than one provider; the price is a noticeably slower connection.",
-    "src": "piracy"
+    "src": "piracy",
+    "vs": [
+      {
+        "u": "https://mullvad.net/en",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://tuta.com/",
@@ -410,5 +446,19 @@
     "en": "A Turkish guide to digital security that recommends method by threat model rather than promoting products. Starting from “who are you protecting against” is what separates it from tool lists.",
     "src": "kedi",
     "added": 1741681451
+  },
+  {
+    "url": "https://www.kvkk.gov.tr/",
+    "name": "KVKK — Kişisel Verileri Koruma Kurumu",
+    "tags": [
+      "gizlilik",
+      "referans",
+      "türkçe",
+      "ücretsiz"
+    ],
+    "tr": "Türkiye’nin veri koruma otoritesi: 6698 sayılı Kanun, Kurul kararları, rehberler ve kamuoyuna duyurulan veri ihlali bildirimleri. Gizlilik araçları anlatan rehberlerden farkı düzenleyicinin kendisi olması: şirketlerin ne yapmak zorunda olduğunu ve hangi sızıntıların bildirildiğini buradan görüyorsun.",
+    "en": "Turkey’s data-protection authority: Law No. 6698, Board decisions, guidance and the data-breach notifications it publishes. Unlike guides to privacy tools it is the regulator itself, where you see what companies are obliged to do and which breaches were reported.",
+    "src": "bosluk",
+    "added": 1792281600
   }
 ]

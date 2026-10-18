@@ -9,6 +9,7 @@ show up as a missing record or a thinner category -- a note file that
 loads when it should not, or a tag quietly not collapsing, say. Same plain
 check() style as test_build.py: no pytest, nothing to install to run this.
 """
+import datetime
 import io
 import json
 import os
@@ -21,7 +22,8 @@ sys.path.insert(0, D)
 
 import build                            # noqa: E402  (running this re-runs the build)
 import emit                             # noqa: E402
-import linkstate                        # noqa: E402
+import from_issue                       # noqa: E402
+import linkstate                       # noqa: E402
 import notes                            # noqa: E402
 import tags                             # noqa: E402
 
@@ -131,6 +133,50 @@ def main():
           'an old year beside "latest" is a claim that can go stale')
     check(linkstate.stale_years('Son sürüm 2022, depo durgun.', 2026) == [2022], 'the Turkish form is caught too')
     check(linkstate.stale_years('The latest release is from 2025.', 2026) == [], 'a recent year is fine')
+
+    print('linkstate freshness tiers')
+    check(linkstate.recheck_days('yz_model') == 90 and linkstate.recheck_days('finans') == 90,
+          'AI categories and finance/crypto are rechecked every 90 days')
+    check(linkstate.recheck_days('kitaplik') == 365 and linkstate.recheck_days(None) == 365,
+          'everything else every 365 days')
+    t0 = 1767225600   # 2026-01-01
+    check(not linkstate.description_due('yz_arac', 'https://a.dev', t0, '2026-02-01'),
+          'a record is not due before one interval has passed since it arrived')
+    check(linkstate.description_due('yz_arac', 'https://a.dev', t0, '2026-04-01')
+          and not linkstate.description_due('yz_arac', 'https://a.dev', t0, '2026-04-08'),
+          'it falls due in the week its 90-day interval ends, and only that week')
+    check(not linkstate.description_due('web', 'https://a.dev', t0, '2026-04-01')
+          and linkstate.description_due('web', 'https://a.dev', t0, '2027-01-01'),
+          'the 365-day tier is due a year after arrival, not at 90 days')
+    days = [(datetime.date(2026, 1, 5) + datetime.timedelta(days=n)).isoformat() for n in range(90)]
+    check(sum(linkstate.description_due('finans', 'https://no-date.example', None, d) for d in days) == 7,
+          'a record without an arrival date is due for one week in every 90 days (phase from its URL)')
+    check(linkstate.time_claims('Free tier, now in beta; join the waitlist.') == ['beta', 'free', 'waitlist'],
+          'price, beta and waitlist claims are found')
+    check(linkstate.time_claims('A lock-free queue with a free-form schema.') == [],
+          '"lock-free" and "free-form" are not price claims')
+    check(linkstate.time_claims('Ücretsiz planı var.') == ['ücretsiz'], 'the Turkish form is caught too')
+    due_rows = [{'cat': 'yz_arac', 'url': 'https://x%d.dev' % i, 'added': t0, 'tr': '', 'en': 'Free to use.'}
+                for i in range(30)]
+    due_rows.append({'cat': 'yz_arac', 'url': 'https://plain.dev', 'added': t0, 'tr': '', 'en': 'A tool.'})
+    picked, over = linkstate.claim_rechecks(due_rows, '2026-04-01', cap=25)
+    check(len(picked) == 25 and over == 5 and all(r['claims'] == ['free'] for r in picked),
+          'the weekly claim list is capped, the overflow counted, records without a claim left out')
+
+    print('from_issue: tag cap and removed URLs')
+    check(from_issue.cap_tags(['ücretsiz', 'a', 'b', 'açık-kaynak', 'c', 'd', 'e']) == ['ücretsiz', 'a', 'b', 'açık-kaynak', 'c', 'd'],
+          'at most four tags besides price and licence survive, price and licence untouched')
+    tmpf = tempfile.mkdtemp()
+    try:
+        rp = os.path.join(tmpf, 'removed.txt')
+        io.open(rp, 'w', encoding='utf-8').write('# comment\nhttps://www.gone.example/\tcrypto news\n')
+        check(from_issue.removed_reason('http://gone.example', rp) == 'crypto news',
+              'a URL in removed.txt is found by its key, with its reason')
+        check(from_issue.removed_reason('https://kept.example', rp) is None
+              and from_issue.removed_reason('https://x.example', os.path.join(tmpf, 'none.txt')) is None,
+              'an unlisted URL, or no removed.txt at all, is not refused')
+    finally:
+        shutil.rmtree(tmpf)
 
     print('linkstate.may_write')
     check(not linkstate.may_write(['ci_check.py'], {}), 'a scan run by hand leaves verified.json and health.json alone')

@@ -4,7 +4,8 @@
     "name": "Akıllı Gözlük İşletim Sistemleri",
     "tags": [
       "ücretsiz",
-      "referans"
+      "referans",
+      "donanım"
     ],
     "tr": "Horizon OS, Android XR ve diğer akıllı gözlük platformlarının karşılaştırması; hangi ekosisteme yatırım yapılacağı kararı donanım seçiminden önce geliyor. Tek bir platformun tanıtımından farkı yan yana koyması — ama yazının bir gözlük üreticisinin blogu olduğunu akılda tut.",
     "en": "A comparison of Horizon OS, Android XR and the other smart-glasses platforms; which ecosystem to invest in comes before hardware selection. Unlike a single platform’s pitch it sets them side by side — though bear in mind it is a glasses maker’s blog.",
@@ -43,7 +44,8 @@
     "tags": [
       "açık-kaynak",
       "donanım",
-      "ücretsiz"
+      "ücretsiz",
+      "mobil"
     ],
     "tr": "Üreticinin uygulamasına açık kaynak alternatif; kapalı uygulamanın kilitlediği özellikleri açmayı ve bulut bağımlılığını kaldırmayı hedefliyor.",
     "en": "An open-source alternative to the vendor app, aimed at unlocking restricted features and removing the cloud dependency.",
@@ -55,7 +57,8 @@
     "name": "Awesome Even Realities G2",
     "tags": [
       "awesome-liste",
-      "ücretsiz"
+      "ücretsiz",
+      "donanım"
     ],
     "tr": "Even Realities G2 akıllı gözlüğü için topluluk kaynakları derlemesi. Resmî dokümandan farkı onun kapsamadığı araçların ve çözülmüş sorunların burada birikmesi.",
     "en": "A community resource collection for the Even Realities G2 smart glasses. Unlike the official documentation, this is where the tools and solved problems it does not cover accumulate.",
@@ -94,7 +97,8 @@
     "tags": [
       "ücretli",
       "açık-kaynak",
-      "donanım"
+      "donanım",
+      "gömülü"
     ],
     "tr": "Donanım şemasını ve yazılımını yayımlayan gözlük üreticisi. Meta gibi kapalı üreticilerin aksine hem ürün satıp hem tasarımı açan, sektörde neredeyse tek şirket.",
     "en": "A glasses maker that publishes both hardware schematics and software. Unlike closed makers such as Meta, it is close to the only company in the sector selling a product while opening the design.",
@@ -106,12 +110,19 @@
     "name": "Brilliant Labs Halo",
     "tags": [
       "ücretli",
-      "donanım"
+      "donanım",
+      "llm"
     ],
     "tr": "Geliştiricinin kendi uygulamasını yükleyebildiği yapay zeka gözlüğü; kapalı ekosistemlerin aksine cihaz üzerinde çalıştırma yetkisi sende.",
     "en": "AI glasses where a developer can load their own applications — unlike closed ecosystems, the right to run code on the device is yours.",
     "src": "kedi",
-    "added": 1785968459
+    "added": 1785968459,
+    "vs": [
+      {
+        "u": "https://www.meta.com/tr/ai-glasses/meta-ray-ban-display-shiny-sand-transitions-and-neural-band-sand/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://github.com/i-soxi/even-g2-protocol",
@@ -132,7 +143,8 @@
     "name": "Even Hub",
     "tags": [
       "ücretsiz",
-      "sdk"
+      "sdk",
+      "dokümantasyon"
     ],
     "tr": "Even Realities’in geliştirici merkezi; uygulama geliştirme kaynakları ve API belgeleri burada. GitHub depolarından farkı kodu değil belgeleri ve yönergeleri toplaması.",
     "en": "Even Realities’ developer hub, holding app development resources and API documentation. Unlike its GitHub repositories, it gathers documentation and guidelines rather than code.",
@@ -145,7 +157,8 @@
     "tags": [
       "açık-kaynak",
       "sdk",
-      "ücretsiz"
+      "ücretsiz",
+      "donanım"
     ],
     "tr": "Even Realities’in resmî depoları; SDK ve örnek uygulamalar için birincil kaynak. Kodunu kapalı tutan gözlük üreticilerinin aksine yayımlıyor — bu sektörde hâlâ istisna.",
     "en": "Even Realities’ official repositories and the primary source for the SDK and sample apps. Unlike glasses makers that keep code closed it publishes — still the exception in this sector.",
@@ -162,7 +175,13 @@
     "tr": "Kamera koymayıp yalnızca ekran sunan günlük kullanım gözlüğü. Kamerasızlık teknik bir eksik değil bilinçli bir karar — sosyal kabul sorununu doğrudan çözüyor.",
     "en": "Everyday glasses with a display and deliberately no camera. The omission is a decision rather than a shortfall — it addresses the social acceptance problem head on.",
     "src": "kedi",
-    "added": 1785968201
+    "added": 1785968201,
+    "vs": [
+      {
+        "u": "https://www.meta.com/tr/ai-glasses/meta-ray-ban-display-shiny-sand-transitions-and-neural-band-sand/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.evenrealities.com/smart-glasses/selection",
@@ -194,7 +213,8 @@
     "name": "GitHub · smart-glasses",
     "tags": [
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "donanım"
     ],
     "tr": "Etiketli açık kaynak projelerin canlı listesi; derlenmiş listelerin aksine kendiliğinden güncel kalıyor. Yeni çıkanları yakalamak için.",
     "en": "A live list of tagged open-source projects that stays current by itself, unlike curated lists — the way to catch new arrivals.",
@@ -234,7 +254,8 @@
     "tags": [
       "açık-kaynak",
       "gömülü",
-      "ücretsiz"
+      "ücretsiz",
+      "tarayıcı-içi"
     ],
     "tr": "HeyCyan gözlüğünü Web Bluetooth üzerinden tarayıcıya bağlıyor. Yerel uygulama yazmak yerine cihazla tarayıcıdan konuşuyorsun — prototip için hızlı bir yol.",
     "en": "Connects HeyCyan glasses to a browser over Web Bluetooth. Instead of writing a native app you talk to the device from the browser — a fast route for prototyping.",
@@ -260,7 +281,8 @@
     "tags": [
       "açık-kaynak",
       "gömülü",
-      "ücretsiz"
+      "ücretsiz",
+      "mobil"
     ],
     "tr": "Android’den gözlüğe BLE ile bağlanmak için başlangıç kiti. Sıfırdan BLE kodu yazmaktan farkı GATT servisleri ve karakteristiklerinin tanımlı gelmesi: protokolü kendin çözmüyorsun.",
     "en": "A starter kit for connecting to glasses over BLE from Android. Unlike writing BLE code from scratch, the GATT services and characteristics arrive defined, so you do not reverse-engineer the protocol.",
@@ -273,12 +295,19 @@
     "tags": [
       "açık-kaynak",
       "gömülü",
-      "ücretsiz"
+      "ücretsiz",
+      "donanım"
     ],
     "tr": "Akıllı gözlükler için açık işletim sistemi; farklı üreticilerin donanımını tek uygulama katmanında topluyor. Her gözlük için ayrı uygulama yazma sorununu hedefliyor.",
     "en": "An open operating system for smart glasses unifying different vendors’ hardware under one app layer — aimed at the problem of writing a separate app per device.",
     "src": "kedi",
-    "added": 1786479488
+    "added": 1786479488,
+    "vs": [
+      {
+        "u": "https://github.com/even-realities",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.meta.com/tr/ai-glasses/meta-ray-ban-display-shiny-sand-transitions-and-neural-band-sand/",
@@ -312,7 +341,8 @@
     "tags": [
       "açık-kaynak",
       "donanım",
-      "ücretsiz"
+      "ücretsiz",
+      "gömülü"
     ],
     "tr": "Tüm gün takılabilir açık kaynak gözlük tasarımı; şema, PCB ve yazılım açık. Kapalı ürünlerin aksine ne topladığını ve nereye gönderdiğini görebiliyorsun.",
     "en": "An all-day wearable open-source glasses design with schematics, PCB and software published — so unlike closed products you can see what it collects and where it sends it.",
@@ -325,12 +355,19 @@
     "tags": [
       "açık-kaynak",
       "donanım",
-      "ücretsiz"
+      "ücretsiz",
+      "gömülü"
     ],
     "tr": "Mevcut bir gözlüğe kamera ve kart takarak akıllı gözlüğe çeviriyor; yaklaşık 25 dolarlık parça listesi var. Sıfırdan üretim yerine dönüştürme yolu.",
     "en": "Converts an existing pair of glasses by attaching a camera and board, on a parts list of roughly $25. Conversion rather than manufacture.",
     "src": "kedi",
-    "added": 1786479484
+    "added": 1786479484,
+    "vs": [
+      {
+        "u": "https://github.com/Mentra-Community/OpenSourceSmartGlasses",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.infineon.com/assets/row/public/documents/30/42/infineon-an242193-smart-glasses-hmi-with-psoc4-capsense-applicationnotes-en.pdf",
@@ -350,7 +387,8 @@
     "name": "Qualcomm AI Glasses",
     "tags": [
       "ücretsiz",
-      "donanım"
+      "donanım",
+      "referans"
     ],
     "tr": "Piyasadaki gözlüklerin çoğunda bulunan Snapdragon AR platformunun resmî sayfası; referans tasarımlar ve güç tüketimi verileri burada. Tek tek ürün sayfalarından farkı platform düzeyinde bakması: hangi gözlüğün içinde ne olduğunu anlamak için.",
     "en": "The official page for the Snapdragon AR platform inside most shipping glasses, with reference designs and power figures. Unlike individual product pages it looks at the platform level — for understanding what is inside which glasses.",
@@ -362,11 +400,18 @@
     "name": "RealMCU Akıllı Gözlük",
     "tags": [
       "ücretsiz",
-      "donanım"
+      "donanım",
+      "gömülü"
     ],
     "tr": "Düşük güçlü gözlük çözümleri sunan yonga üreticisi; Qualcomm’a göre daha basit ve ucuz cihazları hedefliyor. Bildirim gösteren gözlük için Snapdragon fazla geliyor.",
     "en": "A vendor offering low-power glasses silicon aimed at simpler, cheaper devices than Qualcomm. For glasses that only show notifications, a Snapdragon is overkill.",
     "src": "kedi",
-    "added": 1785968442
+    "added": 1785968442,
+    "vs": [
+      {
+        "u": "https://www.qualcomm.com/xr-vr-ar/applications/ai-glasses",
+        "a": "kapsam"
+      }
+    ]
   }
 ]

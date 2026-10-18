@@ -6,7 +6,10 @@ kullanilabilir kalmasi: tek kullanimlik etiket filtre degil gurultu.
 
 CANON  : nihai sozluk, eksenlere gore gruplanmis
 ALIAS  : ham etiket -> kanonik etiket
-Haritada olmayan ham etiketler dusuruluyor.
+Haritada olmayan ham etiketler dusuruluyor. An alias mapped to None is dropped on
+purpose: it used to land on a wrong tag ('tip-güvenli' on python, 'hukuk' on
+referans) and no canonical tag says the same thing. Old keys stay in the table,
+repointed rather than deleted, so a submission or link that uses one still resolves.
 """
 
 CANON = [
@@ -14,20 +17,26 @@ CANON = [
     'ücretsiz', 'freemium', 'ücretli', 'açık-kaynak', 'açık-ağırlık',
     # --- content type
     'dokümantasyon', 'öğretici', 'video', 'kitap', 'kopya-kâğıdı',
-    'awesome-liste', 'interaktif', 'müfredat', 'referans',
-    # --- distribution & interface
-    'self-hosted', 'cli', 'api', 'sdk', 'tarayıcı-içi', 'masaüstü', 'eklenti',
+    'awesome-liste', 'interaktif', 'müfredat', 'referans', 'araç',
+    # --- level (learning records only; rubric in CONTRIBUTING.md)
+    'başlangıç', 'orta', 'ileri',
+    # --- platform & access
+    'tarayıcı-içi', 'masaüstü', 'mobil', 'cli', 'eklenti', 'çevrimdışı', 'self-hosted',
+    'hesap-gerekmez',
+    # --- integration
+    'api', 'sdk',
     # --- dil & platform
     'python', 'javascript', 'c-ailesi', 'rust', 'go', 'php', 'jvm', 'docker',
     # --- yapay zeka
     'llm', 'agent', 'rag', 'embedding', 'vektör-db', 'mcp',
     'guardrail', 'gözlemlenebilirlik', 'görsel-üretim', '3b', 'ses', 'otomasyon',
+    'tasarım',
     # --- development areas
     'frontend', 'backend', 'veritabanı', 'devops', 'sistem-tasarımı',
     'algoritma', 'git', 'sunucu',
     # --- other areas
     'güvenlik', 'osint', 'gizlilik', 'ağ', 'donanım', 'gömülü', 'cad',
-    'veri-bilimi', 'veri-seti', 'akademik', 'kuantum',
+    'veri-bilimi', 'veri-seti', 'akademik', 'kuantum', 'kripto',
     # --- context
     'türkçe', 'mülakat', 'sertifika', 'arşivlenmiş',
 ]
@@ -53,26 +62,27 @@ ALIAS = {
     'simülatör': 'interaktif', 'görselleştirme': 'interaktif',
     'not-defteri': 'interaktif', 'colab': 'interaktif', 'test': 'interaktif',
     'sınav': 'sertifika', 'öğrenci': 'sertifika', 'kariyer': 'mülakat',
-    'başlangıç': 'öğretici', 'topluluk': 'awesome-liste', 'mentor': 'awesome-liste',
-    'ödül-programı': 'güvenlik', 'yarışma': 'veri-bilimi', 'etkinlik': 'interaktif',
+    'topluluk': 'awesome-liste', 'mentor': 'awesome-liste',
+    'ödül-programı': 'güvenlik', 'yarışma': 'interaktif', 'etkinlik': 'interaktif',
+    'yeni-başlayan': 'başlangıç', 'ara-seviye': 'orta', 'ileri-seviye': 'ileri',
 
     # distribution & interface
     'kendi sunucunda': 'self-hosted', 'yerel': 'self-hosted',
-    'yerel-model': 'self-hosted', 'çevrimdışı': 'self-hosted',
+    'yerel-model': 'self-hosted', 'hesapsız': 'hesap-gerekmez', 'kayıtsız': 'hesap-gerekmez',
     'web-ui': 'tarayıcı-içi', 'web': 'tarayıcı-içi', 'proxy': 'api',
     'gateway': 'api', 'openapi': 'api', 'graphql': 'api', 'rest': 'api',
     'json-rpc': 'api', 'oauth': 'api', 'realtime': 'api', 'rss': 'api',
     'ide': 'masaüstü', 'editör': 'masaüstü', 'android': 'mobil',
-    'ios': 'mobil', 'react-native': 'mobil', 'mobil': 'masaüstü',
-    'araç': 'referans', 'araç-seti': 'referans', 'yardımcı': 'referans',
+    'ios': 'mobil', 'react-native': 'mobil', 'flutter': 'mobil',
+    'araç-seti': 'araç', 'yardımcı': 'araç',
 
     # dil & platform
-    'c': 'c-ailesi', 'c++': 'c-ailesi', 'dart': 'c-ailesi',
+    'c': 'c-ailesi', 'c++': 'c-ailesi', 'dart': 'mobil',
     'typescript': 'javascript', 'node': 'javascript', 'react': 'javascript',
     'java': 'jvm', 'kotlin': 'jvm', 'scala': 'jvm', 'dotnet': 'c-ailesi', 'q#': 'kuantum', 'r': 'veri-bilimi',
     'fortran': 'c-ailesi', 'dil': 'referans', 'derleyici': 'c-ailesi',
     'assembly': 'c-ailesi', 'pytorch': 'python', 'async': 'python',
-    'k8s': 'docker', 'ci': 'devops', 'edge': 'gömülü',
+    'k8s': 'devops', 'kubernetes': 'devops', 'ci': 'devops', 'edge': 'gömülü',
 
     # yapay zeka
     'asistan': 'llm', 'sohbet': 'llm', 'arama': 'rag', 'çatı': 'agent',
@@ -82,16 +92,16 @@ ALIAS = {
     'pii': 'gizlilik', 'tracing': 'gözlemlenebilirlik', 'eval': 'gözlemlenebilirlik',
     'değerlendirme': 'gözlemlenebilirlik', 'hata-izleme': 'gözlemlenebilirlik',
     'pano': 'gözlemlenebilirlik', 'maliyet': 'gözlemlenebilirlik',
-    'difüzyon': 'görsel-üretim', 'görsel': 'görsel-üretim', 'vektör': 'görsel-üretim',
-    'tasarım': 'görsel-üretim', 'ilham': 'görsel-üretim', 'şablon': 'görsel-üretim',
-    'tipografi': 'görsel-üretim', 'doku': 'görsel-üretim', 'düzenleme': 'görsel-üretim',
-    'tuval': 'görsel-üretim', 'text-to-3d': '3b', 'nerf': '3b', 'blender': '3b',
+    'difüzyon': 'görsel-üretim', 'görsel': 'görsel-üretim', 'vektör': 'tasarım',
+    'ilham': 'tasarım', 'şablon': 'tasarım', 'ikon': 'tasarım',
+    'tipografi': 'tasarım', 'doku': 'tasarım', 'düzenleme': 'görsel-üretim',
+    'tuval': 'tasarım', 'text-to-3d': '3b', 'nerf': '3b', 'blender': '3b',
     'video': 'video', 'altyazı': 'video', 'tts': 'ses', 'stt': 'ses',
-    'podcast': 'ses', 'ocr': 'referans', 'görü': 'llm', 'akıl-yürütme': 'llm',
+    'podcast': 'ses', 'ocr': 'araç', 'görü': 'llm', 'akıl-yürütme': 'llm',
     'rerank': 'embedding', 'bilgi-grafiği': 'rag', 'ayrıştırma': 'rag',
     'optimizasyon': 'llm', 'nicemleme': 'llm', 'sunum': 'llm',
     'llama.cpp': 'self-hosted', 'gguf': 'self-hosted', 'gpu': 'self-hosted',
-    'oyun-alanı': 'interaktif', 'tespit': 'referans', 'alan-özel': 'embedding',
+    'oyun-alanı': 'interaktif', 'tespit': 'araç', 'alan-özel': 'embedding',
     'zapier': 'otomasyon', 'orkestrasyon': 'otomasyon', 'kuyruk': 'otomasyon',
     'olay-akışı': 'otomasyon', 'amqp': 'otomasyon', 'dijital-ikiz': 'gömülü',
     'entegrasyon': 'otomasyon', 'dünya-modeli': 'llm', 'araştırma': 'akademik',
@@ -127,15 +137,15 @@ ALIAS = {
     'kamera': 'gömülü', 'robotik': 'donanım', 'kontrol': 'donanım',
     'giyilebilir': 'donanım', 'ekran': 'donanım', 'ürün': 'donanım',
     'parça': 'cad', 'diy': 'donanım', 'işletim-sistemi': 'gömülü',
-    'diyagram': 'görsel-üretim', 'metin': 'referans', 'markdown': 'referans',
-    'dönüştürücü': 'referans', 'regex': 'referans', 'kazıma': 'referans',
+    'diyagram': 'tasarım', 'metin': 'referans', 'markdown': 'referans',
+    'dönüştürücü': 'araç', 'regex': 'araç', 'kazıma': 'otomasyon',
     'erişilebilirlik': 'frontend', 'arşivleme': 'referans',
 
     # security
     'sızma-testi': 'güvenlik', 'ctf': 'güvenlik', 'kriptografi': 'güvenlik',
     'steganografi': 'güvenlik', 'keşif': 'osint', 'tersine-mühendislik': 'güvenlik',
     'tedarik-zinciri': 'güvenlik', 'kurumsal': 'güvenlik', 'netsec': 'ağ',
-    'doğrulama': 'guardrail', 'tip-güvenli': 'python',
+    'doğrulama': 'guardrail', 'tip-güvenli': None,
 
     # akademik & bilim
     'ön-baskı': 'akademik', 'dergi': 'akademik', 'akademik-arama': 'akademik',
@@ -147,9 +157,10 @@ ALIAS = {
     'coğrafya': 'akademik', 'harita': 'akademik', 'tarih': 'akademik',
     'havacılık': 'akademik', 'vatandaş-bilimi': 'akademik', 'kurum': 'akademik',
     'resmî': 'akademik', 'hesaplama': 'akademik', 'matematik': 'akademik',
-    'medya': 'referans', 'karakter': 'görsel-üretim', 'şema': 'sistem-tasarımı',
-    'hukuk': 'referans', 'pazarlama': 'referans', 'sosyal-medya': 'referans',
-    'iç-mekan': 'cad', 'blockchain': 'referans', 'deneysel': 'referans',
+    'medya': 'video', 'karakter': 'tasarım', 'şema': 'sistem-tasarımı',
+    'hukuk': None, 'pazarlama': 'referans', 'sosyal-medya': 'referans',
+    'iç-mekan': 'cad', 'blockchain': 'kripto', 'bitcoin': 'kripto', 'ethereum': 'kripto',
+    'defi': 'kripto', 'deneysel': 'referans',
     'klavye': 'interaktif', 'animasyon': 'görsel-üretim', 'ekip': 'referans',
     'yaml': 'devops', 'rapor': 'referans', 'hibrit': 'kuantum',
     'araştırma-aracı': 'akademik', 'dayanıklı': 'otomasyon',
@@ -187,12 +198,19 @@ LABELS = {
     'interaktif':          ('İnteraktif', 'Interactive'),
     'müfredat':            ('Müfredat', 'Curriculum'),
     'referans':            ('Referans', 'Reference'),
+    'araç':                ('Araç', 'Tool'),
+    'başlangıç':           ('Başlangıç', 'Beginner'),
+    'orta':                ('Orta Seviye', 'Intermediate'),
+    'ileri':               ('İleri Seviye', 'Advanced'),
     'self-hosted':         ('Kendi Sunucunda', 'Self-Hosted'),
     'cli':                 ('CLI', 'CLI'),
     'api':                 ('API', 'API'),
     'sdk':                 ('SDK', 'SDK'),
     'tarayıcı-içi':        ('Tarayıcıda', 'In Browser'),
     'masaüstü':            ('Masaüstü', 'Desktop'),
+    'mobil':               ('Mobil', 'Mobile'),
+    'çevrimdışı':          ('Çevrimdışı', 'Offline'),
+    'hesap-gerekmez':      ('Hesap Gerekmez', 'No Account Needed'),
     'eklenti':             ('Eklenti', 'Plugin'),
     'python':              ('Python', 'Python'),
     'javascript':          ('JavaScript', 'JavaScript'),
@@ -214,7 +232,8 @@ LABELS = {
     '3b':                  ('3B', '3D'),
     'ses':                 ('Ses', 'Audio'),
     'otomasyon':           ('Otomasyon', 'Automation'),
-    'frontend':            ('Frontend', 'Frontend'),
+    'tasarım':             ('Tasarım', 'Design'),
+    'frontend':           ('Frontend', 'Frontend'),
     'backend':             ('Backend', 'Backend'),
     'veritabanı':          ('Veritabanı', 'Database'),
     'devops':              ('DevOps', 'DevOps'),
@@ -233,7 +252,8 @@ LABELS = {
     'veri-seti':           ('Veri Seti', 'Dataset'),
     'akademik':            ('Akademik', 'Academic'),
     'kuantum':             ('Kuantum', 'Quantum'),
-    'türkçe':              ('Türkçe', 'Turkish'),
+    'kripto':              ('Kripto', 'Crypto'),
+    'türkçe':             ('Türkçe', 'Turkish'),
     'mülakat':             ('Mülakat', 'Interview'),
     'sertifika':           ('Sertifika', 'Certification'),
     'arşivlenmiş':         ('Arşivlenmiş', 'Archived'),
@@ -254,8 +274,9 @@ for _k, _v in LABELS.items():
 
 # Other common ways of saying the same thing. setdefault, so this table
 # never overwrites an existing mapping -- the first attempt used update()
-# and clobbered the existing 'k8s' -> 'docker' entry, which quietly changed
-# the tags on two records.
+# and clobbered the then 'k8s' -> 'docker' entry, which quietly changed the
+# tags on two records. Both spellings of Kubernetes now go to devops in ALIAS
+# itself, so the two tables agree.
 for _en, _tr in {
     'oss': 'açık-kaynak', 'opensource': 'açık-kaynak', 'foss': 'açık-kaynak',
     'db': 'veritabanı', 'databases': 'veritabanı',
@@ -267,6 +288,10 @@ for _en, _tr in {
     'ci': 'devops', 'observability': 'gözlemlenebilirlik', 'no-cost': 'ücretsiz',
     'free-tier': 'freemium', 'paid': 'ücretli', 'book': 'kitap',
     'cheatsheet': 'kopya-kâğıdı', 'cheat-sheet': 'kopya-kâğıdı',
+    'no-account': 'hesap-gerekmez', 'no-signup': 'hesap-gerekmez', 'android': 'mobil',
+    'ios': 'mobil', 'web': 'tarayıcı-içi', 'browser': 'tarayıcı-içi', 'desktop-app': 'masaüstü',
+    'intro': 'başlangıç', 'introductory': 'başlangıç', 'blockchain': 'kripto',
+    'cryptocurrency': 'kripto', 'tools': 'araç', 'utility': 'araç', 'ui-design': 'tasarım',
 }.items():
     ALIAS.setdefault(_en, _tr)
 
@@ -279,20 +304,42 @@ for _en, _tr in {
 # four records in five now that it is set wherever nothing is sold, which is why
 # the cards do not repeat it -- the filter keeps it.
 # key, Turkish label, English label, tags.
+#
+# 'Interface & Language' used to hold where a thing runs (browser, desktop, CLI)
+# next to what it is written in and how you call it (Python, API, SDK). Those
+# are two questions. Platform & Access now answers "where do I use it, and do I
+# need an account"; Language & Integration answers "which stack, and is there an
+# API/SDK to build on". self-hosted moved out of Price & Licence into Platform:
+# it says where the thing runs, not what it costs.
 _FACET_HEADS = [
     ('fiyat', 'Fiyat & Lisans', 'Price & Licence',
-     ['ücretsiz', 'freemium', 'ücretli', 'açık-kaynak', 'açık-ağırlık', 'self-hosted']),
+     ['ücretsiz', 'freemium', 'ücretli', 'açık-kaynak', 'açık-ağırlık']),
     ('tur', 'Tür', 'Type',
-     ['referans', 'öğretici', 'müfredat', 'kitap', 'video', 'kopya-kâğıdı', 'dokümantasyon',
+     ['referans', 'araç', 'öğretici', 'müfredat', 'kitap', 'video', 'kopya-kâğıdı', 'dokümantasyon',
       'awesome-liste', 'interaktif', 'akademik', 'sertifika', 'mülakat', 'arşivlenmiş']),
+    # Set only on learning records (the learning, practice, books, languages and
+    # security lab/career categories); the rubric is in CONTRIBUTING.md.
+    ('seviye', 'Seviye', 'Level', ['başlangıç', 'orta', 'ileri']),
     # The language the resource itself is written in -- its own question, not a
     # kind of content. 'türkçe' sat in Type beside 'video' and 'kitap'.
     ('dil', 'İçerik Dili', 'Content Language', ['türkçe']),
-    ('arayuz', 'Arayüz & Dil', 'Interface & Language',
-     ['tarayıcı-içi', 'masaüstü', 'cli', 'api', 'sdk', 'eklenti', 'docker',
-      'python', 'javascript', 'c-ailesi', 'rust', 'go', 'php', 'jvm']),
+    ('platform', 'Platform & Erişim', 'Platform & Access',
+     ['tarayıcı-içi', 'masaüstü', 'mobil', 'cli', 'eklenti', 'çevrimdışı', 'self-hosted',
+      'hesap-gerekmez']),
+    ('teknoloji', 'Dil & Entegrasyon', 'Language & Integration',
+     ['python', 'javascript', 'c-ailesi', 'rust', 'go', 'php', 'jvm', 'docker', 'api', 'sdk']),
 ]
 _claimed = {t for _, _, _, ts in _FACET_HEADS for t in ts}
+
+# Tag density. Price & licence answer one question every record answers, so they
+# do not count; everything else does. Fewer than two leaves a record findable by
+# one chip at most; more than four turns the card's tag row back into noise.
+# test_build.py enforces both (the floor as a ratchet, see THIN_MAX there).
+UNCOUNTED = ('ücretsiz', 'freemium', 'ücretli', 'açık-kaynak', 'açık-ağırlık')
+MIN_TAGS, MAX_TAGS = 2, 4
+LEVELS = ('başlangıç', 'orta', 'ileri')
+# Only these categories carry a level: elsewhere "beginner" would be a guess.
+LEVEL_CATS = ('ogrenme', 'pratik', 'kitaplik', 'diller', 'guv_lab', 'guv_kariyer')
 FACETS = _FACET_HEADS + [
     ('konu', 'Konu', 'Topic', [t for t in CANON if t not in _claimed]),
 ]

@@ -49,7 +49,13 @@
     ],
     "tr": "Python ile veri panosu kuran Dash çatısı için kaynak listesi. Streamlit’ten farkı Plotly tabanlı olması ve geri çağırma (callback) modeliyle etkileşim üzerinde daha çok denetim vermesi.",
     "en": "A resource list for Dash, building data dashboards with Python. Unlike Streamlit it is Plotly-based, and its callback model gives more control over interactivity.",
-    "src": "awesomelist"
+    "src": "awesomelist",
+    "vs": [
+      {
+        "u": "https://streamlit.io/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://github.com/heynickc/awesome-ddd",
@@ -328,7 +334,13 @@
     ],
     "tr": "Veritabanı, sunucu işlevleri ve gerçek zamanlı abonelikleri tek üründe toplayan backend platformu. Firebase’den farkı sorguların TypeScript fonksiyonu olarak yazılması ve işlem (transaction) garantisi vermesi — döküman veritabanı esnekliğiyle ilişkisel tutarlılık.",
     "en": "A backend platform folding the database, server functions and real-time subscriptions into one product. Where Firebase has you write rules, here queries are TypeScript functions with real transactional guarantees — document flexibility without giving up consistency.",
-    "src": "cdcruz"
+    "src": "cdcruz",
+    "vs": [
+      {
+        "u": "https://firebase.google.com/docs",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://docs.djangoproject.com/en/6.0/",
@@ -342,7 +354,13 @@
     "tr": "ORM, göç sistemi, yönetim paneli ve kimlik doğrulama kutudan çıkıyor. Flask’tan farkı bu “pil dahil” yaklaşım: ilk haftayı kazandırıyor, Django’nun kalıbı dışına çıkmak istediğinde ise direnç gösteriyor.",
     "en": "ORM, migrations, admin panel and authentication out of the box. Unlike Flask it comes batteries-included: it buys you the first week, and pushes back when you want to step outside its shape.",
     "src": "kedi",
-    "added": 1776690062
+    "added": 1776690062,
+    "vs": [
+      {
+        "u": "https://flask.palletsprojects.com/en/stable/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://tutorial.djangogirls.org/en/",
@@ -363,7 +381,8 @@
     "tags": [
       "açık-kaynak",
       "javascript",
-      "ücretsiz"
+      "ücretsiz",
+      "backend"
     ],
     "tr": "Node.js’in minimal çatısı; ara katman (middleware) modelini standartlaştırdığı için ekosistemin ortak dili hâline geldi. Fastify gibi yeni çatılara kıyasla yavaş ve az değişiyor — Express 5 ancak 2024’te çıktı; bu hem güç hem zayıflık.",
     "en": "Node’s minimal framework, whose middleware model became the ecosystem’s shared vocabulary. Compared with newer frameworks such as Fastify it is slower and barely changes — Express 5 only shipped in 2024; that is both strength and weakness.",
@@ -414,7 +433,13 @@
     ],
     "tr": "Üç yüzden fazla ücretsiz genel API’nin dizini; her biri için canlılık durumu ve son kontrol tarihi tutuluyor. Eski awesome-list derlemelerinden farkı bu: listedeki API’lerin hâlâ yanıt verip vermediğini düzenli olarak tarıyor.",
     "en": "A directory of over three hundred free public APIs, each carrying a liveness status and a last-checked date. That is what separates it from the old awesome-list compilations: it actually keeps scanning whether the APIs still answer.",
-    "src": "cdcruz"
+    "src": "cdcruz",
+    "vs": [
+      {
+        "u": "https://github.com/public-apis/public-apis",
+        "a": "olgunluk"
+      }
+    ]
   },
   {
     "url": "https://graphql.org/",
@@ -508,7 +533,13 @@
     ],
     "tr": "Sık kullanılan veriyi bellekte tutarak site hızını artıran dağıtık önbellek sistemi. Redis’e kıyasla yalnız anahtar-değer saklıyor ve kalıcılığı yok; karşılığında çok iş parçacıklı ve son derece basit.",
     "en": "A distributed memory cache that speeds up sites by holding hot data in RAM. Compared with Redis it stores only key-value pairs with no persistence; in exchange it is multi-threaded and extremely simple.",
-    "src": "awesomeproj"
+    "src": "awesomeproj",
+    "vs": [
+      {
+        "u": "https://redis.io/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://nodejs.org/learn",
@@ -527,7 +558,7 @@
     "url": "https://www.parse.bot/",
     "name": "Parse",
     "tags": [
-      "referans",
+      "araç",
       "api",
       "freemium"
     ],
@@ -568,7 +599,8 @@
     "name": "Porkbun",
     "tags": [
       "sunucu",
-      "ücretli"
+      "ücretli",
+      "ağ"
     ],
     "tr": "ICANN akreditasyonlu alan adı kayıt şirketi; WHOIS gizliliği, SSL ve e-posta yönlendirme ücretsiz geliyor. GoDaddy tarzı kayıtçılardan farkı yenileme fiyatının ilk yıl fiyatına yakın kalması — cazip giriş fiyatı sonra üç katına çıkmıyor.",
     "en": "An ICANN-accredited domain registrar where WHOIS privacy, SSL and email forwarding are included rather than upsold. What separates it from the GoDaddy school is that renewal prices stay close to the first-year price instead of tripling.",
@@ -585,7 +617,13 @@
     "tr": "Public APIs’in sürdürülen çatalı; asıl depo bir dönem bakımsız kaldığında ortaya çıktı. Asıl listeden farkı bazı girdilerinin daha güncel olması — birinde bulamadığını diğerinde ara.",
     "en": "A maintained fork of Public APIs, born while the original went untended. Unlike the original, some of its entries are fresher — search one when the other comes up empty.",
     "src": "kedi",
-    "added": 1775421545
+    "added": 1775421545,
+    "vs": [
+      {
+        "u": "https://github.com/public-apis/public-apis",
+        "a": "olgunluk"
+      }
+    ]
   },
   {
     "url": "https://github.com/public-apis/public-apis",
@@ -605,7 +643,8 @@
     "name": "Refactoring Guru",
     "tags": [
       "freemium",
-      "sistem-tasarımı"
+      "sistem-tasarımı",
+      "öğretici"
     ],
     "tr": "Her tasarım desenini şema, gerçekçi örnek ve kod olarak veriyor — üstelik altı ayrı dilde. Gang of Four kitabından farkı, aynı desenleri okunması güç bir metin yerine erişilebilir bir anlatımla sunması.",
     "en": "Presents each design pattern as a diagram, a realistic scenario and code — in six languages. Unlike the Gang of Four book, it covers the same patterns in accessible prose rather than a difficult text.",
@@ -636,7 +675,13 @@
     ],
     "tr": "RESTful API’leri tasarlamak, belgelemek ve denemek için OpenAPI araç seti. Postman gibi istemcilerden farkı önce şartnameyi yazıp belgeyi ve istemci kodunu ondan üretmen (spec-first).",
     "en": "An OpenAPI toolset to design, document and try RESTful APIs. Unlike clients such as Postman, you write the spec first and generate docs and client code from it.",
-    "src": "awesomeproj"
+    "src": "awesomeproj",
+    "vs": [
+      {
+        "u": "https://www.postman.com/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://systemdesign.one/",
@@ -649,7 +694,13 @@
     "tr": "Gerçek şirketlerin mimarisini vaka çalışması olarak çözümlüyor; sayısal büyüklükleri ve yapılan takasları veriyor. Soyut sistem tasarımı anlatımlarından farkı bu somutluk.",
     "en": "Breaks down real company architectures as case studies with actual numbers and the trade-offs taken. Unlike abstract system-design write-ups, it is concrete.",
     "src": "kedi",
-    "added": 1787182446
+    "added": 1787182446,
+    "vs": [
+      {
+        "u": "https://github.com/donnemartin/system-design-primer",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://github.com/donnemartin/system-design-primer",
@@ -701,5 +752,41 @@
     "en": "The plugin and theme development reference. The hook system is the one concept that explains all of WordPress, and nothing falls into place until you have it.",
     "src": "kedi",
     "added": 1776690065
+  },
+  {
+    "url": "https://wasmtime.dev/",
+    "name": "Wasmtime",
+    "tags": [
+      "cli",
+      "sdk",
+      "rust",
+      "ücretsiz",
+      "açık-kaynak"
+    ],
+    "tr": "Bytecode Alliance’ın tarayıcı dışında WebAssembly çalıştıran çalışma ortamı; Rust ile yazılmış, Cranelift ile derliyor, WASI ve bileşen modelini ilk uygulayanlardan. Wasmer’dan farkı paket kaydı ya da barındırma satmaması; standart takibine ve gömülerek kullanılmaya odaklanması.",
+    "en": "The Bytecode Alliance’s runtime for running WebAssembly outside the browser; written in Rust, compiling with Cranelift, and among the first to implement WASI and the component model. Unlike Wasmer it sells no package registry or hosting; it focuses on tracking the standards and on being embedded.",
+    "src": "bosluk",
+    "added": 1792281600
+  },
+  {
+    "url": "https://wasmer.io/",
+    "name": "Wasmer",
+    "tags": [
+      "cli",
+      "sdk",
+      "sunucu",
+      "freemium",
+      "açık-kaynak"
+    ],
+    "tr": "Birden çok derleyici arka ucu (Singlepass, Cranelift, LLVM) arasında seçim yapılabilen WebAssembly çalışma ortamı; yanında bir paket kaydı ve ücretli Wasmer Edge barındırması var. Wasmtime’dan farkı yalnızca çalışma ortamı değil, paketleme ve yayınlamayı da kapsayan ticari bir platform olması.",
+    "en": "A WebAssembly runtime that lets you choose between several compiler back ends (Singlepass, Cranelift, LLVM), with a package registry and paid Wasmer Edge hosting alongside. Unlike Wasmtime it is not only a runtime but a commercial platform covering packaging and deployment too.",
+    "src": "bosluk",
+    "added": 1792281600,
+    "vs": [
+      {
+        "u": "https://wasmtime.dev/",
+        "a": "kapsam"
+      }
+    ]
   }
 ]

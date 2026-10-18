@@ -54,7 +54,8 @@
     "name": "Awesome Neovim",
     "tags": [
       "awesome-liste",
-      "ücretsiz"
+      "ücretsiz",
+      "cli"
     ],
     "tr": "Neovim editörü için eklenti ve yapılandırma listesi. Vim eklenti listelerinden farkı Lua ile yazılmış ve Tree-sitter ile LSP gibi yalnız Neovim’de bulunan özelliklere dayanan eklentileri toplaması.",
     "en": "A list of plugins and configurations for the Neovim editor. Unlike Vim plugin lists, it gathers plugins written in Lua that rely on Neovim-only features such as Tree-sitter and LSP.",
@@ -65,7 +66,8 @@
     "name": "Awesome VS Code",
     "tags": [
       "awesome-liste",
-      "ücretsiz"
+      "ücretsiz",
+      "eklenti"
     ],
     "tr": "Visual Studio Code için uzantı ve kaynak listesi. Marketplace’in kendisinden farkı küratörlü olması: binlerce uzantı yerine denenmiş olanları dile ve işe göre gruplaması.",
     "en": "A list of extensions and resources for Visual Studio Code. Unlike the Marketplace itself it is curated: instead of thousands of extensions, it groups proven ones by language and task.",
@@ -89,7 +91,8 @@
     "name": "CodingFont",
     "tags": [
       "interaktif",
-      "ücretsiz"
+      "ücretsiz",
+      "tasarım"
     ],
     "tr": "Kodlama fontlarını turnuva usulü ikişer ikişer karşılaştırıp sana en uygun olanı buldurmayı amaçlayan araç. Font listelerinden farkı seçimi karara indirgemesi — yirmi fontu yan yana koymuyor, ikisini seçtiriyor.",
     "en": "Compares coding fonts two at a time in a tournament until one wins. Unlike a font list it turns browsing into a decision — it never puts twenty fonts side by side, only two.",
@@ -116,11 +119,18 @@
       "açık-kaynak",
       "masaüstü",
       "sunucu",
-      "ücretsiz"
+      "ücretsiz",
+      "tarayıcı-içi"
     ],
     "tr": "Masaüstünde ve tarayıcıda çalışan, VS Code eklentileriyle uyumlu IDE çatısı. VS Code’dan farkı ürün değil çatı olması — kendi markanla, kendi eklenti setinle bir IDE inşa etmen için tasarlanmış.",
     "en": "An IDE framework that runs on the desktop and in the browser and takes VS Code extensions. The difference from VS Code is that it is a framework rather than a product — built for you to construct your own IDE on top of.",
-    "src": "awesome-uw"
+    "src": "awesome-uw",
+    "vs": [
+      {
+        "u": "https://code.visualstudio.com/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://pandao.github.io/editor.md/en.html",
@@ -128,7 +138,8 @@
     "tags": [
       "açık-kaynak",
       "tarayıcı-içi",
-      "ücretsiz"
+      "ücretsiz",
+      "frontend"
     ],
     "tr": "Açık kaynak, tarayıcıda çalışan Markdown editörü; canlı önizleme ve dışa aktarma. Barındırılan not uygulamalarından farkı bir bileşen olması: kendi sayfana gömüp veriyi kendinde tutabiliyorsun.",
     "en": "An open-source, in-browser Markdown editor with live preview and export. Unlike hosted note apps it is a component you embed in your own page, keeping the data yourself.",
@@ -140,13 +151,18 @@
     "tags": [
       "ücretsiz",
       "masaüstü",
-      "c-ailesi",
-      "ağ"
+      "c-ailesi"
     ],
     "tr": "Hafif C/C++ geliştirme ortamı. Modern IDE’lerden farkı düşük donanımda çalışması ve Türkiye’deki üniversite laboratuvarlarında hâlâ standart kurulum olması; karşılığında güncel araç desteği zayıf.",
     "en": "A lightweight C/C++ IDE. Unlike modern IDEs it runs on weak hardware and remains the standard install in many Turkish university labs; in exchange its modern tooling support is thin.",
     "src": "kedi",
-    "added": 1758707986
+    "added": 1758707986,
+    "vs": [
+      {
+        "u": "https://code.visualstudio.com/",
+        "a": "olgunluk"
+      }
+    ]
   },
   {
     "url": "https://github.com/punitarani/fli",
@@ -154,7 +170,8 @@
     "tags": [
       "açık-kaynak",
       "cli",
-      "ücretsiz"
+      "ücretsiz",
+      "mcp"
     ],
     "tr": "Uçuş aramayı komut satırına taşıyor; MCP, CLI ve Python kütüphanesi olarak kullanılabiliyor. Uçuş sitelerinden farkı sonuçların betiklenebilir olması: fiyat takibini bir cron işine bağlayabiliyorsun.",
     "en": "Brings flight search to the command line, usable as an MCP server, a CLI and a Python library. Unlike flight sites the results are scriptable, so you can hang price tracking off a cron job.",
@@ -192,11 +209,18 @@
     "tags": [
       "cli",
       "açık-kaynak",
-      "ücretsiz"
+      "ücretsiz",
+      "araç"
     ],
     "tr": "Terminalde çalışan, sezgisel ve modern kısayollu metin editörü. Vim ve nano’dan farkı öğrenme eğrisinin neredeyse düz olması: Ctrl+S kaydeder, Ctrl+C kopyalar — masaüstü editör alışkanlıklarıyla çalışıyor.",
     "en": "A modern, intuitive terminal-based text editor with familiar shortcuts. Unlike Vim and nano its learning curve is nearly flat: Ctrl+S saves, Ctrl+C copies — it works with desktop-editor habits.",
-    "src": "awesomeproj"
+    "src": "awesomeproj",
+    "vs": [
+      {
+        "u": "https://neovim.io/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://neovim.io/",
@@ -204,7 +228,8 @@
     "tags": [
       "cli",
       "açık-kaynak",
-      "ücretsiz"
+      "ücretsiz",
+      "araç"
     ],
     "tr": "Vim’in yeniden yapılandırılmış hâli; yapılandırma ve eklentiler Lua ile yazılıyor, dil sunucusu (LSP) desteği yerleşik. Klasik Vim’den farkı bu Lua ekosistemi ve eşzamansız eklenti mimarisi.",
     "en": "A refactored Vim where configuration and plugins are written in Lua and language-server (LSP) support is built in. Unlike classic Vim, it has that Lua ecosystem and an asynchronous plugin architecture.",
@@ -216,17 +241,24 @@
     "tags": [
       "açık-kaynak",
       "masaüstü",
-      "ücretsiz"
+      "ücretsiz",
+      "araç"
     ],
     "tr": "Windows için hafif kaynak kodu editörü; sözdizimi renklendirme, çok dosyada arama-değiştir ve makro kaydı var. VS Code’dan farkı hız: dev bir günlük dosyasını saniyeler içinde açıyor, dil sunucusu beklemiyor.",
     "en": "A lightweight source editor for Windows with syntax highlighting, multi-file search and replace, and macro recording. Unlike VS Code its edge is speed: it opens a huge log file in seconds without waiting on a language server.",
-    "src": "cdcruz"
+    "src": "cdcruz",
+    "vs": [
+      {
+        "u": "https://code.visualstudio.com/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.programmingfonts.org/",
     "name": "Programming Fonts",
     "tags": [
-      "referans",
+      "araç",
       "ücretsiz",
       "tarayıcı-içi"
     ],
@@ -252,11 +284,18 @@
     "name": "Sublime Text",
     "tags": [
       "masaüstü",
-      "ücretli"
+      "ücretli",
+      "araç"
     ],
     "tr": "Hıza ve akıcılığa odaklı, çok hızlı açılan metin/kod editörü. VS Code’dan farkı yerel kod olması ve anında açılması; karşılığında eklenti ekosistemi ve yerleşik özellikleri daha dar, ücretli.",
     "en": "A text/code editor focused on speed and fluidity, opening very fast. Unlike VS Code it is native and opens instantly; in exchange its plugin ecosystem and built-ins are narrower, and it is paid.",
-    "src": "awesomeproj"
+    "src": "awesomeproj",
+    "vs": [
+      {
+        "u": "https://code.visualstudio.com/",
+        "a": "fiyat"
+      }
+    ]
   },
   {
     "url": "https://terminaltrove.com/",
@@ -291,7 +330,8 @@
     "tags": [
       "açık-kaynak",
       "ücretsiz",
-      "masaüstü"
+      "masaüstü",
+      "araç"
     ],
     "tr": "Eklenti ekosistemiyle en yaygın kod editörü; hafif açılıyor ama dil sunucuları ve hata ayıklayıcılarla bir IDE’ye yaklaşıyor. JetBrains gibi tam IDE’lerden farkı her dili eklentiyle alman: temel küçük, yetenek eklentiden geliyor.",
     "en": "The most widely used code editor: it starts light but approaches an IDE through language servers and debuggers. Unlike full IDEs such as JetBrains, every language comes as an extension — a small base with capability added on.",
@@ -351,7 +391,13 @@
     ],
     "tr": "Rust ile yazılmış terminal; komutları ve çıktılarını metin akışı yerine ayrı \"blok\"lar hâlinde tutuyor, böylece bir komutun çıktısını tek tıkla kopyalayabiliyorsun. iTerm veya Windows Terminal’dan ayrıldığı yer bu blok modeli ve gömülü YZ komut önerisi.",
     "en": "A terminal written in Rust that keeps each command and its output as a separate block instead of one scrolling stream, so you can copy a single command’s output in one click. That block model and the built-in AI command suggestions are what set it apart.",
-    "src": "cdcruz"
+    "src": "cdcruz",
+    "vs": [
+      {
+        "u": "https://hyper.is/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://github.com/zellij-org/zellij",
@@ -366,5 +412,41 @@
     "en": "A terminal workspace written in Rust, with layouts and a plugin system. Unlike tmux its defaults are discoverable (on-screen key hints); the trade-off is that it is younger.",
     "src": "favlink",
     "added": 1791536400
+  },
+  {
+    "url": "https://www.overleaf.com/",
+    "name": "Overleaf",
+    "tags": [
+      "tarayıcı-içi",
+      "akademik",
+      "araç",
+      "freemium",
+      "açık-kaynak"
+    ],
+    "tr": "Tarayıcıda çalışan, ortak düzenlemeli LaTeX editörü; derleme sunucuda, binlerce dergi ve tez şablonu hazır. Yerel TeX kurulumundan farkı kurulumsuz ve eşzamanlı çalışılabilmesi; ücretsiz planda derleme süresi ve ortak çalışan sınırlı, Community Edition kendi sunucunda kurulabiliyor.",
+    "en": "A collaborative LaTeX editor in the browser; compilation runs on the server and thousands of journal and thesis templates are ready. Unlike a local TeX install it needs no setup and supports live co-editing; the free plan limits compile time and collaborators, and the Community Edition can be self-hosted.",
+    "src": "bosluk",
+    "added": 1792281600
+  },
+  {
+    "url": "https://typst.app/",
+    "name": "Typst",
+    "tags": [
+      "tarayıcı-içi",
+      "akademik",
+      "araç",
+      "freemium",
+      "açık-kaynak"
+    ],
+    "tr": "LaTeX’e alternatif yeni bir dizgi dili ve onun çevrimiçi editörü; derleyici açık kaynak (Rust) ve değişiklikleri anında yeniden derliyor. Overleaf’ten farkı LaTeX değil daha sade bir sözdizimi ve yerleşik betik dili kullanması; buna karşın paket ekosistemi küçük ve çoğu dergi hâlâ LaTeX istiyor.",
+    "en": "A new typesetting language meant as an alternative to LaTeX, and its online editor; the compiler is open source (Rust) and recompiles changes instantly. Unlike Overleaf it does not use LaTeX but a simpler syntax with built-in scripting; in exchange the package ecosystem is smaller and most journals still ask for LaTeX.",
+    "src": "bosluk",
+    "added": 1792281600,
+    "vs": [
+      {
+        "u": "https://www.overleaf.com/",
+        "a": "yaklasim"
+      }
+    ]
   }
 ]

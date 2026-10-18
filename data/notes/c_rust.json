@@ -54,7 +54,8 @@
     "name": "C Programming Tutorial",
     "tags": [
       "ücretsiz",
-      "c-ailesi"
+      "c-ailesi",
+      "öğretici"
     ],
     "tr": "Baştan sona klasik C anlatımı. Kapsamlı ama üslubu ve örnekleri eski; sıralı okumaktan çok tek konu aramak için pratik.",
     "en": "A classic front-to-back treatment of C. Comprehensive, but dated in style and examples — handier for looking one topic up than for reading through.",
@@ -122,7 +123,13 @@
     ],
     "tr": "Google’ın dört günlük, slayt + alıştırma biçiminde açık Rust kursu. Kitaptan farkı sınıf ortamı için tempolu, gömülü ve eşzamanlılık modülleriyle gelmesi.",
     "en": "Google’s open four-day Rust course as slides + exercises. Unlike the book it is paced for a classroom and comes with embedded and concurrency modules.",
-    "src": "kedi"
+    "src": "kedi",
+    "vs": [
+      {
+        "u": "https://doc.rust-lang.org/book/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.youtube.com/user/CppCon/videos?shelf_id=0&view=0&sort=dd",
@@ -147,7 +154,13 @@
     "tr": "C ve C++ standart kütüphanesinin en yaygın kullanılan referansı; her özelliğin hangi standartta (C++11/17/20/23) geldiği işaretli. Öğretici sitelerden farkı bu sürüm ayrımını atlamaması.",
     "en": "The most widely used reference for the C and C++ standard library, marking which standard (C++11/17/20/23) each feature arrived in. Unlike tutorial sites, it never skips that version distinction.",
     "src": "kedi",
-    "added": 1787182459
+    "added": 1787182459,
+    "vs": [
+      {
+        "u": "https://www.w3schools.com/c/c_ref_reference.php",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://crates.io/",
@@ -180,7 +193,8 @@
     "name": "GeeksforGeeks C",
     "tags": [
       "ücretsiz",
-      "c-ailesi"
+      "c-ailesi",
+      "öğretici"
     ],
     "tr": "Konu başlığına bölünmüş C kaynağı. Sıralı bir kitaptan farkı aramadan doğrudan ilgili sayfaya düşmen; örnek kodların bir kısmı eski derleyici davranışına dayanıyor, dikkatli okumak gerekiyor.",
     "en": "C material split by topic. Unlike a sequential book, a search lands you straight on the relevant page; some examples rely on old compiler behaviour, so read carefully.",
@@ -233,7 +247,8 @@
     "tags": [
       "ücretsiz",
       "c-ailesi",
-      "interaktif"
+      "interaktif",
+      "tarayıcı-içi"
     ],
     "tr": "Tarayıcıda derleyip çalıştırabildiğin C öğreticisi. Derleyici kurmak yerine doğrudan sayfada denediğin için dile bakmak isteyenlerin giriş engelini kaldırıyor.",
     "en": "A C tutorial you compile and run in the browser. Rather than installing a toolchain you try it on the page, which removes the entry barrier for anyone who wants a look at the language.",
@@ -250,7 +265,13 @@
     ],
     "tr": "Avrupa’nın en büyük C++ konferanslarından birinin konuşma arşivi. CppCon’dan farkı daha küçük ve uygulama ağırlıklı olması — standart tartışmasından çok gerçek projelerden deneyimler.",
     "en": "The talk archive of one of Europe’s largest C++ conferences. Against CppCon it is smaller and more applied — experience from real projects rather than standards debate.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://www.youtube.com/user/CppCon/videos?shelf_id=0&view=0&sort=dd",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://doc.qt.io/",
@@ -275,7 +296,13 @@
     ],
     "tr": "Her kavramı çalıştırılabilir, düzenlenebilir kod örneğiyle veren resmî kaynak. Kitaptan farkı anlatıyı kısıp örneği öne alması — deneyerek öğrenenler için.",
     "en": "The official resource giving each concept as a runnable, editable code example. Unlike the book it cuts the prose and leads with the example — for those who learn by trying.",
-    "src": "rustlearn"
+    "src": "rustlearn",
+    "vs": [
+      {
+        "u": "https://doc.rust-lang.org/book/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://rust-lang-nursery.github.io/rust-cookbook/",
@@ -287,7 +314,13 @@
     ],
     "tr": "\"Dosyayı satır satır oku\", \"HTTP isteği at\" gibi gündelik işlerin Rust karşılıklarını veren tarif kitabı. Kitap ve örneklerden farkı görev odaklı olması — dili öğrenmek için değil, bir işi bitirmek için açılıyor.",
     "en": "A cookbook of everyday tasks in Rust — read a file line by line, make an HTTP request. Against the book and the examples it is task-oriented: you open it to finish something, not to learn the language.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://doc.rust-lang.org/rust-by-example/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://play.rust-lang.org/",
@@ -300,7 +333,13 @@
     ],
     "tr": "Rust kodunu kurulum olmadan tarayıcıda derleyip çalıştıran resmî alan. Yerel kurulumdan farkı derleyici çıktısını ve ASM/MIR’i paylaşılabilir bağlantıyla vermesi.",
     "en": "The official space to compile and run Rust code in the browser with no install. Unlike a local setup it gives compiler output and ASM/MIR via a shareable link.",
-    "src": "rustlearn"
+    "src": "rustlearn",
+    "vs": [
+      {
+        "u": "https://godbolt.org/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://doc.rust-lang.org/std/",
@@ -339,7 +378,13 @@
     ],
     "tr": "Küçük, kırık kod parçalarını düzelterek Rust öğreten alıştırma seti. Okuma temelli kaynaklardan farkı derleyici hatalarını okuyup düzeltmeyi elle deneyimletmesi.",
     "en": "An exercise set teaching Rust by fixing small, broken snippets. Unlike reading-based resources it has you read and fix compiler errors by hand.",
-    "src": "rustlearn"
+    "src": "rustlearn",
+    "vs": [
+      {
+        "u": "https://doc.rust-lang.org/rust-by-example/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.stroustrup.com/C++.html",
@@ -417,7 +462,13 @@
     ],
     "tr": "Dilin dilbilgisini ve anlamını tanımlayan resmî başvuru. Kitaptan farkı öğretici değil, “Rust tam olarak nasıl davranır” sorusunun yetkili cevabı olması.",
     "en": "The official reference defining the language’s grammar and semantics. Unlike the book it is not a tutorial but the authoritative answer to “exactly how does Rust behave”.",
-    "src": "rustlearn"
+    "src": "rustlearn",
+    "vs": [
+      {
+        "u": "https://doc.rust-lang.org/book/",
+        "a": "rehberlik"
+      }
+    ]
   },
   {
     "url": "https://doc.rust-lang.org/nomicon/",

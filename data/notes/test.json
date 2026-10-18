@@ -40,32 +40,11 @@
     "name": "Applitools",
     "tags": [
       "otomasyon",
-      "freemium"
+      "freemium",
+      "araç"
     ],
     "tr": "Görsel yapay zekâyla ekran karşılaştırması yapan görsel regresyon test platformu. Piksel piksel karşılaştıran araçlardan farkı kenar yumuşatma gibi önemsiz farkları yok sayıp gerçek değişiklikleri işaretlemesi.",
     "en": "A visual regression testing platform that compares screens with visual AI. Unlike pixel-by-pixel tools, it ignores trivial differences such as anti-aliasing and flags real changes.",
-    "src": "testsites"
-  },
-  {
-    "url": "https://demo.applitools.com/",
-    "name": "Applitools Demo",
-    "tags": [
-      "ücretsiz",
-      "otomasyon"
-    ],
-    "tr": "Görsel test için tasarlanmış, ikinci bir sürümüyle karşılaştırılabilen demo. İşlevsel testten farkı ekranın nasıl göründüğündeki değişimi yakalamaya odaklanması.",
-    "en": "A demo designed for visual testing, comparable against a second version. Unlike functional testing it targets catching changes in how the screen looks.",
-    "src": "testsites"
-  },
-  {
-    "url": "https://practice-automation.com/",
-    "name": "AutomateNow Practice",
-    "tags": [
-      "otomasyon",
-      "ücretsiz"
-    ],
-    "tr": "Farklı etkileşim türlerini denemek için sade bir otomasyon pratik sayfası.",
-    "en": "A clean automation practice page for trying different interaction types.",
     "src": "testsites"
   },
   {
@@ -78,7 +57,13 @@
     ],
     "tr": "UI ve API arka ucuyla gelen, hazır test senaryosu listesi olan otomasyon pratik sitesi. Tek sayfalık demo sitelerden farkı kayıt, sepet ve ödeme gibi uçtan uca akışları API’siyle birlikte sunması.",
     "en": "An automation practice site with a UI, an API backend and a ready list of test cases. Unlike single-page demo sites, it offers end-to-end flows — sign-up, cart, checkout — together with their API.",
-    "src": "testsites"
+    "src": "testsites",
+    "vs": [
+      {
+        "u": "https://the-internet.herokuapp.com/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://github.com/SrinivasanTarget/awesome-appium",
@@ -86,7 +71,7 @@
     "tags": [
       "awesome-liste",
       "otomasyon",
-      "masaüstü",
+      "mobil",
       "ücretsiz"
     ],
     "tr": "Mobil uygulama test otomasyonu aracı Appium için kaynak listesi. Espresso ya da XCUITest gibi platforma özgü araçlardan farkı Android ve iOS’u WebDriver protokolüyle tek API’den sürmesi.",
@@ -219,21 +204,11 @@
     "name": "Beeceptor",
     "tags": [
       "api",
-      "freemium"
+      "freemium",
+      "araç"
     ],
     "tr": "Saniyeler içinde sahte REST uç noktası kurup HTTP isteklerini yakalayan ve taklit eden araç. Kendi sahte sunucunu yazmaktan farkı kod ve kurulum gerektirmemesi.",
     "en": "Spins up a mock REST endpoint in seconds and intercepts or fakes HTTP requests. Unlike writing your own mock server, it needs no code or setup.",
-    "src": "testsites"
-  },
-  {
-    "url": "https://blazedemo.com/",
-    "name": "BlazeDemo",
-    "tags": [
-      "otomasyon",
-      "ücretsiz"
-    ],
-    "tr": "BlazeMeter’ın performans testi için sunduğu basit seyahat acentesi demosu. Tuzaklı pratik sitelerinden farkı bilerek sade olması: amaç yük testi senaryosu kurmak.",
-    "en": "BlazeMeter’s simple travel-agency demo for performance testing. Unlike trap-laden practice sites it is deliberately plain — the point is building a load-test scenario.",
     "src": "testsites"
   },
   {
@@ -249,17 +224,6 @@
     "src": "awesomeproj"
   },
   {
-    "url": "https://www.candymapper.net/",
-    "name": "CandyMapper",
-    "tags": [
-      "otomasyon",
-      "ücretsiz"
-    ],
-    "tr": "Test otomasyonu becerilerini denemek için hazırlanmış web uygulaması. Temiz demo sitelerinden farkı bilerek yerleştirilmiş tuzaklar — açılır pencereler, beklenmedik öğeler — içermesi.",
-    "en": "A web app built to practise test-automation skills. Unlike clean demo sites, it contains deliberately planted traps — pop-ups, unexpected elements.",
-    "src": "testsites"
-  },
-  {
     "url": "https://codescene.com/",
     "name": "CodeScene",
     "tags": [
@@ -273,34 +237,12 @@
     "added": 1783081092
   },
   {
-    "url": "https://coffee-cart.app/",
-    "name": "Coffee Cart",
-    "tags": [
-      "ücretsiz",
-      "otomasyon"
-    ],
-    "tr": "Kahve siparişi üzerinden temel etkileşimleri denemek için sade bir uygulama. Büyük demolardan farkı beş dakikada kavranacak kadar küçük ama sepet/mantık testine yetecek kadar dolu.",
-    "en": "A simple app for practising basic interactions through ordering coffee. Unlike large demos it is small enough to grasp in five minutes yet full enough for cart/logic testing.",
-    "src": "testsites"
-  },
-  {
-    "url": "https://commitquality.com/",
-    "name": "Commit Quality",
-    "tags": [
-      "otomasyon",
-      "öğretici",
-      "ücretsiz"
-    ],
-    "tr": "Playwright otomasyonu için pratik sitesi. Yalnız hedef site sunan pratik alanlarından farkı yüksek kaliteli Playwright örnek kodlarıyla birlikte gelmesi.",
-    "en": "A practice site for Playwright automation. Unlike practice grounds that offer only a target site, it comes with high-quality Playwright example code.",
-    "src": "testsites"
-  },
-  {
     "url": "https://countries.trevorblades.com/",
     "name": "Countries GraphQL API",
     "tags": [
       "api",
-      "ücretsiz"
+      "ücretsiz",
+      "hesap-gerekmez"
     ],
     "tr": "Ülke, kıta ve dil verisi sunan sade, herkese açık bir GraphQL API’si; anahtar istemiyor. REST tabanlı sahte API’lerden farkı GraphQL sorgusu ve istemci testi denemeye uygun olması.",
     "en": "A simple public GraphQL API serving country, continent and language data, with no key required. Unlike REST-based mock APIs, it suits practising GraphQL queries and client testing.",
@@ -320,71 +262,40 @@
     "src": "testsites"
   },
   {
-    "url": "https://demoblaze.com/",
-    "name": "DemoBlaze",
-    "tags": [
-      "otomasyon",
-      "ücretsiz"
-    ],
-    "tr": "Otomasyona karşı çalışmak için tasarlanmış örnek mağaza. Diğer demo mağazalardan farkı BlazeMeter’ın hazırladığı adım adım gezinti anlatımıyla gelmesi.",
-    "en": "A sample shop designed to automate against. Unlike other demo shops, it comes with a step-by-step walk-through prepared by BlazeMeter.",
-    "src": "testsites"
-  },
-  {
-    "url": "https://demoqa.com/",
-    "name": "DemoQA",
-    "tags": [
-      "ücretsiz",
-      "otomasyon"
-    ],
-    "tr": "Form, pencere öğesi, etkileşim ve kitap uygulamasıyla geniş bir otomasyon alıştırma seti. Tek sayfalık sitelerden farkı bir framework’ü baştan sona denemene yetecek çeşitlilik.",
-    "en": "A broad automation practice set with forms, widgets, interactions and a bookstore app. Unlike single-page sites it has enough variety to exercise a whole framework end to end.",
-    "src": "testsites"
-  },
-  {
     "url": "https://dummyjson.com",
     "name": "DummyJSON",
     "tags": [
       "api",
-      "ücretsiz"
+      "ücretsiz",
+      "araç"
     ],
     "tr": "Onlarca kaynak sunan sahte JSON REST API’si; hızlı prototip ve test verisi için. JSONPlaceholder’dan farkı daha zengin veri (ürün, sepet, tarif) ile birlikte kimlik doğrulama, sayfalama ve arama desteği.",
     "en": "A fake JSON REST API offering dozens of resources for quick prototyping and test data. Unlike JSONPlaceholder it has richer data (products, carts, recipes) plus authentication, pagination and search.",
-    "src": "testsites"
-  },
-  {
-    "url": "https://testpages.eviltester.com/styled/index.html",
-    "name": "Evil Tester Test Pages",
-    "tags": [
-      "otomasyon",
-      "ücretsiz"
-    ],
-    "tr": "Farklı bileşen ve işlevleri tek tek denemek için hazırlanmış test sayfaları koleksiyonu.",
-    "en": "A collection of pages for testing different components and functionality one by one.",
-    "src": "testsites"
-  },
-  {
-    "url": "https://practice.expandtesting.com/",
-    "name": "Expand Testing",
-    "tags": [
-      "otomasyon",
-      "api",
-      "ücretsiz"
-    ],
-    "tr": "Otomasyon pratik uygulaması. Yalnız UI ya da yalnız API sunan sitelerden farkı ikisini aynı uygulamada vermesi: arayüzde yaptığını API’de doğrulayabiliyorsun.",
-    "en": "An automation practice app. Unlike sites offering only UI or only API, it provides both in one app, so you can verify through the API what you did in the UI.",
-    "src": "testsites"
+    "src": "testsites",
+    "vs": [
+      {
+        "u": "https://jsonplaceholder.typicode.com/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://fakestoreapi.com",
     "name": "Fake Store API",
     "tags": [
       "api",
-      "ücretsiz"
+      "ücretsiz",
+      "araç"
     ],
     "tr": "Ürün, sepet ve kullanıcı içeren sahte e-ticaret REST API’si; ön yüz prototipleri için. JSONPlaceholder gibi genel sahte API’lerden farkı e-ticarete özgü veri yapısı.",
     "en": "A fake e-commerce REST API with products, carts and users for front-end prototypes. Unlike general mock APIs such as JSONPlaceholder, its data model is e-commerce-specific.",
-    "src": "testsites"
+    "src": "testsites",
+    "vs": [
+      {
+        "u": "https://jsonplaceholder.typicode.com/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://gorest.co.in/",
@@ -399,24 +310,13 @@
     "src": "testsites"
   },
   {
-    "url": "https://bonigarcia.dev/selenium-webdriver-java/",
-    "name": "Hands-On Selenium WebDriver",
-    "tags": [
-      "otomasyon",
-      "öğretici",
-      "ücretsiz"
-    ],
-    "tr": "Boni García’nın Hands-On Selenium WebDriver with Java kitabına eşlik eden alıştırma sayfası; çok çeşitli web öğesini bir arada sunuyor. Dağınık pratik sayfalarından farkı kitaptaki örneklerle birebir eşleşmesi.",
-    "en": "The practice page accompanying Boni García’s Hands-On Selenium WebDriver with Java, bundling a wide variety of web elements. Unlike scattered practice pages, it matches the book’s examples one to one.",
-    "src": "testsites"
-  },
-  {
     "url": "https://httpbin.org",
     "name": "httpbin",
     "tags": [
       "api",
       "ücretsiz",
-      "açık-kaynak"
+      "açık-kaynak",
+      "araç"
     ],
     "tr": "İstek başlıklarını, gövdeyi ve yanıtı aynen geri döndüren HTTP test servisi. Sahte REST API’lerinden farkı veriyi değil HTTP’nin kendisini — başlık, çerez, yönlendirme, sıkıştırma — test etmene yaraması.",
     "en": "An HTTP testing service that echoes headers, body and response. Unlike mock REST APIs, it tests HTTP itself — headers, cookies, redirects, compression — rather than data.",
@@ -433,7 +333,13 @@
     ],
     "tr": "REST, GraphQL ve gRPC istekleri için sade bir API istemcisi. Postman’den farkı daha hafif ve açık kaynak olması, git ile sürümlenebilmesi.",
     "en": "A clean API client for REST, GraphQL and gRPC requests. Unlike Postman it is lighter and open source, and can be versioned with git.",
-    "src": "testsites"
+    "src": "testsites",
+    "vs": [
+      {
+        "u": "https://www.postman.com/",
+        "a": "lisans"
+      }
+    ]
   },
   {
     "url": "https://jsonplaceholder.typicode.com/",
@@ -452,42 +358,26 @@
     "name": "Katalon",
     "tags": [
       "otomasyon",
-      "freemium"
+      "freemium",
+      "araç"
     ],
     "tr": "Web, API ve mobil için düşük kodlu test otomasyonu aracı. Playwright gibi kod tabanlı çatılardan farkı kayıt-oynatma ve görsel editörle kod yazmadan senaryo kurdurması; gelişmiş özellikler ücretli.",
     "en": "A low-code test automation tool for web, API and mobile. Unlike code-first frameworks such as Playwright, it builds scenarios with record-and-playback and a visual editor, no coding needed; advanced features are paid.",
-    "src": "testsites"
-  },
-  {
-    "url": "https://letcode.in/test",
-    "name": "LetCode",
-    "tags": [
-      "otomasyon",
-      "ücretsiz",
-      "öğretici"
-    ],
-    "tr": "Uçtan uca otomasyon pratiği için bol öğe örneği içeren site. Tek tip pratik sayfalarından farkı öğe çeşitliliği ve eşlik eden video dersleri.",
-    "en": "A site with many element examples for end-to-end automation practice. Unlike single-purpose practice pages, it offers a wide variety of elements plus companion video lessons.",
-    "src": "testsites"
-  },
-  {
-    "url": "https://testsmith-io.github.io/locator-game/",
-    "name": "Locator Game",
-    "tags": [
-      "otomasyon",
-      "interaktif",
-      "ücretsiz"
-    ],
-    "tr": "Test otomasyonu için doğru seçiciyi (locator) bulmayı oyunla öğreten site. Genel pratik sitelerinden farkı yalnız seçici yazmaya — CSS ve XPath — odaklanması.",
-    "en": "A game-based site that teaches finding the right locator for test automation. Unlike general practice sites, it focuses solely on writing selectors — CSS and XPath.",
-    "src": "testsites"
+    "src": "testsites",
+    "vs": [
+      {
+        "u": "https://playwright.dev",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://mailtrap.io",
     "name": "Mailtrap",
     "tags": [
       "api",
-      "freemium"
+      "freemium",
+      "araç"
     ],
     "tr": "Giden e-postaları gerçek alıcılara ulaşmadan yakalayan e-posta test kum havuzu. Test için gerçek bir SMTP sunucusu kullanmaktan farkı yanlışlıkla müşteriye e-posta gitmesini imkânsız kılması.",
     "en": "An email sandbox that captures outgoing mail before it reaches real recipients. Unlike testing against a real SMTP server, it makes accidentally emailing a customer impossible.",
@@ -510,34 +400,11 @@
     "name": "OMDb API",
     "tags": [
       "api",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-seti"
     ],
     "tr": "Film ve dizi verisi sunan API; test ve prototip için elverişli. IMDb’nin herkese açık bir API’si olmadığı için yaygın alternatif; ücretsiz anahtar günlük 1.000 istekle sınırlı.",
     "en": "An API serving movie and series data, handy for tests and prototypes. Since IMDb has no public API, it is the common alternative; the free key is limited to 1,000 requests a day.",
-    "src": "testsites"
-  },
-  {
-    "url": "https://opensource-demo.orangehrmlive.com/",
-    "name": "OrangeHRM Demo",
-    "tags": [
-      "otomasyon",
-      "ücretsiz",
-      "açık-kaynak"
-    ],
-    "tr": "Bol işlevli, açık kaynak İK uygulamasının demosu; form ve akış otomasyonu pratiği için. Oyuncak demo sitelerinden farkı gerçek bir ürünün karmaşıklığını — roller, tablolar, çok adımlı formlar — taşıması.",
-    "en": "A demo of a feature-rich open-source HR application, for practising form and workflow automation. Unlike toy demo sites, it carries a real product’s complexity — roles, tables, multi-step forms.",
-    "src": "testsites"
-  },
-  {
-    "url": "https://parabank.parasoft.com/parabank/index.htm",
-    "name": "ParaBank",
-    "tags": [
-      "ücretsiz",
-      "api",
-      "otomasyon"
-    ],
-    "tr": "SOAP/REST servisleriyle birlikte gelen örnek bankacılık test sitesi. Basit demolardan farkı web servisi, WSDL ve iş akışı test etmeye elverişli olması.",
-    "en": "A sample banking test site that ships with SOAP/REST services. Unlike simple demos it is suited to testing web services, WSDL and workflows.",
     "src": "testsites"
   },
   {
@@ -596,44 +463,24 @@
     "src": "testsites"
   },
   {
-    "url": "https://demo.prestashop.com/",
-    "name": "PrestaShop Demo",
-    "tags": [
-      "otomasyon",
-      "ücretsiz"
-    ],
-    "tr": "Test için gerçekçi bir e-ticaret demosu. Oyuncak mağazalardan farkı gerçek bir e-ticaret yazılımının hem vitrinini hem yönetim panelini açması.",
-    "en": "A realistic e-commerce demo for testing. Unlike toy shops, it exposes both the storefront and the admin panel of real e-commerce software.",
-    "src": "testsites"
-  },
-  {
     "url": "https://www.pullrequest.com/",
     "name": "PullRequest",
     "tags": [
       "ücretli",
-      "güvenlik"
+      "güvenlik",
+      "araç"
     ],
     "tr": "Elemeden geçmiş profesyonel gözden geçirenlerle hizmet olarak kod incelemesi; HackerOne satın aldıktan sonra HackerOne Code adıyla güvenli kod incelemesine yöneldi. Yapay zekâ inceleme araçlarından farkı incelemeyi insan uzmanların yapması.",
     "en": "Code review as a service from vetted professional reviewers; since HackerOne acquired it, it runs as HackerOne Code with a focus on secure code review. Unlike AI review tools, the review is done by human experts.",
     "src": "bwapsv"
   },
   {
-    "url": "https://qaplayground.dev/",
-    "name": "QA Training Simulator",
-    "tags": [
-      "otomasyon",
-      "ücretsiz"
-    ],
-    "tr": "Zorluk listesiyle test becerisi geliştirmek için pratik simülatörü. Serbest pratik sayfalarından farkı her zorluğun belirli bir otomasyon sorununu — gölge DOM, iframe, dinamik tablo — hedeflemesi.",
-    "en": "A practice simulator with a list of challenges to build testing skills. Unlike free-form practice pages, each challenge targets a specific automation problem — shadow DOM, iframes, dynamic tables.",
-    "src": "testsites"
-  },
-  {
     "url": "https://randomuser.me/",
     "name": "randomuser.me",
     "tags": [
       "api",
-      "ücretsiz"
+      "ücretsiz",
+      "araç"
     ],
     "tr": "İstenen sayıda sahte kullanıcı (ad, adres, foto) üreten API. Sabit fikstürlerden farkı her çağrıda çeşitli ve gerçekçi veri vermesi — form ve liste testleri için.",
     "en": "An API generating any number of fake users (name, address, photo). Unlike fixed fixtures it returns varied, realistic data on each call — for form and list tests.",
@@ -644,23 +491,18 @@
     "name": "Reqres",
     "tags": [
       "api",
-      "ücretsiz"
+      "ücretsiz",
+      "araç"
     ],
     "tr": "AJAX isteklerine gerçek yanıt veren barındırılmış REST API’si; sayfalama ve gecikme simülasyonu var. JSONPlaceholder’dan farkı yanıt gecikmesi ve hata durumlarını da taklit edebilmesi.",
     "en": "A hosted REST API that answers AJAX requests, with pagination and delay simulation. Unlike JSONPlaceholder it can also emulate response delays and error states.",
-    "src": "testsites"
-  },
-  {
-    "url": "https://automationintesting.online/",
-    "name": "Restful Booker Platform",
-    "tags": [
-      "otomasyon",
-      "api",
-      "ücretsiz"
-    ],
-    "tr": "React ön yüz ve API arka uçlu, otel rezervasyonu temalı modern test uygulaması; Mark Winteringham hazırladı. Yalnız API sunan restful-booker’dan farkı ön yüz ile API’yi birlikte, gerçek bir ürün gibi sunması.",
-    "en": "A modern test app with a React front end and API backend, themed on hotel booking, by Mark Winteringham. Unlike the API-only restful-booker, it offers front end and API together, like a real product.",
-    "src": "testsites"
+    "src": "testsites",
+    "vs": [
+      {
+        "u": "https://jsonplaceholder.typicode.com/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://restful-booker.herokuapp.com/",
@@ -679,7 +521,8 @@
     "name": "Rick and Morty API",
     "tags": [
       "api",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-seti"
     ],
     "tr": "Karakter, bölüm ve mekân verisi veren, hem REST hem GraphQL sunan ücretsiz API. Tek protokollü API’lerden farkı aynı veriyi iki arayüzle sunup ikisini de denetmesi.",
     "en": "A free API serving character, episode and location data over both REST and GraphQL. Unlike single-protocol APIs it exposes the same data two ways, letting you test both.",
@@ -698,30 +541,6 @@
     "src": "testsites"
   },
   {
-    "url": "https://selectorshub.com/xpath-practice-page/",
-    "name": "SelectorsHub · XPath Practice",
-    "tags": [
-      "ücretsiz",
-      "öğretici"
-    ],
-    "tr": "Karmaşık XPath ve CSS seçicileri yazmayı denemek için özel olarak zorlaştırılmış sayfa. Genel demolardan farkı iç içe iframe ve shadow DOM gibi seçici cehennemlerini barındırması.",
-    "en": "A page deliberately hardened for practising complex XPath and CSS selectors. Unlike general demos it contains selector hells like nested iframes and shadow DOM.",
-    "src": "testsites"
-  },
-  {
-    "url": "https://seleniumbase.io/",
-    "name": "SeleniumBase Demo Pages",
-    "tags": [
-      "otomasyon",
-      "açık-kaynak",
-      "öğretici",
-      "ücretsiz"
-    ],
-    "tr": "SeleniumBase çatısının geniş senaryo yelpazesini gösteren demo sayfaları. Düz Selenium’dan farkı otomatik bekleme ve hazır test yardımcılarıyla gelmesi; demolar bu yetenekleri deneyebileceğin sayfalar.",
-    "en": "The SeleniumBase framework’s demo pages covering a wide range of scenarios. Unlike plain Selenium, the framework adds automatic waits and ready test helpers; the demos are pages to try them on.",
-    "src": "testsites"
-  },
-  {
     "url": "https://serverest.dev/",
     "name": "ServeRest",
     "tags": [
@@ -734,23 +553,12 @@
     "src": "testsites"
   },
   {
-    "url": "https://www.spaceducking.com/",
-    "name": "SpaceDucking",
-    "tags": [
-      "otomasyon",
-      "ücretsiz",
-      "öğretici"
-    ],
-    "tr": "Gerçek işletmeleri taklit eden, ördek temalı mini uygulamalarla test pratiği. Tek sayfalık demo sitelerinden farkı farklı iş akışlarına sahip birden çok küçük uygulama sunması.",
-    "en": "Test practice through duck-themed mini apps modelled on real businesses. Unlike single-page demo sites, it offers several small apps with different workflows.",
-    "src": "testsites"
-  },
-  {
     "url": "https://sqltest.online",
     "name": "SQLTest.online",
     "tags": [
       "veritabanı",
-      "ücretsiz"
+      "ücretsiz",
+      "interaktif"
     ],
     "tr": "Zorlayıcı problemlerle SQL yetkinliğini geliştiren çevrimiçi alıştırma. Öğretici sitelerden farkı anlatım değil problem ağırlıklı olması; sorguyu tarayıcıda yazıp sonucu doğruluyorsun.",
     "en": "An online practice that builds SQL proficiency with challenging problems. Unlike tutorial sites it is problem-first rather than explanatory; you write the query in the browser and check the result.",
@@ -762,7 +570,7 @@
     "tags": [
       "güvenlik",
       "ücretsiz",
-      "referans"
+      "araç"
     ],
     "tr": "Bir sitenin TLS yapılandırmasını tarayıp A–F notu veren test. Tarayıcı kilidinden farkı sertifika zinciri, protokol ve şifre takımı düzeyinde ayrıntı vermesi.",
     "en": "A test that scans a site’s TLS configuration and grades it A–F. Unlike the browser padlock it gives detail at the level of certificate chain, protocols and cipher suites.",
@@ -786,7 +594,8 @@
     "tags": [
       "api",
       "ücretsiz",
-      "açık-kaynak"
+      "açık-kaynak",
+      "veri-seti"
     ],
     "tr": "Star Wars verisiyle dolu örnek REST API. Değişken sahte API’lerden farkı sabit, tanıdık ve salt okunur bir veri kümesi olması: istemci ve alıştırma için öngörülebilir.",
     "en": "A sample REST API filled with Star Wars data. Unlike mutable mock APIs it is a fixed, familiar, read-only dataset — predictable for clients and practice.",
@@ -809,7 +618,8 @@
     "name": "The Cat API",
     "tags": [
       "api",
-      "ücretsiz"
+      "ücretsiz",
+      "veri-seti"
     ],
     "tr": "Kedi görselleri ve verisi sunan, prototip ve test için eğlenceli API. Sahte veri API’lerinden farkı gerçek görseller ile oylama ve favori gibi yazma uç noktaları sunması; anahtar ücretsiz.",
     "en": "An API serving cat images and data — a fun one for prototypes and tests. Unlike fake-data APIs, it has real images plus write endpoints such as votes and favourites; the key is free.",
@@ -821,21 +631,10 @@
     "tags": [
       "ücretsiz",
       "otomasyon",
-      "referans"
+      "interaktif"
     ],
     "tr": "Otomasyonu zorlayan ortak senaryoları (iframe, dosya yükleme, kayan menü) tek tek toplayan klasik alıştırma sitesi. Demo mağazalardan farkı her sayfanın tek bir zorluğu öğretmesi.",
     "en": "A classic practice site collecting the common scenarios that challenge automation (iframes, file upload, hovering menus) one by one. Unlike demo shops each page teaches a single difficulty.",
-    "src": "testsites"
-  },
-  {
-    "url": "https://obstaclecourse.tricentis.com/",
-    "name": "Tricentis Obstacle Course",
-    "tags": [
-      "otomasyon",
-      "ücretsiz"
-    ],
-    "tr": "Otomasyon becerisini sınayan bir dizi zorluktan oluşan engel parkuru. Tek tip pratik sayfalarından farkı her engelin ayrı bir otomasyon zorluğunu — dinamik öğeler, zamanlama, sürükle-bırak — hedeflemesi.",
-    "en": "An obstacle course of challenges that test automation skill. Unlike uniform practice pages, each obstacle targets a distinct automation difficulty — dynamic elements, timing, drag and drop.",
     "src": "testsites"
   },
   {
@@ -855,21 +654,24 @@
     "name": "WebPageTest",
     "tags": [
       "ücretsiz",
-      "referans"
+      "araç",
+      "frontend"
     ],
     "tr": "Bir sayfanın yükleme performansını gerçek cihaz ve konumlardan ölçen test. Lighthouse’tan farkı şelale, film şeridi ve çoklu lokasyon karşılaştırması vermesi.",
     "en": "A test measuring a page’s load performance from real devices and locations. Unlike Lighthouse it gives a waterfall, filmstrip and multi-location comparison.",
     "src": "testsites"
   },
   {
-    "url": "https://www.globalsqa.com/angularJs-protractor/BankingProject/",
-    "name": "XYZ Bank",
+    "url": "https://github.com/BMayhew/awesome-sites-to-test-on",
+    "name": "Awesome Sites to Test On",
     "tags": [
-      "otomasyon",
+      "awesome-liste",
+      "interaktif",
       "ücretsiz"
     ],
-    "tr": "AngularJS ile yazılmış küçük örnek banka sitesi; otomasyon pratiği için. Modern demo uygulamalardan farkı AngularJS/Protractor dönemine ait olması: eski çatılarla çalışan testleri denemek için.",
-    "en": "A small example bank site written in AngularJS, for automation practice. Unlike modern demo apps it belongs to the AngularJS/Protractor era — useful for trying tests against older frameworks.",
-    "src": "testsites"
+    "tr": "Test otomasyonu pratiği için hedef siteler ve API’lerin listesi: demo mağazalar, formlar, tuzaklı sayfalar ve sahte API’ler türüne göre ayrılmış. Bu dizinde yalnızca birkaç temsilci tutuluyor; birbirinin yerine geçen onlarca demo sitesinin tam listesi burada.",
+    "en": "A list of target sites and APIs for practising test automation: demo shops, forms, trap-laden pages and fake APIs, grouped by kind. Rather than repeating dozens of interchangeable demo sites, this directory keeps a few representatives and points here for the rest.",
+    "src": "testsites",
+    "added": 1792281600
   }
 ]

@@ -46,7 +46,13 @@
     ],
     "tr": "CEH’in (Certified Ethical Hacker) sahibi. OSCP’den farkı sınavının çoktan seçmeli olması ve pratik beceriyi ölçmediği yönünde yaygın eleştiri: İK süzgeçlerinden geçmek için işe yarıyor, teknik yeterlilik kanıtı olarak OSCP tercih ediliyor.",
     "en": "The body behind CEH (Certified Ethical Hacker). Unlike OSCP its exam is multiple-choice and widely criticised for not measuring practical skill: it works for getting past HR filters, but as evidence of technical competence OSCP is preferred.",
-    "src": "seccert"
+    "src": "seccert",
+    "vs": [
+      {
+        "u": "https://www.offsec.com/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.giac.org/",
@@ -58,7 +64,13 @@
     ],
     "tr": "SANS eğitimlerinin sınav kolu; elli küsur sertifikayla alanın en geniş kataloğu. Diğerlerinden farkı sınavların açık kitap olması ve derinlemesine teknik olması — karşılığında sektörün en pahalı sertifikaları, çoğu işveren desteği olmadan alınmıyor.",
     "en": "The examination arm of SANS training, with over fifty certificates — the broadest catalogue in the field. What separates it is open-book exams that go deep technically; the price is that these are the most expensive certifications around, rarely taken without an employer paying.",
-    "src": "seccert"
+    "src": "seccert",
+    "vs": [
+      {
+        "u": "https://www.offsec.com/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://identitymanagementinstitute.org/",
@@ -78,11 +90,18 @@
     "tags": [
       "sertifika",
       "güvenlik",
-      "ücretli"
+      "ücretli",
+      "başlangıç"
     ],
     "tr": "eLearnSecurity’nin devamı; eJPT ve eCPPT gibi pratik sertifikalar veriyor. OSCP’den farkı eJPT’nin gerçekten giriş seviyesi olması — pratik sınav deneyimini ilk kez yaşamak için daha yumuşak bir basamak.",
     "en": "The continuation of eLearnSecurity, awarding practical certificates such as eJPT and eCPPT. Against OSCP, eJPT is genuinely entry-level — a gentler first encounter with a hands-on exam format.",
-    "src": "seccert"
+    "src": "seccert",
+    "vs": [
+      {
+        "u": "https://www.offsec.com/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.isaca.org/",
@@ -90,12 +109,17 @@
     "tags": [
       "sertifika",
       "güvenlik",
-      "akademik",
       "ücretli"
     ],
     "tr": "CISA, CISM ve CRISC’in sahibi; denetim, yönetişim ve risk tarafının kurumu. ISC2 ile farkı odak: ISC2 güvenlik mimarisine, ISACA iç denetim ve uyum süreçlerine bakıyor. Finans ve düzenlenmiş sektörlerde CISA çoğu zaman iş ilanında şart olarak geçiyor.",
     "en": "The body behind CISA, CISM and CRISC, covering audit, governance and risk. The split from ISC2 is focus: ISC2 looks at security architecture, ISACA at internal audit and compliance. In finance and regulated industries CISA is frequently a hard requirement in job postings.",
-    "src": "seccert"
+    "src": "seccert",
+    "vs": [
+      {
+        "u": "https://www.isc2.org/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.isc2.org/",
@@ -103,7 +127,8 @@
     "tags": [
       "sertifika",
       "güvenlik",
-      "ücretli"
+      "ücretli",
+      "ileri"
     ],
     "tr": "CISSP’in sahibi kurum. Teknik sertifikalardan farkı yönetişim ve risk ağırlıklı olması ve sınavı geçmenin yetmemesi — beş yıl belgelenmiş deneyim ve bir üyenin kefaleti gerekiyor. Bu yüzden işverenler nezdinde ağırlığı yüksek, ilk sertifika olarak ise uygun değil.",
     "en": "The body behind CISSP. Unlike technical certifications it leans on governance and risk, and passing is not enough: five years of documented experience and an endorsement are required. That is why it carries weight with employers and why it is a poor first certificate.",
@@ -131,7 +156,13 @@
     ],
     "tr": "EC-Council’a benzer bir katalog sunan alternatif kurum; C)PTE ve C)ISSO gibi sertifikalar. Farkı fiyat ve ABD kamu tanınırlığı (NSA/CNSS eşlemeleri); dezavantajı sektör içinde tanınırlığının EC-Council ve GIAC kadar geniş olmaması.",
     "en": "An alternative body with a catalogue resembling EC-Council’s, awarding C)PTE and C)ISSO among others. It differs on price and US government mappings (NSA/CNSS); the drawback is recognition narrower than EC-Council’s or GIAC’s.",
-    "src": "seccert"
+    "src": "seccert",
+    "vs": [
+      {
+        "u": "https://www.eccouncil.org/",
+        "a": "fiyat"
+      }
+    ]
   },
   {
     "url": "https://www.mosse-institute.com/",
@@ -143,7 +174,13 @@
     ],
     "tr": "Yüzlerce pratik alıştırmadan oluşan, sınav yerine gönderilen çalışmaların değerlendirilmesine dayanan program. Sınav odaklı kurumlardan farkı bu: not tek bir günde değil biriken portföyle veriliyor, abonelik modeliyle çalışıyor.",
     "en": "A programme of hundreds of practical exercises graded on submitted work rather than a sat exam. That is the break from exam-centred bodies: the assessment accumulates as a portfolio, on a subscription model.",
-    "src": "seccert"
+    "src": "seccert",
+    "vs": [
+      {
+        "u": "https://www.offsec.com/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.offsec.com/",
@@ -202,7 +239,8 @@
     "tags": [
       "sertifika",
       "açık-kaynak",
-      "ücretsiz"
+      "ücretsiz",
+      "güvenlik"
     ],
     "tr": "Yol haritasının HTML kaynağı, CC BY-SA lisanslı. Görselin kendisinden farkı veriyi ayıklanabilir hâlde vermesi — kendi listeni türetmek ya da kapsamı denetlemek için. Son güncelleme Ağustos 2024, yani tabloda o tarihten sonraki sertifikalar yok.",
     "en": "The roadmap’s HTML source under CC BY-SA. Against the image itself it hands you the data in extractable form, for deriving your own list or auditing the coverage. Last updated August 2024, so anything newer is missing from the chart.",
@@ -227,7 +265,8 @@
     "tags": [
       "türkçe",
       "mülakat",
-      "ücretsiz"
+      "ücretsiz",
+      "başlangıç"
     ],
     "tr": "Türkçe siber güvenlik sıkça sorulan sorular derlemesi. İngilizce kariyer rehberlerinden farkı Türkçe olması ve teknik konular kadar “nereden başlanır, hangi sertifika” gibi yerel kariyer sorularını da kapsaması.",
     "en": "A Turkish cyber security FAQ. Unlike English career guides it is in Turkish and covers local career questions — where to start, which certification — as much as technical ones.",
@@ -244,7 +283,13 @@
     ],
     "tr": "PNPT sertifikasının sahibi; sınav beş günlük gerçek bir sızma testi ve ardından rapor ile sözlü savunma içeriyor. OSCP’den farkı sözlü savunma aşaması ve fiyatın onda biri civarında olması — bütçesi olmayanlar için pratik sertifikaya en kısa yol.",
     "en": "The body behind PNPT, whose exam is a five-day real engagement followed by a report and a live debrief. The debrief and a price around a tenth of OSCP’s are the differences — the shortest route to a practical certificate without a budget.",
-    "src": "seccert"
+    "src": "seccert",
+    "vs": [
+      {
+        "u": "https://www.offsec.com/",
+        "a": "fiyat"
+      }
+    ]
   },
   {
     "url": "https://secops.group/",

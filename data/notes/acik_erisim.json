@@ -3,8 +3,7 @@
     "url": "https://archive.today",
     "name": "archive.today",
     "tags": [
-      "referans",
-      "arşivlenmiş",
+      "araç",
       "ücretsiz"
     ],
     "tr": "Bir sayfanın o anki hâlini birebir dondurup kalıcı kopya üreten arşivleyici. Wayback Machine’den farkı isteğe bağlı, anında ve robots.txt engeline takılmadan kopya alması; sayfanın ekran görüntüsünü de saklıyor.",
@@ -17,7 +16,6 @@
     "tags": [
       "awesome-liste",
       "referans",
-      "arşivlenmiş",
       "ücretsiz"
     ],
     "tr": "Web’i gelecek için koruma (arşivleme) araç ve kaynaklarının listesi. Wayback Machine’i kullanmaktan farkı kendi arşivini kurmana yarayan araçları — tarayıcılar, WARC araçları, oynatıcılar — toplaması; uluslararası arşiv konsorsiyumu IIPC sürdürüyor.",
@@ -35,7 +33,13 @@
     ],
     "tr": "Dünyadaki açık erişim araştırma makalelerini tek yerde toplayan en büyük toplayıcılardan biri. Google Scholar’dan farkı yalnız açık erişim metinlere odaklanması ve tam metinleri indirip API üzerinden sunması.",
     "en": "One of the largest aggregators gathering the world’s open-access research papers in one place. Unlike Google Scholar it focuses only on open-access texts and harvests the full texts, serving them through an API.",
-    "src": "piracy"
+    "src": "piracy",
+    "vs": [
+      {
+        "u": "https://unpaywall.org",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.doabooks.org",
@@ -61,13 +65,18 @@
     ],
     "tr": "Hakemli açık erişim dergilerinin denetlenmiş dizini; yasal ve ücretsiz. Genel akademik aramalardan farkı yalnız yağmacı olmadığı doğrulanmış dergileri listelemesi: dergi kalitesini önden eleyen bir süzgeç.",
     "en": "A vetted directory of peer-reviewed open-access journals — legal and free. Unlike general academic search it lists only journals verified as non-predatory: a filter that screens journal quality up front.",
-    "src": "piracy"
+    "src": "piracy",
+    "vs": [
+      {
+        "u": "https://www.doabooks.org",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://github.com/ArchiveTeam/grab-site",
     "name": "grab-site",
     "tags": [
-      "arşivlenmiş",
       "python",
       "cli",
       "ücretsiz"
@@ -81,8 +90,8 @@
     "name": "Internet Archive",
     "tags": [
       "referans",
-      "arşivlenmiş",
-      "ücretsiz"
+      "ücretsiz",
+      "kitap"
     ],
     "tr": "Web, kitap, ses ve videoyu koruyan dev dijital arşiv; Wayback Machine’in evi. archive.today’den farkı web sayfalarının ötesine geçmesi: kitap ödünç verme, yazılım ve medya koleksiyonları da burada.",
     "en": "A vast digital archive preserving the web, books, audio and video — home of the Wayback Machine. Unlike archive.today it goes beyond web pages, with book lending and software and media collections.",
@@ -117,7 +126,13 @@
     ],
     "tr": "Kamu malı ve bağımsız yazar e-kitaplarını çok sayıda biçimde (EPUB, PDF, Kindle) ücretsiz sunan kütüphane. Project Gutenberg’den farkı çağdaş bağımsız yazar kitaplarını da içermesi ve okuyucu dostu arayüzü.",
     "en": "A library offering public-domain and indie-author ebooks free in many formats (EPUB, PDF, Kindle). Unlike Project Gutenberg it also carries contemporary indie-author books, with a more reader-friendly interface.",
-    "src": "kedi"
+    "src": "kedi",
+    "vs": [
+      {
+        "u": "https://www.gutenberg.org",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://oll.libertyfund.org/",
@@ -149,13 +164,19 @@
     "url": "https://perma.cc",
     "name": "Perma.cc",
     "tags": [
-      "referans",
-      "arşivlenmiş",
-      "ücretsiz"
+      "araç",
+      "ücretsiz",
+      "akademik"
     ],
     "tr": "Atıf verilen bağlantıların çürümesini önlemek için kalıcı arşiv kopyası oluşturuyor; kütüphane destekli. Genel arşivleyicilerden farkı akademik ve hukuki atıflara yönelik olması ve kalıcılığı kütüphanelerce güvence altına alınması.",
     "en": "Creates permanent archived copies of cited links to stop link rot; library-backed. Unlike general archivers it is aimed at academic and legal citations, with permanence underwritten by libraries.",
-    "src": "piracy"
+    "src": "piracy",
+    "vs": [
+      {
+        "u": "https://archive.today",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.gutenberg.org",
@@ -192,7 +213,7 @@
     "name": "Unpaywall",
     "tags": [
       "akademik",
-      "referans",
+      "araç",
       "açık-kaynak",
       "ücretsiz"
     ],
@@ -204,7 +225,6 @@
     "url": "https://github.com/WikiTeam/wikiteam",
     "name": "WikiTeam",
     "tags": [
-      "arşivlenmiş",
       "python",
       "cli",
       "ücretsiz"
@@ -212,5 +232,39 @@
     "tr": "MediaWiki wiki’lerini indirip arşivleyen araç takımı; 600.000’den fazla wiki korunmuş. Genel site kopyalayıcılardan farkı wiki’ye özel olması: sayfa geçmişi ve medya dâhil tam döküm alıyor, HTML kabuğunu değil.",
     "en": "A toolset that downloads and archives MediaWiki wikis — 600,000+ preserved. Unlike general site copiers it is wiki-specific: it takes a full dump including page history and media, not just the HTML shell.",
     "src": "lowkwiki"
+  },
+  {
+    "url": "https://www.mevzuat.gov.tr/",
+    "name": "Mevzuat Bilgi Sistemi",
+    "tags": [
+      "referans",
+      "türkçe",
+      "hesap-gerekmez",
+      "ücretsiz"
+    ],
+    "tr": "Kanun, KHK, Cumhurbaşkanlığı kararnamesi ve yönetmeliklerin değişiklikler işlenmiş güncel metinleri. Resmî Gazete’den farkı metni yayımlandığı günkü hâliyle değil, sonraki değişikliklerle birleştirilmiş olarak vermesi.",
+    "en": "Turkish laws, decrees and regulations in consolidated form, with later amendments worked into the text. Unlike the Official Gazette it does not show a text as published on the day, but as it stands after every change.",
+    "src": "bosluk",
+    "added": 1792281600
+  },
+  {
+    "url": "https://www.resmigazete.gov.tr/",
+    "name": "Resmî Gazete",
+    "tags": [
+      "referans",
+      "türkçe",
+      "hesap-gerekmez",
+      "ücretsiz"
+    ],
+    "tr": "Türkiye’nin resmî yayın organı: her günün sayısı ve geçmiş sayıların arşivi; mevzuat burada yayımlandığı gün yürürlüğe giriyor. Mevzuat Bilgi Sistemi’nden farkı değişikliklerin birleştirilmemesi — bir düzenlemenin tarihsel ilk metnine ulaşmanın yolu.",
+    "en": "Turkey’s official gazette: each day’s issue and an archive of past ones; legislation takes effect as published here. Unlike the Legislation Information System it does not consolidate amendments, which makes it the way to reach a regulation’s original text.",
+    "src": "bosluk",
+    "added": 1792281600,
+    "vs": [
+      {
+        "u": "https://www.mevzuat.gov.tr/",
+        "a": "yaklasim"
+      }
+    ]
   }
 ]

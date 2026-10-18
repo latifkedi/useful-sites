@@ -27,7 +27,8 @@
     "tags": [
       "ücretsiz",
       "türkçe",
-      "müfredat"
+      "müfredat",
+      "başlangıç"
     ],
     "tr": "Öğretmensiz, akran değerlendirmeli ve ücretsiz yazılım okulu; diploma ya da ön bilgi şartı yok. Klasik bootcamp’lerden farkı ücret ve öğretmen olmaması; giriş “piscine” denen dört haftalık yoğun eleme sürecinden geçiyor.",
     "en": "A tuition-free software school with no teachers and peer evaluation, requiring no diploma or prior knowledge. Unlike classic bootcamps there is no fee and no teacher; entry runs through a four-week intensive selection called the piscine.",
@@ -40,7 +41,8 @@
     "tags": [
       "video",
       "ücretsiz",
-      "algoritma"
+      "algoritma",
+      "orta"
     ],
     "tr": "Algoritmaları tahtada adım adım, karmaşıklık analiziyle birlikte işleyen kanal. Kod göstermek yerine mekanizmayı çizerek anlatması ders kitabına iyi bir eşlikçi.",
     "en": "A channel working through algorithms on a board with complexity analysis. Drawing the mechanism rather than showing code makes it a good companion to a textbook.",
@@ -54,11 +56,18 @@
       "açık-kaynak",
       "interaktif",
       "algoritma",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Algoritmanın kodunu yazarken adım adım görselleştiren platform; kendi kodunu da çalıştırabiliyorsun. Hazır animasyonlardan farkı bu — algoritmayı izlemekle kalmayıp değiştirip sonucu görebiliyorsun.",
     "en": "A platform that visualises an algorithm step by step alongside its code, and runs code you write yourself. That is the difference from a canned animation: you can change the algorithm and watch what happens.",
-    "src": "awesome-uw"
+    "src": "awesome-uw",
+    "vs": [
+      {
+        "u": "https://visualgo.net/en",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://apmg-international.com/",
@@ -100,7 +109,8 @@
     "name": "Awesome Certificates",
     "tags": [
       "awesome-liste",
-      "ücretsiz"
+      "ücretsiz",
+      "sertifika"
     ],
     "tr": "CV’ne ekleyebileceğin ücretsiz bilgisayar bilimi sertifikalarını toplayan liste. Ücretli sertifika programlarından farkı yalnız ücretsiz olanları seçmesi.",
     "en": "A list of free computer-science certificates you can add to your résumé. Unlike paid certificate programmes, it picks only free ones.",
@@ -145,7 +155,8 @@
     "name": "Awesome Roadmaps",
     "tags": [
       "awesome-liste",
-      "ücretsiz"
+      "ücretsiz",
+      "müfredat"
     ],
     "tr": "Farklı alanlarda bilgini geliştirmen için net yol haritaları toplayan liste.",
     "en": "A list gathering clear roadmaps to improve your knowledge across fields.",
@@ -156,7 +167,8 @@
     "name": "Awesome STEAM",
     "tags": [
       "awesome-liste",
-      "ücretsiz"
+      "ücretsiz",
+      "akademik"
     ],
     "tr": "Bilim, teknoloji, mühendislik, sanat ve matematik için ek öğrenme kaynakları. Genel öğrenme listelerinden farkı sanatı da kapsayan STEAM çerçevesi ve okul düzeyindeki ek kaynaklara odaklanması.",
     "en": "Supplementary learning resources for science, technology, engineering, arts and maths. Unlike general learning lists, it uses the STEAM frame that includes the arts and focuses on school-level extras.",
@@ -204,7 +216,8 @@
     "name": "AWS Skill Builder",
     "tags": [
       "freemium",
-      "sunucu"
+      "sunucu",
+      "müfredat"
     ],
     "tr": "AWS’in resmî eğitim merkezi: 600+ ücretsiz kurs ve sınav hazırlığı. Üçüncü taraf kurslardan farkı ücretli katmanda gerçek AWS hesabında çalışan laboratuvarlar sunması.",
     "en": "AWS’s official learning centre — 600+ free courses and exam prep. Unlike third-party courses, the paid tier offers hands-on labs against real AWS accounts.",
@@ -241,7 +254,8 @@
     "tags": [
       "freemium",
       "müfredat",
-      "interaktif"
+      "interaktif",
+      "tarayıcı-içi"
     ],
     "tr": "Backend geliştiriciliğine odaklı, tarayıcıda alıştırma yaptıran müfredat. Genel bootcamp’lerin aksine yalnızca sunucu tarafına bakıyor.",
     "en": "A backend-focused curriculum with in-browser exercises. Unlike general bootcamps it looks only at the server side.",
@@ -265,7 +279,8 @@
     "name": "Build Your Own X",
     "tags": [
       "müfredat",
-      "ücretsiz"
+      "ücretsiz",
+      "ileri"
     ],
     "tr": "Veritabanı, Git, Docker, işletim sistemi ve derleyiciyi sıfırdan yazma rehberleri. Öğretici izlemekle bir şeyi yeniden inşa etmek arasındaki anlama farkı ciddi.",
     "en": "Guides to writing a database, Git, Docker, an operating system or a compiler from scratch. The gap in understanding between following a tutorial and rebuilding the thing is substantial.",
@@ -289,7 +304,8 @@
     "name": "Class Central",
     "tags": [
       "ücretsiz",
-      "müfredat"
+      "müfredat",
+      "referans"
     ],
     "tr": "Coursera, edX ve onlarca platformdaki kursları tek yerde arayan dizin. Aynı konunun farklı üniversitelerdeki sürümlerini yan yana koyup karşılaştırıyorsun.",
     "en": "A search index across Coursera, edX and dozens more, letting you line up different universities’ versions of the same subject side by side.",
@@ -312,7 +328,8 @@
     "name": "Claude Sertifika Denemesi",
     "tags": [
       "ücretsiz",
-      "sertifika"
+      "sertifika",
+      "llm"
     ],
     "tr": "Claude Certified Architect sınavı için ücretsiz deneme; 28 soruluk kısa ve 60 soruluk tam uzunlukta iki kip, gerçek sınavın süre ve geçme eşiğiyle. Konu anlatımlarından farkı sınav koşullarını taklit etmesi.",
     "en": "A free mock for the Claude Certified Architect exam in two modes — a 28-question short form and a full 60-question run — matching the real timing and pass threshold. Unlike topic explainers, it simulates exam conditions.",
@@ -325,12 +342,19 @@
     "tags": [
       "mülakat",
       "müfredat",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Yazarın Amazon’a girerken tuttuğu çalışma planı; işaretlenebilir uzun bir kontrol listesi. Kapsamı geniş, o yüzden hepsini yapmak yerine eksiklerini bulmak için kullanılır.",
     "en": "The study plan its author used to get into Amazon, as a long checkable list. The scope is wide, so it works better for finding your gaps than for completing end to end.",
     "src": "kedi",
-    "added": 1776685952
+    "added": 1776685952,
+    "vs": [
+      {
+        "u": "https://techinterviewhandbook.org/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.comptia.org/",
@@ -338,18 +362,26 @@
     "tags": [
       "sertifika",
       "ücretli",
-      "müfredat"
+      "müfredat",
+      "başlangıç"
     ],
     "tr": "Security+, Network+ ve A+ ile giriş seviyesinin yaygın basamağı. Üst düzey sertifikalardan farkı deneyim şartı olmaması — bu yüzden ilk işe girişte ve ABD savunma sektöründe (DoD 8570 listesi) sıkça isteniyor. Derinlik beklememek gerekiyor.",
     "en": "A common entry rung through Security+, Network+ and A+. Unlike senior certifications it demands no prior experience, which is why it appears in first-job listings and in the US defence sector’s DoD 8570 list. Do not expect depth.",
-    "src": "seccert"
+    "src": "seccert",
+    "vs": [
+      {
+        "u": "https://www.isc2.org/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo",
     "name": "Computer Science (Crash Course)",
     "tags": [
       "video",
-      "ücretsiz"
+      "ücretsiz",
+      "başlangıç"
     ],
     "tr": "Mantık kapılarından işletim sistemine, bilgisayar biliminin bütününü kısa bölümlerde tarayan seri. Derinlik değil, parçaların birbirine nasıl bağlandığını görmek için.",
     "en": "A series sweeping the whole of computer science in short episodes, from logic gates to operating systems. Not for depth, but for seeing how the pieces connect.",
@@ -362,18 +394,26 @@
     "tags": [
       "video",
       "ücretsiz",
-      "algoritma"
+      "algoritma",
+      "orta"
     ],
     "tr": "Bilgisayar bilimi kavramlarını akademisyenlerle konuşarak anlatan kanal. Öğretici kanallardan farkı kod öğretmemesi — şifreleme, derleyici ya da karmaşıklık gibi konuların arkasındaki fikri anlatıyor.",
     "en": "A channel explaining computer science concepts in conversation with academics. Unlike tutorial channels it does not teach code — it explains the idea behind encryption, compilers or complexity.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.coursera.org",
     "name": "Coursera",
     "tags": [
       "freemium",
-      "müfredat"
+      "müfredat",
+      "sertifika"
     ],
     "tr": "Üniversite ve şirket ortaklıklı kurs platformu; çoğu ders ücretsiz izlenebiliyor, ödev değerlendirmesi ve sertifika ücretli. edX’e kıyasla Google ve IBM gibi şirketlerin meslek sertifikalarının ağırlığı daha fazla.",
     "en": "Course platform partnered with universities and companies; most lectures are free to audit, with graded work and certificates paid. Compared with edX, company professional certificates such as Google’s and IBM’s carry more weight here.",
@@ -385,7 +425,8 @@
     "name": "CrashCourse",
     "tags": [
       "video",
-      "ücretsiz"
+      "ücretsiz",
+      "başlangıç"
     ],
     "tr": "Bilgisayar biliminden tarihe birçok konuda hızlı, animasyonlu kısa dersler. Uzun üniversite derslerinden farkı bir konunun ana hatlarını on dakikada vermesi: derine inmeden önce haritayı çiziyor.",
     "en": "Fast, animated short courses on many subjects from computer science to history. Unlike long university lectures it gives a subject’s outline in ten minutes — drawing the map before you dig in.",
@@ -396,7 +437,8 @@
     "name": "CS50",
     "tags": [
       "ücretsiz",
-      "müfredat"
+      "müfredat",
+      "başlangıç"
     ],
     "tr": "Bilgisayar bilimine girişin ölçüt kabul edilen dersi; C ile başlayıp Python ve SQL’e geçiyor. Çoğu çevrimiçi dersten farkı problem setlerinin otomatik değerlendirilmesi, yani geri bildirimin gerçek olması.",
     "en": "The benchmark introduction to computer science, starting in C and moving to Python and SQL. Unlike most online courses its problem sets are auto-graded, so the feedback is real.",
@@ -415,7 +457,8 @@
     "tags": [
       "interaktif",
       "ücretsiz",
-      "frontend"
+      "frontend",
+      "başlangıç"
     ],
     "tr": "CSS seçicilerini bir masa üzerindeki yemekleri seçerek öğreten oyun. Kuru alıştırmadan farkı seçici sözdizimini görsel ve eğlenceli bir bulmacaya çevirmesi.",
     "en": "A game teaching CSS selectors by picking dishes on a table. Unlike dry drills it turns selector syntax into a visual, fun puzzle.",
@@ -441,11 +484,18 @@
       "algoritma",
       "interaktif",
       "akademik",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Veri yapısı ve algoritmaların adım adım canlandırıldığı klasik koleksiyon; kırmızı-siyah ağaçtan Dijkstra’ya. Modern görselleştiricilerden farkı kapsamı ve hızının senin denetiminde olması — her adımı durdurup geri alabiliyorsun.",
     "en": "The classic collection of step-by-step animations for data structures and algorithms, from red-black trees to Dijkstra. Against newer visualisers it wins on coverage and on giving you the speed control — every step can be paused and reversed.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://visualgo.net/en",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.datacamp.com/",
@@ -453,7 +503,8 @@
     "tags": [
       "ücretli",
       "veri-bilimi",
-      "interaktif"
+      "interaktif",
+      "tarayıcı-içi"
     ],
     "tr": "Kısa video sonrası tarayıcı içinde kod yazdırıp anında değerlendiriyor. Salt video kurslardan farkı bu hemen uygulama biçimi; ama alıştırmalar dar kalıplı, gerçek projeye geçişte boşluk bırakıyor.",
     "en": "Short video then in-browser coding with instant grading. Unlike video-only courses you practise straight away, though the exercises are narrow and leave a gap when you move to a real project.",
@@ -466,7 +517,8 @@
     "tags": [
       "video",
       "öğretici",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Bir dili ya da çatıyı tek videoda özetleyen \"hızlandırılmış kurs\" serisi. Uzun kurslardan farkı yoğunluğu — bildiğin bir dilden yenisine geçerken sözdizimini bir oturuşta topluyorsun.",
     "en": "A \"crash course\" series summarising a language or framework in a single video. Against long courses the density is the point — moving from a language you know to a new one, you pick up the syntax in one sitting.",
@@ -478,9 +530,9 @@
     "tags": [
       "akademik",
       "interaktif",
-      "öğretici",
       "veri-bilimi",
-      "ücretsiz"
+      "ücretsiz",
+      "ileri"
     ],
     "tr": "Makine öğrenmesi fikirlerini etkileşimli görsellerle açıklayan araştırma dergisi. Klasik makale dergilerinden farkı bu etkileşimli anlatım; yayına ara verildi ama arşiv hâlâ değerli.",
     "en": "A research journal explaining machine-learning ideas through interactive visuals. Unlike classic paper journals it explains interactively; publication is on hiatus, but the archive remains valuable.",
@@ -503,12 +555,19 @@
     "name": "edX",
     "tags": [
       "freemium",
-      "müfredat"
+      "müfredat",
+      "sertifika"
     ],
     "tr": "MIT ve Harvard’ın kurduğu, üniversite kaynaklı kurs platformu; içeriği izlemek çoğu derste ücretsiz, ödev değerlendirmesi ve sertifika ücretli. Coursera’ya kıyasla üniversite derslerinin ağırlığı daha fazla.",
     "en": "A university-sourced course platform founded by MIT and Harvard; auditing is free for most courses, with graded work and certificates paid. Compared with Coursera, university courses carry more of the weight.",
     "src": "kedi",
-    "added": 1771248438
+    "added": 1771248438,
+    "vs": [
+      {
+        "u": "https://www.coursera.org",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.elementsofai.com/",
@@ -516,7 +575,8 @@
     "tags": [
       "ücretsiz",
       "öğretici",
-      "müfredat"
+      "müfredat",
+      "başlangıç"
     ],
     "tr": "Helsinki Üniversitesi’nin yapay zekaya matematik gerektirmeyen girişi; Türkçe dahil çok dilde. Teknik kurslardan farkı hedef kitlesi: model eğitmeyi değil, yapay zekanın ne yapıp ne yapamadığını anlamak isteyenler için.",
     "en": "The University of Helsinki’s introduction to AI, requiring no mathematics and available in many languages including Turkish. Its audience is the difference: it is for people who want to understand what AI can and cannot do, not to train models.",
@@ -528,7 +588,9 @@
     "name": "Every Programmer Should Know",
     "tags": [
       "awesome-liste",
-      "ücretsiz"
+      "ücretsiz",
+      "sistem-tasarımı",
+      "orta"
     ],
     "tr": "Dağıtık sistemlerden karakter kodlamasına, gecikme sayılarından güvenliğe uzanan konu derlemesi. Bir müfredattan farkı öğretmemesi; hangi konuyu hiç duymadığını fark ettirmesi.",
     "en": "A compilation spanning distributed systems, character encoding, latency numbers and security. Unlike a curriculum it does not teach — it shows you which topics you have never heard of.",
@@ -553,7 +615,8 @@
     "tags": [
       "interaktif",
       "ücretsiz",
-      "frontend"
+      "frontend",
+      "başlangıç"
     ],
     "tr": "Kule savunması oyunu üzerinden CSS Flexbox öğreten site. Dokümandan farkı her hizalama özelliğini bir oyun hamlesiyle ezberletmesi.",
     "en": "A site teaching CSS Flexbox through a tower-defence game. Unlike the docs it fixes each alignment property with a game move.",
@@ -566,11 +629,18 @@
       "müfredat",
       "öğretici",
       "ücretsiz",
-      "javascript"
+      "javascript",
+      "orta"
     ],
     "tr": "Helsinki Üniversitesi’nin React, Node ve GraphQL öğreten ücretsiz, uçtan uca tam yığın kursu. Udemy tarzı kurslardan farkı ödevlerin değerlendirilmesi ve üniversite kredisi (ECTS) verebilmesi.",
     "en": "The University of Helsinki’s free, end-to-end full-stack course teaching React, Node and GraphQL. Unlike Udemy-style courses, assignments are assessed and it can award university credit (ECTS).",
-    "src": "dsbest"
+    "src": "dsbest",
+    "vs": [
+      {
+        "u": "https://www.theodinproject.com/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.gaqm.org/",
@@ -589,7 +659,8 @@
     "tags": [
       "ücretli",
       "sertifika",
-      "git"
+      "git",
+      "başlangıç"
     ],
     "tr": "Sürüm kontrolü, işbirliği akışı ve GitHub yönetişimini kapsayan giriş seviyesi sınav. Actions ya da Advanced Security gibi diğer GitHub sertifikalarına kıyasla kapsamı dar, o yüzden hazırlığı kısa.",
     "en": "An entry-level exam covering version control, collaboration flow and GitHub governance. Compared with other GitHub certifications such as Actions or Advanced Security the scope is narrow, so preparation is short.",
@@ -613,7 +684,9 @@
     "name": "Google AI Essentials",
     "tags": [
       "ücretsiz",
-      "türkçe"
+      "türkçe",
+      "llm",
+      "başlangıç"
     ],
     "tr": "Yapay zekâyı günlük işe katmayı anlatan giriş programı; kod yok, model matematiği yok. Teknik YZ kurslarından farkı teknik olmayan meslekler için tasarlanmış olması.",
     "en": "An introduction to folding AI into everyday work — no code, no model mathematics. Unlike technical AI courses, it is actually designed for non-technical roles.",
@@ -626,7 +699,8 @@
     "tags": [
       "ücretsiz",
       "türkçe",
-      "sertifika"
+      "sertifika",
+      "başlangıç"
     ],
     "tr": "Google’ın Türkçe dijital beceri kursları; dijital pazarlama sertifikası Avrupa’da tanınıyor. İngilizce kurslardan farkı Türkçe içerik ile ücretsiz sertifikayı birleştirmesi — yerelde ender.",
     "en": "Google’s Turkish-language digital skills courses; the digital marketing certificate is recognised in Europe. Unlike English courses it pairs Turkish content with a free certificate — rare locally.",
@@ -652,7 +726,8 @@
     "tags": [
       "video",
       "akademik",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Google’da verilen teknik konuşmaların arşivi; birçoğu alanının kurucu isimlerinden. Konferans kayıtlarından farkı iç seyirciye anlatılmış olması — soru-cevap bölümleri genelde konuşmanın kendisinden değerli.",
     "en": "The archive of technical talks given at Google, many by the founding figures of their fields. Against conference recordings these were delivered to an internal audience, and the Q&A is often worth more than the talk.",
@@ -664,7 +739,8 @@
     "tags": [
       "video",
       "sistem-tasarımı",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Yazılım mimarisi ve mühendislik kültürü ağırlıklı konferans kayıtları. Dile özgü konferanslardan farkı teknoloji bağımsız olması — mimari kararlar ve takım pratikleri üzerine.",
     "en": "Conference recordings weighted towards software architecture and engineering culture. Unlike language-specific conferences it is technology-agnostic — about architectural decisions and team practice.",
@@ -675,12 +751,19 @@
     "name": "Harvard Online Learning",
     "tags": [
       "freemium",
-      "müfredat"
+      "müfredat",
+      "sertifika"
     ],
     "tr": "Harvard’ın çevrimiçi ders kataloğu. edX gibi aracı platformlar yerine üniversitenin kendi listesi: ücretsiz izlenebilen derslerle ücretli sertifika programları aynı yerde, hangisi olduğunu filtreden seçiyorsun.",
     "en": "Harvard’s own online course catalogue. Rather than an intermediary platform such as edX, it is the university’s own list — free-to-audit courses and paid certificate programmes together, separated with the filter.",
     "src": "kedi",
-    "added": 1771249285
+    "added": 1771249285,
+    "vs": [
+      {
+        "u": "https://www.edx.org/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://skillsbuild.org/",
@@ -701,7 +784,8 @@
     "tags": [
       "video",
       "sistem-tasarımı",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Yazılım konferanslarından seçilmiş sunumların video arşivi; çoğunda yazıya dökülmüş metin de var. YouTube’dan farkı küratörlü ve aranabilir olması — konu ve seviyeye göre süzülüyor.",
     "en": "A video archive of selected talks from software conferences, most with a transcript. Against YouTube it is curated and searchable, filterable by subject and level.",
@@ -724,7 +808,8 @@
     "tags": [
       "müfredat",
       "ücretsiz",
-      "interaktif"
+      "interaktif",
+      "başlangıç"
     ],
     "tr": "Algoritma, kriptografi ve bilgi teorisi konularını etkileşimli anlatımlarla veren ücretsiz müfredat. Üniversite derslerinden farkı ön koşul istememesi ve her kavramı tarayıcıda oynanabilir bir örnekle açması.",
     "en": "A free curriculum covering algorithms, cryptography and information theory through interactive lessons. Against a university course it assumes no prerequisites and opens each concept with something playable in the browser.",
@@ -748,7 +833,8 @@
     "name": "Learn to Code With Me",
     "tags": [
       "ücretsiz",
-      "referans"
+      "referans",
+      "müfredat"
     ],
     "tr": "Kendi kendine kod öğrenenler için yol, araç ve kariyer tavsiyesi toplayan kaynak. Tek konuya odaklı sitelerden farkı “nereden başlamalı ve işe nasıl dönüştürmeli” sorusuna eğilmesi.",
     "en": "A resource gathering paths, tools and career advice for self-taught coders. Unlike single-topic sites it addresses “where to start and how to turn it into a job”.",
@@ -760,7 +846,8 @@
     "tags": [
       "ücretsiz",
       "sertifika",
-      "öğretici"
+      "öğretici",
+      "başlangıç"
     ],
     "tr": "Linux Professional Institute'un Linux Essentials ve LPIC sınavları için hazırladığı resmî ders materyalleri; açık lisanslı ve ücretsiz. Sertifika sitesinden farkı, doğrudan çalışılacak içeriğin kendisi olması.",
     "en": "The Linux Professional Institute's official study materials for the Linux Essentials and LPIC exams, openly licensed and free. Unlike the certification site, it is the content itself, ready to study.",
@@ -778,14 +865,22 @@
     "tr": "Modüler ücretsiz eğitim; modüller sertifika sınavı hedeflerine birebir eşlenmiş. Video kurslardan farkı sandbox’ta gerçek Azure kaynağı açtırıp uygulatması.",
     "en": "Free modular training whose modules map one to one onto certification exam objectives. Unlike video courses, it spins up real Azure resources in a sandbox for you to work in.",
     "src": "kedi",
-    "added": 1771248787
+    "added": 1771248787,
+    "vs": [
+      {
+        "u": "https://skillbuilder.aws/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/",
     "name": "MIT EECS Dersleri",
     "tags": [
       "ücretsiz",
-      "müfredat"
+      "müfredat",
+      "akademik",
+      "orta"
     ],
     "tr": "MIT’nin elektrik mühendisliği ve bilgisayar bilimi bölümünün açık ders arşivi; algoritma, işletim sistemi ve derleyici derslerinin kaynağı. Genel OCW kataloğundan farkı yalnız bu bölüme odaklanarak doğrudan bilgisayar bilimi derslerine götürmesi.",
     "en": "MIT’s open archive for electrical engineering and computer science — the source of its algorithms, operating systems and compilers courses. Unlike the full OCW catalogue, it takes you straight to the computer science courses.",
@@ -797,7 +892,8 @@
     "tags": [
       "ücretsiz",
       "müfredat",
-      "öğretici"
+      "öğretici",
+      "orta"
     ],
     "tr": "MIT derslerinin ders notu, ödev, sınav ve çözümleriyle birlikte açık arşivi. Video kurslardan farkı gerçek problem setleri ve cevap anahtarları sunması.",
     "en": "MIT’s open archive of lecture notes, assignments, exams and solutions. Unlike video courses, it gives you real problem sets with answer keys.",
@@ -809,7 +905,9 @@
     "name": "MOOC.fi",
     "tags": [
       "ücretsiz",
-      "müfredat"
+      "müfredat",
+      "python",
+      "başlangıç"
     ],
     "tr": "Helsinki Üniversitesi’nin açık kursları; Java ve Python programlama dersleri otomatik değerlendirmeli alıştırmalarla geliyor. Coursera gibi platformlardan farkı ödev değerlendirmesi dahil tamamen ücretsiz olması.",
     "en": "The University of Helsinki’s open courses, with Java and Python programming taught through auto-graded exercises. Unlike platforms such as Coursera, it is completely free, grading included.",
@@ -821,7 +919,8 @@
     "tags": [
       "video",
       "algoritma",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Veri yapıları ve algoritmaları tahta üzerinde anlatan klasik seri. Yeni kanallardan farkı kod yerine mantığa odaklanması — bağlı liste ve ağaç konularında hâlâ en açık anlatımlardan biri.",
     "en": "The classic whiteboard series on data structures and algorithms. Against newer channels it focuses on the reasoning rather than the code, and remains one of the clearest treatments of linked lists and trees.",
@@ -833,7 +932,8 @@
     "tags": [
       "freemium",
       "mülakat",
-      "algoritma"
+      "algoritma",
+      "orta"
     ],
     "tr": "Algoritma sorularını konu bağımlılığına göre diziyor: iki işaretçiden kayan pencereye, oradan dinamik programlamaya. Rastgele soru çözmenin yapılandırılmış alternatifi.",
     "en": "Orders algorithm problems by topic dependency — two pointers into sliding window into dynamic programming. The structured alternative to grinding random questions.",
@@ -859,7 +959,8 @@
     "tags": [
       "kitap",
       "algoritma",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Veri yapılarını Java, C++, Python ve sözde kod olarak paralel anlatan açık ders kitabı. Diğer kitaplardan farkı her yapının aynı anda birden çok dilde verilmesi — kendi dilinde okuyup başka dile geçiş kolaylaşıyor.",
     "en": "An open textbook presenting data structures in Java, C++, Python and pseudocode side by side. Unlike other books each structure appears in several languages at once, which makes reading in your own and translating to another straightforward.",
@@ -870,7 +971,8 @@
     "name": "OSSU Computer Science",
     "tags": [
       "müfredat",
-      "ücretsiz"
+      "ücretsiz",
+      "başlangıç"
     ],
     "tr": "Ücretsiz kaynaklardan kurulmuş tam bir lisans müfredatı: ön koşullar, çekirdek dersler ve ileri seçmeliler ayrı ayrı sıralı. Kurs listesi değil, gerçekten bir program.",
     "en": "A full undergraduate curriculum assembled from free material, with prerequisites, core courses and advanced electives each in order. Not a course list — an actual programme.",
@@ -910,7 +1012,13 @@
     ],
     "tr": "Kurumsal teknoloji eğitimi aboneliği; beceri ölçüm testleri ve öğrenme yolları var. Tek tek kurs almak yerine bir yığında derinleşmek için tasarlanmış.",
     "en": "A subscription for enterprise technology training with skill assessments and paths, designed for going deep in one stack rather than buying courses one at a time.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://www.oreilly.com/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.pmi.org/certifications",
@@ -953,7 +1061,8 @@
     "name": "roadmap.sh",
     "tags": [
       "ücretsiz",
-      "müfredat"
+      "müfredat",
+      "referans"
     ],
     "tr": "Bütün yol haritalarının kök sayfası; frontend’den DevOps’a, Python’dan siber güvenliğe onlarca alan için sıralı öğrenme haritası. Tek bir alanın haritasına değil, hangi alanların olduğuna bakmak için burası.",
     "en": "The root page for every roadmap — frontend to DevOps, Python to security. Come here to see which tracks exist rather than to follow one.",
@@ -965,7 +1074,8 @@
     "tags": [
       "ücretsiz",
       "müfredat",
-      "referans"
+      "referans",
+      "kripto"
     ],
     "tr": "Kriptografi temellerinden akıllı sözleşme ve Solidity’ye uzanan sıralı harita. Düz kaynak listelerinden farkı sıralama: alanın gürültüsünde neyin gerçekten temel olduğunu ayırıyor.",
     "en": "An ordered map running from cryptographic fundamentals to smart contracts and Solidity. Unlike flat resource lists it gives order, separating what is actually foundational from the field’s noise.",
@@ -983,7 +1093,13 @@
     "tr": "Dosya sisteminden süreç yönetimine, kabuk betiğinden systemd’ye kadar konuları bağımlılık sırasına dizen etkileşimli harita. Düz konu listelerinden farkı hangi konunun hangisini gerektirdiğini göstermesi ve her düğümde ücretsiz kaynak bağlantısı.",
     "en": "An interactive map ordering topics by dependency — filesystem, process management, shell scripting, systemd. Unlike flat topic lists, it shows what each topic depends on and links free resources at every node.",
     "src": "kedi",
-    "added": 1783410625
+    "added": 1783410625,
+    "vs": [
+      {
+        "u": "https://labex.io/linuxjourney",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.scrum.org/",
@@ -1014,7 +1130,8 @@
     "name": "Silent Teacher",
     "tags": [
       "interaktif",
-      "ücretsiz"
+      "ücretsiz",
+      "başlangıç"
     ],
     "tr": "Tek kelime açıklama olmadan, deneme-yanılmayla programlamanın temellerini sezdiren oyun. Ders anlatımından farkı kuralı sana kendin keşfettirmesi.",
     "en": "A game that teaches the basics of programming by trial and error, with no word of explanation. Unlike a lecture it has you discover the rule yourself.",
@@ -1026,7 +1143,8 @@
     "tags": [
       "ücretsiz",
       "interaktif",
-      "müfredat"
+      "müfredat",
+      "başlangıç"
     ],
     "tr": "Programlamayı mobilde, küçük dersler ve topluluk üzerinden öğreten platform. Uzun kurslardan farkı otobüste bile ilerlenebilen, ısırıklık yapılı olması.",
     "en": "A platform teaching programming on mobile through small lessons and community. Unlike long courses it is bite-sized enough to progress even on the bus.",
@@ -1038,7 +1156,8 @@
     "tags": [
       "müfredat",
       "ücretsiz",
-      "akademik"
+      "akademik",
+      "başlangıç"
     ],
     "tr": "Stanford’ın programlamaya giriş dersinin tamamı: video, ödev ve sınavlarla. Çevrimiçi kurs platformlarından farkı gerçek bir üniversite dersinin kayıtları olması — hiçbir şey kısaltılmamış, ödevler de otomatik değerlendirilen alıştırmalar değil.",
     "en": "The whole of Stanford’s introduction to programming — lectures, assignments and exams. Unlike an online course platform these are the recordings of an actual university course: nothing is abridged, and the assignments are not auto-graded exercises.",
@@ -1063,18 +1182,26 @@
     "tags": [
       "müfredat",
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Bilgisayar bilimini kendi başına çalışmak için dokuz konu ve her konuda tek bir kitap ile tek bir ders önerisi. Diğer yol haritalarından farkı seçenek sunmaması: \"en iyi kaynak hangisi\" tartışmasını sizin yerinize kapatıp neden o kaynağı seçtiğini yazıyor.",
     "en": "Nine subjects for self-teaching computer science, each with exactly one book and one course recommended. Unlike other roadmaps it refuses to offer options: it settles the \"which resource\" argument for you and explains why it chose that one.",
-    "src": "awesome-uw"
+    "src": "awesome-uw",
+    "vs": [
+      {
+        "u": "https://github.com/ossu/computer-science",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://techguide.sh/",
     "name": "TechGuide",
     "tags": [
       "ücretsiz",
-      "referans"
+      "referans",
+      "müfredat"
     ],
     "tr": "Yazılımın farklı kariyer patikalarını (frontend, veri, mobil) görsel yol haritası olarak veren site. Tek kaynaktan farkı bir role hangi sırayla ne öğrenileceğini haritalaması.",
     "en": "A site giving software’s different career paths (frontend, data, mobile) as visual roadmaps. Unlike a single resource it maps what to learn in which order for a role.",
@@ -1086,7 +1213,7 @@
     "tags": [
       "ücretsiz",
       "türkçe",
-      "akademik"
+      "interaktif"
     ],
     "tr": "Matematik ve temel konularda hızlı test üretip sonuçları toplayan araç. Kahoot gibi araçlardan farkı reklamsız ve hesapsız çalışması; öğretmenlerin hazırlık yükünü belirgin azaltıyor.",
     "en": "Generates quick quizzes in maths and basic subjects and collects results. Unlike tools such as Kahoot it is ad-free and account-free, cutting teachers’ preparation load noticeably.",
@@ -1099,7 +1226,8 @@
     "tags": [
       "müfredat",
       "ücretsiz",
-      "cli"
+      "cli",
+      "başlangıç"
     ],
     "tr": "MIT’nin müfredatta yeri olmayan konuları topladığı ders: kabuk, betik yazımı, düzenleyici, sürüm denetimi, hata ayıklama. Programlama derslerinden farkı dili değil dilin etrafındaki aletleri öğretmesi — mezun olup da terminalde kaybolanların açığını kapatıyor.",
     "en": "MIT’s course for the subjects no syllabus covers: the shell, scripting, editors, version control, debugging. Unlike a programming course it teaches the tools around the language rather than the language — the gap that leaves graduates lost in a terminal.",
@@ -1111,7 +1239,8 @@
     "tags": [
       "video",
       "öğretici",
-      "ücretsiz"
+      "ücretsiz",
+      "başlangıç"
     ],
     "tr": "Çok sayıda dil ve teknoloji için kısa bölümlerden oluşan geniş öğretici arşivi. Modern kurslardan farkı arşiv niteliği — bazı seriler eskimiş, ama kapsamı hâlâ az bulunur.",
     "en": "A large archive of tutorials in short episodes across many languages and technologies. Against modern courses it is an archive — some series have aged, but the breadth is still rare.",
@@ -1123,7 +1252,8 @@
     "tags": [
       "video",
       "ücretsiz",
-      "sistem-tasarımı"
+      "sistem-tasarımı",
+      "orta"
     ],
     "tr": "Bir yazılım danışmanlığının kayıtları: eşli programlama oturumları, kod incelemeleri, tasarım tartışmaları. Öğretici kanallardan farkı gerçek işin kaydı olması — hazırlanmış ders değil, çalışan insanlar.",
     "en": "Recordings from a software consultancy: pair programming sessions, code reviews, design discussions. Unlike tutorial channels this is a record of real work — people working, not a prepared lesson.",
@@ -1135,7 +1265,8 @@
     "tags": [
       "referans",
       "ücretsiz",
-      "öğretici"
+      "öğretici",
+      "başlangıç"
     ],
     "tr": "Yüzlerce teknoloji için kısa öğretici serileri. GeeksforGeeks’ten farkı konu başına düzenli bir sıra izlemesi; karşılığında derinliği sınırlı — bir teknolojiye hızlı bakış için uygun, ustalaşmak için değil.",
     "en": "Short tutorial series for hundreds of technologies. Against GeeksforGeeks it follows an orderly sequence per subject; the trade is limited depth — good for a first look at a technology, not for mastering one.",
@@ -1147,7 +1278,8 @@
     "tags": [
       "ücretsiz",
       "interaktif",
-      "3b"
+      "3b",
+      "başlangıç"
     ],
     "tr": "Unity’nin resmî eğitimleri; motorun sürümüyle birlikte güncelleniyor. Üçüncü taraf kurslardan farkı onların en sık sorunu olan sürüm uyumsuzluğunun burada olmaması.",
     "en": "Unity’s official training, updated in step with the engine. Unlike third-party courses, it avoids their most common problem: version drift.",
@@ -1160,11 +1292,74 @@
     "tags": [
       "ücretsiz",
       "türkçe",
-      "akademik"
+      "akademik",
+      "orta"
     ],
     "tr": "Türkçe bilgisayar mühendisliği ders notları ve terim açıklamaları arşivi. İngilizce kaynaklardan farkı Türkçe olması: veri yapıları ve algoritma konularında yerel kaynak kıtlığını kısmen kapatıyor.",
     "en": "An archive of Turkish computer engineering lecture notes and term explanations. Unlike English resources it is in Turkish, partly filling the local shortage on data structures and algorithms.",
     "src": "kedi",
     "added": 1756374919
+  },
+  {
+    "url": "https://www.btkakademi.gov.tr/",
+    "name": "BTK Akademi",
+    "tags": [
+      "müfredat",
+      "türkçe",
+      "sertifika",
+      "ücretsiz"
+    ],
+    "tr": "Bilgi Teknolojileri ve İletişim Kurumu’nun ücretsiz çevrimiçi eğitim platformu: programlama, siber güvenlik, yapay zekâ ve ağ kursları, tamamlayana sertifika. Ücretli Türkçe kurs pazarlarından farkı devlet destekli ve ücretsiz olması; kurslara katılmak için üyelik gerekiyor.",
+    "en": "The Turkish ICT Authority’s free online learning platform: programming, cyber security, AI and networking courses, with a certificate on completion. Unlike paid Turkish course marketplaces it is state-run and free; taking a course needs an account.",
+    "src": "bosluk",
+    "added": 1792281600
+  },
+  {
+    "url": "https://coderspace.io/",
+    "name": "Coderspace",
+    "tags": [
+      "mülakat",
+      "müfredat",
+      "türkçe",
+      "freemium"
+    ],
+    "tr": "Türkiye’deki yazılımcılar için kariyer platformu: şirket destekli bootcamp’ler ve hackathon’lar, herkese açık mülakat soruları, maaş verileri, yol haritaları ve yazılımcı sözlüğü. Techcareer’dan farkı ücretli Pro planında etkileşimli Python ve veri eğitimleri sunması ve maaş verisi yayımlaması.",
+    "en": "A career platform for developers in Turkey: company-sponsored bootcamps and hackathons, plus public interview questions, salary data, roadmaps and a developer glossary. Unlike Techcareer it sells an interactive Python and data course platform (Pro) and publishes salary figures.",
+    "src": "bosluk",
+    "added": 1792281600
+  },
+  {
+    "url": "https://www.techcareer.net/",
+    "name": "Techcareer.net",
+    "tags": [
+      "mülakat",
+      "müfredat",
+      "türkçe",
+      "freemium"
+    ],
+    "tr": "Şirket destekli bootcamp’ler, iş ilanları ve herkese açık kaynaklar (teknik sözlük, mülakat soruları, CV örnekleri, üniversite taban puanları) sunan Türkçe kariyer platformu. Coderspace’ten farkı ağırlığı yapay zekâ yetkinlik eğitimlerine kaydırmış olması; kaynak sayfaları hesapsız okunuyor.",
+    "en": "A Turkish career platform with company-sponsored bootcamps, job listings and public resources (technical glossary, interview questions, CV samples, university base scores). Unlike Coderspace it has shifted its weight to AI-skills training; the resource pages read without an account.",
+    "src": "bosluk",
+    "added": 1792281600,
+    "vs": [
+      {
+        "u": "https://coderspace.io/",
+        "a": "yaklasim"
+      }
+    ]
+  },
+  {
+    "url": "https://www.osym.gov.tr/",
+    "name": "ÖSYM",
+    "tags": [
+      "sertifika",
+      "referans",
+      "türkçe",
+      "ücretsiz"
+    ],
+    "tr": "Türkiye’nin merkezî sınavlarını (YKS, KPSS, ALES, YDS) yapan kurum; açık sayfalarında sınav takvimi, kılavuzlar, yayımlanmış soru kitapçıkları ve sonuç istatistikleri var. Hazırlık sitelerinden farkı resmî kaynak olması: tarih ve kuralın son sözü burada, başvuru ise ayrı ve kimlik doğrulamalı sistemde.",
+    "en": "The body that runs Turkey’s central exams (YKS, KPSS, ALES, YDS); its public pages carry the exam calendar, guides, published question booklets and result statistics. Unlike prep sites it is the official source for dates and rules; applying happens in a separate, authenticated system.",
+    "src": "bosluk",
+    "added": 1792281600
   }
 ]

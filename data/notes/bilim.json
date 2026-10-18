@@ -4,7 +4,8 @@
     "name": "ABD Antarktika Programı",
     "tags": [
       "ücretsiz",
-      "akademik"
+      "akademik",
+      "referans"
     ],
     "tr": "ABD Antarktika araştırma programının resmî portalı; saha lojistiği ve istasyon operasyonları üzerine belgeler var. Genel bilim haberlerinden farkı aşırı koşullarda çalışan sistemlerin işletme ayrıntılarını anlatması.",
     "en": "The official portal of the US Antarctic research programme, with material on field logistics and station operations. Unlike general science news, it details how systems are operated in extreme conditions.",
@@ -49,7 +50,13 @@
     "tr": "Fizik, matematik ve bilgisayar biliminde makalelerin erken-baskı arşivi. Dergilerden farkı araştırmayı hakem sürecini beklemeden, herkese açık ve ücretsiz yayımlaması.",
     "en": "A preprint archive of papers in physics, mathematics and computer science. Unlike journals it publishes research openly and free, without waiting for peer review.",
     "src": "kedi",
-    "added": 1735894113
+    "added": 1735894113,
+    "vs": [
+      {
+        "u": "https://www.ssrn.com/index.cfm/en/ern/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://github.com/brycejohnston/awesome-agriculture",
@@ -120,7 +127,8 @@
     "tags": [
       "awesome-liste",
       "açık-kaynak",
-      "ücretsiz"
+      "ücretsiz",
+      "akademik"
     ],
     "tr": "Sağlık kuruluşları için açık kaynak sağlık yazılımı listesi. Ticari sağlık yazılımlarından farkı açık kaynak olanları — elektronik sağlık kaydı, görüntüleme, HL7/FHIR gibi standartlar — toplaması.",
     "en": "A list of open-source healthcare software for facilities. Unlike commercial health software, it gathers open-source options — electronic health records, imaging, standards such as HL7/FHIR.",
@@ -249,7 +257,13 @@
     "tr": "Bir makaleden yola çıkıp ilgili çalışmaların görsel bir grafiğini çıkaran araç. Atıf listesinden farkı bir alanın “harita”sını çizip komşu çalışmaları göstermesi.",
     "en": "A tool that starts from one paper and builds a visual graph of related work. Unlike a citation list it draws a “map” of a field and shows neighbouring work.",
     "src": "kedi",
-    "added": 1785239029
+    "added": 1785239029,
+    "vs": [
+      {
+        "u": "https://www.semanticscholar.org/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.davidrumsey.com/",
@@ -287,7 +301,13 @@
     "tr": "Türkiye akademik dergilerinin açık erişim platformu; binin üzerinde dergi barındırıyor. Türkçe literatür taraması için birincil kaynak, başka yerde toplu bulunmuyor.",
     "en": "The open-access platform for Turkish academic journals, hosting over a thousand titles — the primary source for Turkish literature, not aggregated anywhere else.",
     "src": "kedi",
-    "added": 1761424830
+    "added": 1761424830,
+    "vs": [
+      {
+        "u": "https://harman.ulakbim.gov.tr/index",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.devletarsivleri.gov.tr/",
@@ -372,7 +392,8 @@
     "name": "iNaturalist",
     "tags": [
       "ücretsiz",
-      "akademik"
+      "akademik",
+      "veri-seti"
     ],
     "tr": "Doğa gözlemlerini paylaşıp tür tespiti yaptırıyorsun. Tür tanıma uygulamalarından farkı topluluk doğrulaması: onaylanan kayıt araştırma kalitesinde sayılıp GBIF’e aktarılıyor — hobinin gerçek veriye dönüştüğü nadir örnek.",
     "en": "Share nature observations and get species identified. Unlike species-ID apps it has community verification: confirmed records become research-grade and flow into GBIF — a rare case of a hobby producing real data.",
@@ -415,7 +436,13 @@
     ],
     "tr": "Bilimin en prestijli hakemli dergilerinden; haber ve araştırmayı bir arada verir. Erken-baskı arşivlerinden farkı katı hakem süreci — yayımlanan bulgunun ağırlığını taşıması.",
     "en": "One of science’s most prestigious peer-reviewed journals, carrying news and research together. Unlike preprint archives its strict peer review gives published findings their weight.",
-    "src": "kedi"
+    "src": "kedi",
+    "vs": [
+      {
+        "u": "https://arxiv.org/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.nisanyanyeradlari.com/",
@@ -474,7 +501,8 @@
     "name": "Oxford Academic",
     "tags": [
       "ücretli",
-      "akademik"
+      "akademik",
+      "referans"
     ],
     "tr": "Oxford University Press dergi platformu; büyük yayıncı arşivlerinden biri. Açık erişim arşivlerine kıyasla içeriğin çoğu abonelik arkasında; açık erişim makaleler ayrıca işaretli.",
     "en": "Oxford University Press’s journal platform, one of the major publisher archives. Compared with open-access archives most content is behind subscription, with open-access articles separately marked.",
@@ -504,14 +532,21 @@
     "tr": "Yapay zekâ destekli akademik arama motoru. Google Scholar’dan farkı makaleyi özetlemesi, etkili atıfları ayırması ve bağlantıları anlamsal olarak çıkarması.",
     "en": "An AI-powered academic search engine. Unlike Google Scholar it summarises a paper, distinguishes influential citations and extracts links semantically.",
     "src": "kedi",
-    "added": 1785239035
+    "added": 1785239035,
+    "vs": [
+      {
+        "u": "https://dblp.org/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.nist.gov/pml/owm/metric-si-prefixes",
     "name": "SI Ön Ekleri (NIST)",
     "tags": [
       "ücretsiz",
-      "referans"
+      "referans",
+      "akademik"
     ],
     "tr": "Ölçü birimi ön eklerinin resmî tablosu; ronna ve quetta gibi yeni eklenenler dahil. Ansiklopedi tablolarından farkı resmî kaynak olması: birim dönüşümünde otorite.",
     "en": "The official table of unit prefixes, including recent additions like ronna and quetta. Unlike encyclopaedia tables it is the official source — the authority for unit conversion.",
@@ -556,7 +591,13 @@
     "tr": "Bulunduğun konumun gerçek gökyüzünü tarayıcıda gösteriyor; zamanı ileri sarıp gezegen konumlarını görebiliyorsun. Masaüstü Stellarium’dan farkı kurulum gerektirmemesi.",
     "en": "Shows the real sky for your location in the browser, with time you can wind forward to see planetary positions. Unlike desktop Stellarium it needs no installation.",
     "src": "kedi",
-    "added": 1738211299
+    "added": 1738211299,
+    "vs": [
+      {
+        "u": "https://skyviewer.app/explorer",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.transkribus.org/models/ottoman-turkish-print#tryit",
@@ -564,7 +605,7 @@
     "tags": [
       "freemium",
       "türkçe",
-      "referans"
+      "araç"
     ],
     "tr": "Osmanlı Türkçesi matbu metinler için eğitilmiş metin tanıma modeli. Genel OCR araçlarından farkı Arap harfli Türkçeyi okuyabilmesi — arşiv araştırmasında bu boşluk kritik.",
     "en": "A text-recognition model trained on printed Ottoman Turkish. Unlike general OCR tools it can read Arabic-script Turkish — a gap that is critical in archive research.",
@@ -602,7 +643,8 @@
     "name": "Wikimedia Commons",
     "tags": [
       "ücretsiz",
-      "referans"
+      "referans",
+      "tasarım"
     ],
     "tr": "Serbestçe kullanılabilir görsel ve medya arşivi. Stok fotoğraf sitelerinden farkı lisansın her dosyada açıkça yazılı olması: sunum ya da yayın için görsel ararken hukuki belirsizliği kaldırıyor.",
     "en": "An archive of freely usable images and media. Unlike stock-photo sites the licence is stated explicitly on every file, which removes the legal ambiguity when sourcing visuals for a talk or publication.",
@@ -614,11 +656,95 @@
     "name": "Wolfram Alpha",
     "tags": [
       "freemium",
-      "akademik"
+      "akademik",
+      "araç"
     ],
     "tr": "Hesaplamalı bilgi motoru: integral alıyor, birim çeviriyor, veri karşılaştırıyor. Arama motorundan farkı cevabı bulmak yerine hesaplaması; ücretli katmanda adım adım çözümü de gösteriyor.",
     "en": "A computational knowledge engine that integrates, converts units and compares data. Unlike a search engine it computes the answer rather than finding it, showing the working step by step in the paid tier.",
     "src": "kedi",
     "added": 1761423439
+  },
+  {
+    "url": "https://istatistik.yok.gov.tr/",
+    "name": "YÖK Yükseköğretim İstatistikleri",
+    "tags": [
+      "veri-seti",
+      "akademik",
+      "türkçe",
+      "ücretsiz"
+    ],
+    "tr": "Yükseköğretim Bilgi Yönetim Sistemi’nin istatistikleri: üniversite, birim ve programa göre öğrenci ve öğretim elemanı sayıları. YÖK Atlas’tan farkı tercih verisi değil, sistemin geneline bakan sayım tabloları vermesi.",
+    "en": "Statistics from the Council of Higher Education’s information system: student and academic-staff counts by university, faculty and programme. Unlike YÖK Atlas it is not admissions data but headcount tables across the whole system.",
+    "src": "bosluk",
+    "added": 1792281600
+  },
+  {
+    "url": "https://yokatlas.yok.gov.tr/",
+    "name": "YÖK Atlas",
+    "tags": [
+      "veri-seti",
+      "akademik",
+      "türkçe",
+      "ücretsiz"
+    ],
+    "tr": "Lisans ve önlisans programlarının yerleştirme verisi: taban puan ve başarı sırası, kontenjan, öğrencilerin geldiği iller ve liseler, akademik kadro. Dershane tercih listelerinden farkı ÖSYM yerleştirmesine dayanan resmî ve program düzeyinde ayrıntılı veri olması.",
+    "en": "Placement data for Turkish undergraduate and associate programmes: base scores and ranks, quotas, which provinces and high schools students come from, the academic staff. Unlike prep-school ranking lists it is official, programme-level data built on ÖSYM placements.",
+    "src": "bosluk",
+    "added": 1792281600,
+    "vs": [
+      {
+        "u": "https://istatistik.yok.gov.tr/",
+        "a": "kapsam"
+      }
+    ]
+  },
+  {
+    "url": "https://www.turkiyeburslari.gov.tr/",
+    "name": "Türkiye Bursları",
+    "tags": [
+      "akademik",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Türkiye’de lisans, yüksek lisans ve doktora için uluslararası öğrencilere verilen devlet bursu programı; burs kapsamı, programlar ve başvuru takvimi burada. Üniversitelerin kendi burslarından farkı öğrenim ücreti, aylık ödenek, yurt ve bir yıllık Türkçe kursunu tek başvuruda toplaması.",
+    "en": "Turkey’s government scholarship programme for international students at bachelor’s, master’s and doctoral level; coverage, programmes and the application calendar live here. Unlike a single university’s scholarship it bundles tuition, a monthly stipend, accommodation and a year of Turkish language study in one application.",
+    "src": "bosluk",
+    "added": 1792281600
+  },
+  {
+    "url": "https://www.zotero.org/",
+    "name": "Zotero",
+    "tags": [
+      "akademik",
+      "masaüstü",
+      "eklenti",
+      "freemium",
+      "açık-kaynak"
+    ],
+    "tr": "Açık kaynak kaynakça yöneticisi: tarayıcı eklentisi makale sayfasından künyeyi ve PDF’i tek tıkla kaydediyor, Word ve LibreOffice eklentileri alıntı ve kaynakçayı binlerce stilde biçimliyor. Mendeley gibi yayıncıya ait yöneticilerden farkı kâr amacı gütmeyen bir kurumca geliştirilmesi; yalnızca bulut depolamanın küçük kotanın üstü ücretli.",
+    "en": "An open-source reference manager: its browser connector saves the citation and PDF from an article page in one click, and the Word and LibreOffice plugins format citations and bibliographies in thousands of styles. Unlike publisher-owned managers such as Mendeley it is developed by a non-profit; only cloud storage beyond a small quota is paid.",
+    "src": "bosluk",
+    "added": 1792281600
+  },
+  {
+    "url": "https://openalex.org/",
+    "name": "OpenAlex",
+    "tags": [
+      "akademik",
+      "veri-seti",
+      "api",
+      "ücretsiz",
+      "açık-kaynak"
+    ],
+    "tr": "Bilimsel yayınların, yazarların, kurumların ve dergilerin açık kataloğu; tüm veri CC0 lisanslı ve ücretsiz bir API ile sorgulanıyor. Semantic Scholar’dan farkı verinin hiçbir kısıtlama olmadan yeniden kullanılabilmesi; Microsoft Academic Graph kapandığında onun yerini almak üzere kuruldu.",
+    "en": "An open catalogue of scholarly works, authors, institutions and journals; all the data is CC0 and queryable through a free API. Unlike Semantic Scholar the data can be reused without restriction; it was set up to replace the Microsoft Academic Graph when that shut down.",
+    "src": "bosluk",
+    "added": 1792281600,
+    "vs": [
+      {
+        "u": "https://www.semanticscholar.org/",
+        "a": "lisans"
+      }
+    ]
   }
 ]

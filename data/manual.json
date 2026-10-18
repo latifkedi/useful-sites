@@ -142,6 +142,12 @@
   "note": "Opened in a real browser (Chromium) on 2026-10-01 with the full page content shown; the weekly scanner gets a bot-block response (403/429) from this site.",
   "s": "ok"
  },
+ "ekap.kik.gov.tr": {
+  "d": "2026-10-18",
+  "r": "2027-04-16",
+  "s": "engel",
+  "note": "Opens with curl and browsers (redirects to ekapv2.kik.gov.tr, an Angular app), but the server only negotiates TLS settings Python requests refuses (handshake failure), so the scanner cannot reach it. Checked 2026-10-18."
+ },
  "engineering.teknasyon.com/androidler-neden-elektrikli-koyun-d%c3%bc%c5%9fleyemez-dab0ee1e85be": {
   "d": "2026-10-01",
   "note": "Opened in a real browser (Chromium) on 2026-10-01 with the full page content shown; the weekly scanner gets a bot-block response (403/429) from this site.",
@@ -384,11 +390,6 @@
   "s": "ok",
   "note": "Opened in a real browser (Chromium) on 2026-10-10 with its real page; the weekly scanner gets a bot-block response (403/401/429) from this site."
  },
- "reddit.com/r/sql/comments/11qe99b/best_way_to_learn_sql": {
-  "d": "2026-10-01",
-  "note": "Opened in a real browser (Chromium) on 2026-10-01 with the full page content shown; the weekly scanner gets a bot-block response (403/429) from this site.",
-  "s": "ok"
- },
  "regexr.com": {
   "d": "2026-10-01",
   "note": "Opened in a real browser (Chromium) on 2026-10-01 with the full page content shown; the weekly scanner gets a bot-block response (403/429) from this site.",
@@ -508,6 +509,12 @@
   "d": "2026-10-01",
   "note": "Opened in a real browser (Chromium) on 2026-10-01 with the full page content shown; the weekly scanner gets a bot-block response (403/429) from this site.",
   "s": "ok"
+ },
+ "w3.org/wai/wcag22/quickref": {
+  "d": "2026-10-18",
+  "r": "2027-04-16",
+  "s": "engel",
+  "note": "Cloudflare challenge (403 \"Just a moment\") for the scanner; curl with a browser user agent and browsers get the page. Checked 2026-10-18."
  },
  "webpagetest.org": {
   "d": "2026-10-01",

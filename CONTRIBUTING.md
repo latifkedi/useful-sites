@@ -19,10 +19,10 @@ build if it fits the scope.
 
 ## What is in scope
 
-Ten areas: software, artificial intelligence, infrastructure and systems,
-security, data, science and mathematics, economics and finance, design and
-media (including architecture), learning and reference, and open access and
-archives.
+Ten areas: software, data and AI, infrastructure and systems, security,
+science and mathematics, economics and finance, design and media (including
+architecture), learning and reference, developer tools and discovery, and open
+access and archives.
 
 What is turned away, and why:
 
@@ -104,9 +104,32 @@ if what you committed does not match a fresh build.
 Both languages are required. Turkish and English descriptions should say the
 same thing, not one be a machine translation of the other.
 
-Tags come from the 64 canonical tags in `data/tags.py`. Anything else is mapped
+Tags come from the 73 canonical tags in `data/tags.py`. Anything else is mapped
 through the `ALIAS` table or dropped — it is never invented. If a genuinely new
-tag is needed, add it to `CANON` and to `LABELS` in the same change.
+tag is needed, add it to `CANON` and to `LABELS` in the same change, and to a
+facet head if it is not a topic.
+
+Each record carries exactly one price tag (`ücretsiz`, `freemium`, `ücretli`),
+and two to four tags besides price and licence (`açık-kaynak`, `açık-ağırlık`
+do not count): a content type (`referans` for something you read or look up,
+`araç` for something you operate), a topic, and where it is clear from the
+record, a platform (`tarayıcı-içi`, `masaüstü`, `mobil`, `cli`, `eklenti`,
+`çevrimdışı`, `self-hosted`, `hesap-gerekmez`) or a stack. Every tag has to be
+supported by the record's own text or be plain fact about the thing; a weak
+second tag is worse than none. `test_build.py` fails above four, and holds the
+number of records under two to a ceiling that only goes down.
+
+Learning records (the learning, practice, books, programming-language and
+security lab and career categories) also carry one level, judged from what the
+resource assumes, not from its name:
+
+- `başlangıç` — written for newcomers: a curriculum or tutorial that assumes no prior knowledge of the subject.
+- `orta` — assumes you already work in the subject: practice, interview prep, references and courses that build on the basics.
+- `ileri` — deep material: research papers and journals, internals, compilers and hardware-level performance, contest problems that need mathematics.
+
+Leave the level off when the resource spans all three (a course platform, a
+project list) or is not a learning resource at all (a certification body, a
+newsletter).
 
 More detail: [data/README.md](data/README.md).
 

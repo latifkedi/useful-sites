@@ -58,7 +58,8 @@
     "name": "EconJobMarket",
     "tags": [
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "akademik"
     ],
     "tr": "İktisat akademik iş başvurularını tek yerden yöneten platform; başvuru ve referans mektuplarını topluyor. Dağınık e-postalar yerine standart bir başvuru akışı.",
     "en": "A platform managing academic economics job applications in one place, collecting applications and reference letters. A standard application flow instead of scattered emails.",
@@ -119,7 +120,8 @@
     "name": "IGM Experts Panel",
     "tags": [
       "akademik",
-      "ücretsiz"
+      "ücretsiz",
+      "referans"
     ],
     "tr": "Önde gelen iktisatçıların güncel politika sorularına katılıp katılmadıklarını oyladığı panel. Tek uzman görüşünden farkı uzlaşının nerede olduğunu tek bakışta göstermesi.",
     "en": "A panel where leading economists vote whether they agree with topical policy questions. Unlike a single expert’s view it shows at a glance where the consensus sits.",
@@ -136,14 +138,21 @@
     ],
     "tr": "Uluslararası Para Fonu’nun makro verisi — ödemeler dengesi, kur, borç için standart başvuru. Dünya Bankası’na göre daha çok parasal ve mali istatistiğe eğilir.",
     "en": "The IMF’s macro data — the standard reference for balance of payments, exchange rates and debt. It leans more to monetary and fiscal statistics than the World Bank.",
-    "src": "econ"
+    "src": "econ",
+    "vs": [
+      {
+        "u": "https://data.worldbank.org/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.aeaweb.org/joe/",
     "name": "JOE · Job Openings for Economists",
     "tags": [
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "akademik"
     ],
     "tr": "Amerikan İktisat Derneği’nin resmî iş ilanı panosu — akademik iktisat piyasasının merkezî yeri. Genel iş sitelerinden farkı yalnız iktisat pozisyonlarına odaklanması.",
     "en": "The American Economic Association’s official job board — the central place for the academic economics market. Unlike general job sites it is economics positions only.",
@@ -166,7 +175,8 @@
     "name": "Marginal Revolution",
     "tags": [
       "ücretsiz",
-      "referans"
+      "referans",
+      "akademik"
     ],
     "tr": "Tyler Cowen ve Alex Tabarrok’un günlük iktisat blogu — alandaki en çok okunanlardan. Habere göre farkı iktisatçı gözüyle, kısa ve sık yorum akışı olması.",
     "en": "Tyler Cowen and Alex Tabarrok’s daily economics blog — among the most-read in the field. Against news it offers a short, frequent stream of commentary through an economist’s lens.",
@@ -222,7 +232,13 @@
     ],
     "tr": "OECD üyesi ekonomilerin resmî istatistiklerini standart, ülkeler-arası karşılaştırılabilir biçimde kaynağından veriyor. Genel veri toplayıcılarından farkı verinin standartlaştırılmış ve doğrudan resmî kaynaktan olması.",
     "en": "Official OECD statistics across member economies, standardised for cross-country comparison straight from the source. Unlike general data aggregators the data is standardised and comes directly from the official source.",
-    "src": "econ"
+    "src": "econ",
+    "vs": [
+      {
+        "u": "https://data.worldbank.org/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://openstax.org/details/books/principles-economics-3e",
@@ -234,14 +250,19 @@
     ],
     "tr": "Üniversite giriş iktisadı için ücretsiz, açık lisanslı ders kitabı. Ticari kitaplardan farkı bedava ve düzenli güncellenmesi; PDF, web ve basılı sürümleri var.",
     "en": "A free, openly licensed textbook for introductory university economics. Unlike commercial texts it is free and regularly updated, with PDF, web and print editions.",
-    "src": "econ"
+    "src": "econ",
+    "vs": [
+      {
+        "u": "https://www.khanacademy.org/economics-finance-domain",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://ourworldindata.org",
     "name": "Our World in Data",
     "tags": [
       "veri-bilimi",
-      "referans",
       "ücretsiz",
       "interaktif",
       "akademik",
@@ -257,7 +278,8 @@
     "tags": [
       "açık-kaynak",
       "python",
-      "ücretsiz"
+      "ücretsiz",
+      "öğretici"
     ],
     "tr": "Hesaplamalı iktisat için açık kaynak dersler ve kütüphaneler (Python ve Julia). Salt teoriden farkı modelleri kodla kurup çözmeyi öğretmesi — nicel iktisatta yaygın olarak kullanılıyor.",
     "en": "Open-source lectures and libraries for computational economics (Python and Julia). Unlike pure theory it teaches building and solving models in code — widely used in quantitative economics.",
@@ -292,11 +314,18 @@
     "name": "SSRN Economics",
     "tags": [
       "akademik",
-      "ücretsiz"
+      "ücretsiz",
+      "referans"
     ],
     "tr": "İktisat çalışma kâğıtlarının erken-baskı arşivi. NBER’den farkı kuruma bağlı olmaması: herkes yükleyebiliyor, dolayısıyla daha geniş ama daha az süzülmüş.",
     "en": "A preprint archive of economics working papers. Unlike NBER it is not tied to one institution: anyone can upload, so it is broader but less filtered.",
-    "src": "econ"
+    "src": "econ",
+    "vs": [
+      {
+        "u": "https://www.nber.org/papers",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.statista.com",
@@ -308,7 +337,13 @@
     ],
     "tr": "Sektörler genelinde istatistikleri kaynak göstererek toplayan piyasa ve anket verisi portalı. Birincil veri kaynaklarından farkı dağınık verileri tek grafikte toplaması; ham veriye erişim ve indirme çoğunlukla ücretli.",
     "en": "A statistics portal aggregating market and survey data across industries with sourcing. Unlike primary data sources it collects scattered figures into one chart; access to the raw data and downloads is mostly paid.",
-    "src": "econ"
+    "src": "econ",
+    "vs": [
+      {
+        "u": "https://ourworldindata.org",
+        "a": "fiyat"
+      }
+    ]
   },
   {
     "url": "https://tradingeconomics.com",
@@ -321,7 +356,13 @@
     ],
     "tr": "196 ülke için GSYH, enflasyon, faiz gibi makro göstergeleri tarihsel seriler ve tahminlerle tek panelde topluyor. Tek ülkeye bakan resmî portallardan farkı ülkeler arası karşılaştırma ve tahmin sunması.",
     "en": "Gathers macro indicators — GDP, inflation, rates — for 196 countries in one dashboard with historical series and forecasts. Unlike official portals that cover one country, it offers cross-country comparison and forecasts.",
-    "src": "econ"
+    "src": "econ",
+    "vs": [
+      {
+        "u": "https://fred.stlouisfed.org/",
+        "a": "fiyat"
+      }
+    ]
   },
   {
     "url": "https://comtrade.un.org/",
@@ -370,7 +411,8 @@
     "name": "Visual Capitalist",
     "tags": [
       "ücretsiz",
-      "veri-bilimi"
+      "veri-bilimi",
+      "referans"
     ],
     "tr": "Ekonomi ve teknoloji verisini bilgi grafiğine çeviren yayın. Ham veri kaynağı değil; büyüklükleri karşılaştırılabilir kılması asıl katkısı.",
     "en": "A publication turning economic and technology data into infographics. Not a raw data source — its contribution is making magnitudes comparable.",
@@ -401,5 +443,59 @@
     "tr": "Uluslararası makroekonomik zaman serileri, ülke ülke. Tek tek istatistik ofislerinden farkı karşılaştırılabilir olması: yüzlerce göstergeyi ortak tanımlarla tek yerde topluyor.",
     "en": "International macroeconomic time series, country by country. Unlike individual statistics offices it is comparable: hundreds of indicators under common definitions in one place.",
     "src": "econ"
+  },
+  {
+    "url": "https://evds3.tcmb.gov.tr/",
+    "name": "EVDS — TCMB Elektronik Veri Dağıtım Sistemi",
+    "tags": [
+      "veri-seti",
+      "api",
+      "türkçe",
+      "ücretsiz"
+    ],
+    "tr": "Merkez Bankası’nın zaman serisi deposu: döviz kurları, faizler, para arzı, ödemeler dengesi ve piyasa katılımcıları anketi. FRED’den farkı Türkiye’nin parasal ve finansal serilerinin birincil kaynağı olması; tablolar hesapsız indiriliyor, API için ücretsiz anahtar gerekiyor.",
+    "en": "The Turkish central bank’s time-series store: exchange rates, interest rates, money supply, balance of payments and the market participants survey. Unlike FRED it is the primary source for Turkey’s monetary and financial series; tables download without an account, the API needs a free key.",
+    "src": "bosluk",
+    "added": 1792281600,
+    "vs": [
+      {
+        "u": "https://fred.stlouisfed.org/",
+        "a": "kapsam"
+      }
+    ]
+  },
+  {
+    "url": "https://veriportali.tuik.gov.tr/",
+    "name": "TÜİK Veri Portalı",
+    "tags": [
+      "veri-seti",
+      "referans",
+      "türkçe",
+      "ücretsiz"
+    ],
+    "tr": "Türkiye İstatistik Kurumu’nun resmî istatistik portalı: enflasyon (TÜFE, ÜFE), GSYH, işgücü, nüfus ve dış ticaret tabloları ile bültenler. EVDS’den farkı finansal piyasa serilerini değil fiyat, üretim ve demografi istatistiklerini üreten kurumun kendisi olması.",
+    "en": "Turkish Statistical Institute’s official statistics portal: inflation (CPI, PPI), GDP, labour, population and foreign-trade tables, with the release bulletins. Unlike EVDS it is not about financial-market series; it is the producer of the official price, output and demographic statistics.",
+    "src": "bosluk",
+    "added": 1792281600,
+    "vs": [
+      {
+        "u": "https://evds3.tcmb.gov.tr/",
+        "a": "kapsam"
+      }
+    ]
+  },
+  {
+    "url": "https://ekap.kik.gov.tr/",
+    "name": "EKAP — Elektronik Kamu Alımları Platformu",
+    "tags": [
+      "veri-seti",
+      "referans",
+      "türkçe",
+      "ücretsiz"
+    ],
+    "tr": "Kamu İhale Kurumu’nun platformu; ihale ve sonuç ilanları herkese açık olarak aranabiliyor. İhale haber sitelerinden farkı kaynağın kendisi olması: kamu alımlarını kurum, tarih ve tutar üzerinden izlemenin resmî yolu, teklif vermek ise kayıt gerektiriyor.",
+    "en": "The Public Procurement Authority’s platform; tender and award notices are publicly searchable. Unlike tender-news sites it is the source itself, the official way to follow public purchasing by agency, date and amount; bidding needs registration.",
+    "src": "bosluk",
+    "added": 1792281600
   }
 ]

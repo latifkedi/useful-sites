@@ -45,15 +45,16 @@ CATS = [
     ('backend',    'Backend, API & Sistem Tasarımı', 'Backend, API & System Design'),
     ('mobil',      'Mobil & Masaüstü',              'Mobile & Desktop'),
     ('veritabani', 'Veritabanı',                    'Databases'),
-    ('pratik',     'Pratik & Alıştırma',            'Practice & Challenges'),
     ('test',       'Test & Kalite',                 'Testing & QA'),
     ('oyun',       'Oyun Geliştirme',               'Game Development'),
-    # -- Yapay Zeka
+    # -- Veri & Yapay Zeka
     ('yz_model',   'YZ · Modeller & Asistanlar',    'AI · Models & Assistants'),
     ('yz_altyapi', 'YZ · Agent & Altyapı',          'AI · Agents & Infrastructure'),
     ('yz_rag',     'YZ · RAG, Gömme & Vektör',      'AI · RAG, Embeddings & Vectors'),
     ('yz_arac',    'YZ · Uygulama Araçları',        'AI · Applied Tools'),
     ('yz_uretim',  'YZ · Üretken Medya',            'AI · Generative Media'),
+    ('veri',       'Veri Bilimi & Makine Öğrenmesi', 'Data Science & ML'),
+    ('veri_muh',   'Veri Mühendisliği',             'Data Engineering'),
     # -- Altyapı & Sistem
     ('devops',     'DevOps & Altyapı',              'DevOps & Infrastructure'),
     ('ag',         'Ağ & Sistem Yönetimi',          'Networking & Sysadmin'),
@@ -66,9 +67,6 @@ CATS = [
     ('guv_teknik', 'Saldırı, Savunma & OSINT',      'Offence, Defence & OSINT'),
     ('guv_lab',    'CTF & Uygulamalı Lab',          'CTF & Hands-on Labs'),
     ('guv_kariyer', 'Sertifika & Kariyer',          'Certification & Career'),
-    # -- Veri
-    ('veri',       'Veri Bilimi & Makine Öğrenmesi', 'Data Science & ML'),
-    ('veri_muh',   'Veri Mühendisliği',             'Data Engineering'),
     # -- Bilim & Matematik
     ('bilim',      'Bilim & Akademik',              'Science & Academia'),
     ('matematik',  'Matematik',                     'Mathematics'),
@@ -81,16 +79,18 @@ CATS = [
     ('gorsel',     'İkon, Fotoğraf & İllüstrasyon', 'Icons, Photos & Illustration'),
     ('medya',      'Medya, Dosya & Diyagram',       'Media, Files & Diagrams'),
     ('mimari',     'Mimari & Yapı',                 'Architecture & Building'),
-    # -- Öğrenme, Referans & Araçlar
+    # -- Öğrenme & Başvuru
     ('ogrenme',    'Öğrenme & Yol Haritaları',      'Learning & Roadmaps'),
+    ('pratik',     'Pratik & Alıştırma',            'Practice & Challenges'),
     ('kitaplik',   'Ücretsiz Kitaplar & Uzun Okumalar', 'Free Books & Long Reads'),
     ('referans',   'Kopya Kâğıtları & Başvuru',     'Cheat Sheets & Quick Reference'),
-    ('koleksiyon', 'Listeler, Dizinler & Keşif',    'Lists, Directories & Discovery'),
-    ('acik_kaynak', 'Açık Kaynak & Katkı',          'Open Source & Contributing'),
+    # -- Geliştirici Araçları & Keşif
     ('editor',     'Editör, IDE & Terminal',        'Editors, IDEs & Terminals'),
     ('oyunalani',  'Çevrimiçi Kod Alanları & Derleyiciler', 'Online Playgrounds & Compilers'),
     ('donusturucu', 'Dönüştürücü, Biçimlendirici & Denetleyici', 'Converters, Formatters & Checkers'),
     ('araclar',    'Üretkenlik & Günlük Araçlar',   'Productivity & Everyday Tools'),
+    ('acik_kaynak', 'Açık Kaynak & Katkı',          'Open Source & Contributing'),
+    ('koleksiyon', 'Listeler, Dizinler & Keşif',    'Lists, Directories & Discovery'),
     # -- Açık Erişim & Korsan
     ('acik_erisim', 'Açık Erişim & Arşiv',          'Open Access & Archives'),
     ('korsan',     'Korsan',                        'Piracy'),
@@ -99,26 +99,32 @@ CATS = [
 # Top-level fields (üst-alan): each groups a run of categories. The homepage
 # and the text hub render category cards under these headings; feeds and
 # per-category pages are unchanged. key, Turkish label, English label, cats.
+#
+# October 2026 regroup (no record changed category): the nine-category,
+# 355-record "Learning, Reference & Tools" field split into Learning & Reference
+# (things you study from, practice included) and Dev Tools & Discovery (things
+# you use); the two-category Data field folded into Data & AI, since the data
+# science and ML categories sat one click from the models they feed. The keys
+# 'yapayzeka' and 'ogrenmealan' are kept so ?f= links still land; 'verialan' is gone.
 GROUPS = [
     ('yazilim',     'Yazılım',            'Software',
-     ['diller', 'c_rust', 'jvm', 'web', 'css', 'backend', 'mobil', 'veritabani', 'pratik', 'test', 'oyun']),
-    ('yapayzeka',   'Yapay Zeka',         'Artificial Intelligence',
-     ['yz_model', 'yz_altyapi', 'yz_rag', 'yz_arac', 'yz_uretim']),
+     ['diller', 'c_rust', 'jvm', 'web', 'css', 'backend', 'mobil', 'veritabani', 'test', 'oyun']),
+    ('yapayzeka',   'Veri & Yapay Zeka',  'Data & AI',
+     ['yz_model', 'yz_altyapi', 'yz_rag', 'yz_arac', 'yz_uretim', 'veri', 'veri_muh']),
     ('sistem',      'Altyapı & Sistem',   'Infrastructure & Systems',
      ['devops', 'ag', 'barindirma', 'donanim', 'elektronik', 'gozluk']),
     ('guvenlikalan', 'Güvenlik',          'Security',
      ['guvenlik', 'guv_teknik', 'guv_lab', 'guv_kariyer']),
-    ('verialan',    'Veri',               'Data',
-     ['veri', 'veri_muh']),
     ('bilimmat',    'Bilim & Matematik',  'Science & Mathematics',
      ['bilim', 'matematik', 'kuantum']),
     ('ekonomialan', 'Ekonomi & Finans',   'Economics & Finance',
      ['ekonomi', 'finans']),
     ('tasarim',     'Tasarım & Medya',    'Design & Media',
      ['arayuz', 'gorsel', 'medya', 'mimari']),
-    ('ogrenmealan', 'Öğrenme, Referans & Araçlar', 'Learning, Reference & Tools',
-     ['ogrenme', 'kitaplik', 'referans', 'koleksiyon', 'acik_kaynak',
-      'editor', 'oyunalani', 'donusturucu', 'araclar']),
+    ('ogrenmealan', 'Öğrenme & Başvuru',  'Learning & Reference',
+     ['ogrenme', 'pratik', 'kitaplik', 'referans']),
+    ('aracalan',    'Geliştirici Araçları & Keşif', 'Dev Tools & Discovery',
+     ['editor', 'oyunalani', 'donusturucu', 'araclar', 'acik_kaynak', 'koleksiyon']),
     ('korsanalan',  'Açık Erişim & Korsan', 'Open Access & Piracy',
      ['acik_erisim', 'korsan']),
 ]
@@ -126,24 +132,28 @@ GROUPS = [
 # One line per field, shown on its card. Kept with the data rather than in
 # app.js so the build can pre-render the homepage from the same source.
 FIELD_NOTES = {
-    'yazilim': ('Diller, web, backend, mobil, veritabanı, pratik, test ve oyun.',
-                'Languages, web, backend, mobile, databases, practice, testing and games.'),
-    'yapayzeka': ('Modeller, altyapı, RAG, araçlar ve üretken yapay zeka.',
-                  'Models, infrastructure, RAG, tooling and generative AI.'),
+    'yazilim': ('Diller, web, backend, mobil, veritabanı, test ve oyun.',
+                'Languages, web, backend, mobile, databases, testing and games.'),
+    'yapayzeka': ('Modeller, altyapı, RAG, araçlar ve üretken yapay zeka; veri bilimi, veri kaynakları '
+                  've veri mühendisliği.',
+                  'Models, infrastructure, RAG, tooling and generative AI; data science, data sources '
+                  'and data engineering.'),
     'sistem': ('DevOps, ağ, öz-barındırma ve medya sunucuları, donanım, elektronik ve giyilebilir.',
                'DevOps, networking, self-hosting and media servers, hardware, electronics and wearables.'),
     'guvenlikalan': ('Gizlilik; saldırı, savunma ve OSINT; CTF ve laboratuvarlar; sertifika ve kariyer.',
                      'Privacy; offence, defence and OSINT; CTFs and labs; certification and career.'),
-    'verialan': ('Veri bilimi, veri kaynakları ve veri mühendisliği.',
-                 'Data science, data sources and data engineering.'),
     'bilimmat': ('Bilim, matematik ve kuantum.', 'Science, mathematics and quantum.'),
     'ekonomialan': ('İktisat verisi ve araştırması; piyasa, değerleme ve kripto araçları.',
                     'Economic data and research; market, valuation and crypto tools.'),
     'tasarim': ('Tasarım ve medya araçları, mimari.', 'Design and media tools, architecture.'),
-    'ogrenmealan': ('Yol haritaları ve kitaplar; başvuru ve listeler; açık kaynak; editörler, '
-                    'kod alanları ve küçük araçlar.',
-                    'Roadmaps and books; references and lists; open source; editors, playgrounds '
-                    'and small tools.'),
+    'ogrenmealan': ('Yol haritaları ve kurslar; pratik ve alıştırma; ücretsiz kitaplar; kopya kâğıtları '
+                    've başvuru.',
+                    'Roadmaps and courses; practice and challenges; free books; cheat sheets and '
+                    'quick reference.'),
+    'aracalan': ('Editörler, kod alanları, dönüştürücüler ve günlük araçlar; açık kaynak; listeler '
+                 've keşif.',
+                 'Editors, playgrounds, converters and everyday tools; open source; lists and '
+                 'discovery.'),
     'korsanalan': ('Yasal açık erişim ve arşivler; korsan meta-merkezleri ve araç zinciri.',
                    'Legal open access and archives; piracy meta-hubs and the toolchain.'),
 }

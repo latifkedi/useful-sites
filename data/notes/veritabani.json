@@ -41,11 +41,18 @@
     "tags": [
       "veritabanı",
       "açık-kaynak",
-      "ücretsiz"
+      "ücretsiz",
+      "masaüstü"
     ],
     "tr": "Birçok veritabanını destekleyen, açık kaynak SQL editörü ve yöneticisi. DBeaver’a kıyasla arayüzü daha sade ve modern; karşılığında gelişmiş özellikleri daha az.",
     "en": "An open-source SQL editor and manager supporting many databases. Compared with DBeaver its interface is simpler and more modern, with fewer advanced features in exchange.",
-    "src": "awesomeproj"
+    "src": "awesomeproj",
+    "vs": [
+      {
+        "u": "https://dbeaver.io",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.cockroachlabs.com",
@@ -57,7 +64,13 @@
     ],
     "tr": "Yatay ölçeklenen, kuvvetli tutarlı ve arızalara dayanıklı dağıtık SQL veritabanı; PostgreSQL protokolüyle uyumlu. Tek düğümlü PostgreSQL’den farkı bölgeler arası çoğaltma; 2024’ten beri açık kaynak çekirdeği yok, bireylere, öğrencilere ve yıllık geliri 10 milyon doların altındaki işletmelere ücretsiz kurumsal lisansla sunuluyor.",
     "en": "A distributed SQL database that scales horizontally with strong consistency and survivability, speaking the PostgreSQL protocol. Unlike single-node PostgreSQL it replicates across regions; since 2024 it has no open-source core and is offered free to individuals, students and businesses under $10M annual revenue under an enterprise licence.",
-    "src": "dsbest"
+    "src": "dsbest",
+    "vs": [
+      {
+        "u": "https://www.postgresql.org/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.connectionstrings.com/",
@@ -179,7 +192,8 @@
     "name": "MySQL Tutorial",
     "tags": [
       "ücretsiz",
-      "veritabanı"
+      "veritabanı",
+      "öğretici"
     ],
     "tr": "Örnek veritabanı üzerinden MySQL’i baştan sona işliyor; JOIN türleri, alt sorgular ve saklı yordamlar ayrı ayrı ele alınmış. Resmî kılavuzdan çok daha okunur bir giriş.",
     "en": "Works MySQL end to end over a sample database, treating join types, subqueries and stored procedures separately. Far more readable as an introduction than the official manual.",
@@ -203,11 +217,18 @@
     "name": "Oracle SQL Developer",
     "tags": [
       "ücretsiz",
-      "veritabanı"
+      "veritabanı",
+      "masaüstü"
     ],
     "tr": "Oracle veritabanları için ücretsiz masaüstü istemci; sorgu, şema gezme ve PL/SQL hata ayıklama bir arada. DBeaver gibi genel istemcilerden farkı PL/SQL hata ayıklayıcısı ve Oracle’a özgü araçlar: Oracle ile çalışıyorsan olağan araç.",
     "en": "A free desktop client for Oracle databases combining querying, schema browsing and PL/SQL debugging. Unlike general clients such as DBeaver it has a PL/SQL debugger and Oracle-specific tooling — the usual tool if you work with Oracle.",
-    "src": "kedi"
+    "src": "kedi",
+    "vs": [
+      {
+        "u": "https://dbeaver.io",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://planetscale.com",
@@ -233,7 +254,13 @@
     ],
     "tr": "Tek Go dosyasında gelen; SQLite, kimlik doğrulama ve gerçek zamanlı API sunan backend. Ağır yığınlardan farkı sunucuyu tek çalıştırılabilir dosyaya indirmesi.",
     "en": "A backend shipping as one Go file, providing SQLite, auth and a real-time API. Unlike heavy stacks it reduces the server to a single executable.",
-    "src": "kedi"
+    "src": "kedi",
+    "vs": [
+      {
+        "u": "https://supabase.com/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://pgexercises.com",
@@ -242,7 +269,8 @@
       "veritabanı",
       "interaktif",
       "öğretici",
-      "ücretsiz"
+      "ücretsiz",
+      "tarayıcı-içi"
     ],
     "tr": "Tarayıcıda notlandırılan PostgreSQL alıştırmalarıyla SQL pratiği. SQLBolt’a kıyasla PostgreSQL’e özgü ve daha ileri: özyinelemeli sorgular ve pencere fonksiyonları dahil.",
     "en": "Practise SQL with graded PostgreSQL exercises in the browser. Compared with SQLBolt it is PostgreSQL-specific and more advanced, including recursive queries and window functions.",
@@ -253,12 +281,19 @@
     "name": "PostgreSQL Tutorial",
     "tags": [
       "ücretsiz",
-      "veritabanı"
+      "veritabanı",
+      "öğretici"
     ],
     "tr": "Her konuyu çalıştırılabilir sorguyla gösteren PostgreSQL öğreticisi. Çoğu SQL kursundan farkı pencere fonksiyonları ve CTE’lerde derinleşmesi.",
     "en": "A PostgreSQL tutorial showing each topic with a runnable query. Unlike most SQL courses, it goes deep on window functions and CTEs.",
     "src": "kedi",
-    "added": 1776690081
+    "added": 1776690081,
+    "vs": [
+      {
+        "u": "https://www.mysqltutorial.org/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://redis.io/insight/",
@@ -271,19 +306,6 @@
     "tr": "Redis’in resmî görsel arayüzü; veriyi görüntüleme, düzenleme, sorgu ve profil çıkarma. RESP.app (RedisDesktopManager) gibi üçüncü taraf araçların yerine artık resmî seçenek bu.",
     "en": "Redis’s official GUI — browse, edit, query and profile your data. Instead of third-party tools such as RESP.app (RedisDesktopManager), this is now the official option.",
     "src": "awesomeproj"
-  },
-  {
-    "url": "https://www.reddit.com/r/SQL/comments/11qe99b/best_way_to_learn_sql/",
-    "name": "SQL Nasıl Öğrenilir",
-    "tags": [
-      "ücretsiz",
-      "awesome-liste",
-      "veritabanı"
-    ],
-    "tr": "Deneyimli kullanıcıların SQL öğrenme yollarını tartıştığı başlık. Kurs sitelerinin kendi önerilerinden farkı, yazanların kurs satmaması: ayıklama işi önden yapılmış oluyor.",
-    "en": "A thread where experienced users argue over how to learn SQL. Unlike course sites’ own advice, nobody there is selling a course, so the filtering is already done.",
-    "src": "kedi",
-    "added": 1777358727
   },
   {
     "url": "https://www.youtube.com/watch?v=OT1RErkfLNQ",
@@ -305,11 +327,18 @@
       "veritabanı",
       "interaktif",
       "öğretici",
-      "ücretsiz"
+      "ücretsiz",
+      "tarayıcı-içi"
     ],
     "tr": "Tarayıcıda yaparak öğreten etkileşimli SQL dersleri; her ders sorgu yazdığın bir alıştırmayla bitiyor. Video kurslardan farkı pasif izleme yerine sorguyu hemen yazman; PostgreSQL öğreticilerine göre daha temel seviyede.",
     "en": "Interactive SQL lessons that teach by doing in the browser; each lesson ends with an exercise where you write the query. Unlike video courses you write queries instead of watching; it sits at a more basic level than PostgreSQL tutorials.",
-    "src": "dsbest"
+    "src": "dsbest",
+    "vs": [
+      {
+        "u": "https://neon.com/postgresql/tutorial",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://sqlite.org/",
@@ -317,7 +346,8 @@
     "tags": [
       "açık-kaynak",
       "veritabanı",
-      "ücretsiz"
+      "ücretsiz",
+      "dokümantasyon"
     ],
     "tr": "Sunucusu olmayan, tek dosyada duran gömülü veritabanı; dünyada en çok dağıtılmış veritabanı motoru. PostgreSQL gibi sunucu veritabanlarından farkı ayrı bir süreç ve kurulum istememesi; test kapsamı efsanevi.",
     "en": "A serverless embedded database living in a single file — the most widely deployed database engine in the world. Unlike server databases such as PostgreSQL it needs no separate process or setup; its test coverage is legendary.",
@@ -330,7 +360,8 @@
       "veritabanı",
       "interaktif",
       "ücretsiz",
-      "öğretici"
+      "öğretici",
+      "tarayıcı-içi"
     ],
     "tr": "SQL’i doğrudan tarayıcıda sorgu yazdırarak öğreten alıştırma seti; her bölüm bir veri kümesi üzerinde. Kurulum gerektiren öğreticilerden farkı bu — ilk `SELECT`’ini yazmak için veritabanı kurmak gerekmiyor.",
     "en": "An exercise set that teaches SQL by making you write queries in the browser, each section over its own dataset. That is the difference from tutorials needing an install: your first `SELECT` requires no database.",
@@ -347,7 +378,13 @@
     ],
     "tr": "Postgres üstüne kimlik doğrulama, API ve depolama ekleyen açık kaynak Firebase alternatifi. Firebase’den farkı ilişkisel Postgres üstünde durması ve kendini barındırabilmen.",
     "en": "An open-source Firebase alternative adding auth, APIs and storage on top of Postgres. Unlike Firebase it stands on relational Postgres and can be self-hosted.",
-    "src": "kedi"
+    "src": "kedi",
+    "vs": [
+      {
+        "u": "https://firebase.google.com/docs",
+        "a": "lisans"
+      }
+    ]
   },
   {
     "url": "https://surrealdb.com",
@@ -368,11 +405,18 @@
     "tags": [
       "veritabanı",
       "açık-kaynak",
-      "ücretsiz"
+      "ücretsiz",
+      "sunucu"
     ],
     "tr": "SQLite çatallaması libSQL üzerine kurulu veritabanı platformu; veritabanını kullanıcının yakınındaki uç düğümlere kopyalıyor. Planetscale gibi merkezî hizmetlerden farkı, okuma gecikmesini ağ mesafesi yerine yerel dosya erişimine indirmesi.",
     "en": "A database platform built on libSQL, a SQLite fork, that replicates the database to edge nodes near the user. Unlike centralised services such as PlanetScale, read latency becomes local file access rather than a network round trip.",
-    "src": "cdcruz"
+    "src": "cdcruz",
+    "vs": [
+      {
+        "u": "https://planetscale.com",
+        "a": "barindirma"
+      }
+    ]
   },
   {
     "url": "https://use-the-index-luke.com",
@@ -398,6 +442,12 @@
     "tr": "İndeks yapıları, işlem yalıtım seviyeleri ve kilitlenme gibi iç mekanizmaları anlatan kurs. Ürün öğreticisi değil; hangi veritabanını kullanırsan kullan geçerli.",
     "en": "A course on internals — index structures, transaction isolation levels, locking. Not a product tutorial; it holds regardless of which database you use.",
     "src": "kedi",
-    "added": 1775474959
+    "added": 1775474959,
+    "vs": [
+      {
+        "u": "https://use-the-index-luke.com",
+        "a": "kapsam"
+      }
+    ]
   }
 ]

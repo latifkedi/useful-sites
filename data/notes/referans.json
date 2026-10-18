@@ -22,7 +22,13 @@
     ],
     "tr": "JavaScript’in en yaygın benimsenen üslup kılavuzu; ESLint yapılandırması olarak doğrudan kurulabiliyor ve her kural doğru ve yanlış örnek kodla gösterilmiş. Standard’dan farkı kuralları gerekçeleriyle anlatıp özelleştirmeye izin vermesi.",
     "en": "The most widely adopted JavaScript style guide, installable directly as an ESLint config, with every rule shown as good and bad example code. Unlike Standard it explains rules with their reasoning and lets you customise them.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://standardjs.com",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://cooervo.github.io/Algorithms-DataStructures-BigONotation/",
@@ -41,9 +47,9 @@
     "url": "https://developer.apple.com/design/human-interface-guidelines/",
     "name": "Apple Human Interface Guidelines",
     "tags": [
-      "referans",
+      "tasarım",
       "dokümantasyon",
-      "masaüstü",
+      "mobil",
       "ücretsiz"
     ],
     "tr": "Apple’ın tüm platformları için arayüz tasarım kuralları: dokunma hedefi boyutları, gezinme kalıpları, hareket ve tipografi. Material Design’dan farkı, öneri değil App Store incelemesinde fiilen uygulanan bir ölçüt olması.",
@@ -97,7 +103,13 @@
     ],
     "tr": "Terminalden `curl cheat.sh/komut` yazarak kopya kâğıdı çeken servis. tldr’den farkı kurulum gerektirmemesi ve programlama dili sorularını da yanıtlaması: tarayıcı açmadan, editörden çıkmadan.",
     "en": "Pulls a cheat sheet from the terminal with `curl cheat.sh/command`. Unlike tldr it needs no install and answers programming-language questions too — without opening a browser or leaving your editor.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://tldr.sh",
+        "a": "platform"
+      }
+    ]
   },
   {
     "url": "https://cheatography.com/",
@@ -109,7 +121,13 @@
     ],
     "tr": "Kullanıcıların hazırladığı kopya kâğıdı arşivi; her biri PDF olarak basılabiliyor. Tek konuya adanmış kopya kâğıtlarından farkı kapsamı — programlama dilinden klavye kısayoluna kadar aynı biçimde.",
     "en": "An archive of user-made cheat sheets, each printable as a PDF. Against single-subject cheat sheets the difference is coverage — everything from a programming language to an application’s shortcuts in the same format.",
-    "src": "awesome-uw"
+    "src": "awesome-uw",
+    "vs": [
+      {
+        "u": "https://www.cheat-sheets.org/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://choosealicense.com/appendix/",
@@ -117,7 +135,8 @@
     "tags": [
       "açık-kaynak",
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "kopya-kâğıdı"
     ],
     "tr": "Açık kaynak lisanslarını izin, koşul ve sınırlama sütunlarıyla tek tabloda karşılaştıran ek. Lisans metinlerini okumaktan farkı bu — patent hükmü var mı, aynı lisansla paylaşma zorunlu mu, satırdan görüyorsun.",
     "en": "An appendix comparing open-source licences in one table of permissions, conditions and limitations. Against reading licence texts you see it in a row — whether there is a patent clause, whether share-alike applies.",
@@ -130,19 +149,27 @@
       "açık-kaynak",
       "dokümantasyon",
       "self-hosted",
-      "ücretsiz"
+      "ücretsiz",
+      "çevrimdışı"
     ],
     "tr": "Yüzlerce teknolojinin resmî dokümanını tek arayüzde topluyor; çevrimdışı indirilebiliyor ve anlık arama sunuyor. Doküman sitelerini tek tek gezmekten farkı her şeyin aynı arama kutusunda olması.",
     "en": "Gathers official documentation for hundreds of technologies in one interface, downloadable offline with instant search. Unlike visiting doc sites one by one, everything sits behind the same search box.",
     "src": "kedi",
-    "added": 1787155963
+    "added": 1787155963,
+    "vs": [
+      {
+        "u": "https://devhints.io",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://devhints.io",
     "name": "Devhints",
     "tags": [
       "ücretsiz",
-      "kopya-kâğıdı"
+      "kopya-kâğıdı",
+      "referans"
     ],
     "tr": "Yüzlerce araç ve dil için tek sayfalık kopya kâğıdı arşivi. Resmî belgelerden farkı her birinin gerçekten tek ekrana sığacak şekilde budanmış olması.",
     "en": "An archive of one-page cheat sheets for hundreds of tools and languages. Unlike official docs, each is genuinely pruned to fit a single screen.",
@@ -194,7 +221,13 @@
     ],
     "tr": "Git’in temel akışını tek sayfada anlatan giriş; dal, birleştirme ve uzak depo kadarı var. Pro Git kitabından farkı kapsamlı olmaya çalışmaması — ilk gün için gereken minimum.",
     "en": "A one-page introduction to Git’s basic flow, going as far as branching, merging and remotes. Unlike the Pro Git book it makes no attempt at completeness — it is the minimum for day one.",
-    "src": "awesome-uw"
+    "src": "awesome-uw",
+    "vs": [
+      {
+        "u": "https://git-scm.com/book/tr/v2",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://gitsheet.wtf",
@@ -213,7 +246,8 @@
     "name": "Google C# Üslup Kılavuzu",
     "tags": [
       "ücretsiz",
-      "referans"
+      "referans",
+      "c-ailesi"
     ],
     "tr": "C# için adlandırma ve düzen kuralları; Microsoft’un kendi kılavuzuna göre daha kısa ve kesin.",
     "en": "Naming and layout rules for C#, shorter and more prescriptive than Microsoft’s own guide.",
@@ -236,7 +270,8 @@
     "name": "Google Java Üslup Kılavuzu",
     "tags": [
       "ücretsiz",
-      "referans"
+      "referans",
+      "jvm"
     ],
     "tr": "Java için biçimlendirme ve adlandırma kuralları. Oracle’ın eski Java kod kurallarından farkı güncel olması ve araçla uygulanabilmesi: google-java-format doğrudan bu belgeyi uyguluyor.",
     "en": "Formatting and naming rules for Java. Unlike Oracle’s old Java code conventions it is current and tool-enforced — google-java-format implements this document directly.",
@@ -271,7 +306,7 @@
     "tags": [
       "ücretsiz",
       "javascript",
-      "referans"
+      "araç"
     ],
     "tr": "Yapılandırma dosyası olmayan JavaScript biçimlendirici ve linter; tartışmayı bitirmek için tüm kararları kendisi veriyor. Airbnb kılavuzunun aksine özelleştirmeye kapalı.",
     "en": "A JavaScript formatter and linter with no configuration file — it makes every decision for you to end the argument. Unlike the Airbnb guide, it is closed to customisation.",
@@ -283,7 +318,8 @@
     "tags": [
       "referans",
       "ücretsiz",
-      "frontend"
+      "frontend",
+      "tasarım"
     ],
     "tr": "Fitts, Hick, Jakob gibi arayüz tasarımını yöneten psikoloji yasalarının kısa ve görsel derlemesi. Akademik kaynaklardan farkı her yasayı tek ekranda örnekle anlatması — tasarım tartışmasında ortak dil kurmak için.",
     "en": "A short, visual collection of the psychological laws that govern interface design — Fitts, Hick, Jakob and the rest. Unlike the academic sources, each law fits on one screen with an example, which makes it a shared vocabulary for design arguments.",
@@ -294,12 +330,19 @@
     "name": "Learn X in Y Minutes",
     "tags": [
       "ücretsiz",
-      "kopya-kâğıdı"
+      "kopya-kâğıdı",
+      "öğretici"
     ],
     "tr": "Bir dili tek yorumlu kod dosyasıyla tanıtıyor. Başka dil bilenler için hızlı bir geçiş yolu: kavramları değil yalnızca sözdizimi farklarını okuyorsun.",
     "en": "Introduces a language through a single annotated file. A quick crossover if you already know another language — you read only the syntax differences, not the concepts.",
     "src": "kedi",
-    "added": 1787182770
+    "added": 1787182770,
+    "vs": [
+      {
+        "u": "https://devhints.io",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.markdownguide.org/",
@@ -335,18 +378,31 @@
     ],
     "tr": "Git’te bir şeyi bozduğunda nasıl geri alacağını anlatan kısa rehber; her başlık gerçek bir panik anıyla açılıyor. Resmî belgelerden farkı komuttan değil durumdan başlaması — \"yanlış dala commit attım\" diye arıyorsun, `reflog` diye değil.",
     "en": "A short guide to undoing whatever you just broke in Git, each entry opening on a real moment of panic. Against the official docs it starts from the situation rather than the command — you search \"committed to the wrong branch\", not `reflog`.",
-    "src": "awesome-uw"
+    "src": "awesome-uw",
+    "vs": [
+      {
+        "u": "https://git-scm.com/book/tr/v2",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://overapi.com",
     "name": "OverAPI",
     "tags": [
       "ücretsiz",
-      "kopya-kâğıdı"
+      "kopya-kâğıdı",
+      "referans"
     ],
     "tr": "Dil ve çatı kopya kâğıtlarını tek sayfada toplayan dizin. Devhints’e kıyasla görsel olarak daha yoğun ama aradığın komutu hızlı buluyorsun; her madde resmî belgeye bağlanıyor.",
     "en": "A directory gathering language and framework cheat sheets on one page. Compared with Devhints it is visually denser, but you find a command fast, and each item links to the official docs.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://devhints.io",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://en.wikipedia.org/wiki/Portal:Computer_programming",
@@ -378,12 +434,18 @@
     "name": "Public License Selector",
     "tags": [
       "açık-kaynak",
-      "referans",
+      "araç",
       "ücretsiz"
     ],
     "tr": "Sorulara verdiğin cevaplara göre uygun lisansı öneren araç; yazılım, veri ve içerik için ayrı akışlar var. choosealicense.com’dan farkı veri kümesi ve içerik lisanslarını da kapsaması — CC lisansları arasında seçim yapmak için.",
     "en": "Recommends a licence from your answers to a series of questions, with separate flows for software, data and content. Against choosealicense.com it also covers datasets and content, which is what you need when choosing among the CC licences.",
-    "src": "awesome-uw"
+    "src": "awesome-uw",
+    "vs": [
+      {
+        "u": "https://choosealicense.com/appendix/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.pythoncheatsheet.org/",
@@ -415,7 +477,8 @@
     "name": "QuickRef",
     "tags": [
       "ücretsiz",
-      "kopya-kâğıdı"
+      "kopya-kâğıdı",
+      "referans"
     ],
     "tr": "Dil ve araçlar için tek sayfalık başvuru kâğıtları; sık kullanılanı öne alıyor. Tam dokümantasyonda aramak yerine en yaygın durumu tek bakışta görüyorsun.",
     "en": "One-page cheat sheets for languages and tools, surfacing the common cases. Instead of searching full documentation, you see the usual case at a glance.",
@@ -545,5 +608,81 @@
     "tr": "x86 komut kümesinin aranabilir referansı; her komut için kodlama, bayraklar ve sözde kod. Intel’in PDF kılavuzlarından farkı hızlı olması — bir komutu doğrulamak için 5000 sayfalık PDF açmıyorsun.",
     "en": "A searchable reference for the x86 instruction set with encoding, flags and pseudocode per instruction. Against Intel’s PDF manuals it is simply fast — you no longer open a 5,000-page document to check one opcode.",
     "src": "awesome-uw"
+  },
+  {
+    "url": "https://sozluk.gov.tr/",
+    "name": "TDK Güncel Türkçe Sözlük",
+    "tags": [
+      "referans",
+      "türkçe",
+      "hesap-gerekmez",
+      "ücretsiz"
+    ],
+    "tr": "Türk Dil Kurumu’nun sözlükleri tek arama kutusunda: Güncel Türkçe Sözlük, Yazım Kılavuzu, atasözleri ve terim sözlükleri. Tureng gibi iki dilli sözlüklerden farkı tek dilli ve kuralcı olması; bir kelimenin nasıl yazılacağına bakılan yer.",
+    "en": "The Turkish Language Association’s dictionaries behind one search box: the current Turkish dictionary, the spelling guide, proverbs and terminology dictionaries. Unlike bilingual dictionaries such as Tureng it is monolingual and normative, the place to check how a word is spelt.",
+    "src": "bosluk",
+    "added": 1792281600
+  },
+  {
+    "url": "https://tureng.com/",
+    "name": "Tureng",
+    "tags": [
+      "referans",
+      "türkçe",
+      "ücretsiz"
+    ],
+    "tr": "Türkçe–İngilizce çevrimiçi sözlük; karşılıkları bilgisayar, hukuk, tıp gibi alanlara göre ayırıyor ve telaffuz veriyor. TDK sözlüğünden farkı iki dilli ve terim odaklı olması; teknik bir İngilizce kelimenin alandaki Türkçe karşılığını bulmanın hızlı yolu.",
+    "en": "A Turkish–English online dictionary that groups translations by field (computing, law, medicine and so on) and gives pronunciations. Unlike the TDK dictionary it is bilingual and term-oriented, a quick way to find the Turkish equivalent a field uses for a technical English word.",
+    "src": "bosluk",
+    "added": 1792281600,
+    "vs": [
+      {
+        "u": "https://sozluk.gov.tr/",
+        "a": "kapsam"
+      }
+    ]
+  },
+  {
+    "url": "https://detexify.kirelabs.org/classify.html",
+    "name": "Detexify",
+    "tags": [
+      "referans",
+      "tarayıcı-içi",
+      "hesap-gerekmez",
+      "ücretsiz"
+    ],
+    "tr": "Aradığın sembolü fareyle çiziyorsun, karşılık gelen LaTeX komutunu ve gereken paketi söylüyor. Sembol tablolarını taramaktan farkı adını bilmediğin bir işareti şeklinden bulabilmen.",
+    "en": "Draw the symbol you want with the mouse and it returns the matching LaTeX command and the package it needs. Unlike scanning a symbol table, it finds a sign from its shape when you do not know its name.",
+    "src": "bosluk",
+    "added": 1792281600
+  },
+  {
+    "url": "https://ctan.org/",
+    "name": "CTAN",
+    "tags": [
+      "referans",
+      "dokümantasyon",
+      "akademik",
+      "ücretsiz"
+    ],
+    "tr": "TeX ve LaTeX paketlerinin merkezî arşivi: her paketin belgeleri, sürümü, lisansı ve bakım durumu tek sayfada. Forum yanıtlarından farkı bir paketin asıl kılavuzuna (çoğu zaman PDF) ve TeX Live’a giren hâline buradan ulaşman.",
+    "en": "The central archive of TeX and LaTeX packages: each package’s documentation, version, licence and maintenance status on one page. Unlike forum answers it takes you to a package’s own manual (usually a PDF) and the version that ships in TeX Live.",
+    "src": "bosluk",
+    "added": 1792281600
+  },
+  {
+    "url": "https://ihateregex.io/",
+    "name": "iHateRegex",
+    "tags": [
+      "kopya-kâğıdı",
+      "referans",
+      "tarayıcı-içi",
+      "ücretsiz",
+      "açık-kaynak"
+    ],
+    "tr": "E-posta, telefon, tarih, IP adresi gibi sık ihtiyaç duyulan düzenli ifadelerin kataloğu; her biri diyagram, açıklama ve deneme alanıyla geliyor. Test araçlarından farkı ifadeyi sıfırdan yazdırmak yerine hazır ve açıklanmış bir kalıp vermesi.",
+    "en": "A catalogue of commonly needed regular expressions (email, phone, dates, IP addresses), each with a diagram, an explanation and a place to try it. Unlike tester tools it hands you a ready, explained pattern instead of making you write one from scratch.",
+    "src": "bosluk",
+    "added": 1792281600
   }
 ]

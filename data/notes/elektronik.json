@@ -34,7 +34,13 @@
     ],
     "tr": "Elektrik ve elektroniği temelden anlatan ücretsiz ders, hesaplayıcı ve forum. Dağınık videolardan farkı DC’den sayısal tasarıma sıralı, ders kitabı düzeninde ilerlemesi.",
     "en": "Free lessons, calculators and a forum teaching electrical and electronics from the ground up. Unlike scattered videos it progresses in textbook order from DC to digital design.",
-    "src": "kedi"
+    "src": "kedi",
+    "vs": [
+      {
+        "u": "https://www.electronics-tutorials.ws",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://github.com/adafruit/awesome-circuitpython",
@@ -144,25 +150,39 @@
     ],
     "tr": "Adım adım IoT ve gömülü sistem projelerinin paylaşıldığı donanım topluluğu. Hackaday’in haber odağından farkı burada projelerin tam yapım talimatlarıyla barındırılması.",
     "en": "A hardware community sharing step-by-step IoT and embedded projects. Unlike Hackaday’s news focus, projects here are hosted with full build instructions.",
-    "src": "kedi"
+    "src": "kedi",
+    "vs": [
+      {
+        "u": "https://hackaday.com",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://jlcpcb.com",
     "name": "JLCPCB",
     "tags": [
       "donanım",
-      "ücretli"
+      "ücretli",
+      "cad"
     ],
     "tr": "Düşük maliyetli, küçük partili PCB üretimi ve montaj hizmeti. PCBWay’e kıyasla fiyat odaklı ve EasyEDA ile sıkı entegre; karşılığında özel süreç ve malzeme seçenekleri daha dar.",
     "en": "Low-cost, small-batch PCB fabrication and assembly. Compared with PCBWay it is price-focused and tightly integrated with EasyEDA; in exchange its custom-process and material options are narrower.",
-    "src": "kedi"
+    "src": "kedi",
+    "vs": [
+      {
+        "u": "https://www.pcbway.com",
+        "a": "fiyat"
+      }
+    ]
   },
   {
     "url": "https://www.pcbway.com",
     "name": "PCBWay",
     "tags": [
       "donanım",
-      "ücretli"
+      "ücretli",
+      "cad"
     ],
     "tr": "PCB prototipleme ve üretiminin yanında proje paylaşım topluluğu sunuyor. JLCPCB’ye kıyasla özel süreçler, malzeme çeşidi ve CNC/3B baskı gibi ek hizmetlerde daha geniş.",
     "en": "PCB prototyping and fabrication alongside a project-sharing community. Compared with JLCPCB it is broader on custom processes, material choice and extra services such as CNC and 3D printing.",
@@ -221,6 +241,12 @@
     ],
     "tr": "Tarayıcıda 3B tasarım ve devre/Arduino benzetimi; yeni başlayanlar için elektronik oyun alanı. Gerçek donanımdan farkı yakıp bozma riski olmadan devre kurup Arduino kodunu benzetimde çalıştırabilmen.",
     "en": "Browser 3D design plus circuit and Arduino simulation — an electronics playground for beginners. Unlike real hardware you can build a circuit and run Arduino code in simulation with no risk of frying anything.",
-    "src": "kedi"
+    "src": "kedi",
+    "vs": [
+      {
+        "u": "https://wokwi.com/",
+        "a": "kapsam"
+      }
+    ]
   }
 ]

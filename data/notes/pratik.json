@@ -17,19 +17,29 @@
     "name": "Advent of Code",
     "tags": [
       "ücretsiz",
-      "interaktif"
+      "interaktif",
+      "algoritma",
+      "orta"
     ],
     "tr": "Her aralık ayında günde bir bulmaca; arşiv yıl boyu açık. Diğer bulmaca sitelerinden farkı herkesin aynı anda çözmesi: o hafta tartışma ve çözüm karşılaştırması çok zengin oluyor.",
     "en": "One puzzle a day each December, with the archive open year round. Unlike other puzzle sites everyone solves in sync, so the discussion and solution comparisons that week are unusually rich.",
     "src": "kedi",
-    "added": 1775420463
+    "added": 1775420463,
+    "vs": [
+      {
+        "u": "https://projecteuler.net/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://github.com/sherxon/AlgoDS",
     "name": "AlgoDS",
     "tags": [
       "algoritma",
-      "ücretsiz"
+      "ücretsiz",
+      "jvm",
+      "orta"
     ],
     "tr": "Algoritma ve veri yapılarının Java uygulamaları. Ders kitaplarındaki sözde koddan farkı her birinin okunabilir biçimde yazılmış, testleriyle çalışan gerçek kod olması.",
     "en": "Java implementations of algorithms and data structures. Unlike textbook pseudocode, each is real, readable, working code with its tests.",
@@ -41,19 +51,28 @@
     "tags": [
       "ücretli",
       "mülakat",
-      "video"
+      "video",
+      "orta"
     ],
     "tr": "Elenmiş bir soru seti ve her soru için video çözüm. Ücretli olmasının karşılığı, LeetCode’un binlerce sorusu içinde kaybolmadan sınırlı bir yolu bitirebilmen.",
     "en": "A curated problem set with a video walkthrough for each. What the price buys is finishing a bounded path instead of getting lost among LeetCode’s thousands.",
     "src": "kedi",
-    "added": 1783081264
+    "added": 1783081264,
+    "vs": [
+      {
+        "u": "https://leetcode.com/",
+        "a": "fiyat"
+      }
+    ]
   },
   {
     "url": "https://www.hiredintech.com/algorithm-design",
     "name": "Algorithm Design Canvas",
     "tags": [
       "ücretsiz",
-      "mülakat"
+      "mülakat",
+      "algoritma",
+      "orta"
     ],
     "tr": "Mülakatta algoritma problemine yaklaşmak için adımlı bir çerçeve: kısıtlar, örnekler, kaba kuvvet, iyileştirme, test. Panik yerine yöntem sunuyor.",
     "en": "A stepwise framework for approaching an interview algorithm problem — constraints, examples, brute force, optimise, test. Method instead of panic.",
@@ -64,11 +83,19 @@
     "name": "AtCoder",
     "tags": [
       "ücretsiz",
-      "algoritma"
+      "algoritma",
+      "interaktif",
+      "orta"
     ],
     "tr": "Japonya merkezli yarışma platformu; başlangıç seviyesi turnuvaları (ABC) yeni başlayanlar için Codeforces’tan daha ulaşılabilir.",
     "en": "A Japan-based contest platform whose beginner rounds (ABC) are more approachable for newcomers than Codeforces.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://codeforces.com",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://github.com/joho/awesome-code-review",
@@ -87,11 +114,19 @@
     "name": "Beecrowd",
     "tags": [
       "ücretsiz",
-      "algoritma"
+      "algoritma",
+      "interaktif",
+      "orta"
     ],
     "tr": "Programlama, matematik ve SQL problemlerini çözüp otomatik değerlendiren yargıç (online judge); eski adı URI Online Judge. LeetCode’dan farkı mülakat değil öğrenme odaklı olması ve başlangıç seviyesi problemlerinin bolluğu.",
     "en": "An online judge grading programming, mathematics and SQL problems automatically, formerly URI Online Judge. Unlike LeetCode it is learning- rather than interview-oriented, with plenty of beginner problems.",
-    "src": "awesomeproj"
+    "src": "awesomeproj",
+    "vs": [
+      {
+        "u": "https://leetcode.com/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://bigocheatsheet.com/#",
@@ -100,7 +135,8 @@
       "ücretsiz",
       "kopya-kâğıdı",
       "algoritma",
-      "mülakat"
+      "mülakat",
+      "orta"
     ],
     "tr": "Veri yapıları ve sıralama algoritmalarının zaman ve alan karmaşıklıklarını tek tabloda renk kodlu gösteriyor. Ders kitabından farkı her şeyin tek bakışta görülmesi: mülakat öncesi son bakış için.",
     "en": "A single colour-coded table of time and space complexity for data structures and sorting algorithms. Unlike a textbook it shows everything at a glance — the last look before an interview.",
@@ -111,7 +147,9 @@
     "name": "Big-O Yanılgıları",
     "tags": [
       "ücretsiz",
-      "algoritma"
+      "algoritma",
+      "referans",
+      "orta"
     ],
     "tr": "Büyük-O gösterimi üzerine yaygın yanlış anlamaları düzelten yazı. Standart anlatımlardan farkı, en kötü durum ile ortalama durumun karıştırılması gibi ince hataları doğrudan hedef alması.",
     "en": "A piece correcting common misunderstandings of big-O notation. Unlike standard explanations, it targets subtle errors directly, such as conflating worst case with average case.",
@@ -122,7 +160,9 @@
     "name": "Bit İşlemleri Numaraları",
     "tags": [
       "ücretsiz",
-      "algoritma"
+      "algoritma",
+      "referans",
+      "orta"
     ],
     "tr": "Bit düzeyinde sık kullanılan numaraların derlemesi; düşük seviye optimizasyon ve mülakat sorularında karşına çıkan kalıplar.",
     "en": "A collection of common bit-level tricks — the patterns that turn up in low-level optimisation and interview questions.",
@@ -134,7 +174,8 @@
     "tags": [
       "ücretsiz",
       "interaktif",
-      "tarayıcı-içi"
+      "tarayıcı-içi",
+      "başlangıç"
     ],
     "tr": "15+ dilde tarayıcı içi dersler. Yerel kurulum yerine her şey tarayıcıda çalıştığı için kurulum aşamasında pes eden yeni başlayanların önündeki gerçek bir engeli kaldırıyor.",
     "en": "In-browser lessons across 15+ languages. Because everything runs in the browser instead of a local setup, it removes the barrier that stops beginners at installation.",
@@ -146,7 +187,8 @@
     "name": "Code Golf (Stack Exchange)",
     "tags": [
       "interaktif",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Bir problemi mümkün olan en kısa kodla çözme yarışması topluluğu. Algoritma sitelerinden farkı ölçütün hız ya da doğruluk değil kod uzunluğu olması; dillerin ne kadar esnetilebileceğini gösteriyor.",
     "en": "A community contest to solve a problem in the shortest possible code. Unlike algorithm sites the measure is code length rather than speed or correctness — it shows how far languages can be bent.",
@@ -157,7 +199,8 @@
     "name": "CodeAbbey",
     "tags": [
       "ücretsiz",
-      "interaktif"
+      "interaktif",
+      "başlangıç"
     ],
     "tr": "En kolaydan başlayıp kademeli zorlaşan problem dizisi; mutlak sıfırdan başlayanlar için yarışma platformlarından çok daha nazik bir eğri.",
     "en": "A problem sequence starting at the very easiest and climbing gradually — a far gentler curve than the contest platforms for absolute beginners.",
@@ -168,29 +211,47 @@
     "name": "CodeChef",
     "tags": [
       "freemium",
-      "algoritma"
+      "algoritma",
+      "interaktif",
+      "orta"
     ],
     "tr": "Düzenli yarışmalar düzenleyen algoritma platformu; sorular zorluk seviyesine göre etiketli ve editöryal çözümleri yayımlanıyor. Codeforces’tan farkı başlangıç seviyesine yönelik öğrenme yolları ve pratik bölümleri sunması.",
     "en": "A competitive algorithm platform with regular contests, difficulty-tagged problems and published editorial solutions. Unlike Codeforces, it offers learning paths and practice sections aimed at beginners.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://codeforces.com",
+        "a": "rehberlik"
+      }
+    ]
   },
   {
     "url": "https://codeforces.com",
     "name": "Codeforces",
     "tags": [
       "ücretsiz",
-      "algoritma"
+      "algoritma",
+      "interaktif",
+      "ileri"
     ],
     "tr": "Yarışmacı programlamanın en yoğun platformu; düzenli turnuvalar ve derecelendirme sistemi. Sorular LeetCode’dan zor ve matematik ağırlığı yüksek.",
     "en": "The busiest competitive programming platform, with regular rounds and a rating system. Problems run harder than LeetCode and lean heavily mathematical.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://leetcode.com/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://codegym.cc/",
     "name": "CodeGym",
     "tags": [
       "ücretsiz",
-      "öğretici"
+      "öğretici",
+      "jvm",
+      "başlangıç"
     ],
     "tr": "1200 pratik görevle Java öğreten, uygulama ağırlıklı kurs; her çözüm otomatik denetleniyor. Video kurslardan farkı teoriden çok görev: konuyu kod yazarak ilerletiyorsun.",
     "en": "A practice-heavy course teaching Java through 1,200 hands-on tasks, with every solution checked automatically. Unlike video courses, it is tasks rather than theory: you advance by writing code.",
@@ -201,7 +262,9 @@
     "name": "CodePen Challenges",
     "tags": [
       "frontend",
-      "ücretsiz"
+      "ücretsiz",
+      "interaktif",
+      "orta"
     ],
     "tr": "Gömülü editörle ön yüz (HTML/CSS/JS) meydan okumaları; her dönem yeni bir tema veriliyor. Algoritma sitelerinden farkı sonucun görsel olması: doğru cevap değil, yaratıcı bir çözüm aranıyor.",
     "en": "Front-end (HTML/CSS/JS) challenges with an embedded editor, each round on a new theme. Unlike algorithm sites the result is visual: there is no single right answer, just creative solutions.",
@@ -212,11 +275,19 @@
     "name": "Coderbyte",
     "tags": [
       "freemium",
-      "mülakat"
+      "mülakat",
+      "interaktif",
+      "orta"
     ],
     "tr": "Mülakat sorusu havuzu ve değerlendirme aracı. LeetCode’dan farkı çözümlerin video anlatımı ve şirketlerin aday değerlendirmesinde kullandığı sınav aracını da barındırması.",
     "en": "An interview problem bank and assessment tool. Unlike LeetCode it offers video explanations of solutions and also hosts the assessment tool companies use to screen candidates.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://leetcode.com/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://app.codesignal.com",
@@ -224,7 +295,8 @@
     "tags": [
       "mülakat",
       "freemium",
-      "algoritma"
+      "algoritma",
+      "orta"
     ],
     "tr": "Beceri değerlendirmesi ve mülakat platformu; standartlaştırılmış bir puan üretiyor ve bu puanı birden çok şirkete gönderebiliyorsun. Her şirkete ayrı sınav girmekten farkı bu tek seferlik değerlendirme.",
     "en": "A skills assessment and interview platform that produces a standardised score you can send to several companies. The single assessment is the difference from sitting a separate test for every employer.",
@@ -235,12 +307,19 @@
     "name": "Codewars",
     "tags": [
       "ücretsiz",
-      "interaktif"
+      "interaktif",
+      "orta"
     ],
     "tr": "Dövüş sanatı derecelendirmesiyle oyunlaştırılmış alıştırmalar. LeetCode’dan farkı asıl öğrenmenin çözümden sonra gelmesi: aynı soruya başkalarının yazdığı çözümleri okuyup oyluyorsun.",
     "en": "Practice gamified with martial-arts ranks. Unlike LeetCode the learning happens after you solve — you read and vote on what everyone else wrote for the same problem.",
     "src": "kedi",
-    "added": 1772624252
+    "added": 1772624252,
+    "vs": [
+      {
+        "u": "https://leetcode.com/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://app.codility.com/programmers/",
@@ -248,7 +327,8 @@
     "tags": [
       "mülakat",
       "ücretli",
-      "algoritma"
+      "algoritma",
+      "orta"
     ],
     "tr": "Şirketlerin teknik eleme için kullandığı değerlendirme platformu; adaylar için açık alıştırma bölümü var. Diğer soru sitelerinden farkı gerçek eleme sorularının biçimini birebir taşıması — sınavdan önce sınav ortamını görüyorsun.",
     "en": "The assessment platform companies use for technical screening, with a practice section open to candidates. Its difference from other problem sites is that it mirrors the format of real screening tests — you see the exam environment before the exam.",
@@ -259,7 +339,8 @@
     "name": "CodinGame",
     "tags": [
       "ücretsiz",
-      "interaktif"
+      "interaktif",
+      "orta"
     ],
     "tr": "Programlama bulmacalarını oyun temasıyla, kodun sonucunu bir oyun sahnesinde göstererek çözdüren platform. Kuru problem setlerinden farkı çözümünü görsel olarak canlandırması.",
     "en": "A platform that has you solve programming puzzles with a game theme, showing your code’s result in a game scene. Unlike dry problem sets it animates your solution visually.",
@@ -271,7 +352,8 @@
     "tags": [
       "freemium",
       "öğretici",
-      "interaktif"
+      "interaktif",
+      "başlangıç"
     ],
     "tr": "Rol yapma oyunu temalı öğrenme; deneyim puanı ve harita ilerlemesiyle motivasyonu ayakta tutuyor. Ciddi tonlu kurslardan farkı bu oyun teması; tamamen yeni başlayanlar için tasarlanmış, ileri seviyeye çıkmıyor.",
     "en": "RPG-themed learning that sustains motivation with XP and map progress. Unlike serious-toned courses it leans on the game theme; built for complete beginners, it does not carry you to advanced.",
@@ -284,7 +366,8 @@
     "tags": [
       "kitap",
       "algoritma",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Yarışmacı programlama için ücretsiz el kitabı; temel algoritmalardan ileri tekniklere. Akademik algoritma kitaplarından farkı yarışma odaklı olması — ispat değil, uygulanabilir şablon veriyor.",
     "en": "A free handbook for competitive programming, from basic algorithms to advanced techniques. Against academic algorithm books it is contest-oriented: it hands you an implementable template rather than a proof.",
@@ -296,7 +379,8 @@
     "tags": [
       "ücretsiz",
       "interaktif",
-      "güvenlik"
+      "güvenlik",
+      "orta"
     ],
     "tr": "Kriptografiyi kırarak öğreten platform; her seviye gerçek bir zafiyeti sömürdürüyor. Teorik kriptografi dersinden farkı saldırgan gözüyle öğretmesi — onun uygulamalı karşılığı.",
     "en": "Teaches cryptography by breaking it, with each level exploiting a real weakness. Unlike a theory course it teaches from the attacker’s side — the applied counterpart.",
@@ -308,19 +392,28 @@
     "tags": [
       "ücretsiz",
       "interaktif",
-      "algoritma"
+      "algoritma",
+      "orta"
     ],
     "tr": "Georgia Tech’in veri yapıları dersi için hazırlanmış görselleştirme aracı. VisuAlgo’dan dar kapsamlı ama bir müfredata birebir oturuyor.",
     "en": "A visualisation tool built for Georgia Tech’s data structures course — narrower than VisuAlgo but aligned exactly to a syllabus.",
     "src": "kedi",
-    "added": 1776689805
+    "added": 1776689805,
+    "vs": [
+      {
+        "u": "https://visualgo.net/en",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.dailycodingproblem.com/",
     "name": "Daily Coding Problem",
     "tags": [
       "mülakat",
-      "freemium"
+      "freemium",
+      "algoritma",
+      "orta"
     ],
     "tr": "Her gün e-postayla bir kodlama mülakat sorusu gönderen servis. Soru platformlarından farkı gelen kutusuna düşmesi: amaç alışkanlık kurdurmak; ayrıntılı çözümler ücretli.",
     "en": "A service that emails one coding-interview problem every day. Unlike problem platforms it lands in your inbox — the point is building a habit; detailed solutions are paid.",
@@ -332,7 +425,9 @@
     "tags": [
       "freemium",
       "veritabanı",
-      "mülakat"
+      "mülakat",
+      "orta",
+      "tarayıcı-içi"
     ],
     "tr": "SQL ve veri bilimi mülakat soruları; tarayıcıda gerçek sorgu çalıştırıp doğruluyorsun. Genel algoritma platformlarından farkı onların boş bıraktığı veri mülakatlarına odaklanması.",
     "en": "SQL and data science interview questions with real queries run and checked in the browser. Unlike general algorithm platforms, it focuses on the data interviews they leave uncovered.",
@@ -344,7 +439,9 @@
     "name": "devChallenges.io",
     "tags": [
       "frontend",
-      "ücretsiz"
+      "ücretsiz",
+      "interaktif",
+      "orta"
     ],
     "tr": "Gerçekçi tasarım ve gereksinimlerle web projeleri kurduran meydan okuma sitesi. Rastgele projelerden farkı çözümleri topluluğun değerlendirmesi.",
     "en": "A challenge site that has you build web projects with realistic designs and requirements. Unlike random projects the community reviews the solutions.",
@@ -355,12 +452,19 @@
     "name": "Edabit",
     "tags": [
       "freemium",
-      "interaktif"
+      "interaktif",
+      "orta"
     ],
     "tr": "Küçük ve hızlı bulmacalar; algoritma teorisi değil dil akıcılığı hedefliyor. Yeni bir dile geçerken sözdizimini oturtmak için LeetCode’dan uygun.",
     "en": "Small, fast puzzles targeting language fluency rather than algorithm theory — better than LeetCode for settling syntax when you move to a new language.",
     "src": "kedi",
-    "added": 1719500788
+    "added": 1719500788,
+    "vs": [
+      {
+        "u": "https://leetcode.com/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://exercism.org/",
@@ -368,7 +472,8 @@
     "tags": [
       "ücretsiz",
       "açık-kaynak",
-      "interaktif"
+      "interaktif",
+      "orta"
     ],
     "tr": "70’ten fazla dilde alıştırma temelli programlama pratiği; çözümüne gönüllü mentorlar yorum yazıyor. LeetCode gibi sitelerden farkı hız ya da mülakat değil, dilin deyimsel kullanımını öğretmesi.",
     "en": "Exercise-based practice in 70+ languages, with volunteer mentors commenting on your solution. Unlike LeetCode-style sites, the goal is idiomatic use of the language, not speed or interviews.",
@@ -387,7 +492,8 @@
     "tags": [
       "açık-kaynak",
       "interaktif",
-      "ücretsiz"
+      "ücretsiz",
+      "referans"
     ],
     "tr": "Exercism alıştırmalarının dilden bağımsız tanımları ve test verileri. Exercism sitesinden farkı çözüm ortamı değil ham malzeme olması: kendi dilinde alıştırma seti kurmak isteyenler için.",
     "en": "Language-independent definitions and test data for Exercism’s exercises. Unlike the Exercism site it is raw material rather than a practice environment — for building a practice set in your own language.",
@@ -400,11 +506,19 @@
     "tags": [
       "ücretsiz",
       "interaktif",
-      "müfredat"
+      "müfredat",
+      "başlangıç",
+      "tarayıcı-içi"
     ],
     "tr": "Tarayıcı içinde alıştırmalı, uçtan uca ücretsiz müfredat; sertifikaları da ücretsiz. Bitirme projeleri gerçek uygulama yazdırdığı için sadece alıştırmada kalmıyor.",
     "en": "A complete free curriculum with in-browser exercises and free certificates. Its capstone projects make you build real applications rather than stopping at drills.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://www.theodinproject.com/",
+        "a": "platform"
+      }
+    ]
   },
   {
     "url": "https://www.geeksforgeeks.org",
@@ -412,7 +526,8 @@
     "tags": [
       "referans",
       "ücretsiz",
-      "algoritma"
+      "algoritma",
+      "orta"
     ],
     "tr": "Algoritma, veri yapısı ve mülakat sorularının çok geniş yazı arşivi. Tek konulu sitelerden farkı neredeyse her CS konusuna çözümlü örnek bulundurması.",
     "en": "A very broad article archive of algorithms, data structures and interview questions. Unlike single-topic sites it has a worked example for almost every CS topic.",
@@ -424,7 +539,8 @@
     "tags": [
       "ücretsiz",
       "git",
-      "interaktif"
+      "interaktif",
+      "başlangıç"
     ],
     "tr": "Git komutlarını güvenli bir ortamda deneyip anında geri bildirim alıyorsun. Gerçek bir depoda denemek yerine burada hata yapma korkusu olmadan pratik yapıyorsun.",
     "en": "Run Git commands in a safe environment with immediate feedback. Rather than experimenting on a real repository, you practise here without the fear of breaking anything.",
@@ -436,7 +552,9 @@
     "name": "Google Interview Warmup",
     "tags": [
       "mülakat",
-      "ücretsiz"
+      "ücretsiz",
+      "interaktif",
+      "orta"
     ],
     "tr": "Mülakat sorularına sesli yanıt verip yapay zekâ geri bildirimi aldığın pratik aracı. Kodlama mülakatı sitelerinden farkı davranışsal ve alan sorularına odaklanması; yanıtında geçen anahtar terimleri işaretliyor.",
     "en": "A practice tool where you answer interview questions aloud and get AI feedback. Unlike coding-interview sites, it focuses on behavioural and role questions, highlighting the key terms in your answer.",
@@ -448,11 +566,18 @@
     "tags": [
       "freemium",
       "algoritma",
-      "mülakat"
+      "mülakat",
+      "orta"
     ],
     "tr": "Yarışma ve işe alım değerlendirmesini birleştiren platform; şirketler teknik ön elemeyi burada yapıyor. HackerRank’ten farkı hackathon düzenleme tarafının güçlü olması.",
     "en": "Combines contests with hiring assessments — companies run technical screening here. Unlike HackerRank, it is strong on hosting hackathons.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://www.hackerrank.com/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.hackerrank.com/",
@@ -460,12 +585,19 @@
     "tags": [
       "freemium",
       "mülakat",
-      "sertifika"
+      "sertifika",
+      "orta"
     ],
     "tr": "Alıştırma ve işe alım sınavı aynı platformda. LeetCode’dan farkı şirketlerin teknik testleri gerçekten burada uygulaması: sınav ortamını önceden tanımış oluyorsun.",
     "en": "Practice and hiring assessments on one platform. Unlike LeetCode, companies genuinely run their technical tests here, so you get to know the exam environment in advance.",
     "src": "kedi",
-    "added": 1772624319
+    "added": 1772624319,
+    "vs": [
+      {
+        "u": "https://leetcode.com/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.hiredintech.com/",
@@ -473,7 +605,8 @@
     "tags": [
       "mülakat",
       "öğretici",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Sistem tasarımı ve algoritma mülakatlarına yönelik yapılı kurslar. Soru havuzlarından farkı soru değil yöntem öğretmesi: problemi adım adım ele alma çerçevesi; içerik eski ama çerçeve hâlâ geçerli.",
     "en": "Structured courses for system-design and algorithm interviews. Unlike problem banks it teaches method rather than questions — a framework for working a problem step by step; the content is old but the framework holds.",
@@ -484,7 +617,9 @@
     "name": "Interview Cake",
     "tags": [
       "freemium",
-      "mülakat"
+      "mülakat",
+      "algoritma",
+      "orta"
     ],
     "tr": "Cevabı vermek yerine çözüme giden düşünce adımlarını açıyor; kaba kuvvetten optimale nasıl geçileceğini gösteriyor. Mülakatta beklenen tam olarak bu akıl yürütme.",
     "en": "Opens up the reasoning steps rather than handing over the answer, showing how you move from brute force to optimal — which is exactly the reasoning an interview looks for.",
@@ -497,18 +632,26 @@
     "tags": [
       "freemium",
       "mülakat",
-      "algoritma"
+      "algoritma",
+      "orta"
     ],
     "tr": "Mülakat hazırlığını oyunlaştıran platform. LeetCode’un serbest soru havuzundan farkı konuların bağımlılık sırasına dizilmesi: her konu bir öncekinin üstüne bina ediliyor.",
     "en": "Gamified interview preparation. Unlike LeetCode’s open problem pool, topics are ordered by dependency, each building on the last.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://leetcode.com/",
+        "a": "rehberlik"
+      }
+    ]
   },
   {
     "url": "https://github.com/Twipped/InterviewThis",
     "name": "InterviewThis",
     "tags": [
       "mülakat",
-      "ücretsiz"
+      "ücretsiz",
+      "referans"
     ],
     "tr": "Mülakatta şirkete sorulacak soruların listesi. Aday hazırlık listelerinin aksine yönü tersine çeviriyor: iş yerini sen değerlendiriyorsun.",
     "en": "A list of questions to ask the company in an interview. Unlike candidate-prep lists it flips the direction, so you assess the workplace.",
@@ -532,7 +675,8 @@
       "ücretsiz",
       "devops",
       "docker",
-      "interaktif"
+      "interaktif",
+      "orta"
     ],
     "tr": "Tarayıcıda gerçek Linux ve Kubernetes makinesi açıyor; simülasyon değil. CKA ve CKS sınavlarına hazırlık senaryoları resmî sınav ortamına çok yakın.",
     "en": "Spins up a real Linux or Kubernetes machine in the browser — not a simulation. Its CKA and CKS scenarios sit very close to the actual exam environment.",
@@ -545,12 +689,19 @@
     "tags": [
       "ücretsiz",
       "git",
-      "interaktif"
+      "interaktif",
+      "başlangıç"
     ],
     "tr": "Commit grafiğini canlı çizerek rebase, cherry-pick ve merge’ün ne yaptığını gösteriyor. Git’i komut ezberleyerek değil grafiği anlayarak öğrenmenin en kısa yolu.",
     "en": "Draws the commit graph live to show what rebase, cherry-pick and merge actually do — the shortest path to learning Git by understanding the graph rather than memorising commands.",
     "src": "kedi",
-    "added": 1776690077
+    "added": 1776690077,
+    "vs": [
+      {
+        "u": "https://gitmastery.me/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://learnersbucket.com",
@@ -558,7 +709,8 @@
     "tags": [
       "javascript",
       "mülakat",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "JavaScript mülakat sorularına odaklanan alıştırma arşivi: polyfill yazma, olay döngüsü, kapanış. Genel algoritma sitelerinden farkı dile özgü olması — \"bind’i kendin yaz\" tipi sorular başka yerde bulunmuyor.",
     "en": "A practice archive focused on JavaScript interview questions: writing polyfills, the event loop, closures. Unlike general algorithm sites it is language-specific — \"implement bind yourself\" is not a question you find elsewhere.",
@@ -570,7 +722,8 @@
     "tags": [
       "freemium",
       "mülakat",
-      "algoritma"
+      "algoritma",
+      "orta"
     ],
     "tr": "Teknik mülakat sorularının en yaygın kullanılan bankası; sorular şirket etiketiyle filtreleniyor. Tartışma bölümü çoğu zaman resmî çözümden öğreticidir.",
     "en": "The most widely used bank of interview questions, filterable by company tag. The discussion section is usually more instructive than the official solution.",
@@ -583,7 +736,8 @@
     "tags": [
       "mülakat",
       "algoritma",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Tushar Roy’un geniş kodlama mülakat problemleri ve çözümleri koleksiyonu. LeetCode çözümlerinden farkı çoğu problemin YouTube’da ayrıntılı bir video anlatımıyla eşleşmesi.",
     "en": "Tushar Roy’s large collection of coding-interview problems and solutions. Unlike LeetCode solutions, most problems pair with a detailed video explanation on YouTube.",
@@ -595,11 +749,18 @@
     "tags": [
       "mülakat",
       "algoritma",
-      "freemium"
+      "freemium",
+      "orta"
     ],
     "tr": "LeetCode sorularını konuya göre gruplayıp çözüm videolarıyla veren yol haritası. Ham soru listelerinden farkı sıralama: hangi 150 soruyu hangi sırayla çözersen kalıpları öğreneceğini söylüyor — rastgele çözmenin en büyük eksiği buydu.",
     "en": "A roadmap that groups LeetCode problems by topic and pairs each with a solution video. Against a raw problem list the difference is ordering: which 150 problems, in which sequence, teach the patterns — the thing random grinding never gives you.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://leetcode.com/",
+        "a": "rehberlik"
+      }
+    ]
   },
   {
     "url": "https://www.m5bilisim.com/tr/on-parmak/",
@@ -612,14 +773,22 @@
     "tr": "F ve Q düzenlerini ayrı ayrı destekleyen Türkçe on parmak eğitimi. Q klavye odaklı sitelerden farkı F klavyeyi de desteklemesi — ücretsiz F klavye materyali yerelde ender.",
     "en": "Turkish touch-typing training supporting F and Q layouts separately. Unlike Q-centric sites it supports the F layout too — free F-layout material is rare locally.",
     "src": "kedi",
-    "added": 1785875459
+    "added": 1785875459,
+    "vs": [
+      {
+        "u": "https://10fastfingers.com/typing-test/turkish",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.pramp.com",
     "name": "Pramp",
     "tags": [
       "mülakat",
-      "ücretsiz"
+      "ücretsiz",
+      "interaktif",
+      "orta"
     ],
     "tr": "Gerçek akranlarla karşılıklı, ücretsiz teknik mülakat pratiği; artık Exponent bünyesinde. Tek başına soru çözmekten farkı karşında gerçek bir insanın olması: sırayla mülakatçı ve aday oluyorsunuz.",
     "en": "Free, peer-to-peer mock technical-interview practice, now part of Exponent. Unlike solving problems alone there is a real person opposite you, and you take turns as interviewer and candidate.",
@@ -630,7 +799,8 @@
     "name": "Programming by Doing",
     "tags": [
       "ücretsiz",
-      "öğretici"
+      "öğretici",
+      "başlangıç"
     ],
     "tr": "Küçük ve çok sayıda alıştırmayla programlamayı öğreten site; lise düzeyi giriş için tasarlanmış. Proje tabanlı kurslardan farkı her adımın bir öncekine yalnız minik bir ekleme yapması.",
     "en": "Teaches programming through many small exercises, designed for a high-school-level start. Unlike project-based courses, each step adds only a little to the last.",
@@ -642,7 +812,8 @@
     "tags": [
       "ücretsiz",
       "akademik",
-      "algoritma"
+      "algoritma",
+      "ileri"
     ],
     "tr": "Kaba kuvvetin yetmediği matematik problemleri; çözüm sayı teorisi ya da kombinatorik içgörü gerektiriyor. Mülakat sorularıyla karıştırılmamalı, farklı bir kas çalıştırıyor. Arşiv sayfası tüm problemleri çözen kişi sayısıyla listeliyor.",
     "en": "Mathematical problems where brute force does not finish; solutions need number theory or combinatorial insight. Not to be confused with interview questions — it trains a different muscle. Its archives page lists every problem with the number of people who solved it.",
@@ -655,7 +826,8 @@
     "tags": [
       "algoritma",
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Matematik ve algoritma ağırlıklı, iyi açıklanmış küçük programlama projeleri. Soru sitelerinden farkı her yazının açıklamasıyla birlikte, birden çok dilde temiz bir uygulama sunması.",
     "en": "Well-explained small programming projects, heavy on maths and algorithms. Unlike problem sites, each article comes with a clean implementation, often in several languages, alongside the explanation.",
@@ -667,7 +839,8 @@
     "tags": [
       "python",
       "interaktif",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Her seviyesi biraz Python ile çözülen bir bilmece oyunu. Alıştırma sitelerinden farkı her bulmacanın bir sonrakinin adresini gizlemesi — çözmeden ilerlenmiyor.",
     "en": "A riddle game where each level is solved with a bit of Python. Unlike exercise sites every puzzle hides the next level’s address — you cannot move on without solving it.",
@@ -682,7 +855,8 @@
       "öğretici",
       "interaktif",
       "açık-kaynak",
-      "ücretsiz"
+      "ücretsiz",
+      "başlangıç"
     ],
     "tr": "Python’u “koan” adı verilen başarısız testleri tek tek geçirerek öğreten depo. Öğretici okumaktan farkı gerçek testleri düzeltmen: geri bildirim anında geliyor.",
     "en": "A repository that teaches Python by making failing tests (“koans”) pass one at a time. Unlike reading a tutorial you fix real tests, so feedback is immediate.",
@@ -695,12 +869,19 @@
     "tags": [
       "ücretsiz",
       "interaktif",
-      "sistem-tasarımı"
+      "sistem-tasarımı",
+      "başlangıç"
     ],
     "tr": "Kodu satır satır çalıştırıp yığın çerçevelerini ve heap’teki nesneleri çiziyor. Klasik hata ayıklayıcılardan farkı belleği görselleştirmesi: referans, kapsam ve değişebilir varsayılan argüman hatalarını anlatmakta eşi yok.",
     "en": "Steps through code drawing stack frames and heap objects. Unlike a classic debugger it visualises memory — nothing explains reference semantics, scope and mutable default arguments as clearly.",
     "src": "kedi",
-    "added": 1787182437
+    "added": 1787182437,
+    "vs": [
+      {
+        "u": "https://visualgo.net/en",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://github.com/norvig/pytudes",
@@ -709,7 +890,8 @@
       "python",
       "interaktif",
       "açık-kaynak",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Peter Norvig’in bulmaca, algoritma ve dil işleme üzerine kısa Python programları ve not defterleri. Alıştırma sitelerinden farkı her birinin bir uzmanın gerekçesiyle anlatılmış çözümü olması.",
     "en": "Peter Norvig’s short Python programs and notebooks on puzzles, algorithms and language. Unlike exercise sites each is an expert’s worked solution with the reasoning explained.",
@@ -723,7 +905,8 @@
       "öğretici",
       "referans",
       "açık-kaynak",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Aynı gerçekçi uygulamayı (Conduit) farklı ön yüz ve arka uç yığınlarında kuran örnek proje şartnamesi.",
     "en": "A spec whose same realistic app (Conduit) is built across different front-end and back-end stacks.",
@@ -734,7 +917,8 @@
     "name": "Rosetta Code",
     "tags": [
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "algoritma"
     ],
     "tr": "Aynı küçük problemi yüzlerce dilde çözülmüş hâlde gösteren wiki. Tek dilli örneklerden farkı bir görevin dillerde nasıl farklılaştığını yan yana göstermesi.",
     "en": "A wiki showing the same small problem solved in hundreds of languages. Unlike single-language examples it shows side by side how a task differs across languages.",
@@ -745,7 +929,8 @@
     "name": "Scaler Topics",
     "tags": [
       "ücretsiz",
-      "öğretici"
+      "öğretici",
+      "başlangıç"
     ],
     "tr": "Programlamaya hevesliler için düzenli, etkileşimli konu anlatım ve pratik alanı. Scaler’ın ücretli akademi programlarından farkı ücretsiz, tek tek konu sayfaları olması.",
     "en": "An organised, interactive space of topic tutorials and practice for aspiring programmers. Unlike Scaler’s paid academy programmes, these are free, standalone topic pages.",
@@ -758,7 +943,8 @@
       "python",
       "öğretici",
       "interaktif",
-      "ücretsiz"
+      "ücretsiz",
+      "başlangıç"
     ],
     "tr": "Yüzü aşkın alıştırmalı, tarayıcıda kod yazılan Python 3 kursu. Video kurslardan farkı bir denetleyicinin çözümünü anında doğrulaması.",
     "en": "A Python 3 course with 100+ exercises, coded in the browser. Unlike video courses a checker verifies your solution at once.",
@@ -770,11 +956,19 @@
     "name": "SPOJ",
     "tags": [
       "ücretsiz",
-      "algoritma"
+      "algoritma",
+      "interaktif",
+      "orta"
     ],
     "tr": "Uzun süredir çalışan çevrimiçi yargıç; klasik algoritma problemlerinin geniş arşivi. Codeforces’tan farkı yarışmadan çok arşiv olması ve 40’tan fazla dili kabul etmesi; arayüzü eski ama soru havuzu hâlâ referans.",
     "en": "A long-running online judge with a large archive of classic algorithm problems. Unlike Codeforces it is more archive than contest and accepts 40+ languages; the interface is dated, but the problem set is still a reference.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://codeforces.com",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://web.stanford.edu/class/cs9/",
@@ -782,7 +976,8 @@
     "tags": [
       "ücretsiz",
       "mülakat",
-      "algoritma"
+      "algoritma",
+      "orta"
     ],
     "tr": "Teknik mülakat için problem çözme dersi; Stanford’un ders materyali açık. Soru bankası değil, düşünme biçimi öğretiyor.",
     "en": "Stanford’s problem-solving course for technical interviews with open materials — it teaches a way of thinking rather than a question bank.",
@@ -795,7 +990,8 @@
       "video",
       "algoritma",
       "mülakat",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Veri yapısı ve algoritma konularını sıralı bir müfredat hâlinde veren kanal. Dağınık çözüm videolarından farkı sırayla izlenmek üzere kurgulanmış olması.",
     "en": "A channel presenting data structures and algorithms as an ordered curriculum. Unlike scattered solution videos it is built to be watched in sequence.",
@@ -807,7 +1003,8 @@
     "tags": [
       "mülakat",
       "ücretsiz",
-      "referans"
+      "referans",
+      "orta"
     ],
     "tr": "Teknik mülakatı geçmek için sıralı, kapsamlı ve ücretsiz rehber; Blind 75 listesinin yazarından. Soru havuzlarından farkı sürecin tamamını — CV, davranışsal sorular, maaş pazarlığı — kapsaması.",
     "en": "An ordered, comprehensive, free guide to cracking the tech interview, by the author of the Blind 75 list. Unlike problem banks it covers the whole process — résumé, behavioural questions, salary negotiation.",
@@ -819,7 +1016,8 @@
     "tags": [
       "algoritma",
       "mülakat",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Veri yapısı ve algoritma sorularını konuya göre gruplayıp C++, Java ve Python çözümleriyle veren arşiv. LeetCode’dan farkı çözümün açıklamasıyla birlikte gelmesi — çözmeden önce okumak için de uygun.",
     "en": "An archive of data structure and algorithm problems grouped by topic, with C++, Java and Python solutions. Against LeetCode the solution arrives with its explanation, which makes it readable before you attempt the problem.",
@@ -831,7 +1029,9 @@
     "tags": [
       "müfredat",
       "ücretsiz",
-      "açık-kaynak"
+      "açık-kaynak",
+      "frontend",
+      "başlangıç"
     ],
     "tr": "Web geliştirmeyi projeler üzerinden, tam bir açık müfredatla öğreten platform. Video kurslardan farkı kendi ortamını kurdurup gerçek proje inşa ettirmesi.",
     "en": "A platform teaching web development through projects, with a full open curriculum. Unlike video courses it has you set up your own environment and build real projects.",
@@ -857,7 +1057,9 @@
     "name": "Topcoder",
     "tags": [
       "ücretsiz",
-      "algoritma"
+      "algoritma",
+      "interaktif",
+      "orta"
     ],
     "tr": "Yarışmacı programlamanın en eski platformlarından; problem arşivi ve editöryalleri algoritma tarihinin bir kesiti. Codeforces’tan farkı artık ağırlığın serbest yazılım işlerine (crowdsourcing) kaymış olması.",
     "en": "One of the oldest competitive programming platforms; its problem archive and editorials form a slice of algorithm history. Unlike Codeforces, its weight has since shifted to crowdsourced freelance work.",
@@ -868,11 +1070,19 @@
     "name": "TopCoder Arena",
     "tags": [
       "algoritma",
-      "ücretsiz"
+      "ücretsiz",
+      "interaktif",
+      "orta"
     ],
     "tr": "Zamanlı algoritma yarışmalarının klasik arenası (SRM). Codeforces’tan farkı SRM biçimi: kodlama aşamasından sonra gelen meydan okuma (challenge) aşamasında başkalarının koduna hatalı girdi vererek puan kazanıyorsun.",
     "en": "The classic arena for timed algorithm competitions (SRM). Unlike Codeforces it uses the SRM format: after the coding phase comes a challenge phase where you score by feeding failing inputs to other people’s code.",
-    "src": "awesomeproj"
+    "src": "awesomeproj",
+    "vs": [
+      {
+        "u": "https://codeforces.com",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.topcoder.com/community/competitive-programming/tutorials",
@@ -880,7 +1090,8 @@
     "tags": [
       "algoritma",
       "ücretsiz",
-      "referans"
+      "referans",
+      "orta"
     ],
     "tr": "Yarışmacı programlamanın klasik öğreticileri; birçoğu 2000’lerin başından ama konular eskimiyor. Yeni kaynaklardan farkı derinliği — tek bir tekniği baştan sona işleyen uzun metinler.",
     "en": "The classic competitive programming tutorials, many from the early 2000s, on subjects that do not age. Against newer material the difference is depth: long pieces that work a single technique from start to finish.",
@@ -893,7 +1104,8 @@
       "video",
       "algoritma",
       "mülakat",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Algoritma sorularını adım adım çözen kanal; dinamik programlama serisi özellikle bilinir. Çözüm okumaktan farkı düşünme sürecini sesli göstermesi — mülakatta beklenen de bu.",
     "en": "A channel working algorithm problems step by step, best known for its dynamic programming series. Against reading a solution it shows the thinking aloud, which is what an interview asks for.",
@@ -908,14 +1120,22 @@
     ],
     "tr": "Başkalarıyla yarışarak klavyede yazma hızını artıran çevrimiçi oyun. Tek başına yazma testlerinden farkı canlı yarış olması; metinler kitap ve film alıntılarından seçiliyor.",
     "en": "An online game to increase your typing speed by racing against others. Unlike solo typing tests it is a live race, with texts drawn from book and film quotes.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://www.keybr.com/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://onlinejudge.org/",
     "name": "UVa Online Judge",
     "tags": [
       "algoritma",
-      "ücretsiz"
+      "ücretsiz",
+      "interaktif",
+      "orta"
     ],
     "tr": "Yüzlerce yarışma problemini otomatik değerlendiren klasik çevrimiçi yargıç. Yeni platformlardan farkı Competitive Programming (Halim) kitabının problem listelerinin dayandığı arşiv olması.",
     "en": "A classic online judge auto-grading hundreds of contest problems. Unlike newer platforms, it is the archive the problem lists of the Competitive Programming (Halim) book are built on.",
@@ -926,7 +1146,9 @@
     "name": "Vim Adventures",
     "tags": [
       "freemium",
-      "interaktif"
+      "interaktif",
+      "cli",
+      "başlangıç"
     ],
     "tr": "Vim kısayollarını Zelda benzeri bir oyunla öğreten alıştırma. hjkl ve hareket komutlarını ezberlemek yerine oynayarak kazanıyorsun.",
     "en": "Teaches Vim shortcuts through a Zelda-like game — you earn hjkl and motion commands by playing rather than memorising them.",
@@ -938,7 +1160,8 @@
     "tags": [
       "ücretsiz",
       "interaktif",
-      "algoritma"
+      "algoritma",
+      "orta"
     ],
     "tr": "Veri yapısı ve algoritmaları adım adım canlandırıyor. Ders kitabı çizimlerinden farkı kendi girdini verip izleyebilmen: AVL ağacı dönmesi gibi konular kod okuyarak anlamaktan çok daha kolay kavranıyor.",
     "en": "Animates data structures and algorithms step by step. Unlike textbook diagrams you supply your own input and watch — something like an AVL rotation is far easier to grasp than by reading code.",

@@ -4,7 +4,8 @@
     "name": "90 Days of Cyber Security",
     "tags": [
       "müfredat",
-      "ücretsiz"
+      "ücretsiz",
+      "başlangıç"
     ],
     "tr": "Doksan güne bölünmüş çalışma planı: ağ temelleri, Linux, Python, ardından saldırı ve savunma. Dağınık kaynak listelerinden farkı takvimli ve sıralı bir program sunması.",
     "en": "A study plan split across ninety days — networking, Linux, Python, then offence and defence. Unlike scattered resource lists it offers a dated, ordered programme.",
@@ -29,7 +30,8 @@
     "tags": [
       "güvenlik",
       "öğretici",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "100’den fazla web zafiyeti içeren, indirilebilir kasıtlı-açık uygulama. Çevrimiçi hedeflerden farkı kendi makinende, izole ve sınırsız denemeye izin vermesi.",
     "en": "A downloadable, deliberately vulnerable app containing 100+ web vulnerabilities. Unlike online targets it lets you practise on your own machine, isolated and without limits.",
@@ -40,7 +42,9 @@
     "name": "Cicada 3301 Çözüm Rehberi",
     "tags": [
       "ücretsiz",
-      "güvenlik"
+      "güvenlik",
+      "öğretici",
+      "orta"
     ],
     "tr": "İnternetin en bilinen bulmacasının adım adım çözümü; steganografi, kitap şifresi ve Tor gizli servisleri bir arada kullanılıyor. Tek konu anlatan öğreticilerden farkı tekniklerin gerçek bir problemde nasıl zincirlendiğini göstermesi.",
     "en": "A step-by-step solution of the internet’s best-known puzzle, chaining steganography, book ciphers and Tor hidden services. Unlike single-topic tutorials it shows how the techniques link together on a real problem.",
@@ -52,7 +56,8 @@
     "name": "CTFtime",
     "tags": [
       "güvenlik",
-      "ücretsiz"
+      "ücretsiz",
+      "referans"
     ],
     "tr": "Dünyadaki Capture The Flag yarışmalarını takvimleyen ve takım sıralaması tutan site. Dağınık duyurulardan farkı hangi yarışmanın ne zaman olduğunu tek yerde toplaması.",
     "en": "A site scheduling Capture The Flag competitions worldwide and keeping team rankings. Unlike scattered announcements it gathers which contest is when in one place.",
@@ -63,8 +68,9 @@
     "name": "Damn Vulnerable iOS App",
     "tags": [
       "güvenlik",
-      "masaüstü",
-      "ücretsiz"
+      "mobil",
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Mobil güvenlik öğrenmek için kasıtlı olarak zafiyetli iOS uygulaması. Web tabanlı zafiyet laboratuvarlarından farkı mobil platforma özgü sorunlara — güvensiz veri saklama, ikili yama — odaklanması.",
     "en": "A deliberately vulnerable iOS app for learning mobile security. Unlike web-based vulnerability labs it targets mobile-specific issues — insecure data storage, binary patching.",
@@ -75,7 +81,8 @@
     "name": "Firing Range",
     "tags": [
       "güvenlik",
-      "ücretsiz"
+      "ücretsiz",
+      "interaktif"
     ],
     "tr": "Çok sayıda uygulama güvenliği açığını barındıran, Google kaynaklı test hedefi. Öğretici zafiyet laboratuvarlarından farkı tarayıcı ve otomatik güvenlik aracı denemek için tasarlanması: senaryo değil, açık türlerinin ham kataloğu.",
     "en": "A Google-built test target hosting many application-security issues. Unlike instructional vulnerability labs it is designed for testing scanners and automated tools — not scenarios, but a raw catalogue of bug types.",
@@ -87,11 +94,18 @@
     "tags": [
       "güvenlik",
       "öğretici",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "PortSwigger’ın hazırladığı, zafiyetlerle dolu modern web uygulaması pratik hedefi. Eski pratik sitelerinden farkı gerçekçi tek sayfa uygulaması ve API mimarisi taşıması: bugünün web’ini yansıtıyor.",
     "en": "A modern, vulnerability-filled web app practice target built by PortSwigger. Unlike older practice sites it carries a realistic single-page-app and API architecture, reflecting today’s web.",
-    "src": "testsites"
+    "src": "testsites",
+    "vs": [
+      {
+        "u": "https://www.itsecgames.com/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://github.com/google/google-ctf",
@@ -99,7 +113,9 @@
     "tags": [
       "güvenlik",
       "açık-kaynak",
-      "ücretsiz"
+      "ücretsiz",
+      "interaktif",
+      "ileri"
     ],
     "tr": "Google’ın düzenlediği CTF yarışmalarının tüm soruları, kaynak kodları ve çözümleri. Diğer arşivlerden farkı soruların altyapısının da yayımlanması — yarışmayı kendi makinende yeniden kurup çalışabiliyorsun.",
     "en": "Every challenge from Google’s CTF competitions, with source code and solutions. Unlike other archives the challenge infrastructure is published too, so you can stand the whole thing up locally and work through it.",
@@ -111,11 +127,18 @@
     "tags": [
       "güvenlik",
       "öğretici",
-      "ücretsiz"
+      "ücretsiz",
+      "başlangıç"
     ],
     "tr": "Google’ın web uygulama açıklarını öğreten “delikli peynir” kod laboratuvarı. Salt teoriden farkı her açığı bulup hem sömürüp hem yamayı deneyimletmesi.",
     "en": "Google’s “full of holes” codelab teaching web application flaws. Unlike pure theory it has you find each flaw and both exploit and patch it.",
-    "src": "testsites"
+    "src": "testsites",
+    "vs": [
+      {
+        "u": "https://owasp.org/www-project-juice-shop/",
+        "a": "rehberlik"
+      }
+    ]
   },
   {
     "url": "https://www.hackthebox.com/",
@@ -123,7 +146,8 @@
     "tags": [
       "freemium",
       "interaktif",
-      "güvenlik"
+      "güvenlik",
+      "ileri"
     ],
     "tr": "Gerçekçi makineler; ipucu vermiyor, keşif ve araştırma yükü tamamen sende. TryHackMe’den farkı bu zorluk: OSCP hazırlığında sık kullanılmasının sebebi de bu.",
     "en": "Realistic machines with no hints — reconnaissance and research are entirely on you. Unlike TryHackMe it does not guide you, which is why it turns up so often in OSCP preparation.",
@@ -143,7 +167,8 @@
       "sertifika",
       "güvenlik",
       "interaktif",
-      "freemium"
+      "freemium",
+      "orta"
     ],
     "tr": "Modül tabanlı öğrenme ve CPTS/CBBH gibi pratik sertifikalar. OSCP’den farkı öğrenme yolunun sınavla aynı platformda olması ve fiyatın belirgin düşük olması; karşılığında işveren tanınırlığı henüz OSCP düzeyinde değil.",
     "en": "Module-based learning with practical certifications such as CPTS and CBBH. Against OSCP the learning path lives on the same platform as the exam and costs markedly less; in exchange, employer recognition is not yet at OSCP’s level.",
@@ -156,7 +181,8 @@
       "güvenlik",
       "interaktif",
       "öğretici",
-      "freemium"
+      "freemium",
+      "orta"
     ],
     "tr": "Sızma testi ve web güvenliğini kapsayan, tarayıcıda çalışan uygulamalı laboratuvarlar. Kendi laboratuvarını kurmaktan farkı ortamın tarayıcıda hazır gelmesi: kurulum yok, doğrudan pratiğe başlıyorsun.",
     "en": "Hands-on, in-browser labs covering penetration testing and web security. Unlike building your own lab the environment is ready in the browser — no setup, you start practising straight away.",
@@ -168,12 +194,19 @@
     "tags": [
       "ücretsiz",
       "güvenlik",
-      "ağ"
+      "ağ",
+      "başlangıç"
     ],
     "tr": "SSH ile bağlanıp seviye seviye ilerlediğin klasik savaş oyunları. Tarayıcı tabanlı laboratuvarlardan farkı gerçek bir kabukta çalışman; Bandit serisi Linux komut satırını öğretmenin en sert ama en kalıcı yolu.",
     "en": "Classic wargames you play over SSH, level by level. Unlike browser-based labs you work in a real shell; the Bandit series is the harshest and most durable way to learn the Linux command line.",
     "src": "kedi",
-    "added": 1766642844
+    "added": 1766642844,
+    "vs": [
+      {
+        "u": "https://tryhackme.com/",
+        "a": "platform"
+      }
+    ]
   },
   {
     "url": "https://owasp.org/www-project-juice-shop/",
@@ -182,7 +215,8 @@
       "güvenlik",
       "açık-kaynak",
       "öğretici",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Kasıtlı olarak zafiyetlerle dolu, modern bir web uygulaması — güvenlik öğrenmek için hedef. Kuru anlatımdan farkı gerçek bir uygulamada onlarca açığı elle sömürmeni sağlaması.",
     "en": "A modern web app deliberately full of vulnerabilities — a target for learning security. Unlike dry material it lets you exploit dozens of flaws by hand in a real application.",
@@ -220,7 +254,8 @@
     "tags": [
       "güvenlik",
       "ücretsiz",
-      "kitap"
+      "kitap",
+      "orta"
     ],
     "tr": "Güvenlik firması Trail of Bits’in CTF rehberi; her kategoride hangi becerinin gerektiğini ve nasıl çalışılacağını anlatıyor. CTF101’den farkı daha derin olması ve profesyonel güvenlik işine köprü kurması — yarışmadan mesleğe geçiş.",
     "en": "The CTF guide from the security firm Trail of Bits, laying out which skill each category needs and how to build it. Deeper than CTF101, and it bridges toward professional security work rather than stopping at the competition.",
@@ -232,7 +267,8 @@
     "tags": [
       "freemium",
       "interaktif",
-      "güvenlik"
+      "güvenlik",
+      "başlangıç"
     ],
     "tr": "Rehberli laboratuvarlar; her odada hangi aracı neden kullandığın anlatılıyor. Hack The Box’a göre elinden tutuyor, o yüzden ilk sızma testi deneyimi için daha uygun.",
     "en": "Guided labs that explain which tool you are using and why in each room. It holds your hand more than Hack The Box, which makes it the better first exposure to penetration testing.",
@@ -252,7 +288,8 @@
       "güvenlik",
       "öğretici",
       "ücretsiz",
-      "interaktif"
+      "interaktif",
+      "orta"
     ],
     "tr": "PortSwigger’ın ücretsiz, uygulamalı web güvenliği kursu — her zafiyet için canlı laboratuvar. Teorik kurslardan farkı saldırıyı gerçek bir hedefte denetmesi.",
     "en": "PortSwigger’s free, hands-on web-security course — a live lab for each vulnerability. Unlike theory courses it has you perform the attack on a real target.",
@@ -264,7 +301,8 @@
     "tags": [
       "ücretsiz",
       "güvenlik",
-      "öğretici"
+      "öğretici",
+      "ileri"
     ],
     "tr": "Elli bir yıl çözülemeyen homofonik yerine koyma şifresinin nasıl kırıldığının teknik anlatımı. Hipotez kurma ve eleme sürecinin gerçek bir örneği.",
     "en": "A technical account of how a homophonic substitution cipher unsolved for fifty-one years was broken — a real worked example of hypothesis and elimination.",
@@ -276,7 +314,9 @@
     "name": "Çözülmemiş Tarihî Şifreler",
     "tags": [
       "ücretsiz",
-      "güvenlik"
+      "güvenlik",
+      "referans",
+      "ileri"
     ],
     "tr": "Hâlâ kırılamamış şifrelerin kategorisi; Voynich el yazması ve Beale şifreleri dahil. Çözümlü şifre öğreticilerinin aksine burada her biri açık bir problem olarak duruyor.",
     "en": "The category of ciphers still unbroken, the Voynich manuscript and Beale ciphers among them. Unlike solved-cipher tutorials, each here stands as an open problem.",

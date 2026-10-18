@@ -5,7 +5,8 @@
     "tags": [
       "ücretsiz",
       "kitap",
-      "python"
+      "python",
+      "başlangıç"
     ],
     "tr": "Python’a giriş kitabı; onlarca dile çevrilmiş ve programlamaya tamamen yeni başlayanlar için yazılmış. Kalın giriş kitaplarından farkı kısa ve doğrudan olması: birkaç günde bitiyor.",
     "en": "An introductory Python book, translated into dozens of languages and written for people entirely new to programming. Unlike thick introductory books it is short and direct — done in a few days.",
@@ -17,7 +18,9 @@
     "tags": [
       "ücretsiz",
       "go",
-      "interaktif"
+      "interaktif",
+      "orta",
+      "tarayıcı-içi"
     ],
     "tr": "Go’nun resmî turu; her örnek tarayıcıda çalıştırılıp değiştirilebiliyor. Kitaplardan farkı kurulum istemeden dili deneyerek öğretmesi; goroutine ve kanallar bölümü dilin asıl ayırt edici kısmı.",
     "en": "Go’s official tour, with every example runnable and editable in the browser. Unlike a book, it teaches the language hands-on with nothing to install; the section on goroutines and channels is where Go really differs.",
@@ -94,7 +97,8 @@
     "name": "Awesome Elixir",
     "tags": [
       "awesome-liste",
-      "ücretsiz"
+      "ücretsiz",
+      "backend"
     ],
     "tr": "Elixir dili ve Erlang ekosistemi için kütüphane listesi. Hex paket aramasından farkı seçilmiş ve konuya göre gruplanmış olması.",
     "en": "A library list for the Elixir language and Erlang ecosystem. Unlike a Hex package search it is curated and grouped by topic.",
@@ -165,11 +169,18 @@
     "tags": [
       "müfredat",
       "ücretsiz",
-      "akademik"
+      "akademik",
+      "orta"
     ],
     "tr": "Pennsylvania Üniversitesi’nin Haskell dersi; ders notları ve ödevler açık. Kitaplardan farkı ödevlerin olması — Haskell’i okuyarak değil ancak yazarak öğrenebildiğin için bu ayrım önemli.",
     "en": "The University of Pennsylvania’s Haskell course, with lecture notes and assignments public. The difference from a book is the homework — and since Haskell is learned by writing rather than reading, that difference matters.",
-    "src": "awesome-uw"
+    "src": "awesome-uw",
+    "vs": [
+      {
+        "u": "https://learnyouahaskell.github.io/chapters.html",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://craftinginterpreters.com/",
@@ -177,7 +188,8 @@
     "tags": [
       "ücretsiz",
       "kitap",
-      "c-ailesi"
+      "c-ailesi",
+      "orta"
     ],
     "tr": "Bir dili iki kez sıfırdan yazdıran ücretsiz kitap: önce Java ile ağaç yürüyen yorumlayıcı, sonra C ile bayt kodu sanal makinesi. Kuramsal derleyici ders kitaplarından farkı her satırı sana yazdırması; alanın en açık anlatımlarından.",
     "en": "A free book that has you write a language twice — a tree-walking interpreter in Java, then a bytecode VM in C. Unlike theoretical compiler textbooks it makes you write every line; one of the clearest treatments in the field.",
@@ -188,7 +200,7 @@
     "name": "Dart",
     "tags": [
       "açık-kaynak",
-      "masaüstü",
+      "mobil",
       "dokümantasyon",
       "ücretsiz"
     ],
@@ -202,7 +214,8 @@
     "tags": [
       "açık-kaynak",
       "backend",
-      "ücretsiz"
+      "ücretsiz",
+      "dokümantasyon"
     ],
     "tr": "Erlang sanal makinesinde çalışan, ölçeklenebilirlikte güçlü işlevsel dil. Erlang’dan farkı Ruby’yi andıran sözdizimi ve makro sistemi; hata toleransını (OTP) ise aynen devralıyor.",
     "en": "A functional language on the Erlang VM, strong in scalability. Unlike Erlang it has a Ruby-like syntax and a macro system, while inheriting fault tolerance (OTP) unchanged.",
@@ -214,12 +227,19 @@
     "tags": [
       "ücretsiz",
       "kitap",
-      "javascript"
+      "javascript",
+      "başlangıç"
     ],
     "tr": "Ücretsiz ve çevrimiçi klasik. Sözdizimi öğretmekten çok programlama düşüncesi kuruyor; alıştırmaları kitabın içinde çalıştırılabiliyor.",
     "en": "A free online classic that builds programming thinking rather than teaching syntax, with exercises runnable inside the book itself.",
     "src": "kedi",
-    "added": 1787182405
+    "added": 1787182405,
+    "vs": [
+      {
+        "u": "https://javascript.info/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://nedbatchelder.com/text/names.html",
@@ -227,7 +247,8 @@
     "tags": [
       "python",
       "öğretici",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Ned Batchelder’in Python’un ad ve değer modelini anlattığı klasik konuşma metni. Genel öğreticilerden farkı yeni başlayanların çoğu hatasının ardındaki yanlış anlamayı hedeflemesi.",
     "en": "Ned Batchelder’s classic talk on Python’s model of names and values. Unlike general tutorials it targets the misunderstanding behind most beginner bugs.",
@@ -240,7 +261,8 @@
     "tags": [
       "akademik",
       "açık-kaynak",
-      "ücretsiz"
+      "ücretsiz",
+      "dokümantasyon"
     ],
     "tr": "Sayısal ve bilimsel hesaplamanın öncüsü, hâlâ kullanılan dil; iklim ve fizik simülasyonlarında temel. C++’tan farkı dizi işlemlerinin dile yerleşik olması ve derleyicilerin bunları agresif biçimde eniyilemesi.",
     "en": "The pioneer of numerical and scientific computing, still in use and central to climate and physics simulation. Unlike C++, array operations are built into the language and compilers optimise them aggressively.",
@@ -253,7 +275,9 @@
     "tags": [
       "ücretsiz",
       "python",
-      "sertifika"
+      "sertifika",
+      "başlangıç",
+      "tarayıcı-içi"
     ],
     "tr": "Ücretsiz müfredat ve sertifika; alıştırmalar tarayıcıda çalışıyor. Ücretli kurslardan farkı tamamen ücretsiz olması; sertifika işveren nezdinde ağır basmıyor ama müfredat düzgün sıralanmış.",
     "en": "A free curriculum and certificate with browser-based exercises. Unlike paid courses it costs nothing; the certificate carries little weight with employers, but the curriculum is properly sequenced.",
@@ -279,7 +303,8 @@
     "tags": [
       "ücretsiz",
       "go",
-      "öğretici"
+      "öğretici",
+      "orta"
     ],
     "tr": "Her kavramı yorumlu tek bir programla anlatıyor. Resmî turdan farkı sıralı öğretmek yerine başvuru olarak kullanılması: “bunu Go’da nasıl yapıyordum” sorusunun cevabı burada.",
     "en": "Explains each concept through one annotated program. Unlike the official tour it works as a reference rather than a sequence — where “how do I do that in Go again” gets answered.",
@@ -292,7 +317,8 @@
     "tags": [
       "python",
       "öğretici",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Google’ın kendi çalışanları için hazırladığı kısa Python dersi: notlar, dersler ve alıştırmalar. Yeni bootcamp’lerden farkı kısa ve doğrudan olması; ilk olarak Python 2 için yazıldığından alıştırmaları güncel Python’a göre denetle.",
     "en": "Google’s short Python course made for its own staff: notes, lectures and exercises. Unlike newer bootcamps it is brief and direct; it was first written for Python 2, so check the exercises against current Python.",
@@ -317,11 +343,18 @@
     "tags": [
       "ücretsiz",
       "python",
-      "referans"
+      "referans",
+      "orta"
     ],
     "tr": "Python’da üslup, proje düzeni ve araç seçimi üzerine topluluk rehberi. Dil referansından farkı “nasıl yazılır” kısmını anlatması: deyimsel kod, paketleme, test.",
     "en": "A community guide to Python style, project layout and tooling. Unlike the language reference it covers the “how it is written” part: idiomatic code, packaging, testing.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://www.python.org/dev/peps/pep-0008/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.youtube.com/indently",
@@ -329,7 +362,8 @@
     "tags": [
       "video",
       "ücretsiz",
-      "python"
+      "python",
+      "orta"
     ],
     "tr": "Tek bir Python kavramını derinleştiren kısa bölümler. Uzun kurs formatından farkı, kursların atladığı konuları — dekoratörler, tip ipuçları, standart kütüphane köşeleri — tek tek işlemesi.",
     "en": "Short episodes each deepening one Python concept. Unlike the long-course format, they take on topics courses skip — decorators, type hints, corners of the standard library — one at a time.",
@@ -342,7 +376,9 @@
     "tags": [
       "ücretsiz",
       "javascript",
-      "interaktif"
+      "interaktif",
+      "başlangıç",
+      "tarayıcı-içi"
     ],
     "tr": "Tarayıcıda çalıştırılabilir JavaScript alıştırmaları. Öğretici sitelerden farkı anlatım değil yalnız alıştırma sunması; okuduğunu pekiştirmek için.",
     "en": "Runnable JavaScript exercises in the browser. Unlike tutorial sites it offers only exercises, no exposition — for consolidating what you have read.",
@@ -355,7 +391,8 @@
     "tags": [
       "açık-kaynak",
       "veri-bilimi",
-      "ücretsiz"
+      "ücretsiz",
+      "dokümantasyon"
     ],
     "tr": "Bilimsel hesaplama için yüksek başarımlı, açık kaynak dil. Python’dan farkı JIT derlemesiyle C’ye yakın hız: prototipi Python’da yazıp hızlı kodu C’ye çevirme zorunluluğunu (“iki dil sorunu”) ortadan kaldırmayı hedefliyor.",
     "en": "A high-performance open-source language for scientific computing. Unlike Python it JIT-compiles to near-C speed, aiming to remove the “two-language problem” of prototyping in Python and rewriting hot code in C.",
@@ -379,7 +416,8 @@
     "tags": [
       "video",
       "öğretici",
-      "ücretsiz"
+      "ücretsiz",
+      "başlangıç"
     ],
     "tr": ".NET, C# ve SQL Server konularında uzun ve düzenli ders serileri. Kısa öğreticilerden farkı her serinin bir müfredat gibi ilerlemesi — kurumsal .NET yığınını sıfırdan öğrenmek için.",
     "en": "Long, orderly lecture series on .NET, C# and SQL Server. Against short tutorials each series advances like a syllabus — for learning the enterprise .NET stack from nothing.",
@@ -392,7 +430,8 @@
       "python",
       "öğretici",
       "interaktif",
-      "ücretsiz"
+      "ücretsiz",
+      "başlangıç"
     ],
     "tr": "Python’ı tarayıcıdaki alıştırmalarla öğreten etkileşimli giriş; kurulum gerektirmiyor. Kitaplardan farkı her bölümün sonunda çalıştırılan bir alıştırma olması — okuduğunun oturduğunu hemen görüyorsun.",
     "en": "An interactive introduction teaching Python through in-browser exercises, with nothing to install. Against a book, each section ends in an exercise that runs — you see immediately whether it stuck.",
@@ -405,11 +444,18 @@
       "cli",
       "öğretici",
       "interaktif",
-      "ücretsiz"
+      "ücretsiz",
+      "başlangıç"
     ],
     "tr": "Kabuk betiklerini tarayıcıda çalıştırılabilir alıştırmalarla öğreten giriş. Kabuk kılavuzlarından farkı denemenin bedava olması — kendi makinende `rm` denemeye çekinirken burada takılıp kalmıyorsun.",
     "en": "An introduction to shell scripting through exercises that run in the browser. Against the shell manuals the difference is that experimenting is free — you can try `rm` without hesitating over what it might hit.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://guide.bash.academy",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://learnyouahaskell.github.io/chapters.html",
@@ -417,7 +463,8 @@
     "tags": [
       "kitap",
       "ücretsiz",
-      "öğretici"
+      "öğretici",
+      "başlangıç"
     ],
     "tr": "Haskell’in en bilinen giriş kitabının topluluk tarafından güncellenmiş çevrimiçi hâli. Akademik Haskell kaynaklarından farkı üslubu: monad’ı kategori teorisiyle değil, çizimlerle ve kademeli örneklerle anlatıyor.",
     "en": "The community-maintained online edition of the best-known Haskell introduction. Against the academic Haskell texts the difference is tone: it gets to monads through drawings and incremental examples rather than category theory.",
@@ -429,7 +476,8 @@
     "tags": [
       "öğretici",
       "python",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Python, SQL ve R’ı çalıştırılabilir örneklerle öğreten site; her kavram tek bir küçük kod parçasıyla açılıyor. Belgelerden farkı sıra: önce çalışan örnek, sonra açıklama — sözdizimini hatırlamak için hızlı bir referans olarak da işe yarıyor.",
     "en": "Teaches Python, SQL and R through runnable examples, opening each concept with one small piece of code. Against documentation the order is reversed — working example first, explanation after — which also makes it a fast syntax refresher.",
@@ -441,11 +489,18 @@
     "tags": [
       "ücretsiz",
       "öğretici",
-      "python"
+      "python",
+      "orta"
     ],
     "tr": "Python ile adım adım yorumlayıcı yazdıran uzun seri; sözcüksel çözümlemeden soyut sözdizimi ağacına kadar her parçayı elle kurduruyor. Crafting Interpreters’tan farkı Python ile, bir Pascal alt kümesi üzerinden ilerlemesi.",
     "en": "A long series building an interpreter step by step in Python, constructing every piece by hand from lexing to the abstract syntax tree. Unlike Crafting Interpreters, it works in Python on a subset of Pascal.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://craftinginterpreters.com/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://llvm.org/docs/GettingStartedTutorials.html",
@@ -453,12 +508,19 @@
     "tags": [
       "dokümantasyon",
       "c-ailesi",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "LLVM altyapısına giriş ve Kaleidoscope öğreticisi — kendi dilini yazmanın klasik başlangıcı. Sıfırdan derleyici yazmaktan farkı eniyileme ve kod üretimini LLVM’e bırakıp yalnız ön yüzü yazman; ara temsil (IR) kavramını somutlaştırıyor.",
     "en": "An introduction to the LLVM infrastructure plus the Kaleidoscope tutorial, the classic starting point for writing your own language. Unlike writing a compiler from scratch, you write only the front end and leave optimisation and code generation to LLVM; it makes the IR concept concrete.",
     "src": "kedi",
-    "added": 1776145899
+    "added": 1776145899,
+    "vs": [
+      {
+        "u": "https://norasandler.com/2017/11/29/Write-a-Compiler.html",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.lua.org/",
@@ -466,7 +528,8 @@
     "tags": [
       "açık-kaynak",
       "gömülü",
-      "ücretsiz"
+      "ücretsiz",
+      "dokümantasyon"
     ],
     "tr": "Gömülmeye elverişli, hafif betik dili; oyun motorlarında, gömülü sistemlerde ve Neovim’de yaygın. Python’dan farkı çalışma zamanının çok küçük olması ve bir C programına kolayca gömülebilmesi.",
     "en": "A lightweight, embeddable scripting language, common in game engines, embedded systems and Neovim. Unlike Python its runtime is tiny and it embeds easily into a C program.",
@@ -527,7 +590,8 @@
     "name": "PyCoder’s Weekly",
     "tags": [
       "python",
-      "ücretsiz"
+      "ücretsiz",
+      "referans"
     ],
     "tr": "Python haber, makale ve proje bağlantılarını derleyen haftalık e-posta bülteni. Genel akışlardan farkı Python’a odaklı ve elle seçilmiş olması.",
     "en": "A weekly email newsletter of Python news, articles and projects. Unlike general feeds it is Python-only and hand-picked.",
@@ -541,7 +605,8 @@
       "açık-kaynak",
       "python",
       "cli",
-      "ücretsiz"
+      "ücretsiz",
+      "masaüstü"
     ],
     "tr": "Python uygulamasını yorumlayıcısıyla tek bir çalıştırılabilir dosyaya paketleyen araç (Windows, macOS, Linux). py2exe gibi tek platformlu araçlardan farkı üç sistemi de desteklemesi.",
     "en": "Bundles a Python application with its interpreter into a single executable for Windows, macOS and Linux. Unlike single-platform tools such as py2exe it covers all three.",
@@ -567,7 +632,8 @@
     "tags": [
       "veri-bilimi",
       "açık-kaynak",
-      "ücretsiz"
+      "ücretsiz",
+      "dokümantasyon"
     ],
     "tr": "İstatistik ve veri analizi için tasarlanmış dil ve ortam; CRAN’da on binlerce istatistik paketi var. Python’dan farkı yeni istatistik yöntemlerinin çoğunlukla önce burada yayımlanması ve ggplot2 gibi grafik araçları.",
     "en": "A language and environment designed for statistics and data analysis, with tens of thousands of packages on CRAN. Unlike Python, new statistical methods usually appear here first, and it has graphics tools such as ggplot2.",
@@ -579,7 +645,8 @@
     "tags": [
       "açık-kaynak",
       "dokümantasyon",
-      "ücretsiz"
+      "ücretsiz",
+      "backend"
     ],
     "tr": "Okunabilirliği ve geliştirici mutluluğunu öne alan çok paradigmalı dil; Rails’in dili. Python’dan farkı her şeyin nesne olması ve DSL yazmaya elverişli esnek sözdizimi.",
     "en": "A multi-paradigm language foregrounding readability and developer happiness — the language of Rails. Unlike Python, everything is an object and its flexible syntax lends itself to DSLs.",
@@ -603,7 +670,8 @@
     "tags": [
       "ücretsiz",
       "türkçe",
-      "python"
+      "python",
+      "başlangıç"
     ],
     "tr": "Python sanal ortamlarını Türkçe anlatan kısa giriş; kavramı ilk kez duyanlar için yeterli. Klasik venv yerine modern araç zinciri artık uv tarafına kayıyor; onu da bilmekte fayda var.",
     "en": "A short Turkish introduction to Python virtual environments, sufficient on first contact. The modern toolchain is shifting to uv instead of classic venv, which is worth knowing alongside.",
@@ -615,7 +683,9 @@
     "name": "SICP",
     "tags": [
       "ücretsiz",
-      "kitap"
+      "kitap",
+      "akademik",
+      "orta"
     ],
     "tr": "Bilgisayar Programlarının Yapısı ve Yorumlanması — MIT’nin klasik ders kitabının okunabilir HTML sürümü. Dil öğreten kitaplardan farkı soyutlama kurmayı öğretmesi; Scheme yalnız araç.",
     "en": "Structure and Interpretation of Computer Programs, MIT’s classic text in a readable HTML edition. Unlike books that teach a language it teaches how to build abstractions; Scheme is just the vehicle.",
@@ -627,23 +697,37 @@
     "tags": [
       "açık-kaynak",
       "dokümantasyon",
-      "ücretsiz"
+      "ücretsiz",
+      "mobil"
     ],
     "tr": "Apple’ın öncelikle iOS için geliştirdiği, güvenli ve hızlı derlenen dil; Linux ve sunucuda da çalışıyor. Objective-C’den farkı optional’larla gelen güvenli bellek modeli ve modern sözdizimi.",
     "en": "Apple’s safe, fast-compiled language, developed primarily for iOS and also running on Linux and servers. Unlike Objective-C it has a safe memory model built around optionals and a modern syntax.",
-    "src": "awesomeproj"
+    "src": "awesomeproj",
+    "vs": [
+      {
+        "u": "https://kotlinlang.org/",
+        "a": "platform"
+      }
+    ]
   },
   {
     "url": "https://talkpython.fm/",
     "name": "Talk Python To Me",
     "tags": [
       "python",
-      "ücretsiz"
+      "ücretsiz",
+      "ses"
     ],
     "tr": "Python, veri bilimi ve yapay zekâ üzerine haftalık podcast; araçların arkasındaki kişilerle söyleşi. Haber bültenlerinden farkı uzun, ayrıntılı konuşmalar olması.",
     "en": "A weekly podcast on Python, data science and AI, interviewing the people behind the tools. Unlike newsletters it offers long, detailed conversations.",
     "src": "pycrumbs",
-    "added": 1791536400
+    "added": 1791536400,
+    "vs": [
+      {
+        "u": "https://pycoders.com/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://guide.bash.academy",
@@ -652,7 +736,8 @@
       "cli",
       "kitap",
       "ücretsiz",
-      "referans"
+      "referans",
+      "başlangıç"
     ],
     "tr": "Bash’i baştan sona, doğru alışkanlıklarla öğreten rehber; tırnaklama ve kelime bölme gibi tuzakları erkenden ele alıyor. Kopyala-yapıştır öğreticilerinden farkı bu — çoğu betik hatası tam olarak o tuzaklardan çıkıyor.",
     "en": "A guide teaching Bash end to end with the right habits, tackling quoting and word splitting early. That is the break from copy-paste tutorials: most script bugs come from exactly those traps.",
@@ -664,7 +749,8 @@
     "tags": [
       "python",
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Sık yapılan Python hatalarını yanlış ve doğru örneğiyle gösteren kısa kitap. Üslup kılavuzlarından farkı yanlışın neye benzediğini göstermesi.",
     "en": "A short book of common Python mistakes, each with the wrong and the right form. Unlike style guides it shows what wrong looks like.",
@@ -676,11 +762,19 @@
     "name": "The Super Tiny Compiler",
     "tags": [
       "öğretici",
-      "ücretsiz"
+      "ücretsiz",
+      "javascript",
+      "orta"
     ],
     "tr": "Yorum satırlarıyla açıklanmış, birkaç yüz satırlık minik bir derleyici. Kitap boyu derleyici kaynaklarından farkı tüm aşamaları — ayrıştırma, dönüştürme, kod üretimi — tek oturumda okunabilir kılması.",
     "en": "A tiny compiler of a few hundred heavily commented lines. Unlike book-length compiler resources, it makes every stage — parsing, transformation, code generation — readable in a single sitting.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://craftinginterpreters.com/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://docs.astral.sh/uv/",
@@ -689,7 +783,7 @@
       "açık-kaynak",
       "rust",
       "python",
-      "referans",
+      "araç",
       "ücretsiz"
     ],
     "tr": "Rust ile yazılmış paket ve proje yöneticisi; pip’ten onlarca kat hızlı. venv, pip, pip-tools ve pyenv’in işini tek ikili dosyada topluyor.",
@@ -703,7 +797,8 @@
     "tags": [
       "ücretsiz",
       "öğretici",
-      "c-ailesi"
+      "c-ailesi",
+      "ileri"
     ],
     "tr": "C derleyicisini parça parça yazdıran yazı dizisi. Tüm dili tek seferde hedefleyen anlatımlardan farkı her bölümün, dilin küçük bir alt kümesini derleyebilen çalışan bir program bırakması.",
     "en": "A series writing a C compiler piece by piece. Unlike treatments that aim at the whole language at once, each part leaves you a working program that compiles a small subset of it.",
@@ -715,11 +810,18 @@
     "tags": [
       "ücretsiz",
       "türkçe",
-      "python"
+      "python",
+      "başlangıç"
     ],
     "tr": "Python’un en kapsamlı Türkçe kaynağı ve çeviri değil; baştan Türkçe yazılmış olduğu için terimler zorlama durmuyor. Karakter kodlaması bölümü Türkçe metinle çalışanlar için özellikle değerli.",
     "en": "The most comprehensive Turkish Python resource, written natively rather than translated, so the terminology does not feel forced. Its encoding chapter is especially valuable if you work with Turkish text.",
     "src": "kedi",
-    "added": 1772721067
+    "added": 1772721067,
+    "vs": [
+      {
+        "u": "https://python.swaroopch.com",
+        "a": "kapsam"
+      }
+    ]
   }
 ]

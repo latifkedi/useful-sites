@@ -28,11 +28,18 @@
     "name": "Classiq",
     "tags": [
       "kuantum",
-      "freemium"
+      "freemium",
+      "araç"
     ],
     "tr": "Kuantum devrelerini işlevsel modellerden sentezleyen üst düzey tasarım platformu. Qiskit gibi kapı düzeyinde çalışan araçlardan farkı ne istediğini tarif edip devreyi platformun üretmesi.",
     "en": "A high-level platform that synthesises quantum circuits from functional models. Unlike gate-level tools such as Qiskit, you describe what you want and the platform generates the circuit.",
-    "src": "kedi"
+    "src": "kedi",
+    "vs": [
+      {
+        "u": "https://www.ibm.com/quantum/qiskit",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://quantum.cloud.ibm.com/docs/en/guides",
@@ -40,7 +47,8 @@
     "tags": [
       "ücretsiz",
       "dokümantasyon",
-      "donanım"
+      "donanım",
+      "kuantum"
     ],
     "tr": "Gerçek kuantum işlemcilerine kuyrukla erişim veriyor; Qiskit ile devre yazıp gönderiyorsun. Simülatörlerden farkı, onların gizlediği gürültü ve hata oranlarıyla ancak burada karşılaşman.",
     "en": "Queued access to real quantum processors, with circuits written and submitted through Qiskit. Unlike simulators, this is where you meet the noise and error rates they hide.",
@@ -53,7 +61,8 @@
     "tags": [
       "ücretsiz",
       "türkçe",
-      "müfredat"
+      "müfredat",
+      "kuantum"
     ],
     "tr": "Microsoft’un kuantum hesaplama eğitim kaynaklarının Türkçe derlemesi. Dağınık İngilizce kaynakların yerine alana sıralı bir giriş noktası sunuyor.",
     "en": "A Turkish compilation of Microsoft’s quantum computing learning resources. Instead of scattered English resources, it offers an ordered way into the field.",
@@ -66,7 +75,8 @@
     "tags": [
       "akademik",
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "kuantum"
     ],
     "tr": "Microsoft’un erken dönem kuantum simülasyon platformu. Bugünkü Q#’ın aksine artık geliştirilmiyor; alanın araç zincirinin nasıl evrildiğini görmek dışında pratik değeri kalmadı.",
     "en": "Microsoft’s early quantum simulation platform. Unlike today’s Q# it is no longer developed; little practical value remains beyond seeing how the field’s toolchain evolved.",
@@ -78,7 +88,8 @@
     "name": "Microsoft Kuantum Yol Haritası",
     "tags": [
       "ücretsiz",
-      "referans"
+      "referans",
+      "kuantum"
     ],
     "tr": "Gürültülü ara ölçek (NISQ) aşamasından hata düzeltmeli mantıksal kübitlere uzanan aşamalar. Haber başlıklarından farkı her aşamayı ölçütle tanımlaması — alanın vaatlerinden hangisinin bugün, hangisinin on yıl sonra olduğunu tartmak için; ama bir şirket yol haritası olduğunu unutma.",
     "en": "The stages from noisy intermediate-scale (NISQ) to error-corrected logical qubits. Unlike headlines it defines each stage by criteria — useful for weighing which promises are now and which a decade out, though it is a company’s roadmap.",
@@ -91,7 +102,8 @@
     "tags": [
       "açık-kaynak",
       "c-ailesi",
-      "ücretsiz"
+      "ücretsiz",
+      "kuantum"
     ],
     "tr": "Q# derleyicisi ve simülatörünün kaynak kodu. Kurulum sayfasından farkı iç işleyişi göstermesi: bir kuantum devresinin nasıl derlenip simüle edildiğini görmek isteyenler için.",
     "en": "Source for the Q# compiler and simulator. Unlike the install page it shows the internals — for anyone who wants to see how a quantum circuit is compiled and simulated.",
@@ -103,7 +115,8 @@
     "name": "Neden Q#?",
     "tags": [
       "ücretsiz",
-      "referans"
+      "referans",
+      "kuantum"
     ],
     "tr": "Kuantum için neden ayrı bir dile ihtiyaç duyulduğunu anlatıyor. Qiskit gibi Python kütüphanelerinin aksine ayrı dil seçilmesinin gerekçesi: klonlanamama ve ölçümün durumu bozması gibi kısıtlar klasik dil kalıplarına oturmuyor.",
     "en": "Explains why quantum needs its own language. Unlike Python libraries such as Qiskit, a separate language was chosen because constraints like no-cloning and measurement collapsing state do not fit classical idioms.",
@@ -121,7 +134,13 @@
     ],
     "tr": "Xanadu’nun kuantum makine öğrenmesi için türevlenebilir programlama çatısı. Qiskit’ten farkı donanımdan bağımsız olması ve PyTorch ya da JAX ile otomatik türev alabilmesi.",
     "en": "Xanadu’s differentiable-programming framework for quantum machine learning. Unlike Qiskit it is hardware-agnostic and computes gradients automatically with PyTorch or JAX.",
-    "src": "kedi"
+    "src": "kedi",
+    "vs": [
+      {
+        "u": "https://www.ibm.com/quantum/qiskit",
+        "a": "platform"
+      }
+    ]
   },
   {
     "url": "https://learn.microsoft.com/en-us/azure/quantum/install-overview-qdk",
@@ -129,12 +148,19 @@
     "tags": [
       "dokümantasyon",
       "öğretici",
-      "ücretsiz"
+      "ücretsiz",
+      "kuantum"
     ],
     "tr": "Q# ve QDK kurulumu; VS Code uzantısıyla yerel simülatörde devre çalıştırmanın en kısa yolu. IBM Quantum’dan farkı donanım erişimi gerekmeden kendi makinende başlaman.",
     "en": "Installing Q# and the QDK; the VS Code extension is the shortest path to running circuits on a local simulator. Unlike IBM Quantum, you start on your own machine without any hardware access.",
     "src": "kedi",
-    "added": 1782456766
+    "added": 1782456766,
+    "vs": [
+      {
+        "u": "https://quantum.cloud.ibm.com/docs/en/guides",
+        "a": "barindirma"
+      }
+    ]
   },
   {
     "url": "https://www.ibm.com/quantum/qiskit",
@@ -258,12 +284,19 @@
       "açık-kaynak",
       "python",
       "veri-bilimi",
-      "ücretsiz"
+      "ücretsiz",
+      "kuantum"
     ],
     "tr": "Parametreli kuantum devrelerini Keras katmanı gibi kullanıp klasik ağlarla birleştiriyor. PennyLane’e kıyasla TensorFlow’a bağlı ve topluluğu daha küçük; hibrit klasik-kuantum modellerin deneysel olarak araştırıldığı yerlerden.",
     "en": "Wraps parameterised quantum circuits as Keras-style layers to combine with classical networks. Compared with PennyLane it is tied to TensorFlow with a smaller community; one of the places hybrid classical-quantum models are explored.",
     "src": "kedi",
-    "added": 1785946368
+    "added": 1785946368,
+    "vs": [
+      {
+        "u": "https://pennylane.ai",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://thequantuminsider.com",
@@ -284,7 +317,8 @@
       "kuantum",
       "interaktif",
       "akademik",
-      "ücretsiz"
+      "ücretsiz",
+      "tarayıcı-içi"
     ],
     "tr": "Kuantum optik deneylerini tasarlayıp simüle eden tarayıcı tabanlı laboratuvar. Quantum Flytrap’tan farkı oyunlaştırma yerine araştırma düzeyinde doğruluk hedeflemesi — ders laboratuvarı yerine geçebiliyor.",
     "en": "A browser-based laboratory for designing and simulating quantum optics experiments. Against Quantum Flytrap it aims at research-grade accuracy rather than gamification, enough to stand in for a teaching lab.",

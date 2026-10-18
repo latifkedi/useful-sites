@@ -21,13 +21,16 @@ import readlinks   # noqa: E402
 
 ROOT = os.path.join(D, '..')
 
-# topic -> regex over "name + tags + English description"
+# topic -> regex over "name + tags + descriptions", or 'tag:<canonical tag>' to count
+# a tag exactly. The natural sciences (chemistry, biology, astronomy) and hobbies
+# (chess) were dropped: CONTRIBUTING.md leaves them out on purpose, so counting them
+# only produced gaps nobody intends to fill.
 TOPICS = {
     'WebAssembly': r'webassembly|\bwasm\b',
     'Accessibility (a11y)': r'accessib|\ba11y\b|wcag',
     'Regular expressions': r'\bregex|regular expression',
     'LaTeX / typesetting': r'latex|typesetting',
-    'GIS / maps': r'\bgis\b|openstreetmap|geospatial|cartograph',
+    'GIS / maps': r'\bgis\b|openstreetmap|geospatial|cartograph|geojson|shapefile',
     'Compilers / interpreters': r'compiler|interpreter|parser',
     'Operating-system internals': r'kernel|operating system',
     'Embedded / microcontrollers': r'arduino|microcontroller|embedded|esp32|raspberry',
@@ -35,14 +38,12 @@ TOPICS = {
     'Cryptography': r'cryptograph|encryption',
     'Digital audio / music': r'\bmusic\b|\baudio\b|synth',
     'Video / streaming': r'\bvideo\b|streaming|ffmpeg',
-    'Chess / puzzles': r'\bchess\b|puzzle',
-    'Astronomy / space': r'astronom|\bspace\b|telescope',
-    'Biology / genomics': r'biolog|genom|bioinformat',
-    'Chemistry': r'chemi',
     'Linguistics / languages': r'linguist|language learning|dictionary|grammar',
     'Low-code / no-code': r'low-code|no-code|nocode',
     'Open hardware / 3D printing': r'3d print|open hardware|cad\b',
-    'Law / privacy regulation': r'\bgdpr\b|\blaw\b|legal|regulation',
+    'Law / regulation': r'\bgdpr\b|\blaw\b|legal|regulation|legislation|mevzuat|kvkk',
+    'Research tools (citations, literature)': r'reference manager|citation|literature|scholarly|bibliograph',
+    'Turkish-language resources': 'tag:türkçe',
     'Accessibility of content (reading)': r'screen reader|dyslexi',
     'Career / interviews': r'interview|career|resume|\bcv\b',
     'Developer experience / docs': r'documentation|docs',
@@ -61,8 +62,11 @@ def main():
     texts = [t + ' ' + e.lower() for t, e in zip(texts, en)]
     out = []
     for name, pat in TOPICS.items():
-        rx = re.compile(pat, re.I)
-        n = sum(1 for t in texts if rx.search(t))
+        if pat.startswith('tag:'):
+            n = sum(1 for r in rows if pat[4:] in r.get('tags', []))
+        else:
+            rx = re.compile(pat, re.I)
+            n = sum(1 for t in texts if rx.search(t))
         out.append((n, name))
     print('%d records' % len(rows))
     for n, name in sorted(out):

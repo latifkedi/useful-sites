@@ -16,7 +16,7 @@
     "name": "ArchDaily",
     "tags": [
       "referans",
-      "görsel-üretim",
+      "tasarım",
       "ücretsiz"
     ],
     "tr": "Dünyanın en çok okunan mimari yayınlarından biri — günlük proje, çizim ve malzeme haberi. Pinterest tarzı panolardan farkı her projeyi plan, kesit ve mimarın açıklamasıyla vermesi.",
@@ -28,7 +28,8 @@
     "name": "Archello",
     "tags": [
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "tasarım"
     ],
     "tr": "Projeleri, ürünleri ve markaları bir arada toplayan mimarlık ve tasarım platformu. Mimarlık haber sitelerinden farkı yapı malzemesi ve ürünleri projelerle ilişkilendirmesi: bir yapıda neyin kullanıldığını gösteriyor.",
     "en": "An architecture and design platform gathering projects, products and brands in one place. Unlike architecture news sites it links building materials and products to projects — showing what was used in a build.",
@@ -57,14 +58,21 @@
     ],
     "tr": "Revit’e rakip, mimar odaklı BIM yazılımı. Revit’ten farkı arayüzünün doğrudan mimari tasarım akışına göre kurgulanmış olması — mühendislik modüllerinden çok tasarıma eğilir.",
     "en": "An architect-focused BIM software rivalling Revit. Unlike Revit its interface is built around the architectural design flow — leaning to design more than engineering modules.",
-    "src": "kedi"
+    "src": "kedi",
+    "vs": [
+      {
+        "u": "https://www.autodesk.com/products/revit/overview",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://archinect.com",
     "name": "Archinect",
     "tags": [
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "tasarım"
     ],
     "tr": "Mimarlık haberleri, iş ilanları ve tartışmalarını bir araya getiren köklü topluluk sitesi. Proje galerilerinden farkı meslek tarafına — iş, eğitim, ofis kültürü — odaklanması.",
     "en": "A long-running community site gathering architecture news, jobs and discussion. Unlike project galleries it focuses on the profession — jobs, education, office culture.",
@@ -75,7 +83,7 @@
     "name": "Architizer",
     "tags": [
       "referans",
-      "görsel-üretim",
+      "tasarım",
       "freemium"
     ],
     "tr": "Mimari projeleri ve yapı ürünlerini birlikte dizinleyen platform. Salt ilham sitelerinden farkı projede kullanılan gerçek ürün ve üreticiyi de bağlaması.",
@@ -100,7 +108,7 @@
     "name": "Designboom",
     "tags": [
       "referans",
-      "görsel-üretim",
+      "tasarım",
       "ücretsiz"
     ],
     "tr": "Mimarlık, tasarım ve sanatı geniş kapsamla işleyen köklü çevrimiçi yayın. Uzmanlaşmış mimarlık dergilerinden farkı ürün tasarımı, sanat ve teknolojiyi de kapsayan geniş bir alanda gezinmesi.",
@@ -124,31 +132,44 @@
     "name": "Dezeen",
     "tags": [
       "referans",
-      "görsel-üretim",
+      "tasarım",
       "ücretsiz"
     ],
     "tr": "Mimari ve tasarımı gazetecilik diliyle işleyen dergi. ArchDaily’nin proje arşivinden farkı habere, söyleşiye ve eleştiriye ağırlık vermesi.",
     "en": "A magazine covering architecture and design with a journalistic voice. Unlike ArchDaily’s project archive it leans on news, interviews and criticism.",
-    "src": "kedi"
+    "src": "kedi",
+    "vs": [
+      {
+        "u": "https://www.archdaily.com/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://divisare.com/",
     "name": "Divisare",
     "tags": [
       "referans",
-      "görsel-üretim",
+      "tasarım",
       "freemium"
     ],
     "tr": "Mimariyi yalnız fotoğraf üzerinden, yavaş ve seçici sunan arşiv. Hızlı akışlardan farkı projeyi bir fotoğraf serisi gibi, dikkatle küre edip sunması.",
     "en": "An archive presenting architecture through photography alone, slow and selective. Unlike fast feeds it curates each project like a careful photo series.",
-    "src": "kedi"
+    "src": "kedi",
+    "vs": [
+      {
+        "u": "https://www.archdaily.com/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.domusweb.it/en.html",
     "name": "Domus",
     "tags": [
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "tasarım"
     ],
     "tr": "1928’den beri süren, mimarlık ve tasarımda otorite sayılan İtalyan dergisinin arşivi. Güncel haber sitelerinden farkı derin bir tarihsel arşive ve eleştirel kuram geleneğine yaslanması.",
     "en": "The archive of the authoritative Italian magazine on architecture and design, running since 1928. Unlike current news sites it rests on a deep historical archive and a tradition of critical theory.",
@@ -159,7 +180,7 @@
     "name": "Enscape",
     "tags": [
       "3b",
-      "görsel-üretim",
+      "tasarım",
       "ücretli"
     ],
     "tr": "Revit, Rhino ve SketchUp içine gömülen gerçek zamanlı görselleştirme aracı. Ayrı render programlarından farkı modeli dışa aktarmadan, tasarlarken anında foto-gerçekçi görüntü vermesi.",
@@ -195,7 +216,7 @@
     "name": "Parametric Architecture",
     "tags": [
       "referans",
-      "görsel-üretim",
+      "tasarım",
       "ücretsiz"
     ],
     "tr": "Parametrik ve hesaplamalı tasarım, mimaride yapay zekâ konularına odaklı yayın. Genel mimarlık dergilerinden farkı yalnız hesaplamalı ve üretken tasarım yöntemlerine yoğunlaşması.",
@@ -207,7 +228,8 @@
     "name": "Pritzker Prize",
     "tags": [
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "tasarım"
     ],
     "tr": "Mimarlığın en yüksek ödülü olan Pritzker’in resmî sitesi — laurealar ve gerekçeleri. Genel listelerden farkı alanın kanonunu, jüri değerlendirmesiyle yıl yıl vermesi.",
     "en": "The official site of the Pritzker Prize, architecture’s highest honour — laureates and citations. Unlike general lists it gives the field’s canon year by year, with the jury’s reasoning.",
@@ -278,7 +300,8 @@
     "name": "World-Architects",
     "tags": [
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "tasarım"
     ],
     "tr": "Seçilmiş mimarların profillerini ve projelerini ülke ülke sunan uluslararası rehber. Açık dizinlerden farkı üyeliğin denetimden geçmesi: bir kalite süzgeci işlevi görüyor.",
     "en": "An international directory presenting profiles and projects of selected architects country by country. Unlike open directories membership is vetted, so it works as a quality filter.",

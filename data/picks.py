@@ -3,7 +3,8 @@
 
 Arastirmada dizinlerin en buyuk eksigi "kalite ayrimi yok" olarak cikti:
 598 kaydin hepsi esit gorununce yeni gelen nereden baslayacagini bilemiyor.
-Two or three entries per category, marked as where someone new to the
+Two to four entries per category (test_build.py holds the floor at two;
+more than four stops reading as "start here"), marked as where someone new to the
 area should go first. Not "the best" -- "start here".
 """
 
@@ -71,7 +72,6 @@ PICKS = {
     'https://elicit.com/',                                                           # Elicit
     # --- donanim
     'https://www.onshape.com/en/',                                                   # Onshape
-    'https://openipc.org/',                                                          # OpenIPC
     'https://www.mcmaster.com/',                                                     # McMaster-Carr
     # --- gozluk
     'https://github.com/Mentra-Community/MentraOS',                                  # MentraOS
@@ -133,7 +133,6 @@ PICKS = {
     # --- sertifika yol haritasi alimi
     'https://pauljerimy.com/security-certification-roadmap/',                        # Security Certification Roadmap
     'https://www.offsec.com/',                                                       # OffSec
-    'https://www.comptia.org/',                                                      # CompTIA
     'https://www.giac.org/',                                                         # GIAC
     # --- test, oyun, elektronik, veri_muh, matematik, ekonomi, mimari, korsan
     # --- test

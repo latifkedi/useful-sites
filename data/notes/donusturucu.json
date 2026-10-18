@@ -19,7 +19,7 @@
     "tags": [
       "tarayıcı-içi",
       "ücretsiz",
-      "referans"
+      "araç"
     ],
     "tr": "Biçimlendirme, doğrulama ve dönüştürme araçlarının toplandığı site: JSON, XML, YAML, SQL, Base64. IT Tools’tan farkı daha geniş ama daha reklamlı olması — burada olmayan bir dönüşüm bulmak zor.",
     "en": "A collection of formatting, validation and conversion tools covering JSON, XML, YAML, SQL and Base64. Against IT Tools it is broader but heavier on ads — it is hard to find a conversion it lacks.",
@@ -30,7 +30,8 @@
     "name": "CORS Tester",
     "tags": [
       "ücretsiz",
-      "api"
+      "api",
+      "araç"
     ],
     "tr": "Bir API’nin CORS başlıklarını dışarıdan test ediyor. Tarayıcı konsolunun belirsiz CORS hatasından farkı sorunun hangi başlıktan geldiğini açıkça söylemesi.",
     "en": "Tests an API’s CORS headers from the outside. Unlike the vague CORS error in the browser console, it tells you plainly which header is at fault.",
@@ -54,11 +55,17 @@
     "tags": [
       "tarayıcı-içi",
       "ücretsiz",
-      "referans"
+      "araç"
     ],
     "tr": "Düzenli ifadeyi durum diyagramına çeviren görsel test aracı; JavaScript, Python ve PCRE destekliyor. regex101’den farkı jeton listesi yerine akış şeması çizmesi — iç içe grupların yapısını görmek için daha okunaklı.",
     "en": "A visual regex tester that draws the expression as a state diagram, covering JavaScript, Python and PCRE. Where regex101 lists tokens, this draws a flow chart, which reads better for nested groups.",
-    "src": "awesome-uw"
+    "src": "awesome-uw",
+    "vs": [
+      {
+        "u": "https://regex101.com/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.diffchecker.com/",
@@ -66,7 +73,7 @@
     "tags": [
       "tarayıcı-içi",
       "ücretsiz",
-      "referans"
+      "araç"
     ],
     "tr": "Metin, görsel, PDF ve klasör karşılaştıran fark aracı. `diff` komutundan farkı biçimlendirme ve görsel karşılaştırma yapabilmesi — iki PDF sözleşme arasındaki farkı bulmak için komut satırı yetmiyor.",
     "en": "A diff tool for text, images, PDFs and folders. Against the `diff` command it handles formatted and visual comparison — the command line will not tell you what changed between two PDF contracts.",
@@ -78,7 +85,7 @@
     "tags": [
       "cli",
       "ücretsiz",
-      "referans"
+      "araç"
     ],
     "tr": "Bir kabuk komutunu yapıştırınca her parçasının man sayfasındaki karşılığını gösteriyor. `man` okumaktan farkı ters yönde çalışması — elindeki komutun `-xzvf` kısmının ne anlama geldiğini kılavuzu taramadan öğreniyorsun.",
     "en": "Paste a shell command and it maps every fragment to its entry in the man page. Against reading `man` it works backwards — you learn what the `-xzvf` in front of you means without scanning the manual.",
@@ -102,7 +109,8 @@
     "tags": [
       "açık-kaynak",
       "ücretsiz",
-      "veritabanı"
+      "veritabanı",
+      "araç"
     ],
     "tr": "İstenen şemaya göre gerçekçi sahte test verisi üreten araç (CSV, JSON, SQL). Elle veri uydurmaktan farkı isim, adres gibi alanları tutarlı ve toplu üretmesi.",
     "en": "A tool generating realistic fake test data to a given schema (CSV, JSON, SQL). Unlike making data up by hand it produces fields like names and addresses consistently and in bulk.",
@@ -113,7 +121,8 @@
     "name": "gitignore.io",
     "tags": [
       "ücretsiz",
-      "git"
+      "git",
+      "araç"
     ],
     "tr": "İşletim sistemi, editör ve dil seçerek `.gitignore` dosyası üretiyor. GitHub’ın tek tek şablonlarından farkı birden çok şablonu birleştirmesi: her projede aynı satırları elle yazmaya son veriyor.",
     "en": "Generates a `.gitignore` from your operating system, editor and language choices. Unlike GitHub’s individual templates, it merges several at once — the end of retyping the same lines on every project.",
@@ -124,7 +133,8 @@
     "name": "Google Safe Browsing",
     "tags": [
       "güvenlik",
-      "ücretsiz"
+      "ücretsiz",
+      "araç"
     ],
     "tr": "Bir sitenin Google Güvenli Tarama kayıtlarında zararlı olarak işaretlenip işaretlenmediğini kontrol ediyor. VirusTotal gibi çok motorlu tarayıcılardan farkı yalnız Google’ın listesine bakması — Chrome kullanıcılarının göreceği uyarıyı önceden görürsün.",
     "en": "Checks whether a site is flagged as unsafe in Google’s Safe Browsing records. Unlike multi-engine scanners such as VirusTotal it consults only Google’s list — so you see in advance the warning Chrome users would get.",
@@ -135,7 +145,7 @@
     "name": "IEEE-754 Converter",
     "tags": [
       "tarayıcı-içi",
-      "referans",
+      "araç",
       "ücretsiz"
     ],
     "tr": "Ondalık sayı ile IEEE-754 kayan nokta gösterimi arasında iki yönlü dönüştürücü; bitleri tek tek çevirebiliyorsun. Hesap makinesinden farkı yuvarlama hatasının nereden geldiğini göstermesi — 0.1 + 0.2 sorusunun cevabı burada görünüyor.",
@@ -147,7 +157,8 @@
     "name": "Invertexto",
     "tags": [
       "tarayıcı-içi",
-      "ücretsiz"
+      "ücretsiz",
+      "araç"
     ],
     "tr": "Metin ters çevirme, sayaç, dönüştürme gibi küçük metin araçlarını bir arada sunan Portekizce site. Tek işlevli sitelerden farkı onlarca küçük aracı tek adreste toplaması.",
     "en": "A Portuguese-language site bundling small text utilities — reversing, counting, converting and more. Unlike single-purpose sites, it gathers dozens of small tools at one address.",
@@ -164,7 +175,13 @@
     ],
     "tr": "Seksen küsur geliştirici aracı tek sayfada: hash, JWT çözücü, cron ifadesi, UUID, renk dönüştürücü. Tek tek araç sitelerinden farkı hepsinin tarayıcıda çalışması ve Docker ile kendi sunucuna kurulabilmesi — veri dışarı çıkmıyor.",
     "en": "Eighty-odd developer utilities on one page: hashes, JWT decoding, cron expressions, UUIDs, colour conversion. Unlike the one-tool-per-site alternatives, everything runs in the browser and the whole thing self-hosts with Docker, so nothing leaves your machine.",
-    "src": "cdcruz"
+    "src": "cdcruz",
+    "vs": [
+      {
+        "u": "https://codebeautify.org/",
+        "a": "barindirma"
+      }
+    ]
   },
   {
     "url": "https://jscompress.com/",
@@ -184,18 +201,26 @@
     "tags": [
       "açık-kaynak",
       "tarayıcı-içi",
-      "ücretsiz"
+      "ücretsiz",
+      "araç"
     ],
     "tr": "JSON’u ağaç yerine düğüm grafiği olarak çiziyor; iç içe yapılar tek bakışta görülüyor. JSON biçimlendiricilerinden farkı bu grafik gösterim — derin bir yanıtın şeklini anlamak için girintilere bakmaktan hızlı.",
     "en": "Draws JSON as a node graph rather than a tree, so nested structures are visible at a glance. Against a JSON formatter that graph view is the point — faster than counting indentation to work out the shape of a deep response.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://jsoneditoronline.org/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://jsoneditoronline.org/",
     "name": "JSON Editor Online",
     "tags": [
       "tarayıcı-içi",
-      "ücretsiz"
+      "ücretsiz",
+      "araç"
     ],
     "tr": "JSON’u ağaç ve metin görünümünde inceleyip düzenleyen tarayıcı aracı. Düz metin editöründen farkı yapıyı katlayıp doğrulayarak büyük JSON’da gezinmeyi kolaylaştırması.",
     "en": "A browser tool to inspect and edit JSON in tree and text views. Unlike a plain editor it folds and validates the structure, making large JSON easy to navigate.",
@@ -206,7 +231,8 @@
     "name": "JSON Sort",
     "tags": [
       "tarayıcı-içi",
-      "ücretsiz"
+      "ücretsiz",
+      "araç"
     ],
     "tr": "JSON anahtarlarını alfabetik sıralayan ve biçimlendiren basit araç. jq gibi komut satırı araçlarından farkı tarayıcıda, sorgu yazmadan çalışması: iki JSON’u karşılaştırmadan önce sıralamak için.",
     "en": "A simple tool that alphabetically sorts and formats JSON keys. Unlike command-line tools such as jq it works in the browser with no query to write — handy for sorting two JSON files before comparing them.",
@@ -217,7 +243,8 @@
     "name": "JSONLint",
     "tags": [
       "tarayıcı-içi",
-      "ücretsiz"
+      "ücretsiz",
+      "araç"
     ],
     "tr": "JSON doğrulayıcı ve biçimlendirici; hatanın hangi satırda ve neden olduğunu söylüyor. Editör eklentisinden farkı bir şey kurmadan çalışması — API’den gelen bozuk yanıtı hızlıca incelemek için.",
     "en": "A JSON validator and formatter that tells you which line failed and why. Against an editor plugin it needs nothing installed, which is what you want when checking a malformed API response in a hurry.",
@@ -228,7 +255,8 @@
     "name": "KeyCDN Tools",
     "tags": [
       "ağ",
-      "ücretsiz"
+      "ücretsiz",
+      "araç"
     ],
     "tr": "Ping, traceroute, HTTP başlık ve performans testi gibi ağ araçlarını bir arada sunuyor. Kendi makinenden ping atmaktan farkı testleri dünyanın farklı noktalarındaki sunuculardan yapması.",
     "en": "Bundles network tools like ping, traceroute, HTTP header and performance tests. Unlike pinging from your own machine, it runs the tests from servers in different parts of the world.",
@@ -240,7 +268,7 @@
     "tags": [
       "tarayıcı-içi",
       "ücretsiz",
-      "referans"
+      "araç"
     ],
     "tr": "Dönüştürücü, biçimlendirici ve üreteçlerden oluşan geliştirici araç koleksiyonu. IT Tools gibi derlemelerden farkı görsel ve metin araçlarını bir arada tutması — renk, görsel ve kod araçları aynı yerde.",
     "en": "A collection of developer converters, formatters and generators. Against compilations like IT Tools it keeps visual and textual tools together — colour, image and code utilities in one place.",
@@ -251,7 +279,8 @@
     "name": "Lorem Ipsum",
     "tags": [
       "ücretsiz",
-      "frontend"
+      "frontend",
+      "araç"
     ],
     "tr": "Tasarım denemeleri için yer tutucu metin (lorem ipsum) üreten klasik araç. Gerçek içerik yerine geçici olarak kullanılıyor; metnin kökeni ve tarihi de sayfada anlatılıyor.",
     "en": "The classic generator of placeholder text (lorem ipsum) for design mockups. It stands in temporarily instead of real content, and the page also explains where the text comes from.",
@@ -262,11 +291,18 @@
     "name": "Mockaroo",
     "tags": [
       "veri-bilimi",
-      "freemium"
+      "freemium",
+      "araç"
     ],
     "tr": "Belirlediğin şemaya göre gerçekçi sahte test verisi (CSV, JSON, SQL) üreten araç. Faker gibi kütüphanelerden farkı kod yazmadan arayüzden alan tanımlayıp binlerce satır indirebilmen.",
     "en": "Generates realistic fake test data (CSV, JSON, SQL) to your chosen schema. Unlike libraries such as Faker, you define fields in a UI without code and download thousands of rows.",
-    "src": "awesomeproj"
+    "src": "awesomeproj",
+    "vs": [
+      {
+        "u": "https://www.generatedata.com/",
+        "a": "lisans"
+      }
+    ]
   },
   {
     "url": "https://danieldeev.github.io/password-generator/",
@@ -285,7 +321,8 @@
     "name": "regex101",
     "tags": [
       "ücretsiz",
-      "referans"
+      "araç",
+      "tarayıcı-içi"
     ],
     "tr": "İfadeyi jeton jeton açıklıyor ve hata ayıklayıcısıyla eşleşmenin nerede koptuğunu gösteriyor. RegExr’dan farkı PCRE, JavaScript, Python ve Go lehçeleri arasında geçiş yapabilmen.",
     "en": "Explains an expression token by token, and its debugger shows exactly where a match breaks down. Unlike RegExr, you can switch between the PCRE, JavaScript, Python and Go flavours.",
@@ -322,7 +359,13 @@
     ],
     "tr": "JavaScript düzenli ifadelerini demiryolu diyagramı olarak çizen araç. Debuggex’ten farkı tamamen istemci tarafında çalışması ve diyagramı SVG olarak dışa aktarabilmesi — belgeye koymak için elverişli.",
     "en": "Draws JavaScript regular expressions as railroad diagrams. Against Debuggex it runs entirely client-side and exports the diagram as SVG, which makes it useful for documentation.",
-    "src": "awesome-uw"
+    "src": "awesome-uw",
+    "vs": [
+      {
+        "u": "https://www.debuggex.com/",
+        "a": "barindirma"
+      }
+    ]
   },
   {
     "url": "https://soliddevtools.com",
@@ -342,7 +385,7 @@
     "tags": [
       "ücretsiz",
       "frontend",
-      "referans"
+      "araç"
     ],
     "tr": "Sayfayı yalnızca metne indiriyor. Tarayıcının okuma modundan farkı sayfanın tamamını düz metne çevirmesi: reklam ve düzen gürültüsünü kaldırmanın yanında ekran okuyucunun sayfayı nasıl gördüğünü kabaca test etmeye de yarıyor.",
     "en": "Strips a page to text only. Unlike a browser’s reader mode it converts the whole page to plain text — besides removing ads and layout noise, it roughly approximates what a screen reader sees.",
@@ -354,8 +397,9 @@
     "name": "Transform",
     "tags": [
       "ücretsiz",
-      "referans",
-      "açık-kaynak"
+      "araç",
+      "açık-kaynak",
+      "javascript"
     ],
     "tr": "Biçimler arası dönüştürücü koleksiyonu: JSON’dan TypeScript tipine, HTML’den JSX’e, SVG’den React bileşenine. Her dönüşüm için ayrı site aramak yerine hepsi tek yerde.",
     "en": "A collection of format converters — JSON to TypeScript types, HTML to JSX, SVG to a React component. Instead of hunting a separate site for each conversion, they are all in one place.",
@@ -367,7 +411,8 @@
     "name": "Wappalyzer",
     "tags": [
       "eklenti",
-      "freemium"
+      "freemium",
+      "frontend"
     ],
     "tr": "Bir sitenin hangi teknolojilerle (çatı, sunucu, analitik) kurulduğunu gösteren araç ve tarayıcı eklentisi. Kaynak kodu elle incelemekten farkı parmak izlerini otomatik tanıması.",
     "en": "A tool and browser extension revealing which technologies (framework, server, analytics) a website runs on. Unlike reading the source by hand, it recognises the fingerprints automatically.",
@@ -378,7 +423,8 @@
     "name": "Website Grader",
     "tags": [
       "ücretsiz",
-      "referans"
+      "araç",
+      "frontend"
     ],
     "tr": "HubSpot’un bir sitenin performans, SEO, mobil uyum ve güvenliğini puanlayan ücretsiz aracı. Lighthouse’a kıyasla daha yüzeysel ama sonucu teknik olmayan birine anlatılabilir bir karneye çeviriyor.",
     "en": "HubSpot’s free tool grading a site on performance, SEO, mobile and security. Compared with Lighthouse it is shallower, but turns the result into a report card a non-technical person can follow.",
@@ -389,10 +435,88 @@
     "name": "XML Sitemaps",
     "tags": [
       "ücretsiz",
-      "tarayıcı-içi"
+      "tarayıcı-içi",
+      "araç"
     ],
     "tr": "Bir siteyi tarayıp arama motorları için sitemap.xml dosyası üreten araç. Site üreteçlerinin yerleşik sitemap’inden farkı herhangi bir siteyi dışarıdan tarayabilmesi; ücretsiz sürüm 500 sayfayla sınırlı.",
     "en": "Crawls a site and builds the sitemap.xml file for search engines. Unlike a site generator’s built-in sitemap it can crawl any site from outside; the free version is capped at 500 pages.",
     "src": "awesomeproj"
+  },
+  {
+    "url": "https://www.tablesgenerator.com/",
+    "name": "Tables Generator",
+    "tags": [
+      "araç",
+      "tarayıcı-içi",
+      "hesap-gerekmez",
+      "ücretsiz"
+    ],
+    "tr": "Tabloyu hücre hücre görsel olarak kuruyorsun; çıktıyı LaTeX, HTML, Markdown, düz metin ya da MediaWiki olarak veriyor, CSV yapıştırmayı da kabul ediyor. Elle tabular yazmaktan farkı birleştirilmiş hücre ve kenarlık kodunu senin yerine üretmesi.",
+    "en": "You build a table cell by cell in a visual grid and it emits LaTeX, HTML, Markdown, plain text or MediaWiki, and accepts pasted CSV. Unlike writing a tabular by hand it generates the merged-cell and border code for you.",
+    "src": "bosluk",
+    "added": 1792281600
+  },
+  {
+    "url": "https://geojson.io/",
+    "name": "geojson.io",
+    "tags": [
+      "araç",
+      "tarayıcı-içi",
+      "hesap-gerekmez",
+      "ücretsiz",
+      "açık-kaynak"
+    ],
+    "tr": "Harita üzerinde nokta, çizgi ve alan çizip GeoJSON’u yan panelde düzenleyen tarayıcı aracı; KML, shapefile, CSV gibi biçimlere dışa aktarıyor. QGIS’ten farkı kurulumsuz olması: küçük bir veri parçasını hızla çizmek ya da düzeltmek için, analiz için değil.",
+    "en": "A browser tool for drawing points, lines and polygons on a map while editing the GeoJSON in a side panel; it exports to KML, shapefile, CSV and other formats. Unlike QGIS it needs no install: it is for quickly drawing or fixing a small piece of data, not for analysis.",
+    "src": "bosluk",
+    "added": 1792281600,
+    "vs": [
+      {
+        "u": "https://qgis.org/",
+        "a": "kapsam"
+      }
+    ]
+  },
+  {
+    "url": "https://mapshaper.org/",
+    "name": "Mapshaper",
+    "tags": [
+      "araç",
+      "tarayıcı-içi",
+      "cli",
+      "ücretsiz",
+      "açık-kaynak"
+    ],
+    "tr": "Shapefile, GeoJSON, TopoJSON ve CSV harita verisini tarayıcıda sadeleştirip biçimler arasında dönüştüren araç; aynı işlemler komut satırı sürümüyle betiklenebiliyor. geojson.io’dan farkı çizim değil, büyük sınır dosyalarını web için küçültmeye yönelik olması.",
+    "en": "A browser tool that simplifies map data in shapefile, GeoJSON, TopoJSON or CSV and converts between those formats; the same operations can be scripted with its command-line version. Unlike geojson.io it is not for drawing but for shrinking large boundary files for the web.",
+    "src": "bosluk",
+    "added": 1792281600,
+    "vs": [
+      {
+        "u": "https://geojson.io/",
+        "a": "kapsam"
+      }
+    ]
+  },
+  {
+    "url": "https://regexper.com/",
+    "name": "Regexper",
+    "tags": [
+      "araç",
+      "tarayıcı-içi",
+      "hesap-gerekmez",
+      "ücretsiz",
+      "açık-kaynak"
+    ],
+    "tr": "JavaScript düzenli ifadesini demiryolu diyagramına çeviriyor; gruplar, alternatifler ve tekrarlar kutu ve oklarla görünüyor. regex101’den farkı eşleşme test etmemesi: başkasının yazdığı karmaşık bir ifadenin yapısını bir bakışta anlamak için.",
+    "en": "Turns a JavaScript regular expression into a railroad diagram, with groups, alternatives and repetition drawn as boxes and arrows. Unlike regex101 it does not test matches: it is for grasping the structure of someone else’s complex expression at a glance.",
+    "src": "bosluk",
+    "added": 1792281600,
+    "vs": [
+      {
+        "u": "https://regex101.com/",
+        "a": "kapsam"
+      }
+    ]
   }
 ]

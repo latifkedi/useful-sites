@@ -9,7 +9,13 @@
     ],
     "tr": "Grant Sanderson’ın matematiği animasyonla anlatan kanalı ve sitesi — lineer cebir, kalkülüs, analiz. Ders anlatımlarından farkı formülü değil ardındaki resmi göstermesi.",
     "en": "Grant Sanderson’s channel and site explaining mathematics through animation — linear algebra, calculus, analysis. Unlike lectures it shows the picture behind the formula, not just the formula.",
-    "src": "kedi"
+    "src": "kedi",
+    "vs": [
+      {
+        "u": "https://betterexplained.com/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://abstractmath.org/",
@@ -52,7 +58,8 @@
     "name": "BetterExplained",
     "tags": [
       "öğretici",
-      "ücretsiz"
+      "ücretsiz",
+      "akademik"
     ],
     "tr": "Matematiği ezber yerine sezgiyle anlatan yazı dizisi — üstel fonksiyon, Euler formülü, kalkülüs. Resmî anlatımdan farkı “neden böyle” sorusuna analoji ve resimle cevap vermesi.",
     "en": "A set of essays explaining maths by intuition rather than memorisation — exponentials, Euler’s formula, calculus. Unlike formal treatments it answers “why is it like this” with analogy and pictures.",
@@ -68,7 +75,13 @@
     ],
     "tr": "Hızlı ve paylaşılabilir etkileşimli grafikler çizen ücretsiz çevrimiçi grafik hesap makinesi. GeoGebra’ya kıyasla daha sade ve grafiğe odaklı: fonksiyon çizip parametreleri kaydırarak anında sonucu görmek için.",
     "en": "A free online graphing calculator producing fast, shareable interactive graphs. Compared with GeoGebra it is simpler and graph-focused — for plotting a function and sliding parameters to see the result instantly.",
-    "src": "mathlinks"
+    "src": "mathlinks",
+    "vs": [
+      {
+        "u": "https://www.geogebra.org",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://encyclopediaofmath.org",
@@ -111,7 +124,8 @@
     "name": "Graph Online",
     "tags": [
       "ücretsiz",
-      "algoritma"
+      "algoritma",
+      "tarayıcı-içi"
     ],
     "tr": "Tarayıcıda graf çizip üzerinde en kısa yol, bağlantılılık ve akış algoritmalarını çalıştırıyor. VisuAlgo’dan farkı hazır örnekler değil kendi grafını kurup üzerinde algoritma denemene izin vermesi: kod yazmadan.",
     "en": "Draw a graph in the browser and run shortest path, connectivity and flow algorithms on it. Unlike VisuAlgo it lets you build your own graph and run algorithms on it rather than preset examples — without writing code.",
@@ -139,7 +153,13 @@
     ],
     "tr": "İlkokuldan üniversiteye kadar matematiği alıştırmalı, sıralı biçimde öğreten ücretsiz platform. Dağınık videolardan farkı önceki konuya bağlı ilerleyen tam bir müfredat sunması.",
     "en": "A free platform teaching mathematics from primary school to university, with exercises in order. Unlike scattered videos it offers a full curriculum that builds on prior topics.",
-    "src": "kedi"
+    "src": "kedi",
+    "vs": [
+      {
+        "u": "https://tutorial.math.lamar.edu/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.manim.community/",
@@ -225,7 +245,13 @@
     ],
     "tr": "Araştırmacı matematikçiler için yüksek titizlikte soru-cevap sitesi. Math Stack Exchange’den farkı araştırma düzeyi sorulara odaklanması: ödev değil, açık matematiksel problemler.",
     "en": "A high-rigour question-and-answer site for research mathematicians. Unlike Math Stack Exchange it targets research-level questions — not homework, but open mathematical problems.",
-    "src": "mathlinks"
+    "src": "mathlinks",
+    "vs": [
+      {
+        "u": "https://math.stackexchange.com/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/",
@@ -298,7 +324,13 @@
     ],
     "tr": "Yalnızca ifadeleri değil ispatları da toplayan işbirlikli matematik veritabanı.",
     "en": "A collaborative maths database holding proofs, not just statements.",
-    "src": "mathlinks"
+    "src": "mathlinks",
+    "vs": [
+      {
+        "u": "https://mathworld.wolfram.com",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://seeing-theory.brown.edu/",
@@ -334,7 +366,13 @@
     ],
     "tr": "Denklemleri adım adım çözerek çözüm yolunu gösteren çözücü; türev, integral ve limit de dahil. Genel hesaplama motorlarından farkı sonucu değil adımları odağa alması; ayrıntılı adımların bir kısmı ücretli.",
     "en": "An equation solver that shows the worked steps to a solution, derivatives, integrals and limits included. Unlike general computation engines it centres on the steps rather than the answer; some detailed steps are paid.",
-    "src": "mathlinks"
+    "src": "mathlinks",
+    "vs": [
+      {
+        "u": "https://www.wolframalpha.com/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://mathworld.wolfram.com",

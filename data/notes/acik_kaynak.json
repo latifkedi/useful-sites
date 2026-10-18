@@ -5,11 +5,18 @@
     "tags": [
       "awesome-liste",
       "açık-kaynak",
-      "ücretsiz"
+      "ücretsiz",
+      "git"
     ],
     "tr": "Yeni başlayanlara uygun issue’ları olan depoların dil bazında listesi. Up For Grabs’tan farkı programlama diline göre ayrılmış olması — bildiğin dilde bir proje bulmak kolay.",
     "en": "A list of repositories with beginner-friendly issues, organised by programming language. Against Up For Grabs the split by language is the difference — finding a project in a language you know is straightforward.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://up-for-grabs.net",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://github.com/johnjago/awesome-free-software",
@@ -42,7 +49,8 @@
     "tags": [
       "açık-kaynak",
       "öğretici",
-      "ücretsiz"
+      "ücretsiz",
+      "git"
     ],
     "tr": "İlk açık kaynak katkısını yapmak isteyenler için hazırlanmış giriş; korkuyu azaltmaya odaklanıyor. Katkı rehberlerinden farkı teknik değil psikolojik engeli ele alması.",
     "en": "An introduction for people making their first open-source contribution, aimed squarely at reducing the fear. Unlike contribution guides it addresses the psychological barrier rather than the technical one.",
@@ -53,7 +61,8 @@
     "name": "Gitcoin",
     "tags": [
       "açık-kaynak",
-      "freemium"
+      "freemium",
+      "kripto"
     ],
     "tr": "Açık kaynak işlerine ödül koyup fon toplayan platform; Ethereum ekosisteminde doğdu. Bağış düğmelerinden farkı işi ödüllendirmesi — belirli bir issue’ya para bağlanabiliyor.",
     "en": "A platform for placing bounties on open-source work and raising funds, born in the Ethereum ecosystem. Against a donate button it rewards the work: money can be attached to a specific issue.",
@@ -88,7 +97,8 @@
     "name": "Launchpad",
     "tags": [
       "ücretsiz",
-      "referans"
+      "referans",
+      "git"
     ],
     "tr": "Canonical’ın proje barındırma ve hata takip platformu; Ubuntu paketlerinin hata kayıtları burada. GitHub’dan farkı Ubuntu ekosistemine bağlı olması ve Bazaar ile PPA paket depolarını barındırması.",
     "en": "Canonical’s project hosting and bug tracker — where Ubuntu package bug reports live. Unlike GitHub it is tied to the Ubuntu ecosystem, hosting Bazaar and PPA package repositories.",
@@ -104,7 +114,13 @@
     ],
     "tr": "Uzaktan, takım hâlinde açık kaynak katkısı yaptıran burslu program. Google Summer of Code’dan farkı takım çalışması ve mentorluğun yapılandırılmış olması — tek başına değil ekiple çalışıyorsun.",
     "en": "A funded remote programme where you contribute to open source in a team. Against Google Summer of Code the teamwork and mentorship are structured — you work with a group rather than alone.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://summerofcode.withgoogle.com",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://opensource.guide/",
@@ -112,11 +128,18 @@
     "tags": [
       "açık-kaynak",
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "öğretici"
     ],
     "tr": "GitHub’ın açık kaynak rehberleri: proje başlatma, katkı alma, topluluk yönetme, tükenmişlikle başa çıkma. Lisans ya da araç rehberlerinden farkı sosyal tarafı ele alması — kodun değil, projenin sürdürülebilirliği.",
     "en": "GitHub’s guides to open source: starting a project, taking contributions, running a community, handling burnout. Unlike licence or tooling guides it deals with the social side — the sustainability of the project rather than the code.",
-    "src": "awesome-uw"
+    "src": "awesome-uw",
+    "vs": [
+      {
+        "u": "https://www.firsttimersonly.com",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://opensource.com",
@@ -146,7 +169,8 @@
     "url": "https://pyladies.com/",
     "name": "PyLadies",
     "tags": [
-      "ücretsiz"
+      "ücretsiz",
+      "python"
     ],
     "tr": "Python kullanan kadınlar ve cinsiyet çeşitliliğine açık kişiler için uluslararası mentorluk topluluğu; yerel gruplarla. Genel kullanıcı gruplarından farkı bu kesim için güvenli bir öğrenme ortamı kurmaya odaklanması.",
     "en": "An international mentorship community for women and gender-diverse people who use Python, with local chapters. Unlike general user groups it focuses on a safe place to learn for that audience.",
@@ -159,7 +183,8 @@
     "tags": [
       "açık-kaynak",
       "ücretsiz",
-      "git"
+      "git",
+      "araç"
     ],
     "tr": "README rozetleri üreten servis: derleme durumu, sürüm, indirme sayısı, lisans. Elle SVG hazırlamaktan farkı canlı veriye bağlanabilmesi — rozet npm sürümünü ya da CI durumunu kendisi çekiyor.",
     "en": "Generates README badges: build status, version, downloads, licence. Against hand-made SVGs they bind to live data — the badge fetches the npm version or CI status itself.",
@@ -170,7 +195,8 @@
     "name": "SourceForge",
     "tags": [
       "ücretsiz",
-      "referans"
+      "referans",
+      "git"
     ],
     "tr": "Açık kaynak projelerin eski dağıtım platformu; GitHub öncesinin arşivi. GitHub’dan farkı köklü ve terk edilmiş projeleri barındırması — bazı eski yazılımlar hâlâ yalnızca burada bulunuyor.",
     "en": "The older distribution platform for open-source projects and an archive of the pre-GitHub era. Unlike GitHub it holds long-established and abandoned projects — still where some old software survives.",
@@ -180,8 +206,9 @@
     "url": "https://sourcegraph.com/search",
     "name": "Sourcegraph",
     "tags": [
-      "referans",
-      "freemium"
+      "araç",
+      "freemium",
+      "git"
     ],
     "tr": "Açık kaynak depolarda kod araması; düzenli ifade ve yapısal sorgu destekliyor. GitHub aramasından farkı depo sınırı olmadan tüm ekosistemde arayabilmesi — bir API’nin gerçek dünyada nasıl çağrıldığını görmek için.",
     "en": "Code search across open-source repositories, with regular expressions and structural queries. Against GitHub search it spans the ecosystem rather than one repository — the way to see how an API is actually called in the wild.",

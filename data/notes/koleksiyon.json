@@ -241,7 +241,13 @@
     "tr": "Henüz yayına girmemiş girişimlerin erken erişim listesi. Product Hunt’tan farkı lansman öncesi ürünleri göstermesi — kalabalıktan önce tanışıyorsun; bedeli, bazılarının hiç yayına girmemesi.",
     "en": "Early-access listings for startups that have not launched yet. Unlike Product Hunt it shows pre-launch products, so you meet them before the crowd — the catch being that some never launch.",
     "src": "trekhleb",
-    "added": 1791536400
+    "added": 1791536400,
+    "vs": [
+      {
+        "u": "https://www.producthunt.com/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://blogroll.org/",
@@ -272,7 +278,8 @@
     "name": "Changelog",
     "tags": [
       "ücretsiz",
-      "referans"
+      "referans",
+      "ses"
     ],
     "tr": "Yazılım geliştirme ve açık kaynak üzerine podcast’ler ve haber akışı. Genel teknoloji podcast’lerinden farkı pratisyenlerde kalması: bakımcılar ve geliştiriciler nasıl çalıştıklarını anlatıyor.",
     "en": "Podcasts and a news feed about software development and open source. Unlike general tech podcasts it stays with practitioners: maintainers and builders explaining how they work.",
@@ -311,7 +318,13 @@
     ],
     "tr": "Hacker News, Reddit, Lobsters ve onlarca kaynağı tek sayfada toplayan haber panosu. Ayrı ayrı gezmek yerine tek bakışta tarama imkânı.",
     "en": "A news board gathering Hacker News, Reddit, Lobsters and dozens more on one page — one glance instead of visiting each.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://news.ycombinator.com/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://github.com/MaggieAppleton/digital-gardeners",
@@ -330,7 +343,8 @@
     "name": "Free for Developers",
     "tags": [
       "ücretsiz",
-      "awesome-liste"
+      "awesome-liste",
+      "devops"
     ],
     "tr": "Ücretsiz katmanı olan geliştirici servislerinin listesi: barındırma, CI, izleme, e-posta. Genel awesome listelerinden farkı yalnız ücretsiz katmanları ve bunların sınırlarını yazması — yan projenin maliyetini sıfıra yakın tutmanın haritası.",
     "en": "A list of developer services with free tiers — hosting, CI, monitoring, email. Unlike general awesome lists it covers only free tiers and states their limits: a map for keeping a side project near zero cost.",
@@ -342,7 +356,8 @@
     "name": "free-for-dev (kaynak)",
     "tags": [
       "awesome-liste",
-      "ücretsiz"
+      "ücretsiz",
+      "devops"
     ],
     "tr": "Free for Developers listesinin kaynak deposu. Web sürümü yerine burası katkı göndermek ya da bir servisin ne zaman eklendiğine git geçmişinden bakmak için.",
     "en": "The source repository behind the Free for Developers list. Rather than the web version, this is where you contribute or check in the git history when a service was added.",
@@ -359,15 +374,22 @@
     ],
     "tr": "GitHub’ın yıllık raporu; yazılım dünyasının eğilimlerini veriyle gösteriyor. Anket tabanlı raporlardan farkı verinin GitHub’ın kendi platform etkinliğinden gelmesi: söylenen değil, yapılan.",
     "en": "GitHub’s annual report, showing software trends with data. Unlike survey-based reports the data comes from GitHub’s own platform activity — not what people say, but what they do.",
-    "src": "awesomeproj"
+    "src": "awesomeproj",
+    "vs": [
+      {
+        "u": "https://survey.stackoverflow.co/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://github.com/abhigyanpatwari/GitNexus",
     "name": "GitNexus",
     "tags": [
       "açık-kaynak",
-      "referans",
-      "ücretsiz"
+      "araç",
+      "ücretsiz",
+      "tarayıcı-içi"
     ],
     "tr": "Depo içeriğini gezilebilir hâle getiriyor; sunucu gerektirmeden tarayıcıda çalışıyor. Kod arama araçlarından farkı büyük bir kod tabanına ilk kez bakarken nereden başlanacağını göstermesi.",
     "en": "Makes repository content navigable, running in the browser with no server. Unlike code-search tools it helps when you face a large codebase for the first time and need somewhere to start.",
@@ -379,7 +401,8 @@
     "name": "GitStar Ranking",
     "tags": [
       "ücretsiz",
-      "veri-bilimi"
+      "veri-bilimi",
+      "git"
     ],
     "tr": "Depo ve kullanıcıların yıldız sıralaması; bir alanda neyin baskın olduğunu hızla gösteriyor. Yıldız kalite ölçüsü değil, görünürlük ölçüsü — o gözle okumak gerekiyor.",
     "en": "Star rankings for repositories and users, quickly showing what dominates a field. Stars measure visibility rather than quality, and should be read that way.",
@@ -419,7 +442,13 @@
     "tr": "Geliştiriciler için, kendi alan adında yayın yaptığın blog platformu. DEV’den farkı blogun sana ait olması (özel alan adı) ve yine de ortak bir akışa girmesi.",
     "en": "A blogging platform for developers where you publish on your own domain. Unlike DEV the blog is yours (custom domain) while still appearing in a shared feed.",
     "src": "trekhleb",
-    "added": 1791536400
+    "added": 1791536400,
+    "vs": [
+      {
+        "u": "https://dev.to/",
+        "a": "barindirma"
+      }
+    ]
   },
   {
     "url": "https://www.indiehackers.com/",
@@ -462,11 +491,18 @@
     "tags": [
       "açık-kaynak",
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "awesome-liste"
     ],
     "tr": "Kütüphaneleri karşılaştıran ve alternatiflerini gösteren dizin; etkinlik ve popülerlik eğilimini birlikte veriyor. Awesome listelerinden farkı verinin güncel olması — proje yavaşladığında grafikte görünüyor.",
     "en": "A directory that compares libraries and shows their alternatives, with activity and popularity trends side by side. Against awesome lists the data is live — when a project slows down, the graph says so.",
-    "src": "awesome-uw"
+    "src": "awesome-uw",
+    "vs": [
+      {
+        "u": "https://libraries.io/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://libraries.io/",
@@ -490,14 +526,21 @@
     "tr": "Etiket tabanlı süzgeci olan, daha küçük ve davetle katılınan bilişim bağlantı panosu. Hacker News’ten farkı daha dar ve yavaş olması, daha sıkı denetim ve istemediğin konuları gizleyebilmen.",
     "en": "A smaller computing link board, joined by invitation, with tag-based filtering. Unlike Hacker News it is narrower and slower, with stricter moderation and the option to mute topics.",
     "src": "trekhleb",
-    "added": 1791536400
+    "added": 1791536400,
+    "vs": [
+      {
+        "u": "https://news.ycombinator.com/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://anvaka.github.io/map-of-github/",
     "name": "Map of GitHub",
     "tags": [
       "interaktif",
-      "ücretsiz"
+      "ücretsiz",
+      "git"
     ],
     "tr": "GitHub depolarını yıldız benzerliğine göre kümeleyip harita gibi gezilebilir hâle getiren görselleştirme. Konuya göre aramadan farkı komşuluğu göstermesi — bir projeyi beğenenlerin başka neyi yıldızladığı topografya olarak çıkıyor.",
     "en": "A visualisation clustering GitHub repositories by star similarity into a browsable map. Against topic search it shows adjacency: what else the people who starred one project starred, laid out as terrain.",
@@ -508,7 +551,8 @@
     "name": "Marginalia Search",
     "tags": [
       "ücretsiz",
-      "açık-kaynak"
+      "açık-kaynak",
+      "araç"
     ],
     "tr": "Çerez ve bülten istemeyen, metin ağırlıklı sitelere odaklanan küçük, bağımsız arama motoru. Google’dan farkı SEO ile şişirilmiş sayfaları bilerek geri atması: daha az ve daha tuhaf sonuç, ama okumak için çoğu zaman daha iyi.",
     "en": "A small independent search engine favouring text-heavy sites that ask for no cookies or newsletters. Unlike Google it deliberately downranks SEO-inflated pages: fewer and stranger results, but often better for reading.",
@@ -544,12 +588,19 @@
     "name": "OctoTrends",
     "tags": [
       "ücretsiz",
-      "veri-bilimi"
+      "veri-bilimi",
+      "git"
     ],
     "tr": "GitHub depolarının yıldız kazanma hızını gösteriyor. Toplam yıldıza bakan sıralamalardan farkı ivmeye bakması: toplam yıldız eski projeleri kayırır, hız yeni çıkanı daha iyi gösterir.",
     "en": "Shows how fast GitHub repositories gain stars. Unlike rankings by total stars it looks at momentum: total stars favour old projects, so speed reveals what is new better.",
     "src": "kedi",
-    "added": 1716039634
+    "added": 1716039634,
+    "vs": [
+      {
+        "u": "https://gitstar-ranking.com/repositories",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://ossinsight.io/",
@@ -593,7 +644,8 @@
     "name": "Related Repos",
     "tags": [
       "ücretsiz",
-      "referans"
+      "araç",
+      "git"
     ],
     "tr": "Bir GitHub deposuna benzeyen projeleri bulan araç. GitHub’ın kendi \"benzer depolar\" önerisinden farkı yıldız örtüşmesine bakması — konu etiketi yanlış girilmiş projeleri de yakalıyor.",
     "en": "Finds projects similar to a given GitHub repository. Against GitHub’s own suggestions it works from star overlap, so it also surfaces projects whose topic tags were filled in badly.",
@@ -604,12 +656,19 @@
     "name": "SaaSHub",
     "tags": [
       "ücretsiz",
-      "referans"
+      "referans",
+      "awesome-liste"
     ],
     "tr": "Bir yazılımı yazıp benzer araçları yan yana karşılaştırmalı sayfalarla bulduran alternatif dizini. AlternativeTo’dan farkı SaaS ve girişim ürünlerine odaklanması.",
     "en": "A software-alternatives directory: name a product and get comparable tools with side-by-side pages. Unlike AlternativeTo it centres on SaaS and startup products.",
     "src": "trekhleb",
-    "added": 1791536400
+    "added": 1791536400,
+    "vs": [
+      {
+        "u": "https://alternativeto.net/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://github.com/KasperZutterman/Second-Brain",
@@ -640,7 +699,8 @@
     "name": "Sidebar",
     "tags": [
       "ücretsiz",
-      "referans"
+      "referans",
+      "tasarım"
     ],
     "tr": "Her hafta içi günü tek bir küratörün seçtiği beş tasarım bağlantısı. Her şeyi önüne boşaltan akışlardan farkı seçeneği bilerek sınırlaması: bir dakika yeterli.",
     "en": "Five design links every weekday, picked by one curator. Unlike feeds that throw everything at you it limits the choice on purpose, so a minute is enough.",
@@ -702,12 +762,19 @@
     "name": "TIOBE Index",
     "tags": [
       "ücretsiz",
-      "veri-bilimi"
+      "veri-bilimi",
+      "referans"
     ],
     "tr": "Programlama dili popülerlik endeksi. Stack Overflow anketinden farkı yöntemi arama motoru sonuç sayısına dayanması — bu yüzden haklı eleştiri alıyor; yine de yirmi yıllık tutarlı seri olduğu için uzun eğilim okumada kullanılıyor.",
     "en": "A programming language popularity index. Unlike the Stack Overflow survey its methodology rests on counting search-engine results — which draws fair criticism; still, it is read for long-run trends because the series has been consistent for twenty years.",
     "src": "kedi",
-    "added": 1770619527
+    "added": 1770619527,
+    "vs": [
+      {
+        "u": "https://survey.stackoverflow.co/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://github.com/cjbarber/ToolsOfTheTrade",
@@ -739,7 +806,8 @@
     "name": "Trendshift",
     "tags": [
       "ücretsiz",
-      "veri-bilimi"
+      "veri-bilimi",
+      "git"
     ],
     "tr": "Yükselen açık kaynak projeleri izleyen pano. Olgunlaşmış awesome listelerinden farkı yeni çıkanları öne alması: listelerin henüz yakalamadığı projeleri gösteriyor.",
     "en": "A dashboard tracking rising open-source projects. Unlike established awesome lists it foregrounds new arrivals, surfacing projects the lists have not caught yet.",
@@ -762,11 +830,18 @@
     "url": "https://wiby.me/",
     "name": "Wiby",
     "tags": [
-      "ücretsiz"
+      "ücretsiz",
+      "araç"
     ],
     "tr": "Klasik, hafif web sayfaları için arama motoru ve “şansına bak” düğmesi. Marginalia’dan farkı dizinini insanların gönderdiği sayfalardan kurması; kapsamı küçük ve elle seçilmiş.",
     "en": "A search engine for the classic, lightweight web, with a “surprise me” button. Unlike Marginalia its index is built from pages people submitted, so it is smaller and hand-picked.",
     "src": "trekhleb",
-    "added": 1791536400
+    "added": 1791536400,
+    "vs": [
+      {
+        "u": "https://marginalia-search.com/",
+        "a": "yaklasim"
+      }
+    ]
   }
 ]

@@ -5,11 +5,18 @@
     "tags": [
       "git",
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "ileri"
     ],
     "tr": "Git’in nesne veritabanını, referanslarını ve birleştirme algoritmasını açıklayan rehber. \"Git from the Inside Out\"tan farkı daha kısa ve komut odaklı olması — ikisi birbirini tamamlıyor.",
     "en": "A guide to Git’s object database, refs and merge algorithm. Against \"Git from the Inside Out\" it is shorter and more command-oriented — the two complement each other.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://maryrosecook.com/blog/post/git-from-the-inside-out",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://en.algorithmica.org/hpc/",
@@ -17,7 +24,8 @@
     "tags": [
       "algoritma",
       "kitap",
-      "ücretsiz"
+      "ücretsiz",
+      "ileri"
     ],
     "tr": "Modern donanımda hızlı kod yazmayı anlatan çevrimiçi kitap: önbellek hiyerarşisi, SIMD, dallanma tahmini. Algoritma kitaplarından farkı büyük-O yerine gerçek makinede geçen süreye bakması — aynı karmaşıklıktaki iki çözümün neden farklı hızda çalıştığını açıklıyor.",
     "en": "An online book on writing fast code for modern hardware: cache hierarchy, SIMD, branch prediction. Where algorithm books stop at big-O, this measures wall-clock time on a real machine and explains why two solutions of equal complexity differ by tenfold.",
@@ -42,12 +50,19 @@
     "tags": [
       "kitap",
       "python",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Mark Pilgrim’in programcılar için ücretsiz Python 3 kitabı. Sıfırdan anlatan kitaplardan farkı bilen birine hızlı giriş yapması; 2009 dolaylarında yazıldığından yeni özellikler yok.",
     "en": "Mark Pilgrim’s free Python 3 book for programmers. Unlike from-scratch books it is a fast introduction for someone who already codes; it dates from around 2009, so newer features are missing.",
     "src": "pycrumbs",
-    "added": 1791536400
+    "added": 1791536400,
+    "vs": [
+      {
+        "u": "https://greenteapress.com/wp/think-python-2e/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://dzone.com",
@@ -83,7 +98,13 @@
     ],
     "tr": "Yüzlerce dilde ücretsiz programlama kitabı, kurs ve etkileşimli eğitim derlemesi; GitHub’ın en çok yıldızlanan depolarından. Benzer listelerden farkı ölçeği ve aktif bakımı — dil bazında ayrılmış, Türkçe bölümü de var.",
     "en": "A compilation of free programming books, courses and interactive tutorials in hundreds of languages, and one of GitHub’s most-starred repositories. Against similar lists it wins on scale and active maintenance, and it is split by language — Turkish included.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://freecomputerbooks.com/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://maryrosecook.com/blog/post/git-from-the-inside-out",
@@ -91,7 +112,8 @@
     "tags": [
       "git",
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Git’i komutlarından değil veri modelinden anlatan uzun yazı: her komutun `.git` klasöründe ne değiştirdiğini adım adım gösteriyor. Komut rehberlerinden farkı bu — modeli anlayınca komutları ezberlemeye gerek kalmıyor.",
     "en": "A long essay explaining Git from its data model rather than its commands, showing what each command changes inside `.git`. That is the difference from a command guide: once the model is clear the commands stop needing memorisation.",
@@ -102,7 +124,8 @@
     "name": "GoalKicker",
     "tags": [
       "ücretsiz",
-      "kitap"
+      "kitap",
+      "orta"
     ],
     "tr": "Stack Overflow Documentation arşivinden derlenmiş ücretsiz programlama kitapları; her biri örnek ağırlıklı ve konu konu ayrılmış.",
     "en": "Free programming books compiled from the Stack Overflow Documentation archive, each example-heavy and split topic by topic.",
@@ -114,7 +137,8 @@
     "tags": [
       "kitap",
       "python",
-      "ücretsiz"
+      "ücretsiz",
+      "başlangıç"
     ],
     "tr": "Al Sweigart’ın yeni başlayanlar için ücretsiz çevrimiçi Python kitapları: oyunlar ve günlük işleri otomatikleştirme. Genel öğreticilerden farkı sonunda çalışan bir oyun ya da araç çıkarman.",
     "en": "Al Sweigart’s free online Python books for beginners: games and automating everyday tasks. Unlike generic tutorials you end up with a working game or tool.",
@@ -127,7 +151,8 @@
     "tags": [
       "kitap",
       "cli",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Vim’i tuş dizisi ezberleterek değil, dilbilgisi olarak öğreten çevrimiçi kitap: eylem + hareket + metin nesnesi. Kopya kâğıtlarından farkı bu — komutları ezberlemek yerine yeni kombinasyonlar türetmeyi öğreniyorsun.",
     "en": "An online book that teaches Vim as a grammar — verb plus motion plus text object — rather than as key sequences to memorise. That is the break from cheat sheets: you learn to derive new combinations instead of recalling old ones.",
@@ -139,18 +164,26 @@
     "tags": [
       "kitap",
       "cli",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Vim’i yapılandırmak ve eklenti yazmak için Vimscript öğreten kitap. Vim kullanım rehberlerinden farkı editörü kullanmayı değil programlamayı anlatması — `.vimrc`’in ötesine geçmek isteyenler için.",
     "en": "A book teaching Vimscript for configuring Vim and writing plugins. Unlike Vim usage guides it is about programming the editor rather than using it — for going past `.vimrc`.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://learnvim.irian.to/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "http://literateprogramming.com/",
     "name": "Literate Programming",
     "tags": [
       "ücretsiz",
-      "referans"
+      "referans",
+      "akademik"
     ],
     "tr": "Knuth’un kodu düzyazıyla iç içe yazma fikrinin arşivi. Modern belgeleme araçlarından farkı kaynağa inmesi: Jupyter not defterlerinin ve bugünkü “açıklanabilir kod” tartışmasının kökeni buraya çıkıyor.",
     "en": "The archive of Knuth’s idea of writing code interwoven with prose. Unlike modern documentation tools it goes to the root — Jupyter notebooks and today’s arguments about explainable code trace back here.",
@@ -163,7 +196,9 @@
     "tags": [
       "kitap",
       "ücretsiz",
-      "açık-kaynak"
+      "açık-kaynak",
+      "kripto",
+      "orta"
     ],
     "tr": "Andreas Antonopoulos’un Bitcoin’in teknik işleyişini anlattığı kitabın açık deposu. Başlangıç özetlerinden farkı anahtarlardan işlemlere, betiklerden ağa kadar yazılımcı gözüyle inmesi.",
     "en": "The open repository of Andreas Antonopoulos’s book on how Bitcoin works technically. Unlike beginner summaries it goes from keys to transactions, scripts and the network, from a programmer’s point of view.",
@@ -180,7 +215,13 @@
     ],
     "tr": "Yazılım zanaatı üzerine okuma listesi; her kitap için neden okunması gerektiği yazılı. Ücretsiz kitap derlemelerinden farkı seçici olması — nicelik değil sıra öneriyor.",
     "en": "A reading list on software craftsmanship with a reason attached to each book. Unlike the free-book compilations it is selective: it proposes an order rather than a quantity.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://github.com/EbookFoundation/free-programming-books",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://jakevdp.github.io/PythonDataScienceHandbook/",
@@ -189,7 +230,8 @@
       "ücretsiz",
       "kitap",
       "python",
-      "veri-bilimi"
+      "veri-bilimi",
+      "orta"
     ],
     "tr": "NumPy, pandas, Matplotlib ve scikit-learn’ü kapsayan ücretsiz kitap; tamamı çalıştırılabilir Jupyter defterleri olarak yayımlanmış. Kütüphanelerin kendi belgelerinden farkı dördünü tek bir iş akışı içinde birlikte anlatması.",
     "en": "A free book covering NumPy, pandas, Matplotlib and scikit-learn, published entirely as runnable Jupyter notebooks. Unlike the libraries’ own docs, it teaches the four together as one workflow.",
@@ -201,7 +243,8 @@
     "tags": [
       "kitap",
       "python",
-      "ücretsiz"
+      "ücretsiz",
+      "orta"
     ],
     "tr": "Alıştırma ağırlıklı ücretsiz Python kitabı. Anlatım ağırlıklı kitaplardan farkı bölümleri alıştırmalarla ilerletmesi.",
     "en": "A free, exercise-heavy Python book. Unlike explanation-first books it moves chapter by chapter through exercises.",
@@ -226,7 +269,8 @@
     "tags": [
       "kitap",
       "python",
-      "ücretsiz"
+      "ücretsiz",
+      "başlangıç"
     ],
     "tr": "Tek bir uygulama kurdurarak Django’yu anlatan ücretsiz başlangıç kitabı. Resmî öğreticiden farkı daha rehberli olması; hedeflediği Django sürümünü kontrol et.",
     "en": "A free beginner book that teaches Django by building one application. Unlike the official tutorial it is more guided; check which Django version it targets.",
@@ -239,7 +283,9 @@
     "tags": [
       "kitap",
       "açık-kaynak",
-      "ücretsiz"
+      "ücretsiz",
+      "sistem-tasarımı",
+      "ileri"
     ],
     "tr": "Açık kaynak projelerin mimarisini geliştiricilerinin kendi kalemiyle anlatan kitap serisi. Kaynak kodu okumaktan farkı hangi kararın neden alındığını ve neyin yanlış gittiğini öğrenmen — mimari kararların gerekçesi kodda yazmıyor.",
     "en": "A book series in which the developers of open-source projects describe their own architecture. Against reading the source you learn which decisions were taken and why, and what went wrong — the rationale is never in the code.",
@@ -251,7 +297,8 @@
     "tags": [
       "freemium",
       "kitap",
-      "api"
+      "api",
+      "orta"
     ],
     "tr": "GraphQL’i istemci ve sunucu tarafıyla birlikte anlatan kitap. Resmî spesifikasyondan farkı üretim pratiklerine — kimlik doğrulama, önbellekleme, sayfalama — girmesi.",
     "en": "A book covering GraphQL from both client and server side. Unlike the official spec it reaches into production practices — authentication, caching, pagination.",
@@ -263,7 +310,8 @@
     "tags": [
       "ücretsiz",
       "kitap",
-      "interaktif"
+      "interaktif",
+      "orta"
     ],
     "tr": "Doğal sistemleri (kuvvet, parçacık, sürü davranışı, hücresel otomat) kodla simüle etmeyi anlatan ücretsiz kitap. Matematiği etkileşimli örneklerle veriyor, formül yığını değil.",
     "en": "A free book on simulating natural systems in code — forces, particles, flocking, cellular automata — delivering the maths through interactive examples rather than a pile of formulas.",
@@ -276,11 +324,18 @@
     "tags": [
       "kitap",
       "python",
-      "ücretsiz"
+      "ücretsiz",
+      "başlangıç"
     ],
     "tr": "Allen Downey’in programlamayı Python ile sıfırdan anlatan ücretsiz kitabı. Sözdizimiyle başlayan kitaplardan farkı problem çözme düşüncesini öğretmesi.",
     "en": "Allen Downey’s free book teaching programming from scratch with Python. Unlike syntax-first books it teaches how to think through a problem.",
     "src": "pycrumbs",
-    "added": 1791536400
+    "added": 1791536400,
+    "vs": [
+      {
+        "u": "https://python.swaroopch.com",
+        "a": "yaklasim"
+      }
+    ]
   }
 ]

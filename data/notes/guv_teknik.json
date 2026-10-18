@@ -68,7 +68,8 @@
       "awesome-liste",
       "güvenlik",
       "akademik",
-      "ücretsiz"
+      "ücretsiz",
+      "kripto"
     ],
     "tr": "Kriptografiyi uzman olmayanlar için açan kuramsal temel makaleler listesi. Ders kitaplarından farkı doğrudan özgün makalelere yönlendirmesi ve bunları uzman olmayan okur için sıralaması.",
     "en": "A list of theory-basics papers on cryptography for non-cryptographers. Unlike textbooks, it points straight to the original papers and orders them for the non-specialist reader.",
@@ -84,7 +85,13 @@
     ],
     "tr": "Savunma (blue team) için tespit, izleme ve müdahale araçlarının listesi. Saldırı listelerinden farkı sistemleri korumaya ve olayı yakalamaya odaklanması.",
     "en": "A list of detection, monitoring and response tools for the defensive (blue team) side. Unlike offensive lists it focuses on protecting systems and catching incidents.",
-    "src": "awesomelist"
+    "src": "awesomelist",
+    "vs": [
+      {
+        "u": "https://github.com/Hack-with-Github/Awesome-Hacking",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://github.com/infosecB/awesome-detection-engineering",
@@ -252,7 +259,8 @@
     "name": "CyberNotes",
     "tags": [
       "ücretsiz",
-      "referans"
+      "referans",
+      "güvenlik"
     ],
     "tr": "Güvenlik konularının derli toplu not arşivi. Kapsamlı el kitaplarından farkı hız için budanmış olması: laboratuvar sırasında bir komut ya da yöntem hatırlamak için hızlı başvuru.",
     "en": "A tidy note archive of security topics. Unlike comprehensive handbooks it is pruned for speed — a quick reference for recalling a command or method mid-lab.",
@@ -290,7 +298,8 @@
     "name": "HackerOne",
     "tags": [
       "ücretsiz",
-      "güvenlik"
+      "güvenlik",
+      "referans"
     ],
     "tr": "Hata ödül platformu; şirketlerin kapsam tanımladığı gerçek sistemlerde yasal olarak test yapıyorsun. Yayımlanan raporlar (hacktivity) laboratuvarlardan daha öğretici bir arşiv.",
     "en": "A bug bounty platform where you legally test real systems within a company-defined scope. The published reports (hacktivity) form an archive more instructive than any lab.",
@@ -308,7 +317,13 @@
     ],
     "tr": "Pentest, red team, web, bulut ve ayrıcalık yükseltme tekniklerini adım adım komutlarla veren bilgi tabanı. Kavramsal güvenlik kitaplarından farkı doğrudan çalıştırılabilir olması: her sayfa “şu porta şu komutu at, çıktıda şunu ara” diyecek kadar somut, ezber değil sahada kullanılan bir başvuru.",
     "en": "A knowledge base giving pentest, red-team, web, cloud and privilege-escalation techniques as step-by-step commands. Unlike conceptual security books it is directly runnable: every page is concrete enough to say “throw this command at that port, look for this in the output” — a field reference, not theory.",
-    "src": "lowkwiki"
+    "src": "lowkwiki",
+    "vs": [
+      {
+        "u": "https://github.com/rmusser01/Infosec_Reference",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.youtube.com/user/Hak5Darren",
@@ -328,7 +343,8 @@
     "tags": [
       "açık-kaynak",
       "osint",
-      "ücretsiz"
+      "ücretsiz",
+      "güvenlik"
     ],
     "tr": "Servis numaralandırma betiği; keşif aşamasında elle çalıştırılan komut dizisini otomatikleştiriyor. Elle sorgu yazmaktan farkı adımları tek betikte toplaması; dayandığı harici API’nin erişilebilirliğine bağlı olduğunu akılda tut.",
     "en": "A service enumeration script automating the command sequence you would otherwise run by hand during reconnaissance. Unlike hand-typed queries it bundles the steps into one script; bear in mind it depends on the availability of the external API it calls.",
@@ -374,7 +390,7 @@
     "src": "seccert"
   },
   {
-    "url": "https://github.com/LuNiZz?tab=repositories",
+    "url": "https://github.com/LuNiZz",
     "name": "LuNiZz Depoları",
     "tags": [
       "türkçe",
@@ -476,7 +492,13 @@
     "tr": "Açık kaynak istihbarat araçlarını ağaç yapısında topluyor: e-posta, kullanıcı adı, alan adı, görüntü. Ne aradığından başlayıp araca iniyorsun, ters yönde değil.",
     "en": "A tree of open-source intelligence tools organised by target — email, username, domain, image. You start from what you are looking for and descend to the tool, not the other way round.",
     "src": "kedi",
-    "added": 1754377053
+    "added": 1754377053,
+    "vs": [
+      {
+        "u": "https://github.com/jivoi/awesome-osint",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://owasp.org/www-community/Fuzzing",
@@ -534,7 +556,7 @@
     "tags": [
       "ücretsiz",
       "türkçe",
-      "akademik"
+      "güvenlik"
     ],
     "tr": "Türkiye’nin siber güvenlik otoritesi; ulusal uyarılar, mevzuat ve kritik altyapı rehberleri buradan yayımlanıyor. Uluslararası kaynaklardan farkı Türkiye’ye özgü mevzuat ve uyum gereklerini vermesi.",
     "en": "Turkey’s cyber security authority, publishing national advisories, regulation and critical-infrastructure guidance. Unlike international sources it gives Turkey-specific regulation and compliance requirements.",
@@ -584,11 +606,18 @@
     "name": "TinEye",
     "tags": [
       "ücretsiz",
-      "osint"
+      "osint",
+      "araç"
     ],
     "tr": "Ters görsel arama motoru; bir görselin internette nerede geçtiğini ve en eski sürümünü buluyor. Google Görseller’den farkı benzer değil aynı görseli araması — kaynağı bulmak ve sahte profili doğrulamak için daha isabetli.",
     "en": "A reverse image search that finds where an image appears online and which copy is oldest. Against Google Images it looks for the same image rather than similar ones, which makes it better for finding a source or checking a fake profile.",
-    "src": "awesome-uw"
+    "src": "awesome-uw",
+    "vs": [
+      {
+        "u": "https://same.energy/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://github.com/trickest/cve",

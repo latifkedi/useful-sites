@@ -17,7 +17,8 @@
     "name": "Amazon Web Services",
     "tags": [
       "ücretli",
-      "sunucu"
+      "sunucu",
+      "devops"
     ],
     "tr": "Servis yelpazesi en geniş bulut. Azure ve Google Cloud’a kıyasla bu genişlik avantaj; ama maliyet takibi ayrı bir uzmanlık alanı, veri çıkış (egress) ücretleri özellikle sürpriz yapıyor.",
     "en": "The cloud with the widest service range. Compared with Azure and Google Cloud the breadth is an advantage, but cost tracking is its own discipline — egress charges in particular catch people out.",
@@ -82,12 +83,19 @@
     "name": "AvenaCloud",
     "tags": [
       "ücretli",
-      "sunucu"
+      "sunucu",
+      "devops"
     ],
     "tr": "VPS ve fiziksel sunucu sağlayıcı. Büyük bulutlara kıyasla bütçe odaklı; yönetilen servis yelpazesi dar, küçük ölçekli projeler için.",
     "en": "A VPS and dedicated server provider. Compared with the big clouds it is budget-focused with a narrow range of managed services — for small-scale projects.",
     "src": "kedi",
-    "added": 1787155762
+    "added": 1787155762,
+    "vs": [
+      {
+        "u": "https://aws.amazon.com/",
+        "a": "fiyat"
+      }
+    ]
   },
   {
     "url": "https://github.com/sdras/awesome-actions",
@@ -305,7 +313,13 @@
     ],
     "tr": "Cron ifadesini form üzerinden üreten ve ne zaman çalışacağını yazıyla söyleyen araç. crontab.guru’dan farkı ters yönde çalışması — ifadeyi çözmek yerine istediğin zamanlamadan ifade üretiyor.",
     "en": "Builds a cron expression from a form and states in words when it will fire. Against crontab.guru it runs the other way: instead of decoding an expression, it produces one from the schedule you describe.",
-    "src": "awesome-uw"
+    "src": "awesome-uw",
+    "vs": [
+      {
+        "u": "https://crontab.guru/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://github.com/HQarroum/docker-android",
@@ -314,7 +328,8 @@
       "açık-kaynak",
       "docker",
       "interaktif",
-      "ücretsiz"
+      "ücretsiz",
+      "mobil"
     ],
     "tr": "Kapsayıcı içinde Android emülatörü çalıştırıyor; VNC ile ekranına bakabiliyorsun. Bulut cihaz çiftliklerine kıyasla ücretsiz ve kendi CI hattında çalışıyor: otomatik testler için cihaz kurmadan emülatör.",
     "en": "Runs an Android emulator in a container with VNC access to the screen. Compared with cloud device farms it is free and runs in your own CI — an emulator for automated tests without standing up devices.",
@@ -333,7 +348,13 @@
     "tr": "Kendi VPS’inde Vercel benzeri dağıtım deneyimi kuruyor: git iterek yayına alma, veritabanı sağlama ve otomatik TLS. Heroku’nun ücretsiz katmanı kapandıktan sonra doğan boşluğu dolduruyor.",
     "en": "Brings a Vercel-like deploy experience to your own VPS — git-push deploys, database provisioning, automatic TLS. It fills the hole left when Heroku’s free tier closed.",
     "src": "kedi",
-    "added": 1776685913
+    "added": 1776685913,
+    "vs": [
+      {
+        "u": "https://www.heroku.com/",
+        "a": "barindirma"
+      }
+    ]
   },
   {
     "url": "https://earthly.dev",
@@ -381,7 +402,8 @@
     "tags": [
       "açık-kaynak",
       "gözlemlenebilirlik",
-      "ücretsiz"
+      "ücretsiz",
+      "devops"
     ],
     "tr": "Prometheus, Loki, PostgreSQL ve onlarca kaynağı aynı panoda birleştiriyor. Tek bir araca bağlı panolardan farkı veri kaynağından bağımsız olması; izleme yığınlarının ortak yüzü hâline gelmesinin sebebi bu.",
     "en": "Unifies Prometheus, Loki, PostgreSQL and dozens of sources on one dashboard. Unlike dashboards tied to one tool it is data-source agnostic, which is how it became the shared face of monitoring stacks.",
@@ -420,7 +442,8 @@
     "tags": [
       "devops",
       "açık-kaynak",
-      "ücretsiz"
+      "ücretsiz",
+      "cli"
     ],
     "tr": "Kubernetes uygulamalarını paketleyip dağıtan paket yöneticisi (“chart”lar). Düz YAML manifestlerinden farkı şablonlama, değer dosyalarıyla ortam farklarını yönetme ve sürüm geri alma.",
     "en": "A package manager that packages and deploys Kubernetes applications as charts. Unlike plain YAML manifests, it adds templating, values files for environment differences and release rollback.",
@@ -431,19 +454,27 @@
     "name": "Hetzner",
     "tags": [
       "ücretli",
-      "sunucu"
+      "sunucu",
+      "devops"
     ],
     "tr": "Almanya ve Finlandiya’da fiziksel sunucu ve VPS. Büyük bulutlara kıyasla aynı çekirdek ve RAM birkaç kat ucuz; yönetilen servis yok, işletim tamamen sana kalıyor.",
     "en": "Dedicated servers and VPS in Germany and Finland. Compared with the big clouds the same cores and RAM cost a fraction; there are no managed services, so operations are entirely yours.",
     "src": "kedi",
-    "added": 1783007591
+    "added": 1783007591,
+    "vs": [
+      {
+        "u": "https://aws.amazon.com/",
+        "a": "fiyat"
+      }
+    ]
   },
   {
     "url": "https://jitpack.io",
     "name": "JitPack",
     "tags": [
       "git",
-      "ücretsiz"
+      "ücretsiz",
+      "hesap-gerekmez"
     ],
     "tr": "Jar yayımlamayan GitHub depolarını doğrudan bağımlılık olarak kullanılabilir yapan servis. Maven Central’a yayımlamaktan farkı hiçbir kayıt adımı gerektirmemesi: etiketi derleyip paket olarak sunuyor.",
     "en": "Makes GitHub repos that don’t publish jars usable directly as dependencies. Unlike publishing to Maven Central, no registration step is needed — it builds a tag and serves it as a package.",
@@ -486,7 +517,13 @@
     "tr": "İş akışı düzenleyici; akışlar YAML’de bildirimsel olarak tanımlanıyor. Airflow’dan farkı Python yerine YAML kullanması: dil bağımsız olduğu için Python olmayan ekiplerde de çalışıyor ve sürüm kontrolüyle iyi geçiniyor.",
     "en": "A workflow orchestrator whose flows are declared in YAML. Unlike Airflow it uses YAML instead of Python, so it works for teams not on Python and sits well in version control.",
     "src": "kedi",
-    "added": 1787000000
+    "added": 1787000000,
+    "vs": [
+      {
+        "u": "https://airflow.apache.org/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://kubernetes.io",
@@ -506,12 +543,19 @@
     "name": "LiteSpeed",
     "tags": [
       "ücretli",
-      "sunucu"
+      "sunucu",
+      "ağ"
     ],
     "tr": "Apache yapılandırmasını olduğu gibi okuyabilen ticari sunucu; olay güdümlü çekirdeği ile daha az kaynak tüketiyor. WordPress barındırmada önbellek eklentisiyle birlikte yaygın.",
     "en": "A commercial server that reads Apache configuration as-is while using an event-driven core and fewer resources. Common in WordPress hosting alongside its cache plugin.",
     "src": "kedi",
-    "added": 1785060756
+    "added": 1785060756,
+    "vs": [
+      {
+        "u": "https://httpd.apache.org/docs/",
+        "a": "lisans"
+      }
+    ]
   },
   {
     "url": "https://docs.litespeedtech.com/",
@@ -532,12 +576,19 @@
     "name": "Make",
     "tags": [
       "otomasyon",
-      "freemium"
+      "freemium",
+      "araç"
     ],
     "tr": "Senaryolar dallanma, döngü ve hata işleme taşıyabiliyor; Zapier’in doğrusal adım modeline göre karmaşık akışlarda daha rahat. Öğrenme eğrisi de buna paralel olarak dik.",
     "en": "Scenarios carry branching, loops and error handling, which makes complex flows easier than Zapier’s linear steps. The learning curve is correspondingly steeper.",
     "src": "kedi",
-    "added": 1787000000
+    "added": 1787000000,
+    "vs": [
+      {
+        "u": "https://zapier.com/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://n8n.io/",
@@ -587,7 +638,8 @@
     "tags": [
       "açık-kaynak",
       "sunucu",
-      "ücretsiz"
+      "ücretsiz",
+      "ağ"
     ],
     "tr": "Olay güdümlü mimarisi sayesinde on binlerce eşzamanlı bağlantıyı düşük bellekle taşıyor. Ters vekil ve yük dengeleyici olarak kullanımı, web sunucusu olmasından daha yaygın.",
     "en": "Its event-driven architecture carries tens of thousands of concurrent connections on little memory. It is used as a reverse proxy and load balancer more often than as a web server.",
@@ -605,12 +657,19 @@
     "name": "Njalla",
     "tags": [
       "ücretli",
-      "gizlilik"
+      "gizlilik",
+      "ağ"
     ],
     "tr": "Alan adını senin adına kendi üstüne kaydediyor, yani WHOIS kaydında sen görünmüyorsun. Vekil gizlilik hizmetinden farkı, mülkiyetin hukuken onlarda olması — bu bir güven meselesi.",
     "en": "Registers the domain in its own name on your behalf, so you do not appear in WHOIS. Unlike a privacy proxy the legal ownership sits with them, which makes it a question of trust.",
     "src": "kedi",
-    "added": 1787155810
+    "added": 1787155810,
+    "vs": [
+      {
+        "u": "https://porkbun.com/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://opentofu.org",
@@ -623,7 +682,13 @@
     ],
     "tr": "Terraform’un topluluk güdümlü açık kaynak çatalı; aynı yapılandırmayı çalıştırıyor. Terraform’dan farkı Linux Vakfı altında açık (MPL) lisansta kalması ve durum dosyası şifreleme gibi kendi özellikleri eklemesi.",
     "en": "A community-driven open-source fork of Terraform that runs the same configurations. Unlike Terraform it stays under an open (MPL) licence at the Linux Foundation and adds its own features such as state encryption.",
-    "src": "dsbest"
+    "src": "dsbest",
+    "vs": [
+      {
+        "u": "https://www.terraform.io",
+        "a": "lisans"
+      }
+    ]
   },
   {
     "url": "https://www.pantsbuild.org/",
@@ -631,7 +696,8 @@
     "tags": [
       "açık-kaynak",
       "otomasyon",
-      "ücretsiz"
+      "ücretsiz",
+      "devops"
     ],
     "tr": "Çok dilli, büyük tek-depo (monorepo) projeleri için ölçeklenen derleme sistemi (Twitter kökenli). Bazel’e kıyasla Python ekosistemine daha dost ve bağımlılıkları kaynaktan kendisi çıkardığı için yapılandırması daha hafif.",
     "en": "A build system that scales to large, multi-language monorepos (originated at Twitter). Compared with Bazel it is friendlier to the Python ecosystem and lighter to configure, since it infers dependencies from source.",
@@ -668,12 +734,19 @@
     "name": "Power Automate",
     "tags": [
       "ücretli",
-      "otomasyon"
+      "otomasyon",
+      "araç"
     ],
     "tr": "SharePoint, Teams ve Dataverse bağlayıcıları yerleşik otomasyon aracı. Zapier’e kıyasla asıl tercih sebebi lisans: kurum zaten Microsoft 365’teyse çoğu zaman ödenmiş oluyor.",
     "en": "An automation tool with native SharePoint, Teams and Dataverse connectors. Compared with Zapier, the real reason it gets chosen is licensing — if the organisation is already on Microsoft 365 it is usually paid for.",
     "src": "kedi",
-    "added": 1787000000
+    "added": 1787000000,
+    "vs": [
+      {
+        "u": "https://zapier.com/",
+        "a": "fiyat"
+      }
+    ]
   },
   {
     "url": "https://www.prefect.io/",
@@ -687,7 +760,13 @@
     "tr": "Akış sıradan bir Python fonksiyonu; dekoratör ekleyip orkestrasyona dahil ediyorsun. Airflow’un ayrı DSL’ini öğrenmeden yerel kodu üretime taşımak daha kısa.",
     "en": "A flow is an ordinary Python function you decorate into orchestration. Moving local code to production is shorter than learning Airflow’s separate DSL.",
     "src": "kedi",
-    "added": 1787000000
+    "added": 1787000000,
+    "vs": [
+      {
+        "u": "https://airflow.apache.org/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://git-scm.com/book/tr/v2",
@@ -722,7 +801,8 @@
     "tags": [
       "açık-kaynak",
       "otomasyon",
-      "ücretsiz"
+      "ücretsiz",
+      "öğretici"
     ],
     "tr": "Altı adımda mesaj kuyruğu desenlerini öğreten resmî seri: iş kuyruğu, yayın-abone, yönlendirme, RPC. Kafka’dan farkı olay akışına değil görev dağıtımına odaklanması.",
     "en": "The official six-step series on queue patterns — work queues, pub/sub, routing, RPC. Unlike Kafka, which is for event streaming, this is about task distribution.",
@@ -748,7 +828,8 @@
     "tags": [
       "freemium",
       "açık-kaynak",
-      "gözlemlenebilirlik"
+      "gözlemlenebilirlik",
+      "devops"
     ],
     "tr": "Hataları yığın izi, kaynak haritası ve kullanıcı bağlamıyla topluyor ve benzerlerini grupluyor. Günlük dosyası okumaya karşı, aynı hatanın kaç kullanıcıyı etkilediğini gösteriyor.",
     "en": "Collects errors with stack traces, source maps and user context, grouping duplicates. Against reading log files, it tells you how many users a given error actually hit.",
@@ -761,7 +842,8 @@
     "tags": [
       "açık-kaynak",
       "cli",
-      "ücretsiz"
+      "ücretsiz",
+      "araç"
     ],
     "tr": "Kabuk betiklerindeki hataları bulan statik çözümleyici; tırnaklanmamış değişken, yanlış test söz dizimi, taşınabilirlik sorunları. `bash -n`’den farkı sözdizimi değil anlam denetimi yapması — çalışan ama yanlış davranan betiği yakalıyor.",
     "en": "A static analyser for shell scripts that finds unquoted variables, wrong test syntax and portability traps. Against `bash -n` it checks meaning rather than syntax, so it catches the script that runs and misbehaves.",
@@ -787,12 +869,19 @@
     "tags": [
       "açık-kaynak",
       "otomasyon",
-      "ücretsiz"
+      "ücretsiz",
+      "backend"
     ],
     "tr": "İş akışı durumunu olay geçmişi olarak kaydediyor; süreç çökerse aynı noktadan devam ediyor. Celery gibi görev kuyruklarından farkı durumun kalıcı olması: günlerce süren ve baştan başlatılamayan işlemler için tasarlanmış.",
     "en": "Records workflow state as an event history, so a crashed process resumes at the same point. Unlike task queues such as Celery the state is durable — built for multi-day operations that cannot simply be restarted.",
     "src": "kedi",
-    "added": 1787000000
+    "added": 1787000000,
+    "vs": [
+      {
+        "u": "https://docs.celeryq.dev/en/stable/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.terraform.io",
@@ -817,7 +906,13 @@
     "tr": "Ön yüz odaklı dağıtım; her PR için önizleme ortamı açması sektörde standart hâline geldi. Netlify’a kıyasla farkı Next.js’in arkasındaki şirket olması: o çatıyla en sıkı entegrasyon burada.",
     "en": "Frontend-focused deployment whose per-PR preview environments became an industry standard. Compared with Netlify, it is the company behind Next.js, so integration with that framework is tightest here.",
     "src": "kedi",
-    "added": 1782369927
+    "added": 1782369927,
+    "vs": [
+      {
+        "u": "https://www.netlify.com",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.yamllint.com/",
@@ -836,11 +931,18 @@
     "name": "Zapier",
     "tags": [
       "otomasyon",
-      "freemium"
+      "freemium",
+      "araç"
     ],
     "tr": "En geniş entegrasyon kataloğuna sahip otomasyon aracı — bağlanmak istediğin niş SaaS büyük ihtimalle burada. n8n’e kıyasla bu genişlik avantaj; fiyatlandırma görev başına olduğu için hacim arttıkça hızla pahalılaşıyor.",
     "en": "The automation tool with the widest integration catalogue — the niche SaaS you want is probably there. Compared with n8n the breadth is an advantage; pricing is per task, so it gets expensive quickly as volume grows.",
     "src": "kedi",
-    "added": 1787000000
+    "added": 1787000000,
+    "vs": [
+      {
+        "u": "https://n8n.io/",
+        "a": "fiyat"
+      }
+    ]
   }
 ]

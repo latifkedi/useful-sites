@@ -5,12 +5,17 @@
     "tags": [
       "referans",
       "kitap",
-      "arşivlenmiş",
       "ücretsiz"
     ],
     "tr": "Gölge kütüphaneleri (Library Genesis, Sci-Hub, Z-Library) tek arayüzde birleştiren arama motoru.",
     "en": "A search engine that unifies shadow libraries (Library Genesis, Sci-Hub, Z-Library) in one interface.",
-    "src": "piracy"
+    "src": "piracy",
+    "vs": [
+      {
+        "u": "https://libgen.is",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://theaudiobookbay.com/",
@@ -60,7 +65,13 @@
     ],
     "tr": "“Free Media Heck Yeah” — ücretsiz medya, araç ve kaynakların en büyük indekslerinden biri. Tek tek sitelerden farkı hepsini kategori kategori, güvenlik notlarıyla toplayıp güncel tutması.",
     "en": "“Free Media Heck Yeah” — one of the largest indexes of free media, tools and resources. Unlike individual sites it gathers them category by category, with safety notes, and keeps them current.",
-    "src": "piracy"
+    "src": "piracy",
+    "vs": [
+      {
+        "u": "https://github.com/Igglybuff/awesome-piracy",
+        "a": "olgunluk"
+      }
+    ]
   },
   {
     "url": "https://www.freebookspot.es/",
@@ -92,7 +103,6 @@
     "tags": [
       "referans",
       "kitap",
-      "arşivlenmiş",
       "ücretsiz"
     ],
     "tr": "Kitap ve akademik makaleleri barındıran, yaygın kullanılan gölge kütüphane.",
@@ -105,7 +115,7 @@
     "tags": [
       "self-hosted",
       "açık-kaynak",
-      "referans",
+      "araç",
       "ücretsiz"
     ],
     "tr": "Ev halkının film/dizi isteklerini alıp *arr araçlarına ileten istek arayüzü. Doğrudan sunucu erişiminden farkı teknik olmayan kullanıcıya düğmeyle istek yapma imkânı vermesi.",
@@ -131,7 +141,8 @@
     "tags": [
       "açık-kaynak",
       "ücretsiz",
-      "masaüstü"
+      "masaüstü",
+      "araç"
     ],
     "tr": "Reklamsız, açık kaynak BitTorrent istemcisi; yerleşik arama ve akış sırası var. Kapalı istemcilerden farkı paketli yazılım ya da reklam içermemesi.",
     "en": "An ad-free, open-source BitTorrent client with built-in search and sequential streaming. Unlike closed clients it carries no bundled software or ads.",
@@ -142,18 +153,26 @@
     "name": "r/Piracy Megathread",
     "tags": [
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "awesome-liste"
     ],
     "tr": "r/Piracy topluluğunun sürdürdüğü, alan alan düzenlenmiş kaynak indeksi. Rastgele aramadan farkı topluluk denetiminden geçmiş, ölü ve tuzak bağlantıları ayıklanmış olması.",
     "en": "A resource index maintained by the r/Piracy community, organised by area. Unlike random search it is community-vetted, with dead and trap links weeded out.",
-    "src": "piracy"
+    "src": "piracy",
+    "vs": [
+      {
+        "u": "https://fmhy.net/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://www.reddit.com/r/Usenet/wiki/index",
     "name": "r/Usenet Wiki",
     "tags": [
       "referans",
-      "ücretsiz"
+      "ücretsiz",
+      "öğretici"
     ],
     "tr": "Usenet’e giriş, sağlayıcı ve indeksleyici seçimi için topluluk rehberi. Reklam sitelerinden farkı karşılaştırmalı, tarafsız ve deneyime dayalı olması.",
     "en": "A community guide to getting started with Usenet and choosing providers and indexers. Unlike ad sites it is comparative, neutral and experience-based.",
@@ -170,7 +189,13 @@
     ],
     "tr": "Sonarr’ın film karşılığı — istek listeni izleyip uygun sürüm çıkınca otomatik indirir. Tek tek aramaktan farkı kalite profiline göre en iyi kaynağı kendisi seçmesi.",
     "en": "The film counterpart to Sonarr — it watches your wishlist and downloads automatically when a suitable release appears. Unlike searching one by one it picks the best source by quality profile.",
-    "src": "piracy"
+    "src": "piracy",
+    "vs": [
+      {
+        "u": "https://sonarr.tv/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://sabnzbd.org/",
@@ -191,7 +216,6 @@
     "tags": [
       "referans",
       "akademik",
-      "arşivlenmiş",
       "ücretsiz"
     ],
     "tr": "Ödeme duvarı ardındaki akademik makalelere erişim sağlayan tartışmalı depo.",
@@ -215,7 +239,7 @@
     "url": "https://torrent-finder.info/",
     "name": "Torrent-Finder",
     "tags": [
-      "referans",
+      "araç",
       "ücretsiz"
     ],
     "tr": "Onlarca torrent sitesini tek arayüzden aynı anda arayan üst-arama (meta-search) motoru. Tek bir tracker değil, hepsinin üstünde bir arama katmanı.",
@@ -228,10 +252,17 @@
     "tags": [
       "açık-kaynak",
       "ücretsiz",
-      "self-hosted"
+      "self-hosted",
+      "araç"
     ],
     "tr": "Hafif, açık kaynak BitTorrent istemcisi; sunucuda başsız (headless) çalışabilir. Masaüstü istemcilerden farkı düşük kaynak kullanımı ve uzaktan yönetime uygunluğu.",
     "en": "A lightweight, open-source BitTorrent client that can run headless on a server. Unlike desktop clients it uses few resources and suits remote management.",
-    "src": "piracy"
+    "src": "piracy",
+    "vs": [
+      {
+        "u": "https://www.qbittorrent.org/",
+        "a": "platform"
+      }
+    ]
   }
 ]

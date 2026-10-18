@@ -13,15 +13,15 @@ you pick an area, then browse its categories.
 
 | Area | What it holds |
 |------|---------------|
-| **Yazılım · Software** | Languages; C, C++ and Rust; Java and the JVM; web; CSS and UI kits; backend, mobile, databases, practice, testing, games. |
-| **Yapay Zeka · Artificial Intelligence** | Models, infrastructure, RAG, tooling, generation. |
-| **Altyapı & Sistem · Infrastructure & Systems** | DevOps, networking, self-hosting and media servers, hardware, electronics, wearables. |
+| **Yazılım · Software** | Languages; C, C++ and Rust; Java and the JVM; web; CSS and UI kits; backend, API and system design; mobile and desktop; databases; testing; games. |
+| **Veri & Yapay Zeka · Data & AI** | Models and assistants, agents and infrastructure, RAG and vectors, applied tools, generative media; data science and ML; data engineering. |
+| **Altyapı & Sistem · Infrastructure & Systems** | DevOps, networking, self-hosting and media servers, hardware and CAD, electronics, wearables. |
 | **Güvenlik · Security** | Privacy; offence, defence and OSINT; CTFs and hands-on labs; certification and career. |
-| **Veri · Data** | Data sources and datasets, data engineering. |
-| **Bilim & Matematik · Science & Mathematics** | Science, mathematics, quantum. |
+| **Bilim & Matematik · Science & Mathematics** | Science and academia, mathematics, quantum. |
 | **Ekonomi & Finans · Economics & Finance** | Economic data and research; markets, valuation and crypto. |
 | **Tasarım & Medya · Design & Media** | UI design, colour and type; icons, photos and illustration; media editing, files and diagrams; architecture. |
-| **Öğrenme, Referans & Araçlar · Learning, Reference & Tools** | Roadmaps and free books; cheat sheets, lists and discovery; open source; editors, online playgrounds, converters and everyday tools. |
+| **Öğrenme & Başvuru · Learning & Reference** | Roadmaps and courses; practice and challenges; free books and long reads; cheat sheets and quick reference. |
+| **Geliştirici Araçları & Keşif · Dev Tools & Discovery** | Editors, IDEs and terminals; online playgrounds; converters and checkers; everyday tools; open source; lists and discovery. |
 | **Açık Erişim & Korsan · Open Access & Piracy** | Legal open access and archives, kept apart from piracy meta-hubs and tooling. |
 
 The design is a rubricated index: ink on paper, and one red used only as a

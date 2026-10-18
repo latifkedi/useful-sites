@@ -42,7 +42,7 @@ undeclared source, a duplicate URL, broken JSON or a file for a category that
 does not exist stops the build with the file and position named. The old
 loader silently dropped records instead, which is why this one does not.
 
-Tags come from the 64 canonical tags in `tags.py`. Anything else is looked up
+Tags come from the 73 canonical tags in `tags.py`. Anything else is looked up
 in the `ALIAS` table and mapped to a canonical equivalent; if it maps to
 nothing, it is dropped rather than guessed at. Common English spellings
 (`open-source`, `database`, `oss`, `k8s`) are covered — that layer is derived
@@ -63,7 +63,7 @@ overwrites it.
 | `build.py` | Merges everything into the published files, including `app.js` (joined from `../src/app/*.js`) |
 | `emit.py` | Static category pages, sitemap, robots, Atom feed |
 | `readlinks.py` | Reads the record list back out of `links.js` |
-| `tags.py` | Collapses free-form tags into 64 canonical ones, with display labels |
+| `tags.py` | Collapses free-form tags into 73 canonical ones, with display labels |
 | `picks.py` | Entries marked as starting points, a few per category |
 | `sources.py` | Where each record came from (own archive / external list) |
 | `intros.py` | Category introduction texts |
@@ -71,7 +71,7 @@ overwrites it.
 | `ci_check.py` | Link scan and report, for GitHub Actions |
 | `linkstate.py` | The scan rules (what counts as dead, how a record moves between scans), kept network-free so they are unit-tested |
 | `ci_github.py` | Archive and staleness audit for linked GitHub repositories; writes `health.json` |
-| `ci_fresh.py` | Asks whether a link is still the thing we described — takeovers, parked domains, dated claims |
+| `ci_fresh.py` | Asks whether a link is still the thing we described — takeovers, parked domains, dated claims, and perishable claims (free, beta, waitlist) on records whose freshness tier falls due: every 90 days in the AI categories and finance, 365 elsewhere, at most 25 a week |
 | `coverage.py` | Counts records per topic to spot thin areas (a rough word match); the scope section of `CONTRIBUTING.md` quotes it |
 | `test_build.py` | Smoke test over the build output; run it before committing |
 | `test_helpers.py` | Unit tests for the note loader/validator and the pure helpers |
@@ -113,6 +113,7 @@ as plain HTML with no JavaScript.
 | `verified.json` | Last-verified date and status per record; the weekly scan refreshes it |
 | `health.json` | Repository state per record (archived / dormant / deleted) and last push date |
 | `manual.json` | Decisions made by hand after checking a link in a browser; the weekly scan cannot override them |
+| `removed.txt` | URLs taken out on purpose, with the reason (one per line, tab-separated); `from_issue.py` refuses a submission listed there, so a pruned link is not re-imported |
 
 The build used to merge the notes with metadata extracted from the owner's
 personal bookmark export (`meta.json`, `ext_meta.json`, `added.json`). The
@@ -181,3 +182,9 @@ Run either scan by hand with `python ci_check.py` or `python ci_github.py`. A ru
 by hand writes only the report: `verified.json` and `health.json` belong to the
 weekly workflow (committing a local scan collides with the bot's commit on
 `main`), so they are rewritten only inside GitHub Actions or with `--write`.
+
+## Paths, tag pages and social images
+
+- `paths.py` defines the learning paths (ordered steps over existing records); the build renders them under `k/yol/` and `k/en/path/`.
+- `taghubs.py` decides which tags get a page (`k/t/`, `k/en/tag/`): at least 12 records, price tags and `arşivlenmiş` skipped, plus the two catch-all tags `açık-kaynak` and `referans`.
+- `make_og.py` draws `og/*.png` (one per category and path). It is not part of the build and CI does not run it, so run it by hand after adding a category or path and commit `og/`.

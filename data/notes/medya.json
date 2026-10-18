@@ -9,14 +9,20 @@
     ],
     "tr": "Piksel sanatı ve animasyon için tasarlanmış editör; soğan zarı, kare zaman çizelgesi ve sprite sayfası dışa aktarımı var. Genel amaçlı çizim programlarından farkı her aracın piksel ızgarasına oturması — yumuşatma (anti-aliasing) istemediğin yerde olmuyor.",
     "en": "An editor built for pixel art and animation, with onion skinning, a frame timeline and sprite sheet export. Unlike a general painting program every tool snaps to the pixel grid, so anti-aliasing never appears where you did not ask for it.",
-    "src": "cdcruz"
+    "src": "cdcruz",
+    "vs": [
+      {
+        "u": "https://www.piskelapp.com/",
+        "a": "fiyat"
+      }
+    ]
   },
   {
     "url": "https://www.audionotes.app/?aff=7wjen",
     "name": "AudioNotes",
     "tags": [
       "ses",
-      "referans",
+      "araç",
       "freemium"
     ],
     "tr": "Sesli notu ham döküm yerine yapılandırılmış metne çeviriyor: özet, madde listesi, yapılacaklar. Yürürken düşünüp sonra düzenlemek isteyenler için.",
@@ -69,7 +75,8 @@
     "tags": [
       "açık-kaynak",
       "ücretsiz",
-      "3b"
+      "3b",
+      "masaüstü"
     ],
     "tr": "Modelleme, kaplama, kuşatma (rigging), simülasyon, render ve video kurgu tek pakette. Maya ya da 3ds Max’ten farkı tamamen ücretsiz olması ve bu boru hattının tümünü tek programda tutması — dosya aktarımı kaybı yok.",
     "en": "Modelling, texturing, rigging, simulation, rendering and video editing in one package. Against Maya or 3ds Max it is free, and it keeps the entire pipeline in a single program so nothing is lost in file handoffs.",
@@ -80,8 +87,7 @@
     "name": "Carbon",
     "tags": [
       "ücretsiz",
-      "görsel-üretim",
-      "sistem-tasarımı"
+      "araç"
     ],
     "tr": "Kod parçasından paylaşılabilir görsel üretiyor; tema, pencere süsü ve satır numarası ayarlanabiliyor. Ekran görüntüsünden farkı, sonucun tekrar edilebilir ve okunaklı olması.",
     "en": "Turns a snippet into a shareable image with theme, window chrome and line numbers under your control. Unlike a screenshot the result is reproducible and legible.",
@@ -93,7 +99,8 @@
     "name": "diagrams.net",
     "tags": [
       "ücretsiz",
-      "görsel-üretim"
+      "tasarım",
+      "araç"
     ],
     "tr": "draw.io’nun çevrimiçi sürümü; dosyayı Drive, OneDrive ya da yerel diske kaydediyor, kendi sunucusunda tutmuyor.",
     "en": "The online edition of draw.io, saving to Drive, OneDrive or local disk rather than keeping your file on its own server.",
@@ -118,7 +125,8 @@
     "tags": [
       "ücretsiz",
       "açık-kaynak",
-      "tarayıcı-içi"
+      "tarayıcı-içi",
+      "tasarım"
     ],
     "tr": "Akış şeması ve diyagram çizen ücretsiz araç. Lucidchart’tan farkı tamamen ücretsiz olması ve diyagramı kendi deponda ya da bulutunda tutabilmen.",
     "en": "A free tool for flowcharts and diagrams. Unlike Lucidchart it is entirely free and lets you keep diagrams in your own repository or cloud.",
@@ -130,7 +138,7 @@
     "name": "Excalidraw",
     "tags": [
       "açık-kaynak",
-      "görsel-üretim",
+      "tasarım",
       "tarayıcı-içi",
       "ücretsiz"
     ],
@@ -151,7 +159,8 @@
     "tags": [
       "açık-kaynak",
       "ücretsiz",
-      "masaüstü"
+      "masaüstü",
+      "tasarım"
     ],
     "tr": "Font oluşturma ve düzenleme programı; TTF, OTF, WOFF arasında dönüştürüyor ve glif ipuçlarını (hinting) düzenlemeye izin veriyor. Çevrimiçi font dönüştürücülerden farkı gliflerin kendisine müdahale edebilmen.",
     "en": "A font creation and editing program that converts between TTF, OTF and WOFF and lets you work on glyph hinting. Unlike an online font converter, you can get at the glyphs themselves.",
@@ -164,7 +173,7 @@
       "açık-kaynak",
       "ücretsiz",
       "masaüstü",
-      "görsel-üretim"
+      "tasarım"
     ],
     "tr": "Photoshop’a açık kaynak alternatif olan tam donanımlı görüntü düzenleyici. Ücretli araçlardan farkı bedava ve eklentiyle genişleyebilir olması.",
     "en": "A full-featured image editor that is the open-source alternative to Photoshop. Unlike paid tools it is free and extensible with plugins.",
@@ -174,8 +183,9 @@
     "url": "https://www.ilovepdf.com/",
     "name": "iLovePDF",
     "tags": [
-      "referans",
-      "freemium"
+      "araç",
+      "freemium",
+      "tarayıcı-içi"
     ],
     "tr": "Birleştirme, bölme, sıkıştırma ve dönüştürme. Masaüstü PDF araçlarından farkı kurulum istememesi; hassas belgeler için dikkat: dosya sunucuya yükleniyor, yerel bir araç daha uygun olabilir.",
     "en": "Merge, split, compress and convert. Unlike desktop PDF tools it needs no installation; be careful with sensitive documents — the file is uploaded to a server, and a local tool may be the better call.",
@@ -189,7 +199,7 @@
       "açık-kaynak",
       "ücretsiz",
       "masaüstü",
-      "görsel-üretim"
+      "tasarım"
     ],
     "tr": "SVG’yi yerel biçimi olarak kullanan vektör çizim programı. Illustrator’dan farkı dosyanın doğrudan web’e gidebilecek temiz SVG olması — ara dışa aktarma adımı yok, kaynağı elle düzenleyebiliyorsun.",
     "en": "A vector editor that uses SVG as its native format. Against Illustrator, the file is clean SVG ready for the web — no export step in between, and you can hand-edit the source.",
@@ -202,11 +212,17 @@
       "açık-kaynak",
       "ücretsiz",
       "masaüstü",
-      "görsel-üretim"
+      "tasarım"
     ],
     "tr": "Dijital resim ve konsept sanat için çizim programı; fırça motoru ve kare kare animasyon desteği güçlü. GIMP’ten farkı fotoğraf düzenleme değil çizim için tasarlanmış olması — fırça gecikmesi ve stabilizasyon buna göre ayarlanmış.",
     "en": "A painting program for digital art and concept work, with a strong brush engine and frame-by-frame animation. Unlike GIMP it was built for drawing rather than photo editing, and brush latency and stabilisation are tuned accordingly.",
-    "src": "cdcruz"
+    "src": "cdcruz",
+    "vs": [
+      {
+        "u": "https://www.gimp.org/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://github.com/mifi/lossless-cut",
@@ -226,11 +242,18 @@
     "name": "Lucidchart",
     "tags": [
       "freemium",
-      "tarayıcı-içi"
+      "tarayıcı-içi",
+      "tasarım"
     ],
     "tr": "Diyagram ve akış şeması için ekip iş birliğine açık çevrimiçi araç. draw.io’ya kıyasla ekip ve entegrasyon özellikleri güçlü; ücretsiz katmanı ise sınırlı.",
     "en": "An online tool for diagrams and flowcharts with team collaboration. Compared with draw.io its team and integration features are stronger, while the free tier is limited.",
-    "src": "awesomeproj"
+    "src": "awesomeproj",
+    "vs": [
+      {
+        "u": "https://www.drawio.com/",
+        "a": "fiyat"
+      }
+    ]
   },
   {
     "url": "https://mediaarea.net/en/MediaInfo",
@@ -250,21 +273,27 @@
     "name": "Mermaid",
     "tags": [
       "açık-kaynak",
-      "görsel-üretim",
+      "tasarım",
       "dokümantasyon",
       "ücretsiz"
     ],
     "tr": "Akış şeması ve diyagramları metinden üreten araç — “diyagramların Markdown’ı”. Çizim programlarından farkı diyagramı koda gömüp sürüm kontrolünde tutabilmen.",
     "en": "A tool generating flowcharts and diagrams from text — “Markdown for diagrams”. Unlike drawing programs you embed the diagram as code and keep it in version control.",
-    "src": "kedi"
+    "src": "kedi",
+    "vs": [
+      {
+        "u": "https://www.drawio.com/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://mermaid.live/edit",
     "name": "Mermaid Live Editor",
     "tags": [
       "ücretsiz",
-      "görsel-üretim",
-      "referans"
+      "tasarım",
+      "araç"
     ],
     "tr": "Metinden diyagram üretiyor; GitHub ve GitLab Mermaid’i doğrudan gösteriyor. draw.io gibi çizim araçlarından farkı kaynağın düz metin olması: sürüm kontrolüne giriyor ve diff’i okunabiliyor.",
     "en": "Generates diagrams from text; GitHub and GitLab render Mermaid natively. Unlike drawing tools such as draw.io the source is plain text, so it lives in version control with a readable diff.",
@@ -276,11 +305,18 @@
     "name": "Miro",
     "tags": [
       "interaktif",
-      "freemium"
+      "freemium",
+      "tasarım"
     ],
     "tr": "Gerçek zamanlı, sonsuz beyaz tahta; diyagram ve beyin fırtınası için. draw.io gibi diyagram araçlarından farkı serbest biçimli olması: yapışkan not, çizim ve şablonlarla ekip atölyesi yürütmeye uygun.",
     "en": "A real-time, infinite whiteboard for diagrams and brainstorming. Unlike diagram tools such as draw.io it is free-form — sticky notes, sketches and templates suited to running team workshops.",
-    "src": "awesomeproj"
+    "src": "awesomeproj",
+    "vs": [
+      {
+        "u": "https://www.drawio.com/",
+        "a": "yaklasim"
+      }
+    ]
   },
   {
     "url": "https://github.com/Augani/openreel-video",
@@ -302,7 +338,7 @@
     "tags": [
       "tarayıcı-içi",
       "ücretsiz",
-      "görsel-üretim"
+      "tasarım"
     ],
     "tr": "Tarayıcıda çalışan görsel editör; PSD, XCF, Sketch ve XD dosyalarını katmanlarıyla açıyor. GIMP’ten farkı kurulum gerektirmemesi ve PSD uyumluluğunun gerçekten iyi olması — başkasının gönderdiği PSD’yi açmak için en kısa yol.",
     "en": "An image editor in the browser that opens PSD, XCF, Sketch and XD files with their layers intact. Against GIMP it installs nothing and its PSD compatibility is genuinely good, which makes it the shortest path to opening a file someone sent you.",
@@ -321,7 +357,7 @@
       "açık-kaynak",
       "tarayıcı-içi",
       "ücretsiz",
-      "görsel-üretim"
+      "tasarım"
     ],
     "tr": "Tarayıcıda çalışan piksel sanatı ve sprite animasyon editörü. Aseprite’tan farkı ücretsiz ve kurulumsuz olması; karşılığında katman ve fırça araçları daha sınırlı — ilk sprite’ını çizmek için yeterli.",
     "en": "A pixel art and sprite animation editor in the browser. Against Aseprite it is free and needs no install; in exchange the layer and brush tools are thinner — enough for your first sprite.",
@@ -331,7 +367,7 @@
     "url": "https://www.pixilart.com/draw",
     "name": "Pixilart",
     "tags": [
-      "görsel-üretim",
+      "tasarım",
       "tarayıcı-içi",
       "ücretsiz"
     ],
@@ -343,24 +379,36 @@
     "url": "https://pixlr.com/",
     "name": "Pixlr",
     "tags": [
-      "görsel-üretim",
+      "tasarım",
       "tarayıcı-içi",
       "freemium"
     ],
     "tr": "Bulut tabanlı, tarayıcıda çalışan görüntü düzenleme araçları. Photoshop’tan farkı kurulum istememesi ve ücretsiz katmanı; karşılığında gelişmiş özellikler sınırlı.",
     "en": "Cloud-based image-editing tools that run in the browser. Unlike Photoshop it needs no install and has a free tier; in exchange, advanced features are limited.",
-    "src": "awesomeproj"
+    "src": "awesomeproj",
+    "vs": [
+      {
+        "u": "https://www.photopea.com/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://www.ray.so/",
     "name": "ray.so",
     "tags": [
       "ücretsiz",
-      "görsel-üretim"
+      "araç"
     ],
     "tr": "Kod parçasından paylaşılabilir görsel üretiyor; Carbon’a alternatif, daha az ayar ve daha hızlı sonuç.",
     "en": "Turns a snippet into a shareable image — a Carbon alternative with fewer knobs and a faster result.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://carbon.now.sh/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://sankeydiagram.net/",
@@ -368,7 +416,8 @@
     "tags": [
       "açık-kaynak",
       "tarayıcı-içi",
-      "ücretsiz"
+      "ücretsiz",
+      "tasarım"
     ],
     "tr": "Metin girdisinden Sankey akış diyagramı üreten araç; enerji, bütçe ya da dönüşüm hunisi akışları için. Genel diyagram araçlarından farkı tek bir grafik türüne odaklanması ve girdiyi grafik değil metin olarak alması.",
     "en": "Generates Sankey flow diagrams from text input, for energy, budget or funnel flows. Unlike general diagram tools it does one chart type, and takes its input as text rather than as drawing.",
@@ -380,7 +429,8 @@
     "tags": [
       "açık-kaynak",
       "ücretsiz",
-      "masaüstü"
+      "masaüstü",
+      "araç"
     ],
     "tr": "Windows için ekran görüntüsü ve kayıt aracı; kaydettikten sonra yükleme, kısaltma, OCR gibi adımları zincirleyebiliyorsun. Snipping Tool’dan farkı bu iş akışı otomasyonu — görüntü alıp panoya bağlantı koymayı tek kısayola indiriyor.",
     "en": "A screenshot and recording tool for Windows that chains post-capture steps: upload, shorten, OCR. What separates it from Snipping Tool is that workflow automation — capture and link-on-clipboard becomes one shortcut.",
@@ -392,7 +442,8 @@
     "tags": [
       "açık-kaynak",
       "ücretsiz",
-      "video"
+      "video",
+      "araç"
     ],
     "tr": "FFmpeg’i arayüzle saran dönüştürücü; video editörlerinin ihtiyaç duyduğu ara kodekleri ve toplu işlemleri hazır sunuyor. HandBrake’ten farkı yayın/kurgu odaklı olması — ProRes, DNxHD ve altyazı gömme gibi işler menüde duruyor.",
     "en": "A converter wrapping FFmpeg with a UI, offering the intermediate codecs and batch jobs editors need. Against HandBrake it is aimed at post-production — ProRes, DNxHD and subtitle burn-in sit in the menu rather than in a command line.",
@@ -405,7 +456,7 @@
       "açık-kaynak",
       "tarayıcı-içi",
       "ücretsiz",
-      "görsel-üretim"
+      "araç"
     ],
     "tr": "Görsel sıkıştırmayı iki bölmede karşılaştırmalı gösteren araç; MozJPEG, WebP, AVIF kodlayıcılarını WebAssembly ile tarayıcıda çalıştırıyor. TinyPNG’den farkı dosyanın hiç yüklenmemesi ve her kodlayıcının ayarını elle kurcalayabilmen.",
     "en": "Image compression with a side-by-side comparison, running MozJPEG, WebP and AVIF encoders in the browser through WebAssembly. Unlike TinyPNG nothing is uploaded, and every encoder setting is yours to tune.",
@@ -435,11 +486,18 @@
     "name": "Subtitle Editor Online",
     "tags": [
       "tarayıcı-içi",
-      "ücretsiz"
+      "ücretsiz",
+      "video"
     ],
     "tr": "Tarayıcıda çalışan altyazı düzenleyici; .srt ve .vtt dosyalarını açıp zamanlama ve metin düzeltmeye yarıyor. Subtitle Edit gibi masaüstü araçlardan farkı kurulum istememesi — başkasının bilgisayarında hızlı bir düzeltme için.",
     "en": "A subtitle editor in the browser for opening .srt and .vtt files and fixing timings and text. Against desktop tools like Subtitle Edit it installs nothing, which is what you want for a quick fix on someone else’s machine.",
-    "src": "cdcruz"
+    "src": "cdcruz",
+    "vs": [
+      {
+        "u": "https://github.com/SubtitleEdit/subtitleedit",
+        "a": "platform"
+      }
+    ]
   },
   {
     "url": "https://yqnn.github.io/svg-path-editor/",
@@ -460,7 +518,7 @@
     "tags": [
       "ücretsiz",
       "tarayıcı-içi",
-      "görsel-üretim"
+      "araç"
     ],
     "tr": "PNG ve JPEG dosyalarını seçici nicemleme ile küçülten servis; sürükle bırak, ayar yok. Squoosh’tan farkı toplu işlem ve API sunması — tek görsel için Squoosh, yüz görsel için bu.",
     "en": "Shrinks PNG and JPEG files through selective quantisation: drag, drop, no settings. Against Squoosh it offers batch processing and an API — Squoosh for one image, this for a hundred.",
@@ -472,18 +530,25 @@
     "tags": [
       "ücretli",
       "tarayıcı-içi",
-      "görsel-üretim"
+      "araç"
     ],
     "tr": "Bitmap görseli vektöre çeviren araç. Illustrator’ın izleme (trace) işlevinden farkı kenar tespitinin belirgin daha temiz olması — logoyu düşük çözünürlüklü bir PNG’den geri kazanmak için iyi sonuç veren bir yol.",
     "en": "Converts a bitmap image into vector art. Against Illustrator’s trace, its edge detection is noticeably cleaner — it is a good route to recovering a logo from a low-resolution PNG.",
-    "src": "cdcruz"
+    "src": "cdcruz",
+    "vs": [
+      {
+        "u": "https://www.vectorizer.io/",
+        "a": "fiyat"
+      }
+    ]
   },
   {
     "url": "https://www.vectorizer.io/",
     "name": "Vectorizer",
     "tags": [
-      "görsel-üretim",
-      "freemium"
+      "araç",
+      "freemium",
+      "tasarım"
     ],
     "tr": "PNG/JPG gibi piksel görselleri vektöre (SVG) çeviren araç. Elle çizmekten farkı mevcut logoyu ölçeklenebilir hâle otomatik dönüştürmesi.",
     "en": "A tool converting pixel images like PNG/JPG into vectors (SVG). Unlike redrawing by hand it automatically turns an existing logo into a scalable form.",
@@ -494,7 +559,8 @@
     "name": "Whimsical",
     "tags": [
       "interaktif",
-      "freemium"
+      "freemium",
+      "tasarım"
     ],
     "tr": "Akış şeması, tel çerçeve, yapışkan not ve zihin haritasını tek tuvalde birleştiren araç. Tek amaçlı araçlardan farkı hepsini aynı belgede bir arada tutması.",
     "en": "A tool combining flowcharts, wireframes, sticky notes and mind maps on one canvas. Unlike single-purpose tools it keeps them all together in one document.",
@@ -504,7 +570,7 @@
     "url": "https://www.xiconeditor.com/",
     "name": "X-Icon Editor",
     "tags": [
-      "görsel-üretim",
+      "araç",
       "tarayıcı-içi",
       "ücretsiz"
     ],
@@ -518,7 +584,7 @@
     "tags": [
       "ücretsiz",
       "masaüstü",
-      "görsel-üretim"
+      "araç"
     ],
     "tr": "Toplu görsel dönüştürme ve işleme aracı; 500’den fazla biçimi okuyup 70 kadarına yazıyor, yeniden boyutlandırma ve filigran zincirlenebiliyor. Çevrimiçi dönüştürücülerden farkı binlerce dosyayı yerelde, boyut sınırı olmadan işlemesi.",
     "en": "Batch image conversion and processing that reads over 500 formats and writes around 70, with resize and watermark steps chained together. Unlike online converters it handles thousands of files locally with no size cap.",
@@ -530,7 +596,7 @@
     "tags": [
       "ücretsiz",
       "video",
-      "referans"
+      "araç"
     ],
     "tr": "Videodan belirli bir aralığı kesip indiriyor. Tamamını indirip düzenlemeye göre hem hızlı hem disk dostu.",
     "en": "Cuts and downloads a specific range from a video — faster and kinder to disk than downloading the whole thing and trimming.",

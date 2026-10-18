@@ -35,7 +35,8 @@
     "name": "CoderPad",
     "tags": [
       "mülakat",
-      "freemium"
+      "freemium",
+      "tarayıcı-içi"
     ],
     "tr": "Canlı kod yazdırarak teknik mülakat yapmayı sağlayan ortak editör (birçok dil). CodeShare gibi basit ortak editörlerden farkı kodu çalıştırması ve oturumu sonradan adım adım yeniden oynatabilmesi.",
     "en": "A collaborative editor for technical interviews with live coding (many languages). Unlike simple shared editors such as CodeShare, it runs the code and can replay the session step by step afterwards.",
@@ -64,7 +65,13 @@
     ],
     "tr": "Tarayıcıda gerçek zamanlı ortak kod düzenleme; kurulum ve hesap gerektirmiyor. CoderPad’e kıyasla kodu çalıştırmıyor ama anında açılıyor: uzaktan eşli programlama ya da mülakat için hızlı çözüm.",
     "en": "Real-time collaborative code editing in the browser with no install or account. Compared with CoderPad it does not run code, but it opens instantly — a fast option for remote pairing or an interview.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://coderpad.io",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://godbolt.org/",
@@ -72,7 +79,8 @@
     "tags": [
       "açık-kaynak",
       "c-ailesi",
-      "ücretsiz"
+      "ücretsiz",
+      "tarayıcı-içi"
     ],
     "tr": "Kaynak kodun yanına ürettiği assembly’i koyuyor; optimizasyon seviyesini ve derleyici sürümünü değiştirip farkı anında görüyorsun. Performans tartışmalarını fikirden ölçüme taşıyor.",
     "en": "Puts the generated assembly beside your source, with optimisation level and compiler version switchable so you see the difference immediately. It moves performance arguments from opinion to measurement.",
@@ -89,7 +97,13 @@
     ],
     "tr": "60’tan fazla dili tarayıcıda derleyip çalıştırıyor, girdi akışı verebiliyorsun. Replit gibi proje ortamlarından farkı tek dosyalık deneme için hafif olması: kurulum yapmadan bir dilin sözdizimini denemek için.",
     "en": "Compiles and runs 60+ languages in the browser and accepts an input stream. Unlike project environments such as Replit it is light, for single files — trying a language’s syntax without installing anything.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://replit.com/",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://jsbin.com/",
@@ -101,7 +115,13 @@
     ],
     "tr": "JSFiddle’a benzer, canlı çıktı paneli olan kod alanı; konsol çıktısını aynı ekranda göstermesi hata ayıklamada pratik.",
     "en": "A JSFiddle-like scratchpad with a live output panel; showing console output on the same screen is handy when debugging.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://jsfiddle.net",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://jsfiddle.net",
@@ -127,7 +147,13 @@
     ],
     "tr": "Açık kaynak çevrimiçi derleyici. Ideone gibi kapalı servislerin aksine motoru kendi sunucunda çalıştırabiliyorsun — kod değerlendirme sistemi kuranların altyapı olarak kullandığı proje.",
     "en": "An open-source online compiler. Unlike closed services such as Ideone you can self-host its engine — the project people building code assessment systems use as infrastructure.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://ideone.com",
+        "a": "lisans"
+      }
+    ]
   },
   {
     "url": "https://liveweave.com/",
@@ -147,7 +173,8 @@
     "tags": [
       "tarayıcı-içi",
       "ücretsiz",
-      "interaktif"
+      "interaktif",
+      "hesap-gerekmez"
     ],
     "tr": "Birçok dili destekleyen, kurulum istemeyen çevrimiçi IDE. Replit’ten farkı hesap açmadan tek dosyalık kodu çalıştırıp bağlantıyla paylaşabilmen; karşılığında çok dosyalı proje desteği sınırlı.",
     "en": "An online IDE supporting many languages, with no install. Unlike Replit you can run and share single-file code by link without an account; the trade-off is limited multi-file project support.",
@@ -158,7 +185,8 @@
     "name": "Ona (eski Gitpod)",
     "tags": [
       "freemium",
-      "agent"
+      "agent",
+      "llm"
     ],
     "tr": "Bulut geliştirme ortamı olarak başlayan Gitpod, 2025’te Ona adıyla arka planda çalışan yapay zekâ ajan platformuna dönüştü. GitHub Codespaces gibi bulut ortamlarından farkı artık ortamın kendisinden çok içinde çalışan ajanlara odaklanması.",
     "en": "Starting as the Gitpod cloud dev environment, it became Ona in 2025 — a platform for background AI coding agents. Unlike cloud environments such as GitHub Codespaces, it now centres on the agents running inside rather than the environment itself.",
@@ -170,7 +198,8 @@
     "tags": [
       "açık-kaynak",
       "tarayıcı-içi",
-      "ücretsiz"
+      "ücretsiz",
+      "araç"
     ],
     "tr": "Bir dilde yazılan kodu başka dillere çeviren deneysel araç; C#, Java, Python, JavaScript. Sözdizimi tablolarından farkı çalışan çeviri üretmesi — bir dilin kalıbının başka dilde nasıl karşılandığını görmek için.",
     "en": "An experimental tool that converts code written in one language into others — C#, Java, Python, JavaScript. Against a syntax comparison table it produces working translations, which shows how one language’s idiom lands in another.",
@@ -186,7 +215,13 @@
     ],
     "tr": "C ve birçok dili tarayıcıda derleyen çevrimiçi IDE. Ideone gibi yalnız çalıştıran alanlardan farkı gdb hata ayıklayıcısını içermesi: kesme noktası koyup adım adım ilerleyebiliyorsun.",
     "en": "An online IDE that compiles C and many other languages in the browser. Unlike run-only sites such as Ideone it includes the gdb debugger, so you can set breakpoints and step through.",
-    "src": "awesomeproj"
+    "src": "awesomeproj",
+    "vs": [
+      {
+        "u": "https://ideone.com",
+        "a": "kapsam"
+      }
+    ]
   },
   {
     "url": "https://playcode.io/",
@@ -224,7 +259,8 @@
     "name": "RunJS",
     "tags": [
       "freemium",
-      "javascript"
+      "javascript",
+      "araç"
     ],
     "tr": "Yazdıkça sonucu gösteren JavaScript oyun alanı. Tarayıcı konsolundan farkı `console.log` yazmadan her satırdaki değeri yanında göstermesi.",
     "en": "A JavaScript playground that evaluates as you type. Unlike the browser console it shows each line’s value alongside without a `console.log`.",
@@ -237,11 +273,18 @@
       "freemium",
       "tarayıcı-içi",
       "javascript",
-      "interaktif"
+      "interaktif",
+      "çevrimdışı"
     ],
     "tr": "WebContainer ile Node.js’i doğrudan tarayıcıda çalıştırıyor. Sunucuda konteyner açan çevrimiçi IDE’lerden farkı kurulum ve yeniden başlatmanın anlık olması; çevrimdışı bile çalışabiliyor.",
     "en": "Runs Node.js in the browser through WebContainers. Unlike online IDEs that spin up server-side containers, install and restart are instant — it even works offline.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://codesandbox.io",
+        "a": "barindirma"
+      }
+    ]
   },
   {
     "url": "https://wandbox.org/",
@@ -253,6 +296,12 @@
     ],
     "tr": "C++ derleyicilerinin onlarca sürümünü yan yana çalıştırıyor. Compiler Explorer’dan farkı derleme çıktısı (assembly) yerine programın çalışma sonucunu göstermesi: bir davranışın hangi standarttan ya da derleyici sürümünden geldiğini test etmek için.",
     "en": "Runs dozens of C++ compiler versions side by side. Unlike Compiler Explorer it shows the program’s run output rather than the assembly — for testing which standard or compiler release a behaviour comes from.",
-    "src": "bwapsv"
+    "src": "bwapsv",
+    "vs": [
+      {
+        "u": "https://godbolt.org/",
+        "a": "yaklasim"
+      }
+    ]
   }
 ]
