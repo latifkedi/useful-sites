@@ -5,7 +5,28 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/veri.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/veri.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/veri.xml</id>
-<updated>2026-10-09T09:00:00Z</updated>
+<updated>2026-10-18T00:00:00Z</updated>
+<entry>
+  <title>kepler.gl</title>
+  <link href="https://kepler.gl/"/>
+  <id>https://kepler.gl/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Büyük konum veri setlerini (milyonlarca nokta, yolculuk, ızgara) tarayıcıda katman katman görselleştiren açık kaynak araç; Uber’de doğdu. QGIS’ten farkı analizden çok keşif ve sunuma odaklanması: CSV ya da GeoJSON’u sürükleyip zaman kaydırıcılı bir haritaya dakikalar içinde ulaşıyorsun.</summary>
+</entry>
+<entry>
+  <title>overpass turbo</title>
+  <link href="https://overpass-turbo.eu/"/>
+  <id>https://overpass-turbo.eu/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>OpenStreetMap verisini Overpass API ile sorgulayan web arayüzü; sonucu haritada gösteriyor, GeoJSON olarak indiriyor, sorgu yazmayanlar için sihirbazı var. Hazır OSM dökümlerini indirmekten farkı yalnızca istediğin nesneleri (bir şehirdeki tüm eczaneler gibi) çekmesi.</summary>
+</entry>
+<entry>
+  <title>QGIS</title>
+  <link href="https://qgis.org/"/>
+  <id>https://qgis.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Windows, macOS ve Linux’ta çalışan açık kaynak masaüstü coğrafi bilgi sistemi; shapefile, GeoPackage, PostGIS ve raster katmanlarını okuyup analiz ediyor, eklentilerle genişliyor. ArcGIS’ten farkı lisans ücreti olmaması; buna karşın kurumsal destek topluluk ve ticari ortaklardan geliyor.</summary>
+</entry>
 <entry>
   <title>KDnuggets</title>
   <link href="https://www.kdnuggets.com/"/>
@@ -264,26 +285,5 @@
   <id>https://figshare.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Araştırma çıktılarını ve veri kümelerini DOI ile atıf verilebilir biçimde paylaştıran platform. Zenodo’ya kıyasla ticari bir şirketin (Digital Science) ürünü; üniversitelere kurumsal depo olarak da satılıyor.</summary>
-</entry>
-<entry>
-  <title>Gapminder</title>
-  <link href="https://www.gapminder.org"/>
-  <id>https://www.gapminder.org</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Hans Rosling’in kurduğu vakfın küresel kalkınma verisini olgu temelli görselleştirmelerle sunan araçları. Ham veri portallarından farkı veriyi yaygın yanılgıları düzeltecek biçimde, zaman içinde hareket eden grafiklerle anlatması.</summary>
-</entry>
-<entry>
-  <title>Humanitarian Data Exchange</title>
-  <link href="https://data.humdata.org"/>
-  <id>https://data.humdata.org</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>OCHA’nın derlediği kriz ve insani yardım veri kümeleri. Genel açık veri portallarından farkı yalnız kriz bölgelerine odaklanması ve verinin sahadaki kuruluşlardan gelmesi.</summary>
-</entry>
-<entry>
-  <title>Opendatasoft</title>
-  <link href="https://www.opendatasoft.com"/>
-  <id>https://www.opendatasoft.com</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Kurumların ve belediyelerin veri portalı kurduğu platform; portallar arası aranabilir veri kümeleri sunuyor. Tek tek portalları gezmek yerine bu platformu kullanan portalların verisinde birlikte arama yapabiliyorsun.</summary>
 </entry>
 </feed>

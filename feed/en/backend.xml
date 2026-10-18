@@ -5,7 +5,21 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/en/backend.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/backend.xml</id>
-<updated>2026-10-09T09:00:00Z</updated>
+<updated>2026-10-18T00:00:00Z</updated>
+<entry>
+  <title>Wasmer</title>
+  <link href="https://wasmer.io/"/>
+  <id>https://wasmer.io/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A WebAssembly runtime that lets you choose between several compiler back ends (Singlepass, Cranelift, LLVM), with a package registry and paid Wasmer Edge hosting alongside. Unlike Wasmtime it is not only a runtime but a commercial platform covering packaging and deployment too.</summary>
+</entry>
+<entry>
+  <title>Wasmtime</title>
+  <link href="https://wasmtime.dev/"/>
+  <id>https://wasmtime.dev/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>The Bytecode Alliance’s runtime for running WebAssembly outside the browser; written in Rust, compiling with Cranelift, and among the first to implement WASI and the component model. Unlike Wasmer it sells no package registry or hosting; it focuses on tracking the standards and on being embedded.</summary>
+</entry>
 <entry>
   <title>Classy Class-Based Views</title>
   <link href="https://ccbv.co.uk/"/>
@@ -271,19 +285,5 @@
   <id>https://refactoring.guru/</id>
   <updated>2026-05-11T15:32:43Z</updated>
   <summary>Presents each design pattern as a diagram, a realistic scenario and code — in six languages. Unlike the Gang of Four book, it covers the same patterns in accessible prose rather than a difficult text.</summary>
-</entry>
-<entry>
-  <title>Express</title>
-  <link href="https://expressjs.com/"/>
-  <id>https://expressjs.com/</id>
-  <updated>2026-04-20T13:01:16Z</updated>
-  <summary>Node’s minimal framework, whose middleware model became the ecosystem’s shared vocabulary. Compared with newer frameworks such as Fastify it is slower and barely changes — Express 5 only shipped in 2024; that is both strength and weakness.</summary>
-</entry>
-<entry>
-  <title>WordPress Developer</title>
-  <link href="https://developer.wordpress.org/"/>
-  <id>https://developer.wordpress.org/</id>
-  <updated>2026-04-20T13:01:05Z</updated>
-  <summary>The plugin and theme development reference. The hook system is the one concept that explains all of WordPress, and nothing falls into place until you have it.</summary>
 </entry>
 </feed>

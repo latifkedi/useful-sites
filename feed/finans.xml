@@ -5,7 +5,21 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/finans.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/finans.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/finans.xml</id>
-<updated>2026-10-09T09:00:00Z</updated>
+<updated>2026-10-18T00:00:00Z</updated>
+<entry>
+  <title>KAP — Kamuyu Aydınlatma Platformu</title>
+  <link href="https://www.kap.org.tr/tr"/>
+  <id>https://www.kap.org.tr/tr</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Borsa İstanbul şirketlerinin yasal bildirimlerinin yayımlandığı platform: finansal tablolar, özel durum açıklamaları, genel kurul ve sermaye artırımı duyuruları. Yahoo Finance gibi veri sitelerinden farkı bildirimin ilk ve bağlayıcı hâlini göstermesi; ABD’deki SEC EDGAR’ın karşılığı.</summary>
+</entry>
+<entry>
+  <title>TEFAS — Türkiye Elektronik Fon Alım Satım Platformu</title>
+  <link href="https://www.tefas.gov.tr/"/>
+  <id>https://www.tefas.gov.tr/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Takasbank’ın yatırım fonu platformu; açık sayfalarında platformdaki fonların fiyatları, dönemsel getirileri ve portföy dağılımları karşılaştırılabiliyor. Bir bankanın kendi fon listesinden farkı platformdaki fonları kurucusundan bağımsız tek tabloda yan yana koyması.</summary>
+</entry>
 <entry>
   <title>Bitcoin Developer Documentation</title>
   <link href="https://developer.bitcoin.org/"/>
@@ -49,20 +63,6 @@
   <summary>Piyasa değerine göre kripto para fiyat ve sıralaması; verisi ücretsiz bir API ile de sunuluyor. Daha kalabalık takipçilerden farkı sade bir tablo ve doğrudan veri erişimi.</summary>
 </entry>
 <entry>
-  <title>CoinDesk</title>
-  <link href="https://www.coindesk.com/"/>
-  <id>https://www.coindesk.com/</id>
-  <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Kripto para ve blokzincir haberleri, piyasa verisi ve analiz sitesi. CryptoPanic gibi derleyicilerden farkı kendi muhabirliğini yapması.</summary>
-</entry>
-<entry>
-  <title>CryptoPanic</title>
-  <link href="https://cryptopanic.com/"/>
-  <id>https://cryptopanic.com/</id>
-  <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Başlıkları fiyata etkisine göre işaretleyen kripto haber derleyicisi. Tek bir haber sitesinden farkı birçok kaynağı tek akışta toplaması.</summary>
-</entry>
-<entry>
   <title>Electrum</title>
   <link href="https://electrum.org/"/>
   <id>https://electrum.org/</id>
@@ -89,13 +89,6 @@
   <id>https://www.openzeppelin.com/</id>
   <updated>2026-10-09T09:00:00Z</updated>
   <summary>Solidity için denetlenmiş akıllı sözleşme kütüphaneleri ve güvenlik araçları. Token ya da yetki sözleşmelerini kendin yazmaktan farkı yaygın kullanımda sınanmış yapı taşları sunması.</summary>
-</entry>
-<entry>
-  <title>WhatToMine</title>
-  <link href="https://whattomine.com/"/>
-  <id>https://whattomine.com/</id>
-  <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Hash gücün, elektrik tüketimin ve fiyatına göre GPU ile kazılabilir coinlerin kârlılığını karşılaştıran hesaplayıcı. Genel fiyat takipçilerinden farkı doğrudan madencilik kârı hesaplaması.</summary>
 </entry>
 <entry>
   <title>Awesome AI in Finance</title>
@@ -285,5 +278,12 @@
   <id>https://finance.yahoo.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Kotasyon, bilanço ve portföy takibi; tarihsel fiyat verisini ücretsiz indirtiyor. Ücretli terminallerden farkı bu geniş ücretsiz kapsam; karşılığında veri çoğunlukla gecikmeli.</summary>
+</entry>
+<entry>
+  <title>Learn Me a Bitcoin</title>
+  <link href="https://learnmeabitcoin.com/"/>
+  <id>https://learnmeabitcoin.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Bitcoin’in teknik işleyişini — işlem yapısı, betik dili, madencilik — örneklerle anlatan site. Beyaz bültenden farkı somut olması: gerçek işlemleri baytına kadar açıp gösteriyor.</summary>
 </entry>
 </feed>

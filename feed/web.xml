@@ -5,7 +5,42 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/web.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/web.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/web.xml</id>
-<updated>2026-10-09T09:00:00Z</updated>
+<updated>2026-10-18T00:00:00Z</updated>
+<entry>
+  <title>Protomaps</title>
+  <link href="https://protomaps.com/"/>
+  <id>https://protomaps.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Tüm dünya haritasını tek bir PMTiles dosyası olarak sunan açık kaynak harita yığını; dosya S3 gibi düz bir depoda duruyor, tarayıcı HTTP aralık istekleriyle yalnızca gereken parçaları okuyor. Mapbox gibi barındırılan harita servislerinden farkı karo sunucusu ve kullanım başına ücret olmaması.</summary>
+</entry>
+<entry>
+  <title>The A11Y Project</title>
+  <link href="https://www.a11yproject.com/"/>
+  <id>https://www.a11yproject.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Topluluk eliyle yürütülen erişilebilirlik sitesi; WCAG’a dayanan sade bir kontrol listesi, yazılar ve araç-kaynak listeleri. W3C’nin hızlı başvurusundan farkı ölçütleri teknik dil yerine geliştiricinin anlayacağı maddeler hâlinde vermesi.</summary>
+</entry>
+<entry>
+  <title>WAVE</title>
+  <link href="https://wave.webaim.org/"/>
+  <id>https://wave.webaim.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>WebAIM’in erişilebilirlik değerlendirme aracı; bir adres girince ya da tarayıcı eklentisiyle sayfanın üstüne hataları, uyarıları ve yapı bilgisini simge olarak yerleştiriyor. Rapor üreten tarayıcılardan farkı sorunu sayfanın içinde, yerinde göstermesi; eklenti giriş gerektiren sayfaları da yerelde değerlendiriyor.</summary>
+</entry>
+<entry>
+  <title>WCAG 2.2 Hızlı Başvuru</title>
+  <link href="https://www.w3.org/WAI/WCAG22/quickref/"/>
+  <id>https://www.w3.org/WAI/WCAG22/quickref/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>W3C’nin “How to Meet WCAG” sayfası: her başarı ölçütü, düzeyi (A, AA, AAA) ve onu karşılayan teknikler ile yaygın hatalar; düzeye ve konuya göre süzülüyor. Standart metnini okumaktan farkı ölçütten doğrudan uygulanacak tekniğe götürmesi.</summary>
+</entry>
+<entry>
+  <title>WebAssembly</title>
+  <link href="https://webassembly.org/"/>
+  <id>https://webassembly.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>WebAssembly standardının resmî sitesi: belirtimler, kavramlara giriş ve hangi önerinin hangi tarayıcı ve çalışma ortamında desteklendiğini gösteren özellik tablosu. MDN’in WebAssembly sayfalarından farkı JavaScript tarafından değil, standardın kendisinden ve çalışma ortamlarının durumundan bakması.</summary>
+</entry>
 <entry>
   <title>ni</title>
   <link href="https://github.com/antfu-collective/ni"/>
@@ -250,40 +285,5 @@
   <id>https://github.com/oleeskild/obsidian-digital-garden</id>
   <updated>2026-09-10T20:53:20Z</updated>
   <summary>Obsidian notlarını doğrudan yayımlanmış bir dijital bahçeye çeviren eklenti. Quartz gibi üreticilerden farkı derleme adımı istememesi: not içinden tek düğmeyle yayınlıyorsun, ayrı bir build hattı kurmana gerek kalmıyor.</summary>
-</entry>
-<entry>
-  <title>Quartz</title>
-  <link href="https://quartz.jzhao.xyz/"/>
-  <id>https://quartz.jzhao.xyz/</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>Markdown notlarını — özellikle Obsidian kasalarını — bağlantılı bir siteye dönüştüren üretici. Genel statik üreticilerden farkı çift yönlü bağlantı ve geri-bağlantıları koruması: dijital bahçeni ağ yapısıyla birlikte yayımlıyor.</summary>
-</entry>
-<entry>
-  <title>30 Seconds of Code</title>
-  <link href="https://www.30secondsofcode.org/"/>
-  <id>https://www.30secondsofcode.org/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Otuz saniyede okunup anlaşılacak uzunlukta kod parçacıkları; JavaScript, Python, React ve CSS için. Stack Overflow’dan farkı her parçacığın açıklamalı, test edilmiş ve konu başlığına göre düzenlenmiş olması — arama değil, gezinme.</summary>
-</entry>
-<entry>
-  <title>Can I Use</title>
-  <link href="https://caniuse.com/"/>
-  <id>https://caniuse.com/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Bir web özelliğinin hangi tarayıcının hangi sürümünde çalıştığını gösteren tablo; kullanım oranlarıyla birlikte. MDN’den farkı, &quot;destekleniyor mu&quot; sorusuna sürüm ve pazar payı düzeyinde cevap vermesi — polyfill gerekip gerekmediğine buradan karar veriyorsun.</summary>
-</entry>
-<entry>
-  <title>CodeToGo</title>
-  <link href="https://codetogo.io/"/>
-  <id>https://codetogo.io/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>&quot;Diziyi nasıl ters çeviririm&quot; gibi günlük JavaScript sorularına güncel tek satırlık cevaplar. Stack Overflow’dan farkı cevabın 2012’den kalma olmaması — modern söz dizimiyle yazılmış; ama en yeni parçalar Şubat 2024 tarihli, yani bakımı yavaş.</summary>
-</entry>
-<entry>
-  <title>Howler.js</title>
-  <link href="https://howlerjs.com/"/>
-  <id>https://howlerjs.com/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Tarayıcılar arası ses oynatma kütüphanesi; Web Audio API’yi kullanıyor, olmadığı yerde HTML5 Audio’ya düşüyor. Ham Web Audio ile uğraşmaktan farkı ses sprite’ları, havuzlama ve mobil otomatik oynatma kilidini kendisi çözmesi.</summary>
 </entry>
 </feed>

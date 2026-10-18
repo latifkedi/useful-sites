@@ -61,6 +61,7 @@ var T = {
          'Açıklamalar projelerin kendi belgelerine bakılarak yazıldı; karşılaştırmalı yargılar derleyene ait. '+
          'Ölü ya da hatalı bir kayıt görürsen <a href="'+REPO+'/issues/new/choose">bildir</a> — '+
          'yeni bağlantı önerileri de aynı yerden. '+
+         '<a href="k/yol/index.html">Öğrenme yolları</a> · '+
          '<a href="k/tesekkur.html">Katkıda bulunanlar</a> · '+
          'dizinin <a href="k/index.html">metin hâli</a> de var.',
     skip:"İçeriğe Atla",
@@ -68,7 +69,7 @@ var T = {
     hStart:"Buradan Başla", hAll:"Tümünü tek listede gör →",
     srcLess:"− Kaynakları gizle",
     srcShow:function(n){ return n+" kaynağı göster" },
-    fShow:function(n){ return n+" bağlantıyı göster" },
+    fShow:function(n){ return n+" sonucu göster" },
     listsHead:"Listeler & Koleksiyonlar",
     backCat:"← Bu başlıktaki diğer kayıtlar", permaTip:"Bu kayda bağlantı", perma:"bağlantı",
     recent:"Son Eklenenler", recentLead:function(n){ return "Dizine en son giren "+n+" kayıt, aya göre." },
@@ -106,7 +107,34 @@ var T = {
     tooBig:function(n){ return n+" bağlantı issue adresine sığmaz. Dosyayı indir, issue'ya ekle." },
     bIssue:"GitHub'da Aç", bCopy:"Kopyala", bJson:"JSON İndir", bCsv:"CSV İndir",
     copied:"Kopyalandı",
-    kb:'<kbd>/</kbd> Ara · <kbd>r</kbd> Rastgele · <kbd>Esc</kbd> Temizle'
+    kb:'<kbd>/</kbd> Ara · <kbd>Ctrl K</kbd> Komutlar · <kbd>r</kbd> Rastgele · <kbd>?</kbd> Kısayollar · <kbd>Esc</kbd> Temizle',
+    proof:function(n, d, a){ return n+" bağlantı · son kontrol "+d+" · "+a+" kayıt arşiv ya da durgun diye işaretli · izleyici yok · çevrimdışı çalışır" },
+    tryLbl:"Dene:", tryQs:["llm", "postgres", "regex", "self-hosted", "diyagram", "renk paleti"],
+    filtN:function(n){ return "Süz" + (n ? " (" + n + ")" : "") },
+    nRes:function(n){ return fmtN(n)+" sonuç" },
+    noPaid:"Ücretli ve freemium gizle",
+    saved:"Kaydedilenler", savedEmpty:"Henüz kayıt yok. Bir kayıttaki ☆ ile buraya ekle; liste yalnızca bu tarayıcıda durur, hesap yok.",
+    save:function(x){ return x+" kaydet" }, unsave:function(x){ return x+" kaydedilenlerden çıkar" },
+    share:"Paylaşım bağlantısını kopyala", shared:"Paylaşılan Liste",
+    sharedLead:"Biri bu listeyi seninle paylaştı. Sen kaydetmedikçe hiçbir şey saklanmıyor.",
+    sharedBad:"Bu paylaşılan listede dizinin tanıdığı bir kayıt yok.",
+    saveAll:"Hepsini kaydet", savedAll:function(n){ return n+" kayıt kaydedildi" },
+    cmp:"Karşılaştır", cmpHead:"Karşılaştırma", cmpMax:"En fazla 3 kayıt karşılaştırılabilir",
+    cmpGo:function(n){ return "Karşılaştır ("+n+") →" }, cmpClear:"Temizle",
+    cmpOff:function(x){ return x+" karşılaştırmadan çıkar" },
+    cmpOne:"Bir kayıt daha ekle: herhangi bir kayıttaki “Karşılaştır” ile.",
+    cmpRows:{what:"Ne yapıyor", price:"Fiyat", src:"Kaynak", ver:"Son doğrulama", repo:"Depo durumu",
+             tags:"Etiketler", vs:"Farkı"},
+    cmpNone:"—",
+    nearCat:function(x, n){ return "En yakın başlık: "+x+" ("+n+") →" },
+    otherLang:"İngilizce açıklamalarda da ara",
+    suggest:function(x){ return "“"+x+"” için bir site öner" },
+    visit:"Siteyi aç ↗", another:"Başka bir rastgele kayıt",
+    palLabel:"Komut paleti", palPh:"Bir kayda, başlığa ya da komuta git…", palNone:"Eşleşen yok",
+    gAct:"Komutlar", gField:"Alanlar", gCat:"Başlıklar", gRec:"Kayıtlar",
+    aRand:"Rastgele kayıt", aHome:"Fihrist (giriş)", aKeys:"Klavye kısayolları",
+    keys:[["/","Ara"], ["Ctrl K · ⌘ K","Komut paleti"], ["r","Rastgele kayıt"],
+          ["j · k","Sonraki · önceki kayıt"], ["?","Bu yardım"], ["Esc","Temizle ya da kapat"]]
   },
   en:{
     title:"Useful Sites",
@@ -140,6 +168,7 @@ var T = {
          "Descriptions are written from each project's own documentation; comparative judgements are the curator's. "+
          'Spotted a dead or wrong entry? <a href="'+REPO+'/issues/new/choose">Tell me</a> — '+
          'link suggestions go to the same place. '+
+         '<a href="k/en/path/index.html">Learning paths</a> · '+
          '<a href="k/en/credits.html">Contributors</a> · '+
          'there is a <a href="k/en/index.html">plain-text edition</a> too.',
     skip:"Skip To Content",
@@ -147,7 +176,7 @@ var T = {
     hStart:"Start Here", hAll:"See everything in one list →",
     srcLess:"− Hide sources",
     srcShow:function(n){ return "Show "+n+" sources" },
-    fShow:function(n){ return "Show "+n+" links" },
+    fShow:function(n){ return "Show "+n+" results" },
     listsHead:"Lists & Collections",
     backCat:"← Other entries under this heading", permaTip:"Link to this entry", perma:"link",
     recent:"Recently Added", recentLead:function(n){ return "The "+n+" newest entries, by month." },
@@ -185,7 +214,34 @@ var T = {
     tooBig:function(n){ return n+" links will not fit in an issue URL. Download the file and attach it." },
     bIssue:"Open On GitHub", bCopy:"Copy", bJson:"Download JSON", bCsv:"Download CSV",
     copied:"Copied",
-    kb:'<kbd>/</kbd> Search · <kbd>r</kbd> Random · <kbd>Esc</kbd> Clear'
+    kb:'<kbd>/</kbd> Search · <kbd>Ctrl K</kbd> Commands · <kbd>r</kbd> Random · <kbd>?</kbd> Shortcuts · <kbd>Esc</kbd> Clear',
+    proof:function(n, d, a){ return n+" links · last checked "+d+" · "+a+" flagged archived or dormant · no trackers · works offline" },
+    tryLbl:"Try:", tryQs:["llm", "postgres", "regex", "self-hosted", "diagram", "color palette"],
+    filtN:function(n){ return "Filter" + (n ? " (" + n + ")" : "") },
+    nRes:function(n){ return fmtN(n)+" results" },
+    noPaid:"Hide paid & freemium",
+    saved:"Saved", savedEmpty:"Nothing saved yet. Use ☆ on any entry to keep it here; the list lives in this browser only, no account.",
+    save:function(x){ return "Save "+x }, unsave:function(x){ return "Remove "+x+" from saved" },
+    share:"Copy share link", shared:"Shared List",
+    sharedLead:"Someone shared this list with you. Nothing is stored unless you save it.",
+    sharedBad:"This shared list names no entry this directory knows.",
+    saveAll:"Save all", savedAll:function(n){ return "Saved "+n+" entries" },
+    cmp:"Compare", cmpHead:"Comparison", cmpMax:"Up to 3 entries can be compared",
+    cmpGo:function(n){ return "Compare ("+n+") →" }, cmpClear:"Clear",
+    cmpOff:function(x){ return "Remove "+x+" from the comparison" },
+    cmpOne:"Add one more: use “Compare” on any entry.",
+    cmpRows:{what:"What it does", price:"Price", src:"Source", ver:"Last verified", repo:"Repository",
+             tags:"Tags", vs:"Differs in"},
+    cmpNone:"—",
+    nearCat:function(x, n){ return "Closest heading: "+x+" ("+n+") →" },
+    otherLang:"Search the Turkish descriptions too",
+    suggest:function(x){ return "Suggest a site for “"+x+"”" },
+    visit:"Open the site ↗", another:"Another random entry",
+    palLabel:"Command palette", palPh:"Jump to an entry, heading or action…", palNone:"Nothing matches",
+    gAct:"Actions", gField:"Areas", gCat:"Headings", gRec:"Entries",
+    aRand:"Random entry", aHome:"Index (home)", aKeys:"Keyboard shortcuts",
+    keys:[["/","Search"], ["Ctrl K · ⌘ K","Command palette"], ["r","Random entry"],
+          ["j · k","Next · previous entry"], ["?","This help"], ["Esc","Clear or close"]]
   }
 };
 
@@ -316,7 +372,8 @@ data.forEach(function(d, i){
 /* Kalici baglanti URL anahtarina bagli (sema, www ve sondaki / atilmis adres).
    Ilk surum kayit adini kullaniyordu; ayni adli iki kayit oldugunda baglanti
    yanlis kayda gidiyordu. Eski ?e=<ad> baglantilari icin ad dizini de duruyor. */
-var NAMEIDX = {}, KEYIDX = {};
+/* Object.create(null): ?cmp=constructor / ?e=toString must not hit Object.prototype */
+var NAMEIDX = Object.create(null), KEYIDX = Object.create(null);
 data.forEach(function(d){ NAMEIDX[d.name] = d; KEYIDX[d._k] = d });
 function byPerma(v){ return KEYIDX[v] || NAMEIDX[v] || null }
 
@@ -324,6 +381,29 @@ function byPerma(v){ return KEYIDX[v] || NAMEIDX[v] || null }
 /* Sayfa numarasinin hangi listeye ait oldugu: yalnizca bir kategorinin kendi
    (aramasiz, kategori sirali) listesi kendi anahtarini tasiyor. Once URL ile
    liste farkli anahtar kullaniyordu; kategori icinde aramada sayfa kayboluyordu. */
+/* hidePaid: fiyat fasetinde "ucretsiz" cipinin yerine gecen anahtar. Her kaydin tam
+   bir fiyat etiketi var, yani "ucretli ve freemium gizle" eski ?tag=ucretsiz ile
+   ayni kumeyi veriyor; eski baglantilar bu anahtara cevriliyor.
+   savedView (?saved=1) ve listKeys (?list=) da birer suzgec: sayim, Suz paneli ve
+   disa aktarma (exportRows) ayni yoldan geciyor. cmpKeys (?cmp=) ayri bir gorunum. */
+var hidePaid = false, savedView = false, listKeys = null, cmpKeys = [];
+/* Paylasilan liste adresi elle yazilabilir: uzunluk ve sayi sinirli, dizinde
+   olmayan anahtar sessizce dusuyor. */
+var LIST_MAX = 50, LIST_CHARS = 6000;
+function keyList(v, max){
+  if(!v || v.length > LIST_CHARS) return [];
+  var out = [];
+  v.split(",").forEach(function(k){
+    var d = KEYIDX[k];
+    if(d && out.indexOf(d._k) < 0 && out.length < max) out.push(d._k);
+  });
+  return out;
+}
+
+/* Kaldirilan alan anahtarlari: eski ?f= baglantilari bugunku alana iner ve adres
+   duzeltilir. Ekim 2026: 'verialan' (Veri) Veri & Yapay Zeka'ya katildi. */
+var OLD_FIELDS = {verialan: "yapayzeka"};
+
 function pageKey(){ return (activeCat && sortBy === "cat" && !q) ? activeCat : "_" }
 
 function readURL(){
@@ -337,6 +417,15 @@ function readURL(){
   single     = p.get("e") || null;
   recent     = p.get("new") === "1";
   activeField = p.get("f") || null;
+  var oldField = OLD_FIELDS.hasOwnProperty(activeField);
+  if(oldField) activeField = OLD_FIELDS[activeField];
+  hidePaid   = p.get("free") === "1";
+  /* Eski ?tag=ucretsiz baglantilari: ayni sonucu veren anahtara. */
+  var ti = activeTags.indexOf("ücretsiz");
+  if(ti >= 0){ activeTags.splice(ti, 1); hidePaid = true; oldField = true; }
+  savedView  = p.get("saved") === "1";
+  listKeys   = p.has("list") ? keyList(p.get("list"), LIST_MAX) : null;
+  cmpKeys    = keyList(p.get("cmp"), 3);
   if(activeField && !FIELDBYKEY[activeField]) activeField = null;
   if(activeSrc && !SRCMAP[activeSrc]) activeSrc = null;
   lang       = p.get("lang") || store.get("lang") || "en";
@@ -348,6 +437,7 @@ function readURL(){
   pages = {};
   var pg = parseInt(p.get("p"), 10);
   if(pg > 1) pages[pageKey()] = pg;
+  if(oldField) writeURL(false);
 }
 
 function writeURL(push){
@@ -357,6 +447,10 @@ function writeURL(push){
   else if(activeField) p.set("f", activeField);
   if(activeTags.length) p.set("tag", activeTags.join(","));
   if(onlyPicks) p.set("pick", "1");
+  if(hidePaid) p.set("free", "1");
+  if(savedView) p.set("saved", "1");
+  if(listKeys) p.set("list", listKeys.join(","));
+  if(cmpKeys.length) p.set("cmp", cmpKeys.join(","));
   if(activeSrc) p.set("src", activeSrc);
   if(single) p.set("e", single);
   if(recent) p.set("new", "1");
@@ -380,6 +474,9 @@ function qParsed(){
 /* Sorgu disindaki suzgecler; "Bunu mu demek istedin?" sayimi da bunu kullaniyor. */
 function passes(d, ignoreCat){
   if(onlyPicks && !d.pick) return false;
+  if(hidePaid && (d.tags||[]).some(function(t){ return t === "ücretli" || t === "freemium" })) return false;
+  if(savedView && !isSaved(d._k)) return false;
+  if(listKeys && listKeys.indexOf(d._k) < 0) return false;
   if(activeSrc && d.src !== activeSrc) return false;
   if(!ignoreCat && activeCat && d.cat !== activeCat) return false;
   for(var i=0;i<activeTags.length;i++){
@@ -488,15 +585,21 @@ function itemHTML(d, n, o){
   var rel = (d.rel||[]).map(function(i){
     var x = data[i];   /* rel: LINKS icindeki sira numaralari */
     return x ? '<a href="?q='+encodeURIComponent(x.name)+'" data-rel="'+i+'">'+esc(x.name)+'</a>' : "" }).filter(Boolean).join(" · ");
-  var ad = '<a class="name" href="'+esc(d.url)+'" target="_blank" rel="noopener noreferrer">'+hl(d.name)+'</a>';
-  return '<article class="rec'+(d.pick?' pick':'')+(o.big?' big':'')+'">'+
+  var ad = '<a class="name" href="'+esc(d.url)+'" target="_blank" rel="noopener noreferrer" data-go="'+esc(d._k)+'">'+hl(d.name)+'</a>';
+  /* Kaydet ve karsilastir yalnizca istemcinin cizdigi kartlarda: index.html'deki
+     hazir giris sayfasinda kart yok, o markup emit.py ile birebir kaliyor. */
+  var sv = isSaved(d._k), cm = cmpPick.indexOf(d._k) >= 0;
+  var saveB = '<button class="save" type="button" data-save="'+esc(d._k)+'" aria-pressed="'+sv+'" aria-label="'+
+              esc(L.save(d.name))+'" title="'+esc(sv ? L.unsave(d.name) : L.save(d.name))+'"><span aria-hidden="true">'+(sv ? "★" : "☆")+'</span></button>';
+  meta.push('<button class="cmpb" type="button" data-cmp="'+esc(d._k)+'" aria-pressed="'+cm+'">'+esc(L.cmp)+'</button>');
+  return '<article class="rec'+(d.pick?' pick':'')+(o.big?' big':'')+(isSeen(d._k)?' seen':'')+'" data-k="'+esc(d._k)+'">'+
     '<span class="no">'+(n || "")+'</span><div class="rb">'+
     (o.path ? '<p class="path"><a href="?cat='+esc(d.cat)+'" data-cat="'+esc(d.cat)+'">'+
               esc(catLbl(d.cat, lang))+'</a></p>' : '')+
     '<div class="nm">'+(o.big ? '<h1 class="ph">'+ad+'</h1>' : ad)+
       (d.pick ? '<span class="pk" title="'+esc(L.pickTip)+'">◆ '+esc(L.hStart)+'</span>' : '')+
       (d.dead ? '<span class="badge dead" title="'+esc(L.deadTip)+'">'+esc(L.dead)+'</span>' : '')+chk+rt+
-      '<span class="host">'+esc(d._h)+'</span></div>'+
+      '<span class="host">'+esc(d._h)+'</span>'+saveB+'</div>'+
     '<p class="desc">'+descHTML(d)+'</p>'+
     '<div class="mt">'+(tags ? '<span class="itags">'+tags+'</span>' : '')+
       (rel ? '<span class="rel">'+esc(L.rel)+': '+rel+'</span>' : '')+
@@ -532,6 +635,81 @@ function firstSentence(t){
   return (sp > 60 ? cut.slice(0, sp) : cut).replace(/[\s,;:—–-]+$/, "") + "…";
 }
 
+/* ------------------------------------------------------------ yerel raf
+   Hesap yok, sunucu yok: kaydedilenler ve gorulenler bu tarayicida, tek bir
+   localStorage anahtarinda, kaydin kalici anahtariyla (d._k) duruyor. Konuma
+   (LINKS sirasi) baglamak her derlemede listeyi baska kayitlara kaydirirdi.
+   Okunamayan ya da bozuk deger bos raf demek; store.get/set zaten hata yutuyor. */
+var SHELF_KEY = "shelf", SEEN_MAX = 500;
+function readShelf(){
+  var v = null;
+  try{ v = JSON.parse(store.get(SHELF_KEY) || "null") }catch(e){}
+  var ok = function(a){ return Array.isArray(a) ? a.filter(function(k){ return typeof k === "string" }) : [] };
+  return { s: ok(v && v.s), v: ok(v && v.v) };
+}
+var shelf = readShelf();
+/* Baska sekme kaydettiyse onun yazdigini ez(me): her degisiklikten once diskten tazele. */
+function freshShelf(){ shelf = readShelf() }
+window.addEventListener("storage", function(e){
+  if(e.key !== SHELF_KEY) return;
+  freshShelf();
+  if(typeof paintSavedBtn === "function") paintSavedBtn();
+});
+function saveShelf(){ store.set(SHELF_KEY, JSON.stringify(shelf)) }
+function isSaved(k){ return shelf.s.indexOf(k) >= 0 }
+function savedCount(){ return shelf.s.filter(function(k){ return KEYIDX[k] }).length }
+function toggleSave(k){
+  freshShelf();
+  var i = shelf.s.indexOf(k);
+  if(i >= 0) shelf.s.splice(i, 1); else shelf.s.push(k);
+  saveShelf();
+}
+function saveAll(keys){
+  freshShelf();
+  keys.forEach(function(k){ if(!isSaved(k)) shelf.s.push(k) });
+  saveShelf();
+}
+/* Gorulen: kaydin sitesine gidildi. Kart soluklasiyor (ziyaret edilmis baglanti
+   gibi); liste sinirli, en eskisi dusuyor. */
+function markSeen(k){
+  freshShelf();
+  if(shelf.v.indexOf(k) >= 0) return;
+  shelf.v.push(k);
+  if(shelf.v.length > SEEN_MAX) shelf.v.splice(0, shelf.v.length - SEEN_MAX);
+  saveShelf();
+}
+function isSeen(k){ return shelf.v.indexOf(k) >= 0 }
+
+/* Bastaki sayac: "Kaydedilenler · 3". */
+function paintSavedBtn(){
+  var b = $("#savedb"), n = savedCount(), L = T[lang];
+  if(!b) return;
+  b.innerHTML = '<span aria-hidden="true">★</span> '+esc(L.saved)+(n ? ' <span class="c">'+n+'</span>' : '');
+  b.setAttribute("aria-pressed", String(savedView));
+}
+
+/* Karsilastirma secimi: kartlardaki "Karsilastir" dugmesi. Adrese ancak
+   gorunum acilinca yaziliyor; o zamana kadar alttaki tepside bekliyor. */
+var cmpPick = [];
+function toggleCmp(k){
+  var i = cmpPick.indexOf(k);
+  if(i >= 0){ cmpPick.splice(i, 1); return true }
+  if(cmpPick.length >= 3){ say(T[lang].cmpMax); return false }
+  cmpPick.push(k);
+  return true;
+}
+function paintTray(){
+  var t = $("#tray"), L = T[lang];
+  if(!t) return;
+  var show = cmpPick.length && !cmpKeys.length;
+  t.hidden = !show;
+  if(!show){ t.innerHTML = ""; return }
+  t.innerHTML = '<a class="btn primary" href="?cmp='+cmpPick.map(encodeURIComponent).join(",")+'" data-cmpgo="1">'+
+      esc(L.cmpGo(cmpPick.length))+'</a>'+
+    '<button class="btn" type="button" data-cmpclear="1">'+esc(L.cmpClear)+'</button>';
+}
+/* Canli bolgeye dogrudan: announce() yalnizca degisen sonuc sayisini soyluyor. */
+function say(text){ liveLast = text; $("#live").textContent = ""; setTimeout(function(){ $("#live").textContent = text }, 30) }
 /* Etiketler fasetli: fiyat ve lisans, tur, arayuz ve dil, konu. Tek duz
    satirda "ucretsiz" (kayitlarin %45'i) "kuantum"un yaninda ayni soruya
    cevapmis gibi duruyordu. Hepsi artik Suz panelinde. */
@@ -568,7 +746,7 @@ function filtHTML(L){
   data.filter(keep).forEach(function(d){
     (d.tags||[]).forEach(function(t){ cnt[t] = (cnt[t]||0) + 1 }) });
   var groups = FACETS.map(function(f){
-    var ts = f[3].filter(function(t){ return cnt[t] || activeTags.indexOf(t) >= 0 })
+    var ts = f[3].filter(function(t){ return t !== "ücretsiz" && (cnt[t] || activeTags.indexOf(t) >= 0) })
                  .sort(function(a, b){ return (cnt[b]||0) - (cnt[a]||0) || Search.cmp(a, b) });
     if(!ts.length) return "";
     return '<div class="fg"><p class="fk">'+esc(f[lang === "tr" ? 1 : 2])+'</p><div class="cs">'+
@@ -583,9 +761,15 @@ function filtHTML(L){
   onlyPicks = acik;
   return '<div class="fg"><div class="cs"><button class="chip pickbtn" type="button" data-pick="1" aria-pressed="'+
       onlyPicks+'"><span class="dot" aria-hidden="true">◆</span> '+esc(L.hStart)+' <span class="c">'+pc+
-      '</span></button></div></div>'+
+      '</span></button>'+freeChip(L)+'</div></div>'+
     groups+
     '<div class="fg"><p class="fk">'+esc(L.by)+'</p><div class="cs">'+srcbarHTML(L)+'</div></div>';
+}
+
+/* "Ucretsiz" kayitlarin dortte ucunde: secilecek bir etiket gibi durmasi
+   yaniltiyordu. Asil soru "parasi olanlari gizle", o yuzden bir anahtar. */
+function freeChip(L){
+  return '<button class="chip" type="button" data-free="1" aria-pressed="'+hidePaid+'">'+esc(L.noPaid)+'</button>';
 }
 
 /* Son eklenenler. Ayri bir gorunum olmasinin sebebi arastirma: bir dizine
@@ -667,19 +851,32 @@ function homeHTML(L){
              return '<a href="?cat='+esc(k)+'" data-cat="'+esc(k)+'">'+esc(shortCat(k))+'</a>';
            }).join(", ")+'</p></li>';
   }).join("");
+  /* Kanit satiri ve ornek sorgular: ilk bakista dizinin ne oldugu ve
+     nasil kullanildigi. Sayilar veriden; emit.home_html ayni satiri yaziyor.
+     Buradan Basla fihristten once: masaustunde ilk ekranda gorunsun. */
+  var flagged = data.filter(function(d){ return d.hs }).length;
   return '<div class="home">'+
-    '<section class="hsec"><h2 class="k">'+esc(L.fxHead)+'<span>'+esc(L.fxNote(nf, CATS.length))+'</span></h2>'+
-    '<ol class="fx">'+fx+'</ol></section>'+
+    '<p class="proof">'+esc(L.proof(fmtN(data.length), fmtDay(CHECKED_ISO), fmtN(flagged)))+'</p>'+
+    '<p class="tryq"><span>'+esc(L.tryLbl)+'</span>'+L.tryQs.map(function(x){
+      return '<a class="chip" href="?q='+encodeURIComponent(x)+'" data-q="'+esc(x)+'">'+esc(x)+'</a>';
+    }).join("")+'</p>'+
     (strip.length
-      ? '<section class="hsec"><h2 class="k">'+esc(L.hStart)+'</h2><ol class="hpicks">'+
+      ? '<section class="hsec hp"><h2 class="k">'+esc(L.hStart)+'</h2><ol class="hpicks">'+
         strip.map(function(d){
           return '<li><a href="'+esc(d.url)+'" target="_blank" rel="noopener noreferrer">'+esc(d.name)+'</a>'+
                  '<p>'+esc(firstSentence(descOf(d)))+'</p></li>';
         }).join("")+'</ol></section>'
       : "")+
+    '<section class="hsec"><h2 class="k">'+esc(L.fxHead)+'<span>'+esc(L.fxNote(nf, CATS.length))+'</span></h2>'+
+    '<ol class="fx">'+fx+'</ol></section>'+
     '<p class="hlinks"><a href="?new=1" data-recent="1">'+esc(L.recent)+' →</a>'+
       '<a href="?sort=az" data-all="1">'+esc(L.hAll)+'</a></p>'+
   '</div>';
+}
+
+/* "2026-10-12" -> "12 Oct 2026" (emit._day_label ile ayni). */
+function fmtDay(iso){
+  return iso ? +iso.slice(8, 10) + " " + AYLAR[lang][+iso.slice(5, 7) - 1] + " " + iso.slice(0, 4) : "";
 }
 
 /* Tek bir dolu kategorisi olan bir alan icin ara sayfa, tek karti olan bir
@@ -721,8 +918,19 @@ function listBlock(key, heading, items, L, o){
     pagerHTML(key, page, total, L)+'</section>';
 }
 
+/* Bos sonuc bir cikmaz olmasin: sorgunun suzgecsiz en cok eslestigi baslik,
+   diger dilin aciklamalari (yuklu degilse) ve sorguyla doldurulmus oneri formu. */
 function emptyHTML(L){
-  return '<p class="none">'+esc(L.empty)+' <a href="#" id="clr">'+esc(L.clear)+'</a></p>';
+  var out = '<p class="none">'+esc(L.empty)+' <a href="#" id="clr">'+esc(L.clear)+'</a></p>';
+  if(!q || savedView || listKeys) return out;
+  var by = {}, best = null, p = qParsed();
+  data.forEach(function(d){ if(Search.match(d, p)) by[d.cat] = (by[d.cat] || 0) + 1 });
+  Object.keys(by).forEach(function(k){ if(k !== activeCat && (!best || by[k] > by[best])) best = k });
+  var more = [];
+  if(best) more.push('<a href="?cat='+esc(best)+'" data-cat="'+esc(best)+'" data-near="1">'+esc(L.nearCat(catName(best), by[best]))+'</a>');
+  if(!descList(lang === "en" ? "tr" : "en")) more.push('<button class="lnk" type="button" data-olang="1">'+esc(L.otherLang)+'</button>');
+  more.push('<button class="lnk" type="button" data-suggest="1">'+esc(L.suggest(q))+'</button>');
+  return out + '<p class="none-x">'+more.join("")+'</p>';
 }
 
 /* Arama yardimi: sorgu bir alan ya da baslik adiysa oraya kisayol; az sonuc
@@ -764,7 +972,7 @@ function askSuggest(forQ, n){
 /* Arac cubugu: Suz dugmesi (etkin suzgec sayisiyla), secili suzgecler
    cikarilabilir cip olarak, Buradan Basla, sayi ve siralama. */
 function tbHTML(L, n, total){
-  var act = activeTags.length + (activeSrc ? 1 : 0);
+  var act = activeTags.length + (activeSrc ? 1 : 0) + (hidePaid ? 1 : 0);
   var chips = activeTags.map(function(t){
       return '<button class="chip on" type="button" data-tag="'+esc(t)+'" aria-label="'+
              esc(L.remove(tagLabel(t)))+'">'+esc(tagLabel(t))+'<span class="x" aria-hidden="true">✕</span></button>';
@@ -773,14 +981,20 @@ function tbHTML(L, n, total){
       ? '<button class="chip on" type="button" data-src="'+esc(activeSrc)+'" aria-label="'+
         esc(L.remove(SRCMAP[activeSrc][lang==="tr"?"label_tr":"label_en"]))+'">'+
         esc(SRCMAP[activeSrc][lang==="tr"?"label_tr":"label_en"])+'<span class="x" aria-hidden="true">✕</span></button>'
+      : "") +
+    (hidePaid
+      ? '<button class="chip on" type="button" data-free="1" aria-label="'+esc(L.remove(L.noPaid))+'">'+
+        esc(L.noPaid)+'<span class="x" aria-hidden="true">✕</span></button>'
       : "");
   return '<div class="tb">'+
     '<button class="chip" type="button" id="filtb" aria-haspopup="dialog" aria-controls="filt" aria-expanded="false">'+
-      esc(L.filter)+(act ? ' · '+act : '')+' <span aria-hidden="true">▾</span></button>'+
-    chips+
+      esc(L.filtN(act))+' <span aria-hidden="true">▾</span></button>'+
+    (chips ? '<span class="tchips">'+chips+'</span>' : '')+
     '<button class="chip pickbtn" type="button" id="pickbtn" aria-pressed="'+onlyPicks+'">'+
       '<span class="dot" aria-hidden="true">◆</span><span class="lbl">'+esc(L.hStart)+'</span></button>'+
-    '<span class="sp"><span class="count">'+esc(L.count(n, total))+'</span>'+
+    /* Telefonda yer dar: "12 / 538 baglanti" yerine "12 sonuc". */
+    '<span class="sp"><span class="count"><span class="cw">'+esc(L.count(n, total))+'</span>'+
+      '<span class="cn">'+esc(L.nRes(n))+'</span></span>'+
       '<label class="sortl"><span>'+esc(L.sortLbl)+'</span><select id="sort" aria-label="'+esc(L.sortAria)+'">'+
       Object.keys(L.sorts).map(function(k){
         return '<option value="'+k+'"'+(k===sortBy?' selected':'')+'>'+
@@ -913,9 +1127,20 @@ var chromeLang = null;
    cubugu. Sonuclar kategorileri karistirdigi icin her kaydin ustunde yolu. */
 function listPageHTML(L, shown){
   var h = q ? L.results(q, shown.length)
+            : listKeys ? L.shared : savedView ? L.saved
             : (onlyPicks && !activeTags.length && !activeSrc ? L.hStart : L.all);
-  var body;
-  if(!shown.length) body = emptyHTML(L);
+  var body, lead = "";
+  if(listKeys){
+    lead = '<p class="lede">'+esc(listKeys.length ? L.sharedLead : L.sharedBad)+'</p>'+
+      (listKeys.length ? '<p class="shelfx"><button class="btn primary" type="button" data-saveall="1">'+
+                         esc(L.saveAll)+'</button></p>' : '');
+  } else if(savedView){
+    lead = savedCount()
+      ? '<p class="shelfx"><button class="btn" type="button" data-share="1">'+esc(L.share)+'</button></p>'
+      : '<p class="lede">'+esc(L.savedEmpty)+'</p>';
+  }
+  var bare = !q && !activeTags.length && !activeSrc && !hidePaid && !onlyPicks;
+  if(!shown.length) body = (savedView || listKeys) && bare ? "" : emptyHTML(L);
   else if(sortBy === "cat" && !q){
     body = CATS.map(function(c){
       var items = shown.filter(function(d){ return d.cat === c.key });
@@ -924,7 +1149,7 @@ function listPageHTML(L, shown){
   } else {
     body = listBlock("_", null, sorted(shown), L, {year: sortBy === "new", path: true});
   }
-  return '<div class="catpage">'+crumbHTML(L)+'<h1 class="ph">'+esc(h)+'</h1>'+
+  return '<div class="catpage">'+crumbHTML(L)+'<h1 class="ph">'+esc(h)+'</h1>'+lead+
     tbHTML(L, shown.length, data.length)+qHelpHTML(L, shown.length)+body+'</div>';
 }
 
@@ -942,8 +1167,11 @@ function vsHTML(L, d){
 
 function singleHTML(L, d){
   var rel = (d.rel||[]).map(function(i){ return data[i] }).filter(Boolean);
+  /* Rastgele kayit once burada, dizinin icinde aciliyor; siteye gitmek ikinci adim. */
   return '<div class="one">'+crumbHTML(L, CATFIELD[d.cat], d.cat)+
     '<div class="recs">'+itemHTML(d, 0, {year: true, big: true})+'</div>'+
+    '<p class="visit"><a class="btn primary" href="'+esc(d.url)+'" target="_blank" rel="noopener noreferrer" data-go="'+
+      esc(d._k)+'">'+esc(L.visit)+'</a><button class="btn" type="button" data-rand="1">'+esc(L.another)+'</button></p>'+
     vsHTML(L, d)+
     (rel.length
       ? '<h2 class="sh">'+esc(L.rel)+'<span class="n">'+rel.length+'</span></h2><div class="recs">'+
@@ -955,6 +1183,43 @@ function singleHTML(L, d){
   '</div>';
 }
 
+/* Karsilastirma (?cmp=a,b,c): dizinin kendi alanlari yan yana. Ilk sutun
+   (satir adlari) telefonda yapisik, kayit sutunlari yatay kaydirmada yerine oturuyor. */
+var PRICE = ["ücretsiz", "freemium", "ücretli"];
+function cmpHTML(L){
+  var rows = cmpKeys.map(function(k){ return KEYIDX[k] });
+  var R = L.cmpRows, none = esc(L.cmpNone);
+  function vsCell(d){
+    var out = (VSIDX[d._i] || []).filter(function(e){ return rows.indexOf(data[e[0]]) >= 0 }).map(function(e){
+      return esc(data[e[0]].name)+': '+esc(AXES[e[1]][lang === "tr" ? 1 : 2]) });
+    return out.filter(function(x, i){ return out.indexOf(x) === i }).join("<br>") || none;
+  }
+  var line = [
+    [R.what, function(d){ return esc(firstSentence(descOf(d))) }],
+    [R.price, function(d){
+      var p = (d.tags||[]).filter(function(t){ return PRICE.indexOf(t) >= 0 });
+      return p.length ? esc(tagLabel(p[0])) : none }],
+    [R.src, function(d){ return esc(srcLabel(d)) }],
+    [R.ver, function(d){ return esc(d.ver ? fmtDay(d.ver) : L.unchecked) }],
+    [R.repo, function(d){ return d.hs ? esc(L.repo[d.hs]) : none }],
+    [R.tags, function(d){
+      return esc((d.tags||[]).filter(function(t){ return PRICE.indexOf(t) < 0 }).map(tagLabel).join(", ")) || none }],
+    [R.vs, vsCell]
+  ];
+  return '<div class="cmppage">'+crumbHTML(L)+'<h1 class="ph">'+esc(L.cmpHead)+'</h1>'+
+    (rows.length < 2 ? '<p class="lede">'+esc(L.cmpOne)+'</p>' : '')+
+    '<div class="cmpwrap" role="region" aria-labelledby="cmpcap" tabindex="0"><table class="cmp">'+
+    '<caption id="cmpcap" class="vh">'+esc(L.cmpHead)+'</caption>'+
+    '<thead><tr><td></td>'+rows.map(function(d){
+      return '<th scope="col"><a href="?e='+encodeURIComponent(d._k)+'" data-perma="'+esc(d._k)+'">'+esc(d.name)+'</a>'+
+             '<span class="host">'+esc(d._h)+'</span>'+
+             '<button class="lnk" type="button" data-cmpoff="'+esc(d._k)+'" aria-label="'+esc(L.cmpOff(d.name))+'">✕</button></th>';
+    }).join("")+'</tr></thead><tbody>'+
+    line.map(function(r){
+      return '<tr><th scope="row">'+esc(r[0])+'</th>'+rows.map(function(d){ return '<td>'+r[1](d)+'</td>' }).join("")+'</tr>';
+    }).join("")+'</tbody></table></div></div>';
+}
+
 function renderView(){
   var L = T[lang];
   if(chromeLang !== lang){ paintChrome(L); chromeLang = lang; }
@@ -962,9 +1227,13 @@ function renderView(){
 
   /* Sakin gorunum (giris, alan, tek kayit, son eklenenler): yalnizca gezinme,
      yan sutun yok. Giris ayrica iri baslik duzenini aciyor. */
-  var browsing = !q && !activeTags.length && !onlyPicks && !activeSrc && sortBy === "cat";
-  document.body.classList.toggle("calm", !!(single || recent || (browsing && !activeCat)));
-  document.body.classList.toggle("at-home", !!(browsing && !activeCat && !activeField && !single && !recent));
+  var browsing = !q && !activeTags.length && !onlyPicks && !activeSrc && sortBy === "cat" &&
+                 !hidePaid && !savedView && !listKeys;
+  /* boot.js iskeleti: gorunum ciziliyor, hazir giris artik saklanmiyor. */
+  document.documentElement.classList.remove("pending");
+  paintSavedBtn(); paintTray();
+  document.body.classList.toggle("calm", !!(single || recent || cmpKeys.length || (browsing && !activeCat)));
+  document.body.classList.toggle("at-home", !!(browsing && !activeCat && !activeField && !single && !recent && !cmpKeys.length));
   $("#nav").innerHTML = sideHTML(L);
 
   /* Tek kayit gorunumu: adres kaydin URL anahtarina bagli. */
@@ -974,6 +1243,7 @@ function renderView(){
     single = null;
   }
   if(recent){ $("#list").innerHTML = recentHTML(L); return; }
+  if(cmpKeys.length){ $("#list").innerHTML = cmpHTML(L); return; }
 
   if(browsing && !activeCat && !activeField){
     /* build.py girisi index.html'e onceden ciziyor (data-pre). Ilk acilista
@@ -1001,17 +1271,22 @@ function announce(text){
 function render(){ renderView(); syncFilt(); }
 
 function update(push){ writeURL(push); render(); }
-function clearAll(){ q=""; activeTags=[]; activeCat=null; activeField=null; onlyPicks=false; activeSrc=null; single=null; recent=false; pages={}; update(true) }
+function resetView(){
+  q = ""; activeTags = []; activeCat = null; activeField = null; onlyPicks = false; activeSrc = null;
+  single = null; recent = false; hidePaid = false; savedView = false; listKeys = null; cmpKeys = []; pages = {};
+}
+function clearAll(){ resetView(); update(true) }
 /* Logo ve yol izinin "Fihrist" halkasi: her seyi birakip girise don. */
 function goHome(){
-  q = ""; activeTags = []; activeCat = null; activeField = null; onlyPicks = false; activeSrc = null;
-  single = null; recent = false; sortBy = "cat"; pages = {}; update(true); scrollTop();
+  resetView(); sortBy = "cat"; update(true); scrollTop();
 }
 
 /* ------------------------------------------------------------ olaylar */
 var typeTimer;
 $("#q").addEventListener("input", function(e){
-  q = e.target.value.trim(); single = null; recent = false; pages = {}; render();
+  /* Aciklama dizini bos zamana birakildi; yazmaya baslandiysa beklenmiyor. */
+  indexDescs();
+  q = e.target.value.trim(); single = null; recent = false; cmpKeys = []; pages = {}; render();
   clearTimeout(typeTimer);
   typeTimer = setTimeout(function(){ writeURL(false) }, 400);   /* do not pollute the history stack */
 });
@@ -1022,7 +1297,93 @@ document.addEventListener("change", function(e){
   if(e.target && e.target.id === "sort"){ sortBy = e.target.value; pages = {}; update(true) }
 });
 
+/* Kayitli liste, paylasilan liste ve karsilastirma, baska bir yere gidilince birakiliyor. */
+function leaveLists(){ savedView = false; listKeys = null; cmpKeys = [] }
+function openSaved(){ resetView(); savedView = true; update(true); scrollTop() }
+
 document.addEventListener("click", function(e){
+  /* Kaydin sitesine gidildi: "goruldu" olarak isaretle, gezinmeye karisma. */
+  var go = e.target.closest("[data-go]");
+  if(go){
+    markSeen(go.dataset.go);
+    var gr = go.closest(".rec"); if(gr) gr.classList.add("seen");
+    return;
+  }
+  var svb = e.target.closest("[data-save]");
+  if(svb){
+    var sk0 = svb.dataset.save, d0 = KEYIDX[sk0];
+    toggleSave(sk0);
+    var on = isSaved(sk0), L0 = T[lang];
+    paintSavedBtn();
+    say(on ? L0.save(d0.name) + " ✓" : L0.unsave(d0.name) + " ✓");
+    /* Kayitli gorunumde cikarilan kart listeden dusuyor; baska yerde yerinde guncelleniyor ki odak kaybolmasin. */
+    if(savedView){
+      render();
+      var nx = $("#list .name") || $("#list");
+      if(nx){ if(!nx.hasAttribute("tabindex") && nx.id === "list") nx.setAttribute("tabindex", "-1"); nx.focus() }
+      return;
+    }
+    svb.setAttribute("aria-pressed", String(on));
+    svb.title = on ? L0.unsave(d0.name) : L0.save(d0.name);
+    svb.firstChild.textContent = on ? "★" : "☆";
+    return;
+  }
+  var cb = e.target.closest("[data-cmp]");
+  if(cb){
+    if(toggleCmp(cb.dataset.cmp)) cb.setAttribute("aria-pressed", String(cmpPick.indexOf(cb.dataset.cmp) >= 0));
+    paintTray();
+    return;
+  }
+  if(e.target.closest("[data-cmpgo]")){
+    e.preventDefault();
+    var keys = cmpPick.slice();
+    resetView(); cmpKeys = keys; cmpPick = []; update(true); scrollTop();
+    return;
+  }
+  if(e.target.closest("[data-cmpclear]")){
+    cmpPick = [];
+    document.querySelectorAll("[data-cmp]").forEach(function(b){ b.setAttribute("aria-pressed", "false") });
+    paintTray();
+    return;
+  }
+  var co = e.target.closest("[data-cmpoff]");
+  if(co){
+    cmpKeys = cmpKeys.filter(function(k){ return k !== co.dataset.cmpoff });
+    update(true);
+    return;
+  }
+  if(e.target.closest("#savedb")){ hideMenu(); openSaved(); return }
+  if(e.target.closest("[data-saveall]")){
+    saveAll(listKeys || []);
+    render(); say(T[lang].savedAll((listKeys || []).length));
+    return;
+  }
+  var shb = e.target.closest("[data-share]");
+  if(shb){
+    var keep2 = shelf.s.filter(function(k){ return KEYIDX[k] }).slice(0, LIST_MAX);
+    var u = new URLSearchParams(); u.set("list", keep2.join(","));
+    copy(location.origin + location.pathname + "?" + u.toString(), shb);
+    return;
+  }
+  if(e.target.closest("[data-free]")){
+    hidePaid = !hidePaid; single = null; recent = false; pages = {}; update(true);
+    return;
+  }
+  if(e.target.closest("[data-rand]")){ openRandom(); return }
+  if(e.target.closest("[data-olang]")){
+    needDesc(lang === "en" ? "tr" : "en", function(){ indexDescs(); render() });
+    return;
+  }
+  if(e.target.closest("[data-suggest]")){ suggestSite(q); return }
+  var near = e.target.closest("[data-near]");
+  if(near){
+    /* En yakin baslik suzgecsiz sayildi; oraya suzgecsiz gidiliyor, sorgu kaliyor. */
+    e.preventDefault();
+    activeTags = []; activeSrc = null; hidePaid = false; onlyPicks = false; leaveLists();
+    activeCat = near.dataset.cat; activeField = CATFIELD[activeCat] || null;
+    single = null; recent = false; pages = {}; update(true); scrollTop();
+    return;
+  }
   var fb = e.target.closest("#filtb");
   if(fb){ if(filt.open) filt.close(); else openFilt(fb); return }
   if(filt.open && !filt.matches(":modal") && !e.target.closest("#filt")) filt.close();
@@ -1055,12 +1416,12 @@ document.addEventListener("click", function(e){
   var rc = e.target.closest("[data-recent]");
   if(rc){
     e.preventDefault();
-    recent = true; single = null; activeCat = null; activeField = null; q = ""; activeTags = [];
+    resetView(); recent = true;
     onlyPicks = false; activeSrc = null; pages = {}; update(true); scrollTop();
     return;
   }
   var all = e.target.closest("[data-all]");
-  if(all){ e.preventDefault(); sortBy = "az"; single = null; recent = false; activeCat = null; activeField = null; pages = {}; update(true); return }
+  if(all){ e.preventDefault(); leaveLists(); sortBy = "az"; single = null; recent = false; activeCat = null; activeField = null; pages = {}; update(true); return }
   if(e.target.closest("#srcmore")){ srcOpen = !srcOpen; render(); return }
   if(e.target.closest("#pickbtn,[data-pick]")){ onlyPicks = !onlyPicks; single = null; recent = false; pages = {}; update(true); return }
   var sb = e.target.closest("[data-src]");
@@ -1072,8 +1433,8 @@ document.addEventListener("click", function(e){
   var pm = e.target.closest("[data-perma]");
   if(pm){
     e.preventDefault();
-    single = pm.dataset.perma; q = ""; activeTags = []; activeCat = null;
-    onlyPicks = false; activeSrc = null; pages = {}; update(true); scrollTop();
+    var pk = pm.dataset.perma;
+    resetView(); single = pk; update(true); scrollTop();
     return;
   }
   var vsl = e.target.closest("[data-vs]");
@@ -1082,8 +1443,7 @@ document.addEventListener("click", function(e){
     e.preventDefault();
     var rival = data[parseInt(vsl.dataset.vs, 10)];
     if(rival){
-      q = ""; activeTags = []; activeCat = null; activeField = null; onlyPicks = false; activeSrc = null;
-      recent = false; pages = {}; single = rival._k; update(true); scrollTop();
+      resetView(); single = rival._k; update(true); scrollTop();
     }
     return;
   }
@@ -1094,29 +1454,27 @@ document.addEventListener("click", function(e){
     if(target){
       /* single ve recent sifirlanmazsa kayit sayfasindan tiklanan "benzer" baglantisi
          ayni sayfada kaliyordu: gorunum single'i her seyden once ciziyor. */
-      single = null; recent = false;
-      q = target.name; activeTags = []; activeCat = null; activeField = null; onlyPicks = false; activeSrc = null;
-      pages = {}; update(true); scrollTop();
+      resetView(); q = target.name; update(true); scrollTop();
     }
     return;
   }
   var tg = e.target.closest("[data-tag]");
   if(tg){
     var t = tg.dataset.tag, i = activeTags.indexOf(t);
-    if(i >= 0) activeTags.splice(i,1); else activeTags.push(t);
+    if(t === "ücretsiz") hidePaid = !hidePaid;
+    else if(i >= 0) activeTags.splice(i,1); else activeTags.push(t);
     single = null; recent = false; pages = {}; update(true); return;
   }
   if(e.target.closest("#clr")){ e.preventDefault(); clearAll(); return; }
   /* "Bunu mu demek istedin?" onerisi: sorguyu degistir. */
   var sq = e.target.closest("[data-q]");
-  if(sq){ e.preventDefault(); q = sq.dataset.q; single = null; recent = false; pages = {}; update(true); return; }
+  if(sq){ e.preventDefault(); indexDescs(); q = sq.dataset.q; single = null; recent = false; cmpKeys = []; pages = {}; update(true); return; }
   /* Bir alan (ust kategori) secildi: alan sayfasina in. */
   var fv = e.target.closest("[data-field]");
   if(fv){
     e.preventDefault();
-    activeField = fv.dataset.field; activeCat = null;
-    q = ""; activeTags = []; onlyPicks = false; activeSrc = null;
-    single = null; recent = false; pages = {}; update(true); scrollTop();
+    var fk = fv.dataset.field;
+    resetView(); activeField = fk; update(true); scrollTop();
     return;
   }
   var nv = e.target.closest("[data-cat]");
@@ -1126,7 +1484,7 @@ document.addEventListener("click", function(e){
     if(nv.dataset.noq) q = "";                         /* aramadan basliga kisayol */
     if(activeCat === c){ activeCat = null; }          /* geri: alan sayfasina don */
     else { activeCat = c; activeField = CATFIELD[c] || activeField; }
-    single = null; recent = false; /* tek kayit ve son eklenenlerden cikiyoruz */
+    single = null; recent = false; leaveLists(); /* tek kayit, son eklenenler ve listelerden cikiyoruz */
     pages = {}; update(true); scrollTop();
     return;
   }
@@ -1135,10 +1493,23 @@ document.addEventListener("click", function(e){
 /* Bekleyen adres yazimi geri gelinen adresi ezmesin. */
 addEventListener("popstate", function(){ clearTimeout(typeTimer); readURL(); render() });
 
-function randomLink(){
-  var pool = data.filter(keep);
+/* Rastgele: once kaydin dizindeki sayfasi (ne oldugu, neyle karsilastirildigi),
+   siteye gitmek ikinci adim. Havuz gecerli suzgec; bulundugun kayit haric. */
+function openRandom(){
+  var pool = data.filter(function(d){ return keep(d) && d._k !== single });
   if(!pool.length) pool = data;
-  window.open(pool[Math.floor(Math.random()*pool.length)].url, "_blank", "noopener");
+  var d = pool[Math.floor(Math.random()*pool.length)];
+  resetView(); single = d._k; update(true); scrollTop();
+  var h = document.querySelector("#list h1 a.name"); if(h) h.focus({preventScroll:true});
+}
+/* Bos aramadan "bu siteyi oner": sorgu adres gibiyse URL alanina, degilse ada. */
+function suggestSite(text){
+  setTab("one"); paintSub();
+  var url = /^(https?:\/\/|www\.)|^[^\s]+\.[a-z]{2,}(\/|$)/i.test(text);
+  $("#f-url").value = url ? text : "";
+  $("#f-name").value = url ? "" : text;
+  dlg.showModal();
+  $(url ? "#f-name" : "#f-url").focus();
 }
 /* Popover API yoksa "..." menusu calismaz; o durumda araclar dar ekranda da
    satir ici duruyor (html.nopop). */
@@ -1148,7 +1519,7 @@ function hideMenu(){
   var a = $("#acts");
   try{ if(a.matches(":popover-open")) a.hidePopover() }catch(err){}
 }
-$("#rand").addEventListener("click", function(){ hideMenu(); randomLink() });
+$("#rand").addEventListener("click", function(){ hideMenu(); openRandom() });
 
 function exportRows(){
   return sorted(data.filter(keep)).map(function(d){
@@ -1201,7 +1572,7 @@ function download(name, text, mime){
   setTimeout(function(){ URL.revokeObjectURL(a.href); a.remove() }, 4000);
 }
 function exportAs(kind){
-  var base = "baglantilar-" + (activeCat || "tumu");
+  var base = "baglantilar-" + (savedView ? "kayitli" : listKeys ? "liste" : activeCat || "tumu");
   if(kind === "bookmarks"){
     download(base + ".html", bookmarksHTML(), "text/html;charset=utf-8");
     return;
@@ -1211,7 +1582,7 @@ function exportAs(kind){
     download(base + ".json", JSON.stringify({
       source:"Kullanışlı Siteler", checked:CHECKED, lang:lang,
       filter:{q:q||null, category:activeCat, tags:activeTags, source:activeSrc,
-              picksOnly:onlyPicks, sort:sortBy},
+              picksOnly:onlyPicks, hidePaid:hidePaid, saved:savedView, sort:sortBy},
       count:rows.length, links:rows
     }, null, 2), "application/json");
   } else if(kind === "csv"){
@@ -1264,13 +1635,15 @@ function setLang(next){
 }
 $("#langbtn").addEventListener("click", function(){ hideMenu(); setLang(lang === "tr" ? "en" : "tr") });
 
+function toggleTheme(){
+  theme = theme === "dark" ? "light" : "dark";
+  store.set("theme", theme); applyTheme();
+}
 function applyTheme(){
   document.documentElement.setAttribute("data-theme", theme === "dark" ? "dark" : "light");
 }
 $("#theme").addEventListener("click", function(){
-  hideMenu();
-  theme = theme === "dark" ? "light" : "dark";
-  store.set("theme", theme); applyTheme();
+  hideMenu(); toggleTheme();
 });
 applyTheme();
 
@@ -1306,17 +1679,25 @@ document.addEventListener("keydown", function(e){
   /* Acik bir popover (menu, kardes basliklar) Esc'i kendisi kapatiyor. */
   try{ if(document.querySelector(":popover-open")) return }catch(err){}
   /* While the dialog is open, / and r must not fire. <dialog> handles Esc. */
-  if(dlg.open) return;
+  if(dlg.open || pal.open || kbh.open) return;
+  /* Komut paleti: yazarken de (Ctrl/Cmd+K bir metin kisayolu degil). */
+  if(e.key && e.key.toLowerCase() === "k" && (e.ctrlKey || e.metaKey) && !e.altKey){
+    e.preventDefault(); if(filt.open) filt.close(); openPal(); return;
+  }
   if(filt.open){
     if(e.key === "Escape" && !filt.matches(":modal")) filt.close();
     return;
   }
   var typing = /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement.tagName);
   if(e.key === "/" && !typing){ e.preventDefault(); $("#q").focus() }
-  if(e.key === "r" && !typing && !e.ctrlKey && !e.metaKey && !e.altKey){ randomLink() }
+  var plain = !typing && !e.ctrlKey && !e.metaKey && !e.altKey;
+  if(e.key === "r" && plain){ openRandom() }
+  if(e.key === "?" && plain){ e.preventDefault(); openKeys() }
+  if((e.key === "j" || e.key === "k") && plain){ e.preventDefault(); stepRec(e.key === "j" ? 1 : -1) }
   if(e.key === "Escape"){
     /* Bos bir durumda gecmise yinelenen kayit eklenmesin. */
-    if(q || activeTags.length || activeCat || activeField || onlyPicks || activeSrc || single || recent) clearAll();
+    if(q || activeTags.length || activeCat || activeField || onlyPicks || activeSrc || single || recent ||
+       hidePaid || savedView || listKeys || cmpKeys.length) clearAll();
     $("#q").blur();
   }
 });
@@ -1350,7 +1731,7 @@ function syncFilt(){
   if(fa && filt.contains(fa)){
     sec = fa.dataset.tag ? '[data-tag="'+fa.dataset.tag+'"]' :
           fa.dataset.src ? '[data-src="'+fa.dataset.src+'"]' :
-          fa.dataset.pick ? '[data-pick]' : (fa.id ? '#'+fa.id : null);
+          fa.dataset.pick ? '[data-pick]' : fa.dataset.free ? '#f-body [data-free]' : (fa.id ? '#'+fa.id : null);
   }
   $("#f-body").innerHTML = filtHTML(T[lang]);
   paintFiltFoot();
@@ -1360,7 +1741,7 @@ function syncFilt(){
 $("#f-close").addEventListener("click", function(){ filt.close() });
 $("#f-go").addEventListener("click", function(){ filt.close() });
 $("#f-clear").addEventListener("click", function(){
-  activeTags = []; activeSrc = null; onlyPicks = false; single = null; recent = false; pages = {}; update(true);
+  activeTags = []; activeSrc = null; onlyPicks = false; hidePaid = false; single = null; recent = false; pages = {}; update(true);
 });
 /* Kapaninca odak panelin icinde (ya da hicbir yerde) kaldiysa Suz dugmesine
    donuyor. Tarayicinin kendi geri vermesine guvenilmiyor: iOS Safari'de
@@ -1378,6 +1759,133 @@ filt.addEventListener("click", function(e){
   if(e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) filt.close();
 });
 
+/* ------------------------------------------------------------ komut paleti
+   Ctrl/Cmd+K: kayitlar, basliklar, alanlar ve komutlar tek kutuda. Yerel
+   <dialog> (Suz paneli gibi): odak tuzagi, Esc ve arka plan tarayicidan.
+   Kutu bir ARIA combobox; secili satir aria-activedescendant ile okunuyor,
+   odak kutuda kaliyor. "/" arama kutusunda kaliyor: dizinin asil isi arama,
+   ve aliskanlik (ve testler) oraya bagli. */
+var pal = $("#pal"), kbh = $("#kbh"), palItems = [], palAt = 0, palFrom = null;
+
+function palMark(label, f){
+  var i = f ? fold(label).indexOf(f) : -1;
+  if(i < 0) return esc(label);
+  return esc(label.slice(0, i))+"<mark>"+esc(label.slice(i, i + f.length))+"</mark>"+esc(label.slice(i + f.length));
+}
+function palBuild(text){
+  var L = T[lang], f = fold(text.trim()), out = [];
+  var hit = function(s){ return !f || fold(s).indexOf(f) >= 0 };
+  var add = function(g, label, run, sub){ out.push({g: g, label: label, run: run, sub: sub || ""}) };
+  [[L.aHome, goHome], [L.saved, openSaved], [L.aRand, openRandom],
+   [L.recent, function(){ resetView(); recent = true; update(true); scrollTop() }],
+   [L.themeLabel, toggleTheme], [L.langLabel, function(){ setLang(lang === "tr" ? "en" : "tr") }],
+   [L.add, function(){ paintSub(); dlg.showModal() }], [L.aKeys, openKeys]
+  ].forEach(function(a){ if(hit(a[0])) add(L.gAct, a[0], a[1]) });
+  if(!f) return out;
+  GROUPS.filter(function(g){ return hit(g[lang]) }).slice(0, 4).forEach(function(g){
+    add(L.gField, g[lang], function(){ resetView(); activeField = g.key; update(true); scrollTop() });
+  });
+  CATS.filter(function(c){ return hit(c[lang]) }).slice(0, 6).forEach(function(c){
+    add(L.gCat, c[lang], function(){ resetView(); activeCat = c.key; activeField = CATFIELD[c.key] || null; update(true); scrollTop() },
+        String(BYCAT[c.key].length));
+  });
+  var p = Search.parse(text);
+  Search.rank(data.filter(function(d){ return Search.match(d, p) }), p).slice(0, 8).forEach(function(d){
+    add(L.gRec, d.name, function(){ resetView(); single = d._k; update(true); scrollTop() }, d._h);
+  });
+  return out;
+}
+function palDraw(){
+  var L = T[lang], text = $("#pal-q").value, f = fold(text.trim()), last = null;
+  palItems = palBuild(text);
+  palAt = Math.min(palAt, Math.max(0, palItems.length - 1));
+  $("#pal-list").innerHTML = palItems.length ? palItems.map(function(it, i){
+    var h = it.g !== last ? '<li class="pal-g" role="presentation">'+esc(it.g)+'</li>' : "";
+    last = it.g;
+    return h+'<li role="option" id="pal-o'+i+'" data-pi="'+i+'" aria-selected="'+(i === palAt)+'">'+
+      '<span class="pl">'+palMark(it.label, f)+'</span>'+(it.sub ? '<span class="ps">'+esc(it.sub)+'</span>' : '')+'</li>';
+  }).join("") : '<li class="pal-none" role="presentation">'+esc(L.palNone)+'</li>';
+  var inp = $("#pal-q");
+  if(palItems.length) inp.setAttribute("aria-activedescendant", "pal-o"+palAt);
+  else inp.removeAttribute("aria-activedescendant");
+}
+function palMove(n){
+  if(!palItems.length) return;
+  palAt = (palAt + n + palItems.length) % palItems.length;
+  palDraw();
+  var o = document.getElementById("pal-o"+palAt); if(o) o.scrollIntoView({block: "nearest"});
+}
+function palRun(i){
+  var it = palItems[i]; if(!it) return;
+  pal.close(); it.run();
+}
+function openPal(){
+  var L = T[lang];
+  indexDescs();
+  palFrom = document.activeElement;
+  $("#pal-t").textContent = L.palLabel;
+  $("#pal-q").placeholder = L.palPh;
+  $("#pal-q").setAttribute("aria-label", L.palLabel);
+  $("#pal-q").value = ""; palAt = 0; palDraw();
+  pal.showModal(); $("#pal-q").focus();
+}
+$("#pal-q").addEventListener("input", function(){ palAt = 0; palDraw() });
+$("#pal-q").addEventListener("keydown", function(e){
+  if(e.key === "ArrowDown"){ e.preventDefault(); palMove(1) }
+  else if(e.key === "ArrowUp"){ e.preventDefault(); palMove(-1) }
+  else if(e.key === "Enter"){ e.preventDefault(); palRun(palAt) }
+});
+$("#pal-list").addEventListener("click", function(e){
+  var o = e.target.closest("[data-pi]"); if(o) palRun(+o.dataset.pi);
+});
+
+/* Kapaninca odak acan ogeye donuyor; komut baska bir pencere actiysa ona dokunulmuyor. */
+function backFocus(box){
+  return function(){
+    var fa = document.activeElement;
+    if((!fa || fa === document.body || box.contains(fa)) && palFrom && document.contains(palFrom)) palFrom.focus();
+  };
+}
+pal.addEventListener("close", backFocus(pal));
+kbh.addEventListener("close", backFocus(kbh));
+[pal, kbh].forEach(function(box){
+  box.addEventListener("click", function(e){
+    if(e.target !== box) return;
+    var r = box.getBoundingClientRect();
+    if(e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) box.close();
+  });
+});
+
+/* "?" klavye yardimi. */
+function openKeys(){
+  var L = T[lang];
+  if(!pal.open) palFrom = document.activeElement;
+  $("#kbh-t").textContent = L.aKeys;
+  $("#kbh-close").setAttribute("aria-label", L.close);
+  $("#kbh-list").innerHTML = L.keys.map(function(k){
+    return '<dt>'+k[0].split(" · ").map(function(x){ return '<kbd>'+esc(x)+'</kbd>' }).join(" ")+'</dt><dd>'+esc(k[1])+'</dd>';
+  }).join("");
+  kbh.showModal(); $("#kbh-close").focus();
+}
+$("#kbh-close").addEventListener("click", function(){ kbh.close() });
+
+/* j/k: listedeki kayitlar arasinda, kaydin adina odaklanarak. */
+function stepRec(dir){
+  var ls = [].slice.call(document.querySelectorAll("#list .rec a.name"));
+  if(!ls.length) return;
+  var i = ls.indexOf(document.activeElement);
+  var n = i < 0 ? (dir > 0 ? 0 : ls.length - 1) : Math.max(0, Math.min(ls.length - 1, i + dir));
+  ls[n].focus({preventScroll: true});
+  ls[n].closest(".rec").scrollIntoView({block: "nearest",
+    behavior: matchMedia("(prefers-reduced-motion:reduce)").matches ? "auto" : "smooth"});
+}
+
+/* Uygulama kisayollari (manifest "shortcuts"): ?go=search ve ?go=random. */
+function takeGo(){
+  var g = new URLSearchParams(location.search).get("go");
+  if(g === "random") openRandom();
+  else if(g === "search"){ writeURL(false); $("#q").focus() }
+}
 /* ------------------------------------------------------------ submissions
    There is no backend and there will not be one. What gets submitted goes
    straight into a GitHub issue; the directory's data only changes when
@@ -1718,7 +2226,16 @@ $("#s-drop").addEventListener("drop", function(e){
 readURL();
 /* Ilk cizim, okunan dilin aciklamalari gelince: boot.js dosyayi links.js ile
    paralel istemisti. O zamana kadar index.html'deki hazir ana sayfa duruyor. */
-needDesc(lang, function(){ indexDescs(); render(); liveReady = true; warmSearch() });
+/* Aciklamalarin arama dizinine eklenmesi bos zamanda: ilk cizim beklemiyor.
+   Adreste sorgu varsa (ya da once yazilirsa) hemen kuruluyor. */
+var idle = window.requestIdleCallback
+  ? function(f){ window.requestIdleCallback(f, {timeout: 1500}) }
+  : function(f){ setTimeout(f, 200) };
+needDesc(lang, function(){
+  if(q) indexDescs();
+  render(); liveReady = true; takeGo();
+  idle(function(){ indexDescs(); warmSearch() });
+});
 /* Tekrar ziyaretlerde anlik acilis ve cevrimdisi okuma (sw.js). Yukleme
    bittikten sonra: ilk acilisla ag ve islemci icin yarismasin. */
 if("serviceWorker" in navigator){

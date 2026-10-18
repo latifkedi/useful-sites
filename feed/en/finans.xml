@@ -5,7 +5,21 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/en/finans.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/en/finans.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/finans.xml</id>
-<updated>2026-10-09T09:00:00Z</updated>
+<updated>2026-10-18T00:00:00Z</updated>
+<entry>
+  <title>KAP — Kamuyu Aydınlatma Platformu</title>
+  <link href="https://www.kap.org.tr/tr"/>
+  <id>https://www.kap.org.tr/tr</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>The platform where Borsa Istanbul companies publish their legal disclosures: financial statements, material-event notices, general meetings and capital increases. Unlike data sites such as Yahoo Finance it shows the filing in its first, binding form; the Turkish counterpart of the SEC’s EDGAR.</summary>
+</entry>
+<entry>
+  <title>TEFAS — Türkiye Elektronik Fon Alım Satım Platformu</title>
+  <link href="https://www.tefas.gov.tr/"/>
+  <id>https://www.tefas.gov.tr/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Takasbank’s investment-fund platform; its public pages compare prices, period returns and asset allocation across funds. Unlike a single bank’s fund list it puts the platform’s funds side by side in one table regardless of who runs them.</summary>
+</entry>
 <entry>
   <title>Bitcoin Developer Documentation</title>
   <link href="https://developer.bitcoin.org/"/>
@@ -49,20 +63,6 @@
   <summary>Crypto prices and market-cap rankings, with the data also available through a free API. Unlike busier trackers it is a plain table with direct data access.</summary>
 </entry>
 <entry>
-  <title>CoinDesk</title>
-  <link href="https://www.coindesk.com/"/>
-  <id>https://www.coindesk.com/</id>
-  <updated>2026-10-09T09:00:00Z</updated>
-  <summary>A crypto and blockchain news site with market data and analysis. Unlike aggregators such as CryptoPanic it does its own reporting.</summary>
-</entry>
-<entry>
-  <title>CryptoPanic</title>
-  <link href="https://cryptopanic.com/"/>
-  <id>https://cryptopanic.com/</id>
-  <updated>2026-10-09T09:00:00Z</updated>
-  <summary>A crypto news aggregator that marks headlines by their expected effect on price. Unlike a single news site it gathers many sources into one feed.</summary>
-</entry>
-<entry>
   <title>Electrum</title>
   <link href="https://electrum.org/"/>
   <id>https://electrum.org/</id>
@@ -89,13 +89,6 @@
   <id>https://www.openzeppelin.com/</id>
   <updated>2026-10-09T09:00:00Z</updated>
   <summary>Audited smart-contract libraries and security tooling for Solidity. Unlike writing token or access-control contracts yourself, they are building blocks tested in wide use.</summary>
-</entry>
-<entry>
-  <title>WhatToMine</title>
-  <link href="https://whattomine.com/"/>
-  <id>https://whattomine.com/</id>
-  <updated>2026-10-09T09:00:00Z</updated>
-  <summary>A calculator comparing the profitability of GPU-mineable coins from your hashrate, power draw and electricity price. Unlike general price trackers it computes mining profit directly.</summary>
 </entry>
 <entry>
   <title>Awesome AI in Finance</title>
@@ -285,5 +278,12 @@
   <id>https://finance.yahoo.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Quotes, financials and portfolio tracking, with free historical price downloads. Unlike paid terminals its free coverage is broad; the trade-off is that the data is mostly delayed.</summary>
+</entry>
+<entry>
+  <title>Learn Me a Bitcoin</title>
+  <link href="https://learnmeabitcoin.com/"/>
+  <id>https://learnmeabitcoin.com/</id>
+  <updated>2026-08-17T20:53:20Z</updated>
+  <summary>Explains Bitcoin’s technical workings — transaction structure, script, mining — through worked examples. Against the whitepaper it is concrete: real transactions pulled apart byte by byte.</summary>
 </entry>
 </feed>

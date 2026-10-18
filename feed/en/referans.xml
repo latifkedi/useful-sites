@@ -5,7 +5,42 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/en/referans.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/en/referans.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/referans.xml</id>
-<updated>2026-10-09T09:00:00Z</updated>
+<updated>2026-10-18T00:00:00Z</updated>
+<entry>
+  <title>CTAN</title>
+  <link href="https://ctan.org/"/>
+  <id>https://ctan.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>The central archive of TeX and LaTeX packages: each package’s documentation, version, licence and maintenance status on one page. Unlike forum answers it takes you to a package’s own manual (usually a PDF) and the version that ships in TeX Live.</summary>
+</entry>
+<entry>
+  <title>Detexify</title>
+  <link href="https://detexify.kirelabs.org/classify.html"/>
+  <id>https://detexify.kirelabs.org/classify.html</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Draw the symbol you want with the mouse and it returns the matching LaTeX command and the package it needs. Unlike scanning a symbol table, it finds a sign from its shape when you do not know its name.</summary>
+</entry>
+<entry>
+  <title>iHateRegex</title>
+  <link href="https://ihateregex.io/"/>
+  <id>https://ihateregex.io/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A catalogue of commonly needed regular expressions (email, phone, dates, IP addresses), each with a diagram, an explanation and a place to try it. Unlike tester tools it hands you a ready, explained pattern instead of making you write one from scratch.</summary>
+</entry>
+<entry>
+  <title>TDK Güncel Türkçe Sözlük</title>
+  <link href="https://sozluk.gov.tr/"/>
+  <id>https://sozluk.gov.tr/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>The Turkish Language Association’s dictionaries behind one search box: the current Turkish dictionary, the spelling guide, proverbs and terminology dictionaries. Unlike bilingual dictionaries such as Tureng it is monolingual and normative, the place to check how a word is spelt.</summary>
+</entry>
+<entry>
+  <title>Tureng</title>
+  <link href="https://tureng.com/"/>
+  <id>https://tureng.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A Turkish–English online dictionary that groups translations by field (computing, law, medicine and so on) and gives pronunciations. Unlike the TDK dictionary it is bilingual and term-oriented, a quick way to find the Turkish equivalent a field uses for a technical English word.</summary>
+</entry>
 <entry>
   <title>Python Module of the Week</title>
   <link href="https://pymotw.com/3/"/>
@@ -250,40 +285,5 @@
   <id>https://guides.github.com/features/mastering-markdown/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>GitHub’s official summary of its own Markdown dialect: tables, task lists, code fences, mentions. Against a general Markdown reference it covers the GitHub-specific extensions, which is what a README actually renders with.</summary>
-</entry>
-<entry>
-  <title>OverAPI</title>
-  <link href="https://overapi.com"/>
-  <id>https://overapi.com</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A directory gathering language and framework cheat sheets on one page. Compared with Devhints it is visually denser, but you find a command fast, and each item links to the official docs.</summary>
-</entry>
-<entry>
-  <title>Ruby Üslup Kılavuzu</title>
-  <link href="https://github.com/rubocop/ruby-style-guide"/>
-  <id>https://github.com/rubocop/ruby-style-guide</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A community-written Ruby style guide that forms the basis of RuboCop’s default rule set. Unlike a single company’s internal guide, it reflects community consensus.</summary>
-</entry>
-<entry>
-  <title>Rust Üslup Kılavuzu</title>
-  <link href="https://doc.rust-lang.org/stable/style-guide/"/>
-  <id>https://doc.rust-lang.org/stable/style-guide/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Rust’s official style guide, defining rustfmt’s default behaviour. Unlike the rustfmt docs it states the decisions themselves and their reasoning — where you learn why the tool behaves as it does.</summary>
-</entry>
-<entry>
-  <title>SourceMaking</title>
-  <link href="https://sourcemaking.com/"/>
-  <id>https://sourcemaking.com/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A reference covering design patterns, code smells and refactoring techniques with examples. Unlike Refactoring Guru it also covers antipatterns and UML — useful as a second opinion.</summary>
-</entry>
-<entry>
-  <title>Uber Go Üslup Kılavuzu</title>
-  <link href="https://github.com/uber-go/guide"/>
-  <id>https://github.com/uber-go/guide</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Collects the traps and preferred patterns of writing production Go. Unlike the official Effective Go, it picks up where that leaves off with rules drawn from real production experience.</summary>
 </entry>
 </feed>

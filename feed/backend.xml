@@ -5,7 +5,21 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/backend.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/backend.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/backend.xml</id>
-<updated>2026-10-09T09:00:00Z</updated>
+<updated>2026-10-18T00:00:00Z</updated>
+<entry>
+  <title>Wasmer</title>
+  <link href="https://wasmer.io/"/>
+  <id>https://wasmer.io/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Birden çok derleyici arka ucu (Singlepass, Cranelift, LLVM) arasında seçim yapılabilen WebAssembly çalışma ortamı; yanında bir paket kaydı ve ücretli Wasmer Edge barındırması var. Wasmtime’dan farkı yalnızca çalışma ortamı değil, paketleme ve yayınlamayı da kapsayan ticari bir platform olması.</summary>
+</entry>
+<entry>
+  <title>Wasmtime</title>
+  <link href="https://wasmtime.dev/"/>
+  <id>https://wasmtime.dev/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Bytecode Alliance’ın tarayıcı dışında WebAssembly çalıştıran çalışma ortamı; Rust ile yazılmış, Cranelift ile derliyor, WASI ve bileşen modelini ilk uygulayanlardan. Wasmer’dan farkı paket kaydı ya da barındırma satmaması; standart takibine ve gömülerek kullanılmaya odaklanması.</summary>
+</entry>
 <entry>
   <title>Classy Class-Based Views</title>
   <link href="https://ccbv.co.uk/"/>
@@ -271,19 +285,5 @@
   <id>https://refactoring.guru/</id>
   <updated>2026-05-11T15:32:43Z</updated>
   <summary>Her tasarım desenini şema, gerçekçi örnek ve kod olarak veriyor — üstelik altı ayrı dilde. Gang of Four kitabından farkı, aynı desenleri okunması güç bir metin yerine erişilebilir bir anlatımla sunması.</summary>
-</entry>
-<entry>
-  <title>Express</title>
-  <link href="https://expressjs.com/"/>
-  <id>https://expressjs.com/</id>
-  <updated>2026-04-20T13:01:16Z</updated>
-  <summary>Node.js’in minimal çatısı; ara katman (middleware) modelini standartlaştırdığı için ekosistemin ortak dili hâline geldi. Fastify gibi yeni çatılara kıyasla yavaş ve az değişiyor — Express 5 ancak 2024’te çıktı; bu hem güç hem zayıflık.</summary>
-</entry>
-<entry>
-  <title>WordPress Developer</title>
-  <link href="https://developer.wordpress.org/"/>
-  <id>https://developer.wordpress.org/</id>
-  <updated>2026-04-20T13:01:05Z</updated>
-  <summary>Eklenti ve tema geliştirme referansı. Kanca (hook) sistemi WordPress’in tamamını açıklayan tek kavram; onu anlamadan hiçbir şey yerine oturmuyor.</summary>
 </entry>
 </feed>

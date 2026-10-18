@@ -5,7 +5,21 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/en/editor.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/editor.xml</id>
-<updated>2026-10-09T09:00:00Z</updated>
+<updated>2026-10-18T00:00:00Z</updated>
+<entry>
+  <title>Overleaf</title>
+  <link href="https://www.overleaf.com/"/>
+  <id>https://www.overleaf.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A collaborative LaTeX editor in the browser; compilation runs on the server and thousands of journal and thesis templates are ready. Unlike a local TeX install it needs no setup and supports live co-editing; the free plan limits compile time and collaborators, and the Community Edition can be self-hosted.</summary>
+</entry>
+<entry>
+  <title>Typst</title>
+  <link href="https://typst.app/"/>
+  <id>https://typst.app/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A new typesetting language meant as an alternative to LaTeX, and its online editor; the compiler is open source (Rust) and recompiles changes instantly. Unlike Overleaf it does not use LaTeX but a simpler syntax with built-in scripting; in exchange the package ecosystem is smaller and most journals still ask for LaTeX.</summary>
+</entry>
 <entry>
   <title>diffnav</title>
   <link href="https://github.com/dlvhdr/diffnav"/>

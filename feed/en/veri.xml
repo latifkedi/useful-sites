@@ -5,7 +5,28 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/en/veri.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/veri.xml</id>
-<updated>2026-10-09T09:00:00Z</updated>
+<updated>2026-10-18T00:00:00Z</updated>
+<entry>
+  <title>kepler.gl</title>
+  <link href="https://kepler.gl/"/>
+  <id>https://kepler.gl/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>An open-source tool, born at Uber, for visualising large location datasets (millions of points, trips, grids) layer by layer in the browser. Unlike QGIS it aims at exploration and presentation rather than analysis: drop in a CSV or GeoJSON and you have a map with a time slider in minutes.</summary>
+</entry>
+<entry>
+  <title>overpass turbo</title>
+  <link href="https://overpass-turbo.eu/"/>
+  <id>https://overpass-turbo.eu/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A web front end for querying OpenStreetMap data through the Overpass API; it shows the result on a map, downloads it as GeoJSON and has a wizard for those who do not write queries. Unlike downloading a full OSM extract it fetches only the features you ask for, such as every pharmacy in a city.</summary>
+</entry>
+<entry>
+  <title>QGIS</title>
+  <link href="https://qgis.org/"/>
+  <id>https://qgis.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>An open-source desktop GIS for Windows, macOS and Linux; it reads and analyses shapefile, GeoPackage, PostGIS and raster layers and extends through plugins. Unlike ArcGIS there is no licence fee; in exchange support comes from the community and commercial partners.</summary>
+</entry>
 <entry>
   <title>KDnuggets</title>
   <link href="https://www.kdnuggets.com/"/>
@@ -264,26 +285,5 @@
   <id>https://figshare.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>A platform for sharing research outputs and datasets in citable form with DOIs. Compared with Zenodo it is a commercial product (Digital Science), also sold to universities as an institutional repository.</summary>
-</entry>
-<entry>
-  <title>Gapminder</title>
-  <link href="https://www.gapminder.org"/>
-  <id>https://www.gapminder.org</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Tools from the foundation Hans Rosling co-founded, presenting global development data through fact-based visualisations. Unlike raw data portals, it tells the data through charts moving over time, aimed at correcting common misconceptions.</summary>
-</entry>
-<entry>
-  <title>Humanitarian Data Exchange</title>
-  <link href="https://data.humdata.org"/>
-  <id>https://data.humdata.org</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Crisis and humanitarian datasets curated by OCHA. Unlike general open-data portals, it focuses on crisis areas, with data coming from organisations in the field.</summary>
-</entry>
-<entry>
-  <title>Opendatasoft</title>
-  <link href="https://www.opendatasoft.com"/>
-  <id>https://www.opendatasoft.com</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A platform institutions and cities use to run data portals, with datasets searchable across portals. Rather than visiting portals one by one, you can search the data of every portal built on it together.</summary>
 </entry>
 </feed>

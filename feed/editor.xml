@@ -5,7 +5,21 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/editor.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/editor.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/editor.xml</id>
-<updated>2026-10-09T09:00:00Z</updated>
+<updated>2026-10-18T00:00:00Z</updated>
+<entry>
+  <title>Overleaf</title>
+  <link href="https://www.overleaf.com/"/>
+  <id>https://www.overleaf.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Tarayıcıda çalışan, ortak düzenlemeli LaTeX editörü; derleme sunucuda, binlerce dergi ve tez şablonu hazır. Yerel TeX kurulumundan farkı kurulumsuz ve eşzamanlı çalışılabilmesi; ücretsiz planda derleme süresi ve ortak çalışan sınırlı, Community Edition kendi sunucunda kurulabiliyor.</summary>
+</entry>
+<entry>
+  <title>Typst</title>
+  <link href="https://typst.app/"/>
+  <id>https://typst.app/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>LaTeX’e alternatif yeni bir dizgi dili ve onun çevrimiçi editörü; derleyici açık kaynak (Rust) ve değişiklikleri anında yeniden derliyor. Overleaf’ten farkı LaTeX değil daha sade bir sözdizimi ve yerleşik betik dili kullanması; buna karşın paket ekosistemi küçük ve çoğu dergi hâlâ LaTeX istiyor.</summary>
+</entry>
 <entry>
   <title>diffnav</title>
   <link href="https://github.com/dlvhdr/diffnav"/>
