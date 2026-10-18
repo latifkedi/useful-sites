@@ -1085,5 +1085,47 @@
         "a": "yaklasim"
       }
     ]
+  },
+  {
+    "url": "https://anvaka.github.io/map-of-reddit/",
+    "name": "Map of Reddit",
+    "tags": [
+      "interaktif",
+      "veri-bilimi",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "Subreddit'leri ortak yorumcu benzerliğine göre kümeleyip WebGL ile haritalayan etkileşimli görselleştirme (2020-21 yorumları). Subreddit listelerinden farkı topluluklar arası yakınlığı mekânsal olarak göstermesi.",
+    "en": "Interactive WebGL map clustering subreddits by shared commenters (2020-21 comments). Unlike subreddit lists, it shows how communities relate spatially.",
+    "src": "lowkwiki",
+    "added": 1792281600
+  },
+  {
+    "url": "https://open-digger.cn/en/",
+    "name": "OpenDigger",
+    "tags": [
+      "açık-kaynak",
+      "veri-seti",
+      "api",
+      "ücretsiz"
+    ],
+    "tr": "X-lab'ın GitHub etkinliğinden türettiği açık kaynak sağlık metriklerini (OpenRank, aktivite, katılımcı) sunan analiz platformu. Ham GitHub API'sinden farkı hazır, zaman serisi ve açık veri olarak yayımlanması.",
+    "en": "X-lab's analysis platform publishing open-source health metrics derived from GitHub activity (OpenRank, activity, contributors). Unlike the raw GitHub API, the metrics come ready-made as open time-series data.",
+    "src": "lowkwiki",
+    "added": 1792281600
+  },
+  {
+    "url": "https://github.com/sshuair/awesome-gis",
+    "name": "Awesome GIS",
+    "tags": [
+      "awesome-liste",
+      "referans",
+      "veri-seti",
+      "ücretsiz"
+    ],
+    "tr": "Haritacılık araçları, coğrafi analiz kütüphaneleri, veri kaynakları ve topluluklar için coğrafi bilgi sistemleri (CBS) listesi. Esri odaklı listelerin aksine açık kaynak ve platformdan bağımsız: masaüstü GIS, web harita kütüphaneleri ve açık veri aynı yerde.",
+    "en": "A list for geographic information systems: cartographic tools, geoanalysis libraries, data sources and communities. Unlike Esri-centred lists it is open-source and platform-neutral, with desktop GIS, web mapping libraries and open data in one place.",
+    "src": "lowkwiki",
+    "added": 1792281600
   }
 ]

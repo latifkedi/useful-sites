@@ -843,5 +843,88 @@
         "a": "yaklasim"
       }
     ]
+  },
+  {
+    "url": "https://github.com/lyz-code/best-of-digital-gardens",
+    "name": "best-of-digital-gardens",
+    "tags": [
+      "awesome-liste",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Kaynağı git deposunda açık olan yaklaşık 100 dijital bahçeyi (kişisel wiki ve not siteleri) yıldıza göre sıralayan, haftalık güncellenen liste. Elle derlenmiş bahçe listelerinden farkı, sıralamanın otomatik üretilip güncel tutulmasıdır.",
+    "en": "A weekly-updated, star-ranked list of about 100 digital gardens (personal wikis and note sites) whose source lives in a git repository. Unlike hand-curated garden lists, its ranking is generated and kept current automatically.",
+    "src": "lowkwiki",
+    "added": 1792281600
+  },
+  {
+    "url": "https://github.com/lorien/awesome-web-scraping",
+    "name": "Awesome Web Scraping",
+    "tags": [
+      "awesome-liste",
+      "referans",
+      "python",
+      "ücretsiz"
+    ],
+    "tr": "Web kazıma kütüphaneleri, servisleri ve rehberlerinin dile göre ayrılmış listesi (Python, PHP, Ruby, JS, Go, CLI). Tek bir kütüphanenin dökümanından farkı ekosistemi dil bazında karşılaştırmalı sunması.",
+    "en": "A web-scraping list of libraries, services and manuals split by language (Python, PHP, Ruby, JS, Go, CLI). Unlike one library's docs, it lays out the whole ecosystem per language.",
+    "src": "lowkwiki",
+    "added": 1792281600
+  },
+  {
+    "url": "https://github.com/obsidian-pkm-vault/awesome-obsidian-vault",
+    "name": "Awesome Obsidian Vaults",
+    "tags": [
+      "awesome-liste",
+      "çevrimdışı",
+      "ücretsiz",
+      "referans"
+    ],
+    "tr": "Geliştiriciler ve öğrenenler için indirilip Obsidian'da çevrimdışı kullanılabilen hazır not kasaları ve dijital bahçelerin konuya göre listesi; bağlantı denetimi otomatik yapılıyor. Eklenti listelerinden farkı içerik (notlar) dağıtması.",
+    "en": "Topic-grouped list of ready-made notes vaults and digital gardens for developers and learners, downloadable for offline use in Obsidian, with automated link checking. Unlike plugin lists, it distributes content (notes).",
+    "src": "lowkwiki",
+    "added": 1792281600
+  },
+  {
+    "url": "https://github.com/thedoubler/awesome-maps-data",
+    "name": "Awesome Maps+Data",
+    "tags": [
+      "awesome-liste",
+      "interaktif",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Gerçek zamanlı harita ve veri görselleştirme sitelerinin (havacılık, uzay, hava durumu, tarih, deniz, siber tehdit) listesi. Genel link listelerinden farkı yalnız etkileşimli harita/veri deneyimlerini toplaması.",
+    "en": "A list of real-time map and data-visualisation sites (aviation, space, weather, history, marine, cyber threats). Unlike general link lists, it only gathers interactive map/data experiences.",
+    "src": "lowkwiki",
+    "added": 1792281600
+  },
+  {
+    "url": "https://atlasrepo.com",
+    "name": "AtlasRepo",
+    "tags": [
+      "referans",
+      "araç",
+      "mcp",
+      "freemium"
+    ],
+    "tr": "Yaklaşık 40 bin açık kaynak projeyi özet, kategori ve kalite skoruyla listeleyen arama kataloğu; kodlama ajanlarına MCP ile de açılıyor. Yıldız sıralamalı listelerden farkı puanlama yönteminin açık olması. Ücretsiz hesap ve ücretli plan var.",
+    "en": "A searchable catalogue of roughly 40,000 open-source projects with summaries, categories and quality scores, also exposed to coding agents via MCP. Unlike star-ranked lists its scoring method is published. A free account and paid plans exist.",
+    "src": "lowkwiki",
+    "added": 1792281600
+  },
+  {
+    "url": "https://mapall.space",
+    "name": "Map All Spaces",
+    "tags": [
+      "araç",
+      "donanım",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "Hackerspace, fablab ve makerspace mekanlarını SpaceAPI, Fablab.io ve Hackerspaces wiki kaynaklarından birleştirip tek haritada gösteriyor; açık/kapalı durum ısı haritası da var. Tek bir ağın haritasından farkı birkaç kaynağı birleştirmesi.",
+    "en": "Combines hackerspaces, fablabs and makerspaces from SpaceAPI, Fablab.io and the Hackerspaces wiki on one map, with a heatmap of open/closed status. Unlike a single network map it merges several sources.",
+    "src": "lowkwiki",
+    "added": 1792281600
   }
 ]

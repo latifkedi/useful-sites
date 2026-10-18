@@ -322,5 +322,61 @@
     "en": "The category of ciphers still unbroken, the Voynich manuscript and Beale ciphers among them. Unlike solved-cipher tutorials, each here stands as an open problem.",
     "src": "kedi",
     "added": 1785306824
+  },
+  {
+    "url": "https://pwn.college/",
+    "name": "pwn.college",
+    "tags": [
+      "öğretici",
+      "güvenlik",
+      "ücretsiz",
+      "başlangıç"
+    ],
+    "tr": "Arizona State Üniversitesi'nin ücretsiz siber güvenlik eğitim platformu; sıfırdan başlayan modüller ve tarayıcıda çalışan pratik ortamlarla ikili sömürü, web ve tersine mühendislik öğretiyor. Salt CTF sitelerinden farkı sıralı bir müfredat izlemesi.",
+    "en": "Arizona State University's free cybersecurity education platform; beginner-friendly modules with in-browser practice environments teach binary exploitation, web and reverse engineering. Unlike plain CTF sites it follows an ordered curriculum.",
+    "src": "lowkwiki",
+    "added": 1792281600
+  },
+  {
+    "url": "https://www.hacker101.com/",
+    "name": "Hacker101",
+    "tags": [
+      "öğretici",
+      "güvenlik",
+      "ücretsiz",
+      "başlangıç"
+    ],
+    "tr": "HackerOne'ın web güvenliği açıklarını bulmayı anlatan ücretsiz video dersleri ve CTF'i; bulduğunuz bayraklarla özel bug bounty programlarına davet kazanılabiliyor. Genel eğitim sitelerinden farkı bug bounty yoluna doğrudan bağlanması.",
+    "en": "HackerOne's free video lessons and CTF on finding web vulnerabilities; flags earned can bring invitations to private bug bounty programs. Unlike general training sites it links straight into the bug bounty path.",
+    "src": "lowkwiki",
+    "added": 1792281600
+  },
+  {
+    "url": "https://www.hacksplaining.com/",
+    "name": "Hacksplaining",
+    "tags": [
+      "öğretici",
+      "güvenlik",
+      "interaktif",
+      "ücretsiz"
+    ],
+    "tr": "Yaygın web güvenlik açıklarını (XSS, SQL enjeksiyonu, CSRF) kısa etkileşimli derslerle anlatan, geliştiricilere yönelik site. Pentest platformlarından farkı saldırıyı değil savunmayı öğretmeye odaklanması.",
+    "en": "A developer-oriented site that explains common web vulnerabilities (XSS, SQL injection, CSRF) in short interactive lessons. Unlike pentest platforms it focuses on teaching defence rather than attack.",
+    "src": "lowkwiki",
+    "added": 1792281600
+  },
+  {
+    "url": "https://www.root-me.org/",
+    "name": "Root Me",
+    "tags": [
+      "öğretici",
+      "güvenlik",
+      "interaktif",
+      "ücretsiz"
+    ],
+    "tr": "Web, kriptografi, tersine mühendislik ve adli bilişim alanlarında yüzlerce meydan okuma ve sanal ortam sunan, topluluk tarafından işletilen Fransız platform. Büyük ticari laboratuvarlardan farkı topluluk çözümleri ve zengin belge deposuyla gelmesi.",
+    "en": "A community-run French platform with hundreds of challenges and virtual environments across web, cryptography, reverse engineering and forensics. Unlike large commercial labs it comes with community write-ups and a rich document repository.",
+    "src": "lowkwiki",
+    "added": 1792281600
   }
 ]

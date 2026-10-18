@@ -644,5 +644,129 @@
     "tr": "Infosec topluluğunun Twitter/X’te paylaştığı zararlı URL, alan adı, IP ve hash’leri toplayıp CSV/JSON/RSS/API olarak sunan canlı IOC akışı. Ticari tehdit beslemelerinden farkı kaynağının açık sosyal paylaşımlar olması ve ücretsiz olması: araştırmacı gözlemlerini gerçek zamanlı, makinece okunur hâle getiriyor.",
     "en": "A live IOC feed that collects malicious URLs, domains, IPs and hashes shared by the infosec community on Twitter/X, served as CSV/JSON/RSS/API. Unlike commercial threat feeds its source is open social posts and it is free: it turns researcher observations into real-time, machine-readable data.",
     "src": "lowkwiki"
+  },
+  {
+    "url": "https://www.kicksecure.com/wiki/Documentation",
+    "name": "Kicksecure Documentation",
+    "tags": [
+      "güvenlik",
+      "gizlilik",
+      "dokümantasyon",
+      "ücretsiz"
+    ],
+    "tr": "Sertleştirilmiş bir Debian türevi olan Kicksecure'ın wiki'si; sistem sertleştirme, çekirdek ve tarayıcı ayarları, Tor ve parola yönetimi gibi konuları adım adım anlatır. Genel güvenlik kontrol listelerinden farkı, her önerinin işletim sistemi düzeyinde nasıl uygulandığını göstermesidir.",
+    "en": "The wiki of Kicksecure, a hardened Debian derivative, covering system hardening, kernel and browser settings, Tor and password management step by step. Unlike generic security checklists it shows how each recommendation is applied at operating-system level.",
+    "src": "lowkwiki",
+    "added": 1792281600
+  },
+  {
+    "url": "https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide",
+    "name": "s0cm0nkey's Security Reference Guide",
+    "tags": [
+      "awesome-liste",
+      "güvenlik",
+      "osint",
+      "ücretsiz"
+    ],
+    "tr": "SOC, sızma testi, DFIR, tehdit istihbaratı ve AppSec için konu başlıklarına ayrılmış, elle derlenen bağlantı ve kaynak rehberi. Tek bir alana odaklanan awesome listelerinden farkı, mavi ve kırmızı takım alanlarını tek bir gitbook'ta toplamasıdır.",
+    "en": "A hand-curated guide to links and resources split by topic for SOC, pentesting, DFIR, threat intelligence and AppSec. Unlike awesome lists that cover a single area, it collects blue-team and red-team material in one gitbook.",
+    "src": "lowkwiki",
+    "added": 1792281600
+  },
+  {
+    "url": "https://github.com/Orange-Cyberdefense/awesome-industrial-protocols",
+    "name": "Awesome Industrial Protocols",
+    "tags": [
+      "awesome-liste",
+      "güvenlik",
+      "ağ",
+      "ücretsiz"
+    ],
+    "tr": "Modbus, S7, OPC UA gibi endüstriyel ağ protokollerine saldırı odaklı bakan kaynak listesi; her protokol için ayrı sayfa ve veri tabanı var. Genel güvenlik listelerinden farkı OT/ICS protokol düzeyine inmesi.",
+    "en": "A security-oriented resource list on industrial network protocols such as Modbus, S7 and OPC UA, with a page and dataset per protocol. Unlike general security lists it goes down to the OT/ICS protocol level.",
+    "src": "lowkwiki",
+    "added": 1792281600
+  },
+  {
+    "url": "https://v33ru.github.io/awesome-connected-things-sec/",
+    "name": "Awesome Connected Things Security",
+    "tags": [
+      "awesome-liste",
+      "güvenlik",
+      "gömülü",
+      "ücretsiz"
+    ],
+    "tr": "IoT, gömülü, endüstriyel ve otomotiv sistemlerinin güvenlik araştırması için donanım saldırıları, kablosuz protokoller (BLE, Zigbee, LoRa, NFC) ve firmware kaynaklarını bir araya getiren liste. Web odaklı güvenlik listelerinden farkı fiziksel cihazlara ve radyo katmanına odaklanması.",
+    "en": "A list for security research on IoT, embedded, industrial and automotive systems, gathering hardware attacks, wireless protocols (BLE, Zigbee, LoRa, NFC) and firmware resources. Unlike web-focused security lists it centres on physical devices and the radio layer.",
+    "src": "lowkwiki",
+    "added": 1792281600
+  },
+  {
+    "url": "https://ohshint.gitbook.io/oh-shint-its-a-blog",
+    "name": "Oh SHINT! It's a Blog",
+    "tags": [
+      "osint",
+      "awesome-liste",
+      "ücretsiz"
+    ],
+    "tr": "OSINT için web kaynakları ve araç listeleri ile blog yazılarını bir GitBook'ta toplayan site; yılın yeni eklenen kaynaklarını ayrı sayfada veriyor. Tek bir çerçeve sayfasından farkı konuya göre ayrılmış çok sayıda alt listesi olması; son güncelleme 2024.",
+    "en": "A GitBook site gathering OSINT web-resource and tool lists plus blog posts, with a separate page of newly added resources per year. Unlike a single framework page it has many topic-specific sub-lists; last updated in 2024.",
+    "src": "lowkwiki",
+    "added": 1792281600
+  },
+  {
+    "url": "https://github.com/frangelbarrera/OSINT-BIBLE",
+    "name": "OSINT Bible",
+    "tags": [
+      "osint",
+      "awesome-liste",
+      "ücretsiz"
+    ],
+    "tr": "450'den fazla aracı, yöntemi ve etik-hukuk notunu 35 bölümde toplayan OSINT rehberi; bağlantı denetim raporu da yayımlıyor. Salt araç listelerinden farkı dört adımlı bir araştırma metodolojisi ve yasal çerçeve bölümlerini de içermesi.",
+    "en": "An OSINT guide of 450+ tools, methods and ethics/legal notes across 35 sections, which also publishes a link-audit report. Unlike pure tool lists it adds a four-step research methodology and legal-framework sections.",
+    "src": "lowkwiki",
+    "added": 1792281600
+  },
+  {
+    "url": "https://wigle.net",
+    "name": "WiGLE",
+    "tags": [
+      "osint",
+      "ağ",
+      "ücretsiz",
+      "veri-seti"
+    ],
+    "tr": "Gönüllülerce toplanan dünya çapındaki Wi-Fi, Bluetooth ve baz istasyonu gözlemlerinin harita ve arama arayüzü. Coğrafi IP servislerinden farkı kablosuz erişim noktalarını konum verisiyle indekslemesi.",
+    "en": "Map and search interface for volunteer-collected worldwide Wi-Fi, Bluetooth and cell-tower observations. Unlike IP geolocation services, it indexes wireless access points with location data.",
+    "src": "lowkwiki",
+    "added": 1792281600
+  },
+  {
+    "url": "https://github.com/0xor0ne/awesome-list",
+    "name": "Awesome Cybersecurity List",
+    "tags": [
+      "awesome-liste",
+      "referans",
+      "güvenlik",
+      "ücretsiz"
+    ],
+    "tr": "Siber güvenlik blog yazıları, write-up ve makalelerin yıla göre dizilmiş arşivi; 2026 girdileri de var. Araç listelerinden farkı bağlantıların alet değil okunacak teknik analiz olması (exploit zincirleri, CVE incelemeleri); araçlar ayrı bir dosyada.",
+    "en": "A year-by-year archive of cybersecurity blog posts, write-ups and papers, with entries up to 2026. Unlike tool lists the links are technical analyses to read (exploit chains, CVE write-ups); tools sit in a separate file.",
+    "src": "lowkwiki",
+    "added": 1792281600
+  },
+  {
+    "url": "https://github.com/ITI/ICS-Security-Tools",
+    "name": "ICS Security Tools",
+    "tags": [
+      "referans",
+      "güvenlik",
+      "ağ",
+      "ücretsiz"
+    ],
+    "tr": "Endüstriyel kontrol sistemleri (ICS/SCADA) güvenliği için araçlar, protokol notları, pcap örnekleri, yapılandırmalar ve rehberler. Genel güvenlik listelerinden farkı yalnızca OT/ICS ortamına odaklanması; pcap ve protokol malzemesi de içeriyor. Son güncelleme 2025.",
+    "en": "Tools, protocol notes, sample pcaps, configurations and guides for industrial control system (ICS/SCADA) security. Unlike general security lists it covers only OT/ICS environments, and includes packet captures and protocol material. Last updated 2025.",
+    "src": "lowkwiki",
+    "added": 1792281600
   }
 ]

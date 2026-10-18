@@ -723,5 +723,59 @@
     "en": "A Turkish sysadmin community and article archive with real depth on Active Directory, Exchange and virtualisation. Unlike official English docs such as Microsoft Learn, it covers local scenarios in Turkish, from the field.",
     "src": "kedi",
     "added": 1785150796
+  },
+  {
+    "url": "https://www.submarinecablemap.com/",
+    "name": "Submarine Cable Map",
+    "tags": [
+      "ağ",
+      "interaktif",
+      "ücretsiz"
+    ],
+    "tr": "TeleGeography'nin dünyadaki denizaltı internet kablolarını, iniş noktalarını ve işleten şirketleri gösteren etkileşimli haritası. Genel ağ haritalarından farkı, internetin fiziksel omurgasını kablo kablo izlenebilir kılmasıdır.",
+    "en": "TeleGeography's interactive map of the world's submarine internet cables, landing points and owners. Unlike generic network maps it makes the physical backbone of the internet traceable cable by cable.",
+    "src": "lowkwiki",
+    "added": 1792281600
+  },
+  {
+    "url": "https://fed.brid.gy",
+    "name": "Bridgy Fed",
+    "tags": [
+      "açık-kaynak",
+      "api",
+      "self-hosted",
+      "ücretsiz"
+    ],
+    "tr": "Web siteleri, fediverse (Mastodon vb.) ve Bluesky/AT Protocol arasında köprü kuran servis; hesabını kaybetmeden ağlar arası takip ve yanıt sağlar. Tek ağa bağlı istemcilerden farkı protokolleri birbirine çevirmesi.",
+    "en": "A service that bridges websites, the fediverse (Mastodon etc.) and Bluesky/AT Protocol so accounts can follow and reply across networks. Unlike single-network clients, it translates between the protocols themselves.",
+    "src": "lowkwiki",
+    "added": 1792281600
+  },
+  {
+    "url": "https://openinframap.org",
+    "name": "OpenInfraMap",
+    "tags": [
+      "interaktif",
+      "açık-kaynak",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "OpenStreetMap verisinden elektrik hatları, santraller, petrol/gaz boru hatları ve telekom altyapısını çizen harita. Genel haritalardan farkı altyapıya özel katmanlar ve gerilim/kapasite ayrıntısı.",
+    "en": "A map rendering power lines, plants, oil/gas pipelines and telecom infrastructure from OpenStreetMap data. Unlike general maps, it has infrastructure-specific layers with voltage and capacity detail.",
+    "src": "lowkwiki",
+    "added": 1792281600
+  },
+  {
+    "url": "https://github.com/qmonnet/awesome-ebpf",
+    "name": "Awesome eBPF (qmonnet)",
+    "tags": [
+      "awesome-liste",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "eBPF ile ilgili projeler, makaleler ve araçlar için liste; derleyici, izleme ve ağ (XDP) projeleri ayrı başlıklarda. Dizindeki diğer eBPF listesinden farkı bakımının sürmesi ve eBPF dokümantasyonu yazan birinin elinden çıkması.",
+    "en": "A list of eBPF projects, articles and tools, with compilers, tracing and networking (XDP) under separate headings. Unlike the other eBPF list already in the directory it is still being updated, and is kept by someone who writes eBPF documentation.",
+    "src": "lowkwiki",
+    "added": 1792281600
   }
 ]

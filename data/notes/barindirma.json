@@ -751,5 +751,61 @@
     "tr": "Kendi sunucunu tek tıkla uygulama kuran bir işletim sistemine çeviren proje. El ile Docker kurmaktan farkı yönetimi soyutlaması: kullanıcı, alan adı ve yedeği tek panelden yönetiyorsun, katalogdaki uygulamalar tek komutla geliyor.",
     "en": "A project that turns your own server into an operating system with one-click app installs. Unlike setting up Docker by hand it abstracts the admin: you manage users, domains and backups from one panel, and catalog apps install in a single step.",
     "src": "lowkwiki"
+  },
+  {
+    "url": "https://www.mediawiki.org/wiki/MediaWiki",
+    "name": "MediaWiki",
+    "tags": [
+      "açık-kaynak",
+      "self-hosted",
+      "php",
+      "ücretsiz"
+    ],
+    "tr": "Vikipedi'nin de üzerinde çalıştığı wiki yazılımının resmi sayfası; kurulum, yapılandırma, eklenti ve API belgeleri burada. Kendi sunucusunda bilgi tabanı kurmak isteyenler için en yaygın ve olgun wiki motoru olmasıyla ayrılır.",
+    "en": "The official home of the wiki software that runs Wikipedia, with installation, configuration, extension and API documentation. It stands out as the most widely used and mature wiki engine for people who want to run their own knowledge base.",
+    "src": "lowkwiki",
+    "added": 1792281600
+  },
+  {
+    "url": "https://apps.yunohost.org",
+    "name": "YunoHost App Store",
+    "tags": [
+      "self-hosted",
+      "açık-kaynak",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "YunoHost için tek tıkla kurulabilen uygulamaların kataloğu; kalite ve bakım düzeyine göre derecelendirilmiş. awesome-selfhosted'dan farkı, listelenen her uygulamanın YunoHost'ta hazır paketlenmiş olması.",
+    "en": "Catalogue of apps installable in one click on YunoHost, graded by packaging quality and upkeep. Unlike awesome-selfhosted, every listed app already has a ready YunoHost package.",
+    "src": "lowkwiki",
+    "added": 1792281600
+  },
+  {
+    "url": "https://spacebar.chat",
+    "name": "Spacebar",
+    "tags": [
+      "açık-kaynak",
+      "self-hosted",
+      "sunucu",
+      "ücretsiz"
+    ],
+    "tr": "Discord'un arka uç ve arayüzünü yeniden uygulayan, kendi sunucunda barındırılabilen sohbet platformu. Matrix veya Rocket.Chat'ten farkı Discord API'si ile uyumlu olması.",
+    "en": "A self-hostable chat platform reimplementing Discord's backend and frontend. Unlike Matrix or Rocket.Chat, it stays compatible with Discord's own API.",
+    "src": "lowkwiki",
+    "added": 1792281600
+  },
+  {
+    "url": "https://github.com/mikeroyal/Self-Hosting-Guide",
+    "name": "Self-Hosting Guide",
+    "tags": [
+      "öğretici",
+      "self-hosted",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Kendi sunucunda barındırmayı (ev ve bulut) anlatan, yazılım ve araç bağlantılarıyla dolu büyük rehber. awesome-selfhosted'dan farkı yalnız uygulama listesi değil, kurulum ve altyapı konularını da kapsaması.",
+    "en": "A large guide to hosting your own services (home and cloud), packed with software and tool links. Unlike awesome-selfhosted it covers setup and infrastructure topics, not only an app list.",
+    "src": "lowkwiki",
+    "added": 1792281600
   }
 ]

@@ -508,5 +508,18 @@
     "tr": "Rust için en yaygın asenkron çalışma zamanı; ağ servisleri bunun üstüne kurulur. Standart kütüphaneden farkı yüksek eşzamanlı G/Ç için zamanlayıcı, görev ve araçları getirmesi.",
     "en": "The most widely used asynchronous runtime for Rust; network services build on it. Unlike the standard library it brings a scheduler, tasks and tooling for highly concurrent I/O.",
     "src": "kedi"
+  },
+  {
+    "url": "https://beej.us/guide/",
+    "name": "Beej's Guides",
+    "tags": [
+      "kitap",
+      "c-ailesi",
+      "ücretsiz"
+    ],
+    "tr": "C dili ve ağ programlama (soket) üzerine uzun yıllardır güncellenen, ücretsiz ve esprili kılavuzlar; HTML, PDF ve basılı biçimde sunuluyor. Resmî dokümanlardan farkı öğretici bir dille yazılmış olması.",
+    "en": "Long-maintained, free and witty guides to C and network (socket) programming, offered as HTML, PDF and print. Unlike reference documentation they are written in a teaching voice.",
+    "src": "lowkwiki",
+    "added": 1792281600
   }
 ]

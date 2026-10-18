@@ -944,5 +944,33 @@
         "a": "fiyat"
       }
     ]
+  },
+  {
+    "url": "https://floci.io/floci/",
+    "name": "Floci",
+    "tags": [
+      "açık-kaynak",
+      "docker",
+      "devops",
+      "ücretsiz"
+    ],
+    "tr": "Yerelde ve CI'da çalışan, hesap ya da token istemeyen AWS emülatörü; AWS SDK, CLI ve Terraform aynı 4566 portuna yönlendirilir. LocalStack'ten farkı, özellik kısıtı ve kimlik doğrulaması olmadan imaj değiştirerek yerine geçmeyi hedeflemesidir.",
+    "en": "A local AWS emulator for development and CI that needs no account or token; the AWS SDK, CLI and Terraform simply point at port 4566. Its difference from LocalStack is that it aims to be a drop-in image swap without feature gates or authentication.",
+    "src": "lowkwiki",
+    "added": 1792281600
+  },
+  {
+    "url": "https://labs.iximiuz.com/",
+    "name": "iximiuz Labs",
+    "tags": [
+      "öğretici",
+      "docker",
+      "interaktif",
+      "freemium"
+    ],
+    "tr": "Linux, konteyner, Kubernetes ve ağ konularını tarayıcıdaki gerçek sanal makinelerde uygulamalı öğreten laboratuvarlar ve meydan okumalar. Yalnız anlatan yazılardan farkı her dersin çalışan bir ortamla gelmesi.",
+    "en": "Hands-on labs and challenges teaching Linux, containers, Kubernetes and networking in real VMs inside the browser. Unlike articles that only explain, each lesson comes with a running environment.",
+    "src": "lowkwiki",
+    "added": 1792281600
   }
 ]

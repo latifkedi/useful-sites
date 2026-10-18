@@ -460,5 +460,60 @@
     "en": "Turkey’s data-protection authority: Law No. 6698, Board decisions, guidance and the data-breach notifications it publishes. Unlike guides to privacy tools it is the regulator itself, where you see what companies are obliged to do and which breaches were reported.",
     "src": "bosluk",
     "added": 1792281600
+  },
+  {
+    "url": "https://digital-defense.io/",
+    "name": "Digital Defense (Personal Security Checklist)",
+    "tags": [
+      "gizlilik",
+      "güvenlik",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "300'den fazla maddelik, kategorilere ayrılmış kişisel dijital güvenlik kontrol listesi; her maddenin yanında önerilen araç ve ayarlar bulunur. Tek bir aracı değil, parolalardan mesajlaşmaya kadar tüm güvenlik alışkanlıklarını kapsayan açık kaynaklı bir denetim listesi olması onu ayırır.",
+    "en": "A categorised personal digital-security checklist of 300+ items, each with recommended tools and settings. Rather than reviewing one tool it covers the whole set of habits, from passwords to messaging, as an open-source audit list.",
+    "src": "lowkwiki",
+    "added": 1792281600
+  },
+  {
+    "url": "https://www.ghostery.com/whotracksme",
+    "name": "WhoTracks.me",
+    "tags": [
+      "gizlilik",
+      "veri-seti",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Web sitelerindeki ve izleyici şirketlerdeki takibin yaygınlığını aylık ölçümlerle gösteren Ghostery verisi; hangi sitede hangi izleyicilerin çalıştığı aranabilir. Eklenti panellerinden farkı, ham verisi açık veri olarak indirilebilen uzun soluklu bir ölçüm arşivi olmasıdır.",
+    "en": "Ghostery's monthly measurements of how widespread tracking is across websites and tracker companies; you can look up which trackers run on which site. Unlike an extension dashboard it is a long-running measurement archive whose raw data can be downloaded as open data.",
+    "src": "lowkwiki",
+    "added": 1792281600
+  },
+  {
+    "url": "https://ssd.eff.org/",
+    "name": "Surveillance Self-Defense",
+    "tags": [
+      "gizlilik",
+      "öğretici",
+      "ücretsiz"
+    ],
+    "tr": "Electronic Frontier Foundation'ın gözetime karşı iletişim ve cihaz güvenliği rehberi; tehdit modeli çıkarmaktan şifreli mesajlaşmaya kadar adım adım kılavuzlar içerir. Araç listelerinden farkı, önce kime karşı korunulduğunu sorgulatan öğretici yaklaşımıdır.",
+    "en": "The Electronic Frontier Foundation's guide to protecting communications and devices against surveillance, from building a threat model to encrypted messaging, as step-by-step guides. Unlike tool lists it first makes you ask who you are protecting against.",
+    "src": "lowkwiki",
+    "added": 1792281600
+  },
+  {
+    "url": "https://prism-break.org/en/all/",
+    "name": "PRISM Break",
+    "tags": [
+      "gizlilik",
+      "referans",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Gözetim yapan hizmetlere karşı platform ve kategoriye göre özgür, gizliliğe saygılı alternatifleri listeleyen katalog. Genel yazılım alternatifi sitelerinden farkı, ölçütünün yalnızca gizlilik ve açık kaynak olmasıdır.",
+    "en": "A catalogue of free, privacy-respecting alternatives to surveillance-prone services, organised by platform and category. Unlike general software-alternative sites, its only criteria are privacy and open source.",
+    "src": "lowkwiki",
+    "added": 1792281600
   }
 ]
