@@ -650,7 +650,7 @@ function readShelf(){
 var shelf = readShelf();
 /* Baska sekme kaydettiyse onun yazdigini ez(me): her degisiklikten once diskten tazele. */
 function freshShelf(){ shelf = readShelf() }
-window.addEventListener("storage", function(e){
+if(window.addEventListener) window.addEventListener("storage", function(e){
   if(e.key !== SHELF_KEY) return;
   freshShelf();
   if(typeof paintSavedBtn === "function") paintSavedBtn();
