@@ -7,6 +7,34 @@
 <id>https://latifkedi.github.io/useful-sites/feed/backend.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
 <entry>
+  <title>Enable CORS</title>
+  <link href="https://enable-cors.org/"/>
+  <id>https://enable-cors.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>CORS'u (kaynaklar arası paylaşım) Apache, nginx, Node, IIS gibi onlarca sunucu ve çatı için kopyalanabilir yapılandırmalarla anlatan küçük başvuru sitesi. Genel HTTP belgelerinden farkı, 'şu sunucuda CORS nasıl açılır' sorusuna doğrudan yanıt vermesi.</summary>
+</entry>
+<entry>
+  <title>HTTPie</title>
+  <link href="https://httpie.io/"/>
+  <id>https://httpie.io/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>curl'e okunaklı bir alternatif: renkli JSON çıktısı ve basit söz dizimiyle HTTP istekleri gönderir. curl'den farkı, yaygın API isteklerini çok daha az karakterle yazdırması; masaüstü ve web uygulamaları da var, bazıları hesap ister.</summary>
+</entry>
+<entry>
+  <title>Hurl</title>
+  <link href="https://hurl.dev/"/>
+  <id>https://hurl.dev/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>HTTP isteklerini ve beklenen yanıtları (durum, JSONPath, XPath, başlık) düz metin dosyasında yazıp çalıştıran, CI'da test olarak kullanılabilen komut satırı aracı. Postman koleksiyonlarının aksine dosyalar git içinde okunabilir kalır.</summary>
+</entry>
+<entry>
+  <title>The C10K problem</title>
+  <link href="https://www.kegel.com/c10k.html"/>
+  <id>https://www.kegel.com/c10k.html</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Tek bir sunucunun on bin eşzamanlı bağlantıyı nasıl kaldırabileceğini (select/poll, epoll, iş parçacığı modelleri, çekirdek desteği) anlatan klasik makale. Modern olay döngüsü ve async sunucuların neden o şekilde tasarlandığını tarihsel olarak açıklaması değerli. Modern async çerçevelerin belgelerinden farklı olarak tasarımın tarihsel nedenini anlatır.</summary>
+</entry>
+<entry>
   <title>Wasmer</title>
   <link href="https://wasmer.io/"/>
   <id>https://wasmer.io/</id>
@@ -257,33 +285,5 @@
   <id>https://martinfowler.com/architecture/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>Yazılım mimarisi üzerine Martin Fowler’ın kanonik makale ve kalıp derlemesi. Dağınık bloglardan farkı mikroservis, event sourcing gibi kavramların en çok atıf alan tanımını vermesi.</summary>
-</entry>
-<entry>
-  <title>Webhook.site</title>
-  <link href="https://webhook.site/"/>
-  <id>https://webhook.site/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Anında bir URL veriyor ve o adrese gelen istekleri başlıklarıyla birlikte gösteriyor. Yerel sunucu açıp tünellemekten farkı sıfır kurulum — bir webhook’un gerçekten ne gönderdiğini görmek için en kısa yol.</summary>
-</entry>
-<entry>
-  <title>Stripe</title>
-  <link href="https://stripe.com/"/>
-  <id>https://stripe.com/</id>
-  <updated>2026-07-29T07:58:07Z</updated>
-  <summary>Ödeme altyapısı; dokümantasyonu sektörde ölçüt kabul ediliyor — test kartları, webhook yeniden deneme mantığı ve idempotency anahtarları örneklerle anlatılmış. iyzico gibi yerel sağlayıcılardan farkı bu belge kalitesi; ancak Türkiye’de kurulu şirketlere açık değil.</summary>
-</entry>
-<entry>
-  <title>GraphQL</title>
-  <link href="https://graphql.org/"/>
-  <id>https://graphql.org/</id>
-  <updated>2026-07-26T09:58:27Z</updated>
-  <summary>İstemci hangi alanları istediğini kendi belirtiyor; fazla veri çekme ve az veri çekme sorunu şema düzeyinde çözülüyor. Bedeli önbellekleme ve hız sınırlamanın REST’ten zor olması.</summary>
-</entry>
-<entry>
-  <title>Refactoring Guru</title>
-  <link href="https://refactoring.guru/"/>
-  <id>https://refactoring.guru/</id>
-  <updated>2026-05-11T15:32:43Z</updated>
-  <summary>Her tasarım desenini şema, gerçekçi örnek ve kod olarak veriyor — üstelik altı ayrı dilde. Gang of Four kitabından farkı, aynı desenleri okunması güç bir metin yerine erişilebilir bir anlatımla sunması.</summary>
 </entry>
 </feed>

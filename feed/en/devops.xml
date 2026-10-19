@@ -7,6 +7,20 @@
 <id>https://latifkedi.github.io/useful-sites/feed/en/devops.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
 <entry>
+  <title>Certbot</title>
+  <link href="https://certbot.eff.org/"/>
+  <id>https://certbot.eff.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>The EFF client that obtains and renews Let's Encrypt certificates; the site gives exact commands once you pick your web server and OS. Unlike lightweight clients such as acme.sh, it can edit nginx and Apache configuration itself.</summary>
+</entry>
+<entry>
+  <title>Flame Graphs</title>
+  <link href="https://www.brendangregg.com/flamegraphs.html"/>
+  <id>https://www.brendangregg.com/flamegraphs.html</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Brendan Gregg's page on the flame graph visualisation: how to read one, the CPU/memory/off-CPU variants, generation tools and talks. You learn from its creator how to show profiler output as a stack tree instead of a flat list.</summary>
+</entry>
+<entry>
   <title>Floci</title>
   <link href="https://floci.io/floci/"/>
   <id>https://floci.io/floci/</id>
@@ -19,6 +33,27 @@
   <id>https://labs.iximiuz.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
   <summary>Hands-on labs and challenges teaching Linux, containers, Kubernetes and networking in real VMs inside the browser. Unlike articles that only explain, each lesson comes with a running environment.</summary>
+</entry>
+<entry>
+  <title>Kubernetes Production Best Practices</title>
+  <link href="https://learnkube.com/production-best-practices"/>
+  <id>https://learnkube.com/production-best-practices</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A checklist to review before running Kubernetes in production: resource limits, health checks, networking, security and observability. Unlike general tutorials it is framed as 'check this before going live'.</summary>
+</entry>
+<entry>
+  <title>Kubernetes The Hard Way</title>
+  <link href="https://github.com/kelseyhightower/kubernetes-the-hard-way"/>
+  <id>https://github.com/kelseyhightower/kubernetes-the-hard-way</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Kelsey Hightower's guide to bootstrapping a Kubernetes cluster by hand, component by component, without automation. It exposes the certificates, etcd and API server details that installers hide, making it the standard route to understanding cluster internals. It differs from installers by showing the steps they hide.</summary>
+</entry>
+<entry>
+  <title>post-mortems</title>
+  <link href="https://github.com/danluu/post-mortems"/>
+  <id>https://github.com/danluu/post-mortems</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A collection of real post-mortems of outages and system failures published by companies. Unlike general DevOps lists it focuses only on incident write-ups, useful for learning from failures and for interviews.</summary>
 </entry>
 <entry>
   <title>Ansible</title>
@@ -250,40 +285,5 @@
   <id>https://njal.la/</id>
   <updated>2026-08-19T16:10:10Z</updated>
   <summary>Registers the domain in its own name on your behalf, so you do not appear in WHOIS. Unlike a privacy proxy the legal ownership sits with them, which makes it a question of trust.</summary>
-</entry>
-<entry>
-  <title>AlexHost</title>
-  <link href="https://alexhost.com/"/>
-  <id>https://alexhost.com/</id>
-  <updated>2026-08-19T16:10:01Z</updated>
-  <summary>Moldova-based hosting chosen for a different jurisdiction and looser content policy — which also raises the question of who your neighbours are.</summary>
-</entry>
-<entry>
-  <title>AvenaCloud</title>
-  <link href="https://avenacloud.com/"/>
-  <id>https://avenacloud.com/</id>
-  <updated>2026-08-19T16:09:22Z</updated>
-  <summary>A VPS and dedicated server provider. Compared with the big clouds it is budget-focused with a narrow range of managed services — for small-scale projects.</summary>
-</entry>
-<entry>
-  <title>Amazon Web Services</title>
-  <link href="https://aws.amazon.com/"/>
-  <id>https://aws.amazon.com/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The cloud with the widest service range. Compared with Azure and Google Cloud the breadth is an advantage, but cost tracking is its own discipline — egress charges in particular catch people out.</summary>
-</entry>
-<entry>
-  <title>Apache Airflow</title>
-  <link href="https://airflow.apache.org/"/>
-  <id>https://airflow.apache.org/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An orchestrator scheduling data pipelines as Python-defined directed graphs (DAGs). Unlike cron it offers dependencies, retries and visibility into historical runs.</summary>
-</entry>
-<entry>
-  <title>Coder</title>
-  <link href="https://coder.com"/>
-  <id>https://coder.com</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Runs development environments as containers on your own infrastructure, reached from a VS Code or JetBrains client. Against GitHub Codespaces it is not tied to a cloud provider — both the compute and the code stay with you.</summary>
 </entry>
 </feed>

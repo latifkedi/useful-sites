@@ -7,6 +7,34 @@
 <id>https://latifkedi.github.io/useful-sites/feed/en/backend.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
 <entry>
+  <title>Enable CORS</title>
+  <link href="https://enable-cors.org/"/>
+  <id>https://enable-cors.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A small reference site that explains CORS with copy-paste configurations for dozens of servers and frameworks (Apache, nginx, Node, IIS and more). Unlike general HTTP docs it answers the narrow question of how to turn CORS on for a given server.</summary>
+</entry>
+<entry>
+  <title>HTTPie</title>
+  <link href="https://httpie.io/"/>
+  <id>https://httpie.io/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A readable alternative to curl that sends HTTP requests with coloured JSON output and a simple syntax. Unlike curl it needs far fewer characters for typical API calls; desktop and web apps exist too, and some of those ask for an account.</summary>
+</entry>
+<entry>
+  <title>Hurl</title>
+  <link href="https://hurl.dev/"/>
+  <id>https://hurl.dev/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A command-line tool that runs HTTP requests and checks their responses (status, JSONPath, XPath, headers) from plain-text files, usable as tests in CI. Unlike Postman collections the files stay readable in git.</summary>
+</entry>
+<entry>
+  <title>The C10K problem</title>
+  <link href="https://www.kegel.com/c10k.html"/>
+  <id>https://www.kegel.com/c10k.html</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>The classic article on how one server can handle ten thousand concurrent connections (select/poll, epoll, threading models, kernel support). It explains historically why modern event-loop and async servers are designed the way they are. Unlike the docs of modern async frameworks, it explains the historical reason for the design.</summary>
+</entry>
+<entry>
   <title>Wasmer</title>
   <link href="https://wasmer.io/"/>
   <id>https://wasmer.io/</id>
@@ -257,33 +285,5 @@
   <id>https://martinfowler.com/architecture/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>Martin Fowler’s canonical collection of essays and patterns on software architecture. Unlike scattered blogs it gives the most-cited definition of concepts like microservices and event sourcing.</summary>
-</entry>
-<entry>
-  <title>Webhook.site</title>
-  <link href="https://webhook.site/"/>
-  <id>https://webhook.site/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Hands you a URL instantly and shows every request that arrives, headers included. Against running a local server behind a tunnel it needs no setup — the shortest way to see what a webhook actually sends.</summary>
-</entry>
-<entry>
-  <title>Stripe</title>
-  <link href="https://stripe.com/"/>
-  <id>https://stripe.com/</id>
-  <updated>2026-07-29T07:58:07Z</updated>
-  <summary>Payment infrastructure whose documentation is an industry benchmark — test cards, webhook retry logic and idempotency keys worked through with examples. Unlike local providers such as iyzico it has that documentation quality, but it is not available to companies based in Turkey.</summary>
-</entry>
-<entry>
-  <title>GraphQL</title>
-  <link href="https://graphql.org/"/>
-  <id>https://graphql.org/</id>
-  <updated>2026-07-26T09:58:27Z</updated>
-  <summary>The client declares which fields it wants, so over- and under-fetching are solved at the schema level. The cost is that caching and rate limiting get harder than in REST.</summary>
-</entry>
-<entry>
-  <title>Refactoring Guru</title>
-  <link href="https://refactoring.guru/"/>
-  <id>https://refactoring.guru/</id>
-  <updated>2026-05-11T15:32:43Z</updated>
-  <summary>Presents each design pattern as a diagram, a realistic scenario and code — in six languages. Unlike the Gang of Four book, it covers the same patterns in accessible prose rather than a difficult text.</summary>
 </entry>
 </feed>

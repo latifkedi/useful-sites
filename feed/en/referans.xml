@@ -7,6 +7,20 @@
 <id>https://latifkedi.github.io/useful-sites/feed/en/referans.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
 <entry>
+  <title>Bruce Barnett's Grymoire</title>
+  <link href="https://www.grymoire.com/"/>
+  <id>https://www.grymoire.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A long-standing site with detailed tutorials on Unix tools such as sed, awk, csh and regular expressions. Unlike short cheat sheets it walks through each tool in depth.</summary>
+</entry>
+<entry>
+  <title>Comprehensive Python Cheatsheet</title>
+  <link href="https://github.com/gto76/python-cheatsheet"/>
+  <id>https://github.com/gto76/python-cheatsheet</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A dense single-page summary of Python syntax, collections, the standard library and common modules. Unlike beginner tutorials it does not teach from scratch; it is written for people who know the language and need a quick reminder.</summary>
+</entry>
+<entry>
   <title>CTAN</title>
   <link href="https://ctan.org/"/>
   <id>https://ctan.org/</id>
@@ -21,6 +35,27 @@
   <summary>Draw the symbol you want with the mouse and it returns the matching LaTeX command and the package it needs. Unlike scanning a symbol table, it finds a sign from its shape when you do not know its name.</summary>
 </entry>
 <entry>
+  <title>Grymoire: AWK Tutorial</title>
+  <link href="https://www.grymoire.com/Unix/Awk.html"/>
+  <id>https://www.grymoire.com/Unix/Awk.html</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A long single-page AWK tutorial taught from scratch with examples. Unlike a man page, it walks through field separators, patterns and variables with small scripts. The site looks old but the content still holds.</summary>
+</entry>
+<entry>
+  <title>Grymoire: Grep Tutorial</title>
+  <link href="https://www.grymoire.com/Unix/Grep.html"/>
+  <id>https://www.grymoire.com/Unix/Grep.html</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A tutorial on grep, egrep and fgrep and regular expression syntax, with examples. Unlike the man page, it compares the escaping rules of basic and extended regular expressions explicitly.</summary>
+</entry>
+<entry>
+  <title>Grymoire: Sed Tutorial</title>
+  <link href="https://www.grymoire.com/Unix/Sed.html"/>
+  <id>https://www.grymoire.com/Unix/Sed.html</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A single-page sed tutorial built around addresses, commands and regular expressions. Unlike the man page, it also explains the confusing parts such as hold space.</summary>
+</entry>
+<entry>
   <title>iHateRegex</title>
   <link href="https://ihateregex.io/"/>
   <id>https://ihateregex.io/</id>
@@ -28,11 +63,53 @@
   <summary>A catalogue of commonly needed regular expressions (email, phone, dates, IP addresses), each with a diagram, an explanation and a place to try it. Unlike tester tools it hands you a ready, explained pattern instead of making you write one from scratch.</summary>
 </entry>
 <entry>
+  <title>Julia Evans' Drawings</title>
+  <link href="https://drawings.jvns.ca/"/>
+  <id>https://drawings.jvns.ca/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Julia Evans' page of drawings and zines that explain Linux, networking, debugging tools and systems concepts. Many drawings are free to read, and they give one-glance visual summaries instead of dense pages of text.</summary>
+</entry>
+<entry>
+  <title>OID Repository (Alvestrand)</title>
+  <link href="https://www.alvestrand.no/objectid/"/>
+  <id>https://www.alvestrand.no/objectid/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A browsable, searchable tree of object identifiers (OIDs), handy when decoding X.509 certificate fields. Against the large OID databases it is plain and fast, concentrating on the internet and certificate branches.</summary>
+</entry>
+<entry>
+  <title>OWASP Cheat Sheet Series</title>
+  <link href="https://cheatsheetseries.owasp.org/"/>
+  <id>https://cheatsheetseries.owasp.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Short, implementation-focused guides on application security topics such as authentication, injection prevention and session management. Unlike risk lists like the OWASP Top 10, it spends its pages on how to prevent a problem, not on describing it.</summary>
+</entry>
+<entry>
+  <title>PortSwigger XSS Cheat Sheet</title>
+  <link href="https://portswigger.net/web-security/cross-site-scripting/cheat-sheet"/>
+  <id>https://portswigger.net/web-security/cross-site-scripting/cheat-sheet</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A filterable list of XSS vectors by tag, event handler and browser. Unlike plain payload lists, it records which browsers and which user interaction each vector needs.</summary>
+</entry>
+<entry>
+  <title>Pure sh Bible</title>
+  <link href="https://github.com/dylanaraps/pure-sh-bible"/>
+  <id>https://github.com/dylanaraps/pure-sh-bible</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A recipe collection for doing string, array, file and loop work in pure POSIX sh without calling external commands like sed, awk or cut. Unlike Bash-specific guides it sticks to POSIX, for portable and fast scripts.</summary>
+</entry>
+<entry>
   <title>TDK Güncel Türkçe Sözlük</title>
   <link href="https://sozluk.gov.tr/"/>
   <id>https://sozluk.gov.tr/</id>
   <updated>2026-10-18T00:00:00Z</updated>
   <summary>The Turkish Language Association’s dictionaries behind one search box: the current Turkish dictionary, the spelling guide, proverbs and terminology dictionaries. Unlike bilingual dictionaries such as Tureng it is monolingual and normative, the place to check how a word is spelt.</summary>
+</entry>
+<entry>
+  <title>The Art of Command Line</title>
+  <link href="https://github.com/jlevy/the-art-of-command-line"/>
+  <id>https://github.com/jlevy/the-art-of-command-line</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A compact collection of command-line tips split into everyday, advanced and situational sections, translated into dozens of languages. Unlike command references it is an ordered list of habits from beginner to expert.</summary>
 </entry>
 <entry>
   <title>The Book of Secret Knowledge</title>
@@ -47,6 +124,13 @@
   <id>https://tureng.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
   <summary>A Turkish–English online dictionary that groups translations by field (computing, law, medicine and so on) and gives pronunciations. Unlike the TDK dictionary it is bilingual and term-oriented, a quick way to find the Turkish equivalent a field uses for a technical English word.</summary>
+</entry>
+<entry>
+  <title>Unix Toolbox</title>
+  <link href="https://cb.vu/unixtoolbox.html"/>
+  <id>https://cb.vu/unixtoolbox.html</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A classic one-page reference to Unix/Linux administration commands: networking, filesystems, processes, SSH, security. It is searched with Ctrl+F rather than read like a book; its value is being a single, long-stable page.</summary>
 </entry>
 <entry>
   <title>Python Module of the Week</title>
@@ -201,89 +285,5 @@
   <id>https://vim.rtorr.com</id>
   <updated>2026-08-21T20:53:20Z</updated>
   <summary>A one-page list of Vim commands grouped by category, translated into a dozen languages. Unlike `vimtutor` it does not teach, it reminds — the tab you keep open during your second month of Vim.</summary>
-</entry>
-<entry>
-  <title>x86 Instruction Set Reference</title>
-  <link href="https://c9x.me/x86/"/>
-  <id>https://c9x.me/x86/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A searchable reference for the x86 instruction set with encoding, flags and pseudocode per instruction. Against Intel’s PDF manuals it is simply fast — you no longer open a 5,000-page document to check one opcode.</summary>
-</entry>
-<entry>
-  <title>Learn X in Y Minutes</title>
-  <link href="https://learnxinyminutes.com/"/>
-  <id>https://learnxinyminutes.com/</id>
-  <updated>2026-08-19T23:39:30Z</updated>
-  <summary>Introduces a language through a single annotated file. A quick crossover if you already know another language — you read only the syntax differences, not the concepts.</summary>
-</entry>
-<entry>
-  <title>DevDocs</title>
-  <link href="https://devdocs.io/"/>
-  <id>https://devdocs.io/</id>
-  <updated>2026-08-19T16:12:43Z</updated>
-  <summary>Gathers official documentation for hundreds of technologies in one interface, downloadable offline with instant search. Unlike visiting doc sites one by one, everything sits behind the same search box.</summary>
-</entry>
-<entry>
-  <title>Airbnb JavaScript Üslup Kılavuzu</title>
-  <link href="https://github.com/airbnb/javascript"/>
-  <id>https://github.com/airbnb/javascript</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The most widely adopted JavaScript style guide, installable directly as an ESLint config, with every rule shown as good and bad example code. Unlike Standard it explains rules with their reasoning and lets you customise them.</summary>
-</entry>
-<entry>
-  <title>cheat.sh</title>
-  <link href="https://github.com/chubin/cheat.sh"/>
-  <id>https://github.com/chubin/cheat.sh</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Pulls a cheat sheet from the terminal with `curl cheat.sh/command`. Unlike tldr it needs no install and answers programming-language questions too — without opening a browser or leaving your editor.</summary>
-</entry>
-<entry>
-  <title>Devhints</title>
-  <link href="https://devhints.io"/>
-  <id>https://devhints.io</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An archive of one-page cheat sheets for hundreds of tools and languages. Unlike official docs, each is genuinely pruned to fit a single screen.</summary>
-</entry>
-<entry>
-  <title>Google C# Üslup Kılavuzu</title>
-  <link href="https://google.github.io/styleguide/csharp-style.html"/>
-  <id>https://google.github.io/styleguide/csharp-style.html</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Naming and layout rules for C#, shorter and more prescriptive than Microsoft’s own guide.</summary>
-</entry>
-<entry>
-  <title>Google C++ Üslup Kılavuzu</title>
-  <link href="https://google.github.io/styleguide/cppguide.html"/>
-  <id>https://google.github.io/styleguide/cppguide.html</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Google’s C++ rules; some are contested, the ban on exceptions for one. Unlike other style guides every rule carries its reasoning, which makes it a good base for writing your own.</summary>
-</entry>
-<entry>
-  <title>Google Java Üslup Kılavuzu</title>
-  <link href="https://google.github.io/styleguide/javaguide.html"/>
-  <id>https://google.github.io/styleguide/javaguide.html</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Formatting and naming rules for Java. Unlike Oracle’s old Java code conventions it is current and tool-enforced — google-java-format implements this document directly.</summary>
-</entry>
-<entry>
-  <title>Google Python Üslup Kılavuzu</title>
-  <link href="https://google.github.io/styleguide/pyguide.html"/>
-  <id>https://google.github.io/styleguide/pyguide.html</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A Python style guide. Unlike PEP 8 alone it adds Google’s rules on top — docstring format, import ordering, type-hint usage — aimed at consistency in large codebases.</summary>
-</entry>
-<entry>
-  <title>Hata Nasıl Bildirilir</title>
-  <link href="https://www.chiark.greenend.org.uk/~sgtatham/bugs.html"/>
-  <id>https://www.chiark.greenend.org.uk/~sgtatham/bugs.html</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The classic text on writing an effective bug report, from PuTTY’s author. Unlike project issue templates it explains why each detail is needed — a short piece worth reading once by anyone contributing to open source.</summary>
-</entry>
-<entry>
-  <title>JavaScript Standard Style</title>
-  <link href="https://standardjs.com"/>
-  <id>https://standardjs.com</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A JavaScript formatter and linter with no configuration file — it makes every decision for you to end the argument. Unlike the Airbnb guide, it is closed to customisation.</summary>
 </entry>
 </feed>

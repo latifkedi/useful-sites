@@ -5,7 +5,21 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/en/diller.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/diller.xml</id>
-<updated>2026-10-09T09:00:00Z</updated>
+<updated>2026-10-18T00:00:00Z</updated>
+<entry>
+  <title>A Guide to Python's Magic Methods</title>
+  <link href="https://rszalski.github.io/magicmethods/"/>
+  <id>https://rszalski.github.io/magicmethods/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A classic guide that groups and explains Python's special (dunder) methods such as __init__, __getattr__ and __enter__ with examples. Unlike the language reference it shows how and when to use each group.</summary>
+</entry>
+<entry>
+  <title>wtfpython</title>
+  <link href="https://github.com/satwikkansal/wtfpython"/>
+  <id>https://github.com/satwikkansal/wtfpython</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A collection of surprising and counter-intuitive Python behaviours, each as a short snippet with an explanation. Unlike standard tutorials it teaches by letting you fall into the trap first and then see why.</summary>
+</entry>
 <entry>
   <title>Facts and Myths about Python Names and Values</title>
   <link href="https://nedbatchelder.com/text/names.html"/>
@@ -271,19 +285,5 @@
   <id>https://craftinginterpreters.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>A free book that has you write a language twice — a tree-walking interpreter in Java, then a bytecode VM in C. Unlike theoretical compiler textbooks it makes you write every line; one of the clearest treatments in the field.</summary>
-</entry>
-<entry>
-  <title>Hitchhiker’s Guide to Python</title>
-  <link href="https://docs.python-guide.org/writing/style/"/>
-  <id>https://docs.python-guide.org/writing/style/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A community guide to Python style, project layout and tooling. Unlike the language reference it covers the “how it is written” part: idiomatic code, packaging, testing.</summary>
-</entry>
-<entry>
-  <title>kudvenkat</title>
-  <link href="https://www.youtube.com/user/kudvenkat/"/>
-  <id>https://www.youtube.com/user/kudvenkat/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Long, orderly lecture series on .NET, C# and SQL Server. Against short tutorials each series advances like a syllabus — for learning the enterprise .NET stack from nothing.</summary>
 </entry>
 </feed>

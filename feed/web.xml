@@ -7,6 +7,27 @@
 <id>https://latifkedi.github.io/useful-sites/feed/web.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
 <entry>
+  <title>Front-End Checklist</title>
+  <link href="https://github.com/thedaviddias/Front-End-Checklist"/>
+  <id>https://github.com/thedaviddias/Front-End-Checklist</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Bir web sayfasını yayına almadan önce HTML, CSS, JS, erişilebilirlik, performans ve SEO için denetlenecek maddeleri öncelik etiketleriyle listeler. Genel rehberlerden farkı, işaretlenebilir ve önceliklendirilmiş kontrol listesi olması.</summary>
+</entry>
+<entry>
+  <title>Mozilla Web Security Guidelines</title>
+  <link href="https://infosec.mozilla.org/guidelines/web_security.html"/>
+  <id>https://infosec.mozilla.org/guidelines/web_security.html</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Mozilla'nın web sitelerine önerdiği güvenlik başlıkları ve ayarları: CSP, HSTS, çerez bayrakları, CORS, SRI. Her ayar için öncelik ve örnek yapılandırma verdiği için genel güvenlik yazılarından daha uygulanabilir.</summary>
+</entry>
+<entry>
+  <title>NGINX Config Generator (nginxconfig.io)</title>
+  <link href="https://www.digitalocean.com/community/tools/nginx"/>
+  <id>https://www.digitalocean.com/community/tools/nginx</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Alan adı, PHP/Node, güvenlik ve performans seçeneklerini işaretleyerek hazır bir NGINX yapılandırması üreten arayüz. Örnek yapılandırma kopyalamaya göre en iyi uygulama ayarlarını (TLS, başlıklar, gzip) otomatik ekliyor.</summary>
+</entry>
+<entry>
   <title>Protomaps</title>
   <link href="https://protomaps.com/"/>
   <id>https://protomaps.com/</id>
@@ -40,6 +61,13 @@
   <id>https://webassembly.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
   <summary>WebAssembly standardının resmî sitesi: belirtimler, kavramlara giriş ve hangi önerinin hangi tarayıcı ve çalışma ortamında desteklendiğini gösteren özellik tablosu. MDN’in WebAssembly sayfalarından farkı JavaScript tarafından değil, standardın kendisinden ve çalışma ortamlarının durumundan bakması.</summary>
+</entry>
+<entry>
+  <title>webhint</title>
+  <link href="https://webhint.io/"/>
+  <id>https://webhint.io/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Bir sitenin erişilebilirlik, hız, güvenlik ve uyumluluk sorunlarını tarayan, her kuralı açıklayan açık kaynak linter; çevrimiçi tarama, CLI ve VS Code eklentisi olarak çalışıyor. Lighthouse'tan farkı kural başına ayrıntılı dokümantasyon sunması ve yapılandırılabilir olması.</summary>
 </entry>
 <entry>
   <title>ni</title>
@@ -257,33 +285,5 @@
   <id>https://web.dev/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Google’ın web kalitesi (performans, erişilebilirlik, PWA) rehberleri ve ölçüm araçları. MDN’den farkı referans değil rehber olması: Core Web Vitals gibi ölçütleri ve nasıl iyileştirileceklerini anlatıyor.</summary>
-</entry>
-<entry>
-  <title>WordPress</title>
-  <link href="https://www.wordpress.org/"/>
-  <id>https://www.wordpress.org/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Web’in büyük bölümünü çalıştıran açık kaynak blog ve içerik yönetim sistemi; burası kendin kuracağın yazılım, WordPress.com barındırma hizmeti değil. Statik site üreteçlerinden farkı yönetim paneli ve dev eklenti ekosistemi; karşılığında bakım ve güvenlik güncellemesi yükü.</summary>
-</entry>
-<entry>
-  <title>Docusaurus</title>
-  <link href="https://docusaurus.io/"/>
-  <id>https://docusaurus.io/</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>Meta’nın React tabanlı dokümantasyon sitesi üreticisi; sürümleme ve çeviri yerleşik geliyor. Genel statik üreticilerden farkı belge odaklı olması: özellikle yazılım dokümantasyonu için sürüm arşivi ve i18n gibi hazır parçalarla geliyor.</summary>
-</entry>
-<entry>
-  <title>Hugo</title>
-  <link href="https://gohugo.io/"/>
-  <id>https://gohugo.io/</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>Markdown içeriği statik sitelere dönüştüren, Go ile yazılmış üretici. Node tabanlı üreticilerden farkı ham hızı: binlerce sayfayı saniyeler içinde derliyor, tek ikili dosya, JS bağımlılık ağacı yok.</summary>
-</entry>
-<entry>
-  <title>Obsidian Digital Garden</title>
-  <link href="https://github.com/oleeskild/obsidian-digital-garden"/>
-  <id>https://github.com/oleeskild/obsidian-digital-garden</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>Obsidian notlarını doğrudan yayımlanmış bir dijital bahçeye çeviren eklenti. Quartz gibi üreticilerden farkı derleme adımı istememesi: not içinden tek düğmeyle yayınlıyorsun, ayrı bir build hattı kurmana gerek kalmıyor.</summary>
 </entry>
 </feed>

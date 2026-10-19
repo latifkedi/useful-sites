@@ -7,6 +7,20 @@
 <id>https://latifkedi.github.io/useful-sites/feed/devops.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
 <entry>
+  <title>Certbot</title>
+  <link href="https://certbot.eff.org/"/>
+  <id>https://certbot.eff.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Let's Encrypt sertifikalarını alıp yenileyen EFF aracı; sitede web sunucusu ve işletim sistemini seçince kuruluma özel komutlar çıkıyor. acme.sh gibi hafif istemcilerden farkı, nginx ve Apache yapılandırmasını kendisi düzenleyebilmesi.</summary>
+</entry>
+<entry>
+  <title>Flame Graphs</title>
+  <link href="https://www.brendangregg.com/flamegraphs.html"/>
+  <id>https://www.brendangregg.com/flamegraphs.html</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Brendan Gregg'in alev grafiği (flame graph) görselleştirmesini anlatan sayfa: nasıl okunur, CPU/bellek/off-CPU çeşitleri, üretme araçları ve konuşmaları. Profil çıktısını düz liste yerine yığın ağacı olarak göstermenin yöntemini yaratıcısından öğreniyorsun.</summary>
+</entry>
+<entry>
   <title>Floci</title>
   <link href="https://floci.io/floci/"/>
   <id>https://floci.io/floci/</id>
@@ -19,6 +33,27 @@
   <id>https://labs.iximiuz.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
   <summary>Linux, konteyner, Kubernetes ve ağ konularını tarayıcıdaki gerçek sanal makinelerde uygulamalı öğreten laboratuvarlar ve meydan okumalar. Yalnız anlatan yazılardan farkı her dersin çalışan bir ortamla gelmesi.</summary>
+</entry>
+<entry>
+  <title>Kubernetes Production Best Practices</title>
+  <link href="https://learnkube.com/production-best-practices"/>
+  <id>https://learnkube.com/production-best-practices</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Kubernetes'i üretimde çalıştırmadan önce bakılacak kontrol listesi: kaynak sınırları, sağlık kontrolleri, ağ, güvenlik ve gözlemlenebilirlik. Genel eğitimlerin aksine 'canlıya almadan önce bunu kontrol et' formatında.</summary>
+</entry>
+<entry>
+  <title>Kubernetes The Hard Way</title>
+  <link href="https://github.com/kelseyhightower/kubernetes-the-hard-way"/>
+  <id>https://github.com/kelseyhightower/kubernetes-the-hard-way</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Kubernetes kümesini otomasyon araçsız, bileşenleri tek tek elle kurarak öğreten Kelsey Hightower rehberi. Kurulum araçlarının gizlediği sertifika, etcd ve API sunucusu ayrıntılarını gösterdiği için küme içini anlamanın standart yolu sayılır. Kurulum araçlarının gizlediği adımları göstermesiyle onlardan ayrılır.</summary>
+</entry>
+<entry>
+  <title>post-mortems</title>
+  <link href="https://github.com/danluu/post-mortems"/>
+  <id>https://github.com/danluu/post-mortems</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Gerçek şirketlerin yayımladığı sistem arızası ve kesinti post-mortem'lerinin derlemesi. Genel DevOps listelerinden farkı yalnızca vaka analizlerine odaklanması; hatalardan öğrenmek ve mülakat için kullanışlı.</summary>
 </entry>
 <entry>
   <title>Ansible</title>
@@ -250,40 +285,5 @@
   <id>https://njal.la/</id>
   <updated>2026-08-19T16:10:10Z</updated>
   <summary>Alan adını senin adına kendi üstüne kaydediyor, yani WHOIS kaydında sen görünmüyorsun. Vekil gizlilik hizmetinden farkı, mülkiyetin hukuken onlarda olması — bu bir güven meselesi.</summary>
-</entry>
-<entry>
-  <title>AlexHost</title>
-  <link href="https://alexhost.com/"/>
-  <id>https://alexhost.com/</id>
-  <updated>2026-08-19T16:10:01Z</updated>
-  <summary>Moldova merkezli barındırma. Farklı bir yargı bölgesi ve gevşek içerik politikası sunması sebebiyle tercih ediliyor; bu aynı zamanda komşuların kim olduğu sorusunu doğuruyor.</summary>
-</entry>
-<entry>
-  <title>AvenaCloud</title>
-  <link href="https://avenacloud.com/"/>
-  <id>https://avenacloud.com/</id>
-  <updated>2026-08-19T16:09:22Z</updated>
-  <summary>VPS ve fiziksel sunucu sağlayıcı. Büyük bulutlara kıyasla bütçe odaklı; yönetilen servis yelpazesi dar, küçük ölçekli projeler için.</summary>
-</entry>
-<entry>
-  <title>Amazon Web Services</title>
-  <link href="https://aws.amazon.com/"/>
-  <id>https://aws.amazon.com/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Servis yelpazesi en geniş bulut. Azure ve Google Cloud’a kıyasla bu genişlik avantaj; ama maliyet takibi ayrı bir uzmanlık alanı, veri çıkış (egress) ücretleri özellikle sürpriz yapıyor.</summary>
-</entry>
-<entry>
-  <title>Apache Airflow</title>
-  <link href="https://airflow.apache.org/"/>
-  <id>https://airflow.apache.org/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Veri boru hatlarını Python’la tanımlanan yönlü grafik (DAG) olarak zamanlayan orkestratör. Cron’dan farkı bağımlılık, yeniden deneme ve geçmiş çalıştırma görünürlüğü sunması.</summary>
-</entry>
-<entry>
-  <title>Coder</title>
-  <link href="https://coder.com"/>
-  <id>https://coder.com</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Geliştirme ortamını kendi altyapında kapsayıcı olarak çalıştıran platform; VS Code ya da JetBrains istemcisiyle bağlanıyorsun. GitHub Codespaces’ten farkı bulut sağlayıcısına bağlı olmaması — kaynak da kod da sende kalıyor.</summary>
 </entry>
 </feed>

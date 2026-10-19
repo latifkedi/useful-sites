@@ -21,6 +21,41 @@
   <summary>A career platform for developers in Turkey: company-sponsored bootcamps and hackathons, plus public interview questions, salary data, roadmaps and a developer glossary. Unlike Techcareer it sells an interactive Python and data course platform (Pro) and publishes salary figures.</summary>
 </entry>
 <entry>
+  <title>How DNS Works</title>
+  <link href="https://howdns.works/"/>
+  <id>https://howdns.works/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A colourful comic that shows how a DNS query is resolved through resolvers, root and TLD servers. Unlike reference books it makes the process concrete with characters and a short story.</summary>
+</entry>
+<entry>
+  <title>How HTTPS Works</title>
+  <link href="https://howhttps.works/"/>
+  <id>https://howhttps.works/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A one-page comic that explains HTTPS, certificates and key exchange. Unlike technical specs it conveys the core idea in a few minutes without requiring any cryptography background.</summary>
+</entry>
+<entry>
+  <title>HTTP/2 Explained</title>
+  <link href="https://github.com/bagder/http2-explained"/>
+  <id>https://github.com/bagder/http2-explained</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A short book by curl's author Daniel Stenberg explaining the HTTP/2 protocol, including headers, streams and server push. More readable than the specification and written from an implementer's view; translated editions exist.</summary>
+</entry>
+<entry>
+  <title>Let's Build a Simple Database</title>
+  <link href="https://cstack.github.io/db_tutorial/"/>
+  <id>https://cstack.github.io/db_tutorial/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A step-by-step tutorial that builds a SQLite-like database from scratch in C: REPL, B-tree, pager, cursors. Unlike conceptual database explainers, it shows the storage engine internals through working code.</summary>
+</entry>
+<entry>
+  <title>Linux Guide and Hints</title>
+  <link href="https://linuxguideandhints.com/"/>
+  <id>https://linuxguideandhints.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A community guide to server setup, networking, security and service configuration on the Rocky/RHEL family, step by step. Unlike distro manuals it centres on real deployment scenarios and experienced advice.</summary>
+</entry>
+<entry>
   <title>Marko Knoebl: Programming Course Slides</title>
   <link href="https://marko-knoebl.github.io/slides/"/>
   <id>https://marko-knoebl.github.io/slides/</id>
@@ -28,11 +63,39 @@
   <summary>Course slides built from Markdown for React, Vue, Python, data science, HTML/CSS, JavaScript/TypeScript and databases, with exercises and solutions. Unlike video courses these are standalone HTML slides you can download and read offline; CC BY-SA 4.0.</summary>
 </entry>
 <entry>
+  <title>SHA-256 Algorithm Visualised</title>
+  <link href="https://sha256algorithm.com/"/>
+  <id>https://sha256algorithm.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A browser visualisation that animates how SHA-256 turns an input into a hash, showing the bits in memory and each round. Unlike written explanations, you can type your own input and watch every step.</summary>
+</entry>
+<entry>
   <title>Techcareer.net</title>
   <link href="https://www.techcareer.net/"/>
   <id>https://www.techcareer.net/</id>
   <updated>2026-10-18T00:00:00Z</updated>
   <summary>A Turkish career platform with company-sponsored bootcamps, job listings and public resources (technical glossary, interview questions, CV samples, university base scores). Unlike Coderspace it has shifted its weight to AI-skills training; the resource pages read without an account.</summary>
+</entry>
+<entry>
+  <title>The Illustrated TLS 1.2 Connection</title>
+  <link href="https://tls12.xargs.org/"/>
+  <id>https://tls12.xargs.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A page that walks through every byte of a TLS 1.2 handshake with colour-coded, annotated and hand-computed values. Unlike most TLS explainers it shows the actual packet contents step by step instead of an abstract diagram.</summary>
+</entry>
+<entry>
+  <title>Web Skills</title>
+  <link href="https://andreasbm.github.io/web-skills/"/>
+  <id>https://andreasbm.github.io/web-skills/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Lays out the skills to learn as a web developer (HTML, CSS, JS, tooling, testing, performance) as a visual map, with each box linking to a good tutorial. Unlike text-heavy roadmaps it shows the whole field at a glance.</summary>
+</entry>
+<entry>
+  <title>What happens when...</title>
+  <link href="https://github.com/alex/what-happens-when"/>
+  <id>https://github.com/alex/what-happens-when</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A detailed step-by-step account of everything that happens when you type an address in a browser and press Enter (DNS, TCP, TLS, HTTP, rendering). It goes deeper than typical 'how the web works' pieces, to the level an interview question wants.</summary>
 </entry>
 <entry>
   <title>ÖSYM</title>
@@ -222,68 +285,5 @@
   <id>https://pecb.com/</id>
   <updated>2026-08-26T20:53:20Z</updated>
   <summary>A body certifying auditors and implementers against ISO standards including 27001, 22301 and 9001. Against EXIN it operates through an accredited trainer network and confers lead auditor status.</summary>
-</entry>
-<entry>
-  <title>PMI</title>
-  <link href="https://www.pmi.org/certifications"/>
-  <id>https://www.pmi.org/certifications</id>
-  <updated>2026-08-26T20:53:20Z</updated>
-  <summary>The body behind PMP, project management’s most widespread certification. Against PRINCE2 it is built on knowledge areas rather than a process template, and it requires experience: documented project hours are needed to apply.</summary>
-</entry>
-<entry>
-  <title>Scrum.org</title>
-  <link href="https://www.scrum.org/"/>
-  <id>https://www.scrum.org/</id>
-  <updated>2026-08-26T20:53:20Z</updated>
-  <summary>The certification body founded by Ken Schwaber, one of Scrum’s originators. Against Scrum Alliance you can sit the exam without taking a course, and the certificate carries no renewal fee — pass once and it stands.</summary>
-</entry>
-<entry>
-  <title>SECO-Institute</title>
-  <link href="https://www.dnv.com/services/cyber-security-paths/"/>
-  <id>https://www.dnv.com/services/cyber-security-paths/</id>
-  <updated>2026-08-26T20:53:20Z</updated>
-  <summary>A European body certifying security roles along a tiered path. Unlike organisations selling individual exams it defines role-based tracks — which certificate comes in which order, from analyst to architect. The body is now part of DNV, and the old address redirects to this page.</summary>
-</entry>
-<entry>
-  <title>Algorithm Visualizer</title>
-  <link href="https://algorithm-visualizer.org/"/>
-  <id>https://algorithm-visualizer.org/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A platform that visualises an algorithm step by step alongside its code, and runs code you write yourself. That is the difference from a canned animation: you can change the algorithm and watch what happens.</summary>
-</entry>
-<entry>
-  <title>Teach Yourself CS</title>
-  <link href="https://teachyourselfcs.com/"/>
-  <id>https://teachyourselfcs.com/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Nine subjects for self-teaching computer science, each with exactly one book and one course recommended. Unlike other roadmaps it refuses to offer options: it settles the &quot;which resource&quot; argument for you and explains why it chose that one.</summary>
-</entry>
-<entry>
-  <title>Kodluyoruz</title>
-  <link href="https://www.kodluyoruz.org/"/>
-  <id>https://www.kodluyoruz.org/</id>
-  <updated>2026-08-19T16:30:04Z</updated>
-  <summary>A Turkish social enterprise offering free software training. Unlike paid bootcamps, it removes the cost barrier and aims to connect graduates to jobs.</summary>
-</entry>
-<entry>
-  <title>1000 Projects</title>
-  <link href="https://github.com/vicky002/1000_Projects"/>
-  <id>https://github.com/vicky002/1000_Projects</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A very broad compilation of project ideas. Unlike curated, levelled project lists it wins on quantity — lots of ideas, with the filtering left to you.</summary>
-</entry>
-<entry>
-  <title>App Ideas</title>
-  <link href="https://github.com/florinpop17/app-ideas"/>
-  <id>https://github.com/florinpop17/app-ideas</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>App ideas graded by difficulty, each with user stories and bonus features written out. That level of specification is what separates it from plain project lists.</summary>
-</entry>
-<entry>
-  <title>Awesome CS Courses</title>
-  <link href="https://github.com/prakhar1989/awesome-courses"/>
-  <id>https://github.com/prakhar1989/awesome-courses</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A list of university computer science courses published online, focused on those whose lecture notes and assignments are open. Unlike MOOC platforms, it links straight to the universities’ own course pages.</summary>
 </entry>
 </feed>

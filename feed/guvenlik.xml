@@ -7,11 +7,25 @@
 <id>https://latifkedi.github.io/useful-sites/feed/guvenlik.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
 <entry>
+  <title>BrowserLeaks</title>
+  <link href="https://browserleaks.com/"/>
+  <id>https://browserleaks.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Tarayıcının sızdırdığı bilgileri (IP/WebRTC, canvas ve font parmak izi, JavaScript, geolocation, istemci ipuçları) sekme sekme gösteren test paketi. Cover Your Tracks tek bir benzersizlik skoru verir; BrowserLeaks ise her API'nin ham çıktısını ayrı ayrı döker.</summary>
+</entry>
+<entry>
   <title>Digital Defense (Personal Security Checklist)</title>
   <link href="https://digital-defense.io/"/>
   <id>https://digital-defense.io/</id>
   <updated>2026-10-18T00:00:00Z</updated>
   <summary>300'den fazla maddelik, kategorilere ayrılmış kişisel dijital güvenlik kontrol listesi; her maddenin yanında önerilen araç ve ayarlar bulunur. Tek bir aracı değil, parolalardan mesajlaşmaya kadar tüm güvenlik alışkanlıklarını kapsayan açık kaynaklı bir denetim listesi olması onu ayırır.</summary>
+</entry>
+<entry>
+  <title>GnuPG</title>
+  <link href="https://www.gnupg.org/"/>
+  <id>https://www.gnupg.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>OpenPGP standardının özgür uygulaması; dosya ve e-posta şifreleme, imzalama ve anahtar yönetimi için komut satırı aracı. age ve minisign gibi modern alternatiflerden farkı, e-posta ve paket imzalarında yaygın olması; kullanımı ise daha karmaşık.</summary>
 </entry>
 <entry>
   <title>KVKK — Kişisel Verileri Koruma Kurumu</title>
@@ -21,11 +35,25 @@
   <summary>Türkiye’nin veri koruma otoritesi: 6698 sayılı Kanun, Kurul kararları, rehberler ve kamuoyuna duyurulan veri ihlali bildirimleri. Gizlilik araçları anlatan rehberlerden farkı düzenleyicinin kendisi olması: şirketlerin ne yapmak zorunda olduğunu ve hangi sızıntıların bildirildiğini buradan görüyorsun.</summary>
 </entry>
 <entry>
+  <title>macOS Security and Privacy Guide</title>
+  <link href="https://github.com/drduh/macOS-Security-and-Privacy-Guide"/>
+  <id>https://github.com/drduh/macOS-Security-and-Privacy-Guide</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>macOS'u sıkılaştırmak için FileVault, güvenlik duvarı, DNS, VPN ve uygulama izinlerini adım adım anlatan topluluk rehberi. Genel gizlilik listelerinden farkı, tek bir işletim sistemi için ayrıntılı komut ve ayarlar vermesi.</summary>
+</entry>
+<entry>
   <title>PRISM Break</title>
   <link href="https://prism-break.org/en/all/"/>
   <id>https://prism-break.org/en/all/</id>
   <updated>2026-10-18T00:00:00Z</updated>
   <summary>Gözetim yapan hizmetlere karşı platform ve kategoriye göre özgür, gizliliğe saygılı alternatifleri listeleyen katalog. Genel yazılım alternatifi sitelerinden farkı, ölçütünün yalnızca gizlilik ve açık kaynak olmasıdır.</summary>
+</entry>
+<entry>
+  <title>security.txt</title>
+  <link href="https://securitytxt.org/"/>
+  <id>https://securitytxt.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Güvenlik araştırmacılarına bir açığı nereye bildireceklerini söyleyen /.well-known/security.txt dosyasını (RFC 9116) üreten form ve standardın açıklaması. İletişim, şifreleme anahtarı ve politika alanlarını doldurup dosyayı doğrudan indirebiliyorsun. Elle yazmak yerine alanları doldurup standarda uygun dosyayı üretir.</summary>
 </entry>
 <entry>
   <title>Surveillance Self-Defense</title>
@@ -257,19 +285,5 @@
   <id>https://bitwarden.com/</id>
   <updated>2026-07-03T12:26:39Z</updated>
   <summary>Kaynak kodu açık ve bağımsız denetimden geçmiş parola yöneticisi; ücretsiz katmanda sınırsız parola var. 1Password gibi kapalı rakiplerinden farkı bu açıklık; istersen Vaultwarden ile kendi sunucunda çalıştırılıyor.</summary>
-</entry>
-<entry>
-  <title>Özgür Yazılım Güvenlik Rehberi</title>
-  <link href="https://guvenlik.oyd.org.tr/"/>
-  <id>https://guvenlik.oyd.org.tr/</id>
-  <updated>2025-03-11T08:24:11Z</updated>
-  <summary>Dijital güvenliğin Türkçe rehberi; ürün tanıtmıyor, tehdit modeline göre yöntem anlatıyor. “Kimden korunuyorsun” sorusuyla başlaması onu araç listelerinden ayırıyor.</summary>
-</entry>
-<entry>
-  <title>Mailvelope ile E-posta Şifreleme</title>
-  <link href="https://guvenlik.oyd.org.tr/yazisma_guvenligi/mailvelope.html"/>
-  <id>https://guvenlik.oyd.org.tr/yazisma_guvenligi/mailvelope.html</id>
-  <updated>2025-03-11T08:23:50Z</updated>
-  <summary>Tarayıcı eklentisiyle PGP kullanmayı adım adım anlatan Türkçe rehber. İngilizce PGP belgelerinden farkı Türkçe ve uygulamalı olması; anahtar üretme ve paylaşma kısmı kavramın en somut hâli.</summary>
 </entry>
 </feed>

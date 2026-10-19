@@ -7,6 +7,13 @@
 <id>https://latifkedi.github.io/useful-sites/feed/en/guv_teknik.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
 <entry>
+  <title>Application Security Wiki</title>
+  <link href="https://appsecwiki.com/"/>
+  <id>https://appsecwiki.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A wiki that gathers application security resources (guides, tools, checklists, training) in one place. It is a starting point for the whole of appsec rather than a deep dive into one attack class.</summary>
+</entry>
+<entry>
   <title>Awesome Connected Things Security</title>
   <link href="https://v33ru.github.io/awesome-connected-things-sec/"/>
   <id>https://v33ru.github.io/awesome-connected-things-sec/</id>
@@ -28,6 +35,48 @@
   <summary>A security-oriented resource list on industrial network protocols such as Modbus, S7 and OPC UA, with a page and dataset per protocol. Unlike general security lists it goes down to the OT/ICS protocol level.</summary>
 </entry>
 <entry>
+  <title>BuiltWith</title>
+  <link href="https://builtwith.com/"/>
+  <id>https://builtwith.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A profiler that identifies the CMS, analytics, hosting and JavaScript technologies a site uses from its address. Unlike browser extensions it rests on a wide database, including past usage and other sites running the same technology.</summary>
+</entry>
+<entry>
+  <title>DNSdumpster</title>
+  <link href="https://dnsdumpster.com/"/>
+  <id>https://dnsdumpster.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Passive reconnaissance for a domain: subdomains, DNS records and a host map, with no scan of the target itself. Runs in the browser and shows results as both a graph and a table. Unlike tools that scan the target, it uses passive sources only.</summary>
+</entry>
+<entry>
+  <title>Exploit-DB</title>
+  <link href="https://www.exploit-db.com/"/>
+  <id>https://www.exploit-db.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Offensive Security's searchable archive of published exploits and vulnerability write-ups, indexed by CVE. It also hosts the GHDB of Google dorks, and is a common citation point in penetration test reports. Unlike CVE databases, it archives working exploit code.</summary>
+</entry>
+<entry>
+  <title>Ghidra</title>
+  <link href="https://github.com/NationalSecurityAgency/ghidra"/>
+  <id>https://github.com/NationalSecurityAgency/ghidra</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>The NSA's open source reverse engineering framework with disassembler, decompiler and scripting. Against paid tools like IDA, it stands out for being free including the decompiler and for supporting many architectures.</summary>
+</entry>
+<entry>
+  <title>GTFOBins</title>
+  <link href="https://gtfobins.org/"/>
+  <id>https://gtfobins.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A list of Unix binaries that can be abused to escape restricted shells, escalate privileges or read files. Unlike general pentest notes, it gives a copy-ready command per binary, grouped by what it lets you do.</summary>
+</entry>
+<entry>
+  <title>HTML5 Security Cheatsheet</title>
+  <link href="https://html5sec.org/"/>
+  <id>https://html5sec.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A numbered collection of XSS vectors arising from HTML5 and browser quirks, each listing the browsers it works in. It is dated, but still used to understand how filter bypasses work. Unlike the OWASP guides, it lists detailed vectors based on browser quirks.</summary>
+</entry>
+<entry>
   <title>ICS Security Tools</title>
   <link href="https://github.com/ITI/ICS-Security-Tools"/>
   <id>https://github.com/ITI/ICS-Security-Tools</id>
@@ -40,6 +89,13 @@
   <id>https://www.kicksecure.com/wiki/Documentation</id>
   <updated>2026-10-18T00:00:00Z</updated>
   <summary>The wiki of Kicksecure, a hardened Debian derivative, covering system hardening, kernel and browser settings, Tor and password management step by step. Unlike generic security checklists it shows how each recommendation is applied at operating-system level.</summary>
+</entry>
+<entry>
+  <title>mitmproxy</title>
+  <link href="https://www.mitmproxy.org/"/>
+  <id>https://www.mitmproxy.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>An open source proxy that intercepts, inspects, modifies and replays HTTP(S) traffic, with terminal, web and scripting interfaces. Unlike GUI tools like Burp it is scriptable and runs on the command line.</summary>
 </entry>
 <entry>
   <title>Oh SHINT! It's a Blog</title>
@@ -56,11 +112,60 @@
   <summary>An OSINT guide of 450+ tools, methods and ethics/legal notes across 35 sections, which also publishes a link-audit report. Unlike pure tool lists it adds a four-step research methodology and legal-framework sections.</summary>
 </entry>
 <entry>
+  <title>OWASP MASTG</title>
+  <link href="https://mas.owasp.org/MASTG/"/>
+  <id>https://mas.owasp.org/MASTG/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>The OWASP guide to security testing Android and iOS apps, with test cases, tools and techniques in one place. Unlike general web security material it covers mobile-specific storage, binary analysis and network testing.</summary>
+</entry>
+<entry>
+  <title>OWASP Threat Dragon</title>
+  <link href="https://owasp.org/projects/threat-dragon"/>
+  <id>https://owasp.org/projects/threat-dragon</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>An open source OWASP tool for drawing data flow diagrams and doing threat modelling with methods such as STRIDE, with web and desktop versions. Unlike generic diagram tools it ties threats and mitigations to each diagram element.</summary>
+</entry>
+<entry>
+  <title>PayloadsAllTheThings</title>
+  <link href="https://github.com/swisskyrepo/PayloadsAllTheThings"/>
+  <id>https://github.com/swisskyrepo/PayloadsAllTheThings</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Payloads and bypass notes for web security and CTFs, organised by vulnerability class (SQLi, SSRF, XXE, SSTI and more). Each folder has a short explanation and examples, so it works as a lookup by vulnerability class rather than as a tool.</summary>
+</entry>
+<entry>
+  <title>Phrack</title>
+  <link href="https://phrack.org/"/>
+  <id>https://phrack.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>An e-zine of the hacker community, published since 1985, with deep technical articles on exploitation, kernels and network security. Against blogs and news sites it publishes rarely but with far more depth per article.</summary>
+</entry>
+<entry>
   <title>s0cm0nkey's Security Reference Guide</title>
   <link href="https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide"/>
   <id>https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide</id>
   <updated>2026-10-18T00:00:00Z</updated>
   <summary>A hand-curated guide to links and resources split by topic for SOC, pentesting, DFIR, threat intelligence and AppSec. Unlike awesome lists that cover a single area, it collects blue-team and red-team material in one gitbook.</summary>
+</entry>
+<entry>
+  <title>Shodan</title>
+  <link href="https://www.shodan.io/"/>
+  <id>https://www.shodan.io/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A search engine for internet-facing devices, servers and services, indexed by their service banners. Unlike Google it indexes open ports and devices rather than web pages; a free account allows limited queries.</summary>
+</entry>
+<entry>
+  <title>urlscan.io</title>
+  <link href="https://urlscan.io/"/>
+  <id>https://urlscan.io/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A scanning service that opens a URL in a real browser and records every request the page makes, the domains it contacts, a screenshot and the DOM. Unlike VirusTotal it does not just give a reputation score; it shows the page's behaviour with evidence, and past public scans are searchable.</summary>
+</entry>
+<entry>
+  <title>WebApps Security Tests MindMap</title>
+  <link href="https://www.amanhardikar.com/mindmaps/webapptest.html"/>
+  <id>https://www.amanhardikar.com/mindmaps/webapptest.html</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A single page listing web application security tests as a mind map; each branch is a test area with its tools. Unlike text checklists it shows the whole scope at a glance.</summary>
 </entry>
 <entry>
   <title>WiGLE</title>
@@ -180,110 +285,5 @@
   <id>https://hacktricks.wiki/</id>
   <updated>2026-09-10T20:53:20Z</updated>
   <summary>A knowledge base giving pentest, red-team, web, cloud and privilege-escalation techniques as step-by-step commands. Unlike conceptual security books it is directly runnable: every page is concrete enough to say “throw this command at that port, look for this in the output” — a field reference, not theory.</summary>
-</entry>
-<entry>
-  <title>Infosec Reference</title>
-  <link href="https://github.com/rmusser01/Infosec_Reference"/>
-  <id>https://github.com/rmusser01/Infosec_Reference</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>A vast security reference under one roof — red team, blue team, DFIR, AppSec and more. Unlike single-topic awesome lists it is holistic: instead of hunting a separate list per specialism, one annotated, organised reference in a single place.</summary>
-</entry>
-<entry>
-  <title>MISP Warning Lists</title>
-  <link href="https://github.com/MISP/misp-warninglists"/>
-  <id>https://github.com/MISP/misp-warninglists</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>Ready-made lists for weeding false positives out of threat indicators — public DNS resolvers, known cloud ranges, public services. Unlike raw indicator feeds it is the noise filter: it marks the legitimate infrastructure that should not raise an alarm.</summary>
-</entry>
-<entry>
-  <title>Not The Hidden Wiki</title>
-  <link href="https://github.com/notthehiddenwiki/NTHW"/>
-  <id>https://github.com/notthehiddenwiki/NTHW</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>An open wiki gathering 5,000+ cybersecurity links sorted by specialism. Against the dark-web directories its name plays on, it is entirely clearnet and legitimate: a plain starting point for tools, publications and training recordings, not a hidden service.</summary>
-</entry>
-<entry>
-  <title>Offensive-Resources</title>
-  <link href="https://github.com/Zeyad-Azima/Offensive-Resources"/>
-  <id>https://github.com/Zeyad-Azima/Offensive-Resources</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>A resource set covering every branch of offensive security — infrastructure, wireless, IoT, exploit development, cloud — together with labs. Unlike single-topic lists it is broad and lab-focused: it points to environments where you can practise, not just read.</summary>
-</entry>
-<entry>
-  <title>OSINT for Countries</title>
-  <link href="https://github.com/wddadk/OSINT-for-countries"/>
-  <id>https://github.com/wddadk/OSINT-for-countries</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>A list that sorts OSINT resources by 193 countries and territories. Unlike global OSINT lists it is geographic: if you need a specific country’s public records, registries and local tools, you go straight to that heading.</summary>
-</entry>
-<entry>
-  <title>PoC-in-GitHub</title>
-  <link href="https://github.com/nomi-sec/PoC-in-GitHub"/>
-  <id>https://github.com/nomi-sec/PoC-in-GitHub</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>A list that automatically harvests CVE proof-of-concept repositories from GitHub and updates daily. Against Trickest CVE it scans GitHub alone: for each vulnerability it states “this repo was published on this date” — a quick route to a PoC (its README warns of malware).</summary>
-</entry>
-<entry>
-  <title>Snoop</title>
-  <link href="https://github.com/snooppr/snoop"/>
-  <id>https://github.com/snooppr/snoop</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>A username hunter that searches one handle across hundreds of sites. Unlike tools such as Sherlock it weights the CIS/Russian-language web: it covers the regional platforms that western-focused tools miss.</summary>
-</entry>
-<entry>
-  <title>ThreatIntel-Reports</title>
-  <link href="https://github.com/mthcht/ThreatIntel-Reports"/>
-  <id>https://github.com/mthcht/ThreatIntel-Reports</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>A repository that makes the content extracted from thousands of threat-intelligence reports searchable. Unlike the reports themselves it searches inside them: you enter a tool or APT-group name and it lists every report that mentions it at once.</summary>
-</entry>
-<entry>
-  <title>Trickest CVE</title>
-  <link href="https://github.com/trickest/cve"/>
-  <id>https://github.com/trickest/cve</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>A repository that automatically gathers and keeps current every known CVE, with links to proof-of-concept code where it exists. Unlike official databases like the NVD it is exploit-focused: if you want to know where a vulnerability’s working code lives, it points straight to it.</summary>
-</entry>
-<entry>
-  <title>TweetFeed</title>
-  <link href="https://tweetfeed.live/"/>
-  <id>https://tweetfeed.live/</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>A live IOC feed that collects malicious URLs, domains, IPs and hashes shared by the infosec community on Twitter/X, served as CSV/JSON/RSS/API. Unlike commercial threat feeds its source is open social posts and it is free: it turns researcher observations into real-time, machine-readable data.</summary>
-</entry>
-<entry>
-  <title>Dark Vortex</title>
-  <link href="https://0xdarkvortex.dev/"/>
-  <id>https://0xdarkvortex.dev/</id>
-  <updated>2026-08-26T20:53:20Z</updated>
-  <summary>Advanced courses on malware development and offensive tooling. Unlike penetration testing training it goes down to evasion and implant development — aimed at red team tool developers rather than at anyone collecting certificates.</summary>
-</entry>
-<entry>
-  <title>ISECOM</title>
-  <link href="https://www.isecom.org/"/>
-  <id>https://www.isecom.org/</id>
-  <updated>2026-08-26T20:53:20Z</updated>
-  <summary>The non-profit publishing the OSSTMM security testing methodology. Unlike the certification bodies its actual product is the method: a free, vendor-neutral standard describing how testing should be done.</summary>
-</entry>
-<entry>
-  <title>Limes Security</title>
-  <link href="https://limessecurity.com/"/>
-  <id>https://limessecurity.com/</id>
-  <updated>2026-08-26T20:53:20Z</updated>
-  <summary>An Austrian firm focused on industrial control systems and critical infrastructure, with OT security training. Against general security training it addresses the operational technology side — PLCs and SCADA.</summary>
-</entry>
-<entry>
-  <title>Awesome Fuzzing</title>
-  <link href="https://github.com/secfigo/Awesome-Fuzzing"/>
-  <id>https://github.com/secfigo/Awesome-Fuzzing</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A compilation of fuzzing resources: tools, books, talks, papers and practice environments. Against the OWASP page the difference is breadth — this is where you go after you understand the method.</summary>
-</entry>
-<entry>
-  <title>Cryptologie</title>
-  <link href="https://www.cryptologie.net/"/>
-  <id>https://www.cryptologie.net/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Cryptographer David Wong’s blog and notes on applied cryptography. Against academic papers it explains protocols from an implementer’s seat — not the theorem, but where real systems get it wrong.</summary>
 </entry>
 </feed>

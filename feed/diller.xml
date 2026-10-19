@@ -5,7 +5,21 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/diller.xml" rel="self"/>
 <link href="https://latifkedi.github.io/useful-sites/k/diller.html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/diller.xml</id>
-<updated>2026-10-09T09:00:00Z</updated>
+<updated>2026-10-18T00:00:00Z</updated>
+<entry>
+  <title>A Guide to Python's Magic Methods</title>
+  <link href="https://rszalski.github.io/magicmethods/"/>
+  <id>https://rszalski.github.io/magicmethods/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Python'daki __init__, __getattr__, __enter__ gibi özel (dunder) yöntemleri örneklerle gruplayıp anlatan klasik rehber. Dil belgesinden farkı, her grubu nasıl ve ne zaman kullanacağınızı pratik örneklerle göstermesi.</summary>
+</entry>
+<entry>
+  <title>wtfpython</title>
+  <link href="https://github.com/satwikkansal/wtfpython"/>
+  <id>https://github.com/satwikkansal/wtfpython</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Python'un şaşırtıcı ve sezgiye aykırı davranışlarını kısa kod parçaları ve açıklamalarla derleyen koleksiyon. Standart eğitimlerden farkı, tuzağa önce düşürüp sonra nedenini göstererek öğretmesi.</summary>
+</entry>
 <entry>
   <title>Facts and Myths about Python Names and Values</title>
   <link href="https://nedbatchelder.com/text/names.html"/>
@@ -271,19 +285,5 @@
   <id>https://craftinginterpreters.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
   <summary>Bir dili iki kez sıfırdan yazdıran ücretsiz kitap: önce Java ile ağaç yürüyen yorumlayıcı, sonra C ile bayt kodu sanal makinesi. Kuramsal derleyici ders kitaplarından farkı her satırı sana yazdırması; alanın en açık anlatımlarından.</summary>
-</entry>
-<entry>
-  <title>Hitchhiker’s Guide to Python</title>
-  <link href="https://docs.python-guide.org/writing/style/"/>
-  <id>https://docs.python-guide.org/writing/style/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Python’da üslup, proje düzeni ve araç seçimi üzerine topluluk rehberi. Dil referansından farkı “nasıl yazılır” kısmını anlatması: deyimsel kod, paketleme, test.</summary>
-</entry>
-<entry>
-  <title>kudvenkat</title>
-  <link href="https://www.youtube.com/user/kudvenkat/"/>
-  <id>https://www.youtube.com/user/kudvenkat/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>.NET, C# ve SQL Server konularında uzun ve düzenli ders serileri. Kısa öğreticilerden farkı her serinin bir müfredat gibi ilerlemesi — kurumsal .NET yığınını sıfırdan öğrenmek için.</summary>
 </entry>
 </feed>

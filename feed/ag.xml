@@ -7,6 +7,13 @@
 <id>https://latifkedi.github.io/useful-sites/feed/ag.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
 <entry>
+  <title>A Cartoon Intro to DNS over HTTPS</title>
+  <link href="https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/"/>
+  <id>https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>DNS'in neden gizlilik sorunu yarattığını ve DoH'nin bunu nasıl değiştirdiğini çizimlerle anlatan Mozilla yazısı. Protokol belgelerinden farkı, ön bilgi gerektirmemesi; DoH tartışmasının ne hakkında olduğunu kısa sürede anlatır.</summary>
+</entry>
+<entry>
   <title>Awesome eBPF (qmonnet)</title>
   <link href="https://github.com/qmonnet/awesome-ebpf"/>
   <id>https://github.com/qmonnet/awesome-ebpf</id>
@@ -21,6 +28,76 @@
   <summary>Web siteleri, fediverse (Mastodon vb.) ve Bluesky/AT Protocol arasında köprü kuran servis; hesabını kaybetmeden ağlar arası takip ve yanıt sağlar. Tek ağa bağlı istemcilerden farkı protokolleri birbirine çevirmesi.</summary>
 </entry>
 <entry>
+  <title>ciphersuite.info</title>
+  <link href="https://ciphersuite.info/"/>
+  <id>https://ciphersuite.info/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>TLS şifre takımlarının hepsini IANA/OpenSSL adlarıyla, güvenlik düzeyi (güvenli/zayıf/güvensiz) ve protokol sürümü desteğiyle aranabilir listeleyen başvuru sitesi. Bir takımın adını görünce ne anlama geldiğini ve kullanılıp kullanılmaması gerektiğini bulmak için. IANA'nın ham tablosundan farklı olarak her takıma okunur bir güvenlik notu verir.</summary>
+</entry>
+<entry>
+  <title>curl</title>
+  <link href="https://curl.se/"/>
+  <id>https://curl.se/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>URL ile veri aktarımının standart komut satırı aracı ve libcurl kütüphanesinin sitesi; kılavuzu, protokol listesi ve &quot;Everything curl&quot; adlı ücretsiz kitabı var. Tarayıcı geliştirici araçlarındaki &quot;cURL olarak kopyala&quot; ile birlikte API hatası ayıklamanın temel yolu. Tarayıcı geliştirici araçları yerine komut satırından aynı isteği tekrarlanabilir kılar.</summary>
+</entry>
+<entry>
+  <title>DKIM Validator</title>
+  <link href="https://dkimvalidator.com/"/>
+  <id>https://dkimvalidator.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Verdiği geçici adrese test e-postası gönderince SPF, DKIM ve SpamAssassin puanını gösteren ücretsiz posta doğrulayıcı. Kayıtları ayrı ayrı denetlemek yerine gerçek bir iletiyi uçtan uca sınadığı için farklı.</summary>
+</entry>
+<entry>
+  <title>DNSlytics</title>
+  <link href="https://dnslytics.com/"/>
+  <id>https://dnslytics.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Alan adı, IP ve ağ numarası (ASN) için DNS kayıtları, aynı IP'deki siteler, e-posta/whois ve geçmiş verileri gösteren araştırma sitesi. ViewDNS'in tek seferlik sorgularından farkı bir alan adının barındırma ve ASN bağlantılarını ilişkilendirmesi.</summary>
+</entry>
+<entry>
+  <title>DNSSEC Debugger</title>
+  <link href="https://dnssec-debugger.verisignlabs.com/"/>
+  <id>https://dnssec-debugger.verisignlabs.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Alan adının DNSSEC güven zincirini kökten başlayarak adım adım doğrulayıp nerede koptuğunu gösteren Verisign aracı. Genel DNS denetleyicilerinden farkı yalnızca imza zincirine odaklanması.</summary>
+</entry>
+<entry>
+  <title>IntoDNS</title>
+  <link href="https://intodns.com/"/>
+  <id>https://intodns.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Alan adının DNS ve posta (MX) ayarlarını kontrol edip hataları ve uyarıları madde madde listeleyen hızlı denetleyici. Zonemaster kadar kapsamlı değil ama sonuç tek sayfada ve okunaklı.</summary>
+</entry>
+<entry>
+  <title>Is BGP safe yet?</title>
+  <link href="https://isbgpsafeyet.com/"/>
+  <id>https://isbgpsafeyet.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Tarayıcından, kullandığın internet servis sağlayıcısının geçersiz BGP rotalarını filtreleyip filtrelemediğini (RPKI) deneyen Cloudflare sayfası. Yönlendirme güvenliği gibi soyut bir konuyu tek tıkla somut sonuca çeviriyor. Teknik RPKI belgelerinden farklı olarak sonucu tarayıcıdan tek tıkla gösterir.</summary>
+</entry>
+<entry>
+  <title>MultiRBL</title>
+  <link href="https://multirbl.valli.org/"/>
+  <id>https://multirbl.valli.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Bir IP veya alan adını yüzlerce DNS kara listesinde (RBL) tek seferde arayan sorgu aracı. E-posta sunucusu neden reddediliyor sorusuna hangi listenin yol açtığını gösterir; ayrıca ters ve ileri DNS tutarlılığını da kontrol eder. Tek bir kara listeye bakan araçlar yerine yüzlerce RBL'yi aynı anda tarar.</summary>
+</entry>
+<entry>
+  <title>MxToolbox SuperTool</title>
+  <link href="https://mxtoolbox.com/SuperTool.aspx"/>
+  <id>https://mxtoolbox.com/SuperTool.aspx</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Tek kutudan MX, DNS, blacklist, SPF, DMARC, ping ve port sorguları çalıştıran e-posta ve DNS tanı aracı. E-posta teslim sorunlarında ilk bakılan yerlerden; birçok tek amaçlı denetleyicinin işini bir arada yapıyor. Tek amaçlı kontrolcülerden farklı olarak MX, SPF, DMARC ve kara liste sorgusunu tek kutuda toplar.</summary>
+</entry>
+<entry>
+  <title>nip.io</title>
+  <link href="https://nip.io/"/>
+  <id>https://nip.io/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>10.0.0.1.nip.io gibi adları içindeki IP adresine çözen joker DNS servisi; hosts dosyası düzenlemeden yerel veya test sunucusuna alan adıyla erişmeyi sağlar. Kurulum ya da kayıt gerektirmez. /etc/hosts düzenlemek yerine adı IP'nin kendisine gömer.</summary>
+</entry>
+<entry>
   <title>OpenInfraMap</title>
   <link href="https://openinframap.org"/>
   <id>https://openinframap.org</id>
@@ -28,11 +105,53 @@
   <summary>OpenStreetMap verisinden elektrik hatları, santraller, petrol/gaz boru hatları ve telekom altyapısını çizen harita. Genel haritalardan farkı altyapıya özel katmanlar ve gerilim/kapasite ayrıntısı.</summary>
 </entry>
 <entry>
+  <title>OpenSSL</title>
+  <link href="https://www.openssl.org/"/>
+  <id>https://www.openssl.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>TLS/SSL ve genel amaçlı kriptografi kütüphanesi ile openssl komut satırı aracının resmî sitesi; komut kılavuzları, sürüm notları ve kütüphane API belgeleri burada. Sertifika üretme, anahtar dönüştürme ve bir sunucuya bağlanıp el sıkışmayı incelemek için temel başvuru. Sadece bir komut aracı değil, aynı zamanda kütüphane olduğundan, sertifika araçlarından daha geniş bir yelpazeyi kapsar.</summary>
+</entry>
+<entry>
+  <title>OpenSSL Certificate Authority</title>
+  <link href="https://jamielinux.com/docs/openssl-certificate-authority/"/>
+  <id>https://jamielinux.com/docs/openssl-certificate-authority/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>OpenSSL ile kök ve ara sertifika otoritesi kurmayı, sertifika imzalamayı ve iptal listesi yayımlamayı adım adım anlatan rehber. Hazır CA yazılımlarından farkı, dosya yapısını ve yapılandırmayı elle göstermesi; PKI'nin işleyişi görünür oluyor.</summary>
+</entry>
+<entry>
+  <title>RIPE Atlas</title>
+  <link href="https://atlas.ripe.net/"/>
+  <id>https://atlas.ripe.net/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Dünya genelinde binlerce küçük sensörden ping, traceroute ve DNS ölçümü yaptıran RIPE NCC ağı. Kendi bağlantından değil, farklı ülke ve operatörlerden bakabildiğin için erişilebilirlik sorunlarını teşhis etmekte öne çıkıyor.</summary>
+</entry>
+<entry>
+  <title>Scapy</title>
+  <link href="https://scapy.net/"/>
+  <id>https://scapy.net/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Python'da paket üretme, gönderme, yakalama ve çözme için etkileşimli bir kütüphane; sitesi dokümantasyon ve örnekleri barındırıyor. Wireshark'ın aksine paketi kodla oluşturup değiştirirsin; Nmap gibi hazır tarama yerine kendi protokol testini yazarsın.</summary>
+</entry>
+<entry>
   <title>Submarine Cable Map</title>
   <link href="https://www.submarinecablemap.com/"/>
   <id>https://www.submarinecablemap.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
   <summary>TeleGeography'nin dünyadaki denizaltı internet kablolarını, iniş noktalarını ve işleten şirketleri gösteren etkileşimli haritası. Genel ağ haritalarından farkı, internetin fiziksel omurgasını kablo kablo izlenebilir kılmasıdır.</summary>
+</entry>
+<entry>
+  <title>ViewDNS.info</title>
+  <link href="https://viewdns.info/"/>
+  <id>https://viewdns.info/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Tersine IP araması, DNS geçmişi, whois, port tarayıcı, alan adı-IP eşleşmesi gibi onlarca DNS ve alan adı sorgusunu tek sitede toplayan araç kutusu. Her sorgu ayrı küçük bir araç; kayıt gerekmiyor.</summary>
+</entry>
+<entry>
+  <title>Zonemaster</title>
+  <link href="https://zonemaster.se/en/"/>
+  <id>https://zonemaster.se/en/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Alan adının DNS yapılandırmasını (delegasyon, SOA, DNSSEC, ad sunucu tutarlılığı) onlarca testten geçiren denetleyici; İsveç alan adı kayıt kuruluşunun açık kaynak motoru. Tek bir kayıt sorgulayan araçlardan farkı bölgenin tamamını standart test seti olarak raporlaması.</summary>
 </entry>
 <entry>
   <title>goshs</title>
@@ -166,124 +285,5 @@
   <id>https://www.paloaltonetworks.com/services/education</id>
   <updated>2026-08-26T20:53:20Z</updated>
   <summary>PCNSA ve PCNSE sertifikaları ile güvenlik duvarı ve bulut güvenliği eğitimleri. Fortinet’ten farkı kurumsal pazarın üst segmentine odaklanması — sertifika, o ürünleri işleten kuruluşlarda doğrudan işe yarıyor.</summary>
-</entry>
-<entry>
-  <title>Red Hat Sertifikasyon</title>
-  <link href="https://www.redhat.com/en/services/certifications"/>
-  <id>https://www.redhat.com/en/services/certifications</id>
-  <updated>2026-08-26T20:53:20Z</updated>
-  <summary>RHCSA ve RHCE sertifikaları. Çoktan seçmeli satıcı sınavlarından farkı tamamen pratik olması — canlı bir sistemde verilen görevleri tamamlıyorsun, bu yüzden Linux tarafında itibarı yüksek.</summary>
-</entry>
-<entry>
-  <title>Asahi Linux</title>
-  <link href="https://asahilinux.org/"/>
-  <id>https://asahilinux.org/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Apple Silicon Mac’lere ana hat Linux getiren proje; GPU sürücüsünü ve güç yönetimini tersine mühendislikle yazıyor. Sanal makineden farkı donanımda doğrudan çalışması — M serisi yongadan tam performans alınıyor.</summary>
-</entry>
-<entry>
-  <title>Autoruns</title>
-  <link href="https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns"/>
-  <id>https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Windows’ta açılışta çalışan her şeyi listeleyen Sysinternals aracı: hizmetler, zamanlanmış görevler, kabuk uzantıları, sürücüler. Görev Yöneticisi’nin başlangıç sekmesinden farkı kötü amaçlı yazılımın saklandığı otuz küsur kayıt defteri noktasını da göstermesi.</summary>
-</entry>
-<entry>
-  <title>CanYouSeeMe</title>
-  <link href="https://canyouseeme.org/"/>
-  <id>https://canyouseeme.org/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Belirli bir portun dışarıdan açık olup olmadığını kontrol eden basit araç. Yerel port taramasından farkı dışarıdan bakması — yönlendirici port yönlendirmesinin gerçekten çalışıp çalışmadığı ancak böyle anlaşılıyor.</summary>
-</entry>
-<entry>
-  <title>ICANN Lookup</title>
-  <link href="https://lookup.icann.org/en"/>
-  <id>https://lookup.icann.org/en</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Alan adı kayıt bilgilerini ICANN’in kendi arayüzünden sorgulama. Üçüncü parti WHOIS sitelerinden farkı reklam ve satış teklifi olmaması — sorguladığın alan adı için ertesi gün e-posta almıyorsun.</summary>
-</entry>
-<entry>
-  <title>ntop</title>
-  <link href="https://www.ntop.org/"/>
-  <id>https://www.ntop.org/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Ağ trafiğini gerçek zamanlı izleyen araç ailesi; hangi cihazın hangi protokolle ne kadar veri geçirdiğini gösteriyor. Wireshark’tan farkı paket paket inceleme değil sürekli akış izleme — sorunu yakalamak için değil, olağandışıyı fark etmek için.</summary>
-</entry>
-<entry>
-  <title>OpenSpeedTest</title>
-  <link href="https://openspeedtest.com/"/>
-  <id>https://openspeedtest.com/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Tarayıcıda çalışan hız testi; Flash ya da uygulama gerektirmiyor, kendi sunucuna da kurulabiliyor. Speedtest.net’ten farkı bu öz-barındırma — yerel ağının gerçek hızını dış bağlantıya bağlı kalmadan ölçebiliyorsun.</summary>
-</entry>
-<entry>
-  <title>Tailscale</title>
-  <link href="https://tailscale.com/"/>
-  <id>https://tailscale.com/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>WireGuard üzerine kurulu örgü VPN; cihazlarını NAT ve güvenlik duvarı arkasında olsalar bile doğrudan birbirine bağlıyor. Klasik VPN sunucusundan farkı merkezî bir çıkış düğümü olmaması — trafik cihazdan cihaza gidiyor, koordinasyon sunucusu yalnızca anahtar dağıtıyor.</summary>
-</entry>
-<entry>
-  <title>Advanced Bash-Scripting Guide</title>
-  <link href="https://tldp.org/LDP/abs/html/"/>
-  <id>https://tldp.org/LDP/abs/html/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Bash betiklemenin en kapsamlı ücretsiz referansı; her konu çalıştırılabilir örnekle. Wooledge BashGuide’a kıyasla kapsamı hâlâ eşsiz ama üslubu eski; bazı örnekler bugün kötü alışkanlık sayılıyor.</summary>
-</entry>
-<entry>
-  <title>Bash Guide for Beginners</title>
-  <link href="https://www.tldp.org/LDP/Bash-Beginners-Guide/html/"/>
-  <id>https://www.tldp.org/LDP/Bash-Beginners-Guide/html/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Kabuk betiklerine giriş. Advanced Bash-Scripting Guide’dan farkı onun ağırlığına girmeden temelleri kurması.</summary>
-</entry>
-<entry>
-  <title>Bash Referans Kılavuzu</title>
-  <link href="https://www.gnu.org/software/bash/manual/bashref.html"/>
-  <id>https://www.gnu.org/software/bash/manual/bashref.html</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Bash’in resmî kılavuzu. Öğreticilerden farkı genişletme kuralları ve parametre değiştirme gibi tartışmalı konularda son sözün burada olması.</summary>
-</entry>
-<entry>
-  <title>BashGuide (Wooledge)</title>
-  <link href="https://mywiki.wooledge.org/BashGuide"/>
-  <id>https://mywiki.wooledge.org/BashGuide</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Tırnaklama ve sözcük bölme gibi en sık yapılan hataları merkeze alan Bash rehberi. Advanced Bash-Scripting Guide gibi eski kaynakların aksine internette dolaşan kötü örnekleri düzeltmek için yazılmış.</summary>
-</entry>
-<entry>
-  <title>Brendan Gregg</title>
-  <link href="https://www.brendangregg.com/"/>
-  <id>https://www.brendangregg.com/</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Linux performans ve gözlemlenebilirliğinde başvurulan uzmanın blogu ve araçları. Genel kılavuzlardan farkı çekirdek düzeyinde ölçüm ve alev grafiği (flame graph) yöntemlerini vermesi.</summary>
-</entry>
-<entry>
-  <title>Command-line Fu</title>
-  <link href="https://www.commandlinefu.com/commands/browse"/>
-  <id>https://www.commandlinefu.com/commands/browse</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Kullanıcıların paylaştığı UNIX komut tek satırlıkları arşivi, oyla sıralı. tldr gibi araç başına özetlerden farkı işe göre aranması: bir işin kısa yolu var mı diye bakmak için.</summary>
-</entry>
-<entry>
-  <title>LinuxCommand.org</title>
-  <link href="https://linuxcommand.org"/>
-  <id>https://linuxcommand.org</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Komut satırını sıfırdan öğretip kabuk betiği yazmaya götüren site; &quot;The Linux Command Line&quot; kitabının kaynağı. Komut listelerinden farkı bir yol izlemesi — dağınık kopya kâğıdı değil, sıralı bir ders.</summary>
-</entry>
-<entry>
-  <title>mempool.space</title>
-  <link href="https://mempool.space"/>
-  <id>https://mempool.space</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Bitcoin ağının bekleyen işlem havuzunu ve blok zincirini görselleştiren gezgin; kendi düğümünle çalıştırılabiliyor. Diğer blok gezginlerinden farkı ücret tahmini ve mempool görselleştirmesi — ağın o anki tıkanıklığını gösteriyor.</summary>
-</entry>
-<entry>
-  <title>osquery</title>
-  <link href="https://osquery.io"/>
-  <id>https://osquery.io</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>İşletim sistemini SQL ile sorgulanabilir hâle getiriyor: çalışan süreçler, açık portlar ve kurulu paketler birer tablo. ps, netstat gibi ayrı ayrı komutlar yerine her şeyi tek sorgu diliyle soruyorsun; uç nokta izlemede yaygın.</summary>
 </entry>
 </feed>

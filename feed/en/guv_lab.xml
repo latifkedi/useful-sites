@@ -7,6 +7,27 @@
 <id>https://latifkedi.github.io/useful-sites/feed/en/guv_lab.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
 <entry>
+  <title>Crackmes.one</title>
+  <link href="https://crackmes.one/"/>
+  <id>https://crackmes.one/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A user-submitted archive of reverse engineering challenges (crackmes), filterable by difficulty, language and platform. Unlike CTF platforms these are standalone local binaries with user-written solutions. They are unvetted executables, so run them in a VM.</summary>
+</entry>
+<entry>
+  <title>Cryptopals</title>
+  <link href="https://cryptopals.com/"/>
+  <id>https://cryptopals.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A set of 48 programming exercises in 8 sets that teach cryptography by attacking real constructions; you write the attacks yourself. Unlike textbooks, each break builds on the previous one. Requires writing code in a language of your choice.</summary>
+</entry>
+<entry>
+  <title>Hack This Site</title>
+  <link href="https://www.hackthissite.org/"/>
+  <id>https://www.hackthissite.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A long-running site with basic hacking missions (basic, realistic, programming, stego) in a legal, safe setting. It also has forums and articles; often named as a first step for beginners, though the interface is dated next to newer platforms. Compared with newer platforms its interface is dated, but it is not tied to a CTF calendar.</summary>
+</entry>
+<entry>
   <title>Hacker101</title>
   <link href="https://www.hacker101.com/"/>
   <id>https://www.hacker101.com/</id>
@@ -21,6 +42,34 @@
   <summary>A developer-oriented site that explains common web vulnerabilities (XSS, SQL injection, CSRF) in short interactive lessons. Unlike pentest platforms it focuses on teaching defence rather than attack.</summary>
 </entry>
 <entry>
+  <title>Microcorruption</title>
+  <link href="https://microcorruption.com/"/>
+  <id>https://microcorruption.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>An embedded-systems CTF where you break electronic locks using an in-browser MSP430 debugger. Nothing to install, which makes it a practical entry to embedded reverse engineering and assembly. Originally built by Matasano.</summary>
+</entry>
+<entry>
+  <title>OWASP Web Security Testing Guide</title>
+  <link href="https://github.com/OWASP/wstg"/>
+  <id>https://github.com/OWASP/wstg</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>OWASP's web application penetration testing methodology and checklist, from information gathering to business logic flaws. Unlike vulnerability lists such as the Top 10 it spells out how each issue is tested.</summary>
+</entry>
+<entry>
+  <title>PentesterLab</title>
+  <link href="https://pentesterlab.com/"/>
+  <id>https://pentesterlab.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Web and application security exercises where each one explains a vulnerability and gives you a running environment to exploit it. Unlike plain CTF sites the exercises are sequenced by topic and difficulty like a curriculum. The free tier is limited; full access is paid.</summary>
+</entry>
+<entry>
+  <title>picoCTF</title>
+  <link href="https://picoctf.org/"/>
+  <id>https://picoctf.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Carnegie Mellon's free CTF platform with web, crypto, reverse engineering and forensics tasks. Unlike competition-first sites, difficulty starts at high-school level and past contest challenges stay open for practice. Needs an account.</summary>
+</entry>
+<entry>
   <title>pwn.college</title>
   <link href="https://pwn.college/"/>
   <id>https://pwn.college/</id>
@@ -28,11 +77,39 @@
   <summary>Arizona State University's free cybersecurity education platform; beginner-friendly modules with in-browser practice environments teach binary exploitation, web and reverse engineering. Unlike plain CTF sites it follows an ordered curriculum.</summary>
 </entry>
 <entry>
+  <title>pwnable.kr</title>
+  <link href="https://pwnable.kr/"/>
+  <id>https://pwnable.kr/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A non-profit wargame site for binary exploitation (pwn), starting at the Toddler's Bottle tier and getting harder. Tasks run on a remote SSH server with source provided, which suits learning memory corruption in order. Unlike browser-based exercises, tasks run on a real SSH server.</summary>
+</entry>
+<entry>
+  <title>pwnable.tw</title>
+  <link href="https://pwnable.tw/"/>
+  <id>https://pwnable.tw/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Harder binary exploitation tasks aimed at building pwn skills on near-real vulnerabilities. It sits above pwnable.kr in difficulty; challenges are scored and you work through earlier ones to progress.</summary>
+</entry>
+<entry>
   <title>Root Me</title>
   <link href="https://www.root-me.org/"/>
   <id>https://www.root-me.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
   <summary>A community-run French platform with hundreds of challenges and virtual environments across web, cryptography, reverse engineering and forensics. Unlike large commercial labs it comes with community write-ups and a rich document repository.</summary>
+</entry>
+<entry>
+  <title>Vulhub</title>
+  <link href="https://github.com/vulhub/vulhub"/>
+  <id>https://github.com/vulhub/vulhub</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Docker-compose environments for known CVEs that come up with one command. Unlike VM archives, each one targets a single piece of software and a single CVE, which makes studying a root cause locally straightforward. Run only in an isolated environment.</summary>
+</entry>
+<entry>
+  <title>VulnHub</title>
+  <link href="https://www.vulnhub.com/"/>
+  <id>https://www.vulnhub.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>An archive of community-built vulnerable VMs you download and run locally. Unlike online lab platforms they work offline, which is why they are popular for OSCP-style practice. Downloaded VMs are untrusted code, so run them isolated.</summary>
 </entry>
 <entry>
   <title>Awesome CTF</title>

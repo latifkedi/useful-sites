@@ -7,6 +7,13 @@
 <id>https://latifkedi.github.io/useful-sites/feed/guv_teknik.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
 <entry>
+  <title>Application Security Wiki</title>
+  <link href="https://appsecwiki.com/"/>
+  <id>https://appsecwiki.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Uygulama güvenliği kaynaklarını (rehberler, araçlar, kontrol listeleri, eğitimler) tek bir wiki'de toplayan dizin. Tek bir saldırı sınıfına değil, uygulama güvenliğinin tamamına bakan bir başlangıç noktası olması onu ayırıyor.</summary>
+</entry>
+<entry>
   <title>Awesome Connected Things Security</title>
   <link href="https://v33ru.github.io/awesome-connected-things-sec/"/>
   <id>https://v33ru.github.io/awesome-connected-things-sec/</id>
@@ -28,6 +35,48 @@
   <summary>Modbus, S7, OPC UA gibi endüstriyel ağ protokollerine saldırı odaklı bakan kaynak listesi; her protokol için ayrı sayfa ve veri tabanı var. Genel güvenlik listelerinden farkı OT/ICS protokol düzeyine inmesi.</summary>
 </entry>
 <entry>
+  <title>BuiltWith</title>
+  <link href="https://builtwith.com/"/>
+  <id>https://builtwith.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Bir sitenin kullandığı CMS, analitik, barındırma ve JavaScript teknolojilerini adresten çıkaran profilleyici. Tarayıcı eklentilerinden farkı geçmiş kullanım ve aynı teknolojiyi kullanan siteler gibi geniş veri tabanına dayanması.</summary>
+</entry>
+<entry>
+  <title>DNSdumpster</title>
+  <link href="https://dnsdumpster.com/"/>
+  <id>https://dnsdumpster.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Alan adı için alt alan adlarını, DNS kayıtlarını ve ağ haritasını pasif olarak çıkaran keşif aracı. Tarayıcıda hesapsız çalışır; sonuçları grafik ve tablo olarak verir. Hedefi tarayan araçlardan farklı olarak yalnızca pasif kaynaklara bakar.</summary>
+</entry>
+<entry>
+  <title>Exploit-DB</title>
+  <link href="https://www.exploit-db.com/"/>
+  <id>https://www.exploit-db.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Offensive Security'nin yayımlanmış istismar kodlarını ve zafiyet bildirimlerini arşivleyen, CVE ile aranabilen veri tabanı. Ayrıca Google dork'larını toplayan GHDB'yi barındırır; sızma testi raporlarında kaynak gösterme noktası olarak kullanılıyor. CVE veritabanlarının aksine çalışan istismar kodunu arşivler.</summary>
+</entry>
+<entry>
+  <title>Ghidra</title>
+  <link href="https://github.com/NationalSecurityAgency/ghidra"/>
+  <id>https://github.com/NationalSecurityAgency/ghidra</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>NSA'nın açık kaynak yaptığı tersine mühendislik çerçevesi: disassembler, decompiler ve betik desteği. IDA gibi ücretli araçlara karşı, decompiler dahil ücretsiz olması ve birçok mimariyi desteklemesiyle öne çıkıyor.</summary>
+</entry>
+<entry>
+  <title>GTFOBins</title>
+  <link href="https://gtfobins.org/"/>
+  <id>https://gtfobins.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Kısıtlı bir kabuktan kaçmak, ayrıcalık yükseltmek veya dosya okumak için kötüye kullanılabilen Unix ikili dosyalarının listesi. Genel sızma testi notlarından farkı, her ikili için işleve göre gruplanmış, kopyalanabilir komutlar vermesi.</summary>
+</entry>
+<entry>
+  <title>HTML5 Security Cheatsheet</title>
+  <link href="https://html5sec.org/"/>
+  <id>https://html5sec.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>HTML5 ve tarayıcı tuhaflıklarından doğan XSS vektörlerinin numaralandırılmış koleksiyonu; her vektör için çalıştığı tarayıcılar belirtiliyor. Eski bir kaynak, ama filtre atlatmanın nasıl işlediğini anlamak için hâlâ başvuruluyor. OWASP kılavuzlarından farklı olarak tarayıcı hatalarına dayalı ayrıntılı vektörler listeler.</summary>
+</entry>
+<entry>
   <title>ICS Security Tools</title>
   <link href="https://github.com/ITI/ICS-Security-Tools"/>
   <id>https://github.com/ITI/ICS-Security-Tools</id>
@@ -40,6 +89,13 @@
   <id>https://www.kicksecure.com/wiki/Documentation</id>
   <updated>2026-10-18T00:00:00Z</updated>
   <summary>Sertleştirilmiş bir Debian türevi olan Kicksecure'ın wiki'si; sistem sertleştirme, çekirdek ve tarayıcı ayarları, Tor ve parola yönetimi gibi konuları adım adım anlatır. Genel güvenlik kontrol listelerinden farkı, her önerinin işletim sistemi düzeyinde nasıl uygulandığını göstermesidir.</summary>
+</entry>
+<entry>
+  <title>mitmproxy</title>
+  <link href="https://www.mitmproxy.org/"/>
+  <id>https://www.mitmproxy.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>HTTP(S) trafiğini yakalayıp inceleyen, değiştirebilen ve yeniden oynatabilen açık kaynak proxy; terminal, web ve betik arayüzleri var. Burp gibi grafik araçlardan farkı, betiklenebilir ve komut satırında çalışması.</summary>
 </entry>
 <entry>
   <title>Oh SHINT! It's a Blog</title>
@@ -56,11 +112,60 @@
   <summary>450'den fazla aracı, yöntemi ve etik-hukuk notunu 35 bölümde toplayan OSINT rehberi; bağlantı denetim raporu da yayımlıyor. Salt araç listelerinden farkı dört adımlı bir araştırma metodolojisi ve yasal çerçeve bölümlerini de içermesi.</summary>
 </entry>
 <entry>
+  <title>OWASP MASTG</title>
+  <link href="https://mas.owasp.org/MASTG/"/>
+  <id>https://mas.owasp.org/MASTG/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Android ve iOS uygulamalarının güvenlik testini anlatan OWASP kılavuzu; test senaryoları, araçlar ve teknikler tek yerde. Genel web güvenliği kaynaklarından farkı, mobile özgü depolama, ikili analiz ve ağ testlerini kapsaması.</summary>
+</entry>
+<entry>
+  <title>OWASP Threat Dragon</title>
+  <link href="https://owasp.org/projects/threat-dragon"/>
+  <id>https://owasp.org/projects/threat-dragon</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Veri akış diyagramları çizip STRIDE gibi yöntemlerle tehdit modellemesi yapmaya yarayan açık kaynak OWASP aracı; web ve masaüstü sürümü var. Genel diyagram araçlarından farkı, tehditleri ve önlemleri diyagram öğesine bağlaması.</summary>
+</entry>
+<entry>
+  <title>PayloadsAllTheThings</title>
+  <link href="https://github.com/swisskyrepo/PayloadsAllTheThings"/>
+  <id>https://github.com/swisskyrepo/PayloadsAllTheThings</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Web uygulaması güvenliği ve CTF için zafiyet sınıfına göre düzenlenmiş payload ve atlatma notları (SQLi, SSRF, XXE, SSTI vb.). Her klasörde kısa bir açıklama ve örnekler var; tek bir araç değil, zafiyet sınıfına göre bakılan bir başvuru kaynağı.</summary>
+</entry>
+<entry>
+  <title>Phrack</title>
+  <link href="https://phrack.org/"/>
+  <id>https://phrack.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Hacker topluluğunun 1985'ten beri yayımlanan e-zini; sömürü teknikleri, çekirdek ve ağ güvenliği üzerine derin teknik makaleler. Blog ve haber sitelerinden farkı, seyrek yayımlanması ama makale başına çok yüksek teknik derinlik.</summary>
+</entry>
+<entry>
   <title>s0cm0nkey's Security Reference Guide</title>
   <link href="https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide"/>
   <id>https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide</id>
   <updated>2026-10-18T00:00:00Z</updated>
   <summary>SOC, sızma testi, DFIR, tehdit istihbaratı ve AppSec için konu başlıklarına ayrılmış, elle derlenen bağlantı ve kaynak rehberi. Tek bir alana odaklanan awesome listelerinden farkı, mavi ve kırmızı takım alanlarını tek bir gitbook'ta toplamasıdır.</summary>
+</entry>
+<entry>
+  <title>Shodan</title>
+  <link href="https://www.shodan.io/"/>
+  <id>https://www.shodan.io/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>İnternete açık cihazları, sunucuları ve servisleri banner'larına göre arayan arama motoru. Web sayfalarını değil, açık portları ve cihazları indekslediği için Google'dan farklı; ücretsiz hesapla sınırlı sorgu yapılabiliyor.</summary>
+</entry>
+<entry>
+  <title>urlscan.io</title>
+  <link href="https://urlscan.io/"/>
+  <id>https://urlscan.io/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Bir URL'yi gerçek tarayıcıda açıp sayfanın yaptığı tüm istekleri, bağlandığı alan adlarını, ekran görüntüsünü ve DOM'unu kaydeden tarama servisi. VirusTotal gibi sadece itibar puanı vermez; sayfanın davranışını kanıtıyla birlikte gösterir, kamuya açık geçmiş taramalar aranabilir.</summary>
+</entry>
+<entry>
+  <title>WebApps Security Tests MindMap</title>
+  <link href="https://www.amanhardikar.com/mindmaps/webapptest.html"/>
+  <id>https://www.amanhardikar.com/mindmaps/webapptest.html</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Web uygulaması güvenlik testlerini zihin haritası olarak sıralayan tek sayfa; her dal bir test alanı ve araçlarını listeliyor. Metin kontrol listelerinden farkı, kapsamı tek bakışta göstermesi.</summary>
 </entry>
 <entry>
   <title>WiGLE</title>
@@ -180,110 +285,5 @@
   <id>https://hacktricks.wiki/</id>
   <updated>2026-09-10T20:53:20Z</updated>
   <summary>Pentest, red team, web, bulut ve ayrıcalık yükseltme tekniklerini adım adım komutlarla veren bilgi tabanı. Kavramsal güvenlik kitaplarından farkı doğrudan çalıştırılabilir olması: her sayfa “şu porta şu komutu at, çıktıda şunu ara” diyecek kadar somut, ezber değil sahada kullanılan bir başvuru.</summary>
-</entry>
-<entry>
-  <title>Infosec Reference</title>
-  <link href="https://github.com/rmusser01/Infosec_Reference"/>
-  <id>https://github.com/rmusser01/Infosec_Reference</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>Kırmızı ve mavi takım, DFIR, AppSec ve daha fazlasını kapsayan tek çatı altında devasa bir güvenlik başvurusu. Konu bazlı awesome listelerinden farkı bütünsel olması: her uzmanlığa ayrı liste aramak yerine tek yerde, açıklamalı ve düzenli bir referans.</summary>
-</entry>
-<entry>
-  <title>MISP Warning Lists</title>
-  <link href="https://github.com/MISP/misp-warninglists"/>
-  <id>https://github.com/MISP/misp-warninglists</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>Tehdit göstergelerindeki yanlış pozitifleri elemek için hazır listeler — genel DNS çözücüleri, bilinen bulut aralıkları, kamu hizmetleri. Ham gösterge akışlarından farkı gürültü filtresi olması: alarm üretmemesi gereken meşru altyapıyı işaretliyor.</summary>
-</entry>
-<entry>
-  <title>Not The Hidden Wiki</title>
-  <link href="https://github.com/notthehiddenwiki/NTHW"/>
-  <id>https://github.com/notthehiddenwiki/NTHW</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>5000’den fazla siber güvenlik bağlantısını uzmanlık alanlarına göre toplayan açık wiki. Adının çağrıştırdığı karanlık ağ dizinlerinden farkı tamamen açık web ve meşru olması: araçlar, yayınlar ve eğitim kayıtları için düz bir başlangıç noktası, gizli servis değil.</summary>
-</entry>
-<entry>
-  <title>Offensive-Resources</title>
-  <link href="https://github.com/Zeyad-Azima/Offensive-Resources"/>
-  <id>https://github.com/Zeyad-Azima/Offensive-Resources</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>Ofansif güvenliğin her dalını — altyapı, kablosuz, IoT, exploit geliştirme, bulut — laboratuvarlarla birlikte toplayan kaynak seti. Tek konulu listelerden farkı geniş ve laboratuvar odaklı olması: okumakla kalmayıp pratik yapabileceğin ortamları da işaret ediyor.</summary>
-</entry>
-<entry>
-  <title>OSINT for Countries</title>
-  <link href="https://github.com/wddadk/OSINT-for-countries"/>
-  <id>https://github.com/wddadk/OSINT-for-countries</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>OSINT kaynaklarını 193 ülke ve bölgeye göre ayıran liste. Küresel OSINT listelerinden farkı coğrafi olması: belirli bir ülkenin resmi kayıtları, sicilleri ve yerel araçlarını arıyorsan doğrudan o başlığa gidiyorsun.</summary>
-</entry>
-<entry>
-  <title>PoC-in-GitHub</title>
-  <link href="https://github.com/nomi-sec/PoC-in-GitHub"/>
-  <id>https://github.com/nomi-sec/PoC-in-GitHub</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>CVE’lere ait kavram kanıtı depolarını GitHub’dan otomatik toplayan ve günlük güncelleyen liste. Trickest CVE’den farkı yalnız GitHub’ı taraması: her zafiyet için açıkça “bu tarihte şu depo yayınlandı” diyen, PoC’a hızlı ulaşma yolu (README’de zararlı yazılım uyarısı var).</summary>
-</entry>
-<entry>
-  <title>Snoop</title>
-  <link href="https://github.com/snooppr/snoop"/>
-  <id>https://github.com/snooppr/snoop</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>Bir kullanıcı adını yüzlerce sitede arayan takma ad avcısı. Sherlock gibi araçlardan farkı BDT/Rusça web’e ağırlık vermesi: batı odaklı araçların kaçırdığı bölgesel platformları da kapsıyor.</summary>
-</entry>
-<entry>
-  <title>ThreatIntel-Reports</title>
-  <link href="https://github.com/mthcht/ThreatIntel-Reports"/>
-  <id>https://github.com/mthcht/ThreatIntel-Reports</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>Binlerce tehdit istihbaratı raporundan çıkarılmış içeriği aranabilir kılan depo. Raporların kendisinden farkı içlerini taraması: bir aracın ya da APT grubunun adını giriyorsun, hangi raporlarda geçtiğini tek seferde döküyor.</summary>
-</entry>
-<entry>
-  <title>Trickest CVE</title>
-  <link href="https://github.com/trickest/cve"/>
-  <id>https://github.com/trickest/cve</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>Bilinen tüm CVE’leri, varsa kavram kanıtı (PoC) bağlantılarıyla birlikte otomatik toplayan ve güncel tutan depo. NVD gibi resmi veri tabanlarından farkı istismar odaklı olması: bir zafiyetin sömürülebilir kodu nerede diye bakıyorsan doğrudan onu gösteriyor.</summary>
-</entry>
-<entry>
-  <title>TweetFeed</title>
-  <link href="https://tweetfeed.live/"/>
-  <id>https://tweetfeed.live/</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <summary>Infosec topluluğunun Twitter/X’te paylaştığı zararlı URL, alan adı, IP ve hash’leri toplayıp CSV/JSON/RSS/API olarak sunan canlı IOC akışı. Ticari tehdit beslemelerinden farkı kaynağının açık sosyal paylaşımlar olması ve ücretsiz olması: araştırmacı gözlemlerini gerçek zamanlı, makinece okunur hâle getiriyor.</summary>
-</entry>
-<entry>
-  <title>Dark Vortex</title>
-  <link href="https://0xdarkvortex.dev/"/>
-  <id>https://0xdarkvortex.dev/</id>
-  <updated>2026-08-26T20:53:20Z</updated>
-  <summary>Kötücül yazılım geliştirme ve saldırı aracı yazımı üzerine ileri seviye kurslar. Sızma testi eğitimlerinden farkı savunma atlatma ve implant geliştirme tarafına inmesi — kırmızı takım araç geliştiricileri için, sertifika arayanlar için değil.</summary>
-</entry>
-<entry>
-  <title>ISECOM</title>
-  <link href="https://www.isecom.org/"/>
-  <id>https://www.isecom.org/</id>
-  <updated>2026-08-26T20:53:20Z</updated>
-  <summary>OSSTMM güvenlik test metodolojisini yayımlayan kâr amacı gütmeyen kurum. Sertifika kurumlarından farkı asıl ürününün metodoloji olması: nasıl test edileceğini tarif eden, ücretsiz ve satıcı bağımsız bir standart.</summary>
-</entry>
-<entry>
-  <title>Limes Security</title>
-  <link href="https://limessecurity.com/"/>
-  <id>https://limessecurity.com/</id>
-  <updated>2026-08-26T20:53:20Z</updated>
-  <summary>Endüstriyel kontrol sistemleri ve kritik altyapı güvenliğine odaklanan Avusturya merkezli firma; OT güvenliği eğitimleri veriyor. Genel güvenlik eğitimlerinden farkı PLC ve SCADA gibi işletim teknolojisi tarafını ele alması.</summary>
-</entry>
-<entry>
-  <title>Awesome Fuzzing</title>
-  <link href="https://github.com/secfigo/Awesome-Fuzzing"/>
-  <id>https://github.com/secfigo/Awesome-Fuzzing</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Bulanık test kaynaklarının derlemesi: araçlar, kitaplar, konuşmalar, akademik makaleler ve alıştırma ortamları. OWASP sayfasından farkı kapsam — yöntemi öğrendikten sonra derinleşmek için gidilecek yer.</summary>
-</entry>
-<entry>
-  <title>Cryptologie</title>
-  <link href="https://www.cryptologie.net/"/>
-  <id>https://www.cryptologie.net/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Kriptograf David Wong’un uygulamalı kriptografi üzerine blogu ve not arşivi. Akademik makalelerden farkı protokolleri uygulayıcı gözüyle anlatması — teoremi değil, gerçek sistemlerde nerede yanlış kurulduğunu.</summary>
 </entry>
 </feed>

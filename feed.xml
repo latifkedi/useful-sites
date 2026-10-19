@@ -7,12 +7,84 @@
 <id>https://latifkedi.github.io/useful-sites/</id>
 <updated>2026-10-18T00:00:00Z</updated>
 <entry>
+  <title>A Guide to Python's Magic Methods</title>
+  <link href="https://rszalski.github.io/magicmethods/"/>
+  <id>https://rszalski.github.io/magicmethods/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Python'daki __init__, __getattr__, __enter__ gibi özel (dunder) yöntemleri örneklerle gruplayıp anlatan klasik rehber. Dil belgesinden farkı, her grubu nasıl ve ne zaman kullanacağınızı pratik örneklerle göstermesi.</summary>
+</entry>
+<entry>
+  <title>wtfpython</title>
+  <link href="https://github.com/satwikkansal/wtfpython"/>
+  <id>https://github.com/satwikkansal/wtfpython</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Programlama Dilleri"/>
+  <summary>Python'un şaşırtıcı ve sezgiye aykırı davranışlarını kısa kod parçaları ve açıklamalarla derleyen koleksiyon. Standart eğitimlerden farkı, tuzağa önce düşürüp sonra nedenini göstererek öğretmesi.</summary>
+</entry>
+<entry>
   <title>Beej's Guides</title>
   <link href="https://beej.us/guide/"/>
   <id>https://beej.us/guide/</id>
   <updated>2026-10-18T00:00:00Z</updated>
   <category term="C, C++ &amp; Rust"/>
   <summary>C dili ve ağ programlama (soket) üzerine uzun yıllardır güncellenen, ücretsiz ve esprili kılavuzlar; HTML, PDF ve basılı biçimde sunuluyor. Resmî dokümanlardan farkı öğretici bir dille yazılmış olması.</summary>
+</entry>
+<entry>
+  <title>Operation Costs in CPU Clock Cycles</title>
+  <link href="https://6it.dev/blog/infographics-operation-costs-in-cpu-clock-cycles-741"/>
+  <id>https://6it.dev/blog/infographics-operation-costs-in-cpu-clock-cycles-741</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="C, C++ &amp; Rust"/>
+  <summary>Toplama, bellek erişimi, dal tahmini hatası, sanal çağrı gibi işlemlerin CPU döngüsü maliyetini gösteren ünlü infografik ve açıklaması. Performans sezgisi için büyüklük sıralarını verir; kesin ölçüm değildir.</summary>
+</entry>
+<entry>
+  <title>os-tutorial</title>
+  <link href="https://github.com/cfenollosa/os-tutorial"/>
+  <id>https://github.com/cfenollosa/os-tutorial</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="C, C++ &amp; Rust"/>
+  <summary>Önyükleyiciden bir çekirdeğe kadar adım adım ilerleyen, her adımı kısa bir klasörde veren işletim sistemi öğreticisi. Kitaplara göre kısa ve uygulamalı; BIOS tabanlı 32 bit x86 hedefliyor. Proje bakımı yavaş.</summary>
+</entry>
+<entry>
+  <title>The Little Book About OS Development</title>
+  <link href="https://littleosbook.github.io/"/>
+  <id>https://littleosbook.github.io/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="C, C++ &amp; Rust"/>
+  <summary>x86 üzerinde sıfırdan basit bir işletim sistemi yazmayı anlatan ücretsiz kitap: önyükleme, bellek, kesmeler, sistem çağrıları. Büyük işletim sistemi ders kitaplarından farkı, küçük bir çekirdeği baştan sona örnek olarak inşa etmesi.</summary>
+</entry>
+<entry>
+  <title>Write your Own Virtual Machine</title>
+  <link href="https://www.jmeiners.com/lc3-vm/"/>
+  <id>https://www.jmeiners.com/lc3-vm/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="C, C++ &amp; Rust"/>
+  <summary>C ile LC-3 mimarisi için bir sanal makine yazmayı anlatan tek sayfalık öğretici; sonunda gerçek LC-3 programları çalışıyor. Mimari anlatımlarından farkı, birkaç yüz satırda çalışan bir yürütücü ortaya çıkarması.</summary>
+</entry>
+<entry>
+  <title>Front-End Checklist</title>
+  <link href="https://github.com/thedaviddias/Front-End-Checklist"/>
+  <id>https://github.com/thedaviddias/Front-End-Checklist</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Web &amp; Frontend"/>
+  <summary>Bir web sayfasını yayına almadan önce HTML, CSS, JS, erişilebilirlik, performans ve SEO için denetlenecek maddeleri öncelik etiketleriyle listeler. Genel rehberlerden farkı, işaretlenebilir ve önceliklendirilmiş kontrol listesi olması.</summary>
+</entry>
+<entry>
+  <title>Mozilla Web Security Guidelines</title>
+  <link href="https://infosec.mozilla.org/guidelines/web_security.html"/>
+  <id>https://infosec.mozilla.org/guidelines/web_security.html</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Web &amp; Frontend"/>
+  <summary>Mozilla'nın web sitelerine önerdiği güvenlik başlıkları ve ayarları: CSP, HSTS, çerez bayrakları, CORS, SRI. Her ayar için öncelik ve örnek yapılandırma verdiği için genel güvenlik yazılarından daha uygulanabilir.</summary>
+</entry>
+<entry>
+  <title>NGINX Config Generator (nginxconfig.io)</title>
+  <link href="https://www.digitalocean.com/community/tools/nginx"/>
+  <id>https://www.digitalocean.com/community/tools/nginx</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Web &amp; Frontend"/>
+  <summary>Alan adı, PHP/Node, güvenlik ve performans seçeneklerini işaretleyerek hazır bir NGINX yapılandırması üreten arayüz. Örnek yapılandırma kopyalamaya göre en iyi uygulama ayarlarını (TLS, başlıklar, gzip) otomatik ekliyor.</summary>
 </entry>
 <entry>
   <title>Protomaps</title>
@@ -55,6 +127,46 @@
   <summary>WebAssembly standardının resmî sitesi: belirtimler, kavramlara giriş ve hangi önerinin hangi tarayıcı ve çalışma ortamında desteklendiğini gösteren özellik tablosu. MDN’in WebAssembly sayfalarından farkı JavaScript tarafından değil, standardın kendisinden ve çalışma ortamlarının durumundan bakması.</summary>
 </entry>
 <entry>
+  <title>webhint</title>
+  <link href="https://webhint.io/"/>
+  <id>https://webhint.io/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Web &amp; Frontend"/>
+  <summary>Bir sitenin erişilebilirlik, hız, güvenlik ve uyumluluk sorunlarını tarayan, her kuralı açıklayan açık kaynak linter; çevrimiçi tarama, CLI ve VS Code eklentisi olarak çalışıyor. Lighthouse'tan farkı kural başına ayrıntılı dokümantasyon sunması ve yapılandırılabilir olması.</summary>
+</entry>
+<entry>
+  <title>Enable CORS</title>
+  <link href="https://enable-cors.org/"/>
+  <id>https://enable-cors.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Backend, API &amp; Sistem Tasarımı"/>
+  <summary>CORS'u (kaynaklar arası paylaşım) Apache, nginx, Node, IIS gibi onlarca sunucu ve çatı için kopyalanabilir yapılandırmalarla anlatan küçük başvuru sitesi. Genel HTTP belgelerinden farkı, 'şu sunucuda CORS nasıl açılır' sorusuna doğrudan yanıt vermesi.</summary>
+</entry>
+<entry>
+  <title>HTTPie</title>
+  <link href="https://httpie.io/"/>
+  <id>https://httpie.io/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Backend, API &amp; Sistem Tasarımı"/>
+  <summary>curl'e okunaklı bir alternatif: renkli JSON çıktısı ve basit söz dizimiyle HTTP istekleri gönderir. curl'den farkı, yaygın API isteklerini çok daha az karakterle yazdırması; masaüstü ve web uygulamaları da var, bazıları hesap ister.</summary>
+</entry>
+<entry>
+  <title>Hurl</title>
+  <link href="https://hurl.dev/"/>
+  <id>https://hurl.dev/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Backend, API &amp; Sistem Tasarımı"/>
+  <summary>HTTP isteklerini ve beklenen yanıtları (durum, JSONPath, XPath, başlık) düz metin dosyasında yazıp çalıştıran, CI'da test olarak kullanılabilen komut satırı aracı. Postman koleksiyonlarının aksine dosyalar git içinde okunabilir kalır.</summary>
+</entry>
+<entry>
+  <title>The C10K problem</title>
+  <link href="https://www.kegel.com/c10k.html"/>
+  <id>https://www.kegel.com/c10k.html</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Backend, API &amp; Sistem Tasarımı"/>
+  <summary>Tek bir sunucunun on bin eşzamanlı bağlantıyı nasıl kaldırabileceğini (select/poll, epoll, iş parçacığı modelleri, çekirdek desteği) anlatan klasik makale. Modern olay döngüsü ve async sunucuların neden o şekilde tasarlandığını tarihsel olarak açıklaması değerli. Modern async çerçevelerin belgelerinden farklı olarak tasarımın tarihsel nedenini anlatır.</summary>
+</entry>
+<entry>
   <title>Wasmer</title>
   <link href="https://wasmer.io/"/>
   <id>https://wasmer.io/</id>
@@ -71,6 +183,14 @@
   <summary>Bytecode Alliance’ın tarayıcı dışında WebAssembly çalıştıran çalışma ortamı; Rust ile yazılmış, Cranelift ile derliyor, WASI ve bileşen modelini ilk uygulayanlardan. Wasmer’dan farkı paket kaydı ya da barındırma satmaması; standart takibine ve gömülerek kullanılmaya odaklanması.</summary>
 </entry>
 <entry>
+  <title>PostgreSQLCO.NF</title>
+  <link href="https://postgresqlco.nf/doc/en/param/"/>
+  <id>https://postgresqlco.nf/doc/en/param/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Veritabanı"/>
+  <summary>postgresql.conf'taki her parametreyi, sürüm farklarını, varsayılan değerleri ve topluluk önerileriyle tek sayfada gösteren arama yapılabilir belge. Resmî belgelerden farkı, parametre başına ayar önerisi ve bağlam sunması.</summary>
+</entry>
+<entry>
   <title>Select Star SQL</title>
   <link href="https://selectstarsql.com/"/>
   <id>https://selectstarsql.com/</id>
@@ -85,6 +205,70 @@
   <updated>2026-10-18T00:00:00Z</updated>
   <category term="Test &amp; Kalite"/>
   <summary>Test otomasyonu pratiği için hedef siteler ve API’lerin listesi: demo mağazalar, formlar, tuzaklı sayfalar ve sahte API’ler türüne göre ayrılmış. Bu dizinde yalnızca birkaç temsilci tutuluyor; birbirinin yerine geçen onlarca demo sitesinin tam listesi burada.</summary>
+</entry>
+<entry>
+  <title>badssl.com</title>
+  <link href="https://badssl.com/"/>
+  <id>https://badssl.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Test &amp; Kalite"/>
+  <summary>Süresi dolmuş, kendinden imzalı, yanlış ana bilgisayar adlı gibi bilerek bozuk TLS yapılandırmalarına sahip alt alan adları sunan test sitesi. Sunucu değil istemciyi sınar: tarayıcın veya HTTP kütüphanen bu hataları doğru reddediyor mu bunu denemek için.</summary>
+</entry>
+<entry>
+  <title>CryptCheck</title>
+  <link href="https://cryptcheck.fr/"/>
+  <id>https://cryptcheck.fr/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Test &amp; Kalite"/>
+  <summary>HTTPS, SMTP ve XMPP sunucularının TLS yapılandırmasını şifre takımı, sertifika ve anahtar değişimi açısından puanlayan Fransız test sitesi. SSL Labs'ten farkı yalnızca web değil e-posta ve mesajlaşma sunucularını da kapsaması.</summary>
+</entry>
+<entry>
+  <title>CSP Evaluator</title>
+  <link href="https://csp-evaluator.withgoogle.com/"/>
+  <id>https://csp-evaluator.withgoogle.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Test &amp; Kalite"/>
+  <summary>Bir Content-Security-Policy başlığını yapıştırınca atlatılabilir kuralları (unsafe-inline, geniş joker karakterler, eksik yönergeler) işaretleyen Google aracı. securityheaders.com başlıkları genel olarak puanlar; bu ise yalnızca CSP'yi yönerge yönerge ve XSS açısından inceler. Genel başlık denetçilerinden farklı olarak yalnızca CSP'yi yönerge yönerge inceler.</summary>
+</entry>
+<entry>
+  <title>Hardenize</title>
+  <link href="https://www.hardenize.com/"/>
+  <id>https://www.hardenize.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Test &amp; Kalite"/>
+  <summary>Bir alan adının DNS, e-posta (SPF/DKIM/DMARC), TLS ve web başlığı güvenliğini tek raporda toplayan tarayıcı. Tek katmanı ölçen testlerin aksine bütün dış yüzeyi birlikte gösterir; kamuya açık tek tarama ücretsiz, sürekli izleme ücretli.</summary>
+</entry>
+<entry>
+  <title>How's My SSL?</title>
+  <link href="https://www.howsmyssl.com/"/>
+  <id>https://www.howsmyssl.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Test &amp; Kalite"/>
+  <summary>Tarayıcının TLS istemci yapılandırmasını (sürüm, şifre takımları, bilinen zayıflıklar) tek sayfada değerlendiren test. SSL Labs sunucuyu test eder; bu ise senin tarafını, yani tarayıcıyı ve işletim sistemini sınar; sonuç JSON API olarak da alınabiliyor. SSL Labs sunucuyu sınar, bu ise istemci tarafını.</summary>
+</entry>
+<entry>
+  <title>MDN HTTP Observatory</title>
+  <link href="https://observatory.mozilla.org/"/>
+  <id>https://observatory.mozilla.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Test &amp; Kalite"/>
+  <summary>Mozilla'nın bir sitenin başlıklarını, çerezlerini ve TLS ayarlarını güvenlik en iyi uygulamalarına göre puanlayan tarayıcı içi denetleyicisi; artık MDN içinde. securityheaders.com'dan farkı yeniden test geçmişi tutması ve açık kaynak bir tarayıcı (http-observatory) tarafından desteklenmesi.</summary>
+</entry>
+<entry>
+  <title>Security Headers</title>
+  <link href="https://securityheaders.com/"/>
+  <id>https://securityheaders.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Test &amp; Kalite"/>
+  <summary>Bir sitenin HTTP yanıt başlıklarını (CSP, HSTS, X-Frame-Options, Permissions-Policy vb.) tarayıp A–F arası not veren ve eksik olanı açıklayan tarayıcı içi test. SSL Labs TLS katmanına bakar; bu, uygulama katmanındaki başlık sertleştirmesine bakar. TLS katmanına bakan araçlar yerine uygulama katmanı başlıklarına bakar.</summary>
+</entry>
+<entry>
+  <title>Static Analysis Tools</title>
+  <link href="https://github.com/analysis-tools-dev/static-analysis"/>
+  <id>https://github.com/analysis-tools-dev/static-analysis</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <category term="Test &amp; Kalite"/>
+  <summary>Her programlama dili ve biçim için statik analiz, linter ve biçimlendirici araçlarını dile göre gruplayan derleme (eski adı awesome-static-analysis). Tek bir araca değil, seçeneklerin karşılaştırmalı haritasına bakmak için.</summary>
 </entry>
 <entry>
   <title>Awesome GIS</title>
@@ -135,195 +319,11 @@
   <summary>Windows, macOS ve Linux’ta çalışan açık kaynak masaüstü coğrafi bilgi sistemi; shapefile, GeoPackage, PostGIS ve raster katmanlarını okuyup analiz ediyor, eklentilerle genişliyor. ArcGIS’ten farkı lisans ücreti olmaması; buna karşın kurumsal destek topluluk ve ticari ortaklardan geliyor.</summary>
 </entry>
 <entry>
-  <title>Floci</title>
-  <link href="https://floci.io/floci/"/>
-  <id>https://floci.io/floci/</id>
+  <title>Certbot</title>
+  <link href="https://certbot.eff.org/"/>
+  <id>https://certbot.eff.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
   <category term="DevOps &amp; Altyapı"/>
-  <summary>Yerelde ve CI'da çalışan, hesap ya da token istemeyen AWS emülatörü; AWS SDK, CLI ve Terraform aynı 4566 portuna yönlendirilir. LocalStack'ten farkı, özellik kısıtı ve kimlik doğrulaması olmadan imaj değiştirerek yerine geçmeyi hedeflemesidir.</summary>
-</entry>
-<entry>
-  <title>iximiuz Labs</title>
-  <link href="https://labs.iximiuz.com/"/>
-  <id>https://labs.iximiuz.com/</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="DevOps &amp; Altyapı"/>
-  <summary>Linux, konteyner, Kubernetes ve ağ konularını tarayıcıdaki gerçek sanal makinelerde uygulamalı öğreten laboratuvarlar ve meydan okumalar. Yalnız anlatan yazılardan farkı her dersin çalışan bir ortamla gelmesi.</summary>
-</entry>
-<entry>
-  <title>Awesome eBPF (qmonnet)</title>
-  <link href="https://github.com/qmonnet/awesome-ebpf"/>
-  <id>https://github.com/qmonnet/awesome-ebpf</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Ağ &amp; Sistem Yönetimi"/>
-  <summary>eBPF ile ilgili projeler, makaleler ve araçlar için liste; derleyici, izleme ve ağ (XDP) projeleri ayrı başlıklarda. Dizindeki diğer eBPF listesinden farkı bakımının sürmesi ve eBPF dokümantasyonu yazan birinin elinden çıkması.</summary>
-</entry>
-<entry>
-  <title>Bridgy Fed</title>
-  <link href="https://fed.brid.gy"/>
-  <id>https://fed.brid.gy</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Ağ &amp; Sistem Yönetimi"/>
-  <summary>Web siteleri, fediverse (Mastodon vb.) ve Bluesky/AT Protocol arasında köprü kuran servis; hesabını kaybetmeden ağlar arası takip ve yanıt sağlar. Tek ağa bağlı istemcilerden farkı protokolleri birbirine çevirmesi.</summary>
-</entry>
-<entry>
-  <title>OpenInfraMap</title>
-  <link href="https://openinframap.org"/>
-  <id>https://openinframap.org</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Ağ &amp; Sistem Yönetimi"/>
-  <summary>OpenStreetMap verisinden elektrik hatları, santraller, petrol/gaz boru hatları ve telekom altyapısını çizen harita. Genel haritalardan farkı altyapıya özel katmanlar ve gerilim/kapasite ayrıntısı.</summary>
-</entry>
-<entry>
-  <title>Submarine Cable Map</title>
-  <link href="https://www.submarinecablemap.com/"/>
-  <id>https://www.submarinecablemap.com/</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Ağ &amp; Sistem Yönetimi"/>
-  <summary>TeleGeography'nin dünyadaki denizaltı internet kablolarını, iniş noktalarını ve işleten şirketleri gösteren etkileşimli haritası. Genel ağ haritalarından farkı, internetin fiziksel omurgasını kablo kablo izlenebilir kılmasıdır.</summary>
-</entry>
-<entry>
-  <title>MediaWiki</title>
-  <link href="https://www.mediawiki.org/wiki/MediaWiki"/>
-  <id>https://www.mediawiki.org/wiki/MediaWiki</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Öz-Barındırma &amp; Kişisel Bulut"/>
-  <summary>Vikipedi'nin de üzerinde çalıştığı wiki yazılımının resmi sayfası; kurulum, yapılandırma, eklenti ve API belgeleri burada. Kendi sunucusunda bilgi tabanı kurmak isteyenler için en yaygın ve olgun wiki motoru olmasıyla ayrılır.</summary>
-</entry>
-<entry>
-  <title>Self-Hosting Guide</title>
-  <link href="https://github.com/mikeroyal/Self-Hosting-Guide"/>
-  <id>https://github.com/mikeroyal/Self-Hosting-Guide</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Öz-Barındırma &amp; Kişisel Bulut"/>
-  <summary>Kendi sunucunda barındırmayı (ev ve bulut) anlatan, yazılım ve araç bağlantılarıyla dolu büyük rehber. awesome-selfhosted'dan farkı yalnız uygulama listesi değil, kurulum ve altyapı konularını da kapsaması.</summary>
-</entry>
-<entry>
-  <title>Spacebar</title>
-  <link href="https://spacebar.chat"/>
-  <id>https://spacebar.chat</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Öz-Barındırma &amp; Kişisel Bulut"/>
-  <summary>Discord'un arka uç ve arayüzünü yeniden uygulayan, kendi sunucunda barındırılabilen sohbet platformu. Matrix veya Rocket.Chat'ten farkı Discord API'si ile uyumlu olması.</summary>
-</entry>
-<entry>
-  <title>YunoHost App Store</title>
-  <link href="https://apps.yunohost.org"/>
-  <id>https://apps.yunohost.org</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Öz-Barındırma &amp; Kişisel Bulut"/>
-  <summary>YunoHost için tek tıkla kurulabilen uygulamaların kataloğu; kalite ve bakım düzeyine göre derecelendirilmiş. awesome-selfhosted'dan farkı, listelenen her uygulamanın YunoHost'ta hazır paketlenmiş olması.</summary>
-</entry>
-<entry>
-  <title>Digital Defense (Personal Security Checklist)</title>
-  <link href="https://digital-defense.io/"/>
-  <id>https://digital-defense.io/</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Gizlilik &amp; Kişisel Güvenlik"/>
-  <summary>300'den fazla maddelik, kategorilere ayrılmış kişisel dijital güvenlik kontrol listesi; her maddenin yanında önerilen araç ve ayarlar bulunur. Tek bir aracı değil, parolalardan mesajlaşmaya kadar tüm güvenlik alışkanlıklarını kapsayan açık kaynaklı bir denetim listesi olması onu ayırır.</summary>
-</entry>
-<entry>
-  <title>KVKK — Kişisel Verileri Koruma Kurumu</title>
-  <link href="https://www.kvkk.gov.tr/"/>
-  <id>https://www.kvkk.gov.tr/</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Gizlilik &amp; Kişisel Güvenlik"/>
-  <summary>Türkiye’nin veri koruma otoritesi: 6698 sayılı Kanun, Kurul kararları, rehberler ve kamuoyuna duyurulan veri ihlali bildirimleri. Gizlilik araçları anlatan rehberlerden farkı düzenleyicinin kendisi olması: şirketlerin ne yapmak zorunda olduğunu ve hangi sızıntıların bildirildiğini buradan görüyorsun.</summary>
-</entry>
-<entry>
-  <title>PRISM Break</title>
-  <link href="https://prism-break.org/en/all/"/>
-  <id>https://prism-break.org/en/all/</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Gizlilik &amp; Kişisel Güvenlik"/>
-  <summary>Gözetim yapan hizmetlere karşı platform ve kategoriye göre özgür, gizliliğe saygılı alternatifleri listeleyen katalog. Genel yazılım alternatifi sitelerinden farkı, ölçütünün yalnızca gizlilik ve açık kaynak olmasıdır.</summary>
-</entry>
-<entry>
-  <title>Surveillance Self-Defense</title>
-  <link href="https://ssd.eff.org/"/>
-  <id>https://ssd.eff.org/</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Gizlilik &amp; Kişisel Güvenlik"/>
-  <summary>Electronic Frontier Foundation'ın gözetime karşı iletişim ve cihaz güvenliği rehberi; tehdit modeli çıkarmaktan şifreli mesajlaşmaya kadar adım adım kılavuzlar içerir. Araç listelerinden farkı, önce kime karşı korunulduğunu sorgulatan öğretici yaklaşımıdır.</summary>
-</entry>
-<entry>
-  <title>WhoTracks.me</title>
-  <link href="https://www.ghostery.com/whotracksme"/>
-  <id>https://www.ghostery.com/whotracksme</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Gizlilik &amp; Kişisel Güvenlik"/>
-  <summary>Web sitelerindeki ve izleyici şirketlerdeki takibin yaygınlığını aylık ölçümlerle gösteren Ghostery verisi; hangi sitede hangi izleyicilerin çalıştığı aranabilir. Eklenti panellerinden farkı, ham verisi açık veri olarak indirilebilen uzun soluklu bir ölçüm arşivi olmasıdır.</summary>
-</entry>
-<entry>
-  <title>Awesome Connected Things Security</title>
-  <link href="https://v33ru.github.io/awesome-connected-things-sec/"/>
-  <id>https://v33ru.github.io/awesome-connected-things-sec/</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Saldırı, Savunma &amp; OSINT"/>
-  <summary>IoT, gömülü, endüstriyel ve otomotiv sistemlerinin güvenlik araştırması için donanım saldırıları, kablosuz protokoller (BLE, Zigbee, LoRa, NFC) ve firmware kaynaklarını bir araya getiren liste. Web odaklı güvenlik listelerinden farkı fiziksel cihazlara ve radyo katmanına odaklanması.</summary>
-</entry>
-<entry>
-  <title>Awesome Cybersecurity List</title>
-  <link href="https://github.com/0xor0ne/awesome-list"/>
-  <id>https://github.com/0xor0ne/awesome-list</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Saldırı, Savunma &amp; OSINT"/>
-  <summary>Siber güvenlik blog yazıları, write-up ve makalelerin yıla göre dizilmiş arşivi; 2026 girdileri de var. Araç listelerinden farkı bağlantıların alet değil okunacak teknik analiz olması (exploit zincirleri, CVE incelemeleri); araçlar ayrı bir dosyada.</summary>
-</entry>
-<entry>
-  <title>Awesome Industrial Protocols</title>
-  <link href="https://github.com/Orange-Cyberdefense/awesome-industrial-protocols"/>
-  <id>https://github.com/Orange-Cyberdefense/awesome-industrial-protocols</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Saldırı, Savunma &amp; OSINT"/>
-  <summary>Modbus, S7, OPC UA gibi endüstriyel ağ protokollerine saldırı odaklı bakan kaynak listesi; her protokol için ayrı sayfa ve veri tabanı var. Genel güvenlik listelerinden farkı OT/ICS protokol düzeyine inmesi.</summary>
-</entry>
-<entry>
-  <title>ICS Security Tools</title>
-  <link href="https://github.com/ITI/ICS-Security-Tools"/>
-  <id>https://github.com/ITI/ICS-Security-Tools</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Saldırı, Savunma &amp; OSINT"/>
-  <summary>Endüstriyel kontrol sistemleri (ICS/SCADA) güvenliği için araçlar, protokol notları, pcap örnekleri, yapılandırmalar ve rehberler. Genel güvenlik listelerinden farkı yalnızca OT/ICS ortamına odaklanması; pcap ve protokol malzemesi de içeriyor. Son güncelleme 2025.</summary>
-</entry>
-<entry>
-  <title>Kicksecure Documentation</title>
-  <link href="https://www.kicksecure.com/wiki/Documentation"/>
-  <id>https://www.kicksecure.com/wiki/Documentation</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Saldırı, Savunma &amp; OSINT"/>
-  <summary>Sertleştirilmiş bir Debian türevi olan Kicksecure'ın wiki'si; sistem sertleştirme, çekirdek ve tarayıcı ayarları, Tor ve parola yönetimi gibi konuları adım adım anlatır. Genel güvenlik kontrol listelerinden farkı, her önerinin işletim sistemi düzeyinde nasıl uygulandığını göstermesidir.</summary>
-</entry>
-<entry>
-  <title>Oh SHINT! It's a Blog</title>
-  <link href="https://ohshint.gitbook.io/oh-shint-its-a-blog"/>
-  <id>https://ohshint.gitbook.io/oh-shint-its-a-blog</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Saldırı, Savunma &amp; OSINT"/>
-  <summary>OSINT için web kaynakları ve araç listeleri ile blog yazılarını bir GitBook'ta toplayan site; yılın yeni eklenen kaynaklarını ayrı sayfada veriyor. Tek bir çerçeve sayfasından farkı konuya göre ayrılmış çok sayıda alt listesi olması; son güncelleme 2024.</summary>
-</entry>
-<entry>
-  <title>OSINT Bible</title>
-  <link href="https://github.com/frangelbarrera/OSINT-BIBLE"/>
-  <id>https://github.com/frangelbarrera/OSINT-BIBLE</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Saldırı, Savunma &amp; OSINT"/>
-  <summary>450'den fazla aracı, yöntemi ve etik-hukuk notunu 35 bölümde toplayan OSINT rehberi; bağlantı denetim raporu da yayımlıyor. Salt araç listelerinden farkı dört adımlı bir araştırma metodolojisi ve yasal çerçeve bölümlerini de içermesi.</summary>
-</entry>
-<entry>
-  <title>s0cm0nkey's Security Reference Guide</title>
-  <link href="https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide"/>
-  <id>https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Saldırı, Savunma &amp; OSINT"/>
-  <summary>SOC, sızma testi, DFIR, tehdit istihbaratı ve AppSec için konu başlıklarına ayrılmış, elle derlenen bağlantı ve kaynak rehberi. Tek bir alana odaklanan awesome listelerinden farkı, mavi ve kırmızı takım alanlarını tek bir gitbook'ta toplamasıdır.</summary>
-</entry>
-<entry>
-  <title>WiGLE</title>
-  <link href="https://wigle.net"/>
-  <id>https://wigle.net</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="Saldırı, Savunma &amp; OSINT"/>
-  <summary>Gönüllülerce toplanan dünya çapındaki Wi-Fi, Bluetooth ve baz istasyonu gözlemlerinin harita ve arama arayüzü. Coğrafi IP servislerinden farkı kablosuz erişim noktalarını konum verisiyle indekslemesi.</summary>
+  <summary>Let's Encrypt sertifikalarını alıp yenileyen EFF aracı; sitede web sunucusu ve işletim sistemini seçince kuruluma özel komutlar çıkıyor. acme.sh gibi hafif istemcilerden farkı, nginx ve Apache yapılandırmasını kendisi düzenleyebilmesi.</summary>
 </entry>
 </feed>

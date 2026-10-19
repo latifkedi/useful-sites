@@ -7,6 +7,20 @@
 <id>https://latifkedi.github.io/useful-sites/feed/referans.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
 <entry>
+  <title>Bruce Barnett's Grymoire</title>
+  <link href="https://www.grymoire.com/"/>
+  <id>https://www.grymoire.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>sed, awk, csh ve regex gibi Unix araçları için uzun soluklu, ayrıntılı öğreticiler barındıran eski ama hâlâ kullanışlı site. Kısa kopya kâğıtlarından farkı, her aracı baştan sona kapsamlı anlatması.</summary>
+</entry>
+<entry>
+  <title>Comprehensive Python Cheatsheet</title>
+  <link href="https://github.com/gto76/python-cheatsheet"/>
+  <id>https://github.com/gto76/python-cheatsheet</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Python'un sözdizimi, koleksiyonlar, standart kütüphane ve yaygın modüllerini tek sayfalık yoğun bir özet olarak veren kopya kâğıdı. Başlangıç eğitimlerinden farkı sıfırdan anlatmaması, bilen birinin hızlıca hatırlaması için yazılmış olması.</summary>
+</entry>
+<entry>
   <title>CTAN</title>
   <link href="https://ctan.org/"/>
   <id>https://ctan.org/</id>
@@ -21,6 +35,27 @@
   <summary>Aradığın sembolü fareyle çiziyorsun, karşılık gelen LaTeX komutunu ve gereken paketi söylüyor. Sembol tablolarını taramaktan farkı adını bilmediğin bir işareti şeklinden bulabilmen.</summary>
 </entry>
 <entry>
+  <title>Grymoire: AWK Tutorial</title>
+  <link href="https://www.grymoire.com/Unix/Awk.html"/>
+  <id>https://www.grymoire.com/Unix/Awk.html</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>AWK'yı sıfırdan, örneklerle anlatan uzun tek sayfa öğretici. Kılavuz sayfasından farkı, alan ayırıcı, desen ve değişkenleri küçük betiklerle adım adım göstermesi. Site eski görünüyor ama içerik hâlâ geçerli.</summary>
+</entry>
+<entry>
+  <title>Grymoire: Grep Tutorial</title>
+  <link href="https://www.grymoire.com/Unix/Grep.html"/>
+  <id>https://www.grymoire.com/Unix/Grep.html</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>grep, egrep ve fgrep arasındaki farkları ve düzenli ifade söz dizimini örnekle anlatan öğretici. Kılavuz sayfasından farkı, temel ve genişletilmiş düzenli ifadelerin kaçış kurallarını açıkça karşılaştırması.</summary>
+</entry>
+<entry>
+  <title>Grymoire: Sed Tutorial</title>
+  <link href="https://www.grymoire.com/Unix/Sed.html"/>
+  <id>https://www.grymoire.com/Unix/Sed.html</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>sed'i adres, komut ve düzenli ifadelerle öğreten, örnekli tek sayfa öğretici. Kılavuz sayfasından farkı, hold space gibi kafa karıştıran kısımları da açıklaması.</summary>
+</entry>
+<entry>
   <title>iHateRegex</title>
   <link href="https://ihateregex.io/"/>
   <id>https://ihateregex.io/</id>
@@ -28,11 +63,53 @@
   <summary>E-posta, telefon, tarih, IP adresi gibi sık ihtiyaç duyulan düzenli ifadelerin kataloğu; her biri diyagram, açıklama ve deneme alanıyla geliyor. Test araçlarından farkı ifadeyi sıfırdan yazdırmak yerine hazır ve açıklanmış bir kalıp vermesi.</summary>
 </entry>
 <entry>
+  <title>Julia Evans' Drawings</title>
+  <link href="https://drawings.jvns.ca/"/>
+  <id>https://drawings.jvns.ca/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Linux, ağ, hata ayıklama araçları ve sistem kavramlarını çizimler ve 'zine'lerle anlatan Julia Evans'ın sayfası. Çizimlerin çoğu ücretsiz okunabiliyor; yoğun metin yerine tek bakışta anlaşılan görsel özetler sunuyor.</summary>
+</entry>
+<entry>
+  <title>OID Repository (Alvestrand)</title>
+  <link href="https://www.alvestrand.no/objectid/"/>
+  <id>https://www.alvestrand.no/objectid/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Nesne tanımlayıcılarını (OID) ağaç yapısında gezip aramaya yarayan dizin; X.509 sertifika alanlarını çözerken kullanışlı. Büyük OID veritabanlarından farkı sade ve hızlı olması, internet ve sertifika dallarına ağırlık vermesi.</summary>
+</entry>
+<entry>
+  <title>OWASP Cheat Sheet Series</title>
+  <link href="https://cheatsheetseries.owasp.org/"/>
+  <id>https://cheatsheetseries.owasp.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Kimlik doğrulama, enjeksiyon önleme, oturum yönetimi gibi uygulama güvenliği konularında kısa, uygulama odaklı kılavuzlar. OWASP Top 10 gibi risk listelerinden farkı, sorunu anlatmak yerine nasıl önleneceğini vermesi.</summary>
+</entry>
+<entry>
+  <title>PortSwigger XSS Cheat Sheet</title>
+  <link href="https://portswigger.net/web-security/cross-site-scripting/cheat-sheet"/>
+  <id>https://portswigger.net/web-security/cross-site-scripting/cheat-sheet</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Etiket, olay işleyicisi ve tarayıcıya göre filtrelenebilen XSS vektörleri listesi. Düz payload listelerinden farkı, her vektörün hangi tarayıcıda ve hangi kullanıcı etkileşimiyle çalıştığını belirtmesi.</summary>
+</entry>
+<entry>
+  <title>Pure sh Bible</title>
+  <link href="https://github.com/dylanaraps/pure-sh-bible"/>
+  <id>https://github.com/dylanaraps/pure-sh-bible</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Dış komut (sed, awk, cut) çağırmadan saf POSIX sh ile string, dizi, dosya ve döngü işlemlerinin nasıl yapıldığını gösteren tarif koleksiyonu. Bash'e özgü rehberlerden farkı taşınabilir ve hızlı betikler için yalnızca POSIX'e bağlı kalması.</summary>
+</entry>
+<entry>
   <title>TDK Güncel Türkçe Sözlük</title>
   <link href="https://sozluk.gov.tr/"/>
   <id>https://sozluk.gov.tr/</id>
   <updated>2026-10-18T00:00:00Z</updated>
   <summary>Türk Dil Kurumu’nun sözlükleri tek arama kutusunda: Güncel Türkçe Sözlük, Yazım Kılavuzu, atasözleri ve terim sözlükleri. Tureng gibi iki dilli sözlüklerden farkı tek dilli ve kuralcı olması; bir kelimenin nasıl yazılacağına bakılan yer.</summary>
+</entry>
+<entry>
+  <title>The Art of Command Line</title>
+  <link href="https://github.com/jlevy/the-art-of-command-line"/>
+  <id>https://github.com/jlevy/the-art-of-command-line</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Komut satırını verimli kullanmak için günlük, ileri ve 'sadece belirli durumlar' bölümlerine ayrılmış kısa ipucu derlemesi; onlarca dile çevrilmiş. Komut referanslarından farkı yeni başlayandan ustaya sıralı bir alışkanlık listesi olması.</summary>
 </entry>
 <entry>
   <title>The Book of Secret Knowledge</title>
@@ -47,6 +124,13 @@
   <id>https://tureng.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
   <summary>Türkçe–İngilizce çevrimiçi sözlük; karşılıkları bilgisayar, hukuk, tıp gibi alanlara göre ayırıyor ve telaffuz veriyor. TDK sözlüğünden farkı iki dilli ve terim odaklı olması; teknik bir İngilizce kelimenin alandaki Türkçe karşılığını bulmanın hızlı yolu.</summary>
+</entry>
+<entry>
+  <title>Unix Toolbox</title>
+  <link href="https://cb.vu/unixtoolbox.html"/>
+  <id>https://cb.vu/unixtoolbox.html</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Unix/Linux sistem yönetimi komutlarını tek uzun sayfada toplayan klasik başvuru: ağ, dosya sistemi, süreçler, SSH, güvenlik. Kitap gibi okunmaz, Ctrl+F ile aranır; tek sayfa olması ve yıllardır sabit kalması değeri.</summary>
 </entry>
 <entry>
   <title>Python Module of the Week</title>
@@ -201,89 +285,5 @@
   <id>https://vim.rtorr.com</id>
   <updated>2026-08-21T20:53:20Z</updated>
   <summary>Vim komutlarının kategorilere ayrılmış tek sayfalık listesi; on kadar dile çevrilmiş. `vimtutor`dan farkı öğretmemesi, hatırlatması — Vim kullanmaya başladıktan sonraki ay açık tuttuğun sekme.</summary>
-</entry>
-<entry>
-  <title>x86 Instruction Set Reference</title>
-  <link href="https://c9x.me/x86/"/>
-  <id>https://c9x.me/x86/</id>
-  <updated>2026-08-21T20:53:20Z</updated>
-  <summary>x86 komut kümesinin aranabilir referansı; her komut için kodlama, bayraklar ve sözde kod. Intel’in PDF kılavuzlarından farkı hızlı olması — bir komutu doğrulamak için 5000 sayfalık PDF açmıyorsun.</summary>
-</entry>
-<entry>
-  <title>Learn X in Y Minutes</title>
-  <link href="https://learnxinyminutes.com/"/>
-  <id>https://learnxinyminutes.com/</id>
-  <updated>2026-08-19T23:39:30Z</updated>
-  <summary>Bir dili tek yorumlu kod dosyasıyla tanıtıyor. Başka dil bilenler için hızlı bir geçiş yolu: kavramları değil yalnızca sözdizimi farklarını okuyorsun.</summary>
-</entry>
-<entry>
-  <title>DevDocs</title>
-  <link href="https://devdocs.io/"/>
-  <id>https://devdocs.io/</id>
-  <updated>2026-08-19T16:12:43Z</updated>
-  <summary>Yüzlerce teknolojinin resmî dokümanını tek arayüzde topluyor; çevrimdışı indirilebiliyor ve anlık arama sunuyor. Doküman sitelerini tek tek gezmekten farkı her şeyin aynı arama kutusunda olması.</summary>
-</entry>
-<entry>
-  <title>Airbnb JavaScript Üslup Kılavuzu</title>
-  <link href="https://github.com/airbnb/javascript"/>
-  <id>https://github.com/airbnb/javascript</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>JavaScript’in en yaygın benimsenen üslup kılavuzu; ESLint yapılandırması olarak doğrudan kurulabiliyor ve her kural doğru ve yanlış örnek kodla gösterilmiş. Standard’dan farkı kuralları gerekçeleriyle anlatıp özelleştirmeye izin vermesi.</summary>
-</entry>
-<entry>
-  <title>cheat.sh</title>
-  <link href="https://github.com/chubin/cheat.sh"/>
-  <id>https://github.com/chubin/cheat.sh</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Terminalden `curl cheat.sh/komut` yazarak kopya kâğıdı çeken servis. tldr’den farkı kurulum gerektirmemesi ve programlama dili sorularını da yanıtlaması: tarayıcı açmadan, editörden çıkmadan.</summary>
-</entry>
-<entry>
-  <title>Devhints</title>
-  <link href="https://devhints.io"/>
-  <id>https://devhints.io</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Yüzlerce araç ve dil için tek sayfalık kopya kâğıdı arşivi. Resmî belgelerden farkı her birinin gerçekten tek ekrana sığacak şekilde budanmış olması.</summary>
-</entry>
-<entry>
-  <title>Google C# Üslup Kılavuzu</title>
-  <link href="https://google.github.io/styleguide/csharp-style.html"/>
-  <id>https://google.github.io/styleguide/csharp-style.html</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>C# için adlandırma ve düzen kuralları; Microsoft’un kendi kılavuzuna göre daha kısa ve kesin.</summary>
-</entry>
-<entry>
-  <title>Google C++ Üslup Kılavuzu</title>
-  <link href="https://google.github.io/styleguide/cppguide.html"/>
-  <id>https://google.github.io/styleguide/cppguide.html</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Google’ın C++ kuralları; bazı maddeleri tartışmalı (istisna yasağı gibi). Diğer üslup kılavuzlarından farkı her kuralın gerekçesinin yazılı olması — kendi kurallarını kurarken iyi bir başlangıç.</summary>
-</entry>
-<entry>
-  <title>Google Java Üslup Kılavuzu</title>
-  <link href="https://google.github.io/styleguide/javaguide.html"/>
-  <id>https://google.github.io/styleguide/javaguide.html</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Java için biçimlendirme ve adlandırma kuralları. Oracle’ın eski Java kod kurallarından farkı güncel olması ve araçla uygulanabilmesi: google-java-format doğrudan bu belgeyi uyguluyor.</summary>
-</entry>
-<entry>
-  <title>Google Python Üslup Kılavuzu</title>
-  <link href="https://google.github.io/styleguide/pyguide.html"/>
-  <id>https://google.github.io/styleguide/pyguide.html</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Python üslup kılavuzu. PEP 8’den farkı üstüne eklenen Google kuralları: docstring biçimi, içe aktarma düzeni, tip ipucu kullanımı — büyük kod tabanlarında tutarlılık için.</summary>
-</entry>
-<entry>
-  <title>Hata Nasıl Bildirilir</title>
-  <link href="https://www.chiark.greenend.org.uk/~sgtatham/bugs.html"/>
-  <id>https://www.chiark.greenend.org.uk/~sgtatham/bugs.html</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>PuTTY’nin yazarından etkili hata raporu yazmanın klasik metni. Proje hata şablonlarından farkı neyin neden gerektiğini anlatması; açık kaynağa katkı verecek herkesin bir kez okuması gereken kısa bir yazı.</summary>
-</entry>
-<entry>
-  <title>JavaScript Standard Style</title>
-  <link href="https://standardjs.com"/>
-  <id>https://standardjs.com</id>
-  <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Yapılandırma dosyası olmayan JavaScript biçimlendirici ve linter; tartışmayı bitirmek için tüm kararları kendisi veriyor. Airbnb kılavuzunun aksine özelleştirmeye kapalı.</summary>
 </entry>
 </feed>

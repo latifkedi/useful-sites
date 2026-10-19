@@ -14,6 +14,62 @@
   <summary>A list of target sites and APIs for practising test automation: demo shops, forms, trap-laden pages and fake APIs, grouped by kind. Rather than repeating dozens of interchangeable demo sites, this directory keeps a few representatives and points here for the rest.</summary>
 </entry>
 <entry>
+  <title>badssl.com</title>
+  <link href="https://badssl.com/"/>
+  <id>https://badssl.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A test site that serves subdomains with deliberately broken TLS setups (expired, self-signed, wrong host and so on). It tests clients, not servers: whether your browser or HTTP library rejects these errors correctly.</summary>
+</entry>
+<entry>
+  <title>CryptCheck</title>
+  <link href="https://cryptcheck.fr/"/>
+  <id>https://cryptcheck.fr/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A French test site that grades the TLS setup of HTTPS, SMTP and XMPP servers by cipher suite, certificate and key exchange. Unlike SSL Labs it covers mail and messaging servers as well as web.</summary>
+</entry>
+<entry>
+  <title>CSP Evaluator</title>
+  <link href="https://csp-evaluator.withgoogle.com/"/>
+  <id>https://csp-evaluator.withgoogle.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A Google tool that flags bypassable rules (unsafe-inline, broad wildcards, missing directives) when you paste in a Content-Security-Policy header. securityheaders.com grades headers in general; this looks only at the CSP, directive by directive, from an XSS angle. Unlike general header graders, it looks only at the CSP, directive by directive.</summary>
+</entry>
+<entry>
+  <title>Hardenize</title>
+  <link href="https://www.hardenize.com/"/>
+  <id>https://www.hardenize.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A scanner that gathers a domain's DNS, email (SPF/DKIM/DMARC), TLS and web-header security into one report. Unlike tests that measure a single layer it shows the whole external surface together; a public one-off scan is free, continuous monitoring is paid.</summary>
+</entry>
+<entry>
+  <title>How's My SSL?</title>
+  <link href="https://www.howsmyssl.com/"/>
+  <id>https://www.howsmyssl.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A page that grades your browser's TLS client setup (version, cipher suites, known weaknesses). SSL Labs tests a server; this tests your side, the browser and OS, and the result is also available as a JSON API. SSL Labs tests a server, whereas this checks the client side.</summary>
+</entry>
+<entry>
+  <title>MDN HTTP Observatory</title>
+  <link href="https://observatory.mozilla.org/"/>
+  <id>https://observatory.mozilla.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Mozilla's in-browser checker that scores a site's headers, cookies and TLS settings against security best practice; it now lives inside MDN. Unlike securityheaders.com it keeps a rescan history and is backed by an open-source scanner (http-observatory).</summary>
+</entry>
+<entry>
+  <title>Security Headers</title>
+  <link href="https://securityheaders.com/"/>
+  <id>https://securityheaders.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A browser-based scan that grades a site's HTTP response headers (CSP, HSTS, X-Frame-Options, Permissions-Policy and so on) from A to F and explains what is missing. SSL Labs looks at the TLS layer; this looks at header hardening at the application layer. Instead of the TLS layer, it looks at application-layer header hardening.</summary>
+</entry>
+<entry>
+  <title>Static Analysis Tools</title>
+  <link href="https://github.com/analysis-tools-dev/static-analysis"/>
+  <id>https://github.com/analysis-tools-dev/static-analysis</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A compilation of static analysis tools, linters and formatters grouped by language and format (formerly awesome-static-analysis). It is for surveying the options for a language rather than documenting a single tool.</summary>
+</entry>
+<entry>
   <title>Academy Bugs</title>
   <link href="https://academybugs.com/find-bugs/"/>
   <id>https://academybugs.com/find-bugs/</id>
@@ -229,61 +285,5 @@
   <id>https://playwright.dev</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Microsoft’s cross-browser (Chromium, Firefox, WebKit) automation and testing framework, driving all three from one API. Unlike Selenium, it waits automatically and talks to the browser over its own protocol rather than WebDriver.</summary>
-</entry>
-<entry>
-  <title>PokéAPI</title>
-  <link href="https://pokeapi.co/"/>
-  <id>https://pokeapi.co/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A large, deeply nested REST API serving Pokémon data — popular for tests and tutorials. Unlike simple fake APIs its rich, related data model lets you exercise realistic queries.</summary>
-</entry>
-<entry>
-  <title>Postman</title>
-  <link href="https://www.postman.com/"/>
-  <id>https://www.postman.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A desktop/cloud tool to build, store as collections and test API requests. Unlike curl it saves requests, holds environment variables and runs automated test sequences.</summary>
-</entry>
-<entry>
-  <title>Practice Software Testing</title>
-  <link href="https://practicesoftwaretesting.com/"/>
-  <id>https://practicesoftwaretesting.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A realistic tool-shop demo with both a UI and a REST API, designed for end-to-end testing. Unlike older demos it runs on a modern stack (React + API + Swagger).</summary>
-</entry>
-<entry>
-  <title>randomuser.me</title>
-  <link href="https://randomuser.me/"/>
-  <id>https://randomuser.me/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An API generating any number of fake users (name, address, photo). Unlike fixed fixtures it returns varied, realistic data on each call — for form and list tests.</summary>
-</entry>
-<entry>
-  <title>Reqres</title>
-  <link href="https://reqres.in/"/>
-  <id>https://reqres.in/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A hosted REST API that answers AJAX requests, with pagination and delay simulation. Unlike JSONPlaceholder it can also emulate response delays and error states.</summary>
-</entry>
-<entry>
-  <title>Restful-Booker</title>
-  <link href="https://restful-booker.herokuapp.com/"/>
-  <id>https://restful-booker.herokuapp.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A test API emulating room booking, with authentication and good docs. Unlike fake APIs it includes writes and auth — a full CRUD flow can be exercised.</summary>
-</entry>
-<entry>
-  <title>Rick and Morty API</title>
-  <link href="https://rickandmortyapi.com/"/>
-  <id>https://rickandmortyapi.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A free API serving character, episode and location data over both REST and GraphQL. Unlike single-protocol APIs it exposes the same data two ways, letting you test both.</summary>
-</entry>
-<entry>
-  <title>Sauce Demo</title>
-  <link href="https://www.saucedemo.com/"/>
-  <id>https://www.saucedemo.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A sample shopping site with ready logins for learning automation; some users deliberately misbehave. Unlike random demos its scenarios are stable and repeatable.</summary>
 </entry>
 </feed>

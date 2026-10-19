@@ -7,6 +7,27 @@
 <id>https://latifkedi.github.io/useful-sites/feed/guv_lab.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
 <entry>
+  <title>Crackmes.one</title>
+  <link href="https://crackmes.one/"/>
+  <id>https://crackmes.one/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Topluluğun yüklediği tersine mühendislik görevlerinin (crackme) arşivi; zorluk, dil ve platforma göre filtreleniyor. CTF platformlarından farkı, görevlerin tek dosyalık yerel ikililer olması ve çözümlerin kullanıcılar tarafından yazılması. Güvenilmeyen çalıştırılabilir dosyalar olduğundan sanal makinede çalıştırın.</summary>
+</entry>
+<entry>
+  <title>Cryptopals</title>
+  <link href="https://cryptopals.com/"/>
+  <id>https://cryptopals.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Gerçek kripto yapılarına saldırarak öğreten 8 set, 48 görevlik programlama alıştırması; saldırı kodunu kendiniz yazarsınız. Ders kitaplarından farkı, her kırılmanın bir öncekinin üstüne kurulması. İstediğiniz bir dilde kod yazmayı gerektirir.</summary>
+</entry>
+<entry>
+  <title>Hack This Site</title>
+  <link href="https://www.hackthissite.org/"/>
+  <id>https://www.hackthissite.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Yasal ve güvenli bir ortamda temel hack görevleri (temel, gerçekçi, programlama, steganografi) sunan eski bir eğitim sitesi. Forum ve makale bölümü de var; yeni başlayanlar için ilk adım olarak anılır, yeni platformlara göre arayüzü eski. Yeni platformlara kıyasla arayüzü eskidir, karşılığında bir CTF takvimine bağlı değildir.</summary>
+</entry>
+<entry>
   <title>Hacker101</title>
   <link href="https://www.hacker101.com/"/>
   <id>https://www.hacker101.com/</id>
@@ -21,6 +42,34 @@
   <summary>Yaygın web güvenlik açıklarını (XSS, SQL enjeksiyonu, CSRF) kısa etkileşimli derslerle anlatan, geliştiricilere yönelik site. Pentest platformlarından farkı saldırıyı değil savunmayı öğretmeye odaklanması.</summary>
 </entry>
 <entry>
+  <title>Microcorruption</title>
+  <link href="https://microcorruption.com/"/>
+  <id>https://microcorruption.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Tarayıcıda çalışan bir MSP430 hata ayıklayıcısıyla elektronik kilitleri kırdıran gömülü sistem CTF'i. Kurulum gerektirmediği için gömülü tersine mühendisliğe ve montaj diline giriş için pratik; Matasano tarafından hazırlanmıştı.</summary>
+</entry>
+<entry>
+  <title>OWASP Web Security Testing Guide</title>
+  <link href="https://github.com/OWASP/wstg"/>
+  <id>https://github.com/OWASP/wstg</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Web uygulaması sızma testi için OWASP'ın bilgi toplamadan iş mantığı hatalarına uzanan test metodolojisi ve kontrol listesi. Zafiyet listelerinden (Top 10) farkı 'nasıl test edilir' adımlarını ayrıntılı vermesi.</summary>
+</entry>
+<entry>
+  <title>PentesterLab</title>
+  <link href="https://pentesterlab.com/"/>
+  <id>https://pentesterlab.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Web ve uygulama güvenliği alıştırmaları; her biri bir zafiyeti açıklıyor ve sömürmek için çalışan bir ortam veriyor. Salt CTF sitelerinden farkı, alıştırmaların konu ve zorluğa göre müfredat gibi sıralanması. Ücretsiz katman sınırlı, tam erişim ücretli.</summary>
+</entry>
+<entry>
+  <title>picoCTF</title>
+  <link href="https://picoctf.org/"/>
+  <id>https://picoctf.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Carnegie Mellon'ın ücretsiz CTF platformu; web, kripto, tersine mühendislik ve adli bilişim görevleri. Yarışma odaklı sitelerden farkı, zorluğun lise düzeyinden başlaması ve geçmiş yarışma görevlerinin pratik için açık kalması. Hesap gerekir.</summary>
+</entry>
+<entry>
   <title>pwn.college</title>
   <link href="https://pwn.college/"/>
   <id>https://pwn.college/</id>
@@ -28,11 +77,39 @@
   <summary>Arizona State Üniversitesi'nin ücretsiz siber güvenlik eğitim platformu; sıfırdan başlayan modüller ve tarayıcıda çalışan pratik ortamlarla ikili sömürü, web ve tersine mühendislik öğretiyor. Salt CTF sitelerinden farkı sıralı bir müfredat izlemesi.</summary>
 </entry>
 <entry>
+  <title>pwnable.kr</title>
+  <link href="https://pwnable.kr/"/>
+  <id>https://pwnable.kr/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>İkili sömürü (pwn) görevleri sunan, kâr amacı gütmeyen wargame sitesi; görevler Toddler's Bottle'dan başlayıp zorlaşıyor. Görevler uzak bir SSH sunucusunda çalışıyor ve kaynak kodu veriliyor; bellek bozulması konularını sırayla öğrenmeye elverişli. Tarayıcıda çalışan alıştırmalardan farklı olarak gerçek bir SSH sunucusunda çalışır.</summary>
+</entry>
+<entry>
+  <title>pwnable.tw</title>
+  <link href="https://pwnable.tw/"/>
+  <id>https://pwnable.tw/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Gerçek dünyaya yakın zafiyetlerle pwn becerisini geliştirmeyi hedefleyen, daha zor ikili sömürü görevleri. pwnable.kr'nin giriş düzeyine göre daha ileri; görevler puanlanıyor ve ilerlemek için önceki görevleri çözmek gerekiyor.</summary>
+</entry>
+<entry>
   <title>Root Me</title>
   <link href="https://www.root-me.org/"/>
   <id>https://www.root-me.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
   <summary>Web, kriptografi, tersine mühendislik ve adli bilişim alanlarında yüzlerce meydan okuma ve sanal ortam sunan, topluluk tarafından işletilen Fransız platform. Büyük ticari laboratuvarlardan farkı topluluk çözümleri ve zengin belge deposuyla gelmesi.</summary>
+</entry>
+<entry>
+  <title>Vulhub</title>
+  <link href="https://github.com/vulhub/vulhub"/>
+  <id>https://github.com/vulhub/vulhub</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Bilinen CVE'ler için docker-compose ile tek komutta ayağa kalkan zafiyetli ortamlar. Zafiyetli VM arşivlerinden farkı, her ortamın tek bir yazılım ve tek bir CVE'ye odaklanması; kök nedeni yerelde incelemek kolay. Yalnızca izole ortamda çalıştırın.</summary>
+</entry>
+<entry>
+  <title>VulnHub</title>
+  <link href="https://www.vulnhub.com/"/>
+  <id>https://www.vulnhub.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Topluluğun hazırladığı, indirilip yerelde çalıştırılan zafiyetli sanal makinelerin arşivi. Çevrimiçi lab platformlarından farkı, makinelerin çevrimdışı çalışması; OSCP tarzı pratik için sık kullanılır. İndirilen VM'ler güvenilmeyen kod sayılır, izole çalıştırın.</summary>
 </entry>
 <entry>
   <title>Awesome CTF</title>

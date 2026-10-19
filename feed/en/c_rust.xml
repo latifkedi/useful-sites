@@ -14,6 +14,34 @@
   <summary>Long-maintained, free and witty guides to C and network (socket) programming, offered as HTML, PDF and print. Unlike reference documentation they are written in a teaching voice.</summary>
 </entry>
 <entry>
+  <title>Operation Costs in CPU Clock Cycles</title>
+  <link href="https://6it.dev/blog/infographics-operation-costs-in-cpu-clock-cycles-741"/>
+  <id>https://6it.dev/blog/infographics-operation-costs-in-cpu-clock-cycles-741</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>The well-known infographic with explanation of the CPU clock-cycle cost of operations such as addition, memory access, branch mispredict and virtual calls. It gives orders of magnitude for performance intuition, not exact measurements.</summary>
+</entry>
+<entry>
+  <title>os-tutorial</title>
+  <link href="https://github.com/cfenollosa/os-tutorial"/>
+  <id>https://github.com/cfenollosa/os-tutorial</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A step-by-step tutorial that goes from a bootloader up to a kernel, one short folder per step. Shorter and more hands-on than books; it targets BIOS-based 32-bit x86. Maintenance is slow.</summary>
+</entry>
+<entry>
+  <title>The Little Book About OS Development</title>
+  <link href="https://littleosbook.github.io/"/>
+  <id>https://littleosbook.github.io/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A free book on writing a simple x86 operating system from scratch: booting, memory, interrupts, system calls. Unlike large OS textbooks, it builds one small kernel from start to finish.</summary>
+</entry>
+<entry>
+  <title>Write your Own Virtual Machine</title>
+  <link href="https://www.jmeiners.com/lc3-vm/"/>
+  <id>https://www.jmeiners.com/lc3-vm/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A one-page tutorial on writing a virtual machine for the LC-3 architecture in C, ending with real LC-3 programs running. Unlike architecture lectures, it produces a working executor in a few hundred lines.</summary>
+</entry>
+<entry>
   <title>cargo-binstall</title>
   <link href="https://github.com/cargo-bins/cargo-binstall"/>
   <id>https://github.com/cargo-bins/cargo-binstall</id>
@@ -257,12 +285,5 @@
   <id>https://kodisyum.com/c-ornekler/</id>
   <updated>2025-11-24T08:27:12Z</updated>
   <summary>Turkish C example programs covering the classic coursework-level exercises. Unlike English example archives it is in Turkish — valuable because Turkish C material is thin on the ground.</summary>
-</entry>
-<entry>
-  <title>HolyC</title>
-  <link href="https://holyc-lang.com/"/>
-  <id>https://holyc-lang.com/</id>
-  <updated>2025-07-30T00:45:38Z</updated>
-  <summary>An independent compiler and documentation for TempleOS’s HolyC. Unlike production languages it has no practical use — it stands for the language design and computing history interest.</summary>
 </entry>
 </feed>

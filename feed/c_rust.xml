@@ -14,6 +14,34 @@
   <summary>C dili ve ağ programlama (soket) üzerine uzun yıllardır güncellenen, ücretsiz ve esprili kılavuzlar; HTML, PDF ve basılı biçimde sunuluyor. Resmî dokümanlardan farkı öğretici bir dille yazılmış olması.</summary>
 </entry>
 <entry>
+  <title>Operation Costs in CPU Clock Cycles</title>
+  <link href="https://6it.dev/blog/infographics-operation-costs-in-cpu-clock-cycles-741"/>
+  <id>https://6it.dev/blog/infographics-operation-costs-in-cpu-clock-cycles-741</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Toplama, bellek erişimi, dal tahmini hatası, sanal çağrı gibi işlemlerin CPU döngüsü maliyetini gösteren ünlü infografik ve açıklaması. Performans sezgisi için büyüklük sıralarını verir; kesin ölçüm değildir.</summary>
+</entry>
+<entry>
+  <title>os-tutorial</title>
+  <link href="https://github.com/cfenollosa/os-tutorial"/>
+  <id>https://github.com/cfenollosa/os-tutorial</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Önyükleyiciden bir çekirdeğe kadar adım adım ilerleyen, her adımı kısa bir klasörde veren işletim sistemi öğreticisi. Kitaplara göre kısa ve uygulamalı; BIOS tabanlı 32 bit x86 hedefliyor. Proje bakımı yavaş.</summary>
+</entry>
+<entry>
+  <title>The Little Book About OS Development</title>
+  <link href="https://littleosbook.github.io/"/>
+  <id>https://littleosbook.github.io/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>x86 üzerinde sıfırdan basit bir işletim sistemi yazmayı anlatan ücretsiz kitap: önyükleme, bellek, kesmeler, sistem çağrıları. Büyük işletim sistemi ders kitaplarından farkı, küçük bir çekirdeği baştan sona örnek olarak inşa etmesi.</summary>
+</entry>
+<entry>
+  <title>Write your Own Virtual Machine</title>
+  <link href="https://www.jmeiners.com/lc3-vm/"/>
+  <id>https://www.jmeiners.com/lc3-vm/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>C ile LC-3 mimarisi için bir sanal makine yazmayı anlatan tek sayfalık öğretici; sonunda gerçek LC-3 programları çalışıyor. Mimari anlatımlarından farkı, birkaç yüz satırda çalışan bir yürütücü ortaya çıkarması.</summary>
+</entry>
+<entry>
   <title>cargo-binstall</title>
   <link href="https://github.com/cargo-bins/cargo-binstall"/>
   <id>https://github.com/cargo-bins/cargo-binstall</id>
@@ -257,12 +285,5 @@
   <id>https://kodisyum.com/c-ornekler/</id>
   <updated>2025-11-24T08:27:12Z</updated>
   <summary>Türkçe C örnek programları; ders ödevi düzeyindeki klasik alıştırmaları kapsıyor. İngilizce örnek arşivlerinden farkı Türkçe olması — yerelde C kaynağı kıt olduğu için değerli.</summary>
-</entry>
-<entry>
-  <title>HolyC</title>
-  <link href="https://holyc-lang.com/"/>
-  <id>https://holyc-lang.com/</id>
-  <updated>2025-07-30T00:45:38Z</updated>
-  <summary>TempleOS’un HolyC dili için bağımsız derleyici ve dokümantasyon. Üretim dillerinin aksine pratik bir kullanımı yok; dil tasarımı ve bilgisayar tarihi merakı için duruyor.</summary>
 </entry>
 </feed>

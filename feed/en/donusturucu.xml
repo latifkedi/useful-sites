@@ -7,6 +7,13 @@
 <id>https://latifkedi.github.io/useful-sites/feed/en/donusturucu.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
 <entry>
+  <title>CyberChef</title>
+  <link href="https://gchq.github.io/CyberChef/"/>
+  <id>https://gchq.github.io/CyberChef/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>GCHQ's in-browser data transformation tool: base64, hex, crypto, compression and parsing chained as a drag-and-drop 'recipe'. Unlike single-purpose encoders it chains hundreds of operations, and the page can be saved to run offline.</summary>
+</entry>
+<entry>
   <title>geojson.io</title>
   <link href="https://geojson.io/"/>
   <id>https://geojson.io/</id>
@@ -26,6 +33,13 @@
   <id>https://regexper.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
   <summary>Turns a JavaScript regular expression into a railroad diagram, with groups, alternatives and repetition drawn as boxes and arrows. Unlike regex101 it does not test matches: it is for grasping the structure of someone else’s complex expression at a glance.</summary>
+</entry>
+<entry>
+  <title>SSLMate CAA Record Helper</title>
+  <link href="https://sslmate.com/caa/"/>
+  <id>https://sslmate.com/caa/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A form that generates the CAA DNS record, which controls which certificate authorities may issue certificates for your domain, by picking authorities from a list. Instead of hand-writing the syntax it gives the lines to paste into your DNS provider.</summary>
 </entry>
 <entry>
   <title>Tables Generator</title>

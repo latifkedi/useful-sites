@@ -7,11 +7,25 @@
 <id>https://latifkedi.github.io/useful-sites/feed/en/guvenlik.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
 <entry>
+  <title>BrowserLeaks</title>
+  <link href="https://browserleaks.com/"/>
+  <id>https://browserleaks.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A suite of tests, one tab each, showing what your browser leaks (IP/WebRTC, canvas and font fingerprints, JavaScript, geolocation, client hints). Cover Your Tracks gives one uniqueness score; BrowserLeaks dumps the raw output of each API separately.</summary>
+</entry>
+<entry>
   <title>Digital Defense (Personal Security Checklist)</title>
   <link href="https://digital-defense.io/"/>
   <id>https://digital-defense.io/</id>
   <updated>2026-10-18T00:00:00Z</updated>
   <summary>A categorised personal digital-security checklist of 300+ items, each with recommended tools and settings. Rather than reviewing one tool it covers the whole set of habits, from passwords to messaging, as an open-source audit list.</summary>
+</entry>
+<entry>
+  <title>GnuPG</title>
+  <link href="https://www.gnupg.org/"/>
+  <id>https://www.gnupg.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>The free implementation of the OpenPGP standard, a command-line tool for encrypting, signing and key management. Unlike modern alternatives such as age or minisign, it is the one embedded in email and package signing, at the cost of a more complex interface.</summary>
 </entry>
 <entry>
   <title>KVKK — Kişisel Verileri Koruma Kurumu</title>
@@ -21,11 +35,25 @@
   <summary>Turkey’s data-protection authority: Law No. 6698, Board decisions, guidance and the data-breach notifications it publishes. Unlike guides to privacy tools it is the regulator itself, where you see what companies are obliged to do and which breaches were reported.</summary>
 </entry>
 <entry>
+  <title>macOS Security and Privacy Guide</title>
+  <link href="https://github.com/drduh/macOS-Security-and-Privacy-Guide"/>
+  <id>https://github.com/drduh/macOS-Security-and-Privacy-Guide</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A community guide to hardening macOS step by step: FileVault, firewall, DNS, VPN and app permissions. Unlike general privacy lists it gives detailed commands and settings for one operating system.</summary>
+</entry>
+<entry>
   <title>PRISM Break</title>
   <link href="https://prism-break.org/en/all/"/>
   <id>https://prism-break.org/en/all/</id>
   <updated>2026-10-18T00:00:00Z</updated>
   <summary>A catalogue of free, privacy-respecting alternatives to surveillance-prone services, organised by platform and category. Unlike general software-alternative sites, its only criteria are privacy and open source.</summary>
+</entry>
+<entry>
+  <title>security.txt</title>
+  <link href="https://securitytxt.org/"/>
+  <id>https://securitytxt.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>A form that generates the /.well-known/security.txt file (RFC 9116) telling security researchers where to report a vulnerability, plus an explanation of the standard. Fill in contact, encryption key and policy fields and download the file directly. Instead of writing the file by hand, you fill in fields and get one that follows the standard.</summary>
 </entry>
 <entry>
   <title>Surveillance Self-Defense</title>
@@ -257,19 +285,5 @@
   <id>https://bitwarden.com/</id>
   <updated>2026-07-03T12:26:39Z</updated>
   <summary>A password manager with open source and independent audits behind it; the free tier holds unlimited passwords. Unlike closed rivals such as 1Password it is open, and Vaultwarden lets you self-host the whole thing.</summary>
-</entry>
-<entry>
-  <title>Özgür Yazılım Güvenlik Rehberi</title>
-  <link href="https://guvenlik.oyd.org.tr/"/>
-  <id>https://guvenlik.oyd.org.tr/</id>
-  <updated>2025-03-11T08:24:11Z</updated>
-  <summary>A Turkish guide to digital security that recommends method by threat model rather than promoting products. Starting from “who are you protecting against” is what separates it from tool lists.</summary>
-</entry>
-<entry>
-  <title>Mailvelope ile E-posta Şifreleme</title>
-  <link href="https://guvenlik.oyd.org.tr/yazisma_guvenligi/mailvelope.html"/>
-  <id>https://guvenlik.oyd.org.tr/yazisma_guvenligi/mailvelope.html</id>
-  <updated>2025-03-11T08:23:50Z</updated>
-  <summary>A step-by-step Turkish walkthrough of using PGP through a browser extension. Unlike English PGP documentation it is in Turkish and hands-on; the key generation and exchange section is where the concept becomes concrete.</summary>
 </entry>
 </feed>

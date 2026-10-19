@@ -14,6 +14,62 @@
   <summary>Test otomasyonu pratiği için hedef siteler ve API’lerin listesi: demo mağazalar, formlar, tuzaklı sayfalar ve sahte API’ler türüne göre ayrılmış. Bu dizinde yalnızca birkaç temsilci tutuluyor; birbirinin yerine geçen onlarca demo sitesinin tam listesi burada.</summary>
 </entry>
 <entry>
+  <title>badssl.com</title>
+  <link href="https://badssl.com/"/>
+  <id>https://badssl.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Süresi dolmuş, kendinden imzalı, yanlış ana bilgisayar adlı gibi bilerek bozuk TLS yapılandırmalarına sahip alt alan adları sunan test sitesi. Sunucu değil istemciyi sınar: tarayıcın veya HTTP kütüphanen bu hataları doğru reddediyor mu bunu denemek için.</summary>
+</entry>
+<entry>
+  <title>CryptCheck</title>
+  <link href="https://cryptcheck.fr/"/>
+  <id>https://cryptcheck.fr/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>HTTPS, SMTP ve XMPP sunucularının TLS yapılandırmasını şifre takımı, sertifika ve anahtar değişimi açısından puanlayan Fransız test sitesi. SSL Labs'ten farkı yalnızca web değil e-posta ve mesajlaşma sunucularını da kapsaması.</summary>
+</entry>
+<entry>
+  <title>CSP Evaluator</title>
+  <link href="https://csp-evaluator.withgoogle.com/"/>
+  <id>https://csp-evaluator.withgoogle.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Bir Content-Security-Policy başlığını yapıştırınca atlatılabilir kuralları (unsafe-inline, geniş joker karakterler, eksik yönergeler) işaretleyen Google aracı. securityheaders.com başlıkları genel olarak puanlar; bu ise yalnızca CSP'yi yönerge yönerge ve XSS açısından inceler. Genel başlık denetçilerinden farklı olarak yalnızca CSP'yi yönerge yönerge inceler.</summary>
+</entry>
+<entry>
+  <title>Hardenize</title>
+  <link href="https://www.hardenize.com/"/>
+  <id>https://www.hardenize.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Bir alan adının DNS, e-posta (SPF/DKIM/DMARC), TLS ve web başlığı güvenliğini tek raporda toplayan tarayıcı. Tek katmanı ölçen testlerin aksine bütün dış yüzeyi birlikte gösterir; kamuya açık tek tarama ücretsiz, sürekli izleme ücretli.</summary>
+</entry>
+<entry>
+  <title>How's My SSL?</title>
+  <link href="https://www.howsmyssl.com/"/>
+  <id>https://www.howsmyssl.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Tarayıcının TLS istemci yapılandırmasını (sürüm, şifre takımları, bilinen zayıflıklar) tek sayfada değerlendiren test. SSL Labs sunucuyu test eder; bu ise senin tarafını, yani tarayıcıyı ve işletim sistemini sınar; sonuç JSON API olarak da alınabiliyor. SSL Labs sunucuyu sınar, bu ise istemci tarafını.</summary>
+</entry>
+<entry>
+  <title>MDN HTTP Observatory</title>
+  <link href="https://observatory.mozilla.org/"/>
+  <id>https://observatory.mozilla.org/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Mozilla'nın bir sitenin başlıklarını, çerezlerini ve TLS ayarlarını güvenlik en iyi uygulamalarına göre puanlayan tarayıcı içi denetleyicisi; artık MDN içinde. securityheaders.com'dan farkı yeniden test geçmişi tutması ve açık kaynak bir tarayıcı (http-observatory) tarafından desteklenmesi.</summary>
+</entry>
+<entry>
+  <title>Security Headers</title>
+  <link href="https://securityheaders.com/"/>
+  <id>https://securityheaders.com/</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Bir sitenin HTTP yanıt başlıklarını (CSP, HSTS, X-Frame-Options, Permissions-Policy vb.) tarayıp A–F arası not veren ve eksik olanı açıklayan tarayıcı içi test. SSL Labs TLS katmanına bakar; bu, uygulama katmanındaki başlık sertleştirmesine bakar. TLS katmanına bakan araçlar yerine uygulama katmanı başlıklarına bakar.</summary>
+</entry>
+<entry>
+  <title>Static Analysis Tools</title>
+  <link href="https://github.com/analysis-tools-dev/static-analysis"/>
+  <id>https://github.com/analysis-tools-dev/static-analysis</id>
+  <updated>2026-10-18T00:00:00Z</updated>
+  <summary>Her programlama dili ve biçim için statik analiz, linter ve biçimlendirici araçlarını dile göre gruplayan derleme (eski adı awesome-static-analysis). Tek bir araca değil, seçeneklerin karşılaştırmalı haritasına bakmak için.</summary>
+</entry>
+<entry>
   <title>Academy Bugs</title>
   <link href="https://academybugs.com/find-bugs/"/>
   <id>https://academybugs.com/find-bugs/</id>
@@ -229,61 +285,5 @@
   <id>https://playwright.dev</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <summary>Microsoft’un çok tarayıcılı (Chromium, Firefox, WebKit) otomasyon ve test çatısı; üçünü tek API ile sürer. Selenium’dan farkı otomatik beklemesi ve tarayıcıyla WebDriver yerine kendi protokolü üzerinden konuşması.</summary>
-</entry>
-<entry>
-  <title>PokéAPI</title>
-  <link href="https://pokeapi.co/"/>
-  <id>https://pokeapi.co/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Pokémon verisi sunan, geniş ve iç içe bir REST API’si — test ve öğretici için popüler. Basit sahte API’lerden farkı derin, ilişkili veri modeliyle gerçekçi sorguları denetmesi.</summary>
-</entry>
-<entry>
-  <title>Postman</title>
-  <link href="https://www.postman.com/"/>
-  <id>https://www.postman.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>API isteklerini oluşturup koleksiyon hâlinde saklayan ve test eden masaüstü/bulut aracı. curl’den farkı isteği kaydetme, ortam değişkeni ve otomatik test dizisi çalıştırma.</summary>
-</entry>
-<entry>
-  <title>Practice Software Testing</title>
-  <link href="https://practicesoftwaretesting.com/"/>
-  <id>https://practicesoftwaretesting.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Hem UI hem REST API’si olan, gerçekçi bir alet dükkânı demosu; uçtan uca test için tasarlanmış. Eski demolardan farkı modern yığın (React + API + Swagger) üzerinde olması.</summary>
-</entry>
-<entry>
-  <title>randomuser.me</title>
-  <link href="https://randomuser.me/"/>
-  <id>https://randomuser.me/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>İstenen sayıda sahte kullanıcı (ad, adres, foto) üreten API. Sabit fikstürlerden farkı her çağrıda çeşitli ve gerçekçi veri vermesi — form ve liste testleri için.</summary>
-</entry>
-<entry>
-  <title>Reqres</title>
-  <link href="https://reqres.in/"/>
-  <id>https://reqres.in/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>AJAX isteklerine gerçek yanıt veren barındırılmış REST API’si; sayfalama ve gecikme simülasyonu var. JSONPlaceholder’dan farkı yanıt gecikmesi ve hata durumlarını da taklit edebilmesi.</summary>
-</entry>
-<entry>
-  <title>Restful-Booker</title>
-  <link href="https://restful-booker.herokuapp.com/"/>
-  <id>https://restful-booker.herokuapp.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Oda rezervasyonunu taklit eden, kimlik doğrulamalı ve iyi belgelenmiş bir test API’si. Sahte API’lerden farkı yazma işlemleri ve auth içermesi — tam bir CRUD akışı denenebiliyor.</summary>
-</entry>
-<entry>
-  <title>Rick and Morty API</title>
-  <link href="https://rickandmortyapi.com/"/>
-  <id>https://rickandmortyapi.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Karakter, bölüm ve mekân verisi veren, hem REST hem GraphQL sunan ücretsiz API. Tek protokollü API’lerden farkı aynı veriyi iki arayüzle sunup ikisini de denetmesi.</summary>
-</entry>
-<entry>
-  <title>Sauce Demo</title>
-  <link href="https://www.saucedemo.com/"/>
-  <id>https://www.saucedemo.com/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Otomasyon öğrenmek için hazır giriş bilgileriyle gelen örnek alışveriş sitesi; bazı kullanıcılar kasıtlı olarak bozuk davranır. Rastgele demolardan farkı senaryonun kararlı ve tekrarlanabilir olması.</summary>
 </entry>
 </feed>
