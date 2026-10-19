@@ -698,5 +698,172 @@
     "en": "A widely used single-repo compilation of manuals, cheat sheets, one-liners and CLI/web tools for sysadmins, DevOps and security work. Unlike lists focused on one topic it is broad but practical; last updated in 2024, so the tool sections may have aged.",
     "src": "lowkwiki",
     "added": 1792281600
+  },
+  {
+    "url": "https://cb.vu/unixtoolbox.html",
+    "name": "Unix Toolbox",
+    "tags": [
+      "kopya-kâğıdı",
+      "cli",
+      "ağ",
+      "ücretsiz"
+    ],
+    "tr": "Unix/Linux sistem yönetimi komutlarını tek uzun sayfada toplayan klasik başvuru: ağ, dosya sistemi, süreçler, SSH, güvenlik. Kitap gibi okunmaz, Ctrl+F ile aranır; tek sayfa olması ve yıllardır sabit kalması değeri.",
+    "en": "A classic one-page reference to Unix/Linux administration commands: networking, filesystems, processes, SSH, security. It is searched with Ctrl+F rather than read like a book; its value is being a single, long-stable page.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://github.com/jlevy/the-art-of-command-line",
+    "name": "The Art of Command Line",
+    "tags": [
+      "kopya-kâğıdı",
+      "cli",
+      "öğretici",
+      "ücretsiz"
+    ],
+    "tr": "Komut satırını verimli kullanmak için günlük, ileri ve 'sadece belirli durumlar' bölümlerine ayrılmış kısa ipucu derlemesi; onlarca dile çevrilmiş. Komut referanslarından farkı yeni başlayandan ustaya sıralı bir alışkanlık listesi olması.",
+    "en": "A compact collection of command-line tips split into everyday, advanced and situational sections, translated into dozens of languages. Unlike command references it is an ordered list of habits from beginner to expert.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://github.com/dylanaraps/pure-sh-bible",
+    "name": "Pure sh Bible",
+    "tags": [
+      "kopya-kâğıdı",
+      "cli",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Dış komut (sed, awk, cut) çağırmadan saf POSIX sh ile string, dizi, dosya ve döngü işlemlerinin nasıl yapıldığını gösteren tarif koleksiyonu. Bash'e özgü rehberlerden farkı taşınabilir ve hızlı betikler için yalnızca POSIX'e bağlı kalması.",
+    "en": "A recipe collection for doing string, array, file and loop work in pure POSIX sh without calling external commands like sed, awk or cut. Unlike Bash-specific guides it sticks to POSIX, for portable and fast scripts.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://github.com/gto76/python-cheatsheet",
+    "name": "Comprehensive Python Cheatsheet",
+    "tags": [
+      "kopya-kâğıdı",
+      "python",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Python'un sözdizimi, koleksiyonlar, standart kütüphane ve yaygın modüllerini tek sayfalık yoğun bir özet olarak veren kopya kâğıdı. Başlangıç eğitimlerinden farkı sıfırdan anlatmaması, bilen birinin hızlıca hatırlaması için yazılmış olması.",
+    "en": "A dense single-page summary of Python syntax, collections, the standard library and common modules. Unlike beginner tutorials it does not teach from scratch; it is written for people who know the language and need a quick reminder.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://drawings.jvns.ca/",
+    "name": "Julia Evans' Drawings",
+    "tags": [
+      "referans",
+      "öğretici",
+      "cli",
+      "freemium"
+    ],
+    "tr": "Linux, ağ, hata ayıklama araçları ve sistem kavramlarını çizimler ve 'zine'lerle anlatan Julia Evans'ın sayfası. Çizimlerin çoğu ücretsiz okunabiliyor; yoğun metin yerine tek bakışta anlaşılan görsel özetler sunuyor.",
+    "en": "Julia Evans' page of drawings and zines that explain Linux, networking, debugging tools and systems concepts. Many drawings are free to read, and they give one-glance visual summaries instead of dense pages of text.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://www.grymoire.com/",
+    "name": "Bruce Barnett's Grymoire",
+    "tags": [
+      "öğretici",
+      "cli",
+      "ücretsiz"
+    ],
+    "tr": "sed, awk, csh ve regex gibi Unix araçları için uzun soluklu, ayrıntılı öğreticiler barındıran eski ama hâlâ kullanışlı site. Kısa kopya kâğıtlarından farkı, her aracı baştan sona kapsamlı anlatması.",
+    "en": "A long-standing site with detailed tutorials on Unix tools such as sed, awk, csh and regular expressions. Unlike short cheat sheets it walks through each tool in depth.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://portswigger.net/web-security/cross-site-scripting/cheat-sheet",
+    "name": "PortSwigger XSS Cheat Sheet",
+    "tags": [
+      "kopya-kâğıdı",
+      "güvenlik",
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "Etiket, olay işleyicisi ve tarayıcıya göre filtrelenebilen XSS vektörleri listesi. Düz payload listelerinden farkı, her vektörün hangi tarayıcıda ve hangi kullanıcı etkileşimiyle çalıştığını belirtmesi.",
+    "en": "A filterable list of XSS vectors by tag, event handler and browser. Unlike plain payload lists, it records which browsers and which user interaction each vector needs.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://cheatsheetseries.owasp.org/",
+    "name": "OWASP Cheat Sheet Series",
+    "tags": [
+      "kopya-kâğıdı",
+      "güvenlik",
+      "backend",
+      "ücretsiz"
+    ],
+    "tr": "Kimlik doğrulama, enjeksiyon önleme, oturum yönetimi gibi uygulama güvenliği konularında kısa, uygulama odaklı kılavuzlar. OWASP Top 10 gibi risk listelerinden farkı, sorunu anlatmak yerine nasıl önleneceğini vermesi.",
+    "en": "Short, implementation-focused guides on application security topics such as authentication, injection prevention and session management. Unlike risk lists like the OWASP Top 10, it spends its pages on how to prevent a problem, not on describing it.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://www.grymoire.com/Unix/Awk.html",
+    "name": "Grymoire: AWK Tutorial",
+    "tags": [
+      "öğretici",
+      "referans",
+      "cli",
+      "ücretsiz"
+    ],
+    "tr": "AWK'yı sıfırdan, örneklerle anlatan uzun tek sayfa öğretici. Kılavuz sayfasından farkı, alan ayırıcı, desen ve değişkenleri küçük betiklerle adım adım göstermesi. Site eski görünüyor ama içerik hâlâ geçerli.",
+    "en": "A long single-page AWK tutorial taught from scratch with examples. Unlike a man page, it walks through field separators, patterns and variables with small scripts. The site looks old but the content still holds.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://www.grymoire.com/Unix/Sed.html",
+    "name": "Grymoire: Sed Tutorial",
+    "tags": [
+      "öğretici",
+      "referans",
+      "cli",
+      "ücretsiz"
+    ],
+    "tr": "sed'i adres, komut ve düzenli ifadelerle öğreten, örnekli tek sayfa öğretici. Kılavuz sayfasından farkı, hold space gibi kafa karıştıran kısımları da açıklaması.",
+    "en": "A single-page sed tutorial built around addresses, commands and regular expressions. Unlike the man page, it also explains the confusing parts such as hold space.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://www.grymoire.com/Unix/Grep.html",
+    "name": "Grymoire: Grep Tutorial",
+    "tags": [
+      "öğretici",
+      "referans",
+      "cli",
+      "ücretsiz"
+    ],
+    "tr": "grep, egrep ve fgrep arasındaki farkları ve düzenli ifade söz dizimini örnekle anlatan öğretici. Kılavuz sayfasından farkı, temel ve genişletilmiş düzenli ifadelerin kaçış kurallarını açıkça karşılaştırması.",
+    "en": "A tutorial on grep, egrep and fgrep and regular expression syntax, with examples. Unlike the man page, it compares the escaping rules of basic and extended regular expressions explicitly.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://www.alvestrand.no/objectid/",
+    "name": "OID Repository (Alvestrand)",
+    "tags": [
+      "araç",
+      "referans",
+      "güvenlik",
+      "ücretsiz"
+    ],
+    "tr": "Nesne tanımlayıcılarını (OID) ağaç yapısında gezip aramaya yarayan dizin; X.509 sertifika alanlarını çözerken kullanışlı. Büyük OID veritabanlarından farkı sade ve hızlı olması, internet ve sertifika dallarına ağırlık vermesi.",
+    "en": "A browsable, searchable tree of object identifiers (OIDs), handy when decoding X.509 certificate fields. Against the large OID databases it is plain and fast, concentrating on the internet and certificate branches.",
+    "src": "secretknowledge",
+    "added": 1792281600
   }
 ]

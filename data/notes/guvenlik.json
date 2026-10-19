@@ -515,5 +515,65 @@
     "en": "A catalogue of free, privacy-respecting alternatives to surveillance-prone services, organised by platform and category. Unlike general software-alternative sites, its only criteria are privacy and open source.",
     "src": "lowkwiki",
     "added": 1792281600
+  },
+  {
+    "url": "https://browserleaks.com/",
+    "name": "BrowserLeaks",
+    "tags": [
+      "araç",
+      "gizlilik",
+      "tarayıcı-içi",
+      "hesap-gerekmez",
+      "ücretsiz"
+    ],
+    "tr": "Tarayıcının sızdırdığı bilgileri (IP/WebRTC, canvas ve font parmak izi, JavaScript, geolocation, istemci ipuçları) sekme sekme gösteren test paketi. Cover Your Tracks tek bir benzersizlik skoru verir; BrowserLeaks ise her API'nin ham çıktısını ayrı ayrı döker.",
+    "en": "A suite of tests, one tab each, showing what your browser leaks (IP/WebRTC, canvas and font fingerprints, JavaScript, geolocation, client hints). Cover Your Tracks gives one uniqueness score; BrowserLeaks dumps the raw output of each API separately.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://securitytxt.org/",
+    "name": "security.txt",
+    "tags": [
+      "araç",
+      "güvenlik",
+      "referans",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "Güvenlik araştırmacılarına bir açığı nereye bildireceklerini söyleyen /.well-known/security.txt dosyasını (RFC 9116) üreten form ve standardın açıklaması. İletişim, şifreleme anahtarı ve politika alanlarını doldurup dosyayı doğrudan indirebiliyorsun. Elle yazmak yerine alanları doldurup standarda uygun dosyayı üretir.",
+    "en": "A form that generates the /.well-known/security.txt file (RFC 9116) telling security researchers where to report a vulnerability, plus an explanation of the standard. Fill in contact, encryption key and policy fields and download the file directly. Instead of writing the file by hand, you fill in fields and get one that follows the standard.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://github.com/drduh/macOS-Security-and-Privacy-Guide",
+    "name": "macOS Security and Privacy Guide",
+    "tags": [
+      "öğretici",
+      "güvenlik",
+      "gizlilik",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "macOS'u sıkılaştırmak için FileVault, güvenlik duvarı, DNS, VPN ve uygulama izinlerini adım adım anlatan topluluk rehberi. Genel gizlilik listelerinden farkı, tek bir işletim sistemi için ayrıntılı komut ve ayarlar vermesi.",
+    "en": "A community guide to hardening macOS step by step: FileVault, firewall, DNS, VPN and app permissions. Unlike general privacy lists it gives detailed commands and settings for one operating system.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://www.gnupg.org/",
+    "name": "GnuPG",
+    "tags": [
+      "araç",
+      "cli",
+      "güvenlik",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "OpenPGP standardının özgür uygulaması; dosya ve e-posta şifreleme, imzalama ve anahtar yönetimi için komut satırı aracı. age ve minisign gibi modern alternatiflerden farkı, e-posta ve paket imzalarında yaygın olması; kullanımı ise daha karmaşık.",
+    "en": "The free implementation of the OpenPGP standard, a command-line tool for encrypting, signing and key management. Unlike modern alternatives such as age or minisign, it is the one embedded in email and package signing, at the cost of a more complex interface.",
+    "src": "secretknowledge",
+    "added": 1792281600
   }
 ]

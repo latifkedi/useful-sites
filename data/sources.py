@@ -52,6 +52,13 @@ SOURCES = {
         'note_en': 'Surfaced by Paul Jerimy’s security certification roadmap',
         'url': 'https://pauljerimy.com/security-certification-roadmap/',
     },
+    'secretknowledge': {
+        'label_tr': 'The Book of Secret Knowledge',
+        'label_en': 'The Book of Secret Knowledge',
+        'note_tr': 'the-book-of-secret-knowledge derlemesinden geldi',
+        'note_en': 'Surfaced by the-book-of-secret-knowledge collection',
+        'url': 'https://github.com/trimstray/the-book-of-secret-knowledge',
+    },
     'lowkwiki': {
         'label_tr': 'Lowkenuinely Wikis',
         'label_en': 'Lowkenuinely Wikis',

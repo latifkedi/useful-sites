@@ -788,5 +788,63 @@
         "a": "kapsam"
       }
     ]
+  },
+  {
+    "url": "https://hurl.dev/",
+    "name": "Hurl",
+    "tags": [
+      "dokümantasyon",
+      "araç",
+      "cli",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "HTTP isteklerini ve beklenen yanıtları (durum, JSONPath, XPath, başlık) düz metin dosyasında yazıp çalıştıran, CI'da test olarak kullanılabilen komut satırı aracı. Postman koleksiyonlarının aksine dosyalar git içinde okunabilir kalır.",
+    "en": "A command-line tool that runs HTTP requests and checks their responses (status, JSONPath, XPath, headers) from plain-text files, usable as tests in CI. Unlike Postman collections the files stay readable in git.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://enable-cors.org/",
+    "name": "Enable CORS",
+    "tags": [
+      "referans",
+      "backend",
+      "güvenlik",
+      "ücretsiz"
+    ],
+    "tr": "CORS'u (kaynaklar arası paylaşım) Apache, nginx, Node, IIS gibi onlarca sunucu ve çatı için kopyalanabilir yapılandırmalarla anlatan küçük başvuru sitesi. Genel HTTP belgelerinden farkı, 'şu sunucuda CORS nasıl açılır' sorusuna doğrudan yanıt vermesi.",
+    "en": "A small reference site that explains CORS with copy-paste configurations for dozens of servers and frameworks (Apache, nginx, Node, IIS and more). Unlike general HTTP docs it answers the narrow question of how to turn CORS on for a given server.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://www.kegel.com/c10k.html",
+    "name": "The C10K problem",
+    "tags": [
+      "referans",
+      "sistem-tasarımı",
+      "ağ",
+      "ücretsiz"
+    ],
+    "tr": "Tek bir sunucunun on bin eşzamanlı bağlantıyı nasıl kaldırabileceğini (select/poll, epoll, iş parçacığı modelleri, çekirdek desteği) anlatan klasik makale. Modern olay döngüsü ve async sunucuların neden o şekilde tasarlandığını tarihsel olarak açıklaması değerli. Modern async çerçevelerin belgelerinden farklı olarak tasarımın tarihsel nedenini anlatır.",
+    "en": "The classic article on how one server can handle ten thousand concurrent connections (select/poll, epoll, threading models, kernel support). It explains historically why modern event-loop and async servers are designed the way they are. Unlike the docs of modern async frameworks, it explains the historical reason for the design.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://httpie.io/",
+    "name": "HTTPie",
+    "tags": [
+      "araç",
+      "cli",
+      "api",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "curl'e okunaklı bir alternatif: renkli JSON çıktısı ve basit söz dizimiyle HTTP istekleri gönderir. curl'den farkı, yaygın API isteklerini çok daha az karakterle yazdırması; masaüstü ve web uygulamaları da var, bazıları hesap ister.",
+    "en": "A readable alternative to curl that sends HTTP requests with coloured JSON output and a simple syntax. Unlike curl it needs far fewer characters for typical API calls; desktop and web apps exist too, and some of those ask for an account.",
+    "src": "secretknowledge",
+    "added": 1792281600
   }
 ]

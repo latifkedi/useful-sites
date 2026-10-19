@@ -518,5 +518,34 @@
         "a": "kapsam"
       }
     ]
+  },
+  {
+    "url": "https://sslmate.com/caa/",
+    "name": "SSLMate CAA Record Helper",
+    "tags": [
+      "araç",
+      "güvenlik",
+      "ağ",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "Hangi sertifika otoritelerinin alan adın için sertifika verebileceğini belirleyen CAA DNS kaydını, otorite seçerek hazır biçimde üreten form. Sözdizimini elle yazmak yerine DNS sağlayıcına yapıştırılacak satırları veriyor.",
+    "en": "A form that generates the CAA DNS record, which controls which certificate authorities may issue certificates for your domain, by picking authorities from a list. Instead of hand-writing the syntax it gives the lines to paste into your DNS provider.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://gchq.github.io/CyberChef/",
+    "name": "CyberChef",
+    "tags": [
+      "araç",
+      "tarayıcı-içi",
+      "çevrimdışı",
+      "ücretsiz"
+    ],
+    "tr": "İngiliz GCHQ'nun tarayıcıda çalışan veri dönüştürme aracı; base64, hex, şifreleme, sıkıştırma ve ayrıştırma işlemlerini sürükle-bırak 'tarif' olarak zincirliyor. Tek amaçlı kodlayıcılardan farkı yüzlerce işlemi zincirlemesi; sayfa indirilip çevrimdışı da çalışır.",
+    "en": "GCHQ's in-browser data transformation tool: base64, hex, crypto, compression and parsing chained as a drag-and-drop 'recipe'. Unlike single-purpose encoders it chains hundreds of operations, and the page can be saved to run offline.",
+    "src": "secretknowledge",
+    "added": 1792281600
   }
 ]

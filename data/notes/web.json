@@ -916,5 +916,63 @@
     "en": "WebAIM’s accessibility evaluation tool; given an address, or through its browser extension, it overlays errors, alerts and structural information as icons on the page. Unlike scanners that produce a report it shows each problem in place on the page; the extension also checks pages behind a login, locally.",
     "src": "bosluk",
     "added": 1792281600
+  },
+  {
+    "url": "https://webhint.io/",
+    "name": "webhint",
+    "tags": [
+      "araç",
+      "frontend",
+      "dokümantasyon",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Bir sitenin erişilebilirlik, hız, güvenlik ve uyumluluk sorunlarını tarayan, her kuralı açıklayan açık kaynak linter; çevrimiçi tarama, CLI ve VS Code eklentisi olarak çalışıyor. Lighthouse'tan farkı kural başına ayrıntılı dokümantasyon sunması ve yapılandırılabilir olması.",
+    "en": "An open-source linter that scans a site for accessibility, speed, security and compatibility problems and explains each rule; it runs as an online scan, a CLI and a VS Code extension. Unlike Lighthouse it documents every rule in detail and is configurable.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://infosec.mozilla.org/guidelines/web_security.html",
+    "name": "Mozilla Web Security Guidelines",
+    "tags": [
+      "güvenlik",
+      "frontend",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Mozilla'nın web sitelerine önerdiği güvenlik başlıkları ve ayarları: CSP, HSTS, çerez bayrakları, CORS, SRI. Her ayar için öncelik ve örnek yapılandırma verdiği için genel güvenlik yazılarından daha uygulanabilir.",
+    "en": "Mozilla's recommended security headers and settings for websites: CSP, HSTS, cookie flags, CORS, SRI. It gives a priority and an example configuration for each, making it more actionable than general security articles.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://www.digitalocean.com/community/tools/nginx",
+    "name": "NGINX Config Generator (nginxconfig.io)",
+    "tags": [
+      "araç",
+      "backend",
+      "tarayıcı-içi",
+      "hesap-gerekmez",
+      "ücretsiz"
+    ],
+    "tr": "Alan adı, PHP/Node, güvenlik ve performans seçeneklerini işaretleyerek hazır bir NGINX yapılandırması üreten arayüz. Örnek yapılandırma kopyalamaya göre en iyi uygulama ayarlarını (TLS, başlıklar, gzip) otomatik ekliyor.",
+    "en": "A form-driven generator that builds a ready NGINX config from domain, PHP/Node, security and performance options. Compared with copying sample configs, it adds best-practice settings (TLS, headers, gzip) automatically.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://github.com/thedaviddias/Front-End-Checklist",
+    "name": "Front-End Checklist",
+    "tags": [
+      "kopya-kâğıdı",
+      "frontend",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Bir web sayfasını yayına almadan önce HTML, CSS, JS, erişilebilirlik, performans ve SEO için denetlenecek maddeleri öncelik etiketleriyle listeler. Genel rehberlerden farkı, işaretlenebilir ve önceliklendirilmiş kontrol listesi olması.",
+    "en": "A checklist of items to verify before launching a web page across HTML, CSS, JS, accessibility, performance and SEO, with priority labels. Unlike general guides it is a tickable, prioritised checklist.",
+    "src": "secretknowledge",
+    "added": 1792281600
   }
 ]

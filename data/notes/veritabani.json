@@ -463,5 +463,19 @@
     "en": "An interactive online book that teaches SQL through exercises run in the browser against one real dataset. Unlike syntax references it builds query reasoning step by step around a single dataset's story.",
     "src": "lowkwiki",
     "added": 1792281600
+  },
+  {
+    "url": "https://postgresqlco.nf/doc/en/param/",
+    "name": "PostgreSQLCO.NF",
+    "tags": [
+      "referans",
+      "veritabanı",
+      "dokümantasyon",
+      "ücretsiz"
+    ],
+    "tr": "postgresql.conf'taki her parametreyi, sürüm farklarını, varsayılan değerleri ve topluluk önerileriyle tek sayfada gösteren arama yapılabilir belge. Resmî belgelerden farkı, parametre başına ayar önerisi ve bağlam sunması.",
+    "en": "Searchable documentation for every postgresql.conf parameter, with version differences, defaults and community recommendations. Unlike the official manual it adds per-parameter tuning advice and context.",
+    "src": "secretknowledge",
+    "added": 1792281600
   }
 ]

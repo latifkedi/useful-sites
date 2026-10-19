@@ -777,5 +777,250 @@
     "en": "A list of eBPF projects, articles and tools, with compilers, tracing and networking (XDP) under separate headings. Unlike the other eBPF list already in the directory it is still being updated, and is kept by someone who writes eBPF documentation.",
     "src": "lowkwiki",
     "added": 1792281600
+  },
+  {
+    "url": "https://ciphersuite.info/",
+    "name": "ciphersuite.info",
+    "tags": [
+      "referans",
+      "güvenlik",
+      "kripto",
+      "hesap-gerekmez",
+      "ücretsiz"
+    ],
+    "tr": "TLS şifre takımlarının hepsini IANA/OpenSSL adlarıyla, güvenlik düzeyi (güvenli/zayıf/güvensiz) ve protokol sürümü desteğiyle aranabilir listeleyen başvuru sitesi. Bir takımın adını görünce ne anlama geldiğini ve kullanılıp kullanılmaması gerektiğini bulmak için. IANA'nın ham tablosundan farklı olarak her takıma okunur bir güvenlik notu verir.",
+    "en": "A reference site that lists every TLS cipher suite searchably, with IANA and OpenSSL names, a security rating (secure/weak/insecure) and protocol-version support. For when you meet a suite name and want to know what it means and whether to allow it. Unlike the raw IANA registry, it gives each suite a readable security rating.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://viewdns.info/",
+    "name": "ViewDNS.info",
+    "tags": [
+      "araç",
+      "osint",
+      "ağ",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "Tersine IP araması, DNS geçmişi, whois, port tarayıcı, alan adı-IP eşleşmesi gibi onlarca DNS ve alan adı sorgusunu tek sitede toplayan araç kutusu. Her sorgu ayrı küçük bir araç; kayıt gerekmiyor.",
+    "en": "A toolbox of dozens of DNS and domain queries in one place: reverse IP lookup, DNS history, whois, a port scanner, domain-to-IP mapping. Each query is a small separate tool and no sign-up is needed.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://dnslytics.com/",
+    "name": "DNSlytics",
+    "tags": [
+      "araç",
+      "osint",
+      "ağ",
+      "tarayıcı-içi",
+      "freemium"
+    ],
+    "tr": "Alan adı, IP ve ağ numarası (ASN) için DNS kayıtları, aynı IP'deki siteler, e-posta/whois ve geçmiş verileri gösteren araştırma sitesi. ViewDNS'in tek seferlik sorgularından farkı bir alan adının barındırma ve ASN bağlantılarını ilişkilendirmesi.",
+    "en": "A research site showing DNS records, sites sharing an IP, mail/whois data and history for a domain, IP or autonomous-system number. Unlike ViewDNS's one-shot queries it links a domain to its hosting and ASN relationships.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://scapy.net/",
+    "name": "Scapy",
+    "tags": [
+      "araç",
+      "python",
+      "ağ",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Python'da paket üretme, gönderme, yakalama ve çözme için etkileşimli bir kütüphane; sitesi dokümantasyon ve örnekleri barındırıyor. Wireshark'ın aksine paketi kodla oluşturup değiştirirsin; Nmap gibi hazır tarama yerine kendi protokol testini yazarsın.",
+    "en": "An interactive Python library for forging, sending, capturing and decoding packets; the site hosts docs and examples. Unlike Wireshark you build and mutate packets in code, and unlike Nmap you write your own protocol tests rather than using canned scans.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://curl.se/",
+    "name": "curl",
+    "tags": [
+      "dokümantasyon",
+      "araç",
+      "cli",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "URL ile veri aktarımının standart komut satırı aracı ve libcurl kütüphanesinin sitesi; kılavuzu, protokol listesi ve \"Everything curl\" adlı ücretsiz kitabı var. Tarayıcı geliştirici araçlarındaki \"cURL olarak kopyala\" ile birlikte API hatası ayıklamanın temel yolu. Tarayıcı geliştirici araçları yerine komut satırından aynı isteği tekrarlanabilir kılar.",
+    "en": "The site for the standard command-line tool for transferring data with URLs and for the libcurl library; it has the manual, a protocol list and the free book \"Everything curl\". With \"copy as cURL\" in browser dev tools it is the basic way to debug an API call. It makes a request repeatable from the command line, instead of living only in browser dev tools.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://www.openssl.org/",
+    "name": "OpenSSL",
+    "tags": [
+      "dokümantasyon",
+      "araç",
+      "kripto",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "TLS/SSL ve genel amaçlı kriptografi kütüphanesi ile openssl komut satırı aracının resmî sitesi; komut kılavuzları, sürüm notları ve kütüphane API belgeleri burada. Sertifika üretme, anahtar dönüştürme ve bir sunucuya bağlanıp el sıkışmayı incelemek için temel başvuru. Sadece bir komut aracı değil, aynı zamanda kütüphane olduğundan, sertifika araçlarından daha geniş bir yelpazeyi kapsar.",
+    "en": "The official site of the TLS/SSL and general-purpose cryptography library and the openssl command-line tool; command manuals, release notes and library API docs live here. The basic reference for generating certificates, converting keys and inspecting a handshake against a server. It is a library as well as a command tool, so it covers more than single-purpose certificate utilities.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://zonemaster.se/en/",
+    "name": "Zonemaster",
+    "tags": [
+      "ağ",
+      "araç",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "Alan adının DNS yapılandırmasını (delegasyon, SOA, DNSSEC, ad sunucu tutarlılığı) onlarca testten geçiren denetleyici; İsveç alan adı kayıt kuruluşunun açık kaynak motoru. Tek bir kayıt sorgulayan araçlardan farkı bölgenin tamamını standart test seti olarak raporlaması.",
+    "en": "A checker that runs a domain's DNS setup (delegation, SOA, DNSSEC, nameserver consistency) through dozens of tests; the open-source engine of the Swedish registry. Unlike tools that query one record, it reports on the whole zone against a standard test suite.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://intodns.com/",
+    "name": "IntoDNS",
+    "tags": [
+      "ağ",
+      "araç",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "Alan adının DNS ve posta (MX) ayarlarını kontrol edip hataları ve uyarıları madde madde listeleyen hızlı denetleyici. Zonemaster kadar kapsamlı değil ama sonuç tek sayfada ve okunaklı.",
+    "en": "A quick checker for a domain's DNS and mail (MX) setup that lists errors and warnings point by point. Less thorough than Zonemaster, but the result sits on one readable page.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://dnssec-debugger.verisignlabs.com/",
+    "name": "DNSSEC Debugger",
+    "tags": [
+      "ağ",
+      "güvenlik",
+      "araç",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "Alan adının DNSSEC güven zincirini kökten başlayarak adım adım doğrulayıp nerede koptuğunu gösteren Verisign aracı. Genel DNS denetleyicilerinden farkı yalnızca imza zincirine odaklanması.",
+    "en": "Verisign's tool that validates a domain's DNSSEC chain of trust from the root down and shows where it breaks. Unlike general DNS checkers it concentrates on the signature chain alone.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://nip.io/",
+    "name": "nip.io",
+    "tags": [
+      "ağ",
+      "araç",
+      "hesap-gerekmez",
+      "ücretsiz"
+    ],
+    "tr": "10.0.0.1.nip.io gibi adları içindeki IP adresine çözen joker DNS servisi; hosts dosyası düzenlemeden yerel veya test sunucusuna alan adıyla erişmeyi sağlar. Kurulum ya da kayıt gerektirmez. /etc/hosts düzenlemek yerine adı IP'nin kendisine gömer.",
+    "en": "A wildcard DNS service that resolves names like 10.0.0.1.nip.io to the IP embedded in them, so you can reach a local or test server by hostname without editing the hosts file. No setup or sign-up. Instead of editing /etc/hosts, it embeds the address in the name itself.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://mxtoolbox.com/SuperTool.aspx",
+    "name": "MxToolbox SuperTool",
+    "tags": [
+      "ağ",
+      "araç",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "Tek kutudan MX, DNS, blacklist, SPF, DMARC, ping ve port sorguları çalıştıran e-posta ve DNS tanı aracı. E-posta teslim sorunlarında ilk bakılan yerlerden; birçok tek amaçlı denetleyicinin işini bir arada yapıyor. Tek amaçlı kontrolcülerden farklı olarak MX, SPF, DMARC ve kara liste sorgusunu tek kutuda toplar.",
+    "en": "An email and DNS diagnostic that runs MX, DNS, blacklist, SPF, DMARC, ping and port lookups from a single box. A common first stop for mail delivery problems, replacing several single-purpose checkers. Unlike single-purpose checkers, it runs MX, SPF, DMARC and blacklist lookups from one box.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://multirbl.valli.org/",
+    "name": "MultiRBL",
+    "tags": [
+      "ağ",
+      "araç",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "Bir IP veya alan adını yüzlerce DNS kara listesinde (RBL) tek seferde arayan sorgu aracı. E-posta sunucusu neden reddediliyor sorusuna hangi listenin yol açtığını gösterir; ayrıca ters ve ileri DNS tutarlılığını da kontrol eder. Tek bir kara listeye bakan araçlar yerine yüzlerce RBL'yi aynı anda tarar.",
+    "en": "Looks up an IP or domain in hundreds of DNS blocklists (RBLs) at once. Shows which list is behind a mail server being rejected, and also checks forward and reverse DNS consistency. Rather than checking one blocklist, it queries hundreds of RBLs at once.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://dkimvalidator.com/",
+    "name": "DKIM Validator",
+    "tags": [
+      "ağ",
+      "araç",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "Verdiği geçici adrese test e-postası gönderince SPF, DKIM ve SpamAssassin puanını gösteren ücretsiz posta doğrulayıcı. Kayıtları ayrı ayrı denetlemek yerine gerçek bir iletiyi uçtan uca sınadığı için farklı.",
+    "en": "Send a test email to the temporary address it gives you and it reports SPF, DKIM and SpamAssassin scores. Instead of checking records in isolation, it tests a real message end to end.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://atlas.ripe.net/",
+    "name": "RIPE Atlas",
+    "tags": [
+      "ağ",
+      "araç",
+      "api",
+      "ücretsiz"
+    ],
+    "tr": "Dünya genelinde binlerce küçük sensörden ping, traceroute ve DNS ölçümü yaptıran RIPE NCC ağı. Kendi bağlantından değil, farklı ülke ve operatörlerden bakabildiğin için erişilebilirlik sorunlarını teşhis etmekte öne çıkıyor.",
+    "en": "RIPE NCC's network of thousands of small probes that run ping, traceroute and DNS measurements from around the world. It lets you see a target from other countries and operators rather than your own connection, which helps diagnose reachability problems.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://isbgpsafeyet.com/",
+    "name": "Is BGP safe yet?",
+    "tags": [
+      "ağ",
+      "güvenlik",
+      "araç",
+      "ücretsiz"
+    ],
+    "tr": "Tarayıcından, kullandığın internet servis sağlayıcısının geçersiz BGP rotalarını filtreleyip filtrelemediğini (RPKI) deneyen Cloudflare sayfası. Yönlendirme güvenliği gibi soyut bir konuyu tek tıkla somut sonuca çeviriyor. Teknik RPKI belgelerinden farklı olarak sonucu tarayıcıdan tek tıkla gösterir.",
+    "en": "A Cloudflare page that tests from your browser whether your ISP filters invalid BGP routes (RPKI). It turns an abstract topic, routing security, into a one-click result. Unlike the technical RPKI documentation, it gives you the answer in one click from your browser.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://jamielinux.com/docs/openssl-certificate-authority/",
+    "name": "OpenSSL Certificate Authority",
+    "tags": [
+      "öğretici",
+      "ağ",
+      "güvenlik",
+      "ücretsiz"
+    ],
+    "tr": "OpenSSL ile kök ve ara sertifika otoritesi kurmayı, sertifika imzalamayı ve iptal listesi yayımlamayı adım adım anlatan rehber. Hazır CA yazılımlarından farkı, dosya yapısını ve yapılandırmayı elle göstermesi; PKI'nin işleyişi görünür oluyor.",
+    "en": "A step-by-step guide to building a root and intermediate certificate authority with OpenSSL, signing certificates and publishing revocation lists. Unlike ready-made CA software it shows the file layout and configuration by hand, so you see how a PKI works.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/",
+    "name": "A Cartoon Intro to DNS over HTTPS",
+    "tags": [
+      "öğretici",
+      "ağ",
+      "gizlilik",
+      "ücretsiz"
+    ],
+    "tr": "DNS'in neden gizlilik sorunu yarattığını ve DoH'nin bunu nasıl değiştirdiğini çizimlerle anlatan Mozilla yazısı. Protokol belgelerinden farkı, ön bilgi gerektirmemesi; DoH tartışmasının ne hakkında olduğunu kısa sürede anlatır.",
+    "en": "A Mozilla article that uses cartoons to explain why DNS is a privacy problem and how DoH changes it. Unlike protocol specs it assumes no background and quickly shows what the DoH debate is about.",
+    "src": "secretknowledge",
+    "added": 1792281600
   }
 ]

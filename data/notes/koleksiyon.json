@@ -926,5 +926,33 @@
     "en": "Combines hackerspaces, fablabs and makerspaces from SpaceAPI, Fablab.io and the Hackerspaces wiki on one map, with a heatmap of open/closed status. Unlike a single network map it merges several sources.",
     "src": "lowkwiki",
     "added": 1792281600
+  },
+  {
+    "url": "https://github.com/unixorn/awesome-zsh-plugins",
+    "name": "Awesome Zsh Plugins",
+    "tags": [
+      "awesome-liste",
+      "referans",
+      "cli",
+      "ücretsiz"
+    ],
+    "tr": "Zsh eklentileri, temaları ve bunları yöneten çerçevelerin (Oh My Zsh, antigen, zinit vb.) listesi. Oh My Zsh'in yerleşik eklentileriyle sınırlı kalmayıp dışarıdaki eklentileri kategorize ediyor. Oh My Zsh'in kendi eklentilerinden fazlasını kategorize eder.",
+    "en": "A list of Zsh plugins, themes and the frameworks that manage them (Oh My Zsh, antigen, zinit and others). It goes beyond Oh My Zsh's bundled plugins and categorises the ones outside it. It lists far more than the plugins Oh My Zsh bundles.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://github.com/dhamaniasad/HeadlessBrowsers",
+    "name": "HeadlessBrowsers",
+    "tags": [
+      "awesome-liste",
+      "referans",
+      "otomasyon",
+      "ücretsiz"
+    ],
+    "tr": "Başsız (headless) tarayıcıların ve sürücülerinin (Puppeteer, Playwright, Selenium, PhantomJS ardılları vb.) dile göre sınıflanmış listesi. Hangi araç hangi dilde ve hangi motorla çalışıyor, hangisi bakımsız kalmış sorusuna tek bakışta yanıt veriyor. Tek bir aracın belgesi yerine hepsini dil ve motora göre karşılaştırır.",
+    "en": "A list of headless browsers and their drivers (Puppeteer, Playwright, Selenium, PhantomJS successors and more) sorted by language. It answers at a glance which tool works in which language and engine, and which have gone unmaintained. Rather than documenting one tool, it compares all of them by language and engine.",
+    "src": "secretknowledge",
+    "added": 1792281600
   }
 ]

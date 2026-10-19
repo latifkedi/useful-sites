@@ -1375,5 +1375,135 @@
     "en": "Course slides built from Markdown for React, Vue, Python, data science, HTML/CSS, JavaScript/TypeScript and databases, with exercises and solutions. Unlike video courses these are standalone HTML slides you can download and read offline; CC BY-SA 4.0.",
     "src": "lowkwiki",
     "added": 1792281600
+  },
+  {
+    "url": "https://tls12.xargs.org/",
+    "name": "The Illustrated TLS 1.2 Connection",
+    "tags": [
+      "öğretici",
+      "güvenlik",
+      "ağ",
+      "ücretsiz"
+    ],
+    "tr": "Bir TLS 1.2 el sıkışmasının her baytını renkli, açıklamalı ve elle hesaplanmış değerlerle gösteren sayfa. Diğer TLS anlatımlarından farkı soyut şema yerine gerçek paket içeriğini adım adım açması.",
+    "en": "A page that walks through every byte of a TLS 1.2 handshake with colour-coded, annotated and hand-computed values. Unlike most TLS explainers it shows the actual packet contents step by step instead of an abstract diagram.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://linuxguideandhints.com/",
+    "name": "Linux Guide and Hints",
+    "tags": [
+      "öğretici",
+      "cli",
+      "ücretsiz"
+    ],
+    "tr": "Rocky/RHEL ailesi için sunucu kurulumu, ağ, güvenlik ve servis yapılandırmasını adım adım anlatan topluluk rehberi. Dağıtım belgelerinden farkı gerçek kurulum senaryolarına ve deneyimli tavsiyelere odaklanması.",
+    "en": "A community guide to server setup, networking, security and service configuration on the Rocky/RHEL family, step by step. Unlike distro manuals it centres on real deployment scenarios and experienced advice.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://github.com/bagder/http2-explained",
+    "name": "HTTP/2 Explained",
+    "tags": [
+      "öğretici",
+      "backend",
+      "ağ",
+      "ücretsiz"
+    ],
+    "tr": "curl'ün yazarı Daniel Stenberg'in HTTP/2 protokolünü başlıklar, akışlar ve sunucu itme dahil anlatan kısa kitabı. Spesifikasyondan daha okunaklı, uygulayıcı gözüyle yazılmış; çok dilli çeviri sürümleri var.",
+    "en": "A short book by curl's author Daniel Stenberg explaining the HTTP/2 protocol, including headers, streams and server push. More readable than the specification and written from an implementer's view; translated editions exist.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://andreasbm.github.io/web-skills/",
+    "name": "Web Skills",
+    "tags": [
+      "müfredat",
+      "frontend",
+      "interaktif",
+      "ücretsiz"
+    ],
+    "tr": "Web geliştirici olmak için öğrenilecek becerileri (HTML, CSS, JS, araçlar, test, performans) görsel bir harita olarak sunar; her kutu iyi bir öğretici kaynağa bağlanır. Metin ağırlıklı yol haritalarından farkı, tek bakışta tüm alanı göstermesi.",
+    "en": "Lays out the skills to learn as a web developer (HTML, CSS, JS, tooling, testing, performance) as a visual map, with each box linking to a good tutorial. Unlike text-heavy roadmaps it shows the whole field at a glance.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://sha256algorithm.com/",
+    "name": "SHA-256 Algorithm Visualised",
+    "tags": [
+      "interaktif",
+      "kripto",
+      "algoritma",
+      "hesap-gerekmez",
+      "ücretsiz"
+    ],
+    "tr": "SHA-256'nın bir girdiyi adım adım nasıl karma değere dönüştürdüğünü, bellekteki bitleri ve her turu göstererek canlandıran tarayıcı içi görselleştirme. Metin açıklamalardan farkı, kendi girdinizi yazıp her adımı izleyebilmeniz.",
+    "en": "A browser visualisation that animates how SHA-256 turns an input into a hash, showing the bits in memory and each round. Unlike written explanations, you can type your own input and watch every step.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://github.com/alex/what-happens-when",
+    "name": "What happens when...",
+    "tags": [
+      "öğretici",
+      "ağ",
+      "backend",
+      "açık-kaynak",
+      "ücretsiz",
+      "orta"
+    ],
+    "tr": "Tarayıcıya bir adres yazıp Enter'a bastığınızda olanları (DNS, TCP, TLS, HTTP, render) madde madde ve ayrıntılı anlatan yazı. Genel 'web nasıl çalışır' anlatımlarından farkı, mülakat sorusuna cevap verecek derinlikte olması.",
+    "en": "A detailed step-by-step account of everything that happens when you type an address in a browser and press Enter (DNS, TCP, TLS, HTTP, rendering). It goes deeper than typical 'how the web works' pieces, to the level an interview question wants.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://cstack.github.io/db_tutorial/",
+    "name": "Let's Build a Simple Database",
+    "tags": [
+      "öğretici",
+      "veritabanı",
+      "c-ailesi",
+      "ücretsiz",
+      "orta"
+    ],
+    "tr": "C ile sıfırdan bir SQLite benzeri veritabanı yazdıran adım adım öğretici: REPL, B-tree, sayfalama, imleçler. Kavramsal veritabanı anlatımlarından farkı, çalışan kodla depolama motorunun iç yapısını göstermesi.",
+    "en": "A step-by-step tutorial that builds a SQLite-like database from scratch in C: REPL, B-tree, pager, cursors. Unlike conceptual database explainers, it shows the storage engine internals through working code.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://howhttps.works/",
+    "name": "How HTTPS Works",
+    "tags": [
+      "öğretici",
+      "ağ",
+      "güvenlik",
+      "ücretsiz",
+      "başlangıç"
+    ],
+    "tr": "HTTPS, sertifikalar ve anahtar değişimini bir çizgi roman olarak anlatan tek sayfalık site. Teknik şartnamelerin aksine kriptografi bilgisi gerektirmeden temel fikri birkaç dakikada verir.",
+    "en": "A one-page comic that explains HTTPS, certificates and key exchange. Unlike technical specs it conveys the core idea in a few minutes without requiring any cryptography background.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://howdns.works/",
+    "name": "How DNS Works",
+    "tags": [
+      "öğretici",
+      "ağ",
+      "ücretsiz",
+      "başlangıç"
+    ],
+    "tr": "DNS sorgusunun çözücüler, kök ve TLD sunucuları üzerinden nasıl çözüldüğünü renkli bir çizgi roman olarak anlatır. Referans kitaplardan farkı, süreci karakterlerle ve kısa bir hikâyeyle somutlaştırması.",
+    "en": "A colourful comic that shows how a DNS query is resolved through resolvers, root and TLD servers. Unlike reference books it makes the process concrete with characters and a short story.",
+    "src": "secretknowledge",
+    "added": 1792281600
   }
 ]

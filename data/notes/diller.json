@@ -823,5 +823,34 @@
         "a": "kapsam"
       }
     ]
+  },
+  {
+    "url": "https://rszalski.github.io/magicmethods/",
+    "name": "A Guide to Python's Magic Methods",
+    "tags": [
+      "öğretici",
+      "python",
+      "ücretsiz",
+      "orta"
+    ],
+    "tr": "Python'daki __init__, __getattr__, __enter__ gibi özel (dunder) yöntemleri örneklerle gruplayıp anlatan klasik rehber. Dil belgesinden farkı, her grubu nasıl ve ne zaman kullanacağınızı pratik örneklerle göstermesi.",
+    "en": "A classic guide that groups and explains Python's special (dunder) methods such as __init__, __getattr__ and __enter__ with examples. Unlike the language reference it shows how and when to use each group.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://github.com/satwikkansal/wtfpython",
+    "name": "wtfpython",
+    "tags": [
+      "öğretici",
+      "python",
+      "açık-kaynak",
+      "ücretsiz",
+      "orta"
+    ],
+    "tr": "Python'un şaşırtıcı ve sezgiye aykırı davranışlarını kısa kod parçaları ve açıklamalarla derleyen koleksiyon. Standart eğitimlerden farkı, tuzağa önce düşürüp sonra nedenini göstererek öğretmesi.",
+    "en": "A collection of surprising and counter-intuitive Python behaviours, each as a short snippet with an explanation. Unlike standard tutorials it teaches by letting you fall into the trap first and then see why.",
+    "src": "secretknowledge",
+    "added": 1792281600
   }
 ]

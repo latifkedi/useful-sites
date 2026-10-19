@@ -768,5 +768,220 @@
     "en": "Tools, protocol notes, sample pcaps, configurations and guides for industrial control system (ICS/SCADA) security. Unlike general security lists it covers only OT/ICS environments, and includes packet captures and protocol material. Last updated 2025.",
     "src": "lowkwiki",
     "added": 1792281600
+  },
+  {
+    "url": "https://urlscan.io/",
+    "name": "urlscan.io",
+    "tags": [
+      "araç",
+      "güvenlik",
+      "osint",
+      "api",
+      "freemium"
+    ],
+    "tr": "Bir URL'yi gerçek tarayıcıda açıp sayfanın yaptığı tüm istekleri, bağlandığı alan adlarını, ekran görüntüsünü ve DOM'unu kaydeden tarama servisi. VirusTotal gibi sadece itibar puanı vermez; sayfanın davranışını kanıtıyla birlikte gösterir, kamuya açık geçmiş taramalar aranabilir.",
+    "en": "A scanning service that opens a URL in a real browser and records every request the page makes, the domains it contacts, a screenshot and the DOM. Unlike VirusTotal it does not just give a reputation score; it shows the page's behaviour with evidence, and past public scans are searchable.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://dnsdumpster.com/",
+    "name": "DNSdumpster",
+    "tags": [
+      "osint",
+      "araç",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "Alan adı için alt alan adlarını, DNS kayıtlarını ve ağ haritasını pasif olarak çıkaran keşif aracı. Tarayıcıda hesapsız çalışır; sonuçları grafik ve tablo olarak verir. Hedefi tarayan araçlardan farklı olarak yalnızca pasif kaynaklara bakar.",
+    "en": "Passive reconnaissance for a domain: subdomains, DNS records and a host map, with no scan of the target itself. Runs in the browser and shows results as both a graph and a table. Unlike tools that scan the target, it uses passive sources only.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://www.shodan.io/",
+    "name": "Shodan",
+    "tags": [
+      "osint",
+      "ağ",
+      "araç",
+      "freemium"
+    ],
+    "tr": "İnternete açık cihazları, sunucuları ve servisleri banner'larına göre arayan arama motoru. Web sayfalarını değil, açık portları ve cihazları indekslediği için Google'dan farklı; ücretsiz hesapla sınırlı sorgu yapılabiliyor.",
+    "en": "A search engine for internet-facing devices, servers and services, indexed by their service banners. Unlike Google it indexes open ports and devices rather than web pages; a free account allows limited queries.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://www.exploit-db.com/",
+    "name": "Exploit-DB",
+    "tags": [
+      "güvenlik",
+      "referans",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "Offensive Security'nin yayımlanmış istismar kodlarını ve zafiyet bildirimlerini arşivleyen, CVE ile aranabilen veri tabanı. Ayrıca Google dork'larını toplayan GHDB'yi barındırır; sızma testi raporlarında kaynak gösterme noktası olarak kullanılıyor. CVE veritabanlarının aksine çalışan istismar kodunu arşivler.",
+    "en": "Offensive Security's searchable archive of published exploits and vulnerability write-ups, indexed by CVE. It also hosts the GHDB of Google dorks, and is a common citation point in penetration test reports. Unlike CVE databases, it archives working exploit code.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://builtwith.com/",
+    "name": "BuiltWith",
+    "tags": [
+      "osint",
+      "araç",
+      "tarayıcı-içi",
+      "freemium"
+    ],
+    "tr": "Bir sitenin kullandığı CMS, analitik, barındırma ve JavaScript teknolojilerini adresten çıkaran profilleyici. Tarayıcı eklentilerinden farkı geçmiş kullanım ve aynı teknolojiyi kullanan siteler gibi geniş veri tabanına dayanması.",
+    "en": "A profiler that identifies the CMS, analytics, hosting and JavaScript technologies a site uses from its address. Unlike browser extensions it rests on a wide database, including past usage and other sites running the same technology.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://appsecwiki.com/",
+    "name": "Application Security Wiki",
+    "tags": [
+      "referans",
+      "güvenlik",
+      "awesome-liste",
+      "ücretsiz"
+    ],
+    "tr": "Uygulama güvenliği kaynaklarını (rehberler, araçlar, kontrol listeleri, eğitimler) tek bir wiki'de toplayan dizin. Tek bir saldırı sınıfına değil, uygulama güvenliğinin tamamına bakan bir başlangıç noktası olması onu ayırıyor.",
+    "en": "A wiki that gathers application security resources (guides, tools, checklists, training) in one place. It is a starting point for the whole of appsec rather than a deep dive into one attack class.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://www.mitmproxy.org/",
+    "name": "mitmproxy",
+    "tags": [
+      "araç",
+      "güvenlik",
+      "ağ",
+      "cli",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "HTTP(S) trafiğini yakalayıp inceleyen, değiştirebilen ve yeniden oynatabilen açık kaynak proxy; terminal, web ve betik arayüzleri var. Burp gibi grafik araçlardan farkı, betiklenebilir ve komut satırında çalışması.",
+    "en": "An open source proxy that intercepts, inspects, modifies and replays HTTP(S) traffic, with terminal, web and scripting interfaces. Unlike GUI tools like Burp it is scriptable and runs on the command line.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://github.com/NationalSecurityAgency/ghidra",
+    "name": "Ghidra",
+    "tags": [
+      "araç",
+      "güvenlik",
+      "masaüstü",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "NSA'nın açık kaynak yaptığı tersine mühendislik çerçevesi: disassembler, decompiler ve betik desteği. IDA gibi ücretli araçlara karşı, decompiler dahil ücretsiz olması ve birçok mimariyi desteklemesiyle öne çıkıyor.",
+    "en": "The NSA's open source reverse engineering framework with disassembler, decompiler and scripting. Against paid tools like IDA, it stands out for being free including the decompiler and for supporting many architectures.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://owasp.org/projects/threat-dragon",
+    "name": "OWASP Threat Dragon",
+    "tags": [
+      "araç",
+      "güvenlik",
+      "sistem-tasarımı",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Veri akış diyagramları çizip STRIDE gibi yöntemlerle tehdit modellemesi yapmaya yarayan açık kaynak OWASP aracı; web ve masaüstü sürümü var. Genel diyagram araçlarından farkı, tehditleri ve önlemleri diyagram öğesine bağlaması.",
+    "en": "An open source OWASP tool for drawing data flow diagrams and doing threat modelling with methods such as STRIDE, with web and desktop versions. Unlike generic diagram tools it ties threats and mitigations to each diagram element.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://www.amanhardikar.com/mindmaps/webapptest.html",
+    "name": "WebApps Security Tests MindMap",
+    "tags": [
+      "referans",
+      "güvenlik",
+      "kopya-kâğıdı",
+      "ücretsiz"
+    ],
+    "tr": "Web uygulaması güvenlik testlerini zihin haritası olarak sıralayan tek sayfa; her dal bir test alanı ve araçlarını listeliyor. Metin kontrol listelerinden farkı, kapsamı tek bakışta göstermesi.",
+    "en": "A single page listing web application security tests as a mind map; each branch is a test area with its tools. Unlike text checklists it shows the whole scope at a glance.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://gtfobins.org/",
+    "name": "GTFOBins",
+    "tags": [
+      "güvenlik",
+      "referans",
+      "cli",
+      "ücretsiz"
+    ],
+    "tr": "Kısıtlı bir kabuktan kaçmak, ayrıcalık yükseltmek veya dosya okumak için kötüye kullanılabilen Unix ikili dosyalarının listesi. Genel sızma testi notlarından farkı, her ikili için işleve göre gruplanmış, kopyalanabilir komutlar vermesi.",
+    "en": "A list of Unix binaries that can be abused to escape restricted shells, escalate privileges or read files. Unlike general pentest notes, it gives a copy-ready command per binary, grouped by what it lets you do.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://html5sec.org/",
+    "name": "HTML5 Security Cheatsheet",
+    "tags": [
+      "güvenlik",
+      "referans",
+      "frontend",
+      "ücretsiz"
+    ],
+    "tr": "HTML5 ve tarayıcı tuhaflıklarından doğan XSS vektörlerinin numaralandırılmış koleksiyonu; her vektör için çalıştığı tarayıcılar belirtiliyor. Eski bir kaynak, ama filtre atlatmanın nasıl işlediğini anlamak için hâlâ başvuruluyor. OWASP kılavuzlarından farklı olarak tarayıcı hatalarına dayalı ayrıntılı vektörler listeler.",
+    "en": "A numbered collection of XSS vectors arising from HTML5 and browser quirks, each listing the browsers it works in. It is dated, but still used to understand how filter bypasses work. Unlike the OWASP guides, it lists detailed vectors based on browser quirks.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://phrack.org/",
+    "name": "Phrack",
+    "tags": [
+      "güvenlik",
+      "referans",
+      "ücretsiz"
+    ],
+    "tr": "Hacker topluluğunun 1985'ten beri yayımlanan e-zini; sömürü teknikleri, çekirdek ve ağ güvenliği üzerine derin teknik makaleler. Blog ve haber sitelerinden farkı, seyrek yayımlanması ama makale başına çok yüksek teknik derinlik.",
+    "en": "An e-zine of the hacker community, published since 1985, with deep technical articles on exploitation, kernels and network security. Against blogs and news sites it publishes rarely but with far more depth per article.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://github.com/swisskyrepo/PayloadsAllTheThings",
+    "name": "PayloadsAllTheThings",
+    "tags": [
+      "güvenlik",
+      "referans",
+      "kopya-kâğıdı",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Web uygulaması güvenliği ve CTF için zafiyet sınıfına göre düzenlenmiş payload ve atlatma notları (SQLi, SSRF, XXE, SSTI vb.). Her klasörde kısa bir açıklama ve örnekler var; tek bir araç değil, zafiyet sınıfına göre bakılan bir başvuru kaynağı.",
+    "en": "Payloads and bypass notes for web security and CTFs, organised by vulnerability class (SQLi, SSRF, XXE, SSTI and more). Each folder has a short explanation and examples, so it works as a lookup by vulnerability class rather than as a tool.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://mas.owasp.org/MASTG/",
+    "name": "OWASP MASTG",
+    "tags": [
+      "güvenlik",
+      "referans",
+      "mobil",
+      "ücretsiz"
+    ],
+    "tr": "Android ve iOS uygulamalarının güvenlik testini anlatan OWASP kılavuzu; test senaryoları, araçlar ve teknikler tek yerde. Genel web güvenliği kaynaklarından farkı, mobile özgü depolama, ikili analiz ve ağ testlerini kapsaması.",
+    "en": "The OWASP guide to security testing Android and iOS apps, with test cases, tools and techniques in one place. Unlike general web security material it covers mobile-specific storage, binary analysis and network testing.",
+    "src": "secretknowledge",
+    "added": 1792281600
   }
 ]

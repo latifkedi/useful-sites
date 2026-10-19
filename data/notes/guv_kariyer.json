@@ -316,5 +316,19 @@
     "en": "A self-study curriculum that orders free resources by topic for people teaching themselves information security. Unlike certification roadmaps it rests on free material rather than on courses.",
     "src": "lowkwiki",
     "added": 1792281600
+  },
+  {
+    "url": "https://github.com/OWASP/ASVS",
+    "name": "OWASP ASVS",
+    "tags": [
+      "güvenlik",
+      "referans",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Uygulama güvenliği doğrulama standardı: doğrulama, oturum, kriptografi ve API gibi başlıklarda ölçülebilir güvenlik gereksinimleri üç seviyede. Test rehberlerinden farkı bir uygulamanın 'yeterince güvenli' sayılması için hedef koyması.",
+    "en": "The Application Security Verification Standard: measurable security requirements in areas such as authentication, sessions, cryptography and APIs, at three levels. Unlike test guides it sets the bar for what counts as secure enough.",
+    "src": "secretknowledge",
+    "added": 1792281600
   }
 ]

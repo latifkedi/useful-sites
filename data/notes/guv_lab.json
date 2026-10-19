@@ -378,5 +378,161 @@
     "en": "A community-run French platform with hundreds of challenges and virtual environments across web, cryptography, reverse engineering and forensics. Unlike large commercial labs it comes with community write-ups and a rich document repository.",
     "src": "lowkwiki",
     "added": 1792281600
+  },
+  {
+    "url": "https://github.com/OWASP/wstg",
+    "name": "OWASP Web Security Testing Guide",
+    "tags": [
+      "güvenlik",
+      "kitap",
+      "referans",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Web uygulaması sızma testi için OWASP'ın bilgi toplamadan iş mantığı hatalarına uzanan test metodolojisi ve kontrol listesi. Zafiyet listelerinden (Top 10) farkı 'nasıl test edilir' adımlarını ayrıntılı vermesi.",
+    "en": "OWASP's web application penetration testing methodology and checklist, from information gathering to business logic flaws. Unlike vulnerability lists such as the Top 10 it spells out how each issue is tested.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://picoctf.org/",
+    "name": "picoCTF",
+    "tags": [
+      "güvenlik",
+      "interaktif",
+      "başlangıç",
+      "ücretsiz"
+    ],
+    "tr": "Carnegie Mellon'ın ücretsiz CTF platformu; web, kripto, tersine mühendislik ve adli bilişim görevleri. Yarışma odaklı sitelerden farkı, zorluğun lise düzeyinden başlaması ve geçmiş yarışma görevlerinin pratik için açık kalması. Hesap gerekir.",
+    "en": "Carnegie Mellon's free CTF platform with web, crypto, reverse engineering and forensics tasks. Unlike competition-first sites, difficulty starts at high-school level and past contest challenges stay open for practice. Needs an account.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://pentesterlab.com/",
+    "name": "PentesterLab",
+    "tags": [
+      "güvenlik",
+      "müfredat",
+      "orta",
+      "freemium"
+    ],
+    "tr": "Web ve uygulama güvenliği alıştırmaları; her biri bir zafiyeti açıklıyor ve sömürmek için çalışan bir ortam veriyor. Salt CTF sitelerinden farkı, alıştırmaların konu ve zorluğa göre müfredat gibi sıralanması. Ücretsiz katman sınırlı, tam erişim ücretli.",
+    "en": "Web and application security exercises where each one explains a vulnerability and gives you a running environment to exploit it. Unlike plain CTF sites the exercises are sequenced by topic and difficulty like a curriculum. The free tier is limited; full access is paid.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://cryptopals.com/",
+    "name": "Cryptopals",
+    "tags": [
+      "kripto",
+      "güvenlik",
+      "ileri",
+      "ücretsiz"
+    ],
+    "tr": "Gerçek kripto yapılarına saldırarak öğreten 8 set, 48 görevlik programlama alıştırması; saldırı kodunu kendiniz yazarsınız. Ders kitaplarından farkı, her kırılmanın bir öncekinin üstüne kurulması. İstediğiniz bir dilde kod yazmayı gerektirir.",
+    "en": "A set of 48 programming exercises in 8 sets that teach cryptography by attacking real constructions; you write the attacks yourself. Unlike textbooks, each break builds on the previous one. Requires writing code in a language of your choice.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://crackmes.one/",
+    "name": "Crackmes.one",
+    "tags": [
+      "güvenlik",
+      "interaktif",
+      "orta",
+      "ücretsiz"
+    ],
+    "tr": "Topluluğun yüklediği tersine mühendislik görevlerinin (crackme) arşivi; zorluk, dil ve platforma göre filtreleniyor. CTF platformlarından farkı, görevlerin tek dosyalık yerel ikililer olması ve çözümlerin kullanıcılar tarafından yazılması. Güvenilmeyen çalıştırılabilir dosyalar olduğundan sanal makinede çalıştırın.",
+    "en": "A user-submitted archive of reverse engineering challenges (crackmes), filterable by difficulty, language and platform. Unlike CTF platforms these are standalone local binaries with user-written solutions. They are unvetted executables, so run them in a VM.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://pwnable.kr/",
+    "name": "pwnable.kr",
+    "tags": [
+      "güvenlik",
+      "interaktif",
+      "ileri",
+      "ücretsiz"
+    ],
+    "tr": "İkili sömürü (pwn) görevleri sunan, kâr amacı gütmeyen wargame sitesi; görevler Toddler's Bottle'dan başlayıp zorlaşıyor. Görevler uzak bir SSH sunucusunda çalışıyor ve kaynak kodu veriliyor; bellek bozulması konularını sırayla öğrenmeye elverişli. Tarayıcıda çalışan alıştırmalardan farklı olarak gerçek bir SSH sunucusunda çalışır.",
+    "en": "A non-profit wargame site for binary exploitation (pwn), starting at the Toddler's Bottle tier and getting harder. Tasks run on a remote SSH server with source provided, which suits learning memory corruption in order. Unlike browser-based exercises, tasks run on a real SSH server.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://pwnable.tw/",
+    "name": "pwnable.tw",
+    "tags": [
+      "güvenlik",
+      "interaktif",
+      "ileri",
+      "ücretsiz"
+    ],
+    "tr": "Gerçek dünyaya yakın zafiyetlerle pwn becerisini geliştirmeyi hedefleyen, daha zor ikili sömürü görevleri. pwnable.kr'nin giriş düzeyine göre daha ileri; görevler puanlanıyor ve ilerlemek için önceki görevleri çözmek gerekiyor.",
+    "en": "Harder binary exploitation tasks aimed at building pwn skills on near-real vulnerabilities. It sits above pwnable.kr in difficulty; challenges are scored and you work through earlier ones to progress.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://microcorruption.com/",
+    "name": "Microcorruption",
+    "tags": [
+      "güvenlik",
+      "interaktif",
+      "orta",
+      "ücretsiz"
+    ],
+    "tr": "Tarayıcıda çalışan bir MSP430 hata ayıklayıcısıyla elektronik kilitleri kırdıran gömülü sistem CTF'i. Kurulum gerektirmediği için gömülü tersine mühendisliğe ve montaj diline giriş için pratik; Matasano tarafından hazırlanmıştı.",
+    "en": "An embedded-systems CTF where you break electronic locks using an in-browser MSP430 debugger. Nothing to install, which makes it a practical entry to embedded reverse engineering and assembly. Originally built by Matasano.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://www.vulnhub.com/",
+    "name": "VulnHub",
+    "tags": [
+      "güvenlik",
+      "interaktif",
+      "orta",
+      "ücretsiz"
+    ],
+    "tr": "Topluluğun hazırladığı, indirilip yerelde çalıştırılan zafiyetli sanal makinelerin arşivi. Çevrimiçi lab platformlarından farkı, makinelerin çevrimdışı çalışması; OSCP tarzı pratik için sık kullanılır. İndirilen VM'ler güvenilmeyen kod sayılır, izole çalıştırın.",
+    "en": "An archive of community-built vulnerable VMs you download and run locally. Unlike online lab platforms they work offline, which is why they are popular for OSCP-style practice. Downloaded VMs are untrusted code, so run them isolated.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://www.hackthissite.org/",
+    "name": "Hack This Site",
+    "tags": [
+      "güvenlik",
+      "interaktif",
+      "başlangıç",
+      "ücretsiz"
+    ],
+    "tr": "Yasal ve güvenli bir ortamda temel hack görevleri (temel, gerçekçi, programlama, steganografi) sunan eski bir eğitim sitesi. Forum ve makale bölümü de var; yeni başlayanlar için ilk adım olarak anılır, yeni platformlara göre arayüzü eski. Yeni platformlara kıyasla arayüzü eskidir, karşılığında bir CTF takvimine bağlı değildir.",
+    "en": "A long-running site with basic hacking missions (basic, realistic, programming, stego) in a legal, safe setting. It also has forums and articles; often named as a first step for beginners, though the interface is dated next to newer platforms. Compared with newer platforms its interface is dated, but it is not tied to a CTF calendar.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://github.com/vulhub/vulhub",
+    "name": "Vulhub",
+    "tags": [
+      "güvenlik",
+      "docker",
+      "orta",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Bilinen CVE'ler için docker-compose ile tek komutta ayağa kalkan zafiyetli ortamlar. Zafiyetli VM arşivlerinden farkı, her ortamın tek bir yazılım ve tek bir CVE'ye odaklanması; kök nedeni yerelde incelemek kolay. Yalnızca izole ortamda çalıştırın.",
+    "en": "Docker-compose environments for known CVEs that come up with one command. Unlike VM archives, each one targets a single piece of software and a single CVE, which makes studying a root cause locally straightforward. Run only in an isolated environment.",
+    "src": "secretknowledge",
+    "added": 1792281600
   }
 ]

@@ -673,5 +673,123 @@
     "en": "A list of target sites and APIs for practising test automation: demo shops, forms, trap-laden pages and fake APIs, grouped by kind. Rather than repeating dozens of interchangeable demo sites, this directory keeps a few representatives and points here for the rest.",
     "src": "testsites",
     "added": 1792281600
+  },
+  {
+    "url": "https://www.howsmyssl.com/",
+    "name": "How's My SSL?",
+    "tags": [
+      "araç",
+      "güvenlik",
+      "tarayıcı-içi",
+      "hesap-gerekmez",
+      "ücretsiz"
+    ],
+    "tr": "Tarayıcının TLS istemci yapılandırmasını (sürüm, şifre takımları, bilinen zayıflıklar) tek sayfada değerlendiren test. SSL Labs sunucuyu test eder; bu ise senin tarafını, yani tarayıcıyı ve işletim sistemini sınar; sonuç JSON API olarak da alınabiliyor. SSL Labs sunucuyu sınar, bu ise istemci tarafını.",
+    "en": "A page that grades your browser's TLS client setup (version, cipher suites, known weaknesses). SSL Labs tests a server; this tests your side, the browser and OS, and the result is also available as a JSON API. SSL Labs tests a server, whereas this checks the client side.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://csp-evaluator.withgoogle.com/",
+    "name": "CSP Evaluator",
+    "tags": [
+      "araç",
+      "güvenlik",
+      "frontend",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "Bir Content-Security-Policy başlığını yapıştırınca atlatılabilir kuralları (unsafe-inline, geniş joker karakterler, eksik yönergeler) işaretleyen Google aracı. securityheaders.com başlıkları genel olarak puanlar; bu ise yalnızca CSP'yi yönerge yönerge ve XSS açısından inceler. Genel başlık denetçilerinden farklı olarak yalnızca CSP'yi yönerge yönerge inceler.",
+    "en": "A Google tool that flags bypassable rules (unsafe-inline, broad wildcards, missing directives) when you paste in a Content-Security-Policy header. securityheaders.com grades headers in general; this looks only at the CSP, directive by directive, from an XSS angle. Unlike general header graders, it looks only at the CSP, directive by directive.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://badssl.com/",
+    "name": "badssl.com",
+    "tags": [
+      "araç",
+      "güvenlik",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "Süresi dolmuş, kendinden imzalı, yanlış ana bilgisayar adlı gibi bilerek bozuk TLS yapılandırmalarına sahip alt alan adları sunan test sitesi. Sunucu değil istemciyi sınar: tarayıcın veya HTTP kütüphanen bu hataları doğru reddediyor mu bunu denemek için.",
+    "en": "A test site that serves subdomains with deliberately broken TLS setups (expired, self-signed, wrong host and so on). It tests clients, not servers: whether your browser or HTTP library rejects these errors correctly.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://securityheaders.com/",
+    "name": "Security Headers",
+    "tags": [
+      "araç",
+      "güvenlik",
+      "frontend",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "Bir sitenin HTTP yanıt başlıklarını (CSP, HSTS, X-Frame-Options, Permissions-Policy vb.) tarayıp A–F arası not veren ve eksik olanı açıklayan tarayıcı içi test. SSL Labs TLS katmanına bakar; bu, uygulama katmanındaki başlık sertleştirmesine bakar. TLS katmanına bakan araçlar yerine uygulama katmanı başlıklarına bakar.",
+    "en": "A browser-based scan that grades a site's HTTP response headers (CSP, HSTS, X-Frame-Options, Permissions-Policy and so on) from A to F and explains what is missing. SSL Labs looks at the TLS layer; this looks at header hardening at the application layer. Instead of the TLS layer, it looks at application-layer header hardening.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://observatory.mozilla.org/",
+    "name": "MDN HTTP Observatory",
+    "tags": [
+      "araç",
+      "güvenlik",
+      "frontend",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "Mozilla'nın bir sitenin başlıklarını, çerezlerini ve TLS ayarlarını güvenlik en iyi uygulamalarına göre puanlayan tarayıcı içi denetleyicisi; artık MDN içinde. securityheaders.com'dan farkı yeniden test geçmişi tutması ve açık kaynak bir tarayıcı (http-observatory) tarafından desteklenmesi.",
+    "en": "Mozilla's in-browser checker that scores a site's headers, cookies and TLS settings against security best practice; it now lives inside MDN. Unlike securityheaders.com it keeps a rescan history and is backed by an open-source scanner (http-observatory).",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://www.hardenize.com/",
+    "name": "Hardenize",
+    "tags": [
+      "araç",
+      "güvenlik",
+      "ağ",
+      "tarayıcı-içi",
+      "freemium"
+    ],
+    "tr": "Bir alan adının DNS, e-posta (SPF/DKIM/DMARC), TLS ve web başlığı güvenliğini tek raporda toplayan tarayıcı. Tek katmanı ölçen testlerin aksine bütün dış yüzeyi birlikte gösterir; kamuya açık tek tarama ücretsiz, sürekli izleme ücretli.",
+    "en": "A scanner that gathers a domain's DNS, email (SPF/DKIM/DMARC), TLS and web-header security into one report. Unlike tests that measure a single layer it shows the whole external surface together; a public one-off scan is free, continuous monitoring is paid.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://cryptcheck.fr/",
+    "name": "CryptCheck",
+    "tags": [
+      "araç",
+      "güvenlik",
+      "ağ",
+      "tarayıcı-içi",
+      "ücretsiz"
+    ],
+    "tr": "HTTPS, SMTP ve XMPP sunucularının TLS yapılandırmasını şifre takımı, sertifika ve anahtar değişimi açısından puanlayan Fransız test sitesi. SSL Labs'ten farkı yalnızca web değil e-posta ve mesajlaşma sunucularını da kapsaması.",
+    "en": "A French test site that grades the TLS setup of HTTPS, SMTP and XMPP servers by cipher suite, certificate and key exchange. Unlike SSL Labs it covers mail and messaging servers as well as web.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://github.com/analysis-tools-dev/static-analysis",
+    "name": "Static Analysis Tools",
+    "tags": [
+      "awesome-liste",
+      "araç",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Her programlama dili ve biçim için statik analiz, linter ve biçimlendirici araçlarını dile göre gruplayan derleme (eski adı awesome-static-analysis). Tek bir araca değil, seçeneklerin karşılaştırmalı haritasına bakmak için.",
+    "en": "A compilation of static analysis tools, linters and formatters grouped by language and format (formerly awesome-static-analysis). It is for surveying the options for a language rather than documenting a single tool.",
+    "src": "secretknowledge",
+    "added": 1792281600
   }
 ]

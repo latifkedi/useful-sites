@@ -521,5 +521,61 @@
     "en": "Long-maintained, free and witty guides to C and network (socket) programming, offered as HTML, PDF and print. Unlike reference documentation they are written in a teaching voice.",
     "src": "lowkwiki",
     "added": 1792281600
+  },
+  {
+    "url": "https://6it.dev/blog/infographics-operation-costs-in-cpu-clock-cycles-741",
+    "name": "Operation Costs in CPU Clock Cycles",
+    "tags": [
+      "referans",
+      "c-ailesi",
+      "donanım",
+      "ücretsiz"
+    ],
+    "tr": "Toplama, bellek erişimi, dal tahmini hatası, sanal çağrı gibi işlemlerin CPU döngüsü maliyetini gösteren ünlü infografik ve açıklaması. Performans sezgisi için büyüklük sıralarını verir; kesin ölçüm değildir.",
+    "en": "The well-known infographic with explanation of the CPU clock-cycle cost of operations such as addition, memory access, branch mispredict and virtual calls. It gives orders of magnitude for performance intuition, not exact measurements.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://littleosbook.github.io/",
+    "name": "The Little Book About OS Development",
+    "tags": [
+      "kitap",
+      "c-ailesi",
+      "öğretici",
+      "ücretsiz"
+    ],
+    "tr": "x86 üzerinde sıfırdan basit bir işletim sistemi yazmayı anlatan ücretsiz kitap: önyükleme, bellek, kesmeler, sistem çağrıları. Büyük işletim sistemi ders kitaplarından farkı, küçük bir çekirdeği baştan sona örnek olarak inşa etmesi.",
+    "en": "A free book on writing a simple x86 operating system from scratch: booting, memory, interrupts, system calls. Unlike large OS textbooks, it builds one small kernel from start to finish.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://github.com/cfenollosa/os-tutorial",
+    "name": "os-tutorial",
+    "tags": [
+      "öğretici",
+      "c-ailesi",
+      "açık-kaynak",
+      "ücretsiz"
+    ],
+    "tr": "Önyükleyiciden bir çekirdeğe kadar adım adım ilerleyen, her adımı kısa bir klasörde veren işletim sistemi öğreticisi. Kitaplara göre kısa ve uygulamalı; BIOS tabanlı 32 bit x86 hedefliyor. Proje bakımı yavaş.",
+    "en": "A step-by-step tutorial that goes from a bootloader up to a kernel, one short folder per step. Shorter and more hands-on than books; it targets BIOS-based 32-bit x86. Maintenance is slow.",
+    "src": "secretknowledge",
+    "added": 1792281600
+  },
+  {
+    "url": "https://www.jmeiners.com/lc3-vm/",
+    "name": "Write your Own Virtual Machine",
+    "tags": [
+      "öğretici",
+      "c-ailesi",
+      "algoritma",
+      "ücretsiz"
+    ],
+    "tr": "C ile LC-3 mimarisi için bir sanal makine yazmayı anlatan tek sayfalık öğretici; sonunda gerçek LC-3 programları çalışıyor. Mimari anlatımlarından farkı, birkaç yüz satırda çalışan bir yürütücü ortaya çıkarması.",
+    "en": "A one-page tutorial on writing a virtual machine for the LC-3 architecture in C, ending with real LC-3 programs running. Unlike architecture lectures, it produces a working executor in a few hundred lines.",
+    "src": "secretknowledge",
+    "added": 1792281600
   }
 ]
