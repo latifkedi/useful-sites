@@ -2,6 +2,8 @@
 
 https://latifkedi.github.io/useful-sites/
 
+The project was created using AI.
+
 An annotated directory of <!-- n -->2,000+<!-- /n --> links across ten areas, from
 software and AI to security, economics and architecture, organised into
 <!-- c -->48<!-- /c --> categories and published in Turkish and English.
