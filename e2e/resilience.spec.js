@@ -64,7 +64,7 @@ test("without JavaScript the home is English, says how to browse, and hides the 
   await expect(page.locator("#t-title")).toHaveText("Useful Sites");
   const note = page.locator(".nojs");
   await expect(note).toBeVisible();
-  await expect(note.locator('a[href="k/en/index.html"]')).toHaveCount(1);
+  await expect(note.locator('a[href="k/en/index.html"]')).toHaveCount(0);   // that page only forwards to /
   await expect(note.locator('a[href="k/index.html"]')).toHaveCount(1);
   for (const sel of ["#q", "#acts", "#menub", "#foot-x", "#foot-kb", "#savedb", "#rand", "#langbtn", "#theme"])
     await expect(page.locator(sel), sel).toBeHidden();
@@ -210,7 +210,7 @@ test("404.html: both languages, a search form to ?q=, absolute links, no script"
   expect(html).not.toMatch(/<script/i);
   expect(html).toMatch(/<form[^>]+action="\/useful-sites\/"[^>]*method="get"/);
   expect(html).toContain('name="q"');
-  expect(html).toContain('href="/useful-sites/k/en/index.html"');
+  expect(html).not.toContain('/useful-sites/k/en/index.html');   // that page only forwards to /
   expect(html).toContain('href="/useful-sites/k/index.html"');
   expect(html).toContain('href="/useful-sites/style.css"');
   expect(html).toContain("form-action 'self'");
