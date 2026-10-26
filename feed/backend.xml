@@ -2,288 +2,290 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
 <title>Backend, API &amp; Sistem Tasarımı — Kullanışlı Siteler</title>
 <subtitle>Yazılımdan yapay zekaya, güvenlikten ekonomiye ve mimariye on alanda elle derlenmiş, açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/backend.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/backend.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/backend.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/backend.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/backend.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>Enable CORS</title>
-  <link href="https://enable-cors.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#enable-cors-org" rel="alternate" type="text/html"/>
   <id>https://enable-cors.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>CORS'u (kaynaklar arası paylaşım) Apache, nginx, Node, IIS gibi onlarca sunucu ve çatı için kopyalanabilir yapılandırmalarla anlatan küçük başvuru sitesi. Genel HTTP belgelerinden farkı, 'şu sunucuda CORS nasıl açılır' sorusuna doğrudan yanıt vermesi.</summary>
+  <content type="html">&lt;p&gt;CORS'u (kaynaklar arası paylaşım) Apache, nginx, Node, IIS gibi onlarca sunucu ve çatı için kopyalanabilir yapılandırmalarla anlatan küçük başvuru sitesi. Genel HTTP belgelerinden farkı, 'şu sunucuda CORS nasıl açılır' sorusuna doğrudan yanıt vermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://enable-cors.org/&quot;&gt;https://enable-cors.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>HTTPie</title>
-  <link href="https://httpie.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#httpie-io" rel="alternate" type="text/html"/>
   <id>https://httpie.io/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>curl'e okunaklı bir alternatif: renkli JSON çıktısı ve basit söz dizimiyle HTTP istekleri gönderir. curl'den farkı, yaygın API isteklerini çok daha az karakterle yazdırması; masaüstü ve web uygulamaları da var, bazıları hesap ister.</summary>
+  <content type="html">&lt;p&gt;curl'e okunaklı bir alternatif: renkli JSON çıktısı ve basit söz dizimiyle HTTP istekleri gönderir. curl'den farkı, yaygın API isteklerini çok daha az karakterle yazdırması; masaüstü ve web uygulamaları da var, bazıları hesap ister.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://httpie.io/&quot;&gt;https://httpie.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Hurl</title>
-  <link href="https://hurl.dev/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#hurl-dev" rel="alternate" type="text/html"/>
   <id>https://hurl.dev/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>HTTP isteklerini ve beklenen yanıtları (durum, JSONPath, XPath, başlık) düz metin dosyasında yazıp çalıştıran, CI'da test olarak kullanılabilen komut satırı aracı. Postman koleksiyonlarının aksine dosyalar git içinde okunabilir kalır.</summary>
+  <content type="html">&lt;p&gt;HTTP isteklerini ve beklenen yanıtları (durum, JSONPath, XPath, başlık) düz metin dosyasında yazıp çalıştıran, CI'da test olarak kullanılabilen komut satırı aracı. Postman koleksiyonlarının aksine dosyalar git içinde okunabilir kalır.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://hurl.dev/&quot;&gt;https://hurl.dev/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>The C10K problem</title>
-  <link href="https://www.kegel.com/c10k.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#kegel-com-c10k-html" rel="alternate" type="text/html"/>
   <id>https://www.kegel.com/c10k.html</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Tek bir sunucunun on bin eşzamanlı bağlantıyı nasıl kaldırabileceğini (select/poll, epoll, iş parçacığı modelleri, çekirdek desteği) anlatan klasik makale. Modern olay döngüsü ve async sunucuların neden o şekilde tasarlandığını tarihsel olarak açıklaması değerli. Modern async çerçevelerin belgelerinden farklı olarak tasarımın tarihsel nedenini anlatır.</summary>
+  <content type="html">&lt;p&gt;Tek bir sunucunun on bin eşzamanlı bağlantıyı nasıl kaldırabileceğini (select/poll, epoll, iş parçacığı modelleri, çekirdek desteği) anlatan klasik makale. Modern olay döngüsü ve async sunucuların neden o şekilde tasarlandığını tarihsel olarak açıklaması değerli. Modern async çerçevelerin belgelerinden farklı olarak tasarımın tarihsel nedenini anlatır.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.kegel.com/c10k.html&quot;&gt;https://www.kegel.com/c10k.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Wasmer</title>
-  <link href="https://wasmer.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#wasmer-io" rel="alternate" type="text/html"/>
   <id>https://wasmer.io/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Birden çok derleyici arka ucu (Singlepass, Cranelift, LLVM) arasında seçim yapılabilen WebAssembly çalışma ortamı; yanında bir paket kaydı ve ücretli Wasmer Edge barındırması var. Wasmtime’dan farkı yalnızca çalışma ortamı değil, paketleme ve yayınlamayı da kapsayan ticari bir platform olması.</summary>
+  <content type="html">&lt;p&gt;Birden çok derleyici arka ucu (Singlepass, Cranelift, LLVM) arasında seçim yapılabilen WebAssembly çalışma ortamı; yanında bir paket kaydı ve ücretli Wasmer Edge barındırması var. Wasmtime’dan farkı yalnızca çalışma ortamı değil, paketleme ve yayınlamayı da kapsayan ticari bir platform olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://wasmer.io/&quot;&gt;https://wasmer.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Wasmtime</title>
-  <link href="https://wasmtime.dev/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#wasmtime-dev" rel="alternate" type="text/html"/>
   <id>https://wasmtime.dev/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Bytecode Alliance’ın tarayıcı dışında WebAssembly çalıştıran çalışma ortamı; Rust ile yazılmış, Cranelift ile derliyor, WASI ve bileşen modelini ilk uygulayanlardan. Wasmer’dan farkı paket kaydı ya da barındırma satmaması; standart takibine ve gömülerek kullanılmaya odaklanması.</summary>
+  <content type="html">&lt;p&gt;Bytecode Alliance’ın tarayıcı dışında WebAssembly çalıştıran çalışma ortamı; Rust ile yazılmış, Cranelift ile derliyor, WASI ve bileşen modelini ilk uygulayanlardan. Wasmer’dan farkı paket kaydı ya da barındırma satmaması; standart takibine ve gömülerek kullanılmaya odaklanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://wasmtime.dev/&quot;&gt;https://wasmtime.dev/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Classy Class-Based Views</title>
-  <link href="https://ccbv.co.uk/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#ccbv-co-uk" rel="alternate" type="text/html"/>
   <id>https://ccbv.co.uk/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Django’nun her sınıf tabanlı görünümünü yöntemleri, kalıtım zinciri ve kaynak koduyla gösteren site. Dokümandan farkı hangi yöntemi nerede ezeceğini ve nereden geldiğini görebilmen.</summary>
+  <content type="html">&lt;p&gt;Django’nun her sınıf tabanlı görünümünü yöntemleri, kalıtım zinciri ve kaynak koduyla gösteren site. Dokümandan farkı hangi yöntemi nerede ezeceğini ve nereden geldiğini görebilmen.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://ccbv.co.uk/&quot;&gt;https://ccbv.co.uk/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Django Girls Tutorial</title>
-  <link href="https://tutorial.djangogirls.org/en/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#tutorial-djangogirls-org-en" rel="alternate" type="text/html"/>
   <id>https://tutorial.djangogirls.org/en/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Django ile bir blog kurdurarak anlatan, atölyeler için yazılmış ama tek başına da izlenebilen adım adım öğretici. Resmî dokümandan farkı programlama bilgisi varsaymaması.</summary>
+  <content type="html">&lt;p&gt;Django ile bir blog kurdurarak anlatan, atölyeler için yazılmış ama tek başına da izlenebilen adım adım öğretici. Resmî dokümandan farkı programlama bilgisi varsaymaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://tutorial.djangogirls.org/en/&quot;&gt;https://tutorial.djangogirls.org/en/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>The Flask Mega-Tutorial</title>
-  <link href="https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#blog-miguelgrinberg-com-post-the-flask-mega-tutorial-part-i-hello-world" rel="alternate" type="text/html"/>
   <id>https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Miguel Grinberg’in uzun, proje tabanlı Flask öğreticisi: kimlik doğrulama, veritabanı ve yayına alma dahil. Resmî hızlı başlangıçtan farkı tek bir uygulamayı “merhaba dünya”dan üretime kadar götürmesi.</summary>
+  <content type="html">&lt;p&gt;Miguel Grinberg’in uzun, proje tabanlı Flask öğreticisi: kimlik doğrulama, veritabanı ve yayına alma dahil. Resmî hızlı başlangıçtan farkı tek bir uygulamayı “merhaba dünya”dan üretime kadar götürmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world&quot;&gt;https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Any API</title>
-  <link href="https://any-api.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#any-api-com" rel="alternate" type="text/html"/>
   <id>https://any-api.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Yüzlerce herkese açık API’nin belge ve konsolunu tek yerde toplayan dizin. Tek tek API sitelerinden farkı hepsini ortak bir arayüzde deneyebilmen.</summary>
+  <content type="html">&lt;p&gt;Yüzlerce herkese açık API’nin belge ve konsolunu tek yerde toplayan dizin. Tek tek API sitelerinden farkı hepsini ortak bir arayüzde deneyebilmen.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://any-api.com/&quot;&gt;https://any-api.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome CakePHP</title>
-  <link href="https://github.com/friendsofcake/awesome-cakephp"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#github-com-friendsofcake-awesome-cakephp" rel="alternate" type="text/html"/>
   <id>https://github.com/friendsofcake/awesome-cakephp</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>PHP çatısı CakePHP için eklenti ve kaynak listesi. Genel PHP listelerinden farkı yalnız CakePHP eklentilerine ve ekosistemine odaklanması.</summary>
+  <content type="html">&lt;p&gt;PHP çatısı CakePHP için eklenti ve kaynak listesi. Genel PHP listelerinden farkı yalnız CakePHP eklentilerine ve ekosistemine odaklanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/friendsofcake/awesome-cakephp&quot;&gt;https://github.com/friendsofcake/awesome-cakephp&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Dash</title>
-  <link href="https://github.com/ucg8j/awesome-dash"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#github-com-ucg8j-awesome-dash" rel="alternate" type="text/html"/>
   <id>https://github.com/ucg8j/awesome-dash</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Python ile veri panosu kuran Dash çatısı için kaynak listesi. Streamlit’ten farkı Plotly tabanlı olması ve geri çağırma (callback) modeliyle etkileşim üzerinde daha çok denetim vermesi.</summary>
+  <content type="html">&lt;p&gt;Python ile veri panosu kuran Dash çatısı için kaynak listesi. Streamlit’ten farkı Plotly tabanlı olması ve geri çağırma (callback) modeliyle etkileşim üzerinde daha çok denetim vermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ucg8j/awesome-dash&quot;&gt;https://github.com/ucg8j/awesome-dash&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome DDD</title>
-  <link href="https://github.com/heynickc/awesome-ddd"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#github-com-heynickc-awesome-ddd" rel="alternate" type="text/html"/>
   <id>https://github.com/heynickc/awesome-ddd</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Alan güdümlü tasarım (DDD), CQRS ve olay kaynaklı (event sourcing) mimari için kaynak, kitap ve örnek listesi. Genel mimari listelerinden farkı bu üç birbirine bağlı yaklaşıma odaklanması.</summary>
+  <content type="html">&lt;p&gt;Alan güdümlü tasarım (DDD), CQRS ve olay kaynaklı (event sourcing) mimari için kaynak, kitap ve örnek listesi. Genel mimari listelerinden farkı bu üç birbirine bağlı yaklaşıma odaklanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/heynickc/awesome-ddd&quot;&gt;https://github.com/heynickc/awesome-ddd&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Deno</title>
-  <link href="https://github.com/denolib/awesome-deno"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#github-com-denolib-awesome-deno" rel="alternate" type="text/html"/>
   <id>https://github.com/denolib/awesome-deno</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Node’a güvenlik ve TypeScript odaklı bir alternatif olan Deno için kaynak listesi. Node listelerinden farkı bu güvenli çalışma zamanına özgü modülleri toplaması.</summary>
+  <content type="html">&lt;p&gt;Node’a güvenlik ve TypeScript odaklı bir alternatif olan Deno için kaynak listesi. Node listelerinden farkı bu güvenli çalışma zamanına özgü modülleri toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/denolib/awesome-deno&quot;&gt;https://github.com/denolib/awesome-deno&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Directus</title>
-  <link href="https://github.com/directus-community/awesome-directus"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#github-com-directus-community-awesome-directus" rel="alternate" type="text/html"/>
   <id>https://github.com/directus-community/awesome-directus</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Gerçek zamanlı API ve pano sunan başsız CMS Directus için kaynak listesi. Strapi gibi başsız CMS’lerden farkı mevcut bir SQL veritabanının üzerine oturup şemasını kendi biçimine zorlamaması.</summary>
+  <content type="html">&lt;p&gt;Gerçek zamanlı API ve pano sunan başsız CMS Directus için kaynak listesi. Strapi gibi başsız CMS’lerden farkı mevcut bir SQL veritabanının üzerine oturup şemasını kendi biçimine zorlamaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/directus-community/awesome-directus&quot;&gt;https://github.com/directus-community/awesome-directus&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Drupal</title>
-  <link href="https://github.com/nirgn975/awesome-drupal"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#github-com-nirgn975-awesome-drupal" rel="alternate" type="text/html"/>
   <id>https://github.com/nirgn975/awesome-drupal</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>PHP tabanlı içerik yönetim sistemi Drupal için modül ve kaynak listesi. Genel CMS listelerinden farkı yalnız Drupal modüllerini, dağıtımlarını ve geliştirici araçlarını toplaması.</summary>
+  <content type="html">&lt;p&gt;PHP tabanlı içerik yönetim sistemi Drupal için modül ve kaynak listesi. Genel CMS listelerinden farkı yalnız Drupal modüllerini, dağıtımlarını ve geliştirici araçlarını toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/nirgn975/awesome-drupal&quot;&gt;https://github.com/nirgn975/awesome-drupal&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome FastAPI</title>
-  <link href="https://github.com/mjhea0/awesome-fastapi"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#github-com-mjhea0-awesome-fastapi" rel="alternate" type="text/html"/>
   <id>https://github.com/mjhea0/awesome-fastapi</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Python’un hızlı web çatısı FastAPI için eklenti, örnek ve öğretici listesi. Resmî dokümandan farkı topluluk kütüphanelerini ve üretim örneklerini toplaması.</summary>
+  <content type="html">&lt;p&gt;Python’un hızlı web çatısı FastAPI için eklenti, örnek ve öğretici listesi. Resmî dokümandan farkı topluluk kütüphanelerini ve üretim örneklerini toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/mjhea0/awesome-fastapi&quot;&gt;https://github.com/mjhea0/awesome-fastapi&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Fiber</title>
-  <link href="https://github.com/gofiber/awesome-fiber"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#github-com-gofiber-awesome-fiber" rel="alternate" type="text/html"/>
   <id>https://github.com/gofiber/awesome-fiber</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Express’ten esinlenen, fasthttp üzerine kurulu Go web çatısı Fiber için kaynak listesi. Genel Go listelerinden farkı yalnız Fiber ara katmanlarını, şablonlarını ve örneklerini toplaması.</summary>
+  <content type="html">&lt;p&gt;Express’ten esinlenen, fasthttp üzerine kurulu Go web çatısı Fiber için kaynak listesi. Genel Go listelerinden farkı yalnız Fiber ara katmanlarını, şablonlarını ve örneklerini toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/gofiber/awesome-fiber&quot;&gt;https://github.com/gofiber/awesome-fiber&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Firebase</title>
-  <link href="https://github.com/jthegedus/awesome-firebase"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#github-com-jthegedus-awesome-firebase" rel="alternate" type="text/html"/>
   <id>https://github.com/jthegedus/awesome-firebase</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Google’ın uygulama geliştirme platformu Firebase için kaynak listesi. Resmî belgelerden farkı topluluk kütüphanelerini, örnek projeleri ve deneyim yazılarını toplaması.</summary>
+  <content type="html">&lt;p&gt;Google’ın uygulama geliştirme platformu Firebase için kaynak listesi. Resmî belgelerden farkı topluluk kütüphanelerini, örnek projeleri ve deneyim yazılarını toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/jthegedus/awesome-firebase&quot;&gt;https://github.com/jthegedus/awesome-firebase&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Integration</title>
-  <link href="https://github.com/stn1slv/awesome-integration"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#github-com-stn1slv-awesome-integration" rel="alternate" type="text/html"/>
   <id>https://github.com/stn1slv/awesome-integration</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Farklı BT sistemlerini birbirine bağlama (entegrasyon) kaynak listesi.</summary>
+  <content type="html">&lt;p&gt;Farklı BT sistemlerini birbirine bağlama (entegrasyon) kaynak listesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/stn1slv/awesome-integration&quot;&gt;https://github.com/stn1slv/awesome-integration&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Laravel</title>
-  <link href="https://github.com/chiraggude/awesome-laravel"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#github-com-chiraggude-awesome-laravel" rel="alternate" type="text/html"/>
   <id>https://github.com/chiraggude/awesome-laravel</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>PHP’nin en yaygın çatısı Laravel için paket ve kaynak listesi. Packagist’te aramaktan farkı yaygın kullanılan paketleri ve öğrenme kaynaklarını konuya göre seçmesi.</summary>
+  <content type="html">&lt;p&gt;PHP’nin en yaygın çatısı Laravel için paket ve kaynak listesi. Packagist’te aramaktan farkı yaygın kullanılan paketleri ve öğrenme kaynaklarını konuya göre seçmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/chiraggude/awesome-laravel&quot;&gt;https://github.com/chiraggude/awesome-laravel&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Low Code</title>
-  <link href="https://github.com/zenitysec/awesome-low-code"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#github-com-zenitysec-awesome-low-code" rel="alternate" type="text/html"/>
   <id>https://github.com/zenitysec/awesome-low-code</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>İş profesyonellerinin az kodla uygulama kurmasını sağlayan platformların listesi. Tek bir platformun belgelerinden farkı platformları yan yana listelemesi; listeyi bir güvenlik şirketi (Zenity) sürdürüyor.</summary>
+  <content type="html">&lt;p&gt;İş profesyonellerinin az kodla uygulama kurmasını sağlayan platformların listesi. Tek bir platformun belgelerinden farkı platformları yan yana listelemesi; listeyi bir güvenlik şirketi (Zenity) sürdürüyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/zenitysec/awesome-low-code&quot;&gt;https://github.com/zenitysec/awesome-low-code&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Magento 2</title>
-  <link href="https://github.com/DavidLambauer/awesome-magento2"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#github-com-davidlambauer-awesome-magento2" rel="alternate" type="text/html"/>
   <id>https://github.com/DavidLambauer/awesome-magento2</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>PHP ile yazılmış açık kaynak e-ticaret platformu Magento 2 için kaynak listesi. Genel e-ticaret listelerinden farkı yalnız Magento 2 modüllerini, geliştirici araçlarını ve öğrenme kaynaklarını toplaması.</summary>
+  <content type="html">&lt;p&gt;PHP ile yazılmış açık kaynak e-ticaret platformu Magento 2 için kaynak listesi. Genel e-ticaret listelerinden farkı yalnız Magento 2 modüllerini, geliştirici araçlarını ve öğrenme kaynaklarını toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/DavidLambauer/awesome-magento2&quot;&gt;https://github.com/DavidLambauer/awesome-magento2&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Node-RED</title>
-  <link href="https://github.com/naimo84/awesome-nodered"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#github-com-naimo84-awesome-nodered" rel="alternate" type="text/html"/>
   <id>https://github.com/naimo84/awesome-nodered</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Donanım ve servisleri görsel bağlayan Node-RED için kaynak listesi. Entegrasyonu kodla yazmaktan farkı akışı tarayıcıda düğüm bağlayarak kurman; liste topluluk düğümlerini ve örnek akışları topluyor.</summary>
+  <content type="html">&lt;p&gt;Donanım ve servisleri görsel bağlayan Node-RED için kaynak listesi. Entegrasyonu kodla yazmaktan farkı akışı tarayıcıda düğüm bağlayarak kurman; liste topluluk düğümlerini ve örnek akışları topluyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/naimo84/awesome-nodered&quot;&gt;https://github.com/naimo84/awesome-nodered&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Node.js</title>
-  <link href="https://github.com/sindresorhus/awesome-nodejs"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#github-com-sindresorhus-awesome-nodejs" rel="alternate" type="text/html"/>
   <id>https://github.com/sindresorhus/awesome-nodejs</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Node.js paket ve kaynaklarını konuya göre düzenleyen liste. npm aramasından farkı seçilmiş, kalitesi denetlenmiş bir başlangıç noktası olması.</summary>
+  <content type="html">&lt;p&gt;Node.js paket ve kaynaklarını konuya göre düzenleyen liste. npm aramasından farkı seçilmiş, kalitesi denetlenmiş bir başlangıç noktası olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/sindresorhus/awesome-nodejs&quot;&gt;https://github.com/sindresorhus/awesome-nodejs&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome PHP</title>
-  <link href="https://github.com/ziadoz/awesome-php"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#github-com-ziadoz-awesome-php" rel="alternate" type="text/html"/>
   <id>https://github.com/ziadoz/awesome-php</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>PHP kütüphane, çerçeve ve araçlarını konuya göre toplayan liste. Packagist aramasından farkı seçilmiş ve modern PHP pratiğine göre düzenlenmiş olması.</summary>
+  <content type="html">&lt;p&gt;PHP kütüphane, çerçeve ve araçlarını konuya göre toplayan liste. Packagist aramasından farkı seçilmiş ve modern PHP pratiğine göre düzenlenmiş olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ziadoz/awesome-php&quot;&gt;https://github.com/ziadoz/awesome-php&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Plone</title>
-  <link href="https://github.com/collective/awesome-plone"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#github-com-collective-awesome-plone" rel="alternate" type="text/html"/>
   <id>https://github.com/collective/awesome-plone</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Açık kaynak Python CMS Plone için eklenti ve kaynak listesi. WordPress ya da Drupal listelerinden farkı Python tabanlı, kurumsal kullanıma yönelik bir CMS’in ekosistemine odaklanması.</summary>
+  <content type="html">&lt;p&gt;Açık kaynak Python CMS Plone için eklenti ve kaynak listesi. WordPress ya da Drupal listelerinden farkı Python tabanlı, kurumsal kullanıma yönelik bir CMS’in ekosistemine odaklanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/collective/awesome-plone&quot;&gt;https://github.com/collective/awesome-plone&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Prisma</title>
-  <link href="https://github.com/catalinmiron/awesome-prisma"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#github-com-catalinmiron-awesome-prisma" rel="alternate" type="text/html"/>
   <id>https://github.com/catalinmiron/awesome-prisma</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Veritabanını tip güvenli bir istemciye çeviren Prisma ORM için kaynak listesi. TypeORM gibi ORM’lerden farkı şemayı ayrı bir dosyada (schema.prisma) tanımlayıp istemciyi o dosyadan üretmesi.</summary>
+  <content type="html">&lt;p&gt;Veritabanını tip güvenli bir istemciye çeviren Prisma ORM için kaynak listesi. TypeORM gibi ORM’lerden farkı şemayı ayrı bir dosyada (schema.prisma) tanımlayıp istemciyi o dosyadan üretmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/catalinmiron/awesome-prisma&quot;&gt;https://github.com/catalinmiron/awesome-prisma&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Serverless</title>
-  <link href="https://github.com/pmuens/awesome-serverless"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#github-com-pmuens-awesome-serverless" rel="alternate" type="text/html"/>
   <id>https://github.com/pmuens/awesome-serverless</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Sunucusuz (serverless) hesaplama ve mimari için kaynak listesi. Tek sağlayıcı belgelerinden farkı AWS Lambda, Azure Functions gibi servisleri ve açık kaynak çatıları yan yana toplaması.</summary>
+  <content type="html">&lt;p&gt;Sunucusuz (serverless) hesaplama ve mimari için kaynak listesi. Tek sağlayıcı belgelerinden farkı AWS Lambda, Azure Functions gibi servisleri ve açık kaynak çatıları yan yana toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/pmuens/awesome-serverless&quot;&gt;https://github.com/pmuens/awesome-serverless&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Software Architecture</title>
-  <link href="https://github.com/simskij/awesome-software-architecture"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#github-com-simskij-awesome-software-architecture" rel="alternate" type="text/html"/>
   <id>https://github.com/simskij/awesome-software-architecture</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Yazılım mimarisini tasarlama ve belgeleme kaynaklarının listesi. Tek kitaptan farkı kalıp, örnek olay ve araçları bir arada, konu konu toplaması.</summary>
+  <content type="html">&lt;p&gt;Yazılım mimarisini tasarlama ve belgeleme kaynaklarının listesi. Tek kitaptan farkı kalıp, örnek olay ve araçları bir arada, konu konu toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simskij/awesome-software-architecture&quot;&gt;https://github.com/simskij/awesome-software-architecture&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Symfony</title>
-  <link href="https://github.com/sitepoint-editors/awesome-symfony"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#github-com-sitepoint-editors-awesome-symfony" rel="alternate" type="text/html"/>
   <id>https://github.com/sitepoint-editors/awesome-symfony</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>PHP çatısı Symfony için bundle ve kaynak listesi. Genel PHP listelerinden farkı Symfony bundle’larına ve bu çatıya özgü araçlara odaklanması.</summary>
+  <content type="html">&lt;p&gt;PHP çatısı Symfony için bundle ve kaynak listesi. Genel PHP listelerinden farkı Symfony bundle’larına ve bu çatıya özgü araçlara odaklanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/sitepoint-editors/awesome-symfony&quot;&gt;https://github.com/sitepoint-editors/awesome-symfony&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Vapor</title>
-  <link href="https://github.com/vapor-community/awesome-vapor"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#github-com-vapor-community-awesome-vapor" rel="alternate" type="text/html"/>
   <id>https://github.com/vapor-community/awesome-vapor</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Swift ile sunucu tarafı geliştirme çatısı Vapor için kaynak listesi. Node veya Go çatılarından farkı iOS uygulamasının dilini sunucuda da kullanabilmen; liste paketleri ve rehberleri topluyor.</summary>
+  <content type="html">&lt;p&gt;Swift ile sunucu tarafı geliştirme çatısı Vapor için kaynak listesi. Node veya Go çatılarından farkı iOS uygulamasının dilini sunucuda da kullanabilmen; liste paketleri ve rehberleri topluyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/vapor-community/awesome-vapor&quot;&gt;https://github.com/vapor-community/awesome-vapor&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Memcached</title>
-  <link href="https://memcached.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#memcached-org" rel="alternate" type="text/html"/>
   <id>https://memcached.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Sık kullanılan veriyi bellekte tutarak site hızını artıran dağıtık önbellek sistemi. Redis’e kıyasla yalnız anahtar-değer saklıyor ve kalıcılığı yok; karşılığında çok iş parçacıklı ve son derece basit.</summary>
+  <content type="html">&lt;p&gt;Sık kullanılan veriyi bellekte tutarak site hızını artıran dağıtık önbellek sistemi. Redis’e kıyasla yalnız anahtar-değer saklıyor ve kalıcılığı yok; karşılığında çok iş parçacıklı ve son derece basit.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://memcached.org/&quot;&gt;https://memcached.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Swagger</title>
-  <link href="https://swagger.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#swagger-io" rel="alternate" type="text/html"/>
   <id>https://swagger.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>RESTful API’leri tasarlamak, belgelemek ve denemek için OpenAPI araç seti. Postman gibi istemcilerden farkı önce şartnameyi yazıp belgeyi ve istemci kodunu ondan üretmen (spec-first).</summary>
+  <content type="html">&lt;p&gt;RESTful API’leri tasarlamak, belgelemek ve denemek için OpenAPI araç seti. Postman gibi istemcilerden farkı önce şartnameyi yazıp belgeyi ve istemci kodunu ondan üretmen (spec-first).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://swagger.io/&quot;&gt;https://swagger.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Convex</title>
-  <link href="https://www.convex.dev/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#convex-dev" rel="alternate" type="text/html"/>
   <id>https://www.convex.dev/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Veritabanı, sunucu işlevleri ve gerçek zamanlı abonelikleri tek üründe toplayan backend platformu. Firebase’den farkı sorguların TypeScript fonksiyonu olarak yazılması ve işlem (transaction) garantisi vermesi — döküman veritabanı esnekliğiyle ilişkisel tutarlılık.</summary>
+  <content type="html">&lt;p&gt;Veritabanı, sunucu işlevleri ve gerçek zamanlı abonelikleri tek üründe toplayan backend platformu. Firebase’den farkı sorguların TypeScript fonksiyonu olarak yazılması ve işlem (transaction) garantisi vermesi — döküman veritabanı esnekliğiyle ilişkisel tutarlılık.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.convex.dev/&quot;&gt;https://www.convex.dev/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Free Public APIs</title>
-  <link href="https://www.freepublicapis.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#freepublicapis-com" rel="alternate" type="text/html"/>
   <id>https://www.freepublicapis.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Üç yüzden fazla ücretsiz genel API’nin dizini; her biri için canlılık durumu ve son kontrol tarihi tutuluyor. Eski awesome-list derlemelerinden farkı bu: listedeki API’lerin hâlâ yanıt verip vermediğini düzenli olarak tarıyor.</summary>
+  <content type="html">&lt;p&gt;Üç yüzden fazla ücretsiz genel API’nin dizini; her biri için canlılık durumu ve son kontrol tarihi tutuluyor. Eski awesome-list derlemelerinden farkı bu: listedeki API’lerin hâlâ yanıt verip vermediğini düzenli olarak tarıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.freepublicapis.com/&quot;&gt;https://www.freepublicapis.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Porkbun</title>
-  <link href="https://porkbun.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#porkbun-com" rel="alternate" type="text/html"/>
   <id>https://porkbun.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>ICANN akreditasyonlu alan adı kayıt şirketi; WHOIS gizliliği, SSL ve e-posta yönlendirme ücretsiz geliyor. GoDaddy tarzı kayıtçılardan farkı yenileme fiyatının ilk yıl fiyatına yakın kalması — cazip giriş fiyatı sonra üç katına çıkmıyor.</summary>
+  <content type="html">&lt;p&gt;ICANN akreditasyonlu alan adı kayıt şirketi; WHOIS gizliliği, SSL ve e-posta yönlendirme ücretsiz geliyor. GoDaddy tarzı kayıtçılardan farkı yenileme fiyatının ilk yıl fiyatına yakın kalması — cazip giriş fiyatı sonra üç katına çıkmıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://porkbun.com/&quot;&gt;https://porkbun.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>High Scalability</title>
-  <link href="https://highscalability.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#highscalability-com" rel="alternate" type="text/html"/>
   <id>https://highscalability.com/</id>
   <updated>2026-08-19T23:34:09Z</updated>
-  <summary>On beş yılı aşkın mimari yazısı arşivi. Güncel teknoloji bloglarının aksine yazılar teknoloji olarak eskimiş olabilir, ama ölçekleme baskısının gerçekte nasıl karşılandığını görmek için hâlâ okunuyor.</summary>
+  <content type="html">&lt;p&gt;On beş yılı aşkın mimari yazısı arşivi. Güncel teknoloji bloglarının aksine yazılar teknoloji olarak eskimiş olabilir, ama ölçekleme baskısının gerçekte nasıl karşılandığını görmek için hâlâ okunuyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://highscalability.com/&quot;&gt;https://highscalability.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>System Design One</title>
-  <link href="https://systemdesign.one/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#systemdesign-one" rel="alternate" type="text/html"/>
   <id>https://systemdesign.one/</id>
   <updated>2026-08-19T23:34:06Z</updated>
-  <summary>Gerçek şirketlerin mimarisini vaka çalışması olarak çözümlüyor; sayısal büyüklükleri ve yapılan takasları veriyor. Soyut sistem tasarımı anlatımlarından farkı bu somutluk.</summary>
+  <content type="html">&lt;p&gt;Gerçek şirketlerin mimarisini vaka çalışması olarak çözümlüyor; sayısal büyüklükleri ve yapılan takasları veriyor. Soyut sistem tasarımı anlatımlarından farkı bu somutluk.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://systemdesign.one/&quot;&gt;https://systemdesign.one/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Martin Fowler · Architecture</title>
-  <link href="https://martinfowler.com/architecture/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/backend.html#martinfowler-com-architecture" rel="alternate" type="text/html"/>
   <id>https://martinfowler.com/architecture/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Yazılım mimarisi üzerine Martin Fowler’ın kanonik makale ve kalıp derlemesi. Dağınık bloglardan farkı mikroservis, event sourcing gibi kavramların en çok atıf alan tanımını vermesi.</summary>
+  <content type="html">&lt;p&gt;Yazılım mimarisi üzerine Martin Fowler’ın kanonik makale ve kalıp derlemesi. Dağınık bloglardan farkı mikroservis, event sourcing gibi kavramların en çok atıf alan tanımını vermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://martinfowler.com/architecture/&quot;&gt;https://martinfowler.com/architecture/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

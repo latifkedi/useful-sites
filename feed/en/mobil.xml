@@ -2,288 +2,290 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title>Mobile &amp; Desktop — Useful Sites</title>
 <subtitle>A hand-curated, annotated link directory across ten areas, from software and AI to security, economics and architecture. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/en/mobil.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/mobil.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/mobil.xml</id>
 <updated>2026-10-09T09:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>Atlantis</title>
-  <link href="https://github.com/ProxymanApp/atlantis"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#github-com-proxymanapp-atlantis" rel="alternate" type="text/html"/>
   <id>https://github.com/ProxymanApp/atlantis</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>A Swift framework that sends an iOS app’s HTTP/HTTPS and WebSocket traffic to Proxyman without a proxy setup. Unlike configuring a proxy and installing a certificate it only needs a framework added to the app.</summary>
+  <content type="html">&lt;p&gt;A Swift framework that sends an iOS app’s HTTP/HTTPS and WebSocket traffic to Proxyman without a proxy setup. Unlike configuring a proxy and installing a certificate it only needs a framework added to the app.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ProxymanApp/atlantis&quot;&gt;https://github.com/ProxymanApp/atlantis&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Kivy</title>
-  <link href="https://kivy.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#kivy-org" rel="alternate" type="text/html"/>
   <id>https://kivy.org/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>A Python framework for multi-touch interfaces with one codebase for desktop and mobile. Unlike Tkinter it targets touch and mobile.</summary>
+  <content type="html">&lt;p&gt;A Python framework for multi-touch interfaces with one codebase for desktop and mobile. Unlike Tkinter it targets touch and mobile.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://kivy.org/&quot;&gt;https://kivy.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Obtainium</title>
-  <link href="https://github.com/ImranR98/Obtainium"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#github-com-imranr98-obtainium" rel="alternate" type="text/html"/>
   <id>https://github.com/ImranR98/Obtainium</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>An Android app that installs and updates apps straight from their release pages (GitHub, GitLab, F-Droid and others). Unlike store updates it follows the developer’s own releases.</summary>
+  <content type="html">&lt;p&gt;An Android app that installs and updates apps straight from their release pages (GitHub, GitLab, F-Droid and others). Unlike store updates it follows the developer’s own releases.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ImranR98/Obtainium&quot;&gt;https://github.com/ImranR98/Obtainium&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Android Developers</title>
-  <link href="https://developer.android.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#developer-android-com" rel="alternate" type="text/html"/>
   <id>https://developer.android.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The official Android developer documentation, tools and guides. Unlike community tutorials, it is the primary source for API behaviour and the Jetpack libraries.</summary>
+  <content type="html">&lt;p&gt;The official Android developer documentation, tools and guides. Unlike community tutorials, it is the primary source for API behaviour and the Jetpack libraries.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://developer.android.com&quot;&gt;https://developer.android.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Apple Developer</title>
-  <link href="https://developer.apple.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#developer-apple-com" rel="alternate" type="text/html"/>
   <id>https://developer.apple.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The official developer documentation and resources for iOS and Apple platforms, including the Human Interface Guidelines. Unlike third-party tutorials, it is the last word on APIs and App Store rules.</summary>
+  <content type="html">&lt;p&gt;The official developer documentation and resources for iOS and Apple platforms, including the Human Interface Guidelines. Unlike third-party tutorials, it is the last word on APIs and App Store rules.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://developer.apple.com&quot;&gt;https://developer.apple.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Android</title>
-  <link href="https://github.com/JStumpp/awesome-android"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#github-com-jstumpp-awesome-android" rel="alternate" type="text/html"/>
   <id>https://github.com/JStumpp/awesome-android</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of libraries, tools and learning resources for Android development. Unlike general search it is split into categories from architecture to UI.</summary>
+  <content type="html">&lt;p&gt;A list of libraries, tools and learning resources for Android development. Unlike general search it is split into categories from architecture to UI.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/JStumpp/awesome-android&quot;&gt;https://github.com/JStumpp/awesome-android&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Capacitor</title>
-  <link href="https://github.com/riderx/awesome-capacitor"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#github-com-riderx-awesome-capacitor" rel="alternate" type="text/html"/>
   <id>https://github.com/riderx/awesome-capacitor</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Capacitor, wrapping web apps in a native mobile shell. Unlike Cordova, it keeps the native Xcode and Android Studio projects as source code rather than generated files; the list gathers plugins.</summary>
+  <content type="html">&lt;p&gt;A resource list for Capacitor, wrapping web apps in a native mobile shell. Unlike Cordova, it keeps the native Xcode and Android Studio projects as source code rather than generated files; the list gathers plugins.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/riderx/awesome-capacitor&quot;&gt;https://github.com/riderx/awesome-capacitor&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Cordova</title>
-  <link href="https://github.com/busterc/awesome-cordova"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#github-com-busterc-awesome-cordova" rel="alternate" type="text/html"/>
   <id>https://github.com/busterc/awesome-cordova</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Cordova, building hybrid mobile apps with JavaScript. Unlike Capacitor it is older with a broad plugin ecosystem; new projects mostly go to Capacitor.</summary>
+  <content type="html">&lt;p&gt;A resource list for Cordova, building hybrid mobile apps with JavaScript. Unlike Capacitor it is older with a broad plugin ecosystem; new projects mostly go to Capacitor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/busterc/awesome-cordova&quot;&gt;https://github.com/busterc/awesome-cordova&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Electron</title>
-  <link href="https://github.com/sindresorhus/awesome-electron"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#github-com-sindresorhus-awesome-electron" rel="alternate" type="text/html"/>
   <id>https://github.com/sindresorhus/awesome-electron</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Electron, building desktop apps with web technologies. Unlike alternatives such as Tauri, it bundles Chromium and Node.js with every app: large downloads, but identical behaviour on every platform.</summary>
+  <content type="html">&lt;p&gt;A resource list for Electron, building desktop apps with web technologies. Unlike alternatives such as Tauri, it bundles Chromium and Node.js with every app: large downloads, but identical behaviour on every platform.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/sindresorhus/awesome-electron&quot;&gt;https://github.com/sindresorhus/awesome-electron&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Flutter</title>
-  <link href="https://github.com/Solido/awesome-flutter"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#github-com-solido-awesome-flutter" rel="alternate" type="text/html"/>
   <id>https://github.com/Solido/awesome-flutter</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of packages, samples and tutorials for building cross-platform apps with Flutter. Unlike the official catalog it brings together community packages and real app examples.</summary>
+  <content type="html">&lt;p&gt;A list of packages, samples and tutorials for building cross-platform apps with Flutter. Unlike the official catalog it brings together community packages and real app examples.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/Solido/awesome-flutter&quot;&gt;https://github.com/Solido/awesome-flutter&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome iOS</title>
-  <link href="https://github.com/vsouza/awesome-ios"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#github-com-vsouza-awesome-ios" rel="alternate" type="text/html"/>
   <id>https://github.com/vsouza/awesome-ios</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of libraries, tools and learning resources for iOS development. Unlike general Apple lists it focuses on the iOS app layer and the Swift/Obj-C ecosystem.</summary>
+  <content type="html">&lt;p&gt;A list of libraries, tools and learning resources for iOS development. Unlike general Apple lists it focuses on the iOS app layer and the Swift/Obj-C ecosystem.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/vsouza/awesome-ios&quot;&gt;https://github.com/vsouza/awesome-ios&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome React Native</title>
-  <link href="https://github.com/jondot/awesome-react-native"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#github-com-jondot-awesome-react-native" rel="alternate" type="text/html"/>
   <id>https://github.com/jondot/awesome-react-native</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of components and tools for mobile development with React Native. Unlike web React lists it focuses on native mobile components and bridges.</summary>
+  <content type="html">&lt;p&gt;A list of components and tools for mobile development with React Native. Unlike web React lists it focuses on native mobile components and bridges.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/jondot/awesome-react-native&quot;&gt;https://github.com/jondot/awesome-react-native&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Scriptable</title>
-  <link href="https://github.com/dersvenhesse/awesome-scriptable"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#github-com-dersvenhesse-awesome-scriptable" rel="alternate" type="text/html"/>
   <id>https://github.com/dersvenhesse/awesome-scriptable</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Scriptable, the iOS app for automation in JavaScript. Unlike Apple Shortcuts you write automation in JavaScript instead of blocks; the list gathers scripts and home-screen widgets.</summary>
+  <content type="html">&lt;p&gt;A resource list for Scriptable, the iOS app for automation in JavaScript. Unlike Apple Shortcuts you write automation in JavaScript instead of blocks; the list gathers scripts and home-screen widgets.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/dersvenhesse/awesome-scriptable&quot;&gt;https://github.com/dersvenhesse/awesome-scriptable&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Smart TV</title>
-  <link href="https://github.com/vitalets/awesome-smart-tv"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#github-com-vitalets-awesome-smart-tv" rel="alternate" type="text/html"/>
   <id>https://github.com/vitalets/awesome-smart-tv</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for building apps across different TV platforms.</summary>
+  <content type="html">&lt;p&gt;A resource list for building apps across different TV platforms.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/vitalets/awesome-smart-tv&quot;&gt;https://github.com/vitalets/awesome-smart-tv&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Swift</title>
-  <link href="https://github.com/matteocrippa/awesome-swift"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#github-com-matteocrippa-awesome-swift" rel="alternate" type="text/html"/>
   <id>https://github.com/matteocrippa/awesome-swift</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of libraries and tools for Apple’s Swift language. Unlike general iOS lists it focuses directly on the language and its packages.</summary>
+  <content type="html">&lt;p&gt;A list of libraries and tools for Apple’s Swift language. Unlike general iOS lists it focuses directly on the language and its packages.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/matteocrippa/awesome-swift&quot;&gt;https://github.com/matteocrippa/awesome-swift&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Uno Platform</title>
-  <link href="https://github.com/MartinZikmund/awesome-uno-platform"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#github-com-martinzikmund-awesome-uno-platform" rel="alternate" type="text/html"/>
   <id>https://github.com/MartinZikmund/awesome-uno-platform</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list for Uno Platform, building cross-platform .NET UIs from one codebase. Unlike .NET MAUI, it also targets the browser via WebAssembly, and Linux.</summary>
+  <content type="html">&lt;p&gt;A list for Uno Platform, building cross-platform .NET UIs from one codebase. Unlike .NET MAUI, it also targets the browser via WebAssembly, and Linux.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/MartinZikmund/awesome-uno-platform&quot;&gt;https://github.com/MartinZikmund/awesome-uno-platform&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome watchOS</title>
-  <link href="https://github.com/yenchenlin/awesome-watchos"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#github-com-yenchenlin-awesome-watchos" rel="alternate" type="text/html"/>
   <id>https://github.com/yenchenlin/awesome-watchos</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Apple Watch (watchOS) app development. Unlike iOS lists, it collects samples specific to the watch’s constraints; part of the list dates from the old WatchKit era.</summary>
+  <content type="html">&lt;p&gt;A resource list for Apple Watch (watchOS) app development. Unlike iOS lists, it collects samples specific to the watch’s constraints; part of the list dates from the old WatchKit era.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/yenchenlin/awesome-watchos&quot;&gt;https://github.com/yenchenlin/awesome-watchos&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Capacitor</title>
-  <link href="https://capacitorjs.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#capacitorjs-com" rel="alternate" type="text/html"/>
   <id>https://capacitorjs.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A native runtime that wraps a web app in a native shell with access to device APIs. Unlike Cordova it keeps native projects as source rather than generated files; unlike React Native, the UI is drawn inside a WebView.</summary>
+  <content type="html">&lt;p&gt;A native runtime that wraps a web app in a native shell with access to device APIs. Unlike Cordova it keeps native projects as source rather than generated files; unlike React Native, the UI is drawn inside a WebView.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://capacitorjs.com&quot;&gt;https://capacitorjs.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CocoaPods</title>
-  <link href="https://cocoapods.org"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#cocoapods-org" rel="alternate" type="text/html"/>
   <id>https://cocoapods.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A dependency manager long standard for iOS and Apple projects. Compared with Swift Package Manager it is the older route: new projects move to SPM, and the central CocoaPods trunk is read-only from December 2026.</summary>
+  <content type="html">&lt;p&gt;A dependency manager long standard for iOS and Apple projects. Compared with Swift Package Manager it is the older route: new projects move to SPM, and the central CocoaPods trunk is read-only from December 2026.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cocoapods.org&quot;&gt;https://cocoapods.org&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>fastlane</title>
-  <link href="https://fastlane.tools"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#fastlane-tools" rel="alternate" type="text/html"/>
   <id>https://fastlane.tools</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An open-source tool that automates mobile builds, screenshots and store releases. Instead of running Xcode and Gradle steps by hand, it ties signing, version bumps and store upload into one command.</summary>
+  <content type="html">&lt;p&gt;An open-source tool that automates mobile builds, screenshots and store releases. Instead of running Xcode and Gradle steps by hand, it ties signing, version bumps and store upload into one command.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://fastlane.tools&quot;&gt;https://fastlane.tools&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Hacking with Swift</title>
-  <link href="https://www.hackingwithswift.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#hackingwithswift-com" rel="alternate" type="text/html"/>
   <id>https://www.hackingwithswift.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Paul Hudson’s site teaching Swift and SwiftUI through projects, known for its free “100 Days” courses. Unlike Apple’s docs, it shows every concept inside a small, finished app.</summary>
+  <content type="html">&lt;p&gt;Paul Hudson’s site teaching Swift and SwiftUI through projects, known for its free “100 Days” courses. Unlike Apple’s docs, it shows every concept inside a small, finished app.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.hackingwithswift.com&quot;&gt;https://www.hackingwithswift.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Ionic</title>
-  <link href="https://ionicframework.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#ionicframework-com" rel="alternate" type="text/html"/>
   <id>https://ionicframework.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An open-source framework for building cross-platform mobile UIs with web technologies. Unlike React Native the UI is drawn with web components inside a WebView, so a web team can ship mobile from the same code.</summary>
+  <content type="html">&lt;p&gt;An open-source framework for building cross-platform mobile UIs with web technologies. Unlike React Native the UI is drawn with web components inside a WebView, so a web team can ship mobile from the same code.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://ionicframework.com&quot;&gt;https://ionicframework.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Kodeco</title>
-  <link href="https://www.kodeco.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#kodeco-com" rel="alternate" type="text/html"/>
   <id>https://www.kodeco.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>In-depth mobile-development tutorials for iOS, Android and Flutter (formerly raywenderlich). Compared with free blog posts the content is editor-reviewed and consistent; most of it sits behind a subscription.</summary>
+  <content type="html">&lt;p&gt;In-depth mobile-development tutorials for iOS, Android and Flutter (formerly raywenderlich). Compared with free blog posts the content is editor-reviewed and consistent; most of it sits behind a subscription.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.kodeco.com&quot;&gt;https://www.kodeco.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Material Design</title>
-  <link href="https://m3.material.io"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#m3-material-io" rel="alternate" type="text/html"/>
   <id>https://m3.material.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Google’s open design system and UI guidelines — the basis of the Android interface. Unlike Apple’s Human Interface Guidelines, it defines theming such as dynamic colour through an open token model.</summary>
+  <content type="html">&lt;p&gt;Google’s open design system and UI guidelines — the basis of the Android interface. Unlike Apple’s Human Interface Guidelines, it defines theming such as dynamic colour through an open token model.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://m3.material.io&quot;&gt;https://m3.material.io&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>NativeScript</title>
-  <link href="https://nativescript.org"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#nativescript-org" rel="alternate" type="text/html"/>
   <id>https://nativescript.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Builds truly native mobile apps from JavaScript, TypeScript, Vue or Angular. Unlike Capacitor or Ionic, it uses native UI components instead of a WebView and calls native APIs straight from JavaScript.</summary>
+  <content type="html">&lt;p&gt;Builds truly native mobile apps from JavaScript, TypeScript, Vue or Angular. Unlike Capacitor or Ionic, it uses native UI components instead of a WebView and calls native APIs straight from JavaScript.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://nativescript.org&quot;&gt;https://nativescript.org&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>objc.io</title>
-  <link href="https://www.objc.io"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#objc-io" rel="alternate" type="text/html"/>
   <id>https://www.objc.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Books (Advanced Swift, Thinking in SwiftUI) and the Swift Talk video series on advanced Swift and iOS. Unlike beginner courses, it goes into the language’s internals and app architecture.</summary>
+  <content type="html">&lt;p&gt;Books (Advanced Swift, Thinking in SwiftUI) and the Swift Talk video series on advanced Swift and iOS. Unlike beginner courses, it goes into the language’s internals and app architecture.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.objc.io&quot;&gt;https://www.objc.io&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>ProAndroidDev</title>
-  <link href="https://proandroiddev.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#proandroiddev-com" rel="alternate" type="text/html"/>
   <id>https://proandroiddev.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A community publication of advanced Android-engineering articles. Unlike the official docs it carries field experience — architecture choices, performance problems and how they were solved.</summary>
+  <content type="html">&lt;p&gt;A community publication of advanced Android-engineering articles. Unlike the official docs it carries field experience — architecture choices, performance problems and how they were solved.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://proandroiddev.com&quot;&gt;https://proandroiddev.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>pub.dev</title>
-  <link href="https://pub.dev"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#pub-dev" rel="alternate" type="text/html"/>
   <id>https://pub.dev</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The official package registry for Dart and Flutter. Unlike registries such as npm, each package gets an analysis-based quality score (pub points) and supported-platform labels (Android, iOS, web).</summary>
+  <content type="html">&lt;p&gt;The official package registry for Dart and Flutter. Unlike registries such as npm, each package gets an analysis-based quality score (pub points) and supported-platform labels (Android, iOS, web).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://pub.dev&quot;&gt;https://pub.dev&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>React Native</title>
-  <link href="https://reactnative.dev"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#reactnative-dev" rel="alternate" type="text/html"/>
   <id>https://reactnative.dev</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The official docs of the cross-platform framework for building native mobile apps with React. Unlike Flutter, it reuses JavaScript and React skills directly and renders the platform’s own UI components.</summary>
+  <content type="html">&lt;p&gt;The official docs of the cross-platform framework for building native mobile apps with React. Unlike Flutter, it reuses JavaScript and React skills directly and renders the platform’s own UI components.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://reactnative.dev&quot;&gt;https://reactnative.dev&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Swift by Sundell</title>
-  <link href="https://www.swiftbysundell.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#swiftbysundell-com" rel="alternate" type="text/html"/>
   <id>https://www.swiftbysundell.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>John Sundell’s in-depth articles and podcast on Swift. Compared with Hacking with Swift it is concept- rather than project-driven and more advanced: language features and architecture.</summary>
+  <content type="html">&lt;p&gt;John Sundell’s in-depth articles and podcast on Swift. Compared with Hacking with Swift it is concept- rather than project-driven and more advanced: language features and architecture.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.swiftbysundell.com&quot;&gt;https://www.swiftbysundell.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>XDA Forums</title>
-  <link href="https://xdaforums.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#xdaforums-com" rel="alternate" type="text/html"/>
   <id>https://xdaforums.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>One of the largest community forums for Android device modding, ROMs and root. Unlike general forums it is split device by device into deep technical threads.</summary>
+  <content type="html">&lt;p&gt;One of the largest community forums for Android device modding, ROMs and root. Unlike general forums it is split device by device into deep technical threads.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://xdaforums.com/&quot;&gt;https://xdaforums.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Android Root</title>
-  <link href="https://awesome-android-root.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#awesome-android-root-org" rel="alternate" type="text/html"/>
   <id>https://awesome-android-root.org/</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>A knowledge base for rooting Android with 600+ apps, Magisk/KernelSU/APatch/LSPosed modules and device-specific guides. Unlike scattered forum threads it is organised: it gathers step-by-step guides for devices like Pixel, Samsung and Xiaomi in one place.</summary>
+  <content type="html">&lt;p&gt;A knowledge base for rooting Android with 600+ apps, Magisk/KernelSU/APatch/LSPosed modules and device-specific guides. Unlike scattered forum threads it is organised: it gathers step-by-step guides for devices like Pixel, Samsung and Xiaomi in one place.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://awesome-android-root.org/&quot;&gt;https://awesome-android-root.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OpenAPK</title>
-  <link href="https://github.com/mobilenetworkltd/openapk"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#github-com-mobilenetworkltd-openapk" rel="alternate" type="text/html"/>
   <id>https://github.com/mobilenetworkltd/openapk</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>A daily-updated, categorised list of open-source apps and games for Android. Unlike repositories such as F-Droid it is a directory, not a store: it points apps straight to their own source repositories, with no package distribution of its own.</summary>
+  <content type="html">&lt;p&gt;A daily-updated, categorised list of open-source apps and games for Android. Unlike repositories such as F-Droid it is a directory, not a store: it points apps straight to their own source repositories, with no package distribution of its own.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/mobilenetworkltd/openapk&quot;&gt;https://github.com/mobilenetworkltd/openapk&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Android Weekly</title>
-  <link href="https://androidweekly.net/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#androidweekly-net" rel="alternate" type="text/html"/>
   <id>https://androidweekly.net/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A weekly newsletter of Android and Kotlin development news: articles, libraries, jobs. Against following blogs it is curated — one email a week instead of chasing scattered feeds.</summary>
+  <content type="html">&lt;p&gt;A weekly newsletter of Android and Kotlin development news: articles, libraries, jobs. Against following blogs it is curated — one email a week instead of chasing scattered feeds.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://androidweekly.net/&quot;&gt;https://androidweekly.net/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Don't Kill My App</title>
-  <link href="https://dontkillmyapp.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#dontkillmyapp-com" rel="alternate" type="text/html"/>
   <id>https://dontkillmyapp.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Documents how each Android manufacturer kills background apps, brand by brand, with the workaround for each device. Unlike general Android documentation it is per-vendor — which is where the answer to &quot;why did my alarm not ring&quot; lives.</summary>
+  <content type="html">&lt;p&gt;Documents how each Android manufacturer kills background apps, brand by brand, with the workaround for each device. Unlike general Android documentation it is per-vendor — which is where the answer to &amp;quot;why did my alarm not ring&amp;quot; lives.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://dontkillmyapp.com/&quot;&gt;https://dontkillmyapp.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Exodus Privacy</title>
-  <link href="https://reports.exodus-privacy.eu.org/en/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#reports-exodus-privacy-eu-org-en" rel="alternate" type="text/html"/>
   <id>https://reports.exodus-privacy.eu.org/en/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Reports the trackers and permissions inside Android apps. Unlike Play Store privacy labels it reads the APK rather than the declaration — what the developer shipped, not what they said.</summary>
+  <content type="html">&lt;p&gt;Reports the trackers and permissions inside Android apps. Unlike Play Store privacy labels it reads the APK rather than the declaration — what the developer shipped, not what they said.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://reports.exodus-privacy.eu.org/en/&quot;&gt;https://reports.exodus-privacy.eu.org/en/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Fossdroid</title>
-  <link href="https://fossdroid.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#fossdroid-com" rel="alternate" type="text/html"/>
   <id>https://fossdroid.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A browsable showcase of the free-software Android apps in the F-Droid repository. Against the F-Droid client it offers discovery by popularity on the web — you can see which apps are actually used.</summary>
+  <content type="html">&lt;p&gt;A browsable showcase of the free-software Android apps in the F-Droid repository. Against the F-Droid client it offers discovery by popularity on the web — you can see which apps are actually used.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://fossdroid.com/&quot;&gt;https://fossdroid.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>IzzyOnDroid</title>
-  <link href="https://apt.izzysoft.de/fdroid/index.php"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#apt-izzysoft-de-fdroid-index-php" rel="alternate" type="text/html"/>
   <id>https://apt.izzysoft.de/fdroid/index.php</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>An additional F-Droid repository carrying apps that are open source but not in the official repo, each run through a privacy audit. Against the official repository it updates faster and publishes a tracker report.</summary>
+  <content type="html">&lt;p&gt;An additional F-Droid repository carrying apps that are open source but not in the official repo, each run through a privacy audit. Against the official repository it updates faster and publishes a tracker report.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://apt.izzysoft.de/fdroid/index.php&quot;&gt;https://apt.izzysoft.de/fdroid/index.php&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>microStudio</title>
-  <link href="https://microstudio.dev/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#microstudio-dev" rel="alternate" type="text/html"/>
   <id>https://microstudio.dev/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A complete game development environment in the browser: code editor, sprite drawing, map editor and sound generation together. Unlike Godot or Unity it installs nothing, so it works on a Chromebook — which makes it good for teaching.</summary>
+  <content type="html">&lt;p&gt;A complete game development environment in the browser: code editor, sprite drawing, map editor and sound generation together. Unlike Godot or Unity it installs nothing, so it works on a Chromebook — which makes it good for teaching.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://microstudio.dev/&quot;&gt;https://microstudio.dev/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Open 3D Engine</title>
-  <link href="https://o3de.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/mobil.html#o3de-org" rel="alternate" type="text/html"/>
   <id>https://o3de.org/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Amazon’s Lumberyard, handed to the Linux Foundation as an Apache 2.0 modular 3D engine. Heavier than Godot, but with a rendering pipeline closer to AAA scale — the open-source option for teams that want corporate backing.</summary>
+  <content type="html">&lt;p&gt;Amazon’s Lumberyard, handed to the Linux Foundation as an Apache 2.0 modular 3D engine. Heavier than Godot, but with a rendering pipeline closer to AAA scale — the open-source option for teams that want corporate backing.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://o3de.org/&quot;&gt;https://o3de.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

@@ -2,288 +2,290 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title>Practice &amp; Challenges — Useful Sites</title>
 <subtitle>A hand-curated, annotated link directory across ten areas, from software and AI to security, economics and architecture. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/en/pratik.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/pratik.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/pratik.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>CP-Algorithms</title>
-  <link href="https://cp-algorithms.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#cp-algorithms-com" rel="alternate" type="text/html"/>
   <id>https://cp-algorithms.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>An English translation and extension of the e-maxx.ru write-ups on competitive-programming algorithms, each topic with code and practice problems. Unlike problem-solving platforms it explains the algorithm itself in depth rather than serving problems.</summary>
+  <content type="html">&lt;p&gt;An English translation and extension of the e-maxx.ru write-ups on competitive-programming algorithms, each topic with code and practice problems. Unlike problem-solving platforms it explains the algorithm itself in depth rather than serving problems.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cp-algorithms.com/&quot;&gt;https://cp-algorithms.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>SELinux Game</title>
-  <link href="https://selinuxgame.org/index.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#selinuxgame-org-index-html" rel="alternate" type="text/html"/>
   <id>https://selinuxgame.org/index.html</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A scenario-based game for learning SELinux that you run on your own machine. It turns the usually dry topic of policy writing into practical debugging tasks. Unlike plain documentation, it teaches policy through debugging tasks.</summary>
+  <content type="html">&lt;p&gt;A scenario-based game for learning SELinux that you run on your own machine. It turns the usually dry topic of policy writing into practical debugging tasks. Unlike plain documentation, it teaches policy through debugging tasks.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://selinuxgame.org/index.html&quot;&gt;https://selinuxgame.org/index.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Python Challenge</title>
-  <link href="https://www.pythonchallenge.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#pythonchallenge-com" rel="alternate" type="text/html"/>
   <id>https://www.pythonchallenge.com/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>A riddle game where each level is solved with a bit of Python. Unlike exercise sites every puzzle hides the next level’s address — you cannot move on without solving it.</summary>
+  <content type="html">&lt;p&gt;A riddle game where each level is solved with a bit of Python. Unlike exercise sites every puzzle hides the next level’s address — you cannot move on without solving it.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.pythonchallenge.com/&quot;&gt;https://www.pythonchallenge.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Python Koans</title>
-  <link href="https://github.com/gregmalcolm/python_koans"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#github-com-gregmalcolm-python-koans" rel="alternate" type="text/html"/>
   <id>https://github.com/gregmalcolm/python_koans</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>A repository that teaches Python by making failing tests (“koans”) pass one at a time. Unlike reading a tutorial you fix real tests, so feedback is immediate.</summary>
+  <content type="html">&lt;p&gt;A repository that teaches Python by making failing tests (“koans”) pass one at a time. Unlike reading a tutorial you fix real tests, so feedback is immediate.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/gregmalcolm/python_koans&quot;&gt;https://github.com/gregmalcolm/python_koans&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Pytudes</title>
-  <link href="https://github.com/norvig/pytudes"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#github-com-norvig-pytudes" rel="alternate" type="text/html"/>
   <id>https://github.com/norvig/pytudes</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Peter Norvig’s short Python programs and notebooks on puzzles, algorithms and language. Unlike exercise sites each is an expert’s worked solution with the reasoning explained.</summary>
+  <content type="html">&lt;p&gt;Peter Norvig’s short Python programs and notebooks on puzzles, algorithms and language. Unlike exercise sites each is an expert’s worked solution with the reasoning explained.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/norvig/pytudes&quot;&gt;https://github.com/norvig/pytudes&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Snakify</title>
-  <link href="https://snakify.org/en/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#snakify-org-en" rel="alternate" type="text/html"/>
   <id>https://snakify.org/en/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>A Python 3 course with 100+ exercises, coded in the browser. Unlike video courses a checker verifies your solution at once.</summary>
+  <content type="html">&lt;p&gt;A Python 3 course with 100+ exercises, coded in the browser. Unlike video courses a checker verifies your solution at once.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://snakify.org/en/&quot;&gt;https://snakify.org/en/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Code Review</title>
-  <link href="https://github.com/joho/awesome-code-review"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#github-com-joho-awesome-code-review" rel="alternate" type="text/html"/>
   <id>https://github.com/joho/awesome-code-review</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for the practice of code review. Unlike tool lists, it collects not only review tools but also articles and guidelines on review culture.</summary>
+  <content type="html">&lt;p&gt;A resource list for the practice of code review. Unlike tool lists, it collects not only review tools but also articles and guidelines on review culture.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/joho/awesome-code-review&quot;&gt;https://github.com/joho/awesome-code-review&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Beecrowd</title>
-  <link href="https://www.beecrowd.com.br/judge/en/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#beecrowd-com-br-judge-en" rel="alternate" type="text/html"/>
   <id>https://www.beecrowd.com.br/judge/en/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An online judge grading programming, mathematics and SQL problems automatically, formerly URI Online Judge. Unlike LeetCode it is learning- rather than interview-oriented, with plenty of beginner problems.</summary>
+  <content type="html">&lt;p&gt;An online judge grading programming, mathematics and SQL problems automatically, formerly URI Online Judge. Unlike LeetCode it is learning- rather than interview-oriented, with plenty of beginner problems.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.beecrowd.com.br/judge/en/&quot;&gt;https://www.beecrowd.com.br/judge/en/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Code Golf (Stack Exchange)</title>
-  <link href="https://codegolf.stackexchange.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#codegolf-stackexchange-com" rel="alternate" type="text/html"/>
   <id>https://codegolf.stackexchange.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A community contest to solve a problem in the shortest possible code. Unlike algorithm sites the measure is code length rather than speed or correctness — it shows how far languages can be bent.</summary>
+  <content type="html">&lt;p&gt;A community contest to solve a problem in the shortest possible code. Unlike algorithm sites the measure is code length rather than speed or correctness — it shows how far languages can be bent.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://codegolf.stackexchange.com/&quot;&gt;https://codegolf.stackexchange.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CodePen Challenges</title>
-  <link href="https://codepen.io/challenges"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#codepen-io-challenges" rel="alternate" type="text/html"/>
   <id>https://codepen.io/challenges</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Front-end (HTML/CSS/JS) challenges with an embedded editor, each round on a new theme. Unlike algorithm sites the result is visual: there is no single right answer, just creative solutions.</summary>
+  <content type="html">&lt;p&gt;Front-end (HTML/CSS/JS) challenges with an embedded editor, each round on a new theme. Unlike algorithm sites the result is visual: there is no single right answer, just creative solutions.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://codepen.io/challenges&quot;&gt;https://codepen.io/challenges&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Daily Coding Problem</title>
-  <link href="https://www.dailycodingproblem.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#dailycodingproblem-com" rel="alternate" type="text/html"/>
   <id>https://www.dailycodingproblem.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A service that emails one coding-interview problem every day. Unlike problem platforms it lands in your inbox — the point is building a habit; detailed solutions are paid.</summary>
+  <content type="html">&lt;p&gt;A service that emails one coding-interview problem every day. Unlike problem platforms it lands in your inbox — the point is building a habit; detailed solutions are paid.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.dailycodingproblem.com/&quot;&gt;https://www.dailycodingproblem.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>devChallenges.io</title>
-  <link href="https://devchallenges.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#devchallenges-io" rel="alternate" type="text/html"/>
   <id>https://devchallenges.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A challenge site that has you build web projects with realistic designs and requirements. Unlike random projects the community reviews the solutions.</summary>
+  <content type="html">&lt;p&gt;A challenge site that has you build web projects with realistic designs and requirements. Unlike random projects the community reviews the solutions.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://devchallenges.io/&quot;&gt;https://devchallenges.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>GeeksforGeeks</title>
-  <link href="https://www.geeksforgeeks.org"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#geeksforgeeks-org" rel="alternate" type="text/html"/>
   <id>https://www.geeksforgeeks.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A very broad article archive of algorithms, data structures and interview questions. Unlike single-topic sites it has a worked example for almost every CS topic.</summary>
+  <content type="html">&lt;p&gt;A very broad article archive of algorithms, data structures and interview questions. Unlike single-topic sites it has a worked example for almost every CS topic.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.geeksforgeeks.org&quot;&gt;https://www.geeksforgeeks.org&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>RealWorld</title>
-  <link href="https://realworld.how"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#realworld-how" rel="alternate" type="text/html"/>
   <id>https://realworld.how</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A spec whose same realistic app (Conduit) is built across different front-end and back-end stacks.</summary>
+  <content type="html">&lt;p&gt;A spec whose same realistic app (Conduit) is built across different front-end and back-end stacks.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://realworld.how&quot;&gt;https://realworld.how&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Rosetta Code</title>
-  <link href="https://rosettacode.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#rosettacode-org" rel="alternate" type="text/html"/>
   <id>https://rosettacode.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A wiki showing the same small problem solved in hundreds of languages. Unlike single-language examples it shows side by side how a task differs across languages.</summary>
+  <content type="html">&lt;p&gt;A wiki showing the same small problem solved in hundreds of languages. Unlike single-language examples it shows side by side how a task differs across languages.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://rosettacode.org/&quot;&gt;https://rosettacode.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>TodoMVC</title>
-  <link href="https://todomvc.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#todomvc-com" rel="alternate" type="text/html"/>
   <id>https://todomvc.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Shows the same to-do app built in dozens of JavaScript frameworks. Unlike the frameworks’ own demos the functionality is held constant, so only the approach changes and you can compare them side by side.</summary>
+  <content type="html">&lt;p&gt;Shows the same to-do app built in dozens of JavaScript frameworks. Unlike the frameworks’ own demos the functionality is held constant, so only the approach changes and you can compare them side by side.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://todomvc.com&quot;&gt;https://todomvc.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>TopCoder Arena</title>
-  <link href="https://arena.topcoder.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#arena-topcoder-com" rel="alternate" type="text/html"/>
   <id>https://arena.topcoder.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The classic arena for timed algorithm competitions (SRM). Unlike Codeforces it uses the SRM format: after the coding phase comes a challenge phase where you score by feeding failing inputs to other people’s code.</summary>
+  <content type="html">&lt;p&gt;The classic arena for timed algorithm competitions (SRM). Unlike Codeforces it uses the SRM format: after the coding phase comes a challenge phase where you score by feeding failing inputs to other people’s code.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://arena.topcoder.com/&quot;&gt;https://arena.topcoder.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>UVa Online Judge</title>
-  <link href="https://onlinejudge.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#onlinejudge-org" rel="alternate" type="text/html"/>
   <id>https://onlinejudge.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A classic online judge auto-grading hundreds of contest problems. Unlike newer platforms, it is the archive the problem lists of the Competitive Programming (Halim) book are built on.</summary>
+  <content type="html">&lt;p&gt;A classic online judge auto-grading hundreds of contest problems. Unlike newer platforms, it is the archive the problem lists of the Competitive Programming (Halim) book are built on.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://onlinejudge.org/&quot;&gt;https://onlinejudge.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Python Tutor</title>
-  <link href="https://pythontutor.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#pythontutor-com" rel="alternate" type="text/html"/>
   <id>https://pythontutor.com/</id>
   <updated>2026-08-19T23:33:57Z</updated>
-  <summary>Steps through code drawing stack frames and heap objects. Unlike a classic debugger it visualises memory — nothing explains reference semantics, scope and mutable default arguments as clearly.</summary>
+  <content type="html">&lt;p&gt;Steps through code drawing stack frames and heap objects. Unlike a classic debugger it visualises memory — nothing explains reference semantics, scope and mutable default arguments as clearly.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://pythontutor.com/&quot;&gt;https://pythontutor.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>AlgoDS</title>
-  <link href="https://github.com/sherxon/AlgoDS"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#github-com-sherxon-algods" rel="alternate" type="text/html"/>
   <id>https://github.com/sherxon/AlgoDS</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Java implementations of algorithms and data structures. Unlike textbook pseudocode, each is real, readable, working code with its tests.</summary>
+  <content type="html">&lt;p&gt;Java implementations of algorithms and data structures. Unlike textbook pseudocode, each is real, readable, working code with its tests.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/sherxon/AlgoDS&quot;&gt;https://github.com/sherxon/AlgoDS&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Algorithm Design Canvas</title>
-  <link href="https://www.hiredintech.com/algorithm-design"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#hiredintech-com-algorithm-design" rel="alternate" type="text/html"/>
   <id>https://www.hiredintech.com/algorithm-design</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A stepwise framework for approaching an interview algorithm problem — constraints, examples, brute force, optimise, test. Method instead of panic.</summary>
+  <content type="html">&lt;p&gt;A stepwise framework for approaching an interview algorithm problem — constraints, examples, brute force, optimise, test. Method instead of panic.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.hiredintech.com/algorithm-design&quot;&gt;https://www.hiredintech.com/algorithm-design&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>AtCoder</title>
-  <link href="https://atcoder.jp/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#atcoder-jp" rel="alternate" type="text/html"/>
   <id>https://atcoder.jp/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A Japan-based contest platform whose beginner rounds (ABC) are more approachable for newcomers than Codeforces.</summary>
+  <content type="html">&lt;p&gt;A Japan-based contest platform whose beginner rounds (ABC) are more approachable for newcomers than Codeforces.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://atcoder.jp/&quot;&gt;https://atcoder.jp/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Big-O Cheat Sheet</title>
-  <link href="https://bigocheatsheet.com/#"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#bigocheatsheet-com" rel="alternate" type="text/html"/>
   <id>https://bigocheatsheet.com/#</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A single colour-coded table of time and space complexity for data structures and sorting algorithms. Unlike a textbook it shows everything at a glance — the last look before an interview.</summary>
+  <content type="html">&lt;p&gt;A single colour-coded table of time and space complexity for data structures and sorting algorithms. Unlike a textbook it shows everything at a glance — the last look before an interview.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://bigocheatsheet.com/#&quot;&gt;https://bigocheatsheet.com/#&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Big-O Yanılgıları</title>
-  <link href="https://ssp.impulsetrain.com/big-o.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#ssp-impulsetrain-com-big-o-html" rel="alternate" type="text/html"/>
   <id>https://ssp.impulsetrain.com/big-o.html</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A piece correcting common misunderstandings of big-O notation. Unlike standard explanations, it targets subtle errors directly, such as conflating worst case with average case.</summary>
+  <content type="html">&lt;p&gt;A piece correcting common misunderstandings of big-O notation. Unlike standard explanations, it targets subtle errors directly, such as conflating worst case with average case.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://ssp.impulsetrain.com/big-o.html&quot;&gt;https://ssp.impulsetrain.com/big-o.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Bit İşlemleri Numaraları</title>
-  <link href="https://gist.github.com/dideler/2365607"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#gist-github-com-dideler-2365607" rel="alternate" type="text/html"/>
   <id>https://gist.github.com/dideler/2365607</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A collection of common bit-level tricks — the patterns that turn up in low-level optimisation and interview questions.</summary>
+  <content type="html">&lt;p&gt;A collection of common bit-level tricks — the patterns that turn up in low-level optimisation and interview questions.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://gist.github.com/dideler/2365607&quot;&gt;https://gist.github.com/dideler/2365607&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CodeAbbey</title>
-  <link href="https://www.codeabbey.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#codeabbey-com" rel="alternate" type="text/html"/>
   <id>https://www.codeabbey.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A problem sequence starting at the very easiest and climbing gradually — a far gentler curve than the contest platforms for absolute beginners.</summary>
+  <content type="html">&lt;p&gt;A problem sequence starting at the very easiest and climbing gradually — a far gentler curve than the contest platforms for absolute beginners.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.codeabbey.com&quot;&gt;https://www.codeabbey.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CodeChef</title>
-  <link href="https://www.codechef.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#codechef-com" rel="alternate" type="text/html"/>
   <id>https://www.codechef.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A competitive algorithm platform with regular contests, difficulty-tagged problems and published editorial solutions. Unlike Codeforces, it offers learning paths and practice sections aimed at beginners.</summary>
+  <content type="html">&lt;p&gt;A competitive algorithm platform with regular contests, difficulty-tagged problems and published editorial solutions. Unlike Codeforces, it offers learning paths and practice sections aimed at beginners.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.codechef.com&quot;&gt;https://www.codechef.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Codeforces</title>
-  <link href="https://codeforces.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#codeforces-com" rel="alternate" type="text/html"/>
   <id>https://codeforces.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The busiest competitive programming platform, with regular rounds and a rating system. Problems run harder than LeetCode and lean heavily mathematical.</summary>
+  <content type="html">&lt;p&gt;The busiest competitive programming platform, with regular rounds and a rating system. Problems run harder than LeetCode and lean heavily mathematical.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://codeforces.com&quot;&gt;https://codeforces.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CodeGym</title>
-  <link href="https://codegym.cc/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#codegym-cc" rel="alternate" type="text/html"/>
   <id>https://codegym.cc/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A practice-heavy course teaching Java through 1,200 hands-on tasks, with every solution checked automatically. Unlike video courses, it is tasks rather than theory: you advance by writing code.</summary>
+  <content type="html">&lt;p&gt;A practice-heavy course teaching Java through 1,200 hands-on tasks, with every solution checked automatically. Unlike video courses, it is tasks rather than theory: you advance by writing code.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://codegym.cc/&quot;&gt;https://codegym.cc/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Coderbyte</title>
-  <link href="https://coderbyte.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#coderbyte-com" rel="alternate" type="text/html"/>
   <id>https://coderbyte.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An interview problem bank and assessment tool. Unlike LeetCode it offers video explanations of solutions and also hosts the assessment tool companies use to screen candidates.</summary>
+  <content type="html">&lt;p&gt;An interview problem bank and assessment tool. Unlike LeetCode it offers video explanations of solutions and also hosts the assessment tool companies use to screen candidates.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://coderbyte.com/&quot;&gt;https://coderbyte.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CodeSignal</title>
-  <link href="https://app.codesignal.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#app-codesignal-com" rel="alternate" type="text/html"/>
   <id>https://app.codesignal.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A skills assessment and interview platform that produces a standardised score you can send to several companies. The single assessment is the difference from sitting a separate test for every employer.</summary>
+  <content type="html">&lt;p&gt;A skills assessment and interview platform that produces a standardised score you can send to several companies. The single assessment is the difference from sitting a separate test for every employer.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://app.codesignal.com&quot;&gt;https://app.codesignal.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Codility</title>
-  <link href="https://app.codility.com/programmers/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#app-codility-com-programmers" rel="alternate" type="text/html"/>
   <id>https://app.codility.com/programmers/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The assessment platform companies use for technical screening, with a practice section open to candidates. Its difference from other problem sites is that it mirrors the format of real screening tests — you see the exam environment before the exam.</summary>
+  <content type="html">&lt;p&gt;The assessment platform companies use for technical screening, with a practice section open to candidates. Its difference from other problem sites is that it mirrors the format of real screening tests — you see the exam environment before the exam.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://app.codility.com/programmers/&quot;&gt;https://app.codility.com/programmers/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CodinGame</title>
-  <link href="https://www.codingame.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#codingame-com" rel="alternate" type="text/html"/>
   <id>https://www.codingame.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A platform that has you solve programming puzzles with a game theme, showing your code’s result in a game scene. Unlike dry problem sets it animates your solution visually.</summary>
+  <content type="html">&lt;p&gt;A platform that has you solve programming puzzles with a game theme, showing your code’s result in a game scene. Unlike dry problem sets it animates your solution visually.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.codingame.com/&quot;&gt;https://www.codingame.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Competitive Programmer’s Handbook</title>
-  <link href="https://cses.fi/book.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#cses-fi-book-html" rel="alternate" type="text/html"/>
   <id>https://cses.fi/book.html</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A free handbook for competitive programming, from basic algorithms to advanced techniques. Against academic algorithm books it is contest-oriented: it hands you an implementable template rather than a proof.</summary>
+  <content type="html">&lt;p&gt;A free handbook for competitive programming, from basic algorithms to advanced techniques. Against academic algorithm books it is contest-oriented: it hands you an implementable template rather than a proof.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cses.fi/book.html&quot;&gt;https://cses.fi/book.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CryptoHack</title>
-  <link href="https://cryptohack.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#cryptohack-org" rel="alternate" type="text/html"/>
   <id>https://cryptohack.org/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Teaches cryptography by breaking it, with each level exploiting a real weakness. Unlike a theory course it teaches from the attacker’s side — the applied counterpart.</summary>
+  <content type="html">&lt;p&gt;Teaches cryptography by breaking it, with each level exploiting a real weakness. Unlike a theory course it teaches from the attacker’s side — the applied counterpart.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cryptohack.org/&quot;&gt;https://cryptohack.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>freeCodeCamp</title>
-  <link href="https://www.freecodecamp.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#freecodecamp-com" rel="alternate" type="text/html"/>
   <id>https://www.freecodecamp.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A complete free curriculum with in-browser exercises and free certificates. Its capstone projects make you build real applications rather than stopping at drills.</summary>
+  <content type="html">&lt;p&gt;A complete free curriculum with in-browser exercises and free certificates. Its capstone projects make you build real applications rather than stopping at drills.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.freecodecamp.com&quot;&gt;https://www.freecodecamp.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Google Interview Warmup</title>
-  <link href="https://grow.google/certificates/interview-warmup/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#grow-google-certificates-interview-warmup" rel="alternate" type="text/html"/>
   <id>https://grow.google/certificates/interview-warmup/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A practice tool where you answer interview questions aloud and get AI feedback. Unlike coding-interview sites, it focuses on behavioural and role questions, highlighting the key terms in your answer.</summary>
+  <content type="html">&lt;p&gt;A practice tool where you answer interview questions aloud and get AI feedback. Unlike coding-interview sites, it focuses on behavioural and role questions, highlighting the key terms in your answer.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grow.google/certificates/interview-warmup/&quot;&gt;https://grow.google/certificates/interview-warmup/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>HackerEarth</title>
-  <link href="https://www.hackerearth.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#hackerearth-com" rel="alternate" type="text/html"/>
   <id>https://www.hackerearth.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Combines contests with hiring assessments — companies run technical screening here. Unlike HackerRank, it is strong on hosting hackathons.</summary>
+  <content type="html">&lt;p&gt;Combines contests with hiring assessments — companies run technical screening here. Unlike HackerRank, it is strong on hosting hackathons.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.hackerearth.com&quot;&gt;https://www.hackerearth.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>HiredInTech</title>
-  <link href="https://www.hiredintech.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#hiredintech-com" rel="alternate" type="text/html"/>
   <id>https://www.hiredintech.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Structured courses for system-design and algorithm interviews. Unlike problem banks it teaches method rather than questions — a framework for working a problem step by step; the content is old but the framework holds.</summary>
+  <content type="html">&lt;p&gt;Structured courses for system-design and algorithm interviews. Unlike problem banks it teaches method rather than questions — a framework for working a problem step by step; the content is old but the framework holds.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.hiredintech.com/&quot;&gt;https://www.hiredintech.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>InterviewBit</title>
-  <link href="https://www.interviewbit.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/pratik.html#interviewbit-com" rel="alternate" type="text/html"/>
   <id>https://www.interviewbit.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Gamified interview preparation. Unlike LeetCode’s open problem pool, topics are ordered by dependency, each building on the last.</summary>
+  <content type="html">&lt;p&gt;Gamified interview preparation. Unlike LeetCode’s open problem pool, topics are ordered by dependency, each building on the last.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.interviewbit.com&quot;&gt;https://www.interviewbit.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

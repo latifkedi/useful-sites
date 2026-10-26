@@ -2,281 +2,283 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title>Converters, Formatters &amp; Checkers — Useful Sites</title>
 <subtitle>A hand-curated, annotated link directory across ten areas, from software and AI to security, economics and architecture. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/en/donusturucu.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/donusturucu.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/donusturucu.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>CyberChef</title>
-  <link href="https://gchq.github.io/CyberChef/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#gchq-github-io-cyberchef" rel="alternate" type="text/html"/>
   <id>https://gchq.github.io/CyberChef/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>GCHQ's in-browser data transformation tool: base64, hex, crypto, compression and parsing chained as a drag-and-drop 'recipe'. Unlike single-purpose encoders it chains hundreds of operations, and the page can be saved to run offline.</summary>
+  <content type="html">&lt;p&gt;GCHQ's in-browser data transformation tool: base64, hex, crypto, compression and parsing chained as a drag-and-drop 'recipe'. Unlike single-purpose encoders it chains hundreds of operations, and the page can be saved to run offline.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://gchq.github.io/CyberChef/&quot;&gt;https://gchq.github.io/CyberChef/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>geojson.io</title>
-  <link href="https://geojson.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#geojson-io" rel="alternate" type="text/html"/>
   <id>https://geojson.io/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A browser tool for drawing points, lines and polygons on a map while editing the GeoJSON in a side panel; it exports to KML, shapefile, CSV and other formats. Unlike QGIS it needs no install: it is for quickly drawing or fixing a small piece of data, not for analysis.</summary>
+  <content type="html">&lt;p&gt;A browser tool for drawing points, lines and polygons on a map while editing the GeoJSON in a side panel; it exports to KML, shapefile, CSV and other formats. Unlike QGIS it needs no install: it is for quickly drawing or fixing a small piece of data, not for analysis.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://geojson.io/&quot;&gt;https://geojson.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Mapshaper</title>
-  <link href="https://mapshaper.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#mapshaper-org" rel="alternate" type="text/html"/>
   <id>https://mapshaper.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A browser tool that simplifies map data in shapefile, GeoJSON, TopoJSON or CSV and converts between those formats; the same operations can be scripted with its command-line version. Unlike geojson.io it is not for drawing but for shrinking large boundary files for the web.</summary>
+  <content type="html">&lt;p&gt;A browser tool that simplifies map data in shapefile, GeoJSON, TopoJSON or CSV and converts between those formats; the same operations can be scripted with its command-line version. Unlike geojson.io it is not for drawing but for shrinking large boundary files for the web.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://mapshaper.org/&quot;&gt;https://mapshaper.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Regexper</title>
-  <link href="https://regexper.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#regexper-com" rel="alternate" type="text/html"/>
   <id>https://regexper.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Turns a JavaScript regular expression into a railroad diagram, with groups, alternatives and repetition drawn as boxes and arrows. Unlike regex101 it does not test matches: it is for grasping the structure of someone else’s complex expression at a glance.</summary>
+  <content type="html">&lt;p&gt;Turns a JavaScript regular expression into a railroad diagram, with groups, alternatives and repetition drawn as boxes and arrows. Unlike regex101 it does not test matches: it is for grasping the structure of someone else’s complex expression at a glance.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://regexper.com/&quot;&gt;https://regexper.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>SSLMate CAA Record Helper</title>
-  <link href="https://sslmate.com/caa/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#sslmate-com-caa" rel="alternate" type="text/html"/>
   <id>https://sslmate.com/caa/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A form that generates the CAA DNS record, which controls which certificate authorities may issue certificates for your domain, by picking authorities from a list. Instead of hand-writing the syntax it gives the lines to paste into your DNS provider.</summary>
+  <content type="html">&lt;p&gt;A form that generates the CAA DNS record, which controls which certificate authorities may issue certificates for your domain, by picking authorities from a list. Instead of hand-writing the syntax it gives the lines to paste into your DNS provider.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://sslmate.com/caa/&quot;&gt;https://sslmate.com/caa/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Tables Generator</title>
-  <link href="https://www.tablesgenerator.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#tablesgenerator-com" rel="alternate" type="text/html"/>
   <id>https://www.tablesgenerator.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>You build a table cell by cell in a visual grid and it emits LaTeX, HTML, Markdown, plain text or MediaWiki, and accepts pasted CSV. Unlike writing a tabular by hand it generates the merged-cell and border code for you.</summary>
+  <content type="html">&lt;p&gt;You build a table cell by cell in a visual grid and it emits LaTeX, HTML, Markdown, plain text or MediaWiki, and accepts pasted CSV. Unlike writing a tabular by hand it generates the merged-cell and border code for you.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.tablesgenerator.com/&quot;&gt;https://www.tablesgenerator.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>generatedata</title>
-  <link href="https://www.generatedata.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#generatedata-com" rel="alternate" type="text/html"/>
   <id>https://www.generatedata.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A tool generating realistic fake test data to a given schema (CSV, JSON, SQL). Unlike making data up by hand it produces fields like names and addresses consistently and in bulk.</summary>
+  <content type="html">&lt;p&gt;A tool generating realistic fake test data to a given schema (CSV, JSON, SQL). Unlike making data up by hand it produces fields like names and addresses consistently and in bulk.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.generatedata.com/&quot;&gt;https://www.generatedata.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Google Safe Browsing</title>
-  <link href="https://transparencyreport.google.com/safe-browsing/search"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#transparencyreport-google-com-safe-browsing-search" rel="alternate" type="text/html"/>
   <id>https://transparencyreport.google.com/safe-browsing/search</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Checks whether a site is flagged as unsafe in Google’s Safe Browsing records. Unlike multi-engine scanners such as VirusTotal it consults only Google’s list — so you see in advance the warning Chrome users would get.</summary>
+  <content type="html">&lt;p&gt;Checks whether a site is flagged as unsafe in Google’s Safe Browsing records. Unlike multi-engine scanners such as VirusTotal it consults only Google’s list — so you see in advance the warning Chrome users would get.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://transparencyreport.google.com/safe-browsing/search&quot;&gt;https://transparencyreport.google.com/safe-browsing/search&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Invertexto</title>
-  <link href="https://www.invertexto.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#invertexto-com" rel="alternate" type="text/html"/>
   <id>https://www.invertexto.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A Portuguese-language site bundling small text utilities — reversing, counting, converting and more. Unlike single-purpose sites, it gathers dozens of small tools at one address.</summary>
+  <content type="html">&lt;p&gt;A Portuguese-language site bundling small text utilities — reversing, counting, converting and more. Unlike single-purpose sites, it gathers dozens of small tools at one address.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.invertexto.com/&quot;&gt;https://www.invertexto.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>JSCompress</title>
-  <link href="https://jscompress.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#jscompress-com" rel="alternate" type="text/html"/>
   <id>https://jscompress.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A tool that minifies JavaScript in the browser to shrink its size. Unlike build-pipeline tools such as Terser or esbuild, it handles a one-off job with nothing to install.</summary>
+  <content type="html">&lt;p&gt;A tool that minifies JavaScript in the browser to shrink its size. Unlike build-pipeline tools such as Terser or esbuild, it handles a one-off job with nothing to install.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://jscompress.com/&quot;&gt;https://jscompress.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>JSON Editor Online</title>
-  <link href="https://jsoneditoronline.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#jsoneditoronline-org" rel="alternate" type="text/html"/>
   <id>https://jsoneditoronline.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A browser tool to inspect and edit JSON in tree and text views. Unlike a plain editor it folds and validates the structure, making large JSON easy to navigate.</summary>
+  <content type="html">&lt;p&gt;A browser tool to inspect and edit JSON in tree and text views. Unlike a plain editor it folds and validates the structure, making large JSON easy to navigate.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://jsoneditoronline.org/&quot;&gt;https://jsoneditoronline.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>JSON Sort</title>
-  <link href="https://jsonsort.net"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#jsonsort-net" rel="alternate" type="text/html"/>
   <id>https://jsonsort.net</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A simple tool that alphabetically sorts and formats JSON keys. Unlike command-line tools such as jq it works in the browser with no query to write — handy for sorting two JSON files before comparing them.</summary>
+  <content type="html">&lt;p&gt;A simple tool that alphabetically sorts and formats JSON keys. Unlike command-line tools such as jq it works in the browser with no query to write — handy for sorting two JSON files before comparing them.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://jsonsort.net&quot;&gt;https://jsonsort.net&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>KeyCDN Tools</title>
-  <link href="https://tools.keycdn.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#tools-keycdn-com" rel="alternate" type="text/html"/>
   <id>https://tools.keycdn.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Bundles network tools like ping, traceroute, HTTP header and performance tests. Unlike pinging from your own machine, it runs the tests from servers in different parts of the world.</summary>
+  <content type="html">&lt;p&gt;Bundles network tools like ping, traceroute, HTTP header and performance tests. Unlike pinging from your own machine, it runs the tests from servers in different parts of the world.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://tools.keycdn.com/&quot;&gt;https://tools.keycdn.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Lorem Ipsum</title>
-  <link href="https://www.lipsum.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#lipsum-com" rel="alternate" type="text/html"/>
   <id>https://www.lipsum.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The classic generator of placeholder text (lorem ipsum) for design mockups. It stands in temporarily instead of real content, and the page also explains where the text comes from.</summary>
+  <content type="html">&lt;p&gt;The classic generator of placeholder text (lorem ipsum) for design mockups. It stands in temporarily instead of real content, and the page also explains where the text comes from.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.lipsum.com/&quot;&gt;https://www.lipsum.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Mockaroo</title>
-  <link href="https://www.mockaroo.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#mockaroo-com" rel="alternate" type="text/html"/>
   <id>https://www.mockaroo.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Generates realistic fake test data (CSV, JSON, SQL) to your chosen schema. Unlike libraries such as Faker, you define fields in a UI without code and download thousands of rows.</summary>
+  <content type="html">&lt;p&gt;Generates realistic fake test data (CSV, JSON, SQL) to your chosen schema. Unlike libraries such as Faker, you define fields in a UI without code and download thousands of rows.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.mockaroo.com/&quot;&gt;https://www.mockaroo.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Password Generator</title>
-  <link href="https://danieldeev.github.io/password-generator/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#danieldeev-github-io-password-generator" rel="alternate" type="text/html"/>
   <id>https://danieldeev.github.io/password-generator/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A simple password generator with adjustable length and character sets. Unlike online generators that call a server it is a static page — the password is generated in your browser.</summary>
+  <content type="html">&lt;p&gt;A simple password generator with adjustable length and character sets. Unlike online generators that call a server it is a static page — the password is generated in your browser.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://danieldeev.github.io/password-generator/&quot;&gt;https://danieldeev.github.io/password-generator/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Wappalyzer</title>
-  <link href="https://www.wappalyzer.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#wappalyzer-com" rel="alternate" type="text/html"/>
   <id>https://www.wappalyzer.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A tool and browser extension revealing which technologies (framework, server, analytics) a website runs on. Unlike reading the source by hand, it recognises the fingerprints automatically.</summary>
+  <content type="html">&lt;p&gt;A tool and browser extension revealing which technologies (framework, server, analytics) a website runs on. Unlike reading the source by hand, it recognises the fingerprints automatically.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.wappalyzer.com/&quot;&gt;https://www.wappalyzer.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Website Grader</title>
-  <link href="https://website.grader.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#website-grader-com" rel="alternate" type="text/html"/>
   <id>https://website.grader.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>HubSpot’s free tool grading a site on performance, SEO, mobile and security. Compared with Lighthouse it is shallower, but turns the result into a report card a non-technical person can follow.</summary>
+  <content type="html">&lt;p&gt;HubSpot’s free tool grading a site on performance, SEO, mobile and security. Compared with Lighthouse it is shallower, but turns the result into a report card a non-technical person can follow.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://website.grader.com/&quot;&gt;https://website.grader.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>XML Sitemaps</title>
-  <link href="https://www.xml-sitemaps.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#xml-sitemaps-com" rel="alternate" type="text/html"/>
   <id>https://www.xml-sitemaps.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Crawls a site and builds the sitemap.xml file for search engines. Unlike a site generator’s built-in sitemap it can crawl any site from outside; the free version is capped at 500 pages.</summary>
+  <content type="html">&lt;p&gt;Crawls a site and builds the sitemap.xml file for search engines. Unlike a site generator’s built-in sitemap it can crawl any site from outside; the free version is capped at 500 pages.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.xml-sitemaps.com/&quot;&gt;https://www.xml-sitemaps.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Beautifier.io</title>
-  <link href="https://beautifier.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#beautifier-io" rel="alternate" type="text/html"/>
   <id>https://beautifier.io/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Formats JavaScript, HTML and CSS and unpacks minified code. Against Prettier it needs no install and can open obfuscated output back up — which is what you want when inspecting someone else’s minified bundle.</summary>
+  <content type="html">&lt;p&gt;Formats JavaScript, HTML and CSS and unpacks minified code. Against Prettier it needs no install and can open obfuscated output back up — which is what you want when inspecting someone else’s minified bundle.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://beautifier.io/&quot;&gt;https://beautifier.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CodeBeautify</title>
-  <link href="https://codebeautify.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#codebeautify-org" rel="alternate" type="text/html"/>
   <id>https://codebeautify.org/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A collection of formatting, validation and conversion tools covering JSON, XML, YAML, SQL and Base64. Against IT Tools it is broader but heavier on ads — it is hard to find a conversion it lacks.</summary>
+  <content type="html">&lt;p&gt;A collection of formatting, validation and conversion tools covering JSON, XML, YAML, SQL and Base64. Against IT Tools it is broader but heavier on ads — it is hard to find a conversion it lacks.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://codebeautify.org/&quot;&gt;https://codebeautify.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Debuggex</title>
-  <link href="https://www.debuggex.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#debuggex-com" rel="alternate" type="text/html"/>
   <id>https://www.debuggex.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A visual regex tester that draws the expression as a state diagram, covering JavaScript, Python and PCRE. Where regex101 lists tokens, this draws a flow chart, which reads better for nested groups.</summary>
+  <content type="html">&lt;p&gt;A visual regex tester that draws the expression as a state diagram, covering JavaScript, Python and PCRE. Where regex101 lists tokens, this draws a flow chart, which reads better for nested groups.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.debuggex.com/&quot;&gt;https://www.debuggex.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Diffchecker</title>
-  <link href="https://www.diffchecker.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#diffchecker-com" rel="alternate" type="text/html"/>
   <id>https://www.diffchecker.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A diff tool for text, images, PDFs and folders. Against the `diff` command it handles formatted and visual comparison — the command line will not tell you what changed between two PDF contracts.</summary>
+  <content type="html">&lt;p&gt;A diff tool for text, images, PDFs and folders. Against the `diff` command it handles formatted and visual comparison — the command line will not tell you what changed between two PDF contracts.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.diffchecker.com/&quot;&gt;https://www.diffchecker.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>ExtendsClass</title>
-  <link href="https://extendsclass.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#extendsclass-com" rel="alternate" type="text/html"/>
   <id>https://extendsclass.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A collection of developer tools: a REST client, a SQLite browser, XML and JSON validators, regex testing. Against collections like IT Tools it runs the heavier things — a database browser and an API client — in the browser too.</summary>
+  <content type="html">&lt;p&gt;A collection of developer tools: a REST client, a SQLite browser, XML and JSON validators, regex testing. Against collections like IT Tools it runs the heavier things — a database browser and an API client — in the browser too.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://extendsclass.com/&quot;&gt;https://extendsclass.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>IEEE-754 Converter</title>
-  <link href="https://www.h-schmidt.net/FloatConverter/IEEE754.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#h-schmidt-net-floatconverter-ieee754-html" rel="alternate" type="text/html"/>
   <id>https://www.h-schmidt.net/FloatConverter/IEEE754.html</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A two-way converter between decimal and IEEE-754 floating point, with individual bits toggleable. Against a calculator it shows where the rounding error comes from — this is where the 0.1 + 0.2 question is actually answered.</summary>
+  <content type="html">&lt;p&gt;A two-way converter between decimal and IEEE-754 floating point, with individual bits toggleable. Against a calculator it shows where the rounding error comes from — this is where the 0.1 + 0.2 question is actually answered.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.h-schmidt.net/FloatConverter/IEEE754.html&quot;&gt;https://www.h-schmidt.net/FloatConverter/IEEE754.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>IT Tools</title>
-  <link href="https://it-tools.tech/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#it-tools-tech" rel="alternate" type="text/html"/>
   <id>https://it-tools.tech/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Eighty-odd developer utilities on one page: hashes, JWT decoding, cron expressions, UUIDs, colour conversion. Unlike the one-tool-per-site alternatives, everything runs in the browser and the whole thing self-hosts with Docker, so nothing leaves your machine.</summary>
+  <content type="html">&lt;p&gt;Eighty-odd developer utilities on one page: hashes, JWT decoding, cron expressions, UUIDs, colour conversion. Unlike the one-tool-per-site alternatives, everything runs in the browser and the whole thing self-hosts with Docker, so nothing leaves your machine.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://it-tools.tech/&quot;&gt;https://it-tools.tech/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>JSONLint</title>
-  <link href="https://jsonlint.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#jsonlint-com" rel="alternate" type="text/html"/>
   <id>https://jsonlint.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A JSON validator and formatter that tells you which line failed and why. Against an editor plugin it needs nothing installed, which is what you want when checking a malformed API response in a hurry.</summary>
+  <content type="html">&lt;p&gt;A JSON validator and formatter that tells you which line failed and why. Against an editor plugin it needs nothing installed, which is what you want when checking a malformed API response in a hurry.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://jsonlint.com/&quot;&gt;https://jsonlint.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Regulex</title>
-  <link href="https://jex.im/regulex/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#jex-im-regulex" rel="alternate" type="text/html"/>
   <id>https://jex.im/regulex/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Draws JavaScript regular expressions as railroad diagrams. Against Debuggex it runs entirely client-side and exports the diagram as SVG, which makes it useful for documentation.</summary>
+  <content type="html">&lt;p&gt;Draws JavaScript regular expressions as railroad diagrams. Against Debuggex it runs entirely client-side and exports the diagram as SVG, which makes it useful for documentation.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://jex.im/regulex/&quot;&gt;https://jex.im/regulex/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>regex101</title>
-  <link href="https://regex101.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#regex101-com" rel="alternate" type="text/html"/>
   <id>https://regex101.com/</id>
   <updated>2026-08-19T23:34:13Z</updated>
-  <summary>Explains an expression token by token, and its debugger shows exactly where a match breaks down. Unlike RegExr, you can switch between the PCRE, JavaScript, Python and Go flavours.</summary>
+  <content type="html">&lt;p&gt;Explains an expression token by token, and its debugger shows exactly where a match breaks down. Unlike RegExr, you can switch between the PCRE, JavaScript, Python and Go flavours.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://regex101.com/&quot;&gt;https://regex101.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CORS Tester</title>
-  <link href="https://cors-error.dev/cors-tester/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#cors-error-dev-cors-tester" rel="alternate" type="text/html"/>
   <id>https://cors-error.dev/cors-tester/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Tests an API’s CORS headers from the outside. Unlike the vague CORS error in the browser console, it tells you plainly which header is at fault.</summary>
+  <content type="html">&lt;p&gt;Tests an API’s CORS headers from the outside. Unlike the vague CORS error in the browser console, it tells you plainly which header is at fault.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cors-error.dev/cors-tester/&quot;&gt;https://cors-error.dev/cors-tester/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Crontab Guru</title>
-  <link href="https://crontab.guru/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#crontab-guru" rel="alternate" type="text/html"/>
   <id>https://crontab.guru/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Translates a cron expression into plain language as you type and shows the next run times. Unlike reading the man page you see the result instantly — the end of guesswork over asterisks and slashes.</summary>
+  <content type="html">&lt;p&gt;Translates a cron expression into plain language as you type and shows the next run times. Unlike reading the man page you see the result instantly — the end of guesswork over asterisks and slashes.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://crontab.guru/&quot;&gt;https://crontab.guru/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>explainshell</title>
-  <link href="https://explainshell.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#explainshell-com" rel="alternate" type="text/html"/>
   <id>https://explainshell.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Paste a shell command and it maps every fragment to its entry in the man page. Against reading `man` it works backwards — you learn what the `-xzvf` in front of you means without scanning the manual.</summary>
+  <content type="html">&lt;p&gt;Paste a shell command and it maps every fragment to its entry in the man page. Against reading `man` it works backwards — you learn what the `-xzvf` in front of you means without scanning the manual.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://explainshell.com/&quot;&gt;https://explainshell.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>gitignore.io</title>
-  <link href="https://www.gitignore.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#gitignore-io" rel="alternate" type="text/html"/>
   <id>https://www.gitignore.io/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Generates a `.gitignore` from your operating system, editor and language choices. Unlike GitHub’s individual templates, it merges several at once — the end of retyping the same lines on every project.</summary>
+  <content type="html">&lt;p&gt;Generates a `.gitignore` from your operating system, editor and language choices. Unlike GitHub’s individual templates, it merges several at once — the end of retyping the same lines on every project.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.gitignore.io/&quot;&gt;https://www.gitignore.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>JSON Crack</title>
-  <link href="https://jsoncrack.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#jsoncrack-com" rel="alternate" type="text/html"/>
   <id>https://jsoncrack.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Draws JSON as a node graph rather than a tree, so nested structures are visible at a glance. Against a JSON formatter that graph view is the point — faster than counting indentation to work out the shape of a deep response.</summary>
+  <content type="html">&lt;p&gt;Draws JSON as a node graph rather than a tree, so nested structures are visible at a glance. Against a JSON formatter that graph view is the point — faster than counting indentation to work out the shape of a deep response.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://jsoncrack.com/&quot;&gt;https://jsoncrack.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Kody Tools</title>
-  <link href="https://www.kodytools.com/dev-tools"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#kodytools-com-dev-tools" rel="alternate" type="text/html"/>
   <id>https://www.kodytools.com/dev-tools</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A collection of developer converters, formatters and generators. Against compilations like IT Tools it keeps visual and textual tools together — colour, image and code utilities in one place.</summary>
+  <content type="html">&lt;p&gt;A collection of developer converters, formatters and generators. Against compilations like IT Tools it keeps visual and textual tools together — colour, image and code utilities in one place.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.kodytools.com/dev-tools&quot;&gt;https://www.kodytools.com/dev-tools&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>RegExr</title>
-  <link href="https://regexr.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#regexr-com" rel="alternate" type="text/html"/>
   <id>https://regexr.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A regex tester and an alternative to regex101, with a simpler interface and a community library of patterns.</summary>
+  <content type="html">&lt;p&gt;A regex tester and an alternative to regex101, with a simpler interface and a community library of patterns.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://regexr.com&quot;&gt;https://regexr.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Solid Dev Tools</title>
-  <link href="https://soliddevtools.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#soliddevtools-com" rel="alternate" type="text/html"/>
   <id>https://soliddevtools.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A collection of online debugging and network tools for developers and sysadmins. Unlike single-purpose tool sites, it gathers DNS, HTTP and encoding tools in one place.</summary>
+  <content type="html">&lt;p&gt;A collection of online debugging and network tools for developers and sysadmins. Unlike single-purpose tool sites, it gathers DNS, HTTP and encoding tools in one place.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://soliddevtools.com&quot;&gt;https://soliddevtools.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Textise</title>
-  <link href="https://www.textise.net/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#textise-net" rel="alternate" type="text/html"/>
   <id>https://www.textise.net/</id>
   <updated>2026-07-28T07:54:53Z</updated>
-  <summary>Strips a page to text only. Unlike a browser’s reader mode it converts the whole page to plain text — besides removing ads and layout noise, it roughly approximates what a screen reader sees.</summary>
+  <content type="html">&lt;p&gt;Strips a page to text only. Unlike a browser’s reader mode it converts the whole page to plain text — besides removing ads and layout noise, it roughly approximates what a screen reader sees.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.textise.net/&quot;&gt;https://www.textise.net/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Transform</title>
-  <link href="https://transform.tools/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/donusturucu.html#transform-tools" rel="alternate" type="text/html"/>
   <id>https://transform.tools/</id>
   <updated>2025-11-24T07:23:59Z</updated>
-  <summary>A collection of format converters — JSON to TypeScript types, HTML to JSX, SVG to a React component. Instead of hunting a separate site for each conversion, they are all in one place.</summary>
+  <content type="html">&lt;p&gt;A collection of format converters — JSON to TypeScript types, HTML to JSX, SVG to a React component. Instead of hunting a separate site for each conversion, they are all in one place.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://transform.tools/&quot;&gt;https://transform.tools/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

@@ -2,288 +2,290 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title>Testing &amp; QA — Useful Sites</title>
 <subtitle>A hand-curated, annotated link directory across ten areas, from software and AI to security, economics and architecture. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/en/test.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/en/test.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/test.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/test.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/test.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>Awesome Sites to Test On</title>
-  <link href="https://github.com/BMayhew/awesome-sites-to-test-on"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#github-com-bmayhew-awesome-sites-to-test-on" rel="alternate" type="text/html"/>
   <id>https://github.com/BMayhew/awesome-sites-to-test-on</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A list of target sites and APIs for practising test automation: demo shops, forms, trap-laden pages and fake APIs, grouped by kind. Rather than repeating dozens of interchangeable demo sites, this directory keeps a few representatives and points here for the rest.</summary>
+  <content type="html">&lt;p&gt;A list of target sites and APIs for practising test automation: demo shops, forms, trap-laden pages and fake APIs, grouped by kind. Rather than repeating dozens of interchangeable demo sites, this directory keeps a few representatives and points here for the rest.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/BMayhew/awesome-sites-to-test-on&quot;&gt;https://github.com/BMayhew/awesome-sites-to-test-on&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>badssl.com</title>
-  <link href="https://badssl.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#badssl-com" rel="alternate" type="text/html"/>
   <id>https://badssl.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A test site that serves subdomains with deliberately broken TLS setups (expired, self-signed, wrong host and so on). It tests clients, not servers: whether your browser or HTTP library rejects these errors correctly.</summary>
+  <content type="html">&lt;p&gt;A test site that serves subdomains with deliberately broken TLS setups (expired, self-signed, wrong host and so on). It tests clients, not servers: whether your browser or HTTP library rejects these errors correctly.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://badssl.com/&quot;&gt;https://badssl.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CryptCheck</title>
-  <link href="https://cryptcheck.fr/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#cryptcheck-fr" rel="alternate" type="text/html"/>
   <id>https://cryptcheck.fr/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A French test site that grades the TLS setup of HTTPS, SMTP and XMPP servers by cipher suite, certificate and key exchange. Unlike SSL Labs it covers mail and messaging servers as well as web.</summary>
+  <content type="html">&lt;p&gt;A French test site that grades the TLS setup of HTTPS, SMTP and XMPP servers by cipher suite, certificate and key exchange. Unlike SSL Labs it covers mail and messaging servers as well as web.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cryptcheck.fr/&quot;&gt;https://cryptcheck.fr/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CSP Evaluator</title>
-  <link href="https://csp-evaluator.withgoogle.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#csp-evaluator-withgoogle-com" rel="alternate" type="text/html"/>
   <id>https://csp-evaluator.withgoogle.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A Google tool that flags bypassable rules (unsafe-inline, broad wildcards, missing directives) when you paste in a Content-Security-Policy header. securityheaders.com grades headers in general; this looks only at the CSP, directive by directive, from an XSS angle. Unlike general header graders, it looks only at the CSP, directive by directive.</summary>
+  <content type="html">&lt;p&gt;A Google tool that flags bypassable rules (unsafe-inline, broad wildcards, missing directives) when you paste in a Content-Security-Policy header. securityheaders.com grades headers in general; this looks only at the CSP, directive by directive, from an XSS angle. Unlike general header graders, it looks only at the CSP, directive by directive.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://csp-evaluator.withgoogle.com/&quot;&gt;https://csp-evaluator.withgoogle.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Hardenize</title>
-  <link href="https://www.hardenize.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#hardenize-com" rel="alternate" type="text/html"/>
   <id>https://www.hardenize.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A scanner that gathers a domain's DNS, email (SPF/DKIM/DMARC), TLS and web-header security into one report. Unlike tests that measure a single layer it shows the whole external surface together; a public one-off scan is free, continuous monitoring is paid.</summary>
+  <content type="html">&lt;p&gt;A scanner that gathers a domain's DNS, email (SPF/DKIM/DMARC), TLS and web-header security into one report. Unlike tests that measure a single layer it shows the whole external surface together; a public one-off scan is free, continuous monitoring is paid.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.hardenize.com/&quot;&gt;https://www.hardenize.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>How's My SSL?</title>
-  <link href="https://www.howsmyssl.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#howsmyssl-com" rel="alternate" type="text/html"/>
   <id>https://www.howsmyssl.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A page that grades your browser's TLS client setup (version, cipher suites, known weaknesses). SSL Labs tests a server; this tests your side, the browser and OS, and the result is also available as a JSON API. SSL Labs tests a server, whereas this checks the client side.</summary>
+  <content type="html">&lt;p&gt;A page that grades your browser's TLS client setup (version, cipher suites, known weaknesses). SSL Labs tests a server; this tests your side, the browser and OS, and the result is also available as a JSON API. SSL Labs tests a server, whereas this checks the client side.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.howsmyssl.com/&quot;&gt;https://www.howsmyssl.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>MDN HTTP Observatory</title>
-  <link href="https://observatory.mozilla.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#observatory-mozilla-org" rel="alternate" type="text/html"/>
   <id>https://observatory.mozilla.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Mozilla's in-browser checker that scores a site's headers, cookies and TLS settings against security best practice; it now lives inside MDN. Unlike securityheaders.com it keeps a rescan history and is backed by an open-source scanner (http-observatory).</summary>
+  <content type="html">&lt;p&gt;Mozilla's in-browser checker that scores a site's headers, cookies and TLS settings against security best practice; it now lives inside MDN. Unlike securityheaders.com it keeps a rescan history and is backed by an open-source scanner (http-observatory).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://observatory.mozilla.org/&quot;&gt;https://observatory.mozilla.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Security Headers</title>
-  <link href="https://securityheaders.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#securityheaders-com" rel="alternate" type="text/html"/>
   <id>https://securityheaders.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A browser-based scan that grades a site's HTTP response headers (CSP, HSTS, X-Frame-Options, Permissions-Policy and so on) from A to F and explains what is missing. SSL Labs looks at the TLS layer; this looks at header hardening at the application layer. Instead of the TLS layer, it looks at application-layer header hardening.</summary>
+  <content type="html">&lt;p&gt;A browser-based scan that grades a site's HTTP response headers (CSP, HSTS, X-Frame-Options, Permissions-Policy and so on) from A to F and explains what is missing. SSL Labs looks at the TLS layer; this looks at header hardening at the application layer. Instead of the TLS layer, it looks at application-layer header hardening.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://securityheaders.com/&quot;&gt;https://securityheaders.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Static Analysis Tools</title>
-  <link href="https://github.com/analysis-tools-dev/static-analysis"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#github-com-analysis-tools-dev-static-analysis" rel="alternate" type="text/html"/>
   <id>https://github.com/analysis-tools-dev/static-analysis</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A compilation of static analysis tools, linters and formatters grouped by language and format (formerly awesome-static-analysis). It is for surveying the options for a language rather than documenting a single tool.</summary>
+  <content type="html">&lt;p&gt;A compilation of static analysis tools, linters and formatters grouped by language and format (formerly awesome-static-analysis). It is for surveying the options for a language rather than documenting a single tool.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/analysis-tools-dev/static-analysis&quot;&gt;https://github.com/analysis-tools-dev/static-analysis&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Academy Bugs</title>
-  <link href="https://academybugs.com/find-bugs/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#academybugs-com-find-bugs" rel="alternate" type="text/html"/>
   <id>https://academybugs.com/find-bugs/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A practice site with 25 real bugs planted inside for you to find. Unlike automation practice sites it targets manual exploratory testing: you find the bugs and report them.</summary>
+  <content type="html">&lt;p&gt;A practice site with 25 real bugs planted inside for you to find. Unlike automation practice sites it targets manual exploratory testing: you find the bugs and report them.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://academybugs.com/find-bugs/&quot;&gt;https://academybugs.com/find-bugs/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Airport Gap</title>
-  <link href="https://airportgap.dev-tester.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#airportgap-dev-tester-com" rel="alternate" type="text/html"/>
   <id>https://airportgap.dev-tester.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A RESTful API built to improve your API automation testing. Unlike simple mock APIs, it has realistic behaviour such as token authentication and rate limiting.</summary>
+  <content type="html">&lt;p&gt;A RESTful API built to improve your API automation testing. Unlike simple mock APIs, it has realistic behaviour such as token authentication and rate limiting.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://airportgap.dev-tester.com/&quot;&gt;https://airportgap.dev-tester.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>API Challenges</title>
-  <link href="https://apichallenges.eviltester.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#apichallenges-eviltester-com" rel="alternate" type="text/html"/>
   <id>https://apichallenges.eviltester.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A series of challenges, tutorials and references for practising API testing, by Alan Richardson (EvilTester). Unlike ordinary mock APIs it comes with a task list, marking your progress as you complete each challenge.</summary>
+  <content type="html">&lt;p&gt;A series of challenges, tutorials and references for practising API testing, by Alan Richardson (EvilTester). Unlike ordinary mock APIs it comes with a task list, marking your progress as you complete each challenge.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://apichallenges.eviltester.com/&quot;&gt;https://apichallenges.eviltester.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Applitools</title>
-  <link href="https://applitools.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#applitools-com" rel="alternate" type="text/html"/>
   <id>https://applitools.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A visual regression testing platform that compares screens with visual AI. Unlike pixel-by-pixel tools, it ignores trivial differences such as anti-aliasing and flags real changes.</summary>
+  <content type="html">&lt;p&gt;A visual regression testing platform that compares screens with visual AI. Unlike pixel-by-pixel tools, it ignores trivial differences such as anti-aliasing and flags real changes.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://applitools.com&quot;&gt;https://applitools.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Automation Exercise</title>
-  <link href="https://www.automationexercise.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#automationexercise-com" rel="alternate" type="text/html"/>
   <id>https://www.automationexercise.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An automation practice site with a UI, an API backend and a ready list of test cases. Unlike single-page demo sites, it offers end-to-end flows — sign-up, cart, checkout — together with their API.</summary>
+  <content type="html">&lt;p&gt;An automation practice site with a UI, an API backend and a ready list of test cases. Unlike single-page demo sites, it offers end-to-end flows — sign-up, cart, checkout — together with their API.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.automationexercise.com/&quot;&gt;https://www.automationexercise.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Appium</title>
-  <link href="https://github.com/SrinivasanTarget/awesome-appium"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#github-com-srinivasantarget-awesome-appium" rel="alternate" type="text/html"/>
   <id>https://github.com/SrinivasanTarget/awesome-appium</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Appium, the mobile-app test-automation tool. Unlike platform-specific tools such as Espresso or XCUITest, it drives Android and iOS from one API over the WebDriver protocol.</summary>
+  <content type="html">&lt;p&gt;A resource list for Appium, the mobile-app test-automation tool. Unlike platform-specific tools such as Espresso or XCUITest, it drives Android and iOS from one API over the WebDriver protocol.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/SrinivasanTarget/awesome-appium&quot;&gt;https://github.com/SrinivasanTarget/awesome-appium&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome AVA</title>
-  <link href="https://github.com/avajs/awesome-ava"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#github-com-avajs-awesome-ava" rel="alternate" type="text/html"/>
   <id>https://github.com/avajs/awesome-ava</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of plugins and resources for AVA, the JavaScript test runner. Unlike Jest, it runs test files concurrently in separate processes by default.</summary>
+  <content type="html">&lt;p&gt;A list of plugins and resources for AVA, the JavaScript test runner. Unlike Jest, it runs test files concurrently in separate processes by default.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/avajs/awesome-ava&quot;&gt;https://github.com/avajs/awesome-ava&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome CodeRabbit</title>
-  <link href="https://github.com/coderabbitai/awesome-coderabbit"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#github-com-coderabbitai-awesome-coderabbit" rel="alternate" type="text/html"/>
   <id>https://github.com/coderabbitai/awesome-coderabbit</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for CodeRabbit, the AI-powered code-review platform. Unlike general AI code-review lists, it gathers only CodeRabbit configurations and sample rules; the company maintains it itself.</summary>
+  <content type="html">&lt;p&gt;A resource list for CodeRabbit, the AI-powered code-review platform. Unlike general AI code-review lists, it gathers only CodeRabbit configurations and sample rules; the company maintains it itself.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/coderabbitai/awesome-coderabbit&quot;&gt;https://github.com/coderabbitai/awesome-coderabbit&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Gatling</title>
-  <link href="https://github.com/aliesbelik/awesome-gatling"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#github-com-aliesbelik-awesome-gatling" rel="alternate" type="text/html"/>
   <id>https://github.com/aliesbelik/awesome-gatling</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Gatling, the Scala-based load- and performance-testing framework. Unlike JMeter, you write scenarios in code (Scala, Java, Kotlin) rather than clicking them together in a GUI.</summary>
+  <content type="html">&lt;p&gt;A resource list for Gatling, the Scala-based load- and performance-testing framework. Unlike JMeter, you write scenarios in code (Scala, Java, Kotlin) rather than clicking them together in a GUI.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/aliesbelik/awesome-gatling&quot;&gt;https://github.com/aliesbelik/awesome-gatling&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome JMeter</title>
-  <link href="https://github.com/aliesbelik/awesome-jmeter"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#github-com-aliesbelik-awesome-jmeter" rel="alternate" type="text/html"/>
   <id>https://github.com/aliesbelik/awesome-jmeter</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for JMeter, the load- and performance-testing tool. Unlike general performance-testing lists, it gathers only JMeter plugins, integrations and guides.</summary>
+  <content type="html">&lt;p&gt;A resource list for JMeter, the load- and performance-testing tool. Unlike general performance-testing lists, it gathers only JMeter plugins, integrations and guides.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/aliesbelik/awesome-jmeter&quot;&gt;https://github.com/aliesbelik/awesome-jmeter&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome k6</title>
-  <link href="https://github.com/grafana/awesome-k6"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#github-com-grafana-awesome-k6" rel="alternate" type="text/html"/>
   <id>https://github.com/grafana/awesome-k6</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for k6, the developer-centric load and performance testing tool. Unlike general performance lists it focuses on one tool and its scripting ecosystem.</summary>
+  <content type="html">&lt;p&gt;A resource list for k6, the developer-centric load and performance testing tool. Unlike general performance lists it focuses on one tool and its scripting ecosystem.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/grafana/awesome-k6&quot;&gt;https://github.com/grafana/awesome-k6&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Playwright</title>
-  <link href="https://github.com/mxschmitt/awesome-playwright"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#github-com-mxschmitt-awesome-playwright" rel="alternate" type="text/html"/>
   <id>https://github.com/mxschmitt/awesome-playwright</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of tools, plugins and examples for the Playwright ecosystem. Unlike the official docs it brings together community tooling and real project examples.</summary>
+  <content type="html">&lt;p&gt;A list of tools, plugins and examples for the Playwright ecosystem. Unlike the official docs it brings together community tooling and real project examples.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/mxschmitt/awesome-playwright&quot;&gt;https://github.com/mxschmitt/awesome-playwright&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Regression Testing</title>
-  <link href="https://github.com/mojoaxel/awesome-regression-testing"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#github-com-mojoaxel-awesome-regression-testing" rel="alternate" type="text/html"/>
   <id>https://github.com/mojoaxel/awesome-regression-testing</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of visual-regression tools that verify changes did not break functionality or style. Unlike unit tests, they compare screenshots and catch style breakages that code assertions cannot see.</summary>
+  <content type="html">&lt;p&gt;A list of visual-regression tools that verify changes did not break functionality or style. Unlike unit tests, they compare screenshots and catch style breakages that code assertions cannot see.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/mojoaxel/awesome-regression-testing&quot;&gt;https://github.com/mojoaxel/awesome-regression-testing&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Selenium</title>
-  <link href="https://github.com/christian-bromann/awesome-selenium"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#github-com-christian-bromann-awesome-selenium" rel="alternate" type="text/html"/>
   <id>https://github.com/christian-bromann/awesome-selenium</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A collection of the Selenium browser-automation framework and its surrounding tools. Unlike scattered search it gathers language bindings, grid and plugins in one place.</summary>
+  <content type="html">&lt;p&gt;A collection of the Selenium browser-automation framework and its surrounding tools. Unlike scattered search it gathers language bindings, grid and plugins in one place.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/christian-bromann/awesome-selenium&quot;&gt;https://github.com/christian-bromann/awesome-selenium&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Test Automation</title>
-  <link href="https://github.com/atinfo/awesome-test-automation"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#github-com-atinfo-awesome-test-automation" rel="alternate" type="text/html"/>
   <id>https://github.com/atinfo/awesome-test-automation</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list gathering test-automation frameworks, tools and resources by language and platform. Unlike scattered searches it collects them all in one organised place.</summary>
+  <content type="html">&lt;p&gt;A list gathering test-automation frameworks, tools and resources by language and platform. Unlike scattered searches it collects them all in one organised place.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/atinfo/awesome-test-automation&quot;&gt;https://github.com/atinfo/awesome-test-automation&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Testing</title>
-  <link href="https://github.com/TheJambo/awesome-testing"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#github-com-thejambo-awesome-testing" rel="alternate" type="text/html"/>
   <id>https://github.com/TheJambo/awesome-testing</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list gathering every branch of software testing — unit, end-to-end, performance, contract — with resources. Unlike a single tool list, it pairs books and testing theory with the tools; you can also find the rest of this field’s practice sites here.</summary>
+  <content type="html">&lt;p&gt;A list gathering every branch of software testing — unit, end-to-end, performance, contract — with resources. Unlike a single tool list, it pairs books and testing theory with the tools; you can also find the rest of this field’s practice sites here.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/TheJambo/awesome-testing&quot;&gt;https://github.com/TheJambo/awesome-testing&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Beeceptor</title>
-  <link href="https://beeceptor.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#beeceptor-com" rel="alternate" type="text/html"/>
   <id>https://beeceptor.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Spins up a mock REST endpoint in seconds and intercepts or fakes HTTP requests. Unlike writing your own mock server, it needs no code or setup.</summary>
+  <content type="html">&lt;p&gt;Spins up a mock REST endpoint in seconds and intercepts or fakes HTTP requests. Unlike writing your own mock server, it needs no code or setup.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://beeceptor.com&quot;&gt;https://beeceptor.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Browserling</title>
-  <link href="https://www.browserling.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#browserling-com" rel="alternate" type="text/html"/>
   <id>https://www.browserling.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Live-test your site across different browsers and operating systems.</summary>
+  <content type="html">&lt;p&gt;Live-test your site across different browsers and operating systems.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.browserling.com&quot;&gt;https://www.browserling.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Countries GraphQL API</title>
-  <link href="https://countries.trevorblades.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#countries-trevorblades-com" rel="alternate" type="text/html"/>
   <id>https://countries.trevorblades.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A simple public GraphQL API serving country, continent and language data, with no key required. Unlike REST-based mock APIs, it suits practising GraphQL queries and client testing.</summary>
+  <content type="html">&lt;p&gt;A simple public GraphQL API serving country, continent and language data, with no key required. Unlike REST-based mock APIs, it suits practising GraphQL queries and client testing.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://countries.trevorblades.com/&quot;&gt;https://countries.trevorblades.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Cypress</title>
-  <link href="https://cypress.io"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#cypress-io" rel="alternate" type="text/html"/>
   <id>https://cypress.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An end-to-end testing framework that runs in the browser with live reload and time-travel debugging. Unlike Selenium the test runs in the same browser loop as the app; compared with Playwright, multi-tab and cross-browser support is more limited.</summary>
+  <content type="html">&lt;p&gt;An end-to-end testing framework that runs in the browser with live reload and time-travel debugging. Unlike Selenium the test runs in the same browser loop as the app; compared with Playwright, multi-tab and cross-browser support is more limited.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cypress.io&quot;&gt;https://cypress.io&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>DummyJSON</title>
-  <link href="https://dummyjson.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#dummyjson-com" rel="alternate" type="text/html"/>
   <id>https://dummyjson.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A fake JSON REST API offering dozens of resources for quick prototyping and test data. Unlike JSONPlaceholder it has richer data (products, carts, recipes) plus authentication, pagination and search.</summary>
+  <content type="html">&lt;p&gt;A fake JSON REST API offering dozens of resources for quick prototyping and test data. Unlike JSONPlaceholder it has richer data (products, carts, recipes) plus authentication, pagination and search.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://dummyjson.com&quot;&gt;https://dummyjson.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Fake Store API</title>
-  <link href="https://fakestoreapi.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#fakestoreapi-com" rel="alternate" type="text/html"/>
   <id>https://fakestoreapi.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A fake e-commerce REST API with products, carts and users for front-end prototypes. Unlike general mock APIs such as JSONPlaceholder, its data model is e-commerce-specific.</summary>
+  <content type="html">&lt;p&gt;A fake e-commerce REST API with products, carts and users for front-end prototypes. Unlike general mock APIs such as JSONPlaceholder, its data model is e-commerce-specific.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://fakestoreapi.com&quot;&gt;https://fakestoreapi.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>GoREST</title>
-  <link href="https://gorest.co.in/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#gorest-co-in" rel="alternate" type="text/html"/>
   <id>https://gorest.co.in/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A test API with OAuth2 authentication and write support, over REST and GraphQL. Unlike read-only fake APIs it truly lets you exercise create/update flows.</summary>
+  <content type="html">&lt;p&gt;A test API with OAuth2 authentication and write support, over REST and GraphQL. Unlike read-only fake APIs it truly lets you exercise create/update flows.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://gorest.co.in/&quot;&gt;https://gorest.co.in/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>httpbin</title>
-  <link href="https://httpbin.org"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#httpbin-org" rel="alternate" type="text/html"/>
   <id>https://httpbin.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An HTTP testing service that echoes headers, body and response. Unlike mock REST APIs, it tests HTTP itself — headers, cookies, redirects, compression — rather than data.</summary>
+  <content type="html">&lt;p&gt;An HTTP testing service that echoes headers, body and response. Unlike mock REST APIs, it tests HTTP itself — headers, cookies, redirects, compression — rather than data.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://httpbin.org&quot;&gt;https://httpbin.org&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Insomnia</title>
-  <link href="https://insomnia.rest/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#insomnia-rest" rel="alternate" type="text/html"/>
   <id>https://insomnia.rest/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A clean API client for REST, GraphQL and gRPC requests. Unlike Postman it is lighter and open source, and can be versioned with git.</summary>
+  <content type="html">&lt;p&gt;A clean API client for REST, GraphQL and gRPC requests. Unlike Postman it is lighter and open source, and can be versioned with git.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://insomnia.rest/&quot;&gt;https://insomnia.rest/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>JSONPlaceholder</title>
-  <link href="https://jsonplaceholder.typicode.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#jsonplaceholder-typicode-com" rel="alternate" type="text/html"/>
   <id>https://jsonplaceholder.typicode.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A zero-setup test API that returns realistic fake JSON on request. Unlike running your own mock it is instantly available — the standard for prototypes and tutorials.</summary>
+  <content type="html">&lt;p&gt;A zero-setup test API that returns realistic fake JSON on request. Unlike running your own mock it is instantly available — the standard for prototypes and tutorials.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://jsonplaceholder.typicode.com/&quot;&gt;https://jsonplaceholder.typicode.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Katalon</title>
-  <link href="https://katalon.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#katalon-com" rel="alternate" type="text/html"/>
   <id>https://katalon.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A low-code test automation tool for web, API and mobile. Unlike code-first frameworks such as Playwright, it builds scenarios with record-and-playback and a visual editor, no coding needed; advanced features are paid.</summary>
+  <content type="html">&lt;p&gt;A low-code test automation tool for web, API and mobile. Unlike code-first frameworks such as Playwright, it builds scenarios with record-and-playback and a visual editor, no coding needed; advanced features are paid.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://katalon.com&quot;&gt;https://katalon.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Mailtrap</title>
-  <link href="https://mailtrap.io"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#mailtrap-io" rel="alternate" type="text/html"/>
   <id>https://mailtrap.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An email sandbox that captures outgoing mail before it reaches real recipients. Unlike testing against a real SMTP server, it makes accidentally emailing a customer impossible.</summary>
+  <content type="html">&lt;p&gt;An email sandbox that captures outgoing mail before it reaches real recipients. Unlike testing against a real SMTP server, it makes accidentally emailing a customer impossible.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://mailtrap.io&quot;&gt;https://mailtrap.io&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Ministry of Testing</title>
-  <link href="https://ministryoftesting.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#ministryoftesting-com" rel="alternate" type="text/html"/>
   <id>https://ministryoftesting.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A hub bringing together community, learning resources and events for software testers. Unlike tool-focused sites, it centres on the craft itself — exploratory testing, test strategy, careers.</summary>
+  <content type="html">&lt;p&gt;A hub bringing together community, learning resources and events for software testers. Unlike tool-focused sites, it centres on the craft itself — exploratory testing, test strategy, careers.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://ministryoftesting.com&quot;&gt;https://ministryoftesting.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OMDb API</title>
-  <link href="https://www.omdbapi.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#omdbapi-com" rel="alternate" type="text/html"/>
   <id>https://www.omdbapi.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An API serving movie and series data, handy for tests and prototypes. Since IMDb has no public API, it is the common alternative; the free key is limited to 1,000 requests a day.</summary>
+  <content type="html">&lt;p&gt;An API serving movie and series data, handy for tests and prototypes. Since IMDb has no public API, it is the common alternative; the free key is limited to 1,000 requests a day.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.omdbapi.com/&quot;&gt;https://www.omdbapi.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Playwright</title>
-  <link href="https://playwright.dev"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#playwright-dev" rel="alternate" type="text/html"/>
   <id>https://playwright.dev</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Microsoft’s cross-browser (Chromium, Firefox, WebKit) automation and testing framework, driving all three from one API. Unlike Selenium, it waits automatically and talks to the browser over its own protocol rather than WebDriver.</summary>
+  <content type="html">&lt;p&gt;Microsoft’s cross-browser (Chromium, Firefox, WebKit) automation and testing framework, driving all three from one API. Unlike Selenium, it waits automatically and talks to the browser over its own protocol rather than WebDriver.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://playwright.dev&quot;&gt;https://playwright.dev&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

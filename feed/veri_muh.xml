@@ -2,176 +2,178 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
 <title>Veri Mühendisliği — Kullanışlı Siteler</title>
 <subtitle>Yazılımdan yapay zekaya, güvenlikten ekonomiye ve mimariye on alanda elle derlenmiş, açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/veri_muh.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/veri_muh.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/veri_muh.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/veri_muh.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/veri_muh.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>Airbyte</title>
-  <link href="https://airbyte.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri_muh.html#airbyte-com" rel="alternate" type="text/html"/>
   <id>https://airbyte.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Geniş bağlayıcı kataloğuyla açık kaynak veri entegrasyonu (ELT); kendi sunucunda barındırılabiliyor. Fivetran gibi kapalı servislerden farkı açık kaynak olması ve eksik bağlayıcıyı kendin yazabilmen.</summary>
+  <content type="html">&lt;p&gt;Geniş bağlayıcı kataloğuyla açık kaynak veri entegrasyonu (ELT); kendi sunucunda barındırılabiliyor. Fivetran gibi kapalı servislerden farkı açık kaynak olması ve eksik bağlayıcıyı kendin yazabilmen.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://airbyte.com&quot;&gt;https://airbyte.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Apache Flink</title>
-  <link href="https://flink.apache.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri_muh.html#flink-apache-org" rel="alternate" type="text/html"/>
   <id>https://flink.apache.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Gerçek zamanlı akış işleme motoru; olayları geldikçe, düşük gecikmeyle işler. Spark’ın toplu kökeninden farkı akışı birinci sınıf model olarak alması.</summary>
+  <content type="html">&lt;p&gt;Gerçek zamanlı akış işleme motoru; olayları geldikçe, düşük gecikmeyle işler. Spark’ın toplu kökeninden farkı akışı birinci sınıf model olarak alması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://flink.apache.org/&quot;&gt;https://flink.apache.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Apache Iceberg</title>
-  <link href="https://iceberg.apache.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri_muh.html#iceberg-apache-org" rel="alternate" type="text/html"/>
   <id>https://iceberg.apache.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Büyük analitik tablolar için açık tablo biçimi; şema evrimi, zaman yolculuğu ve atomik yazma verir. Ham Parquet dizininden farkı tabloyu tutarlı, sürümlenebilir bir birim gibi yönetmesi.</summary>
+  <content type="html">&lt;p&gt;Büyük analitik tablolar için açık tablo biçimi; şema evrimi, zaman yolculuğu ve atomik yazma verir. Ham Parquet dizininden farkı tabloyu tutarlı, sürümlenebilir bir birim gibi yönetmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://iceberg.apache.org/&quot;&gt;https://iceberg.apache.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Apache Spark</title>
-  <link href="https://spark.apache.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri_muh.html#spark-apache-org" rel="alternate" type="text/html"/>
   <id>https://spark.apache.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Büyük veriyi bellek üstünde dağıtık işleyen motor — toplu ve akış işleme. Tek makine kütüphanelerinden farkı terabaytları küme üzerinde bölüştürüp paralel işlemesi.</summary>
+  <content type="html">&lt;p&gt;Büyük veriyi bellek üstünde dağıtık işleyen motor — toplu ve akış işleme. Tek makine kütüphanelerinden farkı terabaytları küme üzerinde bölüştürüp paralel işlemesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://spark.apache.org/&quot;&gt;https://spark.apache.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Data Engineering</title>
-  <link href="https://github.com/igorbarinov/awesome-data-engineering"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri_muh.html#github-com-igorbarinov-awesome-data-engineering" rel="alternate" type="text/html"/>
   <id>https://github.com/igorbarinov/awesome-data-engineering</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Veri mühendisliğinin tüm katmanlarını — alım, depolama, işleme, orkestrasyon — araçlarıyla toplayan liste. Tek araca bağlı listelerden farkı yığının bütününü haritalaması.</summary>
+  <content type="html">&lt;p&gt;Veri mühendisliğinin tüm katmanlarını — alım, depolama, işleme, orkestrasyon — araçlarıyla toplayan liste. Tek araca bağlı listelerden farkı yığının bütününü haritalaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/igorbarinov/awesome-data-engineering&quot;&gt;https://github.com/igorbarinov/awesome-data-engineering&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Hadoop</title>
-  <link href="https://github.com/youngwookim/awesome-hadoop"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri_muh.html#github-com-youngwookim-awesome-hadoop" rel="alternate" type="text/html"/>
   <id>https://github.com/youngwookim/awesome-hadoop</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Dağıtık depolama ve işleme çatısı Hadoop için kaynak listesi. Spark gibi bellek içi motorların listelerinden farkı disk tabanlı HDFS ve MapReduce ekosistemine odaklanması.</summary>
+  <content type="html">&lt;p&gt;Dağıtık depolama ve işleme çatısı Hadoop için kaynak listesi. Spark gibi bellek içi motorların listelerinden farkı disk tabanlı HDFS ve MapReduce ekosistemine odaklanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/youngwookim/awesome-hadoop&quot;&gt;https://github.com/youngwookim/awesome-hadoop&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome HPC</title>
-  <link href="https://github.com/dstdev/awesome-hpc"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri_muh.html#github-com-dstdev-awesome-hpc" rel="alternate" type="text/html"/>
   <id>https://github.com/dstdev/awesome-hpc</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Yüksek başarımlı hesaplama (HPC) için araç, kütüphane ve kaynak listesi. Genel DevOps listelerinden farkı küme yönetimine, Slurm gibi iş zamanlayıcılara ve MPI ile paralel programlamaya odaklanması.</summary>
+  <content type="html">&lt;p&gt;Yüksek başarımlı hesaplama (HPC) için araç, kütüphane ve kaynak listesi. Genel DevOps listelerinden farkı küme yönetimine, Slurm gibi iş zamanlayıcılara ve MPI ile paralel programlamaya odaklanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/dstdev/awesome-hpc&quot;&gt;https://github.com/dstdev/awesome-hpc&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Spark</title>
-  <link href="https://github.com/awesome-spark/awesome-spark"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri_muh.html#github-com-awesome-spark-awesome-spark" rel="alternate" type="text/html"/>
   <id>https://github.com/awesome-spark/awesome-spark</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Apache Spark ekosistemi için paket, öğretici ve örnek listesi. Resmî dokümandan farkı topluluk kütüphanelerini ve gerçek dünya örneklerini toplaması.</summary>
+  <content type="html">&lt;p&gt;Apache Spark ekosistemi için paket, öğretici ve örnek listesi. Resmî dokümandan farkı topluluk kütüphanelerini ve gerçek dünya örneklerini toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/awesome-spark/awesome-spark&quot;&gt;https://github.com/awesome-spark/awesome-spark&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>ClickHouse</title>
-  <link href="https://clickhouse.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri_muh.html#clickhouse-com" rel="alternate" type="text/html"/>
   <id>https://clickhouse.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Analitik için sütun temelli OLAP veritabanı; büyük ölçekte çok hızlı toplama yapıyor. PostgreSQL gibi satır temelli veritabanlarından farkı milyarlarca satırda toplama sorgularını saniyeler içinde bitirmesi; tekil kayıt güncellemede zayıf.</summary>
+  <content type="html">&lt;p&gt;Analitik için sütun temelli OLAP veritabanı; büyük ölçekte çok hızlı toplama yapıyor. PostgreSQL gibi satır temelli veritabanlarından farkı milyarlarca satırda toplama sorgularını saniyeler içinde bitirmesi; tekil kayıt güncellemede zayıf.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://clickhouse.com&quot;&gt;https://clickhouse.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Dagster</title>
-  <link href="https://dagster.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri_muh.html#dagster-io" rel="alternate" type="text/html"/>
   <id>https://dagster.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Veri varlıklarını merkeze alan orkestratör; her tabloyu bir “varlık” olarak izliyor. Airflow’dan farkı görevden çok üretilen veriye odaklanıp veri kalitesini yerleşik tutması.</summary>
+  <content type="html">&lt;p&gt;Veri varlıklarını merkeze alan orkestratör; her tabloyu bir “varlık” olarak izliyor. Airflow’dan farkı görevden çok üretilen veriye odaklanıp veri kalitesini yerleşik tutması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://dagster.io/&quot;&gt;https://dagster.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Data Engineering Podcast</title>
-  <link href="https://www.dataengineeringpodcast.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri_muh.html#dataengineeringpodcast-com" rel="alternate" type="text/html"/>
   <id>https://www.dataengineeringpodcast.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Veri mühendisliği araç ve mimarilerini derinlemesine konuşan uzun söyleşiler. Araç belgelerinden farkı bir aracın gerçekte neden ve nasıl seçildiğini uygulayanların ağzından anlatması.</summary>
+  <content type="html">&lt;p&gt;Veri mühendisliği araç ve mimarilerini derinlemesine konuşan uzun söyleşiler. Araç belgelerinden farkı bir aracın gerçekte neden ve nasıl seçildiğini uygulayanların ağzından anlatması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.dataengineeringpodcast.com&quot;&gt;https://www.dataengineeringpodcast.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>DataTalks.Club</title>
-  <link href="https://datatalks.club"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri_muh.html#datatalks-club" rel="alternate" type="text/html"/>
   <id>https://datatalks.club</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Uygulamalı veri mühendisliği ve ML kampları (zoomcamp) sunan ücretsiz topluluk. Ücretli bootcamp’lerden farkı tamamen ücretsiz ve topluluk yürütmeli olması: kamplar belirli tarihlerde toplu ilerliyor.</summary>
+  <content type="html">&lt;p&gt;Uygulamalı veri mühendisliği ve ML kampları (zoomcamp) sunan ücretsiz topluluk. Ücretli bootcamp’lerden farkı tamamen ücretsiz ve topluluk yürütmeli olması: kamplar belirli tarihlerde toplu ilerliyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://datatalks.club&quot;&gt;https://datatalks.club&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>dbt</title>
-  <link href="https://www.getdbt.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri_muh.html#getdbt-com" rel="alternate" type="text/html"/>
   <id>https://www.getdbt.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Veri ambarındaki dönüşümleri SQL + sürüm kontrolü + test ile yöneten araç. El yazımı SQL betiklerinden farkı bağımlılık grafiği, belge ve testi bir yazılım projesi gibi getirmesi.</summary>
+  <content type="html">&lt;p&gt;Veri ambarındaki dönüşümleri SQL + sürüm kontrolü + test ile yöneten araç. El yazımı SQL betiklerinden farkı bağımlılık grafiği, belge ve testi bir yazılım projesi gibi getirmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.getdbt.com/&quot;&gt;https://www.getdbt.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Delta Lake</title>
-  <link href="https://delta.io"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri_muh.html#delta-io" rel="alternate" type="text/html"/>
   <id>https://delta.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Veri göllerine ACID işlemleri ve zaman-yolculuğu getiren açık depolama katmanı. Düz Parquet dosyalarından farkı işlem güvenliği ve sürüm geçmişi eklemesi: göl bir tablo gibi güvenilir davranıyor.</summary>
+  <content type="html">&lt;p&gt;Veri göllerine ACID işlemleri ve zaman-yolculuğu getiren açık depolama katmanı. Düz Parquet dosyalarından farkı işlem güvenliği ve sürüm geçmişi eklemesi: göl bir tablo gibi güvenilir davranıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://delta.io&quot;&gt;https://delta.io&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>DuckDB</title>
-  <link href="https://duckdb.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri_muh.html#duckdb-org" rel="alternate" type="text/html"/>
   <id>https://duckdb.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Süreç içinde çalışan analitik veritabanı — kurulum yok, dosyayı doğrudan sorguluyor. Sunucu gerektiren ambarlardan farkı tek makinede, Parquet/CSV üstünde “SQLite hızında OLAP” olması.</summary>
+  <content type="html">&lt;p&gt;Süreç içinde çalışan analitik veritabanı — kurulum yok, dosyayı doğrudan sorguluyor. Sunucu gerektiren ambarlardan farkı tek makinede, Parquet/CSV üstünde “SQLite hızında OLAP” olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://duckdb.org/&quot;&gt;https://duckdb.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Great Expectations</title>
-  <link href="https://greatexpectations.io"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri_muh.html#greatexpectations-io" rel="alternate" type="text/html"/>
   <id>https://greatexpectations.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Veriyi bildirimsel kurallarla doğrulayan ve belgeleyen veri kalitesi çatısı. Elle yazılan doğrulama betiklerinden farkı kuralları veri belgesine çevirmesi ve hattın içine yerleşik testler eklemesi.</summary>
+  <content type="html">&lt;p&gt;Veriyi bildirimsel kurallarla doğrulayan ve belgeleyen veri kalitesi çatısı. Elle yazılan doğrulama betiklerinden farkı kuralları veri belgesine çevirmesi ve hattın içine yerleşik testler eklemesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://greatexpectations.io&quot;&gt;https://greatexpectations.io&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Hamilton</title>
-  <link href="https://github.com/dagworks-inc/hamilton"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri_muh.html#github-com-dagworks-inc-hamilton" rel="alternate" type="text/html"/>
   <id>https://github.com/dagworks-inc/hamilton</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Veri dönüşümlerini fonksiyonlardan bir grafik olarak kuran hafif Python kütüphanesi. Ağır orkestratörlerden farkı tek dosyada, altyapı gerektirmeden bağımlılık grafiği vermesi.</summary>
+  <content type="html">&lt;p&gt;Veri dönüşümlerini fonksiyonlardan bir grafik olarak kuran hafif Python kütüphanesi. Ağır orkestratörlerden farkı tek dosyada, altyapı gerektirmeden bağımlılık grafiği vermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/dagworks-inc/hamilton&quot;&gt;https://github.com/dagworks-inc/hamilton&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Meltano</title>
-  <link href="https://meltano.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri_muh.html#meltano-com" rel="alternate" type="text/html"/>
   <id>https://meltano.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Singer temelli, komut satırı ve yapılandırma odaklı açık kaynak DataOps ELT platformu. Airbyte’ın arayüz odaklı yaklaşımından farkı her şeyin sürüm kontrolüne giren metin yapılandırmasıyla tanımlanması: veri hattını kod gibi yönetiyorsun.</summary>
+  <content type="html">&lt;p&gt;Singer temelli, komut satırı ve yapılandırma odaklı açık kaynak DataOps ELT platformu. Airbyte’ın arayüz odaklı yaklaşımından farkı her şeyin sürüm kontrolüne giren metin yapılandırmasıyla tanımlanması: veri hattını kod gibi yönetiyorsun.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://meltano.com&quot;&gt;https://meltano.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Spark Internals</title>
-  <link href="https://github.com/JerryLead/SparkInternals"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri_muh.html#github-com-jerrylead-sparkinternals" rel="alternate" type="text/html"/>
   <id>https://github.com/JerryLead/SparkInternals</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Apache Spark’ın içeride nasıl çalıştığını — zamanlama, karıştırma, bellek — anlatan derin belge. Kullanım kılavuzundan farkı motorun altını açması, performans ayarı için.</summary>
+  <content type="html">&lt;p&gt;Apache Spark’ın içeride nasıl çalıştığını — zamanlama, karıştırma, bellek — anlatan derin belge. Kullanım kılavuzundan farkı motorun altını açması, performans ayarı için.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/JerryLead/SparkInternals&quot;&gt;https://github.com/JerryLead/SparkInternals&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Trino</title>
-  <link href="https://trino.io"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri_muh.html#trino-io" rel="alternate" type="text/html"/>
   <id>https://trino.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Veriyi bulunduğu yerde sorgulayan dağıtık SQL sorgu motoru; birçok kaynağı birleştiriyor. Klasik veritabanlarından farkı veriyi kendine taşımaması: S3, PostgreSQL ve Kafka’yı tek sorguda birlikte sorgulayabiliyorsun.</summary>
+  <content type="html">&lt;p&gt;Veriyi bulunduğu yerde sorgulayan dağıtık SQL sorgu motoru; birçok kaynağı birleştiriyor. Klasik veritabanlarından farkı veriyi kendine taşımaması: S3, PostgreSQL ve Kafka’yı tek sorguda birlikte sorgulayabiliyorsun.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://trino.io&quot;&gt;https://trino.io&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Data Engineering Zoomcamp</title>
-  <link href="https://github.com/DataTalksClub/data-engineering-zoomcamp"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri_muh.html#github-com-datatalksclub-data-engineering-zoomcamp" rel="alternate" type="text/html"/>
   <id>https://github.com/DataTalksClub/data-engineering-zoomcamp</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Veri mühendisliğini uçtan uca (Docker, dbt, Spark, Kafka, bulut) öğreten ücretsiz, projeli kurs. Dağınık öğreticilerden farkı gerçek bir boru hattını baştan sona kurdurması.</summary>
+  <content type="html">&lt;p&gt;Veri mühendisliğini uçtan uca (Docker, dbt, Spark, Kafka, bulut) öğreten ücretsiz, projeli kurs. Dağınık öğreticilerden farkı gerçek bir boru hattını baştan sona kurdurması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/DataTalksClub/data-engineering-zoomcamp&quot;&gt;https://github.com/DataTalksClub/data-engineering-zoomcamp&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Microsoft · Data Engineer Path</title>
-  <link href="https://learn.microsoft.com/en-us/training/career-paths/data-engineer"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri_muh.html#learn-microsoft-com-en-us-training-career-paths-data-engineer" rel="alternate" type="text/html"/>
   <id>https://learn.microsoft.com/en-us/training/career-paths/data-engineer</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Bulut veri mühendisliğini modül modül öğreten Microsoft öğrenme patikası. Ürün dokümanından farkı sınavla ölçülen, sıralı bir beceri yolu olarak kurgulanması.</summary>
+  <content type="html">&lt;p&gt;Bulut veri mühendisliğini modül modül öğreten Microsoft öğrenme patikası. Ürün dokümanından farkı sınavla ölçülen, sıralı bir beceri yolu olarak kurgulanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://learn.microsoft.com/en-us/training/career-paths/data-engineer&quot;&gt;https://learn.microsoft.com/en-us/training/career-paths/data-engineer&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Databricks</title>
-  <link href="https://www.databricks.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri_muh.html#databricks-com" rel="alternate" type="text/html"/>
   <id>https://www.databricks.com/</id>
   <updated>2026-07-26T15:42:56Z</updated>
-  <summary>Spark üstüne kurulu, veri gölü ile ambarı birleştiren (“lakehouse”) bulut platformu. Ayrı ambar ve göl kurmaktan farkı ikisini tek yönetişim ve defter arayüzünde toplaması.</summary>
+  <content type="html">&lt;p&gt;Spark üstüne kurulu, veri gölü ile ambarı birleştiren (“lakehouse”) bulut platformu. Ayrı ambar ve göl kurmaktan farkı ikisini tek yönetişim ve defter arayüzünde toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.databricks.com/&quot;&gt;https://www.databricks.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Apache Kafka</title>
-  <link href="https://kafka.apache.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri_muh.html#kafka-apache-org" rel="alternate" type="text/html"/>
   <id>https://kafka.apache.org/</id>
   <updated>2026-04-20T13:01:27Z</updated>
-  <summary>Mesajları tüketildikten sonra da saklıyor; tüketiciler kendi konumlarını (offset) taşıyıp geçmişi yeniden okuyabiliyor. Klasik kuyruklardan (RabbitMQ) asıl ayrımı bu kalıcılık ve yeniden oynatma.</summary>
+  <content type="html">&lt;p&gt;Mesajları tüketildikten sonra da saklıyor; tüketiciler kendi konumlarını (offset) taşıyıp geçmişi yeniden okuyabiliyor. Klasik kuyruklardan (RabbitMQ) asıl ayrımı bu kalıcılık ve yeniden oynatma.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://kafka.apache.org/&quot;&gt;https://kafka.apache.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

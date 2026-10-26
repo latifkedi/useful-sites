@@ -2,288 +2,290 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title>Networking &amp; Sysadmin — Useful Sites</title>
 <subtitle>A hand-curated, annotated link directory across ten areas, from software and AI to security, economics and architecture. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/en/ag.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/en/ag.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/ag.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/ag.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/ag.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>A Cartoon Intro to DNS over HTTPS</title>
-  <link href="https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#hacks-mozilla-org-2018-05-a-cartoon-intro-to-dns-over-https" rel="alternate" type="text/html"/>
   <id>https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A Mozilla article that uses cartoons to explain why DNS is a privacy problem and how DoH changes it. Unlike protocol specs it assumes no background and quickly shows what the DoH debate is about.</summary>
+  <content type="html">&lt;p&gt;A Mozilla article that uses cartoons to explain why DNS is a privacy problem and how DoH changes it. Unlike protocol specs it assumes no background and quickly shows what the DoH debate is about.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/&quot;&gt;https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome eBPF (qmonnet)</title>
-  <link href="https://github.com/qmonnet/awesome-ebpf"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#github-com-qmonnet-awesome-ebpf" rel="alternate" type="text/html"/>
   <id>https://github.com/qmonnet/awesome-ebpf</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A list of eBPF projects, articles and tools, with compilers, tracing and networking (XDP) under separate headings. Unlike the other eBPF list already in the directory it is still being updated, and is kept by someone who writes eBPF documentation.</summary>
+  <content type="html">&lt;p&gt;A list of eBPF projects, articles and tools, with compilers, tracing and networking (XDP) under separate headings. Unlike the other eBPF list already in the directory it is still being updated, and is kept by someone who writes eBPF documentation.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/qmonnet/awesome-ebpf&quot;&gt;https://github.com/qmonnet/awesome-ebpf&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Bridgy Fed</title>
-  <link href="https://fed.brid.gy"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#fed-brid-gy" rel="alternate" type="text/html"/>
   <id>https://fed.brid.gy</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A service that bridges websites, the fediverse (Mastodon etc.) and Bluesky/AT Protocol so accounts can follow and reply across networks. Unlike single-network clients, it translates between the protocols themselves.</summary>
+  <content type="html">&lt;p&gt;A service that bridges websites, the fediverse (Mastodon etc.) and Bluesky/AT Protocol so accounts can follow and reply across networks. Unlike single-network clients, it translates between the protocols themselves.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://fed.brid.gy&quot;&gt;https://fed.brid.gy&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>ciphersuite.info</title>
-  <link href="https://ciphersuite.info/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#ciphersuite-info" rel="alternate" type="text/html"/>
   <id>https://ciphersuite.info/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A reference site that lists every TLS cipher suite searchably, with IANA and OpenSSL names, a security rating (secure/weak/insecure) and protocol-version support. For when you meet a suite name and want to know what it means and whether to allow it. Unlike the raw IANA registry, it gives each suite a readable security rating.</summary>
+  <content type="html">&lt;p&gt;A reference site that lists every TLS cipher suite searchably, with IANA and OpenSSL names, a security rating (secure/weak/insecure) and protocol-version support. For when you meet a suite name and want to know what it means and whether to allow it. Unlike the raw IANA registry, it gives each suite a readable security rating.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://ciphersuite.info/&quot;&gt;https://ciphersuite.info/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>curl</title>
-  <link href="https://curl.se/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#curl-se" rel="alternate" type="text/html"/>
   <id>https://curl.se/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>The site for the standard command-line tool for transferring data with URLs and for the libcurl library; it has the manual, a protocol list and the free book &quot;Everything curl&quot;. With &quot;copy as cURL&quot; in browser dev tools it is the basic way to debug an API call. It makes a request repeatable from the command line, instead of living only in browser dev tools.</summary>
+  <content type="html">&lt;p&gt;The site for the standard command-line tool for transferring data with URLs and for the libcurl library; it has the manual, a protocol list and the free book &amp;quot;Everything curl&amp;quot;. With &amp;quot;copy as cURL&amp;quot; in browser dev tools it is the basic way to debug an API call. It makes a request repeatable from the command line, instead of living only in browser dev tools.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://curl.se/&quot;&gt;https://curl.se/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>DKIM Validator</title>
-  <link href="https://dkimvalidator.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#dkimvalidator-com" rel="alternate" type="text/html"/>
   <id>https://dkimvalidator.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Send a test email to the temporary address it gives you and it reports SPF, DKIM and SpamAssassin scores. Instead of checking records in isolation, it tests a real message end to end.</summary>
+  <content type="html">&lt;p&gt;Send a test email to the temporary address it gives you and it reports SPF, DKIM and SpamAssassin scores. Instead of checking records in isolation, it tests a real message end to end.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://dkimvalidator.com/&quot;&gt;https://dkimvalidator.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>DNSlytics</title>
-  <link href="https://dnslytics.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#dnslytics-com" rel="alternate" type="text/html"/>
   <id>https://dnslytics.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A research site showing DNS records, sites sharing an IP, mail/whois data and history for a domain, IP or autonomous-system number. Unlike ViewDNS's one-shot queries it links a domain to its hosting and ASN relationships.</summary>
+  <content type="html">&lt;p&gt;A research site showing DNS records, sites sharing an IP, mail/whois data and history for a domain, IP or autonomous-system number. Unlike ViewDNS's one-shot queries it links a domain to its hosting and ASN relationships.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://dnslytics.com/&quot;&gt;https://dnslytics.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>DNSSEC Debugger</title>
-  <link href="https://dnssec-debugger.verisignlabs.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#dnssec-debugger-verisignlabs-com" rel="alternate" type="text/html"/>
   <id>https://dnssec-debugger.verisignlabs.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Verisign's tool that validates a domain's DNSSEC chain of trust from the root down and shows where it breaks. Unlike general DNS checkers it concentrates on the signature chain alone.</summary>
+  <content type="html">&lt;p&gt;Verisign's tool that validates a domain's DNSSEC chain of trust from the root down and shows where it breaks. Unlike general DNS checkers it concentrates on the signature chain alone.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://dnssec-debugger.verisignlabs.com/&quot;&gt;https://dnssec-debugger.verisignlabs.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>IntoDNS</title>
-  <link href="https://intodns.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#intodns-com" rel="alternate" type="text/html"/>
   <id>https://intodns.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A quick checker for a domain's DNS and mail (MX) setup that lists errors and warnings point by point. Less thorough than Zonemaster, but the result sits on one readable page.</summary>
+  <content type="html">&lt;p&gt;A quick checker for a domain's DNS and mail (MX) setup that lists errors and warnings point by point. Less thorough than Zonemaster, but the result sits on one readable page.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://intodns.com/&quot;&gt;https://intodns.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Is BGP safe yet?</title>
-  <link href="https://isbgpsafeyet.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#isbgpsafeyet-com" rel="alternate" type="text/html"/>
   <id>https://isbgpsafeyet.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A Cloudflare page that tests from your browser whether your ISP filters invalid BGP routes (RPKI). It turns an abstract topic, routing security, into a one-click result. Unlike the technical RPKI documentation, it gives you the answer in one click from your browser.</summary>
+  <content type="html">&lt;p&gt;A Cloudflare page that tests from your browser whether your ISP filters invalid BGP routes (RPKI). It turns an abstract topic, routing security, into a one-click result. Unlike the technical RPKI documentation, it gives you the answer in one click from your browser.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://isbgpsafeyet.com/&quot;&gt;https://isbgpsafeyet.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>MultiRBL</title>
-  <link href="https://multirbl.valli.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#multirbl-valli-org" rel="alternate" type="text/html"/>
   <id>https://multirbl.valli.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Looks up an IP or domain in hundreds of DNS blocklists (RBLs) at once. Shows which list is behind a mail server being rejected, and also checks forward and reverse DNS consistency. Rather than checking one blocklist, it queries hundreds of RBLs at once.</summary>
+  <content type="html">&lt;p&gt;Looks up an IP or domain in hundreds of DNS blocklists (RBLs) at once. Shows which list is behind a mail server being rejected, and also checks forward and reverse DNS consistency. Rather than checking one blocklist, it queries hundreds of RBLs at once.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://multirbl.valli.org/&quot;&gt;https://multirbl.valli.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>MxToolbox SuperTool</title>
-  <link href="https://mxtoolbox.com/SuperTool.aspx"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#mxtoolbox-com-supertool-aspx" rel="alternate" type="text/html"/>
   <id>https://mxtoolbox.com/SuperTool.aspx</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>An email and DNS diagnostic that runs MX, DNS, blacklist, SPF, DMARC, ping and port lookups from a single box. A common first stop for mail delivery problems, replacing several single-purpose checkers. Unlike single-purpose checkers, it runs MX, SPF, DMARC and blacklist lookups from one box.</summary>
+  <content type="html">&lt;p&gt;An email and DNS diagnostic that runs MX, DNS, blacklist, SPF, DMARC, ping and port lookups from a single box. A common first stop for mail delivery problems, replacing several single-purpose checkers. Unlike single-purpose checkers, it runs MX, SPF, DMARC and blacklist lookups from one box.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://mxtoolbox.com/SuperTool.aspx&quot;&gt;https://mxtoolbox.com/SuperTool.aspx&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>nip.io</title>
-  <link href="https://nip.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#nip-io" rel="alternate" type="text/html"/>
   <id>https://nip.io/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A wildcard DNS service that resolves names like 10.0.0.1.nip.io to the IP embedded in them, so you can reach a local or test server by hostname without editing the hosts file. No setup or sign-up. Instead of editing /etc/hosts, it embeds the address in the name itself.</summary>
+  <content type="html">&lt;p&gt;A wildcard DNS service that resolves names like 10.0.0.1.nip.io to the IP embedded in them, so you can reach a local or test server by hostname without editing the hosts file. No setup or sign-up. Instead of editing /etc/hosts, it embeds the address in the name itself.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://nip.io/&quot;&gt;https://nip.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OpenInfraMap</title>
-  <link href="https://openinframap.org"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#openinframap-org" rel="alternate" type="text/html"/>
   <id>https://openinframap.org</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A map rendering power lines, plants, oil/gas pipelines and telecom infrastructure from OpenStreetMap data. Unlike general maps, it has infrastructure-specific layers with voltage and capacity detail.</summary>
+  <content type="html">&lt;p&gt;A map rendering power lines, plants, oil/gas pipelines and telecom infrastructure from OpenStreetMap data. Unlike general maps, it has infrastructure-specific layers with voltage and capacity detail.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://openinframap.org&quot;&gt;https://openinframap.org&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OpenSSL</title>
-  <link href="https://www.openssl.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#openssl-org" rel="alternate" type="text/html"/>
   <id>https://www.openssl.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>The official site of the TLS/SSL and general-purpose cryptography library and the openssl command-line tool; command manuals, release notes and library API docs live here. The basic reference for generating certificates, converting keys and inspecting a handshake against a server. It is a library as well as a command tool, so it covers more than single-purpose certificate utilities.</summary>
+  <content type="html">&lt;p&gt;The official site of the TLS/SSL and general-purpose cryptography library and the openssl command-line tool; command manuals, release notes and library API docs live here. The basic reference for generating certificates, converting keys and inspecting a handshake against a server. It is a library as well as a command tool, so it covers more than single-purpose certificate utilities.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.openssl.org/&quot;&gt;https://www.openssl.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OpenSSL Certificate Authority</title>
-  <link href="https://jamielinux.com/docs/openssl-certificate-authority/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#jamielinux-com-docs-openssl-certificate-authority" rel="alternate" type="text/html"/>
   <id>https://jamielinux.com/docs/openssl-certificate-authority/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A step-by-step guide to building a root and intermediate certificate authority with OpenSSL, signing certificates and publishing revocation lists. Unlike ready-made CA software it shows the file layout and configuration by hand, so you see how a PKI works.</summary>
+  <content type="html">&lt;p&gt;A step-by-step guide to building a root and intermediate certificate authority with OpenSSL, signing certificates and publishing revocation lists. Unlike ready-made CA software it shows the file layout and configuration by hand, so you see how a PKI works.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://jamielinux.com/docs/openssl-certificate-authority/&quot;&gt;https://jamielinux.com/docs/openssl-certificate-authority/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>RIPE Atlas</title>
-  <link href="https://atlas.ripe.net/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#atlas-ripe-net" rel="alternate" type="text/html"/>
   <id>https://atlas.ripe.net/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>RIPE NCC's network of thousands of small probes that run ping, traceroute and DNS measurements from around the world. It lets you see a target from other countries and operators rather than your own connection, which helps diagnose reachability problems.</summary>
+  <content type="html">&lt;p&gt;RIPE NCC's network of thousands of small probes that run ping, traceroute and DNS measurements from around the world. It lets you see a target from other countries and operators rather than your own connection, which helps diagnose reachability problems.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://atlas.ripe.net/&quot;&gt;https://atlas.ripe.net/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Scapy</title>
-  <link href="https://scapy.net/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#scapy-net" rel="alternate" type="text/html"/>
   <id>https://scapy.net/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>An interactive Python library for forging, sending, capturing and decoding packets; the site hosts docs and examples. Unlike Wireshark you build and mutate packets in code, and unlike Nmap you write your own protocol tests rather than using canned scans.</summary>
+  <content type="html">&lt;p&gt;An interactive Python library for forging, sending, capturing and decoding packets; the site hosts docs and examples. Unlike Wireshark you build and mutate packets in code, and unlike Nmap you write your own protocol tests rather than using canned scans.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://scapy.net/&quot;&gt;https://scapy.net/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Submarine Cable Map</title>
-  <link href="https://www.submarinecablemap.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#submarinecablemap-com" rel="alternate" type="text/html"/>
   <id>https://www.submarinecablemap.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>TeleGeography's interactive map of the world's submarine internet cables, landing points and owners. Unlike generic network maps it makes the physical backbone of the internet traceable cable by cable.</summary>
+  <content type="html">&lt;p&gt;TeleGeography's interactive map of the world's submarine internet cables, landing points and owners. Unlike generic network maps it makes the physical backbone of the internet traceable cable by cable.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.submarinecablemap.com/&quot;&gt;https://www.submarinecablemap.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>ViewDNS.info</title>
-  <link href="https://viewdns.info/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#viewdns-info" rel="alternate" type="text/html"/>
   <id>https://viewdns.info/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A toolbox of dozens of DNS and domain queries in one place: reverse IP lookup, DNS history, whois, a port scanner, domain-to-IP mapping. Each query is a small separate tool and no sign-up is needed.</summary>
+  <content type="html">&lt;p&gt;A toolbox of dozens of DNS and domain queries in one place: reverse IP lookup, DNS history, whois, a port scanner, domain-to-IP mapping. Each query is a small separate tool and no sign-up is needed.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://viewdns.info/&quot;&gt;https://viewdns.info/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Zonemaster</title>
-  <link href="https://zonemaster.se/en/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#zonemaster-se-en" rel="alternate" type="text/html"/>
   <id>https://zonemaster.se/en/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A checker that runs a domain's DNS setup (delegation, SOA, DNSSEC, nameserver consistency) through dozens of tests; the open-source engine of the Swedish registry. Unlike tools that query one record, it reports on the whole zone against a standard test suite.</summary>
+  <content type="html">&lt;p&gt;A checker that runs a domain's DNS setup (delegation, SOA, DNSSEC, nameserver consistency) through dozens of tests; the open-source engine of the Swedish registry. Unlike tools that query one record, it reports on the whole zone against a standard test suite.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://zonemaster.se/en/&quot;&gt;https://zonemaster.se/en/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>goshs</title>
-  <link href="https://github.com/goshs-labs/goshs"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#github-com-goshs-labs-goshs" rel="alternate" type="text/html"/>
   <id>https://github.com/goshs-labs/goshs</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>A single-binary file server written in Go, supporting HTTP, WebDAV, FTP/SFTP, SMB and more. Unlike python -m http.server it adds uploads, authentication and more protocols; its red-team features mean you should use it only on systems you own.</summary>
+  <content type="html">&lt;p&gt;A single-binary file server written in Go, supporting HTTP, WebDAV, FTP/SFTP, SMB and more. Unlike python -m http.server it adds uploads, authentication and more protocols; its red-team features mean you should use it only on systems you own.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/goshs-labs/goshs&quot;&gt;https://github.com/goshs-labs/goshs&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>lazyssh</title>
-  <link href="https://github.com/Adembc/lazyssh"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#github-com-adembc-lazyssh" rel="alternate" type="text/html"/>
   <id>https://github.com/Adembc/lazyssh</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>A terminal UI that lists the hosts in your SSH config and connects to them (Go). Unlike editing ~/.ssh/config by hand and remembering names it gives a searchable list.</summary>
+  <content type="html">&lt;p&gt;A terminal UI that lists the hosts in your SSH config and connects to them (Go). Unlike editing ~/.ssh/config by hand and remembering names it gives a searchable list.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/Adembc/lazyssh&quot;&gt;https://github.com/Adembc/lazyssh&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>mactop</title>
-  <link href="https://github.com/metaspartan/mactop"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#github-com-metaspartan-mactop" rel="alternate" type="text/html"/>
   <id>https://github.com/metaspartan/mactop</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>A terminal monitor for Apple Silicon showing CPU, GPU and power use. Unlike htop it reads Apple-specific sensors (power, GPU, neural engine).</summary>
+  <content type="html">&lt;p&gt;A terminal monitor for Apple Silicon showing CPU, GPU and power use. Unlike htop it reads Apple-specific sensors (power, GPU, neural engine).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/metaspartan/mactop&quot;&gt;https://github.com/metaspartan/mactop&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Sniffnet</title>
-  <link href="https://github.com/GyulyVGC/sniffnet"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#github-com-gyulyvgc-sniffnet" rel="alternate" type="text/html"/>
   <id>https://github.com/GyulyVGC/sniffnet</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>A cross-platform app that shows network traffic in a friendly interface (Rust). Unlike Wireshark it favours a readable overview over packet-level detail.</summary>
+  <content type="html">&lt;p&gt;A cross-platform app that shows network traffic in a friendly interface (Rust). Unlike Wireshark it favours a readable overview over packet-level detail.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/GyulyVGC/sniffnet&quot;&gt;https://github.com/GyulyVGC/sniffnet&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Arch</title>
-  <link href="https://github.com/PandaFoss/Awesome-Arch"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#github-com-pandafoss-awesome-arch" rel="alternate" type="text/html"/>
   <id>https://github.com/PandaFoss/Awesome-Arch</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of Arch Linux–based distributions and projects. Unlike the Arch Wiki, it collects not documentation but the distributions derived from Arch and their tools, side by side.</summary>
+  <content type="html">&lt;p&gt;A list of Arch Linux–based distributions and projects. Unlike the Arch Wiki, it collects not documentation but the distributions derived from Arch and their tools, side by side.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/PandaFoss/Awesome-Arch&quot;&gt;https://github.com/PandaFoss/Awesome-Arch&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome eBPF</title>
-  <link href="https://github.com/zoidbergwill/awesome-ebpf"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#github-com-zoidbergwill-awesome-ebpf" rel="alternate" type="text/html"/>
   <id>https://github.com/zoidbergwill/awesome-ebpf</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for eBPF, which runs safe programs inside the kernel. Unlike writing a kernel module, the program must first pass the verifier, so it runs without the risk of crashing the kernel.</summary>
+  <content type="html">&lt;p&gt;A resource list for eBPF, which runs safe programs inside the kernel. Unlike writing a kernel module, the program must first pass the verifier, so it runs without the risk of crashing the kernel.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/zoidbergwill/awesome-ebpf&quot;&gt;https://github.com/zoidbergwill/awesome-ebpf&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome GNOME</title>
-  <link href="https://github.com/Kazhnuz/awesome-gnome"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#github-com-kazhnuz-awesome-gnome" rel="alternate" type="text/html"/>
   <id>https://github.com/Kazhnuz/awesome-gnome</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of apps and extensions for the GNOME desktop environment. Unlike the KDE list, it covers GTK/libadwaita apps that follow GNOME’s interface guidelines, plus shell extensions.</summary>
+  <content type="html">&lt;p&gt;A list of apps and extensions for the GNOME desktop environment. Unlike the KDE list, it covers GTK/libadwaita apps that follow GNOME’s interface guidelines, plus shell extensions.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/Kazhnuz/awesome-gnome&quot;&gt;https://github.com/Kazhnuz/awesome-gnome&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome IPFS</title>
-  <link href="https://github.com/ipfs/awesome-ipfs"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#github-com-ipfs-awesome-ipfs" rel="alternate" type="text/html"/>
   <id>https://github.com/ipfs/awesome-ipfs</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of tools and projects for IPFS, the decentralised file protocol. Unlike HTTP, it addresses a file by the hash of its content (CID) rather than by the server that holds it.</summary>
+  <content type="html">&lt;p&gt;A list of tools and projects for IPFS, the decentralised file protocol. Unlike HTTP, it addresses a file by the hash of its content (CID) rather than by the server that holds it.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ipfs/awesome-ipfs&quot;&gt;https://github.com/ipfs/awesome-ipfs&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome KDE</title>
-  <link href="https://github.com/francoism90/awesome-kde"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#github-com-francoism90-awesome-kde" rel="alternate" type="text/html"/>
   <id>https://github.com/francoism90/awesome-kde</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of apps and resources for the KDE desktop environment. Unlike the GNOME list, it focuses on Qt-based KDE apps and Plasma customisation.</summary>
+  <content type="html">&lt;p&gt;A list of apps and resources for the KDE desktop environment. Unlike the GNOME list, it focuses on Qt-based KDE apps and Plasma customisation.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/francoism90/awesome-kde&quot;&gt;https://github.com/francoism90/awesome-kde&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Scapy</title>
-  <link href="https://github.com/secdev/awesome-scapy"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#github-com-secdev-awesome-scapy" rel="alternate" type="text/html"/>
   <id>https://github.com/secdev/awesome-scapy</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of tools and examples for Scapy, the Python packet-manipulation library. Unlike general network lists it centres on crafting and sending packets by hand.</summary>
+  <content type="html">&lt;p&gt;A list of tools and examples for Scapy, the Python packet-manipulation library. Unlike general network lists it centres on crafting and sending packets by hand.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/secdev/awesome-scapy&quot;&gt;https://github.com/secdev/awesome-scapy&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Windows</title>
-  <link href="https://github.com/0pandadev/awesome-windows"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#github-com-0pandadev-awesome-windows" rel="alternate" type="text/html"/>
   <id>https://github.com/0pandadev/awesome-windows</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of recommended apps and tools for the Windows desktop. Unlike the Microsoft Store it is curated and puts free and open-source options first.</summary>
+  <content type="html">&lt;p&gt;A list of recommended apps and tools for the Windows desktop. Unlike the Microsoft Store it is curated and puts free and open-source options first.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/0pandadev/awesome-windows&quot;&gt;https://github.com/0pandadev/awesome-windows&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Comcast</title>
-  <link href="https://github.com/tylertreat/Comcast"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#github-com-tylertreat-comcast" rel="alternate" type="text/html"/>
   <id>https://github.com/tylertreat/Comcast</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Injects network latency and packet loss to test how software copes under bad conditions. Instead of hand-writing tc/netem and iptables commands, it produces the same effect with one command.</summary>
+  <content type="html">&lt;p&gt;Injects network latency and packet loss to test how software copes under bad conditions. Instead of hand-writing tc/netem and iptables commands, it produces the same effect with one command.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/tylertreat/Comcast&quot;&gt;https://github.com/tylertreat/Comcast&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Lokinet</title>
-  <link href="https://lokinet.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#lokinet-org" rel="alternate" type="text/html"/>
   <id>https://lokinet.org/</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>A decentralised, IP-based onion-routing network that anonymises traffic across staked nodes. Unlike Tor it carries any IP protocol, not just web: a full overlay network on top of onion routing rather than a single application.</summary>
+  <content type="html">&lt;p&gt;A decentralised, IP-based onion-routing network that anonymises traffic across staked nodes. Unlike Tor it carries any IP protocol, not just web: a full overlay network on top of onion routing rather than a single application.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://lokinet.org/&quot;&gt;https://lokinet.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Check Point Eğitim</title>
-  <link href="https://training-certifications.checkpoint.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#training-certifications-checkpoint-com" rel="alternate" type="text/html"/>
   <id>https://training-certifications.checkpoint.com/</id>
   <updated>2026-08-26T20:53:20Z</updated>
-  <summary>The CCSA and CCSE certifications. What differs from other firewall vendors is that Check Point’s management architecture is its own body of knowledge — centralised policy management sits at the centre of the training.</summary>
+  <content type="html">&lt;p&gt;The CCSA and CCSE certifications. What differs from other firewall vendors is that Check Point’s management architecture is its own body of knowledge — centralised policy management sits at the centre of the training.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://training-certifications.checkpoint.com/&quot;&gt;https://training-certifications.checkpoint.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Cisco Sertifikasyon</title>
-  <link href="https://www.cisco.com/site/us/en/learn/training-certifications/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#cisco-com-site-us-en-learn-training-certifications" rel="alternate" type="text/html"/>
   <id>https://www.cisco.com/site/us/en/learn/training-certifications/</id>
   <updated>2026-08-26T20:53:20Z</updated>
-  <summary>The networking certification programme from CCNA to CCIE. Unlike vendor-neutral certificates it is specific to Cisco equipment; even so, CCNA is widely treated as a solid networking fundamentals curriculum regardless of vendor.</summary>
+  <content type="html">&lt;p&gt;The networking certification programme from CCNA to CCIE. Unlike vendor-neutral certificates it is specific to Cisco equipment; even so, CCNA is widely treated as a solid networking fundamentals curriculum regardless of vendor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.cisco.com/site/us/en/learn/training-certifications/&quot;&gt;https://www.cisco.com/site/us/en/learn/training-certifications/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Fortinet Training Institute</title>
-  <link href="https://training.fortinet.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#training-fortinet-com" rel="alternate" type="text/html"/>
   <id>https://training.fortinet.com/</id>
   <updated>2026-08-26T20:53:20Z</updated>
-  <summary>The NSE programme and security training. Against other vendor programmes most of it has been made free — the broadest no-cost resource for firewall and network security fundamentals.</summary>
+  <content type="html">&lt;p&gt;The NSE programme and security training. Against other vendor programmes most of it has been made free — the broadest no-cost resource for firewall and network security fundamentals.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://training.fortinet.com/&quot;&gt;https://training.fortinet.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Juniper Sertifikasyon</title>
-  <link href="https://www.juniper.net/us/en/training/certification/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#juniper-net-us-en-training-certification" rel="alternate" type="text/html"/>
   <id>https://www.juniper.net/us/en/training/certification/</id>
   <updated>2026-08-26T20:53:20Z</updated>
-  <summary>Junos-based networking certifications. Against Cisco’s programme the entry-level exams have long been offered free and the training material is open — the no-cost route into networking.</summary>
+  <content type="html">&lt;p&gt;Junos-based networking certifications. Against Cisco’s programme the entry-level exams have long been offered free and the training material is open — the no-cost route into networking.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.juniper.net/us/en/training/certification/&quot;&gt;https://www.juniper.net/us/en/training/certification/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Linux Professional Institute</title>
-  <link href="https://www.lpi.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#lpi-org" rel="alternate" type="text/html"/>
   <id>https://www.lpi.org/</id>
   <updated>2026-08-26T20:53:20Z</updated>
-  <summary>Distribution-neutral Linux certifications (LPIC-1, LPIC-2). Against Red Hat’s programme it is not tied to one distribution — this is the certificate that still applies if you run Debian, SUSE or Arch.</summary>
+  <content type="html">&lt;p&gt;Distribution-neutral Linux certifications (LPIC-1, LPIC-2). Against Red Hat’s programme it is not tied to one distribution — this is the certificate that still applies if you run Debian, SUSE or Arch.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.lpi.org/&quot;&gt;https://www.lpi.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Palo Alto Networks Eğitim</title>
-  <link href="https://www.paloaltonetworks.com/services/education"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/ag.html#paloaltonetworks-com-services-education" rel="alternate" type="text/html"/>
   <id>https://www.paloaltonetworks.com/services/education</id>
   <updated>2026-08-26T20:53:20Z</updated>
-  <summary>PCNSA and PCNSE certifications with firewall and cloud security training. Against Fortinet it targets the upper enterprise segment — the certificate pays off directly at organisations running those products.</summary>
+  <content type="html">&lt;p&gt;PCNSA and PCNSE certifications with firewall and cloud security training. Against Fortinet it targets the upper enterprise segment — the certificate pays off directly at organisations running those products.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.paloaltonetworks.com/services/education&quot;&gt;https://www.paloaltonetworks.com/services/education&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

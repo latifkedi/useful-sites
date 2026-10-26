@@ -2,134 +2,136 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
 <title>Elektrik &amp; Elektronik — Kullanışlı Siteler</title>
 <subtitle>Yazılımdan yapay zekaya, güvenlikten ekonomiye ve mimariye on alanda elle derlenmiş, açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/elektronik.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/elektronik.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/elektronik.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/elektronik.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/elektronik.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>Awesome CircuitPython</title>
-  <link href="https://github.com/adafruit/awesome-circuitpython"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/elektronik.html#github-com-adafruit-awesome-circuitpython" rel="alternate" type="text/html"/>
   <id>https://github.com/adafruit/awesome-circuitpython</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Mikrodenetleyicilerde Python (CircuitPython) için kütüphane ve proje listesi. Genel gömülü listelerinden farkı C yerine Python’la donanım programlamaya odaklanması.</summary>
+  <content type="html">&lt;p&gt;Mikrodenetleyicilerde Python (CircuitPython) için kütüphane ve proje listesi. Genel gömülü listelerinden farkı C yerine Python’la donanım programlamaya odaklanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/adafruit/awesome-circuitpython&quot;&gt;https://github.com/adafruit/awesome-circuitpython&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Electronics</title>
-  <link href="https://github.com/kitspace/awesome-electronics"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/elektronik.html#github-com-kitspace-awesome-electronics" rel="alternate" type="text/html"/>
   <id>https://github.com/kitspace/awesome-electronics</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Elektronik mühendisleri ve hobiciler için araç, üretici ve topluluk listesi. Genel donanım listelerinden farkı PCB tasarımı, komponent tedariki ve simülasyona odaklanması.</summary>
+  <content type="html">&lt;p&gt;Elektronik mühendisleri ve hobiciler için araç, üretici ve topluluk listesi. Genel donanım listelerinden farkı PCB tasarımı, komponent tedariki ve simülasyona odaklanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/kitspace/awesome-electronics&quot;&gt;https://github.com/kitspace/awesome-electronics&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome ESP</title>
-  <link href="https://github.com/agucova/awesome-esp"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/elektronik.html#github-com-agucova-awesome-esp" rel="alternate" type="text/html"/>
   <id>https://github.com/agucova/awesome-esp</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>WiFi’li ucuz mikrodenetleyiciler ESP8266/ESP32 için kütüphane ve proje listesi. Genel gömülü listelerden farkı bu yonga ailesine ve kablosuz projelere odaklanması.</summary>
+  <content type="html">&lt;p&gt;WiFi’li ucuz mikrodenetleyiciler ESP8266/ESP32 için kütüphane ve proje listesi. Genel gömülü listelerden farkı bu yonga ailesine ve kablosuz projelere odaklanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/agucova/awesome-esp&quot;&gt;https://github.com/agucova/awesome-esp&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Adafruit</title>
-  <link href="https://www.adafruit.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/elektronik.html#adafruit-com" rel="alternate" type="text/html"/>
   <id>https://www.adafruit.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Açık kaynak donanım ve her kart için başlangıç dostu, dev bir öğrenme rehberi kütüphanesi. Sıradan elektronik mağazalarından farkı her ürünle birlikte ayrıntılı öğretici ve kütüphane gelmesi.</summary>
+  <content type="html">&lt;p&gt;Açık kaynak donanım ve her kart için başlangıç dostu, dev bir öğrenme rehberi kütüphanesi. Sıradan elektronik mağazalarından farkı her ürünle birlikte ayrıntılı öğretici ve kütüphane gelmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.adafruit.com&quot;&gt;https://www.adafruit.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Adafruit Learn</title>
-  <link href="https://learn.adafruit.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/elektronik.html#learn-adafruit-com" rel="alternate" type="text/html"/>
   <id>https://learn.adafruit.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Mikrodenetleyici, sensör ve elektronik projeleri için adım adım, resimli rehberler. Ürün sayfalarından farkı satın alınan parçayı çalışır bir projeye kadar götürmesi.</summary>
+  <content type="html">&lt;p&gt;Mikrodenetleyici, sensör ve elektronik projeleri için adım adım, resimli rehberler. Ürün sayfalarından farkı satın alınan parçayı çalışır bir projeye kadar götürmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://learn.adafruit.com/&quot;&gt;https://learn.adafruit.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>All About Circuits</title>
-  <link href="https://www.allaboutcircuits.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/elektronik.html#allaboutcircuits-com" rel="alternate" type="text/html"/>
   <id>https://www.allaboutcircuits.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Elektrik ve elektroniği temelden anlatan ücretsiz ders, hesaplayıcı ve forum. Dağınık videolardan farkı DC’den sayısal tasarıma sıralı, ders kitabı düzeninde ilerlemesi.</summary>
+  <content type="html">&lt;p&gt;Elektrik ve elektroniği temelden anlatan ücretsiz ders, hesaplayıcı ve forum. Dağınık videolardan farkı DC’den sayısal tasarıma sıralı, ders kitabı düzeninde ilerlemesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.allaboutcircuits.com/&quot;&gt;https://www.allaboutcircuits.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Basic Electronics Tutorials</title>
-  <link href="https://www.electronics-tutorials.ws"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/elektronik.html#electronics-tutorials-ws" rel="alternate" type="text/html"/>
   <id>https://www.electronics-tutorials.ws</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Elektronik temellerini — direnç, kondansatör, transistör, işlemsel yükselteç — kademeli ve formülleriyle anlatan ücretsiz öğretici arşivi. Proje sitelerinden farkı, devre kurmadan önce teoriyi sağlam kurması.</summary>
+  <content type="html">&lt;p&gt;Elektronik temellerini — direnç, kondansatör, transistör, işlemsel yükselteç — kademeli ve formülleriyle anlatan ücretsiz öğretici arşivi. Proje sitelerinden farkı, devre kurmadan önce teoriyi sağlam kurması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.electronics-tutorials.ws&quot;&gt;https://www.electronics-tutorials.ws&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Circuit Digest</title>
-  <link href="https://circuitdigest.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/elektronik.html#circuitdigest-com" rel="alternate" type="text/html"/>
   <id>https://circuitdigest.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Kodları ve şemalarıyla çalışan elektronik projeleri ve öğreticileri. Ürün kataloglarından farkı tam projeler vermesi: devre şeması, kod ve adım adım açıklama bir arada.</summary>
+  <content type="html">&lt;p&gt;Kodları ve şemalarıyla çalışan elektronik projeleri ve öğreticileri. Ürün kataloglarından farkı tam projeler vermesi: devre şeması, kod ve adım adım açıklama bir arada.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://circuitdigest.com&quot;&gt;https://circuitdigest.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>EasyEDA</title>
-  <link href="https://easyeda.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/elektronik.html#easyeda-com" rel="alternate" type="text/html"/>
   <id>https://easyeda.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Tarayıcıda çalışan PCB şema ve yerleşim tasarımı; JLCPCB parça kütüphanesine bağlı. KiCad gibi masaüstü araçlardan farkı kurulum istememesi ve üretime doğrudan bağlanması; karşılığında JLCPCB ekosistemine bağımlı.</summary>
+  <content type="html">&lt;p&gt;Tarayıcıda çalışan PCB şema ve yerleşim tasarımı; JLCPCB parça kütüphanesine bağlı. KiCad gibi masaüstü araçlardan farkı kurulum istememesi ve üretime doğrudan bağlanması; karşılığında JLCPCB ekosistemine bağımlı.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://easyeda.com&quot;&gt;https://easyeda.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Falstad Circuit Simulator</title>
-  <link href="https://www.falstad.com/circuit/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/elektronik.html#falstad-com-circuit" rel="alternate" type="text/html"/>
   <id>https://www.falstad.com/circuit/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Devreyi tarayıcıda çizip akım ve gerilimi canlı animasyonla gösteren simülatör. Statik şemalardan farkı elektronun nasıl aktığını gerçek zamanlı görmen — sezgi kurmak için.</summary>
+  <content type="html">&lt;p&gt;Devreyi tarayıcıda çizip akım ve gerilimi canlı animasyonla gösteren simülatör. Statik şemalardan farkı elektronun nasıl aktığını gerçek zamanlı görmen — sezgi kurmak için.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.falstad.com/circuit/&quot;&gt;https://www.falstad.com/circuit/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Hackaday</title>
-  <link href="https://hackaday.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/elektronik.html#hackaday-com" rel="alternate" type="text/html"/>
   <id>https://hackaday.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Donanım hack’leri ve maker projelerinin günlük yayınlandığı merkez. Proje barındıran sitelerden farkı bir haber yayını olması: başkalarının işini derleyip anlatıyor, barındırmıyor.</summary>
+  <content type="html">&lt;p&gt;Donanım hack’leri ve maker projelerinin günlük yayınlandığı merkez. Proje barındıran sitelerden farkı bir haber yayını olması: başkalarının işini derleyip anlatıyor, barındırmıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://hackaday.com&quot;&gt;https://hackaday.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Hackster.io</title>
-  <link href="https://www.hackster.io"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/elektronik.html#hackster-io" rel="alternate" type="text/html"/>
   <id>https://www.hackster.io</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Adım adım IoT ve gömülü sistem projelerinin paylaşıldığı donanım topluluğu. Hackaday’in haber odağından farkı burada projelerin tam yapım talimatlarıyla barındırılması.</summary>
+  <content type="html">&lt;p&gt;Adım adım IoT ve gömülü sistem projelerinin paylaşıldığı donanım topluluğu. Hackaday’in haber odağından farkı burada projelerin tam yapım talimatlarıyla barındırılması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.hackster.io&quot;&gt;https://www.hackster.io&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>JLCPCB</title>
-  <link href="https://jlcpcb.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/elektronik.html#jlcpcb-com" rel="alternate" type="text/html"/>
   <id>https://jlcpcb.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Düşük maliyetli, küçük partili PCB üretimi ve montaj hizmeti. PCBWay’e kıyasla fiyat odaklı ve EasyEDA ile sıkı entegre; karşılığında özel süreç ve malzeme seçenekleri daha dar.</summary>
+  <content type="html">&lt;p&gt;Düşük maliyetli, küçük partili PCB üretimi ve montaj hizmeti. PCBWay’e kıyasla fiyat odaklı ve EasyEDA ile sıkı entegre; karşılığında özel süreç ve malzeme seçenekleri daha dar.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://jlcpcb.com&quot;&gt;https://jlcpcb.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>PCBWay</title>
-  <link href="https://www.pcbway.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/elektronik.html#pcbway-com" rel="alternate" type="text/html"/>
   <id>https://www.pcbway.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>PCB prototipleme ve üretiminin yanında proje paylaşım topluluğu sunuyor. JLCPCB’ye kıyasla özel süreçler, malzeme çeşidi ve CNC/3B baskı gibi ek hizmetlerde daha geniş.</summary>
+  <content type="html">&lt;p&gt;PCB prototipleme ve üretiminin yanında proje paylaşım topluluğu sunuyor. JLCPCB’ye kıyasla özel süreçler, malzeme çeşidi ve CNC/3B baskı gibi ek hizmetlerde daha geniş.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.pcbway.com&quot;&gt;https://www.pcbway.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>SnapMagic (SnapEDA)</title>
-  <link href="https://www.snapmagic.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/elektronik.html#snapmagic-com" rel="alternate" type="text/html"/>
   <id>https://www.snapmagic.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Parçalar için hazır CAD sembol ve ayak izlerini ücretsiz sunan kütüphane; EDA araçlarına aktarılıyor. Her sembolü elle çizmekten farkı hazır ve doğrulanmış parça vermesi; SnapEDA 2024’te SnapMagic adını aldı.</summary>
+  <content type="html">&lt;p&gt;Parçalar için hazır CAD sembol ve ayak izlerini ücretsiz sunan kütüphane; EDA araçlarına aktarılıyor. Her sembolü elle çizmekten farkı hazır ve doğrulanmış parça vermesi; SnapEDA 2024’te SnapMagic adını aldı.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.snapmagic.com&quot;&gt;https://www.snapmagic.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>SparkFun</title>
-  <link href="https://www.sparkfun.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/elektronik.html#sparkfun-com" rel="alternate" type="text/html"/>
   <id>https://www.sparkfun.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Maker elektronik mağazası; her modüle bağlı proje odaklı geniş bir öğretici sistemi var. Adafruit’e benzer; farkı SparkFun’ın kendi ürün hattı (Qwiic bağlantı sistemi) etrafında bir ekosistem kurması.</summary>
+  <content type="html">&lt;p&gt;Maker elektronik mağazası; her modüle bağlı proje odaklı geniş bir öğretici sistemi var. Adafruit’e benzer; farkı SparkFun’ın kendi ürün hattı (Qwiic bağlantı sistemi) etrafında bir ekosistem kurması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.sparkfun.com&quot;&gt;https://www.sparkfun.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>SparkFun Learn</title>
-  <link href="https://learn.sparkfun.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/elektronik.html#learn-sparkfun-com" rel="alternate" type="text/html"/>
   <id>https://learn.sparkfun.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Elektronik temelleri ve gömülü projeler için öğretici kütüphanesi. Adafruit’e benzer; farkı lehim, güç ve iletişim protokolleri gibi temel kavramlara daha çok eğilmesi.</summary>
+  <content type="html">&lt;p&gt;Elektronik temelleri ve gömülü projeler için öğretici kütüphanesi. Adafruit’e benzer; farkı lehim, güç ve iletişim protokolleri gibi temel kavramlara daha çok eğilmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://learn.sparkfun.com/&quot;&gt;https://learn.sparkfun.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Tinkercad</title>
-  <link href="https://www.tinkercad.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/elektronik.html#tinkercad-com" rel="alternate" type="text/html"/>
   <id>https://www.tinkercad.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Tarayıcıda 3B tasarım ve devre/Arduino benzetimi; yeni başlayanlar için elektronik oyun alanı. Gerçek donanımdan farkı yakıp bozma riski olmadan devre kurup Arduino kodunu benzetimde çalıştırabilmen.</summary>
+  <content type="html">&lt;p&gt;Tarayıcıda 3B tasarım ve devre/Arduino benzetimi; yeni başlayanlar için elektronik oyun alanı. Gerçek donanımdan farkı yakıp bozma riski olmadan devre kurup Arduino kodunu benzetimde çalıştırabilmen.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.tinkercad.com&quot;&gt;https://www.tinkercad.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

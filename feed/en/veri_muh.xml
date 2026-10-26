@@ -2,176 +2,178 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title>Data Engineering — Useful Sites</title>
 <subtitle>A hand-curated, annotated link directory across ten areas, from software and AI to security, economics and architecture. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/en/veri_muh.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/en/veri_muh.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/veri_muh.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/veri_muh.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/veri_muh.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>Airbyte</title>
-  <link href="https://airbyte.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri_muh.html#airbyte-com" rel="alternate" type="text/html"/>
   <id>https://airbyte.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Open-source data integration (ELT) with a huge connector catalogue; self-hostable. Unlike closed services such as Fivetran it is open source, and you can write a missing connector yourself.</summary>
+  <content type="html">&lt;p&gt;Open-source data integration (ELT) with a huge connector catalogue; self-hostable. Unlike closed services such as Fivetran it is open source, and you can write a missing connector yourself.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://airbyte.com&quot;&gt;https://airbyte.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Apache Flink</title>
-  <link href="https://flink.apache.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri_muh.html#flink-apache-org" rel="alternate" type="text/html"/>
   <id>https://flink.apache.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A real-time stream-processing engine that handles events as they arrive, with low latency. Unlike Spark’s batch roots it treats streaming as the first-class model.</summary>
+  <content type="html">&lt;p&gt;A real-time stream-processing engine that handles events as they arrive, with low latency. Unlike Spark’s batch roots it treats streaming as the first-class model.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://flink.apache.org/&quot;&gt;https://flink.apache.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Apache Iceberg</title>
-  <link href="https://iceberg.apache.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri_muh.html#iceberg-apache-org" rel="alternate" type="text/html"/>
   <id>https://iceberg.apache.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An open table format for large analytical tables, giving schema evolution, time travel and atomic writes. Unlike a raw Parquet directory it manages the table as a consistent, versioned unit.</summary>
+  <content type="html">&lt;p&gt;An open table format for large analytical tables, giving schema evolution, time travel and atomic writes. Unlike a raw Parquet directory it manages the table as a consistent, versioned unit.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://iceberg.apache.org/&quot;&gt;https://iceberg.apache.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Apache Spark</title>
-  <link href="https://spark.apache.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri_muh.html#spark-apache-org" rel="alternate" type="text/html"/>
   <id>https://spark.apache.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An engine that processes big data in a distributed, in-memory way — batch and streaming. Unlike single-machine libraries it splits terabytes across a cluster and processes them in parallel.</summary>
+  <content type="html">&lt;p&gt;An engine that processes big data in a distributed, in-memory way — batch and streaming. Unlike single-machine libraries it splits terabytes across a cluster and processes them in parallel.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://spark.apache.org/&quot;&gt;https://spark.apache.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Data Engineering</title>
-  <link href="https://github.com/igorbarinov/awesome-data-engineering"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri_muh.html#github-com-igorbarinov-awesome-data-engineering" rel="alternate" type="text/html"/>
   <id>https://github.com/igorbarinov/awesome-data-engineering</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list gathering every layer of data engineering — ingestion, storage, processing, orchestration — with tools. Unlike single-tool lists it maps the whole stack.</summary>
+  <content type="html">&lt;p&gt;A list gathering every layer of data engineering — ingestion, storage, processing, orchestration — with tools. Unlike single-tool lists it maps the whole stack.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/igorbarinov/awesome-data-engineering&quot;&gt;https://github.com/igorbarinov/awesome-data-engineering&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Hadoop</title>
-  <link href="https://github.com/youngwookim/awesome-hadoop"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri_muh.html#github-com-youngwookim-awesome-hadoop" rel="alternate" type="text/html"/>
   <id>https://github.com/youngwookim/awesome-hadoop</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Hadoop, the distributed storage and processing framework. Unlike lists for in-memory engines such as Spark, it focuses on the disk-based HDFS and MapReduce ecosystem.</summary>
+  <content type="html">&lt;p&gt;A resource list for Hadoop, the distributed storage and processing framework. Unlike lists for in-memory engines such as Spark, it focuses on the disk-based HDFS and MapReduce ecosystem.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/youngwookim/awesome-hadoop&quot;&gt;https://github.com/youngwookim/awesome-hadoop&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome HPC</title>
-  <link href="https://github.com/dstdev/awesome-hpc"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri_muh.html#github-com-dstdev-awesome-hpc" rel="alternate" type="text/html"/>
   <id>https://github.com/dstdev/awesome-hpc</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of tools, libraries and resources for high-performance computing (HPC). Unlike general DevOps lists, it focuses on cluster management, job schedulers such as Slurm and parallel programming with MPI.</summary>
+  <content type="html">&lt;p&gt;A list of tools, libraries and resources for high-performance computing (HPC). Unlike general DevOps lists, it focuses on cluster management, job schedulers such as Slurm and parallel programming with MPI.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/dstdev/awesome-hpc&quot;&gt;https://github.com/dstdev/awesome-hpc&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Spark</title>
-  <link href="https://github.com/awesome-spark/awesome-spark"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri_muh.html#github-com-awesome-spark-awesome-spark" rel="alternate" type="text/html"/>
   <id>https://github.com/awesome-spark/awesome-spark</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of packages, tutorials and examples for the Apache Spark ecosystem. Unlike the official docs it gathers community libraries and real-world examples.</summary>
+  <content type="html">&lt;p&gt;A list of packages, tutorials and examples for the Apache Spark ecosystem. Unlike the official docs it gathers community libraries and real-world examples.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/awesome-spark/awesome-spark&quot;&gt;https://github.com/awesome-spark/awesome-spark&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>ClickHouse</title>
-  <link href="https://clickhouse.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri_muh.html#clickhouse-com" rel="alternate" type="text/html"/>
   <id>https://clickhouse.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A columnar OLAP database for analytics, extremely fast at aggregations at scale. Unlike row-based databases such as PostgreSQL it finishes aggregation queries over billions of rows in seconds; it is weak at single-record updates.</summary>
+  <content type="html">&lt;p&gt;A columnar OLAP database for analytics, extremely fast at aggregations at scale. Unlike row-based databases such as PostgreSQL it finishes aggregation queries over billions of rows in seconds; it is weak at single-record updates.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://clickhouse.com&quot;&gt;https://clickhouse.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Dagster</title>
-  <link href="https://dagster.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri_muh.html#dagster-io" rel="alternate" type="text/html"/>
   <id>https://dagster.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An orchestrator centred on data assets, tracking each table as an “asset”. Unlike Airflow it focuses on the data produced rather than the task, with data quality built in.</summary>
+  <content type="html">&lt;p&gt;An orchestrator centred on data assets, tracking each table as an “asset”. Unlike Airflow it focuses on the data produced rather than the task, with data quality built in.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://dagster.io/&quot;&gt;https://dagster.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Data Engineering Podcast</title>
-  <link href="https://www.dataengineeringpodcast.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri_muh.html#dataengineeringpodcast-com" rel="alternate" type="text/html"/>
   <id>https://www.dataengineeringpodcast.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Long-form interviews digging deep into data-engineering tools and architectures. Unlike tool docs it tells why and how a tool was actually chosen, from the people who use it.</summary>
+  <content type="html">&lt;p&gt;Long-form interviews digging deep into data-engineering tools and architectures. Unlike tool docs it tells why and how a tool was actually chosen, from the people who use it.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.dataengineeringpodcast.com&quot;&gt;https://www.dataengineeringpodcast.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>DataTalks.Club</title>
-  <link href="https://datatalks.club"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri_muh.html#datatalks-club" rel="alternate" type="text/html"/>
   <id>https://datatalks.club</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A free community offering hands-on data-engineering and ML zoomcamps. Unlike paid bootcamps it is entirely free and community-run — the camps run in cohorts on set dates.</summary>
+  <content type="html">&lt;p&gt;A free community offering hands-on data-engineering and ML zoomcamps. Unlike paid bootcamps it is entirely free and community-run — the camps run in cohorts on set dates.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://datatalks.club&quot;&gt;https://datatalks.club&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>dbt</title>
-  <link href="https://www.getdbt.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri_muh.html#getdbt-com" rel="alternate" type="text/html"/>
   <id>https://www.getdbt.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A tool managing data-warehouse transformations with SQL + version control + tests. Unlike hand-written SQL scripts it brings a dependency graph, docs and tests like a software project.</summary>
+  <content type="html">&lt;p&gt;A tool managing data-warehouse transformations with SQL + version control + tests. Unlike hand-written SQL scripts it brings a dependency graph, docs and tests like a software project.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.getdbt.com/&quot;&gt;https://www.getdbt.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Delta Lake</title>
-  <link href="https://delta.io"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri_muh.html#delta-io" rel="alternate" type="text/html"/>
   <id>https://delta.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An open storage layer bringing ACID transactions and time travel to data lakes. Unlike plain Parquet files it adds transactional safety and version history, so the lake behaves reliably like a table.</summary>
+  <content type="html">&lt;p&gt;An open storage layer bringing ACID transactions and time travel to data lakes. Unlike plain Parquet files it adds transactional safety and version history, so the lake behaves reliably like a table.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://delta.io&quot;&gt;https://delta.io&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>DuckDB</title>
-  <link href="https://duckdb.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri_muh.html#duckdb-org" rel="alternate" type="text/html"/>
   <id>https://duckdb.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An in-process analytical database — no server, it queries files directly. Unlike server-based warehouses it is “OLAP at SQLite speed” on one machine, over Parquet/CSV.</summary>
+  <content type="html">&lt;p&gt;An in-process analytical database — no server, it queries files directly. Unlike server-based warehouses it is “OLAP at SQLite speed” on one machine, over Parquet/CSV.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://duckdb.org/&quot;&gt;https://duckdb.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Great Expectations</title>
-  <link href="https://greatexpectations.io"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri_muh.html#greatexpectations-io" rel="alternate" type="text/html"/>
   <id>https://greatexpectations.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A data-quality framework that validates and documents data with declarative expectations. Unlike hand-written validation scripts it turns rules into data documentation and embeds tests inside the pipeline.</summary>
+  <content type="html">&lt;p&gt;A data-quality framework that validates and documents data with declarative expectations. Unlike hand-written validation scripts it turns rules into data documentation and embeds tests inside the pipeline.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://greatexpectations.io&quot;&gt;https://greatexpectations.io&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Hamilton</title>
-  <link href="https://github.com/dagworks-inc/hamilton"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri_muh.html#github-com-dagworks-inc-hamilton" rel="alternate" type="text/html"/>
   <id>https://github.com/dagworks-inc/hamilton</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A lightweight Python library that builds data transformations as a graph from functions. Unlike heavy orchestrators it gives a dependency graph in a single file with no infrastructure.</summary>
+  <content type="html">&lt;p&gt;A lightweight Python library that builds data transformations as a graph from functions. Unlike heavy orchestrators it gives a dependency graph in a single file with no infrastructure.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/dagworks-inc/hamilton&quot;&gt;https://github.com/dagworks-inc/hamilton&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Meltano</title>
-  <link href="https://meltano.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri_muh.html#meltano-com" rel="alternate" type="text/html"/>
   <id>https://meltano.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An open-source DataOps ELT platform, Singer-based and CLI/config-driven. Unlike Airbyte’s UI-first approach everything is defined in text config that lives in version control — you manage the pipeline like code.</summary>
+  <content type="html">&lt;p&gt;An open-source DataOps ELT platform, Singer-based and CLI/config-driven. Unlike Airbyte’s UI-first approach everything is defined in text config that lives in version control — you manage the pipeline like code.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://meltano.com&quot;&gt;https://meltano.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Spark Internals</title>
-  <link href="https://github.com/JerryLead/SparkInternals"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri_muh.html#github-com-jerrylead-sparkinternals" rel="alternate" type="text/html"/>
   <id>https://github.com/JerryLead/SparkInternals</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A deep document on how Apache Spark works inside — scheduling, shuffle, memory. Unlike a usage guide it opens up the engine, for performance tuning.</summary>
+  <content type="html">&lt;p&gt;A deep document on how Apache Spark works inside — scheduling, shuffle, memory. Unlike a usage guide it opens up the engine, for performance tuning.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/JerryLead/SparkInternals&quot;&gt;https://github.com/JerryLead/SparkInternals&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Trino</title>
-  <link href="https://trino.io"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri_muh.html#trino-io" rel="alternate" type="text/html"/>
   <id>https://trino.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A distributed SQL query engine that queries data where it lives, across many sources. Unlike classic databases it does not move the data to itself — you can query S3, PostgreSQL and Kafka together in one query.</summary>
+  <content type="html">&lt;p&gt;A distributed SQL query engine that queries data where it lives, across many sources. Unlike classic databases it does not move the data to itself — you can query S3, PostgreSQL and Kafka together in one query.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://trino.io&quot;&gt;https://trino.io&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Data Engineering Zoomcamp</title>
-  <link href="https://github.com/DataTalksClub/data-engineering-zoomcamp"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri_muh.html#github-com-datatalksclub-data-engineering-zoomcamp" rel="alternate" type="text/html"/>
   <id>https://github.com/DataTalksClub/data-engineering-zoomcamp</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A free, project-based course teaching data engineering end to end (Docker, dbt, Spark, Kafka, cloud). Unlike scattered tutorials it has you build a real pipeline from start to finish.</summary>
+  <content type="html">&lt;p&gt;A free, project-based course teaching data engineering end to end (Docker, dbt, Spark, Kafka, cloud). Unlike scattered tutorials it has you build a real pipeline from start to finish.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/DataTalksClub/data-engineering-zoomcamp&quot;&gt;https://github.com/DataTalksClub/data-engineering-zoomcamp&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Microsoft · Data Engineer Path</title>
-  <link href="https://learn.microsoft.com/en-us/training/career-paths/data-engineer"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri_muh.html#learn-microsoft-com-en-us-training-career-paths-data-engineer" rel="alternate" type="text/html"/>
   <id>https://learn.microsoft.com/en-us/training/career-paths/data-engineer</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A Microsoft learning path teaching cloud data engineering module by module. Unlike product docs it is framed as an ordered, exam-measured skill path.</summary>
+  <content type="html">&lt;p&gt;A Microsoft learning path teaching cloud data engineering module by module. Unlike product docs it is framed as an ordered, exam-measured skill path.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://learn.microsoft.com/en-us/training/career-paths/data-engineer&quot;&gt;https://learn.microsoft.com/en-us/training/career-paths/data-engineer&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Databricks</title>
-  <link href="https://www.databricks.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri_muh.html#databricks-com" rel="alternate" type="text/html"/>
   <id>https://www.databricks.com/</id>
   <updated>2026-07-26T15:42:56Z</updated>
-  <summary>A cloud platform built on Spark that merges the data lake and warehouse (“lakehouse”). Unlike running a separate warehouse and lake it unites them under one governance and notebook interface.</summary>
+  <content type="html">&lt;p&gt;A cloud platform built on Spark that merges the data lake and warehouse (“lakehouse”). Unlike running a separate warehouse and lake it unites them under one governance and notebook interface.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.databricks.com/&quot;&gt;https://www.databricks.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Apache Kafka</title>
-  <link href="https://kafka.apache.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri_muh.html#kafka-apache-org" rel="alternate" type="text/html"/>
   <id>https://kafka.apache.org/</id>
   <updated>2026-04-20T13:01:27Z</updated>
-  <summary>Retains messages after consumption, with consumers carrying their own offsets so they can replay history. The real split from classic queues (RabbitMQ) is that durability and replay.</summary>
+  <content type="html">&lt;p&gt;Retains messages after consumption, with consumers carrying their own offsets so they can replay history. The real split from classic queues (RabbitMQ) is that durability and replay.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://kafka.apache.org/&quot;&gt;https://kafka.apache.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

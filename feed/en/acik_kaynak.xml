@@ -2,127 +2,129 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title>Open Source &amp; Contributing — Useful Sites</title>
 <subtitle>A hand-curated, annotated link directory across ten areas, from software and AI to security, economics and architecture. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/en/acik_kaynak.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/en/acik_kaynak.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/acik_kaynak.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/acik_kaynak.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/acik_kaynak.xml</id>
 <updated>2026-10-09T09:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>PyLadies</title>
-  <link href="https://pyladies.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_kaynak.html#pyladies-com" rel="alternate" type="text/html"/>
   <id>https://pyladies.com/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>An international mentorship community for women and gender-diverse people who use Python, with local chapters. Unlike general user groups it focuses on a safe place to learn for that audience.</summary>
+  <content type="html">&lt;p&gt;An international mentorship community for women and gender-diverse people who use Python, with local chapters. Unlike general user groups it focuses on a safe place to learn for that audience.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://pyladies.com/&quot;&gt;https://pyladies.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Free Software</title>
-  <link href="https://github.com/johnjago/awesome-free-software"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_kaynak.html#github-com-johnjago-awesome-free-software" rel="alternate" type="text/html"/>
   <id>https://github.com/johnjago/awesome-free-software</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of free software (as in freedom) projects and resources. Unlike open-source lists, its criterion is user freedom (the FSF definition) rather than merely open source code.</summary>
+  <content type="html">&lt;p&gt;A list of free software (as in freedom) projects and resources. Unlike open-source lists, its criterion is user freedom (the FSF definition) rather than merely open source code.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/johnjago/awesome-free-software&quot;&gt;https://github.com/johnjago/awesome-free-software&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CodeTriage</title>
-  <link href="https://www.codetriage.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_kaynak.html#codetriage-com" rel="alternate" type="text/html"/>
   <id>https://www.codetriage.com</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Sends you one open issue a day from projects you follow, for people who want to contribute. Against scanning &quot;good first issue&quot; labels the difference is regularity and small doses — which is what turns contribution into a habit.</summary>
+  <content type="html">&lt;p&gt;Sends you one open issue a day from projects you follow, for people who want to contribute. Against scanning &amp;quot;good first issue&amp;quot; labels the difference is regularity and small doses — which is what turns contribution into a habit.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.codetriage.com&quot;&gt;https://www.codetriage.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Open Source Guides</title>
-  <link href="https://opensource.guide/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_kaynak.html#opensource-guide" rel="alternate" type="text/html"/>
   <id>https://opensource.guide/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>GitHub’s guides to open source: starting a project, taking contributions, running a community, handling burnout. Unlike licence or tooling guides it deals with the social side — the sustainability of the project rather than the code.</summary>
+  <content type="html">&lt;p&gt;GitHub’s guides to open source: starting a project, taking contributions, running a community, handling burnout. Unlike licence or tooling guides it deals with the social side — the sustainability of the project rather than the code.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://opensource.guide/&quot;&gt;https://opensource.guide/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OSS Gallery</title>
-  <link href="https://oss.gallery/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_kaynak.html#oss-gallery" rel="alternate" type="text/html"/>
   <id>https://oss.gallery/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A crowdsourced showcase of open-source projects, each with a live demo and repository link. Against awesome lists it is visual — you see what a thing does before reading about it.</summary>
+  <content type="html">&lt;p&gt;A crowdsourced showcase of open-source projects, each with a live demo and repository link. Against awesome lists it is visual — you see what a thing does before reading about it.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://oss.gallery/&quot;&gt;https://oss.gallery/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Shields.io</title>
-  <link href="https://shields.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_kaynak.html#shields-io" rel="alternate" type="text/html"/>
   <id>https://shields.io/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Generates README badges: build status, version, downloads, licence. Against hand-made SVGs they bind to live data — the badge fetches the npm version or CI status itself.</summary>
+  <content type="html">&lt;p&gt;Generates README badges: build status, version, downloads, licence. Against hand-made SVGs they bind to live data — the badge fetches the npm version or CI status itself.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://shields.io/&quot;&gt;https://shields.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome for Beginners</title>
-  <link href="https://github.com/mungell/awesome-for-beginners"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_kaynak.html#github-com-mungell-awesome-for-beginners" rel="alternate" type="text/html"/>
   <id>https://github.com/mungell/awesome-for-beginners</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A list of repositories with beginner-friendly issues, organised by programming language. Against Up For Grabs the split by language is the difference — finding a project in a language you know is straightforward.</summary>
+  <content type="html">&lt;p&gt;A list of repositories with beginner-friendly issues, organised by programming language. Against Up For Grabs the split by language is the difference — finding a project in a language you know is straightforward.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/mungell/awesome-for-beginners&quot;&gt;https://github.com/mungell/awesome-for-beginners&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>First Timers Only</title>
-  <link href="https://www.firsttimersonly.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_kaynak.html#firsttimersonly-com" rel="alternate" type="text/html"/>
   <id>https://www.firsttimersonly.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An introduction for people making their first open-source contribution, aimed squarely at reducing the fear. Unlike contribution guides it addresses the psychological barrier rather than the technical one.</summary>
+  <content type="html">&lt;p&gt;An introduction for people making their first open-source contribution, aimed squarely at reducing the fear. Unlike contribution guides it addresses the psychological barrier rather than the technical one.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.firsttimersonly.com&quot;&gt;https://www.firsttimersonly.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Gitcoin</title>
-  <link href="https://gitcoin.co"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_kaynak.html#gitcoin-co" rel="alternate" type="text/html"/>
   <id>https://gitcoin.co</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A platform for placing bounties on open-source work and raising funds, born in the Ethereum ecosystem. Against a donate button it rewards the work: money can be attached to a specific issue.</summary>
+  <content type="html">&lt;p&gt;A platform for placing bounties on open-source work and raising funds, born in the Ethereum ecosystem. Against a donate button it rewards the work: money can be attached to a specific issue.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://gitcoin.co&quot;&gt;https://gitcoin.co&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Google Open Source</title>
-  <link href="https://opensource.google/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_kaynak.html#opensource-google" rel="alternate" type="text/html"/>
   <id>https://opensource.google/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The hub for Google’s open-source projects, policies and programmes. Against browsing the repositories one by one, the corporate policy is published too — a look at how a large company runs open source.</summary>
+  <content type="html">&lt;p&gt;The hub for Google’s open-source projects, policies and programmes. Against browsing the repositories one by one, the corporate policy is published too — a look at how a large company runs open source.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://opensource.google/&quot;&gt;https://opensource.google/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Google Summer of Code</title>
-  <link href="https://summerofcode.withgoogle.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_kaynak.html#summerofcode-withgoogle-com" rel="alternate" type="text/html"/>
   <id>https://summerofcode.withgoogle.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An annual programme that pairs students with open-source projects and pays them. Against an internship the output is public — the work sits on your résumé as a link.</summary>
+  <content type="html">&lt;p&gt;An annual programme that pairs students with open-source projects and pays them. Against an internship the output is public — the work sits on your résumé as a link.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://summerofcode.withgoogle.com&quot;&gt;https://summerofcode.withgoogle.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Launchpad</title>
-  <link href="https://launchpad.net"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_kaynak.html#launchpad-net" rel="alternate" type="text/html"/>
   <id>https://launchpad.net</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Canonical’s project hosting and bug tracker — where Ubuntu package bug reports live. Unlike GitHub it is tied to the Ubuntu ecosystem, hosting Bazaar and PPA package repositories.</summary>
+  <content type="html">&lt;p&gt;Canonical’s project hosting and bug tracker — where Ubuntu package bug reports live. Unlike GitHub it is tied to the Ubuntu ecosystem, hosting Bazaar and PPA package repositories.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://launchpad.net&quot;&gt;https://launchpad.net&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>MLH Fellowship</title>
-  <link href="https://fellowship.mlh.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_kaynak.html#fellowship-mlh-io" rel="alternate" type="text/html"/>
   <id>https://fellowship.mlh.io/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A funded remote programme where you contribute to open source in a team. Against Google Summer of Code the teamwork and mentorship are structured — you work with a group rather than alone.</summary>
+  <content type="html">&lt;p&gt;A funded remote programme where you contribute to open source in a team. Against Google Summer of Code the teamwork and mentorship are structured — you work with a group rather than alone.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://fellowship.mlh.io/&quot;&gt;https://fellowship.mlh.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Opensource.com</title>
-  <link href="https://opensource.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_kaynak.html#opensource-com" rel="alternate" type="text/html"/>
   <id>https://opensource.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An archive of writing on open-source culture, tooling and governance, supported by Red Hat. Against technical blogs it goes into licensing, community and institutional adoption.</summary>
+  <content type="html">&lt;p&gt;An archive of writing on open-source culture, tooling and governance, supported by Red Hat. Against technical blogs it goes into licensing, community and institutional adoption.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://opensource.com&quot;&gt;https://opensource.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>SourceForge</title>
-  <link href="https://sourceforge.net"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_kaynak.html#sourceforge-net" rel="alternate" type="text/html"/>
   <id>https://sourceforge.net</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The older distribution platform for open-source projects and an archive of the pre-GitHub era. Unlike GitHub it holds long-established and abandoned projects — still where some old software survives.</summary>
+  <content type="html">&lt;p&gt;The older distribution platform for open-source projects and an archive of the pre-GitHub era. Unlike GitHub it holds long-established and abandoned projects — still where some old software survives.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://sourceforge.net&quot;&gt;https://sourceforge.net&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Sourcegraph</title>
-  <link href="https://sourcegraph.com/search"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_kaynak.html#sourcegraph-com-search" rel="alternate" type="text/html"/>
   <id>https://sourcegraph.com/search</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Code search across open-source repositories, with regular expressions and structural queries. Against GitHub search it spans the ecosystem rather than one repository — the way to see how an API is actually called in the wild.</summary>
+  <content type="html">&lt;p&gt;Code search across open-source repositories, with regular expressions and structural queries. Against GitHub search it spans the ecosystem rather than one repository — the way to see how an API is actually called in the wild.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://sourcegraph.com/search&quot;&gt;https://sourcegraph.com/search&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Up For Grabs</title>
-  <link href="https://up-for-grabs.net"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_kaynak.html#up-for-grabs-net" rel="alternate" type="text/html"/>
   <id>https://up-for-grabs.net</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Lists projects that set aside issues for new contributors. Against searching labels on GitHub the projects here opted in — whoever opened the issue is already waiting for someone to take it.</summary>
+  <content type="html">&lt;p&gt;Lists projects that set aside issues for new contributors. Against searching labels on GitHub the projects here opted in — whoever opened the issue is already waiting for someone to take it.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://up-for-grabs.net&quot;&gt;https://up-for-grabs.net&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

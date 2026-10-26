@@ -2,288 +2,290 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title>Privacy &amp; Personal Security — Useful Sites</title>
 <subtitle>A hand-curated, annotated link directory across ten areas, from software and AI to security, economics and architecture. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/en/guvenlik.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/guvenlik.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/guvenlik.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>BrowserLeaks</title>
-  <link href="https://browserleaks.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#browserleaks-com" rel="alternate" type="text/html"/>
   <id>https://browserleaks.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A suite of tests, one tab each, showing what your browser leaks (IP/WebRTC, canvas and font fingerprints, JavaScript, geolocation, client hints). Cover Your Tracks gives one uniqueness score; BrowserLeaks dumps the raw output of each API separately.</summary>
+  <content type="html">&lt;p&gt;A suite of tests, one tab each, showing what your browser leaks (IP/WebRTC, canvas and font fingerprints, JavaScript, geolocation, client hints). Cover Your Tracks gives one uniqueness score; BrowserLeaks dumps the raw output of each API separately.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://browserleaks.com/&quot;&gt;https://browserleaks.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Digital Defense (Personal Security Checklist)</title>
-  <link href="https://digital-defense.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#digital-defense-io" rel="alternate" type="text/html"/>
   <id>https://digital-defense.io/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A categorised personal digital-security checklist of 300+ items, each with recommended tools and settings. Rather than reviewing one tool it covers the whole set of habits, from passwords to messaging, as an open-source audit list.</summary>
+  <content type="html">&lt;p&gt;A categorised personal digital-security checklist of 300+ items, each with recommended tools and settings. Rather than reviewing one tool it covers the whole set of habits, from passwords to messaging, as an open-source audit list.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://digital-defense.io/&quot;&gt;https://digital-defense.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>GnuPG</title>
-  <link href="https://www.gnupg.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#gnupg-org" rel="alternate" type="text/html"/>
   <id>https://www.gnupg.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>The free implementation of the OpenPGP standard, a command-line tool for encrypting, signing and key management. Unlike modern alternatives such as age or minisign, it is the one embedded in email and package signing, at the cost of a more complex interface.</summary>
+  <content type="html">&lt;p&gt;The free implementation of the OpenPGP standard, a command-line tool for encrypting, signing and key management. Unlike modern alternatives such as age or minisign, it is the one embedded in email and package signing, at the cost of a more complex interface.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.gnupg.org/&quot;&gt;https://www.gnupg.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>KVKK — Kişisel Verileri Koruma Kurumu</title>
-  <link href="https://www.kvkk.gov.tr/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#kvkk-gov-tr" rel="alternate" type="text/html"/>
   <id>https://www.kvkk.gov.tr/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Turkey’s data-protection authority: Law No. 6698, Board decisions, guidance and the data-breach notifications it publishes. Unlike guides to privacy tools it is the regulator itself, where you see what companies are obliged to do and which breaches were reported.</summary>
+  <content type="html">&lt;p&gt;Turkey’s data-protection authority: Law No. 6698, Board decisions, guidance and the data-breach notifications it publishes. Unlike guides to privacy tools it is the regulator itself, where you see what companies are obliged to do and which breaches were reported.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.kvkk.gov.tr/&quot;&gt;https://www.kvkk.gov.tr/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>macOS Security and Privacy Guide</title>
-  <link href="https://github.com/drduh/macOS-Security-and-Privacy-Guide"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#github-com-drduh-macos-security-and-privacy-guide" rel="alternate" type="text/html"/>
   <id>https://github.com/drduh/macOS-Security-and-Privacy-Guide</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A community guide to hardening macOS step by step: FileVault, firewall, DNS, VPN and app permissions. Unlike general privacy lists it gives detailed commands and settings for one operating system.</summary>
+  <content type="html">&lt;p&gt;A community guide to hardening macOS step by step: FileVault, firewall, DNS, VPN and app permissions. Unlike general privacy lists it gives detailed commands and settings for one operating system.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/drduh/macOS-Security-and-Privacy-Guide&quot;&gt;https://github.com/drduh/macOS-Security-and-Privacy-Guide&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>PRISM Break</title>
-  <link href="https://prism-break.org/en/all/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#prism-break-org-en-all" rel="alternate" type="text/html"/>
   <id>https://prism-break.org/en/all/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A catalogue of free, privacy-respecting alternatives to surveillance-prone services, organised by platform and category. Unlike general software-alternative sites, its only criteria are privacy and open source.</summary>
+  <content type="html">&lt;p&gt;A catalogue of free, privacy-respecting alternatives to surveillance-prone services, organised by platform and category. Unlike general software-alternative sites, its only criteria are privacy and open source.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://prism-break.org/en/all/&quot;&gt;https://prism-break.org/en/all/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>security.txt</title>
-  <link href="https://securitytxt.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#securitytxt-org" rel="alternate" type="text/html"/>
   <id>https://securitytxt.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A form that generates the /.well-known/security.txt file (RFC 9116) telling security researchers where to report a vulnerability, plus an explanation of the standard. Fill in contact, encryption key and policy fields and download the file directly. Instead of writing the file by hand, you fill in fields and get one that follows the standard.</summary>
+  <content type="html">&lt;p&gt;A form that generates the /.well-known/security.txt file (RFC 9116) telling security researchers where to report a vulnerability, plus an explanation of the standard. Fill in contact, encryption key and policy fields and download the file directly. Instead of writing the file by hand, you fill in fields and get one that follows the standard.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://securitytxt.org/&quot;&gt;https://securitytxt.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Surveillance Self-Defense</title>
-  <link href="https://ssd.eff.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#ssd-eff-org" rel="alternate" type="text/html"/>
   <id>https://ssd.eff.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>The Electronic Frontier Foundation's guide to protecting communications and devices against surveillance, from building a threat model to encrypted messaging, as step-by-step guides. Unlike tool lists it first makes you ask who you are protecting against.</summary>
+  <content type="html">&lt;p&gt;The Electronic Frontier Foundation's guide to protecting communications and devices against surveillance, from building a threat model to encrypted messaging, as step-by-step guides. Unlike tool lists it first makes you ask who you are protecting against.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://ssd.eff.org/&quot;&gt;https://ssd.eff.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>WhoTracks.me</title>
-  <link href="https://www.ghostery.com/whotracksme"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#ghostery-com-whotracksme" rel="alternate" type="text/html"/>
   <id>https://www.ghostery.com/whotracksme</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Ghostery's monthly measurements of how widespread tracking is across websites and tracker companies; you can look up which trackers run on which site. Unlike an extension dashboard it is a long-running measurement archive whose raw data can be downloaded as open data.</summary>
+  <content type="html">&lt;p&gt;Ghostery's monthly measurements of how widespread tracking is across websites and tracker companies; you can look up which trackers run on which site. Unlike an extension dashboard it is a long-running measurement archive whose raw data can be downloaded as open data.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.ghostery.com/whotracksme&quot;&gt;https://www.ghostery.com/whotracksme&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>KeePass</title>
-  <link href="https://keepass.info/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#keepass-info" rel="alternate" type="text/html"/>
   <id>https://keepass.info/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An open-source password manager that keeps passwords in a locally encrypted vault. Unlike Bitwarden there is no cloud — the vault file is yours and you set up sync yourself; cross-platform forks such as KeePassXC exist.</summary>
+  <content type="html">&lt;p&gt;An open-source password manager that keeps passwords in a locally encrypted vault. Unlike Bitwarden there is no cloud — the vault file is yours and you set up sync yourself; cross-platform forks such as KeePassXC exist.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://keepass.info/&quot;&gt;https://keepass.info/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Malwarebytes</title>
-  <link href="https://www.malwarebytes.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#malwarebytes-com" rel="alternate" type="text/html"/>
   <id>https://www.malwarebytes.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Anti-malware software that detects and removes malicious software. Compared with Windows Defender it is mostly used as a second opinion, strong at catching the adware and unwanted programs Defender misses.</summary>
+  <content type="html">&lt;p&gt;Anti-malware software that detects and removes malicious software. Compared with Windows Defender it is mostly used as a second opinion, strong at catching the adware and unwanted programs Defender misses.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.malwarebytes.com/&quot;&gt;https://www.malwarebytes.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OpenVPN</title>
-  <link href="https://openvpn.net/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#openvpn-net" rel="alternate" type="text/html"/>
   <id>https://openvpn.net/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A flexible, open-source VPN protocol and software built on TLS, running on almost every platform. Unlike WireGuard it wins on maturity and configurability; the trade-off is a much larger codebase and usually lower speed.</summary>
+  <content type="html">&lt;p&gt;A flexible, open-source VPN protocol and software built on TLS, running on almost every platform. Unlike WireGuard it wins on maturity and configurability; the trade-off is a much larger codebase and usually lower speed.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://openvpn.net/&quot;&gt;https://openvpn.net/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Tor</title>
-  <link href="https://www.torproject.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#torproject-org" rel="alternate" type="text/html"/>
   <id>https://www.torproject.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A free network and browser that anonymises traffic across volunteer nodes. Unlike a VPN it splits trust across three separate relays rather than one provider; the price is a noticeably slower connection.</summary>
+  <content type="html">&lt;p&gt;A free network and browser that anonymises traffic across volunteer nodes. Unlike a VPN it splits trust across three separate relays rather than one provider; the price is a noticeably slower connection.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.torproject.org/&quot;&gt;https://www.torproject.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>uBlock Origin</title>
-  <link href="https://github.com/gorhill/uBlock"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#github-com-gorhill-ublock" rel="alternate" type="text/html"/>
   <id>https://github.com/gorhill/uBlock</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An efficient, lightweight ad and tracker blocker. Unlike other blockers it combines low memory use with fine-grained filter control; because of Manifest V3 the full version no longer runs in Chrome — it lives on in Firefox, with uBO Lite for Chrome.</summary>
+  <content type="html">&lt;p&gt;An efficient, lightweight ad and tracker blocker. Unlike other blockers it combines low memory use with fine-grained filter control; because of Manifest V3 the full version no longer runs in Chrome — it lives on in Firefox, with uBO Lite for Chrome.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/gorhill/uBlock&quot;&gt;https://github.com/gorhill/uBlock&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Windows 10 Gizlilik Rehberi</title>
-  <link href="https://github.com/adolfintel/Windows10-Privacy"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#github-com-adolfintel-windows10-privacy" rel="alternate" type="text/html"/>
   <id>https://github.com/adolfintel/Windows10-Privacy</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A detailed privacy guide to reducing data collection in Windows 10 step by step; the repository was archived in 2019, and Windows 10 itself left support in October 2025. Unlike one-click “privacy tools” it explains what each step does, but it is not current for Windows 11.</summary>
+  <content type="html">&lt;p&gt;A detailed privacy guide to reducing data collection in Windows 10 step by step; the repository was archived in 2019, and Windows 10 itself left support in October 2025. Unlike one-click “privacy tools” it explains what each step does, but it is not current for Windows 11.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/adolfintel/Windows10-Privacy&quot;&gt;https://github.com/adolfintel/Windows10-Privacy&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Citizen Lab Test Lists</title>
-  <link href="https://github.com/citizenlab/test-lists"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#github-com-citizenlab-test-lists" rel="alternate" type="text/html"/>
   <id>https://github.com/citizenlab/test-lists</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>Country-by-country URL lists used to measure censorship — the sites to test for blocking. Unlike general domain lists their purpose is censorship detection: the source that measurement projects like OONI draw on to map which sites are blocked where.</summary>
+  <content type="html">&lt;p&gt;Country-by-country URL lists used to measure censorship — the sites to test for blocking. Unlike general domain lists their purpose is censorship detection: the source that measurement projects like OONI draw on to map which sites are blocked where.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/citizenlab/test-lists&quot;&gt;https://github.com/citizenlab/test-lists&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>DandelionSprout Filters</title>
-  <link href="https://github.com/DandelionSprout/adfilt"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#github-com-dandelionsprout-adfilt" rel="alternate" type="text/html"/>
   <id>https://github.com/DandelionSprout/adfilt</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>Hand-maintained ad/tracker filter lists for uBlock Origin and similar blockers, including a Nordic list. Unlike the default EasyList its coverage is regional and niche: it targets the local sites and special cases the main lists skip.</summary>
+  <content type="html">&lt;p&gt;Hand-maintained ad/tracker filter lists for uBlock Origin and similar blockers, including a Nordic list. Unlike the default EasyList its coverage is regional and niche: it targets the local sites and special cases the main lists skip.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/DandelionSprout/adfilt&quot;&gt;https://github.com/DandelionSprout/adfilt&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>AccountKiller</title>
-  <link href="https://www.accountkiller.com/en/home"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#accountkiller-com-en-home" rel="alternate" type="text/html"/>
   <id>https://www.accountkiller.com/en/home</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A directory of account removal instructions that also covers how to neutralise an account where no deletion path exists. That is the difference from JustDeleteMe: a plan B for the accounts you cannot delete.</summary>
+  <content type="html">&lt;p&gt;A directory of account removal instructions that also covers how to neutralise an account where no deletion path exists. That is the difference from JustDeleteMe: a plan B for the accounts you cannot delete.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.accountkiller.com/en/home&quot;&gt;https://www.accountkiller.com/en/home&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>AdBlock Tester</title>
-  <link href="https://adblock-tester.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#adblock-tester-com" rel="alternate" type="text/html"/>
   <id>https://adblock-tester.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Scores how much your ad blocker actually stops, broken out by ads, trackers, social buttons and cookie notices. Unlike a simple &quot;is it working&quot; check it shows the gaps by category, which tells you which filter list you are missing.</summary>
+  <content type="html">&lt;p&gt;Scores how much your ad blocker actually stops, broken out by ads, trackers, social buttons and cookie notices. Unlike a simple &amp;quot;is it working&amp;quot; check it shows the gaps by category, which tells you which filter list you are missing.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://adblock-tester.com/&quot;&gt;https://adblock-tester.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Cover Your Tracks</title>
-  <link href="https://coveryourtracks.eff.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#coveryourtracks-eff-org" rel="alternate" type="text/html"/>
   <id>https://coveryourtracks.eff.org/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>The EFF’s browser fingerprinting test, measuring how unique your browser looks and how well it resists trackers. Unlike the &quot;what is my IP&quot; sites it computes fingerprint entropy, which is how tracking actually works now.</summary>
+  <content type="html">&lt;p&gt;The EFF’s browser fingerprinting test, measuring how unique your browser looks and how well it resists trackers. Unlike the &amp;quot;what is my IP&amp;quot; sites it computes fingerprint entropy, which is how tracking actually works now.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://coveryourtracks.eff.org/&quot;&gt;https://coveryourtracks.eff.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>DeGoogle</title>
-  <link href="https://degoogle.jmoore.dev/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#degoogle-jmoore-dev" rel="alternate" type="text/html"/>
   <id>https://degoogle.jmoore.dev/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A list of alternatives for each Google product, organised category by category. Unlike general alternative-finder sites it is focused on leaving one provider, working through what replaces what in order.</summary>
+  <content type="html">&lt;p&gt;A list of alternatives for each Google product, organised category by category. Unlike general alternative-finder sites it is focused on leaving one provider, working through what replaces what in order.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://degoogle.jmoore.dev/&quot;&gt;https://degoogle.jmoore.dev/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Have I Been Pwned</title>
-  <link href="https://haveibeenpwned.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#haveibeenpwned-com" rel="alternate" type="text/html"/>
   <id>https://haveibeenpwned.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Checks whether an email address or password appears in known breaches. What separates it is Troy Hunt’s transparent methodology and the k-anonymity scheme for password lookups — your password never reaches the server.</summary>
+  <content type="html">&lt;p&gt;Checks whether an email address or password appears in known breaches. What separates it is Troy Hunt’s transparent methodology and the k-anonymity scheme for password lookups — your password never reaches the server.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://haveibeenpwned.com/&quot;&gt;https://haveibeenpwned.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>How Secure Is My Password</title>
-  <link href="https://www.security.org/how-secure-is-my-password/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#security-org-how-secure-is-my-password" rel="alternate" type="text/html"/>
   <id>https://www.security.org/how-secure-is-my-password/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Estimates how long a password would take to brute-force, computed in the browser so the password is never sent. Against a strength meter it gives a concrete number, which is how you feel what adding two characters does.</summary>
+  <content type="html">&lt;p&gt;Estimates how long a password would take to brute-force, computed in the browser so the password is never sent. Against a strength meter it gives a concrete number, which is how you feel what adding two characters does.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.security.org/how-secure-is-my-password/&quot;&gt;https://www.security.org/how-secure-is-my-password/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>IPLeak</title>
-  <link href="https://ipleak.net/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#ipleak-net" rel="alternate" type="text/html"/>
   <id>https://ipleak.net/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Shows what your connection leaks: IP, DNS servers, WebRTC local addresses, DNS leakage. Unlike sites that only show your IP, it catches what still leaks with a VPN on — WebRTC can hand over your real IP, and this is where you see it.</summary>
+  <content type="html">&lt;p&gt;Shows what your connection leaks: IP, DNS servers, WebRTC local addresses, DNS leakage. Unlike sites that only show your IP, it catches what still leaks with a VPN on — WebRTC can hand over your real IP, and this is where you see it.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://ipleak.net/&quot;&gt;https://ipleak.net/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>JustDeleteMe</title>
-  <link href="https://backgroundchecks.org/justdeleteme/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#backgroundchecks-org-justdeleteme" rel="alternate" type="text/html"/>
   <id>https://backgroundchecks.org/justdeleteme/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A directory of direct links to account deletion pages, each graded by difficulty. Against searching yourself, that grading is the point: you see in advance which services made deletion deliberately hard.</summary>
+  <content type="html">&lt;p&gt;A directory of direct links to account deletion pages, each graded by difficulty. Against searching yourself, that grading is the point: you see in advance which services made deletion deliberately hard.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://backgroundchecks.org/justdeleteme/&quot;&gt;https://backgroundchecks.org/justdeleteme/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>LibRedirect</title>
-  <link href="https://libredirect.codeberg.page/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#libredirect-codeberg-page" rel="alternate" type="text/html"/>
   <id>https://libredirect.codeberg.page/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A browser extension that redirects YouTube, Twitter, Reddit and Instagram links to privacy-respecting frontends such as Invidious, Nitter and Redlib. Against hunting for a frontend yourself, it skips the dead instances and picks a working one.</summary>
+  <content type="html">&lt;p&gt;A browser extension that redirects YouTube, Twitter, Reddit and Instagram links to privacy-respecting frontends such as Invidious, Nitter and Redlib. Against hunting for a frontend yourself, it skips the dead instances and picks a working one.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://libredirect.codeberg.page/&quot;&gt;https://libredirect.codeberg.page/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>mat2</title>
-  <link href="https://github.com/jvoisin/mat2"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#github-com-jvoisin-mat2" rel="alternate" type="text/html"/>
   <id>https://github.com/jvoisin/mat2</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A tool that strips metadata from files: GPS coordinates in a photo, the author field in a PDF, the revision history in an office document. Unlike exiftool the default is removal, so you are not left reasoning about which field survived.</summary>
+  <content type="html">&lt;p&gt;A tool that strips metadata from files: GPS coordinates in a photo, the author field in a PDF, the revision history in an office document. Unlike exiftool the default is removal, so you are not left reasoning about which field survived.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/jvoisin/mat2&quot;&gt;https://github.com/jvoisin/mat2&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Mullvad VPN</title>
-  <link href="https://mullvad.net/en"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#mullvad-net-en" rel="alternate" type="text/html"/>
   <id>https://mullvad.net/en</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A Swedish VPN that asks for no email at signup — it hands you a random account number and takes cash. What separates it is that anonymity plus published independent audits, and a flat price with no long-subscription discount games.</summary>
+  <content type="html">&lt;p&gt;A Swedish VPN that asks for no email at signup — it hands you a random account number and takes cash. What separates it is that anonymity plus published independent audits, and a flat price with no long-subscription discount games.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://mullvad.net/en&quot;&gt;https://mullvad.net/en&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Privacy Guides</title>
-  <link href="https://www.privacyguides.org/en/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#privacyguides-org-en" rel="alternate" type="text/html"/>
   <id>https://www.privacyguides.org/en/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A non-profit, volunteer-run evaluation of privacy tools against stated criteria. Unlike the &quot;best VPN&quot; listicles it takes no affiliate money and publishes the conditions each recommendation must meet, so the recommendation is arguable.</summary>
+  <content type="html">&lt;p&gt;A non-profit, volunteer-run evaluation of privacy tools against stated criteria. Unlike the &amp;quot;best VPN&amp;quot; listicles it takes no affiliate money and publishes the conditions each recommendation must meet, so the recommendation is arguable.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.privacyguides.org/en/&quot;&gt;https://www.privacyguides.org/en/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>PrivateBin</title>
-  <link href="https://privatebin.info/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#privatebin-info" rel="alternate" type="text/html"/>
   <id>https://privatebin.info/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A pastebin the server cannot read: the text is encrypted in the browser and the key lives in the URL fragment, which is never sent. That zero-knowledge design and burn-after-reading are the break from pastebin.com.</summary>
+  <content type="html">&lt;p&gt;A pastebin the server cannot read: the text is encrypted in the browser and the key lives in the URL fragment, which is never sent. That zero-knowledge design and burn-after-reading are the break from pastebin.com.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://privatebin.info/&quot;&gt;https://privatebin.info/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Secure Messaging Apps Comparison</title>
-  <link href="https://www.securemessagingapps.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#securemessagingapps-com" rel="alternate" type="text/html"/>
   <id>https://www.securemessagingapps.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A table comparing messaging apps on encryption, metadata, openness and audit status. Unlike a blog comparison the criteria are fixed and applied to every app alike — a row-by-row check rather than a marketing claim.</summary>
+  <content type="html">&lt;p&gt;A table comparing messaging apps on encryption, metadata, openness and audit status. Unlike a blog comparison the criteria are fixed and applied to every app alike — a row-by-row check rather than a marketing claim.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.securemessagingapps.com/&quot;&gt;https://www.securemessagingapps.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>SimpleLogin</title>
-  <link href="https://simplelogin.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#simplelogin-io" rel="alternate" type="text/html"/>
   <id>https://simplelogin.io/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>An email aliasing service: a separate address per site, forwarded to your real inbox. Unlike Apple’s hide-my-email it is open source and self-hostable, and killing an alias both stops the spam and tells you who sold your address.</summary>
+  <content type="html">&lt;p&gt;An email aliasing service: a separate address per site, forwarded to your real inbox. Unlike Apple’s hide-my-email it is open source and self-hostable, and killing an alias both stops the spam and tells you who sold your address.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://simplelogin.io/&quot;&gt;https://simplelogin.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>SimpleX Chat</title>
-  <link href="https://simplex.chat/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#simplex-chat" rel="alternate" type="text/html"/>
   <id>https://simplex.chat/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Messaging with no notion of a user identity: no phone number, no username, not even a persistent ID. That is the break from Signal — Signal knows your number, whereas SimpleX servers never hold an identifier to correlate, so no social graph can be derived.</summary>
+  <content type="html">&lt;p&gt;Messaging with no notion of a user identity: no phone number, no username, not even a persistent ID. That is the break from Signal — Signal knows your number, whereas SimpleX servers never hold an identifier to correlate, so no social graph can be derived.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://simplex.chat/&quot;&gt;https://simplex.chat/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Tails</title>
-  <link href="https://tails.net/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#tails-net" rel="alternate" type="text/html"/>
   <id>https://tails.net/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A live Linux distribution that runs from USB and routes everything through Tor. Unlike just using Tor Browser, the whole system is amnesic: shut it down and nothing remains on disk unless you deliberately made a persistent volume.</summary>
+  <content type="html">&lt;p&gt;A live Linux distribution that runs from USB and routes everything through Tor. Unlike just using Tor Browser, the whole system is amnesic: shut it down and nothing remains on disk unless you deliberately made a persistent volume.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://tails.net/&quot;&gt;https://tails.net/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Tuta</title>
-  <link href="https://tuta.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#tuta-com" rel="alternate" type="text/html"/>
   <id>https://tuta.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>End-to-end encrypted email and calendar that encrypts the whole mailbox, subject lines and address book included. Against ProtonMail it insists on its own client rather than IMAP, and in exchange leaves less metadata exposed.</summary>
+  <content type="html">&lt;p&gt;End-to-end encrypted email and calendar that encrypts the whole mailbox, subject lines and address book included. Against ProtonMail it insists on its own client rather than IMAP, and in exchange leaves less metadata exposed.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://tuta.com/&quot;&gt;https://tuta.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Privacy.com</title>
-  <link href="https://privacy.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#privacy-com" rel="alternate" type="text/html"/>
   <id>https://privacy.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Issues single-use virtual cards with spend limits. Killing the card is a faster exit than arguing with a merchant you cannot unsubscribe from. US only.</summary>
+  <content type="html">&lt;p&gt;Issues single-use virtual cards with spend limits. Killing the card is a faster exit than arguing with a merchant you cannot unsubscribe from. US only.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://privacy.com/&quot;&gt;https://privacy.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Privnote</title>
-  <link href="https://privnote.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#privnote-com" rel="alternate" type="text/html"/>
   <id>https://privnote.com/</id>
   <updated>2026-07-28T08:48:10Z</updated>
-  <summary>A note that destroys itself after reading, with no account required. Unlike pasting into a chat it leaves no trail — practical for handing over a one-time password without leaving it in a chat log.</summary>
+  <content type="html">&lt;p&gt;A note that destroys itself after reading, with no account required. Unlike pasting into a chat it leaves no trail — practical for handing over a one-time password without leaving it in a chat log.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://privnote.com/&quot;&gt;https://privnote.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>5SIM</title>
-  <link href="https://5sim.net/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#5sim-net" rel="alternate" type="text/html"/>
   <id>https://5sim.net/</id>
   <updated>2026-07-05T21:11:44Z</updated>
-  <summary>Rents temporary numbers for SMS verification. Instead of giving your own number you sign up with a rented one; use carefully on accounts you intend to keep, as recovery becomes a problem.</summary>
+  <content type="html">&lt;p&gt;Rents temporary numbers for SMS verification. Instead of giving your own number you sign up with a rented one; use carefully on accounts you intend to keep, as recovery becomes a problem.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://5sim.net/&quot;&gt;https://5sim.net/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Silent Link</title>
-  <link href="https://silent.link/#generic_price_table"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#silent-link-generic-price-table" rel="alternate" type="text/html"/>
   <id>https://silent.link/#generic_price_table</id>
   <updated>2026-07-05T21:11:19Z</updated>
-  <summary>An eSIM data plan requiring no identity — paid in crypto, no name or document. Unlike carriers’ eSIMs the line is not tied to your identity — an anonymous way to get data abroad.</summary>
+  <content type="html">&lt;p&gt;An eSIM data plan requiring no identity — paid in crypto, no name or document. Unlike carriers’ eSIMs the line is not tied to your identity — an anonymous way to get data abroad.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://silent.link/#generic_price_table&quot;&gt;https://silent.link/#generic_price_table&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Bitwarden</title>
-  <link href="https://bitwarden.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guvenlik.html#bitwarden-com" rel="alternate" type="text/html"/>
   <id>https://bitwarden.com/</id>
   <updated>2026-07-03T12:26:39Z</updated>
-  <summary>A password manager with open source and independent audits behind it; the free tier holds unlimited passwords. Unlike closed rivals such as 1Password it is open, and Vaultwarden lets you self-host the whole thing.</summary>
+  <content type="html">&lt;p&gt;A password manager with open source and independent audits behind it; the free tier holds unlimited passwords. Unlike closed rivals such as 1Password it is open, and Vaultwarden lets you self-host the whole thing.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://bitwarden.com/&quot;&gt;https://bitwarden.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

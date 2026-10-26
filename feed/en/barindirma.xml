@@ -2,288 +2,290 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title>Self-Hosting &amp; Personal Cloud — Useful Sites</title>
 <subtitle>A hand-curated, annotated link directory across ten areas, from software and AI to security, economics and architecture. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/en/barindirma.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/barindirma.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/barindirma.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>MediaWiki</title>
-  <link href="https://www.mediawiki.org/wiki/MediaWiki"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#mediawiki-org-wiki-mediawiki" rel="alternate" type="text/html"/>
   <id>https://www.mediawiki.org/wiki/MediaWiki</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>The official home of the wiki software that runs Wikipedia, with installation, configuration, extension and API documentation. It stands out as the most widely used and mature wiki engine for people who want to run their own knowledge base.</summary>
+  <content type="html">&lt;p&gt;The official home of the wiki software that runs Wikipedia, with installation, configuration, extension and API documentation. It stands out as the most widely used and mature wiki engine for people who want to run their own knowledge base.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.mediawiki.org/wiki/MediaWiki&quot;&gt;https://www.mediawiki.org/wiki/MediaWiki&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Self-Hosting Guide</title>
-  <link href="https://github.com/mikeroyal/Self-Hosting-Guide"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#github-com-mikeroyal-self-hosting-guide" rel="alternate" type="text/html"/>
   <id>https://github.com/mikeroyal/Self-Hosting-Guide</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A large guide to hosting your own services (home and cloud), packed with software and tool links. Unlike awesome-selfhosted it covers setup and infrastructure topics, not only an app list.</summary>
+  <content type="html">&lt;p&gt;A large guide to hosting your own services (home and cloud), packed with software and tool links. Unlike awesome-selfhosted it covers setup and infrastructure topics, not only an app list.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/mikeroyal/Self-Hosting-Guide&quot;&gt;https://github.com/mikeroyal/Self-Hosting-Guide&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Spacebar</title>
-  <link href="https://spacebar.chat"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#spacebar-chat" rel="alternate" type="text/html"/>
   <id>https://spacebar.chat</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A self-hostable chat platform reimplementing Discord's backend and frontend. Unlike Matrix or Rocket.Chat, it stays compatible with Discord's own API.</summary>
+  <content type="html">&lt;p&gt;A self-hostable chat platform reimplementing Discord's backend and frontend. Unlike Matrix or Rocket.Chat, it stays compatible with Discord's own API.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://spacebar.chat&quot;&gt;https://spacebar.chat&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>YunoHost App Store</title>
-  <link href="https://apps.yunohost.org"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#apps-yunohost-org" rel="alternate" type="text/html"/>
   <id>https://apps.yunohost.org</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Catalogue of apps installable in one click on YunoHost, graded by packaging quality and upkeep. Unlike awesome-selfhosted, every listed app already has a ready YunoHost package.</summary>
+  <content type="html">&lt;p&gt;Catalogue of apps installable in one click on YunoHost, graded by packaging quality and upkeep. Unlike awesome-selfhosted, every listed app already has a ready YunoHost package.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://apps.yunohost.org&quot;&gt;https://apps.yunohost.org&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>LinkStack</title>
-  <link href="https://github.com/LinkStackOrg/LinkStack"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#github-com-linkstackorg-linkstack" rel="alternate" type="text/html"/>
   <id>https://github.com/LinkStackOrg/LinkStack</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>A self-hosted link-in-bio platform with an admin panel, written in PHP. Unlike LittleLink (a static page you edit by hand) it adds user accounts and a web editor.</summary>
+  <content type="html">&lt;p&gt;A self-hosted link-in-bio platform with an admin panel, written in PHP. Unlike LittleLink (a static page you edit by hand) it adds user accounts and a web editor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/LinkStackOrg/LinkStack&quot;&gt;https://github.com/LinkStackOrg/LinkStack&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>PythonAnywhere</title>
-  <link href="https://www.pythonanywhere.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#pythonanywhere-com" rel="alternate" type="text/html"/>
   <id>https://www.pythonanywhere.com/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>A cloud service that hosts Python apps and gives browser consoles, with a free tier. Unlike general PaaS it is built for Python only and works in the browser with no setup.</summary>
+  <content type="html">&lt;p&gt;A cloud service that hosts Python apps and gives browser consoles, with a free tier. Unlike general PaaS it is built for Python only and works in the browser with no setup.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.pythonanywhere.com/&quot;&gt;https://www.pythonanywhere.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome DigitalOcean</title>
-  <link href="https://github.com/jonleibowitz/awesome-digitalocean"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#github-com-jonleibowitz-awesome-digitalocean" rel="alternate" type="text/html"/>
   <id>https://github.com/jonleibowitz/awesome-digitalocean</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of tools and guides for the DigitalOcean cloud platform. Unlike the official docs, it gathers community-written tools, client libraries and guides.</summary>
+  <content type="html">&lt;p&gt;A list of tools and guides for the DigitalOcean cloud platform. Unlike the official docs, it gathers community-written tools, client libraries and guides.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/jonleibowitz/awesome-digitalocean&quot;&gt;https://github.com/jonleibowitz/awesome-digitalocean&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Heroku</title>
-  <link href="https://github.com/ianstormtaylor/awesome-heroku"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#github-com-ianstormtaylor-awesome-heroku" rel="alternate" type="text/html"/>
   <id>https://github.com/ianstormtaylor/awesome-heroku</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of add-ons, buildpacks and resources for the Heroku PaaS. Unlike the official Elements marketplace it is a community pick; the list is old, and since Heroku dropped its free tier in 2022 and stopped new feature work in 2026, some entries may be out of date.</summary>
+  <content type="html">&lt;p&gt;A list of add-ons, buildpacks and resources for the Heroku PaaS. Unlike the official Elements marketplace it is a community pick; the list is old, and since Heroku dropped its free tier in 2022 and stopped new feature work in 2026, some entries may be out of date.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ianstormtaylor/awesome-heroku&quot;&gt;https://github.com/ianstormtaylor/awesome-heroku&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Home Assistant</title>
-  <link href="https://github.com/frenck/awesome-home-assistant"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#github-com-frenck-awesome-home-assistant" rel="alternate" type="text/html"/>
   <id>https://github.com/frenck/awesome-home-assistant</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of add-ons, components and dashboards for Home Assistant, the open-source home automation platform. Unlike the official integrations it gathers community-made custom components and automations.</summary>
+  <content type="html">&lt;p&gt;A list of add-ons, components and dashboards for Home Assistant, the open-source home automation platform. Unlike the official integrations it gathers community-made custom components and automations.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/frenck/awesome-home-assistant&quot;&gt;https://github.com/frenck/awesome-home-assistant&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>DigitalOcean</title>
-  <link href="https://www.digitalocean.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#digitalocean-com" rel="alternate" type="text/html"/>
   <id>https://www.digitalocean.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A developer-friendly cloud server (droplet) provider with simple pricing. Compared with AWS the service range is narrow, but pricing is predictable and its documentation — the tutorial archive — is excellent.</summary>
+  <content type="html">&lt;p&gt;A developer-friendly cloud server (droplet) provider with simple pricing. Compared with AWS the service range is narrow, but pricing is predictable and its documentation — the tutorial archive — is excellent.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.digitalocean.com/&quot;&gt;https://www.digitalocean.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>DreamHost</title>
-  <link href="https://www.dreamhost.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#dreamhost-com" rel="alternate" type="text/html"/>
   <id>https://www.dreamhost.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Shared and cloud web hosting. Compared with budget providers such as Hostinger it is longer-established, with a long track record in WordPress hosting.</summary>
+  <content type="html">&lt;p&gt;Shared and cloud web hosting. Compared with budget providers such as Hostinger it is longer-established, with a long track record in WordPress hosting.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.dreamhost.com/&quot;&gt;https://www.dreamhost.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Heroku</title>
-  <link href="https://www.heroku.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#heroku-com" rel="alternate" type="text/html"/>
   <id>https://www.heroku.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A platform-as-a-service that deploys code on a git push — the pioneer of the model. Compared with newer rivals such as Render and Railway it is pricier, and it dropped its free tier in 2022, and in February 2026 Salesforce moved the platform to a “sustaining” mode with no new features.</summary>
+  <content type="html">&lt;p&gt;A platform-as-a-service that deploys code on a git push — the pioneer of the model. Compared with newer rivals such as Render and Railway it is pricier, and it dropped its free tier in 2022, and in February 2026 Salesforce moved the platform to a “sustaining” mode with no new features.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.heroku.com/&quot;&gt;https://www.heroku.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Hostinger</title>
-  <link href="https://www.hostinger.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#hostinger-com" rel="alternate" type="text/html"/>
   <id>https://www.hostinger.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Affordable shared and cloud web hosting with its own control panel (hPanel). Unlike a VPS there is no server maintenance to do; the trade-off is limited resources and configuration.</summary>
+  <content type="html">&lt;p&gt;Affordable shared and cloud web hosting with its own control panel (hPanel). Unlike a VPS there is no server maintenance to do; the trade-off is limited resources and configuration.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.hostinger.com/&quot;&gt;https://www.hostinger.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>InfinityFree</title>
-  <link href="https://infinityfree.net/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#infinityfree-net" rel="alternate" type="text/html"/>
   <id>https://infinityfree.net/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Completely free web hosting with PHP and MySQL support. Unlike paid shared hosting it costs nothing; the trade-off is a daily request limit and no SSH or email accounts.</summary>
+  <content type="html">&lt;p&gt;Completely free web hosting with PHP and MySQL support. Unlike paid shared hosting it costs nothing; the trade-off is a daily request limit and no SSH or email accounts.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://infinityfree.net/&quot;&gt;https://infinityfree.net/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>IPFS</title>
-  <link href="https://ipfs.tech/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#ipfs-tech" rel="alternate" type="text/html"/>
   <id>https://ipfs.tech/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A decentralised file system that addresses content by its hash, not its location. Unlike classic hosting the same file can come from many nodes, resistant to censorship.</summary>
+  <content type="html">&lt;p&gt;A decentralised file system that addresses content by its hash, not its location. Unlike classic hosting the same file can come from many nodes, resistant to censorship.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://ipfs.tech/&quot;&gt;https://ipfs.tech/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Jellyfin</title>
-  <link href="https://jellyfin.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#jellyfin-org" rel="alternate" type="text/html"/>
   <id>https://jellyfin.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A fully open-source, free counterpart to Plex; no feature behind a paywall. Unlike Plex it is not tied to a central account — everything stays on your server.</summary>
+  <content type="html">&lt;p&gt;A fully open-source, free counterpart to Plex; no feature behind a paywall. Unlike Plex it is not tied to a central account — everything stays on your server.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://jellyfin.org/&quot;&gt;https://jellyfin.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Kodi</title>
-  <link href="https://kodi.tv/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#kodi-tv" rel="alternate" type="text/html"/>
   <id>https://kodi.tv/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Open-source media-centre software gathering local and network media in one interface. Unlike the server model it runs directly on the device and extends through add-ons.</summary>
+  <content type="html">&lt;p&gt;Open-source media-centre software gathering local and network media in one interface. Unlike the server model it runs directly on the device and extends through add-ons.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://kodi.tv/&quot;&gt;https://kodi.tv/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Plex</title>
-  <link href="https://www.plex.tv/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#plex-tv" rel="alternate" type="text/html"/>
   <id>https://www.plex.tv/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A server that organises your own media library and streams it to any device. Unlike folder sharing it auto-fetches posters, summaries and subtitles and builds a Netflix-like interface.</summary>
+  <content type="html">&lt;p&gt;A server that organises your own media library and streams it to any device. Unlike folder sharing it auto-fetches posters, summaries and subtitles and builds a Netflix-like interface.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.plex.tv/&quot;&gt;https://www.plex.tv/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Surge</title>
-  <link href="https://surge.sh/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#surge-sh" rel="alternate" type="text/html"/>
   <id>https://surge.sh/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Free hosting that publishes static sites with a single command. Compared with Netlify there is no git integration, build pipeline or dashboard — you upload a folder from the command line, and that is it.</summary>
+  <content type="html">&lt;p&gt;Free hosting that publishes static sites with a single command. Compared with Netlify there is no git integration, build pipeline or dashboard — you upload a folder from the command line, and that is it.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://surge.sh/&quot;&gt;https://surge.sh/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Tautulli</title>
-  <link href="https://tautulli.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#tautulli-com" rel="alternate" type="text/html"/>
   <id>https://tautulli.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A tool that monitors and reports plays and users on your Plex server. Unlike Plex’s own stats it offers detailed history, notifications and charts.</summary>
+  <content type="html">&lt;p&gt;A tool that monitors and reports plays and users on your Plex server. Unlike Plex’s own stats it offers detailed history, notifications and charts.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://tautulli.com/&quot;&gt;https://tautulli.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome-Selfhosted</title>
-  <link href="https://awesome-selfhosted.net/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#awesome-selfhosted-net" rel="alternate" type="text/html"/>
   <id>https://awesome-selfhosted.net/</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>The canonical, categorised list of free-software services you can host on your own server. Unlike the raw GitHub list its browsable site filters every entry by licence, language and whether it is still active — the standard place to find an alternative without depending on a cloud service.</summary>
+  <content type="html">&lt;p&gt;The canonical, categorised list of free-software services you can host on your own server. Unlike the raw GitHub list its browsable site filters every entry by licence, language and whether it is still active — the standard place to find an alternative without depending on a cloud service.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://awesome-selfhosted.net/&quot;&gt;https://awesome-selfhosted.net/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Geek Cookbook</title>
-  <link href="https://geek-cookbook.funkypenguin.co.nz/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#geek-cookbook-funkypenguin-co-nz" rel="alternate" type="text/html"/>
   <id>https://geek-cookbook.funkypenguin.co.nz/</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>End-to-end recipes for building a highly-available “private cloud” on Docker Swarm. Unlike Awesome-Selfhosted’s list approach it gives step-by-step deployment: not which software to pick, but how to stand up the one you picked in production.</summary>
+  <content type="html">&lt;p&gt;End-to-end recipes for building a highly-available “private cloud” on Docker Swarm. Unlike Awesome-Selfhosted’s list approach it gives step-by-step deployment: not which software to pick, but how to stand up the one you picked in production.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://geek-cookbook.funkypenguin.co.nz/&quot;&gt;https://geek-cookbook.funkypenguin.co.nz/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>selfh.st</title>
-  <link href="https://selfh.st/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#selfh-st" rel="alternate" type="text/html"/>
   <id>https://selfh.st/</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>A newsletter and content site rounding up weekly news, new software and updates from the self-hosting world. Unlike static lists it is a feed: a live, dated source for tracking what launched and what was updated.</summary>
+  <content type="html">&lt;p&gt;A newsletter and content site rounding up weekly news, new software and updates from the self-hosting world. Unlike static lists it is a feed: a live, dated source for tracking what launched and what was updated.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://selfh.st/&quot;&gt;https://selfh.st/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>YunoHost</title>
-  <link href="https://yunohost.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#yunohost-org" rel="alternate" type="text/html"/>
   <id>https://yunohost.org/</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>A project that turns your own server into an operating system with one-click app installs. Unlike setting up Docker by hand it abstracts the admin: you manage users, domains and backups from one panel, and catalog apps install in a single step.</summary>
+  <content type="html">&lt;p&gt;A project that turns your own server into an operating system with one-click app installs. Unlike setting up Docker by hand it abstracts the admin: you manage users, domains and backups from one panel, and catalog apps install in a single step.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://yunohost.org/&quot;&gt;https://yunohost.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>AdGuard Home</title>
-  <link href="https://adguard.com/en/adguard-home/overview.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#adguard-com-en-adguard-home-overview-html" rel="alternate" type="text/html"/>
   <id>https://adguard.com/en/adguard-home/overview.html</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A network-wide blocker doing the same job as Pi-hole; what differs is that it ships its own DNS-over-HTTPS and DNS-over-TLS server and lets you write per-client rules. One binary, no extra dependencies.</summary>
+  <content type="html">&lt;p&gt;A network-wide blocker doing the same job as Pi-hole; what differs is that it ships its own DNS-over-HTTPS and DNS-over-TLS server and lets you write per-client rules. One binary, no extra dependencies.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://adguard.com/en/adguard-home/overview.html&quot;&gt;https://adguard.com/en/adguard-home/overview.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Audiobookshelf</title>
-  <link href="https://www.audiobookshelf.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#audiobookshelf-org" rel="alternate" type="text/html"/>
   <id>https://www.audiobookshelf.org/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A self-hosted server for managing and streaming your audiobook and podcast collection, with progress synced across devices. Unlike Plex or Jellyfin it is built for audiobooks specifically, so chapter marks, playback speed and series tracking behave properly.</summary>
+  <content type="html">&lt;p&gt;A self-hosted server for managing and streaming your audiobook and podcast collection, with progress synced across devices. Unlike Plex or Jellyfin it is built for audiobooks specifically, so chapter marks, playback speed and series tracking behave properly.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.audiobookshelf.org/&quot;&gt;https://www.audiobookshelf.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Dawarich</title>
-  <link href="https://github.com/Freika/dawarich"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#github-com-freika-dawarich" rel="alternate" type="text/html"/>
   <id>https://github.com/Freika/dawarich</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Self-hosted location history with a map view, able to import a Google Location History export. The difference from Google’s own service is that the data stays with you — and does not vanish when the product is discontinued.</summary>
+  <content type="html">&lt;p&gt;Self-hosted location history with a map view, able to import a Google Location History export. The difference from Google’s own service is that the data stays with you — and does not vanish when the product is discontinued.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/Freika/dawarich&quot;&gt;https://github.com/Freika/dawarich&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Element</title>
-  <link href="https://element.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#element-io" rel="alternate" type="text/html"/>
   <id>https://element.io/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A messaging client on the Matrix protocol, with end-to-end encryption and federation between servers. That federation is the break from Slack or Discord: two people on different servers share a room without a single company in the middle.</summary>
+  <content type="html">&lt;p&gt;A messaging client on the Matrix protocol, with end-to-end encryption and federation between servers. That federation is the break from Slack or Discord: two people on different servers share a room without a single company in the middle.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://element.io/&quot;&gt;https://element.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Immich</title>
-  <link href="https://immich.app/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#immich-app" rel="alternate" type="text/html"/>
   <id>https://immich.app/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A self-hosted answer to Google Photos: background upload from the phone, face recognition, map and timeline. What separates it from other self-hosted galleries is that the mobile app actually backs up in the background, which most of them never manage.</summary>
+  <content type="html">&lt;p&gt;A self-hosted answer to Google Photos: background upload from the phone, face recognition, map and timeline. What separates it from other self-hosted galleries is that the mobile app actually backs up in the background, which most of them never manage.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://immich.app/&quot;&gt;https://immich.app/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>LibreOffice</title>
-  <link href="https://www.libreoffice.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#libreoffice-org" rel="alternate" type="text/html"/>
   <id>https://www.libreoffice.org/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>An office suite of writer, spreadsheet, presentation and database, defaulting to the open ODF standard. The difference from Microsoft Office is licensing and data ownership; the price is occasional layout drift on complex .docx files.</summary>
+  <content type="html">&lt;p&gt;An office suite of writer, spreadsheet, presentation and database, defaulting to the open ODF standard. The difference from Microsoft Office is licensing and data ownership; the price is occasional layout drift on complex .docx files.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.libreoffice.org/&quot;&gt;https://www.libreoffice.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Logseq</title>
-  <link href="https://logseq.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#logseq-com" rel="alternate" type="text/html"/>
   <id>https://logseq.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>An outliner with bi-directional links that keeps every note as a plain Markdown file on disk. Against Notion the data is in your folder; against Obsidian the primary unit is the block rather than the page, which suits daily journalling better.</summary>
+  <content type="html">&lt;p&gt;An outliner with bi-directional links that keeps every note as a plain Markdown file on disk. Against Notion the data is in your folder; against Obsidian the primary unit is the block rather than the page, which suits daily journalling better.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://logseq.com/&quot;&gt;https://logseq.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Nextcloud</title>
-  <link href="https://nextcloud.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#nextcloud-com" rel="alternate" type="text/html"/>
   <id>https://nextcloud.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A self-hosted file sync and collaboration suite: calendar, contacts, document editing, chat. Where Syncthing only syncs, this adds a web interface and share links — it is aiming at Google Workspace rather than at Dropbox.</summary>
+  <content type="html">&lt;p&gt;A self-hosted file sync and collaboration suite: calendar, contacts, document editing, chat. Where Syncthing only syncs, this adds a web interface and share links — it is aiming at Google Workspace rather than at Dropbox.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://nextcloud.com/&quot;&gt;https://nextcloud.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Organic Maps</title>
-  <link href="https://organicmaps.app/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#organicmaps-app" rel="alternate" type="text/html"/>
   <id>https://organicmaps.app/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>An offline map and navigation app on OpenStreetMap data, with no trackers and no ads. It is the fork Maps.me spawned when that went commercial — the continuation of the version people actually liked.</summary>
+  <content type="html">&lt;p&gt;An offline map and navigation app on OpenStreetMap data, with no trackers and no ads. It is the fork Maps.me spawned when that went commercial — the continuation of the version people actually liked.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://organicmaps.app/&quot;&gt;https://organicmaps.app/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Pi-hole</title>
-  <link href="https://pi-hole.net/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#pi-hole-net" rel="alternate" type="text/html"/>
   <id>https://pi-hole.net/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A network-wide ad blocker that runs as your DNS server and sinkholes ad and tracker domains. Unlike a browser extension it also covers smart TVs, phone apps and IoT devices — everything you cannot install an extension on.</summary>
+  <content type="html">&lt;p&gt;A network-wide ad blocker that runs as your DNS server and sinkholes ad and tracker domains. Unlike a browser extension it also covers smart TVs, phone apps and IoT devices — everything you cannot install an extension on.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://pi-hole.net/&quot;&gt;https://pi-hole.net/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Rocket.Chat</title>
-  <link href="https://www.rocket.chat/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#rocket-chat" rel="alternate" type="text/html"/>
   <id>https://www.rocket.chat/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A self-hostable team messaging platform with channels, threads, voice and bridges. Against Slack, the data stays on your infrastructure and message history is not locked behind a paid tier.</summary>
+  <content type="html">&lt;p&gt;A self-hostable team messaging platform with channels, threads, voice and bridges. Against Slack, the data stays on your infrastructure and message history is not locked behind a paid tier.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.rocket.chat/&quot;&gt;https://www.rocket.chat/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Syncthing</title>
-  <link href="https://syncthing.net/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#syncthing-net" rel="alternate" type="text/html"/>
   <id>https://syncthing.net/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Continuous file synchronisation between devices with no central server: the devices talk directly. Unlike Dropbox no copy ever reaches a cloud, and there is no storage quota — you have as much room as you have disk.</summary>
+  <content type="html">&lt;p&gt;Continuous file synchronisation between devices with no central server: the devices talk directly. Unlike Dropbox no copy ever reaches a cloud, and there is no storage quota — you have as much room as you have disk.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://syncthing.net/&quot;&gt;https://syncthing.net/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Thunderbird</title>
-  <link href="https://www.thunderbird.net/en-US/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#thunderbird-net-en-us" rel="alternate" type="text/html"/>
   <id>https://www.thunderbird.net/en-US/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A desktop mail client under the Mozilla umbrella, with IMAP, calendar, contacts and OpenPGP signing in one place. Against webmail, the archive lives on your disk and stays yours when you change provider.</summary>
+  <content type="html">&lt;p&gt;A desktop mail client under the Mozilla umbrella, with IMAP, calendar, contacts and OpenPGP signing in one place. Against webmail, the archive lives on your disk and stays yours when you change provider.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.thunderbird.net/en-US/&quot;&gt;https://www.thunderbird.net/en-US/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Appwrite</title>
-  <link href="https://appwrite.io"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#appwrite-io" rel="alternate" type="text/html"/>
   <id>https://appwrite.io</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An open-source backend-as-a-service offering auth, database, storage and functions. Unlike Firebase it is open source and self-hostable — no vendor lock-in.</summary>
+  <content type="html">&lt;p&gt;An open-source backend-as-a-service offering auth, database, storage and functions. Unlike Firebase it is open source and self-hostable — no vendor lock-in.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://appwrite.io&quot;&gt;https://appwrite.io&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CapRover</title>
-  <link href="https://caprover.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#caprover-com" rel="alternate" type="text/html"/>
   <id>https://caprover.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A free, self-hosted PaaS for one-click apps and Docker deploys on your own server. Unlike Heroku the server is yours; compared with Cloudron it is free, but maintenance and updates are on you.</summary>
+  <content type="html">&lt;p&gt;A free, self-hosted PaaS for one-click apps and Docker deploys on your own server. Unlike Heroku the server is yours; compared with Cloudron it is free, but maintenance and updates are on you.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://caprover.com&quot;&gt;https://caprover.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Cloudron</title>
-  <link href="https://www.cloudron.io"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/barindirma.html#cloudron-io" rel="alternate" type="text/html"/>
   <id>https://www.cloudron.io</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Self-hosts web apps with managed updates, backups and single sign-on. Unlike CapRover it takes on that maintenance; in exchange it is licensed, with the free tier limited to two apps.</summary>
+  <content type="html">&lt;p&gt;Self-hosts web apps with managed updates, backups and single sign-on. Unlike CapRover it takes on that maintenance; in exchange it is licensed, with the free tier limited to two apps.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.cloudron.io&quot;&gt;https://www.cloudron.io&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

@@ -2,288 +2,290 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
 <title>C, C++ &amp; Rust — Kullanışlı Siteler</title>
 <subtitle>Yazılımdan yapay zekaya, güvenlikten ekonomiye ve mimariye on alanda elle derlenmiş, açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/c_rust.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/c_rust.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/c_rust.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/c_rust.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/c_rust.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>Beej's Guides</title>
-  <link href="https://beej.us/guide/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#beej-us-guide" rel="alternate" type="text/html"/>
   <id>https://beej.us/guide/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>C dili ve ağ programlama (soket) üzerine uzun yıllardır güncellenen, ücretsiz ve esprili kılavuzlar; HTML, PDF ve basılı biçimde sunuluyor. Resmî dokümanlardan farkı öğretici bir dille yazılmış olması.</summary>
+  <content type="html">&lt;p&gt;C dili ve ağ programlama (soket) üzerine uzun yıllardır güncellenen, ücretsiz ve esprili kılavuzlar; HTML, PDF ve basılı biçimde sunuluyor. Resmî dokümanlardan farkı öğretici bir dille yazılmış olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://beej.us/guide/&quot;&gt;https://beej.us/guide/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Operation Costs in CPU Clock Cycles</title>
-  <link href="https://6it.dev/blog/infographics-operation-costs-in-cpu-clock-cycles-741"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#6it-dev-blog-infographics-operation-costs-in-cpu-clock-cycles-741" rel="alternate" type="text/html"/>
   <id>https://6it.dev/blog/infographics-operation-costs-in-cpu-clock-cycles-741</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Toplama, bellek erişimi, dal tahmini hatası, sanal çağrı gibi işlemlerin CPU döngüsü maliyetini gösteren ünlü infografik ve açıklaması. Performans sezgisi için büyüklük sıralarını verir; kesin ölçüm değildir.</summary>
+  <content type="html">&lt;p&gt;Toplama, bellek erişimi, dal tahmini hatası, sanal çağrı gibi işlemlerin CPU döngüsü maliyetini gösteren ünlü infografik ve açıklaması. Performans sezgisi için büyüklük sıralarını verir; kesin ölçüm değildir.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://6it.dev/blog/infographics-operation-costs-in-cpu-clock-cycles-741&quot;&gt;https://6it.dev/blog/infographics-operation-costs-in-cpu-clock-cycles-741&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>os-tutorial</title>
-  <link href="https://github.com/cfenollosa/os-tutorial"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#github-com-cfenollosa-os-tutorial" rel="alternate" type="text/html"/>
   <id>https://github.com/cfenollosa/os-tutorial</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Önyükleyiciden bir çekirdeğe kadar adım adım ilerleyen, her adımı kısa bir klasörde veren işletim sistemi öğreticisi. Kitaplara göre kısa ve uygulamalı; BIOS tabanlı 32 bit x86 hedefliyor. Proje bakımı yavaş.</summary>
+  <content type="html">&lt;p&gt;Önyükleyiciden bir çekirdeğe kadar adım adım ilerleyen, her adımı kısa bir klasörde veren işletim sistemi öğreticisi. Kitaplara göre kısa ve uygulamalı; BIOS tabanlı 32 bit x86 hedefliyor. Proje bakımı yavaş.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/cfenollosa/os-tutorial&quot;&gt;https://github.com/cfenollosa/os-tutorial&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>The Little Book About OS Development</title>
-  <link href="https://littleosbook.github.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#littleosbook-github-io" rel="alternate" type="text/html"/>
   <id>https://littleosbook.github.io/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>x86 üzerinde sıfırdan basit bir işletim sistemi yazmayı anlatan ücretsiz kitap: önyükleme, bellek, kesmeler, sistem çağrıları. Büyük işletim sistemi ders kitaplarından farkı, küçük bir çekirdeği baştan sona örnek olarak inşa etmesi.</summary>
+  <content type="html">&lt;p&gt;x86 üzerinde sıfırdan basit bir işletim sistemi yazmayı anlatan ücretsiz kitap: önyükleme, bellek, kesmeler, sistem çağrıları. Büyük işletim sistemi ders kitaplarından farkı, küçük bir çekirdeği baştan sona örnek olarak inşa etmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://littleosbook.github.io/&quot;&gt;https://littleosbook.github.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Write your Own Virtual Machine</title>
-  <link href="https://www.jmeiners.com/lc3-vm/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#jmeiners-com-lc3-vm" rel="alternate" type="text/html"/>
   <id>https://www.jmeiners.com/lc3-vm/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>C ile LC-3 mimarisi için bir sanal makine yazmayı anlatan tek sayfalık öğretici; sonunda gerçek LC-3 programları çalışıyor. Mimari anlatımlarından farkı, birkaç yüz satırda çalışan bir yürütücü ortaya çıkarması.</summary>
+  <content type="html">&lt;p&gt;C ile LC-3 mimarisi için bir sanal makine yazmayı anlatan tek sayfalık öğretici; sonunda gerçek LC-3 programları çalışıyor. Mimari anlatımlarından farkı, birkaç yüz satırda çalışan bir yürütücü ortaya çıkarması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.jmeiners.com/lc3-vm/&quot;&gt;https://www.jmeiners.com/lc3-vm/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>cargo-binstall</title>
-  <link href="https://github.com/cargo-bins/cargo-binstall"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#github-com-cargo-bins-cargo-binstall" rel="alternate" type="text/html"/>
   <id>https://github.com/cargo-bins/cargo-binstall</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Rust araçlarını derlemek yerine hazır ikili dosyadan kuran cargo eklentisi. cargo install’dan farkı dakikalar yerine saniyeler sürmesi.</summary>
+  <content type="html">&lt;p&gt;Rust araçlarını derlemek yerine hazır ikili dosyadan kuran cargo eklentisi. cargo install’dan farkı dakikalar yerine saniyeler sürmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/cargo-bins/cargo-binstall&quot;&gt;https://github.com/cargo-bins/cargo-binstall&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome C++</title>
-  <link href="https://github.com/uhub/awesome-cpp"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#github-com-uhub-awesome-cpp" rel="alternate" type="text/html"/>
   <id>https://github.com/uhub/awesome-cpp</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>C++ kütüphane ve çerçevelerini konuya göre düzenleyen liste. Genel aramadan farkı bakımı yapılan, kategorilenmiş bir başlangıç haritası olması.</summary>
+  <content type="html">&lt;p&gt;C++ kütüphane ve çerçevelerini konuya göre düzenleyen liste. Genel aramadan farkı bakımı yapılan, kategorilenmiş bir başlangıç haritası olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/uhub/awesome-cpp&quot;&gt;https://github.com/uhub/awesome-cpp&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome CMake</title>
-  <link href="https://github.com/onqtam/awesome-cmake"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#github-com-onqtam-awesome-cmake" rel="alternate" type="text/html"/>
   <id>https://github.com/onqtam/awesome-cmake</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>C/C++ derleme aracı CMake için betik, modül ve kaynak listesi. Resmî belgelerden farkı hedef tabanlı “modern CMake” pratiklerini anlatan rehberleri ve hazır modülleri seçmesi.</summary>
+  <content type="html">&lt;p&gt;C/C++ derleme aracı CMake için betik, modül ve kaynak listesi. Resmî belgelerden farkı hedef tabanlı “modern CMake” pratiklerini anlatan rehberleri ve hazır modülleri seçmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/onqtam/awesome-cmake&quot;&gt;https://github.com/onqtam/awesome-cmake&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Rust</title>
-  <link href="https://github.com/rust-unofficial/awesome-rust"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#github-com-rust-unofficial-awesome-rust" rel="alternate" type="text/html"/>
   <id>https://github.com/rust-unofficial/awesome-rust</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Rust kütüphane ve uygulamalarını konuya göre düzenleyen liste. crates.io aramasından farkı seçilmiş, kategorilenmiş ve bakımı yapılan bir başlangıç haritası olması.</summary>
+  <content type="html">&lt;p&gt;Rust kütüphane ve uygulamalarını konuya göre düzenleyen liste. crates.io aramasından farkı seçilmiş, kategorilenmiş ve bakımı yapılan bir başlangıç haritası olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/rust-unofficial/awesome-rust&quot;&gt;https://github.com/rust-unofficial/awesome-rust&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Rust by Example</title>
-  <link href="https://doc.rust-lang.org/rust-by-example/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#doc-rust-lang-org-rust-by-example" rel="alternate" type="text/html"/>
   <id>https://doc.rust-lang.org/rust-by-example/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Her kavramı çalıştırılabilir, düzenlenebilir kod örneğiyle veren resmî kaynak. Kitaptan farkı anlatıyı kısıp örneği öne alması — deneyerek öğrenenler için.</summary>
+  <content type="html">&lt;p&gt;Her kavramı çalıştırılabilir, düzenlenebilir kod örneğiyle veren resmî kaynak. Kitaptan farkı anlatıyı kısıp örneği öne alması — deneyerek öğrenenler için.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://doc.rust-lang.org/rust-by-example/&quot;&gt;https://doc.rust-lang.org/rust-by-example/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Rust Playground</title>
-  <link href="https://play.rust-lang.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#play-rust-lang-org" rel="alternate" type="text/html"/>
   <id>https://play.rust-lang.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Rust kodunu kurulum olmadan tarayıcıda derleyip çalıştıran resmî alan. Yerel kurulumdan farkı derleyici çıktısını ve ASM/MIR’i paylaşılabilir bağlantıyla vermesi.</summary>
+  <content type="html">&lt;p&gt;Rust kodunu kurulum olmadan tarayıcıda derleyip çalıştıran resmî alan. Yerel kurulumdan farkı derleyici çıktısını ve ASM/MIR’i paylaşılabilir bağlantıyla vermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://play.rust-lang.org/&quot;&gt;https://play.rust-lang.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Rustlings</title>
-  <link href="https://github.com/rust-lang/rustlings"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#github-com-rust-lang-rustlings" rel="alternate" type="text/html"/>
   <id>https://github.com/rust-lang/rustlings</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Küçük, kırık kod parçalarını düzelterek Rust öğreten alıştırma seti. Okuma temelli kaynaklardan farkı derleyici hatalarını okuyup düzeltmeyi elle deneyimletmesi.</summary>
+  <content type="html">&lt;p&gt;Küçük, kırık kod parçalarını düzelterek Rust öğreten alıştırma seti. Okuma temelli kaynaklardan farkı derleyici hatalarını okuyup düzeltmeyi elle deneyimletmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/rust-lang/rustlings&quot;&gt;https://github.com/rust-lang/rustlings&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>The Async Book</title>
-  <link href="https://rust-lang.github.io/async-book/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#rust-lang-github-io-async-book" rel="alternate" type="text/html"/>
   <id>https://rust-lang.github.io/async-book/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Rust’ta async/await ve Future modelini anlatan resmî kitap. Genel eşzamanlılık anlatımından farkı Rust’ın kendine özgü, ayrıştırılmış çalışma zamanı yaklaşımını açması.</summary>
+  <content type="html">&lt;p&gt;Rust’ta async/await ve Future modelini anlatan resmî kitap. Genel eşzamanlılık anlatımından farkı Rust’ın kendine özgü, ayrıştırılmış çalışma zamanı yaklaşımını açması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://rust-lang.github.io/async-book/&quot;&gt;https://rust-lang.github.io/async-book/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>The Cargo Book</title>
-  <link href="https://doc.rust-lang.org/cargo/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#doc-rust-lang-org-cargo" rel="alternate" type="text/html"/>
   <id>https://doc.rust-lang.org/cargo/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Rust’ın paket yöneticisi ve derleme aracı Cargo’nun resmî kılavuzu. Dağınık bloglardan farkı bağımlılık, çalışma alanı ve yayımlamayı tek yetkili yerde toplaması.</summary>
+  <content type="html">&lt;p&gt;Rust’ın paket yöneticisi ve derleme aracı Cargo’nun resmî kılavuzu. Dağınık bloglardan farkı bağımlılık, çalışma alanı ve yayımlamayı tek yetkili yerde toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://doc.rust-lang.org/cargo/&quot;&gt;https://doc.rust-lang.org/cargo/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>The Rust Programming Language</title>
-  <link href="https://doc.rust-lang.org/book/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#doc-rust-lang-org-book" rel="alternate" type="text/html"/>
   <id>https://doc.rust-lang.org/book/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Rust’ın resmî kitabı; sahiplik ve ödünç alma gibi dile özgü kavramları sıfırdan kuruyor. Diğer dil kitaplarından farkı derleyicinin hata mesajlarını öğretinin parçası yapması — Rust’ta derleyiciyle tartışmayı öğrenmek dilin yarısı.</summary>
+  <content type="html">&lt;p&gt;Rust’ın resmî kitabı; sahiplik ve ödünç alma gibi dile özgü kavramları sıfırdan kuruyor. Diğer dil kitaplarından farkı derleyicinin hata mesajlarını öğretinin parçası yapması — Rust’ta derleyiciyle tartışmayı öğrenmek dilin yarısı.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://doc.rust-lang.org/book/&quot;&gt;https://doc.rust-lang.org/book/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>The Rust Reference</title>
-  <link href="https://doc.rust-lang.org/reference/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#doc-rust-lang-org-reference" rel="alternate" type="text/html"/>
   <id>https://doc.rust-lang.org/reference/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Dilin dilbilgisini ve anlamını tanımlayan resmî başvuru. Kitaptan farkı öğretici değil, “Rust tam olarak nasıl davranır” sorusunun yetkili cevabı olması.</summary>
+  <content type="html">&lt;p&gt;Dilin dilbilgisini ve anlamını tanımlayan resmî başvuru. Kitaptan farkı öğretici değil, “Rust tam olarak nasıl davranır” sorusunun yetkili cevabı olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://doc.rust-lang.org/reference/&quot;&gt;https://doc.rust-lang.org/reference/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>The Rustonomicon</title>
-  <link href="https://doc.rust-lang.org/nomicon/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#doc-rust-lang-org-nomicon" rel="alternate" type="text/html"/>
   <id>https://doc.rust-lang.org/nomicon/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Güvensiz (unsafe) Rust’ın kurallarını anlatan ileri düzey kitap. Ana kitaptan farkı ödünç denetçisinin dışına çıkıldığında nelere dikkat edileceğini kapsaması.</summary>
+  <content type="html">&lt;p&gt;Güvensiz (unsafe) Rust’ın kurallarını anlatan ileri düzey kitap. Ana kitaptan farkı ödünç denetçisinin dışına çıkıldığında nelere dikkat edileceğini kapsaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://doc.rust-lang.org/nomicon/&quot;&gt;https://doc.rust-lang.org/nomicon/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>cppreference</title>
-  <link href="https://cppreference.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#cppreference-com" rel="alternate" type="text/html"/>
   <id>https://cppreference.com/</id>
   <updated>2026-08-19T23:34:19Z</updated>
-  <summary>C ve C++ standart kütüphanesinin en yaygın kullanılan referansı; her özelliğin hangi standartta (C++11/17/20/23) geldiği işaretli. Öğretici sitelerden farkı bu sürüm ayrımını atlamaması.</summary>
+  <content type="html">&lt;p&gt;C ve C++ standart kütüphanesinin en yaygın kullanılan referansı; her özelliğin hangi standartta (C++11/17/20/23) geldiği işaretli. Öğretici sitelerden farkı bu sürüm ayrımını atlamaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cppreference.com/&quot;&gt;https://cppreference.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>C++ Üslup ve Teknik SSS</title>
-  <link href="https://www.stroustrup.com/bs_faq2.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#stroustrup-com-bs-faq2-html" rel="alternate" type="text/html"/>
   <id>https://www.stroustrup.com/bs_faq2.html</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Stroustrup’un C++ üslubu ve sık yapılan hatalar üzerine SSS’i; “bunu neden böyle yapmalıyım” sorularının doğrudan cevabı. Üçüncü taraf öğreticilerden farkı gerekçenin dilin yaratıcısından gelmesi.</summary>
+  <content type="html">&lt;p&gt;Stroustrup’un C++ üslubu ve sık yapılan hatalar üzerine SSS’i; “bunu neden böyle yapmalıyım” sorularının doğrudan cevabı. Üçüncü taraf öğreticilerden farkı gerekçenin dilin yaratıcısından gelmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.stroustrup.com/bs_faq2.html&quot;&gt;https://www.stroustrup.com/bs_faq2.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>C++11 SSS (Stroustrup)</title>
-  <link href="https://www.stroustrup.com/C++11FAQ.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#stroustrup-com-c-11faq-html" rel="alternate" type="text/html"/>
   <id>https://www.stroustrup.com/C++11FAQ.html</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Dilin yaratıcısının C++11 ile gelen her özelliği neden eklediğini anlattığı SSS. Özellik listesinden farkı, tasarım gerekçesini vermesi.</summary>
+  <content type="html">&lt;p&gt;Dilin yaratıcısının C++11 ile gelen her özelliği neden eklediğini anlattığı SSS. Özellik listesinden farkı, tasarım gerekçesini vermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.stroustrup.com/C++11FAQ.html&quot;&gt;https://www.stroustrup.com/C++11FAQ.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Comprehensive Rust</title>
-  <link href="https://google.github.io/comprehensive-rust/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#google-github-io-comprehensive-rust" rel="alternate" type="text/html"/>
   <id>https://google.github.io/comprehensive-rust/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Google’ın dört günlük, slayt + alıştırma biçiminde açık Rust kursu. Kitaptan farkı sınıf ortamı için tempolu, gömülü ve eşzamanlılık modülleriyle gelmesi.</summary>
+  <content type="html">&lt;p&gt;Google’ın dört günlük, slayt + alıştırma biçiminde açık Rust kursu. Kitaptan farkı sınıf ortamı için tempolu, gömülü ve eşzamanlılık modülleriyle gelmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://google.github.io/comprehensive-rust/&quot;&gt;https://google.github.io/comprehensive-rust/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CppCon</title>
-  <link href="https://www.youtube.com/user/CppCon/videos?shelf_id=0&amp;view=0&amp;sort=dd"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#youtube-com-user-cppcon-videos-shelf-id-0-view-0-sort-dd" rel="alternate" type="text/html"/>
   <id>https://www.youtube.com/user/CppCon/videos?shelf_id=0&amp;view=0&amp;sort=dd</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Yıllık C++ konferansının tüm konuşmaları. Öğreticilerden farkı dilin standardını yazan kişilerin sunumlarını içermesi — bir özelliğin neden öyle tasarlandığını burada duyuyorsun.</summary>
+  <content type="html">&lt;p&gt;Yıllık C++ konferansının tüm konuşmaları. Öğreticilerden farkı dilin standardını yazan kişilerin sunumlarını içermesi — bir özelliğin neden öyle tasarlandığını burada duyuyorsun.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/user/CppCon/videos?shelf_id=0&amp;amp;view=0&amp;amp;sort=dd&quot;&gt;https://www.youtube.com/user/CppCon/videos?shelf_id=0&amp;amp;view=0&amp;amp;sort=dd&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>crates.io</title>
-  <link href="https://crates.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#crates-io" rel="alternate" type="text/html"/>
   <id>https://crates.io/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Rust’ın resmî paket kayıt defteri — kütüphaneleri yayımlayıp bağımlılık olarak çekmenin merkezi. Genel kod aramalarından farkı sürüm ve indirme verisiyle güvenilir kaynağı göstermesi.</summary>
+  <content type="html">&lt;p&gt;Rust’ın resmî paket kayıt defteri — kütüphaneleri yayımlayıp bağımlılık olarak çekmenin merkezi. Genel kod aramalarından farkı sürüm ve indirme verisiyle güvenilir kaynağı göstermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://crates.io/&quot;&gt;https://crates.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>docs.rs</title>
-  <link href="https://docs.rs/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#docs-rs" rel="alternate" type="text/html"/>
   <id>https://docs.rs/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>crates.io’daki her paketin belgelerini otomatik derleyip yayımlayan servis. Her projenin kendi sitesinden farkı tüm ekosistemin dokümanını tek biçim ve tek adreste toplaması.</summary>
+  <content type="html">&lt;p&gt;crates.io’daki her paketin belgelerini otomatik derleyip yayımlayan servis. Her projenin kendi sitesinden farkı tüm ekosistemin dokümanını tek biçim ve tek adreste toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://docs.rs/&quot;&gt;https://docs.rs/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Meeting C++</title>
-  <link href="https://www.youtube.com/user/MeetingCPP/videos"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#youtube-com-user-meetingcpp-videos" rel="alternate" type="text/html"/>
   <id>https://www.youtube.com/user/MeetingCPP/videos</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Avrupa’nın en büyük C++ konferanslarından birinin konuşma arşivi. CppCon’dan farkı daha küçük ve uygulama ağırlıklı olması — standart tartışmasından çok gerçek projelerden deneyimler.</summary>
+  <content type="html">&lt;p&gt;Avrupa’nın en büyük C++ konferanslarından birinin konuşma arşivi. CppCon’dan farkı daha küçük ve uygulama ağırlıklı olması — standart tartışmasından çok gerçek projelerden deneyimler.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/user/MeetingCPP/videos&quot;&gt;https://www.youtube.com/user/MeetingCPP/videos&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Qt Documentation</title>
-  <link href="https://doc.qt.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#doc-qt-io" rel="alternate" type="text/html"/>
   <id>https://doc.qt.io/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Qt çatısının resmî belgeleri; C++ ve QML için sınıf referansı, örnekler ve platform kılavuzları. Diğer arayüz çatılarının belgelerinden farkı kapsamı — masaüstü, mobil ve gömülü aynı API altında anlatılıyor.</summary>
+  <content type="html">&lt;p&gt;Qt çatısının resmî belgeleri; C++ ve QML için sınıf referansı, örnekler ve platform kılavuzları. Diğer arayüz çatılarının belgelerinden farkı kapsamı — masaüstü, mobil ve gömülü aynı API altında anlatılıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://doc.qt.io/&quot;&gt;https://doc.qt.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Rust Cookbook</title>
-  <link href="https://rust-lang-nursery.github.io/rust-cookbook/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#rust-lang-nursery-github-io-rust-cookbook" rel="alternate" type="text/html"/>
   <id>https://rust-lang-nursery.github.io/rust-cookbook/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>&quot;Dosyayı satır satır oku&quot;, &quot;HTTP isteği at&quot; gibi gündelik işlerin Rust karşılıklarını veren tarif kitabı. Kitap ve örneklerden farkı görev odaklı olması — dili öğrenmek için değil, bir işi bitirmek için açılıyor.</summary>
+  <content type="html">&lt;p&gt;&amp;quot;Dosyayı satır satır oku&amp;quot;, &amp;quot;HTTP isteği at&amp;quot; gibi gündelik işlerin Rust karşılıklarını veren tarif kitabı. Kitap ve örneklerden farkı görev odaklı olması — dili öğrenmek için değil, bir işi bitirmek için açılıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://rust-lang-nursery.github.io/rust-cookbook/&quot;&gt;https://rust-lang-nursery.github.io/rust-cookbook/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Rust Standard Library</title>
-  <link href="https://doc.rust-lang.org/std/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#doc-rust-lang-org-std" rel="alternate" type="text/html"/>
   <id>https://doc.rust-lang.org/std/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Rust standart kütüphanesinin resmî referansı — tip, trait ve makrolar. Öğreticilerden farkı öğretmeye değil, tam ve kesin başvuruya yönelmesi.</summary>
+  <content type="html">&lt;p&gt;Rust standart kütüphanesinin resmî referansı — tip, trait ve makrolar. Öğreticilerden farkı öğretmeye değil, tam ve kesin başvuruya yönelmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://doc.rust-lang.org/std/&quot;&gt;https://doc.rust-lang.org/std/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Stroustrup on C++</title>
-  <link href="https://www.stroustrup.com/C++.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#stroustrup-com-c-html" rel="alternate" type="text/html"/>
   <id>https://www.stroustrup.com/C++.html</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>C++’ın yaratıcısının kendi sayfası: sıkça sorulan sorular, üslup önerileri ve dilin neden öyle tasarlandığını anlatan yazılar. Öğreticilerden farkı gerekçe sunması — bir kararın nedenini ancak kararı verenden okuyabiliyorsun.</summary>
+  <content type="html">&lt;p&gt;C++’ın yaratıcısının kendi sayfası: sıkça sorulan sorular, üslup önerileri ve dilin neden öyle tasarlandığını anlatan yazılar. Öğreticilerden farkı gerekçe sunması — bir kararın nedenini ancak kararı verenden okuyabiliyorsun.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.stroustrup.com/C++.html&quot;&gt;https://www.stroustrup.com/C++.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>This Week in Rust</title>
-  <link href="https://this-week-in-rust.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#this-week-in-rust-org" rel="alternate" type="text/html"/>
   <id>https://this-week-in-rust.org/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Rust dünyasındaki gelişmeleri, yeni sürüm ve yazıları haftalık derleyen bülten. Dağınık takipten farkı ekosistemi tek, düzenli akışta izlemeni sağlaması.</summary>
+  <content type="html">&lt;p&gt;Rust dünyasındaki gelişmeleri, yeni sürüm ve yazıları haftalık derleyen bülten. Dağınık takipten farkı ekosistemi tek, düzenli akışta izlemeni sağlaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://this-week-in-rust.org/&quot;&gt;https://this-week-in-rust.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Tokio</title>
-  <link href="https://tokio.rs/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#tokio-rs" rel="alternate" type="text/html"/>
   <id>https://tokio.rs/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Rust için en yaygın asenkron çalışma zamanı; ağ servisleri bunun üstüne kurulur. Standart kütüphaneden farkı yüksek eşzamanlı G/Ç için zamanlayıcı, görev ve araçları getirmesi.</summary>
+  <content type="html">&lt;p&gt;Rust için en yaygın asenkron çalışma zamanı; ağ servisleri bunun üstüne kurulur. Standart kütüphaneden farkı yüksek eşzamanlı G/Ç için zamanlayıcı, görev ve araçları getirmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://tokio.rs/&quot;&gt;https://tokio.rs/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Rust Öğrenin (Türkçe)</title>
-  <link href="https://rust-lang.org/tr/learn/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#rust-lang-org-tr-learn" rel="alternate" type="text/html"/>
   <id>https://rust-lang.org/tr/learn/</id>
   <updated>2026-03-29T18:36:46Z</updated>
-  <summary>Rust’ın resmî öğrenme sayfasının Türkçe hâli. İngilizce sayfa yerine sahiplik (ownership) ve ödünç alma kavramlarına kendi dilinde girmek, dilin en dik yokuşunu biraz yumuşatıyor.</summary>
+  <content type="html">&lt;p&gt;Rust’ın resmî öğrenme sayfasının Türkçe hâli. İngilizce sayfa yerine sahiplik (ownership) ve ödünç alma kavramlarına kendi dilinde girmek, dilin en dik yokuşunu biraz yumuşatıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://rust-lang.org/tr/learn/&quot;&gt;https://rust-lang.org/tr/learn/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Learn C</title>
-  <link href="https://www.learn-c.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#learn-c-org" rel="alternate" type="text/html"/>
   <id>https://www.learn-c.org/</id>
   <updated>2026-03-08T15:37:28Z</updated>
-  <summary>Tarayıcıda derleyip çalıştırabildiğin C öğreticisi. Derleyici kurmak yerine doğrudan sayfada denediğin için dile bakmak isteyenlerin giriş engelini kaldırıyor.</summary>
+  <content type="html">&lt;p&gt;Tarayıcıda derleyip çalıştırabildiğin C öğreticisi. Derleyici kurmak yerine doğrudan sayfada denediğin için dile bakmak isteyenlerin giriş engelini kaldırıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.learn-c.org/&quot;&gt;https://www.learn-c.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>C Programming Tutorial</title>
-  <link href="https://www.tutorialspoint.com/cprogramming/index.htm"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#tutorialspoint-com-cprogramming-index-htm" rel="alternate" type="text/html"/>
   <id>https://www.tutorialspoint.com/cprogramming/index.htm</id>
   <updated>2026-03-08T15:37:01Z</updated>
-  <summary>Baştan sona klasik C anlatımı. Kapsamlı ama üslubu ve örnekleri eski; sıralı okumaktan çok tek konu aramak için pratik.</summary>
+  <content type="html">&lt;p&gt;Baştan sona klasik C anlatımı. Kapsamlı ama üslubu ve örnekleri eski; sıralı okumaktan çok tek konu aramak için pratik.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.tutorialspoint.com/cprogramming/index.htm&quot;&gt;https://www.tutorialspoint.com/cprogramming/index.htm&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>C Yol Haritası</title>
-  <link href="https://github.com/Koubae/Programming-CookBook/blob/master/Programming%20Languages/C/roadmap.md"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#github-com-koubae-programming-cookbook-blob-master-programming-20languages-c-roadmap-md" rel="alternate" type="text/html"/>
   <id>https://github.com/Koubae/Programming-CookBook/blob/master/Programming%20Languages/C/roadmap.md</id>
   <updated>2026-03-07T23:55:29Z</updated>
-  <summary>C öğrenimini konu sırasına koyan kısa harita. Kapsamlı kurslardan farkı içerik değil yalnız sıra vermesi: işaretçi ve bellek yönetimini nereye yerleştireceğini gösteriyor.</summary>
+  <content type="html">&lt;p&gt;C öğrenimini konu sırasına koyan kısa harita. Kapsamlı kurslardan farkı içerik değil yalnız sıra vermesi: işaretçi ve bellek yönetimini nereye yerleştireceğini gösteriyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/Koubae/Programming-CookBook/blob/master/Programming%20Languages/C/roadmap.md&quot;&gt;https://github.com/Koubae/Programming-CookBook/blob/master/Programming%20Languages/C/roadmap.md&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>GeeksforGeeks C</title>
-  <link href="https://www.geeksforgeeks.org/c/c-programming-language/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#geeksforgeeks-org-c-c-programming-language" rel="alternate" type="text/html"/>
   <id>https://www.geeksforgeeks.org/c/c-programming-language/</id>
   <updated>2026-02-23T11:20:56Z</updated>
-  <summary>Konu başlığına bölünmüş C kaynağı. Sıralı bir kitaptan farkı aramadan doğrudan ilgili sayfaya düşmen; örnek kodların bir kısmı eski derleyici davranışına dayanıyor, dikkatli okumak gerekiyor.</summary>
+  <content type="html">&lt;p&gt;Konu başlığına bölünmüş C kaynağı. Sıralı bir kitaptan farkı aramadan doğrudan ilgili sayfaya düşmen; örnek kodların bir kısmı eski derleyici davranışına dayanıyor, dikkatli okumak gerekiyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/c/c-programming-language/&quot;&gt;https://www.geeksforgeeks.org/c/c-programming-language/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome C</title>
-  <link href="https://github.com/oz123/awesome-c"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#github-com-oz123-awesome-c" rel="alternate" type="text/html"/>
   <id>https://github.com/oz123/awesome-c</id>
   <updated>2026-02-21T22:24:01Z</updated>
-  <summary>C kütüphane, çatı ve araç listesi. Dilin standart kütüphanesi kasten dar olduğu için C’de “hangi kütüphane” sorusu diğer dillerden çok daha sık sorulur.</summary>
+  <content type="html">&lt;p&gt;C kütüphane, çatı ve araç listesi. Dilin standart kütüphanesi kasten dar olduğu için C’de “hangi kütüphane” sorusu diğer dillerden çok daha sık sorulur.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/oz123/awesome-c&quot;&gt;https://github.com/oz123/awesome-c&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>IncludeHelp C Programları</title>
-  <link href="https://www.includehelp.com/c-programs/c-programs-basic-input-output-operations.aspx"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#includehelp-com-c-programs-c-programs-basic-input-output-operations-aspx" rel="alternate" type="text/html"/>
   <id>https://www.includehelp.com/c-programs/c-programs-basic-input-output-operations.aspx</id>
   <updated>2026-02-21T22:23:44Z</updated>
-  <summary>Çözülmüş C programları koleksiyonu. Öğreticilerden farkı anlatım yerine doğrudan çalışan örnek vermesi; bir kalıbı hızla hatırlamak için elverişli.</summary>
+  <content type="html">&lt;p&gt;Çözülmüş C programları koleksiyonu. Öğreticilerden farkı anlatım yerine doğrudan çalışan örnek vermesi; bir kalıbı hızla hatırlamak için elverişli.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.includehelp.com/c-programs/c-programs-basic-input-output-operations.aspx&quot;&gt;https://www.includehelp.com/c-programs/c-programs-basic-input-output-operations.aspx&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Sıfırdan C Programlama</title>
-  <link href="https://www.youtube.com/watch?v=yuVatFCOISc"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#youtube-com-watch-v-yuvatfcoisc" rel="alternate" type="text/html"/>
   <id>https://www.youtube.com/watch?v=yuVatFCOISc</id>
   <updated>2026-02-10T06:51:20Z</updated>
-  <summary>C dilini tek oturumda anlatan Türkçe video. Haftalara yayılan kurslardan farkı hızlı giriş ya da sınav öncesi tekrar için tek seferde bitmesi.</summary>
+  <content type="html">&lt;p&gt;C dilini tek oturumda anlatan Türkçe video. Haftalara yayılan kurslardan farkı hızlı giriş ya da sınav öncesi tekrar için tek seferde bitmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=yuVatFCOISc&quot;&gt;https://www.youtube.com/watch?v=yuVatFCOISc&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Kodisyum C Örnekleri</title>
-  <link href="https://kodisyum.com/c-ornekler/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/c_rust.html#kodisyum-com-c-ornekler" rel="alternate" type="text/html"/>
   <id>https://kodisyum.com/c-ornekler/</id>
   <updated>2025-11-24T08:27:12Z</updated>
-  <summary>Türkçe C örnek programları; ders ödevi düzeyindeki klasik alıştırmaları kapsıyor. İngilizce örnek arşivlerinden farkı Türkçe olması — yerelde C kaynağı kıt olduğu için değerli.</summary>
+  <content type="html">&lt;p&gt;Türkçe C örnek programları; ders ödevi düzeyindeki klasik alıştırmaları kapsıyor. İngilizce örnek arşivlerinden farkı Türkçe olması — yerelde C kaynağı kıt olduğu için değerli.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://kodisyum.com/c-ornekler/&quot;&gt;https://kodisyum.com/c-ornekler/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

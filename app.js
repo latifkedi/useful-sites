@@ -62,9 +62,12 @@ var T = {
          'Ölü ya da hatalı bir kayıt görürsen <a href="'+REPO+'/issues/new/choose">bildir</a> — '+
          'yeni bağlantı önerileri de aynı yerden. '+
          '<a href="k/yol/index.html">Öğrenme yolları</a> · '+
+         '<a href="k/about.html">Hakkında</a> · '+
+         '<a href="k/changes.html">Değişiklikler</a> · '+
          '<a href="k/tesekkur.html">Katkıda bulunanlar</a> · '+
          'dizinin <a href="k/index.html">metin hâli</a> de var.',
-    skip:"İçeriğe Atla",
+    skip:"İçeriğe Atla", skipRes:"Sonuçlara atla",
+    badURL:"Bu adresin bir kısmı anlaşılamadı ve atlandı; gördüğün sayfa adresin geri kalanı.",
     fxNote:function(f,c){ return f+" alan, "+c+" başlık" },
     hStart:"Buradan Başla", hAll:"Tümünü tek listede gör →",
     srcLess:"− Kaynakları gizle",
@@ -169,9 +172,11 @@ var T = {
          'Spotted a dead or wrong entry? <a href="'+REPO+'/issues/new/choose">Tell me</a> — '+
          'link suggestions go to the same place. '+
          '<a href="k/en/path/index.html">Learning paths</a> · '+
-         '<a href="k/en/credits.html">Contributors</a> · '+
-         'there is a <a href="k/en/index.html">plain-text edition</a> too.',
-    skip:"Skip To Content",
+         '<a href="k/en/about.html">About</a> · '+
+         '<a href="k/en/changes.html">Changes</a> · '+
+         '<a href="k/en/credits.html">Contributors</a>.',
+    skip:"Skip To Content", skipRes:"Skip to results",
+    badURL:"Part of this address was not understood and has been left out; this is what the rest of it shows.",
     fxNote:function(f,c){ return f+" areas, "+c+" headings" },
     hStart:"Start Here", hAll:"See everything in one list →",
     srcLess:"− Hide sources",
@@ -408,7 +413,9 @@ function pageKey(){ return (activeCat && sortBy === "cat" && !q) ? activeCat : "
 
 function readURL(){
   var p = new URLSearchParams(location.search);
-  q          = (p.get("q") || "").trim();
+  /* Bozuk yuzde kodlamasi (%E0%A4%A) cozulunce yerine U+FFFD geliyor: kutuda
+     "?" gibi gorunmesin, adres de checkURL ile temizleniyor. */
+  q          = (p.get("q") || "").replace(/�/g, "").trim();
   activeCat  = p.get("cat") || null;
   sortBy     = p.get("sort") || "cat";
   activeTags = (p.get("tag") || "").split(",").filter(Boolean);
@@ -441,6 +448,10 @@ function readURL(){
 }
 
 function writeURL(push){
+  var s = urlQuery();
+  history[push ? "pushState" : "replaceState"]({}, "", location.pathname + (s ? "?"+s : ""));
+}
+function urlQuery(){
   var p = new URLSearchParams();
   if(q) p.set("q", q);
   if(activeCat) p.set("cat", activeCat);
@@ -458,8 +469,36 @@ function writeURL(push){
   if(lang !== "en") p.set("lang", lang);
   var pg = pages[pageKey()];
   if(pg > 1) p.set("p", pg);
-  var s = p.toString();
-  history[push ? "pushState" : "replaceState"]({}, "", location.pathname + (s ? "?"+s : ""));
+  return p.toString();
+}
+
+/* Ilk cizimden sonra: adreste uygulamanin kullanmadigi bir sey kaldiysa
+   (?e=yok, ?cat=zzz, ?p=999, ?cmp=,,,a, ?tag=<script>, bilinmeyen anahtar)
+   sessizce giris sayfasi gosterilip adres oldugu gibi birakiliyordu. Simdi
+   kisa bir not ve adres, ekranda gorunenin adresine cevriliyor. Varsayilan
+   degerler (p=1, sort=cat, lang=en) ve izleme anahtarlari not gerektirmiyor. */
+var URL_DEFAULT = {p: "1", sort: "cat", lang: "en"};
+function checkURL(){
+  var have = new URLSearchParams(location.search), want = new URLSearchParams(urlQuery());
+  var bad = false, dirty = false;
+  have.forEach(function(v, k){
+    var w = want.get(k);
+    if(/^(utm_[a-z]+|fbclid|gclid)$/.test(k)){ dirty = true; return }
+    if(w === null){
+      if(URL_DEFAULT[k] === v || (k === "f" && activeCat && CATFIELD[activeCat] === v)) dirty = true;
+      else bad = true;
+    } else if(w !== v){
+      if(w === v.trim()) dirty = true; else bad = true;
+    }
+  });
+  if(!bad && !dirty) return;
+  writeURL(false);
+  if(!bad) return;
+  var L = T[lang], n = document.createElement("p");
+  n.className = "urlnote"; n.setAttribute("role", "status");
+  n.textContent = L.badURL;
+  $("#list").insertBefore(n, $("#list").firstChild);
+  say(L.badURL);
 }
 
 /* ------------------------------------------------------------ filter & sort */
@@ -582,9 +621,13 @@ function itemHTML(d, n, o){
      ucretli ve freemium farki gosteriyor. Suzgecte duruyor. */
   var tags = (d.tags||[]).filter(function(t){ return t !== "ücretsiz" }).map(function(t){
     return '<span data-tag="'+esc(t)+'">'+esc(tagLabel(t))+'</span>' }).join('<i>·</i>');
+  /* Benzerleri tek bir Tab duragi: ilki sirada, digerlerine ok tuslariyla
+     (roving tabindex, 60-events). */
+  var nrel = 0;
   var rel = (d.rel||[]).map(function(i){
     var x = data[i];   /* rel: LINKS icindeki sira numaralari */
-    return x ? '<a href="?q='+encodeURIComponent(x.name)+'" data-rel="'+i+'">'+esc(x.name)+'</a>' : "" }).filter(Boolean).join(" · ");
+    return x ? '<a href="?q='+encodeURIComponent(x.name)+'" data-rel="'+i+'"'+(nrel++ ? ' tabindex="-1"' : '')+'>'+
+               esc(x.name)+'</a>' : "" }).filter(Boolean).join(" · ");
   var ad = '<a class="name" href="'+esc(d.url)+'" target="_blank" rel="noopener noreferrer" data-go="'+esc(d._k)+'">'+hl(d.name)+'</a>';
   /* Kaydet ve karsilastir yalnizca istemcinin cizdigi kartlarda: index.html'deki
      hazir giris sayfasinda kart yok, o markup emit.py ile birebir kaliyor. */
@@ -845,10 +888,10 @@ function homeHTML(L){
     var n = full.reduce(function(s, k){ return s + BYCAT[k].length }, 0);
     if(!n) return "";
     nf++;
-    return '<li class="fe"><a class="ft" '+fieldLink(g)+'><span class="rn">'+ROMAN[gi]+'</span>'+
+    return '<li class="fe"><a class="ft" '+fieldLink(g, true)+'><span class="rn">'+ROMAN[gi]+'</span>'+
              '<span class="fn">'+esc(g[lang])+'</span><span class="ld"></span><span class="n">'+n+'</span></a>'+
            '<p class="fc">'+full.map(function(k){
-             return '<a href="?cat='+esc(k)+'" data-cat="'+esc(k)+'">'+esc(shortCat(k))+'</a>';
+             return '<a href="'+staticCat(k)+'" data-cat="'+esc(k)+'">'+esc(shortCat(k))+'</a>';
            }).join(", ")+'</p></li>';
   }).join("");
   /* Kanit satiri ve ornek sorgular: ilk bakista dizinin ne oldugu ve
@@ -881,10 +924,13 @@ function fmtDay(iso){
 
 /* Tek bir dolu kategorisi olan bir alan icin ara sayfa, tek karti olan bir
    ekran ve ikinci bir tik demek; o alan dogrudan kategorisine acilir. */
-function fieldLink(g){
+/* Giriste basliklar statik sayfalarina bagli (emit.home_html ile ayni): betiksiz
+   okur ve arama motoru oraya iniyor, tiklamayi data-cat ile uygulama karsiliyor. */
+function staticCat(k){ return (lang === "tr" ? "k/" : "k/en/") + esc(k) + ".html" }
+function fieldLink(g, home){
   var dolu = g.cats.filter(function(k){ return BYCAT[k] && BYCAT[k].length });
   return dolu.length === 1
-    ? 'href="?cat='+esc(dolu[0])+'" data-cat="'+esc(dolu[0])+'"'
+    ? 'href="'+(home ? staticCat(dolu[0]) : '?cat='+esc(dolu[0]))+'" data-cat="'+esc(dolu[0])+'"'
     : 'href="?f='+esc(g.key)+'" data-field="'+esc(g.key)+'"';
 }
 
@@ -1013,8 +1059,9 @@ function sideHTML(L){
   function item(k){
     var c = CATBYKEY[k]; if(!c) return "";
     var n = counts[k] || 0, on = activeCat === k;
+    /* Sonucu olmayan baslik tiklanabilir kaliyor ama Tab sirasinda degil. */
     return '<li><a href="?cat='+esc(k)+'" data-cat="'+esc(k)+'" class="'+(on ? "on" : (n ? "" : "empty"))+'"'+
-           (on ? ' aria-current="page"' : '')+'><span class="t">'+esc(shortCat(k))+'</span><span class="n">'+n+'</span></a></li>';
+           (on ? ' aria-current="page"' : '')+(n || on ? '' : ' tabindex="-1"')+'><span class="t">'+esc(shortCat(k))+'</span><span class="n">'+n+'</span></a></li>';
   }
   var g = activeField && FIELDBYKEY[activeField];
   if(g){
@@ -1024,7 +1071,7 @@ function sideHTML(L){
   }
   return '<p class="side-k">'+esc(L.fxHead)+'</p><ol>'+GROUPS.map(function(gg, gi){
     var n = gg.cats.reduce(function(s, k){ return s + (counts[k] || 0) }, 0);
-    return '<li><a '+fieldLink(gg)+' class="'+(n ? "" : "empty")+'"><span class="t"><span class="rn">'+
+    return '<li><a '+fieldLink(gg)+' class="'+(n ? "" : "empty")+'"'+(n ? '' : ' tabindex="-1"')+'><span class="t"><span class="rn">'+
            ROMAN[gi]+'</span> '+esc(gg[lang])+'</span><span class="n">'+n+'</span></a></li>';
   }).join("")+'</ol>';
 }
@@ -1091,7 +1138,6 @@ function catPageHTML(L, shown){
 
 function paintChrome(L){
   document.documentElement.lang = lang;
-  document.title            = L.title;
   $("#t-title").textContent = L.title;
   $("#logo").setAttribute("aria-label", L.homeLabel);
   $("#hero").innerHTML      = L.hero(fmtN(data.length));
@@ -1109,6 +1155,7 @@ function paintChrome(L){
   $("#side").setAttribute("aria-label", L.fxHead);
   $("#top").setAttribute("aria-label", L.topLabel); $("#top").title = L.topLabel;
   $("#skip").textContent    = L.skip;
+  $("#skipr").textContent   = L.skipRes;
   $("#foot-t").innerHTML    = L.foot;
   $("#foot-kb").innerHTML   = L.kb;
   $("#l-exp").textContent   = L.exp;
@@ -1235,17 +1282,24 @@ function renderView(){
   document.body.classList.toggle("calm", !!(single || recent || cmpKeys.length || (browsing && !activeCat)));
   document.body.classList.toggle("at-home", !!(browsing && !activeCat && !activeField && !single && !recent && !cmpKeys.length));
   $("#nav").innerHTML = sideHTML(L);
+  /* "Sonuclara atla" yalnizca bir sonuc listesi varken (bkz. 60-events). */
+  $("#skipr").hidden = true;
 
   /* Tek kayit gorunumu: adres kaydin URL anahtarina bagli. */
   if(single){
     var tek = byPerma(single);
-    if(tek){ $("#list").innerHTML = singleHTML(L, tek); return; }
+    if(tek){ $("#list").innerHTML = singleHTML(L, tek); setTitle(L, tek.name); return; }
     single = null;
   }
-  if(recent){ $("#list").innerHTML = recentHTML(L); return; }
-  if(cmpKeys.length){ $("#list").innerHTML = cmpHTML(L); return; }
+  if(recent){ $("#list").innerHTML = recentHTML(L); setTitle(L, L.recent); return; }
+  if(cmpKeys.length){
+    $("#list").innerHTML = cmpHTML(L);
+    setTitle(L, L.cmpHead + ": " + cmpKeys.map(function(k){ return KEYIDX[k].name }).join(", "));
+    return;
+  }
 
   if(browsing && !activeCat && !activeField){
+    setTitle(L, "");
     /* build.py girisi index.html'e onceden ciziyor (data-pre). Ilk acilista
        Ingilizce ise (varsayilan dil) oldugu gibi birakiliyor; ayni markup'i
        yeniden yazmak belirme animasyonunu ikinci kez oynatirdi. */
@@ -1253,10 +1307,19 @@ function renderView(){
     if(pre && lang === "en"){ pre.removeAttribute("data-pre"); return; }
     $("#list").innerHTML = homeHTML(L); return;
   }
-  if(browsing && !activeCat){ $("#list").innerHTML = fieldHTML(activeField, L); return; }
+  if(browsing && !activeCat){
+    $("#list").innerHTML = fieldHTML(activeField, L);
+    setTitle(L, FIELDBYKEY[activeField] ? FIELDBYKEY[activeField][lang] : "");
+    return;
+  }
 
   var shown = data.filter(keep);
   $("#list").innerHTML = activeCat ? catPageHTML(L, shown) : listPageHTML(L, shown);
+  setTitle(L, q ? "“" + q + "”" + (activeCat ? " · " + shortCat(activeCat) : "")
+            : activeCat ? shortCat(activeCat)
+            : listKeys ? L.shared : savedView ? L.saved
+            : onlyPicks && !activeTags.length && !activeSrc ? L.hStart : L.all);
+  $("#skipr").hidden = !$("#list .rec");
   announce(q ? L.results(q, shown.length) : L.count(shown.length, data.length));
 }
 /* Arama ve suzgec sonucu ekranda gorunuyor; ekran okuyucuya ise kimse
@@ -1268,6 +1331,8 @@ function announce(text){
   liveLast = text;
   $("#live").textContent = text;
 }
+/* Sekme basligi gorunumu soyluyor: "Squoosh — Useful Sites", "“regex” — Useful Sites". */
+function setTitle(L, s){ document.title = s ? s + " — " + L.title : L.title }
 function render(){ renderView(); syncFilt(); }
 
 function update(push){ writeURL(push); render(); }
@@ -1520,6 +1585,25 @@ function hideMenu(){
   try{ if(a.matches(":popover-open")) a.hidePopover() }catch(err){}
 }
 $("#rand").addEventListener("click", function(){ hideMenu(); openRandom() });
+
+/* Aramadan ilk sonuca tek adim: aradaki araclar ve yan sutun atlaniyor. */
+$("#skipr").addEventListener("click", function(e){
+  var first = $("#list .rec a.name");
+  if(!first) return;
+  e.preventDefault();
+  first.focus();
+});
+/* Benzerleri (.rel) tek Tab duragi; aralarinda ok tuslariyla geziliyor. */
+document.addEventListener("keydown", function(e){
+  var a = e.target.closest && e.target.closest(".rel a");
+  if(!a || !/^Arrow(Left|Right|Up|Down)$/.test(e.key)) return;
+  var all = Array.prototype.slice.call(a.parentNode.querySelectorAll("a"));
+  var i = all.indexOf(a) + (/Right|Down/.test(e.key) ? 1 : -1);
+  if(i < 0 || i >= all.length) return;
+  e.preventDefault();
+  all.forEach(function(x, j){ x.tabIndex = j === i ? 0 : -1 });
+  all[i].focus();
+});
 
 function exportRows(){
   return sorted(data.filter(keep)).map(function(d){
@@ -2231,10 +2315,32 @@ readURL();
 var idle = window.requestIdleCallback
   ? function(f){ window.requestIdleCallback(f, {timeout: 1500}) }
   : function(f){ setTimeout(f, 200) };
+/* Ilk tus vurusu: telefonda (4x yavas islemci) giristen ilk sonuc listesine
+   gecis 580 ms suruyordu; JS'in payi 45 ms, gerisi arac cubugunun (secim
+   kutusu, ▾ ◆ gibi yedek yazi tipinden gelen isaretler) ilk yerlesimi. Bos
+   zamanda ya da arama kutusuna odaklaninca ekran disinda bir kez yerlestirilip
+   atiliyor; tarayicinin yazi tipi ve sekillendirme onbellekleri isiniyor. */
+var warmedLayout = false;
+function warmLayout(){
+  if(warmedLayout || !data.length) return;
+  warmedLayout = true;
+  var w = document.createElement("div");
+  w.className = "catpage";
+  w.setAttribute("aria-hidden", "true");
+  w.style.cssText = "position:absolute;left:-9999px;top:0;width:360px;visibility:hidden;animation:none";
+  /* tbHTML kimlikli ogeler (#sort, #filtb) uretiyor: ayni gorevde ekleniyor ve
+     kaldiriliyor, baska kod onlari gormuyor. */
+  w.innerHTML = tbHTML(T[lang], 1, 1) + '<div class="recs">' + itemHTML(data[0], 1, {path: true}) + '</div>';
+  document.body.appendChild(w);
+  void w.offsetHeight;
+  w.remove();
+}
+$("#q").addEventListener("focus", function(){ indexDescs(); warmLayout() });
+
 needDesc(lang, function(){
   if(q) indexDescs();
-  render(); liveReady = true; takeGo();
-  idle(function(){ indexDescs(); warmSearch() });
+  render(); liveReady = true; takeGo(); checkURL();
+  idle(function(){ indexDescs(); warmLayout(); warmSearch() });
 });
 /* Tekrar ziyaretlerde anlik acilis ve cevrimdisi okuma (sw.js). Yukleme
    bittikten sonra: ilk acilisla ag ve islemci icin yarismasin. */

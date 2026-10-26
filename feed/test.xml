@@ -2,288 +2,290 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
 <title>Test &amp; Kalite — Kullanışlı Siteler</title>
 <subtitle>Yazılımdan yapay zekaya, güvenlikten ekonomiye ve mimariye on alanda elle derlenmiş, açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/test.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/test.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/test.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/test.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/test.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>Awesome Sites to Test On</title>
-  <link href="https://github.com/BMayhew/awesome-sites-to-test-on"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#github-com-bmayhew-awesome-sites-to-test-on" rel="alternate" type="text/html"/>
   <id>https://github.com/BMayhew/awesome-sites-to-test-on</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Test otomasyonu pratiği için hedef siteler ve API’lerin listesi: demo mağazalar, formlar, tuzaklı sayfalar ve sahte API’ler türüne göre ayrılmış. Bu dizinde yalnızca birkaç temsilci tutuluyor; birbirinin yerine geçen onlarca demo sitesinin tam listesi burada.</summary>
+  <content type="html">&lt;p&gt;Test otomasyonu pratiği için hedef siteler ve API’lerin listesi: demo mağazalar, formlar, tuzaklı sayfalar ve sahte API’ler türüne göre ayrılmış. Bu dizinde yalnızca birkaç temsilci tutuluyor; birbirinin yerine geçen onlarca demo sitesinin tam listesi burada.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/BMayhew/awesome-sites-to-test-on&quot;&gt;https://github.com/BMayhew/awesome-sites-to-test-on&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>badssl.com</title>
-  <link href="https://badssl.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#badssl-com" rel="alternate" type="text/html"/>
   <id>https://badssl.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Süresi dolmuş, kendinden imzalı, yanlış ana bilgisayar adlı gibi bilerek bozuk TLS yapılandırmalarına sahip alt alan adları sunan test sitesi. Sunucu değil istemciyi sınar: tarayıcın veya HTTP kütüphanen bu hataları doğru reddediyor mu bunu denemek için.</summary>
+  <content type="html">&lt;p&gt;Süresi dolmuş, kendinden imzalı, yanlış ana bilgisayar adlı gibi bilerek bozuk TLS yapılandırmalarına sahip alt alan adları sunan test sitesi. Sunucu değil istemciyi sınar: tarayıcın veya HTTP kütüphanen bu hataları doğru reddediyor mu bunu denemek için.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://badssl.com/&quot;&gt;https://badssl.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CryptCheck</title>
-  <link href="https://cryptcheck.fr/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#cryptcheck-fr" rel="alternate" type="text/html"/>
   <id>https://cryptcheck.fr/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>HTTPS, SMTP ve XMPP sunucularının TLS yapılandırmasını şifre takımı, sertifika ve anahtar değişimi açısından puanlayan Fransız test sitesi. SSL Labs'ten farkı yalnızca web değil e-posta ve mesajlaşma sunucularını da kapsaması.</summary>
+  <content type="html">&lt;p&gt;HTTPS, SMTP ve XMPP sunucularının TLS yapılandırmasını şifre takımı, sertifika ve anahtar değişimi açısından puanlayan Fransız test sitesi. SSL Labs'ten farkı yalnızca web değil e-posta ve mesajlaşma sunucularını da kapsaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cryptcheck.fr/&quot;&gt;https://cryptcheck.fr/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CSP Evaluator</title>
-  <link href="https://csp-evaluator.withgoogle.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#csp-evaluator-withgoogle-com" rel="alternate" type="text/html"/>
   <id>https://csp-evaluator.withgoogle.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Bir Content-Security-Policy başlığını yapıştırınca atlatılabilir kuralları (unsafe-inline, geniş joker karakterler, eksik yönergeler) işaretleyen Google aracı. securityheaders.com başlıkları genel olarak puanlar; bu ise yalnızca CSP'yi yönerge yönerge ve XSS açısından inceler. Genel başlık denetçilerinden farklı olarak yalnızca CSP'yi yönerge yönerge inceler.</summary>
+  <content type="html">&lt;p&gt;Bir Content-Security-Policy başlığını yapıştırınca atlatılabilir kuralları (unsafe-inline, geniş joker karakterler, eksik yönergeler) işaretleyen Google aracı. securityheaders.com başlıkları genel olarak puanlar; bu ise yalnızca CSP'yi yönerge yönerge ve XSS açısından inceler. Genel başlık denetçilerinden farklı olarak yalnızca CSP'yi yönerge yönerge inceler.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://csp-evaluator.withgoogle.com/&quot;&gt;https://csp-evaluator.withgoogle.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Hardenize</title>
-  <link href="https://www.hardenize.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#hardenize-com" rel="alternate" type="text/html"/>
   <id>https://www.hardenize.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Bir alan adının DNS, e-posta (SPF/DKIM/DMARC), TLS ve web başlığı güvenliğini tek raporda toplayan tarayıcı. Tek katmanı ölçen testlerin aksine bütün dış yüzeyi birlikte gösterir; kamuya açık tek tarama ücretsiz, sürekli izleme ücretli.</summary>
+  <content type="html">&lt;p&gt;Bir alan adının DNS, e-posta (SPF/DKIM/DMARC), TLS ve web başlığı güvenliğini tek raporda toplayan tarayıcı. Tek katmanı ölçen testlerin aksine bütün dış yüzeyi birlikte gösterir; kamuya açık tek tarama ücretsiz, sürekli izleme ücretli.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.hardenize.com/&quot;&gt;https://www.hardenize.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>How's My SSL?</title>
-  <link href="https://www.howsmyssl.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#howsmyssl-com" rel="alternate" type="text/html"/>
   <id>https://www.howsmyssl.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Tarayıcının TLS istemci yapılandırmasını (sürüm, şifre takımları, bilinen zayıflıklar) tek sayfada değerlendiren test. SSL Labs sunucuyu test eder; bu ise senin tarafını, yani tarayıcıyı ve işletim sistemini sınar; sonuç JSON API olarak da alınabiliyor. SSL Labs sunucuyu sınar, bu ise istemci tarafını.</summary>
+  <content type="html">&lt;p&gt;Tarayıcının TLS istemci yapılandırmasını (sürüm, şifre takımları, bilinen zayıflıklar) tek sayfada değerlendiren test. SSL Labs sunucuyu test eder; bu ise senin tarafını, yani tarayıcıyı ve işletim sistemini sınar; sonuç JSON API olarak da alınabiliyor. SSL Labs sunucuyu sınar, bu ise istemci tarafını.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.howsmyssl.com/&quot;&gt;https://www.howsmyssl.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>MDN HTTP Observatory</title>
-  <link href="https://observatory.mozilla.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#observatory-mozilla-org" rel="alternate" type="text/html"/>
   <id>https://observatory.mozilla.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Mozilla'nın bir sitenin başlıklarını, çerezlerini ve TLS ayarlarını güvenlik en iyi uygulamalarına göre puanlayan tarayıcı içi denetleyicisi; artık MDN içinde. securityheaders.com'dan farkı yeniden test geçmişi tutması ve açık kaynak bir tarayıcı (http-observatory) tarafından desteklenmesi.</summary>
+  <content type="html">&lt;p&gt;Mozilla'nın bir sitenin başlıklarını, çerezlerini ve TLS ayarlarını güvenlik en iyi uygulamalarına göre puanlayan tarayıcı içi denetleyicisi; artık MDN içinde. securityheaders.com'dan farkı yeniden test geçmişi tutması ve açık kaynak bir tarayıcı (http-observatory) tarafından desteklenmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://observatory.mozilla.org/&quot;&gt;https://observatory.mozilla.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Security Headers</title>
-  <link href="https://securityheaders.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#securityheaders-com" rel="alternate" type="text/html"/>
   <id>https://securityheaders.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Bir sitenin HTTP yanıt başlıklarını (CSP, HSTS, X-Frame-Options, Permissions-Policy vb.) tarayıp A–F arası not veren ve eksik olanı açıklayan tarayıcı içi test. SSL Labs TLS katmanına bakar; bu, uygulama katmanındaki başlık sertleştirmesine bakar. TLS katmanına bakan araçlar yerine uygulama katmanı başlıklarına bakar.</summary>
+  <content type="html">&lt;p&gt;Bir sitenin HTTP yanıt başlıklarını (CSP, HSTS, X-Frame-Options, Permissions-Policy vb.) tarayıp A–F arası not veren ve eksik olanı açıklayan tarayıcı içi test. SSL Labs TLS katmanına bakar; bu, uygulama katmanındaki başlık sertleştirmesine bakar. TLS katmanına bakan araçlar yerine uygulama katmanı başlıklarına bakar.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://securityheaders.com/&quot;&gt;https://securityheaders.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Static Analysis Tools</title>
-  <link href="https://github.com/analysis-tools-dev/static-analysis"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#github-com-analysis-tools-dev-static-analysis" rel="alternate" type="text/html"/>
   <id>https://github.com/analysis-tools-dev/static-analysis</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Her programlama dili ve biçim için statik analiz, linter ve biçimlendirici araçlarını dile göre gruplayan derleme (eski adı awesome-static-analysis). Tek bir araca değil, seçeneklerin karşılaştırmalı haritasına bakmak için.</summary>
+  <content type="html">&lt;p&gt;Her programlama dili ve biçim için statik analiz, linter ve biçimlendirici araçlarını dile göre gruplayan derleme (eski adı awesome-static-analysis). Tek bir araca değil, seçeneklerin karşılaştırmalı haritasına bakmak için.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/analysis-tools-dev/static-analysis&quot;&gt;https://github.com/analysis-tools-dev/static-analysis&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Academy Bugs</title>
-  <link href="https://academybugs.com/find-bugs/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#academybugs-com-find-bugs" rel="alternate" type="text/html"/>
   <id>https://academybugs.com/find-bugs/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>İçine 25 gerçek hata yerleştirilmiş, hata bulma pratiği yaptıran site. Otomasyon pratik sitelerinden farkı elle keşif testine yönelik olması: hataları bulup raporluyorsun.</summary>
+  <content type="html">&lt;p&gt;İçine 25 gerçek hata yerleştirilmiş, hata bulma pratiği yaptıran site. Otomasyon pratik sitelerinden farkı elle keşif testine yönelik olması: hataları bulup raporluyorsun.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://academybugs.com/find-bugs/&quot;&gt;https://academybugs.com/find-bugs/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Airport Gap</title>
-  <link href="https://airportgap.dev-tester.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#airportgap-dev-tester-com" rel="alternate" type="text/html"/>
   <id>https://airportgap.dev-tester.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>API otomasyon testini geliştirmek için hazırlanmış RESTful API. Basit sahte API’lerden farkı token ile kimlik doğrulama ve istek sınırı gibi gerçekçi davranışlar sunması.</summary>
+  <content type="html">&lt;p&gt;API otomasyon testini geliştirmek için hazırlanmış RESTful API. Basit sahte API’lerden farkı token ile kimlik doğrulama ve istek sınırı gibi gerçekçi davranışlar sunması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://airportgap.dev-tester.com/&quot;&gt;https://airportgap.dev-tester.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>API Challenges</title>
-  <link href="https://apichallenges.eviltester.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#apichallenges-eviltester-com" rel="alternate" type="text/html"/>
   <id>https://apichallenges.eviltester.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>API testi pratiği için meydan okuma, öğretici ve referanslar dizisi; Alan Richardson (EvilTester) hazırladı. Sıradan sahte API’lerden farkı görev listesiyle gelmesi: her meydan okumayı tamamladıkça ilerlemen işaretleniyor.</summary>
+  <content type="html">&lt;p&gt;API testi pratiği için meydan okuma, öğretici ve referanslar dizisi; Alan Richardson (EvilTester) hazırladı. Sıradan sahte API’lerden farkı görev listesiyle gelmesi: her meydan okumayı tamamladıkça ilerlemen işaretleniyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://apichallenges.eviltester.com/&quot;&gt;https://apichallenges.eviltester.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Applitools</title>
-  <link href="https://applitools.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#applitools-com" rel="alternate" type="text/html"/>
   <id>https://applitools.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Görsel yapay zekâyla ekran karşılaştırması yapan görsel regresyon test platformu. Piksel piksel karşılaştıran araçlardan farkı kenar yumuşatma gibi önemsiz farkları yok sayıp gerçek değişiklikleri işaretlemesi.</summary>
+  <content type="html">&lt;p&gt;Görsel yapay zekâyla ekran karşılaştırması yapan görsel regresyon test platformu. Piksel piksel karşılaştıran araçlardan farkı kenar yumuşatma gibi önemsiz farkları yok sayıp gerçek değişiklikleri işaretlemesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://applitools.com&quot;&gt;https://applitools.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Automation Exercise</title>
-  <link href="https://www.automationexercise.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#automationexercise-com" rel="alternate" type="text/html"/>
   <id>https://www.automationexercise.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>UI ve API arka ucuyla gelen, hazır test senaryosu listesi olan otomasyon pratik sitesi. Tek sayfalık demo sitelerden farkı kayıt, sepet ve ödeme gibi uçtan uca akışları API’siyle birlikte sunması.</summary>
+  <content type="html">&lt;p&gt;UI ve API arka ucuyla gelen, hazır test senaryosu listesi olan otomasyon pratik sitesi. Tek sayfalık demo sitelerden farkı kayıt, sepet ve ödeme gibi uçtan uca akışları API’siyle birlikte sunması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.automationexercise.com/&quot;&gt;https://www.automationexercise.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Appium</title>
-  <link href="https://github.com/SrinivasanTarget/awesome-appium"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#github-com-srinivasantarget-awesome-appium" rel="alternate" type="text/html"/>
   <id>https://github.com/SrinivasanTarget/awesome-appium</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Mobil uygulama test otomasyonu aracı Appium için kaynak listesi. Espresso ya da XCUITest gibi platforma özgü araçlardan farkı Android ve iOS’u WebDriver protokolüyle tek API’den sürmesi.</summary>
+  <content type="html">&lt;p&gt;Mobil uygulama test otomasyonu aracı Appium için kaynak listesi. Espresso ya da XCUITest gibi platforma özgü araçlardan farkı Android ve iOS’u WebDriver protokolüyle tek API’den sürmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/SrinivasanTarget/awesome-appium&quot;&gt;https://github.com/SrinivasanTarget/awesome-appium&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome AVA</title>
-  <link href="https://github.com/avajs/awesome-ava"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#github-com-avajs-awesome-ava" rel="alternate" type="text/html"/>
   <id>https://github.com/avajs/awesome-ava</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>JavaScript test koşucusu AVA için eklenti ve kaynak listesi. Jest’ten farkı test dosyalarını varsayılan olarak ayrı süreçlerde, eşzamanlı koşturması.</summary>
+  <content type="html">&lt;p&gt;JavaScript test koşucusu AVA için eklenti ve kaynak listesi. Jest’ten farkı test dosyalarını varsayılan olarak ayrı süreçlerde, eşzamanlı koşturması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/avajs/awesome-ava&quot;&gt;https://github.com/avajs/awesome-ava&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome CodeRabbit</title>
-  <link href="https://github.com/coderabbitai/awesome-coderabbit"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#github-com-coderabbitai-awesome-coderabbit" rel="alternate" type="text/html"/>
   <id>https://github.com/coderabbitai/awesome-coderabbit</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Yapay zekâ destekli kod inceleme platformu CodeRabbit için kaynak listesi. Genel yapay zekâ kod inceleme listelerinden farkı yalnız CodeRabbit yapılandırmalarını ve örnek kurallarını toplaması; listeyi şirketin kendisi sürdürüyor.</summary>
+  <content type="html">&lt;p&gt;Yapay zekâ destekli kod inceleme platformu CodeRabbit için kaynak listesi. Genel yapay zekâ kod inceleme listelerinden farkı yalnız CodeRabbit yapılandırmalarını ve örnek kurallarını toplaması; listeyi şirketin kendisi sürdürüyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/coderabbitai/awesome-coderabbit&quot;&gt;https://github.com/coderabbitai/awesome-coderabbit&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Gatling</title>
-  <link href="https://github.com/aliesbelik/awesome-gatling"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#github-com-aliesbelik-awesome-gatling" rel="alternate" type="text/html"/>
   <id>https://github.com/aliesbelik/awesome-gatling</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Scala tabanlı yük ve performans test çatısı Gatling için kaynak listesi. JMeter’dan farkı senaryoları arayüzde tıklayarak değil kodla (Scala, Java, Kotlin) yazman.</summary>
+  <content type="html">&lt;p&gt;Scala tabanlı yük ve performans test çatısı Gatling için kaynak listesi. JMeter’dan farkı senaryoları arayüzde tıklayarak değil kodla (Scala, Java, Kotlin) yazman.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/aliesbelik/awesome-gatling&quot;&gt;https://github.com/aliesbelik/awesome-gatling&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome JMeter</title>
-  <link href="https://github.com/aliesbelik/awesome-jmeter"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#github-com-aliesbelik-awesome-jmeter" rel="alternate" type="text/html"/>
   <id>https://github.com/aliesbelik/awesome-jmeter</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Yük ve performans ölçüm aracı JMeter için kaynak listesi. Genel performans testi listelerinden farkı yalnız JMeter eklentilerini, entegrasyonlarını ve rehberlerini toplaması.</summary>
+  <content type="html">&lt;p&gt;Yük ve performans ölçüm aracı JMeter için kaynak listesi. Genel performans testi listelerinden farkı yalnız JMeter eklentilerini, entegrasyonlarını ve rehberlerini toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/aliesbelik/awesome-jmeter&quot;&gt;https://github.com/aliesbelik/awesome-jmeter&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome k6</title>
-  <link href="https://github.com/grafana/awesome-k6"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#github-com-grafana-awesome-k6" rel="alternate" type="text/html"/>
   <id>https://github.com/grafana/awesome-k6</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Geliştirici odaklı yük ve performans testi aracı k6 için kaynak listesi. Genel performans listelerinden farkı tek araca ve onun betik ekosistemine odaklanması.</summary>
+  <content type="html">&lt;p&gt;Geliştirici odaklı yük ve performans testi aracı k6 için kaynak listesi. Genel performans listelerinden farkı tek araca ve onun betik ekosistemine odaklanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/grafana/awesome-k6&quot;&gt;https://github.com/grafana/awesome-k6&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Playwright</title>
-  <link href="https://github.com/mxschmitt/awesome-playwright"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#github-com-mxschmitt-awesome-playwright" rel="alternate" type="text/html"/>
   <id>https://github.com/mxschmitt/awesome-playwright</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Playwright ekosistemi için araç, eklenti ve örneklerin listesi. Resmî dokümandan farkı topluluk araçlarını ve gerçek proje örneklerini bir araya getirmesi.</summary>
+  <content type="html">&lt;p&gt;Playwright ekosistemi için araç, eklenti ve örneklerin listesi. Resmî dokümandan farkı topluluk araçlarını ve gerçek proje örneklerini bir araya getirmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/mxschmitt/awesome-playwright&quot;&gt;https://github.com/mxschmitt/awesome-playwright&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Regression Testing</title>
-  <link href="https://github.com/mojoaxel/awesome-regression-testing"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#github-com-mojoaxel-awesome-regression-testing" rel="alternate" type="text/html"/>
   <id>https://github.com/mojoaxel/awesome-regression-testing</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Değişikliklerin işlevi/stili bozmadığını doğrulayan görsel regresyon araçları listesi. Birim testlerinden farkı ekran görüntülerini karşılaştırarak kodun göremediği stil kırılmalarını yakalaması.</summary>
+  <content type="html">&lt;p&gt;Değişikliklerin işlevi/stili bozmadığını doğrulayan görsel regresyon araçları listesi. Birim testlerinden farkı ekran görüntülerini karşılaştırarak kodun göremediği stil kırılmalarını yakalaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/mojoaxel/awesome-regression-testing&quot;&gt;https://github.com/mojoaxel/awesome-regression-testing&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Selenium</title>
-  <link href="https://github.com/christian-bromann/awesome-selenium"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#github-com-christian-bromann-awesome-selenium" rel="alternate" type="text/html"/>
   <id>https://github.com/christian-bromann/awesome-selenium</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Selenium tarayıcı otomasyon çatısı ve çevresindeki araçların derlemesi. Dağınık aramadan farkı dil bağlayıcıları, ızgara ve eklentileri tek yerde toplaması.</summary>
+  <content type="html">&lt;p&gt;Selenium tarayıcı otomasyon çatısı ve çevresindeki araçların derlemesi. Dağınık aramadan farkı dil bağlayıcıları, ızgara ve eklentileri tek yerde toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/christian-bromann/awesome-selenium&quot;&gt;https://github.com/christian-bromann/awesome-selenium&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Test Automation</title>
-  <link href="https://github.com/atinfo/awesome-test-automation"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#github-com-atinfo-awesome-test-automation" rel="alternate" type="text/html"/>
   <id>https://github.com/atinfo/awesome-test-automation</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Test otomasyonu çatıları, araçları ve kaynaklarını dile ve platforma göre derleyen liste. Dağınık araç aramalarından farkı hepsini tek, düzenli yerde toplaması.</summary>
+  <content type="html">&lt;p&gt;Test otomasyonu çatıları, araçları ve kaynaklarını dile ve platforma göre derleyen liste. Dağınık araç aramalarından farkı hepsini tek, düzenli yerde toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/atinfo/awesome-test-automation&quot;&gt;https://github.com/atinfo/awesome-test-automation&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Testing</title>
-  <link href="https://github.com/TheJambo/awesome-testing"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#github-com-thejambo-awesome-testing" rel="alternate" type="text/html"/>
   <id>https://github.com/TheJambo/awesome-testing</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Yazılım testinin her dalını — birim, uçtan uca, performans, sözleşme — kaynaklarıyla toplayan liste. Tek bir araç listesinden farkı kitapları ve test kuramını da araçlarla birlikte vermesi; bu dizideki pratik sitelerin geri kalanını da buradan bulabilirsin.</summary>
+  <content type="html">&lt;p&gt;Yazılım testinin her dalını — birim, uçtan uca, performans, sözleşme — kaynaklarıyla toplayan liste. Tek bir araç listesinden farkı kitapları ve test kuramını da araçlarla birlikte vermesi; bu dizideki pratik sitelerin geri kalanını da buradan bulabilirsin.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/TheJambo/awesome-testing&quot;&gt;https://github.com/TheJambo/awesome-testing&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Beeceptor</title>
-  <link href="https://beeceptor.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#beeceptor-com" rel="alternate" type="text/html"/>
   <id>https://beeceptor.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Saniyeler içinde sahte REST uç noktası kurup HTTP isteklerini yakalayan ve taklit eden araç. Kendi sahte sunucunu yazmaktan farkı kod ve kurulum gerektirmemesi.</summary>
+  <content type="html">&lt;p&gt;Saniyeler içinde sahte REST uç noktası kurup HTTP isteklerini yakalayan ve taklit eden araç. Kendi sahte sunucunu yazmaktan farkı kod ve kurulum gerektirmemesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://beeceptor.com&quot;&gt;https://beeceptor.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Browserling</title>
-  <link href="https://www.browserling.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#browserling-com" rel="alternate" type="text/html"/>
   <id>https://www.browserling.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Sitenizi farklı tarayıcı ve işletim sistemlerinde canlı test etmenizi sağlayan servis.</summary>
+  <content type="html">&lt;p&gt;Sitenizi farklı tarayıcı ve işletim sistemlerinde canlı test etmenizi sağlayan servis.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.browserling.com&quot;&gt;https://www.browserling.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Countries GraphQL API</title>
-  <link href="https://countries.trevorblades.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#countries-trevorblades-com" rel="alternate" type="text/html"/>
   <id>https://countries.trevorblades.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Ülke, kıta ve dil verisi sunan sade, herkese açık bir GraphQL API’si; anahtar istemiyor. REST tabanlı sahte API’lerden farkı GraphQL sorgusu ve istemci testi denemeye uygun olması.</summary>
+  <content type="html">&lt;p&gt;Ülke, kıta ve dil verisi sunan sade, herkese açık bir GraphQL API’si; anahtar istemiyor. REST tabanlı sahte API’lerden farkı GraphQL sorgusu ve istemci testi denemeye uygun olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://countries.trevorblades.com/&quot;&gt;https://countries.trevorblades.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Cypress</title>
-  <link href="https://cypress.io"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#cypress-io" rel="alternate" type="text/html"/>
   <id>https://cypress.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Tarayıcı içinde çalışan, canlı yeniden yükleme ve zaman yolculuğu hata ayıklamasıyla uçtan uca test çatısı. Selenium’dan farkı testin uygulamayla aynı tarayıcı döngüsünde çalışması; Playwright’a göre çoklu sekme ve çoklu tarayıcı desteği daha kısıtlı.</summary>
+  <content type="html">&lt;p&gt;Tarayıcı içinde çalışan, canlı yeniden yükleme ve zaman yolculuğu hata ayıklamasıyla uçtan uca test çatısı. Selenium’dan farkı testin uygulamayla aynı tarayıcı döngüsünde çalışması; Playwright’a göre çoklu sekme ve çoklu tarayıcı desteği daha kısıtlı.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cypress.io&quot;&gt;https://cypress.io&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>DummyJSON</title>
-  <link href="https://dummyjson.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#dummyjson-com" rel="alternate" type="text/html"/>
   <id>https://dummyjson.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Onlarca kaynak sunan sahte JSON REST API’si; hızlı prototip ve test verisi için. JSONPlaceholder’dan farkı daha zengin veri (ürün, sepet, tarif) ile birlikte kimlik doğrulama, sayfalama ve arama desteği.</summary>
+  <content type="html">&lt;p&gt;Onlarca kaynak sunan sahte JSON REST API’si; hızlı prototip ve test verisi için. JSONPlaceholder’dan farkı daha zengin veri (ürün, sepet, tarif) ile birlikte kimlik doğrulama, sayfalama ve arama desteği.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://dummyjson.com&quot;&gt;https://dummyjson.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Fake Store API</title>
-  <link href="https://fakestoreapi.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#fakestoreapi-com" rel="alternate" type="text/html"/>
   <id>https://fakestoreapi.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Ürün, sepet ve kullanıcı içeren sahte e-ticaret REST API’si; ön yüz prototipleri için. JSONPlaceholder gibi genel sahte API’lerden farkı e-ticarete özgü veri yapısı.</summary>
+  <content type="html">&lt;p&gt;Ürün, sepet ve kullanıcı içeren sahte e-ticaret REST API’si; ön yüz prototipleri için. JSONPlaceholder gibi genel sahte API’lerden farkı e-ticarete özgü veri yapısı.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://fakestoreapi.com&quot;&gt;https://fakestoreapi.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>GoREST</title>
-  <link href="https://gorest.co.in/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#gorest-co-in" rel="alternate" type="text/html"/>
   <id>https://gorest.co.in/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>OAuth2 kimlik doğrulamalı, yazma destekli, REST ve GraphQL sunan test API’si. Salt-okunur sahte API’lerden farkı kayıt oluşturma/güncelleme akışını gerçekten denetmesi.</summary>
+  <content type="html">&lt;p&gt;OAuth2 kimlik doğrulamalı, yazma destekli, REST ve GraphQL sunan test API’si. Salt-okunur sahte API’lerden farkı kayıt oluşturma/güncelleme akışını gerçekten denetmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://gorest.co.in/&quot;&gt;https://gorest.co.in/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>httpbin</title>
-  <link href="https://httpbin.org"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#httpbin-org" rel="alternate" type="text/html"/>
   <id>https://httpbin.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>İstek başlıklarını, gövdeyi ve yanıtı aynen geri döndüren HTTP test servisi. Sahte REST API’lerinden farkı veriyi değil HTTP’nin kendisini — başlık, çerez, yönlendirme, sıkıştırma — test etmene yaraması.</summary>
+  <content type="html">&lt;p&gt;İstek başlıklarını, gövdeyi ve yanıtı aynen geri döndüren HTTP test servisi. Sahte REST API’lerinden farkı veriyi değil HTTP’nin kendisini — başlık, çerez, yönlendirme, sıkıştırma — test etmene yaraması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://httpbin.org&quot;&gt;https://httpbin.org&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Insomnia</title>
-  <link href="https://insomnia.rest/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#insomnia-rest" rel="alternate" type="text/html"/>
   <id>https://insomnia.rest/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>REST, GraphQL ve gRPC istekleri için sade bir API istemcisi. Postman’den farkı daha hafif ve açık kaynak olması, git ile sürümlenebilmesi.</summary>
+  <content type="html">&lt;p&gt;REST, GraphQL ve gRPC istekleri için sade bir API istemcisi. Postman’den farkı daha hafif ve açık kaynak olması, git ile sürümlenebilmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://insomnia.rest/&quot;&gt;https://insomnia.rest/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>JSONPlaceholder</title>
-  <link href="https://jsonplaceholder.typicode.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#jsonplaceholder-typicode-com" rel="alternate" type="text/html"/>
   <id>https://jsonplaceholder.typicode.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>İstek atınca gerçekçi sahte JSON döndüren, kurulum istemeyen test API’si. Kendi mock sunucunu kurmaktan farkı hemen hazır olması — prototip ve öğretici için standart.</summary>
+  <content type="html">&lt;p&gt;İstek atınca gerçekçi sahte JSON döndüren, kurulum istemeyen test API’si. Kendi mock sunucunu kurmaktan farkı hemen hazır olması — prototip ve öğretici için standart.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://jsonplaceholder.typicode.com/&quot;&gt;https://jsonplaceholder.typicode.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Katalon</title>
-  <link href="https://katalon.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#katalon-com" rel="alternate" type="text/html"/>
   <id>https://katalon.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Web, API ve mobil için düşük kodlu test otomasyonu aracı. Playwright gibi kod tabanlı çatılardan farkı kayıt-oynatma ve görsel editörle kod yazmadan senaryo kurdurması; gelişmiş özellikler ücretli.</summary>
+  <content type="html">&lt;p&gt;Web, API ve mobil için düşük kodlu test otomasyonu aracı. Playwright gibi kod tabanlı çatılardan farkı kayıt-oynatma ve görsel editörle kod yazmadan senaryo kurdurması; gelişmiş özellikler ücretli.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://katalon.com&quot;&gt;https://katalon.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Mailtrap</title>
-  <link href="https://mailtrap.io"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#mailtrap-io" rel="alternate" type="text/html"/>
   <id>https://mailtrap.io</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Giden e-postaları gerçek alıcılara ulaşmadan yakalayan e-posta test kum havuzu. Test için gerçek bir SMTP sunucusu kullanmaktan farkı yanlışlıkla müşteriye e-posta gitmesini imkânsız kılması.</summary>
+  <content type="html">&lt;p&gt;Giden e-postaları gerçek alıcılara ulaşmadan yakalayan e-posta test kum havuzu. Test için gerçek bir SMTP sunucusu kullanmaktan farkı yanlışlıkla müşteriye e-posta gitmesini imkânsız kılması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://mailtrap.io&quot;&gt;https://mailtrap.io&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Ministry of Testing</title>
-  <link href="https://ministryoftesting.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#ministryoftesting-com" rel="alternate" type="text/html"/>
   <id>https://ministryoftesting.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Yazılım testçileri için topluluk, öğrenme kaynakları ve etkinlikleri bir araya getiren merkez. Araç odaklı sitelerden farkı test mesleğinin kendisine — keşif testi, test stratejisi, kariyer — odaklanması.</summary>
+  <content type="html">&lt;p&gt;Yazılım testçileri için topluluk, öğrenme kaynakları ve etkinlikleri bir araya getiren merkez. Araç odaklı sitelerden farkı test mesleğinin kendisine — keşif testi, test stratejisi, kariyer — odaklanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://ministryoftesting.com&quot;&gt;https://ministryoftesting.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OMDb API</title>
-  <link href="https://www.omdbapi.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#omdbapi-com" rel="alternate" type="text/html"/>
   <id>https://www.omdbapi.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Film ve dizi verisi sunan API; test ve prototip için elverişli. IMDb’nin herkese açık bir API’si olmadığı için yaygın alternatif; ücretsiz anahtar günlük 1.000 istekle sınırlı.</summary>
+  <content type="html">&lt;p&gt;Film ve dizi verisi sunan API; test ve prototip için elverişli. IMDb’nin herkese açık bir API’si olmadığı için yaygın alternatif; ücretsiz anahtar günlük 1.000 istekle sınırlı.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.omdbapi.com/&quot;&gt;https://www.omdbapi.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Playwright</title>
-  <link href="https://playwright.dev"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#playwright-dev" rel="alternate" type="text/html"/>
   <id>https://playwright.dev</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Microsoft’un çok tarayıcılı (Chromium, Firefox, WebKit) otomasyon ve test çatısı; üçünü tek API ile sürer. Selenium’dan farkı otomatik beklemesi ve tarayıcıyla WebDriver yerine kendi protokolü üzerinden konuşması.</summary>
+  <content type="html">&lt;p&gt;Microsoft’un çok tarayıcılı (Chromium, Firefox, WebKit) otomasyon ve test çatısı; üçünü tek API ile sürer. Selenium’dan farkı otomatik beklemesi ve tarayıcıyla WebDriver yerine kendi protokolü üzerinden konuşması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://playwright.dev&quot;&gt;https://playwright.dev&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

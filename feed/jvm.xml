@@ -2,197 +2,199 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
 <title>Java &amp; JVM — Kullanışlı Siteler</title>
 <subtitle>Yazılımdan yapay zekaya, güvenlikten ekonomiye ve mimariye on alanda elle derlenmiş, açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/jvm.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/jvm.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/jvm.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/jvm.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/jvm.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>Ammonite</title>
-  <link href="https://github.com/lihaoyi/Ammonite"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/jvm.html#github-com-lihaoyi-ammonite" rel="alternate" type="text/html"/>
   <id>https://github.com/lihaoyi/Ammonite</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Scala’yı BASH benzeri dosya işlemleri için kullanılabilir kılan gelişmiş REPL.</summary>
+  <content type="html">&lt;p&gt;Scala’yı BASH benzeri dosya işlemleri için kullanılabilir kılan gelişmiş REPL.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/lihaoyi/Ammonite&quot;&gt;https://github.com/lihaoyi/Ammonite&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Scala</title>
-  <link href="https://github.com/lauris/awesome-scala"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/jvm.html#github-com-lauris-awesome-scala" rel="alternate" type="text/html"/>
   <id>https://github.com/lauris/awesome-scala</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Scala kütüphane ve araçlarının konuya göre listesi. Dağınık aramadan farkı fonksiyonel ve büyük veri kütüphanelerini bir arada göstermesi.</summary>
+  <content type="html">&lt;p&gt;Scala kütüphane ve araçlarının konuya göre listesi. Dağınık aramadan farkı fonksiyonel ve büyük veri kütüphanelerini bir arada göstermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/lauris/awesome-scala&quot;&gt;https://github.com/lauris/awesome-scala&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>better-files</title>
-  <link href="https://github.com/pathikrit/better-files"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/jvm.html#github-com-pathikrit-better-files" rel="alternate" type="text/html"/>
   <id>https://github.com/pathikrit/better-files</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Scala’da dosya işlemlerini kolaylaştıran ince NIO sarmalayıcı kütüphane. java.nio’yu doğrudan kullanmaktan farkı dosya okuma, yazma ve gezinmeyi tek satırlık, okunaklı Scala deyimlerine indirmesi.</summary>
+  <content type="html">&lt;p&gt;Scala’da dosya işlemlerini kolaylaştıran ince NIO sarmalayıcı kütüphane. java.nio’yu doğrudan kullanmaktan farkı dosya okuma, yazma ve gezinmeyi tek satırlık, okunaklı Scala deyimlerine indirmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/pathikrit/better-files&quot;&gt;https://github.com/pathikrit/better-files&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Clojure</title>
-  <link href="https://clojure.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/jvm.html#clojure-org" rel="alternate" type="text/html"/>
   <id>https://clojure.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>JVM üzerinde çalışan modern bir Lisp lehçesi. Common Lisp’ten farkı Java kütüphanelerini doğrudan kullanabilmesi ve veri yapılarının varsayılan olarak değişmez olması.</summary>
+  <content type="html">&lt;p&gt;JVM üzerinde çalışan modern bir Lisp lehçesi. Common Lisp’ten farkı Java kütüphanelerini doğrudan kullanabilmesi ve veri yapılarının varsayılan olarak değişmez olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://clojure.org/&quot;&gt;https://clojure.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Coursier</title>
-  <link href="https://github.com/alexarchambault/coursier"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/jvm.html#github-com-alexarchambault-coursier" rel="alternate" type="text/html"/>
   <id>https://github.com/alexarchambault/coursier</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Saf Scala ile yazılmış JVM bağımlılık çözücü ve uygulama başlatıcı. Klasik Maven/Ivy çözümlemesinden farkı paralel indirmeyle çok daha hızlı olması; sbt de bağımlılıkları artık onunla çözüyor.</summary>
+  <content type="html">&lt;p&gt;Saf Scala ile yazılmış JVM bağımlılık çözücü ve uygulama başlatıcı. Klasik Maven/Ivy çözümlemesinden farkı paralel indirmeyle çok daha hızlı olması; sbt de bağımlılıkları artık onunla çözüyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/alexarchambault/coursier&quot;&gt;https://github.com/alexarchambault/coursier&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>JCTools</title>
-  <link href="https://github.com/JCTools/JCTools"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/jvm.html#github-com-jctools-jctools" rel="alternate" type="text/html"/>
   <id>https://github.com/JCTools/JCTools</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>JVM için çok yüksek başarımlı eşzamanlı kuyruklar; Netty gibi projelerce kullanılıyor. java.util.concurrent kuyruklarından farkı tek/çok üretici–tüketici senaryolarına özel, kilitsiz tasarımlar sunması.</summary>
+  <content type="html">&lt;p&gt;JVM için çok yüksek başarımlı eşzamanlı kuyruklar; Netty gibi projelerce kullanılıyor. java.util.concurrent kuyruklarından farkı tek/çok üretici–tüketici senaryolarına özel, kilitsiz tasarımlar sunması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/JCTools/JCTools&quot;&gt;https://github.com/JCTools/JCTools&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>JMH</title>
-  <link href="https://github.com/openjdk/jmh"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/jvm.html#github-com-openjdk-jmh" rel="alternate" type="text/html"/>
   <id>https://github.com/openjdk/jmh</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>JVM’de mikro-ölçüm için OpenJDK aracı; ölçümü bozan JIT etkilerini hesaba katar. Elle zamanlamadan farkı ısınma, ölü kod eleme gibi tuzakları doğru kurgulaması.</summary>
+  <content type="html">&lt;p&gt;JVM’de mikro-ölçüm için OpenJDK aracı; ölçümü bozan JIT etkilerini hesaba katar. Elle zamanlamadan farkı ısınma, ölü kod eleme gibi tuzakları doğru kurgulaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/openjdk/jmh&quot;&gt;https://github.com/openjdk/jmh&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Kotlin</title>
-  <link href="https://kotlinlang.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/jvm.html#kotlinlang-org" rel="alternate" type="text/html"/>
   <id>https://kotlinlang.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>JVM üzerinde çalışan, Android’in tercih ettiği çok platformlu dil. Java’dan farkı null güvenliği, daha kısa sözdizimi ve eşyordamlar (coroutines); Java koduyla tam uyumlu çalışıyor.</summary>
+  <content type="html">&lt;p&gt;JVM üzerinde çalışan, Android’in tercih ettiği çok platformlu dil. Java’dan farkı null güvenliği, daha kısa sözdizimi ve eşyordamlar (coroutines); Java koduyla tam uyumlu çalışıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://kotlinlang.org/&quot;&gt;https://kotlinlang.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OpenJDK</title>
-  <link href="https://openjdk.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/jvm.html#openjdk-org" rel="alternate" type="text/html"/>
   <id>https://openjdk.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Java platformunun açık kaynak referans uygulaması — dilin ve JVM’in geliştiği yer. Satıcı dağıtımlarından farkı standardın kendisinin burada tanımlanması.</summary>
+  <content type="html">&lt;p&gt;Java platformunun açık kaynak referans uygulaması — dilin ve JVM’in geliştiği yer. Satıcı dağıtımlarından farkı standardın kendisinin burada tanımlanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://openjdk.org/&quot;&gt;https://openjdk.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Scala</title>
-  <link href="https://www.scala-lang.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/jvm.html#scala-lang-org" rel="alternate" type="text/html"/>
   <id>https://www.scala-lang.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Nesne yönelimli ve işlevseli birleştiren, JVM üzerinde çalışan dil; Spark’ın yazıldığı dil. Java’dan farkı güçlü tip çıkarımı, desen eşleme ve işlevsel koleksiyonlar.</summary>
+  <content type="html">&lt;p&gt;Nesne yönelimli ve işlevseli birleştiren, JVM üzerinde çalışan dil; Spark’ın yazıldığı dil. Java’dan farkı güçlü tip çıkarımı, desen eşleme ve işlevsel koleksiyonlar.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.scala-lang.org/&quot;&gt;https://www.scala-lang.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Scalastyle</title>
-  <link href="https://github.com/scalastyle/scalastyle"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/jvm.html#github-com-scalastyle-scalastyle" rel="alternate" type="text/html"/>
   <id>https://github.com/scalastyle/scalastyle</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Scala kaynak kodunu biçim ve stil kurallarına göre denetleyen linter; projenin sitesi kapandı, depo 2022’den beri durgun. scalafmt’den farkı kodu biçimlemek yerine kurala uymayanı raporlaması; yeni projelerde Scalafix daha yaygın.</summary>
+  <content type="html">&lt;p&gt;Scala kaynak kodunu biçim ve stil kurallarına göre denetleyen linter; projenin sitesi kapandı, depo 2022’den beri durgun. scalafmt’den farkı kodu biçimlemek yerine kurala uymayanı raporlaması; yeni projelerde Scalafix daha yaygın.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/scalastyle/scalastyle&quot;&gt;https://github.com/scalastyle/scalastyle&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Scoverage</title>
-  <link href="https://github.com/scoverage"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/jvm.html#github-com-scoverage" rel="alternate" type="text/html"/>
   <id>https://github.com/scoverage</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Scala için ifade (statement) bazlı kod kapsama aracı; satır bazlıdan daha isabetli.</summary>
+  <content type="html">&lt;p&gt;Scala için ifade (statement) bazlı kod kapsama aracı; satır bazlıdan daha isabetli.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/scoverage&quot;&gt;https://github.com/scoverage&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Vavr</title>
-  <link href="https://github.com/vavr-io/vavr"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/jvm.html#github-com-vavr-io-vavr" rel="alternate" type="text/html"/>
   <id>https://github.com/vavr-io/vavr</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Java’ya kalıcı koleksiyonlar ve fonksiyonel kontrol yapıları getiren kütüphane. Standart koleksiyonlardan farkı değişmezliği ve Try/Either gibi tipleri öne alması.</summary>
+  <content type="html">&lt;p&gt;Java’ya kalıcı koleksiyonlar ve fonksiyonel kontrol yapıları getiren kütüphane. Standart koleksiyonlardan farkı değişmezliği ve Try/Either gibi tipleri öne alması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/vavr-io/vavr&quot;&gt;https://github.com/vavr-io/vavr&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Apache Maven</title>
-  <link href="https://maven.apache.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/jvm.html#maven-apache-org" rel="alternate" type="text/html"/>
   <id>https://maven.apache.org/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Java için bağımlılık yönetimi ve derlemeyi standart bir proje düzeniyle yapan araç. Elle jar toplamaktan farkı bağımlılıkları merkezî depodan çözüp yaşam döngüsünü tanımlaması.</summary>
+  <content type="html">&lt;p&gt;Java için bağımlılık yönetimi ve derlemeyi standart bir proje düzeniyle yapan araç. Elle jar toplamaktan farkı bağımlılıkları merkezî depodan çözüp yaşam döngüsünü tanımlaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://maven.apache.org/&quot;&gt;https://maven.apache.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Java</title>
-  <link href="https://github.com/akullpp/awesome-java"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/jvm.html#github-com-akullpp-awesome-java" rel="alternate" type="text/html"/>
   <id>https://github.com/akullpp/awesome-java</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Java kütüphane ve çerçevelerini konuya göre düzenleyen liste. Maven Central aramasından farkı seçilmiş, kategorilenmiş ve bakımı yapılan bir başlangıç haritası olması.</summary>
+  <content type="html">&lt;p&gt;Java kütüphane ve çerçevelerini konuya göre düzenleyen liste. Maven Central aramasından farkı seçilmiş, kategorilenmiş ve bakımı yapılan bir başlangıç haritası olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/akullpp/awesome-java&quot;&gt;https://github.com/akullpp/awesome-java&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Baeldung</title>
-  <link href="https://www.baeldung.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/jvm.html#baeldung-com" rel="alternate" type="text/html"/>
   <id>https://www.baeldung.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Java ve Spring için çözümlü, güncel öğreticilerin en geniş arşivlerinden biri. Resmî dokümandan farkı “şunu nasıl yaparım” sorusuna çalışan kod örnekleriyle cevap vermesi.</summary>
+  <content type="html">&lt;p&gt;Java ve Spring için çözümlü, güncel öğreticilerin en geniş arşivlerinden biri. Resmî dokümandan farkı “şunu nasıl yaparım” sorusuna çalışan kod örnekleriyle cevap vermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.baeldung.com&quot;&gt;https://www.baeldung.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Dev.java · Learn</title>
-  <link href="https://dev.java/learn/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/jvm.html#dev-java-learn" rel="alternate" type="text/html"/>
   <id>https://dev.java/learn/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Oracle’ın güncel, resmî Java öğrenme portalı. Eski Java Tutorials’tan farkı modern sürümlere göre yenilenmiş, konu konu düzenlenmiş olması.</summary>
+  <content type="html">&lt;p&gt;Oracle’ın güncel, resmî Java öğrenme portalı. Eski Java Tutorials’tan farkı modern sürümlere göre yenilenmiş, konu konu düzenlenmiş olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://dev.java/learn/&quot;&gt;https://dev.java/learn/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Gradle</title>
-  <link href="https://gradle.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/jvm.html#gradle-org" rel="alternate" type="text/html"/>
   <id>https://gradle.org/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Java ve Android için betiklenebilir, artımlı derleme aracı. Maven’in XML’inden farkı derleme mantığını gerçek kodla (Kotlin/Groovy) yazıp yalnız değişeni yeniden derlemesi.</summary>
+  <content type="html">&lt;p&gt;Java ve Android için betiklenebilir, artımlı derleme aracı. Maven’in XML’inden farkı derleme mantığını gerçek kodla (Kotlin/Groovy) yazıp yalnız değişeni yeniden derlemesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://gradle.org/&quot;&gt;https://gradle.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Guava</title>
-  <link href="https://github.com/google/guava"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/jvm.html#github-com-google-guava" rel="alternate" type="text/html"/>
   <id>https://github.com/google/guava</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Google’ın Java için çekirdek yardımcı kütüphanesi — koleksiyonlar, önbellek, fonksiyonel ekler. Standart kütüphaneyi elle doldurmaktan farkı bu boşlukları test edilmiş biçimde kapatması.</summary>
+  <content type="html">&lt;p&gt;Google’ın Java için çekirdek yardımcı kütüphanesi — koleksiyonlar, önbellek, fonksiyonel ekler. Standart kütüphaneyi elle doldurmaktan farkı bu boşlukları test edilmiş biçimde kapatması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/google/guava&quot;&gt;https://github.com/google/guava&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Hibernate</title>
-  <link href="https://hibernate.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/jvm.html#hibernate-org" rel="alternate" type="text/html"/>
   <id>https://hibernate.org/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Java nesnelerini ilişkisel veritabanı satırlarına eşleyen ORM. Ham JDBC’den farkı SQL’i büyük ölçüde soyutlayıp nesne grafiğini kalıcılaştırması.</summary>
+  <content type="html">&lt;p&gt;Java nesnelerini ilişkisel veritabanı satırlarına eşleyen ORM. Ham JDBC’den farkı SQL’i büyük ölçüde soyutlayıp nesne grafiğini kalıcılaştırması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://hibernate.org/&quot;&gt;https://hibernate.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Jackson</title>
-  <link href="https://github.com/FasterXML/jackson"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/jvm.html#github-com-fasterxml-jackson" rel="alternate" type="text/html"/>
   <id>https://github.com/FasterXML/jackson</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Java’da JSON’u nesneye ve nesneyi JSON’a çeviren en yaygın kütüphane. El yazımı ayrıştırmadan farkı akış, ağaç ve veri-bağlama modlarını tek çatıda vermesi.</summary>
+  <content type="html">&lt;p&gt;Java’da JSON’u nesneye ve nesneyi JSON’a çeviren en yaygın kütüphane. El yazımı ayrıştırmadan farkı akış, ağaç ve veri-bağlama modlarını tek çatıda vermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/FasterXML/jackson&quot;&gt;https://github.com/FasterXML/jackson&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>JUnit 5</title>
-  <link href="https://junit.org/junit5/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/jvm.html#junit-org-junit5" rel="alternate" type="text/html"/>
   <id>https://junit.org/junit5/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Java’nın standart birim test çatısı; test yazımı ve çalıştırmanın temeli. Elle main’de denemekten farkı iddialar, yaşam döngüsü kancaları ve parametreli testler getirmesi.</summary>
+  <content type="html">&lt;p&gt;Java’nın standart birim test çatısı; test yazımı ve çalıştırmanın temeli. Elle main’de denemekten farkı iddialar, yaşam döngüsü kancaları ve parametreli testler getirmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://junit.org/junit5/&quot;&gt;https://junit.org/junit5/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Project Lombok</title>
-  <link href="https://projectlombok.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/jvm.html#projectlombok-org" rel="alternate" type="text/html"/>
   <id>https://projectlombok.org/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Getter/setter, yapıcı gibi tekrar eden Java kodunu ek açıklamalarla derleme anında üreten araç. Elle yazmaktan farkı sınıfı kısa tutup gürültüyü derleyiciye bırakması.</summary>
+  <content type="html">&lt;p&gt;Getter/setter, yapıcı gibi tekrar eden Java kodunu ek açıklamalarla derleme anında üreten araç. Elle yazmaktan farkı sınıfı kısa tutup gürültüyü derleyiciye bırakması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://projectlombok.org/&quot;&gt;https://projectlombok.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>SDKMAN!</title>
-  <link href="https://sdkman.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/jvm.html#sdkman-io" rel="alternate" type="text/html"/>
   <id>https://sdkman.io/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>JDK ve JVM araçlarının birden çok sürümünü kurup değiştiren komut satırı yöneticisi. Elle PATH ayarlamaktan farkı proje bazında sürüm geçişini tek komuta indirmesi.</summary>
+  <content type="html">&lt;p&gt;JDK ve JVM araçlarının birden çok sürümünü kurup değiştiren komut satırı yöneticisi. Elle PATH ayarlamaktan farkı proje bazında sürüm geçişini tek komuta indirmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://sdkman.io/&quot;&gt;https://sdkman.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Spring Boot</title>
-  <link href="https://spring.io/projects/spring-boot"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/jvm.html#spring-io-projects-spring-boot" rel="alternate" type="text/html"/>
   <id>https://spring.io/projects/spring-boot</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Spring uygulamalarını yapılandırma yükü olmadan, çalışır hâlde başlatan çatı. Ham Spring’den farkı akıllı varsayılanlar ve gömülü sunucuyla “tek komutla ayağa kalkması”.</summary>
+  <content type="html">&lt;p&gt;Spring uygulamalarını yapılandırma yükü olmadan, çalışır hâlde başlatan çatı. Ham Spring’den farkı akıllı varsayılanlar ve gömülü sunucuyla “tek komutla ayağa kalkması”.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://spring.io/projects/spring-boot&quot;&gt;https://spring.io/projects/spring-boot&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Spring Framework</title>
-  <link href="https://spring.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/jvm.html#spring-io" rel="alternate" type="text/html"/>
   <id>https://spring.io/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Kurumsal Java’da baskın olan uygulama çatısı — bağımlılık enjeksiyonu, web, veri. Kütüphane yığmaktan farkı bunları tek tutarlı programlama modelinde birleştirmesi.</summary>
+  <content type="html">&lt;p&gt;Kurumsal Java’da baskın olan uygulama çatısı — bağımlılık enjeksiyonu, web, veri. Kütüphane yığmaktan farkı bunları tek tutarlı programlama modelinde birleştirmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://spring.io/&quot;&gt;https://spring.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>The Java Tutorials</title>
-  <link href="https://docs.oracle.com/javase/tutorial/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/jvm.html#docs-oracle-com-javase-tutorial" rel="alternate" type="text/html"/>
   <id>https://docs.oracle.com/javase/tutorial/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Oracle’ın resmî Java öğreticisi; dil temellerinden koleksiyonlara ve eşzamanlılığa. Üçüncü parti kurslardan farkı standart kütüphanenin niyetini birinci ağızdan anlatması — karşılığında üslubu kuru ve bazı bölümleri eski sürümlerde kalmış.</summary>
+  <content type="html">&lt;p&gt;Oracle’ın resmî Java öğreticisi; dil temellerinden koleksiyonlara ve eşzamanlılığa. Üçüncü parti kurslardan farkı standart kütüphanenin niyetini birinci ağızdan anlatması — karşılığında üslubu kuru ve bazı bölümleri eski sürümlerde kalmış.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://docs.oracle.com/javase/tutorial/&quot;&gt;https://docs.oracle.com/javase/tutorial/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

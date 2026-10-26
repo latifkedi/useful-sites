@@ -2,148 +2,150 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title>Online Playgrounds &amp; Compilers — Useful Sites</title>
 <subtitle>A hand-curated, annotated link directory across ten areas, from software and AI to security, economics and architecture. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/en/oyunalani.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/en/oyunalani.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/oyunalani.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/oyunalani.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/oyunalani.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>.NET Fiddle</title>
-  <link href="https://dotnetfiddle.net/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/oyunalani.html#dotnetfiddle-net" rel="alternate" type="text/html"/>
   <id>https://dotnetfiddle.net/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Write, run and share C# and .NET code in the browser. Instead of installing Visual Studio you try a small snippet at once — the .NET counterpart to JSFiddle.</summary>
+  <content type="html">&lt;p&gt;Write, run and share C# and .NET code in the browser. Instead of installing Visual Studio you try a small snippet at once — the .NET counterpart to JSFiddle.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://dotnetfiddle.net/&quot;&gt;https://dotnetfiddle.net/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Liveweave</title>
-  <link href="https://liveweave.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/oyunalani.html#liveweave-com" rel="alternate" type="text/html"/>
   <id>https://liveweave.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An in-browser playground to try HTML, CSS and JS with live preview. Unlike CodePen it is a plain, account-free scratchpad without the community and discovery layer.</summary>
+  <content type="html">&lt;p&gt;An in-browser playground to try HTML, CSS and JS with live preview. Unlike CodePen it is a plain, account-free scratchpad without the community and discovery layer.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://liveweave.com/&quot;&gt;https://liveweave.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>myCompiler</title>
-  <link href="https://www.mycompiler.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/oyunalani.html#mycompiler-io" rel="alternate" type="text/html"/>
   <id>https://www.mycompiler.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An online IDE supporting many languages, with no install. Unlike Replit you can run and share single-file code by link without an account; the trade-off is limited multi-file project support.</summary>
+  <content type="html">&lt;p&gt;An online IDE supporting many languages, with no install. Unlike Replit you can run and share single-file code by link without an account; the trade-off is limited multi-file project support.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.mycompiler.io/&quot;&gt;https://www.mycompiler.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Ona (eski Gitpod)</title>
-  <link href="https://ona.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/oyunalani.html#ona-com" rel="alternate" type="text/html"/>
   <id>https://ona.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Starting as the Gitpod cloud dev environment, it became Ona in 2025 — a platform for background AI coding agents. Unlike cloud environments such as GitHub Codespaces, it now centres on the agents running inside rather than the environment itself.</summary>
+  <content type="html">&lt;p&gt;Starting as the Gitpod cloud dev environment, it became Ona in 2025 — a platform for background AI coding agents. Unlike cloud environments such as GitHub Codespaces, it now centres on the agents running inside rather than the environment itself.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://ona.com/&quot;&gt;https://ona.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OnlineGDB</title>
-  <link href="https://www.onlinegdb.com/online_c_compiler"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/oyunalani.html#onlinegdb-com-online-c-compiler" rel="alternate" type="text/html"/>
   <id>https://www.onlinegdb.com/online_c_compiler</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An online IDE that compiles C and many other languages in the browser. Unlike run-only sites such as Ideone it includes the gdb debugger, so you can set breakpoints and step through.</summary>
+  <content type="html">&lt;p&gt;An online IDE that compiles C and many other languages in the browser. Unlike run-only sites such as Ideone it includes the gdb debugger, so you can set breakpoints and step through.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.onlinegdb.com/online_c_compiler&quot;&gt;https://www.onlinegdb.com/online_c_compiler&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Compiler Explorer</title>
-  <link href="https://godbolt.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/oyunalani.html#godbolt-org" rel="alternate" type="text/html"/>
   <id>https://godbolt.org/</id>
   <updated>2026-08-19T23:35:33Z</updated>
-  <summary>Puts the generated assembly beside your source, with optimisation level and compiler version switchable so you see the difference immediately. It moves performance arguments from opinion to measurement.</summary>
+  <content type="html">&lt;p&gt;Puts the generated assembly beside your source, with optimisation level and compiler version switchable so you see the difference immediately. It moves performance arguments from opinion to measurement.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://godbolt.org/&quot;&gt;https://godbolt.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CodePen</title>
-  <link href="https://codepen.io"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/oyunalani.html#codepen-io" rel="alternate" type="text/html"/>
   <id>https://codepen.io</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A browser playground for HTML, CSS and JavaScript. Unlike JSFiddle its real value is discovery — you learn by taking apart other people’s CSS tricks.</summary>
+  <content type="html">&lt;p&gt;A browser playground for HTML, CSS and JavaScript. Unlike JSFiddle its real value is discovery — you learn by taking apart other people’s CSS tricks.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://codepen.io&quot;&gt;https://codepen.io&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CoderPad</title>
-  <link href="https://coderpad.io"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/oyunalani.html#coderpad-io" rel="alternate" type="text/html"/>
   <id>https://coderpad.io</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A collaborative editor for technical interviews with live coding (many languages). Unlike simple shared editors such as CodeShare, it runs the code and can replay the session step by step afterwards.</summary>
+  <content type="html">&lt;p&gt;A collaborative editor for technical interviews with live coding (many languages). Unlike simple shared editors such as CodeShare, it runs the code and can replay the session step by step afterwards.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://coderpad.io&quot;&gt;https://coderpad.io&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CodeSandbox</title>
-  <link href="https://codesandbox.io"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/oyunalani.html#codesandbox-io" rel="alternate" type="text/html"/>
   <id>https://codesandbox.io</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Runs projects with full npm dependencies in the browser. Unlike CodePen it opens a real React or Node project as-is.</summary>
+  <content type="html">&lt;p&gt;Runs projects with full npm dependencies in the browser. Unlike CodePen it opens a real React or Node project as-is.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://codesandbox.io&quot;&gt;https://codesandbox.io&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CodeShare</title>
-  <link href="https://codeshare.io"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/oyunalani.html#codeshare-io" rel="alternate" type="text/html"/>
   <id>https://codeshare.io</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Real-time collaborative code editing in the browser with no install or account. Compared with CoderPad it does not run code, but it opens instantly — a fast option for remote pairing or an interview.</summary>
+  <content type="html">&lt;p&gt;Real-time collaborative code editing in the browser with no install or account. Compared with CoderPad it does not run code, but it opens instantly — a fast option for remote pairing or an interview.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://codeshare.io&quot;&gt;https://codeshare.io&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Ideone</title>
-  <link href="https://ideone.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/oyunalani.html#ideone-com" rel="alternate" type="text/html"/>
   <id>https://ideone.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Compiles and runs 60+ languages in the browser and accepts an input stream. Unlike project environments such as Replit it is light, for single files — trying a language’s syntax without installing anything.</summary>
+  <content type="html">&lt;p&gt;Compiles and runs 60+ languages in the browser and accepts an input stream. Unlike project environments such as Replit it is light, for single files — trying a language’s syntax without installing anything.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://ideone.com&quot;&gt;https://ideone.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>JS Bin</title>
-  <link href="https://jsbin.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/oyunalani.html#jsbin-com" rel="alternate" type="text/html"/>
   <id>https://jsbin.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A JSFiddle-like scratchpad with a live output panel; showing console output on the same screen is handy when debugging.</summary>
+  <content type="html">&lt;p&gt;A JSFiddle-like scratchpad with a live output panel; showing console output on the same screen is handy when debugging.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://jsbin.com/&quot;&gt;https://jsbin.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>JSFiddle</title>
-  <link href="https://jsfiddle.net"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/oyunalani.html#jsfiddle-net" rel="alternate" type="text/html"/>
   <id>https://jsfiddle.net</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The oldest and lightest way to test a small JavaScript snippet. Unlike CodePen it is about reproducible examples rather than discovery — the standard tool for attaching one to a bug report.</summary>
+  <content type="html">&lt;p&gt;The oldest and lightest way to test a small JavaScript snippet. Unlike CodePen it is about reproducible examples rather than discovery — the standard tool for attaching one to a bug report.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://jsfiddle.net&quot;&gt;https://jsfiddle.net&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Judge0 IDE</title>
-  <link href="https://ide.judge0.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/oyunalani.html#ide-judge0-com" rel="alternate" type="text/html"/>
   <id>https://ide.judge0.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An open-source online compiler. Unlike closed services such as Ideone you can self-host its engine — the project people building code assessment systems use as infrastructure.</summary>
+  <content type="html">&lt;p&gt;An open-source online compiler. Unlike closed services such as Ideone you can self-host its engine — the project people building code assessment systems use as infrastructure.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://ide.judge0.com&quot;&gt;https://ide.judge0.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OneLang</title>
-  <link href="https://onelang.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/oyunalani.html#onelang-io" rel="alternate" type="text/html"/>
   <id>https://onelang.io/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An experimental tool that converts code written in one language into others — C#, Java, Python, JavaScript. Against a syntax comparison table it produces working translations, which shows how one language’s idiom lands in another.</summary>
+  <content type="html">&lt;p&gt;An experimental tool that converts code written in one language into others — C#, Java, Python, JavaScript. Against a syntax comparison table it produces working translations, which shows how one language’s idiom lands in another.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://onelang.io/&quot;&gt;https://onelang.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>PlayCode</title>
-  <link href="https://playcode.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/oyunalani.html#playcode-io" rel="alternate" type="text/html"/>
   <id>https://playcode.io/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A JavaScript and TypeScript playground that runs as you type and accepts npm packages. Against CodePen the feedback is instant and the console always visible; against CodeSandbox it is lighter for trying a library.</summary>
+  <content type="html">&lt;p&gt;A JavaScript and TypeScript playground that runs as you type and accepts npm packages. Against CodePen the feedback is instant and the console always visible; against CodeSandbox it is lighter for trying a library.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://playcode.io/&quot;&gt;https://playcode.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Replit</title>
-  <link href="https://replit.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/oyunalani.html#replit-com" rel="alternate" type="text/html"/>
   <id>https://replit.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A collaborative cloud IDE that writes and runs dozens of languages in the browser and can deploy a project in one click. Unlike snippet playgrounds such as JSFiddle, it runs whole projects with a filesystem, package installs and hosting.</summary>
+  <content type="html">&lt;p&gt;A collaborative cloud IDE that writes and runs dozens of languages in the browser and can deploy a project in one click. Unlike snippet playgrounds such as JSFiddle, it runs whole projects with a filesystem, package installs and hosting.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://replit.com/&quot;&gt;https://replit.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>RunJS</title>
-  <link href="https://runjs.app/play"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/oyunalani.html#runjs-app-play" rel="alternate" type="text/html"/>
   <id>https://runjs.app/play</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A JavaScript playground that evaluates as you type. Unlike the browser console it shows each line’s value alongside without a `console.log`.</summary>
+  <content type="html">&lt;p&gt;A JavaScript playground that evaluates as you type. Unlike the browser console it shows each line’s value alongside without a `console.log`.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://runjs.app/play&quot;&gt;https://runjs.app/play&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>StackBlitz</title>
-  <link href="https://stackblitz.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/oyunalani.html#stackblitz-com" rel="alternate" type="text/html"/>
   <id>https://stackblitz.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Runs Node.js in the browser through WebContainers. Unlike online IDEs that spin up server-side containers, install and restart are instant — it even works offline.</summary>
+  <content type="html">&lt;p&gt;Runs Node.js in the browser through WebContainers. Unlike online IDEs that spin up server-side containers, install and restart are instant — it even works offline.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://stackblitz.com/&quot;&gt;https://stackblitz.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Wandbox</title>
-  <link href="https://wandbox.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/oyunalani.html#wandbox-org" rel="alternate" type="text/html"/>
   <id>https://wandbox.org/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Runs dozens of C++ compiler versions side by side. Unlike Compiler Explorer it shows the program’s run output rather than the assembly — for testing which standard or compiler release a behaviour comes from.</summary>
+  <content type="html">&lt;p&gt;Runs dozens of C++ compiler versions side by side. Unlike Compiler Explorer it shows the program’s run output rather than the assembly — for testing which standard or compiler release a behaviour comes from.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://wandbox.org/&quot;&gt;https://wandbox.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

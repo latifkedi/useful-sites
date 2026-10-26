@@ -2,288 +2,290 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
 <title>Programlama Dilleri — Kullanışlı Siteler</title>
 <subtitle>Yazılımdan yapay zekaya, güvenlikten ekonomiye ve mimariye on alanda elle derlenmiş, açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/diller.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/diller.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/diller.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/diller.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/diller.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>A Guide to Python's Magic Methods</title>
-  <link href="https://rszalski.github.io/magicmethods/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#rszalski-github-io-magicmethods" rel="alternate" type="text/html"/>
   <id>https://rszalski.github.io/magicmethods/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Python'daki __init__, __getattr__, __enter__ gibi özel (dunder) yöntemleri örneklerle gruplayıp anlatan klasik rehber. Dil belgesinden farkı, her grubu nasıl ve ne zaman kullanacağınızı pratik örneklerle göstermesi.</summary>
+  <content type="html">&lt;p&gt;Python'daki __init__, __getattr__, __enter__ gibi özel (dunder) yöntemleri örneklerle gruplayıp anlatan klasik rehber. Dil belgesinden farkı, her grubu nasıl ve ne zaman kullanacağınızı pratik örneklerle göstermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://rszalski.github.io/magicmethods/&quot;&gt;https://rszalski.github.io/magicmethods/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>wtfpython</title>
-  <link href="https://github.com/satwikkansal/wtfpython"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#github-com-satwikkansal-wtfpython" rel="alternate" type="text/html"/>
   <id>https://github.com/satwikkansal/wtfpython</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Python'un şaşırtıcı ve sezgiye aykırı davranışlarını kısa kod parçaları ve açıklamalarla derleyen koleksiyon. Standart eğitimlerden farkı, tuzağa önce düşürüp sonra nedenini göstererek öğretmesi.</summary>
+  <content type="html">&lt;p&gt;Python'un şaşırtıcı ve sezgiye aykırı davranışlarını kısa kod parçaları ve açıklamalarla derleyen koleksiyon. Standart eğitimlerden farkı, tuzağa önce düşürüp sonra nedenini göstererek öğretmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/satwikkansal/wtfpython&quot;&gt;https://github.com/satwikkansal/wtfpython&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Facts and Myths about Python Names and Values</title>
-  <link href="https://nedbatchelder.com/text/names.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#nedbatchelder-com-text-names-html" rel="alternate" type="text/html"/>
   <id>https://nedbatchelder.com/text/names.html</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Ned Batchelder’in Python’un ad ve değer modelini anlattığı klasik konuşma metni. Genel öğreticilerden farkı yeni başlayanların çoğu hatasının ardındaki yanlış anlamayı hedeflemesi.</summary>
+  <content type="html">&lt;p&gt;Ned Batchelder’in Python’un ad ve değer modelini anlattığı klasik konuşma metni. Genel öğreticilerden farkı yeni başlayanların çoğu hatasının ardındaki yanlış anlamayı hedeflemesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://nedbatchelder.com/text/names.html&quot;&gt;https://nedbatchelder.com/text/names.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Google’s Python Class</title>
-  <link href="https://developers.google.com/edu/python/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#developers-google-com-edu-python" rel="alternate" type="text/html"/>
   <id>https://developers.google.com/edu/python/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Google’ın kendi çalışanları için hazırladığı kısa Python dersi: notlar, dersler ve alıştırmalar. Yeni bootcamp’lerden farkı kısa ve doğrudan olması; ilk olarak Python 2 için yazıldığından alıştırmaları güncel Python’a göre denetle.</summary>
+  <content type="html">&lt;p&gt;Google’ın kendi çalışanları için hazırladığı kısa Python dersi: notlar, dersler ve alıştırmalar. Yeni bootcamp’lerden farkı kısa ve doğrudan olması; ilk olarak Python 2 için yazıldığından alıştırmaları güncel Python’a göre denetle.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://developers.google.com/edu/python/&quot;&gt;https://developers.google.com/edu/python/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>PyCoder’s Weekly</title>
-  <link href="https://pycoders.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#pycoders-com" rel="alternate" type="text/html"/>
   <id>https://pycoders.com/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Python haber, makale ve proje bağlantılarını derleyen haftalık e-posta bülteni. Genel akışlardan farkı Python’a odaklı ve elle seçilmiş olması.</summary>
+  <content type="html">&lt;p&gt;Python haber, makale ve proje bağlantılarını derleyen haftalık e-posta bülteni. Genel akışlardan farkı Python’a odaklı ve elle seçilmiş olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://pycoders.com/&quot;&gt;https://pycoders.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>PyInstaller</title>
-  <link href="https://pyinstaller.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#pyinstaller-org" rel="alternate" type="text/html"/>
   <id>https://pyinstaller.org/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Python uygulamasını yorumlayıcısıyla tek bir çalıştırılabilir dosyaya paketleyen araç (Windows, macOS, Linux). py2exe gibi tek platformlu araçlardan farkı üç sistemi de desteklemesi.</summary>
+  <content type="html">&lt;p&gt;Python uygulamasını yorumlayıcısıyla tek bir çalıştırılabilir dosyaya paketleyen araç (Windows, macOS, Linux). py2exe gibi tek platformlu araçlardan farkı üç sistemi de desteklemesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://pyinstaller.org/&quot;&gt;https://pyinstaller.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>PyVideo</title>
-  <link href="https://pyvideo.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#pyvideo-org" rel="alternate" type="text/html"/>
   <id>https://pyvideo.org/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Python konferans konuşmalarının (PyCon ve diğerleri) aranabilir dizini. YouTube aramasından farkı etkinliğe ve konuşmacıya göre düzenlenmesi.</summary>
+  <content type="html">&lt;p&gt;Python konferans konuşmalarının (PyCon ve diğerleri) aranabilir dizini. YouTube aramasından farkı etkinliğe ve konuşmacıya göre düzenlenmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://pyvideo.org/&quot;&gt;https://pyvideo.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Talk Python To Me</title>
-  <link href="https://talkpython.fm/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#talkpython-fm" rel="alternate" type="text/html"/>
   <id>https://talkpython.fm/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Python, veri bilimi ve yapay zekâ üzerine haftalık podcast; araçların arkasındaki kişilerle söyleşi. Haber bültenlerinden farkı uzun, ayrıntılı konuşmalar olması.</summary>
+  <content type="html">&lt;p&gt;Python, veri bilimi ve yapay zekâ üzerine haftalık podcast; araçların arkasındaki kişilerle söyleşi. Haber bültenlerinden farkı uzun, ayrıntılı konuşmalar olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://talkpython.fm/&quot;&gt;https://talkpython.fm/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>The Little Book of Python Anti-Patterns</title>
-  <link href="https://docs.quantifiedcode.com/python-anti-patterns/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#docs-quantifiedcode-com-python-anti-patterns" rel="alternate" type="text/html"/>
   <id>https://docs.quantifiedcode.com/python-anti-patterns/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Sık yapılan Python hatalarını yanlış ve doğru örneğiyle gösteren kısa kitap. Üslup kılavuzlarından farkı yanlışın neye benzediğini göstermesi.</summary>
+  <content type="html">&lt;p&gt;Sık yapılan Python hatalarını yanlış ve doğru örneğiyle gösteren kısa kitap. Üslup kılavuzlarından farkı yanlışın neye benzediğini göstermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://docs.quantifiedcode.com/python-anti-patterns/&quot;&gt;https://docs.quantifiedcode.com/python-anti-patterns/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome asyncio</title>
-  <link href="https://github.com/timofurrer/awesome-asyncio"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#github-com-timofurrer-awesome-asyncio" rel="alternate" type="text/html"/>
   <id>https://github.com/timofurrer/awesome-asyncio</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Python 3’te asenkron G/Ç (asyncio) için kütüphane ve kaynak listesi. Genel Python listelerinden farkı yalnız olay döngüsüyle uyumlu kütüphaneleri — web çatıları, veritabanı sürücüleri, test araçları — toplaması.</summary>
+  <content type="html">&lt;p&gt;Python 3’te asenkron G/Ç (asyncio) için kütüphane ve kaynak listesi. Genel Python listelerinden farkı yalnız olay döngüsüyle uyumlu kütüphaneleri — web çatıları, veritabanı sürücüleri, test araçları — toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/timofurrer/awesome-asyncio&quot;&gt;https://github.com/timofurrer/awesome-asyncio&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Common Lisp</title>
-  <link href="https://github.com/CodyReichert/awesome-cl"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#github-com-codyreichert-awesome-cl" rel="alternate" type="text/html"/>
   <id>https://github.com/CodyReichert/awesome-cl</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Common Lisp kütüphane ve araçlarını toplayan liste. Quicklisp deposunu tek tek taramaktan farkı kütüphaneleri alana göre (web, veritabanı, GUI) gruplaması.</summary>
+  <content type="html">&lt;p&gt;Common Lisp kütüphane ve araçlarını toplayan liste. Quicklisp deposunu tek tek taramaktan farkı kütüphaneleri alana göre (web, veritabanı, GUI) gruplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/CodyReichert/awesome-cl&quot;&gt;https://github.com/CodyReichert/awesome-cl&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Composer</title>
-  <link href="https://github.com/jakoch/awesome-composer"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#github-com-jakoch-awesome-composer" rel="alternate" type="text/html"/>
   <id>https://github.com/jakoch/awesome-composer</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>PHP paket yöneticisi Composer için eklenti, araç ve rehber listesi. Packagist’ten farkı paketleri değil, Composer’ın kendisini genişleten ve iş akışını iyileştiren araçları toplaması.</summary>
+  <content type="html">&lt;p&gt;PHP paket yöneticisi Composer için eklenti, araç ve rehber listesi. Packagist’ten farkı paketleri değil, Composer’ın kendisini genişleten ve iş akışını iyileştiren araçları toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/jakoch/awesome-composer&quot;&gt;https://github.com/jakoch/awesome-composer&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Coq</title>
-  <link href="https://github.com/coq-community/awesome-coq"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#github-com-coq-community-awesome-coq" rel="alternate" type="text/html"/>
   <id>https://github.com/coq-community/awesome-coq</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Biçimsel ispat dili ve ortamı Coq (yeni adıyla Rocq) için kütüphane, araç ve öğretici listesi. Genel ispat asistanı listelerinden farkı yalnız Coq ekosistemine odaklanması.</summary>
+  <content type="html">&lt;p&gt;Biçimsel ispat dili ve ortamı Coq (yeni adıyla Rocq) için kütüphane, araç ve öğretici listesi. Genel ispat asistanı listelerinden farkı yalnız Coq ekosistemine odaklanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/coq-community/awesome-coq&quot;&gt;https://github.com/coq-community/awesome-coq&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Elixir</title>
-  <link href="https://github.com/h4cc/awesome-elixir"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#github-com-h4cc-awesome-elixir" rel="alternate" type="text/html"/>
   <id>https://github.com/h4cc/awesome-elixir</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Elixir dili ve Erlang ekosistemi için kütüphane listesi. Hex paket aramasından farkı seçilmiş ve konuya göre gruplanmış olması.</summary>
+  <content type="html">&lt;p&gt;Elixir dili ve Erlang ekosistemi için kütüphane listesi. Hex paket aramasından farkı seçilmiş ve konuya göre gruplanmış olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/h4cc/awesome-elixir&quot;&gt;https://github.com/h4cc/awesome-elixir&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Python Scientific Audio</title>
-  <link href="https://github.com/faroit/awesome-python-scientific-audio"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#github-com-faroit-awesome-python-scientific-audio" rel="alternate" type="text/html"/>
   <id>https://github.com/faroit/awesome-python-scientific-audio</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Ses/müzik üzerine bilimsel araştırma için Python kütüphaneleri listesi. Genel ses işleme araçlarından farkı araştırma odaklı olması: öznitelik çıkarma, müzik bilgi erişimi, kaynak ayrıştırma.</summary>
+  <content type="html">&lt;p&gt;Ses/müzik üzerine bilimsel araştırma için Python kütüphaneleri listesi. Genel ses işleme araçlarından farkı araştırma odaklı olması: öznitelik çıkarma, müzik bilgi erişimi, kaynak ayrıştırma.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/faroit/awesome-python-scientific-audio&quot;&gt;https://github.com/faroit/awesome-python-scientific-audio&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Python Typing</title>
-  <link href="https://github.com/typeddjango/awesome-python-typing"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#github-com-typeddjango-awesome-python-typing" rel="alternate" type="text/html"/>
   <id>https://github.com/typeddjango/awesome-python-typing</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Python’da isteğe bağlı statik tipleme için araç ve kaynak listesi. mypy belgelerinden farkı tip denetleyicilerini (mypy, Pyright, Pyre), stub paketlerini ve çalışma zamanı doğrulayıcılarını birlikte toplaması.</summary>
+  <content type="html">&lt;p&gt;Python’da isteğe bağlı statik tipleme için araç ve kaynak listesi. mypy belgelerinden farkı tip denetleyicilerini (mypy, Pyright, Pyre), stub paketlerini ve çalışma zamanı doğrulayıcılarını birlikte toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/typeddjango/awesome-python-typing&quot;&gt;https://github.com/typeddjango/awesome-python-typing&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Ruby</title>
-  <link href="https://github.com/markets/awesome-ruby"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#github-com-markets-awesome-ruby" rel="alternate" type="text/html"/>
   <id>https://github.com/markets/awesome-ruby</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Ruby kütüphane ve araçlarını kategori kategori toplayan liste. RubyGems aramasından farkı seçilmiş, güncel ve gruplanmış olması.</summary>
+  <content type="html">&lt;p&gt;Ruby kütüphane ve araçlarını kategori kategori toplayan liste. RubyGems aramasından farkı seçilmiş, güncel ve gruplanmış olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/markets/awesome-ruby&quot;&gt;https://github.com/markets/awesome-ruby&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome V</title>
-  <link href="https://github.com/vlang/awesome-v"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#github-com-vlang-awesome-v" rel="alternate" type="text/html"/>
   <id>https://github.com/vlang/awesome-v</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>V dili için kütüphane, araç ve proje listesi. Go veya Rust listelerinden farkı henüz genç bir dilin ekosistemini tek yerde toplaması; dil hâlâ hızla değiştiği için kayıtların güncelliğine bak.</summary>
+  <content type="html">&lt;p&gt;V dili için kütüphane, araç ve proje listesi. Go veya Rust listelerinden farkı henüz genç bir dilin ekosistemini tek yerde toplaması; dil hâlâ hızla değiştiği için kayıtların güncelliğine bak.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/vlang/awesome-v&quot;&gt;https://github.com/vlang/awesome-v&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>C#</title>
-  <link href="https://dotnet.microsoft.com/languages/csharp"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#dotnet-microsoft-com-languages-csharp" rel="alternate" type="text/html"/>
   <id>https://dotnet.microsoft.com/languages/csharp</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Microsoft’un .NET platformu için geliştirdiği çok amaçlı dil; Unity oyunlarının da betik dili. Java’dan farkı LINQ, async/await ve özel değer tipleri gibi özelliklerin dile gömülü gelmesi.</summary>
+  <content type="html">&lt;p&gt;Microsoft’un .NET platformu için geliştirdiği çok amaçlı dil; Unity oyunlarının da betik dili. Java’dan farkı LINQ, async/await ve özel değer tipleri gibi özelliklerin dile gömülü gelmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://dotnet.microsoft.com/languages/csharp&quot;&gt;https://dotnet.microsoft.com/languages/csharp&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Dart</title>
-  <link href="https://dart.dev/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#dart-dev" rel="alternate" type="text/html"/>
   <id>https://dart.dev/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Google’ın geliştirdiği, Flutter’ın altındaki istemci odaklı dil. JavaScript’ten farkı sağlam tip sistemi ve null güvenliği; hem yerel makine koduna hem JavaScript’e derlenebiliyor.</summary>
+  <content type="html">&lt;p&gt;Google’ın geliştirdiği, Flutter’ın altındaki istemci odaklı dil. JavaScript’ten farkı sağlam tip sistemi ve null güvenliği; hem yerel makine koduna hem JavaScript’e derlenebiliyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://dart.dev/&quot;&gt;https://dart.dev/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Elixir</title>
-  <link href="https://elixir-lang.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#elixir-lang-org" rel="alternate" type="text/html"/>
   <id>https://elixir-lang.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Erlang sanal makinesinde çalışan, ölçeklenebilirlikte güçlü işlevsel dil. Erlang’dan farkı Ruby’yi andıran sözdizimi ve makro sistemi; hata toleransını (OTP) ise aynen devralıyor.</summary>
+  <content type="html">&lt;p&gt;Erlang sanal makinesinde çalışan, ölçeklenebilirlikte güçlü işlevsel dil. Erlang’dan farkı Ruby’yi andıran sözdizimi ve makro sistemi; hata toleransını (OTP) ise aynen devralıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://elixir-lang.org/&quot;&gt;https://elixir-lang.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Go</title>
-  <link href="https://golang.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#golang-org" rel="alternate" type="text/html"/>
   <id>https://golang.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Google’ın sade, hızlı derlenen, eşzamanlılıkta güçlü dilinin resmî sitesi. Java ya da C++’tan farkı dilin bilinçli küçüklüğü: az anahtar sözcük, tek biçimleyici (gofmt), saniyeler içinde derleme.</summary>
+  <content type="html">&lt;p&gt;Google’ın sade, hızlı derlenen, eşzamanlılıkta güçlü dilinin resmî sitesi. Java ya da C++’tan farkı dilin bilinçli küçüklüğü: az anahtar sözcük, tek biçimleyici (gofmt), saniyeler içinde derleme.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://golang.org/&quot;&gt;https://golang.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Haskell</title>
-  <link href="https://www.haskell.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#haskell-org" rel="alternate" type="text/html"/>
   <id>https://www.haskell.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Saf işlevsel ve statik tipli, tembel değerlendirmeli programlama dili. Çoğu işlevsel dilden farkı saf olması: yan etkiler tip sisteminde (IO) ayrı tutuluyor.</summary>
+  <content type="html">&lt;p&gt;Saf işlevsel ve statik tipli, tembel değerlendirmeli programlama dili. Çoğu işlevsel dilden farkı saf olması: yan etkiler tip sisteminde (IO) ayrı tutuluyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.haskell.org/&quot;&gt;https://www.haskell.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Julia</title>
-  <link href="https://julialang.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#julialang-org" rel="alternate" type="text/html"/>
   <id>https://julialang.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Bilimsel hesaplama için yüksek başarımlı, açık kaynak dil. Python’dan farkı JIT derlemesiyle C’ye yakın hız: prototipi Python’da yazıp hızlı kodu C’ye çevirme zorunluluğunu (“iki dil sorunu”) ortadan kaldırmayı hedefliyor.</summary>
+  <content type="html">&lt;p&gt;Bilimsel hesaplama için yüksek başarımlı, açık kaynak dil. Python’dan farkı JIT derlemesiyle C’ye yakın hız: prototipi Python’da yazıp hızlı kodu C’ye çevirme zorunluluğunu (“iki dil sorunu”) ortadan kaldırmayı hedefliyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://julialang.org/&quot;&gt;https://julialang.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Julia.jl</title>
-  <link href="https://github.com/svaksha/Julia.jl"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#github-com-svaksha-julia-jl" rel="alternate" type="text/html"/>
   <id>https://github.com/svaksha/Julia.jl</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Julia dili paket ve kaynaklarını konuya göre düzenleyen kapsamlı liste. Paket aramasından farkı paketleri bilim alanına göre elle sınıflandırması; bazı bölümleri eskimiş olabilir.</summary>
+  <content type="html">&lt;p&gt;Julia dili paket ve kaynaklarını konuya göre düzenleyen kapsamlı liste. Paket aramasından farkı paketleri bilim alanına göre elle sınıflandırması; bazı bölümleri eskimiş olabilir.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/svaksha/Julia.jl&quot;&gt;https://github.com/svaksha/Julia.jl&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Lua</title>
-  <link href="https://www.lua.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#lua-org" rel="alternate" type="text/html"/>
   <id>https://www.lua.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Gömülmeye elverişli, hafif betik dili; oyun motorlarında, gömülü sistemlerde ve Neovim’de yaygın. Python’dan farkı çalışma zamanının çok küçük olması ve bir C programına kolayca gömülebilmesi.</summary>
+  <content type="html">&lt;p&gt;Gömülmeye elverişli, hafif betik dili; oyun motorlarında, gömülü sistemlerde ve Neovim’de yaygın. Python’dan farkı çalışma zamanının çok küçük olması ve bir C programına kolayca gömülebilmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.lua.org/&quot;&gt;https://www.lua.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Perl</title>
-  <link href="https://www.perl.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#perl-org" rel="alternate" type="text/html"/>
   <id>https://www.perl.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Metin işleme ve sistem betiklerinde güçlü, dinamik ve olgun dil. Python’dan farkı düzenli ifadelerin dile gömülü olması ve tek satırlık betik kültürü; CPAN arşivi çok geniş.</summary>
+  <content type="html">&lt;p&gt;Metin işleme ve sistem betiklerinde güçlü, dinamik ve olgun dil. Python’dan farkı düzenli ifadelerin dile gömülü olması ve tek satırlık betik kültürü; CPAN arşivi çok geniş.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.perl.org/&quot;&gt;https://www.perl.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>PHP</title>
-  <link href="https://www.php.net/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#php-net" rel="alternate" type="text/html"/>
   <id>https://www.php.net/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Web’in sunucu tarafında en yaygın dillerinden birinin resmî belgeleri. Çoğu dil belgesinden farkı her fonksiyon sayfasının altındaki kullanıcı notları: pratik tuzaklar genellikle orada yazıyor.</summary>
+  <content type="html">&lt;p&gt;Web’in sunucu tarafında en yaygın dillerinden birinin resmî belgeleri. Çoğu dil belgesinden farkı her fonksiyon sayfasının altındaki kullanıcı notları: pratik tuzaklar genellikle orada yazıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.php.net/&quot;&gt;https://www.php.net/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>R</title>
-  <link href="https://www.r-project.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#r-project-org" rel="alternate" type="text/html"/>
   <id>https://www.r-project.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>İstatistik ve veri analizi için tasarlanmış dil ve ortam; CRAN’da on binlerce istatistik paketi var. Python’dan farkı yeni istatistik yöntemlerinin çoğunlukla önce burada yayımlanması ve ggplot2 gibi grafik araçları.</summary>
+  <content type="html">&lt;p&gt;İstatistik ve veri analizi için tasarlanmış dil ve ortam; CRAN’da on binlerce istatistik paketi var. Python’dan farkı yeni istatistik yöntemlerinin çoğunlukla önce burada yayımlanması ve ggplot2 gibi grafik araçları.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.r-project.org/&quot;&gt;https://www.r-project.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Ruby</title>
-  <link href="https://www.ruby-lang.org/en/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#ruby-lang-org-en" rel="alternate" type="text/html"/>
   <id>https://www.ruby-lang.org/en/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Okunabilirliği ve geliştirici mutluluğunu öne alan çok paradigmalı dil; Rails’in dili. Python’dan farkı her şeyin nesne olması ve DSL yazmaya elverişli esnek sözdizimi.</summary>
+  <content type="html">&lt;p&gt;Okunabilirliği ve geliştirici mutluluğunu öne alan çok paradigmalı dil; Rails’in dili. Python’dan farkı her şeyin nesne olması ve DSL yazmaya elverişli esnek sözdizimi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.ruby-lang.org/en/&quot;&gt;https://www.ruby-lang.org/en/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Swift</title>
-  <link href="https://www.swift.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#swift-org" rel="alternate" type="text/html"/>
   <id>https://www.swift.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Apple’ın öncelikle iOS için geliştirdiği, güvenli ve hızlı derlenen dil; Linux ve sunucuda da çalışıyor. Objective-C’den farkı optional’larla gelen güvenli bellek modeli ve modern sözdizimi.</summary>
+  <content type="html">&lt;p&gt;Apple’ın öncelikle iOS için geliştirdiği, güvenli ve hızlı derlenen dil; Linux ve sunucuda da çalışıyor. Objective-C’den farkı optional’larla gelen güvenli bellek modeli ve modern sözdizimi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.swift.org/&quot;&gt;https://www.swift.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CIS 194 Haskell</title>
-  <link href="https://www.seas.upenn.edu/~cis1940/spring13/lectures.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#seas-upenn-edu-cis1940-spring13-lectures-html" rel="alternate" type="text/html"/>
   <id>https://www.seas.upenn.edu/~cis1940/spring13/lectures.html</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Pennsylvania Üniversitesi’nin Haskell dersi; ders notları ve ödevler açık. Kitaplardan farkı ödevlerin olması — Haskell’i okuyarak değil ancak yazarak öğrenebildiğin için bu ayrım önemli.</summary>
+  <content type="html">&lt;p&gt;Pennsylvania Üniversitesi’nin Haskell dersi; ders notları ve ödevler açık. Kitaplardan farkı ödevlerin olması — Haskell’i okuyarak değil ancak yazarak öğrenebildiğin için bu ayrım önemli.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.seas.upenn.edu/~cis1940/spring13/lectures.html&quot;&gt;https://www.seas.upenn.edu/~cis1940/spring13/lectures.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Learn You a Haskell</title>
-  <link href="https://learnyouahaskell.github.io/chapters.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#learnyouahaskell-github-io-chapters-html" rel="alternate" type="text/html"/>
   <id>https://learnyouahaskell.github.io/chapters.html</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Haskell’in en bilinen giriş kitabının topluluk tarafından güncellenmiş çevrimiçi hâli. Akademik Haskell kaynaklarından farkı üslubu: monad’ı kategori teorisiyle değil, çizimlerle ve kademeli örneklerle anlatıyor.</summary>
+  <content type="html">&lt;p&gt;Haskell’in en bilinen giriş kitabının topluluk tarafından güncellenmiş çevrimiçi hâli. Akademik Haskell kaynaklarından farkı üslubu: monad’ı kategori teorisiyle değil, çizimlerle ve kademeli örneklerle anlatıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://learnyouahaskell.github.io/chapters.html&quot;&gt;https://learnyouahaskell.github.io/chapters.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>LearnByExample</title>
-  <link href="https://www.learnbyexample.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#learnbyexample-org" rel="alternate" type="text/html"/>
   <id>https://www.learnbyexample.org/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Python, SQL ve R’ı çalıştırılabilir örneklerle öğreten site; her kavram tek bir küçük kod parçasıyla açılıyor. Belgelerden farkı sıra: önce çalışan örnek, sonra açıklama — sözdizimini hatırlamak için hızlı bir referans olarak da işe yarıyor.</summary>
+  <content type="html">&lt;p&gt;Python, SQL ve R’ı çalıştırılabilir örneklerle öğreten site; her kavram tek bir küçük kod parçasıyla açılıyor. Belgelerden farkı sıra: önce çalışan örnek, sonra açıklama — sözdizimini hatırlamak için hızlı bir referans olarak da işe yarıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.learnbyexample.org/&quot;&gt;https://www.learnbyexample.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>RubyGems Guides</title>
-  <link href="https://guides.rubygems.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#guides-rubygems-org" rel="alternate" type="text/html"/>
   <id>https://guides.rubygems.org/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>RubyGems’in nasıl çalıştığını ve kendi gem’ini nasıl yayımlayacağını anlatan resmî rehber. API belgelerinden farkı sürüm numaralandırma, bağımlılık çözümleme ve yayımlama politikası gibi kararları da açıklaması.</summary>
+  <content type="html">&lt;p&gt;RubyGems’in nasıl çalıştığını ve kendi gem’ini nasıl yayımlayacağını anlatan resmî rehber. API belgelerinden farkı sürüm numaralandırma, bağımlılık çözümleme ve yayımlama politikası gibi kararları da açıklaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://guides.rubygems.org/&quot;&gt;https://guides.rubygems.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>JS Exercises</title>
-  <link href="https://jsexercises.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#jsexercises-com" rel="alternate" type="text/html"/>
   <id>https://jsexercises.com/</id>
   <updated>2026-08-19T23:33:52Z</updated>
-  <summary>Tarayıcıda çalıştırılabilir JavaScript alıştırmaları. Öğretici sitelerden farkı anlatım değil yalnız alıştırma sunması; okuduğunu pekiştirmek için.</summary>
+  <content type="html">&lt;p&gt;Tarayıcıda çalıştırılabilir JavaScript alıştırmaları. Öğretici sitelerden farkı anlatım değil yalnız alıştırma sunması; okuduğunu pekiştirmek için.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://jsexercises.com/&quot;&gt;https://jsexercises.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Eloquent JavaScript</title>
-  <link href="https://eloquentjavascript.net/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#eloquentjavascript-net" rel="alternate" type="text/html"/>
   <id>https://eloquentjavascript.net/</id>
   <updated>2026-08-19T23:33:25Z</updated>
-  <summary>Ücretsiz ve çevrimiçi klasik. Sözdizimi öğretmekten çok programlama düşüncesi kuruyor; alıştırmaları kitabın içinde çalıştırılabiliyor.</summary>
+  <content type="html">&lt;p&gt;Ücretsiz ve çevrimiçi klasik. Sözdizimi öğretmekten çok programlama düşüncesi kuruyor; alıştırmaları kitabın içinde çalıştırılabiliyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://eloquentjavascript.net/&quot;&gt;https://eloquentjavascript.net/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>A Byte of Python</title>
-  <link href="https://python.swaroopch.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#python-swaroopch-com" rel="alternate" type="text/html"/>
   <id>https://python.swaroopch.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Python’a giriş kitabı; onlarca dile çevrilmiş ve programlamaya tamamen yeni başlayanlar için yazılmış. Kalın giriş kitaplarından farkı kısa ve doğrudan olması: birkaç günde bitiyor.</summary>
+  <content type="html">&lt;p&gt;Python’a giriş kitabı; onlarca dile çevrilmiş ve programlamaya tamamen yeni başlayanlar için yazılmış. Kalın giriş kitaplarından farkı kısa ve doğrudan olması: birkaç günde bitiyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://python.swaroopch.com&quot;&gt;https://python.swaroopch.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Compilers</title>
-  <link href="https://aalhour.com/awesome-compilers/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#aalhour-com-awesome-compilers" rel="alternate" type="text/html"/>
   <id>https://aalhour.com/awesome-compilers/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Derleyici, yorumlayıcı ve çalışma zamanı kaynaklarının derlemesi; kitaplar, dersler ve açık kaynak derleyiciler ayrı ayrı listelenmiş. Tek bir ders kitabından farkı kuramı, gerçek derleyici kodlarını ve çalışma zamanı tasarımını yan yana koyması.</summary>
+  <content type="html">&lt;p&gt;Derleyici, yorumlayıcı ve çalışma zamanı kaynaklarının derlemesi; kitaplar, dersler ve açık kaynak derleyiciler ayrı ayrı listelenmiş. Tek bir ders kitabından farkı kuramı, gerçek derleyici kodlarını ve çalışma zamanı tasarımını yan yana koyması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://aalhour.com/awesome-compilers/&quot;&gt;https://aalhour.com/awesome-compilers/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Crafting Interpreters</title>
-  <link href="https://craftinginterpreters.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/diller.html#craftinginterpreters-com" rel="alternate" type="text/html"/>
   <id>https://craftinginterpreters.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Bir dili iki kez sıfırdan yazdıran ücretsiz kitap: önce Java ile ağaç yürüyen yorumlayıcı, sonra C ile bayt kodu sanal makinesi. Kuramsal derleyici ders kitaplarından farkı her satırı sana yazdırması; alanın en açık anlatımlarından.</summary>
+  <content type="html">&lt;p&gt;Bir dili iki kez sıfırdan yazdıran ücretsiz kitap: önce Java ile ağaç yürüyen yorumlayıcı, sonra C ile bayt kodu sanal makinesi. Kuramsal derleyici ders kitaplarından farkı her satırı sana yazdırması; alanın en açık anlatımlarından.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://craftinginterpreters.com/&quot;&gt;https://craftinginterpreters.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

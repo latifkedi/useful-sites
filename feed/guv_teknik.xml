@@ -2,288 +2,290 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
 <title>Saldırı, Savunma &amp; OSINT — Kullanışlı Siteler</title>
 <subtitle>Yazılımdan yapay zekaya, güvenlikten ekonomiye ve mimariye on alanda elle derlenmiş, açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/guv_teknik.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/guv_teknik.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/guv_teknik.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>Application Security Wiki</title>
-  <link href="https://appsecwiki.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#appsecwiki-com" rel="alternate" type="text/html"/>
   <id>https://appsecwiki.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Uygulama güvenliği kaynaklarını (rehberler, araçlar, kontrol listeleri, eğitimler) tek bir wiki'de toplayan dizin. Tek bir saldırı sınıfına değil, uygulama güvenliğinin tamamına bakan bir başlangıç noktası olması onu ayırıyor.</summary>
+  <content type="html">&lt;p&gt;Uygulama güvenliği kaynaklarını (rehberler, araçlar, kontrol listeleri, eğitimler) tek bir wiki'de toplayan dizin. Tek bir saldırı sınıfına değil, uygulama güvenliğinin tamamına bakan bir başlangıç noktası olması onu ayırıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://appsecwiki.com/&quot;&gt;https://appsecwiki.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Connected Things Security</title>
-  <link href="https://v33ru.github.io/awesome-connected-things-sec/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#v33ru-github-io-awesome-connected-things-sec" rel="alternate" type="text/html"/>
   <id>https://v33ru.github.io/awesome-connected-things-sec/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>IoT, gömülü, endüstriyel ve otomotiv sistemlerinin güvenlik araştırması için donanım saldırıları, kablosuz protokoller (BLE, Zigbee, LoRa, NFC) ve firmware kaynaklarını bir araya getiren liste. Web odaklı güvenlik listelerinden farkı fiziksel cihazlara ve radyo katmanına odaklanması.</summary>
+  <content type="html">&lt;p&gt;IoT, gömülü, endüstriyel ve otomotiv sistemlerinin güvenlik araştırması için donanım saldırıları, kablosuz protokoller (BLE, Zigbee, LoRa, NFC) ve firmware kaynaklarını bir araya getiren liste. Web odaklı güvenlik listelerinden farkı fiziksel cihazlara ve radyo katmanına odaklanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://v33ru.github.io/awesome-connected-things-sec/&quot;&gt;https://v33ru.github.io/awesome-connected-things-sec/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Cybersecurity List</title>
-  <link href="https://github.com/0xor0ne/awesome-list"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#github-com-0xor0ne-awesome-list" rel="alternate" type="text/html"/>
   <id>https://github.com/0xor0ne/awesome-list</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Siber güvenlik blog yazıları, write-up ve makalelerin yıla göre dizilmiş arşivi; 2026 girdileri de var. Araç listelerinden farkı bağlantıların alet değil okunacak teknik analiz olması (exploit zincirleri, CVE incelemeleri); araçlar ayrı bir dosyada.</summary>
+  <content type="html">&lt;p&gt;Siber güvenlik blog yazıları, write-up ve makalelerin yıla göre dizilmiş arşivi; 2026 girdileri de var. Araç listelerinden farkı bağlantıların alet değil okunacak teknik analiz olması (exploit zincirleri, CVE incelemeleri); araçlar ayrı bir dosyada.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/0xor0ne/awesome-list&quot;&gt;https://github.com/0xor0ne/awesome-list&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Industrial Protocols</title>
-  <link href="https://github.com/Orange-Cyberdefense/awesome-industrial-protocols"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#github-com-orange-cyberdefense-awesome-industrial-protocols" rel="alternate" type="text/html"/>
   <id>https://github.com/Orange-Cyberdefense/awesome-industrial-protocols</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Modbus, S7, OPC UA gibi endüstriyel ağ protokollerine saldırı odaklı bakan kaynak listesi; her protokol için ayrı sayfa ve veri tabanı var. Genel güvenlik listelerinden farkı OT/ICS protokol düzeyine inmesi.</summary>
+  <content type="html">&lt;p&gt;Modbus, S7, OPC UA gibi endüstriyel ağ protokollerine saldırı odaklı bakan kaynak listesi; her protokol için ayrı sayfa ve veri tabanı var. Genel güvenlik listelerinden farkı OT/ICS protokol düzeyine inmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/Orange-Cyberdefense/awesome-industrial-protocols&quot;&gt;https://github.com/Orange-Cyberdefense/awesome-industrial-protocols&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>BuiltWith</title>
-  <link href="https://builtwith.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#builtwith-com" rel="alternate" type="text/html"/>
   <id>https://builtwith.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Bir sitenin kullandığı CMS, analitik, barındırma ve JavaScript teknolojilerini adresten çıkaran profilleyici. Tarayıcı eklentilerinden farkı geçmiş kullanım ve aynı teknolojiyi kullanan siteler gibi geniş veri tabanına dayanması.</summary>
+  <content type="html">&lt;p&gt;Bir sitenin kullandığı CMS, analitik, barındırma ve JavaScript teknolojilerini adresten çıkaran profilleyici. Tarayıcı eklentilerinden farkı geçmiş kullanım ve aynı teknolojiyi kullanan siteler gibi geniş veri tabanına dayanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://builtwith.com/&quot;&gt;https://builtwith.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>DNSdumpster</title>
-  <link href="https://dnsdumpster.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#dnsdumpster-com" rel="alternate" type="text/html"/>
   <id>https://dnsdumpster.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Alan adı için alt alan adlarını, DNS kayıtlarını ve ağ haritasını pasif olarak çıkaran keşif aracı. Tarayıcıda hesapsız çalışır; sonuçları grafik ve tablo olarak verir. Hedefi tarayan araçlardan farklı olarak yalnızca pasif kaynaklara bakar.</summary>
+  <content type="html">&lt;p&gt;Alan adı için alt alan adlarını, DNS kayıtlarını ve ağ haritasını pasif olarak çıkaran keşif aracı. Tarayıcıda hesapsız çalışır; sonuçları grafik ve tablo olarak verir. Hedefi tarayan araçlardan farklı olarak yalnızca pasif kaynaklara bakar.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://dnsdumpster.com/&quot;&gt;https://dnsdumpster.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Exploit-DB</title>
-  <link href="https://www.exploit-db.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#exploit-db-com" rel="alternate" type="text/html"/>
   <id>https://www.exploit-db.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Offensive Security'nin yayımlanmış istismar kodlarını ve zafiyet bildirimlerini arşivleyen, CVE ile aranabilen veri tabanı. Ayrıca Google dork'larını toplayan GHDB'yi barındırır; sızma testi raporlarında kaynak gösterme noktası olarak kullanılıyor. CVE veritabanlarının aksine çalışan istismar kodunu arşivler.</summary>
+  <content type="html">&lt;p&gt;Offensive Security'nin yayımlanmış istismar kodlarını ve zafiyet bildirimlerini arşivleyen, CVE ile aranabilen veri tabanı. Ayrıca Google dork'larını toplayan GHDB'yi barındırır; sızma testi raporlarında kaynak gösterme noktası olarak kullanılıyor. CVE veritabanlarının aksine çalışan istismar kodunu arşivler.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.exploit-db.com/&quot;&gt;https://www.exploit-db.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Ghidra</title>
-  <link href="https://github.com/NationalSecurityAgency/ghidra"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#github-com-nationalsecurityagency-ghidra" rel="alternate" type="text/html"/>
   <id>https://github.com/NationalSecurityAgency/ghidra</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>NSA'nın açık kaynak yaptığı tersine mühendislik çerçevesi: disassembler, decompiler ve betik desteği. IDA gibi ücretli araçlara karşı, decompiler dahil ücretsiz olması ve birçok mimariyi desteklemesiyle öne çıkıyor.</summary>
+  <content type="html">&lt;p&gt;NSA'nın açık kaynak yaptığı tersine mühendislik çerçevesi: disassembler, decompiler ve betik desteği. IDA gibi ücretli araçlara karşı, decompiler dahil ücretsiz olması ve birçok mimariyi desteklemesiyle öne çıkıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/NationalSecurityAgency/ghidra&quot;&gt;https://github.com/NationalSecurityAgency/ghidra&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>GTFOBins</title>
-  <link href="https://gtfobins.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#gtfobins-org" rel="alternate" type="text/html"/>
   <id>https://gtfobins.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Kısıtlı bir kabuktan kaçmak, ayrıcalık yükseltmek veya dosya okumak için kötüye kullanılabilen Unix ikili dosyalarının listesi. Genel sızma testi notlarından farkı, her ikili için işleve göre gruplanmış, kopyalanabilir komutlar vermesi.</summary>
+  <content type="html">&lt;p&gt;Kısıtlı bir kabuktan kaçmak, ayrıcalık yükseltmek veya dosya okumak için kötüye kullanılabilen Unix ikili dosyalarının listesi. Genel sızma testi notlarından farkı, her ikili için işleve göre gruplanmış, kopyalanabilir komutlar vermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://gtfobins.org/&quot;&gt;https://gtfobins.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>HTML5 Security Cheatsheet</title>
-  <link href="https://html5sec.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#html5sec-org" rel="alternate" type="text/html"/>
   <id>https://html5sec.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>HTML5 ve tarayıcı tuhaflıklarından doğan XSS vektörlerinin numaralandırılmış koleksiyonu; her vektör için çalıştığı tarayıcılar belirtiliyor. Eski bir kaynak, ama filtre atlatmanın nasıl işlediğini anlamak için hâlâ başvuruluyor. OWASP kılavuzlarından farklı olarak tarayıcı hatalarına dayalı ayrıntılı vektörler listeler.</summary>
+  <content type="html">&lt;p&gt;HTML5 ve tarayıcı tuhaflıklarından doğan XSS vektörlerinin numaralandırılmış koleksiyonu; her vektör için çalıştığı tarayıcılar belirtiliyor. Eski bir kaynak, ama filtre atlatmanın nasıl işlediğini anlamak için hâlâ başvuruluyor. OWASP kılavuzlarından farklı olarak tarayıcı hatalarına dayalı ayrıntılı vektörler listeler.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://html5sec.org/&quot;&gt;https://html5sec.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>ICS Security Tools</title>
-  <link href="https://github.com/ITI/ICS-Security-Tools"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#github-com-iti-ics-security-tools" rel="alternate" type="text/html"/>
   <id>https://github.com/ITI/ICS-Security-Tools</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Endüstriyel kontrol sistemleri (ICS/SCADA) güvenliği için araçlar, protokol notları, pcap örnekleri, yapılandırmalar ve rehberler. Genel güvenlik listelerinden farkı yalnızca OT/ICS ortamına odaklanması; pcap ve protokol malzemesi de içeriyor. Son güncelleme 2025.</summary>
+  <content type="html">&lt;p&gt;Endüstriyel kontrol sistemleri (ICS/SCADA) güvenliği için araçlar, protokol notları, pcap örnekleri, yapılandırmalar ve rehberler. Genel güvenlik listelerinden farkı yalnızca OT/ICS ortamına odaklanması; pcap ve protokol malzemesi de içeriyor. Son güncelleme 2025.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ITI/ICS-Security-Tools&quot;&gt;https://github.com/ITI/ICS-Security-Tools&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Kicksecure Documentation</title>
-  <link href="https://www.kicksecure.com/wiki/Documentation"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#kicksecure-com-wiki-documentation" rel="alternate" type="text/html"/>
   <id>https://www.kicksecure.com/wiki/Documentation</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Sertleştirilmiş bir Debian türevi olan Kicksecure'ın wiki'si; sistem sertleştirme, çekirdek ve tarayıcı ayarları, Tor ve parola yönetimi gibi konuları adım adım anlatır. Genel güvenlik kontrol listelerinden farkı, her önerinin işletim sistemi düzeyinde nasıl uygulandığını göstermesidir.</summary>
+  <content type="html">&lt;p&gt;Sertleştirilmiş bir Debian türevi olan Kicksecure'ın wiki'si; sistem sertleştirme, çekirdek ve tarayıcı ayarları, Tor ve parola yönetimi gibi konuları adım adım anlatır. Genel güvenlik kontrol listelerinden farkı, her önerinin işletim sistemi düzeyinde nasıl uygulandığını göstermesidir.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.kicksecure.com/wiki/Documentation&quot;&gt;https://www.kicksecure.com/wiki/Documentation&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>mitmproxy</title>
-  <link href="https://www.mitmproxy.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#mitmproxy-org" rel="alternate" type="text/html"/>
   <id>https://www.mitmproxy.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>HTTP(S) trafiğini yakalayıp inceleyen, değiştirebilen ve yeniden oynatabilen açık kaynak proxy; terminal, web ve betik arayüzleri var. Burp gibi grafik araçlardan farkı, betiklenebilir ve komut satırında çalışması.</summary>
+  <content type="html">&lt;p&gt;HTTP(S) trafiğini yakalayıp inceleyen, değiştirebilen ve yeniden oynatabilen açık kaynak proxy; terminal, web ve betik arayüzleri var. Burp gibi grafik araçlardan farkı, betiklenebilir ve komut satırında çalışması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.mitmproxy.org/&quot;&gt;https://www.mitmproxy.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Oh SHINT! It's a Blog</title>
-  <link href="https://ohshint.gitbook.io/oh-shint-its-a-blog"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#ohshint-gitbook-io-oh-shint-its-a-blog" rel="alternate" type="text/html"/>
   <id>https://ohshint.gitbook.io/oh-shint-its-a-blog</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>OSINT için web kaynakları ve araç listeleri ile blog yazılarını bir GitBook'ta toplayan site; yılın yeni eklenen kaynaklarını ayrı sayfada veriyor. Tek bir çerçeve sayfasından farkı konuya göre ayrılmış çok sayıda alt listesi olması; son güncelleme 2024.</summary>
+  <content type="html">&lt;p&gt;OSINT için web kaynakları ve araç listeleri ile blog yazılarını bir GitBook'ta toplayan site; yılın yeni eklenen kaynaklarını ayrı sayfada veriyor. Tek bir çerçeve sayfasından farkı konuya göre ayrılmış çok sayıda alt listesi olması; son güncelleme 2024.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://ohshint.gitbook.io/oh-shint-its-a-blog&quot;&gt;https://ohshint.gitbook.io/oh-shint-its-a-blog&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OSINT Bible</title>
-  <link href="https://github.com/frangelbarrera/OSINT-BIBLE"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#github-com-frangelbarrera-osint-bible" rel="alternate" type="text/html"/>
   <id>https://github.com/frangelbarrera/OSINT-BIBLE</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>450'den fazla aracı, yöntemi ve etik-hukuk notunu 35 bölümde toplayan OSINT rehberi; bağlantı denetim raporu da yayımlıyor. Salt araç listelerinden farkı dört adımlı bir araştırma metodolojisi ve yasal çerçeve bölümlerini de içermesi.</summary>
+  <content type="html">&lt;p&gt;450'den fazla aracı, yöntemi ve etik-hukuk notunu 35 bölümde toplayan OSINT rehberi; bağlantı denetim raporu da yayımlıyor. Salt araç listelerinden farkı dört adımlı bir araştırma metodolojisi ve yasal çerçeve bölümlerini de içermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/frangelbarrera/OSINT-BIBLE&quot;&gt;https://github.com/frangelbarrera/OSINT-BIBLE&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OWASP MASTG</title>
-  <link href="https://mas.owasp.org/MASTG/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#mas-owasp-org-mastg" rel="alternate" type="text/html"/>
   <id>https://mas.owasp.org/MASTG/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Android ve iOS uygulamalarının güvenlik testini anlatan OWASP kılavuzu; test senaryoları, araçlar ve teknikler tek yerde. Genel web güvenliği kaynaklarından farkı, mobile özgü depolama, ikili analiz ve ağ testlerini kapsaması.</summary>
+  <content type="html">&lt;p&gt;Android ve iOS uygulamalarının güvenlik testini anlatan OWASP kılavuzu; test senaryoları, araçlar ve teknikler tek yerde. Genel web güvenliği kaynaklarından farkı, mobile özgü depolama, ikili analiz ve ağ testlerini kapsaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://mas.owasp.org/MASTG/&quot;&gt;https://mas.owasp.org/MASTG/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OWASP Threat Dragon</title>
-  <link href="https://owasp.org/projects/threat-dragon"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#owasp-org-projects-threat-dragon" rel="alternate" type="text/html"/>
   <id>https://owasp.org/projects/threat-dragon</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Veri akış diyagramları çizip STRIDE gibi yöntemlerle tehdit modellemesi yapmaya yarayan açık kaynak OWASP aracı; web ve masaüstü sürümü var. Genel diyagram araçlarından farkı, tehditleri ve önlemleri diyagram öğesine bağlaması.</summary>
+  <content type="html">&lt;p&gt;Veri akış diyagramları çizip STRIDE gibi yöntemlerle tehdit modellemesi yapmaya yarayan açık kaynak OWASP aracı; web ve masaüstü sürümü var. Genel diyagram araçlarından farkı, tehditleri ve önlemleri diyagram öğesine bağlaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://owasp.org/projects/threat-dragon&quot;&gt;https://owasp.org/projects/threat-dragon&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>PayloadsAllTheThings</title>
-  <link href="https://github.com/swisskyrepo/PayloadsAllTheThings"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#github-com-swisskyrepo-payloadsallthethings" rel="alternate" type="text/html"/>
   <id>https://github.com/swisskyrepo/PayloadsAllTheThings</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Web uygulaması güvenliği ve CTF için zafiyet sınıfına göre düzenlenmiş payload ve atlatma notları (SQLi, SSRF, XXE, SSTI vb.). Her klasörde kısa bir açıklama ve örnekler var; tek bir araç değil, zafiyet sınıfına göre bakılan bir başvuru kaynağı.</summary>
+  <content type="html">&lt;p&gt;Web uygulaması güvenliği ve CTF için zafiyet sınıfına göre düzenlenmiş payload ve atlatma notları (SQLi, SSRF, XXE, SSTI vb.). Her klasörde kısa bir açıklama ve örnekler var; tek bir araç değil, zafiyet sınıfına göre bakılan bir başvuru kaynağı.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/swisskyrepo/PayloadsAllTheThings&quot;&gt;https://github.com/swisskyrepo/PayloadsAllTheThings&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Phrack</title>
-  <link href="https://phrack.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#phrack-org" rel="alternate" type="text/html"/>
   <id>https://phrack.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Hacker topluluğunun 1985'ten beri yayımlanan e-zini; sömürü teknikleri, çekirdek ve ağ güvenliği üzerine derin teknik makaleler. Blog ve haber sitelerinden farkı, seyrek yayımlanması ama makale başına çok yüksek teknik derinlik.</summary>
+  <content type="html">&lt;p&gt;Hacker topluluğunun 1985'ten beri yayımlanan e-zini; sömürü teknikleri, çekirdek ve ağ güvenliği üzerine derin teknik makaleler. Blog ve haber sitelerinden farkı, seyrek yayımlanması ama makale başına çok yüksek teknik derinlik.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://phrack.org/&quot;&gt;https://phrack.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>s0cm0nkey's Security Reference Guide</title>
-  <link href="https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#s0cm0nkey-gitbook-io-s0cm0nkeys-security-reference-guide" rel="alternate" type="text/html"/>
   <id>https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>SOC, sızma testi, DFIR, tehdit istihbaratı ve AppSec için konu başlıklarına ayrılmış, elle derlenen bağlantı ve kaynak rehberi. Tek bir alana odaklanan awesome listelerinden farkı, mavi ve kırmızı takım alanlarını tek bir gitbook'ta toplamasıdır.</summary>
+  <content type="html">&lt;p&gt;SOC, sızma testi, DFIR, tehdit istihbaratı ve AppSec için konu başlıklarına ayrılmış, elle derlenen bağlantı ve kaynak rehberi. Tek bir alana odaklanan awesome listelerinden farkı, mavi ve kırmızı takım alanlarını tek bir gitbook'ta toplamasıdır.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide&quot;&gt;https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Shodan</title>
-  <link href="https://www.shodan.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#shodan-io" rel="alternate" type="text/html"/>
   <id>https://www.shodan.io/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>İnternete açık cihazları, sunucuları ve servisleri banner'larına göre arayan arama motoru. Web sayfalarını değil, açık portları ve cihazları indekslediği için Google'dan farklı; ücretsiz hesapla sınırlı sorgu yapılabiliyor.</summary>
+  <content type="html">&lt;p&gt;İnternete açık cihazları, sunucuları ve servisleri banner'larına göre arayan arama motoru. Web sayfalarını değil, açık portları ve cihazları indekslediği için Google'dan farklı; ücretsiz hesapla sınırlı sorgu yapılabiliyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.shodan.io/&quot;&gt;https://www.shodan.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>urlscan.io</title>
-  <link href="https://urlscan.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#urlscan-io" rel="alternate" type="text/html"/>
   <id>https://urlscan.io/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Bir URL'yi gerçek tarayıcıda açıp sayfanın yaptığı tüm istekleri, bağlandığı alan adlarını, ekran görüntüsünü ve DOM'unu kaydeden tarama servisi. VirusTotal gibi sadece itibar puanı vermez; sayfanın davranışını kanıtıyla birlikte gösterir, kamuya açık geçmiş taramalar aranabilir.</summary>
+  <content type="html">&lt;p&gt;Bir URL'yi gerçek tarayıcıda açıp sayfanın yaptığı tüm istekleri, bağlandığı alan adlarını, ekran görüntüsünü ve DOM'unu kaydeden tarama servisi. VirusTotal gibi sadece itibar puanı vermez; sayfanın davranışını kanıtıyla birlikte gösterir, kamuya açık geçmiş taramalar aranabilir.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://urlscan.io/&quot;&gt;https://urlscan.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>WebApps Security Tests MindMap</title>
-  <link href="https://www.amanhardikar.com/mindmaps/webapptest.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#amanhardikar-com-mindmaps-webapptest-html" rel="alternate" type="text/html"/>
   <id>https://www.amanhardikar.com/mindmaps/webapptest.html</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Web uygulaması güvenlik testlerini zihin haritası olarak sıralayan tek sayfa; her dal bir test alanı ve araçlarını listeliyor. Metin kontrol listelerinden farkı, kapsamı tek bakışta göstermesi.</summary>
+  <content type="html">&lt;p&gt;Web uygulaması güvenlik testlerini zihin haritası olarak sıralayan tek sayfa; her dal bir test alanı ve araçlarını listeliyor. Metin kontrol listelerinden farkı, kapsamı tek bakışta göstermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.amanhardikar.com/mindmaps/webapptest.html&quot;&gt;https://www.amanhardikar.com/mindmaps/webapptest.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>WiGLE</title>
-  <link href="https://wigle.net"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#wigle-net" rel="alternate" type="text/html"/>
   <id>https://wigle.net</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Gönüllülerce toplanan dünya çapındaki Wi-Fi, Bluetooth ve baz istasyonu gözlemlerinin harita ve arama arayüzü. Coğrafi IP servislerinden farkı kablosuz erişim noktalarını konum verisiyle indekslemesi.</summary>
+  <content type="html">&lt;p&gt;Gönüllülerce toplanan dünya çapındaki Wi-Fi, Bluetooth ve baz istasyonu gözlemlerinin harita ve arama arayüzü. Coğrafi IP servislerinden farkı kablosuz erişim noktalarını konum verisiyle indekslemesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://wigle.net&quot;&gt;https://wigle.net&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome CAPTCHA</title>
-  <link href="https://github.com/ZYSzys/awesome-captcha"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#github-com-zyszys-awesome-captcha" rel="alternate" type="text/html"/>
   <id>https://github.com/ZYSzys/awesome-captcha</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>İnsan-bot ayrımı için kullanılan CAPTCHA türleri ve kütüphaneleri listesi. Tek bir CAPTCHA servisinden farkı türleri ve açık kaynak kütüphaneleri yan yana toplaması.</summary>
+  <content type="html">&lt;p&gt;İnsan-bot ayrımı için kullanılan CAPTCHA türleri ve kütüphaneleri listesi. Tek bir CAPTCHA servisinden farkı türleri ve açık kaynak kütüphaneleri yan yana toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ZYSzys/awesome-captcha&quot;&gt;https://github.com/ZYSzys/awesome-captcha&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Crypto Papers</title>
-  <link href="https://github.com/pFarb/awesome-crypto-papers"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#github-com-pfarb-awesome-crypto-papers" rel="alternate" type="text/html"/>
   <id>https://github.com/pFarb/awesome-crypto-papers</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Kriptografiyi uzman olmayanlar için açan kuramsal temel makaleler listesi. Ders kitaplarından farkı doğrudan özgün makalelere yönlendirmesi ve bunları uzman olmayan okur için sıralaması.</summary>
+  <content type="html">&lt;p&gt;Kriptografiyi uzman olmayanlar için açan kuramsal temel makaleler listesi. Ders kitaplarından farkı doğrudan özgün makalelere yönlendirmesi ve bunları uzman olmayan okur için sıralaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/pFarb/awesome-crypto-papers&quot;&gt;https://github.com/pFarb/awesome-crypto-papers&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Cybersecurity Blue Team</title>
-  <link href="https://github.com/fabacab/awesome-cybersecurity-blueteam"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#github-com-fabacab-awesome-cybersecurity-blueteam" rel="alternate" type="text/html"/>
   <id>https://github.com/fabacab/awesome-cybersecurity-blueteam</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Savunma (blue team) için tespit, izleme ve müdahale araçlarının listesi. Saldırı listelerinden farkı sistemleri korumaya ve olayı yakalamaya odaklanması.</summary>
+  <content type="html">&lt;p&gt;Savunma (blue team) için tespit, izleme ve müdahale araçlarının listesi. Saldırı listelerinden farkı sistemleri korumaya ve olayı yakalamaya odaklanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/fabacab/awesome-cybersecurity-blueteam&quot;&gt;https://github.com/fabacab/awesome-cybersecurity-blueteam&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Detection Engineering</title>
-  <link href="https://github.com/infosecB/awesome-detection-engineering"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#github-com-infosecb-awesome-detection-engineering" rel="alternate" type="text/html"/>
   <id>https://github.com/infosecB/awesome-detection-engineering</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Saldırıları yakalayan tespit kurallarını tasarlama ve işletme kaynakları. Hazır araçlardan farkı “nasıl iyi tespit yazılır” mühendisliğine eğilmesi.</summary>
+  <content type="html">&lt;p&gt;Saldırıları yakalayan tespit kurallarını tasarlama ve işletme kaynakları. Hazır araçlardan farkı “nasıl iyi tespit yazılır” mühendisliğine eğilmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/infosecB/awesome-detection-engineering&quot;&gt;https://github.com/infosecB/awesome-detection-engineering&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome DevSecOps</title>
-  <link href="https://github.com/TaptuIT/awesome-devsecops"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#github-com-taptuit-awesome-devsecops" rel="alternate" type="text/html"/>
   <id>https://github.com/TaptuIT/awesome-devsecops</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Güvenliği CI/CD boru hattına gömen araç ve pratiklerin listesi. Ayrı güvenlik testlerinden farkı denetimi geliştirme akışının içine yerleştirmesi.</summary>
+  <content type="html">&lt;p&gt;Güvenliği CI/CD boru hattına gömen araç ve pratiklerin listesi. Ayrı güvenlik testlerinden farkı denetimi geliştirme akışının içine yerleştirmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/TaptuIT/awesome-devsecops&quot;&gt;https://github.com/TaptuIT/awesome-devsecops&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Honeypots</title>
-  <link href="https://github.com/paralax/awesome-honeypots"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#github-com-paralax-awesome-honeypots" rel="alternate" type="text/html"/>
   <id>https://github.com/paralax/awesome-honeypots</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Saldırganı tuzağa çekmek için kurulan sahte sistemlerin (honeypot) listesi. Genel savunma listelerinden farkı yalnız aldatma ve erken uyarı araçlarına odaklanması.</summary>
+  <content type="html">&lt;p&gt;Saldırganı tuzağa çekmek için kurulan sahte sistemlerin (honeypot) listesi. Genel savunma listelerinden farkı yalnız aldatma ve erken uyarı araçlarına odaklanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/paralax/awesome-honeypots&quot;&gt;https://github.com/paralax/awesome-honeypots&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome IAM</title>
-  <link href="https://github.com/kdeldycke/awesome-iam"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#github-com-kdeldycke-awesome-iam" rel="alternate" type="text/html"/>
   <id>https://github.com/kdeldycke/awesome-iam</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Kullanıcı hesapları, kimlik doğrulama ve yetkilendirme için kaynak listesi. Tek bir kimlik sağlayıcısının belgelerinden farkı sağlayıcıdan bağımsız olması: parola saklama, oturum, MFA, OAuth ve yetki modellerini kavram düzeyinde ele alıyor.</summary>
+  <content type="html">&lt;p&gt;Kullanıcı hesapları, kimlik doğrulama ve yetkilendirme için kaynak listesi. Tek bir kimlik sağlayıcısının belgelerinden farkı sağlayıcıdan bağımsız olması: parola saklama, oturum, MFA, OAuth ve yetki modellerini kavram düzeyinde ele alıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/kdeldycke/awesome-iam&quot;&gt;https://github.com/kdeldycke/awesome-iam&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Prompt Injection</title>
-  <link href="https://github.com/FonduAI/awesome-prompt-injection"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#github-com-fonduai-awesome-prompt-injection" rel="alternate" type="text/html"/>
   <id>https://github.com/FonduAI/awesome-prompt-injection</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Dil modellerine özgü “prompt enjeksiyonu” zafiyetine dair araç ve makale listesi. Klasik güvenlik listelerinden farkı yalnız YZ sistemlerinin yeni saldırı yüzeyine bakması.</summary>
+  <content type="html">&lt;p&gt;Dil modellerine özgü “prompt enjeksiyonu” zafiyetine dair araç ve makale listesi. Klasik güvenlik listelerinden farkı yalnız YZ sistemlerinin yeni saldırı yüzeyine bakması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/FonduAI/awesome-prompt-injection&quot;&gt;https://github.com/FonduAI/awesome-prompt-injection&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Atypical OSINT Guide</title>
-  <link href="https://github.com/OffcierCia/non-typical-OSINT-guide"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#github-com-offciercia-non-typical-osint-guide" rel="alternate" type="text/html"/>
   <id>https://github.com/OffcierCia/non-typical-OSINT-guide</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>Sıradan araç listelerinin atladığı OSINT tekniklerini toplayan rehber — blokzincir izleme, meta veri, alışılmadık kaynaklar. Standart OSINT listelerinden farkı köşe kapmaca yöntemlere gitmesi: herkesin bildiği araçları değil, az bilinen yolları anlatıyor.</summary>
+  <content type="html">&lt;p&gt;Sıradan araç listelerinin atladığı OSINT tekniklerini toplayan rehber — blokzincir izleme, meta veri, alışılmadık kaynaklar. Standart OSINT listelerinden farkı köşe kapmaca yöntemlere gitmesi: herkesin bildiği araçları değil, az bilinen yolları anlatıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/OffcierCia/non-typical-OSINT-guide&quot;&gt;https://github.com/OffcierCia/non-typical-OSINT-guide&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Annual Security Reports</title>
-  <link href="https://github.com/jacobdjwilson/awesome-annual-security-reports"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#github-com-jacobdjwilson-awesome-annual-security-reports" rel="alternate" type="text/html"/>
   <id>https://github.com/jacobdjwilson/awesome-annual-security-reports</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>Araştırma kuruluşları ve devlet kurumlarının yıllık siber güvenlik raporlarını tek yerde toplayan liste. Tek bir raporu okumaktan farkı satıcı bağımsız olması: pazarlama metnini ayıklayıp trendleri karşılaştırabilmen için hepsini yan yana koyuyor.</summary>
+  <content type="html">&lt;p&gt;Araştırma kuruluşları ve devlet kurumlarının yıllık siber güvenlik raporlarını tek yerde toplayan liste. Tek bir raporu okumaktan farkı satıcı bağımsız olması: pazarlama metnini ayıklayıp trendleri karşılaştırabilmen için hepsini yan yana koyuyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/jacobdjwilson/awesome-annual-security-reports&quot;&gt;https://github.com/jacobdjwilson/awesome-annual-security-reports&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Black Hat Tools</title>
-  <link href="https://github.com/UCYBERS/Awesome-Blackhat-Tools"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#github-com-ucybers-awesome-blackhat-tools" rel="alternate" type="text/html"/>
   <id>https://github.com/UCYBERS/Awesome-Blackhat-Tools</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>Yalnızca Black Hat konferanslarında resmen sunulmuş araçları toplayan liste. Genel araç listelerinden farkı giriş engeli olması: her araç sahnede canlı gösterilmiş, yani rastgele depo değil hakem süzgecinden geçmiş, sahada denenmiş araçlar.</summary>
+  <content type="html">&lt;p&gt;Yalnızca Black Hat konferanslarında resmen sunulmuş araçları toplayan liste. Genel araç listelerinden farkı giriş engeli olması: her araç sahnede canlı gösterilmiş, yani rastgele depo değil hakem süzgecinden geçmiş, sahada denenmiş araçlar.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/UCYBERS/Awesome-Blackhat-Tools&quot;&gt;https://github.com/UCYBERS/Awesome-Blackhat-Tools&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Game Security</title>
-  <link href="https://github.com/gmh5225/awesome-game-security"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#github-com-gmh5225-awesome-game-security" rel="alternate" type="text/html"/>
   <id>https://github.com/gmh5225/awesome-game-security</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>Oyun güvenliğine — anti-hile, tersine mühendislik, koruma atlatma — özel kaynak listesi. Genel tersine mühendislik listelerinden farkı oyunlara odaklanması: anti-cheat sistemleri ve oyun korumaları gibi bu alana has konuları bir arada topluyor.</summary>
+  <content type="html">&lt;p&gt;Oyun güvenliğine — anti-hile, tersine mühendislik, koruma atlatma — özel kaynak listesi. Genel tersine mühendislik listelerinden farkı oyunlara odaklanması: anti-cheat sistemleri ve oyun korumaları gibi bu alana has konuları bir arada topluyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/gmh5225/awesome-game-security&quot;&gt;https://github.com/gmh5225/awesome-game-security&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Hacking</title>
-  <link href="https://github.com/Hack-with-Github/Awesome-Hacking"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#github-com-hack-with-github-awesome-hacking" rel="alternate" type="text/html"/>
   <id>https://github.com/Hack-with-Github/Awesome-Hacking</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>Hacker, pentester ve araştırmacılar için awesome listelerini toplayan bir liste. Tek tek konu listelerinden farkı üst dizin olması: OSINT’ten zararlı yazılım analizine kadar onlarca alt listeye tek kapıdan giriş sağlıyor.</summary>
+  <content type="html">&lt;p&gt;Hacker, pentester ve araştırmacılar için awesome listelerini toplayan bir liste. Tek tek konu listelerinden farkı üst dizin olması: OSINT’ten zararlı yazılım analizine kadar onlarca alt listeye tek kapıdan giriş sağlıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/Hack-with-Github/Awesome-Hacking&quot;&gt;https://github.com/Hack-with-Github/Awesome-Hacking&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome OSINT</title>
-  <link href="https://github.com/jivoi/awesome-osint"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#github-com-jivoi-awesome-osint" rel="alternate" type="text/html"/>
   <id>https://github.com/jivoi/awesome-osint</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>Açık kaynak istihbarat araç ve kaynaklarının kategori kategori (kişi, alan adı, sosyal medya, coğrafi) listesi. Tek amaçlı OSINT araçlarından farkı harita olması: hangi işe hangi aracın olduğunu gösteren, alanın en çok atıf alan başlangıç dizini.</summary>
+  <content type="html">&lt;p&gt;Açık kaynak istihbarat araç ve kaynaklarının kategori kategori (kişi, alan adı, sosyal medya, coğrafi) listesi. Tek amaçlı OSINT araçlarından farkı harita olması: hangi işe hangi aracın olduğunu gösteren, alanın en çok atıf alan başlangıç dizini.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/jivoi/awesome-osint&quot;&gt;https://github.com/jivoi/awesome-osint&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Web Security</title>
-  <link href="https://github.com/qazbnm456/awesome-web-security"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#github-com-qazbnm456-awesome-web-security" rel="alternate" type="text/html"/>
   <id>https://github.com/qazbnm456/awesome-web-security</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>Web güvenliğine odaklı, saldırı sınıflarına (XSS, SSRF, deserialization) göre bölünmüş kaynak listesi. Genel hacking listelerinden farkı dar ve derin olması: yalnız web katmanını hedefliyor, her zafiyet türü için makale, araç ve laboratuvarı bir arada topluyor.</summary>
+  <content type="html">&lt;p&gt;Web güvenliğine odaklı, saldırı sınıflarına (XSS, SSRF, deserialization) göre bölünmüş kaynak listesi. Genel hacking listelerinden farkı dar ve derin olması: yalnız web katmanını hedefliyor, her zafiyet türü için makale, araç ve laboratuvarı bir arada topluyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/qazbnm456/awesome-web-security&quot;&gt;https://github.com/qazbnm456/awesome-web-security&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>HackTricks</title>
-  <link href="https://hacktricks.wiki/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#hacktricks-wiki" rel="alternate" type="text/html"/>
   <id>https://hacktricks.wiki/</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>Pentest, red team, web, bulut ve ayrıcalık yükseltme tekniklerini adım adım komutlarla veren bilgi tabanı. Kavramsal güvenlik kitaplarından farkı doğrudan çalıştırılabilir olması: her sayfa “şu porta şu komutu at, çıktıda şunu ara” diyecek kadar somut, ezber değil sahada kullanılan bir başvuru.</summary>
+  <content type="html">&lt;p&gt;Pentest, red team, web, bulut ve ayrıcalık yükseltme tekniklerini adım adım komutlarla veren bilgi tabanı. Kavramsal güvenlik kitaplarından farkı doğrudan çalıştırılabilir olması: her sayfa “şu porta şu komutu at, çıktıda şunu ara” diyecek kadar somut, ezber değil sahada kullanılan bir başvuru.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://hacktricks.wiki/&quot;&gt;https://hacktricks.wiki/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

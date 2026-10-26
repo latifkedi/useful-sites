@@ -2,225 +2,227 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
 <title>Editör, IDE &amp; Terminal — Kullanışlı Siteler</title>
 <subtitle>Yazılımdan yapay zekaya, güvenlikten ekonomiye ve mimariye on alanda elle derlenmiş, açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/editor.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/editor.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/editor.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/editor.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/editor.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>Overleaf</title>
-  <link href="https://www.overleaf.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#overleaf-com" rel="alternate" type="text/html"/>
   <id>https://www.overleaf.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Tarayıcıda çalışan, ortak düzenlemeli LaTeX editörü; derleme sunucuda, binlerce dergi ve tez şablonu hazır. Yerel TeX kurulumundan farkı kurulumsuz ve eşzamanlı çalışılabilmesi; ücretsiz planda derleme süresi ve ortak çalışan sınırlı, Community Edition kendi sunucunda kurulabiliyor.</summary>
+  <content type="html">&lt;p&gt;Tarayıcıda çalışan, ortak düzenlemeli LaTeX editörü; derleme sunucuda, binlerce dergi ve tez şablonu hazır. Yerel TeX kurulumundan farkı kurulumsuz ve eşzamanlı çalışılabilmesi; ücretsiz planda derleme süresi ve ortak çalışan sınırlı, Community Edition kendi sunucunda kurulabiliyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.overleaf.com/&quot;&gt;https://www.overleaf.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Typst</title>
-  <link href="https://typst.app/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#typst-app" rel="alternate" type="text/html"/>
   <id>https://typst.app/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>LaTeX’e alternatif yeni bir dizgi dili ve onun çevrimiçi editörü; derleyici açık kaynak (Rust) ve değişiklikleri anında yeniden derliyor. Overleaf’ten farkı LaTeX değil daha sade bir sözdizimi ve yerleşik betik dili kullanması; buna karşın paket ekosistemi küçük ve çoğu dergi hâlâ LaTeX istiyor.</summary>
+  <content type="html">&lt;p&gt;LaTeX’e alternatif yeni bir dizgi dili ve onun çevrimiçi editörü; derleyici açık kaynak (Rust) ve değişiklikleri anında yeniden derliyor. Overleaf’ten farkı LaTeX değil daha sade bir sözdizimi ve yerleşik betik dili kullanması; buna karşın paket ekosistemi küçük ve çoğu dergi hâlâ LaTeX istiyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://typst.app/&quot;&gt;https://typst.app/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>diffnav</title>
-  <link href="https://github.com/dlvhdr/diffnav"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#github-com-dlvhdr-diffnav" rel="alternate" type="text/html"/>
   <id>https://github.com/dlvhdr/diffnav</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>delta tabanlı, GitHub’daki gibi dosya ağacı sunan git diff görüntüleyicisi (Go). Düz delta’dan farkı gezilebilir bir dosya listesi eklemesi.</summary>
+  <content type="html">&lt;p&gt;delta tabanlı, GitHub’daki gibi dosya ağacı sunan git diff görüntüleyicisi (Go). Düz delta’dan farkı gezilebilir bir dosya listesi eklemesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/dlvhdr/diffnav&quot;&gt;https://github.com/dlvhdr/diffnav&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Terminal Trove</title>
-  <link href="https://terminaltrove.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#terminaltrove-com" rel="alternate" type="text/html"/>
   <id>https://terminaltrove.com/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Komut satırı ve terminal arayüzlü araçların vitrini; her araç için kısa tanıtım ve kurulum bilgisi var. Awesome listelerden farkı araç başına tek sayfa ve denemeye hazır kurulum yönergesi sunması.</summary>
+  <content type="html">&lt;p&gt;Komut satırı ve terminal arayüzlü araçların vitrini; her araç için kısa tanıtım ve kurulum bilgisi var. Awesome listelerden farkı araç başına tek sayfa ve denemeye hazır kurulum yönergesi sunması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://terminaltrove.com/&quot;&gt;https://terminaltrove.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>typos</title>
-  <link href="https://github.com/crate-ci/typos"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#github-com-crate-ci-typos" rel="alternate" type="text/html"/>
   <id>https://github.com/crate-ci/typos</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Kaynak kodda ve metinde yazım hatalarını bulan hızlı Rust aracı. Düz yazı denetleyicilerden farkı tanımlayıcıları kelimelere bölüp yanlış alarmı az tutması.</summary>
+  <content type="html">&lt;p&gt;Kaynak kodda ve metinde yazım hatalarını bulan hızlı Rust aracı. Düz yazı denetleyicilerden farkı tanımlayıcıları kelimelere bölüp yanlış alarmı az tutması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/crate-ci/typos&quot;&gt;https://github.com/crate-ci/typos&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Zellij</title>
-  <link href="https://github.com/zellij-org/zellij"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#github-com-zellij-org-zellij" rel="alternate" type="text/html"/>
   <id>https://github.com/zellij-org/zellij</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Rust ile yazılmış, yerleşimleri ve eklenti sistemi olan terminal çalışma alanı. tmux’tan farkı varsayılanlarının keşfedilebilir olması (ekranda tuş ipuçları); bedeli daha genç olması.</summary>
+  <content type="html">&lt;p&gt;Rust ile yazılmış, yerleşimleri ve eklenti sistemi olan terminal çalışma alanı. tmux’tan farkı varsayılanlarının keşfedilebilir olması (ekranda tuş ipuçları); bedeli daha genç olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/zellij-org/zellij&quot;&gt;https://github.com/zellij-org/zellij&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Apache NetBeans</title>
-  <link href="https://netbeans.apache.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#netbeans-apache-org" rel="alternate" type="text/html"/>
   <id>https://netbeans.apache.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Java ağırlıklı, çok dilli açık kaynak geliştirme ortamı (IDE). IntelliJ IDEA’ya kıyasla tamamen ücretsiz ve Apache altında; karşılığında eklenti ekosistemi ve akıllı kod tamamlama tarafı daha zayıf.</summary>
+  <content type="html">&lt;p&gt;Java ağırlıklı, çok dilli açık kaynak geliştirme ortamı (IDE). IntelliJ IDEA’ya kıyasla tamamen ücretsiz ve Apache altında; karşılığında eklenti ekosistemi ve akıllı kod tamamlama tarafı daha zayıf.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://netbeans.apache.org/&quot;&gt;https://netbeans.apache.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome CLI</title>
-  <link href="https://github.com/umutphp/awesome-cli"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#github-com-umutphp-awesome-cli" rel="alternate" type="text/html"/>
   <id>https://github.com/umutphp/awesome-cli</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Komut satırında kullanışlı, küçük araçları toplayan liste. awesome-shell gibi geniş listelerden farkı tek iş gören, hemen kurulup kullanılabilecek küçük araçlara odaklanması.</summary>
+  <content type="html">&lt;p&gt;Komut satırında kullanışlı, küçük araçları toplayan liste. awesome-shell gibi geniş listelerden farkı tek iş gören, hemen kurulup kullanılabilecek küçük araçlara odaklanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/umutphp/awesome-cli&quot;&gt;https://github.com/umutphp/awesome-cli&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Git Addons</title>
-  <link href="https://github.com/stevemao/awesome-git-addons"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#github-com-stevemao-awesome-git-addons" rel="alternate" type="text/html"/>
   <id>https://github.com/stevemao/awesome-git-addons</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>git komut satırını genişleten ek komut ve araç listesi. Git istemcilerinden farkı grafik arayüz değil, `git`’e yeni alt komutlar ekleyen araçları toplaması.</summary>
+  <content type="html">&lt;p&gt;git komut satırını genişleten ek komut ve araç listesi. Git istemcilerinden farkı grafik arayüz değil, `git`’e yeni alt komutlar ekleyen araçları toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/stevemao/awesome-git-addons&quot;&gt;https://github.com/stevemao/awesome-git-addons&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Hyper</title>
-  <link href="https://github.com/bnb/awesome-hyper"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#github-com-bnb-awesome-hyper" rel="alternate" type="text/html"/>
   <id>https://github.com/bnb/awesome-hyper</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Web teknolojili terminal Hyper için tema ve eklenti listesi. Alacritty gibi yerel terminallerden farkı Electron üzerine kurulu olması: HTML/CSS/JS ile tema ve eklenti yazabiliyorsun; karşılığında daha ağır.</summary>
+  <content type="html">&lt;p&gt;Web teknolojili terminal Hyper için tema ve eklenti listesi. Alacritty gibi yerel terminallerden farkı Electron üzerine kurulu olması: HTML/CSS/JS ile tema ve eklenti yazabiliyorsun; karşılığında daha ağır.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/bnb/awesome-hyper&quot;&gt;https://github.com/bnb/awesome-hyper&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Neovim</title>
-  <link href="https://github.com/rockerBOO/awesome-neovim"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#github-com-rockerboo-awesome-neovim" rel="alternate" type="text/html"/>
   <id>https://github.com/rockerBOO/awesome-neovim</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Neovim editörü için eklenti ve yapılandırma listesi. Vim eklenti listelerinden farkı Lua ile yazılmış ve Tree-sitter ile LSP gibi yalnız Neovim’de bulunan özelliklere dayanan eklentileri toplaması.</summary>
+  <content type="html">&lt;p&gt;Neovim editörü için eklenti ve yapılandırma listesi. Vim eklenti listelerinden farkı Lua ile yazılmış ve Tree-sitter ile LSP gibi yalnız Neovim’de bulunan özelliklere dayanan eklentileri toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/rockerBOO/awesome-neovim&quot;&gt;https://github.com/rockerBOO/awesome-neovim&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome VS Code</title>
-  <link href="https://github.com/viatsko/awesome-vscode"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#github-com-viatsko-awesome-vscode" rel="alternate" type="text/html"/>
   <id>https://github.com/viatsko/awesome-vscode</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Visual Studio Code için uzantı ve kaynak listesi. Marketplace’in kendisinden farkı küratörlü olması: binlerce uzantı yerine denenmiş olanları dile ve işe göre gruplaması.</summary>
+  <content type="html">&lt;p&gt;Visual Studio Code için uzantı ve kaynak listesi. Marketplace’in kendisinden farkı küratörlü olması: binlerce uzantı yerine denenmiş olanları dile ve işe göre gruplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/viatsko/awesome-vscode&quot;&gt;https://github.com/viatsko/awesome-vscode&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Cmder</title>
-  <link href="https://cmder.app/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#cmder-app" rel="alternate" type="text/html"/>
   <id>https://cmder.app/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Windows için taşınabilir, güzel bir konsol paketi; bash ve unix komutlarıyla gelir. Yerleşik cmd’den farkı sekme, tema ve unix araçlarını bir arada sunması.</summary>
+  <content type="html">&lt;p&gt;Windows için taşınabilir, güzel bir konsol paketi; bash ve unix komutlarıyla gelir. Yerleşik cmd’den farkı sekme, tema ve unix araçlarını bir arada sunması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cmder.app/&quot;&gt;https://cmder.app/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Editor.md</title>
-  <link href="https://pandao.github.io/editor.md/en.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#pandao-github-io-editor-md-en-html" rel="alternate" type="text/html"/>
   <id>https://pandao.github.io/editor.md/en.html</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Açık kaynak, tarayıcıda çalışan Markdown editörü; canlı önizleme ve dışa aktarma. Barındırılan not uygulamalarından farkı bir bileşen olması: kendi sayfana gömüp veriyi kendinde tutabiliyorsun.</summary>
+  <content type="html">&lt;p&gt;Açık kaynak, tarayıcıda çalışan Markdown editörü; canlı önizleme ve dışa aktarma. Barındırılan not uygulamalarından farkı bir bileşen olması: kendi sayfana gömüp veriyi kendinde tutabiliyorsun.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://pandao.github.io/editor.md/en.html&quot;&gt;https://pandao.github.io/editor.md/en.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>hub</title>
-  <link href="https://hub.github.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#hub-github-com" rel="alternate" type="text/html"/>
   <id>https://hub.github.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Git komut satırını GitHub işlemleriyle (PR, issue, fork) genişleten sarmalayıcı. Resmî gh aracından farkı git komutlarını doğrudan sarmalaması; artık gh’nin gerisinde kaldı, yeni kurulumlarda gh tercih ediliyor.</summary>
+  <content type="html">&lt;p&gt;Git komut satırını GitHub işlemleriyle (PR, issue, fork) genişleten sarmalayıcı. Resmî gh aracından farkı git komutlarını doğrudan sarmalaması; artık gh’nin gerisinde kaldı, yeni kurulumlarda gh tercih ediliyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://hub.github.com/&quot;&gt;https://hub.github.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Hyper</title>
-  <link href="https://hyper.is/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#hyper-is" rel="alternate" type="text/html"/>
   <id>https://hyper.is/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Web teknolojileriyle yazılmış, eklentilerle genişleyen açık kaynak terminal. Alacritty gibi yerel terminallerden farkı Electron üzerine kurulu olması: HTML/CSS/JS ile tema yazabiliyorsun, karşılığında daha ağır.</summary>
+  <content type="html">&lt;p&gt;Web teknolojileriyle yazılmış, eklentilerle genişleyen açık kaynak terminal. Alacritty gibi yerel terminallerden farkı Electron üzerine kurulu olması: HTML/CSS/JS ile tema yazabiliyorsun, karşılığında daha ağır.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://hyper.is/&quot;&gt;https://hyper.is/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Micro</title>
-  <link href="https://micro-editor.github.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#micro-editor-github-io" rel="alternate" type="text/html"/>
   <id>https://micro-editor.github.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Terminalde çalışan, sezgisel ve modern kısayollu metin editörü. Vim ve nano’dan farkı öğrenme eğrisinin neredeyse düz olması: Ctrl+S kaydeder, Ctrl+C kopyalar — masaüstü editör alışkanlıklarıyla çalışıyor.</summary>
+  <content type="html">&lt;p&gt;Terminalde çalışan, sezgisel ve modern kısayollu metin editörü. Vim ve nano’dan farkı öğrenme eğrisinin neredeyse düz olması: Ctrl+S kaydeder, Ctrl+C kopyalar — masaüstü editör alışkanlıklarıyla çalışıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://micro-editor.github.io/&quot;&gt;https://micro-editor.github.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Neovim</title>
-  <link href="https://neovim.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#neovim-io" rel="alternate" type="text/html"/>
   <id>https://neovim.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Vim’in yeniden yapılandırılmış hâli; yapılandırma ve eklentiler Lua ile yazılıyor, dil sunucusu (LSP) desteği yerleşik. Klasik Vim’den farkı bu Lua ekosistemi ve eşzamansız eklenti mimarisi.</summary>
+  <content type="html">&lt;p&gt;Vim’in yeniden yapılandırılmış hâli; yapılandırma ve eklentiler Lua ile yazılıyor, dil sunucusu (LSP) desteği yerleşik. Klasik Vim’den farkı bu Lua ekosistemi ve eşzamansız eklenti mimarisi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://neovim.io/&quot;&gt;https://neovim.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>ranwhen</title>
-  <link href="https://github.com/p-e-w/ranwhen"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#github-com-p-e-w-ranwhen" rel="alternate" type="text/html"/>
   <id>https://github.com/p-e-w/ranwhen</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Sisteminin ne zaman çalıştığını terminalde görsel olarak gösteren araç; depo 2013’ten beri güncellenmiyor. Düz `last` çıktısından farkı verileri renkli bir zaman grafiğine dökmesi.</summary>
+  <content type="html">&lt;p&gt;Sisteminin ne zaman çalıştığını terminalde görsel olarak gösteren araç; depo 2013’ten beri güncellenmiyor. Düz `last` çıktısından farkı verileri renkli bir zaman grafiğine dökmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/p-e-w/ranwhen&quot;&gt;https://github.com/p-e-w/ranwhen&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Sublime Text</title>
-  <link href="https://www.sublimetext.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#sublimetext-com" rel="alternate" type="text/html"/>
   <id>https://www.sublimetext.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Hıza ve akıcılığa odaklı, çok hızlı açılan metin/kod editörü. VS Code’dan farkı yerel kod olması ve anında açılması; karşılığında eklenti ekosistemi ve yerleşik özellikleri daha dar, ücretli.</summary>
+  <content type="html">&lt;p&gt;Hıza ve akıcılığa odaklı, çok hızlı açılan metin/kod editörü. VS Code’dan farkı yerel kod olması ve anında açılması; karşılığında eklenti ekosistemi ve yerleşik özellikleri daha dar, ücretli.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.sublimetext.com/&quot;&gt;https://www.sublimetext.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Visual Studio Code</title>
-  <link href="https://code.visualstudio.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#code-visualstudio-com" rel="alternate" type="text/html"/>
   <id>https://code.visualstudio.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Eklenti ekosistemiyle en yaygın kod editörü; hafif açılıyor ama dil sunucuları ve hata ayıklayıcılarla bir IDE’ye yaklaşıyor. JetBrains gibi tam IDE’lerden farkı her dili eklentiyle alman: temel küçük, yetenek eklentiden geliyor.</summary>
+  <content type="html">&lt;p&gt;Eklenti ekosistemiyle en yaygın kod editörü; hafif açılıyor ama dil sunucuları ve hata ayıklayıcılarla bir IDE’ye yaklaşıyor. JetBrains gibi tam IDE’lerden farkı her dili eklentiyle alman: temel küçük, yetenek eklentiden geliyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;https://code.visualstudio.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CodingFont</title>
-  <link href="https://www.codingfont.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#codingfont-com" rel="alternate" type="text/html"/>
   <id>https://www.codingfont.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Kodlama fontlarını turnuva usulü ikişer ikişer karşılaştırıp sana en uygun olanı buldurmayı amaçlayan araç. Font listelerinden farkı seçimi karara indirgemesi — yirmi fontu yan yana koymuyor, ikisini seçtiriyor.</summary>
+  <content type="html">&lt;p&gt;Kodlama fontlarını turnuva usulü ikişer ikişer karşılaştırıp sana en uygun olanı buldurmayı amaçlayan araç. Font listelerinden farkı seçimi karara indirgemesi — yirmi fontu yan yana koymuyor, ikisini seçtiriyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.codingfont.com/&quot;&gt;https://www.codingfont.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Eclipse Theia</title>
-  <link href="https://theia-ide.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#theia-ide-org" rel="alternate" type="text/html"/>
   <id>https://theia-ide.org/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Masaüstünde ve tarayıcıda çalışan, VS Code eklentileriyle uyumlu IDE çatısı. VS Code’dan farkı ürün değil çatı olması — kendi markanla, kendi eklenti setinle bir IDE inşa etmen için tasarlanmış.</summary>
+  <content type="html">&lt;p&gt;Masaüstünde ve tarayıcıda çalışan, VS Code eklentileriyle uyumlu IDE çatısı. VS Code’dan farkı ürün değil çatı olması — kendi markanla, kendi eklenti setinle bir IDE inşa etmen için tasarlanmış.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://theia-ide.org/&quot;&gt;https://theia-ide.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Notepad++</title>
-  <link href="https://notepad-plus-plus.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#notepad-plus-plus-org" rel="alternate" type="text/html"/>
   <id>https://notepad-plus-plus.org/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Windows için hafif kaynak kodu editörü; sözdizimi renklendirme, çok dosyada arama-değiştir ve makro kaydı var. VS Code’dan farkı hız: dev bir günlük dosyasını saniyeler içinde açıyor, dil sunucusu beklemiyor.</summary>
+  <content type="html">&lt;p&gt;Windows için hafif kaynak kodu editörü; sözdizimi renklendirme, çok dosyada arama-değiştir ve makro kaydı var. VS Code’dan farkı hız: dev bir günlük dosyasını saniyeler içinde açıyor, dil sunucusu beklemiyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://notepad-plus-plus.org/&quot;&gt;https://notepad-plus-plus.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Programming Fonts</title>
-  <link href="https://www.programmingfonts.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#programmingfonts-org" rel="alternate" type="text/html"/>
   <id>https://www.programmingfonts.org/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Kodlama için tasarlanmış tek aralıklı fontları gerçek kod örneği üzerinde yan yana deneme sitesi. Font indirme sitelerinden farkı, ligatürleri ve 0/O, 1/l/I ayrımını doğrudan kod bağlamında görmen — asıl önemli olan da bu.</summary>
+  <content type="html">&lt;p&gt;Kodlama için tasarlanmış tek aralıklı fontları gerçek kod örneği üzerinde yan yana deneme sitesi. Font indirme sitelerinden farkı, ligatürleri ve 0/O, 1/l/I ayrımını doğrudan kod bağlamında görmen — asıl önemli olan da bu.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.programmingfonts.org/&quot;&gt;https://www.programmingfonts.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>VS Code Themes</title>
-  <link href="https://vscodethemes.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#vscodethemes-com" rel="alternate" type="text/html"/>
   <id>https://vscodethemes.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>VS Code temalarını gerçek kod üzerinde önizleyen galeri. Marketplace’ten farkı temayı kurmadan görmen — birkaç dilde aynı anda nasıl göründüğünü karşılaştırabiliyorsun.</summary>
+  <content type="html">&lt;p&gt;VS Code temalarını gerçek kod üzerinde önizleyen galeri. Marketplace’ten farkı temayı kurmadan görmen — birkaç dilde aynı anda nasıl göründüğünü karşılaştırabiliyorsun.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://vscodethemes.com/&quot;&gt;https://vscodethemes.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>VSCodium</title>
-  <link href="https://vscodium.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#vscodium-com" rel="alternate" type="text/html"/>
   <id>https://vscodium.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>VS Code’un Microsoft telemetrisi ve markası çıkarılmış topluluk derlemesi. Aynı editör, aynı eklenti API’si; farkı, varsayılan eklenti marketinin Microsoft’unki değil Open VSX olması — bazı kapalı eklentiler burada bulunmuyor.</summary>
+  <content type="html">&lt;p&gt;VS Code’un Microsoft telemetrisi ve markası çıkarılmış topluluk derlemesi. Aynı editör, aynı eklenti API’si; farkı, varsayılan eklenti marketinin Microsoft’unki değil Open VSX olması — bazı kapalı eklentiler burada bulunmuyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://vscodium.com/&quot;&gt;https://vscodium.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Warp</title>
-  <link href="https://www.warp.dev/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#warp-dev" rel="alternate" type="text/html"/>
   <id>https://www.warp.dev/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Rust ile yazılmış terminal; komutları ve çıktılarını metin akışı yerine ayrı &quot;blok&quot;lar hâlinde tutuyor, böylece bir komutun çıktısını tek tıkla kopyalayabiliyorsun. iTerm veya Windows Terminal’dan ayrıldığı yer bu blok modeli ve gömülü YZ komut önerisi.</summary>
+  <content type="html">&lt;p&gt;Rust ile yazılmış terminal; komutları ve çıktılarını metin akışı yerine ayrı &amp;quot;blok&amp;quot;lar hâlinde tutuyor, böylece bir komutun çıktısını tek tıkla kopyalayabiliyorsun. iTerm veya Windows Terminal’dan ayrıldığı yer bu blok modeli ve gömülü YZ komut önerisi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.warp.dev/&quot;&gt;https://www.warp.dev/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>WakaTime</title>
-  <link href="https://wakatime.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#wakatime-com" rel="alternate" type="text/html"/>
   <id>https://wakatime.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Editör eklentisiyle hangi projede, hangi dilde ne kadar zaman geçirdiğini ölçüyor. Genel zaman takip araçlarından farkı elle başlatma gerektirmemesi — ölçüm editörün kendisinden geliyor.</summary>
+  <content type="html">&lt;p&gt;Editör eklentisiyle hangi projede, hangi dilde ne kadar zaman geçirdiğini ölçüyor. Genel zaman takip araçlarından farkı elle başlatma gerektirmemesi — ölçüm editörün kendisinden geliyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://wakatime.com&quot;&gt;https://wakatime.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>fli</title>
-  <link href="https://github.com/punitarani/fli"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#github-com-punitarani-fli" rel="alternate" type="text/html"/>
   <id>https://github.com/punitarani/fli</id>
   <updated>2026-04-20T12:03:23Z</updated>
-  <summary>Uçuş aramayı komut satırına taşıyor; MCP, CLI ve Python kütüphanesi olarak kullanılabiliyor. Uçuş sitelerinden farkı sonuçların betiklenebilir olması: fiyat takibini bir cron işine bağlayabiliyorsun.</summary>
+  <content type="html">&lt;p&gt;Uçuş aramayı komut satırına taşıyor; MCP, CLI ve Python kütüphanesi olarak kullanılabiliyor. Uçuş sitelerinden farkı sonuçların betiklenebilir olması: fiyat takibini bir cron işine bağlayabiliyorsun.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/punitarani/fli&quot;&gt;https://github.com/punitarani/fli&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Embarcadero Dev-C++</title>
-  <link href="https://sourceforge.net/projects/embarcadero-devcpp/files/v6.3/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/editor.html#sourceforge-net-projects-embarcadero-devcpp-files-v6-3" rel="alternate" type="text/html"/>
   <id>https://sourceforge.net/projects/embarcadero-devcpp/files/v6.3/</id>
   <updated>2025-09-24T09:59:46Z</updated>
-  <summary>Hafif C/C++ geliştirme ortamı. Modern IDE’lerden farkı düşük donanımda çalışması ve Türkiye’deki üniversite laboratuvarlarında hâlâ standart kurulum olması; karşılığında güncel araç desteği zayıf.</summary>
+  <content type="html">&lt;p&gt;Hafif C/C++ geliştirme ortamı. Modern IDE’lerden farkı düşük donanımda çalışması ve Türkiye’deki üniversite laboratuvarlarında hâlâ standart kurulum olması; karşılığında güncel araç desteği zayıf.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://sourceforge.net/projects/embarcadero-devcpp/files/v6.3/&quot;&gt;https://sourceforge.net/projects/embarcadero-devcpp/files/v6.3/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

@@ -2,288 +2,290 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title>Offence, Defence &amp; OSINT — Useful Sites</title>
 <subtitle>A hand-curated, annotated link directory across ten areas, from software and AI to security, economics and architecture. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/en/guv_teknik.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/guv_teknik.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/guv_teknik.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>Application Security Wiki</title>
-  <link href="https://appsecwiki.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#appsecwiki-com" rel="alternate" type="text/html"/>
   <id>https://appsecwiki.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A wiki that gathers application security resources (guides, tools, checklists, training) in one place. It is a starting point for the whole of appsec rather than a deep dive into one attack class.</summary>
+  <content type="html">&lt;p&gt;A wiki that gathers application security resources (guides, tools, checklists, training) in one place. It is a starting point for the whole of appsec rather than a deep dive into one attack class.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://appsecwiki.com/&quot;&gt;https://appsecwiki.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Connected Things Security</title>
-  <link href="https://v33ru.github.io/awesome-connected-things-sec/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#v33ru-github-io-awesome-connected-things-sec" rel="alternate" type="text/html"/>
   <id>https://v33ru.github.io/awesome-connected-things-sec/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A list for security research on IoT, embedded, industrial and automotive systems, gathering hardware attacks, wireless protocols (BLE, Zigbee, LoRa, NFC) and firmware resources. Unlike web-focused security lists it centres on physical devices and the radio layer.</summary>
+  <content type="html">&lt;p&gt;A list for security research on IoT, embedded, industrial and automotive systems, gathering hardware attacks, wireless protocols (BLE, Zigbee, LoRa, NFC) and firmware resources. Unlike web-focused security lists it centres on physical devices and the radio layer.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://v33ru.github.io/awesome-connected-things-sec/&quot;&gt;https://v33ru.github.io/awesome-connected-things-sec/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Cybersecurity List</title>
-  <link href="https://github.com/0xor0ne/awesome-list"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#github-com-0xor0ne-awesome-list" rel="alternate" type="text/html"/>
   <id>https://github.com/0xor0ne/awesome-list</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A year-by-year archive of cybersecurity blog posts, write-ups and papers, with entries up to 2026. Unlike tool lists the links are technical analyses to read (exploit chains, CVE write-ups); tools sit in a separate file.</summary>
+  <content type="html">&lt;p&gt;A year-by-year archive of cybersecurity blog posts, write-ups and papers, with entries up to 2026. Unlike tool lists the links are technical analyses to read (exploit chains, CVE write-ups); tools sit in a separate file.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/0xor0ne/awesome-list&quot;&gt;https://github.com/0xor0ne/awesome-list&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Industrial Protocols</title>
-  <link href="https://github.com/Orange-Cyberdefense/awesome-industrial-protocols"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#github-com-orange-cyberdefense-awesome-industrial-protocols" rel="alternate" type="text/html"/>
   <id>https://github.com/Orange-Cyberdefense/awesome-industrial-protocols</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A security-oriented resource list on industrial network protocols such as Modbus, S7 and OPC UA, with a page and dataset per protocol. Unlike general security lists it goes down to the OT/ICS protocol level.</summary>
+  <content type="html">&lt;p&gt;A security-oriented resource list on industrial network protocols such as Modbus, S7 and OPC UA, with a page and dataset per protocol. Unlike general security lists it goes down to the OT/ICS protocol level.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/Orange-Cyberdefense/awesome-industrial-protocols&quot;&gt;https://github.com/Orange-Cyberdefense/awesome-industrial-protocols&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>BuiltWith</title>
-  <link href="https://builtwith.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#builtwith-com" rel="alternate" type="text/html"/>
   <id>https://builtwith.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A profiler that identifies the CMS, analytics, hosting and JavaScript technologies a site uses from its address. Unlike browser extensions it rests on a wide database, including past usage and other sites running the same technology.</summary>
+  <content type="html">&lt;p&gt;A profiler that identifies the CMS, analytics, hosting and JavaScript technologies a site uses from its address. Unlike browser extensions it rests on a wide database, including past usage and other sites running the same technology.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://builtwith.com/&quot;&gt;https://builtwith.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>DNSdumpster</title>
-  <link href="https://dnsdumpster.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#dnsdumpster-com" rel="alternate" type="text/html"/>
   <id>https://dnsdumpster.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Passive reconnaissance for a domain: subdomains, DNS records and a host map, with no scan of the target itself. Runs in the browser and shows results as both a graph and a table. Unlike tools that scan the target, it uses passive sources only.</summary>
+  <content type="html">&lt;p&gt;Passive reconnaissance for a domain: subdomains, DNS records and a host map, with no scan of the target itself. Runs in the browser and shows results as both a graph and a table. Unlike tools that scan the target, it uses passive sources only.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://dnsdumpster.com/&quot;&gt;https://dnsdumpster.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Exploit-DB</title>
-  <link href="https://www.exploit-db.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#exploit-db-com" rel="alternate" type="text/html"/>
   <id>https://www.exploit-db.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Offensive Security's searchable archive of published exploits and vulnerability write-ups, indexed by CVE. It also hosts the GHDB of Google dorks, and is a common citation point in penetration test reports. Unlike CVE databases, it archives working exploit code.</summary>
+  <content type="html">&lt;p&gt;Offensive Security's searchable archive of published exploits and vulnerability write-ups, indexed by CVE. It also hosts the GHDB of Google dorks, and is a common citation point in penetration test reports. Unlike CVE databases, it archives working exploit code.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.exploit-db.com/&quot;&gt;https://www.exploit-db.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Ghidra</title>
-  <link href="https://github.com/NationalSecurityAgency/ghidra"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#github-com-nationalsecurityagency-ghidra" rel="alternate" type="text/html"/>
   <id>https://github.com/NationalSecurityAgency/ghidra</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>The NSA's open source reverse engineering framework with disassembler, decompiler and scripting. Against paid tools like IDA, it stands out for being free including the decompiler and for supporting many architectures.</summary>
+  <content type="html">&lt;p&gt;The NSA's open source reverse engineering framework with disassembler, decompiler and scripting. Against paid tools like IDA, it stands out for being free including the decompiler and for supporting many architectures.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/NationalSecurityAgency/ghidra&quot;&gt;https://github.com/NationalSecurityAgency/ghidra&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>GTFOBins</title>
-  <link href="https://gtfobins.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#gtfobins-org" rel="alternate" type="text/html"/>
   <id>https://gtfobins.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A list of Unix binaries that can be abused to escape restricted shells, escalate privileges or read files. Unlike general pentest notes, it gives a copy-ready command per binary, grouped by what it lets you do.</summary>
+  <content type="html">&lt;p&gt;A list of Unix binaries that can be abused to escape restricted shells, escalate privileges or read files. Unlike general pentest notes, it gives a copy-ready command per binary, grouped by what it lets you do.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://gtfobins.org/&quot;&gt;https://gtfobins.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>HTML5 Security Cheatsheet</title>
-  <link href="https://html5sec.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#html5sec-org" rel="alternate" type="text/html"/>
   <id>https://html5sec.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A numbered collection of XSS vectors arising from HTML5 and browser quirks, each listing the browsers it works in. It is dated, but still used to understand how filter bypasses work. Unlike the OWASP guides, it lists detailed vectors based on browser quirks.</summary>
+  <content type="html">&lt;p&gt;A numbered collection of XSS vectors arising from HTML5 and browser quirks, each listing the browsers it works in. It is dated, but still used to understand how filter bypasses work. Unlike the OWASP guides, it lists detailed vectors based on browser quirks.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://html5sec.org/&quot;&gt;https://html5sec.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>ICS Security Tools</title>
-  <link href="https://github.com/ITI/ICS-Security-Tools"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#github-com-iti-ics-security-tools" rel="alternate" type="text/html"/>
   <id>https://github.com/ITI/ICS-Security-Tools</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Tools, protocol notes, sample pcaps, configurations and guides for industrial control system (ICS/SCADA) security. Unlike general security lists it covers only OT/ICS environments, and includes packet captures and protocol material. Last updated 2025.</summary>
+  <content type="html">&lt;p&gt;Tools, protocol notes, sample pcaps, configurations and guides for industrial control system (ICS/SCADA) security. Unlike general security lists it covers only OT/ICS environments, and includes packet captures and protocol material. Last updated 2025.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ITI/ICS-Security-Tools&quot;&gt;https://github.com/ITI/ICS-Security-Tools&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Kicksecure Documentation</title>
-  <link href="https://www.kicksecure.com/wiki/Documentation"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#kicksecure-com-wiki-documentation" rel="alternate" type="text/html"/>
   <id>https://www.kicksecure.com/wiki/Documentation</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>The wiki of Kicksecure, a hardened Debian derivative, covering system hardening, kernel and browser settings, Tor and password management step by step. Unlike generic security checklists it shows how each recommendation is applied at operating-system level.</summary>
+  <content type="html">&lt;p&gt;The wiki of Kicksecure, a hardened Debian derivative, covering system hardening, kernel and browser settings, Tor and password management step by step. Unlike generic security checklists it shows how each recommendation is applied at operating-system level.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.kicksecure.com/wiki/Documentation&quot;&gt;https://www.kicksecure.com/wiki/Documentation&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>mitmproxy</title>
-  <link href="https://www.mitmproxy.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#mitmproxy-org" rel="alternate" type="text/html"/>
   <id>https://www.mitmproxy.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>An open source proxy that intercepts, inspects, modifies and replays HTTP(S) traffic, with terminal, web and scripting interfaces. Unlike GUI tools like Burp it is scriptable and runs on the command line.</summary>
+  <content type="html">&lt;p&gt;An open source proxy that intercepts, inspects, modifies and replays HTTP(S) traffic, with terminal, web and scripting interfaces. Unlike GUI tools like Burp it is scriptable and runs on the command line.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.mitmproxy.org/&quot;&gt;https://www.mitmproxy.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Oh SHINT! It's a Blog</title>
-  <link href="https://ohshint.gitbook.io/oh-shint-its-a-blog"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#ohshint-gitbook-io-oh-shint-its-a-blog" rel="alternate" type="text/html"/>
   <id>https://ohshint.gitbook.io/oh-shint-its-a-blog</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A GitBook site gathering OSINT web-resource and tool lists plus blog posts, with a separate page of newly added resources per year. Unlike a single framework page it has many topic-specific sub-lists; last updated in 2024.</summary>
+  <content type="html">&lt;p&gt;A GitBook site gathering OSINT web-resource and tool lists plus blog posts, with a separate page of newly added resources per year. Unlike a single framework page it has many topic-specific sub-lists; last updated in 2024.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://ohshint.gitbook.io/oh-shint-its-a-blog&quot;&gt;https://ohshint.gitbook.io/oh-shint-its-a-blog&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OSINT Bible</title>
-  <link href="https://github.com/frangelbarrera/OSINT-BIBLE"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#github-com-frangelbarrera-osint-bible" rel="alternate" type="text/html"/>
   <id>https://github.com/frangelbarrera/OSINT-BIBLE</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>An OSINT guide of 450+ tools, methods and ethics/legal notes across 35 sections, which also publishes a link-audit report. Unlike pure tool lists it adds a four-step research methodology and legal-framework sections.</summary>
+  <content type="html">&lt;p&gt;An OSINT guide of 450+ tools, methods and ethics/legal notes across 35 sections, which also publishes a link-audit report. Unlike pure tool lists it adds a four-step research methodology and legal-framework sections.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/frangelbarrera/OSINT-BIBLE&quot;&gt;https://github.com/frangelbarrera/OSINT-BIBLE&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OWASP MASTG</title>
-  <link href="https://mas.owasp.org/MASTG/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#mas-owasp-org-mastg" rel="alternate" type="text/html"/>
   <id>https://mas.owasp.org/MASTG/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>The OWASP guide to security testing Android and iOS apps, with test cases, tools and techniques in one place. Unlike general web security material it covers mobile-specific storage, binary analysis and network testing.</summary>
+  <content type="html">&lt;p&gt;The OWASP guide to security testing Android and iOS apps, with test cases, tools and techniques in one place. Unlike general web security material it covers mobile-specific storage, binary analysis and network testing.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://mas.owasp.org/MASTG/&quot;&gt;https://mas.owasp.org/MASTG/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OWASP Threat Dragon</title>
-  <link href="https://owasp.org/projects/threat-dragon"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#owasp-org-projects-threat-dragon" rel="alternate" type="text/html"/>
   <id>https://owasp.org/projects/threat-dragon</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>An open source OWASP tool for drawing data flow diagrams and doing threat modelling with methods such as STRIDE, with web and desktop versions. Unlike generic diagram tools it ties threats and mitigations to each diagram element.</summary>
+  <content type="html">&lt;p&gt;An open source OWASP tool for drawing data flow diagrams and doing threat modelling with methods such as STRIDE, with web and desktop versions. Unlike generic diagram tools it ties threats and mitigations to each diagram element.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://owasp.org/projects/threat-dragon&quot;&gt;https://owasp.org/projects/threat-dragon&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>PayloadsAllTheThings</title>
-  <link href="https://github.com/swisskyrepo/PayloadsAllTheThings"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#github-com-swisskyrepo-payloadsallthethings" rel="alternate" type="text/html"/>
   <id>https://github.com/swisskyrepo/PayloadsAllTheThings</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Payloads and bypass notes for web security and CTFs, organised by vulnerability class (SQLi, SSRF, XXE, SSTI and more). Each folder has a short explanation and examples, so it works as a lookup by vulnerability class rather than as a tool.</summary>
+  <content type="html">&lt;p&gt;Payloads and bypass notes for web security and CTFs, organised by vulnerability class (SQLi, SSRF, XXE, SSTI and more). Each folder has a short explanation and examples, so it works as a lookup by vulnerability class rather than as a tool.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/swisskyrepo/PayloadsAllTheThings&quot;&gt;https://github.com/swisskyrepo/PayloadsAllTheThings&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Phrack</title>
-  <link href="https://phrack.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#phrack-org" rel="alternate" type="text/html"/>
   <id>https://phrack.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>An e-zine of the hacker community, published since 1985, with deep technical articles on exploitation, kernels and network security. Against blogs and news sites it publishes rarely but with far more depth per article.</summary>
+  <content type="html">&lt;p&gt;An e-zine of the hacker community, published since 1985, with deep technical articles on exploitation, kernels and network security. Against blogs and news sites it publishes rarely but with far more depth per article.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://phrack.org/&quot;&gt;https://phrack.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>s0cm0nkey's Security Reference Guide</title>
-  <link href="https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#s0cm0nkey-gitbook-io-s0cm0nkeys-security-reference-guide" rel="alternate" type="text/html"/>
   <id>https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A hand-curated guide to links and resources split by topic for SOC, pentesting, DFIR, threat intelligence and AppSec. Unlike awesome lists that cover a single area, it collects blue-team and red-team material in one gitbook.</summary>
+  <content type="html">&lt;p&gt;A hand-curated guide to links and resources split by topic for SOC, pentesting, DFIR, threat intelligence and AppSec. Unlike awesome lists that cover a single area, it collects blue-team and red-team material in one gitbook.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide&quot;&gt;https://s0cm0nkey.gitbook.io/s0cm0nkeys-security-reference-guide&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Shodan</title>
-  <link href="https://www.shodan.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#shodan-io" rel="alternate" type="text/html"/>
   <id>https://www.shodan.io/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A search engine for internet-facing devices, servers and services, indexed by their service banners. Unlike Google it indexes open ports and devices rather than web pages; a free account allows limited queries.</summary>
+  <content type="html">&lt;p&gt;A search engine for internet-facing devices, servers and services, indexed by their service banners. Unlike Google it indexes open ports and devices rather than web pages; a free account allows limited queries.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.shodan.io/&quot;&gt;https://www.shodan.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>urlscan.io</title>
-  <link href="https://urlscan.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#urlscan-io" rel="alternate" type="text/html"/>
   <id>https://urlscan.io/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A scanning service that opens a URL in a real browser and records every request the page makes, the domains it contacts, a screenshot and the DOM. Unlike VirusTotal it does not just give a reputation score; it shows the page's behaviour with evidence, and past public scans are searchable.</summary>
+  <content type="html">&lt;p&gt;A scanning service that opens a URL in a real browser and records every request the page makes, the domains it contacts, a screenshot and the DOM. Unlike VirusTotal it does not just give a reputation score; it shows the page's behaviour with evidence, and past public scans are searchable.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://urlscan.io/&quot;&gt;https://urlscan.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>WebApps Security Tests MindMap</title>
-  <link href="https://www.amanhardikar.com/mindmaps/webapptest.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#amanhardikar-com-mindmaps-webapptest-html" rel="alternate" type="text/html"/>
   <id>https://www.amanhardikar.com/mindmaps/webapptest.html</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A single page listing web application security tests as a mind map; each branch is a test area with its tools. Unlike text checklists it shows the whole scope at a glance.</summary>
+  <content type="html">&lt;p&gt;A single page listing web application security tests as a mind map; each branch is a test area with its tools. Unlike text checklists it shows the whole scope at a glance.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.amanhardikar.com/mindmaps/webapptest.html&quot;&gt;https://www.amanhardikar.com/mindmaps/webapptest.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>WiGLE</title>
-  <link href="https://wigle.net"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#wigle-net" rel="alternate" type="text/html"/>
   <id>https://wigle.net</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Map and search interface for volunteer-collected worldwide Wi-Fi, Bluetooth and cell-tower observations. Unlike IP geolocation services, it indexes wireless access points with location data.</summary>
+  <content type="html">&lt;p&gt;Map and search interface for volunteer-collected worldwide Wi-Fi, Bluetooth and cell-tower observations. Unlike IP geolocation services, it indexes wireless access points with location data.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://wigle.net&quot;&gt;https://wigle.net&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome CAPTCHA</title>
-  <link href="https://github.com/ZYSzys/awesome-captcha"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#github-com-zyszys-awesome-captcha" rel="alternate" type="text/html"/>
   <id>https://github.com/ZYSzys/awesome-captcha</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of CAPTCHA types and libraries used to tell humans from bots. Unlike a single CAPTCHA service, it sets the types and open-source libraries side by side.</summary>
+  <content type="html">&lt;p&gt;A list of CAPTCHA types and libraries used to tell humans from bots. Unlike a single CAPTCHA service, it sets the types and open-source libraries side by side.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ZYSzys/awesome-captcha&quot;&gt;https://github.com/ZYSzys/awesome-captcha&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Crypto Papers</title>
-  <link href="https://github.com/pFarb/awesome-crypto-papers"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#github-com-pfarb-awesome-crypto-papers" rel="alternate" type="text/html"/>
   <id>https://github.com/pFarb/awesome-crypto-papers</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of theory-basics papers on cryptography for non-cryptographers. Unlike textbooks, it points straight to the original papers and orders them for the non-specialist reader.</summary>
+  <content type="html">&lt;p&gt;A list of theory-basics papers on cryptography for non-cryptographers. Unlike textbooks, it points straight to the original papers and orders them for the non-specialist reader.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/pFarb/awesome-crypto-papers&quot;&gt;https://github.com/pFarb/awesome-crypto-papers&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Cybersecurity Blue Team</title>
-  <link href="https://github.com/fabacab/awesome-cybersecurity-blueteam"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#github-com-fabacab-awesome-cybersecurity-blueteam" rel="alternate" type="text/html"/>
   <id>https://github.com/fabacab/awesome-cybersecurity-blueteam</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of detection, monitoring and response tools for the defensive (blue team) side. Unlike offensive lists it focuses on protecting systems and catching incidents.</summary>
+  <content type="html">&lt;p&gt;A list of detection, monitoring and response tools for the defensive (blue team) side. Unlike offensive lists it focuses on protecting systems and catching incidents.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/fabacab/awesome-cybersecurity-blueteam&quot;&gt;https://github.com/fabacab/awesome-cybersecurity-blueteam&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Detection Engineering</title>
-  <link href="https://github.com/infosecB/awesome-detection-engineering"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#github-com-infosecb-awesome-detection-engineering" rel="alternate" type="text/html"/>
   <id>https://github.com/infosecB/awesome-detection-engineering</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Resources for designing and operating the detection rules that catch attacks. Unlike ready tools it leans into the engineering of “how to write good detections”.</summary>
+  <content type="html">&lt;p&gt;Resources for designing and operating the detection rules that catch attacks. Unlike ready tools it leans into the engineering of “how to write good detections”.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/infosecB/awesome-detection-engineering&quot;&gt;https://github.com/infosecB/awesome-detection-engineering&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome DevSecOps</title>
-  <link href="https://github.com/TaptuIT/awesome-devsecops"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#github-com-taptuit-awesome-devsecops" rel="alternate" type="text/html"/>
   <id>https://github.com/TaptuIT/awesome-devsecops</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of tools and practices embedding security into the CI/CD pipeline. Unlike separate security tests it places the checks inside the development flow.</summary>
+  <content type="html">&lt;p&gt;A list of tools and practices embedding security into the CI/CD pipeline. Unlike separate security tests it places the checks inside the development flow.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/TaptuIT/awesome-devsecops&quot;&gt;https://github.com/TaptuIT/awesome-devsecops&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Honeypots</title>
-  <link href="https://github.com/paralax/awesome-honeypots"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#github-com-paralax-awesome-honeypots" rel="alternate" type="text/html"/>
   <id>https://github.com/paralax/awesome-honeypots</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of decoy systems (honeypots) set up to lure attackers. Unlike general defence lists it focuses only on deception and early-warning tools.</summary>
+  <content type="html">&lt;p&gt;A list of decoy systems (honeypots) set up to lure attackers. Unlike general defence lists it focuses only on deception and early-warning tools.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/paralax/awesome-honeypots&quot;&gt;https://github.com/paralax/awesome-honeypots&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome IAM</title>
-  <link href="https://github.com/kdeldycke/awesome-iam"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#github-com-kdeldycke-awesome-iam" rel="alternate" type="text/html"/>
   <id>https://github.com/kdeldycke/awesome-iam</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for user accounts, authentication and authorisation. Unlike a single identity provider’s docs it is vendor-neutral, treating password storage, sessions, MFA, OAuth and permission models at the level of concepts.</summary>
+  <content type="html">&lt;p&gt;A resource list for user accounts, authentication and authorisation. Unlike a single identity provider’s docs it is vendor-neutral, treating password storage, sessions, MFA, OAuth and permission models at the level of concepts.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/kdeldycke/awesome-iam&quot;&gt;https://github.com/kdeldycke/awesome-iam&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Prompt Injection</title>
-  <link href="https://github.com/FonduAI/awesome-prompt-injection"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#github-com-fonduai-awesome-prompt-injection" rel="alternate" type="text/html"/>
   <id>https://github.com/FonduAI/awesome-prompt-injection</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of tools and papers on the “prompt injection” vulnerability specific to language models. Unlike classic security lists it looks only at the new attack surface of AI systems.</summary>
+  <content type="html">&lt;p&gt;A list of tools and papers on the “prompt injection” vulnerability specific to language models. Unlike classic security lists it looks only at the new attack surface of AI systems.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/FonduAI/awesome-prompt-injection&quot;&gt;https://github.com/FonduAI/awesome-prompt-injection&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Atypical OSINT Guide</title>
-  <link href="https://github.com/OffcierCia/non-typical-OSINT-guide"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#github-com-offciercia-non-typical-osint-guide" rel="alternate" type="text/html"/>
   <id>https://github.com/OffcierCia/non-typical-OSINT-guide</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>A guide gathering OSINT techniques the usual tool lists skip — blockchain tracing, metadata, unconventional sources. Against standard OSINT lists it goes to the corners: it covers little-known methods rather than the tools everyone already names.</summary>
+  <content type="html">&lt;p&gt;A guide gathering OSINT techniques the usual tool lists skip — blockchain tracing, metadata, unconventional sources. Against standard OSINT lists it goes to the corners: it covers little-known methods rather than the tools everyone already names.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/OffcierCia/non-typical-OSINT-guide&quot;&gt;https://github.com/OffcierCia/non-typical-OSINT-guide&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Annual Security Reports</title>
-  <link href="https://github.com/jacobdjwilson/awesome-annual-security-reports"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#github-com-jacobdjwilson-awesome-annual-security-reports" rel="alternate" type="text/html"/>
   <id>https://github.com/jacobdjwilson/awesome-annual-security-reports</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>A list gathering the annual cybersecurity reports of research consultancies and government agencies in one place. Unlike reading a single report it is vendor-neutral: it sets them side by side so you can strip the marketing and compare the trends.</summary>
+  <content type="html">&lt;p&gt;A list gathering the annual cybersecurity reports of research consultancies and government agencies in one place. Unlike reading a single report it is vendor-neutral: it sets them side by side so you can strip the marketing and compare the trends.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/jacobdjwilson/awesome-annual-security-reports&quot;&gt;https://github.com/jacobdjwilson/awesome-annual-security-reports&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Black Hat Tools</title>
-  <link href="https://github.com/UCYBERS/Awesome-Blackhat-Tools"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#github-com-ucybers-awesome-blackhat-tools" rel="alternate" type="text/html"/>
   <id>https://github.com/UCYBERS/Awesome-Blackhat-Tools</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>A list of tools officially presented at Black Hat events, and only those. Against general tool lists it has a bar to entry: each was demonstrated live on stage, so these are field-tested, vetted tools rather than random repositories.</summary>
+  <content type="html">&lt;p&gt;A list of tools officially presented at Black Hat events, and only those. Against general tool lists it has a bar to entry: each was demonstrated live on stage, so these are field-tested, vetted tools rather than random repositories.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/UCYBERS/Awesome-Blackhat-Tools&quot;&gt;https://github.com/UCYBERS/Awesome-Blackhat-Tools&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Game Security</title>
-  <link href="https://github.com/gmh5225/awesome-game-security"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#github-com-gmh5225-awesome-game-security" rel="alternate" type="text/html"/>
   <id>https://github.com/gmh5225/awesome-game-security</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>A resource list specific to game security — anti-cheat, reverse engineering, protection bypasses. Unlike general reverse-engineering lists it centres on games, gathering domain-specific topics like anti-cheat systems and game protections together.</summary>
+  <content type="html">&lt;p&gt;A resource list specific to game security — anti-cheat, reverse engineering, protection bypasses. Unlike general reverse-engineering lists it centres on games, gathering domain-specific topics like anti-cheat systems and game protections together.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/gmh5225/awesome-game-security&quot;&gt;https://github.com/gmh5225/awesome-game-security&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Hacking</title>
-  <link href="https://github.com/Hack-with-Github/Awesome-Hacking"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#github-com-hack-with-github-awesome-hacking" rel="alternate" type="text/html"/>
   <id>https://github.com/Hack-with-Github/Awesome-Hacking</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>A list that collects awesome lists for hackers, pentesters and researchers. Unlike the individual topic lists it is the index above them: one door into dozens of sub-lists from OSINT to malware analysis.</summary>
+  <content type="html">&lt;p&gt;A list that collects awesome lists for hackers, pentesters and researchers. Unlike the individual topic lists it is the index above them: one door into dozens of sub-lists from OSINT to malware analysis.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/Hack-with-Github/Awesome-Hacking&quot;&gt;https://github.com/Hack-with-Github/Awesome-Hacking&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome OSINT</title>
-  <link href="https://github.com/jivoi/awesome-osint"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#github-com-jivoi-awesome-osint" rel="alternate" type="text/html"/>
   <id>https://github.com/jivoi/awesome-osint</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>A category-by-category list of open-source intelligence tools and resources (people, domains, social media, geolocation). Unlike a single-purpose OSINT tool it is the map: the field’s most-cited starting index for which tool fits which job.</summary>
+  <content type="html">&lt;p&gt;A category-by-category list of open-source intelligence tools and resources (people, domains, social media, geolocation). Unlike a single-purpose OSINT tool it is the map: the field’s most-cited starting index for which tool fits which job.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/jivoi/awesome-osint&quot;&gt;https://github.com/jivoi/awesome-osint&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Web Security</title>
-  <link href="https://github.com/qazbnm456/awesome-web-security"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#github-com-qazbnm456-awesome-web-security" rel="alternate" type="text/html"/>
   <id>https://github.com/qazbnm456/awesome-web-security</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>A resource list focused on web security, split by attack class (XSS, SSRF, deserialisation). Against general hacking lists it is narrow and deep: it targets the web layer alone, gathering articles, tools and labs together for each vulnerability type.</summary>
+  <content type="html">&lt;p&gt;A resource list focused on web security, split by attack class (XSS, SSRF, deserialisation). Against general hacking lists it is narrow and deep: it targets the web layer alone, gathering articles, tools and labs together for each vulnerability type.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/qazbnm456/awesome-web-security&quot;&gt;https://github.com/qazbnm456/awesome-web-security&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>HackTricks</title>
-  <link href="https://hacktricks.wiki/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#hacktricks-wiki" rel="alternate" type="text/html"/>
   <id>https://hacktricks.wiki/</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>A knowledge base giving pentest, red-team, web, cloud and privilege-escalation techniques as step-by-step commands. Unlike conceptual security books it is directly runnable: every page is concrete enough to say “throw this command at that port, look for this in the output” — a field reference, not theory.</summary>
+  <content type="html">&lt;p&gt;A knowledge base giving pentest, red-team, web, cloud and privilege-escalation techniques as step-by-step commands. Unlike conceptual security books it is directly runnable: every page is concrete enough to say “throw this command at that port, look for this in the output” — a field reference, not theory.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://hacktricks.wiki/&quot;&gt;https://hacktricks.wiki/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

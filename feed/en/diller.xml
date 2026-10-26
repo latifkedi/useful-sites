@@ -2,288 +2,290 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title>Programming Languages — Useful Sites</title>
 <subtitle>A hand-curated, annotated link directory across ten areas, from software and AI to security, economics and architecture. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/en/diller.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/en/diller.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/diller.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/diller.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/diller.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>A Guide to Python's Magic Methods</title>
-  <link href="https://rszalski.github.io/magicmethods/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#rszalski-github-io-magicmethods" rel="alternate" type="text/html"/>
   <id>https://rszalski.github.io/magicmethods/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A classic guide that groups and explains Python's special (dunder) methods such as __init__, __getattr__ and __enter__ with examples. Unlike the language reference it shows how and when to use each group.</summary>
+  <content type="html">&lt;p&gt;A classic guide that groups and explains Python's special (dunder) methods such as __init__, __getattr__ and __enter__ with examples. Unlike the language reference it shows how and when to use each group.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://rszalski.github.io/magicmethods/&quot;&gt;https://rszalski.github.io/magicmethods/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>wtfpython</title>
-  <link href="https://github.com/satwikkansal/wtfpython"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#github-com-satwikkansal-wtfpython" rel="alternate" type="text/html"/>
   <id>https://github.com/satwikkansal/wtfpython</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A collection of surprising and counter-intuitive Python behaviours, each as a short snippet with an explanation. Unlike standard tutorials it teaches by letting you fall into the trap first and then see why.</summary>
+  <content type="html">&lt;p&gt;A collection of surprising and counter-intuitive Python behaviours, each as a short snippet with an explanation. Unlike standard tutorials it teaches by letting you fall into the trap first and then see why.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/satwikkansal/wtfpython&quot;&gt;https://github.com/satwikkansal/wtfpython&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Facts and Myths about Python Names and Values</title>
-  <link href="https://nedbatchelder.com/text/names.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#nedbatchelder-com-text-names-html" rel="alternate" type="text/html"/>
   <id>https://nedbatchelder.com/text/names.html</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Ned Batchelder’s classic talk on Python’s model of names and values. Unlike general tutorials it targets the misunderstanding behind most beginner bugs.</summary>
+  <content type="html">&lt;p&gt;Ned Batchelder’s classic talk on Python’s model of names and values. Unlike general tutorials it targets the misunderstanding behind most beginner bugs.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://nedbatchelder.com/text/names.html&quot;&gt;https://nedbatchelder.com/text/names.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Google’s Python Class</title>
-  <link href="https://developers.google.com/edu/python/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#developers-google-com-edu-python" rel="alternate" type="text/html"/>
   <id>https://developers.google.com/edu/python/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Google’s short Python course made for its own staff: notes, lectures and exercises. Unlike newer bootcamps it is brief and direct; it was first written for Python 2, so check the exercises against current Python.</summary>
+  <content type="html">&lt;p&gt;Google’s short Python course made for its own staff: notes, lectures and exercises. Unlike newer bootcamps it is brief and direct; it was first written for Python 2, so check the exercises against current Python.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://developers.google.com/edu/python/&quot;&gt;https://developers.google.com/edu/python/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>PyCoder’s Weekly</title>
-  <link href="https://pycoders.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#pycoders-com" rel="alternate" type="text/html"/>
   <id>https://pycoders.com/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>A weekly email newsletter of Python news, articles and projects. Unlike general feeds it is Python-only and hand-picked.</summary>
+  <content type="html">&lt;p&gt;A weekly email newsletter of Python news, articles and projects. Unlike general feeds it is Python-only and hand-picked.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://pycoders.com/&quot;&gt;https://pycoders.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>PyInstaller</title>
-  <link href="https://pyinstaller.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#pyinstaller-org" rel="alternate" type="text/html"/>
   <id>https://pyinstaller.org/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Bundles a Python application with its interpreter into a single executable for Windows, macOS and Linux. Unlike single-platform tools such as py2exe it covers all three.</summary>
+  <content type="html">&lt;p&gt;Bundles a Python application with its interpreter into a single executable for Windows, macOS and Linux. Unlike single-platform tools such as py2exe it covers all three.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://pyinstaller.org/&quot;&gt;https://pyinstaller.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>PyVideo</title>
-  <link href="https://pyvideo.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#pyvideo-org" rel="alternate" type="text/html"/>
   <id>https://pyvideo.org/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>A searchable index of Python conference talks (PyCon and others). Unlike YouTube search it is organised by event and speaker.</summary>
+  <content type="html">&lt;p&gt;A searchable index of Python conference talks (PyCon and others). Unlike YouTube search it is organised by event and speaker.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://pyvideo.org/&quot;&gt;https://pyvideo.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Talk Python To Me</title>
-  <link href="https://talkpython.fm/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#talkpython-fm" rel="alternate" type="text/html"/>
   <id>https://talkpython.fm/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>A weekly podcast on Python, data science and AI, interviewing the people behind the tools. Unlike newsletters it offers long, detailed conversations.</summary>
+  <content type="html">&lt;p&gt;A weekly podcast on Python, data science and AI, interviewing the people behind the tools. Unlike newsletters it offers long, detailed conversations.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://talkpython.fm/&quot;&gt;https://talkpython.fm/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>The Little Book of Python Anti-Patterns</title>
-  <link href="https://docs.quantifiedcode.com/python-anti-patterns/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#docs-quantifiedcode-com-python-anti-patterns" rel="alternate" type="text/html"/>
   <id>https://docs.quantifiedcode.com/python-anti-patterns/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>A short book of common Python mistakes, each with the wrong and the right form. Unlike style guides it shows what wrong looks like.</summary>
+  <content type="html">&lt;p&gt;A short book of common Python mistakes, each with the wrong and the right form. Unlike style guides it shows what wrong looks like.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://docs.quantifiedcode.com/python-anti-patterns/&quot;&gt;https://docs.quantifiedcode.com/python-anti-patterns/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome asyncio</title>
-  <link href="https://github.com/timofurrer/awesome-asyncio"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#github-com-timofurrer-awesome-asyncio" rel="alternate" type="text/html"/>
   <id>https://github.com/timofurrer/awesome-asyncio</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of libraries and resources for asynchronous I/O in Python 3 (asyncio). Unlike general Python lists, it gathers only event-loop-friendly libraries — web frameworks, database drivers, test tools.</summary>
+  <content type="html">&lt;p&gt;A list of libraries and resources for asynchronous I/O in Python 3 (asyncio). Unlike general Python lists, it gathers only event-loop-friendly libraries — web frameworks, database drivers, test tools.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/timofurrer/awesome-asyncio&quot;&gt;https://github.com/timofurrer/awesome-asyncio&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Common Lisp</title>
-  <link href="https://github.com/CodyReichert/awesome-cl"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#github-com-codyreichert-awesome-cl" rel="alternate" type="text/html"/>
   <id>https://github.com/CodyReichert/awesome-cl</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list gathering Common Lisp libraries and tools. Unlike browsing the Quicklisp repository one by one, it groups them by domain — web, databases, GUI.</summary>
+  <content type="html">&lt;p&gt;A list gathering Common Lisp libraries and tools. Unlike browsing the Quicklisp repository one by one, it groups them by domain — web, databases, GUI.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/CodyReichert/awesome-cl&quot;&gt;https://github.com/CodyReichert/awesome-cl&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Composer</title>
-  <link href="https://github.com/jakoch/awesome-composer"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#github-com-jakoch-awesome-composer" rel="alternate" type="text/html"/>
   <id>https://github.com/jakoch/awesome-composer</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of plugins, tools and guides for Composer, the PHP package manager. Unlike Packagist, it collects not packages but tools that extend Composer itself and improve the workflow.</summary>
+  <content type="html">&lt;p&gt;A list of plugins, tools and guides for Composer, the PHP package manager. Unlike Packagist, it collects not packages but tools that extend Composer itself and improve the workflow.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/jakoch/awesome-composer&quot;&gt;https://github.com/jakoch/awesome-composer&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Coq</title>
-  <link href="https://github.com/coq-community/awesome-coq"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#github-com-coq-community-awesome-coq" rel="alternate" type="text/html"/>
   <id>https://github.com/coq-community/awesome-coq</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of libraries, tools and tutorials for Coq (now renamed Rocq), the formal-proof language and environment. Unlike general proof-assistant lists, it covers only the Coq ecosystem.</summary>
+  <content type="html">&lt;p&gt;A list of libraries, tools and tutorials for Coq (now renamed Rocq), the formal-proof language and environment. Unlike general proof-assistant lists, it covers only the Coq ecosystem.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/coq-community/awesome-coq&quot;&gt;https://github.com/coq-community/awesome-coq&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Elixir</title>
-  <link href="https://github.com/h4cc/awesome-elixir"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#github-com-h4cc-awesome-elixir" rel="alternate" type="text/html"/>
   <id>https://github.com/h4cc/awesome-elixir</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A library list for the Elixir language and Erlang ecosystem. Unlike a Hex package search it is curated and grouped by topic.</summary>
+  <content type="html">&lt;p&gt;A library list for the Elixir language and Erlang ecosystem. Unlike a Hex package search it is curated and grouped by topic.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/h4cc/awesome-elixir&quot;&gt;https://github.com/h4cc/awesome-elixir&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Python Scientific Audio</title>
-  <link href="https://github.com/faroit/awesome-python-scientific-audio"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#github-com-faroit-awesome-python-scientific-audio" rel="alternate" type="text/html"/>
   <id>https://github.com/faroit/awesome-python-scientific-audio</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of Python libraries for scientific research in audio/music. Unlike general audio tools it is research-oriented: feature extraction, music information retrieval, source separation.</summary>
+  <content type="html">&lt;p&gt;A list of Python libraries for scientific research in audio/music. Unlike general audio tools it is research-oriented: feature extraction, music information retrieval, source separation.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/faroit/awesome-python-scientific-audio&quot;&gt;https://github.com/faroit/awesome-python-scientific-audio&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Python Typing</title>
-  <link href="https://github.com/typeddjango/awesome-python-typing"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#github-com-typeddjango-awesome-python-typing" rel="alternate" type="text/html"/>
   <id>https://github.com/typeddjango/awesome-python-typing</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of tools and resources for optional static typing in Python. Unlike the mypy docs, it brings together type checkers (mypy, Pyright, Pyre), stub packages and runtime validators.</summary>
+  <content type="html">&lt;p&gt;A list of tools and resources for optional static typing in Python. Unlike the mypy docs, it brings together type checkers (mypy, Pyright, Pyre), stub packages and runtime validators.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/typeddjango/awesome-python-typing&quot;&gt;https://github.com/typeddjango/awesome-python-typing&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Ruby</title>
-  <link href="https://github.com/markets/awesome-ruby"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#github-com-markets-awesome-ruby" rel="alternate" type="text/html"/>
   <id>https://github.com/markets/awesome-ruby</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list gathering Ruby libraries and tools category by category. Unlike a RubyGems search it is curated, current and grouped.</summary>
+  <content type="html">&lt;p&gt;A list gathering Ruby libraries and tools category by category. Unlike a RubyGems search it is curated, current and grouped.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/markets/awesome-ruby&quot;&gt;https://github.com/markets/awesome-ruby&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome V</title>
-  <link href="https://github.com/vlang/awesome-v"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#github-com-vlang-awesome-v" rel="alternate" type="text/html"/>
   <id>https://github.com/vlang/awesome-v</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of libraries, tools and projects for the V language. Unlike Go or Rust lists, it gathers the ecosystem of a still-young language in one place; since the language changes quickly, check how current entries are.</summary>
+  <content type="html">&lt;p&gt;A list of libraries, tools and projects for the V language. Unlike Go or Rust lists, it gathers the ecosystem of a still-young language in one place; since the language changes quickly, check how current entries are.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/vlang/awesome-v&quot;&gt;https://github.com/vlang/awesome-v&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>C#</title>
-  <link href="https://dotnet.microsoft.com/languages/csharp"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#dotnet-microsoft-com-languages-csharp" rel="alternate" type="text/html"/>
   <id>https://dotnet.microsoft.com/languages/csharp</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Microsoft’s general-purpose language for the .NET platform, and the scripting language of Unity games. Unlike Java, features such as LINQ, async/await and custom value types are built into the language.</summary>
+  <content type="html">&lt;p&gt;Microsoft’s general-purpose language for the .NET platform, and the scripting language of Unity games. Unlike Java, features such as LINQ, async/await and custom value types are built into the language.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://dotnet.microsoft.com/languages/csharp&quot;&gt;https://dotnet.microsoft.com/languages/csharp&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Dart</title>
-  <link href="https://dart.dev/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#dart-dev" rel="alternate" type="text/html"/>
   <id>https://dart.dev/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Google’s client-oriented language, the one beneath Flutter. Unlike JavaScript it has a sound type system with null safety, and compiles both to native machine code and to JavaScript.</summary>
+  <content type="html">&lt;p&gt;Google’s client-oriented language, the one beneath Flutter. Unlike JavaScript it has a sound type system with null safety, and compiles both to native machine code and to JavaScript.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://dart.dev/&quot;&gt;https://dart.dev/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Elixir</title>
-  <link href="https://elixir-lang.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#elixir-lang-org" rel="alternate" type="text/html"/>
   <id>https://elixir-lang.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A functional language on the Erlang VM, strong in scalability. Unlike Erlang it has a Ruby-like syntax and a macro system, while inheriting fault tolerance (OTP) unchanged.</summary>
+  <content type="html">&lt;p&gt;A functional language on the Erlang VM, strong in scalability. Unlike Erlang it has a Ruby-like syntax and a macro system, while inheriting fault tolerance (OTP) unchanged.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://elixir-lang.org/&quot;&gt;https://elixir-lang.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Go</title>
-  <link href="https://golang.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#golang-org" rel="alternate" type="text/html"/>
   <id>https://golang.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The official site of Google’s simple, fast-compiling language, strong in concurrency. Unlike Java or C++ it is deliberately small: few keywords, one formatter (gofmt), builds in seconds.</summary>
+  <content type="html">&lt;p&gt;The official site of Google’s simple, fast-compiling language, strong in concurrency. Unlike Java or C++ it is deliberately small: few keywords, one formatter (gofmt), builds in seconds.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://golang.org/&quot;&gt;https://golang.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Haskell</title>
-  <link href="https://www.haskell.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#haskell-org" rel="alternate" type="text/html"/>
   <id>https://www.haskell.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A purely functional, statically typed programming language with lazy evaluation. Unlike most functional languages it is pure: side effects are kept apart in the type system (IO).</summary>
+  <content type="html">&lt;p&gt;A purely functional, statically typed programming language with lazy evaluation. Unlike most functional languages it is pure: side effects are kept apart in the type system (IO).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.haskell.org/&quot;&gt;https://www.haskell.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Julia</title>
-  <link href="https://julialang.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#julialang-org" rel="alternate" type="text/html"/>
   <id>https://julialang.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A high-performance open-source language for scientific computing. Unlike Python it JIT-compiles to near-C speed, aiming to remove the “two-language problem” of prototyping in Python and rewriting hot code in C.</summary>
+  <content type="html">&lt;p&gt;A high-performance open-source language for scientific computing. Unlike Python it JIT-compiles to near-C speed, aiming to remove the “two-language problem” of prototyping in Python and rewriting hot code in C.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://julialang.org/&quot;&gt;https://julialang.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Julia.jl</title>
-  <link href="https://github.com/svaksha/Julia.jl"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#github-com-svaksha-julia-jl" rel="alternate" type="text/html"/>
   <id>https://github.com/svaksha/Julia.jl</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A comprehensive list organising Julia packages and resources by topic. Unlike a package search, it hand-classifies packages by scientific field; some sections may be dated.</summary>
+  <content type="html">&lt;p&gt;A comprehensive list organising Julia packages and resources by topic. Unlike a package search, it hand-classifies packages by scientific field; some sections may be dated.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/svaksha/Julia.jl&quot;&gt;https://github.com/svaksha/Julia.jl&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Lua</title>
-  <link href="https://www.lua.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#lua-org" rel="alternate" type="text/html"/>
   <id>https://www.lua.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A lightweight, embeddable scripting language, common in game engines, embedded systems and Neovim. Unlike Python its runtime is tiny and it embeds easily into a C program.</summary>
+  <content type="html">&lt;p&gt;A lightweight, embeddable scripting language, common in game engines, embedded systems and Neovim. Unlike Python its runtime is tiny and it embeds easily into a C program.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.lua.org/&quot;&gt;https://www.lua.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Perl</title>
-  <link href="https://www.perl.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#perl-org" rel="alternate" type="text/html"/>
   <id>https://www.perl.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A dynamic, mature language strong in text processing and system scripting. Unlike Python it has regular expressions built into the language and a one-liner culture; the CPAN archive is vast.</summary>
+  <content type="html">&lt;p&gt;A dynamic, mature language strong in text processing and system scripting. Unlike Python it has regular expressions built into the language and a one-liner culture; the CPAN archive is vast.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.perl.org/&quot;&gt;https://www.perl.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>PHP</title>
-  <link href="https://www.php.net/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#php-net" rel="alternate" type="text/html"/>
   <id>https://www.php.net/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The official docs of one of the web’s most common server-side languages. Unlike most language docs, every function page carries user notes at the bottom — where the practical pitfalls are usually written up.</summary>
+  <content type="html">&lt;p&gt;The official docs of one of the web’s most common server-side languages. Unlike most language docs, every function page carries user notes at the bottom — where the practical pitfalls are usually written up.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.php.net/&quot;&gt;https://www.php.net/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>R</title>
-  <link href="https://www.r-project.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#r-project-org" rel="alternate" type="text/html"/>
   <id>https://www.r-project.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A language and environment designed for statistics and data analysis, with tens of thousands of packages on CRAN. Unlike Python, new statistical methods usually appear here first, and it has graphics tools such as ggplot2.</summary>
+  <content type="html">&lt;p&gt;A language and environment designed for statistics and data analysis, with tens of thousands of packages on CRAN. Unlike Python, new statistical methods usually appear here first, and it has graphics tools such as ggplot2.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.r-project.org/&quot;&gt;https://www.r-project.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Ruby</title>
-  <link href="https://www.ruby-lang.org/en/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#ruby-lang-org-en" rel="alternate" type="text/html"/>
   <id>https://www.ruby-lang.org/en/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A multi-paradigm language foregrounding readability and developer happiness — the language of Rails. Unlike Python, everything is an object and its flexible syntax lends itself to DSLs.</summary>
+  <content type="html">&lt;p&gt;A multi-paradigm language foregrounding readability and developer happiness — the language of Rails. Unlike Python, everything is an object and its flexible syntax lends itself to DSLs.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.ruby-lang.org/en/&quot;&gt;https://www.ruby-lang.org/en/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Swift</title>
-  <link href="https://www.swift.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#swift-org" rel="alternate" type="text/html"/>
   <id>https://www.swift.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Apple’s safe, fast-compiled language, developed primarily for iOS and also running on Linux and servers. Unlike Objective-C it has a safe memory model built around optionals and a modern syntax.</summary>
+  <content type="html">&lt;p&gt;Apple’s safe, fast-compiled language, developed primarily for iOS and also running on Linux and servers. Unlike Objective-C it has a safe memory model built around optionals and a modern syntax.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.swift.org/&quot;&gt;https://www.swift.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CIS 194 Haskell</title>
-  <link href="https://www.seas.upenn.edu/~cis1940/spring13/lectures.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#seas-upenn-edu-cis1940-spring13-lectures-html" rel="alternate" type="text/html"/>
   <id>https://www.seas.upenn.edu/~cis1940/spring13/lectures.html</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>The University of Pennsylvania’s Haskell course, with lecture notes and assignments public. The difference from a book is the homework — and since Haskell is learned by writing rather than reading, that difference matters.</summary>
+  <content type="html">&lt;p&gt;The University of Pennsylvania’s Haskell course, with lecture notes and assignments public. The difference from a book is the homework — and since Haskell is learned by writing rather than reading, that difference matters.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.seas.upenn.edu/~cis1940/spring13/lectures.html&quot;&gt;https://www.seas.upenn.edu/~cis1940/spring13/lectures.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Learn You a Haskell</title>
-  <link href="https://learnyouahaskell.github.io/chapters.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#learnyouahaskell-github-io-chapters-html" rel="alternate" type="text/html"/>
   <id>https://learnyouahaskell.github.io/chapters.html</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>The community-maintained online edition of the best-known Haskell introduction. Against the academic Haskell texts the difference is tone: it gets to monads through drawings and incremental examples rather than category theory.</summary>
+  <content type="html">&lt;p&gt;The community-maintained online edition of the best-known Haskell introduction. Against the academic Haskell texts the difference is tone: it gets to monads through drawings and incremental examples rather than category theory.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://learnyouahaskell.github.io/chapters.html&quot;&gt;https://learnyouahaskell.github.io/chapters.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>LearnByExample</title>
-  <link href="https://www.learnbyexample.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#learnbyexample-org" rel="alternate" type="text/html"/>
   <id>https://www.learnbyexample.org/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Teaches Python, SQL and R through runnable examples, opening each concept with one small piece of code. Against documentation the order is reversed — working example first, explanation after — which also makes it a fast syntax refresher.</summary>
+  <content type="html">&lt;p&gt;Teaches Python, SQL and R through runnable examples, opening each concept with one small piece of code. Against documentation the order is reversed — working example first, explanation after — which also makes it a fast syntax refresher.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.learnbyexample.org/&quot;&gt;https://www.learnbyexample.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>RubyGems Guides</title>
-  <link href="https://guides.rubygems.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#guides-rubygems-org" rel="alternate" type="text/html"/>
   <id>https://guides.rubygems.org/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>The official guide to how RubyGems works and how to publish your own gem. Against the API reference it also explains the decisions — version numbering, dependency resolution, publishing policy.</summary>
+  <content type="html">&lt;p&gt;The official guide to how RubyGems works and how to publish your own gem. Against the API reference it also explains the decisions — version numbering, dependency resolution, publishing policy.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://guides.rubygems.org/&quot;&gt;https://guides.rubygems.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>JS Exercises</title>
-  <link href="https://jsexercises.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#jsexercises-com" rel="alternate" type="text/html"/>
   <id>https://jsexercises.com/</id>
   <updated>2026-08-19T23:33:52Z</updated>
-  <summary>Runnable JavaScript exercises in the browser. Unlike tutorial sites it offers only exercises, no exposition — for consolidating what you have read.</summary>
+  <content type="html">&lt;p&gt;Runnable JavaScript exercises in the browser. Unlike tutorial sites it offers only exercises, no exposition — for consolidating what you have read.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://jsexercises.com/&quot;&gt;https://jsexercises.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Eloquent JavaScript</title>
-  <link href="https://eloquentjavascript.net/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#eloquentjavascript-net" rel="alternate" type="text/html"/>
   <id>https://eloquentjavascript.net/</id>
   <updated>2026-08-19T23:33:25Z</updated>
-  <summary>A free online classic that builds programming thinking rather than teaching syntax, with exercises runnable inside the book itself.</summary>
+  <content type="html">&lt;p&gt;A free online classic that builds programming thinking rather than teaching syntax, with exercises runnable inside the book itself.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://eloquentjavascript.net/&quot;&gt;https://eloquentjavascript.net/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>A Byte of Python</title>
-  <link href="https://python.swaroopch.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#python-swaroopch-com" rel="alternate" type="text/html"/>
   <id>https://python.swaroopch.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An introductory Python book, translated into dozens of languages and written for people entirely new to programming. Unlike thick introductory books it is short and direct — done in a few days.</summary>
+  <content type="html">&lt;p&gt;An introductory Python book, translated into dozens of languages and written for people entirely new to programming. Unlike thick introductory books it is short and direct — done in a few days.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://python.swaroopch.com&quot;&gt;https://python.swaroopch.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Compilers</title>
-  <link href="https://aalhour.com/awesome-compilers/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#aalhour-com-awesome-compilers" rel="alternate" type="text/html"/>
   <id>https://aalhour.com/awesome-compilers/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A collection of compiler, interpreter and runtime resources, with books, courses and open-source compilers listed separately. Unlike a single textbook, it sets theory, real compiler source and runtime design side by side.</summary>
+  <content type="html">&lt;p&gt;A collection of compiler, interpreter and runtime resources, with books, courses and open-source compilers listed separately. Unlike a single textbook, it sets theory, real compiler source and runtime design side by side.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://aalhour.com/awesome-compilers/&quot;&gt;https://aalhour.com/awesome-compilers/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Crafting Interpreters</title>
-  <link href="https://craftinginterpreters.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#craftinginterpreters-com" rel="alternate" type="text/html"/>
   <id>https://craftinginterpreters.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A free book that has you write a language twice — a tree-walking interpreter in Java, then a bytecode VM in C. Unlike theoretical compiler textbooks it makes you write every line; one of the clearest treatments in the field.</summary>
+  <content type="html">&lt;p&gt;A free book that has you write a language twice — a tree-walking interpreter in Java, then a bytecode VM in C. Unlike theoretical compiler textbooks it makes you write every line; one of the clearest treatments in the field.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://craftinginterpreters.com/&quot;&gt;https://craftinginterpreters.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

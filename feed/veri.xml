@@ -2,288 +2,290 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
 <title>Veri Bilimi &amp; Makine Öğrenmesi — Kullanışlı Siteler</title>
 <subtitle>Yazılımdan yapay zekaya, güvenlikten ekonomiye ve mimariye on alanda elle derlenmiş, açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/veri.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/veri.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/veri.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/veri.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/veri.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>Awesome GIS</title>
-  <link href="https://github.com/sshuair/awesome-gis"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#github-com-sshuair-awesome-gis" rel="alternate" type="text/html"/>
   <id>https://github.com/sshuair/awesome-gis</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Haritacılık araçları, coğrafi analiz kütüphaneleri, veri kaynakları ve topluluklar için coğrafi bilgi sistemleri (CBS) listesi. Esri odaklı listelerin aksine açık kaynak ve platformdan bağımsız: masaüstü GIS, web harita kütüphaneleri ve açık veri aynı yerde.</summary>
+  <content type="html">&lt;p&gt;Haritacılık araçları, coğrafi analiz kütüphaneleri, veri kaynakları ve topluluklar için coğrafi bilgi sistemleri (CBS) listesi. Esri odaklı listelerin aksine açık kaynak ve platformdan bağımsız: masaüstü GIS, web harita kütüphaneleri ve açık veri aynı yerde.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/sshuair/awesome-gis&quot;&gt;https://github.com/sshuair/awesome-gis&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>kepler.gl</title>
-  <link href="https://kepler.gl/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#kepler-gl" rel="alternate" type="text/html"/>
   <id>https://kepler.gl/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Büyük konum veri setlerini (milyonlarca nokta, yolculuk, ızgara) tarayıcıda katman katman görselleştiren açık kaynak araç; Uber’de doğdu. QGIS’ten farkı analizden çok keşif ve sunuma odaklanması: CSV ya da GeoJSON’u sürükleyip zaman kaydırıcılı bir haritaya dakikalar içinde ulaşıyorsun.</summary>
+  <content type="html">&lt;p&gt;Büyük konum veri setlerini (milyonlarca nokta, yolculuk, ızgara) tarayıcıda katman katman görselleştiren açık kaynak araç; Uber’de doğdu. QGIS’ten farkı analizden çok keşif ve sunuma odaklanması: CSV ya da GeoJSON’u sürükleyip zaman kaydırıcılı bir haritaya dakikalar içinde ulaşıyorsun.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://kepler.gl/&quot;&gt;https://kepler.gl/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Map of Reddit</title>
-  <link href="https://anvaka.github.io/map-of-reddit/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#anvaka-github-io-map-of-reddit" rel="alternate" type="text/html"/>
   <id>https://anvaka.github.io/map-of-reddit/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Subreddit'leri ortak yorumcu benzerliğine göre kümeleyip WebGL ile haritalayan etkileşimli görselleştirme (2020-21 yorumları). Subreddit listelerinden farkı topluluklar arası yakınlığı mekânsal olarak göstermesi.</summary>
+  <content type="html">&lt;p&gt;Subreddit'leri ortak yorumcu benzerliğine göre kümeleyip WebGL ile haritalayan etkileşimli görselleştirme (2020-21 yorumları). Subreddit listelerinden farkı topluluklar arası yakınlığı mekânsal olarak göstermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://anvaka.github.io/map-of-reddit/&quot;&gt;https://anvaka.github.io/map-of-reddit/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OpenDigger</title>
-  <link href="https://open-digger.cn/en/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#open-digger-cn-en" rel="alternate" type="text/html"/>
   <id>https://open-digger.cn/en/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>X-lab'ın GitHub etkinliğinden türettiği açık kaynak sağlık metriklerini (OpenRank, aktivite, katılımcı) sunan analiz platformu. Ham GitHub API'sinden farkı hazır, zaman serisi ve açık veri olarak yayımlanması.</summary>
+  <content type="html">&lt;p&gt;X-lab'ın GitHub etkinliğinden türettiği açık kaynak sağlık metriklerini (OpenRank, aktivite, katılımcı) sunan analiz platformu. Ham GitHub API'sinden farkı hazır, zaman serisi ve açık veri olarak yayımlanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://open-digger.cn/en/&quot;&gt;https://open-digger.cn/en/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>overpass turbo</title>
-  <link href="https://overpass-turbo.eu/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#overpass-turbo-eu" rel="alternate" type="text/html"/>
   <id>https://overpass-turbo.eu/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>OpenStreetMap verisini Overpass API ile sorgulayan web arayüzü; sonucu haritada gösteriyor, GeoJSON olarak indiriyor, sorgu yazmayanlar için sihirbazı var. Hazır OSM dökümlerini indirmekten farkı yalnızca istediğin nesneleri (bir şehirdeki tüm eczaneler gibi) çekmesi.</summary>
+  <content type="html">&lt;p&gt;OpenStreetMap verisini Overpass API ile sorgulayan web arayüzü; sonucu haritada gösteriyor, GeoJSON olarak indiriyor, sorgu yazmayanlar için sihirbazı var. Hazır OSM dökümlerini indirmekten farkı yalnızca istediğin nesneleri (bir şehirdeki tüm eczaneler gibi) çekmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://overpass-turbo.eu/&quot;&gt;https://overpass-turbo.eu/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>QGIS</title>
-  <link href="https://qgis.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#qgis-org" rel="alternate" type="text/html"/>
   <id>https://qgis.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Windows, macOS ve Linux’ta çalışan açık kaynak masaüstü coğrafi bilgi sistemi; shapefile, GeoPackage, PostGIS ve raster katmanlarını okuyup analiz ediyor, eklentilerle genişliyor. ArcGIS’ten farkı lisans ücreti olmaması; buna karşın kurumsal destek topluluk ve ticari ortaklardan geliyor.</summary>
+  <content type="html">&lt;p&gt;Windows, macOS ve Linux’ta çalışan açık kaynak masaüstü coğrafi bilgi sistemi; shapefile, GeoPackage, PostGIS ve raster katmanlarını okuyup analiz ediyor, eklentilerle genişliyor. ArcGIS’ten farkı lisans ücreti olmaması; buna karşın kurumsal destek topluluk ve ticari ortaklardan geliyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://qgis.org/&quot;&gt;https://qgis.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>KDnuggets</title>
-  <link href="https://www.kdnuggets.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#kdnuggets-com" rel="alternate" type="text/html"/>
   <id>https://www.kdnuggets.com/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Uzun soluklu veri bilimi ve makine öğrenmesi sitesi: haber, öğretici, iş ilanı ve anketler. Araştırma odaklı kaynaklardan farkı pratisyenlere yönelik bir derleme olması.</summary>
+  <content type="html">&lt;p&gt;Uzun soluklu veri bilimi ve makine öğrenmesi sitesi: haber, öğretici, iş ilanı ve anketler. Araştırma odaklı kaynaklardan farkı pratisyenlere yönelik bir derleme olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.kdnuggets.com/&quot;&gt;https://www.kdnuggets.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Open-Meteo</title>
-  <link href="https://open-meteo.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#open-meteo-com" rel="alternate" type="text/html"/>
   <id>https://open-meteo.com/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Anahtar gerektirmeyen, ticari olmayan kullanım için ücretsiz açık kaynak hava durumu API’si. Ticari hava API’lerinden farkı kayıt ve anahtar istememesi ve verinin açık olması.</summary>
+  <content type="html">&lt;p&gt;Anahtar gerektirmeyen, ticari olmayan kullanım için ücretsiz açık kaynak hava durumu API’si. Ticari hava API’lerinden farkı kayıt ve anahtar istememesi ve verinin açık olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://open-meteo.com/&quot;&gt;https://open-meteo.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Scientific Python Lectures</title>
-  <link href="https://lectures.scientific-python.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#lectures-scientific-python-org" rel="alternate" type="text/html"/>
   <id>https://lectures.scientific-python.org/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>NumPy, SciPy ve Matplotlib gibi bilimsel Python araçlarını anlatan ücretsiz ders notları. Tek kütüphane dokümanlarından farkı bunların birbirine nasıl oturduğunu göstermesi.</summary>
+  <content type="html">&lt;p&gt;NumPy, SciPy ve Matplotlib gibi bilimsel Python araçlarını anlatan ücretsiz ders notları. Tek kütüphane dokümanlarından farkı bunların birbirine nasıl oturduğunu göstermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://lectures.scientific-python.org/&quot;&gt;https://lectures.scientific-python.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CIA World Factbook</title>
-  <link href="https://www.cia.gov/the-world-factbook/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#cia-gov-the-world-factbook" rel="alternate" type="text/html"/>
   <id>https://www.cia.gov/the-world-factbook/</id>
   <updated>2026-10-08T09:00:00Z</updated>
-  <summary>Her ülke için coğrafya, nüfus, ekonomi, hükûmet ve askerî göstergeleri tek tip sayfalarda veren başvuru kaynağı; kamu malı. Wikipedia ülke maddelerinden farkı her ülkede aynı alanların aynı sırayla bulunması, böylece ülkeleri karşılaştırmak kolay. Kaynak bir istihbarat kurumu, yorum içeren alanlarda bunu akılda tut.</summary>
+  <content type="html">&lt;p&gt;Her ülke için coğrafya, nüfus, ekonomi, hükûmet ve askerî göstergeleri tek tip sayfalarda veren başvuru kaynağı; kamu malı. Wikipedia ülke maddelerinden farkı her ülkede aynı alanların aynı sırayla bulunması, böylece ülkeleri karşılaştırmak kolay. Kaynak bir istihbarat kurumu, yorum içeren alanlarda bunu akılda tut.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.cia.gov/the-world-factbook/&quot;&gt;https://www.cia.gov/the-world-factbook/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Data Commons</title>
-  <link href="https://datacommons.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#datacommons-org" rel="alternate" type="text/html"/>
   <id>https://datacommons.org/</id>
   <updated>2026-10-08T09:00:00Z</updated>
-  <summary>Google destekli, Census, WHO, BM ve onlarca kaynağın istatistiğini tek bir bilgi grafiğinde birleştiren proje; doğal dille sorgulanıyor ve API’si var. Tek tek kurum portallarından farkı farklı kaynaklı serileri tek sorguda yan yana getirmesi. Google’ın eski Public Data Explorer adresi buraya yönleniyor.</summary>
+  <content type="html">&lt;p&gt;Google destekli, Census, WHO, BM ve onlarca kaynağın istatistiğini tek bir bilgi grafiğinde birleştiren proje; doğal dille sorgulanıyor ve API’si var. Tek tek kurum portallarından farkı farklı kaynaklı serileri tek sorguda yan yana getirmesi. Google’ın eski Public Data Explorer adresi buraya yönleniyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://datacommons.org/&quot;&gt;https://datacommons.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Google Cloud Public Datasets</title>
-  <link href="https://cloud.google.com/datasets"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#cloud-google-com-datasets" rel="alternate" type="text/html"/>
   <id>https://cloud.google.com/datasets</id>
   <updated>2026-10-08T09:00:00Z</updated>
-  <summary>BigQuery içinde duran kamuya açık veri kümeleri: GitHub, Wikipedia, hava durumu, nüfus sayımı. AWS Open Data Registry’den farkı verinin dosya olarak değil SQL ile sorgulanacak tablo olarak sunulması; aylık ücretsiz sorgu kotası içinde indirmeden çalışabiliyorsun.</summary>
+  <content type="html">&lt;p&gt;BigQuery içinde duran kamuya açık veri kümeleri: GitHub, Wikipedia, hava durumu, nüfus sayımı. AWS Open Data Registry’den farkı verinin dosya olarak değil SQL ile sorgulanacak tablo olarak sunulması; aylık ücretsiz sorgu kotası içinde indirmeden çalışabiliyorsun.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cloud.google.com/datasets&quot;&gt;https://cloud.google.com/datasets&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Google Trends</title>
-  <link href="https://trends.google.com/trends/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#trends-google-com-trends" rel="alternate" type="text/html"/>
   <id>https://trends.google.com/trends/</id>
   <updated>2026-10-08T09:00:00Z</updated>
-  <summary>Arama ilgisinin zaman ve bölge içinde nasıl değiştiğini gösteren araç. Anahtar kelime planlayıcılarından farkı mutlak arama sayısı değil 0–100 arası göreli bir endeks vermesi; toplumsal ilgiyi, mevsimselliği ve yükselen konuları ölçmek için kullanışlı.</summary>
+  <content type="html">&lt;p&gt;Arama ilgisinin zaman ve bölge içinde nasıl değiştiğini gösteren araç. Anahtar kelime planlayıcılarından farkı mutlak arama sayısı değil 0–100 arası göreli bir endeks vermesi; toplumsal ilgiyi, mevsimselliği ve yükselen konuları ölçmek için kullanışlı.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://trends.google.com/trends/&quot;&gt;https://trends.google.com/trends/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>NASA Earthdata</title>
-  <link href="https://www.earthdata.nasa.gov/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#earthdata-nasa-gov" rel="alternate" type="text/html"/>
   <id>https://www.earthdata.nasa.gov/</id>
   <updated>2026-10-08T09:00:00Z</updated>
-  <summary>NASA’nın uydu ve yer gözlemi verilerini tek kapıdan sunan portal; yağıştan buz örtüsüne, bitki örtüsünden atmosfere kadar. NOAA’nın yer istasyonu kayıtlarından farkı uzaydan alınan görüntü ve ölçümlere dayanması; indirmek için ücretsiz bir Earthdata hesabı gerekiyor.</summary>
+  <content type="html">&lt;p&gt;NASA’nın uydu ve yer gözlemi verilerini tek kapıdan sunan portal; yağıştan buz örtüsüne, bitki örtüsünden atmosfere kadar. NOAA’nın yer istasyonu kayıtlarından farkı uzaydan alınan görüntü ve ölçümlere dayanması; indirmek için ücretsiz bir Earthdata hesabı gerekiyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.earthdata.nasa.gov/&quot;&gt;https://www.earthdata.nasa.gov/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>NOAA NCEI</title>
-  <link href="https://www.ncei.noaa.gov/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#ncei-noaa-gov" rel="alternate" type="text/html"/>
   <id>https://www.ncei.noaa.gov/</id>
   <updated>2026-10-08T09:00:00Z</updated>
-  <summary>ABD’nin hava, iklim, okyanus ve jeofizik verilerinin ulusal arşivi; eski adıyla NCDC. NASA Earthdata’dan farkı uydu görüntüsünden çok istasyon ve gözlem kayıtlarının onlarca yıllık serilerini tutması — geçmiş hava durumu için asıl kaynak.</summary>
+  <content type="html">&lt;p&gt;ABD’nin hava, iklim, okyanus ve jeofizik verilerinin ulusal arşivi; eski adıyla NCDC. NASA Earthdata’dan farkı uydu görüntüsünden çok istasyon ve gözlem kayıtlarının onlarca yıllık serilerini tutması — geçmiş hava durumu için asıl kaynak.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.ncei.noaa.gov/&quot;&gt;https://www.ncei.noaa.gov/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OpenCorporates</title>
-  <link href="https://opencorporates.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#opencorporates-com" rel="alternate" type="text/html"/>
   <id>https://opencorporates.com/</id>
   <updated>2026-10-08T09:00:00Z</updated>
-  <summary>Ülkelerin ticaret sicillerini tek aramada birleştiren, şirketler üzerine en büyük açık veri tabanlarından biri. Tek tek ulusal sicillerden farkı birçok yargı alanını aynı biçimde sunması; yönetici ve bağlı şirket ilişkileri araştırmaya elverişli, yoğun API kullanımı ücretli.</summary>
+  <content type="html">&lt;p&gt;Ülkelerin ticaret sicillerini tek aramada birleştiren, şirketler üzerine en büyük açık veri tabanlarından biri. Tek tek ulusal sicillerden farkı birçok yargı alanını aynı biçimde sunması; yönetici ve bağlı şirket ilişkileri araştırmaya elverişli, yoğun API kullanımı ücretli.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://opencorporates.com/&quot;&gt;https://opencorporates.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>r/datasets</title>
-  <link href="https://www.reddit.com/r/datasets/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#reddit-com-r-datasets" rel="alternate" type="text/html"/>
   <id>https://www.reddit.com/r/datasets/</id>
   <updated>2026-10-08T09:00:00Z</updated>
-  <summary>Veri kümesi bulma ve isteme topluluğu. Katalog sitelerinden farkı aradığın veri yoksa bir yazıyla isteyebilmen ve başkalarının bulduklarını görmen; kalite denetimi yok, bu yüzden lisansı ve kaynağı kendin kontrol et.</summary>
+  <content type="html">&lt;p&gt;Veri kümesi bulma ve isteme topluluğu. Katalog sitelerinden farkı aradığın veri yoksa bir yazıyla isteyebilmen ve başkalarının bulduklarını görmen; kalite denetimi yok, bu yüzden lisansı ve kaynağı kendin kontrol et.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/datasets/&quot;&gt;https://www.reddit.com/r/datasets/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>UCI Machine Learning Repository</title>
-  <link href="https://archive.ics.uci.edu/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#archive-ics-uci-edu" rel="alternate" type="text/html"/>
   <id>https://archive.ics.uci.edu/</id>
   <updated>2026-10-08T09:00:00Z</updated>
-  <summary>Makine öğrenmesi araştırmasının en eski veri arşivlerinden; Iris ve Adult gibi klasik küçük veri kümelerinin yuvası. Kaggle’dan farkı yarışma değil akademik bir arşiv olması: her küme bağış yapanı, alan tanımı ve atıf bilgisiyle geliyor, makalelerde ölçüt olarak kullanılıyor.</summary>
+  <content type="html">&lt;p&gt;Makine öğrenmesi araştırmasının en eski veri arşivlerinden; Iris ve Adult gibi klasik küçük veri kümelerinin yuvası. Kaggle’dan farkı yarışma değil akademik bir arşiv olması: her küme bağış yapanı, alan tanımı ve atıf bilgisiyle geliyor, makalelerde ölçüt olarak kullanılıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://archive.ics.uci.edu/&quot;&gt;https://archive.ics.uci.edu/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>UNdata</title>
-  <link href="https://data.un.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#data-un-org" rel="alternate" type="text/html"/>
   <id>https://data.un.org/</id>
   <updated>2026-10-08T09:00:00Z</updated>
-  <summary>Birleşmiş Milletler kuruluşlarının istatistiklerini tek aramada toplayan veri servisi: nüfus, tarım, enerji, ticaret, eğitim. Tek tek kurumların sitelerini gezmekten farkı ülke ve yıl bazında karşılaştırmalı tablolar çıkarması; derinlik için kaynak kuruluşun kendi portalı daha iyi.</summary>
+  <content type="html">&lt;p&gt;Birleşmiş Milletler kuruluşlarının istatistiklerini tek aramada toplayan veri servisi: nüfus, tarım, enerji, ticaret, eğitim. Tek tek kurumların sitelerini gezmekten farkı ülke ve yıl bazında karşılaştırmalı tablolar çıkarması; derinlik için kaynak kuruluşun kendi portalı daha iyi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://data.un.org/&quot;&gt;https://data.un.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Uppsala Conflict Data Program</title>
-  <link href="https://ucdp.uu.se/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#ucdp-uu-se" rel="alternate" type="text/html"/>
   <id>https://ucdp.uu.se/</id>
   <updated>2026-10-08T09:00:00Z</updated>
-  <summary>Uppsala Üniversitesi’nin silahlı çatışma ve örgütlü şiddet veri programı; olay düzeyinde, koordinatlı kayıtlar tutuyor. Haber arşivlerinden farkı her olayın kodlama kurallarına göre doğrulanmış olması; çatışma araştırmalarında standart başvuru.</summary>
+  <content type="html">&lt;p&gt;Uppsala Üniversitesi’nin silahlı çatışma ve örgütlü şiddet veri programı; olay düzeyinde, koordinatlı kayıtlar tutuyor. Haber arşivlerinden farkı her olayın kodlama kurallarına göre doğrulanmış olması; çatışma araştırmalarında standart başvuru.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://ucdp.uu.se/&quot;&gt;https://ucdp.uu.se/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>WHO Global Health Observatory</title>
-  <link href="https://www.who.int/data/gho"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#who-int-data-gho" rel="alternate" type="text/html"/>
   <id>https://www.who.int/data/gho</id>
   <updated>2026-10-08T09:00:00Z</updated>
-  <summary>Dünya Sağlık Örgütü’nün ülke bazlı sağlık göstergeleri: ölüm nedenleri, aşılama, sağlık harcaması, risk etkenleri. Ulusal sağlık kurumlarının verisinden farkı ülkeleri aynı tanım ve yöntemle karşılaştırılabilir kılması; veriye API ile de erişiliyor.</summary>
+  <content type="html">&lt;p&gt;Dünya Sağlık Örgütü’nün ülke bazlı sağlık göstergeleri: ölüm nedenleri, aşılama, sağlık harcaması, risk etkenleri. Ulusal sağlık kurumlarının verisinden farkı ülkeleri aynı tanım ve yöntemle karşılaştırılabilir kılması; veriye API ile de erişiliyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.who.int/data/gho&quot;&gt;https://www.who.int/data/gho&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome ArcGIS Developer</title>
-  <link href="https://github.com/Esri/awesome-arcgis-developer"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#github-com-esri-awesome-arcgis-developer" rel="alternate" type="text/html"/>
   <id>https://github.com/Esri/awesome-arcgis-developer</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Haritalama ve konum analizi platformu ArcGIS için geliştirici kaynakları. Açık kaynak GIS listelerinden farkı ticari Esri ekosistemine odaklanması; listeyi Esri’nin kendisi sürdürüyor.</summary>
+  <content type="html">&lt;p&gt;Haritalama ve konum analizi platformu ArcGIS için geliştirici kaynakları. Açık kaynak GIS listelerinden farkı ticari Esri ekosistemine odaklanması; listeyi Esri’nin kendisi sürdürüyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/Esri/awesome-arcgis-developer&quot;&gt;https://github.com/Esri/awesome-arcgis-developer&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Core ML Models</title>
-  <link href="https://github.com/likedan/Awesome-CoreML-Models"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#github-com-likedan-awesome-coreml-models" rel="alternate" type="text/html"/>
   <id>https://github.com/likedan/Awesome-CoreML-Models</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Apple’ın Core ML çerçevesi için hazır makine öğrenmesi modelleri listesi. Genel model depolarından farkı hepsinin iOS/macOS’ta cihaz üzerinde çalışacak Core ML biçiminde olması; listenin bir kısmı eski.</summary>
+  <content type="html">&lt;p&gt;Apple’ın Core ML çerçevesi için hazır makine öğrenmesi modelleri listesi. Genel model depolarından farkı hepsinin iOS/macOS’ta cihaz üzerinde çalışacak Core ML biçiminde olması; listenin bir kısmı eski.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/likedan/Awesome-CoreML-Models&quot;&gt;https://github.com/likedan/Awesome-CoreML-Models&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome CSV</title>
-  <link href="https://github.com/secretGeek/awesomeCSV"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#github-com-secretgeek-awesomecsv" rel="alternate" type="text/html"/>
   <id>https://github.com/secretGeek/awesomeCSV</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Tablo verisi saklayan CSV biçimi için araç ve kaynak listesi. Sıkı şemalı biçimlerden (Parquet, JSON Schema) farkı CSV’nin gevşekliği; liste bu tuhaflıklarla başa çıkan komut satırı araçlarını ve kütüphaneleri topluyor.</summary>
+  <content type="html">&lt;p&gt;Tablo verisi saklayan CSV biçimi için araç ve kaynak listesi. Sıkı şemalı biçimlerden (Parquet, JSON Schema) farkı CSV’nin gevşekliği; liste bu tuhaflıklarla başa çıkan komut satırı araçlarını ve kütüphaneleri topluyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/secretGeek/awesomeCSV&quot;&gt;https://github.com/secretGeek/awesomeCSV&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Deep Learning</title>
-  <link href="https://github.com/ChristosChristofidis/awesome-deep-learning"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#github-com-christoschristofidis-awesome-deep-learning" rel="alternate" type="text/html"/>
   <id>https://github.com/ChristosChristofidis/awesome-deep-learning</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Derin öğrenme için ders, makale, çerçeve ve veri kümesi listesi. Genel ML listelerinden farkı sinir ağlarına ve modern mimarilere odaklanması.</summary>
+  <content type="html">&lt;p&gt;Derin öğrenme için ders, makale, çerçeve ve veri kümesi listesi. Genel ML listelerinden farkı sinir ağlarına ve modern mimarilere odaklanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ChristosChristofidis/awesome-deep-learning&quot;&gt;https://github.com/ChristosChristofidis/awesome-deep-learning&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Deep Learning Papers</title>
-  <link href="https://github.com/terryum/awesome-deep-learning-papers"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#github-com-terryum-awesome-deep-learning-papers" rel="alternate" type="text/html"/>
   <id>https://github.com/terryum/awesome-deep-learning-papers</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>2012–2016 arasının en çok atıf alan derin öğrenme makalelerini derleyen liste; artık güncellenmiyor. Papers with Code gibi güncel izleyicilerden farkı atıf sayısına göre seçilmiş sabit bir çekirdek sunması: alanın temellerine tarihsel bir giriş.</summary>
+  <content type="html">&lt;p&gt;2012–2016 arasının en çok atıf alan derin öğrenme makalelerini derleyen liste; artık güncellenmiyor. Papers with Code gibi güncel izleyicilerden farkı atıf sayısına göre seçilmiş sabit bir çekirdek sunması: alanın temellerine tarihsel bir giriş.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/terryum/awesome-deep-learning-papers&quot;&gt;https://github.com/terryum/awesome-deep-learning-papers&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome H2O</title>
-  <link href="https://github.com/h2oai/awesome-h2o"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#github-com-h2oai-awesome-h2o" rel="alternate" type="text/html"/>
   <id>https://github.com/h2oai/awesome-h2o</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Açık kaynak dağıtık makine öğrenmesi platformu H2O için kaynak listesi. scikit-learn’den farkı bir kümede dağıtık çalışması ve AutoML’in yerleşik gelmesi.</summary>
+  <content type="html">&lt;p&gt;Açık kaynak dağıtık makine öğrenmesi platformu H2O için kaynak listesi. scikit-learn’den farkı bir kümede dağıtık çalışması ve AutoML’in yerleşik gelmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/h2oai/awesome-h2o&quot;&gt;https://github.com/h2oai/awesome-h2o&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome JAX</title>
-  <link href="https://github.com/n2cholas/awesome-jax"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#github-com-n2cholas-awesome-jax" rel="alternate" type="text/html"/>
   <id>https://github.com/n2cholas/awesome-jax</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Otomatik türev ve XLA derlemesi sunan JAX için kaynak listesi. PyTorch’tan farkı fonksiyonel yaklaşımı: grad, jit ve vmap gibi dönüşümleri saf fonksiyonlara uyguluyorsun.</summary>
+  <content type="html">&lt;p&gt;Otomatik türev ve XLA derlemesi sunan JAX için kaynak listesi. PyTorch’tan farkı fonksiyonel yaklaşımı: grad, jit ve vmap gibi dönüşümleri saf fonksiyonlara uyguluyorsun.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/n2cholas/awesome-jax&quot;&gt;https://github.com/n2cholas/awesome-jax&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome JSON</title>
-  <link href="https://github.com/burningtree/awesome-json"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#github-com-burningtree-awesome-json" rel="alternate" type="text/html"/>
   <id>https://github.com/burningtree/awesome-json</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Metin tabanlı veri değişim biçimi JSON için araç ve kaynak listesi. Tek bir ayrıştırıcıdan farkı şema doğrulayıcılarını, jq gibi sorgu araçlarını ve dillere göre kütüphaneleri birlikte toplaması.</summary>
+  <content type="html">&lt;p&gt;Metin tabanlı veri değişim biçimi JSON için araç ve kaynak listesi. Tek bir ayrıştırıcıdan farkı şema doğrulayıcılarını, jq gibi sorgu araçlarını ve dillere göre kütüphaneleri birlikte toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/burningtree/awesome-json&quot;&gt;https://github.com/burningtree/awesome-json&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Jupyter</title>
-  <link href="https://github.com/markusschanta/awesome-jupyter"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#github-com-markusschanta-awesome-jupyter" rel="alternate" type="text/html"/>
   <id>https://github.com/markusschanta/awesome-jupyter</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Kod, metin ve grafiği bir arada tutan Jupyter defterleri için kaynak listesi. Jupyter belgelerinden farkı çevredeki ekosistemi — uzantılar, çekirdekler, defteri uygulamaya ya da sunuma çeviren araçlar — toplaması.</summary>
+  <content type="html">&lt;p&gt;Kod, metin ve grafiği bir arada tutan Jupyter defterleri için kaynak listesi. Jupyter belgelerinden farkı çevredeki ekosistemi — uzantılar, çekirdekler, defteri uygulamaya ya da sunuma çeviren araçlar — toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/markusschanta/awesome-jupyter&quot;&gt;https://github.com/markusschanta/awesome-jupyter&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome NLG</title>
-  <link href="https://github.com/accelerated-text/awesome-nlg"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#github-com-accelerated-text-awesome-nlg" rel="alternate" type="text/html"/>
   <id>https://github.com/accelerated-text/awesome-nlg</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Veriden veya diyalogdan metin üretimi (doğal dil üretimi) için kaynak listesi. Genel NLP listelerinden farkı metni anlamaya değil üretmeye odaklanması; kayıtların önemli kısmı büyük dil modelleri öncesi yöntemlere ait.</summary>
+  <content type="html">&lt;p&gt;Veriden veya diyalogdan metin üretimi (doğal dil üretimi) için kaynak listesi. Genel NLP listelerinden farkı metni anlamaya değil üretmeye odaklanması; kayıtların önemli kısmı büyük dil modelleri öncesi yöntemlere ait.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/accelerated-text/awesome-nlg&quot;&gt;https://github.com/accelerated-text/awesome-nlg&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome OpenStreetMap</title>
-  <link href="https://github.com/osmlab/awesome-openstreetmap"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#github-com-osmlab-awesome-openstreetmap" rel="alternate" type="text/html"/>
   <id>https://github.com/osmlab/awesome-openstreetmap</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Açık harita verisi projesi OpenStreetMap için araç ve kaynak listesi. Google Maps API’sinden farkı verinin açık lisanslı (ODbL) ve tamamen indirilebilir olması; liste düzenleyicileri, işleyicileri ve görüntüleyicileri topluyor.</summary>
+  <content type="html">&lt;p&gt;Açık harita verisi projesi OpenStreetMap için araç ve kaynak listesi. Google Maps API’sinden farkı verinin açık lisanslı (ODbL) ve tamamen indirilebilir olması; liste düzenleyicileri, işleyicileri ve görüntüleyicileri topluyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/osmlab/awesome-openstreetmap&quot;&gt;https://github.com/osmlab/awesome-openstreetmap&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Public Datasets</title>
-  <link href="https://github.com/awesomedata/awesome-public-datasets"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#github-com-awesomedata-awesome-public-datasets" rel="alternate" type="text/html"/>
   <id>https://github.com/awesomedata/awesome-public-datasets</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Herkese açık, konu konu düzenlenmiş veri kümelerinin listesi. Rastgele veri aramaktan farkı temiz, kullanılabilir ve alanına göre gruplanmış kaynaklara götürmesi.</summary>
+  <content type="html">&lt;p&gt;Herkese açık, konu konu düzenlenmiş veri kümelerinin listesi. Rastgele veri aramaktan farkı temiz, kullanılabilir ve alanına göre gruplanmış kaynaklara götürmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/awesomedata/awesome-public-datasets&quot;&gt;https://github.com/awesomedata/awesome-public-datasets&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Python Data Science</title>
-  <link href="https://github.com/krzjoa/awesome-python-data-science"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#github-com-krzjoa-awesome-python-data-science" rel="alternate" type="text/html"/>
   <id>https://github.com/krzjoa/awesome-python-data-science</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Python veri bilimi kütüphanelerini iş akışına göre (veri, model, görselleştirme) düzenleyen liste. PyPI aramasından farkı her aşama için seçilmiş araçları göstermesi.</summary>
+  <content type="html">&lt;p&gt;Python veri bilimi kütüphanelerini iş akışına göre (veri, model, görselleştirme) düzenleyen liste. PyPI aramasından farkı her aşama için seçilmiş araçları göstermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/krzjoa/awesome-python-data-science&quot;&gt;https://github.com/krzjoa/awesome-python-data-science&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Question Answering</title>
-  <link href="https://github.com/seriousran/awesome-qa"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#github-com-seriousran-awesome-qa" rel="alternate" type="text/html"/>
   <id>https://github.com/seriousran/awesome-qa</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Doğal dilde soru sorma ve yanıtlama (QA) için kaynak listesi. Genel NLP listelerinden farkı yalnız soru yanıtlamaya — veri kümeleri, modeller, makaleler — odaklanması.</summary>
+  <content type="html">&lt;p&gt;Doğal dilde soru sorma ve yanıtlama (QA) için kaynak listesi. Genel NLP listelerinden farkı yalnız soru yanıtlamaya — veri kümeleri, modeller, makaleler — odaklanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/seriousran/awesome-qa&quot;&gt;https://github.com/seriousran/awesome-qa&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome R</title>
-  <link href="https://github.com/qinwf/awesome-R"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#github-com-qinwf-awesome-r" rel="alternate" type="text/html"/>
   <id>https://github.com/qinwf/awesome-R</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>İstatistik dili R için paket ve kaynak listesi. CRAN’dan farkı görev bazında (görselleştirme, makine öğrenmesi) seçilmiş paketleri öne çıkarması.</summary>
+  <content type="html">&lt;p&gt;İstatistik dili R için paket ve kaynak listesi. CRAN’dan farkı görev bazında (görselleştirme, makine öğrenmesi) seçilmiş paketleri öne çıkarması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/qinwf/awesome-R&quot;&gt;https://github.com/qinwf/awesome-R&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome SE for ML</title>
-  <link href="https://github.com/SE-ML/awesome-seml"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#github-com-se-ml-awesome-seml" rel="alternate" type="text/html"/>
   <id>https://github.com/SE-ML/awesome-seml</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Deneyden üretime makine öğrenmesi mühendisliği kaynakları. Model listelerinden farkı test, dağıtım ve izleme gibi “ML’i ürün yapma” tarafına bakması.</summary>
+  <content type="html">&lt;p&gt;Deneyden üretime makine öğrenmesi mühendisliği kaynakları. Model listelerinden farkı test, dağıtım ve izleme gibi “ML’i ürün yapma” tarafına bakması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/SE-ML/awesome-seml&quot;&gt;https://github.com/SE-ML/awesome-seml&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome TensorFlow</title>
-  <link href="https://github.com/jtoy/awesome-tensorflow"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#github-com-jtoy-awesome-tensorflow" rel="alternate" type="text/html"/>
   <id>https://github.com/jtoy/awesome-tensorflow</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Makine zekâsı kütüphanesi TensorFlow için kaynak ve model listesi. Resmî belgelerden farkı topluluk öğreticilerini, modellerini ve projelerini toplaması; kayıtların bir kısmı TensorFlow 1 dönemine ait.</summary>
+  <content type="html">&lt;p&gt;Makine zekâsı kütüphanesi TensorFlow için kaynak ve model listesi. Resmî belgelerden farkı topluluk öğreticilerini, modellerini ve projelerini toplaması; kayıtların bir kısmı TensorFlow 1 dönemine ait.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/jtoy/awesome-tensorflow&quot;&gt;https://github.com/jtoy/awesome-tensorflow&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>AWS Open Data Registry</title>
-  <link href="https://registry.opendata.aws"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#registry-opendata-aws" rel="alternate" type="text/html"/>
   <id>https://registry.opendata.aws</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>AWS üzerinde barındırılan büyük kamu veri kümelerinin kayıt defteri. Data.gov gibi portallardan farkı verinin doğrudan S3’te durması: indirmeden AWS içinde işleyebiliyorsun.</summary>
+  <content type="html">&lt;p&gt;AWS üzerinde barındırılan büyük kamu veri kümelerinin kayıt defteri. Data.gov gibi portallardan farkı verinin doğrudan S3’te durması: indirmeden AWS içinde işleyebiliyorsun.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://registry.opendata.aws&quot;&gt;https://registry.opendata.aws&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>data.europa.eu</title>
-  <link href="https://data.europa.eu"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/veri.html#data-europa-eu" rel="alternate" type="text/html"/>
   <id>https://data.europa.eu</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Avrupa Birliği’nin resmî açık veri portalı. Ulusal portallardan farkı üye ülkelerin veri kümelerini tek aramada birleştirmesi ve AB kurumlarının kendi verisini de içermesi.</summary>
+  <content type="html">&lt;p&gt;Avrupa Birliği’nin resmî açık veri portalı. Ulusal portallardan farkı üye ülkelerin veri kümelerini tek aramada birleştirmesi ve AB kurumlarının kendi verisini de içermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://data.europa.eu&quot;&gt;https://data.europa.eu&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

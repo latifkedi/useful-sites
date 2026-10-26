@@ -2,267 +2,269 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
 <title>CTF &amp; Uygulamalı Lab — Kullanışlı Siteler</title>
 <subtitle>Yazılımdan yapay zekaya, güvenlikten ekonomiye ve mimariye on alanda elle derlenmiş, açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/guv_lab.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/guv_lab.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/guv_lab.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>Crackmes.one</title>
-  <link href="https://crackmes.one/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#crackmes-one" rel="alternate" type="text/html"/>
   <id>https://crackmes.one/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Topluluğun yüklediği tersine mühendislik görevlerinin (crackme) arşivi; zorluk, dil ve platforma göre filtreleniyor. CTF platformlarından farkı, görevlerin tek dosyalık yerel ikililer olması ve çözümlerin kullanıcılar tarafından yazılması. Güvenilmeyen çalıştırılabilir dosyalar olduğundan sanal makinede çalıştırın.</summary>
+  <content type="html">&lt;p&gt;Topluluğun yüklediği tersine mühendislik görevlerinin (crackme) arşivi; zorluk, dil ve platforma göre filtreleniyor. CTF platformlarından farkı, görevlerin tek dosyalık yerel ikililer olması ve çözümlerin kullanıcılar tarafından yazılması. Güvenilmeyen çalıştırılabilir dosyalar olduğundan sanal makinede çalıştırın.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://crackmes.one/&quot;&gt;https://crackmes.one/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Cryptopals</title>
-  <link href="https://cryptopals.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#cryptopals-com" rel="alternate" type="text/html"/>
   <id>https://cryptopals.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Gerçek kripto yapılarına saldırarak öğreten 8 set, 48 görevlik programlama alıştırması; saldırı kodunu kendiniz yazarsınız. Ders kitaplarından farkı, her kırılmanın bir öncekinin üstüne kurulması. İstediğiniz bir dilde kod yazmayı gerektirir.</summary>
+  <content type="html">&lt;p&gt;Gerçek kripto yapılarına saldırarak öğreten 8 set, 48 görevlik programlama alıştırması; saldırı kodunu kendiniz yazarsınız. Ders kitaplarından farkı, her kırılmanın bir öncekinin üstüne kurulması. İstediğiniz bir dilde kod yazmayı gerektirir.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cryptopals.com/&quot;&gt;https://cryptopals.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Hack This Site</title>
-  <link href="https://www.hackthissite.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#hackthissite-org" rel="alternate" type="text/html"/>
   <id>https://www.hackthissite.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Yasal ve güvenli bir ortamda temel hack görevleri (temel, gerçekçi, programlama, steganografi) sunan eski bir eğitim sitesi. Forum ve makale bölümü de var; yeni başlayanlar için ilk adım olarak anılır, yeni platformlara göre arayüzü eski. Yeni platformlara kıyasla arayüzü eskidir, karşılığında bir CTF takvimine bağlı değildir.</summary>
+  <content type="html">&lt;p&gt;Yasal ve güvenli bir ortamda temel hack görevleri (temel, gerçekçi, programlama, steganografi) sunan eski bir eğitim sitesi. Forum ve makale bölümü de var; yeni başlayanlar için ilk adım olarak anılır, yeni platformlara göre arayüzü eski. Yeni platformlara kıyasla arayüzü eskidir, karşılığında bir CTF takvimine bağlı değildir.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.hackthissite.org/&quot;&gt;https://www.hackthissite.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Hacker101</title>
-  <link href="https://www.hacker101.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#hacker101-com" rel="alternate" type="text/html"/>
   <id>https://www.hacker101.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>HackerOne'ın web güvenliği açıklarını bulmayı anlatan ücretsiz video dersleri ve CTF'i; bulduğunuz bayraklarla özel bug bounty programlarına davet kazanılabiliyor. Genel eğitim sitelerinden farkı bug bounty yoluna doğrudan bağlanması.</summary>
+  <content type="html">&lt;p&gt;HackerOne'ın web güvenliği açıklarını bulmayı anlatan ücretsiz video dersleri ve CTF'i; bulduğunuz bayraklarla özel bug bounty programlarına davet kazanılabiliyor. Genel eğitim sitelerinden farkı bug bounty yoluna doğrudan bağlanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.hacker101.com/&quot;&gt;https://www.hacker101.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Hacksplaining</title>
-  <link href="https://www.hacksplaining.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#hacksplaining-com" rel="alternate" type="text/html"/>
   <id>https://www.hacksplaining.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Yaygın web güvenlik açıklarını (XSS, SQL enjeksiyonu, CSRF) kısa etkileşimli derslerle anlatan, geliştiricilere yönelik site. Pentest platformlarından farkı saldırıyı değil savunmayı öğretmeye odaklanması.</summary>
+  <content type="html">&lt;p&gt;Yaygın web güvenlik açıklarını (XSS, SQL enjeksiyonu, CSRF) kısa etkileşimli derslerle anlatan, geliştiricilere yönelik site. Pentest platformlarından farkı saldırıyı değil savunmayı öğretmeye odaklanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.hacksplaining.com/&quot;&gt;https://www.hacksplaining.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Microcorruption</title>
-  <link href="https://microcorruption.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#microcorruption-com" rel="alternate" type="text/html"/>
   <id>https://microcorruption.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Tarayıcıda çalışan bir MSP430 hata ayıklayıcısıyla elektronik kilitleri kırdıran gömülü sistem CTF'i. Kurulum gerektirmediği için gömülü tersine mühendisliğe ve montaj diline giriş için pratik; Matasano tarafından hazırlanmıştı.</summary>
+  <content type="html">&lt;p&gt;Tarayıcıda çalışan bir MSP430 hata ayıklayıcısıyla elektronik kilitleri kırdıran gömülü sistem CTF'i. Kurulum gerektirmediği için gömülü tersine mühendisliğe ve montaj diline giriş için pratik; Matasano tarafından hazırlanmıştı.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://microcorruption.com/&quot;&gt;https://microcorruption.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OWASP Web Security Testing Guide</title>
-  <link href="https://github.com/OWASP/wstg"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#github-com-owasp-wstg" rel="alternate" type="text/html"/>
   <id>https://github.com/OWASP/wstg</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Web uygulaması sızma testi için OWASP'ın bilgi toplamadan iş mantığı hatalarına uzanan test metodolojisi ve kontrol listesi. Zafiyet listelerinden (Top 10) farkı 'nasıl test edilir' adımlarını ayrıntılı vermesi.</summary>
+  <content type="html">&lt;p&gt;Web uygulaması sızma testi için OWASP'ın bilgi toplamadan iş mantığı hatalarına uzanan test metodolojisi ve kontrol listesi. Zafiyet listelerinden (Top 10) farkı 'nasıl test edilir' adımlarını ayrıntılı vermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/OWASP/wstg&quot;&gt;https://github.com/OWASP/wstg&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>PentesterLab</title>
-  <link href="https://pentesterlab.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#pentesterlab-com" rel="alternate" type="text/html"/>
   <id>https://pentesterlab.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Web ve uygulama güvenliği alıştırmaları; her biri bir zafiyeti açıklıyor ve sömürmek için çalışan bir ortam veriyor. Salt CTF sitelerinden farkı, alıştırmaların konu ve zorluğa göre müfredat gibi sıralanması. Ücretsiz katman sınırlı, tam erişim ücretli.</summary>
+  <content type="html">&lt;p&gt;Web ve uygulama güvenliği alıştırmaları; her biri bir zafiyeti açıklıyor ve sömürmek için çalışan bir ortam veriyor. Salt CTF sitelerinden farkı, alıştırmaların konu ve zorluğa göre müfredat gibi sıralanması. Ücretsiz katman sınırlı, tam erişim ücretli.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://pentesterlab.com/&quot;&gt;https://pentesterlab.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>picoCTF</title>
-  <link href="https://picoctf.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#picoctf-org" rel="alternate" type="text/html"/>
   <id>https://picoctf.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Carnegie Mellon'ın ücretsiz CTF platformu; web, kripto, tersine mühendislik ve adli bilişim görevleri. Yarışma odaklı sitelerden farkı, zorluğun lise düzeyinden başlaması ve geçmiş yarışma görevlerinin pratik için açık kalması. Hesap gerekir.</summary>
+  <content type="html">&lt;p&gt;Carnegie Mellon'ın ücretsiz CTF platformu; web, kripto, tersine mühendislik ve adli bilişim görevleri. Yarışma odaklı sitelerden farkı, zorluğun lise düzeyinden başlaması ve geçmiş yarışma görevlerinin pratik için açık kalması. Hesap gerekir.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://picoctf.org/&quot;&gt;https://picoctf.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>pwn.college</title>
-  <link href="https://pwn.college/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#pwn-college" rel="alternate" type="text/html"/>
   <id>https://pwn.college/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Arizona State Üniversitesi'nin ücretsiz siber güvenlik eğitim platformu; sıfırdan başlayan modüller ve tarayıcıda çalışan pratik ortamlarla ikili sömürü, web ve tersine mühendislik öğretiyor. Salt CTF sitelerinden farkı sıralı bir müfredat izlemesi.</summary>
+  <content type="html">&lt;p&gt;Arizona State Üniversitesi'nin ücretsiz siber güvenlik eğitim platformu; sıfırdan başlayan modüller ve tarayıcıda çalışan pratik ortamlarla ikili sömürü, web ve tersine mühendislik öğretiyor. Salt CTF sitelerinden farkı sıralı bir müfredat izlemesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://pwn.college/&quot;&gt;https://pwn.college/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>pwnable.kr</title>
-  <link href="https://pwnable.kr/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#pwnable-kr" rel="alternate" type="text/html"/>
   <id>https://pwnable.kr/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>İkili sömürü (pwn) görevleri sunan, kâr amacı gütmeyen wargame sitesi; görevler Toddler's Bottle'dan başlayıp zorlaşıyor. Görevler uzak bir SSH sunucusunda çalışıyor ve kaynak kodu veriliyor; bellek bozulması konularını sırayla öğrenmeye elverişli. Tarayıcıda çalışan alıştırmalardan farklı olarak gerçek bir SSH sunucusunda çalışır.</summary>
+  <content type="html">&lt;p&gt;İkili sömürü (pwn) görevleri sunan, kâr amacı gütmeyen wargame sitesi; görevler Toddler's Bottle'dan başlayıp zorlaşıyor. Görevler uzak bir SSH sunucusunda çalışıyor ve kaynak kodu veriliyor; bellek bozulması konularını sırayla öğrenmeye elverişli. Tarayıcıda çalışan alıştırmalardan farklı olarak gerçek bir SSH sunucusunda çalışır.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://pwnable.kr/&quot;&gt;https://pwnable.kr/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>pwnable.tw</title>
-  <link href="https://pwnable.tw/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#pwnable-tw" rel="alternate" type="text/html"/>
   <id>https://pwnable.tw/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Gerçek dünyaya yakın zafiyetlerle pwn becerisini geliştirmeyi hedefleyen, daha zor ikili sömürü görevleri. pwnable.kr'nin giriş düzeyine göre daha ileri; görevler puanlanıyor ve ilerlemek için önceki görevleri çözmek gerekiyor.</summary>
+  <content type="html">&lt;p&gt;Gerçek dünyaya yakın zafiyetlerle pwn becerisini geliştirmeyi hedefleyen, daha zor ikili sömürü görevleri. pwnable.kr'nin giriş düzeyine göre daha ileri; görevler puanlanıyor ve ilerlemek için önceki görevleri çözmek gerekiyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://pwnable.tw/&quot;&gt;https://pwnable.tw/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Root Me</title>
-  <link href="https://www.root-me.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#root-me-org" rel="alternate" type="text/html"/>
   <id>https://www.root-me.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Web, kriptografi, tersine mühendislik ve adli bilişim alanlarında yüzlerce meydan okuma ve sanal ortam sunan, topluluk tarafından işletilen Fransız platform. Büyük ticari laboratuvarlardan farkı topluluk çözümleri ve zengin belge deposuyla gelmesi.</summary>
+  <content type="html">&lt;p&gt;Web, kriptografi, tersine mühendislik ve adli bilişim alanlarında yüzlerce meydan okuma ve sanal ortam sunan, topluluk tarafından işletilen Fransız platform. Büyük ticari laboratuvarlardan farkı topluluk çözümleri ve zengin belge deposuyla gelmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.root-me.org/&quot;&gt;https://www.root-me.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Vulhub</title>
-  <link href="https://github.com/vulhub/vulhub"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#github-com-vulhub-vulhub" rel="alternate" type="text/html"/>
   <id>https://github.com/vulhub/vulhub</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Bilinen CVE'ler için docker-compose ile tek komutta ayağa kalkan zafiyetli ortamlar. Zafiyetli VM arşivlerinden farkı, her ortamın tek bir yazılım ve tek bir CVE'ye odaklanması; kök nedeni yerelde incelemek kolay. Yalnızca izole ortamda çalıştırın.</summary>
+  <content type="html">&lt;p&gt;Bilinen CVE'ler için docker-compose ile tek komutta ayağa kalkan zafiyetli ortamlar. Zafiyetli VM arşivlerinden farkı, her ortamın tek bir yazılım ve tek bir CVE'ye odaklanması; kök nedeni yerelde incelemek kolay. Yalnızca izole ortamda çalıştırın.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/vulhub/vulhub&quot;&gt;https://github.com/vulhub/vulhub&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>VulnHub</title>
-  <link href="https://www.vulnhub.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#vulnhub-com" rel="alternate" type="text/html"/>
   <id>https://www.vulnhub.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Topluluğun hazırladığı, indirilip yerelde çalıştırılan zafiyetli sanal makinelerin arşivi. Çevrimiçi lab platformlarından farkı, makinelerin çevrimdışı çalışması; OSCP tarzı pratik için sık kullanılır. İndirilen VM'ler güvenilmeyen kod sayılır, izole çalıştırın.</summary>
+  <content type="html">&lt;p&gt;Topluluğun hazırladığı, indirilip yerelde çalıştırılan zafiyetli sanal makinelerin arşivi. Çevrimiçi lab platformlarından farkı, makinelerin çevrimdışı çalışması; OSCP tarzı pratik için sık kullanılır. İndirilen VM'ler güvenilmeyen kod sayılır, izole çalıştırın.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.vulnhub.com/&quot;&gt;https://www.vulnhub.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome CTF</title>
-  <link href="https://github.com/apsdehal/awesome-ctf"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#github-com-apsdehal-awesome-ctf" rel="alternate" type="text/html"/>
   <id>https://github.com/apsdehal/awesome-ctf</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Capture The Flag için araç, wargame ve öğretici listesi. Tek yarışmadan farkı hazırlık için gereken tüm araç zincirini kategori kategori vermesi.</summary>
+  <content type="html">&lt;p&gt;Capture The Flag için araç, wargame ve öğretici listesi. Tek yarışmadan farkı hazırlık için gereken tüm araç zincirini kategori kategori vermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/apsdehal/awesome-ctf&quot;&gt;https://github.com/apsdehal/awesome-ctf&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>bWAPP</title>
-  <link href="https://www.itsecgames.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#itsecgames-com" rel="alternate" type="text/html"/>
   <id>https://www.itsecgames.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>100’den fazla web zafiyeti içeren, indirilebilir kasıtlı-açık uygulama. Çevrimiçi hedeflerden farkı kendi makinende, izole ve sınırsız denemeye izin vermesi.</summary>
+  <content type="html">&lt;p&gt;100’den fazla web zafiyeti içeren, indirilebilir kasıtlı-açık uygulama. Çevrimiçi hedeflerden farkı kendi makinende, izole ve sınırsız denemeye izin vermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.itsecgames.com/&quot;&gt;https://www.itsecgames.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Damn Vulnerable iOS App</title>
-  <link href="https://damnvulnerableiosapp.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#damnvulnerableiosapp-com" rel="alternate" type="text/html"/>
   <id>https://damnvulnerableiosapp.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Mobil güvenlik öğrenmek için kasıtlı olarak zafiyetli iOS uygulaması. Web tabanlı zafiyet laboratuvarlarından farkı mobil platforma özgü sorunlara — güvensiz veri saklama, ikili yama — odaklanması.</summary>
+  <content type="html">&lt;p&gt;Mobil güvenlik öğrenmek için kasıtlı olarak zafiyetli iOS uygulaması. Web tabanlı zafiyet laboratuvarlarından farkı mobil platforma özgü sorunlara — güvensiz veri saklama, ikili yama — odaklanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://damnvulnerableiosapp.com/&quot;&gt;https://damnvulnerableiosapp.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Firing Range</title>
-  <link href="https://public-firing-range.appspot.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#public-firing-range-appspot-com" rel="alternate" type="text/html"/>
   <id>https://public-firing-range.appspot.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Çok sayıda uygulama güvenliği açığını barındıran, Google kaynaklı test hedefi. Öğretici zafiyet laboratuvarlarından farkı tarayıcı ve otomatik güvenlik aracı denemek için tasarlanması: senaryo değil, açık türlerinin ham kataloğu.</summary>
+  <content type="html">&lt;p&gt;Çok sayıda uygulama güvenliği açığını barındıran, Google kaynaklı test hedefi. Öğretici zafiyet laboratuvarlarından farkı tarayıcı ve otomatik güvenlik aracı denemek için tasarlanması: senaryo değil, açık türlerinin ham kataloğu.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://public-firing-range.appspot.com/&quot;&gt;https://public-firing-range.appspot.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Gin &amp; Juice Shop</title>
-  <link href="https://ginandjuice.shop/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#ginandjuice-shop" rel="alternate" type="text/html"/>
   <id>https://ginandjuice.shop/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>PortSwigger’ın hazırladığı, zafiyetlerle dolu modern web uygulaması pratik hedefi. Eski pratik sitelerinden farkı gerçekçi tek sayfa uygulaması ve API mimarisi taşıması: bugünün web’ini yansıtıyor.</summary>
+  <content type="html">&lt;p&gt;PortSwigger’ın hazırladığı, zafiyetlerle dolu modern web uygulaması pratik hedefi. Eski pratik sitelerinden farkı gerçekçi tek sayfa uygulaması ve API mimarisi taşıması: bugünün web’ini yansıtıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://ginandjuice.shop/&quot;&gt;https://ginandjuice.shop/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Google Gruyere</title>
-  <link href="https://google-gruyere.appspot.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#google-gruyere-appspot-com" rel="alternate" type="text/html"/>
   <id>https://google-gruyere.appspot.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Google’ın web uygulama açıklarını öğreten “delikli peynir” kod laboratuvarı. Salt teoriden farkı her açığı bulup hem sömürüp hem yamayı deneyimletmesi.</summary>
+  <content type="html">&lt;p&gt;Google’ın web uygulama açıklarını öğreten “delikli peynir” kod laboratuvarı. Salt teoriden farkı her açığı bulup hem sömürüp hem yamayı deneyimletmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://google-gruyere.appspot.com/&quot;&gt;https://google-gruyere.appspot.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>LabEx Cybersecurity Labs</title>
-  <link href="https://labex.io/learn/cybersecurity"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#labex-io-learn-cybersecurity" rel="alternate" type="text/html"/>
   <id>https://labex.io/learn/cybersecurity</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Sızma testi ve web güvenliğini kapsayan, tarayıcıda çalışan uygulamalı laboratuvarlar. Kendi laboratuvarını kurmaktan farkı ortamın tarayıcıda hazır gelmesi: kurulum yok, doğrudan pratiğe başlıyorsun.</summary>
+  <content type="html">&lt;p&gt;Sızma testi ve web güvenliğini kapsayan, tarayıcıda çalışan uygulamalı laboratuvarlar. Kendi laboratuvarını kurmaktan farkı ortamın tarayıcıda hazır gelmesi: kurulum yok, doğrudan pratiğe başlıyorsun.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://labex.io/learn/cybersecurity&quot;&gt;https://labex.io/learn/cybersecurity&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OWASP Juice Shop</title>
-  <link href="https://owasp.org/www-project-juice-shop/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#owasp-org-www-project-juice-shop" rel="alternate" type="text/html"/>
   <id>https://owasp.org/www-project-juice-shop/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Kasıtlı olarak zafiyetlerle dolu, modern bir web uygulaması — güvenlik öğrenmek için hedef. Kuru anlatımdan farkı gerçek bir uygulamada onlarca açığı elle sömürmeni sağlaması.</summary>
+  <content type="html">&lt;p&gt;Kasıtlı olarak zafiyetlerle dolu, modern bir web uygulaması — güvenlik öğrenmek için hedef. Kuru anlatımdan farkı gerçek bir uygulamada onlarca açığı elle sömürmeni sağlaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://owasp.org/www-project-juice-shop/&quot;&gt;https://owasp.org/www-project-juice-shop/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OWASP Vulnerable Web Apps Directory</title>
-  <link href="https://owasp.org/www-project-vulnerable-web-applications-directory/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#owasp-org-www-project-vulnerable-web-applications-directory" rel="alternate" type="text/html"/>
   <id>https://owasp.org/www-project-vulnerable-web-applications-directory/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Eğitim için kullanılabilecek kasıtlı-zafiyetli web uygulamalarının OWASP dizini. DVWA ya da Juice Shop gibi tek bir uygulamadan farkı onlarcasını çevrimiçi, çevrimdışı ve sanal makine/konteyner olarak sınıflandırması.</summary>
+  <content type="html">&lt;p&gt;Eğitim için kullanılabilecek kasıtlı-zafiyetli web uygulamalarının OWASP dizini. DVWA ya da Juice Shop gibi tek bir uygulamadan farkı onlarcasını çevrimiçi, çevrimdışı ve sanal makine/konteyner olarak sınıflandırması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://owasp.org/www-project-vulnerable-web-applications-directory/&quot;&gt;https://owasp.org/www-project-vulnerable-web-applications-directory/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Hack The Box Academy</title>
-  <link href="https://academy.hackthebox.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#academy-hackthebox-com" rel="alternate" type="text/html"/>
   <id>https://academy.hackthebox.com/</id>
   <updated>2026-08-26T20:53:20Z</updated>
-  <summary>Modül tabanlı öğrenme ve CPTS/CBBH gibi pratik sertifikalar. OSCP’den farkı öğrenme yolunun sınavla aynı platformda olması ve fiyatın belirgin düşük olması; karşılığında işveren tanınırlığı henüz OSCP düzeyinde değil.</summary>
+  <content type="html">&lt;p&gt;Modül tabanlı öğrenme ve CPTS/CBBH gibi pratik sertifikalar. OSCP’den farkı öğrenme yolunun sınavla aynı platformda olması ve fiyatın belirgin düşük olması; karşılığında işveren tanınırlığı henüz OSCP düzeyinde değil.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://academy.hackthebox.com/&quot;&gt;https://academy.hackthebox.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Google CTF</title>
-  <link href="https://github.com/google/google-ctf"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#github-com-google-google-ctf" rel="alternate" type="text/html"/>
   <id>https://github.com/google/google-ctf</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Google’ın düzenlediği CTF yarışmalarının tüm soruları, kaynak kodları ve çözümleri. Diğer arşivlerden farkı soruların altyapısının da yayımlanması — yarışmayı kendi makinende yeniden kurup çalışabiliyorsun.</summary>
+  <content type="html">&lt;p&gt;Google’ın düzenlediği CTF yarışmalarının tüm soruları, kaynak kodları ve çözümleri. Diğer arşivlerden farkı soruların altyapısının da yayımlanması — yarışmayı kendi makinende yeniden kurup çalışabiliyorsun.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/google/google-ctf&quot;&gt;https://github.com/google/google-ctf&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Trail of Bits CTF Field Guide</title>
-  <link href="https://trailofbits.github.io/ctf/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#trailofbits-github-io-ctf" rel="alternate" type="text/html"/>
   <id>https://trailofbits.github.io/ctf/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Güvenlik firması Trail of Bits’in CTF rehberi; her kategoride hangi becerinin gerektiğini ve nasıl çalışılacağını anlatıyor. CTF101’den farkı daha derin olması ve profesyonel güvenlik işine köprü kurması — yarışmadan mesleğe geçiş.</summary>
+  <content type="html">&lt;p&gt;Güvenlik firması Trail of Bits’in CTF rehberi; her kategoride hangi becerinin gerektiğini ve nasıl çalışılacağını anlatıyor. CTF101’den farkı daha derin olması ve profesyonel güvenlik işine köprü kurması — yarışmadan mesleğe geçiş.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://trailofbits.github.io/ctf/&quot;&gt;https://trailofbits.github.io/ctf/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CTFtime</title>
-  <link href="https://ctftime.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#ctftime-org" rel="alternate" type="text/html"/>
   <id>https://ctftime.org/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Dünyadaki Capture The Flag yarışmalarını takvimleyen ve takım sıralaması tutan site. Dağınık duyurulardan farkı hangi yarışmanın ne zaman olduğunu tek yerde toplaması.</summary>
+  <content type="html">&lt;p&gt;Dünyadaki Capture The Flag yarışmalarını takvimleyen ve takım sıralaması tutan site. Dağınık duyurulardan farkı hangi yarışmanın ne zaman olduğunu tek yerde toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://ctftime.org/&quot;&gt;https://ctftime.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Web Security Academy</title>
-  <link href="https://portswigger.net/web-security"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#portswigger-net-web-security" rel="alternate" type="text/html"/>
   <id>https://portswigger.net/web-security</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>PortSwigger’ın ücretsiz, uygulamalı web güvenliği kursu — her zafiyet için canlı laboratuvar. Teorik kurslardan farkı saldırıyı gerçek bir hedefte denetmesi.</summary>
+  <content type="html">&lt;p&gt;PortSwigger’ın ücretsiz, uygulamalı web güvenliği kursu — her zafiyet için canlı laboratuvar. Teorik kurslardan farkı saldırıyı gerçek bir hedefte denetmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://portswigger.net/web-security&quot;&gt;https://portswigger.net/web-security&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Cicada 3301 Çözüm Rehberi</title>
-  <link href="https://www.boxentriq.com/guides/cicada-3301-first-puzzle-walkthrough"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#boxentriq-com-guides-cicada-3301-first-puzzle-walkthrough" rel="alternate" type="text/html"/>
   <id>https://www.boxentriq.com/guides/cicada-3301-first-puzzle-walkthrough</id>
   <updated>2026-07-29T06:34:40Z</updated>
-  <summary>İnternetin en bilinen bulmacasının adım adım çözümü; steganografi, kitap şifresi ve Tor gizli servisleri bir arada kullanılıyor. Tek konu anlatan öğreticilerden farkı tekniklerin gerçek bir problemde nasıl zincirlendiğini göstermesi.</summary>
+  <content type="html">&lt;p&gt;İnternetin en bilinen bulmacasının adım adım çözümü; steganografi, kitap şifresi ve Tor gizli servisleri bir arada kullanılıyor. Tek konu anlatan öğreticilerden farkı tekniklerin gerçek bir problemde nasıl zincirlendiğini göstermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.boxentriq.com/guides/cicada-3301-first-puzzle-walkthrough&quot;&gt;https://www.boxentriq.com/guides/cicada-3301-first-puzzle-walkthrough&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Çözülmemiş Tarihî Şifreler</title>
-  <link href="https://en.wikipedia.org/wiki/Category:Undeciphered_historical_codes_and_ciphers"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#en-wikipedia-org-wiki-category-undeciphered-historical-codes-and-ciphers" rel="alternate" type="text/html"/>
   <id>https://en.wikipedia.org/wiki/Category:Undeciphered_historical_codes_and_ciphers</id>
   <updated>2026-07-29T06:33:44Z</updated>
-  <summary>Hâlâ kırılamamış şifrelerin kategorisi; Voynich el yazması ve Beale şifreleri dahil. Çözümlü şifre öğreticilerinin aksine burada her biri açık bir problem olarak duruyor.</summary>
+  <content type="html">&lt;p&gt;Hâlâ kırılamamış şifrelerin kategorisi; Voynich el yazması ve Beale şifreleri dahil. Çözümlü şifre öğreticilerinin aksine burada her biri açık bir problem olarak duruyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Category:Undeciphered_historical_codes_and_ciphers&quot;&gt;https://en.wikipedia.org/wiki/Category:Undeciphered_historical_codes_and_ciphers&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Tarihî Şifreli Metinler</title>
-  <link href="https://en.wikipedia.org/wiki/List_of_ciphertexts"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#en-wikipedia-org-wiki-list-of-ciphertexts" rel="alternate" type="text/html"/>
   <id>https://en.wikipedia.org/wiki/List_of_ciphertexts</id>
   <updated>2026-07-29T06:16:44Z</updated>
-  <summary>Tarihte çözülmüş ve çözülememiş şifreli metinlerin listesi. Kriptanaliz pratiği için sentetik alıştırma yerine gerçek malzeme.</summary>
+  <content type="html">&lt;p&gt;Tarihte çözülmüş ve çözülememiş şifreli metinlerin listesi. Kriptanaliz pratiği için sentetik alıştırma yerine gerçek malzeme.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_ciphertexts&quot;&gt;https://en.wikipedia.org/wiki/List_of_ciphertexts&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>90 Days of Cyber Security</title>
-  <link href="https://github.com/farhanashrafdev/90DaysOfCyberSecurity"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#github-com-farhanashrafdev-90daysofcybersecurity" rel="alternate" type="text/html"/>
   <id>https://github.com/farhanashrafdev/90DaysOfCyberSecurity</id>
   <updated>2026-04-05T20:38:10Z</updated>
-  <summary>Doksan güne bölünmüş çalışma planı: ağ temelleri, Linux, Python, ardından saldırı ve savunma. Dağınık kaynak listelerinden farkı takvimli ve sıralı bir program sunması.</summary>
+  <content type="html">&lt;p&gt;Doksan güne bölünmüş çalışma planı: ağ temelleri, Linux, Python, ardından saldırı ve savunma. Dağınık kaynak listelerinden farkı takvimli ve sıralı bir program sunması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/farhanashrafdev/90DaysOfCyberSecurity&quot;&gt;https://github.com/farhanashrafdev/90DaysOfCyberSecurity&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OverTheWire Wargames</title>
-  <link href="https://overthewire.org/wargames/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#overthewire-org-wargames" rel="alternate" type="text/html"/>
   <id>https://overthewire.org/wargames/</id>
   <updated>2025-12-25T06:07:24Z</updated>
-  <summary>SSH ile bağlanıp seviye seviye ilerlediğin klasik savaş oyunları. Tarayıcı tabanlı laboratuvarlardan farkı gerçek bir kabukta çalışman; Bandit serisi Linux komut satırını öğretmenin en sert ama en kalıcı yolu.</summary>
+  <content type="html">&lt;p&gt;SSH ile bağlanıp seviye seviye ilerlediğin klasik savaş oyunları. Tarayıcı tabanlı laboratuvarlardan farkı gerçek bir kabukta çalışman; Bandit serisi Linux komut satırını öğretmenin en sert ama en kalıcı yolu.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://overthewire.org/wargames/&quot;&gt;https://overthewire.org/wargames/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Zodiac 340 Şifresinin Çözümü</title>
-  <link href="https://blog.wolfram.com/2021/03/24/the-solution-of-the-zodiac-killers-340-character-cipher/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#blog-wolfram-com-2021-03-24-the-solution-of-the-zodiac-killers-340-character-cipher" rel="alternate" type="text/html"/>
   <id>https://blog.wolfram.com/2021/03/24/the-solution-of-the-zodiac-killers-340-character-cipher/</id>
   <updated>2025-10-25T20:15:41Z</updated>
-  <summary>Elli bir yıl çözülemeyen homofonik yerine koyma şifresinin nasıl kırıldığının teknik anlatımı. Hipotez kurma ve eleme sürecinin gerçek bir örneği.</summary>
+  <content type="html">&lt;p&gt;Elli bir yıl çözülemeyen homofonik yerine koyma şifresinin nasıl kırıldığının teknik anlatımı. Hipotez kurma ve eleme sürecinin gerçek bir örneği.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://blog.wolfram.com/2021/03/24/the-solution-of-the-zodiac-killers-340-character-cipher/&quot;&gt;https://blog.wolfram.com/2021/03/24/the-solution-of-the-zodiac-killers-340-character-cipher/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>TryHackMe</title>
-  <link href="https://tryhackme.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#tryhackme-com" rel="alternate" type="text/html"/>
   <id>https://tryhackme.com/</id>
   <updated>2025-07-30T01:25:19Z</updated>
-  <summary>Rehberli laboratuvarlar; her odada hangi aracı neden kullandığın anlatılıyor. Hack The Box’a göre elinden tutuyor, o yüzden ilk sızma testi deneyimi için daha uygun.</summary>
+  <content type="html">&lt;p&gt;Rehberli laboratuvarlar; her odada hangi aracı neden kullandığın anlatılıyor. Hack The Box’a göre elinden tutuyor, o yüzden ilk sızma testi deneyimi için daha uygun.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://tryhackme.com/&quot;&gt;https://tryhackme.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Hack The Box</title>
-  <link href="https://www.hackthebox.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_lab.html#hackthebox-com" rel="alternate" type="text/html"/>
   <id>https://www.hackthebox.com/</id>
   <updated>2025-07-30T01:25:07Z</updated>
-  <summary>Gerçekçi makineler; ipucu vermiyor, keşif ve araştırma yükü tamamen sende. TryHackMe’den farkı bu zorluk: OSCP hazırlığında sık kullanılmasının sebebi de bu.</summary>
+  <content type="html">&lt;p&gt;Gerçekçi makineler; ipucu vermiyor, keşif ve araştırma yükü tamamen sende. TryHackMe’den farkı bu zorluk: OSCP hazırlığında sık kullanılmasının sebebi de bu.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.hackthebox.com/&quot;&gt;https://www.hackthebox.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

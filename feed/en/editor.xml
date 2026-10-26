@@ -2,225 +2,227 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title>Editors, IDEs &amp; Terminals — Useful Sites</title>
 <subtitle>A hand-curated, annotated link directory across ten areas, from software and AI to security, economics and architecture. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/en/editor.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/en/editor.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/editor.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/editor.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/editor.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>Overleaf</title>
-  <link href="https://www.overleaf.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#overleaf-com" rel="alternate" type="text/html"/>
   <id>https://www.overleaf.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A collaborative LaTeX editor in the browser; compilation runs on the server and thousands of journal and thesis templates are ready. Unlike a local TeX install it needs no setup and supports live co-editing; the free plan limits compile time and collaborators, and the Community Edition can be self-hosted.</summary>
+  <content type="html">&lt;p&gt;A collaborative LaTeX editor in the browser; compilation runs on the server and thousands of journal and thesis templates are ready. Unlike a local TeX install it needs no setup and supports live co-editing; the free plan limits compile time and collaborators, and the Community Edition can be self-hosted.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.overleaf.com/&quot;&gt;https://www.overleaf.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Typst</title>
-  <link href="https://typst.app/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#typst-app" rel="alternate" type="text/html"/>
   <id>https://typst.app/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A new typesetting language meant as an alternative to LaTeX, and its online editor; the compiler is open source (Rust) and recompiles changes instantly. Unlike Overleaf it does not use LaTeX but a simpler syntax with built-in scripting; in exchange the package ecosystem is smaller and most journals still ask for LaTeX.</summary>
+  <content type="html">&lt;p&gt;A new typesetting language meant as an alternative to LaTeX, and its online editor; the compiler is open source (Rust) and recompiles changes instantly. Unlike Overleaf it does not use LaTeX but a simpler syntax with built-in scripting; in exchange the package ecosystem is smaller and most journals still ask for LaTeX.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://typst.app/&quot;&gt;https://typst.app/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>diffnav</title>
-  <link href="https://github.com/dlvhdr/diffnav"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#github-com-dlvhdr-diffnav" rel="alternate" type="text/html"/>
   <id>https://github.com/dlvhdr/diffnav</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>A git diff pager based on delta with a GitHub-style file tree (Go). Unlike plain delta it adds a navigable file list.</summary>
+  <content type="html">&lt;p&gt;A git diff pager based on delta with a GitHub-style file tree (Go). Unlike plain delta it adds a navigable file list.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/dlvhdr/diffnav&quot;&gt;https://github.com/dlvhdr/diffnav&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Terminal Trove</title>
-  <link href="https://terminaltrove.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#terminaltrove-com" rel="alternate" type="text/html"/>
   <id>https://terminaltrove.com/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>A showcase of command-line and terminal-UI tools, each with a short pitch and install instructions. Unlike awesome lists it gives every tool its own page and a way to try it straight away.</summary>
+  <content type="html">&lt;p&gt;A showcase of command-line and terminal-UI tools, each with a short pitch and install instructions. Unlike awesome lists it gives every tool its own page and a way to try it straight away.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://terminaltrove.com/&quot;&gt;https://terminaltrove.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>typos</title>
-  <link href="https://github.com/crate-ci/typos"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#github-com-crate-ci-typos" rel="alternate" type="text/html"/>
   <id>https://github.com/crate-ci/typos</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>A fast Rust tool that finds typos in source code and text. Unlike prose spell checkers it splits identifiers into words and keeps false alarms low.</summary>
+  <content type="html">&lt;p&gt;A fast Rust tool that finds typos in source code and text. Unlike prose spell checkers it splits identifiers into words and keeps false alarms low.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/crate-ci/typos&quot;&gt;https://github.com/crate-ci/typos&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Zellij</title>
-  <link href="https://github.com/zellij-org/zellij"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#github-com-zellij-org-zellij" rel="alternate" type="text/html"/>
   <id>https://github.com/zellij-org/zellij</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>A terminal workspace written in Rust, with layouts and a plugin system. Unlike tmux its defaults are discoverable (on-screen key hints); the trade-off is that it is younger.</summary>
+  <content type="html">&lt;p&gt;A terminal workspace written in Rust, with layouts and a plugin system. Unlike tmux its defaults are discoverable (on-screen key hints); the trade-off is that it is younger.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/zellij-org/zellij&quot;&gt;https://github.com/zellij-org/zellij&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Apache NetBeans</title>
-  <link href="https://netbeans.apache.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#netbeans-apache-org" rel="alternate" type="text/html"/>
   <id>https://netbeans.apache.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A multi-language open-source IDE, strong for Java. Compared with IntelliJ IDEA it is entirely free and under Apache; in exchange its plugin ecosystem and smart completion are weaker.</summary>
+  <content type="html">&lt;p&gt;A multi-language open-source IDE, strong for Java. Compared with IntelliJ IDEA it is entirely free and under Apache; in exchange its plugin ecosystem and smart completion are weaker.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://netbeans.apache.org/&quot;&gt;https://netbeans.apache.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome CLI</title>
-  <link href="https://github.com/umutphp/awesome-cli"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#github-com-umutphp-awesome-cli" rel="alternate" type="text/html"/>
   <id>https://github.com/umutphp/awesome-cli</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list gathering useful, small command-line tools. Unlike broad lists such as awesome-shell, it focuses on small single-purpose tools you can install and use right away.</summary>
+  <content type="html">&lt;p&gt;A list gathering useful, small command-line tools. Unlike broad lists such as awesome-shell, it focuses on small single-purpose tools you can install and use right away.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/umutphp/awesome-cli&quot;&gt;https://github.com/umutphp/awesome-cli&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Git Addons</title>
-  <link href="https://github.com/stevemao/awesome-git-addons"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#github-com-stevemao-awesome-git-addons" rel="alternate" type="text/html"/>
   <id>https://github.com/stevemao/awesome-git-addons</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of add-on commands and tools that enhance the git CLI. Unlike git clients, it collects not GUIs but tools that add new subcommands to `git`.</summary>
+  <content type="html">&lt;p&gt;A list of add-on commands and tools that enhance the git CLI. Unlike git clients, it collects not GUIs but tools that add new subcommands to `git`.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/stevemao/awesome-git-addons&quot;&gt;https://github.com/stevemao/awesome-git-addons&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Hyper</title>
-  <link href="https://github.com/bnb/awesome-hyper"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#github-com-bnb-awesome-hyper" rel="alternate" type="text/html"/>
   <id>https://github.com/bnb/awesome-hyper</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of themes and plugins for Hyper, the web-tech terminal. Unlike native terminals such as Alacritty it is built on Electron, so themes and plugins are HTML/CSS/JS; the price is weight.</summary>
+  <content type="html">&lt;p&gt;A list of themes and plugins for Hyper, the web-tech terminal. Unlike native terminals such as Alacritty it is built on Electron, so themes and plugins are HTML/CSS/JS; the price is weight.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/bnb/awesome-hyper&quot;&gt;https://github.com/bnb/awesome-hyper&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Neovim</title>
-  <link href="https://github.com/rockerBOO/awesome-neovim"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#github-com-rockerboo-awesome-neovim" rel="alternate" type="text/html"/>
   <id>https://github.com/rockerBOO/awesome-neovim</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of plugins and configurations for the Neovim editor. Unlike Vim plugin lists, it gathers plugins written in Lua that rely on Neovim-only features such as Tree-sitter and LSP.</summary>
+  <content type="html">&lt;p&gt;A list of plugins and configurations for the Neovim editor. Unlike Vim plugin lists, it gathers plugins written in Lua that rely on Neovim-only features such as Tree-sitter and LSP.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/rockerBOO/awesome-neovim&quot;&gt;https://github.com/rockerBOO/awesome-neovim&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome VS Code</title>
-  <link href="https://github.com/viatsko/awesome-vscode"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#github-com-viatsko-awesome-vscode" rel="alternate" type="text/html"/>
   <id>https://github.com/viatsko/awesome-vscode</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of extensions and resources for Visual Studio Code. Unlike the Marketplace itself it is curated: instead of thousands of extensions, it groups proven ones by language and task.</summary>
+  <content type="html">&lt;p&gt;A list of extensions and resources for Visual Studio Code. Unlike the Marketplace itself it is curated: instead of thousands of extensions, it groups proven ones by language and task.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/viatsko/awesome-vscode&quot;&gt;https://github.com/viatsko/awesome-vscode&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Cmder</title>
-  <link href="https://cmder.app/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#cmder-app" rel="alternate" type="text/html"/>
   <id>https://cmder.app/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A portable, pleasant console package for Windows that ships with bash and unix commands. Unlike the built-in cmd it offers tabs, themes and unix tools together.</summary>
+  <content type="html">&lt;p&gt;A portable, pleasant console package for Windows that ships with bash and unix commands. Unlike the built-in cmd it offers tabs, themes and unix tools together.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cmder.app/&quot;&gt;https://cmder.app/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Editor.md</title>
-  <link href="https://pandao.github.io/editor.md/en.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#pandao-github-io-editor-md-en-html" rel="alternate" type="text/html"/>
   <id>https://pandao.github.io/editor.md/en.html</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An open-source, in-browser Markdown editor with live preview and export. Unlike hosted note apps it is a component you embed in your own page, keeping the data yourself.</summary>
+  <content type="html">&lt;p&gt;An open-source, in-browser Markdown editor with live preview and export. Unlike hosted note apps it is a component you embed in your own page, keeping the data yourself.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://pandao.github.io/editor.md/en.html&quot;&gt;https://pandao.github.io/editor.md/en.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>hub</title>
-  <link href="https://hub.github.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#hub-github-com" rel="alternate" type="text/html"/>
   <id>https://hub.github.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A wrapper extending the git command line with GitHub operations (PRs, issues, forks). Unlike the official gh tool it wraps git commands directly; it now trails gh, which is preferred for new setups.</summary>
+  <content type="html">&lt;p&gt;A wrapper extending the git command line with GitHub operations (PRs, issues, forks). Unlike the official gh tool it wraps git commands directly; it now trails gh, which is preferred for new setups.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://hub.github.com/&quot;&gt;https://hub.github.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Hyper</title>
-  <link href="https://hyper.is/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#hyper-is" rel="alternate" type="text/html"/>
   <id>https://hyper.is/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An open-source terminal built with web technologies and extensible via plugins. Unlike native terminals such as Alacritty it is built on Electron, so you theme it with HTML/CSS/JS at the cost of more weight.</summary>
+  <content type="html">&lt;p&gt;An open-source terminal built with web technologies and extensible via plugins. Unlike native terminals such as Alacritty it is built on Electron, so you theme it with HTML/CSS/JS at the cost of more weight.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://hyper.is/&quot;&gt;https://hyper.is/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Micro</title>
-  <link href="https://micro-editor.github.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#micro-editor-github-io" rel="alternate" type="text/html"/>
   <id>https://micro-editor.github.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A modern, intuitive terminal-based text editor with familiar shortcuts. Unlike Vim and nano its learning curve is nearly flat: Ctrl+S saves, Ctrl+C copies — it works with desktop-editor habits.</summary>
+  <content type="html">&lt;p&gt;A modern, intuitive terminal-based text editor with familiar shortcuts. Unlike Vim and nano its learning curve is nearly flat: Ctrl+S saves, Ctrl+C copies — it works with desktop-editor habits.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://micro-editor.github.io/&quot;&gt;https://micro-editor.github.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Neovim</title>
-  <link href="https://neovim.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#neovim-io" rel="alternate" type="text/html"/>
   <id>https://neovim.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A refactored Vim where configuration and plugins are written in Lua and language-server (LSP) support is built in. Unlike classic Vim, it has that Lua ecosystem and an asynchronous plugin architecture.</summary>
+  <content type="html">&lt;p&gt;A refactored Vim where configuration and plugins are written in Lua and language-server (LSP) support is built in. Unlike classic Vim, it has that Lua ecosystem and an asynchronous plugin architecture.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://neovim.io/&quot;&gt;https://neovim.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>ranwhen</title>
-  <link href="https://github.com/p-e-w/ranwhen"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#github-com-p-e-w-ranwhen" rel="alternate" type="text/html"/>
   <id>https://github.com/p-e-w/ranwhen</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A tool that visualises when your system was running, right in the terminal; the repository has not been updated since 2013. Unlike plain `last` output it renders the data as a coloured time chart.</summary>
+  <content type="html">&lt;p&gt;A tool that visualises when your system was running, right in the terminal; the repository has not been updated since 2013. Unlike plain `last` output it renders the data as a coloured time chart.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/p-e-w/ranwhen&quot;&gt;https://github.com/p-e-w/ranwhen&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Sublime Text</title>
-  <link href="https://www.sublimetext.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#sublimetext-com" rel="alternate" type="text/html"/>
   <id>https://www.sublimetext.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A text/code editor focused on speed and fluidity, opening very fast. Unlike VS Code it is native and opens instantly; in exchange its plugin ecosystem and built-ins are narrower, and it is paid.</summary>
+  <content type="html">&lt;p&gt;A text/code editor focused on speed and fluidity, opening very fast. Unlike VS Code it is native and opens instantly; in exchange its plugin ecosystem and built-ins are narrower, and it is paid.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.sublimetext.com/&quot;&gt;https://www.sublimetext.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Visual Studio Code</title>
-  <link href="https://code.visualstudio.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#code-visualstudio-com" rel="alternate" type="text/html"/>
   <id>https://code.visualstudio.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The most widely used code editor: it starts light but approaches an IDE through language servers and debuggers. Unlike full IDEs such as JetBrains, every language comes as an extension — a small base with capability added on.</summary>
+  <content type="html">&lt;p&gt;The most widely used code editor: it starts light but approaches an IDE through language servers and debuggers. Unlike full IDEs such as JetBrains, every language comes as an extension — a small base with capability added on.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;https://code.visualstudio.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CodingFont</title>
-  <link href="https://www.codingfont.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#codingfont-com" rel="alternate" type="text/html"/>
   <id>https://www.codingfont.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Compares coding fonts two at a time in a tournament until one wins. Unlike a font list it turns browsing into a decision — it never puts twenty fonts side by side, only two.</summary>
+  <content type="html">&lt;p&gt;Compares coding fonts two at a time in a tournament until one wins. Unlike a font list it turns browsing into a decision — it never puts twenty fonts side by side, only two.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.codingfont.com/&quot;&gt;https://www.codingfont.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Eclipse Theia</title>
-  <link href="https://theia-ide.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#theia-ide-org" rel="alternate" type="text/html"/>
   <id>https://theia-ide.org/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>An IDE framework that runs on the desktop and in the browser and takes VS Code extensions. The difference from VS Code is that it is a framework rather than a product — built for you to construct your own IDE on top of.</summary>
+  <content type="html">&lt;p&gt;An IDE framework that runs on the desktop and in the browser and takes VS Code extensions. The difference from VS Code is that it is a framework rather than a product — built for you to construct your own IDE on top of.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://theia-ide.org/&quot;&gt;https://theia-ide.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Notepad++</title>
-  <link href="https://notepad-plus-plus.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#notepad-plus-plus-org" rel="alternate" type="text/html"/>
   <id>https://notepad-plus-plus.org/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A lightweight source editor for Windows with syntax highlighting, multi-file search and replace, and macro recording. Unlike VS Code its edge is speed: it opens a huge log file in seconds without waiting on a language server.</summary>
+  <content type="html">&lt;p&gt;A lightweight source editor for Windows with syntax highlighting, multi-file search and replace, and macro recording. Unlike VS Code its edge is speed: it opens a huge log file in seconds without waiting on a language server.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://notepad-plus-plus.org/&quot;&gt;https://notepad-plus-plus.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Programming Fonts</title>
-  <link href="https://www.programmingfonts.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#programmingfonts-org" rel="alternate" type="text/html"/>
   <id>https://www.programmingfonts.org/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A place to try monospaced coding fonts side by side on real code. Unlike a font download site, you see the ligatures and the 0/O and 1/l/I distinctions in the context that actually matters.</summary>
+  <content type="html">&lt;p&gt;A place to try monospaced coding fonts side by side on real code. Unlike a font download site, you see the ligatures and the 0/O and 1/l/I distinctions in the context that actually matters.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.programmingfonts.org/&quot;&gt;https://www.programmingfonts.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>VS Code Themes</title>
-  <link href="https://vscodethemes.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#vscodethemes-com" rel="alternate" type="text/html"/>
   <id>https://vscodethemes.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A gallery previewing VS Code themes on real code. Against the marketplace you see a theme without installing it, and can compare how it looks across several languages at once.</summary>
+  <content type="html">&lt;p&gt;A gallery previewing VS Code themes on real code. Against the marketplace you see a theme without installing it, and can compare how it looks across several languages at once.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://vscodethemes.com/&quot;&gt;https://vscodethemes.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>VSCodium</title>
-  <link href="https://vscodium.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#vscodium-com" rel="alternate" type="text/html"/>
   <id>https://vscodium.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A community build of VS Code with Microsoft’s telemetry and branding stripped out. Same editor, same extension API; the difference is that the default marketplace is Open VSX rather than Microsoft’s, so some proprietary extensions are simply absent.</summary>
+  <content type="html">&lt;p&gt;A community build of VS Code with Microsoft’s telemetry and branding stripped out. Same editor, same extension API; the difference is that the default marketplace is Open VSX rather than Microsoft’s, so some proprietary extensions are simply absent.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://vscodium.com/&quot;&gt;https://vscodium.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Warp</title>
-  <link href="https://www.warp.dev/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#warp-dev" rel="alternate" type="text/html"/>
   <id>https://www.warp.dev/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A terminal written in Rust that keeps each command and its output as a separate block instead of one scrolling stream, so you can copy a single command’s output in one click. That block model and the built-in AI command suggestions are what set it apart.</summary>
+  <content type="html">&lt;p&gt;A terminal written in Rust that keeps each command and its output as a separate block instead of one scrolling stream, so you can copy a single command’s output in one click. That block model and the built-in AI command suggestions are what set it apart.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.warp.dev/&quot;&gt;https://www.warp.dev/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>WakaTime</title>
-  <link href="https://wakatime.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#wakatime-com" rel="alternate" type="text/html"/>
   <id>https://wakatime.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Measures how long you spend in which project and language through an editor plugin. Against general time trackers it needs no manual start — the measurement comes from the editor itself.</summary>
+  <content type="html">&lt;p&gt;Measures how long you spend in which project and language through an editor plugin. Against general time trackers it needs no manual start — the measurement comes from the editor itself.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://wakatime.com&quot;&gt;https://wakatime.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>fli</title>
-  <link href="https://github.com/punitarani/fli"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#github-com-punitarani-fli" rel="alternate" type="text/html"/>
   <id>https://github.com/punitarani/fli</id>
   <updated>2026-04-20T12:03:23Z</updated>
-  <summary>Brings flight search to the command line, usable as an MCP server, a CLI and a Python library. Unlike flight sites the results are scriptable, so you can hang price tracking off a cron job.</summary>
+  <content type="html">&lt;p&gt;Brings flight search to the command line, usable as an MCP server, a CLI and a Python library. Unlike flight sites the results are scriptable, so you can hang price tracking off a cron job.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/punitarani/fli&quot;&gt;https://github.com/punitarani/fli&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Embarcadero Dev-C++</title>
-  <link href="https://sourceforge.net/projects/embarcadero-devcpp/files/v6.3/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/editor.html#sourceforge-net-projects-embarcadero-devcpp-files-v6-3" rel="alternate" type="text/html"/>
   <id>https://sourceforge.net/projects/embarcadero-devcpp/files/v6.3/</id>
   <updated>2025-09-24T09:59:46Z</updated>
-  <summary>A lightweight C/C++ IDE. Unlike modern IDEs it runs on weak hardware and remains the standard install in many Turkish university labs; in exchange its modern tooling support is thin.</summary>
+  <content type="html">&lt;p&gt;A lightweight C/C++ IDE. Unlike modern IDEs it runs on weak hardware and remains the standard install in many Turkish university labs; in exchange its modern tooling support is thin.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://sourceforge.net/projects/embarcadero-devcpp/files/v6.3/&quot;&gt;https://sourceforge.net/projects/embarcadero-devcpp/files/v6.3/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

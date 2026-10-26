@@ -2,134 +2,136 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title>Electrical &amp; Electronics — Useful Sites</title>
 <subtitle>A hand-curated, annotated link directory across ten areas, from software and AI to security, economics and architecture. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/en/elektronik.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/en/elektronik.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/elektronik.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/elektronik.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/elektronik.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>Awesome CircuitPython</title>
-  <link href="https://github.com/adafruit/awesome-circuitpython"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/elektronik.html#github-com-adafruit-awesome-circuitpython" rel="alternate" type="text/html"/>
   <id>https://github.com/adafruit/awesome-circuitpython</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of libraries and projects for Python on microcontrollers (CircuitPython). Unlike general embedded lists it focuses on programming hardware in Python rather than C.</summary>
+  <content type="html">&lt;p&gt;A list of libraries and projects for Python on microcontrollers (CircuitPython). Unlike general embedded lists it focuses on programming hardware in Python rather than C.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/adafruit/awesome-circuitpython&quot;&gt;https://github.com/adafruit/awesome-circuitpython&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Electronics</title>
-  <link href="https://github.com/kitspace/awesome-electronics"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/elektronik.html#github-com-kitspace-awesome-electronics" rel="alternate" type="text/html"/>
   <id>https://github.com/kitspace/awesome-electronics</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of tools, manufacturers and communities for electronics engineers and hobbyists. Unlike general hardware lists it focuses on PCB design, component sourcing and simulation.</summary>
+  <content type="html">&lt;p&gt;A list of tools, manufacturers and communities for electronics engineers and hobbyists. Unlike general hardware lists it focuses on PCB design, component sourcing and simulation.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/kitspace/awesome-electronics&quot;&gt;https://github.com/kitspace/awesome-electronics&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome ESP</title>
-  <link href="https://github.com/agucova/awesome-esp"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/elektronik.html#github-com-agucova-awesome-esp" rel="alternate" type="text/html"/>
   <id>https://github.com/agucova/awesome-esp</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of libraries and projects for the ESP8266/ESP32, cheap microcontrollers with WiFi. Unlike general embedded lists it focuses on this chip family and wireless projects.</summary>
+  <content type="html">&lt;p&gt;A list of libraries and projects for the ESP8266/ESP32, cheap microcontrollers with WiFi. Unlike general embedded lists it focuses on this chip family and wireless projects.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/agucova/awesome-esp&quot;&gt;https://github.com/agucova/awesome-esp&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Adafruit</title>
-  <link href="https://www.adafruit.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/elektronik.html#adafruit-com" rel="alternate" type="text/html"/>
   <id>https://www.adafruit.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Open-source hardware plus a huge library of beginner-friendly learning guides for every board. Unlike ordinary electronics shops, each product comes with a detailed tutorial and library.</summary>
+  <content type="html">&lt;p&gt;Open-source hardware plus a huge library of beginner-friendly learning guides for every board. Unlike ordinary electronics shops, each product comes with a detailed tutorial and library.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.adafruit.com&quot;&gt;https://www.adafruit.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Adafruit Learn</title>
-  <link href="https://learn.adafruit.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/elektronik.html#learn-adafruit-com" rel="alternate" type="text/html"/>
   <id>https://learn.adafruit.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Step-by-step, illustrated guides for microcontroller, sensor and electronics projects. Unlike product pages it carries the part you bought all the way to a working project.</summary>
+  <content type="html">&lt;p&gt;Step-by-step, illustrated guides for microcontroller, sensor and electronics projects. Unlike product pages it carries the part you bought all the way to a working project.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://learn.adafruit.com/&quot;&gt;https://learn.adafruit.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>All About Circuits</title>
-  <link href="https://www.allaboutcircuits.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/elektronik.html#allaboutcircuits-com" rel="alternate" type="text/html"/>
   <id>https://www.allaboutcircuits.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Free lessons, calculators and a forum teaching electrical and electronics from the ground up. Unlike scattered videos it progresses in textbook order from DC to digital design.</summary>
+  <content type="html">&lt;p&gt;Free lessons, calculators and a forum teaching electrical and electronics from the ground up. Unlike scattered videos it progresses in textbook order from DC to digital design.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.allaboutcircuits.com/&quot;&gt;https://www.allaboutcircuits.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Basic Electronics Tutorials</title>
-  <link href="https://www.electronics-tutorials.ws"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/elektronik.html#electronics-tutorials-ws" rel="alternate" type="text/html"/>
   <id>https://www.electronics-tutorials.ws</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A free archive teaching electronics fundamentals — resistors, capacitors, transistors, op-amps — step by step with the formulas. Unlike project sites, it builds the theory before you build a circuit.</summary>
+  <content type="html">&lt;p&gt;A free archive teaching electronics fundamentals — resistors, capacitors, transistors, op-amps — step by step with the formulas. Unlike project sites, it builds the theory before you build a circuit.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.electronics-tutorials.ws&quot;&gt;https://www.electronics-tutorials.ws&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Circuit Digest</title>
-  <link href="https://circuitdigest.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/elektronik.html#circuitdigest-com" rel="alternate" type="text/html"/>
   <id>https://circuitdigest.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Worked electronics projects and tutorials with schematics and code. Unlike product catalogues it gives complete projects — schematic, code and step-by-step explanation together.</summary>
+  <content type="html">&lt;p&gt;Worked electronics projects and tutorials with schematics and code. Unlike product catalogues it gives complete projects — schematic, code and step-by-step explanation together.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://circuitdigest.com&quot;&gt;https://circuitdigest.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>EasyEDA</title>
-  <link href="https://easyeda.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/elektronik.html#easyeda-com" rel="alternate" type="text/html"/>
   <id>https://easyeda.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Browser-based PCB schematic and layout design, tied to the JLCPCB parts library. Unlike desktop tools such as KiCad it needs no install and connects straight to fabrication; in exchange it is bound to the JLCPCB ecosystem.</summary>
+  <content type="html">&lt;p&gt;Browser-based PCB schematic and layout design, tied to the JLCPCB parts library. Unlike desktop tools such as KiCad it needs no install and connects straight to fabrication; in exchange it is bound to the JLCPCB ecosystem.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://easyeda.com&quot;&gt;https://easyeda.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Falstad Circuit Simulator</title>
-  <link href="https://www.falstad.com/circuit/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/elektronik.html#falstad-com-circuit" rel="alternate" type="text/html"/>
   <id>https://www.falstad.com/circuit/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A simulator that lets you draw a circuit in the browser and shows current and voltage as a live animation. Unlike static schematics you see how the electrons flow in real time — for intuition.</summary>
+  <content type="html">&lt;p&gt;A simulator that lets you draw a circuit in the browser and shows current and voltage as a live animation. Unlike static schematics you see how the electrons flow in real time — for intuition.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.falstad.com/circuit/&quot;&gt;https://www.falstad.com/circuit/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Hackaday</title>
-  <link href="https://hackaday.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/elektronik.html#hackaday-com" rel="alternate" type="text/html"/>
   <id>https://hackaday.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The daily hub for hardware hacks and maker projects. Unlike project-hosting sites it is a news publication — it curates and writes up others’ work rather than hosting it.</summary>
+  <content type="html">&lt;p&gt;The daily hub for hardware hacks and maker projects. Unlike project-hosting sites it is a news publication — it curates and writes up others’ work rather than hosting it.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://hackaday.com&quot;&gt;https://hackaday.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Hackster.io</title>
-  <link href="https://www.hackster.io"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/elektronik.html#hackster-io" rel="alternate" type="text/html"/>
   <id>https://www.hackster.io</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A hardware community sharing step-by-step IoT and embedded projects. Unlike Hackaday’s news focus, projects here are hosted with full build instructions.</summary>
+  <content type="html">&lt;p&gt;A hardware community sharing step-by-step IoT and embedded projects. Unlike Hackaday’s news focus, projects here are hosted with full build instructions.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.hackster.io&quot;&gt;https://www.hackster.io&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>JLCPCB</title>
-  <link href="https://jlcpcb.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/elektronik.html#jlcpcb-com" rel="alternate" type="text/html"/>
   <id>https://jlcpcb.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Low-cost, small-batch PCB fabrication and assembly. Compared with PCBWay it is price-focused and tightly integrated with EasyEDA; in exchange its custom-process and material options are narrower.</summary>
+  <content type="html">&lt;p&gt;Low-cost, small-batch PCB fabrication and assembly. Compared with PCBWay it is price-focused and tightly integrated with EasyEDA; in exchange its custom-process and material options are narrower.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://jlcpcb.com&quot;&gt;https://jlcpcb.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>PCBWay</title>
-  <link href="https://www.pcbway.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/elektronik.html#pcbway-com" rel="alternate" type="text/html"/>
   <id>https://www.pcbway.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>PCB prototyping and fabrication alongside a project-sharing community. Compared with JLCPCB it is broader on custom processes, material choice and extra services such as CNC and 3D printing.</summary>
+  <content type="html">&lt;p&gt;PCB prototyping and fabrication alongside a project-sharing community. Compared with JLCPCB it is broader on custom processes, material choice and extra services such as CNC and 3D printing.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.pcbway.com&quot;&gt;https://www.pcbway.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>SnapMagic (SnapEDA)</title>
-  <link href="https://www.snapmagic.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/elektronik.html#snapmagic-com" rel="alternate" type="text/html"/>
   <id>https://www.snapmagic.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A library of free ready-made CAD symbols and footprints for parts, exportable to EDA tools. Unlike drawing each symbol by hand it gives ready, verified parts; SnapEDA was renamed SnapMagic in 2024.</summary>
+  <content type="html">&lt;p&gt;A library of free ready-made CAD symbols and footprints for parts, exportable to EDA tools. Unlike drawing each symbol by hand it gives ready, verified parts; SnapEDA was renamed SnapMagic in 2024.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.snapmagic.com&quot;&gt;https://www.snapmagic.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>SparkFun</title>
-  <link href="https://www.sparkfun.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/elektronik.html#sparkfun-com" rel="alternate" type="text/html"/>
   <id>https://www.sparkfun.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A maker-electronics store with an extensive project-based tutorial system tied to each module. Similar to Adafruit; it differs in building an ecosystem around its own product line (the Qwiic connect system).</summary>
+  <content type="html">&lt;p&gt;A maker-electronics store with an extensive project-based tutorial system tied to each module. Similar to Adafruit; it differs in building an ecosystem around its own product line (the Qwiic connect system).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.sparkfun.com&quot;&gt;https://www.sparkfun.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>SparkFun Learn</title>
-  <link href="https://learn.sparkfun.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/elektronik.html#learn-sparkfun-com" rel="alternate" type="text/html"/>
   <id>https://learn.sparkfun.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A tutorial library for electronics basics and embedded projects. Similar to Adafruit; it leans more into foundational concepts like soldering, power and communication protocols.</summary>
+  <content type="html">&lt;p&gt;A tutorial library for electronics basics and embedded projects. Similar to Adafruit; it leans more into foundational concepts like soldering, power and communication protocols.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://learn.sparkfun.com/&quot;&gt;https://learn.sparkfun.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Tinkercad</title>
-  <link href="https://www.tinkercad.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/elektronik.html#tinkercad-com" rel="alternate" type="text/html"/>
   <id>https://www.tinkercad.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Browser 3D design plus circuit and Arduino simulation — an electronics playground for beginners. Unlike real hardware you can build a circuit and run Arduino code in simulation with no risk of frying anything.</summary>
+  <content type="html">&lt;p&gt;Browser 3D design plus circuit and Arduino simulation — an electronics playground for beginners. Unlike real hardware you can build a circuit and run Arduino code in simulation with no risk of frying anything.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.tinkercad.com&quot;&gt;https://www.tinkercad.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

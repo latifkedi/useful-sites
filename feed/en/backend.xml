@@ -2,288 +2,290 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title>Backend, API &amp; System Design — Useful Sites</title>
 <subtitle>A hand-curated, annotated link directory across ten areas, from software and AI to security, economics and architecture. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/en/backend.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/en/backend.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/backend.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/backend.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/backend.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>Enable CORS</title>
-  <link href="https://enable-cors.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#enable-cors-org" rel="alternate" type="text/html"/>
   <id>https://enable-cors.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A small reference site that explains CORS with copy-paste configurations for dozens of servers and frameworks (Apache, nginx, Node, IIS and more). Unlike general HTTP docs it answers the narrow question of how to turn CORS on for a given server.</summary>
+  <content type="html">&lt;p&gt;A small reference site that explains CORS with copy-paste configurations for dozens of servers and frameworks (Apache, nginx, Node, IIS and more). Unlike general HTTP docs it answers the narrow question of how to turn CORS on for a given server.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://enable-cors.org/&quot;&gt;https://enable-cors.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>HTTPie</title>
-  <link href="https://httpie.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#httpie-io" rel="alternate" type="text/html"/>
   <id>https://httpie.io/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A readable alternative to curl that sends HTTP requests with coloured JSON output and a simple syntax. Unlike curl it needs far fewer characters for typical API calls; desktop and web apps exist too, and some of those ask for an account.</summary>
+  <content type="html">&lt;p&gt;A readable alternative to curl that sends HTTP requests with coloured JSON output and a simple syntax. Unlike curl it needs far fewer characters for typical API calls; desktop and web apps exist too, and some of those ask for an account.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://httpie.io/&quot;&gt;https://httpie.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Hurl</title>
-  <link href="https://hurl.dev/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#hurl-dev" rel="alternate" type="text/html"/>
   <id>https://hurl.dev/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A command-line tool that runs HTTP requests and checks their responses (status, JSONPath, XPath, headers) from plain-text files, usable as tests in CI. Unlike Postman collections the files stay readable in git.</summary>
+  <content type="html">&lt;p&gt;A command-line tool that runs HTTP requests and checks their responses (status, JSONPath, XPath, headers) from plain-text files, usable as tests in CI. Unlike Postman collections the files stay readable in git.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://hurl.dev/&quot;&gt;https://hurl.dev/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>The C10K problem</title>
-  <link href="https://www.kegel.com/c10k.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#kegel-com-c10k-html" rel="alternate" type="text/html"/>
   <id>https://www.kegel.com/c10k.html</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>The classic article on how one server can handle ten thousand concurrent connections (select/poll, epoll, threading models, kernel support). It explains historically why modern event-loop and async servers are designed the way they are. Unlike the docs of modern async frameworks, it explains the historical reason for the design.</summary>
+  <content type="html">&lt;p&gt;The classic article on how one server can handle ten thousand concurrent connections (select/poll, epoll, threading models, kernel support). It explains historically why modern event-loop and async servers are designed the way they are. Unlike the docs of modern async frameworks, it explains the historical reason for the design.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.kegel.com/c10k.html&quot;&gt;https://www.kegel.com/c10k.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Wasmer</title>
-  <link href="https://wasmer.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#wasmer-io" rel="alternate" type="text/html"/>
   <id>https://wasmer.io/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A WebAssembly runtime that lets you choose between several compiler back ends (Singlepass, Cranelift, LLVM), with a package registry and paid Wasmer Edge hosting alongside. Unlike Wasmtime it is not only a runtime but a commercial platform covering packaging and deployment too.</summary>
+  <content type="html">&lt;p&gt;A WebAssembly runtime that lets you choose between several compiler back ends (Singlepass, Cranelift, LLVM), with a package registry and paid Wasmer Edge hosting alongside. Unlike Wasmtime it is not only a runtime but a commercial platform covering packaging and deployment too.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://wasmer.io/&quot;&gt;https://wasmer.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Wasmtime</title>
-  <link href="https://wasmtime.dev/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#wasmtime-dev" rel="alternate" type="text/html"/>
   <id>https://wasmtime.dev/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>The Bytecode Alliance’s runtime for running WebAssembly outside the browser; written in Rust, compiling with Cranelift, and among the first to implement WASI and the component model. Unlike Wasmer it sells no package registry or hosting; it focuses on tracking the standards and on being embedded.</summary>
+  <content type="html">&lt;p&gt;The Bytecode Alliance’s runtime for running WebAssembly outside the browser; written in Rust, compiling with Cranelift, and among the first to implement WASI and the component model. Unlike Wasmer it sells no package registry or hosting; it focuses on tracking the standards and on being embedded.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://wasmtime.dev/&quot;&gt;https://wasmtime.dev/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Classy Class-Based Views</title>
-  <link href="https://ccbv.co.uk/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#ccbv-co-uk" rel="alternate" type="text/html"/>
   <id>https://ccbv.co.uk/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Shows every Django class-based view with its methods, inheritance chain and source. Unlike the docs it lets you see which method to override and where it comes from.</summary>
+  <content type="html">&lt;p&gt;Shows every Django class-based view with its methods, inheritance chain and source. Unlike the docs it lets you see which method to override and where it comes from.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://ccbv.co.uk/&quot;&gt;https://ccbv.co.uk/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Django Girls Tutorial</title>
-  <link href="https://tutorial.djangogirls.org/en/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#tutorial-djangogirls-org-en" rel="alternate" type="text/html"/>
   <id>https://tutorial.djangogirls.org/en/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>A step-by-step tutorial that builds a blog with Django, written for workshops but followable alone. Unlike the official docs it assumes no programming background.</summary>
+  <content type="html">&lt;p&gt;A step-by-step tutorial that builds a blog with Django, written for workshops but followable alone. Unlike the official docs it assumes no programming background.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://tutorial.djangogirls.org/en/&quot;&gt;https://tutorial.djangogirls.org/en/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>The Flask Mega-Tutorial</title>
-  <link href="https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#blog-miguelgrinberg-com-post-the-flask-mega-tutorial-part-i-hello-world" rel="alternate" type="text/html"/>
   <id>https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Miguel Grinberg’s long, project-based Flask tutorial covering authentication, databases and deployment. Unlike the official quickstart it follows one application from hello-world to production.</summary>
+  <content type="html">&lt;p&gt;Miguel Grinberg’s long, project-based Flask tutorial covering authentication, databases and deployment. Unlike the official quickstart it follows one application from hello-world to production.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world&quot;&gt;https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Any API</title>
-  <link href="https://any-api.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#any-api-com" rel="alternate" type="text/html"/>
   <id>https://any-api.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A directory gathering the docs and console of hundreds of public APIs in one place. Unlike individual API sites you can try them all in a common interface.</summary>
+  <content type="html">&lt;p&gt;A directory gathering the docs and console of hundreds of public APIs in one place. Unlike individual API sites you can try them all in a common interface.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://any-api.com/&quot;&gt;https://any-api.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome CakePHP</title>
-  <link href="https://github.com/friendsofcake/awesome-cakephp"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#github-com-friendsofcake-awesome-cakephp" rel="alternate" type="text/html"/>
   <id>https://github.com/friendsofcake/awesome-cakephp</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of plugins and resources for the CakePHP framework. Unlike general PHP lists, it focuses only on CakePHP plugins and its ecosystem.</summary>
+  <content type="html">&lt;p&gt;A list of plugins and resources for the CakePHP framework. Unlike general PHP lists, it focuses only on CakePHP plugins and its ecosystem.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/friendsofcake/awesome-cakephp&quot;&gt;https://github.com/friendsofcake/awesome-cakephp&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Dash</title>
-  <link href="https://github.com/ucg8j/awesome-dash"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#github-com-ucg8j-awesome-dash" rel="alternate" type="text/html"/>
   <id>https://github.com/ucg8j/awesome-dash</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Dash, building data dashboards with Python. Unlike Streamlit it is Plotly-based, and its callback model gives more control over interactivity.</summary>
+  <content type="html">&lt;p&gt;A resource list for Dash, building data dashboards with Python. Unlike Streamlit it is Plotly-based, and its callback model gives more control over interactivity.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ucg8j/awesome-dash&quot;&gt;https://github.com/ucg8j/awesome-dash&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome DDD</title>
-  <link href="https://github.com/heynickc/awesome-ddd"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#github-com-heynickc-awesome-ddd" rel="alternate" type="text/html"/>
   <id>https://github.com/heynickc/awesome-ddd</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of resources, books and samples for domain-driven design (DDD), CQRS and event sourcing. Unlike general architecture lists it focuses on these three connected approaches.</summary>
+  <content type="html">&lt;p&gt;A list of resources, books and samples for domain-driven design (DDD), CQRS and event sourcing. Unlike general architecture lists it focuses on these three connected approaches.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/heynickc/awesome-ddd&quot;&gt;https://github.com/heynickc/awesome-ddd&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Deno</title>
-  <link href="https://github.com/denolib/awesome-deno"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#github-com-denolib-awesome-deno" rel="alternate" type="text/html"/>
   <id>https://github.com/denolib/awesome-deno</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Deno, a security- and TypeScript-focused alternative to Node. Unlike Node lists it gathers modules specific to this secure runtime.</summary>
+  <content type="html">&lt;p&gt;A resource list for Deno, a security- and TypeScript-focused alternative to Node. Unlike Node lists it gathers modules specific to this secure runtime.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/denolib/awesome-deno&quot;&gt;https://github.com/denolib/awesome-deno&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Directus</title>
-  <link href="https://github.com/directus-community/awesome-directus"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#github-com-directus-community-awesome-directus" rel="alternate" type="text/html"/>
   <id>https://github.com/directus-community/awesome-directus</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Directus, the headless CMS offering a real-time API and dashboard. Unlike headless CMSes such as Strapi, it sits on top of an existing SQL database without forcing its schema into its own shape.</summary>
+  <content type="html">&lt;p&gt;A resource list for Directus, the headless CMS offering a real-time API and dashboard. Unlike headless CMSes such as Strapi, it sits on top of an existing SQL database without forcing its schema into its own shape.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/directus-community/awesome-directus&quot;&gt;https://github.com/directus-community/awesome-directus&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Drupal</title>
-  <link href="https://github.com/nirgn975/awesome-drupal"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#github-com-nirgn975-awesome-drupal" rel="alternate" type="text/html"/>
   <id>https://github.com/nirgn975/awesome-drupal</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of modules and resources for Drupal, the PHP-based CMS. Unlike general CMS lists, it gathers only Drupal modules, distributions and developer tools.</summary>
+  <content type="html">&lt;p&gt;A list of modules and resources for Drupal, the PHP-based CMS. Unlike general CMS lists, it gathers only Drupal modules, distributions and developer tools.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/nirgn975/awesome-drupal&quot;&gt;https://github.com/nirgn975/awesome-drupal&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome FastAPI</title>
-  <link href="https://github.com/mjhea0/awesome-fastapi"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#github-com-mjhea0-awesome-fastapi" rel="alternate" type="text/html"/>
   <id>https://github.com/mjhea0/awesome-fastapi</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of plugins, examples and tutorials for FastAPI, Python’s fast web framework. Unlike the official docs it gathers community libraries and production examples.</summary>
+  <content type="html">&lt;p&gt;A list of plugins, examples and tutorials for FastAPI, Python’s fast web framework. Unlike the official docs it gathers community libraries and production examples.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/mjhea0/awesome-fastapi&quot;&gt;https://github.com/mjhea0/awesome-fastapi&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Fiber</title>
-  <link href="https://github.com/gofiber/awesome-fiber"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#github-com-gofiber-awesome-fiber" rel="alternate" type="text/html"/>
   <id>https://github.com/gofiber/awesome-fiber</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Fiber, the Express-inspired Go web framework built on fasthttp. Unlike general Go lists, it gathers only Fiber middleware, templates and examples.</summary>
+  <content type="html">&lt;p&gt;A resource list for Fiber, the Express-inspired Go web framework built on fasthttp. Unlike general Go lists, it gathers only Fiber middleware, templates and examples.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/gofiber/awesome-fiber&quot;&gt;https://github.com/gofiber/awesome-fiber&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Firebase</title>
-  <link href="https://github.com/jthegedus/awesome-firebase"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#github-com-jthegedus-awesome-firebase" rel="alternate" type="text/html"/>
   <id>https://github.com/jthegedus/awesome-firebase</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Firebase, Google’s app-development platform. Unlike the official docs, it gathers community libraries, sample projects and write-ups from experience.</summary>
+  <content type="html">&lt;p&gt;A resource list for Firebase, Google’s app-development platform. Unlike the official docs, it gathers community libraries, sample projects and write-ups from experience.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/jthegedus/awesome-firebase&quot;&gt;https://github.com/jthegedus/awesome-firebase&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Integration</title>
-  <link href="https://github.com/stn1slv/awesome-integration"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#github-com-stn1slv-awesome-integration" rel="alternate" type="text/html"/>
   <id>https://github.com/stn1slv/awesome-integration</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for linking different IT systems together (integration).</summary>
+  <content type="html">&lt;p&gt;A resource list for linking different IT systems together (integration).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/stn1slv/awesome-integration&quot;&gt;https://github.com/stn1slv/awesome-integration&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Laravel</title>
-  <link href="https://github.com/chiraggude/awesome-laravel"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#github-com-chiraggude-awesome-laravel" rel="alternate" type="text/html"/>
   <id>https://github.com/chiraggude/awesome-laravel</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of packages and resources for Laravel, PHP’s most popular framework. Unlike searching Packagist, it picks widely used packages and learning resources by topic.</summary>
+  <content type="html">&lt;p&gt;A list of packages and resources for Laravel, PHP’s most popular framework. Unlike searching Packagist, it picks widely used packages and learning resources by topic.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/chiraggude/awesome-laravel&quot;&gt;https://github.com/chiraggude/awesome-laravel&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Low Code</title>
-  <link href="https://github.com/zenitysec/awesome-low-code"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#github-com-zenitysec-awesome-low-code" rel="alternate" type="text/html"/>
   <id>https://github.com/zenitysec/awesome-low-code</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of platforms letting business professionals build apps with little code. Unlike a single platform’s docs it lists them side by side; it is maintained by a security company (Zenity).</summary>
+  <content type="html">&lt;p&gt;A list of platforms letting business professionals build apps with little code. Unlike a single platform’s docs it lists them side by side; it is maintained by a security company (Zenity).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/zenitysec/awesome-low-code&quot;&gt;https://github.com/zenitysec/awesome-low-code&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Magento 2</title>
-  <link href="https://github.com/DavidLambauer/awesome-magento2"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#github-com-davidlambauer-awesome-magento2" rel="alternate" type="text/html"/>
   <id>https://github.com/DavidLambauer/awesome-magento2</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Magento 2, the open-source e-commerce platform built with PHP. Unlike general e-commerce lists, it gathers only Magento 2 modules, developer tools and learning resources.</summary>
+  <content type="html">&lt;p&gt;A resource list for Magento 2, the open-source e-commerce platform built with PHP. Unlike general e-commerce lists, it gathers only Magento 2 modules, developer tools and learning resources.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/DavidLambauer/awesome-magento2&quot;&gt;https://github.com/DavidLambauer/awesome-magento2&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Node-RED</title>
-  <link href="https://github.com/naimo84/awesome-nodered"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#github-com-naimo84-awesome-nodered" rel="alternate" type="text/html"/>
   <id>https://github.com/naimo84/awesome-nodered</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Node-RED, wiring hardware and services together visually. Unlike writing integrations in code, you build the flow by wiring nodes in the browser; the list gathers community nodes and sample flows.</summary>
+  <content type="html">&lt;p&gt;A resource list for Node-RED, wiring hardware and services together visually. Unlike writing integrations in code, you build the flow by wiring nodes in the browser; the list gathers community nodes and sample flows.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/naimo84/awesome-nodered&quot;&gt;https://github.com/naimo84/awesome-nodered&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Node.js</title>
-  <link href="https://github.com/sindresorhus/awesome-nodejs"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#github-com-sindresorhus-awesome-nodejs" rel="alternate" type="text/html"/>
   <id>https://github.com/sindresorhus/awesome-nodejs</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list organising Node.js packages and resources by topic. Unlike an npm search it is a curated, quality-checked starting point.</summary>
+  <content type="html">&lt;p&gt;A list organising Node.js packages and resources by topic. Unlike an npm search it is a curated, quality-checked starting point.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/sindresorhus/awesome-nodejs&quot;&gt;https://github.com/sindresorhus/awesome-nodejs&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome PHP</title>
-  <link href="https://github.com/ziadoz/awesome-php"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#github-com-ziadoz-awesome-php" rel="alternate" type="text/html"/>
   <id>https://github.com/ziadoz/awesome-php</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list gathering PHP libraries, frameworks and tools by topic. Unlike a Packagist search it is curated and organised around modern PHP practice.</summary>
+  <content type="html">&lt;p&gt;A list gathering PHP libraries, frameworks and tools by topic. Unlike a Packagist search it is curated and organised around modern PHP practice.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ziadoz/awesome-php&quot;&gt;https://github.com/ziadoz/awesome-php&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Plone</title>
-  <link href="https://github.com/collective/awesome-plone"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#github-com-collective-awesome-plone" rel="alternate" type="text/html"/>
   <id>https://github.com/collective/awesome-plone</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of add-ons and resources for Plone, the open-source Python CMS. Unlike WordPress or Drupal lists, it focuses on the ecosystem of a Python-based CMS aimed at institutional use.</summary>
+  <content type="html">&lt;p&gt;A list of add-ons and resources for Plone, the open-source Python CMS. Unlike WordPress or Drupal lists, it focuses on the ecosystem of a Python-based CMS aimed at institutional use.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/collective/awesome-plone&quot;&gt;https://github.com/collective/awesome-plone&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Prisma</title>
-  <link href="https://github.com/catalinmiron/awesome-prisma"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#github-com-catalinmiron-awesome-prisma" rel="alternate" type="text/html"/>
   <id>https://github.com/catalinmiron/awesome-prisma</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Prisma, the ORM turning a database into a type-safe client. Unlike ORMs such as TypeORM, you define the schema in a separate file (schema.prisma) and the client is generated from it.</summary>
+  <content type="html">&lt;p&gt;A resource list for Prisma, the ORM turning a database into a type-safe client. Unlike ORMs such as TypeORM, you define the schema in a separate file (schema.prisma) and the client is generated from it.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/catalinmiron/awesome-prisma&quot;&gt;https://github.com/catalinmiron/awesome-prisma&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Serverless</title>
-  <link href="https://github.com/pmuens/awesome-serverless"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#github-com-pmuens-awesome-serverless" rel="alternate" type="text/html"/>
   <id>https://github.com/pmuens/awesome-serverless</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for serverless computing and architecture. Unlike a single provider’s docs, it sets services such as AWS Lambda and Azure Functions beside open-source frameworks.</summary>
+  <content type="html">&lt;p&gt;A resource list for serverless computing and architecture. Unlike a single provider’s docs, it sets services such as AWS Lambda and Azure Functions beside open-source frameworks.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/pmuens/awesome-serverless&quot;&gt;https://github.com/pmuens/awesome-serverless&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Software Architecture</title>
-  <link href="https://github.com/simskij/awesome-software-architecture"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#github-com-simskij-awesome-software-architecture" rel="alternate" type="text/html"/>
   <id>https://github.com/simskij/awesome-software-architecture</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of resources for designing and documenting software architecture. Unlike a single book it gathers patterns, case studies and tools together, topic by topic.</summary>
+  <content type="html">&lt;p&gt;A list of resources for designing and documenting software architecture. Unlike a single book it gathers patterns, case studies and tools together, topic by topic.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/simskij/awesome-software-architecture&quot;&gt;https://github.com/simskij/awesome-software-architecture&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Symfony</title>
-  <link href="https://github.com/sitepoint-editors/awesome-symfony"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#github-com-sitepoint-editors-awesome-symfony" rel="alternate" type="text/html"/>
   <id>https://github.com/sitepoint-editors/awesome-symfony</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of bundles and resources for the Symfony PHP framework. Unlike general PHP lists, it focuses on Symfony bundles and tools specific to the framework.</summary>
+  <content type="html">&lt;p&gt;A list of bundles and resources for the Symfony PHP framework. Unlike general PHP lists, it focuses on Symfony bundles and tools specific to the framework.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/sitepoint-editors/awesome-symfony&quot;&gt;https://github.com/sitepoint-editors/awesome-symfony&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Vapor</title>
-  <link href="https://github.com/vapor-community/awesome-vapor"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#github-com-vapor-community-awesome-vapor" rel="alternate" type="text/html"/>
   <id>https://github.com/vapor-community/awesome-vapor</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Vapor, server-side development in Swift. Unlike Node or Go frameworks, you use your iOS app’s language on the server too; the list gathers packages and guides.</summary>
+  <content type="html">&lt;p&gt;A resource list for Vapor, server-side development in Swift. Unlike Node or Go frameworks, you use your iOS app’s language on the server too; the list gathers packages and guides.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/vapor-community/awesome-vapor&quot;&gt;https://github.com/vapor-community/awesome-vapor&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Memcached</title>
-  <link href="https://memcached.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#memcached-org" rel="alternate" type="text/html"/>
   <id>https://memcached.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A distributed memory cache that speeds up sites by holding hot data in RAM. Compared with Redis it stores only key-value pairs with no persistence; in exchange it is multi-threaded and extremely simple.</summary>
+  <content type="html">&lt;p&gt;A distributed memory cache that speeds up sites by holding hot data in RAM. Compared with Redis it stores only key-value pairs with no persistence; in exchange it is multi-threaded and extremely simple.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://memcached.org/&quot;&gt;https://memcached.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Swagger</title>
-  <link href="https://swagger.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#swagger-io" rel="alternate" type="text/html"/>
   <id>https://swagger.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An OpenAPI toolset to design, document and try RESTful APIs. Unlike clients such as Postman, you write the spec first and generate docs and client code from it.</summary>
+  <content type="html">&lt;p&gt;An OpenAPI toolset to design, document and try RESTful APIs. Unlike clients such as Postman, you write the spec first and generate docs and client code from it.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://swagger.io/&quot;&gt;https://swagger.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Convex</title>
-  <link href="https://www.convex.dev/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#convex-dev" rel="alternate" type="text/html"/>
   <id>https://www.convex.dev/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A backend platform folding the database, server functions and real-time subscriptions into one product. Where Firebase has you write rules, here queries are TypeScript functions with real transactional guarantees — document flexibility without giving up consistency.</summary>
+  <content type="html">&lt;p&gt;A backend platform folding the database, server functions and real-time subscriptions into one product. Where Firebase has you write rules, here queries are TypeScript functions with real transactional guarantees — document flexibility without giving up consistency.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.convex.dev/&quot;&gt;https://www.convex.dev/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Free Public APIs</title>
-  <link href="https://www.freepublicapis.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#freepublicapis-com" rel="alternate" type="text/html"/>
   <id>https://www.freepublicapis.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A directory of over three hundred free public APIs, each carrying a liveness status and a last-checked date. That is what separates it from the old awesome-list compilations: it actually keeps scanning whether the APIs still answer.</summary>
+  <content type="html">&lt;p&gt;A directory of over three hundred free public APIs, each carrying a liveness status and a last-checked date. That is what separates it from the old awesome-list compilations: it actually keeps scanning whether the APIs still answer.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.freepublicapis.com/&quot;&gt;https://www.freepublicapis.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Porkbun</title>
-  <link href="https://porkbun.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#porkbun-com" rel="alternate" type="text/html"/>
   <id>https://porkbun.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>An ICANN-accredited domain registrar where WHOIS privacy, SSL and email forwarding are included rather than upsold. What separates it from the GoDaddy school is that renewal prices stay close to the first-year price instead of tripling.</summary>
+  <content type="html">&lt;p&gt;An ICANN-accredited domain registrar where WHOIS privacy, SSL and email forwarding are included rather than upsold. What separates it from the GoDaddy school is that renewal prices stay close to the first-year price instead of tripling.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://porkbun.com/&quot;&gt;https://porkbun.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>High Scalability</title>
-  <link href="https://highscalability.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#highscalability-com" rel="alternate" type="text/html"/>
   <id>https://highscalability.com/</id>
   <updated>2026-08-19T23:34:09Z</updated>
-  <summary>An archive of architecture write-ups spanning fifteen-plus years. Unlike current tech blogs the technology in older posts may be dated, but they are still read for how scaling pressure was actually met.</summary>
+  <content type="html">&lt;p&gt;An archive of architecture write-ups spanning fifteen-plus years. Unlike current tech blogs the technology in older posts may be dated, but they are still read for how scaling pressure was actually met.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://highscalability.com/&quot;&gt;https://highscalability.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>System Design One</title>
-  <link href="https://systemdesign.one/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#systemdesign-one" rel="alternate" type="text/html"/>
   <id>https://systemdesign.one/</id>
   <updated>2026-08-19T23:34:06Z</updated>
-  <summary>Breaks down real company architectures as case studies with actual numbers and the trade-offs taken. Unlike abstract system-design write-ups, it is concrete.</summary>
+  <content type="html">&lt;p&gt;Breaks down real company architectures as case studies with actual numbers and the trade-offs taken. Unlike abstract system-design write-ups, it is concrete.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://systemdesign.one/&quot;&gt;https://systemdesign.one/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Martin Fowler · Architecture</title>
-  <link href="https://martinfowler.com/architecture/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/backend.html#martinfowler-com-architecture" rel="alternate" type="text/html"/>
   <id>https://martinfowler.com/architecture/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Martin Fowler’s canonical collection of essays and patterns on software architecture. Unlike scattered blogs it gives the most-cited definition of concepts like microservices and event sourcing.</summary>
+  <content type="html">&lt;p&gt;Martin Fowler’s canonical collection of essays and patterns on software architecture. Unlike scattered blogs it gives the most-cited definition of concepts like microservices and event sourcing.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://martinfowler.com/architecture/&quot;&gt;https://martinfowler.com/architecture/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

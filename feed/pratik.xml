@@ -2,288 +2,290 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
 <title>Pratik &amp; Alıştırma — Kullanışlı Siteler</title>
 <subtitle>Yazılımdan yapay zekaya, güvenlikten ekonomiye ve mimariye on alanda elle derlenmiş, açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/pratik.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/pratik.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/pratik.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/pratik.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/pratik.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>CP-Algorithms</title>
-  <link href="https://cp-algorithms.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#cp-algorithms-com" rel="alternate" type="text/html"/>
   <id>https://cp-algorithms.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>e-maxx.ru'daki rekabetçi programlama algoritması anlatımlarının İngilizceye çevrilip genişletilmiş hali; her konu kod örnekleri ve alıştırma problemleriyle gelir. Soru çözme platformlarından farkı, problem sunmak yerine algoritmanın kendisini ayrıntılı anlatmasıdır.</summary>
+  <content type="html">&lt;p&gt;e-maxx.ru'daki rekabetçi programlama algoritması anlatımlarının İngilizceye çevrilip genişletilmiş hali; her konu kod örnekleri ve alıştırma problemleriyle gelir. Soru çözme platformlarından farkı, problem sunmak yerine algoritmanın kendisini ayrıntılı anlatmasıdır.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cp-algorithms.com/&quot;&gt;https://cp-algorithms.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>SELinux Game</title>
-  <link href="https://selinuxgame.org/index.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#selinuxgame-org-index-html" rel="alternate" type="text/html"/>
   <id>https://selinuxgame.org/index.html</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>SELinux'u bir bulmaca oyunu olarak öğreten, bilgisayarında çalıştırılan senaryo tabanlı alıştırma. Genellikle kuru anlatılan politika yazımını hata ayıklama görevleriyle pratik haline getiriyor. Düz belgeden farklı olarak politikayı hata ayıklama görevleriyle öğretir.</summary>
+  <content type="html">&lt;p&gt;SELinux'u bir bulmaca oyunu olarak öğreten, bilgisayarında çalıştırılan senaryo tabanlı alıştırma. Genellikle kuru anlatılan politika yazımını hata ayıklama görevleriyle pratik haline getiriyor. Düz belgeden farklı olarak politikayı hata ayıklama görevleriyle öğretir.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://selinuxgame.org/index.html&quot;&gt;https://selinuxgame.org/index.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Python Challenge</title>
-  <link href="https://www.pythonchallenge.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#pythonchallenge-com" rel="alternate" type="text/html"/>
   <id>https://www.pythonchallenge.com/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Her seviyesi biraz Python ile çözülen bir bilmece oyunu. Alıştırma sitelerinden farkı her bulmacanın bir sonrakinin adresini gizlemesi — çözmeden ilerlenmiyor.</summary>
+  <content type="html">&lt;p&gt;Her seviyesi biraz Python ile çözülen bir bilmece oyunu. Alıştırma sitelerinden farkı her bulmacanın bir sonrakinin adresini gizlemesi — çözmeden ilerlenmiyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.pythonchallenge.com/&quot;&gt;https://www.pythonchallenge.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Python Koans</title>
-  <link href="https://github.com/gregmalcolm/python_koans"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#github-com-gregmalcolm-python-koans" rel="alternate" type="text/html"/>
   <id>https://github.com/gregmalcolm/python_koans</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Python’u “koan” adı verilen başarısız testleri tek tek geçirerek öğreten depo. Öğretici okumaktan farkı gerçek testleri düzeltmen: geri bildirim anında geliyor.</summary>
+  <content type="html">&lt;p&gt;Python’u “koan” adı verilen başarısız testleri tek tek geçirerek öğreten depo. Öğretici okumaktan farkı gerçek testleri düzeltmen: geri bildirim anında geliyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/gregmalcolm/python_koans&quot;&gt;https://github.com/gregmalcolm/python_koans&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Pytudes</title>
-  <link href="https://github.com/norvig/pytudes"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#github-com-norvig-pytudes" rel="alternate" type="text/html"/>
   <id>https://github.com/norvig/pytudes</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Peter Norvig’in bulmaca, algoritma ve dil işleme üzerine kısa Python programları ve not defterleri. Alıştırma sitelerinden farkı her birinin bir uzmanın gerekçesiyle anlatılmış çözümü olması.</summary>
+  <content type="html">&lt;p&gt;Peter Norvig’in bulmaca, algoritma ve dil işleme üzerine kısa Python programları ve not defterleri. Alıştırma sitelerinden farkı her birinin bir uzmanın gerekçesiyle anlatılmış çözümü olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/norvig/pytudes&quot;&gt;https://github.com/norvig/pytudes&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Snakify</title>
-  <link href="https://snakify.org/en/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#snakify-org-en" rel="alternate" type="text/html"/>
   <id>https://snakify.org/en/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Yüzü aşkın alıştırmalı, tarayıcıda kod yazılan Python 3 kursu. Video kurslardan farkı bir denetleyicinin çözümünü anında doğrulaması.</summary>
+  <content type="html">&lt;p&gt;Yüzü aşkın alıştırmalı, tarayıcıda kod yazılan Python 3 kursu. Video kurslardan farkı bir denetleyicinin çözümünü anında doğrulaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://snakify.org/en/&quot;&gt;https://snakify.org/en/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Code Review</title>
-  <link href="https://github.com/joho/awesome-code-review"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#github-com-joho-awesome-code-review" rel="alternate" type="text/html"/>
   <id>https://github.com/joho/awesome-code-review</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Kod inceleme pratiği için kaynak listesi. Araç listelerinden farkı yalnız inceleme araçlarını değil, inceleme kültürü üzerine makale ve kılavuzları da toplaması.</summary>
+  <content type="html">&lt;p&gt;Kod inceleme pratiği için kaynak listesi. Araç listelerinden farkı yalnız inceleme araçlarını değil, inceleme kültürü üzerine makale ve kılavuzları da toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/joho/awesome-code-review&quot;&gt;https://github.com/joho/awesome-code-review&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Beecrowd</title>
-  <link href="https://www.beecrowd.com.br/judge/en/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#beecrowd-com-br-judge-en" rel="alternate" type="text/html"/>
   <id>https://www.beecrowd.com.br/judge/en/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Programlama, matematik ve SQL problemlerini çözüp otomatik değerlendiren yargıç (online judge); eski adı URI Online Judge. LeetCode’dan farkı mülakat değil öğrenme odaklı olması ve başlangıç seviyesi problemlerinin bolluğu.</summary>
+  <content type="html">&lt;p&gt;Programlama, matematik ve SQL problemlerini çözüp otomatik değerlendiren yargıç (online judge); eski adı URI Online Judge. LeetCode’dan farkı mülakat değil öğrenme odaklı olması ve başlangıç seviyesi problemlerinin bolluğu.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.beecrowd.com.br/judge/en/&quot;&gt;https://www.beecrowd.com.br/judge/en/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Code Golf (Stack Exchange)</title>
-  <link href="https://codegolf.stackexchange.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#codegolf-stackexchange-com" rel="alternate" type="text/html"/>
   <id>https://codegolf.stackexchange.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Bir problemi mümkün olan en kısa kodla çözme yarışması topluluğu. Algoritma sitelerinden farkı ölçütün hız ya da doğruluk değil kod uzunluğu olması; dillerin ne kadar esnetilebileceğini gösteriyor.</summary>
+  <content type="html">&lt;p&gt;Bir problemi mümkün olan en kısa kodla çözme yarışması topluluğu. Algoritma sitelerinden farkı ölçütün hız ya da doğruluk değil kod uzunluğu olması; dillerin ne kadar esnetilebileceğini gösteriyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://codegolf.stackexchange.com/&quot;&gt;https://codegolf.stackexchange.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CodePen Challenges</title>
-  <link href="https://codepen.io/challenges"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#codepen-io-challenges" rel="alternate" type="text/html"/>
   <id>https://codepen.io/challenges</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Gömülü editörle ön yüz (HTML/CSS/JS) meydan okumaları; her dönem yeni bir tema veriliyor. Algoritma sitelerinden farkı sonucun görsel olması: doğru cevap değil, yaratıcı bir çözüm aranıyor.</summary>
+  <content type="html">&lt;p&gt;Gömülü editörle ön yüz (HTML/CSS/JS) meydan okumaları; her dönem yeni bir tema veriliyor. Algoritma sitelerinden farkı sonucun görsel olması: doğru cevap değil, yaratıcı bir çözüm aranıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://codepen.io/challenges&quot;&gt;https://codepen.io/challenges&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Daily Coding Problem</title>
-  <link href="https://www.dailycodingproblem.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#dailycodingproblem-com" rel="alternate" type="text/html"/>
   <id>https://www.dailycodingproblem.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Her gün e-postayla bir kodlama mülakat sorusu gönderen servis. Soru platformlarından farkı gelen kutusuna düşmesi: amaç alışkanlık kurdurmak; ayrıntılı çözümler ücretli.</summary>
+  <content type="html">&lt;p&gt;Her gün e-postayla bir kodlama mülakat sorusu gönderen servis. Soru platformlarından farkı gelen kutusuna düşmesi: amaç alışkanlık kurdurmak; ayrıntılı çözümler ücretli.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.dailycodingproblem.com/&quot;&gt;https://www.dailycodingproblem.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>devChallenges.io</title>
-  <link href="https://devchallenges.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#devchallenges-io" rel="alternate" type="text/html"/>
   <id>https://devchallenges.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Gerçekçi tasarım ve gereksinimlerle web projeleri kurduran meydan okuma sitesi. Rastgele projelerden farkı çözümleri topluluğun değerlendirmesi.</summary>
+  <content type="html">&lt;p&gt;Gerçekçi tasarım ve gereksinimlerle web projeleri kurduran meydan okuma sitesi. Rastgele projelerden farkı çözümleri topluluğun değerlendirmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://devchallenges.io/&quot;&gt;https://devchallenges.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>GeeksforGeeks</title>
-  <link href="https://www.geeksforgeeks.org"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#geeksforgeeks-org" rel="alternate" type="text/html"/>
   <id>https://www.geeksforgeeks.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Algoritma, veri yapısı ve mülakat sorularının çok geniş yazı arşivi. Tek konulu sitelerden farkı neredeyse her CS konusuna çözümlü örnek bulundurması.</summary>
+  <content type="html">&lt;p&gt;Algoritma, veri yapısı ve mülakat sorularının çok geniş yazı arşivi. Tek konulu sitelerden farkı neredeyse her CS konusuna çözümlü örnek bulundurması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.geeksforgeeks.org&quot;&gt;https://www.geeksforgeeks.org&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>RealWorld</title>
-  <link href="https://realworld.how"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#realworld-how" rel="alternate" type="text/html"/>
   <id>https://realworld.how</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Aynı gerçekçi uygulamayı (Conduit) farklı ön yüz ve arka uç yığınlarında kuran örnek proje şartnamesi.</summary>
+  <content type="html">&lt;p&gt;Aynı gerçekçi uygulamayı (Conduit) farklı ön yüz ve arka uç yığınlarında kuran örnek proje şartnamesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://realworld.how&quot;&gt;https://realworld.how&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Rosetta Code</title>
-  <link href="https://rosettacode.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#rosettacode-org" rel="alternate" type="text/html"/>
   <id>https://rosettacode.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Aynı küçük problemi yüzlerce dilde çözülmüş hâlde gösteren wiki. Tek dilli örneklerden farkı bir görevin dillerde nasıl farklılaştığını yan yana göstermesi.</summary>
+  <content type="html">&lt;p&gt;Aynı küçük problemi yüzlerce dilde çözülmüş hâlde gösteren wiki. Tek dilli örneklerden farkı bir görevin dillerde nasıl farklılaştığını yan yana göstermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://rosettacode.org/&quot;&gt;https://rosettacode.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>TodoMVC</title>
-  <link href="https://todomvc.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#todomvc-com" rel="alternate" type="text/html"/>
   <id>https://todomvc.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Aynı yapılacaklar uygulamasını onlarca JavaScript çatısında gösteriyor. Çatıların kendi demolarından farkı işlevin sabit tutulması: yalnız yaklaşım değiştiği için çatıları yan yana karşılaştırabiliyorsun.</summary>
+  <content type="html">&lt;p&gt;Aynı yapılacaklar uygulamasını onlarca JavaScript çatısında gösteriyor. Çatıların kendi demolarından farkı işlevin sabit tutulması: yalnız yaklaşım değiştiği için çatıları yan yana karşılaştırabiliyorsun.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://todomvc.com&quot;&gt;https://todomvc.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>TopCoder Arena</title>
-  <link href="https://arena.topcoder.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#arena-topcoder-com" rel="alternate" type="text/html"/>
   <id>https://arena.topcoder.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Zamanlı algoritma yarışmalarının klasik arenası (SRM). Codeforces’tan farkı SRM biçimi: kodlama aşamasından sonra gelen meydan okuma (challenge) aşamasında başkalarının koduna hatalı girdi vererek puan kazanıyorsun.</summary>
+  <content type="html">&lt;p&gt;Zamanlı algoritma yarışmalarının klasik arenası (SRM). Codeforces’tan farkı SRM biçimi: kodlama aşamasından sonra gelen meydan okuma (challenge) aşamasında başkalarının koduna hatalı girdi vererek puan kazanıyorsun.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://arena.topcoder.com/&quot;&gt;https://arena.topcoder.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>UVa Online Judge</title>
-  <link href="https://onlinejudge.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#onlinejudge-org" rel="alternate" type="text/html"/>
   <id>https://onlinejudge.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Yüzlerce yarışma problemini otomatik değerlendiren klasik çevrimiçi yargıç. Yeni platformlardan farkı Competitive Programming (Halim) kitabının problem listelerinin dayandığı arşiv olması.</summary>
+  <content type="html">&lt;p&gt;Yüzlerce yarışma problemini otomatik değerlendiren klasik çevrimiçi yargıç. Yeni platformlardan farkı Competitive Programming (Halim) kitabının problem listelerinin dayandığı arşiv olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://onlinejudge.org/&quot;&gt;https://onlinejudge.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Python Tutor</title>
-  <link href="https://pythontutor.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#pythontutor-com" rel="alternate" type="text/html"/>
   <id>https://pythontutor.com/</id>
   <updated>2026-08-19T23:33:57Z</updated>
-  <summary>Kodu satır satır çalıştırıp yığın çerçevelerini ve heap’teki nesneleri çiziyor. Klasik hata ayıklayıcılardan farkı belleği görselleştirmesi: referans, kapsam ve değişebilir varsayılan argüman hatalarını anlatmakta eşi yok.</summary>
+  <content type="html">&lt;p&gt;Kodu satır satır çalıştırıp yığın çerçevelerini ve heap’teki nesneleri çiziyor. Klasik hata ayıklayıcılardan farkı belleği görselleştirmesi: referans, kapsam ve değişebilir varsayılan argüman hatalarını anlatmakta eşi yok.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://pythontutor.com/&quot;&gt;https://pythontutor.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>AlgoDS</title>
-  <link href="https://github.com/sherxon/AlgoDS"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#github-com-sherxon-algods" rel="alternate" type="text/html"/>
   <id>https://github.com/sherxon/AlgoDS</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Algoritma ve veri yapılarının Java uygulamaları. Ders kitaplarındaki sözde koddan farkı her birinin okunabilir biçimde yazılmış, testleriyle çalışan gerçek kod olması.</summary>
+  <content type="html">&lt;p&gt;Algoritma ve veri yapılarının Java uygulamaları. Ders kitaplarındaki sözde koddan farkı her birinin okunabilir biçimde yazılmış, testleriyle çalışan gerçek kod olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/sherxon/AlgoDS&quot;&gt;https://github.com/sherxon/AlgoDS&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Algorithm Design Canvas</title>
-  <link href="https://www.hiredintech.com/algorithm-design"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#hiredintech-com-algorithm-design" rel="alternate" type="text/html"/>
   <id>https://www.hiredintech.com/algorithm-design</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Mülakatta algoritma problemine yaklaşmak için adımlı bir çerçeve: kısıtlar, örnekler, kaba kuvvet, iyileştirme, test. Panik yerine yöntem sunuyor.</summary>
+  <content type="html">&lt;p&gt;Mülakatta algoritma problemine yaklaşmak için adımlı bir çerçeve: kısıtlar, örnekler, kaba kuvvet, iyileştirme, test. Panik yerine yöntem sunuyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.hiredintech.com/algorithm-design&quot;&gt;https://www.hiredintech.com/algorithm-design&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>AtCoder</title>
-  <link href="https://atcoder.jp/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#atcoder-jp" rel="alternate" type="text/html"/>
   <id>https://atcoder.jp/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Japonya merkezli yarışma platformu; başlangıç seviyesi turnuvaları (ABC) yeni başlayanlar için Codeforces’tan daha ulaşılabilir.</summary>
+  <content type="html">&lt;p&gt;Japonya merkezli yarışma platformu; başlangıç seviyesi turnuvaları (ABC) yeni başlayanlar için Codeforces’tan daha ulaşılabilir.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://atcoder.jp/&quot;&gt;https://atcoder.jp/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Big-O Cheat Sheet</title>
-  <link href="https://bigocheatsheet.com/#"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#bigocheatsheet-com" rel="alternate" type="text/html"/>
   <id>https://bigocheatsheet.com/#</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Veri yapıları ve sıralama algoritmalarının zaman ve alan karmaşıklıklarını tek tabloda renk kodlu gösteriyor. Ders kitabından farkı her şeyin tek bakışta görülmesi: mülakat öncesi son bakış için.</summary>
+  <content type="html">&lt;p&gt;Veri yapıları ve sıralama algoritmalarının zaman ve alan karmaşıklıklarını tek tabloda renk kodlu gösteriyor. Ders kitabından farkı her şeyin tek bakışta görülmesi: mülakat öncesi son bakış için.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://bigocheatsheet.com/#&quot;&gt;https://bigocheatsheet.com/#&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Big-O Yanılgıları</title>
-  <link href="https://ssp.impulsetrain.com/big-o.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#ssp-impulsetrain-com-big-o-html" rel="alternate" type="text/html"/>
   <id>https://ssp.impulsetrain.com/big-o.html</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Büyük-O gösterimi üzerine yaygın yanlış anlamaları düzelten yazı. Standart anlatımlardan farkı, en kötü durum ile ortalama durumun karıştırılması gibi ince hataları doğrudan hedef alması.</summary>
+  <content type="html">&lt;p&gt;Büyük-O gösterimi üzerine yaygın yanlış anlamaları düzelten yazı. Standart anlatımlardan farkı, en kötü durum ile ortalama durumun karıştırılması gibi ince hataları doğrudan hedef alması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://ssp.impulsetrain.com/big-o.html&quot;&gt;https://ssp.impulsetrain.com/big-o.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Bit İşlemleri Numaraları</title>
-  <link href="https://gist.github.com/dideler/2365607"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#gist-github-com-dideler-2365607" rel="alternate" type="text/html"/>
   <id>https://gist.github.com/dideler/2365607</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Bit düzeyinde sık kullanılan numaraların derlemesi; düşük seviye optimizasyon ve mülakat sorularında karşına çıkan kalıplar.</summary>
+  <content type="html">&lt;p&gt;Bit düzeyinde sık kullanılan numaraların derlemesi; düşük seviye optimizasyon ve mülakat sorularında karşına çıkan kalıplar.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://gist.github.com/dideler/2365607&quot;&gt;https://gist.github.com/dideler/2365607&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CodeAbbey</title>
-  <link href="https://www.codeabbey.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#codeabbey-com" rel="alternate" type="text/html"/>
   <id>https://www.codeabbey.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>En kolaydan başlayıp kademeli zorlaşan problem dizisi; mutlak sıfırdan başlayanlar için yarışma platformlarından çok daha nazik bir eğri.</summary>
+  <content type="html">&lt;p&gt;En kolaydan başlayıp kademeli zorlaşan problem dizisi; mutlak sıfırdan başlayanlar için yarışma platformlarından çok daha nazik bir eğri.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.codeabbey.com&quot;&gt;https://www.codeabbey.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CodeChef</title>
-  <link href="https://www.codechef.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#codechef-com" rel="alternate" type="text/html"/>
   <id>https://www.codechef.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Düzenli yarışmalar düzenleyen algoritma platformu; sorular zorluk seviyesine göre etiketli ve editöryal çözümleri yayımlanıyor. Codeforces’tan farkı başlangıç seviyesine yönelik öğrenme yolları ve pratik bölümleri sunması.</summary>
+  <content type="html">&lt;p&gt;Düzenli yarışmalar düzenleyen algoritma platformu; sorular zorluk seviyesine göre etiketli ve editöryal çözümleri yayımlanıyor. Codeforces’tan farkı başlangıç seviyesine yönelik öğrenme yolları ve pratik bölümleri sunması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.codechef.com&quot;&gt;https://www.codechef.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Codeforces</title>
-  <link href="https://codeforces.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#codeforces-com" rel="alternate" type="text/html"/>
   <id>https://codeforces.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Yarışmacı programlamanın en yoğun platformu; düzenli turnuvalar ve derecelendirme sistemi. Sorular LeetCode’dan zor ve matematik ağırlığı yüksek.</summary>
+  <content type="html">&lt;p&gt;Yarışmacı programlamanın en yoğun platformu; düzenli turnuvalar ve derecelendirme sistemi. Sorular LeetCode’dan zor ve matematik ağırlığı yüksek.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://codeforces.com&quot;&gt;https://codeforces.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CodeGym</title>
-  <link href="https://codegym.cc/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#codegym-cc" rel="alternate" type="text/html"/>
   <id>https://codegym.cc/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>1200 pratik görevle Java öğreten, uygulama ağırlıklı kurs; her çözüm otomatik denetleniyor. Video kurslardan farkı teoriden çok görev: konuyu kod yazarak ilerletiyorsun.</summary>
+  <content type="html">&lt;p&gt;1200 pratik görevle Java öğreten, uygulama ağırlıklı kurs; her çözüm otomatik denetleniyor. Video kurslardan farkı teoriden çok görev: konuyu kod yazarak ilerletiyorsun.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://codegym.cc/&quot;&gt;https://codegym.cc/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Coderbyte</title>
-  <link href="https://coderbyte.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#coderbyte-com" rel="alternate" type="text/html"/>
   <id>https://coderbyte.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Mülakat sorusu havuzu ve değerlendirme aracı. LeetCode’dan farkı çözümlerin video anlatımı ve şirketlerin aday değerlendirmesinde kullandığı sınav aracını da barındırması.</summary>
+  <content type="html">&lt;p&gt;Mülakat sorusu havuzu ve değerlendirme aracı. LeetCode’dan farkı çözümlerin video anlatımı ve şirketlerin aday değerlendirmesinde kullandığı sınav aracını da barındırması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://coderbyte.com/&quot;&gt;https://coderbyte.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CodeSignal</title>
-  <link href="https://app.codesignal.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#app-codesignal-com" rel="alternate" type="text/html"/>
   <id>https://app.codesignal.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Beceri değerlendirmesi ve mülakat platformu; standartlaştırılmış bir puan üretiyor ve bu puanı birden çok şirkete gönderebiliyorsun. Her şirkete ayrı sınav girmekten farkı bu tek seferlik değerlendirme.</summary>
+  <content type="html">&lt;p&gt;Beceri değerlendirmesi ve mülakat platformu; standartlaştırılmış bir puan üretiyor ve bu puanı birden çok şirkete gönderebiliyorsun. Her şirkete ayrı sınav girmekten farkı bu tek seferlik değerlendirme.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://app.codesignal.com&quot;&gt;https://app.codesignal.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Codility</title>
-  <link href="https://app.codility.com/programmers/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#app-codility-com-programmers" rel="alternate" type="text/html"/>
   <id>https://app.codility.com/programmers/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Şirketlerin teknik eleme için kullandığı değerlendirme platformu; adaylar için açık alıştırma bölümü var. Diğer soru sitelerinden farkı gerçek eleme sorularının biçimini birebir taşıması — sınavdan önce sınav ortamını görüyorsun.</summary>
+  <content type="html">&lt;p&gt;Şirketlerin teknik eleme için kullandığı değerlendirme platformu; adaylar için açık alıştırma bölümü var. Diğer soru sitelerinden farkı gerçek eleme sorularının biçimini birebir taşıması — sınavdan önce sınav ortamını görüyorsun.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://app.codility.com/programmers/&quot;&gt;https://app.codility.com/programmers/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CodinGame</title>
-  <link href="https://www.codingame.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#codingame-com" rel="alternate" type="text/html"/>
   <id>https://www.codingame.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Programlama bulmacalarını oyun temasıyla, kodun sonucunu bir oyun sahnesinde göstererek çözdüren platform. Kuru problem setlerinden farkı çözümünü görsel olarak canlandırması.</summary>
+  <content type="html">&lt;p&gt;Programlama bulmacalarını oyun temasıyla, kodun sonucunu bir oyun sahnesinde göstererek çözdüren platform. Kuru problem setlerinden farkı çözümünü görsel olarak canlandırması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.codingame.com/&quot;&gt;https://www.codingame.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Competitive Programmer’s Handbook</title>
-  <link href="https://cses.fi/book.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#cses-fi-book-html" rel="alternate" type="text/html"/>
   <id>https://cses.fi/book.html</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Yarışmacı programlama için ücretsiz el kitabı; temel algoritmalardan ileri tekniklere. Akademik algoritma kitaplarından farkı yarışma odaklı olması — ispat değil, uygulanabilir şablon veriyor.</summary>
+  <content type="html">&lt;p&gt;Yarışmacı programlama için ücretsiz el kitabı; temel algoritmalardan ileri tekniklere. Akademik algoritma kitaplarından farkı yarışma odaklı olması — ispat değil, uygulanabilir şablon veriyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cses.fi/book.html&quot;&gt;https://cses.fi/book.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CryptoHack</title>
-  <link href="https://cryptohack.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#cryptohack-org" rel="alternate" type="text/html"/>
   <id>https://cryptohack.org/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Kriptografiyi kırarak öğreten platform; her seviye gerçek bir zafiyeti sömürdürüyor. Teorik kriptografi dersinden farkı saldırgan gözüyle öğretmesi — onun uygulamalı karşılığı.</summary>
+  <content type="html">&lt;p&gt;Kriptografiyi kırarak öğreten platform; her seviye gerçek bir zafiyeti sömürdürüyor. Teorik kriptografi dersinden farkı saldırgan gözüyle öğretmesi — onun uygulamalı karşılığı.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cryptohack.org/&quot;&gt;https://cryptohack.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>freeCodeCamp</title>
-  <link href="https://www.freecodecamp.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#freecodecamp-com" rel="alternate" type="text/html"/>
   <id>https://www.freecodecamp.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Tarayıcı içinde alıştırmalı, uçtan uca ücretsiz müfredat; sertifikaları da ücretsiz. Bitirme projeleri gerçek uygulama yazdırdığı için sadece alıştırmada kalmıyor.</summary>
+  <content type="html">&lt;p&gt;Tarayıcı içinde alıştırmalı, uçtan uca ücretsiz müfredat; sertifikaları da ücretsiz. Bitirme projeleri gerçek uygulama yazdırdığı için sadece alıştırmada kalmıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.freecodecamp.com&quot;&gt;https://www.freecodecamp.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Google Interview Warmup</title>
-  <link href="https://grow.google/certificates/interview-warmup/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#grow-google-certificates-interview-warmup" rel="alternate" type="text/html"/>
   <id>https://grow.google/certificates/interview-warmup/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Mülakat sorularına sesli yanıt verip yapay zekâ geri bildirimi aldığın pratik aracı. Kodlama mülakatı sitelerinden farkı davranışsal ve alan sorularına odaklanması; yanıtında geçen anahtar terimleri işaretliyor.</summary>
+  <content type="html">&lt;p&gt;Mülakat sorularına sesli yanıt verip yapay zekâ geri bildirimi aldığın pratik aracı. Kodlama mülakatı sitelerinden farkı davranışsal ve alan sorularına odaklanması; yanıtında geçen anahtar terimleri işaretliyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grow.google/certificates/interview-warmup/&quot;&gt;https://grow.google/certificates/interview-warmup/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>HackerEarth</title>
-  <link href="https://www.hackerearth.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#hackerearth-com" rel="alternate" type="text/html"/>
   <id>https://www.hackerearth.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Yarışma ve işe alım değerlendirmesini birleştiren platform; şirketler teknik ön elemeyi burada yapıyor. HackerRank’ten farkı hackathon düzenleme tarafının güçlü olması.</summary>
+  <content type="html">&lt;p&gt;Yarışma ve işe alım değerlendirmesini birleştiren platform; şirketler teknik ön elemeyi burada yapıyor. HackerRank’ten farkı hackathon düzenleme tarafının güçlü olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.hackerearth.com&quot;&gt;https://www.hackerearth.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>HiredInTech</title>
-  <link href="https://www.hiredintech.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#hiredintech-com" rel="alternate" type="text/html"/>
   <id>https://www.hiredintech.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Sistem tasarımı ve algoritma mülakatlarına yönelik yapılı kurslar. Soru havuzlarından farkı soru değil yöntem öğretmesi: problemi adım adım ele alma çerçevesi; içerik eski ama çerçeve hâlâ geçerli.</summary>
+  <content type="html">&lt;p&gt;Sistem tasarımı ve algoritma mülakatlarına yönelik yapılı kurslar. Soru havuzlarından farkı soru değil yöntem öğretmesi: problemi adım adım ele alma çerçevesi; içerik eski ama çerçeve hâlâ geçerli.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.hiredintech.com/&quot;&gt;https://www.hiredintech.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>InterviewBit</title>
-  <link href="https://www.interviewbit.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/pratik.html#interviewbit-com" rel="alternate" type="text/html"/>
   <id>https://www.interviewbit.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Mülakat hazırlığını oyunlaştıran platform. LeetCode’un serbest soru havuzundan farkı konuların bağımlılık sırasına dizilmesi: her konu bir öncekinin üstüne bina ediliyor.</summary>
+  <content type="html">&lt;p&gt;Mülakat hazırlığını oyunlaştıran platform. LeetCode’un serbest soru havuzundan farkı konuların bağımlılık sırasına dizilmesi: her konu bir öncekinin üstüne bina ediliyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.interviewbit.com&quot;&gt;https://www.interviewbit.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

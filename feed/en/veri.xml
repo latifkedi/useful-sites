@@ -2,288 +2,290 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title>Data Science &amp; ML — Useful Sites</title>
 <subtitle>A hand-curated, annotated link directory across ten areas, from software and AI to security, economics and architecture. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/en/veri.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/en/veri.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/veri.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/veri.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/veri.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>Awesome GIS</title>
-  <link href="https://github.com/sshuair/awesome-gis"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#github-com-sshuair-awesome-gis" rel="alternate" type="text/html"/>
   <id>https://github.com/sshuair/awesome-gis</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A list for geographic information systems: cartographic tools, geoanalysis libraries, data sources and communities. Unlike Esri-centred lists it is open-source and platform-neutral, with desktop GIS, web mapping libraries and open data in one place.</summary>
+  <content type="html">&lt;p&gt;A list for geographic information systems: cartographic tools, geoanalysis libraries, data sources and communities. Unlike Esri-centred lists it is open-source and platform-neutral, with desktop GIS, web mapping libraries and open data in one place.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/sshuair/awesome-gis&quot;&gt;https://github.com/sshuair/awesome-gis&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>kepler.gl</title>
-  <link href="https://kepler.gl/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#kepler-gl" rel="alternate" type="text/html"/>
   <id>https://kepler.gl/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>An open-source tool, born at Uber, for visualising large location datasets (millions of points, trips, grids) layer by layer in the browser. Unlike QGIS it aims at exploration and presentation rather than analysis: drop in a CSV or GeoJSON and you have a map with a time slider in minutes.</summary>
+  <content type="html">&lt;p&gt;An open-source tool, born at Uber, for visualising large location datasets (millions of points, trips, grids) layer by layer in the browser. Unlike QGIS it aims at exploration and presentation rather than analysis: drop in a CSV or GeoJSON and you have a map with a time slider in minutes.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://kepler.gl/&quot;&gt;https://kepler.gl/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Map of Reddit</title>
-  <link href="https://anvaka.github.io/map-of-reddit/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#anvaka-github-io-map-of-reddit" rel="alternate" type="text/html"/>
   <id>https://anvaka.github.io/map-of-reddit/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Interactive WebGL map clustering subreddits by shared commenters (2020-21 comments). Unlike subreddit lists, it shows how communities relate spatially.</summary>
+  <content type="html">&lt;p&gt;Interactive WebGL map clustering subreddits by shared commenters (2020-21 comments). Unlike subreddit lists, it shows how communities relate spatially.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://anvaka.github.io/map-of-reddit/&quot;&gt;https://anvaka.github.io/map-of-reddit/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OpenDigger</title>
-  <link href="https://open-digger.cn/en/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#open-digger-cn-en" rel="alternate" type="text/html"/>
   <id>https://open-digger.cn/en/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>X-lab's analysis platform publishing open-source health metrics derived from GitHub activity (OpenRank, activity, contributors). Unlike the raw GitHub API, the metrics come ready-made as open time-series data.</summary>
+  <content type="html">&lt;p&gt;X-lab's analysis platform publishing open-source health metrics derived from GitHub activity (OpenRank, activity, contributors). Unlike the raw GitHub API, the metrics come ready-made as open time-series data.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://open-digger.cn/en/&quot;&gt;https://open-digger.cn/en/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>overpass turbo</title>
-  <link href="https://overpass-turbo.eu/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#overpass-turbo-eu" rel="alternate" type="text/html"/>
   <id>https://overpass-turbo.eu/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A web front end for querying OpenStreetMap data through the Overpass API; it shows the result on a map, downloads it as GeoJSON and has a wizard for those who do not write queries. Unlike downloading a full OSM extract it fetches only the features you ask for, such as every pharmacy in a city.</summary>
+  <content type="html">&lt;p&gt;A web front end for querying OpenStreetMap data through the Overpass API; it shows the result on a map, downloads it as GeoJSON and has a wizard for those who do not write queries. Unlike downloading a full OSM extract it fetches only the features you ask for, such as every pharmacy in a city.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://overpass-turbo.eu/&quot;&gt;https://overpass-turbo.eu/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>QGIS</title>
-  <link href="https://qgis.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#qgis-org" rel="alternate" type="text/html"/>
   <id>https://qgis.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>An open-source desktop GIS for Windows, macOS and Linux; it reads and analyses shapefile, GeoPackage, PostGIS and raster layers and extends through plugins. Unlike ArcGIS there is no licence fee; in exchange support comes from the community and commercial partners.</summary>
+  <content type="html">&lt;p&gt;An open-source desktop GIS for Windows, macOS and Linux; it reads and analyses shapefile, GeoPackage, PostGIS and raster layers and extends through plugins. Unlike ArcGIS there is no licence fee; in exchange support comes from the community and commercial partners.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://qgis.org/&quot;&gt;https://qgis.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>KDnuggets</title>
-  <link href="https://www.kdnuggets.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#kdnuggets-com" rel="alternate" type="text/html"/>
   <id>https://www.kdnuggets.com/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>A long-running data science and machine learning site: news, tutorials, jobs and polls. Unlike research-oriented sources it is a practitioner’s digest.</summary>
+  <content type="html">&lt;p&gt;A long-running data science and machine learning site: news, tutorials, jobs and polls. Unlike research-oriented sources it is a practitioner’s digest.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.kdnuggets.com/&quot;&gt;https://www.kdnuggets.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Open-Meteo</title>
-  <link href="https://open-meteo.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#open-meteo-com" rel="alternate" type="text/html"/>
   <id>https://open-meteo.com/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>A free, open-source weather API that needs no key for non-commercial use. Unlike commercial weather APIs it asks for no signup, and its data is open.</summary>
+  <content type="html">&lt;p&gt;A free, open-source weather API that needs no key for non-commercial use. Unlike commercial weather APIs it asks for no signup, and its data is open.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://open-meteo.com/&quot;&gt;https://open-meteo.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Scientific Python Lectures</title>
-  <link href="https://lectures.scientific-python.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#lectures-scientific-python-org" rel="alternate" type="text/html"/>
   <id>https://lectures.scientific-python.org/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Free lecture notes on the scientific Python stack — NumPy, SciPy, Matplotlib. Unlike single-library docs they show how the pieces fit together.</summary>
+  <content type="html">&lt;p&gt;Free lecture notes on the scientific Python stack — NumPy, SciPy, Matplotlib. Unlike single-library docs they show how the pieces fit together.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://lectures.scientific-python.org/&quot;&gt;https://lectures.scientific-python.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CIA World Factbook</title>
-  <link href="https://www.cia.gov/the-world-factbook/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#cia-gov-the-world-factbook" rel="alternate" type="text/html"/>
   <id>https://www.cia.gov/the-world-factbook/</id>
   <updated>2026-10-08T09:00:00Z</updated>
-  <summary>A reference giving geography, population, economy, government and military indicators for every country on uniform pages; public domain. Unlike Wikipedia country articles every country has the same fields in the same order, which makes comparison easy. The publisher is an intelligence agency — keep that in mind for interpretive fields.</summary>
+  <content type="html">&lt;p&gt;A reference giving geography, population, economy, government and military indicators for every country on uniform pages; public domain. Unlike Wikipedia country articles every country has the same fields in the same order, which makes comparison easy. The publisher is an intelligence agency — keep that in mind for interpretive fields.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.cia.gov/the-world-factbook/&quot;&gt;https://www.cia.gov/the-world-factbook/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Data Commons</title>
-  <link href="https://datacommons.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#datacommons-org" rel="alternate" type="text/html"/>
   <id>https://datacommons.org/</id>
   <updated>2026-10-08T09:00:00Z</updated>
-  <summary>A Google-backed project that merges statistics from the Census, WHO, the UN and dozens of other sources into one knowledge graph, queryable in natural language and through an API. Unlike single-agency portals it sets series from different sources side by side in one query. Google’s old Public Data Explorer address redirects here.</summary>
+  <content type="html">&lt;p&gt;A Google-backed project that merges statistics from the Census, WHO, the UN and dozens of other sources into one knowledge graph, queryable in natural language and through an API. Unlike single-agency portals it sets series from different sources side by side in one query. Google’s old Public Data Explorer address redirects here.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://datacommons.org/&quot;&gt;https://datacommons.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Google Cloud Public Datasets</title>
-  <link href="https://cloud.google.com/datasets"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#cloud-google-com-datasets" rel="alternate" type="text/html"/>
   <id>https://cloud.google.com/datasets</id>
   <updated>2026-10-08T09:00:00Z</updated>
-  <summary>Public datasets that live inside BigQuery: GitHub, Wikipedia, weather, the census. Unlike the AWS Open Data Registry the data comes as tables you query with SQL rather than files; within the monthly free query quota you can work without downloading.</summary>
+  <content type="html">&lt;p&gt;Public datasets that live inside BigQuery: GitHub, Wikipedia, weather, the census. Unlike the AWS Open Data Registry the data comes as tables you query with SQL rather than files; within the monthly free query quota you can work without downloading.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cloud.google.com/datasets&quot;&gt;https://cloud.google.com/datasets&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Google Trends</title>
-  <link href="https://trends.google.com/trends/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#trends-google-com-trends" rel="alternate" type="text/html"/>
   <id>https://trends.google.com/trends/</id>
   <updated>2026-10-08T09:00:00Z</updated>
-  <summary>A tool showing how search interest changes over time and place. Unlike keyword planners it gives a relative 0–100 index rather than absolute search counts; useful for gauging public interest, seasonality and rising topics.</summary>
+  <content type="html">&lt;p&gt;A tool showing how search interest changes over time and place. Unlike keyword planners it gives a relative 0–100 index rather than absolute search counts; useful for gauging public interest, seasonality and rising topics.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://trends.google.com/trends/&quot;&gt;https://trends.google.com/trends/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>NASA Earthdata</title>
-  <link href="https://www.earthdata.nasa.gov/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#earthdata-nasa-gov" rel="alternate" type="text/html"/>
   <id>https://www.earthdata.nasa.gov/</id>
   <updated>2026-10-08T09:00:00Z</updated>
-  <summary>NASA’s portal to its satellite and Earth-observation data, from rainfall and ice cover to vegetation and the atmosphere. Unlike NOAA’s ground-station records it rests on measurements taken from space; downloads need a free Earthdata account.</summary>
+  <content type="html">&lt;p&gt;NASA’s portal to its satellite and Earth-observation data, from rainfall and ice cover to vegetation and the atmosphere. Unlike NOAA’s ground-station records it rests on measurements taken from space; downloads need a free Earthdata account.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.earthdata.nasa.gov/&quot;&gt;https://www.earthdata.nasa.gov/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>NOAA NCEI</title>
-  <link href="https://www.ncei.noaa.gov/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#ncei-noaa-gov" rel="alternate" type="text/html"/>
   <id>https://www.ncei.noaa.gov/</id>
   <updated>2026-10-08T09:00:00Z</updated>
-  <summary>The US national archive of weather, climate, ocean and geophysical data, formerly NCDC. Unlike NASA Earthdata it holds decades-long series of station and observation records rather than imagery — the primary source for past weather.</summary>
+  <content type="html">&lt;p&gt;The US national archive of weather, climate, ocean and geophysical data, formerly NCDC. Unlike NASA Earthdata it holds decades-long series of station and observation records rather than imagery — the primary source for past weather.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.ncei.noaa.gov/&quot;&gt;https://www.ncei.noaa.gov/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OpenCorporates</title>
-  <link href="https://opencorporates.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#opencorporates-com" rel="alternate" type="text/html"/>
   <id>https://opencorporates.com/</id>
   <updated>2026-10-08T09:00:00Z</updated>
-  <summary>One of the largest open databases of companies, merging national company registers into one search. Unlike individual national registers it presents many jurisdictions in the same form; officer and affiliate links make it useful for investigation, while heavy API use is paid.</summary>
+  <content type="html">&lt;p&gt;One of the largest open databases of companies, merging national company registers into one search. Unlike individual national registers it presents many jurisdictions in the same form; officer and affiliate links make it useful for investigation, while heavy API use is paid.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://opencorporates.com/&quot;&gt;https://opencorporates.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>r/datasets</title>
-  <link href="https://www.reddit.com/r/datasets/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#reddit-com-r-datasets" rel="alternate" type="text/html"/>
   <id>https://www.reddit.com/r/datasets/</id>
   <updated>2026-10-08T09:00:00Z</updated>
-  <summary>A community for finding and requesting datasets. Unlike catalogue sites you can post a request when the data you want is missing and see what others have found; there is no quality control, so check the licence and source yourself.</summary>
+  <content type="html">&lt;p&gt;A community for finding and requesting datasets. Unlike catalogue sites you can post a request when the data you want is missing and see what others have found; there is no quality control, so check the licence and source yourself.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.reddit.com/r/datasets/&quot;&gt;https://www.reddit.com/r/datasets/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>UCI Machine Learning Repository</title>
-  <link href="https://archive.ics.uci.edu/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#archive-ics-uci-edu" rel="alternate" type="text/html"/>
   <id>https://archive.ics.uci.edu/</id>
   <updated>2026-10-08T09:00:00Z</updated>
-  <summary>One of the oldest archives for machine-learning research, home to classic small sets such as Iris and Adult. Unlike Kaggle it is an academic archive rather than a contest site: each set comes with its donor, field descriptions and citation, and papers use them as benchmarks.</summary>
+  <content type="html">&lt;p&gt;One of the oldest archives for machine-learning research, home to classic small sets such as Iris and Adult. Unlike Kaggle it is an academic archive rather than a contest site: each set comes with its donor, field descriptions and citation, and papers use them as benchmarks.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://archive.ics.uci.edu/&quot;&gt;https://archive.ics.uci.edu/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>UNdata</title>
-  <link href="https://data.un.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#data-un-org" rel="alternate" type="text/html"/>
   <id>https://data.un.org/</id>
   <updated>2026-10-08T09:00:00Z</updated>
-  <summary>A data service pulling the statistics of UN bodies into one search: population, agriculture, energy, trade, education. Unlike visiting each agency’s site it builds country-by-year comparison tables; for depth, the source agency’s own portal is better.</summary>
+  <content type="html">&lt;p&gt;A data service pulling the statistics of UN bodies into one search: population, agriculture, energy, trade, education. Unlike visiting each agency’s site it builds country-by-year comparison tables; for depth, the source agency’s own portal is better.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://data.un.org/&quot;&gt;https://data.un.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Uppsala Conflict Data Program</title>
-  <link href="https://ucdp.uu.se/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#ucdp-uu-se" rel="alternate" type="text/html"/>
   <id>https://ucdp.uu.se/</id>
   <updated>2026-10-08T09:00:00Z</updated>
-  <summary>Uppsala University’s data programme on armed conflict and organised violence, keeping event-level records with coordinates. Unlike news archives each event is verified against coding rules; it is a standard reference in conflict research.</summary>
+  <content type="html">&lt;p&gt;Uppsala University’s data programme on armed conflict and organised violence, keeping event-level records with coordinates. Unlike news archives each event is verified against coding rules; it is a standard reference in conflict research.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://ucdp.uu.se/&quot;&gt;https://ucdp.uu.se/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>WHO Global Health Observatory</title>
-  <link href="https://www.who.int/data/gho"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#who-int-data-gho" rel="alternate" type="text/html"/>
   <id>https://www.who.int/data/gho</id>
   <updated>2026-10-08T09:00:00Z</updated>
-  <summary>The World Health Organization’s country-level health indicators: causes of death, vaccination, health spending, risk factors. Unlike national health agencies’ figures, it puts countries on the same definitions and methods so they can be compared; the data is also available through an API.</summary>
+  <content type="html">&lt;p&gt;The World Health Organization’s country-level health indicators: causes of death, vaccination, health spending, risk factors. Unlike national health agencies’ figures, it puts countries on the same definitions and methods so they can be compared; the data is also available through an API.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.who.int/data/gho&quot;&gt;https://www.who.int/data/gho&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome ArcGIS Developer</title>
-  <link href="https://github.com/Esri/awesome-arcgis-developer"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#github-com-esri-awesome-arcgis-developer" rel="alternate" type="text/html"/>
   <id>https://github.com/Esri/awesome-arcgis-developer</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Developer resources for ArcGIS, the mapping and location-analysis platform. Unlike open-source GIS lists, it centres on the commercial Esri ecosystem, and Esri maintains it.</summary>
+  <content type="html">&lt;p&gt;Developer resources for ArcGIS, the mapping and location-analysis platform. Unlike open-source GIS lists, it centres on the commercial Esri ecosystem, and Esri maintains it.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/Esri/awesome-arcgis-developer&quot;&gt;https://github.com/Esri/awesome-arcgis-developer&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Core ML Models</title>
-  <link href="https://github.com/likedan/Awesome-CoreML-Models"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#github-com-likedan-awesome-coreml-models" rel="alternate" type="text/html"/>
   <id>https://github.com/likedan/Awesome-CoreML-Models</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of ready machine-learning models for Apple’s Core ML framework. Unlike general model hubs, every model is already in Core ML format for on-device use on iOS/macOS; part of the list is dated.</summary>
+  <content type="html">&lt;p&gt;A list of ready machine-learning models for Apple’s Core ML framework. Unlike general model hubs, every model is already in Core ML format for on-device use on iOS/macOS; part of the list is dated.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/likedan/Awesome-CoreML-Models&quot;&gt;https://github.com/likedan/Awesome-CoreML-Models&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome CSV</title>
-  <link href="https://github.com/secretGeek/awesomeCSV"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#github-com-secretgeek-awesomecsv" rel="alternate" type="text/html"/>
   <id>https://github.com/secretGeek/awesomeCSV</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of tools and resources for CSV, the tabular-data file format. Unlike strictly schema’d formats (Parquet, JSON Schema) CSV is loose, and the list gathers the command-line tools and libraries that cope with its quirks.</summary>
+  <content type="html">&lt;p&gt;A list of tools and resources for CSV, the tabular-data file format. Unlike strictly schema’d formats (Parquet, JSON Schema) CSV is loose, and the list gathers the command-line tools and libraries that cope with its quirks.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/secretGeek/awesomeCSV&quot;&gt;https://github.com/secretGeek/awesomeCSV&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Deep Learning</title>
-  <link href="https://github.com/ChristosChristofidis/awesome-deep-learning"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#github-com-christoschristofidis-awesome-deep-learning" rel="alternate" type="text/html"/>
   <id>https://github.com/ChristosChristofidis/awesome-deep-learning</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of courses, papers, frameworks and datasets for deep learning. Unlike general ML lists it focuses on neural networks and modern architectures.</summary>
+  <content type="html">&lt;p&gt;A list of courses, papers, frameworks and datasets for deep learning. Unlike general ML lists it focuses on neural networks and modern architectures.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ChristosChristofidis/awesome-deep-learning&quot;&gt;https://github.com/ChristosChristofidis/awesome-deep-learning&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Deep Learning Papers</title>
-  <link href="https://github.com/terryum/awesome-deep-learning-papers"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#github-com-terryum-awesome-deep-learning-papers" rel="alternate" type="text/html"/>
   <id>https://github.com/terryum/awesome-deep-learning-papers</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list compiling the most-cited deep-learning papers of 2012–2016; it is no longer maintained. Unlike live trackers such as Papers with Code, it offers a fixed core chosen by citation count — a historical entry point to the field’s foundations.</summary>
+  <content type="html">&lt;p&gt;A list compiling the most-cited deep-learning papers of 2012–2016; it is no longer maintained. Unlike live trackers such as Papers with Code, it offers a fixed core chosen by citation count — a historical entry point to the field’s foundations.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/terryum/awesome-deep-learning-papers&quot;&gt;https://github.com/terryum/awesome-deep-learning-papers&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome H2O</title>
-  <link href="https://github.com/h2oai/awesome-h2o"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#github-com-h2oai-awesome-h2o" rel="alternate" type="text/html"/>
   <id>https://github.com/h2oai/awesome-h2o</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list for H2O, the open-source distributed machine-learning platform. Unlike scikit-learn, it runs distributed across a cluster and has AutoML built in.</summary>
+  <content type="html">&lt;p&gt;A list for H2O, the open-source distributed machine-learning platform. Unlike scikit-learn, it runs distributed across a cluster and has AutoML built in.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/h2oai/awesome-h2o&quot;&gt;https://github.com/h2oai/awesome-h2o&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome JAX</title>
-  <link href="https://github.com/n2cholas/awesome-jax"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#github-com-n2cholas-awesome-jax" rel="alternate" type="text/html"/>
   <id>https://github.com/n2cholas/awesome-jax</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list for JAX, which offers automatic differentiation and XLA compilation. Unlike PyTorch it is functional: you apply transformations such as grad, jit and vmap to pure functions.</summary>
+  <content type="html">&lt;p&gt;A list for JAX, which offers automatic differentiation and XLA compilation. Unlike PyTorch it is functional: you apply transformations such as grad, jit and vmap to pure functions.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/n2cholas/awesome-jax&quot;&gt;https://github.com/n2cholas/awesome-jax&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome JSON</title>
-  <link href="https://github.com/burningtree/awesome-json"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#github-com-burningtree-awesome-json" rel="alternate" type="text/html"/>
   <id>https://github.com/burningtree/awesome-json</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of tools and resources for JSON, the text-based data-interchange format. Unlike a single parser, it brings together schema validators, query tools such as jq and libraries per language.</summary>
+  <content type="html">&lt;p&gt;A list of tools and resources for JSON, the text-based data-interchange format. Unlike a single parser, it brings together schema validators, query tools such as jq and libraries per language.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/burningtree/awesome-json&quot;&gt;https://github.com/burningtree/awesome-json&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Jupyter</title>
-  <link href="https://github.com/markusschanta/awesome-jupyter"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#github-com-markusschanta-awesome-jupyter" rel="alternate" type="text/html"/>
   <id>https://github.com/markusschanta/awesome-jupyter</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Jupyter notebooks, which hold code, text and charts together. Unlike the Jupyter docs, it gathers the ecosystem around it — extensions, kernels, tools that turn a notebook into an app or slides.</summary>
+  <content type="html">&lt;p&gt;A resource list for Jupyter notebooks, which hold code, text and charts together. Unlike the Jupyter docs, it gathers the ecosystem around it — extensions, kernels, tools that turn a notebook into an app or slides.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/markusschanta/awesome-jupyter&quot;&gt;https://github.com/markusschanta/awesome-jupyter&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome NLG</title>
-  <link href="https://github.com/accelerated-text/awesome-nlg"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#github-com-accelerated-text-awesome-nlg" rel="alternate" type="text/html"/>
   <id>https://github.com/accelerated-text/awesome-nlg</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list for generating text from data or dialogue (natural-language generation). Unlike general NLP lists it is about producing text rather than understanding it; much of it predates large language models.</summary>
+  <content type="html">&lt;p&gt;A list for generating text from data or dialogue (natural-language generation). Unlike general NLP lists it is about producing text rather than understanding it; much of it predates large language models.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/accelerated-text/awesome-nlg&quot;&gt;https://github.com/accelerated-text/awesome-nlg&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome OpenStreetMap</title>
-  <link href="https://github.com/osmlab/awesome-openstreetmap"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#github-com-osmlab-awesome-openstreetmap" rel="alternate" type="text/html"/>
   <id>https://github.com/osmlab/awesome-openstreetmap</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of tools and resources for OpenStreetMap, the open map-data project. Unlike the Google Maps API the data is openly licensed (ODbL) and fully downloadable; the list gathers editors, processors and renderers.</summary>
+  <content type="html">&lt;p&gt;A list of tools and resources for OpenStreetMap, the open map-data project. Unlike the Google Maps API the data is openly licensed (ODbL) and fully downloadable; the list gathers editors, processors and renderers.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/osmlab/awesome-openstreetmap&quot;&gt;https://github.com/osmlab/awesome-openstreetmap&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Public Datasets</title>
-  <link href="https://github.com/awesomedata/awesome-public-datasets"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#github-com-awesomedata-awesome-public-datasets" rel="alternate" type="text/html"/>
   <id>https://github.com/awesomedata/awesome-public-datasets</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of public datasets organised by topic. Unlike random data search it points to clean, usable sources grouped by domain.</summary>
+  <content type="html">&lt;p&gt;A list of public datasets organised by topic. Unlike random data search it points to clean, usable sources grouped by domain.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/awesomedata/awesome-public-datasets&quot;&gt;https://github.com/awesomedata/awesome-public-datasets&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Python Data Science</title>
-  <link href="https://github.com/krzjoa/awesome-python-data-science"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#github-com-krzjoa-awesome-python-data-science" rel="alternate" type="text/html"/>
   <id>https://github.com/krzjoa/awesome-python-data-science</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list organising Python data-science libraries by workflow (data, models, visualisation). Unlike a PyPI search it shows curated tools for each stage.</summary>
+  <content type="html">&lt;p&gt;A list organising Python data-science libraries by workflow (data, models, visualisation). Unlike a PyPI search it shows curated tools for each stage.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/krzjoa/awesome-python-data-science&quot;&gt;https://github.com/krzjoa/awesome-python-data-science&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Question Answering</title>
-  <link href="https://github.com/seriousran/awesome-qa"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#github-com-seriousran-awesome-qa" rel="alternate" type="text/html"/>
   <id>https://github.com/seriousran/awesome-qa</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list for asking and answering questions in natural language (QA). Unlike general NLP lists, it focuses only on question answering — datasets, models, papers.</summary>
+  <content type="html">&lt;p&gt;A list for asking and answering questions in natural language (QA). Unlike general NLP lists, it focuses only on question answering — datasets, models, papers.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/seriousran/awesome-qa&quot;&gt;https://github.com/seriousran/awesome-qa&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome R</title>
-  <link href="https://github.com/qinwf/awesome-R"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#github-com-qinwf-awesome-r" rel="alternate" type="text/html"/>
   <id>https://github.com/qinwf/awesome-R</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of packages and resources for R, the statistics language. Unlike CRAN it foregrounds packages chosen by task (visualisation, machine learning).</summary>
+  <content type="html">&lt;p&gt;A list of packages and resources for R, the statistics language. Unlike CRAN it foregrounds packages chosen by task (visualisation, machine learning).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/qinwf/awesome-R&quot;&gt;https://github.com/qinwf/awesome-R&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome SE for ML</title>
-  <link href="https://github.com/SE-ML/awesome-seml"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#github-com-se-ml-awesome-seml" rel="alternate" type="text/html"/>
   <id>https://github.com/SE-ML/awesome-seml</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Resources for machine-learning engineering from experiment to production. Unlike model lists it looks at the “making ML a product” side — testing, deployment, monitoring.</summary>
+  <content type="html">&lt;p&gt;Resources for machine-learning engineering from experiment to production. Unlike model lists it looks at the “making ML a product” side — testing, deployment, monitoring.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/SE-ML/awesome-seml&quot;&gt;https://github.com/SE-ML/awesome-seml&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome TensorFlow</title>
-  <link href="https://github.com/jtoy/awesome-tensorflow"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#github-com-jtoy-awesome-tensorflow" rel="alternate" type="text/html"/>
   <id>https://github.com/jtoy/awesome-tensorflow</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of resources and models for TensorFlow, the machine-intelligence library. Unlike the official docs, it gathers community tutorials, models and projects; part of it dates from the TensorFlow 1 era.</summary>
+  <content type="html">&lt;p&gt;A list of resources and models for TensorFlow, the machine-intelligence library. Unlike the official docs, it gathers community tutorials, models and projects; part of it dates from the TensorFlow 1 era.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/jtoy/awesome-tensorflow&quot;&gt;https://github.com/jtoy/awesome-tensorflow&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>AWS Open Data Registry</title>
-  <link href="https://registry.opendata.aws"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#registry-opendata-aws" rel="alternate" type="text/html"/>
   <id>https://registry.opendata.aws</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A registry of large public datasets hosted on AWS. Unlike portals such as Data.gov the data sits directly in S3, so you can process it inside AWS without downloading.</summary>
+  <content type="html">&lt;p&gt;A registry of large public datasets hosted on AWS. Unlike portals such as Data.gov the data sits directly in S3, so you can process it inside AWS without downloading.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://registry.opendata.aws&quot;&gt;https://registry.opendata.aws&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>data.europa.eu</title>
-  <link href="https://data.europa.eu"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/veri.html#data-europa-eu" rel="alternate" type="text/html"/>
   <id>https://data.europa.eu</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The European Union’s official open-data portal. Unlike national portals, it merges member states’ datasets into one search and also includes data from the EU institutions themselves.</summary>
+  <content type="html">&lt;p&gt;The European Union’s official open-data portal. Unlike national portals, it merges member states’ datasets into one search and also includes data from the EU institutions themselves.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://data.europa.eu&quot;&gt;https://data.europa.eu&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

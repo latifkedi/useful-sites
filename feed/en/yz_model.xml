@@ -2,253 +2,255 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title>AI · Models &amp; Assistants — Useful Sites</title>
 <subtitle>A hand-curated, annotated link directory across ten areas, from software and AI to security, economics and architecture. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/en/yz_model.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/yz_model.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/yz_model.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>Awesome ChatGPT</title>
-  <link href="https://github.com/sindresorhus/awesome-chatgpt"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#github-com-sindresorhus-awesome-chatgpt" rel="alternate" type="text/html"/>
   <id>https://github.com/sindresorhus/awesome-chatgpt</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of tools, plugins and resources for ChatGPT, OpenAI’s chat model. Unlike general LLM lists, it gathers only apps, browser extensions and clients built around ChatGPT.</summary>
+  <content type="html">&lt;p&gt;A list of tools, plugins and resources for ChatGPT, OpenAI’s chat model. Unlike general LLM lists, it gathers only apps, browser extensions and clients built around ChatGPT.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/sindresorhus/awesome-chatgpt&quot;&gt;https://github.com/sindresorhus/awesome-chatgpt&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Can I Vibecode It?</title>
-  <link href="https://canivibecodeit.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#canivibecodeit-com" rel="alternate" type="text/html"/>
   <id>https://canivibecodeit.com/</id>
   <updated>2026-08-19T23:06:49Z</updated>
-  <summary>A table testing whether AI can rebuild a thousand-odd apps, with the verdict published. Unlike abstract benchmarks it targets real apps and hands you the exact prompt used, so the result is reproducible.</summary>
+  <content type="html">&lt;p&gt;A table testing whether AI can rebuild a thousand-odd apps, with the verdict published. Unlike abstract benchmarks it targets real apps and hands you the exact prompt used, so the result is reproducible.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://canivibecodeit.com/&quot;&gt;https://canivibecodeit.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Anthropic Claude</title>
-  <link href="https://www.anthropic.com/claude"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#anthropic-com-claude" rel="alternate" type="text/html"/>
   <id>https://www.anthropic.com/claude</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Claude model versions, context limits and token pricing. Unlike the chat app it takes the developer’s view, laying out cost-reducing features such as prompt caching and the batch API side by side.</summary>
+  <content type="html">&lt;p&gt;Claude model versions, context limits and token pricing. Unlike the chat app it takes the developer’s view, laying out cost-reducing features such as prompt caching and the batch API side by side.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.anthropic.com/claude&quot;&gt;https://www.anthropic.com/claude&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Artificial Analysis</title>
-  <link href="https://artificialanalysis.ai"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#artificialanalysis-ai" rel="alternate" type="text/html"/>
   <id>https://artificialanalysis.ai</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Independent charts comparing LLMs by speed, price and quality.</summary>
+  <content type="html">&lt;p&gt;Independent charts comparing LLMs by speed, price and quality.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://artificialanalysis.ai&quot;&gt;https://artificialanalysis.ai&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Cohere</title>
-  <link href="https://cohere.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#cohere-com" rel="alternate" type="text/html"/>
   <id>https://cohere.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Rather than compete on chat, it sits on the retrieval side: its Rerank model reorders candidates returned by vector search and visibly lifts RAG precision.</summary>
+  <content type="html">&lt;p&gt;Rather than compete on chat, it sits on the retrieval side: its Rerank model reorders candidates returned by vector search and visibly lifts RAG precision.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cohere.com/&quot;&gt;https://cohere.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Google AI Studio</title>
-  <link href="https://aistudio.google.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#aistudio-google-com" rel="alternate" type="text/html"/>
   <id>https://aistudio.google.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A browser surface for testing prompts, setting system instructions and fiddling with temperature. Instead of writing API code first you try things here, then export the call you like as ready code.</summary>
+  <content type="html">&lt;p&gt;A browser surface for testing prompts, setting system instructions and fiddling with temperature. Instead of writing API code first you try things here, then export the call you like as ready code.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://aistudio.google.com/&quot;&gt;https://aistudio.google.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Google Gemini</title>
-  <link href="https://gemini.google.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#gemini-google-com" rel="alternate" type="text/html"/>
   <id>https://gemini.google.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Google’s chat assistant, connecting straight into Gmail, Drive and YouTube to use your own content as source. Unlike ChatGPT it has that integration — decisive if you live in Google’s ecosystem, irrelevant if you do not.</summary>
+  <content type="html">&lt;p&gt;Google’s chat assistant, connecting straight into Gmail, Drive and YouTube to use your own content as source. Unlike ChatGPT it has that integration — decisive if you live in Google’s ecosystem, irrelevant if you do not.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://gemini.google.com/&quot;&gt;https://gemini.google.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Groq</title>
-  <link href="https://groq.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#groq-com" rel="alternate" type="text/html"/>
   <id>https://groq.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An LLM inference service delivering very high tokens per second on its own LPU hardware. Unlike GPU-based providers it runs on that custom chip — open models at unusual speed, with a limited model selection.</summary>
+  <content type="html">&lt;p&gt;An LLM inference service delivering very high tokens per second on its own LPU hardware. Unlike GPU-based providers it runs on that custom chip — open models at unusual speed, with a limited model selection.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://groq.com&quot;&gt;https://groq.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Jan</title>
-  <link href="https://jan.ai"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#jan-ai" rel="alternate" type="text/html"/>
   <id>https://jan.ai</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A desktop app that runs models locally and offline. Unlike LM Studio it is fully open source; chat data never leaves the device.</summary>
+  <content type="html">&lt;p&gt;A desktop app that runs models locally and offline. Unlike LM Studio it is fully open source; chat data never leaves the device.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://jan.ai&quot;&gt;https://jan.ai&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>LM Studio</title>
-  <link href="https://lmstudio.ai/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#lmstudio-ai" rel="alternate" type="text/html"/>
   <id>https://lmstudio.ai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A desktop app for finding GGUF models, downloading them and picking a quantisation level. Unlike Ollama it tells you upfront which quant fits your RAM; there you work that out yourself.</summary>
+  <content type="html">&lt;p&gt;A desktop app for finding GGUF models, downloading them and picking a quantisation level. Unlike Ollama it tells you upfront which quant fits your RAM; there you work that out yourself.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://lmstudio.ai/&quot;&gt;https://lmstudio.ai/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>LMArena (Chatbot Arena)</title>
-  <link href="https://lmarena.ai"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#lmarena-ai" rel="alternate" type="text/html"/>
   <id>https://lmarena.ai</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An arena ranking LLMs on an Elo leaderboard from human votes in blind battles. Unlike automated benchmarks it rests on real user preference; in exchange, style and answer length can skew the ranking.</summary>
+  <content type="html">&lt;p&gt;An arena ranking LLMs on an Elo leaderboard from human votes in blind battles. Unlike automated benchmarks it rests on real user preference; in exchange, style and answer length can skew the ranking.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://lmarena.ai&quot;&gt;https://lmarena.ai&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Meta Llama</title>
-  <link href="https://www.llama.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#llama-com" rel="alternate" type="text/html"/>
   <id>https://www.llama.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Weights are downloadable and run on your own hardware. The licence is not fully OSI-compliant: there is a monthly-active-user threshold for large commercial use — read it before shipping.</summary>
+  <content type="html">&lt;p&gt;Weights are downloadable and run on your own hardware. The licence is not fully OSI-compliant: there is a monthly-active-user threshold for large commercial use — read it before shipping.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.llama.com/&quot;&gt;https://www.llama.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Microsoft Copilot</title>
-  <link href="https://copilot.microsoft.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#copilot-microsoft-com" rel="alternate" type="text/html"/>
   <id>https://copilot.microsoft.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Runs embedded in Word, Excel and the Windows shell, so you operate on a document without copying it to a website. Unlike ChatGPT the difference is the delivery point rather than the model — the models underneath are OpenAI’s.</summary>
+  <content type="html">&lt;p&gt;Runs embedded in Word, Excel and the Windows shell, so you operate on a document without copying it to a website. Unlike ChatGPT the difference is the delivery point rather than the model — the models underneath are OpenAI’s.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://copilot.microsoft.com/&quot;&gt;https://copilot.microsoft.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Mistral AI</title>
-  <link href="https://mistral.ai/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#mistral-ai" rel="alternate" type="text/html"/>
   <id>https://mistral.ai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A Europe-based model provider. Compared with US providers it operates under EU data rules, and ships small models under Apache-2.0 that fit on a single consumer GPU.</summary>
+  <content type="html">&lt;p&gt;A Europe-based model provider. Compared with US providers it operates under EU data rules, and ships small models under Apache-2.0 that fit on a single consumer GPU.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://mistral.ai/&quot;&gt;https://mistral.ai/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Ollama</title>
-  <link href="https://ollama.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#ollama-com" rel="alternate" type="text/html"/>
   <id>https://ollama.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Built on llama.cpp; one command pulls and runs a model. Unlike using llama.cpp directly, it exposes an OpenAI-compatible local endpoint, so existing client code runs unchanged.</summary>
+  <content type="html">&lt;p&gt;Built on llama.cpp; one command pulls and runs a model. Unlike using llama.cpp directly, it exposes an OpenAI-compatible local endpoint, so existing client code runs unchanged.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://ollama.com/&quot;&gt;https://ollama.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Open WebUI</title>
-  <link href="https://openwebui.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#openwebui-com" rel="alternate" type="text/html"/>
   <id>https://openwebui.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A web front-end for Ollama or any OpenAI-compatible endpoint, usually deployed with Docker. Instead of chatting on the command line, it adds multi-user accounts, role management and document upload for RAG.</summary>
+  <content type="html">&lt;p&gt;A web front-end for Ollama or any OpenAI-compatible endpoint, usually deployed with Docker. Instead of chatting on the command line, it adds multi-user accounts, role management and document upload for RAG.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://openwebui.com/&quot;&gt;https://openwebui.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OpenAI Platform</title>
-  <link href="https://platform.openai.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#platform-openai-com" rel="alternate" type="text/html"/>
   <id>https://platform.openai.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>API keys, rate limits and billing, with organisation-level quota settings and usage graphs. Unlike a ChatGPT subscription, API usage is billed separately, per token.</summary>
+  <content type="html">&lt;p&gt;API keys, rate limits and billing, with organisation-level quota settings and usage graphs. Unlike a ChatGPT subscription, API usage is billed separately, per token.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://platform.openai.com/&quot;&gt;https://platform.openai.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OpenRouter</title>
-  <link href="https://openrouter.ai"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#openrouter-ai" rel="alternate" type="text/html"/>
   <id>https://openrouter.ai</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>One endpoint reaching many LLMs, routing by price and availability across providers. Instead of an account with each provider, one key and one bill.</summary>
+  <content type="html">&lt;p&gt;One endpoint reaching many LLMs, routing by price and availability across providers. Instead of an account with each provider, one key and one bill.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://openrouter.ai&quot;&gt;https://openrouter.ai&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Replicate</title>
-  <link href="https://replicate.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#replicate-com" rel="alternate" type="text/html"/>
   <id>https://replicate.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Lets you run open machine-learning models through a single API. Unlike renting your own GPU it bills per second — you pay only for run time, with nothing to set up.</summary>
+  <content type="html">&lt;p&gt;Lets you run open machine-learning models through a single API. Unlike renting your own GPU it bills per second — you pay only for run time, with nothing to set up.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://replicate.com&quot;&gt;https://replicate.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Together AI</title>
-  <link href="https://www.together.ai"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#together-ai" rel="alternate" type="text/html"/>
   <id>https://www.together.ai</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Serves open-weight large language models with fast hosted inference. Unlike routers such as OpenRouter, it runs models on its own infrastructure and offers fine-tuning too.</summary>
+  <content type="html">&lt;p&gt;Serves open-weight large language models with fast hosted inference. Unlike routers such as OpenRouter, it runs models on its own infrastructure and offers fine-tuning too.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.together.ai&quot;&gt;https://www.together.ai&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>vLLM</title>
-  <link href="https://docs.vllm.ai/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#docs-vllm-ai" rel="alternate" type="text/html"/>
   <id>https://docs.vllm.ai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An inference engine that pages the KV cache with PagedAttention to use GPU memory efficiently. Compared with Ollama, continuous batching pushes concurrent-request throughput far higher — built for serving, not a single user.</summary>
+  <content type="html">&lt;p&gt;An inference engine that pages the KV cache with PagedAttention to use GPU memory efficiently. Compared with Ollama, continuous batching pushes concurrent-request throughput far higher — built for serving, not a single user.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://docs.vllm.ai/&quot;&gt;https://docs.vllm.ai/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Kimi K2.7 Code</title>
-  <link href="https://huggingface.co/moonshotai/Kimi-K2.7-Code"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#huggingface-co-moonshotai-kimi-k2-7-code" rel="alternate" type="text/html"/>
   <id>https://huggingface.co/moonshotai/Kimi-K2.7-Code</id>
   <updated>2026-07-19T16:24:12Z</updated>
-  <summary>Moonshot AI’s code-focused open-weight model. Compared with closed coding models its weights are open — a genuine option if you want a local coding assistant without wiring yourself to a closed API.</summary>
+  <content type="html">&lt;p&gt;Moonshot AI’s code-focused open-weight model. Compared with closed coding models its weights are open — a genuine option if you want a local coding assistant without wiring yourself to a closed API.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://huggingface.co/moonshotai/Kimi-K2.7-Code&quot;&gt;https://huggingface.co/moonshotai/Kimi-K2.7-Code&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>LocateAnything-3B</title>
-  <link href="https://huggingface.co/nvidia/LocateAnything-3B"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#huggingface-co-nvidia-locateanything-3b" rel="alternate" type="text/html"/>
   <id>https://huggingface.co/nvidia/LocateAnything-3B</id>
   <updated>2026-07-16T06:26:20Z</updated>
-  <summary>A visual grounding model that boxes an object in an image from a text description. Unlike classification it is not tied to a predefined label set.</summary>
+  <content type="html">&lt;p&gt;A visual grounding model that boxes an object in an image from a text description. Unlike classification it is not tied to a predefined label set.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://huggingface.co/nvidia/LocateAnything-3B&quot;&gt;https://huggingface.co/nvidia/LocateAnything-3B&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Hugging Bay</title>
-  <link href="https://huggingbay.xyz/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#huggingbay-xyz" rel="alternate" type="text/html"/>
   <id>https://huggingbay.xyz/</id>
   <updated>2026-07-07T05:53:13Z</updated>
-  <summary>An alternative browser placing open models side by side with licence and provenance. It publishes SHA-256 hashes for downloads, so integrity is verifiable.</summary>
+  <content type="html">&lt;p&gt;An alternative browser placing open models side by side with licence and provenance. It publishes SHA-256 hashes for downloads, so integrity is verifiable.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://huggingbay.xyz/&quot;&gt;https://huggingbay.xyz/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Unlimited-OCR</title>
-  <link href="https://huggingface.co/baidu/Unlimited-OCR"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#huggingface-co-baidu-unlimited-ocr" rel="alternate" type="text/html"/>
   <id>https://huggingface.co/baidu/Unlimited-OCR</id>
   <updated>2026-07-03T07:30:46Z</updated>
-  <summary>Baidu’s OCR model, extracting text from long multi-column documents with no page ceiling. Markedly better than a classic Tesseract pipeline at preserving tables and layout.</summary>
+  <content type="html">&lt;p&gt;Baidu’s OCR model, extracting text from long multi-column documents with no page ceiling. Markedly better than a classic Tesseract pipeline at preserving tables and layout.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://huggingface.co/baidu/Unlimited-OCR&quot;&gt;https://huggingface.co/baidu/Unlimited-OCR&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OpenAI API Dokümantasyonu</title>
-  <link href="https://developers.openai.com/api/docs"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#developers-openai-com-api-docs" rel="alternate" type="text/html"/>
   <id>https://developers.openai.com/api/docs</id>
   <updated>2026-04-20T13:01:25Z</updated>
-  <summary>Parameter reference for the Chat Completions, Responses and Realtime endpoints. Unlike community guides it is the primary source — the last word on function-calling schemas and streaming behaviour.</summary>
+  <content type="html">&lt;p&gt;Parameter reference for the Chat Completions, Responses and Realtime endpoints. Unlike community guides it is the primary source — the last word on function-calling schemas and streaming behaviour.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://developers.openai.com/api/docs&quot;&gt;https://developers.openai.com/api/docs&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Google AI for Developers</title>
-  <link href="https://ai.google.dev/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#ai-google-dev" rel="alternate" type="text/html"/>
   <id>https://ai.google.dev/</id>
   <updated>2026-04-20T13:01:24Z</updated>
-  <summary>Developer gateway for the Gemini API and the open-weight Gemma family. Compared with the OpenAI API, its free tier is wide enough to carry a real prototype and asks for no card.</summary>
+  <content type="html">&lt;p&gt;Developer gateway for the Gemini API and the open-weight Gemma family. Compared with the OpenAI API, its free tier is wide enough to carry a real prototype and asks for no card.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://ai.google.dev/&quot;&gt;https://ai.google.dev/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Hugging Face</title>
-  <link href="https://huggingface.co/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#huggingface-co" rel="alternate" type="text/html"/>
   <id>https://huggingface.co/</id>
   <updated>2026-04-06T11:40:03Z</updated>
-  <summary>The central repository for models, datasets and Spaces demos. Unlike general code hosts, every model card carries licence, training data and eval results in a standard form — read it before you download.</summary>
+  <content type="html">&lt;p&gt;The central repository for models, datasets and Spaces demos. Unlike general code hosts, every model card carries licence, training data and eval results in a standard form — read it before you download.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://huggingface.co/&quot;&gt;https://huggingface.co/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OpenClaw</title>
-  <link href="https://openclaw.ai/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#openclaw-ai" rel="alternate" type="text/html"/>
   <id>https://openclaw.ai/</id>
   <updated>2026-04-05T20:24:58Z</updated>
-  <summary>A personal assistant that runs on your own machine; it has no UI of its own and hooks into chat apps you already use, such as WhatsApp and Telegram. Unlike hosted assistants, data never leaves the device.</summary>
+  <content type="html">&lt;p&gt;A personal assistant that runs on your own machine; it has no UI of its own and hooks into chat apps you already use, such as WhatsApp and Telegram. Unlike hosted assistants, data never leaves the device.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://openclaw.ai/&quot;&gt;https://openclaw.ai/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Kimi Claw</title>
-  <link href="https://kimi-claw.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#kimi-claw-com" rel="alternate" type="text/html"/>
   <id>https://kimi-claw.com/</id>
   <updated>2026-04-05T20:24:40Z</updated>
-  <summary>A hosted layer on OpenClaw adding persistent memory, scheduled tasks and jobs that fire without being asked. For people who want it as a ready service rather than operating OpenClaw on their own machine.</summary>
+  <content type="html">&lt;p&gt;A hosted layer on OpenClaw adding persistent memory, scheduled tasks and jobs that fire without being asked. For people who want it as a ready service rather than operating OpenClaw on their own machine.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://kimi-claw.com/&quot;&gt;https://kimi-claw.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Claude</title>
-  <link href="https://claude.ai/new"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#claude-ai-new" rel="alternate" type="text/html"/>
   <id>https://claude.ai/new</id>
   <updated>2026-02-25T13:13:59Z</updated>
-  <summary>Anthropic’s chat app, whose long context window carries long documents and whole codebases. Compared with its rivals it stands out for consistency over long text; Projects keeps files as persistent context across chats, and Artifacts runs output in a side panel.</summary>
+  <content type="html">&lt;p&gt;Anthropic’s chat app, whose long context window carries long documents and whole codebases. Compared with its rivals it stands out for consistency over long text; Projects keeps files as persistent context across chats, and Artifacts runs output in a side panel.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://claude.ai/new&quot;&gt;https://claude.ai/new&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>DeepSeek</title>
-  <link href="https://www.deepseek.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#deepseek-com" rel="alternate" type="text/html"/>
   <id>https://www.deepseek.com/</id>
   <updated>2025-09-25T09:14:54Z</updated>
-  <summary>V3 and R1 weights are downloadable. Unlike closed models it is open, and its mixture-of-experts architecture keeps total parameters high while activating only a slice per token — reasoning performance at far lower inference cost.</summary>
+  <content type="html">&lt;p&gt;V3 and R1 weights are downloadable. Unlike closed models it is open, and its mixture-of-experts architecture keeps total parameters high while activating only a slice per token — reasoning performance at far lower inference cost.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.deepseek.com/&quot;&gt;https://www.deepseek.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>ChatGPT</title>
-  <link href="https://chatgpt.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#chatgpt-com" rel="alternate" type="text/html"/>
   <id>https://chatgpt.com/</id>
   <updated>2025-09-25T09:14:28Z</updated>
-  <summary>Sandboxed Python execution, image generation, file upload and custom GPTs in one window. The breadth costs it depth — no single capability is best-in-class.</summary>
+  <content type="html">&lt;p&gt;Sandboxed Python execution, image generation, file upload and custom GPTs in one window. The breadth costs it depth — no single capability is best-in-class.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://chatgpt.com/&quot;&gt;https://chatgpt.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>NotebookLM</title>
-  <link href="https://notebooklm.google.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#notebooklm-google-com" rel="alternate" type="text/html"/>
   <id>https://notebooklm.google.com/</id>
   <updated>2025-09-22T18:22:44Z</updated>
-  <summary>Builds a context limited to the PDFs, docs and links you upload, and refuses to answer outside them. Unlike general chatbots it has that constraint — it cuts hallucination, at the price of not answering general questions.</summary>
+  <content type="html">&lt;p&gt;Builds a context limited to the PDFs, docs and links you upload, and refuses to answer outside them. Unlike general chatbots it has that constraint — it cuts hallucination, at the price of not answering general questions.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://notebooklm.google.com/&quot;&gt;https://notebooklm.google.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Perplexity</title>
-  <link href="https://www.perplexity.ai/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_model.html#perplexity-ai" rel="alternate" type="text/html"/>
   <id>https://www.perplexity.ai/</id>
   <updated>2025-03-01T00:01:39Z</updated>
-  <summary>Turns your query into a web search, feeds the retrieved pages to a model, then footnotes each sentence. It is a RAG pipeline: answers rest on live search results, not the model’s memory.</summary>
+  <content type="html">&lt;p&gt;Turns your query into a web search, feeds the retrieved pages to a model, then footnotes each sentence. It is a RAG pipeline: answers rest on live search results, not the model’s memory.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.perplexity.ai/&quot;&gt;https://www.perplexity.ai/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

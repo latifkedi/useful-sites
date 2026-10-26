@@ -2,141 +2,143 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title>Open Access &amp; Archives — Useful Sites</title>
 <subtitle>A hand-curated, annotated link directory across ten areas, from software and AI to security, economics and architecture. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/en/acik_erisim.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/en/acik_erisim.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/acik_erisim.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/acik_erisim.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/acik_erisim.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>DigiPres.org</title>
-  <link href="https://www.digipres.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_erisim.html#digipres-org" rel="alternate" type="text/html"/>
   <id>https://www.digipres.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>The digital preservation community's shared portal for file formats, tools and resources, with format data compiled automatically from sources such as PRONOM and the Archive Team File Formats wiki. It is a registry for archivists and developers judging whether a format will stay readable over the long term.</summary>
+  <content type="html">&lt;p&gt;The digital preservation community's shared portal for file formats, tools and resources, with format data compiled automatically from sources such as PRONOM and the Archive Team File Formats wiki. It is a registry for archivists and developers judging whether a format will stay readable over the long term.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.digipres.org/&quot;&gt;https://www.digipres.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Mevzuat Bilgi Sistemi</title>
-  <link href="https://www.mevzuat.gov.tr/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_erisim.html#mevzuat-gov-tr" rel="alternate" type="text/html"/>
   <id>https://www.mevzuat.gov.tr/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Turkish laws, decrees and regulations in consolidated form, with later amendments worked into the text. Unlike the Official Gazette it does not show a text as published on the day, but as it stands after every change.</summary>
+  <content type="html">&lt;p&gt;Turkish laws, decrees and regulations in consolidated form, with later amendments worked into the text. Unlike the Official Gazette it does not show a text as published on the day, but as it stands after every change.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.mevzuat.gov.tr/&quot;&gt;https://www.mevzuat.gov.tr/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Resmî Gazete</title>
-  <link href="https://www.resmigazete.gov.tr/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_erisim.html#resmigazete-gov-tr" rel="alternate" type="text/html"/>
   <id>https://www.resmigazete.gov.tr/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Turkey’s official gazette: each day’s issue and an archive of past ones; legislation takes effect as published here. Unlike the Legislation Information System it does not consolidate amendments, which makes it the way to reach a regulation’s original text.</summary>
+  <content type="html">&lt;p&gt;Turkey’s official gazette: each day’s issue and an archive of past ones; legislation takes effect as published here. Unlike the Legislation Information System it does not consolidate amendments, which makes it the way to reach a regulation’s original text.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.resmigazete.gov.tr/&quot;&gt;https://www.resmigazete.gov.tr/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>archive.today</title>
-  <link href="https://archive.today"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_erisim.html#archive-today" rel="alternate" type="text/html"/>
   <id>https://archive.today</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An archiver that freezes a page exactly as it is and produces a permanent snapshot. Unlike the Wayback Machine it snapshots on demand, instantly and without heeding robots.txt, and keeps a screenshot of the page too.</summary>
+  <content type="html">&lt;p&gt;An archiver that freezes a page exactly as it is and produces a permanent snapshot. Unlike the Wayback Machine it snapshots on demand, instantly and without heeding robots.txt, and keeps a screenshot of the page too.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://archive.today&quot;&gt;https://archive.today&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Web Archiving</title>
-  <link href="https://github.com/iipc/awesome-web-archiving"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_erisim.html#github-com-iipc-awesome-web-archiving" rel="alternate" type="text/html"/>
   <id>https://github.com/iipc/awesome-web-archiving</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of tools and resources for preserving the web for the future (archiving). Unlike using the Wayback Machine, it gathers tools for running your own archive — crawlers, WARC tools, replay; maintained by the IIPC consortium.</summary>
+  <content type="html">&lt;p&gt;A list of tools and resources for preserving the web for the future (archiving). Unlike using the Wayback Machine, it gathers tools for running your own archive — crawlers, WARC tools, replay; maintained by the IIPC consortium.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/iipc/awesome-web-archiving&quot;&gt;https://github.com/iipc/awesome-web-archiving&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CORE</title>
-  <link href="https://core.ac.uk"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_erisim.html#core-ac-uk" rel="alternate" type="text/html"/>
   <id>https://core.ac.uk</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>One of the largest aggregators gathering the world’s open-access research papers in one place. Unlike Google Scholar it focuses only on open-access texts and harvests the full texts, serving them through an API.</summary>
+  <content type="html">&lt;p&gt;One of the largest aggregators gathering the world’s open-access research papers in one place. Unlike Google Scholar it focuses only on open-access texts and harvests the full texts, serving them through an API.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://core.ac.uk&quot;&gt;https://core.ac.uk&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>DOAB — Directory of Open Access Books</title>
-  <link href="https://www.doabooks.org"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_erisim.html#doabooks-org" rel="alternate" type="text/html"/>
   <id>https://www.doabooks.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A directory of peer-reviewed open-access academic books, linking out to publishers or repositories such as OAPEN. Unlike general e-book archives, it lists only publisher-approved books that have passed peer review.</summary>
+  <content type="html">&lt;p&gt;A directory of peer-reviewed open-access academic books, linking out to publishers or repositories such as OAPEN. Unlike general e-book archives, it lists only publisher-approved books that have passed peer review.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.doabooks.org&quot;&gt;https://www.doabooks.org&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>DOAJ — Directory of Open Access Journals</title>
-  <link href="https://doaj.org"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_erisim.html#doaj-org" rel="alternate" type="text/html"/>
   <id>https://doaj.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A vetted directory of peer-reviewed open-access journals — legal and free. Unlike general academic search it lists only journals verified as non-predatory: a filter that screens journal quality up front.</summary>
+  <content type="html">&lt;p&gt;A vetted directory of peer-reviewed open-access journals — legal and free. Unlike general academic search it lists only journals verified as non-predatory: a filter that screens journal quality up front.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://doaj.org&quot;&gt;https://doaj.org&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Internet Archive</title>
-  <link href="https://archive.org"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_erisim.html#archive-org" rel="alternate" type="text/html"/>
   <id>https://archive.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A vast digital archive preserving the web, books, audio and video — home of the Wayback Machine. Unlike archive.today it goes beyond web pages, with book lending and software and media collections.</summary>
+  <content type="html">&lt;p&gt;A vast digital archive preserving the web, books, audio and video — home of the Wayback Machine. Unlike archive.today it goes beyond web pages, with book lending and software and media collections.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://archive.org&quot;&gt;https://archive.org&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>LibreTexts</title>
-  <link href="https://libretexts.org"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_erisim.html#libretexts-org" rel="alternate" type="text/html"/>
   <id>https://libretexts.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A free platform compiling university-level open textbooks subject by subject. Unlike printed textbooks they are online, adaptable and carry embedded interactive elements.</summary>
+  <content type="html">&lt;p&gt;A free platform compiling university-level open textbooks subject by subject. Unlike printed textbooks they are online, adaptable and carry embedded interactive elements.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://libretexts.org&quot;&gt;https://libretexts.org&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Open Library</title>
-  <link href="https://openlibrary.org"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_erisim.html#openlibrary-org" rel="alternate" type="text/html"/>
   <id>https://openlibrary.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Internet Archive’s open catalogue aiming for a page per book, lending many of them. Unlike bibliographic-only catalogues it lets you read scanned books through time-limited digital lending.</summary>
+  <content type="html">&lt;p&gt;Internet Archive’s open catalogue aiming for a page per book, lending many of them. Unlike bibliographic-only catalogues it lets you read scanned books through time-limited digital lending.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://openlibrary.org&quot;&gt;https://openlibrary.org&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Perma.cc</title>
-  <link href="https://perma.cc"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_erisim.html#perma-cc" rel="alternate" type="text/html"/>
   <id>https://perma.cc</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Creates permanent archived copies of cited links to stop link rot; library-backed. Unlike general archivers it is aimed at academic and legal citations, with permanence underwritten by libraries.</summary>
+  <content type="html">&lt;p&gt;Creates permanent archived copies of cited links to stop link rot; library-backed. Unlike general archivers it is aimed at academic and legal citations, with permanence underwritten by libraries.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://perma.cc&quot;&gt;https://perma.cc&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Project Gutenberg</title>
-  <link href="https://www.gutenberg.org"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_erisim.html#gutenberg-org" rel="alternate" type="text/html"/>
   <id>https://www.gutenberg.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The oldest digital library, offering more than 70,000 public-domain classics free. Unlike Standard Ebooks it wins on scale; the trade-off is that typesetting and formatting quality varies from book to book.</summary>
+  <content type="html">&lt;p&gt;The oldest digital library, offering more than 70,000 public-domain classics free. Unlike Standard Ebooks it wins on scale; the trade-off is that typesetting and formatting quality varies from book to book.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.gutenberg.org&quot;&gt;https://www.gutenberg.org&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Standard Ebooks</title>
-  <link href="https://standardebooks.org"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_erisim.html#standardebooks-org" rel="alternate" type="text/html"/>
   <id>https://standardebooks.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A volunteer project that carefully typesets and formats public-domain books, free. Unlike Project Gutenberg the aim is quality over scale — each book is hand-finished with consistent typography.</summary>
+  <content type="html">&lt;p&gt;A volunteer project that carefully typesets and formats public-domain books, free. Unlike Project Gutenberg the aim is quality over scale — each book is hand-finished with consistent typography.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://standardebooks.org&quot;&gt;https://standardebooks.org&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Unpaywall</title>
-  <link href="https://unpaywall.org"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_erisim.html#unpaywall-org" rel="alternate" type="text/html"/>
   <id>https://unpaywall.org</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A tool and browser extension that finds legal open-access copies of paywalled papers. Unlike shadow libraries it searches only copies the author or publisher has released — entirely legal.</summary>
+  <content type="html">&lt;p&gt;A tool and browser extension that finds legal open-access copies of paywalled papers. Unlike shadow libraries it searches only copies the author or publisher has released — entirely legal.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://unpaywall.org&quot;&gt;https://unpaywall.org&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>grab-site</title>
-  <link href="https://github.com/ArchiveTeam/grab-site"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_erisim.html#github-com-archiveteam-grab-site" rel="alternate" type="text/html"/>
   <id>https://github.com/ArchiveTeam/grab-site</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>An archivist’s web crawler with WARC output and a dashboard for all crawls. Unlike tools like wget it has dynamic ignore rules: you exclude trap patterns mid-crawl, so large sites archive cleanly.</summary>
+  <content type="html">&lt;p&gt;An archivist’s web crawler with WARC output and a dashboard for all crawls. Unlike tools like wget it has dynamic ignore rules: you exclude trap patterns mid-crawl, so large sites archive cleanly.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ArchiveTeam/grab-site&quot;&gt;https://github.com/ArchiveTeam/grab-site&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>WikiTeam</title>
-  <link href="https://github.com/WikiTeam/wikiteam"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_erisim.html#github-com-wikiteam-wikiteam" rel="alternate" type="text/html"/>
   <id>https://github.com/WikiTeam/wikiteam</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>A toolset that downloads and archives MediaWiki wikis — 600,000+ preserved. Unlike general site copiers it is wiki-specific: it takes a full dump including page history and media, not just the HTML shell.</summary>
+  <content type="html">&lt;p&gt;A toolset that downloads and archives MediaWiki wikis — 600,000+ preserved. Unlike general site copiers it is wiki-specific: it takes a full dump including page history and media, not just the HTML shell.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/WikiTeam/wikiteam&quot;&gt;https://github.com/WikiTeam/wikiteam&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>ManyBooks</title>
-  <link href="https://manybooks.net/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_erisim.html#manybooks-net" rel="alternate" type="text/html"/>
   <id>https://manybooks.net/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A library offering public-domain and indie-author ebooks free in many formats (EPUB, PDF, Kindle). Unlike Project Gutenberg it also carries contemporary indie-author books, with a more reader-friendly interface.</summary>
+  <content type="html">&lt;p&gt;A library offering public-domain and indie-author ebooks free in many formats (EPUB, PDF, Kindle). Unlike Project Gutenberg it also carries contemporary indie-author books, with a more reader-friendly interface.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://manybooks.net/&quot;&gt;https://manybooks.net/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Online Library of Liberty</title>
-  <link href="https://oll.libertyfund.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/acik_erisim.html#oll-libertyfund-org" rel="alternate" type="text/html"/>
   <id>https://oll.libertyfund.org/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Liberty Fund's open library offering classic works on liberty, economics and political philosophy (Locke, Smith, Mill…) for free. Unlike shadow libraries everything here is public-domain or openly licensed and carefully typeset.</summary>
+  <content type="html">&lt;p&gt;Liberty Fund's open library offering classic works on liberty, economics and political philosophy (Locke, Smith, Mill…) for free. Unlike shadow libraries everything here is public-domain or openly licensed and carefully typeset.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://oll.libertyfund.org/&quot;&gt;https://oll.libertyfund.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

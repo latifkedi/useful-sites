@@ -2,288 +2,290 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title>Web &amp; Frontend — Useful Sites</title>
 <subtitle>A hand-curated, annotated link directory across ten areas, from software and AI to security, economics and architecture. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/en/web.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/en/web.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/web.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/web.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/web.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>Front-End Checklist</title>
-  <link href="https://github.com/thedaviddias/Front-End-Checklist"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#github-com-thedaviddias-front-end-checklist" rel="alternate" type="text/html"/>
   <id>https://github.com/thedaviddias/Front-End-Checklist</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A checklist of items to verify before launching a web page across HTML, CSS, JS, accessibility, performance and SEO, with priority labels. Unlike general guides it is a tickable, prioritised checklist.</summary>
+  <content type="html">&lt;p&gt;A checklist of items to verify before launching a web page across HTML, CSS, JS, accessibility, performance and SEO, with priority labels. Unlike general guides it is a tickable, prioritised checklist.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/thedaviddias/Front-End-Checklist&quot;&gt;https://github.com/thedaviddias/Front-End-Checklist&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Mozilla Web Security Guidelines</title>
-  <link href="https://infosec.mozilla.org/guidelines/web_security.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#infosec-mozilla-org-guidelines-web-security-html" rel="alternate" type="text/html"/>
   <id>https://infosec.mozilla.org/guidelines/web_security.html</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Mozilla's recommended security headers and settings for websites: CSP, HSTS, cookie flags, CORS, SRI. It gives a priority and an example configuration for each, making it more actionable than general security articles.</summary>
+  <content type="html">&lt;p&gt;Mozilla's recommended security headers and settings for websites: CSP, HSTS, cookie flags, CORS, SRI. It gives a priority and an example configuration for each, making it more actionable than general security articles.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://infosec.mozilla.org/guidelines/web_security.html&quot;&gt;https://infosec.mozilla.org/guidelines/web_security.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>NGINX Config Generator (nginxconfig.io)</title>
-  <link href="https://www.digitalocean.com/community/tools/nginx"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#digitalocean-com-community-tools-nginx" rel="alternate" type="text/html"/>
   <id>https://www.digitalocean.com/community/tools/nginx</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A form-driven generator that builds a ready NGINX config from domain, PHP/Node, security and performance options. Compared with copying sample configs, it adds best-practice settings (TLS, headers, gzip) automatically.</summary>
+  <content type="html">&lt;p&gt;A form-driven generator that builds a ready NGINX config from domain, PHP/Node, security and performance options. Compared with copying sample configs, it adds best-practice settings (TLS, headers, gzip) automatically.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.digitalocean.com/community/tools/nginx&quot;&gt;https://www.digitalocean.com/community/tools/nginx&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Protomaps</title>
-  <link href="https://protomaps.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#protomaps-com" rel="alternate" type="text/html"/>
   <id>https://protomaps.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>An open-source map stack that serves a world basemap as a single PMTiles file; the file sits on plain storage such as S3 and the browser reads only the parts it needs through HTTP range requests. Unlike hosted map services such as Mapbox there is no tile server and no per-use fee.</summary>
+  <content type="html">&lt;p&gt;An open-source map stack that serves a world basemap as a single PMTiles file; the file sits on plain storage such as S3 and the browser reads only the parts it needs through HTTP range requests. Unlike hosted map services such as Mapbox there is no tile server and no per-use fee.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://protomaps.com/&quot;&gt;https://protomaps.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>The A11Y Project</title>
-  <link href="https://www.a11yproject.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#a11yproject-com" rel="alternate" type="text/html"/>
   <id>https://www.a11yproject.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A community-run accessibility site with a plain checklist based on WCAG, articles and lists of tools and resources. Unlike the W3C quick reference it states the criteria as items a developer can follow rather than in standards language.</summary>
+  <content type="html">&lt;p&gt;A community-run accessibility site with a plain checklist based on WCAG, articles and lists of tools and resources. Unlike the W3C quick reference it states the criteria as items a developer can follow rather than in standards language.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.a11yproject.com/&quot;&gt;https://www.a11yproject.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>WAVE</title>
-  <link href="https://wave.webaim.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#wave-webaim-org" rel="alternate" type="text/html"/>
   <id>https://wave.webaim.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>WebAIM’s accessibility evaluation tool; given an address, or through its browser extension, it overlays errors, alerts and structural information as icons on the page. Unlike scanners that produce a report it shows each problem in place on the page; the extension also checks pages behind a login, locally.</summary>
+  <content type="html">&lt;p&gt;WebAIM’s accessibility evaluation tool; given an address, or through its browser extension, it overlays errors, alerts and structural information as icons on the page. Unlike scanners that produce a report it shows each problem in place on the page; the extension also checks pages behind a login, locally.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://wave.webaim.org/&quot;&gt;https://wave.webaim.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>WCAG 2.2 Hızlı Başvuru</title>
-  <link href="https://www.w3.org/WAI/WCAG22/quickref/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#w3-org-wai-wcag22-quickref" rel="alternate" type="text/html"/>
   <id>https://www.w3.org/WAI/WCAG22/quickref/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>The W3C’s “How to Meet WCAG” page: every success criterion, its level (A, AA, AAA), the techniques that satisfy it and the common failures, filterable by level and topic. Unlike reading the standard itself it takes you from a criterion straight to a technique you can apply.</summary>
+  <content type="html">&lt;p&gt;The W3C’s “How to Meet WCAG” page: every success criterion, its level (A, AA, AAA), the techniques that satisfy it and the common failures, filterable by level and topic. Unlike reading the standard itself it takes you from a criterion straight to a technique you can apply.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.w3.org/WAI/WCAG22/quickref/&quot;&gt;https://www.w3.org/WAI/WCAG22/quickref/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>WebAssembly</title>
-  <link href="https://webassembly.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#webassembly-org" rel="alternate" type="text/html"/>
   <id>https://webassembly.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>The official site of the WebAssembly standard: the specifications, an introduction to the concepts and a feature table showing which proposal is supported in which browser and runtime. Unlike MDN’s WebAssembly pages it looks from the standard and the runtimes rather than from the JavaScript side.</summary>
+  <content type="html">&lt;p&gt;The official site of the WebAssembly standard: the specifications, an introduction to the concepts and a feature table showing which proposal is supported in which browser and runtime. Unlike MDN’s WebAssembly pages it looks from the standard and the runtimes rather than from the JavaScript side.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://webassembly.org/&quot;&gt;https://webassembly.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>webhint</title>
-  <link href="https://webhint.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#webhint-io" rel="alternate" type="text/html"/>
   <id>https://webhint.io/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>An open-source linter that scans a site for accessibility, speed, security and compatibility problems and explains each rule; it runs as an online scan, a CLI and a VS Code extension. Unlike Lighthouse it documents every rule in detail and is configurable.</summary>
+  <content type="html">&lt;p&gt;An open-source linter that scans a site for accessibility, speed, security and compatibility problems and explains each rule; it runs as an online scan, a CLI and a VS Code extension. Unlike Lighthouse it documents every rule in detail and is configurable.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://webhint.io/&quot;&gt;https://webhint.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>ni</title>
-  <link href="https://github.com/antfu-collective/ni"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#github-com-antfu-collective-ni" rel="alternate" type="text/html"/>
   <id>https://github.com/antfu-collective/ni</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>One command that picks npm, yarn, pnpm or bun for each project from its lockfile. Unlike remembering which manager a repo uses you type the same thing everywhere.</summary>
+  <content type="html">&lt;p&gt;One command that picks npm, yarn, pnpm or bun for each project from its lockfile. Unlike remembering which manager a repo uses you type the same thing everywhere.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/antfu-collective/ni&quot;&gt;https://github.com/antfu-collective/ni&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Angular</title>
-  <link href="https://github.com/PatrickJS/awesome-angular"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#github-com-patrickjs-awesome-angular" rel="alternate" type="text/html"/>
   <id>https://github.com/PatrickJS/awesome-angular</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of components, tools and tutorials for the Angular application framework. Unlike the official docs it gathers community libraries and real examples.</summary>
+  <content type="html">&lt;p&gt;A list of components, tools and tutorials for the Angular application framework. Unlike the official docs it gathers community libraries and real examples.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/PatrickJS/awesome-angular&quot;&gt;https://github.com/PatrickJS/awesome-angular&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome ESLint</title>
-  <link href="https://github.com/dustinspecker/awesome-eslint"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#github-com-dustinspecker-awesome-eslint" rel="alternate" type="text/html"/>
   <id>https://github.com/dustinspecker/awesome-eslint</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of plugins and configs for ESLint, the JavaScript linter. Unlike the ESLint docs, it gathers community-shared configs and plugins specific to frameworks such as React and Vue.</summary>
+  <content type="html">&lt;p&gt;A list of plugins and configs for ESLint, the JavaScript linter. Unlike the ESLint docs, it gathers community-shared configs and plugins specific to frameworks such as React and Vue.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/dustinspecker/awesome-eslint&quot;&gt;https://github.com/dustinspecker/awesome-eslint&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Frontend GIS</title>
-  <link href="https://github.com/joewdavies/awesome-frontend-gis"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#github-com-joewdavies-awesome-frontend-gis" rel="alternate" type="text/html"/>
   <id>https://github.com/joewdavies/awesome-frontend-gis</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of libraries for geographic information systems (maps) in the browser. Unlike general mapping-API lists, it focuses on libraries that run in the browser rather than on a server — rendering, data conversion, spatial analysis.</summary>
+  <content type="html">&lt;p&gt;A list of libraries for geographic information systems (maps) in the browser. Unlike general mapping-API lists, it focuses on libraries that run in the browser rather than on a server — rendering, data conversion, spatial analysis.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/joewdavies/awesome-frontend-gis&quot;&gt;https://github.com/joewdavies/awesome-frontend-gis&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome HTML5</title>
-  <link href="https://github.com/diegocard/awesome-html5"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#github-com-diegocard-awesome-html5" rel="alternate" type="text/html"/>
   <id>https://github.com/diegocard/awesome-html5</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of HTML5 APIs — Canvas, WebSocket, storage — plus tools and resources. Unlike general web lists, it focuses only on the browser APIs that came with the HTML5 standard.</summary>
+  <content type="html">&lt;p&gt;A list of HTML5 APIs — Canvas, WebSocket, storage — plus tools and resources. Unlike general web lists, it focuses only on the browser APIs that came with the HTML5 standard.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/diegocard/awesome-html5&quot;&gt;https://github.com/diegocard/awesome-html5&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Mobile Web Development</title>
-  <link href="https://github.com/myshov/awesome-mobile-web-development"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#github-com-myshov-awesome-mobile-web-development" rel="alternate" type="text/html"/>
   <id>https://github.com/myshov/awesome-mobile-web-development</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for building a good mobile web experience — touch events, performance, offline. Unlike native-app lists, it targets mobile sites running in the browser.</summary>
+  <content type="html">&lt;p&gt;A resource list for building a good mobile web experience — touch events, performance, offline. Unlike native-app lists, it targets mobile sites running in the browser.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/myshov/awesome-mobile-web-development&quot;&gt;https://github.com/myshov/awesome-mobile-web-development&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome npm</title>
-  <link href="https://github.com/sindresorhus/awesome-npm"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#github-com-sindresorhus-awesome-npm" rel="alternate" type="text/html"/>
   <id>https://github.com/sindresorhus/awesome-npm</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of tips, tools and resources for npm, the Node package manager. Unlike the npm docs, it gathers the tools around it — package search sites, publishing helpers, CLI add-ons.</summary>
+  <content type="html">&lt;p&gt;A list of tips, tools and resources for npm, the Node package manager. Unlike the npm docs, it gathers the tools around it — package search sites, publishing helpers, CLI add-ons.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/sindresorhus/awesome-npm&quot;&gt;https://github.com/sindresorhus/awesome-npm&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome npm scripts</title>
-  <link href="https://github.com/RyanZim/awesome-npm-scripts"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#github-com-ryanzim-awesome-npm-scripts" rel="alternate" type="text/html"/>
   <id>https://github.com/RyanZim/awesome-npm-scripts</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for using npm scripts as a task runner. Unlike task runners such as Gulp or Grunt, it teaches making do with package.json scripts and no extra dependency.</summary>
+  <content type="html">&lt;p&gt;A resource list for using npm scripts as a task runner. Unlike task runners such as Gulp or Grunt, it teaches making do with package.json scripts and no extra dependency.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/RyanZim/awesome-npm-scripts&quot;&gt;https://github.com/RyanZim/awesome-npm-scripts&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Ponyfills</title>
-  <link href="https://github.com/Richienb/awesome-ponyfills"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#github-com-richienb-awesome-ponyfills" rel="alternate" type="text/html"/>
   <id>https://github.com/Richienb/awesome-ponyfills</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of ponyfill libraries that add native behaviour without overriding it. Unlike polyfills they never patch globals: you import the feature as a separate module.</summary>
+  <content type="html">&lt;p&gt;A list of ponyfill libraries that add native behaviour without overriding it. Unlike polyfills they never patch globals: you import the feature as a separate module.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/Richienb/awesome-ponyfills&quot;&gt;https://github.com/Richienb/awesome-ponyfills&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Preact</title>
-  <link href="https://github.com/preactjs/awesome-preact"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#github-com-preactjs-awesome-preact" rel="alternate" type="text/html"/>
   <id>https://github.com/preactjs/awesome-preact</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of components, tools and examples for Preact, the 3 KB lightweight React alternative. Unlike React lists, it collects only libraries that work with Preact and keep its small size.</summary>
+  <content type="html">&lt;p&gt;A list of components, tools and examples for Preact, the 3 KB lightweight React alternative. Unlike React lists, it collects only libraries that work with Preact and keep its small size.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/preactjs/awesome-preact&quot;&gt;https://github.com/preactjs/awesome-preact&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome React</title>
-  <link href="https://github.com/enaqx/awesome-react"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#github-com-enaqx-awesome-react" rel="alternate" type="text/html"/>
   <id>https://github.com/enaqx/awesome-react</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of libraries, tools and learning resources for the React ecosystem. Unlike the official docs, it gathers the surrounding ecosystem — state management, routing, component libraries, testing — in one list.</summary>
+  <content type="html">&lt;p&gt;A list of libraries, tools and learning resources for the React ecosystem. Unlike the official docs, it gathers the surrounding ecosystem — state management, routing, component libraries, testing — in one list.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/enaqx/awesome-react&quot;&gt;https://github.com/enaqx/awesome-react&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome React Hooks</title>
-  <link href="https://github.com/glauberfc/awesome-react-hooks"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#github-com-glauberfc-awesome-react-hooks" rel="alternate" type="text/html"/>
   <id>https://github.com/glauberfc/awesome-react-hooks</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of libraries, examples and articles for React Hooks. Unlike general React lists, it gathers only hook-based patterns and custom-hook packages, not class components.</summary>
+  <content type="html">&lt;p&gt;A list of libraries, examples and articles for React Hooks. Unlike general React lists, it gathers only hook-based patterns and custom-hook packages, not class components.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/glauberfc/awesome-react-hooks&quot;&gt;https://github.com/glauberfc/awesome-react-hooks&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Standard</title>
-  <link href="https://github.com/standard/awesome-standard"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#github-com-standard-awesome-standard" rel="alternate" type="text/html"/>
   <id>https://github.com/standard/awesome-standard</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Standard, the zero-config JS style guide and linter. Unlike configuring ESLint by hand, the rules are fixed and not up for debate; the list gathers editor plugins and compatible tools.</summary>
+  <content type="html">&lt;p&gt;A resource list for Standard, the zero-config JS style guide and linter. Unlike configuring ESLint by hand, the rules are fixed and not up for debate; the list gathers editor plugins and compatible tools.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/standard/awesome-standard&quot;&gt;https://github.com/standard/awesome-standard&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Svelte</title>
-  <link href="https://github.com/TheComputerM/awesome-svelte"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#github-com-thecomputerm-awesome-svelte" rel="alternate" type="text/html"/>
   <id>https://github.com/TheComputerM/awesome-svelte</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of components and tools for Svelte and SvelteKit. Unlike React-heavy lists it shows the ecosystem specific to this compile-time framework.</summary>
+  <content type="html">&lt;p&gt;A list of components and tools for Svelte and SvelteKit. Unlike React-heavy lists it shows the ecosystem specific to this compile-time framework.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/TheComputerM/awesome-svelte&quot;&gt;https://github.com/TheComputerM/awesome-svelte&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome WebExtensions</title>
-  <link href="https://github.com/fregante/Awesome-WebExtensions"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#github-com-fregante-awesome-webextensions" rel="alternate" type="text/html"/>
   <id>https://github.com/fregante/Awesome-WebExtensions</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for building cross-browser add-ons (WebExtensions). Unlike single-browser docs it focuses on the common API that works across Chrome, Firefox and Safari.</summary>
+  <content type="html">&lt;p&gt;A resource list for building cross-browser add-ons (WebExtensions). Unlike single-browser docs it focuses on the common API that works across Chrome, Firefox and Safari.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/fregante/Awesome-WebExtensions&quot;&gt;https://github.com/fregante/Awesome-WebExtensions&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome WebXR</title>
-  <link href="https://github.com/msub2/awesome-webxr"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#github-com-msub2-awesome-webxr" rel="alternate" type="text/html"/>
   <id>https://github.com/msub2/awesome-webxr</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for WebXR, enabling virtual/augmented reality in the browser. Unlike native XR SDKs, these experiences open in a browser with nothing to install; the list gathers frameworks, samples and tools.</summary>
+  <content type="html">&lt;p&gt;A resource list for WebXR, enabling virtual/augmented reality in the browser. Unlike native XR SDKs, these experiences open in a browser with nothing to install; the list gathers frameworks, samples and tools.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/msub2/awesome-webxr&quot;&gt;https://github.com/msub2/awesome-webxr&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome WP-CLI</title>
-  <link href="https://github.com/schlessera/awesome-wp-cli"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#github-com-schlessera-awesome-wp-cli" rel="alternate" type="text/html"/>
   <id>https://github.com/schlessera/awesome-wp-cli</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for WP-CLI, managing WordPress from the command line. Unlike the admin dashboard it offers bulk, scriptable operations: updating plugins on a hundred sites is one command.</summary>
+  <content type="html">&lt;p&gt;A resource list for WP-CLI, managing WordPress from the command line. Unlike the admin dashboard it offers bulk, scriptable operations: updating plugins on a hundred sites is one command.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/schlessera/awesome-wp-cli&quot;&gt;https://github.com/schlessera/awesome-wp-cli&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Browser Diet</title>
-  <link href="https://browserdiet.com/en/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#browserdiet-com-en" rel="alternate" type="text/html"/>
   <id>https://browserdiet.com/en/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A guide of concrete tips for improving web performance. Unlike automated audits such as Lighthouse, the advice is hand-written by experts with its reasoning; part of it dates from the HTTP/1 era.</summary>
+  <content type="html">&lt;p&gt;A guide of concrete tips for improving web performance. Unlike automated audits such as Lighthouse, the advice is hand-written by experts with its reasoning; part of it dates from the HTTP/1 era.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://browserdiet.com/en/&quot;&gt;https://browserdiet.com/en/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Can I email…</title>
-  <link href="https://www.caniemail.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#caniemail-com" rel="alternate" type="text/html"/>
   <id>https://www.caniemail.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A table showing which email client supports an HTML/CSS feature. Unlike the web’s Can I use it looks at the quirky, limited support of email clients.</summary>
+  <content type="html">&lt;p&gt;A table showing which email client supports an HTML/CSS feature. Unlike the web’s Can I use it looks at the quirky, limited support of email clients.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.caniemail.com/&quot;&gt;https://www.caniemail.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Chart.js</title>
-  <link href="https://www.chartjs.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#chartjs-org" rel="alternate" type="text/html"/>
   <id>https://www.chartjs.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A JavaScript library drawing simple, responsive charts on canvas. Unlike heavy visualisation libraries it is lightweight and works in a few lines.</summary>
+  <content type="html">&lt;p&gt;A JavaScript library drawing simple, responsive charts on canvas. Unlike heavy visualisation libraries it is lightweight and works in a few lines.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.chartjs.org/&quot;&gt;https://www.chartjs.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>DevSamples</title>
-  <link href="https://www.devsamples.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#devsamples-com" rel="alternate" type="text/html"/>
   <id>https://www.devsamples.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Ready-to-copy HTML, CSS and JavaScript code examples. Unlike documentation, it gives small working snippets rather than explanations.</summary>
+  <content type="html">&lt;p&gt;Ready-to-copy HTML, CSS and JavaScript code examples. Unlike documentation, it gives small working snippets rather than explanations.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.devsamples.com/&quot;&gt;https://www.devsamples.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>docsify</title>
-  <link href="https://docsify.js.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#docsify-js-org" rel="alternate" type="text/html"/>
   <id>https://docsify.js.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A tool turning Markdown files into a documentation site in the browser, with no build. Unlike static generators it has no build step — it serves the pages on the fly.</summary>
+  <content type="html">&lt;p&gt;A tool turning Markdown files into a documentation site in the browser, with no build. Unlike static generators it has no build step — it serves the pages on the fly.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://docsify.js.org/&quot;&gt;https://docsify.js.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Firefox Developer Edition</title>
-  <link href="https://www.mozilla.org/firefox/developer/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#mozilla-org-firefox-developer" rel="alternate" type="text/html"/>
   <id>https://www.mozilla.org/firefox/developer/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A build of Firefox for web developers, with advanced debugging tools built in. Unlike Chrome DevTools, its CSS Grid and Flexbox inspectors and its fonts panel are notably strong.</summary>
+  <content type="html">&lt;p&gt;A build of Firefox for web developers, with advanced debugging tools built in. Unlike Chrome DevTools, its CSS Grid and Flexbox inspectors and its fonts panel are notably strong.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.mozilla.org/firefox/developer/&quot;&gt;https://www.mozilla.org/firefox/developer/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Frontend Focus</title>
-  <link href="https://frontendfoc.us/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#frontendfoc-us" rel="alternate" type="text/html"/>
   <id>https://frontendfoc.us/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A newsletter rounding up frontend news, articles and tools weekly. Unlike scattered following it gives a single, filtered digest.</summary>
+  <content type="html">&lt;p&gt;A newsletter rounding up frontend news, articles and tools weekly. Unlike scattered following it gives a single, filtered digest.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://frontendfoc.us/&quot;&gt;https://frontendfoc.us/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Frontend Mentor</title>
-  <link href="https://www.frontendmentor.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#frontendmentor-io" rel="alternate" type="text/html"/>
   <id>https://www.frontendmentor.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A practice platform that gives realistic design files and asks you to turn them into code. Unlike random projects it comes with professional designs and community feedback.</summary>
+  <content type="html">&lt;p&gt;A practice platform that gives realistic design files and asks you to turn them into code. Unlike random projects it comes with professional designs and community feedback.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.frontendmentor.io/&quot;&gt;https://www.frontendmentor.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Joomla</title>
-  <link href="https://www.joomla.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#joomla-org" rel="alternate" type="text/html"/>
   <id>https://www.joomla.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An open-source content management system (CMS), an alternative to WordPress.</summary>
+  <content type="html">&lt;p&gt;An open-source content management system (CMS), an alternative to WordPress.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.joomla.org/&quot;&gt;https://www.joomla.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Patterns.dev</title>
-  <link href="https://www.patterns.dev"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#patterns-dev" rel="alternate" type="text/html"/>
   <id>https://www.patterns.dev</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A free resource explaining design and rendering patterns for modern web apps with examples. Unlike classic design-pattern books, it also covers rendering patterns — SSR, static generation, hydration, islands.</summary>
+  <content type="html">&lt;p&gt;A free resource explaining design and rendering patterns for modern web apps with examples. Unlike classic design-pattern books, it also covers rendering patterns — SSR, static generation, hydration, islands.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.patterns.dev&quot;&gt;https://www.patterns.dev&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>React Hook Form</title>
-  <link href="https://react-hook-form.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#react-hook-form-com" rel="alternate" type="text/html"/>
   <id>https://react-hook-form.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A library managing React forms with minimal re-renders and built-in validation. Unlike controlled components it keeps performance high and simplifies the code.</summary>
+  <content type="html">&lt;p&gt;A library managing React forms with minimal re-renders and built-in validation. Unlike controlled components it keeps performance high and simplifies the code.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://react-hook-form.com/&quot;&gt;https://react-hook-form.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Smashing Magazine</title>
-  <link href="https://www.smashingmagazine.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#smashingmagazine-com" rel="alternate" type="text/html"/>
   <id>https://www.smashingmagazine.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>In-depth articles, books and practical guides on web design and development. Unlike short blog posts, it publishes long, editor-reviewed articles.</summary>
+  <content type="html">&lt;p&gt;In-depth articles, books and practical guides on web design and development. Unlike short blog posts, it publishes long, editor-reviewed articles.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.smashingmagazine.com&quot;&gt;https://www.smashingmagazine.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>SweetAlert2</title>
-  <link href="https://sweetalert2.github.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#sweetalert2-github-io" rel="alternate" type="text/html"/>
   <id>https://sweetalert2.github.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A library replacing the browser’s ugly alert box with pretty, customisable modals. Unlike the built-in alert it supports styling, input fields and promises.</summary>
+  <content type="html">&lt;p&gt;A library replacing the browser’s ugly alert box with pretty, customisable modals. Unlike the built-in alert it supports styling, input fields and promises.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://sweetalert2.github.io/&quot;&gt;https://sweetalert2.github.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>web.dev</title>
-  <link href="https://web.dev/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/web.html#web-dev" rel="alternate" type="text/html"/>
   <id>https://web.dev/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Google’s guides and measurement tools for web quality — performance, accessibility, PWA. Unlike MDN it is a guide rather than a reference, explaining metrics such as Core Web Vitals and how to improve them.</summary>
+  <content type="html">&lt;p&gt;Google’s guides and measurement tools for web quality — performance, accessibility, PWA. Unlike MDN it is a guide rather than a reference, explaining metrics such as Core Web Vitals and how to improve them.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://web.dev/&quot;&gt;https://web.dev/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

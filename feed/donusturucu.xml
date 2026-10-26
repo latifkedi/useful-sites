@@ -2,281 +2,283 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
 <title>Dönüştürücü, Biçimlendirici &amp; Denetleyici — Kullanışlı Siteler</title>
 <subtitle>Yazılımdan yapay zekaya, güvenlikten ekonomiye ve mimariye on alanda elle derlenmiş, açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/donusturucu.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/donusturucu.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/donusturucu.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>CyberChef</title>
-  <link href="https://gchq.github.io/CyberChef/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#gchq-github-io-cyberchef" rel="alternate" type="text/html"/>
   <id>https://gchq.github.io/CyberChef/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>İngiliz GCHQ'nun tarayıcıda çalışan veri dönüştürme aracı; base64, hex, şifreleme, sıkıştırma ve ayrıştırma işlemlerini sürükle-bırak 'tarif' olarak zincirliyor. Tek amaçlı kodlayıcılardan farkı yüzlerce işlemi zincirlemesi; sayfa indirilip çevrimdışı da çalışır.</summary>
+  <content type="html">&lt;p&gt;İngiliz GCHQ'nun tarayıcıda çalışan veri dönüştürme aracı; base64, hex, şifreleme, sıkıştırma ve ayrıştırma işlemlerini sürükle-bırak 'tarif' olarak zincirliyor. Tek amaçlı kodlayıcılardan farkı yüzlerce işlemi zincirlemesi; sayfa indirilip çevrimdışı da çalışır.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://gchq.github.io/CyberChef/&quot;&gt;https://gchq.github.io/CyberChef/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>geojson.io</title>
-  <link href="https://geojson.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#geojson-io" rel="alternate" type="text/html"/>
   <id>https://geojson.io/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Harita üzerinde nokta, çizgi ve alan çizip GeoJSON’u yan panelde düzenleyen tarayıcı aracı; KML, shapefile, CSV gibi biçimlere dışa aktarıyor. QGIS’ten farkı kurulumsuz olması: küçük bir veri parçasını hızla çizmek ya da düzeltmek için, analiz için değil.</summary>
+  <content type="html">&lt;p&gt;Harita üzerinde nokta, çizgi ve alan çizip GeoJSON’u yan panelde düzenleyen tarayıcı aracı; KML, shapefile, CSV gibi biçimlere dışa aktarıyor. QGIS’ten farkı kurulumsuz olması: küçük bir veri parçasını hızla çizmek ya da düzeltmek için, analiz için değil.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://geojson.io/&quot;&gt;https://geojson.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Mapshaper</title>
-  <link href="https://mapshaper.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#mapshaper-org" rel="alternate" type="text/html"/>
   <id>https://mapshaper.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Shapefile, GeoJSON, TopoJSON ve CSV harita verisini tarayıcıda sadeleştirip biçimler arasında dönüştüren araç; aynı işlemler komut satırı sürümüyle betiklenebiliyor. geojson.io’dan farkı çizim değil, büyük sınır dosyalarını web için küçültmeye yönelik olması.</summary>
+  <content type="html">&lt;p&gt;Shapefile, GeoJSON, TopoJSON ve CSV harita verisini tarayıcıda sadeleştirip biçimler arasında dönüştüren araç; aynı işlemler komut satırı sürümüyle betiklenebiliyor. geojson.io’dan farkı çizim değil, büyük sınır dosyalarını web için küçültmeye yönelik olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://mapshaper.org/&quot;&gt;https://mapshaper.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Regexper</title>
-  <link href="https://regexper.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#regexper-com" rel="alternate" type="text/html"/>
   <id>https://regexper.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>JavaScript düzenli ifadesini demiryolu diyagramına çeviriyor; gruplar, alternatifler ve tekrarlar kutu ve oklarla görünüyor. regex101’den farkı eşleşme test etmemesi: başkasının yazdığı karmaşık bir ifadenin yapısını bir bakışta anlamak için.</summary>
+  <content type="html">&lt;p&gt;JavaScript düzenli ifadesini demiryolu diyagramına çeviriyor; gruplar, alternatifler ve tekrarlar kutu ve oklarla görünüyor. regex101’den farkı eşleşme test etmemesi: başkasının yazdığı karmaşık bir ifadenin yapısını bir bakışta anlamak için.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://regexper.com/&quot;&gt;https://regexper.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>SSLMate CAA Record Helper</title>
-  <link href="https://sslmate.com/caa/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#sslmate-com-caa" rel="alternate" type="text/html"/>
   <id>https://sslmate.com/caa/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Hangi sertifika otoritelerinin alan adın için sertifika verebileceğini belirleyen CAA DNS kaydını, otorite seçerek hazır biçimde üreten form. Sözdizimini elle yazmak yerine DNS sağlayıcına yapıştırılacak satırları veriyor.</summary>
+  <content type="html">&lt;p&gt;Hangi sertifika otoritelerinin alan adın için sertifika verebileceğini belirleyen CAA DNS kaydını, otorite seçerek hazır biçimde üreten form. Sözdizimini elle yazmak yerine DNS sağlayıcına yapıştırılacak satırları veriyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://sslmate.com/caa/&quot;&gt;https://sslmate.com/caa/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Tables Generator</title>
-  <link href="https://www.tablesgenerator.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#tablesgenerator-com" rel="alternate" type="text/html"/>
   <id>https://www.tablesgenerator.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Tabloyu hücre hücre görsel olarak kuruyorsun; çıktıyı LaTeX, HTML, Markdown, düz metin ya da MediaWiki olarak veriyor, CSV yapıştırmayı da kabul ediyor. Elle tabular yazmaktan farkı birleştirilmiş hücre ve kenarlık kodunu senin yerine üretmesi.</summary>
+  <content type="html">&lt;p&gt;Tabloyu hücre hücre görsel olarak kuruyorsun; çıktıyı LaTeX, HTML, Markdown, düz metin ya da MediaWiki olarak veriyor, CSV yapıştırmayı da kabul ediyor. Elle tabular yazmaktan farkı birleştirilmiş hücre ve kenarlık kodunu senin yerine üretmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.tablesgenerator.com/&quot;&gt;https://www.tablesgenerator.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>generatedata</title>
-  <link href="https://www.generatedata.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#generatedata-com" rel="alternate" type="text/html"/>
   <id>https://www.generatedata.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>İstenen şemaya göre gerçekçi sahte test verisi üreten araç (CSV, JSON, SQL). Elle veri uydurmaktan farkı isim, adres gibi alanları tutarlı ve toplu üretmesi.</summary>
+  <content type="html">&lt;p&gt;İstenen şemaya göre gerçekçi sahte test verisi üreten araç (CSV, JSON, SQL). Elle veri uydurmaktan farkı isim, adres gibi alanları tutarlı ve toplu üretmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.generatedata.com/&quot;&gt;https://www.generatedata.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Google Safe Browsing</title>
-  <link href="https://transparencyreport.google.com/safe-browsing/search"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#transparencyreport-google-com-safe-browsing-search" rel="alternate" type="text/html"/>
   <id>https://transparencyreport.google.com/safe-browsing/search</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Bir sitenin Google Güvenli Tarama kayıtlarında zararlı olarak işaretlenip işaretlenmediğini kontrol ediyor. VirusTotal gibi çok motorlu tarayıcılardan farkı yalnız Google’ın listesine bakması — Chrome kullanıcılarının göreceği uyarıyı önceden görürsün.</summary>
+  <content type="html">&lt;p&gt;Bir sitenin Google Güvenli Tarama kayıtlarında zararlı olarak işaretlenip işaretlenmediğini kontrol ediyor. VirusTotal gibi çok motorlu tarayıcılardan farkı yalnız Google’ın listesine bakması — Chrome kullanıcılarının göreceği uyarıyı önceden görürsün.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://transparencyreport.google.com/safe-browsing/search&quot;&gt;https://transparencyreport.google.com/safe-browsing/search&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Invertexto</title>
-  <link href="https://www.invertexto.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#invertexto-com" rel="alternate" type="text/html"/>
   <id>https://www.invertexto.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Metin ters çevirme, sayaç, dönüştürme gibi küçük metin araçlarını bir arada sunan Portekizce site. Tek işlevli sitelerden farkı onlarca küçük aracı tek adreste toplaması.</summary>
+  <content type="html">&lt;p&gt;Metin ters çevirme, sayaç, dönüştürme gibi küçük metin araçlarını bir arada sunan Portekizce site. Tek işlevli sitelerden farkı onlarca küçük aracı tek adreste toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.invertexto.com/&quot;&gt;https://www.invertexto.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>JSCompress</title>
-  <link href="https://jscompress.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#jscompress-com" rel="alternate" type="text/html"/>
   <id>https://jscompress.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>JavaScript kodunu tarayıcıda küçültüp (minify) boyutunu düşüren araç. Terser ya da esbuild gibi derleme hattı araçlarından farkı kurulum istemeden tek seferlik iş görmesi.</summary>
+  <content type="html">&lt;p&gt;JavaScript kodunu tarayıcıda küçültüp (minify) boyutunu düşüren araç. Terser ya da esbuild gibi derleme hattı araçlarından farkı kurulum istemeden tek seferlik iş görmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://jscompress.com/&quot;&gt;https://jscompress.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>JSON Editor Online</title>
-  <link href="https://jsoneditoronline.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#jsoneditoronline-org" rel="alternate" type="text/html"/>
   <id>https://jsoneditoronline.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>JSON’u ağaç ve metin görünümünde inceleyip düzenleyen tarayıcı aracı. Düz metin editöründen farkı yapıyı katlayıp doğrulayarak büyük JSON’da gezinmeyi kolaylaştırması.</summary>
+  <content type="html">&lt;p&gt;JSON’u ağaç ve metin görünümünde inceleyip düzenleyen tarayıcı aracı. Düz metin editöründen farkı yapıyı katlayıp doğrulayarak büyük JSON’da gezinmeyi kolaylaştırması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://jsoneditoronline.org/&quot;&gt;https://jsoneditoronline.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>JSON Sort</title>
-  <link href="https://jsonsort.net"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#jsonsort-net" rel="alternate" type="text/html"/>
   <id>https://jsonsort.net</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>JSON anahtarlarını alfabetik sıralayan ve biçimlendiren basit araç. jq gibi komut satırı araçlarından farkı tarayıcıda, sorgu yazmadan çalışması: iki JSON’u karşılaştırmadan önce sıralamak için.</summary>
+  <content type="html">&lt;p&gt;JSON anahtarlarını alfabetik sıralayan ve biçimlendiren basit araç. jq gibi komut satırı araçlarından farkı tarayıcıda, sorgu yazmadan çalışması: iki JSON’u karşılaştırmadan önce sıralamak için.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://jsonsort.net&quot;&gt;https://jsonsort.net&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>KeyCDN Tools</title>
-  <link href="https://tools.keycdn.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#tools-keycdn-com" rel="alternate" type="text/html"/>
   <id>https://tools.keycdn.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Ping, traceroute, HTTP başlık ve performans testi gibi ağ araçlarını bir arada sunuyor. Kendi makinenden ping atmaktan farkı testleri dünyanın farklı noktalarındaki sunuculardan yapması.</summary>
+  <content type="html">&lt;p&gt;Ping, traceroute, HTTP başlık ve performans testi gibi ağ araçlarını bir arada sunuyor. Kendi makinenden ping atmaktan farkı testleri dünyanın farklı noktalarındaki sunuculardan yapması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://tools.keycdn.com/&quot;&gt;https://tools.keycdn.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Lorem Ipsum</title>
-  <link href="https://www.lipsum.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#lipsum-com" rel="alternate" type="text/html"/>
   <id>https://www.lipsum.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Tasarım denemeleri için yer tutucu metin (lorem ipsum) üreten klasik araç. Gerçek içerik yerine geçici olarak kullanılıyor; metnin kökeni ve tarihi de sayfada anlatılıyor.</summary>
+  <content type="html">&lt;p&gt;Tasarım denemeleri için yer tutucu metin (lorem ipsum) üreten klasik araç. Gerçek içerik yerine geçici olarak kullanılıyor; metnin kökeni ve tarihi de sayfada anlatılıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.lipsum.com/&quot;&gt;https://www.lipsum.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Mockaroo</title>
-  <link href="https://www.mockaroo.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#mockaroo-com" rel="alternate" type="text/html"/>
   <id>https://www.mockaroo.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Belirlediğin şemaya göre gerçekçi sahte test verisi (CSV, JSON, SQL) üreten araç. Faker gibi kütüphanelerden farkı kod yazmadan arayüzden alan tanımlayıp binlerce satır indirebilmen.</summary>
+  <content type="html">&lt;p&gt;Belirlediğin şemaya göre gerçekçi sahte test verisi (CSV, JSON, SQL) üreten araç. Faker gibi kütüphanelerden farkı kod yazmadan arayüzden alan tanımlayıp binlerce satır indirebilmen.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.mockaroo.com/&quot;&gt;https://www.mockaroo.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Password Generator</title>
-  <link href="https://danieldeev.github.io/password-generator/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#danieldeev-github-io-password-generator" rel="alternate" type="text/html"/>
   <id>https://danieldeev.github.io/password-generator/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Uzunluk ve karakter türü ayarlanabilen basit parola üretici. Sunucuya istek atan çevrimiçi üreteçlerin aksine statik bir sayfa: parola tarayıcında üretiliyor.</summary>
+  <content type="html">&lt;p&gt;Uzunluk ve karakter türü ayarlanabilen basit parola üretici. Sunucuya istek atan çevrimiçi üreteçlerin aksine statik bir sayfa: parola tarayıcında üretiliyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://danieldeev.github.io/password-generator/&quot;&gt;https://danieldeev.github.io/password-generator/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Wappalyzer</title>
-  <link href="https://www.wappalyzer.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#wappalyzer-com" rel="alternate" type="text/html"/>
   <id>https://www.wappalyzer.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Bir sitenin hangi teknolojilerle (çatı, sunucu, analitik) kurulduğunu gösteren araç ve tarayıcı eklentisi. Kaynak kodu elle incelemekten farkı parmak izlerini otomatik tanıması.</summary>
+  <content type="html">&lt;p&gt;Bir sitenin hangi teknolojilerle (çatı, sunucu, analitik) kurulduğunu gösteren araç ve tarayıcı eklentisi. Kaynak kodu elle incelemekten farkı parmak izlerini otomatik tanıması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.wappalyzer.com/&quot;&gt;https://www.wappalyzer.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Website Grader</title>
-  <link href="https://website.grader.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#website-grader-com" rel="alternate" type="text/html"/>
   <id>https://website.grader.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>HubSpot’un bir sitenin performans, SEO, mobil uyum ve güvenliğini puanlayan ücretsiz aracı. Lighthouse’a kıyasla daha yüzeysel ama sonucu teknik olmayan birine anlatılabilir bir karneye çeviriyor.</summary>
+  <content type="html">&lt;p&gt;HubSpot’un bir sitenin performans, SEO, mobil uyum ve güvenliğini puanlayan ücretsiz aracı. Lighthouse’a kıyasla daha yüzeysel ama sonucu teknik olmayan birine anlatılabilir bir karneye çeviriyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://website.grader.com/&quot;&gt;https://website.grader.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>XML Sitemaps</title>
-  <link href="https://www.xml-sitemaps.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#xml-sitemaps-com" rel="alternate" type="text/html"/>
   <id>https://www.xml-sitemaps.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Bir siteyi tarayıp arama motorları için sitemap.xml dosyası üreten araç. Site üreteçlerinin yerleşik sitemap’inden farkı herhangi bir siteyi dışarıdan tarayabilmesi; ücretsiz sürüm 500 sayfayla sınırlı.</summary>
+  <content type="html">&lt;p&gt;Bir siteyi tarayıp arama motorları için sitemap.xml dosyası üreten araç. Site üreteçlerinin yerleşik sitemap’inden farkı herhangi bir siteyi dışarıdan tarayabilmesi; ücretsiz sürüm 500 sayfayla sınırlı.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.xml-sitemaps.com/&quot;&gt;https://www.xml-sitemaps.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Beautifier.io</title>
-  <link href="https://beautifier.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#beautifier-io" rel="alternate" type="text/html"/>
   <id>https://beautifier.io/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>JavaScript, HTML ve CSS’i biçimlendiren, küçültülmüş kodu açan araç. Prettier’dan farkı kurulum gerektirmemesi ve okunamaz hâle getirilmiş kodu geri açabilmesi — başkasının küçültülmüş dosyasını incelemek için.</summary>
+  <content type="html">&lt;p&gt;JavaScript, HTML ve CSS’i biçimlendiren, küçültülmüş kodu açan araç. Prettier’dan farkı kurulum gerektirmemesi ve okunamaz hâle getirilmiş kodu geri açabilmesi — başkasının küçültülmüş dosyasını incelemek için.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://beautifier.io/&quot;&gt;https://beautifier.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CodeBeautify</title>
-  <link href="https://codebeautify.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#codebeautify-org" rel="alternate" type="text/html"/>
   <id>https://codebeautify.org/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Biçimlendirme, doğrulama ve dönüştürme araçlarının toplandığı site: JSON, XML, YAML, SQL, Base64. IT Tools’tan farkı daha geniş ama daha reklamlı olması — burada olmayan bir dönüşüm bulmak zor.</summary>
+  <content type="html">&lt;p&gt;Biçimlendirme, doğrulama ve dönüştürme araçlarının toplandığı site: JSON, XML, YAML, SQL, Base64. IT Tools’tan farkı daha geniş ama daha reklamlı olması — burada olmayan bir dönüşüm bulmak zor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://codebeautify.org/&quot;&gt;https://codebeautify.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Debuggex</title>
-  <link href="https://www.debuggex.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#debuggex-com" rel="alternate" type="text/html"/>
   <id>https://www.debuggex.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Düzenli ifadeyi durum diyagramına çeviren görsel test aracı; JavaScript, Python ve PCRE destekliyor. regex101’den farkı jeton listesi yerine akış şeması çizmesi — iç içe grupların yapısını görmek için daha okunaklı.</summary>
+  <content type="html">&lt;p&gt;Düzenli ifadeyi durum diyagramına çeviren görsel test aracı; JavaScript, Python ve PCRE destekliyor. regex101’den farkı jeton listesi yerine akış şeması çizmesi — iç içe grupların yapısını görmek için daha okunaklı.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.debuggex.com/&quot;&gt;https://www.debuggex.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Diffchecker</title>
-  <link href="https://www.diffchecker.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#diffchecker-com" rel="alternate" type="text/html"/>
   <id>https://www.diffchecker.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Metin, görsel, PDF ve klasör karşılaştıran fark aracı. `diff` komutundan farkı biçimlendirme ve görsel karşılaştırma yapabilmesi — iki PDF sözleşme arasındaki farkı bulmak için komut satırı yetmiyor.</summary>
+  <content type="html">&lt;p&gt;Metin, görsel, PDF ve klasör karşılaştıran fark aracı. `diff` komutundan farkı biçimlendirme ve görsel karşılaştırma yapabilmesi — iki PDF sözleşme arasındaki farkı bulmak için komut satırı yetmiyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.diffchecker.com/&quot;&gt;https://www.diffchecker.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>ExtendsClass</title>
-  <link href="https://extendsclass.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#extendsclass-com" rel="alternate" type="text/html"/>
   <id>https://extendsclass.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Geliştirici araçları koleksiyonu: REST istemcisi, SQLite tarayıcı, XML/JSON doğrulayıcı, normal ifade testi. IT Tools gibi derlemelerden farkı veritabanı ve API istemcisi gibi &quot;ağır&quot; araçları da tarayıcıda çalıştırması.</summary>
+  <content type="html">&lt;p&gt;Geliştirici araçları koleksiyonu: REST istemcisi, SQLite tarayıcı, XML/JSON doğrulayıcı, normal ifade testi. IT Tools gibi derlemelerden farkı veritabanı ve API istemcisi gibi &amp;quot;ağır&amp;quot; araçları da tarayıcıda çalıştırması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://extendsclass.com/&quot;&gt;https://extendsclass.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>IEEE-754 Converter</title>
-  <link href="https://www.h-schmidt.net/FloatConverter/IEEE754.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#h-schmidt-net-floatconverter-ieee754-html" rel="alternate" type="text/html"/>
   <id>https://www.h-schmidt.net/FloatConverter/IEEE754.html</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Ondalık sayı ile IEEE-754 kayan nokta gösterimi arasında iki yönlü dönüştürücü; bitleri tek tek çevirebiliyorsun. Hesap makinesinden farkı yuvarlama hatasının nereden geldiğini göstermesi — 0.1 + 0.2 sorusunun cevabı burada görünüyor.</summary>
+  <content type="html">&lt;p&gt;Ondalık sayı ile IEEE-754 kayan nokta gösterimi arasında iki yönlü dönüştürücü; bitleri tek tek çevirebiliyorsun. Hesap makinesinden farkı yuvarlama hatasının nereden geldiğini göstermesi — 0.1 + 0.2 sorusunun cevabı burada görünüyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.h-schmidt.net/FloatConverter/IEEE754.html&quot;&gt;https://www.h-schmidt.net/FloatConverter/IEEE754.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>IT Tools</title>
-  <link href="https://it-tools.tech/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#it-tools-tech" rel="alternate" type="text/html"/>
   <id>https://it-tools.tech/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Seksen küsur geliştirici aracı tek sayfada: hash, JWT çözücü, cron ifadesi, UUID, renk dönüştürücü. Tek tek araç sitelerinden farkı hepsinin tarayıcıda çalışması ve Docker ile kendi sunucuna kurulabilmesi — veri dışarı çıkmıyor.</summary>
+  <content type="html">&lt;p&gt;Seksen küsur geliştirici aracı tek sayfada: hash, JWT çözücü, cron ifadesi, UUID, renk dönüştürücü. Tek tek araç sitelerinden farkı hepsinin tarayıcıda çalışması ve Docker ile kendi sunucuna kurulabilmesi — veri dışarı çıkmıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://it-tools.tech/&quot;&gt;https://it-tools.tech/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>JSONLint</title>
-  <link href="https://jsonlint.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#jsonlint-com" rel="alternate" type="text/html"/>
   <id>https://jsonlint.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>JSON doğrulayıcı ve biçimlendirici; hatanın hangi satırda ve neden olduğunu söylüyor. Editör eklentisinden farkı bir şey kurmadan çalışması — API’den gelen bozuk yanıtı hızlıca incelemek için.</summary>
+  <content type="html">&lt;p&gt;JSON doğrulayıcı ve biçimlendirici; hatanın hangi satırda ve neden olduğunu söylüyor. Editör eklentisinden farkı bir şey kurmadan çalışması — API’den gelen bozuk yanıtı hızlıca incelemek için.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://jsonlint.com/&quot;&gt;https://jsonlint.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Regulex</title>
-  <link href="https://jex.im/regulex/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#jex-im-regulex" rel="alternate" type="text/html"/>
   <id>https://jex.im/regulex/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>JavaScript düzenli ifadelerini demiryolu diyagramı olarak çizen araç. Debuggex’ten farkı tamamen istemci tarafında çalışması ve diyagramı SVG olarak dışa aktarabilmesi — belgeye koymak için elverişli.</summary>
+  <content type="html">&lt;p&gt;JavaScript düzenli ifadelerini demiryolu diyagramı olarak çizen araç. Debuggex’ten farkı tamamen istemci tarafında çalışması ve diyagramı SVG olarak dışa aktarabilmesi — belgeye koymak için elverişli.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://jex.im/regulex/&quot;&gt;https://jex.im/regulex/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>regex101</title>
-  <link href="https://regex101.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#regex101-com" rel="alternate" type="text/html"/>
   <id>https://regex101.com/</id>
   <updated>2026-08-19T23:34:13Z</updated>
-  <summary>İfadeyi jeton jeton açıklıyor ve hata ayıklayıcısıyla eşleşmenin nerede koptuğunu gösteriyor. RegExr’dan farkı PCRE, JavaScript, Python ve Go lehçeleri arasında geçiş yapabilmen.</summary>
+  <content type="html">&lt;p&gt;İfadeyi jeton jeton açıklıyor ve hata ayıklayıcısıyla eşleşmenin nerede koptuğunu gösteriyor. RegExr’dan farkı PCRE, JavaScript, Python ve Go lehçeleri arasında geçiş yapabilmen.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://regex101.com/&quot;&gt;https://regex101.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CORS Tester</title>
-  <link href="https://cors-error.dev/cors-tester/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#cors-error-dev-cors-tester" rel="alternate" type="text/html"/>
   <id>https://cors-error.dev/cors-tester/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Bir API’nin CORS başlıklarını dışarıdan test ediyor. Tarayıcı konsolunun belirsiz CORS hatasından farkı sorunun hangi başlıktan geldiğini açıkça söylemesi.</summary>
+  <content type="html">&lt;p&gt;Bir API’nin CORS başlıklarını dışarıdan test ediyor. Tarayıcı konsolunun belirsiz CORS hatasından farkı sorunun hangi başlıktan geldiğini açıkça söylemesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cors-error.dev/cors-tester/&quot;&gt;https://cors-error.dev/cors-tester/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Crontab Guru</title>
-  <link href="https://crontab.guru/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#crontab-guru" rel="alternate" type="text/html"/>
   <id>https://crontab.guru/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Cron ifadesini yazdıkça düz dille ne anlama geldiğini ve sonraki çalışma zamanlarını gösteriyor. man sayfasını okumaktan farkı sonucu anında görmen: yıldız ve eğik çizgi kombinasyonlarını tahmin etmeye son veriyor.</summary>
+  <content type="html">&lt;p&gt;Cron ifadesini yazdıkça düz dille ne anlama geldiğini ve sonraki çalışma zamanlarını gösteriyor. man sayfasını okumaktan farkı sonucu anında görmen: yıldız ve eğik çizgi kombinasyonlarını tahmin etmeye son veriyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://crontab.guru/&quot;&gt;https://crontab.guru/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>explainshell</title>
-  <link href="https://explainshell.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#explainshell-com" rel="alternate" type="text/html"/>
   <id>https://explainshell.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Bir kabuk komutunu yapıştırınca her parçasının man sayfasındaki karşılığını gösteriyor. `man` okumaktan farkı ters yönde çalışması — elindeki komutun `-xzvf` kısmının ne anlama geldiğini kılavuzu taramadan öğreniyorsun.</summary>
+  <content type="html">&lt;p&gt;Bir kabuk komutunu yapıştırınca her parçasının man sayfasındaki karşılığını gösteriyor. `man` okumaktan farkı ters yönde çalışması — elindeki komutun `-xzvf` kısmının ne anlama geldiğini kılavuzu taramadan öğreniyorsun.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://explainshell.com/&quot;&gt;https://explainshell.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>gitignore.io</title>
-  <link href="https://www.gitignore.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#gitignore-io" rel="alternate" type="text/html"/>
   <id>https://www.gitignore.io/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>İşletim sistemi, editör ve dil seçerek `.gitignore` dosyası üretiyor. GitHub’ın tek tek şablonlarından farkı birden çok şablonu birleştirmesi: her projede aynı satırları elle yazmaya son veriyor.</summary>
+  <content type="html">&lt;p&gt;İşletim sistemi, editör ve dil seçerek `.gitignore` dosyası üretiyor. GitHub’ın tek tek şablonlarından farkı birden çok şablonu birleştirmesi: her projede aynı satırları elle yazmaya son veriyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.gitignore.io/&quot;&gt;https://www.gitignore.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>JSON Crack</title>
-  <link href="https://jsoncrack.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#jsoncrack-com" rel="alternate" type="text/html"/>
   <id>https://jsoncrack.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>JSON’u ağaç yerine düğüm grafiği olarak çiziyor; iç içe yapılar tek bakışta görülüyor. JSON biçimlendiricilerinden farkı bu grafik gösterim — derin bir yanıtın şeklini anlamak için girintilere bakmaktan hızlı.</summary>
+  <content type="html">&lt;p&gt;JSON’u ağaç yerine düğüm grafiği olarak çiziyor; iç içe yapılar tek bakışta görülüyor. JSON biçimlendiricilerinden farkı bu grafik gösterim — derin bir yanıtın şeklini anlamak için girintilere bakmaktan hızlı.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://jsoncrack.com/&quot;&gt;https://jsoncrack.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Kody Tools</title>
-  <link href="https://www.kodytools.com/dev-tools"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#kodytools-com-dev-tools" rel="alternate" type="text/html"/>
   <id>https://www.kodytools.com/dev-tools</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Dönüştürücü, biçimlendirici ve üreteçlerden oluşan geliştirici araç koleksiyonu. IT Tools gibi derlemelerden farkı görsel ve metin araçlarını bir arada tutması — renk, görsel ve kod araçları aynı yerde.</summary>
+  <content type="html">&lt;p&gt;Dönüştürücü, biçimlendirici ve üreteçlerden oluşan geliştirici araç koleksiyonu. IT Tools gibi derlemelerden farkı görsel ve metin araçlarını bir arada tutması — renk, görsel ve kod araçları aynı yerde.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.kodytools.com/dev-tools&quot;&gt;https://www.kodytools.com/dev-tools&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>RegExr</title>
-  <link href="https://regexr.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#regexr-com" rel="alternate" type="text/html"/>
   <id>https://regexr.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Düzenli ifade test aracı; regex101’e alternatif, arayüzü daha sade ve topluluk örnekleri kütüphanesi var.</summary>
+  <content type="html">&lt;p&gt;Düzenli ifade test aracı; regex101’e alternatif, arayüzü daha sade ve topluluk örnekleri kütüphanesi var.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://regexr.com&quot;&gt;https://regexr.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Solid Dev Tools</title>
-  <link href="https://soliddevtools.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#soliddevtools-com" rel="alternate" type="text/html"/>
   <id>https://soliddevtools.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Geliştirici ve sistem yöneticileri için çevrimiçi hata ayıklama ve ağ araçları koleksiyonu. Tek işlevli araç sitelerinden farkı DNS, HTTP ve kodlama gibi araçları tek yerde toplaması.</summary>
+  <content type="html">&lt;p&gt;Geliştirici ve sistem yöneticileri için çevrimiçi hata ayıklama ve ağ araçları koleksiyonu. Tek işlevli araç sitelerinden farkı DNS, HTTP ve kodlama gibi araçları tek yerde toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://soliddevtools.com&quot;&gt;https://soliddevtools.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Textise</title>
-  <link href="https://www.textise.net/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#textise-net" rel="alternate" type="text/html"/>
   <id>https://www.textise.net/</id>
   <updated>2026-07-28T07:54:53Z</updated>
-  <summary>Sayfayı yalnızca metne indiriyor. Tarayıcının okuma modundan farkı sayfanın tamamını düz metne çevirmesi: reklam ve düzen gürültüsünü kaldırmanın yanında ekran okuyucunun sayfayı nasıl gördüğünü kabaca test etmeye de yarıyor.</summary>
+  <content type="html">&lt;p&gt;Sayfayı yalnızca metne indiriyor. Tarayıcının okuma modundan farkı sayfanın tamamını düz metne çevirmesi: reklam ve düzen gürültüsünü kaldırmanın yanında ekran okuyucunun sayfayı nasıl gördüğünü kabaca test etmeye de yarıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.textise.net/&quot;&gt;https://www.textise.net/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Transform</title>
-  <link href="https://transform.tools/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/donusturucu.html#transform-tools" rel="alternate" type="text/html"/>
   <id>https://transform.tools/</id>
   <updated>2025-11-24T07:23:59Z</updated>
-  <summary>Biçimler arası dönüştürücü koleksiyonu: JSON’dan TypeScript tipine, HTML’den JSX’e, SVG’den React bileşenine. Her dönüşüm için ayrı site aramak yerine hepsi tek yerde.</summary>
+  <content type="html">&lt;p&gt;Biçimler arası dönüştürücü koleksiyonu: JSON’dan TypeScript tipine, HTML’den JSX’e, SVG’den React bileşenine. Her dönüşüm için ayrı site aramak yerine hepsi tek yerde.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://transform.tools/&quot;&gt;https://transform.tools/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

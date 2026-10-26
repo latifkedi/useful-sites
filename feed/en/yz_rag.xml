@@ -2,239 +2,241 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title>AI · RAG, Embeddings &amp; Vectors — Useful Sites</title>
 <subtitle>A hand-curated, annotated link directory across ten areas, from software and AI to security, economics and architecture. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/en/yz_rag.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/yz_rag.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/yz_rag.xml</id>
 <updated>2026-08-19T23:17:28Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>Raven</title>
-  <link href="https://github.com/evermind-ai/raven"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#github-com-evermind-ai-raven" rel="alternate" type="text/html"/>
   <id>https://github.com/evermind-ai/raven</id>
   <updated>2026-08-19T23:17:28Z</updated>
-  <summary>A memory-first agent harness. Unlike agents that start every session from scratch, it centres on learning across sessions and refining its own configuration.</summary>
+  <content type="html">&lt;p&gt;A memory-first agent harness. Unlike agents that start every session from scratch, it centres on learning across sessions and refining its own configuration.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/evermind-ai/raven&quot;&gt;https://github.com/evermind-ai/raven&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Atlas Vector Search</title>
-  <link href="https://www.mongodb.com/products/platform/atlas-vector-search"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#mongodb-com-products-platform-atlas-vector-search" rel="alternate" type="text/html"/>
   <id>https://www.mongodb.com/products/platform/atlas-vector-search</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The vector index sits beside your documents. Unlike a separate vector database, it removes the copy-and-sync burden; full support is on Atlas, and the feature is newer in self-managed MongoDB.</summary>
+  <content type="html">&lt;p&gt;The vector index sits beside your documents. Unlike a separate vector database, it removes the copy-and-sync burden; full support is on Atlas, and the feature is newer in self-managed MongoDB.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.mongodb.com/products/platform/atlas-vector-search&quot;&gt;https://www.mongodb.com/products/platform/atlas-vector-search&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>BGE Modelleri</title>
-  <link href="https://huggingface.co/BAAI"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#huggingface-co-baai" rel="alternate" type="text/html"/>
   <id>https://huggingface.co/BAAI</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The most widely used family of open embedding models. Compared with paid embedding APIs it sits close on the MTEB leaderboard, and most releases are MIT — commercial use is unblocked and data stays on your machine.</summary>
+  <content type="html">&lt;p&gt;The most widely used family of open embedding models. Compared with paid embedding APIs it sits close on the MTEB leaderboard, and most releases are MIT — commercial use is unblocked and data stays on your machine.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://huggingface.co/BAAI&quot;&gt;https://huggingface.co/BAAI&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Chroma</title>
-  <link href="https://www.trychroma.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#trychroma-com" rel="alternate" type="text/html"/>
   <id>https://www.trychroma.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A vector database that runs embedded in your application with no server process — usable straight after `pip install`. Unlike server-based ones such as Qdrant or Milvus it is among the quickest for a prototype; at production scale you may hand off to something else.</summary>
+  <content type="html">&lt;p&gt;A vector database that runs embedded in your application with no server process — usable straight after `pip install`. Unlike server-based ones such as Qdrant or Milvus it is among the quickest for a prototype; at production scale you may hand off to something else.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.trychroma.com/&quot;&gt;https://www.trychroma.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Cohere Embed</title>
-  <link href="https://cohere.com/embed"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#cohere-com-embed" rel="alternate" type="text/html"/>
   <id>https://cohere.com/embed</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Represents 100+ languages in one vector space, so a Turkish query can retrieve an English document. Unlike OpenAI embeddings it takes separate input types for query and document — the distinction that lifts match quality.</summary>
+  <content type="html">&lt;p&gt;Represents 100+ languages in one vector space, so a Turkish query can retrieve an English document. Unlike OpenAI embeddings it takes separate input types for query and document — the distinction that lifts match quality.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cohere.com/embed&quot;&gt;https://cohere.com/embed&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Elasticsearch</title>
-  <link href="https://www.elastic.co/elasticsearch"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#elastic-co-elasticsearch" rel="alternate" type="text/html"/>
   <id>https://www.elastic.co/elasticsearch</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Combines BM25 keyword search with vector search in a single query and fuses the results with RRF. Unlike pure vector databases, it has exactly that keyword half.</summary>
+  <content type="html">&lt;p&gt;Combines BM25 keyword search with vector search in a single query and fuses the results with RRF. Unlike pure vector databases, it has exactly that keyword half.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.elastic.co/elasticsearch&quot;&gt;https://www.elastic.co/elasticsearch&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>GraphRAG</title>
-  <link href="https://microsoft.github.io/graphrag/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#microsoft-github-io-graphrag" rel="alternate" type="text/html"/>
   <id>https://microsoft.github.io/graphrag/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Extracts entities and relations into a knowledge graph, then builds community summaries. Unlike classic chunk-retrieval RAG, it can answer corpus-wide questions such as “what are the main themes here”.</summary>
+  <content type="html">&lt;p&gt;Extracts entities and relations into a knowledge graph, then builds community summaries. Unlike classic chunk-retrieval RAG, it can answer corpus-wide questions such as “what are the main themes here”.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://microsoft.github.io/graphrag/&quot;&gt;https://microsoft.github.io/graphrag/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Haystack</title>
-  <link href="https://haystack.deepset.ai/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#haystack-deepset-ai" rel="alternate" type="text/html"/>
   <id>https://haystack.deepset.ai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>You wire components together explicitly, so what happens at each stage stays readable. Unlike LangChain’s implicit flow it is transparent — a visible win when debugging.</summary>
+  <content type="html">&lt;p&gt;You wire components together explicitly, so what happens at each stage stays readable. Unlike LangChain’s implicit flow it is transparent — a visible win when debugging.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://haystack.deepset.ai/&quot;&gt;https://haystack.deepset.ai/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Jina AI</title>
-  <link href="https://jina.ai"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#jina-ai" rel="alternate" type="text/html"/>
   <id>https://jina.ai</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Multimodal embedding and search infrastructure that makes documents and images searchable by vector. Unlike single-modality embedding APIs it places text and images in one space, and it also offers a reader that turns web pages into model-ready text, plus rerankers.</summary>
+  <content type="html">&lt;p&gt;Multimodal embedding and search infrastructure that makes documents and images searchable by vector. Unlike single-modality embedding APIs it places text and images in one space, and it also offers a reader that turns web pages into model-ready text, plus rerankers.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://jina.ai&quot;&gt;https://jina.ai&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>LangGraph Memory</title>
-  <link href="https://langchain-ai.github.io/langgraph/concepts/memory/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#langchain-ai-github-io-langgraph-concepts-memory" rel="alternate" type="text/html"/>
   <id>https://langchain-ai.github.io/langgraph/concepts/memory/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The concept page separating short-term memory (in-thread state) from long-term (a cross-thread store), and when each applies. Unlike general writing on agent memory, it ties the distinction to the concrete LangGraph API.</summary>
+  <content type="html">&lt;p&gt;The concept page separating short-term memory (in-thread state) from long-term (a cross-thread store), and when each applies. Unlike general writing on agent memory, it ties the distinction to the concrete LangGraph API.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://langchain-ai.github.io/langgraph/concepts/memory/&quot;&gt;https://langchain-ai.github.io/langgraph/concepts/memory/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Letta</title>
-  <link href="https://www.letta.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#letta-com" rel="alternate" type="text/html"/>
   <id>https://www.letta.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The productised form of the MemGPT research. Unlike flat vector memory, it manages the context window like an operating system, keeping hot state in the window and paging the rest to external storage.</summary>
+  <content type="html">&lt;p&gt;The productised form of the MemGPT research. Unlike flat vector memory, it manages the context window like an operating system, keeping hot state in the window and paging the rest to external storage.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.letta.com/&quot;&gt;https://www.letta.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>LlamaIndex</title>
-  <link href="https://www.llamaindex.ai/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#llamaindex-ai" rel="alternate" type="text/html"/>
   <id>https://www.llamaindex.ai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Makes each stage — loading, chunking, indexing, querying — independently swappable. Not a general-purpose framework: it is built for someone tuning a retrieval pipeline.</summary>
+  <content type="html">&lt;p&gt;Makes each stage — loading, chunking, indexing, querying — independently swappable. Not a general-purpose framework: it is built for someone tuning a retrieval pipeline.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.llamaindex.ai/&quot;&gt;https://www.llamaindex.ai/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Marqo</title>
-  <link href="https://www.marqo.ai"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#marqo-ai" rel="alternate" type="text/html"/>
   <id>https://www.marqo.ai</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An end-to-end vector search engine that handles everything from embedding generation to search. Instead of standing up a separate embedding service and vector database, you hand it raw text or images and search directly.</summary>
+  <content type="html">&lt;p&gt;An end-to-end vector search engine that handles everything from embedding generation to search. Instead of standing up a separate embedding service and vector database, you hand it raw text or images and search directly.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.marqo.ai&quot;&gt;https://www.marqo.ai&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Mem0</title>
-  <link href="https://mem0.ai/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#mem0-ai" rel="alternate" type="text/html"/>
   <id>https://mem0.ai/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Stores facts extracted from conversation, updates contradictions and drops the irrelevant. A layer that decides what is worth remembering instead of accumulating raw history.</summary>
+  <content type="html">&lt;p&gt;Stores facts extracted from conversation, updates contradictions and drops the irrelevant. A layer that decides what is worth remembering instead of accumulating raw history.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://mem0.ai/&quot;&gt;https://mem0.ai/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Mem0 (kaynak)</title>
-  <link href="https://github.com/mem0ai/mem0"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#github-com-mem0ai-mem0" rel="alternate" type="text/html"/>
   <id>https://github.com/mem0ai/mem0</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The self-hostable version of the Mem0 memory layer. Instead of the hosted Mem0 platform you keep the data yourself; the Embedchain project was merged in here too, so older Embedchain links land here.</summary>
+  <content type="html">&lt;p&gt;The self-hostable version of the Mem0 memory layer. Instead of the hosted Mem0 platform you keep the data yourself; the Embedchain project was merged in here too, so older Embedchain links land here.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/mem0ai/mem0&quot;&gt;https://github.com/mem0ai/mem0&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Milvus</title>
-  <link href="https://milvus.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#milvus-io" rel="alternate" type="text/html"/>
   <id>https://milvus.io/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A distributed vector database separating storage from compute, built for billion-scale collections. Compared with Qdrant it targets larger scale; the distributed setup wants Kubernetes, while Milvus Lite and a single-node build cover small projects.</summary>
+  <content type="html">&lt;p&gt;A distributed vector database separating storage from compute, built for billion-scale collections. Compared with Qdrant it targets larger scale; the distributed setup wants Kubernetes, while Milvus Lite and a single-node build cover small projects.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://milvus.io/&quot;&gt;https://milvus.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Neo4j</title>
-  <link href="https://neo4j.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#neo4j-com" rel="alternate" type="text/html"/>
   <id>https://neo4j.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Relationships are first-class data, not foreign keys. Multi-hop traversals in Cypher are both shorter and faster than the nested JOINs the same question needs in SQL.</summary>
+  <content type="html">&lt;p&gt;Relationships are first-class data, not foreign keys. Multi-hop traversals in Cypher are both shorter and faster than the nested JOINs the same question needs in SQL.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://neo4j.com/&quot;&gt;https://neo4j.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OpenAI Embeddings</title>
-  <link href="https://platform.openai.com/docs/guides/embeddings"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#platform-openai-com-docs-guides-embeddings" rel="alternate" type="text/html"/>
   <id>https://platform.openai.com/docs/guides/embeddings</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Reference for the text-embedding-3 family — dimensions, pricing, usage. Compared with open embedding models there is nothing to operate, and Matryoshka support lets you truncate vector dimensions on demand to cut storage cost.</summary>
+  <content type="html">&lt;p&gt;Reference for the text-embedding-3 family — dimensions, pricing, usage. Compared with open embedding models there is nothing to operate, and Matryoshka support lets you truncate vector dimensions on demand to cut storage cost.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://platform.openai.com/docs/guides/embeddings&quot;&gt;https://platform.openai.com/docs/guides/embeddings&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>pgvector</title>
-  <link href="https://github.com/pgvector/pgvector"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#github-com-pgvector-pgvector" rel="alternate" type="text/html"/>
   <id>https://github.com/pgvector/pgvector</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An extension adding a vector type plus HNSW and IVFFlat indexes to PostgreSQL. Unlike a separate vector database, it keeps vectors in the same transaction as your relational data.</summary>
+  <content type="html">&lt;p&gt;An extension adding a vector type plus HNSW and IVFFlat indexes to PostgreSQL. Unlike a separate vector database, it keeps vectors in the same transaction as your relational data.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/pgvector/pgvector&quot;&gt;https://github.com/pgvector/pgvector&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Pinecone</title>
-  <link href="https://www.pinecone.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#pinecone-io" rel="alternate" type="text/html"/>
   <id>https://www.pinecone.io/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A fully managed vector database whose serverless tier removes capacity planning. Compared with self-run options such as Qdrant or pgvector it has the lowest operational burden, at the cost of control over where the data sits.</summary>
+  <content type="html">&lt;p&gt;A fully managed vector database whose serverless tier removes capacity planning. Compared with self-run options such as Qdrant or pgvector it has the lowest operational burden, at the cost of control over where the data sits.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.pinecone.io/&quot;&gt;https://www.pinecone.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>PostgreSQL</title>
-  <link href="https://www.postgresql.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#postgresql-org" rel="alternate" type="text/html"/>
   <id>https://www.postgresql.org/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>With JSONB, full-text search and pgvector it now does the work of three separate systems. Instead of running a document store, a search engine and a vector database separately, it simplifies early-stage architecture considerably.</summary>
+  <content type="html">&lt;p&gt;With JSONB, full-text search and pgvector it now does the work of three separate systems. Instead of running a document store, a search engine and a vector database separately, it simplifies early-stage architecture considerably.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.postgresql.org/&quot;&gt;https://www.postgresql.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Qdrant</title>
-  <link href="https://qdrant.tech/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#qdrant-tech" rel="alternate" type="text/html"/>
   <id>https://qdrant.tech/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A vector database written in Rust that executes heavy metadata filtering alongside the vector search. Unlike Pinecone it is open source and self-hostable; its low memory footprint lets a small VPS carry a serious collection.</summary>
+  <content type="html">&lt;p&gt;A vector database written in Rust that executes heavy metadata filtering alongside the vector search. Unlike Pinecone it is open source and self-hostable; its low memory footprint lets a small VPS carry a serious collection.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://qdrant.tech/&quot;&gt;https://qdrant.tech/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Ragas</title>
-  <link href="https://docs.ragas.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#docs-ragas-io" rel="alternate" type="text/html"/>
   <id>https://docs.ragas.io/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A metrics library for RAG pipelines, including metrics that work without reference answers. Instead of evaluating by reading samples by hand, it can generate a synthetic test set so evaluation runs in CI.</summary>
+  <content type="html">&lt;p&gt;A metrics library for RAG pipelines, including metrics that work without reference answers. Instead of evaluating by reading samples by hand, it can generate a synthetic test set so evaluation runs in CI.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://docs.ragas.io/&quot;&gt;https://docs.ragas.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>RAGFlow</title>
-  <link href="https://ragflow.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#ragflow-io" rel="alternate" type="text/html"/>
   <id>https://ragflow.io/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Built on deep document parsing: it recognises complex PDF layouts, tables and figures before chunking. Not a library but a full service you stand up with Docker.</summary>
+  <content type="html">&lt;p&gt;Built on deep document parsing: it recognises complex PDF layouts, tables and figures before chunking. Not a library but a full service you stand up with Docker.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://ragflow.io/&quot;&gt;https://ragflow.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Redis</title>
-  <link href="https://redis.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#redis-io" rel="alternate" type="text/html"/>
   <id>https://redis.io/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An in-memory data structure store, used on the AI side for session state, rate-limit counters and response caching. Compared with a separate vector database, its advantage is that vector search is added to the cache you already run.</summary>
+  <content type="html">&lt;p&gt;An in-memory data structure store, used on the AI side for session state, rate-limit counters and response caching. Compared with a separate vector database, its advantage is that vector search is added to the cache you already run.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://redis.io/&quot;&gt;https://redis.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Sentence Transformers</title>
-  <link href="https://sbert.net/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#sbert-net" rel="alternate" type="text/html"/>
   <id>https://sbert.net/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The standard Python library for producing embeddings. Unlike embedding APIs the model runs locally — data stays put and there is no API bill; in exchange, GPU and memory management are yours.</summary>
+  <content type="html">&lt;p&gt;The standard Python library for producing embeddings. Unlike embedding APIs the model runs locally — data stays put and there is no API bill; in exchange, GPU and memory management are yours.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://sbert.net/&quot;&gt;https://sbert.net/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>TruLens</title>
-  <link href="https://www.trulens.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#trulens-org" rel="alternate" type="text/html"/>
   <id>https://www.trulens.org/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Measures the RAG triad — context relevance, groundedness, answer relevance. Unlike evaluations that give one overall score it measures the three separately, which tells you whether the failure sits in retrieval or generation.</summary>
+  <content type="html">&lt;p&gt;Measures the RAG triad — context relevance, groundedness, answer relevance. Unlike evaluations that give one overall score it measures the three separately, which tells you whether the failure sits in retrieval or generation.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.trulens.org/&quot;&gt;https://www.trulens.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Unstructured</title>
-  <link href="https://unstructured.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#unstructured-io" rel="alternate" type="text/html"/>
   <id>https://unstructured.io/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Reduces PDF, DOCX, HTML, email and slides to a shared document-element model. Unlike format-specific parsers it brings everything into one structure — and this first step is where RAG pipelines lose the most time and break most often.</summary>
+  <content type="html">&lt;p&gt;Reduces PDF, DOCX, HTML, email and slides to a shared document-element model. Unlike format-specific parsers it brings everything into one structure — and this first step is where RAG pipelines lose the most time and break most often.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://unstructured.io/&quot;&gt;https://unstructured.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Vertex AI Embeddings</title>
-  <link href="https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#cloud-google-com-vertex-ai-generative-ai-docs-embeddings" rel="alternate" type="text/html"/>
   <id>https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The embedding service inside GCP. Compared with another provider’s embedding API, if your data sits in BigQuery, generating vectors within the same boundary makes sense for egress cost and data residency.</summary>
+  <content type="html">&lt;p&gt;The embedding service inside GCP. Compared with another provider’s embedding API, if your data sits in BigQuery, generating vectors within the same boundary makes sense for egress cost and data residency.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings&quot;&gt;https://cloud.google.com/vertex-ai/generative-ai/docs/embeddings&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Voyage AI</title>
-  <link href="https://www.voyageai.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#voyageai-com" rel="alternate" type="text/html"/>
   <id>https://www.voyageai.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Embedding models trained separately for law, code and finance; it joined MongoDB in 2025. Unlike general-purpose models it is domain-trained and claims to beat them in those domains — a claim to test on your own data.</summary>
+  <content type="html">&lt;p&gt;Embedding models trained separately for law, code and finance; it joined MongoDB in 2025. Unlike general-purpose models it is domain-trained and claims to beat them in those domains — a claim to test on your own data.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.voyageai.com/&quot;&gt;https://www.voyageai.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Weaviate</title>
-  <link href="https://weaviate.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#weaviate-io" rel="alternate" type="text/html"/>
   <id>https://weaviate.io/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>An open-source vector database. Unlike databases that only store vectors, it can host embedding generation as a module, so you write raw text without a separate embedding step; its query interface is GraphQL.</summary>
+  <content type="html">&lt;p&gt;An open-source vector database. Unlike databases that only store vectors, it can host embedding generation as a module, so you write raw text without a separate embedding step; its query interface is GraphQL.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://weaviate.io/&quot;&gt;https://weaviate.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Zep</title>
-  <link href="https://www.getzep.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#getzep-com" rel="alternate" type="text/html"/>
   <id>https://www.getzep.com/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Maintains a temporal knowledge graph for agents, recording when a fact held and when it was invalidated. Unlike flat vector memory, it can make exactly that distinction.</summary>
+  <content type="html">&lt;p&gt;Maintains a temporal knowledge graph for agents, recording when a fact held and when it was invalidated. Unlike flat vector memory, it can make exactly that distinction.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.getzep.com/&quot;&gt;https://www.getzep.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Graphify</title>
-  <link href="https://github.com/Graphify-Labs/graphify"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/yz_rag.html#github-com-graphify-labs-graphify" rel="alternate" type="text/html"/>
   <id>https://github.com/Graphify-Labs/graphify</id>
   <updated>2026-07-29T05:59:14Z</updated>
-  <summary>Walks a codebase via AST analysis and folds in docs, SQL schemas and PDFs to build a queryable graph. Unlike plain text search, it hands a coding agent the relationships — who calls whom, which table is used where — as context.</summary>
+  <content type="html">&lt;p&gt;Walks a codebase via AST analysis and folds in docs, SQL schemas and PDFs to build a queryable graph. Unlike plain text search, it hands a coding agent the relationships — who calls whom, which table is used where — as context.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/Graphify-Labs/graphify&quot;&gt;https://github.com/Graphify-Labs/graphify&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

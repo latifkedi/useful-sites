@@ -2,288 +2,290 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
 <title>Ağ &amp; Sistem Yönetimi — Kullanışlı Siteler</title>
 <subtitle>Yazılımdan yapay zekaya, güvenlikten ekonomiye ve mimariye on alanda elle derlenmiş, açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/ag.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/ag.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/ag.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/ag.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/ag.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>A Cartoon Intro to DNS over HTTPS</title>
-  <link href="https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#hacks-mozilla-org-2018-05-a-cartoon-intro-to-dns-over-https" rel="alternate" type="text/html"/>
   <id>https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>DNS'in neden gizlilik sorunu yarattığını ve DoH'nin bunu nasıl değiştirdiğini çizimlerle anlatan Mozilla yazısı. Protokol belgelerinden farkı, ön bilgi gerektirmemesi; DoH tartışmasının ne hakkında olduğunu kısa sürede anlatır.</summary>
+  <content type="html">&lt;p&gt;DNS'in neden gizlilik sorunu yarattığını ve DoH'nin bunu nasıl değiştirdiğini çizimlerle anlatan Mozilla yazısı. Protokol belgelerinden farkı, ön bilgi gerektirmemesi; DoH tartışmasının ne hakkında olduğunu kısa sürede anlatır.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/&quot;&gt;https://hacks.mozilla.org/2018/05/a-cartoon-intro-to-dns-over-https/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome eBPF (qmonnet)</title>
-  <link href="https://github.com/qmonnet/awesome-ebpf"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#github-com-qmonnet-awesome-ebpf" rel="alternate" type="text/html"/>
   <id>https://github.com/qmonnet/awesome-ebpf</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>eBPF ile ilgili projeler, makaleler ve araçlar için liste; derleyici, izleme ve ağ (XDP) projeleri ayrı başlıklarda. Dizindeki diğer eBPF listesinden farkı bakımının sürmesi ve eBPF dokümantasyonu yazan birinin elinden çıkması.</summary>
+  <content type="html">&lt;p&gt;eBPF ile ilgili projeler, makaleler ve araçlar için liste; derleyici, izleme ve ağ (XDP) projeleri ayrı başlıklarda. Dizindeki diğer eBPF listesinden farkı bakımının sürmesi ve eBPF dokümantasyonu yazan birinin elinden çıkması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/qmonnet/awesome-ebpf&quot;&gt;https://github.com/qmonnet/awesome-ebpf&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Bridgy Fed</title>
-  <link href="https://fed.brid.gy"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#fed-brid-gy" rel="alternate" type="text/html"/>
   <id>https://fed.brid.gy</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Web siteleri, fediverse (Mastodon vb.) ve Bluesky/AT Protocol arasında köprü kuran servis; hesabını kaybetmeden ağlar arası takip ve yanıt sağlar. Tek ağa bağlı istemcilerden farkı protokolleri birbirine çevirmesi.</summary>
+  <content type="html">&lt;p&gt;Web siteleri, fediverse (Mastodon vb.) ve Bluesky/AT Protocol arasında köprü kuran servis; hesabını kaybetmeden ağlar arası takip ve yanıt sağlar. Tek ağa bağlı istemcilerden farkı protokolleri birbirine çevirmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://fed.brid.gy&quot;&gt;https://fed.brid.gy&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>ciphersuite.info</title>
-  <link href="https://ciphersuite.info/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#ciphersuite-info" rel="alternate" type="text/html"/>
   <id>https://ciphersuite.info/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>TLS şifre takımlarının hepsini IANA/OpenSSL adlarıyla, güvenlik düzeyi (güvenli/zayıf/güvensiz) ve protokol sürümü desteğiyle aranabilir listeleyen başvuru sitesi. Bir takımın adını görünce ne anlama geldiğini ve kullanılıp kullanılmaması gerektiğini bulmak için. IANA'nın ham tablosundan farklı olarak her takıma okunur bir güvenlik notu verir.</summary>
+  <content type="html">&lt;p&gt;TLS şifre takımlarının hepsini IANA/OpenSSL adlarıyla, güvenlik düzeyi (güvenli/zayıf/güvensiz) ve protokol sürümü desteğiyle aranabilir listeleyen başvuru sitesi. Bir takımın adını görünce ne anlama geldiğini ve kullanılıp kullanılmaması gerektiğini bulmak için. IANA'nın ham tablosundan farklı olarak her takıma okunur bir güvenlik notu verir.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://ciphersuite.info/&quot;&gt;https://ciphersuite.info/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>curl</title>
-  <link href="https://curl.se/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#curl-se" rel="alternate" type="text/html"/>
   <id>https://curl.se/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>URL ile veri aktarımının standart komut satırı aracı ve libcurl kütüphanesinin sitesi; kılavuzu, protokol listesi ve &quot;Everything curl&quot; adlı ücretsiz kitabı var. Tarayıcı geliştirici araçlarındaki &quot;cURL olarak kopyala&quot; ile birlikte API hatası ayıklamanın temel yolu. Tarayıcı geliştirici araçları yerine komut satırından aynı isteği tekrarlanabilir kılar.</summary>
+  <content type="html">&lt;p&gt;URL ile veri aktarımının standart komut satırı aracı ve libcurl kütüphanesinin sitesi; kılavuzu, protokol listesi ve &amp;quot;Everything curl&amp;quot; adlı ücretsiz kitabı var. Tarayıcı geliştirici araçlarındaki &amp;quot;cURL olarak kopyala&amp;quot; ile birlikte API hatası ayıklamanın temel yolu. Tarayıcı geliştirici araçları yerine komut satırından aynı isteği tekrarlanabilir kılar.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://curl.se/&quot;&gt;https://curl.se/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>DKIM Validator</title>
-  <link href="https://dkimvalidator.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#dkimvalidator-com" rel="alternate" type="text/html"/>
   <id>https://dkimvalidator.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Verdiği geçici adrese test e-postası gönderince SPF, DKIM ve SpamAssassin puanını gösteren ücretsiz posta doğrulayıcı. Kayıtları ayrı ayrı denetlemek yerine gerçek bir iletiyi uçtan uca sınadığı için farklı.</summary>
+  <content type="html">&lt;p&gt;Verdiği geçici adrese test e-postası gönderince SPF, DKIM ve SpamAssassin puanını gösteren ücretsiz posta doğrulayıcı. Kayıtları ayrı ayrı denetlemek yerine gerçek bir iletiyi uçtan uca sınadığı için farklı.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://dkimvalidator.com/&quot;&gt;https://dkimvalidator.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>DNSlytics</title>
-  <link href="https://dnslytics.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#dnslytics-com" rel="alternate" type="text/html"/>
   <id>https://dnslytics.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Alan adı, IP ve ağ numarası (ASN) için DNS kayıtları, aynı IP'deki siteler, e-posta/whois ve geçmiş verileri gösteren araştırma sitesi. ViewDNS'in tek seferlik sorgularından farkı bir alan adının barındırma ve ASN bağlantılarını ilişkilendirmesi.</summary>
+  <content type="html">&lt;p&gt;Alan adı, IP ve ağ numarası (ASN) için DNS kayıtları, aynı IP'deki siteler, e-posta/whois ve geçmiş verileri gösteren araştırma sitesi. ViewDNS'in tek seferlik sorgularından farkı bir alan adının barındırma ve ASN bağlantılarını ilişkilendirmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://dnslytics.com/&quot;&gt;https://dnslytics.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>DNSSEC Debugger</title>
-  <link href="https://dnssec-debugger.verisignlabs.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#dnssec-debugger-verisignlabs-com" rel="alternate" type="text/html"/>
   <id>https://dnssec-debugger.verisignlabs.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Alan adının DNSSEC güven zincirini kökten başlayarak adım adım doğrulayıp nerede koptuğunu gösteren Verisign aracı. Genel DNS denetleyicilerinden farkı yalnızca imza zincirine odaklanması.</summary>
+  <content type="html">&lt;p&gt;Alan adının DNSSEC güven zincirini kökten başlayarak adım adım doğrulayıp nerede koptuğunu gösteren Verisign aracı. Genel DNS denetleyicilerinden farkı yalnızca imza zincirine odaklanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://dnssec-debugger.verisignlabs.com/&quot;&gt;https://dnssec-debugger.verisignlabs.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>IntoDNS</title>
-  <link href="https://intodns.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#intodns-com" rel="alternate" type="text/html"/>
   <id>https://intodns.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Alan adının DNS ve posta (MX) ayarlarını kontrol edip hataları ve uyarıları madde madde listeleyen hızlı denetleyici. Zonemaster kadar kapsamlı değil ama sonuç tek sayfada ve okunaklı.</summary>
+  <content type="html">&lt;p&gt;Alan adının DNS ve posta (MX) ayarlarını kontrol edip hataları ve uyarıları madde madde listeleyen hızlı denetleyici. Zonemaster kadar kapsamlı değil ama sonuç tek sayfada ve okunaklı.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://intodns.com/&quot;&gt;https://intodns.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Is BGP safe yet?</title>
-  <link href="https://isbgpsafeyet.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#isbgpsafeyet-com" rel="alternate" type="text/html"/>
   <id>https://isbgpsafeyet.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Tarayıcından, kullandığın internet servis sağlayıcısının geçersiz BGP rotalarını filtreleyip filtrelemediğini (RPKI) deneyen Cloudflare sayfası. Yönlendirme güvenliği gibi soyut bir konuyu tek tıkla somut sonuca çeviriyor. Teknik RPKI belgelerinden farklı olarak sonucu tarayıcıdan tek tıkla gösterir.</summary>
+  <content type="html">&lt;p&gt;Tarayıcından, kullandığın internet servis sağlayıcısının geçersiz BGP rotalarını filtreleyip filtrelemediğini (RPKI) deneyen Cloudflare sayfası. Yönlendirme güvenliği gibi soyut bir konuyu tek tıkla somut sonuca çeviriyor. Teknik RPKI belgelerinden farklı olarak sonucu tarayıcıdan tek tıkla gösterir.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://isbgpsafeyet.com/&quot;&gt;https://isbgpsafeyet.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>MultiRBL</title>
-  <link href="https://multirbl.valli.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#multirbl-valli-org" rel="alternate" type="text/html"/>
   <id>https://multirbl.valli.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Bir IP veya alan adını yüzlerce DNS kara listesinde (RBL) tek seferde arayan sorgu aracı. E-posta sunucusu neden reddediliyor sorusuna hangi listenin yol açtığını gösterir; ayrıca ters ve ileri DNS tutarlılığını da kontrol eder. Tek bir kara listeye bakan araçlar yerine yüzlerce RBL'yi aynı anda tarar.</summary>
+  <content type="html">&lt;p&gt;Bir IP veya alan adını yüzlerce DNS kara listesinde (RBL) tek seferde arayan sorgu aracı. E-posta sunucusu neden reddediliyor sorusuna hangi listenin yol açtığını gösterir; ayrıca ters ve ileri DNS tutarlılığını da kontrol eder. Tek bir kara listeye bakan araçlar yerine yüzlerce RBL'yi aynı anda tarar.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://multirbl.valli.org/&quot;&gt;https://multirbl.valli.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>MxToolbox SuperTool</title>
-  <link href="https://mxtoolbox.com/SuperTool.aspx"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#mxtoolbox-com-supertool-aspx" rel="alternate" type="text/html"/>
   <id>https://mxtoolbox.com/SuperTool.aspx</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Tek kutudan MX, DNS, blacklist, SPF, DMARC, ping ve port sorguları çalıştıran e-posta ve DNS tanı aracı. E-posta teslim sorunlarında ilk bakılan yerlerden; birçok tek amaçlı denetleyicinin işini bir arada yapıyor. Tek amaçlı kontrolcülerden farklı olarak MX, SPF, DMARC ve kara liste sorgusunu tek kutuda toplar.</summary>
+  <content type="html">&lt;p&gt;Tek kutudan MX, DNS, blacklist, SPF, DMARC, ping ve port sorguları çalıştıran e-posta ve DNS tanı aracı. E-posta teslim sorunlarında ilk bakılan yerlerden; birçok tek amaçlı denetleyicinin işini bir arada yapıyor. Tek amaçlı kontrolcülerden farklı olarak MX, SPF, DMARC ve kara liste sorgusunu tek kutuda toplar.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://mxtoolbox.com/SuperTool.aspx&quot;&gt;https://mxtoolbox.com/SuperTool.aspx&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>nip.io</title>
-  <link href="https://nip.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#nip-io" rel="alternate" type="text/html"/>
   <id>https://nip.io/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>10.0.0.1.nip.io gibi adları içindeki IP adresine çözen joker DNS servisi; hosts dosyası düzenlemeden yerel veya test sunucusuna alan adıyla erişmeyi sağlar. Kurulum ya da kayıt gerektirmez. /etc/hosts düzenlemek yerine adı IP'nin kendisine gömer.</summary>
+  <content type="html">&lt;p&gt;10.0.0.1.nip.io gibi adları içindeki IP adresine çözen joker DNS servisi; hosts dosyası düzenlemeden yerel veya test sunucusuna alan adıyla erişmeyi sağlar. Kurulum ya da kayıt gerektirmez. /etc/hosts düzenlemek yerine adı IP'nin kendisine gömer.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://nip.io/&quot;&gt;https://nip.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OpenInfraMap</title>
-  <link href="https://openinframap.org"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#openinframap-org" rel="alternate" type="text/html"/>
   <id>https://openinframap.org</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>OpenStreetMap verisinden elektrik hatları, santraller, petrol/gaz boru hatları ve telekom altyapısını çizen harita. Genel haritalardan farkı altyapıya özel katmanlar ve gerilim/kapasite ayrıntısı.</summary>
+  <content type="html">&lt;p&gt;OpenStreetMap verisinden elektrik hatları, santraller, petrol/gaz boru hatları ve telekom altyapısını çizen harita. Genel haritalardan farkı altyapıya özel katmanlar ve gerilim/kapasite ayrıntısı.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://openinframap.org&quot;&gt;https://openinframap.org&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OpenSSL</title>
-  <link href="https://www.openssl.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#openssl-org" rel="alternate" type="text/html"/>
   <id>https://www.openssl.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>TLS/SSL ve genel amaçlı kriptografi kütüphanesi ile openssl komut satırı aracının resmî sitesi; komut kılavuzları, sürüm notları ve kütüphane API belgeleri burada. Sertifika üretme, anahtar dönüştürme ve bir sunucuya bağlanıp el sıkışmayı incelemek için temel başvuru. Sadece bir komut aracı değil, aynı zamanda kütüphane olduğundan, sertifika araçlarından daha geniş bir yelpazeyi kapsar.</summary>
+  <content type="html">&lt;p&gt;TLS/SSL ve genel amaçlı kriptografi kütüphanesi ile openssl komut satırı aracının resmî sitesi; komut kılavuzları, sürüm notları ve kütüphane API belgeleri burada. Sertifika üretme, anahtar dönüştürme ve bir sunucuya bağlanıp el sıkışmayı incelemek için temel başvuru. Sadece bir komut aracı değil, aynı zamanda kütüphane olduğundan, sertifika araçlarından daha geniş bir yelpazeyi kapsar.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.openssl.org/&quot;&gt;https://www.openssl.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OpenSSL Certificate Authority</title>
-  <link href="https://jamielinux.com/docs/openssl-certificate-authority/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#jamielinux-com-docs-openssl-certificate-authority" rel="alternate" type="text/html"/>
   <id>https://jamielinux.com/docs/openssl-certificate-authority/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>OpenSSL ile kök ve ara sertifika otoritesi kurmayı, sertifika imzalamayı ve iptal listesi yayımlamayı adım adım anlatan rehber. Hazır CA yazılımlarından farkı, dosya yapısını ve yapılandırmayı elle göstermesi; PKI'nin işleyişi görünür oluyor.</summary>
+  <content type="html">&lt;p&gt;OpenSSL ile kök ve ara sertifika otoritesi kurmayı, sertifika imzalamayı ve iptal listesi yayımlamayı adım adım anlatan rehber. Hazır CA yazılımlarından farkı, dosya yapısını ve yapılandırmayı elle göstermesi; PKI'nin işleyişi görünür oluyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://jamielinux.com/docs/openssl-certificate-authority/&quot;&gt;https://jamielinux.com/docs/openssl-certificate-authority/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>RIPE Atlas</title>
-  <link href="https://atlas.ripe.net/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#atlas-ripe-net" rel="alternate" type="text/html"/>
   <id>https://atlas.ripe.net/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Dünya genelinde binlerce küçük sensörden ping, traceroute ve DNS ölçümü yaptıran RIPE NCC ağı. Kendi bağlantından değil, farklı ülke ve operatörlerden bakabildiğin için erişilebilirlik sorunlarını teşhis etmekte öne çıkıyor.</summary>
+  <content type="html">&lt;p&gt;Dünya genelinde binlerce küçük sensörden ping, traceroute ve DNS ölçümü yaptıran RIPE NCC ağı. Kendi bağlantından değil, farklı ülke ve operatörlerden bakabildiğin için erişilebilirlik sorunlarını teşhis etmekte öne çıkıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://atlas.ripe.net/&quot;&gt;https://atlas.ripe.net/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Scapy</title>
-  <link href="https://scapy.net/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#scapy-net" rel="alternate" type="text/html"/>
   <id>https://scapy.net/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Python'da paket üretme, gönderme, yakalama ve çözme için etkileşimli bir kütüphane; sitesi dokümantasyon ve örnekleri barındırıyor. Wireshark'ın aksine paketi kodla oluşturup değiştirirsin; Nmap gibi hazır tarama yerine kendi protokol testini yazarsın.</summary>
+  <content type="html">&lt;p&gt;Python'da paket üretme, gönderme, yakalama ve çözme için etkileşimli bir kütüphane; sitesi dokümantasyon ve örnekleri barındırıyor. Wireshark'ın aksine paketi kodla oluşturup değiştirirsin; Nmap gibi hazır tarama yerine kendi protokol testini yazarsın.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://scapy.net/&quot;&gt;https://scapy.net/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Submarine Cable Map</title>
-  <link href="https://www.submarinecablemap.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#submarinecablemap-com" rel="alternate" type="text/html"/>
   <id>https://www.submarinecablemap.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>TeleGeography'nin dünyadaki denizaltı internet kablolarını, iniş noktalarını ve işleten şirketleri gösteren etkileşimli haritası. Genel ağ haritalarından farkı, internetin fiziksel omurgasını kablo kablo izlenebilir kılmasıdır.</summary>
+  <content type="html">&lt;p&gt;TeleGeography'nin dünyadaki denizaltı internet kablolarını, iniş noktalarını ve işleten şirketleri gösteren etkileşimli haritası. Genel ağ haritalarından farkı, internetin fiziksel omurgasını kablo kablo izlenebilir kılmasıdır.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.submarinecablemap.com/&quot;&gt;https://www.submarinecablemap.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>ViewDNS.info</title>
-  <link href="https://viewdns.info/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#viewdns-info" rel="alternate" type="text/html"/>
   <id>https://viewdns.info/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Tersine IP araması, DNS geçmişi, whois, port tarayıcı, alan adı-IP eşleşmesi gibi onlarca DNS ve alan adı sorgusunu tek sitede toplayan araç kutusu. Her sorgu ayrı küçük bir araç; kayıt gerekmiyor.</summary>
+  <content type="html">&lt;p&gt;Tersine IP araması, DNS geçmişi, whois, port tarayıcı, alan adı-IP eşleşmesi gibi onlarca DNS ve alan adı sorgusunu tek sitede toplayan araç kutusu. Her sorgu ayrı küçük bir araç; kayıt gerekmiyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://viewdns.info/&quot;&gt;https://viewdns.info/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Zonemaster</title>
-  <link href="https://zonemaster.se/en/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#zonemaster-se-en" rel="alternate" type="text/html"/>
   <id>https://zonemaster.se/en/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Alan adının DNS yapılandırmasını (delegasyon, SOA, DNSSEC, ad sunucu tutarlılığı) onlarca testten geçiren denetleyici; İsveç alan adı kayıt kuruluşunun açık kaynak motoru. Tek bir kayıt sorgulayan araçlardan farkı bölgenin tamamını standart test seti olarak raporlaması.</summary>
+  <content type="html">&lt;p&gt;Alan adının DNS yapılandırmasını (delegasyon, SOA, DNSSEC, ad sunucu tutarlılığı) onlarca testten geçiren denetleyici; İsveç alan adı kayıt kuruluşunun açık kaynak motoru. Tek bir kayıt sorgulayan araçlardan farkı bölgenin tamamını standart test seti olarak raporlaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://zonemaster.se/en/&quot;&gt;https://zonemaster.se/en/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>goshs</title>
-  <link href="https://github.com/goshs-labs/goshs"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#github-com-goshs-labs-goshs" rel="alternate" type="text/html"/>
   <id>https://github.com/goshs-labs/goshs</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Go ile yazılmış, HTTP, WebDAV, FTP/SFTP ve SMB gibi protokolleri destekleyen tek ikili dosya sunucusu. python -m http.server’dan farkı yükleme, kimlik doğrulama ve daha çok protokol sunması; kırmızı takım özellikleri yüzünden yalnız sahibi olduğun sistemlerde kullan.</summary>
+  <content type="html">&lt;p&gt;Go ile yazılmış, HTTP, WebDAV, FTP/SFTP ve SMB gibi protokolleri destekleyen tek ikili dosya sunucusu. python -m http.server’dan farkı yükleme, kimlik doğrulama ve daha çok protokol sunması; kırmızı takım özellikleri yüzünden yalnız sahibi olduğun sistemlerde kullan.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/goshs-labs/goshs&quot;&gt;https://github.com/goshs-labs/goshs&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>lazyssh</title>
-  <link href="https://github.com/Adembc/lazyssh"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#github-com-adembc-lazyssh" rel="alternate" type="text/html"/>
   <id>https://github.com/Adembc/lazyssh</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>SSH yapılandırmandaki sunucuları listeleyip bağlandıran terminal arayüzü (Go). ~/.ssh/config dosyasını elle düzenleyip adları hatırlamaktan farkı aranabilir bir liste sunması.</summary>
+  <content type="html">&lt;p&gt;SSH yapılandırmandaki sunucuları listeleyip bağlandıran terminal arayüzü (Go). ~/.ssh/config dosyasını elle düzenleyip adları hatırlamaktan farkı aranabilir bir liste sunması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/Adembc/lazyssh&quot;&gt;https://github.com/Adembc/lazyssh&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>mactop</title>
-  <link href="https://github.com/metaspartan/mactop"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#github-com-metaspartan-mactop" rel="alternate" type="text/html"/>
   <id>https://github.com/metaspartan/mactop</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Apple Silicon için CPU, GPU ve güç tüketimini gösteren terminal izleyicisi. htop’tan farkı Apple’a özgü sensörleri (güç, GPU, sinir motoru) okuması.</summary>
+  <content type="html">&lt;p&gt;Apple Silicon için CPU, GPU ve güç tüketimini gösteren terminal izleyicisi. htop’tan farkı Apple’a özgü sensörleri (güç, GPU, sinir motoru) okuması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/metaspartan/mactop&quot;&gt;https://github.com/metaspartan/mactop&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Sniffnet</title>
-  <link href="https://github.com/GyulyVGC/sniffnet"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#github-com-gyulyvgc-sniffnet" rel="alternate" type="text/html"/>
   <id>https://github.com/GyulyVGC/sniffnet</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Ağ trafiğini anlaşılır bir arayüzde gösteren çapraz platform uygulama (Rust). Wireshark’tan farkı paket ayrıntısından çok okunabilir bir genel görünüm sunması.</summary>
+  <content type="html">&lt;p&gt;Ağ trafiğini anlaşılır bir arayüzde gösteren çapraz platform uygulama (Rust). Wireshark’tan farkı paket ayrıntısından çok okunabilir bir genel görünüm sunması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/GyulyVGC/sniffnet&quot;&gt;https://github.com/GyulyVGC/sniffnet&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Arch</title>
-  <link href="https://github.com/PandaFoss/Awesome-Arch"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#github-com-pandafoss-awesome-arch" rel="alternate" type="text/html"/>
   <id>https://github.com/PandaFoss/Awesome-Arch</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Arch Linux tabanlı dağıtım ve projelerin listesi. Arch Wiki’den farkı belgeleri değil, Arch’tan türeyen dağıtımları ve onların araçlarını karşılaştırmalı toplaması.</summary>
+  <content type="html">&lt;p&gt;Arch Linux tabanlı dağıtım ve projelerin listesi. Arch Wiki’den farkı belgeleri değil, Arch’tan türeyen dağıtımları ve onların araçlarını karşılaştırmalı toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/PandaFoss/Awesome-Arch&quot;&gt;https://github.com/PandaFoss/Awesome-Arch&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome eBPF</title>
-  <link href="https://github.com/zoidbergwill/awesome-ebpf"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#github-com-zoidbergwill-awesome-ebpf" rel="alternate" type="text/html"/>
   <id>https://github.com/zoidbergwill/awesome-ebpf</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Çekirdek içinde güvenli program çalıştıran eBPF için kaynak listesi. Çekirdek modülü yazmaktan farkı programın önce doğrulayıcıdan (verifier) geçmesi: çekirdeği çökertme riski olmadan çalışıyor.</summary>
+  <content type="html">&lt;p&gt;Çekirdek içinde güvenli program çalıştıran eBPF için kaynak listesi. Çekirdek modülü yazmaktan farkı programın önce doğrulayıcıdan (verifier) geçmesi: çekirdeği çökertme riski olmadan çalışıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/zoidbergwill/awesome-ebpf&quot;&gt;https://github.com/zoidbergwill/awesome-ebpf&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome GNOME</title>
-  <link href="https://github.com/Kazhnuz/awesome-gnome"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#github-com-kazhnuz-awesome-gnome" rel="alternate" type="text/html"/>
   <id>https://github.com/Kazhnuz/awesome-gnome</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>GNOME masaüstü ortamı için uygulama ve eklenti listesi. KDE listesinden farkı GTK/libadwaita ile yazılmış, GNOME arayüz kılavuzuna uyan uygulamalar ve shell eklentileri.</summary>
+  <content type="html">&lt;p&gt;GNOME masaüstü ortamı için uygulama ve eklenti listesi. KDE listesinden farkı GTK/libadwaita ile yazılmış, GNOME arayüz kılavuzuna uyan uygulamalar ve shell eklentileri.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/Kazhnuz/awesome-gnome&quot;&gt;https://github.com/Kazhnuz/awesome-gnome&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome IPFS</title>
-  <link href="https://github.com/ipfs/awesome-ipfs"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#github-com-ipfs-awesome-ipfs" rel="alternate" type="text/html"/>
   <id>https://github.com/ipfs/awesome-ipfs</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Merkeziyetsiz dosya protokolü IPFS için araç ve proje listesi. HTTP’den farkı dosyayı bulunduğu sunucuya göre değil içeriğinin özetine (CID) göre adreslemesi.</summary>
+  <content type="html">&lt;p&gt;Merkeziyetsiz dosya protokolü IPFS için araç ve proje listesi. HTTP’den farkı dosyayı bulunduğu sunucuya göre değil içeriğinin özetine (CID) göre adreslemesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ipfs/awesome-ipfs&quot;&gt;https://github.com/ipfs/awesome-ipfs&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome KDE</title>
-  <link href="https://github.com/francoism90/awesome-kde"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#github-com-francoism90-awesome-kde" rel="alternate" type="text/html"/>
   <id>https://github.com/francoism90/awesome-kde</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>KDE masaüstü ortamı için uygulama ve kaynak listesi. GNOME listesinden farkı Qt tabanlı KDE uygulamalarına ve Plasma özelleştirmelerine odaklanması.</summary>
+  <content type="html">&lt;p&gt;KDE masaüstü ortamı için uygulama ve kaynak listesi. GNOME listesinden farkı Qt tabanlı KDE uygulamalarına ve Plasma özelleştirmelerine odaklanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/francoism90/awesome-kde&quot;&gt;https://github.com/francoism90/awesome-kde&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Scapy</title>
-  <link href="https://github.com/secdev/awesome-scapy"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#github-com-secdev-awesome-scapy" rel="alternate" type="text/html"/>
   <id>https://github.com/secdev/awesome-scapy</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Python paket işleme kütüphanesi Scapy için araç ve örnek listesi. Genel ağ listelerinden farkı paketi elle kurup gönderme (packet crafting) etrafında toplanması.</summary>
+  <content type="html">&lt;p&gt;Python paket işleme kütüphanesi Scapy için araç ve örnek listesi. Genel ağ listelerinden farkı paketi elle kurup gönderme (packet crafting) etrafında toplanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/secdev/awesome-scapy&quot;&gt;https://github.com/secdev/awesome-scapy&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Windows</title>
-  <link href="https://github.com/0pandadev/awesome-windows"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#github-com-0pandadev-awesome-windows" rel="alternate" type="text/html"/>
   <id>https://github.com/0pandadev/awesome-windows</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Windows masaüstü için önerilen uygulama ve araçları toplayan liste. Microsoft Store’dan farkı küratörlü olması ve ücretsiz, açık kaynak seçenekleri öne çıkarması.</summary>
+  <content type="html">&lt;p&gt;Windows masaüstü için önerilen uygulama ve araçları toplayan liste. Microsoft Store’dan farkı küratörlü olması ve ücretsiz, açık kaynak seçenekleri öne çıkarması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/0pandadev/awesome-windows&quot;&gt;https://github.com/0pandadev/awesome-windows&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Comcast</title>
-  <link href="https://github.com/tylertreat/Comcast"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#github-com-tylertreat-comcast" rel="alternate" type="text/html"/>
   <id>https://github.com/tylertreat/Comcast</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Ağ gecikmesi ve paket kaybı gibi sorunları yapay olarak enjekte edip yazılımın kötü koşullarda nasıl davrandığını test ettiren araç. tc/netem ve iptables komutlarını elle yazmak yerine tek komutla aynı etkiyi veriyor.</summary>
+  <content type="html">&lt;p&gt;Ağ gecikmesi ve paket kaybı gibi sorunları yapay olarak enjekte edip yazılımın kötü koşullarda nasıl davrandığını test ettiren araç. tc/netem ve iptables komutlarını elle yazmak yerine tek komutla aynı etkiyi veriyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/tylertreat/Comcast&quot;&gt;https://github.com/tylertreat/Comcast&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Lokinet</title>
-  <link href="https://lokinet.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#lokinet-org" rel="alternate" type="text/html"/>
   <id>https://lokinet.org/</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>IP tabanlı, merkezi olmayan bir soğan yönlendirme ağı; trafiği stake edilmiş düğümler üzerinden anonimleştiriyor. Tor’dan farkı yalnız web değil her IP protokolünü taşıması: onion yönlendirmenin üstünde tam bir kaplama ağı, tek uygulama değil.</summary>
+  <content type="html">&lt;p&gt;IP tabanlı, merkezi olmayan bir soğan yönlendirme ağı; trafiği stake edilmiş düğümler üzerinden anonimleştiriyor. Tor’dan farkı yalnız web değil her IP protokolünü taşıması: onion yönlendirmenin üstünde tam bir kaplama ağı, tek uygulama değil.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://lokinet.org/&quot;&gt;https://lokinet.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Check Point Eğitim</title>
-  <link href="https://training-certifications.checkpoint.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#training-certifications-checkpoint-com" rel="alternate" type="text/html"/>
   <id>https://training-certifications.checkpoint.com/</id>
   <updated>2026-08-26T20:53:20Z</updated>
-  <summary>CCSA ve CCSE sertifikaları. Diğer güvenlik duvarı satıcılarından farkı Check Point’in yönetim mimarisinin ayrı bir bilgi alanı olması — merkezî politika yönetimi eğitimin ağırlık merkezinde.</summary>
+  <content type="html">&lt;p&gt;CCSA ve CCSE sertifikaları. Diğer güvenlik duvarı satıcılarından farkı Check Point’in yönetim mimarisinin ayrı bir bilgi alanı olması — merkezî politika yönetimi eğitimin ağırlık merkezinde.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://training-certifications.checkpoint.com/&quot;&gt;https://training-certifications.checkpoint.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Cisco Sertifikasyon</title>
-  <link href="https://www.cisco.com/site/us/en/learn/training-certifications/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#cisco-com-site-us-en-learn-training-certifications" rel="alternate" type="text/html"/>
   <id>https://www.cisco.com/site/us/en/learn/training-certifications/</id>
   <updated>2026-08-26T20:53:20Z</updated>
-  <summary>CCNA’dan CCIE’ye uzanan ağ sertifikaları programı. Satıcı bağımsız sertifikalardan farkı Cisco donanımına özgü olması; buna rağmen CCNA, ağ temellerini öğreten müfredat olarak marka bağımsız biçimde de değerli sayılıyor.</summary>
+  <content type="html">&lt;p&gt;CCNA’dan CCIE’ye uzanan ağ sertifikaları programı. Satıcı bağımsız sertifikalardan farkı Cisco donanımına özgü olması; buna rağmen CCNA, ağ temellerini öğreten müfredat olarak marka bağımsız biçimde de değerli sayılıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.cisco.com/site/us/en/learn/training-certifications/&quot;&gt;https://www.cisco.com/site/us/en/learn/training-certifications/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Fortinet Training Institute</title>
-  <link href="https://training.fortinet.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#training-fortinet-com" rel="alternate" type="text/html"/>
   <id>https://training.fortinet.com/</id>
   <updated>2026-08-26T20:53:20Z</updated>
-  <summary>NSE programı ve güvenlik eğitimleri. Diğer satıcı programlarından farkı büyük bölümünün ücretsiz açılmış olması — güvenlik duvarı ve ağ güvenliği temellerini bedelsiz öğrenmek için en geniş kaynak.</summary>
+  <content type="html">&lt;p&gt;NSE programı ve güvenlik eğitimleri. Diğer satıcı programlarından farkı büyük bölümünün ücretsiz açılmış olması — güvenlik duvarı ve ağ güvenliği temellerini bedelsiz öğrenmek için en geniş kaynak.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://training.fortinet.com/&quot;&gt;https://training.fortinet.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Juniper Sertifikasyon</title>
-  <link href="https://www.juniper.net/us/en/training/certification/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#juniper-net-us-en-training-certification" rel="alternate" type="text/html"/>
   <id>https://www.juniper.net/us/en/training/certification/</id>
   <updated>2026-08-26T20:53:20Z</updated>
-  <summary>Junos tabanlı ağ sertifikaları. Cisco programından farkı giriş seviyesi sınavların uzun süredir ücretsiz sunulması ve eğitim materyalinin açık olması — ağ öğrenmenin maliyetsiz yolu.</summary>
+  <content type="html">&lt;p&gt;Junos tabanlı ağ sertifikaları. Cisco programından farkı giriş seviyesi sınavların uzun süredir ücretsiz sunulması ve eğitim materyalinin açık olması — ağ öğrenmenin maliyetsiz yolu.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.juniper.net/us/en/training/certification/&quot;&gt;https://www.juniper.net/us/en/training/certification/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Linux Professional Institute</title>
-  <link href="https://www.lpi.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#lpi-org" rel="alternate" type="text/html"/>
   <id>https://www.lpi.org/</id>
   <updated>2026-08-26T20:53:20Z</updated>
-  <summary>Dağıtım bağımsız Linux sertifikaları (LPIC-1, LPIC-2). Red Hat programından farkı tek bir dağıtıma bağlı olmaması — Debian, SUSE ya da Arch kullanıyorsan geçerli olan sertifika bu.</summary>
+  <content type="html">&lt;p&gt;Dağıtım bağımsız Linux sertifikaları (LPIC-1, LPIC-2). Red Hat programından farkı tek bir dağıtıma bağlı olmaması — Debian, SUSE ya da Arch kullanıyorsan geçerli olan sertifika bu.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.lpi.org/&quot;&gt;https://www.lpi.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Palo Alto Networks Eğitim</title>
-  <link href="https://www.paloaltonetworks.com/services/education"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ag.html#paloaltonetworks-com-services-education" rel="alternate" type="text/html"/>
   <id>https://www.paloaltonetworks.com/services/education</id>
   <updated>2026-08-26T20:53:20Z</updated>
-  <summary>PCNSA ve PCNSE sertifikaları ile güvenlik duvarı ve bulut güvenliği eğitimleri. Fortinet’ten farkı kurumsal pazarın üst segmentine odaklanması — sertifika, o ürünleri işleten kuruluşlarda doğrudan işe yarıyor.</summary>
+  <content type="html">&lt;p&gt;PCNSA ve PCNSE sertifikaları ile güvenlik duvarı ve bulut güvenliği eğitimleri. Fortinet’ten farkı kurumsal pazarın üst segmentine odaklanması — sertifika, o ürünleri işleten kuruluşlarda doğrudan işe yarıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.paloaltonetworks.com/services/education&quot;&gt;https://www.paloaltonetworks.com/services/education&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

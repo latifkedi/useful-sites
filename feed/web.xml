@@ -2,288 +2,290 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
 <title>Web &amp; Frontend — Kullanışlı Siteler</title>
 <subtitle>Yazılımdan yapay zekaya, güvenlikten ekonomiye ve mimariye on alanda elle derlenmiş, açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/web.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/web.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/web.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/web.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/web.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>Front-End Checklist</title>
-  <link href="https://github.com/thedaviddias/Front-End-Checklist"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#github-com-thedaviddias-front-end-checklist" rel="alternate" type="text/html"/>
   <id>https://github.com/thedaviddias/Front-End-Checklist</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Bir web sayfasını yayına almadan önce HTML, CSS, JS, erişilebilirlik, performans ve SEO için denetlenecek maddeleri öncelik etiketleriyle listeler. Genel rehberlerden farkı, işaretlenebilir ve önceliklendirilmiş kontrol listesi olması.</summary>
+  <content type="html">&lt;p&gt;Bir web sayfasını yayına almadan önce HTML, CSS, JS, erişilebilirlik, performans ve SEO için denetlenecek maddeleri öncelik etiketleriyle listeler. Genel rehberlerden farkı, işaretlenebilir ve önceliklendirilmiş kontrol listesi olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/thedaviddias/Front-End-Checklist&quot;&gt;https://github.com/thedaviddias/Front-End-Checklist&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Mozilla Web Security Guidelines</title>
-  <link href="https://infosec.mozilla.org/guidelines/web_security.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#infosec-mozilla-org-guidelines-web-security-html" rel="alternate" type="text/html"/>
   <id>https://infosec.mozilla.org/guidelines/web_security.html</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Mozilla'nın web sitelerine önerdiği güvenlik başlıkları ve ayarları: CSP, HSTS, çerez bayrakları, CORS, SRI. Her ayar için öncelik ve örnek yapılandırma verdiği için genel güvenlik yazılarından daha uygulanabilir.</summary>
+  <content type="html">&lt;p&gt;Mozilla'nın web sitelerine önerdiği güvenlik başlıkları ve ayarları: CSP, HSTS, çerez bayrakları, CORS, SRI. Her ayar için öncelik ve örnek yapılandırma verdiği için genel güvenlik yazılarından daha uygulanabilir.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://infosec.mozilla.org/guidelines/web_security.html&quot;&gt;https://infosec.mozilla.org/guidelines/web_security.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>NGINX Config Generator (nginxconfig.io)</title>
-  <link href="https://www.digitalocean.com/community/tools/nginx"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#digitalocean-com-community-tools-nginx" rel="alternate" type="text/html"/>
   <id>https://www.digitalocean.com/community/tools/nginx</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Alan adı, PHP/Node, güvenlik ve performans seçeneklerini işaretleyerek hazır bir NGINX yapılandırması üreten arayüz. Örnek yapılandırma kopyalamaya göre en iyi uygulama ayarlarını (TLS, başlıklar, gzip) otomatik ekliyor.</summary>
+  <content type="html">&lt;p&gt;Alan adı, PHP/Node, güvenlik ve performans seçeneklerini işaretleyerek hazır bir NGINX yapılandırması üreten arayüz. Örnek yapılandırma kopyalamaya göre en iyi uygulama ayarlarını (TLS, başlıklar, gzip) otomatik ekliyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.digitalocean.com/community/tools/nginx&quot;&gt;https://www.digitalocean.com/community/tools/nginx&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Protomaps</title>
-  <link href="https://protomaps.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#protomaps-com" rel="alternate" type="text/html"/>
   <id>https://protomaps.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Tüm dünya haritasını tek bir PMTiles dosyası olarak sunan açık kaynak harita yığını; dosya S3 gibi düz bir depoda duruyor, tarayıcı HTTP aralık istekleriyle yalnızca gereken parçaları okuyor. Mapbox gibi barındırılan harita servislerinden farkı karo sunucusu ve kullanım başına ücret olmaması.</summary>
+  <content type="html">&lt;p&gt;Tüm dünya haritasını tek bir PMTiles dosyası olarak sunan açık kaynak harita yığını; dosya S3 gibi düz bir depoda duruyor, tarayıcı HTTP aralık istekleriyle yalnızca gereken parçaları okuyor. Mapbox gibi barındırılan harita servislerinden farkı karo sunucusu ve kullanım başına ücret olmaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://protomaps.com/&quot;&gt;https://protomaps.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>The A11Y Project</title>
-  <link href="https://www.a11yproject.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#a11yproject-com" rel="alternate" type="text/html"/>
   <id>https://www.a11yproject.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Topluluk eliyle yürütülen erişilebilirlik sitesi; WCAG’a dayanan sade bir kontrol listesi, yazılar ve araç-kaynak listeleri. W3C’nin hızlı başvurusundan farkı ölçütleri teknik dil yerine geliştiricinin anlayacağı maddeler hâlinde vermesi.</summary>
+  <content type="html">&lt;p&gt;Topluluk eliyle yürütülen erişilebilirlik sitesi; WCAG’a dayanan sade bir kontrol listesi, yazılar ve araç-kaynak listeleri. W3C’nin hızlı başvurusundan farkı ölçütleri teknik dil yerine geliştiricinin anlayacağı maddeler hâlinde vermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.a11yproject.com/&quot;&gt;https://www.a11yproject.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>WAVE</title>
-  <link href="https://wave.webaim.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#wave-webaim-org" rel="alternate" type="text/html"/>
   <id>https://wave.webaim.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>WebAIM’in erişilebilirlik değerlendirme aracı; bir adres girince ya da tarayıcı eklentisiyle sayfanın üstüne hataları, uyarıları ve yapı bilgisini simge olarak yerleştiriyor. Rapor üreten tarayıcılardan farkı sorunu sayfanın içinde, yerinde göstermesi; eklenti giriş gerektiren sayfaları da yerelde değerlendiriyor.</summary>
+  <content type="html">&lt;p&gt;WebAIM’in erişilebilirlik değerlendirme aracı; bir adres girince ya da tarayıcı eklentisiyle sayfanın üstüne hataları, uyarıları ve yapı bilgisini simge olarak yerleştiriyor. Rapor üreten tarayıcılardan farkı sorunu sayfanın içinde, yerinde göstermesi; eklenti giriş gerektiren sayfaları da yerelde değerlendiriyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://wave.webaim.org/&quot;&gt;https://wave.webaim.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>WCAG 2.2 Hızlı Başvuru</title>
-  <link href="https://www.w3.org/WAI/WCAG22/quickref/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#w3-org-wai-wcag22-quickref" rel="alternate" type="text/html"/>
   <id>https://www.w3.org/WAI/WCAG22/quickref/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>W3C’nin “How to Meet WCAG” sayfası: her başarı ölçütü, düzeyi (A, AA, AAA) ve onu karşılayan teknikler ile yaygın hatalar; düzeye ve konuya göre süzülüyor. Standart metnini okumaktan farkı ölçütten doğrudan uygulanacak tekniğe götürmesi.</summary>
+  <content type="html">&lt;p&gt;W3C’nin “How to Meet WCAG” sayfası: her başarı ölçütü, düzeyi (A, AA, AAA) ve onu karşılayan teknikler ile yaygın hatalar; düzeye ve konuya göre süzülüyor. Standart metnini okumaktan farkı ölçütten doğrudan uygulanacak tekniğe götürmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.w3.org/WAI/WCAG22/quickref/&quot;&gt;https://www.w3.org/WAI/WCAG22/quickref/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>WebAssembly</title>
-  <link href="https://webassembly.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#webassembly-org" rel="alternate" type="text/html"/>
   <id>https://webassembly.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>WebAssembly standardının resmî sitesi: belirtimler, kavramlara giriş ve hangi önerinin hangi tarayıcı ve çalışma ortamında desteklendiğini gösteren özellik tablosu. MDN’in WebAssembly sayfalarından farkı JavaScript tarafından değil, standardın kendisinden ve çalışma ortamlarının durumundan bakması.</summary>
+  <content type="html">&lt;p&gt;WebAssembly standardının resmî sitesi: belirtimler, kavramlara giriş ve hangi önerinin hangi tarayıcı ve çalışma ortamında desteklendiğini gösteren özellik tablosu. MDN’in WebAssembly sayfalarından farkı JavaScript tarafından değil, standardın kendisinden ve çalışma ortamlarının durumundan bakması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://webassembly.org/&quot;&gt;https://webassembly.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>webhint</title>
-  <link href="https://webhint.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#webhint-io" rel="alternate" type="text/html"/>
   <id>https://webhint.io/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Bir sitenin erişilebilirlik, hız, güvenlik ve uyumluluk sorunlarını tarayan, her kuralı açıklayan açık kaynak linter; çevrimiçi tarama, CLI ve VS Code eklentisi olarak çalışıyor. Lighthouse'tan farkı kural başına ayrıntılı dokümantasyon sunması ve yapılandırılabilir olması.</summary>
+  <content type="html">&lt;p&gt;Bir sitenin erişilebilirlik, hız, güvenlik ve uyumluluk sorunlarını tarayan, her kuralı açıklayan açık kaynak linter; çevrimiçi tarama, CLI ve VS Code eklentisi olarak çalışıyor. Lighthouse'tan farkı kural başına ayrıntılı dokümantasyon sunması ve yapılandırılabilir olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://webhint.io/&quot;&gt;https://webhint.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>ni</title>
-  <link href="https://github.com/antfu-collective/ni"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#github-com-antfu-collective-ni" rel="alternate" type="text/html"/>
   <id>https://github.com/antfu-collective/ni</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Her projede kilit dosyasına bakıp npm, yarn, pnpm ya da bun’u kendisi seçen tek komut. Hangi yöneticinin kullanıldığını hatırlamaktan farkı her yerde aynı komutu yazman.</summary>
+  <content type="html">&lt;p&gt;Her projede kilit dosyasına bakıp npm, yarn, pnpm ya da bun’u kendisi seçen tek komut. Hangi yöneticinin kullanıldığını hatırlamaktan farkı her yerde aynı komutu yazman.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/antfu-collective/ni&quot;&gt;https://github.com/antfu-collective/ni&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Angular</title>
-  <link href="https://github.com/PatrickJS/awesome-angular"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#github-com-patrickjs-awesome-angular" rel="alternate" type="text/html"/>
   <id>https://github.com/PatrickJS/awesome-angular</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Angular uygulama çatısı için bileşen, araç ve öğretici listesi. Resmî dokümandan farkı topluluk kütüphanelerini ve gerçek örnekleri toplaması.</summary>
+  <content type="html">&lt;p&gt;Angular uygulama çatısı için bileşen, araç ve öğretici listesi. Resmî dokümandan farkı topluluk kütüphanelerini ve gerçek örnekleri toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/PatrickJS/awesome-angular&quot;&gt;https://github.com/PatrickJS/awesome-angular&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome ESLint</title>
-  <link href="https://github.com/dustinspecker/awesome-eslint"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#github-com-dustinspecker-awesome-eslint" rel="alternate" type="text/html"/>
   <id>https://github.com/dustinspecker/awesome-eslint</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>JavaScript linter’ı ESLint için eklenti ve yapılandırma listesi. ESLint belgelerinden farkı topluluğun paylaştığı yapılandırmaları ve React, Vue gibi çatılara özgü eklentileri toplaması.</summary>
+  <content type="html">&lt;p&gt;JavaScript linter’ı ESLint için eklenti ve yapılandırma listesi. ESLint belgelerinden farkı topluluğun paylaştığı yapılandırmaları ve React, Vue gibi çatılara özgü eklentileri toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/dustinspecker/awesome-eslint&quot;&gt;https://github.com/dustinspecker/awesome-eslint&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Frontend GIS</title>
-  <link href="https://github.com/joewdavies/awesome-frontend-gis"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#github-com-joewdavies-awesome-frontend-gis" rel="alternate" type="text/html"/>
   <id>https://github.com/joewdavies/awesome-frontend-gis</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Tarayıcıda coğrafi bilgi sistemleri (harita) için kütüphane listesi. Genel harita API listelerinden farkı sunucu değil tarayıcıda çalışan kütüphanelere — harita görüntüleme, veri dönüştürme, mekânsal analiz — odaklanması.</summary>
+  <content type="html">&lt;p&gt;Tarayıcıda coğrafi bilgi sistemleri (harita) için kütüphane listesi. Genel harita API listelerinden farkı sunucu değil tarayıcıda çalışan kütüphanelere — harita görüntüleme, veri dönüştürme, mekânsal analiz — odaklanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/joewdavies/awesome-frontend-gis&quot;&gt;https://github.com/joewdavies/awesome-frontend-gis&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome HTML5</title>
-  <link href="https://github.com/diegocard/awesome-html5"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#github-com-diegocard-awesome-html5" rel="alternate" type="text/html"/>
   <id>https://github.com/diegocard/awesome-html5</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>HTML5 API’leri (Canvas, WebSocket, depolama), araçları ve kaynaklarının listesi. Genel web listelerinden farkı yalnız HTML5 standardıyla gelen tarayıcı API’lerine odaklanması.</summary>
+  <content type="html">&lt;p&gt;HTML5 API’leri (Canvas, WebSocket, depolama), araçları ve kaynaklarının listesi. Genel web listelerinden farkı yalnız HTML5 standardıyla gelen tarayıcı API’lerine odaklanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/diegocard/awesome-html5&quot;&gt;https://github.com/diegocard/awesome-html5&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Mobile Web Development</title>
-  <link href="https://github.com/myshov/awesome-mobile-web-development"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#github-com-myshov-awesome-mobile-web-development" rel="alternate" type="text/html"/>
   <id>https://github.com/myshov/awesome-mobile-web-development</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>İyi bir mobil web deneyimi kurmak için kaynak listesi: dokunmatik olaylar, performans, çevrimdışı çalışma. Yerel uygulama listelerinden farkı tarayıcıda çalışan mobil siteleri hedeflemesi.</summary>
+  <content type="html">&lt;p&gt;İyi bir mobil web deneyimi kurmak için kaynak listesi: dokunmatik olaylar, performans, çevrimdışı çalışma. Yerel uygulama listelerinden farkı tarayıcıda çalışan mobil siteleri hedeflemesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/myshov/awesome-mobile-web-development&quot;&gt;https://github.com/myshov/awesome-mobile-web-development&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome npm</title>
-  <link href="https://github.com/sindresorhus/awesome-npm"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#github-com-sindresorhus-awesome-npm" rel="alternate" type="text/html"/>
   <id>https://github.com/sindresorhus/awesome-npm</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Node paket yöneticisi npm için ipucu, araç ve kaynak listesi. npm belgelerinden farkı çevresindeki araçları — paket arama siteleri, yayınlama yardımcıları, komut satırı eklentileri — toplaması.</summary>
+  <content type="html">&lt;p&gt;Node paket yöneticisi npm için ipucu, araç ve kaynak listesi. npm belgelerinden farkı çevresindeki araçları — paket arama siteleri, yayınlama yardımcıları, komut satırı eklentileri — toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/sindresorhus/awesome-npm&quot;&gt;https://github.com/sindresorhus/awesome-npm&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome npm scripts</title>
-  <link href="https://github.com/RyanZim/awesome-npm-scripts"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#github-com-ryanzim-awesome-npm-scripts" rel="alternate" type="text/html"/>
   <id>https://github.com/RyanZim/awesome-npm-scripts</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Görev koşucusu olarak npm script kullanımı için kaynak listesi. Gulp ya da Grunt gibi görev koşucularından farkı ek bağımlılık olmadan package.json betikleriyle yetinmeyi öğretmesi.</summary>
+  <content type="html">&lt;p&gt;Görev koşucusu olarak npm script kullanımı için kaynak listesi. Gulp ya da Grunt gibi görev koşucularından farkı ek bağımlılık olmadan package.json betikleriyle yetinmeyi öğretmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/RyanZim/awesome-npm-scripts&quot;&gt;https://github.com/RyanZim/awesome-npm-scripts&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Ponyfills</title>
-  <link href="https://github.com/Richienb/awesome-ponyfills"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#github-com-richienb-awesome-ponyfills" rel="alternate" type="text/html"/>
   <id>https://github.com/Richienb/awesome-ponyfills</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Yerel davranışı ezmeden ekleyen ponyfill kütüphaneleri listesi. Polyfill’lerden farkı global nesneleri değiştirmemesi: özelliği ayrı bir modül olarak içe aktarıyorsun.</summary>
+  <content type="html">&lt;p&gt;Yerel davranışı ezmeden ekleyen ponyfill kütüphaneleri listesi. Polyfill’lerden farkı global nesneleri değiştirmemesi: özelliği ayrı bir modül olarak içe aktarıyorsun.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/Richienb/awesome-ponyfills&quot;&gt;https://github.com/Richienb/awesome-ponyfills&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Preact</title>
-  <link href="https://github.com/preactjs/awesome-preact"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#github-com-preactjs-awesome-preact" rel="alternate" type="text/html"/>
   <id>https://github.com/preactjs/awesome-preact</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>React’in 3 KB’lık hafif alternatifi Preact için bileşen, araç ve örnek listesi. React listelerinden farkı yalnız Preact ile uyumlu ve küçük boyutu koruyan kütüphaneleri toplaması.</summary>
+  <content type="html">&lt;p&gt;React’in 3 KB’lık hafif alternatifi Preact için bileşen, araç ve örnek listesi. React listelerinden farkı yalnız Preact ile uyumlu ve küçük boyutu koruyan kütüphaneleri toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/preactjs/awesome-preact&quot;&gt;https://github.com/preactjs/awesome-preact&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome React</title>
-  <link href="https://github.com/enaqx/awesome-react"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#github-com-enaqx-awesome-react" rel="alternate" type="text/html"/>
   <id>https://github.com/enaqx/awesome-react</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>React ekosistemi için kütüphane, araç ve öğrenme kaynağı listesi. Resmî belgelerden farkı çevredeki ekosistemi — durum yönetimi, yönlendirme, bileşen kütüphaneleri, test — tek listede toplaması.</summary>
+  <content type="html">&lt;p&gt;React ekosistemi için kütüphane, araç ve öğrenme kaynağı listesi. Resmî belgelerden farkı çevredeki ekosistemi — durum yönetimi, yönlendirme, bileşen kütüphaneleri, test — tek listede toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/enaqx/awesome-react&quot;&gt;https://github.com/enaqx/awesome-react&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome React Hooks</title>
-  <link href="https://github.com/glauberfc/awesome-react-hooks"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#github-com-glauberfc-awesome-react-hooks" rel="alternate" type="text/html"/>
   <id>https://github.com/glauberfc/awesome-react-hooks</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>React Hooks için kütüphane, örnek ve yazı listesi. Genel React listelerinden farkı sınıf bileşenlerini değil, yalnız hook tabanlı kalıpları ve özel hook paketlerini toplaması.</summary>
+  <content type="html">&lt;p&gt;React Hooks için kütüphane, örnek ve yazı listesi. Genel React listelerinden farkı sınıf bileşenlerini değil, yalnız hook tabanlı kalıpları ve özel hook paketlerini toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/glauberfc/awesome-react-hooks&quot;&gt;https://github.com/glauberfc/awesome-react-hooks&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Standard</title>
-  <link href="https://github.com/standard/awesome-standard"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#github-com-standard-awesome-standard" rel="alternate" type="text/html"/>
   <id>https://github.com/standard/awesome-standard</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Yapılandırma gerektirmeyen JS stil kılavuzu ve linter Standard için kaynak listesi. ESLint’i elle yapılandırmaktan farkı kuralların tartışmaya kapalı, sabit gelmesi; liste editör eklentilerini ve uyumlu araçları topluyor.</summary>
+  <content type="html">&lt;p&gt;Yapılandırma gerektirmeyen JS stil kılavuzu ve linter Standard için kaynak listesi. ESLint’i elle yapılandırmaktan farkı kuralların tartışmaya kapalı, sabit gelmesi; liste editör eklentilerini ve uyumlu araçları topluyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/standard/awesome-standard&quot;&gt;https://github.com/standard/awesome-standard&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Svelte</title>
-  <link href="https://github.com/TheComputerM/awesome-svelte"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#github-com-thecomputerm-awesome-svelte" rel="alternate" type="text/html"/>
   <id>https://github.com/TheComputerM/awesome-svelte</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Svelte ve SvelteKit için bileşen ve araç listesi. React ağırlıklı listelerden farkı bu derleme-zamanı çatısına özgü ekosistemi göstermesi.</summary>
+  <content type="html">&lt;p&gt;Svelte ve SvelteKit için bileşen ve araç listesi. React ağırlıklı listelerden farkı bu derleme-zamanı çatısına özgü ekosistemi göstermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/TheComputerM/awesome-svelte&quot;&gt;https://github.com/TheComputerM/awesome-svelte&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome WebExtensions</title>
-  <link href="https://github.com/fregante/Awesome-WebExtensions"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#github-com-fregante-awesome-webextensions" rel="alternate" type="text/html"/>
   <id>https://github.com/fregante/Awesome-WebExtensions</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Tarayıcılar arası eklenti (WebExtension) geliştirmek için kaynak listesi. Tek tarayıcı dokümanından farkı Chrome, Firefox ve Safari’de çalışan ortak API’ye odaklanması.</summary>
+  <content type="html">&lt;p&gt;Tarayıcılar arası eklenti (WebExtension) geliştirmek için kaynak listesi. Tek tarayıcı dokümanından farkı Chrome, Firefox ve Safari’de çalışan ortak API’ye odaklanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/fregante/Awesome-WebExtensions&quot;&gt;https://github.com/fregante/Awesome-WebExtensions&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome WebXR</title>
-  <link href="https://github.com/msub2/awesome-webxr"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#github-com-msub2-awesome-webxr" rel="alternate" type="text/html"/>
   <id>https://github.com/msub2/awesome-webxr</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Tarayıcıda sanal/artırılmış gerçeklik sağlayan WebXR için kaynak listesi. Yerel XR SDK’larından farkı kurulum istemeden tarayıcıda açılan deneyimler; liste çatıları, örnekleri ve araçları topluyor.</summary>
+  <content type="html">&lt;p&gt;Tarayıcıda sanal/artırılmış gerçeklik sağlayan WebXR için kaynak listesi. Yerel XR SDK’larından farkı kurulum istemeden tarayıcıda açılan deneyimler; liste çatıları, örnekleri ve araçları topluyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/msub2/awesome-webxr&quot;&gt;https://github.com/msub2/awesome-webxr&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome WP-CLI</title>
-  <link href="https://github.com/schlessera/awesome-wp-cli"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#github-com-schlessera-awesome-wp-cli" rel="alternate" type="text/html"/>
   <id>https://github.com/schlessera/awesome-wp-cli</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>WordPress’i komut satırından yöneten WP-CLI için kaynak listesi. Yönetim panelinden farkı toplu ve betiklenebilir işlemler: yüz sitede eklenti güncellemek tek komut.</summary>
+  <content type="html">&lt;p&gt;WordPress’i komut satırından yöneten WP-CLI için kaynak listesi. Yönetim panelinden farkı toplu ve betiklenebilir işlemler: yüz sitede eklenti güncellemek tek komut.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/schlessera/awesome-wp-cli&quot;&gt;https://github.com/schlessera/awesome-wp-cli&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Browser Diet</title>
-  <link href="https://browserdiet.com/en/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#browserdiet-com-en" rel="alternate" type="text/html"/>
   <id>https://browserdiet.com/en/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Web performansını iyileştirmek için somut öneriler toplayan kılavuz. Lighthouse gibi otomatik denetimlerden farkı önerilerin uzmanlarca elle yazılmış, gerekçeli olması; içeriğin bir kısmı HTTP/1 dönemine ait.</summary>
+  <content type="html">&lt;p&gt;Web performansını iyileştirmek için somut öneriler toplayan kılavuz. Lighthouse gibi otomatik denetimlerden farkı önerilerin uzmanlarca elle yazılmış, gerekçeli olması; içeriğin bir kısmı HTTP/1 dönemine ait.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://browserdiet.com/en/&quot;&gt;https://browserdiet.com/en/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Can I email…</title>
-  <link href="https://www.caniemail.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#caniemail-com" rel="alternate" type="text/html"/>
   <id>https://www.caniemail.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Bir HTML/CSS özelliğinin hangi e-posta istemcisinde çalıştığını gösteren tablo. Web’in Can I use’undan farkı e-posta istemcilerinin kendine has, kısıtlı desteğine bakması.</summary>
+  <content type="html">&lt;p&gt;Bir HTML/CSS özelliğinin hangi e-posta istemcisinde çalıştığını gösteren tablo. Web’in Can I use’undan farkı e-posta istemcilerinin kendine has, kısıtlı desteğine bakması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.caniemail.com/&quot;&gt;https://www.caniemail.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Chart.js</title>
-  <link href="https://www.chartjs.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#chartjs-org" rel="alternate" type="text/html"/>
   <id>https://www.chartjs.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Canvas üstünde sade, duyarlı grafikler çizen JavaScript kütüphanesi. Ağır görselleştirme kütüphanelerinden farkı birkaç satırda çalışan, hafif olması.</summary>
+  <content type="html">&lt;p&gt;Canvas üstünde sade, duyarlı grafikler çizen JavaScript kütüphanesi. Ağır görselleştirme kütüphanelerinden farkı birkaç satırda çalışan, hafif olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.chartjs.org/&quot;&gt;https://www.chartjs.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>DevSamples</title>
-  <link href="https://www.devsamples.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#devsamples-com" rel="alternate" type="text/html"/>
   <id>https://www.devsamples.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Kopyalanıp kullanılabilecek HTML, CSS ve JavaScript kod örnekleri. Dokümantasyondan farkı açıklama yerine doğrudan çalışan küçük parçalar vermesi.</summary>
+  <content type="html">&lt;p&gt;Kopyalanıp kullanılabilecek HTML, CSS ve JavaScript kod örnekleri. Dokümantasyondan farkı açıklama yerine doğrudan çalışan küçük parçalar vermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.devsamples.com/&quot;&gt;https://www.devsamples.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>docsify</title>
-  <link href="https://docsify.js.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#docsify-js-org" rel="alternate" type="text/html"/>
   <id>https://docsify.js.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Markdown dosyalarını derleme olmadan, tarayıcıda dokümantasyon sitesine çeviren araç. Statik üreticilerden farkı build adımı olmaması — sayfaları anında sunması.</summary>
+  <content type="html">&lt;p&gt;Markdown dosyalarını derleme olmadan, tarayıcıda dokümantasyon sitesine çeviren araç. Statik üreticilerden farkı build adımı olmaması — sayfaları anında sunması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://docsify.js.org/&quot;&gt;https://docsify.js.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Firefox Developer Edition</title>
-  <link href="https://www.mozilla.org/firefox/developer/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#mozilla-org-firefox-developer" rel="alternate" type="text/html"/>
   <id>https://www.mozilla.org/firefox/developer/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Web geliştiricilere yönelik, gelişmiş hata ayıklama araçlarıyla gelen Firefox sürümü. Chrome DevTools’tan farkı CSS Grid ve Flexbox denetleyicisinin ve yazı tipi panelinin güçlü olması.</summary>
+  <content type="html">&lt;p&gt;Web geliştiricilere yönelik, gelişmiş hata ayıklama araçlarıyla gelen Firefox sürümü. Chrome DevTools’tan farkı CSS Grid ve Flexbox denetleyicisinin ve yazı tipi panelinin güçlü olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.mozilla.org/firefox/developer/&quot;&gt;https://www.mozilla.org/firefox/developer/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Frontend Focus</title>
-  <link href="https://frontendfoc.us/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#frontendfoc-us" rel="alternate" type="text/html"/>
   <id>https://frontendfoc.us/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Frontend dünyasındaki haber, yazı ve araçları haftalık derleyen bülten. Dağınık takipten farkı tek, süzülmüş bir akışta özet vermesi.</summary>
+  <content type="html">&lt;p&gt;Frontend dünyasındaki haber, yazı ve araçları haftalık derleyen bülten. Dağınık takipten farkı tek, süzülmüş bir akışta özet vermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://frontendfoc.us/&quot;&gt;https://frontendfoc.us/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Frontend Mentor</title>
-  <link href="https://www.frontendmentor.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#frontendmentor-io" rel="alternate" type="text/html"/>
   <id>https://www.frontendmentor.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Gerçekçi tasarım dosyaları verip onu koda dökmeni isteyen alıştırma platformu. Rastgele projelerden farkı profesyonel tasarım ve topluluk geri bildirimiyle gelmesi.</summary>
+  <content type="html">&lt;p&gt;Gerçekçi tasarım dosyaları verip onu koda dökmeni isteyen alıştırma platformu. Rastgele projelerden farkı profesyonel tasarım ve topluluk geri bildirimiyle gelmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.frontendmentor.io/&quot;&gt;https://www.frontendmentor.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Joomla</title>
-  <link href="https://www.joomla.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#joomla-org" rel="alternate" type="text/html"/>
   <id>https://www.joomla.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>WordPress’e alternatif, açık kaynak içerik yönetim sistemi (CMS).</summary>
+  <content type="html">&lt;p&gt;WordPress’e alternatif, açık kaynak içerik yönetim sistemi (CMS).&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.joomla.org/&quot;&gt;https://www.joomla.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Patterns.dev</title>
-  <link href="https://www.patterns.dev"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#patterns-dev" rel="alternate" type="text/html"/>
   <id>https://www.patterns.dev</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Modern web uygulamaları için tasarım ve render desenlerini örneklerle anlatan ücretsiz kaynak. Klasik tasarım kalıbı kitaplarından farkı render desenlerini — SSR, statik üretim, hydration, adalar — da kapsaması.</summary>
+  <content type="html">&lt;p&gt;Modern web uygulamaları için tasarım ve render desenlerini örneklerle anlatan ücretsiz kaynak. Klasik tasarım kalıbı kitaplarından farkı render desenlerini — SSR, statik üretim, hydration, adalar — da kapsaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.patterns.dev&quot;&gt;https://www.patterns.dev&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>React Hook Form</title>
-  <link href="https://react-hook-form.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#react-hook-form-com" rel="alternate" type="text/html"/>
   <id>https://react-hook-form.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>React formlarını az yeniden render’la yöneten, doğrulama getiren kütüphane. Kontrollü bileşenlerden farkı performansı yüksek tutup kodu sadeleştirmesi.</summary>
+  <content type="html">&lt;p&gt;React formlarını az yeniden render’la yöneten, doğrulama getiren kütüphane. Kontrollü bileşenlerden farkı performansı yüksek tutup kodu sadeleştirmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://react-hook-form.com/&quot;&gt;https://react-hook-form.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Smashing Magazine</title>
-  <link href="https://www.smashingmagazine.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#smashingmagazine-com" rel="alternate" type="text/html"/>
   <id>https://www.smashingmagazine.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Web tasarım ve geliştirme üzerine derinlemesine makaleler, kitaplar ve pratik rehberler. Kısa blog yazılarından farkı uzun, editör denetiminden geçmiş makaleler yayımlaması.</summary>
+  <content type="html">&lt;p&gt;Web tasarım ve geliştirme üzerine derinlemesine makaleler, kitaplar ve pratik rehberler. Kısa blog yazılarından farkı uzun, editör denetiminden geçmiş makaleler yayımlaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.smashingmagazine.com&quot;&gt;https://www.smashingmagazine.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>SweetAlert2</title>
-  <link href="https://sweetalert2.github.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#sweetalert2-github-io" rel="alternate" type="text/html"/>
   <id>https://sweetalert2.github.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Tarayıcının çirkin alert kutusunu güzel, özelleştirilebilir modallarla değiştiren kütüphane. Yerleşik alert’ten farkı biçim, giriş alanı ve söz (promise) desteği vermesi.</summary>
+  <content type="html">&lt;p&gt;Tarayıcının çirkin alert kutusunu güzel, özelleştirilebilir modallarla değiştiren kütüphane. Yerleşik alert’ten farkı biçim, giriş alanı ve söz (promise) desteği vermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://sweetalert2.github.io/&quot;&gt;https://sweetalert2.github.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>web.dev</title>
-  <link href="https://web.dev/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#web-dev" rel="alternate" type="text/html"/>
   <id>https://web.dev/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Google’ın web kalitesi (performans, erişilebilirlik, PWA) rehberleri ve ölçüm araçları. MDN’den farkı referans değil rehber olması: Core Web Vitals gibi ölçütleri ve nasıl iyileştirileceklerini anlatıyor.</summary>
+  <content type="html">&lt;p&gt;Google’ın web kalitesi (performans, erişilebilirlik, PWA) rehberleri ve ölçüm araçları. MDN’den farkı referans değil rehber olması: Core Web Vitals gibi ölçütleri ve nasıl iyileştirileceklerini anlatıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://web.dev/&quot;&gt;https://web.dev/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

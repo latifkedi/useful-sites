@@ -2,288 +2,290 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
 <title>Öğrenme &amp; Yol Haritaları — Kullanışlı Siteler</title>
 <subtitle>Yazılımdan yapay zekaya, güvenlikten ekonomiye ve mimariye on alanda elle derlenmiş, açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/ogrenme.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/ogrenme.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/ogrenme.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>BTK Akademi</title>
-  <link href="https://www.btkakademi.gov.tr/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#btkakademi-gov-tr" rel="alternate" type="text/html"/>
   <id>https://www.btkakademi.gov.tr/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Bilgi Teknolojileri ve İletişim Kurumu’nun ücretsiz çevrimiçi eğitim platformu: programlama, siber güvenlik, yapay zekâ ve ağ kursları, tamamlayana sertifika. Ücretli Türkçe kurs pazarlarından farkı devlet destekli ve ücretsiz olması; kurslara katılmak için üyelik gerekiyor.</summary>
+  <content type="html">&lt;p&gt;Bilgi Teknolojileri ve İletişim Kurumu’nun ücretsiz çevrimiçi eğitim platformu: programlama, siber güvenlik, yapay zekâ ve ağ kursları, tamamlayana sertifika. Ücretli Türkçe kurs pazarlarından farkı devlet destekli ve ücretsiz olması; kurslara katılmak için üyelik gerekiyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.btkakademi.gov.tr/&quot;&gt;https://www.btkakademi.gov.tr/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Coderspace</title>
-  <link href="https://coderspace.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#coderspace-io" rel="alternate" type="text/html"/>
   <id>https://coderspace.io/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Türkiye’deki yazılımcılar için kariyer platformu: şirket destekli bootcamp’ler ve hackathon’lar, herkese açık mülakat soruları, maaş verileri, yol haritaları ve yazılımcı sözlüğü. Techcareer’dan farkı ücretli Pro planında etkileşimli Python ve veri eğitimleri sunması ve maaş verisi yayımlaması.</summary>
+  <content type="html">&lt;p&gt;Türkiye’deki yazılımcılar için kariyer platformu: şirket destekli bootcamp’ler ve hackathon’lar, herkese açık mülakat soruları, maaş verileri, yol haritaları ve yazılımcı sözlüğü. Techcareer’dan farkı ücretli Pro planında etkileşimli Python ve veri eğitimleri sunması ve maaş verisi yayımlaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://coderspace.io/&quot;&gt;https://coderspace.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>How DNS Works</title>
-  <link href="https://howdns.works/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#howdns-works" rel="alternate" type="text/html"/>
   <id>https://howdns.works/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>DNS sorgusunun çözücüler, kök ve TLD sunucuları üzerinden nasıl çözüldüğünü renkli bir çizgi roman olarak anlatır. Referans kitaplardan farkı, süreci karakterlerle ve kısa bir hikâyeyle somutlaştırması.</summary>
+  <content type="html">&lt;p&gt;DNS sorgusunun çözücüler, kök ve TLD sunucuları üzerinden nasıl çözüldüğünü renkli bir çizgi roman olarak anlatır. Referans kitaplardan farkı, süreci karakterlerle ve kısa bir hikâyeyle somutlaştırması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://howdns.works/&quot;&gt;https://howdns.works/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>How HTTPS Works</title>
-  <link href="https://howhttps.works/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#howhttps-works" rel="alternate" type="text/html"/>
   <id>https://howhttps.works/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>HTTPS, sertifikalar ve anahtar değişimini bir çizgi roman olarak anlatan tek sayfalık site. Teknik şartnamelerin aksine kriptografi bilgisi gerektirmeden temel fikri birkaç dakikada verir.</summary>
+  <content type="html">&lt;p&gt;HTTPS, sertifikalar ve anahtar değişimini bir çizgi roman olarak anlatan tek sayfalık site. Teknik şartnamelerin aksine kriptografi bilgisi gerektirmeden temel fikri birkaç dakikada verir.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://howhttps.works/&quot;&gt;https://howhttps.works/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>HTTP/2 Explained</title>
-  <link href="https://github.com/bagder/http2-explained"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#github-com-bagder-http2-explained" rel="alternate" type="text/html"/>
   <id>https://github.com/bagder/http2-explained</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>curl'ün yazarı Daniel Stenberg'in HTTP/2 protokolünü başlıklar, akışlar ve sunucu itme dahil anlatan kısa kitabı. Spesifikasyondan daha okunaklı, uygulayıcı gözüyle yazılmış; çok dilli çeviri sürümleri var.</summary>
+  <content type="html">&lt;p&gt;curl'ün yazarı Daniel Stenberg'in HTTP/2 protokolünü başlıklar, akışlar ve sunucu itme dahil anlatan kısa kitabı. Spesifikasyondan daha okunaklı, uygulayıcı gözüyle yazılmış; çok dilli çeviri sürümleri var.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/bagder/http2-explained&quot;&gt;https://github.com/bagder/http2-explained&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Let's Build a Simple Database</title>
-  <link href="https://cstack.github.io/db_tutorial/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#cstack-github-io-db-tutorial" rel="alternate" type="text/html"/>
   <id>https://cstack.github.io/db_tutorial/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>C ile sıfırdan bir SQLite benzeri veritabanı yazdıran adım adım öğretici: REPL, B-tree, sayfalama, imleçler. Kavramsal veritabanı anlatımlarından farkı, çalışan kodla depolama motorunun iç yapısını göstermesi.</summary>
+  <content type="html">&lt;p&gt;C ile sıfırdan bir SQLite benzeri veritabanı yazdıran adım adım öğretici: REPL, B-tree, sayfalama, imleçler. Kavramsal veritabanı anlatımlarından farkı, çalışan kodla depolama motorunun iç yapısını göstermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cstack.github.io/db_tutorial/&quot;&gt;https://cstack.github.io/db_tutorial/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Linux Guide and Hints</title>
-  <link href="https://linuxguideandhints.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#linuxguideandhints-com" rel="alternate" type="text/html"/>
   <id>https://linuxguideandhints.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Rocky/RHEL ailesi için sunucu kurulumu, ağ, güvenlik ve servis yapılandırmasını adım adım anlatan topluluk rehberi. Dağıtım belgelerinden farkı gerçek kurulum senaryolarına ve deneyimli tavsiyelere odaklanması.</summary>
+  <content type="html">&lt;p&gt;Rocky/RHEL ailesi için sunucu kurulumu, ağ, güvenlik ve servis yapılandırmasını adım adım anlatan topluluk rehberi. Dağıtım belgelerinden farkı gerçek kurulum senaryolarına ve deneyimli tavsiyelere odaklanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://linuxguideandhints.com/&quot;&gt;https://linuxguideandhints.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Marko Knoebl: Programming Course Slides</title>
-  <link href="https://marko-knoebl.github.io/slides/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#marko-knoebl-github-io-slides" rel="alternate" type="text/html"/>
   <id>https://marko-knoebl.github.io/slides/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>React, Vue, Python, veri bilimi, HTML/CSS, JavaScript/TypeScript ve veritabanları için Markdown kaynaklı kurs slaytları, alıştırma ve çözümlerle birlikte. Video kurslardan farkı çevrimdışı indirilebilen tek dosyalık HTML slaytlar olması; CC BY-SA 4.0.</summary>
+  <content type="html">&lt;p&gt;React, Vue, Python, veri bilimi, HTML/CSS, JavaScript/TypeScript ve veritabanları için Markdown kaynaklı kurs slaytları, alıştırma ve çözümlerle birlikte. Video kurslardan farkı çevrimdışı indirilebilen tek dosyalık HTML slaytlar olması; CC BY-SA 4.0.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://marko-knoebl.github.io/slides/&quot;&gt;https://marko-knoebl.github.io/slides/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>SHA-256 Algorithm Visualised</title>
-  <link href="https://sha256algorithm.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#sha256algorithm-com" rel="alternate" type="text/html"/>
   <id>https://sha256algorithm.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>SHA-256'nın bir girdiyi adım adım nasıl karma değere dönüştürdüğünü, bellekteki bitleri ve her turu göstererek canlandıran tarayıcı içi görselleştirme. Metin açıklamalardan farkı, kendi girdinizi yazıp her adımı izleyebilmeniz.</summary>
+  <content type="html">&lt;p&gt;SHA-256'nın bir girdiyi adım adım nasıl karma değere dönüştürdüğünü, bellekteki bitleri ve her turu göstererek canlandıran tarayıcı içi görselleştirme. Metin açıklamalardan farkı, kendi girdinizi yazıp her adımı izleyebilmeniz.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://sha256algorithm.com/&quot;&gt;https://sha256algorithm.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Techcareer.net</title>
-  <link href="https://www.techcareer.net/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#techcareer-net" rel="alternate" type="text/html"/>
   <id>https://www.techcareer.net/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Şirket destekli bootcamp’ler, iş ilanları ve herkese açık kaynaklar (teknik sözlük, mülakat soruları, CV örnekleri, üniversite taban puanları) sunan Türkçe kariyer platformu. Coderspace’ten farkı ağırlığı yapay zekâ yetkinlik eğitimlerine kaydırmış olması; kaynak sayfaları hesapsız okunuyor.</summary>
+  <content type="html">&lt;p&gt;Şirket destekli bootcamp’ler, iş ilanları ve herkese açık kaynaklar (teknik sözlük, mülakat soruları, CV örnekleri, üniversite taban puanları) sunan Türkçe kariyer platformu. Coderspace’ten farkı ağırlığı yapay zekâ yetkinlik eğitimlerine kaydırmış olması; kaynak sayfaları hesapsız okunuyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.techcareer.net/&quot;&gt;https://www.techcareer.net/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>The Illustrated TLS 1.2 Connection</title>
-  <link href="https://tls12.xargs.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#tls12-xargs-org" rel="alternate" type="text/html"/>
   <id>https://tls12.xargs.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Bir TLS 1.2 el sıkışmasının her baytını renkli, açıklamalı ve elle hesaplanmış değerlerle gösteren sayfa. Diğer TLS anlatımlarından farkı soyut şema yerine gerçek paket içeriğini adım adım açması.</summary>
+  <content type="html">&lt;p&gt;Bir TLS 1.2 el sıkışmasının her baytını renkli, açıklamalı ve elle hesaplanmış değerlerle gösteren sayfa. Diğer TLS anlatımlarından farkı soyut şema yerine gerçek paket içeriğini adım adım açması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://tls12.xargs.org/&quot;&gt;https://tls12.xargs.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Web Skills</title>
-  <link href="https://andreasbm.github.io/web-skills/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#andreasbm-github-io-web-skills" rel="alternate" type="text/html"/>
   <id>https://andreasbm.github.io/web-skills/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Web geliştirici olmak için öğrenilecek becerileri (HTML, CSS, JS, araçlar, test, performans) görsel bir harita olarak sunar; her kutu iyi bir öğretici kaynağa bağlanır. Metin ağırlıklı yol haritalarından farkı, tek bakışta tüm alanı göstermesi.</summary>
+  <content type="html">&lt;p&gt;Web geliştirici olmak için öğrenilecek becerileri (HTML, CSS, JS, araçlar, test, performans) görsel bir harita olarak sunar; her kutu iyi bir öğretici kaynağa bağlanır. Metin ağırlıklı yol haritalarından farkı, tek bakışta tüm alanı göstermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://andreasbm.github.io/web-skills/&quot;&gt;https://andreasbm.github.io/web-skills/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>What happens when...</title>
-  <link href="https://github.com/alex/what-happens-when"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#github-com-alex-what-happens-when" rel="alternate" type="text/html"/>
   <id>https://github.com/alex/what-happens-when</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Tarayıcıya bir adres yazıp Enter'a bastığınızda olanları (DNS, TCP, TLS, HTTP, render) madde madde ve ayrıntılı anlatan yazı. Genel 'web nasıl çalışır' anlatımlarından farkı, mülakat sorusuna cevap verecek derinlikte olması.</summary>
+  <content type="html">&lt;p&gt;Tarayıcıya bir adres yazıp Enter'a bastığınızda olanları (DNS, TCP, TLS, HTTP, render) madde madde ve ayrıntılı anlatan yazı. Genel 'web nasıl çalışır' anlatımlarından farkı, mülakat sorusuna cevap verecek derinlikte olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/alex/what-happens-when&quot;&gt;https://github.com/alex/what-happens-when&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>ÖSYM</title>
-  <link href="https://www.osym.gov.tr/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#osym-gov-tr" rel="alternate" type="text/html"/>
   <id>https://www.osym.gov.tr/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Türkiye’nin merkezî sınavlarını (YKS, KPSS, ALES, YDS) yapan kurum; açık sayfalarında sınav takvimi, kılavuzlar, yayımlanmış soru kitapçıkları ve sonuç istatistikleri var. Hazırlık sitelerinden farkı resmî kaynak olması: tarih ve kuralın son sözü burada, başvuru ise ayrı ve kimlik doğrulamalı sistemde.</summary>
+  <content type="html">&lt;p&gt;Türkiye’nin merkezî sınavlarını (YKS, KPSS, ALES, YDS) yapan kurum; açık sayfalarında sınav takvimi, kılavuzlar, yayımlanmış soru kitapçıkları ve sonuç istatistikleri var. Hazırlık sitelerinden farkı resmî kaynak olması: tarih ve kuralın son sözü burada, başvuru ise ayrı ve kimlik doğrulamalı sistemde.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.osym.gov.tr/&quot;&gt;https://www.osym.gov.tr/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>arxiv-sanity-lite</title>
-  <link href="https://arxiv-sanity-lite.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#arxiv-sanity-lite-com" rel="alternate" type="text/html"/>
   <id>https://arxiv-sanity-lite.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Karpathy'nin arXiv makalelerini tarama, etiketleme ve benzerlerini önerme aracı; açık kaynak.</summary>
+  <content type="html">&lt;p&gt;Karpathy'nin arXiv makalelerini tarama, etiketleme ve benzerlerini önerme aracı; açık kaynak.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://arxiv-sanity-lite.com&quot;&gt;https://arxiv-sanity-lite.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Certificates</title>
-  <link href="https://github.com/PanXProject/awesome-certificates"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#github-com-panxproject-awesome-certificates" rel="alternate" type="text/html"/>
   <id>https://github.com/PanXProject/awesome-certificates</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>CV’ne ekleyebileceğin ücretsiz bilgisayar bilimi sertifikalarını toplayan liste. Ücretli sertifika programlarından farkı yalnız ücretsiz olanları seçmesi.</summary>
+  <content type="html">&lt;p&gt;CV’ne ekleyebileceğin ücretsiz bilgisayar bilimi sertifikalarını toplayan liste. Ücretli sertifika programlarından farkı yalnız ücretsiz olanları seçmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/PanXProject/awesome-certificates&quot;&gt;https://github.com/PanXProject/awesome-certificates&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Hackathon</title>
-  <link href="https://github.com/dribdat/awesome-hackathon"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#github-com-dribdat-awesome-hackathon" rel="alternate" type="text/html"/>
   <id>https://github.com/dribdat/awesome-hackathon</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Verimli ve eğlenceli hackathon düzenlemek için kaynak listesi. Katılımcı rehberlerinden farkı düzenleyici tarafına odaklanması: planlama, jüri, araçlar ve platformlar.</summary>
+  <content type="html">&lt;p&gt;Verimli ve eğlenceli hackathon düzenlemek için kaynak listesi. Katılımcı rehberlerinden farkı düzenleyici tarafına odaklanması: planlama, jüri, araçlar ve platformlar.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/dribdat/awesome-hackathon&quot;&gt;https://github.com/dribdat/awesome-hackathon&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Product Management</title>
-  <link href="https://github.com/dend/awesome-product-management"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#github-com-dend-awesome-product-management" rel="alternate" type="text/html"/>
   <id>https://github.com/dend/awesome-product-management</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Daha iyi bir ürün yöneticisi olmak için kaynak listesi. Genel kariyer listelerinden farkı ürün yönetimine özgü kitapları, çerçeveleri ve araçları toplaması.</summary>
+  <content type="html">&lt;p&gt;Daha iyi bir ürün yöneticisi olmak için kaynak listesi. Genel kariyer listelerinden farkı ürün yönetimine özgü kitapları, çerçeveleri ve araçları toplaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/dend/awesome-product-management&quot;&gt;https://github.com/dend/awesome-product-management&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Roadmaps</title>
-  <link href="https://github.com/liuchong/awesome-roadmaps"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#github-com-liuchong-awesome-roadmaps" rel="alternate" type="text/html"/>
   <id>https://github.com/liuchong/awesome-roadmaps</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Farklı alanlarda bilgini geliştirmen için net yol haritaları toplayan liste.</summary>
+  <content type="html">&lt;p&gt;Farklı alanlarda bilgini geliştirmen için net yol haritaları toplayan liste.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/liuchong/awesome-roadmaps&quot;&gt;https://github.com/liuchong/awesome-roadmaps&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome STEAM</title>
-  <link href="https://github.com/RahulBirCodes/awesome-steam"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#github-com-rahulbircodes-awesome-steam" rel="alternate" type="text/html"/>
   <id>https://github.com/RahulBirCodes/awesome-steam</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Bilim, teknoloji, mühendislik, sanat ve matematik için ek öğrenme kaynakları. Genel öğrenme listelerinden farkı sanatı da kapsayan STEAM çerçevesi ve okul düzeyindeki ek kaynaklara odaklanması.</summary>
+  <content type="html">&lt;p&gt;Bilim, teknoloji, mühendislik, sanat ve matematik için ek öğrenme kaynakları. Genel öğrenme listelerinden farkı sanatı da kapsayan STEAM çerçevesi ve okul düzeyindeki ek kaynaklara odaklanması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/RahulBirCodes/awesome-steam&quot;&gt;https://github.com/RahulBirCodes/awesome-steam&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Workshopper</title>
-  <link href="https://github.com/therebelrobot/awesome-workshopper"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#github-com-therebelrobot-awesome-workshopper" rel="alternate" type="text/html"/>
   <id>https://github.com/therebelrobot/awesome-workshopper</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Komut satırında çalışan etkileşimli öğretici (workshopper) listesi. Tarayıcı tabanlı öğreticilerden farkı alıştırmaları terminalde, kendi editörünle çözmen — NodeSchool’un kullandığı biçim.</summary>
+  <content type="html">&lt;p&gt;Komut satırında çalışan etkileşimli öğretici (workshopper) listesi. Tarayıcı tabanlı öğreticilerden farkı alıştırmaları terminalde, kendi editörünle çözmen — NodeSchool’un kullandığı biçim.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/therebelrobot/awesome-workshopper&quot;&gt;https://github.com/therebelrobot/awesome-workshopper&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome YouTubers</title>
-  <link href="https://github.com/JoseDeFreitas/awesome-youtubers"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#github-com-josedefreitas-awesome-youtubers" rel="alternate" type="text/html"/>
   <id>https://github.com/JoseDeFreitas/awesome-youtubers</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Teknoloji öğreten kaliteli YouTube kanallarını toplayan liste. YouTube aramasından farkı kanalları konuya göre elle seçmesi.</summary>
+  <content type="html">&lt;p&gt;Teknoloji öğreten kaliteli YouTube kanallarını toplayan liste. YouTube aramasından farkı kanalları konuya göre elle seçmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/JoseDeFreitas/awesome-youtubers&quot;&gt;https://github.com/JoseDeFreitas/awesome-youtubers&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CSS Diner</title>
-  <link href="https://flukeout.github.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#flukeout-github-io" rel="alternate" type="text/html"/>
   <id>https://flukeout.github.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>CSS seçicilerini bir masa üzerindeki yemekleri seçerek öğreten oyun. Kuru alıştırmadan farkı seçici sözdizimini görsel ve eğlenceli bir bulmacaya çevirmesi.</summary>
+  <content type="html">&lt;p&gt;CSS seçicilerini bir masa üzerindeki yemekleri seçerek öğreten oyun. Kuru alıştırmadan farkı seçici sözdizimini görsel ve eğlenceli bir bulmacaya çevirmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://flukeout.github.io/&quot;&gt;https://flukeout.github.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Distill</title>
-  <link href="https://distill.pub"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#distill-pub" rel="alternate" type="text/html"/>
   <id>https://distill.pub</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Makine öğrenmesi fikirlerini etkileşimli görsellerle açıklayan araştırma dergisi. Klasik makale dergilerinden farkı bu etkileşimli anlatım; yayına ara verildi ama arşiv hâlâ değerli.</summary>
+  <content type="html">&lt;p&gt;Makine öğrenmesi fikirlerini etkileşimli görsellerle açıklayan araştırma dergisi. Klasik makale dergilerinden farkı bu etkileşimli anlatım; yayına ara verildi ama arşiv hâlâ değerli.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://distill.pub&quot;&gt;https://distill.pub&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Duolingo</title>
-  <link href="https://www.duolingo.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#duolingo-com" rel="alternate" type="text/html"/>
   <id>https://www.duolingo.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Dil öğrenmeyi oyunlaştırılmış, kısa günlük derslerle sunan platform. Kurs tabanlı dil öğreniminden farkı günlük seri (streak) ile alışkanlık kurdurması; karşılığında konuşma pratiği sınırlı.</summary>
+  <content type="html">&lt;p&gt;Dil öğrenmeyi oyunlaştırılmış, kısa günlük derslerle sunan platform. Kurs tabanlı dil öğreniminden farkı günlük seri (streak) ile alışkanlık kurdurması; karşılığında konuşma pratiği sınırlı.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.duolingo.com&quot;&gt;https://www.duolingo.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Flexbox Defense</title>
-  <link href="http://www.flexboxdefense.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#flexboxdefense-com" rel="alternate" type="text/html"/>
   <id>http://www.flexboxdefense.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Kule savunması oyunu üzerinden CSS Flexbox öğreten site. Dokümandan farkı her hizalama özelliğini bir oyun hamlesiyle ezberletmesi.</summary>
+  <content type="html">&lt;p&gt;Kule savunması oyunu üzerinden CSS Flexbox öğreten site. Dokümandan farkı her hizalama özelliğini bir oyun hamlesiyle ezberletmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;http://www.flexboxdefense.com/&quot;&gt;http://www.flexboxdefense.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Full Stack Open</title>
-  <link href="https://fullstackopen.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#fullstackopen-com" rel="alternate" type="text/html"/>
   <id>https://fullstackopen.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Helsinki Üniversitesi’nin React, Node ve GraphQL öğreten ücretsiz, uçtan uca tam yığın kursu. Udemy tarzı kurslardan farkı ödevlerin değerlendirilmesi ve üniversite kredisi (ECTS) verebilmesi.</summary>
+  <content type="html">&lt;p&gt;Helsinki Üniversitesi’nin React, Node ve GraphQL öğreten ücretsiz, uçtan uca tam yığın kursu. Udemy tarzı kurslardan farkı ödevlerin değerlendirilmesi ve üniversite kredisi (ECTS) verebilmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://fullstackopen.com&quot;&gt;https://fullstackopen.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Learn to Code With Me</title>
-  <link href="https://learntocodewith.me/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#learntocodewith-me" rel="alternate" type="text/html"/>
   <id>https://learntocodewith.me/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Kendi kendine kod öğrenenler için yol, araç ve kariyer tavsiyesi toplayan kaynak. Tek konuya odaklı sitelerden farkı “nereden başlamalı ve işe nasıl dönüştürmeli” sorusuna eğilmesi.</summary>
+  <content type="html">&lt;p&gt;Kendi kendine kod öğrenenler için yol, araç ve kariyer tavsiyesi toplayan kaynak. Tek konuya odaklı sitelerden farkı “nereden başlamalı ve işe nasıl dönüştürmeli” sorusuna eğilmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://learntocodewith.me/&quot;&gt;https://learntocodewith.me/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Silent Teacher</title>
-  <link href="https://silentteacher.toxicode.fr/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#silentteacher-toxicode-fr" rel="alternate" type="text/html"/>
   <id>https://silentteacher.toxicode.fr/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Tek kelime açıklama olmadan, deneme-yanılmayla programlamanın temellerini sezdiren oyun. Ders anlatımından farkı kuralı sana kendin keşfettirmesi.</summary>
+  <content type="html">&lt;p&gt;Tek kelime açıklama olmadan, deneme-yanılmayla programlamanın temellerini sezdiren oyun. Ders anlatımından farkı kuralı sana kendin keşfettirmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://silentteacher.toxicode.fr/&quot;&gt;https://silentteacher.toxicode.fr/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>SoloLearn</title>
-  <link href="https://www.sololearn.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#sololearn-com" rel="alternate" type="text/html"/>
   <id>https://www.sololearn.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Programlamayı mobilde, küçük dersler ve topluluk üzerinden öğreten platform. Uzun kurslardan farkı otobüste bile ilerlenebilen, ısırıklık yapılı olması.</summary>
+  <content type="html">&lt;p&gt;Programlamayı mobilde, küçük dersler ve topluluk üzerinden öğreten platform. Uzun kurslardan farkı otobüste bile ilerlenebilen, ısırıklık yapılı olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.sololearn.com/&quot;&gt;https://www.sololearn.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>TechGuide</title>
-  <link href="https://techguide.sh/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#techguide-sh" rel="alternate" type="text/html"/>
   <id>https://techguide.sh/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Yazılımın farklı kariyer patikalarını (frontend, veri, mobil) görsel yol haritası olarak veren site. Tek kaynaktan farkı bir role hangi sırayla ne öğrenileceğini haritalaması.</summary>
+  <content type="html">&lt;p&gt;Yazılımın farklı kariyer patikalarını (frontend, veri, mobil) görsel yol haritası olarak veren site. Tek kaynaktan farkı bir role hangi sırayla ne öğrenileceğini haritalaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://techguide.sh/&quot;&gt;https://techguide.sh/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>01 Edu Public</title>
-  <link href="https://github.com/01-edu/public"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#github-com-01-edu-public" rel="alternate" type="text/html"/>
   <id>https://github.com/01-edu/public</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>01 Edu okulunun açık ders ve proje deposu; öğretmensiz, akran değerlendirmeli eğitim modeline dayanıyor. Video kurslardan farkı proje temelli olması: bilerek muğlak bırakılmış görevlerle kendi çözümünü kurmayı öğretiyor.</summary>
+  <content type="html">&lt;p&gt;01 Edu okulunun açık ders ve proje deposu; öğretmensiz, akran değerlendirmeli eğitim modeline dayanıyor. Video kurslardan farkı proje temelli olması: bilerek muğlak bırakılmış görevlerle kendi çözümünü kurmayı öğretiyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/01-edu/public&quot;&gt;https://github.com/01-edu/public&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>APMG International</title>
-  <link href="https://apmg-international.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#apmg-international-com" rel="alternate" type="text/html"/>
   <id>https://apmg-international.com/</id>
   <updated>2026-08-26T20:53:20Z</updated>
-  <summary>AXELOS çerçevelerinin ve başka standartların sınavlarını yürüten akreditasyon kurumu. Çerçeve sahibi kurumlardan farkı bağımsız sınav sağlayıcı olması — aynı ITIL sınavına birden çok kurumdan girilebiliyor, APMG bunlardan biri.</summary>
+  <content type="html">&lt;p&gt;AXELOS çerçevelerinin ve başka standartların sınavlarını yürüten akreditasyon kurumu. Çerçeve sahibi kurumlardan farkı bağımsız sınav sağlayıcı olması — aynı ITIL sınavına birden çok kurumdan girilebiliyor, APMG bunlardan biri.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://apmg-international.com/&quot;&gt;https://apmg-international.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>AXELOS</title>
-  <link href="https://www.axelos.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#axelos-com" rel="alternate" type="text/html"/>
   <id>https://www.axelos.com/</id>
   <updated>2026-08-26T20:53:20Z</updated>
-  <summary>ITIL, PRINCE2 ve MSP çerçevelerinin sahibi. Güvenlik kurumlarından farkı hizmet yönetimi ve proje yönetimi tarafında olması — ITIL, kurumsal BT süreçlerinin ortak dili, güvenlik ekipleri de olay yönetiminde aynı sözlüğü kullanıyor.</summary>
+  <content type="html">&lt;p&gt;ITIL, PRINCE2 ve MSP çerçevelerinin sahibi. Güvenlik kurumlarından farkı hizmet yönetimi ve proje yönetimi tarafında olması — ITIL, kurumsal BT süreçlerinin ortak dili, güvenlik ekipleri de olay yönetiminde aynı sözlüğü kullanıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.axelos.com/&quot;&gt;https://www.axelos.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>BCS</title>
-  <link href="https://www.bcs.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#bcs-org" rel="alternate" type="text/html"/>
   <id>https://www.bcs.org/</id>
   <updated>2026-08-26T20:53:20Z</updated>
-  <summary>Birleşik Krallık’ın kraliyet beratlı bilişim meslek kuruluşu; sertifika verdiği gibi üniversite programlarını da akredite ediyor. Ticari sınav kurumlarından farkı meslek odası olması ve mühendislik ünvanı yolunda basamak sayılması.</summary>
+  <content type="html">&lt;p&gt;Birleşik Krallık’ın kraliyet beratlı bilişim meslek kuruluşu; sertifika verdiği gibi üniversite programlarını da akredite ediyor. Ticari sınav kurumlarından farkı meslek odası olması ve mühendislik ünvanı yolunda basamak sayılması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.bcs.org/&quot;&gt;https://www.bcs.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CertNexus</title>
-  <link href="https://certnexus.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#certnexus-com" rel="alternate" type="text/html"/>
   <id>https://certnexus.com/</id>
   <updated>2026-08-26T20:53:20Z</updated>
-  <summary>Yeni teknoloji alanlarında satıcı bağımsız sertifikalar veren kurum: siber güvenlik, veri bilimi, yapay zeka ve IoT. Yerleşik kurumlardan farkı bu yeni alanlara odaklanması — geleneksel katalogların henüz kapsamadığı konularda ölçüt sunuyor.</summary>
+  <content type="html">&lt;p&gt;Yeni teknoloji alanlarında satıcı bağımsız sertifikalar veren kurum: siber güvenlik, veri bilimi, yapay zeka ve IoT. Yerleşik kurumlardan farkı bu yeni alanlara odaklanması — geleneksel katalogların henüz kapsamadığı konularda ölçüt sunuyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://certnexus.com/&quot;&gt;https://certnexus.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CompTIA</title>
-  <link href="https://www.comptia.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#comptia-org" rel="alternate" type="text/html"/>
   <id>https://www.comptia.org/</id>
   <updated>2026-08-26T20:53:20Z</updated>
-  <summary>Security+, Network+ ve A+ ile giriş seviyesinin yaygın basamağı. Üst düzey sertifikalardan farkı deneyim şartı olmaması — bu yüzden ilk işe girişte ve ABD savunma sektöründe (DoD 8570 listesi) sıkça isteniyor. Derinlik beklememek gerekiyor.</summary>
+  <content type="html">&lt;p&gt;Security+, Network+ ve A+ ile giriş seviyesinin yaygın basamağı. Üst düzey sertifikalardan farkı deneyim şartı olmaması — bu yüzden ilk işe girişte ve ABD savunma sektöründe (DoD 8570 listesi) sıkça isteniyor. Derinlik beklememek gerekiyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.comptia.org/&quot;&gt;https://www.comptia.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>EXIN</title>
-  <link href="https://www.exin.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#exin-com" rel="alternate" type="text/html"/>
   <id>https://www.exin.com/</id>
   <updated>2026-08-26T20:53:20Z</updated>
-  <summary>Hollanda merkezli, satıcı bağımsız sınav kurumu; bilgi güvenliği yönetimi (ISO 27001) ve veri koruma alanında sertifikalar. Eğitim veren kurumlardan farkı yalnızca sınav yapması — eğitimi kimden aldığın kurumu ilgilendirmiyor.</summary>
+  <content type="html">&lt;p&gt;Hollanda merkezli, satıcı bağımsız sınav kurumu; bilgi güvenliği yönetimi (ISO 27001) ve veri koruma alanında sertifikalar. Eğitim veren kurumlardan farkı yalnızca sınav yapması — eğitimi kimden aldığın kurumu ilgilendirmiyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.exin.com/&quot;&gt;https://www.exin.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>GAQM</title>
-  <link href="https://www.gaqm.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#gaqm-org" rel="alternate" type="text/html"/>
   <id>https://www.gaqm.org/</id>
   <updated>2026-08-26T20:53:20Z</updated>
-  <summary>Geniş bir alanda satıcı bağımsız sertifika veren kurum: proje yönetimi, kalite, güvenlik. Yerleşik kurumlardan farkı fiyatının düşük ve sınava giriş koşulunun esnek olması; karşılığında işveren tanınırlığı sınırlı.</summary>
+  <content type="html">&lt;p&gt;Geniş bir alanda satıcı bağımsız sertifika veren kurum: proje yönetimi, kalite, güvenlik. Yerleşik kurumlardan farkı fiyatının düşük ve sınava giriş koşulunun esnek olması; karşılığında işveren tanınırlığı sınırlı.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.gaqm.org/&quot;&gt;https://www.gaqm.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>PECB</title>
-  <link href="https://pecb.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/ogrenme.html#pecb-com" rel="alternate" type="text/html"/>
   <id>https://pecb.com/</id>
   <updated>2026-08-26T20:53:20Z</updated>
-  <summary>ISO standartları üzerine denetçi ve uygulayıcı sertifikaları veren kurum; 27001, 22301 ve 9001 dahil. EXIN’den farkı akredite eğitmen ağı üzerinden çalışması ve baş denetçi (lead auditor) yetkisi vermesi.</summary>
+  <content type="html">&lt;p&gt;ISO standartları üzerine denetçi ve uygulayıcı sertifikaları veren kurum; 27001, 22301 ve 9001 dahil. EXIN’den farkı akredite eğitmen ağı üzerinden çalışması ve baş denetçi (lead auditor) yetkisi vermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://pecb.com/&quot;&gt;https://pecb.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

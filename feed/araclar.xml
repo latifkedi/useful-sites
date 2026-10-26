@@ -2,204 +2,206 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
 <title>Üretkenlik &amp; Günlük Araçlar — Kullanışlı Siteler</title>
 <subtitle>Yazılımdan yapay zekaya, güvenlikten ekonomiye ve mimariye on alanda elle derlenmiş, açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/araclar.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/araclar.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/araclar.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/araclar.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/araclar.xml</id>
 <updated>2026-10-09T09:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>Chris Titus Tech WinUtil</title>
-  <link href="https://github.com/ChrisTitusTech/winutil"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/araclar.html#github-com-christitustech-winutil" rel="alternate" type="text/html"/>
   <id>https://github.com/ChrisTitusTech/winutil</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Windows’a program kurma, ayar yapma ve onarım için Chris Titus’un PowerShell aracı. Elle kayıt defteri düzenleyen rehberlerden farkı bunları onay kutuları olarak sunması — her ayar betiği gibi çalıştırmadan önce okunmalı.</summary>
+  <content type="html">&lt;p&gt;Windows’a program kurma, ayar yapma ve onarım için Chris Titus’un PowerShell aracı. Elle kayıt defteri düzenleyen rehberlerden farkı bunları onay kutuları olarak sunması — her ayar betiği gibi çalıştırmadan önce okunmalı.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ChrisTitusTech/winutil&quot;&gt;https://github.com/ChrisTitusTech/winutil&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Defuddle</title>
-  <link href="https://github.com/kepano/defuddle"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/araclar.html#github-com-kepano-defuddle" rel="alternate" type="text/html"/>
   <id>https://github.com/kepano/defuddle</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Bir web sayfasının ana içeriğini temiz Markdown olarak çıkaran kütüphane. Düz HTML’den Markdown’a çevirmeden farkı önce gezinme ve gürültüyü ayıklaması.</summary>
+  <content type="html">&lt;p&gt;Bir web sayfasının ana içeriğini temiz Markdown olarak çıkaran kütüphane. Düz HTML’den Markdown’a çevirmeden farkı önce gezinme ve gürültüyü ayıklaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/kepano/defuddle&quot;&gt;https://github.com/kepano/defuddle&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>LittleLink</title>
-  <link href="https://littlelink.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/araclar.html#littlelink-io" rel="alternate" type="text/html"/>
   <id>https://littlelink.io/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Açık kaynaklı, kendin barındırdığın “biyografide bağlantı” sayfası: markalı düğmelerle tek bir küçük HTML/CSS sayfası. Linktree’den farkı ücretsiz ve hesapsız olması — bir dosyayı düzenleyip yayınlıyorsun.</summary>
+  <content type="html">&lt;p&gt;Açık kaynaklı, kendin barındırdığın “biyografide bağlantı” sayfası: markalı düğmelerle tek bir küçük HTML/CSS sayfası. Linktree’den farkı ücretsiz ve hesapsız olması — bir dosyayı düzenleyip yayınlıyorsun.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://littlelink.io/&quot;&gt;https://littlelink.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>LittleLink Button Builder</title>
-  <link href="https://builder.littlelink.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/araclar.html#builder-littlelink-io" rel="alternate" type="text/html"/>
   <id>https://builder.littlelink.io/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>LittleLink sayfaları için markalı bağlantı düğmeleri üreten araç. Düğmeleri elle çizmekten farkı hazır renk ve simgeyle çalışması.</summary>
+  <content type="html">&lt;p&gt;LittleLink sayfaları için markalı bağlantı düğmeleri üreten araç. Düğmeleri elle çizmekten farkı hazır renk ve simgeyle çalışması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://builder.littlelink.io/&quot;&gt;https://builder.littlelink.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OpenCore Legacy Patcher</title>
-  <link href="https://github.com/dortania/OpenCore-Legacy-Patcher"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/araclar.html#github-com-dortania-opencore-legacy-patcher" rel="alternate" type="text/html"/>
   <id>https://github.com/dortania/OpenCore-Legacy-Patcher</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Apple’ın artık desteklemediği Mac’lere yeni macOS kurmaya yarayan araç. Son resmî sürümde kalmaktan farkı yeni sürümleri almak; bedeli desteklenmeyen donanım tuhaflıkları — hangi Mac ve sürümleri desteklediğini projeden kontrol et.</summary>
+  <content type="html">&lt;p&gt;Apple’ın artık desteklemediği Mac’lere yeni macOS kurmaya yarayan araç. Son resmî sürümde kalmaktan farkı yeni sürümleri almak; bedeli desteklenmeyen donanım tuhaflıkları — hangi Mac ve sürümleri desteklediğini projeden kontrol et.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/dortania/OpenCore-Legacy-Patcher&quot;&gt;https://github.com/dortania/OpenCore-Legacy-Patcher&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Asana</title>
-  <link href="https://asana.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/araclar.html#asana-com" rel="alternate" type="text/html"/>
   <id>https://asana.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Ekip işini, görev ve iş akışlarını izleyen proje yönetim platformu. Jira’ya kıyasla yazılım dışı ekiplere daha uygun ve kurulumu hafif; karşılığında geliştirme süreçlerine özgü özellikleri daha az.</summary>
+  <content type="html">&lt;p&gt;Ekip işini, görev ve iş akışlarını izleyen proje yönetim platformu. Jira’ya kıyasla yazılım dışı ekiplere daha uygun ve kurulumu hafif; karşılığında geliştirme süreçlerine özgü özellikleri daha az.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://asana.com/&quot;&gt;https://asana.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Calculators</title>
-  <link href="https://github.com/xxczaki/awesome-calculators"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/araclar.html#github-com-xxczaki-awesome-calculators" rel="alternate" type="text/html"/>
   <id>https://github.com/xxczaki/awesome-calculators</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Her platform için hesap makinesi araçlarının listesi. Tek bir hesap makinesinden farkı seçenekleri platforma göre — masaüstü, mobil, web, komut satırı — düzenlemesi.</summary>
+  <content type="html">&lt;p&gt;Her platform için hesap makinesi araçlarının listesi. Tek bir hesap makinesinden farkı seçenekleri platforma göre — masaüstü, mobil, web, komut satırı — düzenlemesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/xxczaki/awesome-calculators&quot;&gt;https://github.com/xxczaki/awesome-calculators&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome No-Login Web Apps</title>
-  <link href="https://github.com/aviaryan/awesome-no-login-web-apps"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/araclar.html#github-com-aviaryan-awesome-no-login-web-apps" rel="alternate" type="text/html"/>
   <id>https://github.com/aviaryan/awesome-no-login-web-apps</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Giriş yapmadan çalışan kullanışlı web uygulamalarının listesi. Genel araç listelerinden farkı hesap açma şartı olmayanları seçmesi: veri vermeden hemen kullan.</summary>
+  <content type="html">&lt;p&gt;Giriş yapmadan çalışan kullanışlı web uygulamalarının listesi. Genel araç listelerinden farkı hesap açma şartı olmayanları seçmesi: veri vermeden hemen kullan.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/aviaryan/awesome-no-login-web-apps&quot;&gt;https://github.com/aviaryan/awesome-no-login-web-apps&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Userscripts</title>
-  <link href="https://github.com/bvolpato/awesome-userscripts"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/araclar.html#github-com-bvolpato-awesome-userscripts" rel="alternate" type="text/html"/>
   <id>https://github.com/bvolpato/awesome-userscripts</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Gezinti deneyimini geliştiren kullanıcı betikleri (userscript) listesi. Tarayıcı uzantılarından farkı Tampermonkey gibi bir yöneticiyle çalışan, kaynak kodu okunabilir küçük betikler olması.</summary>
+  <content type="html">&lt;p&gt;Gezinti deneyimini geliştiren kullanıcı betikleri (userscript) listesi. Tarayıcı uzantılarından farkı Tampermonkey gibi bir yöneticiyle çalışan, kaynak kodu okunabilir küçük betikler olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/bvolpato/awesome-userscripts&quot;&gt;https://github.com/bvolpato/awesome-userscripts&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Full Page Screen Capture</title>
-  <link href="https://chrome.google.com/webstore/detail/full-page-screen-capture"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/araclar.html#chrome-google-com-webstore-detail-full-page-screen-capture" rel="alternate" type="text/html"/>
   <id>https://chrome.google.com/webstore/detail/full-page-screen-capture</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Tüm sayfayı (kaydırma dâhil) tek görüntüye alan Chrome eklentisi. DevTools’taki gizli “tam boy ekran görüntüsü” komutuna kıyasla tek tık ve PDF olarak da kaydedebiliyor.</summary>
+  <content type="html">&lt;p&gt;Tüm sayfayı (kaydırma dâhil) tek görüntüye alan Chrome eklentisi. DevTools’taki gizli “tam boy ekran görüntüsü” komutuna kıyasla tek tık ve PDF olarak da kaydedebiliyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://chrome.google.com/webstore/detail/full-page-screen-capture&quot;&gt;https://chrome.google.com/webstore/detail/full-page-screen-capture&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Google Keep</title>
-  <link href="https://keep.google.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/araclar.html#keep-google-com" rel="alternate" type="text/html"/>
   <id>https://keep.google.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Bulutta senkronlu, hızlı yapışkan not aracı; liste, hatırlatıcı ve sesli not destekliyor. Notion ya da Obsidian’dan farkı hız: yapı kurmadan not düşüyorsun; karşılığında düzenleme ve bağlantı özellikleri sınırlı.</summary>
+  <content type="html">&lt;p&gt;Bulutta senkronlu, hızlı yapışkan not aracı; liste, hatırlatıcı ve sesli not destekliyor. Notion ya da Obsidian’dan farkı hız: yapı kurmadan not düşüyorsun; karşılığında düzenleme ve bağlantı özellikleri sınırlı.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://keep.google.com/&quot;&gt;https://keep.google.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Jira</title>
-  <link href="https://www.atlassian.com/software/jira"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/araclar.html#atlassian-com-software-jira" rel="alternate" type="text/html"/>
   <id>https://www.atlassian.com/software/jira</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Yazılım ekipleri için sürüm ve hata takibine güçlü, çevik proje yönetimi. Trello’ya kıyasla ağır ve öğrenmesi uzun, ama sprint, iş akışı ve raporlama ihtiyacı olan büyük ekipler için.</summary>
+  <content type="html">&lt;p&gt;Yazılım ekipleri için sürüm ve hata takibine güçlü, çevik proje yönetimi. Trello’ya kıyasla ağır ve öğrenmesi uzun, ama sprint, iş akışı ve raporlama ihtiyacı olan büyük ekipler için.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.atlassian.com/software/jira&quot;&gt;https://www.atlassian.com/software/jira&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Notion</title>
-  <link href="https://www.notion.so/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/araclar.html#notion-so" rel="alternate" type="text/html"/>
   <id>https://www.notion.so/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Not, wiki, veritabanı ve proje panosunu tek çalışma alanında birleştiren araç. Obsidian’dan farkı bulutta ve ekip odaklı olması; karşılığında veriler yerel dosya değil, çevrimdışı çalışma sınırlı.</summary>
+  <content type="html">&lt;p&gt;Not, wiki, veritabanı ve proje panosunu tek çalışma alanında birleştiren araç. Obsidian’dan farkı bulutta ve ekip odaklı olması; karşılığında veriler yerel dosya değil, çevrimdışı çalışma sınırlı.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.notion.so/&quot;&gt;https://www.notion.so/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>ProtectedText</title>
-  <link href="https://www.protectedtext.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/araclar.html#protectedtext-com" rel="alternate" type="text/html"/>
   <id>https://www.protectedtext.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Kayıt gerektirmeyen, şifreli çevrimiçi not defteri; parola tarayıcıdan çıkmıyor. Pastebin’in aksine sunucu notu düz metin olarak görmüyor.</summary>
+  <content type="html">&lt;p&gt;Kayıt gerektirmeyen, şifreli çevrimiçi not defteri; parola tarayıcıdan çıkmıyor. Pastebin’in aksine sunucu notu düz metin olarak görmüyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.protectedtext.com/&quot;&gt;https://www.protectedtext.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Slack</title>
-  <link href="https://slack.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/araclar.html#slack-com" rel="alternate" type="text/html"/>
   <id>https://slack.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Kanallar üzerinden ekip iletişimi ve araç entegrasyonu platformu. Discord’a kıyasla iş odaklı ve entegrasyon ekosistemi güçlü; ücretsiz planda mesaj geçmişi 90 günle sınırlı.</summary>
+  <content type="html">&lt;p&gt;Kanallar üzerinden ekip iletişimi ve araç entegrasyonu platformu. Discord’a kıyasla iş odaklı ve entegrasyon ekosistemi güçlü; ücretsiz planda mesaj geçmişi 90 günle sınırlı.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://slack.com/&quot;&gt;https://slack.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Todoist</title>
-  <link href="https://todoist.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/araclar.html#todoist-com" rel="alternate" type="text/html"/>
   <id>https://todoist.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Kişisel ve ekip projelerini yöneten, hızlı yakalamaya odaklı yapılacaklar aracı. Notion gibi çok amaçlı araçlardan farkı yalnız göreve odaklanması; “yarın 9’da” gibi doğal dil tarih girişini anlıyor.</summary>
+  <content type="html">&lt;p&gt;Kişisel ve ekip projelerini yöneten, hızlı yakalamaya odaklı yapılacaklar aracı. Notion gibi çok amaçlı araçlardan farkı yalnız göreve odaklanması; “yarın 9’da” gibi doğal dil tarih girişini anlıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://todoist.com/&quot;&gt;https://todoist.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Trello</title>
-  <link href="https://trello.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/araclar.html#trello-com" rel="alternate" type="text/html"/>
   <id>https://trello.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Projeleri kart ve panolarla (Kanban) yöneten sade görev aracı; Atlassian’a ait. Jira’ya kıyasla kurulumu dakikalar sürüyor, karşılığında büyük ekiplerin raporlama ihtiyacını karşılamıyor.</summary>
+  <content type="html">&lt;p&gt;Projeleri kart ve panolarla (Kanban) yöneten sade görev aracı; Atlassian’a ait. Jira’ya kıyasla kurulumu dakikalar sürüyor, karşılığında büyük ekiplerin raporlama ihtiyacını karşılamıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://trello.com/&quot;&gt;https://trello.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Image Max URL</title>
-  <link href="https://qsniyg.github.io/maxurl/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/araclar.html#qsniyg-github-io-maxurl" rel="alternate" type="text/html"/>
   <id>https://qsniyg.github.io/maxurl/</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>Bir görselin ya da videonun küçültülmüş hâlinden en büyük/orijinal sürümünü bulan tarayıcı eklentisi. Sağ tık “görseli aç”tan farkı yeniden boyutlandırmayı geri alması: küçük resim URL’sinden tam çözünürlüklü kaynağı çözüyor.</summary>
+  <content type="html">&lt;p&gt;Bir görselin ya da videonun küçültülmüş hâlinden en büyük/orijinal sürümünü bulan tarayıcı eklentisi. Sağ tık “görseli aç”tan farkı yeniden boyutlandırmayı geri alması: küçük resim URL’sinden tam çözünürlüklü kaynağı çözüyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://qsniyg.github.io/maxurl/&quot;&gt;https://qsniyg.github.io/maxurl/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Everything</title>
-  <link href="https://www.voidtools.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/araclar.html#voidtools-com" rel="alternate" type="text/html"/>
   <id>https://www.voidtools.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Windows’ta dosya adına göre anlık arama; NTFS ana dosya tablosunu okuyarak indeks kuruyor. Windows Search’ten farkı bu: içerik indekslemediği için ilk taraması saniyeler sürüyor ve sonuçlar yazarken anında geliyor.</summary>
+  <content type="html">&lt;p&gt;Windows’ta dosya adına göre anlık arama; NTFS ana dosya tablosunu okuyarak indeks kuruyor. Windows Search’ten farkı bu: içerik indekslemediği için ilk taraması saniyeler sürüyor ve sonuçlar yazarken anında geliyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.voidtools.com/&quot;&gt;https://www.voidtools.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Microsoft PowerToys</title>
-  <link href="https://learn.microsoft.com/en-us/windows/powertoys/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/araclar.html#learn-microsoft-com-en-us-windows-powertoys" rel="alternate" type="text/html"/>
   <id>https://learn.microsoft.com/en-us/windows/powertoys/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Windows’a eksik özellikleri ekleyen resmi araç seti: pencere yerleşimi (FancyZones), toplu yeniden adlandırma, renk seçici, metin çıkarma. Üçüncü parti araçlardan farkı Microsoft’un kendi geliştirip açık kaynak tutması — güncellemelerle uyumu bozulmuyor.</summary>
+  <content type="html">&lt;p&gt;Windows’a eksik özellikleri ekleyen resmi araç seti: pencere yerleşimi (FancyZones), toplu yeniden adlandırma, renk seçici, metin çıkarma. Üçüncü parti araçlardan farkı Microsoft’un kendi geliştirip açık kaynak tutması — güncellemelerle uyumu bozulmuyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://learn.microsoft.com/en-us/windows/powertoys/&quot;&gt;https://learn.microsoft.com/en-us/windows/powertoys/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Rufus</title>
-  <link href="https://rufus.ie/en/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/araclar.html#rufus-ie-en" rel="alternate" type="text/html"/>
   <id>https://rufus.ie/en/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Önyüklenebilir USB hazırlayan Windows aracı; ISO’yu yazarken UEFI/BIOS ve bölümleme ayrıntılarını kendisi çözüyor. Diğer yazıcılardan farkı Windows 11 kurulumundaki TPM ve hesap zorunluluğunu kaldıran seçenekleri sunması.</summary>
+  <content type="html">&lt;p&gt;Önyüklenebilir USB hazırlayan Windows aracı; ISO’yu yazarken UEFI/BIOS ve bölümleme ayrıntılarını kendisi çözüyor. Diğer yazıcılardan farkı Windows 11 kurulumundaki TPM ve hesap zorunluluğunu kaldıran seçenekleri sunması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://rufus.ie/en/&quot;&gt;https://rufus.ie/en/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Snapdrop</title>
-  <link href="https://snapdrop.net/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/araclar.html#snapdrop-net" rel="alternate" type="text/html"/>
   <id>https://snapdrop.net/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Aynı ağdaki cihazlar arasında tarayıcıdan dosya aktarımı; WebRTC ile doğrudan bağlanıyor. AirDrop’tan farkı işletim sistemi gözetmemesi — Android ile Mac arasında da çalışıyor, kurulum ve hesap istemiyor.</summary>
+  <content type="html">&lt;p&gt;Aynı ağdaki cihazlar arasında tarayıcıdan dosya aktarımı; WebRTC ile doğrudan bağlanıyor. AirDrop’tan farkı işletim sistemi gözetmemesi — Android ile Mac arasında da çalışıyor, kurulum ve hesap istemiyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://snapdrop.net/&quot;&gt;https://snapdrop.net/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>GitHub Gist</title>
-  <link href="https://gist.github.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/araclar.html#gist-github-com" rel="alternate" type="text/html"/>
   <id>https://gist.github.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Tek dosyalık kod parçalarını sürüm geçmişiyle paylaşma servisi; yorum ve çatallama desteği olduğu için pastebin’den kalıcı.</summary>
+  <content type="html">&lt;p&gt;Tek dosyalık kod parçalarını sürüm geçmişiyle paylaşma servisi; yorum ve çatallama desteği olduğu için pastebin’den kalıcı.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://gist.github.com&quot;&gt;https://gist.github.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Pastebin</title>
-  <link href="https://pastebin.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/araclar.html#pastebin-com" rel="alternate" type="text/html"/>
   <id>https://pastebin.com</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Metin ve günlük paylaşmanın en basit yolu; sözdizimi vurgulama ve süre sınırı var. GitHub Gist’ten farkı hesap istememesi; hassas veri yapıştırmamak gerektiğini akılda tut.</summary>
+  <content type="html">&lt;p&gt;Metin ve günlük paylaşmanın en basit yolu; sözdizimi vurgulama ve süre sınırı var. GitHub Gist’ten farkı hesap istememesi; hassas veri yapıştırmamak gerektiğini akılda tut.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://pastebin.com&quot;&gt;https://pastebin.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Udeler GUI</title>
-  <link href="https://github.com/ZeoRexDevs/Udeler_GUI"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/araclar.html#github-com-zeorexdevs-udeler-gui" rel="alternate" type="text/html"/>
   <id>https://github.com/ZeoRexDevs/Udeler_GUI</id>
   <updated>2026-07-29T08:03:52Z</updated>
-  <summary>Satın aldığın Udemy kurslarını çevrimdışı izlemek için indiren araç; depo 2024’te arşivlendi. Udemy uygulamasının çevrimdışı modundan farkı dosyaların sende kalması — ama Udemy’nin DRM’li kurslarında artık çalışmayabilir.</summary>
+  <content type="html">&lt;p&gt;Satın aldığın Udemy kurslarını çevrimdışı izlemek için indiren araç; depo 2024’te arşivlendi. Udemy uygulamasının çevrimdışı modundan farkı dosyaların sende kalması — ama Udemy’nin DRM’li kurslarında artık çalışmayabilir.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/ZeoRexDevs/Udeler_GUI&quot;&gt;https://github.com/ZeoRexDevs/Udeler_GUI&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>AppList</title>
-  <link href="https://sxp.studio/apps/applist"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/araclar.html#sxp-studio-apps-applist" rel="alternate" type="text/html"/>
   <id>https://sxp.studio/apps/applist</id>
   <updated>2026-07-07T06:49:13Z</updated>
-  <summary>iPhone için metin listesi biçiminde uygulama başlatıcı. Varsayılan simge ızgarasının aksine dikkat çeken renkli simgeleri kaldırıyor — dijital minimalizm tarafında bilinçli bir sürtünme.</summary>
+  <content type="html">&lt;p&gt;iPhone için metin listesi biçiminde uygulama başlatıcı. Varsayılan simge ızgarasının aksine dikkat çeken renkli simgeleri kaldırıyor — dijital minimalizm tarafında bilinçli bir sürtünme.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://sxp.studio/apps/applist&quot;&gt;https://sxp.studio/apps/applist&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>MacroDroid</title>
-  <link href="https://www.macrodroid.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/araclar.html#macrodroid-com" rel="alternate" type="text/html"/>
   <id>https://www.macrodroid.com/</id>
   <updated>2026-06-08T14:36:48Z</updated>
-  <summary>Android’de tetikleyici-eylem kuralları kuruyorsun: konuma girince Wi-Fi aç, şarj olurken sessize al. Tasker kadar güçlü değil ama arayüzü kat kat anlaşılır.</summary>
+  <content type="html">&lt;p&gt;Android’de tetikleyici-eylem kuralları kuruyorsun: konuma girince Wi-Fi aç, şarj olurken sessize al. Tasker kadar güçlü değil ama arayüzü kat kat anlaşılır.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.macrodroid.com/&quot;&gt;https://www.macrodroid.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Siteyi Çevrimdışı İndirme</title>
-  <link href="https://dynomapper.com/blog/inventory-content/how-to-download-a-website-for-offline-viewing/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/araclar.html#dynomapper-com-blog-inventory-content-how-to-download-a-website-for-offline-viewing" rel="alternate" type="text/html"/>
   <id>https://dynomapper.com/blog/inventory-content/how-to-download-a-website-for-offline-viewing/</id>
   <updated>2025-11-10T23:10:14Z</updated>
-  <summary>Bir siteyi çevrimdışı arşivleme yöntemlerini karşılaştıran rehber (wget, HTTrack ve diğerleri). Tek bir aracın belgesinden farkı yöntemleri yan yana koyması; kaybolma riski olan dokümantasyon için pratik bir hazırlık.</summary>
+  <content type="html">&lt;p&gt;Bir siteyi çevrimdışı arşivleme yöntemlerini karşılaştıran rehber (wget, HTTrack ve diğerleri). Tek bir aracın belgesinden farkı yöntemleri yan yana koyması; kaybolma riski olan dokümantasyon için pratik bir hazırlık.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://dynomapper.com/blog/inventory-content/how-to-download-a-website-for-offline-viewing/&quot;&gt;https://dynomapper.com/blog/inventory-content/how-to-download-a-website-for-offline-viewing/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

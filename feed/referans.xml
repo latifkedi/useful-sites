@@ -2,288 +2,290 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="tr">
 <title>Kopya Kâğıtları &amp; Başvuru — Kullanışlı Siteler</title>
 <subtitle>Yazılımdan yapay zekaya, güvenlikten ekonomiye ve mimariye on alanda elle derlenmiş, açıklamalı bağlantı dizini. Her kayıtta ne işe yaradığı ve benzerlerinden nerede ayrıldığı yazılı.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/referans.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/referans.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/referans.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/referans.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/referans.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>Bruce Barnett's Grymoire</title>
-  <link href="https://www.grymoire.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#grymoire-com" rel="alternate" type="text/html"/>
   <id>https://www.grymoire.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>sed, awk, csh ve regex gibi Unix araçları için uzun soluklu, ayrıntılı öğreticiler barındıran eski ama hâlâ kullanışlı site. Kısa kopya kâğıtlarından farkı, her aracı baştan sona kapsamlı anlatması.</summary>
+  <content type="html">&lt;p&gt;sed, awk, csh ve regex gibi Unix araçları için uzun soluklu, ayrıntılı öğreticiler barındıran eski ama hâlâ kullanışlı site. Kısa kopya kâğıtlarından farkı, her aracı baştan sona kapsamlı anlatması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.grymoire.com/&quot;&gt;https://www.grymoire.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Comprehensive Python Cheatsheet</title>
-  <link href="https://github.com/gto76/python-cheatsheet"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#github-com-gto76-python-cheatsheet" rel="alternate" type="text/html"/>
   <id>https://github.com/gto76/python-cheatsheet</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Python'un sözdizimi, koleksiyonlar, standart kütüphane ve yaygın modüllerini tek sayfalık yoğun bir özet olarak veren kopya kâğıdı. Başlangıç eğitimlerinden farkı sıfırdan anlatmaması, bilen birinin hızlıca hatırlaması için yazılmış olması.</summary>
+  <content type="html">&lt;p&gt;Python'un sözdizimi, koleksiyonlar, standart kütüphane ve yaygın modüllerini tek sayfalık yoğun bir özet olarak veren kopya kâğıdı. Başlangıç eğitimlerinden farkı sıfırdan anlatmaması, bilen birinin hızlıca hatırlaması için yazılmış olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/gto76/python-cheatsheet&quot;&gt;https://github.com/gto76/python-cheatsheet&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CTAN</title>
-  <link href="https://ctan.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#ctan-org" rel="alternate" type="text/html"/>
   <id>https://ctan.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>TeX ve LaTeX paketlerinin merkezî arşivi: her paketin belgeleri, sürümü, lisansı ve bakım durumu tek sayfada. Forum yanıtlarından farkı bir paketin asıl kılavuzuna (çoğu zaman PDF) ve TeX Live’a giren hâline buradan ulaşman.</summary>
+  <content type="html">&lt;p&gt;TeX ve LaTeX paketlerinin merkezî arşivi: her paketin belgeleri, sürümü, lisansı ve bakım durumu tek sayfada. Forum yanıtlarından farkı bir paketin asıl kılavuzuna (çoğu zaman PDF) ve TeX Live’a giren hâline buradan ulaşman.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://ctan.org/&quot;&gt;https://ctan.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Detexify</title>
-  <link href="https://detexify.kirelabs.org/classify.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#detexify-kirelabs-org-classify-html" rel="alternate" type="text/html"/>
   <id>https://detexify.kirelabs.org/classify.html</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Aradığın sembolü fareyle çiziyorsun, karşılık gelen LaTeX komutunu ve gereken paketi söylüyor. Sembol tablolarını taramaktan farkı adını bilmediğin bir işareti şeklinden bulabilmen.</summary>
+  <content type="html">&lt;p&gt;Aradığın sembolü fareyle çiziyorsun, karşılık gelen LaTeX komutunu ve gereken paketi söylüyor. Sembol tablolarını taramaktan farkı adını bilmediğin bir işareti şeklinden bulabilmen.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://detexify.kirelabs.org/classify.html&quot;&gt;https://detexify.kirelabs.org/classify.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Grymoire: AWK Tutorial</title>
-  <link href="https://www.grymoire.com/Unix/Awk.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#grymoire-com-unix-awk-html" rel="alternate" type="text/html"/>
   <id>https://www.grymoire.com/Unix/Awk.html</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>AWK'yı sıfırdan, örneklerle anlatan uzun tek sayfa öğretici. Kılavuz sayfasından farkı, alan ayırıcı, desen ve değişkenleri küçük betiklerle adım adım göstermesi. Site eski görünüyor ama içerik hâlâ geçerli.</summary>
+  <content type="html">&lt;p&gt;AWK'yı sıfırdan, örneklerle anlatan uzun tek sayfa öğretici. Kılavuz sayfasından farkı, alan ayırıcı, desen ve değişkenleri küçük betiklerle adım adım göstermesi. Site eski görünüyor ama içerik hâlâ geçerli.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.grymoire.com/Unix/Awk.html&quot;&gt;https://www.grymoire.com/Unix/Awk.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Grymoire: Grep Tutorial</title>
-  <link href="https://www.grymoire.com/Unix/Grep.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#grymoire-com-unix-grep-html" rel="alternate" type="text/html"/>
   <id>https://www.grymoire.com/Unix/Grep.html</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>grep, egrep ve fgrep arasındaki farkları ve düzenli ifade söz dizimini örnekle anlatan öğretici. Kılavuz sayfasından farkı, temel ve genişletilmiş düzenli ifadelerin kaçış kurallarını açıkça karşılaştırması.</summary>
+  <content type="html">&lt;p&gt;grep, egrep ve fgrep arasındaki farkları ve düzenli ifade söz dizimini örnekle anlatan öğretici. Kılavuz sayfasından farkı, temel ve genişletilmiş düzenli ifadelerin kaçış kurallarını açıkça karşılaştırması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.grymoire.com/Unix/Grep.html&quot;&gt;https://www.grymoire.com/Unix/Grep.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Grymoire: Sed Tutorial</title>
-  <link href="https://www.grymoire.com/Unix/Sed.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#grymoire-com-unix-sed-html" rel="alternate" type="text/html"/>
   <id>https://www.grymoire.com/Unix/Sed.html</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>sed'i adres, komut ve düzenli ifadelerle öğreten, örnekli tek sayfa öğretici. Kılavuz sayfasından farkı, hold space gibi kafa karıştıran kısımları da açıklaması.</summary>
+  <content type="html">&lt;p&gt;sed'i adres, komut ve düzenli ifadelerle öğreten, örnekli tek sayfa öğretici. Kılavuz sayfasından farkı, hold space gibi kafa karıştıran kısımları da açıklaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.grymoire.com/Unix/Sed.html&quot;&gt;https://www.grymoire.com/Unix/Sed.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>iHateRegex</title>
-  <link href="https://ihateregex.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#ihateregex-io" rel="alternate" type="text/html"/>
   <id>https://ihateregex.io/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>E-posta, telefon, tarih, IP adresi gibi sık ihtiyaç duyulan düzenli ifadelerin kataloğu; her biri diyagram, açıklama ve deneme alanıyla geliyor. Test araçlarından farkı ifadeyi sıfırdan yazdırmak yerine hazır ve açıklanmış bir kalıp vermesi.</summary>
+  <content type="html">&lt;p&gt;E-posta, telefon, tarih, IP adresi gibi sık ihtiyaç duyulan düzenli ifadelerin kataloğu; her biri diyagram, açıklama ve deneme alanıyla geliyor. Test araçlarından farkı ifadeyi sıfırdan yazdırmak yerine hazır ve açıklanmış bir kalıp vermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://ihateregex.io/&quot;&gt;https://ihateregex.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Julia Evans' Drawings</title>
-  <link href="https://drawings.jvns.ca/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#drawings-jvns-ca" rel="alternate" type="text/html"/>
   <id>https://drawings.jvns.ca/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Linux, ağ, hata ayıklama araçları ve sistem kavramlarını çizimler ve 'zine'lerle anlatan Julia Evans'ın sayfası. Çizimlerin çoğu ücretsiz okunabiliyor; yoğun metin yerine tek bakışta anlaşılan görsel özetler sunuyor.</summary>
+  <content type="html">&lt;p&gt;Linux, ağ, hata ayıklama araçları ve sistem kavramlarını çizimler ve 'zine'lerle anlatan Julia Evans'ın sayfası. Çizimlerin çoğu ücretsiz okunabiliyor; yoğun metin yerine tek bakışta anlaşılan görsel özetler sunuyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://drawings.jvns.ca/&quot;&gt;https://drawings.jvns.ca/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OID Repository (Alvestrand)</title>
-  <link href="https://www.alvestrand.no/objectid/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#alvestrand-no-objectid" rel="alternate" type="text/html"/>
   <id>https://www.alvestrand.no/objectid/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Nesne tanımlayıcılarını (OID) ağaç yapısında gezip aramaya yarayan dizin; X.509 sertifika alanlarını çözerken kullanışlı. Büyük OID veritabanlarından farkı sade ve hızlı olması, internet ve sertifika dallarına ağırlık vermesi.</summary>
+  <content type="html">&lt;p&gt;Nesne tanımlayıcılarını (OID) ağaç yapısında gezip aramaya yarayan dizin; X.509 sertifika alanlarını çözerken kullanışlı. Büyük OID veritabanlarından farkı sade ve hızlı olması, internet ve sertifika dallarına ağırlık vermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.alvestrand.no/objectid/&quot;&gt;https://www.alvestrand.no/objectid/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>OWASP Cheat Sheet Series</title>
-  <link href="https://cheatsheetseries.owasp.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#cheatsheetseries-owasp-org" rel="alternate" type="text/html"/>
   <id>https://cheatsheetseries.owasp.org/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Kimlik doğrulama, enjeksiyon önleme, oturum yönetimi gibi uygulama güvenliği konularında kısa, uygulama odaklı kılavuzlar. OWASP Top 10 gibi risk listelerinden farkı, sorunu anlatmak yerine nasıl önleneceğini vermesi.</summary>
+  <content type="html">&lt;p&gt;Kimlik doğrulama, enjeksiyon önleme, oturum yönetimi gibi uygulama güvenliği konularında kısa, uygulama odaklı kılavuzlar. OWASP Top 10 gibi risk listelerinden farkı, sorunu anlatmak yerine nasıl önleneceğini vermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cheatsheetseries.owasp.org/&quot;&gt;https://cheatsheetseries.owasp.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>PortSwigger XSS Cheat Sheet</title>
-  <link href="https://portswigger.net/web-security/cross-site-scripting/cheat-sheet"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#portswigger-net-web-security-cross-site-scripting-cheat-sheet" rel="alternate" type="text/html"/>
   <id>https://portswigger.net/web-security/cross-site-scripting/cheat-sheet</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Etiket, olay işleyicisi ve tarayıcıya göre filtrelenebilen XSS vektörleri listesi. Düz payload listelerinden farkı, her vektörün hangi tarayıcıda ve hangi kullanıcı etkileşimiyle çalıştığını belirtmesi.</summary>
+  <content type="html">&lt;p&gt;Etiket, olay işleyicisi ve tarayıcıya göre filtrelenebilen XSS vektörleri listesi. Düz payload listelerinden farkı, her vektörün hangi tarayıcıda ve hangi kullanıcı etkileşimiyle çalıştığını belirtmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://portswigger.net/web-security/cross-site-scripting/cheat-sheet&quot;&gt;https://portswigger.net/web-security/cross-site-scripting/cheat-sheet&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Pure sh Bible</title>
-  <link href="https://github.com/dylanaraps/pure-sh-bible"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#github-com-dylanaraps-pure-sh-bible" rel="alternate" type="text/html"/>
   <id>https://github.com/dylanaraps/pure-sh-bible</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Dış komut (sed, awk, cut) çağırmadan saf POSIX sh ile string, dizi, dosya ve döngü işlemlerinin nasıl yapıldığını gösteren tarif koleksiyonu. Bash'e özgü rehberlerden farkı taşınabilir ve hızlı betikler için yalnızca POSIX'e bağlı kalması.</summary>
+  <content type="html">&lt;p&gt;Dış komut (sed, awk, cut) çağırmadan saf POSIX sh ile string, dizi, dosya ve döngü işlemlerinin nasıl yapıldığını gösteren tarif koleksiyonu. Bash'e özgü rehberlerden farkı taşınabilir ve hızlı betikler için yalnızca POSIX'e bağlı kalması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/dylanaraps/pure-sh-bible&quot;&gt;https://github.com/dylanaraps/pure-sh-bible&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>TDK Güncel Türkçe Sözlük</title>
-  <link href="https://sozluk.gov.tr/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#sozluk-gov-tr" rel="alternate" type="text/html"/>
   <id>https://sozluk.gov.tr/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Türk Dil Kurumu’nun sözlükleri tek arama kutusunda: Güncel Türkçe Sözlük, Yazım Kılavuzu, atasözleri ve terim sözlükleri. Tureng gibi iki dilli sözlüklerden farkı tek dilli ve kuralcı olması; bir kelimenin nasıl yazılacağına bakılan yer.</summary>
+  <content type="html">&lt;p&gt;Türk Dil Kurumu’nun sözlükleri tek arama kutusunda: Güncel Türkçe Sözlük, Yazım Kılavuzu, atasözleri ve terim sözlükleri. Tureng gibi iki dilli sözlüklerden farkı tek dilli ve kuralcı olması; bir kelimenin nasıl yazılacağına bakılan yer.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://sozluk.gov.tr/&quot;&gt;https://sozluk.gov.tr/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>The Art of Command Line</title>
-  <link href="https://github.com/jlevy/the-art-of-command-line"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#github-com-jlevy-the-art-of-command-line" rel="alternate" type="text/html"/>
   <id>https://github.com/jlevy/the-art-of-command-line</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Komut satırını verimli kullanmak için günlük, ileri ve 'sadece belirli durumlar' bölümlerine ayrılmış kısa ipucu derlemesi; onlarca dile çevrilmiş. Komut referanslarından farkı yeni başlayandan ustaya sıralı bir alışkanlık listesi olması.</summary>
+  <content type="html">&lt;p&gt;Komut satırını verimli kullanmak için günlük, ileri ve 'sadece belirli durumlar' bölümlerine ayrılmış kısa ipucu derlemesi; onlarca dile çevrilmiş. Komut referanslarından farkı yeni başlayandan ustaya sıralı bir alışkanlık listesi olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/jlevy/the-art-of-command-line&quot;&gt;https://github.com/jlevy/the-art-of-command-line&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>The Book of Secret Knowledge</title>
-  <link href="https://github.com/trimstray/the-book-of-secret-knowledge"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#github-com-trimstray-the-book-of-secret-knowledge" rel="alternate" type="text/html"/>
   <id>https://github.com/trimstray/the-book-of-secret-knowledge</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Sistem yöneticisi, DevOps ve güvenlik işinde günlük kullanılan kılavuz, kopya kâğıdı, tek satırlık komut ve CLI/web araçlarını tek depoda toplayan çok kullanılan derleme. Tek konuya odaklanan listelerden farkı geniş ama pratik olması; son güncelleme 2024 olduğundan araç bölümleri eskimiş olabilir.</summary>
+  <content type="html">&lt;p&gt;Sistem yöneticisi, DevOps ve güvenlik işinde günlük kullanılan kılavuz, kopya kâğıdı, tek satırlık komut ve CLI/web araçlarını tek depoda toplayan çok kullanılan derleme. Tek konuya odaklanan listelerden farkı geniş ama pratik olması; son güncelleme 2024 olduğundan araç bölümleri eskimiş olabilir.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/trimstray/the-book-of-secret-knowledge&quot;&gt;https://github.com/trimstray/the-book-of-secret-knowledge&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Tureng</title>
-  <link href="https://tureng.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#tureng-com" rel="alternate" type="text/html"/>
   <id>https://tureng.com/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Türkçe–İngilizce çevrimiçi sözlük; karşılıkları bilgisayar, hukuk, tıp gibi alanlara göre ayırıyor ve telaffuz veriyor. TDK sözlüğünden farkı iki dilli ve terim odaklı olması; teknik bir İngilizce kelimenin alandaki Türkçe karşılığını bulmanın hızlı yolu.</summary>
+  <content type="html">&lt;p&gt;Türkçe–İngilizce çevrimiçi sözlük; karşılıkları bilgisayar, hukuk, tıp gibi alanlara göre ayırıyor ve telaffuz veriyor. TDK sözlüğünden farkı iki dilli ve terim odaklı olması; teknik bir İngilizce kelimenin alandaki Türkçe karşılığını bulmanın hızlı yolu.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://tureng.com/&quot;&gt;https://tureng.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Unix Toolbox</title>
-  <link href="https://cb.vu/unixtoolbox.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#cb-vu-unixtoolbox-html" rel="alternate" type="text/html"/>
   <id>https://cb.vu/unixtoolbox.html</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Unix/Linux sistem yönetimi komutlarını tek uzun sayfada toplayan klasik başvuru: ağ, dosya sistemi, süreçler, SSH, güvenlik. Kitap gibi okunmaz, Ctrl+F ile aranır; tek sayfa olması ve yıllardır sabit kalması değeri.</summary>
+  <content type="html">&lt;p&gt;Unix/Linux sistem yönetimi komutlarını tek uzun sayfada toplayan klasik başvuru: ağ, dosya sistemi, süreçler, SSH, güvenlik. Kitap gibi okunmaz, Ctrl+F ile aranır; tek sayfa olması ve yıllardır sabit kalması değeri.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cb.vu/unixtoolbox.html&quot;&gt;https://cb.vu/unixtoolbox.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Python Module of the Week</title>
-  <link href="https://pymotw.com/3/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#pymotw-com-3" rel="alternate" type="text/html"/>
   <id>https://pymotw.com/3/</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>Doug Hellmann’ın Python standart kütüphanesini modül modül çalışan örneklerle gezdirdiği rehber. Resmî kütüphane başvurusundan farkı çalıştırabileceğin örnekleri ve çıktısını göstermesi.</summary>
+  <content type="html">&lt;p&gt;Doug Hellmann’ın Python standart kütüphanesini modül modül çalışan örneklerle gezdirdiği rehber. Resmî kütüphane başvurusundan farkı çalıştırabileceğin örnekleri ve çıktısını göstermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://pymotw.com/3/&quot;&gt;https://pymotw.com/3/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Markdown Guide</title>
-  <link href="https://www.markdownguide.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#markdownguide-org" rel="alternate" type="text/html"/>
   <id>https://www.markdownguide.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>README ve belge biçimlemede kullanılan Markdown dilinin kapsamlı rehberi. Tek bir lehçenin belgesinden farkı temel ve genişletilmiş sözdizimini, hangi uygulamanın neyi desteklediğiyle birlikte göstermesi.</summary>
+  <content type="html">&lt;p&gt;README ve belge biçimlemede kullanılan Markdown dilinin kapsamlı rehberi. Tek bir lehçenin belgesinden farkı temel ve genişletilmiş sözdizimini, hangi uygulamanın neyi desteklediğiyle birlikte göstermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.markdownguide.org/&quot;&gt;https://www.markdownguide.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Project Guidelines</title>
-  <link href="https://github.com/wearehive/project-guidelines"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#github-com-wearehive-project-guidelines" rel="alternate" type="text/html"/>
   <id>https://github.com/wearehive/project-guidelines</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Bir yazılım projesini yürütmek için toplanmış en iyi uygulamalar seti. Genel tavsiye yazılarından farkı somut kurallar vermesi: git akışı, dokümantasyon, ortamlar, bağımlılıklar, test ve API tasarımı.</summary>
+  <content type="html">&lt;p&gt;Bir yazılım projesini yürütmek için toplanmış en iyi uygulamalar seti. Genel tavsiye yazılarından farkı somut kurallar vermesi: git akışı, dokümantasyon, ortamlar, bağımlılıklar, test ve API tasarımı.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/wearehive/project-guidelines&quot;&gt;https://github.com/wearehive/project-guidelines&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>tldr pages</title>
-  <link href="https://tldr.sh"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#tldr-sh" rel="alternate" type="text/html"/>
   <id>https://tldr.sh</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Komut satırı araçları için topluluk tarafından sadeleştirilmiş man sayfaları. Klasik man sayfalarından farkı seçenek listesi yerine en sık kullanılan örneklerle başlaması.</summary>
+  <content type="html">&lt;p&gt;Komut satırı araçları için topluluk tarafından sadeleştirilmiş man sayfaları. Klasik man sayfalarından farkı seçenek listesi yerine en sık kullanılan örneklerle başlaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://tldr.sh&quot;&gt;https://tldr.sh&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Eylenburg Tech Website</title>
-  <link href="https://eylenburg.github.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#eylenburg-github-io" rel="alternate" type="text/html"/>
   <id>https://eylenburg.github.io/</id>
   <updated>2026-09-10T20:53:20Z</updated>
-  <summary>İşletim sistemleri, dosya sistemleri ve ülkelerin dijital özgürlüğü gibi konuları geniş karşılaştırma tablolarıyla veren teknik site. Ansiklopedi maddelerinden farkı yan yana tablo olması: 18 işletim sistemini ya da 17 ülkeyi tek ızgarada karşılaştırabiliyorsun.</summary>
+  <content type="html">&lt;p&gt;İşletim sistemleri, dosya sistemleri ve ülkelerin dijital özgürlüğü gibi konuları geniş karşılaştırma tablolarıyla veren teknik site. Ansiklopedi maddelerinden farkı yan yana tablo olması: 18 işletim sistemini ya da 17 ülkeyi tek ızgarada karşılaştırabiliyorsun.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://eylenburg.github.io/&quot;&gt;https://eylenburg.github.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Accessibility Developer Guide</title>
-  <link href="https://www.accessibility-developer-guide.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#accessibility-developer-guide-com" rel="alternate" type="text/html"/>
   <id>https://www.accessibility-developer-guide.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Erişilebilir arayüzü kod düzeyinde anlatan rehber; her örnekte önce yanlış yaklaşımı sonra doğrusunu gösteriyor. WCAG’ın soyut ölçütlerinden farkı, ekran okuyucunun ne duyduğunu somut örnekle göstermesi.</summary>
+  <content type="html">&lt;p&gt;Erişilebilir arayüzü kod düzeyinde anlatan rehber; her örnekte önce yanlış yaklaşımı sonra doğrusunu gösteriyor. WCAG’ın soyut ölçütlerinden farkı, ekran okuyucunun ne duyduğunu somut örnekle göstermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.accessibility-developer-guide.com/&quot;&gt;https://www.accessibility-developer-guide.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Algorithms &amp; Big-O Reference</title>
-  <link href="https://cooervo.github.io/Algorithms-DataStructures-BigONotation/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#cooervo-github-io-algorithms-datastructures-bigonotation" rel="alternate" type="text/html"/>
   <id>https://cooervo.github.io/Algorithms-DataStructures-BigONotation/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Veri yapılarının ve sıralama algoritmalarının zaman/alan karmaşıklıklarını tek tabloda toplayan referans. Big-O Cheat Sheet’ten farkı her yapının kısa açıklamasını ve örnek kodunu da taşıması — tabloyu okumadan önce neye baktığını anlıyorsun.</summary>
+  <content type="html">&lt;p&gt;Veri yapılarının ve sıralama algoritmalarının zaman/alan karmaşıklıklarını tek tabloda toplayan referans. Big-O Cheat Sheet’ten farkı her yapının kısa açıklamasını ve örnek kodunu da taşıması — tabloyu okumadan önce neye baktığını anlıyorsun.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cooervo.github.io/Algorithms-DataStructures-BigONotation/&quot;&gt;https://cooervo.github.io/Algorithms-DataStructures-BigONotation/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Apple Human Interface Guidelines</title>
-  <link href="https://developer.apple.com/design/human-interface-guidelines/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#developer-apple-com-design-human-interface-guidelines" rel="alternate" type="text/html"/>
   <id>https://developer.apple.com/design/human-interface-guidelines/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Apple’ın tüm platformları için arayüz tasarım kuralları: dokunma hedefi boyutları, gezinme kalıpları, hareket ve tipografi. Material Design’dan farkı, öneri değil App Store incelemesinde fiilen uygulanan bir ölçüt olması.</summary>
+  <content type="html">&lt;p&gt;Apple’ın tüm platformları için arayüz tasarım kuralları: dokunma hedefi boyutları, gezinme kalıpları, hareket ve tipografi. Material Design’dan farkı, öneri değil App Store incelemesinde fiilen uygulanan bir ölçüt olması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://developer.apple.com/design/human-interface-guidelines/&quot;&gt;https://developer.apple.com/design/human-interface-guidelines/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Cheatsheets</title>
-  <link href="https://lecoupa.github.io/awesome-cheatsheets/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#lecoupa-github-io-awesome-cheatsheets" rel="alternate" type="text/html"/>
   <id>https://lecoupa.github.io/awesome-cheatsheets/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Programlama dilleri, çatılar ve komut satırı araçları için tek dosyada yoğunlaştırılmış kopya kâğıtları. Görsel kâğıtlardan farkı düz metin olması — aranabiliyor, kopyalanabiliyor ve depoda sürümleniyor.</summary>
+  <content type="html">&lt;p&gt;Programlama dilleri, çatılar ve komut satırı araçları için tek dosyada yoğunlaştırılmış kopya kâğıtları. Görsel kâğıtlardan farkı düz metin olması — aranabiliyor, kopyalanabiliyor ve depoda sürümleniyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://lecoupa.github.io/awesome-cheatsheets/&quot;&gt;https://lecoupa.github.io/awesome-cheatsheets/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Cheat-Sheets.org</title>
-  <link href="https://www.cheat-sheets.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#cheat-sheets-org" rel="alternate" type="text/html"/>
   <id>https://www.cheat-sheets.org/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>İnternete dağılmış kopya kâğıtlarını konuya göre toplayan dizin. Cheatography’den farkı kendi içerik üretmemesi — başka sitelerdeki iyi kâğıtlara işaret ediyor, tek merkez değil katalog.</summary>
+  <content type="html">&lt;p&gt;İnternete dağılmış kopya kâğıtlarını konuya göre toplayan dizin. Cheatography’den farkı kendi içerik üretmemesi — başka sitelerdeki iyi kâğıtlara işaret ediyor, tek merkez değil katalog.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.cheat-sheets.org/&quot;&gt;https://www.cheat-sheets.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Cheatography</title>
-  <link href="https://cheatography.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#cheatography-com" rel="alternate" type="text/html"/>
   <id>https://cheatography.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Kullanıcıların hazırladığı kopya kâğıdı arşivi; her biri PDF olarak basılabiliyor. Tek konuya adanmış kopya kâğıtlarından farkı kapsamı — programlama dilinden klavye kısayoluna kadar aynı biçimde.</summary>
+  <content type="html">&lt;p&gt;Kullanıcıların hazırladığı kopya kâğıdı arşivi; her biri PDF olarak basılabiliyor. Tek konuya adanmış kopya kâğıtlarından farkı kapsamı — programlama dilinden klavye kısayoluna kadar aynı biçimde.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cheatography.com/&quot;&gt;https://cheatography.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Choose a License — Appendix</title>
-  <link href="https://choosealicense.com/appendix/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#choosealicense-com-appendix" rel="alternate" type="text/html"/>
   <id>https://choosealicense.com/appendix/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Açık kaynak lisanslarını izin, koşul ve sınırlama sütunlarıyla tek tabloda karşılaştıran ek. Lisans metinlerini okumaktan farkı bu — patent hükmü var mı, aynı lisansla paylaşma zorunlu mu, satırdan görüyorsun.</summary>
+  <content type="html">&lt;p&gt;Açık kaynak lisanslarını izin, koşul ve sınırlama sütunlarıyla tek tabloda karşılaştıran ek. Lisans metinlerini okumaktan farkı bu — patent hükmü var mı, aynı lisansla paylaşma zorunlu mu, satırdan görüyorsun.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://choosealicense.com/appendix/&quot;&gt;https://choosealicense.com/appendix/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Dictionary of Algorithms and Data Structures</title>
-  <link href="https://xlinux.nist.gov/dads/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#xlinux-nist-gov-dads" rel="alternate" type="text/html"/>
   <id>https://xlinux.nist.gov/dads/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>NIST’in algoritma ve veri yapısı sözlüğü; her terim için kısa tanım, varsa formal tanımlama ve uygulama bağlantısı. Vikipedi’den farkı kısalığı ve terminolojide otorite olması — bir terimin doğru adını aradığında buraya bakılır.</summary>
+  <content type="html">&lt;p&gt;NIST’in algoritma ve veri yapısı sözlüğü; her terim için kısa tanım, varsa formal tanımlama ve uygulama bağlantısı. Vikipedi’den farkı kısalığı ve terminolojide otorite olması — bir terimin doğru adını aradığında buraya bakılır.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://xlinux.nist.gov/dads/&quot;&gt;https://xlinux.nist.gov/dads/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Git Explorer</title>
-  <link href="https://gitexplorer.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#gitexplorer-com" rel="alternate" type="text/html"/>
   <id>https://gitexplorer.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Ne yapmak istediğini menüden seçince doğru Git komutunu üreten araç. Kopya kâğıdından farkı ters yönde çalışması — komutu hatırlamana gerek yok, niyetini seçiyorsun.</summary>
+  <content type="html">&lt;p&gt;Ne yapmak istediğini menüden seçince doğru Git komutunu üreten araç. Kopya kâğıdından farkı ters yönde çalışması — komutu hatırlamana gerek yok, niyetini seçiyorsun.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://gitexplorer.com/&quot;&gt;https://gitexplorer.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Git — The Simple Guide</title>
-  <link href="https://rogerdudler.github.io/git-guide/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#rogerdudler-github-io-git-guide" rel="alternate" type="text/html"/>
   <id>https://rogerdudler.github.io/git-guide/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Git’in temel akışını tek sayfada anlatan giriş; dal, birleştirme ve uzak depo kadarı var. Pro Git kitabından farkı kapsamlı olmaya çalışmaması — ilk gün için gereken minimum.</summary>
+  <content type="html">&lt;p&gt;Git’in temel akışını tek sayfada anlatan giriş; dal, birleştirme ve uzak depo kadarı var. Pro Git kitabından farkı kapsamlı olmaya çalışmaması — ilk gün için gereken minimum.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://rogerdudler.github.io/git-guide/&quot;&gt;https://rogerdudler.github.io/git-guide/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>GitSheet</title>
-  <link href="https://gitsheet.wtf"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#gitsheet-wtf" rel="alternate" type="text/html"/>
   <id>https://gitsheet.wtf</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Sık kullanılan Git komutlarının tek sayfalık kopya kâğıdı; kategori kategil düzenlenmiş. Uzun rehberlerden farkı arama değil tarama için tasarlanmış olması — komutu hatırlamaya çalışırken göz gezdiriyorsun.</summary>
+  <content type="html">&lt;p&gt;Sık kullanılan Git komutlarının tek sayfalık kopya kâğıdı; kategori kategil düzenlenmiş. Uzun rehberlerden farkı arama değil tarama için tasarlanmış olması — komutu hatırlamaya çalışırken göz gezdiriyorsun.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://gitsheet.wtf&quot;&gt;https://gitsheet.wtf&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Laws of UX</title>
-  <link href="https://lawsofux.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#lawsofux-com" rel="alternate" type="text/html"/>
   <id>https://lawsofux.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Fitts, Hick, Jakob gibi arayüz tasarımını yöneten psikoloji yasalarının kısa ve görsel derlemesi. Akademik kaynaklardan farkı her yasayı tek ekranda örnekle anlatması — tasarım tartışmasında ortak dil kurmak için.</summary>
+  <content type="html">&lt;p&gt;Fitts, Hick, Jakob gibi arayüz tasarımını yöneten psikoloji yasalarının kısa ve görsel derlemesi. Akademik kaynaklardan farkı her yasayı tek ekranda örnekle anlatması — tasarım tartışmasında ortak dil kurmak için.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://lawsofux.com/&quot;&gt;https://lawsofux.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Oh Shit, Git!?!</title>
-  <link href="https://ohshitgit.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#ohshitgit-com" rel="alternate" type="text/html"/>
   <id>https://ohshitgit.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Git’te bir şeyi bozduğunda nasıl geri alacağını anlatan kısa rehber; her başlık gerçek bir panik anıyla açılıyor. Resmî belgelerden farkı komuttan değil durumdan başlaması — &quot;yanlış dala commit attım&quot; diye arıyorsun, `reflog` diye değil.</summary>
+  <content type="html">&lt;p&gt;Git’te bir şeyi bozduğunda nasıl geri alacağını anlatan kısa rehber; her başlık gerçek bir panik anıyla açılıyor. Resmî belgelerden farkı komuttan değil durumdan başlaması — &amp;quot;yanlış dala commit attım&amp;quot; diye arıyorsun, `reflog` diye değil.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://ohshitgit.com/&quot;&gt;https://ohshitgit.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Public License Selector</title>
-  <link href="https://ufal.github.io/public-license-selector/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#ufal-github-io-public-license-selector" rel="alternate" type="text/html"/>
   <id>https://ufal.github.io/public-license-selector/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Sorulara verdiğin cevaplara göre uygun lisansı öneren araç; yazılım, veri ve içerik için ayrı akışlar var. choosealicense.com’dan farkı veri kümesi ve içerik lisanslarını da kapsaması — CC lisansları arasında seçim yapmak için.</summary>
+  <content type="html">&lt;p&gt;Sorulara verdiğin cevaplara göre uygun lisansı öneren araç; yazılım, veri ve içerik için ayrı akışlar var. choosealicense.com’dan farkı veri kümesi ve içerik lisanslarını da kapsaması — CC lisansları arasında seçim yapmak için.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://ufal.github.io/public-license-selector/&quot;&gt;https://ufal.github.io/public-license-selector/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Python Cheatsheet</title>
-  <link href="https://www.pythoncheatsheet.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#pythoncheatsheet-org" rel="alternate" type="text/html"/>
   <id>https://www.pythoncheatsheet.org/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>&quot;Automate the Boring Stuff&quot; kitabına dayanan Python referansı; temel söz diziminden standart kütüphaneye. Resmî belgelerden farkı örnek ağırlıklı olması — sözdizimini hatırlamak için açılıyor, öğrenmek için değil.</summary>
+  <content type="html">&lt;p&gt;&amp;quot;Automate the Boring Stuff&amp;quot; kitabına dayanan Python referansı; temel söz diziminden standart kütüphaneye. Resmî belgelerden farkı örnek ağırlıklı olması — sözdizimini hatırlamak için açılıyor, öğrenmek için değil.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.pythoncheatsheet.org/&quot;&gt;https://www.pythoncheatsheet.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Speedsheet</title>
-  <link href="https://speedsheet.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#speedsheet-io" rel="alternate" type="text/html"/>
   <id>https://speedsheet.io/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Aramaya göre daralan etkileşimli Python referansı; yazdıkça ilgili bölüm açılıyor. Statik kopya kâğıtlarından farkı bu — sayfada göz gezdirmek yerine aradığını yazıyorsun.</summary>
+  <content type="html">&lt;p&gt;Aramaya göre daralan etkileşimli Python referansı; yazdıkça ilgili bölüm açılıyor. Statik kopya kâğıtlarından farkı bu — sayfada göz gezdirmek yerine aradığını yazıyorsun.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://speedsheet.io/&quot;&gt;https://speedsheet.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Vim Cheat Sheet</title>
-  <link href="https://vim.rtorr.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/referans.html#vim-rtorr-com" rel="alternate" type="text/html"/>
   <id>https://vim.rtorr.com</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>Vim komutlarının kategorilere ayrılmış tek sayfalık listesi; on kadar dile çevrilmiş. `vimtutor`dan farkı öğretmemesi, hatırlatması — Vim kullanmaya başladıktan sonraki ay açık tuttuğun sekme.</summary>
+  <content type="html">&lt;p&gt;Vim komutlarının kategorilere ayrılmış tek sayfalık listesi; on kadar dile çevrilmiş. `vimtutor`dan farkı öğretmemesi, hatırlatması — Vim kullanmaya başladıktan sonraki ay açık tuttuğun sekme.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://vim.rtorr.com&quot;&gt;https://vim.rtorr.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

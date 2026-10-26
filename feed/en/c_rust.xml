@@ -2,288 +2,290 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title>C, C++ &amp; Rust — Useful Sites</title>
 <subtitle>A hand-curated, annotated link directory across ten areas, from software and AI to security, economics and architecture. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/en/c_rust.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/c_rust.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/c_rust.xml</id>
 <updated>2026-10-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>Beej's Guides</title>
-  <link href="https://beej.us/guide/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#beej-us-guide" rel="alternate" type="text/html"/>
   <id>https://beej.us/guide/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>Long-maintained, free and witty guides to C and network (socket) programming, offered as HTML, PDF and print. Unlike reference documentation they are written in a teaching voice.</summary>
+  <content type="html">&lt;p&gt;Long-maintained, free and witty guides to C and network (socket) programming, offered as HTML, PDF and print. Unlike reference documentation they are written in a teaching voice.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://beej.us/guide/&quot;&gt;https://beej.us/guide/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Operation Costs in CPU Clock Cycles</title>
-  <link href="https://6it.dev/blog/infographics-operation-costs-in-cpu-clock-cycles-741"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#6it-dev-blog-infographics-operation-costs-in-cpu-clock-cycles-741" rel="alternate" type="text/html"/>
   <id>https://6it.dev/blog/infographics-operation-costs-in-cpu-clock-cycles-741</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>The well-known infographic with explanation of the CPU clock-cycle cost of operations such as addition, memory access, branch mispredict and virtual calls. It gives orders of magnitude for performance intuition, not exact measurements.</summary>
+  <content type="html">&lt;p&gt;The well-known infographic with explanation of the CPU clock-cycle cost of operations such as addition, memory access, branch mispredict and virtual calls. It gives orders of magnitude for performance intuition, not exact measurements.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://6it.dev/blog/infographics-operation-costs-in-cpu-clock-cycles-741&quot;&gt;https://6it.dev/blog/infographics-operation-costs-in-cpu-clock-cycles-741&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>os-tutorial</title>
-  <link href="https://github.com/cfenollosa/os-tutorial"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#github-com-cfenollosa-os-tutorial" rel="alternate" type="text/html"/>
   <id>https://github.com/cfenollosa/os-tutorial</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A step-by-step tutorial that goes from a bootloader up to a kernel, one short folder per step. Shorter and more hands-on than books; it targets BIOS-based 32-bit x86. Maintenance is slow.</summary>
+  <content type="html">&lt;p&gt;A step-by-step tutorial that goes from a bootloader up to a kernel, one short folder per step. Shorter and more hands-on than books; it targets BIOS-based 32-bit x86. Maintenance is slow.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/cfenollosa/os-tutorial&quot;&gt;https://github.com/cfenollosa/os-tutorial&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>The Little Book About OS Development</title>
-  <link href="https://littleosbook.github.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#littleosbook-github-io" rel="alternate" type="text/html"/>
   <id>https://littleosbook.github.io/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A free book on writing a simple x86 operating system from scratch: booting, memory, interrupts, system calls. Unlike large OS textbooks, it builds one small kernel from start to finish.</summary>
+  <content type="html">&lt;p&gt;A free book on writing a simple x86 operating system from scratch: booting, memory, interrupts, system calls. Unlike large OS textbooks, it builds one small kernel from start to finish.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://littleosbook.github.io/&quot;&gt;https://littleosbook.github.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Write your Own Virtual Machine</title>
-  <link href="https://www.jmeiners.com/lc3-vm/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#jmeiners-com-lc3-vm" rel="alternate" type="text/html"/>
   <id>https://www.jmeiners.com/lc3-vm/</id>
   <updated>2026-10-18T00:00:00Z</updated>
-  <summary>A one-page tutorial on writing a virtual machine for the LC-3 architecture in C, ending with real LC-3 programs running. Unlike architecture lectures, it produces a working executor in a few hundred lines.</summary>
+  <content type="html">&lt;p&gt;A one-page tutorial on writing a virtual machine for the LC-3 architecture in C, ending with real LC-3 programs running. Unlike architecture lectures, it produces a working executor in a few hundred lines.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.jmeiners.com/lc3-vm/&quot;&gt;https://www.jmeiners.com/lc3-vm/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>cargo-binstall</title>
-  <link href="https://github.com/cargo-bins/cargo-binstall"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#github-com-cargo-bins-cargo-binstall" rel="alternate" type="text/html"/>
   <id>https://github.com/cargo-bins/cargo-binstall</id>
   <updated>2026-10-09T09:00:00Z</updated>
-  <summary>A cargo plugin that installs Rust tools from prebuilt binaries instead of compiling. Unlike cargo install it takes seconds, not minutes.</summary>
+  <content type="html">&lt;p&gt;A cargo plugin that installs Rust tools from prebuilt binaries instead of compiling. Unlike cargo install it takes seconds, not minutes.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/cargo-bins/cargo-binstall&quot;&gt;https://github.com/cargo-bins/cargo-binstall&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome C++</title>
-  <link href="https://github.com/uhub/awesome-cpp"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#github-com-uhub-awesome-cpp" rel="alternate" type="text/html"/>
   <id>https://github.com/uhub/awesome-cpp</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list organising C++ libraries and frameworks by topic. Unlike general search it is a maintained, categorised starting map.</summary>
+  <content type="html">&lt;p&gt;A list organising C++ libraries and frameworks by topic. Unlike general search it is a maintained, categorised starting map.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/uhub/awesome-cpp&quot;&gt;https://github.com/uhub/awesome-cpp&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome CMake</title>
-  <link href="https://github.com/onqtam/awesome-cmake"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#github-com-onqtam-awesome-cmake" rel="alternate" type="text/html"/>
   <id>https://github.com/onqtam/awesome-cmake</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of scripts, modules and resources for CMake, the C/C++ build tool. Unlike the official docs, it picks guides to target-based “modern CMake” practice and ready-made modules.</summary>
+  <content type="html">&lt;p&gt;A list of scripts, modules and resources for CMake, the C/C++ build tool. Unlike the official docs, it picks guides to target-based “modern CMake” practice and ready-made modules.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/onqtam/awesome-cmake&quot;&gt;https://github.com/onqtam/awesome-cmake&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Rust</title>
-  <link href="https://github.com/rust-unofficial/awesome-rust"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#github-com-rust-unofficial-awesome-rust" rel="alternate" type="text/html"/>
   <id>https://github.com/rust-unofficial/awesome-rust</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list organising Rust libraries and applications by topic. Unlike a crates.io search it is a curated, categorised and maintained starting map.</summary>
+  <content type="html">&lt;p&gt;A list organising Rust libraries and applications by topic. Unlike a crates.io search it is a curated, categorised and maintained starting map.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/rust-unofficial/awesome-rust&quot;&gt;https://github.com/rust-unofficial/awesome-rust&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Rust by Example</title>
-  <link href="https://doc.rust-lang.org/rust-by-example/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#doc-rust-lang-org-rust-by-example" rel="alternate" type="text/html"/>
   <id>https://doc.rust-lang.org/rust-by-example/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The official resource giving each concept as a runnable, editable code example. Unlike the book it cuts the prose and leads with the example — for those who learn by trying.</summary>
+  <content type="html">&lt;p&gt;The official resource giving each concept as a runnable, editable code example. Unlike the book it cuts the prose and leads with the example — for those who learn by trying.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://doc.rust-lang.org/rust-by-example/&quot;&gt;https://doc.rust-lang.org/rust-by-example/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Rust Playground</title>
-  <link href="https://play.rust-lang.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#play-rust-lang-org" rel="alternate" type="text/html"/>
   <id>https://play.rust-lang.org/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The official space to compile and run Rust code in the browser with no install. Unlike a local setup it gives compiler output and ASM/MIR via a shareable link.</summary>
+  <content type="html">&lt;p&gt;The official space to compile and run Rust code in the browser with no install. Unlike a local setup it gives compiler output and ASM/MIR via a shareable link.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://play.rust-lang.org/&quot;&gt;https://play.rust-lang.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Rustlings</title>
-  <link href="https://github.com/rust-lang/rustlings"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#github-com-rust-lang-rustlings" rel="alternate" type="text/html"/>
   <id>https://github.com/rust-lang/rustlings</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An exercise set teaching Rust by fixing small, broken snippets. Unlike reading-based resources it has you read and fix compiler errors by hand.</summary>
+  <content type="html">&lt;p&gt;An exercise set teaching Rust by fixing small, broken snippets. Unlike reading-based resources it has you read and fix compiler errors by hand.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/rust-lang/rustlings&quot;&gt;https://github.com/rust-lang/rustlings&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>The Async Book</title>
-  <link href="https://rust-lang.github.io/async-book/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#rust-lang-github-io-async-book" rel="alternate" type="text/html"/>
   <id>https://rust-lang.github.io/async-book/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The official book on async/await and the Future model in Rust. Unlike general concurrency material it explains Rust’s distinctive, decoupled runtime approach.</summary>
+  <content type="html">&lt;p&gt;The official book on async/await and the Future model in Rust. Unlike general concurrency material it explains Rust’s distinctive, decoupled runtime approach.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://rust-lang.github.io/async-book/&quot;&gt;https://rust-lang.github.io/async-book/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>The Cargo Book</title>
-  <link href="https://doc.rust-lang.org/cargo/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#doc-rust-lang-org-cargo" rel="alternate" type="text/html"/>
   <id>https://doc.rust-lang.org/cargo/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The official guide to Cargo, Rust’s package manager and build tool. Unlike scattered blogs it gathers dependencies, workspaces and publishing in one authoritative place.</summary>
+  <content type="html">&lt;p&gt;The official guide to Cargo, Rust’s package manager and build tool. Unlike scattered blogs it gathers dependencies, workspaces and publishing in one authoritative place.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://doc.rust-lang.org/cargo/&quot;&gt;https://doc.rust-lang.org/cargo/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>The Rust Programming Language</title>
-  <link href="https://doc.rust-lang.org/book/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#doc-rust-lang-org-book" rel="alternate" type="text/html"/>
   <id>https://doc.rust-lang.org/book/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Rust’s official book, building up ownership and borrowing from nothing. Unlike other language books it makes the compiler’s error messages part of the teaching — in Rust, learning to argue with the compiler is half the language.</summary>
+  <content type="html">&lt;p&gt;Rust’s official book, building up ownership and borrowing from nothing. Unlike other language books it makes the compiler’s error messages part of the teaching — in Rust, learning to argue with the compiler is half the language.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://doc.rust-lang.org/book/&quot;&gt;https://doc.rust-lang.org/book/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>The Rust Reference</title>
-  <link href="https://doc.rust-lang.org/reference/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#doc-rust-lang-org-reference" rel="alternate" type="text/html"/>
   <id>https://doc.rust-lang.org/reference/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>The official reference defining the language’s grammar and semantics. Unlike the book it is not a tutorial but the authoritative answer to “exactly how does Rust behave”.</summary>
+  <content type="html">&lt;p&gt;The official reference defining the language’s grammar and semantics. Unlike the book it is not a tutorial but the authoritative answer to “exactly how does Rust behave”.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://doc.rust-lang.org/reference/&quot;&gt;https://doc.rust-lang.org/reference/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>The Rustonomicon</title>
-  <link href="https://doc.rust-lang.org/nomicon/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#doc-rust-lang-org-nomicon" rel="alternate" type="text/html"/>
   <id>https://doc.rust-lang.org/nomicon/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>An advanced book on the rules of unsafe Rust. Unlike the main book it covers what to watch for when you step outside the borrow checker.</summary>
+  <content type="html">&lt;p&gt;An advanced book on the rules of unsafe Rust. Unlike the main book it covers what to watch for when you step outside the borrow checker.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://doc.rust-lang.org/nomicon/&quot;&gt;https://doc.rust-lang.org/nomicon/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>cppreference</title>
-  <link href="https://cppreference.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#cppreference-com" rel="alternate" type="text/html"/>
   <id>https://cppreference.com/</id>
   <updated>2026-08-19T23:34:19Z</updated>
-  <summary>The most widely used reference for the C and C++ standard library, marking which standard (C++11/17/20/23) each feature arrived in. Unlike tutorial sites, it never skips that version distinction.</summary>
+  <content type="html">&lt;p&gt;The most widely used reference for the C and C++ standard library, marking which standard (C++11/17/20/23) each feature arrived in. Unlike tutorial sites, it never skips that version distinction.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cppreference.com/&quot;&gt;https://cppreference.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>C++ Üslup ve Teknik SSS</title>
-  <link href="https://www.stroustrup.com/bs_faq2.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#stroustrup-com-bs-faq2-html" rel="alternate" type="text/html"/>
   <id>https://www.stroustrup.com/bs_faq2.html</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Stroustrup’s FAQ on C++ style and common mistakes — direct answers to “why should I do it this way”. Unlike third-party tutorials, the reasoning comes from the language’s creator.</summary>
+  <content type="html">&lt;p&gt;Stroustrup’s FAQ on C++ style and common mistakes — direct answers to “why should I do it this way”. Unlike third-party tutorials, the reasoning comes from the language’s creator.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.stroustrup.com/bs_faq2.html&quot;&gt;https://www.stroustrup.com/bs_faq2.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>C++11 SSS (Stroustrup)</title>
-  <link href="https://www.stroustrup.com/C++11FAQ.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#stroustrup-com-c-11faq-html" rel="alternate" type="text/html"/>
   <id>https://www.stroustrup.com/C++11FAQ.html</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The language’s creator explaining why each C++11 feature was added. Unlike a feature list, it gives the design rationale.</summary>
+  <content type="html">&lt;p&gt;The language’s creator explaining why each C++11 feature was added. Unlike a feature list, it gives the design rationale.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.stroustrup.com/C++11FAQ.html&quot;&gt;https://www.stroustrup.com/C++11FAQ.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Comprehensive Rust</title>
-  <link href="https://google.github.io/comprehensive-rust/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#google-github-io-comprehensive-rust" rel="alternate" type="text/html"/>
   <id>https://google.github.io/comprehensive-rust/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Google’s open four-day Rust course as slides + exercises. Unlike the book it is paced for a classroom and comes with embedded and concurrency modules.</summary>
+  <content type="html">&lt;p&gt;Google’s open four-day Rust course as slides + exercises. Unlike the book it is paced for a classroom and comes with embedded and concurrency modules.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://google.github.io/comprehensive-rust/&quot;&gt;https://google.github.io/comprehensive-rust/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CppCon</title>
-  <link href="https://www.youtube.com/user/CppCon/videos?shelf_id=0&amp;view=0&amp;sort=dd"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#youtube-com-user-cppcon-videos-shelf-id-0-view-0-sort-dd" rel="alternate" type="text/html"/>
   <id>https://www.youtube.com/user/CppCon/videos?shelf_id=0&amp;view=0&amp;sort=dd</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Every talk from the annual C++ conference. Against tutorials it carries presentations from the people who write the standard — where you hear why a feature was designed as it was.</summary>
+  <content type="html">&lt;p&gt;Every talk from the annual C++ conference. Against tutorials it carries presentations from the people who write the standard — where you hear why a feature was designed as it was.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/user/CppCon/videos?shelf_id=0&amp;amp;view=0&amp;amp;sort=dd&quot;&gt;https://www.youtube.com/user/CppCon/videos?shelf_id=0&amp;amp;view=0&amp;amp;sort=dd&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>crates.io</title>
-  <link href="https://crates.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#crates-io" rel="alternate" type="text/html"/>
   <id>https://crates.io/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>Rust’s official package registry — the hub for publishing libraries and pulling them as dependencies. Unlike general code search it shows the trustworthy source with version and download data.</summary>
+  <content type="html">&lt;p&gt;Rust’s official package registry — the hub for publishing libraries and pulling them as dependencies. Unlike general code search it shows the trustworthy source with version and download data.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://crates.io/&quot;&gt;https://crates.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>docs.rs</title>
-  <link href="https://docs.rs/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#docs-rs" rel="alternate" type="text/html"/>
   <id>https://docs.rs/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A service that automatically builds and publishes the docs for every package on crates.io. Unlike each project’s own site it gathers the whole ecosystem’s docs in one format at one address.</summary>
+  <content type="html">&lt;p&gt;A service that automatically builds and publishes the docs for every package on crates.io. Unlike each project’s own site it gathers the whole ecosystem’s docs in one format at one address.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://docs.rs/&quot;&gt;https://docs.rs/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Meeting C++</title>
-  <link href="https://www.youtube.com/user/MeetingCPP/videos"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#youtube-com-user-meetingcpp-videos" rel="alternate" type="text/html"/>
   <id>https://www.youtube.com/user/MeetingCPP/videos</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The talk archive of one of Europe’s largest C++ conferences. Against CppCon it is smaller and more applied — experience from real projects rather than standards debate.</summary>
+  <content type="html">&lt;p&gt;The talk archive of one of Europe’s largest C++ conferences. Against CppCon it is smaller and more applied — experience from real projects rather than standards debate.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/user/MeetingCPP/videos&quot;&gt;https://www.youtube.com/user/MeetingCPP/videos&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Qt Documentation</title>
-  <link href="https://doc.qt.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#doc-qt-io" rel="alternate" type="text/html"/>
   <id>https://doc.qt.io/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The official documentation for the Qt framework: class reference, examples and platform guides for C++ and QML. Against other UI framework docs the difference is scope — desktop, mobile and embedded described under one API.</summary>
+  <content type="html">&lt;p&gt;The official documentation for the Qt framework: class reference, examples and platform guides for C++ and QML. Against other UI framework docs the difference is scope — desktop, mobile and embedded described under one API.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://doc.qt.io/&quot;&gt;https://doc.qt.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Rust Cookbook</title>
-  <link href="https://rust-lang-nursery.github.io/rust-cookbook/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#rust-lang-nursery-github-io-rust-cookbook" rel="alternate" type="text/html"/>
   <id>https://rust-lang-nursery.github.io/rust-cookbook/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A cookbook of everyday tasks in Rust — read a file line by line, make an HTTP request. Against the book and the examples it is task-oriented: you open it to finish something, not to learn the language.</summary>
+  <content type="html">&lt;p&gt;A cookbook of everyday tasks in Rust — read a file line by line, make an HTTP request. Against the book and the examples it is task-oriented: you open it to finish something, not to learn the language.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://rust-lang-nursery.github.io/rust-cookbook/&quot;&gt;https://rust-lang-nursery.github.io/rust-cookbook/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Rust Standard Library</title>
-  <link href="https://doc.rust-lang.org/std/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#doc-rust-lang-org-std" rel="alternate" type="text/html"/>
   <id>https://doc.rust-lang.org/std/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The official reference for the Rust standard library — types, traits and macros. Unlike tutorials it aims not to teach but to be the complete, exact reference.</summary>
+  <content type="html">&lt;p&gt;The official reference for the Rust standard library — types, traits and macros. Unlike tutorials it aims not to teach but to be the complete, exact reference.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://doc.rust-lang.org/std/&quot;&gt;https://doc.rust-lang.org/std/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Stroustrup on C++</title>
-  <link href="https://www.stroustrup.com/C++.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#stroustrup-com-c-html" rel="alternate" type="text/html"/>
   <id>https://www.stroustrup.com/C++.html</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The C++ creator’s own pages: FAQs, style advice and essays on why the language was designed as it was. Unlike tutorials it supplies rationale — the reason behind a decision is only available from the person who made it.</summary>
+  <content type="html">&lt;p&gt;The C++ creator’s own pages: FAQs, style advice and essays on why the language was designed as it was. Unlike tutorials it supplies rationale — the reason behind a decision is only available from the person who made it.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.stroustrup.com/C++.html&quot;&gt;https://www.stroustrup.com/C++.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>This Week in Rust</title>
-  <link href="https://this-week-in-rust.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#this-week-in-rust-org" rel="alternate" type="text/html"/>
   <id>https://this-week-in-rust.org/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>A newsletter rounding up developments, releases and posts in the Rust world weekly. Unlike scattered following it lets you track the ecosystem in one regular stream.</summary>
+  <content type="html">&lt;p&gt;A newsletter rounding up developments, releases and posts in the Rust world weekly. Unlike scattered following it lets you track the ecosystem in one regular stream.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://this-week-in-rust.org/&quot;&gt;https://this-week-in-rust.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Tokio</title>
-  <link href="https://tokio.rs/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#tokio-rs" rel="alternate" type="text/html"/>
   <id>https://tokio.rs/</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The most widely used asynchronous runtime for Rust; network services build on it. Unlike the standard library it brings a scheduler, tasks and tooling for highly concurrent I/O.</summary>
+  <content type="html">&lt;p&gt;The most widely used asynchronous runtime for Rust; network services build on it. Unlike the standard library it brings a scheduler, tasks and tooling for highly concurrent I/O.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://tokio.rs/&quot;&gt;https://tokio.rs/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Rust Öğrenin (Türkçe)</title>
-  <link href="https://rust-lang.org/tr/learn/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#rust-lang-org-tr-learn" rel="alternate" type="text/html"/>
   <id>https://rust-lang.org/tr/learn/</id>
   <updated>2026-03-29T18:36:46Z</updated>
-  <summary>The Turkish version of Rust’s official learning page. Meeting ownership and borrowing in your own language rather than English softens the language’s steepest climb a little.</summary>
+  <content type="html">&lt;p&gt;The Turkish version of Rust’s official learning page. Meeting ownership and borrowing in your own language rather than English softens the language’s steepest climb a little.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://rust-lang.org/tr/learn/&quot;&gt;https://rust-lang.org/tr/learn/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Learn C</title>
-  <link href="https://www.learn-c.org/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#learn-c-org" rel="alternate" type="text/html"/>
   <id>https://www.learn-c.org/</id>
   <updated>2026-03-08T15:37:28Z</updated>
-  <summary>A C tutorial you compile and run in the browser. Rather than installing a toolchain you try it on the page, which removes the entry barrier for anyone who wants a look at the language.</summary>
+  <content type="html">&lt;p&gt;A C tutorial you compile and run in the browser. Rather than installing a toolchain you try it on the page, which removes the entry barrier for anyone who wants a look at the language.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.learn-c.org/&quot;&gt;https://www.learn-c.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>C Programming Tutorial</title>
-  <link href="https://www.tutorialspoint.com/cprogramming/index.htm"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#tutorialspoint-com-cprogramming-index-htm" rel="alternate" type="text/html"/>
   <id>https://www.tutorialspoint.com/cprogramming/index.htm</id>
   <updated>2026-03-08T15:37:01Z</updated>
-  <summary>A classic front-to-back treatment of C. Comprehensive, but dated in style and examples — handier for looking one topic up than for reading through.</summary>
+  <content type="html">&lt;p&gt;A classic front-to-back treatment of C. Comprehensive, but dated in style and examples — handier for looking one topic up than for reading through.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.tutorialspoint.com/cprogramming/index.htm&quot;&gt;https://www.tutorialspoint.com/cprogramming/index.htm&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>C Yol Haritası</title>
-  <link href="https://github.com/Koubae/Programming-CookBook/blob/master/Programming%20Languages/C/roadmap.md"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#github-com-koubae-programming-cookbook-blob-master-programming-20languages-c-roadmap-md" rel="alternate" type="text/html"/>
   <id>https://github.com/Koubae/Programming-CookBook/blob/master/Programming%20Languages/C/roadmap.md</id>
   <updated>2026-03-07T23:55:29Z</updated>
-  <summary>A short map ordering C topics. Unlike full courses it gives sequence rather than content, showing where pointers and memory management belong.</summary>
+  <content type="html">&lt;p&gt;A short map ordering C topics. Unlike full courses it gives sequence rather than content, showing where pointers and memory management belong.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/Koubae/Programming-CookBook/blob/master/Programming%20Languages/C/roadmap.md&quot;&gt;https://github.com/Koubae/Programming-CookBook/blob/master/Programming%20Languages/C/roadmap.md&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>GeeksforGeeks C</title>
-  <link href="https://www.geeksforgeeks.org/c/c-programming-language/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#geeksforgeeks-org-c-c-programming-language" rel="alternate" type="text/html"/>
   <id>https://www.geeksforgeeks.org/c/c-programming-language/</id>
   <updated>2026-02-23T11:20:56Z</updated>
-  <summary>C material split by topic. Unlike a sequential book, a search lands you straight on the relevant page; some examples rely on old compiler behaviour, so read carefully.</summary>
+  <content type="html">&lt;p&gt;C material split by topic. Unlike a sequential book, a search lands you straight on the relevant page; some examples rely on old compiler behaviour, so read carefully.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.geeksforgeeks.org/c/c-programming-language/&quot;&gt;https://www.geeksforgeeks.org/c/c-programming-language/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome C</title>
-  <link href="https://github.com/oz123/awesome-c"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#github-com-oz123-awesome-c" rel="alternate" type="text/html"/>
   <id>https://github.com/oz123/awesome-c</id>
   <updated>2026-02-21T22:24:01Z</updated>
-  <summary>A list of C libraries, frameworks and tools. Because the standard library is deliberately thin, “which library” comes up far more often in C than elsewhere.</summary>
+  <content type="html">&lt;p&gt;A list of C libraries, frameworks and tools. Because the standard library is deliberately thin, “which library” comes up far more often in C than elsewhere.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/oz123/awesome-c&quot;&gt;https://github.com/oz123/awesome-c&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>IncludeHelp C Programları</title>
-  <link href="https://www.includehelp.com/c-programs/c-programs-basic-input-output-operations.aspx"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#includehelp-com-c-programs-c-programs-basic-input-output-operations-aspx" rel="alternate" type="text/html"/>
   <id>https://www.includehelp.com/c-programs/c-programs-basic-input-output-operations.aspx</id>
   <updated>2026-02-21T22:23:44Z</updated>
-  <summary>A collection of solved C programs. Unlike tutorials it offers working examples instead of exposition — handy for recalling a pattern quickly.</summary>
+  <content type="html">&lt;p&gt;A collection of solved C programs. Unlike tutorials it offers working examples instead of exposition — handy for recalling a pattern quickly.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.includehelp.com/c-programs/c-programs-basic-input-output-operations.aspx&quot;&gt;https://www.includehelp.com/c-programs/c-programs-basic-input-output-operations.aspx&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Sıfırdan C Programlama</title>
-  <link href="https://www.youtube.com/watch?v=yuVatFCOISc"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#youtube-com-watch-v-yuvatfcoisc" rel="alternate" type="text/html"/>
   <id>https://www.youtube.com/watch?v=yuVatFCOISc</id>
   <updated>2026-02-10T06:51:20Z</updated>
-  <summary>A Turkish video covering C in a single sitting. Unlike courses spread over weeks it is done in one go — for a fast introduction or pre-exam revision.</summary>
+  <content type="html">&lt;p&gt;A Turkish video covering C in a single sitting. Unlike courses spread over weeks it is done in one go — for a fast introduction or pre-exam revision.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=yuVatFCOISc&quot;&gt;https://www.youtube.com/watch?v=yuVatFCOISc&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Kodisyum C Örnekleri</title>
-  <link href="https://kodisyum.com/c-ornekler/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/c_rust.html#kodisyum-com-c-ornekler" rel="alternate" type="text/html"/>
   <id>https://kodisyum.com/c-ornekler/</id>
   <updated>2025-11-24T08:27:12Z</updated>
-  <summary>Turkish C example programs covering the classic coursework-level exercises. Unlike English example archives it is in Turkish — valuable because Turkish C material is thin on the ground.</summary>
+  <content type="html">&lt;p&gt;Turkish C example programs covering the classic coursework-level exercises. Unlike English example archives it is in Turkish — valuable because Turkish C material is thin on the ground.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://kodisyum.com/c-ornekler/&quot;&gt;https://kodisyum.com/c-ornekler/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

@@ -2,274 +2,276 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title>CSS &amp; UI Kits — Useful Sites</title>
 <subtitle>A hand-curated, annotated link directory across ten areas, from software and AI to security, economics and architecture. Every entry states what the resource does and where it parts ways with its neighbours.</subtitle>
-<link href="https://latifkedi.github.io/useful-sites/feed/en/css.xml" rel="self"/>
-<link href="https://latifkedi.github.io/useful-sites/k/en/css.html"/>
+<link href="https://latifkedi.github.io/useful-sites/feed/en/css.xml" rel="self" type="application/atom+xml"/>
+<link href="https://latifkedi.github.io/useful-sites/k/en/css.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/css.xml</id>
 <updated>2026-09-18T00:00:00Z</updated>
+<author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
+<rights>CC BY 4.0</rights>
 <entry>
   <title>Animista</title>
-  <link href="https://animista.net"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#animista-net" rel="alternate" type="text/html"/>
   <id>https://animista.net</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A library of ready CSS animations you can play, tweak and copy the code from. Unlike adding a whole library such as animate.css, you take only the code for the animation you need.</summary>
+  <content type="html">&lt;p&gt;A library of ready CSS animations you can play, tweak and copy the code from. Unlike adding a whole library such as animate.css, you take only the code for the animation you need.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://animista.net&quot;&gt;https://animista.net&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Autoprefixer</title>
-  <link href="https://autoprefixer.github.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#autoprefixer-github-io" rel="alternate" type="text/html"/>
   <id>https://autoprefixer.github.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A tool that automatically adds browser prefixes (‑webkit‑, ‑moz‑) to CSS. Unlike adding them by hand it knows which prefix is needed from current browser data.</summary>
+  <content type="html">&lt;p&gt;A tool that automatically adds browser prefixes (‑webkit‑, ‑moz‑) to CSS. Unlike adding them by hand it knows which prefix is needed from current browser data.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://autoprefixer.github.io/&quot;&gt;https://autoprefixer.github.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Ant Design</title>
-  <link href="https://github.com/websemantics/awesome-ant-design"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#github-com-websemantics-awesome-ant-design" rel="alternate" type="text/html"/>
   <id>https://github.com/websemantics/awesome-ant-design</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for Ant Design, the enterprise-class UI design language. Unlike Material UI, its components target data-heavy enterprise interfaces; the list gathers community components and templates.</summary>
+  <content type="html">&lt;p&gt;A resource list for Ant Design, the enterprise-class UI design language. Unlike Material UI, its components target data-heavy enterprise interfaces; the list gathers community components and templates.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/websemantics/awesome-ant-design&quot;&gt;https://github.com/websemantics/awesome-ant-design&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome CSS</title>
-  <link href="https://github.com/awesome-css-group/awesome-css"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#github-com-awesome-css-group-awesome-css" rel="alternate" type="text/html"/>
   <id>https://github.com/awesome-css-group/awesome-css</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list gathering the CSS language, tools and resources by topic. Unlike learning-focused CSS lists, it also covers frameworks, tooling and methodologies such as BEM.</summary>
+  <content type="html">&lt;p&gt;A list gathering the CSS language, tools and resources by topic. Unlike learning-focused CSS lists, it also covers frameworks, tooling and methodologies such as BEM.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/awesome-css-group/awesome-css&quot;&gt;https://github.com/awesome-css-group/awesome-css&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome CSS Learning</title>
-  <link href="https://github.com/micromata/awesome-css-learning"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#github-com-micromata-awesome-css-learning" rel="alternate" type="text/html"/>
   <id>https://github.com/micromata/awesome-css-learning</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list focused on learning the CSS language and its modules — Flexbox, Grid, selectors. Unlike general CSS lists, it picks resources that teach the language itself, not frameworks or tools.</summary>
+  <content type="html">&lt;p&gt;A resource list focused on learning the CSS language and its modules — Flexbox, Grid, selectors. Unlike general CSS lists, it picks resources that teach the language itself, not frameworks or tools.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/micromata/awesome-css-learning&quot;&gt;https://github.com/micromata/awesome-css-learning&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome PostCSS</title>
-  <link href="https://github.com/jdrgomes/awesome-postcss"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#github-com-jdrgomes-awesome-postcss" rel="alternate" type="text/html"/>
   <id>https://github.com/jdrgomes/awesome-postcss</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A resource list for PostCSS, the tool that transforms CSS with plugins. Unlike preprocessors such as Sass, every transformation is a separate plugin; the list groups them by purpose.</summary>
+  <content type="html">&lt;p&gt;A resource list for PostCSS, the tool that transforms CSS with plugins. Unlike preprocessors such as Sass, every transformation is a separate plugin; the list groups them by purpose.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/jdrgomes/awesome-postcss&quot;&gt;https://github.com/jdrgomes/awesome-postcss&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Awesome Tailwind CSS</title>
-  <link href="https://github.com/aniftyco/awesome-tailwindcss"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#github-com-aniftyco-awesome-tailwindcss" rel="alternate" type="text/html"/>
   <id>https://github.com/aniftyco/awesome-tailwindcss</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A list of plugins, components, templates and tools for Tailwind CSS. Unlike the official docs, it collects community-made component kits and helper tools.</summary>
+  <content type="html">&lt;p&gt;A list of plugins, components, templates and tools for Tailwind CSS. Unlike the official docs, it collects community-made component kits and helper tools.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/aniftyco/awesome-tailwindcss&quot;&gt;https://github.com/aniftyco/awesome-tailwindcss&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>BuildBootstrap</title>
-  <link href="https://buildbootstrap.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#buildbootstrap-com" rel="alternate" type="text/html"/>
   <id>https://buildbootstrap.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Builds a Bootstrap layout visually by drag and drop and generates its code. Unlike writing it by hand, you see the grid while you build it; the trade-off is that later customisation is still manual.</summary>
+  <content type="html">&lt;p&gt;Builds a Bootstrap layout visually by drag and drop and generates its code. Unlike writing it by hand, you see the grid while you build it; the trade-off is that later customisation is still manual.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://buildbootstrap.com/&quot;&gt;https://buildbootstrap.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Bulma</title>
-  <link href="https://bulma.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#bulma-io" rel="alternate" type="text/html"/>
   <id>https://bulma.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A modern framework built purely from CSS (no JavaScript), based on Flexbox. Unlike Bootstrap it ships no JS components — you take the classes and write your own interactions.</summary>
+  <content type="html">&lt;p&gt;A modern framework built purely from CSS (no JavaScript), based on Flexbox. Unlike Bootstrap it ships no JS components — you take the classes and write your own interactions.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://bulma.io/&quot;&gt;https://bulma.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Buttons Generator</title>
-  <link href="https://markodenic.com/tools/buttons-generator/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#markodenic-com-tools-buttons-generator" rel="alternate" type="text/html"/>
   <id>https://markodenic.com/tools/buttons-generator/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Ready CSS button styles with their code for use in projects. Unlike component libraries it adds no dependency — click and copy plain CSS.</summary>
+  <content type="html">&lt;p&gt;Ready CSS button styles with their code for use in projects. Unlike component libraries it adds no dependency — click and copy plain CSS.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://markodenic.com/tools/buttons-generator/&quot;&gt;https://markodenic.com/tools/buttons-generator/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Cruip</title>
-  <link href="https://cruip.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#cruip-com" rel="alternate" type="text/html"/>
   <id>https://cruip.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Modern landing-page and UI templates (Tailwind-heavy). Unlike building from scratch you get a ready, coherent page; some are free, the fuller templates are paid.</summary>
+  <content type="html">&lt;p&gt;Modern landing-page and UI templates (Tailwind-heavy). Unlike building from scratch you get a ready, coherent page; some are free, the fuller templates are paid.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cruip.com/&quot;&gt;https://cruip.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CSS Battle</title>
-  <link href="https://cssbattle.dev/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#cssbattle-dev" rel="alternate" type="text/html"/>
   <id>https://cssbattle.dev/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A game where you reproduce a target image with as little CSS code as possible. Unlike tutorials it sharpens skill through competition and scoring.</summary>
+  <content type="html">&lt;p&gt;A game where you reproduce a target image with as little CSS code as possible. Unlike tutorials it sharpens skill through competition and scoring.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cssbattle.dev/&quot;&gt;https://cssbattle.dev/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CSS Formatter</title>
-  <link href="https://www.cleancss.com/css-beautify/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#cleancss-com-css-beautify" rel="alternate" type="text/html"/>
   <id>https://www.cleancss.com/css-beautify/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Un-minifies and formats CSS back into a readable shape. Unlike a minifier it expands a compressed file — useful when you need to read someone else’s stylesheet.</summary>
+  <content type="html">&lt;p&gt;Un-minifies and formats CSS back into a readable shape. Unlike a minifier it expands a compressed file — useful when you need to read someone else’s stylesheet.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.cleancss.com/css-beautify/&quot;&gt;https://www.cleancss.com/css-beautify/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CSS Layout</title>
-  <link href="https://csslayout.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#csslayout-io" rel="alternate" type="text/html"/>
   <id>https://csslayout.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Ready CSS recipes for common layouts and components (cards, centring, sticky header). Unlike searching it gives each pattern as a copyable, self-contained example.</summary>
+  <content type="html">&lt;p&gt;Ready CSS recipes for common layouts and components (cards, centring, sticky header). Unlike searching it gives each pattern as a copyable, self-contained example.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://csslayout.io/&quot;&gt;https://csslayout.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CSS Media Query Generator</title>
-  <link href="https://simplecss.eu"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#simplecss-eu" rel="alternate" type="text/html"/>
   <id>https://simplecss.eu</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Generates CSS media queries for specific device sizes. Unlike writing them by hand, you pick common device breakpoints from a ready list.</summary>
+  <content type="html">&lt;p&gt;Generates CSS media queries for specific device sizes. Unlike writing them by hand, you pick common device breakpoints from a ready list.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://simplecss.eu&quot;&gt;https://simplecss.eu&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CSS Minifier</title>
-  <link href="https://cssminifier.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#cssminifier-com" rel="alternate" type="text/html"/>
   <id>https://cssminifier.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A simple tool that minifies CSS by stripping whitespace and comments, with an API too. Unlike build-pipeline tools such as cssnano or esbuild, it handles a one-off job with nothing to install.</summary>
+  <content type="html">&lt;p&gt;A simple tool that minifies CSS by stripping whitespace and comments, with an API too. Unlike build-pipeline tools such as cssnano or esbuild, it handles a one-off job with nothing to install.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cssminifier.com/&quot;&gt;https://cssminifier.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CSS Reference</title>
-  <link href="https://cssreference.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#cssreference-io" rel="alternate" type="text/html"/>
   <id>https://cssreference.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A reference showing every CSS property with a visual example. Unlike the spec it explains “what does this property do” with a live demo rather than text.</summary>
+  <content type="html">&lt;p&gt;A reference showing every CSS property with a visual example. Unlike the spec it explains “what does this property do” with a live demo rather than text.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cssreference.io/&quot;&gt;https://cssreference.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>cubic-bezier.com</title>
-  <link href="https://cubic-bezier.com"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#cubic-bezier-com" rel="alternate" type="text/html"/>
   <id>https://cubic-bezier.com</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Lea Verou’s tool to craft CSS easing curves by hand and compare them against presets live. Unlike easings.net, you build your own curve by dragging handles rather than picking a preset.</summary>
+  <content type="html">&lt;p&gt;Lea Verou’s tool to craft CSS easing curves by hand and compare them against presets live. Unlike easings.net, you build your own curve by dragging handles rather than picking a preset.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cubic-bezier.com&quot;&gt;https://cubic-bezier.com&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Easings.net</title>
-  <link href="https://easings.net"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#easings-net" rel="alternate" type="text/html"/>
   <id>https://easings.net</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Visualises common easing curves and lets you copy the cubic-bezier for each. Unlike cubic-bezier.com, you choose among named presets rather than building a curve.</summary>
+  <content type="html">&lt;p&gt;Visualises common easing curves and lets you copy the cubic-bezier for each. Unlike cubic-bezier.com, you choose among named presets rather than building a curve.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://easings.net&quot;&gt;https://easings.net&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Fancy Border-Radius</title>
-  <link href="https://9elements.github.io/fancy-border-radius/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#9elements-github-io-fancy-border-radius" rel="alternate" type="text/html"/>
   <id>https://9elements.github.io/fancy-border-radius/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A visual tool that generates CSS border-radius for organic shapes. Unlike writing it by hand, you tune the eight-value (slash) syntax by dragging handles.</summary>
+  <content type="html">&lt;p&gt;A visual tool that generates CSS border-radius for organic shapes. Unlike writing it by hand, you tune the eight-value (slash) syntax by dragging handles.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://9elements.github.io/fancy-border-radius/&quot;&gt;https://9elements.github.io/fancy-border-radius/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>FreeFrontEnd</title>
-  <link href="https://freefrontend.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#freefrontend-com" rel="alternate" type="text/html"/>
   <id>https://freefrontend.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A large directory of HTML, CSS and JavaScript code samples and tutorials. Unlike searching CodePen, it classifies examples by type — buttons, menus, cards, animation.</summary>
+  <content type="html">&lt;p&gt;A large directory of HTML, CSS and JavaScript code samples and tutorials. Unlike searching CodePen, it classifies examples by type — buttons, menus, cards, animation.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://freefrontend.com/&quot;&gt;https://freefrontend.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Layoutit Grid</title>
-  <link href="https://grid.layoutit.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#grid-layoutit-com" rel="alternate" type="text/html"/>
   <id>https://grid.layoutit.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A tool to draw a CSS Grid layout by drag-and-drop and generate its code. Unlike writing grid by hand you build the row/column structure visually and export it.</summary>
+  <content type="html">&lt;p&gt;A tool to draw a CSS Grid layout by drag-and-drop and generate its code. Unlike writing grid by hand you build the row/column structure visually and export it.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://grid.layoutit.com/&quot;&gt;https://grid.layoutit.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Material UI</title>
-  <link href="https://mui.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#mui-com" rel="alternate" type="text/html"/>
   <id>https://mui.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A React component library implementing Google’s Material Design. Unlike Ant Design it follows the Material guidelines closely; the theming system can move you away from that look, but it takes work.</summary>
+  <content type="html">&lt;p&gt;A React component library implementing Google’s Material Design. Unlike Ant Design it follows the Material guidelines closely; the theming system can move you away from that look, but it takes work.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://mui.com/&quot;&gt;https://mui.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>NES.css</title>
-  <link href="https://nostalgic-css.github.io/NES.css/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#nostalgic-css-github-io-nes-css" rel="alternate" type="text/html"/>
   <id>https://nostalgic-css.github.io/NES.css/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A CSS framework with a retro 8-bit NES look. Unlike frameworks such as Bootstrap it supplies style, not behaviour: it is CSS only and needs no JavaScript.</summary>
+  <content type="html">&lt;p&gt;A CSS framework with a retro 8-bit NES look. Unlike frameworks such as Bootstrap it supplies style, not behaviour: it is CSS only and needs no JavaScript.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://nostalgic-css.github.io/NES.css/&quot;&gt;https://nostalgic-css.github.io/NES.css/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Neumorphism.io</title>
-  <link href="https://neumorphism.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#neumorphism-io" rel="alternate" type="text/html"/>
   <id>https://neumorphism.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A tool generating CSS for soft-shadowed “neumorphism” boxes. Unlike writing shadows by hand it lets you tune the dual shadow visually and gives the code.</summary>
+  <content type="html">&lt;p&gt;A tool generating CSS for soft-shadowed “neumorphism” boxes. Unlike writing shadows by hand it lets you tune the dual shadow visually and gives the code.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://neumorphism.io/&quot;&gt;https://neumorphism.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Normalize.css</title>
-  <link href="https://necolas.github.io/normalize.css/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#necolas-github-io-normalize-css" rel="alternate" type="text/html"/>
   <id>https://necolas.github.io/normalize.css/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A small CSS base that evens out default styling differences across browsers. Unlike CSS resets it keeps the useful defaults instead of wiping everything, and fixes only the inconsistencies.</summary>
+  <content type="html">&lt;p&gt;A small CSS base that evens out default styling differences across browsers. Unlike CSS resets it keeps the useful defaults instead of wiping everything, and fixes only the inconsistencies.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://necolas.github.io/normalize.css/&quot;&gt;https://necolas.github.io/normalize.css/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Pure.css</title>
-  <link href="https://purecss.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#purecss-io" rel="alternate" type="text/html"/>
   <id>https://purecss.io/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A tiny, modular CSS framework of just a few KB (Yahoo). Unlike large frameworks you take only the module you need and keep the page light.</summary>
+  <content type="html">&lt;p&gt;A tiny, modular CSS framework of just a few KB (Yahoo). Unlike large frameworks you take only the module you need and keep the page light.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://purecss.io/&quot;&gt;https://purecss.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>uiGradients</title>
-  <link href="https://uigradients.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#uigradients-com" rel="alternate" type="text/html"/>
   <id>https://uigradients.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>A tool that shows ready CSS gradients and gives their code. Unlike mixing colours by hand you pick a pleasing transition and copy it straight.</summary>
+  <content type="html">&lt;p&gt;A tool that shows ready CSS gradients and gives their code. Unlike mixing colours by hand you pick a pleasing transition and copy it straight.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://uigradients.com/&quot;&gt;https://uigradients.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>W3C CSS Validator</title>
-  <link href="https://jigsaw.w3.org/css-validator/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#jigsaw-w3-org-css-validator" rel="alternate" type="text/html"/>
   <id>https://jigsaw.w3.org/css-validator/</id>
   <updated>2026-09-18T00:00:00Z</updated>
-  <summary>Validates CSS against the official W3C rules, accepting a URL, a file or pasted text. Unlike linters such as Stylelint, it checks conformance to the standard, not style.</summary>
+  <content type="html">&lt;p&gt;Validates CSS against the official W3C rules, accepting a URL, a file or pasted text. Unlike linters such as Stylelint, it checks conformance to the standard, not style.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://jigsaw.w3.org/css-validator/&quot;&gt;https://jigsaw.w3.org/css-validator/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CSS-Tricks Snippets</title>
-  <link href="https://css-tricks.com/snippets/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#css-tricks-com-snippets" rel="alternate" type="text/html"/>
   <id>https://css-tricks.com/snippets/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>An archive of snippets for CSS, HTML, JavaScript and .htaccess built up over years. Against scattered blog posts each snippet has its own page and discussion — and the comments usually hold a better version.</summary>
+  <content type="html">&lt;p&gt;An archive of snippets for CSS, HTML, JavaScript and .htaccess built up over years. Against scattered blog posts each snippet has its own page and discussion — and the comments usually hold a better version.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://css-tricks.com/snippets/&quot;&gt;https://css-tricks.com/snippets/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Easing Wizard</title>
-  <link href="https://easingwizard.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#easingwizard-com" rel="alternate" type="text/html"/>
   <id>https://easingwizard.com/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A visual builder for CSS easing curves that covers not just cubic-bezier but linear() spring and bounce curves. That linear() support is what dates it past cubic-bezier.com: spring animation in CSS no longer needs a library.</summary>
+  <content type="html">&lt;p&gt;A visual builder for CSS easing curves that covers not just cubic-bezier but linear() spring and bounce curves. That linear() support is what dates it past cubic-bezier.com: spring animation in CSS no longer needs a library.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://easingwizard.com/&quot;&gt;https://easingwizard.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Uiverse</title>
-  <link href="https://uiverse.io/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#uiverse-io" rel="alternate" type="text/html"/>
   <id>https://uiverse.io/</id>
   <updated>2026-08-21T20:53:20Z</updated>
-  <summary>A community-contributed gallery of open-source UI elements: buttons, cards, loaders, toggles. Unlike CodePen, everything is MIT-licensed, copy-paste ready and offered as plain CSS or Tailwind, with no framework attached.</summary>
+  <content type="html">&lt;p&gt;A community-contributed gallery of open-source UI elements: buttons, cards, loaders, toggles. Unlike CodePen, everything is MIT-licensed, copy-paste ready and offered as plain CSS or Tailwind, with no framework attached.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://uiverse.io/&quot;&gt;https://uiverse.io/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>CSS-Tricks</title>
-  <link href="https://css-tricks.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#css-tricks-com" rel="alternate" type="text/html"/>
   <id>https://css-tricks.com/</id>
   <updated>2026-08-19T23:34:04Z</updated>
-  <summary>Two decades of CSS technique, whose Flexbox and Grid guides became widely cited references. Faster than the spec when you are hunting a specific layout problem.</summary>
+  <content type="html">&lt;p&gt;Two decades of CSS technique, whose Flexbox and Grid guides became widely cited references. Faster than the spec when you are hunting a specific layout problem.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://css-tricks.com/&quot;&gt;https://css-tricks.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Flexbox Froggy</title>
-  <link href="https://flexboxfroggy.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#flexboxfroggy-com" rel="alternate" type="text/html"/>
   <id>https://flexboxfroggy.com/</id>
   <updated>2026-08-19T23:34:03Z</updated>
-  <summary>The Flexbox sibling of Grid Garden, teaching alignment by positioning frogs. Unlike reading the docs you see every property’s effect at once — it settles the justify-content versus align-items confusion in twenty minutes.</summary>
+  <content type="html">&lt;p&gt;The Flexbox sibling of Grid Garden, teaching alignment by positioning frogs. Unlike reading the docs you see every property’s effect at once — it settles the justify-content versus align-items confusion in twenty minutes.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://flexboxfroggy.com/&quot;&gt;https://flexboxfroggy.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Grid Garden</title>
-  <link href="https://cssgridgarden.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#cssgridgarden-com" rel="alternate" type="text/html"/>
   <id>https://cssgridgarden.com/</id>
   <updated>2026-08-19T23:34:00Z</updated>
-  <summary>A 28-level game teaching CSS Grid by watering carrots. Properties like grid-column and grid-area stick when you type them rather than read them.</summary>
+  <content type="html">&lt;p&gt;A 28-level game teaching CSS Grid by watering carrots. Properties like grid-column and grid-area stick when you type them rather than read them.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://cssgridgarden.com/&quot;&gt;https://cssgridgarden.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Foundation for Sites</title>
-  <link href="https://get.foundation/sites.html"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#get-foundation-sites-html" rel="alternate" type="text/html"/>
   <id>https://get.foundation/sites.html</id>
   <updated>2026-08-17T20:53:20Z</updated>
-  <summary>The long-running alternative to Bootstrap: a responsive front-end framework with an XY grid, accessibility-minded components and a separate edition for HTML email. Against Bootstrap it imposes fewer visual opinions — components arrive unstyled and you bring the design. Caveat: the last release was September 2024 and the last push January 2025. The project is not archived, but it has been dormant since then and its marketing site still advertises a webinar from 2017.</summary>
+  <content type="html">&lt;p&gt;The long-running alternative to Bootstrap: a responsive front-end framework with an XY grid, accessibility-minded components and a separate edition for HTML email. Against Bootstrap it imposes fewer visual opinions — components arrive unstyled and you bring the design. Caveat: the last release was September 2024 and the last push January 2025. The project is not archived, but it has been dormant since then and its marketing site still advertises a webinar from 2017.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://get.foundation/sites.html&quot;&gt;https://get.foundation/sites.html&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Bootstrap</title>
-  <link href="https://getbootstrap.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#getbootstrap-com" rel="alternate" type="text/html"/>
   <id>https://getbootstrap.com/</id>
   <updated>2026-04-20T13:01:01Z</updated>
-  <summary>Ready components and a grid system that get you a working interface without design decisions. Unlike Tailwind it hands you finished components rather than building blocks; the cost is that a Bootstrap site is recognisable from a distance.</summary>
+  <content type="html">&lt;p&gt;Ready components and a grid system that get you a working interface without design decisions. Unlike Tailwind it hands you finished components rather than building blocks; the cost is that a Bootstrap site is recognisable from a distance.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://getbootstrap.com/&quot;&gt;https://getbootstrap.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 <entry>
   <title>Tailwind CSS</title>
-  <link href="https://tailwindcss.com/"/>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/css.html#tailwindcss-com" rel="alternate" type="text/html"/>
   <id>https://tailwindcss.com/</id>
   <updated>2026-04-20T13:01:00Z</updated>
-  <summary>You style with utility classes and the build step drops unused ones, so the CSS file stops growing. Unlike Bootstrap it hands you building blocks rather than components — the look is entirely yours.</summary>
+  <content type="html">&lt;p&gt;You style with utility classes and the build step drops unused ones, so the CSS file stops growing. Unlike Bootstrap it hands you building blocks rather than components — the look is entirely yours.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://tailwindcss.com/&quot;&gt;https://tailwindcss.com/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
