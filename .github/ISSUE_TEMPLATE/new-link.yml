@@ -126,3 +126,14 @@ body:
           required: true
         - label: It is not a personal file or an account-gated dashboard
           required: true
+
+  - type: checkboxes
+    id: licence
+    attributes:
+      label: Licence
+      description: >
+        The directory's descriptions are published under CC BY 4.0 (see LICENSE).
+        Text you write here may end up in one, edited.
+      options:
+        - label: I agree that the text I wrote in this form is published under CC BY 4.0
+          required: true

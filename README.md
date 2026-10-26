@@ -2,11 +2,17 @@
 
 https://latifkedi.github.io/useful-sites/
 
-The project was created using AI.
+A link directory where every entry is annotated: what the resource does, and
+how it differs from the tools that resemble it. Every link is re-checked each
+week, dead ones are marked, and archived or dormant repositories are flagged.
+Published in Turkish and English, with no trackers and no analytics.
 
 An annotated directory of <!-- n -->2,100+<!-- /n --> links across ten areas, from
 software and AI to security, economics and architecture, organised into
-<!-- c -->48<!-- /c --> categories and published in Turkish and English.
+<!-- c -->48<!-- /c --> categories.
+
+The project was created using AI: the descriptions are machine-assisted and
+human-reviewed (see [Attribution](#attribution)).
 
 ## The ten areas
 
@@ -58,11 +64,17 @@ repositories for archival and inactivity, and records a verification date per
 entry. Entries that fail are marked on the site, and every entry carries a link
 to its Wayback Machine copy.
 
-Method and structure: [ABOUT.md](ABOUT.md).
+Method and structure: [ABOUT.md](ABOUT.md) (on the site: `k/en/about.html`).
+Every record as open data: [data/v1/](data/v1/SCHEMA.md) (JSON and CSV).
 Build scripts and how to add an entry: [data/README.md](data/README.md).
 Contributing: [CONTRIBUTING.md](CONTRIBUTING.md).
+Running and maintaining it (weekly, quarterly and yearly tasks, backups):
+[MAINTAINERS.md](MAINTAINERS.md).
 
 ## License
 
 The descriptions and the arrangement are released under CC BY 4.0. The linked
-sites remain the property of their authors, under their own terms.
+sites remain the property of their authors, under their own terms. Records
+found in another compilation keep that list's own licence and notice (MIT,
+CC0, CC BY-SA and so on); each source's terms are in `data/sources.py` and on
+the credits page. Details: [LICENSE](LICENSE).

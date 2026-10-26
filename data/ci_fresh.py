@@ -163,7 +163,8 @@ def main():
             by.setdefault(f, []).append(r)
 
     # Perishable claims (free, beta, waitlist) on records whose freshness tier
-    # falls due this week: 90 days for AI and finance, 365 for the rest.
+    # falls due this week: 90 days for AI and finance, 365 for the rest. What did
+    # not fit last week comes first (linkstate.claim_rechecks replays the queue).
     today = datetime.date.today().isoformat()
     iddia, fazla = linkstate.claim_rechecks(rows, today)
 
@@ -209,7 +210,8 @@ def main():
         L += ['## Süreli iddia, yeniden bakılmalı (%d)' % len(iddia), '',
               'Açıklama fiyat, beta ya da bekleme listesi iddiası taşıyor ve kaydın tazelik '
               'dönemi bu hafta doluyor (YZ ve finans 90 gün, diğerleri 365 gün). Haftada en '
-              'çok %d kayıt%s.' % (linkstate.CLAIM_CAP, ('; %d kayıt sığmadı, bir sonraki dönemlerinde yeniden çıkacaklar' % fazla) if fazla else ''),
+              'çok %d kayıt%s.' % (linkstate.CLAIM_CAP, ('; %d kayıt sığmadı, gelecek haftanın listesinin başına '
+                                                'aktarılıyor' % fazla) if fazla else ''),
               '', '| Kayıt | Kategori | İddia | URL |', '|---|---|---|---|']
         for r in iddia:
             L.append('| %s | %s | %s | %s |' % (r['name'], r.get('cat', ''), ', '.join(r['claims']), r['url']))

@@ -42,7 +42,8 @@ urllib3.disable_warnings()
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import readlinks  # noqa: E402
 from notes import key  # noqa: E402
-from linkstate import classify, next_state, may_write, recheck_due, orphan_keys, DEAD_AFTER  # noqa: E402
+from linkstate import (classify, next_state, may_write, recheck_due, orphan_keys,  # noqa: E402
+                       scan_changes, DEAD_AFTER)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UA = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
@@ -114,25 +115,33 @@ def load_manual():
     bad = [k for k, v in data.items() if v.get('s') not in MANUAL_STATES]
     if bad:
         raise ValueError('manual.json: "s" must be one of %s -- %s' % (MANUAL_STATES, bad[:3]))
+    # "r" is required: 99 of 106 entries once had none, so all of them fell due
+    # a year after "d" -- in the same week of October 2027.
     nodate = [k for k, v in data.items() if not re.match(r'^\d{4}-\d{2}-\d{2}$', v.get('d', ''))
-              or ('r' in v and not re.match(r'^\d{4}-\d{2}-\d{2}$', v['r']))]
+              or not re.match(r'^\d{4}-\d{2}-\d{2}$', v.get('r', ''))]
     if nodate:
-        raise ValueError('manual.json: "d" (and "r", if given) must be YYYY-MM-DD -- %s' % nodate[:3])
+        raise ValueError('manual.json: every entry needs "d" (decided) and "r" (look again), '
+                         'both YYYY-MM-DD; python data/mark_ok.py writes both -- %s' % nodate[:3])
     return data
 
 
 def write_verified(links, results, manual, today):
-    """Refreshes verified.json and returns {url: final status} for the report.
+    """Refreshes verified.json; returns {url: final status} and what changed.
 
     The site shows "last verified" on every entry and this file is where that
-    comes from. "f" counts consecutive dead scans.
+    comes from: the top-level "scanned" date, or an entry's own "d" where it
+    has one (a dead entry's last good date). "f" counts consecutive dead scans. The changes are measured
+    against the file as the previous scan left it, so the report can lead with
+    what is new this week.
     """
     path = os.path.join(ROOT, 'data', 'verified.json')
     ver = json.load(io.open(path, encoding='utf-8')) if os.path.exists(path) else {}
+    last_scan = ver.pop('scanned', None)
+    prev = dict(ver)
     final = {}
     for l in links:
         k = key(l['url'])
-        ent = next_state(ver.get(k, {}), classify(results.get(l['url'])), manual.get(k), today)
+        ent = next_state(ver.get(k, {}), classify(results.get(l['url'])), manual.get(k), today, last_scan)
         ver[k] = ent
         final[l['url']] = ent['s']
 
@@ -143,11 +152,13 @@ def write_verified(links, results, manual, today):
         del ver[k]
 
     if may_write(sys.argv, os.environ):
-        json.dump(ver, io.open(path, 'w', encoding='utf-8', newline='\n'),
+        # "scanned" first: the date every entry without its own "d" was checked
+        # on (linkstate.next_state). build.py reads it the same way.
+        json.dump(dict({'scanned': today}, **ver), io.open(path, 'w', encoding='utf-8', newline='\n'),
                   ensure_ascii=False, indent=1)
     else:
         print('verified.json left alone (local run); pass --write to refresh it')
-    return final
+    return final, scan_changes(prev, {key(l['url']): ver[key(l['url'])] for l in links})
 
 
 def _row(r, extra=''):
@@ -155,7 +166,7 @@ def _row(r, extra=''):
     return '| %s | %s | `%s`%s | %s |' % (r['name'], r['cat'], st, extra, r['url'])
 
 
-def report(links, results, final, manual, today):
+def report(links, results, final, manual, today, changes=None):
     failing = [r for r in results.values()]
     due = [{'name': l['name'], 'cat': l.get('cat_tr', ''), 'url': l['url'],
             'status': 'd=%s r=%s' % (manual[key(l['url'])].get('d'), manual[key(l['url'])].get('r', '-'))}
@@ -165,18 +176,56 @@ def report(links, results, final, manual, today):
     dead = [r for r in rest if final.get(r['url']) == 'olu']
     first = [r for r in rest if classify(r) == 'dead' and final.get(r['url']) != 'olu']
     suspect = [r for r in rest if classify(r) == 'suspect']
+    changes = changes or {'newly_dead': [], 'newly_failing': [], 'recovered': []}
 
     print('scanned: %d | dead: %d | first dead scan: %d | suspect: %d | manual: %d'
           % (len(links), len(dead), len(first), len(suspect), len(over)))
+    print('since last scan: newly dead %d | newly failing %d | recovered %d'
+          % tuple(len(changes[k]) for k in ('newly_dead', 'newly_failing', 'recovered')))
 
     path = os.path.join(ROOT, 'rapor.md')
-    if not failing and not due:
+    if not failing and not due and not changes['recovered']:
         if os.path.exists(path):
             os.remove(path)             # a clean week reads as clean
         return 0
 
     head = '| Entry | Category | Status | URL |\n|---|---|---|---|'
-    L = ['# Link check - %s' % today, '', '`%d` links scanned.' % len(links), '']
+    by_key = {}
+    for l in links:
+        by_key[key(l['url'])] = results.get(l['url']) or {
+            'name': l['name'], 'cat': l.get('cat_tr', ''), 'url': l['url'], 'status': 'ok'}
+
+    def table(rows):
+        out = [head]
+        for r in sorted(rows, key=lambda x: (x['cat'], x['name'])):
+            out.append(_row(r))
+        return out + ['']
+
+    # The main body is only what moved since the previous scan: the standing
+    # list of bot-blocked sites is the same fifty rows every week, and printed
+    # in full it buried the one link that actually broke.
+    L = ['# Link check - %s' % today, '',
+         '`%d` links scanned. Still failing: %d dead, %d failed once, %d suspect, %d held by '
+         'manual.json; %d manual decisions due for a recheck.'
+         % (len(links), len(dead), len(first), len(suspect), len(over), len(due)), '',
+         '## Since the last scan', '']
+    news = [
+        ('newly_dead', 'Newly dead', 'Marked dead on the site this week (%d consecutive dead scans). '
+                                     'Replace or remove.' % DEAD_AFTER),
+        ('newly_failing', 'Newly failing', 'Answered last week, failing now. A first dead scan is not '
+                                           'marked on the site yet.'),
+        ('recovered', 'Recovered', 'Failing last week, answering now. Nothing to do.'),
+    ]
+    moved = False
+    for k, title, blurb in news:
+        rows = [by_key[x] for x in changes[k] if x in by_key]
+        if not rows:
+            continue
+        moved = True
+        L += ['### %s (%d)' % (title, len(rows)), '', blurb, ''] + table(rows)
+    if not moved:
+        L += ['Nothing changed since the last scan.', '']
+
     sections = [
         (dead, 'Dead (%d)' % len(dead),
          'Dead on %d consecutive scans (404/410 or the domain no longer '
@@ -191,17 +240,14 @@ def report(links, results, final, manual, today):
          'Still failing the scan, but a person checked these by hand and '
          'recorded a decision in data/manual.json. Revisit if it looks stale.'),
         (due, 'Manual decisions due for a recheck (%d)' % len(due),
-         'A person decided these by hand, and the date to look again (r in manual.json, '
-         'or a year after d) has come. Open each in a browser; if it is still what the '
-         'directory says, run python data/mark_ok.py <address> to renew the decision.'),
+         'A person decided these by hand, and the date to look again (r in manual.json) '
+         'has come. Open each in a browser; if it is still what the directory says, run '
+         'python data/mark_ok.py <address> to renew the decision.'),
     ]
     for rows, title, blurb in sections:
         if not rows:
             continue
-        L += ['## ' + title, '', blurb, '', head]
-        for r in sorted(rows, key=lambda x: (x['cat'], x['name'])):
-            L.append(_row(r))
-        L.append('')
+        L += ['<details><summary>%s</summary>' % title, '', blurb, ''] + table(rows) + ['</details>', '']
     L.append('<sub>Generated by `data/ci_check.py`.</sub>')
     io.open(path, 'w', encoding='utf-8', newline='\n').write('\n'.join(L))
     return 1 if dead else 0
@@ -213,8 +259,8 @@ def main():
     today = datetime.date.today().isoformat()
     with cf.ThreadPoolExecutor(max_workers=16) as ex:
         results = {r['url']: r for r in ex.map(check, links) if r}
-    final = write_verified(links, results, manual, today)
-    return report(links, results, final, manual, today)
+    final, changes = write_verified(links, results, manual, today)
+    return report(links, results, final, manual, today, changes)
 
 
 if __name__ == '__main__':

@@ -52,8 +52,10 @@ TOPICS = {
 }
 
 
-def main():
-    rows = readlinks.read(ROOT)
+def counts(rows=None):
+    """[(count, topic)] in TOPICS order. test_build compares CONTRIBUTING.md's
+    bracketed numbers with these."""
+    rows = rows if rows is not None else readlinks.read(ROOT)
     texts = [' '.join([r['name']] + r.get('tags', []) + [r.get('tr', '')]).lower() for r in rows]
     en_path = os.path.join(ROOT, 'links.en.js')
     import json
@@ -68,8 +70,13 @@ def main():
             rx = re.compile(pat, re.I)
             n = sum(1 for t in texts if rx.search(t))
         out.append((n, name))
+    return out
+
+
+def main():
+    rows = readlinks.read(ROOT)
     print('%d records' % len(rows))
-    for n, name in sorted(out):
+    for n, name in sorted(counts(rows)):
         print('%5d  %s' % (n, name))
 
 

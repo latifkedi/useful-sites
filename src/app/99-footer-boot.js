@@ -134,10 +134,32 @@ readURL();
 var idle = window.requestIdleCallback
   ? function(f){ window.requestIdleCallback(f, {timeout: 1500}) }
   : function(f){ setTimeout(f, 200) };
+/* Ilk tus vurusu: telefonda (4x yavas islemci) giristen ilk sonuc listesine
+   gecis 580 ms suruyordu; JS'in payi 45 ms, gerisi arac cubugunun (secim
+   kutusu, ▾ ◆ gibi yedek yazi tipinden gelen isaretler) ilk yerlesimi. Bos
+   zamanda ya da arama kutusuna odaklaninca ekran disinda bir kez yerlestirilip
+   atiliyor; tarayicinin yazi tipi ve sekillendirme onbellekleri isiniyor. */
+var warmedLayout = false;
+function warmLayout(){
+  if(warmedLayout || !data.length) return;
+  warmedLayout = true;
+  var w = document.createElement("div");
+  w.className = "catpage";
+  w.setAttribute("aria-hidden", "true");
+  w.style.cssText = "position:absolute;left:-9999px;top:0;width:360px;visibility:hidden;animation:none";
+  /* tbHTML kimlikli ogeler (#sort, #filtb) uretiyor: ayni gorevde ekleniyor ve
+     kaldiriliyor, baska kod onlari gormuyor. */
+  w.innerHTML = tbHTML(T[lang], 1, 1) + '<div class="recs">' + itemHTML(data[0], 1, {path: true}) + '</div>';
+  document.body.appendChild(w);
+  void w.offsetHeight;
+  w.remove();
+}
+$("#q").addEventListener("focus", function(){ indexDescs(); warmLayout() });
+
 needDesc(lang, function(){
   if(q) indexDescs();
-  render(); liveReady = true; takeGo();
-  idle(function(){ indexDescs(); warmSearch() });
+  render(); liveReady = true; takeGo(); checkURL();
+  idle(function(){ indexDescs(); warmLayout(); warmSearch() });
 });
 /* Tekrar ziyaretlerde anlik acilis ve cevrimdisi okuma (sw.js). Yukleme
    bittikten sonra: ilk acilisla ag ve islemci icin yarismasin. */

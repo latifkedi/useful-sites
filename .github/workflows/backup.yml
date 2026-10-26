@@ -1,0 +1,76 @@
+name: Weekly backup
+
+# The repository is the only copy of the curation: 2,000+ hand-written records
+# in data/notes, plus the verification history. GitHub is reliable, but an
+# account lock-out, a bad force-push or an accidental deletion would take all
+# of it at once. Every week this attaches two files to a dated release:
+#
+#   useful-sites-<date>.bundle   the whole history (git bundle --all); restore
+#                                with `git clone useful-sites-<date>.bundle`
+#   data-<date>.tar.gz           data/notes/ and data/*.json alone, readable
+#                                without git
+#
+# Only the latest 8 backup releases are kept. Older ones -- and only releases
+# whose tag starts with "backup-" -- are deleted with their tags.
+# Download them now and then: a backup that lives only on GitHub does not
+# survive losing GitHub. Restore steps: MAINTAINERS.md.
+
+on:
+  schedule:
+    - cron: "30 3 * * 3"        # Wednesdays 03:30 UTC, away from the Monday scan
+  workflow_dispatch:
+
+permissions:
+  contents: write      # create the release and its tag, delete old backup releases
+
+concurrency:
+  group: backup
+  cancel-in-progress: false
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262  # v4.4.0
+        with:
+          fetch-depth: 0       # the bundle must carry the whole history
+
+      - name: Make the bundle and the data tarball
+        id: make
+        run: |
+          day=$(date -u +%Y-%m-%d)
+          out="$RUNNER_TEMP/backup"
+          mkdir -p "$out"
+          git bundle create "$out/useful-sites-$day.bundle" --all
+          git bundle verify "$out/useful-sites-$day.bundle"
+          tar -czf "$out/data-$day.tar.gz" data/notes data/*.json
+          echo "day=$day" >> "$GITHUB_OUTPUT"
+          echo "dir=$out" >> "$GITHUB_OUTPUT"
+          ls -l "$out"
+
+      - name: Attach them to a dated release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DAY: ${{ steps.make.outputs.day }}
+          DIR: ${{ steps.make.outputs.dir }}
+        run: |
+          tag="backup-$DAY"
+          if gh release view "$tag" >/dev/null 2>&1; then
+            gh release upload "$tag" "$DIR"/* --clobber
+          else
+            gh release create "$tag" "$DIR"/* --target "$GITHUB_SHA" \
+              --title "Backup $DAY" --latest=false \
+              --notes "Weekly backup of $GITHUB_SHA. Restore steps: MAINTAINERS.md."
+          fi
+
+      - name: Keep only the latest 8 backups
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release list --limit 200 --json tagName --jq '.[].tagName' \
+            | { grep '^backup-' || true; } | sort -r | tail -n +9 \
+            | while read -r tag; do
+                echo "deleting old backup $tag"
+                gh release delete "$tag" --cleanup-tag --yes
+              done

@@ -6,18 +6,23 @@ name: Link and repository health
 #   2. The repository is archived -> ci_check.py cannot: the page still
 #                                    returns 200. ci_github.py catches it.
 #
-# Both reports land in one issue, and later weeks update that same issue
-# instead of filing a new one.
+# All reports land as one weekly comment on a single pinned issue labelled
+# `link-check`; the issue body is never rewritten, so the history stays.
 
 on:
   schedule:
-    - cron: "17 4 * * 1"        # Mondays, 04:17 UTC
+    # Sunday 23:00 UTC. Scheduled runs start hours late (6-8 h has been seen),
+    # so this lands early Monday, before the week's own pushes begin.
+    - cron: "0 23 * * 0"
   workflow_dispatch:
 
 permissions:
   contents: write      # to write verified.json back
-  issues: write
+  issues: write        # the weekly comment
+  actions: write       # to start the Build check on the pushed commit
 
+# One scan at a time; a second one queues instead of cancelling the first
+# halfway through its push.
 concurrency:
   group: link-check
   cancel-in-progress: false
@@ -33,45 +38,105 @@ jobs:
         with:
           python-version: "3.12"
 
-      - run: pip install --quiet requests==2.33.0
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020  # v7.0.0
+        with:
+          node-version: "22"
+          package-manager-cache: false
+
+      - run: pip install --quiet -r requirements-dev.txt
 
       - name: Scan the links
+        id: scan
         run: python data/ci_check.py
         continue-on-error: true      # exits 1 when it finds dead links
 
       - name: Audit the linked GitHub repositories
+        id: repos
         run: python data/ci_github.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         continue-on-error: true
 
       - name: Audit description freshness
+        id: fresh
         run: python data/ci_fresh.py
         continue-on-error: true
 
       # verified.json and health.json feed the "last verified" date, the Dead
       # marker and the repository-health badges -- but the page only ever reads
-      # them through links.js. The first version committed verified.json alone
-      # and never rebuilt, so no scan result reached the site; health.json was
-      # not committed at all. Rebuild, then commit the data and the output.
-      - name: Rebuild with the new verification data
-        run: python data/build.py
-
-      - name: Commit the verification data and the rebuilt site
+      # them through links.js, so the site is rebuilt before committing.
+      #
+      # The scan takes over an hour, and twice a person pushed to main in the
+      # meantime: the bot's push was rejected and the week's scan was lost. So
+      # the scan's two data files are set aside, the checkout is moved to the
+      # current main, the site is rebuilt from main's sources plus the new data,
+      # tested, and pushed -- up to three times if main moves again.
+      #
+      # The tests run here because a commit pushed with GITHUB_TOKEN triggers no
+      # workflow: nothing else would test what this job publishes. The Build
+      # check is started explicitly afterwards (next step) for the full record.
+      - name: Rebuild, test and push the verification data
+        id: push
         run: |
-          paths="data/verified.json data/health.json links.js desc.tr.js links.en.js index.html sitemap.xml robots.txt feed.xml k/ feed/"
-          if [ -z "$(git status --porcelain -- $paths)" ]; then
-            echo "no change"
-          else
-            git config user.name  "link-check[bot]"
-            git config user.email "link-check@users.noreply.github.com"
+          paths="data/verified.json data/health.json links.js desc.tr.js links.en.js app.js index.html sitemap.xml robots.txt feed.xml k/ feed/ data/v1/ README.md .github/ISSUE_TEMPLATE/new-link.yml"
+          keep="$RUNNER_TEMP/scan"
+          mkdir -p "$keep"
+          cp data/verified.json data/health.json "$keep/"
+          git config user.name  "link-check[bot]"
+          git config user.email "link-check@users.noreply.github.com"
+          for attempt in 1 2 3; do
+            git fetch --quiet origin +refs/heads/main:refs/remotes/origin/main
+            git reset --quiet --hard origin/main
+            cp "$keep/verified.json" "$keep/health.json" data/
+            # a record may have been removed on main during the hour-long scan
+            python data/prune_verified.py
+            python data/build.py
+            python data/test_build.py
+            python data/test_helpers.py
+            node test_search.js
+            if [ -z "$(git status --porcelain -- $paths)" ]; then
+              echo "no change"
+              exit 0
+            fi
             git add -- $paths
-            git commit -m "chore: refresh verification data and rebuild"
-            git push
-          fi
+            git commit --quiet -m "chore: refresh verification data and rebuild"
+            if git push origin HEAD:main; then
+              echo "pushed=1" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            echo "::warning::push rejected (attempt $attempt), main moved; rebuilding on the new main"
+            sleep $((attempt * 15))
+          done
+          echo "::error::could not push after 3 attempts"
+          exit 1
 
-      - name: Write the report as an issue
+      - name: Run the Build check on the pushed commit
+        if: steps.push.outputs.pushed == '1'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run build.yml --ref main || echo "::warning::could not start the Build check"
+
+      - name: Keep the full reports
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a  # v7.0.1
+        with:
+          name: link-check-reports
+          path: rapor*.md
+          if-no-files-found: ignore
+          retention-days: 90
+
+      # One standing issue, pinned, labelled link-check. Each week adds a
+      # comment; the body is written once and left alone. Rewriting the body
+      # every week erased last week's findings and notified nobody.
+      - name: Post the report as a weekly comment
+        if: always()
         uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b  # v7.1.0
+        env:
+          SCAN_OUTCOME: ${{ steps.scan.outcome }}
+          REPOS_OUTCOME: ${{ steps.repos.outcome }}
+          FRESH_OUTCOME: ${{ steps.fresh.outcome }}
+          PUSH_OUTCOME: ${{ steps.push.outcome }}
+          JOB_STATUS: ${{ job.status }}
         with:
           script: |
             const fs = require('fs');
@@ -79,37 +144,56 @@ jobs:
             for (const f of ['rapor.md', 'rapor-github.md', 'rapor-tazelik.md']) {
               if (fs.existsSync(f)) parts.push(fs.readFileSync(f, 'utf8'));
             }
-
             const { owner, repo } = context.repo;
-            const existing = await github.rest.issues.listForRepo({
-              owner, repo, state: 'open', labels: 'link-check'
+            const run = `${context.serverUrl}/${owner}/${repo}/actions/runs/${context.runId}`;
+
+            const open = await github.rest.issues.listForRepo({
+              owner, repo, state: 'open', labels: 'link-check', sort: 'created', direction: 'asc'
             });
-
-            if (!parts.length) {
-              core.info('clean - no report produced');
-              if (existing.data.length) {
-                await github.rest.issues.createComment({
-                  owner, repo, issue_number: existing.data[0].number,
-                  body: 'Nothing wrong in this week\'s scan. Closing.'
-                });
-                await github.rest.issues.update({
-                  owner, repo, issue_number: existing.data[0].number, state: 'closed'
-                });
-              }
-              return;
-            }
-
-            const body = parts.join('\n\n---\n\n');
-            if (existing.data.length) {
-              await github.rest.issues.update({
-                owner, repo, issue_number: existing.data[0].number, body
-              });
-              core.info(`updated #${existing.data[0].number}`);
+            let number;
+            if (open.data.length) {
+              number = open.data[0].number;
             } else {
-              await github.rest.issues.create({
-                owner, repo,
+              const made = await github.rest.issues.create({
+                owner, repo, labels: ['link-check'],
                 title: 'Maintenance: dead links and abandoned repositories',
-                body, labels: ['link-check']
+                body: 'The weekly link and repository scan (`.github/workflows/link-check.yml`) ' +
+                      'posts its report here as a comment every week. Each comment leads with ' +
+                      'what changed since the previous scan; the standing lists are folded ' +
+                      'below it. See MAINTAINERS.md for what to do with each section.'
               });
-              core.info('opened a new issue');
+              number = made.data.number;
+              try {
+                await github.graphql(
+                  'mutation($id: ID!) { pinIssue(input: {issueId: $id}) { issue { number } } }',
+                  { id: made.data.node_id });
+              } catch (e) {
+                core.warning('could not pin the issue (pin it by hand): ' + e.message);
+              }
             }
+
+            // continue-on-error hides a crashed or timed-out scan: ci_check exits 1 on
+            // dead links too, so judge by whether it wrote its report, not by the exit code.
+            const notes = [];
+            if (!fs.existsSync('rapor.md')) notes.push('the link scan wrote no report');
+            if (!fs.existsSync('rapor-github.md')) notes.push('the repository audit wrote no report');
+            if (process.env.PUSH_OUTCOME !== 'success') notes.push('the data was not pushed (' + process.env.PUSH_OUTCOME + ')');
+            if (process.env.JOB_STATUS === 'cancelled') notes.push('the job was cancelled or timed out');
+            let body = parts.length
+              ? parts.join('\n\n---\n\n')
+              : 'Nothing wrong in this week\'s scan.';
+            if (notes.length) {
+              body = '> **This scan did not complete cleanly:** ' + notes.join('; ') + '.
+
+' +
+                     (parts.length ? body : '(No report to show.)');
+            }
+            body += `\n\n<sub>[Run](${run}) · full reports are kept as the run's artifact.</sub>`;
+            const LIMIT = 65000;      // GitHub refuses a comment over 65,536 characters
+            if (body.length > LIMIT) {
+              body = body.slice(0, LIMIT - 300) +
+                     `\n\n</details>\n\n**Cut short:** the report is longer than a comment ` +
+                     `can hold. The full text is in the [run's artifact](${run}).`;
+            }
+            await github.rest.issues.createComment({ owner, repo, issue_number: number, body });
+            core.info(`commented on #${number}`);

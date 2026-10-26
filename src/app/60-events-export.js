@@ -238,6 +238,25 @@ function hideMenu(){
 }
 $("#rand").addEventListener("click", function(){ hideMenu(); openRandom() });
 
+/* Aramadan ilk sonuca tek adim: aradaki araclar ve yan sutun atlaniyor. */
+$("#skipr").addEventListener("click", function(e){
+  var first = $("#list .rec a.name");
+  if(!first) return;
+  e.preventDefault();
+  first.focus();
+});
+/* Benzerleri (.rel) tek Tab duragi; aralarinda ok tuslariyla geziliyor. */
+document.addEventListener("keydown", function(e){
+  var a = e.target.closest && e.target.closest(".rel a");
+  if(!a || !/^Arrow(Left|Right|Up|Down)$/.test(e.key)) return;
+  var all = Array.prototype.slice.call(a.parentNode.querySelectorAll("a"));
+  var i = all.indexOf(a) + (/Right|Down/.test(e.key) ? 1 : -1);
+  if(i < 0 || i >= all.length) return;
+  e.preventDefault();
+  all.forEach(function(x, j){ x.tabIndex = j === i ? 0 : -1 });
+  all[i].focus();
+});
+
 function exportRows(){
   return sorted(data.filter(keep)).map(function(d){
     return {name:d.name, url:d.url,

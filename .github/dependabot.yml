@@ -1,0 +1,22 @@
+# Weekly version-update pull requests. Dependabot's pull requests run the Build
+# check like any other (with a read-only token). The actions are pinned by
+# commit SHA with the version in a comment; Dependabot updates both.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    labels: [dependencies]
+
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    labels: [dependencies]
+
+  - package-ecosystem: pip
+    directory: /
+    schedule:
+      interval: weekly
+    labels: [dependencies]

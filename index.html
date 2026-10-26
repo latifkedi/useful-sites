@@ -9,7 +9,11 @@
      yapiyor -- ileride biri farkinda olmadan bir CDN eklerse patlar. -->
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'">
 <meta name="referrer" content="strict-origin-when-cross-origin">
-<script src="boot.js?v=0f223aee" id="boot" data-tr="desc.tr.js?v=9f179394" data-en="links.en.js?v=db9f6286"></script>
+<script src="boot.js?v=11bc16d0" id="boot" data-tr="desc.tr.js?v=9f179394" data-en="links.en.js?v=db9f6286"></script>
+<!-- Uc betik paralel iniyor (defer + preload); calisma sirasi yine links, search, app. -->
+<link rel="preload" href="links.js?v=d2d73448" as="script">
+<link rel="preload" href="search.js?v=f79e90fd" as="script">
+<link rel="preload" href="app.js?v=25c57397" as="script">
 <title>Useful Sites</title>
 <meta name="description" content="A hand-curated, annotated link directory across ten areas, from software and AI to security, economics and architecture. Every entry states what the resource does and where it parts ways with its neighbours.">
 <link rel="canonical" href="https://latifkedi.github.io/useful-sites/">
@@ -19,7 +23,7 @@
 <link rel="alternate" hreflang="en" href="https://latifkedi.github.io/useful-sites/">
 <link rel="alternate" hreflang="tr" href="https://latifkedi.github.io/useful-sites/k/index.html">
 <link rel="alternate" hreflang="x-default" href="https://latifkedi.github.io/useful-sites/">
-<link rel="alternate" type="application/atom+xml" title="Useful Sites" href="feed.xml">
+<link rel="alternate" type="application/atom+xml" title="Useful Sites — new entries" href="feed/en.xml">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Useful Sites">
 <meta property="og:title" content="Useful Sites">
@@ -177,7 +181,7 @@ header.top{position:relative;display:grid;grid-template-columns:auto minmax(0,1f
   border:1px solid var(--rule);border-radius:6px;padding:9px 40px 9px 13px;
   transition:border-color .12s var(--step),box-shadow .12s var(--step)}
 #q::placeholder{color:var(--faint)}
-#q:focus{outline:none;border-color:var(--red);box-shadow:0 0 0 3px var(--red-soft)}
+#q:focus{outline:2px solid var(--red);outline-offset:2px;border-color:var(--red);box-shadow:0 0 0 3px var(--red-soft)}
 .search kbd{position:absolute;right:10px;top:50%;transform:translateY(-50%);pointer-events:none}
 #q:focus + kbd{display:none}
 .menu-b{grid-area:menu;display:none;font-size:22px;line-height:1;padding:4px 10px}
@@ -440,6 +444,15 @@ footer .lnk{padding:4px 6px;font-size:14px}
 .other p{margin:10px 0 0;font-size:15px;line-height:2}
 .other a{color:var(--dim);text-decoration:none;margin-right:16px}
 .other a:hover{color:var(--red)}
+/* Hakkinda, degisiklikler ve alternatif sayfalari: duz metin. */
+.prose > p:not([class]),.prose > ul{max-width:70ch;font-size:15.5px;line-height:1.64;color:var(--dim)}
+.prose > ul{padding-left:20px}
+.prose li{margin:5px 0;overflow-wrap:anywhere}
+.prose h3{margin:28px 0 4px;font:600 17px/1.3 var(--serif)}
+.prose blockquote{margin:14px 0;padding-left:16px;border-left:2px solid var(--rule);
+  font:400 16px/1.6 var(--serif);color:var(--dim)}
+.ilinks a{margin-right:12px}
+.sf{font-size:13px}
 
 /* ---------------------------------------------------------------- giris: kanit, ornek sorgular */
 .proof{margin:0 0 12px;font-size:13.5px;line-height:1.6;color:var(--dim)}
@@ -510,10 +523,41 @@ dialog#pal::backdrop,dialog#kbh::backdrop{background:var(--scrim)}
 /* ---------------------------------------------------------------- yukleniyor iskeleti
    Giris disi bir adres acilirken veri gelene kadar (boot.js html.pending koyuyor). */
 html.pending #list > [data-pre]{display:none}
-html.pending #list::before{content:"";display:block;height:520px;border-radius:4px;
+html.pending #list::before{content:"";display:block;height:max(520px,100vh);border-radius:4px;
   background:repeating-linear-gradient(to bottom,var(--panel) 0 20px,transparent 20px 36px,
     var(--rule2) 36px 52px,transparent 52px 104px);animation:pulse 1.1s ease-in-out infinite alternate}
 @keyframes pulse{from{opacity:.5}to{opacity:1}}
+/* Iskelet sirasinda baslik da son halinde: derin baglanti (?e=, ?cat=, ?q=) giris
+   duzeniyle (iri giris cumlesi, iri arama) boyanip app.js cizince toplanmasin
+   (telefonda CLS 0.135 buradan geliyordu). Asagidaki dar ekran kurallari da ayni. */
+html.pending body.at-home header.top{grid-template-columns:auto minmax(0,1fr) auto;
+  grid-template-areas:"logo search acts";row-gap:14px;padding:16px 0}
+html.pending body.at-home .hero,html.pending body.at-home .wm{display:none}
+/* Alt bilgi iskeletin altinda, ekran disinda: liste gelince kaymasin. */
+html.pending #foot{visibility:hidden}
+html.pending body.at-home .search{max-width:540px}
+html.pending body.at-home #q{font:15px/1.4 var(--sans);padding:9px 40px 9px 13px;background:var(--field);
+  border:1px solid var(--rule);border-radius:6px}
+html.pending body.at-home .search kbd{right:10px}
+
+/* Betik yokken (ya da henuz calismadiysa) yalnizca betikle calisan araclar gizli;
+   boot.js html'e "js" koyuyor. Statik sayfalarin araclari (k/) kimlik tasimiyor. */
+html:not(.js) .top .search,html:not(.js) #menub,html:not(.js) #acts,
+html:not(.js) #foot-x,html:not(.js) #foot-kb,html:not(.js) #top{display:none}
+.nojs{margin:20px 0 0;padding:12px 14px;border:1px solid var(--rule);border-radius:6px;
+  background:var(--field);font-size:15px;line-height:1.6;color:var(--dim)}
+.nojs a{color:var(--red)}
+/* 404.html: betiksiz arama formu dogrudan ?q= adresine gidiyor. */
+.nf-search{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:0 0 18px;max-width:560px}
+.nf-search label{flex:1 1 100%;font-size:13px;color:var(--faint)}
+.nf-search input{flex:1 1 220px;min-height:44px;font:16px/1.4 var(--sans);color:var(--fg);background:var(--field);
+  border:1px solid var(--rule);border-radius:6px;padding:9px 13px}
+.nf-search .btn{min-height:44px}
+.nf-links{font-size:15px;line-height:2.2}
+.nf-links a{color:var(--red)}
+/* Adresin anlasilmayan kismi atildi (?e=yok, ?cat=zzz ...). */
+.urlnote{margin:14px 0 0;padding:10px 14px;border-left:3px solid var(--red);background:var(--panel);
+  font-size:14px;line-height:1.5;color:var(--dim)}
 
 /* ---------------------------------------------------------------- dar ekran */
 @media (max-width:1000px){
@@ -529,6 +573,9 @@ html.pending #list::before{content:"";display:block;height:520px;border-radius:4
   header.top{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"logo menu" "search search";
     row-gap:10px;padding:12px 0 14px}
   body.at-home header.top{grid-template-areas:"logo menu" "hero hero" "search search";padding:14px 0 22px}
+  html.pending body.at-home header.top{grid-template-columns:minmax(0,1fr) auto;
+    grid-template-areas:"logo menu" "search search";row-gap:10px;padding:12px 0 14px}
+  html.pending body.at-home #q{font-size:16px}
   body.static header.top{grid-template-columns:minmax(0,1fr);grid-template-areas:"logo" "acts";row-gap:4px}
   body.static .acts{flex-wrap:wrap;margin-left:-10px}
   body.at-home .hero{font-size:29px;margin:26px 0 16px}
@@ -599,6 +646,15 @@ html.pending #list::before{content:"";display:block;height:520px;border-radius:4
   .ft{padding:10px 0;margin:-10px 0}
   .hlinks a{display:inline-block;padding:11px 0;margin:-11px 0}
 }
+/* Dokunmatikte satir ici kucuk baglantilar en az 44 px yuksek kutu: dolgu
+   buyuyor, eksi kenar boslugu geri cekiyor, satir yuksekligi degismiyor. */
+@media (pointer:coarse){
+  .fc a,.arch,.path a,.rel a,.crumb a,.onemore a,.qhelp a,footer a,.cmpb,
+  .hpicks a,.itags span{display:inline-block;padding-top:12px;padding-bottom:12px;
+    margin-top:-12px;margin-bottom:-12px}
+  .tryq .chip{min-height:44px}
+  .save{min-width:44px;min-height:44px}
+}
 
 /* Telefonda suzme: arac cubugu kaydirirken ustte yapisik kaliyor; secili
    suzgecler tek satirda yana kayiyor ki cubuk ekranin yarisini yemesin. */
@@ -641,36 +697,53 @@ html.pending #list::before{content:"";display:block;height:520px;border-radius:4
   :root[data-theme="dark"]{--dim:#d6d0c2; --faint:#c7c1b2; --rule:#6b6555; --rule2:#4d483d; --mark:#2c1a14}
   .rec a.name,.fc a,.rel a{text-decoration:underline;text-underline-offset:3px}
 }
+
+/* Baski: kagitta isleyen bir sey yok (arama, araclar, kaydet, siteyi ac,
+   kisayollar); baglantilarin adresi adin arkasinda yaziliyor; siyah beyaz. */
+@media print{
+  :root,:root[data-theme="dark"]{--bg:white;--panel:white;--field:white;--fg:black;--dim:black;--faint:black;
+    --rule:gray;--rule2:silver;--red:black;color-scheme:light}
+  body{background:white;color:black;padding:0}
+  .top .search,#menub,#acts,.wm,.skip,.side,.save,.cmpb,.visit,.tb,.pager,.tray,#top,
+  #foot-x,#foot-kb,.more-b,.sib-b,.tryq,.urlnote,.nojs,dialog{display:none!important}
+  .rec .meta .arch,.rec .meta .badge.src{visibility:visible}
+  .rec a.name::after,.hpicks a::after{content:" (" attr(href) ")";position:static;
+    font:400 11px/1.4 var(--mono);color:black;word-break:break-all}
+  .rec{break-inside:avoid}
+  #list .rec:not(.big){content-visibility:visible}
+  .home,.fieldpage,.catpage,.one,.recentpage,.cmppage{animation:none}
+}
 </style>
 </head>
 <body class="calm at-home">
-<a class="skip" id="skip" href="#list"></a>
+<a class="skip" id="skip" href="#list">Skip To Content</a>
 <div class="wrap">
 
 <header class="top">
-  <a class="logo" id="logo" href="./" data-home="1" aria-label="Kullanışlı Siteler — Fihrist"><svg class="enso" viewBox="0 0 60 60" aria-hidden="true"><path d="M43 12A22 22 0 1 0 51 30"/></svg><span id="t-title">Kullanışlı Siteler</span></a>
+  <a class="logo" id="logo" href="./" data-home="1" aria-label="Useful Sites — Index"><svg class="enso" viewBox="0 0 60 60" aria-hidden="true"><path d="M43 12A22 22 0 1 0 51 30"/></svg><span id="t-title">Useful Sites</span></a>
   <h1 class="hero" id="hero"><em>2,134</em> links, picked by hand. Each one says where it parts ways with its neighbours.</h1>
   <svg class="wm" viewBox="0 0 60 60" aria-hidden="true"><path d="M43 12A22 22 0 1 0 51 30"/></svg>
-  <div class="search"><input id="q" type="search" autocomplete="off" spellcheck="false" aria-label="Dizinde ara"><kbd aria-hidden="true">/</kbd></div>
-  <button class="lnk menu-b" id="menub" type="button" popovertarget="acts" aria-label="Menü">⋯</button>
-  <nav class="acts" id="acts" popover aria-label="Araçlar">
+  <div class="search"><input id="q" type="search" autocomplete="off" spellcheck="false" aria-label="Search the directory"><kbd aria-hidden="true">/</kbd><a class="skip" id="skipr" href="#list" hidden></a></div>
+  <button class="lnk menu-b" id="menub" type="button" popovertarget="acts" aria-label="Menu">⋯</button>
+  <nav class="acts" id="acts" popover aria-label="Tools">
     <button class="lnk" id="savedb" type="button" aria-pressed="false"></button>
     <button class="lnk" id="addbtn" type="button"></button>
     <button class="lnk" id="rand" type="button"></button>
     <button class="lnk" id="langbtn" type="button">TR</button>
-    <button class="lnk" id="theme" type="button" title="Tema" aria-label="Tema">◐</button>
+    <button class="lnk" id="theme" type="button" title="Toggle theme" aria-label="Toggle theme">◐</button>
   </nav>
 </header>
 
+<noscript><p class="nojs">Search and filters need JavaScript. Every category listed below is also a plain page; <a href="k/index.html">Türkçe dizin</a>.</p></noscript>
 <div class="cols">
-  <aside class="side" id="side" aria-label="Fihrist"><div id="nav"></div></aside>
+  <aside class="side" id="side" aria-label="Index"><div id="nav"></div></aside>
   <p id="live" class="vh" role="status" aria-live="polite" aria-atomic="true"></p>
-  <main id="list" tabindex="-1"><div class="home" data-pre="1"><p class="proof">2,134 links · last checked 26 Oct 2026 · 103 flagged archived or dormant · no trackers · works offline</p><p class="tryq"><span>Try:</span><a class="chip" href="?q=llm" data-q="llm">llm</a><a class="chip" href="?q=postgres" data-q="postgres">postgres</a><a class="chip" href="?q=regex" data-q="regex">regex</a><a class="chip" href="?q=self-hosted" data-q="self-hosted">self-hosted</a><a class="chip" href="?q=diagram" data-q="diagram">diagram</a><a class="chip" href="?q=color%20palette" data-q="color palette">color palette</a></p><section class="hsec hp"><h2 class="k">Start Here</h2><ol class="hpicks"><li><a href="https://go.dev/tour/welcome/1" target="_blank" rel="noopener noreferrer">A Tour of Go</a><p>Go’s official tour, with every example runnable and editable in the browser.</p></li><li><a href="https://cppreference.com/" target="_blank" rel="noopener noreferrer">cppreference</a><p>The most widely used reference for the C and C++ standard library, marking which standard (C++11/17/20/23) each feature arrived in.</p></li><li><a href="https://www.baeldung.com" target="_blank" rel="noopener noreferrer">Baeldung</a><p>One of the largest archives of worked, up-to-date tutorials for Java and Spring.</p></li><li><a href="https://caniuse.com/" target="_blank" rel="noopener noreferrer">Can I Use</a><p>A table of which browser version supports which web feature, weighted by usage share.</p></li><li><a href="https://css-tricks.com/" target="_blank" rel="noopener noreferrer">CSS-Tricks</a><p>Two decades of CSS technique, whose Flexbox and Grid guides became widely cited references.</p></li><li><a href="https://fastapi.tiangolo.com/" target="_blank" rel="noopener noreferrer">FastAPI</a><p>Derives validation and an OpenAPI schema from type hints, and a working test UI appears at `/docs` by itself.</p></li></ol></section><section class="hsec"><h2 class="k">Index<span>10 areas, 48 headings</span></h2><ol class="fx"><li class="fe"><a class="ft" href="?f=yazilim" data-field="yazilim"><span class="rn">I</span><span class="fn">Software</span><span class="ld"></span><span class="n">469</span></a><p class="fc"><a href="?cat=diller" data-cat="diller">Programming Languages</a>, <a href="?cat=c_rust" data-cat="c_rust">C, C++ &amp; Rust</a>, <a href="?cat=jvm" data-cat="jvm">Java &amp; JVM</a>, <a href="?cat=web" data-cat="web">Web &amp; Frontend</a>, <a href="?cat=css" data-cat="css">CSS &amp; UI Kits</a>, <a href="?cat=backend" data-cat="backend">Backend, API &amp; System Design</a>, <a href="?cat=mobil" data-cat="mobil">Mobile &amp; Desktop</a>, <a href="?cat=veritabani" data-cat="veritabani">Databases</a>, <a href="?cat=test" data-cat="test">Testing &amp; QA</a>, <a href="?cat=oyun" data-cat="oyun">Game Development</a></p></li><li class="fe"><a class="ft" href="?f=yapayzeka" data-field="yapayzeka"><span class="rn">II</span><span class="fn">Data &amp; AI</span><span class="ld"></span><span class="n">354</span></a><p class="fc"><a href="?cat=yz_model" data-cat="yz_model">Models &amp; Assistants</a>, <a href="?cat=yz_altyapi" data-cat="yz_altyapi">Agents &amp; Infrastructure</a>, <a href="?cat=yz_rag" data-cat="yz_rag">RAG, Embeddings &amp; Vectors</a>, <a href="?cat=yz_arac" data-cat="yz_arac">Applied Tools</a>, <a href="?cat=yz_uretim" data-cat="yz_uretim">Generative Media</a>, <a href="?cat=veri" data-cat="veri">Data Science &amp; ML</a>, <a href="?cat=veri_muh" data-cat="veri_muh">Data Engineering</a></p></li><li class="fe"><a class="ft" href="?f=sistem" data-field="sistem"><span class="rn">III</span><span class="fn">Infrastructure &amp; Systems</span><span class="ld"></span><span class="n">288</span></a><p class="fc"><a href="?cat=devops" data-cat="devops">DevOps &amp; Infrastructure</a>, <a href="?cat=ag" data-cat="ag">Networking &amp; Sysadmin</a>, <a href="?cat=barindirma" data-cat="barindirma">Self-Hosting &amp; Personal Cloud</a>, <a href="?cat=donanim" data-cat="donanim">Hardware, CAD &amp; Embedded</a>, <a href="?cat=elektronik" data-cat="elektronik">Electrical &amp; Electronics</a>, <a href="?cat=gozluk" data-cat="gozluk">Smart Glasses &amp; Wearables</a></p></li><li class="fe"><a class="ft" href="?f=guvenlikalan" data-field="guvenlikalan"><span class="rn">IV</span><span class="fn">Security</span><span class="ld"></span><span class="n">175</span></a><p class="fc"><a href="?cat=guvenlik" data-cat="guvenlik">Privacy &amp; Personal Security</a>, <a href="?cat=guv_teknik" data-cat="guv_teknik">Offence, Defence &amp; OSINT</a>, <a href="?cat=guv_lab" data-cat="guv_lab">CTF &amp; Hands-on Labs</a>, <a href="?cat=guv_kariyer" data-cat="guv_kariyer">Certification &amp; Career</a></p></li><li class="fe"><a class="ft" href="?f=bilimmat" data-field="bilimmat"><span class="rn">V</span><span class="fn">Science &amp; Mathematics</span><span class="ld"></span><span class="n">108</span></a><p class="fc"><a href="?cat=bilim" data-cat="bilim">Science &amp; Academia</a>, <a href="?cat=matematik" data-cat="matematik">Mathematics</a>, <a href="?cat=kuantum" data-cat="kuantum">Quantum Computing</a></p></li><li class="fe"><a class="ft" href="?f=ekonomialan" data-field="ekonomialan"><span class="rn">VI</span><span class="fn">Economics &amp; Finance</span><span class="ld"></span><span class="n">75</span></a><p class="fc"><a href="?cat=ekonomi" data-cat="ekonomi">Economics</a>, <a href="?cat=finans" data-cat="finans">Finance, Markets &amp; Crypto</a></p></li><li class="fe"><a class="ft" href="?f=tasarim" data-field="tasarim"><span class="rn">VII</span><span class="fn">Design &amp; Media</span><span class="ld"></span><span class="n">143</span></a><p class="fc"><a href="?cat=arayuz" data-cat="arayuz">UI Design, Colour &amp; Type</a>, <a href="?cat=gorsel" data-cat="gorsel">Icons, Photos &amp; Illustration</a>, <a href="?cat=medya" data-cat="medya">Media, Files &amp; Diagrams</a>, <a href="?cat=mimari" data-cat="mimari">Architecture &amp; Building</a></p></li><li class="fe"><a class="ft" href="?f=ogrenmealan" data-field="ogrenmealan"><span class="rn">VIII</span><span class="fn">Learning &amp; Reference</span><span class="ld"></span><span class="n">277</span></a><p class="fc"><a href="?cat=ogrenme" data-cat="ogrenme">Learning &amp; Roadmaps</a>, <a href="?cat=pratik" data-cat="pratik">Practice &amp; Challenges</a>, <a href="?cat=kitaplik" data-cat="kitaplik">Free Books &amp; Long Reads</a>, <a href="?cat=referans" data-cat="referans">Cheat Sheets &amp; Quick Reference</a></p></li><li class="fe"><a class="ft" href="?f=aracalan" data-field="aracalan"><span class="rn">IX</span><span class="fn">Dev Tools &amp; Discovery</span><span class="ld"></span><span class="n">207</span></a><p class="fc"><a href="?cat=editor" data-cat="editor">Editors, IDEs &amp; Terminals</a>, <a href="?cat=oyunalani" data-cat="oyunalani">Online Playgrounds &amp; Compilers</a>, <a href="?cat=donusturucu" data-cat="donusturucu">Converters, Formatters &amp; Checkers</a>, <a href="?cat=araclar" data-cat="araclar">Productivity &amp; Everyday Tools</a>, <a href="?cat=acik_kaynak" data-cat="acik_kaynak">Open Source &amp; Contributing</a>, <a href="?cat=koleksiyon" data-cat="koleksiyon">Lists, Directories &amp; Discovery</a></p></li><li class="fe"><a class="ft" href="?f=korsanalan" data-field="korsanalan"><span class="rn">X</span><span class="fn">Open Access &amp; Piracy</span><span class="ld"></span><span class="n">38</span></a><p class="fc"><a href="?cat=acik_erisim" data-cat="acik_erisim">Open Access &amp; Archives</a>, <a href="?cat=korsan" data-cat="korsan">Piracy</a></p></li></ol></section><p class="hlinks"><a href="?new=1" data-recent="1">Recently Added →</a><a href="?sort=az" data-all="1">See everything in one list →</a></p></div></main>
+  <main id="list" tabindex="-1"><div class="home" data-pre="1"><p class="proof">2,134 links · last checked 12 Oct 2026 · 99 flagged archived or dormant · no trackers · works offline</p><p class="tryq"><span>Try:</span><a class="chip" href="?q=llm" data-q="llm">llm</a><a class="chip" href="?q=postgres" data-q="postgres">postgres</a><a class="chip" href="?q=regex" data-q="regex">regex</a><a class="chip" href="?q=self-hosted" data-q="self-hosted">self-hosted</a><a class="chip" href="?q=diagram" data-q="diagram">diagram</a><a class="chip" href="?q=color%20palette" data-q="color palette">color palette</a></p><section class="hsec hp"><h2 class="k">Start Here</h2><ol class="hpicks"><li><a href="https://go.dev/tour/welcome/1" target="_blank" rel="noopener noreferrer">A Tour of Go</a><p>Go’s official tour, with every example runnable and editable in the browser.</p></li><li><a href="https://cppreference.com/" target="_blank" rel="noopener noreferrer">cppreference</a><p>The most widely used reference for the C and C++ standard library, marking which standard (C++11/17/20/23) each feature arrived in.</p></li><li><a href="https://www.baeldung.com" target="_blank" rel="noopener noreferrer">Baeldung</a><p>One of the largest archives of worked, up-to-date tutorials for Java and Spring.</p></li><li><a href="https://caniuse.com/" target="_blank" rel="noopener noreferrer">Can I Use</a><p>A table of which browser version supports which web feature, weighted by usage share.</p></li><li><a href="https://css-tricks.com/" target="_blank" rel="noopener noreferrer">CSS-Tricks</a><p>Two decades of CSS technique, whose Flexbox and Grid guides became widely cited references.</p></li><li><a href="https://fastapi.tiangolo.com/" target="_blank" rel="noopener noreferrer">FastAPI</a><p>Derives validation and an OpenAPI schema from type hints, and a working test UI appears at `/docs` by itself.</p></li></ol></section><section class="hsec"><h2 class="k">Index<span>10 areas, 48 headings</span></h2><ol class="fx"><li class="fe"><a class="ft" href="?f=yazilim" data-field="yazilim"><span class="rn">I</span><span class="fn">Software</span><span class="ld"></span><span class="n">469</span></a><p class="fc"><a href="k/en/diller.html" data-cat="diller">Programming Languages</a>, <a href="k/en/c_rust.html" data-cat="c_rust">C, C++ &amp; Rust</a>, <a href="k/en/jvm.html" data-cat="jvm">Java &amp; JVM</a>, <a href="k/en/web.html" data-cat="web">Web &amp; Frontend</a>, <a href="k/en/css.html" data-cat="css">CSS &amp; UI Kits</a>, <a href="k/en/backend.html" data-cat="backend">Backend, API &amp; System Design</a>, <a href="k/en/mobil.html" data-cat="mobil">Mobile &amp; Desktop</a>, <a href="k/en/veritabani.html" data-cat="veritabani">Databases</a>, <a href="k/en/test.html" data-cat="test">Testing &amp; QA</a>, <a href="k/en/oyun.html" data-cat="oyun">Game Development</a></p></li><li class="fe"><a class="ft" href="?f=yapayzeka" data-field="yapayzeka"><span class="rn">II</span><span class="fn">Data &amp; AI</span><span class="ld"></span><span class="n">354</span></a><p class="fc"><a href="k/en/yz_model.html" data-cat="yz_model">Models &amp; Assistants</a>, <a href="k/en/yz_altyapi.html" data-cat="yz_altyapi">Agents &amp; Infrastructure</a>, <a href="k/en/yz_rag.html" data-cat="yz_rag">RAG, Embeddings &amp; Vectors</a>, <a href="k/en/yz_arac.html" data-cat="yz_arac">Applied Tools</a>, <a href="k/en/yz_uretim.html" data-cat="yz_uretim">Generative Media</a>, <a href="k/en/veri.html" data-cat="veri">Data Science &amp; ML</a>, <a href="k/en/veri_muh.html" data-cat="veri_muh">Data Engineering</a></p></li><li class="fe"><a class="ft" href="?f=sistem" data-field="sistem"><span class="rn">III</span><span class="fn">Infrastructure &amp; Systems</span><span class="ld"></span><span class="n">288</span></a><p class="fc"><a href="k/en/devops.html" data-cat="devops">DevOps &amp; Infrastructure</a>, <a href="k/en/ag.html" data-cat="ag">Networking &amp; Sysadmin</a>, <a href="k/en/barindirma.html" data-cat="barindirma">Self-Hosting &amp; Personal Cloud</a>, <a href="k/en/donanim.html" data-cat="donanim">Hardware, CAD &amp; Embedded</a>, <a href="k/en/elektronik.html" data-cat="elektronik">Electrical &amp; Electronics</a>, <a href="k/en/gozluk.html" data-cat="gozluk">Smart Glasses &amp; Wearables</a></p></li><li class="fe"><a class="ft" href="?f=guvenlikalan" data-field="guvenlikalan"><span class="rn">IV</span><span class="fn">Security</span><span class="ld"></span><span class="n">175</span></a><p class="fc"><a href="k/en/guvenlik.html" data-cat="guvenlik">Privacy &amp; Personal Security</a>, <a href="k/en/guv_teknik.html" data-cat="guv_teknik">Offence, Defence &amp; OSINT</a>, <a href="k/en/guv_lab.html" data-cat="guv_lab">CTF &amp; Hands-on Labs</a>, <a href="k/en/guv_kariyer.html" data-cat="guv_kariyer">Certification &amp; Career</a></p></li><li class="fe"><a class="ft" href="?f=bilimmat" data-field="bilimmat"><span class="rn">V</span><span class="fn">Science &amp; Mathematics</span><span class="ld"></span><span class="n">108</span></a><p class="fc"><a href="k/en/bilim.html" data-cat="bilim">Science &amp; Academia</a>, <a href="k/en/matematik.html" data-cat="matematik">Mathematics</a>, <a href="k/en/kuantum.html" data-cat="kuantum">Quantum Computing</a></p></li><li class="fe"><a class="ft" href="?f=ekonomialan" data-field="ekonomialan"><span class="rn">VI</span><span class="fn">Economics &amp; Finance</span><span class="ld"></span><span class="n">75</span></a><p class="fc"><a href="k/en/ekonomi.html" data-cat="ekonomi">Economics</a>, <a href="k/en/finans.html" data-cat="finans">Finance, Markets &amp; Crypto</a></p></li><li class="fe"><a class="ft" href="?f=tasarim" data-field="tasarim"><span class="rn">VII</span><span class="fn">Design &amp; Media</span><span class="ld"></span><span class="n">143</span></a><p class="fc"><a href="k/en/arayuz.html" data-cat="arayuz">UI Design, Colour &amp; Type</a>, <a href="k/en/gorsel.html" data-cat="gorsel">Icons, Photos &amp; Illustration</a>, <a href="k/en/medya.html" data-cat="medya">Media, Files &amp; Diagrams</a>, <a href="k/en/mimari.html" data-cat="mimari">Architecture &amp; Building</a></p></li><li class="fe"><a class="ft" href="?f=ogrenmealan" data-field="ogrenmealan"><span class="rn">VIII</span><span class="fn">Learning &amp; Reference</span><span class="ld"></span><span class="n">277</span></a><p class="fc"><a href="k/en/ogrenme.html" data-cat="ogrenme">Learning &amp; Roadmaps</a>, <a href="k/en/pratik.html" data-cat="pratik">Practice &amp; Challenges</a>, <a href="k/en/kitaplik.html" data-cat="kitaplik">Free Books &amp; Long Reads</a>, <a href="k/en/referans.html" data-cat="referans">Cheat Sheets &amp; Quick Reference</a></p></li><li class="fe"><a class="ft" href="?f=aracalan" data-field="aracalan"><span class="rn">IX</span><span class="fn">Dev Tools &amp; Discovery</span><span class="ld"></span><span class="n">207</span></a><p class="fc"><a href="k/en/editor.html" data-cat="editor">Editors, IDEs &amp; Terminals</a>, <a href="k/en/oyunalani.html" data-cat="oyunalani">Online Playgrounds &amp; Compilers</a>, <a href="k/en/donusturucu.html" data-cat="donusturucu">Converters, Formatters &amp; Checkers</a>, <a href="k/en/araclar.html" data-cat="araclar">Productivity &amp; Everyday Tools</a>, <a href="k/en/acik_kaynak.html" data-cat="acik_kaynak">Open Source &amp; Contributing</a>, <a href="k/en/koleksiyon.html" data-cat="koleksiyon">Lists, Directories &amp; Discovery</a></p></li><li class="fe"><a class="ft" href="?f=korsanalan" data-field="korsanalan"><span class="rn">X</span><span class="fn">Open Access &amp; Piracy</span><span class="ld"></span><span class="n">38</span></a><p class="fc"><a href="k/en/acik_erisim.html" data-cat="acik_erisim">Open Access &amp; Archives</a>, <a href="k/en/korsan.html" data-cat="korsan">Piracy</a></p></li></ol></section><p class="hlinks"><a href="?new=1" data-recent="1">Recently Added →</a><a href="?sort=az" data-all="1">See everything in one list →</a></p></div></main>
 </div>
 
 <footer id="foot">
-  <p id="foot-t"></p>
-  <p class="foot-x"><span id="l-exp"></span> <button class="lnk" type="button" data-exp="json">JSON</button><span aria-hidden="true">·</span><button class="lnk" type="button" data-exp="csv">CSV</button><span aria-hidden="true">·</span><button class="lnk" type="button" id="x-bm" data-exp="bookmarks"></button></p>
+  <p id="foot-t"><a href="k/en/path/index.html">Learning paths</a> · <a href="k/en/about.html">About</a> · <a href="k/en/changes.html">Changes</a> · <a href="k/en/credits.html">Contributors</a> · <a href="k/index.html">Türkçe</a></p>
+  <p class="foot-x" id="foot-x"><span id="l-exp"></span> <button class="lnk" type="button" data-exp="json">JSON</button><span aria-hidden="true">·</span><button class="lnk" type="button" data-exp="csv">CSV</button><span aria-hidden="true">·</span><button class="lnk" type="button" id="x-bm" data-exp="bookmarks"></button></p>
   <p id="foot-kb"></p>
 </footer>
 </div>
@@ -679,7 +752,7 @@ html.pending #list::before{content:"";display:block;height:520px;border-radius:4
   <div class="fl-h">
     <h2 id="f-title"></h2>
     <button class="lnk" id="f-clear" type="button"></button>
-    <button class="lnk" id="f-close" type="button" aria-label="Kapat">✕</button>
+    <button class="lnk" id="f-close" type="button" aria-label="Close">✕</button>
   </div>
   <div class="fl-b" id="f-body"></div>
   <div class="fl-f"><button class="btn primary" id="f-go" type="button"></button></div>
@@ -688,7 +761,7 @@ html.pending #list::before{content:"";display:block;height:520px;border-radius:4
 <dialog id="sub" aria-labelledby="s-title">
   <div class="sub-h">
     <h2 id="s-title"></h2>
-    <button class="btn" id="s-close" type="button" aria-label="Kapat">✕</button>
+    <button class="btn" id="s-close" type="button" aria-label="Close">✕</button>
   </div>
   <div class="sub-tabs" role="tablist">
     <button type="button" id="s-t1" role="tab" aria-selected="true"
@@ -744,10 +817,10 @@ html.pending #list::before{content:"";display:block;height:520px;border-radius:4
 
 <div class="tray" id="tray" hidden></div>
 
-<button class="btn" id="top" type="button" title="Yukarı" aria-label="Yukarı">↑</button>
+<button class="btn" id="top" type="button" title="Back to top" aria-label="Back to top">↑</button>
 
-<script src="links.js?v=de2e8eca"></script>
-<script src="search.js?v=f79e90fd"></script>
-<script src="app.js?v=18f48d74"></script>
+<script src="links.js?v=d2d73448" defer></script>
+<script src="search.js?v=f79e90fd" defer></script>
+<script src="app.js?v=25c57397" defer></script>
 </body>
 </html>

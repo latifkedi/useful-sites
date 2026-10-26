@@ -35,6 +35,21 @@ test("after one visit the site opens offline, even a view never opened", async (
   expect(errors).toEqual([]);
 });
 
+test("offline, a page never visited shows a small offline page, not the browser's error", async ({ page, context }) => {
+  await page.goto("/");
+  await ready(page);
+  await installed(page);
+  await context.setOffline(true);
+  const r = await page.goto("/k/en/never-visited.html");
+  expect(r.status()).toBe(503);
+  await expect(page.locator("h1")).toHaveText("You are offline");
+  await expect(page.locator('a[href$="/"]')).toHaveCount(1);
+  /* the site root under another name falls back to the cached home */
+  await page.goto("/index.html?cat=web");
+  await ready(page);
+  await expect(page.locator("#list .rec").first()).toBeVisible();
+});
+
 test("a repeat visit takes the stamped files from the service worker", async ({ page }) => {
   await page.goto("/");
   await ready(page);

@@ -132,6 +132,8 @@ def write_health(results, skipped=(), current=None):
     directory is supposed to be about -- an entry can look fine while the
     project behind it stopped moving two years ago.
 
+    Returns what moved since the previous run (linkstate.health_changes).
+
     Existing entries are kept when a run cannot reach them (rate limit, network
     error), so a bad run degrades to stale data rather than to no data. Two
     kinds are dropped: entries for URLs the audit now skips on purpose (user
@@ -142,6 +144,7 @@ def write_health(results, skipped=(), current=None):
     out = {}
     if os.path.exists(path):
         out = json.load(io.open(path, encoding='utf-8'))
+    prev = dict(out)
     for u in skipped:
         out.pop(_key(u), None)
     if current is not None:
@@ -170,6 +173,7 @@ def write_health(results, skipped=(), current=None):
         print('health.json: %d kayit (%d tazelendi)' % (len(out), yeni))
     else:
         print('health.json left alone (local run); pass --write to refresh it')
+    return linkstate.health_changes(prev, out)
 
 
 def main():
@@ -179,7 +183,7 @@ def main():
     with cf.ThreadPoolExecutor(max_workers=8 if TOKEN else 3) as ex:
         results = list(ex.map(check, rs))
 
-    write_health(results, skipped, current)
+    changes = write_health(results, skipped, current)
 
     by = {}
     for r in results:
@@ -190,28 +194,49 @@ def main():
         print('  %-7s %d' % (k, len(by[k])))
 
     flagged = by.get('arşiv', []) + by.get('bayat', []) + by.get('yok', [])
-    if not flagged:
+    if not flagged and not changes['recovered']:
         return 0
 
-    L = ['# GitHub depo sağlığı — %s' % datetime.date.today().isoformat(), '',
-         '`%d` depo tarandı. Bunlar 404 döndürmüyor ama artık bakımda değil.' % len(rs), '']
+    head = ['| Kayıt | Kategori | Son itme | Yıldız | URL |', '|---|---|---|---|---|']
 
-    for state, baslik, aciklama in [
+    def table(rows):
+        out = list(head)
+        for r in sorted(rows, key=lambda x: x.get('pushed') or ''):
+            out.append('| %s | %s | %s | %s | %s |' % (
+                r['name'], r['cat'], r.get('pushed') or r.get('detail', '—'),
+                r.get('stars', '—'), r['url']))
+        return out + ['']
+
+    by_key = {_key(r['url']): r for r in results}
+    STATES = [
         ('yok',    'Silinmiş', 'Depo artık yok.'),
         ('arşiv',  'Arşivlenmiş', 'Salt okunur. Sorunlar kapanmıyor, ölü bağlantılar temizlenmiyor. '
                                   'Açıklamaya not düşülmeli ya da kayıt çıkarılmalı.'),
         ('bayat',  'Bayat (2+ yıl dokunulmamış)', 'Terk edilmiş olabilir; alternatifi var mı bakılmalı.'),
-    ]:
+    ]
+
+    # Ana gövde yalnızca geçen taramadan bu yana değişeni gösterir; her hafta
+    # aynı uzun bayat listesini basmak yeni arşivlenen depoyu gömüyordu.
+    L = ['# GitHub depo sağlığı — %s' % datetime.date.today().isoformat(), '',
+         '`%d` depo tarandı. Şu an işaretli: %d silinmiş, %d arşivlenmiş, %d bayat.'
+         % (len(rs), len(by.get('yok', [])), len(by.get('arşiv', [])), len(by.get('bayat', []))), '',
+         '## Geçen taramadan bu yana', '']
+    moved = False
+    for state, baslik, aciklama in STATES + [('recovered', 'Toparlanan', 'Geçen hafta işaretliydi, artık değil.')]:
+        rows = [by_key[k] for k in changes.get(state, []) if k in by_key]
+        if not rows:
+            continue
+        moved = True
+        yeni = '' if state == 'recovered' else 'Yeni: '
+        L += ['### %s%s (%d)' % (yeni, baslik, len(rows)), '', aciklama, ''] + table(rows)
+    if not moved:
+        L += ['Geçen taramadan bu yana değişen yok.', '']
+
+    for state, baslik, aciklama in STATES:
         rows = by.get(state, [])
         if not rows:
             continue
-        L += ['## %s (%d)' % (baslik, len(rows)), '', aciklama, '',
-              '| Kayıt | Kategori | Son itme | Yıldız | URL |', '|---|---|---|---|---|']
-        for r in sorted(rows, key=lambda x: x.get('pushed') or ''):
-            L.append('| %s | %s | %s | %s | %s |' % (
-                r['name'], r['cat'], r.get('pushed') or r.get('detail', '—'),
-                r.get('stars', '—'), r['url']))
-        L.append('')
+        L += ['<details><summary>Tümü: %s (%d)</summary>' % (baslik, len(rows)), '', aciklama, ''] + table(rows) + ['</details>', '']
 
     if by.get('kota'):
         L.append('> %d depo API kotası yüzünden denetlenemedi.' % len(by['kota']))

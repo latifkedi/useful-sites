@@ -29,7 +29,9 @@ function pageKey(){ return (activeCat && sortBy === "cat" && !q) ? activeCat : "
 
 function readURL(){
   var p = new URLSearchParams(location.search);
-  q          = (p.get("q") || "").trim();
+  /* Bozuk yuzde kodlamasi (%E0%A4%A) cozulunce yerine U+FFFD geliyor: kutuda
+     "?" gibi gorunmesin, adres de checkURL ile temizleniyor. */
+  q          = (p.get("q") || "").replace(/�/g, "").trim();
   activeCat  = p.get("cat") || null;
   sortBy     = p.get("sort") || "cat";
   activeTags = (p.get("tag") || "").split(",").filter(Boolean);
@@ -62,6 +64,10 @@ function readURL(){
 }
 
 function writeURL(push){
+  var s = urlQuery();
+  history[push ? "pushState" : "replaceState"]({}, "", location.pathname + (s ? "?"+s : ""));
+}
+function urlQuery(){
   var p = new URLSearchParams();
   if(q) p.set("q", q);
   if(activeCat) p.set("cat", activeCat);
@@ -79,8 +85,36 @@ function writeURL(push){
   if(lang !== "en") p.set("lang", lang);
   var pg = pages[pageKey()];
   if(pg > 1) p.set("p", pg);
-  var s = p.toString();
-  history[push ? "pushState" : "replaceState"]({}, "", location.pathname + (s ? "?"+s : ""));
+  return p.toString();
+}
+
+/* Ilk cizimden sonra: adreste uygulamanin kullanmadigi bir sey kaldiysa
+   (?e=yok, ?cat=zzz, ?p=999, ?cmp=,,,a, ?tag=<script>, bilinmeyen anahtar)
+   sessizce giris sayfasi gosterilip adres oldugu gibi birakiliyordu. Simdi
+   kisa bir not ve adres, ekranda gorunenin adresine cevriliyor. Varsayilan
+   degerler (p=1, sort=cat, lang=en) ve izleme anahtarlari not gerektirmiyor. */
+var URL_DEFAULT = {p: "1", sort: "cat", lang: "en"};
+function checkURL(){
+  var have = new URLSearchParams(location.search), want = new URLSearchParams(urlQuery());
+  var bad = false, dirty = false;
+  have.forEach(function(v, k){
+    var w = want.get(k);
+    if(/^(utm_[a-z]+|fbclid|gclid)$/.test(k)){ dirty = true; return }
+    if(w === null){
+      if(URL_DEFAULT[k] === v || (k === "f" && activeCat && CATFIELD[activeCat] === v)) dirty = true;
+      else bad = true;
+    } else if(w !== v){
+      if(w === v.trim()) dirty = true; else bad = true;
+    }
+  });
+  if(!bad && !dirty) return;
+  writeURL(false);
+  if(!bad) return;
+  var L = T[lang], n = document.createElement("p");
+  n.className = "urlnote"; n.setAttribute("role", "status");
+  n.textContent = L.badURL;
+  $("#list").insertBefore(n, $("#list").firstChild);
+  say(L.badURL);
 }
 
 /* ------------------------------------------------------------ filter & sort */

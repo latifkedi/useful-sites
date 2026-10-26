@@ -25,6 +25,7 @@ import emit                             # noqa: E402
 import from_issue                       # noqa: E402
 import linkstate                       # noqa: E402
 import notes                            # noqa: E402
+import sources                          # noqa: E402
 import tags                             # noqa: E402
 
 fails = []
@@ -162,6 +163,23 @@ def main():
     picked, over = linkstate.claim_rechecks(due_rows, '2026-04-01', cap=25)
     check(len(picked) == 25 and over == 5 and all(r['claims'] == ['free'] for r in picked),
           'the weekly claim list is capped, the overflow counted, records without a claim left out')
+    nxt, over2 = linkstate.claim_rechecks(due_rows, '2026-04-08', cap=25)
+    check({r['url'] for r in nxt} == {r['url'] for r in due_rows[:30]} - {r['url'] for r in picked}
+          and over2 == 0,
+          'the overflow is carried into next week, without storing anything')
+    check(linkstate.claim_rechecks(due_rows, '2026-04-01', cap=25)[0] == picked,
+          'the same inputs give the same list')
+
+    print('linkstate: what moved since the last scan')
+    ch = linkstate.scan_changes({'a': {'s': 'ok'}, 'b': {'s': 'engel', 'f': 1}, 'c': {'s': 'engel'}, 'd': {'s': 'olu'}},
+                                {'a': {'s': 'engel'}, 'b': {'s': 'olu'}, 'c': {'s': 'engel'}, 'd': {'s': 'ok'},
+                                 'e': {'s': 'engel'}})
+    check(ch == {'newly_dead': ['b'], 'newly_failing': ['a', 'e'], 'recovered': ['d']},
+          'newly dead, newly failing and recovered are found; a steady failure is not news')
+    hc = linkstate.health_changes({'x': {'s': 'aktif'}, 'y': {'s': 'bayat'}, 'z': {'s': 'arşiv'}},
+                                  {'x': {'s': 'arşiv'}, 'y': {'s': 'aktif'}, 'z': {'s': 'arşiv'}, 'n': {'s': 'bayat'}})
+    check(hc == {'yok': [], 'arşiv': ['x'], 'bayat': ['n'], 'recovered': ['y']},
+          'repository health changes are found; a repository archived last week is not news')
 
     print('from_issue: tag cap and removed URLs')
     check(from_issue.cap_tags(['ücretsiz', 'a', 'b', 'açık-kaynak', 'c', 'd', 'e']) == ['ücretsiz', 'a', 'b', 'açık-kaynak', 'c', 'd'],
@@ -177,6 +195,20 @@ def main():
               'an unlisted URL, or no removed.txt at all, is not refused')
     finally:
         shutil.rmtree(tmpf)
+
+    print('from_issue: provenance and consent')
+    body = ('### URL\n\nhttps://ex.dev\n\n### Name\n\nEx\n\n### Category\n\nNot sure\n\n'
+            '### What does it do?\n\nA thing.\n\n### How does it differ?\n\nIt differs.\n\n'
+            '### Tags (optional)\n\n_No response_\n\n### Licence\n\n- [X] I agree\n')
+    note = from_issue.record(from_issue.parse(body), 7, now=1790000000)
+    check(note['src'] == 'community' and note['added'] == 1790000000,
+          'a submission is credited to the community source and dated the day it arrived')
+    check(note['src'] in sources.SOURCES, 'the community source is declared')
+    try:
+        from_issue.parse(body.replace('[X]', '[ ]'))
+        check(False, 'a submission without the licence box ticked is refused')
+    except from_issue.Refused:
+        check(True, 'a submission without the licence box ticked is refused')
 
     print('linkstate.may_write')
     check(not linkstate.may_write(['ci_check.py'], {}), 'a scan run by hand leaves verified.json and health.json alone')
@@ -196,18 +228,24 @@ def main():
 
     print('linkstate.next_state')
     day = '2026-09-28'
-    once = linkstate.next_state({'d': '2026-09-21', 's': 'ok'}, 'dead', None, day)
-    check(once['s'] == 'engel' and once['f'] == 1,
-          'one dead scan is not enough for a Dead badge')
-    twice = linkstate.next_state(once, 'dead', None, '2026-10-05')
+    once = linkstate.next_state({'s': 'ok'}, 'dead', None, day, '2026-09-21')
+    check(once == {'s': 'engel', 'f': 1},
+          'one dead scan is not enough for a Dead badge, and writes no date')
+    twice = linkstate.next_state(once, 'dead', None, '2026-10-05', day)
     check(twice['s'] == 'olu' and twice['f'] == 2 and twice['d'] == day,
           'the second consecutive dead scan marks it dead and keeps the last good date')
-    check(linkstate.next_state(twice, 'ok', None, day) == {'d': day, 's': 'ok'},
-          'a good scan clears the count')
+    check(linkstate.next_state(twice, 'dead', None, '2026-10-12', '2026-10-05')['d'] == day,
+          'a dead entry keeps its last good date on later scans')
+    check(linkstate.next_state(twice, 'ok', None, day) == {'s': 'ok'},
+          'a good scan clears the count; its date is the file-level "scanned"')
+    check(linkstate.next_state({'s': 'ok'}, 'ok', None, day, '2026-09-21') == {'s': 'ok'},
+          'an unchanged entry is written identically, so a weekly scan leaves it alone')
     check(linkstate.next_state(once, 'suspect', None, day).get('f') == 1,
           'a suspect scan neither confirms nor clears the count')
-    check(linkstate.next_state(twice, 'dead', {'s': 'ok'}, day) == {'d': day, 's': 'ok'},
+    check(linkstate.next_state(twice, 'dead', {'s': 'ok'}, day) == {'s': 'ok'},
           'a manual decision wins over the scan')
+    check(linkstate.orphan_keys({'scanned': day, 'a.com': {}}, ['https://a.com/'], lambda u: u.split('//')[1].rstrip('/')) == [],
+          'the "scanned" date is not taken for an orphaned record')
 
     print('tags.normalise')
     check(tags.normalise(['saas', 'açık-kaynak']) == ['ücretli', 'açık-kaynak'],

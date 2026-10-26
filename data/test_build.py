@@ -348,7 +348,7 @@ def main():
     tslug = [tag_slug(t) for t in CANON]
     check(len(set(tslug)) == len(tslug) and all(re.match(r'^[a-z0-9-]+$', s) for s in tslug),
           'tag slugs are unique and ASCII')
-    beklenen = {tag_slug(t) + '.html' for t in hub_tags}
+    beklenen = {tag_slug(t) + '.html' for t in hub_tags} | {'index.html'}
     for sub in (('k', 't'), ('k', 'en', 'tag')):
         var = set(os.listdir(os.path.join(ROOT, *sub))) if os.path.isdir(os.path.join(ROOT, *sub)) else set()
         check(var == beklenen, 'tag pages in %s: exactly the tags on %d+ records'
@@ -360,6 +360,16 @@ def main():
             ince.append(t)
     check(not ince, 'each tag page lists every record carrying the tag'
           + (' -- %s' % ince[:3] if ince else ''))
+    # A tag page is a pointer list: name, first sentence, the record's place on
+    # its heading page. Repeating every description doubled the corpus.
+    uzun = []
+    for t in hub_tags:
+        h = io.open(os.path.join(ROOT, 'k', 'en', 'tag', tag_slug(t) + '.html'), encoding='utf-8').read()
+        if '<span class="host">' in h or len(re.findall(
+                r'<p class="desc">[^<]*(?:<code>[^<]*</code>[^<]*)*<a href="\.\./[a-z_]+\.html#[a-z0-9-]+">', h)) != _tn[t]:
+            uzun.append(t)
+    check(not uzun, 'tag pages show a first sentence and a link to the heading page anchor, not the full entry'
+          + (' -- %s' % uzun[:3] if uzun else ''))
 
     print('sitemap')
     sm = io.open(os.path.join(ROOT, 'sitemap.xml'), encoding='utf-8').read()
@@ -370,9 +380,21 @@ def main():
           + (' -- %s' % hedefsiz[:3] if hedefsiz else ''))
     statik = sorted('k/' + os.path.relpath(os.path.join(dp, f), os.path.join(ROOT, 'k')).replace(os.sep, '/')
                     for dp, _, fs in os.walk(os.path.join(ROOT, 'k')) for f in fs if f.endswith('.html'))
-    haritasiz = [s for s in statik if '%s/%s' % (EMIT_SITE, s) not in locs]
-    check(not haritasiz, 'every static page is in the sitemap'
+    haritasiz = [s for s in statik if '%s/%s' % (EMIT_SITE, s) not in locs and s != 'k/en/index.html']
+    check(not haritasiz, 'every static page is in the sitemap (k/en/index.html, which forwards to /, aside)'
           + (' -- %s' % haritasiz[:3] if haritasiz else ''))
+    check('%s/k/en/index.html' % EMIT_SITE not in locs, 'k/en/index.html, a forward to /, is not in the sitemap')
+    check(len(set(locs)) == len(locs), 'no URL is in the sitemap twice')
+    blocks = re.findall(r'<url>(.*?)</url>', sm, re.S)
+    xdef = [b for b in blocks if re.search(r'hreflang="en" href="([^"]+)"', b).group(1)
+            != re.search(r'hreflang="x-default" href="([^"]+)"', b).group(1)]
+    check(bool(blocks) and not xdef, 'every sitemap entry names the English page as x-default'
+          + (' -- %d' % len(xdef) if xdef else ''))
+    mods = re.findall(r'<lastmod>([^<]+)</lastmod>', sm)
+    check(len(mods) == len(locs) and all(re.match(r'^\d{4}-\d{2}-\d{2}$', m) for m in mods),
+          'every sitemap URL has a <lastmod> date')
+    check(len(set(mods)) >= 5, '<lastmod> is per page, from the data: %d distinct dates over %d URLs'
+          % (len(set(mods)), len(mods)))
 
     print('also see, social images')
     yoksun = []
@@ -482,12 +504,234 @@ def main():
           'no inline script allowed by the CSP')
     check('KULLANICI' not in ix, 'no placeholder repository address left')
 
+    extra_checks(rows, kullanilan)
+
     print()
     if fails:
         print('%d check(s) failed' % len(fails))
         return 1
     print('all checks passed')
     return 0
+
+
+# ------------------------------------------------------------------ trust, feeds, open data
+# A page larger than this is a list nobody reads to the end. Measured October
+# 2026: heading pages 18-122 KB with the trust line (ogrenme the largest, 102 KB
+# before it); the largest tag page (awesome-liste) 252 KB once tag pages became
+# pointer lists (294 KB before). Raise them on purpose, not to make a build green.
+PAGE_BUDGET = 300 * 1024
+CAT_BUDGET = 128 * 1024
+
+
+class _Head(object):
+    """canonical, hreflang alternates and Atom alternates of one page."""
+
+    def __init__(self, html):
+        m = re.search(r'<link rel="canonical" href="([^"]+)"', html)
+        self.canon = m.group(1) if m else None
+        self.alts = dict(re.findall(r'<link rel="alternate" hreflang="([^"]+)" href="([^"]+)"', html))
+        self.feeds = re.findall(r'<link rel="alternate" type="application/atom\+xml"[^>]* href="([^"]+)"', html)
+
+
+def _file_of(url):
+    if url == EMIT_SITE + '/':
+        return 'index.html'
+    return url[len(EMIT_SITE) + 1:] if url.startswith(EMIT_SITE + '/') else None
+
+
+def extra_checks(rows, kullanilan):
+    import csv
+    import xml.dom.minidom
+    import sitepages
+    SITE = EMIT_SITE
+    pages = sorted('k/' + os.path.relpath(os.path.join(dp, f), os.path.join(ROOT, 'k')).replace(os.sep, '/')
+                   for dp, _, fs in os.walk(os.path.join(ROOT, 'k')) for f in fs if f.endswith('.html'))
+    src = {p: io.open(os.path.join(ROOT, *p.split('/')), encoding='utf-8').read() for p in pages + ['index.html']}
+    heads = {p: _Head(h) for p, h in src.items()}
+
+    print('hreflang')
+    fwd = src['k/en/index.html']
+    check('http-equiv="refresh" content="0; url=../../"' in fwd and
+          '<link rel="canonical" href="%s/">' % SITE in fwd and 'hreflang' not in fwd,
+          'k/en/index.html forwards to / with / as canonical, and claims no language pair')
+    check(heads['k/index.html'].alts.get('en') == SITE + '/'
+          and heads['index.html'].alts.get('tr') == SITE + '/k/index.html',
+          '/ and k/index.html name each other as their English and Turkish pages')
+    sorun = []
+    for p, hd in heads.items():
+        if p == 'k/en/index.html':
+            continue
+        me = SITE + '/' + (p if p != 'index.html' else '')
+        if not hd.alts or hd.canon != me:
+            sorun.append('%s: canonical/alternates' % p)
+            continue
+        if hd.alts.get('x-default') != hd.alts.get('en'):
+            sorun.append('%s: x-default is not the English page' % p)
+        if me not in (hd.alts.get('tr'), hd.alts.get('en')):
+            sorun.append('%s: does not list itself' % p)
+        for lang in ('tr', 'en'):
+            o = heads.get(_file_of(hd.alts.get(lang, '')))
+            if o is None or o.alts.get('tr') != hd.alts.get('tr') or o.alts.get('en') != hd.alts.get('en'):
+                sorun.append('%s: %s pair missing or asymmetric' % (p, lang))
+    check(not sorun, 'hreflang on all %d pages: self-canonical, reciprocal, x-default = English' % len(heads)
+          + (' -- %s' % sorun[:3] if sorun else ''))
+
+    print('feeds')
+    xmls = ['sitemap.xml', 'feed.xml'] + sorted(
+        os.path.relpath(os.path.join(dp, f), ROOT).replace(os.sep, '/')
+        for dp, _, fs in os.walk(os.path.join(ROOT, 'feed')) for f in fs)
+    kotu = []
+    for x in xmls:
+        try:
+            xml.dom.minidom.parse(os.path.join(ROOT, *x.split('/')))
+        except Exception as e:          # any parse error is the failure
+            kotu.append('%s: %s' % (x, e))
+    check(not kotu, 'the sitemap and all %d feeds are well-formed XML' % (len(xmls) - 1)
+          + (' -- %s' % kotu[:2] if kotu else ''))
+    beklenen = ({'feed/%s.xml' % k for k in kullanilan} | {'feed/en/%s.xml' % k for k in kullanilan}
+                | {'feed/en.xml', 'feed/changes.xml', 'feed/en/changes.xml'})
+    var = {x for x in xmls if x.startswith('feed/')}
+    check(var == beklenen, 'feed/ holds exactly the heading, site-wide and changes feeds in both languages'
+          + (' -- off: %s' % sorted(var ^ beklenen)[:4] if var != beklenen else ''))
+    yanlis = []
+    for x in ('feed.xml', 'feed/en.xml', 'feed/en/diller.xml', 'feed/diller.xml'):
+        t = io.open(os.path.join(ROOT, *x.split('/')), encoding='utf-8').read()
+        links = re.findall(r'<entry>\s*<title>[^<]*</title>\s*<link href="([^"]+)"', t)
+        if (not links or not all(re.match(re.escape(SITE) + r'/k/(en/)?[a-z_]+\.html#[a-z0-9-]+$', u) for u in links)
+                or 'type="application/atom+xml"' not in t or '<content type="html">' not in t):
+            yanlis.append(x)
+    check(not yanlis, 'feed entries link to the entry on its heading page, the site itself in the content'
+          + (' -- %s' % yanlis if yanlis else ''))
+    check(heads['index.html'].feeds == ['feed/en.xml'], '/ advertises the English feed (feed/en.xml)')
+    ak = []
+    for p, hd in heads.items():
+        if p in ('index.html', 'k/en/index.html'):
+            continue
+        dil = 'en/' if p.startswith('k/en/') else ''
+        if not hd.feeds or not all(f == SITE + ('/feed/en.xml' if dil else '/feed.xml')
+                                   or re.match(re.escape(SITE + '/feed/' + dil) + r'[a-z_]+\.xml$', f)
+                                   for f in hd.feeds):
+            ak.append(p)
+    check(not ak, 'every page advertises a feed in its own language' + (' -- %s' % ak[:3] if ak else ''))
+
+    print('trust on the static pages')
+    eksik = []
+    for k in sorted(kullanilan):
+        for sub in ('', 'en/'):
+            h = src['k/%s%s.html' % (sub, k)]
+            n = h.count('<article class="rec"')
+            if (h.count('<a class="arch" href="https://web.archive.org/web/') < n
+                    or h.count('<span class="age">') + h.count('<span class="badge chk">') != n):
+                eksik.append(sub + k)
+    check(not eksik, 'every heading-page entry shows its check date (or "not scanned") and a Wayback link'
+          + (' -- %s' % eksik[:3] if eksik else ''))
+    dead = [d for d in rows if d.get('dead')]
+    olu_yok = [d['name'] for d in dead if 'badge dead' not in src['k/en/%s.html' % d['cat']]]
+    check(not olu_yok, 'a dead entry carries the Dead badge on its page (%d dead now)' % len(dead)
+          + (' -- %s' % olu_yok[:3] if olu_yok else ''))
+    ayak = [p for p in pages if p != 'k/en/index.html' and not all(
+        x in src[p] for x in ('about.html">', 'changes.html">', 'github.com/latifkedi/useful-sites"',
+                              '/blob/main/LICENSE"'))]
+    check(not ayak, 'every static page ends with the methodology, changes, repository and licence links'
+          + (' -- %s' % ayak[:3] if ayak else ''))
+
+    print('about, changes, digests, alternatives')
+    for f, en_f in (('about.html', 'about.html'), ('changes.html', 'changes.html'),
+                    ('t/index.html', 'tag/index.html'), ('tesekkur.html', 'credits.html')):
+        check(('k/' + f) in src and ('k/en/' + en_f) in src, 'k/%s and k/en/%s exist' % (f, en_f))
+    ab = src['k/en/about.html']
+    check(all(x in ab for x in ('machine-assisted and human-reviewed', 'github.com/latifkedi"',
+                                'data/v1/links.json', 'data/v1/links.csv', 'credits.html#src-kedi'))
+          and '"maintainer": {"@type": "Person", "name": "latifkedi", "url": "https://github.com/latifkedi"}' in ab,
+          'the about page discloses AI assistance, names the maintainer, links the open data and the sources')
+    check('makine yardımıyla yazılmış, insan tarafından' in src['k/about.html'],
+          'the Turkish about page carries the same disclosure')
+    weeks = sorted(p for p in pages if p.startswith('k/week/'))
+    weeks_en = sorted(p for p in pages if p.startswith('k/en/week/'))
+    check(1 <= len(weeks) <= sitepages.WEEKS and [w[7:] for w in weeks] == [w[10:] for w in weeks_en],
+          'weekly digests: %d, the same weeks in both languages, at most %d' % (len(weeks), sitepages.WEEKS))
+    ch = src['k/en/changes.html']
+    check(all(('week/%s"' % w[7:]) in ch for w in weeks), 'the changes page links every weekly digest')
+    rem = [l.split('\t')[0] for l in io.open(os.path.join(D, 'removed.txt'), encoding='utf-8')
+           if l.strip() and not l.startswith('#')]
+    check(all(esc_html(u) in ch for u in rem), 'the changes page lists every removal in removed.txt (%d)' % len(rem))
+    alts = sitepages.alt_clusters(rows)
+    check(len([p for p in pages if p.startswith('k/alt/')]) == len(alts)
+          == len([p for p in pages if p.startswith('k/en/alt/')])
+          and all(len(a['rivals']) >= sitepages.ALT_MIN for a in alts),
+          'alternatives pages: %d, one per entry with %d+ curated rivals, in both languages'
+          % (len(alts), sitepages.ALT_MIN))
+    bagsiz = [a['slug'] for a in alts
+              if 'href="alt/%s.html"' % a['slug'] not in src['k/en/%s.html' % rows[a['i']]['cat']]]
+    check(not bagsiz, 'each alternatives page is linked from its entry on the heading page'
+          + (' -- %s' % bagsiz[:3] if bagsiz else ''))
+    cr = src['k/en/credits.html']
+    srcs = {d['src'] for d in rows}
+    lisanssiz = sorted(k for k in srcs if 'id="src-%s"' % k not in cr)
+    check(not lisanssiz and cr.count('Licence: ') == len(srcs),
+          "the credits page states every source's licence" + (' -- %s' % lisanssiz if lisanssiz else ''))
+
+    print('open data')
+    lj = json.load(io.open(os.path.join(D, 'v1', 'links.json'), encoding='utf-8'))
+    with io.open(os.path.join(D, 'v1', 'links.csv'), encoding='utf-8', newline='') as f:
+        cv = list(csv.reader(f))
+    check(lj['count'] == len(lj['records']) == len(rows) == len(cv) - 1,
+          'data/v1: links.json and links.csv carry every record (%d)' % len(rows))
+    check(cv[0] == sitepages.FIELDS and all(list(r) == sitepages.FIELDS for r in lj['records']),
+          'data/v1: exactly the documented fields, in order')
+    check([r['url'] for r in lj['records']] == [d['url'] for d in rows] == [r[0] for r in cv[1:]],
+          "data/v1: the directory's own order, the same in both files")
+    schema = io.open(os.path.join(D, 'v1', 'SCHEMA.md'), encoding='utf-8').read()
+    check(all('`%s`' % f in schema for f in sitepages.FIELDS) and 'CC BY 4.0' in schema,
+          'data/v1/SCHEMA.md documents every field and the licence')
+
+    print('page weight')
+    agir = [p for p in pages if len(src[p].encode('utf-8')) > PAGE_BUDGET]
+    check(not agir, 'no static page over %d KB' % (PAGE_BUDGET // 1024) + (' -- %s' % agir[:3] if agir else ''))
+    agir = [k for k in kullanilan for sub in ('', 'en/')
+            if len(src['k/%s%s.html' % (sub, k)].encode('utf-8')) > CAT_BUDGET]
+    check(not agir, 'no heading page over %d KB' % (CAT_BUDGET // 1024) + (' -- %s' % agir[:3] if agir else ''))
+
+    print('numbers in the docs')
+    from coverage import counts
+    cov = {name: n for n, name in counts(rows)}
+    contrib = re.sub(r'\s+', ' ', io.open(os.path.join(ROOT, 'CONTRIBUTING.md'), encoding='utf-8').read())
+    said = {'WebAssembly': 'WebAssembly', 'regular expressions': 'Regular expressions',
+            'accessibility': 'Accessibility (a11y)', 'typesetting': 'LaTeX / typesetting',
+            'maps and GIS': 'GIS / maps', 'low-code and no-code': 'Low-code / no-code',
+            'cryptography for learners': 'Cryptography'}
+    yanlis, gorulen = [], 0
+    for phrase, topic in said.items():
+        m = re.search(re.escape(phrase) + r' \((\d+)\)', contrib)
+        if m:
+            gorulen += 1
+            if int(m.group(1)) != cov[topic]:
+                yanlis.append('%s: %s, coverage.py says %d' % (phrase, m.group(1), cov[topic]))
+    check(gorulen == len(said) and not yanlis, 'CONTRIBUTING.md quotes the coverage.py counts as they are'
+          + (' -- %s' % yanlis if yanlis else '') + (' -- %d of %d found' % (gorulen, len(said)) if gorulen != len(said) else ''))
+    readme = io.open(os.path.join(ROOT, 'README.md'), encoding='utf-8').read()
+    n_ = len(rows) // 100 * 100
+    check('<!-- n -->{:,}{}<!-- /n -->'.format(n_, '+' if len(rows) > n_ else '') in readme
+          and '<!-- c -->%d<!-- /c -->' % len(kullanilan) in readme,
+          'README.md states the record and heading counts the build wrote')
+    ntag = []
+    for f in ('CONTRIBUTING.md', os.path.join('data', 'README.md')):
+        for m in re.finditer(r'(\d+) canonical tags', io.open(os.path.join(ROOT, f), encoding='utf-8').read()):
+            if int(m.group(1)) != len(CANON):
+                ntag.append(f)
+    check(not ntag, 'the docs give the number of canonical tags as it is (%d)' % len(CANON)
+          + (' -- %s' % ntag if ntag else ''))
+
+    print('verification data, social images')
+    ver = json.load(io.open(os.path.join(D, 'verified.json'), encoding='utf-8'))
+    check(re.match(r'^\d{4}-\d{2}-\d{2}$', ver.get('scanned') or '') is not None
+          and not [k for k, v in ver.items() if k != 'scanned' and v.get('d') and v.get('s') != 'olu'],
+          'verified.json carries the scan date once ("scanned"); only dead entries keep their own "d"')
+    from paths import PATHS
+    claimed = {k + '.png' for k in kullanilan} | {'path-%s.png' % p['en_slug'] for p in PATHS}
+    og = {f for f in os.listdir(os.path.join(ROOT, 'og')) if f.endswith('.png')}
+    check(og == claimed, 'og/ holds exactly one image per heading and path'
+          + (' -- off: %s' % sorted(og ^ claimed)[:4] if og != claimed else ''))
 
 
 if __name__ == '__main__':

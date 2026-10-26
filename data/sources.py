@@ -14,6 +14,20 @@ reliable:
 Letting the reader see that difference is a matter of honesty. Not every
 record was held to the same standard, and pretending otherwise would kill the
 directory.
+
+Every source also carries its terms, for the credits page:
+
+  licence       : the upstream's SPDX id (MIT, CC0-1.0, CC-BY-4.0, ...), or
+                  'unspecified' (no licence stated anywhere) or
+                  'all-rights-reserved' (a page that says so, or a platform
+                  whose default is that)
+  copyright     : who holds it, as the upstream names them
+  licence_note  : optional; how the licence was established when GitHub's
+                  own detection was missing or wrong
+
+Only names, addresses and the fact of inclusion are taken from a source; the
+descriptions are written here. data/test_repo.py fails on a source without
+licence and copyright.
 """
 
 SOURCES = {
@@ -23,6 +37,8 @@ SOURCES = {
         'note_tr': 'Kendi arşivinden, tek tek gözden geçirilmiş',
         'note_en': 'From the curator’s own archive, reviewed one by one',
         'url': None,
+        'licence': 'CC-BY-4.0',
+        'copyright': 'latifkedi',
     },
     'bwapsv': {
         'label_tr': 'Programcı Siteleri',
@@ -30,6 +46,8 @@ SOURCES = {
         'note_tr': 'Best-websites-a-programmer-should-visit derlemesinden geldi (depo Kasım 2025’te arşivlendi)',
         'note_en': 'Surfaced by the Best-websites-a-programmer-should-visit collection (archived November 2025)',
         'url': 'https://github.com/sdmg15/Best-websites-a-programmer-should-visit',
+        'licence': 'MIT',
+        'copyright': '2017 Sonkeng Maldini',
     },
     'cdcruz': {
         'label_tr': 'CDcruz',
@@ -37,6 +55,9 @@ SOURCES = {
         'note_tr': 'cdcruz.com/p/useful_sites.html derlemesinden geldi',
         'note_en': 'Surfaced by the cdcruz.com useful-sites collection',
         'url': 'https://www.cdcruz.com/p/useful_sites.html',
+        'licence': 'unspecified',
+        'copyright': 'CDcruz',
+        'licence_note': 'The page states no licence; only names and addresses were taken, the descriptions are written here.',
     },
     'awesome-uw': {
         'label_tr': 'Awesome UW',
@@ -44,6 +65,9 @@ SOURCES = {
         'note_tr': 'awesome-useful-websites derlemesinden geldi',
         'note_en': 'Surfaced by the awesome-useful-websites collection',
         'url': 'https://github.com/atakanaltok/awesome-useful-websites',
+        'licence': 'CC-BY-4.0',
+        'copyright': 'atakanaltok and contributors',
+        'licence_note': 'GitHub reports NOASSERTION; the LICENSE file is CC BY 4.0.',
     },
     'seccert': {
         'label_tr': 'Sertifika Yol Haritası',
@@ -51,6 +75,9 @@ SOURCES = {
         'note_tr': 'Paul Jerimy’nin güvenlik sertifikası yol haritasından geldi',
         'note_en': 'Surfaced by Paul Jerimy’s security certification roadmap',
         'url': 'https://pauljerimy.com/security-certification-roadmap/',
+        'licence': 'unspecified',
+        'copyright': 'Paul Jerimy',
+        'licence_note': 'No licence is stated for the roadmap itself (the site theme is GPL-2.0, which covers code, not content).',
     },
     'secretknowledge': {
         'label_tr': 'The Book of Secret Knowledge',
@@ -58,6 +85,8 @@ SOURCES = {
         'note_tr': 'the-book-of-secret-knowledge derlemesinden geldi',
         'note_en': 'Surfaced by the-book-of-secret-knowledge collection',
         'url': 'https://github.com/trimstray/the-book-of-secret-knowledge',
+        'licence': 'MIT',
+        'copyright': '2017 trimstray',
     },
     'lowkwiki': {
         'label_tr': 'Lowkenuinely Wikis',
@@ -65,6 +94,8 @@ SOURCES = {
         'note_tr': 'awesome-lowkenuinely-wikis derlemesinden geldi',
         'note_en': 'Surfaced by the awesome-lowkenuinely-wikis collection',
         'url': 'https://github.com/Te1eG0esbrr/awesome-lowkenuinely-wikis',
+        'licence': 'CC0-1.0',
+        'copyright': 'Te1eG0esbrr and contributors',
     },
     'rustlearn': {
         'label_tr': 'Rust Learning',
@@ -72,6 +103,9 @@ SOURCES = {
         'note_tr': 'ctjhoa/rust-learning derlemesinden geldi',
         'note_en': 'Surfaced by the ctjhoa/rust-learning collection',
         'url': 'https://github.com/ctjhoa/rust-learning',
+        'licence': 'unspecified',
+        'copyright': 'ctjhoa and contributors',
+        'licence_note': 'The repository has no licence file.',
     },
     'javalinks': {
         'label_tr': 'Faydalı Java',
@@ -79,6 +113,9 @@ SOURCES = {
         'note_tr': 'Vedenin/useful-java-links derlemesinden geldi',
         'note_en': 'Surfaced by Vedenin/useful-java-links',
         'url': 'https://github.com/Vedenin/useful-java-links',
+        'licence': 'CC-BY-SA-4.0',
+        'copyright': 'Vedenin and contributors',
+        'licence_note': 'GitHub reports NOASSERTION; license.md names CC BY-SA 4.0.',
     },
     'mathlinks': {
         'label_tr': 'Matematiği Anlamak',
@@ -86,6 +123,9 @@ SOURCES = {
         'note_tr': 'nbro/understanding-math derlemesinden geldi',
         'note_en': 'Surfaced by nbro/understanding-math',
         'url': 'https://github.com/nbro/understanding-math',
+        'licence': 'unspecified',
+        'copyright': 'nbro and contributors',
+        'licence_note': 'The repository has no licence file.',
     },
     'econ': {
         'label_tr': 'Awesome Economics',
@@ -93,6 +133,9 @@ SOURCES = {
         'note_tr': 'antontarasenko/awesome-economics derlemesinden geldi',
         'note_en': 'Surfaced by antontarasenko/awesome-economics',
         'url': 'https://github.com/antontarasenko/awesome-economics',
+        'licence': 'CC0-1.0',
+        'copyright': 'antontarasenko and contributors',
+        'licence_note': 'No licence file; the README declares CC0.',
     },
     'dataeng': {
         'label_tr': 'Veri Mühendisi El Kitabı',
@@ -100,6 +143,9 @@ SOURCES = {
         'note_tr': 'DataExpert-io/data-engineer-handbook derlemesinden geldi',
         'note_en': 'Surfaced by DataExpert-io/data-engineer-handbook',
         'url': 'https://github.com/DataExpert-io/data-engineer-handbook',
+        'licence': 'unspecified',
+        'copyright': 'DataExpert-io and contributors',
+        'licence_note': 'The repository has no licence file.',
     },
     'dsbest': {
         'label_tr': 'Veri Bilimi Kaynakları',
@@ -107,6 +153,8 @@ SOURCES = {
         'note_tr': 'tirthajyoti/Data-science-best-resources derlemesinden geldi',
         'note_en': 'Surfaced by tirthajyoti/Data-science-best-resources',
         'url': 'https://github.com/tirthajyoti/Data-science-best-resources',
+        'licence': 'MIT',
+        'copyright': '2018 Tirthajyoti Sarkar',
     },
     'testsites': {
         'label_tr': 'Test Siteleri',
@@ -114,6 +162,9 @@ SOURCES = {
         'note_tr': 'BMayhew/awesome-sites-to-test-on derlemesinden geldi',
         'note_en': 'Surfaced by BMayhew/awesome-sites-to-test-on',
         'url': 'https://github.com/BMayhew/awesome-sites-to-test-on',
+        'licence': 'unspecified',
+        'copyright': 'BMayhew and contributors',
+        'licence_note': 'The repository has no licence file.',
     },
     'piracy': {
         'label_tr': 'Awesome Piracy',
@@ -121,6 +172,8 @@ SOURCES = {
         'note_tr': 'Igglybuff/awesome-piracy derlemesinden geldi',
         'note_en': 'Surfaced by Igglybuff/awesome-piracy',
         'url': 'https://github.com/Igglybuff/awesome-piracy',
+        'licence': 'CC0-1.0',
+        'copyright': 'Igglybuff and contributors',
     },
     'awesomelist': {
         'label_tr': 'sindresorhus/awesome',
@@ -128,6 +181,8 @@ SOURCES = {
         'note_tr': 'sindresorhus/awesome derlemesinden geldi',
         'note_en': 'Surfaced by sindresorhus/awesome',
         'url': 'https://github.com/sindresorhus/awesome',
+        'licence': 'CC0-1.0',
+        'copyright': 'Sindre Sorhus and contributors',
     },
     'awesomeproj': {
         'label_tr': 'Awesome Project',
@@ -135,6 +190,8 @@ SOURCES = {
         'note_tr': 'gdcmarinho/awesome-project derlemesinden geldi',
         'note_en': 'Surfaced by gdcmarinho/awesome-project',
         'url': 'https://github.com/gdcmarinho/awesome-project',
+        'licence': 'MIT',
+        'copyright': '2022 Awesome Project',
     },
     'velvia': {
         'label_tr': 'velvia/links',
@@ -142,6 +199,9 @@ SOURCES = {
         'note_tr': 'velvia/links derlemesinden geldi',
         'note_en': 'Surfaced by velvia/links',
         'url': 'https://github.com/velvia/links',
+        'licence': 'unspecified',
+        'copyright': 'velvia',
+        'licence_note': 'The repository has no licence file.',
     },
     'trekhleb': {
         'label_tr': 'Girişimini Tanıt',
@@ -149,6 +209,8 @@ SOURCES = {
         'note_tr': 'trekhleb/promote-your-next-startup derlemesinden geldi',
         'note_en': 'Surfaced by trekhleb/promote-your-next-startup',
         'url': 'https://github.com/trekhleb/promote-your-next-startup',
+        'licence': 'Unlicense',
+        'copyright': 'trekhleb and contributors',
     },
     'littlelink': {
         'label_tr': 'LittleLink',
@@ -156,6 +218,8 @@ SOURCES = {
         'note_tr': 'sethcottle/littlelink deposundan geldi',
         'note_en': 'Surfaced by sethcottle/littlelink',
         'url': 'https://github.com/sethcottle/littlelink',
+        'licence': 'MIT',
+        'copyright': '2019-2024 Seth Cottle',
     },
     'cryptolist': {
         'label_tr': 'CryptoList',
@@ -163,6 +227,9 @@ SOURCES = {
         'note_tr': 'coinpride/CryptoList derlemesinden geldi',
         'note_en': 'Surfaced by coinpride/CryptoList',
         'url': 'https://github.com/coinpride/CryptoList',
+        'licence': 'CC-BY-SA-4.0',
+        'copyright': 'coinpride and contributors',
+        'licence_note': 'No licence file; the README declares CC BY-SA 4.0.',
     },
     'pycrumbs': {
         'label_tr': 'Pycrumbs',
@@ -170,6 +237,8 @@ SOURCES = {
         'note_tr': 'kirang89/pycrumbs derlemesinden geldi',
         'note_en': 'Surfaced by kirang89/pycrumbs',
         'url': 'https://github.com/kirang89/pycrumbs',
+        'licence': 'Unlicense',
+        'copyright': 'kirang89 and contributors',
     },
     'favlink': {
         'label_tr': 'Favorite Link',
@@ -177,6 +246,9 @@ SOURCES = {
         'note_tr': 'guanguans/favorite-link derlemesinden geldi',
         'note_en': 'Surfaced by guanguans/favorite-link',
         'url': 'https://github.com/guanguans/favorite-link',
+        'licence': 'GPL-3.0',
+        'copyright': 'guanguans and contributors',
+        'licence_note': 'SPDX id as GitHub reports it; "only" or "or later" is not stated.',
     },
     'tafrali': {
         'label_tr': 'Veri Kaynakları (Tafralı)',
@@ -184,6 +256,9 @@ SOURCES = {
         'note_tr': 'Serdar Tafralı’nın "Veri Bilimi Projeleri için Veri Kaynakları" yazısından geldi',
         'note_en': 'Surfaced by Serdar Tafralı’s "Data Sources for Data Science Projects" post',
         'url': 'https://serdartafrali.medium.com/veri-bilimi-projeleri-i%C3%A7in-veri-kaynaklar%C4%B1-ceece4d0aeb8',
+        'licence': 'all-rights-reserved',
+        'copyright': 'Serdar Tafralı',
+        'licence_note': 'A Medium post with no licence stated, so all rights reserved by default.',
     },
     'invesp': {
         'label_tr': 'Invesp',
@@ -191,6 +266,9 @@ SOURCES = {
         'note_tr': 'Invesp’in "109 useful websites" yazısından geldi',
         'note_en': 'Surfaced by Invesp’s "109 useful websites" post',
         'url': 'https://www.invespcro.com/blog/109-useful-websites-online-applications/',
+        'licence': 'all-rights-reserved',
+        'copyright': 'Invesp',
+        'licence_note': 'The page footer reads "© 2006-2020 All rights reserved. Invesp".',
     },
     'bosluk': {
         'label_tr': 'Boşluk Taraması',
@@ -200,6 +278,20 @@ SOURCES = {
         'note_en': 'Added in the October 2026 coverage review (Turkish public data, LaTeX, GIS, WebAssembly, '
                    'accessibility, regex, research tools); each address was opened and checked',
         'url': None,
+        'licence': 'CC-BY-4.0',
+        'copyright': 'latifkedi',
+    },
+    # Written by from_issue.py for a submission approved through the issue form.
+    # The form's required consent box puts the submitted description text under
+    # CC BY 4.0, the same terms as the rest of the directory.
+    'community': {
+        'label_tr': 'Topluluk Önerileri',
+        'label_en': 'Community suggestions',
+        'note_tr': 'Öneri formuyla gönderildi; açıklama yayından önce elden geçirildi',
+        'note_en': 'Suggested through the issue form; the description was reviewed before publishing',
+        'url': None,
+        'licence': 'CC-BY-4.0',
+        'copyright': 'the submitters (consent given in the issue form)',
     },
 }
 

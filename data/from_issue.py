@@ -19,16 +19,19 @@ import json
 import os
 import re
 import sys
+import time
 
 D = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, D)
 
 from notes import CATS, load_records  # noqa: E402
 from tags import normalise, UNCOUNTED, MAX_TAGS  # noqa: E402
-from sources import DEFAULT           # noqa: E402
 
 NOTES = os.path.join(D, 'notes')
 REMOVED = os.path.join(D, 'removed.txt')
+# A submission is credited to the community source, not to the owner's archive:
+# the default ('kedi') claimed the owner had gone through it first-hand.
+SOURCE = 'community'
 CAT_BY_EN = dict((c[2], c[0]) for c in CATS)
 
 
@@ -81,6 +84,11 @@ def parse(body):
     if not what:
         raise Refused('"What does it do?" is empty')
 
+    # The form makes the box required, but an issue body can be edited after the
+    # fact; without the consent there is no licence to publish the text under.
+    if not re.search(r'^- \[[xX]\] ', f.get('licence', ''), re.M):
+        raise Refused('The licence box (CC BY 4.0 for the text you wrote) is not ticked')
+
     cat = CAT_BY_EN.get(f.get('category', '').strip())
 
     raw = [t.strip() for t in re.split(r'[,;]', f.get('tags (optional)', '')) if t.strip()]
@@ -131,7 +139,7 @@ def already_there(url):
     return k in have or re.split(r'[?#]', k)[0].rstrip('/') in have
 
 
-def record(rec, issue):
+def record(rec, issue, now=None):
     """The note to append, as plain data.
 
     Nothing from the issue is ever written as code any more: notes are JSON,
@@ -144,8 +152,11 @@ def record(rec, issue):
     why = 'from issue #%d -- description needs a pass: one language, one voice' % issue
     if not rec['cat']:
         why += '; category was "Not sure", filed under araclar'
+    # "added" is the day it arrived; without it the build dated the record by
+    # its source's intake, which for a submission meant nothing.
     return {'url': rec['url'], 'name': rec['name'], 'tags': rec['tags'],
-            'tr': tr, 'en': tr, 'src': DEFAULT, 'review': why}
+            'tr': tr, 'en': tr, 'src': SOURCE,
+            'added': int(time.time() if now is None else now), 'review': why}
 
 
 def append(note, cat):

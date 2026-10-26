@@ -9,9 +9,19 @@ regenerate it -- that is the gap this file closes.
     python data/make_og.py
 
 The count is read from links.js rather than passed in, so it cannot drift. The
-title uses the serif the site already ships; the remaining lines fall back
-through a list of system faces, since bundling a sans and a mono purely for
-this one image is not worth the bytes.
+title uses the serif the site already ships (fonts/serif-*.woff2). The small
+capitals lines use a monospace face, and the repository vendors none: bundling
+one purely for these images is not worth the bytes. So the face is the first of
+MONO found in the system font folders -- Consolas on Windows, where og.png and
+og/ were last drawn -- and a machine with a different one draws visibly
+different images. That makes the images hand-made, not build output:
+
+  - CI never runs this, and the script refuses to run where CI or
+    GITHUB_ACTIONS is set rather than commit a second look;
+  - with none of MONO installed it stops, naming the faces it looked for,
+    instead of falling back to Pillow's bitmap default;
+  - run it by hand after adding or removing a heading or a path, and commit
+    og.png and og/ (an image no heading or path claims is deleted).
 
 Needs Pillow, which is not otherwise a dependency:  pip install pillow
 """
@@ -52,7 +62,8 @@ def system_font(names, size):
             p = os.path.join(d, n)
             if os.path.exists(p):
                 return ImageFont.truetype(p, size)
-    return ImageFont.load_default()
+    sys.exit('make_og.py: none of %s found in %s; the images would be drawn in a different face. '
+             'Install one, or leave og.png and og/ as committed.' % (', '.join(names), ', '.join(DIRS)))
 
 
 def mix(a, b, t):
@@ -77,6 +88,9 @@ def count(n):
 
 
 def main():
+    if os.environ.get('CI') or os.environ.get('GITHUB_ACTIONS'):
+        sys.exit('make_og.py: the images are drawn by hand and committed (see the docstring); '
+                 'not in CI, where the monospace face differs.')
     rows = readlinks.read(ROOT)
     n = len(rows)
     cats = len({r['cat'] for r in rows})
@@ -97,21 +111,27 @@ def main():
     # one that stands in for a logo.
     enso(d, (W - 190) * S, 250 * S, 250 * S, 11 * S, mix(RED, BG, WM))
     enso(d, (PAD + 20) * S, 104 * S, 20 * S, 5 * S, RED)
-    d.text(((PAD + 56) * S, 104 * S), 'Kullanışlı Siteler', font=mark, fill=FG,
+    d.text(((PAD + 56) * S, 104 * S), 'Kullanışlı Siteler · Useful Sites', font=mark, fill=FG,
            anchor='lm')
 
-    # The hero sentence, with the count in red like the page's <em>.
+    # The hero, in both languages, with the count in red like the page's <em>.
+    # It used to read "Elle derlenmiş 1.800+ bağlantı" (hand-picked): the
+    # links are picked by hand, but much of the directory came from published
+    # compilations and the descriptions are machine-assisted, so the claim
+    # the image makes is the one that holds for every entry -- annotated.
     x, y = PAD * S, 200 * S
-    for part, colour in (('Elle derlenmiş ', FG), (count(n), RED),
-                         (' bağlantı.', FG)):
+    for part, colour in ((count(n), RED), (' açıklamalı bağlantı.', FG)):
         d.text((x, y), part, font=hero, fill=colour)
         x += d.textlength(part, font=hero)
-    d.text((PAD * S, y + 82 * S), 'Her biri benzerlerinden nerede',
-           font=hero, fill=DIM)
-    d.text((PAD * S, y + 164 * S), 'ayrıldığını söylüyor.', font=hero, fill=DIM)
+    x = PAD * S
+    for part, colour in ((count(n).replace('.', ','), RED), (' annotated links.', FG)):
+        d.text((x, y + 82 * S), part, font=hero, fill=colour)
+        x += d.textlength(part, font=hero)
+    d.text((PAD * S, y + 176 * S), 'Each says where it parts ways with its neighbours.',
+           font=ImageFont.truetype(serif % 400, 34 * S), fill=DIM)
 
     d.line([PAD * S, 494 * S, (W - PAD) * S, 494 * S], fill=RULE, width=S)
-    lead = '%d ALAN · %d BAŞLIK' % (fields, cats)
+    lead = '%d ALAN · %d BAŞLIK / AREAS · HEADINGS' % (fields, cats)
     d.text((PAD * S, 522 * S), lead, font=mono, fill=FAINT)
     d.text(((W - PAD) * S, 522 * S), host, font=mono, fill=DIM, anchor='ra')
     # A handful of inks on one paper: a 128-colour palette loses nothing
@@ -223,7 +243,14 @@ def pages(rows):
         size = card(os.path.join(odir, name + '.png'), kicker, title, sub, foot, host)
         if size > LIMIT:
             big.append(name)
-    print('og/: %d images%s' % (len(jobs), ', over %d KB: %s' % (LIMIT // 1024, big) if big else ''))
+    # A heading merged away or a path renamed would leave its image behind,
+    # committed and pointed at by nothing.
+    keep = {j[0] + '.png' for j in jobs}
+    gone = [f for f in sorted(os.listdir(odir)) if f.endswith('.png') and f not in keep]
+    for f in gone:
+        os.remove(os.path.join(odir, f))
+    print('og/: %d images%s%s' % (len(jobs), ', over %d KB: %s' % (LIMIT // 1024, big) if big else '',
+                                  ', removed: %s' % gone if gone else ''))
 
 
 if __name__ == '__main__':

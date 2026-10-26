@@ -32,9 +32,12 @@ var T = {
          'Ölü ya da hatalı bir kayıt görürsen <a href="'+REPO+'/issues/new/choose">bildir</a> — '+
          'yeni bağlantı önerileri de aynı yerden. '+
          '<a href="k/yol/index.html">Öğrenme yolları</a> · '+
+         '<a href="k/about.html">Hakkında</a> · '+
+         '<a href="k/changes.html">Değişiklikler</a> · '+
          '<a href="k/tesekkur.html">Katkıda bulunanlar</a> · '+
          'dizinin <a href="k/index.html">metin hâli</a> de var.',
-    skip:"İçeriğe Atla",
+    skip:"İçeriğe Atla", skipRes:"Sonuçlara atla",
+    badURL:"Bu adresin bir kısmı anlaşılamadı ve atlandı; gördüğün sayfa adresin geri kalanı.",
     fxNote:function(f,c){ return f+" alan, "+c+" başlık" },
     hStart:"Buradan Başla", hAll:"Tümünü tek listede gör →",
     srcLess:"− Kaynakları gizle",
@@ -139,9 +142,11 @@ var T = {
          'Spotted a dead or wrong entry? <a href="'+REPO+'/issues/new/choose">Tell me</a> — '+
          'link suggestions go to the same place. '+
          '<a href="k/en/path/index.html">Learning paths</a> · '+
-         '<a href="k/en/credits.html">Contributors</a> · '+
-         'there is a <a href="k/en/index.html">plain-text edition</a> too.',
-    skip:"Skip To Content",
+         '<a href="k/en/about.html">About</a> · '+
+         '<a href="k/en/changes.html">Changes</a> · '+
+         '<a href="k/en/credits.html">Contributors</a>.',
+    skip:"Skip To Content", skipRes:"Skip to results",
+    badURL:"Part of this address was not understood and has been left out; this is what the rest of it shows.",
     fxNote:function(f,c){ return f+" areas, "+c+" headings" },
     hStart:"Start Here", hAll:"See everything in one list →",
     srcLess:"− Hide sources",

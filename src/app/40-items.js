@@ -82,9 +82,13 @@ function itemHTML(d, n, o){
      ucretli ve freemium farki gosteriyor. Suzgecte duruyor. */
   var tags = (d.tags||[]).filter(function(t){ return t !== "ücretsiz" }).map(function(t){
     return '<span data-tag="'+esc(t)+'">'+esc(tagLabel(t))+'</span>' }).join('<i>·</i>');
+  /* Benzerleri tek bir Tab duragi: ilki sirada, digerlerine ok tuslariyla
+     (roving tabindex, 60-events). */
+  var nrel = 0;
   var rel = (d.rel||[]).map(function(i){
     var x = data[i];   /* rel: LINKS icindeki sira numaralari */
-    return x ? '<a href="?q='+encodeURIComponent(x.name)+'" data-rel="'+i+'">'+esc(x.name)+'</a>' : "" }).filter(Boolean).join(" · ");
+    return x ? '<a href="?q='+encodeURIComponent(x.name)+'" data-rel="'+i+'"'+(nrel++ ? ' tabindex="-1"' : '')+'>'+
+               esc(x.name)+'</a>' : "" }).filter(Boolean).join(" · ");
   var ad = '<a class="name" href="'+esc(d.url)+'" target="_blank" rel="noopener noreferrer" data-go="'+esc(d._k)+'">'+hl(d.name)+'</a>';
   /* Kaydet ve karsilastir yalnizca istemcinin cizdigi kartlarda: index.html'deki
      hazir giris sayfasinda kart yok, o markup emit.py ile birebir kaliyor. */

@@ -1,0 +1,58 @@
+# The labels the automation depends on. GitHub does not create a label just
+# because an issue form or a workflow names it: new-link, broken-entry and
+# approved were named here for weeks while none of them existed, so every
+# submission arrived unlabelled and the approval workflow could never fire.
+#
+# This file is the record of what must exist. data/test_repo.py fails when an
+# issue form or a workflow names a label that is not listed here. It does not
+# create anything: after adding a label here, create it once by hand --
+#   gh label create <name> --color <color> --description "<description>"
+# (MAINTAINERS.md has the full list as commands).
+
+- name: new-link
+  color: "0e8a16"
+  description: A link suggested through the issue form
+- name: broken-entry
+  color: "d93f0b"
+  description: A dead link, moved address or wrong description
+- name: approved
+  color: "5319e7"
+  description: "Maintainer-only: turns a new-link issue into a pull request"
+- name: link-check
+  color: "fbca04"
+  description: The pinned weekly maintenance issue (link and repository health)
+- name: dependencies
+  color: "0366d6"
+  description: Dependabot version updates
+
+# GitHub's defaults, kept so the list matches the repository.
+- name: accessibility
+  color: "f143ab"
+  description: Barrier affecting people with disabilities
+- name: bug
+  color: "d73a4a"
+  description: Something isn't working
+- name: documentation
+  color: "0075ca"
+  description: Improvements or additions to documentation
+- name: duplicate
+  color: "cfd3d7"
+  description: This issue or pull request already exists
+- name: enhancement
+  color: "a2eeef"
+  description: New feature or request
+- name: good first issue
+  color: "7057ff"
+  description: Good for newcomers
+- name: help wanted
+  color: "008672"
+  description: Extra attention is needed
+- name: invalid
+  color: "e4e669"
+  description: This doesn't seem right
+- name: question
+  color: "d876e3"
+  description: Further information is requested
+- name: wontfix
+  color: "ffffff"
+  description: This will not be worked on

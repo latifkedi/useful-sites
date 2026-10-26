@@ -43,6 +43,9 @@ VERIFIED = {}
 _vp = os.path.join(D, 'verified.json')
 if os.path.exists(_vp):
     VERIFIED = json.load(io.open(_vp, encoding='utf-8'))
+# The date of the last scan, written once at the top of the file; an entry
+# carries its own "d" only where it differs (linkstate.next_state).
+SCANNED = VERIFIED.pop('scanned', None)
 
 # Repository health: ci_github.py refreshes health.json weekly. A link can
 # answer perfectly while the project behind it has been archived or untouched
@@ -66,6 +69,7 @@ for n in load_records():
     }
     if n.get('added'):
         rec['added'] = n['added']
+        rec['_real'] = True           # its own arrival time, not its intake's
     if n['url'] in PICKS:
         rec['pick'] = 1
     if n.get('vs'):
@@ -78,7 +82,7 @@ for n in load_records():
 
     v = VERIFIED.get(k) or VERIFIED.get(_base(k))
     if v:
-        rec['ver'] = v['d']
+        rec['ver'] = v.get('d') or SCANNED
         if v['s'] == 'engel':
             rec['verw'] = 1          # bot-blocked - needs a manual look
         elif v['s'] == 'olu':
@@ -247,7 +251,8 @@ io.open(os.path.join(D, '..', 'links.en.js'), 'w', encoding='utf-8', newline='\n
 
 # The text version, for crawlers and for visitors without JavaScript:
 # category pages, sitemap, robots and the Atom feed. The app is untouched.
-_pages = emit.write_all(core, CATS, INTROS, LABELS, os.path.join(D, '..'), en)
+_pages = emit.write_all(core, CATS, INTROS, LABELS, os.path.join(D, '..'), en,
+                        scanned=SCANNED, real=[bool(r.get('_real')) for r in out])
 emit.write_issue_form(CATS, os.path.join(D, '..'))
 emit.write_home(core, CATS, groups, os.path.join(D, '..'), en)
 
@@ -348,4 +353,4 @@ print('sources        :', dict(_sc))
 print('verified       :', sum(1 for r in core if r.get('ver')))
 print('with related   :', sum(1 for r in core if r.get('rel')))
 print('repo flagged   :', sum(1 for r in core if r.get('hs')))
-print('static pages   :', len(_pages), '+ sitemap, robots, feed')
+print('static pages   :', len(_pages), 'pairs + sitemap, robots, feeds, data/v1')

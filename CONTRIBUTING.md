@@ -14,8 +14,13 @@ If the answer is not known, write that. It will be researched. Left empty, the
 suggestion cannot be used.
 
 Submissions open as GitHub issues. Nothing reaches the site automatically: an
-issue is read, a description is written, and the entry goes in on the next
-build if it fits the scope.
+issue is read, and if it fits the scope the maintainer adds the `approved`
+label. A workflow then writes the record into a pull request; its description
+is rewritten in both languages by hand before the pull request is merged.
+
+The form asks you to agree that the text you write is published under CC BY
+4.0, the licence of the directory's descriptions; without that box ticked the
+submission cannot be used.
 
 ## What is in scope
 
@@ -40,17 +45,18 @@ What is turned away, and why:
 instrument: it matches words, so it finds a gap, it does not measure one).
 
 **Wanted** — topics a programmer, data person or maker looks for and the
-directory barely has (as of 6 October 2026, matching records in brackets):
-WebAssembly (2), regular expressions (8), accessibility (10), LaTeX and
-typesetting (3), maps and GIS (4), low-code and no-code (3), cryptography for
-learners (12). A suggestion in one of these is welcome even if it is not
+directory barely has (matching records in brackets, as of 22 October 2026;
+the counts move with every intake, so run `python data/coverage.py` for
+today's): WebAssembly (5), regular expressions (13), accessibility (16), LaTeX
+and typesetting (8), maps and GIS (11), low-code and no-code (3), cryptography
+for learners (17). A suggestion in one of these is welcome even if it is not
 famous; the question is still whether a description of how it differs can be
 written.
 
 **Left out on purpose** — these are not gaps, and a suggestion there will
 usually be turned away:
-- The natural sciences as a subject. Chemistry (4), biology and genomics (2)
-  and astronomy (14) are thin because the directory takes science as data,
+- The natural sciences as a subject. Chemistry, biology and genomics, and
+  astronomy are thin (and `coverage.py` no longer counts them) because the directory takes science as data,
   tools and open access (one category, *Bilim & Akademik*), not as a general
   science directory. A genome browser or an open dataset fits; a popular
   astronomy blog does not.

@@ -133,10 +133,10 @@ function homeHTML(L){
     var n = full.reduce(function(s, k){ return s + BYCAT[k].length }, 0);
     if(!n) return "";
     nf++;
-    return '<li class="fe"><a class="ft" '+fieldLink(g)+'><span class="rn">'+ROMAN[gi]+'</span>'+
+    return '<li class="fe"><a class="ft" '+fieldLink(g, true)+'><span class="rn">'+ROMAN[gi]+'</span>'+
              '<span class="fn">'+esc(g[lang])+'</span><span class="ld"></span><span class="n">'+n+'</span></a>'+
            '<p class="fc">'+full.map(function(k){
-             return '<a href="?cat='+esc(k)+'" data-cat="'+esc(k)+'">'+esc(shortCat(k))+'</a>';
+             return '<a href="'+staticCat(k)+'" data-cat="'+esc(k)+'">'+esc(shortCat(k))+'</a>';
            }).join(", ")+'</p></li>';
   }).join("");
   /* Kanit satiri ve ornek sorgular: ilk bakista dizinin ne oldugu ve
@@ -169,10 +169,13 @@ function fmtDay(iso){
 
 /* Tek bir dolu kategorisi olan bir alan icin ara sayfa, tek karti olan bir
    ekran ve ikinci bir tik demek; o alan dogrudan kategorisine acilir. */
-function fieldLink(g){
+/* Giriste basliklar statik sayfalarina bagli (emit.home_html ile ayni): betiksiz
+   okur ve arama motoru oraya iniyor, tiklamayi data-cat ile uygulama karsiliyor. */
+function staticCat(k){ return (lang === "tr" ? "k/" : "k/en/") + esc(k) + ".html" }
+function fieldLink(g, home){
   var dolu = g.cats.filter(function(k){ return BYCAT[k] && BYCAT[k].length });
   return dolu.length === 1
-    ? 'href="?cat='+esc(dolu[0])+'" data-cat="'+esc(dolu[0])+'"'
+    ? 'href="'+(home ? staticCat(dolu[0]) : '?cat='+esc(dolu[0]))+'" data-cat="'+esc(dolu[0])+'"'
     : 'href="?f='+esc(g.key)+'" data-field="'+esc(g.key)+'"';
 }
 
@@ -301,8 +304,9 @@ function sideHTML(L){
   function item(k){
     var c = CATBYKEY[k]; if(!c) return "";
     var n = counts[k] || 0, on = activeCat === k;
+    /* Sonucu olmayan baslik tiklanabilir kaliyor ama Tab sirasinda degil. */
     return '<li><a href="?cat='+esc(k)+'" data-cat="'+esc(k)+'" class="'+(on ? "on" : (n ? "" : "empty"))+'"'+
-           (on ? ' aria-current="page"' : '')+'><span class="t">'+esc(shortCat(k))+'</span><span class="n">'+n+'</span></a></li>';
+           (on ? ' aria-current="page"' : '')+(n || on ? '' : ' tabindex="-1"')+'><span class="t">'+esc(shortCat(k))+'</span><span class="n">'+n+'</span></a></li>';
   }
   var g = activeField && FIELDBYKEY[activeField];
   if(g){
@@ -312,7 +316,7 @@ function sideHTML(L){
   }
   return '<p class="side-k">'+esc(L.fxHead)+'</p><ol>'+GROUPS.map(function(gg, gi){
     var n = gg.cats.reduce(function(s, k){ return s + (counts[k] || 0) }, 0);
-    return '<li><a '+fieldLink(gg)+' class="'+(n ? "" : "empty")+'"><span class="t"><span class="rn">'+
+    return '<li><a '+fieldLink(gg)+' class="'+(n ? "" : "empty")+'"'+(n ? '' : ' tabindex="-1"')+'><span class="t"><span class="rn">'+
            ROMAN[gi]+'</span> '+esc(gg[lang])+'</span><span class="n">'+n+'</span></a></li>';
   }).join("")+'</ol>';
 }
@@ -379,7 +383,6 @@ function catPageHTML(L, shown){
 
 function paintChrome(L){
   document.documentElement.lang = lang;
-  document.title            = L.title;
   $("#t-title").textContent = L.title;
   $("#logo").setAttribute("aria-label", L.homeLabel);
   $("#hero").innerHTML      = L.hero(fmtN(data.length));
@@ -397,6 +400,7 @@ function paintChrome(L){
   $("#side").setAttribute("aria-label", L.fxHead);
   $("#top").setAttribute("aria-label", L.topLabel); $("#top").title = L.topLabel;
   $("#skip").textContent    = L.skip;
+  $("#skipr").textContent   = L.skipRes;
   $("#foot-t").innerHTML    = L.foot;
   $("#foot-kb").innerHTML   = L.kb;
   $("#l-exp").textContent   = L.exp;
@@ -523,17 +527,24 @@ function renderView(){
   document.body.classList.toggle("calm", !!(single || recent || cmpKeys.length || (browsing && !activeCat)));
   document.body.classList.toggle("at-home", !!(browsing && !activeCat && !activeField && !single && !recent && !cmpKeys.length));
   $("#nav").innerHTML = sideHTML(L);
+  /* "Sonuclara atla" yalnizca bir sonuc listesi varken (bkz. 60-events). */
+  $("#skipr").hidden = true;
 
   /* Tek kayit gorunumu: adres kaydin URL anahtarina bagli. */
   if(single){
     var tek = byPerma(single);
-    if(tek){ $("#list").innerHTML = singleHTML(L, tek); return; }
+    if(tek){ $("#list").innerHTML = singleHTML(L, tek); setTitle(L, tek.name); return; }
     single = null;
   }
-  if(recent){ $("#list").innerHTML = recentHTML(L); return; }
-  if(cmpKeys.length){ $("#list").innerHTML = cmpHTML(L); return; }
+  if(recent){ $("#list").innerHTML = recentHTML(L); setTitle(L, L.recent); return; }
+  if(cmpKeys.length){
+    $("#list").innerHTML = cmpHTML(L);
+    setTitle(L, L.cmpHead + ": " + cmpKeys.map(function(k){ return KEYIDX[k].name }).join(", "));
+    return;
+  }
 
   if(browsing && !activeCat && !activeField){
+    setTitle(L, "");
     /* build.py girisi index.html'e onceden ciziyor (data-pre). Ilk acilista
        Ingilizce ise (varsayilan dil) oldugu gibi birakiliyor; ayni markup'i
        yeniden yazmak belirme animasyonunu ikinci kez oynatirdi. */
@@ -541,10 +552,19 @@ function renderView(){
     if(pre && lang === "en"){ pre.removeAttribute("data-pre"); return; }
     $("#list").innerHTML = homeHTML(L); return;
   }
-  if(browsing && !activeCat){ $("#list").innerHTML = fieldHTML(activeField, L); return; }
+  if(browsing && !activeCat){
+    $("#list").innerHTML = fieldHTML(activeField, L);
+    setTitle(L, FIELDBYKEY[activeField] ? FIELDBYKEY[activeField][lang] : "");
+    return;
+  }
 
   var shown = data.filter(keep);
   $("#list").innerHTML = activeCat ? catPageHTML(L, shown) : listPageHTML(L, shown);
+  setTitle(L, q ? "“" + q + "”" + (activeCat ? " · " + shortCat(activeCat) : "")
+            : activeCat ? shortCat(activeCat)
+            : listKeys ? L.shared : savedView ? L.saved
+            : onlyPicks && !activeTags.length && !activeSrc ? L.hStart : L.all);
+  $("#skipr").hidden = !$("#list .rec");
   announce(q ? L.results(q, shown.length) : L.count(shown.length, data.length));
 }
 /* Arama ve suzgec sonucu ekranda gorunuyor; ekran okuyucuya ise kimse
@@ -556,6 +576,8 @@ function announce(text){
   liveLast = text;
   $("#live").textContent = text;
 }
+/* Sekme basligi gorunumu soyluyor: "Squoosh — Useful Sites", "“regex” — Useful Sites". */
+function setTitle(L, s){ document.title = s ? s + " — " + L.title : L.title }
 function render(){ renderView(); syncFilt(); }
 
 function update(push){ writeURL(push); render(); }

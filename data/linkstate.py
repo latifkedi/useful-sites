@@ -76,14 +76,18 @@ def recheck_date(today, days=180):
     return (datetime.date.fromisoformat(today) + datetime.timedelta(days=days)).isoformat()
 
 
+# verified.json keys that are not a record: the date of the scan that wrote the file.
+META_KEYS = ('scanned',)
+
+
 def orphan_keys(keys, urls, keyfn):
     """Keys of verified.json (or manual.json) that no record in the directory carries.
 
     A removed or re-addressed record leaves its entry behind; the file once held 251
     such keys against 988 records. Matches a record by its key with and without the
-    query string, as the scan always has.
+    query string, as the scan always has. The file's own META_KEYS are not records.
     """
-    live = set()
+    live = set(META_KEYS)
     for u in urls:
         k = keyfn(u)
         live.add(k)
@@ -130,9 +134,11 @@ WEEK = 7
 # get in. "lock-free" and "free-form" are not price claims, hence the lookarounds.
 CLAIM = re.compile(r'(?<![-\w])(free|ücretsiz\w*|beta|waitlist|wait-list|bekleme listesi|'
                    r'early access|erken erişim)(?![-\w])', re.I)
-# A week's review list stays short enough to be read; the overflow is counted, and
-# next week brings a different slice of records anyway.
+# A week's review list stays short enough to be read. What does not fit is carried
+# into the next week's list, ahead of that week's own records -- still stateless:
+# each run replays the last CARRY_WEEKS weeks of the queue from the same rules.
 CLAIM_CAP = 25
+CARRY_WEEKS = 8
 
 
 def recheck_days(cat):
@@ -162,19 +168,74 @@ def time_claims(text):
     return sorted({m.group(1).lower() for m in CLAIM.finditer(text or '')})
 
 
-def claim_rechecks(rows, today, cap=CLAIM_CAP):
+def claim_rechecks(rows, today, cap=CLAIM_CAP, carry_weeks=CARRY_WEEKS):
     """Records due this week whose description makes a perishable claim.
 
     rows: dicts with cat, url, added (or None), tr, en. Returns (picked, overflow):
-    at most `cap` of them, the 90-day tier first, and how many were left out.
+    at most `cap` of them, and how many are left for next week.
+
+    The overflow used to be dropped ("next interval brings them back" -- 90 or
+    365 days later). Now the queue is replayed week by week from `carry_weeks`
+    ago: each week takes `cap` records, oldest due week first, then the 90-day
+    tier, then an order shuffled by hash of URL and week so that one site does
+    not always sort first. Same inputs, same list: nothing is stored.
     """
-    due = []
+    claims = []
     for r in rows:
         words = time_claims((r.get('tr') or '') + ' ' + (r.get('en') or ''))
-        if words and description_due(r.get('cat'), r.get('url'), r.get('added'), today):
-            due.append(dict(r, claims=words))
-    due.sort(key=lambda r: (recheck_days(r.get('cat')), r.get('url') or ''))
-    return due[:cap], max(0, len(due) - cap)
+        if words:
+            claims.append(dict(r, claims=words))
+    t = datetime.date.fromisoformat(today)
+    queue = []
+    for back in range(carry_weeks, -1, -1):
+        week = t - datetime.timedelta(days=WEEK * back)
+        w = week.isoformat()
+        for r in claims:
+            if description_due(r.get('cat'), r.get('url'), r.get('added'), w):
+                queue.append((week.toordinal(), recheck_days(r.get('cat')),
+                              zlib.crc32(('%s %s' % (r.get('url') or '', w)).encode('utf-8')), r))
+        queue.sort(key=lambda q: q[:3])
+        picked, queue = queue[:cap], queue[cap:]
+    return [q[3] for q in picked], len(queue)
+
+
+def scan_changes(prev, new):
+    """What moved between two verified.json snapshots ({key: entry}).
+
+    The weekly report used to repeat every failing link every week, so the
+    one that broke this week drowned among the fifty that were already known.
+    Returns {'newly_dead', 'newly_failing', 'recovered'} as sorted key lists;
+    a key absent from `prev` counts as previously ok.
+    """
+    out = {'newly_dead': [], 'newly_failing': [], 'recovered': []}
+    for k, e in new.items():
+        was = (prev.get(k) or {}).get('s', 'ok')
+        now = e.get('s')
+        if now == 'olu' and was != 'olu':
+            out['newly_dead'].append(k)
+        elif now == 'engel' and was == 'ok':
+            out['newly_failing'].append(k)
+        elif now == 'ok' and was in ('engel', 'olu'):
+            out['recovered'].append(k)
+    return {k: sorted(v) for k, v in out.items()}
+
+
+def health_changes(prev, new):
+    """What moved between two health.json snapshots ({key: {'s': state}}).
+
+    Returns {state: [keys]} for keys that reached arşiv, bayat or yok this run,
+    and 'recovered' for keys that left one of them.
+    """
+    bad = ('arşiv', 'bayat', 'yok')
+    out = {'yok': [], 'arşiv': [], 'bayat': [], 'recovered': []}
+    for k, e in new.items():
+        was = (prev.get(k) or {}).get('s')
+        now = e.get('s')
+        if now in bad and now != was:
+            out[now].append(k)
+        elif was in bad and now not in bad:
+            out['recovered'].append(k)
+    return {k: sorted(v) for k, v in out.items()}
 
 
 def may_write(argv, env):
@@ -196,23 +257,30 @@ def classify(result):
     return 'suspect'
 
 
-def next_state(prev, c, manual_entry, today):
+def next_state(prev, c, manual_entry, today, last_scan=None):
     """One entry's verified.json value after a scan classified as c.
 
     Pure, so the rules can be tested without a network: ok resets the count;
     suspect keeps it (neither confirms nor clears); dead increments it and
     only reaches "olu" at DEAD_AFTER. A manual decision overrides all three.
+
+    The file carries the scan's date once, at the top ("scanned"), and an
+    entry carries its own "d" only where that differs: a dead entry keeps the
+    date of the scan it first failed on (a stale date carries its own warning, and the site
+    points at the archive). Every other entry was checked on the scanned date,
+    so it needs none. Writing today's date into all 1,900 entries made every
+    weekly commit a 1,900-line diff that hid the few entries that changed;
+    now only a change of state touches an entry. `today` is the date of this
+    scan, `last_scan` the "scanned" date of the previous one.
     """
     if manual_entry:
-        return {'d': today, 's': manual_entry['s']}
+        return {'s': manual_entry['s']}
     f = prev.get('f', 0)
     if c == 'ok':
-        return {'d': today, 's': 'ok'}
+        return {'s': 'ok'}
     if c == 'suspect':
-        return dict({'d': today, 's': 'engel'}, **({'f': f} if f else {}))
+        return dict({'s': 'engel'}, **({'f': f} if f else {}))
     f += 1
     if f >= DEAD_AFTER:
-        # The date is left alone -- a stale date carries its own warning --
-        # and the status lets the site point at the archive.
-        return {'d': prev.get('d', today), 's': 'olu', 'f': f}
-    return {'d': today, 's': 'engel', 'f': f}
+        return {'d': prev.get('d') or last_scan or today, 's': 'olu', 'f': f}
+    return {'s': 'engel', 'f': f}

@@ -128,7 +128,7 @@ header.top{position:relative;display:grid;grid-template-columns:auto minmax(0,1f
   border:1px solid var(--rule);border-radius:6px;padding:9px 40px 9px 13px;
   transition:border-color .12s var(--step),box-shadow .12s var(--step)}
 #q::placeholder{color:var(--faint)}
-#q:focus{outline:none;border-color:var(--red);box-shadow:0 0 0 3px var(--red-soft)}
+#q:focus{outline:2px solid var(--red);outline-offset:2px;border-color:var(--red);box-shadow:0 0 0 3px var(--red-soft)}
 .search kbd{position:absolute;right:10px;top:50%;transform:translateY(-50%);pointer-events:none}
 #q:focus + kbd{display:none}
 .menu-b{grid-area:menu;display:none;font-size:22px;line-height:1;padding:4px 10px}
@@ -391,6 +391,15 @@ footer .lnk{padding:4px 6px;font-size:14px}
 .other p{margin:10px 0 0;font-size:15px;line-height:2}
 .other a{color:var(--dim);text-decoration:none;margin-right:16px}
 .other a:hover{color:var(--red)}
+/* Hakkinda, degisiklikler ve alternatif sayfalari: duz metin. */
+.prose > p:not([class]),.prose > ul{max-width:70ch;font-size:15.5px;line-height:1.64;color:var(--dim)}
+.prose > ul{padding-left:20px}
+.prose li{margin:5px 0;overflow-wrap:anywhere}
+.prose h3{margin:28px 0 4px;font:600 17px/1.3 var(--serif)}
+.prose blockquote{margin:14px 0;padding-left:16px;border-left:2px solid var(--rule);
+  font:400 16px/1.6 var(--serif);color:var(--dim)}
+.ilinks a{margin-right:12px}
+.sf{font-size:13px}
 
 /* ---------------------------------------------------------------- giris: kanit, ornek sorgular */
 .proof{margin:0 0 12px;font-size:13.5px;line-height:1.6;color:var(--dim)}
@@ -461,10 +470,41 @@ dialog#pal::backdrop,dialog#kbh::backdrop{background:var(--scrim)}
 /* ---------------------------------------------------------------- yukleniyor iskeleti
    Giris disi bir adres acilirken veri gelene kadar (boot.js html.pending koyuyor). */
 html.pending #list > [data-pre]{display:none}
-html.pending #list::before{content:"";display:block;height:520px;border-radius:4px;
+html.pending #list::before{content:"";display:block;height:max(520px,100vh);border-radius:4px;
   background:repeating-linear-gradient(to bottom,var(--panel) 0 20px,transparent 20px 36px,
     var(--rule2) 36px 52px,transparent 52px 104px);animation:pulse 1.1s ease-in-out infinite alternate}
 @keyframes pulse{from{opacity:.5}to{opacity:1}}
+/* Iskelet sirasinda baslik da son halinde: derin baglanti (?e=, ?cat=, ?q=) giris
+   duzeniyle (iri giris cumlesi, iri arama) boyanip app.js cizince toplanmasin
+   (telefonda CLS 0.135 buradan geliyordu). Asagidaki dar ekran kurallari da ayni. */
+html.pending body.at-home header.top{grid-template-columns:auto minmax(0,1fr) auto;
+  grid-template-areas:"logo search acts";row-gap:14px;padding:16px 0}
+html.pending body.at-home .hero,html.pending body.at-home .wm{display:none}
+/* Alt bilgi iskeletin altinda, ekran disinda: liste gelince kaymasin. */
+html.pending #foot{visibility:hidden}
+html.pending body.at-home .search{max-width:540px}
+html.pending body.at-home #q{font:15px/1.4 var(--sans);padding:9px 40px 9px 13px;background:var(--field);
+  border:1px solid var(--rule);border-radius:6px}
+html.pending body.at-home .search kbd{right:10px}
+
+/* Betik yokken (ya da henuz calismadiysa) yalnizca betikle calisan araclar gizli;
+   boot.js html'e "js" koyuyor. Statik sayfalarin araclari (k/) kimlik tasimiyor. */
+html:not(.js) .top .search,html:not(.js) #menub,html:not(.js) #acts,
+html:not(.js) #foot-x,html:not(.js) #foot-kb,html:not(.js) #top{display:none}
+.nojs{margin:20px 0 0;padding:12px 14px;border:1px solid var(--rule);border-radius:6px;
+  background:var(--field);font-size:15px;line-height:1.6;color:var(--dim)}
+.nojs a{color:var(--red)}
+/* 404.html: betiksiz arama formu dogrudan ?q= adresine gidiyor. */
+.nf-search{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:0 0 18px;max-width:560px}
+.nf-search label{flex:1 1 100%;font-size:13px;color:var(--faint)}
+.nf-search input{flex:1 1 220px;min-height:44px;font:16px/1.4 var(--sans);color:var(--fg);background:var(--field);
+  border:1px solid var(--rule);border-radius:6px;padding:9px 13px}
+.nf-search .btn{min-height:44px}
+.nf-links{font-size:15px;line-height:2.2}
+.nf-links a{color:var(--red)}
+/* Adresin anlasilmayan kismi atildi (?e=yok, ?cat=zzz ...). */
+.urlnote{margin:14px 0 0;padding:10px 14px;border-left:3px solid var(--red);background:var(--panel);
+  font-size:14px;line-height:1.5;color:var(--dim)}
 
 /* ---------------------------------------------------------------- dar ekran */
 @media (max-width:1000px){
@@ -480,6 +520,9 @@ html.pending #list::before{content:"";display:block;height:520px;border-radius:4
   header.top{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"logo menu" "search search";
     row-gap:10px;padding:12px 0 14px}
   body.at-home header.top{grid-template-areas:"logo menu" "hero hero" "search search";padding:14px 0 22px}
+  html.pending body.at-home header.top{grid-template-columns:minmax(0,1fr) auto;
+    grid-template-areas:"logo menu" "search search";row-gap:10px;padding:12px 0 14px}
+  html.pending body.at-home #q{font-size:16px}
   body.static header.top{grid-template-columns:minmax(0,1fr);grid-template-areas:"logo" "acts";row-gap:4px}
   body.static .acts{flex-wrap:wrap;margin-left:-10px}
   body.at-home .hero{font-size:29px;margin:26px 0 16px}
@@ -550,6 +593,15 @@ html.pending #list::before{content:"";display:block;height:520px;border-radius:4
   .ft{padding:10px 0;margin:-10px 0}
   .hlinks a{display:inline-block;padding:11px 0;margin:-11px 0}
 }
+/* Dokunmatikte satir ici kucuk baglantilar en az 44 px yuksek kutu: dolgu
+   buyuyor, eksi kenar boslugu geri cekiyor, satir yuksekligi degismiyor. */
+@media (pointer:coarse){
+  .fc a,.arch,.path a,.rel a,.crumb a,.onemore a,.qhelp a,footer a,.cmpb,
+  .hpicks a,.itags span{display:inline-block;padding-top:12px;padding-bottom:12px;
+    margin-top:-12px;margin-bottom:-12px}
+  .tryq .chip{min-height:44px}
+  .save{min-width:44px;min-height:44px}
+}
 
 /* Telefonda suzme: arac cubugu kaydirirken ustte yapisik kaliyor; secili
    suzgecler tek satirda yana kayiyor ki cubuk ekranin yarisini yemesin. */
@@ -591,4 +643,20 @@ html.pending #list::before{content:"";display:block;height:520px;border-radius:4
   :root{--dim:#3d3932; --faint:#46423a; --rule:#8f877a; --rule2:#b3aa98; --mark:#f6e6d9}
   :root[data-theme="dark"]{--dim:#d6d0c2; --faint:#c7c1b2; --rule:#6b6555; --rule2:#4d483d; --mark:#2c1a14}
   .rec a.name,.fc a,.rel a{text-decoration:underline;text-underline-offset:3px}
+}
+
+/* Baski: kagitta isleyen bir sey yok (arama, araclar, kaydet, siteyi ac,
+   kisayollar); baglantilarin adresi adin arkasinda yaziliyor; siyah beyaz. */
+@media print{
+  :root,:root[data-theme="dark"]{--bg:white;--panel:white;--field:white;--fg:black;--dim:black;--faint:black;
+    --rule:gray;--rule2:silver;--red:black;color-scheme:light}
+  body{background:white;color:black;padding:0}
+  .top .search,#menub,#acts,.wm,.skip,.side,.save,.cmpb,.visit,.tb,.pager,.tray,#top,
+  #foot-x,#foot-kb,.more-b,.sib-b,.tryq,.urlnote,.nojs,dialog{display:none!important}
+  .rec .meta .arch,.rec .meta .badge.src{visibility:visible}
+  .rec a.name::after,.hpicks a::after{content:" (" attr(href) ")";position:static;
+    font:400 11px/1.4 var(--mono);color:black;word-break:break-all}
+  .rec{break-inside:avoid}
+  #list .rec:not(.big){content-visibility:visible}
+  .home,.fieldpage,.catpage,.one,.recentpage,.cmppage{animation:none}
 }

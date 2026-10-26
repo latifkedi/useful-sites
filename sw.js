@@ -13,13 +13,14 @@
 "use strict";
 /* Onbellek sitenin kendi dosyalariyla sinirli: sayfalar yollarina gore
    (sorgusuz), damgali dosyalar yol basina tek surum (trim), geri kalani
-   fontlar ve ikonlar. Hepsini sifirlamak icin bu adi degistir (v2 -> v3; v2 raf, palet ve karsilastirma ile geldi):
+   fontlar ve ikonlar. Hepsini sifirlamak icin bu adi degistir (v3 -> v4; v2 raf, palet ve karsilastirma ile, v3
+   cevrimdisi yedek sayfa ve paralel betik yuklemesiyle geldi):
    yeni sw.js yuklenince activate eski onbellegi siliyor. Service worker'i
    tamamen kaldirmak gerekirse sw.js'i, kendini
    self.registration.unregister() ile kaldiran ve onbellegi silen bir
    dosyayla degistirmek yeterli; tarayici sw.js'i her gezinmede yeniden
    denetliyor (en fazla 24 saatte bir). */
-var CACHE = "useful-sites-v2";
+var CACHE = "useful-sites-v3";
 var NAV_TIMEOUT = 3000;
 
 function stamped(url){ return /[?&]v=[0-9a-f]+$/.test(url.search) }
@@ -71,6 +72,25 @@ function network(req, cache, key){
   });
 }
 
+/* Hic acilmamis bir sayfa ve ag yok: tarayicinin hata sayfasi yerine kok
+   adresse onbellekteki giris (uygulama sorgudan cizebiliyor); baska bir yol
+   (k/...) icin giris sayfasi gosterilemez (goreli adresleri o klasorden
+   cozulurdu), iki dilli kucuk bir cevrimdisi notu ve girise bir baglanti. */
+function offline(cache, url){
+  var home = new URL("./", self.registration.scope);
+  var root = url.pathname === home.pathname || url.pathname === home.pathname + "index.html";
+  return (root ? cache.match(home.href) : Promise.resolve(null)).then(function(r){
+    if(r) return r;
+    return new Response('<!doctype html><html lang="en"><meta charset="utf-8">' +
+      '<meta name="viewport" content="width=device-width, initial-scale=1"><title>Offline — Useful Sites</title>' +
+      '<body style="font:16px/1.6 system-ui,sans-serif;max-width:36em;margin:3em auto;padding:0 16px">' +
+      '<h1>You are offline</h1><p>This page has not been saved for offline reading yet.</p>' +
+      '<p lang="tr">Çevrimdışısın; bu sayfa henüz çevrimdışı okuma için kaydedilmedi.</p>' +
+      '<p><a href="' + home.href + '">Useful Sites / Kullanışlı Siteler</a></p></body></html>',
+      {status: 503, headers: {"Content-Type": "text/html; charset=utf-8"}});
+  });
+}
+
 self.addEventListener("fetch", function(e){
   var req = e.request, url = new URL(req.url);
   if(req.method !== "GET" || url.origin !== self.location.origin) return;
@@ -84,7 +104,8 @@ self.addEventListener("fetch", function(e){
       var late = new Promise(function(ok){ setTimeout(ok, NAV_TIMEOUT) }).then(function(){ return cache.match(key) });
       /* Ag hataysa onbellek; ag yavassa 3 saniye sonra onbellek (varsa). */
       return Promise.race([net.catch(function(){ return cache.match(key) }), late.then(function(r){ return r || net })])
-        .then(function(r){ return r || net });
+        .then(function(r){ return r || net })
+        .catch(function(){ return offline(cache, url) });
     }));
     return;
   }
