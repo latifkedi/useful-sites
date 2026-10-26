@@ -183,9 +183,7 @@ jobs:
               ? parts.join('\n\n---\n\n')
               : 'Nothing wrong in this week\'s scan.';
             if (notes.length) {
-              body = '> **This scan did not complete cleanly:** ' + notes.join('; ') + '.
-
-' +
+              body = '> **This scan did not complete cleanly:** ' + notes.join('; ') + '.' + String.fromCharCode(10, 10) +
                      (parts.length ? body : '(No report to show.)');
             }
             body += `\n\n<sub>[Run](${run}) · full reports are kept as the run's artifact.</sub>`;

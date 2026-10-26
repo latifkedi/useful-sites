@@ -76,6 +76,50 @@ def used_labels():
     return out
 
 
+def workflows():
+    """Every workflow and config file parses, and every inline github-script
+    block is valid JavaScript. GitHub reports a file it cannot parse only as a
+    failed run with no jobs ("workflow file issue"): the weekly scan once went
+    out with a real line break inside a JS string and would never have run."""
+    try:
+        import yaml
+    except ImportError:
+        print('  skip PyYAML not installed (pip install -r requirements-dev.txt)')
+        return
+    import glob
+    import subprocess
+    import tempfile
+    files = sorted(glob.glob(os.path.join(ROOT, '.github', 'workflows', '*.yml')) +
+                   glob.glob(os.path.join(ROOT, '.github', '*.yml')))
+    for f in files:
+        name = os.path.relpath(f, ROOT).replace(os.sep, '/')
+        try:
+            doc = yaml.safe_load(io.open(f, encoding='utf-8'))
+        except yaml.YAMLError as e:
+            check(False, '%s parses -- %s' % (name, str(e).splitlines()[0]))
+            continue
+        check(isinstance(doc, (dict, list)), '%s parses' % name)
+        if not isinstance(doc, dict):
+            continue
+        for jid, job in (doc.get('jobs') or {}).items():
+            for i, st in enumerate(job.get('steps') or []):
+                script = (st.get('with') or {}).get('script')
+                if not script:
+                    continue
+                with tempfile.NamedTemporaryFile('w', suffix='.js', delete=False, encoding='utf-8') as t:
+                    t.write('(async()=>{' + script + chr(10) + '})')
+                try:
+                    r = subprocess.run(['node', '--check', t.name], capture_output=True, text=True)
+                except OSError:
+                    print('  skip node not found; github-script blocks not syntax-checked')
+                    r = None
+                finally:
+                    os.unlink(t.name)
+                if r is not None:
+                    check(r.returncode == 0, '%s %s step %d: inline script is valid JavaScript%s'
+                          % (name, jid, i + 1, '' if r.returncode == 0 else ' -- ' + r.stderr.strip().splitlines()[-1]))
+
+
 def main():
     print('labels')
     have = declared_labels()
@@ -103,6 +147,10 @@ def main():
     nodate = [k for k, v in manual.items() if not iso.match(v.get('d', '')) or not iso.match(v.get('r', ''))]
     check(not nodate, 'every entry has "d" and "r" as YYYY-MM-DD' + (' -- %s' % nodate[:5] if nodate else ''))
     check(all(v.get('s') in ('ok', 'engel') for v in manual.values()), 'every entry has "s" ok or engel')
+
+    print()
+    print('workflows')
+    workflows()
 
     print()
     if fails:

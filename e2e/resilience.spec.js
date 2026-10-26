@@ -189,6 +189,17 @@ test("phone: small links are at least 24px tall to the touch", async ({ page, is
       .map(e => [e.textContent.trim().slice(0, 20), e.getBoundingClientRect().height])
       .filter(([, h]) => h > 0 && h < 24));
     expect(small, url).toEqual([]);
+    /* Bigger boxes must not steal the tap from a neighbour: the middle of every
+       link has to hit that link. (12 px of padding on stacked category links
+       covered the next link's middle: tapping one opened another.) */
+    const stolen = await page.locator(sel).evaluateAll(els => els.slice(0, 80).flatMap(e => {
+      e.scrollIntoView({ block: "center" });
+      const r = e.getBoundingClientRect();
+      if (!r.width || !r.height) return [];
+      const t = document.elementFromPoint(r.left + r.width / 2, r.top + r.height / 2);
+      return t && (t === e || e.contains(t)) ? [] : [e.textContent.trim().slice(0, 20) + " -> " + (t ? t.textContent.trim().slice(0, 20) : "nothing")];
+    }));
+    expect(stolen, url + " (taps stolen by a neighbour)").toEqual([]);
   }
 });
 

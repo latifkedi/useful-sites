@@ -45,8 +45,10 @@ jobs:
       - name: Unit test the search/scoring logic
         run: node test_search.js
 
-      - name: Check the repository wiring (labels, sources, manual.json)
-        run: python data/test_repo.py
+      - name: Check the repository wiring (labels, sources, manual.json, workflow files)
+        run: |
+          pip install --quiet PyYAML==6.0.3
+          python data/test_repo.py
 
       # The generated files are committed, so a rebuild must be a no-op. If it
       # is not, someone edited links.js or a category page by hand and the next

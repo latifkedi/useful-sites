@@ -641,17 +641,20 @@ html:not(.js) #foot-x,html:not(.js) #foot-kb,html:not(.js) #top{display:none}
 @media (pointer:coarse),(max-width:720px){
   .logo{padding:9px 0;margin:-9px 0}
   .rec a.name,.arch{position:relative}
-  .rec a.name::after{content:"";position:absolute;inset:-11px 0}
-  .arch::after{content:"";position:absolute;inset:-12px -8px}
+  .rec a.name::after{content:"";position:absolute;inset:-3px 0}
+  .arch::after{content:"";position:absolute;inset:-3px -8px}
   .ft{padding:10px 0;margin:-10px 0}
-  .hlinks a{display:inline-block;padding:11px 0;margin:-11px 0}
+  .hlinks a{display:inline-block;padding:3px 0;margin:-3px 0}
 }
-/* Dokunmatikte satir ici kucuk baglantilar en az 44 px yuksek kutu: dolgu
-   buyuyor, eksi kenar boslugu geri cekiyor, satir yuksekligi degismiyor. */
+/* Dokunmatikte satir ici kucuk baglantilar en az 24 px yuksek kutu (WCAG 2.5.8):
+   dolgu buyuyor, eksi kenar boslugu geri cekiyor, satir yuksekligi degismiyor.
+   Dolgu kucuk tutuldu: alt alta duran baglantilarda 12 px dolgu komsunun orta
+   noktasini ortuyor, yani bir kategoriye dokunmak alttakini aciyordu (CI'da
+   yakalandi; yerelde yazi tipi yuzunden gorunmemisti). */
 @media (pointer:coarse){
   .fc a,.arch,.path a,.rel a,.crumb a,.onemore a,.qhelp a,footer a,.cmpb,
-  .hpicks a,.itags span{display:inline-block;padding-top:12px;padding-bottom:12px;
-    margin-top:-12px;margin-bottom:-12px}
+  .hpicks a,.itags span{display:inline-block;padding-top:3px;padding-bottom:3px;
+    margin-top:-3px;margin-bottom:-3px}
   .tryq .chip{min-height:44px}
   .save{min-width:44px;min-height:44px}
 }
