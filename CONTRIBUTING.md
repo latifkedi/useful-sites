@@ -45,11 +45,11 @@ What is turned away, and why:
 instrument: it matches words, so it finds a gap, it does not measure one).
 
 **Wanted** — topics a programmer, data person or maker looks for and the
-directory barely has (matching records in brackets, as of 22 October 2026;
+directory barely has (matching records in brackets, as of 4 November 2026;
 the counts move with every intake, so run `python data/coverage.py` for
-today's): WebAssembly (5), regular expressions (13), accessibility (16), LaTeX
+today's): WebAssembly (5), regular expressions (14), accessibility (17), LaTeX
 and typesetting (8), maps and GIS (11), low-code and no-code (3), cryptography
-for learners (17). A suggestion in one of these is welcome even if it is not
+for learners (18). A suggestion in one of these is welcome even if it is not
 famous; the question is still whether a description of how it differs can be
 written.
 

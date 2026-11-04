@@ -602,5 +602,50 @@
     "en": "Cuts and downloads a specific range from a video — faster and kinder to disk than downloading the whole thing and trimming.",
     "src": "kedi",
     "added": 1749240753
+  },
+  {
+    "url": "https://marp.app/",
+    "name": "Marp",
+    "tags": [
+      "ücretsiz",
+      "açık-kaynak",
+      "araç",
+      "cli",
+      "eklenti"
+    ],
+    "tr": "Düz Markdown dosyalarını CSS temalarıyla doğrudan HTML, PDF ve PowerPoint sunumlarına dönüştüren ekosistem; sürükle-bırak slayt programlarının aksine sunumları Git ile sürümlemeye uygundur.",
+    "en": "Markdown presentation ecosystem that compiles plain text files into HTML, PDF, and PowerPoint decks via CSS themes; keeps slides version-controlled in Git unlike drag-and-drop slide editors.",
+    "src": "kedi",
+    "added": 1776246693
+  },
+  {
+    "url": "https://onlinesequencer.net/",
+    "name": "Online Sequencer",
+    "tags": [
+      "ücretsiz",
+      "ses",
+      "tarayıcı-içi",
+      "interaktif",
+      "hesap-gerekmez"
+    ],
+    "tr": "Kurulum gerektirmeden tarayıcı içindeki piyano rulosu (piano roll) üzerinde çok kanallı melodi besteleyip MIDI olarak dışa aktaran müzik aracı; ağır DAW yazılımlarına kıyasla anında prototip üretmeyi sağlar.",
+    "en": "Browser-based piano-roll sequencer for composing multi-track melodies and exporting MIDI files with zero setup; built for instant sketching rather than full DAW production.",
+    "src": "kedi",
+    "added": 1776452699
+  },
+  {
+    "url": "https://opencut.app/",
+    "name": "OpenCut",
+    "tags": [
+      "ücretsiz",
+      "açık-kaynak",
+      "video",
+      "tarayıcı-içi",
+      "gizlilik"
+    ],
+    "tr": "Videoları sunucuya yüklemeden doğrudan tarayıcı içinde kesip kurgulayan açık kaynaklı video düzenleyici; CapCut gibi bulut ve hesap zorunluluğu olan araçlara gizlilik odaklı bir alternatif sunar.",
+    "en": "Open-source, browser-based video editor that processes media locally on your device without uploading files; serves as a privacy-focused alternative to cloud-tied editors like CapCut.",
+    "src": "kedi",
+    "added": 1776478497
   }
 ]

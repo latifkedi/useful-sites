@@ -1022,5 +1022,35 @@
     "en": "A Mozilla article that uses cartoons to explain why DNS is a privacy problem and how DoH changes it. Unlike protocol specs it assumes no background and quickly shows what the DoH debate is about.",
     "src": "secretknowledge",
     "added": 1792281600
+  },
+  {
+    "url": "https://www.tightvnc.com/",
+    "name": "TightVNC",
+    "tags": [
+      "ücretsiz",
+      "açık-kaynak",
+      "ağ",
+      "masaüstü",
+      "self-hosted"
+    ],
+    "tr": "Düşük bant genişlikli bağlantılar için sıkıştırma optimizasyonlarına sahip, hafif ve açık kaynaklı uzak masaüstü (VNC) sunucu ve istemci yazılımı; bulut aracılı ticari uzak destek araçlarının aksine doğrudan yerel ağ veya tünel üzerinden çalışır.",
+    "en": "Lightweight, open-source VNC remote desktop server and viewer optimized for slow network connections; connects directly over LAN or tunnels without relying on commercial cloud relays.",
+    "src": "kedi",
+    "added": 1776452749
+  },
+  {
+    "url": "https://wiki.ubuntu-tr.net/index.php?title=Anasayfa",
+    "name": "Ubuntu Türkiye Wiki",
+    "tags": [
+      "ücretsiz",
+      "türkçe",
+      "ağ",
+      "dokümantasyon",
+      "öğretici"
+    ],
+    "tr": "Ubuntu ve genel GNU/Linux sistem yönetimi, paket kurulumu, ağ yapılandırması ve donanım sorun giderme konularında topluluk tarafından hazırlanmış Türkçe bilgi bankası; dağınık forum konularının aksine yapılandırılmış rehberler sunar.",
+    "en": "Community-maintained Turkish wiki covering Ubuntu and GNU/Linux system administration, package management, networking, and hardware troubleshooting; organizes step-by-step guides instead of scattered forum threads.",
+    "src": "kedi",
+    "added": 1776670282
   }
 ]

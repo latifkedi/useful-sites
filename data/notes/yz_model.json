@@ -538,5 +538,51 @@
     "en": "An inference engine that pages the KV cache with PagedAttention to use GPU memory efficiently. Compared with Ollama, continuous batching pushes concurrent-request throughput far higher — built for serving, not a single user.",
     "src": "kedi",
     "added": 1787000000
+  },
+  {
+    "url": "https://github.com/cactus-compute/needle",
+    "name": "Needle (Cactus Compute)",
+    "tags": [
+      "ücretsiz",
+      "açık-kaynak",
+      "llm",
+      "self-hosted",
+      "gömülü",
+      "c-ailesi"
+    ],
+    "tr": "Apple Silicon ve mobil ARM işlemciler için sıfırdan yazılmış hafif çıkarım motoru; genel amaçlı sunucu motorlarının aksine uç cihazlarda düşük gecikme ve düşük bellek tüketimine odaklanır.",
+    "en": "Lightweight inference engine written for Apple Silicon and mobile ARM processors; focuses on low latency and minimal memory footprint on edge devices rather than datacenter GPUs.",
+    "src": "kedi",
+    "added": 1776379750
+  },
+  {
+    "url": "https://huggingface.co/open-llm-leaderboard",
+    "name": "Open LLM Leaderboard",
+    "tags": [
+      "ücretsiz",
+      "llm",
+      "gözlemlenebilirlik",
+      "referans",
+      "hesap-gerekmez"
+    ],
+    "tr": "Açık ağırlıklı dil modellerini standart akademik kıyaslamalarla (MMLU-Pro, GPQA, MATH) tek tabloda karşılaştıran Hugging Face panosu; kitle kaynaklı sohbet oylamalarının aksine tekrarlanabilir test puanlarını baz alır.",
+    "en": "Hugging Face benchmark board comparing open-weight language models across standardized evaluations (MMLU-Pro, GPQA, MATH); relies on reproducible test suites rather than crowdsourced chat votes.",
+    "src": "kedi",
+    "added": 1776452222
+  },
+  {
+    "url": "https://github.com/NandhaKishorM/laya",
+    "name": "Laya",
+    "tags": [
+      "ücretsiz",
+      "açık-kaynak",
+      "llm",
+      "gözlemlenebilirlik",
+      "araç"
+    ],
+    "tr": "Yerel donanımın hangi açık ağırlıklı LLM modellerini ve nicemleme (quantization) seviyelerini çalıştırabileceğini hesaplayan uyumluluk aracı; modeli indirmeden önce VRAM ve bellek darboğazlarını gösterir.",
+    "en": "Hardware compatibility checker that calculates which open-weight LLMs and quantization levels your local machine can run; spots VRAM and memory bottlenecks instead of requiring trial-and-error downloads.",
+    "src": "kedi",
+    "added": 1776452811
   }
 ]

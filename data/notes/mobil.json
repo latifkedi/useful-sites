@@ -661,5 +661,35 @@
     "tr": "Android cihaz modlama, ROM ve root topluluğunun en büyük forumlarından biri. Genel forumlardan farkı cihaz model model, derinlemesine teknik konulara bölünmüş olması.",
     "en": "One of the largest community forums for Android device modding, ROMs and root. Unlike general forums it is split device by device into deep technical threads.",
     "src": "awesomeproj"
+  },
+  {
+    "url": "https://github.com/NarYuki/Dextop",
+    "name": "Dextop",
+    "tags": [
+      "ücretsiz",
+      "açık-kaynak",
+      "mobil",
+      "masaüstü",
+      "araç"
+    ],
+    "tr": "Root yetkisi gerektirmeden Android cihazlar üzerinde donanım hızlandırmalı tam bir Linux masaüstü ortamı çalıştıran açık kaynaklı proje; yalnız komut satırı sunan standart Termux kurulumlarından grafiksel masaüstü odaklı yapısıyla ayrılır.",
+    "en": "Open-source project that runs a hardware-accelerated Linux desktop environment on unrooted Android devices; focuses on a full graphical desktop experience rather than a terminal-only Termux setup.",
+    "src": "kedi",
+    "added": 1776452776
+  },
+  {
+    "url": "https://github.com/xtool-org/xtool",
+    "name": "xtool",
+    "tags": [
+      "ücretsiz",
+      "açık-kaynak",
+      "mobil",
+      "cli",
+      "sdk"
+    ],
+    "tr": "Xcode kurmadan Linux, Windows ve macOS üzerinde SwiftPM tabanlı iOS uygulamaları derleyip imzalamayı ve cihaza yüklemeyi sağlayan çapraz platform araç seti; Apple donanımı zorunluluğunu aşmak isteyen geliştiricileri hedefler.",
+    "en": "Cross-platform CLI toolkit for building, signing, and deploying SwiftPM-based iOS apps from Linux, Windows, or macOS without Xcode; removes the strict macOS IDE requirement for iOS development.",
+    "src": "kedi",
+    "added": 1776478556
   }
 ]

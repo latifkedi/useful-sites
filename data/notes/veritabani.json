@@ -477,5 +477,20 @@
     "en": "Searchable documentation for every postgresql.conf parameter, with version differences, defaults and community recommendations. Unlike the official manual it adds per-parameter tuning advice and context.",
     "src": "secretknowledge",
     "added": 1792281600
+  },
+  {
+    "url": "https://www.mongodb.com/",
+    "name": "MongoDB",
+    "tags": [
+      "freemium",
+      "açık-kaynak",
+      "veritabanı",
+      "backend",
+      "dokümantasyon"
+    ],
+    "tr": "Verileri sabit tablolar yerine esnek JSON benzeri (BSON) belgeler halinde saklayan popüler belge tabanlı NoSQL veritabanı; ilişkisel şema göçleri gerektirmeden yatay ölçeklenme ve hızlı şema evrimi sağlar.",
+    "en": "Document-oriented NoSQL database that stores data in flexible JSON-like (BSON) documents rather than rigid relational tables; built for horizontal scaling and rapid schema iteration.",
+    "src": "kedi",
+    "added": 1776452256
   }
 ]

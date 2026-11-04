@@ -756,7 +756,7 @@
     "added": 1776686564
   },
   {
-    "url": "https://github.com/diegosouzapw/OmniRoute",
+    "url": "https://github.com/cheaper-inference/OmniRoute",
     "name": "OmniRoute",
     "tags": [
       "açık-kaynak",
@@ -984,5 +984,82 @@
         "a": "platform"
       }
     ]
+  },
+  {
+    "url": "https://github.com/kalil0321/reverse-api-engineer",
+    "name": "reverse-api-engineer",
+    "tags": [
+      "ücretsiz",
+      "açık-kaynak",
+      "agent",
+      "api",
+      "cli",
+      "python"
+    ],
+    "tr": "Tarayıcı ağ trafiğini (HAR kayıtlarını) inceleyerek web sitelerinin arka plan API çağrılarını otomatik olarak yeniden kullanılabilir Python istemcilerine dönüştüren CLI ajanı; kırılgan DOM kazıma yerine doğrudan uç noktaları çıkarır.",
+    "en": "CLI agent that inspects browser network captures (HAR files) and turns undocumented web API calls into reusable Python client code; extracts direct endpoints instead of relying on brittle DOM scraping.",
+    "src": "kedi",
+    "added": 1776452578
+  },
+  {
+    "url": "https://github.com/HKUDS/CLI-Anything",
+    "name": "CLI-Anything",
+    "tags": [
+      "ücretsiz",
+      "açık-kaynak",
+      "agent",
+      "cli",
+      "otomasyon",
+      "python"
+    ],
+    "tr": "Masaüstü ve web yazılımlarını yapay zekâ ajanlarının çağırabileceği yapılandırılmış komut satırı arayüzlerine dönüştüren HKUDS aracı; ekran görüntüsü tabanlı GUI otomasyonuna kıyasla deterministik araç çağrıları üretir.",
+    "en": "HKUDS framework that wraps desktop and web software into structured command-line interfaces callable by AI agents; produces deterministic tool calls compared to screenshot-based GUI automation.",
+    "src": "kedi",
+    "added": 1776452589
+  },
+  {
+    "url": "https://github.com/open-free-llm-api/awesome-freellm-apis",
+    "name": "Awesome Free LLM APIs",
+    "tags": [
+      "ücretsiz",
+      "açık-kaynak",
+      "awesome-liste",
+      "llm",
+      "api"
+    ],
+    "tr": "Ücretsiz katman veya deneme kredisi sunan LLM API sağlayıcılarını hız sınırları ve desteklenen modellerle birlikte listeleyen güncel rehber; tek bir sağlayıcıya bağlı kalmadan prototip geliştirmeyi kolaylaştırır.",
+    "en": "Curated directory of LLM API providers offering free tiers or trial credits, complete with rate limits and model lists; helps prototype without locking into a single paid provider.",
+    "src": "kedi",
+    "added": 1776452762
+  },
+  {
+    "url": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+    "name": "Claude Code Game Studios",
+    "tags": [
+      "ücretsiz",
+      "açık-kaynak",
+      "agent",
+      "llm",
+      "otomasyon"
+    ],
+    "tr": "Oyun geliştirme süreçleri için özelleştirilmiş çoklu ajan (tasarım, kod, ses, QA) şablonları sunan Claude Code yapılandırma paketi; tekil sohbet istemleri yerine stüdyo rollerine bölünmüş iş akışı kurar.",
+    "en": "Claude Code configuration pack providing multi-agent templates (design, programming, audio, QA) tailored for game development; sets up role-based studio workflows instead of single-prompt chats.",
+    "src": "kedi",
+    "added": 1776478404
+  },
+  {
+    "url": "https://github.com/cloudflare/security-audit-skill",
+    "name": "Cloudflare Security Audit Skill",
+    "tags": [
+      "ücretsiz",
+      "açık-kaynak",
+      "agent",
+      "güvenlik",
+      "araç"
+    ],
+    "tr": "Kodlama ajanlarına kod tabanında güvenlik açığı taraması ve kimlik bilgisi sızıntısı denetimi yaptıran Cloudflare ajan becerisi; genel amaçlı linter kurallarının aksine ajan tabanlı bağlamsal inceleme yürütür.",
+    "en": "Cloudflare agent skill that guides coding agents through contextual security audits and secret-leak checks across a codebase; performs semantic review unlike static regex linters.",
+    "src": "kedi",
+    "added": 1776478428
   }
 ]

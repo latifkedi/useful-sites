@@ -829,7 +829,7 @@
     "added": 1787000000
   },
   {
-    "url": "https://facebook.github.io/prophet/",
+    "url": "https://github.com/facebook/prophet",
     "name": "Prophet",
     "tags": [
       "açık-kaynak",
@@ -1064,5 +1064,34 @@
     "tr": "Metni ve konuşmayı niyet ve varlıklara çeviren, geliştiriciler için doğal dil işleme servisi. Dialogflow gibi servislerden farkı Meta’ya ait olması ve ücretsiz sunulması.",
     "en": "A natural-language service for developers that turns text and speech into intents and entities. Unlike services such as Dialogflow, it is owned by Meta and offered free.",
     "src": "bwapsv"
+  },
+  {
+    "url": "https://jules.google/",
+    "name": "Jules",
+    "tags": [
+      "freemium",
+      "agent",
+      "llm",
+      "git",
+      "otomasyon"
+    ],
+    "tr": "Google Labs tarafından geliştirilen, GitHub depolarına bağlanarak hata düzeltme, test yazma ve sürüm yükseltme görevlerini arka planda yürüten asenkron kodlama ajanı; satır içi otomatik tamamlama araçlarının aksine doğrudan pull request üretir.",
+    "en": "Asynchronous coding agent from Google Labs that connects to GitHub repositories to fix bugs, write tests, and bump dependencies in the background; opens pull requests directly rather than acting as an inline autocomplete.",
+    "src": "kedi",
+    "added": 1776246677
+  },
+  {
+    "url": "https://github.com/petergyang/no-ai-slop",
+    "name": "no-ai-slop",
+    "tags": [
+      "ücretsiz",
+      "açık-kaynak",
+      "llm",
+      "referans"
+    ],
+    "tr": "Dil modellerinin ürettiği basmakalıp ve yapay ifadeleri (\"AI slop\") engellemek için hazırlanmış kısa sistem istemi kuralları; uzun stil rehberleri yerine doğrudan modele yapıştırılan net kısıtlamalar verir.",
+    "en": "Concise prompt rules designed to eliminate generic, cliché language (\"AI slop\") from LLM outputs; provides direct negative constraints rather than lengthy style guides.",
+    "src": "kedi",
+    "added": 1776452328
   }
 ]

@@ -577,5 +577,20 @@
     "en": "A one-page tutorial on writing a virtual machine for the LC-3 architecture in C, ending with real LC-3 programs running. Unlike architecture lectures, it produces a working executor in a few hundred lines.",
     "src": "secretknowledge",
     "added": 1792281600
+  },
+  {
+    "url": "https://www.msys2.org/",
+    "name": "MSYS2",
+    "tags": [
+      "ücretsiz",
+      "açık-kaynak",
+      "c-ailesi",
+      "cli",
+      "masaüstü"
+    ],
+    "tr": "Windows üzerinde güncel GCC, Mingw-w64, Clang ve binlerce yerel C/C++ kütüphanesini Arch Linux'un `pacman` paket yöneticisiyle kuran geliştirme ortamı; tam bir Linux sanal makinesi (WSL) açmadan yerel Windows ikilileri (`.exe`) derlemeyi sağlar.",
+    "en": "Software distribution and building platform for Windows providing up-to-date MinGW-w64, GCC, Clang, and C/C++ libraries via Arch Linux's `pacman`; compiles native Windows binaries without spinning up a WSL virtual machine.",
+    "src": "kedi",
+    "added": 1776452719
   }
 ]

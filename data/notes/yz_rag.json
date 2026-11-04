@@ -499,5 +499,21 @@
     "en": "Maintains a temporal knowledge graph for agents, recording when a fact held and when it was invalidated. Unlike flat vector memory, it can make exactly that distinction.",
     "src": "kedi",
     "added": 1787000000
+  },
+  {
+    "url": "https://github.com/ItzCrazyKns/Vane",
+    "name": "Vane",
+    "tags": [
+      "ücretsiz",
+      "açık-kaynak",
+      "rag",
+      "llm",
+      "self-hosted",
+      "docker"
+    ],
+    "tr": "Web aramasını yerel veya bulut LLM modelleriyle birleştirerek kaynak atıflı yanıtlar üreten açık kaynaklı yanıt motoru (eski adıyla Perplexica); kapalı Perplexity servisinin aksine kendi sunucunda ve yerel modellerle çalışır.",
+    "en": "Open-source AI answering engine (formerly Perplexica) that pairs web search with local or cloud LLMs to produce cited answers; runs self-hosted with local models unlike commercial Perplexity.",
+    "src": "kedi",
+    "added": 1776478440
   }
 ]

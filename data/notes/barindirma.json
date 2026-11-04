@@ -807,5 +807,64 @@
     "en": "A large guide to hosting your own services (home and cloud), packed with software and tool links. Unlike awesome-selfhosted it covers setup and infrastructure topics, not only an app list.",
     "src": "lowkwiki",
     "added": 1792281600
+  },
+  {
+    "url": "https://neocities.org/",
+    "name": "Neocities",
+    "tags": [
+      "freemium",
+      "açık-kaynak",
+      "sunucu",
+      "frontend",
+      "tarayıcı-içi"
+    ],
+    "tr": "GeoCities ruhunu yaşatan, 1 GB ücretsiz alan ve tarayıcı içi kod editörüyle statik HTML/CSS siteleri barındıran bağımsız web topluluğu; kurumsal bulut dağıtım panellerinin aksine kişisel web sitelerini keşfetmeye odaklı sosyal bir dizin içerir.",
+    "en": "Independent static web hosting service offering 1 GB free space and an in-browser editor in the spirit of GeoCities; includes a social discovery directory unlike corporate cloud hosts.",
+    "src": "kedi",
+    "added": 1776246714
+  },
+  {
+    "url": "https://www.projectnomad.us/",
+    "name": "Project NOMAD",
+    "tags": [
+      "ücretsiz",
+      "açık-kaynak",
+      "self-hosted",
+      "çevrimdışı",
+      "sunucu",
+      "docker"
+    ],
+    "tr": "Wikipedia, Khan Academy, çevrimdışı haritalar ve yerel yapay zekâ araçlarını tek kurulumla yerel ağda sunan kendi kendine yeten bilgi sunucusu; internet bağlantısının kesildiği ortamlarda çalışacak şekilde tasarlanmıştır.",
+    "en": "Self-contained offline knowledge server bundling Wikipedia, Khan Academy, maps, and local AI tools into a single deployment; built to operate entirely without internet access unlike cloud platforms.",
+    "src": "kedi",
+    "added": 1776452341
+  },
+  {
+    "url": "https://www.docuseal.com/",
+    "name": "DocuSeal",
+    "tags": [
+      "freemium",
+      "açık-kaynak",
+      "self-hosted",
+      "docker",
+      "araç"
+    ],
+    "tr": "PDF belgelerini doldurma ve elektronik olarak imzalatma süreçlerini kendi sunucunda (Docker ile) barındırmanı sağlayan açık kaynaklı platform; DocuSign gibi zarf başına ücret alan kapalı SaaS servislerine alternatif sunar.",
+    "en": "Open-source document filling and e-signature platform deployable via Docker; provides a self-hosted alternative to per-envelope SaaS tools like DocuSign.",
+    "src": "kedi",
+    "added": 1776452855
+  },
+  {
+    "url": "https://www.oracle.com/cloud/free/",
+    "name": "Oracle Cloud Free Tier",
+    "tags": [
+      "freemium",
+      "sunucu",
+      "devops"
+    ],
+    "tr": "4 ARM Ampere çekirdeği, 24 GB RAM ve 200 GB depolama kapasiteli sanal makineleri süresiz (\"Always Free\") olarak sunan bulut katmanı; 12 ay sonunda kapanan standart bulut deneme paketlerinden cömert ARM kotasıyla ayrılır.",
+    "en": "Cloud free tier offering up to 4 ARM Ampere cores, 24 GB RAM, and 200 GB storage on an Always Free basis; stands apart from 12-month expiring trials with its permanent ARM compute quota.",
+    "src": "kedi",
+    "added": 1776478491
   }
 ]

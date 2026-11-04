@@ -371,5 +371,63 @@
     "en": "Downloads Udemy courses you own for offline viewing; the repository was archived in 2024. Unlike the Udemy app’s offline mode the files stay with you — though it may no longer work on Udemy’s DRM-protected courses.",
     "src": "kedi",
     "added": 1785312232
+  },
+  {
+    "url": "https://nilesoft.org/",
+    "name": "Nilesoft Shell",
+    "tags": [
+      "ücretsiz",
+      "masaüstü",
+      "araç",
+      "çevrimdışı"
+    ],
+    "tr": "Windows Dosya Gezgini sağ tık (bağlam) menüsünü C benzeri bir yapılandırma diliyle baştan sona özelleştiren hafif sistem aracı; basit kayıt defteri düzenleyicilerinin aksine dinamik ifadeler, iç içe menüler ve özel ikonlar destekler.",
+    "en": "Lightweight context-menu customizer for Windows File Explorer configured via a clean declarative syntax; supports dynamic expressions, nested submenus, and custom icons unlike basic registry tweakers.",
+    "src": "kedi",
+    "added": 1776303813
+  },
+  {
+    "url": "https://chromewebstore.google.com/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb",
+    "name": "Vimium",
+    "tags": [
+      "ücretsiz",
+      "açık-kaynak",
+      "eklenti",
+      "tarayıcı-içi",
+      "araç"
+    ],
+    "tr": "Fareye dokunmadan Vim kısayollarıyla (`j/k` kaydırma, `f` bağlantı etiketleme, sekme arama) web'de gezinmeyi sağlayan tarayıcı eklentisi; tam klavye odaklı ayrı bir tarayıcı kurmak yerine mevcut Chrome/Edge üzerinde çalışır.",
+    "en": "Browser extension that brings Vim-style keyboard navigation (`j/k` scrolling, `f` link hints, tab search) to the web; works inside your existing Chromium browser instead of requiring a separate keyboard-only browser.",
+    "src": "kedi",
+    "added": 1776452711
+  },
+  {
+    "url": "https://github.com/agalwood/motrix",
+    "name": "Motrix",
+    "tags": [
+      "ücretsiz",
+      "açık-kaynak",
+      "masaüstü",
+      "araç"
+    ],
+    "tr": "HTTP, FTP, BitTorrent ve Magnet bağlantılarını tek bir sade arayüzde birleştiren aria2 tabanlı çapraz platform indirme yöneticisi; reklamlı eski indirme hızlandırıcılarının aksine temiz ve açık kaynaklıdır.",
+    "en": "Cross-platform download manager powered by aria2 that handles HTTP, FTP, BitTorrent, and Magnet links in one clean interface; free of the adware bundled with legacy download accelerators.",
+    "src": "kedi",
+    "added": 1776452767
+  },
+  {
+    "url": "https://obsidian.md/",
+    "name": "Obsidian",
+    "tags": [
+      "freemium",
+      "masaüstü",
+      "mobil",
+      "çevrimdışı",
+      "araç"
+    ],
+    "tr": "Çift yönlü bağlantılar (`[[wikilink]]`), grafik görünümü ve zengin eklenti ekosistemiyle yerel klasördeki düz Markdown dosyaları üzerinde çalışan kişisel bilgi tabanı; bulut veritabanına kilitleyen not uygulamalarının aksine veriyi tamamen cihazda tutar.",
+    "en": "Personal knowledge base that operates on a local folder of plain Markdown files with backlinks, graph view, and plugins; keeps notes on your own disk in open text rather than locking them in a proprietary cloud database.",
+    "src": "kedi",
+    "added": 1776452837
   }
 ]

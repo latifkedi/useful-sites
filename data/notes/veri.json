@@ -1127,5 +1127,35 @@
     "en": "A list for geographic information systems: cartographic tools, geoanalysis libraries, data sources and communities. Unlike Esri-centred lists it is open-source and platform-neutral, with desktop GIS, web mapping libraries and open data in one place.",
     "src": "lowkwiki",
     "added": 1792281600
+  },
+  {
+    "url": "https://www.kaggle.com/learn",
+    "name": "Kaggle Learn",
+    "tags": [
+      "ücretsiz",
+      "veri-bilimi",
+      "python",
+      "interaktif",
+      "öğretici"
+    ],
+    "tr": "Python, Pandas, SQL ve makine öğrenmesi temellerini tarayıcı içi hazır notebook alıştırmalarıyla öğreten hızlandırılmış mikro kurslar; uzun video dizileri yerine birkaç saatte biten uygulamalı görevler sunar.",
+    "en": "Bite-sized micro-courses covering Python, Pandas, SQL, and machine learning through in-browser notebook exercises; focuses on hands-on coding tasks rather than long video lectures.",
+    "src": "kedi",
+    "added": 1776452246
+  },
+  {
+    "url": "https://roboflow.com/",
+    "name": "Roboflow",
+    "tags": [
+      "freemium",
+      "veri-bilimi",
+      "veri-seti",
+      "araç",
+      "api"
+    ],
+    "tr": "Bilgisayarlı görü projeleri için görüntü etiketleme, veri çoğaltma (augmentation), açık veri seti paylaşımı ve YOLO model eğitimi sunan uçtan uca platform; tekil etiketleme araçlarının aksine veri hazırlığından dağıtıma tüm hattı kapsar.",
+    "en": "End-to-end computer vision platform for image annotation, dataset augmentation, public dataset sharing, and YOLO training; covers the full pipeline from labeling to deployment unlike standalone annotators.",
+    "src": "kedi",
+    "added": 1776452831
   }
 ]

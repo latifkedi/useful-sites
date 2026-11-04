@@ -1043,5 +1043,36 @@
     "en": "The EFF client that obtains and renews Let's Encrypt certificates; the site gives exact commands once you pick your web server and OS. Unlike lightweight clients such as acme.sh, it can edit nginx and Apache configuration itself.",
     "src": "secretknowledge",
     "added": 1792281600
+  },
+  {
+    "url": "https://try.cloudflare.com/",
+    "name": "Cloudflare Quick Tunnels",
+    "tags": [
+      "ücretsiz",
+      "devops",
+      "ağ",
+      "cli",
+      "hesap-gerekmez"
+    ],
+    "tr": "Yerel bilgisayarda çalışan bir web sunucusunu hesap açmadan tek bir `cloudflared` komutuyla geçici `trycloudflare.com` HTTPS adresi üzerinden internete açan tünel servisi; ngrok'un ücretsiz katmanındaki oturum ve bant sınırlarına takılmaz.",
+    "en": "Exposes a local web server to the internet over a temporary `trycloudflare.com` HTTPS URL with a single `cloudflared` command and no account; avoids the signup and interstitial limits of free ngrok.",
+    "src": "kedi",
+    "added": 1776246738
+  },
+  {
+    "url": "https://pm2.keymetrics.io/",
+    "name": "PM2",
+    "tags": [
+      "ücretsiz",
+      "açık-kaynak",
+      "devops",
+      "javascript",
+      "sunucu",
+      "cli"
+    ],
+    "tr": "Node.js ve diğer betik uygulamalarını üretim sunucusunda arka planda canlı tutan, çöktüğünde yeniden başlatan ve çok çekirdekli kümeleme (cluster) yapan süreç yöneticisi; ham systemd birim dosyalarına kıyasla sıfır kesintili yeniden yükleme ve anlık log izleme sunar.",
+    "en": "Production process manager for Node.js and scripts with built-in load balancing, crash restarts, and log streaming; offers zero-downtime reloads and simpler clustering than raw systemd units.",
+    "src": "kedi",
+    "added": 1776340049
   }
 ]

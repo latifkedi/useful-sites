@@ -655,5 +655,49 @@
     "en": "The most widely used open speech-recognition model, covering 90+ languages at usable accuracy in Turkish too. Unlike cloud speech services it runs locally, so the recording never leaves the machine.",
     "src": "kedi",
     "added": 1787000000
+  },
+  {
+    "url": "https://pictory.ai/",
+    "name": "Pictory",
+    "tags": [
+      "freemium",
+      "video",
+      "ses",
+      "tarayıcı-içi",
+      "otomasyon"
+    ],
+    "tr": "Uzun makale, senaryo ve webinar kayıtlarını otomatik olarak altyazılı kısa sosyal medya videolarına dönüştüren bulut aracı; sıfırdan zaman çizelgesi kurgulamak yerine metin üzerinden sahne seçimi yapar.",
+    "en": "Cloud video generator that turns articles, scripts, and webinar recordings into captioned short-form videos; edits by matching text segments to stock footage rather than manual timeline cutting.",
+    "src": "kedi",
+    "added": 1776452102
+  },
+  {
+    "url": "https://invideo.io/",
+    "name": "invideo AI",
+    "tags": [
+      "freemium",
+      "video",
+      "ses",
+      "tarayıcı-içi"
+    ],
+    "tr": "Metin isteminden senaryo, seslendirme, stok görüntü ve kurgu üreten tarayıcı içi video üretim platformu; geleneksel şablon editörlerinin aksine doğal dil komutlarıyla sahne düzenlemesi yapar.",
+    "en": "Browser-based video creation platform that generates scripts, voiceovers, stock footage scenes, and cuts from text prompts; modifies edits via natural-language commands unlike traditional template editors.",
+    "src": "kedi",
+    "added": 1776452130
+  },
+  {
+    "url": "https://github.com/debpalash/VoiceStudio",
+    "name": "VoiceStudio",
+    "tags": [
+      "ücretsiz",
+      "açık-kaynak",
+      "ses",
+      "self-hosted",
+      "python"
+    ],
+    "tr": "Metinden sese (TTS), ses klonlama ve çok dilli dublaj modellerini tek arayüzde birleştiren açık kaynaklı ses üretim stüdyosu; ücretli bulut ses API'lerinin aksine yerel GPU üzerinde çevrimdışı çalışır.",
+    "en": "Open-source voice synthesis studio combining text-to-speech, voice cloning, and multilingual dubbing in one interface; runs offline on a local GPU unlike paid cloud voice APIs.",
+    "src": "kedi",
+    "added": 1776478413
   }
 ]

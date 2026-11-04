@@ -39,19 +39,6 @@
     "added": 1786567883
   },
   {
-    "url": "https://kokomotech.com/allwinner-v821/",
-    "name": "Allwinner V821",
-    "tags": [
-      "ücretsiz",
-      "donanım",
-      "gömülü"
-    ],
-    "tr": "V821 yonga setinin teknik özeti; görüntü işleme hattı ve NPU yetenekleri dahil. Uzun veri sayfasına kıyasla hızlı okunuyor: kamera veya uç yapay zekâ projesinde yonga seçerken karşılaştırma noktası.",
-    "en": "A technical summary of the V821 SoC including its image pipeline and NPU capability. Compared with the long datasheet it reads quickly — a comparison point when choosing silicon for a camera or edge AI project.",
-    "src": "kedi",
-    "added": 1785968188
-  },
-  {
     "url": "https://github.com/MuhammedKalkan/Anyka-Camera-Firmware",
     "name": "Anyka Kamera Firmware",
     "tags": [
@@ -623,5 +610,21 @@
         "a": "kapsam"
       }
     ]
+  },
+  {
+    "url": "https://github.com/Enginar140/hangar",
+    "name": "Hangar",
+    "tags": [
+      "ücretsiz",
+      "açık-kaynak",
+      "türkçe",
+      "donanım",
+      "gömülü",
+      "referans"
+    ],
+    "tr": "İnsansız hava aracı (İHA), otonom sistemler ve gömülü aviyonik geliştirme süreçleri için derlenmiş açık kaynaklı teknik kaynak ve araç deposu; dağınık yarışma notları yerine yapılandırılmış mühendislik referansları sunar.",
+    "en": "Open-source Turkish repository of technical resources and tools for unmanned aerial vehicles (UAVs), autonomous systems, and embedded avionics; organizes structured engineering references instead of scattered competition notes.",
+    "src": "kedi",
+    "added": 1776452794
   }
 ]

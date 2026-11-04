@@ -461,5 +461,50 @@
     "tr": "En yaygın kullanılan çapraz platform oyun motoru; 2B/3B, mobil ve konsol. Godot’dan farkı devasa varlık mağazası ve endüstri yaygınlığı — iş ilanlarının çoğu bunu ister.",
     "en": "The most widely used cross-platform game engine; 2D/3D, mobile and console. Unlike Godot it has a huge asset store and industry ubiquity — most job listings ask for it.",
     "src": "kedi"
+  },
+  {
+    "url": "https://www.bfxr.net/",
+    "name": "Bfxr",
+    "tags": [
+      "ücretsiz",
+      "açık-kaynak",
+      "ses",
+      "tarayıcı-içi",
+      "hesap-gerekmez"
+    ],
+    "tr": "Bağımsız oyunlar için tek tıklamayla 8-bit/chiptune ses efektleri (zıplama, patlama, altın toplama) sentezleyip WAV olarak indiren tarayıcı aracı; hazır ses kütüphanelerinde arama yapmak yerine parametrik ses üretir.",
+    "en": "Browser synthesizer that generates retro 8-bit sound effects (jumps, explosions, pickups) and exports WAV files; produces procedural audio on the fly instead of searching stock libraries.",
+    "src": "kedi",
+    "added": 1776452668
+  },
+  {
+    "url": "https://game-icons.net/",
+    "name": "Game-icons.net",
+    "tags": [
+      "ücretsiz",
+      "tasarım",
+      "araç",
+      "tarayıcı-içi",
+      "hesap-gerekmez"
+    ],
+    "tr": "Oyun arayüzleri ve masaüstü RYO'lar için CC BY lisanslı binlerce vektörel (SVG/PNG) simgeyi renk ve arka plan özelleştirmesiyle sunan arşiv; genel kurumsal ikon setlerinin aksine envanter, büyü ve silah simgelerine odaklanır.",
+    "en": "Repository of thousands of CC BY vector icons (SVG/PNG) customizable in browser; focuses on RPG inventory, spells, and combat symbols rather than corporate UI icons.",
+    "src": "kedi",
+    "added": 1776452686
+  },
+  {
+    "url": "https://ephtracy.github.io/",
+    "name": "MagicaVoxel",
+    "tags": [
+      "ücretsiz",
+      "3b",
+      "tasarım",
+      "masaüstü",
+      "çevrimdışı"
+    ],
+    "tr": "Küp tabanlı (voxel) 3B modeller oluşturmak ve yerleşik GPU ışın izleme (path tracing) motoruyla sahne render almak için kullanılan hafif masaüstü editörü; karmaşık poligon modelleme araçlarına kıyasla piksel sanatı hızında 3B üretim sağlar.",
+    "en": "Lightweight desktop voxel art editor with a built-in GPU path-tracing renderer; enables rapid block-based 3D creation compared to complex polygon modeling suites.",
+    "src": "kedi",
+    "added": 1776452754
   }
 ]

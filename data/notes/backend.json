@@ -846,5 +846,21 @@
     "en": "A readable alternative to curl that sends HTTP requests with coloured JSON output and a simple syntax. Unlike curl it needs far fewer characters for typical API calls; desktop and web apps exist too, and some of those ask for an account.",
     "src": "secretknowledge",
     "added": 1792281600
+  },
+  {
+    "url": "https://socket.io/",
+    "name": "Socket.IO",
+    "tags": [
+      "ücretsiz",
+      "açık-kaynak",
+      "backend",
+      "javascript",
+      "api",
+      "dokümantasyon"
+    ],
+    "tr": "Tarayıcı ve sunucu arasında olay tabanlı, çift yönlü gerçek zamanlı iletişim kuran kütüphane; ham WebSocket bağlantısının aksine otomatik yeniden bağlanma, oda (room) yönetimi ve HTTP long-polling yedeğiyle gelir.",
+    "en": "Event-driven library for bidirectional real-time communication between browser and server; adds automatic reconnection, room broadcasting, and HTTP fallback on top of raw WebSockets.",
+    "src": "kedi",
+    "added": 1776340033
   }
 ]

@@ -575,5 +575,21 @@
     "en": "The free implementation of the OpenPGP standard, a command-line tool for encrypting, signing and key management. Unlike modern alternatives such as age or minisign, it is the one embedded in email and package signing, at the cost of a more complex interface.",
     "src": "secretknowledge",
     "added": 1792281600
+  },
+  {
+    "url": "https://4get.ca/",
+    "name": "4get",
+    "tags": [
+      "ücretsiz",
+      "açık-kaynak",
+      "gizlilik",
+      "self-hosted",
+      "tarayıcı-içi",
+      "hesap-gerekmez"
+    ],
+    "tr": "Kullanıcıyı izlemeden ve JavaScript zorunluluğu koşmadan Google, Bing, Brave ve Yandex sonuçlarını vekil olarak getiren hafif meta arama motoru; SearXNG'ye kıyasla çok daha az sistem kaynağı tüketen yalın PHP mimarisiyle çalışır.",
+    "en": "Privacy-respecting metasearch engine that proxies results from Google, Bing, Brave, and Yandex without tracking or requiring JavaScript; runs on a minimal PHP footprint compared to heavier SearXNG setups.",
+    "src": "kedi",
+    "added": 1776246704
   }
 ]

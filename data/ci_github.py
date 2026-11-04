@@ -44,12 +44,18 @@ HOMEPAGE_LIMIT = 240          # bounded: this runs weekly
 
 
 def _find_repo(url):
-    """Reads a project homepage and returns the first github.com/owner/repo."""
+    """Reads a project homepage and returns its github.com/owner/repo,
+    preferring a repository whose owner or name matches the domain stem over
+    incidental links (testimonials, CSS resets, analytics agents) that happen
+    to appear higher on the page."""
     try:
         r = requests.get(url, headers={'User-Agent': HEADERS['User-Agent']},
                          timeout=(6, 15), allow_redirects=True)
     except requests.exceptions.RequestException:
         return None
+    host = re.sub(r'^https?://(www\.)?', '', url.lower()).split('/')[0]
+    stem = re.sub(r'[^a-z0-9]', '', host.split('.')[0])
+    first = None
     for m in re.finditer(r'https?://github\.com/[A-Za-z0-9._-]+/[A-Za-z0-9._-]+',
                          r.text[:200000]):
         t = linkstate.github_target(m.group(0))
@@ -57,8 +63,13 @@ def _find_repo(url):
             continue                     # GitHub's own pages, a user page, a tab
         if t[2].lower().endswith(('.png', '.svg', '.jpg', '.css', '.js')):
             continue
-        return t[1], t[2]
-    return None
+        if first is None:
+            first = (t[1], t[2])
+        o = re.sub(r'[^a-z0-9]', '', t[1].lower())
+        n = re.sub(r'[^a-z0-9]', '', t[2].lower())
+        if stem and len(stem) >= 3 and (stem in o or stem in n or o in stem or n in stem):
+            return t[1], t[2]
+    return first
 
 
 def repos():

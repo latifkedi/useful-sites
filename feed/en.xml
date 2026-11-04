@@ -5,9 +5,17 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/en.xml" rel="self" type="application/atom+xml"/>
 <link href="https://latifkedi.github.io/useful-sites/" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en.xml</id>
-<updated>2026-10-18T00:00:00Z</updated>
+<updated>2026-11-04T14:43:54Z</updated>
 <author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
 <rights>CC BY 4.0</rights>
+<entry>
+  <title>SitePatent</title>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/koleksiyon.html#sitepatent-com" rel="alternate" type="text/html"/>
+  <id>https://sitepatent.com</id>
+  <updated>2026-11-04T14:43:54Z</updated>
+  <category term="Lists, Directories &amp; Discovery"/>
+  <content type="html">&lt;p&gt;Curated web directory showcasing independent websites and digital products; relies on editorial selection rather than algorithmic feeds.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://sitepatent.com&quot;&gt;https://sitepatent.com&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
   <title>A Guide to Python's Magic Methods</title>
   <link href="https://latifkedi.github.io/useful-sites/k/en/diller.html#rszalski-github-io-magicmethods" rel="alternate" type="text/html"/>
@@ -319,13 +327,5 @@
   <updated>2026-10-18T00:00:00Z</updated>
   <category term="Data Science &amp; ML"/>
   <content type="html">&lt;p&gt;An open-source desktop GIS for Windows, macOS and Linux; it reads and analyses shapefile, GeoPackage, PostGIS and raster layers and extends through plugins. Unlike ArcGIS there is no licence fee; in exchange support comes from the community and commercial partners.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://qgis.org/&quot;&gt;https://qgis.org/&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-  <title>Certbot</title>
-  <link href="https://latifkedi.github.io/useful-sites/k/en/devops.html#certbot-eff-org" rel="alternate" type="text/html"/>
-  <id>https://certbot.eff.org/</id>
-  <updated>2026-10-18T00:00:00Z</updated>
-  <category term="DevOps &amp; Infrastructure"/>
-  <content type="html">&lt;p&gt;The EFF client that obtains and renews Let's Encrypt certificates; the site gives exact commands once you pick your web server and OS. Unlike lightweight clients such as acme.sh, it can edit nginx and Apache configuration itself.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://certbot.eff.org/&quot;&gt;https://certbot.eff.org/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>
