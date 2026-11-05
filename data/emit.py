@@ -329,7 +329,7 @@ def site_foot(L, sub=False):
     up = _lroot(sub)
     return ('<p class="sf"><a href="%sabout.html">%s</a> · <a href="%schanges.html">%s</a> · '
             '<a href="%s%s/index.html">%s</a> · <a href="%s" rel="noopener">%s</a> · '
-            '<a href="%s/blob/main/LICENSE" rel="noopener license">%s</a></p>'
+            '<a href="%s/blob/main/LICENSE-CONTENT" rel="noopener license">%s</a></p>'
             % (up, esc(L['f_about']), up, esc(L['f_changes']), up, L['tdir'], esc(L['f_tags']),
                REPO, esc(L['f_repo']), REPO, esc(L['f_licence'])))
 

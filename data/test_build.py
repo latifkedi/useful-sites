@@ -631,7 +631,7 @@ def extra_checks(rows, kullanilan):
           + (' -- %s' % olu_yok[:3] if olu_yok else ''))
     ayak = [p for p in pages if p != 'k/en/index.html' and not all(
         x in src[p] for x in ('about.html">', 'changes.html">', 'github.com/latifkedi/useful-sites"',
-                              '/blob/main/LICENSE"'))]
+                              '/blob/main/LICENSE-CONTENT"'))]
     check(not ayak, 'every static page ends with the methodology, changes, repository and licence links'
           + (' -- %s' % ayak[:3] if ayak else ''))
 

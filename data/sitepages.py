@@ -51,6 +51,7 @@ TX = {
         'src_head': 'Kaynaklar ve lisansları',
         'src_text': ('Her kayıt, onu dizine getiren kaynağı taşır. Kaynakların seçkileri kendi '
                      'lisanslarıyla kalır; açıklamalar burada yazıldı ve CC BY 4.0. '
+                     'Sitenin kodu MIT lisanslıdır. '
                      'Ayrıntı <a href="{credits}">teşekkür sayfasında</a>.'),
         'data_head': 'Açık veri',
         'data_text': ('Kayıtların tamamı makinece okunur biçimde: <a href="{json}">links.json</a>, '
@@ -92,6 +93,7 @@ TX = {
         'src_head': 'Sources and their licences',
         'src_text': ('Every entry carries the source that brought it in. A source\'s selection '
                      'keeps its own licence; the descriptions were written here and are CC BY 4.0. '
+                     'The code of the site is MIT. '
                      'Details on the <a href="{credits}">credits page</a>.'),
         'data_head': 'Open data',
         'data_text': ('Every record in machine-readable form: <a href="{json}">links.json</a>, '

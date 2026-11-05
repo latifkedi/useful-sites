@@ -73,8 +73,14 @@ Running and maintaining it (weekly, quarterly and yearly tasks, backups):
 
 ## License
 
-The descriptions and the arrangement are released under CC BY 4.0. The linked
-sites remain the property of their authors, under their own terms. Records
-found in another compilation keep that list's own licence and notice (MIT,
-CC0, CC BY-SA and so on); each source's terms are in `data/sources.py` and on
-the credits page. Details: [LICENSE](LICENSE).
+Two licences, one for each half of the repository:
+
+- **Code** (build and check scripts, the site's scripts and styles, tests,
+  workflows): MIT, see [LICENSE](LICENSE).
+- **Content** (the records, their descriptions, the categories and the
+  arrangement): CC BY 4.0, see [LICENSE-CONTENT](LICENSE-CONTENT).
+
+The linked sites remain the property of their authors, under their own terms.
+Records found in another compilation keep that list's own licence and notice
+(MIT, CC0, CC BY-SA and so on); each source's terms are in `data/sources.py`
+and on the credits page.
