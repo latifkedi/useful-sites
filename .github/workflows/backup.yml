@@ -56,13 +56,23 @@ jobs:
           DIR: ${{ steps.make.outputs.dir }}
         run: |
           tag="backup-$DAY"
-          if gh release view "$tag" >/dev/null 2>&1; then
-            gh release upload "$tag" "$DIR"/* --clobber
-          else
-            gh release create "$tag" "$DIR"/* --target "$GITHUB_SHA" \
-              --title "Backup $DAY" --latest=false \
-              --notes "Weekly backup of $GITHUB_SHA. Restore steps: MAINTAINERS.md."
-          fi
+          # GitHub's releases API fails transiently (seen: HTTP 500, then 403
+          # "Resource not accessible" with Contents: write granted). Retry 3
+          # times, waiting 15s then 45s. Each attempt re-checks the tag, so a
+          # create that half-succeeded (or a same-day tag) turns into an upload.
+          for attempt in 1 2 3; do
+            if gh release view "$tag" >/dev/null 2>&1; then
+              gh release upload "$tag" "$DIR"/* --clobber && exit 0
+            else
+              gh release create "$tag" "$DIR"/* --target "$GITHUB_SHA"                 --title "Backup $DAY" --latest=false                 --notes "Weekly backup of $GITHUB_SHA. Restore steps: MAINTAINERS.md." && exit 0
+            fi
+            [ "$attempt" -lt 3 ] || break
+            wait=$((attempt * attempt * 15 - (attempt - 1) * 15))
+            echo "attempt $attempt failed; retrying in ${wait}s"
+            sleep "$wait"
+          done
+          echo "::error::release step failed after 3 attempts"
+          exit 1
 
       - name: Keep only the latest 8 backups
         env:
