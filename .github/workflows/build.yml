@@ -33,6 +33,11 @@ jobs:
         with:
           python-version: "3.12"
 
+      # requests is imported by data/ci_check.py, which test_helpers.py loads;
+      # PyYAML is for test_repo.py. Same pins the weekly scans use.
+      - name: Install the Python dependencies
+        run: pip install --quiet -r requirements-dev.txt
+
       - name: Rebuild the site data
         run: python data/build.py
 
@@ -46,9 +51,7 @@ jobs:
         run: node test_search.js
 
       - name: Check the repository wiring (labels, sources, manual.json, workflow files)
-        run: |
-          pip install --quiet PyYAML==6.0.3
-          python data/test_repo.py
+        run: python data/test_repo.py
 
       # The generated files are committed, so a rebuild must be a no-op. If it
       # is not, someone edited links.js or a category page by hand and the next
