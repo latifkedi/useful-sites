@@ -175,7 +175,7 @@ def report(links, results, final, manual, today, changes=None):
     rest = [r for r in failing if key(r['url']) not in manual]
     dead = [r for r in rest if final.get(r['url']) == 'olu']
     first = [r for r in rest if classify(r) == 'dead' and final.get(r['url']) != 'olu']
-    suspect_all = [r for r in rest if classify(r) == 'suspect']
+    suspect_all = [r for r in rest if classify(r) == 'suspect' and final.get(r['url']) != 'olu']
     botwall = [r for r in suspect_all if is_bot_block(r)]
     suspect = [r for r in suspect_all if not is_bot_block(r)]
     changes = changes or {'newly_dead': [], 'newly_failing': [], 'recovered': []}

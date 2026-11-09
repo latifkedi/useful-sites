@@ -213,6 +213,32 @@ def main():
     print('linkstate.may_write')
     check(not linkstate.may_write(['ci_check.py'], {}), 'a scan run by hand leaves verified.json and health.json alone')
     check(linkstate.may_write(['ci_check.py', '--write'], {}), '--write lets a scan refresh them')
+
+    print('ci_check.report groups')
+    import ci_check
+    def mk(n, **kw):
+        return dict({'name': n, 'cat': 'c', 'url': 'https://%s.example/' % n}, **kw)
+    rs = [mk('gone', status=403), mk('once', status=404), mk('wall', status=429), mk('slow', status=500),
+          mk('deadnow', status=404)]
+    links = [{'name': r['name'], 'cat_tr': 'c', 'url': r['url']} for r in rs]
+    res = {r['url']: r for r in rs}
+    final = {rs[0]['url']: 'olu', rs[4]['url']: 'olu'}
+    tmp = tempfile.mkdtemp()
+    old_root, old_out = ci_check.ROOT, sys.stdout
+    ci_check.ROOT = tmp
+    sys.stdout = io.StringIO()
+    try:
+        ci_check.report(links, res, final, {}, '2026-11-10')
+        line = sys.stdout.getvalue().splitlines()[0]
+        body = io.open(os.path.join(tmp, 'rapor.md'), encoding='utf-8').read()
+    finally:
+        sys.stdout = old_out
+        ci_check.ROOT = old_root
+        shutil.rmtree(tmp, ignore_errors=True)
+    check('dead: 2 | first dead scan: 1 | suspect: 1 | bot-blocked: 1' in line,
+          'a dead entry that now answers 403 is counted once, and the groups add up to the failures')
+    check(sum(body.count('https://%s.example/' % r['name']) for r in rs) == len(rs),
+          'every failing entry appears in exactly one report group')
     check(linkstate.may_write([], {'GITHUB_ACTIONS': 'true'}), 'the weekly workflow refreshes them')
     check(not linkstate.may_write([], {'GITHUB_ACTIONS': 'false'}), 'only a real Actions run counts')
 
