@@ -603,6 +603,10 @@ def extra_checks(rows, kullanilan):
     check(not yanlis, 'feed entries link to the entry on its heading page, the site itself in the content'
           + (' -- %s' % yanlis if yanlis else ''))
     check(heads['index.html'].feeds == ['feed/en.xml'], '/ advertises the English feed (feed/en.xml)')
+    _ix = io.open(os.path.join(ROOT, 'index.html'), encoding='utf-8').read()
+    _ap = io.open(os.path.join(ROOT, 'app.js'), encoding='utf-8').read()
+    check('<a href="feed/en.xml">' in _ix.split('<footer', 1)[1] and '<a href="feed.xml">' in _ap
+          and '<a href="feed/en.xml">' in _ap, 'the footer links the Atom feed in both languages')
     ak = []
     for p, hd in heads.items():
         if p in ('index.html', 'k/en/index.html'):

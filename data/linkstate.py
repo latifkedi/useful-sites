@@ -12,6 +12,7 @@ import zlib
 
 DEAD_CODES = {404, 410}
 DEAD_AFTER = 2
+BOT_CODES = {403, 429}      # a site refusing a script: almost always fine in a browser
 
 # github.com paths that are GitHub's own pages, not an owner.
 GITHUB_SITE = {'topics', 'features', 'education', 'sponsors', 'orgs', 'collections',
@@ -255,6 +256,11 @@ def classify(result):
     if result.get('status') in DEAD_CODES or result.get('dns'):
         return 'dead'
     return 'suspect'
+
+
+def is_bot_block(result):
+    """A suspect result that is only a bot wall (403/429), not a real failure."""
+    return classify(result) == 'suspect' and (result or {}).get('status') in BOT_CODES
 
 
 def next_state(prev, c, manual_entry, today, last_scan=None):

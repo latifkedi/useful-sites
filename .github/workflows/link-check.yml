@@ -7,7 +7,8 @@ name: Link and repository health
 #                                    returns 200. ci_github.py catches it.
 #
 # All reports land as one weekly comment on a single pinned issue labelled
-# `link-check`; the issue body is never rewritten, so the history stays.
+# `link-check` (the history), and the same text replaces the issue body, so the
+# pinned issue always shows the latest scan instead of the first one.
 
 on:
   schedule:
@@ -125,9 +126,10 @@ jobs:
           if-no-files-found: ignore
           retention-days: 90
 
-      # One standing issue, pinned, labelled link-check. Each week adds a
-      # comment; the body is written once and left alone. Rewriting the body
-      # every week erased last week's findings and notified nobody.
+      # One standing issue, pinned, labelled link-check. Each week adds a comment
+      # (the history, and the notification) and the body is replaced with the same
+      # report, so the pinned view is never weeks old. Last week's findings stay
+      # in the comments.
       - name: Post the report as a weekly comment
         if: always()
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3  # v9.0.0
@@ -194,4 +196,7 @@ jobs:
                      `can hold. The full text is in the [run's artifact](${run}).`;
             }
             await github.rest.issues.createComment({ owner, repo, issue_number: number, body });
+            // The body is the pinned face of the issue: keep it equal to the newest report.
+            // The comments above it are the history, so nothing is lost by rewriting it.
+            await github.rest.issues.update({ owner, repo, issue_number: number, body });
             core.info(`commented on #${number}`);

@@ -258,6 +258,11 @@ def main():
     # The same three cases as test_search.js checks against app.js
     # firstSentence(); the pre-rendered home depends on the two agreeing.
     print('emit._first')
+    check(linkstate.is_bot_block({'status': 403}) and linkstate.is_bot_block({'status': 429}),
+          '403 and 429 are bot walls')
+    check(not linkstate.is_bot_block({'status': 404}) and not linkstate.is_bot_block({'status': 503})
+          and not linkstate.is_bot_block({'status': 0, 'error': 'ReadTimeout'}) and not linkstate.is_bot_block(None),
+          'dead links, 5xx and timeouts are not bot walls')
     one = 'Bu bir kayıt açıklamasıdır ve kırk karakteri rahatça geçer. İkinci cümle.'
     check(emit._first(one) == 'Bu bir kayıt açıklamasıdır ve kırk karakteri rahatça geçer.',
           'returns the first sentence of 40-150 characters')

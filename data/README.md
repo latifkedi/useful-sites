@@ -180,7 +180,8 @@ triggers no workflow, so it then starts the Build check itself
 (`gh workflow run build.yml`).
 
 The report goes to one pinned issue labelled `link-check` as a weekly comment;
-the issue body is never rewritten. Each comment leads with what changed since
+the same report also replaces the issue body, so the pinned view is
+always the latest scan. Each comment leads with what changed since
 the previous scan (newly dead, newly failing, recovered; newly archived,
 stale or deleted repositories) and folds the standing lists into
 `<details>`. The full reports are also kept as the run's artifact for 90 days.

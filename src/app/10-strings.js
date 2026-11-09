@@ -35,6 +35,7 @@ var T = {
          '<a href="k/about.html">Hakkında</a> · '+
          '<a href="k/changes.html">Değişiklikler</a> · '+
          '<a href="k/tesekkur.html">Katkıda bulunanlar</a> · '+
+         '<a href="feed.xml">Atom akışı</a> · '+
          'dizinin <a href="k/index.html">metin hâli</a> de var.',
     skip:"İçeriğe Atla", skipRes:"Sonuçlara atla",
     badURL:"Bu adresin bir kısmı anlaşılamadı ve atlandı; gördüğün sayfa adresin geri kalanı.",
@@ -144,7 +145,8 @@ var T = {
          '<a href="k/en/path/index.html">Learning paths</a> · '+
          '<a href="k/en/about.html">About</a> · '+
          '<a href="k/en/changes.html">Changes</a> · '+
-         '<a href="k/en/credits.html">Contributors</a>.',
+         '<a href="k/en/credits.html">Contributors</a> · '+
+         '<a href="feed/en.xml">Atom feed</a>.',
     skip:"Skip To Content", skipRes:"Skip to results",
     badURL:"Part of this address was not understood and has been left out; this is what the rest of it shows.",
     fxNote:function(f,c){ return f+" areas, "+c+" headings" },

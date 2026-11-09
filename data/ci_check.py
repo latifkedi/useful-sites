@@ -42,7 +42,7 @@ urllib3.disable_warnings()
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import readlinks  # noqa: E402
 from notes import key  # noqa: E402
-from linkstate import (classify, next_state, may_write, recheck_due, orphan_keys,  # noqa: E402
+from linkstate import (classify, is_bot_block, next_state, may_write, recheck_due, orphan_keys,  # noqa: E402
                        scan_changes, DEAD_AFTER)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -175,11 +175,13 @@ def report(links, results, final, manual, today, changes=None):
     rest = [r for r in failing if key(r['url']) not in manual]
     dead = [r for r in rest if final.get(r['url']) == 'olu']
     first = [r for r in rest if classify(r) == 'dead' and final.get(r['url']) != 'olu']
-    suspect = [r for r in rest if classify(r) == 'suspect']
+    suspect_all = [r for r in rest if classify(r) == 'suspect']
+    botwall = [r for r in suspect_all if is_bot_block(r)]
+    suspect = [r for r in suspect_all if not is_bot_block(r)]
     changes = changes or {'newly_dead': [], 'newly_failing': [], 'recovered': []}
 
-    print('scanned: %d | dead: %d | first dead scan: %d | suspect: %d | manual: %d'
-          % (len(links), len(dead), len(first), len(suspect), len(over)))
+    print('scanned: %d | dead: %d | first dead scan: %d | suspect: %d | bot-blocked: %d | manual: %d'
+          % (len(links), len(dead), len(first), len(suspect), len(botwall), len(over)))
     print('since last scan: newly dead %d | newly failing %d | recovered %d'
           % tuple(len(changes[k]) for k in ('newly_dead', 'newly_failing', 'recovered')))
 
@@ -205,9 +207,9 @@ def report(links, results, final, manual, today, changes=None):
     # list of bot-blocked sites is the same fifty rows every week, and printed
     # in full it buried the one link that actually broke.
     L = ['# Link check - %s' % today, '',
-         '`%d` links scanned. Still failing: %d dead, %d failed once, %d suspect, %d held by '
+         '`%d` links scanned. Still failing: %d dead, %d failed once, %d suspect, %d bot-blocked, %d held by '
          'manual.json; %d manual decisions due for a recheck.'
-         % (len(links), len(dead), len(first), len(suspect), len(over), len(due)), '',
+         % (len(links), len(dead), len(first), len(suspect), len(botwall), len(over), len(due)), '',
          '## Since the last scan', '']
     news = [
         ('newly_dead', 'Newly dead', 'Marked dead on the site this week (%d consecutive dead scans). '
@@ -236,6 +238,9 @@ def report(links, results, final, manual, today, changes=None):
         (suspect, 'Suspect (%d)' % len(suspect),
          'Other errors, timeouts or refused connections -- usually bot blocking '
          'or a slow server. These most likely open fine in a browser.'),
+        (botwall, 'Bot-blocked, probably alive (%d)' % len(botwall),
+         '403/429: the site refuses scripts. These almost always open fine in a browser; '
+         'look only if one stays here for weeks.'),
         (over, 'Held by manual.json (%d)' % len(over),
          'Still failing the scan, but a person checked these by hand and '
          'recorded a decision in data/manual.json. Revisit if it looks stale.'),
