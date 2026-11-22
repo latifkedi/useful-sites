@@ -5,9 +5,30 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/web.xml" rel="self" type="application/atom+xml"/>
 <link href="https://latifkedi.github.io/useful-sites/k/web.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/web.xml</id>
-<updated>2026-10-18T00:00:00Z</updated>
+<updated>2026-11-23T00:00:00Z</updated>
 <author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
 <rights>CC BY 4.0</rights>
+<entry>
+  <title>Kitesurf</title>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#github-com-cloudflare-kitesurf" rel="alternate" type="text/html"/>
+  <id>https://github.com/cloudflare/kitesurf</id>
+  <updated>2026-11-23T00:00:00Z</updated>
+  <content type="html">&lt;p&gt;Cloudflare Workers üzerinde sunucusuz çalışmak üzere Rust ile geliştirilen deneysel hafif tarayıcı motoru; ağır Chromium altyapısının aksine kenar ağlarda milisaniyeler içinde DOM ayrıştırma ve render hedefler.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/cloudflare/kitesurf&quot;&gt;https://github.com/cloudflare/kitesurf&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+  <title>Modern Web Guidance</title>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#github-com-googlechrome-modern-web-guidance" rel="alternate" type="text/html"/>
+  <id>https://github.com/googlechrome/modern-web-guidance</id>
+  <updated>2026-11-23T00:00:00Z</updated>
+  <content type="html">&lt;p&gt;Google Chrome ekibi tarafından kodlama ajanlarını modern web platformu standartlarına yönlendirmek için hazırlanan beceri seti; ajanların eski kütüphaneleri ve polyfill’leri önermesi yerine yerel tarayıcı API’lerini kullanmasını sağlar.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/googlechrome/modern-web-guidance&quot;&gt;https://github.com/googlechrome/modern-web-guidance&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+  <title>Web Interface Guidelines</title>
+  <link href="https://latifkedi.github.io/useful-sites/k/web.html#github-com-vercel-labs-web-interface-guidelines" rel="alternate" type="text/html"/>
+  <id>https://github.com/vercel-labs/web-interface-guidelines</id>
+  <updated>2026-11-23T00:00:00Z</updated>
+  <content type="html">&lt;p&gt;Vercel Labs tarafından hazırlanan modern web arayüzü prensipleri ve kontrol listesi; soyut tasarım teorileri yerine klavye erişilebilirliği, odak halkaları ve dokunmatik hedefler gibi somut kararları sıralar.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/vercel-labs/web-interface-guidelines&quot;&gt;https://github.com/vercel-labs/web-interface-guidelines&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
   <title>Front-End Checklist</title>
   <link href="https://latifkedi.github.io/useful-sites/k/web.html#github-com-thedaviddias-front-end-checklist" rel="alternate" type="text/html"/>
@@ -266,26 +287,5 @@
   <id>https://react-hook-form.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <content type="html">&lt;p&gt;React formlarını az yeniden render’la yöneten, doğrulama getiren kütüphane. Kontrollü bileşenlerden farkı performansı yüksek tutup kodu sadeleştirmesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://react-hook-form.com/&quot;&gt;https://react-hook-form.com/&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-  <title>Smashing Magazine</title>
-  <link href="https://latifkedi.github.io/useful-sites/k/web.html#smashingmagazine-com" rel="alternate" type="text/html"/>
-  <id>https://www.smashingmagazine.com</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <content type="html">&lt;p&gt;Web tasarım ve geliştirme üzerine derinlemesine makaleler, kitaplar ve pratik rehberler. Kısa blog yazılarından farkı uzun, editör denetiminden geçmiş makaleler yayımlaması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.smashingmagazine.com&quot;&gt;https://www.smashingmagazine.com&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-  <title>SweetAlert2</title>
-  <link href="https://latifkedi.github.io/useful-sites/k/web.html#sweetalert2-github-io" rel="alternate" type="text/html"/>
-  <id>https://sweetalert2.github.io/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <content type="html">&lt;p&gt;Tarayıcının çirkin alert kutusunu güzel, özelleştirilebilir modallarla değiştiren kütüphane. Yerleşik alert’ten farkı biçim, giriş alanı ve söz (promise) desteği vermesi.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://sweetalert2.github.io/&quot;&gt;https://sweetalert2.github.io/&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-  <title>web.dev</title>
-  <link href="https://latifkedi.github.io/useful-sites/k/web.html#web-dev" rel="alternate" type="text/html"/>
-  <id>https://web.dev/</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <content type="html">&lt;p&gt;Google’ın web kalitesi (performans, erişilebilirlik, PWA) rehberleri ve ölçüm araçları. MDN’den farkı referans değil rehber olması: Core Web Vitals gibi ölçütleri ve nasıl iyileştirileceklerini anlatıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://web.dev/&quot;&gt;https://web.dev/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

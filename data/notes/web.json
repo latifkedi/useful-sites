@@ -974,5 +974,50 @@
     "en": "A checklist of items to verify before launching a web page across HTML, CSS, JS, accessibility, performance and SEO, with priority labels. Unlike general guides it is a tickable, prioritised checklist.",
     "src": "secretknowledge",
     "added": 1792281600
+  },
+  {
+    "url": "https://github.com/cloudflare/kitesurf",
+    "name": "Kitesurf",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "rust",
+      "frontend",
+      "araç"
+    ],
+    "tr": "Cloudflare Workers üzerinde sunucusuz çalışmak üzere Rust ile geliştirilen deneysel hafif tarayıcı motoru; ağır Chromium altyapısının aksine kenar ağlarda milisaniyeler içinde DOM ayrıştırma ve render hedefler.",
+    "en": "Experimental lightweight browser engine written in Rust to execute inside Cloudflare Workers; designed for edge runtime DOM parsing and rendering rather than heavy headless Chromium processes.",
+    "src": "kedi",
+    "added": 1795392000
+  },
+  {
+    "url": "https://github.com/googlechrome/modern-web-guidance",
+    "name": "Modern Web Guidance",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "frontend",
+      "agent",
+      "referans"
+    ],
+    "tr": "Google Chrome ekibi tarafından kodlama ajanlarını modern web platformu standartlarına yönlendirmek için hazırlanan beceri seti; ajanların eski kütüphaneleri ve polyfill’leri önermesi yerine yerel tarayıcı API’lerini kullanmasını sağlar.",
+    "en": "Official Google Chrome skill repository that steers coding agents toward modern browser standards; promotes contemporary web platform primitives instead of relying on legacy polyfills and outdated patterns.",
+    "src": "kedi",
+    "added": 1795392000
+  },
+  {
+    "url": "https://github.com/vercel-labs/web-interface-guidelines",
+    "name": "Web Interface Guidelines",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "frontend",
+      "tasarım",
+      "referans"
+    ],
+    "tr": "Vercel Labs tarafından hazırlanan modern web arayüzü prensipleri ve kontrol listesi; soyut tasarım teorileri yerine klavye erişilebilirliği, odak halkaları ve dokunmatik hedefler gibi somut kararları sıralar.",
+    "en": "Actionable interface design guidelines from Vercel Labs covering keyboard navigation, focus states, and layouts; emphasizes concrete practical implementation details rather than abstract aesthetic theory.",
+    "src": "kedi",
+    "added": 1795392000
   }
 ]

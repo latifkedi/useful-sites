@@ -1520,5 +1520,49 @@
     "en": "Independent archive of code-heavy tutorials covering C++, Python, Linux systems programming, sockets, algorithms, and Kubernetes; provides diagrammed, copy-ready text lessons rather than video lectures.",
     "src": "kedi",
     "added": 1776586442
+  },
+  {
+    "url": "https://developer.amd.com/amd-ai-academy/",
+    "name": "AMD AI Academy",
+    "tags": [
+      "ücretsiz",
+      "müfredat",
+      "donanım",
+      "başlangıç"
+    ],
+    "tr": "AMD donanımlarında ROCm ve açık kaynak yapay zekâ kütüphaneleriyle model geliştirmeyi öğreten resmî eğitim portalı; tescilli ekosistemlerin aksine açık donanım mimarileri üzerinde hızlandırma adımlarını anlatır.",
+    "en": "Official AMD developer learning portal for training and deploying models with ROCm and open frameworks; focuses on open hardware acceleration rather than proprietary vendor stacks.",
+    "src": "kedi",
+    "added": 1795392000
+  },
+  {
+    "url": "https://bilgeis.net/",
+    "name": "Bilgeİş",
+    "tags": [
+      "ücretsiz",
+      "müfredat",
+      "sertifika",
+      "türkçe",
+      "başlangıç"
+    ],
+    "tr": "Orta Doğu Teknik Üniversitesi (ODTÜ) desteğiyle bilişim, yazılım ve tasarım alanlarında yaklaşık yüz ücretsiz çevrimiçi ders sunan eğitim portalı; yabancı platformlara kıyasla tamamı Türkçe içerik ve resmî ODTÜ onaylı başarı sertifikaları sağlar.",
+    "en": "METU-backed (ODTÜ) open learning portal offering around a hundred free online courses in software, design, and digital literacy; unlike foreign MOOCs, it provides verified Turkish instruction with university certificates.",
+    "src": "kedi",
+    "added": 1795392000
+  },
+  {
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "name": "AI Engineering from Scratch",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "müfredat",
+      "python",
+      "başlangıç"
+    ],
+    "tr": "Vektör arama, tokenleştirme ve ajan mimarileri gibi yapay zekâ mühendisliği temellerini sıfırdan Python ile inşa eden açık müfredat deposu; hazır kara kutu kütüphaneleri kullanmak yerine iç mekanizmaları kodlayarak kavratır.",
+    "en": "Curriculum and repository teaching core AI engineering components from first principles in Python; builds tokenizers, vector retrieval, and agents step by step instead of relying on black-box wrappers.",
+    "src": "kedi",
+    "added": 1795392000
   }
 ]

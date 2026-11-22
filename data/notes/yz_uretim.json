@@ -699,5 +699,65 @@
     "en": "Open-source voice synthesis studio combining text-to-speech, voice cloning, and multilingual dubbing in one interface; runs offline on a local GPU unlike paid cloud voice APIs.",
     "src": "kedi",
     "added": 1776478413
+  },
+  {
+    "url": "https://github.com/scenario-labs/skills",
+    "name": "Scenario Skills",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "agent",
+      "3b",
+      "görsel-üretim"
+    ],
+    "tr": "Oyun ve 3B varlık üretimi için Scenario MCP üzerinden Blender, Maya, Unity ve Unreal motorlarını yöneten ajan becerileri; genel kodlama becerilerine kıyasla doğrudan oyun prodüksiyonu iş akışlarına odaklanır.",
+    "en": "Agent skills that drive Blender, Maya, Unity, and Unreal via the Scenario MCP for game asset pipelines; unlike general coding skills, it focuses specifically on 3D, texturing, and game production workflows.",
+    "src": "kedi",
+    "added": 1795392000
+  },
+  {
+    "url": "https://github.com/NVIDIA/Audio2Face-3D",
+    "name": "Audio2Face-3D",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "3b",
+      "ses",
+      "görsel-üretim"
+    ],
+    "tr": "Ses kayıtlarından gerçekçi 3B yüz animasyonu ve dudak senkronizasyonu üreten NVIDIA model ve araç kiti; manuel anahtar kare animasyonu yerine doğrudan konuşma sesini yüz kas hareketlerine dönüştürür.",
+    "en": "NVIDIA models and toolchain generating expressive 3D facial animation and lip-sync motion directly from audio tracks; automates character rigging drives instead of requiring tedious manual keyframing.",
+    "src": "kedi",
+    "added": 1795392000
+  },
+  {
+    "url": "https://github.com/ace-step/ACE-Step-1.5",
+    "name": "ACE-Step",
+    "tags": [
+      "açık-ağırlık",
+      "ücretsiz",
+      "ses",
+      "self-hosted",
+      "araç"
+    ],
+    "tr": "Tüketici sınıfı ekran kartlarında yerel çalışan açık ağırlıklı müzik üretim modeli; kapalı bulut müzik servislerinin aksine CUDA, AMD ve Apple Silicon üzerinde bağımsız şarkı ve melodi üretimi sağlar.",
+    "en": "Open-weights foundation model for local music synthesis across consumer hardware; runs privately on CUDA, AMD, and Apple Silicon devices rather than gating audio behind closed proprietary APIs.",
+    "src": "kedi",
+    "added": 1795392000
+  },
+  {
+    "url": "https://github.com/elvarofficial/teardown",
+    "name": "Teardown",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "agent",
+      "3b",
+      "interaktif"
+    ],
+    "tr": "Fiziksel makineleri ve mekanizmaları parçalarına ayrılabilir interaktif 3B simülatörlere dönüştüren Claude Code becerisi; statik şematik çizimlerin aksine tarayıcıda incelenebilen animasyonlu patlatılmış montaj görünümleri sunar.",
+    "en": "Claude Code skill that turns machine descriptions into interactive 3D WebGL simulators with exploded views; provides explorable disassembled mechanisms unlike static CAD schematics.",
+    "src": "kedi",
+    "added": 1795392000
   }
 ]

@@ -5,9 +5,16 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/en/test.xml" rel="self" type="application/atom+xml"/>
 <link href="https://latifkedi.github.io/useful-sites/k/en/test.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/test.xml</id>
-<updated>2026-10-18T00:00:00Z</updated>
+<updated>2026-11-23T00:00:00Z</updated>
 <author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
 <rights>CC BY 4.0</rights>
+<entry>
+  <title>Playwright CLI</title>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#github-com-microsoft-playwright-cli" rel="alternate" type="text/html"/>
+  <id>https://github.com/microsoft/playwright-cli</id>
+  <updated>2026-11-23T00:00:00Z</updated>
+  <content type="html">&lt;p&gt;Official Microsoft command-line utility for common Playwright actions; records browser interactions and inspects selectors from the terminal rather than requiring handwritten initial test scripts.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/microsoft/playwright-cli&quot;&gt;https://github.com/microsoft/playwright-cli&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
   <title>Awesome Sites to Test On</title>
   <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#github-com-bmayhew-awesome-sites-to-test-on" rel="alternate" type="text/html"/>
@@ -280,12 +287,5 @@
   <id>https://www.omdbapi.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <content type="html">&lt;p&gt;An API serving movie and series data, handy for tests and prototypes. Since IMDb has no public API, it is the common alternative; the free key is limited to 1,000 requests a day.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.omdbapi.com/&quot;&gt;https://www.omdbapi.com/&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-  <title>Playwright</title>
-  <link href="https://latifkedi.github.io/useful-sites/k/en/test.html#playwright-dev" rel="alternate" type="text/html"/>
-  <id>https://playwright.dev</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <content type="html">&lt;p&gt;Microsoft’s cross-browser (Chromium, Firefox, WebKit) automation and testing framework, driving all three from one API. Unlike Selenium, it waits automatically and talks to the browser over its own protocol rather than WebDriver.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://playwright.dev&quot;&gt;https://playwright.dev&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

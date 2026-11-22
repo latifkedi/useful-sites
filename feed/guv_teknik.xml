@@ -5,9 +5,30 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/guv_teknik.xml" rel="self" type="application/atom+xml"/>
 <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/guv_teknik.xml</id>
-<updated>2026-10-18T00:00:00Z</updated>
+<updated>2026-11-23T00:00:00Z</updated>
 <author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
 <rights>CC BY 4.0</rights>
+<entry>
+  <title>Hackviser Hardening Tactics</title>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#hackviser-com-tactics-hardening" rel="alternate" type="text/html"/>
+  <id>https://hackviser.com/tactics/hardening</id>
+  <updated>2026-11-23T00:00:00Z</updated>
+  <content type="html">&lt;p&gt;İşletim sistemleri, ağ servisleri ve bulut altyapıları için sistem sıkılaştırma kılavuzu; salt saldırı anlatımlarının aksine savunma ve konfigürasyon denetimi adımlarına odaklanır.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://hackviser.com/tactics/hardening&quot;&gt;https://hackviser.com/tactics/hardening&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+  <title>Hackviser Pentesting Tactics</title>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#hackviser-com-tactics-pentesting" rel="alternate" type="text/html"/>
+  <id>https://hackviser.com/tactics/pentesting</id>
+  <updated>2026-11-23T00:00:00Z</updated>
+  <content type="html">&lt;p&gt;Web zafiyetleri ve ağ servisleri için pratik sızma testi tekniklerini derleyen başvuru rehberi; dağınık cheat sheet listelerine kıyasla servis ve protokol bazında yapılandırılmış saldırı senaryoları sunar.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://hackviser.com/tactics/pentesting&quot;&gt;https://hackviser.com/tactics/pentesting&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+  <title>Hackviser Tool Tactics</title>
+  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#hackviser-com-tactics-tools" rel="alternate" type="text/html"/>
+  <id>https://hackviser.com/tactics/tools</id>
+  <updated>2026-11-23T00:00:00Z</updated>
+  <content type="html">&lt;p&gt;Siber güvenlik araçlarının pratik kullanım parametrelerini ve örnek senaryolarını açıklayan başvuru kaynağı; standart man sayfalarına kıyasla araçları gerçek sızma testi işlevlerine göre gruplar.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://hackviser.com/tactics/tools&quot;&gt;https://hackviser.com/tactics/tools&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
   <title>Application Security Wiki</title>
   <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#appsecwiki-com" rel="alternate" type="text/html"/>
@@ -266,26 +287,5 @@
   <id>https://github.com/Hack-with-Github/Awesome-Hacking</id>
   <updated>2026-09-10T20:53:20Z</updated>
   <content type="html">&lt;p&gt;Hacker, pentester ve araştırmacılar için awesome listelerini toplayan bir liste. Tek tek konu listelerinden farkı üst dizin olması: OSINT’ten zararlı yazılım analizine kadar onlarca alt listeye tek kapıdan giriş sağlıyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/Hack-with-Github/Awesome-Hacking&quot;&gt;https://github.com/Hack-with-Github/Awesome-Hacking&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-  <title>Awesome OSINT</title>
-  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#github-com-jivoi-awesome-osint" rel="alternate" type="text/html"/>
-  <id>https://github.com/jivoi/awesome-osint</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <content type="html">&lt;p&gt;Açık kaynak istihbarat araç ve kaynaklarının kategori kategori (kişi, alan adı, sosyal medya, coğrafi) listesi. Tek amaçlı OSINT araçlarından farkı harita olması: hangi işe hangi aracın olduğunu gösteren, alanın en çok atıf alan başlangıç dizini.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/jivoi/awesome-osint&quot;&gt;https://github.com/jivoi/awesome-osint&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-  <title>Awesome Web Security</title>
-  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#github-com-qazbnm456-awesome-web-security" rel="alternate" type="text/html"/>
-  <id>https://github.com/qazbnm456/awesome-web-security</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <content type="html">&lt;p&gt;Web güvenliğine odaklı, saldırı sınıflarına (XSS, SSRF, deserialization) göre bölünmüş kaynak listesi. Genel hacking listelerinden farkı dar ve derin olması: yalnız web katmanını hedefliyor, her zafiyet türü için makale, araç ve laboratuvarı bir arada topluyor.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/qazbnm456/awesome-web-security&quot;&gt;https://github.com/qazbnm456/awesome-web-security&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-  <title>HackTricks</title>
-  <link href="https://latifkedi.github.io/useful-sites/k/guv_teknik.html#hacktricks-wiki" rel="alternate" type="text/html"/>
-  <id>https://hacktricks.wiki/</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <content type="html">&lt;p&gt;Pentest, red team, web, bulut ve ayrıcalık yükseltme tekniklerini adım adım komutlarla veren bilgi tabanı. Kavramsal güvenlik kitaplarından farkı doğrudan çalıştırılabilir olması: her sayfa “şu porta şu komutu at, çıktıda şunu ara” diyecek kadar somut, ezber değil sahada kullanılan bir başvuru.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://hacktricks.wiki/&quot;&gt;https://hacktricks.wiki/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

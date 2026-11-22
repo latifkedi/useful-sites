@@ -1061,5 +1061,184 @@
     "en": "Cloudflare agent skill that guides coding agents through contextual security audits and secret-leak checks across a codebase; performs semantic review unlike static regex linters.",
     "src": "kedi",
     "added": 1776478428
+  },
+  {
+    "url": "https://github.com/vercel-labs/agent-desktop",
+    "name": "Agent Desktop",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "agent",
+      "cli",
+      "araç"
+    ],
+    "tr": "Yapay zekâ ajanlarının masaüstü pencereleriyle etkileşime girmesini sağlayan hafif CLI aracı; ağır sanal makine veya konteyner kurulumları yerine doğrudan yerel işletim sistemi arayüzünü komut satırından kontrol eder.",
+    "en": "Lightweight CLI that enables AI agents to interact with desktop windows through screen capture and input simulation; operates directly on the native OS instead of requiring heavy virtual machine environments.",
+    "src": "kedi",
+    "added": 1795392000
+  },
+  {
+    "url": "https://github.com/thedotmack/claude-mem",
+    "name": "claude-mem",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "agent",
+      "araç",
+      "otomasyon"
+    ],
+    "tr": "Ajan oturumları arasındaki bağlamı otomatik sıkıştırıp sonraki oturumlara aktaran bellek motoru; harici vektör veritabanı altyapısı kurmak yerine oturum geçmişini yerel ve pratik biçimde korur.",
+    "en": "Persistent memory engine that captures and compresses agent session activity to inject into future runs; preserves cross-session context locally instead of requiring complex external vector database setups.",
+    "src": "kedi",
+    "added": 1795392000
+  },
+  {
+    "url": "https://github.com/mattpocock/skills",
+    "name": "Matt Pocock Skills",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "agent",
+      "javascript",
+      "araç"
+    ],
+    "tr": "Claude Code ve Codex için TypeScript odaklı mühendislik becerileri koleksiyonu; teorik şablonlar yerine gerçek geliştirici alışkanlıkları ve tip güvenliği refactoring adımları sunar.",
+    "en": "Collection of TypeScript-focused agent skills for Claude Code and Codex; relies on real-world engineering habits and type-driven refactoring workflows rather than abstract prompt templates.",
+    "src": "kedi",
+    "added": 1795392000
+  },
+  {
+    "url": "https://github.com/coreyhaines31/marketingskills",
+    "name": "Marketing Skills",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "agent",
+      "araç",
+      "referans"
+    ],
+    "tr": "Claude Code ve yapay zekâ ajanları için metin yazarlığı, SEO ve büyüme mühendisliği becerileri paketi; salt kodlama becerilerine kıyasla dönüşüm optimizasyonu ve ürün lansmanı kurallarına odaklanır.",
+    "en": "Growth engineering, copywriting, and CRO skills designed for Claude Code and coding agents; differs from purely technical agent tools by embedding conversion rate principles and landing page critique.",
+    "src": "kedi",
+    "added": 1795392000
+  },
+  {
+    "url": "https://github.com/Panniantong/agent-reach",
+    "name": "Agent-Reach",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "agent",
+      "cli",
+      "araç"
+    ],
+    "tr": "Yapay zekâ ajanlarının Twitter, Reddit, YouTube ve web içeriklerini ücretsiz arayıp okumasını sağlayan CLI aracı; pahalı resmî platform API ücretleri yerine tek komut satırı üzerinden temiz metin çıkarır.",
+    "en": "Command-line tool giving AI agents the ability to search and read social platforms and the web; extracts clean structured content without recurring API fees instead of relying on costly platform tokens.",
+    "src": "kedi",
+    "added": 1795392000
+  },
+  {
+    "url": "https://github.com/tt-a1i/archify",
+    "name": "Archify",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "agent",
+      "tasarım",
+      "araç"
+    ],
+    "tr": "Kod tabanlarını, mimari planları ve fikirleri interaktif şemalara dönüştüren Claude Code ve Codex becerisi; statik görsel çıktıları yerine tarayıcıda incelenebilir canlı mimari diyagramlar üretir.",
+    "en": "Agent skill for Claude Code and Codex that turns codebases and plans into interactive architecture diagrams; generates explorable browser visualizations rather than plain static image exports.",
+    "src": "kedi",
+    "added": 1795392000
+  },
+  {
+    "url": "https://github.com/juliobsz/skills",
+    "name": "Julio Skills",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "agent",
+      "frontend",
+      "tasarım"
+    ],
+    "tr": "Tek satırlık komutlardan ödüllü kalitede web siteleri inşa eden Claude Code becerisi; jenerik yapay zekâ şablonlarının yerine belirgin tipografi, ritim ve rafine tasarım detayları kurar.",
+    "en": "Agent skill for Claude Code designed to build award-caliber web interfaces from concise briefs; steers agents toward distinct typographic rhythm and intentional craft rather than generic templates.",
+    "src": "kedi",
+    "added": 1795392000
+  },
+  {
+    "url": "https://apify.com/",
+    "name": "Apify",
+    "tags": [
+      "freemium",
+      "otomasyon",
+      "api",
+      "araç"
+    ],
+    "tr": "Web kazıma, veri çıkarma ve otomasyon araçlarının hazır olarak çalıştırılabildiği bulut platformu ve pazaryeri; sıfırdan tarayıcı altyapısı kurmak yerine hazır aktörler ve API entegrasyonları sağlar.",
+    "en": "Cloud platform and marketplace of ready-to-run web scrapers, crawlers, and data extraction actors; lets developers and agents invoke maintained scraping jobs instead of managing server farms from scratch.",
+    "src": "kedi",
+    "added": 1795392000
+  },
+  {
+    "url": "https://github.com/pbakaus/impeccable",
+    "name": "Impeccable",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "agent",
+      "tasarım",
+      "araç"
+    ],
+    "tr": "Kodlama ajanlarına tasarım vokabüleri ve estetik eleştiri yeteneği kazandıran beceri paketi; standart kod üreticilerinin aksine jenerik yapay zekâ şablonlarını dağıtıma çıkmadan yakalayıp hiyerarşiyi denetler.",
+    "en": "Design vocabulary and critique skill for coding agents; reviews UI layouts and typography to intercept generic AI output before deployment instead of letting raw boilerplate reach production.",
+    "src": "kedi",
+    "added": 1795392000
+  },
+  {
+    "url": "https://github.com/leonxlnx/taste-skill",
+    "name": "Taste Skill",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "agent",
+      "tasarım",
+      "frontend"
+    ],
+    "tr": "Kodlama ajanlarına sanat yönetimi, referans görsel analizi ve tarayıcı denetimi katan beceri seti; metin komutlarına körü körüne uymak yerine görsel zevk ve tutarlı stil kılavuzları uygular.",
+    "en": "Agent skill that equips coding agents with art direction, visual references, and browser preview auditing; enforces visual polish and aesthetic judgment rather than generating bland standard layouts.",
+    "src": "kedi",
+    "added": 1795392000
+  },
+  {
+    "url": "https://github.com/Nutlope/hallmark",
+    "name": "Hallmark",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "agent",
+      "tasarım",
+      "frontend"
+    ],
+    "tr": "Claude Code, Cursor ve Codex için jenerik yapay zekâ tasarım kalıplarını engelleyen tasarım becerisi; basmakalıp mor degrade ve kart düzenleri yerine özgün mikro etkileşimler ve net kontrastlar kurar.",
+    "en": "Anti-slop design skill for Claude Code, Cursor, and Codex; guides agents away from generic purple gradients toward intentional typography and clean contrast instead of repetitive card grids.",
+    "src": "kedi",
+    "added": 1795392000
+  },
+  {
+    "url": "https://github.com/emilkowalski/skills",
+    "name": "Emil Kowalski Skills",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "agent",
+      "tasarım",
+      "frontend"
+    ],
+    "tr": "Etkileşim tasarımcısı Emil Kowalski tarafından ajanlar için hazırlanan mikro animasyon ve UI mühendisliği becerileri; kaba CSS geçişleri yerine akıcı yay animasyonları ve kusursuz bileşen etkileşimleri uygular.",
+    "en": "Agent skills focused on micro-interactions, motion design, and UI engineering craft; injects spring physics and fluid component details rather than stiff generic CSS transitions.",
+    "src": "kedi",
+    "added": 1795392000
   }
 ]

@@ -998,5 +998,47 @@
     "en": "Open-source command-line tool built to streamline reverse engineering and binary triage workflows; enables fast initial inspection before spinning up heavy graphical disassemblers.",
     "src": "kedi",
     "added": 1776478449
+  },
+  {
+    "url": "https://hackviser.com/tactics/pentesting",
+    "name": "Hackviser Pentesting Tactics",
+    "tags": [
+      "ücretsiz",
+      "güvenlik",
+      "referans",
+      "dokümantasyon"
+    ],
+    "tr": "Web zafiyetleri ve ağ servisleri için pratik sızma testi tekniklerini derleyen başvuru rehberi; dağınık cheat sheet listelerine kıyasla servis ve protokol bazında yapılandırılmış saldırı senaryoları sunar.",
+    "en": "Practical penetration testing reference covering web vulnerabilities, protocols, and network services; provides structured attack workflows by service rather than unorganized command cheat sheets.",
+    "src": "kedi",
+    "added": 1795392000
+  },
+  {
+    "url": "https://hackviser.com/tactics/hardening",
+    "name": "Hackviser Hardening Tactics",
+    "tags": [
+      "ücretsiz",
+      "güvenlik",
+      "referans",
+      "dokümantasyon"
+    ],
+    "tr": "İşletim sistemleri, ağ servisleri ve bulut altyapıları için sistem sıkılaştırma kılavuzu; salt saldırı anlatımlarının aksine savunma ve konfigürasyon denetimi adımlarına odaklanır.",
+    "en": "System hardening and defensive configuration guide across operating systems and infrastructure services; unlike purely offensive manuals, it focuses on mitigation, policy enforcement, and audit steps.",
+    "src": "kedi",
+    "added": 1795392000
+  },
+  {
+    "url": "https://hackviser.com/tactics/tools",
+    "name": "Hackviser Tool Tactics",
+    "tags": [
+      "ücretsiz",
+      "güvenlik",
+      "araç",
+      "referans"
+    ],
+    "tr": "Siber güvenlik araçlarının pratik kullanım parametrelerini ve örnek senaryolarını açıklayan başvuru kaynağı; standart man sayfalarına kıyasla araçları gerçek sızma testi işlevlerine göre gruplar.",
+    "en": "Quick reference for essential cybersecurity tools with practical command syntax and usage contexts; differs from standard man pages by grouping tools around actionable pentesting workflows.",
+    "src": "kedi",
+    "added": 1795392000
   }
 ]

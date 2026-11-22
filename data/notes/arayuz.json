@@ -542,5 +542,20 @@
     "en": "Enter a foreground and a background colour and it gives the contrast ratio and whether it passes WCAG AA/AAA for normal text, large text and UI components. Unlike palette generators it suggests nothing; it tells you whether a pair you chose meets the legibility threshold.",
     "src": "bosluk",
     "added": 1792281600
+  },
+  {
+    "url": "https://github.com/meta/astryx",
+    "name": "Astryx",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "frontend",
+      "tasarım",
+      "javascript"
+    ],
+    "tr": "Meta tarafından React 19 ve StyleX üzerinde geliştirilen, yapay zekâ ajanları ve geliştiriciler için uyarlanabilir açık kaynak tasarım sistemi; katı bileşen kütüphanelerine kıyasla ajanların stil manipülasyonuna olanak tanır.",
+    "en": "Open-source design system from Meta built on React 19 and StyleX; engineered for agentic workflows, offering modular composition rather than rigid monolithic component patterns.",
+    "src": "kedi",
+    "added": 1795392000
   }
 ]

@@ -5,9 +5,16 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/test.xml" rel="self" type="application/atom+xml"/>
 <link href="https://latifkedi.github.io/useful-sites/k/test.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/test.xml</id>
-<updated>2026-10-18T00:00:00Z</updated>
+<updated>2026-11-23T00:00:00Z</updated>
 <author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
 <rights>CC BY 4.0</rights>
+<entry>
+  <title>Playwright CLI</title>
+  <link href="https://latifkedi.github.io/useful-sites/k/test.html#github-com-microsoft-playwright-cli" rel="alternate" type="text/html"/>
+  <id>https://github.com/microsoft/playwright-cli</id>
+  <updated>2026-11-23T00:00:00Z</updated>
+  <content type="html">&lt;p&gt;Microsoft tarafından Playwright işlemleri için sunulan resmî komut satırı aracı; elle test kodu yazmak yerine tarayıcı hareketlerini kaydedip kod üretir, seçicileri inceler ve ekran görüntüsü alır.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/microsoft/playwright-cli&quot;&gt;https://github.com/microsoft/playwright-cli&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
   <title>Awesome Sites to Test On</title>
   <link href="https://latifkedi.github.io/useful-sites/k/test.html#github-com-bmayhew-awesome-sites-to-test-on" rel="alternate" type="text/html"/>
@@ -280,12 +287,5 @@
   <id>https://www.omdbapi.com/</id>
   <updated>2026-09-18T00:00:00Z</updated>
   <content type="html">&lt;p&gt;Film ve dizi verisi sunan API; test ve prototip için elverişli. IMDb’nin herkese açık bir API’si olmadığı için yaygın alternatif; ücretsiz anahtar günlük 1.000 istekle sınırlı.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.omdbapi.com/&quot;&gt;https://www.omdbapi.com/&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-  <title>Playwright</title>
-  <link href="https://latifkedi.github.io/useful-sites/k/test.html#playwright-dev" rel="alternate" type="text/html"/>
-  <id>https://playwright.dev</id>
-  <updated>2026-09-18T00:00:00Z</updated>
-  <content type="html">&lt;p&gt;Microsoft’un çok tarayıcılı (Chromium, Firefox, WebKit) otomasyon ve test çatısı; üçünü tek API ile sürer. Selenium’dan farkı otomatik beklemesi ve tarayıcıyla WebDriver yerine kendi protokolü üzerinden konuşması.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://playwright.dev&quot;&gt;https://playwright.dev&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

@@ -1093,5 +1093,92 @@
     "en": "Concise prompt rules designed to eliminate generic, cliché language (\"AI slop\") from LLM outputs; provides direct negative constraints rather than lengthy style guides.",
     "src": "kedi",
     "added": 1776452328
+  },
+  {
+    "url": "https://github.com/Thysrael/Horizon",
+    "name": "Horizon",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "self-hosted",
+      "araç",
+      "otomasyon"
+    ],
+    "tr": "Kişisel RSS ve web kaynaklarını tarayıp günlük yapılandırılmış yapay zekâ bültenleri üreten haber radarı; merkezi SaaS bülten platformları yerine tamamen yerel modeller ve özel filtrelerle çalışır.",
+    "en": "Self-hosted news radar that aggregates feeds and generates structured daily AI briefings; operates locally with custom LLM backends instead of depending on closed centralized newsletter services.",
+    "src": "kedi",
+    "added": 1795392000
+  },
+  {
+    "url": "https://www.deeplearning.ai/the-batch/",
+    "name": "The Batch",
+    "tags": [
+      "ücretsiz",
+      "referans",
+      "akademik",
+      "llm"
+    ],
+    "tr": "Andrew Ng ve DeepLearning.AI ekibi tarafından hazırlanan haftalık yapay zekâ bülteni; yüzeysel haber akışlarının aksine kritik araştırma makalelerini, pratik çıkarımları ve etik tartışmaları derinlemesine irdeler.",
+    "en": "Weekly artificial intelligence newsletter curated by Andrew Ng and the DeepLearning.AI editorial team; dives into research papers and industry implications rather than skimming hype-driven headlines.",
+    "src": "kedi",
+    "added": 1795392000
+  },
+  {
+    "url": "https://tldr.tech/ai",
+    "name": "TLDR AI",
+    "tags": [
+      "ücretsiz",
+      "referans",
+      "llm",
+      "araç"
+    ],
+    "tr": "Yapay zekâ alanındaki yeni modelleri, makaleleri ve araçları günlük 5 dakikada özetleyen e-posta bülteni; uzun akademik metinler yerine pratik linkler ve hap özetlerle sektörel gelişmeleri takip ettirir.",
+    "en": "Concise daily newsletter summarizing major breakthrough models, research papers, and developer tools in artificial intelligence; delivers bite-sized insights instead of demanding hours of reading.",
+    "src": "kedi",
+    "added": 1795392000
+  },
+  {
+    "url": "https://alphasignal.ai/",
+    "name": "AlphaSignal",
+    "tags": [
+      "ücretsiz",
+      "referans",
+      "llm",
+      "akademik"
+    ],
+    "tr": "Mühendisler ve araştırmacılar için haftanın en etkili makalelerini, açık modellerini ve kod depolarını algoritmik olarak puanlayıp özetleyen bülten; gürültülü sosyal medya akışlarına kıyasla teknik değeri yüksek çalışmaları öne çıkarır.",
+    "en": "Weekly summary that algorithmically ranks the most impactful papers, model weights, and open-source repositories; filters out social media noise to surface high-signal breakthroughs compared to raw feeds.",
+    "src": "kedi",
+    "added": 1795392000
+  },
+  {
+    "url": "https://github.com/latent-spaces/brag",
+    "name": "Brag",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "cli",
+      "video",
+      "araç"
+    ],
+    "tr": "Yeni tamamlanan kod depolarından tek komutla kısa ve paylaşılabilir tanıtım videoları üreten CLI aracı; harici video kurgu yazılımlarıyla uğraşmak yerine proje yapısını otomatik olarak görsel hikâyeye dönüştürür.",
+    "en": "Developer CLI tool that transforms newly built code repositories into short launch demo videos; generates shareable showcase clips automatically instead of requiring manual video editing workflows.",
+    "src": "kedi",
+    "added": 1795392000
+  },
+  {
+    "url": "https://github.com/cjpais/Handy",
+    "name": "Handy",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "ses",
+      "çevrimdışı",
+      "masaüstü"
+    ],
+    "tr": "Yerel modellerle tamamen çevrimdışı ve gizlilik odaklı çalışan açık kaynak ses-metin dönüştürme masaüstü uygulaması; bulut tabanlı transkripsiyon servislerinin yerine küresel kısayol tuşuyla doğrudan metin yazdırır.",
+    "en": "Free, open-source speech-to-text desktop application that runs completely offline with local models; types dictated text via global hotkeys instead of transmitting audio to cloud providers.",
+    "src": "kedi",
+    "added": 1795392000
   }
 ]

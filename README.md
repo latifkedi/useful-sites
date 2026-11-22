@@ -7,7 +7,7 @@ how it differs from the tools that resemble it. Every link is re-checked each
 week, dead ones are marked, and archived or dormant repositories are flagged.
 Published in Turkish and English, with no trackers and no analytics.
 
-An annotated directory of <!-- n -->2,100+<!-- /n --> links across ten areas, from
+An annotated directory of <!-- n -->2,200+<!-- /n --> links across ten areas, from
 software and AI to security, economics and architecture, organised into
 <!-- c -->48<!-- /c --> categories.
 

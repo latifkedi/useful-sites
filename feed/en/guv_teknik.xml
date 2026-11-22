@@ -5,9 +5,30 @@
 <link href="https://latifkedi.github.io/useful-sites/feed/en/guv_teknik.xml" rel="self" type="application/atom+xml"/>
 <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html" rel="alternate" type="text/html"/>
 <id>https://latifkedi.github.io/useful-sites/feed/en/guv_teknik.xml</id>
-<updated>2026-10-18T00:00:00Z</updated>
+<updated>2026-11-23T00:00:00Z</updated>
 <author><name>latifkedi</name><uri>https://github.com/latifkedi</uri></author>
 <rights>CC BY 4.0</rights>
+<entry>
+  <title>Hackviser Hardening Tactics</title>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#hackviser-com-tactics-hardening" rel="alternate" type="text/html"/>
+  <id>https://hackviser.com/tactics/hardening</id>
+  <updated>2026-11-23T00:00:00Z</updated>
+  <content type="html">&lt;p&gt;System hardening and defensive configuration guide across operating systems and infrastructure services; unlike purely offensive manuals, it focuses on mitigation, policy enforcement, and audit steps.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://hackviser.com/tactics/hardening&quot;&gt;https://hackviser.com/tactics/hardening&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+  <title>Hackviser Pentesting Tactics</title>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#hackviser-com-tactics-pentesting" rel="alternate" type="text/html"/>
+  <id>https://hackviser.com/tactics/pentesting</id>
+  <updated>2026-11-23T00:00:00Z</updated>
+  <content type="html">&lt;p&gt;Practical penetration testing reference covering web vulnerabilities, protocols, and network services; provides structured attack workflows by service rather than unorganized command cheat sheets.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://hackviser.com/tactics/pentesting&quot;&gt;https://hackviser.com/tactics/pentesting&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
+<entry>
+  <title>Hackviser Tool Tactics</title>
+  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#hackviser-com-tactics-tools" rel="alternate" type="text/html"/>
+  <id>https://hackviser.com/tactics/tools</id>
+  <updated>2026-11-23T00:00:00Z</updated>
+  <content type="html">&lt;p&gt;Quick reference for essential cybersecurity tools with practical command syntax and usage contexts; differs from standard man pages by grouping tools around actionable pentesting workflows.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://hackviser.com/tactics/tools&quot;&gt;https://hackviser.com/tactics/tools&lt;/a&gt;&lt;/p&gt;</content>
+</entry>
 <entry>
   <title>Application Security Wiki</title>
   <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#appsecwiki-com" rel="alternate" type="text/html"/>
@@ -266,26 +287,5 @@
   <id>https://github.com/Hack-with-Github/Awesome-Hacking</id>
   <updated>2026-09-10T20:53:20Z</updated>
   <content type="html">&lt;p&gt;A list that collects awesome lists for hackers, pentesters and researchers. Unlike the individual topic lists it is the index above them: one door into dozens of sub-lists from OSINT to malware analysis.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/Hack-with-Github/Awesome-Hacking&quot;&gt;https://github.com/Hack-with-Github/Awesome-Hacking&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-  <title>Awesome OSINT</title>
-  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#github-com-jivoi-awesome-osint" rel="alternate" type="text/html"/>
-  <id>https://github.com/jivoi/awesome-osint</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <content type="html">&lt;p&gt;A category-by-category list of open-source intelligence tools and resources (people, domains, social media, geolocation). Unlike a single-purpose OSINT tool it is the map: the field’s most-cited starting index for which tool fits which job.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/jivoi/awesome-osint&quot;&gt;https://github.com/jivoi/awesome-osint&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-  <title>Awesome Web Security</title>
-  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#github-com-qazbnm456-awesome-web-security" rel="alternate" type="text/html"/>
-  <id>https://github.com/qazbnm456/awesome-web-security</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <content type="html">&lt;p&gt;A resource list focused on web security, split by attack class (XSS, SSRF, deserialisation). Against general hacking lists it is narrow and deep: it targets the web layer alone, gathering articles, tools and labs together for each vulnerability type.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/qazbnm456/awesome-web-security&quot;&gt;https://github.com/qazbnm456/awesome-web-security&lt;/a&gt;&lt;/p&gt;</content>
-</entry>
-<entry>
-  <title>HackTricks</title>
-  <link href="https://latifkedi.github.io/useful-sites/k/en/guv_teknik.html#hacktricks-wiki" rel="alternate" type="text/html"/>
-  <id>https://hacktricks.wiki/</id>
-  <updated>2026-09-10T20:53:20Z</updated>
-  <content type="html">&lt;p&gt;A knowledge base giving pentest, red-team, web, cloud and privilege-escalation techniques as step-by-step commands. Unlike conceptual security books it is directly runnable: every page is concrete enough to say “throw this command at that port, look for this in the output” — a field reference, not theory.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://hacktricks.wiki/&quot;&gt;https://hacktricks.wiki/&lt;/a&gt;&lt;/p&gt;</content>
 </entry>
 </feed>

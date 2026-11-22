@@ -791,5 +791,20 @@
     "en": "A compilation of static analysis tools, linters and formatters grouped by language and format (formerly awesome-static-analysis). It is for surveying the options for a language rather than documenting a single tool.",
     "src": "secretknowledge",
     "added": 1792281600
+  },
+  {
+    "url": "https://github.com/microsoft/playwright-cli",
+    "name": "Playwright CLI",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "cli",
+      "otomasyon",
+      "araç"
+    ],
+    "tr": "Microsoft tarafından Playwright işlemleri için sunulan resmî komut satırı aracı; elle test kodu yazmak yerine tarayıcı hareketlerini kaydedip kod üretir, seçicileri inceler ve ekran görüntüsü alır.",
+    "en": "Official Microsoft command-line utility for common Playwright actions; records browser interactions and inspects selectors from the terminal rather than requiring handwritten initial test scripts.",
+    "src": "kedi",
+    "added": 1795392000
   }
 ]

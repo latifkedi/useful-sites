@@ -515,5 +515,20 @@
     "en": "Open-source AI answering engine (formerly Perplexica) that pairs web search with local or cloud LLMs to produce cited answers; runs self-hosted with local models unlike commercial Perplexity.",
     "src": "kedi",
     "added": 1776478440
+  },
+  {
+    "url": "https://github.com/NVIDIA/auto-ontology",
+    "name": "Auto Ontology",
+    "tags": [
+      "açık-kaynak",
+      "ücretsiz",
+      "python",
+      "rag",
+      "agent"
+    ],
+    "tr": "LLM ve ajan iş akışları için veriler üzerinde anlamsal bilgi grafı katmanı oluşturan kütüphane; yalnızca vektör benzerliğine dayanan aramalara kıyasla deterministik sorgu üretimi ve doğrulanabilir akıl yürütme sağlar.",
+    "en": "NVIDIA framework for building semantic, graph-based reasoning layers over data for LLMs; provides deterministic query generation and verifiable retrieval rather than relying solely on fuzzy vector similarity.",
+    "src": "kedi",
+    "added": 1795392000
   }
 ]
